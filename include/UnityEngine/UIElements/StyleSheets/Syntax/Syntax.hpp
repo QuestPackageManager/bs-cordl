@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "UnityEngine/UIElements/StyleSheets/Syntax/DataType.hpp"
 #include "UnityEngine/UIElements/StyleSheets/Syntax/Expression.hpp"
@@ -14,5 +14,6 @@ module;
 #include "UnityEngine/UIElements/StyleSheets/Syntax/StyleSyntaxTokenType.hpp"
 #include "UnityEngine/UIElements/StyleSheets/Syntax/StyleSyntaxTokenizer.hpp"
 #ifdef __cpp_modules
-export module Syntax;
-#endif
+                    export module Syntax;
+                    #endif
+                

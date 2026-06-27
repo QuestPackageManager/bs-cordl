@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "System/Xml/Serialization/ClassMap.hpp"
 #include "System/Xml/Serialization/CodeIdentifier.hpp"
@@ -81,5 +81,6 @@ module;
 #include "System/Xml/Serialization/XmlTypeMapping.hpp"
 #include "System/Xml/Serialization/XmlTypeSerializationSource.hpp"
 #ifdef __cpp_modules
-export module Serialization;
-#endif
+                    export module Serialization;
+                    #endif
+                

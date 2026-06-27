@@ -12,79 +12,79 @@ struct DebugLightingMode;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::Universal::DebugLightingMode);
-// Dependencies
+// Dependencies 
 namespace UnityEngine::Rendering::Universal {
 // Is value type: true
 // CS Name: UnityEngine.Rendering.Universal.DebugLightingMode
 struct CORDL_TYPE DebugLightingMode {
 public:
-  // Declarations
-  using __CORDL_BACKING_ENUM_TYPE = int32_t;
+// Declarations
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct __DebugLightingMode_Unwrapped
-  enum struct __DebugLightingMode_Unwrapped : int32_t {
-    __E_None = static_cast<int32_t>(0x0),
-    __E_ShadowCascades = static_cast<int32_t>(0x1),
-    __E_LightingWithoutNormalMaps = static_cast<int32_t>(0x2),
-    __E_LightingWithNormalMaps = static_cast<int32_t>(0x3),
-    __E_Reflections = static_cast<int32_t>(0x4),
-    __E_ReflectionsWithSmoothness = static_cast<int32_t>(0x5),
-    __E_GlobalIllumination = static_cast<int32_t>(0x6),
-  };
+/// @brief Nested struct __DebugLightingMode_Unwrapped
+enum struct __DebugLightingMode_Unwrapped : int32_t {
+__E_None = static_cast<int32_t>(0x0),
+__E_ShadowCascades = static_cast<int32_t>(0x1),
+__E_LightingWithoutNormalMaps = static_cast<int32_t>(0x2),
+__E_LightingWithNormalMaps = static_cast<int32_t>(0x3),
+__E_Reflections = static_cast<int32_t>(0x4),
+__E_ReflectionsWithSmoothness = static_cast<int32_t>(0x5),
+__E_GlobalIllumination = static_cast<int32_t>(0x6),
+};
 
-  /// @brief Conversion into unwrapped enum value
-  constexpr operator __DebugLightingMode_Unwrapped() const noexcept {
-    return static_cast<__DebugLightingMode_Unwrapped>(this->value__);
-  }
+/// @brief Conversion into unwrapped enum value
+constexpr operator __DebugLightingMode_Unwrapped () const noexcept {
+return static_cast<__DebugLightingMode_Unwrapped>(this->value__);
+}
 
-  /// @brief Conversion into unwrapped enum value
-  constexpr explicit operator int32_t() const noexcept {
-    return static_cast<int32_t>(this->value__);
-  }
+/// @brief Conversion into unwrapped enum value
+constexpr explicit operator int32_t () const noexcept {
+return static_cast<int32_t>(this->value__);
+}
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DebugLightingMode();
+// Ctor Parameters []
+// @brief default ctor
+constexpr DebugLightingMode() ;
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr DebugLightingMode(int32_t value__) noexcept;
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr DebugLightingMode(int32_t  value__) noexcept;
 
-  /// @brief Field GlobalIllumination value: I32(6)
-  static ::UnityEngine::Rendering::Universal::DebugLightingMode const GlobalIllumination;
+/// @brief Field GlobalIllumination value: I32(6)
+static ::UnityEngine::Rendering::Universal::DebugLightingMode const GlobalIllumination;
 
-  /// @brief Field LightingWithNormalMaps value: I32(3)
-  static ::UnityEngine::Rendering::Universal::DebugLightingMode const LightingWithNormalMaps;
+/// @brief Field LightingWithNormalMaps value: I32(3)
+static ::UnityEngine::Rendering::Universal::DebugLightingMode const LightingWithNormalMaps;
 
-  /// @brief Field LightingWithoutNormalMaps value: I32(2)
-  static ::UnityEngine::Rendering::Universal::DebugLightingMode const LightingWithoutNormalMaps;
+/// @brief Field LightingWithoutNormalMaps value: I32(2)
+static ::UnityEngine::Rendering::Universal::DebugLightingMode const LightingWithoutNormalMaps;
 
-  /// @brief Field None value: I32(0)
-  static ::UnityEngine::Rendering::Universal::DebugLightingMode const None;
+/// @brief Field None value: I32(0)
+static ::UnityEngine::Rendering::Universal::DebugLightingMode const None;
 
-  /// @brief Field Reflections value: I32(4)
-  static ::UnityEngine::Rendering::Universal::DebugLightingMode const Reflections;
+/// @brief Field Reflections value: I32(4)
+static ::UnityEngine::Rendering::Universal::DebugLightingMode const Reflections;
 
-  /// @brief Field ReflectionsWithSmoothness value: I32(5)
-  static ::UnityEngine::Rendering::Universal::DebugLightingMode const ReflectionsWithSmoothness;
+/// @brief Field ReflectionsWithSmoothness value: I32(5)
+static ::UnityEngine::Rendering::Universal::DebugLightingMode const ReflectionsWithSmoothness;
 
-  /// @brief Field ShadowCascades value: I32(1)
-  static ::UnityEngine::Rendering::Universal::DebugLightingMode const ShadowCascades;
+/// @brief Field ShadowCascades value: I32(1)
+static ::UnityEngine::Rendering::Universal::DebugLightingMode const ShadowCascades;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23239 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{23243};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x4};
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+/// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+ int32_t  value__;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Rendering::Universal::DebugLightingMode, value__) == 0x0, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::Universal::DebugLightingMode, 0x4>, "Size mismatch!");
 
-} // namespace UnityEngine::Rendering::Universal
+} // namespace end def UnityEngine::Rendering::Universal
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::Universal::DebugLightingMode, "UnityEngine.Rendering.Universal", "DebugLightingMode");

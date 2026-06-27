@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "UnityEngine/UI/AnimationTriggers.hpp"
 #include "UnityEngine/UI/AspectRatioFitter.hpp"
@@ -71,5 +71,6 @@ module;
 #include "UnityEngine/UI/VertexHelper.hpp"
 #include "UnityEngine/UI/VerticalLayoutGroup.hpp"
 #ifdef __cpp_modules
-export module UI;
-#endif
+                    export module UI;
+                    #endif
+                

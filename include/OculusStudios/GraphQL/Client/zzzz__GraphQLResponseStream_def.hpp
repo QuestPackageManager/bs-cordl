@@ -16,13 +16,15 @@ namespace System::Threading::Tasks {
 class Task;
 }
 namespace System {
-template <typename T> class Action_1;
+template<typename T>
+class Action_1;
 }
 namespace System {
 class Action;
 }
 namespace System {
-template <typename T, typename TResult> class Func_2;
+template<typename T,typename TResult>
+class Func_2;
 }
 namespace System {
 class IDisposable;
@@ -43,200 +45,197 @@ namespace OculusStudios::GraphQL::Client {
 // CS Name: OculusStudios.GraphQL.Client.GraphQLResponseStream/<>c
 class CORDL_TYPE GraphQLResponseStream___c : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field <>9, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::OculusStudios::GraphQL::Client::GraphQLResponseStream___c* __9;
+// Declarations
+/// @brief Field <>9, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF___9, put=setStaticF___9)) ::OculusStudios::GraphQL::Client::GraphQLResponseStream___c*  __9;
 
-  /// @brief Field <>9__21_0, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9__21_0, put = setStaticF___9__21_0)) ::System::Action* __9__21_0;
+/// @brief Field <>9__21_0, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF___9__21_0, put=setStaticF___9__21_0)) ::System::Action*  __9__21_0;
 
-  static inline ::OculusStudios::GraphQL::Client::GraphQLResponseStream___c* New_ctor();
+static inline ::OculusStudios::GraphQL::Client::GraphQLResponseStream___c* New_ctor() ;
 
-  /// @brief Method <.ctor>b__21_0, addr 0x5df0138, size 0x4, virtual false, abstract: false, final false
-  inline void __ctor_b__21_0();
+/// @brief Method <.ctor>b__21_0, addr 0x5df1cb0, size 0x4, virtual false, abstract: false, final false
+inline void __ctor_b__21_0() ;
 
-  /// @brief Method .ctor, addr 0x5df0134, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5df1cac, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  static inline ::OculusStudios::GraphQL::Client::GraphQLResponseStream___c* getStaticF___9();
+static inline ::OculusStudios::GraphQL::Client::GraphQLResponseStream___c* getStaticF___9() ;
 
-  static inline ::System::Action* getStaticF___9__21_0();
+static inline ::System::Action* getStaticF___9__21_0() ;
 
-  static inline void setStaticF___9(::OculusStudios::GraphQL::Client::GraphQLResponseStream___c* value);
+static inline void setStaticF___9(::OculusStudios::GraphQL::Client::GraphQLResponseStream___c*  value) ;
 
-  static inline void setStaticF___9__21_0(::System::Action* value);
+static inline void setStaticF___9__21_0(::System::Action*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr GraphQLResponseStream___c();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr GraphQLResponseStream___c() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GraphQLResponseStream___c", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  GraphQLResponseStream___c(GraphQLResponseStream___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GraphQLResponseStream___c", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  GraphQLResponseStream___c(GraphQLResponseStream___c const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "GraphQLResponseStream___c", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+GraphQLResponseStream___c(GraphQLResponseStream___c && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20227 };
+// Ctor Parameters [CppParam { name: "", ty: "GraphQLResponseStream___c", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+GraphQLResponseStream___c(GraphQLResponseStream___c const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20230};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OculusStudios::GraphQL::Client::GraphQLResponseStream___c, 0x10>, "Size mismatch!");
 
-} // namespace OculusStudios::GraphQL::Client
+} // namespace end def OculusStudios::GraphQL::Client
 // Dependencies System.Object
 namespace OculusStudios::GraphQL::Client {
 // Is value type: false
 // CS Name: OculusStudios.GraphQL.Client.GraphQLResponseStream
 class CORDL_TYPE GraphQLResponseStream : public ::System::Object {
 public:
-  // Declarations
-  using __c = ::OculusStudios::GraphQL::Client::GraphQLResponseStream___c;
+// Declarations
+using __c = ::OculusStudios::GraphQL::Client::GraphQLResponseStream___c;
 
-  __declspec(property(get = get_InitialResponse, put = set_InitialResponse)) ::OculusStudios::GraphQL::Client::GraphQLResponse* InitialResponse;
+ __declspec(property(get=get_InitialResponse, put=set_InitialResponse)) ::OculusStudios::GraphQL::Client::GraphQLResponse*  InitialResponse;
 
-  /// @brief Field OnCancelled, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_OnCancelled, put = __cordl_internal_set_OnCancelled)) ::System::Action* OnCancelled;
+/// @brief Field OnCancelled, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_OnCancelled, put=__cordl_internal_set_OnCancelled)) ::System::Action*  OnCancelled;
 
-  /// @brief Field OnConnectionClosed, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_OnConnectionClosed, put = __cordl_internal_set_OnConnectionClosed)) ::System::Action* OnConnectionClosed;
+/// @brief Field OnConnectionClosed, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_OnConnectionClosed, put=__cordl_internal_set_OnConnectionClosed)) ::System::Action*  OnConnectionClosed;
 
-  /// @brief Field <InitialResponse>k__BackingField, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__InitialResponse_k__BackingField,
-                      put = __cordl_internal_set__InitialResponse_k__BackingField)) ::OculusStudios::GraphQL::Client::GraphQLResponse* _InitialResponse_k__BackingField;
+/// @brief Field <InitialResponse>k__BackingField, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get__InitialResponse_k__BackingField, put=__cordl_internal_set__InitialResponse_k__BackingField)) ::OculusStudios::GraphQL::Client::GraphQLResponse*  _InitialResponse_k__BackingField;
 
-  /// @brief Field _responseCallback, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__responseCallback,
-                      put = __cordl_internal_set__responseCallback)) ::System::Func_2<::OculusStudios::GraphQL::Client::GraphQLResponse*, ::System::Threading::Tasks::Task*>* _responseCallback;
+/// @brief Field _responseCallback, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get__responseCallback, put=__cordl_internal_set__responseCallback)) ::System::Func_2<::OculusStudios::GraphQL::Client::GraphQLResponse*,::System::Threading::Tasks::Task*>*  _responseCallback;
 
-  /// @brief Field _responseCallbackSync, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__responseCallbackSync,
-                      put = __cordl_internal_set__responseCallbackSync)) ::System::Action_1<::OculusStudios::GraphQL::Client::GraphQLResponse*>* _responseCallbackSync;
+/// @brief Field _responseCallbackSync, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get__responseCallbackSync, put=__cordl_internal_set__responseCallbackSync)) ::System::Action_1<::OculusStudios::GraphQL::Client::GraphQLResponse*>*  _responseCallbackSync;
 
-  /// @brief Convert operator to "::System::IDisposable"
-  constexpr operator ::System::IDisposable*() noexcept;
+/// @brief Convert operator to "::System::IDisposable"
+constexpr operator  ::System::IDisposable*() noexcept;
 
-  /// @brief Method Cancel, addr 0x5df0034, size 0x1c, virtual false, abstract: false, final false
-  inline void Cancel();
+/// @brief Method Cancel, addr 0x5df1bac, size 0x1c, virtual false, abstract: false, final false
+inline void Cancel() ;
 
-  /// @brief Method Dispose, addr 0x5df0004, size 0x10, virtual true, abstract: false, final true
-  inline void Dispose();
+/// @brief Method Dispose, addr 0x5df1b7c, size 0x10, virtual true, abstract: false, final true
+inline void Dispose() ;
 
-  /// @brief Method Dispose, addr 0x5df0014, size 0x20, virtual true, abstract: false, final false
-  inline void Dispose(bool disposing);
+/// @brief Method Dispose, addr 0x5df1b8c, size 0x20, virtual true, abstract: false, final false
+inline void Dispose(bool  disposing) ;
 
-  static inline ::OculusStudios::GraphQL::Client::GraphQLResponseStream* New_ctor();
+static inline ::OculusStudios::GraphQL::Client::GraphQLResponseStream* New_ctor() ;
 
-  /// @brief Method NoteConnectionClosed, addr 0x5df00c0, size 0x20, virtual false, abstract: false, final false
-  inline void NoteConnectionClosed();
+/// @brief Method NoteConnectionClosed, addr 0x5df1c38, size 0x20, virtual false, abstract: false, final false
+inline void NoteConnectionClosed() ;
 
-  /// @brief Method PostResponse, addr 0x5de8b70, size 0xbc, virtual false, abstract: false, final false
-  inline void PostResponse(::OculusStudios::GraphQL::Client::GraphQLResponse* response);
+/// @brief Method PostResponse, addr 0x5dea6e8, size 0xbc, virtual false, abstract: false, final false
+inline void PostResponse(::OculusStudios::GraphQL::Client::GraphQLResponse*  response) ;
 
-  /// @brief Method SetResponseCallback, addr 0x5df0060, size 0x30, virtual false, abstract: false, final false
-  inline void SetResponseCallback(::System::Action_1<::OculusStudios::GraphQL::Client::GraphQLResponse*>* callback);
+/// @brief Method SetResponseCallback, addr 0x5df1bd8, size 0x30, virtual false, abstract: false, final false
+inline void SetResponseCallback(::System::Action_1<::OculusStudios::GraphQL::Client::GraphQLResponse*>*  callback) ;
 
-  /// @brief Method SetResponseCallback, addr 0x5df0090, size 0x30, virtual false, abstract: false, final false
-  inline void SetResponseCallback(::System::Func_2<::OculusStudios::GraphQL::Client::GraphQLResponse*, ::System::Threading::Tasks::Task*>* callback);
+/// @brief Method SetResponseCallback, addr 0x5df1c08, size 0x30, virtual false, abstract: false, final false
+inline void SetResponseCallback(::System::Func_2<::OculusStudios::GraphQL::Client::GraphQLResponse*,::System::Threading::Tasks::Task*>*  callback) ;
 
-  constexpr ::System::Action* const& __cordl_internal_get_OnCancelled() const;
+constexpr ::System::Action* const& __cordl_internal_get_OnCancelled() const;
 
-  constexpr ::System::Action*& __cordl_internal_get_OnCancelled();
+constexpr ::System::Action*& __cordl_internal_get_OnCancelled() ;
 
-  constexpr ::System::Action* const& __cordl_internal_get_OnConnectionClosed() const;
+constexpr ::System::Action* const& __cordl_internal_get_OnConnectionClosed() const;
 
-  constexpr ::System::Action*& __cordl_internal_get_OnConnectionClosed();
+constexpr ::System::Action*& __cordl_internal_get_OnConnectionClosed() ;
 
-  constexpr ::OculusStudios::GraphQL::Client::GraphQLResponse* const& __cordl_internal_get__InitialResponse_k__BackingField() const;
+constexpr ::OculusStudios::GraphQL::Client::GraphQLResponse* const& __cordl_internal_get__InitialResponse_k__BackingField() const;
 
-  constexpr ::OculusStudios::GraphQL::Client::GraphQLResponse*& __cordl_internal_get__InitialResponse_k__BackingField();
+constexpr ::OculusStudios::GraphQL::Client::GraphQLResponse*& __cordl_internal_get__InitialResponse_k__BackingField() ;
 
-  constexpr ::System::Func_2<::OculusStudios::GraphQL::Client::GraphQLResponse*, ::System::Threading::Tasks::Task*>* const& __cordl_internal_get__responseCallback() const;
+constexpr ::System::Func_2<::OculusStudios::GraphQL::Client::GraphQLResponse*,::System::Threading::Tasks::Task*>* const& __cordl_internal_get__responseCallback() const;
 
-  constexpr ::System::Func_2<::OculusStudios::GraphQL::Client::GraphQLResponse*, ::System::Threading::Tasks::Task*>*& __cordl_internal_get__responseCallback();
+constexpr ::System::Func_2<::OculusStudios::GraphQL::Client::GraphQLResponse*,::System::Threading::Tasks::Task*>*& __cordl_internal_get__responseCallback() ;
 
-  constexpr ::System::Action_1<::OculusStudios::GraphQL::Client::GraphQLResponse*>* const& __cordl_internal_get__responseCallbackSync() const;
+constexpr ::System::Action_1<::OculusStudios::GraphQL::Client::GraphQLResponse*>* const& __cordl_internal_get__responseCallbackSync() const;
 
-  constexpr ::System::Action_1<::OculusStudios::GraphQL::Client::GraphQLResponse*>*& __cordl_internal_get__responseCallbackSync();
+constexpr ::System::Action_1<::OculusStudios::GraphQL::Client::GraphQLResponse*>*& __cordl_internal_get__responseCallbackSync() ;
 
-  constexpr void __cordl_internal_set_OnCancelled(::System::Action* value);
+constexpr void __cordl_internal_set_OnCancelled(::System::Action*  value) ;
 
-  constexpr void __cordl_internal_set_OnConnectionClosed(::System::Action* value);
+constexpr void __cordl_internal_set_OnConnectionClosed(::System::Action*  value) ;
 
-  constexpr void __cordl_internal_set__InitialResponse_k__BackingField(::OculusStudios::GraphQL::Client::GraphQLResponse* value);
+constexpr void __cordl_internal_set__InitialResponse_k__BackingField(::OculusStudios::GraphQL::Client::GraphQLResponse*  value) ;
 
-  constexpr void __cordl_internal_set__responseCallback(::System::Func_2<::OculusStudios::GraphQL::Client::GraphQLResponse*, ::System::Threading::Tasks::Task*>* value);
+constexpr void __cordl_internal_set__responseCallback(::System::Func_2<::OculusStudios::GraphQL::Client::GraphQLResponse*,::System::Threading::Tasks::Task*>*  value) ;
 
-  constexpr void __cordl_internal_set__responseCallbackSync(::System::Action_1<::OculusStudios::GraphQL::Client::GraphQLResponse*>* value);
+constexpr void __cordl_internal_set__responseCallbackSync(::System::Action_1<::OculusStudios::GraphQL::Client::GraphQLResponse*>*  value) ;
 
-  /// @brief Method .ctor, addr 0x5de8fb0, size 0xe8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5deab28, size 0xe8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method add_OnCancelled, addr 0x5dead50, size 0xac, virtual false, abstract: false, final false
-  inline void add_OnCancelled(::System::Action* value);
+/// @brief Method add_OnCancelled, addr 0x5dec8c8, size 0xac, virtual false, abstract: false, final false
+inline void add_OnCancelled(::System::Action*  value) ;
 
-  /// @brief Method add_OnConnectionClosed, addr 0x5defeac, size 0xac, virtual false, abstract: false, final false
-  inline void add_OnConnectionClosed(::System::Action* value);
+/// @brief Method add_OnConnectionClosed, addr 0x5df1a24, size 0xac, virtual false, abstract: false, final false
+inline void add_OnConnectionClosed(::System::Action*  value) ;
 
-  /// @brief Method get_InitialResponse, addr 0x5df0050, size 0x8, virtual false, abstract: false, final false
-  inline ::OculusStudios::GraphQL::Client::GraphQLResponse* get_InitialResponse();
+/// @brief Method get_InitialResponse, addr 0x5df1bc8, size 0x8, virtual false, abstract: false, final false
+inline ::OculusStudios::GraphQL::Client::GraphQLResponse* get_InitialResponse() ;
 
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+/// @brief Convert to "::System::IDisposable"
+constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method remove_OnCancelled, addr 0x5defe00, size 0xac, virtual false, abstract: false, final false
-  inline void remove_OnCancelled(::System::Action* value);
+/// @brief Method remove_OnCancelled, addr 0x5df1978, size 0xac, virtual false, abstract: false, final false
+inline void remove_OnCancelled(::System::Action*  value) ;
 
-  /// @brief Method remove_OnConnectionClosed, addr 0x5deff58, size 0xac, virtual false, abstract: false, final false
-  inline void remove_OnConnectionClosed(::System::Action* value);
+/// @brief Method remove_OnConnectionClosed, addr 0x5df1ad0, size 0xac, virtual false, abstract: false, final false
+inline void remove_OnConnectionClosed(::System::Action*  value) ;
 
-  /// @brief Method set_InitialResponse, addr 0x5df0058, size 0x8, virtual false, abstract: false, final false
-  inline void set_InitialResponse(::OculusStudios::GraphQL::Client::GraphQLResponse* value);
+/// @brief Method set_InitialResponse, addr 0x5df1bd0, size 0x8, virtual false, abstract: false, final false
+inline void set_InitialResponse(::OculusStudios::GraphQL::Client::GraphQLResponse*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr GraphQLResponseStream();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr GraphQLResponseStream() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GraphQLResponseStream", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  GraphQLResponseStream(GraphQLResponseStream&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GraphQLResponseStream", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  GraphQLResponseStream(GraphQLResponseStream const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "GraphQLResponseStream", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+GraphQLResponseStream(GraphQLResponseStream && ) = delete;
 
-  /// @brief Field INITIAL offset 0xffffffff size 0x8
-  static constexpr ::ConstString INITIAL{ u"Initial" };
+// Ctor Parameters [CppParam { name: "", ty: "GraphQLResponseStream", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+GraphQLResponseStream(GraphQLResponseStream const& ) = delete;
 
-  /// @brief Field UPDATED offset 0xffffffff size 0x8
-  static constexpr ::ConstString UPDATED{ u"Updated" };
+/// @brief Field INITIAL offset 0xffffffff size 0x8
+static constexpr ::ConstString  INITIAL{u"Initial"};
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20228 };
+/// @brief Field UPDATED offset 0xffffffff size 0x8
+static constexpr ::ConstString  UPDATED{u"Updated"};
 
-  /// @brief Field OnCancelled, offset: 0x10, size: 0x8, def value: None
-  ::System::Action* ___OnCancelled;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20231};
 
-  /// @brief Field OnConnectionClosed, offset: 0x18, size: 0x8, def value: None
-  ::System::Action* ___OnConnectionClosed;
+/// @brief Field OnCancelled, offset: 0x10, size: 0x8, def value: None
+ ::System::Action*  ___OnCancelled;
 
-  /// @brief Field _responseCallbackSync, offset: 0x20, size: 0x8, def value: None
-  ::System::Action_1<::OculusStudios::GraphQL::Client::GraphQLResponse*>* ____responseCallbackSync;
+/// @brief Field OnConnectionClosed, offset: 0x18, size: 0x8, def value: None
+ ::System::Action*  ___OnConnectionClosed;
 
-  /// @brief Field _responseCallback, offset: 0x28, size: 0x8, def value: None
-  ::System::Func_2<::OculusStudios::GraphQL::Client::GraphQLResponse*, ::System::Threading::Tasks::Task*>* ____responseCallback;
+/// @brief Field _responseCallbackSync, offset: 0x20, size: 0x8, def value: None
+ ::System::Action_1<::OculusStudios::GraphQL::Client::GraphQLResponse*>*  ____responseCallbackSync;
 
-  /// @brief Field <InitialResponse>k__BackingField, offset: 0x30, size: 0x8, def value: None
-  ::OculusStudios::GraphQL::Client::GraphQLResponse* ____InitialResponse_k__BackingField;
+/// @brief Field _responseCallback, offset: 0x28, size: 0x8, def value: None
+ ::System::Func_2<::OculusStudios::GraphQL::Client::GraphQLResponse*,::System::Threading::Tasks::Task*>*  ____responseCallback;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field <InitialResponse>k__BackingField, offset: 0x30, size: 0x8, def value: None
+ ::OculusStudios::GraphQL::Client::GraphQLResponse*  ____InitialResponse_k__BackingField;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::OculusStudios::GraphQL::Client::GraphQLResponseStream, ___OnCancelled) == 0x10, "Offset mismatch!");
@@ -251,7 +250,7 @@ static_assert(offsetof(::OculusStudios::GraphQL::Client::GraphQLResponseStream, 
 
 static_assert(::cordl_internals::size_check_v<::OculusStudios::GraphQL::Client::GraphQLResponseStream, 0x38>, "Size mismatch!");
 
-} // namespace OculusStudios::GraphQL::Client
+} // namespace end def OculusStudios::GraphQL::Client
 NEED_NO_BOX(::OculusStudios::GraphQL::Client::GraphQLResponseStream);
 DEFINE_IL2CPP_ARG_TYPE(::OculusStudios::GraphQL::Client::GraphQLResponseStream*, "OculusStudios.GraphQL.Client", "GraphQLResponseStream");
 NEED_NO_BOX(::OculusStudios::GraphQL::Client::GraphQLResponseStream___c);

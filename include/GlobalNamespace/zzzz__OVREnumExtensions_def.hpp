@@ -29,71 +29,71 @@ namespace GlobalNamespace {
 // CS Name: OVREnumExtensions
 class CORDL_TYPE OVREnumExtensions : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method AsHandType, addr 0x5dbeeb8, size 0x20, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::OVRHand_Hand AsHandType(::GlobalNamespace::OVRMesh_MeshType meshType);
+// Declarations
+/// @brief Method AsHandType, addr 0x5dc0a30, size 0x20, virtual false, abstract: false, final false
+static inline ::GlobalNamespace::OVRHand_Hand AsHandType(::GlobalNamespace::OVRMesh_MeshType  meshType) ;
 
-  /// @brief Method AsHandType, addr 0x5dbede0, size 0x20, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::OVRHand_Hand AsHandType(::GlobalNamespace::OVRSkeleton_SkeletonType skeletonType);
+/// @brief Method AsHandType, addr 0x5dc0958, size 0x20, virtual false, abstract: false, final false
+static inline ::GlobalNamespace::OVRHand_Hand AsHandType(::GlobalNamespace::OVRSkeleton_SkeletonType  skeletonType) ;
 
-  /// @brief Method AsMeshType, addr 0x5dbee40, size 0x14, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::OVRMesh_MeshType AsMeshType(::GlobalNamespace::OVRHand_Hand hand);
+/// @brief Method AsMeshType, addr 0x5dc09b8, size 0x14, virtual false, abstract: false, final false
+static inline ::GlobalNamespace::OVRMesh_MeshType AsMeshType(::GlobalNamespace::OVRHand_Hand  hand) ;
 
-  /// @brief Method AsMeshType, addr 0x5dbee70, size 0x2c, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::OVRMesh_MeshType AsMeshType(::GlobalNamespace::OVRHand_Hand hand, ::GlobalNamespace::OVRHandSkeletonVersion version);
+/// @brief Method AsMeshType, addr 0x5dc09e8, size 0x2c, virtual false, abstract: false, final false
+static inline ::GlobalNamespace::OVRMesh_MeshType AsMeshType(::GlobalNamespace::OVRHand_Hand  hand, ::GlobalNamespace::OVRHandSkeletonVersion  version) ;
 
-  /// @brief Method AsSkeletonType, addr 0x5dbee00, size 0x14, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::OVRSkeleton_SkeletonType AsSkeletonType(::GlobalNamespace::OVRHand_Hand hand);
+/// @brief Method AsSkeletonType, addr 0x5dc0978, size 0x14, virtual false, abstract: false, final false
+static inline ::GlobalNamespace::OVRSkeleton_SkeletonType AsSkeletonType(::GlobalNamespace::OVRHand_Hand  hand) ;
 
-  /// @brief Method AsSkeletonType, addr 0x5dbee14, size 0x2c, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::OVRSkeleton_SkeletonType AsSkeletonType(::GlobalNamespace::OVRHand_Hand hand, ::GlobalNamespace::OVRHandSkeletonVersion version);
+/// @brief Method AsSkeletonType, addr 0x5dc098c, size 0x2c, virtual false, abstract: false, final false
+static inline ::GlobalNamespace::OVRSkeleton_SkeletonType AsSkeletonType(::GlobalNamespace::OVRHand_Hand  hand, ::GlobalNamespace::OVRHandSkeletonVersion  version) ;
 
-  /// @brief Method IsHand, addr 0x5dbeea8, size 0x10, virtual false, abstract: false, final false
-  static inline bool IsHand(::GlobalNamespace::OVRMesh_MeshType meshType);
+/// @brief Method IsHand, addr 0x5dc0a20, size 0x10, virtual false, abstract: false, final false
+static inline bool IsHand(::GlobalNamespace::OVRMesh_MeshType  meshType) ;
 
-  /// @brief Method IsHand, addr 0x5dbeda8, size 0x10, virtual false, abstract: false, final false
-  static inline bool IsHand(::GlobalNamespace::OVRSkeleton_SkeletonType skeletonType);
+/// @brief Method IsHand, addr 0x5dc0920, size 0x10, virtual false, abstract: false, final false
+static inline bool IsHand(::GlobalNamespace::OVRSkeleton_SkeletonType  skeletonType) ;
 
-  /// @brief Method IsLeft, addr 0x5dbee9c, size 0xc, virtual false, abstract: false, final false
-  static inline bool IsLeft(::GlobalNamespace::OVRMesh_MeshType type);
+/// @brief Method IsLeft, addr 0x5dc0a14, size 0xc, virtual false, abstract: false, final false
+static inline bool IsLeft(::GlobalNamespace::OVRMesh_MeshType  type) ;
 
-  /// @brief Method IsLeft, addr 0x5dbedd4, size 0xc, virtual false, abstract: false, final false
-  static inline bool IsLeft(::GlobalNamespace::OVRSkeleton_SkeletonType type);
+/// @brief Method IsLeft, addr 0x5dc094c, size 0xc, virtual false, abstract: false, final false
+static inline bool IsLeft(::GlobalNamespace::OVRSkeleton_SkeletonType  type) ;
 
-  /// @brief Method IsOVRHandMesh, addr 0x5dbee64, size 0xc, virtual false, abstract: false, final false
-  static inline bool IsOVRHandMesh(::GlobalNamespace::OVRMesh_MeshType meshType);
+/// @brief Method IsOVRHandMesh, addr 0x5dc09dc, size 0xc, virtual false, abstract: false, final false
+static inline bool IsOVRHandMesh(::GlobalNamespace::OVRMesh_MeshType  meshType) ;
 
-  /// @brief Method IsOVRHandSkeleton, addr 0x5dbedc8, size 0xc, virtual false, abstract: false, final false
-  static inline bool IsOVRHandSkeleton(::GlobalNamespace::OVRSkeleton_SkeletonType skeletonType);
+/// @brief Method IsOVRHandSkeleton, addr 0x5dc0940, size 0xc, virtual false, abstract: false, final false
+static inline bool IsOVRHandSkeleton(::GlobalNamespace::OVRSkeleton_SkeletonType  skeletonType) ;
 
-  /// @brief Method IsOpenXRHandMesh, addr 0x5dbee54, size 0x10, virtual false, abstract: false, final false
-  static inline bool IsOpenXRHandMesh(::GlobalNamespace::OVRMesh_MeshType meshType);
+/// @brief Method IsOpenXRHandMesh, addr 0x5dc09cc, size 0x10, virtual false, abstract: false, final false
+static inline bool IsOpenXRHandMesh(::GlobalNamespace::OVRMesh_MeshType  meshType) ;
 
-  /// @brief Method IsOpenXRHandSkeleton, addr 0x5dbedb8, size 0x10, virtual false, abstract: false, final false
-  static inline bool IsOpenXRHandSkeleton(::GlobalNamespace::OVRSkeleton_SkeletonType skeletonType);
+/// @brief Method IsOpenXRHandSkeleton, addr 0x5dc0930, size 0x10, virtual false, abstract: false, final false
+static inline bool IsOpenXRHandSkeleton(::GlobalNamespace::OVRSkeleton_SkeletonType  skeletonType) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OVREnumExtensions();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr OVREnumExtensions() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVREnumExtensions", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  OVREnumExtensions(OVREnumExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVREnumExtensions", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  OVREnumExtensions(OVREnumExtensions const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "OVREnumExtensions", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+OVREnumExtensions(OVREnumExtensions && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7903 };
+// Ctor Parameters [CppParam { name: "", ty: "OVREnumExtensions", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+OVREnumExtensions(OVREnumExtensions const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{7904};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVREnumExtensions, 0x10>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::OVREnumExtensions);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVREnumExtensions*, "", "OVREnumExtensions");

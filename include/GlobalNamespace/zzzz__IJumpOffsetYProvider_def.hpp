@@ -11,28 +11,28 @@ class IJumpOffsetYProvider;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::IJumpOffsetYProvider);
-// Dependencies
+// Dependencies 
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: IJumpOffsetYProvider
 class CORDL_TYPE IJumpOffsetYProvider {
 public:
-  // Declarations
-  __declspec(property(get = get_jumpOffsetY)) float_t jumpOffsetY;
+// Declarations
+ __declspec(property(get=get_jumpOffsetY)) float_t  jumpOffsetY;
 
-  /// @brief Method get_jumpOffsetY, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline float_t get_jumpOffsetY();
+/// @brief Method get_jumpOffsetY, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline float_t get_jumpOffsetY() ;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IJumpOffsetYProvider", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  IJumpOffsetYProvider(IJumpOffsetYProvider const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "IJumpOffsetYProvider", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+IJumpOffsetYProvider(IJumpOffsetYProvider const& ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5719 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{5719};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::IJumpOffsetYProvider);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::IJumpOffsetYProvider*, "", "IJumpOffsetYProvider");

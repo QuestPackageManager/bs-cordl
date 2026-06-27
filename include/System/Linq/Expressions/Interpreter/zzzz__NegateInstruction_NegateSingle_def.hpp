@@ -21,37 +21,37 @@ namespace GlobalNamespace {
 // CS Name: System.Linq.Expressions.Interpreter.NegateInstruction/NegateSingle
 class CORDL_TYPE NegateInstruction_NegateSingle : public ::System::Linq::Expressions::Interpreter::NegateInstruction {
 public:
-  // Declarations
-  static inline ::GlobalNamespace::NegateInstruction_NegateSingle* New_ctor();
+// Declarations
+static inline ::GlobalNamespace::NegateInstruction_NegateSingle* New_ctor() ;
 
-  /// @brief Method Run, addr 0x5e746e4, size 0x8c, virtual true, abstract: false, final false
-  inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
+/// @brief Method Run, addr 0x5e7625c, size 0x8c, virtual true, abstract: false, final false
+inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame*  frame) ;
 
-  /// @brief Method .ctor, addr 0x5e74568, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5e760e0, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NegateInstruction_NegateSingle();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr NegateInstruction_NegateSingle() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NegateInstruction_NegateSingle", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  NegateInstruction_NegateSingle(NegateInstruction_NegateSingle&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NegateInstruction_NegateSingle", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  NegateInstruction_NegateSingle(NegateInstruction_NegateSingle const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "NegateInstruction_NegateSingle", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+NegateInstruction_NegateSingle(NegateInstruction_NegateSingle && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16488 };
+// Ctor Parameters [CppParam { name: "", ty: "NegateInstruction_NegateSingle", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+NegateInstruction_NegateSingle(NegateInstruction_NegateSingle const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{16490};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NegateInstruction_NegateSingle, 0x10>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::NegateInstruction_NegateSingle);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::NegateInstruction_NegateSingle*, "System.Linq.Expressions.Interpreter", "NegateInstruction/NegateSingle");

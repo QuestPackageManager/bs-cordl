@@ -30,52 +30,52 @@ namespace UnityEngine::ResourceManagement::Util {
 // CS Name: UnityEngine.ResourceManagement.Util.UnityWebRequestUtilities
 class CORDL_TYPE UnityWebRequestUtilities : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method IsAssetBundleDownloaded, addr 0x67cb4f4, size 0xa0, virtual false, abstract: false, final false
-  static inline bool IsAssetBundleDownloaded(::UnityEngine::Networking::UnityWebRequestAsyncOperation* op);
+// Declarations
+/// @brief Method IsAssetBundleDownloaded, addr 0x67cd06c, size 0xa0, virtual false, abstract: false, final false
+static inline bool IsAssetBundleDownloaded(::UnityEngine::Networking::UnityWebRequestAsyncOperation*  op) ;
 
-  /// @brief Method Log, addr 0x67d2da8, size 0x5c, virtual false, abstract: false, final false
-  static inline void Log(::StringW msg);
+/// @brief Method Log, addr 0x67d4920, size 0x5c, virtual false, abstract: false, final false
+static inline void Log(::StringW  msg) ;
 
-  /// @brief Method LogError, addr 0x67d2d4c, size 0x5c, virtual false, abstract: false, final false
-  static inline void LogError(::StringW msg);
+/// @brief Method LogError, addr 0x67d48c4, size 0x5c, virtual false, abstract: false, final false
+static inline void LogError(::StringW  msg) ;
 
-  /// @brief Method LogOperationResult, addr 0x67d2c78, size 0xd4, virtual false, abstract: false, final false
-  static inline void LogOperationResult(::UnityEngine::AsyncOperation* op);
+/// @brief Method LogOperationResult, addr 0x67d47f0, size 0xd4, virtual false, abstract: false, final false
+static inline void LogOperationResult(::UnityEngine::AsyncOperation*  op) ;
 
-  static inline ::UnityEngine::ResourceManagement::Util::UnityWebRequestUtilities* New_ctor();
+static inline ::UnityEngine::ResourceManagement::Util::UnityWebRequestUtilities* New_ctor() ;
 
-  /// @brief Method RequestHasErrors, addr 0x67d2a74, size 0x124, virtual false, abstract: false, final false
-  static inline bool RequestHasErrors(::UnityEngine::Networking::UnityWebRequest* webReq, ::ByRef<::UnityEngine::ResourceManagement::Util::UnityWebRequestResult*> result);
+/// @brief Method RequestHasErrors, addr 0x67d45ec, size 0x124, virtual false, abstract: false, final false
+static inline bool RequestHasErrors(::UnityEngine::Networking::UnityWebRequest*  webReq, ::ByRef<::UnityEngine::ResourceManagement::Util::UnityWebRequestResult*>  result) ;
 
-  /// @brief Method .ctor, addr 0x67d2e04, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x67d497c, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr UnityWebRequestUtilities();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr UnityWebRequestUtilities() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UnityWebRequestUtilities", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  UnityWebRequestUtilities(UnityWebRequestUtilities&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UnityWebRequestUtilities", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  UnityWebRequestUtilities(UnityWebRequestUtilities const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "UnityWebRequestUtilities", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+UnityWebRequestUtilities(UnityWebRequestUtilities && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18740 };
+// Ctor Parameters [CppParam { name: "", ty: "UnityWebRequestUtilities", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+UnityWebRequestUtilities(UnityWebRequestUtilities const& ) = delete;
 
-  /// @brief Field k_AddressablesLogConditional offset 0xffffffff size 0x8
-  static constexpr ::ConstString k_AddressablesLogConditional{ u"ADDRESSABLES_LOG_ALL" };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{18742};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field k_AddressablesLogConditional offset 0xffffffff size 0x8
+static constexpr ::ConstString  k_AddressablesLogConditional{u"ADDRESSABLES_LOG_ALL"};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ResourceManagement::Util::UnityWebRequestUtilities, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::ResourceManagement::Util
+} // namespace end def UnityEngine::ResourceManagement::Util
 NEED_NO_BOX(::UnityEngine::ResourceManagement::Util::UnityWebRequestUtilities);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ResourceManagement::Util::UnityWebRequestUtilities*, "UnityEngine.ResourceManagement.Util", "UnityWebRequestUtilities");

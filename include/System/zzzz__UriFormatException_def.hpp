@@ -30,59 +30,58 @@ namespace System {
 // CS Name: System.UriFormatException
 class CORDL_TYPE UriFormatException : public ::System::FormatException {
 public:
-  // Declarations
-  /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
-  constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
+// Declarations
+/// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
+constexpr operator  ::System::Runtime::Serialization::ISerializable*() noexcept;
 
-  static inline ::System::UriFormatException* New_ctor();
+static inline ::System::UriFormatException* New_ctor() ;
 
-  static inline ::System::UriFormatException* New_ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
+static inline ::System::UriFormatException* New_ctor(::System::Runtime::Serialization::SerializationInfo*  serializationInfo, ::System::Runtime::Serialization::StreamingContext  streamingContext) ;
 
-  static inline ::System::UriFormatException* New_ctor(::StringW textString);
+static inline ::System::UriFormatException* New_ctor(::StringW  textString) ;
 
-  static inline ::System::UriFormatException* New_ctor(::StringW textString, ::System::Exception* e);
+static inline ::System::UriFormatException* New_ctor(::StringW  textString, ::System::Exception*  e) ;
 
-  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x6234390, size 0x8, virtual true, abstract: false, final true
-  inline void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* serializationInfo,
-                                                                       ::System::Runtime::Serialization::StreamingContext streamingContext);
+/// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x6235f08, size 0x8, virtual true, abstract: false, final true
+inline void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo*  serializationInfo, ::System::Runtime::Serialization::StreamingContext  streamingContext) ;
 
-  /// @brief Method .ctor, addr 0x623435c, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6235ed4, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method .ctor, addr 0x6234388, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
+/// @brief Method .ctor, addr 0x6235f00, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(::System::Runtime::Serialization::SerializationInfo*  serializationInfo, ::System::Runtime::Serialization::StreamingContext  streamingContext) ;
 
-  /// @brief Method .ctor, addr 0x62324f0, size 0x24, virtual false, abstract: false, final false
-  inline void _ctor(::StringW textString);
+/// @brief Method .ctor, addr 0x6234068, size 0x24, virtual false, abstract: false, final false
+inline void _ctor(::StringW  textString) ;
 
-  /// @brief Method .ctor, addr 0x6234364, size 0x24, virtual false, abstract: false, final false
-  inline void _ctor(::StringW textString, ::System::Exception* e);
+/// @brief Method .ctor, addr 0x6235edc, size 0x24, virtual false, abstract: false, final false
+inline void _ctor(::StringW  textString, ::System::Exception*  e) ;
 
-  /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
-  constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
+/// @brief Convert to "::System::Runtime::Serialization::ISerializable"
+constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr UriFormatException();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr UriFormatException() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UriFormatException", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  UriFormatException(UriFormatException&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UriFormatException", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  UriFormatException(UriFormatException const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "UriFormatException", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+UriFormatException(UriFormatException && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11055 };
+// Ctor Parameters [CppParam { name: "", ty: "UriFormatException", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+UriFormatException(UriFormatException const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11056};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::UriFormatException, 0x90>, "Size mismatch!");
 
-} // namespace System
+} // namespace end def System
 NEED_NO_BOX(::System::UriFormatException);
 DEFINE_IL2CPP_ARG_TYPE(::System::UriFormatException*, "System", "UriFormatException");

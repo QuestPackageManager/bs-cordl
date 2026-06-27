@@ -20,54 +20,54 @@ namespace UnityEngine::UIElements {
 // CS Name: UnityEngine.UIElements.UxmlRootElementTraits
 class CORDL_TYPE UxmlRootElementTraits : public ::UnityEngine::UIElements::UxmlTraits {
 public:
-  // Declarations
-  /// @brief Field m_Class, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Class, put = __cordl_internal_set_m_Class)) ::UnityEngine::UIElements::UxmlStringAttributeDescription* m_Class;
+// Declarations
+/// @brief Field m_Class, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_Class, put=__cordl_internal_set_m_Class)) ::UnityEngine::UIElements::UxmlStringAttributeDescription*  m_Class;
 
-  /// @brief Field m_Name, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Name, put = __cordl_internal_set_m_Name)) ::UnityEngine::UIElements::UxmlStringAttributeDescription* m_Name;
+/// @brief Field m_Name, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_Name, put=__cordl_internal_set_m_Name)) ::UnityEngine::UIElements::UxmlStringAttributeDescription*  m_Name;
 
-  static inline ::UnityEngine::UIElements::UxmlRootElementTraits* New_ctor();
+static inline ::UnityEngine::UIElements::UxmlRootElementTraits* New_ctor() ;
 
-  constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription* const& __cordl_internal_get_m_Class() const;
+constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription* const& __cordl_internal_get_m_Class() const;
 
-  constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription*& __cordl_internal_get_m_Class();
+constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription*& __cordl_internal_get_m_Class() ;
 
-  constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription* const& __cordl_internal_get_m_Name() const;
+constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription* const& __cordl_internal_get_m_Name() const;
 
-  constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription*& __cordl_internal_get_m_Name();
+constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription*& __cordl_internal_get_m_Name() ;
 
-  constexpr void __cordl_internal_set_m_Class(::UnityEngine::UIElements::UxmlStringAttributeDescription* value);
+constexpr void __cordl_internal_set_m_Class(::UnityEngine::UIElements::UxmlStringAttributeDescription*  value) ;
 
-  constexpr void __cordl_internal_set_m_Name(::UnityEngine::UIElements::UxmlStringAttributeDescription* value);
+constexpr void __cordl_internal_set_m_Name(::UnityEngine::UIElements::UxmlStringAttributeDescription*  value) ;
 
-  /// @brief Method .ctor, addr 0x6b624a0, size 0xc0, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6b64018, size 0xc0, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr UxmlRootElementTraits();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr UxmlRootElementTraits() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UxmlRootElementTraits", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  UxmlRootElementTraits(UxmlRootElementTraits&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UxmlRootElementTraits", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  UxmlRootElementTraits(UxmlRootElementTraits const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "UxmlRootElementTraits", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+UxmlRootElementTraits(UxmlRootElementTraits && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5136 };
+// Ctor Parameters [CppParam { name: "", ty: "UxmlRootElementTraits", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+UxmlRootElementTraits(UxmlRootElementTraits const& ) = delete;
 
-  /// @brief Field m_Name, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::UIElements::UxmlStringAttributeDescription* ___m_Name;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{5136};
 
-  /// @brief Field m_Class, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::UIElements::UxmlStringAttributeDescription* ___m_Class;
+/// @brief Field m_Name, offset: 0x18, size: 0x8, def value: None
+ ::UnityEngine::UIElements::UxmlStringAttributeDescription*  ___m_Name;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field m_Class, offset: 0x20, size: 0x8, def value: None
+ ::UnityEngine::UIElements::UxmlStringAttributeDescription*  ___m_Class;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::UIElements::UxmlRootElementTraits, ___m_Name) == 0x18, "Offset mismatch!");
@@ -76,6 +76,6 @@ static_assert(offsetof(::UnityEngine::UIElements::UxmlRootElementTraits, ___m_Cl
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UxmlRootElementTraits, 0x28>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements
+} // namespace end def UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::UxmlRootElementTraits);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UxmlRootElementTraits*, "UnityEngine.UIElements", "UxmlRootElementTraits");

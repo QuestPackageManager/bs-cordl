@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "UnityEngine/Bindings/BindingsAllocator.hpp"
 #include "UnityEngine/Bindings/BlittableArrayWrapper.hpp"
@@ -32,5 +32,6 @@ module;
 #include "UnityEngine/Bindings/UnmarshalledAttribute.hpp"
 #include "UnityEngine/Bindings/VisibleToOtherModulesAttribute.hpp"
 #ifdef __cpp_modules
-export module Bindings;
-#endif
+                    export module Bindings;
+                    #endif
+                

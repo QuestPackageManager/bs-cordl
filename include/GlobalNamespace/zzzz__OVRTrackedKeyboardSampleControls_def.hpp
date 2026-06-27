@@ -16,7 +16,8 @@ namespace GlobalNamespace {
 class OVRTrackedKeyboard;
 }
 namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+template<typename T>
+class IEnumerator_1;
 }
 namespace System::Collections {
 class IEnumerator;
@@ -55,127 +56,127 @@ namespace GlobalNamespace {
 // CS Name: OVRTrackedKeyboardSampleControls/<SetShaderCoroutine>d__19
 class CORDL_TYPE OVRTrackedKeyboardSampleControls__SetShaderCoroutine_d__19 : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current)) ::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
+// Declarations
+ __declspec(property(get=System_Collections_Generic_IEnumerator_System_Object__get_Current)) ::System::Object*  System_Collections_Generic_IEnumerator_System_Object__Current;
 
-  __declspec(property(get = System_Collections_IEnumerator_get_Current)) ::System::Object* System_Collections_IEnumerator_Current;
+ __declspec(property(get=System_Collections_IEnumerator_get_Current)) ::System::Object*  System_Collections_IEnumerator_Current;
 
-  /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
+/// @brief Field <>1__state, offset 0x10, size 0x4 
+ __declspec(property(get=__cordl_internal_get___1__state, put=__cordl_internal_set___1__state)) int32_t  __1__state;
 
-  /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current)) ::System::Object* __2__current;
+/// @brief Field <>2__current, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get___2__current, put=__cordl_internal_set___2__current)) ::System::Object*  __2__current;
 
-  /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::UnityW<::GlobalNamespace::OVRTrackedKeyboardSampleControls> __4__this;
+/// @brief Field <>4__this, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get___4__this, put=__cordl_internal_set___4__this)) ::UnityW<::GlobalNamespace::OVRTrackedKeyboardSampleControls>  __4__this;
 
-  /// @brief Field <trackingWasEnabled>5__2, offset 0x30, size 0x1
-  __declspec(property(get = __cordl_internal_get__trackingWasEnabled_5__2, put = __cordl_internal_set__trackingWasEnabled_5__2)) bool _trackingWasEnabled_5__2;
+/// @brief Field <trackingWasEnabled>5__2, offset 0x30, size 0x1 
+ __declspec(property(get=__cordl_internal_get__trackingWasEnabled_5__2, put=__cordl_internal_set__trackingWasEnabled_5__2)) bool  _trackingWasEnabled_5__2;
 
-  /// @brief Field shaderName, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_shaderName, put = __cordl_internal_set_shaderName)) ::StringW shaderName;
+/// @brief Field shaderName, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get_shaderName, put=__cordl_internal_set_shaderName)) ::StringW  shaderName;
 
-  /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
-  constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+constexpr operator  ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
 
-  /// @brief Convert operator to "::System::Collections::IEnumerator"
-  constexpr operator ::System::Collections::IEnumerator*() noexcept;
+/// @brief Convert operator to "::System::Collections::IEnumerator"
+constexpr operator  ::System::Collections::IEnumerator*() noexcept;
 
-  /// @brief Convert operator to "::System::IDisposable"
-  constexpr operator ::System::IDisposable*() noexcept;
+/// @brief Convert operator to "::System::IDisposable"
+constexpr operator  ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x5da92cc, size 0x168, virtual true, abstract: false, final true
-  inline bool MoveNext();
+/// @brief Method MoveNext, addr 0x5daae44, size 0x168, virtual true, abstract: false, final true
+inline bool MoveNext() ;
 
-  static inline ::GlobalNamespace::OVRTrackedKeyboardSampleControls__SetShaderCoroutine_d__19* New_ctor(int32_t __1__state);
+static inline ::GlobalNamespace::OVRTrackedKeyboardSampleControls__SetShaderCoroutine_d__19* New_ctor(int32_t  __1__state) ;
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5da9434, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
+/// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5daafac, size 0x8, virtual true, abstract: false, final true
+inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current() ;
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5da943c, size 0x38, virtual true, abstract: false, final true
-  inline void System_Collections_IEnumerator_Reset();
+/// @brief Method System.Collections.IEnumerator.Reset, addr 0x5daafb4, size 0x38, virtual true, abstract: false, final true
+inline void System_Collections_IEnumerator_Reset() ;
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5da9474, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Object* System_Collections_IEnumerator_get_Current();
+/// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5daafec, size 0x8, virtual true, abstract: false, final true
+inline ::System::Object* System_Collections_IEnumerator_get_Current() ;
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x5da92c8, size 0x4, virtual true, abstract: false, final true
-  inline void System_IDisposable_Dispose();
+/// @brief Method System.IDisposable.Dispose, addr 0x5daae40, size 0x4, virtual true, abstract: false, final true
+inline void System_IDisposable_Dispose() ;
 
-  constexpr int32_t const& __cordl_internal_get___1__state() const;
+constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr int32_t& __cordl_internal_get___1__state();
+constexpr int32_t& __cordl_internal_get___1__state() ;
 
-  constexpr ::System::Object* const& __cordl_internal_get___2__current() const;
+constexpr ::System::Object* const& __cordl_internal_get___2__current() const;
 
-  constexpr ::System::Object*& __cordl_internal_get___2__current();
+constexpr ::System::Object*& __cordl_internal_get___2__current() ;
 
-  constexpr ::UnityW<::GlobalNamespace::OVRTrackedKeyboardSampleControls> const& __cordl_internal_get___4__this() const;
+constexpr ::UnityW<::GlobalNamespace::OVRTrackedKeyboardSampleControls> const& __cordl_internal_get___4__this() const;
 
-  constexpr ::UnityW<::GlobalNamespace::OVRTrackedKeyboardSampleControls>& __cordl_internal_get___4__this();
+constexpr ::UnityW<::GlobalNamespace::OVRTrackedKeyboardSampleControls>& __cordl_internal_get___4__this() ;
 
-  constexpr bool const& __cordl_internal_get__trackingWasEnabled_5__2() const;
+constexpr bool const& __cordl_internal_get__trackingWasEnabled_5__2() const;
 
-  constexpr bool& __cordl_internal_get__trackingWasEnabled_5__2();
+constexpr bool& __cordl_internal_get__trackingWasEnabled_5__2() ;
 
-  constexpr ::StringW const& __cordl_internal_get_shaderName() const;
+constexpr ::StringW const& __cordl_internal_get_shaderName() const;
 
-  constexpr ::StringW& __cordl_internal_get_shaderName();
+constexpr ::StringW& __cordl_internal_get_shaderName() ;
 
-  constexpr void __cordl_internal_set___1__state(int32_t value);
+constexpr void __cordl_internal_set___1__state(int32_t  value) ;
 
-  constexpr void __cordl_internal_set___2__current(::System::Object* value);
+constexpr void __cordl_internal_set___2__current(::System::Object*  value) ;
 
-  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::OVRTrackedKeyboardSampleControls> value);
+constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::OVRTrackedKeyboardSampleControls>  value) ;
 
-  constexpr void __cordl_internal_set__trackingWasEnabled_5__2(bool value);
+constexpr void __cordl_internal_set__trackingWasEnabled_5__2(bool  value) ;
 
-  constexpr void __cordl_internal_set_shaderName(::StringW value);
+constexpr void __cordl_internal_set_shaderName(::StringW  value) ;
 
-  /// @brief Method .ctor, addr 0x5da9244, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(int32_t __1__state);
+/// @brief Method .ctor, addr 0x5daadbc, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(int32_t  __1__state) ;
 
-  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
-  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
+/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
 
-  /// @brief Convert to "::System::Collections::IEnumerator"
-  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+/// @brief Convert to "::System::Collections::IEnumerator"
+constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+/// @brief Convert to "::System::IDisposable"
+constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OVRTrackedKeyboardSampleControls__SetShaderCoroutine_d__19();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr OVRTrackedKeyboardSampleControls__SetShaderCoroutine_d__19() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRTrackedKeyboardSampleControls__SetShaderCoroutine_d__19", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  OVRTrackedKeyboardSampleControls__SetShaderCoroutine_d__19(OVRTrackedKeyboardSampleControls__SetShaderCoroutine_d__19&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRTrackedKeyboardSampleControls__SetShaderCoroutine_d__19", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  OVRTrackedKeyboardSampleControls__SetShaderCoroutine_d__19(OVRTrackedKeyboardSampleControls__SetShaderCoroutine_d__19 const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "OVRTrackedKeyboardSampleControls__SetShaderCoroutine_d__19", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+OVRTrackedKeyboardSampleControls__SetShaderCoroutine_d__19(OVRTrackedKeyboardSampleControls__SetShaderCoroutine_d__19 && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7782 };
+// Ctor Parameters [CppParam { name: "", ty: "OVRTrackedKeyboardSampleControls__SetShaderCoroutine_d__19", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+OVRTrackedKeyboardSampleControls__SetShaderCoroutine_d__19(OVRTrackedKeyboardSampleControls__SetShaderCoroutine_d__19 const& ) = delete;
 
-  /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
-  int32_t _____1__state;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{7783};
 
-  /// @brief Field <>2__current, offset: 0x18, size: 0x8, def value: None
-  ::System::Object* _____2__current;
+/// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
+ int32_t  _____1__state;
 
-  /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::OVRTrackedKeyboardSampleControls> _____4__this;
+/// @brief Field <>2__current, offset: 0x18, size: 0x8, def value: None
+ ::System::Object*  _____2__current;
 
-  /// @brief Field shaderName, offset: 0x28, size: 0x8, def value: None
-  ::StringW ___shaderName;
+/// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::OVRTrackedKeyboardSampleControls>  _____4__this;
 
-  /// @brief Field <trackingWasEnabled>5__2, offset: 0x30, size: 0x1, def value: None
-  bool ____trackingWasEnabled_5__2;
+/// @brief Field shaderName, offset: 0x28, size: 0x8, def value: None
+ ::StringW  ___shaderName;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field <trackingWasEnabled>5__2, offset: 0x30, size: 0x1, def value: None
+ bool  ____trackingWasEnabled_5__2;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::OVRTrackedKeyboardSampleControls__SetShaderCoroutine_d__19, _____1__state) == 0x10, "Offset mismatch!");
@@ -190,226 +191,225 @@ static_assert(offsetof(::GlobalNamespace::OVRTrackedKeyboardSampleControls__SetS
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRTrackedKeyboardSampleControls__SetShaderCoroutine_d__19, 0x38>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 // Dependencies UnityEngine.Color, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: OVRTrackedKeyboardSampleControls
 class CORDL_TYPE OVRTrackedKeyboardSampleControls : public ::UnityEngine::MonoBehaviour {
 public:
-  // Declarations
-  using _SetShaderCoroutine_d__19 = ::GlobalNamespace::OVRTrackedKeyboardSampleControls__SetShaderCoroutine_d__19;
+// Declarations
+using _SetShaderCoroutine_d__19 = ::GlobalNamespace::OVRTrackedKeyboardSampleControls__SetShaderCoroutine_d__19;
 
-  /// @brief Field BadStateColor, offset 0x68, size 0x10
-  __declspec(property(get = __cordl_internal_get_BadStateColor, put = __cordl_internal_set_BadStateColor)) ::UnityEngine::Color BadStateColor;
+/// @brief Field BadStateColor, offset 0x68, size 0x10 
+ __declspec(property(get=__cordl_internal_get_BadStateColor, put=__cordl_internal_set_BadStateColor)) ::UnityEngine::Color  BadStateColor;
 
-  /// @brief Field ConnectedValue, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_ConnectedValue, put = __cordl_internal_set_ConnectedValue)) ::UnityW<::UnityEngine::UI::Text> ConnectedValue;
+/// @brief Field ConnectedValue, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get_ConnectedValue, put=__cordl_internal_set_ConnectedValue)) ::UnityW<::UnityEngine::UI::Text>  ConnectedValue;
 
-  /// @brief Field ConnectionToggle, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get_ConnectionToggle, put = __cordl_internal_set_ConnectionToggle)) ::UnityW<::UnityEngine::UI::Toggle> ConnectionToggle;
+/// @brief Field ConnectionToggle, offset 0x80, size 0x8 
+ __declspec(property(get=__cordl_internal_get_ConnectionToggle, put=__cordl_internal_set_ConnectionToggle)) ::UnityW<::UnityEngine::UI::Toggle>  ConnectionToggle;
 
-  /// @brief Field GoodStateColor, offset 0x58, size 0x10
-  __declspec(property(get = __cordl_internal_get_GoodStateColor, put = __cordl_internal_set_GoodStateColor)) ::UnityEngine::Color GoodStateColor;
+/// @brief Field GoodStateColor, offset 0x58, size 0x10 
+ __declspec(property(get=__cordl_internal_get_GoodStateColor, put=__cordl_internal_set_GoodStateColor)) ::UnityEngine::Color  GoodStateColor;
 
-  /// @brief Field NameValue, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_NameValue, put = __cordl_internal_set_NameValue)) ::UnityW<::UnityEngine::UI::Text> NameValue;
+/// @brief Field NameValue, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get_NameValue, put=__cordl_internal_set_NameValue)) ::UnityW<::UnityEngine::UI::Text>  NameValue;
 
-  /// @brief Field RemoteKeyboardToggle, offset 0x88, size 0x8
-  __declspec(property(get = __cordl_internal_get_RemoteKeyboardToggle, put = __cordl_internal_set_RemoteKeyboardToggle)) ::UnityW<::UnityEngine::UI::Toggle> RemoteKeyboardToggle;
+/// @brief Field RemoteKeyboardToggle, offset 0x88, size 0x8 
+ __declspec(property(get=__cordl_internal_get_RemoteKeyboardToggle, put=__cordl_internal_set_RemoteKeyboardToggle)) ::UnityW<::UnityEngine::UI::Toggle>  RemoteKeyboardToggle;
 
-  /// @brief Field SelectKeyboardValue, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_SelectKeyboardValue, put = __cordl_internal_set_SelectKeyboardValue)) ::UnityW<::UnityEngine::UI::Text> SelectKeyboardValue;
+/// @brief Field SelectKeyboardValue, offset 0x48, size 0x8 
+ __declspec(property(get=__cordl_internal_get_SelectKeyboardValue, put=__cordl_internal_set_SelectKeyboardValue)) ::UnityW<::UnityEngine::UI::Text>  SelectKeyboardValue;
 
-  /// @brief Field ShaderButtons, offset 0x90, size 0x8
-  __declspec(property(get = __cordl_internal_get_ShaderButtons, put = __cordl_internal_set_ShaderButtons)) ::ArrayW<::UnityW<::UnityEngine::UI::Button>, ::Array<::UnityW<::UnityEngine::UI::Button>>*>
-      ShaderButtons;
+/// @brief Field ShaderButtons, offset 0x90, size 0x8 
+ __declspec(property(get=__cordl_internal_get_ShaderButtons, put=__cordl_internal_set_ShaderButtons)) ::ArrayW<::UnityW<::UnityEngine::UI::Button>,::Array<::UnityW<::UnityEngine::UI::Button>>*>  ShaderButtons;
 
-  /// @brief Field StartingFocusField, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_StartingFocusField, put = __cordl_internal_set_StartingFocusField)) ::UnityW<::UnityEngine::UI::InputField> StartingFocusField;
+/// @brief Field StartingFocusField, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get_StartingFocusField, put=__cordl_internal_set_StartingFocusField)) ::UnityW<::UnityEngine::UI::InputField>  StartingFocusField;
 
-  /// @brief Field StateValue, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_StateValue, put = __cordl_internal_set_StateValue)) ::UnityW<::UnityEngine::UI::Text> StateValue;
+/// @brief Field StateValue, offset 0x40, size 0x8 
+ __declspec(property(get=__cordl_internal_get_StateValue, put=__cordl_internal_set_StateValue)) ::UnityW<::UnityEngine::UI::Text>  StateValue;
 
-  /// @brief Field TrackingToggle, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get_TrackingToggle, put = __cordl_internal_set_TrackingToggle)) ::UnityW<::UnityEngine::UI::Toggle> TrackingToggle;
+/// @brief Field TrackingToggle, offset 0x78, size 0x8 
+ __declspec(property(get=__cordl_internal_get_TrackingToggle, put=__cordl_internal_set_TrackingToggle)) ::UnityW<::UnityEngine::UI::Toggle>  TrackingToggle;
 
-  /// @brief Field TypeValue, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_TypeValue, put = __cordl_internal_set_TypeValue)) ::UnityW<::UnityEngine::UI::Text> TypeValue;
+/// @brief Field TypeValue, offset 0x50, size 0x8 
+ __declspec(property(get=__cordl_internal_get_TypeValue, put=__cordl_internal_set_TypeValue)) ::UnityW<::UnityEngine::UI::Text>  TypeValue;
 
-  /// @brief Field trackedKeyboard, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_trackedKeyboard, put = __cordl_internal_set_trackedKeyboard)) ::UnityW<::GlobalNamespace::OVRTrackedKeyboard> trackedKeyboard;
+/// @brief Field trackedKeyboard, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_trackedKeyboard, put=__cordl_internal_set_trackedKeyboard)) ::UnityW<::GlobalNamespace::OVRTrackedKeyboard>  trackedKeyboard;
 
-  /// @brief Method LaunchKeyboardSelection, addr 0x5da924c, size 0x24, virtual false, abstract: false, final false
-  inline void LaunchKeyboardSelection();
+/// @brief Method LaunchKeyboardSelection, addr 0x5daadc4, size 0x24, virtual false, abstract: false, final false
+inline void LaunchKeyboardSelection() ;
 
-  static inline ::GlobalNamespace::OVRTrackedKeyboardSampleControls* New_ctor();
+static inline ::GlobalNamespace::OVRTrackedKeyboardSampleControls* New_ctor() ;
 
-  /// @brief Method SetDiffuseShader, addr 0x5da91e8, size 0x5c, virtual false, abstract: false, final false
-  inline void SetDiffuseShader();
+/// @brief Method SetDiffuseShader, addr 0x5daad60, size 0x5c, virtual false, abstract: false, final false
+inline void SetDiffuseShader() ;
 
-  /// @brief Method SetPresentationMR, addr 0x5da9114, size 0x18, virtual false, abstract: false, final false
-  inline void SetPresentationMR();
+/// @brief Method SetPresentationMR, addr 0x5daac8c, size 0x18, virtual false, abstract: false, final false
+inline void SetPresentationMR() ;
 
-  /// @brief Method SetPresentationOpaque, addr 0x5da90fc, size 0x18, virtual false, abstract: false, final false
-  inline void SetPresentationOpaque();
+/// @brief Method SetPresentationOpaque, addr 0x5daac74, size 0x18, virtual false, abstract: false, final false
+inline void SetPresentationOpaque() ;
 
-  /// @brief Method SetShaderCoroutine, addr 0x5da9188, size 0x60, virtual false, abstract: false, final false
-  inline ::System::Collections::IEnumerator* SetShaderCoroutine(::StringW shaderName);
+/// @brief Method SetShaderCoroutine, addr 0x5daad00, size 0x60, virtual false, abstract: false, final false
+inline ::System::Collections::IEnumerator* SetShaderCoroutine(::StringW  shaderName) ;
 
-  /// @brief Method SetTrackingEnabled, addr 0x5da9270, size 0x1c, virtual false, abstract: false, final false
-  inline void SetTrackingEnabled(bool value);
+/// @brief Method SetTrackingEnabled, addr 0x5daade8, size 0x1c, virtual false, abstract: false, final false
+inline void SetTrackingEnabled(bool  value) ;
 
-  /// @brief Method SetUnlitShader, addr 0x5da912c, size 0x5c, virtual false, abstract: false, final false
-  inline void SetUnlitShader();
+/// @brief Method SetUnlitShader, addr 0x5daaca4, size 0x5c, virtual false, abstract: false, final false
+inline void SetUnlitShader() ;
 
-  /// @brief Method Start, addr 0x5da8d9c, size 0x100, virtual false, abstract: false, final false
-  inline void Start();
+/// @brief Method Start, addr 0x5daa914, size 0x100, virtual false, abstract: false, final false
+inline void Start() ;
 
-  /// @brief Method Update, addr 0x5da8e9c, size 0x260, virtual false, abstract: false, final false
-  inline void Update();
+/// @brief Method Update, addr 0x5daaa14, size 0x260, virtual false, abstract: false, final false
+inline void Update() ;
 
-  /// @brief Method <SetShaderCoroutine>b__19_0, addr 0x5da92a8, size 0x20, virtual false, abstract: false, final false
-  inline bool _SetShaderCoroutine_b__19_0();
+/// @brief Method <SetShaderCoroutine>b__19_0, addr 0x5daae20, size 0x20, virtual false, abstract: false, final false
+inline bool _SetShaderCoroutine_b__19_0() ;
 
-  constexpr ::UnityEngine::Color const& __cordl_internal_get_BadStateColor() const;
+constexpr ::UnityEngine::Color const& __cordl_internal_get_BadStateColor() const;
 
-  constexpr ::UnityEngine::Color& __cordl_internal_get_BadStateColor();
+constexpr ::UnityEngine::Color& __cordl_internal_get_BadStateColor() ;
 
-  constexpr ::UnityW<::UnityEngine::UI::Text> const& __cordl_internal_get_ConnectedValue() const;
+constexpr ::UnityW<::UnityEngine::UI::Text> const& __cordl_internal_get_ConnectedValue() const;
 
-  constexpr ::UnityW<::UnityEngine::UI::Text>& __cordl_internal_get_ConnectedValue();
+constexpr ::UnityW<::UnityEngine::UI::Text>& __cordl_internal_get_ConnectedValue() ;
 
-  constexpr ::UnityW<::UnityEngine::UI::Toggle> const& __cordl_internal_get_ConnectionToggle() const;
+constexpr ::UnityW<::UnityEngine::UI::Toggle> const& __cordl_internal_get_ConnectionToggle() const;
 
-  constexpr ::UnityW<::UnityEngine::UI::Toggle>& __cordl_internal_get_ConnectionToggle();
+constexpr ::UnityW<::UnityEngine::UI::Toggle>& __cordl_internal_get_ConnectionToggle() ;
 
-  constexpr ::UnityEngine::Color const& __cordl_internal_get_GoodStateColor() const;
+constexpr ::UnityEngine::Color const& __cordl_internal_get_GoodStateColor() const;
 
-  constexpr ::UnityEngine::Color& __cordl_internal_get_GoodStateColor();
+constexpr ::UnityEngine::Color& __cordl_internal_get_GoodStateColor() ;
 
-  constexpr ::UnityW<::UnityEngine::UI::Text> const& __cordl_internal_get_NameValue() const;
+constexpr ::UnityW<::UnityEngine::UI::Text> const& __cordl_internal_get_NameValue() const;
 
-  constexpr ::UnityW<::UnityEngine::UI::Text>& __cordl_internal_get_NameValue();
+constexpr ::UnityW<::UnityEngine::UI::Text>& __cordl_internal_get_NameValue() ;
 
-  constexpr ::UnityW<::UnityEngine::UI::Toggle> const& __cordl_internal_get_RemoteKeyboardToggle() const;
+constexpr ::UnityW<::UnityEngine::UI::Toggle> const& __cordl_internal_get_RemoteKeyboardToggle() const;
 
-  constexpr ::UnityW<::UnityEngine::UI::Toggle>& __cordl_internal_get_RemoteKeyboardToggle();
+constexpr ::UnityW<::UnityEngine::UI::Toggle>& __cordl_internal_get_RemoteKeyboardToggle() ;
 
-  constexpr ::UnityW<::UnityEngine::UI::Text> const& __cordl_internal_get_SelectKeyboardValue() const;
+constexpr ::UnityW<::UnityEngine::UI::Text> const& __cordl_internal_get_SelectKeyboardValue() const;
 
-  constexpr ::UnityW<::UnityEngine::UI::Text>& __cordl_internal_get_SelectKeyboardValue();
+constexpr ::UnityW<::UnityEngine::UI::Text>& __cordl_internal_get_SelectKeyboardValue() ;
 
-  constexpr ::ArrayW<::UnityW<::UnityEngine::UI::Button>, ::Array<::UnityW<::UnityEngine::UI::Button>>*> const& __cordl_internal_get_ShaderButtons() const;
+constexpr ::ArrayW<::UnityW<::UnityEngine::UI::Button>,::Array<::UnityW<::UnityEngine::UI::Button>>*> const& __cordl_internal_get_ShaderButtons() const;
 
-  constexpr ::ArrayW<::UnityW<::UnityEngine::UI::Button>, ::Array<::UnityW<::UnityEngine::UI::Button>>*>& __cordl_internal_get_ShaderButtons();
+constexpr ::ArrayW<::UnityW<::UnityEngine::UI::Button>,::Array<::UnityW<::UnityEngine::UI::Button>>*>& __cordl_internal_get_ShaderButtons() ;
 
-  constexpr ::UnityW<::UnityEngine::UI::InputField> const& __cordl_internal_get_StartingFocusField() const;
+constexpr ::UnityW<::UnityEngine::UI::InputField> const& __cordl_internal_get_StartingFocusField() const;
 
-  constexpr ::UnityW<::UnityEngine::UI::InputField>& __cordl_internal_get_StartingFocusField();
+constexpr ::UnityW<::UnityEngine::UI::InputField>& __cordl_internal_get_StartingFocusField() ;
 
-  constexpr ::UnityW<::UnityEngine::UI::Text> const& __cordl_internal_get_StateValue() const;
+constexpr ::UnityW<::UnityEngine::UI::Text> const& __cordl_internal_get_StateValue() const;
 
-  constexpr ::UnityW<::UnityEngine::UI::Text>& __cordl_internal_get_StateValue();
+constexpr ::UnityW<::UnityEngine::UI::Text>& __cordl_internal_get_StateValue() ;
 
-  constexpr ::UnityW<::UnityEngine::UI::Toggle> const& __cordl_internal_get_TrackingToggle() const;
+constexpr ::UnityW<::UnityEngine::UI::Toggle> const& __cordl_internal_get_TrackingToggle() const;
 
-  constexpr ::UnityW<::UnityEngine::UI::Toggle>& __cordl_internal_get_TrackingToggle();
+constexpr ::UnityW<::UnityEngine::UI::Toggle>& __cordl_internal_get_TrackingToggle() ;
 
-  constexpr ::UnityW<::UnityEngine::UI::Text> const& __cordl_internal_get_TypeValue() const;
+constexpr ::UnityW<::UnityEngine::UI::Text> const& __cordl_internal_get_TypeValue() const;
 
-  constexpr ::UnityW<::UnityEngine::UI::Text>& __cordl_internal_get_TypeValue();
+constexpr ::UnityW<::UnityEngine::UI::Text>& __cordl_internal_get_TypeValue() ;
 
-  constexpr ::UnityW<::GlobalNamespace::OVRTrackedKeyboard> const& __cordl_internal_get_trackedKeyboard() const;
+constexpr ::UnityW<::GlobalNamespace::OVRTrackedKeyboard> const& __cordl_internal_get_trackedKeyboard() const;
 
-  constexpr ::UnityW<::GlobalNamespace::OVRTrackedKeyboard>& __cordl_internal_get_trackedKeyboard();
+constexpr ::UnityW<::GlobalNamespace::OVRTrackedKeyboard>& __cordl_internal_get_trackedKeyboard() ;
 
-  constexpr void __cordl_internal_set_BadStateColor(::UnityEngine::Color value);
+constexpr void __cordl_internal_set_BadStateColor(::UnityEngine::Color  value) ;
 
-  constexpr void __cordl_internal_set_ConnectedValue(::UnityW<::UnityEngine::UI::Text> value);
+constexpr void __cordl_internal_set_ConnectedValue(::UnityW<::UnityEngine::UI::Text>  value) ;
 
-  constexpr void __cordl_internal_set_ConnectionToggle(::UnityW<::UnityEngine::UI::Toggle> value);
+constexpr void __cordl_internal_set_ConnectionToggle(::UnityW<::UnityEngine::UI::Toggle>  value) ;
 
-  constexpr void __cordl_internal_set_GoodStateColor(::UnityEngine::Color value);
+constexpr void __cordl_internal_set_GoodStateColor(::UnityEngine::Color  value) ;
 
-  constexpr void __cordl_internal_set_NameValue(::UnityW<::UnityEngine::UI::Text> value);
+constexpr void __cordl_internal_set_NameValue(::UnityW<::UnityEngine::UI::Text>  value) ;
 
-  constexpr void __cordl_internal_set_RemoteKeyboardToggle(::UnityW<::UnityEngine::UI::Toggle> value);
+constexpr void __cordl_internal_set_RemoteKeyboardToggle(::UnityW<::UnityEngine::UI::Toggle>  value) ;
 
-  constexpr void __cordl_internal_set_SelectKeyboardValue(::UnityW<::UnityEngine::UI::Text> value);
+constexpr void __cordl_internal_set_SelectKeyboardValue(::UnityW<::UnityEngine::UI::Text>  value) ;
 
-  constexpr void __cordl_internal_set_ShaderButtons(::ArrayW<::UnityW<::UnityEngine::UI::Button>, ::Array<::UnityW<::UnityEngine::UI::Button>>*> value);
+constexpr void __cordl_internal_set_ShaderButtons(::ArrayW<::UnityW<::UnityEngine::UI::Button>,::Array<::UnityW<::UnityEngine::UI::Button>>*>  value) ;
 
-  constexpr void __cordl_internal_set_StartingFocusField(::UnityW<::UnityEngine::UI::InputField> value);
+constexpr void __cordl_internal_set_StartingFocusField(::UnityW<::UnityEngine::UI::InputField>  value) ;
 
-  constexpr void __cordl_internal_set_StateValue(::UnityW<::UnityEngine::UI::Text> value);
+constexpr void __cordl_internal_set_StateValue(::UnityW<::UnityEngine::UI::Text>  value) ;
 
-  constexpr void __cordl_internal_set_TrackingToggle(::UnityW<::UnityEngine::UI::Toggle> value);
+constexpr void __cordl_internal_set_TrackingToggle(::UnityW<::UnityEngine::UI::Toggle>  value) ;
 
-  constexpr void __cordl_internal_set_TypeValue(::UnityW<::UnityEngine::UI::Text> value);
+constexpr void __cordl_internal_set_TypeValue(::UnityW<::UnityEngine::UI::Text>  value) ;
 
-  constexpr void __cordl_internal_set_trackedKeyboard(::UnityW<::GlobalNamespace::OVRTrackedKeyboard> value);
+constexpr void __cordl_internal_set_trackedKeyboard(::UnityW<::GlobalNamespace::OVRTrackedKeyboard>  value) ;
 
-  /// @brief Method .ctor, addr 0x5da928c, size 0x1c, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5daae04, size 0x1c, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OVRTrackedKeyboardSampleControls();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr OVRTrackedKeyboardSampleControls() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRTrackedKeyboardSampleControls", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  OVRTrackedKeyboardSampleControls(OVRTrackedKeyboardSampleControls&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRTrackedKeyboardSampleControls", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  OVRTrackedKeyboardSampleControls(OVRTrackedKeyboardSampleControls const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "OVRTrackedKeyboardSampleControls", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+OVRTrackedKeyboardSampleControls(OVRTrackedKeyboardSampleControls && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7783 };
+// Ctor Parameters [CppParam { name: "", ty: "OVRTrackedKeyboardSampleControls", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+OVRTrackedKeyboardSampleControls(OVRTrackedKeyboardSampleControls const& ) = delete;
 
-  /// @brief Field trackedKeyboard, offset: 0x20, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::OVRTrackedKeyboard> ___trackedKeyboard;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{7784};
 
-  /// @brief Field StartingFocusField, offset: 0x28, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::UI::InputField> ___StartingFocusField;
+/// @brief Field trackedKeyboard, offset: 0x20, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::OVRTrackedKeyboard>  ___trackedKeyboard;
 
-  /// @brief Field NameValue, offset: 0x30, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::UI::Text> ___NameValue;
+/// @brief Field StartingFocusField, offset: 0x28, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::UI::InputField>  ___StartingFocusField;
 
-  /// @brief Field ConnectedValue, offset: 0x38, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::UI::Text> ___ConnectedValue;
+/// @brief Field NameValue, offset: 0x30, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::UI::Text>  ___NameValue;
 
-  /// @brief Field StateValue, offset: 0x40, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::UI::Text> ___StateValue;
+/// @brief Field ConnectedValue, offset: 0x38, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::UI::Text>  ___ConnectedValue;
 
-  /// @brief Field SelectKeyboardValue, offset: 0x48, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::UI::Text> ___SelectKeyboardValue;
+/// @brief Field StateValue, offset: 0x40, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::UI::Text>  ___StateValue;
 
-  /// @brief Field TypeValue, offset: 0x50, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::UI::Text> ___TypeValue;
+/// @brief Field SelectKeyboardValue, offset: 0x48, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::UI::Text>  ___SelectKeyboardValue;
 
-  /// @brief Field GoodStateColor, offset: 0x58, size: 0x10, def value: None
-  ::UnityEngine::Color ___GoodStateColor;
+/// @brief Field TypeValue, offset: 0x50, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::UI::Text>  ___TypeValue;
 
-  /// @brief Field BadStateColor, offset: 0x68, size: 0x10, def value: None
-  ::UnityEngine::Color ___BadStateColor;
+/// @brief Field GoodStateColor, offset: 0x58, size: 0x10, def value: None
+ ::UnityEngine::Color  ___GoodStateColor;
 
-  /// @brief Field TrackingToggle, offset: 0x78, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::UI::Toggle> ___TrackingToggle;
+/// @brief Field BadStateColor, offset: 0x68, size: 0x10, def value: None
+ ::UnityEngine::Color  ___BadStateColor;
 
-  /// @brief Field ConnectionToggle, offset: 0x80, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::UI::Toggle> ___ConnectionToggle;
+/// @brief Field TrackingToggle, offset: 0x78, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::UI::Toggle>  ___TrackingToggle;
 
-  /// @brief Field RemoteKeyboardToggle, offset: 0x88, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::UI::Toggle> ___RemoteKeyboardToggle;
+/// @brief Field ConnectionToggle, offset: 0x80, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::UI::Toggle>  ___ConnectionToggle;
 
-  /// @brief Field ShaderButtons, offset: 0x90, size: 0x8, def value: None
-  ::ArrayW<::UnityW<::UnityEngine::UI::Button>, ::Array<::UnityW<::UnityEngine::UI::Button>>*> ___ShaderButtons;
+/// @brief Field RemoteKeyboardToggle, offset: 0x88, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::UI::Toggle>  ___RemoteKeyboardToggle;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field ShaderButtons, offset: 0x90, size: 0x8, def value: None
+ ::ArrayW<::UnityW<::UnityEngine::UI::Button>,::Array<::UnityW<::UnityEngine::UI::Button>>*>  ___ShaderButtons;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::OVRTrackedKeyboardSampleControls, ___trackedKeyboard) == 0x20, "Offset mismatch!");
@@ -440,7 +440,7 @@ static_assert(offsetof(::GlobalNamespace::OVRTrackedKeyboardSampleControls, ___S
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRTrackedKeyboardSampleControls, 0x98>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::OVRTrackedKeyboardSampleControls);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRTrackedKeyboardSampleControls*, "", "OVRTrackedKeyboardSampleControls");
 NEED_NO_BOX(::GlobalNamespace::OVRTrackedKeyboardSampleControls__SetShaderCoroutine_d__19);

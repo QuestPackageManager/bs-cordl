@@ -26,68 +26,68 @@ namespace UnityEngine::Events {
 // CS Name: UnityEngine.Events.InvokableCall
 class CORDL_TYPE InvokableCall : public ::UnityEngine::Events::BaseInvokableCall {
 public:
-  // Declarations
-  /// @brief Field Delegate, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_Delegate, put = __cordl_internal_set_Delegate)) ::UnityEngine::Events::UnityAction* Delegate;
+// Declarations
+/// @brief Field Delegate, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_Delegate, put=__cordl_internal_set_Delegate)) ::UnityEngine::Events::UnityAction*  Delegate;
 
-  /// @brief Method Find, addr 0x69a48ac, size 0x50, virtual true, abstract: false, final false
-  inline bool Find(::System::Object* targetObj, ::System::Reflection::MethodInfo* method);
+/// @brief Method Find, addr 0x69a6424, size 0x50, virtual true, abstract: false, final false
+inline bool Find(::System::Object*  targetObj, ::System::Reflection::MethodInfo*  method) ;
 
-  /// @brief Method Invoke, addr 0x69a4870, size 0x3c, virtual false, abstract: false, final false
-  inline void Invoke();
+/// @brief Method Invoke, addr 0x69a63e8, size 0x3c, virtual false, abstract: false, final false
+inline void Invoke() ;
 
-  /// @brief Method Invoke, addr 0x69a4834, size 0x3c, virtual true, abstract: false, final false
-  inline void Invoke(::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
+/// @brief Method Invoke, addr 0x69a63ac, size 0x3c, virtual true, abstract: false, final false
+inline void Invoke(::ArrayW<::System::Object*,::Array<::System::Object*>*>  args) ;
 
-  static inline ::UnityEngine::Events::InvokableCall* New_ctor(::UnityEngine::Events::UnityAction* action);
+static inline ::UnityEngine::Events::InvokableCall* New_ctor(::UnityEngine::Events::UnityAction*  action) ;
 
-  static inline ::UnityEngine::Events::InvokableCall* New_ctor(::System::Object* target, ::System::Reflection::MethodInfo* theFunction);
+static inline ::UnityEngine::Events::InvokableCall* New_ctor(::System::Object*  target, ::System::Reflection::MethodInfo*  theFunction) ;
 
-  constexpr ::UnityEngine::Events::UnityAction* const& __cordl_internal_get_Delegate() const;
+constexpr ::UnityEngine::Events::UnityAction* const& __cordl_internal_get_Delegate() const;
 
-  constexpr ::UnityEngine::Events::UnityAction*& __cordl_internal_get_Delegate();
+constexpr ::UnityEngine::Events::UnityAction*& __cordl_internal_get_Delegate() ;
 
-  constexpr void __cordl_internal_set_Delegate(::UnityEngine::Events::UnityAction* value);
+constexpr void __cordl_internal_set_Delegate(::UnityEngine::Events::UnityAction*  value) ;
 
-  /// @brief Method .ctor, addr 0x69a4830, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::Events::UnityAction* action);
+/// @brief Method .ctor, addr 0x69a63a8, size 0x4, virtual false, abstract: false, final false
+inline void _ctor(::UnityEngine::Events::UnityAction*  action) ;
 
-  /// @brief Method .ctor, addr 0x69a4758, size 0xd8, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* target, ::System::Reflection::MethodInfo* theFunction);
+/// @brief Method .ctor, addr 0x69a62d0, size 0xd8, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  target, ::System::Reflection::MethodInfo*  theFunction) ;
 
-  /// @brief Method add_Delegate, addr 0x69a4600, size 0xac, virtual false, abstract: false, final false
-  inline void add_Delegate(::UnityEngine::Events::UnityAction* value);
+/// @brief Method add_Delegate, addr 0x69a6178, size 0xac, virtual false, abstract: false, final false
+inline void add_Delegate(::UnityEngine::Events::UnityAction*  value) ;
 
-  /// @brief Method remove_Delegate, addr 0x69a46ac, size 0xac, virtual false, abstract: false, final false
-  inline void remove_Delegate(::UnityEngine::Events::UnityAction* value);
+/// @brief Method remove_Delegate, addr 0x69a6224, size 0xac, virtual false, abstract: false, final false
+inline void remove_Delegate(::UnityEngine::Events::UnityAction*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr InvokableCall();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr InvokableCall() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InvokableCall", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  InvokableCall(InvokableCall&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InvokableCall", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  InvokableCall(InvokableCall const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "InvokableCall", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+InvokableCall(InvokableCall && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10431 };
+// Ctor Parameters [CppParam { name: "", ty: "InvokableCall", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+InvokableCall(InvokableCall const& ) = delete;
 
-  /// @brief Field Delegate, offset: 0x10, size: 0x8, def value: None
-  ::UnityEngine::Events::UnityAction* ___Delegate;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10432};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field Delegate, offset: 0x10, size: 0x8, def value: None
+ ::UnityEngine::Events::UnityAction*  ___Delegate;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Events::InvokableCall, ___Delegate) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Events::InvokableCall, 0x18>, "Size mismatch!");
 
-} // namespace UnityEngine::Events
+} // namespace end def UnityEngine::Events
 NEED_NO_BOX(::UnityEngine::Events::InvokableCall);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Events::InvokableCall*, "UnityEngine.Events", "InvokableCall");

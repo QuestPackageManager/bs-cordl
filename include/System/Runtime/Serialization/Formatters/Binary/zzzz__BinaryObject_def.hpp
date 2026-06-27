@@ -24,66 +24,66 @@ namespace System::Runtime::Serialization::Formatters::Binary {
 // CS Name: System.Runtime.Serialization.Formatters.Binary.BinaryObject
 class CORDL_TYPE BinaryObject : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field mapId, offset 0x14, size 0x4
-  __declspec(property(get = __cordl_internal_get_mapId, put = __cordl_internal_set_mapId)) int32_t mapId;
+// Declarations
+/// @brief Field mapId, offset 0x14, size 0x4 
+ __declspec(property(get=__cordl_internal_get_mapId, put=__cordl_internal_set_mapId)) int32_t  mapId;
 
-  /// @brief Field objectId, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_objectId, put = __cordl_internal_set_objectId)) int32_t objectId;
+/// @brief Field objectId, offset 0x10, size 0x4 
+ __declspec(property(get=__cordl_internal_get_objectId, put=__cordl_internal_set_objectId)) int32_t  objectId;
 
-  /// @brief Method Dump, addr 0x5a1ab28, size 0x4, virtual false, abstract: false, final false
-  inline void Dump();
+/// @brief Method Dump, addr 0x5a1c6a0, size 0x4, virtual false, abstract: false, final false
+inline void Dump() ;
 
-  static inline ::System::Runtime::Serialization::Formatters::Binary::BinaryObject* New_ctor();
+static inline ::System::Runtime::Serialization::Formatters::Binary::BinaryObject* New_ctor() ;
 
-  /// @brief Method Read, addr 0x5a1aac8, size 0x60, virtual true, abstract: false, final true
-  inline void Read(::System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input);
+/// @brief Method Read, addr 0x5a1c640, size 0x60, virtual true, abstract: false, final true
+inline void Read(::System::Runtime::Serialization::Formatters::Binary::__BinaryParser*  input) ;
 
-  /// @brief Method Set, addr 0x5a1aa50, size 0x8, virtual false, abstract: false, final false
-  inline void Set(int32_t objectId, int32_t mapId);
+/// @brief Method Set, addr 0x5a1c5c8, size 0x8, virtual false, abstract: false, final false
+inline void Set(int32_t  objectId, int32_t  mapId) ;
 
-  /// @brief Method Write, addr 0x5a1aa58, size 0x70, virtual true, abstract: false, final true
-  inline void Write(::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
+/// @brief Method Write, addr 0x5a1c5d0, size 0x70, virtual true, abstract: false, final true
+inline void Write(::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter*  sout) ;
 
-  constexpr int32_t const& __cordl_internal_get_mapId() const;
+constexpr int32_t const& __cordl_internal_get_mapId() const;
 
-  constexpr int32_t& __cordl_internal_get_mapId();
+constexpr int32_t& __cordl_internal_get_mapId() ;
 
-  constexpr int32_t const& __cordl_internal_get_objectId() const;
+constexpr int32_t const& __cordl_internal_get_objectId() const;
 
-  constexpr int32_t& __cordl_internal_get_objectId();
+constexpr int32_t& __cordl_internal_get_objectId() ;
 
-  constexpr void __cordl_internal_set_mapId(int32_t value);
+constexpr void __cordl_internal_set_mapId(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_objectId(int32_t value);
+constexpr void __cordl_internal_set_objectId(int32_t  value) ;
 
-  /// @brief Method .ctor, addr 0x5a1aa4c, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5a1c5c4, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BinaryObject();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr BinaryObject() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BinaryObject", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  BinaryObject(BinaryObject&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BinaryObject", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  BinaryObject(BinaryObject const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "BinaryObject", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+BinaryObject(BinaryObject && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3274 };
+// Ctor Parameters [CppParam { name: "", ty: "BinaryObject", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+BinaryObject(BinaryObject const& ) = delete;
 
-  /// @brief Field objectId, offset: 0x10, size: 0x4, def value: None
-  int32_t ___objectId;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{3274};
 
-  /// @brief Field mapId, offset: 0x14, size: 0x4, def value: None
-  int32_t ___mapId;
+/// @brief Field objectId, offset: 0x10, size: 0x4, def value: None
+ int32_t  ___objectId;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field mapId, offset: 0x14, size: 0x4, def value: None
+ int32_t  ___mapId;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::BinaryObject, ___objectId) == 0x10, "Offset mismatch!");
@@ -92,6 +92,6 @@ static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::Bin
 
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::Formatters::Binary::BinaryObject, 0x18>, "Size mismatch!");
 
-} // namespace System::Runtime::Serialization::Formatters::Binary
+} // namespace end def System::Runtime::Serialization::Formatters::Binary
 NEED_NO_BOX(::System::Runtime::Serialization::Formatters::Binary::BinaryObject);
 DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::Formatters::Binary::BinaryObject*, "System.Runtime.Serialization.Formatters.Binary", "BinaryObject");

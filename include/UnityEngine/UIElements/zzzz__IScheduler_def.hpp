@@ -13,32 +13,32 @@ class IScheduler;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::IScheduler);
-// Dependencies
+// Dependencies 
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.IScheduler
 class CORDL_TYPE IScheduler {
 public:
-  // Declarations
-  /// @brief Method Schedule, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void Schedule(::UnityEngine::UIElements::ScheduledItem* item);
+// Declarations
+/// @brief Method Schedule, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline void Schedule(::UnityEngine::UIElements::ScheduledItem*  item) ;
 
-  /// @brief Method Unschedule, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void Unschedule(::UnityEngine::UIElements::ScheduledItem* item);
+/// @brief Method Unschedule, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline void Unschedule(::UnityEngine::UIElements::ScheduledItem*  item) ;
 
-  /// @brief Method UpdateScheduledEvents, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void UpdateScheduledEvents();
+/// @brief Method UpdateScheduledEvents, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline void UpdateScheduledEvents() ;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IScheduler", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  IScheduler(IScheduler const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "IScheduler", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+IScheduler(IScheduler const& ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4687 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4687};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-} // namespace UnityEngine::UIElements
+} // namespace end def UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::IScheduler);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::IScheduler*, "UnityEngine.UIElements", "IScheduler");

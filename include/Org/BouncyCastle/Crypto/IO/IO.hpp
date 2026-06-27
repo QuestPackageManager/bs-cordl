@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "Org/BouncyCastle/Crypto/IO/CipherStream.hpp"
 #include "Org/BouncyCastle/Crypto/IO/DigestSink.hpp"
@@ -11,5 +11,6 @@ module;
 #include "Org/BouncyCastle/Crypto/IO/SignerSink.hpp"
 #include "Org/BouncyCastle/Crypto/IO/SignerStream.hpp"
 #ifdef __cpp_modules
-export module IO;
-#endif
+                    export module IO;
+                    #endif
+                

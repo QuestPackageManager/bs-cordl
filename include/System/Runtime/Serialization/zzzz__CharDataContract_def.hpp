@@ -36,55 +36,55 @@ namespace System::Runtime::Serialization {
 // CS Name: System.Runtime.Serialization.CharDataContract
 class CORDL_TYPE CharDataContract : public ::System::Runtime::Serialization::PrimitiveDataContract {
 public:
-  // Declarations
-  __declspec(property(get = get_ReadMethodName)) ::StringW ReadMethodName;
+// Declarations
+ __declspec(property(get=get_ReadMethodName)) ::StringW  ReadMethodName;
 
-  __declspec(property(get = get_WriteMethodName)) ::StringW WriteMethodName;
+ __declspec(property(get=get_WriteMethodName)) ::StringW  WriteMethodName;
 
-  static inline ::System::Runtime::Serialization::CharDataContract* New_ctor();
+static inline ::System::Runtime::Serialization::CharDataContract* New_ctor() ;
 
-  static inline ::System::Runtime::Serialization::CharDataContract* New_ctor(::System::Xml::XmlDictionaryString* name, ::System::Xml::XmlDictionaryString* ns);
+static inline ::System::Runtime::Serialization::CharDataContract* New_ctor(::System::Xml::XmlDictionaryString*  name, ::System::Xml::XmlDictionaryString*  ns) ;
 
-  /// @brief Method ReadXmlValue, addr 0x60192b8, size 0x9c, virtual true, abstract: false, final false
-  inline ::System::Object* ReadXmlValue(::System::Runtime::Serialization::XmlReaderDelegator* reader, ::System::Runtime::Serialization::XmlObjectSerializerReadContext* context);
+/// @brief Method ReadXmlValue, addr 0x601ae30, size 0x9c, virtual true, abstract: false, final false
+inline ::System::Object* ReadXmlValue(::System::Runtime::Serialization::XmlReaderDelegator*  reader, ::System::Runtime::Serialization::XmlObjectSerializerReadContext*  context) ;
 
-  /// @brief Method WriteXmlValue, addr 0x601925c, size 0x5c, virtual true, abstract: false, final false
-  inline void WriteXmlValue(::System::Runtime::Serialization::XmlWriterDelegator* writer, ::System::Object* obj, ::System::Runtime::Serialization::XmlObjectSerializerWriteContext* context);
+/// @brief Method WriteXmlValue, addr 0x601add4, size 0x5c, virtual true, abstract: false, final false
+inline void WriteXmlValue(::System::Runtime::Serialization::XmlWriterDelegator*  writer, ::System::Object*  obj, ::System::Runtime::Serialization::XmlObjectSerializerWriteContext*  context) ;
 
-  /// @brief Method .ctor, addr 0x6019108, size 0x68, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x601ac80, size 0x68, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method .ctor, addr 0x6019170, size 0x64, virtual false, abstract: false, final false
-  inline void _ctor(::System::Xml::XmlDictionaryString* name, ::System::Xml::XmlDictionaryString* ns);
+/// @brief Method .ctor, addr 0x601ace8, size 0x64, virtual false, abstract: false, final false
+inline void _ctor(::System::Xml::XmlDictionaryString*  name, ::System::Xml::XmlDictionaryString*  ns) ;
 
-  /// @brief Method get_ReadMethodName, addr 0x6019218, size 0x44, virtual true, abstract: false, final false
-  inline ::StringW get_ReadMethodName();
+/// @brief Method get_ReadMethodName, addr 0x601ad90, size 0x44, virtual true, abstract: false, final false
+inline ::StringW get_ReadMethodName() ;
 
-  /// @brief Method get_WriteMethodName, addr 0x60191d4, size 0x44, virtual true, abstract: false, final false
-  inline ::StringW get_WriteMethodName();
+/// @brief Method get_WriteMethodName, addr 0x601ad4c, size 0x44, virtual true, abstract: false, final false
+inline ::StringW get_WriteMethodName() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CharDataContract();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr CharDataContract() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CharDataContract", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  CharDataContract(CharDataContract&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CharDataContract", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  CharDataContract(CharDataContract const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "CharDataContract", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+CharDataContract(CharDataContract && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17042 };
+// Ctor Parameters [CppParam { name: "", ty: "CharDataContract", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+CharDataContract(CharDataContract const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{17044};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::CharDataContract, 0x30>, "Size mismatch!");
 
-} // namespace System::Runtime::Serialization
+} // namespace end def System::Runtime::Serialization
 NEED_NO_BOX(::System::Runtime::Serialization::CharDataContract);
 DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::CharDataContract*, "System.Runtime.Serialization", "CharDataContract");

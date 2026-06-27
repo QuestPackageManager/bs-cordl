@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "BeatmapSaveDataVersion4/Arc.hpp"
 #include "BeatmapSaveDataVersion4/ArcBeatIndex.hpp"
@@ -32,5 +32,6 @@ module;
 #include "BeatmapSaveDataVersion4/SpawnRotation.hpp"
 #include "BeatmapSaveDataVersion4/Waypoint.hpp"
 #ifdef __cpp_modules
-export module BeatmapSaveDataVersion4;
-#endif
+                    export module BeatmapSaveDataVersion4;
+                    #endif
+                

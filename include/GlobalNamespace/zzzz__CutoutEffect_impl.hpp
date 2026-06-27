@@ -7,176 +7,210 @@
 #include "GlobalNamespace/zzzz__MaterialPropertyBlockController_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::CutoutEffect.get_useRandomCutoutOffset
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::CutoutEffect::*)()>(&::GlobalNamespace::CutoutEffect::get_useRandomCutoutOffset)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x5844dec;
+  constexpr static std::size_t addrs = 0x5846698;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CutoutEffect*>::get(),
-                                                                               "get_useRandomCutoutOffset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CutoutEffect*>::get(),
+                        "get_useRandomCutoutOffset",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::CutoutEffect.Start
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CutoutEffect::*)()>(&::GlobalNamespace::CutoutEffect::Start)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5844e8c;
+  constexpr static std::size_t addrs = 0x5846738;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CutoutEffect*>::get(), "Start",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CutoutEffect*>::get(),
+                        "Start",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::CutoutEffect.SetCutout
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CutoutEffect::*)(float_t)>(&::GlobalNamespace::CutoutEffect::SetCutout)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5844bfc;
+  constexpr static std::size_t addrs = 0x58464a8;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CutoutEffect*>::get(), "SetCutout", std::span<Il2CppClass const* const, 0>(),
-                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CutoutEffect*>::get(),
+                        "SetCutout",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::CutoutEffect.SetCutout
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CutoutEffect::*)(float_t, ::UnityEngine::Vector3)>(
-    &::GlobalNamespace::CutoutEffect::SetCutout)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CutoutEffect::*)(float_t, ::UnityEngine::Vector3)>(&::GlobalNamespace::CutoutEffect::SetCutout)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x5844ec8;
+  constexpr static std::size_t addrs = 0x5846774;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CutoutEffect*>::get(), "SetCutout", std::span<Il2CppClass const* const, 0>(),
-                                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get() })));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CutoutEffect*>::get(),
+                        "SetCutout",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::CutoutEffect._ctor
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CutoutEffect::*)()>(&::GlobalNamespace::CutoutEffect::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5844fa8;
+  constexpr static std::size_t addrs = 0x5846854;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CutoutEffect*>::get(), ".ctor",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CutoutEffect*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
-constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController>& GlobalNamespace::CutoutEffect::__cordl_internal_get__materialPropertyBlockController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____materialPropertyBlockController;
+constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController>& GlobalNamespace::CutoutEffect::__cordl_internal_get__materialPropertyBlockController()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____materialPropertyBlockController;
 }
 constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> const& GlobalNamespace::CutoutEffect::__cordl_internal_get__materialPropertyBlockController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____materialPropertyBlockController;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____materialPropertyBlockController;
 }
-constexpr void GlobalNamespace::CutoutEffect::__cordl_internal_set__materialPropertyBlockController(::UnityW<::GlobalNamespace::MaterialPropertyBlockController> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____materialPropertyBlockController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::CutoutEffect::__cordl_internal_set__materialPropertyBlockController(::UnityW<::GlobalNamespace::MaterialPropertyBlockController>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____materialPropertyBlockController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::GlobalNamespace::BoolSO>& GlobalNamespace::CutoutEffect::__cordl_internal_get__useRandomCutoutOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____useRandomCutoutOffset;
+constexpr ::UnityW<::GlobalNamespace::BoolSO>& GlobalNamespace::CutoutEffect::__cordl_internal_get__useRandomCutoutOffset()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____useRandomCutoutOffset;
 }
 constexpr ::UnityW<::GlobalNamespace::BoolSO> const& GlobalNamespace::CutoutEffect::__cordl_internal_get__useRandomCutoutOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____useRandomCutoutOffset;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____useRandomCutoutOffset;
 }
-constexpr void GlobalNamespace::CutoutEffect::__cordl_internal_set__useRandomCutoutOffset(::UnityW<::GlobalNamespace::BoolSO> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____useRandomCutoutOffset)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::CutoutEffect::__cordl_internal_set__useRandomCutoutOffset(::UnityW<::GlobalNamespace::BoolSO>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____useRandomCutoutOffset)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::Vector3& GlobalNamespace::CutoutEffect::__cordl_internal_get__cutoutOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____cutoutOffset;
+constexpr ::UnityEngine::Vector3& GlobalNamespace::CutoutEffect::__cordl_internal_get__cutoutOffset()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____cutoutOffset;
 }
 constexpr ::UnityEngine::Vector3 const& GlobalNamespace::CutoutEffect::__cordl_internal_get__cutoutOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____cutoutOffset;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____cutoutOffset;
 }
-constexpr void GlobalNamespace::CutoutEffect::__cordl_internal_set__cutoutOffset(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____cutoutOffset = value;
+constexpr void GlobalNamespace::CutoutEffect::__cordl_internal_set__cutoutOffset(::UnityEngine::Vector3  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____cutoutOffset = value;
 }
-constexpr ::UnityEngine::Vector3& GlobalNamespace::CutoutEffect::__cordl_internal_get__randomNoiseTexOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____randomNoiseTexOffset;
+constexpr ::UnityEngine::Vector3& GlobalNamespace::CutoutEffect::__cordl_internal_get__randomNoiseTexOffset()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____randomNoiseTexOffset;
 }
 constexpr ::UnityEngine::Vector3 const& GlobalNamespace::CutoutEffect::__cordl_internal_get__randomNoiseTexOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____randomNoiseTexOffset;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____randomNoiseTexOffset;
 }
-constexpr void GlobalNamespace::CutoutEffect::__cordl_internal_set__randomNoiseTexOffset(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____randomNoiseTexOffset = value;
+constexpr void GlobalNamespace::CutoutEffect::__cordl_internal_set__randomNoiseTexOffset(::UnityEngine::Vector3  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____randomNoiseTexOffset = value;
 }
-constexpr float_t& GlobalNamespace::CutoutEffect::__cordl_internal_get__cutout() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____cutout;
+constexpr float_t& GlobalNamespace::CutoutEffect::__cordl_internal_get__cutout()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____cutout;
 }
 constexpr float_t const& GlobalNamespace::CutoutEffect::__cordl_internal_get__cutout() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____cutout;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____cutout;
 }
-constexpr void GlobalNamespace::CutoutEffect::__cordl_internal_set__cutout(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____cutout = value;
+constexpr void GlobalNamespace::CutoutEffect::__cordl_internal_set__cutout(float_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____cutout = value;
 }
-inline void GlobalNamespace::CutoutEffect::setStaticF__cutoutPropertyID(int32_t value) {
-  ::cordl_internals::setStaticField<int32_t, "_cutoutPropertyID", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CutoutEffect*>::get>(std::forward<int32_t>(value));
+inline void GlobalNamespace::CutoutEffect::setStaticF__cutoutPropertyID(int32_t  value)  {
+::cordl_internals::setStaticField<int32_t, "_cutoutPropertyID", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CutoutEffect*>::get>(std::forward<int32_t>(value));
 }
-inline int32_t GlobalNamespace::CutoutEffect::getStaticF__cutoutPropertyID() {
-  return ::cordl_internals::getStaticField<int32_t, "_cutoutPropertyID", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CutoutEffect*>::get>();
+inline int32_t GlobalNamespace::CutoutEffect::getStaticF__cutoutPropertyID()  {
+return ::cordl_internals::getStaticField<int32_t, "_cutoutPropertyID", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CutoutEffect*>::get>();
 }
-inline void GlobalNamespace::CutoutEffect::setStaticF__cutoutTexOffsetPropertyID(int32_t value) {
-  ::cordl_internals::setStaticField<int32_t, "_cutoutTexOffsetPropertyID", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CutoutEffect*>::get>(std::forward<int32_t>(value));
+inline void GlobalNamespace::CutoutEffect::setStaticF__cutoutTexOffsetPropertyID(int32_t  value)  {
+::cordl_internals::setStaticField<int32_t, "_cutoutTexOffsetPropertyID", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CutoutEffect*>::get>(std::forward<int32_t>(value));
 }
-inline int32_t GlobalNamespace::CutoutEffect::getStaticF__cutoutTexOffsetPropertyID() {
-  return ::cordl_internals::getStaticField<int32_t, "_cutoutTexOffsetPropertyID", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CutoutEffect*>::get>();
+inline int32_t GlobalNamespace::CutoutEffect::getStaticF__cutoutTexOffsetPropertyID()  {
+return ::cordl_internals::getStaticField<int32_t, "_cutoutTexOffsetPropertyID", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CutoutEffect*>::get>();
 }
-inline bool GlobalNamespace::CutoutEffect::get_useRandomCutoutOffset() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CutoutEffect*>::get(),
-                                                                             "get_useRandomCutoutOffset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool GlobalNamespace::CutoutEffect::get_useRandomCutoutOffset()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CutoutEffect*>::get(),
+                        "get_useRandomCutoutOffset",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::CutoutEffect::Start() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CutoutEffect*>::get(), "Start",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::CutoutEffect::Start()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CutoutEffect*>::get(),
+                        "Start",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::CutoutEffect::SetCutout(float_t cutout) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CutoutEffect*>::get(), "SetCutout", std::span<Il2CppClass const* const, 0>(),
-                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, cutout);
+inline void GlobalNamespace::CutoutEffect::SetCutout(float_t  cutout)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CutoutEffect*>::get(),
+                        "SetCutout",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, cutout);
 }
-inline void GlobalNamespace::CutoutEffect::SetCutout(float_t cutout, ::UnityEngine::Vector3 cutoutOffset) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CutoutEffect*>::get(), "SetCutout", std::span<Il2CppClass const* const, 0>(),
-                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
-                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, cutout, cutoutOffset);
+inline void GlobalNamespace::CutoutEffect::SetCutout(float_t  cutout, ::UnityEngine::Vector3  cutoutOffset)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CutoutEffect*>::get(),
+                        "SetCutout",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, cutout, cutoutOffset);
 }
-inline void GlobalNamespace::CutoutEffect::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CutoutEffect*>::get(), ".ctor",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::CutoutEffect::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CutoutEffect*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::CutoutEffect* GlobalNamespace::CutoutEffect::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::CutoutEffect*>());
+inline ::GlobalNamespace::CutoutEffect* GlobalNamespace::CutoutEffect::New_ctor()  {
+return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::CutoutEffect*>());
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::CutoutEffect::CutoutEffect() {}
+constexpr ::GlobalNamespace::CutoutEffect::CutoutEffect()   {
+}

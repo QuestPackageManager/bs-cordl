@@ -25,94 +25,93 @@ namespace System::Text {
 // CS Name: System.Text.EncoderFallbackException
 class CORDL_TYPE EncoderFallbackException : public ::System::ArgumentException {
 public:
-  // Declarations
-  /// @brief Field _charUnknown, offset 0x98, size 0x2
-  __declspec(property(get = __cordl_internal_get__charUnknown, put = __cordl_internal_set__charUnknown)) char16_t _charUnknown;
+// Declarations
+/// @brief Field _charUnknown, offset 0x98, size 0x2 
+ __declspec(property(get=__cordl_internal_get__charUnknown, put=__cordl_internal_set__charUnknown)) char16_t  _charUnknown;
 
-  /// @brief Field _charUnknownHigh, offset 0x9a, size 0x2
-  __declspec(property(get = __cordl_internal_get__charUnknownHigh, put = __cordl_internal_set__charUnknownHigh)) char16_t _charUnknownHigh;
+/// @brief Field _charUnknownHigh, offset 0x9a, size 0x2 
+ __declspec(property(get=__cordl_internal_get__charUnknownHigh, put=__cordl_internal_set__charUnknownHigh)) char16_t  _charUnknownHigh;
 
-  /// @brief Field _charUnknownLow, offset 0x9c, size 0x2
-  __declspec(property(get = __cordl_internal_get__charUnknownLow, put = __cordl_internal_set__charUnknownLow)) char16_t _charUnknownLow;
+/// @brief Field _charUnknownLow, offset 0x9c, size 0x2 
+ __declspec(property(get=__cordl_internal_get__charUnknownLow, put=__cordl_internal_set__charUnknownLow)) char16_t  _charUnknownLow;
 
-  /// @brief Field _index, offset 0xa0, size 0x4
-  __declspec(property(get = __cordl_internal_get__index, put = __cordl_internal_set__index)) int32_t _index;
+/// @brief Field _index, offset 0xa0, size 0x4 
+ __declspec(property(get=__cordl_internal_get__index, put=__cordl_internal_set__index)) int32_t  _index;
 
-  static inline ::System::Text::EncoderFallbackException* New_ctor();
+static inline ::System::Text::EncoderFallbackException* New_ctor() ;
 
-  static inline ::System::Text::EncoderFallbackException* New_ctor(::StringW message, char16_t charUnknown, int32_t index);
+static inline ::System::Text::EncoderFallbackException* New_ctor(::StringW  message, char16_t  charUnknown, int32_t  index) ;
 
-  static inline ::System::Text::EncoderFallbackException* New_ctor(::StringW message, char16_t charUnknownHigh, char16_t charUnknownLow, int32_t index);
+static inline ::System::Text::EncoderFallbackException* New_ctor(::StringW  message, char16_t  charUnknownHigh, char16_t  charUnknownLow, int32_t  index) ;
 
-  static inline ::System::Text::EncoderFallbackException* New_ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo,
-                                                                   ::System::Runtime::Serialization::StreamingContext streamingContext);
+static inline ::System::Text::EncoderFallbackException* New_ctor(::System::Runtime::Serialization::SerializationInfo*  serializationInfo, ::System::Runtime::Serialization::StreamingContext  streamingContext) ;
 
-  constexpr char16_t const& __cordl_internal_get__charUnknown() const;
+constexpr char16_t const& __cordl_internal_get__charUnknown() const;
 
-  constexpr char16_t& __cordl_internal_get__charUnknown();
+constexpr char16_t& __cordl_internal_get__charUnknown() ;
 
-  constexpr char16_t const& __cordl_internal_get__charUnknownHigh() const;
+constexpr char16_t const& __cordl_internal_get__charUnknownHigh() const;
 
-  constexpr char16_t& __cordl_internal_get__charUnknownHigh();
+constexpr char16_t& __cordl_internal_get__charUnknownHigh() ;
 
-  constexpr char16_t const& __cordl_internal_get__charUnknownLow() const;
+constexpr char16_t const& __cordl_internal_get__charUnknownLow() const;
 
-  constexpr char16_t& __cordl_internal_get__charUnknownLow();
+constexpr char16_t& __cordl_internal_get__charUnknownLow() ;
 
-  constexpr int32_t const& __cordl_internal_get__index() const;
+constexpr int32_t const& __cordl_internal_get__index() const;
 
-  constexpr int32_t& __cordl_internal_get__index();
+constexpr int32_t& __cordl_internal_get__index() ;
 
-  constexpr void __cordl_internal_set__charUnknown(char16_t value);
+constexpr void __cordl_internal_set__charUnknown(char16_t  value) ;
 
-  constexpr void __cordl_internal_set__charUnknownHigh(char16_t value);
+constexpr void __cordl_internal_set__charUnknownHigh(char16_t  value) ;
 
-  constexpr void __cordl_internal_set__charUnknownLow(char16_t value);
+constexpr void __cordl_internal_set__charUnknownLow(char16_t  value) ;
 
-  constexpr void __cordl_internal_set__index(int32_t value);
+constexpr void __cordl_internal_set__index(int32_t  value) ;
 
-  /// @brief Method .ctor, addr 0x5996650, size 0x60, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x59981c8, size 0x60, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method .ctor, addr 0x599623c, size 0x3c, virtual false, abstract: false, final false
-  inline void _ctor(::StringW message, char16_t charUnknown, int32_t index);
+/// @brief Method .ctor, addr 0x5997db4, size 0x3c, virtual false, abstract: false, final false
+inline void _ctor(::StringW  message, char16_t  charUnknown, int32_t  index) ;
 
-  /// @brief Method .ctor, addr 0x5996490, size 0x1a8, virtual false, abstract: false, final false
-  inline void _ctor(::StringW message, char16_t charUnknownHigh, char16_t charUnknownLow, int32_t index);
+/// @brief Method .ctor, addr 0x5998008, size 0x1a8, virtual false, abstract: false, final false
+inline void _ctor(::StringW  message, char16_t  charUnknownHigh, char16_t  charUnknownLow, int32_t  index) ;
 
-  /// @brief Method .ctor, addr 0x59966b0, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
+/// @brief Method .ctor, addr 0x5998228, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(::System::Runtime::Serialization::SerializationInfo*  serializationInfo, ::System::Runtime::Serialization::StreamingContext  streamingContext) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr EncoderFallbackException();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr EncoderFallbackException() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EncoderFallbackException", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  EncoderFallbackException(EncoderFallbackException&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EncoderFallbackException", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  EncoderFallbackException(EncoderFallbackException const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "EncoderFallbackException", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+EncoderFallbackException(EncoderFallbackException && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2862 };
+// Ctor Parameters [CppParam { name: "", ty: "EncoderFallbackException", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+EncoderFallbackException(EncoderFallbackException const& ) = delete;
 
-  /// @brief Field _charUnknown, offset: 0x98, size: 0x2, def value: None
-  char16_t ____charUnknown;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{2862};
 
-  /// @brief Field _charUnknownHigh, offset: 0x9a, size: 0x2, def value: None
-  char16_t ____charUnknownHigh;
+/// @brief Field _charUnknown, offset: 0x98, size: 0x2, def value: None
+ char16_t  ____charUnknown;
 
-  /// @brief Field _charUnknownLow, offset: 0x9c, size: 0x2, def value: None
-  char16_t ____charUnknownLow;
+/// @brief Field _charUnknownHigh, offset: 0x9a, size: 0x2, def value: None
+ char16_t  ____charUnknownHigh;
 
-  /// @brief Field _index, offset: 0xa0, size: 0x4, def value: None
-  int32_t ____index;
+/// @brief Field _charUnknownLow, offset: 0x9c, size: 0x2, def value: None
+ char16_t  ____charUnknownLow;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _index, offset: 0xa0, size: 0x4, def value: None
+ int32_t  ____index;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Text::EncoderFallbackException, ____charUnknown) == 0x98, "Offset mismatch!");
@@ -125,6 +124,6 @@ static_assert(offsetof(::System::Text::EncoderFallbackException, ____index) == 0
 
 static_assert(::cordl_internals::size_check_v<::System::Text::EncoderFallbackException, 0xa8>, "Size mismatch!");
 
-} // namespace System::Text
+} // namespace end def System::Text
 NEED_NO_BOX(::System::Text::EncoderFallbackException);
 DEFINE_IL2CPP_ARG_TYPE(::System::Text::EncoderFallbackException*, "System.Text", "EncoderFallbackException");

@@ -27,37 +27,36 @@ struct NativeParticleData_Array4;
 MARK_VAL_T(::UnityEngine::ParticleSystemJobs::NativeParticleData);
 MARK_VAL_T(::UnityEngine::ParticleSystemJobs::NativeParticleData_Array3);
 MARK_VAL_T(::UnityEngine::ParticleSystemJobs::NativeParticleData_Array4);
-// Dependencies
+// Dependencies 
 namespace UnityEngine::ParticleSystemJobs {
 // Is value type: true
 // CS Name: UnityEngine.ParticleSystemJobs.NativeParticleData/Array3
 struct CORDL_TYPE NativeParticleData_Array3 {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NativeParticleData_Array3();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr NativeParticleData_Array3() ;
 
-  // Ctor Parameters [CppParam { name: "x", ty: "float_t*", modifiers: "", def_value: None }, CppParam { name: "y", ty: "float_t*", modifiers: "", def_value: None }, CppParam { name: "z", ty:
-  // "float_t*", modifiers: "", def_value: None }]
-  constexpr NativeParticleData_Array3(float_t* x, float_t* y, float_t* z) noexcept;
+// Ctor Parameters [CppParam { name: "x", ty: "float_t*", modifiers: "", def_value: None }, CppParam { name: "y", ty: "float_t*", modifiers: "", def_value: None }, CppParam { name: "z", ty: "float_t*", modifiers: "", def_value: None }]
+constexpr NativeParticleData_Array3(float_t*  x, float_t*  y, float_t*  z) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20677 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20680};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x18};
 
-  /// @brief Field x, offset: 0x0, size: 0x8, def value: None
-  float_t* x;
+/// @brief Field x, offset: 0x0, size: 0x8, def value: None
+ float_t*  x;
 
-  /// @brief Field y, offset: 0x8, size: 0x8, def value: None
-  float_t* y;
+/// @brief Field y, offset: 0x8, size: 0x8, def value: None
+ float_t*  y;
 
-  /// @brief Field z, offset: 0x10, size: 0x8, def value: None
-  float_t* z;
+/// @brief Field z, offset: 0x10, size: 0x8, def value: None
+ float_t*  z;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::ParticleSystemJobs::NativeParticleData_Array3, x) == 0x0, "Offset mismatch!");
@@ -68,41 +67,40 @@ static_assert(offsetof(::UnityEngine::ParticleSystemJobs::NativeParticleData_Arr
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ParticleSystemJobs::NativeParticleData_Array3, 0x18>, "Size mismatch!");
 
-} // namespace UnityEngine::ParticleSystemJobs
-// Dependencies
+} // namespace end def UnityEngine::ParticleSystemJobs
+// Dependencies 
 namespace UnityEngine::ParticleSystemJobs {
 // Is value type: true
 // CS Name: UnityEngine.ParticleSystemJobs.NativeParticleData/Array4
 struct CORDL_TYPE NativeParticleData_Array4 {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NativeParticleData_Array4();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr NativeParticleData_Array4() ;
 
-  // Ctor Parameters [CppParam { name: "x", ty: "float_t*", modifiers: "", def_value: None }, CppParam { name: "y", ty: "float_t*", modifiers: "", def_value: None }, CppParam { name: "z", ty:
-  // "float_t*", modifiers: "", def_value: None }, CppParam { name: "w", ty: "float_t*", modifiers: "", def_value: None }]
-  constexpr NativeParticleData_Array4(float_t* x, float_t* y, float_t* z, float_t* w) noexcept;
+// Ctor Parameters [CppParam { name: "x", ty: "float_t*", modifiers: "", def_value: None }, CppParam { name: "y", ty: "float_t*", modifiers: "", def_value: None }, CppParam { name: "z", ty: "float_t*", modifiers: "", def_value: None }, CppParam { name: "w", ty: "float_t*", modifiers: "", def_value: None }]
+constexpr NativeParticleData_Array4(float_t*  x, float_t*  y, float_t*  z, float_t*  w) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20678 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20681};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x20};
 
-  /// @brief Field x, offset: 0x0, size: 0x8, def value: None
-  float_t* x;
+/// @brief Field x, offset: 0x0, size: 0x8, def value: None
+ float_t*  x;
 
-  /// @brief Field y, offset: 0x8, size: 0x8, def value: None
-  float_t* y;
+/// @brief Field y, offset: 0x8, size: 0x8, def value: None
+ float_t*  y;
 
-  /// @brief Field z, offset: 0x10, size: 0x8, def value: None
-  float_t* z;
+/// @brief Field z, offset: 0x10, size: 0x8, def value: None
+ float_t*  z;
 
-  /// @brief Field w, offset: 0x18, size: 0x8, def value: None
-  float_t* w;
+/// @brief Field w, offset: 0x18, size: 0x8, def value: None
+ float_t*  w;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::ParticleSystemJobs::NativeParticleData_Array4, x) == 0x0, "Offset mismatch!");
@@ -115,86 +113,74 @@ static_assert(offsetof(::UnityEngine::ParticleSystemJobs::NativeParticleData_Arr
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ParticleSystemJobs::NativeParticleData_Array4, 0x20>, "Size mismatch!");
 
-} // namespace UnityEngine::ParticleSystemJobs
+} // namespace end def UnityEngine::ParticleSystemJobs
 // Dependencies UnityEngine.ParticleSystemJobs.NativeParticleData::Array3, UnityEngine.ParticleSystemJobs.NativeParticleData::Array4
 namespace UnityEngine::ParticleSystemJobs {
 // Is value type: true
 // CS Name: UnityEngine.ParticleSystemJobs.NativeParticleData
 struct CORDL_TYPE NativeParticleData {
 public:
-  // Declarations
-  using Array3 = ::UnityEngine::ParticleSystemJobs::NativeParticleData_Array3;
+// Declarations
+using Array3 = ::UnityEngine::ParticleSystemJobs::NativeParticleData_Array3;
 
-  using Array4 = ::UnityEngine::ParticleSystemJobs::NativeParticleData_Array4;
+using Array4 = ::UnityEngine::ParticleSystemJobs::NativeParticleData_Array4;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NativeParticleData();
+// Ctor Parameters []
+// @brief default ctor
+constexpr NativeParticleData() ;
 
-  // Ctor Parameters [CppParam { name: "count", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "positions", ty: "::UnityEngine::ParticleSystemJobs::NativeParticleData_Array3",
-  // modifiers: "", def_value: None }, CppParam { name: "velocities", ty: "::UnityEngine::ParticleSystemJobs::NativeParticleData_Array3", modifiers: "", def_value: None }, CppParam { name:
-  // "axisOfRotations", ty: "::UnityEngine::ParticleSystemJobs::NativeParticleData_Array3", modifiers: "", def_value: None }, CppParam { name: "rotations", ty:
-  // "::UnityEngine::ParticleSystemJobs::NativeParticleData_Array3", modifiers: "", def_value: None }, CppParam { name: "rotationalSpeeds", ty:
-  // "::UnityEngine::ParticleSystemJobs::NativeParticleData_Array3", modifiers: "", def_value: None }, CppParam { name: "sizes", ty: "::UnityEngine::ParticleSystemJobs::NativeParticleData_Array3",
-  // modifiers: "", def_value: None }, CppParam { name: "startColors", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "aliveTimePercent", ty: "void*", modifiers: "", def_value: None
-  // }, CppParam { name: "inverseStartLifetimes", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "randomSeeds", ty: "void*", modifiers: "", def_value: None }, CppParam { name:
-  // "customData1", ty: "::UnityEngine::ParticleSystemJobs::NativeParticleData_Array4", modifiers: "", def_value: None }, CppParam { name: "customData2", ty:
-  // "::UnityEngine::ParticleSystemJobs::NativeParticleData_Array4", modifiers: "", def_value: None }, CppParam { name: "meshIndices", ty: "void*", modifiers: "", def_value: None }]
-  constexpr NativeParticleData(int32_t count, ::UnityEngine::ParticleSystemJobs::NativeParticleData_Array3 positions, ::UnityEngine::ParticleSystemJobs::NativeParticleData_Array3 velocities,
-                               ::UnityEngine::ParticleSystemJobs::NativeParticleData_Array3 axisOfRotations, ::UnityEngine::ParticleSystemJobs::NativeParticleData_Array3 rotations,
-                               ::UnityEngine::ParticleSystemJobs::NativeParticleData_Array3 rotationalSpeeds, ::UnityEngine::ParticleSystemJobs::NativeParticleData_Array3 sizes, void* startColors,
-                               void* aliveTimePercent, void* inverseStartLifetimes, void* randomSeeds, ::UnityEngine::ParticleSystemJobs::NativeParticleData_Array4 customData1,
-                               ::UnityEngine::ParticleSystemJobs::NativeParticleData_Array4 customData2, void* meshIndices) noexcept;
+// Ctor Parameters [CppParam { name: "count", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "positions", ty: "::UnityEngine::ParticleSystemJobs::NativeParticleData_Array3", modifiers: "", def_value: None }, CppParam { name: "velocities", ty: "::UnityEngine::ParticleSystemJobs::NativeParticleData_Array3", modifiers: "", def_value: None }, CppParam { name: "axisOfRotations", ty: "::UnityEngine::ParticleSystemJobs::NativeParticleData_Array3", modifiers: "", def_value: None }, CppParam { name: "rotations", ty: "::UnityEngine::ParticleSystemJobs::NativeParticleData_Array3", modifiers: "", def_value: None }, CppParam { name: "rotationalSpeeds", ty: "::UnityEngine::ParticleSystemJobs::NativeParticleData_Array3", modifiers: "", def_value: None }, CppParam { name: "sizes", ty: "::UnityEngine::ParticleSystemJobs::NativeParticleData_Array3", modifiers: "", def_value: None }, CppParam { name: "startColors", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "aliveTimePercent", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "inverseStartLifetimes", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "randomSeeds", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "customData1", ty: "::UnityEngine::ParticleSystemJobs::NativeParticleData_Array4", modifiers: "", def_value: None }, CppParam { name: "customData2", ty: "::UnityEngine::ParticleSystemJobs::NativeParticleData_Array4", modifiers: "", def_value: None }, CppParam { name: "meshIndices", ty: "void*", modifiers: "", def_value: None }]
+constexpr NativeParticleData(int32_t  count, ::UnityEngine::ParticleSystemJobs::NativeParticleData_Array3  positions, ::UnityEngine::ParticleSystemJobs::NativeParticleData_Array3  velocities, ::UnityEngine::ParticleSystemJobs::NativeParticleData_Array3  axisOfRotations, ::UnityEngine::ParticleSystemJobs::NativeParticleData_Array3  rotations, ::UnityEngine::ParticleSystemJobs::NativeParticleData_Array3  rotationalSpeeds, ::UnityEngine::ParticleSystemJobs::NativeParticleData_Array3  sizes, void*  startColors, void*  aliveTimePercent, void*  inverseStartLifetimes, void*  randomSeeds, ::UnityEngine::ParticleSystemJobs::NativeParticleData_Array4  customData1, ::UnityEngine::ParticleSystemJobs::NativeParticleData_Array4  customData2, void*  meshIndices) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20679 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20682};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x100 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x100};
 
-  /// @brief Field count, offset: 0x0, size: 0x4, def value: None
-  int32_t count;
+/// @brief Field count, offset: 0x0, size: 0x4, def value: None
+ int32_t  count;
 
-  /// @brief Field positions, offset: 0x8, size: 0x18, def value: None
-  ::UnityEngine::ParticleSystemJobs::NativeParticleData_Array3 positions;
+/// @brief Field positions, offset: 0x8, size: 0x18, def value: None
+ ::UnityEngine::ParticleSystemJobs::NativeParticleData_Array3  positions;
 
-  /// @brief Field velocities, offset: 0x20, size: 0x18, def value: None
-  ::UnityEngine::ParticleSystemJobs::NativeParticleData_Array3 velocities;
+/// @brief Field velocities, offset: 0x20, size: 0x18, def value: None
+ ::UnityEngine::ParticleSystemJobs::NativeParticleData_Array3  velocities;
 
-  /// @brief Field axisOfRotations, offset: 0x38, size: 0x18, def value: None
-  ::UnityEngine::ParticleSystemJobs::NativeParticleData_Array3 axisOfRotations;
+/// @brief Field axisOfRotations, offset: 0x38, size: 0x18, def value: None
+ ::UnityEngine::ParticleSystemJobs::NativeParticleData_Array3  axisOfRotations;
 
-  /// @brief Field rotations, offset: 0x50, size: 0x18, def value: None
-  ::UnityEngine::ParticleSystemJobs::NativeParticleData_Array3 rotations;
+/// @brief Field rotations, offset: 0x50, size: 0x18, def value: None
+ ::UnityEngine::ParticleSystemJobs::NativeParticleData_Array3  rotations;
 
-  /// @brief Field rotationalSpeeds, offset: 0x68, size: 0x18, def value: None
-  ::UnityEngine::ParticleSystemJobs::NativeParticleData_Array3 rotationalSpeeds;
+/// @brief Field rotationalSpeeds, offset: 0x68, size: 0x18, def value: None
+ ::UnityEngine::ParticleSystemJobs::NativeParticleData_Array3  rotationalSpeeds;
 
-  /// @brief Field sizes, offset: 0x80, size: 0x18, def value: None
-  ::UnityEngine::ParticleSystemJobs::NativeParticleData_Array3 sizes;
+/// @brief Field sizes, offset: 0x80, size: 0x18, def value: None
+ ::UnityEngine::ParticleSystemJobs::NativeParticleData_Array3  sizes;
 
-  /// @brief Field startColors, offset: 0x98, size: 0x8, def value: None
-  void* startColors;
+/// @brief Field startColors, offset: 0x98, size: 0x8, def value: None
+ void*  startColors;
 
-  /// @brief Field aliveTimePercent, offset: 0xa0, size: 0x8, def value: None
-  void* aliveTimePercent;
+/// @brief Field aliveTimePercent, offset: 0xa0, size: 0x8, def value: None
+ void*  aliveTimePercent;
 
-  /// @brief Field inverseStartLifetimes, offset: 0xa8, size: 0x8, def value: None
-  void* inverseStartLifetimes;
+/// @brief Field inverseStartLifetimes, offset: 0xa8, size: 0x8, def value: None
+ void*  inverseStartLifetimes;
 
-  /// @brief Field randomSeeds, offset: 0xb0, size: 0x8, def value: None
-  void* randomSeeds;
+/// @brief Field randomSeeds, offset: 0xb0, size: 0x8, def value: None
+ void*  randomSeeds;
 
-  /// @brief Field customData1, offset: 0xb8, size: 0x20, def value: None
-  ::UnityEngine::ParticleSystemJobs::NativeParticleData_Array4 customData1;
+/// @brief Field customData1, offset: 0xb8, size: 0x20, def value: None
+ ::UnityEngine::ParticleSystemJobs::NativeParticleData_Array4  customData1;
 
-  /// @brief Field customData2, offset: 0xd8, size: 0x20, def value: None
-  ::UnityEngine::ParticleSystemJobs::NativeParticleData_Array4 customData2;
+/// @brief Field customData2, offset: 0xd8, size: 0x20, def value: None
+ ::UnityEngine::ParticleSystemJobs::NativeParticleData_Array4  customData2;
 
-  /// @brief Field meshIndices, offset: 0xf8, size: 0x8, def value: None
-  void* meshIndices;
+/// @brief Field meshIndices, offset: 0xf8, size: 0x8, def value: None
+ void*  meshIndices;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::ParticleSystemJobs::NativeParticleData, count) == 0x0, "Offset mismatch!");
@@ -227,7 +213,7 @@ static_assert(offsetof(::UnityEngine::ParticleSystemJobs::NativeParticleData, me
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ParticleSystemJobs::NativeParticleData, 0x100>, "Size mismatch!");
 
-} // namespace UnityEngine::ParticleSystemJobs
+} // namespace end def UnityEngine::ParticleSystemJobs
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ParticleSystemJobs::NativeParticleData, "UnityEngine.ParticleSystemJobs", "NativeParticleData");
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ParticleSystemJobs::NativeParticleData_Array3, "UnityEngine.ParticleSystemJobs", "NativeParticleData/Array3");
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ParticleSystemJobs::NativeParticleData_Array4, "UnityEngine.ParticleSystemJobs", "NativeParticleData/Array4");

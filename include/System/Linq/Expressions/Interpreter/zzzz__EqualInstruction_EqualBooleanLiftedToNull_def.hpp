@@ -21,37 +21,37 @@ namespace GlobalNamespace {
 // CS Name: System.Linq.Expressions.Interpreter.EqualInstruction/EqualBooleanLiftedToNull
 class CORDL_TYPE EqualInstruction_EqualBooleanLiftedToNull : public ::System::Linq::Expressions::Interpreter::EqualInstruction {
 public:
-  // Declarations
-  static inline ::GlobalNamespace::EqualInstruction_EqualBooleanLiftedToNull* New_ctor();
+// Declarations
+static inline ::GlobalNamespace::EqualInstruction_EqualBooleanLiftedToNull* New_ctor() ;
 
-  /// @brief Method Run, addr 0x5e516a0, size 0xb0, virtual true, abstract: false, final false
-  inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
+/// @brief Method Run, addr 0x5e53218, size 0xb0, virtual true, abstract: false, final false
+inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame*  frame) ;
 
-  /// @brief Method .ctor, addr 0x5e50e08, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5e52980, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr EqualInstruction_EqualBooleanLiftedToNull();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr EqualInstruction_EqualBooleanLiftedToNull() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EqualInstruction_EqualBooleanLiftedToNull", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  EqualInstruction_EqualBooleanLiftedToNull(EqualInstruction_EqualBooleanLiftedToNull&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EqualInstruction_EqualBooleanLiftedToNull", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  EqualInstruction_EqualBooleanLiftedToNull(EqualInstruction_EqualBooleanLiftedToNull const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "EqualInstruction_EqualBooleanLiftedToNull", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+EqualInstruction_EqualBooleanLiftedToNull(EqualInstruction_EqualBooleanLiftedToNull && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16306 };
+// Ctor Parameters [CppParam { name: "", ty: "EqualInstruction_EqualBooleanLiftedToNull", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+EqualInstruction_EqualBooleanLiftedToNull(EqualInstruction_EqualBooleanLiftedToNull const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{16308};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::EqualInstruction_EqualBooleanLiftedToNull, 0x10>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::EqualInstruction_EqualBooleanLiftedToNull);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::EqualInstruction_EqualBooleanLiftedToNull*, "System.Linq.Expressions.Interpreter", "EqualInstruction/EqualBooleanLiftedToNull");

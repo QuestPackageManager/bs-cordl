@@ -6,7 +6,8 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(INetworkPacketSubSerializer_1)
 namespace GlobalNamespace {
-template <typename TData> class INetworkPacketProcessor_1;
+template<typename TData>
+class INetworkPacketProcessor_1;
 }
 namespace LiteNetLib::Utils {
 class INetSerializable;
@@ -22,43 +23,44 @@ class Type;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-template <typename TData> class INetworkPacketSubSerializer_1;
+template<typename TData>
+class INetworkPacketSubSerializer_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::GlobalNamespace::INetworkPacketSubSerializer_1);
-// Dependencies
+// Dependencies 
 namespace GlobalNamespace {
 // cpp template
-template <typename TData>
+template<typename TData>
 // Is value type: false
 // CS Name: INetworkPacketSubSerializer`1<TData>
 class CORDL_TYPE INetworkPacketSubSerializer_1 {
 public:
-  // Declarations
-  /// @brief Convert operator to "::GlobalNamespace::INetworkPacketProcessor_1<TData>"
-  constexpr operator ::GlobalNamespace::INetworkPacketProcessor_1<TData>*() noexcept;
+// Declarations
+/// @brief Convert operator to "::GlobalNamespace::INetworkPacketProcessor_1<TData>"
+constexpr operator  ::GlobalNamespace::INetworkPacketProcessor_1<TData>*() noexcept;
 
-  /// @brief Method Deserialize, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader, int32_t length, TData data);
+/// @brief Method Deserialize, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline void Deserialize(::LiteNetLib::Utils::NetDataReader*  reader, int32_t  length, TData  data) ;
 
-  /// @brief Method HandlesType, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline bool HandlesType(::System::Type* type);
+/// @brief Method HandlesType, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline bool HandlesType(::System::Type*  type) ;
 
-  /// @brief Method Serialize, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer, ::LiteNetLib::Utils::INetSerializable* packet);
+/// @brief Method Serialize, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline void Serialize(::LiteNetLib::Utils::NetDataWriter*  writer, ::LiteNetLib::Utils::INetSerializable*  packet) ;
 
-  /// @brief Convert to "::GlobalNamespace::INetworkPacketProcessor_1<TData>"
-  constexpr ::GlobalNamespace::INetworkPacketProcessor_1<TData>* i___GlobalNamespace__INetworkPacketProcessor_1_TData_() noexcept;
+/// @brief Convert to "::GlobalNamespace::INetworkPacketProcessor_1<TData>"
+constexpr ::GlobalNamespace::INetworkPacketProcessor_1<TData>* i___GlobalNamespace__INetworkPacketProcessor_1_TData_() noexcept;
 
-  // Ctor Parameters [CppParam { name: "", ty: "INetworkPacketSubSerializer_1", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  INetworkPacketSubSerializer_1(INetworkPacketSubSerializer_1 const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "INetworkPacketSubSerializer_1", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+INetworkPacketSubSerializer_1(INetworkPacketSubSerializer_1 const& ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18207 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{18209};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::INetworkPacketSubSerializer_1, "", "INetworkPacketSubSerializer`1");

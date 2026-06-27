@@ -21,44 +21,44 @@ namespace Org::BouncyCastle::Security::Certificates {
 // CS Name: Org.BouncyCastle.Security.Certificates.CertificateExpiredException
 class CORDL_TYPE CertificateExpiredException : public ::Org::BouncyCastle::Security::Certificates::CertificateException {
 public:
-  // Declarations
-  static inline ::Org::BouncyCastle::Security::Certificates::CertificateExpiredException* New_ctor();
+// Declarations
+static inline ::Org::BouncyCastle::Security::Certificates::CertificateExpiredException* New_ctor() ;
 
-  static inline ::Org::BouncyCastle::Security::Certificates::CertificateExpiredException* New_ctor(::StringW message);
+static inline ::Org::BouncyCastle::Security::Certificates::CertificateExpiredException* New_ctor(::StringW  message) ;
 
-  static inline ::Org::BouncyCastle::Security::Certificates::CertificateExpiredException* New_ctor(::StringW message, ::System::Exception* exception);
+static inline ::Org::BouncyCastle::Security::Certificates::CertificateExpiredException* New_ctor(::StringW  message, ::System::Exception*  exception) ;
 
-  /// @brief Method .ctor, addr 0x35300c0, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x3530e5c, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method .ctor, addr 0x35300c8, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::StringW message);
+/// @brief Method .ctor, addr 0x3530e64, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(::StringW  message) ;
 
-  /// @brief Method .ctor, addr 0x35300d0, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::StringW message, ::System::Exception* exception);
+/// @brief Method .ctor, addr 0x3530e6c, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(::StringW  message, ::System::Exception*  exception) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CertificateExpiredException();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr CertificateExpiredException() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CertificateExpiredException", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  CertificateExpiredException(CertificateExpiredException&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CertificateExpiredException", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  CertificateExpiredException(CertificateExpiredException const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "CertificateExpiredException", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+CertificateExpiredException(CertificateExpiredException && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1735 };
+// Ctor Parameters [CppParam { name: "", ty: "CertificateExpiredException", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+CertificateExpiredException(CertificateExpiredException const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{1735};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Security::Certificates::CertificateExpiredException, 0x90>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Security::Certificates
+} // namespace end def Org::BouncyCastle::Security::Certificates
 NEED_NO_BOX(::Org::BouncyCastle::Security::Certificates::CertificateExpiredException);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Security::Certificates::CertificateExpiredException*, "Org.BouncyCastle.Security.Certificates", "CertificateExpiredException");

@@ -8,10 +8,12 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TypeConverterRegistry)
 namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+template<typename TKey,typename TValue>
+class Dictionary_2;
 }
 namespace System::Collections::Generic {
-template <typename T> class IEqualityComparer_1;
+template<typename T>
+class IEqualityComparer_1;
 }
 namespace System {
 class Delegate;
@@ -45,79 +47,77 @@ namespace UnityEngine::UIElements {
 // CS Name: UnityEngine.UIElements.TypeConverterRegistry/ConverterKeyComparer
 class CORDL_TYPE TypeConverterRegistry_ConverterKeyComparer : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Convert operator to "::System::Collections::Generic::IEqualityComparer_1<::UnityEngine::UIElements::TypeConverterRegistry_ConverterKey>"
-  constexpr operator ::System::Collections::Generic::IEqualityComparer_1<::UnityEngine::UIElements::TypeConverterRegistry_ConverterKey>*() noexcept;
+// Declarations
+/// @brief Convert operator to "::System::Collections::Generic::IEqualityComparer_1<::UnityEngine::UIElements::TypeConverterRegistry_ConverterKey>"
+constexpr operator  ::System::Collections::Generic::IEqualityComparer_1<::UnityEngine::UIElements::TypeConverterRegistry_ConverterKey>*() noexcept;
 
-  /// @brief Method Equals, addr 0x6ad9d08, size 0x68, virtual true, abstract: false, final true
-  inline bool Equals(::UnityEngine::UIElements::TypeConverterRegistry_ConverterKey x, ::UnityEngine::UIElements::TypeConverterRegistry_ConverterKey y);
+/// @brief Method Equals, addr 0x6adb880, size 0x68, virtual true, abstract: false, final true
+inline bool Equals(::UnityEngine::UIElements::TypeConverterRegistry_ConverterKey  x, ::UnityEngine::UIElements::TypeConverterRegistry_ConverterKey  y) ;
 
-  /// @brief Method GetHashCode, addr 0x6ad9d70, size 0x80, virtual true, abstract: false, final true
-  inline int32_t GetHashCode(::UnityEngine::UIElements::TypeConverterRegistry_ConverterKey obj);
+/// @brief Method GetHashCode, addr 0x6adb8e8, size 0x80, virtual true, abstract: false, final true
+inline int32_t GetHashCode(::UnityEngine::UIElements::TypeConverterRegistry_ConverterKey  obj) ;
 
-  static inline ::UnityEngine::UIElements::TypeConverterRegistry_ConverterKeyComparer* New_ctor();
+static inline ::UnityEngine::UIElements::TypeConverterRegistry_ConverterKeyComparer* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x6ad9d04, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6adb87c, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Convert to "::System::Collections::Generic::IEqualityComparer_1<::UnityEngine::UIElements::TypeConverterRegistry_ConverterKey>"
-  constexpr ::System::Collections::Generic::IEqualityComparer_1<::UnityEngine::UIElements::TypeConverterRegistry_ConverterKey>*
-  i___System__Collections__Generic__IEqualityComparer_1___UnityEngine__UIElements__TypeConverterRegistry_ConverterKey_() noexcept;
+/// @brief Convert to "::System::Collections::Generic::IEqualityComparer_1<::UnityEngine::UIElements::TypeConverterRegistry_ConverterKey>"
+constexpr ::System::Collections::Generic::IEqualityComparer_1<::UnityEngine::UIElements::TypeConverterRegistry_ConverterKey>* i___System__Collections__Generic__IEqualityComparer_1___UnityEngine__UIElements__TypeConverterRegistry_ConverterKey_() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TypeConverterRegistry_ConverterKeyComparer();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr TypeConverterRegistry_ConverterKeyComparer() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TypeConverterRegistry_ConverterKeyComparer", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  TypeConverterRegistry_ConverterKeyComparer(TypeConverterRegistry_ConverterKeyComparer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TypeConverterRegistry_ConverterKeyComparer", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  TypeConverterRegistry_ConverterKeyComparer(TypeConverterRegistry_ConverterKeyComparer const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "TypeConverterRegistry_ConverterKeyComparer", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+TypeConverterRegistry_ConverterKeyComparer(TypeConverterRegistry_ConverterKeyComparer && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4031 };
+// Ctor Parameters [CppParam { name: "", ty: "TypeConverterRegistry_ConverterKeyComparer", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+TypeConverterRegistry_ConverterKeyComparer(TypeConverterRegistry_ConverterKeyComparer const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4031};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::TypeConverterRegistry_ConverterKeyComparer, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements
-// Dependencies
+} // namespace end def UnityEngine::UIElements
+// Dependencies 
 namespace UnityEngine::UIElements {
 // Is value type: true
 // CS Name: UnityEngine.UIElements.TypeConverterRegistry/ConverterKey
 struct CORDL_TYPE TypeConverterRegistry_ConverterKey {
 public:
-  // Declarations
-  /// @brief Method .ctor, addr 0x6ad99c0, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::System::Type* source, ::System::Type* destination);
+// Declarations
+/// @brief Method .ctor, addr 0x6adb538, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(::System::Type*  source, ::System::Type*  destination) ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TypeConverterRegistry_ConverterKey();
+// Ctor Parameters []
+// @brief default ctor
+constexpr TypeConverterRegistry_ConverterKey() ;
 
-  // Ctor Parameters [CppParam { name: "SourceType", ty: "::System::Type*", modifiers: "", def_value: None }, CppParam { name: "DestinationType", ty: "::System::Type*", modifiers: "", def_value: None
-  // }]
-  constexpr TypeConverterRegistry_ConverterKey(::System::Type* SourceType, ::System::Type* DestinationType) noexcept;
+// Ctor Parameters [CppParam { name: "SourceType", ty: "::System::Type*", modifiers: "", def_value: None }, CppParam { name: "DestinationType", ty: "::System::Type*", modifiers: "", def_value: None }]
+constexpr TypeConverterRegistry_ConverterKey(::System::Type*  SourceType, ::System::Type*  DestinationType) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4032 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4032};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x10};
 
-  /// @brief Field SourceType, offset: 0x0, size: 0x8, def value: None
-  ::System::Type* SourceType;
+/// @brief Field SourceType, offset: 0x0, size: 0x8, def value: None
+ ::System::Type*  SourceType;
 
-  /// @brief Field DestinationType, offset: 0x8, size: 0x8, def value: None
-  ::System::Type* DestinationType;
+/// @brief Field DestinationType, offset: 0x8, size: 0x8, def value: None
+ ::System::Type*  DestinationType;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::UIElements::TypeConverterRegistry_ConverterKey, SourceType) == 0x0, "Offset mismatch!");
@@ -126,81 +126,79 @@ static_assert(offsetof(::UnityEngine::UIElements::TypeConverterRegistry_Converte
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::TypeConverterRegistry_ConverterKey, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements
-// Dependencies
+} // namespace end def UnityEngine::UIElements
+// Dependencies 
 namespace UnityEngine::UIElements {
 // Is value type: true
 // CS Name: UnityEngine.UIElements.TypeConverterRegistry
 struct CORDL_TYPE TypeConverterRegistry {
 public:
-  // Declarations
-  using ConverterKey = ::UnityEngine::UIElements::TypeConverterRegistry_ConverterKey;
+// Declarations
+using ConverterKey = ::UnityEngine::UIElements::TypeConverterRegistry_ConverterKey;
 
-  using ConverterKeyComparer = ::UnityEngine::UIElements::TypeConverterRegistry_ConverterKeyComparer;
+using ConverterKeyComparer = ::UnityEngine::UIElements::TypeConverterRegistry_ConverterKeyComparer;
 
-  /// @brief Field k_Comparer, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_k_Comparer, put = setStaticF_k_Comparer)) ::UnityEngine::UIElements::TypeConverterRegistry_ConverterKeyComparer* k_Comparer;
+/// @brief Field k_Comparer, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_k_Comparer, put=setStaticF_k_Comparer)) ::UnityEngine::UIElements::TypeConverterRegistry_ConverterKeyComparer*  k_Comparer;
 
-  /// @brief Convert operator to "::System::Collections::Generic::IEqualityComparer_1<::UnityEngine::UIElements::TypeConverterRegistry>"
-  constexpr operator ::System::Collections::Generic::IEqualityComparer_1<::UnityEngine::UIElements::TypeConverterRegistry>*();
+/// @brief Convert operator to "::System::Collections::Generic::IEqualityComparer_1<::UnityEngine::UIElements::TypeConverterRegistry>"
+constexpr operator  ::System::Collections::Generic::IEqualityComparer_1<::UnityEngine::UIElements::TypeConverterRegistry>*() ;
 
-  /// @brief Method Apply, addr 0x6ad99c8, size 0x188, virtual false, abstract: false, final false
-  inline void Apply(::UnityEngine::UIElements::TypeConverterRegistry registry);
+/// @brief Method Apply, addr 0x6adb540, size 0x188, virtual false, abstract: false, final false
+inline void Apply(::UnityEngine::UIElements::TypeConverterRegistry  registry) ;
 
-  /// @brief Method Create, addr 0x6ad9814, size 0xcc, virtual false, abstract: false, final false
-  static inline ::UnityEngine::UIElements::TypeConverterRegistry Create();
+/// @brief Method Create, addr 0x6adb38c, size 0xcc, virtual false, abstract: false, final false
+static inline ::UnityEngine::UIElements::TypeConverterRegistry Create() ;
 
-  /// @brief Method Equals, addr 0x6ad9c6c, size 0xc, virtual true, abstract: false, final true
-  inline bool Equals(::UnityEngine::UIElements::TypeConverterRegistry x, ::UnityEngine::UIElements::TypeConverterRegistry y);
+/// @brief Method Equals, addr 0x6adb7e4, size 0xc, virtual true, abstract: false, final true
+inline bool Equals(::UnityEngine::UIElements::TypeConverterRegistry  x, ::UnityEngine::UIElements::TypeConverterRegistry  y) ;
 
-  /// @brief Method GetConverter, addr 0x6ad9b50, size 0x8c, virtual false, abstract: false, final false
-  inline ::System::Delegate* GetConverter(::System::Type* source, ::System::Type* destination);
+/// @brief Method GetConverter, addr 0x6adb6c8, size 0x8c, virtual false, abstract: false, final false
+inline ::System::Delegate* GetConverter(::System::Type*  source, ::System::Type*  destination) ;
 
-  /// @brief Method GetHashCode, addr 0x6ad9c78, size 0x20, virtual true, abstract: false, final true
-  inline int32_t GetHashCode(::UnityEngine::UIElements::TypeConverterRegistry obj);
+/// @brief Method GetHashCode, addr 0x6adb7f0, size 0x20, virtual true, abstract: false, final true
+inline int32_t GetHashCode(::UnityEngine::UIElements::TypeConverterRegistry  obj) ;
 
-  /// @brief Method Register, addr 0x6ad98e8, size 0xd8, virtual false, abstract: false, final false
-  inline void Register(::System::Type* source, ::System::Type* destination, ::System::Delegate* converter);
+/// @brief Method Register, addr 0x6adb460, size 0xd8, virtual false, abstract: false, final false
+inline void Register(::System::Type*  source, ::System::Type*  destination, ::System::Delegate*  converter) ;
 
-  /// @brief Method TryGetConverter, addr 0x6ad9bdc, size 0x90, virtual false, abstract: false, final false
-  inline bool TryGetConverter(::System::Type* source, ::System::Type* destination, ::ByRef<::System::Delegate*> converter);
+/// @brief Method TryGetConverter, addr 0x6adb754, size 0x90, virtual false, abstract: false, final false
+inline bool TryGetConverter(::System::Type*  source, ::System::Type*  destination, ::ByRef<::System::Delegate*>  converter) ;
 
-  /// @brief Method .ctor, addr 0x6ad98e0, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::TypeConverterRegistry_ConverterKey, ::System::Delegate*>* storage);
+/// @brief Method .ctor, addr 0x6adb458, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::TypeConverterRegistry_ConverterKey,::System::Delegate*>*  storage) ;
 
-  static inline ::UnityEngine::UIElements::TypeConverterRegistry_ConverterKeyComparer* getStaticF_k_Comparer();
+static inline ::UnityEngine::UIElements::TypeConverterRegistry_ConverterKeyComparer* getStaticF_k_Comparer() ;
 
-  /// @brief Convert to "::System::Collections::Generic::IEqualityComparer_1<::UnityEngine::UIElements::TypeConverterRegistry>"
-  constexpr ::System::Collections::Generic::IEqualityComparer_1<::UnityEngine::UIElements::TypeConverterRegistry>*
-  i___System__Collections__Generic__IEqualityComparer_1___UnityEngine__UIElements__TypeConverterRegistry_();
+/// @brief Convert to "::System::Collections::Generic::IEqualityComparer_1<::UnityEngine::UIElements::TypeConverterRegistry>"
+constexpr ::System::Collections::Generic::IEqualityComparer_1<::UnityEngine::UIElements::TypeConverterRegistry>* i___System__Collections__Generic__IEqualityComparer_1___UnityEngine__UIElements__TypeConverterRegistry_() ;
 
-  static inline void setStaticF_k_Comparer(::UnityEngine::UIElements::TypeConverterRegistry_ConverterKeyComparer* value);
+static inline void setStaticF_k_Comparer(::UnityEngine::UIElements::TypeConverterRegistry_ConverterKeyComparer*  value) ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TypeConverterRegistry();
+// Ctor Parameters []
+// @brief default ctor
+constexpr TypeConverterRegistry() ;
 
-  // Ctor Parameters [CppParam { name: "m_Converters", ty: "::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::TypeConverterRegistry_ConverterKey,::System::Delegate*>*",
-  // modifiers: "", def_value: None }]
-  constexpr TypeConverterRegistry(::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::TypeConverterRegistry_ConverterKey, ::System::Delegate*>* m_Converters) noexcept;
+// Ctor Parameters [CppParam { name: "m_Converters", ty: "::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::TypeConverterRegistry_ConverterKey,::System::Delegate*>*", modifiers: "", def_value: None }]
+constexpr TypeConverterRegistry(::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::TypeConverterRegistry_ConverterKey,::System::Delegate*>*  m_Converters) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4033 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4033};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x8};
 
-  /// @brief Field m_Converters, offset: 0x0, size: 0x8, def value: None
-  ::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::TypeConverterRegistry_ConverterKey, ::System::Delegate*>* m_Converters;
+/// @brief Field m_Converters, offset: 0x0, size: 0x8, def value: None
+ ::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::TypeConverterRegistry_ConverterKey,::System::Delegate*>*  m_Converters;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::UIElements::TypeConverterRegistry, m_Converters) == 0x0, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::TypeConverterRegistry, 0x8>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements
+} // namespace end def UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::TypeConverterRegistry_ConverterKeyComparer);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::TypeConverterRegistry_ConverterKeyComparer*, "UnityEngine.UIElements", "TypeConverterRegistry/ConverterKeyComparer");
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::TypeConverterRegistry, "UnityEngine.UIElements", "TypeConverterRegistry");

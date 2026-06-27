@@ -25,221 +25,221 @@ namespace Org::BouncyCastle::Crypto::Digests {
 // CS Name: Org.BouncyCastle.Crypto.Digests.Gost3411_2012Digest
 class CORDL_TYPE Gost3411_2012Digest : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = get_AlgorithmName)) ::StringW AlgorithmName;
+// Declarations
+ __declspec(property(get=get_AlgorithmName)) ::StringW  AlgorithmName;
 
-  /// @brief Field C, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_C, put = setStaticF_C)) ::ArrayW<::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Array<::ArrayW<uint8_t, ::Array<uint8_t>*>>*> C;
+/// @brief Field C, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_C, put=setStaticF_C)) ::ArrayW<::ArrayW<uint8_t,::Array<uint8_t>*>,::Array<::ArrayW<uint8_t,::Array<uint8_t>*>>*>  C;
 
-  /// @brief Field IV, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_IV, put = __cordl_internal_set_IV)) ::ArrayW<uint8_t, ::Array<uint8_t>*> IV;
+/// @brief Field IV, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_IV, put=__cordl_internal_set_IV)) ::ArrayW<uint8_t,::Array<uint8_t>*>  IV;
 
-  /// @brief Field Ki, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_Ki, put = __cordl_internal_set_Ki)) ::ArrayW<uint8_t, ::Array<uint8_t>*> Ki;
+/// @brief Field Ki, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get_Ki, put=__cordl_internal_set_Ki)) ::ArrayW<uint8_t,::Array<uint8_t>*>  Ki;
 
-  /// @brief Field N, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_N, put = __cordl_internal_set_N)) ::ArrayW<uint8_t, ::Array<uint8_t>*> N;
+/// @brief Field N, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_N, put=__cordl_internal_set_N)) ::ArrayW<uint8_t,::Array<uint8_t>*>  N;
 
-  /// @brief Field Sigma, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_Sigma, put = __cordl_internal_set_Sigma)) ::ArrayW<uint8_t, ::Array<uint8_t>*> Sigma;
+/// @brief Field Sigma, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_Sigma, put=__cordl_internal_set_Sigma)) ::ArrayW<uint8_t,::Array<uint8_t>*>  Sigma;
 
-  /// @brief Field T, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_T, put = setStaticF_T)) ::ArrayW<::ArrayW<uint64_t, ::Array<uint64_t>*>, ::Array<::ArrayW<uint64_t, ::Array<uint64_t>*>>*> T;
+/// @brief Field T, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_T, put=setStaticF_T)) ::ArrayW<::ArrayW<uint64_t,::Array<uint64_t>*>,::Array<::ArrayW<uint64_t,::Array<uint64_t>*>>*>  T;
 
-  /// @brief Field Zero, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_Zero, put = setStaticF_Zero)) ::ArrayW<uint8_t, ::Array<uint8_t>*> Zero;
+/// @brief Field Zero, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_Zero, put=setStaticF_Zero)) ::ArrayW<uint8_t,::Array<uint8_t>*>  Zero;
 
-  /// @brief Field bOff, offset 0x50, size 0x4
-  __declspec(property(get = __cordl_internal_get_bOff, put = __cordl_internal_set_bOff)) int32_t bOff;
+/// @brief Field bOff, offset 0x50, size 0x4 
+ __declspec(property(get=__cordl_internal_get_bOff, put=__cordl_internal_set_bOff)) int32_t  bOff;
 
-  /// @brief Field block, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_block, put = __cordl_internal_set_block)) ::ArrayW<uint8_t, ::Array<uint8_t>*> block;
+/// @brief Field block, offset 0x48, size 0x8 
+ __declspec(property(get=__cordl_internal_get_block, put=__cordl_internal_set_block)) ::ArrayW<uint8_t,::Array<uint8_t>*>  block;
 
-  /// @brief Field h, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_h, put = __cordl_internal_set_h)) ::ArrayW<uint8_t, ::Array<uint8_t>*> h;
+/// @brief Field h, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get_h, put=__cordl_internal_set_h)) ::ArrayW<uint8_t,::Array<uint8_t>*>  h;
 
-  /// @brief Field m, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_m, put = __cordl_internal_set_m)) ::ArrayW<uint8_t, ::Array<uint8_t>*> m;
+/// @brief Field m, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m, put=__cordl_internal_set_m)) ::ArrayW<uint8_t,::Array<uint8_t>*>  m;
 
-  /// @brief Field tmp, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_tmp, put = __cordl_internal_set_tmp)) ::ArrayW<uint8_t, ::Array<uint8_t>*> tmp;
+/// @brief Field tmp, offset 0x40, size 0x8 
+ __declspec(property(get=__cordl_internal_get_tmp, put=__cordl_internal_set_tmp)) ::ArrayW<uint8_t,::Array<uint8_t>*>  tmp;
 
-  /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IDigest"
-  constexpr operator ::Org::BouncyCastle::Crypto::IDigest*() noexcept;
+/// @brief Convert operator to "::Org::BouncyCastle::Crypto::IDigest"
+constexpr operator  ::Org::BouncyCastle::Crypto::IDigest*() noexcept;
 
-  /// @brief Convert operator to "::Org::BouncyCastle::Utilities::IMemoable"
-  constexpr operator ::Org::BouncyCastle::Utilities::IMemoable*() noexcept;
+/// @brief Convert operator to "::Org::BouncyCastle::Utilities::IMemoable"
+constexpr operator  ::Org::BouncyCastle::Utilities::IMemoable*() noexcept;
 
-  /// @brief Method BlockUpdate, addr 0x362de54, size 0x144, virtual true, abstract: false, final true
-  inline void BlockUpdate(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t len);
+/// @brief Method BlockUpdate, addr 0x362ebf0, size 0x144, virtual true, abstract: false, final true
+inline void BlockUpdate(::ArrayW<uint8_t,::Array<uint8_t>*>  input, int32_t  inOff, int32_t  len) ;
 
-  /// @brief Method Copy, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Utilities::IMemoable* Copy();
+/// @brief Method Copy, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Utilities::IMemoable* Copy() ;
 
-  /// @brief Method DoFinal, addr 0x362d890, size 0x180, virtual true, abstract: false, final false
-  inline int32_t DoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
+/// @brief Method DoFinal, addr 0x362e62c, size 0x180, virtual true, abstract: false, final false
+inline int32_t DoFinal(::ArrayW<uint8_t,::Array<uint8_t>*>  output, int32_t  outOff) ;
 
-  /// @brief Method E, addr 0x362eb50, size 0x144, virtual false, abstract: false, final false
-  inline void E(::ArrayW<uint8_t, ::Array<uint8_t>*> K, ::ArrayW<uint8_t, ::Array<uint8_t>*> m);
+/// @brief Method E, addr 0x362f8ec, size 0x144, virtual false, abstract: false, final false
+inline void E(::ArrayW<uint8_t,::Array<uint8_t>*>  K, ::ArrayW<uint8_t,::Array<uint8_t>*>  m) ;
 
-  /// @brief Method F, addr 0x362df98, size 0xb5c, virtual false, abstract: false, final false
-  inline void F(::ArrayW<uint8_t, ::Array<uint8_t>*> V);
+/// @brief Method F, addr 0x362ed34, size 0xb5c, virtual false, abstract: false, final false
+inline void F(::ArrayW<uint8_t,::Array<uint8_t>*>  V) ;
 
-  /// @brief Method GetByteLength, addr 0x362dc78, size 0x8, virtual true, abstract: false, final true
-  inline int32_t GetByteLength();
+/// @brief Method GetByteLength, addr 0x362ea14, size 0x8, virtual true, abstract: false, final true
+inline int32_t GetByteLength() ;
 
-  /// @brief Method GetDigestSize, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline int32_t GetDigestSize();
+/// @brief Method GetDigestSize, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline int32_t GetDigestSize() ;
 
-  static inline ::Org::BouncyCastle::Crypto::Digests::Gost3411_2012Digest* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> IV);
+static inline ::Org::BouncyCastle::Crypto::Digests::Gost3411_2012Digest* New_ctor(::ArrayW<uint8_t,::Array<uint8_t>*>  IV) ;
 
-  /// @brief Method Reset, addr 0x362dbd0, size 0xa8, virtual true, abstract: false, final true
-  inline void Reset();
+/// @brief Method Reset, addr 0x362e96c, size 0xa8, virtual true, abstract: false, final true
+inline void Reset() ;
 
-  /// @brief Method Reset, addr 0x362dc80, size 0x158, virtual true, abstract: false, final true
-  inline void Reset(::Org::BouncyCastle::Utilities::IMemoable* other);
+/// @brief Method Reset, addr 0x362ea1c, size 0x158, virtual true, abstract: false, final true
+inline void Reset(::Org::BouncyCastle::Utilities::IMemoable*  other) ;
 
-  /// @brief Method Update, addr 0x362ddd8, size 0x7c, virtual true, abstract: false, final true
-  inline void Update(uint8_t input);
+/// @brief Method Update, addr 0x362eb74, size 0x7c, virtual true, abstract: false, final true
+inline void Update(uint8_t  input) ;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_IV() const;
+constexpr ::ArrayW<uint8_t,::Array<uint8_t>*> const& __cordl_internal_get_IV() const;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_IV();
+constexpr ::ArrayW<uint8_t,::Array<uint8_t>*>& __cordl_internal_get_IV() ;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_Ki() const;
+constexpr ::ArrayW<uint8_t,::Array<uint8_t>*> const& __cordl_internal_get_Ki() const;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_Ki();
+constexpr ::ArrayW<uint8_t,::Array<uint8_t>*>& __cordl_internal_get_Ki() ;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_N() const;
+constexpr ::ArrayW<uint8_t,::Array<uint8_t>*> const& __cordl_internal_get_N() const;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_N();
+constexpr ::ArrayW<uint8_t,::Array<uint8_t>*>& __cordl_internal_get_N() ;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_Sigma() const;
+constexpr ::ArrayW<uint8_t,::Array<uint8_t>*> const& __cordl_internal_get_Sigma() const;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_Sigma();
+constexpr ::ArrayW<uint8_t,::Array<uint8_t>*>& __cordl_internal_get_Sigma() ;
 
-  constexpr int32_t const& __cordl_internal_get_bOff() const;
+constexpr int32_t const& __cordl_internal_get_bOff() const;
 
-  constexpr int32_t& __cordl_internal_get_bOff();
+constexpr int32_t& __cordl_internal_get_bOff() ;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_block() const;
+constexpr ::ArrayW<uint8_t,::Array<uint8_t>*> const& __cordl_internal_get_block() const;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_block();
+constexpr ::ArrayW<uint8_t,::Array<uint8_t>*>& __cordl_internal_get_block() ;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_h() const;
+constexpr ::ArrayW<uint8_t,::Array<uint8_t>*> const& __cordl_internal_get_h() const;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_h();
+constexpr ::ArrayW<uint8_t,::Array<uint8_t>*>& __cordl_internal_get_h() ;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_m() const;
+constexpr ::ArrayW<uint8_t,::Array<uint8_t>*> const& __cordl_internal_get_m() const;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_m();
+constexpr ::ArrayW<uint8_t,::Array<uint8_t>*>& __cordl_internal_get_m() ;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_tmp() const;
+constexpr ::ArrayW<uint8_t,::Array<uint8_t>*> const& __cordl_internal_get_tmp() const;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_tmp();
+constexpr ::ArrayW<uint8_t,::Array<uint8_t>*>& __cordl_internal_get_tmp() ;
 
-  constexpr void __cordl_internal_set_IV(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+constexpr void __cordl_internal_set_IV(::ArrayW<uint8_t,::Array<uint8_t>*>  value) ;
 
-  constexpr void __cordl_internal_set_Ki(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+constexpr void __cordl_internal_set_Ki(::ArrayW<uint8_t,::Array<uint8_t>*>  value) ;
 
-  constexpr void __cordl_internal_set_N(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+constexpr void __cordl_internal_set_N(::ArrayW<uint8_t,::Array<uint8_t>*>  value) ;
 
-  constexpr void __cordl_internal_set_Sigma(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+constexpr void __cordl_internal_set_Sigma(::ArrayW<uint8_t,::Array<uint8_t>*>  value) ;
 
-  constexpr void __cordl_internal_set_bOff(int32_t value);
+constexpr void __cordl_internal_set_bOff(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_block(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+constexpr void __cordl_internal_set_block(::ArrayW<uint8_t,::Array<uint8_t>*>  value) ;
 
-  constexpr void __cordl_internal_set_h(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+constexpr void __cordl_internal_set_h(::ArrayW<uint8_t,::Array<uint8_t>*>  value) ;
 
-  constexpr void __cordl_internal_set_m(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+constexpr void __cordl_internal_set_m(::ArrayW<uint8_t,::Array<uint8_t>*>  value) ;
 
-  constexpr void __cordl_internal_set_tmp(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+constexpr void __cordl_internal_set_tmp(::ArrayW<uint8_t,::Array<uint8_t>*>  value) ;
 
-  /// @brief Method .ctor, addr 0x362d778, size 0x118, virtual false, abstract: false, final false
-  inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> IV);
+/// @brief Method .ctor, addr 0x362e514, size 0x118, virtual false, abstract: false, final false
+inline void _ctor(::ArrayW<uint8_t,::Array<uint8_t>*>  IV) ;
 
-  /// @brief Method addMod512, addr 0x362db08, size 0x60, virtual false, abstract: false, final false
-  inline void addMod512(::ArrayW<uint8_t, ::Array<uint8_t>*> A, ::ArrayW<uint8_t, ::Array<uint8_t>*> B);
+/// @brief Method addMod512, addr 0x362e8a4, size 0x60, virtual false, abstract: false, final false
+inline void addMod512(::ArrayW<uint8_t,::Array<uint8_t>*>  A, ::ArrayW<uint8_t,::Array<uint8_t>*>  B) ;
 
-  /// @brief Method addMod512, addr 0x362da90, size 0x78, virtual false, abstract: false, final false
-  inline void addMod512(::ArrayW<uint8_t, ::Array<uint8_t>*> A, int32_t num);
+/// @brief Method addMod512, addr 0x362e82c, size 0x78, virtual false, abstract: false, final false
+inline void addMod512(::ArrayW<uint8_t,::Array<uint8_t>*>  A, int32_t  num) ;
 
-  /// @brief Method g_N, addr 0x362da10, size 0x80, virtual false, abstract: false, final false
-  inline void g_N(::ArrayW<uint8_t, ::Array<uint8_t>*> h, ::ArrayW<uint8_t, ::Array<uint8_t>*> N, ::ArrayW<uint8_t, ::Array<uint8_t>*> m);
+/// @brief Method g_N, addr 0x362e7ac, size 0x80, virtual false, abstract: false, final false
+inline void g_N(::ArrayW<uint8_t,::Array<uint8_t>*>  h, ::ArrayW<uint8_t,::Array<uint8_t>*>  N, ::ArrayW<uint8_t,::Array<uint8_t>*>  m) ;
 
-  static inline ::ArrayW<::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Array<::ArrayW<uint8_t, ::Array<uint8_t>*>>*> getStaticF_C();
+static inline ::ArrayW<::ArrayW<uint8_t,::Array<uint8_t>*>,::Array<::ArrayW<uint8_t,::Array<uint8_t>*>>*> getStaticF_C() ;
 
-  static inline ::ArrayW<::ArrayW<uint64_t, ::Array<uint64_t>*>, ::Array<::ArrayW<uint64_t, ::Array<uint64_t>*>>*> getStaticF_T();
+static inline ::ArrayW<::ArrayW<uint64_t,::Array<uint64_t>*>,::Array<::ArrayW<uint64_t,::Array<uint64_t>*>>*> getStaticF_T() ;
 
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_Zero();
+static inline ::ArrayW<uint8_t,::Array<uint8_t>*> getStaticF_Zero() ;
 
-  /// @brief Method get_AlgorithmName, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline ::StringW get_AlgorithmName();
+/// @brief Method get_AlgorithmName, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline ::StringW get_AlgorithmName() ;
 
-  /// @brief Convert to "::Org::BouncyCastle::Crypto::IDigest"
-  constexpr ::Org::BouncyCastle::Crypto::IDigest* i___Org__BouncyCastle__Crypto__IDigest() noexcept;
+/// @brief Convert to "::Org::BouncyCastle::Crypto::IDigest"
+constexpr ::Org::BouncyCastle::Crypto::IDigest* i___Org__BouncyCastle__Crypto__IDigest() noexcept;
 
-  /// @brief Convert to "::Org::BouncyCastle::Utilities::IMemoable"
-  constexpr ::Org::BouncyCastle::Utilities::IMemoable* i___Org__BouncyCastle__Utilities__IMemoable() noexcept;
+/// @brief Convert to "::Org::BouncyCastle::Utilities::IMemoable"
+constexpr ::Org::BouncyCastle::Utilities::IMemoable* i___Org__BouncyCastle__Utilities__IMemoable() noexcept;
 
-  /// @brief Method reverse, addr 0x362db68, size 0x68, virtual false, abstract: false, final false
-  inline void reverse(::ArrayW<uint8_t, ::Array<uint8_t>*> src, ::ArrayW<uint8_t, ::Array<uint8_t>*> dst);
+/// @brief Method reverse, addr 0x362e904, size 0x68, virtual false, abstract: false, final false
+inline void reverse(::ArrayW<uint8_t,::Array<uint8_t>*>  src, ::ArrayW<uint8_t,::Array<uint8_t>*>  dst) ;
 
-  static inline void setStaticF_C(::ArrayW<::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Array<::ArrayW<uint8_t, ::Array<uint8_t>*>>*> value);
+static inline void setStaticF_C(::ArrayW<::ArrayW<uint8_t,::Array<uint8_t>*>,::Array<::ArrayW<uint8_t,::Array<uint8_t>*>>*>  value) ;
 
-  static inline void setStaticF_T(::ArrayW<::ArrayW<uint64_t, ::Array<uint64_t>*>, ::Array<::ArrayW<uint64_t, ::Array<uint64_t>*>>*> value);
+static inline void setStaticF_T(::ArrayW<::ArrayW<uint64_t,::Array<uint64_t>*>,::Array<::ArrayW<uint64_t,::Array<uint64_t>*>>*>  value) ;
 
-  static inline void setStaticF_Zero(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+static inline void setStaticF_Zero(::ArrayW<uint8_t,::Array<uint8_t>*>  value) ;
 
-  /// @brief Method xor512, addr 0x362eaf4, size 0x5c, virtual false, abstract: false, final false
-  inline void xor512(::ArrayW<uint8_t, ::Array<uint8_t>*> A, ::ArrayW<uint8_t, ::Array<uint8_t>*> B);
+/// @brief Method xor512, addr 0x362f890, size 0x5c, virtual false, abstract: false, final false
+inline void xor512(::ArrayW<uint8_t,::Array<uint8_t>*>  A, ::ArrayW<uint8_t,::Array<uint8_t>*>  B) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Gost3411_2012Digest();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr Gost3411_2012Digest() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Gost3411_2012Digest", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  Gost3411_2012Digest(Gost3411_2012Digest&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Gost3411_2012Digest", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  Gost3411_2012Digest(Gost3411_2012Digest const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "Gost3411_2012Digest", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Gost3411_2012Digest(Gost3411_2012Digest && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 752 };
+// Ctor Parameters [CppParam { name: "", ty: "Gost3411_2012Digest", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Gost3411_2012Digest(Gost3411_2012Digest const& ) = delete;
 
-  /// @brief Field IV, offset: 0x10, size: 0x8, def value: None
-  ::ArrayW<uint8_t, ::Array<uint8_t>*> ___IV;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{752};
 
-  /// @brief Field N, offset: 0x18, size: 0x8, def value: None
-  ::ArrayW<uint8_t, ::Array<uint8_t>*> ___N;
+/// @brief Field IV, offset: 0x10, size: 0x8, def value: None
+ ::ArrayW<uint8_t,::Array<uint8_t>*>  ___IV;
 
-  /// @brief Field Sigma, offset: 0x20, size: 0x8, def value: None
-  ::ArrayW<uint8_t, ::Array<uint8_t>*> ___Sigma;
+/// @brief Field N, offset: 0x18, size: 0x8, def value: None
+ ::ArrayW<uint8_t,::Array<uint8_t>*>  ___N;
 
-  /// @brief Field Ki, offset: 0x28, size: 0x8, def value: None
-  ::ArrayW<uint8_t, ::Array<uint8_t>*> ___Ki;
+/// @brief Field Sigma, offset: 0x20, size: 0x8, def value: None
+ ::ArrayW<uint8_t,::Array<uint8_t>*>  ___Sigma;
 
-  /// @brief Field m, offset: 0x30, size: 0x8, def value: None
-  ::ArrayW<uint8_t, ::Array<uint8_t>*> ___m;
+/// @brief Field Ki, offset: 0x28, size: 0x8, def value: None
+ ::ArrayW<uint8_t,::Array<uint8_t>*>  ___Ki;
 
-  /// @brief Field h, offset: 0x38, size: 0x8, def value: None
-  ::ArrayW<uint8_t, ::Array<uint8_t>*> ___h;
+/// @brief Field m, offset: 0x30, size: 0x8, def value: None
+ ::ArrayW<uint8_t,::Array<uint8_t>*>  ___m;
 
-  /// @brief Field tmp, offset: 0x40, size: 0x8, def value: None
-  ::ArrayW<uint8_t, ::Array<uint8_t>*> ___tmp;
+/// @brief Field h, offset: 0x38, size: 0x8, def value: None
+ ::ArrayW<uint8_t,::Array<uint8_t>*>  ___h;
 
-  /// @brief Field block, offset: 0x48, size: 0x8, def value: None
-  ::ArrayW<uint8_t, ::Array<uint8_t>*> ___block;
+/// @brief Field tmp, offset: 0x40, size: 0x8, def value: None
+ ::ArrayW<uint8_t,::Array<uint8_t>*>  ___tmp;
 
-  /// @brief Field bOff, offset: 0x50, size: 0x4, def value: None
-  int32_t ___bOff;
+/// @brief Field block, offset: 0x48, size: 0x8, def value: None
+ ::ArrayW<uint8_t,::Array<uint8_t>*>  ___block;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field bOff, offset: 0x50, size: 0x4, def value: None
+ int32_t  ___bOff;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Digests::Gost3411_2012Digest, ___IV) == 0x10, "Offset mismatch!");
@@ -262,6 +262,6 @@ static_assert(offsetof(::Org::BouncyCastle::Crypto::Digests::Gost3411_2012Digest
 
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Digests::Gost3411_2012Digest, 0x58>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Crypto::Digests
+} // namespace end def Org::BouncyCastle::Crypto::Digests
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Digests::Gost3411_2012Digest);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Digests::Gost3411_2012Digest*, "Org.BouncyCastle.Crypto.Digests", "Gost3411_2012Digest");

@@ -21,35 +21,35 @@ namespace UnityEngine::Bindings {
 // CS Name: UnityEngine.Bindings.ThrowHelper
 class CORDL_TYPE ThrowHelper : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method ThrowArgumentNullException, addr 0x69a1d90, size 0x50, virtual false, abstract: false, final false
-  static inline void ThrowArgumentNullException(::System::Object* obj, ::StringW parameterName);
+// Declarations
+/// @brief Method ThrowArgumentNullException, addr 0x69a3908, size 0x50, virtual false, abstract: false, final false
+static inline void ThrowArgumentNullException(::System::Object*  obj, ::StringW  parameterName) ;
 
-  /// @brief Method ThrowNullReferenceException, addr 0x699bf14, size 0x44, virtual false, abstract: false, final false
-  static inline void ThrowNullReferenceException(::System::Object* obj);
+/// @brief Method ThrowNullReferenceException, addr 0x699da8c, size 0x44, virtual false, abstract: false, final false
+static inline void ThrowNullReferenceException(::System::Object*  obj) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ThrowHelper();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ThrowHelper() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ThrowHelper", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ThrowHelper(ThrowHelper&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ThrowHelper", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ThrowHelper(ThrowHelper const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ThrowHelper", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ThrowHelper(ThrowHelper && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10456 };
+// Ctor Parameters [CppParam { name: "", ty: "ThrowHelper", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ThrowHelper(ThrowHelper const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10457};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Bindings::ThrowHelper, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::Bindings
+} // namespace end def UnityEngine::Bindings
 NEED_NO_BOX(::UnityEngine::Bindings::ThrowHelper);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Bindings::ThrowHelper*, "UnityEngine.Bindings", "ThrowHelper");

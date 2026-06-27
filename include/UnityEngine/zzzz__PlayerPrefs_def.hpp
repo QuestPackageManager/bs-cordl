@@ -22,78 +22,77 @@ namespace UnityEngine {
 // CS Name: UnityEngine.PlayerPrefs
 class CORDL_TYPE PlayerPrefs : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method DeleteKey, addr 0x697fc68, size 0x124, virtual false, abstract: false, final false
-  static inline void DeleteKey(::StringW key);
+// Declarations
+/// @brief Method DeleteKey, addr 0x69817e0, size 0x124, virtual false, abstract: false, final false
+static inline void DeleteKey(::StringW  key) ;
 
-  /// @brief Method DeleteKey_Injected, addr 0x697fd8c, size 0x3c, virtual false, abstract: false, final false
-  static inline void DeleteKey_Injected(::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> key);
+/// @brief Method DeleteKey_Injected, addr 0x6981904, size 0x3c, virtual false, abstract: false, final false
+static inline void DeleteKey_Injected(::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>  key) ;
 
-  /// @brief Method GetInt, addr 0x697f7d0, size 0x8, virtual false, abstract: false, final false
-  static inline int32_t GetInt(::StringW key);
+/// @brief Method GetInt, addr 0x6981348, size 0x8, virtual false, abstract: false, final false
+static inline int32_t GetInt(::StringW  key) ;
 
-  /// @brief Method GetInt, addr 0x697f650, size 0x13c, virtual false, abstract: false, final false
-  static inline int32_t GetInt(::StringW key, int32_t defaultValue);
+/// @brief Method GetInt, addr 0x69811c8, size 0x13c, virtual false, abstract: false, final false
+static inline int32_t GetInt(::StringW  key, int32_t  defaultValue) ;
 
-  /// @brief Method GetInt_Injected, addr 0x697f78c, size 0x44, virtual false, abstract: false, final false
-  static inline int32_t GetInt_Injected(::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> key, int32_t defaultValue);
+/// @brief Method GetInt_Injected, addr 0x6981304, size 0x44, virtual false, abstract: false, final false
+static inline int32_t GetInt_Injected(::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>  key, int32_t  defaultValue) ;
 
-  /// @brief Method GetString, addr 0x697fab0, size 0x4c, virtual false, abstract: false, final false
-  static inline ::StringW GetString(::StringW key);
+/// @brief Method GetString, addr 0x6981628, size 0x4c, virtual false, abstract: false, final false
+static inline ::StringW GetString(::StringW  key) ;
 
-  /// @brief Method GetString, addr 0x697f830, size 0x22c, virtual false, abstract: false, final false
-  static inline ::StringW GetString(::StringW key, ::StringW defaultValue);
+/// @brief Method GetString, addr 0x69813a8, size 0x22c, virtual false, abstract: false, final false
+static inline ::StringW GetString(::StringW  key, ::StringW  defaultValue) ;
 
-  /// @brief Method GetString_Injected, addr 0x697fa5c, size 0x54, virtual false, abstract: false, final false
-  static inline void GetString_Injected(::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> key, ::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> defaultValue,
-                                        ::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> ret);
+/// @brief Method GetString_Injected, addr 0x69815d4, size 0x54, virtual false, abstract: false, final false
+static inline void GetString_Injected(::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>  key, ::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>  defaultValue, ::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>  ret) ;
 
-  /// @brief Method HasKey, addr 0x697fafc, size 0x130, virtual false, abstract: false, final false
-  static inline bool HasKey(::StringW key);
+/// @brief Method HasKey, addr 0x6981674, size 0x130, virtual false, abstract: false, final false
+static inline bool HasKey(::StringW  key) ;
 
-  /// @brief Method HasKey_Injected, addr 0x697fc2c, size 0x3c, virtual false, abstract: false, final false
-  static inline bool HasKey_Injected(::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> key);
+/// @brief Method HasKey_Injected, addr 0x69817a4, size 0x3c, virtual false, abstract: false, final false
+static inline bool HasKey_Injected(::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>  key) ;
 
-  /// @brief Method SetInt, addr 0x697f5f8, size 0x58, virtual false, abstract: false, final false
-  static inline void SetInt(::StringW key, int32_t value);
+/// @brief Method SetInt, addr 0x6981170, size 0x58, virtual false, abstract: false, final false
+static inline void SetInt(::StringW  key, int32_t  value) ;
 
-  /// @brief Method SetString, addr 0x697f7d8, size 0x58, virtual false, abstract: false, final false
-  static inline void SetString(::StringW key, ::StringW value);
+/// @brief Method SetString, addr 0x6981350, size 0x58, virtual false, abstract: false, final false
+static inline void SetString(::StringW  key, ::StringW  value) ;
 
-  /// @brief Method TrySetInt, addr 0x697f278, size 0x140, virtual false, abstract: false, final false
-  static inline bool TrySetInt(::StringW key, int32_t value);
+/// @brief Method TrySetInt, addr 0x6980df0, size 0x140, virtual false, abstract: false, final false
+static inline bool TrySetInt(::StringW  key, int32_t  value) ;
 
-  /// @brief Method TrySetInt_Injected, addr 0x697f3b8, size 0x44, virtual false, abstract: false, final false
-  static inline bool TrySetInt_Injected(::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> key, int32_t value);
+/// @brief Method TrySetInt_Injected, addr 0x6980f30, size 0x44, virtual false, abstract: false, final false
+static inline bool TrySetInt_Injected(::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>  key, int32_t  value) ;
 
-  /// @brief Method TrySetSetString, addr 0x697f3fc, size 0x1b8, virtual false, abstract: false, final false
-  static inline bool TrySetSetString(::StringW key, ::StringW value);
+/// @brief Method TrySetSetString, addr 0x6980f74, size 0x1b8, virtual false, abstract: false, final false
+static inline bool TrySetSetString(::StringW  key, ::StringW  value) ;
 
-  /// @brief Method TrySetSetString_Injected, addr 0x697f5b4, size 0x44, virtual false, abstract: false, final false
-  static inline bool TrySetSetString_Injected(::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> key, ::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> value);
+/// @brief Method TrySetSetString_Injected, addr 0x698112c, size 0x44, virtual false, abstract: false, final false
+static inline bool TrySetSetString_Injected(::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>  key, ::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PlayerPrefs();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr PlayerPrefs() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerPrefs", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  PlayerPrefs(PlayerPrefs&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerPrefs", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  PlayerPrefs(PlayerPrefs const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "PlayerPrefs", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+PlayerPrefs(PlayerPrefs && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10265 };
+// Ctor Parameters [CppParam { name: "", ty: "PlayerPrefs", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+PlayerPrefs(PlayerPrefs const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10266};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerPrefs, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine
+} // namespace end def UnityEngine
 NEED_NO_BOX(::UnityEngine::PlayerPrefs);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerPrefs*, "UnityEngine", "PlayerPrefs");

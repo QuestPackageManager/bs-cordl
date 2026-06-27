@@ -158,177 +158,177 @@ namespace System::Xml::Schema {
 // CS Name: System.Xml.Schema.XdrBuilder/DeclBaseInfo
 class CORDL_TYPE XdrBuilder_DeclBaseInfo : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field _Attdef, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get__Attdef, put = __cordl_internal_set__Attdef)) ::System::Xml::Schema::SchemaAttDef* _Attdef;
+// Declarations
+/// @brief Field _Attdef, offset 0x58, size 0x8 
+ __declspec(property(get=__cordl_internal_get__Attdef, put=__cordl_internal_set__Attdef)) ::System::Xml::Schema::SchemaAttDef*  _Attdef;
 
-  /// @brief Field _Checking, offset 0x48, size 0x1
-  __declspec(property(get = __cordl_internal_get__Checking, put = __cordl_internal_set__Checking)) bool _Checking;
+/// @brief Field _Checking, offset 0x48, size 0x1 
+ __declspec(property(get=__cordl_internal_get__Checking, put=__cordl_internal_set__Checking)) bool  _Checking;
 
-  /// @brief Field _Default, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__Default, put = __cordl_internal_set__Default)) ::System::Object* _Default;
+/// @brief Field _Default, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get__Default, put=__cordl_internal_set__Default)) ::System::Object*  _Default;
 
-  /// @brief Field _ElementDecl, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get__ElementDecl, put = __cordl_internal_set__ElementDecl)) ::System::Xml::Schema::SchemaElementDecl* _ElementDecl;
+/// @brief Field _ElementDecl, offset 0x50, size 0x8 
+ __declspec(property(get=__cordl_internal_get__ElementDecl, put=__cordl_internal_set__ElementDecl)) ::System::Xml::Schema::SchemaElementDecl*  _ElementDecl;
 
-  /// @brief Field _MaxOccurs, offset 0x40, size 0x4
-  __declspec(property(get = __cordl_internal_get__MaxOccurs, put = __cordl_internal_set__MaxOccurs)) uint32_t _MaxOccurs;
+/// @brief Field _MaxOccurs, offset 0x40, size 0x4 
+ __declspec(property(get=__cordl_internal_get__MaxOccurs, put=__cordl_internal_set__MaxOccurs)) uint32_t  _MaxOccurs;
 
-  /// @brief Field _MinOccurs, offset 0x44, size 0x4
-  __declspec(property(get = __cordl_internal_get__MinOccurs, put = __cordl_internal_set__MinOccurs)) uint32_t _MinOccurs;
+/// @brief Field _MinOccurs, offset 0x44, size 0x4 
+ __declspec(property(get=__cordl_internal_get__MinOccurs, put=__cordl_internal_set__MinOccurs)) uint32_t  _MinOccurs;
 
-  /// @brief Field _Name, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__Name, put = __cordl_internal_set__Name)) ::System::Xml::XmlQualifiedName* _Name;
+/// @brief Field _Name, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get__Name, put=__cordl_internal_set__Name)) ::System::Xml::XmlQualifiedName*  _Name;
 
-  /// @brief Field _Next, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get__Next, put = __cordl_internal_set__Next)) ::System::Xml::Schema::XdrBuilder_DeclBaseInfo* _Next;
+/// @brief Field _Next, offset 0x60, size 0x8 
+ __declspec(property(get=__cordl_internal_get__Next, put=__cordl_internal_set__Next)) ::System::Xml::Schema::XdrBuilder_DeclBaseInfo*  _Next;
 
-  /// @brief Field _Prefix, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__Prefix, put = __cordl_internal_set__Prefix)) ::StringW _Prefix;
+/// @brief Field _Prefix, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get__Prefix, put=__cordl_internal_set__Prefix)) ::StringW  _Prefix;
 
-  /// @brief Field _Revises, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__Revises, put = __cordl_internal_set__Revises)) ::System::Object* _Revises;
+/// @brief Field _Revises, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get__Revises, put=__cordl_internal_set__Revises)) ::System::Object*  _Revises;
 
-  /// @brief Field _TypeName, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__TypeName, put = __cordl_internal_set__TypeName)) ::System::Xml::XmlQualifiedName* _TypeName;
+/// @brief Field _TypeName, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get__TypeName, put=__cordl_internal_set__TypeName)) ::System::Xml::XmlQualifiedName*  _TypeName;
 
-  /// @brief Field _TypePrefix, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__TypePrefix, put = __cordl_internal_set__TypePrefix)) ::StringW _TypePrefix;
+/// @brief Field _TypePrefix, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get__TypePrefix, put=__cordl_internal_set__TypePrefix)) ::StringW  _TypePrefix;
 
-  static inline ::System::Xml::Schema::XdrBuilder_DeclBaseInfo* New_ctor();
+static inline ::System::Xml::Schema::XdrBuilder_DeclBaseInfo* New_ctor() ;
 
-  /// @brief Method Reset, addr 0x60e1904, size 0x80, virtual false, abstract: false, final false
-  inline void Reset();
+/// @brief Method Reset, addr 0x60e347c, size 0x80, virtual false, abstract: false, final false
+inline void Reset() ;
 
-  constexpr ::System::Xml::Schema::SchemaAttDef* const& __cordl_internal_get__Attdef() const;
+constexpr ::System::Xml::Schema::SchemaAttDef* const& __cordl_internal_get__Attdef() const;
 
-  constexpr ::System::Xml::Schema::SchemaAttDef*& __cordl_internal_get__Attdef();
+constexpr ::System::Xml::Schema::SchemaAttDef*& __cordl_internal_get__Attdef() ;
 
-  constexpr bool const& __cordl_internal_get__Checking() const;
+constexpr bool const& __cordl_internal_get__Checking() const;
 
-  constexpr bool& __cordl_internal_get__Checking();
+constexpr bool& __cordl_internal_get__Checking() ;
 
-  constexpr ::System::Object* const& __cordl_internal_get__Default() const;
+constexpr ::System::Object* const& __cordl_internal_get__Default() const;
 
-  constexpr ::System::Object*& __cordl_internal_get__Default();
+constexpr ::System::Object*& __cordl_internal_get__Default() ;
 
-  constexpr ::System::Xml::Schema::SchemaElementDecl* const& __cordl_internal_get__ElementDecl() const;
+constexpr ::System::Xml::Schema::SchemaElementDecl* const& __cordl_internal_get__ElementDecl() const;
 
-  constexpr ::System::Xml::Schema::SchemaElementDecl*& __cordl_internal_get__ElementDecl();
+constexpr ::System::Xml::Schema::SchemaElementDecl*& __cordl_internal_get__ElementDecl() ;
 
-  constexpr uint32_t const& __cordl_internal_get__MaxOccurs() const;
+constexpr uint32_t const& __cordl_internal_get__MaxOccurs() const;
 
-  constexpr uint32_t& __cordl_internal_get__MaxOccurs();
+constexpr uint32_t& __cordl_internal_get__MaxOccurs() ;
 
-  constexpr uint32_t const& __cordl_internal_get__MinOccurs() const;
+constexpr uint32_t const& __cordl_internal_get__MinOccurs() const;
 
-  constexpr uint32_t& __cordl_internal_get__MinOccurs();
+constexpr uint32_t& __cordl_internal_get__MinOccurs() ;
 
-  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get__Name() const;
+constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get__Name() const;
 
-  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get__Name();
+constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get__Name() ;
 
-  constexpr ::System::Xml::Schema::XdrBuilder_DeclBaseInfo* const& __cordl_internal_get__Next() const;
+constexpr ::System::Xml::Schema::XdrBuilder_DeclBaseInfo* const& __cordl_internal_get__Next() const;
 
-  constexpr ::System::Xml::Schema::XdrBuilder_DeclBaseInfo*& __cordl_internal_get__Next();
+constexpr ::System::Xml::Schema::XdrBuilder_DeclBaseInfo*& __cordl_internal_get__Next() ;
 
-  constexpr ::StringW const& __cordl_internal_get__Prefix() const;
+constexpr ::StringW const& __cordl_internal_get__Prefix() const;
 
-  constexpr ::StringW& __cordl_internal_get__Prefix();
+constexpr ::StringW& __cordl_internal_get__Prefix() ;
 
-  constexpr ::System::Object* const& __cordl_internal_get__Revises() const;
+constexpr ::System::Object* const& __cordl_internal_get__Revises() const;
 
-  constexpr ::System::Object*& __cordl_internal_get__Revises();
+constexpr ::System::Object*& __cordl_internal_get__Revises() ;
 
-  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get__TypeName() const;
+constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get__TypeName() const;
 
-  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get__TypeName();
+constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get__TypeName() ;
 
-  constexpr ::StringW const& __cordl_internal_get__TypePrefix() const;
+constexpr ::StringW const& __cordl_internal_get__TypePrefix() const;
 
-  constexpr ::StringW& __cordl_internal_get__TypePrefix();
+constexpr ::StringW& __cordl_internal_get__TypePrefix() ;
 
-  constexpr void __cordl_internal_set__Attdef(::System::Xml::Schema::SchemaAttDef* value);
+constexpr void __cordl_internal_set__Attdef(::System::Xml::Schema::SchemaAttDef*  value) ;
 
-  constexpr void __cordl_internal_set__Checking(bool value);
+constexpr void __cordl_internal_set__Checking(bool  value) ;
 
-  constexpr void __cordl_internal_set__Default(::System::Object* value);
+constexpr void __cordl_internal_set__Default(::System::Object*  value) ;
 
-  constexpr void __cordl_internal_set__ElementDecl(::System::Xml::Schema::SchemaElementDecl* value);
+constexpr void __cordl_internal_set__ElementDecl(::System::Xml::Schema::SchemaElementDecl*  value) ;
 
-  constexpr void __cordl_internal_set__MaxOccurs(uint32_t value);
+constexpr void __cordl_internal_set__MaxOccurs(uint32_t  value) ;
 
-  constexpr void __cordl_internal_set__MinOccurs(uint32_t value);
+constexpr void __cordl_internal_set__MinOccurs(uint32_t  value) ;
 
-  constexpr void __cordl_internal_set__Name(::System::Xml::XmlQualifiedName* value);
+constexpr void __cordl_internal_set__Name(::System::Xml::XmlQualifiedName*  value) ;
 
-  constexpr void __cordl_internal_set__Next(::System::Xml::Schema::XdrBuilder_DeclBaseInfo* value);
+constexpr void __cordl_internal_set__Next(::System::Xml::Schema::XdrBuilder_DeclBaseInfo*  value) ;
 
-  constexpr void __cordl_internal_set__Prefix(::StringW value);
+constexpr void __cordl_internal_set__Prefix(::StringW  value) ;
 
-  constexpr void __cordl_internal_set__Revises(::System::Object* value);
+constexpr void __cordl_internal_set__Revises(::System::Object*  value) ;
 
-  constexpr void __cordl_internal_set__TypeName(::System::Xml::XmlQualifiedName* value);
+constexpr void __cordl_internal_set__TypeName(::System::Xml::XmlQualifiedName*  value) ;
 
-  constexpr void __cordl_internal_set__TypePrefix(::StringW value);
+constexpr void __cordl_internal_set__TypePrefix(::StringW  value) ;
 
-  /// @brief Method .ctor, addr 0x60e14a8, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x60e3020, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr XdrBuilder_DeclBaseInfo();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr XdrBuilder_DeclBaseInfo() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XdrBuilder_DeclBaseInfo", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  XdrBuilder_DeclBaseInfo(XdrBuilder_DeclBaseInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XdrBuilder_DeclBaseInfo", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  XdrBuilder_DeclBaseInfo(XdrBuilder_DeclBaseInfo const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "XdrBuilder_DeclBaseInfo", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+XdrBuilder_DeclBaseInfo(XdrBuilder_DeclBaseInfo && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9712 };
+// Ctor Parameters [CppParam { name: "", ty: "XdrBuilder_DeclBaseInfo", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+XdrBuilder_DeclBaseInfo(XdrBuilder_DeclBaseInfo const& ) = delete;
 
-  /// @brief Field _Name, offset: 0x10, size: 0x8, def value: None
-  ::System::Xml::XmlQualifiedName* ____Name;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9713};
 
-  /// @brief Field _Prefix, offset: 0x18, size: 0x8, def value: None
-  ::StringW ____Prefix;
+/// @brief Field _Name, offset: 0x10, size: 0x8, def value: None
+ ::System::Xml::XmlQualifiedName*  ____Name;
 
-  /// @brief Field _TypeName, offset: 0x20, size: 0x8, def value: None
-  ::System::Xml::XmlQualifiedName* ____TypeName;
+/// @brief Field _Prefix, offset: 0x18, size: 0x8, def value: None
+ ::StringW  ____Prefix;
 
-  /// @brief Field _TypePrefix, offset: 0x28, size: 0x8, def value: None
-  ::StringW ____TypePrefix;
+/// @brief Field _TypeName, offset: 0x20, size: 0x8, def value: None
+ ::System::Xml::XmlQualifiedName*  ____TypeName;
 
-  /// @brief Field _Default, offset: 0x30, size: 0x8, def value: None
-  ::System::Object* ____Default;
+/// @brief Field _TypePrefix, offset: 0x28, size: 0x8, def value: None
+ ::StringW  ____TypePrefix;
 
-  /// @brief Field _Revises, offset: 0x38, size: 0x8, def value: None
-  ::System::Object* ____Revises;
+/// @brief Field _Default, offset: 0x30, size: 0x8, def value: None
+ ::System::Object*  ____Default;
 
-  /// @brief Field _MaxOccurs, offset: 0x40, size: 0x4, def value: None
-  uint32_t ____MaxOccurs;
+/// @brief Field _Revises, offset: 0x38, size: 0x8, def value: None
+ ::System::Object*  ____Revises;
 
-  /// @brief Field _MinOccurs, offset: 0x44, size: 0x4, def value: None
-  uint32_t ____MinOccurs;
+/// @brief Field _MaxOccurs, offset: 0x40, size: 0x4, def value: None
+ uint32_t  ____MaxOccurs;
 
-  /// @brief Field _Checking, offset: 0x48, size: 0x1, def value: None
-  bool ____Checking;
+/// @brief Field _MinOccurs, offset: 0x44, size: 0x4, def value: None
+ uint32_t  ____MinOccurs;
 
-  /// @brief Field _ElementDecl, offset: 0x50, size: 0x8, def value: None
-  ::System::Xml::Schema::SchemaElementDecl* ____ElementDecl;
+/// @brief Field _Checking, offset: 0x48, size: 0x1, def value: None
+ bool  ____Checking;
 
-  /// @brief Field _Attdef, offset: 0x58, size: 0x8, def value: None
-  ::System::Xml::Schema::SchemaAttDef* ____Attdef;
+/// @brief Field _ElementDecl, offset: 0x50, size: 0x8, def value: None
+ ::System::Xml::Schema::SchemaElementDecl*  ____ElementDecl;
 
-  /// @brief Field _Next, offset: 0x60, size: 0x8, def value: None
-  ::System::Xml::Schema::XdrBuilder_DeclBaseInfo* ____Next;
+/// @brief Field _Attdef, offset: 0x58, size: 0x8, def value: None
+ ::System::Xml::Schema::SchemaAttDef*  ____Attdef;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _Next, offset: 0x60, size: 0x8, def value: None
+ ::System::Xml::Schema::XdrBuilder_DeclBaseInfo*  ____Next;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Xml::Schema::XdrBuilder_DeclBaseInfo, ____Name) == 0x10, "Offset mismatch!");
@@ -357,103 +357,103 @@ static_assert(offsetof(::System::Xml::Schema::XdrBuilder_DeclBaseInfo, ____Next)
 
 static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::XdrBuilder_DeclBaseInfo, 0x68>, "Size mismatch!");
 
-} // namespace System::Xml::Schema
+} // namespace end def System::Xml::Schema
 // Dependencies System.Object
 namespace System::Xml::Schema {
 // Is value type: false
 // CS Name: System.Xml.Schema.XdrBuilder/GroupContent
 class CORDL_TYPE XdrBuilder_GroupContent : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field _HasMaxAttr, offset 0x18, size 0x1
-  __declspec(property(get = __cordl_internal_get__HasMaxAttr, put = __cordl_internal_set__HasMaxAttr)) bool _HasMaxAttr;
+// Declarations
+/// @brief Field _HasMaxAttr, offset 0x18, size 0x1 
+ __declspec(property(get=__cordl_internal_get__HasMaxAttr, put=__cordl_internal_set__HasMaxAttr)) bool  _HasMaxAttr;
 
-  /// @brief Field _HasMinAttr, offset 0x19, size 0x1
-  __declspec(property(get = __cordl_internal_get__HasMinAttr, put = __cordl_internal_set__HasMinAttr)) bool _HasMinAttr;
+/// @brief Field _HasMinAttr, offset 0x19, size 0x1 
+ __declspec(property(get=__cordl_internal_get__HasMinAttr, put=__cordl_internal_set__HasMinAttr)) bool  _HasMinAttr;
 
-  /// @brief Field _MaxVal, offset 0x14, size 0x4
-  __declspec(property(get = __cordl_internal_get__MaxVal, put = __cordl_internal_set__MaxVal)) uint32_t _MaxVal;
+/// @brief Field _MaxVal, offset 0x14, size 0x4 
+ __declspec(property(get=__cordl_internal_get__MaxVal, put=__cordl_internal_set__MaxVal)) uint32_t  _MaxVal;
 
-  /// @brief Field _MinVal, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get__MinVal, put = __cordl_internal_set__MinVal)) uint32_t _MinVal;
+/// @brief Field _MinVal, offset 0x10, size 0x4 
+ __declspec(property(get=__cordl_internal_get__MinVal, put=__cordl_internal_set__MinVal)) uint32_t  _MinVal;
 
-  /// @brief Field _Order, offset 0x1c, size 0x4
-  __declspec(property(get = __cordl_internal_get__Order, put = __cordl_internal_set__Order)) int32_t _Order;
+/// @brief Field _Order, offset 0x1c, size 0x4 
+ __declspec(property(get=__cordl_internal_get__Order, put=__cordl_internal_set__Order)) int32_t  _Order;
 
-  /// @brief Method Copy, addr 0x60de2e0, size 0x60, virtual false, abstract: false, final false
-  static inline ::System::Xml::Schema::XdrBuilder_GroupContent* Copy(::System::Xml::Schema::XdrBuilder_GroupContent* other);
+/// @brief Method Copy, addr 0x60dfe58, size 0x60, virtual false, abstract: false, final false
+static inline ::System::Xml::Schema::XdrBuilder_GroupContent* Copy(::System::Xml::Schema::XdrBuilder_GroupContent*  other) ;
 
-  /// @brief Method Copy, addr 0x60e4048, size 0x28, virtual false, abstract: false, final false
-  static inline void Copy(::System::Xml::Schema::XdrBuilder_GroupContent* from, ::System::Xml::Schema::XdrBuilder_GroupContent* to);
+/// @brief Method Copy, addr 0x60e5bc0, size 0x28, virtual false, abstract: false, final false
+static inline void Copy(::System::Xml::Schema::XdrBuilder_GroupContent*  from, ::System::Xml::Schema::XdrBuilder_GroupContent*  to) ;
 
-  static inline ::System::Xml::Schema::XdrBuilder_GroupContent* New_ctor();
+static inline ::System::Xml::Schema::XdrBuilder_GroupContent* New_ctor() ;
 
-  constexpr bool const& __cordl_internal_get__HasMaxAttr() const;
+constexpr bool const& __cordl_internal_get__HasMaxAttr() const;
 
-  constexpr bool& __cordl_internal_get__HasMaxAttr();
+constexpr bool& __cordl_internal_get__HasMaxAttr() ;
 
-  constexpr bool const& __cordl_internal_get__HasMinAttr() const;
+constexpr bool const& __cordl_internal_get__HasMinAttr() const;
 
-  constexpr bool& __cordl_internal_get__HasMinAttr();
+constexpr bool& __cordl_internal_get__HasMinAttr() ;
 
-  constexpr uint32_t const& __cordl_internal_get__MaxVal() const;
+constexpr uint32_t const& __cordl_internal_get__MaxVal() const;
 
-  constexpr uint32_t& __cordl_internal_get__MaxVal();
+constexpr uint32_t& __cordl_internal_get__MaxVal() ;
 
-  constexpr uint32_t const& __cordl_internal_get__MinVal() const;
+constexpr uint32_t const& __cordl_internal_get__MinVal() const;
 
-  constexpr uint32_t& __cordl_internal_get__MinVal();
+constexpr uint32_t& __cordl_internal_get__MinVal() ;
 
-  constexpr int32_t const& __cordl_internal_get__Order() const;
+constexpr int32_t const& __cordl_internal_get__Order() const;
 
-  constexpr int32_t& __cordl_internal_get__Order();
+constexpr int32_t& __cordl_internal_get__Order() ;
 
-  constexpr void __cordl_internal_set__HasMaxAttr(bool value);
+constexpr void __cordl_internal_set__HasMaxAttr(bool  value) ;
 
-  constexpr void __cordl_internal_set__HasMinAttr(bool value);
+constexpr void __cordl_internal_set__HasMinAttr(bool  value) ;
 
-  constexpr void __cordl_internal_set__MaxVal(uint32_t value);
+constexpr void __cordl_internal_set__MaxVal(uint32_t  value) ;
 
-  constexpr void __cordl_internal_set__MinVal(uint32_t value);
+constexpr void __cordl_internal_set__MinVal(uint32_t  value) ;
 
-  constexpr void __cordl_internal_set__Order(int32_t value);
+constexpr void __cordl_internal_set__Order(int32_t  value) ;
 
-  /// @brief Method .ctor, addr 0x60dced4, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x60dea4c, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr XdrBuilder_GroupContent();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr XdrBuilder_GroupContent() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XdrBuilder_GroupContent", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  XdrBuilder_GroupContent(XdrBuilder_GroupContent&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XdrBuilder_GroupContent", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  XdrBuilder_GroupContent(XdrBuilder_GroupContent const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "XdrBuilder_GroupContent", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+XdrBuilder_GroupContent(XdrBuilder_GroupContent && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9713 };
+// Ctor Parameters [CppParam { name: "", ty: "XdrBuilder_GroupContent", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+XdrBuilder_GroupContent(XdrBuilder_GroupContent const& ) = delete;
 
-  /// @brief Field _MinVal, offset: 0x10, size: 0x4, def value: None
-  uint32_t ____MinVal;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9714};
 
-  /// @brief Field _MaxVal, offset: 0x14, size: 0x4, def value: None
-  uint32_t ____MaxVal;
+/// @brief Field _MinVal, offset: 0x10, size: 0x4, def value: None
+ uint32_t  ____MinVal;
 
-  /// @brief Field _HasMaxAttr, offset: 0x18, size: 0x1, def value: None
-  bool ____HasMaxAttr;
+/// @brief Field _MaxVal, offset: 0x14, size: 0x4, def value: None
+ uint32_t  ____MaxVal;
 
-  /// @brief Field _HasMinAttr, offset: 0x19, size: 0x1, def value: None
-  bool ____HasMinAttr;
+/// @brief Field _HasMaxAttr, offset: 0x18, size: 0x1, def value: None
+ bool  ____HasMaxAttr;
 
-  /// @brief Field _Order, offset: 0x1c, size: 0x4, def value: None
-  int32_t ____Order;
+/// @brief Field _HasMinAttr, offset: 0x19, size: 0x1, def value: None
+ bool  ____HasMinAttr;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _Order, offset: 0x1c, size: 0x4, def value: None
+ int32_t  ____Order;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Xml::Schema::XdrBuilder_GroupContent, ____MinVal) == 0x10, "Offset mismatch!");
@@ -468,205 +468,205 @@ static_assert(offsetof(::System::Xml::Schema::XdrBuilder_GroupContent, ____Order
 
 static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::XdrBuilder_GroupContent, 0x20>, "Size mismatch!");
 
-} // namespace System::Xml::Schema
+} // namespace end def System::Xml::Schema
 // Dependencies System.Object
 namespace System::Xml::Schema {
 // Is value type: false
 // CS Name: System.Xml.Schema.XdrBuilder/ElementContent
 class CORDL_TYPE XdrBuilder_ElementContent : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field _AllowDataType, offset 0x22, size 0x1
-  __declspec(property(get = __cordl_internal_get__AllowDataType, put = __cordl_internal_set__AllowDataType)) bool _AllowDataType;
+// Declarations
+/// @brief Field _AllowDataType, offset 0x22, size 0x1 
+ __declspec(property(get=__cordl_internal_get__AllowDataType, put=__cordl_internal_set__AllowDataType)) bool  _AllowDataType;
 
-  /// @brief Field _AttDefList, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__AttDefList, put = __cordl_internal_set__AttDefList)) ::System::Collections::Hashtable* _AttDefList;
+/// @brief Field _AttDefList, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get__AttDefList, put=__cordl_internal_set__AttDefList)) ::System::Collections::Hashtable*  _AttDefList;
 
-  /// @brief Field _ContentAttr, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get__ContentAttr, put = __cordl_internal_set__ContentAttr)) int32_t _ContentAttr;
+/// @brief Field _ContentAttr, offset 0x18, size 0x4 
+ __declspec(property(get=__cordl_internal_get__ContentAttr, put=__cordl_internal_set__ContentAttr)) int32_t  _ContentAttr;
 
-  /// @brief Field _ElementDecl, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__ElementDecl, put = __cordl_internal_set__ElementDecl)) ::System::Xml::Schema::SchemaElementDecl* _ElementDecl;
+/// @brief Field _ElementDecl, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get__ElementDecl, put=__cordl_internal_set__ElementDecl)) ::System::Xml::Schema::SchemaElementDecl*  _ElementDecl;
 
-  /// @brief Field _EnumerationRequired, offset 0x25, size 0x1
-  __declspec(property(get = __cordl_internal_get__EnumerationRequired, put = __cordl_internal_set__EnumerationRequired)) bool _EnumerationRequired;
+/// @brief Field _EnumerationRequired, offset 0x25, size 0x1 
+ __declspec(property(get=__cordl_internal_get__EnumerationRequired, put=__cordl_internal_set__EnumerationRequired)) bool  _EnumerationRequired;
 
-  /// @brief Field _ExistTerminal, offset 0x21, size 0x1
-  __declspec(property(get = __cordl_internal_get__ExistTerminal, put = __cordl_internal_set__ExistTerminal)) bool _ExistTerminal;
+/// @brief Field _ExistTerminal, offset 0x21, size 0x1 
+ __declspec(property(get=__cordl_internal_get__ExistTerminal, put=__cordl_internal_set__ExistTerminal)) bool  _ExistTerminal;
 
-  /// @brief Field _HasDataType, offset 0x23, size 0x1
-  __declspec(property(get = __cordl_internal_get__HasDataType, put = __cordl_internal_set__HasDataType)) bool _HasDataType;
+/// @brief Field _HasDataType, offset 0x23, size 0x1 
+ __declspec(property(get=__cordl_internal_get__HasDataType, put=__cordl_internal_set__HasDataType)) bool  _HasDataType;
 
-  /// @brief Field _HasType, offset 0x24, size 0x1
-  __declspec(property(get = __cordl_internal_get__HasType, put = __cordl_internal_set__HasType)) bool _HasType;
+/// @brief Field _HasType, offset 0x24, size 0x1 
+ __declspec(property(get=__cordl_internal_get__HasType, put=__cordl_internal_set__HasType)) bool  _HasType;
 
-  /// @brief Field _MasterGroupRequired, offset 0x20, size 0x1
-  __declspec(property(get = __cordl_internal_get__MasterGroupRequired, put = __cordl_internal_set__MasterGroupRequired)) bool _MasterGroupRequired;
+/// @brief Field _MasterGroupRequired, offset 0x20, size 0x1 
+ __declspec(property(get=__cordl_internal_get__MasterGroupRequired, put=__cordl_internal_set__MasterGroupRequired)) bool  _MasterGroupRequired;
 
-  /// @brief Field _MaxLength, offset 0x30, size 0x4
-  __declspec(property(get = __cordl_internal_get__MaxLength, put = __cordl_internal_set__MaxLength)) uint32_t _MaxLength;
+/// @brief Field _MaxLength, offset 0x30, size 0x4 
+ __declspec(property(get=__cordl_internal_get__MaxLength, put=__cordl_internal_set__MaxLength)) uint32_t  _MaxLength;
 
-  /// @brief Field _MaxVal, offset 0x2c, size 0x4
-  __declspec(property(get = __cordl_internal_get__MaxVal, put = __cordl_internal_set__MaxVal)) uint32_t _MaxVal;
+/// @brief Field _MaxVal, offset 0x2c, size 0x4 
+ __declspec(property(get=__cordl_internal_get__MaxVal, put=__cordl_internal_set__MaxVal)) uint32_t  _MaxVal;
 
-  /// @brief Field _MinLength, offset 0x34, size 0x4
-  __declspec(property(get = __cordl_internal_get__MinLength, put = __cordl_internal_set__MinLength)) uint32_t _MinLength;
+/// @brief Field _MinLength, offset 0x34, size 0x4 
+ __declspec(property(get=__cordl_internal_get__MinLength, put=__cordl_internal_set__MinLength)) uint32_t  _MinLength;
 
-  /// @brief Field _MinVal, offset 0x28, size 0x4
-  __declspec(property(get = __cordl_internal_get__MinVal, put = __cordl_internal_set__MinVal)) uint32_t _MinVal;
+/// @brief Field _MinVal, offset 0x28, size 0x4 
+ __declspec(property(get=__cordl_internal_get__MinVal, put=__cordl_internal_set__MinVal)) uint32_t  _MinVal;
 
-  /// @brief Field _OrderAttr, offset 0x1c, size 0x4
-  __declspec(property(get = __cordl_internal_get__OrderAttr, put = __cordl_internal_set__OrderAttr)) int32_t _OrderAttr;
+/// @brief Field _OrderAttr, offset 0x1c, size 0x4 
+ __declspec(property(get=__cordl_internal_get__OrderAttr, put=__cordl_internal_set__OrderAttr)) int32_t  _OrderAttr;
 
-  static inline ::System::Xml::Schema::XdrBuilder_ElementContent* New_ctor();
+static inline ::System::Xml::Schema::XdrBuilder_ElementContent* New_ctor() ;
 
-  constexpr bool const& __cordl_internal_get__AllowDataType() const;
+constexpr bool const& __cordl_internal_get__AllowDataType() const;
 
-  constexpr bool& __cordl_internal_get__AllowDataType();
+constexpr bool& __cordl_internal_get__AllowDataType() ;
 
-  constexpr ::System::Collections::Hashtable* const& __cordl_internal_get__AttDefList() const;
+constexpr ::System::Collections::Hashtable* const& __cordl_internal_get__AttDefList() const;
 
-  constexpr ::System::Collections::Hashtable*& __cordl_internal_get__AttDefList();
+constexpr ::System::Collections::Hashtable*& __cordl_internal_get__AttDefList() ;
 
-  constexpr int32_t const& __cordl_internal_get__ContentAttr() const;
+constexpr int32_t const& __cordl_internal_get__ContentAttr() const;
 
-  constexpr int32_t& __cordl_internal_get__ContentAttr();
+constexpr int32_t& __cordl_internal_get__ContentAttr() ;
 
-  constexpr ::System::Xml::Schema::SchemaElementDecl* const& __cordl_internal_get__ElementDecl() const;
+constexpr ::System::Xml::Schema::SchemaElementDecl* const& __cordl_internal_get__ElementDecl() const;
 
-  constexpr ::System::Xml::Schema::SchemaElementDecl*& __cordl_internal_get__ElementDecl();
+constexpr ::System::Xml::Schema::SchemaElementDecl*& __cordl_internal_get__ElementDecl() ;
 
-  constexpr bool const& __cordl_internal_get__EnumerationRequired() const;
+constexpr bool const& __cordl_internal_get__EnumerationRequired() const;
 
-  constexpr bool& __cordl_internal_get__EnumerationRequired();
+constexpr bool& __cordl_internal_get__EnumerationRequired() ;
 
-  constexpr bool const& __cordl_internal_get__ExistTerminal() const;
+constexpr bool const& __cordl_internal_get__ExistTerminal() const;
 
-  constexpr bool& __cordl_internal_get__ExistTerminal();
+constexpr bool& __cordl_internal_get__ExistTerminal() ;
 
-  constexpr bool const& __cordl_internal_get__HasDataType() const;
+constexpr bool const& __cordl_internal_get__HasDataType() const;
 
-  constexpr bool& __cordl_internal_get__HasDataType();
+constexpr bool& __cordl_internal_get__HasDataType() ;
 
-  constexpr bool const& __cordl_internal_get__HasType() const;
+constexpr bool const& __cordl_internal_get__HasType() const;
 
-  constexpr bool& __cordl_internal_get__HasType();
+constexpr bool& __cordl_internal_get__HasType() ;
 
-  constexpr bool const& __cordl_internal_get__MasterGroupRequired() const;
+constexpr bool const& __cordl_internal_get__MasterGroupRequired() const;
 
-  constexpr bool& __cordl_internal_get__MasterGroupRequired();
+constexpr bool& __cordl_internal_get__MasterGroupRequired() ;
 
-  constexpr uint32_t const& __cordl_internal_get__MaxLength() const;
+constexpr uint32_t const& __cordl_internal_get__MaxLength() const;
 
-  constexpr uint32_t& __cordl_internal_get__MaxLength();
+constexpr uint32_t& __cordl_internal_get__MaxLength() ;
 
-  constexpr uint32_t const& __cordl_internal_get__MaxVal() const;
+constexpr uint32_t const& __cordl_internal_get__MaxVal() const;
 
-  constexpr uint32_t& __cordl_internal_get__MaxVal();
+constexpr uint32_t& __cordl_internal_get__MaxVal() ;
 
-  constexpr uint32_t const& __cordl_internal_get__MinLength() const;
+constexpr uint32_t const& __cordl_internal_get__MinLength() const;
 
-  constexpr uint32_t& __cordl_internal_get__MinLength();
+constexpr uint32_t& __cordl_internal_get__MinLength() ;
 
-  constexpr uint32_t const& __cordl_internal_get__MinVal() const;
+constexpr uint32_t const& __cordl_internal_get__MinVal() const;
 
-  constexpr uint32_t& __cordl_internal_get__MinVal();
+constexpr uint32_t& __cordl_internal_get__MinVal() ;
 
-  constexpr int32_t const& __cordl_internal_get__OrderAttr() const;
+constexpr int32_t const& __cordl_internal_get__OrderAttr() const;
 
-  constexpr int32_t& __cordl_internal_get__OrderAttr();
+constexpr int32_t& __cordl_internal_get__OrderAttr() ;
 
-  constexpr void __cordl_internal_set__AllowDataType(bool value);
+constexpr void __cordl_internal_set__AllowDataType(bool  value) ;
 
-  constexpr void __cordl_internal_set__AttDefList(::System::Collections::Hashtable* value);
+constexpr void __cordl_internal_set__AttDefList(::System::Collections::Hashtable*  value) ;
 
-  constexpr void __cordl_internal_set__ContentAttr(int32_t value);
+constexpr void __cordl_internal_set__ContentAttr(int32_t  value) ;
 
-  constexpr void __cordl_internal_set__ElementDecl(::System::Xml::Schema::SchemaElementDecl* value);
+constexpr void __cordl_internal_set__ElementDecl(::System::Xml::Schema::SchemaElementDecl*  value) ;
 
-  constexpr void __cordl_internal_set__EnumerationRequired(bool value);
+constexpr void __cordl_internal_set__EnumerationRequired(bool  value) ;
 
-  constexpr void __cordl_internal_set__ExistTerminal(bool value);
+constexpr void __cordl_internal_set__ExistTerminal(bool  value) ;
 
-  constexpr void __cordl_internal_set__HasDataType(bool value);
+constexpr void __cordl_internal_set__HasDataType(bool  value) ;
 
-  constexpr void __cordl_internal_set__HasType(bool value);
+constexpr void __cordl_internal_set__HasType(bool  value) ;
 
-  constexpr void __cordl_internal_set__MasterGroupRequired(bool value);
+constexpr void __cordl_internal_set__MasterGroupRequired(bool  value) ;
 
-  constexpr void __cordl_internal_set__MaxLength(uint32_t value);
+constexpr void __cordl_internal_set__MaxLength(uint32_t  value) ;
 
-  constexpr void __cordl_internal_set__MaxVal(uint32_t value);
+constexpr void __cordl_internal_set__MaxVal(uint32_t  value) ;
 
-  constexpr void __cordl_internal_set__MinLength(uint32_t value);
+constexpr void __cordl_internal_set__MinLength(uint32_t  value) ;
 
-  constexpr void __cordl_internal_set__MinVal(uint32_t value);
+constexpr void __cordl_internal_set__MinVal(uint32_t  value) ;
 
-  constexpr void __cordl_internal_set__OrderAttr(int32_t value);
+constexpr void __cordl_internal_set__OrderAttr(int32_t  value) ;
 
-  /// @brief Method .ctor, addr 0x60dcecc, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x60dea44, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr XdrBuilder_ElementContent();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr XdrBuilder_ElementContent() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XdrBuilder_ElementContent", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  XdrBuilder_ElementContent(XdrBuilder_ElementContent&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XdrBuilder_ElementContent", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  XdrBuilder_ElementContent(XdrBuilder_ElementContent const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "XdrBuilder_ElementContent", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+XdrBuilder_ElementContent(XdrBuilder_ElementContent && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9714 };
+// Ctor Parameters [CppParam { name: "", ty: "XdrBuilder_ElementContent", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+XdrBuilder_ElementContent(XdrBuilder_ElementContent const& ) = delete;
 
-  /// @brief Field _ElementDecl, offset: 0x10, size: 0x8, def value: None
-  ::System::Xml::Schema::SchemaElementDecl* ____ElementDecl;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9715};
 
-  /// @brief Field _ContentAttr, offset: 0x18, size: 0x4, def value: None
-  int32_t ____ContentAttr;
+/// @brief Field _ElementDecl, offset: 0x10, size: 0x8, def value: None
+ ::System::Xml::Schema::SchemaElementDecl*  ____ElementDecl;
 
-  /// @brief Field _OrderAttr, offset: 0x1c, size: 0x4, def value: None
-  int32_t ____OrderAttr;
+/// @brief Field _ContentAttr, offset: 0x18, size: 0x4, def value: None
+ int32_t  ____ContentAttr;
 
-  /// @brief Field _MasterGroupRequired, offset: 0x20, size: 0x1, def value: None
-  bool ____MasterGroupRequired;
+/// @brief Field _OrderAttr, offset: 0x1c, size: 0x4, def value: None
+ int32_t  ____OrderAttr;
 
-  /// @brief Field _ExistTerminal, offset: 0x21, size: 0x1, def value: None
-  bool ____ExistTerminal;
+/// @brief Field _MasterGroupRequired, offset: 0x20, size: 0x1, def value: None
+ bool  ____MasterGroupRequired;
 
-  /// @brief Field _AllowDataType, offset: 0x22, size: 0x1, def value: None
-  bool ____AllowDataType;
+/// @brief Field _ExistTerminal, offset: 0x21, size: 0x1, def value: None
+ bool  ____ExistTerminal;
 
-  /// @brief Field _HasDataType, offset: 0x23, size: 0x1, def value: None
-  bool ____HasDataType;
+/// @brief Field _AllowDataType, offset: 0x22, size: 0x1, def value: None
+ bool  ____AllowDataType;
 
-  /// @brief Field _HasType, offset: 0x24, size: 0x1, def value: None
-  bool ____HasType;
+/// @brief Field _HasDataType, offset: 0x23, size: 0x1, def value: None
+ bool  ____HasDataType;
 
-  /// @brief Field _EnumerationRequired, offset: 0x25, size: 0x1, def value: None
-  bool ____EnumerationRequired;
+/// @brief Field _HasType, offset: 0x24, size: 0x1, def value: None
+ bool  ____HasType;
 
-  /// @brief Field _MinVal, offset: 0x28, size: 0x4, def value: None
-  uint32_t ____MinVal;
+/// @brief Field _EnumerationRequired, offset: 0x25, size: 0x1, def value: None
+ bool  ____EnumerationRequired;
 
-  /// @brief Field _MaxVal, offset: 0x2c, size: 0x4, def value: None
-  uint32_t ____MaxVal;
+/// @brief Field _MinVal, offset: 0x28, size: 0x4, def value: None
+ uint32_t  ____MinVal;
 
-  /// @brief Field _MaxLength, offset: 0x30, size: 0x4, def value: None
-  uint32_t ____MaxLength;
+/// @brief Field _MaxVal, offset: 0x2c, size: 0x4, def value: None
+ uint32_t  ____MaxVal;
 
-  /// @brief Field _MinLength, offset: 0x34, size: 0x4, def value: None
-  uint32_t ____MinLength;
+/// @brief Field _MaxLength, offset: 0x30, size: 0x4, def value: None
+ uint32_t  ____MaxLength;
 
-  /// @brief Field _AttDefList, offset: 0x38, size: 0x8, def value: None
-  ::System::Collections::Hashtable* ____AttDefList;
+/// @brief Field _MinLength, offset: 0x34, size: 0x4, def value: None
+ uint32_t  ____MinLength;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _AttDefList, offset: 0x38, size: 0x8, def value: None
+ ::System::Collections::Hashtable*  ____AttDefList;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Xml::Schema::XdrBuilder_ElementContent, ____ElementDecl) == 0x10, "Offset mismatch!");
@@ -699,181 +699,181 @@ static_assert(offsetof(::System::Xml::Schema::XdrBuilder_ElementContent, ____Att
 
 static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::XdrBuilder_ElementContent, 0x40>, "Size mismatch!");
 
-} // namespace System::Xml::Schema
+} // namespace end def System::Xml::Schema
 // Dependencies System.Object
 namespace System::Xml::Schema {
 // Is value type: false
 // CS Name: System.Xml.Schema.XdrBuilder/AttributeContent
 class CORDL_TYPE XdrBuilder_AttributeContent : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field _AttDef, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__AttDef, put = __cordl_internal_set__AttDef)) ::System::Xml::Schema::SchemaAttDef* _AttDef;
+// Declarations
+/// @brief Field _AttDef, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get__AttDef, put=__cordl_internal_set__AttDef)) ::System::Xml::Schema::SchemaAttDef*  _AttDef;
 
-  /// @brief Field _Default, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__Default, put = __cordl_internal_set__Default)) ::System::Object* _Default;
+/// @brief Field _Default, offset 0x40, size 0x8 
+ __declspec(property(get=__cordl_internal_get__Default, put=__cordl_internal_set__Default)) ::System::Object*  _Default;
 
-  /// @brief Field _EnumerationRequired, offset 0x3c, size 0x1
-  __declspec(property(get = __cordl_internal_get__EnumerationRequired, put = __cordl_internal_set__EnumerationRequired)) bool _EnumerationRequired;
+/// @brief Field _EnumerationRequired, offset 0x3c, size 0x1 
+ __declspec(property(get=__cordl_internal_get__EnumerationRequired, put=__cordl_internal_set__EnumerationRequired)) bool  _EnumerationRequired;
 
-  /// @brief Field _Global, offset 0x3e, size 0x1
-  __declspec(property(get = __cordl_internal_get__Global, put = __cordl_internal_set__Global)) bool _Global;
+/// @brief Field _Global, offset 0x3e, size 0x1 
+ __declspec(property(get=__cordl_internal_get__Global, put=__cordl_internal_set__Global)) bool  _Global;
 
-  /// @brief Field _HasDataType, offset 0x3d, size 0x1
-  __declspec(property(get = __cordl_internal_get__HasDataType, put = __cordl_internal_set__HasDataType)) bool _HasDataType;
+/// @brief Field _HasDataType, offset 0x3d, size 0x1 
+ __declspec(property(get=__cordl_internal_get__HasDataType, put=__cordl_internal_set__HasDataType)) bool  _HasDataType;
 
-  /// @brief Field _MaxLength, offset 0x34, size 0x4
-  __declspec(property(get = __cordl_internal_get__MaxLength, put = __cordl_internal_set__MaxLength)) uint32_t _MaxLength;
+/// @brief Field _MaxLength, offset 0x34, size 0x4 
+ __declspec(property(get=__cordl_internal_get__MaxLength, put=__cordl_internal_set__MaxLength)) uint32_t  _MaxLength;
 
-  /// @brief Field _MaxVal, offset 0x30, size 0x4
-  __declspec(property(get = __cordl_internal_get__MaxVal, put = __cordl_internal_set__MaxVal)) uint32_t _MaxVal;
+/// @brief Field _MaxVal, offset 0x30, size 0x4 
+ __declspec(property(get=__cordl_internal_get__MaxVal, put=__cordl_internal_set__MaxVal)) uint32_t  _MaxVal;
 
-  /// @brief Field _MinLength, offset 0x38, size 0x4
-  __declspec(property(get = __cordl_internal_get__MinLength, put = __cordl_internal_set__MinLength)) uint32_t _MinLength;
+/// @brief Field _MinLength, offset 0x38, size 0x4 
+ __declspec(property(get=__cordl_internal_get__MinLength, put=__cordl_internal_set__MinLength)) uint32_t  _MinLength;
 
-  /// @brief Field _MinVal, offset 0x2c, size 0x4
-  __declspec(property(get = __cordl_internal_get__MinVal, put = __cordl_internal_set__MinVal)) uint32_t _MinVal;
+/// @brief Field _MinVal, offset 0x2c, size 0x4 
+ __declspec(property(get=__cordl_internal_get__MinVal, put=__cordl_internal_set__MinVal)) uint32_t  _MinVal;
 
-  /// @brief Field _Name, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__Name, put = __cordl_internal_set__Name)) ::System::Xml::XmlQualifiedName* _Name;
+/// @brief Field _Name, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get__Name, put=__cordl_internal_set__Name)) ::System::Xml::XmlQualifiedName*  _Name;
 
-  /// @brief Field _Prefix, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__Prefix, put = __cordl_internal_set__Prefix)) ::StringW _Prefix;
+/// @brief Field _Prefix, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get__Prefix, put=__cordl_internal_set__Prefix)) ::StringW  _Prefix;
 
-  /// @brief Field _Required, offset 0x28, size 0x1
-  __declspec(property(get = __cordl_internal_get__Required, put = __cordl_internal_set__Required)) bool _Required;
+/// @brief Field _Required, offset 0x28, size 0x1 
+ __declspec(property(get=__cordl_internal_get__Required, put=__cordl_internal_set__Required)) bool  _Required;
 
-  static inline ::System::Xml::Schema::XdrBuilder_AttributeContent* New_ctor();
+static inline ::System::Xml::Schema::XdrBuilder_AttributeContent* New_ctor() ;
 
-  constexpr ::System::Xml::Schema::SchemaAttDef* const& __cordl_internal_get__AttDef() const;
+constexpr ::System::Xml::Schema::SchemaAttDef* const& __cordl_internal_get__AttDef() const;
 
-  constexpr ::System::Xml::Schema::SchemaAttDef*& __cordl_internal_get__AttDef();
+constexpr ::System::Xml::Schema::SchemaAttDef*& __cordl_internal_get__AttDef() ;
 
-  constexpr ::System::Object* const& __cordl_internal_get__Default() const;
+constexpr ::System::Object* const& __cordl_internal_get__Default() const;
 
-  constexpr ::System::Object*& __cordl_internal_get__Default();
+constexpr ::System::Object*& __cordl_internal_get__Default() ;
 
-  constexpr bool const& __cordl_internal_get__EnumerationRequired() const;
+constexpr bool const& __cordl_internal_get__EnumerationRequired() const;
 
-  constexpr bool& __cordl_internal_get__EnumerationRequired();
+constexpr bool& __cordl_internal_get__EnumerationRequired() ;
 
-  constexpr bool const& __cordl_internal_get__Global() const;
+constexpr bool const& __cordl_internal_get__Global() const;
 
-  constexpr bool& __cordl_internal_get__Global();
+constexpr bool& __cordl_internal_get__Global() ;
 
-  constexpr bool const& __cordl_internal_get__HasDataType() const;
+constexpr bool const& __cordl_internal_get__HasDataType() const;
 
-  constexpr bool& __cordl_internal_get__HasDataType();
+constexpr bool& __cordl_internal_get__HasDataType() ;
 
-  constexpr uint32_t const& __cordl_internal_get__MaxLength() const;
+constexpr uint32_t const& __cordl_internal_get__MaxLength() const;
 
-  constexpr uint32_t& __cordl_internal_get__MaxLength();
+constexpr uint32_t& __cordl_internal_get__MaxLength() ;
 
-  constexpr uint32_t const& __cordl_internal_get__MaxVal() const;
+constexpr uint32_t const& __cordl_internal_get__MaxVal() const;
 
-  constexpr uint32_t& __cordl_internal_get__MaxVal();
+constexpr uint32_t& __cordl_internal_get__MaxVal() ;
 
-  constexpr uint32_t const& __cordl_internal_get__MinLength() const;
+constexpr uint32_t const& __cordl_internal_get__MinLength() const;
 
-  constexpr uint32_t& __cordl_internal_get__MinLength();
+constexpr uint32_t& __cordl_internal_get__MinLength() ;
 
-  constexpr uint32_t const& __cordl_internal_get__MinVal() const;
+constexpr uint32_t const& __cordl_internal_get__MinVal() const;
 
-  constexpr uint32_t& __cordl_internal_get__MinVal();
+constexpr uint32_t& __cordl_internal_get__MinVal() ;
 
-  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get__Name() const;
+constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get__Name() const;
 
-  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get__Name();
+constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get__Name() ;
 
-  constexpr ::StringW const& __cordl_internal_get__Prefix() const;
+constexpr ::StringW const& __cordl_internal_get__Prefix() const;
 
-  constexpr ::StringW& __cordl_internal_get__Prefix();
+constexpr ::StringW& __cordl_internal_get__Prefix() ;
 
-  constexpr bool const& __cordl_internal_get__Required() const;
+constexpr bool const& __cordl_internal_get__Required() const;
 
-  constexpr bool& __cordl_internal_get__Required();
+constexpr bool& __cordl_internal_get__Required() ;
 
-  constexpr void __cordl_internal_set__AttDef(::System::Xml::Schema::SchemaAttDef* value);
+constexpr void __cordl_internal_set__AttDef(::System::Xml::Schema::SchemaAttDef*  value) ;
 
-  constexpr void __cordl_internal_set__Default(::System::Object* value);
+constexpr void __cordl_internal_set__Default(::System::Object*  value) ;
 
-  constexpr void __cordl_internal_set__EnumerationRequired(bool value);
+constexpr void __cordl_internal_set__EnumerationRequired(bool  value) ;
 
-  constexpr void __cordl_internal_set__Global(bool value);
+constexpr void __cordl_internal_set__Global(bool  value) ;
 
-  constexpr void __cordl_internal_set__HasDataType(bool value);
+constexpr void __cordl_internal_set__HasDataType(bool  value) ;
 
-  constexpr void __cordl_internal_set__MaxLength(uint32_t value);
+constexpr void __cordl_internal_set__MaxLength(uint32_t  value) ;
 
-  constexpr void __cordl_internal_set__MaxVal(uint32_t value);
+constexpr void __cordl_internal_set__MaxVal(uint32_t  value) ;
 
-  constexpr void __cordl_internal_set__MinLength(uint32_t value);
+constexpr void __cordl_internal_set__MinLength(uint32_t  value) ;
 
-  constexpr void __cordl_internal_set__MinVal(uint32_t value);
+constexpr void __cordl_internal_set__MinVal(uint32_t  value) ;
 
-  constexpr void __cordl_internal_set__Name(::System::Xml::XmlQualifiedName* value);
+constexpr void __cordl_internal_set__Name(::System::Xml::XmlQualifiedName*  value) ;
 
-  constexpr void __cordl_internal_set__Prefix(::StringW value);
+constexpr void __cordl_internal_set__Prefix(::StringW  value) ;
 
-  constexpr void __cordl_internal_set__Required(bool value);
+constexpr void __cordl_internal_set__Required(bool  value) ;
 
-  /// @brief Method .ctor, addr 0x60dced0, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x60dea48, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr XdrBuilder_AttributeContent();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr XdrBuilder_AttributeContent() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XdrBuilder_AttributeContent", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  XdrBuilder_AttributeContent(XdrBuilder_AttributeContent&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XdrBuilder_AttributeContent", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  XdrBuilder_AttributeContent(XdrBuilder_AttributeContent const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "XdrBuilder_AttributeContent", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+XdrBuilder_AttributeContent(XdrBuilder_AttributeContent && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9715 };
+// Ctor Parameters [CppParam { name: "", ty: "XdrBuilder_AttributeContent", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+XdrBuilder_AttributeContent(XdrBuilder_AttributeContent const& ) = delete;
 
-  /// @brief Field _AttDef, offset: 0x10, size: 0x8, def value: None
-  ::System::Xml::Schema::SchemaAttDef* ____AttDef;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9716};
 
-  /// @brief Field _Name, offset: 0x18, size: 0x8, def value: None
-  ::System::Xml::XmlQualifiedName* ____Name;
+/// @brief Field _AttDef, offset: 0x10, size: 0x8, def value: None
+ ::System::Xml::Schema::SchemaAttDef*  ____AttDef;
 
-  /// @brief Field _Prefix, offset: 0x20, size: 0x8, def value: None
-  ::StringW ____Prefix;
+/// @brief Field _Name, offset: 0x18, size: 0x8, def value: None
+ ::System::Xml::XmlQualifiedName*  ____Name;
 
-  /// @brief Field _Required, offset: 0x28, size: 0x1, def value: None
-  bool ____Required;
+/// @brief Field _Prefix, offset: 0x20, size: 0x8, def value: None
+ ::StringW  ____Prefix;
 
-  /// @brief Field _MinVal, offset: 0x2c, size: 0x4, def value: None
-  uint32_t ____MinVal;
+/// @brief Field _Required, offset: 0x28, size: 0x1, def value: None
+ bool  ____Required;
 
-  /// @brief Field _MaxVal, offset: 0x30, size: 0x4, def value: None
-  uint32_t ____MaxVal;
+/// @brief Field _MinVal, offset: 0x2c, size: 0x4, def value: None
+ uint32_t  ____MinVal;
 
-  /// @brief Field _MaxLength, offset: 0x34, size: 0x4, def value: None
-  uint32_t ____MaxLength;
+/// @brief Field _MaxVal, offset: 0x30, size: 0x4, def value: None
+ uint32_t  ____MaxVal;
 
-  /// @brief Field _MinLength, offset: 0x38, size: 0x4, def value: None
-  uint32_t ____MinLength;
+/// @brief Field _MaxLength, offset: 0x34, size: 0x4, def value: None
+ uint32_t  ____MaxLength;
 
-  /// @brief Field _EnumerationRequired, offset: 0x3c, size: 0x1, def value: None
-  bool ____EnumerationRequired;
+/// @brief Field _MinLength, offset: 0x38, size: 0x4, def value: None
+ uint32_t  ____MinLength;
 
-  /// @brief Field _HasDataType, offset: 0x3d, size: 0x1, def value: None
-  bool ____HasDataType;
+/// @brief Field _EnumerationRequired, offset: 0x3c, size: 0x1, def value: None
+ bool  ____EnumerationRequired;
 
-  /// @brief Field _Global, offset: 0x3e, size: 0x1, def value: None
-  bool ____Global;
+/// @brief Field _HasDataType, offset: 0x3d, size: 0x1, def value: None
+ bool  ____HasDataType;
 
-  /// @brief Field _Default, offset: 0x40, size: 0x8, def value: None
-  ::System::Object* ____Default;
+/// @brief Field _Global, offset: 0x3e, size: 0x1, def value: None
+ bool  ____Global;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _Default, offset: 0x40, size: 0x8, def value: None
+ ::System::Object*  ____Default;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Xml::Schema::XdrBuilder_AttributeContent, ____AttDef) == 0x10, "Offset mismatch!");
@@ -902,244 +902,242 @@ static_assert(offsetof(::System::Xml::Schema::XdrBuilder_AttributeContent, ____D
 
 static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::XdrBuilder_AttributeContent, 0x48>, "Size mismatch!");
 
-} // namespace System::Xml::Schema
+} // namespace end def System::Xml::Schema
 // Dependencies System.MulticastDelegate
 namespace System::Xml::Schema {
 // Is value type: false
 // CS Name: System.Xml.Schema.XdrBuilder/XdrBuildFunction
 class CORDL_TYPE XdrBuilder_XdrBuildFunction : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method Invoke, addr 0x60e4070, size 0x14, virtual true, abstract: false, final false
-  inline void Invoke(::System::Xml::Schema::XdrBuilder* builder, ::System::Object* obj, ::StringW prefix);
+// Declarations
+/// @brief Method Invoke, addr 0x60e5be8, size 0x14, virtual true, abstract: false, final false
+inline void Invoke(::System::Xml::Schema::XdrBuilder*  builder, ::System::Object*  obj, ::StringW  prefix) ;
 
-  static inline ::System::Xml::Schema::XdrBuilder_XdrBuildFunction* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::System::Xml::Schema::XdrBuilder_XdrBuildFunction* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x60e3dd4, size 0x80, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x60e594c, size 0x80, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr XdrBuilder_XdrBuildFunction();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr XdrBuilder_XdrBuildFunction() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XdrBuilder_XdrBuildFunction", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  XdrBuilder_XdrBuildFunction(XdrBuilder_XdrBuildFunction&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XdrBuilder_XdrBuildFunction", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  XdrBuilder_XdrBuildFunction(XdrBuilder_XdrBuildFunction const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "XdrBuilder_XdrBuildFunction", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+XdrBuilder_XdrBuildFunction(XdrBuilder_XdrBuildFunction && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9716 };
+// Ctor Parameters [CppParam { name: "", ty: "XdrBuilder_XdrBuildFunction", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+XdrBuilder_XdrBuildFunction(XdrBuilder_XdrBuildFunction const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9717};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::XdrBuilder_XdrBuildFunction, 0x80>, "Size mismatch!");
 
-} // namespace System::Xml::Schema
+} // namespace end def System::Xml::Schema
 // Dependencies System.MulticastDelegate
 namespace System::Xml::Schema {
 // Is value type: false
 // CS Name: System.Xml.Schema.XdrBuilder/XdrInitFunction
 class CORDL_TYPE XdrBuilder_XdrInitFunction : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method Invoke, addr 0x60e4084, size 0x14, virtual true, abstract: false, final false
-  inline void Invoke(::System::Xml::Schema::XdrBuilder* builder, ::System::Object* obj);
+// Declarations
+/// @brief Method Invoke, addr 0x60e5bfc, size 0x14, virtual true, abstract: false, final false
+inline void Invoke(::System::Xml::Schema::XdrBuilder*  builder, ::System::Object*  obj) ;
 
-  static inline ::System::Xml::Schema::XdrBuilder_XdrInitFunction* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::System::Xml::Schema::XdrBuilder_XdrInitFunction* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x60e3ed0, size 0x80, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x60e5a48, size 0x80, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr XdrBuilder_XdrInitFunction();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr XdrBuilder_XdrInitFunction() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XdrBuilder_XdrInitFunction", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  XdrBuilder_XdrInitFunction(XdrBuilder_XdrInitFunction&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XdrBuilder_XdrInitFunction", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  XdrBuilder_XdrInitFunction(XdrBuilder_XdrInitFunction const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "XdrBuilder_XdrInitFunction", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+XdrBuilder_XdrInitFunction(XdrBuilder_XdrInitFunction && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9717 };
+// Ctor Parameters [CppParam { name: "", ty: "XdrBuilder_XdrInitFunction", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+XdrBuilder_XdrInitFunction(XdrBuilder_XdrInitFunction const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9718};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::XdrBuilder_XdrInitFunction, 0x80>, "Size mismatch!");
 
-} // namespace System::Xml::Schema
+} // namespace end def System::Xml::Schema
 // Dependencies System.MulticastDelegate
 namespace System::Xml::Schema {
 // Is value type: false
 // CS Name: System.Xml.Schema.XdrBuilder/XdrBeginChildFunction
 class CORDL_TYPE XdrBuilder_XdrBeginChildFunction : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method Invoke, addr 0x60e4098, size 0x14, virtual true, abstract: false, final false
-  inline void Invoke(::System::Xml::Schema::XdrBuilder* builder);
+// Declarations
+/// @brief Method Invoke, addr 0x60e5c10, size 0x14, virtual true, abstract: false, final false
+inline void Invoke(::System::Xml::Schema::XdrBuilder*  builder) ;
 
-  static inline ::System::Xml::Schema::XdrBuilder_XdrBeginChildFunction* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::System::Xml::Schema::XdrBuilder_XdrBeginChildFunction* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x60e3f50, size 0x7c, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x60e5ac8, size 0x7c, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr XdrBuilder_XdrBeginChildFunction();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr XdrBuilder_XdrBeginChildFunction() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XdrBuilder_XdrBeginChildFunction", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  XdrBuilder_XdrBeginChildFunction(XdrBuilder_XdrBeginChildFunction&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XdrBuilder_XdrBeginChildFunction", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  XdrBuilder_XdrBeginChildFunction(XdrBuilder_XdrBeginChildFunction const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "XdrBuilder_XdrBeginChildFunction", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+XdrBuilder_XdrBeginChildFunction(XdrBuilder_XdrBeginChildFunction && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9718 };
+// Ctor Parameters [CppParam { name: "", ty: "XdrBuilder_XdrBeginChildFunction", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+XdrBuilder_XdrBeginChildFunction(XdrBuilder_XdrBeginChildFunction const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9719};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::XdrBuilder_XdrBeginChildFunction, 0x80>, "Size mismatch!");
 
-} // namespace System::Xml::Schema
+} // namespace end def System::Xml::Schema
 // Dependencies System.MulticastDelegate
 namespace System::Xml::Schema {
 // Is value type: false
 // CS Name: System.Xml.Schema.XdrBuilder/XdrEndChildFunction
 class CORDL_TYPE XdrBuilder_XdrEndChildFunction : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method Invoke, addr 0x60e40ac, size 0x14, virtual true, abstract: false, final false
-  inline void Invoke(::System::Xml::Schema::XdrBuilder* builder);
+// Declarations
+/// @brief Method Invoke, addr 0x60e5c24, size 0x14, virtual true, abstract: false, final false
+inline void Invoke(::System::Xml::Schema::XdrBuilder*  builder) ;
 
-  static inline ::System::Xml::Schema::XdrBuilder_XdrEndChildFunction* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::System::Xml::Schema::XdrBuilder_XdrEndChildFunction* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x60e3fcc, size 0x7c, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x60e5b44, size 0x7c, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr XdrBuilder_XdrEndChildFunction();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr XdrBuilder_XdrEndChildFunction() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XdrBuilder_XdrEndChildFunction", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  XdrBuilder_XdrEndChildFunction(XdrBuilder_XdrEndChildFunction&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XdrBuilder_XdrEndChildFunction", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  XdrBuilder_XdrEndChildFunction(XdrBuilder_XdrEndChildFunction const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "XdrBuilder_XdrEndChildFunction", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+XdrBuilder_XdrEndChildFunction(XdrBuilder_XdrEndChildFunction && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9719 };
+// Ctor Parameters [CppParam { name: "", ty: "XdrBuilder_XdrEndChildFunction", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+XdrBuilder_XdrEndChildFunction(XdrBuilder_XdrEndChildFunction const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9720};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::XdrBuilder_XdrEndChildFunction, 0x80>, "Size mismatch!");
 
-} // namespace System::Xml::Schema
+} // namespace end def System::Xml::Schema
 // Dependencies System.Object, System.Xml.Schema.SchemaNames::Token
 namespace System::Xml::Schema {
 // Is value type: false
 // CS Name: System.Xml.Schema.XdrBuilder/XdrAttributeEntry
 class CORDL_TYPE XdrBuilder_XdrAttributeEntry : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field _Attribute, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get__Attribute, put = __cordl_internal_set__Attribute)) ::System::Xml::Schema::SchemaNames_Token _Attribute;
+// Declarations
+/// @brief Field _Attribute, offset 0x10, size 0x4 
+ __declspec(property(get=__cordl_internal_get__Attribute, put=__cordl_internal_set__Attribute)) ::System::Xml::Schema::SchemaNames_Token  _Attribute;
 
-  /// @brief Field _BuildFunc, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__BuildFunc, put = __cordl_internal_set__BuildFunc)) ::System::Xml::Schema::XdrBuilder_XdrBuildFunction* _BuildFunc;
+/// @brief Field _BuildFunc, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get__BuildFunc, put=__cordl_internal_set__BuildFunc)) ::System::Xml::Schema::XdrBuilder_XdrBuildFunction*  _BuildFunc;
 
-  /// @brief Field _Datatype, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__Datatype, put = __cordl_internal_set__Datatype)) ::System::Xml::Schema::XmlSchemaDatatype* _Datatype;
+/// @brief Field _Datatype, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get__Datatype, put=__cordl_internal_set__Datatype)) ::System::Xml::Schema::XmlSchemaDatatype*  _Datatype;
 
-  /// @brief Field _SchemaFlags, offset 0x14, size 0x4
-  __declspec(property(get = __cordl_internal_get__SchemaFlags, put = __cordl_internal_set__SchemaFlags)) int32_t _SchemaFlags;
+/// @brief Field _SchemaFlags, offset 0x14, size 0x4 
+ __declspec(property(get=__cordl_internal_get__SchemaFlags, put=__cordl_internal_set__SchemaFlags)) int32_t  _SchemaFlags;
 
-  static inline ::System::Xml::Schema::XdrBuilder_XdrAttributeEntry* New_ctor(::System::Xml::Schema::SchemaNames_Token a, ::System::Xml::XmlTokenizedType ttype,
-                                                                              ::System::Xml::Schema::XdrBuilder_XdrBuildFunction* build);
+static inline ::System::Xml::Schema::XdrBuilder_XdrAttributeEntry* New_ctor(::System::Xml::Schema::SchemaNames_Token  a, ::System::Xml::XmlTokenizedType  ttype, ::System::Xml::Schema::XdrBuilder_XdrBuildFunction*  build) ;
 
-  static inline ::System::Xml::Schema::XdrBuilder_XdrAttributeEntry* New_ctor(::System::Xml::Schema::SchemaNames_Token a, ::System::Xml::XmlTokenizedType ttype, int32_t schemaFlags,
-                                                                              ::System::Xml::Schema::XdrBuilder_XdrBuildFunction* build);
+static inline ::System::Xml::Schema::XdrBuilder_XdrAttributeEntry* New_ctor(::System::Xml::Schema::SchemaNames_Token  a, ::System::Xml::XmlTokenizedType  ttype, int32_t  schemaFlags, ::System::Xml::Schema::XdrBuilder_XdrBuildFunction*  build) ;
 
-  constexpr ::System::Xml::Schema::SchemaNames_Token const& __cordl_internal_get__Attribute() const;
+constexpr ::System::Xml::Schema::SchemaNames_Token const& __cordl_internal_get__Attribute() const;
 
-  constexpr ::System::Xml::Schema::SchemaNames_Token& __cordl_internal_get__Attribute();
+constexpr ::System::Xml::Schema::SchemaNames_Token& __cordl_internal_get__Attribute() ;
 
-  constexpr ::System::Xml::Schema::XdrBuilder_XdrBuildFunction* const& __cordl_internal_get__BuildFunc() const;
+constexpr ::System::Xml::Schema::XdrBuilder_XdrBuildFunction* const& __cordl_internal_get__BuildFunc() const;
 
-  constexpr ::System::Xml::Schema::XdrBuilder_XdrBuildFunction*& __cordl_internal_get__BuildFunc();
+constexpr ::System::Xml::Schema::XdrBuilder_XdrBuildFunction*& __cordl_internal_get__BuildFunc() ;
 
-  constexpr ::System::Xml::Schema::XmlSchemaDatatype* const& __cordl_internal_get__Datatype() const;
+constexpr ::System::Xml::Schema::XmlSchemaDatatype* const& __cordl_internal_get__Datatype() const;
 
-  constexpr ::System::Xml::Schema::XmlSchemaDatatype*& __cordl_internal_get__Datatype();
+constexpr ::System::Xml::Schema::XmlSchemaDatatype*& __cordl_internal_get__Datatype() ;
 
-  constexpr int32_t const& __cordl_internal_get__SchemaFlags() const;
+constexpr int32_t const& __cordl_internal_get__SchemaFlags() const;
 
-  constexpr int32_t& __cordl_internal_get__SchemaFlags();
+constexpr int32_t& __cordl_internal_get__SchemaFlags() ;
 
-  constexpr void __cordl_internal_set__Attribute(::System::Xml::Schema::SchemaNames_Token value);
+constexpr void __cordl_internal_set__Attribute(::System::Xml::Schema::SchemaNames_Token  value) ;
 
-  constexpr void __cordl_internal_set__BuildFunc(::System::Xml::Schema::XdrBuilder_XdrBuildFunction* value);
+constexpr void __cordl_internal_set__BuildFunc(::System::Xml::Schema::XdrBuilder_XdrBuildFunction*  value) ;
 
-  constexpr void __cordl_internal_set__Datatype(::System::Xml::Schema::XmlSchemaDatatype* value);
+constexpr void __cordl_internal_set__Datatype(::System::Xml::Schema::XmlSchemaDatatype*  value) ;
 
-  constexpr void __cordl_internal_set__SchemaFlags(int32_t value);
+constexpr void __cordl_internal_set__SchemaFlags(int32_t  value) ;
 
-  /// @brief Method .ctor, addr 0x60e3e54, size 0x30, virtual false, abstract: false, final false
-  inline void _ctor(::System::Xml::Schema::SchemaNames_Token a, ::System::Xml::XmlTokenizedType ttype, ::System::Xml::Schema::XdrBuilder_XdrBuildFunction* build);
+/// @brief Method .ctor, addr 0x60e59cc, size 0x30, virtual false, abstract: false, final false
+inline void _ctor(::System::Xml::Schema::SchemaNames_Token  a, ::System::Xml::XmlTokenizedType  ttype, ::System::Xml::Schema::XdrBuilder_XdrBuildFunction*  build) ;
 
-  /// @brief Method .ctor, addr 0x60e3e84, size 0x34, virtual false, abstract: false, final false
-  inline void _ctor(::System::Xml::Schema::SchemaNames_Token a, ::System::Xml::XmlTokenizedType ttype, int32_t schemaFlags, ::System::Xml::Schema::XdrBuilder_XdrBuildFunction* build);
+/// @brief Method .ctor, addr 0x60e59fc, size 0x34, virtual false, abstract: false, final false
+inline void _ctor(::System::Xml::Schema::SchemaNames_Token  a, ::System::Xml::XmlTokenizedType  ttype, int32_t  schemaFlags, ::System::Xml::Schema::XdrBuilder_XdrBuildFunction*  build) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr XdrBuilder_XdrAttributeEntry();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr XdrBuilder_XdrAttributeEntry() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XdrBuilder_XdrAttributeEntry", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  XdrBuilder_XdrAttributeEntry(XdrBuilder_XdrAttributeEntry&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XdrBuilder_XdrAttributeEntry", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  XdrBuilder_XdrAttributeEntry(XdrBuilder_XdrAttributeEntry const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "XdrBuilder_XdrAttributeEntry", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+XdrBuilder_XdrAttributeEntry(XdrBuilder_XdrAttributeEntry && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9720 };
+// Ctor Parameters [CppParam { name: "", ty: "XdrBuilder_XdrAttributeEntry", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+XdrBuilder_XdrAttributeEntry(XdrBuilder_XdrAttributeEntry const& ) = delete;
 
-  /// @brief Field _Attribute, offset: 0x10, size: 0x4, def value: None
-  ::System::Xml::Schema::SchemaNames_Token ____Attribute;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9721};
 
-  /// @brief Field _SchemaFlags, offset: 0x14, size: 0x4, def value: None
-  int32_t ____SchemaFlags;
+/// @brief Field _Attribute, offset: 0x10, size: 0x4, def value: None
+ ::System::Xml::Schema::SchemaNames_Token  ____Attribute;
 
-  /// @brief Field _Datatype, offset: 0x18, size: 0x8, def value: None
-  ::System::Xml::Schema::XmlSchemaDatatype* ____Datatype;
+/// @brief Field _SchemaFlags, offset: 0x14, size: 0x4, def value: None
+ int32_t  ____SchemaFlags;
 
-  /// @brief Field _BuildFunc, offset: 0x20, size: 0x8, def value: None
-  ::System::Xml::Schema::XdrBuilder_XdrBuildFunction* ____BuildFunc;
+/// @brief Field _Datatype, offset: 0x18, size: 0x8, def value: None
+ ::System::Xml::Schema::XmlSchemaDatatype*  ____Datatype;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _BuildFunc, offset: 0x20, size: 0x8, def value: None
+ ::System::Xml::Schema::XdrBuilder_XdrBuildFunction*  ____BuildFunc;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Xml::Schema::XdrBuilder_XdrAttributeEntry, ____Attribute) == 0x10, "Offset mismatch!");
@@ -1152,130 +1150,121 @@ static_assert(offsetof(::System::Xml::Schema::XdrBuilder_XdrAttributeEntry, ____
 
 static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry, 0x28>, "Size mismatch!");
 
-} // namespace System::Xml::Schema
+} // namespace end def System::Xml::Schema
 // Dependencies System.Object, System.Xml.Schema.SchemaNames::Token
 namespace System::Xml::Schema {
 // Is value type: false
 // CS Name: System.Xml.Schema.XdrBuilder/XdrEntry
 class CORDL_TYPE XdrBuilder_XdrEntry : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field _AllowText, offset 0x40, size 0x1
-  __declspec(property(get = __cordl_internal_get__AllowText, put = __cordl_internal_set__AllowText)) bool _AllowText;
+// Declarations
+/// @brief Field _AllowText, offset 0x40, size 0x1 
+ __declspec(property(get=__cordl_internal_get__AllowText, put=__cordl_internal_set__AllowText)) bool  _AllowText;
 
-  /// @brief Field _Attributes, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__Attributes,
-                      put = __cordl_internal_set__Attributes)) ::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*, ::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*>
-      _Attributes;
+/// @brief Field _Attributes, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get__Attributes, put=__cordl_internal_set__Attributes)) ::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*,::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*>  _Attributes;
 
-  /// @brief Field _BeginChildFunc, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__BeginChildFunc, put = __cordl_internal_set__BeginChildFunc)) ::System::Xml::Schema::XdrBuilder_XdrBeginChildFunction* _BeginChildFunc;
+/// @brief Field _BeginChildFunc, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get__BeginChildFunc, put=__cordl_internal_set__BeginChildFunc)) ::System::Xml::Schema::XdrBuilder_XdrBeginChildFunction*  _BeginChildFunc;
 
-  /// @brief Field _EndChildFunc, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__EndChildFunc, put = __cordl_internal_set__EndChildFunc)) ::System::Xml::Schema::XdrBuilder_XdrEndChildFunction* _EndChildFunc;
+/// @brief Field _EndChildFunc, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get__EndChildFunc, put=__cordl_internal_set__EndChildFunc)) ::System::Xml::Schema::XdrBuilder_XdrEndChildFunction*  _EndChildFunc;
 
-  /// @brief Field _InitFunc, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__InitFunc, put = __cordl_internal_set__InitFunc)) ::System::Xml::Schema::XdrBuilder_XdrInitFunction* _InitFunc;
+/// @brief Field _InitFunc, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get__InitFunc, put=__cordl_internal_set__InitFunc)) ::System::Xml::Schema::XdrBuilder_XdrInitFunction*  _InitFunc;
 
-  /// @brief Field _Name, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get__Name, put = __cordl_internal_set__Name)) ::System::Xml::Schema::SchemaNames_Token _Name;
+/// @brief Field _Name, offset 0x10, size 0x4 
+ __declspec(property(get=__cordl_internal_get__Name, put=__cordl_internal_set__Name)) ::System::Xml::Schema::SchemaNames_Token  _Name;
 
-  /// @brief Field _NextStates, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__NextStates, put = __cordl_internal_set__NextStates)) ::ArrayW<int32_t, ::Array<int32_t>*> _NextStates;
+/// @brief Field _NextStates, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get__NextStates, put=__cordl_internal_set__NextStates)) ::ArrayW<int32_t,::Array<int32_t>*>  _NextStates;
 
-  static inline ::System::Xml::Schema::XdrBuilder_XdrEntry*
-  New_ctor(::System::Xml::Schema::SchemaNames_Token n, ::ArrayW<int32_t, ::Array<int32_t>*> states,
-           ::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*, ::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*> attributes,
-           ::System::Xml::Schema::XdrBuilder_XdrInitFunction* init, ::System::Xml::Schema::XdrBuilder_XdrBeginChildFunction* begin, ::System::Xml::Schema::XdrBuilder_XdrEndChildFunction* end,
-           bool fText);
+static inline ::System::Xml::Schema::XdrBuilder_XdrEntry* New_ctor(::System::Xml::Schema::SchemaNames_Token  n, ::ArrayW<int32_t,::Array<int32_t>*>  states, ::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*,::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*>  attributes, ::System::Xml::Schema::XdrBuilder_XdrInitFunction*  init, ::System::Xml::Schema::XdrBuilder_XdrBeginChildFunction*  begin, ::System::Xml::Schema::XdrBuilder_XdrEndChildFunction*  end, bool  fText) ;
 
-  constexpr bool const& __cordl_internal_get__AllowText() const;
+constexpr bool const& __cordl_internal_get__AllowText() const;
 
-  constexpr bool& __cordl_internal_get__AllowText();
+constexpr bool& __cordl_internal_get__AllowText() ;
 
-  constexpr ::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*, ::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*> const& __cordl_internal_get__Attributes() const;
+constexpr ::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*,::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*> const& __cordl_internal_get__Attributes() const;
 
-  constexpr ::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*, ::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*>& __cordl_internal_get__Attributes();
+constexpr ::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*,::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*>& __cordl_internal_get__Attributes() ;
 
-  constexpr ::System::Xml::Schema::XdrBuilder_XdrBeginChildFunction* const& __cordl_internal_get__BeginChildFunc() const;
+constexpr ::System::Xml::Schema::XdrBuilder_XdrBeginChildFunction* const& __cordl_internal_get__BeginChildFunc() const;
 
-  constexpr ::System::Xml::Schema::XdrBuilder_XdrBeginChildFunction*& __cordl_internal_get__BeginChildFunc();
+constexpr ::System::Xml::Schema::XdrBuilder_XdrBeginChildFunction*& __cordl_internal_get__BeginChildFunc() ;
 
-  constexpr ::System::Xml::Schema::XdrBuilder_XdrEndChildFunction* const& __cordl_internal_get__EndChildFunc() const;
+constexpr ::System::Xml::Schema::XdrBuilder_XdrEndChildFunction* const& __cordl_internal_get__EndChildFunc() const;
 
-  constexpr ::System::Xml::Schema::XdrBuilder_XdrEndChildFunction*& __cordl_internal_get__EndChildFunc();
+constexpr ::System::Xml::Schema::XdrBuilder_XdrEndChildFunction*& __cordl_internal_get__EndChildFunc() ;
 
-  constexpr ::System::Xml::Schema::XdrBuilder_XdrInitFunction* const& __cordl_internal_get__InitFunc() const;
+constexpr ::System::Xml::Schema::XdrBuilder_XdrInitFunction* const& __cordl_internal_get__InitFunc() const;
 
-  constexpr ::System::Xml::Schema::XdrBuilder_XdrInitFunction*& __cordl_internal_get__InitFunc();
+constexpr ::System::Xml::Schema::XdrBuilder_XdrInitFunction*& __cordl_internal_get__InitFunc() ;
 
-  constexpr ::System::Xml::Schema::SchemaNames_Token const& __cordl_internal_get__Name() const;
+constexpr ::System::Xml::Schema::SchemaNames_Token const& __cordl_internal_get__Name() const;
 
-  constexpr ::System::Xml::Schema::SchemaNames_Token& __cordl_internal_get__Name();
+constexpr ::System::Xml::Schema::SchemaNames_Token& __cordl_internal_get__Name() ;
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get__NextStates() const;
+constexpr ::ArrayW<int32_t,::Array<int32_t>*> const& __cordl_internal_get__NextStates() const;
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get__NextStates();
+constexpr ::ArrayW<int32_t,::Array<int32_t>*>& __cordl_internal_get__NextStates() ;
 
-  constexpr void __cordl_internal_set__AllowText(bool value);
+constexpr void __cordl_internal_set__AllowText(bool  value) ;
 
-  constexpr void __cordl_internal_set__Attributes(::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*, ::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*> value);
+constexpr void __cordl_internal_set__Attributes(::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*,::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*>  value) ;
 
-  constexpr void __cordl_internal_set__BeginChildFunc(::System::Xml::Schema::XdrBuilder_XdrBeginChildFunction* value);
+constexpr void __cordl_internal_set__BeginChildFunc(::System::Xml::Schema::XdrBuilder_XdrBeginChildFunction*  value) ;
 
-  constexpr void __cordl_internal_set__EndChildFunc(::System::Xml::Schema::XdrBuilder_XdrEndChildFunction* value);
+constexpr void __cordl_internal_set__EndChildFunc(::System::Xml::Schema::XdrBuilder_XdrEndChildFunction*  value) ;
 
-  constexpr void __cordl_internal_set__InitFunc(::System::Xml::Schema::XdrBuilder_XdrInitFunction* value);
+constexpr void __cordl_internal_set__InitFunc(::System::Xml::Schema::XdrBuilder_XdrInitFunction*  value) ;
 
-  constexpr void __cordl_internal_set__Name(::System::Xml::Schema::SchemaNames_Token value);
+constexpr void __cordl_internal_set__Name(::System::Xml::Schema::SchemaNames_Token  value) ;
 
-  constexpr void __cordl_internal_set__NextStates(::ArrayW<int32_t, ::Array<int32_t>*> value);
+constexpr void __cordl_internal_set__NextStates(::ArrayW<int32_t,::Array<int32_t>*>  value) ;
 
-  /// @brief Method .ctor, addr 0x60e3eb8, size 0x18, virtual false, abstract: false, final false
-  inline void _ctor(::System::Xml::Schema::SchemaNames_Token n, ::ArrayW<int32_t, ::Array<int32_t>*> states,
-                    ::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*, ::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*> attributes,
-                    ::System::Xml::Schema::XdrBuilder_XdrInitFunction* init, ::System::Xml::Schema::XdrBuilder_XdrBeginChildFunction* begin, ::System::Xml::Schema::XdrBuilder_XdrEndChildFunction* end,
-                    bool fText);
+/// @brief Method .ctor, addr 0x60e5a30, size 0x18, virtual false, abstract: false, final false
+inline void _ctor(::System::Xml::Schema::SchemaNames_Token  n, ::ArrayW<int32_t,::Array<int32_t>*>  states, ::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*,::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*>  attributes, ::System::Xml::Schema::XdrBuilder_XdrInitFunction*  init, ::System::Xml::Schema::XdrBuilder_XdrBeginChildFunction*  begin, ::System::Xml::Schema::XdrBuilder_XdrEndChildFunction*  end, bool  fText) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr XdrBuilder_XdrEntry();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr XdrBuilder_XdrEntry() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XdrBuilder_XdrEntry", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  XdrBuilder_XdrEntry(XdrBuilder_XdrEntry&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XdrBuilder_XdrEntry", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  XdrBuilder_XdrEntry(XdrBuilder_XdrEntry const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "XdrBuilder_XdrEntry", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+XdrBuilder_XdrEntry(XdrBuilder_XdrEntry && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9721 };
+// Ctor Parameters [CppParam { name: "", ty: "XdrBuilder_XdrEntry", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+XdrBuilder_XdrEntry(XdrBuilder_XdrEntry const& ) = delete;
 
-  /// @brief Field _Name, offset: 0x10, size: 0x4, def value: None
-  ::System::Xml::Schema::SchemaNames_Token ____Name;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9722};
 
-  /// @brief Field _NextStates, offset: 0x18, size: 0x8, def value: None
-  ::ArrayW<int32_t, ::Array<int32_t>*> ____NextStates;
+/// @brief Field _Name, offset: 0x10, size: 0x4, def value: None
+ ::System::Xml::Schema::SchemaNames_Token  ____Name;
 
-  /// @brief Field _Attributes, offset: 0x20, size: 0x8, def value: None
-  ::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*, ::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*> ____Attributes;
+/// @brief Field _NextStates, offset: 0x18, size: 0x8, def value: None
+ ::ArrayW<int32_t,::Array<int32_t>*>  ____NextStates;
 
-  /// @brief Field _InitFunc, offset: 0x28, size: 0x8, def value: None
-  ::System::Xml::Schema::XdrBuilder_XdrInitFunction* ____InitFunc;
+/// @brief Field _Attributes, offset: 0x20, size: 0x8, def value: None
+ ::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*,::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*>  ____Attributes;
 
-  /// @brief Field _BeginChildFunc, offset: 0x30, size: 0x8, def value: None
-  ::System::Xml::Schema::XdrBuilder_XdrBeginChildFunction* ____BeginChildFunc;
+/// @brief Field _InitFunc, offset: 0x28, size: 0x8, def value: None
+ ::System::Xml::Schema::XdrBuilder_XdrInitFunction*  ____InitFunc;
 
-  /// @brief Field _EndChildFunc, offset: 0x38, size: 0x8, def value: None
-  ::System::Xml::Schema::XdrBuilder_XdrEndChildFunction* ____EndChildFunc;
+/// @brief Field _BeginChildFunc, offset: 0x30, size: 0x8, def value: None
+ ::System::Xml::Schema::XdrBuilder_XdrBeginChildFunction*  ____BeginChildFunc;
 
-  /// @brief Field _AllowText, offset: 0x40, size: 0x1, def value: None
-  bool ____AllowText;
+/// @brief Field _EndChildFunc, offset: 0x38, size: 0x8, def value: None
+ ::System::Xml::Schema::XdrBuilder_XdrEndChildFunction*  ____EndChildFunc;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _AllowText, offset: 0x40, size: 0x1, def value: None
+ bool  ____AllowText;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Xml::Schema::XdrBuilder_XdrEntry, ____Name) == 0x10, "Offset mismatch!");
@@ -1294,708 +1283,685 @@ static_assert(offsetof(::System::Xml::Schema::XdrBuilder_XdrEntry, ____AllowText
 
 static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::XdrBuilder_XdrEntry, 0x48>, "Size mismatch!");
 
-} // namespace System::Xml::Schema
+} // namespace end def System::Xml::Schema
 // Dependencies System.Xml.Schema.SchemaBuilder
 namespace System::Xml::Schema {
 // Is value type: false
 // CS Name: System.Xml.Schema.XdrBuilder
 class CORDL_TYPE XdrBuilder : public ::System::Xml::Schema::SchemaBuilder {
 public:
-  // Declarations
-  using AttributeContent = ::System::Xml::Schema::XdrBuilder_AttributeContent;
+// Declarations
+using AttributeContent = ::System::Xml::Schema::XdrBuilder_AttributeContent;
 
-  using DeclBaseInfo = ::System::Xml::Schema::XdrBuilder_DeclBaseInfo;
+using DeclBaseInfo = ::System::Xml::Schema::XdrBuilder_DeclBaseInfo;
 
-  using ElementContent = ::System::Xml::Schema::XdrBuilder_ElementContent;
+using ElementContent = ::System::Xml::Schema::XdrBuilder_ElementContent;
 
-  using GroupContent = ::System::Xml::Schema::XdrBuilder_GroupContent;
+using GroupContent = ::System::Xml::Schema::XdrBuilder_GroupContent;
 
-  using XdrAttributeEntry = ::System::Xml::Schema::XdrBuilder_XdrAttributeEntry;
+using XdrAttributeEntry = ::System::Xml::Schema::XdrBuilder_XdrAttributeEntry;
 
-  using XdrBeginChildFunction = ::System::Xml::Schema::XdrBuilder_XdrBeginChildFunction;
+using XdrBeginChildFunction = ::System::Xml::Schema::XdrBuilder_XdrBeginChildFunction;
 
-  using XdrBuildFunction = ::System::Xml::Schema::XdrBuilder_XdrBuildFunction;
+using XdrBuildFunction = ::System::Xml::Schema::XdrBuilder_XdrBuildFunction;
 
-  using XdrEndChildFunction = ::System::Xml::Schema::XdrBuilder_XdrEndChildFunction;
+using XdrEndChildFunction = ::System::Xml::Schema::XdrBuilder_XdrEndChildFunction;
 
-  using XdrEntry = ::System::Xml::Schema::XdrBuilder_XdrEntry;
+using XdrEntry = ::System::Xml::Schema::XdrBuilder_XdrEntry;
 
-  using XdrInitFunction = ::System::Xml::Schema::XdrBuilder_XdrInitFunction;
+using XdrInitFunction = ::System::Xml::Schema::XdrBuilder_XdrInitFunction;
 
-  /// @brief Field S_SchemaEntries, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_S_SchemaEntries, put = setStaticF_S_SchemaEntries)) ::ArrayW<::System::Xml::Schema::XdrBuilder_XdrEntry*, ::Array<::System::Xml::Schema::XdrBuilder_XdrEntry*>*>
-      S_SchemaEntries;
+/// @brief Field S_SchemaEntries, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_S_SchemaEntries, put=setStaticF_S_SchemaEntries)) ::ArrayW<::System::Xml::Schema::XdrBuilder_XdrEntry*,::Array<::System::Xml::Schema::XdrBuilder_XdrEntry*>*>  S_SchemaEntries;
 
-  /// @brief Field S_XDR_AttributeDataType_Attributes, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_S_XDR_AttributeDataType_Attributes,
-                      put =
-                          setStaticF_S_XDR_AttributeDataType_Attributes)) ::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*, ::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*>
-      S_XDR_AttributeDataType_Attributes;
+/// @brief Field S_XDR_AttributeDataType_Attributes, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_S_XDR_AttributeDataType_Attributes, put=setStaticF_S_XDR_AttributeDataType_Attributes)) ::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*,::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*>  S_XDR_AttributeDataType_Attributes;
 
-  /// @brief Field S_XDR_AttributeType_Attributes, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_S_XDR_AttributeType_Attributes,
-                      put = setStaticF_S_XDR_AttributeType_Attributes)) ::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*, ::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*>
-      S_XDR_AttributeType_Attributes;
+/// @brief Field S_XDR_AttributeType_Attributes, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_S_XDR_AttributeType_Attributes, put=setStaticF_S_XDR_AttributeType_Attributes)) ::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*,::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*>  S_XDR_AttributeType_Attributes;
 
-  /// @brief Field S_XDR_AttributeType_SubElements, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_S_XDR_AttributeType_SubElements, put = setStaticF_S_XDR_AttributeType_SubElements)) ::ArrayW<int32_t, ::Array<int32_t>*> S_XDR_AttributeType_SubElements;
+/// @brief Field S_XDR_AttributeType_SubElements, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_S_XDR_AttributeType_SubElements, put=setStaticF_S_XDR_AttributeType_SubElements)) ::ArrayW<int32_t,::Array<int32_t>*>  S_XDR_AttributeType_SubElements;
 
-  /// @brief Field S_XDR_Attribute_Attributes, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_S_XDR_Attribute_Attributes,
-                      put = setStaticF_S_XDR_Attribute_Attributes)) ::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*, ::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*>
-      S_XDR_Attribute_Attributes;
+/// @brief Field S_XDR_Attribute_Attributes, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_S_XDR_Attribute_Attributes, put=setStaticF_S_XDR_Attribute_Attributes)) ::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*,::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*>  S_XDR_Attribute_Attributes;
 
-  /// @brief Field S_XDR_ElementDataType_Attributes, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_S_XDR_ElementDataType_Attributes,
-                      put = setStaticF_S_XDR_ElementDataType_Attributes)) ::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*, ::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*>
-      S_XDR_ElementDataType_Attributes;
+/// @brief Field S_XDR_ElementDataType_Attributes, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_S_XDR_ElementDataType_Attributes, put=setStaticF_S_XDR_ElementDataType_Attributes)) ::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*,::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*>  S_XDR_ElementDataType_Attributes;
 
-  /// @brief Field S_XDR_ElementType_Attributes, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_S_XDR_ElementType_Attributes,
-                      put = setStaticF_S_XDR_ElementType_Attributes)) ::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*, ::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*>
-      S_XDR_ElementType_Attributes;
+/// @brief Field S_XDR_ElementType_Attributes, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_S_XDR_ElementType_Attributes, put=setStaticF_S_XDR_ElementType_Attributes)) ::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*,::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*>  S_XDR_ElementType_Attributes;
 
-  /// @brief Field S_XDR_ElementType_SubElements, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_S_XDR_ElementType_SubElements, put = setStaticF_S_XDR_ElementType_SubElements)) ::ArrayW<int32_t, ::Array<int32_t>*> S_XDR_ElementType_SubElements;
+/// @brief Field S_XDR_ElementType_SubElements, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_S_XDR_ElementType_SubElements, put=setStaticF_S_XDR_ElementType_SubElements)) ::ArrayW<int32_t,::Array<int32_t>*>  S_XDR_ElementType_SubElements;
 
-  /// @brief Field S_XDR_Element_Attributes, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_S_XDR_Element_Attributes,
-                      put = setStaticF_S_XDR_Element_Attributes)) ::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*, ::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*>
-      S_XDR_Element_Attributes;
+/// @brief Field S_XDR_Element_Attributes, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_S_XDR_Element_Attributes, put=setStaticF_S_XDR_Element_Attributes)) ::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*,::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*>  S_XDR_Element_Attributes;
 
-  /// @brief Field S_XDR_Group_Attributes, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_S_XDR_Group_Attributes,
-                      put = setStaticF_S_XDR_Group_Attributes)) ::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*, ::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*>
-      S_XDR_Group_Attributes;
+/// @brief Field S_XDR_Group_Attributes, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_S_XDR_Group_Attributes, put=setStaticF_S_XDR_Group_Attributes)) ::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*,::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*>  S_XDR_Group_Attributes;
 
-  /// @brief Field S_XDR_Group_SubElements, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_S_XDR_Group_SubElements, put = setStaticF_S_XDR_Group_SubElements)) ::ArrayW<int32_t, ::Array<int32_t>*> S_XDR_Group_SubElements;
+/// @brief Field S_XDR_Group_SubElements, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_S_XDR_Group_SubElements, put=setStaticF_S_XDR_Group_SubElements)) ::ArrayW<int32_t,::Array<int32_t>*>  S_XDR_Group_SubElements;
 
-  /// @brief Field S_XDR_Root_Attributes, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_S_XDR_Root_Attributes,
-                      put = setStaticF_S_XDR_Root_Attributes)) ::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*, ::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*>
-      S_XDR_Root_Attributes;
+/// @brief Field S_XDR_Root_Attributes, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_S_XDR_Root_Attributes, put=setStaticF_S_XDR_Root_Attributes)) ::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*,::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*>  S_XDR_Root_Attributes;
 
-  /// @brief Field S_XDR_Root_Element, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_S_XDR_Root_Element, put = setStaticF_S_XDR_Root_Element)) ::ArrayW<int32_t, ::Array<int32_t>*> S_XDR_Root_Element;
+/// @brief Field S_XDR_Root_Element, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_S_XDR_Root_Element, put=setStaticF_S_XDR_Root_Element)) ::ArrayW<int32_t,::Array<int32_t>*>  S_XDR_Root_Element;
 
-  /// @brief Field S_XDR_Root_SubElements, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_S_XDR_Root_SubElements, put = setStaticF_S_XDR_Root_SubElements)) ::ArrayW<int32_t, ::Array<int32_t>*> S_XDR_Root_SubElements;
+/// @brief Field S_XDR_Root_SubElements, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_S_XDR_Root_SubElements, put=setStaticF_S_XDR_Root_SubElements)) ::ArrayW<int32_t,::Array<int32_t>*>  S_XDR_Root_SubElements;
 
-  __declspec(property(put = set_XmlResolver)) ::System::Xml::XmlResolver* XmlResolver;
+ __declspec(property(put=set_XmlResolver)) ::System::Xml::XmlResolver*  XmlResolver;
 
-  /// @brief Field _AttributeDef, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get__AttributeDef, put = __cordl_internal_set__AttributeDef)) ::System::Xml::Schema::XdrBuilder_AttributeContent* _AttributeDef;
+/// @brief Field _AttributeDef, offset 0x78, size 0x8 
+ __declspec(property(get=__cordl_internal_get__AttributeDef, put=__cordl_internal_set__AttributeDef)) ::System::Xml::Schema::XdrBuilder_AttributeContent*  _AttributeDef;
 
-  /// @brief Field _BaseDecl, offset 0x88, size 0x8
-  __declspec(property(get = __cordl_internal_get__BaseDecl, put = __cordl_internal_set__BaseDecl)) ::System::Xml::Schema::XdrBuilder_DeclBaseInfo* _BaseDecl;
+/// @brief Field _BaseDecl, offset 0x88, size 0x8 
+ __declspec(property(get=__cordl_internal_get__BaseDecl, put=__cordl_internal_set__BaseDecl)) ::System::Xml::Schema::XdrBuilder_DeclBaseInfo*  _BaseDecl;
 
-  /// @brief Field _CurNsMgr, offset 0xa0, size 0x8
-  __declspec(property(get = __cordl_internal_get__CurNsMgr, put = __cordl_internal_set__CurNsMgr)) ::System::Xml::XmlNamespaceManager* _CurNsMgr;
+/// @brief Field _CurNsMgr, offset 0xa0, size 0x8 
+ __declspec(property(get=__cordl_internal_get__CurNsMgr, put=__cordl_internal_set__CurNsMgr)) ::System::Xml::XmlNamespaceManager*  _CurNsMgr;
 
-  /// @brief Field _CurState, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__CurState, put = __cordl_internal_set__CurState)) ::System::Xml::Schema::XdrBuilder_XdrEntry* _CurState;
+/// @brief Field _CurState, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get__CurState, put=__cordl_internal_set__CurState)) ::System::Xml::Schema::XdrBuilder_XdrEntry*  _CurState;
 
-  /// @brief Field _ElementDef, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get__ElementDef, put = __cordl_internal_set__ElementDef)) ::System::Xml::Schema::XdrBuilder_ElementContent* _ElementDef;
+/// @brief Field _ElementDef, offset 0x68, size 0x8 
+ __declspec(property(get=__cordl_internal_get__ElementDef, put=__cordl_internal_set__ElementDef)) ::System::Xml::Schema::XdrBuilder_ElementContent*  _ElementDef;
 
-  /// @brief Field _GroupDef, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get__GroupDef, put = __cordl_internal_set__GroupDef)) ::System::Xml::Schema::XdrBuilder_GroupContent* _GroupDef;
+/// @brief Field _GroupDef, offset 0x70, size 0x8 
+ __declspec(property(get=__cordl_internal_get__GroupDef, put=__cordl_internal_set__GroupDef)) ::System::Xml::Schema::XdrBuilder_GroupContent*  _GroupDef;
 
-  /// @brief Field _GroupStack, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get__GroupStack, put = __cordl_internal_set__GroupStack)) ::System::Xml::HWStack* _GroupStack;
+/// @brief Field _GroupStack, offset 0x50, size 0x8 
+ __declspec(property(get=__cordl_internal_get__GroupStack, put=__cordl_internal_set__GroupStack)) ::System::Xml::HWStack*  _GroupStack;
 
-  /// @brief Field _NameTable, offset 0x90, size 0x8
-  __declspec(property(get = __cordl_internal_get__NameTable, put = __cordl_internal_set__NameTable)) ::System::Xml::XmlNameTable* _NameTable;
+/// @brief Field _NameTable, offset 0x90, size 0x8 
+ __declspec(property(get=__cordl_internal_get__NameTable, put=__cordl_internal_set__NameTable)) ::System::Xml::XmlNameTable*  _NameTable;
 
-  /// @brief Field _NextState, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__NextState, put = __cordl_internal_set__NextState)) ::System::Xml::Schema::XdrBuilder_XdrEntry* _NextState;
+/// @brief Field _NextState, offset 0x40, size 0x8 
+ __declspec(property(get=__cordl_internal_get__NextState, put=__cordl_internal_set__NextState)) ::System::Xml::Schema::XdrBuilder_XdrEntry*  _NextState;
 
-  /// @brief Field _SchemaInfo, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__SchemaInfo, put = __cordl_internal_set__SchemaInfo)) ::System::Xml::Schema::SchemaInfo* _SchemaInfo;
+/// @brief Field _SchemaInfo, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get__SchemaInfo, put=__cordl_internal_set__SchemaInfo)) ::System::Xml::Schema::SchemaInfo*  _SchemaInfo;
 
-  /// @brief Field _SchemaNames, offset 0x98, size 0x8
-  __declspec(property(get = __cordl_internal_get__SchemaNames, put = __cordl_internal_set__SchemaNames)) ::System::Xml::Schema::SchemaNames* _SchemaNames;
+/// @brief Field _SchemaNames, offset 0x98, size 0x8 
+ __declspec(property(get=__cordl_internal_get__SchemaNames, put=__cordl_internal_set__SchemaNames)) ::System::Xml::Schema::SchemaNames*  _SchemaNames;
 
-  /// @brief Field _StateHistory, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__StateHistory, put = __cordl_internal_set__StateHistory)) ::System::Xml::HWStack* _StateHistory;
+/// @brief Field _StateHistory, offset 0x48, size 0x8 
+ __declspec(property(get=__cordl_internal_get__StateHistory, put=__cordl_internal_set__StateHistory)) ::System::Xml::HWStack*  _StateHistory;
 
-  /// @brief Field _TargetNamespace, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__TargetNamespace, put = __cordl_internal_set__TargetNamespace)) ::StringW _TargetNamespace;
+/// @brief Field _TargetNamespace, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get__TargetNamespace, put=__cordl_internal_set__TargetNamespace)) ::StringW  _TargetNamespace;
 
-  /// @brief Field _Text, offset 0xa8, size 0x8
-  __declspec(property(get = __cordl_internal_get__Text, put = __cordl_internal_set__Text)) ::StringW _Text;
+/// @brief Field _Text, offset 0xa8, size 0x8 
+ __declspec(property(get=__cordl_internal_get__Text, put=__cordl_internal_set__Text)) ::StringW  _Text;
 
-  /// @brief Field _UndeclaredElements, offset 0xb8, size 0x8
-  __declspec(property(get = __cordl_internal_get__UndeclaredElements, put = __cordl_internal_set__UndeclaredElements)) ::System::Collections::Hashtable* _UndeclaredElements;
+/// @brief Field _UndeclaredElements, offset 0xb8, size 0x8 
+ __declspec(property(get=__cordl_internal_get__UndeclaredElements, put=__cordl_internal_set__UndeclaredElements)) ::System::Collections::Hashtable*  _UndeclaredElements;
 
-  /// @brief Field _UndefinedAttributeTypes, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get__UndefinedAttributeTypes,
-                      put = __cordl_internal_set__UndefinedAttributeTypes)) ::System::Xml::Schema::XdrBuilder_DeclBaseInfo* _UndefinedAttributeTypes;
+/// @brief Field _UndefinedAttributeTypes, offset 0x80, size 0x8 
+ __declspec(property(get=__cordl_internal_get__UndefinedAttributeTypes, put=__cordl_internal_set__UndefinedAttributeTypes)) ::System::Xml::Schema::XdrBuilder_DeclBaseInfo*  _UndefinedAttributeTypes;
 
-  /// @brief Field _XdrName, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get__XdrName, put = __cordl_internal_set__XdrName)) ::StringW _XdrName;
+/// @brief Field _XdrName, offset 0x58, size 0x8 
+ __declspec(property(get=__cordl_internal_get__XdrName, put=__cordl_internal_set__XdrName)) ::StringW  _XdrName;
 
-  /// @brief Field _XdrPrefix, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get__XdrPrefix, put = __cordl_internal_set__XdrPrefix)) ::StringW _XdrPrefix;
+/// @brief Field _XdrPrefix, offset 0x60, size 0x8 
+ __declspec(property(get=__cordl_internal_get__XdrPrefix, put=__cordl_internal_set__XdrPrefix)) ::StringW  _XdrPrefix;
 
-  /// @brief Field _contentValidator, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__contentValidator, put = __cordl_internal_set__contentValidator)) ::System::Xml::Schema::ParticleContentValidator* _contentValidator;
+/// @brief Field _contentValidator, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get__contentValidator, put=__cordl_internal_set__contentValidator)) ::System::Xml::Schema::ParticleContentValidator*  _contentValidator;
 
-  /// @brief Field _reader, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__reader, put = __cordl_internal_set__reader)) ::System::Xml::XmlReader* _reader;
+/// @brief Field _reader, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get__reader, put=__cordl_internal_set__reader)) ::System::Xml::XmlReader*  _reader;
 
-  /// @brief Field positionInfo, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_positionInfo, put = __cordl_internal_set_positionInfo)) ::System::Xml::PositionInfo* positionInfo;
+/// @brief Field positionInfo, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get_positionInfo, put=__cordl_internal_set_positionInfo)) ::System::Xml::PositionInfo*  positionInfo;
 
-  /// @brief Field validationEventHandler, offset 0xb0, size 0x8
-  __declspec(property(get = __cordl_internal_get_validationEventHandler, put = __cordl_internal_set_validationEventHandler)) ::System::Xml::Schema::ValidationEventHandler* validationEventHandler;
+/// @brief Field validationEventHandler, offset 0xb0, size 0x8 
+ __declspec(property(get=__cordl_internal_get_validationEventHandler, put=__cordl_internal_set_validationEventHandler)) ::System::Xml::Schema::ValidationEventHandler*  validationEventHandler;
 
-  /// @brief Field xmlResolver, offset 0xc0, size 0x8
-  __declspec(property(get = __cordl_internal_get_xmlResolver, put = __cordl_internal_set_xmlResolver)) ::System::Xml::XmlResolver* xmlResolver;
+/// @brief Field xmlResolver, offset 0xc0, size 0x8 
+ __declspec(property(get=__cordl_internal_get_xmlResolver, put=__cordl_internal_set_xmlResolver)) ::System::Xml::XmlResolver*  xmlResolver;
 
-  /// @brief Method AddOrder, addr 0x60e0f6c, size 0xbc, virtual false, abstract: false, final false
-  inline void AddOrder();
+/// @brief Method AddOrder, addr 0x60e2ae4, size 0xbc, virtual false, abstract: false, final false
+inline void AddOrder() ;
 
-  /// @brief Method CheckDatatype, addr 0x60e05bc, size 0x158, virtual false, abstract: false, final false
-  inline ::System::Xml::Schema::XmlSchemaDatatype* CheckDatatype(::StringW str);
+/// @brief Method CheckDatatype, addr 0x60e2134, size 0x158, virtual false, abstract: false, final false
+inline ::System::Xml::Schema::XmlSchemaDatatype* CheckDatatype(::StringW  str) ;
 
-  /// @brief Method CheckDefaultAttValue, addr 0x60e0be8, size 0xfc, virtual false, abstract: false, final false
-  inline void CheckDefaultAttValue(::System::Xml::Schema::SchemaAttDef* attDef);
+/// @brief Method CheckDefaultAttValue, addr 0x60e2760, size 0xfc, virtual false, abstract: false, final false
+inline void CheckDefaultAttValue(::System::Xml::Schema::SchemaAttDef*  attDef) ;
 
-  /// @brief Method CompareMinMaxLength, addr 0x60dff70, size 0x94, virtual false, abstract: false, final false
-  static inline void CompareMinMaxLength(uint32_t cMin, uint32_t cMax, ::System::Xml::Schema::XdrBuilder* builder);
+/// @brief Method CompareMinMaxLength, addr 0x60e1ae8, size 0x94, virtual false, abstract: false, final false
+static inline void CompareMinMaxLength(uint32_t  cMin, uint32_t  cMax, ::System::Xml::Schema::XdrBuilder*  builder) ;
 
-  /// @brief Method EndChildren, addr 0x60de1d0, size 0x3c, virtual true, abstract: false, final false
-  inline void EndChildren();
+/// @brief Method EndChildren, addr 0x60dfd48, size 0x3c, virtual true, abstract: false, final false
+inline void EndChildren() ;
 
-  /// @brief Method GetContent, addr 0x60dedf8, size 0x194, virtual false, abstract: false, final false
-  inline int32_t GetContent(::System::Xml::XmlQualifiedName* qname);
+/// @brief Method GetContent, addr 0x60e0970, size 0x194, virtual false, abstract: false, final false
+inline int32_t GetContent(::System::Xml::XmlQualifiedName*  qname) ;
 
-  /// @brief Method GetModel, addr 0x60df038, size 0xe4, virtual false, abstract: false, final false
-  inline bool GetModel(::System::Xml::XmlQualifiedName* qname);
+/// @brief Method GetModel, addr 0x60e0bb0, size 0xe4, virtual false, abstract: false, final false
+inline bool GetModel(::System::Xml::XmlQualifiedName*  qname) ;
 
-  /// @brief Method GetNextState, addr 0x60dd1c0, size 0x19c, virtual false, abstract: false, final false
-  inline bool GetNextState(::System::Xml::XmlQualifiedName* qname);
+/// @brief Method GetNextState, addr 0x60ded38, size 0x19c, virtual false, abstract: false, final false
+inline bool GetNextState(::System::Xml::XmlQualifiedName*  qname) ;
 
-  /// @brief Method GetOrder, addr 0x60df1cc, size 0x130, virtual false, abstract: false, final false
-  inline int32_t GetOrder(::System::Xml::XmlQualifiedName* qname);
+/// @brief Method GetOrder, addr 0x60e0d44, size 0x130, virtual false, abstract: false, final false
+inline int32_t GetOrder(::System::Xml::XmlQualifiedName*  qname) ;
 
-  /// @brief Method HandleMinMax, addr 0x60e1408, size 0x30, virtual false, abstract: false, final false
-  static inline void HandleMinMax(::System::Xml::Schema::ParticleContentValidator* pContent, uint32_t cMin, uint32_t cMax);
+/// @brief Method HandleMinMax, addr 0x60e2f80, size 0x30, virtual false, abstract: false, final false
+static inline void HandleMinMax(::System::Xml::Schema::ParticleContentValidator*  pContent, uint32_t  cMin, uint32_t  cMax) ;
 
-  /// @brief Method IsContentParsed, addr 0x60de0c4, size 0x8, virtual true, abstract: false, final false
-  inline bool IsContentParsed();
+/// @brief Method IsContentParsed, addr 0x60dfc3c, size 0x8, virtual true, abstract: false, final false
+inline bool IsContentParsed() ;
 
-  /// @brief Method IsGlobal, addr 0x60dd8f4, size 0xc, virtual false, abstract: false, final false
-  inline bool IsGlobal(int32_t flags);
+/// @brief Method IsGlobal, addr 0x60df46c, size 0xc, virtual false, abstract: false, final false
+inline bool IsGlobal(int32_t  flags) ;
 
-  /// @brief Method IsSkipableAttribute, addr 0x60dde94, size 0x110, virtual false, abstract: false, final false
-  inline bool IsSkipableAttribute(::System::Xml::XmlQualifiedName* qname);
+/// @brief Method IsSkipableAttribute, addr 0x60dfa0c, size 0x110, virtual false, abstract: false, final false
+inline bool IsSkipableAttribute(::System::Xml::XmlQualifiedName*  qname) ;
 
-  /// @brief Method IsSkipableElement, addr 0x60dd3a4, size 0xbc, virtual false, abstract: false, final false
-  inline bool IsSkipableElement(::System::Xml::XmlQualifiedName* qname);
+/// @brief Method IsSkipableElement, addr 0x60def1c, size 0xbc, virtual false, abstract: false, final false
+inline bool IsSkipableElement(::System::Xml::XmlQualifiedName*  qname) ;
 
-  /// @brief Method IsXdrSchema, addr 0x60dd900, size 0xc0, virtual false, abstract: false, final false
-  static inline bool IsXdrSchema(::StringW uri);
+/// @brief Method IsXdrSchema, addr 0x60df478, size 0xc0, virtual false, abstract: false, final false
+static inline bool IsXdrSchema(::StringW  uri) ;
 
-  /// @brief Method IsYes, addr 0x60e03c4, size 0x11c, virtual false, abstract: false, final false
-  static inline bool IsYes(::System::Object* obj, ::System::Xml::Schema::XdrBuilder* builder);
+/// @brief Method IsYes, addr 0x60e1f3c, size 0x11c, virtual false, abstract: false, final false
+static inline bool IsYes(::System::Object*  obj, ::System::Xml::Schema::XdrBuilder*  builder) ;
 
-  /// @brief Method LoadSchema, addr 0x60dd9c0, size 0x4d4, virtual false, abstract: false, final false
-  inline bool LoadSchema(::StringW uri);
+/// @brief Method LoadSchema, addr 0x60df538, size 0x4d4, virtual false, abstract: false, final false
+inline bool LoadSchema(::StringW  uri) ;
 
-  static inline ::System::Xml::Schema::XdrBuilder* New_ctor(::System::Xml::XmlReader* reader, ::System::Xml::XmlNamespaceManager* curmgr, ::System::Xml::Schema::SchemaInfo* sinfo,
-                                                            ::StringW targetNamspace, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::Schema::SchemaNames* schemaNames,
-                                                            ::System::Xml::Schema::ValidationEventHandler* eventhandler);
+static inline ::System::Xml::Schema::XdrBuilder* New_ctor(::System::Xml::XmlReader*  reader, ::System::Xml::XmlNamespaceManager*  curmgr, ::System::Xml::Schema::SchemaInfo*  sinfo, ::StringW  targetNamspace, ::System::Xml::XmlNameTable*  nameTable, ::System::Xml::Schema::SchemaNames*  schemaNames, ::System::Xml::Schema::ValidationEventHandler*  eventhandler) ;
 
-  /// @brief Method ParseDtMaxLength, addr 0x60df5e0, size 0x140, virtual false, abstract: false, final false
-  static inline void ParseDtMaxLength(::ByRef<uint32_t> cVal, ::System::Object* obj, ::System::Xml::Schema::XdrBuilder* builder);
+/// @brief Method ParseDtMaxLength, addr 0x60e1158, size 0x140, virtual false, abstract: false, final false
+static inline void ParseDtMaxLength(::ByRef<uint32_t>  cVal, ::System::Object*  obj, ::System::Xml::Schema::XdrBuilder*  builder) ;
 
-  /// @brief Method ParseDtMinLength, addr 0x60df79c, size 0x140, virtual false, abstract: false, final false
-  static inline void ParseDtMinLength(::ByRef<uint32_t> cVal, ::System::Object* obj, ::System::Xml::Schema::XdrBuilder* builder);
+/// @brief Method ParseDtMinLength, addr 0x60e1314, size 0x140, virtual false, abstract: false, final false
+static inline void ParseDtMinLength(::ByRef<uint32_t>  cVal, ::System::Object*  obj, ::System::Xml::Schema::XdrBuilder*  builder) ;
 
-  /// @brief Method ParseInteger, addr 0x60e2114, size 0x38, virtual false, abstract: false, final false
-  static inline bool ParseInteger(::StringW str, ::ByRef<uint32_t> n);
+/// @brief Method ParseInteger, addr 0x60e3c8c, size 0x38, virtual false, abstract: false, final false
+static inline bool ParseInteger(::StringW  str, ::ByRef<uint32_t>  n) ;
 
-  /// @brief Method ParseMaxOccurs, addr 0x60e121c, size 0x130, virtual false, abstract: false, final false
-  static inline uint32_t ParseMaxOccurs(::System::Object* obj, ::System::Xml::Schema::XdrBuilder* builder);
+/// @brief Method ParseMaxOccurs, addr 0x60e2d94, size 0x130, virtual false, abstract: false, final false
+static inline uint32_t ParseMaxOccurs(::System::Object*  obj, ::System::Xml::Schema::XdrBuilder*  builder) ;
 
-  /// @brief Method ParseMinOccurs, addr 0x60e10a8, size 0xf4, virtual false, abstract: false, final false
-  static inline uint32_t ParseMinOccurs(::System::Object* obj, ::System::Xml::Schema::XdrBuilder* builder);
+/// @brief Method ParseMinOccurs, addr 0x60e2c20, size 0xf4, virtual false, abstract: false, final false
+static inline uint32_t ParseMinOccurs(::System::Object*  obj, ::System::Xml::Schema::XdrBuilder*  builder) ;
 
-  /// @brief Method Pop, addr 0x60de20c, size 0x84, virtual false, abstract: false, final false
-  inline void Pop();
+/// @brief Method Pop, addr 0x60dfd84, size 0x84, virtual false, abstract: false, final false
+inline void Pop() ;
 
-  /// @brief Method PopGroupInfo, addr 0x60de340, size 0x84, virtual false, abstract: false, final false
-  inline void PopGroupInfo();
+/// @brief Method PopGroupInfo, addr 0x60dfeb8, size 0x84, virtual false, abstract: false, final false
+inline void PopGroupInfo() ;
 
-  /// @brief Method ProcessAttribute, addr 0x60dd548, size 0x3ac, virtual true, abstract: false, final false
-  inline void ProcessAttribute(::StringW prefix, ::StringW name, ::StringW ns, ::StringW value);
+/// @brief Method ProcessAttribute, addr 0x60df0c0, size 0x3ac, virtual true, abstract: false, final false
+inline void ProcessAttribute(::StringW  prefix, ::StringW  name, ::StringW  ns, ::StringW  value) ;
 
-  /// @brief Method ProcessCData, addr 0x60de11c, size 0x84, virtual true, abstract: false, final false
-  inline void ProcessCData(::StringW value);
+/// @brief Method ProcessCData, addr 0x60dfc94, size 0x84, virtual true, abstract: false, final false
+inline void ProcessCData(::StringW  value) ;
 
-  /// @brief Method ProcessElement, addr 0x60dced8, size 0x138, virtual true, abstract: false, final false
-  inline bool ProcessElement(::StringW prefix, ::StringW name, ::StringW ns);
+/// @brief Method ProcessElement, addr 0x60dea50, size 0x138, virtual true, abstract: false, final false
+inline bool ProcessElement(::StringW  prefix, ::StringW  name, ::StringW  ns) ;
 
-  /// @brief Method ProcessMarkup, addr 0x60de0cc, size 0x50, virtual true, abstract: false, final false
-  inline void ProcessMarkup(::ArrayW<::System::Xml::XmlNode*, ::Array<::System::Xml::XmlNode*>*> markup);
+/// @brief Method ProcessMarkup, addr 0x60dfc44, size 0x50, virtual true, abstract: false, final false
+inline void ProcessMarkup(::ArrayW<::System::Xml::XmlNode*,::Array<::System::Xml::XmlNode*>*>  markup) ;
 
-  /// @brief Method Push, addr 0x60dd35c, size 0x48, virtual false, abstract: false, final false
-  inline void Push();
+/// @brief Method Push, addr 0x60deed4, size 0x48, virtual false, abstract: false, final false
+inline void Push() ;
 
-  /// @brief Method PushGroupInfo, addr 0x60de290, size 0x50, virtual false, abstract: false, final false
-  inline void PushGroupInfo();
+/// @brief Method PushGroupInfo, addr 0x60dfe08, size 0x50, virtual false, abstract: false, final false
+inline void PushGroupInfo() ;
 
-  /// @brief Method SendValidationEvent, addr 0x60df40c, size 0x14, virtual false, abstract: false, final false
-  inline void SendValidationEvent(::StringW code);
+/// @brief Method SendValidationEvent, addr 0x60e0f84, size 0x14, virtual false, abstract: false, final false
+inline void SendValidationEvent(::StringW  code) ;
 
-  /// @brief Method SendValidationEvent, addr 0x60ddfac, size 0x118, virtual false, abstract: false, final false
-  inline void SendValidationEvent(::StringW code, ::ArrayW<::StringW, ::Array<::StringW>*> args, ::System::Xml::Schema::XmlSeverityType severity);
+/// @brief Method SendValidationEvent, addr 0x60dfb24, size 0x118, virtual false, abstract: false, final false
+inline void SendValidationEvent(::StringW  code, ::ArrayW<::StringW,::Array<::StringW>*>  args, ::System::Xml::Schema::XmlSeverityType  severity) ;
 
-  /// @brief Method SendValidationEvent, addr 0x60dd460, size 0xe8, virtual false, abstract: false, final false
-  inline void SendValidationEvent(::StringW code, ::StringW msg);
+/// @brief Method SendValidationEvent, addr 0x60defd8, size 0xe8, virtual false, abstract: false, final false
+inline void SendValidationEvent(::StringW  code, ::StringW  msg) ;
 
-  /// @brief Method SendValidationEvent, addr 0x60e262c, size 0xcc, virtual false, abstract: false, final false
-  inline void SendValidationEvent(::System::Xml::Schema::XmlSchemaException* e, ::System::Xml::Schema::XmlSeverityType severity);
+/// @brief Method SendValidationEvent, addr 0x60e41a4, size 0xcc, virtual false, abstract: false, final false
+inline void SendValidationEvent(::System::Xml::Schema::XmlSchemaException*  e, ::System::Xml::Schema::XmlSeverityType  severity) ;
 
-  /// @brief Method SetAttributePresence, addr 0x60e0ce4, size 0x4c, virtual false, abstract: false, final false
-  inline void SetAttributePresence(::System::Xml::Schema::SchemaAttDef* pAttdef, bool fRequired);
+/// @brief Method SetAttributePresence, addr 0x60e285c, size 0x4c, virtual false, abstract: false, final false
+inline void SetAttributePresence(::System::Xml::Schema::SchemaAttDef*  pAttdef, bool  fRequired) ;
 
-  /// @brief Method StartChildren, addr 0x60de1a0, size 0x30, virtual true, abstract: false, final false
-  inline void StartChildren();
+/// @brief Method StartChildren, addr 0x60dfd18, size 0x30, virtual true, abstract: false, final false
+inline void StartChildren() ;
 
-  /// @brief Method XDR_BeginAttribute, addr 0x60e1620, size 0x2c8, virtual false, abstract: false, final false
-  static inline void XDR_BeginAttribute(::System::Xml::Schema::XdrBuilder* builder);
+/// @brief Method XDR_BeginAttribute, addr 0x60e3198, size 0x2c8, virtual false, abstract: false, final false
+static inline void XDR_BeginAttribute(::System::Xml::Schema::XdrBuilder*  builder) ;
 
-  /// @brief Method XDR_BeginAttributeType, addr 0x60e08f4, size 0x8c, virtual false, abstract: false, final false
-  static inline void XDR_BeginAttributeType(::System::Xml::Schema::XdrBuilder* builder);
+/// @brief Method XDR_BeginAttributeType, addr 0x60e246c, size 0x8c, virtual false, abstract: false, final false
+static inline void XDR_BeginAttributeType(::System::Xml::Schema::XdrBuilder*  builder) ;
 
-  /// @brief Method XDR_BeginElementType, addr 0x60df8dc, size 0x328, virtual false, abstract: false, final false
-  static inline void XDR_BeginElementType(::System::Xml::Schema::XdrBuilder* builder);
+/// @brief Method XDR_BeginElementType, addr 0x60e1454, size 0x328, virtual false, abstract: false, final false
+static inline void XDR_BeginElementType(::System::Xml::Schema::XdrBuilder*  builder) ;
 
-  /// @brief Method XDR_BeginRoot, addr 0x60de458, size 0xe0, virtual false, abstract: false, final false
-  static inline void XDR_BeginRoot(::System::Xml::Schema::XdrBuilder* builder);
+/// @brief Method XDR_BeginRoot, addr 0x60dffd0, size 0xe0, virtual false, abstract: false, final false
+static inline void XDR_BeginRoot(::System::Xml::Schema::XdrBuilder*  builder) ;
 
-  /// @brief Method XDR_BuildAttributeType_Default, addr 0x60e04e0, size 0x20, virtual false, abstract: false, final false
-  static inline void XDR_BuildAttributeType_Default(::System::Xml::Schema::XdrBuilder* builder, ::System::Object* obj, ::StringW prefix);
+/// @brief Method XDR_BuildAttributeType_Default, addr 0x60e2058, size 0x20, virtual false, abstract: false, final false
+static inline void XDR_BuildAttributeType_Default(::System::Xml::Schema::XdrBuilder*  builder, ::System::Object*  obj, ::StringW  prefix) ;
 
-  /// @brief Method XDR_BuildAttributeType_DtMaxLength, addr 0x60e07fc, size 0x7c, virtual false, abstract: false, final false
-  static inline void XDR_BuildAttributeType_DtMaxLength(::System::Xml::Schema::XdrBuilder* builder, ::System::Object* obj, ::StringW prefix);
+/// @brief Method XDR_BuildAttributeType_DtMaxLength, addr 0x60e2374, size 0x7c, virtual false, abstract: false, final false
+static inline void XDR_BuildAttributeType_DtMaxLength(::System::Xml::Schema::XdrBuilder*  builder, ::System::Object*  obj, ::StringW  prefix) ;
 
-  /// @brief Method XDR_BuildAttributeType_DtMinLength, addr 0x60e0878, size 0x7c, virtual false, abstract: false, final false
-  static inline void XDR_BuildAttributeType_DtMinLength(::System::Xml::Schema::XdrBuilder* builder, ::System::Object* obj, ::StringW prefix);
+/// @brief Method XDR_BuildAttributeType_DtMinLength, addr 0x60e23f0, size 0x7c, virtual false, abstract: false, final false
+static inline void XDR_BuildAttributeType_DtMinLength(::System::Xml::Schema::XdrBuilder*  builder, ::System::Object*  obj, ::StringW  prefix) ;
 
-  /// @brief Method XDR_BuildAttributeType_DtType, addr 0x60e0500, size 0xbc, virtual false, abstract: false, final false
-  static inline void XDR_BuildAttributeType_DtType(::System::Xml::Schema::XdrBuilder* builder, ::System::Object* obj, ::StringW prefix);
+/// @brief Method XDR_BuildAttributeType_DtType, addr 0x60e2078, size 0xbc, virtual false, abstract: false, final false
+static inline void XDR_BuildAttributeType_DtType(::System::Xml::Schema::XdrBuilder*  builder, ::System::Object*  obj, ::StringW  prefix) ;
 
-  /// @brief Method XDR_BuildAttributeType_DtValues, addr 0x60e0714, size 0xe8, virtual false, abstract: false, final false
-  static inline void XDR_BuildAttributeType_DtValues(::System::Xml::Schema::XdrBuilder* builder, ::System::Object* obj, ::StringW prefix);
+/// @brief Method XDR_BuildAttributeType_DtValues, addr 0x60e228c, size 0xe8, virtual false, abstract: false, final false
+static inline void XDR_BuildAttributeType_DtValues(::System::Xml::Schema::XdrBuilder*  builder, ::System::Object*  obj, ::StringW  prefix) ;
 
-  /// @brief Method XDR_BuildAttributeType_Name, addr 0x60e00f0, size 0x250, virtual false, abstract: false, final false
-  static inline void XDR_BuildAttributeType_Name(::System::Xml::Schema::XdrBuilder* builder, ::System::Object* obj, ::StringW prefix);
+/// @brief Method XDR_BuildAttributeType_Name, addr 0x60e1c68, size 0x250, virtual false, abstract: false, final false
+static inline void XDR_BuildAttributeType_Name(::System::Xml::Schema::XdrBuilder*  builder, ::System::Object*  obj, ::StringW  prefix) ;
 
-  /// @brief Method XDR_BuildAttributeType_Required, addr 0x60e0340, size 0x84, virtual false, abstract: false, final false
-  static inline void XDR_BuildAttributeType_Required(::System::Xml::Schema::XdrBuilder* builder, ::System::Object* obj, ::StringW prefix);
+/// @brief Method XDR_BuildAttributeType_Required, addr 0x60e1eb8, size 0x84, virtual false, abstract: false, final false
+static inline void XDR_BuildAttributeType_Required(::System::Xml::Schema::XdrBuilder*  builder, ::System::Object*  obj, ::StringW  prefix) ;
 
-  /// @brief Method XDR_BuildAttribute_Default, addr 0x60e1600, size 0x20, virtual false, abstract: false, final false
-  static inline void XDR_BuildAttribute_Default(::System::Xml::Schema::XdrBuilder* builder, ::System::Object* obj, ::StringW prefix);
+/// @brief Method XDR_BuildAttribute_Default, addr 0x60e3178, size 0x20, virtual false, abstract: false, final false
+static inline void XDR_BuildAttribute_Default(::System::Xml::Schema::XdrBuilder*  builder, ::System::Object*  obj, ::StringW  prefix) ;
 
-  /// @brief Method XDR_BuildAttribute_Required, addr 0x60e1578, size 0x88, virtual false, abstract: false, final false
-  static inline void XDR_BuildAttribute_Required(::System::Xml::Schema::XdrBuilder* builder, ::System::Object* obj, ::StringW prefix);
+/// @brief Method XDR_BuildAttribute_Required, addr 0x60e30f0, size 0x88, virtual false, abstract: false, final false
+static inline void XDR_BuildAttribute_Required(::System::Xml::Schema::XdrBuilder*  builder, ::System::Object*  obj, ::StringW  prefix) ;
 
-  /// @brief Method XDR_BuildAttribute_Type, addr 0x60e14ac, size 0xcc, virtual false, abstract: false, final false
-  static inline void XDR_BuildAttribute_Type(::System::Xml::Schema::XdrBuilder* builder, ::System::Object* obj, ::StringW prefix);
+/// @brief Method XDR_BuildAttribute_Type, addr 0x60e3024, size 0xcc, virtual false, abstract: false, final false
+static inline void XDR_BuildAttribute_Type(::System::Xml::Schema::XdrBuilder*  builder, ::System::Object*  obj, ::StringW  prefix) ;
 
-  /// @brief Method XDR_BuildElementType_Content, addr 0x60ded50, size 0xa8, virtual false, abstract: false, final false
-  static inline void XDR_BuildElementType_Content(::System::Xml::Schema::XdrBuilder* builder, ::System::Object* obj, ::StringW prefix);
+/// @brief Method XDR_BuildElementType_Content, addr 0x60e08c8, size 0xa8, virtual false, abstract: false, final false
+static inline void XDR_BuildElementType_Content(::System::Xml::Schema::XdrBuilder*  builder, ::System::Object*  obj, ::StringW  prefix) ;
 
-  /// @brief Method XDR_BuildElementType_DtMaxLength, addr 0x60df564, size 0x7c, virtual false, abstract: false, final false
-  static inline void XDR_BuildElementType_DtMaxLength(::System::Xml::Schema::XdrBuilder* builder, ::System::Object* obj, ::StringW prefix);
+/// @brief Method XDR_BuildElementType_DtMaxLength, addr 0x60e10dc, size 0x7c, virtual false, abstract: false, final false
+static inline void XDR_BuildElementType_DtMaxLength(::System::Xml::Schema::XdrBuilder*  builder, ::System::Object*  obj, ::StringW  prefix) ;
 
-  /// @brief Method XDR_BuildElementType_DtMinLength, addr 0x60df720, size 0x7c, virtual false, abstract: false, final false
-  static inline void XDR_BuildElementType_DtMinLength(::System::Xml::Schema::XdrBuilder* builder, ::System::Object* obj, ::StringW prefix);
+/// @brief Method XDR_BuildElementType_DtMinLength, addr 0x60e1298, size 0x7c, virtual false, abstract: false, final false
+static inline void XDR_BuildElementType_DtMinLength(::System::Xml::Schema::XdrBuilder*  builder, ::System::Object*  obj, ::StringW  prefix) ;
 
-  /// @brief Method XDR_BuildElementType_DtType, addr 0x60df2fc, size 0x110, virtual false, abstract: false, final false
-  static inline void XDR_BuildElementType_DtType(::System::Xml::Schema::XdrBuilder* builder, ::System::Object* obj, ::StringW prefix);
+/// @brief Method XDR_BuildElementType_DtType, addr 0x60e0e74, size 0x110, virtual false, abstract: false, final false
+static inline void XDR_BuildElementType_DtType(::System::Xml::Schema::XdrBuilder*  builder, ::System::Object*  obj, ::StringW  prefix) ;
 
-  /// @brief Method XDR_BuildElementType_DtValues, addr 0x60df47c, size 0xe8, virtual false, abstract: false, final false
-  static inline void XDR_BuildElementType_DtValues(::System::Xml::Schema::XdrBuilder* builder, ::System::Object* obj, ::StringW prefix);
+/// @brief Method XDR_BuildElementType_DtValues, addr 0x60e0ff4, size 0xe8, virtual false, abstract: false, final false
+static inline void XDR_BuildElementType_DtValues(::System::Xml::Schema::XdrBuilder*  builder, ::System::Object*  obj, ::StringW  prefix) ;
 
-  /// @brief Method XDR_BuildElementType_Model, addr 0x60def8c, size 0xac, virtual false, abstract: false, final false
-  static inline void XDR_BuildElementType_Model(::System::Xml::Schema::XdrBuilder* builder, ::System::Object* obj, ::StringW prefix);
+/// @brief Method XDR_BuildElementType_Model, addr 0x60e0b04, size 0xac, virtual false, abstract: false, final false
+static inline void XDR_BuildElementType_Model(::System::Xml::Schema::XdrBuilder*  builder, ::System::Object*  obj, ::StringW  prefix) ;
 
-  /// @brief Method XDR_BuildElementType_Name, addr 0x60deb88, size 0x1c8, virtual false, abstract: false, final false
-  static inline void XDR_BuildElementType_Name(::System::Xml::Schema::XdrBuilder* builder, ::System::Object* obj, ::StringW prefix);
+/// @brief Method XDR_BuildElementType_Name, addr 0x60e0700, size 0x1c8, virtual false, abstract: false, final false
+static inline void XDR_BuildElementType_Name(::System::Xml::Schema::XdrBuilder*  builder, ::System::Object*  obj, ::StringW  prefix) ;
 
-  /// @brief Method XDR_BuildElementType_Order, addr 0x60df11c, size 0xb0, virtual false, abstract: false, final false
-  static inline void XDR_BuildElementType_Order(::System::Xml::Schema::XdrBuilder* builder, ::System::Object* obj, ::StringW prefix);
+/// @brief Method XDR_BuildElementType_Order, addr 0x60e0c94, size 0xb0, virtual false, abstract: false, final false
+static inline void XDR_BuildElementType_Order(::System::Xml::Schema::XdrBuilder*  builder, ::System::Object*  obj, ::StringW  prefix) ;
 
-  /// @brief Method XDR_BuildElement_MaxOccurs, addr 0x60e119c, size 0x80, virtual false, abstract: false, final false
-  static inline void XDR_BuildElement_MaxOccurs(::System::Xml::Schema::XdrBuilder* builder, ::System::Object* obj, ::StringW prefix);
+/// @brief Method XDR_BuildElement_MaxOccurs, addr 0x60e2d14, size 0x80, virtual false, abstract: false, final false
+static inline void XDR_BuildElement_MaxOccurs(::System::Xml::Schema::XdrBuilder*  builder, ::System::Object*  obj, ::StringW  prefix) ;
 
-  /// @brief Method XDR_BuildElement_MinOccurs, addr 0x60e1028, size 0x80, virtual false, abstract: false, final false
-  static inline void XDR_BuildElement_MinOccurs(::System::Xml::Schema::XdrBuilder* builder, ::System::Object* obj, ::StringW prefix);
+/// @brief Method XDR_BuildElement_MinOccurs, addr 0x60e2ba0, size 0x80, virtual false, abstract: false, final false
+static inline void XDR_BuildElement_MinOccurs(::System::Xml::Schema::XdrBuilder*  builder, ::System::Object*  obj, ::StringW  prefix) ;
 
-  /// @brief Method XDR_BuildElement_Type, addr 0x60e0dd0, size 0x19c, virtual false, abstract: false, final false
-  static inline void XDR_BuildElement_Type(::System::Xml::Schema::XdrBuilder* builder, ::System::Object* obj, ::StringW prefix);
+/// @brief Method XDR_BuildElement_Type, addr 0x60e2948, size 0x19c, virtual false, abstract: false, final false
+static inline void XDR_BuildElement_Type(::System::Xml::Schema::XdrBuilder*  builder, ::System::Object*  obj, ::StringW  prefix) ;
 
-  /// @brief Method XDR_BuildGroup_MaxOccurs, addr 0x60e1c04, size 0x90, virtual false, abstract: false, final false
-  static inline void XDR_BuildGroup_MaxOccurs(::System::Xml::Schema::XdrBuilder* builder, ::System::Object* obj, ::StringW prefix);
+/// @brief Method XDR_BuildGroup_MaxOccurs, addr 0x60e377c, size 0x90, virtual false, abstract: false, final false
+static inline void XDR_BuildGroup_MaxOccurs(::System::Xml::Schema::XdrBuilder*  builder, ::System::Object*  obj, ::StringW  prefix) ;
 
-  /// @brief Method XDR_BuildGroup_MinOccurs, addr 0x60e1b74, size 0x90, virtual false, abstract: false, final false
-  static inline void XDR_BuildGroup_MinOccurs(::System::Xml::Schema::XdrBuilder* builder, ::System::Object* obj, ::StringW prefix);
+/// @brief Method XDR_BuildGroup_MinOccurs, addr 0x60e36ec, size 0x90, virtual false, abstract: false, final false
+static inline void XDR_BuildGroup_MinOccurs(::System::Xml::Schema::XdrBuilder*  builder, ::System::Object*  obj, ::StringW  prefix) ;
 
-  /// @brief Method XDR_BuildGroup_Order, addr 0x60e1a64, size 0x110, virtual false, abstract: false, final false
-  static inline void XDR_BuildGroup_Order(::System::Xml::Schema::XdrBuilder* builder, ::System::Object* obj, ::StringW prefix);
+/// @brief Method XDR_BuildGroup_Order, addr 0x60e35dc, size 0x110, virtual false, abstract: false, final false
+static inline void XDR_BuildGroup_Order(::System::Xml::Schema::XdrBuilder*  builder, ::System::Object*  obj, ::StringW  prefix) ;
 
-  /// @brief Method XDR_BuildRoot_ID, addr 0x60de454, size 0x4, virtual false, abstract: false, final false
-  static inline void XDR_BuildRoot_ID(::System::Xml::Schema::XdrBuilder* builder, ::System::Object* obj, ::StringW prefix);
+/// @brief Method XDR_BuildRoot_ID, addr 0x60dffcc, size 0x4, virtual false, abstract: false, final false
+static inline void XDR_BuildRoot_ID(::System::Xml::Schema::XdrBuilder*  builder, ::System::Object*  obj, ::StringW  prefix) ;
 
-  /// @brief Method XDR_BuildRoot_Name, addr 0x60de404, size 0x50, virtual false, abstract: false, final false
-  static inline void XDR_BuildRoot_Name(::System::Xml::Schema::XdrBuilder* builder, ::System::Object* obj, ::StringW prefix);
+/// @brief Method XDR_BuildRoot_Name, addr 0x60dff7c, size 0x50, virtual false, abstract: false, final false
+static inline void XDR_BuildRoot_Name(::System::Xml::Schema::XdrBuilder*  builder, ::System::Object*  obj, ::StringW  prefix) ;
 
-  /// @brief Method XDR_CheckAttributeDefault, addr 0x60de9dc, size 0x9c, virtual false, abstract: false, final false
-  inline void XDR_CheckAttributeDefault(::System::Xml::Schema::XdrBuilder_DeclBaseInfo* decl, ::System::Xml::Schema::SchemaAttDef* pAttdef);
+/// @brief Method XDR_CheckAttributeDefault, addr 0x60e0554, size 0x9c, virtual false, abstract: false, final false
+inline void XDR_CheckAttributeDefault(::System::Xml::Schema::XdrBuilder_DeclBaseInfo*  decl, ::System::Xml::Schema::SchemaAttDef*  pAttdef) ;
 
-  /// @brief Method XDR_EndAttribute, addr 0x60e18e8, size 0x1c, virtual false, abstract: false, final false
-  static inline void XDR_EndAttribute(::System::Xml::Schema::XdrBuilder* builder);
+/// @brief Method XDR_EndAttribute, addr 0x60e3460, size 0x1c, virtual false, abstract: false, final false
+static inline void XDR_EndAttribute(::System::Xml::Schema::XdrBuilder*  builder) ;
 
-  /// @brief Method XDR_EndAttributeDtType, addr 0x60e200c, size 0x108, virtual false, abstract: false, final false
-  static inline void XDR_EndAttributeDtType(::System::Xml::Schema::XdrBuilder* builder);
+/// @brief Method XDR_EndAttributeDtType, addr 0x60e3b84, size 0x108, virtual false, abstract: false, final false
+static inline void XDR_EndAttributeDtType(::System::Xml::Schema::XdrBuilder*  builder) ;
 
-  /// @brief Method XDR_EndAttributeType, addr 0x60e0980, size 0x20c, virtual false, abstract: false, final false
-  static inline void XDR_EndAttributeType(::System::Xml::Schema::XdrBuilder* builder);
+/// @brief Method XDR_EndAttributeType, addr 0x60e24f8, size 0x20c, virtual false, abstract: false, final false
+static inline void XDR_EndAttributeType(::System::Xml::Schema::XdrBuilder*  builder) ;
 
-  /// @brief Method XDR_EndElement, addr 0x60e134c, size 0xbc, virtual false, abstract: false, final false
-  static inline void XDR_EndElement(::System::Xml::Schema::XdrBuilder* builder);
+/// @brief Method XDR_EndElement, addr 0x60e2ec4, size 0xbc, virtual false, abstract: false, final false
+static inline void XDR_EndElement(::System::Xml::Schema::XdrBuilder*  builder) ;
 
-  /// @brief Method XDR_EndElementDtType, addr 0x60e1eb4, size 0xd8, virtual false, abstract: false, final false
-  static inline void XDR_EndElementDtType(::System::Xml::Schema::XdrBuilder* builder);
+/// @brief Method XDR_EndElementDtType, addr 0x60e3a2c, size 0xd8, virtual false, abstract: false, final false
+static inline void XDR_EndElementDtType(::System::Xml::Schema::XdrBuilder*  builder) ;
 
-  /// @brief Method XDR_EndElementType, addr 0x60dfc04, size 0x36c, virtual false, abstract: false, final false
-  static inline void XDR_EndElementType(::System::Xml::Schema::XdrBuilder* builder);
+/// @brief Method XDR_EndElementType, addr 0x60e177c, size 0x36c, virtual false, abstract: false, final false
+static inline void XDR_EndElementType(::System::Xml::Schema::XdrBuilder*  builder) ;
 
-  /// @brief Method XDR_EndGroup, addr 0x60e1c94, size 0x15c, virtual false, abstract: false, final false
-  static inline void XDR_EndGroup(::System::Xml::Schema::XdrBuilder* builder);
+/// @brief Method XDR_EndGroup, addr 0x60e380c, size 0x15c, virtual false, abstract: false, final false
+static inline void XDR_EndGroup(::System::Xml::Schema::XdrBuilder*  builder) ;
 
-  /// @brief Method XDR_EndRoot, addr 0x60de538, size 0x4a4, virtual false, abstract: false, final false
-  static inline void XDR_EndRoot(::System::Xml::Schema::XdrBuilder* builder);
+/// @brief Method XDR_EndRoot, addr 0x60e00b0, size 0x4a4, virtual false, abstract: false, final false
+static inline void XDR_EndRoot(::System::Xml::Schema::XdrBuilder*  builder) ;
 
-  /// @brief Method XDR_InitAttribute, addr 0x60e1438, size 0x70, virtual false, abstract: false, final false
-  static inline void XDR_InitAttribute(::System::Xml::Schema::XdrBuilder* builder, ::System::Object* obj);
+/// @brief Method XDR_InitAttribute, addr 0x60e2fb0, size 0x70, virtual false, abstract: false, final false
+static inline void XDR_InitAttribute(::System::Xml::Schema::XdrBuilder*  builder, ::System::Object*  obj) ;
 
-  /// @brief Method XDR_InitAttributeDtType, addr 0x60e1f8c, size 0x80, virtual false, abstract: false, final false
-  static inline void XDR_InitAttributeDtType(::System::Xml::Schema::XdrBuilder* builder, ::System::Object* obj);
+/// @brief Method XDR_InitAttributeDtType, addr 0x60e3b04, size 0x80, virtual false, abstract: false, final false
+static inline void XDR_InitAttributeDtType(::System::Xml::Schema::XdrBuilder*  builder, ::System::Object*  obj) ;
 
-  /// @brief Method XDR_InitAttributeType, addr 0x60e0004, size 0xec, virtual false, abstract: false, final false
-  static inline void XDR_InitAttributeType(::System::Xml::Schema::XdrBuilder* builder, ::System::Object* obj);
+/// @brief Method XDR_InitAttributeType, addr 0x60e1b7c, size 0xec, virtual false, abstract: false, final false
+static inline void XDR_InitAttributeType(::System::Xml::Schema::XdrBuilder*  builder, ::System::Object*  obj) ;
 
-  /// @brief Method XDR_InitElement, addr 0x60e0d30, size 0xa0, virtual false, abstract: false, final false
-  static inline void XDR_InitElement(::System::Xml::Schema::XdrBuilder* builder, ::System::Object* obj);
+/// @brief Method XDR_InitElement, addr 0x60e28a8, size 0xa0, virtual false, abstract: false, final false
+static inline void XDR_InitElement(::System::Xml::Schema::XdrBuilder*  builder, ::System::Object*  obj) ;
 
-  /// @brief Method XDR_InitElementDtType, addr 0x60e1df0, size 0xc4, virtual false, abstract: false, final false
-  static inline void XDR_InitElementDtType(::System::Xml::Schema::XdrBuilder* builder, ::System::Object* obj);
+/// @brief Method XDR_InitElementDtType, addr 0x60e3968, size 0xc4, virtual false, abstract: false, final false
+static inline void XDR_InitElementDtType(::System::Xml::Schema::XdrBuilder*  builder, ::System::Object*  obj) ;
 
-  /// @brief Method XDR_InitElementType, addr 0x60dea78, size 0x110, virtual false, abstract: false, final false
-  static inline void XDR_InitElementType(::System::Xml::Schema::XdrBuilder* builder, ::System::Object* obj);
+/// @brief Method XDR_InitElementType, addr 0x60e05f0, size 0x110, virtual false, abstract: false, final false
+static inline void XDR_InitElementType(::System::Xml::Schema::XdrBuilder*  builder, ::System::Object*  obj) ;
 
-  /// @brief Method XDR_InitGroup, addr 0x60e1984, size 0xe0, virtual false, abstract: false, final false
-  static inline void XDR_InitGroup(::System::Xml::Schema::XdrBuilder* builder, ::System::Object* obj);
+/// @brief Method XDR_InitGroup, addr 0x60e34fc, size 0xe0, virtual false, abstract: false, final false
+static inline void XDR_InitGroup(::System::Xml::Schema::XdrBuilder*  builder, ::System::Object*  obj) ;
 
-  /// @brief Method XDR_InitRoot, addr 0x60de3c4, size 0x40, virtual false, abstract: false, final false
-  static inline void XDR_InitRoot(::System::Xml::Schema::XdrBuilder* builder, ::System::Object* obj);
+/// @brief Method XDR_InitRoot, addr 0x60dff3c, size 0x40, virtual false, abstract: false, final false
+static inline void XDR_InitRoot(::System::Xml::Schema::XdrBuilder*  builder, ::System::Object*  obj) ;
 
-  constexpr ::System::Xml::Schema::XdrBuilder_AttributeContent* const& __cordl_internal_get__AttributeDef() const;
+constexpr ::System::Xml::Schema::XdrBuilder_AttributeContent* const& __cordl_internal_get__AttributeDef() const;
 
-  constexpr ::System::Xml::Schema::XdrBuilder_AttributeContent*& __cordl_internal_get__AttributeDef();
+constexpr ::System::Xml::Schema::XdrBuilder_AttributeContent*& __cordl_internal_get__AttributeDef() ;
 
-  constexpr ::System::Xml::Schema::XdrBuilder_DeclBaseInfo* const& __cordl_internal_get__BaseDecl() const;
+constexpr ::System::Xml::Schema::XdrBuilder_DeclBaseInfo* const& __cordl_internal_get__BaseDecl() const;
 
-  constexpr ::System::Xml::Schema::XdrBuilder_DeclBaseInfo*& __cordl_internal_get__BaseDecl();
+constexpr ::System::Xml::Schema::XdrBuilder_DeclBaseInfo*& __cordl_internal_get__BaseDecl() ;
 
-  constexpr ::System::Xml::XmlNamespaceManager* const& __cordl_internal_get__CurNsMgr() const;
+constexpr ::System::Xml::XmlNamespaceManager* const& __cordl_internal_get__CurNsMgr() const;
 
-  constexpr ::System::Xml::XmlNamespaceManager*& __cordl_internal_get__CurNsMgr();
+constexpr ::System::Xml::XmlNamespaceManager*& __cordl_internal_get__CurNsMgr() ;
 
-  constexpr ::System::Xml::Schema::XdrBuilder_XdrEntry* const& __cordl_internal_get__CurState() const;
+constexpr ::System::Xml::Schema::XdrBuilder_XdrEntry* const& __cordl_internal_get__CurState() const;
 
-  constexpr ::System::Xml::Schema::XdrBuilder_XdrEntry*& __cordl_internal_get__CurState();
+constexpr ::System::Xml::Schema::XdrBuilder_XdrEntry*& __cordl_internal_get__CurState() ;
 
-  constexpr ::System::Xml::Schema::XdrBuilder_ElementContent* const& __cordl_internal_get__ElementDef() const;
+constexpr ::System::Xml::Schema::XdrBuilder_ElementContent* const& __cordl_internal_get__ElementDef() const;
 
-  constexpr ::System::Xml::Schema::XdrBuilder_ElementContent*& __cordl_internal_get__ElementDef();
+constexpr ::System::Xml::Schema::XdrBuilder_ElementContent*& __cordl_internal_get__ElementDef() ;
 
-  constexpr ::System::Xml::Schema::XdrBuilder_GroupContent* const& __cordl_internal_get__GroupDef() const;
+constexpr ::System::Xml::Schema::XdrBuilder_GroupContent* const& __cordl_internal_get__GroupDef() const;
 
-  constexpr ::System::Xml::Schema::XdrBuilder_GroupContent*& __cordl_internal_get__GroupDef();
+constexpr ::System::Xml::Schema::XdrBuilder_GroupContent*& __cordl_internal_get__GroupDef() ;
 
-  constexpr ::System::Xml::HWStack* const& __cordl_internal_get__GroupStack() const;
+constexpr ::System::Xml::HWStack* const& __cordl_internal_get__GroupStack() const;
 
-  constexpr ::System::Xml::HWStack*& __cordl_internal_get__GroupStack();
+constexpr ::System::Xml::HWStack*& __cordl_internal_get__GroupStack() ;
 
-  constexpr ::System::Xml::XmlNameTable* const& __cordl_internal_get__NameTable() const;
+constexpr ::System::Xml::XmlNameTable* const& __cordl_internal_get__NameTable() const;
 
-  constexpr ::System::Xml::XmlNameTable*& __cordl_internal_get__NameTable();
+constexpr ::System::Xml::XmlNameTable*& __cordl_internal_get__NameTable() ;
 
-  constexpr ::System::Xml::Schema::XdrBuilder_XdrEntry* const& __cordl_internal_get__NextState() const;
+constexpr ::System::Xml::Schema::XdrBuilder_XdrEntry* const& __cordl_internal_get__NextState() const;
 
-  constexpr ::System::Xml::Schema::XdrBuilder_XdrEntry*& __cordl_internal_get__NextState();
+constexpr ::System::Xml::Schema::XdrBuilder_XdrEntry*& __cordl_internal_get__NextState() ;
 
-  constexpr ::System::Xml::Schema::SchemaInfo* const& __cordl_internal_get__SchemaInfo() const;
+constexpr ::System::Xml::Schema::SchemaInfo* const& __cordl_internal_get__SchemaInfo() const;
 
-  constexpr ::System::Xml::Schema::SchemaInfo*& __cordl_internal_get__SchemaInfo();
+constexpr ::System::Xml::Schema::SchemaInfo*& __cordl_internal_get__SchemaInfo() ;
 
-  constexpr ::System::Xml::Schema::SchemaNames* const& __cordl_internal_get__SchemaNames() const;
+constexpr ::System::Xml::Schema::SchemaNames* const& __cordl_internal_get__SchemaNames() const;
 
-  constexpr ::System::Xml::Schema::SchemaNames*& __cordl_internal_get__SchemaNames();
+constexpr ::System::Xml::Schema::SchemaNames*& __cordl_internal_get__SchemaNames() ;
 
-  constexpr ::System::Xml::HWStack* const& __cordl_internal_get__StateHistory() const;
+constexpr ::System::Xml::HWStack* const& __cordl_internal_get__StateHistory() const;
 
-  constexpr ::System::Xml::HWStack*& __cordl_internal_get__StateHistory();
+constexpr ::System::Xml::HWStack*& __cordl_internal_get__StateHistory() ;
 
-  constexpr ::StringW const& __cordl_internal_get__TargetNamespace() const;
+constexpr ::StringW const& __cordl_internal_get__TargetNamespace() const;
 
-  constexpr ::StringW& __cordl_internal_get__TargetNamespace();
+constexpr ::StringW& __cordl_internal_get__TargetNamespace() ;
 
-  constexpr ::StringW const& __cordl_internal_get__Text() const;
+constexpr ::StringW const& __cordl_internal_get__Text() const;
 
-  constexpr ::StringW& __cordl_internal_get__Text();
+constexpr ::StringW& __cordl_internal_get__Text() ;
 
-  constexpr ::System::Collections::Hashtable* const& __cordl_internal_get__UndeclaredElements() const;
+constexpr ::System::Collections::Hashtable* const& __cordl_internal_get__UndeclaredElements() const;
 
-  constexpr ::System::Collections::Hashtable*& __cordl_internal_get__UndeclaredElements();
+constexpr ::System::Collections::Hashtable*& __cordl_internal_get__UndeclaredElements() ;
 
-  constexpr ::System::Xml::Schema::XdrBuilder_DeclBaseInfo* const& __cordl_internal_get__UndefinedAttributeTypes() const;
+constexpr ::System::Xml::Schema::XdrBuilder_DeclBaseInfo* const& __cordl_internal_get__UndefinedAttributeTypes() const;
 
-  constexpr ::System::Xml::Schema::XdrBuilder_DeclBaseInfo*& __cordl_internal_get__UndefinedAttributeTypes();
+constexpr ::System::Xml::Schema::XdrBuilder_DeclBaseInfo*& __cordl_internal_get__UndefinedAttributeTypes() ;
 
-  constexpr ::StringW const& __cordl_internal_get__XdrName() const;
+constexpr ::StringW const& __cordl_internal_get__XdrName() const;
 
-  constexpr ::StringW& __cordl_internal_get__XdrName();
+constexpr ::StringW& __cordl_internal_get__XdrName() ;
 
-  constexpr ::StringW const& __cordl_internal_get__XdrPrefix() const;
+constexpr ::StringW const& __cordl_internal_get__XdrPrefix() const;
 
-  constexpr ::StringW& __cordl_internal_get__XdrPrefix();
+constexpr ::StringW& __cordl_internal_get__XdrPrefix() ;
 
-  constexpr ::System::Xml::Schema::ParticleContentValidator* const& __cordl_internal_get__contentValidator() const;
+constexpr ::System::Xml::Schema::ParticleContentValidator* const& __cordl_internal_get__contentValidator() const;
 
-  constexpr ::System::Xml::Schema::ParticleContentValidator*& __cordl_internal_get__contentValidator();
+constexpr ::System::Xml::Schema::ParticleContentValidator*& __cordl_internal_get__contentValidator() ;
 
-  constexpr ::System::Xml::XmlReader* const& __cordl_internal_get__reader() const;
+constexpr ::System::Xml::XmlReader* const& __cordl_internal_get__reader() const;
 
-  constexpr ::System::Xml::XmlReader*& __cordl_internal_get__reader();
+constexpr ::System::Xml::XmlReader*& __cordl_internal_get__reader() ;
 
-  constexpr ::System::Xml::PositionInfo* const& __cordl_internal_get_positionInfo() const;
+constexpr ::System::Xml::PositionInfo* const& __cordl_internal_get_positionInfo() const;
 
-  constexpr ::System::Xml::PositionInfo*& __cordl_internal_get_positionInfo();
+constexpr ::System::Xml::PositionInfo*& __cordl_internal_get_positionInfo() ;
 
-  constexpr ::System::Xml::Schema::ValidationEventHandler* const& __cordl_internal_get_validationEventHandler() const;
+constexpr ::System::Xml::Schema::ValidationEventHandler* const& __cordl_internal_get_validationEventHandler() const;
 
-  constexpr ::System::Xml::Schema::ValidationEventHandler*& __cordl_internal_get_validationEventHandler();
+constexpr ::System::Xml::Schema::ValidationEventHandler*& __cordl_internal_get_validationEventHandler() ;
 
-  constexpr ::System::Xml::XmlResolver* const& __cordl_internal_get_xmlResolver() const;
+constexpr ::System::Xml::XmlResolver* const& __cordl_internal_get_xmlResolver() const;
 
-  constexpr ::System::Xml::XmlResolver*& __cordl_internal_get_xmlResolver();
+constexpr ::System::Xml::XmlResolver*& __cordl_internal_get_xmlResolver() ;
 
-  constexpr void __cordl_internal_set__AttributeDef(::System::Xml::Schema::XdrBuilder_AttributeContent* value);
+constexpr void __cordl_internal_set__AttributeDef(::System::Xml::Schema::XdrBuilder_AttributeContent*  value) ;
 
-  constexpr void __cordl_internal_set__BaseDecl(::System::Xml::Schema::XdrBuilder_DeclBaseInfo* value);
+constexpr void __cordl_internal_set__BaseDecl(::System::Xml::Schema::XdrBuilder_DeclBaseInfo*  value) ;
 
-  constexpr void __cordl_internal_set__CurNsMgr(::System::Xml::XmlNamespaceManager* value);
+constexpr void __cordl_internal_set__CurNsMgr(::System::Xml::XmlNamespaceManager*  value) ;
 
-  constexpr void __cordl_internal_set__CurState(::System::Xml::Schema::XdrBuilder_XdrEntry* value);
+constexpr void __cordl_internal_set__CurState(::System::Xml::Schema::XdrBuilder_XdrEntry*  value) ;
 
-  constexpr void __cordl_internal_set__ElementDef(::System::Xml::Schema::XdrBuilder_ElementContent* value);
+constexpr void __cordl_internal_set__ElementDef(::System::Xml::Schema::XdrBuilder_ElementContent*  value) ;
 
-  constexpr void __cordl_internal_set__GroupDef(::System::Xml::Schema::XdrBuilder_GroupContent* value);
+constexpr void __cordl_internal_set__GroupDef(::System::Xml::Schema::XdrBuilder_GroupContent*  value) ;
 
-  constexpr void __cordl_internal_set__GroupStack(::System::Xml::HWStack* value);
+constexpr void __cordl_internal_set__GroupStack(::System::Xml::HWStack*  value) ;
 
-  constexpr void __cordl_internal_set__NameTable(::System::Xml::XmlNameTable* value);
+constexpr void __cordl_internal_set__NameTable(::System::Xml::XmlNameTable*  value) ;
 
-  constexpr void __cordl_internal_set__NextState(::System::Xml::Schema::XdrBuilder_XdrEntry* value);
+constexpr void __cordl_internal_set__NextState(::System::Xml::Schema::XdrBuilder_XdrEntry*  value) ;
 
-  constexpr void __cordl_internal_set__SchemaInfo(::System::Xml::Schema::SchemaInfo* value);
+constexpr void __cordl_internal_set__SchemaInfo(::System::Xml::Schema::SchemaInfo*  value) ;
 
-  constexpr void __cordl_internal_set__SchemaNames(::System::Xml::Schema::SchemaNames* value);
+constexpr void __cordl_internal_set__SchemaNames(::System::Xml::Schema::SchemaNames*  value) ;
 
-  constexpr void __cordl_internal_set__StateHistory(::System::Xml::HWStack* value);
+constexpr void __cordl_internal_set__StateHistory(::System::Xml::HWStack*  value) ;
 
-  constexpr void __cordl_internal_set__TargetNamespace(::StringW value);
+constexpr void __cordl_internal_set__TargetNamespace(::StringW  value) ;
 
-  constexpr void __cordl_internal_set__Text(::StringW value);
+constexpr void __cordl_internal_set__Text(::StringW  value) ;
 
-  constexpr void __cordl_internal_set__UndeclaredElements(::System::Collections::Hashtable* value);
+constexpr void __cordl_internal_set__UndeclaredElements(::System::Collections::Hashtable*  value) ;
 
-  constexpr void __cordl_internal_set__UndefinedAttributeTypes(::System::Xml::Schema::XdrBuilder_DeclBaseInfo* value);
+constexpr void __cordl_internal_set__UndefinedAttributeTypes(::System::Xml::Schema::XdrBuilder_DeclBaseInfo*  value) ;
 
-  constexpr void __cordl_internal_set__XdrName(::StringW value);
+constexpr void __cordl_internal_set__XdrName(::StringW  value) ;
 
-  constexpr void __cordl_internal_set__XdrPrefix(::StringW value);
+constexpr void __cordl_internal_set__XdrPrefix(::StringW  value) ;
 
-  constexpr void __cordl_internal_set__contentValidator(::System::Xml::Schema::ParticleContentValidator* value);
+constexpr void __cordl_internal_set__contentValidator(::System::Xml::Schema::ParticleContentValidator*  value) ;
 
-  constexpr void __cordl_internal_set__reader(::System::Xml::XmlReader* value);
+constexpr void __cordl_internal_set__reader(::System::Xml::XmlReader*  value) ;
 
-  constexpr void __cordl_internal_set_positionInfo(::System::Xml::PositionInfo* value);
+constexpr void __cordl_internal_set_positionInfo(::System::Xml::PositionInfo*  value) ;
 
-  constexpr void __cordl_internal_set_validationEventHandler(::System::Xml::Schema::ValidationEventHandler* value);
+constexpr void __cordl_internal_set_validationEventHandler(::System::Xml::Schema::ValidationEventHandler*  value) ;
 
-  constexpr void __cordl_internal_set_xmlResolver(::System::Xml::XmlResolver* value);
+constexpr void __cordl_internal_set_xmlResolver(::System::Xml::XmlResolver*  value) ;
 
-  /// @brief Method .ctor, addr 0x60dccec, size 0x1e0, virtual false, abstract: false, final false
-  inline void _ctor(::System::Xml::XmlReader* reader, ::System::Xml::XmlNamespaceManager* curmgr, ::System::Xml::Schema::SchemaInfo* sinfo, ::StringW targetNamspace,
-                    ::System::Xml::XmlNameTable* nameTable, ::System::Xml::Schema::SchemaNames* schemaNames, ::System::Xml::Schema::ValidationEventHandler* eventhandler);
+/// @brief Method .ctor, addr 0x60de864, size 0x1e0, virtual false, abstract: false, final false
+inline void _ctor(::System::Xml::XmlReader*  reader, ::System::Xml::XmlNamespaceManager*  curmgr, ::System::Xml::Schema::SchemaInfo*  sinfo, ::StringW  targetNamspace, ::System::Xml::XmlNameTable*  nameTable, ::System::Xml::Schema::SchemaNames*  schemaNames, ::System::Xml::Schema::ValidationEventHandler*  eventhandler) ;
 
-  static inline ::ArrayW<::System::Xml::Schema::XdrBuilder_XdrEntry*, ::Array<::System::Xml::Schema::XdrBuilder_XdrEntry*>*> getStaticF_S_SchemaEntries();
+static inline ::ArrayW<::System::Xml::Schema::XdrBuilder_XdrEntry*,::Array<::System::Xml::Schema::XdrBuilder_XdrEntry*>*> getStaticF_S_SchemaEntries() ;
 
-  static inline ::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*, ::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*> getStaticF_S_XDR_AttributeDataType_Attributes();
+static inline ::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*,::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*> getStaticF_S_XDR_AttributeDataType_Attributes() ;
 
-  static inline ::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*, ::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*> getStaticF_S_XDR_AttributeType_Attributes();
+static inline ::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*,::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*> getStaticF_S_XDR_AttributeType_Attributes() ;
 
-  static inline ::ArrayW<int32_t, ::Array<int32_t>*> getStaticF_S_XDR_AttributeType_SubElements();
+static inline ::ArrayW<int32_t,::Array<int32_t>*> getStaticF_S_XDR_AttributeType_SubElements() ;
 
-  static inline ::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*, ::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*> getStaticF_S_XDR_Attribute_Attributes();
+static inline ::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*,::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*> getStaticF_S_XDR_Attribute_Attributes() ;
 
-  static inline ::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*, ::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*> getStaticF_S_XDR_ElementDataType_Attributes();
+static inline ::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*,::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*> getStaticF_S_XDR_ElementDataType_Attributes() ;
 
-  static inline ::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*, ::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*> getStaticF_S_XDR_ElementType_Attributes();
+static inline ::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*,::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*> getStaticF_S_XDR_ElementType_Attributes() ;
 
-  static inline ::ArrayW<int32_t, ::Array<int32_t>*> getStaticF_S_XDR_ElementType_SubElements();
+static inline ::ArrayW<int32_t,::Array<int32_t>*> getStaticF_S_XDR_ElementType_SubElements() ;
 
-  static inline ::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*, ::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*> getStaticF_S_XDR_Element_Attributes();
+static inline ::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*,::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*> getStaticF_S_XDR_Element_Attributes() ;
 
-  static inline ::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*, ::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*> getStaticF_S_XDR_Group_Attributes();
+static inline ::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*,::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*> getStaticF_S_XDR_Group_Attributes() ;
 
-  static inline ::ArrayW<int32_t, ::Array<int32_t>*> getStaticF_S_XDR_Group_SubElements();
+static inline ::ArrayW<int32_t,::Array<int32_t>*> getStaticF_S_XDR_Group_SubElements() ;
 
-  static inline ::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*, ::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*> getStaticF_S_XDR_Root_Attributes();
+static inline ::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*,::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*> getStaticF_S_XDR_Root_Attributes() ;
 
-  static inline ::ArrayW<int32_t, ::Array<int32_t>*> getStaticF_S_XDR_Root_Element();
+static inline ::ArrayW<int32_t,::Array<int32_t>*> getStaticF_S_XDR_Root_Element() ;
 
-  static inline ::ArrayW<int32_t, ::Array<int32_t>*> getStaticF_S_XDR_Root_SubElements();
+static inline ::ArrayW<int32_t,::Array<int32_t>*> getStaticF_S_XDR_Root_SubElements() ;
 
-  static inline void setStaticF_S_SchemaEntries(::ArrayW<::System::Xml::Schema::XdrBuilder_XdrEntry*, ::Array<::System::Xml::Schema::XdrBuilder_XdrEntry*>*> value);
+static inline void setStaticF_S_SchemaEntries(::ArrayW<::System::Xml::Schema::XdrBuilder_XdrEntry*,::Array<::System::Xml::Schema::XdrBuilder_XdrEntry*>*>  value) ;
 
-  static inline void
-  setStaticF_S_XDR_AttributeDataType_Attributes(::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*, ::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*> value);
+static inline void setStaticF_S_XDR_AttributeDataType_Attributes(::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*,::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*>  value) ;
 
-  static inline void setStaticF_S_XDR_AttributeType_Attributes(::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*, ::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*> value);
+static inline void setStaticF_S_XDR_AttributeType_Attributes(::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*,::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*>  value) ;
 
-  static inline void setStaticF_S_XDR_AttributeType_SubElements(::ArrayW<int32_t, ::Array<int32_t>*> value);
+static inline void setStaticF_S_XDR_AttributeType_SubElements(::ArrayW<int32_t,::Array<int32_t>*>  value) ;
 
-  static inline void setStaticF_S_XDR_Attribute_Attributes(::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*, ::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*> value);
+static inline void setStaticF_S_XDR_Attribute_Attributes(::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*,::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*>  value) ;
 
-  static inline void setStaticF_S_XDR_ElementDataType_Attributes(::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*, ::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*> value);
+static inline void setStaticF_S_XDR_ElementDataType_Attributes(::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*,::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*>  value) ;
 
-  static inline void setStaticF_S_XDR_ElementType_Attributes(::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*, ::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*> value);
+static inline void setStaticF_S_XDR_ElementType_Attributes(::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*,::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*>  value) ;
 
-  static inline void setStaticF_S_XDR_ElementType_SubElements(::ArrayW<int32_t, ::Array<int32_t>*> value);
+static inline void setStaticF_S_XDR_ElementType_SubElements(::ArrayW<int32_t,::Array<int32_t>*>  value) ;
 
-  static inline void setStaticF_S_XDR_Element_Attributes(::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*, ::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*> value);
+static inline void setStaticF_S_XDR_Element_Attributes(::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*,::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*>  value) ;
 
-  static inline void setStaticF_S_XDR_Group_Attributes(::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*, ::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*> value);
+static inline void setStaticF_S_XDR_Group_Attributes(::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*,::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*>  value) ;
 
-  static inline void setStaticF_S_XDR_Group_SubElements(::ArrayW<int32_t, ::Array<int32_t>*> value);
+static inline void setStaticF_S_XDR_Group_SubElements(::ArrayW<int32_t,::Array<int32_t>*>  value) ;
 
-  static inline void setStaticF_S_XDR_Root_Attributes(::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*, ::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*> value);
+static inline void setStaticF_S_XDR_Root_Attributes(::ArrayW<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*,::Array<::System::Xml::Schema::XdrBuilder_XdrAttributeEntry*>*>  value) ;
 
-  static inline void setStaticF_S_XDR_Root_Element(::ArrayW<int32_t, ::Array<int32_t>*> value);
+static inline void setStaticF_S_XDR_Root_Element(::ArrayW<int32_t,::Array<int32_t>*>  value) ;
 
-  static inline void setStaticF_S_XDR_Root_SubElements(::ArrayW<int32_t, ::Array<int32_t>*> value);
+static inline void setStaticF_S_XDR_Root_SubElements(::ArrayW<int32_t,::Array<int32_t>*>  value) ;
 
-  /// @brief Method set_XmlResolver, addr 0x60ddfa4, size 0x8, virtual false, abstract: false, final false
-  inline void set_XmlResolver(::System::Xml::XmlResolver* value);
+/// @brief Method set_XmlResolver, addr 0x60dfb1c, size 0x8, virtual false, abstract: false, final false
+inline void set_XmlResolver(::System::Xml::XmlResolver*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr XdrBuilder();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr XdrBuilder() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XdrBuilder", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  XdrBuilder(XdrBuilder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XdrBuilder", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  XdrBuilder(XdrBuilder const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "XdrBuilder", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+XdrBuilder(XdrBuilder && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9722 };
+// Ctor Parameters [CppParam { name: "", ty: "XdrBuilder", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+XdrBuilder(XdrBuilder const& ) = delete;
 
-  /// @brief Field _SchemaInfo, offset: 0x10, size: 0x8, def value: None
-  ::System::Xml::Schema::SchemaInfo* ____SchemaInfo;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9723};
 
-  /// @brief Field _TargetNamespace, offset: 0x18, size: 0x8, def value: None
-  ::StringW ____TargetNamespace;
+/// @brief Field _SchemaInfo, offset: 0x10, size: 0x8, def value: None
+ ::System::Xml::Schema::SchemaInfo*  ____SchemaInfo;
 
-  /// @brief Field _reader, offset: 0x20, size: 0x8, def value: None
-  ::System::Xml::XmlReader* ____reader;
+/// @brief Field _TargetNamespace, offset: 0x18, size: 0x8, def value: None
+ ::StringW  ____TargetNamespace;
 
-  /// @brief Field positionInfo, offset: 0x28, size: 0x8, def value: None
-  ::System::Xml::PositionInfo* ___positionInfo;
+/// @brief Field _reader, offset: 0x20, size: 0x8, def value: None
+ ::System::Xml::XmlReader*  ____reader;
 
-  /// @brief Field _contentValidator, offset: 0x30, size: 0x8, def value: None
-  ::System::Xml::Schema::ParticleContentValidator* ____contentValidator;
+/// @brief Field positionInfo, offset: 0x28, size: 0x8, def value: None
+ ::System::Xml::PositionInfo*  ___positionInfo;
 
-  /// @brief Field _CurState, offset: 0x38, size: 0x8, def value: None
-  ::System::Xml::Schema::XdrBuilder_XdrEntry* ____CurState;
+/// @brief Field _contentValidator, offset: 0x30, size: 0x8, def value: None
+ ::System::Xml::Schema::ParticleContentValidator*  ____contentValidator;
 
-  /// @brief Field _NextState, offset: 0x40, size: 0x8, def value: None
-  ::System::Xml::Schema::XdrBuilder_XdrEntry* ____NextState;
+/// @brief Field _CurState, offset: 0x38, size: 0x8, def value: None
+ ::System::Xml::Schema::XdrBuilder_XdrEntry*  ____CurState;
 
-  /// @brief Field _StateHistory, offset: 0x48, size: 0x8, def value: None
-  ::System::Xml::HWStack* ____StateHistory;
+/// @brief Field _NextState, offset: 0x40, size: 0x8, def value: None
+ ::System::Xml::Schema::XdrBuilder_XdrEntry*  ____NextState;
 
-  /// @brief Field _GroupStack, offset: 0x50, size: 0x8, def value: None
-  ::System::Xml::HWStack* ____GroupStack;
+/// @brief Field _StateHistory, offset: 0x48, size: 0x8, def value: None
+ ::System::Xml::HWStack*  ____StateHistory;
 
-  /// @brief Field _XdrName, offset: 0x58, size: 0x8, def value: None
-  ::StringW ____XdrName;
+/// @brief Field _GroupStack, offset: 0x50, size: 0x8, def value: None
+ ::System::Xml::HWStack*  ____GroupStack;
 
-  /// @brief Field _XdrPrefix, offset: 0x60, size: 0x8, def value: None
-  ::StringW ____XdrPrefix;
+/// @brief Field _XdrName, offset: 0x58, size: 0x8, def value: None
+ ::StringW  ____XdrName;
 
-  /// @brief Field _ElementDef, offset: 0x68, size: 0x8, def value: None
-  ::System::Xml::Schema::XdrBuilder_ElementContent* ____ElementDef;
+/// @brief Field _XdrPrefix, offset: 0x60, size: 0x8, def value: None
+ ::StringW  ____XdrPrefix;
 
-  /// @brief Field _GroupDef, offset: 0x70, size: 0x8, def value: None
-  ::System::Xml::Schema::XdrBuilder_GroupContent* ____GroupDef;
+/// @brief Field _ElementDef, offset: 0x68, size: 0x8, def value: None
+ ::System::Xml::Schema::XdrBuilder_ElementContent*  ____ElementDef;
 
-  /// @brief Field _AttributeDef, offset: 0x78, size: 0x8, def value: None
-  ::System::Xml::Schema::XdrBuilder_AttributeContent* ____AttributeDef;
+/// @brief Field _GroupDef, offset: 0x70, size: 0x8, def value: None
+ ::System::Xml::Schema::XdrBuilder_GroupContent*  ____GroupDef;
 
-  /// @brief Field _UndefinedAttributeTypes, offset: 0x80, size: 0x8, def value: None
-  ::System::Xml::Schema::XdrBuilder_DeclBaseInfo* ____UndefinedAttributeTypes;
+/// @brief Field _AttributeDef, offset: 0x78, size: 0x8, def value: None
+ ::System::Xml::Schema::XdrBuilder_AttributeContent*  ____AttributeDef;
 
-  /// @brief Field _BaseDecl, offset: 0x88, size: 0x8, def value: None
-  ::System::Xml::Schema::XdrBuilder_DeclBaseInfo* ____BaseDecl;
+/// @brief Field _UndefinedAttributeTypes, offset: 0x80, size: 0x8, def value: None
+ ::System::Xml::Schema::XdrBuilder_DeclBaseInfo*  ____UndefinedAttributeTypes;
 
-  /// @brief Field _NameTable, offset: 0x90, size: 0x8, def value: None
-  ::System::Xml::XmlNameTable* ____NameTable;
+/// @brief Field _BaseDecl, offset: 0x88, size: 0x8, def value: None
+ ::System::Xml::Schema::XdrBuilder_DeclBaseInfo*  ____BaseDecl;
 
-  /// @brief Field _SchemaNames, offset: 0x98, size: 0x8, def value: None
-  ::System::Xml::Schema::SchemaNames* ____SchemaNames;
+/// @brief Field _NameTable, offset: 0x90, size: 0x8, def value: None
+ ::System::Xml::XmlNameTable*  ____NameTable;
 
-  /// @brief Field _CurNsMgr, offset: 0xa0, size: 0x8, def value: None
-  ::System::Xml::XmlNamespaceManager* ____CurNsMgr;
+/// @brief Field _SchemaNames, offset: 0x98, size: 0x8, def value: None
+ ::System::Xml::Schema::SchemaNames*  ____SchemaNames;
 
-  /// @brief Field _Text, offset: 0xa8, size: 0x8, def value: None
-  ::StringW ____Text;
+/// @brief Field _CurNsMgr, offset: 0xa0, size: 0x8, def value: None
+ ::System::Xml::XmlNamespaceManager*  ____CurNsMgr;
 
-  /// @brief Field validationEventHandler, offset: 0xb0, size: 0x8, def value: None
-  ::System::Xml::Schema::ValidationEventHandler* ___validationEventHandler;
+/// @brief Field _Text, offset: 0xa8, size: 0x8, def value: None
+ ::StringW  ____Text;
 
-  /// @brief Field _UndeclaredElements, offset: 0xb8, size: 0x8, def value: None
-  ::System::Collections::Hashtable* ____UndeclaredElements;
+/// @brief Field validationEventHandler, offset: 0xb0, size: 0x8, def value: None
+ ::System::Xml::Schema::ValidationEventHandler*  ___validationEventHandler;
 
-  /// @brief Field xmlResolver, offset: 0xc0, size: 0x8, def value: None
-  ::System::Xml::XmlResolver* ___xmlResolver;
+/// @brief Field _UndeclaredElements, offset: 0xb8, size: 0x8, def value: None
+ ::System::Collections::Hashtable*  ____UndeclaredElements;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field xmlResolver, offset: 0xc0, size: 0x8, def value: None
+ ::System::Xml::XmlResolver*  ___xmlResolver;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Xml::Schema::XdrBuilder, ____SchemaInfo) == 0x10, "Offset mismatch!");
@@ -2046,7 +2012,7 @@ static_assert(offsetof(::System::Xml::Schema::XdrBuilder, ___xmlResolver) == 0xc
 
 static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::XdrBuilder, 0xc8>, "Size mismatch!");
 
-} // namespace System::Xml::Schema
+} // namespace end def System::Xml::Schema
 NEED_NO_BOX(::System::Xml::Schema::XdrBuilder);
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::XdrBuilder*, "System.Xml.Schema", "XdrBuilder");
 NEED_NO_BOX(::System::Xml::Schema::XdrBuilder_AttributeContent);

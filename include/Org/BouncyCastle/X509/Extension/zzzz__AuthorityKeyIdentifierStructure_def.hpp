@@ -29,50 +29,50 @@ namespace Org::BouncyCastle::X509::Extension {
 // CS Name: Org.BouncyCastle.X509.Extension.AuthorityKeyIdentifierStructure
 class CORDL_TYPE AuthorityKeyIdentifierStructure : public ::Org::BouncyCastle::Asn1::X509::AuthorityKeyIdentifier {
 public:
-  // Declarations
-  /// @brief Method FromCertificate, addr 0x357f9c8, size 0x404, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::Asn1Sequence* FromCertificate(::Org::BouncyCastle::X509::X509Certificate* certificate);
+// Declarations
+/// @brief Method FromCertificate, addr 0x3580764, size 0x404, virtual false, abstract: false, final false
+static inline ::Org::BouncyCastle::Asn1::Asn1Sequence* FromCertificate(::Org::BouncyCastle::X509::X509Certificate*  certificate) ;
 
-  /// @brief Method FromKey, addr 0x357fdcc, size 0x1a4, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::Asn1Sequence* FromKey(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* pubKey);
+/// @brief Method FromKey, addr 0x3580b68, size 0x1a4, virtual false, abstract: false, final false
+static inline ::Org::BouncyCastle::Asn1::Asn1Sequence* FromKey(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*  pubKey) ;
 
-  static inline ::Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure* New_ctor(::Org::BouncyCastle::X509::X509Certificate* certificate);
+static inline ::Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure* New_ctor(::Org::BouncyCastle::X509::X509Certificate*  certificate) ;
 
-  static inline ::Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure* New_ctor(::Org::BouncyCastle::Asn1::Asn1OctetString* encodedValue);
+static inline ::Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure* New_ctor(::Org::BouncyCastle::Asn1::Asn1OctetString*  encodedValue) ;
 
-  static inline ::Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure* New_ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* pubKey);
+static inline ::Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure* New_ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*  pubKey) ;
 
-  /// @brief Method .ctor, addr 0x357ff70, size 0x24, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::X509::X509Certificate* certificate);
+/// @brief Method .ctor, addr 0x3580d0c, size 0x24, virtual false, abstract: false, final false
+inline void _ctor(::Org::BouncyCastle::X509::X509Certificate*  certificate) ;
 
-  /// @brief Method .ctor, addr 0x357f904, size 0xa0, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Asn1::Asn1OctetString* encodedValue);
+/// @brief Method .ctor, addr 0x35806a0, size 0xa0, virtual false, abstract: false, final false
+inline void _ctor(::Org::BouncyCastle::Asn1::Asn1OctetString*  encodedValue) ;
 
-  /// @brief Method .ctor, addr 0x357ff94, size 0x24, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* pubKey);
+/// @brief Method .ctor, addr 0x3580d30, size 0x24, virtual false, abstract: false, final false
+inline void _ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*  pubKey) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AuthorityKeyIdentifierStructure();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr AuthorityKeyIdentifierStructure() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AuthorityKeyIdentifierStructure", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  AuthorityKeyIdentifierStructure(AuthorityKeyIdentifierStructure&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AuthorityKeyIdentifierStructure", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  AuthorityKeyIdentifierStructure(AuthorityKeyIdentifierStructure const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "AuthorityKeyIdentifierStructure", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+AuthorityKeyIdentifierStructure(AuthorityKeyIdentifierStructure && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1839 };
+// Ctor Parameters [CppParam { name: "", ty: "AuthorityKeyIdentifierStructure", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+AuthorityKeyIdentifierStructure(AuthorityKeyIdentifierStructure const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{1839};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure, 0x28>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::X509::Extension
+} // namespace end def Org::BouncyCastle::X509::Extension
 NEED_NO_BOX(::Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure*, "Org.BouncyCastle.X509.Extension", "AuthorityKeyIdentifierStructure");

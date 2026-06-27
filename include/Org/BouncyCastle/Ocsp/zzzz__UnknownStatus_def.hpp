@@ -17,34 +17,34 @@ namespace Org::BouncyCastle::Ocsp {
 // CS Name: Org.BouncyCastle.Ocsp.UnknownStatus
 class CORDL_TYPE UnknownStatus : public ::Org::BouncyCastle::Ocsp::CertificateStatus {
 public:
-  // Declarations
-  static inline ::Org::BouncyCastle::Ocsp::UnknownStatus* New_ctor();
+// Declarations
+static inline ::Org::BouncyCastle::Ocsp::UnknownStatus* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x34bbb00, size 0x58, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x34bc89c, size 0x58, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr UnknownStatus();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr UnknownStatus() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UnknownStatus", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  UnknownStatus(UnknownStatus&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UnknownStatus", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  UnknownStatus(UnknownStatus const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "UnknownStatus", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+UnknownStatus(UnknownStatus && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1626 };
+// Ctor Parameters [CppParam { name: "", ty: "UnknownStatus", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+UnknownStatus(UnknownStatus const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{1626};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Ocsp::UnknownStatus, 0x10>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Ocsp
+} // namespace end def Org::BouncyCastle::Ocsp
 NEED_NO_BOX(::Org::BouncyCastle::Ocsp::UnknownStatus);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Ocsp::UnknownStatus*, "Org.BouncyCastle.Ocsp", "UnknownStatus");

@@ -13,737 +13,849 @@
 #include "UnityEngine/zzzz__Shader_def.hpp"
 #include "UnityEngine/zzzz__Vector4_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::OVRVignette_MeshComplexityLevel::OVRVignette_MeshComplexityLevel(int32_t value__) noexcept {
-  this->value__ = value__;
+constexpr ::GlobalNamespace::OVRVignette_MeshComplexityLevel::OVRVignette_MeshComplexityLevel(int32_t  value__) noexcept  {
+this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::OVRVignette_MeshComplexityLevel::OVRVignette_MeshComplexityLevel() {}
-constexpr ::GlobalNamespace::OVRVignette_MeshComplexityLevel GlobalNamespace::OVRVignette_MeshComplexityLevel::VerySimple{ static_cast<int32_t>(0x0) };
-constexpr ::GlobalNamespace::OVRVignette_MeshComplexityLevel GlobalNamespace::OVRVignette_MeshComplexityLevel::Simple{ static_cast<int32_t>(0x1) };
-constexpr ::GlobalNamespace::OVRVignette_MeshComplexityLevel GlobalNamespace::OVRVignette_MeshComplexityLevel::Normal{ static_cast<int32_t>(0x2) };
-constexpr ::GlobalNamespace::OVRVignette_MeshComplexityLevel GlobalNamespace::OVRVignette_MeshComplexityLevel::Detailed{ static_cast<int32_t>(0x3) };
-constexpr ::GlobalNamespace::OVRVignette_MeshComplexityLevel GlobalNamespace::OVRVignette_MeshComplexityLevel::VeryDetailed{ static_cast<int32_t>(0x4) };
+constexpr ::GlobalNamespace::OVRVignette_MeshComplexityLevel::OVRVignette_MeshComplexityLevel()   {
+}
+constexpr ::GlobalNamespace::OVRVignette_MeshComplexityLevel  GlobalNamespace::OVRVignette_MeshComplexityLevel::VerySimple{static_cast<int32_t>(0x0)};
+constexpr ::GlobalNamespace::OVRVignette_MeshComplexityLevel  GlobalNamespace::OVRVignette_MeshComplexityLevel::Simple{static_cast<int32_t>(0x1)};
+constexpr ::GlobalNamespace::OVRVignette_MeshComplexityLevel  GlobalNamespace::OVRVignette_MeshComplexityLevel::Normal{static_cast<int32_t>(0x2)};
+constexpr ::GlobalNamespace::OVRVignette_MeshComplexityLevel  GlobalNamespace::OVRVignette_MeshComplexityLevel::Detailed{static_cast<int32_t>(0x3)};
+constexpr ::GlobalNamespace::OVRVignette_MeshComplexityLevel  GlobalNamespace::OVRVignette_MeshComplexityLevel::VeryDetailed{static_cast<int32_t>(0x4)};
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::OVRVignette_FalloffType::OVRVignette_FalloffType(int32_t value__) noexcept {
-  this->value__ = value__;
+constexpr ::GlobalNamespace::OVRVignette_FalloffType::OVRVignette_FalloffType(int32_t  value__) noexcept  {
+this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::OVRVignette_FalloffType::OVRVignette_FalloffType() {}
-constexpr ::GlobalNamespace::OVRVignette_FalloffType GlobalNamespace::OVRVignette_FalloffType::Linear{ static_cast<int32_t>(0x0) };
-constexpr ::GlobalNamespace::OVRVignette_FalloffType GlobalNamespace::OVRVignette_FalloffType::Quadratic{ static_cast<int32_t>(0x1) };
+constexpr ::GlobalNamespace::OVRVignette_FalloffType::OVRVignette_FalloffType()   {
+}
+constexpr ::GlobalNamespace::OVRVignette_FalloffType  GlobalNamespace::OVRVignette_FalloffType::Linear{static_cast<int32_t>(0x0)};
+constexpr ::GlobalNamespace::OVRVignette_FalloffType  GlobalNamespace::OVRVignette_FalloffType::Quadratic{static_cast<int32_t>(0x1)};
 //  Writing Method size for method: ::GlobalNamespace::OVRVignette.GetTriangleCount
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::OVRVignette::*)()>(&::GlobalNamespace::OVRVignette::GetTriangleCount)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5dda548;
+  constexpr static std::size_t addrs = 0x5ddc0c0;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRVignette*>::get(), "GetTriangleCount",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRVignette*>::get(),
+                        "GetTriangleCount",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVRVignette.BuildMeshes
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRVignette::*)()>(&::GlobalNamespace::OVRVignette::BuildMeshes)> {
   constexpr static std::size_t size = 0x708;
-  constexpr static std::size_t addrs = 0x5dda56c;
+  constexpr static std::size_t addrs = 0x5ddc0e4;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRVignette*>::get(), "BuildMeshes",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRVignette*>::get(),
+                        "BuildMeshes",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVRVignette.BuildMaterials
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRVignette::*)()>(&::GlobalNamespace::OVRVignette::BuildMaterials)> {
   constexpr static std::size_t size = 0x400;
-  constexpr static std::size_t addrs = 0x5ddac74;
+  constexpr static std::size_t addrs = 0x5ddc7ec;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRVignette*>::get(), "BuildMaterials",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRVignette*>::get(),
+                        "BuildMaterials",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVRVignette.OnEnable
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRVignette::*)()>(&::GlobalNamespace::OVRVignette::OnEnable)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x5ddb074;
+  constexpr static std::size_t addrs = 0x5ddcbec;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRVignette*>::get(), "OnEnable",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRVignette*>::get(),
+                        "OnEnable",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVRVignette.OnDisable
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRVignette::*)()>(&::GlobalNamespace::OVRVignette::OnDisable)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x5ddb11c;
+  constexpr static std::size_t addrs = 0x5ddcc94;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRVignette*>::get(), "OnDisable",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRVignette*>::get(),
+                        "OnDisable",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVRVignette.Awake
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRVignette::*)()>(&::GlobalNamespace::OVRVignette::Awake)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5ddb294;
+  constexpr static std::size_t addrs = 0x5ddce0c;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRVignette*>::get(), "Awake",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRVignette*>::get(),
+                        "Awake",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVRVignette.Initialize
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRVignette::*)()>(&::GlobalNamespace::OVRVignette::Initialize)> {
   constexpr static std::size_t size = 0x440;
-  constexpr static std::size_t addrs = 0x5ddb298;
+  constexpr static std::size_t addrs = 0x5ddce10;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRVignette*>::get(), "Initialize",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRVignette*>::get(),
+                        "Initialize",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVRVignette.GetTanFovAndOffsetForStereoEye
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRVignette::*)(
-    ::UnityEngine::Camera_StereoscopicEye, ::ByRef<float_t>, ::ByRef<float_t>, ::ByRef<float_t>, ::ByRef<float_t>)>(&::GlobalNamespace::OVRVignette::GetTanFovAndOffsetForStereoEye)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRVignette::*)(::UnityEngine::Camera_StereoscopicEye, ::ByRef<float_t>, ::ByRef<float_t>, ::ByRef<float_t>, ::ByRef<float_t>)>(&::GlobalNamespace::OVRVignette::GetTanFovAndOffsetForStereoEye)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x5ddb6d8;
+  constexpr static std::size_t addrs = 0x5ddd250;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRVignette*>::get(), "GetTanFovAndOffsetForStereoEye", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 5>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Camera_StereoscopicEye>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<float_t>>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<float_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<float_t>>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<float_t>>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRVignette*>::get(),
+                        "GetTanFovAndOffsetForStereoEye",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 5>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Camera_StereoscopicEye>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<float_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<float_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<float_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<float_t>>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVRVignette.GetTanFovAndOffsetForMonoEye
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRVignette::*)(::ByRef<float_t>, ::ByRef<float_t>, ::ByRef<float_t>, ::ByRef<float_t>)>(
-    &::GlobalNamespace::OVRVignette::GetTanFovAndOffsetForMonoEye)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRVignette::*)(::ByRef<float_t>, ::ByRef<float_t>, ::ByRef<float_t>, ::ByRef<float_t>)>(&::GlobalNamespace::OVRVignette::GetTanFovAndOffsetForMonoEye)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x5ddb868;
+  constexpr static std::size_t addrs = 0x5ddd3e0;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRVignette*>::get(), "GetTanFovAndOffsetForMonoEye", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 4>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<float_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<float_t>>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<float_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<float_t>>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRVignette*>::get(),
+                        "GetTanFovAndOffsetForMonoEye",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<float_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<float_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<float_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<float_t>>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVRVignette.VisibilityTest
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRVignette::*)(float_t, float_t, float_t, float_t)>(
-    &::GlobalNamespace::OVRVignette::VisibilityTest)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRVignette::*)(float_t, float_t, float_t, float_t)>(&::GlobalNamespace::OVRVignette::VisibilityTest)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x5ddb8f4;
+  constexpr static std::size_t addrs = 0x5ddd46c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRVignette*>::get(), "VisibilityTest", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRVignette*>::get(),
+                        "VisibilityTest",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVRVignette.Update
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRVignette::*)()>(&::GlobalNamespace::OVRVignette::Update)> {
   constexpr static std::size_t size = 0x47c;
-  constexpr static std::size_t addrs = 0x5ddb928;
+  constexpr static std::size_t addrs = 0x5ddd4a0;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRVignette*>::get(), "Update",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRVignette*>::get(),
+                        "Update",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVRVignette.EnableRenderers
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRVignette::*)()>(&::GlobalNamespace::OVRVignette::EnableRenderers)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5ddbda4;
+  constexpr static std::size_t addrs = 0x5ddd91c;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRVignette*>::get(), "EnableRenderers",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRVignette*>::get(),
+                        "EnableRenderers",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVRVignette.DisableRenderers
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRVignette::*)()>(&::GlobalNamespace::OVRVignette::DisableRenderers)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x5ddb1cc;
+  constexpr static std::size_t addrs = 0x5ddcd44;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRVignette*>::get(), "DisableRenderers",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRVignette*>::get(),
+                        "DisableRenderers",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVRVignette.OnPreCull
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRVignette::*)()>(&::GlobalNamespace::OVRVignette::OnPreCull)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5ddbde0;
+  constexpr static std::size_t addrs = 0x5ddd958;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRVignette*>::get(), "OnPreCull",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRVignette*>::get(),
+                        "OnPreCull",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVRVignette.OnPostRender
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRVignette::*)()>(&::GlobalNamespace::OVRVignette::OnPostRender)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5ddbde4;
+  constexpr static std::size_t addrs = 0x5ddd95c;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRVignette*>::get(), "OnPostRender",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRVignette*>::get(),
+                        "OnPostRender",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVRVignette.OnBeginCameraRendering
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRVignette::*)(::UnityEngine::Rendering::ScriptableRenderContext, ::UnityEngine::Camera*)>(
-    &::GlobalNamespace::OVRVignette::OnBeginCameraRendering)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRVignette::*)(::UnityEngine::Rendering::ScriptableRenderContext, ::UnityEngine::Camera*)>(&::GlobalNamespace::OVRVignette::OnBeginCameraRendering)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x5ddbde8;
+  constexpr static std::size_t addrs = 0x5ddd960;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRVignette*>::get(), "OnBeginCameraRendering", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::ScriptableRenderContext>::get(),
-                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Camera*>::get() })));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRVignette*>::get(),
+                        "OnBeginCameraRendering",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::ScriptableRenderContext>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Camera*>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVRVignette._ctor
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRVignette::*)()>(&::GlobalNamespace::OVRVignette::_ctor)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x5ddbe78;
+  constexpr static std::size_t addrs = 0x5ddd9f0;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRVignette*>::get(), ".ctor",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRVignette*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
-constexpr ::UnityW<::UnityEngine::Shader>& GlobalNamespace::OVRVignette::__cordl_internal_get_VignetteShader() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___VignetteShader;
+constexpr ::UnityW<::UnityEngine::Shader>& GlobalNamespace::OVRVignette::__cordl_internal_get_VignetteShader()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___VignetteShader;
 }
 constexpr ::UnityW<::UnityEngine::Shader> const& GlobalNamespace::OVRVignette::__cordl_internal_get_VignetteShader() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___VignetteShader;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___VignetteShader;
 }
-constexpr void GlobalNamespace::OVRVignette::__cordl_internal_set_VignetteShader(::UnityW<::UnityEngine::Shader> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___VignetteShader)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::OVRVignette::__cordl_internal_set_VignetteShader(::UnityW<::UnityEngine::Shader>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___VignetteShader)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::OVRVignette_MeshComplexityLevel& GlobalNamespace::OVRVignette::__cordl_internal_get_MeshComplexity() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___MeshComplexity;
+constexpr ::GlobalNamespace::OVRVignette_MeshComplexityLevel& GlobalNamespace::OVRVignette::__cordl_internal_get_MeshComplexity()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___MeshComplexity;
 }
 constexpr ::GlobalNamespace::OVRVignette_MeshComplexityLevel const& GlobalNamespace::OVRVignette::__cordl_internal_get_MeshComplexity() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___MeshComplexity;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___MeshComplexity;
 }
-constexpr void GlobalNamespace::OVRVignette::__cordl_internal_set_MeshComplexity(::GlobalNamespace::OVRVignette_MeshComplexityLevel value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___MeshComplexity = value;
+constexpr void GlobalNamespace::OVRVignette::__cordl_internal_set_MeshComplexity(::GlobalNamespace::OVRVignette_MeshComplexityLevel  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___MeshComplexity = value;
 }
-constexpr ::GlobalNamespace::OVRVignette_FalloffType& GlobalNamespace::OVRVignette::__cordl_internal_get_Falloff() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___Falloff;
+constexpr ::GlobalNamespace::OVRVignette_FalloffType& GlobalNamespace::OVRVignette::__cordl_internal_get_Falloff()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___Falloff;
 }
 constexpr ::GlobalNamespace::OVRVignette_FalloffType const& GlobalNamespace::OVRVignette::__cordl_internal_get_Falloff() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___Falloff;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___Falloff;
 }
-constexpr void GlobalNamespace::OVRVignette::__cordl_internal_set_Falloff(::GlobalNamespace::OVRVignette_FalloffType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___Falloff = value;
+constexpr void GlobalNamespace::OVRVignette::__cordl_internal_set_Falloff(::GlobalNamespace::OVRVignette_FalloffType  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___Falloff = value;
 }
-constexpr float_t& GlobalNamespace::OVRVignette::__cordl_internal_get_VignetteFieldOfView() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___VignetteFieldOfView;
+constexpr float_t& GlobalNamespace::OVRVignette::__cordl_internal_get_VignetteFieldOfView()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___VignetteFieldOfView;
 }
 constexpr float_t const& GlobalNamespace::OVRVignette::__cordl_internal_get_VignetteFieldOfView() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___VignetteFieldOfView;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___VignetteFieldOfView;
 }
-constexpr void GlobalNamespace::OVRVignette::__cordl_internal_set_VignetteFieldOfView(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___VignetteFieldOfView = value;
+constexpr void GlobalNamespace::OVRVignette::__cordl_internal_set_VignetteFieldOfView(float_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___VignetteFieldOfView = value;
 }
-constexpr float_t& GlobalNamespace::OVRVignette::__cordl_internal_get_VignetteAspectRatio() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___VignetteAspectRatio;
+constexpr float_t& GlobalNamespace::OVRVignette::__cordl_internal_get_VignetteAspectRatio()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___VignetteAspectRatio;
 }
 constexpr float_t const& GlobalNamespace::OVRVignette::__cordl_internal_get_VignetteAspectRatio() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___VignetteAspectRatio;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___VignetteAspectRatio;
 }
-constexpr void GlobalNamespace::OVRVignette::__cordl_internal_set_VignetteAspectRatio(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___VignetteAspectRatio = value;
+constexpr void GlobalNamespace::OVRVignette::__cordl_internal_set_VignetteAspectRatio(float_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___VignetteAspectRatio = value;
 }
-constexpr float_t& GlobalNamespace::OVRVignette::__cordl_internal_get_VignetteFalloffDegrees() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___VignetteFalloffDegrees;
+constexpr float_t& GlobalNamespace::OVRVignette::__cordl_internal_get_VignetteFalloffDegrees()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___VignetteFalloffDegrees;
 }
 constexpr float_t const& GlobalNamespace::OVRVignette::__cordl_internal_get_VignetteFalloffDegrees() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___VignetteFalloffDegrees;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___VignetteFalloffDegrees;
 }
-constexpr void GlobalNamespace::OVRVignette::__cordl_internal_set_VignetteFalloffDegrees(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___VignetteFalloffDegrees = value;
+constexpr void GlobalNamespace::OVRVignette::__cordl_internal_set_VignetteFalloffDegrees(float_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___VignetteFalloffDegrees = value;
 }
-constexpr ::UnityEngine::Color& GlobalNamespace::OVRVignette::__cordl_internal_get_VignetteColor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___VignetteColor;
+constexpr ::UnityEngine::Color& GlobalNamespace::OVRVignette::__cordl_internal_get_VignetteColor()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___VignetteColor;
 }
 constexpr ::UnityEngine::Color const& GlobalNamespace::OVRVignette::__cordl_internal_get_VignetteColor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___VignetteColor;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___VignetteColor;
 }
-constexpr void GlobalNamespace::OVRVignette::__cordl_internal_set_VignetteColor(::UnityEngine::Color value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___VignetteColor = value;
+constexpr void GlobalNamespace::OVRVignette::__cordl_internal_set_VignetteColor(::UnityEngine::Color  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___VignetteColor = value;
 }
-constexpr bool& GlobalNamespace::OVRVignette::__cordl_internal_get_WriteStencil() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___WriteStencil;
+constexpr bool& GlobalNamespace::OVRVignette::__cordl_internal_get_WriteStencil()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___WriteStencil;
 }
 constexpr bool const& GlobalNamespace::OVRVignette::__cordl_internal_get_WriteStencil() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___WriteStencil;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___WriteStencil;
 }
-constexpr void GlobalNamespace::OVRVignette::__cordl_internal_set_WriteStencil(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___WriteStencil = value;
+constexpr void GlobalNamespace::OVRVignette::__cordl_internal_set_WriteStencil(bool  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___WriteStencil = value;
 }
-constexpr int32_t& GlobalNamespace::OVRVignette::__cordl_internal_get_OpaqueStencilValue() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___OpaqueStencilValue;
+constexpr int32_t& GlobalNamespace::OVRVignette::__cordl_internal_get_OpaqueStencilValue()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___OpaqueStencilValue;
 }
 constexpr int32_t const& GlobalNamespace::OVRVignette::__cordl_internal_get_OpaqueStencilValue() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___OpaqueStencilValue;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___OpaqueStencilValue;
 }
-constexpr void GlobalNamespace::OVRVignette::__cordl_internal_set_OpaqueStencilValue(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___OpaqueStencilValue = value;
+constexpr void GlobalNamespace::OVRVignette::__cordl_internal_set_OpaqueStencilValue(int32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___OpaqueStencilValue = value;
 }
-constexpr int32_t& GlobalNamespace::OVRVignette::__cordl_internal_get_TransparentStencilValue() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___TransparentStencilValue;
+constexpr int32_t& GlobalNamespace::OVRVignette::__cordl_internal_get_TransparentStencilValue()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___TransparentStencilValue;
 }
 constexpr int32_t const& GlobalNamespace::OVRVignette::__cordl_internal_get_TransparentStencilValue() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___TransparentStencilValue;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___TransparentStencilValue;
 }
-constexpr void GlobalNamespace::OVRVignette::__cordl_internal_set_TransparentStencilValue(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___TransparentStencilValue = value;
+constexpr void GlobalNamespace::OVRVignette::__cordl_internal_set_TransparentStencilValue(int32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___TransparentStencilValue = value;
 }
-constexpr bool& GlobalNamespace::OVRVignette::__cordl_internal_get_WriteColor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___WriteColor;
+constexpr bool& GlobalNamespace::OVRVignette::__cordl_internal_get_WriteColor()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___WriteColor;
 }
 constexpr bool const& GlobalNamespace::OVRVignette::__cordl_internal_get_WriteColor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___WriteColor;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___WriteColor;
 }
-constexpr void GlobalNamespace::OVRVignette::__cordl_internal_set_WriteColor(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___WriteColor = value;
+constexpr void GlobalNamespace::OVRVignette::__cordl_internal_set_WriteColor(bool  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___WriteColor = value;
 }
-constexpr ::UnityW<::UnityEngine::Camera>& GlobalNamespace::OVRVignette::__cordl_internal_get__Camera() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____Camera;
+constexpr ::UnityW<::UnityEngine::Camera>& GlobalNamespace::OVRVignette::__cordl_internal_get__Camera()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____Camera;
 }
 constexpr ::UnityW<::UnityEngine::Camera> const& GlobalNamespace::OVRVignette::__cordl_internal_get__Camera() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____Camera;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____Camera;
 }
-constexpr void GlobalNamespace::OVRVignette::__cordl_internal_set__Camera(::UnityW<::UnityEngine::Camera> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Camera)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::OVRVignette::__cordl_internal_set__Camera(::UnityW<::UnityEngine::Camera>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Camera)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::UnityEngine::MeshFilter>& GlobalNamespace::OVRVignette::__cordl_internal_get__OpaqueMeshFilter() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____OpaqueMeshFilter;
+constexpr ::UnityW<::UnityEngine::MeshFilter>& GlobalNamespace::OVRVignette::__cordl_internal_get__OpaqueMeshFilter()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____OpaqueMeshFilter;
 }
 constexpr ::UnityW<::UnityEngine::MeshFilter> const& GlobalNamespace::OVRVignette::__cordl_internal_get__OpaqueMeshFilter() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____OpaqueMeshFilter;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____OpaqueMeshFilter;
 }
-constexpr void GlobalNamespace::OVRVignette::__cordl_internal_set__OpaqueMeshFilter(::UnityW<::UnityEngine::MeshFilter> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____OpaqueMeshFilter)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::OVRVignette::__cordl_internal_set__OpaqueMeshFilter(::UnityW<::UnityEngine::MeshFilter>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____OpaqueMeshFilter)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::UnityEngine::MeshFilter>& GlobalNamespace::OVRVignette::__cordl_internal_get__TransparentMeshFilter() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____TransparentMeshFilter;
+constexpr ::UnityW<::UnityEngine::MeshFilter>& GlobalNamespace::OVRVignette::__cordl_internal_get__TransparentMeshFilter()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____TransparentMeshFilter;
 }
 constexpr ::UnityW<::UnityEngine::MeshFilter> const& GlobalNamespace::OVRVignette::__cordl_internal_get__TransparentMeshFilter() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____TransparentMeshFilter;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____TransparentMeshFilter;
 }
-constexpr void GlobalNamespace::OVRVignette::__cordl_internal_set__TransparentMeshFilter(::UnityW<::UnityEngine::MeshFilter> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____TransparentMeshFilter)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::OVRVignette::__cordl_internal_set__TransparentMeshFilter(::UnityW<::UnityEngine::MeshFilter>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____TransparentMeshFilter)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::UnityEngine::MeshRenderer>& GlobalNamespace::OVRVignette::__cordl_internal_get__OpaqueMeshRenderer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____OpaqueMeshRenderer;
+constexpr ::UnityW<::UnityEngine::MeshRenderer>& GlobalNamespace::OVRVignette::__cordl_internal_get__OpaqueMeshRenderer()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____OpaqueMeshRenderer;
 }
 constexpr ::UnityW<::UnityEngine::MeshRenderer> const& GlobalNamespace::OVRVignette::__cordl_internal_get__OpaqueMeshRenderer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____OpaqueMeshRenderer;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____OpaqueMeshRenderer;
 }
-constexpr void GlobalNamespace::OVRVignette::__cordl_internal_set__OpaqueMeshRenderer(::UnityW<::UnityEngine::MeshRenderer> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____OpaqueMeshRenderer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::OVRVignette::__cordl_internal_set__OpaqueMeshRenderer(::UnityW<::UnityEngine::MeshRenderer>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____OpaqueMeshRenderer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::UnityEngine::MeshRenderer>& GlobalNamespace::OVRVignette::__cordl_internal_get__TransparentMeshRenderer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____TransparentMeshRenderer;
+constexpr ::UnityW<::UnityEngine::MeshRenderer>& GlobalNamespace::OVRVignette::__cordl_internal_get__TransparentMeshRenderer()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____TransparentMeshRenderer;
 }
 constexpr ::UnityW<::UnityEngine::MeshRenderer> const& GlobalNamespace::OVRVignette::__cordl_internal_get__TransparentMeshRenderer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____TransparentMeshRenderer;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____TransparentMeshRenderer;
 }
-constexpr void GlobalNamespace::OVRVignette::__cordl_internal_set__TransparentMeshRenderer(::UnityW<::UnityEngine::MeshRenderer> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____TransparentMeshRenderer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::OVRVignette::__cordl_internal_set__TransparentMeshRenderer(::UnityW<::UnityEngine::MeshRenderer>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____TransparentMeshRenderer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::UnityEngine::Mesh>& GlobalNamespace::OVRVignette::__cordl_internal_get__OpaqueMesh() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____OpaqueMesh;
+constexpr ::UnityW<::UnityEngine::Mesh>& GlobalNamespace::OVRVignette::__cordl_internal_get__OpaqueMesh()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____OpaqueMesh;
 }
 constexpr ::UnityW<::UnityEngine::Mesh> const& GlobalNamespace::OVRVignette::__cordl_internal_get__OpaqueMesh() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____OpaqueMesh;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____OpaqueMesh;
 }
-constexpr void GlobalNamespace::OVRVignette::__cordl_internal_set__OpaqueMesh(::UnityW<::UnityEngine::Mesh> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____OpaqueMesh)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::OVRVignette::__cordl_internal_set__OpaqueMesh(::UnityW<::UnityEngine::Mesh>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____OpaqueMesh)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::UnityEngine::Mesh>& GlobalNamespace::OVRVignette::__cordl_internal_get__TransparentMesh() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____TransparentMesh;
+constexpr ::UnityW<::UnityEngine::Mesh>& GlobalNamespace::OVRVignette::__cordl_internal_get__TransparentMesh()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____TransparentMesh;
 }
 constexpr ::UnityW<::UnityEngine::Mesh> const& GlobalNamespace::OVRVignette::__cordl_internal_get__TransparentMesh() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____TransparentMesh;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____TransparentMesh;
 }
-constexpr void GlobalNamespace::OVRVignette::__cordl_internal_set__TransparentMesh(::UnityW<::UnityEngine::Mesh> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____TransparentMesh)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::OVRVignette::__cordl_internal_set__TransparentMesh(::UnityW<::UnityEngine::Mesh>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____TransparentMesh)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::UnityEngine::Material>& GlobalNamespace::OVRVignette::__cordl_internal_get__OpaqueMaterial() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____OpaqueMaterial;
+constexpr ::UnityW<::UnityEngine::Material>& GlobalNamespace::OVRVignette::__cordl_internal_get__OpaqueMaterial()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____OpaqueMaterial;
 }
 constexpr ::UnityW<::UnityEngine::Material> const& GlobalNamespace::OVRVignette::__cordl_internal_get__OpaqueMaterial() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____OpaqueMaterial;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____OpaqueMaterial;
 }
-constexpr void GlobalNamespace::OVRVignette::__cordl_internal_set__OpaqueMaterial(::UnityW<::UnityEngine::Material> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____OpaqueMaterial)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::OVRVignette::__cordl_internal_set__OpaqueMaterial(::UnityW<::UnityEngine::Material>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____OpaqueMaterial)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::UnityEngine::Material>& GlobalNamespace::OVRVignette::__cordl_internal_get__TransparentMaterial() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____TransparentMaterial;
+constexpr ::UnityW<::UnityEngine::Material>& GlobalNamespace::OVRVignette::__cordl_internal_get__TransparentMaterial()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____TransparentMaterial;
 }
 constexpr ::UnityW<::UnityEngine::Material> const& GlobalNamespace::OVRVignette::__cordl_internal_get__TransparentMaterial() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____TransparentMaterial;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____TransparentMaterial;
 }
-constexpr void GlobalNamespace::OVRVignette::__cordl_internal_set__TransparentMaterial(::UnityW<::UnityEngine::Material> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____TransparentMaterial)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::OVRVignette::__cordl_internal_set__TransparentMaterial(::UnityW<::UnityEngine::Material>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____TransparentMaterial)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr int32_t& GlobalNamespace::OVRVignette::__cordl_internal_get__ShaderScaleAndOffset0Property() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____ShaderScaleAndOffset0Property;
+constexpr int32_t& GlobalNamespace::OVRVignette::__cordl_internal_get__ShaderScaleAndOffset0Property()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____ShaderScaleAndOffset0Property;
 }
 constexpr int32_t const& GlobalNamespace::OVRVignette::__cordl_internal_get__ShaderScaleAndOffset0Property() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____ShaderScaleAndOffset0Property;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____ShaderScaleAndOffset0Property;
 }
-constexpr void GlobalNamespace::OVRVignette::__cordl_internal_set__ShaderScaleAndOffset0Property(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____ShaderScaleAndOffset0Property = value;
+constexpr void GlobalNamespace::OVRVignette::__cordl_internal_set__ShaderScaleAndOffset0Property(int32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____ShaderScaleAndOffset0Property = value;
 }
-constexpr int32_t& GlobalNamespace::OVRVignette::__cordl_internal_get__ShaderScaleAndOffset1Property() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____ShaderScaleAndOffset1Property;
+constexpr int32_t& GlobalNamespace::OVRVignette::__cordl_internal_get__ShaderScaleAndOffset1Property()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____ShaderScaleAndOffset1Property;
 }
 constexpr int32_t const& GlobalNamespace::OVRVignette::__cordl_internal_get__ShaderScaleAndOffset1Property() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____ShaderScaleAndOffset1Property;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____ShaderScaleAndOffset1Property;
 }
-constexpr void GlobalNamespace::OVRVignette::__cordl_internal_set__ShaderScaleAndOffset1Property(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____ShaderScaleAndOffset1Property = value;
+constexpr void GlobalNamespace::OVRVignette::__cordl_internal_set__ShaderScaleAndOffset1Property(int32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____ShaderScaleAndOffset1Property = value;
 }
-constexpr int32_t& GlobalNamespace::OVRVignette::__cordl_internal_get__ShaderStencilRefProperty() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____ShaderStencilRefProperty;
+constexpr int32_t& GlobalNamespace::OVRVignette::__cordl_internal_get__ShaderStencilRefProperty()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____ShaderStencilRefProperty;
 }
 constexpr int32_t const& GlobalNamespace::OVRVignette::__cordl_internal_get__ShaderStencilRefProperty() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____ShaderStencilRefProperty;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____ShaderStencilRefProperty;
 }
-constexpr void GlobalNamespace::OVRVignette::__cordl_internal_set__ShaderStencilRefProperty(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____ShaderStencilRefProperty = value;
+constexpr void GlobalNamespace::OVRVignette::__cordl_internal_set__ShaderStencilRefProperty(int32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____ShaderStencilRefProperty = value;
 }
-constexpr int32_t& GlobalNamespace::OVRVignette::__cordl_internal_get__ShaderStencilOpProperty() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____ShaderStencilOpProperty;
+constexpr int32_t& GlobalNamespace::OVRVignette::__cordl_internal_get__ShaderStencilOpProperty()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____ShaderStencilOpProperty;
 }
 constexpr int32_t const& GlobalNamespace::OVRVignette::__cordl_internal_get__ShaderStencilOpProperty() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____ShaderStencilOpProperty;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____ShaderStencilOpProperty;
 }
-constexpr void GlobalNamespace::OVRVignette::__cordl_internal_set__ShaderStencilOpProperty(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____ShaderStencilOpProperty = value;
+constexpr void GlobalNamespace::OVRVignette::__cordl_internal_set__ShaderStencilOpProperty(int32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____ShaderStencilOpProperty = value;
 }
-constexpr int32_t& GlobalNamespace::OVRVignette::__cordl_internal_get__ShaderColorMaskProperty() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____ShaderColorMaskProperty;
+constexpr int32_t& GlobalNamespace::OVRVignette::__cordl_internal_get__ShaderColorMaskProperty()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____ShaderColorMaskProperty;
 }
 constexpr int32_t const& GlobalNamespace::OVRVignette::__cordl_internal_get__ShaderColorMaskProperty() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____ShaderColorMaskProperty;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____ShaderColorMaskProperty;
 }
-constexpr void GlobalNamespace::OVRVignette::__cordl_internal_set__ShaderColorMaskProperty(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____ShaderColorMaskProperty = value;
+constexpr void GlobalNamespace::OVRVignette::__cordl_internal_set__ShaderColorMaskProperty(int32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____ShaderColorMaskProperty = value;
 }
-constexpr ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*>& GlobalNamespace::OVRVignette::__cordl_internal_get__TransparentScaleAndOffset0() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____TransparentScaleAndOffset0;
+constexpr ::ArrayW<::UnityEngine::Vector4,::Array<::UnityEngine::Vector4>*>& GlobalNamespace::OVRVignette::__cordl_internal_get__TransparentScaleAndOffset0()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____TransparentScaleAndOffset0;
 }
-constexpr ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> const& GlobalNamespace::OVRVignette::__cordl_internal_get__TransparentScaleAndOffset0() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____TransparentScaleAndOffset0;
+constexpr ::ArrayW<::UnityEngine::Vector4,::Array<::UnityEngine::Vector4>*> const& GlobalNamespace::OVRVignette::__cordl_internal_get__TransparentScaleAndOffset0() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____TransparentScaleAndOffset0;
 }
-constexpr void GlobalNamespace::OVRVignette::__cordl_internal_set__TransparentScaleAndOffset0(::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____TransparentScaleAndOffset0)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::OVRVignette::__cordl_internal_set__TransparentScaleAndOffset0(::ArrayW<::UnityEngine::Vector4,::Array<::UnityEngine::Vector4>*>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____TransparentScaleAndOffset0)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*>& GlobalNamespace::OVRVignette::__cordl_internal_get__TransparentScaleAndOffset1() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____TransparentScaleAndOffset1;
+constexpr ::ArrayW<::UnityEngine::Vector4,::Array<::UnityEngine::Vector4>*>& GlobalNamespace::OVRVignette::__cordl_internal_get__TransparentScaleAndOffset1()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____TransparentScaleAndOffset1;
 }
-constexpr ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> const& GlobalNamespace::OVRVignette::__cordl_internal_get__TransparentScaleAndOffset1() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____TransparentScaleAndOffset1;
+constexpr ::ArrayW<::UnityEngine::Vector4,::Array<::UnityEngine::Vector4>*> const& GlobalNamespace::OVRVignette::__cordl_internal_get__TransparentScaleAndOffset1() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____TransparentScaleAndOffset1;
 }
-constexpr void GlobalNamespace::OVRVignette::__cordl_internal_set__TransparentScaleAndOffset1(::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____TransparentScaleAndOffset1)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::OVRVignette::__cordl_internal_set__TransparentScaleAndOffset1(::ArrayW<::UnityEngine::Vector4,::Array<::UnityEngine::Vector4>*>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____TransparentScaleAndOffset1)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*>& GlobalNamespace::OVRVignette::__cordl_internal_get__OpaqueScaleAndOffset0() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____OpaqueScaleAndOffset0;
+constexpr ::ArrayW<::UnityEngine::Vector4,::Array<::UnityEngine::Vector4>*>& GlobalNamespace::OVRVignette::__cordl_internal_get__OpaqueScaleAndOffset0()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____OpaqueScaleAndOffset0;
 }
-constexpr ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> const& GlobalNamespace::OVRVignette::__cordl_internal_get__OpaqueScaleAndOffset0() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____OpaqueScaleAndOffset0;
+constexpr ::ArrayW<::UnityEngine::Vector4,::Array<::UnityEngine::Vector4>*> const& GlobalNamespace::OVRVignette::__cordl_internal_get__OpaqueScaleAndOffset0() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____OpaqueScaleAndOffset0;
 }
-constexpr void GlobalNamespace::OVRVignette::__cordl_internal_set__OpaqueScaleAndOffset0(::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____OpaqueScaleAndOffset0)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::OVRVignette::__cordl_internal_set__OpaqueScaleAndOffset0(::ArrayW<::UnityEngine::Vector4,::Array<::UnityEngine::Vector4>*>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____OpaqueScaleAndOffset0)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*>& GlobalNamespace::OVRVignette::__cordl_internal_get__OpaqueScaleAndOffset1() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____OpaqueScaleAndOffset1;
+constexpr ::ArrayW<::UnityEngine::Vector4,::Array<::UnityEngine::Vector4>*>& GlobalNamespace::OVRVignette::__cordl_internal_get__OpaqueScaleAndOffset1()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____OpaqueScaleAndOffset1;
 }
-constexpr ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> const& GlobalNamespace::OVRVignette::__cordl_internal_get__OpaqueScaleAndOffset1() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____OpaqueScaleAndOffset1;
+constexpr ::ArrayW<::UnityEngine::Vector4,::Array<::UnityEngine::Vector4>*> const& GlobalNamespace::OVRVignette::__cordl_internal_get__OpaqueScaleAndOffset1() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____OpaqueScaleAndOffset1;
 }
-constexpr void GlobalNamespace::OVRVignette::__cordl_internal_set__OpaqueScaleAndOffset1(::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____OpaqueScaleAndOffset1)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::OVRVignette::__cordl_internal_set__OpaqueScaleAndOffset1(::ArrayW<::UnityEngine::Vector4,::Array<::UnityEngine::Vector4>*>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____OpaqueScaleAndOffset1)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr bool& GlobalNamespace::OVRVignette::__cordl_internal_get__OpaqueVignetteVisible() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____OpaqueVignetteVisible;
+constexpr bool& GlobalNamespace::OVRVignette::__cordl_internal_get__OpaqueVignetteVisible()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____OpaqueVignetteVisible;
 }
 constexpr bool const& GlobalNamespace::OVRVignette::__cordl_internal_get__OpaqueVignetteVisible() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____OpaqueVignetteVisible;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____OpaqueVignetteVisible;
 }
-constexpr void GlobalNamespace::OVRVignette::__cordl_internal_set__OpaqueVignetteVisible(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____OpaqueVignetteVisible = value;
+constexpr void GlobalNamespace::OVRVignette::__cordl_internal_set__OpaqueVignetteVisible(bool  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____OpaqueVignetteVisible = value;
 }
-constexpr bool& GlobalNamespace::OVRVignette::__cordl_internal_get__TransparentVignetteVisible() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____TransparentVignetteVisible;
+constexpr bool& GlobalNamespace::OVRVignette::__cordl_internal_get__TransparentVignetteVisible()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____TransparentVignetteVisible;
 }
 constexpr bool const& GlobalNamespace::OVRVignette::__cordl_internal_get__TransparentVignetteVisible() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____TransparentVignetteVisible;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____TransparentVignetteVisible;
 }
-constexpr void GlobalNamespace::OVRVignette::__cordl_internal_set__TransparentVignetteVisible(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____TransparentVignetteVisible = value;
+constexpr void GlobalNamespace::OVRVignette::__cordl_internal_set__TransparentVignetteVisible(bool  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____TransparentVignetteVisible = value;
 }
-inline void GlobalNamespace::OVRVignette::setStaticF_QUADRATIC_FALLOFF(::StringW value) {
-  ::cordl_internals::setStaticField<::StringW, "QUADRATIC_FALLOFF", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRVignette*>::get>(std::forward<::StringW>(value));
+inline void GlobalNamespace::OVRVignette::setStaticF_QUADRATIC_FALLOFF(::StringW  value)  {
+::cordl_internals::setStaticField<::StringW, "QUADRATIC_FALLOFF", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRVignette*>::get>(std::forward<::StringW>(value));
 }
-inline ::StringW GlobalNamespace::OVRVignette::getStaticF_QUADRATIC_FALLOFF() {
-  return ::cordl_internals::getStaticField<::StringW, "QUADRATIC_FALLOFF", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRVignette*>::get>();
+inline ::StringW GlobalNamespace::OVRVignette::getStaticF_QUADRATIC_FALLOFF()  {
+return ::cordl_internals::getStaticField<::StringW, "QUADRATIC_FALLOFF", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRVignette*>::get>();
 }
-inline int32_t GlobalNamespace::OVRVignette::GetTriangleCount() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRVignette*>::get(), "GetTriangleCount",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+inline int32_t GlobalNamespace::OVRVignette::GetTriangleCount()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRVignette*>::get(),
+                        "GetTriangleCount",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::OVRVignette::BuildMeshes() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRVignette*>::get(), "BuildMeshes",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::OVRVignette::BuildMeshes()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRVignette*>::get(),
+                        "BuildMeshes",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::OVRVignette::BuildMaterials() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRVignette*>::get(), "BuildMaterials",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::OVRVignette::BuildMaterials()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRVignette*>::get(),
+                        "BuildMaterials",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::OVRVignette::OnEnable() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRVignette*>::get(), "OnEnable",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::OVRVignette::OnEnable()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRVignette*>::get(),
+                        "OnEnable",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::OVRVignette::OnDisable() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRVignette*>::get(), "OnDisable",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::OVRVignette::OnDisable()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRVignette*>::get(),
+                        "OnDisable",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::OVRVignette::Awake() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRVignette*>::get(), "Awake",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::OVRVignette::Awake()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRVignette*>::get(),
+                        "Awake",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::OVRVignette::Initialize() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRVignette*>::get(), "Initialize",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::OVRVignette::Initialize()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRVignette*>::get(),
+                        "Initialize",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::OVRVignette::GetTanFovAndOffsetForStereoEye(::UnityEngine::Camera_StereoscopicEye eye, ::ByRef<float_t> tanFovX, ::ByRef<float_t> tanFovY, ::ByRef<float_t> offsetX,
-                                                                         ::ByRef<float_t> offsetY) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRVignette*>::get(), "GetTanFovAndOffsetForStereoEye", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 5>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Camera_StereoscopicEye>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<float_t>>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<float_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<float_t>>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<float_t>>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, eye, tanFovX, tanFovY, offsetX, offsetY);
+inline void GlobalNamespace::OVRVignette::GetTanFovAndOffsetForStereoEye(::UnityEngine::Camera_StereoscopicEye  eye, ::ByRef<float_t>  tanFovX, ::ByRef<float_t>  tanFovY, ::ByRef<float_t>  offsetX, ::ByRef<float_t>  offsetY)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRVignette*>::get(),
+                        "GetTanFovAndOffsetForStereoEye",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 5>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Camera_StereoscopicEye>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<float_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<float_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<float_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<float_t>>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, eye, tanFovX, tanFovY, offsetX, offsetY);
 }
-inline void GlobalNamespace::OVRVignette::GetTanFovAndOffsetForMonoEye(::ByRef<float_t> tanFovX, ::ByRef<float_t> tanFovY, ::ByRef<float_t> offsetX, ::ByRef<float_t> offsetY) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRVignette*>::get(), "GetTanFovAndOffsetForMonoEye", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 4>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<float_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<float_t>>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<float_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<float_t>>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, tanFovX, tanFovY, offsetX, offsetY);
+inline void GlobalNamespace::OVRVignette::GetTanFovAndOffsetForMonoEye(::ByRef<float_t>  tanFovX, ::ByRef<float_t>  tanFovY, ::ByRef<float_t>  offsetX, ::ByRef<float_t>  offsetY)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRVignette*>::get(),
+                        "GetTanFovAndOffsetForMonoEye",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<float_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<float_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<float_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<float_t>>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, tanFovX, tanFovY, offsetX, offsetY);
 }
-inline bool GlobalNamespace::OVRVignette::VisibilityTest(float_t scaleX, float_t scaleY, float_t offsetX, float_t offsetY) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRVignette*>::get(), "VisibilityTest", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, scaleX, scaleY, offsetX, offsetY);
+inline bool GlobalNamespace::OVRVignette::VisibilityTest(float_t  scaleX, float_t  scaleY, float_t  offsetX, float_t  offsetY)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRVignette*>::get(),
+                        "VisibilityTest",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, scaleX, scaleY, offsetX, offsetY);
 }
-inline void GlobalNamespace::OVRVignette::Update() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRVignette*>::get(), "Update",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::OVRVignette::Update()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRVignette*>::get(),
+                        "Update",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::OVRVignette::EnableRenderers() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRVignette*>::get(), "EnableRenderers",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::OVRVignette::EnableRenderers()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRVignette*>::get(),
+                        "EnableRenderers",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::OVRVignette::DisableRenderers() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRVignette*>::get(), "DisableRenderers",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::OVRVignette::DisableRenderers()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRVignette*>::get(),
+                        "DisableRenderers",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::OVRVignette::OnPreCull() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRVignette*>::get(), "OnPreCull",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::OVRVignette::OnPreCull()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRVignette*>::get(),
+                        "OnPreCull",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::OVRVignette::OnPostRender() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRVignette*>::get(), "OnPostRender",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::OVRVignette::OnPostRender()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRVignette*>::get(),
+                        "OnPostRender",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::OVRVignette::OnBeginCameraRendering(::UnityEngine::Rendering::ScriptableRenderContext context, ::UnityEngine::Camera* camera) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRVignette*>::get(), "OnBeginCameraRendering", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::ScriptableRenderContext>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Camera*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, context, camera);
+inline void GlobalNamespace::OVRVignette::OnBeginCameraRendering(::UnityEngine::Rendering::ScriptableRenderContext  context, ::UnityEngine::Camera*  camera)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRVignette*>::get(),
+                        "OnBeginCameraRendering",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::ScriptableRenderContext>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Camera*>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, context, camera);
 }
-inline void GlobalNamespace::OVRVignette::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRVignette*>::get(), ".ctor",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::OVRVignette::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRVignette*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::OVRVignette* GlobalNamespace::OVRVignette::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::OVRVignette*>());
+inline ::GlobalNamespace::OVRVignette* GlobalNamespace::OVRVignette::New_ctor()  {
+return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::OVRVignette*>());
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::OVRVignette::OVRVignette() {}
+constexpr ::GlobalNamespace::OVRVignette::OVRVignette()   {
+}

@@ -8,7 +8,8 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ButtonStripField)
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template<typename T>
+class List_1;
 }
 namespace UnityEngine::UIElements {
 class ButtonStripField_UxmlFactory;
@@ -37,131 +38,131 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::ButtonStripField_UxmlTraits);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.ButtonStripField/UxmlFactory
-class CORDL_TYPE ButtonStripField_UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::ButtonStripField*, ::UnityEngine::UIElements::ButtonStripField_UxmlTraits*> {
+class CORDL_TYPE ButtonStripField_UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::ButtonStripField*,::UnityEngine::UIElements::ButtonStripField_UxmlTraits*> {
 public:
-  // Declarations
-  static inline ::UnityEngine::UIElements::ButtonStripField_UxmlFactory* New_ctor();
+// Declarations
+static inline ::UnityEngine::UIElements::ButtonStripField_UxmlFactory* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x6be0488, size 0x68, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6be2000, size 0x68, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ButtonStripField_UxmlFactory();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ButtonStripField_UxmlFactory() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ButtonStripField_UxmlFactory", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ButtonStripField_UxmlFactory(ButtonStripField_UxmlFactory&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ButtonStripField_UxmlFactory", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ButtonStripField_UxmlFactory(ButtonStripField_UxmlFactory const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ButtonStripField_UxmlFactory", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ButtonStripField_UxmlFactory(ButtonStripField_UxmlFactory && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4146 };
+// Ctor Parameters [CppParam { name: "", ty: "ButtonStripField_UxmlFactory", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ButtonStripField_UxmlFactory(ButtonStripField_UxmlFactory const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4146};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::ButtonStripField_UxmlFactory, 0x18>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements
+} // namespace end def UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.BaseField`1::UxmlTraits<TValueType>
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.ButtonStripField/UxmlTraits
 class CORDL_TYPE ButtonStripField_UxmlTraits : public ::UnityEngine::UIElements::BaseField_1_UxmlTraits<int32_t> {
 public:
-  // Declarations
-  static inline ::UnityEngine::UIElements::ButtonStripField_UxmlTraits* New_ctor();
+// Declarations
+static inline ::UnityEngine::UIElements::ButtonStripField_UxmlTraits* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x6be04f0, size 0x4c, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6be2068, size 0x4c, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ButtonStripField_UxmlTraits();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ButtonStripField_UxmlTraits() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ButtonStripField_UxmlTraits", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ButtonStripField_UxmlTraits(ButtonStripField_UxmlTraits&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ButtonStripField_UxmlTraits", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ButtonStripField_UxmlTraits(ButtonStripField_UxmlTraits const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ButtonStripField_UxmlTraits", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ButtonStripField_UxmlTraits(ButtonStripField_UxmlTraits && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4147 };
+// Ctor Parameters [CppParam { name: "", ty: "ButtonStripField_UxmlTraits", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ButtonStripField_UxmlTraits(ButtonStripField_UxmlTraits const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4147};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::ButtonStripField_UxmlTraits, 0x98>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements
+} // namespace end def UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.BaseField`1<TValueType>
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.ButtonStripField
 class CORDL_TYPE ButtonStripField : public ::UnityEngine::UIElements::BaseField_1<int32_t> {
 public:
-  // Declarations
-  using UxmlFactory = ::UnityEngine::UIElements::ButtonStripField_UxmlFactory;
+// Declarations
+using UxmlFactory = ::UnityEngine::UIElements::ButtonStripField_UxmlFactory;
 
-  using UxmlTraits = ::UnityEngine::UIElements::ButtonStripField_UxmlTraits;
+using UxmlTraits = ::UnityEngine::UIElements::ButtonStripField_UxmlTraits;
 
-  /// @brief Field m_Buttons, offset 0x528, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Buttons, put = __cordl_internal_set_m_Buttons)) ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Button*>* m_Buttons;
+/// @brief Field m_Buttons, offset 0x528, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_Buttons, put=__cordl_internal_set_m_Buttons)) ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Button*>*  m_Buttons;
 
-  static inline ::UnityEngine::UIElements::ButtonStripField* New_ctor();
+static inline ::UnityEngine::UIElements::ButtonStripField* New_ctor() ;
 
-  /// @brief Method RefreshButtonsState, addr 0x6be03a0, size 0xe8, virtual false, abstract: false, final false
-  inline void RefreshButtonsState();
+/// @brief Method RefreshButtonsState, addr 0x6be1f18, size 0xe8, virtual false, abstract: false, final false
+inline void RefreshButtonsState() ;
 
-  /// @brief Method SetValueWithoutNotify, addr 0x6be0308, size 0x98, virtual true, abstract: false, final false
-  inline void SetValueWithoutNotify(int32_t newValue);
+/// @brief Method SetValueWithoutNotify, addr 0x6be1e80, size 0x98, virtual true, abstract: false, final false
+inline void SetValueWithoutNotify(int32_t  newValue) ;
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Button*>* const& __cordl_internal_get_m_Buttons() const;
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Button*>* const& __cordl_internal_get_m_Buttons() const;
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Button*>*& __cordl_internal_get_m_Buttons();
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Button*>*& __cordl_internal_get_m_Buttons() ;
 
-  constexpr void __cordl_internal_set_m_Buttons(::System::Collections::Generic::List_1<::UnityEngine::UIElements::Button*>* value);
+constexpr void __cordl_internal_set_m_Buttons(::System::Collections::Generic::List_1<::UnityEngine::UIElements::Button*>*  value) ;
 
-  /// @brief Method .ctor, addr 0x6be0248, size 0xc0, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6be1dc0, size 0xc0, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ButtonStripField();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ButtonStripField() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ButtonStripField", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ButtonStripField(ButtonStripField&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ButtonStripField", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ButtonStripField(ButtonStripField const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ButtonStripField", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ButtonStripField(ButtonStripField && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4148 };
+// Ctor Parameters [CppParam { name: "", ty: "ButtonStripField", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ButtonStripField(ButtonStripField const& ) = delete;
 
-  /// @brief Field m_Buttons, offset: 0x528, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Button*>* ___m_Buttons;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4148};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field m_Buttons, offset: 0x528, size: 0x8, def value: None
+ ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Button*>*  ___m_Buttons;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::UIElements::ButtonStripField, ___m_Buttons) == 0x528, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::ButtonStripField, 0x530>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements
+} // namespace end def UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::ButtonStripField);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::ButtonStripField*, "UnityEngine.UIElements", "ButtonStripField");
 NEED_NO_BOX(::UnityEngine::UIElements::ButtonStripField_UxmlFactory);

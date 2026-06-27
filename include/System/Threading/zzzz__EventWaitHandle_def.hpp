@@ -21,45 +21,45 @@ namespace System::Threading {
 // CS Name: System.Threading.EventWaitHandle
 class CORDL_TYPE EventWaitHandle : public ::System::Threading::WaitHandle {
 public:
-  // Declarations
-  static inline ::System::Threading::EventWaitHandle* New_ctor(bool initialState, ::System::Threading::EventResetMode mode);
+// Declarations
+static inline ::System::Threading::EventWaitHandle* New_ctor(bool  initialState, ::System::Threading::EventResetMode  mode) ;
 
-  static inline ::System::Threading::EventWaitHandle* New_ctor(bool initialState, ::System::Threading::EventResetMode mode, ::StringW name);
+static inline ::System::Threading::EventWaitHandle* New_ctor(bool  initialState, ::System::Threading::EventResetMode  mode, ::StringW  name) ;
 
-  /// @brief Method Reset, addr 0x5b705f4, size 0x58, virtual false, abstract: false, final false
-  inline bool Reset();
+/// @brief Method Reset, addr 0x5b7216c, size 0x58, virtual false, abstract: false, final false
+inline bool Reset() ;
 
-  /// @brief Method Set, addr 0x5b6cc84, size 0x58, virtual false, abstract: false, final false
-  inline bool Set();
+/// @brief Method Set, addr 0x5b6e7fc, size 0x58, virtual false, abstract: false, final false
+inline bool Set() ;
 
-  /// @brief Method .ctor, addr 0x5b6b174, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(bool initialState, ::System::Threading::EventResetMode mode);
+/// @brief Method .ctor, addr 0x5b6ccec, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(bool  initialState, ::System::Threading::EventResetMode  mode) ;
 
-  /// @brief Method .ctor, addr 0x5b725ac, size 0x2f8, virtual false, abstract: false, final false
-  inline void _ctor(bool initialState, ::System::Threading::EventResetMode mode, ::StringW name);
+/// @brief Method .ctor, addr 0x5b74124, size 0x2f8, virtual false, abstract: false, final false
+inline void _ctor(bool  initialState, ::System::Threading::EventResetMode  mode, ::StringW  name) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr EventWaitHandle();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr EventWaitHandle() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EventWaitHandle", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  EventWaitHandle(EventWaitHandle&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EventWaitHandle", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  EventWaitHandle(EventWaitHandle const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "EventWaitHandle", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+EventWaitHandle(EventWaitHandle && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2720 };
+// Ctor Parameters [CppParam { name: "", ty: "EventWaitHandle", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+EventWaitHandle(EventWaitHandle const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{2720};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Threading::EventWaitHandle, 0x30>, "Size mismatch!");
 
-} // namespace System::Threading
+} // namespace end def System::Threading
 NEED_NO_BOX(::System::Threading::EventWaitHandle);
 DEFINE_IL2CPP_ARG_TYPE(::System::Threading::EventWaitHandle*, "System.Threading", "EventWaitHandle");

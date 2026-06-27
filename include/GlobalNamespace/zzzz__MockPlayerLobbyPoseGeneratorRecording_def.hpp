@@ -20,40 +20,40 @@ namespace GlobalNamespace {
 // CS Name: MockPlayerLobbyPoseGeneratorRecording
 class CORDL_TYPE MockPlayerLobbyPoseGeneratorRecording : public ::GlobalNamespace::MockPlayerLobbyPoseGenerator {
 public:
-  // Declarations
-  /// @brief Method Init, addr 0x5896598, size 0x70, virtual true, abstract: false, final false
-  inline void Init();
+// Declarations
+/// @brief Method Init, addr 0x5897f68, size 0x70, virtual true, abstract: false, final false
+inline void Init() ;
 
-  static inline ::GlobalNamespace::MockPlayerLobbyPoseGeneratorRecording* New_ctor(::GlobalNamespace::IBeatSaberMultiplayerSessionManager* multiplayerSessionManager);
+static inline ::GlobalNamespace::MockPlayerLobbyPoseGeneratorRecording* New_ctor(::GlobalNamespace::IBeatSaberMultiplayerSessionManager*  multiplayerSessionManager) ;
 
-  /// @brief Method Tick, addr 0x5896608, size 0x70, virtual true, abstract: false, final false
-  inline void Tick();
+/// @brief Method Tick, addr 0x5897fd8, size 0x70, virtual true, abstract: false, final false
+inline void Tick() ;
 
-  /// @brief Method .ctor, addr 0x5894580, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::GlobalNamespace::IBeatSaberMultiplayerSessionManager* multiplayerSessionManager);
+/// @brief Method .ctor, addr 0x5895f50, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(::GlobalNamespace::IBeatSaberMultiplayerSessionManager*  multiplayerSessionManager) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MockPlayerLobbyPoseGeneratorRecording();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr MockPlayerLobbyPoseGeneratorRecording() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MockPlayerLobbyPoseGeneratorRecording", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  MockPlayerLobbyPoseGeneratorRecording(MockPlayerLobbyPoseGeneratorRecording&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MockPlayerLobbyPoseGeneratorRecording", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  MockPlayerLobbyPoseGeneratorRecording(MockPlayerLobbyPoseGeneratorRecording const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "MockPlayerLobbyPoseGeneratorRecording", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+MockPlayerLobbyPoseGeneratorRecording(MockPlayerLobbyPoseGeneratorRecording && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6127 };
+// Ctor Parameters [CppParam { name: "", ty: "MockPlayerLobbyPoseGeneratorRecording", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+MockPlayerLobbyPoseGeneratorRecording(MockPlayerLobbyPoseGeneratorRecording const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6127};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MockPlayerLobbyPoseGeneratorRecording, 0x20>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MockPlayerLobbyPoseGeneratorRecording);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MockPlayerLobbyPoseGeneratorRecording*, "", "MockPlayerLobbyPoseGeneratorRecording");

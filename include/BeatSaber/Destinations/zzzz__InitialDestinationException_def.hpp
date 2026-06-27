@@ -17,34 +17,34 @@ namespace BeatSaber::Destinations {
 // CS Name: BeatSaber.Destinations.InitialDestinationException
 class CORDL_TYPE InitialDestinationException : public ::System::Exception {
 public:
-  // Declarations
-  static inline ::BeatSaber::Destinations::InitialDestinationException* New_ctor();
+// Declarations
+static inline ::BeatSaber::Destinations::InitialDestinationException* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x31e8b70, size 0x58, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x31e9890, size 0x58, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr InitialDestinationException();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr InitialDestinationException() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InitialDestinationException", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  InitialDestinationException(InitialDestinationException&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InitialDestinationException", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  InitialDestinationException(InitialDestinationException const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "InitialDestinationException", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+InitialDestinationException(InitialDestinationException && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22864 };
+// Ctor Parameters [CppParam { name: "", ty: "InitialDestinationException", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+InitialDestinationException(InitialDestinationException const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22868};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::BeatSaber::Destinations::InitialDestinationException, 0x90>, "Size mismatch!");
 
-} // namespace BeatSaber::Destinations
+} // namespace end def BeatSaber::Destinations
 NEED_NO_BOX(::BeatSaber::Destinations::InitialDestinationException);
 DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::Destinations::InitialDestinationException*, "BeatSaber.Destinations", "InitialDestinationException");

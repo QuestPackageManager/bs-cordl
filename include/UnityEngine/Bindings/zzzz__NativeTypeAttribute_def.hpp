@@ -22,98 +22,96 @@ namespace UnityEngine::Bindings {
 // CS Name: UnityEngine.Bindings.NativeTypeAttribute
 class CORDL_TYPE NativeTypeAttribute : public ::System::Attribute {
 public:
-  // Declarations
-  __declspec(property(put = set_CodegenOptions)) ::UnityEngine::Bindings::CodegenOptions CodegenOptions;
+// Declarations
+ __declspec(property(put=set_CodegenOptions)) ::UnityEngine::Bindings::CodegenOptions  CodegenOptions;
 
-  __declspec(property(put = set_Header)) ::StringW Header;
+ __declspec(property(put=set_Header)) ::StringW  Header;
 
-  __declspec(property(put = set_IntermediateScriptingStructName)) ::StringW IntermediateScriptingStructName;
+ __declspec(property(put=set_IntermediateScriptingStructName)) ::StringW  IntermediateScriptingStructName;
 
-  /// @brief Field <CodegenOptions>k__BackingField, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get__CodegenOptions_k__BackingField,
-                      put = __cordl_internal_set__CodegenOptions_k__BackingField)) ::UnityEngine::Bindings::CodegenOptions _CodegenOptions_k__BackingField;
+/// @brief Field <CodegenOptions>k__BackingField, offset 0x20, size 0x4 
+ __declspec(property(get=__cordl_internal_get__CodegenOptions_k__BackingField, put=__cordl_internal_set__CodegenOptions_k__BackingField)) ::UnityEngine::Bindings::CodegenOptions  _CodegenOptions_k__BackingField;
 
-  /// @brief Field <Header>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__Header_k__BackingField, put = __cordl_internal_set__Header_k__BackingField)) ::StringW _Header_k__BackingField;
+/// @brief Field <Header>k__BackingField, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get__Header_k__BackingField, put=__cordl_internal_set__Header_k__BackingField)) ::StringW  _Header_k__BackingField;
 
-  /// @brief Field <IntermediateScriptingStructName>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__IntermediateScriptingStructName_k__BackingField,
-                      put = __cordl_internal_set__IntermediateScriptingStructName_k__BackingField)) ::StringW _IntermediateScriptingStructName_k__BackingField;
+/// @brief Field <IntermediateScriptingStructName>k__BackingField, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get__IntermediateScriptingStructName_k__BackingField, put=__cordl_internal_set__IntermediateScriptingStructName_k__BackingField)) ::StringW  _IntermediateScriptingStructName_k__BackingField;
 
-  static inline ::UnityEngine::Bindings::NativeTypeAttribute* New_ctor();
+static inline ::UnityEngine::Bindings::NativeTypeAttribute* New_ctor() ;
 
-  static inline ::UnityEngine::Bindings::NativeTypeAttribute* New_ctor(::UnityEngine::Bindings::CodegenOptions codegenOptions);
+static inline ::UnityEngine::Bindings::NativeTypeAttribute* New_ctor(::UnityEngine::Bindings::CodegenOptions  codegenOptions) ;
 
-  static inline ::UnityEngine::Bindings::NativeTypeAttribute* New_ctor(::UnityEngine::Bindings::CodegenOptions codegenOptions, ::StringW intermediateStructName);
+static inline ::UnityEngine::Bindings::NativeTypeAttribute* New_ctor(::UnityEngine::Bindings::CodegenOptions  codegenOptions, ::StringW  intermediateStructName) ;
 
-  static inline ::UnityEngine::Bindings::NativeTypeAttribute* New_ctor(::StringW header);
+static inline ::UnityEngine::Bindings::NativeTypeAttribute* New_ctor(::StringW  header) ;
 
-  constexpr ::UnityEngine::Bindings::CodegenOptions const& __cordl_internal_get__CodegenOptions_k__BackingField() const;
+constexpr ::UnityEngine::Bindings::CodegenOptions const& __cordl_internal_get__CodegenOptions_k__BackingField() const;
 
-  constexpr ::UnityEngine::Bindings::CodegenOptions& __cordl_internal_get__CodegenOptions_k__BackingField();
+constexpr ::UnityEngine::Bindings::CodegenOptions& __cordl_internal_get__CodegenOptions_k__BackingField() ;
 
-  constexpr ::StringW const& __cordl_internal_get__Header_k__BackingField() const;
+constexpr ::StringW const& __cordl_internal_get__Header_k__BackingField() const;
 
-  constexpr ::StringW& __cordl_internal_get__Header_k__BackingField();
+constexpr ::StringW& __cordl_internal_get__Header_k__BackingField() ;
 
-  constexpr ::StringW const& __cordl_internal_get__IntermediateScriptingStructName_k__BackingField() const;
+constexpr ::StringW const& __cordl_internal_get__IntermediateScriptingStructName_k__BackingField() const;
 
-  constexpr ::StringW& __cordl_internal_get__IntermediateScriptingStructName_k__BackingField();
+constexpr ::StringW& __cordl_internal_get__IntermediateScriptingStructName_k__BackingField() ;
 
-  constexpr void __cordl_internal_set__CodegenOptions_k__BackingField(::UnityEngine::Bindings::CodegenOptions value);
+constexpr void __cordl_internal_set__CodegenOptions_k__BackingField(::UnityEngine::Bindings::CodegenOptions  value) ;
 
-  constexpr void __cordl_internal_set__Header_k__BackingField(::StringW value);
+constexpr void __cordl_internal_set__Header_k__BackingField(::StringW  value) ;
 
-  constexpr void __cordl_internal_set__IntermediateScriptingStructName_k__BackingField(::StringW value);
+constexpr void __cordl_internal_set__IntermediateScriptingStructName_k__BackingField(::StringW  value) ;
 
-  /// @brief Method .ctor, addr 0x6a5d7d8, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6a5f350, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method .ctor, addr 0x6a5d7e0, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::Bindings::CodegenOptions codegenOptions);
+/// @brief Method .ctor, addr 0x6a5f358, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(::UnityEngine::Bindings::CodegenOptions  codegenOptions) ;
 
-  /// @brief Method .ctor, addr 0x6a5d8e4, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::Bindings::CodegenOptions codegenOptions, ::StringW intermediateStructName);
+/// @brief Method .ctor, addr 0x6a5f45c, size 0xc, virtual false, abstract: false, final false
+inline void _ctor(::UnityEngine::Bindings::CodegenOptions  codegenOptions, ::StringW  intermediateStructName) ;
 
-  /// @brief Method .ctor, addr 0x6a5d7e8, size 0xfc, virtual false, abstract: false, final false
-  inline void _ctor(::StringW header);
+/// @brief Method .ctor, addr 0x6a5f360, size 0xfc, virtual false, abstract: false, final false
+inline void _ctor(::StringW  header) ;
 
-  /// @brief Method set_CodegenOptions, addr 0x6a5d7d0, size 0x8, virtual true, abstract: false, final true
-  inline void set_CodegenOptions(::UnityEngine::Bindings::CodegenOptions value);
+/// @brief Method set_CodegenOptions, addr 0x6a5f348, size 0x8, virtual true, abstract: false, final true
+inline void set_CodegenOptions(::UnityEngine::Bindings::CodegenOptions  value) ;
 
-  /// @brief Method set_Header, addr 0x6a5d7c0, size 0x8, virtual true, abstract: false, final true
-  inline void set_Header(::StringW value);
+/// @brief Method set_Header, addr 0x6a5f338, size 0x8, virtual true, abstract: false, final true
+inline void set_Header(::StringW  value) ;
 
-  /// @brief Method set_IntermediateScriptingStructName, addr 0x6a5d7c8, size 0x8, virtual false, abstract: false, final false
-  inline void set_IntermediateScriptingStructName(::StringW value);
+/// @brief Method set_IntermediateScriptingStructName, addr 0x6a5f340, size 0x8, virtual false, abstract: false, final false
+inline void set_IntermediateScriptingStructName(::StringW  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NativeTypeAttribute();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr NativeTypeAttribute() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NativeTypeAttribute", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  NativeTypeAttribute(NativeTypeAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NativeTypeAttribute", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  NativeTypeAttribute(NativeTypeAttribute const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "NativeTypeAttribute", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+NativeTypeAttribute(NativeTypeAttribute && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22814 };
+// Ctor Parameters [CppParam { name: "", ty: "NativeTypeAttribute", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+NativeTypeAttribute(NativeTypeAttribute const& ) = delete;
 
-  /// @brief Field <Header>k__BackingField, offset: 0x10, size: 0x8, def value: None
-  ::StringW ____Header_k__BackingField;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22818};
 
-  /// @brief Field <IntermediateScriptingStructName>k__BackingField, offset: 0x18, size: 0x8, def value: None
-  ::StringW ____IntermediateScriptingStructName_k__BackingField;
+/// @brief Field <Header>k__BackingField, offset: 0x10, size: 0x8, def value: None
+ ::StringW  ____Header_k__BackingField;
 
-  /// @brief Field <CodegenOptions>k__BackingField, offset: 0x20, size: 0x4, def value: None
-  ::UnityEngine::Bindings::CodegenOptions ____CodegenOptions_k__BackingField;
+/// @brief Field <IntermediateScriptingStructName>k__BackingField, offset: 0x18, size: 0x8, def value: None
+ ::StringW  ____IntermediateScriptingStructName_k__BackingField;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field <CodegenOptions>k__BackingField, offset: 0x20, size: 0x4, def value: None
+ ::UnityEngine::Bindings::CodegenOptions  ____CodegenOptions_k__BackingField;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Bindings::NativeTypeAttribute, ____Header_k__BackingField) == 0x10, "Offset mismatch!");
@@ -124,6 +122,6 @@ static_assert(offsetof(::UnityEngine::Bindings::NativeTypeAttribute, ____Codegen
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Bindings::NativeTypeAttribute, 0x28>, "Size mismatch!");
 
-} // namespace UnityEngine::Bindings
+} // namespace end def UnityEngine::Bindings
 NEED_NO_BOX(::UnityEngine::Bindings::NativeTypeAttribute);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Bindings::NativeTypeAttribute*, "UnityEngine.Bindings", "NativeTypeAttribute");

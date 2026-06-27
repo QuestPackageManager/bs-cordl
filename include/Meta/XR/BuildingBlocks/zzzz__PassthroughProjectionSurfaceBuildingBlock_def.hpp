@@ -20,51 +20,51 @@ namespace Meta::XR::BuildingBlocks {
 // CS Name: Meta.XR.BuildingBlocks.PassthroughProjectionSurfaceBuildingBlock
 class CORDL_TYPE PassthroughProjectionSurfaceBuildingBlock : public ::UnityEngine::MonoBehaviour {
 public:
-  // Declarations
-  /// @brief Field projectionObject, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_projectionObject, put = __cordl_internal_set_projectionObject)) ::UnityW<::UnityEngine::MeshFilter> projectionObject;
+// Declarations
+/// @brief Field projectionObject, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_projectionObject, put=__cordl_internal_set_projectionObject)) ::UnityW<::UnityEngine::MeshFilter>  projectionObject;
 
-  static inline ::Meta::XR::BuildingBlocks::PassthroughProjectionSurfaceBuildingBlock* New_ctor();
+static inline ::Meta::XR::BuildingBlocks::PassthroughProjectionSurfaceBuildingBlock* New_ctor() ;
 
-  /// @brief Method Start, addr 0x58f6ef0, size 0x1f4, virtual false, abstract: false, final false
-  inline void Start();
+/// @brief Method Start, addr 0x58f88c0, size 0x1f4, virtual false, abstract: false, final false
+inline void Start() ;
 
-  constexpr ::UnityW<::UnityEngine::MeshFilter> const& __cordl_internal_get_projectionObject() const;
+constexpr ::UnityW<::UnityEngine::MeshFilter> const& __cordl_internal_get_projectionObject() const;
 
-  constexpr ::UnityW<::UnityEngine::MeshFilter>& __cordl_internal_get_projectionObject();
+constexpr ::UnityW<::UnityEngine::MeshFilter>& __cordl_internal_get_projectionObject() ;
 
-  constexpr void __cordl_internal_set_projectionObject(::UnityW<::UnityEngine::MeshFilter> value);
+constexpr void __cordl_internal_set_projectionObject(::UnityW<::UnityEngine::MeshFilter>  value) ;
 
-  /// @brief Method .ctor, addr 0x58f70e4, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x58f8ab4, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PassthroughProjectionSurfaceBuildingBlock();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr PassthroughProjectionSurfaceBuildingBlock() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PassthroughProjectionSurfaceBuildingBlock", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  PassthroughProjectionSurfaceBuildingBlock(PassthroughProjectionSurfaceBuildingBlock&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PassthroughProjectionSurfaceBuildingBlock", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  PassthroughProjectionSurfaceBuildingBlock(PassthroughProjectionSurfaceBuildingBlock const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "PassthroughProjectionSurfaceBuildingBlock", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+PassthroughProjectionSurfaceBuildingBlock(PassthroughProjectionSurfaceBuildingBlock && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21178 };
+// Ctor Parameters [CppParam { name: "", ty: "PassthroughProjectionSurfaceBuildingBlock", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+PassthroughProjectionSurfaceBuildingBlock(PassthroughProjectionSurfaceBuildingBlock const& ) = delete;
 
-  /// @brief Field projectionObject, offset: 0x20, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::MeshFilter> ___projectionObject;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{21181};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field projectionObject, offset: 0x20, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::MeshFilter>  ___projectionObject;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Meta::XR::BuildingBlocks::PassthroughProjectionSurfaceBuildingBlock, ___projectionObject) == 0x20, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::Meta::XR::BuildingBlocks::PassthroughProjectionSurfaceBuildingBlock, 0x28>, "Size mismatch!");
 
-} // namespace Meta::XR::BuildingBlocks
+} // namespace end def Meta::XR::BuildingBlocks
 NEED_NO_BOX(::Meta::XR::BuildingBlocks::PassthroughProjectionSurfaceBuildingBlock);
 DEFINE_IL2CPP_ARG_TYPE(::Meta::XR::BuildingBlocks::PassthroughProjectionSurfaceBuildingBlock*, "Meta.XR.BuildingBlocks", "PassthroughProjectionSurfaceBuildingBlock");

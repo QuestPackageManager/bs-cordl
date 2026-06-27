@@ -23,43 +23,42 @@ namespace Internal::Runtime::Augments {
 // CS Name: Internal.Runtime.Augments.RuntimeAugments
 class CORDL_TYPE RuntimeAugments : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field s_reflectionExecutionDomainCallbacks, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_s_reflectionExecutionDomainCallbacks,
-                      put = setStaticF_s_reflectionExecutionDomainCallbacks)) ::Internal::Runtime::Augments::ReflectionExecutionDomainCallbacks* s_reflectionExecutionDomainCallbacks;
+// Declarations
+/// @brief Field s_reflectionExecutionDomainCallbacks, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_s_reflectionExecutionDomainCallbacks, put=setStaticF_s_reflectionExecutionDomainCallbacks)) ::Internal::Runtime::Augments::ReflectionExecutionDomainCallbacks*  s_reflectionExecutionDomainCallbacks;
 
-  /// @brief Method ReportUnhandledException, addr 0x598b05c, size 0x1c, virtual false, abstract: false, final false
-  static inline void ReportUnhandledException(::System::Exception* exception);
+/// @brief Method ReportUnhandledException, addr 0x598cbd4, size 0x1c, virtual false, abstract: false, final false
+static inline void ReportUnhandledException(::System::Exception*  exception) ;
 
-  static inline ::Internal::Runtime::Augments::ReflectionExecutionDomainCallbacks* getStaticF_s_reflectionExecutionDomainCallbacks();
+static inline ::Internal::Runtime::Augments::ReflectionExecutionDomainCallbacks* getStaticF_s_reflectionExecutionDomainCallbacks() ;
 
-  /// @brief Method get_Callbacks, addr 0x598b078, size 0x5c, virtual false, abstract: false, final false
-  static inline ::Internal::Runtime::Augments::ReflectionExecutionDomainCallbacks* get_Callbacks();
+/// @brief Method get_Callbacks, addr 0x598cbf0, size 0x5c, virtual false, abstract: false, final false
+static inline ::Internal::Runtime::Augments::ReflectionExecutionDomainCallbacks* get_Callbacks() ;
 
-  static inline void setStaticF_s_reflectionExecutionDomainCallbacks(::Internal::Runtime::Augments::ReflectionExecutionDomainCallbacks* value);
+static inline void setStaticF_s_reflectionExecutionDomainCallbacks(::Internal::Runtime::Augments::ReflectionExecutionDomainCallbacks*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RuntimeAugments();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr RuntimeAugments() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RuntimeAugments", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  RuntimeAugments(RuntimeAugments&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RuntimeAugments", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  RuntimeAugments(RuntimeAugments const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "RuntimeAugments", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+RuntimeAugments(RuntimeAugments && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2306 };
+// Ctor Parameters [CppParam { name: "", ty: "RuntimeAugments", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+RuntimeAugments(RuntimeAugments const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{2306};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Internal::Runtime::Augments::RuntimeAugments, 0x10>, "Size mismatch!");
 
-} // namespace Internal::Runtime::Augments
+} // namespace end def Internal::Runtime::Augments
 NEED_NO_BOX(::Internal::Runtime::Augments::RuntimeAugments);
 DEFINE_IL2CPP_ARG_TYPE(::Internal::Runtime::Augments::RuntimeAugments*, "Internal.Runtime.Augments", "RuntimeAugments");

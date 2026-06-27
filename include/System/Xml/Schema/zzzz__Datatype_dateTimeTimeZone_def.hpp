@@ -17,34 +17,34 @@ namespace System::Xml::Schema {
 // CS Name: System.Xml.Schema.Datatype_dateTimeTimeZone
 class CORDL_TYPE Datatype_dateTimeTimeZone : public ::System::Xml::Schema::Datatype_dateTimeBase {
 public:
-  // Declarations
-  static inline ::System::Xml::Schema::Datatype_dateTimeTimeZone* New_ctor();
+// Declarations
+static inline ::System::Xml::Schema::Datatype_dateTimeTimeZone* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x607d660, size 0x5c, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x607f1d8, size 0x5c, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Datatype_dateTimeTimeZone();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr Datatype_dateTimeTimeZone() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Datatype_dateTimeTimeZone", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  Datatype_dateTimeTimeZone(Datatype_dateTimeTimeZone&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Datatype_dateTimeTimeZone", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  Datatype_dateTimeTimeZone(Datatype_dateTimeTimeZone const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "Datatype_dateTimeTimeZone", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Datatype_dateTimeTimeZone(Datatype_dateTimeTimeZone && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9617 };
+// Ctor Parameters [CppParam { name: "", ty: "Datatype_dateTimeTimeZone", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Datatype_dateTimeTimeZone(Datatype_dateTimeTimeZone const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9618};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::Datatype_dateTimeTimeZone, 0x40>, "Size mismatch!");
 
-} // namespace System::Xml::Schema
+} // namespace end def System::Xml::Schema
 NEED_NO_BOX(::System::Xml::Schema::Datatype_dateTimeTimeZone);
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::Datatype_dateTimeTimeZone*, "System.Xml.Schema", "Datatype_dateTimeTimeZone");

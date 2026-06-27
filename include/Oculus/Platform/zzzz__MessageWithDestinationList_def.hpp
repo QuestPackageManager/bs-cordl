@@ -23,40 +23,40 @@ namespace Oculus::Platform {
 // CS Name: Oculus.Platform.MessageWithDestinationList
 class CORDL_TYPE MessageWithDestinationList : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::DestinationList*> {
 public:
-  // Declarations
-  /// @brief Method GetDataFromMessage, addr 0x5c9ec70, size 0x9c, virtual true, abstract: false, final false
-  inline ::Oculus::Platform::Models::DestinationList* GetDataFromMessage(::System::IntPtr c_message);
+// Declarations
+/// @brief Method GetDataFromMessage, addr 0x5ca07e8, size 0x9c, virtual true, abstract: false, final false
+inline ::Oculus::Platform::Models::DestinationList* GetDataFromMessage(::System::IntPtr  c_message) ;
 
-  /// @brief Method GetDestinationList, addr 0x5c9ec2c, size 0x44, virtual true, abstract: false, final false
-  inline ::Oculus::Platform::Models::DestinationList* GetDestinationList();
+/// @brief Method GetDestinationList, addr 0x5ca07a4, size 0x44, virtual true, abstract: false, final false
+inline ::Oculus::Platform::Models::DestinationList* GetDestinationList() ;
 
-  static inline ::Oculus::Platform::MessageWithDestinationList* New_ctor(::System::IntPtr c_message);
+static inline ::Oculus::Platform::MessageWithDestinationList* New_ctor(::System::IntPtr  c_message) ;
 
-  /// @brief Method .ctor, addr 0x5c9b64c, size 0x5c, virtual false, abstract: false, final false
-  inline void _ctor(::System::IntPtr c_message);
+/// @brief Method .ctor, addr 0x5c9d1c4, size 0x5c, virtual false, abstract: false, final false
+inline void _ctor(::System::IntPtr  c_message) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MessageWithDestinationList();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr MessageWithDestinationList() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MessageWithDestinationList", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  MessageWithDestinationList(MessageWithDestinationList&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MessageWithDestinationList", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  MessageWithDestinationList(MessageWithDestinationList const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "MessageWithDestinationList", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+MessageWithDestinationList(MessageWithDestinationList && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17862 };
+// Ctor Parameters [CppParam { name: "", ty: "MessageWithDestinationList", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+MessageWithDestinationList(MessageWithDestinationList const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{17864};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Oculus::Platform::MessageWithDestinationList, 0x30>, "Size mismatch!");
 
-} // namespace Oculus::Platform
+} // namespace end def Oculus::Platform
 NEED_NO_BOX(::Oculus::Platform::MessageWithDestinationList);
 DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::MessageWithDestinationList*, "Oculus.Platform", "MessageWithDestinationList");

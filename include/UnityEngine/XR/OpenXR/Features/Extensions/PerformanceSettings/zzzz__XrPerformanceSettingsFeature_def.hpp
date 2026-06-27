@@ -22,7 +22,8 @@ namespace System {
 class Object;
 }
 namespace UnityEngine::Events {
-template <typename T0> class UnityAction_1;
+template<typename T0>
+class UnityAction_1;
 }
 namespace UnityEngine::XR::OpenXR::Features::Extensions::PerformanceSettings {
 class NativeApi_XrPerformanceSettingsFeature_XrPerformanceNotificationDelegate;
@@ -59,164 +60,150 @@ namespace UnityEngine::XR::OpenXR::Features::Extensions::PerformanceSettings {
 // CS Name: UnityEngine.XR.OpenXR.Features.Extensions.PerformanceSettings.XrPerformanceSettingsFeature/NativeApi/XrPerformanceNotificationDelegate
 class CORDL_TYPE NativeApi_XrPerformanceSettingsFeature_XrPerformanceNotificationDelegate : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x68c0bd4, size 0x88, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::UnityEngine::XR::OpenXR::Features::Extensions::PerformanceSettings::PerformanceChangeNotification notification, ::System::AsyncCallback* callback,
-                                             ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x68c274c, size 0x88, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(::UnityEngine::XR::OpenXR::Features::Extensions::PerformanceSettings::PerformanceChangeNotification  notification, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x68c0c5c, size 0xc, virtual true, abstract: false, final false
-  inline void EndInvoke(::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x68c27d4, size 0xc, virtual true, abstract: false, final false
+inline void EndInvoke(::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x68c0bc0, size 0x14, virtual true, abstract: false, final false
-  inline void Invoke(::UnityEngine::XR::OpenXR::Features::Extensions::PerformanceSettings::PerformanceChangeNotification notification);
+/// @brief Method Invoke, addr 0x68c2738, size 0x14, virtual true, abstract: false, final false
+inline void Invoke(::UnityEngine::XR::OpenXR::Features::Extensions::PerformanceSettings::PerformanceChangeNotification  notification) ;
 
-  static inline ::UnityEngine::XR::OpenXR::Features::Extensions::PerformanceSettings::NativeApi_XrPerformanceSettingsFeature_XrPerformanceNotificationDelegate* New_ctor(::System::Object* object,
-                                                                                                                                                                         ::System::IntPtr method);
+static inline ::UnityEngine::XR::OpenXR::Features::Extensions::PerformanceSettings::NativeApi_XrPerformanceSettingsFeature_XrPerformanceNotificationDelegate* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x68c0ac4, size 0x6c, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x68c263c, size 0x6c, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NativeApi_XrPerformanceSettingsFeature_XrPerformanceNotificationDelegate();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr NativeApi_XrPerformanceSettingsFeature_XrPerformanceNotificationDelegate() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NativeApi_XrPerformanceSettingsFeature_XrPerformanceNotificationDelegate", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  NativeApi_XrPerformanceSettingsFeature_XrPerformanceNotificationDelegate(NativeApi_XrPerformanceSettingsFeature_XrPerformanceNotificationDelegate&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NativeApi_XrPerformanceSettingsFeature_XrPerformanceNotificationDelegate", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  NativeApi_XrPerformanceSettingsFeature_XrPerformanceNotificationDelegate(NativeApi_XrPerformanceSettingsFeature_XrPerformanceNotificationDelegate const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "NativeApi_XrPerformanceSettingsFeature_XrPerformanceNotificationDelegate", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+NativeApi_XrPerformanceSettingsFeature_XrPerformanceNotificationDelegate(NativeApi_XrPerformanceSettingsFeature_XrPerformanceNotificationDelegate && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18578 };
+// Ctor Parameters [CppParam { name: "", ty: "NativeApi_XrPerformanceSettingsFeature_XrPerformanceNotificationDelegate", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+NativeApi_XrPerformanceSettingsFeature_XrPerformanceNotificationDelegate(NativeApi_XrPerformanceSettingsFeature_XrPerformanceNotificationDelegate const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{18580};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::XR::OpenXR::Features::Extensions::PerformanceSettings::NativeApi_XrPerformanceSettingsFeature_XrPerformanceNotificationDelegate, 0x80>,
-              "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::XR::OpenXR::Features::Extensions::PerformanceSettings::NativeApi_XrPerformanceSettingsFeature_XrPerformanceNotificationDelegate, 0x80>, "Size mismatch!");
 
-} // namespace UnityEngine::XR::OpenXR::Features::Extensions::PerformanceSettings
+} // namespace end def UnityEngine::XR::OpenXR::Features::Extensions::PerformanceSettings
 // Dependencies System.Object
 namespace UnityEngine::XR::OpenXR::Features::Extensions::PerformanceSettings {
 // Is value type: false
 // CS Name: UnityEngine.XR.OpenXR.Features.Extensions.PerformanceSettings.XrPerformanceSettingsFeature/NativeApi
 class CORDL_TYPE XrPerformanceSettingsFeature_NativeApi : public ::System::Object {
 public:
-  // Declarations
-  using XrPerformanceNotificationDelegate = ::UnityEngine::XR::OpenXR::Features::Extensions::PerformanceSettings::NativeApi_XrPerformanceSettingsFeature_XrPerformanceNotificationDelegate;
+// Declarations
+using XrPerformanceNotificationDelegate = ::UnityEngine::XR::OpenXR::Features::Extensions::PerformanceSettings::NativeApi_XrPerformanceSettingsFeature_XrPerformanceNotificationDelegate;
 
-  /// @brief Method xr_performance_settings_setEventCallback, addr 0x68c0b30, size 0x88, virtual false, abstract: false, final false
-  static inline bool
-  xr_performance_settings_setEventCallback(::UnityEngine::XR::OpenXR::Features::Extensions::PerformanceSettings::NativeApi_XrPerformanceSettingsFeature_XrPerformanceNotificationDelegate* callback);
+/// @brief Method xr_performance_settings_setEventCallback, addr 0x68c26a8, size 0x88, virtual false, abstract: false, final false
+static inline bool xr_performance_settings_setEventCallback(::UnityEngine::XR::OpenXR::Features::Extensions::PerformanceSettings::NativeApi_XrPerformanceSettingsFeature_XrPerformanceNotificationDelegate*  callback) ;
 
-  /// @brief Method xr_performance_settings_setPerformanceLevel, addr 0x68c0990, size 0x8c, virtual false, abstract: false, final false
-  static inline bool xr_performance_settings_setPerformanceLevel(::UnityEngine::XR::OpenXR::Features::Extensions::PerformanceSettings::PerformanceDomain domain,
-                                                                 ::UnityEngine::XR::OpenXR::Features::Extensions::PerformanceSettings::PerformanceLevelHint level);
+/// @brief Method xr_performance_settings_setPerformanceLevel, addr 0x68c2508, size 0x8c, virtual false, abstract: false, final false
+static inline bool xr_performance_settings_setPerformanceLevel(::UnityEngine::XR::OpenXR::Features::Extensions::PerformanceSettings::PerformanceDomain  domain, ::UnityEngine::XR::OpenXR::Features::Extensions::PerformanceSettings::PerformanceLevelHint  level) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr XrPerformanceSettingsFeature_NativeApi();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr XrPerformanceSettingsFeature_NativeApi() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XrPerformanceSettingsFeature_NativeApi", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  XrPerformanceSettingsFeature_NativeApi(XrPerformanceSettingsFeature_NativeApi&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XrPerformanceSettingsFeature_NativeApi", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  XrPerformanceSettingsFeature_NativeApi(XrPerformanceSettingsFeature_NativeApi const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "XrPerformanceSettingsFeature_NativeApi", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+XrPerformanceSettingsFeature_NativeApi(XrPerformanceSettingsFeature_NativeApi && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18579 };
+// Ctor Parameters [CppParam { name: "", ty: "XrPerformanceSettingsFeature_NativeApi", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+XrPerformanceSettingsFeature_NativeApi(XrPerformanceSettingsFeature_NativeApi const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{18581};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::XR::OpenXR::Features::Extensions::PerformanceSettings::XrPerformanceSettingsFeature_NativeApi, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::XR::OpenXR::Features::Extensions::PerformanceSettings
+} // namespace end def UnityEngine::XR::OpenXR::Features::Extensions::PerformanceSettings
 // Dependencies UnityEngine.XR.OpenXR.Features.OpenXRFeature
 namespace UnityEngine::XR::OpenXR::Features::Extensions::PerformanceSettings {
 // Is value type: false
 // CS Name: UnityEngine.XR.OpenXR.Features.Extensions.PerformanceSettings.XrPerformanceSettingsFeature
 class CORDL_TYPE XrPerformanceSettingsFeature : public ::UnityEngine::XR::OpenXR::Features::OpenXRFeature {
 public:
-  // Declarations
-  using NativeApi = ::UnityEngine::XR::OpenXR::Features::Extensions::PerformanceSettings::XrPerformanceSettingsFeature_NativeApi;
+// Declarations
+using NativeApi = ::UnityEngine::XR::OpenXR::Features::Extensions::PerformanceSettings::XrPerformanceSettingsFeature_NativeApi;
 
-  /// @brief Field OnXrPerformanceChangeNotification, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_OnXrPerformanceChangeNotification, put = setStaticF_OnXrPerformanceChangeNotification)) ::UnityEngine::Events::UnityAction_1<
-      ::UnityEngine::XR::OpenXR::Features::Extensions::PerformanceSettings::PerformanceChangeNotification>* OnXrPerformanceChangeNotification;
+/// @brief Field OnXrPerformanceChangeNotification, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_OnXrPerformanceChangeNotification, put=setStaticF_OnXrPerformanceChangeNotification)) ::UnityEngine::Events::UnityAction_1<::UnityEngine::XR::OpenXR::Features::Extensions::PerformanceSettings::PerformanceChangeNotification>*  OnXrPerformanceChangeNotification;
 
-  static inline ::UnityEngine::XR::OpenXR::Features::Extensions::PerformanceSettings::XrPerformanceSettingsFeature* New_ctor();
+static inline ::UnityEngine::XR::OpenXR::Features::Extensions::PerformanceSettings::XrPerformanceSettingsFeature* New_ctor() ;
 
-  /// @brief Method OnInstanceCreate, addr 0x68c0a1c, size 0xa8, virtual true, abstract: false, final false
-  inline bool OnInstanceCreate(uint64_t xrInstance);
+/// @brief Method OnInstanceCreate, addr 0x68c2594, size 0xa8, virtual true, abstract: false, final false
+inline bool OnInstanceCreate(uint64_t  xrInstance) ;
 
-  /// @brief Method OnXrPerformanceNotificationCallback, addr 0x68c06d4, size 0x84, virtual false, abstract: false, final false
-  static inline void OnXrPerformanceNotificationCallback(::UnityEngine::XR::OpenXR::Features::Extensions::PerformanceSettings::PerformanceChangeNotification notification);
+/// @brief Method OnXrPerformanceNotificationCallback, addr 0x68c224c, size 0x84, virtual false, abstract: false, final false
+static inline void OnXrPerformanceNotificationCallback(::UnityEngine::XR::OpenXR::Features::Extensions::PerformanceSettings::PerformanceChangeNotification  notification) ;
 
-  /// @brief Method SetPerformanceLevelHint, addr 0x68c0918, size 0x78, virtual false, abstract: false, final false
-  static inline bool SetPerformanceLevelHint(::UnityEngine::XR::OpenXR::Features::Extensions::PerformanceSettings::PerformanceDomain domain,
-                                             ::UnityEngine::XR::OpenXR::Features::Extensions::PerformanceSettings::PerformanceLevelHint level);
+/// @brief Method SetPerformanceLevelHint, addr 0x68c2490, size 0x78, virtual false, abstract: false, final false
+static inline bool SetPerformanceLevelHint(::UnityEngine::XR::OpenXR::Features::Extensions::PerformanceSettings::PerformanceDomain  domain, ::UnityEngine::XR::OpenXR::Features::Extensions::PerformanceSettings::PerformanceLevelHint  level) ;
 
-  /// @brief Method .ctor, addr 0x68c0bb8, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x68c2730, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method add_OnXrPerformanceChangeNotification, addr 0x68c0758, size 0xe0, virtual false, abstract: false, final false
-  static inline void
-  add_OnXrPerformanceChangeNotification(::UnityEngine::Events::UnityAction_1<::UnityEngine::XR::OpenXR::Features::Extensions::PerformanceSettings::PerformanceChangeNotification>* value);
+/// @brief Method add_OnXrPerformanceChangeNotification, addr 0x68c22d0, size 0xe0, virtual false, abstract: false, final false
+static inline void add_OnXrPerformanceChangeNotification(::UnityEngine::Events::UnityAction_1<::UnityEngine::XR::OpenXR::Features::Extensions::PerformanceSettings::PerformanceChangeNotification>*  value) ;
 
-  static inline ::UnityEngine::Events::UnityAction_1<::UnityEngine::XR::OpenXR::Features::Extensions::PerformanceSettings::PerformanceChangeNotification>*
-  getStaticF_OnXrPerformanceChangeNotification();
+static inline ::UnityEngine::Events::UnityAction_1<::UnityEngine::XR::OpenXR::Features::Extensions::PerformanceSettings::PerformanceChangeNotification>* getStaticF_OnXrPerformanceChangeNotification() ;
 
-  /// @brief Method remove_OnXrPerformanceChangeNotification, addr 0x68c0838, size 0xe0, virtual false, abstract: false, final false
-  static inline void
-  remove_OnXrPerformanceChangeNotification(::UnityEngine::Events::UnityAction_1<::UnityEngine::XR::OpenXR::Features::Extensions::PerformanceSettings::PerformanceChangeNotification>* value);
+/// @brief Method remove_OnXrPerformanceChangeNotification, addr 0x68c23b0, size 0xe0, virtual false, abstract: false, final false
+static inline void remove_OnXrPerformanceChangeNotification(::UnityEngine::Events::UnityAction_1<::UnityEngine::XR::OpenXR::Features::Extensions::PerformanceSettings::PerformanceChangeNotification>*  value) ;
 
-  static inline void
-  setStaticF_OnXrPerformanceChangeNotification(::UnityEngine::Events::UnityAction_1<::UnityEngine::XR::OpenXR::Features::Extensions::PerformanceSettings::PerformanceChangeNotification>* value);
+static inline void setStaticF_OnXrPerformanceChangeNotification(::UnityEngine::Events::UnityAction_1<::UnityEngine::XR::OpenXR::Features::Extensions::PerformanceSettings::PerformanceChangeNotification>*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr XrPerformanceSettingsFeature();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr XrPerformanceSettingsFeature() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XrPerformanceSettingsFeature", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  XrPerformanceSettingsFeature(XrPerformanceSettingsFeature&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XrPerformanceSettingsFeature", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  XrPerformanceSettingsFeature(XrPerformanceSettingsFeature const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "XrPerformanceSettingsFeature", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+XrPerformanceSettingsFeature(XrPerformanceSettingsFeature && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18580 };
+// Ctor Parameters [CppParam { name: "", ty: "XrPerformanceSettingsFeature", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+XrPerformanceSettingsFeature(XrPerformanceSettingsFeature const& ) = delete;
 
-  /// @brief Field extensionString offset 0xffffffff size 0x8
-  static constexpr ::ConstString extensionString{ u"XR_EXT_performance_settings" };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{18582};
 
-  /// @brief Field featureId offset 0xffffffff size 0x8
-  static constexpr ::ConstString featureId{ u"com.unity.openxr.feature.extension.performance_settings" };
+/// @brief Field extensionString offset 0xffffffff size 0x8
+static constexpr ::ConstString  extensionString{u"XR_EXT_performance_settings"};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field featureId offset 0xffffffff size 0x8
+static constexpr ::ConstString  featureId{u"com.unity.openxr.feature.extension.performance_settings"};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::XR::OpenXR::Features::Extensions::PerformanceSettings::XrPerformanceSettingsFeature, 0x50>, "Size mismatch!");
 
-} // namespace UnityEngine::XR::OpenXR::Features::Extensions::PerformanceSettings
+} // namespace end def UnityEngine::XR::OpenXR::Features::Extensions::PerformanceSettings
 NEED_NO_BOX(::UnityEngine::XR::OpenXR::Features::Extensions::PerformanceSettings::NativeApi_XrPerformanceSettingsFeature_XrPerformanceNotificationDelegate);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::XR::OpenXR::Features::Extensions::PerformanceSettings::NativeApi_XrPerformanceSettingsFeature_XrPerformanceNotificationDelegate*,
-                       "UnityEngine.XR.OpenXR.Features.Extensions.PerformanceSettings", "XrPerformanceSettingsFeature/NativeApi/XrPerformanceNotificationDelegate");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::XR::OpenXR::Features::Extensions::PerformanceSettings::NativeApi_XrPerformanceSettingsFeature_XrPerformanceNotificationDelegate*, "UnityEngine.XR.OpenXR.Features.Extensions.PerformanceSettings", "XrPerformanceSettingsFeature/NativeApi/XrPerformanceNotificationDelegate");
 NEED_NO_BOX(::UnityEngine::XR::OpenXR::Features::Extensions::PerformanceSettings::XrPerformanceSettingsFeature);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::XR::OpenXR::Features::Extensions::PerformanceSettings::XrPerformanceSettingsFeature*, "UnityEngine.XR.OpenXR.Features.Extensions.PerformanceSettings",
-                       "XrPerformanceSettingsFeature");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::XR::OpenXR::Features::Extensions::PerformanceSettings::XrPerformanceSettingsFeature*, "UnityEngine.XR.OpenXR.Features.Extensions.PerformanceSettings", "XrPerformanceSettingsFeature");
 NEED_NO_BOX(::UnityEngine::XR::OpenXR::Features::Extensions::PerformanceSettings::XrPerformanceSettingsFeature_NativeApi);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::XR::OpenXR::Features::Extensions::PerformanceSettings::XrPerformanceSettingsFeature_NativeApi*, "UnityEngine.XR.OpenXR.Features.Extensions.PerformanceSettings",
-                       "XrPerformanceSettingsFeature/NativeApi");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::XR::OpenXR::Features::Extensions::PerformanceSettings::XrPerformanceSettingsFeature_NativeApi*, "UnityEngine.XR.OpenXR.Features.Extensions.PerformanceSettings", "XrPerformanceSettingsFeature/NativeApi");

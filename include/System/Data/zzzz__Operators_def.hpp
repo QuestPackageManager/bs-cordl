@@ -19,58 +19,58 @@ namespace System::Data {
 // CS Name: System.Data.Operators
 class CORDL_TYPE Operators : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field s_looks, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_s_looks, put = setStaticF_s_looks)) ::ArrayW<::StringW, ::Array<::StringW>*> s_looks;
+// Declarations
+/// @brief Field s_looks, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_s_looks, put=setStaticF_s_looks)) ::ArrayW<::StringW,::Array<::StringW>*>  s_looks;
 
-  /// @brief Field s_priority, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_s_priority, put = setStaticF_s_priority)) ::ArrayW<int32_t, ::Array<int32_t>*> s_priority;
+/// @brief Field s_priority, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_s_priority, put=setStaticF_s_priority)) ::ArrayW<int32_t,::Array<int32_t>*>  s_priority;
 
-  /// @brief Method IsArithmetical, addr 0x5f01910, size 0x1c, virtual false, abstract: false, final false
-  static inline bool IsArithmetical(int32_t op);
+/// @brief Method IsArithmetical, addr 0x5f03488, size 0x1c, virtual false, abstract: false, final false
+static inline bool IsArithmetical(int32_t  op) ;
 
-  /// @brief Method IsLogical, addr 0x5f0192c, size 0x20, virtual false, abstract: false, final false
-  static inline bool IsLogical(int32_t op);
+/// @brief Method IsLogical, addr 0x5f034a4, size 0x20, virtual false, abstract: false, final false
+static inline bool IsLogical(int32_t  op) ;
 
-  /// @brief Method IsRelational, addr 0x5f0194c, size 0x10, virtual false, abstract: false, final false
-  static inline bool IsRelational(int32_t op);
+/// @brief Method IsRelational, addr 0x5f034c4, size 0x10, virtual false, abstract: false, final false
+static inline bool IsRelational(int32_t  op) ;
 
-  /// @brief Method Priority, addr 0x5f0195c, size 0xb0, virtual false, abstract: false, final false
-  static inline int32_t Priority(int32_t op);
+/// @brief Method Priority, addr 0x5f034d4, size 0xb0, virtual false, abstract: false, final false
+static inline int32_t Priority(int32_t  op) ;
 
-  /// @brief Method ToString, addr 0x5f01a0c, size 0xcc, virtual false, abstract: false, final false
-  static inline ::StringW ToString(int32_t op);
+/// @brief Method ToString, addr 0x5f03584, size 0xcc, virtual false, abstract: false, final false
+static inline ::StringW ToString(int32_t  op) ;
 
-  static inline ::ArrayW<::StringW, ::Array<::StringW>*> getStaticF_s_looks();
+static inline ::ArrayW<::StringW,::Array<::StringW>*> getStaticF_s_looks() ;
 
-  static inline ::ArrayW<int32_t, ::Array<int32_t>*> getStaticF_s_priority();
+static inline ::ArrayW<int32_t,::Array<int32_t>*> getStaticF_s_priority() ;
 
-  static inline void setStaticF_s_looks(::ArrayW<::StringW, ::Array<::StringW>*> value);
+static inline void setStaticF_s_looks(::ArrayW<::StringW,::Array<::StringW>*>  value) ;
 
-  static inline void setStaticF_s_priority(::ArrayW<int32_t, ::Array<int32_t>*> value);
+static inline void setStaticF_s_priority(::ArrayW<int32_t,::Array<int32_t>*>  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Operators();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr Operators() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Operators", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  Operators(Operators&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Operators", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  Operators(Operators const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "Operators", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Operators(Operators && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13812 };
+// Ctor Parameters [CppParam { name: "", ty: "Operators", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Operators(Operators const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{13813};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Data::Operators, 0x10>, "Size mismatch!");
 
-} // namespace System::Data
+} // namespace end def System::Data
 NEED_NO_BOX(::System::Data::Operators);
 DEFINE_IL2CPP_ARG_TYPE(::System::Data::Operators*, "System.Data", "Operators");

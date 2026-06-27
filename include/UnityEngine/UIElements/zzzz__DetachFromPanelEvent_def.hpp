@@ -25,82 +25,82 @@ namespace UnityEngine::UIElements {
 // CS Name: UnityEngine.UIElements.DetachFromPanelEvent/<>c
 class CORDL_TYPE DetachFromPanelEvent___c : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field <>9, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::UIElements::DetachFromPanelEvent___c* __9;
+// Declarations
+/// @brief Field <>9, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF___9, put=setStaticF___9)) ::UnityEngine::UIElements::DetachFromPanelEvent___c*  __9;
 
-  static inline ::UnityEngine::UIElements::DetachFromPanelEvent___c* New_ctor();
+static inline ::UnityEngine::UIElements::DetachFromPanelEvent___c* New_ctor() ;
 
-  /// @brief Method <.cctor>b__0_0, addr 0x6c49a5c, size 0x54, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::DetachFromPanelEvent* __cctor_b__0_0();
+/// @brief Method <.cctor>b__0_0, addr 0x6c4b5d4, size 0x54, virtual false, abstract: false, final false
+inline ::UnityEngine::UIElements::DetachFromPanelEvent* __cctor_b__0_0() ;
 
-  /// @brief Method .ctor, addr 0x6c49a58, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6c4b5d0, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  static inline ::UnityEngine::UIElements::DetachFromPanelEvent___c* getStaticF___9();
+static inline ::UnityEngine::UIElements::DetachFromPanelEvent___c* getStaticF___9() ;
 
-  static inline void setStaticF___9(::UnityEngine::UIElements::DetachFromPanelEvent___c* value);
+static inline void setStaticF___9(::UnityEngine::UIElements::DetachFromPanelEvent___c*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DetachFromPanelEvent___c();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr DetachFromPanelEvent___c() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DetachFromPanelEvent___c", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  DetachFromPanelEvent___c(DetachFromPanelEvent___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DetachFromPanelEvent___c", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  DetachFromPanelEvent___c(DetachFromPanelEvent___c const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "DetachFromPanelEvent___c", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+DetachFromPanelEvent___c(DetachFromPanelEvent___c && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4528 };
+// Ctor Parameters [CppParam { name: "", ty: "DetachFromPanelEvent___c", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+DetachFromPanelEvent___c(DetachFromPanelEvent___c const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4528};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::DetachFromPanelEvent___c, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements
+} // namespace end def UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.PanelChangedEventBase`1<T>
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.DetachFromPanelEvent
 class CORDL_TYPE DetachFromPanelEvent : public ::UnityEngine::UIElements::PanelChangedEventBase_1<::UnityEngine::UIElements::DetachFromPanelEvent*> {
 public:
-  // Declarations
-  using __c = ::UnityEngine::UIElements::DetachFromPanelEvent___c;
+// Declarations
+using __c = ::UnityEngine::UIElements::DetachFromPanelEvent___c;
 
-  static inline ::UnityEngine::UIElements::DetachFromPanelEvent* New_ctor();
+static inline ::UnityEngine::UIElements::DetachFromPanelEvent* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x6c499b8, size 0x4c, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6c4b530, size 0x4c, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DetachFromPanelEvent();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr DetachFromPanelEvent() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DetachFromPanelEvent", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  DetachFromPanelEvent(DetachFromPanelEvent&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DetachFromPanelEvent", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  DetachFromPanelEvent(DetachFromPanelEvent const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "DetachFromPanelEvent", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+DetachFromPanelEvent(DetachFromPanelEvent && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4529 };
+// Ctor Parameters [CppParam { name: "", ty: "DetachFromPanelEvent", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+DetachFromPanelEvent(DetachFromPanelEvent const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4529};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::DetachFromPanelEvent, 0x78>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements
+} // namespace end def UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::DetachFromPanelEvent);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::DetachFromPanelEvent*, "UnityEngine.UIElements", "DetachFromPanelEvent");
 NEED_NO_BOX(::UnityEngine::UIElements::DetachFromPanelEvent___c);

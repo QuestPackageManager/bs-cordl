@@ -30,83 +30,83 @@ namespace Org::BouncyCastle::Utilities::Collections {
 // CS Name: Org.BouncyCastle.Utilities.Collections.UnmodifiableListProxy
 class CORDL_TYPE UnmodifiableListProxy : public ::Org::BouncyCastle::Utilities::Collections::UnmodifiableList {
 public:
-  // Declarations
-  __declspec(property(get = get_Count)) int32_t Count;
+// Declarations
+ __declspec(property(get=get_Count)) int32_t  Count;
 
-  __declspec(property(get = get_IsFixedSize)) bool IsFixedSize;
+ __declspec(property(get=get_IsFixedSize)) bool  IsFixedSize;
 
-  __declspec(property(get = get_IsSynchronized)) bool IsSynchronized;
+ __declspec(property(get=get_IsSynchronized)) bool  IsSynchronized;
 
-  __declspec(property(get = get_SyncRoot)) ::System::Object* SyncRoot;
+ __declspec(property(get=get_SyncRoot)) ::System::Object*  SyncRoot;
 
-  /// @brief Field l, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_l, put = __cordl_internal_set_l)) ::System::Collections::IList* l;
+/// @brief Field l, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_l, put=__cordl_internal_set_l)) ::System::Collections::IList*  l;
 
-  /// @brief Method Contains, addr 0x356b2f4, size 0xb8, virtual true, abstract: false, final false
-  inline bool Contains(::System::Object* o);
+/// @brief Method Contains, addr 0x356c090, size 0xb8, virtual true, abstract: false, final false
+inline bool Contains(::System::Object*  o) ;
 
-  /// @brief Method CopyTo, addr 0x356b3ac, size 0xbc, virtual true, abstract: false, final false
-  inline void CopyTo(::System::Array* array, int32_t index);
+/// @brief Method CopyTo, addr 0x356c148, size 0xbc, virtual true, abstract: false, final false
+inline void CopyTo(::System::Array*  array, int32_t  index) ;
 
-  /// @brief Method GetEnumerator, addr 0x356b510, size 0xa4, virtual true, abstract: false, final false
-  inline ::System::Collections::IEnumerator* GetEnumerator();
+/// @brief Method GetEnumerator, addr 0x356c2ac, size 0xa4, virtual true, abstract: false, final false
+inline ::System::Collections::IEnumerator* GetEnumerator() ;
 
-  /// @brief Method GetValue, addr 0x356b864, size 0xb4, virtual true, abstract: false, final false
-  inline ::System::Object* GetValue(int32_t i);
+/// @brief Method GetValue, addr 0x356c600, size 0xb4, virtual true, abstract: false, final false
+inline ::System::Object* GetValue(int32_t  i) ;
 
-  /// @brief Method IndexOf, addr 0x356b5b4, size 0xb8, virtual true, abstract: false, final false
-  inline int32_t IndexOf(::System::Object* o);
+/// @brief Method IndexOf, addr 0x356c350, size 0xb8, virtual true, abstract: false, final false
+inline int32_t IndexOf(::System::Object*  o) ;
 
-  static inline ::Org::BouncyCastle::Utilities::Collections::UnmodifiableListProxy* New_ctor(::System::Collections::IList* l);
+static inline ::Org::BouncyCastle::Utilities::Collections::UnmodifiableListProxy* New_ctor(::System::Collections::IList*  l) ;
 
-  constexpr ::System::Collections::IList* const& __cordl_internal_get_l() const;
+constexpr ::System::Collections::IList* const& __cordl_internal_get_l() const;
 
-  constexpr ::System::Collections::IList*& __cordl_internal_get_l();
+constexpr ::System::Collections::IList*& __cordl_internal_get_l() ;
 
-  constexpr void __cordl_internal_set_l(::System::Collections::IList* value);
+constexpr void __cordl_internal_set_l(::System::Collections::IList*  value) ;
 
-  /// @brief Method .ctor, addr 0x3567e84, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::System::Collections::IList* l);
+/// @brief Method .ctor, addr 0x3568c20, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(::System::Collections::IList*  l) ;
 
-  /// @brief Method get_Count, addr 0x356b468, size 0xa8, virtual true, abstract: false, final false
-  inline int32_t get_Count();
+/// @brief Method get_Count, addr 0x356c204, size 0xa8, virtual true, abstract: false, final false
+inline int32_t get_Count() ;
 
-  /// @brief Method get_IsFixedSize, addr 0x356b66c, size 0xa8, virtual true, abstract: false, final false
-  inline bool get_IsFixedSize();
+/// @brief Method get_IsFixedSize, addr 0x356c408, size 0xa8, virtual true, abstract: false, final false
+inline bool get_IsFixedSize() ;
 
-  /// @brief Method get_IsSynchronized, addr 0x356b714, size 0xa8, virtual true, abstract: false, final false
-  inline bool get_IsSynchronized();
+/// @brief Method get_IsSynchronized, addr 0x356c4b0, size 0xa8, virtual true, abstract: false, final false
+inline bool get_IsSynchronized() ;
 
-  /// @brief Method get_SyncRoot, addr 0x356b7bc, size 0xa8, virtual true, abstract: false, final false
-  inline ::System::Object* get_SyncRoot();
+/// @brief Method get_SyncRoot, addr 0x356c558, size 0xa8, virtual true, abstract: false, final false
+inline ::System::Object* get_SyncRoot() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr UnmodifiableListProxy();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr UnmodifiableListProxy() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UnmodifiableListProxy", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  UnmodifiableListProxy(UnmodifiableListProxy&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UnmodifiableListProxy", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  UnmodifiableListProxy(UnmodifiableListProxy const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "UnmodifiableListProxy", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+UnmodifiableListProxy(UnmodifiableListProxy && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1788 };
+// Ctor Parameters [CppParam { name: "", ty: "UnmodifiableListProxy", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+UnmodifiableListProxy(UnmodifiableListProxy const& ) = delete;
 
-  /// @brief Field l, offset: 0x10, size: 0x8, def value: None
-  ::System::Collections::IList* ___l;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{1788};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field l, offset: 0x10, size: 0x8, def value: None
+ ::System::Collections::IList*  ___l;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Org::BouncyCastle::Utilities::Collections::UnmodifiableListProxy, ___l) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Utilities::Collections::UnmodifiableListProxy, 0x18>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Utilities::Collections
+} // namespace end def Org::BouncyCastle::Utilities::Collections
 NEED_NO_BOX(::Org::BouncyCastle::Utilities::Collections::UnmodifiableListProxy);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Utilities::Collections::UnmodifiableListProxy*, "Org.BouncyCastle.Utilities.Collections", "UnmodifiableListProxy");

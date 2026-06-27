@@ -53,176 +53,176 @@ namespace UnityEngine::UIElements {
 // CS Name: UnityEngine.UIElements.DataBinding
 class CORDL_TYPE DataBinding : public ::UnityEngine::UIElements::Binding {
 public:
-  // Declarations
-  /// @brief Field <dataSourcePath>k__BackingField, offset 0x48, size 0x90
-  __declspec(property(get = __cordl_internal_get__dataSourcePath_k__BackingField,
-                      put = __cordl_internal_set__dataSourcePath_k__BackingField)) ::Unity::Properties::PropertyPath _dataSourcePath_k__BackingField;
+// Declarations
+/// @brief Field <dataSourcePath>k__BackingField, offset 0x48, size 0x90 
+ __declspec(property(get=__cordl_internal_get__dataSourcePath_k__BackingField, put=__cordl_internal_set__dataSourcePath_k__BackingField)) ::Unity::Properties::PropertyPath  _dataSourcePath_k__BackingField;
 
-  /// @brief Field <dataSourceType>k__BackingField, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__dataSourceType_k__BackingField, put = __cordl_internal_set__dataSourceType_k__BackingField)) ::System::Type* _dataSourceType_k__BackingField;
+/// @brief Field <dataSourceType>k__BackingField, offset 0x40, size 0x8 
+ __declspec(property(get=__cordl_internal_get__dataSourceType_k__BackingField, put=__cordl_internal_set__dataSourceType_k__BackingField)) ::System::Type*  _dataSourceType_k__BackingField;
 
-  /// @brief Field <dataSource>k__BackingField, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__dataSource_k__BackingField, put = __cordl_internal_set__dataSource_k__BackingField)) ::System::Object* _dataSource_k__BackingField;
+/// @brief Field <dataSource>k__BackingField, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get__dataSource_k__BackingField, put=__cordl_internal_set__dataSource_k__BackingField)) ::System::Object*  _dataSource_k__BackingField;
 
-  __declspec(property(get = get_bindingMode, put = set_bindingMode)) ::UnityEngine::UIElements::BindingMode bindingMode;
+ __declspec(property(get=get_bindingMode, put=set_bindingMode)) ::UnityEngine::UIElements::BindingMode  bindingMode;
 
-  __declspec(property(get = get_dataSource, put = set_dataSource)) ::System::Object* dataSource;
+ __declspec(property(get=get_dataSource, put=set_dataSource)) ::System::Object*  dataSource;
 
-  __declspec(property(get = get_dataSourcePath, put = set_dataSourcePath)) ::Unity::Properties::PropertyPath dataSourcePath;
+ __declspec(property(get=get_dataSourcePath, put=set_dataSourcePath)) ::Unity::Properties::PropertyPath  dataSourcePath;
 
-  __declspec(property(get = get_dataSourceType, put = set_dataSourceType)) ::System::Type* dataSourceType;
+ __declspec(property(get=get_dataSourceType, put=set_dataSourceType)) ::System::Type*  dataSourceType;
 
-  /// @brief Field m_BindingMode, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_BindingMode, put = __cordl_internal_set_m_BindingMode)) ::UnityEngine::UIElements::BindingMode m_BindingMode;
+/// @brief Field m_BindingMode, offset 0x20, size 0x4 
+ __declspec(property(get=__cordl_internal_get_m_BindingMode, put=__cordl_internal_set_m_BindingMode)) ::UnityEngine::UIElements::BindingMode  m_BindingMode;
 
-  /// @brief Field m_SourceToUiConverters, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_SourceToUiConverters, put = __cordl_internal_set_m_SourceToUiConverters)) ::UnityEngine::UIElements::ConverterGroup* m_SourceToUiConverters;
+/// @brief Field m_SourceToUiConverters, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_SourceToUiConverters, put=__cordl_internal_set_m_SourceToUiConverters)) ::UnityEngine::UIElements::ConverterGroup*  m_SourceToUiConverters;
 
-  /// @brief Field m_UiToSourceConverters, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_UiToSourceConverters, put = __cordl_internal_set_m_UiToSourceConverters)) ::UnityEngine::UIElements::ConverterGroup* m_UiToSourceConverters;
+/// @brief Field m_UiToSourceConverters, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_UiToSourceConverters, put=__cordl_internal_set_m_UiToSourceConverters)) ::UnityEngine::UIElements::ConverterGroup*  m_UiToSourceConverters;
 
-  /// @brief Field s_UpdateUIMethodInfo, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_s_UpdateUIMethodInfo, put = setStaticF_s_UpdateUIMethodInfo)) ::System::Reflection::MethodInfo* s_UpdateUIMethodInfo;
+/// @brief Field s_UpdateUIMethodInfo, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_s_UpdateUIMethodInfo, put=setStaticF_s_UpdateUIMethodInfo)) ::System::Reflection::MethodInfo*  s_UpdateUIMethodInfo;
 
-  __declspec(property(get = get_sourceToUiConverters)) ::UnityEngine::UIElements::ConverterGroup* sourceToUiConverters;
+ __declspec(property(get=get_sourceToUiConverters)) ::UnityEngine::UIElements::ConverterGroup*  sourceToUiConverters;
 
-  __declspec(property(get = get_uiToSourceConverters)) ::UnityEngine::UIElements::ConverterGroup* uiToSourceConverters;
+ __declspec(property(get=get_uiToSourceConverters)) ::UnityEngine::UIElements::ConverterGroup*  uiToSourceConverters;
 
-  /// @brief Convert operator to "::UnityEngine::UIElements::IDataSourceProvider"
-  constexpr operator ::UnityEngine::UIElements::IDataSourceProvider*() noexcept;
+/// @brief Convert operator to "::UnityEngine::UIElements::IDataSourceProvider"
+constexpr operator  ::UnityEngine::UIElements::IDataSourceProvider*() noexcept;
 
-  /// @brief Method ApplyConverterGroupToSource, addr 0x6ae6320, size 0x8c, virtual false, abstract: false, final false
-  inline void ApplyConverterGroupToSource(::UnityEngine::UIElements::ConverterGroup* group);
+/// @brief Method ApplyConverterGroupToSource, addr 0x6ae7e98, size 0x8c, virtual false, abstract: false, final false
+inline void ApplyConverterGroupToSource(::UnityEngine::UIElements::ConverterGroup*  group) ;
 
-  /// @brief Method ApplyConverterGroupToUI, addr 0x6ae63ac, size 0x8c, virtual false, abstract: false, final false
-  inline void ApplyConverterGroupToUI(::UnityEngine::UIElements::ConverterGroup* group);
+/// @brief Method ApplyConverterGroupToUI, addr 0x6ae7f24, size 0x8c, virtual false, abstract: false, final false
+inline void ApplyConverterGroupToUI(::UnityEngine::UIElements::ConverterGroup*  group) ;
 
-  /// @brief Method CacheReflectionInfo, addr 0x6ae6030, size 0x190, virtual false, abstract: false, final false
-  static inline ::System::Reflection::MethodInfo* CacheReflectionInfo();
+/// @brief Method CacheReflectionInfo, addr 0x6ae7ba8, size 0x190, virtual false, abstract: false, final false
+static inline ::System::Reflection::MethodInfo* CacheReflectionInfo() ;
 
-  /// @brief Method GetSetValueErrorString, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TValue>
-  static inline ::StringW GetSetValueErrorString(::Unity::Properties::VisitReturnCode returnCode, ::System::Object* source, ::ByRef<::Unity::Properties::PropertyPath> sourcePath,
-                                                 ::System::Object* target, ::ByRef<::UnityEngine::UIElements::BindingId> targetPath, TValue extractedValueFromSource);
+/// @brief Method GetSetValueErrorString, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+template<typename TValue>
+static inline ::StringW GetSetValueErrorString(::Unity::Properties::VisitReturnCode  returnCode, ::System::Object*  source, ::ByRef<::Unity::Properties::PropertyPath>  sourcePath, ::System::Object*  target, ::ByRef<::UnityEngine::UIElements::BindingId>  targetPath, TValue  extractedValueFromSource) ;
 
-  /// @brief Method UpdateSource, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  template <typename TValue> inline ::UnityEngine::UIElements::BindingResult UpdateSource(::ByRef<::UnityEngine::UIElements::BindingContext> context, ::ByRef<TValue> value);
+/// @brief Method UpdateSource, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+template<typename TValue>
+inline ::UnityEngine::UIElements::BindingResult UpdateSource(::ByRef<::UnityEngine::UIElements::BindingContext>  context, ::ByRef<TValue>  value) ;
 
-  /// @brief Method UpdateUI, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  template <typename TValue> inline ::UnityEngine::UIElements::BindingResult UpdateUI(::ByRef<::UnityEngine::UIElements::BindingContext> context, ::ByRef<TValue> value);
+/// @brief Method UpdateUI, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+template<typename TValue>
+inline ::UnityEngine::UIElements::BindingResult UpdateUI(::ByRef<::UnityEngine::UIElements::BindingContext>  context, ::ByRef<TValue>  value) ;
 
-  constexpr ::Unity::Properties::PropertyPath const& __cordl_internal_get__dataSourcePath_k__BackingField() const;
+constexpr ::Unity::Properties::PropertyPath const& __cordl_internal_get__dataSourcePath_k__BackingField() const;
 
-  constexpr ::Unity::Properties::PropertyPath& __cordl_internal_get__dataSourcePath_k__BackingField();
+constexpr ::Unity::Properties::PropertyPath& __cordl_internal_get__dataSourcePath_k__BackingField() ;
 
-  constexpr ::System::Type* const& __cordl_internal_get__dataSourceType_k__BackingField() const;
+constexpr ::System::Type* const& __cordl_internal_get__dataSourceType_k__BackingField() const;
 
-  constexpr ::System::Type*& __cordl_internal_get__dataSourceType_k__BackingField();
+constexpr ::System::Type*& __cordl_internal_get__dataSourceType_k__BackingField() ;
 
-  constexpr ::System::Object* const& __cordl_internal_get__dataSource_k__BackingField() const;
+constexpr ::System::Object* const& __cordl_internal_get__dataSource_k__BackingField() const;
 
-  constexpr ::System::Object*& __cordl_internal_get__dataSource_k__BackingField();
+constexpr ::System::Object*& __cordl_internal_get__dataSource_k__BackingField() ;
 
-  constexpr ::UnityEngine::UIElements::BindingMode const& __cordl_internal_get_m_BindingMode() const;
+constexpr ::UnityEngine::UIElements::BindingMode const& __cordl_internal_get_m_BindingMode() const;
 
-  constexpr ::UnityEngine::UIElements::BindingMode& __cordl_internal_get_m_BindingMode();
+constexpr ::UnityEngine::UIElements::BindingMode& __cordl_internal_get_m_BindingMode() ;
 
-  constexpr ::UnityEngine::UIElements::ConverterGroup* const& __cordl_internal_get_m_SourceToUiConverters() const;
+constexpr ::UnityEngine::UIElements::ConverterGroup* const& __cordl_internal_get_m_SourceToUiConverters() const;
 
-  constexpr ::UnityEngine::UIElements::ConverterGroup*& __cordl_internal_get_m_SourceToUiConverters();
+constexpr ::UnityEngine::UIElements::ConverterGroup*& __cordl_internal_get_m_SourceToUiConverters() ;
 
-  constexpr ::UnityEngine::UIElements::ConverterGroup* const& __cordl_internal_get_m_UiToSourceConverters() const;
+constexpr ::UnityEngine::UIElements::ConverterGroup* const& __cordl_internal_get_m_UiToSourceConverters() const;
 
-  constexpr ::UnityEngine::UIElements::ConverterGroup*& __cordl_internal_get_m_UiToSourceConverters();
+constexpr ::UnityEngine::UIElements::ConverterGroup*& __cordl_internal_get_m_UiToSourceConverters() ;
 
-  constexpr void __cordl_internal_set__dataSourcePath_k__BackingField(::Unity::Properties::PropertyPath value);
+constexpr void __cordl_internal_set__dataSourcePath_k__BackingField(::Unity::Properties::PropertyPath  value) ;
 
-  constexpr void __cordl_internal_set__dataSourceType_k__BackingField(::System::Type* value);
+constexpr void __cordl_internal_set__dataSourceType_k__BackingField(::System::Type*  value) ;
 
-  constexpr void __cordl_internal_set__dataSource_k__BackingField(::System::Object* value);
+constexpr void __cordl_internal_set__dataSource_k__BackingField(::System::Object*  value) ;
 
-  constexpr void __cordl_internal_set_m_BindingMode(::UnityEngine::UIElements::BindingMode value);
+constexpr void __cordl_internal_set_m_BindingMode(::UnityEngine::UIElements::BindingMode  value) ;
 
-  constexpr void __cordl_internal_set_m_SourceToUiConverters(::UnityEngine::UIElements::ConverterGroup* value);
+constexpr void __cordl_internal_set_m_SourceToUiConverters(::UnityEngine::UIElements::ConverterGroup*  value) ;
 
-  constexpr void __cordl_internal_set_m_UiToSourceConverters(::UnityEngine::UIElements::ConverterGroup* value);
+constexpr void __cordl_internal_set_m_UiToSourceConverters(::UnityEngine::UIElements::ConverterGroup*  value) ;
 
-  static inline ::System::Reflection::MethodInfo* getStaticF_s_UpdateUIMethodInfo();
+static inline ::System::Reflection::MethodInfo* getStaticF_s_UpdateUIMethodInfo() ;
 
-  /// @brief Method get_bindingMode, addr 0x6ae61fc, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::BindingMode get_bindingMode();
+/// @brief Method get_bindingMode, addr 0x6ae7d74, size 0x8, virtual false, abstract: false, final false
+inline ::UnityEngine::UIElements::BindingMode get_bindingMode() ;
 
-  /// @brief Method get_dataSource, addr 0x6ae61c0, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Object* get_dataSource();
+/// @brief Method get_dataSource, addr 0x6ae7d38, size 0x8, virtual true, abstract: false, final true
+inline ::System::Object* get_dataSource() ;
 
-  /// @brief Method get_dataSourcePath, addr 0x6ae61e0, size 0x10, virtual true, abstract: false, final true
-  inline ::Unity::Properties::PropertyPath get_dataSourcePath();
+/// @brief Method get_dataSourcePath, addr 0x6ae7d58, size 0x10, virtual true, abstract: false, final true
+inline ::Unity::Properties::PropertyPath get_dataSourcePath() ;
 
-  /// @brief Method get_dataSourceType, addr 0x6ae61d0, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Type* get_dataSourceType();
+/// @brief Method get_dataSourceType, addr 0x6ae7d48, size 0x8, virtual false, abstract: false, final false
+inline ::System::Type* get_dataSourceType() ;
 
-  /// @brief Method get_sourceToUiConverters, addr 0x6ae6220, size 0x80, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::ConverterGroup* get_sourceToUiConverters();
+/// @brief Method get_sourceToUiConverters, addr 0x6ae7d98, size 0x80, virtual false, abstract: false, final false
+inline ::UnityEngine::UIElements::ConverterGroup* get_sourceToUiConverters() ;
 
-  /// @brief Method get_uiToSourceConverters, addr 0x6ae62a0, size 0x80, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::ConverterGroup* get_uiToSourceConverters();
+/// @brief Method get_uiToSourceConverters, addr 0x6ae7e18, size 0x80, virtual false, abstract: false, final false
+inline ::UnityEngine::UIElements::ConverterGroup* get_uiToSourceConverters() ;
 
-  /// @brief Method get_updateUIMethod, addr 0x6ad959c, size 0x60, virtual false, abstract: false, final false
-  static inline ::System::Reflection::MethodInfo* get_updateUIMethod();
+/// @brief Method get_updateUIMethod, addr 0x6adb114, size 0x60, virtual false, abstract: false, final false
+static inline ::System::Reflection::MethodInfo* get_updateUIMethod() ;
 
-  /// @brief Convert to "::UnityEngine::UIElements::IDataSourceProvider"
-  constexpr ::UnityEngine::UIElements::IDataSourceProvider* i___UnityEngine__UIElements__IDataSourceProvider() noexcept;
+/// @brief Convert to "::UnityEngine::UIElements::IDataSourceProvider"
+constexpr ::UnityEngine::UIElements::IDataSourceProvider* i___UnityEngine__UIElements__IDataSourceProvider() noexcept;
 
-  static inline void setStaticF_s_UpdateUIMethodInfo(::System::Reflection::MethodInfo* value);
+static inline void setStaticF_s_UpdateUIMethodInfo(::System::Reflection::MethodInfo*  value) ;
 
-  /// @brief Method set_bindingMode, addr 0x6ae6204, size 0x1c, virtual false, abstract: false, final false
-  inline void set_bindingMode(::UnityEngine::UIElements::BindingMode value);
+/// @brief Method set_bindingMode, addr 0x6ae7d7c, size 0x1c, virtual false, abstract: false, final false
+inline void set_bindingMode(::UnityEngine::UIElements::BindingMode  value) ;
 
-  /// @brief Method set_dataSource, addr 0x6ae61c8, size 0x8, virtual false, abstract: false, final false
-  inline void set_dataSource(::System::Object* value);
+/// @brief Method set_dataSource, addr 0x6ae7d40, size 0x8, virtual false, abstract: false, final false
+inline void set_dataSource(::System::Object*  value) ;
 
-  /// @brief Method set_dataSourcePath, addr 0x6ae61f0, size 0xc, virtual false, abstract: false, final false
-  inline void set_dataSourcePath(::Unity::Properties::PropertyPath value);
+/// @brief Method set_dataSourcePath, addr 0x6ae7d68, size 0xc, virtual false, abstract: false, final false
+inline void set_dataSourcePath(::Unity::Properties::PropertyPath  value) ;
 
-  /// @brief Method set_dataSourceType, addr 0x6ae61d8, size 0x8, virtual false, abstract: false, final false
-  inline void set_dataSourceType(::System::Type* value);
+/// @brief Method set_dataSourceType, addr 0x6ae7d50, size 0x8, virtual false, abstract: false, final false
+inline void set_dataSourceType(::System::Type*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DataBinding();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr DataBinding() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DataBinding", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  DataBinding(DataBinding&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DataBinding", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  DataBinding(DataBinding const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "DataBinding", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+DataBinding(DataBinding && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4037 };
+// Ctor Parameters [CppParam { name: "", ty: "DataBinding", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+DataBinding(DataBinding const& ) = delete;
 
-  /// @brief Field m_BindingMode, offset: 0x20, size: 0x4, def value: None
-  ::UnityEngine::UIElements::BindingMode ___m_BindingMode;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4037};
 
-  /// @brief Field m_SourceToUiConverters, offset: 0x28, size: 0x8, def value: None
-  ::UnityEngine::UIElements::ConverterGroup* ___m_SourceToUiConverters;
+/// @brief Field m_BindingMode, offset: 0x20, size: 0x4, def value: None
+ ::UnityEngine::UIElements::BindingMode  ___m_BindingMode;
 
-  /// @brief Field m_UiToSourceConverters, offset: 0x30, size: 0x8, def value: None
-  ::UnityEngine::UIElements::ConverterGroup* ___m_UiToSourceConverters;
+/// @brief Field m_SourceToUiConverters, offset: 0x28, size: 0x8, def value: None
+ ::UnityEngine::UIElements::ConverterGroup*  ___m_SourceToUiConverters;
 
-  /// @brief Field <dataSource>k__BackingField, offset: 0x38, size: 0x8, def value: None
-  ::System::Object* ____dataSource_k__BackingField;
+/// @brief Field m_UiToSourceConverters, offset: 0x30, size: 0x8, def value: None
+ ::UnityEngine::UIElements::ConverterGroup*  ___m_UiToSourceConverters;
 
-  /// @brief Field <dataSourceType>k__BackingField, offset: 0x40, size: 0x8, def value: None
-  ::System::Type* ____dataSourceType_k__BackingField;
+/// @brief Field <dataSource>k__BackingField, offset: 0x38, size: 0x8, def value: None
+ ::System::Object*  ____dataSource_k__BackingField;
 
-  /// @brief Field <dataSourcePath>k__BackingField, offset: 0x48, size: 0x90, def value: None
-  ::Unity::Properties::PropertyPath ____dataSourcePath_k__BackingField;
+/// @brief Field <dataSourceType>k__BackingField, offset: 0x40, size: 0x8, def value: None
+ ::System::Type*  ____dataSourceType_k__BackingField;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field <dataSourcePath>k__BackingField, offset: 0x48, size: 0x90, def value: None
+ ::Unity::Properties::PropertyPath  ____dataSourcePath_k__BackingField;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::UIElements::DataBinding, ___m_BindingMode) == 0x20, "Offset mismatch!");
@@ -239,6 +239,6 @@ static_assert(offsetof(::UnityEngine::UIElements::DataBinding, ____dataSourcePat
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::DataBinding, 0xd8>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements
+} // namespace end def UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::DataBinding);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::DataBinding*, "UnityEngine.UIElements", "DataBinding");

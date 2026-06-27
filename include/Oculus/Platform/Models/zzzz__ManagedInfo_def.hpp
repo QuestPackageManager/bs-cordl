@@ -21,150 +21,150 @@ namespace Oculus::Platform::Models {
 // CS Name: Oculus.Platform.Models.ManagedInfo
 class CORDL_TYPE ManagedInfo : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field Department, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_Department, put = __cordl_internal_set_Department)) ::StringW Department;
+// Declarations
+/// @brief Field Department, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_Department, put=__cordl_internal_set_Department)) ::StringW  Department;
 
-  /// @brief Field Email, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_Email, put = __cordl_internal_set_Email)) ::StringW Email;
+/// @brief Field Email, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_Email, put=__cordl_internal_set_Email)) ::StringW  Email;
 
-  /// @brief Field EmployeeNumber, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_EmployeeNumber, put = __cordl_internal_set_EmployeeNumber)) ::StringW EmployeeNumber;
+/// @brief Field EmployeeNumber, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_EmployeeNumber, put=__cordl_internal_set_EmployeeNumber)) ::StringW  EmployeeNumber;
 
-  /// @brief Field ExternalId, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_ExternalId, put = __cordl_internal_set_ExternalId)) ::StringW ExternalId;
+/// @brief Field ExternalId, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get_ExternalId, put=__cordl_internal_set_ExternalId)) ::StringW  ExternalId;
 
-  /// @brief Field Location, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_Location, put = __cordl_internal_set_Location)) ::StringW Location;
+/// @brief Field Location, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get_Location, put=__cordl_internal_set_Location)) ::StringW  Location;
 
-  /// @brief Field Manager, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_Manager, put = __cordl_internal_set_Manager)) ::StringW Manager;
+/// @brief Field Manager, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get_Manager, put=__cordl_internal_set_Manager)) ::StringW  Manager;
 
-  /// @brief Field Name, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_Name, put = __cordl_internal_set_Name)) ::StringW Name;
+/// @brief Field Name, offset 0x40, size 0x8 
+ __declspec(property(get=__cordl_internal_get_Name, put=__cordl_internal_set_Name)) ::StringW  Name;
 
-  /// @brief Field OrganizationId, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_OrganizationId, put = __cordl_internal_set_OrganizationId)) ::StringW OrganizationId;
+/// @brief Field OrganizationId, offset 0x48, size 0x8 
+ __declspec(property(get=__cordl_internal_get_OrganizationId, put=__cordl_internal_set_OrganizationId)) ::StringW  OrganizationId;
 
-  /// @brief Field OrganizationName, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_OrganizationName, put = __cordl_internal_set_OrganizationName)) ::StringW OrganizationName;
+/// @brief Field OrganizationName, offset 0x50, size 0x8 
+ __declspec(property(get=__cordl_internal_get_OrganizationName, put=__cordl_internal_set_OrganizationName)) ::StringW  OrganizationName;
 
-  /// @brief Field Position, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get_Position, put = __cordl_internal_set_Position)) ::StringW Position;
+/// @brief Field Position, offset 0x58, size 0x8 
+ __declspec(property(get=__cordl_internal_get_Position, put=__cordl_internal_set_Position)) ::StringW  Position;
 
-  static inline ::Oculus::Platform::Models::ManagedInfo* New_ctor(::System::IntPtr o);
+static inline ::Oculus::Platform::Models::ManagedInfo* New_ctor(::System::IntPtr  o) ;
 
-  constexpr ::StringW const& __cordl_internal_get_Department() const;
+constexpr ::StringW const& __cordl_internal_get_Department() const;
 
-  constexpr ::StringW& __cordl_internal_get_Department();
+constexpr ::StringW& __cordl_internal_get_Department() ;
 
-  constexpr ::StringW const& __cordl_internal_get_Email() const;
+constexpr ::StringW const& __cordl_internal_get_Email() const;
 
-  constexpr ::StringW& __cordl_internal_get_Email();
+constexpr ::StringW& __cordl_internal_get_Email() ;
 
-  constexpr ::StringW const& __cordl_internal_get_EmployeeNumber() const;
+constexpr ::StringW const& __cordl_internal_get_EmployeeNumber() const;
 
-  constexpr ::StringW& __cordl_internal_get_EmployeeNumber();
+constexpr ::StringW& __cordl_internal_get_EmployeeNumber() ;
 
-  constexpr ::StringW const& __cordl_internal_get_ExternalId() const;
+constexpr ::StringW const& __cordl_internal_get_ExternalId() const;
 
-  constexpr ::StringW& __cordl_internal_get_ExternalId();
+constexpr ::StringW& __cordl_internal_get_ExternalId() ;
 
-  constexpr ::StringW const& __cordl_internal_get_Location() const;
+constexpr ::StringW const& __cordl_internal_get_Location() const;
 
-  constexpr ::StringW& __cordl_internal_get_Location();
+constexpr ::StringW& __cordl_internal_get_Location() ;
 
-  constexpr ::StringW const& __cordl_internal_get_Manager() const;
+constexpr ::StringW const& __cordl_internal_get_Manager() const;
 
-  constexpr ::StringW& __cordl_internal_get_Manager();
+constexpr ::StringW& __cordl_internal_get_Manager() ;
 
-  constexpr ::StringW const& __cordl_internal_get_Name() const;
+constexpr ::StringW const& __cordl_internal_get_Name() const;
 
-  constexpr ::StringW& __cordl_internal_get_Name();
+constexpr ::StringW& __cordl_internal_get_Name() ;
 
-  constexpr ::StringW const& __cordl_internal_get_OrganizationId() const;
+constexpr ::StringW const& __cordl_internal_get_OrganizationId() const;
 
-  constexpr ::StringW& __cordl_internal_get_OrganizationId();
+constexpr ::StringW& __cordl_internal_get_OrganizationId() ;
 
-  constexpr ::StringW const& __cordl_internal_get_OrganizationName() const;
+constexpr ::StringW const& __cordl_internal_get_OrganizationName() const;
 
-  constexpr ::StringW& __cordl_internal_get_OrganizationName();
+constexpr ::StringW& __cordl_internal_get_OrganizationName() ;
 
-  constexpr ::StringW const& __cordl_internal_get_Position() const;
+constexpr ::StringW const& __cordl_internal_get_Position() const;
 
-  constexpr ::StringW& __cordl_internal_get_Position();
+constexpr ::StringW& __cordl_internal_get_Position() ;
 
-  constexpr void __cordl_internal_set_Department(::StringW value);
+constexpr void __cordl_internal_set_Department(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_Email(::StringW value);
+constexpr void __cordl_internal_set_Email(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_EmployeeNumber(::StringW value);
+constexpr void __cordl_internal_set_EmployeeNumber(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_ExternalId(::StringW value);
+constexpr void __cordl_internal_set_ExternalId(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_Location(::StringW value);
+constexpr void __cordl_internal_set_Location(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_Manager(::StringW value);
+constexpr void __cordl_internal_set_Manager(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_Name(::StringW value);
+constexpr void __cordl_internal_set_Name(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_OrganizationId(::StringW value);
+constexpr void __cordl_internal_set_OrganizationId(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_OrganizationName(::StringW value);
+constexpr void __cordl_internal_set_OrganizationName(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_Position(::StringW value);
+constexpr void __cordl_internal_set_Position(::StringW  value) ;
 
-  /// @brief Method .ctor, addr 0x5cb4d1c, size 0x100, virtual false, abstract: false, final false
-  inline void _ctor(::System::IntPtr o);
+/// @brief Method .ctor, addr 0x5cb6894, size 0x100, virtual false, abstract: false, final false
+inline void _ctor(::System::IntPtr  o) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ManagedInfo();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ManagedInfo() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ManagedInfo", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ManagedInfo(ManagedInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ManagedInfo", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ManagedInfo(ManagedInfo const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ManagedInfo", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ManagedInfo(ManagedInfo && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18046 };
+// Ctor Parameters [CppParam { name: "", ty: "ManagedInfo", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ManagedInfo(ManagedInfo const& ) = delete;
 
-  /// @brief Field Department, offset: 0x10, size: 0x8, def value: None
-  ::StringW ___Department;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{18048};
 
-  /// @brief Field Email, offset: 0x18, size: 0x8, def value: None
-  ::StringW ___Email;
+/// @brief Field Department, offset: 0x10, size: 0x8, def value: None
+ ::StringW  ___Department;
 
-  /// @brief Field EmployeeNumber, offset: 0x20, size: 0x8, def value: None
-  ::StringW ___EmployeeNumber;
+/// @brief Field Email, offset: 0x18, size: 0x8, def value: None
+ ::StringW  ___Email;
 
-  /// @brief Field ExternalId, offset: 0x28, size: 0x8, def value: None
-  ::StringW ___ExternalId;
+/// @brief Field EmployeeNumber, offset: 0x20, size: 0x8, def value: None
+ ::StringW  ___EmployeeNumber;
 
-  /// @brief Field Location, offset: 0x30, size: 0x8, def value: None
-  ::StringW ___Location;
+/// @brief Field ExternalId, offset: 0x28, size: 0x8, def value: None
+ ::StringW  ___ExternalId;
 
-  /// @brief Field Manager, offset: 0x38, size: 0x8, def value: None
-  ::StringW ___Manager;
+/// @brief Field Location, offset: 0x30, size: 0x8, def value: None
+ ::StringW  ___Location;
 
-  /// @brief Field Name, offset: 0x40, size: 0x8, def value: None
-  ::StringW ___Name;
+/// @brief Field Manager, offset: 0x38, size: 0x8, def value: None
+ ::StringW  ___Manager;
 
-  /// @brief Field OrganizationId, offset: 0x48, size: 0x8, def value: None
-  ::StringW ___OrganizationId;
+/// @brief Field Name, offset: 0x40, size: 0x8, def value: None
+ ::StringW  ___Name;
 
-  /// @brief Field OrganizationName, offset: 0x50, size: 0x8, def value: None
-  ::StringW ___OrganizationName;
+/// @brief Field OrganizationId, offset: 0x48, size: 0x8, def value: None
+ ::StringW  ___OrganizationId;
 
-  /// @brief Field Position, offset: 0x58, size: 0x8, def value: None
-  ::StringW ___Position;
+/// @brief Field OrganizationName, offset: 0x50, size: 0x8, def value: None
+ ::StringW  ___OrganizationName;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field Position, offset: 0x58, size: 0x8, def value: None
+ ::StringW  ___Position;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Oculus::Platform::Models::ManagedInfo, ___Department) == 0x10, "Offset mismatch!");
@@ -189,6 +189,6 @@ static_assert(offsetof(::Oculus::Platform::Models::ManagedInfo, ___Position) == 
 
 static_assert(::cordl_internals::size_check_v<::Oculus::Platform::Models::ManagedInfo, 0x60>, "Size mismatch!");
 
-} // namespace Oculus::Platform::Models
+} // namespace end def Oculus::Platform::Models
 NEED_NO_BOX(::Oculus::Platform::Models::ManagedInfo);
 DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::ManagedInfo*, "Oculus.Platform.Models", "ManagedInfo");

@@ -28,100 +28,99 @@ namespace UnityEngine::Jobs {
 // CS Name: UnityEngine.Jobs.TransformAccess
 struct CORDL_TYPE TransformAccess {
 public:
-  // Declarations
-  __declspec(property(put = set_localPosition)) ::UnityEngine::Vector3 localPosition;
+// Declarations
+ __declspec(property(put=set_localPosition)) ::UnityEngine::Vector3  localPosition;
 
-  __declspec(property(put = set_localRotation)) ::UnityEngine::Quaternion localRotation;
+ __declspec(property(put=set_localRotation)) ::UnityEngine::Quaternion  localRotation;
 
-  __declspec(property(get = get_localScale)) ::UnityEngine::Vector3 localScale;
+ __declspec(property(get=get_localScale)) ::UnityEngine::Vector3  localScale;
 
-  __declspec(property(get = get_localToWorldMatrix)) ::UnityEngine::Matrix4x4 localToWorldMatrix;
+ __declspec(property(get=get_localToWorldMatrix)) ::UnityEngine::Matrix4x4  localToWorldMatrix;
 
-  __declspec(property(get = get_position, put = set_position)) ::UnityEngine::Vector3 position;
+ __declspec(property(get=get_position, put=set_position)) ::UnityEngine::Vector3  position;
 
-  __declspec(property(get = get_rotation, put = set_rotation)) ::UnityEngine::Quaternion rotation;
+ __declspec(property(get=get_rotation, put=set_rotation)) ::UnityEngine::Quaternion  rotation;
 
-  /// @brief Method GetLocalScale, addr 0x69a3a1c, size 0x44, virtual false, abstract: false, final false
-  static inline void GetLocalScale(::ByRef<::UnityEngine::Jobs::TransformAccess> access, ::ByRef<::UnityEngine::Vector3> r);
+/// @brief Method GetLocalScale, addr 0x69a5594, size 0x44, virtual false, abstract: false, final false
+static inline void GetLocalScale(::ByRef<::UnityEngine::Jobs::TransformAccess>  access, ::ByRef<::UnityEngine::Vector3>  r) ;
 
-  /// @brief Method GetLocalToWorldMatrix, addr 0x69a3acc, size 0x44, virtual false, abstract: false, final false
-  static inline void GetLocalToWorldMatrix(::ByRef<::UnityEngine::Jobs::TransformAccess> access, ::ByRef<::UnityEngine::Matrix4x4> m);
+/// @brief Method GetLocalToWorldMatrix, addr 0x69a5644, size 0x44, virtual false, abstract: false, final false
+static inline void GetLocalToWorldMatrix(::ByRef<::UnityEngine::Jobs::TransformAccess>  access, ::ByRef<::UnityEngine::Matrix4x4>  m) ;
 
-  /// @brief Method GetPosition, addr 0x69a3680, size 0x44, virtual false, abstract: false, final false
-  static inline void GetPosition(::ByRef<::UnityEngine::Jobs::TransformAccess> access, ::ByRef<::UnityEngine::Vector3> p);
+/// @brief Method GetPosition, addr 0x69a51f8, size 0x44, virtual false, abstract: false, final false
+static inline void GetPosition(::ByRef<::UnityEngine::Jobs::TransformAccess>  access, ::ByRef<::UnityEngine::Vector3>  p) ;
 
-  /// @brief Method GetRotation, addr 0x69a37b4, size 0x44, virtual false, abstract: false, final false
-  static inline void GetRotation(::ByRef<::UnityEngine::Jobs::TransformAccess> access, ::ByRef<::UnityEngine::Quaternion> r);
+/// @brief Method GetRotation, addr 0x69a532c, size 0x44, virtual false, abstract: false, final false
+static inline void GetRotation(::ByRef<::UnityEngine::Jobs::TransformAccess>  access, ::ByRef<::UnityEngine::Quaternion>  r) ;
 
-  /// @brief Method SetLocalPosition, addr 0x69a38e4, size 0x44, virtual false, abstract: false, final false
-  static inline void SetLocalPosition(::ByRef<::UnityEngine::Jobs::TransformAccess> access, ::ByRef<::UnityEngine::Vector3> p);
+/// @brief Method SetLocalPosition, addr 0x69a545c, size 0x44, virtual false, abstract: false, final false
+static inline void SetLocalPosition(::ByRef<::UnityEngine::Jobs::TransformAccess>  access, ::ByRef<::UnityEngine::Vector3>  p) ;
 
-  /// @brief Method SetLocalPositionAndRotation, addr 0x69a3bc4, size 0x60, virtual false, abstract: false, final false
-  inline void SetLocalPositionAndRotation(::UnityEngine::Vector3 localPosition, ::UnityEngine::Quaternion localRotation);
+/// @brief Method SetLocalPositionAndRotation, addr 0x69a573c, size 0x60, virtual false, abstract: false, final false
+inline void SetLocalPositionAndRotation(::UnityEngine::Vector3  localPosition, ::UnityEngine::Quaternion  localRotation) ;
 
-  /// @brief Method SetLocalPositionAndRotation_Internal, addr 0x69a3c24, size 0x54, virtual false, abstract: false, final false
-  static inline void SetLocalPositionAndRotation_Internal(::ByRef<::UnityEngine::Jobs::TransformAccess> access, ::ByRef<::UnityEngine::Vector3> localPosition,
-                                                          ::ByRef<::UnityEngine::Quaternion> localRotation);
+/// @brief Method SetLocalPositionAndRotation_Internal, addr 0x69a579c, size 0x54, virtual false, abstract: false, final false
+static inline void SetLocalPositionAndRotation_Internal(::ByRef<::UnityEngine::Jobs::TransformAccess>  access, ::ByRef<::UnityEngine::Vector3>  localPosition, ::ByRef<::UnityEngine::Quaternion>  localRotation) ;
 
-  /// @brief Method SetLocalRotation, addr 0x69a397c, size 0x44, virtual false, abstract: false, final false
-  static inline void SetLocalRotation(::ByRef<::UnityEngine::Jobs::TransformAccess> access, ::ByRef<::UnityEngine::Quaternion> r);
+/// @brief Method SetLocalRotation, addr 0x69a54f4, size 0x44, virtual false, abstract: false, final false
+static inline void SetLocalRotation(::ByRef<::UnityEngine::Jobs::TransformAccess>  access, ::ByRef<::UnityEngine::Quaternion>  r) ;
 
-  /// @brief Method SetPosition, addr 0x69a3718, size 0x44, virtual false, abstract: false, final false
-  static inline void SetPosition(::ByRef<::UnityEngine::Jobs::TransformAccess> access, ::ByRef<::UnityEngine::Vector3> p);
+/// @brief Method SetPosition, addr 0x69a5290, size 0x44, virtual false, abstract: false, final false
+static inline void SetPosition(::ByRef<::UnityEngine::Jobs::TransformAccess>  access, ::ByRef<::UnityEngine::Vector3>  p) ;
 
-  /// @brief Method SetPositionAndRotation, addr 0x69a3b10, size 0x60, virtual false, abstract: false, final false
-  inline void SetPositionAndRotation(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation);
+/// @brief Method SetPositionAndRotation, addr 0x69a5688, size 0x60, virtual false, abstract: false, final false
+inline void SetPositionAndRotation(::UnityEngine::Vector3  position, ::UnityEngine::Quaternion  rotation) ;
 
-  /// @brief Method SetPositionAndRotation_Internal, addr 0x69a3b70, size 0x54, virtual false, abstract: false, final false
-  static inline void SetPositionAndRotation_Internal(::ByRef<::UnityEngine::Jobs::TransformAccess> access, ::ByRef<::UnityEngine::Vector3> position, ::ByRef<::UnityEngine::Quaternion> rotation);
+/// @brief Method SetPositionAndRotation_Internal, addr 0x69a56e8, size 0x54, virtual false, abstract: false, final false
+static inline void SetPositionAndRotation_Internal(::ByRef<::UnityEngine::Jobs::TransformAccess>  access, ::ByRef<::UnityEngine::Vector3>  position, ::ByRef<::UnityEngine::Quaternion>  rotation) ;
 
-  /// @brief Method SetRotation, addr 0x69a384c, size 0x44, virtual false, abstract: false, final false
-  static inline void SetRotation(::ByRef<::UnityEngine::Jobs::TransformAccess> access, ::ByRef<::UnityEngine::Quaternion> r);
+/// @brief Method SetRotation, addr 0x69a53c4, size 0x44, virtual false, abstract: false, final false
+static inline void SetRotation(::ByRef<::UnityEngine::Jobs::TransformAccess>  access, ::ByRef<::UnityEngine::Quaternion>  r) ;
 
-  /// @brief Method get_localScale, addr 0x69a39c0, size 0x5c, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector3 get_localScale();
+/// @brief Method get_localScale, addr 0x69a5538, size 0x5c, virtual false, abstract: false, final false
+inline ::UnityEngine::Vector3 get_localScale() ;
 
-  /// @brief Method get_localToWorldMatrix, addr 0x69a3a60, size 0x6c, virtual false, abstract: false, final false
-  inline ::UnityEngine::Matrix4x4 get_localToWorldMatrix();
+/// @brief Method get_localToWorldMatrix, addr 0x69a55d8, size 0x6c, virtual false, abstract: false, final false
+inline ::UnityEngine::Matrix4x4 get_localToWorldMatrix() ;
 
-  /// @brief Method get_position, addr 0x69a3624, size 0x5c, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector3 get_position();
+/// @brief Method get_position, addr 0x69a519c, size 0x5c, virtual false, abstract: false, final false
+inline ::UnityEngine::Vector3 get_position() ;
 
-  /// @brief Method get_rotation, addr 0x69a375c, size 0x58, virtual false, abstract: false, final false
-  inline ::UnityEngine::Quaternion get_rotation();
+/// @brief Method get_rotation, addr 0x69a52d4, size 0x58, virtual false, abstract: false, final false
+inline ::UnityEngine::Quaternion get_rotation() ;
 
-  /// @brief Method set_localPosition, addr 0x69a3890, size 0x54, virtual false, abstract: false, final false
-  inline void set_localPosition(::UnityEngine::Vector3 value);
+/// @brief Method set_localPosition, addr 0x69a5408, size 0x54, virtual false, abstract: false, final false
+inline void set_localPosition(::UnityEngine::Vector3  value) ;
 
-  /// @brief Method set_localRotation, addr 0x69a3928, size 0x54, virtual false, abstract: false, final false
-  inline void set_localRotation(::UnityEngine::Quaternion value);
+/// @brief Method set_localRotation, addr 0x69a54a0, size 0x54, virtual false, abstract: false, final false
+inline void set_localRotation(::UnityEngine::Quaternion  value) ;
 
-  /// @brief Method set_position, addr 0x69a36c4, size 0x54, virtual false, abstract: false, final false
-  inline void set_position(::UnityEngine::Vector3 value);
+/// @brief Method set_position, addr 0x69a523c, size 0x54, virtual false, abstract: false, final false
+inline void set_position(::UnityEngine::Vector3  value) ;
 
-  /// @brief Method set_rotation, addr 0x69a37f8, size 0x54, virtual false, abstract: false, final false
-  inline void set_rotation(::UnityEngine::Quaternion value);
+/// @brief Method set_rotation, addr 0x69a5370, size 0x54, virtual false, abstract: false, final false
+inline void set_rotation(::UnityEngine::Quaternion  value) ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TransformAccess();
+// Ctor Parameters []
+// @brief default ctor
+constexpr TransformAccess() ;
 
-  // Ctor Parameters [CppParam { name: "hierarchy", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr TransformAccess(::System::IntPtr hierarchy, int32_t index) noexcept;
+// Ctor Parameters [CppParam { name: "hierarchy", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr TransformAccess(::System::IntPtr  hierarchy, int32_t  index) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10425 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10426};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x10};
 
-  /// @brief Field hierarchy, offset: 0x0, size: 0x8, def value: None
-  ::System::IntPtr hierarchy;
+/// @brief Field hierarchy, offset: 0x0, size: 0x8, def value: None
+ ::System::IntPtr  hierarchy;
 
-  /// @brief Field index, offset: 0x8, size: 0x4, def value: None
-  int32_t index;
+/// @brief Field index, offset: 0x8, size: 0x4, def value: None
+ int32_t  index;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Jobs::TransformAccess, hierarchy) == 0x0, "Offset mismatch!");
@@ -130,5 +129,5 @@ static_assert(offsetof(::UnityEngine::Jobs::TransformAccess, index) == 0x8, "Off
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Jobs::TransformAccess, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::Jobs
+} // namespace end def UnityEngine::Jobs
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Jobs::TransformAccess, "UnityEngine.Jobs", "TransformAccess");

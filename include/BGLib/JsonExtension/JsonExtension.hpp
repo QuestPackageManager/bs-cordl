@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "BGLib/JsonExtension/ColorConverter.hpp"
 #include "BGLib/JsonExtension/JsonFileHandler.hpp"
@@ -10,5 +10,6 @@ module;
 #include "BGLib/JsonExtension/Vector2IntConverter.hpp"
 #include "BGLib/JsonExtension/Vector3Converter.hpp"
 #ifdef __cpp_modules
-export module JsonExtension;
-#endif
+                    export module JsonExtension;
+                    #endif
+                

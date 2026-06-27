@@ -12,50 +12,51 @@ struct ByteEnum;
 }
 // Write type traits
 MARK_VAL_T(::System::ByteEnum);
-// Dependencies
+// Dependencies 
 namespace System {
 // Is value type: true
 // CS Name: System.ByteEnum
 struct CORDL_TYPE ByteEnum {
 public:
-  // Declarations
-  using __CORDL_BACKING_ENUM_TYPE = uint8_t;
+// Declarations
+using __CORDL_BACKING_ENUM_TYPE = uint8_t;
 
-  /// @brief Nested struct __ByteEnum_Unwrapped
-  enum struct __ByteEnum_Unwrapped : uint8_t {};
+/// @brief Nested struct __ByteEnum_Unwrapped
+enum struct __ByteEnum_Unwrapped : uint8_t {
+};
 
-  /// @brief Conversion into unwrapped enum value
-  constexpr operator __ByteEnum_Unwrapped() const noexcept {
-    return static_cast<__ByteEnum_Unwrapped>(this->value__);
-  }
+/// @brief Conversion into unwrapped enum value
+constexpr operator __ByteEnum_Unwrapped () const noexcept {
+return static_cast<__ByteEnum_Unwrapped>(this->value__);
+}
 
-  /// @brief Conversion into unwrapped enum value
-  constexpr explicit operator uint8_t() const noexcept {
-    return static_cast<uint8_t>(this->value__);
-  }
+/// @brief Conversion into unwrapped enum value
+constexpr explicit operator uint8_t () const noexcept {
+return static_cast<uint8_t>(this->value__);
+}
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ByteEnum();
+// Ctor Parameters []
+// @brief default ctor
+constexpr ByteEnum() ;
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: None }]
-  constexpr ByteEnum(uint8_t value__) noexcept;
+// Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: None }]
+constexpr ByteEnum(uint8_t  value__) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2608 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{2608};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
 
-  /// @brief Field value__, offset: 0x0, size: 0x1, def value: None
-  uint8_t value__;
+/// @brief Field value__, offset: 0x0, size: 0x1, def value: None
+ uint8_t  value__;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::System::ByteEnum, value__) == 0x0, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::System::ByteEnum, 0x1>, "Size mismatch!");
 
-} // namespace System
+} // namespace end def System
 DEFINE_IL2CPP_ARG_TYPE(::System::ByteEnum, "System", "ByteEnum");

@@ -20,42 +20,38 @@ namespace System::Dynamic {
 // CS Name: System.Dynamic.InvokeBinder
 class CORDL_TYPE InvokeBinder : public ::System::Dynamic::DynamicMetaObjectBinder {
 public:
-  // Declarations
-  /// @brief Method Bind, addr 0x5e8654c, size 0xbc, virtual true, abstract: false, final true
-  inline ::System::Dynamic::DynamicMetaObject* Bind(::System::Dynamic::DynamicMetaObject* target,
-                                                    ::ArrayW<::System::Dynamic::DynamicMetaObject*, ::Array<::System::Dynamic::DynamicMetaObject*>*> args);
+// Declarations
+/// @brief Method Bind, addr 0x5e880c4, size 0xbc, virtual true, abstract: false, final true
+inline ::System::Dynamic::DynamicMetaObject* Bind(::System::Dynamic::DynamicMetaObject*  target, ::ArrayW<::System::Dynamic::DynamicMetaObject*,::Array<::System::Dynamic::DynamicMetaObject*>*>  args) ;
 
-  /// @brief Method FallbackInvoke, addr 0x5e8653c, size 0x10, virtual false, abstract: false, final false
-  inline ::System::Dynamic::DynamicMetaObject* FallbackInvoke(::System::Dynamic::DynamicMetaObject* target,
-                                                              ::ArrayW<::System::Dynamic::DynamicMetaObject*, ::Array<::System::Dynamic::DynamicMetaObject*>*> args);
+/// @brief Method FallbackInvoke, addr 0x5e880b4, size 0x10, virtual false, abstract: false, final false
+inline ::System::Dynamic::DynamicMetaObject* FallbackInvoke(::System::Dynamic::DynamicMetaObject*  target, ::ArrayW<::System::Dynamic::DynamicMetaObject*,::Array<::System::Dynamic::DynamicMetaObject*>*>  args) ;
 
-  /// @brief Method FallbackInvoke, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline ::System::Dynamic::DynamicMetaObject* FallbackInvoke(::System::Dynamic::DynamicMetaObject* target,
-                                                              ::ArrayW<::System::Dynamic::DynamicMetaObject*, ::Array<::System::Dynamic::DynamicMetaObject*>*> args,
-                                                              ::System::Dynamic::DynamicMetaObject* errorSuggestion);
+/// @brief Method FallbackInvoke, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline ::System::Dynamic::DynamicMetaObject* FallbackInvoke(::System::Dynamic::DynamicMetaObject*  target, ::ArrayW<::System::Dynamic::DynamicMetaObject*,::Array<::System::Dynamic::DynamicMetaObject*>*>  args, ::System::Dynamic::DynamicMetaObject*  errorSuggestion) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr InvokeBinder();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr InvokeBinder() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InvokeBinder", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  InvokeBinder(InvokeBinder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InvokeBinder", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  InvokeBinder(InvokeBinder const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "InvokeBinder", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+InvokeBinder(InvokeBinder && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16649 };
+// Ctor Parameters [CppParam { name: "", ty: "InvokeBinder", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+InvokeBinder(InvokeBinder const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{16651};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Dynamic::InvokeBinder, 0x18>, "Size mismatch!");
 
-} // namespace System::Dynamic
+} // namespace end def System::Dynamic
 NEED_NO_BOX(::System::Dynamic::InvokeBinder);
 DEFINE_IL2CPP_ARG_TYPE(::System::Dynamic::InvokeBinder*, "System.Dynamic", "InvokeBinder");

@@ -17,34 +17,34 @@ namespace UnityEngine::Audio {
 // CS Name: UnityEngine.Audio.AudioResource
 class CORDL_TYPE AudioResource : public ::UnityEngine::Object {
 public:
-  // Declarations
-  static inline ::UnityEngine::Audio::AudioResource* New_ctor();
+// Declarations
+static inline ::UnityEngine::Audio::AudioResource* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x68eeb60, size 0x58, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x68f06d8, size 0x58, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AudioResource();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr AudioResource() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AudioResource", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  AudioResource(AudioResource&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AudioResource", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  AudioResource(AudioResource const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "AudioResource", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+AudioResource(AudioResource && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20600 };
+// Ctor Parameters [CppParam { name: "", ty: "AudioResource", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+AudioResource(AudioResource const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20603};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Audio::AudioResource, 0x18>, "Size mismatch!");
 
-} // namespace UnityEngine::Audio
+} // namespace end def UnityEngine::Audio
 NEED_NO_BOX(::UnityEngine::Audio::AudioResource);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Audio::AudioResource*, "UnityEngine.Audio", "AudioResource");

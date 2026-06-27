@@ -7,10 +7,12 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(FileHelpers)
 namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
+template<typename T>
+class HashSet_1;
 }
 namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+template<typename T>
+class IEnumerable_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -24,47 +26,47 @@ namespace GlobalNamespace {
 // CS Name: FileHelpers
 class CORDL_TYPE FileHelpers : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method GetEscapedURLForFilePath, addr 0x3268234, size 0xc8, virtual false, abstract: false, final false
-  static inline ::StringW GetEscapedURLForFilePath(::StringW filePath);
+// Declarations
+/// @brief Method GetEscapedURLForFilePath, addr 0x3268fd0, size 0xc8, virtual false, abstract: false, final false
+static inline ::StringW GetEscapedURLForFilePath(::StringW  filePath) ;
 
-  /// @brief Method GetFileNamesFromFilePaths, addr 0x3268620, size 0xbc, virtual false, abstract: false, final false
-  static inline ::ArrayW<::StringW, ::Array<::StringW>*> GetFileNamesFromFilePaths(::System::Collections::Generic::IEnumerable_1<::StringW>* filePaths);
+/// @brief Method GetFileNamesFromFilePaths, addr 0x32693bc, size 0xbc, virtual false, abstract: false, final false
+static inline ::ArrayW<::StringW,::Array<::StringW>*> GetFileNamesFromFilePaths(::System::Collections::Generic::IEnumerable_1<::StringW>*  filePaths) ;
 
-  /// @brief Method GetFilePaths, addr 0x32683cc, size 0x254, virtual false, abstract: false, final false
-  static inline ::ArrayW<::StringW, ::Array<::StringW>*> GetFilePaths(::StringW directoryPath, ::System::Collections::Generic::HashSet_1<::StringW>* extensions);
+/// @brief Method GetFilePaths, addr 0x3269168, size 0x254, virtual false, abstract: false, final false
+static inline ::ArrayW<::StringW,::Array<::StringW>*> GetFilePaths(::StringW  directoryPath, ::System::Collections::Generic::HashSet_1<::StringW>*  extensions) ;
 
-  /// @brief Method GetUniqueDirectoryNameByAppendingNumber, addr 0x32682fc, size 0xd0, virtual false, abstract: false, final false
-  static inline ::StringW GetUniqueDirectoryNameByAppendingNumber(::StringW dirName);
+/// @brief Method GetUniqueDirectoryNameByAppendingNumber, addr 0x3269098, size 0xd0, virtual false, abstract: false, final false
+static inline ::StringW GetUniqueDirectoryNameByAppendingNumber(::StringW  dirName) ;
 
-  /// @brief Method PathIsUrl, addr 0x32681c8, size 0x6c, virtual false, abstract: false, final false
-  static inline bool PathIsUrl(::StringW filePath);
+/// @brief Method PathIsUrl, addr 0x3268f64, size 0x6c, virtual false, abstract: false, final false
+static inline bool PathIsUrl(::StringW  filePath) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr FileHelpers();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr FileHelpers() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FileHelpers", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  FileHelpers(FileHelpers&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FileHelpers", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  FileHelpers(FileHelpers const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "FileHelpers", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+FileHelpers(FileHelpers && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20704 };
+// Ctor Parameters [CppParam { name: "", ty: "FileHelpers", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+FileHelpers(FileHelpers const& ) = delete;
 
-  /// @brief Field kProtocolInfix offset 0xffffffff size 0x8
-  static constexpr ::ConstString kProtocolInfix{ u"://" };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20707};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field kProtocolInfix offset 0xffffffff size 0x8
+static constexpr ::ConstString  kProtocolInfix{u"://"};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FileHelpers, 0x10>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::FileHelpers);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::FileHelpers*, "", "FileHelpers");

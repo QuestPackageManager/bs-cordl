@@ -20,7 +20,8 @@ namespace GlobalNamespace {
 class PlayerDataModel;
 }
 namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
+template<typename T>
+class IReadOnlyList_1;
 }
 namespace UnityEngine {
 class Sprite;
@@ -37,86 +38,84 @@ namespace GlobalNamespace {
 // CS Name: MultiplayerBadgeDataSO
 class CORDL_TYPE MultiplayerBadgeDataSO : public ::UnityEngine::ScriptableObject {
 public:
-  // Declarations
-  /// @brief Field _icon, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__icon, put = __cordl_internal_set__icon)) ::UnityW<::UnityEngine::Sprite> _icon;
+// Declarations
+/// @brief Field _icon, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get__icon, put=__cordl_internal_set__icon)) ::UnityW<::UnityEngine::Sprite>  _icon;
 
-  /// @brief Field _subtitleLocalizationKey, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__subtitleLocalizationKey, put = __cordl_internal_set__subtitleLocalizationKey)) ::StringW _subtitleLocalizationKey;
+/// @brief Field _subtitleLocalizationKey, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get__subtitleLocalizationKey, put=__cordl_internal_set__subtitleLocalizationKey)) ::StringW  _subtitleLocalizationKey;
 
-  /// @brief Field _titleLocalizationKey, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__titleLocalizationKey, put = __cordl_internal_set__titleLocalizationKey)) ::StringW _titleLocalizationKey;
+/// @brief Field _titleLocalizationKey, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get__titleLocalizationKey, put=__cordl_internal_set__titleLocalizationKey)) ::StringW  _titleLocalizationKey;
 
-  __declspec(property(get = get_icon)) ::UnityW<::UnityEngine::Sprite> icon;
+ __declspec(property(get=get_icon)) ::UnityW<::UnityEngine::Sprite>  icon;
 
-  __declspec(property(get = get_subtitleLocalizationKey)) ::StringW subtitleLocalizationKey;
+ __declspec(property(get=get_subtitleLocalizationKey)) ::StringW  subtitleLocalizationKey;
 
-  __declspec(property(get = get_titleLocalizationKey)) ::StringW titleLocalizationKey;
+ __declspec(property(get=get_titleLocalizationKey)) ::StringW  titleLocalizationKey;
 
-  /// @brief Method CalculateBadgeData, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline ::GlobalNamespace::MultiplayerBadgeAwardData* CalculateBadgeData(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* resultsData,
-                                                                          ::GlobalNamespace::PlayerDataModel* playerDataModel, ::ByRef<::GlobalNamespace::BeatmapKey> beatmapKey,
-                                                                          float_t randomMultiplier);
+/// @brief Method CalculateBadgeData, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline ::GlobalNamespace::MultiplayerBadgeAwardData* CalculateBadgeData(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>*  resultsData, ::GlobalNamespace::PlayerDataModel*  playerDataModel, ::ByRef<::GlobalNamespace::BeatmapKey>  beatmapKey, float_t  randomMultiplier) ;
 
-  static inline ::GlobalNamespace::MultiplayerBadgeDataSO* New_ctor();
+static inline ::GlobalNamespace::MultiplayerBadgeDataSO* New_ctor() ;
 
-  constexpr ::UnityW<::UnityEngine::Sprite> const& __cordl_internal_get__icon() const;
+constexpr ::UnityW<::UnityEngine::Sprite> const& __cordl_internal_get__icon() const;
 
-  constexpr ::UnityW<::UnityEngine::Sprite>& __cordl_internal_get__icon();
+constexpr ::UnityW<::UnityEngine::Sprite>& __cordl_internal_get__icon() ;
 
-  constexpr ::StringW const& __cordl_internal_get__subtitleLocalizationKey() const;
+constexpr ::StringW const& __cordl_internal_get__subtitleLocalizationKey() const;
 
-  constexpr ::StringW& __cordl_internal_get__subtitleLocalizationKey();
+constexpr ::StringW& __cordl_internal_get__subtitleLocalizationKey() ;
 
-  constexpr ::StringW const& __cordl_internal_get__titleLocalizationKey() const;
+constexpr ::StringW const& __cordl_internal_get__titleLocalizationKey() const;
 
-  constexpr ::StringW& __cordl_internal_get__titleLocalizationKey();
+constexpr ::StringW& __cordl_internal_get__titleLocalizationKey() ;
 
-  constexpr void __cordl_internal_set__icon(::UnityW<::UnityEngine::Sprite> value);
+constexpr void __cordl_internal_set__icon(::UnityW<::UnityEngine::Sprite>  value) ;
 
-  constexpr void __cordl_internal_set__subtitleLocalizationKey(::StringW value);
+constexpr void __cordl_internal_set__subtitleLocalizationKey(::StringW  value) ;
 
-  constexpr void __cordl_internal_set__titleLocalizationKey(::StringW value);
+constexpr void __cordl_internal_set__titleLocalizationKey(::StringW  value) ;
 
-  /// @brief Method .ctor, addr 0x3672478, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x367380c, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_icon, addr 0x36741d0, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::Sprite> get_icon();
+/// @brief Method get_icon, addr 0x3675564, size 0x8, virtual false, abstract: false, final false
+inline ::UnityW<::UnityEngine::Sprite> get_icon() ;
 
-  /// @brief Method get_subtitleLocalizationKey, addr 0x36741e0, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_subtitleLocalizationKey();
+/// @brief Method get_subtitleLocalizationKey, addr 0x3675574, size 0x8, virtual false, abstract: false, final false
+inline ::StringW get_subtitleLocalizationKey() ;
 
-  /// @brief Method get_titleLocalizationKey, addr 0x36741d8, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_titleLocalizationKey();
+/// @brief Method get_titleLocalizationKey, addr 0x367556c, size 0x8, virtual false, abstract: false, final false
+inline ::StringW get_titleLocalizationKey() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MultiplayerBadgeDataSO();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr MultiplayerBadgeDataSO() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerBadgeDataSO", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  MultiplayerBadgeDataSO(MultiplayerBadgeDataSO&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerBadgeDataSO", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerBadgeDataSO(MultiplayerBadgeDataSO const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "MultiplayerBadgeDataSO", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+MultiplayerBadgeDataSO(MultiplayerBadgeDataSO && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15073 };
+// Ctor Parameters [CppParam { name: "", ty: "MultiplayerBadgeDataSO", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+MultiplayerBadgeDataSO(MultiplayerBadgeDataSO const& ) = delete;
 
-  /// @brief Field _titleLocalizationKey, offset: 0x18, size: 0x8, def value: None
-  ::StringW ____titleLocalizationKey;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{15075};
 
-  /// @brief Field _subtitleLocalizationKey, offset: 0x20, size: 0x8, def value: None
-  ::StringW ____subtitleLocalizationKey;
+/// @brief Field _titleLocalizationKey, offset: 0x18, size: 0x8, def value: None
+ ::StringW  ____titleLocalizationKey;
 
-  /// @brief Field _icon, offset: 0x28, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::Sprite> ____icon;
+/// @brief Field _subtitleLocalizationKey, offset: 0x20, size: 0x8, def value: None
+ ::StringW  ____subtitleLocalizationKey;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _icon, offset: 0x28, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::Sprite>  ____icon;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::MultiplayerBadgeDataSO, ____titleLocalizationKey) == 0x18, "Offset mismatch!");
@@ -127,6 +126,6 @@ static_assert(offsetof(::GlobalNamespace::MultiplayerBadgeDataSO, ____icon) == 0
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerBadgeDataSO, 0x30>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MultiplayerBadgeDataSO);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerBadgeDataSO*, "", "MultiplayerBadgeDataSO");

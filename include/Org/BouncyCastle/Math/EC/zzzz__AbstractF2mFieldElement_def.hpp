@@ -21,45 +21,45 @@ namespace Org::BouncyCastle::Math::EC {
 // CS Name: Org.BouncyCastle.Math.EC.AbstractF2mFieldElement
 class CORDL_TYPE AbstractF2mFieldElement : public ::Org::BouncyCastle::Math::EC::ECFieldElement {
 public:
-  // Declarations
-  __declspec(property(get = get_HasFastTrace)) bool HasFastTrace;
+// Declarations
+ __declspec(property(get=get_HasFastTrace)) bool  HasFastTrace;
 
-  /// @brief Method HalfTrace, addr 0x341a89c, size 0x13c, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Math::EC::ECFieldElement* HalfTrace();
+/// @brief Method HalfTrace, addr 0x341b638, size 0x13c, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Math::EC::ECFieldElement* HalfTrace() ;
 
-  static inline ::Org::BouncyCastle::Math::EC::AbstractF2mFieldElement* New_ctor();
+static inline ::Org::BouncyCastle::Math::EC::AbstractF2mFieldElement* New_ctor() ;
 
-  /// @brief Method Trace, addr 0x341a9e0, size 0x164, virtual true, abstract: false, final false
-  inline int32_t Trace();
+/// @brief Method Trace, addr 0x341b77c, size 0x164, virtual true, abstract: false, final false
+inline int32_t Trace() ;
 
-  /// @brief Method .ctor, addr 0x341ab44, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x341b8e0, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_HasFastTrace, addr 0x341a9d8, size 0x8, virtual true, abstract: false, final false
-  inline bool get_HasFastTrace();
+/// @brief Method get_HasFastTrace, addr 0x341b774, size 0x8, virtual true, abstract: false, final false
+inline bool get_HasFastTrace() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AbstractF2mFieldElement();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr AbstractF2mFieldElement() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AbstractF2mFieldElement", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  AbstractF2mFieldElement(AbstractF2mFieldElement&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AbstractF2mFieldElement", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  AbstractF2mFieldElement(AbstractF2mFieldElement const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "AbstractF2mFieldElement", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+AbstractF2mFieldElement(AbstractF2mFieldElement && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1441 };
+// Ctor Parameters [CppParam { name: "", ty: "AbstractF2mFieldElement", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+AbstractF2mFieldElement(AbstractF2mFieldElement const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{1441};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Math::EC::AbstractF2mFieldElement, 0x10>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Math::EC
+} // namespace end def Org::BouncyCastle::Math::EC
 NEED_NO_BOX(::Org::BouncyCastle::Math::EC::AbstractF2mFieldElement);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Math::EC::AbstractF2mFieldElement*, "Org.BouncyCastle.Math.EC", "AbstractF2mFieldElement");

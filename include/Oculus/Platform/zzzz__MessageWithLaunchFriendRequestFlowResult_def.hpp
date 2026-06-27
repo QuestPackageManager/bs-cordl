@@ -23,40 +23,40 @@ namespace Oculus::Platform {
 // CS Name: Oculus.Platform.MessageWithLaunchFriendRequestFlowResult
 class CORDL_TYPE MessageWithLaunchFriendRequestFlowResult : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::LaunchFriendRequestFlowResult*> {
 public:
-  // Declarations
-  /// @brief Method GetDataFromMessage, addr 0x5c9f20c, size 0x9c, virtual true, abstract: false, final false
-  inline ::Oculus::Platform::Models::LaunchFriendRequestFlowResult* GetDataFromMessage(::System::IntPtr c_message);
+// Declarations
+/// @brief Method GetDataFromMessage, addr 0x5ca0d84, size 0x9c, virtual true, abstract: false, final false
+inline ::Oculus::Platform::Models::LaunchFriendRequestFlowResult* GetDataFromMessage(::System::IntPtr  c_message) ;
 
-  /// @brief Method GetLaunchFriendRequestFlowResult, addr 0x5c9f1c8, size 0x44, virtual true, abstract: false, final false
-  inline ::Oculus::Platform::Models::LaunchFriendRequestFlowResult* GetLaunchFriendRequestFlowResult();
+/// @brief Method GetLaunchFriendRequestFlowResult, addr 0x5ca0d40, size 0x44, virtual true, abstract: false, final false
+inline ::Oculus::Platform::Models::LaunchFriendRequestFlowResult* GetLaunchFriendRequestFlowResult() ;
 
-  static inline ::Oculus::Platform::MessageWithLaunchFriendRequestFlowResult* New_ctor(::System::IntPtr c_message);
+static inline ::Oculus::Platform::MessageWithLaunchFriendRequestFlowResult* New_ctor(::System::IntPtr  c_message) ;
 
-  /// @brief Method .ctor, addr 0x5c9b818, size 0x5c, virtual false, abstract: false, final false
-  inline void _ctor(::System::IntPtr c_message);
+/// @brief Method .ctor, addr 0x5c9d390, size 0x5c, virtual false, abstract: false, final false
+inline void _ctor(::System::IntPtr  c_message) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MessageWithLaunchFriendRequestFlowResult();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr MessageWithLaunchFriendRequestFlowResult() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MessageWithLaunchFriendRequestFlowResult", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  MessageWithLaunchFriendRequestFlowResult(MessageWithLaunchFriendRequestFlowResult&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MessageWithLaunchFriendRequestFlowResult", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  MessageWithLaunchFriendRequestFlowResult(MessageWithLaunchFriendRequestFlowResult const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "MessageWithLaunchFriendRequestFlowResult", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+MessageWithLaunchFriendRequestFlowResult(MessageWithLaunchFriendRequestFlowResult && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17868 };
+// Ctor Parameters [CppParam { name: "", ty: "MessageWithLaunchFriendRequestFlowResult", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+MessageWithLaunchFriendRequestFlowResult(MessageWithLaunchFriendRequestFlowResult const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{17870};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Oculus::Platform::MessageWithLaunchFriendRequestFlowResult, 0x30>, "Size mismatch!");
 
-} // namespace Oculus::Platform
+} // namespace end def Oculus::Platform
 NEED_NO_BOX(::Oculus::Platform::MessageWithLaunchFriendRequestFlowResult);
 DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::MessageWithLaunchFriendRequestFlowResult*, "Oculus.Platform", "MessageWithLaunchFriendRequestFlowResult");

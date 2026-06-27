@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "BeatSaber/BeatAvatarAdapter/AvatarEditor/AvatarEditHistory.hpp"
 #include "BeatSaber/BeatAvatarAdapter/AvatarEditor/AvatarTweenController.hpp"
@@ -10,5 +10,6 @@ module;
 #include "BeatSaber/BeatAvatarAdapter/AvatarEditor/EditAvatarColorViewController.hpp"
 #include "BeatSaber/BeatAvatarAdapter/AvatarEditor/EditAvatarHistorySnapshot.hpp"
 #ifdef __cpp_modules
-export module AvatarEditor;
-#endif
+                    export module AvatarEditor;
+                    #endif
+                

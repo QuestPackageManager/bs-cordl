@@ -14,64 +14,63 @@ struct EventInterests;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::EventInterests);
-// Dependencies
+// Dependencies 
 namespace UnityEngine {
 // Is value type: true
 // CS Name: UnityEngine.EventInterests
 struct CORDL_TYPE EventInterests {
 public:
-  // Declarations
-  __declspec(property(get = get_wantsLessLayoutEvents)) bool wantsLessLayoutEvents;
+// Declarations
+ __declspec(property(get=get_wantsLessLayoutEvents)) bool  wantsLessLayoutEvents;
 
-  __declspec(property(get = get_wantsMouseEnterLeaveWindow, put = set_wantsMouseEnterLeaveWindow)) bool wantsMouseEnterLeaveWindow;
+ __declspec(property(get=get_wantsMouseEnterLeaveWindow, put=set_wantsMouseEnterLeaveWindow)) bool  wantsMouseEnterLeaveWindow;
 
-  __declspec(property(get = get_wantsMouseMove, put = set_wantsMouseMove)) bool wantsMouseMove;
+ __declspec(property(get=get_wantsMouseMove, put=set_wantsMouseMove)) bool  wantsMouseMove;
 
-  /// @brief Method WantsEvent, addr 0x69e8284, size 0x30, virtual false, abstract: false, final false
-  inline bool WantsEvent(::UnityEngine::EventType type);
+/// @brief Method WantsEvent, addr 0x69e9dfc, size 0x30, virtual false, abstract: false, final false
+inline bool WantsEvent(::UnityEngine::EventType  type) ;
 
-  /// @brief Method WantsLayoutPass, addr 0x69e82b4, size 0x104, virtual false, abstract: false, final false
-  inline bool WantsLayoutPass(::UnityEngine::EventType type);
+/// @brief Method WantsLayoutPass, addr 0x69e9e2c, size 0x104, virtual false, abstract: false, final false
+inline bool WantsLayoutPass(::UnityEngine::EventType  type) ;
 
-  /// @brief Method get_wantsLessLayoutEvents, addr 0x69e827c, size 0x8, virtual false, abstract: false, final false
-  inline bool get_wantsLessLayoutEvents();
+/// @brief Method get_wantsLessLayoutEvents, addr 0x69e9df4, size 0x8, virtual false, abstract: false, final false
+inline bool get_wantsLessLayoutEvents() ;
 
-  /// @brief Method get_wantsMouseEnterLeaveWindow, addr 0x69e826c, size 0x8, virtual false, abstract: false, final false
-  inline bool get_wantsMouseEnterLeaveWindow();
+/// @brief Method get_wantsMouseEnterLeaveWindow, addr 0x69e9de4, size 0x8, virtual false, abstract: false, final false
+inline bool get_wantsMouseEnterLeaveWindow() ;
 
-  /// @brief Method get_wantsMouseMove, addr 0x69e825c, size 0x8, virtual false, abstract: false, final false
-  inline bool get_wantsMouseMove();
+/// @brief Method get_wantsMouseMove, addr 0x69e9dd4, size 0x8, virtual false, abstract: false, final false
+inline bool get_wantsMouseMove() ;
 
-  /// @brief Method set_wantsMouseEnterLeaveWindow, addr 0x69e8274, size 0x8, virtual false, abstract: false, final false
-  inline void set_wantsMouseEnterLeaveWindow(bool value);
+/// @brief Method set_wantsMouseEnterLeaveWindow, addr 0x69e9dec, size 0x8, virtual false, abstract: false, final false
+inline void set_wantsMouseEnterLeaveWindow(bool  value) ;
 
-  /// @brief Method set_wantsMouseMove, addr 0x69e8264, size 0x8, virtual false, abstract: false, final false
-  inline void set_wantsMouseMove(bool value);
+/// @brief Method set_wantsMouseMove, addr 0x69e9ddc, size 0x8, virtual false, abstract: false, final false
+inline void set_wantsMouseMove(bool  value) ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr EventInterests();
+// Ctor Parameters []
+// @brief default ctor
+constexpr EventInterests() ;
 
-  // Ctor Parameters [CppParam { name: "_wantsMouseMove_k__BackingField", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "_wantsMouseEnterLeaveWindow_k__BackingField", ty: "bool",
-  // modifiers: "", def_value: None }, CppParam { name: "_wantsLessLayoutEvents_k__BackingField", ty: "bool", modifiers: "", def_value: None }]
-  constexpr EventInterests(bool _wantsMouseMove_k__BackingField, bool _wantsMouseEnterLeaveWindow_k__BackingField, bool _wantsLessLayoutEvents_k__BackingField) noexcept;
+// Ctor Parameters [CppParam { name: "_wantsMouseMove_k__BackingField", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "_wantsMouseEnterLeaveWindow_k__BackingField", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "_wantsLessLayoutEvents_k__BackingField", ty: "bool", modifiers: "", def_value: None }]
+constexpr EventInterests(bool  _wantsMouseMove_k__BackingField, bool  _wantsMouseEnterLeaveWindow_k__BackingField, bool  _wantsLessLayoutEvents_k__BackingField) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19601 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19604};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x3 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x3};
 
-  /// @brief Field <wantsMouseMove>k__BackingField, offset: 0x0, size: 0x1, def value: None
-  bool _wantsMouseMove_k__BackingField;
+/// @brief Field <wantsMouseMove>k__BackingField, offset: 0x0, size: 0x1, def value: None
+ bool  _wantsMouseMove_k__BackingField;
 
-  /// @brief Field <wantsMouseEnterLeaveWindow>k__BackingField, offset: 0x1, size: 0x1, def value: None
-  bool _wantsMouseEnterLeaveWindow_k__BackingField;
+/// @brief Field <wantsMouseEnterLeaveWindow>k__BackingField, offset: 0x1, size: 0x1, def value: None
+ bool  _wantsMouseEnterLeaveWindow_k__BackingField;
 
-  /// @brief Field <wantsLessLayoutEvents>k__BackingField, offset: 0x2, size: 0x1, def value: None
-  bool _wantsLessLayoutEvents_k__BackingField;
+/// @brief Field <wantsLessLayoutEvents>k__BackingField, offset: 0x2, size: 0x1, def value: None
+ bool  _wantsLessLayoutEvents_k__BackingField;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::EventInterests, _wantsMouseMove_k__BackingField) == 0x0, "Offset mismatch!");
@@ -82,5 +81,5 @@ static_assert(offsetof(::UnityEngine::EventInterests, _wantsLessLayoutEvents_k__
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::EventInterests, 0x3>, "Size mismatch!");
 
-} // namespace UnityEngine
+} // namespace end def UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::EventInterests, "UnityEngine", "EventInterests");

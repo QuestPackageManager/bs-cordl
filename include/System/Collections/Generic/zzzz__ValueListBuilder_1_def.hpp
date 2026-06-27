@@ -8,71 +8,81 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ValueListBuilder_1)
 namespace System {
-template <typename T> struct ReadOnlySpan_1;
+template<typename T>
+struct ReadOnlySpan_1;
 }
 namespace System {
-template <typename T> struct Span_1;
+template<typename T>
+struct Span_1;
 }
 // Forward declare root types
 namespace System::Collections::Generic {
-template <typename T> struct ValueListBuilder_1;
+template<typename T>
+struct ValueListBuilder_1;
 }
 // Write type traits
 MARK_GEN_VAL_T(::System::Collections::Generic::ValueListBuilder_1);
 // Dependencies System.Span`1<T>
 namespace System::Collections::Generic {
 // cpp template
-template <typename T>
+template<typename T>
 // Is value type: true
 // CS Name: System.Collections.Generic.ValueListBuilder`1<T>
 struct CORDL_TYPE ValueListBuilder_1 {
 public:
-  // Declarations
-  __declspec(property(get = get_Length)) int32_t Length;
+// Declarations
+ __declspec(property(get=get_Item)) T  Item[];
 
-  /// @brief Method Append, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void Append(T item);
+ __declspec(property(get=get_Length)) int32_t  Length;
 
-  /// @brief Method AsSpan, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ::System::ReadOnlySpan_1<T> AsSpan();
+/// @brief Method Append, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+inline void Append(T  item) ;
 
-  /// @brief Method Dispose, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void Dispose();
+/// @brief Method AsSpan, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+inline ::System::ReadOnlySpan_1<T> AsSpan() ;
 
-  /// @brief Method Grow, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void Grow();
+/// @brief Method Dispose, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+inline void Dispose() ;
 
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(::System::Span_1<T> initialSpan);
+/// @brief Method Grow, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+inline void Grow() ;
 
-  /// @brief Method get_Length, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline int32_t get_Length();
+/// @brief Method Pop, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+inline T Pop() ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ValueListBuilder_1();
+/// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+inline void _ctor(::System::Span_1<T>  initialSpan) ;
 
-  // Ctor Parameters [CppParam { name: "_span", ty: "::System::Span_1<T>", modifiers: "", def_value: None }, CppParam { name: "_arrayFromPool", ty: "::ArrayW<T,::Array<T>*>", modifiers: "", def_value:
-  // None }, CppParam { name: "_pos", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr ValueListBuilder_1(::System::Span_1<T> _span, ::ArrayW<T, ::Array<T>*> _arrayFromPool, int32_t _pos) noexcept;
+/// @brief Method get_Item, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+inline ::ByRef<T> get_Item(int32_t  index) ;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3783 };
+/// @brief Method get_Length, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+inline int32_t get_Length() ;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
+// Ctor Parameters []
+// @brief default ctor
+constexpr ValueListBuilder_1() ;
 
-  /// @brief Field _span, offset: 0x0, size: 0x10, def value: None
-  ::System::Span_1<T> _span;
+// Ctor Parameters [CppParam { name: "_span", ty: "::System::Span_1<T>", modifiers: "", def_value: None }, CppParam { name: "_arrayFromPool", ty: "::ArrayW<T,::Array<T>*>", modifiers: "", def_value: None }, CppParam { name: "_pos", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr ValueListBuilder_1(::System::Span_1<T>  _span, ::ArrayW<T,::Array<T>*>  _arrayFromPool, int32_t  _pos) noexcept;
 
-  /// @brief Field _arrayFromPool, offset: 0x10, size: 0x8, def value: None
-  ::ArrayW<T, ::Array<T>*> _arrayFromPool;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11378};
 
-  /// @brief Field _pos, offset: 0x18, size: 0x4, def value: None
-  int32_t _pos;
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x20};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+/// @brief Field _span, offset: 0x0, size: 0x10, def value: None
+ ::System::Span_1<T>  _span;
+
+/// @brief Field _arrayFromPool, offset: 0x10, size: 0x8, def value: None
+ ::ArrayW<T,::Array<T>*>  _arrayFromPool;
+
+/// @brief Field _pos, offset: 0x18, size: 0x4, def value: None
+ int32_t  _pos;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-} // namespace System::Collections::Generic
+} // namespace end def System::Collections::Generic
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(::System::Collections::Generic::ValueListBuilder_1, "System.Collections.Generic", "ValueListBuilder`1");

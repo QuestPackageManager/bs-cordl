@@ -21,54 +21,54 @@ namespace Oculus::Platform::Models {
 // CS Name: Oculus.Platform.Models.AchievementUpdate
 class CORDL_TYPE AchievementUpdate : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field JustUnlocked, offset 0x10, size 0x1
-  __declspec(property(get = __cordl_internal_get_JustUnlocked, put = __cordl_internal_set_JustUnlocked)) bool JustUnlocked;
+// Declarations
+/// @brief Field JustUnlocked, offset 0x10, size 0x1 
+ __declspec(property(get=__cordl_internal_get_JustUnlocked, put=__cordl_internal_set_JustUnlocked)) bool  JustUnlocked;
 
-  /// @brief Field Name, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_Name, put = __cordl_internal_set_Name)) ::StringW Name;
+/// @brief Field Name, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_Name, put=__cordl_internal_set_Name)) ::StringW  Name;
 
-  static inline ::Oculus::Platform::Models::AchievementUpdate* New_ctor(::System::IntPtr o);
+static inline ::Oculus::Platform::Models::AchievementUpdate* New_ctor(::System::IntPtr  o) ;
 
-  constexpr bool const& __cordl_internal_get_JustUnlocked() const;
+constexpr bool const& __cordl_internal_get_JustUnlocked() const;
 
-  constexpr bool& __cordl_internal_get_JustUnlocked();
+constexpr bool& __cordl_internal_get_JustUnlocked() ;
 
-  constexpr ::StringW const& __cordl_internal_get_Name() const;
+constexpr ::StringW const& __cordl_internal_get_Name() const;
 
-  constexpr ::StringW& __cordl_internal_get_Name();
+constexpr ::StringW& __cordl_internal_get_Name() ;
 
-  constexpr void __cordl_internal_set_JustUnlocked(bool value);
+constexpr void __cordl_internal_set_JustUnlocked(bool  value) ;
 
-  constexpr void __cordl_internal_set_Name(::StringW value);
+constexpr void __cordl_internal_set_Name(::StringW  value) ;
 
-  /// @brief Method .ctor, addr 0x5c9d768, size 0x7c, virtual false, abstract: false, final false
-  inline void _ctor(::System::IntPtr o);
+/// @brief Method .ctor, addr 0x5c9f2e0, size 0x7c, virtual false, abstract: false, final false
+inline void _ctor(::System::IntPtr  o) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AchievementUpdate();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr AchievementUpdate() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AchievementUpdate", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  AchievementUpdate(AchievementUpdate&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AchievementUpdate", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  AchievementUpdate(AchievementUpdate const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "AchievementUpdate", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+AchievementUpdate(AchievementUpdate && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17993 };
+// Ctor Parameters [CppParam { name: "", ty: "AchievementUpdate", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+AchievementUpdate(AchievementUpdate const& ) = delete;
 
-  /// @brief Field JustUnlocked, offset: 0x10, size: 0x1, def value: None
-  bool ___JustUnlocked;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{17995};
 
-  /// @brief Field Name, offset: 0x18, size: 0x8, def value: None
-  ::StringW ___Name;
+/// @brief Field JustUnlocked, offset: 0x10, size: 0x1, def value: None
+ bool  ___JustUnlocked;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field Name, offset: 0x18, size: 0x8, def value: None
+ ::StringW  ___Name;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Oculus::Platform::Models::AchievementUpdate, ___JustUnlocked) == 0x10, "Offset mismatch!");
@@ -77,6 +77,6 @@ static_assert(offsetof(::Oculus::Platform::Models::AchievementUpdate, ___Name) =
 
 static_assert(::cordl_internals::size_check_v<::Oculus::Platform::Models::AchievementUpdate, 0x20>, "Size mismatch!");
 
-} // namespace Oculus::Platform::Models
+} // namespace end def Oculus::Platform::Models
 NEED_NO_BOX(::Oculus::Platform::Models::AchievementUpdate);
 DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::AchievementUpdate*, "Oculus.Platform.Models", "AchievementUpdate");

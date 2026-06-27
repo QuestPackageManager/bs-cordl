@@ -19,59 +19,59 @@ namespace UnityEngine {
 // CS Name: UnityEngine.AddComponentMenu
 class CORDL_TYPE AddComponentMenu : public ::System::Attribute {
 public:
-  // Declarations
-  /// @brief Field m_AddComponentMenu, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_AddComponentMenu, put = __cordl_internal_set_m_AddComponentMenu)) ::StringW m_AddComponentMenu;
+// Declarations
+/// @brief Field m_AddComponentMenu, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_AddComponentMenu, put=__cordl_internal_set_m_AddComponentMenu)) ::StringW  m_AddComponentMenu;
 
-  /// @brief Field m_Ordering, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_Ordering, put = __cordl_internal_set_m_Ordering)) int32_t m_Ordering;
+/// @brief Field m_Ordering, offset 0x18, size 0x4 
+ __declspec(property(get=__cordl_internal_get_m_Ordering, put=__cordl_internal_set_m_Ordering)) int32_t  m_Ordering;
 
-  static inline ::UnityEngine::AddComponentMenu* New_ctor(::StringW menuName);
+static inline ::UnityEngine::AddComponentMenu* New_ctor(::StringW  menuName) ;
 
-  static inline ::UnityEngine::AddComponentMenu* New_ctor(::StringW menuName, int32_t order);
+static inline ::UnityEngine::AddComponentMenu* New_ctor(::StringW  menuName, int32_t  order) ;
 
-  constexpr ::StringW const& __cordl_internal_get_m_AddComponentMenu() const;
+constexpr ::StringW const& __cordl_internal_get_m_AddComponentMenu() const;
 
-  constexpr ::StringW& __cordl_internal_get_m_AddComponentMenu();
+constexpr ::StringW& __cordl_internal_get_m_AddComponentMenu() ;
 
-  constexpr int32_t const& __cordl_internal_get_m_Ordering() const;
+constexpr int32_t const& __cordl_internal_get_m_Ordering() const;
 
-  constexpr int32_t& __cordl_internal_get_m_Ordering();
+constexpr int32_t& __cordl_internal_get_m_Ordering() ;
 
-  constexpr void __cordl_internal_set_m_AddComponentMenu(::StringW value);
+constexpr void __cordl_internal_set_m_AddComponentMenu(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_m_Ordering(int32_t value);
+constexpr void __cordl_internal_set_m_Ordering(int32_t  value) ;
 
-  /// @brief Method .ctor, addr 0x6982888, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor(::StringW menuName);
+/// @brief Method .ctor, addr 0x6984400, size 0xc, virtual false, abstract: false, final false
+inline void _ctor(::StringW  menuName) ;
 
-  /// @brief Method .ctor, addr 0x6982894, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor(::StringW menuName, int32_t order);
+/// @brief Method .ctor, addr 0x698440c, size 0xc, virtual false, abstract: false, final false
+inline void _ctor(::StringW  menuName, int32_t  order) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AddComponentMenu();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr AddComponentMenu() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AddComponentMenu", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  AddComponentMenu(AddComponentMenu&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AddComponentMenu", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  AddComponentMenu(AddComponentMenu const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "AddComponentMenu", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+AddComponentMenu(AddComponentMenu && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10294 };
+// Ctor Parameters [CppParam { name: "", ty: "AddComponentMenu", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+AddComponentMenu(AddComponentMenu const& ) = delete;
 
-  /// @brief Field m_AddComponentMenu, offset: 0x10, size: 0x8, def value: None
-  ::StringW ___m_AddComponentMenu;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10295};
 
-  /// @brief Field m_Ordering, offset: 0x18, size: 0x4, def value: None
-  int32_t ___m_Ordering;
+/// @brief Field m_AddComponentMenu, offset: 0x10, size: 0x8, def value: None
+ ::StringW  ___m_AddComponentMenu;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field m_Ordering, offset: 0x18, size: 0x4, def value: None
+ int32_t  ___m_Ordering;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::AddComponentMenu, ___m_AddComponentMenu) == 0x10, "Offset mismatch!");
@@ -80,6 +80,6 @@ static_assert(offsetof(::UnityEngine::AddComponentMenu, ___m_Ordering) == 0x18, 
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::AddComponentMenu, 0x20>, "Size mismatch!");
 
-} // namespace UnityEngine
+} // namespace end def UnityEngine
 NEED_NO_BOX(::UnityEngine::AddComponentMenu);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AddComponentMenu*, "UnityEngine", "AddComponentMenu");

@@ -23,58 +23,57 @@ namespace GlobalNamespace {
 // CS Name: MultiplayerLocalInactiveClient
 class CORDL_TYPE MultiplayerLocalInactiveClient : public ::UnityEngine::MonoBehaviour {
 public:
-  // Declarations
-  /// @brief Field _nodePoseSyncStateManager, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__nodePoseSyncStateManager,
-                      put = __cordl_internal_set__nodePoseSyncStateManager)) ::GlobalNamespace::INodePoseSyncStateManager* _nodePoseSyncStateManager;
+// Declarations
+/// @brief Field _nodePoseSyncStateManager, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get__nodePoseSyncStateManager, put=__cordl_internal_set__nodePoseSyncStateManager)) ::GlobalNamespace::INodePoseSyncStateManager*  _nodePoseSyncStateManager;
 
-  /// @brief Field _playerTransforms, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__playerTransforms, put = __cordl_internal_set__playerTransforms)) ::UnityW<::GlobalNamespace::PlayerTransforms> _playerTransforms;
+/// @brief Field _playerTransforms, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get__playerTransforms, put=__cordl_internal_set__playerTransforms)) ::UnityW<::GlobalNamespace::PlayerTransforms>  _playerTransforms;
 
-  /// @brief Method LateUpdate, addr 0x588f08c, size 0x310, virtual false, abstract: false, final false
-  inline void LateUpdate();
+/// @brief Method LateUpdate, addr 0x5890938, size 0x310, virtual false, abstract: false, final false
+inline void LateUpdate() ;
 
-  static inline ::GlobalNamespace::MultiplayerLocalInactiveClient* New_ctor();
+static inline ::GlobalNamespace::MultiplayerLocalInactiveClient* New_ctor() ;
 
-  constexpr ::GlobalNamespace::INodePoseSyncStateManager* const& __cordl_internal_get__nodePoseSyncStateManager() const;
+constexpr ::GlobalNamespace::INodePoseSyncStateManager* const& __cordl_internal_get__nodePoseSyncStateManager() const;
 
-  constexpr ::GlobalNamespace::INodePoseSyncStateManager*& __cordl_internal_get__nodePoseSyncStateManager();
+constexpr ::GlobalNamespace::INodePoseSyncStateManager*& __cordl_internal_get__nodePoseSyncStateManager() ;
 
-  constexpr ::UnityW<::GlobalNamespace::PlayerTransforms> const& __cordl_internal_get__playerTransforms() const;
+constexpr ::UnityW<::GlobalNamespace::PlayerTransforms> const& __cordl_internal_get__playerTransforms() const;
 
-  constexpr ::UnityW<::GlobalNamespace::PlayerTransforms>& __cordl_internal_get__playerTransforms();
+constexpr ::UnityW<::GlobalNamespace::PlayerTransforms>& __cordl_internal_get__playerTransforms() ;
 
-  constexpr void __cordl_internal_set__nodePoseSyncStateManager(::GlobalNamespace::INodePoseSyncStateManager* value);
+constexpr void __cordl_internal_set__nodePoseSyncStateManager(::GlobalNamespace::INodePoseSyncStateManager*  value) ;
 
-  constexpr void __cordl_internal_set__playerTransforms(::UnityW<::GlobalNamespace::PlayerTransforms> value);
+constexpr void __cordl_internal_set__playerTransforms(::UnityW<::GlobalNamespace::PlayerTransforms>  value) ;
 
-  /// @brief Method .ctor, addr 0x588f39c, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5890c48, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MultiplayerLocalInactiveClient();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr MultiplayerLocalInactiveClient() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLocalInactiveClient", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  MultiplayerLocalInactiveClient(MultiplayerLocalInactiveClient&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLocalInactiveClient", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerLocalInactiveClient(MultiplayerLocalInactiveClient const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "MultiplayerLocalInactiveClient", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+MultiplayerLocalInactiveClient(MultiplayerLocalInactiveClient && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6106 };
+// Ctor Parameters [CppParam { name: "", ty: "MultiplayerLocalInactiveClient", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+MultiplayerLocalInactiveClient(MultiplayerLocalInactiveClient const& ) = delete;
 
-  /// @brief Field _playerTransforms, offset: 0x20, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::PlayerTransforms> ____playerTransforms;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6106};
 
-  /// @brief Field _nodePoseSyncStateManager, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::INodePoseSyncStateManager* ____nodePoseSyncStateManager;
+/// @brief Field _playerTransforms, offset: 0x20, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::PlayerTransforms>  ____playerTransforms;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _nodePoseSyncStateManager, offset: 0x28, size: 0x8, def value: None
+ ::GlobalNamespace::INodePoseSyncStateManager*  ____nodePoseSyncStateManager;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::MultiplayerLocalInactiveClient, ____playerTransforms) == 0x20, "Offset mismatch!");
@@ -83,6 +82,6 @@ static_assert(offsetof(::GlobalNamespace::MultiplayerLocalInactiveClient, ____no
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerLocalInactiveClient, 0x30>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MultiplayerLocalInactiveClient);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerLocalInactiveClient*, "", "MultiplayerLocalInactiveClient");

@@ -10,7 +10,8 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TextAsset)
 namespace System::Collections::Generic {
-template <typename TKey, typename TValue> struct KeyValuePair_2;
+template<typename TKey,typename TValue>
+struct KeyValuePair_2;
 }
 namespace System::Text {
 class Encoding;
@@ -19,10 +20,12 @@ namespace System {
 struct IntPtr;
 }
 namespace System {
-template <typename T> struct ReadOnlySpan_1;
+template<typename T>
+struct ReadOnlySpan_1;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+template<typename T>
+struct NativeArray_1;
 }
 namespace UnityEngine::Bindings {
 struct ManagedSpanWrapper;
@@ -47,231 +50,225 @@ class TextAsset_EncodingUtility;
 MARK_VAL_T(::UnityEngine::TextAsset_CreateOptions);
 MARK_REF_PTR_T(::UnityEngine::TextAsset);
 MARK_REF_PTR_T(::UnityEngine::TextAsset_EncodingUtility);
-// Dependencies
+// Dependencies 
 namespace UnityEngine {
 // Is value type: true
 // CS Name: UnityEngine.TextAsset/CreateOptions
 struct CORDL_TYPE TextAsset_CreateOptions {
 public:
-  // Declarations
-  using __CORDL_BACKING_ENUM_TYPE = int32_t;
+// Declarations
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct __TextAsset_CreateOptions_Unwrapped
-  enum struct __TextAsset_CreateOptions_Unwrapped : int32_t {
-    __E_None = static_cast<int32_t>(0x0),
-    __E_CreateNativeObject = static_cast<int32_t>(0x1),
-  };
+/// @brief Nested struct __TextAsset_CreateOptions_Unwrapped
+enum struct __TextAsset_CreateOptions_Unwrapped : int32_t {
+__E_None = static_cast<int32_t>(0x0),
+__E_CreateNativeObject = static_cast<int32_t>(0x1),
+};
 
-  /// @brief Conversion into unwrapped enum value
-  constexpr operator __TextAsset_CreateOptions_Unwrapped() const noexcept {
-    return static_cast<__TextAsset_CreateOptions_Unwrapped>(this->value__);
-  }
+/// @brief Conversion into unwrapped enum value
+constexpr operator __TextAsset_CreateOptions_Unwrapped () const noexcept {
+return static_cast<__TextAsset_CreateOptions_Unwrapped>(this->value__);
+}
 
-  /// @brief Conversion into unwrapped enum value
-  constexpr explicit operator int32_t() const noexcept {
-    return static_cast<int32_t>(this->value__);
-  }
+/// @brief Conversion into unwrapped enum value
+constexpr explicit operator int32_t () const noexcept {
+return static_cast<int32_t>(this->value__);
+}
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TextAsset_CreateOptions();
+// Ctor Parameters []
+// @brief default ctor
+constexpr TextAsset_CreateOptions() ;
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr TextAsset_CreateOptions(int32_t value__) noexcept;
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr TextAsset_CreateOptions(int32_t  value__) noexcept;
 
-  /// @brief Field CreateNativeObject value: I32(1)
-  static ::UnityEngine::TextAsset_CreateOptions const CreateNativeObject;
+/// @brief Field CreateNativeObject value: I32(1)
+static ::UnityEngine::TextAsset_CreateOptions const CreateNativeObject;
 
-  /// @brief Field None value: I32(0)
-  static ::UnityEngine::TextAsset_CreateOptions const None;
+/// @brief Field None value: I32(0)
+static ::UnityEngine::TextAsset_CreateOptions const None;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10358 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10359};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x4};
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+/// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+ int32_t  value__;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::TextAsset_CreateOptions, value__) == 0x0, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::TextAsset_CreateOptions, 0x4>, "Size mismatch!");
 
-} // namespace UnityEngine
+} // namespace end def UnityEngine
 // Dependencies System.Object
 namespace UnityEngine {
 // Is value type: false
 // CS Name: UnityEngine.TextAsset/EncodingUtility
 class CORDL_TYPE TextAsset_EncodingUtility : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field encodingLookup, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_encodingLookup,
-                      put = setStaticF_encodingLookup)) ::ArrayW<::System::Collections::Generic::KeyValuePair_2<::ArrayW<uint8_t, ::Array<uint8_t>*>, ::System::Text::Encoding*>,
-                                                                 ::Array<::System::Collections::Generic::KeyValuePair_2<::ArrayW<uint8_t, ::Array<uint8_t>*>, ::System::Text::Encoding*>>*>
-      encodingLookup;
+// Declarations
+/// @brief Field encodingLookup, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_encodingLookup, put=setStaticF_encodingLookup)) ::ArrayW<::System::Collections::Generic::KeyValuePair_2<::ArrayW<uint8_t,::Array<uint8_t>*>,::System::Text::Encoding*>,::Array<::System::Collections::Generic::KeyValuePair_2<::ArrayW<uint8_t,::Array<uint8_t>*>,::System::Text::Encoding*>>*>  encodingLookup;
 
-  /// @brief Field targetEncoding, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_targetEncoding, put = setStaticF_targetEncoding)) ::System::Text::Encoding* targetEncoding;
+/// @brief Field targetEncoding, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_targetEncoding, put=setStaticF_targetEncoding)) ::System::Text::Encoding*  targetEncoding;
 
-  static inline ::ArrayW<::System::Collections::Generic::KeyValuePair_2<::ArrayW<uint8_t, ::Array<uint8_t>*>, ::System::Text::Encoding*>,
-                         ::Array<::System::Collections::Generic::KeyValuePair_2<::ArrayW<uint8_t, ::Array<uint8_t>*>, ::System::Text::Encoding*>>*>
-  getStaticF_encodingLookup();
+static inline ::ArrayW<::System::Collections::Generic::KeyValuePair_2<::ArrayW<uint8_t,::Array<uint8_t>*>,::System::Text::Encoding*>,::Array<::System::Collections::Generic::KeyValuePair_2<::ArrayW<uint8_t,::Array<uint8_t>*>,::System::Text::Encoding*>>*> getStaticF_encodingLookup() ;
 
-  static inline ::System::Text::Encoding* getStaticF_targetEncoding();
+static inline ::System::Text::Encoding* getStaticF_targetEncoding() ;
 
-  static inline void setStaticF_encodingLookup(::ArrayW<::System::Collections::Generic::KeyValuePair_2<::ArrayW<uint8_t, ::Array<uint8_t>*>, ::System::Text::Encoding*>,
-                                                        ::Array<::System::Collections::Generic::KeyValuePair_2<::ArrayW<uint8_t, ::Array<uint8_t>*>, ::System::Text::Encoding*>>*>
-                                                   value);
+static inline void setStaticF_encodingLookup(::ArrayW<::System::Collections::Generic::KeyValuePair_2<::ArrayW<uint8_t,::Array<uint8_t>*>,::System::Text::Encoding*>,::Array<::System::Collections::Generic::KeyValuePair_2<::ArrayW<uint8_t,::Array<uint8_t>*>,::System::Text::Encoding*>>*>  value) ;
 
-  static inline void setStaticF_targetEncoding(::System::Text::Encoding* value);
+static inline void setStaticF_targetEncoding(::System::Text::Encoding*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TextAsset_EncodingUtility();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr TextAsset_EncodingUtility() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TextAsset_EncodingUtility", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  TextAsset_EncodingUtility(TextAsset_EncodingUtility&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TextAsset_EncodingUtility", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  TextAsset_EncodingUtility(TextAsset_EncodingUtility const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "TextAsset_EncodingUtility", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+TextAsset_EncodingUtility(TextAsset_EncodingUtility && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10359 };
+// Ctor Parameters [CppParam { name: "", ty: "TextAsset_EncodingUtility", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+TextAsset_EncodingUtility(TextAsset_EncodingUtility const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10360};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::TextAsset_EncodingUtility, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine
+} // namespace end def UnityEngine
 // Dependencies UnityEngine.Object
 namespace UnityEngine {
 // Is value type: false
 // CS Name: UnityEngine.TextAsset
 class CORDL_TYPE TextAsset : public ::UnityEngine::Object {
 public:
-  // Declarations
-  using CreateOptions = ::UnityEngine::TextAsset_CreateOptions;
+// Declarations
+using CreateOptions = ::UnityEngine::TextAsset_CreateOptions;
 
-  using EncodingUtility = ::UnityEngine::TextAsset_EncodingUtility;
+using EncodingUtility = ::UnityEngine::TextAsset_EncodingUtility;
 
-  __declspec(property(get = get_bytes)) ::ArrayW<uint8_t, ::Array<uint8_t>*> bytes;
+ __declspec(property(get=get_bytes)) ::ArrayW<uint8_t,::Array<uint8_t>*>  bytes;
 
-  __declspec(property(get = get_dataSize)) int64_t dataSize;
+ __declspec(property(get=get_dataSize)) int64_t  dataSize;
 
-  __declspec(property(get = get_text)) ::StringW text;
+ __declspec(property(get=get_text)) ::StringW  text;
 
-  /// @brief Method DecodeString, addr 0x698f5d8, size 0x294, virtual false, abstract: false, final false
-  static inline ::StringW DecodeString(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
+/// @brief Method DecodeString, addr 0x6991150, size 0x294, virtual false, abstract: false, final false
+static inline ::StringW DecodeString(::ArrayW<uint8_t,::Array<uint8_t>*>  bytes) ;
 
-  /// @brief Method GetData, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline ::Unity::Collections::NativeArray_1<T> GetData();
+/// @brief Method GetData, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+template<typename T>
+inline ::Unity::Collections::NativeArray_1<T> GetData() ;
 
-  /// @brief Method GetDataPtr, addr 0x698f428, size 0x80, virtual false, abstract: false, final false
-  inline ::System::IntPtr GetDataPtr();
+/// @brief Method GetDataPtr, addr 0x6990fa0, size 0x80, virtual false, abstract: false, final false
+inline ::System::IntPtr GetDataPtr() ;
 
-  /// @brief Method GetDataPtr_Injected, addr 0x698f4a8, size 0x3c, virtual false, abstract: false, final false
-  static inline ::System::IntPtr GetDataPtr_Injected(::System::IntPtr _unity_self);
+/// @brief Method GetDataPtr_Injected, addr 0x6991020, size 0x3c, virtual false, abstract: false, final false
+static inline ::System::IntPtr GetDataPtr_Injected(::System::IntPtr  _unity_self) ;
 
-  /// @brief Method GetDataSize, addr 0x698f4e4, size 0x80, virtual false, abstract: false, final false
-  inline int64_t GetDataSize();
+/// @brief Method GetDataSize, addr 0x699105c, size 0x80, virtual false, abstract: false, final false
+inline int64_t GetDataSize() ;
 
-  /// @brief Method GetDataSize_Injected, addr 0x698f564, size 0x3c, virtual false, abstract: false, final false
-  static inline int64_t GetDataSize_Injected(::System::IntPtr _unity_self);
+/// @brief Method GetDataSize_Injected, addr 0x69910dc, size 0x3c, virtual false, abstract: false, final false
+static inline int64_t GetDataSize_Injected(::System::IntPtr  _unity_self) ;
 
-  /// @brief Method GetPreview, addr 0x698f9b8, size 0x14, virtual false, abstract: false, final false
-  inline ::StringW GetPreview(int32_t maxChars);
+/// @brief Method GetPreview, addr 0x6991530, size 0x14, virtual false, abstract: false, final false
+inline ::StringW GetPreview(int32_t  maxChars) ;
 
-  /// @brief Method GetPreviewBytes, addr 0x698f0f0, size 0x90, virtual false, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetPreviewBytes(int32_t maxByteCount);
+/// @brief Method GetPreviewBytes, addr 0x6990c68, size 0x90, virtual false, abstract: false, final false
+inline ::ArrayW<uint8_t,::Array<uint8_t>*> GetPreviewBytes(int32_t  maxByteCount) ;
 
-  /// @brief Method GetPreviewBytes_Injected, addr 0x698f180, size 0x44, virtual false, abstract: false, final false
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetPreviewBytes_Injected(::System::IntPtr _unity_self, int32_t maxByteCount);
+/// @brief Method GetPreviewBytes_Injected, addr 0x6990cf8, size 0x44, virtual false, abstract: false, final false
+static inline ::ArrayW<uint8_t,::Array<uint8_t>*> GetPreviewBytes_Injected(::System::IntPtr  _unity_self, int32_t  maxByteCount) ;
 
-  /// @brief Method Internal_CreateInstance, addr 0x698f1c4, size 0x134, virtual false, abstract: false, final false
-  static inline void Internal_CreateInstance(::UnityEngine::TextAsset* self, ::StringW text);
+/// @brief Method Internal_CreateInstance, addr 0x6990d3c, size 0x134, virtual false, abstract: false, final false
+static inline void Internal_CreateInstance(::UnityEngine::TextAsset*  self, ::StringW  text) ;
 
-  /// @brief Method Internal_CreateInstanceFromBytes, addr 0x698f33c, size 0xa8, virtual false, abstract: false, final false
-  static inline void Internal_CreateInstanceFromBytes(::UnityEngine::TextAsset* self, ::System::ReadOnlySpan_1<uint8_t> bytes);
+/// @brief Method Internal_CreateInstanceFromBytes, addr 0x6990eb4, size 0xa8, virtual false, abstract: false, final false
+static inline void Internal_CreateInstanceFromBytes(::UnityEngine::TextAsset*  self, ::System::ReadOnlySpan_1<uint8_t>  bytes) ;
 
-  /// @brief Method Internal_CreateInstanceFromBytes_Injected, addr 0x698f3e4, size 0x44, virtual false, abstract: false, final false
-  static inline void Internal_CreateInstanceFromBytes_Injected(::UnityEngine::TextAsset* self, ::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> bytes);
+/// @brief Method Internal_CreateInstanceFromBytes_Injected, addr 0x6990f5c, size 0x44, virtual false, abstract: false, final false
+static inline void Internal_CreateInstanceFromBytes_Injected(::UnityEngine::TextAsset*  self, ::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>  bytes) ;
 
-  /// @brief Method Internal_CreateInstance_Injected, addr 0x698f2f8, size 0x44, virtual false, abstract: false, final false
-  static inline void Internal_CreateInstance_Injected(::UnityEngine::TextAsset* self, ::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> text);
+/// @brief Method Internal_CreateInstance_Injected, addr 0x6990e70, size 0x44, virtual false, abstract: false, final false
+static inline void Internal_CreateInstance_Injected(::UnityEngine::TextAsset*  self, ::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>  text) ;
 
-  static inline ::UnityEngine::TextAsset* New_ctor();
+static inline ::UnityEngine::TextAsset* New_ctor() ;
 
-  static inline ::UnityEngine::TextAsset* New_ctor(::System::ReadOnlySpan_1<uint8_t> bytes);
+static inline ::UnityEngine::TextAsset* New_ctor(::System::ReadOnlySpan_1<uint8_t>  bytes) ;
 
-  static inline ::UnityEngine::TextAsset* New_ctor(::UnityEngine::TextAsset_CreateOptions options, ::System::ReadOnlySpan_1<uint8_t> bytes);
+static inline ::UnityEngine::TextAsset* New_ctor(::UnityEngine::TextAsset_CreateOptions  options, ::System::ReadOnlySpan_1<uint8_t>  bytes) ;
 
-  static inline ::UnityEngine::TextAsset* New_ctor(::UnityEngine::TextAsset_CreateOptions options, ::StringW text);
+static inline ::UnityEngine::TextAsset* New_ctor(::UnityEngine::TextAsset_CreateOptions  options, ::StringW  text) ;
 
-  static inline ::UnityEngine::TextAsset* New_ctor(::StringW text);
+static inline ::UnityEngine::TextAsset* New_ctor(::StringW  text) ;
 
-  /// @brief Method ToString, addr 0x698f870, size 0x4, virtual true, abstract: false, final false
-  inline ::StringW ToString();
+/// @brief Method ToString, addr 0x69913e8, size 0x4, virtual true, abstract: false, final false
+inline ::StringW ToString() ;
 
-  /// @brief Method .ctor, addr 0x698f874, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x69913ec, size 0xc, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method .ctor, addr 0x698f910, size 0x10, virtual false, abstract: false, final false
-  inline void _ctor(::System::ReadOnlySpan_1<uint8_t> bytes);
+/// @brief Method .ctor, addr 0x6991488, size 0x10, virtual false, abstract: false, final false
+inline void _ctor(::System::ReadOnlySpan_1<uint8_t>  bytes) ;
 
-  /// @brief Method .ctor, addr 0x698f920, size 0x98, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::TextAsset_CreateOptions options, ::System::ReadOnlySpan_1<uint8_t> bytes);
+/// @brief Method .ctor, addr 0x6991498, size 0x98, virtual false, abstract: false, final false
+inline void _ctor(::UnityEngine::TextAsset_CreateOptions  options, ::System::ReadOnlySpan_1<uint8_t>  bytes) ;
 
-  /// @brief Method .ctor, addr 0x698f880, size 0x84, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::TextAsset_CreateOptions options, ::StringW text);
+/// @brief Method .ctor, addr 0x69913f8, size 0x84, virtual false, abstract: false, final false
+inline void _ctor(::UnityEngine::TextAsset_CreateOptions  options, ::StringW  text) ;
 
-  /// @brief Method .ctor, addr 0x698f904, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor(::StringW text);
+/// @brief Method .ctor, addr 0x699147c, size 0xc, virtual false, abstract: false, final false
+inline void _ctor(::StringW  text) ;
 
-  /// @brief Method get_bytes, addr 0x698f034, size 0x80, virtual false, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_bytes();
+/// @brief Method get_bytes, addr 0x6990bac, size 0x80, virtual false, abstract: false, final false
+inline ::ArrayW<uint8_t,::Array<uint8_t>*> get_bytes() ;
 
-  /// @brief Method get_bytes_Injected, addr 0x698f0b4, size 0x3c, virtual false, abstract: false, final false
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_bytes_Injected(::System::IntPtr _unity_self);
+/// @brief Method get_bytes_Injected, addr 0x6990c2c, size 0x3c, virtual false, abstract: false, final false
+static inline ::ArrayW<uint8_t,::Array<uint8_t>*> get_bytes_Injected(::System::IntPtr  _unity_self) ;
 
-  /// @brief Method get_dataSize, addr 0x698f86c, size 0x4, virtual false, abstract: false, final false
-  inline int64_t get_dataSize();
+/// @brief Method get_dataSize, addr 0x69913e4, size 0x4, virtual false, abstract: false, final false
+inline int64_t get_dataSize() ;
 
-  /// @brief Method get_text, addr 0x698f5a0, size 0x38, virtual false, abstract: false, final false
-  inline ::StringW get_text();
+/// @brief Method get_text, addr 0x6991118, size 0x38, virtual false, abstract: false, final false
+inline ::StringW get_text() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TextAsset();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr TextAsset() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TextAsset", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  TextAsset(TextAsset&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TextAsset", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  TextAsset(TextAsset const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "TextAsset", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+TextAsset(TextAsset && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10360 };
+// Ctor Parameters [CppParam { name: "", ty: "TextAsset", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+TextAsset(TextAsset const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10361};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::TextAsset, 0x18>, "Size mismatch!");
 
-} // namespace UnityEngine
+} // namespace end def UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextAsset_CreateOptions, "UnityEngine", "TextAsset/CreateOptions");
 NEED_NO_BOX(::UnityEngine::TextAsset);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextAsset*, "UnityEngine", "TextAsset");

@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "Tweening/ColorTween.hpp"
 #include "Tweening/FloatTween.hpp"
@@ -17,5 +17,6 @@ module;
 #include "Tweening/Vector2Tween.hpp"
 #include "Tweening/Vector3Tween.hpp"
 #ifdef __cpp_modules
-export module Tweening;
-#endif
+                    export module Tweening;
+                    #endif
+                

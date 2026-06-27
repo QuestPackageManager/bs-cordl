@@ -52,13 +52,15 @@ namespace GlobalNamespace {
 class StandardLevelGameplayManager__Start_d__27;
 }
 namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+template<typename T>
+class IEnumerator_1;
 }
 namespace System::Collections {
 class IEnumerator;
 }
 namespace System {
-template <typename T> class Action_1;
+template<typename T>
+class Action_1;
 }
 namespace System {
 class Action;
@@ -96,223 +98,223 @@ namespace GlobalNamespace {
 // CS Name: StandardLevelGameplayManager/InitData
 class CORDL_TYPE StandardLevelGameplayManager_InitData : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field continueGameplayWith0Energy, offset 0x10, size 0x1
-  __declspec(property(get = __cordl_internal_get_continueGameplayWith0Energy, put = __cordl_internal_set_continueGameplayWith0Energy)) bool continueGameplayWith0Energy;
+// Declarations
+/// @brief Field continueGameplayWith0Energy, offset 0x10, size 0x1 
+ __declspec(property(get=__cordl_internal_get_continueGameplayWith0Energy, put=__cordl_internal_set_continueGameplayWith0Energy)) bool  continueGameplayWith0Energy;
 
-  static inline ::GlobalNamespace::StandardLevelGameplayManager_InitData* New_ctor(bool continueGameplayWith0Energy);
+static inline ::GlobalNamespace::StandardLevelGameplayManager_InitData* New_ctor(bool  continueGameplayWith0Energy) ;
 
-  constexpr bool const& __cordl_internal_get_continueGameplayWith0Energy() const;
+constexpr bool const& __cordl_internal_get_continueGameplayWith0Energy() const;
 
-  constexpr bool& __cordl_internal_get_continueGameplayWith0Energy();
+constexpr bool& __cordl_internal_get_continueGameplayWith0Energy() ;
 
-  constexpr void __cordl_internal_set_continueGameplayWith0Energy(bool value);
+constexpr void __cordl_internal_set_continueGameplayWith0Energy(bool  value) ;
 
-  /// @brief Method .ctor, addr 0x586d594, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(bool continueGameplayWith0Energy);
+/// @brief Method .ctor, addr 0x586ee40, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(bool  continueGameplayWith0Energy) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr StandardLevelGameplayManager_InitData();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr StandardLevelGameplayManager_InitData() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StandardLevelGameplayManager_InitData", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  StandardLevelGameplayManager_InitData(StandardLevelGameplayManager_InitData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StandardLevelGameplayManager_InitData", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  StandardLevelGameplayManager_InitData(StandardLevelGameplayManager_InitData const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "StandardLevelGameplayManager_InitData", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+StandardLevelGameplayManager_InitData(StandardLevelGameplayManager_InitData && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5984 };
+// Ctor Parameters [CppParam { name: "", ty: "StandardLevelGameplayManager_InitData", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+StandardLevelGameplayManager_InitData(StandardLevelGameplayManager_InitData const& ) = delete;
 
-  /// @brief Field continueGameplayWith0Energy, offset: 0x10, size: 0x1, def value: None
-  bool ___continueGameplayWith0Energy;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{5984};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field continueGameplayWith0Energy, offset: 0x10, size: 0x1, def value: None
+ bool  ___continueGameplayWith0Energy;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::StandardLevelGameplayManager_InitData, ___continueGameplayWith0Energy) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::StandardLevelGameplayManager_InitData, 0x18>, "Size mismatch!");
 
-} // namespace GlobalNamespace
-// Dependencies
+} // namespace end def GlobalNamespace
+// Dependencies 
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: StandardLevelGameplayManager/GameState
 struct CORDL_TYPE StandardLevelGameplayManager_GameState {
 public:
-  // Declarations
-  using __CORDL_BACKING_ENUM_TYPE = int32_t;
+// Declarations
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct __StandardLevelGameplayManager_GameState_Unwrapped
-  enum struct __StandardLevelGameplayManager_GameState_Unwrapped : int32_t {
-    __E_Intro = static_cast<int32_t>(0x0),
-    __E_Playing = static_cast<int32_t>(0x1),
-    __E_Paused = static_cast<int32_t>(0x2),
-    __E_Resuming = static_cast<int32_t>(0x3),
-    __E_Finished = static_cast<int32_t>(0x4),
-    __E_Failed = static_cast<int32_t>(0x5),
-  };
+/// @brief Nested struct __StandardLevelGameplayManager_GameState_Unwrapped
+enum struct __StandardLevelGameplayManager_GameState_Unwrapped : int32_t {
+__E_Intro = static_cast<int32_t>(0x0),
+__E_Playing = static_cast<int32_t>(0x1),
+__E_Paused = static_cast<int32_t>(0x2),
+__E_Resuming = static_cast<int32_t>(0x3),
+__E_Finished = static_cast<int32_t>(0x4),
+__E_Failed = static_cast<int32_t>(0x5),
+};
 
-  /// @brief Conversion into unwrapped enum value
-  constexpr operator __StandardLevelGameplayManager_GameState_Unwrapped() const noexcept {
-    return static_cast<__StandardLevelGameplayManager_GameState_Unwrapped>(this->value__);
-  }
+/// @brief Conversion into unwrapped enum value
+constexpr operator __StandardLevelGameplayManager_GameState_Unwrapped () const noexcept {
+return static_cast<__StandardLevelGameplayManager_GameState_Unwrapped>(this->value__);
+}
 
-  /// @brief Conversion into unwrapped enum value
-  constexpr explicit operator int32_t() const noexcept {
-    return static_cast<int32_t>(this->value__);
-  }
+/// @brief Conversion into unwrapped enum value
+constexpr explicit operator int32_t () const noexcept {
+return static_cast<int32_t>(this->value__);
+}
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr StandardLevelGameplayManager_GameState();
+// Ctor Parameters []
+// @brief default ctor
+constexpr StandardLevelGameplayManager_GameState() ;
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr StandardLevelGameplayManager_GameState(int32_t value__) noexcept;
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr StandardLevelGameplayManager_GameState(int32_t  value__) noexcept;
 
-  /// @brief Field Failed value: I32(5)
-  static ::GlobalNamespace::StandardLevelGameplayManager_GameState const Failed;
+/// @brief Field Failed value: I32(5)
+static ::GlobalNamespace::StandardLevelGameplayManager_GameState const Failed;
 
-  /// @brief Field Finished value: I32(4)
-  static ::GlobalNamespace::StandardLevelGameplayManager_GameState const Finished;
+/// @brief Field Finished value: I32(4)
+static ::GlobalNamespace::StandardLevelGameplayManager_GameState const Finished;
 
-  /// @brief Field Intro value: I32(0)
-  static ::GlobalNamespace::StandardLevelGameplayManager_GameState const Intro;
+/// @brief Field Intro value: I32(0)
+static ::GlobalNamespace::StandardLevelGameplayManager_GameState const Intro;
 
-  /// @brief Field Paused value: I32(2)
-  static ::GlobalNamespace::StandardLevelGameplayManager_GameState const Paused;
+/// @brief Field Paused value: I32(2)
+static ::GlobalNamespace::StandardLevelGameplayManager_GameState const Paused;
 
-  /// @brief Field Playing value: I32(1)
-  static ::GlobalNamespace::StandardLevelGameplayManager_GameState const Playing;
+/// @brief Field Playing value: I32(1)
+static ::GlobalNamespace::StandardLevelGameplayManager_GameState const Playing;
 
-  /// @brief Field Resuming value: I32(3)
-  static ::GlobalNamespace::StandardLevelGameplayManager_GameState const Resuming;
+/// @brief Field Resuming value: I32(3)
+static ::GlobalNamespace::StandardLevelGameplayManager_GameState const Resuming;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5985 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{5985};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x4};
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+/// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+ int32_t  value__;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::StandardLevelGameplayManager_GameState, value__) == 0x0, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::StandardLevelGameplayManager_GameState, 0x4>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: StandardLevelGameplayManager/<Start>d__27
 class CORDL_TYPE StandardLevelGameplayManager__Start_d__27 : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current)) ::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
+// Declarations
+ __declspec(property(get=System_Collections_Generic_IEnumerator_System_Object__get_Current)) ::System::Object*  System_Collections_Generic_IEnumerator_System_Object__Current;
 
-  __declspec(property(get = System_Collections_IEnumerator_get_Current)) ::System::Object* System_Collections_IEnumerator_Current;
+ __declspec(property(get=System_Collections_IEnumerator_get_Current)) ::System::Object*  System_Collections_IEnumerator_Current;
 
-  /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
+/// @brief Field <>1__state, offset 0x10, size 0x4 
+ __declspec(property(get=__cordl_internal_get___1__state, put=__cordl_internal_set___1__state)) int32_t  __1__state;
 
-  /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current)) ::System::Object* __2__current;
+/// @brief Field <>2__current, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get___2__current, put=__cordl_internal_set___2__current)) ::System::Object*  __2__current;
 
-  /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::UnityW<::GlobalNamespace::StandardLevelGameplayManager> __4__this;
+/// @brief Field <>4__this, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get___4__this, put=__cordl_internal_set___4__this)) ::UnityW<::GlobalNamespace::StandardLevelGameplayManager>  __4__this;
 
-  /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
-  constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+constexpr operator  ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
 
-  /// @brief Convert operator to "::System::Collections::IEnumerator"
-  constexpr operator ::System::Collections::IEnumerator*() noexcept;
+/// @brief Convert operator to "::System::Collections::IEnumerator"
+constexpr operator  ::System::Collections::IEnumerator*() noexcept;
 
-  /// @brief Convert operator to "::System::IDisposable"
-  constexpr operator ::System::IDisposable*() noexcept;
+/// @brief Convert operator to "::System::IDisposable"
+constexpr operator  ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x586d5a0, size 0x780, virtual true, abstract: false, final true
-  inline bool MoveNext();
+/// @brief Method MoveNext, addr 0x586ee4c, size 0x780, virtual true, abstract: false, final true
+inline bool MoveNext() ;
 
-  static inline ::GlobalNamespace::StandardLevelGameplayManager__Start_d__27* New_ctor(int32_t __1__state);
+static inline ::GlobalNamespace::StandardLevelGameplayManager__Start_d__27* New_ctor(int32_t  __1__state) ;
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x586dd20, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
+/// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x586f5cc, size 0x8, virtual true, abstract: false, final true
+inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current() ;
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x586dd28, size 0x38, virtual true, abstract: false, final true
-  inline void System_Collections_IEnumerator_Reset();
+/// @brief Method System.Collections.IEnumerator.Reset, addr 0x586f5d4, size 0x38, virtual true, abstract: false, final true
+inline void System_Collections_IEnumerator_Reset() ;
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x586dd60, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Object* System_Collections_IEnumerator_get_Current();
+/// @brief Method System.Collections.IEnumerator.get_Current, addr 0x586f60c, size 0x8, virtual true, abstract: false, final true
+inline ::System::Object* System_Collections_IEnumerator_get_Current() ;
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x586d59c, size 0x4, virtual true, abstract: false, final true
-  inline void System_IDisposable_Dispose();
+/// @brief Method System.IDisposable.Dispose, addr 0x586ee48, size 0x4, virtual true, abstract: false, final true
+inline void System_IDisposable_Dispose() ;
 
-  constexpr int32_t const& __cordl_internal_get___1__state() const;
+constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr int32_t& __cordl_internal_get___1__state();
+constexpr int32_t& __cordl_internal_get___1__state() ;
 
-  constexpr ::System::Object* const& __cordl_internal_get___2__current() const;
+constexpr ::System::Object* const& __cordl_internal_get___2__current() const;
 
-  constexpr ::System::Object*& __cordl_internal_get___2__current();
+constexpr ::System::Object*& __cordl_internal_get___2__current() ;
 
-  constexpr ::UnityW<::GlobalNamespace::StandardLevelGameplayManager> const& __cordl_internal_get___4__this() const;
+constexpr ::UnityW<::GlobalNamespace::StandardLevelGameplayManager> const& __cordl_internal_get___4__this() const;
 
-  constexpr ::UnityW<::GlobalNamespace::StandardLevelGameplayManager>& __cordl_internal_get___4__this();
+constexpr ::UnityW<::GlobalNamespace::StandardLevelGameplayManager>& __cordl_internal_get___4__this() ;
 
-  constexpr void __cordl_internal_set___1__state(int32_t value);
+constexpr void __cordl_internal_set___1__state(int32_t  value) ;
 
-  constexpr void __cordl_internal_set___2__current(::System::Object* value);
+constexpr void __cordl_internal_set___2__current(::System::Object*  value) ;
 
-  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::StandardLevelGameplayManager> value);
+constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::StandardLevelGameplayManager>  value) ;
 
-  /// @brief Method .ctor, addr 0x586cfec, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(int32_t __1__state);
+/// @brief Method .ctor, addr 0x586e898, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(int32_t  __1__state) ;
 
-  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
-  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
+/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
 
-  /// @brief Convert to "::System::Collections::IEnumerator"
-  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+/// @brief Convert to "::System::Collections::IEnumerator"
+constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+/// @brief Convert to "::System::IDisposable"
+constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr StandardLevelGameplayManager__Start_d__27();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr StandardLevelGameplayManager__Start_d__27() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StandardLevelGameplayManager__Start_d__27", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  StandardLevelGameplayManager__Start_d__27(StandardLevelGameplayManager__Start_d__27&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StandardLevelGameplayManager__Start_d__27", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  StandardLevelGameplayManager__Start_d__27(StandardLevelGameplayManager__Start_d__27 const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "StandardLevelGameplayManager__Start_d__27", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+StandardLevelGameplayManager__Start_d__27(StandardLevelGameplayManager__Start_d__27 && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5986 };
+// Ctor Parameters [CppParam { name: "", ty: "StandardLevelGameplayManager__Start_d__27", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+StandardLevelGameplayManager__Start_d__27(StandardLevelGameplayManager__Start_d__27 const& ) = delete;
 
-  /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
-  int32_t _____1__state;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{5986};
 
-  /// @brief Field <>2__current, offset: 0x18, size: 0x8, def value: None
-  ::System::Object* _____2__current;
+/// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
+ int32_t  _____1__state;
 
-  /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::StandardLevelGameplayManager> _____4__this;
+/// @brief Field <>2__current, offset: 0x18, size: 0x8, def value: None
+ ::System::Object*  _____2__current;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::StandardLevelGameplayManager>  _____4__this;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::StandardLevelGameplayManager__Start_d__27, _____1__state) == 0x10, "Offset mismatch!");
@@ -323,297 +325,295 @@ static_assert(offsetof(::GlobalNamespace::StandardLevelGameplayManager__Start_d_
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::StandardLevelGameplayManager__Start_d__27, 0x28>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 // Dependencies LevelCompletionResults::LevelEndStateType, StandardLevelGameplayManager::GameState, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: StandardLevelGameplayManager
 class CORDL_TYPE StandardLevelGameplayManager : public ::UnityEngine::MonoBehaviour {
 public:
-  // Declarations
-  using GameState = ::GlobalNamespace::StandardLevelGameplayManager_GameState;
+// Declarations
+using GameState = ::GlobalNamespace::StandardLevelGameplayManager_GameState;
 
-  using InitData = ::GlobalNamespace::StandardLevelGameplayManager_InitData;
+using InitData = ::GlobalNamespace::StandardLevelGameplayManager_InitData;
 
-  using _Start_d__27 = ::GlobalNamespace::StandardLevelGameplayManager__Start_d__27;
+using _Start_d__27 = ::GlobalNamespace::StandardLevelGameplayManager__Start_d__27;
 
-  /// @brief Field _audioTimeSyncController, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__audioTimeSyncController, put = __cordl_internal_set__audioTimeSyncController)) ::UnityW<::GlobalNamespace::AudioTimeSyncController>
-      _audioTimeSyncController;
+/// @brief Field _audioTimeSyncController, offset 0x48, size 0x8 
+ __declspec(property(get=__cordl_internal_get__audioTimeSyncController, put=__cordl_internal_set__audioTimeSyncController)) ::UnityW<::GlobalNamespace::AudioTimeSyncController>  _audioTimeSyncController;
 
-  /// @brief Field _beatmapCallbacksController, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get__beatmapCallbacksController,
-                      put = __cordl_internal_set__beatmapCallbacksController)) ::GlobalNamespace::BeatmapCallbacksController* _beatmapCallbacksController;
+/// @brief Field _beatmapCallbacksController, offset 0x60, size 0x8 
+ __declspec(property(get=__cordl_internal_get__beatmapCallbacksController, put=__cordl_internal_set__beatmapCallbacksController)) ::GlobalNamespace::BeatmapCallbacksController*  _beatmapCallbacksController;
 
-  /// @brief Field _beatmapData, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get__beatmapData, put = __cordl_internal_set__beatmapData)) ::GlobalNamespace::IReadonlyBeatmapData* _beatmapData;
+/// @brief Field _beatmapData, offset 0x50, size 0x8 
+ __declspec(property(get=__cordl_internal_get__beatmapData, put=__cordl_internal_set__beatmapData)) ::GlobalNamespace::IReadonlyBeatmapData*  _beatmapData;
 
-  /// @brief Field _gameEnergyCounter, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__gameEnergyCounter, put = __cordl_internal_set__gameEnergyCounter)) ::UnityW<::GlobalNamespace::GameEnergyCounter> _gameEnergyCounter;
+/// @brief Field _gameEnergyCounter, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get__gameEnergyCounter, put=__cordl_internal_set__gameEnergyCounter)) ::UnityW<::GlobalNamespace::GameEnergyCounter>  _gameEnergyCounter;
 
-  /// @brief Field _gameScenesManager, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__gameScenesManager, put = __cordl_internal_set__gameScenesManager)) ::UnityW<::GlobalNamespace::GameScenesManager> _gameScenesManager;
+/// @brief Field _gameScenesManager, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get__gameScenesManager, put=__cordl_internal_set__gameScenesManager)) ::UnityW<::GlobalNamespace::GameScenesManager>  _gameScenesManager;
 
-  /// @brief Field _gameSongController, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__gameSongController, put = __cordl_internal_set__gameSongController)) ::UnityW<::GlobalNamespace::GameSongController> _gameSongController;
+/// @brief Field _gameSongController, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get__gameSongController, put=__cordl_internal_set__gameSongController)) ::UnityW<::GlobalNamespace::GameSongController>  _gameSongController;
 
-  /// @brief Field _gameState, offset 0x80, size 0x4
-  __declspec(property(get = __cordl_internal_get__gameState, put = __cordl_internal_set__gameState)) ::GlobalNamespace::StandardLevelGameplayManager_GameState _gameState;
+/// @brief Field _gameState, offset 0x80, size 0x4 
+ __declspec(property(get=__cordl_internal_get__gameState, put=__cordl_internal_set__gameState)) ::GlobalNamespace::StandardLevelGameplayManager_GameState  _gameState;
 
-  /// @brief Field _initData, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__initData, put = __cordl_internal_set__initData)) ::GlobalNamespace::StandardLevelGameplayManager_InitData* _initData;
+/// @brief Field _initData, offset 0x40, size 0x8 
+ __declspec(property(get=__cordl_internal_get__initData, put=__cordl_internal_set__initData)) ::GlobalNamespace::StandardLevelGameplayManager_InitData*  _initData;
 
-  /// @brief Field _levelEndStateType, offset 0x84, size 0x4
-  __declspec(property(get = __cordl_internal_get__levelEndStateType, put = __cordl_internal_set__levelEndStateType)) ::GlobalNamespace::LevelCompletionResults_LevelEndStateType _levelEndStateType;
+/// @brief Field _levelEndStateType, offset 0x84, size 0x4 
+ __declspec(property(get=__cordl_internal_get__levelEndStateType, put=__cordl_internal_set__levelEndStateType)) ::GlobalNamespace::LevelCompletionResults_LevelEndStateType  _levelEndStateType;
 
-  /// @brief Field _pauseController, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__pauseController, put = __cordl_internal_set__pauseController)) ::UnityW<::GlobalNamespace::PauseController> _pauseController;
+/// @brief Field _pauseController, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get__pauseController, put=__cordl_internal_set__pauseController)) ::UnityW<::GlobalNamespace::PauseController>  _pauseController;
 
-  /// @brief Field _prePauseGameState, offset 0x88, size 0x4
-  __declspec(property(get = __cordl_internal_get__prePauseGameState, put = __cordl_internal_set__prePauseGameState)) ::GlobalNamespace::StandardLevelGameplayManager_GameState _prePauseGameState;
+/// @brief Field _prePauseGameState, offset 0x88, size 0x4 
+ __declspec(property(get=__cordl_internal_get__prePauseGameState, put=__cordl_internal_set__prePauseGameState)) ::GlobalNamespace::StandardLevelGameplayManager_GameState  _prePauseGameState;
 
-  /// @brief Field _returnToMenuController, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get__returnToMenuController, put = __cordl_internal_set__returnToMenuController)) ::GlobalNamespace::IReturnToMenuController* _returnToMenuController;
+/// @brief Field _returnToMenuController, offset 0x58, size 0x8 
+ __declspec(property(get=__cordl_internal_get__returnToMenuController, put=__cordl_internal_set__returnToMenuController)) ::GlobalNamespace::IReturnToMenuController*  _returnToMenuController;
 
-  /// @brief Field kWaitForFixedUpdate, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_kWaitForFixedUpdate, put = setStaticF_kWaitForFixedUpdate)) ::UnityEngine::WaitForFixedUpdate* kWaitForFixedUpdate;
+/// @brief Field kWaitForFixedUpdate, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_kWaitForFixedUpdate, put=setStaticF_kWaitForFixedUpdate)) ::UnityEngine::WaitForFixedUpdate*  kWaitForFixedUpdate;
 
-  /// @brief Field levelDidStartEvent, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get_levelDidStartEvent, put = __cordl_internal_set_levelDidStartEvent)) ::System::Action* levelDidStartEvent;
+/// @brief Field levelDidStartEvent, offset 0x68, size 0x8 
+ __declspec(property(get=__cordl_internal_get_levelDidStartEvent, put=__cordl_internal_set_levelDidStartEvent)) ::System::Action*  levelDidStartEvent;
 
-  __declspec(property(get = get_levelEndStateType)) ::GlobalNamespace::LevelCompletionResults_LevelEndStateType levelEndStateType;
+ __declspec(property(get=get_levelEndStateType)) ::GlobalNamespace::LevelCompletionResults_LevelEndStateType  levelEndStateType;
 
-  /// @brief Field levelFailedEvent, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get_levelFailedEvent, put = __cordl_internal_set_levelFailedEvent)) ::System::Action* levelFailedEvent;
+/// @brief Field levelFailedEvent, offset 0x78, size 0x8 
+ __declspec(property(get=__cordl_internal_get_levelFailedEvent, put=__cordl_internal_set_levelFailedEvent)) ::System::Action*  levelFailedEvent;
 
-  /// @brief Field levelFinishedEvent, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get_levelFinishedEvent, put = __cordl_internal_set_levelFinishedEvent)) ::System::Action* levelFinishedEvent;
+/// @brief Field levelFinishedEvent, offset 0x70, size 0x8 
+ __declspec(property(get=__cordl_internal_get_levelFinishedEvent, put=__cordl_internal_set_levelFinishedEvent)) ::System::Action*  levelFinishedEvent;
 
-  /// @brief Convert operator to "::GlobalNamespace::ILevelEndActions"
-  constexpr operator ::GlobalNamespace::ILevelEndActions*() noexcept;
+/// @brief Convert operator to "::GlobalNamespace::ILevelEndActions"
+constexpr operator  ::GlobalNamespace::ILevelEndActions*() noexcept;
 
-  /// @brief Convert operator to "::GlobalNamespace::ILevelStartController"
-  constexpr operator ::GlobalNamespace::ILevelStartController*() noexcept;
+/// @brief Convert operator to "::GlobalNamespace::ILevelStartController"
+constexpr operator  ::GlobalNamespace::ILevelStartController*() noexcept;
 
-  /// @brief Method Awake, addr 0x586cf90, size 0x8, virtual false, abstract: false, final false
-  inline void Awake();
+/// @brief Method Awake, addr 0x586e83c, size 0x8, virtual false, abstract: false, final false
+inline void Awake() ;
 
-  /// @brief Method HandleGameEnergyDidReach0, addr 0x586d41c, size 0x50, virtual false, abstract: false, final false
-  inline void HandleGameEnergyDidReach0();
+/// @brief Method HandleGameEnergyDidReach0, addr 0x586ecc8, size 0x50, virtual false, abstract: false, final false
+inline void HandleGameEnergyDidReach0() ;
 
-  /// @brief Method HandlePauseControllerCanPause, addr 0x586d4a0, size 0x38, virtual false, abstract: false, final false
-  inline void HandlePauseControllerCanPause(::System::Action_1<bool>* canPause);
+/// @brief Method HandlePauseControllerCanPause, addr 0x586ed4c, size 0x38, virtual false, abstract: false, final false
+inline void HandlePauseControllerCanPause(::System::Action_1<bool>*  canPause) ;
 
-  /// @brief Method HandlePauseControllerDidPause, addr 0x586d4d8, size 0x1c, virtual false, abstract: false, final false
-  inline void HandlePauseControllerDidPause();
+/// @brief Method HandlePauseControllerDidPause, addr 0x586ed84, size 0x1c, virtual false, abstract: false, final false
+inline void HandlePauseControllerDidPause() ;
 
-  /// @brief Method HandlePauseControllerDidResume, addr 0x586d50c, size 0x18, virtual false, abstract: false, final false
-  inline void HandlePauseControllerDidResume();
+/// @brief Method HandlePauseControllerDidResume, addr 0x586edb8, size 0x18, virtual false, abstract: false, final false
+inline void HandlePauseControllerDidResume() ;
 
-  /// @brief Method HandlePauseControllerDidStartResume, addr 0x586d4f4, size 0x18, virtual false, abstract: false, final false
-  inline void HandlePauseControllerDidStartResume();
+/// @brief Method HandlePauseControllerDidStartResume, addr 0x586eda0, size 0x18, virtual false, abstract: false, final false
+inline void HandlePauseControllerDidStartResume() ;
 
-  /// @brief Method HandleSongDidFinish, addr 0x586d46c, size 0x34, virtual false, abstract: false, final false
-  inline void HandleSongDidFinish();
+/// @brief Method HandleSongDidFinish, addr 0x586ed18, size 0x34, virtual false, abstract: false, final false
+inline void HandleSongDidFinish() ;
 
-  static inline ::GlobalNamespace::StandardLevelGameplayManager* New_ctor();
+static inline ::GlobalNamespace::StandardLevelGameplayManager* New_ctor() ;
 
-  /// @brief Method OnDestroy, addr 0x586cff4, size 0x3c8, virtual false, abstract: false, final false
-  inline void OnDestroy();
+/// @brief Method OnDestroy, addr 0x586e8a0, size 0x3c8, virtual false, abstract: false, final false
+inline void OnDestroy() ;
 
-  /// @brief Method Start, addr 0x586cf98, size 0x54, virtual false, abstract: false, final false
-  inline ::System::Collections::IEnumerator* Start();
+/// @brief Method Start, addr 0x586e844, size 0x54, virtual false, abstract: false, final false
+inline ::System::Collections::IEnumerator* Start() ;
 
-  /// @brief Method Update, addr 0x586d3bc, size 0x60, virtual false, abstract: false, final false
-  inline void Update();
+/// @brief Method Update, addr 0x586ec68, size 0x60, virtual false, abstract: false, final false
+inline void Update() ;
 
-  constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController> const& __cordl_internal_get__audioTimeSyncController() const;
+constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController> const& __cordl_internal_get__audioTimeSyncController() const;
 
-  constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController>& __cordl_internal_get__audioTimeSyncController();
+constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController>& __cordl_internal_get__audioTimeSyncController() ;
 
-  constexpr ::GlobalNamespace::BeatmapCallbacksController* const& __cordl_internal_get__beatmapCallbacksController() const;
+constexpr ::GlobalNamespace::BeatmapCallbacksController* const& __cordl_internal_get__beatmapCallbacksController() const;
 
-  constexpr ::GlobalNamespace::BeatmapCallbacksController*& __cordl_internal_get__beatmapCallbacksController();
+constexpr ::GlobalNamespace::BeatmapCallbacksController*& __cordl_internal_get__beatmapCallbacksController() ;
 
-  constexpr ::GlobalNamespace::IReadonlyBeatmapData* const& __cordl_internal_get__beatmapData() const;
+constexpr ::GlobalNamespace::IReadonlyBeatmapData* const& __cordl_internal_get__beatmapData() const;
 
-  constexpr ::GlobalNamespace::IReadonlyBeatmapData*& __cordl_internal_get__beatmapData();
+constexpr ::GlobalNamespace::IReadonlyBeatmapData*& __cordl_internal_get__beatmapData() ;
 
-  constexpr ::UnityW<::GlobalNamespace::GameEnergyCounter> const& __cordl_internal_get__gameEnergyCounter() const;
+constexpr ::UnityW<::GlobalNamespace::GameEnergyCounter> const& __cordl_internal_get__gameEnergyCounter() const;
 
-  constexpr ::UnityW<::GlobalNamespace::GameEnergyCounter>& __cordl_internal_get__gameEnergyCounter();
+constexpr ::UnityW<::GlobalNamespace::GameEnergyCounter>& __cordl_internal_get__gameEnergyCounter() ;
 
-  constexpr ::UnityW<::GlobalNamespace::GameScenesManager> const& __cordl_internal_get__gameScenesManager() const;
+constexpr ::UnityW<::GlobalNamespace::GameScenesManager> const& __cordl_internal_get__gameScenesManager() const;
 
-  constexpr ::UnityW<::GlobalNamespace::GameScenesManager>& __cordl_internal_get__gameScenesManager();
+constexpr ::UnityW<::GlobalNamespace::GameScenesManager>& __cordl_internal_get__gameScenesManager() ;
 
-  constexpr ::UnityW<::GlobalNamespace::GameSongController> const& __cordl_internal_get__gameSongController() const;
+constexpr ::UnityW<::GlobalNamespace::GameSongController> const& __cordl_internal_get__gameSongController() const;
 
-  constexpr ::UnityW<::GlobalNamespace::GameSongController>& __cordl_internal_get__gameSongController();
+constexpr ::UnityW<::GlobalNamespace::GameSongController>& __cordl_internal_get__gameSongController() ;
 
-  constexpr ::GlobalNamespace::StandardLevelGameplayManager_GameState const& __cordl_internal_get__gameState() const;
+constexpr ::GlobalNamespace::StandardLevelGameplayManager_GameState const& __cordl_internal_get__gameState() const;
 
-  constexpr ::GlobalNamespace::StandardLevelGameplayManager_GameState& __cordl_internal_get__gameState();
+constexpr ::GlobalNamespace::StandardLevelGameplayManager_GameState& __cordl_internal_get__gameState() ;
 
-  constexpr ::GlobalNamespace::StandardLevelGameplayManager_InitData* const& __cordl_internal_get__initData() const;
+constexpr ::GlobalNamespace::StandardLevelGameplayManager_InitData* const& __cordl_internal_get__initData() const;
 
-  constexpr ::GlobalNamespace::StandardLevelGameplayManager_InitData*& __cordl_internal_get__initData();
+constexpr ::GlobalNamespace::StandardLevelGameplayManager_InitData*& __cordl_internal_get__initData() ;
 
-  constexpr ::GlobalNamespace::LevelCompletionResults_LevelEndStateType const& __cordl_internal_get__levelEndStateType() const;
+constexpr ::GlobalNamespace::LevelCompletionResults_LevelEndStateType const& __cordl_internal_get__levelEndStateType() const;
 
-  constexpr ::GlobalNamespace::LevelCompletionResults_LevelEndStateType& __cordl_internal_get__levelEndStateType();
+constexpr ::GlobalNamespace::LevelCompletionResults_LevelEndStateType& __cordl_internal_get__levelEndStateType() ;
 
-  constexpr ::UnityW<::GlobalNamespace::PauseController> const& __cordl_internal_get__pauseController() const;
+constexpr ::UnityW<::GlobalNamespace::PauseController> const& __cordl_internal_get__pauseController() const;
 
-  constexpr ::UnityW<::GlobalNamespace::PauseController>& __cordl_internal_get__pauseController();
+constexpr ::UnityW<::GlobalNamespace::PauseController>& __cordl_internal_get__pauseController() ;
 
-  constexpr ::GlobalNamespace::StandardLevelGameplayManager_GameState const& __cordl_internal_get__prePauseGameState() const;
+constexpr ::GlobalNamespace::StandardLevelGameplayManager_GameState const& __cordl_internal_get__prePauseGameState() const;
 
-  constexpr ::GlobalNamespace::StandardLevelGameplayManager_GameState& __cordl_internal_get__prePauseGameState();
+constexpr ::GlobalNamespace::StandardLevelGameplayManager_GameState& __cordl_internal_get__prePauseGameState() ;
 
-  constexpr ::GlobalNamespace::IReturnToMenuController* const& __cordl_internal_get__returnToMenuController() const;
+constexpr ::GlobalNamespace::IReturnToMenuController* const& __cordl_internal_get__returnToMenuController() const;
 
-  constexpr ::GlobalNamespace::IReturnToMenuController*& __cordl_internal_get__returnToMenuController();
+constexpr ::GlobalNamespace::IReturnToMenuController*& __cordl_internal_get__returnToMenuController() ;
 
-  constexpr ::System::Action* const& __cordl_internal_get_levelDidStartEvent() const;
+constexpr ::System::Action* const& __cordl_internal_get_levelDidStartEvent() const;
 
-  constexpr ::System::Action*& __cordl_internal_get_levelDidStartEvent();
+constexpr ::System::Action*& __cordl_internal_get_levelDidStartEvent() ;
 
-  constexpr ::System::Action* const& __cordl_internal_get_levelFailedEvent() const;
+constexpr ::System::Action* const& __cordl_internal_get_levelFailedEvent() const;
 
-  constexpr ::System::Action*& __cordl_internal_get_levelFailedEvent();
+constexpr ::System::Action*& __cordl_internal_get_levelFailedEvent() ;
 
-  constexpr ::System::Action* const& __cordl_internal_get_levelFinishedEvent() const;
+constexpr ::System::Action* const& __cordl_internal_get_levelFinishedEvent() const;
 
-  constexpr ::System::Action*& __cordl_internal_get_levelFinishedEvent();
+constexpr ::System::Action*& __cordl_internal_get_levelFinishedEvent() ;
 
-  constexpr void __cordl_internal_set__audioTimeSyncController(::UnityW<::GlobalNamespace::AudioTimeSyncController> value);
+constexpr void __cordl_internal_set__audioTimeSyncController(::UnityW<::GlobalNamespace::AudioTimeSyncController>  value) ;
 
-  constexpr void __cordl_internal_set__beatmapCallbacksController(::GlobalNamespace::BeatmapCallbacksController* value);
+constexpr void __cordl_internal_set__beatmapCallbacksController(::GlobalNamespace::BeatmapCallbacksController*  value) ;
 
-  constexpr void __cordl_internal_set__beatmapData(::GlobalNamespace::IReadonlyBeatmapData* value);
+constexpr void __cordl_internal_set__beatmapData(::GlobalNamespace::IReadonlyBeatmapData*  value) ;
 
-  constexpr void __cordl_internal_set__gameEnergyCounter(::UnityW<::GlobalNamespace::GameEnergyCounter> value);
+constexpr void __cordl_internal_set__gameEnergyCounter(::UnityW<::GlobalNamespace::GameEnergyCounter>  value) ;
 
-  constexpr void __cordl_internal_set__gameScenesManager(::UnityW<::GlobalNamespace::GameScenesManager> value);
+constexpr void __cordl_internal_set__gameScenesManager(::UnityW<::GlobalNamespace::GameScenesManager>  value) ;
 
-  constexpr void __cordl_internal_set__gameSongController(::UnityW<::GlobalNamespace::GameSongController> value);
+constexpr void __cordl_internal_set__gameSongController(::UnityW<::GlobalNamespace::GameSongController>  value) ;
 
-  constexpr void __cordl_internal_set__gameState(::GlobalNamespace::StandardLevelGameplayManager_GameState value);
+constexpr void __cordl_internal_set__gameState(::GlobalNamespace::StandardLevelGameplayManager_GameState  value) ;
 
-  constexpr void __cordl_internal_set__initData(::GlobalNamespace::StandardLevelGameplayManager_InitData* value);
+constexpr void __cordl_internal_set__initData(::GlobalNamespace::StandardLevelGameplayManager_InitData*  value) ;
 
-  constexpr void __cordl_internal_set__levelEndStateType(::GlobalNamespace::LevelCompletionResults_LevelEndStateType value);
+constexpr void __cordl_internal_set__levelEndStateType(::GlobalNamespace::LevelCompletionResults_LevelEndStateType  value) ;
 
-  constexpr void __cordl_internal_set__pauseController(::UnityW<::GlobalNamespace::PauseController> value);
+constexpr void __cordl_internal_set__pauseController(::UnityW<::GlobalNamespace::PauseController>  value) ;
 
-  constexpr void __cordl_internal_set__prePauseGameState(::GlobalNamespace::StandardLevelGameplayManager_GameState value);
+constexpr void __cordl_internal_set__prePauseGameState(::GlobalNamespace::StandardLevelGameplayManager_GameState  value) ;
 
-  constexpr void __cordl_internal_set__returnToMenuController(::GlobalNamespace::IReturnToMenuController* value);
+constexpr void __cordl_internal_set__returnToMenuController(::GlobalNamespace::IReturnToMenuController*  value) ;
 
-  constexpr void __cordl_internal_set_levelDidStartEvent(::System::Action* value);
+constexpr void __cordl_internal_set_levelDidStartEvent(::System::Action*  value) ;
 
-  constexpr void __cordl_internal_set_levelFailedEvent(::System::Action* value);
+constexpr void __cordl_internal_set_levelFailedEvent(::System::Action*  value) ;
 
-  constexpr void __cordl_internal_set_levelFinishedEvent(::System::Action* value);
+constexpr void __cordl_internal_set_levelFinishedEvent(::System::Action*  value) ;
 
-  /// @brief Method .ctor, addr 0x586d524, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x586edd0, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method add_levelDidStartEvent, addr 0x586cb80, size 0xac, virtual true, abstract: false, final true
-  inline void add_levelDidStartEvent(::System::Action* value);
+/// @brief Method add_levelDidStartEvent, addr 0x586e42c, size 0xac, virtual true, abstract: false, final true
+inline void add_levelDidStartEvent(::System::Action*  value) ;
 
-  /// @brief Method add_levelFailedEvent, addr 0x586ce30, size 0xac, virtual true, abstract: false, final true
-  inline void add_levelFailedEvent(::System::Action* value);
+/// @brief Method add_levelFailedEvent, addr 0x586e6dc, size 0xac, virtual true, abstract: false, final true
+inline void add_levelFailedEvent(::System::Action*  value) ;
 
-  /// @brief Method add_levelFinishedEvent, addr 0x586ccd8, size 0xac, virtual true, abstract: false, final true
-  inline void add_levelFinishedEvent(::System::Action* value);
+/// @brief Method add_levelFinishedEvent, addr 0x586e584, size 0xac, virtual true, abstract: false, final true
+inline void add_levelFinishedEvent(::System::Action*  value) ;
 
-  static inline ::UnityEngine::WaitForFixedUpdate* getStaticF_kWaitForFixedUpdate();
+static inline ::UnityEngine::WaitForFixedUpdate* getStaticF_kWaitForFixedUpdate() ;
 
-  /// @brief Method get_levelEndStateType, addr 0x586cf88, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::LevelCompletionResults_LevelEndStateType get_levelEndStateType();
+/// @brief Method get_levelEndStateType, addr 0x586e834, size 0x8, virtual false, abstract: false, final false
+inline ::GlobalNamespace::LevelCompletionResults_LevelEndStateType get_levelEndStateType() ;
 
-  /// @brief Convert to "::GlobalNamespace::ILevelEndActions"
-  constexpr ::GlobalNamespace::ILevelEndActions* i___GlobalNamespace__ILevelEndActions() noexcept;
+/// @brief Convert to "::GlobalNamespace::ILevelEndActions"
+constexpr ::GlobalNamespace::ILevelEndActions* i___GlobalNamespace__ILevelEndActions() noexcept;
 
-  /// @brief Convert to "::GlobalNamespace::ILevelStartController"
-  constexpr ::GlobalNamespace::ILevelStartController* i___GlobalNamespace__ILevelStartController() noexcept;
+/// @brief Convert to "::GlobalNamespace::ILevelStartController"
+constexpr ::GlobalNamespace::ILevelStartController* i___GlobalNamespace__ILevelStartController() noexcept;
 
-  /// @brief Method remove_levelDidStartEvent, addr 0x586cc2c, size 0xac, virtual true, abstract: false, final true
-  inline void remove_levelDidStartEvent(::System::Action* value);
+/// @brief Method remove_levelDidStartEvent, addr 0x586e4d8, size 0xac, virtual true, abstract: false, final true
+inline void remove_levelDidStartEvent(::System::Action*  value) ;
 
-  /// @brief Method remove_levelFailedEvent, addr 0x586cedc, size 0xac, virtual true, abstract: false, final true
-  inline void remove_levelFailedEvent(::System::Action* value);
+/// @brief Method remove_levelFailedEvent, addr 0x586e788, size 0xac, virtual true, abstract: false, final true
+inline void remove_levelFailedEvent(::System::Action*  value) ;
 
-  /// @brief Method remove_levelFinishedEvent, addr 0x586cd84, size 0xac, virtual true, abstract: false, final true
-  inline void remove_levelFinishedEvent(::System::Action* value);
+/// @brief Method remove_levelFinishedEvent, addr 0x586e630, size 0xac, virtual true, abstract: false, final true
+inline void remove_levelFinishedEvent(::System::Action*  value) ;
 
-  static inline void setStaticF_kWaitForFixedUpdate(::UnityEngine::WaitForFixedUpdate* value);
+static inline void setStaticF_kWaitForFixedUpdate(::UnityEngine::WaitForFixedUpdate*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr StandardLevelGameplayManager();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr StandardLevelGameplayManager() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StandardLevelGameplayManager", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  StandardLevelGameplayManager(StandardLevelGameplayManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StandardLevelGameplayManager", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  StandardLevelGameplayManager(StandardLevelGameplayManager const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "StandardLevelGameplayManager", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+StandardLevelGameplayManager(StandardLevelGameplayManager && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5987 };
+// Ctor Parameters [CppParam { name: "", ty: "StandardLevelGameplayManager", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+StandardLevelGameplayManager(StandardLevelGameplayManager const& ) = delete;
 
-  /// @brief Field _gameScenesManager, offset: 0x20, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::GameScenesManager> ____gameScenesManager;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{5987};
 
-  /// @brief Field _gameSongController, offset: 0x28, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::GameSongController> ____gameSongController;
+/// @brief Field _gameScenesManager, offset: 0x20, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::GameScenesManager>  ____gameScenesManager;
 
-  /// @brief Field _gameEnergyCounter, offset: 0x30, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::GameEnergyCounter> ____gameEnergyCounter;
+/// @brief Field _gameSongController, offset: 0x28, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::GameSongController>  ____gameSongController;
 
-  /// @brief Field _pauseController, offset: 0x38, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::PauseController> ____pauseController;
+/// @brief Field _gameEnergyCounter, offset: 0x30, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::GameEnergyCounter>  ____gameEnergyCounter;
 
-  /// @brief Field _initData, offset: 0x40, size: 0x8, def value: None
-  ::GlobalNamespace::StandardLevelGameplayManager_InitData* ____initData;
+/// @brief Field _pauseController, offset: 0x38, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::PauseController>  ____pauseController;
 
-  /// @brief Field _audioTimeSyncController, offset: 0x48, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::AudioTimeSyncController> ____audioTimeSyncController;
+/// @brief Field _initData, offset: 0x40, size: 0x8, def value: None
+ ::GlobalNamespace::StandardLevelGameplayManager_InitData*  ____initData;
 
-  /// @brief Field _beatmapData, offset: 0x50, size: 0x8, def value: None
-  ::GlobalNamespace::IReadonlyBeatmapData* ____beatmapData;
+/// @brief Field _audioTimeSyncController, offset: 0x48, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::AudioTimeSyncController>  ____audioTimeSyncController;
 
-  /// @brief Field _returnToMenuController, offset: 0x58, size: 0x8, def value: None
-  ::GlobalNamespace::IReturnToMenuController* ____returnToMenuController;
+/// @brief Field _beatmapData, offset: 0x50, size: 0x8, def value: None
+ ::GlobalNamespace::IReadonlyBeatmapData*  ____beatmapData;
 
-  /// @brief Field _beatmapCallbacksController, offset: 0x60, size: 0x8, def value: None
-  ::GlobalNamespace::BeatmapCallbacksController* ____beatmapCallbacksController;
+/// @brief Field _returnToMenuController, offset: 0x58, size: 0x8, def value: None
+ ::GlobalNamespace::IReturnToMenuController*  ____returnToMenuController;
 
-  /// @brief Field levelDidStartEvent, offset: 0x68, size: 0x8, def value: None
-  ::System::Action* ___levelDidStartEvent;
+/// @brief Field _beatmapCallbacksController, offset: 0x60, size: 0x8, def value: None
+ ::GlobalNamespace::BeatmapCallbacksController*  ____beatmapCallbacksController;
 
-  /// @brief Field levelFinishedEvent, offset: 0x70, size: 0x8, def value: None
-  ::System::Action* ___levelFinishedEvent;
+/// @brief Field levelDidStartEvent, offset: 0x68, size: 0x8, def value: None
+ ::System::Action*  ___levelDidStartEvent;
 
-  /// @brief Field levelFailedEvent, offset: 0x78, size: 0x8, def value: None
-  ::System::Action* ___levelFailedEvent;
+/// @brief Field levelFinishedEvent, offset: 0x70, size: 0x8, def value: None
+ ::System::Action*  ___levelFinishedEvent;
 
-  /// @brief Field _gameState, offset: 0x80, size: 0x4, def value: None
-  ::GlobalNamespace::StandardLevelGameplayManager_GameState ____gameState;
+/// @brief Field levelFailedEvent, offset: 0x78, size: 0x8, def value: None
+ ::System::Action*  ___levelFailedEvent;
 
-  /// @brief Field _levelEndStateType, offset: 0x84, size: 0x4, def value: None
-  ::GlobalNamespace::LevelCompletionResults_LevelEndStateType ____levelEndStateType;
+/// @brief Field _gameState, offset: 0x80, size: 0x4, def value: None
+ ::GlobalNamespace::StandardLevelGameplayManager_GameState  ____gameState;
 
-  /// @brief Field _prePauseGameState, offset: 0x88, size: 0x4, def value: None
-  ::GlobalNamespace::StandardLevelGameplayManager_GameState ____prePauseGameState;
+/// @brief Field _levelEndStateType, offset: 0x84, size: 0x4, def value: None
+ ::GlobalNamespace::LevelCompletionResults_LevelEndStateType  ____levelEndStateType;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _prePauseGameState, offset: 0x88, size: 0x4, def value: None
+ ::GlobalNamespace::StandardLevelGameplayManager_GameState  ____prePauseGameState;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::StandardLevelGameplayManager, ____gameScenesManager) == 0x20, "Offset mismatch!");
@@ -648,7 +648,7 @@ static_assert(offsetof(::GlobalNamespace::StandardLevelGameplayManager, ____preP
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::StandardLevelGameplayManager, 0x90>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::StandardLevelGameplayManager_GameState, "", "StandardLevelGameplayManager/GameState");
 NEED_NO_BOX(::GlobalNamespace::StandardLevelGameplayManager);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::StandardLevelGameplayManager*, "", "StandardLevelGameplayManager");

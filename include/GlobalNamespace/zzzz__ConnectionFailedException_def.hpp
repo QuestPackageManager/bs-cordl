@@ -22,53 +22,53 @@ namespace GlobalNamespace {
 // CS Name: ConnectionFailedException
 class CORDL_TYPE ConnectionFailedException : public ::System::Exception {
 public:
-  // Declarations
-  /// @brief Field reason, offset 0x8c, size 0x4
-  __declspec(property(get = __cordl_internal_get_reason, put = __cordl_internal_set_reason)) ::GlobalNamespace::ConnectionFailedReason reason;
+// Declarations
+/// @brief Field reason, offset 0x8c, size 0x4 
+ __declspec(property(get=__cordl_internal_get_reason, put=__cordl_internal_set_reason)) ::GlobalNamespace::ConnectionFailedReason  reason;
 
-  static inline ::GlobalNamespace::ConnectionFailedException* New_ctor(::GlobalNamespace::ConnectionFailedReason reason);
+static inline ::GlobalNamespace::ConnectionFailedException* New_ctor(::GlobalNamespace::ConnectionFailedReason  reason) ;
 
-  static inline ::GlobalNamespace::ConnectionFailedException* New_ctor(::GlobalNamespace::ConnectionFailedReason reason, ::StringW message);
+static inline ::GlobalNamespace::ConnectionFailedException* New_ctor(::GlobalNamespace::ConnectionFailedReason  reason, ::StringW  message) ;
 
-  constexpr ::GlobalNamespace::ConnectionFailedReason const& __cordl_internal_get_reason() const;
+constexpr ::GlobalNamespace::ConnectionFailedReason const& __cordl_internal_get_reason() const;
 
-  constexpr ::GlobalNamespace::ConnectionFailedReason& __cordl_internal_get_reason();
+constexpr ::GlobalNamespace::ConnectionFailedReason& __cordl_internal_get_reason() ;
 
-  constexpr void __cordl_internal_set_reason(::GlobalNamespace::ConnectionFailedReason value);
+constexpr void __cordl_internal_set_reason(::GlobalNamespace::ConnectionFailedReason  value) ;
 
-  /// @brief Method .ctor, addr 0x326ebe8, size 0x6c, virtual false, abstract: false, final false
-  inline void _ctor(::GlobalNamespace::ConnectionFailedReason reason);
+/// @brief Method .ctor, addr 0x326f984, size 0x6c, virtual false, abstract: false, final false
+inline void _ctor(::GlobalNamespace::ConnectionFailedReason  reason) ;
 
-  /// @brief Method .ctor, addr 0x326ec54, size 0x74, virtual false, abstract: false, final false
-  inline void _ctor(::GlobalNamespace::ConnectionFailedReason reason, ::StringW message);
+/// @brief Method .ctor, addr 0x326f9f0, size 0x74, virtual false, abstract: false, final false
+inline void _ctor(::GlobalNamespace::ConnectionFailedReason  reason, ::StringW  message) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ConnectionFailedException();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ConnectionFailedException() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ConnectionFailedException", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ConnectionFailedException(ConnectionFailedException&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ConnectionFailedException", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ConnectionFailedException(ConnectionFailedException const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ConnectionFailedException", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ConnectionFailedException(ConnectionFailedException && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18115 };
+// Ctor Parameters [CppParam { name: "", ty: "ConnectionFailedException", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ConnectionFailedException(ConnectionFailedException const& ) = delete;
 
-  /// @brief Field reason, offset: 0x8c, size: 0x4, def value: None
-  ::GlobalNamespace::ConnectionFailedReason ___reason;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{18117};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field reason, offset: 0x8c, size: 0x4, def value: None
+ ::GlobalNamespace::ConnectionFailedReason  ___reason;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::ConnectionFailedException, ___reason) == 0x8c, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ConnectionFailedException, 0x90>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ConnectionFailedException);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ConnectionFailedException*, "", "ConnectionFailedException");

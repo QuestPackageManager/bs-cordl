@@ -26,43 +26,43 @@ namespace UnityEngine::UIElements {
 // CS Name: UnityEngine.UIElements.VisualTreeWorldSpaceHierarchyFlagsUpdater
 class CORDL_TYPE VisualTreeWorldSpaceHierarchyFlagsUpdater : public ::UnityEngine::UIElements::VisualTreeHierarchyFlagsUpdater {
 public:
-  // Declarations
-  /// @brief Method GetParentMustDirtyFlags, addr 0x6b752d4, size 0x34, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::VisualElementFlags GetParentMustDirtyFlags(::UnityEngine::UIElements::VisualElement* ve);
+// Declarations
+/// @brief Method GetParentMustDirtyFlags, addr 0x6b76e4c, size 0x34, virtual false, abstract: false, final false
+inline ::UnityEngine::UIElements::VisualElementFlags GetParentMustDirtyFlags(::UnityEngine::UIElements::VisualElement*  ve) ;
 
-  static inline ::UnityEngine::UIElements::VisualTreeWorldSpaceHierarchyFlagsUpdater* New_ctor();
+static inline ::UnityEngine::UIElements::VisualTreeWorldSpaceHierarchyFlagsUpdater* New_ctor() ;
 
-  /// @brief Method OnVersionChanged, addr 0x6b7519c, size 0x138, virtual true, abstract: false, final false
-  inline void OnVersionChanged(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::VersionChangeType versionChangeType);
+/// @brief Method OnVersionChanged, addr 0x6b76d14, size 0x138, virtual true, abstract: false, final false
+inline void OnVersionChanged(::UnityEngine::UIElements::VisualElement*  ve, ::UnityEngine::UIElements::VersionChangeType  versionChangeType) ;
 
-  /// @brief Method Update, addr 0x6b75308, size 0x4, virtual true, abstract: false, final false
-  inline void Update();
+/// @brief Method Update, addr 0x6b76e80, size 0x4, virtual true, abstract: false, final false
+inline void Update() ;
 
-  /// @brief Method .ctor, addr 0x6b7530c, size 0x58, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6b76e84, size 0x58, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr VisualTreeWorldSpaceHierarchyFlagsUpdater();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr VisualTreeWorldSpaceHierarchyFlagsUpdater() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VisualTreeWorldSpaceHierarchyFlagsUpdater", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  VisualTreeWorldSpaceHierarchyFlagsUpdater(VisualTreeWorldSpaceHierarchyFlagsUpdater&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VisualTreeWorldSpaceHierarchyFlagsUpdater", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  VisualTreeWorldSpaceHierarchyFlagsUpdater(VisualTreeWorldSpaceHierarchyFlagsUpdater const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "VisualTreeWorldSpaceHierarchyFlagsUpdater", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+VisualTreeWorldSpaceHierarchyFlagsUpdater(VisualTreeWorldSpaceHierarchyFlagsUpdater && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5253 };
+// Ctor Parameters [CppParam { name: "", ty: "VisualTreeWorldSpaceHierarchyFlagsUpdater", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+VisualTreeWorldSpaceHierarchyFlagsUpdater(VisualTreeWorldSpaceHierarchyFlagsUpdater const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{5253};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::VisualTreeWorldSpaceHierarchyFlagsUpdater, 0x30>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements
+} // namespace end def UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::VisualTreeWorldSpaceHierarchyFlagsUpdater);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::VisualTreeWorldSpaceHierarchyFlagsUpdater*, "UnityEngine.UIElements", "VisualTreeWorldSpaceHierarchyFlagsUpdater");

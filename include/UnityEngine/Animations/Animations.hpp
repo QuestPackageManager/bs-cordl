@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "UnityEngine/Animations/AnimationClipPlayable.hpp"
 #include "UnityEngine/Animations/AnimationHumanStream.hpp"
@@ -22,5 +22,6 @@ module;
 #include "UnityEngine/Animations/IAnimationWindowPreview.hpp"
 #include "UnityEngine/Animations/NotKeyableAttribute.hpp"
 #ifdef __cpp_modules
-export module Animations;
-#endif
+                    export module Animations;
+                    #endif
+                

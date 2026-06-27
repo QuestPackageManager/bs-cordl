@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "Org/BouncyCastle/Math/EC/Endo/ECEndomorphism.hpp"
 #include "Org/BouncyCastle/Math/EC/Endo/EndoPreCompInfo.hpp"
@@ -13,5 +13,6 @@ module;
 #include "Org/BouncyCastle/Math/EC/Endo/GlvTypeBParameters.hpp"
 #include "Org/BouncyCastle/Math/EC/Endo/ScalarSplitParameters.hpp"
 #ifdef __cpp_modules
-export module Endo;
-#endif
+                    export module Endo;
+                    #endif
+                

@@ -21,44 +21,44 @@ namespace Org::BouncyCastle::Cms {
 // CS Name: Org.BouncyCastle.Cms.CmsStreamException
 class CORDL_TYPE CmsStreamException : public ::System::IO::IOException {
 public:
-  // Declarations
-  static inline ::Org::BouncyCastle::Cms::CmsStreamException* New_ctor();
+// Declarations
+static inline ::Org::BouncyCastle::Cms::CmsStreamException* New_ctor() ;
 
-  static inline ::Org::BouncyCastle::Cms::CmsStreamException* New_ctor(::StringW name);
+static inline ::Org::BouncyCastle::Cms::CmsStreamException* New_ctor(::StringW  name) ;
 
-  static inline ::Org::BouncyCastle::Cms::CmsStreamException* New_ctor(::StringW name, ::System::Exception* e);
+static inline ::Org::BouncyCastle::Cms::CmsStreamException* New_ctor(::StringW  name, ::System::Exception*  e) ;
 
-  /// @brief Method .ctor, addr 0x360b9a8, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x360c744, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method .ctor, addr 0x360b9b0, size 0x24, virtual false, abstract: false, final false
-  inline void _ctor(::StringW name);
+/// @brief Method .ctor, addr 0x360c74c, size 0x24, virtual false, abstract: false, final false
+inline void _ctor(::StringW  name) ;
 
-  /// @brief Method .ctor, addr 0x35fed9c, size 0x24, virtual false, abstract: false, final false
-  inline void _ctor(::StringW name, ::System::Exception* e);
+/// @brief Method .ctor, addr 0x35ffb38, size 0x24, virtual false, abstract: false, final false
+inline void _ctor(::StringW  name, ::System::Exception*  e) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CmsStreamException();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr CmsStreamException() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CmsStreamException", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  CmsStreamException(CmsStreamException&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CmsStreamException", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  CmsStreamException(CmsStreamException const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "CmsStreamException", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+CmsStreamException(CmsStreamException && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 661 };
+// Ctor Parameters [CppParam { name: "", ty: "CmsStreamException", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+CmsStreamException(CmsStreamException const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{661};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Cms::CmsStreamException, 0x90>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Cms
+} // namespace end def Org::BouncyCastle::Cms
 NEED_NO_BOX(::Org::BouncyCastle::Cms::CmsStreamException);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Cms::CmsStreamException*, "Org.BouncyCastle.Cms", "CmsStreamException");

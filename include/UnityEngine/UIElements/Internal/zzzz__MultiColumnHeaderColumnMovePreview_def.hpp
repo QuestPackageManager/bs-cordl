@@ -18,41 +18,41 @@ namespace UnityEngine::UIElements::Internal {
 // CS Name: UnityEngine.UIElements.Internal.MultiColumnHeaderColumnMovePreview
 class CORDL_TYPE MultiColumnHeaderColumnMovePreview : public ::UnityEngine::UIElements::VisualElement {
 public:
-  // Declarations
-  /// @brief Field ussClassName, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_ussClassName, put = setStaticF_ussClassName)) ::StringW ussClassName;
+// Declarations
+/// @brief Field ussClassName, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_ussClassName, put=setStaticF_ussClassName)) ::StringW  ussClassName;
 
-  static inline ::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnMovePreview* New_ctor();
+static inline ::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnMovePreview* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x6bc7de4, size 0xac, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6bc995c, size 0xac, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  static inline ::StringW getStaticF_ussClassName();
+static inline ::StringW getStaticF_ussClassName() ;
 
-  static inline void setStaticF_ussClassName(::StringW value);
+static inline void setStaticF_ussClassName(::StringW  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MultiColumnHeaderColumnMovePreview();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr MultiColumnHeaderColumnMovePreview() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiColumnHeaderColumnMovePreview", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  MultiColumnHeaderColumnMovePreview(MultiColumnHeaderColumnMovePreview&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiColumnHeaderColumnMovePreview", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  MultiColumnHeaderColumnMovePreview(MultiColumnHeaderColumnMovePreview const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "MultiColumnHeaderColumnMovePreview", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+MultiColumnHeaderColumnMovePreview(MultiColumnHeaderColumnMovePreview && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5510 };
+// Ctor Parameters [CppParam { name: "", ty: "MultiColumnHeaderColumnMovePreview", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+MultiColumnHeaderColumnMovePreview(MultiColumnHeaderColumnMovePreview const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{5510};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnMovePreview, 0x4a8>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements::Internal
+} // namespace end def UnityEngine::UIElements::Internal
 NEED_NO_BOX(::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnMovePreview);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnMovePreview*, "UnityEngine.UIElements.Internal", "MultiColumnHeaderColumnMovePreview");

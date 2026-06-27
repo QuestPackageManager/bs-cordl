@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "BeatSaber/Init/BSRuntimePlatform.hpp"
 #include "BeatSaber/Init/GameVersion.hpp"
@@ -9,5 +9,6 @@ module;
 #include "BeatSaber/Init/InitArguments.hpp"
 #include "BeatSaber/Init/RuntimePlatformType.hpp"
 #ifdef __cpp_modules
-export module Init;
-#endif
+                    export module Init;
+                    #endif
+                

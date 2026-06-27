@@ -23,91 +23,91 @@ namespace UnityEngine {
 // CS Name: UnityEngine.UINumericFieldsUtils
 class CORDL_TYPE UINumericFieldsUtils : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field k_AllowedCharactersForFloat, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_k_AllowedCharactersForFloat, put = setStaticF_k_AllowedCharactersForFloat)) ::StringW k_AllowedCharactersForFloat;
+// Declarations
+/// @brief Field k_AllowedCharactersForFloat, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_k_AllowedCharactersForFloat, put=setStaticF_k_AllowedCharactersForFloat)) ::StringW  k_AllowedCharactersForFloat;
 
-  /// @brief Field k_AllowedCharactersForInt, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_k_AllowedCharactersForInt, put = setStaticF_k_AllowedCharactersForInt)) ::StringW k_AllowedCharactersForInt;
+/// @brief Field k_AllowedCharactersForInt, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_k_AllowedCharactersForInt, put=setStaticF_k_AllowedCharactersForInt)) ::StringW  k_AllowedCharactersForInt;
 
-  /// @brief Field k_DoubleFieldFormatString, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_k_DoubleFieldFormatString, put = setStaticF_k_DoubleFieldFormatString)) ::StringW k_DoubleFieldFormatString;
+/// @brief Field k_DoubleFieldFormatString, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_k_DoubleFieldFormatString, put=setStaticF_k_DoubleFieldFormatString)) ::StringW  k_DoubleFieldFormatString;
 
-  /// @brief Field k_FloatFieldFormatString, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_k_FloatFieldFormatString, put = setStaticF_k_FloatFieldFormatString)) ::StringW k_FloatFieldFormatString;
+/// @brief Field k_FloatFieldFormatString, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_k_FloatFieldFormatString, put=setStaticF_k_FloatFieldFormatString)) ::StringW  k_FloatFieldFormatString;
 
-  /// @brief Field k_IntFieldFormatString, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_k_IntFieldFormatString, put = setStaticF_k_IntFieldFormatString)) ::StringW k_IntFieldFormatString;
+/// @brief Field k_IntFieldFormatString, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_k_IntFieldFormatString, put=setStaticF_k_IntFieldFormatString)) ::StringW  k_IntFieldFormatString;
 
-  /// @brief Method TryConvertStringToDouble, addr 0x699ac24, size 0x10c, virtual false, abstract: false, final false
-  static inline bool TryConvertStringToDouble(::StringW str, ::StringW initialValueAsString, ::ByRef<double_t> value);
+/// @brief Method TryConvertStringToDouble, addr 0x699c79c, size 0x10c, virtual false, abstract: false, final false
+static inline bool TryConvertStringToDouble(::StringW  str, ::StringW  initialValueAsString, ::ByRef<double_t>  value) ;
 
-  /// @brief Method TryConvertStringToDouble, addr 0x699aa8c, size 0x198, virtual false, abstract: false, final false
-  static inline bool TryConvertStringToDouble(::StringW str, ::ByRef<double_t> value, ::ByRef<::UnityEngine::ExpressionEvaluator_Expression*> expr);
+/// @brief Method TryConvertStringToDouble, addr 0x699c604, size 0x198, virtual false, abstract: false, final false
+static inline bool TryConvertStringToDouble(::StringW  str, ::ByRef<double_t>  value, ::ByRef<::UnityEngine::ExpressionEvaluator_Expression*>  expr) ;
 
-  /// @brief Method TryConvertStringToFloat, addr 0x699ad30, size 0xf4, virtual false, abstract: false, final false
-  static inline bool TryConvertStringToFloat(::StringW str, ::StringW initialValueAsString, ::ByRef<float_t> value);
+/// @brief Method TryConvertStringToFloat, addr 0x699c8a8, size 0xf4, virtual false, abstract: false, final false
+static inline bool TryConvertStringToFloat(::StringW  str, ::StringW  initialValueAsString, ::ByRef<float_t>  value) ;
 
-  /// @brief Method TryConvertStringToInt, addr 0x699b154, size 0xa4, virtual false, abstract: false, final false
-  static inline bool TryConvertStringToInt(::StringW str, ::StringW initialValueAsString, ::ByRef<int32_t> value);
+/// @brief Method TryConvertStringToInt, addr 0x699cccc, size 0xa4, virtual false, abstract: false, final false
+static inline bool TryConvertStringToInt(::StringW  str, ::StringW  initialValueAsString, ::ByRef<int32_t>  value) ;
 
-  /// @brief Method TryConvertStringToLong, addr 0x699aeb0, size 0x10c, virtual false, abstract: false, final false
-  static inline bool TryConvertStringToLong(::StringW str, ::StringW initialValueAsString, ::ByRef<int64_t> value);
+/// @brief Method TryConvertStringToLong, addr 0x699ca28, size 0x10c, virtual false, abstract: false, final false
+static inline bool TryConvertStringToLong(::StringW  str, ::StringW  initialValueAsString, ::ByRef<int64_t>  value) ;
 
-  /// @brief Method TryConvertStringToLong, addr 0x699ae24, size 0x8c, virtual false, abstract: false, final false
-  static inline bool TryConvertStringToLong(::StringW str, ::ByRef<int64_t> value, ::ByRef<::UnityEngine::ExpressionEvaluator_Expression*> expr);
+/// @brief Method TryConvertStringToLong, addr 0x699c99c, size 0x8c, virtual false, abstract: false, final false
+static inline bool TryConvertStringToLong(::StringW  str, ::ByRef<int64_t>  value, ::ByRef<::UnityEngine::ExpressionEvaluator_Expression*>  expr) ;
 
-  /// @brief Method TryConvertStringToUInt, addr 0x699b1f8, size 0xa0, virtual false, abstract: false, final false
-  static inline bool TryConvertStringToUInt(::StringW str, ::StringW initialValueAsString, ::ByRef<uint32_t> value);
+/// @brief Method TryConvertStringToUInt, addr 0x699cd70, size 0xa0, virtual false, abstract: false, final false
+static inline bool TryConvertStringToUInt(::StringW  str, ::StringW  initialValueAsString, ::ByRef<uint32_t>  value) ;
 
-  /// @brief Method TryConvertStringToULong, addr 0x699b048, size 0x10c, virtual false, abstract: false, final false
-  static inline bool TryConvertStringToULong(::StringW str, ::StringW initialValueAsString, ::ByRef<uint64_t> value);
+/// @brief Method TryConvertStringToULong, addr 0x699cbc0, size 0x10c, virtual false, abstract: false, final false
+static inline bool TryConvertStringToULong(::StringW  str, ::StringW  initialValueAsString, ::ByRef<uint64_t>  value) ;
 
-  /// @brief Method TryConvertStringToULong, addr 0x699afbc, size 0x8c, virtual false, abstract: false, final false
-  static inline bool TryConvertStringToULong(::StringW str, ::ByRef<uint64_t> value, ::ByRef<::UnityEngine::ExpressionEvaluator_Expression*> expr);
+/// @brief Method TryConvertStringToULong, addr 0x699cb34, size 0x8c, virtual false, abstract: false, final false
+static inline bool TryConvertStringToULong(::StringW  str, ::ByRef<uint64_t>  value, ::ByRef<::UnityEngine::ExpressionEvaluator_Expression*>  expr) ;
 
-  static inline ::StringW getStaticF_k_AllowedCharactersForFloat();
+static inline ::StringW getStaticF_k_AllowedCharactersForFloat() ;
 
-  static inline ::StringW getStaticF_k_AllowedCharactersForInt();
+static inline ::StringW getStaticF_k_AllowedCharactersForInt() ;
 
-  static inline ::StringW getStaticF_k_DoubleFieldFormatString();
+static inline ::StringW getStaticF_k_DoubleFieldFormatString() ;
 
-  static inline ::StringW getStaticF_k_FloatFieldFormatString();
+static inline ::StringW getStaticF_k_FloatFieldFormatString() ;
 
-  static inline ::StringW getStaticF_k_IntFieldFormatString();
+static inline ::StringW getStaticF_k_IntFieldFormatString() ;
 
-  static inline void setStaticF_k_AllowedCharactersForFloat(::StringW value);
+static inline void setStaticF_k_AllowedCharactersForFloat(::StringW  value) ;
 
-  static inline void setStaticF_k_AllowedCharactersForInt(::StringW value);
+static inline void setStaticF_k_AllowedCharactersForInt(::StringW  value) ;
 
-  static inline void setStaticF_k_DoubleFieldFormatString(::StringW value);
+static inline void setStaticF_k_DoubleFieldFormatString(::StringW  value) ;
 
-  static inline void setStaticF_k_FloatFieldFormatString(::StringW value);
+static inline void setStaticF_k_FloatFieldFormatString(::StringW  value) ;
 
-  static inline void setStaticF_k_IntFieldFormatString(::StringW value);
+static inline void setStaticF_k_IntFieldFormatString(::StringW  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr UINumericFieldsUtils();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr UINumericFieldsUtils() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UINumericFieldsUtils", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  UINumericFieldsUtils(UINumericFieldsUtils&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UINumericFieldsUtils", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  UINumericFieldsUtils(UINumericFieldsUtils const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "UINumericFieldsUtils", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+UINumericFieldsUtils(UINumericFieldsUtils && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10402 };
+// Ctor Parameters [CppParam { name: "", ty: "UINumericFieldsUtils", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+UINumericFieldsUtils(UINumericFieldsUtils const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10403};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UINumericFieldsUtils, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine
+} // namespace end def UnityEngine
 NEED_NO_BOX(::UnityEngine::UINumericFieldsUtils);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UINumericFieldsUtils*, "UnityEngine", "UINumericFieldsUtils");

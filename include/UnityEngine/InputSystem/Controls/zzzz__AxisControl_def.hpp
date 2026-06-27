@@ -24,260 +24,260 @@ class AxisControl;
 // Write type traits
 MARK_VAL_T(::UnityEngine::InputSystem::Controls::AxisControl_Clamp);
 MARK_REF_PTR_T(::UnityEngine::InputSystem::Controls::AxisControl);
-// Dependencies
+// Dependencies 
 namespace UnityEngine::InputSystem::Controls {
 // Is value type: true
 // CS Name: UnityEngine.InputSystem.Controls.AxisControl/Clamp
 struct CORDL_TYPE AxisControl_Clamp {
 public:
-  // Declarations
-  using __CORDL_BACKING_ENUM_TYPE = int32_t;
+// Declarations
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct __AxisControl_Clamp_Unwrapped
-  enum struct __AxisControl_Clamp_Unwrapped : int32_t {
-    __E_None = static_cast<int32_t>(0x0),
-    __E_BeforeNormalize = static_cast<int32_t>(0x1),
-    __E_AfterNormalize = static_cast<int32_t>(0x2),
-    __E_ToConstantBeforeNormalize = static_cast<int32_t>(0x3),
-  };
+/// @brief Nested struct __AxisControl_Clamp_Unwrapped
+enum struct __AxisControl_Clamp_Unwrapped : int32_t {
+__E_None = static_cast<int32_t>(0x0),
+__E_BeforeNormalize = static_cast<int32_t>(0x1),
+__E_AfterNormalize = static_cast<int32_t>(0x2),
+__E_ToConstantBeforeNormalize = static_cast<int32_t>(0x3),
+};
 
-  /// @brief Conversion into unwrapped enum value
-  constexpr operator __AxisControl_Clamp_Unwrapped() const noexcept {
-    return static_cast<__AxisControl_Clamp_Unwrapped>(this->value__);
-  }
+/// @brief Conversion into unwrapped enum value
+constexpr operator __AxisControl_Clamp_Unwrapped () const noexcept {
+return static_cast<__AxisControl_Clamp_Unwrapped>(this->value__);
+}
 
-  /// @brief Conversion into unwrapped enum value
-  constexpr explicit operator int32_t() const noexcept {
-    return static_cast<int32_t>(this->value__);
-  }
+/// @brief Conversion into unwrapped enum value
+constexpr explicit operator int32_t () const noexcept {
+return static_cast<int32_t>(this->value__);
+}
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AxisControl_Clamp();
+// Ctor Parameters []
+// @brief default ctor
+constexpr AxisControl_Clamp() ;
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr AxisControl_Clamp(int32_t value__) noexcept;
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr AxisControl_Clamp(int32_t  value__) noexcept;
 
-  /// @brief Field AfterNormalize value: I32(2)
-  static ::UnityEngine::InputSystem::Controls::AxisControl_Clamp const AfterNormalize;
+/// @brief Field AfterNormalize value: I32(2)
+static ::UnityEngine::InputSystem::Controls::AxisControl_Clamp const AfterNormalize;
 
-  /// @brief Field BeforeNormalize value: I32(1)
-  static ::UnityEngine::InputSystem::Controls::AxisControl_Clamp const BeforeNormalize;
+/// @brief Field BeforeNormalize value: I32(1)
+static ::UnityEngine::InputSystem::Controls::AxisControl_Clamp const BeforeNormalize;
 
-  /// @brief Field None value: I32(0)
-  static ::UnityEngine::InputSystem::Controls::AxisControl_Clamp const None;
+/// @brief Field None value: I32(0)
+static ::UnityEngine::InputSystem::Controls::AxisControl_Clamp const None;
 
-  /// @brief Field ToConstantBeforeNormalize value: I32(3)
-  static ::UnityEngine::InputSystem::Controls::AxisControl_Clamp const ToConstantBeforeNormalize;
+/// @brief Field ToConstantBeforeNormalize value: I32(3)
+static ::UnityEngine::InputSystem::Controls::AxisControl_Clamp const ToConstantBeforeNormalize;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9109 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9110};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x4};
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+/// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+ int32_t  value__;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::InputSystem::Controls::AxisControl_Clamp, value__) == 0x0, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Controls::AxisControl_Clamp, 0x4>, "Size mismatch!");
 
-} // namespace UnityEngine::InputSystem::Controls
+} // namespace end def UnityEngine::InputSystem::Controls
 // Dependencies UnityEngine.InputSystem.Controls.AxisControl::Clamp, UnityEngine.InputSystem.InputControl`1<TValue>
 namespace UnityEngine::InputSystem::Controls {
 // Is value type: false
 // CS Name: UnityEngine.InputSystem.Controls.AxisControl
 class CORDL_TYPE AxisControl : public ::UnityEngine::InputSystem::InputControl_1<float_t> {
 public:
-  // Declarations
-  using Clamp = ::UnityEngine::InputSystem::Controls::AxisControl_Clamp;
+// Declarations
+using Clamp = ::UnityEngine::InputSystem::Controls::AxisControl_Clamp;
 
-  /// @brief Field clamp, offset 0x104, size 0x4
-  __declspec(property(get = __cordl_internal_get_clamp, put = __cordl_internal_set_clamp)) ::UnityEngine::InputSystem::Controls::AxisControl_Clamp clamp;
+/// @brief Field clamp, offset 0x104, size 0x4 
+ __declspec(property(get=__cordl_internal_get_clamp, put=__cordl_internal_set_clamp)) ::UnityEngine::InputSystem::Controls::AxisControl_Clamp  clamp;
 
-  /// @brief Field clampConstant, offset 0x110, size 0x4
-  __declspec(property(get = __cordl_internal_get_clampConstant, put = __cordl_internal_set_clampConstant)) float_t clampConstant;
+/// @brief Field clampConstant, offset 0x110, size 0x4 
+ __declspec(property(get=__cordl_internal_get_clampConstant, put=__cordl_internal_set_clampConstant)) float_t  clampConstant;
 
-  /// @brief Field clampMax, offset 0x10c, size 0x4
-  __declspec(property(get = __cordl_internal_get_clampMax, put = __cordl_internal_set_clampMax)) float_t clampMax;
+/// @brief Field clampMax, offset 0x10c, size 0x4 
+ __declspec(property(get=__cordl_internal_get_clampMax, put=__cordl_internal_set_clampMax)) float_t  clampMax;
 
-  /// @brief Field clampMin, offset 0x108, size 0x4
-  __declspec(property(get = __cordl_internal_get_clampMin, put = __cordl_internal_set_clampMin)) float_t clampMin;
+/// @brief Field clampMin, offset 0x108, size 0x4 
+ __declspec(property(get=__cordl_internal_get_clampMin, put=__cordl_internal_set_clampMin)) float_t  clampMin;
 
-  /// @brief Field invert, offset 0x114, size 0x1
-  __declspec(property(get = __cordl_internal_get_invert, put = __cordl_internal_set_invert)) bool invert;
+/// @brief Field invert, offset 0x114, size 0x1 
+ __declspec(property(get=__cordl_internal_get_invert, put=__cordl_internal_set_invert)) bool  invert;
 
-  /// @brief Field normalize, offset 0x115, size 0x1
-  __declspec(property(get = __cordl_internal_get_normalize, put = __cordl_internal_set_normalize)) bool normalize;
+/// @brief Field normalize, offset 0x115, size 0x1 
+ __declspec(property(get=__cordl_internal_get_normalize, put=__cordl_internal_set_normalize)) bool  normalize;
 
-  /// @brief Field normalizeMax, offset 0x11c, size 0x4
-  __declspec(property(get = __cordl_internal_get_normalizeMax, put = __cordl_internal_set_normalizeMax)) float_t normalizeMax;
+/// @brief Field normalizeMax, offset 0x11c, size 0x4 
+ __declspec(property(get=__cordl_internal_get_normalizeMax, put=__cordl_internal_set_normalizeMax)) float_t  normalizeMax;
 
-  /// @brief Field normalizeMin, offset 0x118, size 0x4
-  __declspec(property(get = __cordl_internal_get_normalizeMin, put = __cordl_internal_set_normalizeMin)) float_t normalizeMin;
+/// @brief Field normalizeMin, offset 0x118, size 0x4 
+ __declspec(property(get=__cordl_internal_get_normalizeMin, put=__cordl_internal_set_normalizeMin)) float_t  normalizeMin;
 
-  /// @brief Field normalizeZero, offset 0x120, size 0x4
-  __declspec(property(get = __cordl_internal_get_normalizeZero, put = __cordl_internal_set_normalizeZero)) float_t normalizeZero;
+/// @brief Field normalizeZero, offset 0x120, size 0x4 
+ __declspec(property(get=__cordl_internal_get_normalizeZero, put=__cordl_internal_set_normalizeZero)) float_t  normalizeZero;
 
-  /// @brief Field scale, offset 0x124, size 0x1
-  __declspec(property(get = __cordl_internal_get_scale, put = __cordl_internal_set_scale)) bool scale;
+/// @brief Field scale, offset 0x124, size 0x1 
+ __declspec(property(get=__cordl_internal_get_scale, put=__cordl_internal_set_scale)) bool  scale;
 
-  /// @brief Field scaleFactor, offset 0x128, size 0x4
-  __declspec(property(get = __cordl_internal_get_scaleFactor, put = __cordl_internal_set_scaleFactor)) float_t scaleFactor;
+/// @brief Field scaleFactor, offset 0x128, size 0x4 
+ __declspec(property(get=__cordl_internal_get_scaleFactor, put=__cordl_internal_set_scaleFactor)) float_t  scaleFactor;
 
-  /// @brief Method CalculateOptimizedControlDataType, addr 0x63b656c, size 0x16c, virtual true, abstract: false, final false
-  inline ::UnityEngine::InputSystem::Utilities::FourCC CalculateOptimizedControlDataType();
+/// @brief Method CalculateOptimizedControlDataType, addr 0x63b80e4, size 0x16c, virtual true, abstract: false, final false
+inline ::UnityEngine::InputSystem::Utilities::FourCC CalculateOptimizedControlDataType() ;
 
-  /// @brief Method CompareValue, addr 0x63b6360, size 0xf4, virtual true, abstract: false, final false
-  inline bool CompareValue(void* firstStatePtr, void* secondStatePtr);
+/// @brief Method CompareValue, addr 0x63b7ed8, size 0xf4, virtual true, abstract: false, final false
+inline bool CompareValue(void*  firstStatePtr, void*  secondStatePtr) ;
 
-  /// @brief Method EvaluateMagnitude, addr 0x63b6454, size 0x64, virtual true, abstract: false, final false
-  inline float_t EvaluateMagnitude(void* statePtr);
+/// @brief Method EvaluateMagnitude, addr 0x63b7fcc, size 0x64, virtual true, abstract: false, final false
+inline float_t EvaluateMagnitude(void*  statePtr) ;
 
-  /// @brief Method EvaluateMagnitude, addr 0x63b64b8, size 0x90, virtual false, abstract: false, final false
-  inline float_t EvaluateMagnitude(float_t value);
+/// @brief Method EvaluateMagnitude, addr 0x63b8030, size 0x90, virtual false, abstract: false, final false
+inline float_t EvaluateMagnitude(float_t  value) ;
 
-  /// @brief Method FinishSetup, addr 0x63b601c, size 0xec, virtual true, abstract: false, final false
-  inline void FinishSetup();
+/// @brief Method FinishSetup, addr 0x63b7b94, size 0xec, virtual true, abstract: false, final false
+inline void FinishSetup() ;
 
-  static inline ::UnityEngine::InputSystem::Controls::AxisControl* New_ctor();
+static inline ::UnityEngine::InputSystem::Controls::AxisControl* New_ctor() ;
 
-  /// @brief Method Preprocess, addr 0x63b5e60, size 0xbc, virtual false, abstract: false, final false
-  inline float_t Preprocess(float_t value);
+/// @brief Method Preprocess, addr 0x63b79d8, size 0xbc, virtual false, abstract: false, final false
+inline float_t Preprocess(float_t  value) ;
 
-  /// @brief Method ReadUnprocessedValueFromState, addr 0x63b6108, size 0x170, virtual true, abstract: false, final false
-  inline float_t ReadUnprocessedValueFromState(void* statePtr);
+/// @brief Method ReadUnprocessedValueFromState, addr 0x63b7c80, size 0x170, virtual true, abstract: false, final false
+inline float_t ReadUnprocessedValueFromState(void*  statePtr) ;
 
-  /// @brief Method Unpreprocess, addr 0x63b5f1c, size 0x7c, virtual false, abstract: false, final false
-  inline float_t Unpreprocess(float_t value);
+/// @brief Method Unpreprocess, addr 0x63b7a94, size 0x7c, virtual false, abstract: false, final false
+inline float_t Unpreprocess(float_t  value) ;
 
-  /// @brief Method WriteValueIntoState, addr 0x63b6278, size 0xe8, virtual true, abstract: false, final false
-  inline void WriteValueIntoState(float_t value, void* statePtr);
+/// @brief Method WriteValueIntoState, addr 0x63b7df0, size 0xe8, virtual true, abstract: false, final false
+inline void WriteValueIntoState(float_t  value, void*  statePtr) ;
 
-  constexpr ::UnityEngine::InputSystem::Controls::AxisControl_Clamp const& __cordl_internal_get_clamp() const;
+constexpr ::UnityEngine::InputSystem::Controls::AxisControl_Clamp const& __cordl_internal_get_clamp() const;
 
-  constexpr ::UnityEngine::InputSystem::Controls::AxisControl_Clamp& __cordl_internal_get_clamp();
+constexpr ::UnityEngine::InputSystem::Controls::AxisControl_Clamp& __cordl_internal_get_clamp() ;
 
-  constexpr float_t const& __cordl_internal_get_clampConstant() const;
+constexpr float_t const& __cordl_internal_get_clampConstant() const;
 
-  constexpr float_t& __cordl_internal_get_clampConstant();
+constexpr float_t& __cordl_internal_get_clampConstant() ;
 
-  constexpr float_t const& __cordl_internal_get_clampMax() const;
+constexpr float_t const& __cordl_internal_get_clampMax() const;
 
-  constexpr float_t& __cordl_internal_get_clampMax();
+constexpr float_t& __cordl_internal_get_clampMax() ;
 
-  constexpr float_t const& __cordl_internal_get_clampMin() const;
+constexpr float_t const& __cordl_internal_get_clampMin() const;
 
-  constexpr float_t& __cordl_internal_get_clampMin();
+constexpr float_t& __cordl_internal_get_clampMin() ;
 
-  constexpr bool const& __cordl_internal_get_invert() const;
+constexpr bool const& __cordl_internal_get_invert() const;
 
-  constexpr bool& __cordl_internal_get_invert();
+constexpr bool& __cordl_internal_get_invert() ;
 
-  constexpr bool const& __cordl_internal_get_normalize() const;
+constexpr bool const& __cordl_internal_get_normalize() const;
 
-  constexpr bool& __cordl_internal_get_normalize();
+constexpr bool& __cordl_internal_get_normalize() ;
 
-  constexpr float_t const& __cordl_internal_get_normalizeMax() const;
+constexpr float_t const& __cordl_internal_get_normalizeMax() const;
 
-  constexpr float_t& __cordl_internal_get_normalizeMax();
+constexpr float_t& __cordl_internal_get_normalizeMax() ;
 
-  constexpr float_t const& __cordl_internal_get_normalizeMin() const;
+constexpr float_t const& __cordl_internal_get_normalizeMin() const;
 
-  constexpr float_t& __cordl_internal_get_normalizeMin();
+constexpr float_t& __cordl_internal_get_normalizeMin() ;
 
-  constexpr float_t const& __cordl_internal_get_normalizeZero() const;
+constexpr float_t const& __cordl_internal_get_normalizeZero() const;
 
-  constexpr float_t& __cordl_internal_get_normalizeZero();
+constexpr float_t& __cordl_internal_get_normalizeZero() ;
 
-  constexpr bool const& __cordl_internal_get_scale() const;
+constexpr bool const& __cordl_internal_get_scale() const;
 
-  constexpr bool& __cordl_internal_get_scale();
+constexpr bool& __cordl_internal_get_scale() ;
 
-  constexpr float_t const& __cordl_internal_get_scaleFactor() const;
+constexpr float_t const& __cordl_internal_get_scaleFactor() const;
 
-  constexpr float_t& __cordl_internal_get_scaleFactor();
+constexpr float_t& __cordl_internal_get_scaleFactor() ;
 
-  constexpr void __cordl_internal_set_clamp(::UnityEngine::InputSystem::Controls::AxisControl_Clamp value);
+constexpr void __cordl_internal_set_clamp(::UnityEngine::InputSystem::Controls::AxisControl_Clamp  value) ;
 
-  constexpr void __cordl_internal_set_clampConstant(float_t value);
+constexpr void __cordl_internal_set_clampConstant(float_t  value) ;
 
-  constexpr void __cordl_internal_set_clampMax(float_t value);
+constexpr void __cordl_internal_set_clampMax(float_t  value) ;
 
-  constexpr void __cordl_internal_set_clampMin(float_t value);
+constexpr void __cordl_internal_set_clampMin(float_t  value) ;
 
-  constexpr void __cordl_internal_set_invert(bool value);
+constexpr void __cordl_internal_set_invert(bool  value) ;
 
-  constexpr void __cordl_internal_set_normalize(bool value);
+constexpr void __cordl_internal_set_normalize(bool  value) ;
 
-  constexpr void __cordl_internal_set_normalizeMax(float_t value);
+constexpr void __cordl_internal_set_normalizeMax(float_t  value) ;
 
-  constexpr void __cordl_internal_set_normalizeMin(float_t value);
+constexpr void __cordl_internal_set_normalizeMin(float_t  value) ;
 
-  constexpr void __cordl_internal_set_normalizeZero(float_t value);
+constexpr void __cordl_internal_set_normalizeZero(float_t  value) ;
 
-  constexpr void __cordl_internal_set_scale(bool value);
+constexpr void __cordl_internal_set_scale(bool  value) ;
 
-  constexpr void __cordl_internal_set_scaleFactor(float_t value);
+constexpr void __cordl_internal_set_scaleFactor(float_t  value) ;
 
-  /// @brief Method .ctor, addr 0x63b5f98, size 0x84, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x63b7b10, size 0x84, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AxisControl();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr AxisControl() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AxisControl", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  AxisControl(AxisControl&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AxisControl", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  AxisControl(AxisControl const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "AxisControl", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+AxisControl(AxisControl && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9110 };
+// Ctor Parameters [CppParam { name: "", ty: "AxisControl", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+AxisControl(AxisControl const& ) = delete;
 
-  /// @brief Field clamp, offset: 0x104, size: 0x4, def value: None
-  ::UnityEngine::InputSystem::Controls::AxisControl_Clamp ___clamp;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9111};
 
-  /// @brief Field clampMin, offset: 0x108, size: 0x4, def value: None
-  float_t ___clampMin;
+/// @brief Field clamp, offset: 0x104, size: 0x4, def value: None
+ ::UnityEngine::InputSystem::Controls::AxisControl_Clamp  ___clamp;
 
-  /// @brief Field clampMax, offset: 0x10c, size: 0x4, def value: None
-  float_t ___clampMax;
+/// @brief Field clampMin, offset: 0x108, size: 0x4, def value: None
+ float_t  ___clampMin;
 
-  /// @brief Field clampConstant, offset: 0x110, size: 0x4, def value: None
-  float_t ___clampConstant;
+/// @brief Field clampMax, offset: 0x10c, size: 0x4, def value: None
+ float_t  ___clampMax;
 
-  /// @brief Field invert, offset: 0x114, size: 0x1, def value: None
-  bool ___invert;
+/// @brief Field clampConstant, offset: 0x110, size: 0x4, def value: None
+ float_t  ___clampConstant;
 
-  /// @brief Field normalize, offset: 0x115, size: 0x1, def value: None
-  bool ___normalize;
+/// @brief Field invert, offset: 0x114, size: 0x1, def value: None
+ bool  ___invert;
 
-  /// @brief Field normalizeMin, offset: 0x118, size: 0x4, def value: None
-  float_t ___normalizeMin;
+/// @brief Field normalize, offset: 0x115, size: 0x1, def value: None
+ bool  ___normalize;
 
-  /// @brief Field normalizeMax, offset: 0x11c, size: 0x4, def value: None
-  float_t ___normalizeMax;
+/// @brief Field normalizeMin, offset: 0x118, size: 0x4, def value: None
+ float_t  ___normalizeMin;
 
-  /// @brief Field normalizeZero, offset: 0x120, size: 0x4, def value: None
-  float_t ___normalizeZero;
+/// @brief Field normalizeMax, offset: 0x11c, size: 0x4, def value: None
+ float_t  ___normalizeMax;
 
-  /// @brief Field scale, offset: 0x124, size: 0x1, def value: None
-  bool ___scale;
+/// @brief Field normalizeZero, offset: 0x120, size: 0x4, def value: None
+ float_t  ___normalizeZero;
 
-  /// @brief Field scaleFactor, offset: 0x128, size: 0x4, def value: None
-  float_t ___scaleFactor;
+/// @brief Field scale, offset: 0x124, size: 0x1, def value: None
+ bool  ___scale;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field scaleFactor, offset: 0x128, size: 0x4, def value: None
+ float_t  ___scaleFactor;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::InputSystem::Controls::AxisControl, ___clamp) == 0x104, "Offset mismatch!");
@@ -304,7 +304,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::Controls::AxisControl, ___sca
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Controls::AxisControl, 0x130>, "Size mismatch!");
 
-} // namespace UnityEngine::InputSystem::Controls
+} // namespace end def UnityEngine::InputSystem::Controls
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Controls::AxisControl_Clamp, "UnityEngine.InputSystem.Controls", "AxisControl/Clamp");
 NEED_NO_BOX(::UnityEngine::InputSystem::Controls::AxisControl);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Controls::AxisControl*, "UnityEngine.InputSystem.Controls", "AxisControl");

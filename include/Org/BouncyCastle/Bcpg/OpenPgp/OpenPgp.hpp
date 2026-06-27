@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "Org/BouncyCastle/Bcpg/OpenPgp/IStreamGenerator.hpp"
 #include "Org/BouncyCastle/Bcpg/OpenPgp/PgpCompressedData.hpp"
@@ -47,5 +47,6 @@ module;
 #include "Org/BouncyCastle/Bcpg/OpenPgp/SXprUtilities.hpp"
 #include "Org/BouncyCastle/Bcpg/OpenPgp/WrappedGeneratorStream.hpp"
 #ifdef __cpp_modules
-export module OpenPgp;
-#endif
+                    export module OpenPgp;
+                    #endif
+                

@@ -24,59 +24,59 @@ namespace UnityEngine::Timeline {
 // CS Name: UnityEngine.Timeline.TrackBindingTypeAttribute
 class CORDL_TYPE TrackBindingTypeAttribute : public ::System::Attribute {
 public:
-  // Declarations
-  /// @brief Field flags, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get_flags, put = __cordl_internal_set_flags)) ::UnityEngine::Timeline::TrackBindingFlags flags;
+// Declarations
+/// @brief Field flags, offset 0x18, size 0x4 
+ __declspec(property(get=__cordl_internal_get_flags, put=__cordl_internal_set_flags)) ::UnityEngine::Timeline::TrackBindingFlags  flags;
 
-  /// @brief Field type, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type)) ::System::Type* type;
+/// @brief Field type, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_type, put=__cordl_internal_set_type)) ::System::Type*  type;
 
-  static inline ::UnityEngine::Timeline::TrackBindingTypeAttribute* New_ctor(::System::Type* type);
+static inline ::UnityEngine::Timeline::TrackBindingTypeAttribute* New_ctor(::System::Type*  type) ;
 
-  static inline ::UnityEngine::Timeline::TrackBindingTypeAttribute* New_ctor(::System::Type* type, ::UnityEngine::Timeline::TrackBindingFlags flags);
+static inline ::UnityEngine::Timeline::TrackBindingTypeAttribute* New_ctor(::System::Type*  type, ::UnityEngine::Timeline::TrackBindingFlags  flags) ;
 
-  constexpr ::UnityEngine::Timeline::TrackBindingFlags const& __cordl_internal_get_flags() const;
+constexpr ::UnityEngine::Timeline::TrackBindingFlags const& __cordl_internal_get_flags() const;
 
-  constexpr ::UnityEngine::Timeline::TrackBindingFlags& __cordl_internal_get_flags();
+constexpr ::UnityEngine::Timeline::TrackBindingFlags& __cordl_internal_get_flags() ;
 
-  constexpr ::System::Type* const& __cordl_internal_get_type() const;
+constexpr ::System::Type* const& __cordl_internal_get_type() const;
 
-  constexpr ::System::Type*& __cordl_internal_get_type();
+constexpr ::System::Type*& __cordl_internal_get_type() ;
 
-  constexpr void __cordl_internal_set_flags(::UnityEngine::Timeline::TrackBindingFlags value);
+constexpr void __cordl_internal_set_flags(::UnityEngine::Timeline::TrackBindingFlags  value) ;
 
-  constexpr void __cordl_internal_set_type(::System::Type* value);
+constexpr void __cordl_internal_set_type(::System::Type*  value) ;
 
-  /// @brief Method .ctor, addr 0x6885598, size 0x10, virtual false, abstract: false, final false
-  inline void _ctor(::System::Type* type);
+/// @brief Method .ctor, addr 0x6887110, size 0x10, virtual false, abstract: false, final false
+inline void _ctor(::System::Type*  type) ;
 
-  /// @brief Method .ctor, addr 0x68855a8, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor(::System::Type* type, ::UnityEngine::Timeline::TrackBindingFlags flags);
+/// @brief Method .ctor, addr 0x6887120, size 0xc, virtual false, abstract: false, final false
+inline void _ctor(::System::Type*  type, ::UnityEngine::Timeline::TrackBindingFlags  flags) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TrackBindingTypeAttribute();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr TrackBindingTypeAttribute() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TrackBindingTypeAttribute", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  TrackBindingTypeAttribute(TrackBindingTypeAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TrackBindingTypeAttribute", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  TrackBindingTypeAttribute(TrackBindingTypeAttribute const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "TrackBindingTypeAttribute", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+TrackBindingTypeAttribute(TrackBindingTypeAttribute && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19081 };
+// Ctor Parameters [CppParam { name: "", ty: "TrackBindingTypeAttribute", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+TrackBindingTypeAttribute(TrackBindingTypeAttribute const& ) = delete;
 
-  /// @brief Field type, offset: 0x10, size: 0x8, def value: None
-  ::System::Type* ___type;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19084};
 
-  /// @brief Field flags, offset: 0x18, size: 0x4, def value: None
-  ::UnityEngine::Timeline::TrackBindingFlags ___flags;
+/// @brief Field type, offset: 0x10, size: 0x8, def value: None
+ ::System::Type*  ___type;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field flags, offset: 0x18, size: 0x4, def value: None
+ ::UnityEngine::Timeline::TrackBindingFlags  ___flags;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Timeline::TrackBindingTypeAttribute, ___type) == 0x10, "Offset mismatch!");
@@ -85,6 +85,6 @@ static_assert(offsetof(::UnityEngine::Timeline::TrackBindingTypeAttribute, ___fl
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Timeline::TrackBindingTypeAttribute, 0x20>, "Size mismatch!");
 
-} // namespace UnityEngine::Timeline
+} // namespace end def UnityEngine::Timeline
 NEED_NO_BOX(::UnityEngine::Timeline::TrackBindingTypeAttribute);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Timeline::TrackBindingTypeAttribute*, "UnityEngine.Timeline", "TrackBindingTypeAttribute");

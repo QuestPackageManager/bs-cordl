@@ -31,31 +31,30 @@ namespace GlobalNamespace {
 // CS Name: OVRTracker/Frustum
 struct CORDL_TYPE OVRTracker_Frustum {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OVRTracker_Frustum();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr OVRTracker_Frustum() ;
 
-  // Ctor Parameters [CppParam { name: "nearZ", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "farZ", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "fov", ty:
-  // "::UnityEngine::Vector2", modifiers: "", def_value: None }]
-  constexpr OVRTracker_Frustum(float_t nearZ, float_t farZ, ::UnityEngine::Vector2 fov) noexcept;
+// Ctor Parameters [CppParam { name: "nearZ", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "farZ", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "fov", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }]
+constexpr OVRTracker_Frustum(float_t  nearZ, float_t  farZ, ::UnityEngine::Vector2  fov) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7784 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{7785};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x10};
 
-  /// @brief Field nearZ, offset: 0x0, size: 0x4, def value: None
-  float_t nearZ;
+/// @brief Field nearZ, offset: 0x0, size: 0x4, def value: None
+ float_t  nearZ;
 
-  /// @brief Field farZ, offset: 0x4, size: 0x4, def value: None
-  float_t farZ;
+/// @brief Field farZ, offset: 0x4, size: 0x4, def value: None
+ float_t  farZ;
 
-  /// @brief Field fov, offset: 0x8, size: 0x8, def value: None
-  ::UnityEngine::Vector2 fov;
+/// @brief Field fov, offset: 0x8, size: 0x8, def value: None
+ ::UnityEngine::Vector2  fov;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::OVRTracker_Frustum, nearZ) == 0x0, "Offset mismatch!");
@@ -66,79 +65,79 @@ static_assert(offsetof(::GlobalNamespace::OVRTracker_Frustum, fov) == 0x8, "Offs
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRTracker_Frustum, 0x10>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: OVRTracker
 class CORDL_TYPE OVRTracker : public ::System::Object {
 public:
-  // Declarations
-  using Frustum = ::GlobalNamespace::OVRTracker_Frustum;
+// Declarations
+using Frustum = ::GlobalNamespace::OVRTracker_Frustum;
 
-  __declspec(property(get = get_count)) int32_t count;
+ __declspec(property(get=get_count)) int32_t  count;
 
-  __declspec(property(get = get_isEnabled, put = set_isEnabled)) bool isEnabled;
+ __declspec(property(get=get_isEnabled, put=set_isEnabled)) bool  isEnabled;
 
-  __declspec(property(get = get_isPositionTracked)) bool isPositionTracked;
+ __declspec(property(get=get_isPositionTracked)) bool  isPositionTracked;
 
-  __declspec(property(get = get_isPresent)) bool isPresent;
+ __declspec(property(get=get_isPresent)) bool  isPresent;
 
-  /// @brief Method GetFrustum, addr 0x5da97c4, size 0xb4, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::OVRTracker_Frustum GetFrustum(int32_t tracker);
+/// @brief Method GetFrustum, addr 0x5dab33c, size 0xb4, virtual false, abstract: false, final false
+inline ::GlobalNamespace::OVRTracker_Frustum GetFrustum(int32_t  tracker) ;
 
-  /// @brief Method GetPose, addr 0x5da9878, size 0x210, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::OVRPose GetPose(int32_t tracker);
+/// @brief Method GetPose, addr 0x5dab3f0, size 0x210, virtual false, abstract: false, final false
+inline ::GlobalNamespace::OVRPose GetPose(int32_t  tracker) ;
 
-  /// @brief Method GetPoseValid, addr 0x5da9a88, size 0xec, virtual false, abstract: false, final false
-  inline bool GetPoseValid(int32_t tracker);
+/// @brief Method GetPoseValid, addr 0x5dab600, size 0xec, virtual false, abstract: false, final false
+inline bool GetPoseValid(int32_t  tracker) ;
 
-  /// @brief Method GetPresent, addr 0x5da96d8, size 0xec, virtual false, abstract: false, final false
-  inline bool GetPresent(int32_t tracker);
+/// @brief Method GetPresent, addr 0x5dab250, size 0xec, virtual false, abstract: false, final false
+inline bool GetPresent(int32_t  tracker) ;
 
-  static inline ::GlobalNamespace::OVRTracker* New_ctor();
+static inline ::GlobalNamespace::OVRTracker* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x5da9b74, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5dab6ec, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_count, addr 0x5da969c, size 0x3c, virtual false, abstract: false, final false
-  inline int32_t get_count();
+/// @brief Method get_count, addr 0x5dab214, size 0x3c, virtual false, abstract: false, final false
+inline int32_t get_count() ;
 
-  /// @brief Method get_isEnabled, addr 0x5da9568, size 0x98, virtual false, abstract: false, final false
-  inline bool get_isEnabled();
+/// @brief Method get_isEnabled, addr 0x5dab0e0, size 0x98, virtual false, abstract: false, final false
+inline bool get_isEnabled() ;
 
-  /// @brief Method get_isPositionTracked, addr 0x5da9514, size 0x54, virtual false, abstract: false, final false
-  inline bool get_isPositionTracked();
+/// @brief Method get_isPositionTracked, addr 0x5dab08c, size 0x54, virtual false, abstract: false, final false
+inline bool get_isPositionTracked() ;
 
-  /// @brief Method get_isPresent, addr 0x5da947c, size 0x98, virtual false, abstract: false, final false
-  inline bool get_isPresent();
+/// @brief Method get_isPresent, addr 0x5daaff4, size 0x98, virtual false, abstract: false, final false
+inline bool get_isPresent() ;
 
-  /// @brief Method set_isEnabled, addr 0x5da9600, size 0x9c, virtual false, abstract: false, final false
-  inline void set_isEnabled(bool value);
+/// @brief Method set_isEnabled, addr 0x5dab178, size 0x9c, virtual false, abstract: false, final false
+inline void set_isEnabled(bool  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OVRTracker();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr OVRTracker() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRTracker", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  OVRTracker(OVRTracker&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRTracker", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  OVRTracker(OVRTracker const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "OVRTracker", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+OVRTracker(OVRTracker && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7785 };
+// Ctor Parameters [CppParam { name: "", ty: "OVRTracker", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+OVRTracker(OVRTracker const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{7786};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRTracker, 0x10>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::OVRTracker);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRTracker*, "", "OVRTracker");
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRTracker_Frustum, "", "OVRTracker/Frustum");

@@ -28,78 +28,78 @@ namespace Meta::XR::ImmersiveDebugger::Gizmo {
 // CS Name: Meta.XR.ImmersiveDebugger.Gizmo.GizmoRenderer
 class CORDL_TYPE GizmoRenderer : public ::UnityEngine::MonoBehaviour {
 public:
-  // Declarations
-  /// @brief Field _dataSource, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__dataSource, put = __cordl_internal_set__dataSource)) ::System::Object* _dataSource;
+// Declarations
+/// @brief Field _dataSource, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get__dataSource, put=__cordl_internal_set__dataSource)) ::System::Object*  _dataSource;
 
-  /// @brief Field _gizmoColor, offset 0x24, size 0x10
-  __declspec(property(get = __cordl_internal_get__gizmoColor, put = __cordl_internal_set__gizmoColor)) ::UnityEngine::Color _gizmoColor;
+/// @brief Field _gizmoColor, offset 0x24, size 0x10 
+ __declspec(property(get=__cordl_internal_get__gizmoColor, put=__cordl_internal_set__gizmoColor)) ::UnityEngine::Color  _gizmoColor;
 
-  /// @brief Field _gizmoType, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get__gizmoType, put = __cordl_internal_set__gizmoType)) ::Meta::XR::ImmersiveDebugger::DebugGizmoType _gizmoType;
+/// @brief Field _gizmoType, offset 0x20, size 0x4 
+ __declspec(property(get=__cordl_internal_get__gizmoType, put=__cordl_internal_set__gizmoType)) ::Meta::XR::ImmersiveDebugger::DebugGizmoType  _gizmoType;
 
-  static inline ::Meta::XR::ImmersiveDebugger::Gizmo::GizmoRenderer* New_ctor();
+static inline ::Meta::XR::ImmersiveDebugger::Gizmo::GizmoRenderer* New_ctor() ;
 
-  /// @brief Method SetUpGizmo, addr 0x593208c, size 0x10, virtual false, abstract: false, final false
-  inline void SetUpGizmo(::Meta::XR::ImmersiveDebugger::DebugGizmoType gizmoType, ::UnityEngine::Color gizmoColor);
+/// @brief Method SetUpGizmo, addr 0x5933a5c, size 0x10, virtual false, abstract: false, final false
+inline void SetUpGizmo(::Meta::XR::ImmersiveDebugger::DebugGizmoType  gizmoType, ::UnityEngine::Color  gizmoColor) ;
 
-  /// @brief Method Start, addr 0x59320a4, size 0x64, virtual false, abstract: false, final false
-  inline void Start();
+/// @brief Method Start, addr 0x5933a74, size 0x64, virtual false, abstract: false, final false
+inline void Start() ;
 
-  /// @brief Method Update, addr 0x5932108, size 0xe0, virtual false, abstract: false, final false
-  inline void Update();
+/// @brief Method Update, addr 0x5933ad8, size 0xe0, virtual false, abstract: false, final false
+inline void Update() ;
 
-  /// @brief Method UpdateDataSource, addr 0x593209c, size 0x8, virtual false, abstract: false, final false
-  inline void UpdateDataSource(::System::Object* dataSource);
+/// @brief Method UpdateDataSource, addr 0x5933a6c, size 0x8, virtual false, abstract: false, final false
+inline void UpdateDataSource(::System::Object*  dataSource) ;
 
-  constexpr ::System::Object* const& __cordl_internal_get__dataSource() const;
+constexpr ::System::Object* const& __cordl_internal_get__dataSource() const;
 
-  constexpr ::System::Object*& __cordl_internal_get__dataSource();
+constexpr ::System::Object*& __cordl_internal_get__dataSource() ;
 
-  constexpr ::UnityEngine::Color const& __cordl_internal_get__gizmoColor() const;
+constexpr ::UnityEngine::Color const& __cordl_internal_get__gizmoColor() const;
 
-  constexpr ::UnityEngine::Color& __cordl_internal_get__gizmoColor();
+constexpr ::UnityEngine::Color& __cordl_internal_get__gizmoColor() ;
 
-  constexpr ::Meta::XR::ImmersiveDebugger::DebugGizmoType const& __cordl_internal_get__gizmoType() const;
+constexpr ::Meta::XR::ImmersiveDebugger::DebugGizmoType const& __cordl_internal_get__gizmoType() const;
 
-  constexpr ::Meta::XR::ImmersiveDebugger::DebugGizmoType& __cordl_internal_get__gizmoType();
+constexpr ::Meta::XR::ImmersiveDebugger::DebugGizmoType& __cordl_internal_get__gizmoType() ;
 
-  constexpr void __cordl_internal_set__dataSource(::System::Object* value);
+constexpr void __cordl_internal_set__dataSource(::System::Object*  value) ;
 
-  constexpr void __cordl_internal_set__gizmoColor(::UnityEngine::Color value);
+constexpr void __cordl_internal_set__gizmoColor(::UnityEngine::Color  value) ;
 
-  constexpr void __cordl_internal_set__gizmoType(::Meta::XR::ImmersiveDebugger::DebugGizmoType value);
+constexpr void __cordl_internal_set__gizmoType(::Meta::XR::ImmersiveDebugger::DebugGizmoType  value) ;
 
-  /// @brief Method .ctor, addr 0x59322e0, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5933cb0, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr GizmoRenderer();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr GizmoRenderer() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GizmoRenderer", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  GizmoRenderer(GizmoRenderer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GizmoRenderer", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  GizmoRenderer(GizmoRenderer const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "GizmoRenderer", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+GizmoRenderer(GizmoRenderer && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18457 };
+// Ctor Parameters [CppParam { name: "", ty: "GizmoRenderer", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+GizmoRenderer(GizmoRenderer const& ) = delete;
 
-  /// @brief Field _gizmoType, offset: 0x20, size: 0x4, def value: None
-  ::Meta::XR::ImmersiveDebugger::DebugGizmoType ____gizmoType;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{18459};
 
-  /// @brief Field _gizmoColor, offset: 0x24, size: 0x10, def value: None
-  ::UnityEngine::Color ____gizmoColor;
+/// @brief Field _gizmoType, offset: 0x20, size: 0x4, def value: None
+ ::Meta::XR::ImmersiveDebugger::DebugGizmoType  ____gizmoType;
 
-  /// @brief Field _dataSource, offset: 0x38, size: 0x8, def value: None
-  ::System::Object* ____dataSource;
+/// @brief Field _gizmoColor, offset: 0x24, size: 0x10, def value: None
+ ::UnityEngine::Color  ____gizmoColor;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _dataSource, offset: 0x38, size: 0x8, def value: None
+ ::System::Object*  ____dataSource;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Meta::XR::ImmersiveDebugger::Gizmo::GizmoRenderer, ____gizmoType) == 0x20, "Offset mismatch!");
@@ -110,6 +110,6 @@ static_assert(offsetof(::Meta::XR::ImmersiveDebugger::Gizmo::GizmoRenderer, ____
 
 static_assert(::cordl_internals::size_check_v<::Meta::XR::ImmersiveDebugger::Gizmo::GizmoRenderer, 0x40>, "Size mismatch!");
 
-} // namespace Meta::XR::ImmersiveDebugger::Gizmo
+} // namespace end def Meta::XR::ImmersiveDebugger::Gizmo
 NEED_NO_BOX(::Meta::XR::ImmersiveDebugger::Gizmo::GizmoRenderer);
 DEFINE_IL2CPP_ARG_TYPE(::Meta::XR::ImmersiveDebugger::Gizmo::GizmoRenderer*, "Meta.XR.ImmersiveDebugger.Gizmo", "GizmoRenderer");

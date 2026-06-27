@@ -18,64 +18,64 @@ namespace Meta::XR::BuildingBlocks {
 // CS Name: Meta.XR.BuildingBlocks.VariantCheckpoint
 class CORDL_TYPE VariantCheckpoint : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = get_MemberName)) ::StringW MemberName;
+// Declarations
+ __declspec(property(get=get_MemberName)) ::StringW  MemberName;
 
-  __declspec(property(get = get_Value)) ::StringW Value;
+ __declspec(property(get=get_Value)) ::StringW  Value;
 
-  /// @brief Field _memberName, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__memberName, put = __cordl_internal_set__memberName)) ::StringW _memberName;
+/// @brief Field _memberName, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get__memberName, put=__cordl_internal_set__memberName)) ::StringW  _memberName;
 
-  /// @brief Field _value, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__value, put = __cordl_internal_set__value)) ::StringW _value;
+/// @brief Field _value, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get__value, put=__cordl_internal_set__value)) ::StringW  _value;
 
-  static inline ::Meta::XR::BuildingBlocks::VariantCheckpoint* New_ctor(::StringW memberName, ::StringW value);
+static inline ::Meta::XR::BuildingBlocks::VariantCheckpoint* New_ctor(::StringW  memberName, ::StringW  value) ;
 
-  constexpr ::StringW const& __cordl_internal_get__memberName() const;
+constexpr ::StringW const& __cordl_internal_get__memberName() const;
 
-  constexpr ::StringW& __cordl_internal_get__memberName();
+constexpr ::StringW& __cordl_internal_get__memberName() ;
 
-  constexpr ::StringW const& __cordl_internal_get__value() const;
+constexpr ::StringW const& __cordl_internal_get__value() const;
 
-  constexpr ::StringW& __cordl_internal_get__value();
+constexpr ::StringW& __cordl_internal_get__value() ;
 
-  constexpr void __cordl_internal_set__memberName(::StringW value);
+constexpr void __cordl_internal_set__memberName(::StringW  value) ;
 
-  constexpr void __cordl_internal_set__value(::StringW value);
+constexpr void __cordl_internal_set__value(::StringW  value) ;
 
-  /// @brief Method .ctor, addr 0x58ff090, size 0x7c, virtual false, abstract: false, final false
-  inline void _ctor(::StringW memberName, ::StringW value);
+/// @brief Method .ctor, addr 0x5900a60, size 0x7c, virtual false, abstract: false, final false
+inline void _ctor(::StringW  memberName, ::StringW  value) ;
 
-  /// @brief Method get_MemberName, addr 0x58ff080, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_MemberName();
+/// @brief Method get_MemberName, addr 0x5900a50, size 0x8, virtual false, abstract: false, final false
+inline ::StringW get_MemberName() ;
 
-  /// @brief Method get_Value, addr 0x58ff088, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_Value();
+/// @brief Method get_Value, addr 0x5900a58, size 0x8, virtual false, abstract: false, final false
+inline ::StringW get_Value() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr VariantCheckpoint();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr VariantCheckpoint() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VariantCheckpoint", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  VariantCheckpoint(VariantCheckpoint&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VariantCheckpoint", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  VariantCheckpoint(VariantCheckpoint const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "VariantCheckpoint", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+VariantCheckpoint(VariantCheckpoint && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21204 };
+// Ctor Parameters [CppParam { name: "", ty: "VariantCheckpoint", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+VariantCheckpoint(VariantCheckpoint const& ) = delete;
 
-  /// @brief Field _memberName, offset: 0x10, size: 0x8, def value: None
-  ::StringW ____memberName;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{21207};
 
-  /// @brief Field _value, offset: 0x18, size: 0x8, def value: None
-  ::StringW ____value;
+/// @brief Field _memberName, offset: 0x10, size: 0x8, def value: None
+ ::StringW  ____memberName;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _value, offset: 0x18, size: 0x8, def value: None
+ ::StringW  ____value;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Meta::XR::BuildingBlocks::VariantCheckpoint, ____memberName) == 0x10, "Offset mismatch!");
@@ -84,6 +84,6 @@ static_assert(offsetof(::Meta::XR::BuildingBlocks::VariantCheckpoint, ____value)
 
 static_assert(::cordl_internals::size_check_v<::Meta::XR::BuildingBlocks::VariantCheckpoint, 0x20>, "Size mismatch!");
 
-} // namespace Meta::XR::BuildingBlocks
+} // namespace end def Meta::XR::BuildingBlocks
 NEED_NO_BOX(::Meta::XR::BuildingBlocks::VariantCheckpoint);
 DEFINE_IL2CPP_ARG_TYPE(::Meta::XR::BuildingBlocks::VariantCheckpoint*, "Meta.XR.BuildingBlocks", "VariantCheckpoint");

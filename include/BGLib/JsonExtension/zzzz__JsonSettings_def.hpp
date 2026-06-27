@@ -23,57 +23,57 @@ namespace BGLib::JsonExtension {
 // CS Name: BGLib.JsonExtension.JsonSettings
 class CORDL_TYPE JsonSettings : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field compactNoDefault, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_compactNoDefault, put = setStaticF_compactNoDefault)) ::Newtonsoft::Json::JsonSerializerSettings* compactNoDefault;
+// Declarations
+/// @brief Field compactNoDefault, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_compactNoDefault, put=setStaticF_compactNoDefault)) ::Newtonsoft::Json::JsonSerializerSettings*  compactNoDefault;
 
-  /// @brief Field compactWithDefault, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_compactWithDefault, put = setStaticF_compactWithDefault)) ::Newtonsoft::Json::JsonSerializerSettings* compactWithDefault;
+/// @brief Field compactWithDefault, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_compactWithDefault, put=setStaticF_compactWithDefault)) ::Newtonsoft::Json::JsonSerializerSettings*  compactWithDefault;
 
-  /// @brief Field jsonConverters, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_jsonConverters, put = setStaticF_jsonConverters)) ::ArrayW<::Newtonsoft::Json::JsonConverter*, ::Array<::Newtonsoft::Json::JsonConverter*>*> jsonConverters;
+/// @brief Field jsonConverters, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_jsonConverters, put=setStaticF_jsonConverters)) ::ArrayW<::Newtonsoft::Json::JsonConverter*,::Array<::Newtonsoft::Json::JsonConverter*>*>  jsonConverters;
 
-  /// @brief Field readableWithDefault, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_readableWithDefault, put = setStaticF_readableWithDefault)) ::Newtonsoft::Json::JsonSerializerSettings* readableWithDefault;
+/// @brief Field readableWithDefault, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_readableWithDefault, put=setStaticF_readableWithDefault)) ::Newtonsoft::Json::JsonSerializerSettings*  readableWithDefault;
 
-  static inline ::Newtonsoft::Json::JsonSerializerSettings* getStaticF_compactNoDefault();
+static inline ::Newtonsoft::Json::JsonSerializerSettings* getStaticF_compactNoDefault() ;
 
-  static inline ::Newtonsoft::Json::JsonSerializerSettings* getStaticF_compactWithDefault();
+static inline ::Newtonsoft::Json::JsonSerializerSettings* getStaticF_compactWithDefault() ;
 
-  static inline ::ArrayW<::Newtonsoft::Json::JsonConverter*, ::Array<::Newtonsoft::Json::JsonConverter*>*> getStaticF_jsonConverters();
+static inline ::ArrayW<::Newtonsoft::Json::JsonConverter*,::Array<::Newtonsoft::Json::JsonConverter*>*> getStaticF_jsonConverters() ;
 
-  static inline ::Newtonsoft::Json::JsonSerializerSettings* getStaticF_readableWithDefault();
+static inline ::Newtonsoft::Json::JsonSerializerSettings* getStaticF_readableWithDefault() ;
 
-  static inline void setStaticF_compactNoDefault(::Newtonsoft::Json::JsonSerializerSettings* value);
+static inline void setStaticF_compactNoDefault(::Newtonsoft::Json::JsonSerializerSettings*  value) ;
 
-  static inline void setStaticF_compactWithDefault(::Newtonsoft::Json::JsonSerializerSettings* value);
+static inline void setStaticF_compactWithDefault(::Newtonsoft::Json::JsonSerializerSettings*  value) ;
 
-  static inline void setStaticF_jsonConverters(::ArrayW<::Newtonsoft::Json::JsonConverter*, ::Array<::Newtonsoft::Json::JsonConverter*>*> value);
+static inline void setStaticF_jsonConverters(::ArrayW<::Newtonsoft::Json::JsonConverter*,::Array<::Newtonsoft::Json::JsonConverter*>*>  value) ;
 
-  static inline void setStaticF_readableWithDefault(::Newtonsoft::Json::JsonSerializerSettings* value);
+static inline void setStaticF_readableWithDefault(::Newtonsoft::Json::JsonSerializerSettings*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr JsonSettings();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr JsonSettings() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "JsonSettings", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  JsonSettings(JsonSettings&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "JsonSettings", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  JsonSettings(JsonSettings const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "JsonSettings", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+JsonSettings(JsonSettings && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23142 };
+// Ctor Parameters [CppParam { name: "", ty: "JsonSettings", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+JsonSettings(JsonSettings const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{23146};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::BGLib::JsonExtension::JsonSettings, 0x10>, "Size mismatch!");
 
-} // namespace BGLib::JsonExtension
+} // namespace end def BGLib::JsonExtension
 NEED_NO_BOX(::BGLib::JsonExtension::JsonSettings);
 DEFINE_IL2CPP_ARG_TYPE(::BGLib::JsonExtension::JsonSettings*, "BGLib.JsonExtension", "JsonSettings");

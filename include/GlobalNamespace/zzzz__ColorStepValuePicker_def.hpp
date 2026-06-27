@@ -29,132 +29,132 @@ namespace GlobalNamespace {
 // CS Name: ColorStepValuePicker
 class CORDL_TYPE ColorStepValuePicker : public ::UnityEngine::MonoBehaviour {
 public:
-  // Declarations
-  /// @brief Field _decButton, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__decButton, put = __cordl_internal_set__decButton)) ::UnityW<::UnityEngine::UI::Button> _decButton;
+// Declarations
+/// @brief Field _decButton, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get__decButton, put=__cordl_internal_set__decButton)) ::UnityW<::UnityEngine::UI::Button>  _decButton;
 
-  /// @brief Field _incButton, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__incButton, put = __cordl_internal_set__incButton)) ::UnityW<::UnityEngine::UI::Button> _incButton;
+/// @brief Field _incButton, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get__incButton, put=__cordl_internal_set__incButton)) ::UnityW<::UnityEngine::UI::Button>  _incButton;
 
-  /// @brief Field _valueImage, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__valueImage, put = __cordl_internal_set__valueImage)) ::UnityW<::HMUI::ImageView> _valueImage;
+/// @brief Field _valueImage, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get__valueImage, put=__cordl_internal_set__valueImage)) ::UnityW<::HMUI::ImageView>  _valueImage;
 
-  __declspec(property(get = get_color, put = set_color)) ::UnityEngine::Color color;
+ __declspec(property(get=get_color, put=set_color)) ::UnityEngine::Color  color;
 
-  __declspec(property(put = set_decButtonInteractable)) bool decButtonInteractable;
+ __declspec(property(put=set_decButtonInteractable)) bool  decButtonInteractable;
 
-  /// @brief Field decButtonWasPressedEvent, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_decButtonWasPressedEvent, put = __cordl_internal_set_decButtonWasPressedEvent)) ::System::Action* decButtonWasPressedEvent;
+/// @brief Field decButtonWasPressedEvent, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get_decButtonWasPressedEvent, put=__cordl_internal_set_decButtonWasPressedEvent)) ::System::Action*  decButtonWasPressedEvent;
 
-  __declspec(property(put = set_incButtonInteractable)) bool incButtonInteractable;
+ __declspec(property(put=set_incButtonInteractable)) bool  incButtonInteractable;
 
-  /// @brief Field incButtonWasPressedEvent, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_incButtonWasPressedEvent, put = __cordl_internal_set_incButtonWasPressedEvent)) ::System::Action* incButtonWasPressedEvent;
+/// @brief Field incButtonWasPressedEvent, offset 0x40, size 0x8 
+ __declspec(property(get=__cordl_internal_get_incButtonWasPressedEvent, put=__cordl_internal_set_incButtonWasPressedEvent)) ::System::Action*  incButtonWasPressedEvent;
 
-  /// @brief Method DecButtonPressed, addr 0x58f1d68, size 0x1c, virtual false, abstract: false, final false
-  inline void DecButtonPressed();
+/// @brief Method DecButtonPressed, addr 0x58f3738, size 0x1c, virtual false, abstract: false, final false
+inline void DecButtonPressed() ;
 
-  /// @brief Method IncButtonPressed, addr 0x58f1d4c, size 0x1c, virtual false, abstract: false, final false
-  inline void IncButtonPressed();
+/// @brief Method IncButtonPressed, addr 0x58f371c, size 0x1c, virtual false, abstract: false, final false
+inline void IncButtonPressed() ;
 
-  static inline ::GlobalNamespace::ColorStepValuePicker* New_ctor();
+static inline ::GlobalNamespace::ColorStepValuePicker* New_ctor() ;
 
-  /// @brief Method OnDisable, addr 0x58f1bf8, size 0x154, virtual false, abstract: false, final false
-  inline void OnDisable();
+/// @brief Method OnDisable, addr 0x58f35c8, size 0x154, virtual false, abstract: false, final false
+inline void OnDisable() ;
 
-  /// @brief Method OnEnable, addr 0x58f1aa4, size 0x154, virtual true, abstract: false, final false
-  inline void OnEnable();
+/// @brief Method OnEnable, addr 0x58f3474, size 0x154, virtual true, abstract: false, final false
+inline void OnEnable() ;
 
-  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__decButton() const;
+constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__decButton() const;
 
-  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__decButton();
+constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__decButton() ;
 
-  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__incButton() const;
+constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__incButton() const;
 
-  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__incButton();
+constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__incButton() ;
 
-  constexpr ::UnityW<::HMUI::ImageView> const& __cordl_internal_get__valueImage() const;
+constexpr ::UnityW<::HMUI::ImageView> const& __cordl_internal_get__valueImage() const;
 
-  constexpr ::UnityW<::HMUI::ImageView>& __cordl_internal_get__valueImage();
+constexpr ::UnityW<::HMUI::ImageView>& __cordl_internal_get__valueImage() ;
 
-  constexpr ::System::Action* const& __cordl_internal_get_decButtonWasPressedEvent() const;
+constexpr ::System::Action* const& __cordl_internal_get_decButtonWasPressedEvent() const;
 
-  constexpr ::System::Action*& __cordl_internal_get_decButtonWasPressedEvent();
+constexpr ::System::Action*& __cordl_internal_get_decButtonWasPressedEvent() ;
 
-  constexpr ::System::Action* const& __cordl_internal_get_incButtonWasPressedEvent() const;
+constexpr ::System::Action* const& __cordl_internal_get_incButtonWasPressedEvent() const;
 
-  constexpr ::System::Action*& __cordl_internal_get_incButtonWasPressedEvent();
+constexpr ::System::Action*& __cordl_internal_get_incButtonWasPressedEvent() ;
 
-  constexpr void __cordl_internal_set__decButton(::UnityW<::UnityEngine::UI::Button> value);
+constexpr void __cordl_internal_set__decButton(::UnityW<::UnityEngine::UI::Button>  value) ;
 
-  constexpr void __cordl_internal_set__incButton(::UnityW<::UnityEngine::UI::Button> value);
+constexpr void __cordl_internal_set__incButton(::UnityW<::UnityEngine::UI::Button>  value) ;
 
-  constexpr void __cordl_internal_set__valueImage(::UnityW<::HMUI::ImageView> value);
+constexpr void __cordl_internal_set__valueImage(::UnityW<::HMUI::ImageView>  value) ;
 
-  constexpr void __cordl_internal_set_decButtonWasPressedEvent(::System::Action* value);
+constexpr void __cordl_internal_set_decButtonWasPressedEvent(::System::Action*  value) ;
 
-  constexpr void __cordl_internal_set_incButtonWasPressedEvent(::System::Action* value);
+constexpr void __cordl_internal_set_incButtonWasPressedEvent(::System::Action*  value) ;
 
-  /// @brief Method .ctor, addr 0x58f1d84, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x58f3754, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method add_decButtonWasPressedEvent, addr 0x58f177c, size 0xac, virtual false, abstract: false, final false
-  inline void add_decButtonWasPressedEvent(::System::Action* value);
+/// @brief Method add_decButtonWasPressedEvent, addr 0x58f314c, size 0xac, virtual false, abstract: false, final false
+inline void add_decButtonWasPressedEvent(::System::Action*  value) ;
 
-  /// @brief Method add_incButtonWasPressedEvent, addr 0x58f18d4, size 0xac, virtual false, abstract: false, final false
-  inline void add_incButtonWasPressedEvent(::System::Action* value);
+/// @brief Method add_incButtonWasPressedEvent, addr 0x58f32a4, size 0xac, virtual false, abstract: false, final false
+inline void add_incButtonWasPressedEvent(::System::Action*  value) ;
 
-  /// @brief Method get_color, addr 0x58f1a2c, size 0x20, virtual false, abstract: false, final false
-  inline ::UnityEngine::Color get_color();
+/// @brief Method get_color, addr 0x58f33fc, size 0x20, virtual false, abstract: false, final false
+inline ::UnityEngine::Color get_color() ;
 
-  /// @brief Method remove_decButtonWasPressedEvent, addr 0x58f1828, size 0xac, virtual false, abstract: false, final false
-  inline void remove_decButtonWasPressedEvent(::System::Action* value);
+/// @brief Method remove_decButtonWasPressedEvent, addr 0x58f31f8, size 0xac, virtual false, abstract: false, final false
+inline void remove_decButtonWasPressedEvent(::System::Action*  value) ;
 
-  /// @brief Method remove_incButtonWasPressedEvent, addr 0x58f1980, size 0xac, virtual false, abstract: false, final false
-  inline void remove_incButtonWasPressedEvent(::System::Action* value);
+/// @brief Method remove_incButtonWasPressedEvent, addr 0x58f3350, size 0xac, virtual false, abstract: false, final false
+inline void remove_incButtonWasPressedEvent(::System::Action*  value) ;
 
-  /// @brief Method set_color, addr 0x58f1a4c, size 0x20, virtual false, abstract: false, final false
-  inline void set_color(::UnityEngine::Color value);
+/// @brief Method set_color, addr 0x58f341c, size 0x20, virtual false, abstract: false, final false
+inline void set_color(::UnityEngine::Color  value) ;
 
-  /// @brief Method set_decButtonInteractable, addr 0x58f1a6c, size 0x1c, virtual false, abstract: false, final false
-  inline void set_decButtonInteractable(bool value);
+/// @brief Method set_decButtonInteractable, addr 0x58f343c, size 0x1c, virtual false, abstract: false, final false
+inline void set_decButtonInteractable(bool  value) ;
 
-  /// @brief Method set_incButtonInteractable, addr 0x58f1a88, size 0x1c, virtual false, abstract: false, final false
-  inline void set_incButtonInteractable(bool value);
+/// @brief Method set_incButtonInteractable, addr 0x58f3458, size 0x1c, virtual false, abstract: false, final false
+inline void set_incButtonInteractable(bool  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ColorStepValuePicker();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ColorStepValuePicker() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ColorStepValuePicker", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ColorStepValuePicker(ColorStepValuePicker&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ColorStepValuePicker", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ColorStepValuePicker(ColorStepValuePicker const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ColorStepValuePicker", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ColorStepValuePicker(ColorStepValuePicker && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23054 };
+// Ctor Parameters [CppParam { name: "", ty: "ColorStepValuePicker", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ColorStepValuePicker(ColorStepValuePicker const& ) = delete;
 
-  /// @brief Field _decButton, offset: 0x20, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::UI::Button> ____decButton;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{23058};
 
-  /// @brief Field _incButton, offset: 0x28, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::UI::Button> ____incButton;
+/// @brief Field _decButton, offset: 0x20, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::UI::Button>  ____decButton;
 
-  /// @brief Field _valueImage, offset: 0x30, size: 0x8, def value: None
-  ::UnityW<::HMUI::ImageView> ____valueImage;
+/// @brief Field _incButton, offset: 0x28, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::UI::Button>  ____incButton;
 
-  /// @brief Field decButtonWasPressedEvent, offset: 0x38, size: 0x8, def value: None
-  ::System::Action* ___decButtonWasPressedEvent;
+/// @brief Field _valueImage, offset: 0x30, size: 0x8, def value: None
+ ::UnityW<::HMUI::ImageView>  ____valueImage;
 
-  /// @brief Field incButtonWasPressedEvent, offset: 0x40, size: 0x8, def value: None
-  ::System::Action* ___incButtonWasPressedEvent;
+/// @brief Field decButtonWasPressedEvent, offset: 0x38, size: 0x8, def value: None
+ ::System::Action*  ___decButtonWasPressedEvent;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field incButtonWasPressedEvent, offset: 0x40, size: 0x8, def value: None
+ ::System::Action*  ___incButtonWasPressedEvent;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::ColorStepValuePicker, ____decButton) == 0x20, "Offset mismatch!");
@@ -169,6 +169,6 @@ static_assert(offsetof(::GlobalNamespace::ColorStepValuePicker, ___incButtonWasP
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ColorStepValuePicker, 0x48>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ColorStepValuePicker);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ColorStepValuePicker*, "", "ColorStepValuePicker");

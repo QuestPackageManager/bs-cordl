@@ -32,258 +32,258 @@ namespace GlobalNamespace {
 // CS Name: AnnotatedBeatmapLevelCollectionsGridViewAnimator
 class CORDL_TYPE AnnotatedBeatmapLevelCollectionsGridViewAnimator : public ::UnityEngine::MonoBehaviour {
 public:
-  // Declarations
-  /// @brief Field _columnCount, offset 0x54, size 0x4
-  __declspec(property(get = __cordl_internal_get__columnCount, put = __cordl_internal_set__columnCount)) int32_t _columnCount;
+// Declarations
+/// @brief Field _columnCount, offset 0x54, size 0x4 
+ __declspec(property(get=__cordl_internal_get__columnCount, put=__cordl_internal_set__columnCount)) int32_t  _columnCount;
 
-  /// @brief Field _columnWidth, offset 0x48, size 0x4
-  __declspec(property(get = __cordl_internal_get__columnWidth, put = __cordl_internal_set__columnWidth)) float_t _columnWidth;
+/// @brief Field _columnWidth, offset 0x48, size 0x4 
+ __declspec(property(get=__cordl_internal_get__columnWidth, put=__cordl_internal_set__columnWidth)) float_t  _columnWidth;
 
-  /// @brief Field _contentPositionTween, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get__contentPositionTween, put = __cordl_internal_set__contentPositionTween)) ::Tweening::Vector2Tween* _contentPositionTween;
+/// @brief Field _contentPositionTween, offset 0x70, size 0x8 
+ __declspec(property(get=__cordl_internal_get__contentPositionTween, put=__cordl_internal_set__contentPositionTween)) ::Tweening::Vector2Tween*  _contentPositionTween;
 
-  /// @brief Field _contentTransform, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__contentTransform, put = __cordl_internal_set__contentTransform)) ::UnityW<::UnityEngine::RectTransform> _contentTransform;
+/// @brief Field _contentTransform, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get__contentTransform, put=__cordl_internal_set__contentTransform)) ::UnityW<::UnityEngine::RectTransform>  _contentTransform;
 
-  /// @brief Field _easeType, offset 0x34, size 0x4
-  __declspec(property(get = __cordl_internal_get__easeType, put = __cordl_internal_set__easeType)) ::GlobalNamespace::EaseType _easeType;
+/// @brief Field _easeType, offset 0x34, size 0x4 
+ __declspec(property(get=__cordl_internal_get__easeType, put=__cordl_internal_set__easeType)) ::GlobalNamespace::EaseType  _easeType;
 
-  /// @brief Field _padding, offset 0x38, size 0x4
-  __declspec(property(get = __cordl_internal_get__padding, put = __cordl_internal_set__padding)) float_t _padding;
+/// @brief Field _padding, offset 0x38, size 0x4 
+ __declspec(property(get=__cordl_internal_get__padding, put=__cordl_internal_set__padding)) float_t  _padding;
 
-  /// @brief Field _rowCount, offset 0x58, size 0x4
-  __declspec(property(get = __cordl_internal_get__rowCount, put = __cordl_internal_set__rowCount)) int32_t _rowCount;
+/// @brief Field _rowCount, offset 0x58, size 0x4 
+ __declspec(property(get=__cordl_internal_get__rowCount, put=__cordl_internal_set__rowCount)) int32_t  _rowCount;
 
-  /// @brief Field _rowHeight, offset 0x4c, size 0x4
-  __declspec(property(get = __cordl_internal_get__rowHeight, put = __cordl_internal_set__rowHeight)) float_t _rowHeight;
+/// @brief Field _rowHeight, offset 0x4c, size 0x4 
+ __declspec(property(get=__cordl_internal_get__rowHeight, put=__cordl_internal_set__rowHeight)) float_t  _rowHeight;
 
-  /// @brief Field _selectedColumn, offset 0x5c, size 0x4
-  __declspec(property(get = __cordl_internal_get__selectedColumn, put = __cordl_internal_set__selectedColumn)) int32_t _selectedColumn;
+/// @brief Field _selectedColumn, offset 0x5c, size 0x4 
+ __declspec(property(get=__cordl_internal_get__selectedColumn, put=__cordl_internal_set__selectedColumn)) int32_t  _selectedColumn;
 
-  /// @brief Field _selectedRow, offset 0x60, size 0x4
-  __declspec(property(get = __cordl_internal_get__selectedRow, put = __cordl_internal_set__selectedRow)) int32_t _selectedRow;
+/// @brief Field _selectedRow, offset 0x60, size 0x4 
+ __declspec(property(get=__cordl_internal_get__selectedRow, put=__cordl_internal_set__selectedRow)) int32_t  _selectedRow;
 
-  /// @brief Field _transitionDuration, offset 0x30, size 0x4
-  __declspec(property(get = __cordl_internal_get__transitionDuration, put = __cordl_internal_set__transitionDuration)) float_t _transitionDuration;
+/// @brief Field _transitionDuration, offset 0x30, size 0x4 
+ __declspec(property(get=__cordl_internal_get__transitionDuration, put=__cordl_internal_set__transitionDuration)) float_t  _transitionDuration;
 
-  /// @brief Field _tweeningManager, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__tweeningManager, put = __cordl_internal_set__tweeningManager)) ::UnityW<::Tweening::TimeTweeningManager> _tweeningManager;
+/// @brief Field _tweeningManager, offset 0x40, size 0x8 
+ __declspec(property(get=__cordl_internal_get__tweeningManager, put=__cordl_internal_set__tweeningManager)) ::UnityW<::Tweening::TimeTweeningManager>  _tweeningManager;
 
-  /// @brief Field _viewportSizeTween, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get__viewportSizeTween, put = __cordl_internal_set__viewportSizeTween)) ::Tweening::Vector2Tween* _viewportSizeTween;
+/// @brief Field _viewportSizeTween, offset 0x68, size 0x8 
+ __declspec(property(get=__cordl_internal_get__viewportSizeTween, put=__cordl_internal_set__viewportSizeTween)) ::Tweening::Vector2Tween*  _viewportSizeTween;
 
-  /// @brief Field _viewportTransform, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__viewportTransform, put = __cordl_internal_set__viewportTransform)) ::UnityW<::UnityEngine::RectTransform> _viewportTransform;
+/// @brief Field _viewportTransform, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get__viewportTransform, put=__cordl_internal_set__viewportTransform)) ::UnityW<::UnityEngine::RectTransform>  _viewportTransform;
 
-  /// @brief Field _visibleColumnCount, offset 0x50, size 0x4
-  __declspec(property(get = __cordl_internal_get__visibleColumnCount, put = __cordl_internal_set__visibleColumnCount)) int32_t _visibleColumnCount;
+/// @brief Field _visibleColumnCount, offset 0x50, size 0x4 
+ __declspec(property(get=__cordl_internal_get__visibleColumnCount, put=__cordl_internal_set__visibleColumnCount)) int32_t  _visibleColumnCount;
 
-  /// @brief Method AnimateClose, addr 0x5832b14, size 0x454, virtual false, abstract: false, final false
-  inline void AnimateClose(int32_t selectedColumn, int32_t selectedRow, bool animated);
+/// @brief Method AnimateClose, addr 0x58343c0, size 0x454, virtual false, abstract: false, final false
+inline void AnimateClose(int32_t  selectedColumn, int32_t  selectedRow, bool  animated) ;
 
-  /// @brief Method AnimateOpen, addr 0x5832684, size 0x490, virtual false, abstract: false, final false
-  inline void AnimateOpen(bool animated);
+/// @brief Method AnimateOpen, addr 0x5833f30, size 0x490, virtual false, abstract: false, final false
+inline void AnimateOpen(bool  animated) ;
 
-  /// @brief Method DespawnAllActiveTweens, addr 0x5832530, size 0xd0, virtual false, abstract: false, final false
-  inline void DespawnAllActiveTweens();
+/// @brief Method DespawnAllActiveTweens, addr 0x5833ddc, size 0xd0, virtual false, abstract: false, final false
+inline void DespawnAllActiveTweens() ;
 
-  /// @brief Method GetContentXOffset, addr 0x58324ac, size 0x54, virtual false, abstract: false, final false
-  inline float_t GetContentXOffset();
+/// @brief Method GetContentXOffset, addr 0x5833d58, size 0x54, virtual false, abstract: false, final false
+inline float_t GetContentXOffset() ;
 
-  /// @brief Method GetContentYOffset, addr 0x5832500, size 0x2c, virtual false, abstract: false, final false
-  inline float_t GetContentYOffset();
+/// @brief Method GetContentYOffset, addr 0x5833dac, size 0x2c, virtual false, abstract: false, final false
+inline float_t GetContentYOffset() ;
 
-  /// @brief Method Init, addr 0x58323d0, size 0xdc, virtual false, abstract: false, final false
-  inline void Init(float_t columnWidth, float_t rowHeight, int32_t columnCount, int32_t rowCount, int32_t visibleColumnCount);
+/// @brief Method Init, addr 0x5833c7c, size 0xdc, virtual false, abstract: false, final false
+inline void Init(float_t  columnWidth, float_t  rowHeight, int32_t  columnCount, int32_t  rowCount, int32_t  visibleColumnCount) ;
 
-  static inline ::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator* New_ctor();
+static inline ::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator* New_ctor() ;
 
-  /// @brief Method OnDestroy, addr 0x583252c, size 0x4, virtual false, abstract: false, final false
-  inline void OnDestroy();
+/// @brief Method OnDestroy, addr 0x5833dd8, size 0x4, virtual false, abstract: false, final false
+inline void OnDestroy() ;
 
-  /// @brief Method ScrollToRowIdxInstant, addr 0x5832600, size 0x84, virtual false, abstract: false, final false
-  inline void ScrollToRowIdxInstant(int32_t selectedColumn, int32_t selectedRow);
+/// @brief Method ScrollToRowIdxInstant, addr 0x5833eac, size 0x84, virtual false, abstract: false, final false
+inline void ScrollToRowIdxInstant(int32_t  selectedColumn, int32_t  selectedRow) ;
 
-  /// @brief Method <AnimateClose>b__19_0, addr 0x58330d4, size 0x18, virtual false, abstract: false, final false
-  inline void _AnimateClose_b__19_0(::UnityEngine::Vector2 size);
+/// @brief Method <AnimateClose>b__19_0, addr 0x5834980, size 0x18, virtual false, abstract: false, final false
+inline void _AnimateClose_b__19_0(::UnityEngine::Vector2  size) ;
 
-  /// @brief Method <AnimateClose>b__19_1, addr 0x58330ec, size 0x90, virtual false, abstract: false, final false
-  inline void _AnimateClose_b__19_1();
+/// @brief Method <AnimateClose>b__19_1, addr 0x5834998, size 0x90, virtual false, abstract: false, final false
+inline void _AnimateClose_b__19_1() ;
 
-  /// @brief Method <AnimateClose>b__19_2, addr 0x583317c, size 0x18, virtual false, abstract: false, final false
-  inline void _AnimateClose_b__19_2(::UnityEngine::Vector2 pos);
+/// @brief Method <AnimateClose>b__19_2, addr 0x5834a28, size 0x18, virtual false, abstract: false, final false
+inline void _AnimateClose_b__19_2(::UnityEngine::Vector2  pos) ;
 
-  /// @brief Method <AnimateClose>b__19_3, addr 0x5833194, size 0x90, virtual false, abstract: false, final false
-  inline void _AnimateClose_b__19_3();
+/// @brief Method <AnimateClose>b__19_3, addr 0x5834a40, size 0x90, virtual false, abstract: false, final false
+inline void _AnimateClose_b__19_3() ;
 
-  /// @brief Method <AnimateOpen>b__18_0, addr 0x5832f84, size 0x18, virtual false, abstract: false, final false
-  inline void _AnimateOpen_b__18_0(::UnityEngine::Vector2 size);
+/// @brief Method <AnimateOpen>b__18_0, addr 0x5834830, size 0x18, virtual false, abstract: false, final false
+inline void _AnimateOpen_b__18_0(::UnityEngine::Vector2  size) ;
 
-  /// @brief Method <AnimateOpen>b__18_1, addr 0x5832f9c, size 0x90, virtual false, abstract: false, final false
-  inline void _AnimateOpen_b__18_1();
+/// @brief Method <AnimateOpen>b__18_1, addr 0x5834848, size 0x90, virtual false, abstract: false, final false
+inline void _AnimateOpen_b__18_1() ;
 
-  /// @brief Method <AnimateOpen>b__18_2, addr 0x583302c, size 0x18, virtual false, abstract: false, final false
-  inline void _AnimateOpen_b__18_2(::UnityEngine::Vector2 pos);
+/// @brief Method <AnimateOpen>b__18_2, addr 0x58348d8, size 0x18, virtual false, abstract: false, final false
+inline void _AnimateOpen_b__18_2(::UnityEngine::Vector2  pos) ;
 
-  /// @brief Method <AnimateOpen>b__18_3, addr 0x5833044, size 0x90, virtual false, abstract: false, final false
-  inline void _AnimateOpen_b__18_3();
+/// @brief Method <AnimateOpen>b__18_3, addr 0x58348f0, size 0x90, virtual false, abstract: false, final false
+inline void _AnimateOpen_b__18_3() ;
 
-  constexpr int32_t const& __cordl_internal_get__columnCount() const;
+constexpr int32_t const& __cordl_internal_get__columnCount() const;
 
-  constexpr int32_t& __cordl_internal_get__columnCount();
+constexpr int32_t& __cordl_internal_get__columnCount() ;
 
-  constexpr float_t const& __cordl_internal_get__columnWidth() const;
+constexpr float_t const& __cordl_internal_get__columnWidth() const;
 
-  constexpr float_t& __cordl_internal_get__columnWidth();
+constexpr float_t& __cordl_internal_get__columnWidth() ;
 
-  constexpr ::Tweening::Vector2Tween* const& __cordl_internal_get__contentPositionTween() const;
+constexpr ::Tweening::Vector2Tween* const& __cordl_internal_get__contentPositionTween() const;
 
-  constexpr ::Tweening::Vector2Tween*& __cordl_internal_get__contentPositionTween();
+constexpr ::Tweening::Vector2Tween*& __cordl_internal_get__contentPositionTween() ;
 
-  constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get__contentTransform() const;
+constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get__contentTransform() const;
 
-  constexpr ::UnityW<::UnityEngine::RectTransform>& __cordl_internal_get__contentTransform();
+constexpr ::UnityW<::UnityEngine::RectTransform>& __cordl_internal_get__contentTransform() ;
 
-  constexpr ::GlobalNamespace::EaseType const& __cordl_internal_get__easeType() const;
+constexpr ::GlobalNamespace::EaseType const& __cordl_internal_get__easeType() const;
 
-  constexpr ::GlobalNamespace::EaseType& __cordl_internal_get__easeType();
+constexpr ::GlobalNamespace::EaseType& __cordl_internal_get__easeType() ;
 
-  constexpr float_t const& __cordl_internal_get__padding() const;
+constexpr float_t const& __cordl_internal_get__padding() const;
 
-  constexpr float_t& __cordl_internal_get__padding();
+constexpr float_t& __cordl_internal_get__padding() ;
 
-  constexpr int32_t const& __cordl_internal_get__rowCount() const;
+constexpr int32_t const& __cordl_internal_get__rowCount() const;
 
-  constexpr int32_t& __cordl_internal_get__rowCount();
+constexpr int32_t& __cordl_internal_get__rowCount() ;
 
-  constexpr float_t const& __cordl_internal_get__rowHeight() const;
+constexpr float_t const& __cordl_internal_get__rowHeight() const;
 
-  constexpr float_t& __cordl_internal_get__rowHeight();
+constexpr float_t& __cordl_internal_get__rowHeight() ;
 
-  constexpr int32_t const& __cordl_internal_get__selectedColumn() const;
+constexpr int32_t const& __cordl_internal_get__selectedColumn() const;
 
-  constexpr int32_t& __cordl_internal_get__selectedColumn();
+constexpr int32_t& __cordl_internal_get__selectedColumn() ;
 
-  constexpr int32_t const& __cordl_internal_get__selectedRow() const;
+constexpr int32_t const& __cordl_internal_get__selectedRow() const;
 
-  constexpr int32_t& __cordl_internal_get__selectedRow();
+constexpr int32_t& __cordl_internal_get__selectedRow() ;
 
-  constexpr float_t const& __cordl_internal_get__transitionDuration() const;
+constexpr float_t const& __cordl_internal_get__transitionDuration() const;
 
-  constexpr float_t& __cordl_internal_get__transitionDuration();
+constexpr float_t& __cordl_internal_get__transitionDuration() ;
 
-  constexpr ::UnityW<::Tweening::TimeTweeningManager> const& __cordl_internal_get__tweeningManager() const;
+constexpr ::UnityW<::Tweening::TimeTweeningManager> const& __cordl_internal_get__tweeningManager() const;
 
-  constexpr ::UnityW<::Tweening::TimeTweeningManager>& __cordl_internal_get__tweeningManager();
+constexpr ::UnityW<::Tweening::TimeTweeningManager>& __cordl_internal_get__tweeningManager() ;
 
-  constexpr ::Tweening::Vector2Tween* const& __cordl_internal_get__viewportSizeTween() const;
+constexpr ::Tweening::Vector2Tween* const& __cordl_internal_get__viewportSizeTween() const;
 
-  constexpr ::Tweening::Vector2Tween*& __cordl_internal_get__viewportSizeTween();
+constexpr ::Tweening::Vector2Tween*& __cordl_internal_get__viewportSizeTween() ;
 
-  constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get__viewportTransform() const;
+constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get__viewportTransform() const;
 
-  constexpr ::UnityW<::UnityEngine::RectTransform>& __cordl_internal_get__viewportTransform();
+constexpr ::UnityW<::UnityEngine::RectTransform>& __cordl_internal_get__viewportTransform() ;
 
-  constexpr int32_t const& __cordl_internal_get__visibleColumnCount() const;
+constexpr int32_t const& __cordl_internal_get__visibleColumnCount() const;
 
-  constexpr int32_t& __cordl_internal_get__visibleColumnCount();
+constexpr int32_t& __cordl_internal_get__visibleColumnCount() ;
 
-  constexpr void __cordl_internal_set__columnCount(int32_t value);
+constexpr void __cordl_internal_set__columnCount(int32_t  value) ;
 
-  constexpr void __cordl_internal_set__columnWidth(float_t value);
+constexpr void __cordl_internal_set__columnWidth(float_t  value) ;
 
-  constexpr void __cordl_internal_set__contentPositionTween(::Tweening::Vector2Tween* value);
+constexpr void __cordl_internal_set__contentPositionTween(::Tweening::Vector2Tween*  value) ;
 
-  constexpr void __cordl_internal_set__contentTransform(::UnityW<::UnityEngine::RectTransform> value);
+constexpr void __cordl_internal_set__contentTransform(::UnityW<::UnityEngine::RectTransform>  value) ;
 
-  constexpr void __cordl_internal_set__easeType(::GlobalNamespace::EaseType value);
+constexpr void __cordl_internal_set__easeType(::GlobalNamespace::EaseType  value) ;
 
-  constexpr void __cordl_internal_set__padding(float_t value);
+constexpr void __cordl_internal_set__padding(float_t  value) ;
 
-  constexpr void __cordl_internal_set__rowCount(int32_t value);
+constexpr void __cordl_internal_set__rowCount(int32_t  value) ;
 
-  constexpr void __cordl_internal_set__rowHeight(float_t value);
+constexpr void __cordl_internal_set__rowHeight(float_t  value) ;
 
-  constexpr void __cordl_internal_set__selectedColumn(int32_t value);
+constexpr void __cordl_internal_set__selectedColumn(int32_t  value) ;
 
-  constexpr void __cordl_internal_set__selectedRow(int32_t value);
+constexpr void __cordl_internal_set__selectedRow(int32_t  value) ;
 
-  constexpr void __cordl_internal_set__transitionDuration(float_t value);
+constexpr void __cordl_internal_set__transitionDuration(float_t  value) ;
 
-  constexpr void __cordl_internal_set__tweeningManager(::UnityW<::Tweening::TimeTweeningManager> value);
+constexpr void __cordl_internal_set__tweeningManager(::UnityW<::Tweening::TimeTweeningManager>  value) ;
 
-  constexpr void __cordl_internal_set__viewportSizeTween(::Tweening::Vector2Tween* value);
+constexpr void __cordl_internal_set__viewportSizeTween(::Tweening::Vector2Tween*  value) ;
 
-  constexpr void __cordl_internal_set__viewportTransform(::UnityW<::UnityEngine::RectTransform> value);
+constexpr void __cordl_internal_set__viewportTransform(::UnityW<::UnityEngine::RectTransform>  value) ;
 
-  constexpr void __cordl_internal_set__visibleColumnCount(int32_t value);
+constexpr void __cordl_internal_set__visibleColumnCount(int32_t  value) ;
 
-  /// @brief Method .ctor, addr 0x5832f68, size 0x1c, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5834814, size 0x1c, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AnnotatedBeatmapLevelCollectionsGridViewAnimator();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr AnnotatedBeatmapLevelCollectionsGridViewAnimator() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AnnotatedBeatmapLevelCollectionsGridViewAnimator", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  AnnotatedBeatmapLevelCollectionsGridViewAnimator(AnnotatedBeatmapLevelCollectionsGridViewAnimator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AnnotatedBeatmapLevelCollectionsGridViewAnimator", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  AnnotatedBeatmapLevelCollectionsGridViewAnimator(AnnotatedBeatmapLevelCollectionsGridViewAnimator const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "AnnotatedBeatmapLevelCollectionsGridViewAnimator", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+AnnotatedBeatmapLevelCollectionsGridViewAnimator(AnnotatedBeatmapLevelCollectionsGridViewAnimator && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7000 };
+// Ctor Parameters [CppParam { name: "", ty: "AnnotatedBeatmapLevelCollectionsGridViewAnimator", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+AnnotatedBeatmapLevelCollectionsGridViewAnimator(AnnotatedBeatmapLevelCollectionsGridViewAnimator const& ) = delete;
 
-  /// @brief Field _viewportTransform, offset: 0x20, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::RectTransform> ____viewportTransform;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{7001};
 
-  /// @brief Field _contentTransform, offset: 0x28, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::RectTransform> ____contentTransform;
+/// @brief Field _viewportTransform, offset: 0x20, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::RectTransform>  ____viewportTransform;
 
-  /// @brief Field _transitionDuration, offset: 0x30, size: 0x4, def value: None
-  float_t ____transitionDuration;
+/// @brief Field _contentTransform, offset: 0x28, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::RectTransform>  ____contentTransform;
 
-  /// @brief Field _easeType, offset: 0x34, size: 0x4, def value: None
-  ::GlobalNamespace::EaseType ____easeType;
+/// @brief Field _transitionDuration, offset: 0x30, size: 0x4, def value: None
+ float_t  ____transitionDuration;
 
-  /// @brief Field _padding, offset: 0x38, size: 0x4, def value: None
-  float_t ____padding;
+/// @brief Field _easeType, offset: 0x34, size: 0x4, def value: None
+ ::GlobalNamespace::EaseType  ____easeType;
 
-  /// @brief Field _tweeningManager, offset: 0x40, size: 0x8, def value: None
-  ::UnityW<::Tweening::TimeTweeningManager> ____tweeningManager;
+/// @brief Field _padding, offset: 0x38, size: 0x4, def value: None
+ float_t  ____padding;
 
-  /// @brief Field _columnWidth, offset: 0x48, size: 0x4, def value: None
-  float_t ____columnWidth;
+/// @brief Field _tweeningManager, offset: 0x40, size: 0x8, def value: None
+ ::UnityW<::Tweening::TimeTweeningManager>  ____tweeningManager;
 
-  /// @brief Field _rowHeight, offset: 0x4c, size: 0x4, def value: None
-  float_t ____rowHeight;
+/// @brief Field _columnWidth, offset: 0x48, size: 0x4, def value: None
+ float_t  ____columnWidth;
 
-  /// @brief Field _visibleColumnCount, offset: 0x50, size: 0x4, def value: None
-  int32_t ____visibleColumnCount;
+/// @brief Field _rowHeight, offset: 0x4c, size: 0x4, def value: None
+ float_t  ____rowHeight;
 
-  /// @brief Field _columnCount, offset: 0x54, size: 0x4, def value: None
-  int32_t ____columnCount;
+/// @brief Field _visibleColumnCount, offset: 0x50, size: 0x4, def value: None
+ int32_t  ____visibleColumnCount;
 
-  /// @brief Field _rowCount, offset: 0x58, size: 0x4, def value: None
-  int32_t ____rowCount;
+/// @brief Field _columnCount, offset: 0x54, size: 0x4, def value: None
+ int32_t  ____columnCount;
 
-  /// @brief Field _selectedColumn, offset: 0x5c, size: 0x4, def value: None
-  int32_t ____selectedColumn;
+/// @brief Field _rowCount, offset: 0x58, size: 0x4, def value: None
+ int32_t  ____rowCount;
 
-  /// @brief Field _selectedRow, offset: 0x60, size: 0x4, def value: None
-  int32_t ____selectedRow;
+/// @brief Field _selectedColumn, offset: 0x5c, size: 0x4, def value: None
+ int32_t  ____selectedColumn;
 
-  /// @brief Field _viewportSizeTween, offset: 0x68, size: 0x8, def value: None
-  ::Tweening::Vector2Tween* ____viewportSizeTween;
+/// @brief Field _selectedRow, offset: 0x60, size: 0x4, def value: None
+ int32_t  ____selectedRow;
 
-  /// @brief Field _contentPositionTween, offset: 0x70, size: 0x8, def value: None
-  ::Tweening::Vector2Tween* ____contentPositionTween;
+/// @brief Field _viewportSizeTween, offset: 0x68, size: 0x8, def value: None
+ ::Tweening::Vector2Tween*  ____viewportSizeTween;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _contentPositionTween, offset: 0x70, size: 0x8, def value: None
+ ::Tweening::Vector2Tween*  ____contentPositionTween;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator, ____viewportTransform) == 0x20, "Offset mismatch!");
@@ -318,6 +318,6 @@ static_assert(offsetof(::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridVi
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator, 0x78>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator*, "", "AnnotatedBeatmapLevelCollectionsGridViewAnimator");

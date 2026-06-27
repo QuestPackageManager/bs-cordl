@@ -28,62 +28,62 @@ namespace UnityEngine::Profiling {
 // CS Name: UnityEngine.Profiling.Profiler
 class CORDL_TYPE Profiler : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method GetMonoUsedSizeLong, addr 0x69a3018, size 0x28, virtual false, abstract: false, final false
-  static inline int64_t GetMonoUsedSizeLong();
+// Declarations
+/// @brief Method GetMonoUsedSizeLong, addr 0x69a4b90, size 0x28, virtual false, abstract: false, final false
+static inline int64_t GetMonoUsedSizeLong() ;
 
-  /// @brief Method GetRuntimeMemorySizeLong, addr 0x69a2f4c, size 0x90, virtual false, abstract: false, final false
-  static inline int64_t GetRuntimeMemorySizeLong(::UnityEngine::Object* o);
+/// @brief Method GetRuntimeMemorySizeLong, addr 0x69a4ac4, size 0x90, virtual false, abstract: false, final false
+static inline int64_t GetRuntimeMemorySizeLong(::UnityEngine::Object*  o) ;
 
-  /// @brief Method GetRuntimeMemorySizeLong_Injected, addr 0x69a2fdc, size 0x3c, virtual false, abstract: false, final false
-  static inline int64_t GetRuntimeMemorySizeLong_Injected(::System::IntPtr o);
+/// @brief Method GetRuntimeMemorySizeLong_Injected, addr 0x69a4b54, size 0x3c, virtual false, abstract: false, final false
+static inline int64_t GetRuntimeMemorySizeLong_Injected(::System::IntPtr  o) ;
 
-  /// @brief Method GetTotalAllocatedMemoryLong, addr 0x69a3040, size 0x28, virtual false, abstract: false, final false
-  static inline int64_t GetTotalAllocatedMemoryLong();
+/// @brief Method GetTotalAllocatedMemoryLong, addr 0x69a4bb8, size 0x28, virtual false, abstract: false, final false
+static inline int64_t GetTotalAllocatedMemoryLong() ;
 
-  /// @brief Method GetTotalReservedMemoryLong, addr 0x69a3068, size 0x28, virtual false, abstract: false, final false
-  static inline int64_t GetTotalReservedMemoryLong();
+/// @brief Method GetTotalReservedMemoryLong, addr 0x69a4be0, size 0x28, virtual false, abstract: false, final false
+static inline int64_t GetTotalReservedMemoryLong() ;
 
-  /// @brief Method get_enabled, addr 0x69a2ee8, size 0x28, virtual false, abstract: false, final false
-  static inline bool get_enabled();
+/// @brief Method get_enabled, addr 0x69a4a60, size 0x28, virtual false, abstract: false, final false
+static inline bool get_enabled() ;
 
-  /// @brief Method set_enableBinaryLog, addr 0x69a2e70, size 0x3c, virtual false, abstract: false, final false
-  static inline void set_enableBinaryLog(bool value);
+/// @brief Method set_enableBinaryLog, addr 0x69a49e8, size 0x3c, virtual false, abstract: false, final false
+static inline void set_enableBinaryLog(bool  value) ;
 
-  /// @brief Method set_enabled, addr 0x69a2f10, size 0x3c, virtual false, abstract: false, final false
-  static inline void set_enabled(bool value);
+/// @brief Method set_enabled, addr 0x69a4a88, size 0x3c, virtual false, abstract: false, final false
+static inline void set_enabled(bool  value) ;
 
-  /// @brief Method set_logFile, addr 0x69a2d10, size 0x124, virtual false, abstract: false, final false
-  static inline void set_logFile(::StringW value);
+/// @brief Method set_logFile, addr 0x69a4888, size 0x124, virtual false, abstract: false, final false
+static inline void set_logFile(::StringW  value) ;
 
-  /// @brief Method set_logFile_Injected, addr 0x69a2e34, size 0x3c, virtual false, abstract: false, final false
-  static inline void set_logFile_Injected(::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> value);
+/// @brief Method set_logFile_Injected, addr 0x69a49ac, size 0x3c, virtual false, abstract: false, final false
+static inline void set_logFile_Injected(::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>  value) ;
 
-  /// @brief Method set_maxUsedMemory, addr 0x69a2eac, size 0x3c, virtual false, abstract: false, final false
-  static inline void set_maxUsedMemory(int32_t value);
+/// @brief Method set_maxUsedMemory, addr 0x69a4a24, size 0x3c, virtual false, abstract: false, final false
+static inline void set_maxUsedMemory(int32_t  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Profiler();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr Profiler() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Profiler", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  Profiler(Profiler&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Profiler", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  Profiler(Profiler const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "Profiler", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Profiler(Profiler && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10415 };
+// Ctor Parameters [CppParam { name: "", ty: "Profiler", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Profiler(Profiler const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10416};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Profiling::Profiler, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::Profiling
+} // namespace end def UnityEngine::Profiling
 NEED_NO_BOX(::UnityEngine::Profiling::Profiler);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Profiling::Profiler*, "UnityEngine.Profiling", "Profiler");

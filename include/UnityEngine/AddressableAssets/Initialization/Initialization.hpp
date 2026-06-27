@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "UnityEngine/AddressableAssets/Initialization/AddressablesRuntimeProperties.hpp"
 #include "UnityEngine/AddressableAssets/Initialization/CacheInitialization.hpp"
@@ -9,5 +9,6 @@ module;
 #include "UnityEngine/AddressableAssets/Initialization/InitializationOperation.hpp"
 #include "UnityEngine/AddressableAssets/Initialization/ResourceManagerRuntimeData.hpp"
 #ifdef __cpp_modules
-export module Initialization;
-#endif
+                    export module Initialization;
+                    #endif
+                

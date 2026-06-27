@@ -11,13 +11,15 @@ namespace GlobalNamespace {
 struct EaseType;
 }
 namespace System {
-template <typename T> class Action_1;
+template<typename T>
+class Action_1;
 }
 namespace UnityEngine {
 struct Quaternion;
 }
 namespace Zenject {
-template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue> class StaticMemoryPool_7;
+template<typename TParam1,typename TParam2,typename TParam3,typename TParam4,typename TParam5,typename TParam6,typename TValue>
+class StaticMemoryPool_7;
 }
 // Forward declare root types
 namespace Tweening {
@@ -31,55 +33,49 @@ namespace Tweening {
 // CS Name: Tweening.QuaternionTween
 class CORDL_TYPE QuaternionTween : public ::Tweening::Tween_1<::UnityEngine::Quaternion> {
 public:
-  // Declarations
-  /// @brief Field Pool, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_Pool, put = setStaticF_Pool)) ::Zenject::StaticMemoryPool_7<::UnityEngine::Quaternion, ::UnityEngine::Quaternion, ::System::Action_1<::UnityEngine::Quaternion>*,
-                                                                                                   float_t, ::GlobalNamespace::EaseType, float_t, ::Tweening::QuaternionTween*>* Pool;
+// Declarations
+/// @brief Field Pool, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_Pool, put=setStaticF_Pool)) ::Zenject::StaticMemoryPool_7<::UnityEngine::Quaternion,::UnityEngine::Quaternion,::System::Action_1<::UnityEngine::Quaternion>*,float_t,::GlobalNamespace::EaseType,float_t,::Tweening::QuaternionTween*>*  Pool;
 
-  /// @brief Method GetValue, addr 0x6304e10, size 0x44, virtual true, abstract: false, final false
-  inline ::UnityEngine::Quaternion GetValue(float_t t);
+/// @brief Method GetValue, addr 0x6306988, size 0x44, virtual true, abstract: false, final false
+inline ::UnityEngine::Quaternion GetValue(float_t  t) ;
 
-  static inline ::Tweening::QuaternionTween* New_ctor();
+static inline ::Tweening::QuaternionTween* New_ctor() ;
 
-  static inline ::Tweening::QuaternionTween* New_ctor(::UnityEngine::Quaternion fromValue, ::UnityEngine::Quaternion toValue, ::System::Action_1<::UnityEngine::Quaternion>* onUpdate, float_t duration,
-                                                      ::GlobalNamespace::EaseType easeType, float_t delay);
+static inline ::Tweening::QuaternionTween* New_ctor(::UnityEngine::Quaternion  fromValue, ::UnityEngine::Quaternion  toValue, ::System::Action_1<::UnityEngine::Quaternion>*  onUpdate, float_t  duration, ::GlobalNamespace::EaseType  easeType, float_t  delay) ;
 
-  /// @brief Method .ctor, addr 0x6304ce8, size 0x60, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6306860, size 0x60, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method .ctor, addr 0x6304d48, size 0xc8, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::Quaternion fromValue, ::UnityEngine::Quaternion toValue, ::System::Action_1<::UnityEngine::Quaternion>* onUpdate, float_t duration,
-                    ::GlobalNamespace::EaseType easeType, float_t delay);
+/// @brief Method .ctor, addr 0x63068c0, size 0xc8, virtual false, abstract: false, final false
+inline void _ctor(::UnityEngine::Quaternion  fromValue, ::UnityEngine::Quaternion  toValue, ::System::Action_1<::UnityEngine::Quaternion>*  onUpdate, float_t  duration, ::GlobalNamespace::EaseType  easeType, float_t  delay) ;
 
-  static inline ::Zenject::StaticMemoryPool_7<::UnityEngine::Quaternion, ::UnityEngine::Quaternion, ::System::Action_1<::UnityEngine::Quaternion>*, float_t, ::GlobalNamespace::EaseType, float_t,
-                                              ::Tweening::QuaternionTween*>*
-  getStaticF_Pool();
+static inline ::Zenject::StaticMemoryPool_7<::UnityEngine::Quaternion,::UnityEngine::Quaternion,::System::Action_1<::UnityEngine::Quaternion>*,float_t,::GlobalNamespace::EaseType,float_t,::Tweening::QuaternionTween*>* getStaticF_Pool() ;
 
-  static inline void setStaticF_Pool(::Zenject::StaticMemoryPool_7<::UnityEngine::Quaternion, ::UnityEngine::Quaternion, ::System::Action_1<::UnityEngine::Quaternion>*, float_t,
-                                                                   ::GlobalNamespace::EaseType, float_t, ::Tweening::QuaternionTween*>* value);
+static inline void setStaticF_Pool(::Zenject::StaticMemoryPool_7<::UnityEngine::Quaternion,::UnityEngine::Quaternion,::System::Action_1<::UnityEngine::Quaternion>*,float_t,::GlobalNamespace::EaseType,float_t,::Tweening::QuaternionTween*>*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr QuaternionTween();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr QuaternionTween() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "QuaternionTween", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  QuaternionTween(QuaternionTween&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "QuaternionTween", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  QuaternionTween(QuaternionTween const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "QuaternionTween", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+QuaternionTween(QuaternionTween && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22755 };
+// Ctor Parameters [CppParam { name: "", ty: "QuaternionTween", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+QuaternionTween(QuaternionTween const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22759};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Tweening::QuaternionTween, 0x70>, "Size mismatch!");
 
-} // namespace Tweening
+} // namespace end def Tweening
 NEED_NO_BOX(::Tweening::QuaternionTween);
 DEFINE_IL2CPP_ARG_TYPE(::Tweening::QuaternionTween*, "Tweening", "QuaternionTween");

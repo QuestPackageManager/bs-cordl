@@ -5,153 +5,182 @@
 #include "GlobalNamespace/zzzz__IDType_def.hpp"
 #include "OSCE/Analytics/zzzz__AnalyticsManager_def.hpp"
 //  Writing Method size for method: ::OSCE::Analytics::CallStackAnalyticsEvent.GetIDType
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::IDType (::OSCE::Analytics::CallStackAnalyticsEvent::*)()>(
-    &::OSCE::Analytics::CallStackAnalyticsEvent::GetIDType)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::IDType (::OSCE::Analytics::CallStackAnalyticsEvent::*)()>(&::OSCE::Analytics::CallStackAnalyticsEvent::GetIDType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dfd584;
+  constexpr static std::size_t addrs = 0x5dff0fc;
 
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OSCE::Analytics::CallStackAnalyticsEvent*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OSCE::Analytics::CallStackAnalyticsEvent*>::get(), 7));
+  inline static const ::MethodInfo* methodInfo() {
+    
+                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OSCE::Analytics::CallStackAnalyticsEvent*>::get(),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OSCE::Analytics::CallStackAnalyticsEvent*>::get(),
+                                  7
+                                ));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OSCE::Analytics::CallStackAnalyticsEvent.ApplyBasicFields
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OSCE::Analytics::CallStackAnalyticsEvent::*)(::OSCE::Analytics::AnalyticsManager*)>(
-    &::OSCE::Analytics::CallStackAnalyticsEvent::ApplyBasicFields)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OSCE::Analytics::CallStackAnalyticsEvent::*)(::OSCE::Analytics::AnalyticsManager*)>(&::OSCE::Analytics::CallStackAnalyticsEvent::ApplyBasicFields)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x5dfd58c;
+  constexpr static std::size_t addrs = 0x5dff104;
 
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OSCE::Analytics::CallStackAnalyticsEvent*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OSCE::Analytics::CallStackAnalyticsEvent*>::get(), 13));
+  inline static const ::MethodInfo* methodInfo() {
+    
+                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OSCE::Analytics::CallStackAnalyticsEvent*>::get(),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OSCE::Analytics::CallStackAnalyticsEvent*>::get(),
+                                  13
+                                ));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OSCE::Analytics::CallStackAnalyticsEvent.ReturnEventToPool
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OSCE::Analytics::CallStackAnalyticsEvent::*)()>(
-    &::OSCE::Analytics::CallStackAnalyticsEvent::ReturnEventToPool)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OSCE::Analytics::CallStackAnalyticsEvent::*)()>(&::OSCE::Analytics::CallStackAnalyticsEvent::ReturnEventToPool)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x5dfd62c;
+  constexpr static std::size_t addrs = 0x5dff1a4;
 
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OSCE::Analytics::CallStackAnalyticsEvent*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OSCE::Analytics::CallStackAnalyticsEvent*>::get(), 10));
+  inline static const ::MethodInfo* methodInfo() {
+    
+                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OSCE::Analytics::CallStackAnalyticsEvent*>::get(),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OSCE::Analytics::CallStackAnalyticsEvent*>::get(),
+                                  10
+                                ));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OSCE::Analytics::CallStackAnalyticsEvent.ReturnedToPool
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OSCE::Analytics::CallStackAnalyticsEvent::*)()>(
-    &::OSCE::Analytics::CallStackAnalyticsEvent::ReturnedToPool)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OSCE::Analytics::CallStackAnalyticsEvent::*)()>(&::OSCE::Analytics::CallStackAnalyticsEvent::ReturnedToPool)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x5dfd6a0;
+  constexpr static std::size_t addrs = 0x5dff218;
 
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OSCE::Analytics::CallStackAnalyticsEvent*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OSCE::Analytics::CallStackAnalyticsEvent*>::get(), 9));
+  inline static const ::MethodInfo* methodInfo() {
+    
+                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OSCE::Analytics::CallStackAnalyticsEvent*>::get(),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OSCE::Analytics::CallStackAnalyticsEvent*>::get(),
+                                  9
+                                ));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OSCE::Analytics::CallStackAnalyticsEvent._ctor
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OSCE::Analytics::CallStackAnalyticsEvent::*)()>(&::OSCE::Analytics::CallStackAnalyticsEvent::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5dfd77c;
+  constexpr static std::size_t addrs = 0x5dff2f4;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OSCE::Analytics::CallStackAnalyticsEvent*>::get(), ".ctor",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OSCE::Analytics::CallStackAnalyticsEvent*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
-constexpr ::StringW& OSCE::Analytics::CallStackAnalyticsEvent::__cordl_internal_get_build_id() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___build_id;
+constexpr ::StringW& OSCE::Analytics::CallStackAnalyticsEvent::__cordl_internal_get_build_id()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___build_id;
 }
 constexpr ::StringW const& OSCE::Analytics::CallStackAnalyticsEvent::__cordl_internal_get_build_id() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___build_id;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___build_id;
 }
-constexpr void OSCE::Analytics::CallStackAnalyticsEvent::__cordl_internal_set_build_id(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___build_id)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void OSCE::Analytics::CallStackAnalyticsEvent::__cordl_internal_set_build_id(::StringW  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___build_id)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::StringW& OSCE::Analytics::CallStackAnalyticsEvent::__cordl_internal_get_environment() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___environment;
+constexpr ::StringW& OSCE::Analytics::CallStackAnalyticsEvent::__cordl_internal_get_environment()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___environment;
 }
 constexpr ::StringW const& OSCE::Analytics::CallStackAnalyticsEvent::__cordl_internal_get_environment() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___environment;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___environment;
 }
-constexpr void OSCE::Analytics::CallStackAnalyticsEvent::__cordl_internal_set_environment(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___environment)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void OSCE::Analytics::CallStackAnalyticsEvent::__cordl_internal_set_environment(::StringW  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___environment)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::StringW& OSCE::Analytics::CallStackAnalyticsEvent::__cordl_internal_get_event_message() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___event_message;
+constexpr ::StringW& OSCE::Analytics::CallStackAnalyticsEvent::__cordl_internal_get_event_message()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___event_message;
 }
 constexpr ::StringW const& OSCE::Analytics::CallStackAnalyticsEvent::__cordl_internal_get_event_message() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___event_message;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___event_message;
 }
-constexpr void OSCE::Analytics::CallStackAnalyticsEvent::__cordl_internal_set_event_message(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___event_message)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void OSCE::Analytics::CallStackAnalyticsEvent::__cordl_internal_set_event_message(::StringW  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___event_message)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::StringW& OSCE::Analytics::CallStackAnalyticsEvent::__cordl_internal_get_call_stack() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___call_stack;
+constexpr ::StringW& OSCE::Analytics::CallStackAnalyticsEvent::__cordl_internal_get_call_stack()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___call_stack;
 }
 constexpr ::StringW const& OSCE::Analytics::CallStackAnalyticsEvent::__cordl_internal_get_call_stack() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___call_stack;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___call_stack;
 }
-constexpr void OSCE::Analytics::CallStackAnalyticsEvent::__cordl_internal_set_call_stack(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___call_stack)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void OSCE::Analytics::CallStackAnalyticsEvent::__cordl_internal_set_call_stack(::StringW  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___call_stack)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::GlobalNamespace::IDType OSCE::Analytics::CallStackAnalyticsEvent::GetIDType() {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OSCE::Analytics::CallStackAnalyticsEvent*>::get(), 7)));
-  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::IDType, false>(this, ___internal_method);
+inline ::GlobalNamespace::IDType OSCE::Analytics::CallStackAnalyticsEvent::GetIDType()  {
+auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OSCE::Analytics::CallStackAnalyticsEvent*>::get(),
+                            7
+                        )));
+return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::IDType, false>(this, ___internal_method);
 }
-inline void OSCE::Analytics::CallStackAnalyticsEvent::ApplyBasicFields(::OSCE::Analytics::AnalyticsManager* manager) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OSCE::Analytics::CallStackAnalyticsEvent*>::get(), 13)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, manager);
+inline void OSCE::Analytics::CallStackAnalyticsEvent::ApplyBasicFields(::OSCE::Analytics::AnalyticsManager*  manager)  {
+auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OSCE::Analytics::CallStackAnalyticsEvent*>::get(),
+                            13
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, manager);
 }
-inline void OSCE::Analytics::CallStackAnalyticsEvent::ReturnEventToPool() {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OSCE::Analytics::CallStackAnalyticsEvent*>::get(), 10)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void OSCE::Analytics::CallStackAnalyticsEvent::ReturnEventToPool()  {
+auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OSCE::Analytics::CallStackAnalyticsEvent*>::get(),
+                            10
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void OSCE::Analytics::CallStackAnalyticsEvent::ReturnedToPool() {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OSCE::Analytics::CallStackAnalyticsEvent*>::get(), 9)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void OSCE::Analytics::CallStackAnalyticsEvent::ReturnedToPool()  {
+auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OSCE::Analytics::CallStackAnalyticsEvent*>::get(),
+                            9
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void OSCE::Analytics::CallStackAnalyticsEvent::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OSCE::Analytics::CallStackAnalyticsEvent*>::get(), ".ctor",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void OSCE::Analytics::CallStackAnalyticsEvent::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OSCE::Analytics::CallStackAnalyticsEvent*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::OSCE::Analytics::CallStackAnalyticsEvent* OSCE::Analytics::CallStackAnalyticsEvent::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::OSCE::Analytics::CallStackAnalyticsEvent*>());
+inline ::OSCE::Analytics::CallStackAnalyticsEvent* OSCE::Analytics::CallStackAnalyticsEvent::New_ctor()  {
+return THROW_UNLESS(::il2cpp_utils::NewSpecific<::OSCE::Analytics::CallStackAnalyticsEvent*>());
 }
 // Ctor Parameters []
-constexpr ::OSCE::Analytics::CallStackAnalyticsEvent::CallStackAnalyticsEvent() {}
+constexpr ::OSCE::Analytics::CallStackAnalyticsEvent::CallStackAnalyticsEvent()   {
+}

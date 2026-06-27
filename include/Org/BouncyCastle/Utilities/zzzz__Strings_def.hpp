@@ -19,67 +19,67 @@ namespace Org::BouncyCastle::Utilities {
 // CS Name: Org.BouncyCastle.Utilities.Strings
 class CORDL_TYPE Strings : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method FromAsciiByteArray, addr 0x357f6cc, size 0x3c, virtual false, abstract: false, final false
-  static inline ::StringW FromAsciiByteArray(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
+// Declarations
+/// @brief Method FromAsciiByteArray, addr 0x3580468, size 0x3c, virtual false, abstract: false, final false
+static inline ::StringW FromAsciiByteArray(::ArrayW<uint8_t,::Array<uint8_t>*>  bytes) ;
 
-  /// @brief Method FromByteArray, addr 0x357f3fc, size 0xe8, virtual false, abstract: false, final false
-  static inline ::StringW FromByteArray(::ArrayW<uint8_t, ::Array<uint8_t>*> bs);
+/// @brief Method FromByteArray, addr 0x3580198, size 0xe8, virtual false, abstract: false, final false
+static inline ::StringW FromByteArray(::ArrayW<uint8_t,::Array<uint8_t>*>  bs) ;
 
-  /// @brief Method FromUtf8ByteArray, addr 0x357f768, size 0x3c, virtual false, abstract: false, final false
-  static inline ::StringW FromUtf8ByteArray(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
+/// @brief Method FromUtf8ByteArray, addr 0x3580504, size 0x3c, virtual false, abstract: false, final false
+static inline ::StringW FromUtf8ByteArray(::ArrayW<uint8_t,::Array<uint8_t>*>  bytes) ;
 
-  /// @brief Method IsOneOf, addr 0x357f380, size 0x7c, virtual false, abstract: false, final false
-  static inline bool IsOneOf(::StringW s, ::ArrayW<::StringW, ::Array<::StringW>*> candidates);
+/// @brief Method IsOneOf, addr 0x358011c, size 0x7c, virtual false, abstract: false, final false
+static inline bool IsOneOf(::StringW  s, ::ArrayW<::StringW,::Array<::StringW>*>  candidates) ;
 
-  static inline ::Org::BouncyCastle::Utilities::Strings* New_ctor();
+static inline ::Org::BouncyCastle::Utilities::Strings* New_ctor() ;
 
-  /// @brief Method ToAsciiByteArray, addr 0x357f708, size 0x30, virtual false, abstract: false, final false
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ToAsciiByteArray(::ArrayW<char16_t, ::Array<char16_t>*> cs);
+/// @brief Method ToAsciiByteArray, addr 0x35804a4, size 0x30, virtual false, abstract: false, final false
+static inline ::ArrayW<uint8_t,::Array<uint8_t>*> ToAsciiByteArray(::ArrayW<char16_t,::Array<char16_t>*>  cs) ;
 
-  /// @brief Method ToAsciiByteArray, addr 0x357f738, size 0x30, virtual false, abstract: false, final false
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ToAsciiByteArray(::StringW s);
+/// @brief Method ToAsciiByteArray, addr 0x35804d4, size 0x30, virtual false, abstract: false, final false
+static inline ::ArrayW<uint8_t,::Array<uint8_t>*> ToAsciiByteArray(::StringW  s) ;
 
-  /// @brief Method ToByteArray, addr 0x357f4e4, size 0xf0, virtual false, abstract: false, final false
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ToByteArray(::ArrayW<char16_t, ::Array<char16_t>*> cs);
+/// @brief Method ToByteArray, addr 0x3580280, size 0xf0, virtual false, abstract: false, final false
+static inline ::ArrayW<uint8_t,::Array<uint8_t>*> ToByteArray(::ArrayW<char16_t,::Array<char16_t>*>  cs) ;
 
-  /// @brief Method ToByteArray, addr 0x357f5d4, size 0xf8, virtual false, abstract: false, final false
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ToByteArray(::StringW s);
+/// @brief Method ToByteArray, addr 0x3580370, size 0xf8, virtual false, abstract: false, final false
+static inline ::ArrayW<uint8_t,::Array<uint8_t>*> ToByteArray(::StringW  s) ;
 
-  /// @brief Method ToUpperCase, addr 0x357f2ec, size 0x94, virtual false, abstract: false, final false
-  static inline ::StringW ToUpperCase(::StringW original);
+/// @brief Method ToUpperCase, addr 0x3580088, size 0x94, virtual false, abstract: false, final false
+static inline ::StringW ToUpperCase(::StringW  original) ;
 
-  /// @brief Method ToUtf8ByteArray, addr 0x357f7a4, size 0x30, virtual false, abstract: false, final false
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ToUtf8ByteArray(::ArrayW<char16_t, ::Array<char16_t>*> cs);
+/// @brief Method ToUtf8ByteArray, addr 0x3580540, size 0x30, virtual false, abstract: false, final false
+static inline ::ArrayW<uint8_t,::Array<uint8_t>*> ToUtf8ByteArray(::ArrayW<char16_t,::Array<char16_t>*>  cs) ;
 
-  /// @brief Method ToUtf8ByteArray, addr 0x357f7d4, size 0x30, virtual false, abstract: false, final false
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ToUtf8ByteArray(::StringW s);
+/// @brief Method ToUtf8ByteArray, addr 0x3580570, size 0x30, virtual false, abstract: false, final false
+static inline ::ArrayW<uint8_t,::Array<uint8_t>*> ToUtf8ByteArray(::StringW  s) ;
 
-  /// @brief Method .ctor, addr 0x357f804, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x35805a0, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Strings();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr Strings() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Strings", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  Strings(Strings&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Strings", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  Strings(Strings const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "Strings", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Strings(Strings && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1837 };
+// Ctor Parameters [CppParam { name: "", ty: "Strings", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Strings(Strings const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{1837};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Utilities::Strings, 0x10>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Utilities
+} // namespace end def Org::BouncyCastle::Utilities
 NEED_NO_BOX(::Org::BouncyCastle::Utilities::Strings);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Utilities::Strings*, "Org.BouncyCastle.Utilities", "Strings");

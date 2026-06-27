@@ -41,135 +41,132 @@ namespace Org::BouncyCastle::Asn1::X9 {
 // CS Name: Org.BouncyCastle.Asn1.X9.DHDomainParameters
 class CORDL_TYPE DHDomainParameters : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
-  // Declarations
-  __declspec(property(get = get_G)) ::Org::BouncyCastle::Asn1::DerInteger* G;
+// Declarations
+ __declspec(property(get=get_G)) ::Org::BouncyCastle::Asn1::DerInteger*  G;
 
-  __declspec(property(get = get_J)) ::Org::BouncyCastle::Asn1::DerInteger* J;
+ __declspec(property(get=get_J)) ::Org::BouncyCastle::Asn1::DerInteger*  J;
 
-  __declspec(property(get = get_P)) ::Org::BouncyCastle::Asn1::DerInteger* P;
+ __declspec(property(get=get_P)) ::Org::BouncyCastle::Asn1::DerInteger*  P;
 
-  __declspec(property(get = get_Q)) ::Org::BouncyCastle::Asn1::DerInteger* Q;
+ __declspec(property(get=get_Q)) ::Org::BouncyCastle::Asn1::DerInteger*  Q;
 
-  __declspec(property(get = get_ValidationParms)) ::Org::BouncyCastle::Asn1::X9::DHValidationParms* ValidationParms;
+ __declspec(property(get=get_ValidationParms)) ::Org::BouncyCastle::Asn1::X9::DHValidationParms*  ValidationParms;
 
-  /// @brief Field g, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_g, put = __cordl_internal_set_g)) ::Org::BouncyCastle::Asn1::DerInteger* g;
+/// @brief Field g, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_g, put=__cordl_internal_set_g)) ::Org::BouncyCastle::Asn1::DerInteger*  g;
 
-  /// @brief Field j, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_j, put = __cordl_internal_set_j)) ::Org::BouncyCastle::Asn1::DerInteger* j;
+/// @brief Field j, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get_j, put=__cordl_internal_set_j)) ::Org::BouncyCastle::Asn1::DerInteger*  j;
 
-  /// @brief Field p, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_p, put = __cordl_internal_set_p)) ::Org::BouncyCastle::Asn1::DerInteger* p;
+/// @brief Field p, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_p, put=__cordl_internal_set_p)) ::Org::BouncyCastle::Asn1::DerInteger*  p;
 
-  /// @brief Field q, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_q, put = __cordl_internal_set_q)) ::Org::BouncyCastle::Asn1::DerInteger* q;
+/// @brief Field q, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_q, put=__cordl_internal_set_q)) ::Org::BouncyCastle::Asn1::DerInteger*  q;
 
-  /// @brief Field validationParms, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_validationParms, put = __cordl_internal_set_validationParms)) ::Org::BouncyCastle::Asn1::X9::DHValidationParms* validationParms;
+/// @brief Field validationParms, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get_validationParms, put=__cordl_internal_set_validationParms)) ::Org::BouncyCastle::Asn1::X9::DHValidationParms*  validationParms;
 
-  /// @brief Method GetInstance, addr 0x35b6ff4, size 0x14, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::X9::DHDomainParameters* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);
+/// @brief Method GetInstance, addr 0x35b7d90, size 0x14, virtual false, abstract: false, final false
+static inline ::Org::BouncyCastle::Asn1::X9::DHDomainParameters* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject*  obj, bool  isExplicit) ;
 
-  /// @brief Method GetInstance, addr 0x35b7008, size 0x184, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::X9::DHDomainParameters* GetInstance(::System::Object* obj);
+/// @brief Method GetInstance, addr 0x35b7da4, size 0x184, virtual false, abstract: false, final false
+static inline ::Org::BouncyCastle::Asn1::X9::DHDomainParameters* GetInstance(::System::Object*  obj) ;
 
-  /// @brief Method GetNext, addr 0x35b7410, size 0x158, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::Asn1Encodable* GetNext(::System::Collections::IEnumerator* e);
+/// @brief Method GetNext, addr 0x35b81ac, size 0x158, virtual false, abstract: false, final false
+static inline ::Org::BouncyCastle::Asn1::Asn1Encodable* GetNext(::System::Collections::IEnumerator*  e) ;
 
-  static inline ::Org::BouncyCastle::Asn1::X9::DHDomainParameters* New_ctor(::Org::BouncyCastle::Asn1::DerInteger* p, ::Org::BouncyCastle::Asn1::DerInteger* g,
-                                                                            ::Org::BouncyCastle::Asn1::DerInteger* q, ::Org::BouncyCastle::Asn1::DerInteger* j,
-                                                                            ::Org::BouncyCastle::Asn1::X9::DHValidationParms* validationParms);
+static inline ::Org::BouncyCastle::Asn1::X9::DHDomainParameters* New_ctor(::Org::BouncyCastle::Asn1::DerInteger*  p, ::Org::BouncyCastle::Asn1::DerInteger*  g, ::Org::BouncyCastle::Asn1::DerInteger*  q, ::Org::BouncyCastle::Asn1::DerInteger*  j, ::Org::BouncyCastle::Asn1::X9::DHValidationParms*  validationParms) ;
 
-  static inline ::Org::BouncyCastle::Asn1::X9::DHDomainParameters* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
+static inline ::Org::BouncyCastle::Asn1::X9::DHDomainParameters* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence*  seq) ;
 
-  /// @brief Method ToAsn1Object, addr 0x35b7714, size 0x1d8, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
+/// @brief Method ToAsn1Object, addr 0x35b84b0, size 0x1d8, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object() ;
 
-  constexpr ::Org::BouncyCastle::Asn1::DerInteger* const& __cordl_internal_get_g() const;
+constexpr ::Org::BouncyCastle::Asn1::DerInteger* const& __cordl_internal_get_g() const;
 
-  constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_g();
+constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_g() ;
 
-  constexpr ::Org::BouncyCastle::Asn1::DerInteger* const& __cordl_internal_get_j() const;
+constexpr ::Org::BouncyCastle::Asn1::DerInteger* const& __cordl_internal_get_j() const;
 
-  constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_j();
+constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_j() ;
 
-  constexpr ::Org::BouncyCastle::Asn1::DerInteger* const& __cordl_internal_get_p() const;
+constexpr ::Org::BouncyCastle::Asn1::DerInteger* const& __cordl_internal_get_p() const;
 
-  constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_p();
+constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_p() ;
 
-  constexpr ::Org::BouncyCastle::Asn1::DerInteger* const& __cordl_internal_get_q() const;
+constexpr ::Org::BouncyCastle::Asn1::DerInteger* const& __cordl_internal_get_q() const;
 
-  constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_q();
+constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_q() ;
 
-  constexpr ::Org::BouncyCastle::Asn1::X9::DHValidationParms* const& __cordl_internal_get_validationParms() const;
+constexpr ::Org::BouncyCastle::Asn1::X9::DHValidationParms* const& __cordl_internal_get_validationParms() const;
 
-  constexpr ::Org::BouncyCastle::Asn1::X9::DHValidationParms*& __cordl_internal_get_validationParms();
+constexpr ::Org::BouncyCastle::Asn1::X9::DHValidationParms*& __cordl_internal_get_validationParms() ;
 
-  constexpr void __cordl_internal_set_g(::Org::BouncyCastle::Asn1::DerInteger* value);
+constexpr void __cordl_internal_set_g(::Org::BouncyCastle::Asn1::DerInteger*  value) ;
 
-  constexpr void __cordl_internal_set_j(::Org::BouncyCastle::Asn1::DerInteger* value);
+constexpr void __cordl_internal_set_j(::Org::BouncyCastle::Asn1::DerInteger*  value) ;
 
-  constexpr void __cordl_internal_set_p(::Org::BouncyCastle::Asn1::DerInteger* value);
+constexpr void __cordl_internal_set_p(::Org::BouncyCastle::Asn1::DerInteger*  value) ;
 
-  constexpr void __cordl_internal_set_q(::Org::BouncyCastle::Asn1::DerInteger* value);
+constexpr void __cordl_internal_set_q(::Org::BouncyCastle::Asn1::DerInteger*  value) ;
 
-  constexpr void __cordl_internal_set_validationParms(::Org::BouncyCastle::Asn1::X9::DHValidationParms* value);
+constexpr void __cordl_internal_set_validationParms(::Org::BouncyCastle::Asn1::X9::DHValidationParms*  value) ;
 
-  /// @brief Method .ctor, addr 0x35b7364, size 0xac, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Asn1::DerInteger* p, ::Org::BouncyCastle::Asn1::DerInteger* g, ::Org::BouncyCastle::Asn1::DerInteger* q, ::Org::BouncyCastle::Asn1::DerInteger* j,
-                    ::Org::BouncyCastle::Asn1::X9::DHValidationParms* validationParms);
+/// @brief Method .ctor, addr 0x35b8100, size 0xac, virtual false, abstract: false, final false
+inline void _ctor(::Org::BouncyCastle::Asn1::DerInteger*  p, ::Org::BouncyCastle::Asn1::DerInteger*  g, ::Org::BouncyCastle::Asn1::DerInteger*  q, ::Org::BouncyCastle::Asn1::DerInteger*  j, ::Org::BouncyCastle::Asn1::X9::DHValidationParms*  validationParms) ;
 
-  /// @brief Method .ctor, addr 0x35b718c, size 0x1d8, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
+/// @brief Method .ctor, addr 0x35b7f28, size 0x1d8, virtual false, abstract: false, final false
+inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence*  seq) ;
 
-  /// @brief Method get_G, addr 0x35b76f4, size 0x8, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::DerInteger* get_G();
+/// @brief Method get_G, addr 0x35b8490, size 0x8, virtual false, abstract: false, final false
+inline ::Org::BouncyCastle::Asn1::DerInteger* get_G() ;
 
-  /// @brief Method get_J, addr 0x35b7704, size 0x8, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::DerInteger* get_J();
+/// @brief Method get_J, addr 0x35b84a0, size 0x8, virtual false, abstract: false, final false
+inline ::Org::BouncyCastle::Asn1::DerInteger* get_J() ;
 
-  /// @brief Method get_P, addr 0x35b76ec, size 0x8, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::DerInteger* get_P();
+/// @brief Method get_P, addr 0x35b8488, size 0x8, virtual false, abstract: false, final false
+inline ::Org::BouncyCastle::Asn1::DerInteger* get_P() ;
 
-  /// @brief Method get_Q, addr 0x35b76fc, size 0x8, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::DerInteger* get_Q();
+/// @brief Method get_Q, addr 0x35b8498, size 0x8, virtual false, abstract: false, final false
+inline ::Org::BouncyCastle::Asn1::DerInteger* get_Q() ;
 
-  /// @brief Method get_ValidationParms, addr 0x35b770c, size 0x8, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::X9::DHValidationParms* get_ValidationParms();
+/// @brief Method get_ValidationParms, addr 0x35b84a8, size 0x8, virtual false, abstract: false, final false
+inline ::Org::BouncyCastle::Asn1::X9::DHValidationParms* get_ValidationParms() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DHDomainParameters();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr DHDomainParameters() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DHDomainParameters", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  DHDomainParameters(DHDomainParameters&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DHDomainParameters", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  DHDomainParameters(DHDomainParameters const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "DHDomainParameters", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+DHDomainParameters(DHDomainParameters && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 411 };
+// Ctor Parameters [CppParam { name: "", ty: "DHDomainParameters", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+DHDomainParameters(DHDomainParameters const& ) = delete;
 
-  /// @brief Field p, offset: 0x10, size: 0x8, def value: None
-  ::Org::BouncyCastle::Asn1::DerInteger* ___p;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{411};
 
-  /// @brief Field g, offset: 0x18, size: 0x8, def value: None
-  ::Org::BouncyCastle::Asn1::DerInteger* ___g;
+/// @brief Field p, offset: 0x10, size: 0x8, def value: None
+ ::Org::BouncyCastle::Asn1::DerInteger*  ___p;
 
-  /// @brief Field q, offset: 0x20, size: 0x8, def value: None
-  ::Org::BouncyCastle::Asn1::DerInteger* ___q;
+/// @brief Field g, offset: 0x18, size: 0x8, def value: None
+ ::Org::BouncyCastle::Asn1::DerInteger*  ___g;
 
-  /// @brief Field j, offset: 0x28, size: 0x8, def value: None
-  ::Org::BouncyCastle::Asn1::DerInteger* ___j;
+/// @brief Field q, offset: 0x20, size: 0x8, def value: None
+ ::Org::BouncyCastle::Asn1::DerInteger*  ___q;
 
-  /// @brief Field validationParms, offset: 0x30, size: 0x8, def value: None
-  ::Org::BouncyCastle::Asn1::X9::DHValidationParms* ___validationParms;
+/// @brief Field j, offset: 0x28, size: 0x8, def value: None
+ ::Org::BouncyCastle::Asn1::DerInteger*  ___j;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field validationParms, offset: 0x30, size: 0x8, def value: None
+ ::Org::BouncyCastle::Asn1::X9::DHValidationParms*  ___validationParms;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Org::BouncyCastle::Asn1::X9::DHDomainParameters, ___p) == 0x10, "Offset mismatch!");
@@ -184,6 +181,6 @@ static_assert(offsetof(::Org::BouncyCastle::Asn1::X9::DHDomainParameters, ___val
 
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::X9::DHDomainParameters, 0x38>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Asn1::X9
+} // namespace end def Org::BouncyCastle::Asn1::X9
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::X9::DHDomainParameters);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::X9::DHDomainParameters*, "Org.BouncyCastle.Asn1.X9", "DHDomainParameters");

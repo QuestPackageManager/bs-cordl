@@ -29,66 +29,66 @@ namespace UnityEngine {
 // CS Name: UnityEngine.AvatarMask
 class CORDL_TYPE AvatarMask : public ::UnityEngine::Object {
 public:
-  // Declarations
-  __declspec(property(get = get_transformCount)) int32_t transformCount;
+// Declarations
+ __declspec(property(get=get_transformCount)) int32_t  transformCount;
 
-  /// @brief Method GetHumanoidBodyPartActive, addr 0x68e89a8, size 0x90, virtual false, abstract: false, final false
-  inline bool GetHumanoidBodyPartActive(::UnityEngine::AvatarMaskBodyPart index);
+/// @brief Method GetHumanoidBodyPartActive, addr 0x68ea520, size 0x90, virtual false, abstract: false, final false
+inline bool GetHumanoidBodyPartActive(::UnityEngine::AvatarMaskBodyPart  index) ;
 
-  /// @brief Method GetHumanoidBodyPartActive_Injected, addr 0x68e8a38, size 0x44, virtual false, abstract: false, final false
-  static inline bool GetHumanoidBodyPartActive_Injected(::System::IntPtr _unity_self, ::UnityEngine::AvatarMaskBodyPart index);
+/// @brief Method GetHumanoidBodyPartActive_Injected, addr 0x68ea5b0, size 0x44, virtual false, abstract: false, final false
+static inline bool GetHumanoidBodyPartActive_Injected(::System::IntPtr  _unity_self, ::UnityEngine::AvatarMaskBodyPart  index) ;
 
-  /// @brief Method GetTransformActive, addr 0x68e8da0, size 0x1c, virtual false, abstract: false, final false
-  inline bool GetTransformActive(int32_t index);
+/// @brief Method GetTransformActive, addr 0x68ea918, size 0x1c, virtual false, abstract: false, final false
+inline bool GetTransformActive(int32_t  index) ;
 
-  /// @brief Method GetTransformPath, addr 0x68e8b38, size 0x140, virtual false, abstract: false, final false
-  inline ::StringW GetTransformPath(int32_t index);
+/// @brief Method GetTransformPath, addr 0x68ea6b0, size 0x140, virtual false, abstract: false, final false
+inline ::StringW GetTransformPath(int32_t  index) ;
 
-  /// @brief Method GetTransformPath_Injected, addr 0x68e8c78, size 0x54, virtual false, abstract: false, final false
-  static inline void GetTransformPath_Injected(::System::IntPtr _unity_self, int32_t index, ::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> ret);
+/// @brief Method GetTransformPath_Injected, addr 0x68ea7f0, size 0x54, virtual false, abstract: false, final false
+static inline void GetTransformPath_Injected(::System::IntPtr  _unity_self, int32_t  index, ::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>  ret) ;
 
-  /// @brief Method GetTransformWeight, addr 0x68e8ccc, size 0x90, virtual false, abstract: false, final false
-  inline float_t GetTransformWeight(int32_t index);
+/// @brief Method GetTransformWeight, addr 0x68ea844, size 0x90, virtual false, abstract: false, final false
+inline float_t GetTransformWeight(int32_t  index) ;
 
-  /// @brief Method GetTransformWeight_Injected, addr 0x68e8d5c, size 0x44, virtual false, abstract: false, final false
-  static inline float_t GetTransformWeight_Injected(::System::IntPtr _unity_self, int32_t index);
+/// @brief Method GetTransformWeight_Injected, addr 0x68ea8d4, size 0x44, virtual false, abstract: false, final false
+static inline float_t GetTransformWeight_Injected(::System::IntPtr  _unity_self, int32_t  index) ;
 
-  /// @brief Method Internal_Create, addr 0x68e896c, size 0x3c, virtual false, abstract: false, final false
-  static inline void Internal_Create(::UnityEngine::AvatarMask* self);
+/// @brief Method Internal_Create, addr 0x68ea4e4, size 0x3c, virtual false, abstract: false, final false
+static inline void Internal_Create(::UnityEngine::AvatarMask*  self) ;
 
-  static inline ::UnityEngine::AvatarMask* New_ctor();
+static inline ::UnityEngine::AvatarMask* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x68e88f4, size 0x78, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x68ea46c, size 0x78, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_transformCount, addr 0x68e8a7c, size 0x80, virtual false, abstract: false, final false
-  inline int32_t get_transformCount();
+/// @brief Method get_transformCount, addr 0x68ea5f4, size 0x80, virtual false, abstract: false, final false
+inline int32_t get_transformCount() ;
 
-  /// @brief Method get_transformCount_Injected, addr 0x68e8afc, size 0x3c, virtual false, abstract: false, final false
-  static inline int32_t get_transformCount_Injected(::System::IntPtr _unity_self);
+/// @brief Method get_transformCount_Injected, addr 0x68ea674, size 0x3c, virtual false, abstract: false, final false
+static inline int32_t get_transformCount_Injected(::System::IntPtr  _unity_self) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AvatarMask();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr AvatarMask() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AvatarMask", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  AvatarMask(AvatarMask&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AvatarMask", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  AvatarMask(AvatarMask const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "AvatarMask", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+AvatarMask(AvatarMask && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20021 };
+// Ctor Parameters [CppParam { name: "", ty: "AvatarMask", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+AvatarMask(AvatarMask const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20024};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::AvatarMask, 0x18>, "Size mismatch!");
 
-} // namespace UnityEngine
+} // namespace end def UnityEngine
 NEED_NO_BOX(::UnityEngine::AvatarMask);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AvatarMask*, "UnityEngine", "AvatarMask");

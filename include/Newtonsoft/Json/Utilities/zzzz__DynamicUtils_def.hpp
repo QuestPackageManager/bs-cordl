@@ -11,10 +11,12 @@ namespace Newtonsoft::Json::Utilities {
 class DynamicUtils_BinderWrapper;
 }
 namespace Newtonsoft::Json::Utilities {
-template <typename T, typename TResult> class MethodCall_2;
+template<typename T,typename TResult>
+class MethodCall_2;
 }
 namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+template<typename T>
+class IEnumerable_1;
 }
 namespace System::Dynamic {
 class IDynamicMetaObjectProvider;
@@ -44,134 +46,130 @@ namespace Newtonsoft::Json::Utilities {
 // CS Name: Newtonsoft.Json.Utilities.DynamicUtils/BinderWrapper
 class CORDL_TYPE DynamicUtils_BinderWrapper : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field _getCSharpArgumentInfoArray, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF__getCSharpArgumentInfoArray, put = setStaticF__getCSharpArgumentInfoArray)) ::System::Object* _getCSharpArgumentInfoArray;
+// Declarations
+/// @brief Field _getCSharpArgumentInfoArray, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF__getCSharpArgumentInfoArray, put=setStaticF__getCSharpArgumentInfoArray)) ::System::Object*  _getCSharpArgumentInfoArray;
 
-  /// @brief Field _getMemberCall, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF__getMemberCall, put = setStaticF__getMemberCall)) ::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* _getMemberCall;
+/// @brief Field _getMemberCall, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF__getMemberCall, put=setStaticF__getMemberCall)) ::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*,::System::Object*>*  _getMemberCall;
 
-  /// @brief Field _init, offset 0xffffffff, size 0x1
-  __declspec(property(get = getStaticF__init, put = setStaticF__init)) bool _init;
+/// @brief Field _init, offset 0xffffffff, size 0x1 
+ __declspec(property(get=getStaticF__init, put=setStaticF__init)) bool  _init;
 
-  /// @brief Field _setCSharpArgumentInfoArray, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF__setCSharpArgumentInfoArray, put = setStaticF__setCSharpArgumentInfoArray)) ::System::Object* _setCSharpArgumentInfoArray;
+/// @brief Field _setCSharpArgumentInfoArray, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF__setCSharpArgumentInfoArray, put=setStaticF__setCSharpArgumentInfoArray)) ::System::Object*  _setCSharpArgumentInfoArray;
 
-  /// @brief Field _setMemberCall, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF__setMemberCall, put = setStaticF__setMemberCall)) ::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* _setMemberCall;
+/// @brief Field _setMemberCall, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF__setMemberCall, put=setStaticF__setMemberCall)) ::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*,::System::Object*>*  _setMemberCall;
 
-  /// @brief Method CreateMemberCalls, addr 0x5be96a0, size 0x4f4, virtual false, abstract: false, final false
-  static inline void CreateMemberCalls();
+/// @brief Method CreateMemberCalls, addr 0x5beb218, size 0x4f4, virtual false, abstract: false, final false
+static inline void CreateMemberCalls() ;
 
-  /// @brief Method CreateSharpArgumentInfoArray, addr 0x5be93c0, size 0x2e0, virtual false, abstract: false, final false
-  static inline ::System::Object* CreateSharpArgumentInfoArray(::ArrayW<int32_t, ::Array<int32_t>*> values);
+/// @brief Method CreateSharpArgumentInfoArray, addr 0x5beaf38, size 0x2e0, virtual false, abstract: false, final false
+static inline ::System::Object* CreateSharpArgumentInfoArray(::ArrayW<int32_t,::Array<int32_t>*>  values) ;
 
-  /// @brief Method GetMember, addr 0x5be9b94, size 0x1d0, virtual false, abstract: false, final false
-  static inline ::System::Runtime::CompilerServices::CallSiteBinder* GetMember(::StringW name, ::System::Type* context);
+/// @brief Method GetMember, addr 0x5beb70c, size 0x1d0, virtual false, abstract: false, final false
+static inline ::System::Runtime::CompilerServices::CallSiteBinder* GetMember(::StringW  name, ::System::Type*  context) ;
 
-  /// @brief Method Init, addr 0x5be91f0, size 0x1d0, virtual false, abstract: false, final false
-  static inline void Init();
+/// @brief Method Init, addr 0x5bead68, size 0x1d0, virtual false, abstract: false, final false
+static inline void Init() ;
 
-  /// @brief Method SetMember, addr 0x5be9d64, size 0x1d0, virtual false, abstract: false, final false
-  static inline ::System::Runtime::CompilerServices::CallSiteBinder* SetMember(::StringW name, ::System::Type* context);
+/// @brief Method SetMember, addr 0x5beb8dc, size 0x1d0, virtual false, abstract: false, final false
+static inline ::System::Runtime::CompilerServices::CallSiteBinder* SetMember(::StringW  name, ::System::Type*  context) ;
 
-  static inline ::System::Object* getStaticF__getCSharpArgumentInfoArray();
+static inline ::System::Object* getStaticF__getCSharpArgumentInfoArray() ;
 
-  static inline ::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* getStaticF__getMemberCall();
+static inline ::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*,::System::Object*>* getStaticF__getMemberCall() ;
 
-  static inline bool getStaticF__init();
+static inline bool getStaticF__init() ;
 
-  static inline ::System::Object* getStaticF__setCSharpArgumentInfoArray();
+static inline ::System::Object* getStaticF__setCSharpArgumentInfoArray() ;
 
-  static inline ::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* getStaticF__setMemberCall();
+static inline ::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*,::System::Object*>* getStaticF__setMemberCall() ;
 
-  static inline void setStaticF__getCSharpArgumentInfoArray(::System::Object* value);
+static inline void setStaticF__getCSharpArgumentInfoArray(::System::Object*  value) ;
 
-  static inline void setStaticF__getMemberCall(::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* value);
+static inline void setStaticF__getMemberCall(::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*,::System::Object*>*  value) ;
 
-  static inline void setStaticF__init(bool value);
+static inline void setStaticF__init(bool  value) ;
 
-  static inline void setStaticF__setCSharpArgumentInfoArray(::System::Object* value);
+static inline void setStaticF__setCSharpArgumentInfoArray(::System::Object*  value) ;
 
-  static inline void setStaticF__setMemberCall(::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* value);
+static inline void setStaticF__setMemberCall(::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*,::System::Object*>*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DynamicUtils_BinderWrapper();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr DynamicUtils_BinderWrapper() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DynamicUtils_BinderWrapper", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  DynamicUtils_BinderWrapper(DynamicUtils_BinderWrapper&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DynamicUtils_BinderWrapper", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  DynamicUtils_BinderWrapper(DynamicUtils_BinderWrapper const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "DynamicUtils_BinderWrapper", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+DynamicUtils_BinderWrapper(DynamicUtils_BinderWrapper && ) = delete;
 
-  /// @brief Field BinderTypeName offset 0xffffffff size 0x8
-  static constexpr ::ConstString BinderTypeName{ u"Microsoft.CSharp.RuntimeBinder.Binder, Microsoft.CSharp, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" };
+// Ctor Parameters [CppParam { name: "", ty: "DynamicUtils_BinderWrapper", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+DynamicUtils_BinderWrapper(DynamicUtils_BinderWrapper const& ) = delete;
 
-  /// @brief Field CSharpArgumentInfoFlagsTypeName offset 0xffffffff size 0x8
-  static constexpr ::ConstString CSharpArgumentInfoFlagsTypeName{
-    u"Microsoft.CSharp.RuntimeBinder.CSharpArgumentInfoFlags, Microsoft.CSharp, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"
-  };
+/// @brief Field BinderTypeName offset 0xffffffff size 0x8
+static constexpr ::ConstString  BinderTypeName{u"Microsoft.CSharp.RuntimeBinder.Binder, Microsoft.CSharp, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"};
 
-  /// @brief Field CSharpArgumentInfoTypeName offset 0xffffffff size 0x8
-  static constexpr ::ConstString CSharpArgumentInfoTypeName{
-    u"Microsoft.CSharp.RuntimeBinder.CSharpArgumentInfo, Microsoft.CSharp, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"
-  };
+/// @brief Field CSharpArgumentInfoFlagsTypeName offset 0xffffffff size 0x8
+static constexpr ::ConstString  CSharpArgumentInfoFlagsTypeName{u"Microsoft.CSharp.RuntimeBinder.CSharpArgumentInfoFlags, Microsoft.CSharp, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"};
 
-  /// @brief Field CSharpAssemblyName offset 0xffffffff size 0x8
-  static constexpr ::ConstString CSharpAssemblyName{ u"Microsoft.CSharp, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" };
+/// @brief Field CSharpArgumentInfoTypeName offset 0xffffffff size 0x8
+static constexpr ::ConstString  CSharpArgumentInfoTypeName{u"Microsoft.CSharp.RuntimeBinder.CSharpArgumentInfo, Microsoft.CSharp, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"};
 
-  /// @brief Field CSharpBinderFlagsTypeName offset 0xffffffff size 0x8
-  static constexpr ::ConstString CSharpBinderFlagsTypeName{ u"Microsoft.CSharp.RuntimeBinder.CSharpBinderFlags, Microsoft.CSharp, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" };
+/// @brief Field CSharpAssemblyName offset 0xffffffff size 0x8
+static constexpr ::ConstString  CSharpAssemblyName{u"Microsoft.CSharp, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"};
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13394 };
+/// @brief Field CSharpBinderFlagsTypeName offset 0xffffffff size 0x8
+static constexpr ::ConstString  CSharpBinderFlagsTypeName{u"Microsoft.CSharp.RuntimeBinder.CSharpBinderFlags, Microsoft.CSharp, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{13395};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper, 0x10>, "Size mismatch!");
 
-} // namespace Newtonsoft::Json::Utilities
+} // namespace end def Newtonsoft::Json::Utilities
 // Dependencies System.Object
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
 // CS Name: Newtonsoft.Json.Utilities.DynamicUtils
 class CORDL_TYPE DynamicUtils : public ::System::Object {
 public:
-  // Declarations
-  using BinderWrapper = ::Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper;
+// Declarations
+using BinderWrapper = ::Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper;
 
-  /// @brief Method GetDynamicMemberNames, addr 0x5be9100, size 0xf0, virtual false, abstract: false, final false
-  static inline ::System::Collections::Generic::IEnumerable_1<::StringW>* GetDynamicMemberNames(::System::Dynamic::IDynamicMetaObjectProvider* dynamicProvider);
+/// @brief Method GetDynamicMemberNames, addr 0x5beac78, size 0xf0, virtual false, abstract: false, final false
+static inline ::System::Collections::Generic::IEnumerable_1<::StringW>* GetDynamicMemberNames(::System::Dynamic::IDynamicMetaObjectProvider*  dynamicProvider) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DynamicUtils();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr DynamicUtils() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DynamicUtils", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  DynamicUtils(DynamicUtils&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DynamicUtils", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  DynamicUtils(DynamicUtils const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "DynamicUtils", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+DynamicUtils(DynamicUtils && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13395 };
+// Ctor Parameters [CppParam { name: "", ty: "DynamicUtils", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+DynamicUtils(DynamicUtils const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{13396};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Utilities::DynamicUtils, 0x10>, "Size mismatch!");
 
-} // namespace Newtonsoft::Json::Utilities
+} // namespace end def Newtonsoft::Json::Utilities
 NEED_NO_BOX(::Newtonsoft::Json::Utilities::DynamicUtils);
 DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Utilities::DynamicUtils*, "Newtonsoft.Json.Utilities", "DynamicUtils");
 NEED_NO_BOX(::Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper);

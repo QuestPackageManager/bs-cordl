@@ -17,34 +17,34 @@ namespace System::Linq::Expressions::Interpreter {
 // CS Name: System.Linq.Expressions.Interpreter.RethrowException
 class CORDL_TYPE RethrowException : public ::System::Exception {
 public:
-  // Declarations
-  static inline ::System::Linq::Expressions::Interpreter::RethrowException* New_ctor();
+// Declarations
+static inline ::System::Linq::Expressions::Interpreter::RethrowException* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x5e5edc4, size 0x58, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5e6093c, size 0x58, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RethrowException();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr RethrowException() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RethrowException", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  RethrowException(RethrowException&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RethrowException", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  RethrowException(RethrowException const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "RethrowException", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+RethrowException(RethrowException && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16417 };
+// Ctor Parameters [CppParam { name: "", ty: "RethrowException", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+RethrowException(RethrowException const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{16419};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Interpreter::RethrowException, 0x90>, "Size mismatch!");
 
-} // namespace System::Linq::Expressions::Interpreter
+} // namespace end def System::Linq::Expressions::Interpreter
 NEED_NO_BOX(::System::Linq::Expressions::Interpreter::RethrowException);
 DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Interpreter::RethrowException*, "System.Linq.Expressions.Interpreter", "RethrowException");

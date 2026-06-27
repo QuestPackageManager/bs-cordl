@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "System/Security/Principal/GenericIdentity.hpp"
 #include "System/Security/Principal/GenericPrincipal.hpp"
@@ -18,5 +18,6 @@ module;
 #include "System/Security/Principal/WindowsIdentity.hpp"
 #include "System/Security/Principal/WindowsImpersonationContext.hpp"
 #ifdef __cpp_modules
-export module Principal;
-#endif
+                    export module Principal;
+                    #endif
+                

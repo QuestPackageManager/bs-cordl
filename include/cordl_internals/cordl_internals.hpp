@@ -17,21 +17,22 @@
 #include "concepts.hpp"
 
 // TODO: Implement
-template <typename T> using ByRefConst = ::ByRef<T>;
+template <typename T>
+using ByRefConst = ::ByRef<T>;
 
 template <typename T, typename Ptr> struct ArrayW;
 struct Il2CppObject;
 
 namespace {
 namespace cordl_internals {
-// Base type for interfaces, as interfaces will wrap instances too (autoboxed VTs as well)
-struct InterfaceW : public ::bs_hook::Il2CppWrapperType {
-  explicit constexpr InterfaceW(void* o) noexcept : ::bs_hook::Il2CppWrapperType(o) {}
+    // Base type for interfaces, as interfaces will wrap instances too (autoboxed VTs as well)
+    struct InterfaceW : public ::bs_hook::Il2CppWrapperType {
+        explicit constexpr InterfaceW(void* o) noexcept : ::bs_hook::Il2CppWrapperType(o) {}
 
-  constexpr static bool __IL2CPP_VALUE_TYPE = false;
+        constexpr static bool __IL2CPP_VALUE_TYPE = false;
 
-  // TODO: operator to safely typecast to types it may be implemented on? maybe better as an operator on whatever inherits this...
-  // something that has a requires(std::is_convertible_v<T, Self>)... conversion can always be forced by using .convert() anyway
-};
-} // namespace cordl_internals
-} // namespace
+        // TODO: operator to safely typecast to types it may be implemented on? maybe better as an operator on whatever inherits this...
+        // something that has a requires(std::is_convertible_v<T, Self>)... conversion can always be forced by using .convert() anyway
+    };
+}
+}

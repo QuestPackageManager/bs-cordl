@@ -21,38 +21,38 @@ namespace Unity::Collections {
 // CS Name: Unity.Collections.NativeReferenceDisposeJob
 struct CORDL_TYPE NativeReferenceDisposeJob {
 public:
-  // Declarations
-  /// @brief Convert operator to "::Unity::Jobs::IJob"
-  constexpr operator ::Unity::Jobs::IJob*();
+// Declarations
+/// @brief Convert operator to "::Unity::Jobs::IJob"
+constexpr operator  ::Unity::Jobs::IJob*() ;
 
-  /// @brief Method Execute, addr 0x637f2b4, size 0x28, virtual true, abstract: false, final true
-  inline void Execute();
+/// @brief Method Execute, addr 0x6380e2c, size 0x28, virtual true, abstract: false, final true
+inline void Execute() ;
 
-  /// @brief Convert to "::Unity::Jobs::IJob"
-  constexpr ::Unity::Jobs::IJob* i___Unity__Jobs__IJob();
+/// @brief Convert to "::Unity::Jobs::IJob"
+constexpr ::Unity::Jobs::IJob* i___Unity__Jobs__IJob() ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NativeReferenceDisposeJob();
+// Ctor Parameters []
+// @brief default ctor
+constexpr NativeReferenceDisposeJob() ;
 
-  // Ctor Parameters [CppParam { name: "Data", ty: "::Unity::Collections::NativeReferenceDispose", modifiers: "", def_value: None }]
-  constexpr NativeReferenceDisposeJob(::Unity::Collections::NativeReferenceDispose Data) noexcept;
+// Ctor Parameters [CppParam { name: "Data", ty: "::Unity::Collections::NativeReferenceDispose", modifiers: "", def_value: None }]
+constexpr NativeReferenceDisposeJob(::Unity::Collections::NativeReferenceDispose  Data) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15666 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{15668};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x10};
 
-  /// @brief Field Data, offset: 0x0, size: 0x10, def value: None
-  ::Unity::Collections::NativeReferenceDispose Data;
+/// @brief Field Data, offset: 0x0, size: 0x10, def value: None
+ ::Unity::Collections::NativeReferenceDispose  Data;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::Unity::Collections::NativeReferenceDisposeJob, Data) == 0x0, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::Unity::Collections::NativeReferenceDisposeJob, 0x10>, "Size mismatch!");
 
-} // namespace Unity::Collections
+} // namespace end def Unity::Collections
 DEFINE_IL2CPP_ARG_TYPE(::Unity::Collections::NativeReferenceDisposeJob, "Unity.Collections", "NativeReferenceDisposeJob");

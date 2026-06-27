@@ -21,38 +21,38 @@ namespace BeatSaber::RecPlay {
 // CS Name: BeatSaber.RecPlay.Poser
 class CORDL_TYPE Poser : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method InterpolatePose, addr 0x322c6c0, size 0x90, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Pose InterpolatePose(::ByRef<::UnityEngine::Pose> a, ::ByRef<::UnityEngine::Pose> b, float_t t);
+// Declarations
+/// @brief Method InterpolatePose, addr 0x322d45c, size 0x90, virtual false, abstract: false, final false
+static inline ::UnityEngine::Pose InterpolatePose(::ByRef<::UnityEngine::Pose>  a, ::ByRef<::UnityEngine::Pose>  b, float_t  t) ;
 
-  /// @brief Method InvertPose, addr 0x322c918, size 0x68, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Pose InvertPose(::UnityEngine::Pose pose);
+/// @brief Method InvertPose, addr 0x322d6b4, size 0x68, virtual false, abstract: false, final false
+static inline ::UnityEngine::Pose InvertPose(::UnityEngine::Pose  pose) ;
 
-  /// @brief Method MirrorPoseYZ, addr 0x322c980, size 0x434, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Pose MirrorPoseYZ(::UnityEngine::Pose pose);
+/// @brief Method MirrorPoseYZ, addr 0x322d71c, size 0x434, virtual false, abstract: false, final false
+static inline ::UnityEngine::Pose MirrorPoseYZ(::UnityEngine::Pose  pose) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Poser();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr Poser() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Poser", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  Poser(Poser&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Poser", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  Poser(Poser const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "Poser", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Poser(Poser && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22988 };
+// Ctor Parameters [CppParam { name: "", ty: "Poser", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Poser(Poser const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22992};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::BeatSaber::RecPlay::Poser, 0x10>, "Size mismatch!");
 
-} // namespace BeatSaber::RecPlay
+} // namespace end def BeatSaber::RecPlay
 NEED_NO_BOX(::BeatSaber::RecPlay::Poser);
 DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::RecPlay::Poser*, "BeatSaber.RecPlay", "Poser");

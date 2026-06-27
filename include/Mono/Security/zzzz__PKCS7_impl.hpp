@@ -7,867 +7,1076 @@
 #include "Mono/Security/zzzz__PKCS7_def.hpp"
 #include "System/Collections/zzzz__ArrayList_def.hpp"
 //  Writing Method size for method: ::Mono::Security::PKCS7_ContentInfo._ctor
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::PKCS7_ContentInfo::*)()>(&::Mono::Security::PKCS7_ContentInfo::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x594e568;
+  constexpr static std::size_t addrs = 0x59500e0;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_ContentInfo*>::get(), ".ctor",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_ContentInfo*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Mono::Security::PKCS7_ContentInfo._ctor
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::PKCS7_ContentInfo::*)(::StringW)>(&::Mono::Security::PKCS7_ContentInfo::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x594e5c4;
+  constexpr static std::size_t addrs = 0x595013c;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_ContentInfo*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_ContentInfo*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Mono::Security::PKCS7_ContentInfo._ctor
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::PKCS7_ContentInfo::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
-    &::Mono::Security::PKCS7_ContentInfo::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::PKCS7_ContentInfo::*)(::ArrayW<uint8_t,::Array<uint8_t>*>)>(&::Mono::Security::PKCS7_ContentInfo::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x594e5e8;
+  constexpr static std::size_t addrs = 0x5950160;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_ContentInfo*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get() })));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_ContentInfo*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t,::Array<uint8_t>*>>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Mono::Security::PKCS7_ContentInfo._ctor
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::PKCS7_ContentInfo::*)(::Mono::Security::ASN1*)>(
-    &::Mono::Security::PKCS7_ContentInfo::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::PKCS7_ContentInfo::*)(::Mono::Security::ASN1*)>(&::Mono::Security::PKCS7_ContentInfo::_ctor)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x594e654;
+  constexpr static std::size_t addrs = 0x59501cc;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_ContentInfo*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Mono::Security::ASN1*>::get() })));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_ContentInfo*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Mono::Security::ASN1*>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Mono::Security::PKCS7_ContentInfo.get_ASN1
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Security::ASN1* (::Mono::Security::PKCS7_ContentInfo::*)()>(&::Mono::Security::PKCS7_ContentInfo::get_ASN1)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x594e7cc;
+  constexpr static std::size_t addrs = 0x5950344;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_ContentInfo*>::get(), "get_ASN1",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_ContentInfo*>::get(),
+                        "get_ASN1",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Mono::Security::PKCS7_ContentInfo.get_Content
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Security::ASN1* (::Mono::Security::PKCS7_ContentInfo::*)()>(
-    &::Mono::Security::PKCS7_ContentInfo::get_Content)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Security::ASN1* (::Mono::Security::PKCS7_ContentInfo::*)()>(&::Mono::Security::PKCS7_ContentInfo::get_Content)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x594e878;
+  constexpr static std::size_t addrs = 0x59503f0;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_ContentInfo*>::get(), "get_Content",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_ContentInfo*>::get(),
+                        "get_Content",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Mono::Security::PKCS7_ContentInfo.set_Content
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::PKCS7_ContentInfo::*)(::Mono::Security::ASN1*)>(
-    &::Mono::Security::PKCS7_ContentInfo::set_Content)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::PKCS7_ContentInfo::*)(::Mono::Security::ASN1*)>(&::Mono::Security::PKCS7_ContentInfo::set_Content)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x594e880;
+  constexpr static std::size_t addrs = 0x59503f8;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_ContentInfo*>::get(), "set_Content", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Mono::Security::ASN1*>::get() })));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_ContentInfo*>::get(),
+                        "set_Content",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Mono::Security::ASN1*>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Mono::Security::PKCS7_ContentInfo.get_ContentType
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Mono::Security::PKCS7_ContentInfo::*)()>(&::Mono::Security::PKCS7_ContentInfo::get_ContentType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x594e888;
+  constexpr static std::size_t addrs = 0x5950400;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_ContentInfo*>::get(), "get_ContentType",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_ContentInfo*>::get(),
+                        "get_ContentType",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Mono::Security::PKCS7_ContentInfo.set_ContentType
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::PKCS7_ContentInfo::*)(::StringW)>(&::Mono::Security::PKCS7_ContentInfo::set_ContentType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x594e890;
+  constexpr static std::size_t addrs = 0x5950408;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_ContentInfo*>::get(), "set_ContentType", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_ContentInfo*>::get(),
+                        "set_ContentType",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Mono::Security::PKCS7_ContentInfo.GetASN1
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Security::ASN1* (::Mono::Security::PKCS7_ContentInfo::*)()>(&::Mono::Security::PKCS7_ContentInfo::GetASN1)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x594e7d0;
+  constexpr static std::size_t addrs = 0x5950348;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_ContentInfo*>::get(), "GetASN1",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_ContentInfo*>::get(),
+                        "GetASN1",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
-constexpr ::StringW& Mono::Security::PKCS7_ContentInfo::__cordl_internal_get_contentType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___contentType;
+constexpr ::StringW& Mono::Security::PKCS7_ContentInfo::__cordl_internal_get_contentType()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___contentType;
 }
 constexpr ::StringW const& Mono::Security::PKCS7_ContentInfo::__cordl_internal_get_contentType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___contentType;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___contentType;
 }
-constexpr void Mono::Security::PKCS7_ContentInfo::__cordl_internal_set_contentType(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___contentType)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void Mono::Security::PKCS7_ContentInfo::__cordl_internal_set_contentType(::StringW  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___contentType)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::Mono::Security::ASN1*& Mono::Security::PKCS7_ContentInfo::__cordl_internal_get_content() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___content;
+constexpr ::Mono::Security::ASN1*& Mono::Security::PKCS7_ContentInfo::__cordl_internal_get_content()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___content;
 }
 constexpr ::Mono::Security::ASN1* const& Mono::Security::PKCS7_ContentInfo::__cordl_internal_get_content() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___content;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___content;
 }
-constexpr void Mono::Security::PKCS7_ContentInfo::__cordl_internal_set_content(::Mono::Security::ASN1* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___content)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void Mono::Security::PKCS7_ContentInfo::__cordl_internal_set_content(::Mono::Security::ASN1*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___content)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void Mono::Security::PKCS7_ContentInfo::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_ContentInfo*>::get(), ".ctor",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void Mono::Security::PKCS7_ContentInfo::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_ContentInfo*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void Mono::Security::PKCS7_ContentInfo::_ctor(::StringW oid) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_ContentInfo*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, oid);
+inline void Mono::Security::PKCS7_ContentInfo::_ctor(::StringW  oid)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_ContentInfo*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, oid);
 }
-inline void Mono::Security::PKCS7_ContentInfo::_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> data) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_ContentInfo*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, data);
+inline void Mono::Security::PKCS7_ContentInfo::_ctor(::ArrayW<uint8_t,::Array<uint8_t>*>  data)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_ContentInfo*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t,::Array<uint8_t>*>>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, data);
 }
-inline void Mono::Security::PKCS7_ContentInfo::_ctor(::Mono::Security::ASN1* asn1) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_ContentInfo*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Mono::Security::ASN1*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, asn1);
+inline void Mono::Security::PKCS7_ContentInfo::_ctor(::Mono::Security::ASN1*  asn1)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_ContentInfo*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Mono::Security::ASN1*>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, asn1);
 }
-inline ::Mono::Security::ASN1* Mono::Security::PKCS7_ContentInfo::get_ASN1() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_ContentInfo*>::get(), "get_ASN1",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::Mono::Security::ASN1*, false>(this, ___internal_method);
+inline ::Mono::Security::ASN1* Mono::Security::PKCS7_ContentInfo::get_ASN1()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_ContentInfo*>::get(),
+                        "get_ASN1",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<::Mono::Security::ASN1*, false>(this, ___internal_method);
 }
-inline ::Mono::Security::ASN1* Mono::Security::PKCS7_ContentInfo::get_Content() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_ContentInfo*>::get(), "get_Content",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::Mono::Security::ASN1*, false>(this, ___internal_method);
+inline ::Mono::Security::ASN1* Mono::Security::PKCS7_ContentInfo::get_Content()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_ContentInfo*>::get(),
+                        "get_Content",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<::Mono::Security::ASN1*, false>(this, ___internal_method);
 }
-inline void Mono::Security::PKCS7_ContentInfo::set_Content(::Mono::Security::ASN1* value) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_ContentInfo*>::get(), "set_Content", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Mono::Security::ASN1*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void Mono::Security::PKCS7_ContentInfo::set_Content(::Mono::Security::ASN1*  value)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_ContentInfo*>::get(),
+                        "set_Content",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Mono::Security::ASN1*>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::StringW Mono::Security::PKCS7_ContentInfo::get_ContentType() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_ContentInfo*>::get(), "get_ContentType",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+inline ::StringW Mono::Security::PKCS7_ContentInfo::get_ContentType()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_ContentInfo*>::get(),
+                        "get_ContentType",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-inline void Mono::Security::PKCS7_ContentInfo::set_ContentType(::StringW value) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_ContentInfo*>::get(), "set_ContentType", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void Mono::Security::PKCS7_ContentInfo::set_ContentType(::StringW  value)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_ContentInfo*>::get(),
+                        "set_ContentType",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::Mono::Security::ASN1* Mono::Security::PKCS7_ContentInfo::GetASN1() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_ContentInfo*>::get(), "GetASN1",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::Mono::Security::ASN1*, false>(this, ___internal_method);
+inline ::Mono::Security::ASN1* Mono::Security::PKCS7_ContentInfo::GetASN1()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_ContentInfo*>::get(),
+                        "GetASN1",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<::Mono::Security::ASN1*, false>(this, ___internal_method);
 }
-inline ::Mono::Security::PKCS7_ContentInfo* Mono::Security::PKCS7_ContentInfo::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Mono::Security::PKCS7_ContentInfo*>());
+inline ::Mono::Security::PKCS7_ContentInfo* Mono::Security::PKCS7_ContentInfo::New_ctor()  {
+return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Mono::Security::PKCS7_ContentInfo*>());
 }
-inline ::Mono::Security::PKCS7_ContentInfo* Mono::Security::PKCS7_ContentInfo::New_ctor(::StringW oid) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Mono::Security::PKCS7_ContentInfo*>(oid));
+inline ::Mono::Security::PKCS7_ContentInfo* Mono::Security::PKCS7_ContentInfo::New_ctor(::StringW  oid)  {
+return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Mono::Security::PKCS7_ContentInfo*>(oid));
 }
-inline ::Mono::Security::PKCS7_ContentInfo* Mono::Security::PKCS7_ContentInfo::New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> data) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Mono::Security::PKCS7_ContentInfo*>(data));
+inline ::Mono::Security::PKCS7_ContentInfo* Mono::Security::PKCS7_ContentInfo::New_ctor(::ArrayW<uint8_t,::Array<uint8_t>*>  data)  {
+return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Mono::Security::PKCS7_ContentInfo*>(data));
 }
-inline ::Mono::Security::PKCS7_ContentInfo* Mono::Security::PKCS7_ContentInfo::New_ctor(::Mono::Security::ASN1* asn1) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Mono::Security::PKCS7_ContentInfo*>(asn1));
+inline ::Mono::Security::PKCS7_ContentInfo* Mono::Security::PKCS7_ContentInfo::New_ctor(::Mono::Security::ASN1*  asn1)  {
+return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Mono::Security::PKCS7_ContentInfo*>(asn1));
 }
 // Ctor Parameters []
-constexpr ::Mono::Security::PKCS7_ContentInfo::PKCS7_ContentInfo() {}
+constexpr ::Mono::Security::PKCS7_ContentInfo::PKCS7_ContentInfo()   {
+}
 //  Writing Method size for method: ::Mono::Security::PKCS7_EncryptedData._ctor
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::PKCS7_EncryptedData::*)()>(&::Mono::Security::PKCS7_EncryptedData::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x594e898;
+  constexpr static std::size_t addrs = 0x5950410;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_EncryptedData*>::get(), ".ctor",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_EncryptedData*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Mono::Security::PKCS7_EncryptedData._ctor
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::PKCS7_EncryptedData::*)(::Mono::Security::ASN1*)>(
-    &::Mono::Security::PKCS7_EncryptedData::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::PKCS7_EncryptedData::*)(::Mono::Security::ASN1*)>(&::Mono::Security::PKCS7_EncryptedData::_ctor)> {
   constexpr static std::size_t size = 0x29c;
-  constexpr static std::size_t addrs = 0x594e8a0;
+  constexpr static std::size_t addrs = 0x5950418;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_EncryptedData*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Mono::Security::ASN1*>::get() })));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_EncryptedData*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Mono::Security::ASN1*>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Mono::Security::PKCS7_EncryptedData.get_EncryptionAlgorithm
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Security::PKCS7_ContentInfo* (::Mono::Security::PKCS7_EncryptedData::*)()>(
-    &::Mono::Security::PKCS7_EncryptedData::get_EncryptionAlgorithm)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Security::PKCS7_ContentInfo* (::Mono::Security::PKCS7_EncryptedData::*)()>(&::Mono::Security::PKCS7_EncryptedData::get_EncryptionAlgorithm)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x594eb3c;
+  constexpr static std::size_t addrs = 0x59506b4;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_EncryptedData*>::get(),
-                                                                               "get_EncryptionAlgorithm", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_EncryptedData*>::get(),
+                        "get_EncryptionAlgorithm",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Mono::Security::PKCS7_EncryptedData.get_EncryptedContent
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Mono::Security::PKCS7_EncryptedData::*)()>(
-    &::Mono::Security::PKCS7_EncryptedData::get_EncryptedContent)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t,::Array<uint8_t>*> (::Mono::Security::PKCS7_EncryptedData::*)()>(&::Mono::Security::PKCS7_EncryptedData::get_EncryptedContent)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x594eb44;
+  constexpr static std::size_t addrs = 0x59506bc;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_EncryptedData*>::get(),
-                                                                               "get_EncryptedContent", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_EncryptedData*>::get(),
+                        "get_EncryptedContent",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
-constexpr uint8_t& Mono::Security::PKCS7_EncryptedData::__cordl_internal_get__version() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____version;
+constexpr uint8_t& Mono::Security::PKCS7_EncryptedData::__cordl_internal_get__version()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____version;
 }
 constexpr uint8_t const& Mono::Security::PKCS7_EncryptedData::__cordl_internal_get__version() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____version;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____version;
 }
-constexpr void Mono::Security::PKCS7_EncryptedData::__cordl_internal_set__version(uint8_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____version = value;
+constexpr void Mono::Security::PKCS7_EncryptedData::__cordl_internal_set__version(uint8_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____version = value;
 }
-constexpr ::Mono::Security::PKCS7_ContentInfo*& Mono::Security::PKCS7_EncryptedData::__cordl_internal_get__content() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____content;
+constexpr ::Mono::Security::PKCS7_ContentInfo*& Mono::Security::PKCS7_EncryptedData::__cordl_internal_get__content()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____content;
 }
 constexpr ::Mono::Security::PKCS7_ContentInfo* const& Mono::Security::PKCS7_EncryptedData::__cordl_internal_get__content() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____content;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____content;
 }
-constexpr void Mono::Security::PKCS7_EncryptedData::__cordl_internal_set__content(::Mono::Security::PKCS7_ContentInfo* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____content)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void Mono::Security::PKCS7_EncryptedData::__cordl_internal_set__content(::Mono::Security::PKCS7_ContentInfo*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____content)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::Mono::Security::PKCS7_ContentInfo*& Mono::Security::PKCS7_EncryptedData::__cordl_internal_get__encryptionAlgorithm() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____encryptionAlgorithm;
+constexpr ::Mono::Security::PKCS7_ContentInfo*& Mono::Security::PKCS7_EncryptedData::__cordl_internal_get__encryptionAlgorithm()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____encryptionAlgorithm;
 }
 constexpr ::Mono::Security::PKCS7_ContentInfo* const& Mono::Security::PKCS7_EncryptedData::__cordl_internal_get__encryptionAlgorithm() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____encryptionAlgorithm;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____encryptionAlgorithm;
 }
-constexpr void Mono::Security::PKCS7_EncryptedData::__cordl_internal_set__encryptionAlgorithm(::Mono::Security::PKCS7_ContentInfo* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____encryptionAlgorithm)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void Mono::Security::PKCS7_EncryptedData::__cordl_internal_set__encryptionAlgorithm(::Mono::Security::PKCS7_ContentInfo*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____encryptionAlgorithm)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& Mono::Security::PKCS7_EncryptedData::__cordl_internal_get__encrypted() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____encrypted;
+constexpr ::ArrayW<uint8_t,::Array<uint8_t>*>& Mono::Security::PKCS7_EncryptedData::__cordl_internal_get__encrypted()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____encrypted;
 }
-constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& Mono::Security::PKCS7_EncryptedData::__cordl_internal_get__encrypted() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____encrypted;
+constexpr ::ArrayW<uint8_t,::Array<uint8_t>*> const& Mono::Security::PKCS7_EncryptedData::__cordl_internal_get__encrypted() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____encrypted;
 }
-constexpr void Mono::Security::PKCS7_EncryptedData::__cordl_internal_set__encrypted(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____encrypted)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void Mono::Security::PKCS7_EncryptedData::__cordl_internal_set__encrypted(::ArrayW<uint8_t,::Array<uint8_t>*>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____encrypted)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void Mono::Security::PKCS7_EncryptedData::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_EncryptedData*>::get(), ".ctor",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void Mono::Security::PKCS7_EncryptedData::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_EncryptedData*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void Mono::Security::PKCS7_EncryptedData::_ctor(::Mono::Security::ASN1* asn1) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_EncryptedData*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Mono::Security::ASN1*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, asn1);
+inline void Mono::Security::PKCS7_EncryptedData::_ctor(::Mono::Security::ASN1*  asn1)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_EncryptedData*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Mono::Security::ASN1*>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, asn1);
 }
-inline ::Mono::Security::PKCS7_ContentInfo* Mono::Security::PKCS7_EncryptedData::get_EncryptionAlgorithm() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_EncryptedData*>::get(),
-                                                                             "get_EncryptionAlgorithm", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::Mono::Security::PKCS7_ContentInfo*, false>(this, ___internal_method);
+inline ::Mono::Security::PKCS7_ContentInfo* Mono::Security::PKCS7_EncryptedData::get_EncryptionAlgorithm()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_EncryptedData*>::get(),
+                        "get_EncryptionAlgorithm",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<::Mono::Security::PKCS7_ContentInfo*, false>(this, ___internal_method);
 }
-inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Mono::Security::PKCS7_EncryptedData::get_EncryptedContent() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_EncryptedData*>::get(),
-                                                                             "get_EncryptedContent", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t, ::Array<uint8_t>*>, false>(this, ___internal_method);
+inline ::ArrayW<uint8_t,::Array<uint8_t>*> Mono::Security::PKCS7_EncryptedData::get_EncryptedContent()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_EncryptedData*>::get(),
+                        "get_EncryptedContent",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t,::Array<uint8_t>*>, false>(this, ___internal_method);
 }
-inline ::Mono::Security::PKCS7_EncryptedData* Mono::Security::PKCS7_EncryptedData::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Mono::Security::PKCS7_EncryptedData*>());
+inline ::Mono::Security::PKCS7_EncryptedData* Mono::Security::PKCS7_EncryptedData::New_ctor()  {
+return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Mono::Security::PKCS7_EncryptedData*>());
 }
-inline ::Mono::Security::PKCS7_EncryptedData* Mono::Security::PKCS7_EncryptedData::New_ctor(::Mono::Security::ASN1* asn1) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Mono::Security::PKCS7_EncryptedData*>(asn1));
+inline ::Mono::Security::PKCS7_EncryptedData* Mono::Security::PKCS7_EncryptedData::New_ctor(::Mono::Security::ASN1*  asn1)  {
+return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Mono::Security::PKCS7_EncryptedData*>(asn1));
 }
 // Ctor Parameters []
-constexpr ::Mono::Security::PKCS7_EncryptedData::PKCS7_EncryptedData() {}
+constexpr ::Mono::Security::PKCS7_EncryptedData::PKCS7_EncryptedData()   {
+}
 //  Writing Method size for method: ::Mono::Security::PKCS7_SignedData._ctor
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::PKCS7_SignedData::*)(::Mono::Security::ASN1*)>(&::Mono::Security::PKCS7_SignedData::_ctor)> {
   constexpr static std::size_t size = 0x4d0;
-  constexpr static std::size_t addrs = 0x594ebb8;
+  constexpr static std::size_t addrs = 0x5950730;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_SignedData*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Mono::Security::ASN1*>::get() })));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_SignedData*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Mono::Security::ASN1*>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Mono::Security::PKCS7_SignedData.get_Certificates
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Security::X509::X509CertificateCollection* (::Mono::Security::PKCS7_SignedData::*)()>(
-    &::Mono::Security::PKCS7_SignedData::get_Certificates)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Security::X509::X509CertificateCollection* (::Mono::Security::PKCS7_SignedData::*)()>(&::Mono::Security::PKCS7_SignedData::get_Certificates)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x594f880;
+  constexpr static std::size_t addrs = 0x59513f8;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_SignedData*>::get(), "get_Certificates",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_SignedData*>::get(),
+                        "get_Certificates",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Mono::Security::PKCS7_SignedData.get_ContentInfo
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Security::PKCS7_ContentInfo* (::Mono::Security::PKCS7_SignedData::*)()>(
-    &::Mono::Security::PKCS7_SignedData::get_ContentInfo)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Security::PKCS7_ContentInfo* (::Mono::Security::PKCS7_SignedData::*)()>(&::Mono::Security::PKCS7_SignedData::get_ContentInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x594f888;
+  constexpr static std::size_t addrs = 0x5951400;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_SignedData*>::get(), "get_ContentInfo",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_SignedData*>::get(),
+                        "get_ContentInfo",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Mono::Security::PKCS7_SignedData.set_HashName
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::PKCS7_SignedData::*)(::StringW)>(&::Mono::Security::PKCS7_SignedData::set_HashName)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x594f864;
+  constexpr static std::size_t addrs = 0x59513dc;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_SignedData*>::get(), "set_HashName", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_SignedData*>::get(),
+                        "set_HashName",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Mono::Security::PKCS7_SignedData.get_SignerInfo
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Security::PKCS7_SignerInfo* (::Mono::Security::PKCS7_SignedData::*)()>(
-    &::Mono::Security::PKCS7_SignedData::get_SignerInfo)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Security::PKCS7_SignerInfo* (::Mono::Security::PKCS7_SignedData::*)()>(&::Mono::Security::PKCS7_SignedData::get_SignerInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x594f890;
+  constexpr static std::size_t addrs = 0x5951408;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_SignedData*>::get(), "get_SignerInfo",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_SignedData*>::get(),
+                        "get_SignerInfo",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Mono::Security::PKCS7_SignedData.OidToName
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Mono::Security::PKCS7_SignedData::*)(::StringW)>(&::Mono::Security::PKCS7_SignedData::OidToName)> {
   constexpr static std::size_t size = 0x1dc;
-  constexpr static std::size_t addrs = 0x594f688;
+  constexpr static std::size_t addrs = 0x5951200;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_SignedData*>::get(), "OidToName", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_SignedData*>::get(),
+                        "OidToName",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
+                    )));
     return ___internal_method;
   }
 };
-constexpr uint8_t& Mono::Security::PKCS7_SignedData::__cordl_internal_get_version() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___version;
+constexpr uint8_t& Mono::Security::PKCS7_SignedData::__cordl_internal_get_version()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___version;
 }
 constexpr uint8_t const& Mono::Security::PKCS7_SignedData::__cordl_internal_get_version() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___version;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___version;
 }
-constexpr void Mono::Security::PKCS7_SignedData::__cordl_internal_set_version(uint8_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___version = value;
+constexpr void Mono::Security::PKCS7_SignedData::__cordl_internal_set_version(uint8_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___version = value;
 }
-constexpr ::StringW& Mono::Security::PKCS7_SignedData::__cordl_internal_get_hashAlgorithm() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___hashAlgorithm;
+constexpr ::StringW& Mono::Security::PKCS7_SignedData::__cordl_internal_get_hashAlgorithm()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___hashAlgorithm;
 }
 constexpr ::StringW const& Mono::Security::PKCS7_SignedData::__cordl_internal_get_hashAlgorithm() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___hashAlgorithm;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___hashAlgorithm;
 }
-constexpr void Mono::Security::PKCS7_SignedData::__cordl_internal_set_hashAlgorithm(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___hashAlgorithm)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void Mono::Security::PKCS7_SignedData::__cordl_internal_set_hashAlgorithm(::StringW  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___hashAlgorithm)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::Mono::Security::PKCS7_ContentInfo*& Mono::Security::PKCS7_SignedData::__cordl_internal_get_contentInfo() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___contentInfo;
+constexpr ::Mono::Security::PKCS7_ContentInfo*& Mono::Security::PKCS7_SignedData::__cordl_internal_get_contentInfo()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___contentInfo;
 }
 constexpr ::Mono::Security::PKCS7_ContentInfo* const& Mono::Security::PKCS7_SignedData::__cordl_internal_get_contentInfo() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___contentInfo;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___contentInfo;
 }
-constexpr void Mono::Security::PKCS7_SignedData::__cordl_internal_set_contentInfo(::Mono::Security::PKCS7_ContentInfo* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___contentInfo)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void Mono::Security::PKCS7_SignedData::__cordl_internal_set_contentInfo(::Mono::Security::PKCS7_ContentInfo*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___contentInfo)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::Mono::Security::X509::X509CertificateCollection*& Mono::Security::PKCS7_SignedData::__cordl_internal_get_certs() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___certs;
+constexpr ::Mono::Security::X509::X509CertificateCollection*& Mono::Security::PKCS7_SignedData::__cordl_internal_get_certs()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___certs;
 }
 constexpr ::Mono::Security::X509::X509CertificateCollection* const& Mono::Security::PKCS7_SignedData::__cordl_internal_get_certs() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___certs;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___certs;
 }
-constexpr void Mono::Security::PKCS7_SignedData::__cordl_internal_set_certs(::Mono::Security::X509::X509CertificateCollection* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___certs)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void Mono::Security::PKCS7_SignedData::__cordl_internal_set_certs(::Mono::Security::X509::X509CertificateCollection*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___certs)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Collections::ArrayList*& Mono::Security::PKCS7_SignedData::__cordl_internal_get_crls() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___crls;
+constexpr ::System::Collections::ArrayList*& Mono::Security::PKCS7_SignedData::__cordl_internal_get_crls()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___crls;
 }
 constexpr ::System::Collections::ArrayList* const& Mono::Security::PKCS7_SignedData::__cordl_internal_get_crls() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___crls;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___crls;
 }
-constexpr void Mono::Security::PKCS7_SignedData::__cordl_internal_set_crls(::System::Collections::ArrayList* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___crls)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void Mono::Security::PKCS7_SignedData::__cordl_internal_set_crls(::System::Collections::ArrayList*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___crls)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::Mono::Security::PKCS7_SignerInfo*& Mono::Security::PKCS7_SignedData::__cordl_internal_get_signerInfo() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___signerInfo;
+constexpr ::Mono::Security::PKCS7_SignerInfo*& Mono::Security::PKCS7_SignedData::__cordl_internal_get_signerInfo()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___signerInfo;
 }
 constexpr ::Mono::Security::PKCS7_SignerInfo* const& Mono::Security::PKCS7_SignedData::__cordl_internal_get_signerInfo() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___signerInfo;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___signerInfo;
 }
-constexpr void Mono::Security::PKCS7_SignedData::__cordl_internal_set_signerInfo(::Mono::Security::PKCS7_SignerInfo* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___signerInfo)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void Mono::Security::PKCS7_SignedData::__cordl_internal_set_signerInfo(::Mono::Security::PKCS7_SignerInfo*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___signerInfo)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr bool& Mono::Security::PKCS7_SignedData::__cordl_internal_get_mda() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___mda;
+constexpr bool& Mono::Security::PKCS7_SignedData::__cordl_internal_get_mda()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___mda;
 }
 constexpr bool const& Mono::Security::PKCS7_SignedData::__cordl_internal_get_mda() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___mda;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___mda;
 }
-constexpr void Mono::Security::PKCS7_SignedData::__cordl_internal_set_mda(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___mda = value;
+constexpr void Mono::Security::PKCS7_SignedData::__cordl_internal_set_mda(bool  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___mda = value;
 }
-inline void Mono::Security::PKCS7_SignedData::_ctor(::Mono::Security::ASN1* asn1) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_SignedData*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Mono::Security::ASN1*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, asn1);
+inline void Mono::Security::PKCS7_SignedData::_ctor(::Mono::Security::ASN1*  asn1)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_SignedData*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Mono::Security::ASN1*>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, asn1);
 }
-inline ::Mono::Security::X509::X509CertificateCollection* Mono::Security::PKCS7_SignedData::get_Certificates() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_SignedData*>::get(), "get_Certificates",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::Mono::Security::X509::X509CertificateCollection*, false>(this, ___internal_method);
+inline ::Mono::Security::X509::X509CertificateCollection* Mono::Security::PKCS7_SignedData::get_Certificates()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_SignedData*>::get(),
+                        "get_Certificates",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<::Mono::Security::X509::X509CertificateCollection*, false>(this, ___internal_method);
 }
-inline ::Mono::Security::PKCS7_ContentInfo* Mono::Security::PKCS7_SignedData::get_ContentInfo() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_SignedData*>::get(), "get_ContentInfo",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::Mono::Security::PKCS7_ContentInfo*, false>(this, ___internal_method);
+inline ::Mono::Security::PKCS7_ContentInfo* Mono::Security::PKCS7_SignedData::get_ContentInfo()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_SignedData*>::get(),
+                        "get_ContentInfo",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<::Mono::Security::PKCS7_ContentInfo*, false>(this, ___internal_method);
 }
-inline void Mono::Security::PKCS7_SignedData::set_HashName(::StringW value) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_SignedData*>::get(), "set_HashName", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void Mono::Security::PKCS7_SignedData::set_HashName(::StringW  value)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_SignedData*>::get(),
+                        "set_HashName",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::Mono::Security::PKCS7_SignerInfo* Mono::Security::PKCS7_SignedData::get_SignerInfo() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_SignedData*>::get(), "get_SignerInfo",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::Mono::Security::PKCS7_SignerInfo*, false>(this, ___internal_method);
+inline ::Mono::Security::PKCS7_SignerInfo* Mono::Security::PKCS7_SignedData::get_SignerInfo()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_SignedData*>::get(),
+                        "get_SignerInfo",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<::Mono::Security::PKCS7_SignerInfo*, false>(this, ___internal_method);
 }
-inline ::StringW Mono::Security::PKCS7_SignedData::OidToName(::StringW oid) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_SignedData*>::get(), "OidToName", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, oid);
+inline ::StringW Mono::Security::PKCS7_SignedData::OidToName(::StringW  oid)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_SignedData*>::get(),
+                        "OidToName",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, oid);
 }
-inline ::Mono::Security::PKCS7_SignedData* Mono::Security::PKCS7_SignedData::New_ctor(::Mono::Security::ASN1* asn1) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Mono::Security::PKCS7_SignedData*>(asn1));
+inline ::Mono::Security::PKCS7_SignedData* Mono::Security::PKCS7_SignedData::New_ctor(::Mono::Security::ASN1*  asn1)  {
+return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Mono::Security::PKCS7_SignedData*>(asn1));
 }
 // Ctor Parameters []
-constexpr ::Mono::Security::PKCS7_SignedData::PKCS7_SignedData() {}
+constexpr ::Mono::Security::PKCS7_SignedData::PKCS7_SignedData()   {
+}
 //  Writing Method size for method: ::Mono::Security::PKCS7_SignerInfo._ctor
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::PKCS7_SignerInfo::*)()>(&::Mono::Security::PKCS7_SignerInfo::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x594f60c;
+  constexpr static std::size_t addrs = 0x5951184;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_SignerInfo*>::get(), ".ctor",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_SignerInfo*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Mono::Security::PKCS7_SignerInfo._ctor
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::PKCS7_SignerInfo::*)(::Mono::Security::ASN1*)>(&::Mono::Security::PKCS7_SignerInfo::_ctor)> {
   constexpr static std::size_t size = 0x374;
-  constexpr static std::size_t addrs = 0x594f298;
+  constexpr static std::size_t addrs = 0x5950e10;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_SignerInfo*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Mono::Security::ASN1*>::get() })));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_SignerInfo*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Mono::Security::ASN1*>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Mono::Security::PKCS7_SignerInfo.get_IssuerName
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Mono::Security::PKCS7_SignerInfo::*)()>(&::Mono::Security::PKCS7_SignerInfo::get_IssuerName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x594f9e0;
+  constexpr static std::size_t addrs = 0x5951558;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_SignerInfo*>::get(), "get_IssuerName",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_SignerInfo*>::get(),
+                        "get_IssuerName",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Mono::Security::PKCS7_SignerInfo.get_SerialNumber
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Mono::Security::PKCS7_SignerInfo::*)()>(
-    &::Mono::Security::PKCS7_SignerInfo::get_SerialNumber)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t,::Array<uint8_t>*> (::Mono::Security::PKCS7_SignerInfo::*)()>(&::Mono::Security::PKCS7_SignerInfo::get_SerialNumber)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x594f9e8;
+  constexpr static std::size_t addrs = 0x5951560;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_SignerInfo*>::get(), "get_SerialNumber",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_SignerInfo*>::get(),
+                        "get_SerialNumber",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Mono::Security::PKCS7_SignerInfo.get_AuthenticatedAttributes
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ArrayList* (::Mono::Security::PKCS7_SignerInfo::*)()>(
-    &::Mono::Security::PKCS7_SignerInfo::get_AuthenticatedAttributes)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ArrayList* (::Mono::Security::PKCS7_SignerInfo::*)()>(&::Mono::Security::PKCS7_SignerInfo::get_AuthenticatedAttributes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x594fa5c;
+  constexpr static std::size_t addrs = 0x59515d4;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_SignerInfo*>::get(),
-                                                                               "get_AuthenticatedAttributes", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_SignerInfo*>::get(),
+                        "get_AuthenticatedAttributes",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Mono::Security::PKCS7_SignerInfo.get_HashName
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Mono::Security::PKCS7_SignerInfo::*)()>(&::Mono::Security::PKCS7_SignerInfo::get_HashName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x594fa64;
+  constexpr static std::size_t addrs = 0x59515dc;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_SignerInfo*>::get(), "get_HashName",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_SignerInfo*>::get(),
+                        "get_HashName",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Mono::Security::PKCS7_SignerInfo.set_HashName
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::PKCS7_SignerInfo::*)(::StringW)>(&::Mono::Security::PKCS7_SignerInfo::set_HashName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x594fa6c;
+  constexpr static std::size_t addrs = 0x59515e4;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_SignerInfo*>::get(), "set_HashName", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_SignerInfo*>::get(),
+                        "set_HashName",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Mono::Security::PKCS7_SignerInfo.get_Signature
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Mono::Security::PKCS7_SignerInfo::*)()>(
-    &::Mono::Security::PKCS7_SignerInfo::get_Signature)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t,::Array<uint8_t>*> (::Mono::Security::PKCS7_SignerInfo::*)()>(&::Mono::Security::PKCS7_SignerInfo::get_Signature)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x594fa74;
+  constexpr static std::size_t addrs = 0x59515ec;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_SignerInfo*>::get(), "get_Signature",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_SignerInfo*>::get(),
+                        "get_Signature",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Mono::Security::PKCS7_SignerInfo.get_UnauthenticatedAttributes
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ArrayList* (::Mono::Security::PKCS7_SignerInfo::*)()>(
-    &::Mono::Security::PKCS7_SignerInfo::get_UnauthenticatedAttributes)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ArrayList* (::Mono::Security::PKCS7_SignerInfo::*)()>(&::Mono::Security::PKCS7_SignerInfo::get_UnauthenticatedAttributes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x594fae8;
+  constexpr static std::size_t addrs = 0x5951660;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_SignerInfo*>::get(),
-                                                                               "get_UnauthenticatedAttributes", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_SignerInfo*>::get(),
+                        "get_UnauthenticatedAttributes",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Mono::Security::PKCS7_SignerInfo.get_Version
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (::Mono::Security::PKCS7_SignerInfo::*)()>(&::Mono::Security::PKCS7_SignerInfo::get_Version)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x594faf0;
+  constexpr static std::size_t addrs = 0x5951668;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_SignerInfo*>::get(), "get_Version",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_SignerInfo*>::get(),
+                        "get_Version",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
-constexpr uint8_t& Mono::Security::PKCS7_SignerInfo::__cordl_internal_get_version() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___version;
+constexpr uint8_t& Mono::Security::PKCS7_SignerInfo::__cordl_internal_get_version()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___version;
 }
 constexpr uint8_t const& Mono::Security::PKCS7_SignerInfo::__cordl_internal_get_version() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___version;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___version;
 }
-constexpr void Mono::Security::PKCS7_SignerInfo::__cordl_internal_set_version(uint8_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___version = value;
+constexpr void Mono::Security::PKCS7_SignerInfo::__cordl_internal_set_version(uint8_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___version = value;
 }
-constexpr ::StringW& Mono::Security::PKCS7_SignerInfo::__cordl_internal_get_hashAlgorithm() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___hashAlgorithm;
+constexpr ::StringW& Mono::Security::PKCS7_SignerInfo::__cordl_internal_get_hashAlgorithm()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___hashAlgorithm;
 }
 constexpr ::StringW const& Mono::Security::PKCS7_SignerInfo::__cordl_internal_get_hashAlgorithm() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___hashAlgorithm;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___hashAlgorithm;
 }
-constexpr void Mono::Security::PKCS7_SignerInfo::__cordl_internal_set_hashAlgorithm(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___hashAlgorithm)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void Mono::Security::PKCS7_SignerInfo::__cordl_internal_set_hashAlgorithm(::StringW  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___hashAlgorithm)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Collections::ArrayList*& Mono::Security::PKCS7_SignerInfo::__cordl_internal_get_authenticatedAttributes() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___authenticatedAttributes;
+constexpr ::System::Collections::ArrayList*& Mono::Security::PKCS7_SignerInfo::__cordl_internal_get_authenticatedAttributes()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___authenticatedAttributes;
 }
 constexpr ::System::Collections::ArrayList* const& Mono::Security::PKCS7_SignerInfo::__cordl_internal_get_authenticatedAttributes() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___authenticatedAttributes;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___authenticatedAttributes;
 }
-constexpr void Mono::Security::PKCS7_SignerInfo::__cordl_internal_set_authenticatedAttributes(::System::Collections::ArrayList* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___authenticatedAttributes)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void Mono::Security::PKCS7_SignerInfo::__cordl_internal_set_authenticatedAttributes(::System::Collections::ArrayList*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___authenticatedAttributes)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Collections::ArrayList*& Mono::Security::PKCS7_SignerInfo::__cordl_internal_get_unauthenticatedAttributes() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___unauthenticatedAttributes;
+constexpr ::System::Collections::ArrayList*& Mono::Security::PKCS7_SignerInfo::__cordl_internal_get_unauthenticatedAttributes()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___unauthenticatedAttributes;
 }
 constexpr ::System::Collections::ArrayList* const& Mono::Security::PKCS7_SignerInfo::__cordl_internal_get_unauthenticatedAttributes() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___unauthenticatedAttributes;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___unauthenticatedAttributes;
 }
-constexpr void Mono::Security::PKCS7_SignerInfo::__cordl_internal_set_unauthenticatedAttributes(::System::Collections::ArrayList* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___unauthenticatedAttributes)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void Mono::Security::PKCS7_SignerInfo::__cordl_internal_set_unauthenticatedAttributes(::System::Collections::ArrayList*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___unauthenticatedAttributes)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& Mono::Security::PKCS7_SignerInfo::__cordl_internal_get_signature() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___signature;
+constexpr ::ArrayW<uint8_t,::Array<uint8_t>*>& Mono::Security::PKCS7_SignerInfo::__cordl_internal_get_signature()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___signature;
 }
-constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& Mono::Security::PKCS7_SignerInfo::__cordl_internal_get_signature() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___signature;
+constexpr ::ArrayW<uint8_t,::Array<uint8_t>*> const& Mono::Security::PKCS7_SignerInfo::__cordl_internal_get_signature() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___signature;
 }
-constexpr void Mono::Security::PKCS7_SignerInfo::__cordl_internal_set_signature(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___signature)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void Mono::Security::PKCS7_SignerInfo::__cordl_internal_set_signature(::ArrayW<uint8_t,::Array<uint8_t>*>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___signature)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::StringW& Mono::Security::PKCS7_SignerInfo::__cordl_internal_get_issuer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___issuer;
+constexpr ::StringW& Mono::Security::PKCS7_SignerInfo::__cordl_internal_get_issuer()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___issuer;
 }
 constexpr ::StringW const& Mono::Security::PKCS7_SignerInfo::__cordl_internal_get_issuer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___issuer;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___issuer;
 }
-constexpr void Mono::Security::PKCS7_SignerInfo::__cordl_internal_set_issuer(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___issuer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void Mono::Security::PKCS7_SignerInfo::__cordl_internal_set_issuer(::StringW  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___issuer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& Mono::Security::PKCS7_SignerInfo::__cordl_internal_get_serial() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___serial;
+constexpr ::ArrayW<uint8_t,::Array<uint8_t>*>& Mono::Security::PKCS7_SignerInfo::__cordl_internal_get_serial()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___serial;
 }
-constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& Mono::Security::PKCS7_SignerInfo::__cordl_internal_get_serial() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___serial;
+constexpr ::ArrayW<uint8_t,::Array<uint8_t>*> const& Mono::Security::PKCS7_SignerInfo::__cordl_internal_get_serial() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___serial;
 }
-constexpr void Mono::Security::PKCS7_SignerInfo::__cordl_internal_set_serial(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___serial)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void Mono::Security::PKCS7_SignerInfo::__cordl_internal_set_serial(::ArrayW<uint8_t,::Array<uint8_t>*>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___serial)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& Mono::Security::PKCS7_SignerInfo::__cordl_internal_get_ski() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___ski;
+constexpr ::ArrayW<uint8_t,::Array<uint8_t>*>& Mono::Security::PKCS7_SignerInfo::__cordl_internal_get_ski()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___ski;
 }
-constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& Mono::Security::PKCS7_SignerInfo::__cordl_internal_get_ski() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___ski;
+constexpr ::ArrayW<uint8_t,::Array<uint8_t>*> const& Mono::Security::PKCS7_SignerInfo::__cordl_internal_get_ski() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___ski;
 }
-constexpr void Mono::Security::PKCS7_SignerInfo::__cordl_internal_set_ski(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___ski)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void Mono::Security::PKCS7_SignerInfo::__cordl_internal_set_ski(::ArrayW<uint8_t,::Array<uint8_t>*>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___ski)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void Mono::Security::PKCS7_SignerInfo::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_SignerInfo*>::get(), ".ctor",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void Mono::Security::PKCS7_SignerInfo::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_SignerInfo*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void Mono::Security::PKCS7_SignerInfo::_ctor(::Mono::Security::ASN1* asn1) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_SignerInfo*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Mono::Security::ASN1*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, asn1);
+inline void Mono::Security::PKCS7_SignerInfo::_ctor(::Mono::Security::ASN1*  asn1)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_SignerInfo*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Mono::Security::ASN1*>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, asn1);
 }
-inline ::StringW Mono::Security::PKCS7_SignerInfo::get_IssuerName() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_SignerInfo*>::get(), "get_IssuerName",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+inline ::StringW Mono::Security::PKCS7_SignerInfo::get_IssuerName()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_SignerInfo*>::get(),
+                        "get_IssuerName",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Mono::Security::PKCS7_SignerInfo::get_SerialNumber() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_SignerInfo*>::get(), "get_SerialNumber",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t, ::Array<uint8_t>*>, false>(this, ___internal_method);
+inline ::ArrayW<uint8_t,::Array<uint8_t>*> Mono::Security::PKCS7_SignerInfo::get_SerialNumber()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_SignerInfo*>::get(),
+                        "get_SerialNumber",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t,::Array<uint8_t>*>, false>(this, ___internal_method);
 }
-inline ::System::Collections::ArrayList* Mono::Security::PKCS7_SignerInfo::get_AuthenticatedAttributes() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_SignerInfo*>::get(),
-                                                                             "get_AuthenticatedAttributes", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::System::Collections::ArrayList*, false>(this, ___internal_method);
+inline ::System::Collections::ArrayList* Mono::Security::PKCS7_SignerInfo::get_AuthenticatedAttributes()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_SignerInfo*>::get(),
+                        "get_AuthenticatedAttributes",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::ArrayList*, false>(this, ___internal_method);
 }
-inline ::StringW Mono::Security::PKCS7_SignerInfo::get_HashName() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_SignerInfo*>::get(), "get_HashName",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+inline ::StringW Mono::Security::PKCS7_SignerInfo::get_HashName()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_SignerInfo*>::get(),
+                        "get_HashName",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-inline void Mono::Security::PKCS7_SignerInfo::set_HashName(::StringW value) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_SignerInfo*>::get(), "set_HashName", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void Mono::Security::PKCS7_SignerInfo::set_HashName(::StringW  value)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_SignerInfo*>::get(),
+                        "set_HashName",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Mono::Security::PKCS7_SignerInfo::get_Signature() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_SignerInfo*>::get(), "get_Signature",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t, ::Array<uint8_t>*>, false>(this, ___internal_method);
+inline ::ArrayW<uint8_t,::Array<uint8_t>*> Mono::Security::PKCS7_SignerInfo::get_Signature()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_SignerInfo*>::get(),
+                        "get_Signature",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t,::Array<uint8_t>*>, false>(this, ___internal_method);
 }
-inline ::System::Collections::ArrayList* Mono::Security::PKCS7_SignerInfo::get_UnauthenticatedAttributes() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_SignerInfo*>::get(),
-                                                                             "get_UnauthenticatedAttributes", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::System::Collections::ArrayList*, false>(this, ___internal_method);
+inline ::System::Collections::ArrayList* Mono::Security::PKCS7_SignerInfo::get_UnauthenticatedAttributes()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_SignerInfo*>::get(),
+                        "get_UnauthenticatedAttributes",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::ArrayList*, false>(this, ___internal_method);
 }
-inline uint8_t Mono::Security::PKCS7_SignerInfo::get_Version() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_SignerInfo*>::get(), "get_Version",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<uint8_t, false>(this, ___internal_method);
+inline uint8_t Mono::Security::PKCS7_SignerInfo::get_Version()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_SignerInfo*>::get(),
+                        "get_Version",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<uint8_t, false>(this, ___internal_method);
 }
-inline ::Mono::Security::PKCS7_SignerInfo* Mono::Security::PKCS7_SignerInfo::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Mono::Security::PKCS7_SignerInfo*>());
+inline ::Mono::Security::PKCS7_SignerInfo* Mono::Security::PKCS7_SignerInfo::New_ctor()  {
+return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Mono::Security::PKCS7_SignerInfo*>());
 }
-inline ::Mono::Security::PKCS7_SignerInfo* Mono::Security::PKCS7_SignerInfo::New_ctor(::Mono::Security::ASN1* asn1) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Mono::Security::PKCS7_SignerInfo*>(asn1));
+inline ::Mono::Security::PKCS7_SignerInfo* Mono::Security::PKCS7_SignerInfo::New_ctor(::Mono::Security::ASN1*  asn1)  {
+return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Mono::Security::PKCS7_SignerInfo*>(asn1));
 }
 // Ctor Parameters []
-constexpr ::Mono::Security::PKCS7_SignerInfo::PKCS7_SignerInfo() {}
+constexpr ::Mono::Security::PKCS7_SignerInfo::PKCS7_SignerInfo()   {
+}
 // Ctor Parameters []
-constexpr ::Mono::Security::PKCS7::PKCS7() {}
+constexpr ::Mono::Security::PKCS7::PKCS7()   {
+}

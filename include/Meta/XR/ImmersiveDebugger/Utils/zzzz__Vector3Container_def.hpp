@@ -18,34 +18,34 @@ namespace Meta::XR::ImmersiveDebugger::Utils {
 // CS Name: Meta.XR.ImmersiveDebugger.Utils.Vector3Container
 class CORDL_TYPE Vector3Container : public ::Meta::XR::ImmersiveDebugger::Utils::ValueContainer_1<::UnityEngine::Vector3> {
 public:
-  // Declarations
-  static inline ::Meta::XR::ImmersiveDebugger::Utils::Vector3Container* New_ctor();
+// Declarations
+static inline ::Meta::XR::ImmersiveDebugger::Utils::Vector3Container* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x590bafc, size 0x48, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x590d4cc, size 0x48, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Vector3Container();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr Vector3Container() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Vector3Container", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  Vector3Container(Vector3Container&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Vector3Container", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  Vector3Container(Vector3Container const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "Vector3Container", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Vector3Container(Vector3Container && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18336 };
+// Ctor Parameters [CppParam { name: "", ty: "Vector3Container", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Vector3Container(Vector3Container const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{18338};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Meta::XR::ImmersiveDebugger::Utils::Vector3Container, 0x20>, "Size mismatch!");
 
-} // namespace Meta::XR::ImmersiveDebugger::Utils
+} // namespace end def Meta::XR::ImmersiveDebugger::Utils
 NEED_NO_BOX(::Meta::XR::ImmersiveDebugger::Utils::Vector3Container);
 DEFINE_IL2CPP_ARG_TYPE(::Meta::XR::ImmersiveDebugger::Utils::Vector3Container*, "Meta.XR.ImmersiveDebugger.Utils", "Vector3Container");

@@ -24,49 +24,49 @@ namespace TMPro {
 // CS Name: TMPro.TMP_Character
 class CORDL_TYPE TMP_Character : public ::TMPro::TMP_TextElement {
 public:
-  // Declarations
-  static inline ::TMPro::TMP_Character* New_ctor();
+// Declarations
+static inline ::TMPro::TMP_Character* New_ctor() ;
 
-  static inline ::TMPro::TMP_Character* New_ctor(uint32_t unicode, ::TMPro::TMP_FontAsset* fontAsset, ::UnityEngine::TextCore::Glyph* glyph);
+static inline ::TMPro::TMP_Character* New_ctor(uint32_t  unicode, ::TMPro::TMP_FontAsset*  fontAsset, ::UnityEngine::TextCore::Glyph*  glyph) ;
 
-  static inline ::TMPro::TMP_Character* New_ctor(uint32_t unicode, ::UnityEngine::TextCore::Glyph* glyph);
+static inline ::TMPro::TMP_Character* New_ctor(uint32_t  unicode, ::UnityEngine::TextCore::Glyph*  glyph) ;
 
-  static inline ::TMPro::TMP_Character* New_ctor(uint32_t unicode, uint32_t glyphIndex);
+static inline ::TMPro::TMP_Character* New_ctor(uint32_t  unicode, uint32_t  glyphIndex) ;
 
-  /// @brief Method .ctor, addr 0x680411c, size 0x14, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6805c94, size 0x14, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method .ctor, addr 0x680415c, size 0x2c, virtual false, abstract: false, final false
-  inline void _ctor(uint32_t unicode, ::TMPro::TMP_FontAsset* fontAsset, ::UnityEngine::TextCore::Glyph* glyph);
+/// @brief Method .ctor, addr 0x6805cd4, size 0x2c, virtual false, abstract: false, final false
+inline void _ctor(uint32_t  unicode, ::TMPro::TMP_FontAsset*  fontAsset, ::UnityEngine::TextCore::Glyph*  glyph) ;
 
-  /// @brief Method .ctor, addr 0x6804130, size 0x2c, virtual false, abstract: false, final false
-  inline void _ctor(uint32_t unicode, ::UnityEngine::TextCore::Glyph* glyph);
+/// @brief Method .ctor, addr 0x6805ca8, size 0x2c, virtual false, abstract: false, final false
+inline void _ctor(uint32_t  unicode, ::UnityEngine::TextCore::Glyph*  glyph) ;
 
-  /// @brief Method .ctor, addr 0x6804188, size 0x1c, virtual false, abstract: false, final false
-  inline void _ctor(uint32_t unicode, uint32_t glyphIndex);
+/// @brief Method .ctor, addr 0x6805d00, size 0x1c, virtual false, abstract: false, final false
+inline void _ctor(uint32_t  unicode, uint32_t  glyphIndex) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TMP_Character();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr TMP_Character() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TMP_Character", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  TMP_Character(TMP_Character&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TMP_Character", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  TMP_Character(TMP_Character const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "TMP_Character", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+TMP_Character(TMP_Character && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15864 };
+// Ctor Parameters [CppParam { name: "", ty: "TMP_Character", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+TMP_Character(TMP_Character const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{15866};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::TMPro::TMP_Character, 0x30>, "Size mismatch!");
 
-} // namespace TMPro
+} // namespace end def TMPro
 NEED_NO_BOX(::TMPro::TMP_Character);
 DEFINE_IL2CPP_ARG_TYPE(::TMPro::TMP_Character*, "TMPro", "TMP_Character");

@@ -15,50 +15,49 @@ struct XPathNodeRef;
 }
 // Write type traits
 MARK_VAL_T(::MS::Internal::Xml::Cache::XPathNodeRef);
-// Dependencies
+// Dependencies 
 namespace MS::Internal::Xml::Cache {
 // Is value type: true
 // CS Name: MS.Internal.Xml.Cache.XPathNodeRef
 struct CORDL_TYPE XPathNodeRef {
 public:
-  // Declarations
-  __declspec(property(get = get_Index)) int32_t Index;
+// Declarations
+ __declspec(property(get=get_Index)) int32_t  Index;
 
-  __declspec(property(get = get_Page)) ::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> Page;
+ __declspec(property(get=get_Page)) ::ArrayW<::MS::Internal::Xml::Cache::XPathNode,::Array<::MS::Internal::Xml::Cache::XPathNode>*>  Page;
 
-  /// @brief Method GetHashCode, addr 0x61390ec, size 0x10, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
+/// @brief Method GetHashCode, addr 0x613ac64, size 0x10, virtual true, abstract: false, final false
+inline int32_t GetHashCode() ;
 
-  /// @brief Method .ctor, addr 0x61390d0, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor(::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> page, int32_t idx);
+/// @brief Method .ctor, addr 0x613ac48, size 0xc, virtual false, abstract: false, final false
+inline void _ctor(::ArrayW<::MS::Internal::Xml::Cache::XPathNode,::Array<::MS::Internal::Xml::Cache::XPathNode>*>  page, int32_t  idx) ;
 
-  /// @brief Method get_Index, addr 0x61390e4, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_Index();
+/// @brief Method get_Index, addr 0x613ac5c, size 0x8, virtual false, abstract: false, final false
+inline int32_t get_Index() ;
 
-  /// @brief Method get_Page, addr 0x61390dc, size 0x8, virtual false, abstract: false, final false
-  inline ::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> get_Page();
+/// @brief Method get_Page, addr 0x613ac54, size 0x8, virtual false, abstract: false, final false
+inline ::ArrayW<::MS::Internal::Xml::Cache::XPathNode,::Array<::MS::Internal::Xml::Cache::XPathNode>*> get_Page() ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr XPathNodeRef();
+// Ctor Parameters []
+// @brief default ctor
+constexpr XPathNodeRef() ;
 
-  // Ctor Parameters [CppParam { name: "_page", ty: "::ArrayW<::MS::Internal::Xml::Cache::XPathNode,::Array<::MS::Internal::Xml::Cache::XPathNode>*>", modifiers: "", def_value: None }, CppParam {
-  // name: "_idx", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr XPathNodeRef(::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> _page, int32_t _idx) noexcept;
+// Ctor Parameters [CppParam { name: "_page", ty: "::ArrayW<::MS::Internal::Xml::Cache::XPathNode,::Array<::MS::Internal::Xml::Cache::XPathNode>*>", modifiers: "", def_value: None }, CppParam { name: "_idx", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr XPathNodeRef(::ArrayW<::MS::Internal::Xml::Cache::XPathNode,::Array<::MS::Internal::Xml::Cache::XPathNode>*>  _page, int32_t  _idx) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9869 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9870};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x10};
 
-  /// @brief Field _page, offset: 0x0, size: 0x8, def value: None
-  ::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> _page;
+/// @brief Field _page, offset: 0x0, size: 0x8, def value: None
+ ::ArrayW<::MS::Internal::Xml::Cache::XPathNode,::Array<::MS::Internal::Xml::Cache::XPathNode>*>  _page;
 
-  /// @brief Field _idx, offset: 0x8, size: 0x4, def value: None
-  int32_t _idx;
+/// @brief Field _idx, offset: 0x8, size: 0x4, def value: None
+ int32_t  _idx;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::MS::Internal::Xml::Cache::XPathNodeRef, _page) == 0x0, "Offset mismatch!");
@@ -67,5 +66,5 @@ static_assert(offsetof(::MS::Internal::Xml::Cache::XPathNodeRef, _idx) == 0x8, "
 
 static_assert(::cordl_internals::size_check_v<::MS::Internal::Xml::Cache::XPathNodeRef, 0x10>, "Size mismatch!");
 
-} // namespace MS::Internal::Xml::Cache
+} // namespace end def MS::Internal::Xml::Cache
 DEFINE_IL2CPP_ARG_TYPE(::MS::Internal::Xml::Cache::XPathNodeRef, "MS.Internal.Xml.Cache", "XPathNodeRef");

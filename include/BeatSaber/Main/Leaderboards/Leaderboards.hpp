@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "BeatSaber/Main/Leaderboards/BeatLeaderboards.hpp"
 #include "BeatSaber/Main/Leaderboards/BeatLeaderboardsState.hpp"
@@ -14,5 +14,6 @@ module;
 #include "BeatSaber/Main/Leaderboards/UpsertLeaderboardEntryMutation.hpp"
 #include "BeatSaber/Main/Leaderboards/UpsertUserMutation.hpp"
 #ifdef __cpp_modules
-export module Leaderboards;
-#endif
+                    export module Leaderboards;
+                    #endif
+                

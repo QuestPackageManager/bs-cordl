@@ -12,59 +12,59 @@ struct AnimationUpdateMode;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::AnimationUpdateMode);
-// Dependencies
+// Dependencies 
 namespace UnityEngine {
 // Is value type: true
 // CS Name: UnityEngine.AnimationUpdateMode
 struct CORDL_TYPE AnimationUpdateMode {
 public:
-  // Declarations
-  using __CORDL_BACKING_ENUM_TYPE = int32_t;
+// Declarations
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct __AnimationUpdateMode_Unwrapped
-  enum struct __AnimationUpdateMode_Unwrapped : int32_t {
-    __E_Normal = static_cast<int32_t>(0x0),
-    __E_Fixed = static_cast<int32_t>(0x1),
-  };
+/// @brief Nested struct __AnimationUpdateMode_Unwrapped
+enum struct __AnimationUpdateMode_Unwrapped : int32_t {
+__E_Normal = static_cast<int32_t>(0x0),
+__E_Fixed = static_cast<int32_t>(0x1),
+};
 
-  /// @brief Conversion into unwrapped enum value
-  constexpr operator __AnimationUpdateMode_Unwrapped() const noexcept {
-    return static_cast<__AnimationUpdateMode_Unwrapped>(this->value__);
-  }
+/// @brief Conversion into unwrapped enum value
+constexpr operator __AnimationUpdateMode_Unwrapped () const noexcept {
+return static_cast<__AnimationUpdateMode_Unwrapped>(this->value__);
+}
 
-  /// @brief Conversion into unwrapped enum value
-  constexpr explicit operator int32_t() const noexcept {
-    return static_cast<int32_t>(this->value__);
-  }
+/// @brief Conversion into unwrapped enum value
+constexpr explicit operator int32_t () const noexcept {
+return static_cast<int32_t>(this->value__);
+}
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AnimationUpdateMode();
+// Ctor Parameters []
+// @brief default ctor
+constexpr AnimationUpdateMode() ;
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr AnimationUpdateMode(int32_t value__) noexcept;
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr AnimationUpdateMode(int32_t  value__) noexcept;
 
-  /// @brief Field Fixed value: I32(1)
-  static ::UnityEngine::AnimationUpdateMode const Fixed;
+/// @brief Field Fixed value: I32(1)
+static ::UnityEngine::AnimationUpdateMode const Fixed;
 
-  /// @brief Field Normal value: I32(0)
-  static ::UnityEngine::AnimationUpdateMode const Normal;
+/// @brief Field Normal value: I32(0)
+static ::UnityEngine::AnimationUpdateMode const Normal;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19988 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19991};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x4};
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+/// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+ int32_t  value__;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::AnimationUpdateMode, value__) == 0x0, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::AnimationUpdateMode, 0x4>, "Size mismatch!");
 
-} // namespace UnityEngine
+} // namespace end def UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AnimationUpdateMode, "UnityEngine", "AnimationUpdateMode");

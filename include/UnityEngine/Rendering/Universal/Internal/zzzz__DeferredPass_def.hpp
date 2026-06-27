@@ -8,7 +8,8 @@ CORDL_MODULE_INIT
 #include "UnityEngine/Rendering/Universal/zzzz__ScriptableRenderPass_def.hpp"
 CORDL_MODULE_EXPORT(DeferredPass)
 namespace UnityEngine::Rendering::RenderGraphModule {
-template <typename PassData, typename ContextType> class BaseRenderFunc_2;
+template<typename PassData,typename ContextType>
+class BaseRenderFunc_2;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
 struct RasterGraphContext;
@@ -75,116 +76,114 @@ namespace UnityEngine::Rendering::Universal::Internal {
 // CS Name: UnityEngine.Rendering.Universal.Internal.DeferredPass/PassData
 class CORDL_TYPE DeferredPass_PassData : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field cameraData, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_cameraData, put = __cordl_internal_set_cameraData)) ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData;
+// Declarations
+/// @brief Field cameraData, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_cameraData, put=__cordl_internal_set_cameraData)) ::UnityEngine::Rendering::Universal::UniversalCameraData*  cameraData;
 
-  /// @brief Field color, offset 0x28, size 0x10
-  __declspec(property(get = __cordl_internal_get_color, put = __cordl_internal_set_color)) ::UnityEngine::Rendering::RenderGraphModule::TextureHandle color;
+/// @brief Field color, offset 0x28, size 0x10 
+ __declspec(property(get=__cordl_internal_get_color, put=__cordl_internal_set_color)) ::UnityEngine::Rendering::RenderGraphModule::TextureHandle  color;
 
-  /// @brief Field deferredLights, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_deferredLights, put = __cordl_internal_set_deferredLights)) ::UnityEngine::Rendering::Universal::Internal::DeferredLights* deferredLights;
+/// @brief Field deferredLights, offset 0x50, size 0x8 
+ __declspec(property(get=__cordl_internal_get_deferredLights, put=__cordl_internal_set_deferredLights)) ::UnityEngine::Rendering::Universal::Internal::DeferredLights*  deferredLights;
 
-  /// @brief Field depth, offset 0x38, size 0x10
-  __declspec(property(get = __cordl_internal_get_depth, put = __cordl_internal_set_depth)) ::UnityEngine::Rendering::RenderGraphModule::TextureHandle depth;
+/// @brief Field depth, offset 0x38, size 0x10 
+ __declspec(property(get=__cordl_internal_get_depth, put=__cordl_internal_set_depth)) ::UnityEngine::Rendering::RenderGraphModule::TextureHandle  depth;
 
-  /// @brief Field gbuffer, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_gbuffer,
-                      put = __cordl_internal_set_gbuffer)) ::ArrayW<::UnityEngine::Rendering::RenderGraphModule::TextureHandle, ::Array<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>*>
-      gbuffer;
+/// @brief Field gbuffer, offset 0x48, size 0x8 
+ __declspec(property(get=__cordl_internal_get_gbuffer, put=__cordl_internal_set_gbuffer)) ::ArrayW<::UnityEngine::Rendering::RenderGraphModule::TextureHandle,::Array<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>*>  gbuffer;
 
-  /// @brief Field lightData, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_lightData, put = __cordl_internal_set_lightData)) ::UnityEngine::Rendering::Universal::UniversalLightData* lightData;
+/// @brief Field lightData, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_lightData, put=__cordl_internal_set_lightData)) ::UnityEngine::Rendering::Universal::UniversalLightData*  lightData;
 
-  /// @brief Field shadowData, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_shadowData, put = __cordl_internal_set_shadowData)) ::UnityEngine::Rendering::Universal::UniversalShadowData* shadowData;
+/// @brief Field shadowData, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_shadowData, put=__cordl_internal_set_shadowData)) ::UnityEngine::Rendering::Universal::UniversalShadowData*  shadowData;
 
-  static inline ::UnityEngine::Rendering::Universal::Internal::DeferredPass_PassData* New_ctor();
+static inline ::UnityEngine::Rendering::Universal::Internal::DeferredPass_PassData* New_ctor() ;
 
-  constexpr ::UnityEngine::Rendering::Universal::UniversalCameraData* const& __cordl_internal_get_cameraData() const;
+constexpr ::UnityEngine::Rendering::Universal::UniversalCameraData* const& __cordl_internal_get_cameraData() const;
 
-  constexpr ::UnityEngine::Rendering::Universal::UniversalCameraData*& __cordl_internal_get_cameraData();
+constexpr ::UnityEngine::Rendering::Universal::UniversalCameraData*& __cordl_internal_get_cameraData() ;
 
-  constexpr ::UnityEngine::Rendering::RenderGraphModule::TextureHandle const& __cordl_internal_get_color() const;
+constexpr ::UnityEngine::Rendering::RenderGraphModule::TextureHandle const& __cordl_internal_get_color() const;
 
-  constexpr ::UnityEngine::Rendering::RenderGraphModule::TextureHandle& __cordl_internal_get_color();
+constexpr ::UnityEngine::Rendering::RenderGraphModule::TextureHandle& __cordl_internal_get_color() ;
 
-  constexpr ::UnityEngine::Rendering::Universal::Internal::DeferredLights* const& __cordl_internal_get_deferredLights() const;
+constexpr ::UnityEngine::Rendering::Universal::Internal::DeferredLights* const& __cordl_internal_get_deferredLights() const;
 
-  constexpr ::UnityEngine::Rendering::Universal::Internal::DeferredLights*& __cordl_internal_get_deferredLights();
+constexpr ::UnityEngine::Rendering::Universal::Internal::DeferredLights*& __cordl_internal_get_deferredLights() ;
 
-  constexpr ::UnityEngine::Rendering::RenderGraphModule::TextureHandle const& __cordl_internal_get_depth() const;
+constexpr ::UnityEngine::Rendering::RenderGraphModule::TextureHandle const& __cordl_internal_get_depth() const;
 
-  constexpr ::UnityEngine::Rendering::RenderGraphModule::TextureHandle& __cordl_internal_get_depth();
+constexpr ::UnityEngine::Rendering::RenderGraphModule::TextureHandle& __cordl_internal_get_depth() ;
 
-  constexpr ::ArrayW<::UnityEngine::Rendering::RenderGraphModule::TextureHandle, ::Array<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>*> const& __cordl_internal_get_gbuffer() const;
+constexpr ::ArrayW<::UnityEngine::Rendering::RenderGraphModule::TextureHandle,::Array<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>*> const& __cordl_internal_get_gbuffer() const;
 
-  constexpr ::ArrayW<::UnityEngine::Rendering::RenderGraphModule::TextureHandle, ::Array<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>*>& __cordl_internal_get_gbuffer();
+constexpr ::ArrayW<::UnityEngine::Rendering::RenderGraphModule::TextureHandle,::Array<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>*>& __cordl_internal_get_gbuffer() ;
 
-  constexpr ::UnityEngine::Rendering::Universal::UniversalLightData* const& __cordl_internal_get_lightData() const;
+constexpr ::UnityEngine::Rendering::Universal::UniversalLightData* const& __cordl_internal_get_lightData() const;
 
-  constexpr ::UnityEngine::Rendering::Universal::UniversalLightData*& __cordl_internal_get_lightData();
+constexpr ::UnityEngine::Rendering::Universal::UniversalLightData*& __cordl_internal_get_lightData() ;
 
-  constexpr ::UnityEngine::Rendering::Universal::UniversalShadowData* const& __cordl_internal_get_shadowData() const;
+constexpr ::UnityEngine::Rendering::Universal::UniversalShadowData* const& __cordl_internal_get_shadowData() const;
 
-  constexpr ::UnityEngine::Rendering::Universal::UniversalShadowData*& __cordl_internal_get_shadowData();
+constexpr ::UnityEngine::Rendering::Universal::UniversalShadowData*& __cordl_internal_get_shadowData() ;
 
-  constexpr void __cordl_internal_set_cameraData(::UnityEngine::Rendering::Universal::UniversalCameraData* value);
+constexpr void __cordl_internal_set_cameraData(::UnityEngine::Rendering::Universal::UniversalCameraData*  value) ;
 
-  constexpr void __cordl_internal_set_color(::UnityEngine::Rendering::RenderGraphModule::TextureHandle value);
+constexpr void __cordl_internal_set_color(::UnityEngine::Rendering::RenderGraphModule::TextureHandle  value) ;
 
-  constexpr void __cordl_internal_set_deferredLights(::UnityEngine::Rendering::Universal::Internal::DeferredLights* value);
+constexpr void __cordl_internal_set_deferredLights(::UnityEngine::Rendering::Universal::Internal::DeferredLights*  value) ;
 
-  constexpr void __cordl_internal_set_depth(::UnityEngine::Rendering::RenderGraphModule::TextureHandle value);
+constexpr void __cordl_internal_set_depth(::UnityEngine::Rendering::RenderGraphModule::TextureHandle  value) ;
 
-  constexpr void __cordl_internal_set_gbuffer(::ArrayW<::UnityEngine::Rendering::RenderGraphModule::TextureHandle, ::Array<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>*> value);
+constexpr void __cordl_internal_set_gbuffer(::ArrayW<::UnityEngine::Rendering::RenderGraphModule::TextureHandle,::Array<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>*>  value) ;
 
-  constexpr void __cordl_internal_set_lightData(::UnityEngine::Rendering::Universal::UniversalLightData* value);
+constexpr void __cordl_internal_set_lightData(::UnityEngine::Rendering::Universal::UniversalLightData*  value) ;
 
-  constexpr void __cordl_internal_set_shadowData(::UnityEngine::Rendering::Universal::UniversalShadowData* value);
+constexpr void __cordl_internal_set_shadowData(::UnityEngine::Rendering::Universal::UniversalShadowData*  value) ;
 
-  /// @brief Method .ctor, addr 0x67b8200, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x67b9d78, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DeferredPass_PassData();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr DeferredPass_PassData() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DeferredPass_PassData", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  DeferredPass_PassData(DeferredPass_PassData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DeferredPass_PassData", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  DeferredPass_PassData(DeferredPass_PassData const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "DeferredPass_PassData", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+DeferredPass_PassData(DeferredPass_PassData && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13065 };
+// Ctor Parameters [CppParam { name: "", ty: "DeferredPass_PassData", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+DeferredPass_PassData(DeferredPass_PassData const& ) = delete;
 
-  /// @brief Field cameraData, offset: 0x10, size: 0x8, def value: None
-  ::UnityEngine::Rendering::Universal::UniversalCameraData* ___cameraData;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{13066};
 
-  /// @brief Field lightData, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::Rendering::Universal::UniversalLightData* ___lightData;
+/// @brief Field cameraData, offset: 0x10, size: 0x8, def value: None
+ ::UnityEngine::Rendering::Universal::UniversalCameraData*  ___cameraData;
 
-  /// @brief Field shadowData, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::Rendering::Universal::UniversalShadowData* ___shadowData;
+/// @brief Field lightData, offset: 0x18, size: 0x8, def value: None
+ ::UnityEngine::Rendering::Universal::UniversalLightData*  ___lightData;
 
-  /// @brief Field color, offset: 0x28, size: 0x10, def value: None
-  ::UnityEngine::Rendering::RenderGraphModule::TextureHandle ___color;
+/// @brief Field shadowData, offset: 0x20, size: 0x8, def value: None
+ ::UnityEngine::Rendering::Universal::UniversalShadowData*  ___shadowData;
 
-  /// @brief Field depth, offset: 0x38, size: 0x10, def value: None
-  ::UnityEngine::Rendering::RenderGraphModule::TextureHandle ___depth;
+/// @brief Field color, offset: 0x28, size: 0x10, def value: None
+ ::UnityEngine::Rendering::RenderGraphModule::TextureHandle  ___color;
 
-  /// @brief Field gbuffer, offset: 0x48, size: 0x8, def value: None
-  ::ArrayW<::UnityEngine::Rendering::RenderGraphModule::TextureHandle, ::Array<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>*> ___gbuffer;
+/// @brief Field depth, offset: 0x38, size: 0x10, def value: None
+ ::UnityEngine::Rendering::RenderGraphModule::TextureHandle  ___depth;
 
-  /// @brief Field deferredLights, offset: 0x50, size: 0x8, def value: None
-  ::UnityEngine::Rendering::Universal::Internal::DeferredLights* ___deferredLights;
+/// @brief Field gbuffer, offset: 0x48, size: 0x8, def value: None
+ ::ArrayW<::UnityEngine::Rendering::RenderGraphModule::TextureHandle,::Array<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>*>  ___gbuffer;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field deferredLights, offset: 0x50, size: 0x8, def value: None
+ ::UnityEngine::Rendering::Universal::Internal::DeferredLights*  ___deferredLights;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::DeferredPass_PassData, ___cameraData) == 0x10, "Offset mismatch!");
@@ -203,132 +202,124 @@ static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::DeferredPa
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::Universal::Internal::DeferredPass_PassData, 0x58>, "Size mismatch!");
 
-} // namespace UnityEngine::Rendering::Universal::Internal
+} // namespace end def UnityEngine::Rendering::Universal::Internal
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal::Internal {
 // Is value type: false
 // CS Name: UnityEngine.Rendering.Universal.Internal.DeferredPass/<>c
 class CORDL_TYPE DeferredPass___c : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field <>9, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::Rendering::Universal::Internal::DeferredPass___c* __9;
+// Declarations
+/// @brief Field <>9, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF___9, put=setStaticF___9)) ::UnityEngine::Rendering::Universal::Internal::DeferredPass___c*  __9;
 
-  /// @brief Field <>9__5_0, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9__5_0,
-                      put = setStaticF___9__5_0)) ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::Internal::DeferredPass_PassData*,
-                                                                                                                ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>* __9__5_0;
+/// @brief Field <>9__5_0, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF___9__5_0, put=setStaticF___9__5_0)) ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::Internal::DeferredPass_PassData*,::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>*  __9__5_0;
 
-  static inline ::UnityEngine::Rendering::Universal::Internal::DeferredPass___c* New_ctor();
+static inline ::UnityEngine::Rendering::Universal::Internal::DeferredPass___c* New_ctor() ;
 
-  /// @brief Method <Render>b__5_0, addr 0x67b825c, size 0x30, virtual false, abstract: false, final false
-  inline void _Render_b__5_0(::UnityEngine::Rendering::Universal::Internal::DeferredPass_PassData* data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context);
+/// @brief Method <Render>b__5_0, addr 0x67b9dd4, size 0x30, virtual false, abstract: false, final false
+inline void _Render_b__5_0(::UnityEngine::Rendering::Universal::Internal::DeferredPass_PassData*  data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext  context) ;
 
-  /// @brief Method .ctor, addr 0x67b8258, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x67b9dd0, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  static inline ::UnityEngine::Rendering::Universal::Internal::DeferredPass___c* getStaticF___9();
+static inline ::UnityEngine::Rendering::Universal::Internal::DeferredPass___c* getStaticF___9() ;
 
-  static inline ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::Internal::DeferredPass_PassData*,
-                                                                              ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>*
-  getStaticF___9__5_0();
+static inline ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::Internal::DeferredPass_PassData*,::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>* getStaticF___9__5_0() ;
 
-  static inline void setStaticF___9(::UnityEngine::Rendering::Universal::Internal::DeferredPass___c* value);
+static inline void setStaticF___9(::UnityEngine::Rendering::Universal::Internal::DeferredPass___c*  value) ;
 
-  static inline void setStaticF___9__5_0(::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::Internal::DeferredPass_PassData*,
-                                                                                                       ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>* value);
+static inline void setStaticF___9__5_0(::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::Internal::DeferredPass_PassData*,::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DeferredPass___c();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr DeferredPass___c() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DeferredPass___c", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  DeferredPass___c(DeferredPass___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DeferredPass___c", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  DeferredPass___c(DeferredPass___c const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "DeferredPass___c", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+DeferredPass___c(DeferredPass___c && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13066 };
+// Ctor Parameters [CppParam { name: "", ty: "DeferredPass___c", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+DeferredPass___c(DeferredPass___c const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{13067};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::Universal::Internal::DeferredPass___c, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::Rendering::Universal::Internal
+} // namespace end def UnityEngine::Rendering::Universal::Internal
 // Dependencies UnityEngine.Rendering.Universal.ScriptableRenderPass
 namespace UnityEngine::Rendering::Universal::Internal {
 // Is value type: false
 // CS Name: UnityEngine.Rendering.Universal.Internal.DeferredPass
 class CORDL_TYPE DeferredPass : public ::UnityEngine::Rendering::Universal::ScriptableRenderPass {
 public:
-  // Declarations
-  using PassData = ::UnityEngine::Rendering::Universal::Internal::DeferredPass_PassData;
+// Declarations
+using PassData = ::UnityEngine::Rendering::Universal::Internal::DeferredPass_PassData;
 
-  using __c = ::UnityEngine::Rendering::Universal::Internal::DeferredPass___c;
+using __c = ::UnityEngine::Rendering::Universal::Internal::DeferredPass___c;
 
-  /// @brief Field m_DeferredLights, offset 0xb8, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_DeferredLights, put = __cordl_internal_set_m_DeferredLights)) ::UnityEngine::Rendering::Universal::Internal::DeferredLights* m_DeferredLights;
+/// @brief Field m_DeferredLights, offset 0xb8, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_DeferredLights, put=__cordl_internal_set_m_DeferredLights)) ::UnityEngine::Rendering::Universal::Internal::DeferredLights*  m_DeferredLights;
 
-  /// @brief Method Configure, addr 0x67b78c8, size 0x4c, virtual true, abstract: false, final false
-  inline void Configure(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::RenderTextureDescriptor cameraTextureDescripor);
+/// @brief Method Configure, addr 0x67b9440, size 0x4c, virtual true, abstract: false, final false
+inline void Configure(::UnityEngine::Rendering::CommandBuffer*  cmd, ::UnityEngine::RenderTextureDescriptor  cameraTextureDescripor) ;
 
-  /// @brief Method Execute, addr 0x67b7914, size 0x124, virtual true, abstract: false, final false
-  inline void Execute(::UnityEngine::Rendering::ScriptableRenderContext context, ::ByRef<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
+/// @brief Method Execute, addr 0x67b948c, size 0x124, virtual true, abstract: false, final false
+inline void Execute(::UnityEngine::Rendering::ScriptableRenderContext  context, ::ByRef<::UnityEngine::Rendering::Universal::RenderingData>  renderingData) ;
 
-  static inline ::UnityEngine::Rendering::Universal::Internal::DeferredPass* New_ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt,
-                                                                                      ::UnityEngine::Rendering::Universal::Internal::DeferredLights* deferredLights);
+static inline ::UnityEngine::Rendering::Universal::Internal::DeferredPass* New_ctor(::UnityEngine::Rendering::Universal::RenderPassEvent  evt, ::UnityEngine::Rendering::Universal::Internal::DeferredLights*  deferredLights) ;
 
-  /// @brief Method OnCameraCleanup, addr 0x67b81e8, size 0x18, virtual true, abstract: false, final false
-  inline void OnCameraCleanup(::UnityEngine::Rendering::CommandBuffer* cmd);
+/// @brief Method OnCameraCleanup, addr 0x67b9d60, size 0x18, virtual true, abstract: false, final false
+inline void OnCameraCleanup(::UnityEngine::Rendering::CommandBuffer*  cmd) ;
 
-  /// @brief Method Render, addr 0x67b7a38, size 0x7b0, virtual false, abstract: false, final false
-  inline void Render(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData,
-                     ::UnityEngine::Rendering::RenderGraphModule::TextureHandle color, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle depth,
-                     ::ArrayW<::UnityEngine::Rendering::RenderGraphModule::TextureHandle, ::Array<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>*> gbuffer);
+/// @brief Method Render, addr 0x67b95b0, size 0x7b0, virtual false, abstract: false, final false
+inline void Render(::UnityEngine::Rendering::RenderGraphModule::RenderGraph*  renderGraph, ::UnityEngine::Rendering::ContextContainer*  frameData, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle  color, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle  depth, ::ArrayW<::UnityEngine::Rendering::RenderGraphModule::TextureHandle,::Array<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>*>  gbuffer) ;
 
-  constexpr ::UnityEngine::Rendering::Universal::Internal::DeferredLights* const& __cordl_internal_get_m_DeferredLights() const;
+constexpr ::UnityEngine::Rendering::Universal::Internal::DeferredLights* const& __cordl_internal_get_m_DeferredLights() const;
 
-  constexpr ::UnityEngine::Rendering::Universal::Internal::DeferredLights*& __cordl_internal_get_m_DeferredLights();
+constexpr ::UnityEngine::Rendering::Universal::Internal::DeferredLights*& __cordl_internal_get_m_DeferredLights() ;
 
-  constexpr void __cordl_internal_set_m_DeferredLights(::UnityEngine::Rendering::Universal::Internal::DeferredLights* value);
+constexpr void __cordl_internal_set_m_DeferredLights(::UnityEngine::Rendering::Universal::Internal::DeferredLights*  value) ;
 
-  /// @brief Method .ctor, addr 0x67b77f8, size 0xd0, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt, ::UnityEngine::Rendering::Universal::Internal::DeferredLights* deferredLights);
+/// @brief Method .ctor, addr 0x67b9370, size 0xd0, virtual false, abstract: false, final false
+inline void _ctor(::UnityEngine::Rendering::Universal::RenderPassEvent  evt, ::UnityEngine::Rendering::Universal::Internal::DeferredLights*  deferredLights) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DeferredPass();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr DeferredPass() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DeferredPass", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  DeferredPass(DeferredPass&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DeferredPass", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  DeferredPass(DeferredPass const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "DeferredPass", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+DeferredPass(DeferredPass && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13067 };
+// Ctor Parameters [CppParam { name: "", ty: "DeferredPass", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+DeferredPass(DeferredPass const& ) = delete;
 
-  /// @brief Field m_DeferredLights, offset: 0xb8, size: 0x8, def value: None
-  ::UnityEngine::Rendering::Universal::Internal::DeferredLights* ___m_DeferredLights;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{13068};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field m_DeferredLights, offset: 0xb8, size: 0x8, def value: None
+ ::UnityEngine::Rendering::Universal::Internal::DeferredLights*  ___m_DeferredLights;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::DeferredPass, ___m_DeferredLights) == 0xb8, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::Universal::Internal::DeferredPass, 0xc0>, "Size mismatch!");
 
-} // namespace UnityEngine::Rendering::Universal::Internal
+} // namespace end def UnityEngine::Rendering::Universal::Internal
 NEED_NO_BOX(::UnityEngine::Rendering::Universal::Internal::DeferredPass);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::Universal::Internal::DeferredPass*, "UnityEngine.Rendering.Universal.Internal", "DeferredPass");
 NEED_NO_BOX(::UnityEngine::Rendering::Universal::Internal::DeferredPass_PassData);

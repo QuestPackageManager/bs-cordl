@@ -20,38 +20,38 @@ namespace Newtonsoft::Json::Utilities {
 // CS Name: Newtonsoft.Json.Utilities.JsonTokenUtils
 class CORDL_TYPE JsonTokenUtils : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method IsEndToken, addr 0x5bdda48, size 0x10, virtual false, abstract: false, final false
-  static inline bool IsEndToken(::Newtonsoft::Json::JsonToken token);
+// Declarations
+/// @brief Method IsEndToken, addr 0x5bdf5c0, size 0x10, virtual false, abstract: false, final false
+static inline bool IsEndToken(::Newtonsoft::Json::JsonToken  token) ;
 
-  /// @brief Method IsPrimitiveToken, addr 0x5bf142c, size 0x18, virtual false, abstract: false, final false
-  static inline bool IsPrimitiveToken(::Newtonsoft::Json::JsonToken token);
+/// @brief Method IsPrimitiveToken, addr 0x5bf2fa4, size 0x18, virtual false, abstract: false, final false
+static inline bool IsPrimitiveToken(::Newtonsoft::Json::JsonToken  token) ;
 
-  /// @brief Method IsStartToken, addr 0x5bf141c, size 0x10, virtual false, abstract: false, final false
-  static inline bool IsStartToken(::Newtonsoft::Json::JsonToken token);
+/// @brief Method IsStartToken, addr 0x5bf2f94, size 0x10, virtual false, abstract: false, final false
+static inline bool IsStartToken(::Newtonsoft::Json::JsonToken  token) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr JsonTokenUtils();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr JsonTokenUtils() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "JsonTokenUtils", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  JsonTokenUtils(JsonTokenUtils&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "JsonTokenUtils", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  JsonTokenUtils(JsonTokenUtils const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "JsonTokenUtils", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+JsonTokenUtils(JsonTokenUtils && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13418 };
+// Ctor Parameters [CppParam { name: "", ty: "JsonTokenUtils", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+JsonTokenUtils(JsonTokenUtils const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{13419};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Utilities::JsonTokenUtils, 0x10>, "Size mismatch!");
 
-} // namespace Newtonsoft::Json::Utilities
+} // namespace end def Newtonsoft::Json::Utilities
 NEED_NO_BOX(::Newtonsoft::Json::Utilities::JsonTokenUtils);
 DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Utilities::JsonTokenUtils*, "Newtonsoft.Json.Utilities", "JsonTokenUtils");

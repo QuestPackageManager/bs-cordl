@@ -20,63 +20,63 @@ namespace GlobalNamespace {
 // CS Name: Signal
 class CORDL_TYPE Signal : public ::UnityEngine::ScriptableObject {
 public:
-  // Declarations
-  /// @brief Field _event, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__event, put = __cordl_internal_set__event)) ::System::Action* _event;
+// Declarations
+/// @brief Field _event, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get__event, put=__cordl_internal_set__event)) ::System::Action*  _event;
 
-  static inline ::GlobalNamespace::Signal* New_ctor();
+static inline ::GlobalNamespace::Signal* New_ctor() ;
 
-  /// @brief Method Raise, addr 0x5711da8, size 0x1c, virtual true, abstract: false, final false
-  inline void Raise();
+/// @brief Method Raise, addr 0x5713610, size 0x1c, virtual true, abstract: false, final false
+inline void Raise() ;
 
-  /// @brief Method Subscribe, addr 0x5711dc4, size 0x28, virtual false, abstract: false, final false
-  inline void Subscribe(::System::Action* foo);
+/// @brief Method Subscribe, addr 0x571362c, size 0x28, virtual false, abstract: false, final false
+inline void Subscribe(::System::Action*  foo) ;
 
-  /// @brief Method Unsubscribe, addr 0x5711dec, size 0x4, virtual false, abstract: false, final false
-  inline void Unsubscribe(::System::Action* foo);
+/// @brief Method Unsubscribe, addr 0x5713654, size 0x4, virtual false, abstract: false, final false
+inline void Unsubscribe(::System::Action*  foo) ;
 
-  constexpr ::System::Action* const& __cordl_internal_get__event() const;
+constexpr ::System::Action* const& __cordl_internal_get__event() const;
 
-  constexpr ::System::Action*& __cordl_internal_get__event();
+constexpr ::System::Action*& __cordl_internal_get__event() ;
 
-  constexpr void __cordl_internal_set__event(::System::Action* value);
+constexpr void __cordl_internal_set__event(::System::Action*  value) ;
 
-  /// @brief Method .ctor, addr 0x5711df0, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5713658, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method add__event, addr 0x5711c50, size 0xac, virtual false, abstract: false, final false
-  inline void add__event(::System::Action* value);
+/// @brief Method add__event, addr 0x57134b8, size 0xac, virtual false, abstract: false, final false
+inline void add__event(::System::Action*  value) ;
 
-  /// @brief Method remove__event, addr 0x5711cfc, size 0xac, virtual false, abstract: false, final false
-  inline void remove__event(::System::Action* value);
+/// @brief Method remove__event, addr 0x5713564, size 0xac, virtual false, abstract: false, final false
+inline void remove__event(::System::Action*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Signal();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr Signal() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Signal", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  Signal(Signal&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Signal", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  Signal(Signal const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "Signal", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Signal(Signal && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20298 };
+// Ctor Parameters [CppParam { name: "", ty: "Signal", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Signal(Signal const& ) = delete;
 
-  /// @brief Field _event, offset: 0x18, size: 0x8, def value: None
-  ::System::Action* ____event;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20301};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _event, offset: 0x18, size: 0x8, def value: None
+ ::System::Action*  ____event;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::Signal, ____event) == 0x18, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::Signal, 0x20>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::Signal);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::Signal*, "", "Signal");

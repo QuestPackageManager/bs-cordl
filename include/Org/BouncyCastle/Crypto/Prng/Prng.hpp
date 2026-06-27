@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "Org/BouncyCastle/Crypto/Prng/BasicEntropySourceProvider.hpp"
 #include "Org/BouncyCastle/Crypto/Prng/CryptoApiEntropySourceProvider.hpp"
@@ -19,5 +19,6 @@ module;
 #include "Org/BouncyCastle/Crypto/Prng/X931SecureRandom.hpp"
 #include "Org/BouncyCastle/Crypto/Prng/X931SecureRandomBuilder.hpp"
 #ifdef __cpp_modules
-export module Prng;
-#endif
+                    export module Prng;
+                    #endif
+                

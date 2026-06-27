@@ -35,78 +35,78 @@ namespace Org::BouncyCastle::Asn1::Cms {
 // CS Name: Org.BouncyCastle.Asn1.Cms.OtherRecipientInfo
 class CORDL_TYPE OtherRecipientInfo : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
-  // Declarations
-  __declspec(property(get = get_OriType)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* OriType;
+// Declarations
+ __declspec(property(get=get_OriType)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier*  OriType;
 
-  __declspec(property(get = get_OriValue)) ::Org::BouncyCastle::Asn1::Asn1Encodable* OriValue;
+ __declspec(property(get=get_OriValue)) ::Org::BouncyCastle::Asn1::Asn1Encodable*  OriValue;
 
-  /// @brief Field oriType, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_oriType, put = __cordl_internal_set_oriType)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* oriType;
+/// @brief Field oriType, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_oriType, put=__cordl_internal_set_oriType)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier*  oriType;
 
-  /// @brief Field oriValue, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_oriValue, put = __cordl_internal_set_oriValue)) ::Org::BouncyCastle::Asn1::Asn1Encodable* oriValue;
+/// @brief Field oriValue, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_oriValue, put=__cordl_internal_set_oriValue)) ::Org::BouncyCastle::Asn1::Asn1Encodable*  oriValue;
 
-  /// @brief Method GetInstance, addr 0x329ea00, size 0x14, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::Cms::OtherRecipientInfo* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
+/// @brief Method GetInstance, addr 0x329f79c, size 0x14, virtual false, abstract: false, final false
+static inline ::Org::BouncyCastle::Asn1::Cms::OtherRecipientInfo* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject*  obj, bool  explicitly) ;
 
-  /// @brief Method GetInstance, addr 0x329ea14, size 0xa0, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::Cms::OtherRecipientInfo* GetInstance(::System::Object* obj);
+/// @brief Method GetInstance, addr 0x329f7b0, size 0xa0, virtual false, abstract: false, final false
+static inline ::Org::BouncyCastle::Asn1::Cms::OtherRecipientInfo* GetInstance(::System::Object*  obj) ;
 
-  static inline ::Org::BouncyCastle::Asn1::Cms::OtherRecipientInfo* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oriType, ::Org::BouncyCastle::Asn1::Asn1Encodable* oriValue);
+static inline ::Org::BouncyCastle::Asn1::Cms::OtherRecipientInfo* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier*  oriType, ::Org::BouncyCastle::Asn1::Asn1Encodable*  oriValue) ;
 
-  static inline ::Org::BouncyCastle::Asn1::Cms::OtherRecipientInfo* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
+static inline ::Org::BouncyCastle::Asn1::Cms::OtherRecipientInfo* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence*  seq) ;
 
-  /// @brief Method ToAsn1Object, addr 0x329eac4, size 0xf0, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
+/// @brief Method ToAsn1Object, addr 0x329f860, size 0xf0, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object() ;
 
-  constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier* const& __cordl_internal_get_oriType() const;
+constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier* const& __cordl_internal_get_oriType() const;
 
-  constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __cordl_internal_get_oriType();
+constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __cordl_internal_get_oriType() ;
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1Encodable* const& __cordl_internal_get_oriValue() const;
+constexpr ::Org::BouncyCastle::Asn1::Asn1Encodable* const& __cordl_internal_get_oriValue() const;
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1Encodable*& __cordl_internal_get_oriValue();
+constexpr ::Org::BouncyCastle::Asn1::Asn1Encodable*& __cordl_internal_get_oriValue() ;
 
-  constexpr void __cordl_internal_set_oriType(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+constexpr void __cordl_internal_set_oriType(::Org::BouncyCastle::Asn1::DerObjectIdentifier*  value) ;
 
-  constexpr void __cordl_internal_set_oriValue(::Org::BouncyCastle::Asn1::Asn1Encodable* value);
+constexpr void __cordl_internal_set_oriValue(::Org::BouncyCastle::Asn1::Asn1Encodable*  value) ;
 
-  /// @brief Method .ctor, addr 0x329e94c, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oriType, ::Org::BouncyCastle::Asn1::Asn1Encodable* oriValue);
+/// @brief Method .ctor, addr 0x329f6e8, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier*  oriType, ::Org::BouncyCastle::Asn1::Asn1Encodable*  oriValue) ;
 
-  /// @brief Method .ctor, addr 0x329e954, size 0xac, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
+/// @brief Method .ctor, addr 0x329f6f0, size 0xac, virtual false, abstract: false, final false
+inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence*  seq) ;
 
-  /// @brief Method get_OriType, addr 0x329eab4, size 0x8, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_OriType();
+/// @brief Method get_OriType, addr 0x329f850, size 0x8, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_OriType() ;
 
-  /// @brief Method get_OriValue, addr 0x329eabc, size 0x8, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Asn1Encodable* get_OriValue();
+/// @brief Method get_OriValue, addr 0x329f858, size 0x8, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Asn1::Asn1Encodable* get_OriValue() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OtherRecipientInfo();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr OtherRecipientInfo() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OtherRecipientInfo", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  OtherRecipientInfo(OtherRecipientInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OtherRecipientInfo", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  OtherRecipientInfo(OtherRecipientInfo const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "OtherRecipientInfo", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+OtherRecipientInfo(OtherRecipientInfo && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 85 };
+// Ctor Parameters [CppParam { name: "", ty: "OtherRecipientInfo", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+OtherRecipientInfo(OtherRecipientInfo const& ) = delete;
 
-  /// @brief Field oriType, offset: 0x10, size: 0x8, def value: None
-  ::Org::BouncyCastle::Asn1::DerObjectIdentifier* ___oriType;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{85};
 
-  /// @brief Field oriValue, offset: 0x18, size: 0x8, def value: None
-  ::Org::BouncyCastle::Asn1::Asn1Encodable* ___oriValue;
+/// @brief Field oriType, offset: 0x10, size: 0x8, def value: None
+ ::Org::BouncyCastle::Asn1::DerObjectIdentifier*  ___oriType;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field oriValue, offset: 0x18, size: 0x8, def value: None
+ ::Org::BouncyCastle::Asn1::Asn1Encodable*  ___oriValue;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Org::BouncyCastle::Asn1::Cms::OtherRecipientInfo, ___oriType) == 0x10, "Offset mismatch!");
@@ -115,6 +115,6 @@ static_assert(offsetof(::Org::BouncyCastle::Asn1::Cms::OtherRecipientInfo, ___or
 
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Cms::OtherRecipientInfo, 0x20>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Asn1::Cms
+} // namespace end def Org::BouncyCastle::Asn1::Cms
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Cms::OtherRecipientInfo);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::Cms::OtherRecipientInfo*, "Org.BouncyCastle.Asn1.Cms", "OtherRecipientInfo");

@@ -25,138 +25,138 @@ namespace System::Reflection {
 // CS Name: System.Reflection.SignatureConstructedGenericType
 class CORDL_TYPE SignatureConstructedGenericType : public ::System::Reflection::SignatureType {
 public:
-  // Declarations
-  __declspec(property(get = get_ContainsGenericParameters)) bool ContainsGenericParameters;
+// Declarations
+ __declspec(property(get=get_ContainsGenericParameters)) bool  ContainsGenericParameters;
 
-  __declspec(property(get = get_ElementType)) ::System::Reflection::SignatureType* ElementType;
+ __declspec(property(get=get_ElementType)) ::System::Reflection::SignatureType*  ElementType;
 
-  __declspec(property(get = get_GenericParameterPosition)) int32_t GenericParameterPosition;
+ __declspec(property(get=get_GenericParameterPosition)) int32_t  GenericParameterPosition;
 
-  __declspec(property(get = get_GenericTypeArguments)) ::ArrayW<::System::Type*, ::Array<::System::Type*>*> GenericTypeArguments;
+ __declspec(property(get=get_GenericTypeArguments)) ::ArrayW<::System::Type*,::Array<::System::Type*>*>  GenericTypeArguments;
 
-  __declspec(property(get = get_IsConstructedGenericType)) bool IsConstructedGenericType;
+ __declspec(property(get=get_IsConstructedGenericType)) bool  IsConstructedGenericType;
 
-  __declspec(property(get = get_IsGenericMethodParameter)) bool IsGenericMethodParameter;
+ __declspec(property(get=get_IsGenericMethodParameter)) bool  IsGenericMethodParameter;
 
-  __declspec(property(get = get_IsGenericParameter)) bool IsGenericParameter;
+ __declspec(property(get=get_IsGenericParameter)) bool  IsGenericParameter;
 
-  __declspec(property(get = get_IsGenericTypeDefinition)) bool IsGenericTypeDefinition;
+ __declspec(property(get=get_IsGenericTypeDefinition)) bool  IsGenericTypeDefinition;
 
-  __declspec(property(get = get_IsSZArray)) bool IsSZArray;
+ __declspec(property(get=get_IsSZArray)) bool  IsSZArray;
 
-  __declspec(property(get = get_IsVariableBoundArray)) bool IsVariableBoundArray;
+ __declspec(property(get=get_IsVariableBoundArray)) bool  IsVariableBoundArray;
 
-  __declspec(property(get = get_Name)) ::StringW Name;
+ __declspec(property(get=get_Name)) ::StringW  Name;
 
-  __declspec(property(get = get_Namespace)) ::StringW Namespace;
+ __declspec(property(get=get_Namespace)) ::StringW  Namespace;
 
-  /// @brief Field _genericTypeArguments, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__genericTypeArguments, put = __cordl_internal_set__genericTypeArguments)) ::ArrayW<::System::Type*, ::Array<::System::Type*>*> _genericTypeArguments;
+/// @brief Field _genericTypeArguments, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get__genericTypeArguments, put=__cordl_internal_set__genericTypeArguments)) ::ArrayW<::System::Type*,::Array<::System::Type*>*>  _genericTypeArguments;
 
-  /// @brief Field _genericTypeDefinition, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__genericTypeDefinition, put = __cordl_internal_set__genericTypeDefinition)) ::System::Type* _genericTypeDefinition;
+/// @brief Field _genericTypeDefinition, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get__genericTypeDefinition, put=__cordl_internal_set__genericTypeDefinition)) ::System::Type*  _genericTypeDefinition;
 
-  /// @brief Method GetArrayRank, addr 0x5a43eb8, size 0x4c, virtual true, abstract: false, final true
-  inline int32_t GetArrayRank();
+/// @brief Method GetArrayRank, addr 0x5a45a30, size 0x4c, virtual true, abstract: false, final true
+inline int32_t GetArrayRank() ;
 
-  /// @brief Method GetGenericArguments, addr 0x5a43f0c, size 0x10, virtual true, abstract: false, final true
-  inline ::ArrayW<::System::Type*, ::Array<::System::Type*>*> GetGenericArguments();
+/// @brief Method GetGenericArguments, addr 0x5a45a84, size 0x10, virtual true, abstract: false, final true
+inline ::ArrayW<::System::Type*,::Array<::System::Type*>*> GetGenericArguments() ;
 
-  /// @brief Method GetGenericTypeDefinition, addr 0x5a43f04, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Type* GetGenericTypeDefinition();
+/// @brief Method GetGenericTypeDefinition, addr 0x5a45a7c, size 0x8, virtual true, abstract: false, final true
+inline ::System::Type* GetGenericTypeDefinition() ;
 
-  /// @brief Method HasElementTypeImpl, addr 0x5a43e00, size 0x8, virtual true, abstract: false, final true
-  inline bool HasElementTypeImpl();
+/// @brief Method HasElementTypeImpl, addr 0x5a45978, size 0x8, virtual true, abstract: false, final true
+inline bool HasElementTypeImpl() ;
 
-  /// @brief Method IsArrayImpl, addr 0x5a43e08, size 0x8, virtual true, abstract: false, final true
-  inline bool IsArrayImpl();
+/// @brief Method IsArrayImpl, addr 0x5a45980, size 0x8, virtual true, abstract: false, final true
+inline bool IsArrayImpl() ;
 
-  /// @brief Method IsByRefImpl, addr 0x5a43e10, size 0x8, virtual true, abstract: false, final true
-  inline bool IsByRefImpl();
+/// @brief Method IsByRefImpl, addr 0x5a45988, size 0x8, virtual true, abstract: false, final true
+inline bool IsByRefImpl() ;
 
-  /// @brief Method IsPointerImpl, addr 0x5a43e18, size 0x8, virtual true, abstract: false, final true
-  inline bool IsPointerImpl();
+/// @brief Method IsPointerImpl, addr 0x5a45990, size 0x8, virtual true, abstract: false, final true
+inline bool IsPointerImpl() ;
 
-  static inline ::System::Reflection::SignatureConstructedGenericType* New_ctor(::System::Type* genericTypeDefinition, ::ArrayW<::System::Type*, ::Array<::System::Type*>*> typeArguments);
+static inline ::System::Reflection::SignatureConstructedGenericType* New_ctor(::System::Type*  genericTypeDefinition, ::ArrayW<::System::Type*,::Array<::System::Type*>*>  typeArguments) ;
 
-  /// @brief Method ToString, addr 0x5a4401c, size 0x120, virtual true, abstract: false, final true
-  inline ::StringW ToString();
+/// @brief Method ToString, addr 0x5a45b94, size 0x120, virtual true, abstract: false, final true
+inline ::StringW ToString() ;
 
-  constexpr ::ArrayW<::System::Type*, ::Array<::System::Type*>*> const& __cordl_internal_get__genericTypeArguments() const;
+constexpr ::ArrayW<::System::Type*,::Array<::System::Type*>*> const& __cordl_internal_get__genericTypeArguments() const;
 
-  constexpr ::ArrayW<::System::Type*, ::Array<::System::Type*>*>& __cordl_internal_get__genericTypeArguments();
+constexpr ::ArrayW<::System::Type*,::Array<::System::Type*>*>& __cordl_internal_get__genericTypeArguments() ;
 
-  constexpr ::System::Type* const& __cordl_internal_get__genericTypeDefinition() const;
+constexpr ::System::Type* const& __cordl_internal_get__genericTypeDefinition() const;
 
-  constexpr ::System::Type*& __cordl_internal_get__genericTypeDefinition();
+constexpr ::System::Type*& __cordl_internal_get__genericTypeDefinition() ;
 
-  constexpr void __cordl_internal_set__genericTypeArguments(::ArrayW<::System::Type*, ::Array<::System::Type*>*> value);
+constexpr void __cordl_internal_set__genericTypeArguments(::ArrayW<::System::Type*,::Array<::System::Type*>*>  value) ;
 
-  constexpr void __cordl_internal_set__genericTypeDefinition(::System::Type* value);
+constexpr void __cordl_internal_set__genericTypeDefinition(::System::Type*  value) ;
 
-  /// @brief Method .ctor, addr 0x5a43c6c, size 0x174, virtual false, abstract: false, final false
-  inline void _ctor(::System::Type* genericTypeDefinition, ::ArrayW<::System::Type*, ::Array<::System::Type*>*> typeArguments);
+/// @brief Method .ctor, addr 0x5a457e4, size 0x174, virtual false, abstract: false, final false
+inline void _ctor(::System::Type*  genericTypeDefinition, ::ArrayW<::System::Type*,::Array<::System::Type*>*>  typeArguments) ;
 
-  /// @brief Method get_ContainsGenericParameters, addr 0x5a43e48, size 0x68, virtual true, abstract: false, final true
-  inline bool get_ContainsGenericParameters();
+/// @brief Method get_ContainsGenericParameters, addr 0x5a459c0, size 0x68, virtual true, abstract: false, final true
+inline bool get_ContainsGenericParameters() ;
 
-  /// @brief Method get_ElementType, addr 0x5a43eb0, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Reflection::SignatureType* get_ElementType();
+/// @brief Method get_ElementType, addr 0x5a45a28, size 0x8, virtual true, abstract: false, final true
+inline ::System::Reflection::SignatureType* get_ElementType() ;
 
-  /// @brief Method get_GenericParameterPosition, addr 0x5a43f94, size 0x4c, virtual true, abstract: false, final true
-  inline int32_t get_GenericParameterPosition();
+/// @brief Method get_GenericParameterPosition, addr 0x5a45b0c, size 0x4c, virtual true, abstract: false, final true
+inline int32_t get_GenericParameterPosition() ;
 
-  /// @brief Method get_GenericTypeArguments, addr 0x5a43f1c, size 0x78, virtual true, abstract: false, final true
-  inline ::ArrayW<::System::Type*, ::Array<::System::Type*>*> get_GenericTypeArguments();
+/// @brief Method get_GenericTypeArguments, addr 0x5a45a94, size 0x78, virtual true, abstract: false, final true
+inline ::ArrayW<::System::Type*,::Array<::System::Type*>*> get_GenericTypeArguments() ;
 
-  /// @brief Method get_IsConstructedGenericType, addr 0x5a43e30, size 0x8, virtual true, abstract: false, final true
-  inline bool get_IsConstructedGenericType();
+/// @brief Method get_IsConstructedGenericType, addr 0x5a459a8, size 0x8, virtual true, abstract: false, final true
+inline bool get_IsConstructedGenericType() ;
 
-  /// @brief Method get_IsGenericMethodParameter, addr 0x5a43e40, size 0x8, virtual true, abstract: false, final true
-  inline bool get_IsGenericMethodParameter();
+/// @brief Method get_IsGenericMethodParameter, addr 0x5a459b8, size 0x8, virtual true, abstract: false, final true
+inline bool get_IsGenericMethodParameter() ;
 
-  /// @brief Method get_IsGenericParameter, addr 0x5a43e38, size 0x8, virtual true, abstract: false, final true
-  inline bool get_IsGenericParameter();
+/// @brief Method get_IsGenericParameter, addr 0x5a459b0, size 0x8, virtual true, abstract: false, final true
+inline bool get_IsGenericParameter() ;
 
-  /// @brief Method get_IsGenericTypeDefinition, addr 0x5a43df8, size 0x8, virtual true, abstract: false, final true
-  inline bool get_IsGenericTypeDefinition();
+/// @brief Method get_IsGenericTypeDefinition, addr 0x5a45970, size 0x8, virtual true, abstract: false, final true
+inline bool get_IsGenericTypeDefinition() ;
 
-  /// @brief Method get_IsSZArray, addr 0x5a43e20, size 0x8, virtual true, abstract: false, final true
-  inline bool get_IsSZArray();
+/// @brief Method get_IsSZArray, addr 0x5a45998, size 0x8, virtual true, abstract: false, final true
+inline bool get_IsSZArray() ;
 
-  /// @brief Method get_IsVariableBoundArray, addr 0x5a43e28, size 0x8, virtual true, abstract: false, final true
-  inline bool get_IsVariableBoundArray();
+/// @brief Method get_IsVariableBoundArray, addr 0x5a459a0, size 0x8, virtual true, abstract: false, final true
+inline bool get_IsVariableBoundArray() ;
 
-  /// @brief Method get_Name, addr 0x5a43fe0, size 0x1c, virtual true, abstract: false, final true
-  inline ::StringW get_Name();
+/// @brief Method get_Name, addr 0x5a45b58, size 0x1c, virtual true, abstract: false, final true
+inline ::StringW get_Name() ;
 
-  /// @brief Method get_Namespace, addr 0x5a43ffc, size 0x20, virtual true, abstract: false, final true
-  inline ::StringW get_Namespace();
+/// @brief Method get_Namespace, addr 0x5a45b74, size 0x20, virtual true, abstract: false, final true
+inline ::StringW get_Namespace() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SignatureConstructedGenericType();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr SignatureConstructedGenericType() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SignatureConstructedGenericType", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  SignatureConstructedGenericType(SignatureConstructedGenericType&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SignatureConstructedGenericType", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  SignatureConstructedGenericType(SignatureConstructedGenericType const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "SignatureConstructedGenericType", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+SignatureConstructedGenericType(SignatureConstructedGenericType && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3517 };
+// Ctor Parameters [CppParam { name: "", ty: "SignatureConstructedGenericType", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+SignatureConstructedGenericType(SignatureConstructedGenericType const& ) = delete;
 
-  /// @brief Field _genericTypeDefinition, offset: 0x18, size: 0x8, def value: None
-  ::System::Type* ____genericTypeDefinition;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{3517};
 
-  /// @brief Field _genericTypeArguments, offset: 0x20, size: 0x8, def value: None
-  ::ArrayW<::System::Type*, ::Array<::System::Type*>*> ____genericTypeArguments;
+/// @brief Field _genericTypeDefinition, offset: 0x18, size: 0x8, def value: None
+ ::System::Type*  ____genericTypeDefinition;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _genericTypeArguments, offset: 0x20, size: 0x8, def value: None
+ ::ArrayW<::System::Type*,::Array<::System::Type*>*>  ____genericTypeArguments;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Reflection::SignatureConstructedGenericType, ____genericTypeDefinition) == 0x18, "Offset mismatch!");
@@ -165,6 +165,6 @@ static_assert(offsetof(::System::Reflection::SignatureConstructedGenericType, __
 
 static_assert(::cordl_internals::size_check_v<::System::Reflection::SignatureConstructedGenericType, 0x28>, "Size mismatch!");
 
-} // namespace System::Reflection
+} // namespace end def System::Reflection
 NEED_NO_BOX(::System::Reflection::SignatureConstructedGenericType);
 DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::SignatureConstructedGenericType*, "System.Reflection", "SignatureConstructedGenericType");

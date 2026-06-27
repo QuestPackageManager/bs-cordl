@@ -17,34 +17,34 @@ namespace GlobalNamespace {
 // CS Name: LightGroupRotationYTransform
 class CORDL_TYPE LightGroupRotationYTransform : public ::UnityEngine::MonoBehaviour {
 public:
-  // Declarations
-  static inline ::GlobalNamespace::LightGroupRotationYTransform* New_ctor();
+// Declarations
+static inline ::GlobalNamespace::LightGroupRotationYTransform* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x5858e5c, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x585a708, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LightGroupRotationYTransform();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr LightGroupRotationYTransform() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LightGroupRotationYTransform", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  LightGroupRotationYTransform(LightGroupRotationYTransform&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LightGroupRotationYTransform", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  LightGroupRotationYTransform(LightGroupRotationYTransform const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "LightGroupRotationYTransform", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+LightGroupRotationYTransform(LightGroupRotationYTransform && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5883 };
+// Ctor Parameters [CppParam { name: "", ty: "LightGroupRotationYTransform", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+LightGroupRotationYTransform(LightGroupRotationYTransform const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{5883};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LightGroupRotationYTransform, 0x20>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::LightGroupRotationYTransform);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LightGroupRotationYTransform*, "", "LightGroupRotationYTransform");

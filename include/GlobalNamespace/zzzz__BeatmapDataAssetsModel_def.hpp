@@ -22,60 +22,60 @@ namespace GlobalNamespace {
 // CS Name: BeatmapDataAssetsModel
 class CORDL_TYPE BeatmapDataAssetsModel : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field kBeatmapLevelsDataStreamingAssetsPath, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_kBeatmapLevelsDataStreamingAssetsPath, put = setStaticF_kBeatmapLevelsDataStreamingAssetsPath)) ::StringW kBeatmapLevelsDataStreamingAssetsPath;
+// Declarations
+/// @brief Field kBeatmapLevelsDataStreamingAssetsPath, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_kBeatmapLevelsDataStreamingAssetsPath, put=setStaticF_kBeatmapLevelsDataStreamingAssetsPath)) ::StringW  kBeatmapLevelsDataStreamingAssetsPath;
 
-  /// @brief Method AssetBundleStreamingAssetsPathForAssetBundleName, addr 0x365a33c, size 0x98, virtual false, abstract: false, final false
-  static inline ::StringW AssetBundleStreamingAssetsPathForAssetBundleName(::StringW assetBundleName);
+/// @brief Method AssetBundleStreamingAssetsPathForAssetBundleName, addr 0x365b6d0, size 0x98, virtual false, abstract: false, final false
+static inline ::StringW AssetBundleStreamingAssetsPathForAssetBundleName(::StringW  assetBundleName) ;
 
-  /// @brief Method GetAssetBundleNameForBeatmapLevel, addr 0x365a0ec, size 0x90, virtual false, abstract: false, final false
-  static inline ::StringW GetAssetBundleNameForBeatmapLevel(::StringW levelID, ::GlobalNamespace::BeatmapLevelDataVersion version);
+/// @brief Method GetAssetBundleNameForBeatmapLevel, addr 0x365b480, size 0x90, virtual false, abstract: false, final false
+static inline ::StringW GetAssetBundleNameForBeatmapLevel(::StringW  levelID, ::GlobalNamespace::BeatmapLevelDataVersion  version) ;
 
-  /// @brief Method GetAssetBundleNameWithVersionForBeatmapLevelData, addr 0x365a17c, size 0x10c, virtual false, abstract: false, final false
-  static inline ::StringW GetAssetBundleNameWithVersionForBeatmapLevelData(::StringW levelId, ::GlobalNamespace::BeatmapLevelDataVersion dataVersion, int32_t bundleVersion);
+/// @brief Method GetAssetBundleNameWithVersionForBeatmapLevelData, addr 0x365b510, size 0x10c, virtual false, abstract: false, final false
+static inline ::StringW GetAssetBundleNameWithVersionForBeatmapLevelData(::StringW  levelId, ::GlobalNamespace::BeatmapLevelDataVersion  dataVersion, int32_t  bundleVersion) ;
 
-  /// @brief Method GetAssetBundleStreamingAssetsPathForBeatmapLevelId, addr 0x365a288, size 0xb4, virtual false, abstract: false, final false
-  static inline ::StringW GetAssetBundleStreamingAssetsPathForBeatmapLevelId(::StringW levelID, ::GlobalNamespace::BeatmapLevelDataVersion version);
+/// @brief Method GetAssetBundleStreamingAssetsPathForBeatmapLevelId, addr 0x365b61c, size 0xb4, virtual false, abstract: false, final false
+static inline ::StringW GetAssetBundleStreamingAssetsPathForBeatmapLevelId(::StringW  levelID, ::GlobalNamespace::BeatmapLevelDataVersion  version) ;
 
-  /// @brief Method GetBeatmapLevelAssetFilenameForBeatmapLevel, addr 0x3659ffc, size 0x50, virtual false, abstract: false, final false
-  static inline ::StringW GetBeatmapLevelAssetFilenameForBeatmapLevel(::StringW levelID);
+/// @brief Method GetBeatmapLevelAssetFilenameForBeatmapLevel, addr 0x365b390, size 0x50, virtual false, abstract: false, final false
+static inline ::StringW GetBeatmapLevelAssetFilenameForBeatmapLevel(::StringW  levelID) ;
 
-  /// @brief Method GetBeatmapLevelDataAssetFilenameForBeatmapLevel, addr 0x3659fac, size 0x50, virtual false, abstract: false, final false
-  static inline ::StringW GetBeatmapLevelDataAssetFilenameForBeatmapLevel(::StringW levelID);
+/// @brief Method GetBeatmapLevelDataAssetFilenameForBeatmapLevel, addr 0x365b340, size 0x50, virtual false, abstract: false, final false
+static inline ::StringW GetBeatmapLevelDataAssetFilenameForBeatmapLevel(::StringW  levelID) ;
 
-  /// @brief Method GetBeatmapLevelDataAssetNameForBeatmapLevel, addr 0x365a09c, size 0x50, virtual false, abstract: false, final false
-  static inline ::StringW GetBeatmapLevelDataAssetNameForBeatmapLevel(::StringW levelID);
+/// @brief Method GetBeatmapLevelDataAssetNameForBeatmapLevel, addr 0x365b430, size 0x50, virtual false, abstract: false, final false
+static inline ::StringW GetBeatmapLevelDataAssetNameForBeatmapLevel(::StringW  levelID) ;
 
-  /// @brief Method GetBeatmapLevelPackAssetFilename, addr 0x365a04c, size 0x50, virtual false, abstract: false, final false
-  static inline ::StringW GetBeatmapLevelPackAssetFilename(::StringW packId);
+/// @brief Method GetBeatmapLevelPackAssetFilename, addr 0x365b3e0, size 0x50, virtual false, abstract: false, final false
+static inline ::StringW GetBeatmapLevelPackAssetFilename(::StringW  packId) ;
 
-  static inline ::StringW getStaticF_kBeatmapLevelsDataStreamingAssetsPath();
+static inline ::StringW getStaticF_kBeatmapLevelsDataStreamingAssetsPath() ;
 
-  static inline void setStaticF_kBeatmapLevelsDataStreamingAssetsPath(::StringW value);
+static inline void setStaticF_kBeatmapLevelsDataStreamingAssetsPath(::StringW  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BeatmapDataAssetsModel();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr BeatmapDataAssetsModel() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataAssetsModel", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  BeatmapDataAssetsModel(BeatmapDataAssetsModel&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataAssetsModel", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapDataAssetsModel(BeatmapDataAssetsModel const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "BeatmapDataAssetsModel", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+BeatmapDataAssetsModel(BeatmapDataAssetsModel && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14914 };
+// Ctor Parameters [CppParam { name: "", ty: "BeatmapDataAssetsModel", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+BeatmapDataAssetsModel(BeatmapDataAssetsModel const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{14916};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatmapDataAssetsModel, 0x10>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BeatmapDataAssetsModel);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BeatmapDataAssetsModel*, "", "BeatmapDataAssetsModel");

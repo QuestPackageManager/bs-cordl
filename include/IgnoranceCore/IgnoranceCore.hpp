@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "IgnoranceCore/IgnoranceChannelTypes.hpp"
 #include "IgnoranceCore/IgnoranceClient.hpp"
@@ -17,5 +17,6 @@ module;
 #include "IgnoranceCore/IgnoranceServerStats.hpp"
 #include "IgnoranceCore/PeerConnectionData.hpp"
 #ifdef __cpp_modules
-export module IgnoranceCore;
-#endif
+                    export module IgnoranceCore;
+                    #endif
+                

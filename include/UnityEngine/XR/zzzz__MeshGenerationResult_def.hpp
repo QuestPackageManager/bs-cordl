@@ -12,7 +12,8 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MeshGenerationResult)
 namespace System {
-template <typename T> class IEquatable_1;
+template<typename T>
+class IEquatable_1;
 }
 namespace System {
 class Object;
@@ -50,111 +51,103 @@ namespace UnityEngine::XR {
 // CS Name: UnityEngine.XR.MeshGenerationResult
 struct CORDL_TYPE MeshGenerationResult {
 public:
-  // Declarations
-  __declspec(property(get = get_Attributes)) ::UnityEngine::XR::MeshVertexAttributes Attributes;
+// Declarations
+ __declspec(property(get=get_Attributes)) ::UnityEngine::XR::MeshVertexAttributes  Attributes;
 
-  __declspec(property(get = get_Mesh)) ::UnityW<::UnityEngine::Mesh> Mesh;
+ __declspec(property(get=get_Mesh)) ::UnityW<::UnityEngine::Mesh>  Mesh;
 
-  __declspec(property(get = get_MeshCollider)) ::UnityW<::UnityEngine::MeshCollider> MeshCollider;
+ __declspec(property(get=get_MeshCollider)) ::UnityW<::UnityEngine::MeshCollider>  MeshCollider;
 
-  __declspec(property(get = get_MeshId)) ::UnityEngine::XR::MeshId MeshId;
+ __declspec(property(get=get_MeshId)) ::UnityEngine::XR::MeshId  MeshId;
 
-  __declspec(property(get = get_Position)) ::UnityEngine::Vector3 Position;
+ __declspec(property(get=get_Position)) ::UnityEngine::Vector3  Position;
 
-  __declspec(property(get = get_Rotation)) ::UnityEngine::Quaternion Rotation;
+ __declspec(property(get=get_Rotation)) ::UnityEngine::Quaternion  Rotation;
 
-  __declspec(property(get = get_Scale)) ::UnityEngine::Vector3 Scale;
+ __declspec(property(get=get_Scale)) ::UnityEngine::Vector3  Scale;
 
-  __declspec(property(get = get_Status)) ::UnityEngine::XR::MeshGenerationStatus Status;
+ __declspec(property(get=get_Status)) ::UnityEngine::XR::MeshGenerationStatus  Status;
 
-  /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::XR::MeshGenerationResult>"
-  constexpr operator ::System::IEquatable_1<::UnityEngine::XR::MeshGenerationResult>*();
+/// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::XR::MeshGenerationResult>"
+constexpr operator  ::System::IEquatable_1<::UnityEngine::XR::MeshGenerationResult>*() ;
 
-  /// @brief Method Equals, addr 0x6cdd964, size 0x94, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* obj);
+/// @brief Method Equals, addr 0x6cdf4dc, size 0x94, virtual true, abstract: false, final false
+inline bool Equals(::System::Object*  obj) ;
 
-  /// @brief Method Equals, addr 0x6cdd9f8, size 0x16c, virtual true, abstract: false, final true
-  inline bool Equals(::UnityEngine::XR::MeshGenerationResult other);
+/// @brief Method Equals, addr 0x6cdf570, size 0x16c, virtual true, abstract: false, final true
+inline bool Equals(::UnityEngine::XR::MeshGenerationResult  other) ;
 
-  /// @brief Method GetHashCode, addr 0x6cddb64, size 0x1c4, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
+/// @brief Method GetHashCode, addr 0x6cdf6dc, size 0x1c4, virtual true, abstract: false, final false
+inline int32_t GetHashCode() ;
 
-  /// @brief Method get_Attributes, addr 0x6cdd938, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::XR::MeshVertexAttributes get_Attributes();
+/// @brief Method get_Attributes, addr 0x6cdf4b0, size 0x8, virtual false, abstract: false, final false
+inline ::UnityEngine::XR::MeshVertexAttributes get_Attributes() ;
 
-  /// @brief Method get_Mesh, addr 0x6cdd920, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::Mesh> get_Mesh();
+/// @brief Method get_Mesh, addr 0x6cdf498, size 0x8, virtual false, abstract: false, final false
+inline ::UnityW<::UnityEngine::Mesh> get_Mesh() ;
 
-  /// @brief Method get_MeshCollider, addr 0x6cdd928, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::MeshCollider> get_MeshCollider();
+/// @brief Method get_MeshCollider, addr 0x6cdf4a0, size 0x8, virtual false, abstract: false, final false
+inline ::UnityW<::UnityEngine::MeshCollider> get_MeshCollider() ;
 
-  /// @brief Method get_MeshId, addr 0x6cdd914, size 0xc, virtual false, abstract: false, final false
-  inline ::UnityEngine::XR::MeshId get_MeshId();
+/// @brief Method get_MeshId, addr 0x6cdf48c, size 0xc, virtual false, abstract: false, final false
+inline ::UnityEngine::XR::MeshId get_MeshId() ;
 
-  /// @brief Method get_Position, addr 0x6cdd940, size 0xc, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector3 get_Position();
+/// @brief Method get_Position, addr 0x6cdf4b8, size 0xc, virtual false, abstract: false, final false
+inline ::UnityEngine::Vector3 get_Position() ;
 
-  /// @brief Method get_Rotation, addr 0x6cdd94c, size 0xc, virtual false, abstract: false, final false
-  inline ::UnityEngine::Quaternion get_Rotation();
+/// @brief Method get_Rotation, addr 0x6cdf4c4, size 0xc, virtual false, abstract: false, final false
+inline ::UnityEngine::Quaternion get_Rotation() ;
 
-  /// @brief Method get_Scale, addr 0x6cdd958, size 0xc, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector3 get_Scale();
+/// @brief Method get_Scale, addr 0x6cdf4d0, size 0xc, virtual false, abstract: false, final false
+inline ::UnityEngine::Vector3 get_Scale() ;
 
-  /// @brief Method get_Status, addr 0x6cdd930, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::XR::MeshGenerationStatus get_Status();
+/// @brief Method get_Status, addr 0x6cdf4a8, size 0x8, virtual false, abstract: false, final false
+inline ::UnityEngine::XR::MeshGenerationStatus get_Status() ;
 
-  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::XR::MeshGenerationResult>"
-  constexpr ::System::IEquatable_1<::UnityEngine::XR::MeshGenerationResult>* i___System__IEquatable_1___UnityEngine__XR__MeshGenerationResult_();
+/// @brief Convert to "::System::IEquatable_1<::UnityEngine::XR::MeshGenerationResult>"
+constexpr ::System::IEquatable_1<::UnityEngine::XR::MeshGenerationResult>* i___System__IEquatable_1___UnityEngine__XR__MeshGenerationResult_() ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MeshGenerationResult();
+// Ctor Parameters []
+// @brief default ctor
+constexpr MeshGenerationResult() ;
 
-  // Ctor Parameters [CppParam { name: "_MeshId_k__BackingField", ty: "::UnityEngine::XR::MeshId", modifiers: "", def_value: None }, CppParam { name: "_Mesh_k__BackingField", ty:
-  // "::UnityW<::UnityEngine::Mesh>", modifiers: "", def_value: None }, CppParam { name: "_MeshCollider_k__BackingField", ty: "::UnityW<::UnityEngine::MeshCollider>", modifiers: "", def_value: None },
-  // CppParam { name: "_Status_k__BackingField", ty: "::UnityEngine::XR::MeshGenerationStatus", modifiers: "", def_value: None }, CppParam { name: "_Attributes_k__BackingField", ty:
-  // "::UnityEngine::XR::MeshVertexAttributes", modifiers: "", def_value: None }, CppParam { name: "_Timestamp_k__BackingField", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name:
-  // "_Position_k__BackingField", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "_Rotation_k__BackingField", ty: "::UnityEngine::Quaternion", modifiers: "",
-  // def_value: None }, CppParam { name: "_Scale_k__BackingField", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }]
-  constexpr MeshGenerationResult(::UnityEngine::XR::MeshId _MeshId_k__BackingField, ::UnityW<::UnityEngine::Mesh> _Mesh_k__BackingField,
-                                 ::UnityW<::UnityEngine::MeshCollider> _MeshCollider_k__BackingField, ::UnityEngine::XR::MeshGenerationStatus _Status_k__BackingField,
-                                 ::UnityEngine::XR::MeshVertexAttributes _Attributes_k__BackingField, uint64_t _Timestamp_k__BackingField, ::UnityEngine::Vector3 _Position_k__BackingField,
-                                 ::UnityEngine::Quaternion _Rotation_k__BackingField, ::UnityEngine::Vector3 _Scale_k__BackingField) noexcept;
+// Ctor Parameters [CppParam { name: "_MeshId_k__BackingField", ty: "::UnityEngine::XR::MeshId", modifiers: "", def_value: None }, CppParam { name: "_Mesh_k__BackingField", ty: "::UnityW<::UnityEngine::Mesh>", modifiers: "", def_value: None }, CppParam { name: "_MeshCollider_k__BackingField", ty: "::UnityW<::UnityEngine::MeshCollider>", modifiers: "", def_value: None }, CppParam { name: "_Status_k__BackingField", ty: "::UnityEngine::XR::MeshGenerationStatus", modifiers: "", def_value: None }, CppParam { name: "_Attributes_k__BackingField", ty: "::UnityEngine::XR::MeshVertexAttributes", modifiers: "", def_value: None }, CppParam { name: "_Timestamp_k__BackingField", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "_Position_k__BackingField", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "_Rotation_k__BackingField", ty: "::UnityEngine::Quaternion", modifiers: "", def_value: None }, CppParam { name: "_Scale_k__BackingField", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }]
+constexpr MeshGenerationResult(::UnityEngine::XR::MeshId  _MeshId_k__BackingField, ::UnityW<::UnityEngine::Mesh>  _Mesh_k__BackingField, ::UnityW<::UnityEngine::MeshCollider>  _MeshCollider_k__BackingField, ::UnityEngine::XR::MeshGenerationStatus  _Status_k__BackingField, ::UnityEngine::XR::MeshVertexAttributes  _Attributes_k__BackingField, uint64_t  _Timestamp_k__BackingField, ::UnityEngine::Vector3  _Position_k__BackingField, ::UnityEngine::Quaternion  _Rotation_k__BackingField, ::UnityEngine::Vector3  _Scale_k__BackingField) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21980 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{21983};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x58 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x58};
 
-  /// @brief Field <MeshId>k__BackingField, offset: 0x0, size: 0x10, def value: None
-  ::UnityEngine::XR::MeshId _MeshId_k__BackingField;
+/// @brief Field <MeshId>k__BackingField, offset: 0x0, size: 0x10, def value: None
+ ::UnityEngine::XR::MeshId  _MeshId_k__BackingField;
 
-  /// @brief Field <Mesh>k__BackingField, offset: 0x10, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::Mesh> _Mesh_k__BackingField;
+/// @brief Field <Mesh>k__BackingField, offset: 0x10, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::Mesh>  _Mesh_k__BackingField;
 
-  /// @brief Field <MeshCollider>k__BackingField, offset: 0x18, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::MeshCollider> _MeshCollider_k__BackingField;
+/// @brief Field <MeshCollider>k__BackingField, offset: 0x18, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::MeshCollider>  _MeshCollider_k__BackingField;
 
-  /// @brief Field <Status>k__BackingField, offset: 0x20, size: 0x4, def value: None
-  ::UnityEngine::XR::MeshGenerationStatus _Status_k__BackingField;
+/// @brief Field <Status>k__BackingField, offset: 0x20, size: 0x4, def value: None
+ ::UnityEngine::XR::MeshGenerationStatus  _Status_k__BackingField;
 
-  /// @brief Field <Attributes>k__BackingField, offset: 0x24, size: 0x4, def value: None
-  ::UnityEngine::XR::MeshVertexAttributes _Attributes_k__BackingField;
+/// @brief Field <Attributes>k__BackingField, offset: 0x24, size: 0x4, def value: None
+ ::UnityEngine::XR::MeshVertexAttributes  _Attributes_k__BackingField;
 
-  /// @brief Field <Timestamp>k__BackingField, offset: 0x28, size: 0x8, def value: None
-  uint64_t _Timestamp_k__BackingField;
+/// @brief Field <Timestamp>k__BackingField, offset: 0x28, size: 0x8, def value: None
+ uint64_t  _Timestamp_k__BackingField;
 
-  /// @brief Field <Position>k__BackingField, offset: 0x30, size: 0xc, def value: None
-  ::UnityEngine::Vector3 _Position_k__BackingField;
+/// @brief Field <Position>k__BackingField, offset: 0x30, size: 0xc, def value: None
+ ::UnityEngine::Vector3  _Position_k__BackingField;
 
-  /// @brief Field <Rotation>k__BackingField, offset: 0x3c, size: 0x10, def value: None
-  ::UnityEngine::Quaternion _Rotation_k__BackingField;
+/// @brief Field <Rotation>k__BackingField, offset: 0x3c, size: 0x10, def value: None
+ ::UnityEngine::Quaternion  _Rotation_k__BackingField;
 
-  /// @brief Field <Scale>k__BackingField, offset: 0x4c, size: 0xc, def value: None
-  ::UnityEngine::Vector3 _Scale_k__BackingField;
+/// @brief Field <Scale>k__BackingField, offset: 0x4c, size: 0xc, def value: None
+ ::UnityEngine::Vector3  _Scale_k__BackingField;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::XR::MeshGenerationResult, _MeshId_k__BackingField) == 0x0, "Offset mismatch!");
@@ -177,5 +170,5 @@ static_assert(offsetof(::UnityEngine::XR::MeshGenerationResult, _Scale_k__Backin
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::XR::MeshGenerationResult, 0x58>, "Size mismatch!");
 
-} // namespace UnityEngine::XR
+} // namespace end def UnityEngine::XR
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::XR::MeshGenerationResult, "UnityEngine.XR", "MeshGenerationResult");

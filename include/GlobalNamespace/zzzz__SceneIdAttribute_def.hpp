@@ -21,73 +21,73 @@ namespace GlobalNamespace {
 // CS Name: SceneIdAttribute
 class CORDL_TYPE SceneIdAttribute : public ::UnityEngine::PropertyAttribute {
 public:
-  // Declarations
-  /// @brief Field _filter, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get__filter, put = __cordl_internal_set__filter)) ::GlobalNamespace::BeatmapSceneIdFilter _filter;
+// Declarations
+/// @brief Field _filter, offset 0x18, size 0x4 
+ __declspec(property(get=__cordl_internal_get__filter, put=__cordl_internal_set__filter)) ::GlobalNamespace::BeatmapSceneIdFilter  _filter;
 
-  __declspec(property(get = get_allowAllScenes)) bool allowAllScenes;
+ __declspec(property(get=get_allowAllScenes)) bool  allowAllScenes;
 
-  __declspec(property(get = get_allowEmpty)) bool allowEmpty;
+ __declspec(property(get=get_allowEmpty)) bool  allowEmpty;
 
-  __declspec(property(get = get_allowEnvironmentScenes)) bool allowEnvironmentScenes;
+ __declspec(property(get=get_allowEnvironmentScenes)) bool  allowEnvironmentScenes;
 
-  __declspec(property(get = get_allowGameScenes)) bool allowGameScenes;
+ __declspec(property(get=get_allowGameScenes)) bool  allowGameScenes;
 
-  __declspec(property(get = get_onlyAllowEnvironmentScenes)) bool onlyAllowEnvironmentScenes;
+ __declspec(property(get=get_onlyAllowEnvironmentScenes)) bool  onlyAllowEnvironmentScenes;
 
-  static inline ::GlobalNamespace::SceneIdAttribute* New_ctor(::GlobalNamespace::BeatmapSceneIdFilter filter);
+static inline ::GlobalNamespace::SceneIdAttribute* New_ctor(::GlobalNamespace::BeatmapSceneIdFilter  filter) ;
 
-  constexpr ::GlobalNamespace::BeatmapSceneIdFilter const& __cordl_internal_get__filter() const;
+constexpr ::GlobalNamespace::BeatmapSceneIdFilter const& __cordl_internal_get__filter() const;
 
-  constexpr ::GlobalNamespace::BeatmapSceneIdFilter& __cordl_internal_get__filter();
+constexpr ::GlobalNamespace::BeatmapSceneIdFilter& __cordl_internal_get__filter() ;
 
-  constexpr void __cordl_internal_set__filter(::GlobalNamespace::BeatmapSceneIdFilter value);
+constexpr void __cordl_internal_set__filter(::GlobalNamespace::BeatmapSceneIdFilter  value) ;
 
-  /// @brief Method .ctor, addr 0x3246a20, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor(::GlobalNamespace::BeatmapSceneIdFilter filter);
+/// @brief Method .ctor, addr 0x32477bc, size 0xc, virtual false, abstract: false, final false
+inline void _ctor(::GlobalNamespace::BeatmapSceneIdFilter  filter) ;
 
-  /// @brief Method get_allowAllScenes, addr 0x32469f8, size 0x14, virtual false, abstract: false, final false
-  inline bool get_allowAllScenes();
+/// @brief Method get_allowAllScenes, addr 0x3247794, size 0x14, virtual false, abstract: false, final false
+inline bool get_allowAllScenes() ;
 
-  /// @brief Method get_allowEmpty, addr 0x32469ec, size 0xc, virtual false, abstract: false, final false
-  inline bool get_allowEmpty();
+/// @brief Method get_allowEmpty, addr 0x3247788, size 0xc, virtual false, abstract: false, final false
+inline bool get_allowEmpty() ;
 
-  /// @brief Method get_allowEnvironmentScenes, addr 0x32469e0, size 0xc, virtual false, abstract: false, final false
-  inline bool get_allowEnvironmentScenes();
+/// @brief Method get_allowEnvironmentScenes, addr 0x324777c, size 0xc, virtual false, abstract: false, final false
+inline bool get_allowEnvironmentScenes() ;
 
-  /// @brief Method get_allowGameScenes, addr 0x32469d4, size 0xc, virtual false, abstract: false, final false
-  inline bool get_allowGameScenes();
+/// @brief Method get_allowGameScenes, addr 0x3247770, size 0xc, virtual false, abstract: false, final false
+inline bool get_allowGameScenes() ;
 
-  /// @brief Method get_onlyAllowEnvironmentScenes, addr 0x3246a0c, size 0x14, virtual false, abstract: false, final false
-  inline bool get_onlyAllowEnvironmentScenes();
+/// @brief Method get_onlyAllowEnvironmentScenes, addr 0x32477a8, size 0x14, virtual false, abstract: false, final false
+inline bool get_onlyAllowEnvironmentScenes() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SceneIdAttribute();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr SceneIdAttribute() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SceneIdAttribute", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  SceneIdAttribute(SceneIdAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SceneIdAttribute", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  SceneIdAttribute(SceneIdAttribute const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "SceneIdAttribute", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+SceneIdAttribute(SceneIdAttribute && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21360 };
+// Ctor Parameters [CppParam { name: "", ty: "SceneIdAttribute", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+SceneIdAttribute(SceneIdAttribute const& ) = delete;
 
-  /// @brief Field _filter, offset: 0x18, size: 0x4, def value: None
-  ::GlobalNamespace::BeatmapSceneIdFilter ____filter;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{21363};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _filter, offset: 0x18, size: 0x4, def value: None
+ ::GlobalNamespace::BeatmapSceneIdFilter  ____filter;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::SceneIdAttribute, ____filter) == 0x18, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SceneIdAttribute, 0x20>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SceneIdAttribute);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SceneIdAttribute*, "", "SceneIdAttribute");

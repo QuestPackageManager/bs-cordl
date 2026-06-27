@@ -7,7 +7,8 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(PlayableAsset)
 namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+template<typename T>
+class IEnumerable_1;
 }
 namespace System {
 struct IntPtr;
@@ -39,59 +40,59 @@ namespace UnityEngine::Playables {
 // CS Name: UnityEngine.Playables.PlayableAsset
 class CORDL_TYPE PlayableAsset : public ::UnityEngine::ScriptableObject {
 public:
-  // Declarations
-  __declspec(property(get = get_duration)) double_t duration;
+// Declarations
+ __declspec(property(get=get_duration)) double_t  duration;
 
-  __declspec(property(get = get_outputs)) ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Playables::PlayableBinding>* outputs;
+ __declspec(property(get=get_outputs)) ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Playables::PlayableBinding>*  outputs;
 
-  /// @brief Convert operator to "::UnityEngine::Playables::IPlayableAsset"
-  constexpr operator ::UnityEngine::Playables::IPlayableAsset*() noexcept;
+/// @brief Convert operator to "::UnityEngine::Playables::IPlayableAsset"
+constexpr operator  ::UnityEngine::Playables::IPlayableAsset*() noexcept;
 
-  /// @brief Method CreatePlayable, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline ::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject* owner);
+/// @brief Method CreatePlayable, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline ::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph  graph, ::UnityEngine::GameObject*  owner) ;
 
-  /// @brief Method Internal_CreatePlayable, addr 0x69abf08, size 0xe0, virtual false, abstract: false, final false
-  static inline void Internal_CreatePlayable(::UnityEngine::Playables::PlayableAsset* asset, ::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject* go, ::System::IntPtr ptr);
+/// @brief Method Internal_CreatePlayable, addr 0x69ada80, size 0xe0, virtual false, abstract: false, final false
+static inline void Internal_CreatePlayable(::UnityEngine::Playables::PlayableAsset*  asset, ::UnityEngine::Playables::PlayableGraph  graph, ::UnityEngine::GameObject*  go, ::System::IntPtr  ptr) ;
 
-  /// @brief Method Internal_GetPlayableAssetDuration, addr 0x69abfe8, size 0x28, virtual false, abstract: false, final false
-  static inline void Internal_GetPlayableAssetDuration(::UnityEngine::Playables::PlayableAsset* asset, ::System::IntPtr ptrToDouble);
+/// @brief Method Internal_GetPlayableAssetDuration, addr 0x69adb60, size 0x28, virtual false, abstract: false, final false
+static inline void Internal_GetPlayableAssetDuration(::UnityEngine::Playables::PlayableAsset*  asset, ::System::IntPtr  ptrToDouble) ;
 
-  static inline ::UnityEngine::Playables::PlayableAsset* New_ctor();
+static inline ::UnityEngine::Playables::PlayableAsset* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x69ac010, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x69adb88, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_duration, addr 0x69abe50, size 0x5c, virtual true, abstract: false, final false
-  inline double_t get_duration();
+/// @brief Method get_duration, addr 0x69ad9c8, size 0x5c, virtual true, abstract: false, final false
+inline double_t get_duration() ;
 
-  /// @brief Method get_outputs, addr 0x69abeac, size 0x5c, virtual true, abstract: false, final false
-  inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Playables::PlayableBinding>* get_outputs();
+/// @brief Method get_outputs, addr 0x69ada24, size 0x5c, virtual true, abstract: false, final false
+inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Playables::PlayableBinding>* get_outputs() ;
 
-  /// @brief Convert to "::UnityEngine::Playables::IPlayableAsset"
-  constexpr ::UnityEngine::Playables::IPlayableAsset* i___UnityEngine__Playables__IPlayableAsset() noexcept;
+/// @brief Convert to "::UnityEngine::Playables::IPlayableAsset"
+constexpr ::UnityEngine::Playables::IPlayableAsset* i___UnityEngine__Playables__IPlayableAsset() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PlayableAsset();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr PlayableAsset() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlayableAsset", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  PlayableAsset(PlayableAsset&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlayableAsset", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  PlayableAsset(PlayableAsset const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "PlayableAsset", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+PlayableAsset(PlayableAsset && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10661 };
+// Ctor Parameters [CppParam { name: "", ty: "PlayableAsset", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+PlayableAsset(PlayableAsset const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10662};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Playables::PlayableAsset, 0x18>, "Size mismatch!");
 
-} // namespace UnityEngine::Playables
+} // namespace end def UnityEngine::Playables
 NEED_NO_BOX(::UnityEngine::Playables::PlayableAsset);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Playables::PlayableAsset*, "UnityEngine.Playables", "PlayableAsset");

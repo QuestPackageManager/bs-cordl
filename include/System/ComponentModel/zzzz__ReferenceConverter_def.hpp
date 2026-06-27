@@ -45,138 +45,137 @@ namespace System::ComponentModel {
 // CS Name: System.ComponentModel.ReferenceConverter/ReferenceComparer
 class CORDL_TYPE ReferenceConverter_ReferenceComparer : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field _converter, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__converter, put = __cordl_internal_set__converter)) ::System::ComponentModel::ReferenceConverter* _converter;
+// Declarations
+/// @brief Field _converter, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get__converter, put=__cordl_internal_set__converter)) ::System::ComponentModel::ReferenceConverter*  _converter;
 
-  /// @brief Convert operator to "::System::Collections::IComparer"
-  constexpr operator ::System::Collections::IComparer*() noexcept;
+/// @brief Convert operator to "::System::Collections::IComparer"
+constexpr operator  ::System::Collections::IComparer*() noexcept;
 
-  /// @brief Method Compare, addr 0x6284550, size 0xb8, virtual true, abstract: false, final true
-  inline int32_t Compare(::System::Object* item1, ::System::Object* item2);
+/// @brief Method Compare, addr 0x62860c8, size 0xb8, virtual true, abstract: false, final true
+inline int32_t Compare(::System::Object*  item1, ::System::Object*  item2) ;
 
-  static inline ::System::ComponentModel::ReferenceConverter_ReferenceComparer* New_ctor(::System::ComponentModel::ReferenceConverter* converter);
+static inline ::System::ComponentModel::ReferenceConverter_ReferenceComparer* New_ctor(::System::ComponentModel::ReferenceConverter*  converter) ;
 
-  constexpr ::System::ComponentModel::ReferenceConverter* const& __cordl_internal_get__converter() const;
+constexpr ::System::ComponentModel::ReferenceConverter* const& __cordl_internal_get__converter() const;
 
-  constexpr ::System::ComponentModel::ReferenceConverter*& __cordl_internal_get__converter();
+constexpr ::System::ComponentModel::ReferenceConverter*& __cordl_internal_get__converter() ;
 
-  constexpr void __cordl_internal_set__converter(::System::ComponentModel::ReferenceConverter* value);
+constexpr void __cordl_internal_set__converter(::System::ComponentModel::ReferenceConverter*  value) ;
 
-  /// @brief Method .ctor, addr 0x62844c8, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::System::ComponentModel::ReferenceConverter* converter);
+/// @brief Method .ctor, addr 0x6286040, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(::System::ComponentModel::ReferenceConverter*  converter) ;
 
-  /// @brief Convert to "::System::Collections::IComparer"
-  constexpr ::System::Collections::IComparer* i___System__Collections__IComparer() noexcept;
+/// @brief Convert to "::System::Collections::IComparer"
+constexpr ::System::Collections::IComparer* i___System__Collections__IComparer() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ReferenceConverter_ReferenceComparer();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ReferenceConverter_ReferenceComparer() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ReferenceConverter_ReferenceComparer", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ReferenceConverter_ReferenceComparer(ReferenceConverter_ReferenceComparer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ReferenceConverter_ReferenceComparer", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ReferenceConverter_ReferenceComparer(ReferenceConverter_ReferenceComparer const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ReferenceConverter_ReferenceComparer", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ReferenceConverter_ReferenceComparer(ReferenceConverter_ReferenceComparer && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11276 };
+// Ctor Parameters [CppParam { name: "", ty: "ReferenceConverter_ReferenceComparer", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ReferenceConverter_ReferenceComparer(ReferenceConverter_ReferenceComparer const& ) = delete;
 
-  /// @brief Field _converter, offset: 0x10, size: 0x8, def value: None
-  ::System::ComponentModel::ReferenceConverter* ____converter;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11277};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _converter, offset: 0x10, size: 0x8, def value: None
+ ::System::ComponentModel::ReferenceConverter*  ____converter;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::ComponentModel::ReferenceConverter_ReferenceComparer, ____converter) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::System::ComponentModel::ReferenceConverter_ReferenceComparer, 0x18>, "Size mismatch!");
 
-} // namespace System::ComponentModel
+} // namespace end def System::ComponentModel
 // Dependencies System.ComponentModel.TypeConverter
 namespace System::ComponentModel {
 // Is value type: false
 // CS Name: System.ComponentModel.ReferenceConverter
 class CORDL_TYPE ReferenceConverter : public ::System::ComponentModel::TypeConverter {
 public:
-  // Declarations
-  using ReferenceComparer = ::System::ComponentModel::ReferenceConverter_ReferenceComparer;
+// Declarations
+using ReferenceComparer = ::System::ComponentModel::ReferenceConverter_ReferenceComparer;
 
-  /// @brief Field _type, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__type, put = __cordl_internal_set__type)) ::System::Type* _type;
+/// @brief Field _type, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get__type, put=__cordl_internal_set__type)) ::System::Type*  _type;
 
-  /// @brief Field s_none, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_s_none, put = setStaticF_s_none)) ::StringW s_none;
+/// @brief Field s_none, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_s_none, put=setStaticF_s_none)) ::StringW  s_none;
 
-  /// @brief Method CanConvertFrom, addr 0x6283530, size 0x84, virtual true, abstract: false, final false
-  inline bool CanConvertFrom(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Type* sourceType);
+/// @brief Method CanConvertFrom, addr 0x62850a8, size 0x84, virtual true, abstract: false, final false
+inline bool CanConvertFrom(::System::ComponentModel::ITypeDescriptorContext*  context, ::System::Type*  sourceType) ;
 
-  /// @brief Method ConvertFrom, addr 0x62835b4, size 0x340, virtual true, abstract: false, final false
-  inline ::System::Object* ConvertFrom(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value);
+/// @brief Method ConvertFrom, addr 0x628512c, size 0x340, virtual true, abstract: false, final false
+inline ::System::Object* ConvertFrom(::System::ComponentModel::ITypeDescriptorContext*  context, ::System::Globalization::CultureInfo*  culture, ::System::Object*  value) ;
 
-  /// @brief Method ConvertTo, addr 0x62838f4, size 0x414, virtual true, abstract: false, final false
-  inline ::System::Object* ConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value,
-                                     ::System::Type* destinationType);
+/// @brief Method ConvertTo, addr 0x628546c, size 0x414, virtual true, abstract: false, final false
+inline ::System::Object* ConvertTo(::System::ComponentModel::ITypeDescriptorContext*  context, ::System::Globalization::CultureInfo*  culture, ::System::Object*  value, ::System::Type*  destinationType) ;
 
-  /// @brief Method GetStandardValues, addr 0x6283d08, size 0x7c0, virtual true, abstract: false, final false
-  inline ::System::ComponentModel::TypeConverter_StandardValuesCollection* GetStandardValues(::System::ComponentModel::ITypeDescriptorContext* context);
+/// @brief Method GetStandardValues, addr 0x6285880, size 0x7c0, virtual true, abstract: false, final false
+inline ::System::ComponentModel::TypeConverter_StandardValuesCollection* GetStandardValues(::System::ComponentModel::ITypeDescriptorContext*  context) ;
 
-  /// @brief Method GetStandardValuesExclusive, addr 0x62844d0, size 0x8, virtual true, abstract: false, final false
-  inline bool GetStandardValuesExclusive(::System::ComponentModel::ITypeDescriptorContext* context);
+/// @brief Method GetStandardValuesExclusive, addr 0x6286048, size 0x8, virtual true, abstract: false, final false
+inline bool GetStandardValuesExclusive(::System::ComponentModel::ITypeDescriptorContext*  context) ;
 
-  /// @brief Method GetStandardValuesSupported, addr 0x62844d8, size 0x8, virtual true, abstract: false, final false
-  inline bool GetStandardValuesSupported(::System::ComponentModel::ITypeDescriptorContext* context);
+/// @brief Method GetStandardValuesSupported, addr 0x6286050, size 0x8, virtual true, abstract: false, final false
+inline bool GetStandardValuesSupported(::System::ComponentModel::ITypeDescriptorContext*  context) ;
 
-  /// @brief Method IsValueAllowed, addr 0x62844e0, size 0x8, virtual true, abstract: false, final false
-  inline bool IsValueAllowed(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Object* value);
+/// @brief Method IsValueAllowed, addr 0x6286058, size 0x8, virtual true, abstract: false, final false
+inline bool IsValueAllowed(::System::ComponentModel::ITypeDescriptorContext*  context, ::System::Object*  value) ;
 
-  static inline ::System::ComponentModel::ReferenceConverter* New_ctor(::System::Type* type);
+static inline ::System::ComponentModel::ReferenceConverter* New_ctor(::System::Type*  type) ;
 
-  constexpr ::System::Type* const& __cordl_internal_get__type() const;
+constexpr ::System::Type* const& __cordl_internal_get__type() const;
 
-  constexpr ::System::Type*& __cordl_internal_get__type();
+constexpr ::System::Type*& __cordl_internal_get__type() ;
 
-  constexpr void __cordl_internal_set__type(::System::Type* value);
+constexpr void __cordl_internal_set__type(::System::Type*  value) ;
 
-  /// @brief Method .ctor, addr 0x6283528, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::System::Type* type);
+/// @brief Method .ctor, addr 0x62850a0, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(::System::Type*  type) ;
 
-  static inline ::StringW getStaticF_s_none();
+static inline ::StringW getStaticF_s_none() ;
 
-  static inline void setStaticF_s_none(::StringW value);
+static inline void setStaticF_s_none(::StringW  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ReferenceConverter();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ReferenceConverter() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ReferenceConverter", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ReferenceConverter(ReferenceConverter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ReferenceConverter", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ReferenceConverter(ReferenceConverter const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ReferenceConverter", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ReferenceConverter(ReferenceConverter && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11277 };
+// Ctor Parameters [CppParam { name: "", ty: "ReferenceConverter", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ReferenceConverter(ReferenceConverter const& ) = delete;
 
-  /// @brief Field _type, offset: 0x10, size: 0x8, def value: None
-  ::System::Type* ____type;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11278};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _type, offset: 0x10, size: 0x8, def value: None
+ ::System::Type*  ____type;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::ComponentModel::ReferenceConverter, ____type) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::System::ComponentModel::ReferenceConverter, 0x18>, "Size mismatch!");
 
-} // namespace System::ComponentModel
+} // namespace end def System::ComponentModel
 NEED_NO_BOX(::System::ComponentModel::ReferenceConverter);
 DEFINE_IL2CPP_ARG_TYPE(::System::ComponentModel::ReferenceConverter*, "System.ComponentModel", "ReferenceConverter");
 NEED_NO_BOX(::System::ComponentModel::ReferenceConverter_ReferenceComparer);

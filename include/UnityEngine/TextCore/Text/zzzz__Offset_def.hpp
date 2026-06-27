@@ -16,85 +16,84 @@ struct Offset;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::TextCore::Text::Offset);
-// Dependencies
+// Dependencies 
 namespace UnityEngine::TextCore::Text {
 // Is value type: true
 // CS Name: UnityEngine.TextCore.Text.Offset
 struct CORDL_TYPE Offset {
 public:
-  // Declarations
-  __declspec(property(get = get_bottom)) float_t bottom;
+// Declarations
+ __declspec(property(get=get_bottom)) float_t  bottom;
 
-  /// @brief Field k_ZeroOffset, offset 0xffffffff, size 0x10
-  __declspec(property(get = getStaticF_k_ZeroOffset, put = setStaticF_k_ZeroOffset)) ::UnityEngine::TextCore::Text::Offset k_ZeroOffset;
+/// @brief Field k_ZeroOffset, offset 0xffffffff, size 0x10 
+ __declspec(property(get=getStaticF_k_ZeroOffset, put=setStaticF_k_ZeroOffset)) ::UnityEngine::TextCore::Text::Offset  k_ZeroOffset;
 
-  __declspec(property(get = get_left)) float_t left;
+ __declspec(property(get=get_left)) float_t  left;
 
-  __declspec(property(get = get_right)) float_t right;
+ __declspec(property(get=get_right)) float_t  right;
 
-  __declspec(property(get = get_top)) float_t top;
+ __declspec(property(get=get_top)) float_t  top;
 
-  /// @brief Method Equals, addr 0x6aaeae4, size 0x70, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* obj);
+/// @brief Method Equals, addr 0x6ab065c, size 0x70, virtual true, abstract: false, final false
+inline bool Equals(::System::Object*  obj) ;
 
-  /// @brief Method GetHashCode, addr 0x6aaea80, size 0x64, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
+/// @brief Method GetHashCode, addr 0x6ab05f8, size 0x64, virtual true, abstract: false, final false
+inline int32_t GetHashCode() ;
 
-  /// @brief Method .ctor, addr 0x6aaea38, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor(float_t left, float_t right, float_t top, float_t bottom);
+/// @brief Method .ctor, addr 0x6ab05b0, size 0xc, virtual false, abstract: false, final false
+inline void _ctor(float_t  left, float_t  right, float_t  top, float_t  bottom) ;
 
-  static inline ::UnityEngine::TextCore::Text::Offset getStaticF_k_ZeroOffset();
+static inline ::UnityEngine::TextCore::Text::Offset getStaticF_k_ZeroOffset() ;
 
-  /// @brief Method get_bottom, addr 0x6aae9d0, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_bottom();
+/// @brief Method get_bottom, addr 0x6ab0548, size 0x8, virtual false, abstract: false, final false
+inline float_t get_bottom() ;
 
-  /// @brief Method get_left, addr 0x6aae9b8, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_left();
+/// @brief Method get_left, addr 0x6ab0530, size 0x8, virtual false, abstract: false, final false
+inline float_t get_left() ;
 
-  /// @brief Method get_right, addr 0x6aae9c0, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_right();
+/// @brief Method get_right, addr 0x6ab0538, size 0x8, virtual false, abstract: false, final false
+inline float_t get_right() ;
 
-  /// @brief Method get_top, addr 0x6aae9c8, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_top();
+/// @brief Method get_top, addr 0x6ab0540, size 0x8, virtual false, abstract: false, final false
+inline float_t get_top() ;
 
-  /// @brief Method get_zero, addr 0x6aae9d8, size 0x60, virtual false, abstract: false, final false
-  static inline ::UnityEngine::TextCore::Text::Offset get_zero();
+/// @brief Method get_zero, addr 0x6ab0550, size 0x60, virtual false, abstract: false, final false
+static inline ::UnityEngine::TextCore::Text::Offset get_zero() ;
 
-  /// @brief Method op_Equality, addr 0x6aaea44, size 0x28, virtual false, abstract: false, final false
-  static inline bool op_Equality(::UnityEngine::TextCore::Text::Offset lhs, ::UnityEngine::TextCore::Text::Offset rhs);
+/// @brief Method op_Equality, addr 0x6ab05bc, size 0x28, virtual false, abstract: false, final false
+static inline bool op_Equality(::UnityEngine::TextCore::Text::Offset  lhs, ::UnityEngine::TextCore::Text::Offset  rhs) ;
 
-  /// @brief Method op_Multiply, addr 0x6aaea6c, size 0x14, virtual false, abstract: false, final false
-  static inline ::UnityEngine::TextCore::Text::Offset op_Multiply(::UnityEngine::TextCore::Text::Offset a, float_t b);
+/// @brief Method op_Multiply, addr 0x6ab05e4, size 0x14, virtual false, abstract: false, final false
+static inline ::UnityEngine::TextCore::Text::Offset op_Multiply(::UnityEngine::TextCore::Text::Offset  a, float_t  b) ;
 
-  static inline void setStaticF_k_ZeroOffset(::UnityEngine::TextCore::Text::Offset value);
+static inline void setStaticF_k_ZeroOffset(::UnityEngine::TextCore::Text::Offset  value) ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Offset();
+// Ctor Parameters []
+// @brief default ctor
+constexpr Offset() ;
 
-  // Ctor Parameters [CppParam { name: "m_Left", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_Right", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_Top",
-  // ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_Bottom", ty: "float_t", modifiers: "", def_value: None }]
-  constexpr Offset(float_t m_Left, float_t m_Right, float_t m_Top, float_t m_Bottom) noexcept;
+// Ctor Parameters [CppParam { name: "m_Left", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_Right", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_Top", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_Bottom", ty: "float_t", modifiers: "", def_value: None }]
+constexpr Offset(float_t  m_Left, float_t  m_Right, float_t  m_Top, float_t  m_Bottom) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17244 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{17246};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x10};
 
-  /// @brief Field m_Left, offset: 0x0, size: 0x4, def value: None
-  float_t m_Left;
+/// @brief Field m_Left, offset: 0x0, size: 0x4, def value: None
+ float_t  m_Left;
 
-  /// @brief Field m_Right, offset: 0x4, size: 0x4, def value: None
-  float_t m_Right;
+/// @brief Field m_Right, offset: 0x4, size: 0x4, def value: None
+ float_t  m_Right;
 
-  /// @brief Field m_Top, offset: 0x8, size: 0x4, def value: None
-  float_t m_Top;
+/// @brief Field m_Top, offset: 0x8, size: 0x4, def value: None
+ float_t  m_Top;
 
-  /// @brief Field m_Bottom, offset: 0xc, size: 0x4, def value: None
-  float_t m_Bottom;
+/// @brief Field m_Bottom, offset: 0xc, size: 0x4, def value: None
+ float_t  m_Bottom;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::TextCore::Text::Offset, m_Left) == 0x0, "Offset mismatch!");
@@ -107,5 +106,5 @@ static_assert(offsetof(::UnityEngine::TextCore::Text::Offset, m_Bottom) == 0xc, 
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::TextCore::Text::Offset, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::TextCore::Text
+} // namespace end def UnityEngine::TextCore::Text
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextCore::Text::Offset, "UnityEngine.TextCore.Text", "Offset");

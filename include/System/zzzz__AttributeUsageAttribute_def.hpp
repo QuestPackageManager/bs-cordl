@@ -21,89 +21,89 @@ namespace System {
 // CS Name: System.AttributeUsageAttribute
 class CORDL_TYPE AttributeUsageAttribute : public ::System::Attribute {
 public:
-  // Declarations
-  __declspec(property(get = get_AllowMultiple, put = set_AllowMultiple)) bool AllowMultiple;
+// Declarations
+ __declspec(property(get=get_AllowMultiple, put=set_AllowMultiple)) bool  AllowMultiple;
 
-  /// @brief Field Default, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_Default, put = setStaticF_Default)) ::System::AttributeUsageAttribute* Default;
+/// @brief Field Default, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_Default, put=setStaticF_Default)) ::System::AttributeUsageAttribute*  Default;
 
-  __declspec(property(get = get_Inherited, put = set_Inherited)) bool Inherited;
+ __declspec(property(get=get_Inherited, put=set_Inherited)) bool  Inherited;
 
-  /// @brief Field _allowMultiple, offset 0x14, size 0x1
-  __declspec(property(get = __cordl_internal_get__allowMultiple, put = __cordl_internal_set__allowMultiple)) bool _allowMultiple;
+/// @brief Field _allowMultiple, offset 0x14, size 0x1 
+ __declspec(property(get=__cordl_internal_get__allowMultiple, put=__cordl_internal_set__allowMultiple)) bool  _allowMultiple;
 
-  /// @brief Field _attributeTarget, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get__attributeTarget, put = __cordl_internal_set__attributeTarget)) ::System::AttributeTargets _attributeTarget;
+/// @brief Field _attributeTarget, offset 0x10, size 0x4 
+ __declspec(property(get=__cordl_internal_get__attributeTarget, put=__cordl_internal_set__attributeTarget)) ::System::AttributeTargets  _attributeTarget;
 
-  /// @brief Field _inherited, offset 0x15, size 0x1
-  __declspec(property(get = __cordl_internal_get__inherited, put = __cordl_internal_set__inherited)) bool _inherited;
+/// @brief Field _inherited, offset 0x15, size 0x1 
+ __declspec(property(get=__cordl_internal_get__inherited, put=__cordl_internal_set__inherited)) bool  _inherited;
 
-  static inline ::System::AttributeUsageAttribute* New_ctor(::System::AttributeTargets validOn);
+static inline ::System::AttributeUsageAttribute* New_ctor(::System::AttributeTargets  validOn) ;
 
-  constexpr bool const& __cordl_internal_get__allowMultiple() const;
+constexpr bool const& __cordl_internal_get__allowMultiple() const;
 
-  constexpr bool& __cordl_internal_get__allowMultiple();
+constexpr bool& __cordl_internal_get__allowMultiple() ;
 
-  constexpr ::System::AttributeTargets const& __cordl_internal_get__attributeTarget() const;
+constexpr ::System::AttributeTargets const& __cordl_internal_get__attributeTarget() const;
 
-  constexpr ::System::AttributeTargets& __cordl_internal_get__attributeTarget();
+constexpr ::System::AttributeTargets& __cordl_internal_get__attributeTarget() ;
 
-  constexpr bool const& __cordl_internal_get__inherited() const;
+constexpr bool const& __cordl_internal_get__inherited() const;
 
-  constexpr bool& __cordl_internal_get__inherited();
+constexpr bool& __cordl_internal_get__inherited() ;
 
-  constexpr void __cordl_internal_set__allowMultiple(bool value);
+constexpr void __cordl_internal_set__allowMultiple(bool  value) ;
 
-  constexpr void __cordl_internal_set__attributeTarget(::System::AttributeTargets value);
+constexpr void __cordl_internal_set__attributeTarget(::System::AttributeTargets  value) ;
 
-  constexpr void __cordl_internal_set__inherited(bool value);
+constexpr void __cordl_internal_set__inherited(bool  value) ;
 
-  /// @brief Method .ctor, addr 0x5a7167c, size 0x10, virtual false, abstract: false, final false
-  inline void _ctor(::System::AttributeTargets validOn);
+/// @brief Method .ctor, addr 0x5a731f4, size 0x10, virtual false, abstract: false, final false
+inline void _ctor(::System::AttributeTargets  validOn) ;
 
-  static inline ::System::AttributeUsageAttribute* getStaticF_Default();
+static inline ::System::AttributeUsageAttribute* getStaticF_Default() ;
 
-  /// @brief Method get_AllowMultiple, addr 0x5a7168c, size 0x8, virtual false, abstract: false, final false
-  inline bool get_AllowMultiple();
+/// @brief Method get_AllowMultiple, addr 0x5a73204, size 0x8, virtual false, abstract: false, final false
+inline bool get_AllowMultiple() ;
 
-  /// @brief Method get_Inherited, addr 0x5a7169c, size 0x8, virtual false, abstract: false, final false
-  inline bool get_Inherited();
+/// @brief Method get_Inherited, addr 0x5a73214, size 0x8, virtual false, abstract: false, final false
+inline bool get_Inherited() ;
 
-  static inline void setStaticF_Default(::System::AttributeUsageAttribute* value);
+static inline void setStaticF_Default(::System::AttributeUsageAttribute*  value) ;
 
-  /// @brief Method set_AllowMultiple, addr 0x5a71694, size 0x8, virtual false, abstract: false, final false
-  inline void set_AllowMultiple(bool value);
+/// @brief Method set_AllowMultiple, addr 0x5a7320c, size 0x8, virtual false, abstract: false, final false
+inline void set_AllowMultiple(bool  value) ;
 
-  /// @brief Method set_Inherited, addr 0x5a716a4, size 0x8, virtual false, abstract: false, final false
-  inline void set_Inherited(bool value);
+/// @brief Method set_Inherited, addr 0x5a7321c, size 0x8, virtual false, abstract: false, final false
+inline void set_Inherited(bool  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AttributeUsageAttribute();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr AttributeUsageAttribute() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AttributeUsageAttribute", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  AttributeUsageAttribute(AttributeUsageAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AttributeUsageAttribute", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  AttributeUsageAttribute(AttributeUsageAttribute const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "AttributeUsageAttribute", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+AttributeUsageAttribute(AttributeUsageAttribute && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2357 };
+// Ctor Parameters [CppParam { name: "", ty: "AttributeUsageAttribute", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+AttributeUsageAttribute(AttributeUsageAttribute const& ) = delete;
 
-  /// @brief Field _attributeTarget, offset: 0x10, size: 0x4, def value: None
-  ::System::AttributeTargets ____attributeTarget;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{2357};
 
-  /// @brief Field _allowMultiple, offset: 0x14, size: 0x1, def value: None
-  bool ____allowMultiple;
+/// @brief Field _attributeTarget, offset: 0x10, size: 0x4, def value: None
+ ::System::AttributeTargets  ____attributeTarget;
 
-  /// @brief Field _inherited, offset: 0x15, size: 0x1, def value: None
-  bool ____inherited;
+/// @brief Field _allowMultiple, offset: 0x14, size: 0x1, def value: None
+ bool  ____allowMultiple;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _inherited, offset: 0x15, size: 0x1, def value: None
+ bool  ____inherited;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::AttributeUsageAttribute, ____attributeTarget) == 0x10, "Offset mismatch!");
@@ -114,6 +114,6 @@ static_assert(offsetof(::System::AttributeUsageAttribute, ____inherited) == 0x15
 
 static_assert(::cordl_internals::size_check_v<::System::AttributeUsageAttribute, 0x18>, "Size mismatch!");
 
-} // namespace System
+} // namespace end def System
 NEED_NO_BOX(::System::AttributeUsageAttribute);
 DEFINE_IL2CPP_ARG_TYPE(::System::AttributeUsageAttribute*, "System", "AttributeUsageAttribute");

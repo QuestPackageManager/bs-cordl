@@ -12,7 +12,8 @@ namespace Oculus::Platform::Models {
 class NetSyncSessionsChangedNotification;
 }
 namespace Oculus::Platform {
-template <typename T> class Message_1_Callback;
+template<typename T>
+class Message_1_Callback;
 }
 // Forward declare root types
 namespace Oculus::Platform {
@@ -26,35 +27,35 @@ namespace Oculus::Platform {
 // CS Name: Oculus.Platform.NetSync
 class CORDL_TYPE NetSync : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method SetConnectionStatusChangedNotificationCallback, addr 0x5cae630, size 0x7c, virtual false, abstract: false, final false
-  static inline void SetConnectionStatusChangedNotificationCallback(::Oculus::Platform::Message_1_Callback<::Oculus::Platform::Models::NetSyncConnection*>* callback);
+// Declarations
+/// @brief Method SetConnectionStatusChangedNotificationCallback, addr 0x5cb01a8, size 0x7c, virtual false, abstract: false, final false
+static inline void SetConnectionStatusChangedNotificationCallback(::Oculus::Platform::Message_1_Callback<::Oculus::Platform::Models::NetSyncConnection*>*  callback) ;
 
-  /// @brief Method SetSessionsChangedNotificationCallback, addr 0x5cae6ac, size 0x7c, virtual false, abstract: false, final false
-  static inline void SetSessionsChangedNotificationCallback(::Oculus::Platform::Message_1_Callback<::Oculus::Platform::Models::NetSyncSessionsChangedNotification*>* callback);
+/// @brief Method SetSessionsChangedNotificationCallback, addr 0x5cb0224, size 0x7c, virtual false, abstract: false, final false
+static inline void SetSessionsChangedNotificationCallback(::Oculus::Platform::Message_1_Callback<::Oculus::Platform::Models::NetSyncSessionsChangedNotification*>*  callback) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NetSync();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr NetSync() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NetSync", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  NetSync(NetSync&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NetSync", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  NetSync(NetSync const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "NetSync", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+NetSync(NetSync && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17943 };
+// Ctor Parameters [CppParam { name: "", ty: "NetSync", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+NetSync(NetSync const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{17945};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Oculus::Platform::NetSync, 0x10>, "Size mismatch!");
 
-} // namespace Oculus::Platform
+} // namespace end def Oculus::Platform
 NEED_NO_BOX(::Oculus::Platform::NetSync);
 DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::NetSync*, "Oculus.Platform", "NetSync");

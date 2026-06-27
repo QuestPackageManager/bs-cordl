@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "System/Net/NetworkInformation/AixAddressFamily.hpp"
 #include "System/Net/NetworkInformation/AixArpHardware.hpp"
@@ -53,5 +53,6 @@ module;
 #include "System/Net/NetworkInformation/sockaddr_in6.hpp"
 #include "System/Net/NetworkInformation/sockaddr_ll.hpp"
 #ifdef __cpp_modules
-export module NetworkInformation;
-#endif
+                    export module NetworkInformation;
+                    #endif
+                

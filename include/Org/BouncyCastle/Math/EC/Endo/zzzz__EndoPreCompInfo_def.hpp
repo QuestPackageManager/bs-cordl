@@ -26,76 +26,76 @@ namespace Org::BouncyCastle::Math::EC::Endo {
 // CS Name: Org.BouncyCastle.Math.EC.Endo.EndoPreCompInfo
 class CORDL_TYPE EndoPreCompInfo : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = get_Endomorphism, put = set_Endomorphism)) ::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism* Endomorphism;
+// Declarations
+ __declspec(property(get=get_Endomorphism, put=set_Endomorphism)) ::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism*  Endomorphism;
 
-  __declspec(property(get = get_MappedPoint, put = set_MappedPoint)) ::Org::BouncyCastle::Math::EC::ECPoint* MappedPoint;
+ __declspec(property(get=get_MappedPoint, put=set_MappedPoint)) ::Org::BouncyCastle::Math::EC::ECPoint*  MappedPoint;
 
-  /// @brief Field m_endomorphism, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_endomorphism, put = __cordl_internal_set_m_endomorphism)) ::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism* m_endomorphism;
+/// @brief Field m_endomorphism, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_endomorphism, put=__cordl_internal_set_m_endomorphism)) ::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism*  m_endomorphism;
 
-  /// @brief Field m_mappedPoint, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_mappedPoint, put = __cordl_internal_set_m_mappedPoint)) ::Org::BouncyCastle::Math::EC::ECPoint* m_mappedPoint;
+/// @brief Field m_mappedPoint, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_mappedPoint, put=__cordl_internal_set_m_mappedPoint)) ::Org::BouncyCastle::Math::EC::ECPoint*  m_mappedPoint;
 
-  /// @brief Convert operator to "::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo"
-  constexpr operator ::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo*() noexcept;
+/// @brief Convert operator to "::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo"
+constexpr operator  ::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo*() noexcept;
 
-  static inline ::Org::BouncyCastle::Math::EC::Endo::EndoPreCompInfo* New_ctor();
+static inline ::Org::BouncyCastle::Math::EC::Endo::EndoPreCompInfo* New_ctor() ;
 
-  constexpr ::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism* const& __cordl_internal_get_m_endomorphism() const;
+constexpr ::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism* const& __cordl_internal_get_m_endomorphism() const;
 
-  constexpr ::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism*& __cordl_internal_get_m_endomorphism();
+constexpr ::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism*& __cordl_internal_get_m_endomorphism() ;
 
-  constexpr ::Org::BouncyCastle::Math::EC::ECPoint* const& __cordl_internal_get_m_mappedPoint() const;
+constexpr ::Org::BouncyCastle::Math::EC::ECPoint* const& __cordl_internal_get_m_mappedPoint() const;
 
-  constexpr ::Org::BouncyCastle::Math::EC::ECPoint*& __cordl_internal_get_m_mappedPoint();
+constexpr ::Org::BouncyCastle::Math::EC::ECPoint*& __cordl_internal_get_m_mappedPoint() ;
 
-  constexpr void __cordl_internal_set_m_endomorphism(::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism* value);
+constexpr void __cordl_internal_set_m_endomorphism(::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism*  value) ;
 
-  constexpr void __cordl_internal_set_m_mappedPoint(::Org::BouncyCastle::Math::EC::ECPoint* value);
+constexpr void __cordl_internal_set_m_mappedPoint(::Org::BouncyCastle::Math::EC::ECPoint*  value) ;
 
-  /// @brief Method .ctor, addr 0x344ce6c, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x344dc08, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_Endomorphism, addr 0x344ce4c, size 0x8, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism* get_Endomorphism();
+/// @brief Method get_Endomorphism, addr 0x344dbe8, size 0x8, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism* get_Endomorphism() ;
 
-  /// @brief Method get_MappedPoint, addr 0x344ce5c, size 0x8, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Math::EC::ECPoint* get_MappedPoint();
+/// @brief Method get_MappedPoint, addr 0x344dbf8, size 0x8, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Math::EC::ECPoint* get_MappedPoint() ;
 
-  /// @brief Convert to "::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo"
-  constexpr ::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* i___Org__BouncyCastle__Math__EC__Multiplier__PreCompInfo() noexcept;
+/// @brief Convert to "::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo"
+constexpr ::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* i___Org__BouncyCastle__Math__EC__Multiplier__PreCompInfo() noexcept;
 
-  /// @brief Method set_Endomorphism, addr 0x344ce54, size 0x8, virtual true, abstract: false, final false
-  inline void set_Endomorphism(::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism* value);
+/// @brief Method set_Endomorphism, addr 0x344dbf0, size 0x8, virtual true, abstract: false, final false
+inline void set_Endomorphism(::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism*  value) ;
 
-  /// @brief Method set_MappedPoint, addr 0x344ce64, size 0x8, virtual true, abstract: false, final false
-  inline void set_MappedPoint(::Org::BouncyCastle::Math::EC::ECPoint* value);
+/// @brief Method set_MappedPoint, addr 0x344dc00, size 0x8, virtual true, abstract: false, final false
+inline void set_MappedPoint(::Org::BouncyCastle::Math::EC::ECPoint*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr EndoPreCompInfo();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr EndoPreCompInfo() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EndoPreCompInfo", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  EndoPreCompInfo(EndoPreCompInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EndoPreCompInfo", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  EndoPreCompInfo(EndoPreCompInfo const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "EndoPreCompInfo", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+EndoPreCompInfo(EndoPreCompInfo && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1517 };
+// Ctor Parameters [CppParam { name: "", ty: "EndoPreCompInfo", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+EndoPreCompInfo(EndoPreCompInfo const& ) = delete;
 
-  /// @brief Field m_endomorphism, offset: 0x10, size: 0x8, def value: None
-  ::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism* ___m_endomorphism;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{1517};
 
-  /// @brief Field m_mappedPoint, offset: 0x18, size: 0x8, def value: None
-  ::Org::BouncyCastle::Math::EC::ECPoint* ___m_mappedPoint;
+/// @brief Field m_endomorphism, offset: 0x10, size: 0x8, def value: None
+ ::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism*  ___m_endomorphism;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field m_mappedPoint, offset: 0x18, size: 0x8, def value: None
+ ::Org::BouncyCastle::Math::EC::ECPoint*  ___m_mappedPoint;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Org::BouncyCastle::Math::EC::Endo::EndoPreCompInfo, ___m_endomorphism) == 0x10, "Offset mismatch!");
@@ -104,6 +104,6 @@ static_assert(offsetof(::Org::BouncyCastle::Math::EC::Endo::EndoPreCompInfo, ___
 
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Math::EC::Endo::EndoPreCompInfo, 0x20>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Math::EC::Endo
+} // namespace end def Org::BouncyCastle::Math::EC::Endo
 NEED_NO_BOX(::Org::BouncyCastle::Math::EC::Endo::EndoPreCompInfo);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Math::EC::Endo::EndoPreCompInfo*, "Org.BouncyCastle.Math.EC.Endo", "EndoPreCompInfo");

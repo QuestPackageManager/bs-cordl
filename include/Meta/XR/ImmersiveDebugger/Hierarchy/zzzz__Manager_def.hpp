@@ -26,62 +26,62 @@ namespace Meta::XR::ImmersiveDebugger::Hierarchy {
 // CS Name: Meta.XR.ImmersiveDebugger.Hierarchy.Manager
 class CORDL_TYPE Manager : public ::Meta::XR::ImmersiveDebugger::Manager::DebugManagerAddon_1<::Meta::XR::ImmersiveDebugger::Hierarchy::Manager*> {
 public:
-  // Declarations
-  __declspec(property(get = get_Method)) ::Meta::XR::ImmersiveDebugger::Telemetry_Method Method;
+// Declarations
+ __declspec(property(get=get_Method)) ::Meta::XR::ImmersiveDebugger::Telemetry_Method  Method;
 
-  /// @brief Field _sceneRegistry, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__sceneRegistry, put = __cordl_internal_set__sceneRegistry)) ::Meta::XR::ImmersiveDebugger::Hierarchy::SceneRegistry* _sceneRegistry;
+/// @brief Field _sceneRegistry, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get__sceneRegistry, put=__cordl_internal_set__sceneRegistry)) ::Meta::XR::ImmersiveDebugger::Hierarchy::SceneRegistry*  _sceneRegistry;
 
-  static inline ::Meta::XR::ImmersiveDebugger::Hierarchy::Manager* New_ctor();
+static inline ::Meta::XR::ImmersiveDebugger::Hierarchy::Manager* New_ctor() ;
 
-  /// @brief Method ProcessItem, addr 0x592c79c, size 0x3c8, virtual false, abstract: false, final false
-  inline void ProcessItem(::Meta::XR::ImmersiveDebugger::Hierarchy::Item* item);
+/// @brief Method ProcessItem, addr 0x592e16c, size 0x3c8, virtual false, abstract: false, final false
+inline void ProcessItem(::Meta::XR::ImmersiveDebugger::Hierarchy::Item*  item) ;
 
-  /// @brief Method Refresh, addr 0x592d66c, size 0x48, virtual false, abstract: false, final false
-  inline void Refresh();
+/// @brief Method Refresh, addr 0x592f03c, size 0x48, virtual false, abstract: false, final false
+inline void Refresh() ;
 
-  /// @brief Method UnprocessItem, addr 0x592c5b4, size 0x168, virtual false, abstract: false, final false
-  inline void UnprocessItem(::Meta::XR::ImmersiveDebugger::Hierarchy::Item* item);
+/// @brief Method UnprocessItem, addr 0x592df84, size 0x168, virtual false, abstract: false, final false
+inline void UnprocessItem(::Meta::XR::ImmersiveDebugger::Hierarchy::Item*  item) ;
 
-  constexpr ::Meta::XR::ImmersiveDebugger::Hierarchy::SceneRegistry* const& __cordl_internal_get__sceneRegistry() const;
+constexpr ::Meta::XR::ImmersiveDebugger::Hierarchy::SceneRegistry* const& __cordl_internal_get__sceneRegistry() const;
 
-  constexpr ::Meta::XR::ImmersiveDebugger::Hierarchy::SceneRegistry*& __cordl_internal_get__sceneRegistry();
+constexpr ::Meta::XR::ImmersiveDebugger::Hierarchy::SceneRegistry*& __cordl_internal_get__sceneRegistry() ;
 
-  constexpr void __cordl_internal_set__sceneRegistry(::Meta::XR::ImmersiveDebugger::Hierarchy::SceneRegistry* value);
+constexpr void __cordl_internal_set__sceneRegistry(::Meta::XR::ImmersiveDebugger::Hierarchy::SceneRegistry*  value) ;
 
-  /// @brief Method .ctor, addr 0x592d6b4, size 0x78, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x592f084, size 0x78, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_Method, addr 0x592d664, size 0x8, virtual true, abstract: false, final false
-  inline ::Meta::XR::ImmersiveDebugger::Telemetry_Method get_Method();
+/// @brief Method get_Method, addr 0x592f034, size 0x8, virtual true, abstract: false, final false
+inline ::Meta::XR::ImmersiveDebugger::Telemetry_Method get_Method() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Manager();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr Manager() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Manager", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  Manager(Manager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Manager", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  Manager(Manager const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "Manager", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Manager(Manager && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18453 };
+// Ctor Parameters [CppParam { name: "", ty: "Manager", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Manager(Manager const& ) = delete;
 
-  /// @brief Field _sceneRegistry, offset: 0x20, size: 0x8, def value: None
-  ::Meta::XR::ImmersiveDebugger::Hierarchy::SceneRegistry* ____sceneRegistry;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{18455};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _sceneRegistry, offset: 0x20, size: 0x8, def value: None
+ ::Meta::XR::ImmersiveDebugger::Hierarchy::SceneRegistry*  ____sceneRegistry;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Meta::XR::ImmersiveDebugger::Hierarchy::Manager, ____sceneRegistry) == 0x20, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::Meta::XR::ImmersiveDebugger::Hierarchy::Manager, 0x28>, "Size mismatch!");
 
-} // namespace Meta::XR::ImmersiveDebugger::Hierarchy
+} // namespace end def Meta::XR::ImmersiveDebugger::Hierarchy
 NEED_NO_BOX(::Meta::XR::ImmersiveDebugger::Hierarchy::Manager);
 DEFINE_IL2CPP_ARG_TYPE(::Meta::XR::ImmersiveDebugger::Hierarchy::Manager*, "Meta.XR.ImmersiveDebugger.Hierarchy", "Manager");

@@ -3,25 +3,34 @@
 #include "System/zzzz__MarshalByRefObject_impl.hpp"
 #include "System/zzzz__ContextBoundObject_def.hpp"
 //  Writing Method size for method: ::System::ContextBoundObject._ctor
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ContextBoundObject::*)()>(&::System::ContextBoundObject::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5b37888;
+  constexpr static std::size_t addrs = 0x5b39400;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ContextBoundObject*>::get(), ".ctor",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ContextBoundObject*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
-inline void System::ContextBoundObject::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ContextBoundObject*>::get(), ".ctor",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void System::ContextBoundObject::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ContextBoundObject*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::System::ContextBoundObject* System::ContextBoundObject::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::ContextBoundObject*>());
+inline ::System::ContextBoundObject* System::ContextBoundObject::New_ctor()  {
+return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::ContextBoundObject*>());
 }
 // Ctor Parameters []
-constexpr ::System::ContextBoundObject::ContextBoundObject() {}
+constexpr ::System::ContextBoundObject::ContextBoundObject()   {
+}

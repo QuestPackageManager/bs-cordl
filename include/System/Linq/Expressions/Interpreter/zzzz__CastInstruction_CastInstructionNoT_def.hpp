@@ -33,61 +33,61 @@ namespace GlobalNamespace {
 // CS Name: System.Linq.Expressions.Interpreter.CastInstruction/CastInstructionNoT
 class CORDL_TYPE CastInstruction_CastInstructionNoT : public ::System::Linq::Expressions::Interpreter::CastInstruction {
 public:
-  // Declarations
-  using Ref = ::GlobalNamespace::CastInstructionNoT_CastInstruction_Ref;
+// Declarations
+using Ref = ::GlobalNamespace::CastInstructionNoT_CastInstruction_Ref;
 
-  using Value = ::GlobalNamespace::CastInstructionNoT_CastInstruction_Value;
+using Value = ::GlobalNamespace::CastInstructionNoT_CastInstruction_Value;
 
-  /// @brief Field _t, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__t, put = __cordl_internal_set__t)) ::System::Type* _t;
+/// @brief Field _t, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get__t, put=__cordl_internal_set__t)) ::System::Type*  _t;
 
-  /// @brief Method ConvertNull, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void ConvertNull(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
+/// @brief Method ConvertNull, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline void ConvertNull(::System::Linq::Expressions::Interpreter::InterpretedFrame*  frame) ;
 
-  /// @brief Method Create, addr 0x5e7d6a4, size 0xcc, virtual false, abstract: false, final false
-  static inline ::System::Linq::Expressions::Interpreter::CastInstruction* Create(::System::Type* t);
+/// @brief Method Create, addr 0x5e7f21c, size 0xcc, virtual false, abstract: false, final false
+static inline ::System::Linq::Expressions::Interpreter::CastInstruction* Create(::System::Type*  t) ;
 
-  static inline ::GlobalNamespace::CastInstruction_CastInstructionNoT* New_ctor(::System::Type* t);
+static inline ::GlobalNamespace::CastInstruction_CastInstructionNoT* New_ctor(::System::Type*  t) ;
 
-  /// @brief Method Run, addr 0x5e7d78c, size 0x158, virtual true, abstract: false, final false
-  inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
+/// @brief Method Run, addr 0x5e7f304, size 0x158, virtual true, abstract: false, final false
+inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame*  frame) ;
 
-  constexpr ::System::Type* const& __cordl_internal_get__t() const;
+constexpr ::System::Type* const& __cordl_internal_get__t() const;
 
-  constexpr ::System::Type*& __cordl_internal_get__t();
+constexpr ::System::Type*& __cordl_internal_get__t() ;
 
-  constexpr void __cordl_internal_set__t(::System::Type* value);
+constexpr void __cordl_internal_set__t(::System::Type*  value) ;
 
-  /// @brief Method .ctor, addr 0x5e7d774, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::System::Type* t);
+/// @brief Method .ctor, addr 0x5e7f2ec, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(::System::Type*  t) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CastInstruction_CastInstructionNoT();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr CastInstruction_CastInstructionNoT() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CastInstruction_CastInstructionNoT", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  CastInstruction_CastInstructionNoT(CastInstruction_CastInstructionNoT&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CastInstruction_CastInstructionNoT", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  CastInstruction_CastInstructionNoT(CastInstruction_CastInstructionNoT const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "CastInstruction_CastInstructionNoT", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+CastInstruction_CastInstructionNoT(CastInstruction_CastInstructionNoT && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16592 };
+// Ctor Parameters [CppParam { name: "", ty: "CastInstruction_CastInstructionNoT", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+CastInstruction_CastInstructionNoT(CastInstruction_CastInstructionNoT const& ) = delete;
 
-  /// @brief Field _t, offset: 0x10, size: 0x8, def value: None
-  ::System::Type* ____t;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{16594};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _t, offset: 0x10, size: 0x8, def value: None
+ ::System::Type*  ____t;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::CastInstruction_CastInstructionNoT, ____t) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::CastInstruction_CastInstructionNoT, 0x18>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::CastInstruction_CastInstructionNoT);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::CastInstruction_CastInstructionNoT*, "System.Linq.Expressions.Interpreter", "CastInstruction/CastInstructionNoT");

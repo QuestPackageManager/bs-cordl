@@ -20,7 +20,8 @@ namespace GlobalNamespace {
 class BurstSliderGameNoteController_Pool;
 }
 namespace GlobalNamespace {
-template <typename T> class ICubeNoteControllerInitializable_1;
+template<typename T>
+class ICubeNoteControllerInitializable_1;
 }
 namespace GlobalNamespace {
 class IGameNoteMirrorable;
@@ -56,7 +57,8 @@ namespace GlobalNamespace {
 class Saber;
 }
 namespace System {
-template <typename T> class Action_1;
+template<typename T>
+class Action_1;
 }
 namespace UnityEngine {
 class GameObject;
@@ -83,322 +85,313 @@ namespace GlobalNamespace {
 // CS Name: BurstSliderGameNoteController/Pool
 class CORDL_TYPE BurstSliderGameNoteController_Pool : public ::Zenject::MonoMemoryPool_1<::UnityW<::GlobalNamespace::BurstSliderGameNoteController>> {
 public:
-  // Declarations
-  static inline ::GlobalNamespace::BurstSliderGameNoteController_Pool* New_ctor();
+// Declarations
+static inline ::GlobalNamespace::BurstSliderGameNoteController_Pool* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x5794968, size 0x3c, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x57961d0, size 0x3c, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BurstSliderGameNoteController_Pool();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr BurstSliderGameNoteController_Pool() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BurstSliderGameNoteController_Pool", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  BurstSliderGameNoteController_Pool(BurstSliderGameNoteController_Pool&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BurstSliderGameNoteController_Pool", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  BurstSliderGameNoteController_Pool(BurstSliderGameNoteController_Pool const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "BurstSliderGameNoteController_Pool", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+BurstSliderGameNoteController_Pool(BurstSliderGameNoteController_Pool && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5657 };
+// Ctor Parameters [CppParam { name: "", ty: "BurstSliderGameNoteController_Pool", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+BurstSliderGameNoteController_Pool(BurstSliderGameNoteController_Pool const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{5657};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BurstSliderGameNoteController_Pool, 0x40>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 // Dependencies NoteController, NoteData::GameplayType, NoteVisualModifierType, UnityEngine.Vector3
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: BurstSliderGameNoteController
 class CORDL_TYPE BurstSliderGameNoteController : public ::GlobalNamespace::NoteController {
 public:
-  // Declarations
-  using Pool = ::GlobalNamespace::BurstSliderGameNoteController_Pool;
+// Declarations
+using Pool = ::GlobalNamespace::BurstSliderGameNoteController_Pool;
 
-  /// @brief Field _audioTimeSyncController, offset 0xa0, size 0x8
-  __declspec(property(get = __cordl_internal_get__audioTimeSyncController, put = __cordl_internal_set__audioTimeSyncController)) ::UnityW<::GlobalNamespace::AudioTimeSyncController>
-      _audioTimeSyncController;
+/// @brief Field _audioTimeSyncController, offset 0xa0, size 0x8 
+ __declspec(property(get=__cordl_internal_get__audioTimeSyncController, put=__cordl_internal_set__audioTimeSyncController)) ::UnityW<::GlobalNamespace::AudioTimeSyncController>  _audioTimeSyncController;
 
-  /// @brief Field _bigCuttableBySaber, offset 0xc0, size 0x8
-  __declspec(property(get = __cordl_internal_get__bigCuttableBySaber, put = __cordl_internal_set__bigCuttableBySaber)) ::UnityW<::GlobalNamespace::BoxCuttableBySaber> _bigCuttableBySaber;
+/// @brief Field _bigCuttableBySaber, offset 0xc0, size 0x8 
+ __declspec(property(get=__cordl_internal_get__bigCuttableBySaber, put=__cordl_internal_set__bigCuttableBySaber)) ::UnityW<::GlobalNamespace::BoxCuttableBySaber>  _bigCuttableBySaber;
 
-  /// @brief Field _bigCuttableBySaberList, offset 0x88, size 0x8
-  __declspec(property(get = __cordl_internal_get__bigCuttableBySaberList,
-                      put = __cordl_internal_set__bigCuttableBySaberList)) ::ArrayW<::UnityW<::GlobalNamespace::BoxCuttableBySaber>, ::Array<::UnityW<::GlobalNamespace::BoxCuttableBySaber>>*>
-      _bigCuttableBySaberList;
+/// @brief Field _bigCuttableBySaberList, offset 0x88, size 0x8 
+ __declspec(property(get=__cordl_internal_get__bigCuttableBySaberList, put=__cordl_internal_set__bigCuttableBySaberList)) ::ArrayW<::UnityW<::GlobalNamespace::BoxCuttableBySaber>,::Array<::UnityW<::GlobalNamespace::BoxCuttableBySaber>>*>  _bigCuttableBySaberList;
 
-  /// @brief Field _gameplayType, offset 0xbc, size 0x4
-  __declspec(property(get = __cordl_internal_get__gameplayType, put = __cordl_internal_set__gameplayType)) ::GlobalNamespace::NoteData_GameplayType _gameplayType;
+/// @brief Field _gameplayType, offset 0xbc, size 0x4 
+ __declspec(property(get=__cordl_internal_get__gameplayType, put=__cordl_internal_set__gameplayType)) ::GlobalNamespace::NoteData_GameplayType  _gameplayType;
 
-  /// @brief Field _jumpEndOffsetZ, offset 0xe4, size 0x4
-  __declspec(property(get = __cordl_internal_get__jumpEndOffsetZ, put = __cordl_internal_set__jumpEndOffsetZ)) float_t _jumpEndOffsetZ;
+/// @brief Field _jumpEndOffsetZ, offset 0xe4, size 0x4 
+ __declspec(property(get=__cordl_internal_get__jumpEndOffsetZ, put=__cordl_internal_set__jumpEndOffsetZ)) float_t  _jumpEndOffsetZ;
 
-  /// @brief Field _moveEndOffsetZ, offset 0xe0, size 0x4
-  __declspec(property(get = __cordl_internal_get__moveEndOffsetZ, put = __cordl_internal_set__moveEndOffsetZ)) float_t _moveEndOffsetZ;
+/// @brief Field _moveEndOffsetZ, offset 0xe0, size 0x4 
+ __declspec(property(get=__cordl_internal_get__moveEndOffsetZ, put=__cordl_internal_set__moveEndOffsetZ)) float_t  _moveEndOffsetZ;
 
-  /// @brief Field _noteVisualModifierType, offset 0xb8, size 0x4
-  __declspec(property(get = __cordl_internal_get__noteVisualModifierType, put = __cordl_internal_set__noteVisualModifierType)) ::GlobalNamespace::NoteVisualModifierType _noteVisualModifierType;
+/// @brief Field _noteVisualModifierType, offset 0xb8, size 0x4 
+ __declspec(property(get=__cordl_internal_get__noteVisualModifierType, put=__cordl_internal_set__noteVisualModifierType)) ::GlobalNamespace::NoteVisualModifierType  _noteVisualModifierType;
 
-  /// @brief Field _originalColliderCenter, offset 0xd4, size 0xc
-  __declspec(property(get = __cordl_internal_get__originalColliderCenter, put = __cordl_internal_set__originalColliderCenter)) ::UnityEngine::Vector3 _originalColliderCenter;
+/// @brief Field _originalColliderCenter, offset 0xd4, size 0xc 
+ __declspec(property(get=__cordl_internal_get__originalColliderCenter, put=__cordl_internal_set__originalColliderCenter)) ::UnityEngine::Vector3  _originalColliderCenter;
 
-  /// @brief Field _originalColliderSize, offset 0xc8, size 0xc
-  __declspec(property(get = __cordl_internal_get__originalColliderSize, put = __cordl_internal_set__originalColliderSize)) ::UnityEngine::Vector3 _originalColliderSize;
+/// @brief Field _originalColliderSize, offset 0xc8, size 0xc 
+ __declspec(property(get=__cordl_internal_get__originalColliderSize, put=__cordl_internal_set__originalColliderSize)) ::UnityEngine::Vector3  _originalColliderSize;
 
-  /// @brief Field _smallCuttableBySaberList, offset 0x90, size 0x8
-  __declspec(property(get = __cordl_internal_get__smallCuttableBySaberList,
-                      put = __cordl_internal_set__smallCuttableBySaberList)) ::ArrayW<::UnityW<::GlobalNamespace::BoxCuttableBySaber>, ::Array<::UnityW<::GlobalNamespace::BoxCuttableBySaber>>*>
-      _smallCuttableBySaberList;
+/// @brief Field _smallCuttableBySaberList, offset 0x90, size 0x8 
+ __declspec(property(get=__cordl_internal_get__smallCuttableBySaberList, put=__cordl_internal_set__smallCuttableBySaberList)) ::ArrayW<::UnityW<::GlobalNamespace::BoxCuttableBySaber>,::Array<::UnityW<::GlobalNamespace::BoxCuttableBySaber>>*>  _smallCuttableBySaberList;
 
-  /// @brief Field _variableMovementDataProvider, offset 0xa8, size 0x8
-  __declspec(property(get = __cordl_internal_get__variableMovementDataProvider,
-                      put = __cordl_internal_set__variableMovementDataProvider)) ::GlobalNamespace::IVariableMovementDataProvider* _variableMovementDataProvider;
+/// @brief Field _variableMovementDataProvider, offset 0xa8, size 0x8 
+ __declspec(property(get=__cordl_internal_get__variableMovementDataProvider, put=__cordl_internal_set__variableMovementDataProvider)) ::GlobalNamespace::IVariableMovementDataProvider*  _variableMovementDataProvider;
 
-  /// @brief Field _wrapperGO, offset 0x98, size 0x8
-  __declspec(property(get = __cordl_internal_get__wrapperGO, put = __cordl_internal_set__wrapperGO)) ::UnityW<::UnityEngine::GameObject> _wrapperGO;
+/// @brief Field _wrapperGO, offset 0x98, size 0x8 
+ __declspec(property(get=__cordl_internal_get__wrapperGO, put=__cordl_internal_set__wrapperGO)) ::UnityW<::UnityEngine::GameObject>  _wrapperGO;
 
-  /// @brief Field cubeNoteControllerDidInitEvent, offset 0xb0, size 0x8
-  __declspec(property(get = __cordl_internal_get_cubeNoteControllerDidInitEvent,
-                      put = __cordl_internal_set_cubeNoteControllerDidInitEvent)) ::System::Action_1<::UnityW<::GlobalNamespace::BurstSliderGameNoteController>>* cubeNoteControllerDidInitEvent;
+/// @brief Field cubeNoteControllerDidInitEvent, offset 0xb0, size 0x8 
+ __declspec(property(get=__cordl_internal_get_cubeNoteControllerDidInitEvent, put=__cordl_internal_set_cubeNoteControllerDidInitEvent)) ::System::Action_1<::UnityW<::GlobalNamespace::BurstSliderGameNoteController>>*  cubeNoteControllerDidInitEvent;
 
-  __declspec(property(get = get_gameplayType)) ::GlobalNamespace::NoteData_GameplayType gameplayType;
+ __declspec(property(get=get_gameplayType)) ::GlobalNamespace::NoteData_GameplayType  gameplayType;
 
-  __declspec(property(get = get_noteMovement)) ::UnityW<::GlobalNamespace::NoteMovement> noteMovement;
+ __declspec(property(get=get_noteMovement)) ::UnityW<::GlobalNamespace::NoteMovement>  noteMovement;
 
-  __declspec(property(get = get_noteVisualModifierType)) ::GlobalNamespace::NoteVisualModifierType noteVisualModifierType;
+ __declspec(property(get=get_noteVisualModifierType)) ::GlobalNamespace::NoteVisualModifierType  noteVisualModifierType;
 
-  /// @brief Convert operator to "::GlobalNamespace::ICubeNoteControllerInitializable_1<::UnityW<::GlobalNamespace::BurstSliderGameNoteController>>"
-  constexpr operator ::GlobalNamespace::ICubeNoteControllerInitializable_1<::UnityW<::GlobalNamespace::BurstSliderGameNoteController>>*() noexcept;
+/// @brief Convert operator to "::GlobalNamespace::ICubeNoteControllerInitializable_1<::UnityW<::GlobalNamespace::BurstSliderGameNoteController>>"
+constexpr operator  ::GlobalNamespace::ICubeNoteControllerInitializable_1<::UnityW<::GlobalNamespace::BurstSliderGameNoteController>>*() noexcept;
 
-  /// @brief Convert operator to "::GlobalNamespace::IGameNoteMirrorable"
-  constexpr operator ::GlobalNamespace::IGameNoteMirrorable*() noexcept;
+/// @brief Convert operator to "::GlobalNamespace::IGameNoteMirrorable"
+constexpr operator  ::GlobalNamespace::IGameNoteMirrorable*() noexcept;
 
-  /// @brief Convert operator to "::GlobalNamespace::INoteMirrorable"
-  constexpr operator ::GlobalNamespace::INoteMirrorable*() noexcept;
+/// @brief Convert operator to "::GlobalNamespace::INoteMirrorable"
+constexpr operator  ::GlobalNamespace::INoteMirrorable*() noexcept;
 
-  /// @brief Convert operator to "::GlobalNamespace::INoteMovementProvider"
-  constexpr operator ::GlobalNamespace::INoteMovementProvider*() noexcept;
+/// @brief Convert operator to "::GlobalNamespace::INoteMovementProvider"
+constexpr operator  ::GlobalNamespace::INoteMovementProvider*() noexcept;
 
-  /// @brief Convert operator to "::GlobalNamespace::INoteVisualModifierTypeProvider"
-  constexpr operator ::GlobalNamespace::INoteVisualModifierTypeProvider*() noexcept;
+/// @brief Convert operator to "::GlobalNamespace::INoteVisualModifierTypeProvider"
+constexpr operator  ::GlobalNamespace::INoteVisualModifierTypeProvider*() noexcept;
 
-  /// @brief Method Awake, addr 0x5793dcc, size 0x1b0, virtual true, abstract: false, final false
-  inline void Awake();
+/// @brief Method Awake, addr 0x5795634, size 0x1b0, virtual true, abstract: false, final false
+inline void Awake() ;
 
-  /// @brief Method HandleBigWasCutBySaber, addr 0x57942ec, size 0x18, virtual false, abstract: false, final false
-  inline void HandleBigWasCutBySaber(::GlobalNamespace::Saber* saber, ::UnityEngine::Vector3 cutPoint, ::UnityEngine::Quaternion orientation, ::UnityEngine::Vector3 cutDirVec);
+/// @brief Method HandleBigWasCutBySaber, addr 0x5795b54, size 0x18, virtual false, abstract: false, final false
+inline void HandleBigWasCutBySaber(::GlobalNamespace::Saber*  saber, ::UnityEngine::Vector3  cutPoint, ::UnityEngine::Quaternion  orientation, ::UnityEngine::Vector3  cutDirVec) ;
 
-  /// @brief Method HandleCut, addr 0x5794304, size 0x564, virtual false, abstract: false, final false
-  inline void HandleCut(::GlobalNamespace::Saber* saber, ::UnityEngine::Vector3 cutPoint, ::UnityEngine::Quaternion orientation, ::UnityEngine::Vector3 cutDirVec, bool allowBadCut);
+/// @brief Method HandleCut, addr 0x5795b6c, size 0x564, virtual false, abstract: false, final false
+inline void HandleCut(::GlobalNamespace::Saber*  saber, ::UnityEngine::Vector3  cutPoint, ::UnityEngine::Quaternion  orientation, ::UnityEngine::Vector3  cutDirVec, bool  allowBadCut) ;
 
-  /// @brief Method HandleSmallWasCutBySaber, addr 0x5794868, size 0x18, virtual false, abstract: false, final false
-  inline void HandleSmallWasCutBySaber(::GlobalNamespace::Saber* saber, ::UnityEngine::Vector3 cutPoint, ::UnityEngine::Quaternion orientation, ::UnityEngine::Vector3 cutDirVec);
+/// @brief Method HandleSmallWasCutBySaber, addr 0x57960d0, size 0x18, virtual false, abstract: false, final false
+inline void HandleSmallWasCutBySaber(::GlobalNamespace::Saber*  saber, ::UnityEngine::Vector3  cutPoint, ::UnityEngine::Quaternion  orientation, ::UnityEngine::Vector3  cutDirVec) ;
 
-  /// @brief Method HiddenStateDidChange, addr 0x5794934, size 0x20, virtual true, abstract: false, final false
-  inline void HiddenStateDidChange(bool hide);
+/// @brief Method HiddenStateDidChange, addr 0x579619c, size 0x20, virtual true, abstract: false, final false
+inline void HiddenStateDidChange(bool  hide) ;
 
-  /// @brief Method Init, addr 0x579393c, size 0x18c, virtual false, abstract: false, final false
-  inline void Init(::GlobalNamespace::NoteData* noteData, ::ByRef<::GlobalNamespace::NoteSpawnData> noteSpawnData, ::GlobalNamespace::NoteVisualModifierType noteVisualModifierType,
-                   float_t uniformScale);
+/// @brief Method Init, addr 0x57951a4, size 0x18c, virtual false, abstract: false, final false
+inline void Init(::GlobalNamespace::NoteData*  noteData, ::ByRef<::GlobalNamespace::NoteSpawnData>  noteSpawnData, ::GlobalNamespace::NoteVisualModifierType  noteVisualModifierType, float_t  uniformScale) ;
 
-  /// @brief Method ManualUpdate, addr 0x57942b4, size 0x24, virtual true, abstract: false, final false
-  inline void ManualUpdate();
+/// @brief Method ManualUpdate, addr 0x5795b1c, size 0x24, virtual true, abstract: false, final false
+inline void ManualUpdate() ;
 
-  static inline ::GlobalNamespace::BurstSliderGameNoteController* New_ctor();
+static inline ::GlobalNamespace::BurstSliderGameNoteController* New_ctor() ;
 
-  /// @brief Method NoteDidPassMissedMarker, addr 0x5794158, size 0xb0, virtual true, abstract: false, final false
-  inline void NoteDidPassMissedMarker();
+/// @brief Method NoteDidPassMissedMarker, addr 0x57959c0, size 0xb0, virtual true, abstract: false, final false
+inline void NoteDidPassMissedMarker() ;
 
-  /// @brief Method NoteDidStartDissolving, addr 0x5794208, size 0xac, virtual true, abstract: false, final false
-  inline void NoteDidStartDissolving();
+/// @brief Method NoteDidStartDissolving, addr 0x5795a70, size 0xac, virtual true, abstract: false, final false
+inline void NoteDidStartDissolving() ;
 
-  /// @brief Method NoteDidStartJump, addr 0x5794880, size 0xb4, virtual true, abstract: false, final false
-  inline void NoteDidStartJump();
+/// @brief Method NoteDidStartJump, addr 0x57960e8, size 0xb4, virtual true, abstract: false, final false
+inline void NoteDidStartJump() ;
 
-  /// @brief Method OnDestroy, addr 0x5793f7c, size 0x1dc, virtual true, abstract: false, final false
-  inline void OnDestroy();
+/// @brief Method OnDestroy, addr 0x57957e4, size 0x1dc, virtual true, abstract: false, final false
+inline void OnDestroy() ;
 
-  /// @brief Method Pause, addr 0x5794954, size 0x10, virtual true, abstract: false, final false
-  inline void Pause(bool pause);
+/// @brief Method Pause, addr 0x57961bc, size 0x10, virtual true, abstract: false, final false
+inline void Pause(bool  pause) ;
 
-  /// @brief Method SetBigCuttableColliderSize, addr 0x5793ac8, size 0x304, virtual false, abstract: false, final false
-  inline void SetBigCuttableColliderSize();
+/// @brief Method SetBigCuttableColliderSize, addr 0x5795330, size 0x304, virtual false, abstract: false, final false
+inline void SetBigCuttableColliderSize() ;
 
-  constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController> const& __cordl_internal_get__audioTimeSyncController() const;
+constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController> const& __cordl_internal_get__audioTimeSyncController() const;
 
-  constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController>& __cordl_internal_get__audioTimeSyncController();
+constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController>& __cordl_internal_get__audioTimeSyncController() ;
 
-  constexpr ::UnityW<::GlobalNamespace::BoxCuttableBySaber> const& __cordl_internal_get__bigCuttableBySaber() const;
+constexpr ::UnityW<::GlobalNamespace::BoxCuttableBySaber> const& __cordl_internal_get__bigCuttableBySaber() const;
 
-  constexpr ::UnityW<::GlobalNamespace::BoxCuttableBySaber>& __cordl_internal_get__bigCuttableBySaber();
+constexpr ::UnityW<::GlobalNamespace::BoxCuttableBySaber>& __cordl_internal_get__bigCuttableBySaber() ;
 
-  constexpr ::ArrayW<::UnityW<::GlobalNamespace::BoxCuttableBySaber>, ::Array<::UnityW<::GlobalNamespace::BoxCuttableBySaber>>*> const& __cordl_internal_get__bigCuttableBySaberList() const;
+constexpr ::ArrayW<::UnityW<::GlobalNamespace::BoxCuttableBySaber>,::Array<::UnityW<::GlobalNamespace::BoxCuttableBySaber>>*> const& __cordl_internal_get__bigCuttableBySaberList() const;
 
-  constexpr ::ArrayW<::UnityW<::GlobalNamespace::BoxCuttableBySaber>, ::Array<::UnityW<::GlobalNamespace::BoxCuttableBySaber>>*>& __cordl_internal_get__bigCuttableBySaberList();
+constexpr ::ArrayW<::UnityW<::GlobalNamespace::BoxCuttableBySaber>,::Array<::UnityW<::GlobalNamespace::BoxCuttableBySaber>>*>& __cordl_internal_get__bigCuttableBySaberList() ;
 
-  constexpr ::GlobalNamespace::NoteData_GameplayType const& __cordl_internal_get__gameplayType() const;
+constexpr ::GlobalNamespace::NoteData_GameplayType const& __cordl_internal_get__gameplayType() const;
 
-  constexpr ::GlobalNamespace::NoteData_GameplayType& __cordl_internal_get__gameplayType();
+constexpr ::GlobalNamespace::NoteData_GameplayType& __cordl_internal_get__gameplayType() ;
 
-  constexpr float_t const& __cordl_internal_get__jumpEndOffsetZ() const;
+constexpr float_t const& __cordl_internal_get__jumpEndOffsetZ() const;
 
-  constexpr float_t& __cordl_internal_get__jumpEndOffsetZ();
+constexpr float_t& __cordl_internal_get__jumpEndOffsetZ() ;
 
-  constexpr float_t const& __cordl_internal_get__moveEndOffsetZ() const;
+constexpr float_t const& __cordl_internal_get__moveEndOffsetZ() const;
 
-  constexpr float_t& __cordl_internal_get__moveEndOffsetZ();
+constexpr float_t& __cordl_internal_get__moveEndOffsetZ() ;
 
-  constexpr ::GlobalNamespace::NoteVisualModifierType const& __cordl_internal_get__noteVisualModifierType() const;
+constexpr ::GlobalNamespace::NoteVisualModifierType const& __cordl_internal_get__noteVisualModifierType() const;
 
-  constexpr ::GlobalNamespace::NoteVisualModifierType& __cordl_internal_get__noteVisualModifierType();
+constexpr ::GlobalNamespace::NoteVisualModifierType& __cordl_internal_get__noteVisualModifierType() ;
 
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__originalColliderCenter() const;
+constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__originalColliderCenter() const;
 
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get__originalColliderCenter();
+constexpr ::UnityEngine::Vector3& __cordl_internal_get__originalColliderCenter() ;
 
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__originalColliderSize() const;
+constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__originalColliderSize() const;
 
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get__originalColliderSize();
+constexpr ::UnityEngine::Vector3& __cordl_internal_get__originalColliderSize() ;
 
-  constexpr ::ArrayW<::UnityW<::GlobalNamespace::BoxCuttableBySaber>, ::Array<::UnityW<::GlobalNamespace::BoxCuttableBySaber>>*> const& __cordl_internal_get__smallCuttableBySaberList() const;
+constexpr ::ArrayW<::UnityW<::GlobalNamespace::BoxCuttableBySaber>,::Array<::UnityW<::GlobalNamespace::BoxCuttableBySaber>>*> const& __cordl_internal_get__smallCuttableBySaberList() const;
 
-  constexpr ::ArrayW<::UnityW<::GlobalNamespace::BoxCuttableBySaber>, ::Array<::UnityW<::GlobalNamespace::BoxCuttableBySaber>>*>& __cordl_internal_get__smallCuttableBySaberList();
+constexpr ::ArrayW<::UnityW<::GlobalNamespace::BoxCuttableBySaber>,::Array<::UnityW<::GlobalNamespace::BoxCuttableBySaber>>*>& __cordl_internal_get__smallCuttableBySaberList() ;
 
-  constexpr ::GlobalNamespace::IVariableMovementDataProvider* const& __cordl_internal_get__variableMovementDataProvider() const;
+constexpr ::GlobalNamespace::IVariableMovementDataProvider* const& __cordl_internal_get__variableMovementDataProvider() const;
 
-  constexpr ::GlobalNamespace::IVariableMovementDataProvider*& __cordl_internal_get__variableMovementDataProvider();
+constexpr ::GlobalNamespace::IVariableMovementDataProvider*& __cordl_internal_get__variableMovementDataProvider() ;
 
-  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__wrapperGO() const;
+constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__wrapperGO() const;
 
-  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__wrapperGO();
+constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__wrapperGO() ;
 
-  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::BurstSliderGameNoteController>>* const& __cordl_internal_get_cubeNoteControllerDidInitEvent() const;
+constexpr ::System::Action_1<::UnityW<::GlobalNamespace::BurstSliderGameNoteController>>* const& __cordl_internal_get_cubeNoteControllerDidInitEvent() const;
 
-  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::BurstSliderGameNoteController>>*& __cordl_internal_get_cubeNoteControllerDidInitEvent();
+constexpr ::System::Action_1<::UnityW<::GlobalNamespace::BurstSliderGameNoteController>>*& __cordl_internal_get_cubeNoteControllerDidInitEvent() ;
 
-  constexpr void __cordl_internal_set__audioTimeSyncController(::UnityW<::GlobalNamespace::AudioTimeSyncController> value);
+constexpr void __cordl_internal_set__audioTimeSyncController(::UnityW<::GlobalNamespace::AudioTimeSyncController>  value) ;
 
-  constexpr void __cordl_internal_set__bigCuttableBySaber(::UnityW<::GlobalNamespace::BoxCuttableBySaber> value);
+constexpr void __cordl_internal_set__bigCuttableBySaber(::UnityW<::GlobalNamespace::BoxCuttableBySaber>  value) ;
 
-  constexpr void __cordl_internal_set__bigCuttableBySaberList(::ArrayW<::UnityW<::GlobalNamespace::BoxCuttableBySaber>, ::Array<::UnityW<::GlobalNamespace::BoxCuttableBySaber>>*> value);
+constexpr void __cordl_internal_set__bigCuttableBySaberList(::ArrayW<::UnityW<::GlobalNamespace::BoxCuttableBySaber>,::Array<::UnityW<::GlobalNamespace::BoxCuttableBySaber>>*>  value) ;
 
-  constexpr void __cordl_internal_set__gameplayType(::GlobalNamespace::NoteData_GameplayType value);
+constexpr void __cordl_internal_set__gameplayType(::GlobalNamespace::NoteData_GameplayType  value) ;
 
-  constexpr void __cordl_internal_set__jumpEndOffsetZ(float_t value);
+constexpr void __cordl_internal_set__jumpEndOffsetZ(float_t  value) ;
 
-  constexpr void __cordl_internal_set__moveEndOffsetZ(float_t value);
+constexpr void __cordl_internal_set__moveEndOffsetZ(float_t  value) ;
 
-  constexpr void __cordl_internal_set__noteVisualModifierType(::GlobalNamespace::NoteVisualModifierType value);
+constexpr void __cordl_internal_set__noteVisualModifierType(::GlobalNamespace::NoteVisualModifierType  value) ;
 
-  constexpr void __cordl_internal_set__originalColliderCenter(::UnityEngine::Vector3 value);
+constexpr void __cordl_internal_set__originalColliderCenter(::UnityEngine::Vector3  value) ;
 
-  constexpr void __cordl_internal_set__originalColliderSize(::UnityEngine::Vector3 value);
+constexpr void __cordl_internal_set__originalColliderSize(::UnityEngine::Vector3  value) ;
 
-  constexpr void __cordl_internal_set__smallCuttableBySaberList(::ArrayW<::UnityW<::GlobalNamespace::BoxCuttableBySaber>, ::Array<::UnityW<::GlobalNamespace::BoxCuttableBySaber>>*> value);
+constexpr void __cordl_internal_set__smallCuttableBySaberList(::ArrayW<::UnityW<::GlobalNamespace::BoxCuttableBySaber>,::Array<::UnityW<::GlobalNamespace::BoxCuttableBySaber>>*>  value) ;
 
-  constexpr void __cordl_internal_set__variableMovementDataProvider(::GlobalNamespace::IVariableMovementDataProvider* value);
+constexpr void __cordl_internal_set__variableMovementDataProvider(::GlobalNamespace::IVariableMovementDataProvider*  value) ;
 
-  constexpr void __cordl_internal_set__wrapperGO(::UnityW<::UnityEngine::GameObject> value);
+constexpr void __cordl_internal_set__wrapperGO(::UnityW<::UnityEngine::GameObject>  value) ;
 
-  constexpr void __cordl_internal_set_cubeNoteControllerDidInitEvent(::System::Action_1<::UnityW<::GlobalNamespace::BurstSliderGameNoteController>>* value);
+constexpr void __cordl_internal_set_cubeNoteControllerDidInitEvent(::System::Action_1<::UnityW<::GlobalNamespace::BurstSliderGameNoteController>>*  value) ;
 
-  /// @brief Method .ctor, addr 0x5794964, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x57961cc, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method add_cubeNoteControllerDidInitEvent, addr 0x57937a4, size 0xc0, virtual true, abstract: false, final true
-  inline void add_cubeNoteControllerDidInitEvent(::System::Action_1<::UnityW<::GlobalNamespace::BurstSliderGameNoteController>>* value);
+/// @brief Method add_cubeNoteControllerDidInitEvent, addr 0x579500c, size 0xc0, virtual true, abstract: false, final true
+inline void add_cubeNoteControllerDidInitEvent(::System::Action_1<::UnityW<::GlobalNamespace::BurstSliderGameNoteController>>*  value) ;
 
-  /// @brief Method get_gameplayType, addr 0x5793934, size 0x8, virtual true, abstract: false, final true
-  inline ::GlobalNamespace::NoteData_GameplayType get_gameplayType();
+/// @brief Method get_gameplayType, addr 0x579519c, size 0x8, virtual true, abstract: false, final true
+inline ::GlobalNamespace::NoteData_GameplayType get_gameplayType() ;
 
-  /// @brief Method get_noteMovement, addr 0x5793924, size 0x8, virtual true, abstract: false, final true
-  inline ::UnityW<::GlobalNamespace::NoteMovement> get_noteMovement();
+/// @brief Method get_noteMovement, addr 0x579518c, size 0x8, virtual true, abstract: false, final true
+inline ::UnityW<::GlobalNamespace::NoteMovement> get_noteMovement() ;
 
-  /// @brief Method get_noteVisualModifierType, addr 0x579392c, size 0x8, virtual true, abstract: false, final true
-  inline ::GlobalNamespace::NoteVisualModifierType get_noteVisualModifierType();
+/// @brief Method get_noteVisualModifierType, addr 0x5795194, size 0x8, virtual true, abstract: false, final true
+inline ::GlobalNamespace::NoteVisualModifierType get_noteVisualModifierType() ;
 
-  /// @brief Convert to "::GlobalNamespace::ICubeNoteControllerInitializable_1<::UnityW<::GlobalNamespace::BurstSliderGameNoteController>>"
-  constexpr ::GlobalNamespace::ICubeNoteControllerInitializable_1<::UnityW<::GlobalNamespace::BurstSliderGameNoteController>>*
-  i___GlobalNamespace__ICubeNoteControllerInitializable_1___UnityW___GlobalNamespace__BurstSliderGameNoteController__() noexcept;
+/// @brief Convert to "::GlobalNamespace::ICubeNoteControllerInitializable_1<::UnityW<::GlobalNamespace::BurstSliderGameNoteController>>"
+constexpr ::GlobalNamespace::ICubeNoteControllerInitializable_1<::UnityW<::GlobalNamespace::BurstSliderGameNoteController>>* i___GlobalNamespace__ICubeNoteControllerInitializable_1___UnityW___GlobalNamespace__BurstSliderGameNoteController__() noexcept;
 
-  /// @brief Convert to "::GlobalNamespace::IGameNoteMirrorable"
-  constexpr ::GlobalNamespace::IGameNoteMirrorable* i___GlobalNamespace__IGameNoteMirrorable() noexcept;
+/// @brief Convert to "::GlobalNamespace::IGameNoteMirrorable"
+constexpr ::GlobalNamespace::IGameNoteMirrorable* i___GlobalNamespace__IGameNoteMirrorable() noexcept;
 
-  /// @brief Convert to "::GlobalNamespace::INoteMirrorable"
-  constexpr ::GlobalNamespace::INoteMirrorable* i___GlobalNamespace__INoteMirrorable() noexcept;
+/// @brief Convert to "::GlobalNamespace::INoteMirrorable"
+constexpr ::GlobalNamespace::INoteMirrorable* i___GlobalNamespace__INoteMirrorable() noexcept;
 
-  /// @brief Convert to "::GlobalNamespace::INoteMovementProvider"
-  constexpr ::GlobalNamespace::INoteMovementProvider* i___GlobalNamespace__INoteMovementProvider() noexcept;
+/// @brief Convert to "::GlobalNamespace::INoteMovementProvider"
+constexpr ::GlobalNamespace::INoteMovementProvider* i___GlobalNamespace__INoteMovementProvider() noexcept;
 
-  /// @brief Convert to "::GlobalNamespace::INoteVisualModifierTypeProvider"
-  constexpr ::GlobalNamespace::INoteVisualModifierTypeProvider* i___GlobalNamespace__INoteVisualModifierTypeProvider() noexcept;
+/// @brief Convert to "::GlobalNamespace::INoteVisualModifierTypeProvider"
+constexpr ::GlobalNamespace::INoteVisualModifierTypeProvider* i___GlobalNamespace__INoteVisualModifierTypeProvider() noexcept;
 
-  /// @brief Method remove_cubeNoteControllerDidInitEvent, addr 0x5793864, size 0xc0, virtual true, abstract: false, final true
-  inline void remove_cubeNoteControllerDidInitEvent(::System::Action_1<::UnityW<::GlobalNamespace::BurstSliderGameNoteController>>* value);
+/// @brief Method remove_cubeNoteControllerDidInitEvent, addr 0x57950cc, size 0xc0, virtual true, abstract: false, final true
+inline void remove_cubeNoteControllerDidInitEvent(::System::Action_1<::UnityW<::GlobalNamespace::BurstSliderGameNoteController>>*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BurstSliderGameNoteController();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr BurstSliderGameNoteController() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BurstSliderGameNoteController", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  BurstSliderGameNoteController(BurstSliderGameNoteController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BurstSliderGameNoteController", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  BurstSliderGameNoteController(BurstSliderGameNoteController const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "BurstSliderGameNoteController", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+BurstSliderGameNoteController(BurstSliderGameNoteController && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5658 };
+// Ctor Parameters [CppParam { name: "", ty: "BurstSliderGameNoteController", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+BurstSliderGameNoteController(BurstSliderGameNoteController const& ) = delete;
 
-  /// @brief Field _bigCuttableBySaberList, offset: 0x88, size: 0x8, def value: None
-  ::ArrayW<::UnityW<::GlobalNamespace::BoxCuttableBySaber>, ::Array<::UnityW<::GlobalNamespace::BoxCuttableBySaber>>*> ____bigCuttableBySaberList;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{5658};
 
-  /// @brief Field _smallCuttableBySaberList, offset: 0x90, size: 0x8, def value: None
-  ::ArrayW<::UnityW<::GlobalNamespace::BoxCuttableBySaber>, ::Array<::UnityW<::GlobalNamespace::BoxCuttableBySaber>>*> ____smallCuttableBySaberList;
+/// @brief Field _bigCuttableBySaberList, offset: 0x88, size: 0x8, def value: None
+ ::ArrayW<::UnityW<::GlobalNamespace::BoxCuttableBySaber>,::Array<::UnityW<::GlobalNamespace::BoxCuttableBySaber>>*>  ____bigCuttableBySaberList;
 
-  /// @brief Field _wrapperGO, offset: 0x98, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::GameObject> ____wrapperGO;
+/// @brief Field _smallCuttableBySaberList, offset: 0x90, size: 0x8, def value: None
+ ::ArrayW<::UnityW<::GlobalNamespace::BoxCuttableBySaber>,::Array<::UnityW<::GlobalNamespace::BoxCuttableBySaber>>*>  ____smallCuttableBySaberList;
 
-  /// @brief Field _audioTimeSyncController, offset: 0xa0, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::AudioTimeSyncController> ____audioTimeSyncController;
+/// @brief Field _wrapperGO, offset: 0x98, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::GameObject>  ____wrapperGO;
 
-  /// @brief Field _variableMovementDataProvider, offset: 0xa8, size: 0x8, def value: None
-  ::GlobalNamespace::IVariableMovementDataProvider* ____variableMovementDataProvider;
+/// @brief Field _audioTimeSyncController, offset: 0xa0, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::AudioTimeSyncController>  ____audioTimeSyncController;
 
-  /// @brief Field cubeNoteControllerDidInitEvent, offset: 0xb0, size: 0x8, def value: None
-  ::System::Action_1<::UnityW<::GlobalNamespace::BurstSliderGameNoteController>>* ___cubeNoteControllerDidInitEvent;
+/// @brief Field _variableMovementDataProvider, offset: 0xa8, size: 0x8, def value: None
+ ::GlobalNamespace::IVariableMovementDataProvider*  ____variableMovementDataProvider;
 
-  /// @brief Field _noteVisualModifierType, offset: 0xb8, size: 0x4, def value: None
-  ::GlobalNamespace::NoteVisualModifierType ____noteVisualModifierType;
+/// @brief Field cubeNoteControllerDidInitEvent, offset: 0xb0, size: 0x8, def value: None
+ ::System::Action_1<::UnityW<::GlobalNamespace::BurstSliderGameNoteController>>*  ___cubeNoteControllerDidInitEvent;
 
-  /// @brief Field _gameplayType, offset: 0xbc, size: 0x4, def value: None
-  ::GlobalNamespace::NoteData_GameplayType ____gameplayType;
+/// @brief Field _noteVisualModifierType, offset: 0xb8, size: 0x4, def value: None
+ ::GlobalNamespace::NoteVisualModifierType  ____noteVisualModifierType;
 
-  /// @brief Field _bigCuttableBySaber, offset: 0xc0, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::BoxCuttableBySaber> ____bigCuttableBySaber;
+/// @brief Field _gameplayType, offset: 0xbc, size: 0x4, def value: None
+ ::GlobalNamespace::NoteData_GameplayType  ____gameplayType;
 
-  /// @brief Field _originalColliderSize, offset: 0xc8, size: 0xc, def value: None
-  ::UnityEngine::Vector3 ____originalColliderSize;
+/// @brief Field _bigCuttableBySaber, offset: 0xc0, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::BoxCuttableBySaber>  ____bigCuttableBySaber;
 
-  /// @brief Field _originalColliderCenter, offset: 0xd4, size: 0xc, def value: None
-  ::UnityEngine::Vector3 ____originalColliderCenter;
+/// @brief Field _originalColliderSize, offset: 0xc8, size: 0xc, def value: None
+ ::UnityEngine::Vector3  ____originalColliderSize;
 
-  /// @brief Field _moveEndOffsetZ, offset: 0xe0, size: 0x4, def value: None
-  float_t ____moveEndOffsetZ;
+/// @brief Field _originalColliderCenter, offset: 0xd4, size: 0xc, def value: None
+ ::UnityEngine::Vector3  ____originalColliderCenter;
 
-  /// @brief Field _jumpEndOffsetZ, offset: 0xe4, size: 0x4, def value: None
-  float_t ____jumpEndOffsetZ;
+/// @brief Field _moveEndOffsetZ, offset: 0xe0, size: 0x4, def value: None
+ float_t  ____moveEndOffsetZ;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _jumpEndOffsetZ, offset: 0xe4, size: 0x4, def value: None
+ float_t  ____jumpEndOffsetZ;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::BurstSliderGameNoteController, ____bigCuttableBySaberList) == 0x88, "Offset mismatch!");
@@ -429,7 +422,7 @@ static_assert(offsetof(::GlobalNamespace::BurstSliderGameNoteController, ____jum
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BurstSliderGameNoteController, 0xe8>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BurstSliderGameNoteController);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BurstSliderGameNoteController*, "", "BurstSliderGameNoteController");
 NEED_NO_BOX(::GlobalNamespace::BurstSliderGameNoteController_Pool);

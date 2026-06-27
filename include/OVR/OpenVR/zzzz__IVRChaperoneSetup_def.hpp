@@ -185,1038 +185,1001 @@ namespace OVR::OpenVR {
 // CS Name: OVR.OpenVR.IVRChaperoneSetup/_CommitWorkingCopy
 class CORDL_TYPE IVRChaperoneSetup__CommitWorkingCopy : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x5cf6ecc, size 0x88, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::OVR::OpenVR::EChaperoneConfigFile configFile, ::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x5cf8a44, size 0x88, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(::OVR::OpenVR::EChaperoneConfigFile  configFile, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x5cf6f54, size 0x24, virtual true, abstract: false, final false
-  inline bool EndInvoke(::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x5cf8acc, size 0x24, virtual true, abstract: false, final false
+inline bool EndInvoke(::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x5cf6eb8, size 0x14, virtual true, abstract: false, final false
-  inline bool Invoke(::OVR::OpenVR::EChaperoneConfigFile configFile);
+/// @brief Method Invoke, addr 0x5cf8a30, size 0x14, virtual true, abstract: false, final false
+inline bool Invoke(::OVR::OpenVR::EChaperoneConfigFile  configFile) ;
 
-  static inline ::OVR::OpenVR::IVRChaperoneSetup__CommitWorkingCopy* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::IVRChaperoneSetup__CommitWorkingCopy* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x5cf6e4c, size 0x6c, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x5cf89c4, size 0x6c, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IVRChaperoneSetup__CommitWorkingCopy();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr IVRChaperoneSetup__CommitWorkingCopy() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__CommitWorkingCopy", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IVRChaperoneSetup__CommitWorkingCopy(IVRChaperoneSetup__CommitWorkingCopy&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__CommitWorkingCopy", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  IVRChaperoneSetup__CommitWorkingCopy(IVRChaperoneSetup__CommitWorkingCopy const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__CommitWorkingCopy", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+IVRChaperoneSetup__CommitWorkingCopy(IVRChaperoneSetup__CommitWorkingCopy && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8132 };
+// Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__CommitWorkingCopy", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+IVRChaperoneSetup__CommitWorkingCopy(IVRChaperoneSetup__CommitWorkingCopy const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8133};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVRChaperoneSetup__CommitWorkingCopy, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVRChaperoneSetup/_RevertWorkingCopy
 class CORDL_TYPE IVRChaperoneSetup__RevertWorkingCopy : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x5cf6ff4, size 0x1c, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x5cf8b6c, size 0x1c, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x5cf7010, size 0xc, virtual true, abstract: false, final false
-  inline void EndInvoke(::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x5cf8b88, size 0xc, virtual true, abstract: false, final false
+inline void EndInvoke(::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x5cf6fe0, size 0x14, virtual true, abstract: false, final false
-  inline void Invoke();
+/// @brief Method Invoke, addr 0x5cf8b58, size 0x14, virtual true, abstract: false, final false
+inline void Invoke() ;
 
-  static inline ::OVR::OpenVR::IVRChaperoneSetup__RevertWorkingCopy* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::IVRChaperoneSetup__RevertWorkingCopy* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x5cf6f78, size 0x68, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x5cf8af0, size 0x68, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IVRChaperoneSetup__RevertWorkingCopy();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr IVRChaperoneSetup__RevertWorkingCopy() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__RevertWorkingCopy", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IVRChaperoneSetup__RevertWorkingCopy(IVRChaperoneSetup__RevertWorkingCopy&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__RevertWorkingCopy", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  IVRChaperoneSetup__RevertWorkingCopy(IVRChaperoneSetup__RevertWorkingCopy const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__RevertWorkingCopy", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+IVRChaperoneSetup__RevertWorkingCopy(IVRChaperoneSetup__RevertWorkingCopy && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8133 };
+// Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__RevertWorkingCopy", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+IVRChaperoneSetup__RevertWorkingCopy(IVRChaperoneSetup__RevertWorkingCopy const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8134};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVRChaperoneSetup__RevertWorkingCopy, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVRChaperoneSetup/_GetWorkingPlayAreaSize
 class CORDL_TYPE IVRChaperoneSetup__GetWorkingPlayAreaSize : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x5cf70b0, size 0x70, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::ByRef<float_t> pSizeX, ::ByRef<float_t> pSizeZ, ::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x5cf8c28, size 0x70, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(::ByRef<float_t>  pSizeX, ::ByRef<float_t>  pSizeZ, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x5cf7120, size 0x30, virtual true, abstract: false, final false
-  inline bool EndInvoke(::ByRef<float_t> pSizeX, ::ByRef<float_t> pSizeZ, ::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x5cf8c98, size 0x30, virtual true, abstract: false, final false
+inline bool EndInvoke(::ByRef<float_t>  pSizeX, ::ByRef<float_t>  pSizeZ, ::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x5cf709c, size 0x14, virtual true, abstract: false, final false
-  inline bool Invoke(::ByRef<float_t> pSizeX, ::ByRef<float_t> pSizeZ);
+/// @brief Method Invoke, addr 0x5cf8c14, size 0x14, virtual true, abstract: false, final false
+inline bool Invoke(::ByRef<float_t>  pSizeX, ::ByRef<float_t>  pSizeZ) ;
 
-  static inline ::OVR::OpenVR::IVRChaperoneSetup__GetWorkingPlayAreaSize* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::IVRChaperoneSetup__GetWorkingPlayAreaSize* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x5cf701c, size 0x80, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x5cf8b94, size 0x80, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IVRChaperoneSetup__GetWorkingPlayAreaSize();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr IVRChaperoneSetup__GetWorkingPlayAreaSize() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__GetWorkingPlayAreaSize", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IVRChaperoneSetup__GetWorkingPlayAreaSize(IVRChaperoneSetup__GetWorkingPlayAreaSize&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__GetWorkingPlayAreaSize", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  IVRChaperoneSetup__GetWorkingPlayAreaSize(IVRChaperoneSetup__GetWorkingPlayAreaSize const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__GetWorkingPlayAreaSize", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+IVRChaperoneSetup__GetWorkingPlayAreaSize(IVRChaperoneSetup__GetWorkingPlayAreaSize && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8134 };
+// Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__GetWorkingPlayAreaSize", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+IVRChaperoneSetup__GetWorkingPlayAreaSize(IVRChaperoneSetup__GetWorkingPlayAreaSize const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8135};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVRChaperoneSetup__GetWorkingPlayAreaSize, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVRChaperoneSetup/_GetWorkingPlayAreaRect
 class CORDL_TYPE IVRChaperoneSetup__GetWorkingPlayAreaRect : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x5cf71e0, size 0x90, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::ByRef<::OVR::OpenVR::HmdQuad_t> rect, ::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x5cf8d58, size 0x90, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(::ByRef<::OVR::OpenVR::HmdQuad_t>  rect, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x5cf7270, size 0x24, virtual true, abstract: false, final false
-  inline bool EndInvoke(::ByRef<::OVR::OpenVR::HmdQuad_t> rect, ::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x5cf8de8, size 0x24, virtual true, abstract: false, final false
+inline bool EndInvoke(::ByRef<::OVR::OpenVR::HmdQuad_t>  rect, ::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x5cf71cc, size 0x14, virtual true, abstract: false, final false
-  inline bool Invoke(::ByRef<::OVR::OpenVR::HmdQuad_t> rect);
+/// @brief Method Invoke, addr 0x5cf8d44, size 0x14, virtual true, abstract: false, final false
+inline bool Invoke(::ByRef<::OVR::OpenVR::HmdQuad_t>  rect) ;
 
-  static inline ::OVR::OpenVR::IVRChaperoneSetup__GetWorkingPlayAreaRect* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::IVRChaperoneSetup__GetWorkingPlayAreaRect* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x5cf7150, size 0x7c, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x5cf8cc8, size 0x7c, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IVRChaperoneSetup__GetWorkingPlayAreaRect();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr IVRChaperoneSetup__GetWorkingPlayAreaRect() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__GetWorkingPlayAreaRect", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IVRChaperoneSetup__GetWorkingPlayAreaRect(IVRChaperoneSetup__GetWorkingPlayAreaRect&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__GetWorkingPlayAreaRect", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  IVRChaperoneSetup__GetWorkingPlayAreaRect(IVRChaperoneSetup__GetWorkingPlayAreaRect const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__GetWorkingPlayAreaRect", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+IVRChaperoneSetup__GetWorkingPlayAreaRect(IVRChaperoneSetup__GetWorkingPlayAreaRect && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8135 };
+// Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__GetWorkingPlayAreaRect", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+IVRChaperoneSetup__GetWorkingPlayAreaRect(IVRChaperoneSetup__GetWorkingPlayAreaRect const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8136};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVRChaperoneSetup__GetWorkingPlayAreaRect, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVRChaperoneSetup/_GetWorkingCollisionBoundsInfo
 class CORDL_TYPE IVRChaperoneSetup__GetWorkingCollisionBoundsInfo : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x5cf7328, size 0x58, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::ByRef<::ArrayW<::OVR::OpenVR::HmdQuad_t, ::Array<::OVR::OpenVR::HmdQuad_t>*>> pQuadsBuffer, ::ByRef<uint32_t> punQuadsCount,
-                                             ::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x5cf8ea0, size 0x58, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(::ByRef<::ArrayW<::OVR::OpenVR::HmdQuad_t,::Array<::OVR::OpenVR::HmdQuad_t>*>>  pQuadsBuffer, ::ByRef<uint32_t>  punQuadsCount, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x5cf7380, size 0x24, virtual true, abstract: false, final false
-  inline bool EndInvoke(::ByRef<uint32_t> punQuadsCount, ::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x5cf8ef8, size 0x24, virtual true, abstract: false, final false
+inline bool EndInvoke(::ByRef<uint32_t>  punQuadsCount, ::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x5cf7314, size 0x14, virtual true, abstract: false, final false
-  inline bool Invoke(::ByRef<::ArrayW<::OVR::OpenVR::HmdQuad_t, ::Array<::OVR::OpenVR::HmdQuad_t>*>> pQuadsBuffer, ::ByRef<uint32_t> punQuadsCount);
+/// @brief Method Invoke, addr 0x5cf8e8c, size 0x14, virtual true, abstract: false, final false
+inline bool Invoke(::ByRef<::ArrayW<::OVR::OpenVR::HmdQuad_t,::Array<::OVR::OpenVR::HmdQuad_t>*>>  pQuadsBuffer, ::ByRef<uint32_t>  punQuadsCount) ;
 
-  static inline ::OVR::OpenVR::IVRChaperoneSetup__GetWorkingCollisionBoundsInfo* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::IVRChaperoneSetup__GetWorkingCollisionBoundsInfo* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x5cf7294, size 0x80, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x5cf8e0c, size 0x80, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IVRChaperoneSetup__GetWorkingCollisionBoundsInfo();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr IVRChaperoneSetup__GetWorkingCollisionBoundsInfo() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__GetWorkingCollisionBoundsInfo", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IVRChaperoneSetup__GetWorkingCollisionBoundsInfo(IVRChaperoneSetup__GetWorkingCollisionBoundsInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__GetWorkingCollisionBoundsInfo", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  IVRChaperoneSetup__GetWorkingCollisionBoundsInfo(IVRChaperoneSetup__GetWorkingCollisionBoundsInfo const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__GetWorkingCollisionBoundsInfo", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+IVRChaperoneSetup__GetWorkingCollisionBoundsInfo(IVRChaperoneSetup__GetWorkingCollisionBoundsInfo && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8136 };
+// Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__GetWorkingCollisionBoundsInfo", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+IVRChaperoneSetup__GetWorkingCollisionBoundsInfo(IVRChaperoneSetup__GetWorkingCollisionBoundsInfo const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8137};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVRChaperoneSetup__GetWorkingCollisionBoundsInfo, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVRChaperoneSetup/_GetLiveCollisionBoundsInfo
 class CORDL_TYPE IVRChaperoneSetup__GetLiveCollisionBoundsInfo : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x5cf7438, size 0x58, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::ByRef<::ArrayW<::OVR::OpenVR::HmdQuad_t, ::Array<::OVR::OpenVR::HmdQuad_t>*>> pQuadsBuffer, ::ByRef<uint32_t> punQuadsCount,
-                                             ::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x5cf8fb0, size 0x58, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(::ByRef<::ArrayW<::OVR::OpenVR::HmdQuad_t,::Array<::OVR::OpenVR::HmdQuad_t>*>>  pQuadsBuffer, ::ByRef<uint32_t>  punQuadsCount, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x5cf7490, size 0x24, virtual true, abstract: false, final false
-  inline bool EndInvoke(::ByRef<uint32_t> punQuadsCount, ::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x5cf9008, size 0x24, virtual true, abstract: false, final false
+inline bool EndInvoke(::ByRef<uint32_t>  punQuadsCount, ::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x5cf7424, size 0x14, virtual true, abstract: false, final false
-  inline bool Invoke(::ByRef<::ArrayW<::OVR::OpenVR::HmdQuad_t, ::Array<::OVR::OpenVR::HmdQuad_t>*>> pQuadsBuffer, ::ByRef<uint32_t> punQuadsCount);
+/// @brief Method Invoke, addr 0x5cf8f9c, size 0x14, virtual true, abstract: false, final false
+inline bool Invoke(::ByRef<::ArrayW<::OVR::OpenVR::HmdQuad_t,::Array<::OVR::OpenVR::HmdQuad_t>*>>  pQuadsBuffer, ::ByRef<uint32_t>  punQuadsCount) ;
 
-  static inline ::OVR::OpenVR::IVRChaperoneSetup__GetLiveCollisionBoundsInfo* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::IVRChaperoneSetup__GetLiveCollisionBoundsInfo* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x5cf73a4, size 0x80, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x5cf8f1c, size 0x80, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IVRChaperoneSetup__GetLiveCollisionBoundsInfo();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr IVRChaperoneSetup__GetLiveCollisionBoundsInfo() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__GetLiveCollisionBoundsInfo", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IVRChaperoneSetup__GetLiveCollisionBoundsInfo(IVRChaperoneSetup__GetLiveCollisionBoundsInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__GetLiveCollisionBoundsInfo", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  IVRChaperoneSetup__GetLiveCollisionBoundsInfo(IVRChaperoneSetup__GetLiveCollisionBoundsInfo const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__GetLiveCollisionBoundsInfo", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+IVRChaperoneSetup__GetLiveCollisionBoundsInfo(IVRChaperoneSetup__GetLiveCollisionBoundsInfo && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8137 };
+// Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__GetLiveCollisionBoundsInfo", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+IVRChaperoneSetup__GetLiveCollisionBoundsInfo(IVRChaperoneSetup__GetLiveCollisionBoundsInfo const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8138};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVRChaperoneSetup__GetLiveCollisionBoundsInfo, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVRChaperoneSetup/_GetWorkingSeatedZeroPoseToRawTrackingPose
 class CORDL_TYPE IVRChaperoneSetup__GetWorkingSeatedZeroPoseToRawTrackingPose : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x5cf7544, size 0x90, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::ByRef<::OVR::OpenVR::HmdMatrix34_t> pmatSeatedZeroPoseToRawTrackingPose, ::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x5cf90bc, size 0x90, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(::ByRef<::OVR::OpenVR::HmdMatrix34_t>  pmatSeatedZeroPoseToRawTrackingPose, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x5cf75d4, size 0x24, virtual true, abstract: false, final false
-  inline bool EndInvoke(::ByRef<::OVR::OpenVR::HmdMatrix34_t> pmatSeatedZeroPoseToRawTrackingPose, ::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x5cf914c, size 0x24, virtual true, abstract: false, final false
+inline bool EndInvoke(::ByRef<::OVR::OpenVR::HmdMatrix34_t>  pmatSeatedZeroPoseToRawTrackingPose, ::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x5cf7530, size 0x14, virtual true, abstract: false, final false
-  inline bool Invoke(::ByRef<::OVR::OpenVR::HmdMatrix34_t> pmatSeatedZeroPoseToRawTrackingPose);
+/// @brief Method Invoke, addr 0x5cf90a8, size 0x14, virtual true, abstract: false, final false
+inline bool Invoke(::ByRef<::OVR::OpenVR::HmdMatrix34_t>  pmatSeatedZeroPoseToRawTrackingPose) ;
 
-  static inline ::OVR::OpenVR::IVRChaperoneSetup__GetWorkingSeatedZeroPoseToRawTrackingPose* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::IVRChaperoneSetup__GetWorkingSeatedZeroPoseToRawTrackingPose* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x5cf74b4, size 0x7c, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x5cf902c, size 0x7c, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IVRChaperoneSetup__GetWorkingSeatedZeroPoseToRawTrackingPose();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr IVRChaperoneSetup__GetWorkingSeatedZeroPoseToRawTrackingPose() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__GetWorkingSeatedZeroPoseToRawTrackingPose", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IVRChaperoneSetup__GetWorkingSeatedZeroPoseToRawTrackingPose(IVRChaperoneSetup__GetWorkingSeatedZeroPoseToRawTrackingPose&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__GetWorkingSeatedZeroPoseToRawTrackingPose", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  IVRChaperoneSetup__GetWorkingSeatedZeroPoseToRawTrackingPose(IVRChaperoneSetup__GetWorkingSeatedZeroPoseToRawTrackingPose const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__GetWorkingSeatedZeroPoseToRawTrackingPose", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+IVRChaperoneSetup__GetWorkingSeatedZeroPoseToRawTrackingPose(IVRChaperoneSetup__GetWorkingSeatedZeroPoseToRawTrackingPose && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8138 };
+// Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__GetWorkingSeatedZeroPoseToRawTrackingPose", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+IVRChaperoneSetup__GetWorkingSeatedZeroPoseToRawTrackingPose(IVRChaperoneSetup__GetWorkingSeatedZeroPoseToRawTrackingPose const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8139};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVRChaperoneSetup__GetWorkingSeatedZeroPoseToRawTrackingPose, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVRChaperoneSetup/_GetWorkingStandingZeroPoseToRawTrackingPose
 class CORDL_TYPE IVRChaperoneSetup__GetWorkingStandingZeroPoseToRawTrackingPose : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x5cf7688, size 0x90, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::ByRef<::OVR::OpenVR::HmdMatrix34_t> pmatStandingZeroPoseToRawTrackingPose, ::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x5cf9200, size 0x90, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(::ByRef<::OVR::OpenVR::HmdMatrix34_t>  pmatStandingZeroPoseToRawTrackingPose, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x5cf7718, size 0x24, virtual true, abstract: false, final false
-  inline bool EndInvoke(::ByRef<::OVR::OpenVR::HmdMatrix34_t> pmatStandingZeroPoseToRawTrackingPose, ::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x5cf9290, size 0x24, virtual true, abstract: false, final false
+inline bool EndInvoke(::ByRef<::OVR::OpenVR::HmdMatrix34_t>  pmatStandingZeroPoseToRawTrackingPose, ::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x5cf7674, size 0x14, virtual true, abstract: false, final false
-  inline bool Invoke(::ByRef<::OVR::OpenVR::HmdMatrix34_t> pmatStandingZeroPoseToRawTrackingPose);
+/// @brief Method Invoke, addr 0x5cf91ec, size 0x14, virtual true, abstract: false, final false
+inline bool Invoke(::ByRef<::OVR::OpenVR::HmdMatrix34_t>  pmatStandingZeroPoseToRawTrackingPose) ;
 
-  static inline ::OVR::OpenVR::IVRChaperoneSetup__GetWorkingStandingZeroPoseToRawTrackingPose* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::IVRChaperoneSetup__GetWorkingStandingZeroPoseToRawTrackingPose* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x5cf75f8, size 0x7c, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x5cf9170, size 0x7c, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IVRChaperoneSetup__GetWorkingStandingZeroPoseToRawTrackingPose();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr IVRChaperoneSetup__GetWorkingStandingZeroPoseToRawTrackingPose() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__GetWorkingStandingZeroPoseToRawTrackingPose", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IVRChaperoneSetup__GetWorkingStandingZeroPoseToRawTrackingPose(IVRChaperoneSetup__GetWorkingStandingZeroPoseToRawTrackingPose&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__GetWorkingStandingZeroPoseToRawTrackingPose", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  IVRChaperoneSetup__GetWorkingStandingZeroPoseToRawTrackingPose(IVRChaperoneSetup__GetWorkingStandingZeroPoseToRawTrackingPose const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__GetWorkingStandingZeroPoseToRawTrackingPose", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+IVRChaperoneSetup__GetWorkingStandingZeroPoseToRawTrackingPose(IVRChaperoneSetup__GetWorkingStandingZeroPoseToRawTrackingPose && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8139 };
+// Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__GetWorkingStandingZeroPoseToRawTrackingPose", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+IVRChaperoneSetup__GetWorkingStandingZeroPoseToRawTrackingPose(IVRChaperoneSetup__GetWorkingStandingZeroPoseToRawTrackingPose const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8140};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVRChaperoneSetup__GetWorkingStandingZeroPoseToRawTrackingPose, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVRChaperoneSetup/_SetWorkingPlayAreaSize
 class CORDL_TYPE IVRChaperoneSetup__SetWorkingPlayAreaSize : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x5cf77bc, size 0x70, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(float_t sizeX, float_t sizeZ, ::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x5cf9334, size 0x70, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(float_t  sizeX, float_t  sizeZ, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x5cf782c, size 0xc, virtual true, abstract: false, final false
-  inline void EndInvoke(::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x5cf93a4, size 0xc, virtual true, abstract: false, final false
+inline void EndInvoke(::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x5cf77a8, size 0x14, virtual true, abstract: false, final false
-  inline void Invoke(float_t sizeX, float_t sizeZ);
+/// @brief Method Invoke, addr 0x5cf9320, size 0x14, virtual true, abstract: false, final false
+inline void Invoke(float_t  sizeX, float_t  sizeZ) ;
 
-  static inline ::OVR::OpenVR::IVRChaperoneSetup__SetWorkingPlayAreaSize* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::IVRChaperoneSetup__SetWorkingPlayAreaSize* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x5cf773c, size 0x6c, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x5cf92b4, size 0x6c, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IVRChaperoneSetup__SetWorkingPlayAreaSize();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr IVRChaperoneSetup__SetWorkingPlayAreaSize() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__SetWorkingPlayAreaSize", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IVRChaperoneSetup__SetWorkingPlayAreaSize(IVRChaperoneSetup__SetWorkingPlayAreaSize&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__SetWorkingPlayAreaSize", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  IVRChaperoneSetup__SetWorkingPlayAreaSize(IVRChaperoneSetup__SetWorkingPlayAreaSize const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__SetWorkingPlayAreaSize", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+IVRChaperoneSetup__SetWorkingPlayAreaSize(IVRChaperoneSetup__SetWorkingPlayAreaSize && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8140 };
+// Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__SetWorkingPlayAreaSize", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+IVRChaperoneSetup__SetWorkingPlayAreaSize(IVRChaperoneSetup__SetWorkingPlayAreaSize const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8141};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVRChaperoneSetup__SetWorkingPlayAreaSize, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVRChaperoneSetup/_SetWorkingCollisionBoundsInfo
 class CORDL_TYPE IVRChaperoneSetup__SetWorkingCollisionBoundsInfo : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x5cf78cc, size 0x5c, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::ByRef<::ArrayW<::OVR::OpenVR::HmdQuad_t, ::Array<::OVR::OpenVR::HmdQuad_t>*>> pQuadsBuffer, uint32_t unQuadsCount, ::System::AsyncCallback* callback,
-                                             ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x5cf9444, size 0x5c, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(::ByRef<::ArrayW<::OVR::OpenVR::HmdQuad_t,::Array<::OVR::OpenVR::HmdQuad_t>*>>  pQuadsBuffer, uint32_t  unQuadsCount, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x5cf7928, size 0xc, virtual true, abstract: false, final false
-  inline void EndInvoke(::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x5cf94a0, size 0xc, virtual true, abstract: false, final false
+inline void EndInvoke(::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x5cf78b8, size 0x14, virtual true, abstract: false, final false
-  inline void Invoke(::ByRef<::ArrayW<::OVR::OpenVR::HmdQuad_t, ::Array<::OVR::OpenVR::HmdQuad_t>*>> pQuadsBuffer, uint32_t unQuadsCount);
+/// @brief Method Invoke, addr 0x5cf9430, size 0x14, virtual true, abstract: false, final false
+inline void Invoke(::ByRef<::ArrayW<::OVR::OpenVR::HmdQuad_t,::Array<::OVR::OpenVR::HmdQuad_t>*>>  pQuadsBuffer, uint32_t  unQuadsCount) ;
 
-  static inline ::OVR::OpenVR::IVRChaperoneSetup__SetWorkingCollisionBoundsInfo* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::IVRChaperoneSetup__SetWorkingCollisionBoundsInfo* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x5cf7838, size 0x80, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x5cf93b0, size 0x80, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IVRChaperoneSetup__SetWorkingCollisionBoundsInfo();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr IVRChaperoneSetup__SetWorkingCollisionBoundsInfo() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__SetWorkingCollisionBoundsInfo", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IVRChaperoneSetup__SetWorkingCollisionBoundsInfo(IVRChaperoneSetup__SetWorkingCollisionBoundsInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__SetWorkingCollisionBoundsInfo", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  IVRChaperoneSetup__SetWorkingCollisionBoundsInfo(IVRChaperoneSetup__SetWorkingCollisionBoundsInfo const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__SetWorkingCollisionBoundsInfo", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+IVRChaperoneSetup__SetWorkingCollisionBoundsInfo(IVRChaperoneSetup__SetWorkingCollisionBoundsInfo && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8141 };
+// Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__SetWorkingCollisionBoundsInfo", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+IVRChaperoneSetup__SetWorkingCollisionBoundsInfo(IVRChaperoneSetup__SetWorkingCollisionBoundsInfo const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8142};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVRChaperoneSetup__SetWorkingCollisionBoundsInfo, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVRChaperoneSetup/_SetWorkingSeatedZeroPoseToRawTrackingPose
 class CORDL_TYPE IVRChaperoneSetup__SetWorkingSeatedZeroPoseToRawTrackingPose : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x5cf79c4, size 0x90, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::ByRef<::OVR::OpenVR::HmdMatrix34_t> pMatSeatedZeroPoseToRawTrackingPose, ::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x5cf953c, size 0x90, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(::ByRef<::OVR::OpenVR::HmdMatrix34_t>  pMatSeatedZeroPoseToRawTrackingPose, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x5cf7a54, size 0x18, virtual true, abstract: false, final false
-  inline void EndInvoke(::ByRef<::OVR::OpenVR::HmdMatrix34_t> pMatSeatedZeroPoseToRawTrackingPose, ::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x5cf95cc, size 0x18, virtual true, abstract: false, final false
+inline void EndInvoke(::ByRef<::OVR::OpenVR::HmdMatrix34_t>  pMatSeatedZeroPoseToRawTrackingPose, ::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x5cf79b0, size 0x14, virtual true, abstract: false, final false
-  inline void Invoke(::ByRef<::OVR::OpenVR::HmdMatrix34_t> pMatSeatedZeroPoseToRawTrackingPose);
+/// @brief Method Invoke, addr 0x5cf9528, size 0x14, virtual true, abstract: false, final false
+inline void Invoke(::ByRef<::OVR::OpenVR::HmdMatrix34_t>  pMatSeatedZeroPoseToRawTrackingPose) ;
 
-  static inline ::OVR::OpenVR::IVRChaperoneSetup__SetWorkingSeatedZeroPoseToRawTrackingPose* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::IVRChaperoneSetup__SetWorkingSeatedZeroPoseToRawTrackingPose* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x5cf7934, size 0x7c, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x5cf94ac, size 0x7c, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IVRChaperoneSetup__SetWorkingSeatedZeroPoseToRawTrackingPose();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr IVRChaperoneSetup__SetWorkingSeatedZeroPoseToRawTrackingPose() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__SetWorkingSeatedZeroPoseToRawTrackingPose", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IVRChaperoneSetup__SetWorkingSeatedZeroPoseToRawTrackingPose(IVRChaperoneSetup__SetWorkingSeatedZeroPoseToRawTrackingPose&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__SetWorkingSeatedZeroPoseToRawTrackingPose", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  IVRChaperoneSetup__SetWorkingSeatedZeroPoseToRawTrackingPose(IVRChaperoneSetup__SetWorkingSeatedZeroPoseToRawTrackingPose const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__SetWorkingSeatedZeroPoseToRawTrackingPose", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+IVRChaperoneSetup__SetWorkingSeatedZeroPoseToRawTrackingPose(IVRChaperoneSetup__SetWorkingSeatedZeroPoseToRawTrackingPose && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8142 };
+// Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__SetWorkingSeatedZeroPoseToRawTrackingPose", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+IVRChaperoneSetup__SetWorkingSeatedZeroPoseToRawTrackingPose(IVRChaperoneSetup__SetWorkingSeatedZeroPoseToRawTrackingPose const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8143};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVRChaperoneSetup__SetWorkingSeatedZeroPoseToRawTrackingPose, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVRChaperoneSetup/_SetWorkingStandingZeroPoseToRawTrackingPose
 class CORDL_TYPE IVRChaperoneSetup__SetWorkingStandingZeroPoseToRawTrackingPose : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x5cf7afc, size 0x90, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::ByRef<::OVR::OpenVR::HmdMatrix34_t> pMatStandingZeroPoseToRawTrackingPose, ::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x5cf9674, size 0x90, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(::ByRef<::OVR::OpenVR::HmdMatrix34_t>  pMatStandingZeroPoseToRawTrackingPose, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x5cf7b8c, size 0x18, virtual true, abstract: false, final false
-  inline void EndInvoke(::ByRef<::OVR::OpenVR::HmdMatrix34_t> pMatStandingZeroPoseToRawTrackingPose, ::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x5cf9704, size 0x18, virtual true, abstract: false, final false
+inline void EndInvoke(::ByRef<::OVR::OpenVR::HmdMatrix34_t>  pMatStandingZeroPoseToRawTrackingPose, ::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x5cf7ae8, size 0x14, virtual true, abstract: false, final false
-  inline void Invoke(::ByRef<::OVR::OpenVR::HmdMatrix34_t> pMatStandingZeroPoseToRawTrackingPose);
+/// @brief Method Invoke, addr 0x5cf9660, size 0x14, virtual true, abstract: false, final false
+inline void Invoke(::ByRef<::OVR::OpenVR::HmdMatrix34_t>  pMatStandingZeroPoseToRawTrackingPose) ;
 
-  static inline ::OVR::OpenVR::IVRChaperoneSetup__SetWorkingStandingZeroPoseToRawTrackingPose* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::IVRChaperoneSetup__SetWorkingStandingZeroPoseToRawTrackingPose* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x5cf7a6c, size 0x7c, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x5cf95e4, size 0x7c, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IVRChaperoneSetup__SetWorkingStandingZeroPoseToRawTrackingPose();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr IVRChaperoneSetup__SetWorkingStandingZeroPoseToRawTrackingPose() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__SetWorkingStandingZeroPoseToRawTrackingPose", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IVRChaperoneSetup__SetWorkingStandingZeroPoseToRawTrackingPose(IVRChaperoneSetup__SetWorkingStandingZeroPoseToRawTrackingPose&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__SetWorkingStandingZeroPoseToRawTrackingPose", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  IVRChaperoneSetup__SetWorkingStandingZeroPoseToRawTrackingPose(IVRChaperoneSetup__SetWorkingStandingZeroPoseToRawTrackingPose const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__SetWorkingStandingZeroPoseToRawTrackingPose", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+IVRChaperoneSetup__SetWorkingStandingZeroPoseToRawTrackingPose(IVRChaperoneSetup__SetWorkingStandingZeroPoseToRawTrackingPose && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8143 };
+// Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__SetWorkingStandingZeroPoseToRawTrackingPose", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+IVRChaperoneSetup__SetWorkingStandingZeroPoseToRawTrackingPose(IVRChaperoneSetup__SetWorkingStandingZeroPoseToRawTrackingPose const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8144};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVRChaperoneSetup__SetWorkingStandingZeroPoseToRawTrackingPose, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVRChaperoneSetup/_ReloadFromDisk
 class CORDL_TYPE IVRChaperoneSetup__ReloadFromDisk : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x5cf7c24, size 0x88, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::OVR::OpenVR::EChaperoneConfigFile configFile, ::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x5cf979c, size 0x88, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(::OVR::OpenVR::EChaperoneConfigFile  configFile, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x5cf7cac, size 0xc, virtual true, abstract: false, final false
-  inline void EndInvoke(::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x5cf9824, size 0xc, virtual true, abstract: false, final false
+inline void EndInvoke(::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x5cf7c10, size 0x14, virtual true, abstract: false, final false
-  inline void Invoke(::OVR::OpenVR::EChaperoneConfigFile configFile);
+/// @brief Method Invoke, addr 0x5cf9788, size 0x14, virtual true, abstract: false, final false
+inline void Invoke(::OVR::OpenVR::EChaperoneConfigFile  configFile) ;
 
-  static inline ::OVR::OpenVR::IVRChaperoneSetup__ReloadFromDisk* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::IVRChaperoneSetup__ReloadFromDisk* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x5cf7ba4, size 0x6c, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x5cf971c, size 0x6c, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IVRChaperoneSetup__ReloadFromDisk();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr IVRChaperoneSetup__ReloadFromDisk() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__ReloadFromDisk", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IVRChaperoneSetup__ReloadFromDisk(IVRChaperoneSetup__ReloadFromDisk&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__ReloadFromDisk", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  IVRChaperoneSetup__ReloadFromDisk(IVRChaperoneSetup__ReloadFromDisk const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__ReloadFromDisk", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+IVRChaperoneSetup__ReloadFromDisk(IVRChaperoneSetup__ReloadFromDisk && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8144 };
+// Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__ReloadFromDisk", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+IVRChaperoneSetup__ReloadFromDisk(IVRChaperoneSetup__ReloadFromDisk const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8145};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVRChaperoneSetup__ReloadFromDisk, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVRChaperoneSetup/_GetLiveSeatedZeroPoseToRawTrackingPose
 class CORDL_TYPE IVRChaperoneSetup__GetLiveSeatedZeroPoseToRawTrackingPose : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x5cf7d48, size 0x90, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::ByRef<::OVR::OpenVR::HmdMatrix34_t> pmatSeatedZeroPoseToRawTrackingPose, ::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x5cf98c0, size 0x90, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(::ByRef<::OVR::OpenVR::HmdMatrix34_t>  pmatSeatedZeroPoseToRawTrackingPose, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x5cf7dd8, size 0x24, virtual true, abstract: false, final false
-  inline bool EndInvoke(::ByRef<::OVR::OpenVR::HmdMatrix34_t> pmatSeatedZeroPoseToRawTrackingPose, ::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x5cf9950, size 0x24, virtual true, abstract: false, final false
+inline bool EndInvoke(::ByRef<::OVR::OpenVR::HmdMatrix34_t>  pmatSeatedZeroPoseToRawTrackingPose, ::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x5cf7d34, size 0x14, virtual true, abstract: false, final false
-  inline bool Invoke(::ByRef<::OVR::OpenVR::HmdMatrix34_t> pmatSeatedZeroPoseToRawTrackingPose);
+/// @brief Method Invoke, addr 0x5cf98ac, size 0x14, virtual true, abstract: false, final false
+inline bool Invoke(::ByRef<::OVR::OpenVR::HmdMatrix34_t>  pmatSeatedZeroPoseToRawTrackingPose) ;
 
-  static inline ::OVR::OpenVR::IVRChaperoneSetup__GetLiveSeatedZeroPoseToRawTrackingPose* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::IVRChaperoneSetup__GetLiveSeatedZeroPoseToRawTrackingPose* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x5cf7cb8, size 0x7c, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x5cf9830, size 0x7c, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IVRChaperoneSetup__GetLiveSeatedZeroPoseToRawTrackingPose();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr IVRChaperoneSetup__GetLiveSeatedZeroPoseToRawTrackingPose() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__GetLiveSeatedZeroPoseToRawTrackingPose", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IVRChaperoneSetup__GetLiveSeatedZeroPoseToRawTrackingPose(IVRChaperoneSetup__GetLiveSeatedZeroPoseToRawTrackingPose&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__GetLiveSeatedZeroPoseToRawTrackingPose", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  IVRChaperoneSetup__GetLiveSeatedZeroPoseToRawTrackingPose(IVRChaperoneSetup__GetLiveSeatedZeroPoseToRawTrackingPose const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__GetLiveSeatedZeroPoseToRawTrackingPose", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+IVRChaperoneSetup__GetLiveSeatedZeroPoseToRawTrackingPose(IVRChaperoneSetup__GetLiveSeatedZeroPoseToRawTrackingPose && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8145 };
+// Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__GetLiveSeatedZeroPoseToRawTrackingPose", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+IVRChaperoneSetup__GetLiveSeatedZeroPoseToRawTrackingPose(IVRChaperoneSetup__GetLiveSeatedZeroPoseToRawTrackingPose const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8146};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVRChaperoneSetup__GetLiveSeatedZeroPoseToRawTrackingPose, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVRChaperoneSetup/_SetWorkingCollisionBoundsTagsInfo
 class CORDL_TYPE IVRChaperoneSetup__SetWorkingCollisionBoundsTagsInfo : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x5cf7e90, size 0x5c, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::ByRef<::ArrayW<uint8_t, ::Array<uint8_t>*>> pTagsBuffer, uint32_t unTagCount, ::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x5cf9a08, size 0x5c, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(::ByRef<::ArrayW<uint8_t,::Array<uint8_t>*>>  pTagsBuffer, uint32_t  unTagCount, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x5cf7eec, size 0xc, virtual true, abstract: false, final false
-  inline void EndInvoke(::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x5cf9a64, size 0xc, virtual true, abstract: false, final false
+inline void EndInvoke(::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x5cf7e7c, size 0x14, virtual true, abstract: false, final false
-  inline void Invoke(::ByRef<::ArrayW<uint8_t, ::Array<uint8_t>*>> pTagsBuffer, uint32_t unTagCount);
+/// @brief Method Invoke, addr 0x5cf99f4, size 0x14, virtual true, abstract: false, final false
+inline void Invoke(::ByRef<::ArrayW<uint8_t,::Array<uint8_t>*>>  pTagsBuffer, uint32_t  unTagCount) ;
 
-  static inline ::OVR::OpenVR::IVRChaperoneSetup__SetWorkingCollisionBoundsTagsInfo* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::IVRChaperoneSetup__SetWorkingCollisionBoundsTagsInfo* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x5cf7dfc, size 0x80, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x5cf9974, size 0x80, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IVRChaperoneSetup__SetWorkingCollisionBoundsTagsInfo();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr IVRChaperoneSetup__SetWorkingCollisionBoundsTagsInfo() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__SetWorkingCollisionBoundsTagsInfo", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IVRChaperoneSetup__SetWorkingCollisionBoundsTagsInfo(IVRChaperoneSetup__SetWorkingCollisionBoundsTagsInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__SetWorkingCollisionBoundsTagsInfo", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  IVRChaperoneSetup__SetWorkingCollisionBoundsTagsInfo(IVRChaperoneSetup__SetWorkingCollisionBoundsTagsInfo const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__SetWorkingCollisionBoundsTagsInfo", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+IVRChaperoneSetup__SetWorkingCollisionBoundsTagsInfo(IVRChaperoneSetup__SetWorkingCollisionBoundsTagsInfo && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8146 };
+// Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__SetWorkingCollisionBoundsTagsInfo", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+IVRChaperoneSetup__SetWorkingCollisionBoundsTagsInfo(IVRChaperoneSetup__SetWorkingCollisionBoundsTagsInfo const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8147};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVRChaperoneSetup__SetWorkingCollisionBoundsTagsInfo, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVRChaperoneSetup/_GetLiveCollisionBoundsTagsInfo
 class CORDL_TYPE IVRChaperoneSetup__GetLiveCollisionBoundsTagsInfo : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x5cf7f8c, size 0x58, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::ByRef<::ArrayW<uint8_t, ::Array<uint8_t>*>> pTagsBuffer, ::ByRef<uint32_t> punTagCount, ::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x5cf9b04, size 0x58, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(::ByRef<::ArrayW<uint8_t,::Array<uint8_t>*>>  pTagsBuffer, ::ByRef<uint32_t>  punTagCount, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x5cf7fe4, size 0x24, virtual true, abstract: false, final false
-  inline bool EndInvoke(::ByRef<uint32_t> punTagCount, ::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x5cf9b5c, size 0x24, virtual true, abstract: false, final false
+inline bool EndInvoke(::ByRef<uint32_t>  punTagCount, ::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x5cf7f78, size 0x14, virtual true, abstract: false, final false
-  inline bool Invoke(::ByRef<::ArrayW<uint8_t, ::Array<uint8_t>*>> pTagsBuffer, ::ByRef<uint32_t> punTagCount);
+/// @brief Method Invoke, addr 0x5cf9af0, size 0x14, virtual true, abstract: false, final false
+inline bool Invoke(::ByRef<::ArrayW<uint8_t,::Array<uint8_t>*>>  pTagsBuffer, ::ByRef<uint32_t>  punTagCount) ;
 
-  static inline ::OVR::OpenVR::IVRChaperoneSetup__GetLiveCollisionBoundsTagsInfo* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::IVRChaperoneSetup__GetLiveCollisionBoundsTagsInfo* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x5cf7ef8, size 0x80, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x5cf9a70, size 0x80, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IVRChaperoneSetup__GetLiveCollisionBoundsTagsInfo();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr IVRChaperoneSetup__GetLiveCollisionBoundsTagsInfo() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__GetLiveCollisionBoundsTagsInfo", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IVRChaperoneSetup__GetLiveCollisionBoundsTagsInfo(IVRChaperoneSetup__GetLiveCollisionBoundsTagsInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__GetLiveCollisionBoundsTagsInfo", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  IVRChaperoneSetup__GetLiveCollisionBoundsTagsInfo(IVRChaperoneSetup__GetLiveCollisionBoundsTagsInfo const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__GetLiveCollisionBoundsTagsInfo", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+IVRChaperoneSetup__GetLiveCollisionBoundsTagsInfo(IVRChaperoneSetup__GetLiveCollisionBoundsTagsInfo && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8147 };
+// Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__GetLiveCollisionBoundsTagsInfo", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+IVRChaperoneSetup__GetLiveCollisionBoundsTagsInfo(IVRChaperoneSetup__GetLiveCollisionBoundsTagsInfo const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8148};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVRChaperoneSetup__GetLiveCollisionBoundsTagsInfo, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVRChaperoneSetup/_SetWorkingPhysicalBoundsInfo
 class CORDL_TYPE IVRChaperoneSetup__SetWorkingPhysicalBoundsInfo : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x5cf809c, size 0x5c, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::ByRef<::ArrayW<::OVR::OpenVR::HmdQuad_t, ::Array<::OVR::OpenVR::HmdQuad_t>*>> pQuadsBuffer, uint32_t unQuadsCount, ::System::AsyncCallback* callback,
-                                             ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x5cf9c14, size 0x5c, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(::ByRef<::ArrayW<::OVR::OpenVR::HmdQuad_t,::Array<::OVR::OpenVR::HmdQuad_t>*>>  pQuadsBuffer, uint32_t  unQuadsCount, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x5cf80f8, size 0x24, virtual true, abstract: false, final false
-  inline bool EndInvoke(::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x5cf9c70, size 0x24, virtual true, abstract: false, final false
+inline bool EndInvoke(::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x5cf8088, size 0x14, virtual true, abstract: false, final false
-  inline bool Invoke(::ByRef<::ArrayW<::OVR::OpenVR::HmdQuad_t, ::Array<::OVR::OpenVR::HmdQuad_t>*>> pQuadsBuffer, uint32_t unQuadsCount);
+/// @brief Method Invoke, addr 0x5cf9c00, size 0x14, virtual true, abstract: false, final false
+inline bool Invoke(::ByRef<::ArrayW<::OVR::OpenVR::HmdQuad_t,::Array<::OVR::OpenVR::HmdQuad_t>*>>  pQuadsBuffer, uint32_t  unQuadsCount) ;
 
-  static inline ::OVR::OpenVR::IVRChaperoneSetup__SetWorkingPhysicalBoundsInfo* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::IVRChaperoneSetup__SetWorkingPhysicalBoundsInfo* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x5cf8008, size 0x80, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x5cf9b80, size 0x80, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IVRChaperoneSetup__SetWorkingPhysicalBoundsInfo();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr IVRChaperoneSetup__SetWorkingPhysicalBoundsInfo() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__SetWorkingPhysicalBoundsInfo", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IVRChaperoneSetup__SetWorkingPhysicalBoundsInfo(IVRChaperoneSetup__SetWorkingPhysicalBoundsInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__SetWorkingPhysicalBoundsInfo", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  IVRChaperoneSetup__SetWorkingPhysicalBoundsInfo(IVRChaperoneSetup__SetWorkingPhysicalBoundsInfo const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__SetWorkingPhysicalBoundsInfo", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+IVRChaperoneSetup__SetWorkingPhysicalBoundsInfo(IVRChaperoneSetup__SetWorkingPhysicalBoundsInfo && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8148 };
+// Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__SetWorkingPhysicalBoundsInfo", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+IVRChaperoneSetup__SetWorkingPhysicalBoundsInfo(IVRChaperoneSetup__SetWorkingPhysicalBoundsInfo const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8149};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVRChaperoneSetup__SetWorkingPhysicalBoundsInfo, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVRChaperoneSetup/_GetLivePhysicalBoundsInfo
 class CORDL_TYPE IVRChaperoneSetup__GetLivePhysicalBoundsInfo : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x5cf81b0, size 0x58, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::ByRef<::ArrayW<::OVR::OpenVR::HmdQuad_t, ::Array<::OVR::OpenVR::HmdQuad_t>*>> pQuadsBuffer, ::ByRef<uint32_t> punQuadsCount,
-                                             ::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x5cf9d28, size 0x58, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(::ByRef<::ArrayW<::OVR::OpenVR::HmdQuad_t,::Array<::OVR::OpenVR::HmdQuad_t>*>>  pQuadsBuffer, ::ByRef<uint32_t>  punQuadsCount, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x5cf8208, size 0x24, virtual true, abstract: false, final false
-  inline bool EndInvoke(::ByRef<uint32_t> punQuadsCount, ::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x5cf9d80, size 0x24, virtual true, abstract: false, final false
+inline bool EndInvoke(::ByRef<uint32_t>  punQuadsCount, ::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x5cf819c, size 0x14, virtual true, abstract: false, final false
-  inline bool Invoke(::ByRef<::ArrayW<::OVR::OpenVR::HmdQuad_t, ::Array<::OVR::OpenVR::HmdQuad_t>*>> pQuadsBuffer, ::ByRef<uint32_t> punQuadsCount);
+/// @brief Method Invoke, addr 0x5cf9d14, size 0x14, virtual true, abstract: false, final false
+inline bool Invoke(::ByRef<::ArrayW<::OVR::OpenVR::HmdQuad_t,::Array<::OVR::OpenVR::HmdQuad_t>*>>  pQuadsBuffer, ::ByRef<uint32_t>  punQuadsCount) ;
 
-  static inline ::OVR::OpenVR::IVRChaperoneSetup__GetLivePhysicalBoundsInfo* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::IVRChaperoneSetup__GetLivePhysicalBoundsInfo* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x5cf811c, size 0x80, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x5cf9c94, size 0x80, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IVRChaperoneSetup__GetLivePhysicalBoundsInfo();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr IVRChaperoneSetup__GetLivePhysicalBoundsInfo() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__GetLivePhysicalBoundsInfo", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IVRChaperoneSetup__GetLivePhysicalBoundsInfo(IVRChaperoneSetup__GetLivePhysicalBoundsInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__GetLivePhysicalBoundsInfo", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  IVRChaperoneSetup__GetLivePhysicalBoundsInfo(IVRChaperoneSetup__GetLivePhysicalBoundsInfo const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__GetLivePhysicalBoundsInfo", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+IVRChaperoneSetup__GetLivePhysicalBoundsInfo(IVRChaperoneSetup__GetLivePhysicalBoundsInfo && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8149 };
+// Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__GetLivePhysicalBoundsInfo", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+IVRChaperoneSetup__GetLivePhysicalBoundsInfo(IVRChaperoneSetup__GetLivePhysicalBoundsInfo const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8150};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVRChaperoneSetup__GetLivePhysicalBoundsInfo, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVRChaperoneSetup/_ExportLiveToBuffer
 class CORDL_TYPE IVRChaperoneSetup__ExportLiveToBuffer : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x5cf82c0, size 0x58, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::System::Text::StringBuilder* pBuffer, ::ByRef<uint32_t> pnBufferLength, ::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x5cf9e38, size 0x58, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(::System::Text::StringBuilder*  pBuffer, ::ByRef<uint32_t>  pnBufferLength, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x5cf8318, size 0x24, virtual true, abstract: false, final false
-  inline bool EndInvoke(::ByRef<uint32_t> pnBufferLength, ::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x5cf9e90, size 0x24, virtual true, abstract: false, final false
+inline bool EndInvoke(::ByRef<uint32_t>  pnBufferLength, ::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x5cf82ac, size 0x14, virtual true, abstract: false, final false
-  inline bool Invoke(::System::Text::StringBuilder* pBuffer, ::ByRef<uint32_t> pnBufferLength);
+/// @brief Method Invoke, addr 0x5cf9e24, size 0x14, virtual true, abstract: false, final false
+inline bool Invoke(::System::Text::StringBuilder*  pBuffer, ::ByRef<uint32_t>  pnBufferLength) ;
 
-  static inline ::OVR::OpenVR::IVRChaperoneSetup__ExportLiveToBuffer* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::IVRChaperoneSetup__ExportLiveToBuffer* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x5cf822c, size 0x80, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x5cf9da4, size 0x80, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IVRChaperoneSetup__ExportLiveToBuffer();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr IVRChaperoneSetup__ExportLiveToBuffer() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__ExportLiveToBuffer", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IVRChaperoneSetup__ExportLiveToBuffer(IVRChaperoneSetup__ExportLiveToBuffer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__ExportLiveToBuffer", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  IVRChaperoneSetup__ExportLiveToBuffer(IVRChaperoneSetup__ExportLiveToBuffer const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__ExportLiveToBuffer", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+IVRChaperoneSetup__ExportLiveToBuffer(IVRChaperoneSetup__ExportLiveToBuffer && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8150 };
+// Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__ExportLiveToBuffer", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+IVRChaperoneSetup__ExportLiveToBuffer(IVRChaperoneSetup__ExportLiveToBuffer const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8151};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVRChaperoneSetup__ExportLiveToBuffer, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVRChaperoneSetup/_ImportFromBufferToWorking
 class CORDL_TYPE IVRChaperoneSetup__ImportFromBufferToWorking : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x5cf83d0, size 0x5c, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::StringW pBuffer, uint32_t nImportFlags, ::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x5cf9f48, size 0x5c, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(::StringW  pBuffer, uint32_t  nImportFlags, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x5cf842c, size 0x24, virtual true, abstract: false, final false
-  inline bool EndInvoke(::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x5cf9fa4, size 0x24, virtual true, abstract: false, final false
+inline bool EndInvoke(::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x5cf83bc, size 0x14, virtual true, abstract: false, final false
-  inline bool Invoke(::StringW pBuffer, uint32_t nImportFlags);
+/// @brief Method Invoke, addr 0x5cf9f34, size 0x14, virtual true, abstract: false, final false
+inline bool Invoke(::StringW  pBuffer, uint32_t  nImportFlags) ;
 
-  static inline ::OVR::OpenVR::IVRChaperoneSetup__ImportFromBufferToWorking* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::IVRChaperoneSetup__ImportFromBufferToWorking* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x5cf833c, size 0x80, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x5cf9eb4, size 0x80, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IVRChaperoneSetup__ImportFromBufferToWorking();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr IVRChaperoneSetup__ImportFromBufferToWorking() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__ImportFromBufferToWorking", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IVRChaperoneSetup__ImportFromBufferToWorking(IVRChaperoneSetup__ImportFromBufferToWorking&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__ImportFromBufferToWorking", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  IVRChaperoneSetup__ImportFromBufferToWorking(IVRChaperoneSetup__ImportFromBufferToWorking const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__ImportFromBufferToWorking", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+IVRChaperoneSetup__ImportFromBufferToWorking(IVRChaperoneSetup__ImportFromBufferToWorking && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8151 };
+// Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__ImportFromBufferToWorking", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+IVRChaperoneSetup__ImportFromBufferToWorking(IVRChaperoneSetup__ImportFromBufferToWorking const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8152};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVRChaperoneSetup__ImportFromBufferToWorking, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
-// Dependencies
+} // namespace end def OVR::OpenVR
+// Dependencies 
 namespace OVR::OpenVR {
 // Is value type: true
 // CS Name: OVR.OpenVR.IVRChaperoneSetup
 struct CORDL_TYPE IVRChaperoneSetup {
 public:
-  // Declarations
-  using _CommitWorkingCopy = ::OVR::OpenVR::IVRChaperoneSetup__CommitWorkingCopy;
+// Declarations
+using _CommitWorkingCopy = ::OVR::OpenVR::IVRChaperoneSetup__CommitWorkingCopy;
 
-  using _ExportLiveToBuffer = ::OVR::OpenVR::IVRChaperoneSetup__ExportLiveToBuffer;
+using _ExportLiveToBuffer = ::OVR::OpenVR::IVRChaperoneSetup__ExportLiveToBuffer;
 
-  using _GetLiveCollisionBoundsInfo = ::OVR::OpenVR::IVRChaperoneSetup__GetLiveCollisionBoundsInfo;
+using _GetLiveCollisionBoundsInfo = ::OVR::OpenVR::IVRChaperoneSetup__GetLiveCollisionBoundsInfo;
 
-  using _GetLiveCollisionBoundsTagsInfo = ::OVR::OpenVR::IVRChaperoneSetup__GetLiveCollisionBoundsTagsInfo;
+using _GetLiveCollisionBoundsTagsInfo = ::OVR::OpenVR::IVRChaperoneSetup__GetLiveCollisionBoundsTagsInfo;
 
-  using _GetLivePhysicalBoundsInfo = ::OVR::OpenVR::IVRChaperoneSetup__GetLivePhysicalBoundsInfo;
+using _GetLivePhysicalBoundsInfo = ::OVR::OpenVR::IVRChaperoneSetup__GetLivePhysicalBoundsInfo;
 
-  using _GetLiveSeatedZeroPoseToRawTrackingPose = ::OVR::OpenVR::IVRChaperoneSetup__GetLiveSeatedZeroPoseToRawTrackingPose;
+using _GetLiveSeatedZeroPoseToRawTrackingPose = ::OVR::OpenVR::IVRChaperoneSetup__GetLiveSeatedZeroPoseToRawTrackingPose;
 
-  using _GetWorkingCollisionBoundsInfo = ::OVR::OpenVR::IVRChaperoneSetup__GetWorkingCollisionBoundsInfo;
+using _GetWorkingCollisionBoundsInfo = ::OVR::OpenVR::IVRChaperoneSetup__GetWorkingCollisionBoundsInfo;
 
-  using _GetWorkingPlayAreaRect = ::OVR::OpenVR::IVRChaperoneSetup__GetWorkingPlayAreaRect;
+using _GetWorkingPlayAreaRect = ::OVR::OpenVR::IVRChaperoneSetup__GetWorkingPlayAreaRect;
 
-  using _GetWorkingPlayAreaSize = ::OVR::OpenVR::IVRChaperoneSetup__GetWorkingPlayAreaSize;
+using _GetWorkingPlayAreaSize = ::OVR::OpenVR::IVRChaperoneSetup__GetWorkingPlayAreaSize;
 
-  using _GetWorkingSeatedZeroPoseToRawTrackingPose = ::OVR::OpenVR::IVRChaperoneSetup__GetWorkingSeatedZeroPoseToRawTrackingPose;
+using _GetWorkingSeatedZeroPoseToRawTrackingPose = ::OVR::OpenVR::IVRChaperoneSetup__GetWorkingSeatedZeroPoseToRawTrackingPose;
 
-  using _GetWorkingStandingZeroPoseToRawTrackingPose = ::OVR::OpenVR::IVRChaperoneSetup__GetWorkingStandingZeroPoseToRawTrackingPose;
+using _GetWorkingStandingZeroPoseToRawTrackingPose = ::OVR::OpenVR::IVRChaperoneSetup__GetWorkingStandingZeroPoseToRawTrackingPose;
 
-  using _ImportFromBufferToWorking = ::OVR::OpenVR::IVRChaperoneSetup__ImportFromBufferToWorking;
+using _ImportFromBufferToWorking = ::OVR::OpenVR::IVRChaperoneSetup__ImportFromBufferToWorking;
 
-  using _ReloadFromDisk = ::OVR::OpenVR::IVRChaperoneSetup__ReloadFromDisk;
+using _ReloadFromDisk = ::OVR::OpenVR::IVRChaperoneSetup__ReloadFromDisk;
 
-  using _RevertWorkingCopy = ::OVR::OpenVR::IVRChaperoneSetup__RevertWorkingCopy;
+using _RevertWorkingCopy = ::OVR::OpenVR::IVRChaperoneSetup__RevertWorkingCopy;
 
-  using _SetWorkingCollisionBoundsInfo = ::OVR::OpenVR::IVRChaperoneSetup__SetWorkingCollisionBoundsInfo;
+using _SetWorkingCollisionBoundsInfo = ::OVR::OpenVR::IVRChaperoneSetup__SetWorkingCollisionBoundsInfo;
 
-  using _SetWorkingCollisionBoundsTagsInfo = ::OVR::OpenVR::IVRChaperoneSetup__SetWorkingCollisionBoundsTagsInfo;
+using _SetWorkingCollisionBoundsTagsInfo = ::OVR::OpenVR::IVRChaperoneSetup__SetWorkingCollisionBoundsTagsInfo;
 
-  using _SetWorkingPhysicalBoundsInfo = ::OVR::OpenVR::IVRChaperoneSetup__SetWorkingPhysicalBoundsInfo;
+using _SetWorkingPhysicalBoundsInfo = ::OVR::OpenVR::IVRChaperoneSetup__SetWorkingPhysicalBoundsInfo;
 
-  using _SetWorkingPlayAreaSize = ::OVR::OpenVR::IVRChaperoneSetup__SetWorkingPlayAreaSize;
+using _SetWorkingPlayAreaSize = ::OVR::OpenVR::IVRChaperoneSetup__SetWorkingPlayAreaSize;
 
-  using _SetWorkingSeatedZeroPoseToRawTrackingPose = ::OVR::OpenVR::IVRChaperoneSetup__SetWorkingSeatedZeroPoseToRawTrackingPose;
+using _SetWorkingSeatedZeroPoseToRawTrackingPose = ::OVR::OpenVR::IVRChaperoneSetup__SetWorkingSeatedZeroPoseToRawTrackingPose;
 
-  using _SetWorkingStandingZeroPoseToRawTrackingPose = ::OVR::OpenVR::IVRChaperoneSetup__SetWorkingStandingZeroPoseToRawTrackingPose;
+using _SetWorkingStandingZeroPoseToRawTrackingPose = ::OVR::OpenVR::IVRChaperoneSetup__SetWorkingStandingZeroPoseToRawTrackingPose;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IVRChaperoneSetup();
+// Ctor Parameters []
+// @brief default ctor
+constexpr IVRChaperoneSetup() ;
 
-  // Ctor Parameters [CppParam { name: "CommitWorkingCopy", ty: "::OVR::OpenVR::IVRChaperoneSetup__CommitWorkingCopy*", modifiers: "", def_value: None }, CppParam { name: "RevertWorkingCopy", ty:
-  // "::OVR::OpenVR::IVRChaperoneSetup__RevertWorkingCopy*", modifiers: "", def_value: None }, CppParam { name: "GetWorkingPlayAreaSize", ty:
-  // "::OVR::OpenVR::IVRChaperoneSetup__GetWorkingPlayAreaSize*", modifiers: "", def_value: None }, CppParam { name: "GetWorkingPlayAreaRect", ty:
-  // "::OVR::OpenVR::IVRChaperoneSetup__GetWorkingPlayAreaRect*", modifiers: "", def_value: None }, CppParam { name: "GetWorkingCollisionBoundsInfo", ty:
-  // "::OVR::OpenVR::IVRChaperoneSetup__GetWorkingCollisionBoundsInfo*", modifiers: "", def_value: None }, CppParam { name: "GetLiveCollisionBoundsInfo", ty:
-  // "::OVR::OpenVR::IVRChaperoneSetup__GetLiveCollisionBoundsInfo*", modifiers: "", def_value: None }, CppParam { name: "GetWorkingSeatedZeroPoseToRawTrackingPose", ty:
-  // "::OVR::OpenVR::IVRChaperoneSetup__GetWorkingSeatedZeroPoseToRawTrackingPose*", modifiers: "", def_value: None }, CppParam { name: "GetWorkingStandingZeroPoseToRawTrackingPose", ty:
-  // "::OVR::OpenVR::IVRChaperoneSetup__GetWorkingStandingZeroPoseToRawTrackingPose*", modifiers: "", def_value: None }, CppParam { name: "SetWorkingPlayAreaSize", ty:
-  // "::OVR::OpenVR::IVRChaperoneSetup__SetWorkingPlayAreaSize*", modifiers: "", def_value: None }, CppParam { name: "SetWorkingCollisionBoundsInfo", ty:
-  // "::OVR::OpenVR::IVRChaperoneSetup__SetWorkingCollisionBoundsInfo*", modifiers: "", def_value: None }, CppParam { name: "SetWorkingSeatedZeroPoseToRawTrackingPose", ty:
-  // "::OVR::OpenVR::IVRChaperoneSetup__SetWorkingSeatedZeroPoseToRawTrackingPose*", modifiers: "", def_value: None }, CppParam { name: "SetWorkingStandingZeroPoseToRawTrackingPose", ty:
-  // "::OVR::OpenVR::IVRChaperoneSetup__SetWorkingStandingZeroPoseToRawTrackingPose*", modifiers: "", def_value: None }, CppParam { name: "ReloadFromDisk", ty:
-  // "::OVR::OpenVR::IVRChaperoneSetup__ReloadFromDisk*", modifiers: "", def_value: None }, CppParam { name: "GetLiveSeatedZeroPoseToRawTrackingPose", ty:
-  // "::OVR::OpenVR::IVRChaperoneSetup__GetLiveSeatedZeroPoseToRawTrackingPose*", modifiers: "", def_value: None }, CppParam { name: "SetWorkingCollisionBoundsTagsInfo", ty:
-  // "::OVR::OpenVR::IVRChaperoneSetup__SetWorkingCollisionBoundsTagsInfo*", modifiers: "", def_value: None }, CppParam { name: "GetLiveCollisionBoundsTagsInfo", ty:
-  // "::OVR::OpenVR::IVRChaperoneSetup__GetLiveCollisionBoundsTagsInfo*", modifiers: "", def_value: None }, CppParam { name: "SetWorkingPhysicalBoundsInfo", ty:
-  // "::OVR::OpenVR::IVRChaperoneSetup__SetWorkingPhysicalBoundsInfo*", modifiers: "", def_value: None }, CppParam { name: "GetLivePhysicalBoundsInfo", ty:
-  // "::OVR::OpenVR::IVRChaperoneSetup__GetLivePhysicalBoundsInfo*", modifiers: "", def_value: None }, CppParam { name: "ExportLiveToBuffer", ty:
-  // "::OVR::OpenVR::IVRChaperoneSetup__ExportLiveToBuffer*", modifiers: "", def_value: None }, CppParam { name: "ImportFromBufferToWorking", ty:
-  // "::OVR::OpenVR::IVRChaperoneSetup__ImportFromBufferToWorking*", modifiers: "", def_value: None }]
-  constexpr IVRChaperoneSetup(
-      ::OVR::OpenVR::IVRChaperoneSetup__CommitWorkingCopy* CommitWorkingCopy, ::OVR::OpenVR::IVRChaperoneSetup__RevertWorkingCopy* RevertWorkingCopy,
-      ::OVR::OpenVR::IVRChaperoneSetup__GetWorkingPlayAreaSize* GetWorkingPlayAreaSize, ::OVR::OpenVR::IVRChaperoneSetup__GetWorkingPlayAreaRect* GetWorkingPlayAreaRect,
-      ::OVR::OpenVR::IVRChaperoneSetup__GetWorkingCollisionBoundsInfo* GetWorkingCollisionBoundsInfo, ::OVR::OpenVR::IVRChaperoneSetup__GetLiveCollisionBoundsInfo* GetLiveCollisionBoundsInfo,
-      ::OVR::OpenVR::IVRChaperoneSetup__GetWorkingSeatedZeroPoseToRawTrackingPose* GetWorkingSeatedZeroPoseToRawTrackingPose,
-      ::OVR::OpenVR::IVRChaperoneSetup__GetWorkingStandingZeroPoseToRawTrackingPose* GetWorkingStandingZeroPoseToRawTrackingPose,
-      ::OVR::OpenVR::IVRChaperoneSetup__SetWorkingPlayAreaSize* SetWorkingPlayAreaSize, ::OVR::OpenVR::IVRChaperoneSetup__SetWorkingCollisionBoundsInfo* SetWorkingCollisionBoundsInfo,
-      ::OVR::OpenVR::IVRChaperoneSetup__SetWorkingSeatedZeroPoseToRawTrackingPose* SetWorkingSeatedZeroPoseToRawTrackingPose,
-      ::OVR::OpenVR::IVRChaperoneSetup__SetWorkingStandingZeroPoseToRawTrackingPose* SetWorkingStandingZeroPoseToRawTrackingPose, ::OVR::OpenVR::IVRChaperoneSetup__ReloadFromDisk* ReloadFromDisk,
-      ::OVR::OpenVR::IVRChaperoneSetup__GetLiveSeatedZeroPoseToRawTrackingPose* GetLiveSeatedZeroPoseToRawTrackingPose,
-      ::OVR::OpenVR::IVRChaperoneSetup__SetWorkingCollisionBoundsTagsInfo* SetWorkingCollisionBoundsTagsInfo,
-      ::OVR::OpenVR::IVRChaperoneSetup__GetLiveCollisionBoundsTagsInfo* GetLiveCollisionBoundsTagsInfo, ::OVR::OpenVR::IVRChaperoneSetup__SetWorkingPhysicalBoundsInfo* SetWorkingPhysicalBoundsInfo,
-      ::OVR::OpenVR::IVRChaperoneSetup__GetLivePhysicalBoundsInfo* GetLivePhysicalBoundsInfo, ::OVR::OpenVR::IVRChaperoneSetup__ExportLiveToBuffer* ExportLiveToBuffer,
-      ::OVR::OpenVR::IVRChaperoneSetup__ImportFromBufferToWorking* ImportFromBufferToWorking) noexcept;
+// Ctor Parameters [CppParam { name: "CommitWorkingCopy", ty: "::OVR::OpenVR::IVRChaperoneSetup__CommitWorkingCopy*", modifiers: "", def_value: None }, CppParam { name: "RevertWorkingCopy", ty: "::OVR::OpenVR::IVRChaperoneSetup__RevertWorkingCopy*", modifiers: "", def_value: None }, CppParam { name: "GetWorkingPlayAreaSize", ty: "::OVR::OpenVR::IVRChaperoneSetup__GetWorkingPlayAreaSize*", modifiers: "", def_value: None }, CppParam { name: "GetWorkingPlayAreaRect", ty: "::OVR::OpenVR::IVRChaperoneSetup__GetWorkingPlayAreaRect*", modifiers: "", def_value: None }, CppParam { name: "GetWorkingCollisionBoundsInfo", ty: "::OVR::OpenVR::IVRChaperoneSetup__GetWorkingCollisionBoundsInfo*", modifiers: "", def_value: None }, CppParam { name: "GetLiveCollisionBoundsInfo", ty: "::OVR::OpenVR::IVRChaperoneSetup__GetLiveCollisionBoundsInfo*", modifiers: "", def_value: None }, CppParam { name: "GetWorkingSeatedZeroPoseToRawTrackingPose", ty: "::OVR::OpenVR::IVRChaperoneSetup__GetWorkingSeatedZeroPoseToRawTrackingPose*", modifiers: "", def_value: None }, CppParam { name: "GetWorkingStandingZeroPoseToRawTrackingPose", ty: "::OVR::OpenVR::IVRChaperoneSetup__GetWorkingStandingZeroPoseToRawTrackingPose*", modifiers: "", def_value: None }, CppParam { name: "SetWorkingPlayAreaSize", ty: "::OVR::OpenVR::IVRChaperoneSetup__SetWorkingPlayAreaSize*", modifiers: "", def_value: None }, CppParam { name: "SetWorkingCollisionBoundsInfo", ty: "::OVR::OpenVR::IVRChaperoneSetup__SetWorkingCollisionBoundsInfo*", modifiers: "", def_value: None }, CppParam { name: "SetWorkingSeatedZeroPoseToRawTrackingPose", ty: "::OVR::OpenVR::IVRChaperoneSetup__SetWorkingSeatedZeroPoseToRawTrackingPose*", modifiers: "", def_value: None }, CppParam { name: "SetWorkingStandingZeroPoseToRawTrackingPose", ty: "::OVR::OpenVR::IVRChaperoneSetup__SetWorkingStandingZeroPoseToRawTrackingPose*", modifiers: "", def_value: None }, CppParam { name: "ReloadFromDisk", ty: "::OVR::OpenVR::IVRChaperoneSetup__ReloadFromDisk*", modifiers: "", def_value: None }, CppParam { name: "GetLiveSeatedZeroPoseToRawTrackingPose", ty: "::OVR::OpenVR::IVRChaperoneSetup__GetLiveSeatedZeroPoseToRawTrackingPose*", modifiers: "", def_value: None }, CppParam { name: "SetWorkingCollisionBoundsTagsInfo", ty: "::OVR::OpenVR::IVRChaperoneSetup__SetWorkingCollisionBoundsTagsInfo*", modifiers: "", def_value: None }, CppParam { name: "GetLiveCollisionBoundsTagsInfo", ty: "::OVR::OpenVR::IVRChaperoneSetup__GetLiveCollisionBoundsTagsInfo*", modifiers: "", def_value: None }, CppParam { name: "SetWorkingPhysicalBoundsInfo", ty: "::OVR::OpenVR::IVRChaperoneSetup__SetWorkingPhysicalBoundsInfo*", modifiers: "", def_value: None }, CppParam { name: "GetLivePhysicalBoundsInfo", ty: "::OVR::OpenVR::IVRChaperoneSetup__GetLivePhysicalBoundsInfo*", modifiers: "", def_value: None }, CppParam { name: "ExportLiveToBuffer", ty: "::OVR::OpenVR::IVRChaperoneSetup__ExportLiveToBuffer*", modifiers: "", def_value: None }, CppParam { name: "ImportFromBufferToWorking", ty: "::OVR::OpenVR::IVRChaperoneSetup__ImportFromBufferToWorking*", modifiers: "", def_value: None }]
+constexpr IVRChaperoneSetup(::OVR::OpenVR::IVRChaperoneSetup__CommitWorkingCopy*  CommitWorkingCopy, ::OVR::OpenVR::IVRChaperoneSetup__RevertWorkingCopy*  RevertWorkingCopy, ::OVR::OpenVR::IVRChaperoneSetup__GetWorkingPlayAreaSize*  GetWorkingPlayAreaSize, ::OVR::OpenVR::IVRChaperoneSetup__GetWorkingPlayAreaRect*  GetWorkingPlayAreaRect, ::OVR::OpenVR::IVRChaperoneSetup__GetWorkingCollisionBoundsInfo*  GetWorkingCollisionBoundsInfo, ::OVR::OpenVR::IVRChaperoneSetup__GetLiveCollisionBoundsInfo*  GetLiveCollisionBoundsInfo, ::OVR::OpenVR::IVRChaperoneSetup__GetWorkingSeatedZeroPoseToRawTrackingPose*  GetWorkingSeatedZeroPoseToRawTrackingPose, ::OVR::OpenVR::IVRChaperoneSetup__GetWorkingStandingZeroPoseToRawTrackingPose*  GetWorkingStandingZeroPoseToRawTrackingPose, ::OVR::OpenVR::IVRChaperoneSetup__SetWorkingPlayAreaSize*  SetWorkingPlayAreaSize, ::OVR::OpenVR::IVRChaperoneSetup__SetWorkingCollisionBoundsInfo*  SetWorkingCollisionBoundsInfo, ::OVR::OpenVR::IVRChaperoneSetup__SetWorkingSeatedZeroPoseToRawTrackingPose*  SetWorkingSeatedZeroPoseToRawTrackingPose, ::OVR::OpenVR::IVRChaperoneSetup__SetWorkingStandingZeroPoseToRawTrackingPose*  SetWorkingStandingZeroPoseToRawTrackingPose, ::OVR::OpenVR::IVRChaperoneSetup__ReloadFromDisk*  ReloadFromDisk, ::OVR::OpenVR::IVRChaperoneSetup__GetLiveSeatedZeroPoseToRawTrackingPose*  GetLiveSeatedZeroPoseToRawTrackingPose, ::OVR::OpenVR::IVRChaperoneSetup__SetWorkingCollisionBoundsTagsInfo*  SetWorkingCollisionBoundsTagsInfo, ::OVR::OpenVR::IVRChaperoneSetup__GetLiveCollisionBoundsTagsInfo*  GetLiveCollisionBoundsTagsInfo, ::OVR::OpenVR::IVRChaperoneSetup__SetWorkingPhysicalBoundsInfo*  SetWorkingPhysicalBoundsInfo, ::OVR::OpenVR::IVRChaperoneSetup__GetLivePhysicalBoundsInfo*  GetLivePhysicalBoundsInfo, ::OVR::OpenVR::IVRChaperoneSetup__ExportLiveToBuffer*  ExportLiveToBuffer, ::OVR::OpenVR::IVRChaperoneSetup__ImportFromBufferToWorking*  ImportFromBufferToWorking) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8152 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8153};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xa0 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0xa0};
 
-  /// @brief Field CommitWorkingCopy, offset: 0x0, size: 0x8, def value: None
-  ::OVR::OpenVR::IVRChaperoneSetup__CommitWorkingCopy* CommitWorkingCopy;
+/// @brief Field CommitWorkingCopy, offset: 0x0, size: 0x8, def value: None
+ ::OVR::OpenVR::IVRChaperoneSetup__CommitWorkingCopy*  CommitWorkingCopy;
 
-  /// @brief Field RevertWorkingCopy, offset: 0x8, size: 0x8, def value: None
-  ::OVR::OpenVR::IVRChaperoneSetup__RevertWorkingCopy* RevertWorkingCopy;
+/// @brief Field RevertWorkingCopy, offset: 0x8, size: 0x8, def value: None
+ ::OVR::OpenVR::IVRChaperoneSetup__RevertWorkingCopy*  RevertWorkingCopy;
 
-  /// @brief Field GetWorkingPlayAreaSize, offset: 0x10, size: 0x8, def value: None
-  ::OVR::OpenVR::IVRChaperoneSetup__GetWorkingPlayAreaSize* GetWorkingPlayAreaSize;
+/// @brief Field GetWorkingPlayAreaSize, offset: 0x10, size: 0x8, def value: None
+ ::OVR::OpenVR::IVRChaperoneSetup__GetWorkingPlayAreaSize*  GetWorkingPlayAreaSize;
 
-  /// @brief Field GetWorkingPlayAreaRect, offset: 0x18, size: 0x8, def value: None
-  ::OVR::OpenVR::IVRChaperoneSetup__GetWorkingPlayAreaRect* GetWorkingPlayAreaRect;
+/// @brief Field GetWorkingPlayAreaRect, offset: 0x18, size: 0x8, def value: None
+ ::OVR::OpenVR::IVRChaperoneSetup__GetWorkingPlayAreaRect*  GetWorkingPlayAreaRect;
 
-  /// @brief Field GetWorkingCollisionBoundsInfo, offset: 0x20, size: 0x8, def value: None
-  ::OVR::OpenVR::IVRChaperoneSetup__GetWorkingCollisionBoundsInfo* GetWorkingCollisionBoundsInfo;
+/// @brief Field GetWorkingCollisionBoundsInfo, offset: 0x20, size: 0x8, def value: None
+ ::OVR::OpenVR::IVRChaperoneSetup__GetWorkingCollisionBoundsInfo*  GetWorkingCollisionBoundsInfo;
 
-  /// @brief Field GetLiveCollisionBoundsInfo, offset: 0x28, size: 0x8, def value: None
-  ::OVR::OpenVR::IVRChaperoneSetup__GetLiveCollisionBoundsInfo* GetLiveCollisionBoundsInfo;
+/// @brief Field GetLiveCollisionBoundsInfo, offset: 0x28, size: 0x8, def value: None
+ ::OVR::OpenVR::IVRChaperoneSetup__GetLiveCollisionBoundsInfo*  GetLiveCollisionBoundsInfo;
 
-  /// @brief Field GetWorkingSeatedZeroPoseToRawTrackingPose, offset: 0x30, size: 0x8, def value: None
-  ::OVR::OpenVR::IVRChaperoneSetup__GetWorkingSeatedZeroPoseToRawTrackingPose* GetWorkingSeatedZeroPoseToRawTrackingPose;
+/// @brief Field GetWorkingSeatedZeroPoseToRawTrackingPose, offset: 0x30, size: 0x8, def value: None
+ ::OVR::OpenVR::IVRChaperoneSetup__GetWorkingSeatedZeroPoseToRawTrackingPose*  GetWorkingSeatedZeroPoseToRawTrackingPose;
 
-  /// @brief Field GetWorkingStandingZeroPoseToRawTrackingPose, offset: 0x38, size: 0x8, def value: None
-  ::OVR::OpenVR::IVRChaperoneSetup__GetWorkingStandingZeroPoseToRawTrackingPose* GetWorkingStandingZeroPoseToRawTrackingPose;
+/// @brief Field GetWorkingStandingZeroPoseToRawTrackingPose, offset: 0x38, size: 0x8, def value: None
+ ::OVR::OpenVR::IVRChaperoneSetup__GetWorkingStandingZeroPoseToRawTrackingPose*  GetWorkingStandingZeroPoseToRawTrackingPose;
 
-  /// @brief Field SetWorkingPlayAreaSize, offset: 0x40, size: 0x8, def value: None
-  ::OVR::OpenVR::IVRChaperoneSetup__SetWorkingPlayAreaSize* SetWorkingPlayAreaSize;
+/// @brief Field SetWorkingPlayAreaSize, offset: 0x40, size: 0x8, def value: None
+ ::OVR::OpenVR::IVRChaperoneSetup__SetWorkingPlayAreaSize*  SetWorkingPlayAreaSize;
 
-  /// @brief Field SetWorkingCollisionBoundsInfo, offset: 0x48, size: 0x8, def value: None
-  ::OVR::OpenVR::IVRChaperoneSetup__SetWorkingCollisionBoundsInfo* SetWorkingCollisionBoundsInfo;
+/// @brief Field SetWorkingCollisionBoundsInfo, offset: 0x48, size: 0x8, def value: None
+ ::OVR::OpenVR::IVRChaperoneSetup__SetWorkingCollisionBoundsInfo*  SetWorkingCollisionBoundsInfo;
 
-  /// @brief Field SetWorkingSeatedZeroPoseToRawTrackingPose, offset: 0x50, size: 0x8, def value: None
-  ::OVR::OpenVR::IVRChaperoneSetup__SetWorkingSeatedZeroPoseToRawTrackingPose* SetWorkingSeatedZeroPoseToRawTrackingPose;
+/// @brief Field SetWorkingSeatedZeroPoseToRawTrackingPose, offset: 0x50, size: 0x8, def value: None
+ ::OVR::OpenVR::IVRChaperoneSetup__SetWorkingSeatedZeroPoseToRawTrackingPose*  SetWorkingSeatedZeroPoseToRawTrackingPose;
 
-  /// @brief Field SetWorkingStandingZeroPoseToRawTrackingPose, offset: 0x58, size: 0x8, def value: None
-  ::OVR::OpenVR::IVRChaperoneSetup__SetWorkingStandingZeroPoseToRawTrackingPose* SetWorkingStandingZeroPoseToRawTrackingPose;
+/// @brief Field SetWorkingStandingZeroPoseToRawTrackingPose, offset: 0x58, size: 0x8, def value: None
+ ::OVR::OpenVR::IVRChaperoneSetup__SetWorkingStandingZeroPoseToRawTrackingPose*  SetWorkingStandingZeroPoseToRawTrackingPose;
 
-  /// @brief Field ReloadFromDisk, offset: 0x60, size: 0x8, def value: None
-  ::OVR::OpenVR::IVRChaperoneSetup__ReloadFromDisk* ReloadFromDisk;
+/// @brief Field ReloadFromDisk, offset: 0x60, size: 0x8, def value: None
+ ::OVR::OpenVR::IVRChaperoneSetup__ReloadFromDisk*  ReloadFromDisk;
 
-  /// @brief Field GetLiveSeatedZeroPoseToRawTrackingPose, offset: 0x68, size: 0x8, def value: None
-  ::OVR::OpenVR::IVRChaperoneSetup__GetLiveSeatedZeroPoseToRawTrackingPose* GetLiveSeatedZeroPoseToRawTrackingPose;
+/// @brief Field GetLiveSeatedZeroPoseToRawTrackingPose, offset: 0x68, size: 0x8, def value: None
+ ::OVR::OpenVR::IVRChaperoneSetup__GetLiveSeatedZeroPoseToRawTrackingPose*  GetLiveSeatedZeroPoseToRawTrackingPose;
 
-  /// @brief Field SetWorkingCollisionBoundsTagsInfo, offset: 0x70, size: 0x8, def value: None
-  ::OVR::OpenVR::IVRChaperoneSetup__SetWorkingCollisionBoundsTagsInfo* SetWorkingCollisionBoundsTagsInfo;
+/// @brief Field SetWorkingCollisionBoundsTagsInfo, offset: 0x70, size: 0x8, def value: None
+ ::OVR::OpenVR::IVRChaperoneSetup__SetWorkingCollisionBoundsTagsInfo*  SetWorkingCollisionBoundsTagsInfo;
 
-  /// @brief Field GetLiveCollisionBoundsTagsInfo, offset: 0x78, size: 0x8, def value: None
-  ::OVR::OpenVR::IVRChaperoneSetup__GetLiveCollisionBoundsTagsInfo* GetLiveCollisionBoundsTagsInfo;
+/// @brief Field GetLiveCollisionBoundsTagsInfo, offset: 0x78, size: 0x8, def value: None
+ ::OVR::OpenVR::IVRChaperoneSetup__GetLiveCollisionBoundsTagsInfo*  GetLiveCollisionBoundsTagsInfo;
 
-  /// @brief Field SetWorkingPhysicalBoundsInfo, offset: 0x80, size: 0x8, def value: None
-  ::OVR::OpenVR::IVRChaperoneSetup__SetWorkingPhysicalBoundsInfo* SetWorkingPhysicalBoundsInfo;
+/// @brief Field SetWorkingPhysicalBoundsInfo, offset: 0x80, size: 0x8, def value: None
+ ::OVR::OpenVR::IVRChaperoneSetup__SetWorkingPhysicalBoundsInfo*  SetWorkingPhysicalBoundsInfo;
 
-  /// @brief Field GetLivePhysicalBoundsInfo, offset: 0x88, size: 0x8, def value: None
-  ::OVR::OpenVR::IVRChaperoneSetup__GetLivePhysicalBoundsInfo* GetLivePhysicalBoundsInfo;
+/// @brief Field GetLivePhysicalBoundsInfo, offset: 0x88, size: 0x8, def value: None
+ ::OVR::OpenVR::IVRChaperoneSetup__GetLivePhysicalBoundsInfo*  GetLivePhysicalBoundsInfo;
 
-  /// @brief Field ExportLiveToBuffer, offset: 0x90, size: 0x8, def value: None
-  ::OVR::OpenVR::IVRChaperoneSetup__ExportLiveToBuffer* ExportLiveToBuffer;
+/// @brief Field ExportLiveToBuffer, offset: 0x90, size: 0x8, def value: None
+ ::OVR::OpenVR::IVRChaperoneSetup__ExportLiveToBuffer*  ExportLiveToBuffer;
 
-  /// @brief Field ImportFromBufferToWorking, offset: 0x98, size: 0x8, def value: None
-  ::OVR::OpenVR::IVRChaperoneSetup__ImportFromBufferToWorking* ImportFromBufferToWorking;
+/// @brief Field ImportFromBufferToWorking, offset: 0x98, size: 0x8, def value: None
+ ::OVR::OpenVR::IVRChaperoneSetup__ImportFromBufferToWorking*  ImportFromBufferToWorking;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::OVR::OpenVR::IVRChaperoneSetup, CommitWorkingCopy) == 0x0, "Offset mismatch!");
@@ -1261,7 +1224,7 @@ static_assert(offsetof(::OVR::OpenVR::IVRChaperoneSetup, ImportFromBufferToWorki
 
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVRChaperoneSetup, 0xa0>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 NEED_NO_BOX(::OVR::OpenVR::IVRChaperoneSetup__CommitWorkingCopy);
 DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::IVRChaperoneSetup__CommitWorkingCopy*, "OVR.OpenVR", "IVRChaperoneSetup/_CommitWorkingCopy");
 NEED_NO_BOX(::OVR::OpenVR::IVRChaperoneSetup__ExportLiveToBuffer);

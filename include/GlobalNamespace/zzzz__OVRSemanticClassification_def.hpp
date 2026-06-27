@@ -10,10 +10,12 @@ namespace GlobalNamespace {
 class IOVRSceneComponent;
 }
 namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
+template<typename T>
+class IReadOnlyList_1;
 }
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template<typename T>
+class List_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -27,74 +29,74 @@ namespace GlobalNamespace {
 // CS Name: OVRSemanticClassification
 class CORDL_TYPE OVRSemanticClassification : public ::UnityEngine::MonoBehaviour {
 public:
-  // Declarations
-  __declspec(property(get = get_Labels)) ::System::Collections::Generic::IReadOnlyList_1<::StringW>* Labels;
+// Declarations
+ __declspec(property(get=get_Labels)) ::System::Collections::Generic::IReadOnlyList_1<::StringW>*  Labels;
 
-  /// @brief Field _labels, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__labels, put = __cordl_internal_set__labels)) ::System::Collections::Generic::List_1<::StringW>* _labels;
+/// @brief Field _labels, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get__labels, put=__cordl_internal_set__labels)) ::System::Collections::Generic::List_1<::StringW>*  _labels;
 
-  /// @brief Convert operator to "::GlobalNamespace::IOVRSceneComponent"
-  constexpr operator ::GlobalNamespace::IOVRSceneComponent*() noexcept;
+/// @brief Convert operator to "::GlobalNamespace::IOVRSceneComponent"
+constexpr operator  ::GlobalNamespace::IOVRSceneComponent*() noexcept;
 
-  /// @brief Method Awake, addr 0x5d94e34, size 0xd8, virtual false, abstract: false, final false
-  inline void Awake();
+/// @brief Method Awake, addr 0x5d969ac, size 0xd8, virtual false, abstract: false, final false
+inline void Awake() ;
 
-  /// @brief Method Contains, addr 0x5d94d1c, size 0x118, virtual false, abstract: false, final false
-  inline bool Contains(::StringW label);
+/// @brief Method Contains, addr 0x5d96894, size 0x118, virtual false, abstract: false, final false
+inline bool Contains(::StringW  label) ;
 
-  /// @brief Method IOVRSceneComponent.Initialize, addr 0x5d94f0c, size 0x150, virtual true, abstract: false, final true
-  inline void IOVRSceneComponent_Initialize();
+/// @brief Method IOVRSceneComponent.Initialize, addr 0x5d96a84, size 0x150, virtual true, abstract: false, final true
+inline void IOVRSceneComponent_Initialize() ;
 
-  static inline ::GlobalNamespace::OVRSemanticClassification* New_ctor();
+static inline ::GlobalNamespace::OVRSemanticClassification* New_ctor() ;
 
-  /// @brief Method ValidateAndUpgradeLabels, addr 0x5d9505c, size 0x458, virtual false, abstract: false, final false
-  static inline ::StringW ValidateAndUpgradeLabels(::StringW labels);
+/// @brief Method ValidateAndUpgradeLabels, addr 0x5d96bd4, size 0x458, virtual false, abstract: false, final false
+static inline ::StringW ValidateAndUpgradeLabels(::StringW  labels) ;
 
-  constexpr ::System::Collections::Generic::List_1<::StringW>* const& __cordl_internal_get__labels() const;
+constexpr ::System::Collections::Generic::List_1<::StringW>* const& __cordl_internal_get__labels() const;
 
-  constexpr ::System::Collections::Generic::List_1<::StringW>*& __cordl_internal_get__labels();
+constexpr ::System::Collections::Generic::List_1<::StringW>*& __cordl_internal_get__labels() ;
 
-  constexpr void __cordl_internal_set__labels(::System::Collections::Generic::List_1<::StringW>* value);
+constexpr void __cordl_internal_set__labels(::System::Collections::Generic::List_1<::StringW>*  value) ;
 
-  /// @brief Method .ctor, addr 0x5d954b4, size 0x78, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5d9702c, size 0x78, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_Labels, addr 0x5d94d14, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::IReadOnlyList_1<::StringW>* get_Labels();
+/// @brief Method get_Labels, addr 0x5d9688c, size 0x8, virtual false, abstract: false, final false
+inline ::System::Collections::Generic::IReadOnlyList_1<::StringW>* get_Labels() ;
 
-  /// @brief Convert to "::GlobalNamespace::IOVRSceneComponent"
-  constexpr ::GlobalNamespace::IOVRSceneComponent* i___GlobalNamespace__IOVRSceneComponent() noexcept;
+/// @brief Convert to "::GlobalNamespace::IOVRSceneComponent"
+constexpr ::GlobalNamespace::IOVRSceneComponent* i___GlobalNamespace__IOVRSceneComponent() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OVRSemanticClassification();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr OVRSemanticClassification() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRSemanticClassification", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  OVRSemanticClassification(OVRSemanticClassification&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRSemanticClassification", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  OVRSemanticClassification(OVRSemanticClassification const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "OVRSemanticClassification", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+OVRSemanticClassification(OVRSemanticClassification && ) = delete;
 
-  /// @brief Field LabelSeparator offset 0xffffffff size 0x2
-  static constexpr char16_t LabelSeparator{ u',' };
+// Ctor Parameters [CppParam { name: "", ty: "OVRSemanticClassification", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+OVRSemanticClassification(OVRSemanticClassification const& ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7692 };
+/// @brief Field LabelSeparator offset 0xffffffff size 0x2
+static constexpr char16_t  LabelSeparator{u','};
 
-  /// @brief Field _labels, offset: 0x20, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::StringW>* ____labels;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{7693};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _labels, offset: 0x20, size: 0x8, def value: None
+ ::System::Collections::Generic::List_1<::StringW>*  ____labels;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::OVRSemanticClassification, ____labels) == 0x20, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRSemanticClassification, 0x28>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::OVRSemanticClassification);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRSemanticClassification*, "", "OVRSemanticClassification");

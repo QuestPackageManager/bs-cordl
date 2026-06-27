@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "UnityEngine/PlayerLoop/EarlyUpdate.hpp"
 #include "UnityEngine/PlayerLoop/FixedUpdate.hpp"
@@ -12,5 +12,6 @@ module;
 #include "UnityEngine/PlayerLoop/TimeUpdate.hpp"
 #include "UnityEngine/PlayerLoop/Update.hpp"
 #ifdef __cpp_modules
-export module PlayerLoop;
-#endif
+                    export module PlayerLoop;
+                    #endif
+                

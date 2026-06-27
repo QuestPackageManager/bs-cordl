@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "Org/BouncyCastle/Asn1/Pkcs/AttributePkcs.hpp"
 #include "Org/BouncyCastle/Asn1/Pkcs/AuthenticatedSafe.hpp"
@@ -31,5 +31,6 @@ module;
 #include "Org/BouncyCastle/Asn1/Pkcs/SignedData.hpp"
 #include "Org/BouncyCastle/Asn1/Pkcs/SignerInfo.hpp"
 #ifdef __cpp_modules
-export module Pkcs;
-#endif
+                    export module Pkcs;
+                    #endif
+                

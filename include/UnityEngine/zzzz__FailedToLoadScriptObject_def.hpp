@@ -17,29 +17,29 @@ namespace UnityEngine {
 // CS Name: UnityEngine.FailedToLoadScriptObject
 class CORDL_TYPE FailedToLoadScriptObject : public ::UnityEngine::Object {
 public:
-  // Declarations
+// Declarations
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr FailedToLoadScriptObject();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr FailedToLoadScriptObject() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FailedToLoadScriptObject", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  FailedToLoadScriptObject(FailedToLoadScriptObject&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FailedToLoadScriptObject", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  FailedToLoadScriptObject(FailedToLoadScriptObject const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "FailedToLoadScriptObject", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+FailedToLoadScriptObject(FailedToLoadScriptObject && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10335 };
+// Ctor Parameters [CppParam { name: "", ty: "FailedToLoadScriptObject", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+FailedToLoadScriptObject(FailedToLoadScriptObject const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10336};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::FailedToLoadScriptObject, 0x18>, "Size mismatch!");
 
-} // namespace UnityEngine
+} // namespace end def UnityEngine
 NEED_NO_BOX(::UnityEngine::FailedToLoadScriptObject);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::FailedToLoadScriptObject*, "UnityEngine", "FailedToLoadScriptObject");

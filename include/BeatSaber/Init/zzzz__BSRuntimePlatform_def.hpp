@@ -20,35 +20,35 @@ namespace BeatSaber::Init {
 // CS Name: BeatSaber.Init.BSRuntimePlatform
 class CORDL_TYPE BSRuntimePlatform : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method GetPlatformType, addr 0x3201094, size 0x8, virtual false, abstract: false, final false
-  static inline ::BeatSaber::Init::RuntimePlatformType GetPlatformType();
+// Declarations
+/// @brief Method GetPlatformType, addr 0x3201db4, size 0x8, virtual false, abstract: false, final false
+static inline ::BeatSaber::Init::RuntimePlatformType GetPlatformType() ;
 
-  /// @brief Method get_IsSteam, addr 0x320109c, size 0x8, virtual false, abstract: false, final false
-  static inline bool get_IsSteam();
+/// @brief Method get_IsSteam, addr 0x3201dbc, size 0x8, virtual false, abstract: false, final false
+static inline bool get_IsSteam() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BSRuntimePlatform();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr BSRuntimePlatform() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BSRuntimePlatform", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  BSRuntimePlatform(BSRuntimePlatform&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BSRuntimePlatform", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  BSRuntimePlatform(BSRuntimePlatform const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "BSRuntimePlatform", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+BSRuntimePlatform(BSRuntimePlatform && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22468 };
+// Ctor Parameters [CppParam { name: "", ty: "BSRuntimePlatform", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+BSRuntimePlatform(BSRuntimePlatform const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22472};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::BeatSaber::Init::BSRuntimePlatform, 0x10>, "Size mismatch!");
 
-} // namespace BeatSaber::Init
+} // namespace end def BeatSaber::Init
 NEED_NO_BOX(::BeatSaber::Init::BSRuntimePlatform);
 DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::Init::BSRuntimePlatform*, "BeatSaber.Init", "BSRuntimePlatform");

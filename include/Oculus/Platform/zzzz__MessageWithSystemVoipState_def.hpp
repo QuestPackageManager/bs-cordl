@@ -23,40 +23,40 @@ namespace Oculus::Platform {
 // CS Name: Oculus.Platform.MessageWithSystemVoipState
 class CORDL_TYPE MessageWithSystemVoipState : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::SystemVoipState*> {
 public:
-  // Declarations
-  /// @brief Method GetDataFromMessage, addr 0x5ca1104, size 0x9c, virtual true, abstract: false, final false
-  inline ::Oculus::Platform::Models::SystemVoipState* GetDataFromMessage(::System::IntPtr c_message);
+// Declarations
+/// @brief Method GetDataFromMessage, addr 0x5ca2c7c, size 0x9c, virtual true, abstract: false, final false
+inline ::Oculus::Platform::Models::SystemVoipState* GetDataFromMessage(::System::IntPtr  c_message) ;
 
-  /// @brief Method GetSystemVoipState, addr 0x5ca10c0, size 0x44, virtual true, abstract: false, final false
-  inline ::Oculus::Platform::Models::SystemVoipState* GetSystemVoipState();
+/// @brief Method GetSystemVoipState, addr 0x5ca2c38, size 0x44, virtual true, abstract: false, final false
+inline ::Oculus::Platform::Models::SystemVoipState* GetSystemVoipState() ;
 
-  static inline ::Oculus::Platform::MessageWithSystemVoipState* New_ctor(::System::IntPtr c_message);
+static inline ::Oculus::Platform::MessageWithSystemVoipState* New_ctor(::System::IntPtr  c_message) ;
 
-  /// @brief Method .ctor, addr 0x5c9c0b8, size 0x5c, virtual false, abstract: false, final false
-  inline void _ctor(::System::IntPtr c_message);
+/// @brief Method .ctor, addr 0x5c9dc30, size 0x5c, virtual false, abstract: false, final false
+inline void _ctor(::System::IntPtr  c_message) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MessageWithSystemVoipState();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr MessageWithSystemVoipState() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MessageWithSystemVoipState", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  MessageWithSystemVoipState(MessageWithSystemVoipState&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MessageWithSystemVoipState", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  MessageWithSystemVoipState(MessageWithSystemVoipState const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "MessageWithSystemVoipState", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+MessageWithSystemVoipState(MessageWithSystemVoipState && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17900 };
+// Ctor Parameters [CppParam { name: "", ty: "MessageWithSystemVoipState", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+MessageWithSystemVoipState(MessageWithSystemVoipState const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{17902};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Oculus::Platform::MessageWithSystemVoipState, 0x30>, "Size mismatch!");
 
-} // namespace Oculus::Platform
+} // namespace end def Oculus::Platform
 NEED_NO_BOX(::Oculus::Platform::MessageWithSystemVoipState);
 DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::MessageWithSystemVoipState*, "Oculus.Platform", "MessageWithSystemVoipState");

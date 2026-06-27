@@ -28,7 +28,8 @@ namespace Unity::Jobs {
 class IJobParallelFor;
 }
 namespace UnityEngine::UIElements::UIR {
-template <typename T> class NativePagedList_1;
+template<typename T>
+class NativePagedList_1;
 }
 namespace UnityEngine::UIElements {
 struct MeshBuilderNative_NativeBorderParams;
@@ -95,27 +96,27 @@ namespace UnityEngine::UIElements::UIR {
 // CS Name: UnityEngine.UIElements.UIR.MeshGenerator/RepeatRectUV
 struct CORDL_TYPE MeshGenerator_RepeatRectUV {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MeshGenerator_RepeatRectUV();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr MeshGenerator_RepeatRectUV() ;
 
-  // Ctor Parameters [CppParam { name: "rect", ty: "::UnityEngine::Rect", modifiers: "", def_value: None }, CppParam { name: "uv", ty: "::UnityEngine::Rect", modifiers: "", def_value: None }]
-  constexpr MeshGenerator_RepeatRectUV(::UnityEngine::Rect rect, ::UnityEngine::Rect uv) noexcept;
+// Ctor Parameters [CppParam { name: "rect", ty: "::UnityEngine::Rect", modifiers: "", def_value: None }, CppParam { name: "uv", ty: "::UnityEngine::Rect", modifiers: "", def_value: None }]
+constexpr MeshGenerator_RepeatRectUV(::UnityEngine::Rect  rect, ::UnityEngine::Rect  uv) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5313 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{5313};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x20};
 
-  /// @brief Field rect, offset: 0x0, size: 0x10, def value: None
-  ::UnityEngine::Rect rect;
+/// @brief Field rect, offset: 0x0, size: 0x10, def value: None
+ ::UnityEngine::Rect  rect;
 
-  /// @brief Field uv, offset: 0x10, size: 0x10, def value: None
-  ::UnityEngine::Rect uv;
+/// @brief Field uv, offset: 0x10, size: 0x10, def value: None
+ ::UnityEngine::Rect  uv;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::UIElements::UIR::MeshGenerator_RepeatRectUV, rect) == 0x0, "Offset mismatch!");
@@ -124,38 +125,37 @@ static_assert(offsetof(::UnityEngine::UIElements::UIR::MeshGenerator_RepeatRectU
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::MeshGenerator_RepeatRectUV, 0x20>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements::UIR
+} // namespace end def UnityEngine::UIElements::UIR
 // Dependencies UnityEngine.Rect
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
 // CS Name: UnityEngine.UIElements.UIR.MeshGenerator/BackgroundRepeatInstance
 struct CORDL_TYPE MeshGenerator_BackgroundRepeatInstance {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MeshGenerator_BackgroundRepeatInstance();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr MeshGenerator_BackgroundRepeatInstance() ;
 
-  // Ctor Parameters [CppParam { name: "rect", ty: "::UnityEngine::Rect", modifiers: "", def_value: None }, CppParam { name: "backgroundRepeatRect", ty: "::UnityEngine::Rect", modifiers: "",
-  // def_value: None }, CppParam { name: "uv", ty: "::UnityEngine::Rect", modifiers: "", def_value: None }]
-  constexpr MeshGenerator_BackgroundRepeatInstance(::UnityEngine::Rect rect, ::UnityEngine::Rect backgroundRepeatRect, ::UnityEngine::Rect uv) noexcept;
+// Ctor Parameters [CppParam { name: "rect", ty: "::UnityEngine::Rect", modifiers: "", def_value: None }, CppParam { name: "backgroundRepeatRect", ty: "::UnityEngine::Rect", modifiers: "", def_value: None }, CppParam { name: "uv", ty: "::UnityEngine::Rect", modifiers: "", def_value: None }]
+constexpr MeshGenerator_BackgroundRepeatInstance(::UnityEngine::Rect  rect, ::UnityEngine::Rect  backgroundRepeatRect, ::UnityEngine::Rect  uv) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5314 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{5314};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x30};
 
-  /// @brief Field rect, offset: 0x0, size: 0x10, def value: None
-  ::UnityEngine::Rect rect;
+/// @brief Field rect, offset: 0x0, size: 0x10, def value: None
+ ::UnityEngine::Rect  rect;
 
-  /// @brief Field backgroundRepeatRect, offset: 0x10, size: 0x10, def value: None
-  ::UnityEngine::Rect backgroundRepeatRect;
+/// @brief Field backgroundRepeatRect, offset: 0x10, size: 0x10, def value: None
+ ::UnityEngine::Rect  backgroundRepeatRect;
 
-  /// @brief Field uv, offset: 0x20, size: 0x10, def value: None
-  ::UnityEngine::Rect uv;
+/// @brief Field uv, offset: 0x20, size: 0x10, def value: None
+ ::UnityEngine::Rect  uv;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::UIElements::UIR::MeshGenerator_BackgroundRepeatInstance, rect) == 0x0, "Offset mismatch!");
@@ -166,98 +166,85 @@ static_assert(offsetof(::UnityEngine::UIElements::UIR::MeshGenerator_BackgroundR
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::MeshGenerator_BackgroundRepeatInstance, 0x30>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements::UIR
+} // namespace end def UnityEngine::UIElements::UIR
 // Dependencies UnityEngine.Color, UnityEngine.Rect, UnityEngine.UIElements.ColorPage, UnityEngine.Vector2
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
 // CS Name: UnityEngine.UIElements.UIR.MeshGenerator/BorderParams
 struct CORDL_TYPE MeshGenerator_BorderParams {
 public:
-  // Declarations
-  /// @brief Method ToNativeParams, addr 0x6b8a578, size 0xa4, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::MeshBuilderNative_NativeBorderParams ToNativeParams();
+// Declarations
+/// @brief Method ToNativeParams, addr 0x6b8c0f0, size 0xa4, virtual false, abstract: false, final false
+inline ::UnityEngine::UIElements::MeshBuilderNative_NativeBorderParams ToNativeParams() ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MeshGenerator_BorderParams();
+// Ctor Parameters []
+// @brief default ctor
+constexpr MeshGenerator_BorderParams() ;
 
-  // Ctor Parameters [CppParam { name: "rect", ty: "::UnityEngine::Rect", modifiers: "", def_value: None }, CppParam { name: "playmodeTintColor", ty: "::UnityEngine::Color", modifiers: "", def_value:
-  // None }, CppParam { name: "leftColor", ty: "::UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "topColor", ty: "::UnityEngine::Color", modifiers: "", def_value: None },
-  // CppParam { name: "rightColor", ty: "::UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "bottomColor", ty: "::UnityEngine::Color", modifiers: "", def_value: None }, CppParam
-  // { name: "leftWidth", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "topWidth", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "rightWidth", ty: "float_t",
-  // modifiers: "", def_value: None }, CppParam { name: "bottomWidth", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "topLeftRadius", ty: "::UnityEngine::Vector2", modifiers: "",
-  // def_value: None }, CppParam { name: "topRightRadius", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "bottomRightRadius", ty: "::UnityEngine::Vector2",
-  // modifiers: "", def_value: None }, CppParam { name: "bottomLeftRadius", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "leftColorPage", ty:
-  // "::UnityEngine::UIElements::ColorPage", modifiers: "", def_value: None }, CppParam { name: "topColorPage", ty: "::UnityEngine::UIElements::ColorPage", modifiers: "", def_value: None }, CppParam {
-  // name: "rightColorPage", ty: "::UnityEngine::UIElements::ColorPage", modifiers: "", def_value: None }, CppParam { name: "bottomColorPage", ty: "::UnityEngine::UIElements::ColorPage", modifiers:
-  // "", def_value: None }]
-  constexpr MeshGenerator_BorderParams(::UnityEngine::Rect rect, ::UnityEngine::Color playmodeTintColor, ::UnityEngine::Color leftColor, ::UnityEngine::Color topColor, ::UnityEngine::Color rightColor,
-                                       ::UnityEngine::Color bottomColor, float_t leftWidth, float_t topWidth, float_t rightWidth, float_t bottomWidth, ::UnityEngine::Vector2 topLeftRadius,
-                                       ::UnityEngine::Vector2 topRightRadius, ::UnityEngine::Vector2 bottomRightRadius, ::UnityEngine::Vector2 bottomLeftRadius,
-                                       ::UnityEngine::UIElements::ColorPage leftColorPage, ::UnityEngine::UIElements::ColorPage topColorPage, ::UnityEngine::UIElements::ColorPage rightColorPage,
-                                       ::UnityEngine::UIElements::ColorPage bottomColorPage) noexcept;
+// Ctor Parameters [CppParam { name: "rect", ty: "::UnityEngine::Rect", modifiers: "", def_value: None }, CppParam { name: "playmodeTintColor", ty: "::UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "leftColor", ty: "::UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "topColor", ty: "::UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "rightColor", ty: "::UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "bottomColor", ty: "::UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "leftWidth", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "topWidth", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "rightWidth", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "bottomWidth", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "topLeftRadius", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "topRightRadius", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "bottomRightRadius", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "bottomLeftRadius", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "leftColorPage", ty: "::UnityEngine::UIElements::ColorPage", modifiers: "", def_value: None }, CppParam { name: "topColorPage", ty: "::UnityEngine::UIElements::ColorPage", modifiers: "", def_value: None }, CppParam { name: "rightColorPage", ty: "::UnityEngine::UIElements::ColorPage", modifiers: "", def_value: None }, CppParam { name: "bottomColorPage", ty: "::UnityEngine::UIElements::ColorPage", modifiers: "", def_value: None }]
+constexpr MeshGenerator_BorderParams(::UnityEngine::Rect  rect, ::UnityEngine::Color  playmodeTintColor, ::UnityEngine::Color  leftColor, ::UnityEngine::Color  topColor, ::UnityEngine::Color  rightColor, ::UnityEngine::Color  bottomColor, float_t  leftWidth, float_t  topWidth, float_t  rightWidth, float_t  bottomWidth, ::UnityEngine::Vector2  topLeftRadius, ::UnityEngine::Vector2  topRightRadius, ::UnityEngine::Vector2  bottomRightRadius, ::UnityEngine::Vector2  bottomLeftRadius, ::UnityEngine::UIElements::ColorPage  leftColorPage, ::UnityEngine::UIElements::ColorPage  topColorPage, ::UnityEngine::UIElements::ColorPage  rightColorPage, ::UnityEngine::UIElements::ColorPage  bottomColorPage) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5315 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{5315};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xb0 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0xb0};
 
-  /// @brief Field rect, offset: 0x0, size: 0x10, def value: None
-  ::UnityEngine::Rect rect;
+/// @brief Field rect, offset: 0x0, size: 0x10, def value: None
+ ::UnityEngine::Rect  rect;
 
-  /// @brief Field playmodeTintColor, offset: 0x10, size: 0x10, def value: None
-  ::UnityEngine::Color playmodeTintColor;
+/// @brief Field playmodeTintColor, offset: 0x10, size: 0x10, def value: None
+ ::UnityEngine::Color  playmodeTintColor;
 
-  /// @brief Field leftColor, offset: 0x20, size: 0x10, def value: None
-  ::UnityEngine::Color leftColor;
+/// @brief Field leftColor, offset: 0x20, size: 0x10, def value: None
+ ::UnityEngine::Color  leftColor;
 
-  /// @brief Field topColor, offset: 0x30, size: 0x10, def value: None
-  ::UnityEngine::Color topColor;
+/// @brief Field topColor, offset: 0x30, size: 0x10, def value: None
+ ::UnityEngine::Color  topColor;
 
-  /// @brief Field rightColor, offset: 0x40, size: 0x10, def value: None
-  ::UnityEngine::Color rightColor;
+/// @brief Field rightColor, offset: 0x40, size: 0x10, def value: None
+ ::UnityEngine::Color  rightColor;
 
-  /// @brief Field bottomColor, offset: 0x50, size: 0x10, def value: None
-  ::UnityEngine::Color bottomColor;
+/// @brief Field bottomColor, offset: 0x50, size: 0x10, def value: None
+ ::UnityEngine::Color  bottomColor;
 
-  /// @brief Field leftWidth, offset: 0x60, size: 0x4, def value: None
-  float_t leftWidth;
+/// @brief Field leftWidth, offset: 0x60, size: 0x4, def value: None
+ float_t  leftWidth;
 
-  /// @brief Field topWidth, offset: 0x64, size: 0x4, def value: None
-  float_t topWidth;
+/// @brief Field topWidth, offset: 0x64, size: 0x4, def value: None
+ float_t  topWidth;
 
-  /// @brief Field rightWidth, offset: 0x68, size: 0x4, def value: None
-  float_t rightWidth;
+/// @brief Field rightWidth, offset: 0x68, size: 0x4, def value: None
+ float_t  rightWidth;
 
-  /// @brief Field bottomWidth, offset: 0x6c, size: 0x4, def value: None
-  float_t bottomWidth;
+/// @brief Field bottomWidth, offset: 0x6c, size: 0x4, def value: None
+ float_t  bottomWidth;
 
-  /// @brief Field topLeftRadius, offset: 0x70, size: 0x8, def value: None
-  ::UnityEngine::Vector2 topLeftRadius;
+/// @brief Field topLeftRadius, offset: 0x70, size: 0x8, def value: None
+ ::UnityEngine::Vector2  topLeftRadius;
 
-  /// @brief Field topRightRadius, offset: 0x78, size: 0x8, def value: None
-  ::UnityEngine::Vector2 topRightRadius;
+/// @brief Field topRightRadius, offset: 0x78, size: 0x8, def value: None
+ ::UnityEngine::Vector2  topRightRadius;
 
-  /// @brief Field bottomRightRadius, offset: 0x80, size: 0x8, def value: None
-  ::UnityEngine::Vector2 bottomRightRadius;
+/// @brief Field bottomRightRadius, offset: 0x80, size: 0x8, def value: None
+ ::UnityEngine::Vector2  bottomRightRadius;
 
-  /// @brief Field bottomLeftRadius, offset: 0x88, size: 0x8, def value: None
-  ::UnityEngine::Vector2 bottomLeftRadius;
+/// @brief Field bottomLeftRadius, offset: 0x88, size: 0x8, def value: None
+ ::UnityEngine::Vector2  bottomLeftRadius;
 
-  /// @brief Field leftColorPage, offset: 0x90, size: 0x8, def value: None
-  ::UnityEngine::UIElements::ColorPage leftColorPage;
+/// @brief Field leftColorPage, offset: 0x90, size: 0x8, def value: None
+ ::UnityEngine::UIElements::ColorPage  leftColorPage;
 
-  /// @brief Field topColorPage, offset: 0x98, size: 0x8, def value: None
-  ::UnityEngine::UIElements::ColorPage topColorPage;
+/// @brief Field topColorPage, offset: 0x98, size: 0x8, def value: None
+ ::UnityEngine::UIElements::ColorPage  topColorPage;
 
-  /// @brief Field rightColorPage, offset: 0xa0, size: 0x8, def value: None
-  ::UnityEngine::UIElements::ColorPage rightColorPage;
+/// @brief Field rightColorPage, offset: 0xa0, size: 0x8, def value: None
+ ::UnityEngine::UIElements::ColorPage  rightColorPage;
 
-  /// @brief Field bottomColorPage, offset: 0xa8, size: 0x8, def value: None
-  ::UnityEngine::UIElements::ColorPage bottomColorPage;
+/// @brief Field bottomColorPage, offset: 0xa8, size: 0x8, def value: None
+ ::UnityEngine::UIElements::ColorPage  bottomColorPage;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::UIElements::UIR::MeshGenerator_BorderParams, rect) == 0x0, "Offset mismatch!");
@@ -298,195 +285,160 @@ static_assert(offsetof(::UnityEngine::UIElements::UIR::MeshGenerator_BorderParam
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::MeshGenerator_BorderParams, 0xb0>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements::UIR
-// Dependencies UnityEngine.Color, UnityEngine.Rect, UnityEngine.ScaleMode, UnityEngine.UIElements.BackgroundPosition, UnityEngine.UIElements.BackgroundRepeat, UnityEngine.UIElements.BackgroundSize,
-// UnityEngine.UIElements.ColorPage, UnityEngine.UIElements.MeshGenerationContext::MeshFlags, UnityEngine.Vector2, UnityEngine.Vector4
+} // namespace end def UnityEngine::UIElements::UIR
+// Dependencies UnityEngine.Color, UnityEngine.Rect, UnityEngine.ScaleMode, UnityEngine.UIElements.BackgroundPosition, UnityEngine.UIElements.BackgroundRepeat, UnityEngine.UIElements.BackgroundSize, UnityEngine.UIElements.ColorPage, UnityEngine.UIElements.MeshGenerationContext::MeshFlags, UnityEngine.Vector2, UnityEngine.Vector4
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
 // CS Name: UnityEngine.UIElements.UIR.MeshGenerator/RectangleParams
 struct CORDL_TYPE MeshGenerator_RectangleParams {
 public:
-  // Declarations
-  /// @brief Method AdjustSpriteUVsForScaleMode, addr 0x6b8a7b8, size 0x304, virtual false, abstract: false, final false
-  static inline void AdjustSpriteUVsForScaleMode(::UnityEngine::Rect containerRect, ::UnityEngine::Rect srcRect, ::UnityEngine::Rect spriteGeomRect, ::UnityEngine::Sprite* sprite,
-                                                 ::UnityEngine::ScaleMode scaleMode, ::ByRef<::UnityEngine::Rect> rectOut, ::ByRef<::UnityEngine::Rect> uvOut);
+// Declarations
+/// @brief Method AdjustSpriteUVsForScaleMode, addr 0x6b8c330, size 0x304, virtual false, abstract: false, final false
+static inline void AdjustSpriteUVsForScaleMode(::UnityEngine::Rect  containerRect, ::UnityEngine::Rect  srcRect, ::UnityEngine::Rect  spriteGeomRect, ::UnityEngine::Sprite*  sprite, ::UnityEngine::ScaleMode  scaleMode, ::ByRef<::UnityEngine::Rect>  rectOut, ::ByRef<::UnityEngine::Rect>  uvOut) ;
 
-  /// @brief Method AdjustUVsForScaleMode, addr 0x6b8a61c, size 0x19c, virtual false, abstract: false, final false
-  static inline void AdjustUVsForScaleMode(::UnityEngine::Rect rect, ::UnityEngine::Rect uv, ::UnityEngine::Texture* texture, ::UnityEngine::ScaleMode scaleMode, ::ByRef<::UnityEngine::Rect> rectOut,
-                                           ::ByRef<::UnityEngine::Rect> uvOut);
+/// @brief Method AdjustUVsForScaleMode, addr 0x6b8c194, size 0x19c, virtual false, abstract: false, final false
+static inline void AdjustUVsForScaleMode(::UnityEngine::Rect  rect, ::UnityEngine::Rect  uv, ::UnityEngine::Texture*  texture, ::UnityEngine::ScaleMode  scaleMode, ::ByRef<::UnityEngine::Rect>  rectOut, ::ByRef<::UnityEngine::Rect>  uvOut) ;
 
-  /// @brief Method ApplyPackingRotation, addr 0x6b8ac24, size 0x50, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Rect ApplyPackingRotation(::UnityEngine::Rect uv, ::UnityEngine::SpritePackingRotation rotation);
+/// @brief Method ApplyPackingRotation, addr 0x6b8c79c, size 0x50, virtual false, abstract: false, final false
+static inline ::UnityEngine::Rect ApplyPackingRotation(::UnityEngine::Rect  uv, ::UnityEngine::SpritePackingRotation  rotation) ;
 
-  /// @brief Method ComputeGeomRect, addr 0x6b8aabc, size 0xb4, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Rect ComputeGeomRect(::UnityEngine::Sprite* sprite);
+/// @brief Method ComputeGeomRect, addr 0x6b8c634, size 0xb4, virtual false, abstract: false, final false
+static inline ::UnityEngine::Rect ComputeGeomRect(::UnityEngine::Sprite*  sprite) ;
 
-  /// @brief Method ComputeUVRect, addr 0x6b8ab70, size 0xb4, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Rect ComputeUVRect(::UnityEngine::Sprite* sprite);
+/// @brief Method ComputeUVRect, addr 0x6b8c6e8, size 0xb4, virtual false, abstract: false, final false
+static inline ::UnityEngine::Rect ComputeUVRect(::UnityEngine::Sprite*  sprite) ;
 
-  /// @brief Method HasRadius, addr 0x6b8b740, size 0x74, virtual false, abstract: false, final false
-  inline bool HasRadius(float_t epsilon);
+/// @brief Method HasRadius, addr 0x6b8d2b8, size 0x74, virtual false, abstract: false, final false
+inline bool HasRadius(float_t  epsilon) ;
 
-  /// @brief Method HasSlices, addr 0x6b89c0c, size 0x4c, virtual false, abstract: false, final false
-  inline bool HasSlices(float_t epsilon);
+/// @brief Method HasSlices, addr 0x6b8b784, size 0x4c, virtual false, abstract: false, final false
+inline bool HasSlices(float_t  epsilon) ;
 
-  /// @brief Method MakeSprite, addr 0x6b8ad70, size 0x944, virtual false, abstract: false, final false
-  static inline ::UnityEngine::UIElements::UIR::MeshGenerator_RectangleParams MakeSprite(::UnityEngine::Rect containerRect, ::UnityEngine::Rect subRect, ::UnityEngine::Sprite* sprite,
-                                                                                         ::UnityEngine::ScaleMode scaleMode, ::UnityEngine::Color playModeTintColor, bool hasRadius,
-                                                                                         ::ByRef<::UnityEngine::Vector4> slices, bool useForRepeat);
+/// @brief Method MakeSprite, addr 0x6b8c8e8, size 0x944, virtual false, abstract: false, final false
+static inline ::UnityEngine::UIElements::UIR::MeshGenerator_RectangleParams MakeSprite(::UnityEngine::Rect  containerRect, ::UnityEngine::Rect  subRect, ::UnityEngine::Sprite*  sprite, ::UnityEngine::ScaleMode  scaleMode, ::UnityEngine::Color  playModeTintColor, bool  hasRadius, ::ByRef<::UnityEngine::Vector4>  slices, bool  useForRepeat) ;
 
-  /// @brief Method MakeTextured, addr 0x6b8ac74, size 0xfc, virtual false, abstract: false, final false
-  static inline ::UnityEngine::UIElements::UIR::MeshGenerator_RectangleParams MakeTextured(::UnityEngine::Rect rect, ::UnityEngine::Rect uv, ::UnityEngine::Texture* texture,
-                                                                                           ::UnityEngine::ScaleMode scaleMode, ::UnityEngine::Color playModeTintColor);
+/// @brief Method MakeTextured, addr 0x6b8c7ec, size 0xfc, virtual false, abstract: false, final false
+static inline ::UnityEngine::UIElements::UIR::MeshGenerator_RectangleParams MakeTextured(::UnityEngine::Rect  rect, ::UnityEngine::Rect  uv, ::UnityEngine::Texture*  texture, ::UnityEngine::ScaleMode  scaleMode, ::UnityEngine::Color  playModeTintColor) ;
 
-  /// @brief Method MakeVectorTextured, addr 0x6b8b6b4, size 0x8c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::UIElements::UIR::MeshGenerator_RectangleParams MakeVectorTextured(::UnityEngine::Rect rect, ::UnityEngine::Rect uv, ::UnityEngine::UIElements::VectorImage* vectorImage,
-                                                                                                 ::UnityEngine::ScaleMode scaleMode, ::UnityEngine::Color playModeTintColor);
+/// @brief Method MakeVectorTextured, addr 0x6b8d22c, size 0x8c, virtual false, abstract: false, final false
+static inline ::UnityEngine::UIElements::UIR::MeshGenerator_RectangleParams MakeVectorTextured(::UnityEngine::Rect  rect, ::UnityEngine::Rect  uv, ::UnityEngine::UIElements::VectorImage*  vectorImage, ::UnityEngine::ScaleMode  scaleMode, ::UnityEngine::Color  playModeTintColor) ;
 
-  /// @brief Method RectIntersection, addr 0x6b89c58, size 0xd4, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Rect RectIntersection(::UnityEngine::Rect a, ::UnityEngine::Rect b);
+/// @brief Method RectIntersection, addr 0x6b8b7d0, size 0xd4, virtual false, abstract: false, final false
+static inline ::UnityEngine::Rect RectIntersection(::UnityEngine::Rect  a, ::UnityEngine::Rect  b) ;
 
-  /// @brief Method ToNativeParams, addr 0x6b88214, size 0xf4, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::MeshBuilderNative_NativeRectParams ToNativeParams();
+/// @brief Method ToNativeParams, addr 0x6b89d8c, size 0xf4, virtual false, abstract: false, final false
+inline ::UnityEngine::UIElements::MeshBuilderNative_NativeRectParams ToNativeParams() ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MeshGenerator_RectangleParams();
+// Ctor Parameters []
+// @brief default ctor
+constexpr MeshGenerator_RectangleParams() ;
 
-  // Ctor Parameters [CppParam { name: "rect", ty: "::UnityEngine::Rect", modifiers: "", def_value: None }, CppParam { name: "uv", ty: "::UnityEngine::Rect", modifiers: "", def_value: None }, CppParam
-  // { name: "color", ty: "::UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "subRect", ty: "::UnityEngine::Rect", modifiers: "", def_value: None }, CppParam { name:
-  // "backgroundRepeatRect", ty: "::UnityEngine::Rect", modifiers: "", def_value: None }, CppParam { name: "backgroundRepeatInstanceList", ty:
-  // "::UnityEngine::UIElements::UIR::NativePagedList_1<::UnityEngine::UIElements::UIR::MeshGenerator_BackgroundRepeatInstance>*", modifiers: "", def_value: None }, CppParam { name:
-  // "backgroundRepeatInstanceListStartIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "backgroundRepeatInstanceListEndIndex", ty: "int32_t", modifiers: "", def_value: None
-  // }, CppParam { name: "backgroundPositionX", ty: "::UnityEngine::UIElements::BackgroundPosition", modifiers: "", def_value: None }, CppParam { name: "backgroundPositionY", ty:
-  // "::UnityEngine::UIElements::BackgroundPosition", modifiers: "", def_value: None }, CppParam { name: "backgroundRepeat", ty: "::UnityEngine::UIElements::BackgroundRepeat", modifiers: "",
-  // def_value: None }, CppParam { name: "backgroundSize", ty: "::UnityEngine::UIElements::BackgroundSize", modifiers: "", def_value: None }, CppParam { name: "texture", ty:
-  // "::UnityW<::UnityEngine::Texture>", modifiers: "", def_value: None }, CppParam { name: "sprite", ty: "::UnityW<::UnityEngine::Sprite>", modifiers: "", def_value: None }, CppParam { name:
-  // "vectorImage", ty: "::UnityW<::UnityEngine::UIElements::VectorImage>", modifiers: "", def_value: None }, CppParam { name: "scaleMode", ty: "::UnityEngine::ScaleMode", modifiers: "", def_value:
-  // None }, CppParam { name: "playmodeTintColor", ty: "::UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "topLeftRadius", ty: "::UnityEngine::Vector2", modifiers: "",
-  // def_value: None }, CppParam { name: "topRightRadius", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "bottomRightRadius", ty: "::UnityEngine::Vector2",
-  // modifiers: "", def_value: None }, CppParam { name: "bottomLeftRadius", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "contentSize", ty:
-  // "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "textureSize", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "leftSlice", ty:
-  // "int32_t", modifiers: "", def_value: None }, CppParam { name: "topSlice", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "rightSlice", ty: "int32_t", modifiers: "", def_value:
-  // None }, CppParam { name: "bottomSlice", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "sliceScale", ty: "float_t", modifiers: "", def_value: None }, CppParam { name:
-  // "spriteGeomRect", ty: "::UnityEngine::Rect", modifiers: "", def_value: None }, CppParam { name: "rectInset", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None }, CppParam { name:
-  // "colorPage", ty: "::UnityEngine::UIElements::ColorPage", modifiers: "", def_value: None }, CppParam { name: "meshFlags", ty: "::UnityEngine::UIElements::MeshGenerationContext_MeshFlags",
-  // modifiers: "", def_value: None }]
-  constexpr MeshGenerator_RectangleParams(::UnityEngine::Rect rect, ::UnityEngine::Rect uv, ::UnityEngine::Color color, ::UnityEngine::Rect subRect, ::UnityEngine::Rect backgroundRepeatRect,
-                                          ::UnityEngine::UIElements::UIR::NativePagedList_1<::UnityEngine::UIElements::UIR::MeshGenerator_BackgroundRepeatInstance>* backgroundRepeatInstanceList,
-                                          int32_t backgroundRepeatInstanceListStartIndex, int32_t backgroundRepeatInstanceListEndIndex,
-                                          ::UnityEngine::UIElements::BackgroundPosition backgroundPositionX, ::UnityEngine::UIElements::BackgroundPosition backgroundPositionY,
-                                          ::UnityEngine::UIElements::BackgroundRepeat backgroundRepeat, ::UnityEngine::UIElements::BackgroundSize backgroundSize,
-                                          ::UnityW<::UnityEngine::Texture> texture, ::UnityW<::UnityEngine::Sprite> sprite, ::UnityW<::UnityEngine::UIElements::VectorImage> vectorImage,
-                                          ::UnityEngine::ScaleMode scaleMode, ::UnityEngine::Color playmodeTintColor, ::UnityEngine::Vector2 topLeftRadius, ::UnityEngine::Vector2 topRightRadius,
-                                          ::UnityEngine::Vector2 bottomRightRadius, ::UnityEngine::Vector2 bottomLeftRadius, ::UnityEngine::Vector2 contentSize, ::UnityEngine::Vector2 textureSize,
-                                          int32_t leftSlice, int32_t topSlice, int32_t rightSlice, int32_t bottomSlice, float_t sliceScale, ::UnityEngine::Rect spriteGeomRect,
-                                          ::UnityEngine::Vector4 rectInset, ::UnityEngine::UIElements::ColorPage colorPage,
-                                          ::UnityEngine::UIElements::MeshGenerationContext_MeshFlags meshFlags) noexcept;
+// Ctor Parameters [CppParam { name: "rect", ty: "::UnityEngine::Rect", modifiers: "", def_value: None }, CppParam { name: "uv", ty: "::UnityEngine::Rect", modifiers: "", def_value: None }, CppParam { name: "color", ty: "::UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "subRect", ty: "::UnityEngine::Rect", modifiers: "", def_value: None }, CppParam { name: "backgroundRepeatRect", ty: "::UnityEngine::Rect", modifiers: "", def_value: None }, CppParam { name: "backgroundRepeatInstanceList", ty: "::UnityEngine::UIElements::UIR::NativePagedList_1<::UnityEngine::UIElements::UIR::MeshGenerator_BackgroundRepeatInstance>*", modifiers: "", def_value: None }, CppParam { name: "backgroundRepeatInstanceListStartIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "backgroundRepeatInstanceListEndIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "backgroundPositionX", ty: "::UnityEngine::UIElements::BackgroundPosition", modifiers: "", def_value: None }, CppParam { name: "backgroundPositionY", ty: "::UnityEngine::UIElements::BackgroundPosition", modifiers: "", def_value: None }, CppParam { name: "backgroundRepeat", ty: "::UnityEngine::UIElements::BackgroundRepeat", modifiers: "", def_value: None }, CppParam { name: "backgroundSize", ty: "::UnityEngine::UIElements::BackgroundSize", modifiers: "", def_value: None }, CppParam { name: "texture", ty: "::UnityW<::UnityEngine::Texture>", modifiers: "", def_value: None }, CppParam { name: "sprite", ty: "::UnityW<::UnityEngine::Sprite>", modifiers: "", def_value: None }, CppParam { name: "vectorImage", ty: "::UnityW<::UnityEngine::UIElements::VectorImage>", modifiers: "", def_value: None }, CppParam { name: "scaleMode", ty: "::UnityEngine::ScaleMode", modifiers: "", def_value: None }, CppParam { name: "playmodeTintColor", ty: "::UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "topLeftRadius", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "topRightRadius", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "bottomRightRadius", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "bottomLeftRadius", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "contentSize", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "textureSize", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "leftSlice", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "topSlice", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "rightSlice", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "bottomSlice", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "sliceScale", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "spriteGeomRect", ty: "::UnityEngine::Rect", modifiers: "", def_value: None }, CppParam { name: "rectInset", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None }, CppParam { name: "colorPage", ty: "::UnityEngine::UIElements::ColorPage", modifiers: "", def_value: None }, CppParam { name: "meshFlags", ty: "::UnityEngine::UIElements::MeshGenerationContext_MeshFlags", modifiers: "", def_value: None }]
+constexpr MeshGenerator_RectangleParams(::UnityEngine::Rect  rect, ::UnityEngine::Rect  uv, ::UnityEngine::Color  color, ::UnityEngine::Rect  subRect, ::UnityEngine::Rect  backgroundRepeatRect, ::UnityEngine::UIElements::UIR::NativePagedList_1<::UnityEngine::UIElements::UIR::MeshGenerator_BackgroundRepeatInstance>*  backgroundRepeatInstanceList, int32_t  backgroundRepeatInstanceListStartIndex, int32_t  backgroundRepeatInstanceListEndIndex, ::UnityEngine::UIElements::BackgroundPosition  backgroundPositionX, ::UnityEngine::UIElements::BackgroundPosition  backgroundPositionY, ::UnityEngine::UIElements::BackgroundRepeat  backgroundRepeat, ::UnityEngine::UIElements::BackgroundSize  backgroundSize, ::UnityW<::UnityEngine::Texture>  texture, ::UnityW<::UnityEngine::Sprite>  sprite, ::UnityW<::UnityEngine::UIElements::VectorImage>  vectorImage, ::UnityEngine::ScaleMode  scaleMode, ::UnityEngine::Color  playmodeTintColor, ::UnityEngine::Vector2  topLeftRadius, ::UnityEngine::Vector2  topRightRadius, ::UnityEngine::Vector2  bottomRightRadius, ::UnityEngine::Vector2  bottomLeftRadius, ::UnityEngine::Vector2  contentSize, ::UnityEngine::Vector2  textureSize, int32_t  leftSlice, int32_t  topSlice, int32_t  rightSlice, int32_t  bottomSlice, float_t  sliceScale, ::UnityEngine::Rect  spriteGeomRect, ::UnityEngine::Vector4  rectInset, ::UnityEngine::UIElements::ColorPage  colorPage, ::UnityEngine::UIElements::MeshGenerationContext_MeshFlags  meshFlags) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5316 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{5316};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x138 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x138};
 
-  /// @brief Field rect, offset: 0x0, size: 0x10, def value: None
-  ::UnityEngine::Rect rect;
+/// @brief Field rect, offset: 0x0, size: 0x10, def value: None
+ ::UnityEngine::Rect  rect;
 
-  /// @brief Field uv, offset: 0x10, size: 0x10, def value: None
-  ::UnityEngine::Rect uv;
+/// @brief Field uv, offset: 0x10, size: 0x10, def value: None
+ ::UnityEngine::Rect  uv;
 
-  /// @brief Field color, offset: 0x20, size: 0x10, def value: None
-  ::UnityEngine::Color color;
+/// @brief Field color, offset: 0x20, size: 0x10, def value: None
+ ::UnityEngine::Color  color;
 
-  /// @brief Field subRect, offset: 0x30, size: 0x10, def value: None
-  ::UnityEngine::Rect subRect;
+/// @brief Field subRect, offset: 0x30, size: 0x10, def value: None
+ ::UnityEngine::Rect  subRect;
 
-  /// @brief Field backgroundRepeatRect, offset: 0x40, size: 0x10, def value: None
-  ::UnityEngine::Rect backgroundRepeatRect;
+/// @brief Field backgroundRepeatRect, offset: 0x40, size: 0x10, def value: None
+ ::UnityEngine::Rect  backgroundRepeatRect;
 
-  /// @brief Field backgroundRepeatInstanceList, offset: 0x50, size: 0x8, def value: None
-  ::UnityEngine::UIElements::UIR::NativePagedList_1<::UnityEngine::UIElements::UIR::MeshGenerator_BackgroundRepeatInstance>* backgroundRepeatInstanceList;
+/// @brief Field backgroundRepeatInstanceList, offset: 0x50, size: 0x8, def value: None
+ ::UnityEngine::UIElements::UIR::NativePagedList_1<::UnityEngine::UIElements::UIR::MeshGenerator_BackgroundRepeatInstance>*  backgroundRepeatInstanceList;
 
-  /// @brief Field backgroundRepeatInstanceListStartIndex, offset: 0x58, size: 0x4, def value: None
-  int32_t backgroundRepeatInstanceListStartIndex;
+/// @brief Field backgroundRepeatInstanceListStartIndex, offset: 0x58, size: 0x4, def value: None
+ int32_t  backgroundRepeatInstanceListStartIndex;
 
-  /// @brief Field backgroundRepeatInstanceListEndIndex, offset: 0x5c, size: 0x4, def value: None
-  int32_t backgroundRepeatInstanceListEndIndex;
+/// @brief Field backgroundRepeatInstanceListEndIndex, offset: 0x5c, size: 0x4, def value: None
+ int32_t  backgroundRepeatInstanceListEndIndex;
 
-  /// @brief Field backgroundPositionX, offset: 0x60, size: 0xc, def value: None
-  ::UnityEngine::UIElements::BackgroundPosition backgroundPositionX;
+/// @brief Field backgroundPositionX, offset: 0x60, size: 0xc, def value: None
+ ::UnityEngine::UIElements::BackgroundPosition  backgroundPositionX;
 
-  /// @brief Field backgroundPositionY, offset: 0x6c, size: 0xc, def value: None
-  ::UnityEngine::UIElements::BackgroundPosition backgroundPositionY;
+/// @brief Field backgroundPositionY, offset: 0x6c, size: 0xc, def value: None
+ ::UnityEngine::UIElements::BackgroundPosition  backgroundPositionY;
 
-  /// @brief Field backgroundRepeat, offset: 0x78, size: 0x8, def value: None
-  ::UnityEngine::UIElements::BackgroundRepeat backgroundRepeat;
+/// @brief Field backgroundRepeat, offset: 0x78, size: 0x8, def value: None
+ ::UnityEngine::UIElements::BackgroundRepeat  backgroundRepeat;
 
-  /// @brief Field backgroundSize, offset: 0x80, size: 0x14, def value: None
-  ::UnityEngine::UIElements::BackgroundSize backgroundSize;
+/// @brief Field backgroundSize, offset: 0x80, size: 0x14, def value: None
+ ::UnityEngine::UIElements::BackgroundSize  backgroundSize;
 
-  /// @brief Field texture, offset: 0x98, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::Texture> texture;
+/// @brief Field texture, offset: 0x98, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::Texture>  texture;
 
-  /// @brief Field sprite, offset: 0xa0, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::Sprite> sprite;
+/// @brief Field sprite, offset: 0xa0, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::Sprite>  sprite;
 
-  /// @brief Field vectorImage, offset: 0xa8, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::UIElements::VectorImage> vectorImage;
+/// @brief Field vectorImage, offset: 0xa8, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::UIElements::VectorImage>  vectorImage;
 
-  /// @brief Field scaleMode, offset: 0xb0, size: 0x4, def value: None
-  ::UnityEngine::ScaleMode scaleMode;
+/// @brief Field scaleMode, offset: 0xb0, size: 0x4, def value: None
+ ::UnityEngine::ScaleMode  scaleMode;
 
-  /// @brief Field playmodeTintColor, offset: 0xb4, size: 0x10, def value: None
-  ::UnityEngine::Color playmodeTintColor;
+/// @brief Field playmodeTintColor, offset: 0xb4, size: 0x10, def value: None
+ ::UnityEngine::Color  playmodeTintColor;
 
-  /// @brief Field topLeftRadius, offset: 0xc4, size: 0x8, def value: None
-  ::UnityEngine::Vector2 topLeftRadius;
+/// @brief Field topLeftRadius, offset: 0xc4, size: 0x8, def value: None
+ ::UnityEngine::Vector2  topLeftRadius;
 
-  /// @brief Field topRightRadius, offset: 0xcc, size: 0x8, def value: None
-  ::UnityEngine::Vector2 topRightRadius;
+/// @brief Field topRightRadius, offset: 0xcc, size: 0x8, def value: None
+ ::UnityEngine::Vector2  topRightRadius;
 
-  /// @brief Field bottomRightRadius, offset: 0xd4, size: 0x8, def value: None
-  ::UnityEngine::Vector2 bottomRightRadius;
+/// @brief Field bottomRightRadius, offset: 0xd4, size: 0x8, def value: None
+ ::UnityEngine::Vector2  bottomRightRadius;
 
-  /// @brief Field bottomLeftRadius, offset: 0xdc, size: 0x8, def value: None
-  ::UnityEngine::Vector2 bottomLeftRadius;
+/// @brief Field bottomLeftRadius, offset: 0xdc, size: 0x8, def value: None
+ ::UnityEngine::Vector2  bottomLeftRadius;
 
-  /// @brief Field contentSize, offset: 0xe4, size: 0x8, def value: None
-  ::UnityEngine::Vector2 contentSize;
+/// @brief Field contentSize, offset: 0xe4, size: 0x8, def value: None
+ ::UnityEngine::Vector2  contentSize;
 
-  /// @brief Field textureSize, offset: 0xec, size: 0x8, def value: None
-  ::UnityEngine::Vector2 textureSize;
+/// @brief Field textureSize, offset: 0xec, size: 0x8, def value: None
+ ::UnityEngine::Vector2  textureSize;
 
-  /// @brief Field leftSlice, offset: 0xf4, size: 0x4, def value: None
-  int32_t leftSlice;
+/// @brief Field leftSlice, offset: 0xf4, size: 0x4, def value: None
+ int32_t  leftSlice;
 
-  /// @brief Field topSlice, offset: 0xf8, size: 0x4, def value: None
-  int32_t topSlice;
+/// @brief Field topSlice, offset: 0xf8, size: 0x4, def value: None
+ int32_t  topSlice;
 
-  /// @brief Field rightSlice, offset: 0xfc, size: 0x4, def value: None
-  int32_t rightSlice;
+/// @brief Field rightSlice, offset: 0xfc, size: 0x4, def value: None
+ int32_t  rightSlice;
 
-  /// @brief Field bottomSlice, offset: 0x100, size: 0x4, def value: None
-  int32_t bottomSlice;
+/// @brief Field bottomSlice, offset: 0x100, size: 0x4, def value: None
+ int32_t  bottomSlice;
 
-  /// @brief Field sliceScale, offset: 0x104, size: 0x4, def value: None
-  float_t sliceScale;
+/// @brief Field sliceScale, offset: 0x104, size: 0x4, def value: None
+ float_t  sliceScale;
 
-  /// @brief Field spriteGeomRect, offset: 0x108, size: 0x10, def value: None
-  ::UnityEngine::Rect spriteGeomRect;
+/// @brief Field spriteGeomRect, offset: 0x108, size: 0x10, def value: None
+ ::UnityEngine::Rect  spriteGeomRect;
 
-  /// @brief Field rectInset, offset: 0x118, size: 0x10, def value: None
-  ::UnityEngine::Vector4 rectInset;
+/// @brief Field rectInset, offset: 0x118, size: 0x10, def value: None
+ ::UnityEngine::Vector4  rectInset;
 
-  /// @brief Field colorPage, offset: 0x128, size: 0x8, def value: None
-  ::UnityEngine::UIElements::ColorPage colorPage;
+/// @brief Field colorPage, offset: 0x128, size: 0x8, def value: None
+ ::UnityEngine::UIElements::ColorPage  colorPage;
 
-  /// @brief Field meshFlags, offset: 0x130, size: 0x4, def value: None
-  ::UnityEngine::UIElements::MeshGenerationContext_MeshFlags meshFlags;
+/// @brief Field meshFlags, offset: 0x130, size: 0x4, def value: None
+ ::UnityEngine::UIElements::MeshGenerationContext_MeshFlags  meshFlags;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::UIElements::UIR::MeshGenerator_RectangleParams, rect) == 0x0, "Offset mismatch!");
@@ -555,43 +507,40 @@ static_assert(offsetof(::UnityEngine::UIElements::UIR::MeshGenerator_RectanglePa
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::MeshGenerator_RectangleParams, 0x138>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements::UIR
+} // namespace end def UnityEngine::UIElements::UIR
 // Dependencies UnityEngine.UIElements.MeshBuilderNative::NativeRectParams, UnityEngine.UIElements.UIR.MeshGenerator::BorderParams, UnityEngine.UIElements.UnsafeMeshGenerationNode
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
 // CS Name: UnityEngine.UIElements.UIR.MeshGenerator/TessellationJobParameters
 struct CORDL_TYPE MeshGenerator_TessellationJobParameters {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MeshGenerator_TessellationJobParameters();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr MeshGenerator_TessellationJobParameters() ;
 
-  // Ctor Parameters [CppParam { name: "isBorderJob", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "rectParams", ty: "::UnityEngine::UIElements::MeshBuilderNative_NativeRectParams",
-  // modifiers: "", def_value: None }, CppParam { name: "borderParams", ty: "::UnityEngine::UIElements::UIR::MeshGenerator_BorderParams", modifiers: "", def_value: None }, CppParam { name: "node", ty:
-  // "::UnityEngine::UIElements::UnsafeMeshGenerationNode", modifiers: "", def_value: None }]
-  constexpr MeshGenerator_TessellationJobParameters(bool isBorderJob, ::UnityEngine::UIElements::MeshBuilderNative_NativeRectParams rectParams,
-                                                    ::UnityEngine::UIElements::UIR::MeshGenerator_BorderParams borderParams, ::UnityEngine::UIElements::UnsafeMeshGenerationNode node) noexcept;
+// Ctor Parameters [CppParam { name: "isBorderJob", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "rectParams", ty: "::UnityEngine::UIElements::MeshBuilderNative_NativeRectParams", modifiers: "", def_value: None }, CppParam { name: "borderParams", ty: "::UnityEngine::UIElements::UIR::MeshGenerator_BorderParams", modifiers: "", def_value: None }, CppParam { name: "node", ty: "::UnityEngine::UIElements::UnsafeMeshGenerationNode", modifiers: "", def_value: None }]
+constexpr MeshGenerator_TessellationJobParameters(bool  isBorderJob, ::UnityEngine::UIElements::MeshBuilderNative_NativeRectParams  rectParams, ::UnityEngine::UIElements::UIR::MeshGenerator_BorderParams  borderParams, ::UnityEngine::UIElements::UnsafeMeshGenerationNode  node) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5317 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{5317};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1d8 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1d8};
 
-  /// @brief Field isBorderJob, offset: 0x0, size: 0x1, def value: None
-  bool isBorderJob;
+/// @brief Field isBorderJob, offset: 0x0, size: 0x1, def value: None
+ bool  isBorderJob;
 
-  /// @brief Field rectParams, offset: 0x8, size: 0x118, def value: None
-  ::UnityEngine::UIElements::MeshBuilderNative_NativeRectParams rectParams;
+/// @brief Field rectParams, offset: 0x8, size: 0x118, def value: None
+ ::UnityEngine::UIElements::MeshBuilderNative_NativeRectParams  rectParams;
 
-  /// @brief Field borderParams, offset: 0x120, size: 0xb0, def value: None
-  ::UnityEngine::UIElements::UIR::MeshGenerator_BorderParams borderParams;
+/// @brief Field borderParams, offset: 0x120, size: 0xb0, def value: None
+ ::UnityEngine::UIElements::UIR::MeshGenerator_BorderParams  borderParams;
 
-  /// @brief Field node, offset: 0x1d0, size: 0x8, def value: None
-  ::UnityEngine::UIElements::UnsafeMeshGenerationNode node;
+/// @brief Field node, offset: 0x1d0, size: 0x8, def value: None
+ ::UnityEngine::UIElements::UnsafeMeshGenerationNode  node;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::UIElements::UIR::MeshGenerator_TessellationJobParameters, isBorderJob) == 0x0, "Offset mismatch!");
@@ -604,61 +553,59 @@ static_assert(offsetof(::UnityEngine::UIElements::UIR::MeshGenerator_Tessellatio
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::MeshGenerator_TessellationJobParameters, 0x1d8>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements::UIR
+} // namespace end def UnityEngine::UIElements::UIR
 // Dependencies Unity.Collections.NativeSlice`1<T>, UnityEngine.UIElements.TempMeshAllocator, UnityEngine.UIElements.UIR.MeshGenerator::TessellationJobParameters
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
 // CS Name: UnityEngine.UIElements.UIR.MeshGenerator/TessellationJob
 struct CORDL_TYPE MeshGenerator_TessellationJob {
 public:
-  // Declarations
-  /// @brief Convert operator to "::Unity::Jobs::IJobParallelFor"
-  constexpr operator ::Unity::Jobs::IJobParallelFor*();
+// Declarations
+/// @brief Convert operator to "::Unity::Jobs::IJobParallelFor"
+constexpr operator  ::Unity::Jobs::IJobParallelFor*() ;
 
-  /// @brief Method DrawBorder, addr 0x6b8b924, size 0x270, virtual false, abstract: false, final false
-  inline void DrawBorder(::UnityEngine::UIElements::UnsafeMeshGenerationNode node, ::ByRef<::UnityEngine::UIElements::UIR::MeshGenerator_BorderParams> borderParams);
+/// @brief Method DrawBorder, addr 0x6b8d49c, size 0x270, virtual false, abstract: false, final false
+inline void DrawBorder(::UnityEngine::UIElements::UnsafeMeshGenerationNode  node, ::ByRef<::UnityEngine::UIElements::UIR::MeshGenerator_BorderParams>  borderParams) ;
 
-  /// @brief Method DrawRectangle, addr 0x6b8c2e0, size 0x920, virtual false, abstract: false, final false
-  inline void DrawRectangle(::UnityEngine::UIElements::UnsafeMeshGenerationNode node, ::ByRef<::UnityEngine::UIElements::MeshBuilderNative_NativeRectParams> rectParams, ::UnityEngine::Texture* tex);
+/// @brief Method DrawRectangle, addr 0x6b8de58, size 0x920, virtual false, abstract: false, final false
+inline void DrawRectangle(::UnityEngine::UIElements::UnsafeMeshGenerationNode  node, ::ByRef<::UnityEngine::UIElements::MeshBuilderNative_NativeRectParams>  rectParams, ::UnityEngine::Texture*  tex) ;
 
-  /// @brief Method DrawSprite, addr 0x6b8bf94, size 0x34c, virtual false, abstract: false, final false
-  inline void DrawSprite(::UnityEngine::UIElements::UnsafeMeshGenerationNode node, ::ByRef<::UnityEngine::UIElements::MeshBuilderNative_NativeRectParams> rectParams, ::UnityEngine::Sprite* sprite);
+/// @brief Method DrawSprite, addr 0x6b8db0c, size 0x34c, virtual false, abstract: false, final false
+inline void DrawSprite(::UnityEngine::UIElements::UnsafeMeshGenerationNode  node, ::ByRef<::UnityEngine::UIElements::MeshBuilderNative_NativeRectParams>  rectParams, ::UnityEngine::Sprite*  sprite) ;
 
-  /// @brief Method DrawVectorImage, addr 0x6b8bb94, size 0x400, virtual false, abstract: false, final false
-  inline void DrawVectorImage(::UnityEngine::UIElements::UnsafeMeshGenerationNode node, ::ByRef<::UnityEngine::UIElements::MeshBuilderNative_NativeRectParams> rectParams,
-                              ::UnityEngine::UIElements::VectorImage* vi);
+/// @brief Method DrawVectorImage, addr 0x6b8d70c, size 0x400, virtual false, abstract: false, final false
+inline void DrawVectorImage(::UnityEngine::UIElements::UnsafeMeshGenerationNode  node, ::ByRef<::UnityEngine::UIElements::MeshBuilderNative_NativeRectParams>  rectParams, ::UnityEngine::UIElements::VectorImage*  vi) ;
 
-  /// @brief Method Execute, addr 0x6b8b7b4, size 0x170, virtual true, abstract: false, final true
-  inline void Execute(int32_t i);
+/// @brief Method Execute, addr 0x6b8d32c, size 0x170, virtual true, abstract: false, final true
+inline void Execute(int32_t  i) ;
 
-  /// @brief Method ExtractHandle, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline T ExtractHandle(::System::IntPtr handlePtr);
+/// @brief Method ExtractHandle, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+template<typename T>
+inline T ExtractHandle(::System::IntPtr  handlePtr) ;
 
-  /// @brief Convert to "::Unity::Jobs::IJobParallelFor"
-  constexpr ::Unity::Jobs::IJobParallelFor* i___Unity__Jobs__IJobParallelFor();
+/// @brief Convert to "::Unity::Jobs::IJobParallelFor"
+constexpr ::Unity::Jobs::IJobParallelFor* i___Unity__Jobs__IJobParallelFor() ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MeshGenerator_TessellationJob();
+// Ctor Parameters []
+// @brief default ctor
+constexpr MeshGenerator_TessellationJob() ;
 
-  // Ctor Parameters [CppParam { name: "allocator", ty: "::UnityEngine::UIElements::TempMeshAllocator", modifiers: "", def_value: None }, CppParam { name: "jobParameters", ty:
-  // "::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::UIR::MeshGenerator_TessellationJobParameters>", modifiers: "", def_value: None }]
-  constexpr MeshGenerator_TessellationJob(::UnityEngine::UIElements::TempMeshAllocator allocator,
-                                          ::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::UIR::MeshGenerator_TessellationJobParameters> jobParameters) noexcept;
+// Ctor Parameters [CppParam { name: "allocator", ty: "::UnityEngine::UIElements::TempMeshAllocator", modifiers: "", def_value: None }, CppParam { name: "jobParameters", ty: "::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::UIR::MeshGenerator_TessellationJobParameters>", modifiers: "", def_value: None }]
+constexpr MeshGenerator_TessellationJob(::UnityEngine::UIElements::TempMeshAllocator  allocator, ::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::UIR::MeshGenerator_TessellationJobParameters>  jobParameters) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5318 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{5318};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x18};
 
-  /// @brief Field allocator, offset: 0x0, size: 0x8, def value: None
-  ::UnityEngine::UIElements::TempMeshAllocator allocator;
+/// @brief Field allocator, offset: 0x0, size: 0x8, def value: None
+ ::UnityEngine::UIElements::TempMeshAllocator  allocator;
 
-  /// @brief Field jobParameters, offset: 0x8, size: 0x10, def value: None
-  ::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::UIR::MeshGenerator_TessellationJobParameters> jobParameters;
+/// @brief Field jobParameters, offset: 0x8, size: 0x10, def value: None
+ ::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::UIR::MeshGenerator_TessellationJobParameters>  jobParameters;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::UIElements::UIR::MeshGenerator_TessellationJob, allocator) == 0x0, "Offset mismatch!");
@@ -667,7 +614,7 @@ static_assert(offsetof(::UnityEngine::UIElements::UIR::MeshGenerator_Tessellatio
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::MeshGenerator_TessellationJob, 0x18>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements::UIR
+} // namespace end def UnityEngine::UIElements::UIR
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UIR::MeshGenerator_BackgroundRepeatInstance, "UnityEngine.UIElements.UIR", "MeshGenerator/BackgroundRepeatInstance");
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UIR::MeshGenerator_BorderParams, "UnityEngine.UIElements.UIR", "MeshGenerator/BorderParams");
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UIR::MeshGenerator_RectangleParams, "UnityEngine.UIElements.UIR", "MeshGenerator/RectangleParams");

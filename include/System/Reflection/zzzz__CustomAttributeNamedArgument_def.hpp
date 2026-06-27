@@ -32,83 +32,80 @@ namespace System::Reflection {
 // CS Name: System.Reflection.CustomAttributeNamedArgument
 struct CORDL_TYPE CustomAttributeNamedArgument {
 public:
-  // Declarations
-  __declspec(property(get = get_IsField)) bool IsField;
+// Declarations
+ __declspec(property(get=get_IsField)) bool  IsField;
 
-  __declspec(property(get = get_MemberInfo)) ::System::Reflection::MemberInfo* MemberInfo;
+ __declspec(property(get=get_MemberInfo)) ::System::Reflection::MemberInfo*  MemberInfo;
 
-  __declspec(property(get = get_MemberName)) ::StringW MemberName;
+ __declspec(property(get=get_MemberName)) ::StringW  MemberName;
 
-  __declspec(property(get = get_TypedValue)) ::System::Reflection::CustomAttributeTypedArgument TypedValue;
+ __declspec(property(get=get_TypedValue)) ::System::Reflection::CustomAttributeTypedArgument  TypedValue;
 
-  /// @brief Method Equals, addr 0x5a46ebc, size 0x7c, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* obj);
+/// @brief Method Equals, addr 0x5a48a34, size 0x7c, virtual true, abstract: false, final false
+inline bool Equals(::System::Object*  obj) ;
 
-  /// @brief Method GetHashCode, addr 0x5a46f38, size 0x6c, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
+/// @brief Method GetHashCode, addr 0x5a48ab0, size 0x6c, virtual true, abstract: false, final false
+inline int32_t GetHashCode() ;
 
-  /// @brief Method ToString, addr 0x5a470a8, size 0x330, virtual true, abstract: false, final false
-  inline ::StringW ToString();
+/// @brief Method ToString, addr 0x5a48c20, size 0x330, virtual true, abstract: false, final false
+inline ::StringW ToString() ;
 
-  /// @brief Method .ctor, addr 0x5a46a40, size 0x18, virtual false, abstract: false, final false
-  inline void _ctor(::System::Type* attributeType, ::StringW memberName, bool isField, ::System::Reflection::CustomAttributeTypedArgument typedValue);
+/// @brief Method .ctor, addr 0x5a485b8, size 0x18, virtual false, abstract: false, final false
+inline void _ctor(::System::Type*  attributeType, ::StringW  memberName, bool  isField, ::System::Reflection::CustomAttributeTypedArgument  typedValue) ;
 
-  /// @brief Method .ctor, addr 0x5a46c94, size 0x12c, virtual false, abstract: false, final false
-  inline void _ctor(::System::Reflection::MemberInfo* memberInfo, ::System::Reflection::CustomAttributeTypedArgument typedArgument);
+/// @brief Method .ctor, addr 0x5a4880c, size 0x12c, virtual false, abstract: false, final false
+inline void _ctor(::System::Reflection::MemberInfo*  memberInfo, ::System::Reflection::CustomAttributeTypedArgument  typedArgument) ;
 
-  /// @brief Method .ctor, addr 0x5a46a58, size 0x23c, virtual false, abstract: false, final false
-  inline void _ctor(::System::Reflection::MemberInfo* memberInfo, ::System::Object* value);
+/// @brief Method .ctor, addr 0x5a485d0, size 0x23c, virtual false, abstract: false, final false
+inline void _ctor(::System::Reflection::MemberInfo*  memberInfo, ::System::Object*  value) ;
 
-  /// @brief Method get_IsField, addr 0x5a46dcc, size 0x8, virtual false, abstract: false, final false
-  inline bool get_IsField();
+/// @brief Method get_IsField, addr 0x5a48944, size 0x8, virtual false, abstract: false, final false
+inline bool get_IsField() ;
 
-  /// @brief Method get_MemberInfo, addr 0x5a46ddc, size 0xe0, virtual false, abstract: false, final false
-  inline ::System::Reflection::MemberInfo* get_MemberInfo();
+/// @brief Method get_MemberInfo, addr 0x5a48954, size 0xe0, virtual false, abstract: false, final false
+inline ::System::Reflection::MemberInfo* get_MemberInfo() ;
 
-  /// @brief Method get_MemberName, addr 0x5a46dd4, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_MemberName();
+/// @brief Method get_MemberName, addr 0x5a4894c, size 0x8, virtual false, abstract: false, final false
+inline ::StringW get_MemberName() ;
 
-  /// @brief Method get_TypedValue, addr 0x5a46dc0, size 0xc, virtual false, abstract: false, final false
-  inline ::System::Reflection::CustomAttributeTypedArgument get_TypedValue();
+/// @brief Method get_TypedValue, addr 0x5a48938, size 0xc, virtual false, abstract: false, final false
+inline ::System::Reflection::CustomAttributeTypedArgument get_TypedValue() ;
 
-  /// @brief Method op_Equality, addr 0x5a46fa4, size 0x7c, virtual false, abstract: false, final false
-  static inline bool op_Equality(::System::Reflection::CustomAttributeNamedArgument left, ::System::Reflection::CustomAttributeNamedArgument right);
+/// @brief Method op_Equality, addr 0x5a48b1c, size 0x7c, virtual false, abstract: false, final false
+static inline bool op_Equality(::System::Reflection::CustomAttributeNamedArgument  left, ::System::Reflection::CustomAttributeNamedArgument  right) ;
 
-  /// @brief Method op_Inequality, addr 0x5a47020, size 0x88, virtual false, abstract: false, final false
-  static inline bool op_Inequality(::System::Reflection::CustomAttributeNamedArgument left, ::System::Reflection::CustomAttributeNamedArgument right);
+/// @brief Method op_Inequality, addr 0x5a48b98, size 0x88, virtual false, abstract: false, final false
+static inline bool op_Inequality(::System::Reflection::CustomAttributeNamedArgument  left, ::System::Reflection::CustomAttributeNamedArgument  right) ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CustomAttributeNamedArgument();
+// Ctor Parameters []
+// @brief default ctor
+constexpr CustomAttributeNamedArgument() ;
 
-  // Ctor Parameters [CppParam { name: "_TypedValue_k__BackingField", ty: "::System::Reflection::CustomAttributeTypedArgument", modifiers: "", def_value: None }, CppParam { name:
-  // "_IsField_k__BackingField", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "_MemberName_k__BackingField", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name:
-  // "_attributeType", ty: "::System::Type*", modifiers: "", def_value: None }, CppParam { name: "_lazyMemberInfo", ty: "::System::Reflection::MemberInfo*", modifiers: "", def_value: None }]
-  constexpr CustomAttributeNamedArgument(::System::Reflection::CustomAttributeTypedArgument _TypedValue_k__BackingField, bool _IsField_k__BackingField, ::StringW _MemberName_k__BackingField,
-                                         ::System::Type* _attributeType, ::System::Reflection::MemberInfo* _lazyMemberInfo) noexcept;
+// Ctor Parameters [CppParam { name: "_TypedValue_k__BackingField", ty: "::System::Reflection::CustomAttributeTypedArgument", modifiers: "", def_value: None }, CppParam { name: "_IsField_k__BackingField", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "_MemberName_k__BackingField", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "_attributeType", ty: "::System::Type*", modifiers: "", def_value: None }, CppParam { name: "_lazyMemberInfo", ty: "::System::Reflection::MemberInfo*", modifiers: "", def_value: None }]
+constexpr CustomAttributeNamedArgument(::System::Reflection::CustomAttributeTypedArgument  _TypedValue_k__BackingField, bool  _IsField_k__BackingField, ::StringW  _MemberName_k__BackingField, ::System::Type*  _attributeType, ::System::Reflection::MemberInfo*  _lazyMemberInfo) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3529 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{3529};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x30};
 
-  /// @brief Field <TypedValue>k__BackingField, offset: 0x0, size: 0x10, def value: None
-  ::System::Reflection::CustomAttributeTypedArgument _TypedValue_k__BackingField;
+/// @brief Field <TypedValue>k__BackingField, offset: 0x0, size: 0x10, def value: None
+ ::System::Reflection::CustomAttributeTypedArgument  _TypedValue_k__BackingField;
 
-  /// @brief Field <IsField>k__BackingField, offset: 0x10, size: 0x1, def value: None
-  bool _IsField_k__BackingField;
+/// @brief Field <IsField>k__BackingField, offset: 0x10, size: 0x1, def value: None
+ bool  _IsField_k__BackingField;
 
-  /// @brief Field <MemberName>k__BackingField, offset: 0x18, size: 0x8, def value: None
-  ::StringW _MemberName_k__BackingField;
+/// @brief Field <MemberName>k__BackingField, offset: 0x18, size: 0x8, def value: None
+ ::StringW  _MemberName_k__BackingField;
 
-  /// @brief Field _attributeType, offset: 0x20, size: 0x8, def value: None
-  ::System::Type* _attributeType;
+/// @brief Field _attributeType, offset: 0x20, size: 0x8, def value: None
+ ::System::Type*  _attributeType;
 
-  /// @brief Field _lazyMemberInfo, offset: 0x28, size: 0x8, def value: None
-  ::System::Reflection::MemberInfo* _lazyMemberInfo;
+/// @brief Field _lazyMemberInfo, offset: 0x28, size: 0x8, def value: None
+ ::System::Reflection::MemberInfo*  _lazyMemberInfo;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Reflection::CustomAttributeNamedArgument, _TypedValue_k__BackingField) == 0x0, "Offset mismatch!");
@@ -123,5 +120,5 @@ static_assert(offsetof(::System::Reflection::CustomAttributeNamedArgument, _lazy
 
 static_assert(::cordl_internals::size_check_v<::System::Reflection::CustomAttributeNamedArgument, 0x30>, "Size mismatch!");
 
-} // namespace System::Reflection
+} // namespace end def System::Reflection
 DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::CustomAttributeNamedArgument, "System.Reflection", "CustomAttributeNamedArgument");

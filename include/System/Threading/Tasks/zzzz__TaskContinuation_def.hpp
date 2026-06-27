@@ -20,40 +20,40 @@ namespace System::Threading::Tasks {
 // CS Name: System.Threading.Tasks.TaskContinuation
 class CORDL_TYPE TaskContinuation : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method InlineIfPossibleOrElseQueue, addr 0x5b88148, size 0x148, virtual false, abstract: false, final false
-  static inline void InlineIfPossibleOrElseQueue(::System::Threading::Tasks::Task* task, bool needsProtection);
+// Declarations
+/// @brief Method InlineIfPossibleOrElseQueue, addr 0x5b89cc0, size 0x148, virtual false, abstract: false, final false
+static inline void InlineIfPossibleOrElseQueue(::System::Threading::Tasks::Task*  task, bool  needsProtection) ;
 
-  static inline ::System::Threading::Tasks::TaskContinuation* New_ctor();
+static inline ::System::Threading::Tasks::TaskContinuation* New_ctor() ;
 
-  /// @brief Method Run, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void Run(::System::Threading::Tasks::Task* completedTask, bool bCanInlineContinuationTask);
+/// @brief Method Run, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline void Run(::System::Threading::Tasks::Task*  completedTask, bool  bCanInlineContinuationTask) ;
 
-  /// @brief Method .ctor, addr 0x5b88290, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5b89e08, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TaskContinuation();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr TaskContinuation() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TaskContinuation", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  TaskContinuation(TaskContinuation&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TaskContinuation", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  TaskContinuation(TaskContinuation const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "TaskContinuation", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+TaskContinuation(TaskContinuation && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2817 };
+// Ctor Parameters [CppParam { name: "", ty: "TaskContinuation", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+TaskContinuation(TaskContinuation const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{2817};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Threading::Tasks::TaskContinuation, 0x10>, "Size mismatch!");
 
-} // namespace System::Threading::Tasks
+} // namespace end def System::Threading::Tasks
 NEED_NO_BOX(::System::Threading::Tasks::TaskContinuation);
 DEFINE_IL2CPP_ARG_TYPE(::System::Threading::Tasks::TaskContinuation*, "System.Threading.Tasks", "TaskContinuation");

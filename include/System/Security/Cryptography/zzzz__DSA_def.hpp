@@ -22,52 +22,52 @@ namespace System::Security::Cryptography {
 // CS Name: System.Security.Cryptography.DSA
 class CORDL_TYPE DSA : public ::System::Security::Cryptography::AsymmetricAlgorithm {
 public:
-  // Declarations
-  /// @brief Method Create, addr 0x59bc718, size 0x64, virtual false, abstract: false, final false
-  static inline ::System::Security::Cryptography::DSA* Create();
+// Declarations
+/// @brief Method Create, addr 0x59be290, size 0x64, virtual false, abstract: false, final false
+static inline ::System::Security::Cryptography::DSA* Create() ;
 
-  /// @brief Method ExportParameters, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline ::System::Security::Cryptography::DSAParameters ExportParameters(bool includePrivateParameters);
+/// @brief Method ExportParameters, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline ::System::Security::Cryptography::DSAParameters ExportParameters(bool  includePrivateParameters) ;
 
-  /// @brief Method FromXmlString, addr 0x59bc77c, size 0x6ac, virtual true, abstract: false, final false
-  inline void FromXmlString(::StringW xmlString);
+/// @brief Method FromXmlString, addr 0x59be2f4, size 0x6ac, virtual true, abstract: false, final false
+inline void FromXmlString(::StringW  xmlString) ;
 
-  /// @brief Method ImportParameters, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void ImportParameters(::System::Security::Cryptography::DSAParameters parameters);
+/// @brief Method ImportParameters, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline void ImportParameters(::System::Security::Cryptography::DSAParameters  parameters) ;
 
-  static inline ::System::Security::Cryptography::DSA* New_ctor();
+static inline ::System::Security::Cryptography::DSA* New_ctor() ;
 
-  /// @brief Method ToXmlString, addr 0x59bce28, size 0x49c, virtual true, abstract: false, final false
-  inline ::StringW ToXmlString(bool includePrivateParameters);
+/// @brief Method ToXmlString, addr 0x59be9a0, size 0x49c, virtual true, abstract: false, final false
+inline ::StringW ToXmlString(bool  includePrivateParameters) ;
 
-  /// @brief Method VerifySignature, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline bool VerifySignature(::ArrayW<uint8_t, ::Array<uint8_t>*> rgbHash, ::ArrayW<uint8_t, ::Array<uint8_t>*> rgbSignature);
+/// @brief Method VerifySignature, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline bool VerifySignature(::ArrayW<uint8_t,::Array<uint8_t>*>  rgbHash, ::ArrayW<uint8_t,::Array<uint8_t>*>  rgbSignature) ;
 
-  /// @brief Method .ctor, addr 0x59bc714, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x59be28c, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DSA();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr DSA() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DSA", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  DSA(DSA&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DSA", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  DSA(DSA const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "DSA", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+DSA(DSA && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2947 };
+// Ctor Parameters [CppParam { name: "", ty: "DSA", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+DSA(DSA const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{2947};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Security::Cryptography::DSA, 0x20>, "Size mismatch!");
 
-} // namespace System::Security::Cryptography
+} // namespace end def System::Security::Cryptography
 NEED_NO_BOX(::System::Security::Cryptography::DSA);
 DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::DSA*, "System.Security.Cryptography", "DSA");

@@ -18,54 +18,54 @@ namespace GlobalNamespace {
 // CS Name: BeatSaber.FeatureFlags.FeatureConfiguration/Remote
 class CORDL_TYPE FeatureConfiguration_Remote : public ::BeatSaber::FeatureFlags::FeatureConfiguration {
 public:
-  // Declarations
-  /// @brief Field defaultValue, offset 0x18, size 0x1
-  __declspec(property(get = __cordl_internal_get_defaultValue, put = __cordl_internal_set_defaultValue)) bool defaultValue;
+// Declarations
+/// @brief Field defaultValue, offset 0x18, size 0x1 
+ __declspec(property(get=__cordl_internal_get_defaultValue, put=__cordl_internal_set_defaultValue)) bool  defaultValue;
 
-  /// @brief Field feature, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_feature, put = __cordl_internal_set_feature)) ::StringW feature;
+/// @brief Field feature, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_feature, put=__cordl_internal_set_feature)) ::StringW  feature;
 
-  static inline ::GlobalNamespace::FeatureConfiguration_Remote* New_ctor(::StringW feature, bool defaultValue);
+static inline ::GlobalNamespace::FeatureConfiguration_Remote* New_ctor(::StringW  feature, bool  defaultValue) ;
 
-  constexpr bool const& __cordl_internal_get_defaultValue() const;
+constexpr bool const& __cordl_internal_get_defaultValue() const;
 
-  constexpr bool& __cordl_internal_get_defaultValue();
+constexpr bool& __cordl_internal_get_defaultValue() ;
 
-  constexpr ::StringW const& __cordl_internal_get_feature() const;
+constexpr ::StringW const& __cordl_internal_get_feature() const;
 
-  constexpr ::StringW& __cordl_internal_get_feature();
+constexpr ::StringW& __cordl_internal_get_feature() ;
 
-  constexpr void __cordl_internal_set_defaultValue(bool value);
+constexpr void __cordl_internal_set_defaultValue(bool  value) ;
 
-  constexpr void __cordl_internal_set_feature(::StringW value);
+constexpr void __cordl_internal_set_feature(::StringW  value) ;
 
-  /// @brief Method .ctor, addr 0x31f4ed8, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor(::StringW feature, bool defaultValue);
+/// @brief Method .ctor, addr 0x31f5bf8, size 0xc, virtual false, abstract: false, final false
+inline void _ctor(::StringW  feature, bool  defaultValue) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr FeatureConfiguration_Remote();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr FeatureConfiguration_Remote() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FeatureConfiguration_Remote", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  FeatureConfiguration_Remote(FeatureConfiguration_Remote&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FeatureConfiguration_Remote", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  FeatureConfiguration_Remote(FeatureConfiguration_Remote const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "FeatureConfiguration_Remote", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+FeatureConfiguration_Remote(FeatureConfiguration_Remote && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22636 };
+// Ctor Parameters [CppParam { name: "", ty: "FeatureConfiguration_Remote", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+FeatureConfiguration_Remote(FeatureConfiguration_Remote const& ) = delete;
 
-  /// @brief Field feature, offset: 0x10, size: 0x8, def value: None
-  ::StringW ___feature;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22640};
 
-  /// @brief Field defaultValue, offset: 0x18, size: 0x1, def value: None
-  bool ___defaultValue;
+/// @brief Field feature, offset: 0x10, size: 0x8, def value: None
+ ::StringW  ___feature;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field defaultValue, offset: 0x18, size: 0x1, def value: None
+ bool  ___defaultValue;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::FeatureConfiguration_Remote, ___feature) == 0x10, "Offset mismatch!");
@@ -74,6 +74,6 @@ static_assert(offsetof(::GlobalNamespace::FeatureConfiguration_Remote, ___defaul
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FeatureConfiguration_Remote, 0x20>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::FeatureConfiguration_Remote);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::FeatureConfiguration_Remote*, "BeatSaber.FeatureFlags", "FeatureConfiguration/Remote");

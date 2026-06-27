@@ -22,50 +22,50 @@ namespace Org::BouncyCastle::Utilities::Date {
 // CS Name: Org.BouncyCastle.Utilities.Date.DateTimeUtilities
 class CORDL_TYPE DateTimeUtilities : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field UnixEpoch, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_UnixEpoch, put = setStaticF_UnixEpoch)) ::System::DateTime UnixEpoch;
+// Declarations
+/// @brief Field UnixEpoch, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_UnixEpoch, put=setStaticF_UnixEpoch)) ::System::DateTime  UnixEpoch;
 
-  /// @brief Method CurrentUnixMs, addr 0x356c264, size 0x8c, virtual false, abstract: false, final false
-  static inline int64_t CurrentUnixMs();
+/// @brief Method CurrentUnixMs, addr 0x356d000, size 0x8c, virtual false, abstract: false, final false
+static inline int64_t CurrentUnixMs() ;
 
-  /// @brief Method DateTimeToUnixMs, addr 0x356c018, size 0x18c, virtual false, abstract: false, final false
-  static inline int64_t DateTimeToUnixMs(::System::DateTime dateTime);
+/// @brief Method DateTimeToUnixMs, addr 0x356cdb4, size 0x18c, virtual false, abstract: false, final false
+static inline int64_t DateTimeToUnixMs(::System::DateTime  dateTime) ;
 
-  static inline ::Org::BouncyCastle::Utilities::Date::DateTimeUtilities* New_ctor();
+static inline ::Org::BouncyCastle::Utilities::Date::DateTimeUtilities* New_ctor() ;
 
-  /// @brief Method UnixMsToDateTime, addr 0x356c1a4, size 0xc0, virtual false, abstract: false, final false
-  static inline ::System::DateTime UnixMsToDateTime(int64_t unixMs);
+/// @brief Method UnixMsToDateTime, addr 0x356cf40, size 0xc0, virtual false, abstract: false, final false
+static inline ::System::DateTime UnixMsToDateTime(int64_t  unixMs) ;
 
-  /// @brief Method .ctor, addr 0x356c014, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x356cdb0, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  static inline ::System::DateTime getStaticF_UnixEpoch();
+static inline ::System::DateTime getStaticF_UnixEpoch() ;
 
-  static inline void setStaticF_UnixEpoch(::System::DateTime value);
+static inline void setStaticF_UnixEpoch(::System::DateTime  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DateTimeUtilities();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr DateTimeUtilities() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DateTimeUtilities", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  DateTimeUtilities(DateTimeUtilities&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DateTimeUtilities", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  DateTimeUtilities(DateTimeUtilities const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "DateTimeUtilities", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+DateTimeUtilities(DateTimeUtilities && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1792 };
+// Ctor Parameters [CppParam { name: "", ty: "DateTimeUtilities", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+DateTimeUtilities(DateTimeUtilities const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{1792};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Utilities::Date::DateTimeUtilities, 0x10>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Utilities::Date
+} // namespace end def Org::BouncyCastle::Utilities::Date
 NEED_NO_BOX(::Org::BouncyCastle::Utilities::Date::DateTimeUtilities);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Utilities::Date::DateTimeUtilities*, "Org.BouncyCastle.Utilities.Date", "DateTimeUtilities");

@@ -33,50 +33,50 @@ namespace System::Runtime::Serialization {
 // CS Name: System.Runtime.Serialization.IntDataContract
 class CORDL_TYPE IntDataContract : public ::System::Runtime::Serialization::PrimitiveDataContract {
 public:
-  // Declarations
-  __declspec(property(get = get_ReadMethodName)) ::StringW ReadMethodName;
+// Declarations
+ __declspec(property(get=get_ReadMethodName)) ::StringW  ReadMethodName;
 
-  __declspec(property(get = get_WriteMethodName)) ::StringW WriteMethodName;
+ __declspec(property(get=get_WriteMethodName)) ::StringW  WriteMethodName;
 
-  static inline ::System::Runtime::Serialization::IntDataContract* New_ctor();
+static inline ::System::Runtime::Serialization::IntDataContract* New_ctor() ;
 
-  /// @brief Method ReadXmlValue, addr 0x6019fb8, size 0x8c, virtual true, abstract: false, final false
-  inline ::System::Object* ReadXmlValue(::System::Runtime::Serialization::XmlReaderDelegator* reader, ::System::Runtime::Serialization::XmlObjectSerializerReadContext* context);
+/// @brief Method ReadXmlValue, addr 0x601bb30, size 0x8c, virtual true, abstract: false, final false
+inline ::System::Object* ReadXmlValue(::System::Runtime::Serialization::XmlReaderDelegator*  reader, ::System::Runtime::Serialization::XmlObjectSerializerReadContext*  context) ;
 
-  /// @brief Method WriteXmlValue, addr 0x6019f64, size 0x54, virtual true, abstract: false, final false
-  inline void WriteXmlValue(::System::Runtime::Serialization::XmlWriterDelegator* writer, ::System::Object* obj, ::System::Runtime::Serialization::XmlObjectSerializerWriteContext* context);
+/// @brief Method WriteXmlValue, addr 0x601badc, size 0x54, virtual true, abstract: false, final false
+inline void WriteXmlValue(::System::Runtime::Serialization::XmlWriterDelegator*  writer, ::System::Object*  obj, ::System::Runtime::Serialization::XmlObjectSerializerWriteContext*  context) ;
 
-  /// @brief Method .ctor, addr 0x6019e40, size 0x9c, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x601b9b8, size 0x9c, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_ReadMethodName, addr 0x6019f20, size 0x44, virtual true, abstract: false, final false
-  inline ::StringW get_ReadMethodName();
+/// @brief Method get_ReadMethodName, addr 0x601ba98, size 0x44, virtual true, abstract: false, final false
+inline ::StringW get_ReadMethodName() ;
 
-  /// @brief Method get_WriteMethodName, addr 0x6019edc, size 0x44, virtual true, abstract: false, final false
-  inline ::StringW get_WriteMethodName();
+/// @brief Method get_WriteMethodName, addr 0x601ba54, size 0x44, virtual true, abstract: false, final false
+inline ::StringW get_WriteMethodName() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IntDataContract();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr IntDataContract() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IntDataContract", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IntDataContract(IntDataContract&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IntDataContract", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  IntDataContract(IntDataContract const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "IntDataContract", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+IntDataContract(IntDataContract && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17049 };
+// Ctor Parameters [CppParam { name: "", ty: "IntDataContract", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+IntDataContract(IntDataContract const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{17051};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::IntDataContract, 0x30>, "Size mismatch!");
 
-} // namespace System::Runtime::Serialization
+} // namespace end def System::Runtime::Serialization
 NEED_NO_BOX(::System::Runtime::Serialization::IntDataContract);
 DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::IntDataContract*, "System.Runtime.Serialization", "IntDataContract");

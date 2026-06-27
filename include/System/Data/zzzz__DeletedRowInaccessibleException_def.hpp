@@ -24,44 +24,44 @@ namespace System::Data {
 // CS Name: System.Data.DeletedRowInaccessibleException
 class CORDL_TYPE DeletedRowInaccessibleException : public ::System::Data::DataException {
 public:
-  // Declarations
-  static inline ::System::Data::DeletedRowInaccessibleException* New_ctor();
+// Declarations
+static inline ::System::Data::DeletedRowInaccessibleException* New_ctor() ;
 
-  static inline ::System::Data::DeletedRowInaccessibleException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
+static inline ::System::Data::DeletedRowInaccessibleException* New_ctor(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context) ;
 
-  static inline ::System::Data::DeletedRowInaccessibleException* New_ctor(::StringW s);
+static inline ::System::Data::DeletedRowInaccessibleException* New_ctor(::StringW  s) ;
 
-  /// @brief Method .ctor, addr 0x5ec3008, size 0x60, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5ec4b80, size 0x60, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method .ctor, addr 0x5ec3000, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
+/// @brief Method .ctor, addr 0x5ec4b78, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context) ;
 
-  /// @brief Method .ctor, addr 0x5ec3068, size 0x24, virtual false, abstract: false, final false
-  inline void _ctor(::StringW s);
+/// @brief Method .ctor, addr 0x5ec4be0, size 0x24, virtual false, abstract: false, final false
+inline void _ctor(::StringW  s) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DeletedRowInaccessibleException();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr DeletedRowInaccessibleException() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DeletedRowInaccessibleException", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  DeletedRowInaccessibleException(DeletedRowInaccessibleException&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DeletedRowInaccessibleException", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  DeletedRowInaccessibleException(DeletedRowInaccessibleException const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "DeletedRowInaccessibleException", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+DeletedRowInaccessibleException(DeletedRowInaccessibleException && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13717 };
+// Ctor Parameters [CppParam { name: "", ty: "DeletedRowInaccessibleException", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+DeletedRowInaccessibleException(DeletedRowInaccessibleException const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{13718};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Data::DeletedRowInaccessibleException, 0x90>, "Size mismatch!");
 
-} // namespace System::Data
+} // namespace end def System::Data
 NEED_NO_BOX(::System::Data::DeletedRowInaccessibleException);
 DEFINE_IL2CPP_ARG_TYPE(::System::Data::DeletedRowInaccessibleException*, "System.Data", "DeletedRowInaccessibleException");

@@ -8,10 +8,12 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(VolumeProfile)
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template<typename T>
+class List_1;
 }
 namespace System {
-template <typename T> class Predicate_1;
+template<typename T>
+class Predicate_1;
 }
 namespace System {
 class Type;
@@ -38,160 +40,166 @@ namespace UnityEngine::Rendering {
 // CS Name: UnityEngine.Rendering.VolumeProfile/<>c
 class CORDL_TYPE VolumeProfile___c : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field <>9, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::Rendering::VolumeProfile___c* __9;
+// Declarations
+/// @brief Field <>9, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF___9, put=setStaticF___9)) ::UnityEngine::Rendering::VolumeProfile___c*  __9;
 
-  /// @brief Field <>9__2_0, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9__2_0, put = setStaticF___9__2_0)) ::System::Predicate_1<::UnityW<::UnityEngine::Rendering::VolumeComponent>>* __9__2_0;
+/// @brief Field <>9__2_0, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF___9__2_0, put=setStaticF___9__2_0)) ::System::Predicate_1<::UnityW<::UnityEngine::Rendering::VolumeComponent>>*  __9__2_0;
 
-  static inline ::UnityEngine::Rendering::VolumeProfile___c* New_ctor();
+static inline ::UnityEngine::Rendering::VolumeProfile___c* New_ctor() ;
 
-  /// @brief Method <OnEnable>b__2_0, addr 0x668a5bc, size 0x60, virtual false, abstract: false, final false
-  inline bool _OnEnable_b__2_0(::UnityEngine::Rendering::VolumeComponent* x);
+/// @brief Method <OnEnable>b__2_0, addr 0x668c134, size 0x60, virtual false, abstract: false, final false
+inline bool _OnEnable_b__2_0(::UnityEngine::Rendering::VolumeComponent*  x) ;
 
-  /// @brief Method .ctor, addr 0x668a5b8, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x668c130, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  static inline ::UnityEngine::Rendering::VolumeProfile___c* getStaticF___9();
+static inline ::UnityEngine::Rendering::VolumeProfile___c* getStaticF___9() ;
 
-  static inline ::System::Predicate_1<::UnityW<::UnityEngine::Rendering::VolumeComponent>>* getStaticF___9__2_0();
+static inline ::System::Predicate_1<::UnityW<::UnityEngine::Rendering::VolumeComponent>>* getStaticF___9__2_0() ;
 
-  static inline void setStaticF___9(::UnityEngine::Rendering::VolumeProfile___c* value);
+static inline void setStaticF___9(::UnityEngine::Rendering::VolumeProfile___c*  value) ;
 
-  static inline void setStaticF___9__2_0(::System::Predicate_1<::UnityW<::UnityEngine::Rendering::VolumeComponent>>* value);
+static inline void setStaticF___9__2_0(::System::Predicate_1<::UnityW<::UnityEngine::Rendering::VolumeComponent>>*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr VolumeProfile___c();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr VolumeProfile___c() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VolumeProfile___c", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  VolumeProfile___c(VolumeProfile___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VolumeProfile___c", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  VolumeProfile___c(VolumeProfile___c const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "VolumeProfile___c", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+VolumeProfile___c(VolumeProfile___c && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12361 };
+// Ctor Parameters [CppParam { name: "", ty: "VolumeProfile___c", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+VolumeProfile___c(VolumeProfile___c const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12362};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::VolumeProfile___c, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::Rendering
+} // namespace end def UnityEngine::Rendering
 // Dependencies UnityEngine.ScriptableObject
 namespace UnityEngine::Rendering {
 // Is value type: false
 // CS Name: UnityEngine.Rendering.VolumeProfile
 class CORDL_TYPE VolumeProfile : public ::UnityEngine::ScriptableObject {
 public:
-  // Declarations
-  using __c = ::UnityEngine::Rendering::VolumeProfile___c;
+// Declarations
+using __c = ::UnityEngine::Rendering::VolumeProfile___c;
 
-  /// @brief Field components, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_components,
-                      put = __cordl_internal_set_components)) ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Rendering::VolumeComponent>>* components;
+/// @brief Field components, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_components, put=__cordl_internal_set_components)) ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Rendering::VolumeComponent>>*  components;
 
-  /// @brief Field isDirty, offset 0x20, size 0x1
-  __declspec(property(get = __cordl_internal_get_isDirty, put = __cordl_internal_set_isDirty)) bool isDirty;
+/// @brief Field isDirty, offset 0x20, size 0x1 
+ __declspec(property(get=__cordl_internal_get_isDirty, put=__cordl_internal_set_isDirty)) bool  isDirty;
 
-  /// @brief Method Add, addr 0x6689d34, size 0x184, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::Rendering::VolumeComponent> Add(::System::Type* type, bool overrides);
+/// @brief Method Add, addr 0x668b8ac, size 0x184, virtual false, abstract: false, final false
+inline ::UnityW<::UnityEngine::Rendering::VolumeComponent> Add(::System::Type*  type, bool  overrides) ;
 
-  /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline T Add(bool overrides);
+/// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+template<typename T>
+inline T Add(bool  overrides) ;
 
-  /// @brief Method GetComponentListHashCode, addr 0x668a30c, size 0xc4, virtual false, abstract: false, final false
-  inline int32_t GetComponentListHashCode();
+/// @brief Method GetComponentListHashCode, addr 0x668be84, size 0xc4, virtual false, abstract: false, final false
+inline int32_t GetComponentListHashCode() ;
 
-  /// @brief Method GetHashCode, addr 0x668a258, size 0xb4, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
+/// @brief Method GetHashCode, addr 0x668bdd0, size 0xb4, virtual true, abstract: false, final false
+inline int32_t GetHashCode() ;
 
-  /// @brief Method Has, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline bool Has();
+/// @brief Method Has, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+template<typename T>
+inline bool Has() ;
 
-  /// @brief Method Has, addr 0x6689eb8, size 0x148, virtual false, abstract: false, final false
-  inline bool Has(::System::Type* type);
+/// @brief Method Has, addr 0x668ba30, size 0x148, virtual false, abstract: false, final false
+inline bool Has(::System::Type*  type) ;
 
-  /// @brief Method HasSubclassOf, addr 0x668a10c, size 0x14c, virtual false, abstract: false, final false
-  inline bool HasSubclassOf(::System::Type* type);
+/// @brief Method HasSubclassOf, addr 0x668bc84, size 0x14c, virtual false, abstract: false, final false
+inline bool HasSubclassOf(::System::Type*  type) ;
 
-  static inline ::UnityEngine::Rendering::VolumeProfile* New_ctor();
+static inline ::UnityEngine::Rendering::VolumeProfile* New_ctor() ;
 
-  /// @brief Method OnDisable, addr 0x6689c34, size 0xf4, virtual false, abstract: false, final false
-  inline void OnDisable();
+/// @brief Method OnDisable, addr 0x668b7ac, size 0xf4, virtual false, abstract: false, final false
+inline void OnDisable() ;
 
-  /// @brief Method OnEnable, addr 0x6689b28, size 0x10c, virtual false, abstract: false, final false
-  inline void OnEnable();
+/// @brief Method OnEnable, addr 0x668b6a0, size 0x10c, virtual false, abstract: false, final false
+inline void OnEnable() ;
 
-  /// @brief Method Remove, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline void Remove();
+/// @brief Method Remove, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+template<typename T>
+inline void Remove() ;
 
-  /// @brief Method Remove, addr 0x668a000, size 0x10c, virtual false, abstract: false, final false
-  inline void Remove(::System::Type* type);
+/// @brief Method Remove, addr 0x668bb78, size 0x10c, virtual false, abstract: false, final false
+inline void Remove(::System::Type*  type) ;
 
-  /// @brief Method Reset, addr 0x6689d28, size 0xc, virtual false, abstract: false, final false
-  inline void Reset();
+/// @brief Method Reset, addr 0x668b8a0, size 0xc, virtual false, abstract: false, final false
+inline void Reset() ;
 
-  /// @brief Method Sanitize, addr 0x668a3d0, size 0x110, virtual false, abstract: false, final false
-  inline void Sanitize();
+/// @brief Method Sanitize, addr 0x668bf48, size 0x110, virtual false, abstract: false, final false
+inline void Sanitize() ;
 
-  /// @brief Method TryGet, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline bool TryGet(::ByRef<T> component);
+/// @brief Method TryGet, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+template<typename T>
+inline bool TryGet(::ByRef<T>  component) ;
 
-  /// @brief Method TryGet, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline bool TryGet(::System::Type* type, ::ByRef<T> component);
+/// @brief Method TryGet, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+template<typename T>
+inline bool TryGet(::System::Type*  type, ::ByRef<T>  component) ;
 
-  /// @brief Method TryGetAllSubclassOf, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline bool TryGetAllSubclassOf(::System::Type* type, ::System::Collections::Generic::List_1<T>* result);
+/// @brief Method TryGetAllSubclassOf, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+template<typename T>
+inline bool TryGetAllSubclassOf(::System::Type*  type, ::System::Collections::Generic::List_1<T>*  result) ;
 
-  /// @brief Method TryGetSubclassOf, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline bool TryGetSubclassOf(::System::Type* type, ::ByRef<T> component);
+/// @brief Method TryGetSubclassOf, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+template<typename T>
+inline bool TryGetSubclassOf(::System::Type*  type, ::ByRef<T>  component) ;
 
-  constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Rendering::VolumeComponent>>* const& __cordl_internal_get_components() const;
+constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Rendering::VolumeComponent>>* const& __cordl_internal_get_components() const;
 
-  constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Rendering::VolumeComponent>>*& __cordl_internal_get_components();
+constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Rendering::VolumeComponent>>*& __cordl_internal_get_components() ;
 
-  constexpr bool const& __cordl_internal_get_isDirty() const;
+constexpr bool const& __cordl_internal_get_isDirty() const;
 
-  constexpr bool& __cordl_internal_get_isDirty();
+constexpr bool& __cordl_internal_get_isDirty() ;
 
-  constexpr void __cordl_internal_set_components(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Rendering::VolumeComponent>>* value);
+constexpr void __cordl_internal_set_components(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Rendering::VolumeComponent>>*  value) ;
 
-  constexpr void __cordl_internal_set_isDirty(bool value);
+constexpr void __cordl_internal_set_isDirty(bool  value) ;
 
-  /// @brief Method .ctor, addr 0x668a4e0, size 0x84, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x668c058, size 0x84, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr VolumeProfile();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr VolumeProfile() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VolumeProfile", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  VolumeProfile(VolumeProfile&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VolumeProfile", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  VolumeProfile(VolumeProfile const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "VolumeProfile", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+VolumeProfile(VolumeProfile && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12362 };
+// Ctor Parameters [CppParam { name: "", ty: "VolumeProfile", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+VolumeProfile(VolumeProfile const& ) = delete;
 
-  /// @brief Field components, offset: 0x18, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Rendering::VolumeComponent>>* ___components;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12363};
 
-  /// @brief Field isDirty, offset: 0x20, size: 0x1, def value: None
-  bool ___isDirty;
+/// @brief Field components, offset: 0x18, size: 0x8, def value: None
+ ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Rendering::VolumeComponent>>*  ___components;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field isDirty, offset: 0x20, size: 0x1, def value: None
+ bool  ___isDirty;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Rendering::VolumeProfile, ___components) == 0x18, "Offset mismatch!");
@@ -200,7 +208,7 @@ static_assert(offsetof(::UnityEngine::Rendering::VolumeProfile, ___isDirty) == 0
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::VolumeProfile, 0x28>, "Size mismatch!");
 
-} // namespace UnityEngine::Rendering
+} // namespace end def UnityEngine::Rendering
 NEED_NO_BOX(::UnityEngine::Rendering::VolumeProfile);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::VolumeProfile*, "UnityEngine.Rendering", "VolumeProfile");
 NEED_NO_BOX(::UnityEngine::Rendering::VolumeProfile___c);

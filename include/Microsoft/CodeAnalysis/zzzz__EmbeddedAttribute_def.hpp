@@ -17,34 +17,34 @@ namespace Microsoft::CodeAnalysis {
 // CS Name: Microsoft.CodeAnalysis.EmbeddedAttribute
 class CORDL_TYPE EmbeddedAttribute : public ::System::Attribute {
 public:
-  // Declarations
-  static inline ::Microsoft::CodeAnalysis::EmbeddedAttribute* New_ctor();
+// Declarations
+static inline ::Microsoft::CodeAnalysis::EmbeddedAttribute* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x66c54d8, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6600534, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr EmbeddedAttribute();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr EmbeddedAttribute() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EmbeddedAttribute", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  EmbeddedAttribute(EmbeddedAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EmbeddedAttribute", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  EmbeddedAttribute(EmbeddedAttribute const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "EmbeddedAttribute", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+EmbeddedAttribute(EmbeddedAttribute && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17569 };
+// Ctor Parameters [CppParam { name: "", ty: "EmbeddedAttribute", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+EmbeddedAttribute(EmbeddedAttribute const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11829};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Microsoft::CodeAnalysis::EmbeddedAttribute, 0x10>, "Size mismatch!");
 
-} // namespace Microsoft::CodeAnalysis
+} // namespace end def Microsoft::CodeAnalysis
 NEED_NO_BOX(::Microsoft::CodeAnalysis::EmbeddedAttribute);
 DEFINE_IL2CPP_ARG_TYPE(::Microsoft::CodeAnalysis::EmbeddedAttribute*, "Microsoft.CodeAnalysis", "EmbeddedAttribute");

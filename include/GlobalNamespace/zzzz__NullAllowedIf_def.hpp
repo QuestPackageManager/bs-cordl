@@ -28,75 +28,74 @@ namespace GlobalNamespace {
 // CS Name: NullAllowedIf
 class CORDL_TYPE NullAllowedIf : public ::GlobalNamespace::NullAllowed {
 public:
-  // Declarations
-  /// @brief Field _comparisonOperation, offset 0x30, size 0x4
-  __declspec(property(get = __cordl_internal_get__comparisonOperation, put = __cordl_internal_set__comparisonOperation)) ::GlobalNamespace::ComparisonOperation _comparisonOperation;
+// Declarations
+/// @brief Field _comparisonOperation, offset 0x30, size 0x4 
+ __declspec(property(get=__cordl_internal_get__comparisonOperation, put=__cordl_internal_set__comparisonOperation)) ::GlobalNamespace::ComparisonOperation  _comparisonOperation;
 
-  /// @brief Field _valueToCompare, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__valueToCompare, put = __cordl_internal_set__valueToCompare)) ::System::Object* _valueToCompare;
+/// @brief Field _valueToCompare, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get__valueToCompare, put=__cordl_internal_set__valueToCompare)) ::System::Object*  _valueToCompare;
 
-  /// @brief Field propertyName, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_propertyName, put = __cordl_internal_set_propertyName)) ::StringW propertyName;
+/// @brief Field propertyName, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_propertyName, put=__cordl_internal_set_propertyName)) ::StringW  propertyName;
 
-  /// @brief Method IsNullAllowedFor, addr 0x32503f8, size 0x124, virtual false, abstract: false, final false
-  inline bool IsNullAllowedFor(::System::Object* value, ::GlobalNamespace::NullAllowed_Context context);
+/// @brief Method IsNullAllowedFor, addr 0x3251194, size 0x124, virtual false, abstract: false, final false
+inline bool IsNullAllowedFor(::System::Object*  value, ::GlobalNamespace::NullAllowed_Context  context) ;
 
-  static inline ::GlobalNamespace::NullAllowedIf* New_ctor(::StringW propertyName, ::GlobalNamespace::ComparisonOperation comparisonOperation, ::System::Object* valueToCompare,
-                                                           ::GlobalNamespace::NullAllowed_Context context);
+static inline ::GlobalNamespace::NullAllowedIf* New_ctor(::StringW  propertyName, ::GlobalNamespace::ComparisonOperation  comparisonOperation, ::System::Object*  valueToCompare, ::GlobalNamespace::NullAllowed_Context  context) ;
 
-  static inline ::GlobalNamespace::NullAllowedIf* New_ctor(::StringW propertyName, ::System::Object* equalsTo, ::GlobalNamespace::NullAllowed_Context context);
+static inline ::GlobalNamespace::NullAllowedIf* New_ctor(::StringW  propertyName, ::System::Object*  equalsTo, ::GlobalNamespace::NullAllowed_Context  context) ;
 
-  constexpr ::GlobalNamespace::ComparisonOperation const& __cordl_internal_get__comparisonOperation() const;
+constexpr ::GlobalNamespace::ComparisonOperation const& __cordl_internal_get__comparisonOperation() const;
 
-  constexpr ::GlobalNamespace::ComparisonOperation& __cordl_internal_get__comparisonOperation();
+constexpr ::GlobalNamespace::ComparisonOperation& __cordl_internal_get__comparisonOperation() ;
 
-  constexpr ::System::Object* const& __cordl_internal_get__valueToCompare() const;
+constexpr ::System::Object* const& __cordl_internal_get__valueToCompare() const;
 
-  constexpr ::System::Object*& __cordl_internal_get__valueToCompare();
+constexpr ::System::Object*& __cordl_internal_get__valueToCompare() ;
 
-  constexpr ::StringW const& __cordl_internal_get_propertyName() const;
+constexpr ::StringW const& __cordl_internal_get_propertyName() const;
 
-  constexpr ::StringW& __cordl_internal_get_propertyName();
+constexpr ::StringW& __cordl_internal_get_propertyName() ;
 
-  constexpr void __cordl_internal_set__comparisonOperation(::GlobalNamespace::ComparisonOperation value);
+constexpr void __cordl_internal_set__comparisonOperation(::GlobalNamespace::ComparisonOperation  value) ;
 
-  constexpr void __cordl_internal_set__valueToCompare(::System::Object* value);
+constexpr void __cordl_internal_set__valueToCompare(::System::Object*  value) ;
 
-  constexpr void __cordl_internal_set_propertyName(::StringW value);
+constexpr void __cordl_internal_set_propertyName(::StringW  value) ;
 
-  /// @brief Method .ctor, addr 0x32503e4, size 0x14, virtual false, abstract: false, final false
-  inline void _ctor(::StringW propertyName, ::GlobalNamespace::ComparisonOperation comparisonOperation, ::System::Object* valueToCompare, ::GlobalNamespace::NullAllowed_Context context);
+/// @brief Method .ctor, addr 0x3251180, size 0x14, virtual false, abstract: false, final false
+inline void _ctor(::StringW  propertyName, ::GlobalNamespace::ComparisonOperation  comparisonOperation, ::System::Object*  valueToCompare, ::GlobalNamespace::NullAllowed_Context  context) ;
 
-  /// @brief Method .ctor, addr 0x32503d0, size 0x14, virtual false, abstract: false, final false
-  inline void _ctor(::StringW propertyName, ::System::Object* equalsTo, ::GlobalNamespace::NullAllowed_Context context);
+/// @brief Method .ctor, addr 0x325116c, size 0x14, virtual false, abstract: false, final false
+inline void _ctor(::StringW  propertyName, ::System::Object*  equalsTo, ::GlobalNamespace::NullAllowed_Context  context) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NullAllowedIf();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr NullAllowedIf() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NullAllowedIf", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  NullAllowedIf(NullAllowedIf&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NullAllowedIf", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  NullAllowedIf(NullAllowedIf const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "NullAllowedIf", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+NullAllowedIf(NullAllowedIf && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23309 };
+// Ctor Parameters [CppParam { name: "", ty: "NullAllowedIf", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+NullAllowedIf(NullAllowedIf const& ) = delete;
 
-  /// @brief Field propertyName, offset: 0x20, size: 0x8, def value: None
-  ::StringW ___propertyName;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{23313};
 
-  /// @brief Field _valueToCompare, offset: 0x28, size: 0x8, def value: None
-  ::System::Object* ____valueToCompare;
+/// @brief Field propertyName, offset: 0x20, size: 0x8, def value: None
+ ::StringW  ___propertyName;
 
-  /// @brief Field _comparisonOperation, offset: 0x30, size: 0x4, def value: None
-  ::GlobalNamespace::ComparisonOperation ____comparisonOperation;
+/// @brief Field _valueToCompare, offset: 0x28, size: 0x8, def value: None
+ ::System::Object*  ____valueToCompare;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _comparisonOperation, offset: 0x30, size: 0x4, def value: None
+ ::GlobalNamespace::ComparisonOperation  ____comparisonOperation;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::NullAllowedIf, ___propertyName) == 0x20, "Offset mismatch!");
@@ -107,6 +106,6 @@ static_assert(offsetof(::GlobalNamespace::NullAllowedIf, ____comparisonOperation
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NullAllowedIf, 0x38>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::NullAllowedIf);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::NullAllowedIf*, "", "NullAllowedIf");

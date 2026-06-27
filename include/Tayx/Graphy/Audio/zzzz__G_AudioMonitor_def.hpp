@@ -33,187 +33,185 @@ namespace Tayx::Graphy::Audio {
 // CS Name: Tayx.Graphy.Audio.G_AudioMonitor
 class CORDL_TYPE G_AudioMonitor : public ::UnityEngine::MonoBehaviour {
 public:
-  // Declarations
-  __declspec(property(get = get_MaxDB, put = set_MaxDB)) float_t MaxDB;
+// Declarations
+ __declspec(property(get=get_MaxDB, put=set_MaxDB)) float_t  MaxDB;
 
-  __declspec(property(get = get_Spectrum, put = set_Spectrum)) ::ArrayW<float_t, ::Array<float_t>*> Spectrum;
+ __declspec(property(get=get_Spectrum, put=set_Spectrum)) ::ArrayW<float_t,::Array<float_t>*>  Spectrum;
 
-  __declspec(property(get = get_SpectrumDataAvailable)) bool SpectrumDataAvailable;
+ __declspec(property(get=get_SpectrumDataAvailable)) bool  SpectrumDataAvailable;
 
-  __declspec(property(get = get_SpectrumHighestValues, put = set_SpectrumHighestValues)) ::ArrayW<float_t, ::Array<float_t>*> SpectrumHighestValues;
+ __declspec(property(get=get_SpectrumHighestValues, put=set_SpectrumHighestValues)) ::ArrayW<float_t,::Array<float_t>*>  SpectrumHighestValues;
 
-  /// @brief Field <MaxDB>k__BackingField, offset 0x50, size 0x4
-  __declspec(property(get = __cordl_internal_get__MaxDB_k__BackingField, put = __cordl_internal_set__MaxDB_k__BackingField)) float_t _MaxDB_k__BackingField;
+/// @brief Field <MaxDB>k__BackingField, offset 0x50, size 0x4 
+ __declspec(property(get=__cordl_internal_get__MaxDB_k__BackingField, put=__cordl_internal_set__MaxDB_k__BackingField)) float_t  _MaxDB_k__BackingField;
 
-  /// @brief Field <SpectrumHighestValues>k__BackingField, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__SpectrumHighestValues_k__BackingField, put = __cordl_internal_set__SpectrumHighestValues_k__BackingField)) ::ArrayW<float_t, ::Array<float_t>*>
-      _SpectrumHighestValues_k__BackingField;
+/// @brief Field <SpectrumHighestValues>k__BackingField, offset 0x48, size 0x8 
+ __declspec(property(get=__cordl_internal_get__SpectrumHighestValues_k__BackingField, put=__cordl_internal_set__SpectrumHighestValues_k__BackingField)) ::ArrayW<float_t,::Array<float_t>*>  _SpectrumHighestValues_k__BackingField;
 
-  /// @brief Field <Spectrum>k__BackingField, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__Spectrum_k__BackingField, put = __cordl_internal_set__Spectrum_k__BackingField)) ::ArrayW<float_t, ::Array<float_t>*> _Spectrum_k__BackingField;
+/// @brief Field <Spectrum>k__BackingField, offset 0x40, size 0x8 
+ __declspec(property(get=__cordl_internal_get__Spectrum_k__BackingField, put=__cordl_internal_set__Spectrum_k__BackingField)) ::ArrayW<float_t,::Array<float_t>*>  _Spectrum_k__BackingField;
 
-  /// @brief Field m_FFTWindow, offset 0x34, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_FFTWindow, put = __cordl_internal_set_m_FFTWindow)) ::UnityEngine::FFTWindow m_FFTWindow;
+/// @brief Field m_FFTWindow, offset 0x34, size 0x4 
+ __declspec(property(get=__cordl_internal_get_m_FFTWindow, put=__cordl_internal_set_m_FFTWindow)) ::UnityEngine::FFTWindow  m_FFTWindow;
 
-  /// @brief Field m_audioListener, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_audioListener, put = __cordl_internal_set_m_audioListener)) ::UnityW<::UnityEngine::AudioListener> m_audioListener;
+/// @brief Field m_audioListener, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_audioListener, put=__cordl_internal_set_m_audioListener)) ::UnityW<::UnityEngine::AudioListener>  m_audioListener;
 
-  /// @brief Field m_findAudioListenerInCameraIfNull, offset 0x30, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_findAudioListenerInCameraIfNull,
-                      put = __cordl_internal_set_m_findAudioListenerInCameraIfNull)) ::Tayx::Graphy::GraphyManager_LookForAudioListener m_findAudioListenerInCameraIfNull;
+/// @brief Field m_findAudioListenerInCameraIfNull, offset 0x30, size 0x4 
+ __declspec(property(get=__cordl_internal_get_m_findAudioListenerInCameraIfNull, put=__cordl_internal_set_m_findAudioListenerInCameraIfNull)) ::Tayx::Graphy::GraphyManager_LookForAudioListener  m_findAudioListenerInCameraIfNull;
 
-  /// @brief Field m_graphyManager, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_graphyManager, put = __cordl_internal_set_m_graphyManager)) ::UnityW<::Tayx::Graphy::GraphyManager> m_graphyManager;
+/// @brief Field m_graphyManager, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_graphyManager, put=__cordl_internal_set_m_graphyManager)) ::UnityW<::Tayx::Graphy::GraphyManager>  m_graphyManager;
 
-  /// @brief Field m_spectrumSize, offset 0x38, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_spectrumSize, put = __cordl_internal_set_m_spectrumSize)) int32_t m_spectrumSize;
+/// @brief Field m_spectrumSize, offset 0x38, size 0x4 
+ __declspec(property(get=__cordl_internal_get_m_spectrumSize, put=__cordl_internal_set_m_spectrumSize)) int32_t  m_spectrumSize;
 
-  /// @brief Method Awake, addr 0x62fe74c, size 0x4, virtual false, abstract: false, final false
-  inline void Awake();
+/// @brief Method Awake, addr 0x63002c4, size 0x4, virtual false, abstract: false, final false
+inline void Awake() ;
 
-  /// @brief Method FindAudioListener, addr 0x62fe954, size 0xbc, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::AudioListener> FindAudioListener();
+/// @brief Method FindAudioListener, addr 0x63004cc, size 0xbc, virtual false, abstract: false, final false
+inline ::UnityW<::UnityEngine::AudioListener> FindAudioListener() ;
 
-  /// @brief Method Init, addr 0x62f7d1c, size 0x174, virtual false, abstract: false, final false
-  inline void Init();
+/// @brief Method Init, addr 0x62f9894, size 0x174, virtual false, abstract: false, final false
+inline void Init() ;
 
-  static inline ::Tayx::Graphy::Audio::G_AudioMonitor* New_ctor();
+static inline ::Tayx::Graphy::Audio::G_AudioMonitor* New_ctor() ;
 
-  /// @brief Method OnDestroy, addr 0x62fea10, size 0xa8, virtual false, abstract: false, final false
-  inline void OnDestroy();
+/// @brief Method OnDestroy, addr 0x6300588, size 0xa8, virtual false, abstract: false, final false
+inline void OnDestroy() ;
 
-  /// @brief Method OnSceneLoaded, addr 0x62feab8, size 0x24, virtual false, abstract: false, final false
-  inline void OnSceneLoaded(::UnityEngine::SceneManagement::Scene scene, ::UnityEngine::SceneManagement::LoadSceneMode loadSceneMode);
+/// @brief Method OnSceneLoaded, addr 0x6300630, size 0x24, virtual false, abstract: false, final false
+inline void OnSceneLoaded(::UnityEngine::SceneManagement::Scene  scene, ::UnityEngine::SceneManagement::LoadSceneMode  loadSceneMode) ;
 
-  /// @brief Method Update, addr 0x62fe750, size 0x204, virtual false, abstract: false, final false
-  inline void Update();
+/// @brief Method Update, addr 0x63002c8, size 0x204, virtual false, abstract: false, final false
+inline void Update() ;
 
-  /// @brief Method UpdateParameters, addr 0x62fe448, size 0xdc, virtual false, abstract: false, final false
-  inline void UpdateParameters();
+/// @brief Method UpdateParameters, addr 0x62fffc0, size 0xdc, virtual false, abstract: false, final false
+inline void UpdateParameters() ;
 
-  constexpr float_t const& __cordl_internal_get__MaxDB_k__BackingField() const;
+constexpr float_t const& __cordl_internal_get__MaxDB_k__BackingField() const;
 
-  constexpr float_t& __cordl_internal_get__MaxDB_k__BackingField();
+constexpr float_t& __cordl_internal_get__MaxDB_k__BackingField() ;
 
-  constexpr ::ArrayW<float_t, ::Array<float_t>*> const& __cordl_internal_get__SpectrumHighestValues_k__BackingField() const;
+constexpr ::ArrayW<float_t,::Array<float_t>*> const& __cordl_internal_get__SpectrumHighestValues_k__BackingField() const;
 
-  constexpr ::ArrayW<float_t, ::Array<float_t>*>& __cordl_internal_get__SpectrumHighestValues_k__BackingField();
+constexpr ::ArrayW<float_t,::Array<float_t>*>& __cordl_internal_get__SpectrumHighestValues_k__BackingField() ;
 
-  constexpr ::ArrayW<float_t, ::Array<float_t>*> const& __cordl_internal_get__Spectrum_k__BackingField() const;
+constexpr ::ArrayW<float_t,::Array<float_t>*> const& __cordl_internal_get__Spectrum_k__BackingField() const;
 
-  constexpr ::ArrayW<float_t, ::Array<float_t>*>& __cordl_internal_get__Spectrum_k__BackingField();
+constexpr ::ArrayW<float_t,::Array<float_t>*>& __cordl_internal_get__Spectrum_k__BackingField() ;
 
-  constexpr ::UnityEngine::FFTWindow const& __cordl_internal_get_m_FFTWindow() const;
+constexpr ::UnityEngine::FFTWindow const& __cordl_internal_get_m_FFTWindow() const;
 
-  constexpr ::UnityEngine::FFTWindow& __cordl_internal_get_m_FFTWindow();
+constexpr ::UnityEngine::FFTWindow& __cordl_internal_get_m_FFTWindow() ;
 
-  constexpr ::UnityW<::UnityEngine::AudioListener> const& __cordl_internal_get_m_audioListener() const;
+constexpr ::UnityW<::UnityEngine::AudioListener> const& __cordl_internal_get_m_audioListener() const;
 
-  constexpr ::UnityW<::UnityEngine::AudioListener>& __cordl_internal_get_m_audioListener();
+constexpr ::UnityW<::UnityEngine::AudioListener>& __cordl_internal_get_m_audioListener() ;
 
-  constexpr ::Tayx::Graphy::GraphyManager_LookForAudioListener const& __cordl_internal_get_m_findAudioListenerInCameraIfNull() const;
+constexpr ::Tayx::Graphy::GraphyManager_LookForAudioListener const& __cordl_internal_get_m_findAudioListenerInCameraIfNull() const;
 
-  constexpr ::Tayx::Graphy::GraphyManager_LookForAudioListener& __cordl_internal_get_m_findAudioListenerInCameraIfNull();
+constexpr ::Tayx::Graphy::GraphyManager_LookForAudioListener& __cordl_internal_get_m_findAudioListenerInCameraIfNull() ;
 
-  constexpr ::UnityW<::Tayx::Graphy::GraphyManager> const& __cordl_internal_get_m_graphyManager() const;
+constexpr ::UnityW<::Tayx::Graphy::GraphyManager> const& __cordl_internal_get_m_graphyManager() const;
 
-  constexpr ::UnityW<::Tayx::Graphy::GraphyManager>& __cordl_internal_get_m_graphyManager();
+constexpr ::UnityW<::Tayx::Graphy::GraphyManager>& __cordl_internal_get_m_graphyManager() ;
 
-  constexpr int32_t const& __cordl_internal_get_m_spectrumSize() const;
+constexpr int32_t const& __cordl_internal_get_m_spectrumSize() const;
 
-  constexpr int32_t& __cordl_internal_get_m_spectrumSize();
+constexpr int32_t& __cordl_internal_get_m_spectrumSize() ;
 
-  constexpr void __cordl_internal_set__MaxDB_k__BackingField(float_t value);
+constexpr void __cordl_internal_set__MaxDB_k__BackingField(float_t  value) ;
 
-  constexpr void __cordl_internal_set__SpectrumHighestValues_k__BackingField(::ArrayW<float_t, ::Array<float_t>*> value);
+constexpr void __cordl_internal_set__SpectrumHighestValues_k__BackingField(::ArrayW<float_t,::Array<float_t>*>  value) ;
 
-  constexpr void __cordl_internal_set__Spectrum_k__BackingField(::ArrayW<float_t, ::Array<float_t>*> value);
+constexpr void __cordl_internal_set__Spectrum_k__BackingField(::ArrayW<float_t,::Array<float_t>*>  value) ;
 
-  constexpr void __cordl_internal_set_m_FFTWindow(::UnityEngine::FFTWindow value);
+constexpr void __cordl_internal_set_m_FFTWindow(::UnityEngine::FFTWindow  value) ;
 
-  constexpr void __cordl_internal_set_m_audioListener(::UnityW<::UnityEngine::AudioListener> value);
+constexpr void __cordl_internal_set_m_audioListener(::UnityW<::UnityEngine::AudioListener>  value) ;
 
-  constexpr void __cordl_internal_set_m_findAudioListenerInCameraIfNull(::Tayx::Graphy::GraphyManager_LookForAudioListener value);
+constexpr void __cordl_internal_set_m_findAudioListenerInCameraIfNull(::Tayx::Graphy::GraphyManager_LookForAudioListener  value) ;
 
-  constexpr void __cordl_internal_set_m_graphyManager(::UnityW<::Tayx::Graphy::GraphyManager> value);
+constexpr void __cordl_internal_set_m_graphyManager(::UnityW<::Tayx::Graphy::GraphyManager>  value) ;
 
-  constexpr void __cordl_internal_set_m_spectrumSize(int32_t value);
+constexpr void __cordl_internal_set_m_spectrumSize(int32_t  value) ;
 
-  /// @brief Method .ctor, addr 0x62feadc, size 0x18, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6300654, size 0x18, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method dBNormalized, addr 0x62fe1b0, size 0x14, virtual false, abstract: false, final false
-  inline float_t dBNormalized(float_t db);
+/// @brief Method dBNormalized, addr 0x62ffd28, size 0x14, virtual false, abstract: false, final false
+inline float_t dBNormalized(float_t  db) ;
 
-  /// @brief Method get_MaxDB, addr 0x62fe73c, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_MaxDB();
+/// @brief Method get_MaxDB, addr 0x63002b4, size 0x8, virtual false, abstract: false, final false
+inline float_t get_MaxDB() ;
 
-  /// @brief Method get_Spectrum, addr 0x62fe71c, size 0x8, virtual false, abstract: false, final false
-  inline ::ArrayW<float_t, ::Array<float_t>*> get_Spectrum();
+/// @brief Method get_Spectrum, addr 0x6300294, size 0x8, virtual false, abstract: false, final false
+inline ::ArrayW<float_t,::Array<float_t>*> get_Spectrum() ;
 
-  /// @brief Method get_SpectrumDataAvailable, addr 0x62fd940, size 0x64, virtual false, abstract: false, final false
-  inline bool get_SpectrumDataAvailable();
+/// @brief Method get_SpectrumDataAvailable, addr 0x62ff4b8, size 0x64, virtual false, abstract: false, final false
+inline bool get_SpectrumDataAvailable() ;
 
-  /// @brief Method get_SpectrumHighestValues, addr 0x62fe72c, size 0x8, virtual false, abstract: false, final false
-  inline ::ArrayW<float_t, ::Array<float_t>*> get_SpectrumHighestValues();
+/// @brief Method get_SpectrumHighestValues, addr 0x63002a4, size 0x8, virtual false, abstract: false, final false
+inline ::ArrayW<float_t,::Array<float_t>*> get_SpectrumHighestValues() ;
 
-  /// @brief Method lin2dB, addr 0x62fe17c, size 0x34, virtual false, abstract: false, final false
-  inline float_t lin2dB(float_t linear);
+/// @brief Method lin2dB, addr 0x62ffcf4, size 0x34, virtual false, abstract: false, final false
+inline float_t lin2dB(float_t  linear) ;
 
-  /// @brief Method set_MaxDB, addr 0x62fe744, size 0x8, virtual false, abstract: false, final false
-  inline void set_MaxDB(float_t value);
+/// @brief Method set_MaxDB, addr 0x63002bc, size 0x8, virtual false, abstract: false, final false
+inline void set_MaxDB(float_t  value) ;
 
-  /// @brief Method set_Spectrum, addr 0x62fe724, size 0x8, virtual false, abstract: false, final false
-  inline void set_Spectrum(::ArrayW<float_t, ::Array<float_t>*> value);
+/// @brief Method set_Spectrum, addr 0x630029c, size 0x8, virtual false, abstract: false, final false
+inline void set_Spectrum(::ArrayW<float_t,::Array<float_t>*>  value) ;
 
-  /// @brief Method set_SpectrumHighestValues, addr 0x62fe734, size 0x8, virtual false, abstract: false, final false
-  inline void set_SpectrumHighestValues(::ArrayW<float_t, ::Array<float_t>*> value);
+/// @brief Method set_SpectrumHighestValues, addr 0x63002ac, size 0x8, virtual false, abstract: false, final false
+inline void set_SpectrumHighestValues(::ArrayW<float_t,::Array<float_t>*>  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr G_AudioMonitor();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr G_AudioMonitor() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "G_AudioMonitor", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  G_AudioMonitor(G_AudioMonitor&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "G_AudioMonitor", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  G_AudioMonitor(G_AudioMonitor const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "G_AudioMonitor", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+G_AudioMonitor(G_AudioMonitor && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21248 };
+// Ctor Parameters [CppParam { name: "", ty: "G_AudioMonitor", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+G_AudioMonitor(G_AudioMonitor const& ) = delete;
 
-  /// @brief Field m_refValue offset 0xffffffff size 0x4
-  static constexpr float_t m_refValue{ static_cast<float_t>(1.0f) };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{21251};
 
-  /// @brief Field m_graphyManager, offset: 0x20, size: 0x8, def value: None
-  ::UnityW<::Tayx::Graphy::GraphyManager> ___m_graphyManager;
+/// @brief Field m_refValue offset 0xffffffff size 0x4
+static constexpr float_t  m_refValue{static_cast<float_t>(1.0f)};
 
-  /// @brief Field m_audioListener, offset: 0x28, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::AudioListener> ___m_audioListener;
+/// @brief Field m_graphyManager, offset: 0x20, size: 0x8, def value: None
+ ::UnityW<::Tayx::Graphy::GraphyManager>  ___m_graphyManager;
 
-  /// @brief Field m_findAudioListenerInCameraIfNull, offset: 0x30, size: 0x4, def value: None
-  ::Tayx::Graphy::GraphyManager_LookForAudioListener ___m_findAudioListenerInCameraIfNull;
+/// @brief Field m_audioListener, offset: 0x28, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::AudioListener>  ___m_audioListener;
 
-  /// @brief Field m_FFTWindow, offset: 0x34, size: 0x4, def value: None
-  ::UnityEngine::FFTWindow ___m_FFTWindow;
+/// @brief Field m_findAudioListenerInCameraIfNull, offset: 0x30, size: 0x4, def value: None
+ ::Tayx::Graphy::GraphyManager_LookForAudioListener  ___m_findAudioListenerInCameraIfNull;
 
-  /// @brief Field m_spectrumSize, offset: 0x38, size: 0x4, def value: None
-  int32_t ___m_spectrumSize;
+/// @brief Field m_FFTWindow, offset: 0x34, size: 0x4, def value: None
+ ::UnityEngine::FFTWindow  ___m_FFTWindow;
 
-  /// @brief Field <Spectrum>k__BackingField, offset: 0x40, size: 0x8, def value: None
-  ::ArrayW<float_t, ::Array<float_t>*> ____Spectrum_k__BackingField;
+/// @brief Field m_spectrumSize, offset: 0x38, size: 0x4, def value: None
+ int32_t  ___m_spectrumSize;
 
-  /// @brief Field <SpectrumHighestValues>k__BackingField, offset: 0x48, size: 0x8, def value: None
-  ::ArrayW<float_t, ::Array<float_t>*> ____SpectrumHighestValues_k__BackingField;
+/// @brief Field <Spectrum>k__BackingField, offset: 0x40, size: 0x8, def value: None
+ ::ArrayW<float_t,::Array<float_t>*>  ____Spectrum_k__BackingField;
 
-  /// @brief Field <MaxDB>k__BackingField, offset: 0x50, size: 0x4, def value: None
-  float_t ____MaxDB_k__BackingField;
+/// @brief Field <SpectrumHighestValues>k__BackingField, offset: 0x48, size: 0x8, def value: None
+ ::ArrayW<float_t,::Array<float_t>*>  ____SpectrumHighestValues_k__BackingField;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field <MaxDB>k__BackingField, offset: 0x50, size: 0x4, def value: None
+ float_t  ____MaxDB_k__BackingField;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Tayx::Graphy::Audio::G_AudioMonitor, ___m_graphyManager) == 0x20, "Offset mismatch!");
@@ -234,6 +232,6 @@ static_assert(offsetof(::Tayx::Graphy::Audio::G_AudioMonitor, ____MaxDB_k__Backi
 
 static_assert(::cordl_internals::size_check_v<::Tayx::Graphy::Audio::G_AudioMonitor, 0x58>, "Size mismatch!");
 
-} // namespace Tayx::Graphy::Audio
+} // namespace end def Tayx::Graphy::Audio
 NEED_NO_BOX(::Tayx::Graphy::Audio::G_AudioMonitor);
 DEFINE_IL2CPP_ARG_TYPE(::Tayx::Graphy::Audio::G_AudioMonitor*, "Tayx.Graphy.Audio", "G_AudioMonitor");

@@ -37,65 +37,65 @@ namespace Newtonsoft::Json::Converters {
 // CS Name: Newtonsoft.Json.Converters.BinaryConverter
 class CORDL_TYPE BinaryConverter : public ::Newtonsoft::Json::JsonConverter {
 public:
-  // Declarations
-  /// @brief Field _reflectionObject, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF__reflectionObject, put = setStaticF__reflectionObject)) ::Newtonsoft::Json::Utilities::ReflectionObject* _reflectionObject;
+// Declarations
+/// @brief Field _reflectionObject, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF__reflectionObject, put=setStaticF__reflectionObject)) ::Newtonsoft::Json::Utilities::ReflectionObject*  _reflectionObject;
 
-  /// @brief Method CanConvert, addr 0x5c5adc0, size 0xf8, virtual true, abstract: false, final false
-  inline bool CanConvert(::System::Type* objectType);
+/// @brief Method CanConvert, addr 0x5c5c938, size 0xf8, virtual true, abstract: false, final false
+inline bool CanConvert(::System::Type*  objectType) ;
 
-  /// @brief Method EnsureReflectionObject, addr 0x5c5a58c, size 0x19c, virtual false, abstract: false, final false
-  static inline void EnsureReflectionObject(::System::Type* t);
+/// @brief Method EnsureReflectionObject, addr 0x5c5c104, size 0x19c, virtual false, abstract: false, final false
+static inline void EnsureReflectionObject(::System::Type*  t) ;
 
-  /// @brief Method GetByteArray, addr 0x5c5a3a4, size 0x1e8, virtual false, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetByteArray(::System::Object* value);
+/// @brief Method GetByteArray, addr 0x5c5bf1c, size 0x1e8, virtual false, abstract: false, final false
+inline ::ArrayW<uint8_t,::Array<uint8_t>*> GetByteArray(::System::Object*  value) ;
 
-  static inline ::Newtonsoft::Json::Converters::BinaryConverter* New_ctor();
+static inline ::Newtonsoft::Json::Converters::BinaryConverter* New_ctor() ;
 
-  /// @brief Method ReadByteArray, addr 0x5c5ab10, size 0x2b0, virtual false, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ReadByteArray(::Newtonsoft::Json::JsonReader* reader);
+/// @brief Method ReadByteArray, addr 0x5c5c688, size 0x2b0, virtual false, abstract: false, final false
+inline ::ArrayW<uint8_t,::Array<uint8_t>*> ReadByteArray(::Newtonsoft::Json::JsonReader*  reader) ;
 
-  /// @brief Method ReadJson, addr 0x5c5a728, size 0x3e8, virtual true, abstract: false, final false
-  inline ::System::Object* ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, ::System::Object* existingValue, ::Newtonsoft::Json::JsonSerializer* serializer);
+/// @brief Method ReadJson, addr 0x5c5c2a0, size 0x3e8, virtual true, abstract: false, final false
+inline ::System::Object* ReadJson(::Newtonsoft::Json::JsonReader*  reader, ::System::Type*  objectType, ::System::Object*  existingValue, ::Newtonsoft::Json::JsonSerializer*  serializer) ;
 
-  /// @brief Method WriteJson, addr 0x5c5a350, size 0x54, virtual true, abstract: false, final false
-  inline void WriteJson(::Newtonsoft::Json::JsonWriter* writer, ::System::Object* value, ::Newtonsoft::Json::JsonSerializer* serializer);
+/// @brief Method WriteJson, addr 0x5c5bec8, size 0x54, virtual true, abstract: false, final false
+inline void WriteJson(::Newtonsoft::Json::JsonWriter*  writer, ::System::Object*  value, ::Newtonsoft::Json::JsonSerializer*  serializer) ;
 
-  /// @brief Method .ctor, addr 0x5c5aeb8, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5c5ca30, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  static inline ::Newtonsoft::Json::Utilities::ReflectionObject* getStaticF__reflectionObject();
+static inline ::Newtonsoft::Json::Utilities::ReflectionObject* getStaticF__reflectionObject() ;
 
-  static inline void setStaticF__reflectionObject(::Newtonsoft::Json::Utilities::ReflectionObject* value);
+static inline void setStaticF__reflectionObject(::Newtonsoft::Json::Utilities::ReflectionObject*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BinaryConverter();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr BinaryConverter() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BinaryConverter", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  BinaryConverter(BinaryConverter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BinaryConverter", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  BinaryConverter(BinaryConverter const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "BinaryConverter", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+BinaryConverter(BinaryConverter && ) = delete;
 
-  /// @brief Field BinaryToArrayName offset 0xffffffff size 0x8
-  static constexpr ::ConstString BinaryToArrayName{ u"ToArray" };
+// Ctor Parameters [CppParam { name: "", ty: "BinaryConverter", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+BinaryConverter(BinaryConverter const& ) = delete;
 
-  /// @brief Field BinaryTypeName offset 0xffffffff size 0x8
-  static constexpr ::ConstString BinaryTypeName{ u"System.Data.Linq.Binary" };
+/// @brief Field BinaryToArrayName offset 0xffffffff size 0x8
+static constexpr ::ConstString  BinaryToArrayName{u"ToArray"};
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13633 };
+/// @brief Field BinaryTypeName offset 0xffffffff size 0x8
+static constexpr ::ConstString  BinaryTypeName{u"System.Data.Linq.Binary"};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{13634};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Converters::BinaryConverter, 0x10>, "Size mismatch!");
 
-} // namespace Newtonsoft::Json::Converters
+} // namespace end def Newtonsoft::Json::Converters
 NEED_NO_BOX(::Newtonsoft::Json::Converters::BinaryConverter);
 DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Converters::BinaryConverter*, "Newtonsoft.Json.Converters", "BinaryConverter");

@@ -39,66 +39,66 @@ namespace GlobalNamespace {
 // CS Name: MultiplayerConnectedPlayerSongTimeSyncController/InitData
 class CORDL_TYPE MultiplayerConnectedPlayerSongTimeSyncController_InitData : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field songTimeOffset, offset 0x14, size 0x4
-  __declspec(property(get = __cordl_internal_get_songTimeOffset, put = __cordl_internal_set_songTimeOffset)) float_t songTimeOffset;
+// Declarations
+/// @brief Field songTimeOffset, offset 0x14, size 0x4 
+ __declspec(property(get=__cordl_internal_get_songTimeOffset, put=__cordl_internal_set_songTimeOffset)) float_t  songTimeOffset;
 
-  /// @brief Field startSongTime, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_startSongTime, put = __cordl_internal_set_startSongTime)) float_t startSongTime;
+/// @brief Field startSongTime, offset 0x10, size 0x4 
+ __declspec(property(get=__cordl_internal_get_startSongTime, put=__cordl_internal_set_startSongTime)) float_t  startSongTime;
 
-  /// @brief Field timeScale, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get_timeScale, put = __cordl_internal_set_timeScale)) float_t timeScale;
+/// @brief Field timeScale, offset 0x18, size 0x4 
+ __declspec(property(get=__cordl_internal_get_timeScale, put=__cordl_internal_set_timeScale)) float_t  timeScale;
 
-  static inline ::GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController_InitData* New_ctor(float_t startSongTime, float_t songTimeOffset, float_t timeScale);
+static inline ::GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController_InitData* New_ctor(float_t  startSongTime, float_t  songTimeOffset, float_t  timeScale) ;
 
-  constexpr float_t const& __cordl_internal_get_songTimeOffset() const;
+constexpr float_t const& __cordl_internal_get_songTimeOffset() const;
 
-  constexpr float_t& __cordl_internal_get_songTimeOffset();
+constexpr float_t& __cordl_internal_get_songTimeOffset() ;
 
-  constexpr float_t const& __cordl_internal_get_startSongTime() const;
+constexpr float_t const& __cordl_internal_get_startSongTime() const;
 
-  constexpr float_t& __cordl_internal_get_startSongTime();
+constexpr float_t& __cordl_internal_get_startSongTime() ;
 
-  constexpr float_t const& __cordl_internal_get_timeScale() const;
+constexpr float_t const& __cordl_internal_get_timeScale() const;
 
-  constexpr float_t& __cordl_internal_get_timeScale();
+constexpr float_t& __cordl_internal_get_timeScale() ;
 
-  constexpr void __cordl_internal_set_songTimeOffset(float_t value);
+constexpr void __cordl_internal_set_songTimeOffset(float_t  value) ;
 
-  constexpr void __cordl_internal_set_startSongTime(float_t value);
+constexpr void __cordl_internal_set_startSongTime(float_t  value) ;
 
-  constexpr void __cordl_internal_set_timeScale(float_t value);
+constexpr void __cordl_internal_set_timeScale(float_t  value) ;
 
-  /// @brief Method .ctor, addr 0x58839b4, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor(float_t startSongTime, float_t songTimeOffset, float_t timeScale);
+/// @brief Method .ctor, addr 0x5885260, size 0xc, virtual false, abstract: false, final false
+inline void _ctor(float_t  startSongTime, float_t  songTimeOffset, float_t  timeScale) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MultiplayerConnectedPlayerSongTimeSyncController_InitData();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr MultiplayerConnectedPlayerSongTimeSyncController_InitData() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerConnectedPlayerSongTimeSyncController_InitData", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  MultiplayerConnectedPlayerSongTimeSyncController_InitData(MultiplayerConnectedPlayerSongTimeSyncController_InitData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerConnectedPlayerSongTimeSyncController_InitData", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerConnectedPlayerSongTimeSyncController_InitData(MultiplayerConnectedPlayerSongTimeSyncController_InitData const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "MultiplayerConnectedPlayerSongTimeSyncController_InitData", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+MultiplayerConnectedPlayerSongTimeSyncController_InitData(MultiplayerConnectedPlayerSongTimeSyncController_InitData && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6071 };
+// Ctor Parameters [CppParam { name: "", ty: "MultiplayerConnectedPlayerSongTimeSyncController_InitData", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+MultiplayerConnectedPlayerSongTimeSyncController_InitData(MultiplayerConnectedPlayerSongTimeSyncController_InitData const& ) = delete;
 
-  /// @brief Field startSongTime, offset: 0x10, size: 0x4, def value: None
-  float_t ___startSongTime;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6071};
 
-  /// @brief Field songTimeOffset, offset: 0x14, size: 0x4, def value: None
-  float_t ___songTimeOffset;
+/// @brief Field startSongTime, offset: 0x10, size: 0x4, def value: None
+ float_t  ___startSongTime;
 
-  /// @brief Field timeScale, offset: 0x18, size: 0x4, def value: None
-  float_t ___timeScale;
+/// @brief Field songTimeOffset, offset: 0x14, size: 0x4, def value: None
+ float_t  ___songTimeOffset;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field timeScale, offset: 0x18, size: 0x4, def value: None
+ float_t  ___timeScale;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController_InitData, ___startSongTime) == 0x10, "Offset mismatch!");
@@ -109,258 +109,257 @@ static_assert(offsetof(::GlobalNamespace::MultiplayerConnectedPlayerSongTimeSync
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController_InitData, 0x20>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: MultiplayerConnectedPlayerSongTimeSyncController
 class CORDL_TYPE MultiplayerConnectedPlayerSongTimeSyncController : public ::UnityEngine::MonoBehaviour {
 public:
-  // Declarations
-  using InitData = ::GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController_InitData;
+// Declarations
+using InitData = ::GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController_InitData;
 
-  /// @brief Field _audioSyncLerpSpeed, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get__audioSyncLerpSpeed, put = __cordl_internal_set__audioSyncLerpSpeed)) float_t _audioSyncLerpSpeed;
+/// @brief Field _audioSyncLerpSpeed, offset 0x20, size 0x4 
+ __declspec(property(get=__cordl_internal_get__audioSyncLerpSpeed, put=__cordl_internal_set__audioSyncLerpSpeed)) float_t  _audioSyncLerpSpeed;
 
-  /// @brief Field _connectedPlayer, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__connectedPlayer, put = __cordl_internal_set__connectedPlayer)) ::GlobalNamespace::IBeatSaberConnectedPlayer* _connectedPlayer;
+/// @brief Field _connectedPlayer, offset 0x40, size 0x8 
+ __declspec(property(get=__cordl_internal_get__connectedPlayer, put=__cordl_internal_set__connectedPlayer)) ::GlobalNamespace::IBeatSaberConnectedPlayer*  _connectedPlayer;
 
-  /// @brief Field _fixingAudioSyncError, offset 0x60, size 0x1
-  __declspec(property(get = __cordl_internal_get__fixingAudioSyncError, put = __cordl_internal_set__fixingAudioSyncError)) bool _fixingAudioSyncError;
+/// @brief Field _fixingAudioSyncError, offset 0x60, size 0x1 
+ __declspec(property(get=__cordl_internal_get__fixingAudioSyncError, put=__cordl_internal_set__fixingAudioSyncError)) bool  _fixingAudioSyncError;
 
-  /// @brief Field _forcedSyncDeltaTime, offset 0x24, size 0x4
-  __declspec(property(get = __cordl_internal_get__forcedSyncDeltaTime, put = __cordl_internal_set__forcedSyncDeltaTime)) float_t _forcedSyncDeltaTime;
+/// @brief Field _forcedSyncDeltaTime, offset 0x24, size 0x4 
+ __declspec(property(get=__cordl_internal_get__forcedSyncDeltaTime, put=__cordl_internal_set__forcedSyncDeltaTime)) float_t  _forcedSyncDeltaTime;
 
-  /// @brief Field _initData, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__initData, put = __cordl_internal_set__initData)) ::GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController_InitData* _initData;
+/// @brief Field _initData, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get__initData, put=__cordl_internal_set__initData)) ::GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController_InitData*  _initData;
 
-  /// @brief Field _isReady, offset 0x61, size 0x1
-  __declspec(property(get = __cordl_internal_get__isReady, put = __cordl_internal_set__isReady)) bool _isReady;
+/// @brief Field _isReady, offset 0x61, size 0x1 
+ __declspec(property(get=__cordl_internal_get__isReady, put=__cordl_internal_set__isReady)) bool  _isReady;
 
-  /// @brief Field <lastFrameDeltaSongTime>k__BackingField, offset 0x4c, size 0x4
-  __declspec(property(get = __cordl_internal_get__lastFrameDeltaSongTime_k__BackingField,
-                      put = __cordl_internal_set__lastFrameDeltaSongTime_k__BackingField)) float_t _lastFrameDeltaSongTime_k__BackingField;
+/// @brief Field <lastFrameDeltaSongTime>k__BackingField, offset 0x4c, size 0x4 
+ __declspec(property(get=__cordl_internal_get__lastFrameDeltaSongTime_k__BackingField, put=__cordl_internal_set__lastFrameDeltaSongTime_k__BackingField)) float_t  _lastFrameDeltaSongTime_k__BackingField;
 
-  /// @brief Field _settingsManager, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__settingsManager, put = __cordl_internal_set__settingsManager)) ::GlobalNamespace::SettingsManager* _settingsManager;
+/// @brief Field _settingsManager, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get__settingsManager, put=__cordl_internal_set__settingsManager)) ::GlobalNamespace::SettingsManager*  _settingsManager;
 
-  /// @brief Field <songTime>k__BackingField, offset 0x48, size 0x4
-  __declspec(property(get = __cordl_internal_get__songTime_k__BackingField, put = __cordl_internal_set__songTime_k__BackingField)) float_t _songTime_k__BackingField;
+/// @brief Field <songTime>k__BackingField, offset 0x48, size 0x4 
+ __declspec(property(get=__cordl_internal_get__songTime_k__BackingField, put=__cordl_internal_set__songTime_k__BackingField)) float_t  _songTime_k__BackingField;
 
-  /// @brief Field _startSongSyncTime, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get__startSongSyncTime, put = __cordl_internal_set__startSongSyncTime)) int64_t _startSongSyncTime;
+/// @brief Field _startSongSyncTime, offset 0x58, size 0x8 
+ __declspec(property(get=__cordl_internal_get__startSongSyncTime, put=__cordl_internal_set__startSongSyncTime)) int64_t  _startSongSyncTime;
 
-  /// @brief Field _startSyncDeltaTime, offset 0x28, size 0x4
-  __declspec(property(get = __cordl_internal_get__startSyncDeltaTime, put = __cordl_internal_set__startSyncDeltaTime)) float_t _startSyncDeltaTime;
+/// @brief Field _startSyncDeltaTime, offset 0x28, size 0x4 
+ __declspec(property(get=__cordl_internal_get__startSyncDeltaTime, put=__cordl_internal_set__startSyncDeltaTime)) float_t  _startSyncDeltaTime;
 
-  /// @brief Field _stopSyncDeltaTime, offset 0x2c, size 0x4
-  __declspec(property(get = __cordl_internal_get__stopSyncDeltaTime, put = __cordl_internal_set__stopSyncDeltaTime)) float_t _stopSyncDeltaTime;
+/// @brief Field _stopSyncDeltaTime, offset 0x2c, size 0x4 
+ __declspec(property(get=__cordl_internal_get__stopSyncDeltaTime, put=__cordl_internal_set__stopSyncDeltaTime)) float_t  _stopSyncDeltaTime;
 
-  /// @brief Field _timeScale, offset 0x50, size 0x4
-  __declspec(property(get = __cordl_internal_get__timeScale, put = __cordl_internal_set__timeScale)) float_t _timeScale;
+/// @brief Field _timeScale, offset 0x50, size 0x4 
+ __declspec(property(get=__cordl_internal_get__timeScale, put=__cordl_internal_set__timeScale)) float_t  _timeScale;
 
-  __declspec(property(get = get_isReady)) bool isReady;
+ __declspec(property(get=get_isReady)) bool  isReady;
 
-  __declspec(property(get = get_lastFrameDeltaSongTime, put = set_lastFrameDeltaSongTime)) float_t lastFrameDeltaSongTime;
+ __declspec(property(get=get_lastFrameDeltaSongTime, put=set_lastFrameDeltaSongTime)) float_t  lastFrameDeltaSongTime;
 
-  __declspec(property(get = get_songEndTime)) float_t songEndTime;
+ __declspec(property(get=get_songEndTime)) float_t  songEndTime;
 
-  __declspec(property(get = get_songLength)) float_t songLength;
+ __declspec(property(get=get_songLength)) float_t  songLength;
 
-  __declspec(property(get = get_songTime, put = set_songTime)) float_t songTime;
+ __declspec(property(get=get_songTime, put=set_songTime)) float_t  songTime;
 
-  __declspec(property(get = get_state)) ::GlobalNamespace::IAudioTimeSource_State state;
+ __declspec(property(get=get_state)) ::GlobalNamespace::IAudioTimeSource_State  state;
 
-  __declspec(property(get = get_timeScale)) float_t timeScale;
+ __declspec(property(get=get_timeScale)) float_t  timeScale;
 
-  /// @brief Convert operator to "::GlobalNamespace::IAudioTimeSource"
-  constexpr operator ::GlobalNamespace::IAudioTimeSource*() noexcept;
+/// @brief Convert operator to "::GlobalNamespace::IAudioTimeSource"
+constexpr operator  ::GlobalNamespace::IAudioTimeSource*() noexcept;
 
-  static inline ::GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController* New_ctor();
+static inline ::GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController* New_ctor() ;
 
-  /// @brief Method SetConnectedPlayerSongTime, addr 0x5884118, size 0x38, virtual false, abstract: false, final false
-  inline void SetConnectedPlayerSongTime(int64_t syncTime, float_t songTime);
+/// @brief Method SetConnectedPlayerSongTime, addr 0x58859c4, size 0x38, virtual false, abstract: false, final false
+inline void SetConnectedPlayerSongTime(int64_t  syncTime, float_t  songTime) ;
 
-  /// @brief Method Start, addr 0x5883f8c, size 0xc, virtual false, abstract: false, final false
-  inline void Start();
+/// @brief Method Start, addr 0x5885838, size 0xc, virtual false, abstract: false, final false
+inline void Start() ;
 
-  /// @brief Method StartSong, addr 0x58820e4, size 0x14c, virtual false, abstract: false, final false
-  inline void StartSong(int64_t songStartSyncTime);
+/// @brief Method StartSong, addr 0x5883990, size 0x14c, virtual false, abstract: false, final false
+inline void StartSong(int64_t  songStartSyncTime) ;
 
-  /// @brief Method StopSong, addr 0x58823b4, size 0xc, virtual false, abstract: false, final false
-  inline void StopSong();
+/// @brief Method StopSong, addr 0x5883c60, size 0xc, virtual false, abstract: false, final false
+inline void StopSong() ;
 
-  /// @brief Method Update, addr 0x5883f98, size 0x180, virtual false, abstract: false, final false
-  inline void Update();
+/// @brief Method Update, addr 0x5885844, size 0x180, virtual false, abstract: false, final false
+inline void Update() ;
 
-  constexpr float_t const& __cordl_internal_get__audioSyncLerpSpeed() const;
+constexpr float_t const& __cordl_internal_get__audioSyncLerpSpeed() const;
 
-  constexpr float_t& __cordl_internal_get__audioSyncLerpSpeed();
+constexpr float_t& __cordl_internal_get__audioSyncLerpSpeed() ;
 
-  constexpr ::GlobalNamespace::IBeatSaberConnectedPlayer* const& __cordl_internal_get__connectedPlayer() const;
+constexpr ::GlobalNamespace::IBeatSaberConnectedPlayer* const& __cordl_internal_get__connectedPlayer() const;
 
-  constexpr ::GlobalNamespace::IBeatSaberConnectedPlayer*& __cordl_internal_get__connectedPlayer();
+constexpr ::GlobalNamespace::IBeatSaberConnectedPlayer*& __cordl_internal_get__connectedPlayer() ;
 
-  constexpr bool const& __cordl_internal_get__fixingAudioSyncError() const;
+constexpr bool const& __cordl_internal_get__fixingAudioSyncError() const;
 
-  constexpr bool& __cordl_internal_get__fixingAudioSyncError();
+constexpr bool& __cordl_internal_get__fixingAudioSyncError() ;
 
-  constexpr float_t const& __cordl_internal_get__forcedSyncDeltaTime() const;
+constexpr float_t const& __cordl_internal_get__forcedSyncDeltaTime() const;
 
-  constexpr float_t& __cordl_internal_get__forcedSyncDeltaTime();
+constexpr float_t& __cordl_internal_get__forcedSyncDeltaTime() ;
 
-  constexpr ::GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController_InitData* const& __cordl_internal_get__initData() const;
+constexpr ::GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController_InitData* const& __cordl_internal_get__initData() const;
 
-  constexpr ::GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController_InitData*& __cordl_internal_get__initData();
+constexpr ::GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController_InitData*& __cordl_internal_get__initData() ;
 
-  constexpr bool const& __cordl_internal_get__isReady() const;
+constexpr bool const& __cordl_internal_get__isReady() const;
 
-  constexpr bool& __cordl_internal_get__isReady();
+constexpr bool& __cordl_internal_get__isReady() ;
 
-  constexpr float_t const& __cordl_internal_get__lastFrameDeltaSongTime_k__BackingField() const;
+constexpr float_t const& __cordl_internal_get__lastFrameDeltaSongTime_k__BackingField() const;
 
-  constexpr float_t& __cordl_internal_get__lastFrameDeltaSongTime_k__BackingField();
+constexpr float_t& __cordl_internal_get__lastFrameDeltaSongTime_k__BackingField() ;
 
-  constexpr ::GlobalNamespace::SettingsManager* const& __cordl_internal_get__settingsManager() const;
+constexpr ::GlobalNamespace::SettingsManager* const& __cordl_internal_get__settingsManager() const;
 
-  constexpr ::GlobalNamespace::SettingsManager*& __cordl_internal_get__settingsManager();
+constexpr ::GlobalNamespace::SettingsManager*& __cordl_internal_get__settingsManager() ;
 
-  constexpr float_t const& __cordl_internal_get__songTime_k__BackingField() const;
+constexpr float_t const& __cordl_internal_get__songTime_k__BackingField() const;
 
-  constexpr float_t& __cordl_internal_get__songTime_k__BackingField();
+constexpr float_t& __cordl_internal_get__songTime_k__BackingField() ;
 
-  constexpr int64_t const& __cordl_internal_get__startSongSyncTime() const;
+constexpr int64_t const& __cordl_internal_get__startSongSyncTime() const;
 
-  constexpr int64_t& __cordl_internal_get__startSongSyncTime();
+constexpr int64_t& __cordl_internal_get__startSongSyncTime() ;
 
-  constexpr float_t const& __cordl_internal_get__startSyncDeltaTime() const;
+constexpr float_t const& __cordl_internal_get__startSyncDeltaTime() const;
 
-  constexpr float_t& __cordl_internal_get__startSyncDeltaTime();
+constexpr float_t& __cordl_internal_get__startSyncDeltaTime() ;
 
-  constexpr float_t const& __cordl_internal_get__stopSyncDeltaTime() const;
+constexpr float_t const& __cordl_internal_get__stopSyncDeltaTime() const;
 
-  constexpr float_t& __cordl_internal_get__stopSyncDeltaTime();
+constexpr float_t& __cordl_internal_get__stopSyncDeltaTime() ;
 
-  constexpr float_t const& __cordl_internal_get__timeScale() const;
+constexpr float_t const& __cordl_internal_get__timeScale() const;
 
-  constexpr float_t& __cordl_internal_get__timeScale();
+constexpr float_t& __cordl_internal_get__timeScale() ;
 
-  constexpr void __cordl_internal_set__audioSyncLerpSpeed(float_t value);
+constexpr void __cordl_internal_set__audioSyncLerpSpeed(float_t  value) ;
 
-  constexpr void __cordl_internal_set__connectedPlayer(::GlobalNamespace::IBeatSaberConnectedPlayer* value);
+constexpr void __cordl_internal_set__connectedPlayer(::GlobalNamespace::IBeatSaberConnectedPlayer*  value) ;
 
-  constexpr void __cordl_internal_set__fixingAudioSyncError(bool value);
+constexpr void __cordl_internal_set__fixingAudioSyncError(bool  value) ;
 
-  constexpr void __cordl_internal_set__forcedSyncDeltaTime(float_t value);
+constexpr void __cordl_internal_set__forcedSyncDeltaTime(float_t  value) ;
 
-  constexpr void __cordl_internal_set__initData(::GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController_InitData* value);
+constexpr void __cordl_internal_set__initData(::GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController_InitData*  value) ;
 
-  constexpr void __cordl_internal_set__isReady(bool value);
+constexpr void __cordl_internal_set__isReady(bool  value) ;
 
-  constexpr void __cordl_internal_set__lastFrameDeltaSongTime_k__BackingField(float_t value);
+constexpr void __cordl_internal_set__lastFrameDeltaSongTime_k__BackingField(float_t  value) ;
 
-  constexpr void __cordl_internal_set__settingsManager(::GlobalNamespace::SettingsManager* value);
+constexpr void __cordl_internal_set__settingsManager(::GlobalNamespace::SettingsManager*  value) ;
 
-  constexpr void __cordl_internal_set__songTime_k__BackingField(float_t value);
+constexpr void __cordl_internal_set__songTime_k__BackingField(float_t  value) ;
 
-  constexpr void __cordl_internal_set__startSongSyncTime(int64_t value);
+constexpr void __cordl_internal_set__startSongSyncTime(int64_t  value) ;
 
-  constexpr void __cordl_internal_set__startSyncDeltaTime(float_t value);
+constexpr void __cordl_internal_set__startSyncDeltaTime(float_t  value) ;
 
-  constexpr void __cordl_internal_set__stopSyncDeltaTime(float_t value);
+constexpr void __cordl_internal_set__stopSyncDeltaTime(float_t  value) ;
 
-  constexpr void __cordl_internal_set__timeScale(float_t value);
+constexpr void __cordl_internal_set__timeScale(float_t  value) ;
 
-  /// @brief Method .ctor, addr 0x5884150, size 0x10, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x58859fc, size 0x10, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_isReady, addr 0x5883f7c, size 0x8, virtual true, abstract: false, final true
-  inline bool get_isReady();
+/// @brief Method get_isReady, addr 0x5885828, size 0x8, virtual true, abstract: false, final true
+inline bool get_isReady() ;
 
-  /// @brief Method get_lastFrameDeltaSongTime, addr 0x5883f4c, size 0x8, virtual true, abstract: false, final true
-  inline float_t get_lastFrameDeltaSongTime();
+/// @brief Method get_lastFrameDeltaSongTime, addr 0x58857f8, size 0x8, virtual true, abstract: false, final true
+inline float_t get_lastFrameDeltaSongTime() ;
 
-  /// @brief Method get_songEndTime, addr 0x5883f5c, size 0xc, virtual true, abstract: false, final true
-  inline float_t get_songEndTime();
+/// @brief Method get_songEndTime, addr 0x5885808, size 0xc, virtual true, abstract: false, final true
+inline float_t get_songEndTime() ;
 
-  /// @brief Method get_songLength, addr 0x5883f68, size 0xc, virtual true, abstract: false, final true
-  inline float_t get_songLength();
+/// @brief Method get_songLength, addr 0x5885814, size 0xc, virtual true, abstract: false, final true
+inline float_t get_songLength() ;
 
-  /// @brief Method get_songTime, addr 0x5883f3c, size 0x8, virtual true, abstract: false, final true
-  inline float_t get_songTime();
+/// @brief Method get_songTime, addr 0x58857e8, size 0x8, virtual true, abstract: false, final true
+inline float_t get_songTime() ;
 
-  /// @brief Method get_state, addr 0x5883f84, size 0x8, virtual true, abstract: false, final true
-  inline ::GlobalNamespace::IAudioTimeSource_State get_state();
+/// @brief Method get_state, addr 0x5885830, size 0x8, virtual true, abstract: false, final true
+inline ::GlobalNamespace::IAudioTimeSource_State get_state() ;
 
-  /// @brief Method get_timeScale, addr 0x5883f74, size 0x8, virtual true, abstract: false, final true
-  inline float_t get_timeScale();
+/// @brief Method get_timeScale, addr 0x5885820, size 0x8, virtual true, abstract: false, final true
+inline float_t get_timeScale() ;
 
-  /// @brief Convert to "::GlobalNamespace::IAudioTimeSource"
-  constexpr ::GlobalNamespace::IAudioTimeSource* i___GlobalNamespace__IAudioTimeSource() noexcept;
+/// @brief Convert to "::GlobalNamespace::IAudioTimeSource"
+constexpr ::GlobalNamespace::IAudioTimeSource* i___GlobalNamespace__IAudioTimeSource() noexcept;
 
-  /// @brief Method set_lastFrameDeltaSongTime, addr 0x5883f54, size 0x8, virtual false, abstract: false, final false
-  inline void set_lastFrameDeltaSongTime(float_t value);
+/// @brief Method set_lastFrameDeltaSongTime, addr 0x5885800, size 0x8, virtual false, abstract: false, final false
+inline void set_lastFrameDeltaSongTime(float_t  value) ;
 
-  /// @brief Method set_songTime, addr 0x5883f44, size 0x8, virtual false, abstract: false, final false
-  inline void set_songTime(float_t value);
+/// @brief Method set_songTime, addr 0x58857f0, size 0x8, virtual false, abstract: false, final false
+inline void set_songTime(float_t  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MultiplayerConnectedPlayerSongTimeSyncController();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr MultiplayerConnectedPlayerSongTimeSyncController() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerConnectedPlayerSongTimeSyncController", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  MultiplayerConnectedPlayerSongTimeSyncController(MultiplayerConnectedPlayerSongTimeSyncController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerConnectedPlayerSongTimeSyncController", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerConnectedPlayerSongTimeSyncController(MultiplayerConnectedPlayerSongTimeSyncController const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "MultiplayerConnectedPlayerSongTimeSyncController", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+MultiplayerConnectedPlayerSongTimeSyncController(MultiplayerConnectedPlayerSongTimeSyncController && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6072 };
+// Ctor Parameters [CppParam { name: "", ty: "MultiplayerConnectedPlayerSongTimeSyncController", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+MultiplayerConnectedPlayerSongTimeSyncController(MultiplayerConnectedPlayerSongTimeSyncController const& ) = delete;
 
-  /// @brief Field _audioSyncLerpSpeed, offset: 0x20, size: 0x4, def value: None
-  float_t ____audioSyncLerpSpeed;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6072};
 
-  /// @brief Field _forcedSyncDeltaTime, offset: 0x24, size: 0x4, def value: None
-  float_t ____forcedSyncDeltaTime;
+/// @brief Field _audioSyncLerpSpeed, offset: 0x20, size: 0x4, def value: None
+ float_t  ____audioSyncLerpSpeed;
 
-  /// @brief Field _startSyncDeltaTime, offset: 0x28, size: 0x4, def value: None
-  float_t ____startSyncDeltaTime;
+/// @brief Field _forcedSyncDeltaTime, offset: 0x24, size: 0x4, def value: None
+ float_t  ____forcedSyncDeltaTime;
 
-  /// @brief Field _stopSyncDeltaTime, offset: 0x2c, size: 0x4, def value: None
-  float_t ____stopSyncDeltaTime;
+/// @brief Field _startSyncDeltaTime, offset: 0x28, size: 0x4, def value: None
+ float_t  ____startSyncDeltaTime;
 
-  /// @brief Field _settingsManager, offset: 0x30, size: 0x8, def value: None
-  ::GlobalNamespace::SettingsManager* ____settingsManager;
+/// @brief Field _stopSyncDeltaTime, offset: 0x2c, size: 0x4, def value: None
+ float_t  ____stopSyncDeltaTime;
 
-  /// @brief Field _initData, offset: 0x38, size: 0x8, def value: None
-  ::GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController_InitData* ____initData;
+/// @brief Field _settingsManager, offset: 0x30, size: 0x8, def value: None
+ ::GlobalNamespace::SettingsManager*  ____settingsManager;
 
-  /// @brief Field _connectedPlayer, offset: 0x40, size: 0x8, def value: None
-  ::GlobalNamespace::IBeatSaberConnectedPlayer* ____connectedPlayer;
+/// @brief Field _initData, offset: 0x38, size: 0x8, def value: None
+ ::GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController_InitData*  ____initData;
 
-  /// @brief Field <songTime>k__BackingField, offset: 0x48, size: 0x4, def value: None
-  float_t ____songTime_k__BackingField;
+/// @brief Field _connectedPlayer, offset: 0x40, size: 0x8, def value: None
+ ::GlobalNamespace::IBeatSaberConnectedPlayer*  ____connectedPlayer;
 
-  /// @brief Field <lastFrameDeltaSongTime>k__BackingField, offset: 0x4c, size: 0x4, def value: None
-  float_t ____lastFrameDeltaSongTime_k__BackingField;
+/// @brief Field <songTime>k__BackingField, offset: 0x48, size: 0x4, def value: None
+ float_t  ____songTime_k__BackingField;
 
-  /// @brief Field _timeScale, offset: 0x50, size: 0x4, def value: None
-  float_t ____timeScale;
+/// @brief Field <lastFrameDeltaSongTime>k__BackingField, offset: 0x4c, size: 0x4, def value: None
+ float_t  ____lastFrameDeltaSongTime_k__BackingField;
 
-  /// @brief Field _startSongSyncTime, offset: 0x58, size: 0x8, def value: None
-  int64_t ____startSongSyncTime;
+/// @brief Field _timeScale, offset: 0x50, size: 0x4, def value: None
+ float_t  ____timeScale;
 
-  /// @brief Field _fixingAudioSyncError, offset: 0x60, size: 0x1, def value: None
-  bool ____fixingAudioSyncError;
+/// @brief Field _startSongSyncTime, offset: 0x58, size: 0x8, def value: None
+ int64_t  ____startSongSyncTime;
 
-  /// @brief Field _isReady, offset: 0x61, size: 0x1, def value: None
-  bool ____isReady;
+/// @brief Field _fixingAudioSyncError, offset: 0x60, size: 0x1, def value: None
+ bool  ____fixingAudioSyncError;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _isReady, offset: 0x61, size: 0x1, def value: None
+ bool  ____isReady;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController, ____audioSyncLerpSpeed) == 0x20, "Offset mismatch!");
@@ -391,7 +390,7 @@ static_assert(offsetof(::GlobalNamespace::MultiplayerConnectedPlayerSongTimeSync
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController, 0x68>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController*, "", "MultiplayerConnectedPlayerSongTimeSyncController");
 NEED_NO_BOX(::GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController_InitData);

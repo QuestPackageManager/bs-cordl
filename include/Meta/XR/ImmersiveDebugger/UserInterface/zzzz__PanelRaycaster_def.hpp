@@ -20,51 +20,51 @@ namespace Meta::XR::ImmersiveDebugger::UserInterface {
 // CS Name: Meta.XR.ImmersiveDebugger.UserInterface.PanelRaycaster
 class CORDL_TYPE PanelRaycaster : public ::GlobalNamespace::OVRRaycaster {
 public:
-  // Declarations
-  __declspec(property(get = get_IsValid)) bool IsValid;
+// Declarations
+ __declspec(property(get=get_IsValid)) bool  IsValid;
 
-  /// @brief Method IsFocussed, addr 0x5919b30, size 0x8, virtual true, abstract: false, final false
-  inline bool IsFocussed();
+/// @brief Method IsFocussed, addr 0x591b500, size 0x8, virtual true, abstract: false, final false
+inline bool IsFocussed() ;
 
-  static inline ::Meta::XR::ImmersiveDebugger::UserInterface::PanelRaycaster* New_ctor();
+static inline ::Meta::XR::ImmersiveDebugger::UserInterface::PanelRaycaster* New_ctor() ;
 
-  /// @brief Method OnDisable, addr 0x5919b90, size 0x58, virtual true, abstract: false, final false
-  inline void OnDisable();
+/// @brief Method OnDisable, addr 0x591b560, size 0x58, virtual true, abstract: false, final false
+inline void OnDisable() ;
 
-  /// @brief Method OnEnable, addr 0x5919b38, size 0x58, virtual true, abstract: false, final false
-  inline void OnEnable();
+/// @brief Method OnEnable, addr 0x591b508, size 0x58, virtual true, abstract: false, final false
+inline void OnEnable() ;
 
-  /// @brief Method OnPointerEnter, addr 0x5919b2c, size 0x4, virtual true, abstract: false, final false
-  inline void OnPointerEnter(::UnityEngine::EventSystems::PointerEventData* e);
+/// @brief Method OnPointerEnter, addr 0x591b4fc, size 0x4, virtual true, abstract: false, final false
+inline void OnPointerEnter(::UnityEngine::EventSystems::PointerEventData*  e) ;
 
-  /// @brief Method .ctor, addr 0x5919be8, size 0x5c, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x591b5b8, size 0x5c, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_IsValid, addr 0x5918ce8, size 0x7c, virtual false, abstract: false, final false
-  inline bool get_IsValid();
+/// @brief Method get_IsValid, addr 0x591a6b8, size 0x7c, virtual false, abstract: false, final false
+inline bool get_IsValid() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PanelRaycaster();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr PanelRaycaster() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PanelRaycaster", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  PanelRaycaster(PanelRaycaster&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PanelRaycaster", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  PanelRaycaster(PanelRaycaster const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "PanelRaycaster", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+PanelRaycaster(PanelRaycaster && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18361 };
+// Ctor Parameters [CppParam { name: "", ty: "PanelRaycaster", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+PanelRaycaster(PanelRaycaster const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{18363};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Meta::XR::ImmersiveDebugger::UserInterface::PanelRaycaster, 0x70>, "Size mismatch!");
 
-} // namespace Meta::XR::ImmersiveDebugger::UserInterface
+} // namespace end def Meta::XR::ImmersiveDebugger::UserInterface
 NEED_NO_BOX(::Meta::XR::ImmersiveDebugger::UserInterface::PanelRaycaster);
 DEFINE_IL2CPP_ARG_TYPE(::Meta::XR::ImmersiveDebugger::UserInterface::PanelRaycaster*, "Meta.XR.ImmersiveDebugger.UserInterface", "PanelRaycaster");

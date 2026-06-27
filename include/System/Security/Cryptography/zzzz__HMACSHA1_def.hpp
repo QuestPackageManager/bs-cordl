@@ -18,44 +18,44 @@ namespace System::Security::Cryptography {
 // CS Name: System.Security.Cryptography.HMACSHA1
 class CORDL_TYPE HMACSHA1 : public ::System::Security::Cryptography::HMAC {
 public:
-  // Declarations
-  static inline ::System::Security::Cryptography::HMACSHA1* New_ctor();
+// Declarations
+static inline ::System::Security::Cryptography::HMACSHA1* New_ctor() ;
 
-  static inline ::System::Security::Cryptography::HMACSHA1* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
+static inline ::System::Security::Cryptography::HMACSHA1* New_ctor(::ArrayW<uint8_t,::Array<uint8_t>*>  key) ;
 
-  static inline ::System::Security::Cryptography::HMACSHA1* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key, bool useManagedSha1);
+static inline ::System::Security::Cryptography::HMACSHA1* New_ctor(::ArrayW<uint8_t,::Array<uint8_t>*>  key, bool  useManagedSha1) ;
 
-  /// @brief Method .ctor, addr 0x59bdacc, size 0x28, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x59bf644, size 0x28, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method .ctor, addr 0x59be1e0, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
+/// @brief Method .ctor, addr 0x59bfd58, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(::ArrayW<uint8_t,::Array<uint8_t>*>  key) ;
 
-  /// @brief Method .ctor, addr 0x59be1e8, size 0xb8, virtual false, abstract: false, final false
-  inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key, bool useManagedSha1);
+/// @brief Method .ctor, addr 0x59bfd60, size 0xb8, virtual false, abstract: false, final false
+inline void _ctor(::ArrayW<uint8_t,::Array<uint8_t>*>  key, bool  useManagedSha1) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HMACSHA1();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr HMACSHA1() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HMACSHA1", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  HMACSHA1(HMACSHA1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HMACSHA1", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  HMACSHA1(HMACSHA1 const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "HMACSHA1", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+HMACSHA1(HMACSHA1 && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2953 };
+// Ctor Parameters [CppParam { name: "", ty: "HMACSHA1", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+HMACSHA1(HMACSHA1 const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{2953};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Security::Cryptography::HMACSHA1, 0x68>, "Size mismatch!");
 
-} // namespace System::Security::Cryptography
+} // namespace end def System::Security::Cryptography
 NEED_NO_BOX(::System::Security::Cryptography::HMACSHA1);
 DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::HMACSHA1*, "System.Security.Cryptography", "HMACSHA1");

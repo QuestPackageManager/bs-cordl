@@ -12,33 +12,33 @@ struct VFXBatchInfo;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::VFX::VFXBatchInfo);
-// Dependencies
+// Dependencies 
 namespace UnityEngine::VFX {
 // Is value type: true
 // CS Name: UnityEngine.VFX.VFXBatchInfo
 struct CORDL_TYPE VFXBatchInfo {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr VFXBatchInfo();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr VFXBatchInfo() ;
 
-  // Ctor Parameters [CppParam { name: "capacity", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "activeInstanceCount", ty: "uint32_t", modifiers: "", def_value: None }]
-  constexpr VFXBatchInfo(uint32_t capacity, uint32_t activeInstanceCount) noexcept;
+// Ctor Parameters [CppParam { name: "capacity", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "activeInstanceCount", ty: "uint32_t", modifiers: "", def_value: None }]
+constexpr VFXBatchInfo(uint32_t  capacity, uint32_t  activeInstanceCount) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22723 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22727};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x8};
 
-  /// @brief Field capacity, offset: 0x0, size: 0x4, def value: None
-  uint32_t capacity;
+/// @brief Field capacity, offset: 0x0, size: 0x4, def value: None
+ uint32_t  capacity;
 
-  /// @brief Field activeInstanceCount, offset: 0x4, size: 0x4, def value: None
-  uint32_t activeInstanceCount;
+/// @brief Field activeInstanceCount, offset: 0x4, size: 0x4, def value: None
+ uint32_t  activeInstanceCount;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::VFX::VFXBatchInfo, capacity) == 0x0, "Offset mismatch!");
@@ -47,5 +47,5 @@ static_assert(offsetof(::UnityEngine::VFX::VFXBatchInfo, activeInstanceCount) ==
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::VFX::VFXBatchInfo, 0x8>, "Size mismatch!");
 
-} // namespace UnityEngine::VFX
+} // namespace end def UnityEngine::VFX
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::VFX::VFXBatchInfo, "UnityEngine.VFX", "VFXBatchInfo");

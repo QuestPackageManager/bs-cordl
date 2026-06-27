@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "System/Runtime/InteropServices/Architecture.hpp"
 #include "System/Runtime/InteropServices/COMException.hpp"
@@ -42,5 +42,6 @@ module;
 #include "System/Runtime/InteropServices/UnmanagedType.hpp"
 #include "System/Runtime/InteropServices/VarEnum.hpp"
 #ifdef __cpp_modules
-export module InteropServices;
-#endif
+                    export module InteropServices;
+                    #endif
+                

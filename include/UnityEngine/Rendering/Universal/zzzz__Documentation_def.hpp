@@ -18,40 +18,40 @@ namespace UnityEngine::Rendering::Universal {
 // CS Name: UnityEngine.Rendering.Universal.Documentation
 class CORDL_TYPE Documentation : public ::UnityEngine::Rendering::DocumentationInfo {
 public:
-  // Declarations
-  /// @brief Method GetPageLink, addr 0x672ee2c, size 0x50, virtual false, abstract: false, final false
-  static inline ::StringW GetPageLink(::StringW pageName);
+// Declarations
+/// @brief Method GetPageLink, addr 0x67309a4, size 0x50, virtual false, abstract: false, final false
+static inline ::StringW GetPageLink(::StringW  pageName) ;
 
-  static inline ::UnityEngine::Rendering::Universal::Documentation* New_ctor();
+static inline ::UnityEngine::Rendering::Universal::Documentation* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x672ee7c, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x67309f4, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Documentation();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr Documentation() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Documentation", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  Documentation(Documentation&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Documentation", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  Documentation(Documentation const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "Documentation", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Documentation(Documentation && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12734 };
+// Ctor Parameters [CppParam { name: "", ty: "Documentation", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Documentation(Documentation const& ) = delete;
 
-  /// @brief Field packageName offset 0xffffffff size 0x8
-  static constexpr ::ConstString packageName{ u"com.unity.render-pipelines.universal" };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12735};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field packageName offset 0xffffffff size 0x8
+static constexpr ::ConstString  packageName{u"com.unity.render-pipelines.universal"};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::Universal::Documentation, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::Rendering::Universal
+} // namespace end def UnityEngine::Rendering::Universal
 NEED_NO_BOX(::UnityEngine::Rendering::Universal::Documentation);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::Universal::Documentation*, "UnityEngine.Rendering.Universal", "Documentation");

@@ -9,7 +9,8 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(DebugScreenCapture)
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+template<typename T>
+struct NativeArray_1;
 }
 namespace UnityEngine {
 struct TextureFormat;
@@ -26,56 +27,53 @@ namespace Unity::Profiling {
 // CS Name: Unity.Profiling.DebugScreenCapture
 struct CORDL_TYPE DebugScreenCapture {
 public:
-  // Declarations
-  __declspec(property(put = set_Height)) int32_t Height;
+// Declarations
+ __declspec(property(put=set_Height)) int32_t  Height;
 
-  __declspec(property(put = set_ImageFormat)) ::UnityEngine::TextureFormat ImageFormat;
+ __declspec(property(put=set_ImageFormat)) ::UnityEngine::TextureFormat  ImageFormat;
 
-  __declspec(property(put = set_RawImageDataReference)) ::Unity::Collections::NativeArray_1<uint8_t> RawImageDataReference;
+ __declspec(property(put=set_RawImageDataReference)) ::Unity::Collections::NativeArray_1<uint8_t>  RawImageDataReference;
 
-  __declspec(property(put = set_Width)) int32_t Width;
+ __declspec(property(put=set_Width)) int32_t  Width;
 
-  /// @brief Method set_Height, addr 0x69039c8, size 0x8, virtual false, abstract: false, final false
-  inline void set_Height(int32_t value);
+/// @brief Method set_Height, addr 0x6905540, size 0x8, virtual false, abstract: false, final false
+inline void set_Height(int32_t  value) ;
 
-  /// @brief Method set_ImageFormat, addr 0x69039b8, size 0x8, virtual false, abstract: false, final false
-  inline void set_ImageFormat(::UnityEngine::TextureFormat value);
+/// @brief Method set_ImageFormat, addr 0x6905530, size 0x8, virtual false, abstract: false, final false
+inline void set_ImageFormat(::UnityEngine::TextureFormat  value) ;
 
-  /// @brief Method set_RawImageDataReference, addr 0x69039b0, size 0x8, virtual false, abstract: false, final false
-  inline void set_RawImageDataReference(::Unity::Collections::NativeArray_1<uint8_t> value);
+/// @brief Method set_RawImageDataReference, addr 0x6905528, size 0x8, virtual false, abstract: false, final false
+inline void set_RawImageDataReference(::Unity::Collections::NativeArray_1<uint8_t>  value) ;
 
-  /// @brief Method set_Width, addr 0x69039c0, size 0x8, virtual false, abstract: false, final false
-  inline void set_Width(int32_t value);
+/// @brief Method set_Width, addr 0x6905538, size 0x8, virtual false, abstract: false, final false
+inline void set_Width(int32_t  value) ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DebugScreenCapture();
+// Ctor Parameters []
+// @brief default ctor
+constexpr DebugScreenCapture() ;
 
-  // Ctor Parameters [CppParam { name: "_RawImageDataReference_k__BackingField", ty: "::Unity::Collections::NativeArray_1<uint8_t>", modifiers: "", def_value: None }, CppParam { name:
-  // "_ImageFormat_k__BackingField", ty: "::UnityEngine::TextureFormat", modifiers: "", def_value: None }, CppParam { name: "_Width_k__BackingField", ty: "int32_t", modifiers: "", def_value: None },
-  // CppParam { name: "_Height_k__BackingField", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr DebugScreenCapture(::Unity::Collections::NativeArray_1<uint8_t> _RawImageDataReference_k__BackingField, ::UnityEngine::TextureFormat _ImageFormat_k__BackingField,
-                               int32_t _Width_k__BackingField, int32_t _Height_k__BackingField) noexcept;
+// Ctor Parameters [CppParam { name: "_RawImageDataReference_k__BackingField", ty: "::Unity::Collections::NativeArray_1<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "_ImageFormat_k__BackingField", ty: "::UnityEngine::TextureFormat", modifiers: "", def_value: None }, CppParam { name: "_Width_k__BackingField", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_Height_k__BackingField", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr DebugScreenCapture(::Unity::Collections::NativeArray_1<uint8_t>  _RawImageDataReference_k__BackingField, ::UnityEngine::TextureFormat  _ImageFormat_k__BackingField, int32_t  _Width_k__BackingField, int32_t  _Height_k__BackingField) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9942 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9943};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x20};
 
-  /// @brief Field <RawImageDataReference>k__BackingField, offset: 0x0, size: 0x10, def value: None
-  ::Unity::Collections::NativeArray_1<uint8_t> _RawImageDataReference_k__BackingField;
+/// @brief Field <RawImageDataReference>k__BackingField, offset: 0x0, size: 0x10, def value: None
+ ::Unity::Collections::NativeArray_1<uint8_t>  _RawImageDataReference_k__BackingField;
 
-  /// @brief Field <ImageFormat>k__BackingField, offset: 0x10, size: 0x4, def value: None
-  ::UnityEngine::TextureFormat _ImageFormat_k__BackingField;
+/// @brief Field <ImageFormat>k__BackingField, offset: 0x10, size: 0x4, def value: None
+ ::UnityEngine::TextureFormat  _ImageFormat_k__BackingField;
 
-  /// @brief Field <Width>k__BackingField, offset: 0x14, size: 0x4, def value: None
-  int32_t _Width_k__BackingField;
+/// @brief Field <Width>k__BackingField, offset: 0x14, size: 0x4, def value: None
+ int32_t  _Width_k__BackingField;
 
-  /// @brief Field <Height>k__BackingField, offset: 0x18, size: 0x4, def value: None
-  int32_t _Height_k__BackingField;
+/// @brief Field <Height>k__BackingField, offset: 0x18, size: 0x4, def value: None
+ int32_t  _Height_k__BackingField;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::Unity::Profiling::DebugScreenCapture, _RawImageDataReference_k__BackingField) == 0x0, "Offset mismatch!");
@@ -88,5 +86,5 @@ static_assert(offsetof(::Unity::Profiling::DebugScreenCapture, _Height_k__Backin
 
 static_assert(::cordl_internals::size_check_v<::Unity::Profiling::DebugScreenCapture, 0x20>, "Size mismatch!");
 
-} // namespace Unity::Profiling
+} // namespace end def Unity::Profiling
 DEFINE_IL2CPP_ARG_TYPE(::Unity::Profiling::DebugScreenCapture, "Unity.Profiling", "DebugScreenCapture");

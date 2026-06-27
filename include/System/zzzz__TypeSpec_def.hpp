@@ -9,7 +9,8 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TypeSpec)
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template<typename T>
+class List_1;
 }
 namespace System::Reflection {
 class AssemblyName;
@@ -24,10 +25,12 @@ namespace System::Threading {
 struct StackCrawlMark;
 }
 namespace System {
-template <typename T, typename TResult> class Func_2;
+template<typename T,typename TResult>
+class Func_2;
 }
 namespace System {
-template <typename T1, typename T2, typename T3, typename TResult> class Func_4;
+template<typename T1,typename T2,typename T3,typename TResult>
+class Func_4;
 }
 namespace System {
 class ModifierSpec;
@@ -51,226 +54,224 @@ class TypeSpec;
 // Write type traits
 MARK_VAL_T(::System::TypeSpec_DisplayNameFormat);
 MARK_REF_PTR_T(::System::TypeSpec);
-// Dependencies
+// Dependencies 
 namespace System {
 // Is value type: true
 // CS Name: System.TypeSpec/DisplayNameFormat
 struct CORDL_TYPE TypeSpec_DisplayNameFormat {
 public:
-  // Declarations
-  using __CORDL_BACKING_ENUM_TYPE = int32_t;
+// Declarations
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct __TypeSpec_DisplayNameFormat_Unwrapped
-  enum struct __TypeSpec_DisplayNameFormat_Unwrapped : int32_t {
-    __E_Default = static_cast<int32_t>(0x0),
-    __E_WANT_ASSEMBLY = static_cast<int32_t>(0x1),
-    __E_NO_MODIFIERS = static_cast<int32_t>(0x2),
-  };
+/// @brief Nested struct __TypeSpec_DisplayNameFormat_Unwrapped
+enum struct __TypeSpec_DisplayNameFormat_Unwrapped : int32_t {
+__E_Default = static_cast<int32_t>(0x0),
+__E_WANT_ASSEMBLY = static_cast<int32_t>(0x1),
+__E_NO_MODIFIERS = static_cast<int32_t>(0x2),
+};
 
-  /// @brief Conversion into unwrapped enum value
-  constexpr operator __TypeSpec_DisplayNameFormat_Unwrapped() const noexcept {
-    return static_cast<__TypeSpec_DisplayNameFormat_Unwrapped>(this->value__);
-  }
+/// @brief Conversion into unwrapped enum value
+constexpr operator __TypeSpec_DisplayNameFormat_Unwrapped () const noexcept {
+return static_cast<__TypeSpec_DisplayNameFormat_Unwrapped>(this->value__);
+}
 
-  /// @brief Conversion into unwrapped enum value
-  constexpr explicit operator int32_t() const noexcept {
-    return static_cast<int32_t>(this->value__);
-  }
+/// @brief Conversion into unwrapped enum value
+constexpr explicit operator int32_t () const noexcept {
+return static_cast<int32_t>(this->value__);
+}
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TypeSpec_DisplayNameFormat();
+// Ctor Parameters []
+// @brief default ctor
+constexpr TypeSpec_DisplayNameFormat() ;
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr TypeSpec_DisplayNameFormat(int32_t value__) noexcept;
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr TypeSpec_DisplayNameFormat(int32_t  value__) noexcept;
 
-  /// @brief Field Default value: I32(0)
-  static ::System::TypeSpec_DisplayNameFormat const Default;
+/// @brief Field Default value: I32(0)
+static ::System::TypeSpec_DisplayNameFormat const Default;
 
-  /// @brief Field NO_MODIFIERS value: I32(2)
-  static ::System::TypeSpec_DisplayNameFormat const NO_MODIFIERS;
+/// @brief Field NO_MODIFIERS value: I32(2)
+static ::System::TypeSpec_DisplayNameFormat const NO_MODIFIERS;
 
-  /// @brief Field WANT_ASSEMBLY value: I32(1)
-  static ::System::TypeSpec_DisplayNameFormat const WANT_ASSEMBLY;
+/// @brief Field WANT_ASSEMBLY value: I32(1)
+static ::System::TypeSpec_DisplayNameFormat const WANT_ASSEMBLY;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2646 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{2646};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x4};
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+/// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+ int32_t  value__;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::System::TypeSpec_DisplayNameFormat, value__) == 0x0, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::System::TypeSpec_DisplayNameFormat, 0x4>, "Size mismatch!");
 
-} // namespace System
+} // namespace end def System
 // Dependencies System.Object
 namespace System {
 // Is value type: false
 // CS Name: System.TypeSpec
 class CORDL_TYPE TypeSpec : public ::System::Object {
 public:
-  // Declarations
-  using DisplayNameFormat = ::System::TypeSpec_DisplayNameFormat;
+// Declarations
+using DisplayNameFormat = ::System::TypeSpec_DisplayNameFormat;
 
-  __declspec(property(get = get_DisplayFullName)) ::StringW DisplayFullName;
+ __declspec(property(get=get_DisplayFullName)) ::StringW  DisplayFullName;
 
-  __declspec(property(get = get_HasModifiers)) bool HasModifiers;
+ __declspec(property(get=get_HasModifiers)) bool  HasModifiers;
 
-  /// @brief Field assembly_name, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_assembly_name, put = __cordl_internal_set_assembly_name)) ::StringW assembly_name;
+/// @brief Field assembly_name, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_assembly_name, put=__cordl_internal_set_assembly_name)) ::StringW  assembly_name;
 
-  /// @brief Field display_fullname, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_display_fullname, put = __cordl_internal_set_display_fullname)) ::StringW display_fullname;
+/// @brief Field display_fullname, offset 0x40, size 0x8 
+ __declspec(property(get=__cordl_internal_get_display_fullname, put=__cordl_internal_set_display_fullname)) ::StringW  display_fullname;
 
-  /// @brief Field generic_params, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_generic_params, put = __cordl_internal_set_generic_params)) ::System::Collections::Generic::List_1<::System::TypeSpec*>* generic_params;
+/// @brief Field generic_params, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get_generic_params, put=__cordl_internal_set_generic_params)) ::System::Collections::Generic::List_1<::System::TypeSpec*>*  generic_params;
 
-  /// @brief Field is_byref, offset 0x38, size 0x1
-  __declspec(property(get = __cordl_internal_get_is_byref, put = __cordl_internal_set_is_byref)) bool is_byref;
+/// @brief Field is_byref, offset 0x38, size 0x1 
+ __declspec(property(get=__cordl_internal_get_is_byref, put=__cordl_internal_set_is_byref)) bool  is_byref;
 
-  /// @brief Field modifier_spec, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_modifier_spec, put = __cordl_internal_set_modifier_spec)) ::System::Collections::Generic::List_1<::System::ModifierSpec*>* modifier_spec;
+/// @brief Field modifier_spec, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get_modifier_spec, put=__cordl_internal_set_modifier_spec)) ::System::Collections::Generic::List_1<::System::ModifierSpec*>*  modifier_spec;
 
-  /// @brief Field name, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name)) ::System::TypeIdentifier* name;
+/// @brief Field name, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_name, put=__cordl_internal_set_name)) ::System::TypeIdentifier*  name;
 
-  /// @brief Field nested, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_nested, put = __cordl_internal_set_nested)) ::System::Collections::Generic::List_1<::System::TypeIdentifier*>* nested;
+/// @brief Field nested, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_nested, put=__cordl_internal_set_nested)) ::System::Collections::Generic::List_1<::System::TypeIdentifier*>*  nested;
 
-  /// @brief Method AddModifier, addr 0x5b62be8, size 0x104, virtual false, abstract: false, final false
-  inline void AddModifier(::System::ModifierSpec* md);
+/// @brief Method AddModifier, addr 0x5b64760, size 0x104, virtual false, abstract: false, final false
+inline void AddModifier(::System::ModifierSpec*  md) ;
 
-  /// @brief Method AddName, addr 0x5b62ab4, size 0x130, virtual false, abstract: false, final false
-  inline void AddName(::StringW type_name);
+/// @brief Method AddName, addr 0x5b6462c, size 0x130, virtual false, abstract: false, final false
+inline void AddName(::StringW  type_name) ;
 
-  /// @brief Method BoundCheck, addr 0x5b62d88, size 0x84, virtual false, abstract: false, final false
-  static inline void BoundCheck(int32_t idx, ::StringW s);
+/// @brief Method BoundCheck, addr 0x5b64900, size 0x84, virtual false, abstract: false, final false
+static inline void BoundCheck(int32_t  idx, ::StringW  s) ;
 
-  /// @brief Method GetDisplayFullName, addr 0x5b610ac, size 0x420, virtual false, abstract: false, final false
-  inline ::StringW GetDisplayFullName(::System::TypeSpec_DisplayNameFormat flags);
+/// @brief Method GetDisplayFullName, addr 0x5b62c24, size 0x420, virtual false, abstract: false, final false
+inline ::StringW GetDisplayFullName(::System::TypeSpec_DisplayNameFormat  flags) ;
 
-  /// @brief Method GetModifierString, addr 0x5b614f4, size 0x1a4, virtual false, abstract: false, final false
-  inline ::System::Text::StringBuilder* GetModifierString(::System::Text::StringBuilder* sb);
+/// @brief Method GetModifierString, addr 0x5b6306c, size 0x1a4, virtual false, abstract: false, final false
+inline ::System::Text::StringBuilder* GetModifierString(::System::Text::StringBuilder*  sb) ;
 
-  static inline ::System::TypeSpec* New_ctor();
+static inline ::System::TypeSpec* New_ctor() ;
 
-  /// @brief Method Parse, addr 0x5b61768, size 0xac4, virtual false, abstract: false, final false
-  static inline ::System::TypeSpec* Parse(::StringW name, ::ByRef<int32_t> p, bool is_recurse, bool allow_aqn);
+/// @brief Method Parse, addr 0x5b632e0, size 0xac4, virtual false, abstract: false, final false
+static inline ::System::TypeSpec* Parse(::StringW  name, ::ByRef<int32_t>  p, bool  is_recurse, bool  allow_aqn) ;
 
-  /// @brief Method Parse, addr 0x5b61698, size 0xd0, virtual false, abstract: false, final false
-  static inline ::System::TypeSpec* Parse(::StringW typeName);
+/// @brief Method Parse, addr 0x5b63210, size 0xd0, virtual false, abstract: false, final false
+static inline ::System::TypeSpec* Parse(::StringW  typeName) ;
 
-  /// @brief Method ParsedTypeIdentifier, addr 0x5b62be4, size 0x4, virtual false, abstract: false, final false
-  static inline ::System::TypeIdentifier* ParsedTypeIdentifier(::StringW displayName);
+/// @brief Method ParsedTypeIdentifier, addr 0x5b6475c, size 0x4, virtual false, abstract: false, final false
+static inline ::System::TypeIdentifier* ParsedTypeIdentifier(::StringW  displayName) ;
 
-  /// @brief Method Resolve, addr 0x5b6222c, size 0x888, virtual false, abstract: false, final false
-  inline ::System::Type* Resolve(::System::Func_2<::System::Reflection::AssemblyName*, ::System::Reflection::Assembly*>* assemblyResolver,
-                                 ::System::Func_4<::System::Reflection::Assembly*, ::StringW, bool, ::System::Type*>* typeResolver, bool throwOnError, bool ignoreCase,
-                                 ::ByRef<::System::Threading::StackCrawlMark> stackMark);
+/// @brief Method Resolve, addr 0x5b63da4, size 0x888, virtual false, abstract: false, final false
+inline ::System::Type* Resolve(::System::Func_2<::System::Reflection::AssemblyName*,::System::Reflection::Assembly*>*  assemblyResolver, ::System::Func_4<::System::Reflection::Assembly*,::StringW,bool,::System::Type*>*  typeResolver, bool  throwOnError, bool  ignoreCase, ::ByRef<::System::Threading::StackCrawlMark>  stackMark) ;
 
-  /// @brief Method SkipSpace, addr 0x5b62cec, size 0x9c, virtual false, abstract: false, final false
-  static inline void SkipSpace(::StringW name, ::ByRef<int32_t> pos);
+/// @brief Method SkipSpace, addr 0x5b64864, size 0x9c, virtual false, abstract: false, final false
+static inline void SkipSpace(::StringW  name, ::ByRef<int32_t>  pos) ;
 
-  /// @brief Method UnescapeInternalName, addr 0x5b60cfc, size 0x104, virtual false, abstract: false, final false
-  static inline ::StringW UnescapeInternalName(::StringW displayName);
+/// @brief Method UnescapeInternalName, addr 0x5b62874, size 0x104, virtual false, abstract: false, final false
+static inline ::StringW UnescapeInternalName(::StringW  displayName) ;
 
-  constexpr ::StringW const& __cordl_internal_get_assembly_name() const;
+constexpr ::StringW const& __cordl_internal_get_assembly_name() const;
 
-  constexpr ::StringW& __cordl_internal_get_assembly_name();
+constexpr ::StringW& __cordl_internal_get_assembly_name() ;
 
-  constexpr ::StringW const& __cordl_internal_get_display_fullname() const;
+constexpr ::StringW const& __cordl_internal_get_display_fullname() const;
 
-  constexpr ::StringW& __cordl_internal_get_display_fullname();
+constexpr ::StringW& __cordl_internal_get_display_fullname() ;
 
-  constexpr ::System::Collections::Generic::List_1<::System::TypeSpec*>* const& __cordl_internal_get_generic_params() const;
+constexpr ::System::Collections::Generic::List_1<::System::TypeSpec*>* const& __cordl_internal_get_generic_params() const;
 
-  constexpr ::System::Collections::Generic::List_1<::System::TypeSpec*>*& __cordl_internal_get_generic_params();
+constexpr ::System::Collections::Generic::List_1<::System::TypeSpec*>*& __cordl_internal_get_generic_params() ;
 
-  constexpr bool const& __cordl_internal_get_is_byref() const;
+constexpr bool const& __cordl_internal_get_is_byref() const;
 
-  constexpr bool& __cordl_internal_get_is_byref();
+constexpr bool& __cordl_internal_get_is_byref() ;
 
-  constexpr ::System::Collections::Generic::List_1<::System::ModifierSpec*>* const& __cordl_internal_get_modifier_spec() const;
+constexpr ::System::Collections::Generic::List_1<::System::ModifierSpec*>* const& __cordl_internal_get_modifier_spec() const;
 
-  constexpr ::System::Collections::Generic::List_1<::System::ModifierSpec*>*& __cordl_internal_get_modifier_spec();
+constexpr ::System::Collections::Generic::List_1<::System::ModifierSpec*>*& __cordl_internal_get_modifier_spec() ;
 
-  constexpr ::System::TypeIdentifier* const& __cordl_internal_get_name() const;
+constexpr ::System::TypeIdentifier* const& __cordl_internal_get_name() const;
 
-  constexpr ::System::TypeIdentifier*& __cordl_internal_get_name();
+constexpr ::System::TypeIdentifier*& __cordl_internal_get_name() ;
 
-  constexpr ::System::Collections::Generic::List_1<::System::TypeIdentifier*>* const& __cordl_internal_get_nested() const;
+constexpr ::System::Collections::Generic::List_1<::System::TypeIdentifier*>* const& __cordl_internal_get_nested() const;
 
-  constexpr ::System::Collections::Generic::List_1<::System::TypeIdentifier*>*& __cordl_internal_get_nested();
+constexpr ::System::Collections::Generic::List_1<::System::TypeIdentifier*>*& __cordl_internal_get_nested() ;
 
-  constexpr void __cordl_internal_set_assembly_name(::StringW value);
+constexpr void __cordl_internal_set_assembly_name(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_display_fullname(::StringW value);
+constexpr void __cordl_internal_set_display_fullname(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_generic_params(::System::Collections::Generic::List_1<::System::TypeSpec*>* value);
+constexpr void __cordl_internal_set_generic_params(::System::Collections::Generic::List_1<::System::TypeSpec*>*  value) ;
 
-  constexpr void __cordl_internal_set_is_byref(bool value);
+constexpr void __cordl_internal_set_is_byref(bool  value) ;
 
-  constexpr void __cordl_internal_set_modifier_spec(::System::Collections::Generic::List_1<::System::ModifierSpec*>* value);
+constexpr void __cordl_internal_set_modifier_spec(::System::Collections::Generic::List_1<::System::ModifierSpec*>*  value) ;
 
-  constexpr void __cordl_internal_set_name(::System::TypeIdentifier* value);
+constexpr void __cordl_internal_set_name(::System::TypeIdentifier*  value) ;
 
-  constexpr void __cordl_internal_set_nested(::System::Collections::Generic::List_1<::System::TypeIdentifier*>* value);
+constexpr void __cordl_internal_set_nested(::System::Collections::Generic::List_1<::System::TypeIdentifier*>*  value) ;
 
-  /// @brief Method .ctor, addr 0x5b62e0c, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5b64984, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_DisplayFullName, addr 0x5b614cc, size 0x28, virtual false, abstract: false, final false
-  inline ::StringW get_DisplayFullName();
+/// @brief Method get_DisplayFullName, addr 0x5b63044, size 0x28, virtual false, abstract: false, final false
+inline ::StringW get_DisplayFullName() ;
 
-  /// @brief Method get_HasModifiers, addr 0x5b6109c, size 0x10, virtual false, abstract: false, final false
-  inline bool get_HasModifiers();
+/// @brief Method get_HasModifiers, addr 0x5b62c14, size 0x10, virtual false, abstract: false, final false
+inline bool get_HasModifiers() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TypeSpec();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr TypeSpec() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TypeSpec", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  TypeSpec(TypeSpec&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TypeSpec", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  TypeSpec(TypeSpec const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "TypeSpec", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+TypeSpec(TypeSpec && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2647 };
+// Ctor Parameters [CppParam { name: "", ty: "TypeSpec", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+TypeSpec(TypeSpec const& ) = delete;
 
-  /// @brief Field name, offset: 0x10, size: 0x8, def value: None
-  ::System::TypeIdentifier* ___name;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{2647};
 
-  /// @brief Field assembly_name, offset: 0x18, size: 0x8, def value: None
-  ::StringW ___assembly_name;
+/// @brief Field name, offset: 0x10, size: 0x8, def value: None
+ ::System::TypeIdentifier*  ___name;
 
-  /// @brief Field nested, offset: 0x20, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::System::TypeIdentifier*>* ___nested;
+/// @brief Field assembly_name, offset: 0x18, size: 0x8, def value: None
+ ::StringW  ___assembly_name;
 
-  /// @brief Field generic_params, offset: 0x28, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::System::TypeSpec*>* ___generic_params;
+/// @brief Field nested, offset: 0x20, size: 0x8, def value: None
+ ::System::Collections::Generic::List_1<::System::TypeIdentifier*>*  ___nested;
 
-  /// @brief Field modifier_spec, offset: 0x30, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::System::ModifierSpec*>* ___modifier_spec;
+/// @brief Field generic_params, offset: 0x28, size: 0x8, def value: None
+ ::System::Collections::Generic::List_1<::System::TypeSpec*>*  ___generic_params;
 
-  /// @brief Field is_byref, offset: 0x38, size: 0x1, def value: None
-  bool ___is_byref;
+/// @brief Field modifier_spec, offset: 0x30, size: 0x8, def value: None
+ ::System::Collections::Generic::List_1<::System::ModifierSpec*>*  ___modifier_spec;
 
-  /// @brief Field display_fullname, offset: 0x40, size: 0x8, def value: None
-  ::StringW ___display_fullname;
+/// @brief Field is_byref, offset: 0x38, size: 0x1, def value: None
+ bool  ___is_byref;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field display_fullname, offset: 0x40, size: 0x8, def value: None
+ ::StringW  ___display_fullname;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::TypeSpec, ___name) == 0x10, "Offset mismatch!");
@@ -289,7 +290,7 @@ static_assert(offsetof(::System::TypeSpec, ___display_fullname) == 0x40, "Offset
 
 static_assert(::cordl_internals::size_check_v<::System::TypeSpec, 0x48>, "Size mismatch!");
 
-} // namespace System
+} // namespace end def System
 DEFINE_IL2CPP_ARG_TYPE(::System::TypeSpec_DisplayNameFormat, "System", "TypeSpec/DisplayNameFormat");
 NEED_NO_BOX(::System::TypeSpec);
 DEFINE_IL2CPP_ARG_TYPE(::System::TypeSpec*, "System", "TypeSpec");

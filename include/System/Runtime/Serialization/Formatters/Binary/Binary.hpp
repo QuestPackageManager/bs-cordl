@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "System/Runtime/Serialization/Formatters/Binary/BinaryArray.hpp"
 #include "System/Runtime/Serialization/Formatters/Binary/BinaryArrayTypeEnum.hpp"
@@ -58,5 +58,6 @@ module;
 #include "System/Runtime/Serialization/Formatters/Binary/ValueFixupEnum.hpp"
 #include "System/Runtime/Serialization/Formatters/Binary/WriteObjectInfo.hpp"
 #ifdef __cpp_modules
-export module Binary;
-#endif
+                    export module Binary;
+                    #endif
+                

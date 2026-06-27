@@ -12,67 +12,67 @@ struct IgnoranceCommandType;
 }
 // Write type traits
 MARK_VAL_T(::IgnoranceCore::IgnoranceCommandType);
-// Dependencies
+// Dependencies 
 namespace IgnoranceCore {
 // Is value type: true
 // CS Name: IgnoranceCore.IgnoranceCommandType
 struct CORDL_TYPE IgnoranceCommandType {
 public:
-  // Declarations
-  using __CORDL_BACKING_ENUM_TYPE = int32_t;
+// Declarations
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct __IgnoranceCommandType_Unwrapped
-  enum struct __IgnoranceCommandType_Unwrapped : int32_t {
-    __E_ClientWantsToStop = static_cast<int32_t>(0x0),
-    __E_ClientStatusRequest = static_cast<int32_t>(0x1),
-    __E_ServerKickPeer = static_cast<int32_t>(0x2),
-    __E_ServerStatusRequest = static_cast<int32_t>(0x3),
-  };
+/// @brief Nested struct __IgnoranceCommandType_Unwrapped
+enum struct __IgnoranceCommandType_Unwrapped : int32_t {
+__E_ClientWantsToStop = static_cast<int32_t>(0x0),
+__E_ClientStatusRequest = static_cast<int32_t>(0x1),
+__E_ServerKickPeer = static_cast<int32_t>(0x2),
+__E_ServerStatusRequest = static_cast<int32_t>(0x3),
+};
 
-  /// @brief Conversion into unwrapped enum value
-  constexpr operator __IgnoranceCommandType_Unwrapped() const noexcept {
-    return static_cast<__IgnoranceCommandType_Unwrapped>(this->value__);
-  }
+/// @brief Conversion into unwrapped enum value
+constexpr operator __IgnoranceCommandType_Unwrapped () const noexcept {
+return static_cast<__IgnoranceCommandType_Unwrapped>(this->value__);
+}
 
-  /// @brief Conversion into unwrapped enum value
-  constexpr explicit operator int32_t() const noexcept {
-    return static_cast<int32_t>(this->value__);
-  }
+/// @brief Conversion into unwrapped enum value
+constexpr explicit operator int32_t () const noexcept {
+return static_cast<int32_t>(this->value__);
+}
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IgnoranceCommandType();
+// Ctor Parameters []
+// @brief default ctor
+constexpr IgnoranceCommandType() ;
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr IgnoranceCommandType(int32_t value__) noexcept;
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr IgnoranceCommandType(int32_t  value__) noexcept;
 
-  /// @brief Field ClientStatusRequest value: I32(1)
-  static ::IgnoranceCore::IgnoranceCommandType const ClientStatusRequest;
+/// @brief Field ClientStatusRequest value: I32(1)
+static ::IgnoranceCore::IgnoranceCommandType const ClientStatusRequest;
 
-  /// @brief Field ClientWantsToStop value: I32(0)
-  static ::IgnoranceCore::IgnoranceCommandType const ClientWantsToStop;
+/// @brief Field ClientWantsToStop value: I32(0)
+static ::IgnoranceCore::IgnoranceCommandType const ClientWantsToStop;
 
-  /// @brief Field ServerKickPeer value: I32(2)
-  static ::IgnoranceCore::IgnoranceCommandType const ServerKickPeer;
+/// @brief Field ServerKickPeer value: I32(2)
+static ::IgnoranceCore::IgnoranceCommandType const ServerKickPeer;
 
-  /// @brief Field ServerStatusRequest value: I32(3)
-  static ::IgnoranceCore::IgnoranceCommandType const ServerStatusRequest;
+/// @brief Field ServerStatusRequest value: I32(3)
+static ::IgnoranceCore::IgnoranceCommandType const ServerStatusRequest;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21572 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{21575};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x4};
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+/// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+ int32_t  value__;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::IgnoranceCore::IgnoranceCommandType, value__) == 0x0, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::IgnoranceCore::IgnoranceCommandType, 0x4>, "Size mismatch!");
 
-} // namespace IgnoranceCore
+} // namespace end def IgnoranceCore
 DEFINE_IL2CPP_ARG_TYPE(::IgnoranceCore::IgnoranceCommandType, "IgnoranceCore", "IgnoranceCommandType");

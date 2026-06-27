@@ -17,34 +17,34 @@ namespace Newtonsoft::Json {
 // CS Name: Newtonsoft.Json.JsonIgnoreAttribute
 class CORDL_TYPE JsonIgnoreAttribute : public ::System::Attribute {
 public:
-  // Declarations
-  static inline ::Newtonsoft::Json::JsonIgnoreAttribute* New_ctor();
+// Declarations
+static inline ::Newtonsoft::Json::JsonIgnoreAttribute* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x5b9b4fc, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5b9d074, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr JsonIgnoreAttribute();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr JsonIgnoreAttribute() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "JsonIgnoreAttribute", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  JsonIgnoreAttribute(JsonIgnoreAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "JsonIgnoreAttribute", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  JsonIgnoreAttribute(JsonIgnoreAttribute const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "JsonIgnoreAttribute", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+JsonIgnoreAttribute(JsonIgnoreAttribute && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13240 };
+// Ctor Parameters [CppParam { name: "", ty: "JsonIgnoreAttribute", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+JsonIgnoreAttribute(JsonIgnoreAttribute const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{13241};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::JsonIgnoreAttribute, 0x10>, "Size mismatch!");
 
-} // namespace Newtonsoft::Json
+} // namespace end def Newtonsoft::Json
 NEED_NO_BOX(::Newtonsoft::Json::JsonIgnoreAttribute);
 DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::JsonIgnoreAttribute*, "Newtonsoft.Json", "JsonIgnoreAttribute");

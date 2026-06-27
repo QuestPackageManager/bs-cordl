@@ -19,53 +19,53 @@ namespace UnityEngine::Rendering {
 // CS Name: UnityEngine.Rendering.DynamicString
 class CORDL_TYPE DynamicString : public ::UnityEngine::Rendering::DynamicArray_1<char16_t> {
 public:
-  // Declarations
-  /// @brief Method Append, addr 0x661462c, size 0x10c, virtual false, abstract: false, final false
-  inline void Append(::StringW s);
+// Declarations
+/// @brief Method Append, addr 0x66161a4, size 0x10c, virtual false, abstract: false, final false
+inline void Append(::StringW  s) ;
 
-  /// @brief Method Append, addr 0x6614738, size 0x5c, virtual false, abstract: false, final false
-  inline void Append(::UnityEngine::Rendering::DynamicString* s);
+/// @brief Method Append, addr 0x66162b0, size 0x5c, virtual false, abstract: false, final false
+inline void Append(::UnityEngine::Rendering::DynamicString*  s) ;
 
-  static inline ::UnityEngine::Rendering::DynamicString* New_ctor();
+static inline ::UnityEngine::Rendering::DynamicString* New_ctor() ;
 
-  static inline ::UnityEngine::Rendering::DynamicString* New_ctor(int32_t capacity);
+static inline ::UnityEngine::Rendering::DynamicString* New_ctor(int32_t  capacity) ;
 
-  static inline ::UnityEngine::Rendering::DynamicString* New_ctor(::StringW s);
+static inline ::UnityEngine::Rendering::DynamicString* New_ctor(::StringW  s) ;
 
-  /// @brief Method ToString, addr 0x6614794, size 0x4c, virtual true, abstract: false, final false
-  inline ::StringW ToString();
+/// @brief Method ToString, addr 0x661630c, size 0x4c, virtual true, abstract: false, final false
+inline ::StringW ToString() ;
 
-  /// @brief Method .ctor, addr 0x66144d0, size 0x4c, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6616048, size 0x4c, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method .ctor, addr 0x66145cc, size 0x60, virtual false, abstract: false, final false
-  inline void _ctor(int32_t capacity);
+/// @brief Method .ctor, addr 0x6616144, size 0x60, virtual false, abstract: false, final false
+inline void _ctor(int32_t  capacity) ;
 
-  /// @brief Method .ctor, addr 0x661451c, size 0xb0, virtual false, abstract: false, final false
-  inline void _ctor(::StringW s);
+/// @brief Method .ctor, addr 0x6616094, size 0xb0, virtual false, abstract: false, final false
+inline void _ctor(::StringW  s) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DynamicString();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr DynamicString() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DynamicString", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  DynamicString(DynamicString&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DynamicString", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  DynamicString(DynamicString const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "DynamicString", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+DynamicString(DynamicString && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11899 };
+// Ctor Parameters [CppParam { name: "", ty: "DynamicString", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+DynamicString(DynamicString const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11900};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::DynamicString, 0x20>, "Size mismatch!");
 
-} // namespace UnityEngine::Rendering
+} // namespace end def UnityEngine::Rendering
 NEED_NO_BOX(::UnityEngine::Rendering::DynamicString);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::DynamicString*, "UnityEngine.Rendering", "DynamicString");

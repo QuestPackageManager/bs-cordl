@@ -72,279 +72,261 @@ namespace GlobalNamespace {
 // CS Name: RichPresenceManager
 class CORDL_TYPE RichPresenceManager : public ::UnityEngine::MonoBehaviour {
 public:
-  // Declarations
-  /// @brief Field _browsingMenusRichPresenceData, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get__browsingMenusRichPresenceData,
-                      put = __cordl_internal_set__browsingMenusRichPresenceData)) ::GlobalNamespace::BrowsingMenusRichPresenceData* _browsingMenusRichPresenceData;
+// Declarations
+/// @brief Field _browsingMenusRichPresenceData, offset 0x78, size 0x8 
+ __declspec(property(get=__cordl_internal_get__browsingMenusRichPresenceData, put=__cordl_internal_set__browsingMenusRichPresenceData)) ::GlobalNamespace::BrowsingMenusRichPresenceData*  _browsingMenusRichPresenceData;
 
-  /// @brief Field _currentPresenceData, offset 0x98, size 0x8
-  __declspec(property(get = __cordl_internal_get__currentPresenceData, put = __cordl_internal_set__currentPresenceData)) ::GlobalNamespace::IRichPresenceData* _currentPresenceData;
+/// @brief Field _currentPresenceData, offset 0x98, size 0x8 
+ __declspec(property(get=__cordl_internal_get__currentPresenceData, put=__cordl_internal_set__currentPresenceData)) ::GlobalNamespace::IRichPresenceData*  _currentPresenceData;
 
-  /// @brief Field _gameScenesManager, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get__gameScenesManager, put = __cordl_internal_set__gameScenesManager)) ::UnityW<::GlobalNamespace::GameScenesManager> _gameScenesManager;
+/// @brief Field _gameScenesManager, offset 0x50, size 0x8 
+ __declspec(property(get=__cordl_internal_get__gameScenesManager, put=__cordl_internal_set__gameScenesManager)) ::UnityW<::GlobalNamespace::GameScenesManager>  _gameScenesManager;
 
-  /// @brief Field _inMultiplayerRichPresenceData, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get__inMultiplayerRichPresenceData,
-                      put = __cordl_internal_set__inMultiplayerRichPresenceData)) ::GlobalNamespace::InMultiplayerRichPresenceData* _inMultiplayerRichPresenceData;
+/// @brief Field _inMultiplayerRichPresenceData, offset 0x80, size 0x8 
+ __declspec(property(get=__cordl_internal_get__inMultiplayerRichPresenceData, put=__cordl_internal_set__inMultiplayerRichPresenceData)) ::GlobalNamespace::InMultiplayerRichPresenceData*  _inMultiplayerRichPresenceData;
 
-  /// @brief Field _isInMultiplayerLobby, offset 0x71, size 0x1
-  __declspec(property(get = __cordl_internal_get__isInMultiplayerLobby, put = __cordl_internal_set__isInMultiplayerLobby)) bool _isInMultiplayerLobby;
+/// @brief Field _isInMultiplayerLobby, offset 0x71, size 0x1 
+ __declspec(property(get=__cordl_internal_get__isInMultiplayerLobby, put=__cordl_internal_set__isInMultiplayerLobby)) bool  _isInMultiplayerLobby;
 
-  /// @brief Field _lobbyGameStateModel, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get__lobbyGameStateModel, put = __cordl_internal_set__lobbyGameStateModel)) ::GlobalNamespace::LobbyGameStateModel* _lobbyGameStateModel;
+/// @brief Field _lobbyGameStateModel, offset 0x58, size 0x8 
+ __declspec(property(get=__cordl_internal_get__lobbyGameStateModel, put=__cordl_internal_set__lobbyGameStateModel)) ::GlobalNamespace::LobbyGameStateModel*  _lobbyGameStateModel;
 
-  /// @brief Field _lobbyPlayerPermissionsModel, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get__lobbyPlayerPermissionsModel,
-                      put = __cordl_internal_set__lobbyPlayerPermissionsModel)) ::GlobalNamespace::LobbyPlayerPermissionsModel* _lobbyPlayerPermissionsModel;
+/// @brief Field _lobbyPlayerPermissionsModel, offset 0x68, size 0x8 
+ __declspec(property(get=__cordl_internal_get__lobbyPlayerPermissionsModel, put=__cordl_internal_set__lobbyPlayerPermissionsModel)) ::GlobalNamespace::LobbyPlayerPermissionsModel*  _lobbyPlayerPermissionsModel;
 
-  /// @brief Field _menuScenesTransitionSetupData, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__menuScenesTransitionSetupData,
-                      put = __cordl_internal_set__menuScenesTransitionSetupData)) ::UnityW<::GlobalNamespace::MenuScenesTransitionSetupDataSO>
-      _menuScenesTransitionSetupData;
+/// @brief Field _menuScenesTransitionSetupData, offset 0x40, size 0x8 
+ __declspec(property(get=__cordl_internal_get__menuScenesTransitionSetupData, put=__cordl_internal_set__menuScenesTransitionSetupData)) ::UnityW<::GlobalNamespace::MenuScenesTransitionSetupDataSO>  _menuScenesTransitionSetupData;
 
-  /// @brief Field _menuWasLoaded, offset 0x70, size 0x1
-  __declspec(property(get = __cordl_internal_get__menuWasLoaded, put = __cordl_internal_set__menuWasLoaded)) bool _menuWasLoaded;
+/// @brief Field _menuWasLoaded, offset 0x70, size 0x1 
+ __declspec(property(get=__cordl_internal_get__menuWasLoaded, put=__cordl_internal_set__menuWasLoaded)) bool  _menuWasLoaded;
 
-  /// @brief Field _missionLevelScenesTransitionSetupData, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__missionLevelScenesTransitionSetupData,
-                      put = __cordl_internal_set__missionLevelScenesTransitionSetupData)) ::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO>
-      _missionLevelScenesTransitionSetupData;
+/// @brief Field _missionLevelScenesTransitionSetupData, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get__missionLevelScenesTransitionSetupData, put=__cordl_internal_set__missionLevelScenesTransitionSetupData)) ::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO>  _missionLevelScenesTransitionSetupData;
 
-  /// @brief Field _multiplayerLevelScenesTransitionSetupData, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__multiplayerLevelScenesTransitionSetupData,
-                      put = __cordl_internal_set__multiplayerLevelScenesTransitionSetupData)) ::UnityW<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO>
-      _multiplayerLevelScenesTransitionSetupData;
+/// @brief Field _multiplayerLevelScenesTransitionSetupData, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get__multiplayerLevelScenesTransitionSetupData, put=__cordl_internal_set__multiplayerLevelScenesTransitionSetupData)) ::UnityW<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO>  _multiplayerLevelScenesTransitionSetupData;
 
-  /// @brief Field _playingCampaignRichPresenceData, offset 0x88, size 0x8
-  __declspec(property(get = __cordl_internal_get__playingCampaignRichPresenceData,
-                      put = __cordl_internal_set__playingCampaignRichPresenceData)) ::GlobalNamespace::PlayingCampaignRichPresenceData* _playingCampaignRichPresenceData;
+/// @brief Field _playingCampaignRichPresenceData, offset 0x88, size 0x8 
+ __declspec(property(get=__cordl_internal_get__playingCampaignRichPresenceData, put=__cordl_internal_set__playingCampaignRichPresenceData)) ::GlobalNamespace::PlayingCampaignRichPresenceData*  _playingCampaignRichPresenceData;
 
-  /// @brief Field _playingTutorialPresenceData, offset 0x90, size 0x8
-  __declspec(property(get = __cordl_internal_get__playingTutorialPresenceData,
-                      put = __cordl_internal_set__playingTutorialPresenceData)) ::GlobalNamespace::PlayingTutorialPresenceData* _playingTutorialPresenceData;
+/// @brief Field _playingTutorialPresenceData, offset 0x90, size 0x8 
+ __declspec(property(get=__cordl_internal_get__playingTutorialPresenceData, put=__cordl_internal_set__playingTutorialPresenceData)) ::GlobalNamespace::PlayingTutorialPresenceData*  _playingTutorialPresenceData;
 
-  /// @brief Field _richPresencePlatformHandler, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__richPresencePlatformHandler,
-                      put = __cordl_internal_set__richPresencePlatformHandler)) ::GlobalNamespace::IRichPresencePlatformHandler* _richPresencePlatformHandler;
+/// @brief Field _richPresencePlatformHandler, offset 0x48, size 0x8 
+ __declspec(property(get=__cordl_internal_get__richPresencePlatformHandler, put=__cordl_internal_set__richPresencePlatformHandler)) ::GlobalNamespace::IRichPresencePlatformHandler*  _richPresencePlatformHandler;
 
-  /// @brief Field _standardLevelScenesTransitionSetupData, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__standardLevelScenesTransitionSetupData,
-                      put = __cordl_internal_set__standardLevelScenesTransitionSetupData)) ::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO>
-      _standardLevelScenesTransitionSetupData;
+/// @brief Field _standardLevelScenesTransitionSetupData, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get__standardLevelScenesTransitionSetupData, put=__cordl_internal_set__standardLevelScenesTransitionSetupData)) ::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO>  _standardLevelScenesTransitionSetupData;
 
-  /// @brief Field _tutorialScenesTransitionSetupData, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__tutorialScenesTransitionSetupData,
-                      put = __cordl_internal_set__tutorialScenesTransitionSetupData)) ::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO>
-      _tutorialScenesTransitionSetupData;
+/// @brief Field _tutorialScenesTransitionSetupData, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get__tutorialScenesTransitionSetupData, put=__cordl_internal_set__tutorialScenesTransitionSetupData)) ::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO>  _tutorialScenesTransitionSetupData;
 
-  /// @brief Field _unifiedNetworkPlayerModel, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get__unifiedNetworkPlayerModel,
-                      put = __cordl_internal_set__unifiedNetworkPlayerModel)) ::GlobalNamespace::IUnifiedNetworkPlayerModel* _unifiedNetworkPlayerModel;
+/// @brief Field _unifiedNetworkPlayerModel, offset 0x60, size 0x8 
+ __declspec(property(get=__cordl_internal_get__unifiedNetworkPlayerModel, put=__cordl_internal_set__unifiedNetworkPlayerModel)) ::GlobalNamespace::IUnifiedNetworkPlayerModel*  _unifiedNetworkPlayerModel;
 
-  /// @brief Method Awake, addr 0x57dc558, size 0x310, virtual false, abstract: false, final false
-  inline void Awake();
+/// @brief Method Awake, addr 0x57dddc0, size 0x310, virtual false, abstract: false, final false
+inline void Awake() ;
 
-  /// @brief Method Clear, addr 0x57dd1fc, size 0xac, virtual false, abstract: false, final false
-  inline void Clear();
+/// @brief Method Clear, addr 0x57dea64, size 0xac, virtual false, abstract: false, final false
+inline void Clear() ;
 
-  /// @brief Method HandleGameScenesManagerTransitionDidFinish, addr 0x57dcebc, size 0x340, virtual false, abstract: false, final false
-  inline void HandleGameScenesManagerTransitionDidFinish(::GlobalNamespace::GameScenesManager_SceneTransitionType sceneTransitionType,
-                                                         ::GlobalNamespace::ScenesTransitionSetupDataSO* scenesTransitionSetupData, ::Zenject::DiContainer* diContainer);
+/// @brief Method HandleGameScenesManagerTransitionDidFinish, addr 0x57de724, size 0x340, virtual false, abstract: false, final false
+inline void HandleGameScenesManagerTransitionDidFinish(::GlobalNamespace::GameScenesManager_SceneTransitionType  sceneTransitionType, ::GlobalNamespace::ScenesTransitionSetupDataSO*  scenesTransitionSetupData, ::Zenject::DiContainer*  diContainer) ;
 
-  /// @brief Method HandleLobbyGameStateModelDidChange, addr 0x57dcbb8, size 0x1c, virtual false, abstract: false, final false
-  inline void HandleLobbyGameStateModelDidChange(::GlobalNamespace::MultiplayerGameState newGameState);
+/// @brief Method HandleLobbyGameStateModelDidChange, addr 0x57de420, size 0x1c, virtual false, abstract: false, final false
+inline void HandleLobbyGameStateModelDidChange(::GlobalNamespace::MultiplayerGameState  newGameState) ;
 
-  /// @brief Method HandleLobbyPlayerPermissionChanged, addr 0x57dd484, size 0x15c, virtual false, abstract: false, final false
-  inline void HandleLobbyPlayerPermissionChanged();
+/// @brief Method HandleLobbyPlayerPermissionChanged, addr 0x57decec, size 0x15c, virtual false, abstract: false, final false
+inline void HandleLobbyPlayerPermissionChanged() ;
 
-  /// @brief Method HandleMultiplayerPartySizeChanged, addr 0x57dd2a8, size 0x1dc, virtual false, abstract: false, final false
-  inline void HandleMultiplayerPartySizeChanged(int32_t currentPartySize);
+/// @brief Method HandleMultiplayerPartySizeChanged, addr 0x57deb10, size 0x1dc, virtual false, abstract: false, final false
+inline void HandleMultiplayerPartySizeChanged(int32_t  currentPartySize) ;
 
-  static inline ::GlobalNamespace::RichPresenceManager* New_ctor();
+static inline ::GlobalNamespace::RichPresenceManager* New_ctor() ;
 
-  /// @brief Method OnDestroy, addr 0x57dc868, size 0x350, virtual false, abstract: false, final false
-  inline void OnDestroy();
+/// @brief Method OnDestroy, addr 0x57de0d0, size 0x350, virtual false, abstract: false, final false
+inline void OnDestroy() ;
 
-  /// @brief Method SetMenuPresence, addr 0x57dcbd4, size 0x230, virtual false, abstract: false, final false
-  inline void SetMenuPresence();
+/// @brief Method SetMenuPresence, addr 0x57de43c, size 0x230, virtual false, abstract: false, final false
+inline void SetMenuPresence() ;
 
-  /// @brief Method SetPresence, addr 0x57dce04, size 0xb8, virtual false, abstract: false, final false
-  inline void SetPresence(::GlobalNamespace::IRichPresenceData* presenceData);
+/// @brief Method SetPresence, addr 0x57de66c, size 0xb8, virtual false, abstract: false, final false
+inline void SetPresence(::GlobalNamespace::IRichPresenceData*  presenceData) ;
 
-  constexpr ::GlobalNamespace::BrowsingMenusRichPresenceData* const& __cordl_internal_get__browsingMenusRichPresenceData() const;
+constexpr ::GlobalNamespace::BrowsingMenusRichPresenceData* const& __cordl_internal_get__browsingMenusRichPresenceData() const;
 
-  constexpr ::GlobalNamespace::BrowsingMenusRichPresenceData*& __cordl_internal_get__browsingMenusRichPresenceData();
+constexpr ::GlobalNamespace::BrowsingMenusRichPresenceData*& __cordl_internal_get__browsingMenusRichPresenceData() ;
 
-  constexpr ::GlobalNamespace::IRichPresenceData* const& __cordl_internal_get__currentPresenceData() const;
+constexpr ::GlobalNamespace::IRichPresenceData* const& __cordl_internal_get__currentPresenceData() const;
 
-  constexpr ::GlobalNamespace::IRichPresenceData*& __cordl_internal_get__currentPresenceData();
+constexpr ::GlobalNamespace::IRichPresenceData*& __cordl_internal_get__currentPresenceData() ;
 
-  constexpr ::UnityW<::GlobalNamespace::GameScenesManager> const& __cordl_internal_get__gameScenesManager() const;
+constexpr ::UnityW<::GlobalNamespace::GameScenesManager> const& __cordl_internal_get__gameScenesManager() const;
 
-  constexpr ::UnityW<::GlobalNamespace::GameScenesManager>& __cordl_internal_get__gameScenesManager();
+constexpr ::UnityW<::GlobalNamespace::GameScenesManager>& __cordl_internal_get__gameScenesManager() ;
 
-  constexpr ::GlobalNamespace::InMultiplayerRichPresenceData* const& __cordl_internal_get__inMultiplayerRichPresenceData() const;
+constexpr ::GlobalNamespace::InMultiplayerRichPresenceData* const& __cordl_internal_get__inMultiplayerRichPresenceData() const;
 
-  constexpr ::GlobalNamespace::InMultiplayerRichPresenceData*& __cordl_internal_get__inMultiplayerRichPresenceData();
+constexpr ::GlobalNamespace::InMultiplayerRichPresenceData*& __cordl_internal_get__inMultiplayerRichPresenceData() ;
 
-  constexpr bool const& __cordl_internal_get__isInMultiplayerLobby() const;
+constexpr bool const& __cordl_internal_get__isInMultiplayerLobby() const;
 
-  constexpr bool& __cordl_internal_get__isInMultiplayerLobby();
+constexpr bool& __cordl_internal_get__isInMultiplayerLobby() ;
 
-  constexpr ::GlobalNamespace::LobbyGameStateModel* const& __cordl_internal_get__lobbyGameStateModel() const;
+constexpr ::GlobalNamespace::LobbyGameStateModel* const& __cordl_internal_get__lobbyGameStateModel() const;
 
-  constexpr ::GlobalNamespace::LobbyGameStateModel*& __cordl_internal_get__lobbyGameStateModel();
+constexpr ::GlobalNamespace::LobbyGameStateModel*& __cordl_internal_get__lobbyGameStateModel() ;
 
-  constexpr ::GlobalNamespace::LobbyPlayerPermissionsModel* const& __cordl_internal_get__lobbyPlayerPermissionsModel() const;
+constexpr ::GlobalNamespace::LobbyPlayerPermissionsModel* const& __cordl_internal_get__lobbyPlayerPermissionsModel() const;
 
-  constexpr ::GlobalNamespace::LobbyPlayerPermissionsModel*& __cordl_internal_get__lobbyPlayerPermissionsModel();
+constexpr ::GlobalNamespace::LobbyPlayerPermissionsModel*& __cordl_internal_get__lobbyPlayerPermissionsModel() ;
 
-  constexpr ::UnityW<::GlobalNamespace::MenuScenesTransitionSetupDataSO> const& __cordl_internal_get__menuScenesTransitionSetupData() const;
+constexpr ::UnityW<::GlobalNamespace::MenuScenesTransitionSetupDataSO> const& __cordl_internal_get__menuScenesTransitionSetupData() const;
 
-  constexpr ::UnityW<::GlobalNamespace::MenuScenesTransitionSetupDataSO>& __cordl_internal_get__menuScenesTransitionSetupData();
+constexpr ::UnityW<::GlobalNamespace::MenuScenesTransitionSetupDataSO>& __cordl_internal_get__menuScenesTransitionSetupData() ;
 
-  constexpr bool const& __cordl_internal_get__menuWasLoaded() const;
+constexpr bool const& __cordl_internal_get__menuWasLoaded() const;
 
-  constexpr bool& __cordl_internal_get__menuWasLoaded();
+constexpr bool& __cordl_internal_get__menuWasLoaded() ;
 
-  constexpr ::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO> const& __cordl_internal_get__missionLevelScenesTransitionSetupData() const;
+constexpr ::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO> const& __cordl_internal_get__missionLevelScenesTransitionSetupData() const;
 
-  constexpr ::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO>& __cordl_internal_get__missionLevelScenesTransitionSetupData();
+constexpr ::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO>& __cordl_internal_get__missionLevelScenesTransitionSetupData() ;
 
-  constexpr ::UnityW<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO> const& __cordl_internal_get__multiplayerLevelScenesTransitionSetupData() const;
+constexpr ::UnityW<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO> const& __cordl_internal_get__multiplayerLevelScenesTransitionSetupData() const;
 
-  constexpr ::UnityW<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO>& __cordl_internal_get__multiplayerLevelScenesTransitionSetupData();
+constexpr ::UnityW<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO>& __cordl_internal_get__multiplayerLevelScenesTransitionSetupData() ;
 
-  constexpr ::GlobalNamespace::PlayingCampaignRichPresenceData* const& __cordl_internal_get__playingCampaignRichPresenceData() const;
+constexpr ::GlobalNamespace::PlayingCampaignRichPresenceData* const& __cordl_internal_get__playingCampaignRichPresenceData() const;
 
-  constexpr ::GlobalNamespace::PlayingCampaignRichPresenceData*& __cordl_internal_get__playingCampaignRichPresenceData();
+constexpr ::GlobalNamespace::PlayingCampaignRichPresenceData*& __cordl_internal_get__playingCampaignRichPresenceData() ;
 
-  constexpr ::GlobalNamespace::PlayingTutorialPresenceData* const& __cordl_internal_get__playingTutorialPresenceData() const;
+constexpr ::GlobalNamespace::PlayingTutorialPresenceData* const& __cordl_internal_get__playingTutorialPresenceData() const;
 
-  constexpr ::GlobalNamespace::PlayingTutorialPresenceData*& __cordl_internal_get__playingTutorialPresenceData();
+constexpr ::GlobalNamespace::PlayingTutorialPresenceData*& __cordl_internal_get__playingTutorialPresenceData() ;
 
-  constexpr ::GlobalNamespace::IRichPresencePlatformHandler* const& __cordl_internal_get__richPresencePlatformHandler() const;
+constexpr ::GlobalNamespace::IRichPresencePlatformHandler* const& __cordl_internal_get__richPresencePlatformHandler() const;
 
-  constexpr ::GlobalNamespace::IRichPresencePlatformHandler*& __cordl_internal_get__richPresencePlatformHandler();
+constexpr ::GlobalNamespace::IRichPresencePlatformHandler*& __cordl_internal_get__richPresencePlatformHandler() ;
 
-  constexpr ::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO> const& __cordl_internal_get__standardLevelScenesTransitionSetupData() const;
+constexpr ::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO> const& __cordl_internal_get__standardLevelScenesTransitionSetupData() const;
 
-  constexpr ::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO>& __cordl_internal_get__standardLevelScenesTransitionSetupData();
+constexpr ::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO>& __cordl_internal_get__standardLevelScenesTransitionSetupData() ;
 
-  constexpr ::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> const& __cordl_internal_get__tutorialScenesTransitionSetupData() const;
+constexpr ::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> const& __cordl_internal_get__tutorialScenesTransitionSetupData() const;
 
-  constexpr ::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO>& __cordl_internal_get__tutorialScenesTransitionSetupData();
+constexpr ::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO>& __cordl_internal_get__tutorialScenesTransitionSetupData() ;
 
-  constexpr ::GlobalNamespace::IUnifiedNetworkPlayerModel* const& __cordl_internal_get__unifiedNetworkPlayerModel() const;
+constexpr ::GlobalNamespace::IUnifiedNetworkPlayerModel* const& __cordl_internal_get__unifiedNetworkPlayerModel() const;
 
-  constexpr ::GlobalNamespace::IUnifiedNetworkPlayerModel*& __cordl_internal_get__unifiedNetworkPlayerModel();
+constexpr ::GlobalNamespace::IUnifiedNetworkPlayerModel*& __cordl_internal_get__unifiedNetworkPlayerModel() ;
 
-  constexpr void __cordl_internal_set__browsingMenusRichPresenceData(::GlobalNamespace::BrowsingMenusRichPresenceData* value);
+constexpr void __cordl_internal_set__browsingMenusRichPresenceData(::GlobalNamespace::BrowsingMenusRichPresenceData*  value) ;
 
-  constexpr void __cordl_internal_set__currentPresenceData(::GlobalNamespace::IRichPresenceData* value);
+constexpr void __cordl_internal_set__currentPresenceData(::GlobalNamespace::IRichPresenceData*  value) ;
 
-  constexpr void __cordl_internal_set__gameScenesManager(::UnityW<::GlobalNamespace::GameScenesManager> value);
+constexpr void __cordl_internal_set__gameScenesManager(::UnityW<::GlobalNamespace::GameScenesManager>  value) ;
 
-  constexpr void __cordl_internal_set__inMultiplayerRichPresenceData(::GlobalNamespace::InMultiplayerRichPresenceData* value);
+constexpr void __cordl_internal_set__inMultiplayerRichPresenceData(::GlobalNamespace::InMultiplayerRichPresenceData*  value) ;
 
-  constexpr void __cordl_internal_set__isInMultiplayerLobby(bool value);
+constexpr void __cordl_internal_set__isInMultiplayerLobby(bool  value) ;
 
-  constexpr void __cordl_internal_set__lobbyGameStateModel(::GlobalNamespace::LobbyGameStateModel* value);
+constexpr void __cordl_internal_set__lobbyGameStateModel(::GlobalNamespace::LobbyGameStateModel*  value) ;
 
-  constexpr void __cordl_internal_set__lobbyPlayerPermissionsModel(::GlobalNamespace::LobbyPlayerPermissionsModel* value);
+constexpr void __cordl_internal_set__lobbyPlayerPermissionsModel(::GlobalNamespace::LobbyPlayerPermissionsModel*  value) ;
 
-  constexpr void __cordl_internal_set__menuScenesTransitionSetupData(::UnityW<::GlobalNamespace::MenuScenesTransitionSetupDataSO> value);
+constexpr void __cordl_internal_set__menuScenesTransitionSetupData(::UnityW<::GlobalNamespace::MenuScenesTransitionSetupDataSO>  value) ;
 
-  constexpr void __cordl_internal_set__menuWasLoaded(bool value);
+constexpr void __cordl_internal_set__menuWasLoaded(bool  value) ;
 
-  constexpr void __cordl_internal_set__missionLevelScenesTransitionSetupData(::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO> value);
+constexpr void __cordl_internal_set__missionLevelScenesTransitionSetupData(::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO>  value) ;
 
-  constexpr void __cordl_internal_set__multiplayerLevelScenesTransitionSetupData(::UnityW<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO> value);
+constexpr void __cordl_internal_set__multiplayerLevelScenesTransitionSetupData(::UnityW<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO>  value) ;
 
-  constexpr void __cordl_internal_set__playingCampaignRichPresenceData(::GlobalNamespace::PlayingCampaignRichPresenceData* value);
+constexpr void __cordl_internal_set__playingCampaignRichPresenceData(::GlobalNamespace::PlayingCampaignRichPresenceData*  value) ;
 
-  constexpr void __cordl_internal_set__playingTutorialPresenceData(::GlobalNamespace::PlayingTutorialPresenceData* value);
+constexpr void __cordl_internal_set__playingTutorialPresenceData(::GlobalNamespace::PlayingTutorialPresenceData*  value) ;
 
-  constexpr void __cordl_internal_set__richPresencePlatformHandler(::GlobalNamespace::IRichPresencePlatformHandler* value);
+constexpr void __cordl_internal_set__richPresencePlatformHandler(::GlobalNamespace::IRichPresencePlatformHandler*  value) ;
 
-  constexpr void __cordl_internal_set__standardLevelScenesTransitionSetupData(::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO> value);
+constexpr void __cordl_internal_set__standardLevelScenesTransitionSetupData(::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO>  value) ;
 
-  constexpr void __cordl_internal_set__tutorialScenesTransitionSetupData(::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> value);
+constexpr void __cordl_internal_set__tutorialScenesTransitionSetupData(::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO>  value) ;
 
-  constexpr void __cordl_internal_set__unifiedNetworkPlayerModel(::GlobalNamespace::IUnifiedNetworkPlayerModel* value);
+constexpr void __cordl_internal_set__unifiedNetworkPlayerModel(::GlobalNamespace::IUnifiedNetworkPlayerModel*  value) ;
 
-  /// @brief Method .ctor, addr 0x57dd5e0, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x57dee48, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RichPresenceManager();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr RichPresenceManager() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RichPresenceManager", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  RichPresenceManager(RichPresenceManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RichPresenceManager", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  RichPresenceManager(RichPresenceManager const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "RichPresenceManager", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+RichPresenceManager(RichPresenceManager && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6744 };
+// Ctor Parameters [CppParam { name: "", ty: "RichPresenceManager", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+RichPresenceManager(RichPresenceManager const& ) = delete;
 
-  /// @brief Field _standardLevelScenesTransitionSetupData, offset: 0x20, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO> ____standardLevelScenesTransitionSetupData;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6744};
 
-  /// @brief Field _tutorialScenesTransitionSetupData, offset: 0x28, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> ____tutorialScenesTransitionSetupData;
+/// @brief Field _standardLevelScenesTransitionSetupData, offset: 0x20, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO>  ____standardLevelScenesTransitionSetupData;
 
-  /// @brief Field _missionLevelScenesTransitionSetupData, offset: 0x30, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO> ____missionLevelScenesTransitionSetupData;
+/// @brief Field _tutorialScenesTransitionSetupData, offset: 0x28, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO>  ____tutorialScenesTransitionSetupData;
 
-  /// @brief Field _multiplayerLevelScenesTransitionSetupData, offset: 0x38, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO> ____multiplayerLevelScenesTransitionSetupData;
+/// @brief Field _missionLevelScenesTransitionSetupData, offset: 0x30, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO>  ____missionLevelScenesTransitionSetupData;
 
-  /// @brief Field _menuScenesTransitionSetupData, offset: 0x40, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::MenuScenesTransitionSetupDataSO> ____menuScenesTransitionSetupData;
+/// @brief Field _multiplayerLevelScenesTransitionSetupData, offset: 0x38, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO>  ____multiplayerLevelScenesTransitionSetupData;
 
-  /// @brief Field _richPresencePlatformHandler, offset: 0x48, size: 0x8, def value: None
-  ::GlobalNamespace::IRichPresencePlatformHandler* ____richPresencePlatformHandler;
+/// @brief Field _menuScenesTransitionSetupData, offset: 0x40, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::MenuScenesTransitionSetupDataSO>  ____menuScenesTransitionSetupData;
 
-  /// @brief Field _gameScenesManager, offset: 0x50, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::GameScenesManager> ____gameScenesManager;
+/// @brief Field _richPresencePlatformHandler, offset: 0x48, size: 0x8, def value: None
+ ::GlobalNamespace::IRichPresencePlatformHandler*  ____richPresencePlatformHandler;
 
-  /// @brief Field _lobbyGameStateModel, offset: 0x58, size: 0x8, def value: None
-  ::GlobalNamespace::LobbyGameStateModel* ____lobbyGameStateModel;
+/// @brief Field _gameScenesManager, offset: 0x50, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::GameScenesManager>  ____gameScenesManager;
 
-  /// @brief Field _unifiedNetworkPlayerModel, offset: 0x60, size: 0x8, def value: None
-  ::GlobalNamespace::IUnifiedNetworkPlayerModel* ____unifiedNetworkPlayerModel;
+/// @brief Field _lobbyGameStateModel, offset: 0x58, size: 0x8, def value: None
+ ::GlobalNamespace::LobbyGameStateModel*  ____lobbyGameStateModel;
 
-  /// @brief Field _lobbyPlayerPermissionsModel, offset: 0x68, size: 0x8, def value: None
-  ::GlobalNamespace::LobbyPlayerPermissionsModel* ____lobbyPlayerPermissionsModel;
+/// @brief Field _unifiedNetworkPlayerModel, offset: 0x60, size: 0x8, def value: None
+ ::GlobalNamespace::IUnifiedNetworkPlayerModel*  ____unifiedNetworkPlayerModel;
 
-  /// @brief Field _menuWasLoaded, offset: 0x70, size: 0x1, def value: None
-  bool ____menuWasLoaded;
+/// @brief Field _lobbyPlayerPermissionsModel, offset: 0x68, size: 0x8, def value: None
+ ::GlobalNamespace::LobbyPlayerPermissionsModel*  ____lobbyPlayerPermissionsModel;
 
-  /// @brief Field _isInMultiplayerLobby, offset: 0x71, size: 0x1, def value: None
-  bool ____isInMultiplayerLobby;
+/// @brief Field _menuWasLoaded, offset: 0x70, size: 0x1, def value: None
+ bool  ____menuWasLoaded;
 
-  /// @brief Field _browsingMenusRichPresenceData, offset: 0x78, size: 0x8, def value: None
-  ::GlobalNamespace::BrowsingMenusRichPresenceData* ____browsingMenusRichPresenceData;
+/// @brief Field _isInMultiplayerLobby, offset: 0x71, size: 0x1, def value: None
+ bool  ____isInMultiplayerLobby;
 
-  /// @brief Field _inMultiplayerRichPresenceData, offset: 0x80, size: 0x8, def value: None
-  ::GlobalNamespace::InMultiplayerRichPresenceData* ____inMultiplayerRichPresenceData;
+/// @brief Field _browsingMenusRichPresenceData, offset: 0x78, size: 0x8, def value: None
+ ::GlobalNamespace::BrowsingMenusRichPresenceData*  ____browsingMenusRichPresenceData;
 
-  /// @brief Field _playingCampaignRichPresenceData, offset: 0x88, size: 0x8, def value: None
-  ::GlobalNamespace::PlayingCampaignRichPresenceData* ____playingCampaignRichPresenceData;
+/// @brief Field _inMultiplayerRichPresenceData, offset: 0x80, size: 0x8, def value: None
+ ::GlobalNamespace::InMultiplayerRichPresenceData*  ____inMultiplayerRichPresenceData;
 
-  /// @brief Field _playingTutorialPresenceData, offset: 0x90, size: 0x8, def value: None
-  ::GlobalNamespace::PlayingTutorialPresenceData* ____playingTutorialPresenceData;
+/// @brief Field _playingCampaignRichPresenceData, offset: 0x88, size: 0x8, def value: None
+ ::GlobalNamespace::PlayingCampaignRichPresenceData*  ____playingCampaignRichPresenceData;
 
-  /// @brief Field _currentPresenceData, offset: 0x98, size: 0x8, def value: None
-  ::GlobalNamespace::IRichPresenceData* ____currentPresenceData;
+/// @brief Field _playingTutorialPresenceData, offset: 0x90, size: 0x8, def value: None
+ ::GlobalNamespace::PlayingTutorialPresenceData*  ____playingTutorialPresenceData;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _currentPresenceData, offset: 0x98, size: 0x8, def value: None
+ ::GlobalNamespace::IRichPresenceData*  ____currentPresenceData;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::RichPresenceManager, ____standardLevelScenesTransitionSetupData) == 0x20, "Offset mismatch!");
@@ -383,6 +365,6 @@ static_assert(offsetof(::GlobalNamespace::RichPresenceManager, ____currentPresen
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::RichPresenceManager, 0xa0>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::RichPresenceManager);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::RichPresenceManager*, "", "RichPresenceManager");

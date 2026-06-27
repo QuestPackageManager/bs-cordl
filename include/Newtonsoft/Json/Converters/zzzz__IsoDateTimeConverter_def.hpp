@@ -40,99 +40,99 @@ namespace Newtonsoft::Json::Converters {
 // CS Name: Newtonsoft.Json.Converters.IsoDateTimeConverter
 class CORDL_TYPE IsoDateTimeConverter : public ::Newtonsoft::Json::Converters::DateTimeConverterBase {
 public:
-  // Declarations
-  __declspec(property(get = get_Culture, put = set_Culture)) ::System::Globalization::CultureInfo* Culture;
+// Declarations
+ __declspec(property(get=get_Culture, put=set_Culture)) ::System::Globalization::CultureInfo*  Culture;
 
-  __declspec(property(get = get_DateTimeFormat, put = set_DateTimeFormat)) ::StringW DateTimeFormat;
+ __declspec(property(get=get_DateTimeFormat, put=set_DateTimeFormat)) ::StringW  DateTimeFormat;
 
-  __declspec(property(get = get_DateTimeStyles, put = set_DateTimeStyles)) ::System::Globalization::DateTimeStyles DateTimeStyles;
+ __declspec(property(get=get_DateTimeStyles, put=set_DateTimeStyles)) ::System::Globalization::DateTimeStyles  DateTimeStyles;
 
-  /// @brief Field _culture, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__culture, put = __cordl_internal_set__culture)) ::System::Globalization::CultureInfo* _culture;
+/// @brief Field _culture, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get__culture, put=__cordl_internal_set__culture)) ::System::Globalization::CultureInfo*  _culture;
 
-  /// @brief Field _dateTimeFormat, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__dateTimeFormat, put = __cordl_internal_set__dateTimeFormat)) ::StringW _dateTimeFormat;
+/// @brief Field _dateTimeFormat, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get__dateTimeFormat, put=__cordl_internal_set__dateTimeFormat)) ::StringW  _dateTimeFormat;
 
-  /// @brief Field _dateTimeStyles, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get__dateTimeStyles, put = __cordl_internal_set__dateTimeStyles)) ::System::Globalization::DateTimeStyles _dateTimeStyles;
+/// @brief Field _dateTimeStyles, offset 0x10, size 0x4 
+ __declspec(property(get=__cordl_internal_get__dateTimeStyles, put=__cordl_internal_set__dateTimeStyles)) ::System::Globalization::DateTimeStyles  _dateTimeStyles;
 
-  static inline ::Newtonsoft::Json::Converters::IsoDateTimeConverter* New_ctor();
+static inline ::Newtonsoft::Json::Converters::IsoDateTimeConverter* New_ctor() ;
 
-  /// @brief Method ReadJson, addr 0x5c5f79c, size 0x4b4, virtual true, abstract: false, final false
-  inline ::System::Object* ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, ::System::Object* existingValue, ::Newtonsoft::Json::JsonSerializer* serializer);
+/// @brief Method ReadJson, addr 0x5c61314, size 0x4b4, virtual true, abstract: false, final false
+inline ::System::Object* ReadJson(::Newtonsoft::Json::JsonReader*  reader, ::System::Type*  objectType, ::System::Object*  existingValue, ::Newtonsoft::Json::JsonSerializer*  serializer) ;
 
-  /// @brief Method WriteJson, addr 0x5c5f544, size 0x258, virtual true, abstract: false, final false
-  inline void WriteJson(::Newtonsoft::Json::JsonWriter* writer, ::System::Object* value, ::Newtonsoft::Json::JsonSerializer* serializer);
+/// @brief Method WriteJson, addr 0x5c610bc, size 0x258, virtual true, abstract: false, final false
+inline void WriteJson(::Newtonsoft::Json::JsonWriter*  writer, ::System::Object*  value, ::Newtonsoft::Json::JsonSerializer*  serializer) ;
 
-  constexpr ::System::Globalization::CultureInfo* const& __cordl_internal_get__culture() const;
+constexpr ::System::Globalization::CultureInfo* const& __cordl_internal_get__culture() const;
 
-  constexpr ::System::Globalization::CultureInfo*& __cordl_internal_get__culture();
+constexpr ::System::Globalization::CultureInfo*& __cordl_internal_get__culture() ;
 
-  constexpr ::StringW const& __cordl_internal_get__dateTimeFormat() const;
+constexpr ::StringW const& __cordl_internal_get__dateTimeFormat() const;
 
-  constexpr ::StringW& __cordl_internal_get__dateTimeFormat();
+constexpr ::StringW& __cordl_internal_get__dateTimeFormat() ;
 
-  constexpr ::System::Globalization::DateTimeStyles const& __cordl_internal_get__dateTimeStyles() const;
+constexpr ::System::Globalization::DateTimeStyles const& __cordl_internal_get__dateTimeStyles() const;
 
-  constexpr ::System::Globalization::DateTimeStyles& __cordl_internal_get__dateTimeStyles();
+constexpr ::System::Globalization::DateTimeStyles& __cordl_internal_get__dateTimeStyles() ;
 
-  constexpr void __cordl_internal_set__culture(::System::Globalization::CultureInfo* value);
+constexpr void __cordl_internal_set__culture(::System::Globalization::CultureInfo*  value) ;
 
-  constexpr void __cordl_internal_set__dateTimeFormat(::StringW value);
+constexpr void __cordl_internal_set__dateTimeFormat(::StringW  value) ;
 
-  constexpr void __cordl_internal_set__dateTimeStyles(::System::Globalization::DateTimeStyles value);
+constexpr void __cordl_internal_set__dateTimeStyles(::System::Globalization::DateTimeStyles  value) ;
 
-  /// @brief Method .ctor, addr 0x5c5fc50, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5c617c8, size 0xc, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_Culture, addr 0x5c5f4d0, size 0x6c, virtual false, abstract: false, final false
-  inline ::System::Globalization::CultureInfo* get_Culture();
+/// @brief Method get_Culture, addr 0x5c61048, size 0x6c, virtual false, abstract: false, final false
+inline ::System::Globalization::CultureInfo* get_Culture() ;
 
-  /// @brief Method get_DateTimeFormat, addr 0x5c5f48c, size 0x20, virtual false, abstract: false, final false
-  inline ::StringW get_DateTimeFormat();
+/// @brief Method get_DateTimeFormat, addr 0x5c61004, size 0x20, virtual false, abstract: false, final false
+inline ::StringW get_DateTimeFormat() ;
 
-  /// @brief Method get_DateTimeStyles, addr 0x5c5f47c, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Globalization::DateTimeStyles get_DateTimeStyles();
+/// @brief Method get_DateTimeStyles, addr 0x5c60ff4, size 0x8, virtual false, abstract: false, final false
+inline ::System::Globalization::DateTimeStyles get_DateTimeStyles() ;
 
-  /// @brief Method set_Culture, addr 0x5c5f53c, size 0x8, virtual false, abstract: false, final false
-  inline void set_Culture(::System::Globalization::CultureInfo* value);
+/// @brief Method set_Culture, addr 0x5c610b4, size 0x8, virtual false, abstract: false, final false
+inline void set_Culture(::System::Globalization::CultureInfo*  value) ;
 
-  /// @brief Method set_DateTimeFormat, addr 0x5c5f4ac, size 0x24, virtual false, abstract: false, final false
-  inline void set_DateTimeFormat(::StringW value);
+/// @brief Method set_DateTimeFormat, addr 0x5c61024, size 0x24, virtual false, abstract: false, final false
+inline void set_DateTimeFormat(::StringW  value) ;
 
-  /// @brief Method set_DateTimeStyles, addr 0x5c5f484, size 0x8, virtual false, abstract: false, final false
-  inline void set_DateTimeStyles(::System::Globalization::DateTimeStyles value);
+/// @brief Method set_DateTimeStyles, addr 0x5c60ffc, size 0x8, virtual false, abstract: false, final false
+inline void set_DateTimeStyles(::System::Globalization::DateTimeStyles  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IsoDateTimeConverter();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr IsoDateTimeConverter() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IsoDateTimeConverter", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IsoDateTimeConverter(IsoDateTimeConverter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IsoDateTimeConverter", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  IsoDateTimeConverter(IsoDateTimeConverter const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "IsoDateTimeConverter", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+IsoDateTimeConverter(IsoDateTimeConverter && ) = delete;
 
-  /// @brief Field DefaultDateTimeFormat offset 0xffffffff size 0x8
-  static constexpr ::ConstString DefaultDateTimeFormat{ u"yyyy\'-\'MM\'-\'dd\'T\'HH\':\'mm\':\'ss.FFFFFFFK" };
+// Ctor Parameters [CppParam { name: "", ty: "IsoDateTimeConverter", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+IsoDateTimeConverter(IsoDateTimeConverter const& ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13646 };
+/// @brief Field DefaultDateTimeFormat offset 0xffffffff size 0x8
+static constexpr ::ConstString  DefaultDateTimeFormat{u"yyyy\'-\'MM\'-\'dd\'T\'HH\':\'mm\':\'ss.FFFFFFFK"};
 
-  /// @brief Field _dateTimeStyles, offset: 0x10, size: 0x4, def value: None
-  ::System::Globalization::DateTimeStyles ____dateTimeStyles;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{13647};
 
-  /// @brief Field _dateTimeFormat, offset: 0x18, size: 0x8, def value: None
-  ::StringW ____dateTimeFormat;
+/// @brief Field _dateTimeStyles, offset: 0x10, size: 0x4, def value: None
+ ::System::Globalization::DateTimeStyles  ____dateTimeStyles;
 
-  /// @brief Field _culture, offset: 0x20, size: 0x8, def value: None
-  ::System::Globalization::CultureInfo* ____culture;
+/// @brief Field _dateTimeFormat, offset: 0x18, size: 0x8, def value: None
+ ::StringW  ____dateTimeFormat;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _culture, offset: 0x20, size: 0x8, def value: None
+ ::System::Globalization::CultureInfo*  ____culture;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Newtonsoft::Json::Converters::IsoDateTimeConverter, ____dateTimeStyles) == 0x10, "Offset mismatch!");
@@ -143,6 +143,6 @@ static_assert(offsetof(::Newtonsoft::Json::Converters::IsoDateTimeConverter, ___
 
 static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Converters::IsoDateTimeConverter, 0x28>, "Size mismatch!");
 
-} // namespace Newtonsoft::Json::Converters
+} // namespace end def Newtonsoft::Json::Converters
 NEED_NO_BOX(::Newtonsoft::Json::Converters::IsoDateTimeConverter);
 DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Converters::IsoDateTimeConverter*, "Newtonsoft.Json.Converters", "IsoDateTimeConverter");

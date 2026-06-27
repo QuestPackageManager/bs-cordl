@@ -28,52 +28,52 @@ namespace System {
 // CS Name: System.OrdinalCaseSensitiveComparer
 class CORDL_TYPE OrdinalCaseSensitiveComparer : public ::System::OrdinalComparer {
 public:
-  // Declarations
-  /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
-  constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
+// Declarations
+/// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
+constexpr operator  ::System::Runtime::Serialization::ISerializable*() noexcept;
 
-  /// @brief Method Compare, addr 0x5b20cd0, size 0x10, virtual true, abstract: false, final false
-  inline int32_t Compare(::StringW x, ::StringW y);
+/// @brief Method Compare, addr 0x5b22848, size 0x10, virtual true, abstract: false, final false
+inline int32_t Compare(::StringW  x, ::StringW  y) ;
 
-  /// @brief Method Equals, addr 0x5b20ce0, size 0x10, virtual true, abstract: false, final false
-  inline bool Equals(::StringW x, ::StringW y);
+/// @brief Method Equals, addr 0x5b22858, size 0x10, virtual true, abstract: false, final false
+inline bool Equals(::StringW  x, ::StringW  y) ;
 
-  /// @brief Method GetHashCode, addr 0x5b20cf0, size 0x24, virtual true, abstract: false, final false
-  inline int32_t GetHashCode(::StringW obj);
+/// @brief Method GetHashCode, addr 0x5b22868, size 0x24, virtual true, abstract: false, final false
+inline int32_t GetHashCode(::StringW  obj) ;
 
-  /// @brief Method GetObjectData, addr 0x5b20d14, size 0xa4, virtual true, abstract: false, final true
-  inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
+/// @brief Method GetObjectData, addr 0x5b2288c, size 0xa4, virtual true, abstract: false, final true
+inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context) ;
 
-  static inline ::System::OrdinalCaseSensitiveComparer* New_ctor();
+static inline ::System::OrdinalCaseSensitiveComparer* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x5b20418, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5b21f90, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
-  constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
+/// @brief Convert to "::System::Runtime::Serialization::ISerializable"
+constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OrdinalCaseSensitiveComparer();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr OrdinalCaseSensitiveComparer() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OrdinalCaseSensitiveComparer", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  OrdinalCaseSensitiveComparer(OrdinalCaseSensitiveComparer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OrdinalCaseSensitiveComparer", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  OrdinalCaseSensitiveComparer(OrdinalCaseSensitiveComparer const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "OrdinalCaseSensitiveComparer", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+OrdinalCaseSensitiveComparer(OrdinalCaseSensitiveComparer && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2482 };
+// Ctor Parameters [CppParam { name: "", ty: "OrdinalCaseSensitiveComparer", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+OrdinalCaseSensitiveComparer(OrdinalCaseSensitiveComparer const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{2482};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::OrdinalCaseSensitiveComparer, 0x18>, "Size mismatch!");
 
-} // namespace System
+} // namespace end def System
 NEED_NO_BOX(::System::OrdinalCaseSensitiveComparer);
 DEFINE_IL2CPP_ARG_TYPE(::System::OrdinalCaseSensitiveComparer*, "System", "OrdinalCaseSensitiveComparer");

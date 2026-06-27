@@ -7,16 +7,20 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(IPAddressCollection)
 namespace System::Collections::Generic {
-template <typename T> class ICollection_1;
+template<typename T>
+class ICollection_1;
 }
 namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+template<typename T>
+class IEnumerable_1;
 }
 namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+template<typename T>
+class IEnumerator_1;
 }
 namespace System::Collections::ObjectModel {
-template <typename T> class Collection_1;
+template<typename T>
+class Collection_1;
 }
 namespace System::Collections {
 class IEnumerable;
@@ -39,100 +43,100 @@ namespace System::Net::NetworkInformation {
 // CS Name: System.Net.NetworkInformation.IPAddressCollection
 class CORDL_TYPE IPAddressCollection : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = get_Count)) int32_t Count;
+// Declarations
+ __declspec(property(get=get_Count)) int32_t  Count;
 
-  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
+ __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
 
-  /// @brief Field addresses, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_addresses, put = __cordl_internal_set_addresses)) ::System::Collections::ObjectModel::Collection_1<::System::Net::IPAddress*>* addresses;
+/// @brief Field addresses, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_addresses, put=__cordl_internal_set_addresses)) ::System::Collections::ObjectModel::Collection_1<::System::Net::IPAddress*>*  addresses;
 
-  /// @brief Convert operator to "::System::Collections::Generic::ICollection_1<::System::Net::IPAddress*>"
-  constexpr operator ::System::Collections::Generic::ICollection_1<::System::Net::IPAddress*>*() noexcept;
+/// @brief Convert operator to "::System::Collections::Generic::ICollection_1<::System::Net::IPAddress*>"
+constexpr operator  ::System::Collections::Generic::ICollection_1<::System::Net::IPAddress*>*() noexcept;
 
-  /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::System::Net::IPAddress*>"
-  constexpr operator ::System::Collections::Generic::IEnumerable_1<::System::Net::IPAddress*>*() noexcept;
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::System::Net::IPAddress*>"
+constexpr operator  ::System::Collections::Generic::IEnumerable_1<::System::Net::IPAddress*>*() noexcept;
 
-  /// @brief Convert operator to "::System::Collections::IEnumerable"
-  constexpr operator ::System::Collections::IEnumerable*() noexcept;
+/// @brief Convert operator to "::System::Collections::IEnumerable"
+constexpr operator  ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method Add, addr 0x620fbec, size 0x50, virtual true, abstract: false, final false
-  inline void Add(::System::Net::IPAddress* address);
+/// @brief Method Add, addr 0x6211764, size 0x50, virtual true, abstract: false, final false
+inline void Add(::System::Net::IPAddress*  address) ;
 
-  /// @brief Method Clear, addr 0x620fdb8, size 0x50, virtual true, abstract: false, final false
-  inline void Clear();
+/// @brief Method Clear, addr 0x6211930, size 0x50, virtual true, abstract: false, final false
+inline void Clear() ;
 
-  /// @brief Method Contains, addr 0x620fca0, size 0x64, virtual true, abstract: false, final false
-  inline bool Contains(::System::Net::IPAddress* address);
+/// @brief Method Contains, addr 0x6211818, size 0x64, virtual true, abstract: false, final false
+inline bool Contains(::System::Net::IPAddress*  address) ;
 
-  /// @brief Method CopyTo, addr 0x620fb24, size 0x6c, virtual true, abstract: false, final false
-  inline void CopyTo(::ArrayW<::System::Net::IPAddress*, ::Array<::System::Net::IPAddress*>*> array, int32_t offset);
+/// @brief Method CopyTo, addr 0x621169c, size 0x6c, virtual true, abstract: false, final false
+inline void CopyTo(::ArrayW<::System::Net::IPAddress*,::Array<::System::Net::IPAddress*>*>  array, int32_t  offset) ;
 
-  /// @brief Method GetEnumerator, addr 0x620fd14, size 0x54, virtual true, abstract: false, final false
-  inline ::System::Collections::Generic::IEnumerator_1<::System::Net::IPAddress*>* GetEnumerator();
+/// @brief Method GetEnumerator, addr 0x621188c, size 0x54, virtual true, abstract: false, final false
+inline ::System::Collections::Generic::IEnumerator_1<::System::Net::IPAddress*>* GetEnumerator() ;
 
-  /// @brief Method InternalAdd, addr 0x620fc3c, size 0x64, virtual false, abstract: false, final false
-  inline void InternalAdd(::System::Net::IPAddress* address);
+/// @brief Method InternalAdd, addr 0x62117b4, size 0x64, virtual false, abstract: false, final false
+inline void InternalAdd(::System::Net::IPAddress*  address) ;
 
-  static inline ::System::Net::NetworkInformation::IPAddressCollection* New_ctor();
+static inline ::System::Net::NetworkInformation::IPAddressCollection* New_ctor() ;
 
-  /// @brief Method Remove, addr 0x620fd68, size 0x50, virtual true, abstract: false, final false
-  inline bool Remove(::System::Net::IPAddress* address);
+/// @brief Method Remove, addr 0x62118e0, size 0x50, virtual true, abstract: false, final false
+inline bool Remove(::System::Net::IPAddress*  address) ;
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x620fd04, size 0x10, virtual true, abstract: false, final true
-  inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
+/// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x621187c, size 0x10, virtual true, abstract: false, final true
+inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator() ;
 
-  constexpr ::System::Collections::ObjectModel::Collection_1<::System::Net::IPAddress*>* const& __cordl_internal_get_addresses() const;
+constexpr ::System::Collections::ObjectModel::Collection_1<::System::Net::IPAddress*>* const& __cordl_internal_get_addresses() const;
 
-  constexpr ::System::Collections::ObjectModel::Collection_1<::System::Net::IPAddress*>*& __cordl_internal_get_addresses();
+constexpr ::System::Collections::ObjectModel::Collection_1<::System::Net::IPAddress*>*& __cordl_internal_get_addresses() ;
 
-  constexpr void __cordl_internal_set_addresses(::System::Collections::ObjectModel::Collection_1<::System::Net::IPAddress*>* value);
+constexpr void __cordl_internal_set_addresses(::System::Collections::ObjectModel::Collection_1<::System::Net::IPAddress*>*  value) ;
 
-  /// @brief Method .ctor, addr 0x620fab0, size 0x74, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6211628, size 0x74, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_Count, addr 0x620fb90, size 0x54, virtual true, abstract: false, final false
-  inline int32_t get_Count();
+/// @brief Method get_Count, addr 0x6211708, size 0x54, virtual true, abstract: false, final false
+inline int32_t get_Count() ;
 
-  /// @brief Method get_IsReadOnly, addr 0x620fbe4, size 0x8, virtual true, abstract: false, final false
-  inline bool get_IsReadOnly();
+/// @brief Method get_IsReadOnly, addr 0x621175c, size 0x8, virtual true, abstract: false, final false
+inline bool get_IsReadOnly() ;
 
-  /// @brief Convert to "::System::Collections::Generic::ICollection_1<::System::Net::IPAddress*>"
-  constexpr ::System::Collections::Generic::ICollection_1<::System::Net::IPAddress*>* i___System__Collections__Generic__ICollection_1___System__Net__IPAddress__() noexcept;
+/// @brief Convert to "::System::Collections::Generic::ICollection_1<::System::Net::IPAddress*>"
+constexpr ::System::Collections::Generic::ICollection_1<::System::Net::IPAddress*>* i___System__Collections__Generic__ICollection_1___System__Net__IPAddress__() noexcept;
 
-  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::System::Net::IPAddress*>"
-  constexpr ::System::Collections::Generic::IEnumerable_1<::System::Net::IPAddress*>* i___System__Collections__Generic__IEnumerable_1___System__Net__IPAddress__() noexcept;
+/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::System::Net::IPAddress*>"
+constexpr ::System::Collections::Generic::IEnumerable_1<::System::Net::IPAddress*>* i___System__Collections__Generic__IEnumerable_1___System__Net__IPAddress__() noexcept;
 
-  /// @brief Convert to "::System::Collections::IEnumerable"
-  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
+/// @brief Convert to "::System::Collections::IEnumerable"
+constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IPAddressCollection();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr IPAddressCollection() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IPAddressCollection", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IPAddressCollection(IPAddressCollection&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IPAddressCollection", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  IPAddressCollection(IPAddressCollection const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "IPAddressCollection", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+IPAddressCollection(IPAddressCollection && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11657 };
+// Ctor Parameters [CppParam { name: "", ty: "IPAddressCollection", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+IPAddressCollection(IPAddressCollection const& ) = delete;
 
-  /// @brief Field addresses, offset: 0x10, size: 0x8, def value: None
-  ::System::Collections::ObjectModel::Collection_1<::System::Net::IPAddress*>* ___addresses;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11658};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field addresses, offset: 0x10, size: 0x8, def value: None
+ ::System::Collections::ObjectModel::Collection_1<::System::Net::IPAddress*>*  ___addresses;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Net::NetworkInformation::IPAddressCollection, ___addresses) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::System::Net::NetworkInformation::IPAddressCollection, 0x18>, "Size mismatch!");
 
-} // namespace System::Net::NetworkInformation
+} // namespace end def System::Net::NetworkInformation
 NEED_NO_BOX(::System::Net::NetworkInformation::IPAddressCollection);
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::NetworkInformation::IPAddressCollection*, "System.Net.NetworkInformation", "IPAddressCollection");

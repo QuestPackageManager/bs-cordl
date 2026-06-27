@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "LIV/SDK/Unity/FEATURES.hpp"
 #include "LIV/SDK/Unity/INVALIDATION_FLAGS.hpp"
@@ -34,5 +34,6 @@ module;
 #include "LIV/SDK/Unity/TEXTURE_ID.hpp"
 #include "LIV/SDK/Unity/TEXTURE_TYPE.hpp"
 #ifdef __cpp_modules
-export module Unity;
-#endif
+                    export module Unity;
+                    #endif
+                

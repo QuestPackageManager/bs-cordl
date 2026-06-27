@@ -29,40 +29,40 @@ namespace System::ComponentModel {
 // CS Name: System.ComponentModel.StringConverter
 class CORDL_TYPE StringConverter : public ::System::ComponentModel::TypeConverter {
 public:
-  // Declarations
-  /// @brief Method CanConvertFrom, addr 0x62857ec, size 0x80, virtual true, abstract: false, final false
-  inline bool CanConvertFrom(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Type* sourceType);
+// Declarations
+/// @brief Method CanConvertFrom, addr 0x6287364, size 0x80, virtual true, abstract: false, final false
+inline bool CanConvertFrom(::System::ComponentModel::ITypeDescriptorContext*  context, ::System::Type*  sourceType) ;
 
-  /// @brief Method ConvertFrom, addr 0x628586c, size 0x30, virtual true, abstract: false, final false
-  inline ::System::Object* ConvertFrom(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value);
+/// @brief Method ConvertFrom, addr 0x62873e4, size 0x30, virtual true, abstract: false, final false
+inline ::System::Object* ConvertFrom(::System::ComponentModel::ITypeDescriptorContext*  context, ::System::Globalization::CultureInfo*  culture, ::System::Object*  value) ;
 
-  static inline ::System::ComponentModel::StringConverter* New_ctor();
+static inline ::System::ComponentModel::StringConverter* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x628589c, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6287414, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr StringConverter();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr StringConverter() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StringConverter", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  StringConverter(StringConverter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StringConverter", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  StringConverter(StringConverter const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "StringConverter", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+StringConverter(StringConverter && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11284 };
+// Ctor Parameters [CppParam { name: "", ty: "StringConverter", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+StringConverter(StringConverter const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11285};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::ComponentModel::StringConverter, 0x10>, "Size mismatch!");
 
-} // namespace System::ComponentModel
+} // namespace end def System::ComponentModel
 NEED_NO_BOX(::System::ComponentModel::StringConverter);
 DEFINE_IL2CPP_ARG_TYPE(::System::ComponentModel::StringConverter*, "System.ComponentModel", "StringConverter");

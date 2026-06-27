@@ -27,36 +27,35 @@ namespace UnityEngine::Animations {
 // CS Name: UnityEngine.Animations.AnimationPlayableGraphExtensions
 class CORDL_TYPE AnimationPlayableGraphExtensions : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method InternalCreateAnimationOutput, addr 0x68eb1ec, size 0x148, virtual false, abstract: false, final false
-  static inline bool InternalCreateAnimationOutput(::ByRef<::UnityEngine::Playables::PlayableGraph> graph, ::StringW name, ::ByRef<::UnityEngine::Playables::PlayableOutputHandle> handle);
+// Declarations
+/// @brief Method InternalCreateAnimationOutput, addr 0x68ecd64, size 0x148, virtual false, abstract: false, final false
+static inline bool InternalCreateAnimationOutput(::ByRef<::UnityEngine::Playables::PlayableGraph>  graph, ::StringW  name, ::ByRef<::UnityEngine::Playables::PlayableOutputHandle>  handle) ;
 
-  /// @brief Method InternalCreateAnimationOutput_Injected, addr 0x68eb334, size 0x54, virtual false, abstract: false, final false
-  static inline bool InternalCreateAnimationOutput_Injected(::ByRef<::UnityEngine::Playables::PlayableGraph> graph, ::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> name,
-                                                            ::ByRef<::UnityEngine::Playables::PlayableOutputHandle> handle);
+/// @brief Method InternalCreateAnimationOutput_Injected, addr 0x68eceac, size 0x54, virtual false, abstract: false, final false
+static inline bool InternalCreateAnimationOutput_Injected(::ByRef<::UnityEngine::Playables::PlayableGraph>  graph, ::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>  name, ::ByRef<::UnityEngine::Playables::PlayableOutputHandle>  handle) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AnimationPlayableGraphExtensions();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr AnimationPlayableGraphExtensions() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AnimationPlayableGraphExtensions", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  AnimationPlayableGraphExtensions(AnimationPlayableGraphExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AnimationPlayableGraphExtensions", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  AnimationPlayableGraphExtensions(AnimationPlayableGraphExtensions const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "AnimationPlayableGraphExtensions", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+AnimationPlayableGraphExtensions(AnimationPlayableGraphExtensions && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20036 };
+// Ctor Parameters [CppParam { name: "", ty: "AnimationPlayableGraphExtensions", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+AnimationPlayableGraphExtensions(AnimationPlayableGraphExtensions const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20039};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Animations::AnimationPlayableGraphExtensions, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::Animations
+} // namespace end def UnityEngine::Animations
 NEED_NO_BOX(::UnityEngine::Animations::AnimationPlayableGraphExtensions);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Animations::AnimationPlayableGraphExtensions*, "UnityEngine.Animations", "AnimationPlayableGraphExtensions");

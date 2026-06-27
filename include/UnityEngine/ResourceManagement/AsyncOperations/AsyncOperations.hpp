@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "UnityEngine/ResourceManagement/AsyncOperations/AsyncOperationBase_1.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/AsyncOperationHandle.hpp"
@@ -16,5 +16,6 @@ module;
 #include "UnityEngine/ResourceManagement/AsyncOperations/ProviderOperation_1.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/UnityWebRequestOperation.hpp"
 #ifdef __cpp_modules
-export module AsyncOperations;
-#endif
+                    export module AsyncOperations;
+                    #endif
+                

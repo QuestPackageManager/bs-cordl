@@ -25,76 +25,76 @@ namespace System::ComponentModel {
 // CS Name: System.ComponentModel.TypeConverterAttribute
 class CORDL_TYPE TypeConverterAttribute : public ::System::Attribute {
 public:
-  // Declarations
-  __declspec(property(get = get_ConverterTypeName)) ::StringW ConverterTypeName;
+// Declarations
+ __declspec(property(get=get_ConverterTypeName)) ::StringW  ConverterTypeName;
 
-  /// @brief Field Default, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_Default, put = setStaticF_Default)) ::System::ComponentModel::TypeConverterAttribute* Default;
+/// @brief Field Default, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_Default, put=setStaticF_Default)) ::System::ComponentModel::TypeConverterAttribute*  Default;
 
-  /// @brief Field <ConverterTypeName>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__ConverterTypeName_k__BackingField, put = __cordl_internal_set__ConverterTypeName_k__BackingField)) ::StringW _ConverterTypeName_k__BackingField;
+/// @brief Field <ConverterTypeName>k__BackingField, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get__ConverterTypeName_k__BackingField, put=__cordl_internal_set__ConverterTypeName_k__BackingField)) ::StringW  _ConverterTypeName_k__BackingField;
 
-  /// @brief Method Equals, addr 0x6285ef4, size 0x80, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* obj);
+/// @brief Method Equals, addr 0x6287a6c, size 0x80, virtual true, abstract: false, final false
+inline bool Equals(::System::Object*  obj) ;
 
-  /// @brief Method GetHashCode, addr 0x6285f74, size 0x1c, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
+/// @brief Method GetHashCode, addr 0x6287aec, size 0x1c, virtual true, abstract: false, final false
+inline int32_t GetHashCode() ;
 
-  static inline ::System::ComponentModel::TypeConverterAttribute* New_ctor();
+static inline ::System::ComponentModel::TypeConverterAttribute* New_ctor() ;
 
-  static inline ::System::ComponentModel::TypeConverterAttribute* New_ctor(::System::Type* type);
+static inline ::System::ComponentModel::TypeConverterAttribute* New_ctor(::System::Type*  type) ;
 
-  static inline ::System::ComponentModel::TypeConverterAttribute* New_ctor(::StringW typeName);
+static inline ::System::ComponentModel::TypeConverterAttribute* New_ctor(::StringW  typeName) ;
 
-  constexpr ::StringW const& __cordl_internal_get__ConverterTypeName_k__BackingField() const;
+constexpr ::StringW const& __cordl_internal_get__ConverterTypeName_k__BackingField() const;
 
-  constexpr ::StringW& __cordl_internal_get__ConverterTypeName_k__BackingField();
+constexpr ::StringW& __cordl_internal_get__ConverterTypeName_k__BackingField() ;
 
-  constexpr void __cordl_internal_set__ConverterTypeName_k__BackingField(::StringW value);
+constexpr void __cordl_internal_set__ConverterTypeName_k__BackingField(::StringW  value) ;
 
-  /// @brief Method .ctor, addr 0x6285e98, size 0x18, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6287a10, size 0x18, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method .ctor, addr 0x6285eb0, size 0x34, virtual false, abstract: false, final false
-  inline void _ctor(::System::Type* type);
+/// @brief Method .ctor, addr 0x6287a28, size 0x34, virtual false, abstract: false, final false
+inline void _ctor(::System::Type*  type) ;
 
-  /// @brief Method .ctor, addr 0x6285ee4, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::StringW typeName);
+/// @brief Method .ctor, addr 0x6287a5c, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(::StringW  typeName) ;
 
-  static inline ::System::ComponentModel::TypeConverterAttribute* getStaticF_Default();
+static inline ::System::ComponentModel::TypeConverterAttribute* getStaticF_Default() ;
 
-  /// @brief Method get_ConverterTypeName, addr 0x6285eec, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_ConverterTypeName();
+/// @brief Method get_ConverterTypeName, addr 0x6287a64, size 0x8, virtual false, abstract: false, final false
+inline ::StringW get_ConverterTypeName() ;
 
-  static inline void setStaticF_Default(::System::ComponentModel::TypeConverterAttribute* value);
+static inline void setStaticF_Default(::System::ComponentModel::TypeConverterAttribute*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TypeConverterAttribute();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr TypeConverterAttribute() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TypeConverterAttribute", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  TypeConverterAttribute(TypeConverterAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TypeConverterAttribute", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  TypeConverterAttribute(TypeConverterAttribute const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "TypeConverterAttribute", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+TypeConverterAttribute(TypeConverterAttribute && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11286 };
+// Ctor Parameters [CppParam { name: "", ty: "TypeConverterAttribute", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+TypeConverterAttribute(TypeConverterAttribute const& ) = delete;
 
-  /// @brief Field <ConverterTypeName>k__BackingField, offset: 0x10, size: 0x8, def value: None
-  ::StringW ____ConverterTypeName_k__BackingField;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11287};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field <ConverterTypeName>k__BackingField, offset: 0x10, size: 0x8, def value: None
+ ::StringW  ____ConverterTypeName_k__BackingField;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::ComponentModel::TypeConverterAttribute, ____ConverterTypeName_k__BackingField) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::System::ComponentModel::TypeConverterAttribute, 0x18>, "Size mismatch!");
 
-} // namespace System::ComponentModel
+} // namespace end def System::ComponentModel
 NEED_NO_BOX(::System::ComponentModel::TypeConverterAttribute);
 DEFINE_IL2CPP_ARG_TYPE(::System::ComponentModel::TypeConverterAttribute*, "System.ComponentModel", "TypeConverterAttribute");

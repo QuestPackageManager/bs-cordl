@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "UnityOpus/Decoder.hpp"
 #include "UnityOpus/Encoder.hpp"
@@ -12,5 +12,6 @@ module;
 #include "UnityOpus/OpusSignal.hpp"
 #include "UnityOpus/SamplingFrequency.hpp"
 #ifdef __cpp_modules
-export module UnityOpus;
-#endif
+                    export module UnityOpus;
+                    #endif
+                

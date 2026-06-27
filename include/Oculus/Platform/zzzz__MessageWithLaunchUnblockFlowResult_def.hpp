@@ -23,40 +23,40 @@ namespace Oculus::Platform {
 // CS Name: Oculus.Platform.MessageWithLaunchUnblockFlowResult
 class CORDL_TYPE MessageWithLaunchUnblockFlowResult : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::LaunchUnblockFlowResult*> {
 public:
-  // Declarations
-  /// @brief Method GetDataFromMessage, addr 0x5c9f508, size 0x9c, virtual true, abstract: false, final false
-  inline ::Oculus::Platform::Models::LaunchUnblockFlowResult* GetDataFromMessage(::System::IntPtr c_message);
+// Declarations
+/// @brief Method GetDataFromMessage, addr 0x5ca1080, size 0x9c, virtual true, abstract: false, final false
+inline ::Oculus::Platform::Models::LaunchUnblockFlowResult* GetDataFromMessage(::System::IntPtr  c_message) ;
 
-  /// @brief Method GetLaunchUnblockFlowResult, addr 0x5c9f4c4, size 0x44, virtual true, abstract: false, final false
-  inline ::Oculus::Platform::Models::LaunchUnblockFlowResult* GetLaunchUnblockFlowResult();
+/// @brief Method GetLaunchUnblockFlowResult, addr 0x5ca103c, size 0x44, virtual true, abstract: false, final false
+inline ::Oculus::Platform::Models::LaunchUnblockFlowResult* GetLaunchUnblockFlowResult() ;
 
-  static inline ::Oculus::Platform::MessageWithLaunchUnblockFlowResult* New_ctor(::System::IntPtr c_message);
+static inline ::Oculus::Platform::MessageWithLaunchUnblockFlowResult* New_ctor(::System::IntPtr  c_message) ;
 
-  /// @brief Method .ctor, addr 0x5c9b8d0, size 0x5c, virtual false, abstract: false, final false
-  inline void _ctor(::System::IntPtr c_message);
+/// @brief Method .ctor, addr 0x5c9d448, size 0x5c, virtual false, abstract: false, final false
+inline void _ctor(::System::IntPtr  c_message) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MessageWithLaunchUnblockFlowResult();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr MessageWithLaunchUnblockFlowResult() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MessageWithLaunchUnblockFlowResult", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  MessageWithLaunchUnblockFlowResult(MessageWithLaunchUnblockFlowResult&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MessageWithLaunchUnblockFlowResult", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  MessageWithLaunchUnblockFlowResult(MessageWithLaunchUnblockFlowResult const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "MessageWithLaunchUnblockFlowResult", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+MessageWithLaunchUnblockFlowResult(MessageWithLaunchUnblockFlowResult && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17871 };
+// Ctor Parameters [CppParam { name: "", ty: "MessageWithLaunchUnblockFlowResult", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+MessageWithLaunchUnblockFlowResult(MessageWithLaunchUnblockFlowResult const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{17873};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Oculus::Platform::MessageWithLaunchUnblockFlowResult, 0x30>, "Size mismatch!");
 
-} // namespace Oculus::Platform
+} // namespace end def Oculus::Platform
 NEED_NO_BOX(::Oculus::Platform::MessageWithLaunchUnblockFlowResult);
 DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::MessageWithLaunchUnblockFlowResult*, "Oculus.Platform", "MessageWithLaunchUnblockFlowResult");

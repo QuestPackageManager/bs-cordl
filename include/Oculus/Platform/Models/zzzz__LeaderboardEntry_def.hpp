@@ -29,139 +29,138 @@ namespace Oculus::Platform::Models {
 // CS Name: Oculus.Platform.Models.LeaderboardEntry
 class CORDL_TYPE LeaderboardEntry : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field DisplayScore, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_DisplayScore, put = __cordl_internal_set_DisplayScore)) ::StringW DisplayScore;
+// Declarations
+/// @brief Field DisplayScore, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_DisplayScore, put=__cordl_internal_set_DisplayScore)) ::StringW  DisplayScore;
 
-  /// @brief Field ExtraData, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_ExtraData, put = __cordl_internal_set_ExtraData)) ::ArrayW<uint8_t, ::Array<uint8_t>*> ExtraData;
+/// @brief Field ExtraData, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_ExtraData, put=__cordl_internal_set_ExtraData)) ::ArrayW<uint8_t,::Array<uint8_t>*>  ExtraData;
 
-  /// @brief Field Rank, offset 0x28, size 0x4
-  __declspec(property(get = __cordl_internal_get_Rank, put = __cordl_internal_set_Rank)) int32_t Rank;
+/// @brief Field Rank, offset 0x28, size 0x4 
+ __declspec(property(get=__cordl_internal_get_Rank, put=__cordl_internal_set_Rank)) int32_t  Rank;
 
-  /// @brief Field Score, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_Score, put = __cordl_internal_set_Score)) int64_t Score;
+/// @brief Field Score, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get_Score, put=__cordl_internal_set_Score)) int64_t  Score;
 
-  /// @brief Field SupplementaryMetric, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_SupplementaryMetric, put = __cordl_internal_set_SupplementaryMetric)) ::Oculus::Platform::Models::SupplementaryMetric* SupplementaryMetric;
+/// @brief Field SupplementaryMetric, offset 0x40, size 0x8 
+ __declspec(property(get=__cordl_internal_get_SupplementaryMetric, put=__cordl_internal_set_SupplementaryMetric)) ::Oculus::Platform::Models::SupplementaryMetric*  SupplementaryMetric;
 
-  /// @brief Field SupplementaryMetricOptional, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_SupplementaryMetricOptional,
-                      put = __cordl_internal_set_SupplementaryMetricOptional)) ::Oculus::Platform::Models::SupplementaryMetric* SupplementaryMetricOptional;
+/// @brief Field SupplementaryMetricOptional, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get_SupplementaryMetricOptional, put=__cordl_internal_set_SupplementaryMetricOptional)) ::Oculus::Platform::Models::SupplementaryMetric*  SupplementaryMetricOptional;
 
-  /// @brief Field Timestamp, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_Timestamp, put = __cordl_internal_set_Timestamp)) ::System::DateTime Timestamp;
+/// @brief Field Timestamp, offset 0x48, size 0x8 
+ __declspec(property(get=__cordl_internal_get_Timestamp, put=__cordl_internal_set_Timestamp)) ::System::DateTime  Timestamp;
 
-  /// @brief Field User, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_User, put = __cordl_internal_set_User)) ::Oculus::Platform::Models::User* User;
+/// @brief Field User, offset 0x50, size 0x8 
+ __declspec(property(get=__cordl_internal_get_User, put=__cordl_internal_set_User)) ::Oculus::Platform::Models::User*  User;
 
-  /// @brief Field ID, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__cordl_ID, put = __cordl_internal_set__cordl_ID)) uint64_t _cordl_ID;
+/// @brief Field ID, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get__cordl_ID, put=__cordl_internal_set__cordl_ID)) uint64_t  _cordl_ID;
 
-  static inline ::Oculus::Platform::Models::LeaderboardEntry* New_ctor(::System::IntPtr o);
+static inline ::Oculus::Platform::Models::LeaderboardEntry* New_ctor(::System::IntPtr  o) ;
 
-  constexpr ::StringW const& __cordl_internal_get_DisplayScore() const;
+constexpr ::StringW const& __cordl_internal_get_DisplayScore() const;
 
-  constexpr ::StringW& __cordl_internal_get_DisplayScore();
+constexpr ::StringW& __cordl_internal_get_DisplayScore() ;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_ExtraData() const;
+constexpr ::ArrayW<uint8_t,::Array<uint8_t>*> const& __cordl_internal_get_ExtraData() const;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_ExtraData();
+constexpr ::ArrayW<uint8_t,::Array<uint8_t>*>& __cordl_internal_get_ExtraData() ;
 
-  constexpr int32_t const& __cordl_internal_get_Rank() const;
+constexpr int32_t const& __cordl_internal_get_Rank() const;
 
-  constexpr int32_t& __cordl_internal_get_Rank();
+constexpr int32_t& __cordl_internal_get_Rank() ;
 
-  constexpr int64_t const& __cordl_internal_get_Score() const;
+constexpr int64_t const& __cordl_internal_get_Score() const;
 
-  constexpr int64_t& __cordl_internal_get_Score();
+constexpr int64_t& __cordl_internal_get_Score() ;
 
-  constexpr ::Oculus::Platform::Models::SupplementaryMetric* const& __cordl_internal_get_SupplementaryMetric() const;
+constexpr ::Oculus::Platform::Models::SupplementaryMetric* const& __cordl_internal_get_SupplementaryMetric() const;
 
-  constexpr ::Oculus::Platform::Models::SupplementaryMetric*& __cordl_internal_get_SupplementaryMetric();
+constexpr ::Oculus::Platform::Models::SupplementaryMetric*& __cordl_internal_get_SupplementaryMetric() ;
 
-  constexpr ::Oculus::Platform::Models::SupplementaryMetric* const& __cordl_internal_get_SupplementaryMetricOptional() const;
+constexpr ::Oculus::Platform::Models::SupplementaryMetric* const& __cordl_internal_get_SupplementaryMetricOptional() const;
 
-  constexpr ::Oculus::Platform::Models::SupplementaryMetric*& __cordl_internal_get_SupplementaryMetricOptional();
+constexpr ::Oculus::Platform::Models::SupplementaryMetric*& __cordl_internal_get_SupplementaryMetricOptional() ;
 
-  constexpr ::System::DateTime const& __cordl_internal_get_Timestamp() const;
+constexpr ::System::DateTime const& __cordl_internal_get_Timestamp() const;
 
-  constexpr ::System::DateTime& __cordl_internal_get_Timestamp();
+constexpr ::System::DateTime& __cordl_internal_get_Timestamp() ;
 
-  constexpr ::Oculus::Platform::Models::User* const& __cordl_internal_get_User() const;
+constexpr ::Oculus::Platform::Models::User* const& __cordl_internal_get_User() const;
 
-  constexpr ::Oculus::Platform::Models::User*& __cordl_internal_get_User();
+constexpr ::Oculus::Platform::Models::User*& __cordl_internal_get_User() ;
 
-  constexpr uint64_t const& __cordl_internal_get__cordl_ID() const;
+constexpr uint64_t const& __cordl_internal_get__cordl_ID() const;
 
-  constexpr uint64_t& __cordl_internal_get__cordl_ID();
+constexpr uint64_t& __cordl_internal_get__cordl_ID() ;
 
-  constexpr void __cordl_internal_set_DisplayScore(::StringW value);
+constexpr void __cordl_internal_set_DisplayScore(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_ExtraData(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+constexpr void __cordl_internal_set_ExtraData(::ArrayW<uint8_t,::Array<uint8_t>*>  value) ;
 
-  constexpr void __cordl_internal_set_Rank(int32_t value);
+constexpr void __cordl_internal_set_Rank(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_Score(int64_t value);
+constexpr void __cordl_internal_set_Score(int64_t  value) ;
 
-  constexpr void __cordl_internal_set_SupplementaryMetric(::Oculus::Platform::Models::SupplementaryMetric* value);
+constexpr void __cordl_internal_set_SupplementaryMetric(::Oculus::Platform::Models::SupplementaryMetric*  value) ;
 
-  constexpr void __cordl_internal_set_SupplementaryMetricOptional(::Oculus::Platform::Models::SupplementaryMetric* value);
+constexpr void __cordl_internal_set_SupplementaryMetricOptional(::Oculus::Platform::Models::SupplementaryMetric*  value) ;
 
-  constexpr void __cordl_internal_set_Timestamp(::System::DateTime value);
+constexpr void __cordl_internal_set_Timestamp(::System::DateTime  value) ;
 
-  constexpr void __cordl_internal_set_User(::Oculus::Platform::Models::User* value);
+constexpr void __cordl_internal_set_User(::Oculus::Platform::Models::User*  value) ;
 
-  constexpr void __cordl_internal_set__cordl_ID(uint64_t value);
+constexpr void __cordl_internal_set__cordl_ID(uint64_t  value) ;
 
-  /// @brief Method .ctor, addr 0x5cb447c, size 0x164, virtual false, abstract: false, final false
-  inline void _ctor(::System::IntPtr o);
+/// @brief Method .ctor, addr 0x5cb5ff4, size 0x164, virtual false, abstract: false, final false
+inline void _ctor(::System::IntPtr  o) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LeaderboardEntry();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr LeaderboardEntry() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LeaderboardEntry", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  LeaderboardEntry(LeaderboardEntry&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LeaderboardEntry", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  LeaderboardEntry(LeaderboardEntry const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "LeaderboardEntry", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+LeaderboardEntry(LeaderboardEntry && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18038 };
+// Ctor Parameters [CppParam { name: "", ty: "LeaderboardEntry", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+LeaderboardEntry(LeaderboardEntry const& ) = delete;
 
-  /// @brief Field DisplayScore, offset: 0x10, size: 0x8, def value: None
-  ::StringW ___DisplayScore;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{18040};
 
-  /// @brief Field ExtraData, offset: 0x18, size: 0x8, def value: None
-  ::ArrayW<uint8_t, ::Array<uint8_t>*> ___ExtraData;
+/// @brief Field DisplayScore, offset: 0x10, size: 0x8, def value: None
+ ::StringW  ___DisplayScore;
 
-  /// @brief Field ID, offset: 0x20, size: 0x8, def value: None
-  uint64_t ____cordl_ID;
+/// @brief Field ExtraData, offset: 0x18, size: 0x8, def value: None
+ ::ArrayW<uint8_t,::Array<uint8_t>*>  ___ExtraData;
 
-  /// @brief Field Rank, offset: 0x28, size: 0x4, def value: None
-  int32_t ___Rank;
+/// @brief Field ID, offset: 0x20, size: 0x8, def value: None
+ uint64_t  ____cordl_ID;
 
-  /// @brief Field Score, offset: 0x30, size: 0x8, def value: None
-  int64_t ___Score;
+/// @brief Field Rank, offset: 0x28, size: 0x4, def value: None
+ int32_t  ___Rank;
 
-  /// @brief Field SupplementaryMetricOptional, offset: 0x38, size: 0x8, def value: None
-  ::Oculus::Platform::Models::SupplementaryMetric* ___SupplementaryMetricOptional;
+/// @brief Field Score, offset: 0x30, size: 0x8, def value: None
+ int64_t  ___Score;
 
-  /// @brief Field SupplementaryMetric, offset: 0x40, size: 0x8, def value: None
-  ::Oculus::Platform::Models::SupplementaryMetric* ___SupplementaryMetric;
+/// @brief Field SupplementaryMetricOptional, offset: 0x38, size: 0x8, def value: None
+ ::Oculus::Platform::Models::SupplementaryMetric*  ___SupplementaryMetricOptional;
 
-  /// @brief Field Timestamp, offset: 0x48, size: 0x8, def value: None
-  ::System::DateTime ___Timestamp;
+/// @brief Field SupplementaryMetric, offset: 0x40, size: 0x8, def value: None
+ ::Oculus::Platform::Models::SupplementaryMetric*  ___SupplementaryMetric;
 
-  /// @brief Field User, offset: 0x50, size: 0x8, def value: None
-  ::Oculus::Platform::Models::User* ___User;
+/// @brief Field Timestamp, offset: 0x48, size: 0x8, def value: None
+ ::System::DateTime  ___Timestamp;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field User, offset: 0x50, size: 0x8, def value: None
+ ::Oculus::Platform::Models::User*  ___User;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Oculus::Platform::Models::LeaderboardEntry, ___DisplayScore) == 0x10, "Offset mismatch!");
@@ -184,6 +183,6 @@ static_assert(offsetof(::Oculus::Platform::Models::LeaderboardEntry, ___User) ==
 
 static_assert(::cordl_internals::size_check_v<::Oculus::Platform::Models::LeaderboardEntry, 0x58>, "Size mismatch!");
 
-} // namespace Oculus::Platform::Models
+} // namespace end def Oculus::Platform::Models
 NEED_NO_BOX(::Oculus::Platform::Models::LeaderboardEntry);
 DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::LeaderboardEntry*, "Oculus.Platform.Models", "LeaderboardEntry");

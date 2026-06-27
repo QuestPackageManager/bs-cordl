@@ -23,70 +23,70 @@ namespace UnityEngine {
 // CS Name: UnityEngine.BoxCollider
 class CORDL_TYPE BoxCollider : public ::UnityEngine::Collider {
 public:
-  // Declarations
-  __declspec(property(get = get_center, put = set_center)) ::UnityEngine::Vector3 center;
+// Declarations
+ __declspec(property(get=get_center, put=set_center)) ::UnityEngine::Vector3  center;
 
-  __declspec(property(get = get_extents, put = set_extents)) ::UnityEngine::Vector3 extents;
+ __declspec(property(get=get_extents, put=set_extents)) ::UnityEngine::Vector3  extents;
 
-  __declspec(property(get = get_size, put = set_size)) ::UnityEngine::Vector3 size;
+ __declspec(property(get=get_size, put=set_size)) ::UnityEngine::Vector3  size;
 
-  static inline ::UnityEngine::BoxCollider* New_ctor();
+static inline ::UnityEngine::BoxCollider* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x6a22c70, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6a247e8, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_center, addr 0x6a228c0, size 0xa0, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector3 get_center();
+/// @brief Method get_center, addr 0x6a24438, size 0xa0, virtual false, abstract: false, final false
+inline ::UnityEngine::Vector3 get_center() ;
 
-  /// @brief Method get_center_Injected, addr 0x6a22960, size 0x44, virtual false, abstract: false, final false
-  static inline void get_center_Injected(::System::IntPtr _unity_self, ::ByRef<::UnityEngine::Vector3> ret);
+/// @brief Method get_center_Injected, addr 0x6a244d8, size 0x44, virtual false, abstract: false, final false
+static inline void get_center_Injected(::System::IntPtr  _unity_self, ::ByRef<::UnityEngine::Vector3>  ret) ;
 
-  /// @brief Method get_extents, addr 0x6a22c40, size 0x20, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector3 get_extents();
+/// @brief Method get_extents, addr 0x6a247b8, size 0x20, virtual false, abstract: false, final false
+inline ::UnityEngine::Vector3 get_extents() ;
 
-  /// @brief Method get_size, addr 0x6a22a80, size 0xa0, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector3 get_size();
+/// @brief Method get_size, addr 0x6a245f8, size 0xa0, virtual false, abstract: false, final false
+inline ::UnityEngine::Vector3 get_size() ;
 
-  /// @brief Method get_size_Injected, addr 0x6a22b20, size 0x44, virtual false, abstract: false, final false
-  static inline void get_size_Injected(::System::IntPtr _unity_self, ::ByRef<::UnityEngine::Vector3> ret);
+/// @brief Method get_size_Injected, addr 0x6a24698, size 0x44, virtual false, abstract: false, final false
+static inline void get_size_Injected(::System::IntPtr  _unity_self, ::ByRef<::UnityEngine::Vector3>  ret) ;
 
-  /// @brief Method set_center, addr 0x6a229a4, size 0x98, virtual false, abstract: false, final false
-  inline void set_center(::UnityEngine::Vector3 value);
+/// @brief Method set_center, addr 0x6a2451c, size 0x98, virtual false, abstract: false, final false
+inline void set_center(::UnityEngine::Vector3  value) ;
 
-  /// @brief Method set_center_Injected, addr 0x6a22a3c, size 0x44, virtual false, abstract: false, final false
-  static inline void set_center_Injected(::System::IntPtr _unity_self, ::ByRef<::UnityEngine::Vector3> value);
+/// @brief Method set_center_Injected, addr 0x6a245b4, size 0x44, virtual false, abstract: false, final false
+static inline void set_center_Injected(::System::IntPtr  _unity_self, ::ByRef<::UnityEngine::Vector3>  value) ;
 
-  /// @brief Method set_extents, addr 0x6a22c60, size 0x10, virtual false, abstract: false, final false
-  inline void set_extents(::UnityEngine::Vector3 value);
+/// @brief Method set_extents, addr 0x6a247d8, size 0x10, virtual false, abstract: false, final false
+inline void set_extents(::UnityEngine::Vector3  value) ;
 
-  /// @brief Method set_size, addr 0x6a22b64, size 0x98, virtual false, abstract: false, final false
-  inline void set_size(::UnityEngine::Vector3 value);
+/// @brief Method set_size, addr 0x6a246dc, size 0x98, virtual false, abstract: false, final false
+inline void set_size(::UnityEngine::Vector3  value) ;
 
-  /// @brief Method set_size_Injected, addr 0x6a22bfc, size 0x44, virtual false, abstract: false, final false
-  static inline void set_size_Injected(::System::IntPtr _unity_self, ::ByRef<::UnityEngine::Vector3> value);
+/// @brief Method set_size_Injected, addr 0x6a24774, size 0x44, virtual false, abstract: false, final false
+static inline void set_size_Injected(::System::IntPtr  _unity_self, ::ByRef<::UnityEngine::Vector3>  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BoxCollider();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr BoxCollider() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BoxCollider", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  BoxCollider(BoxCollider&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BoxCollider", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  BoxCollider(BoxCollider const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "BoxCollider", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+BoxCollider(BoxCollider && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18611 };
+// Ctor Parameters [CppParam { name: "", ty: "BoxCollider", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+BoxCollider(BoxCollider const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{18613};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::BoxCollider, 0x18>, "Size mismatch!");
 
-} // namespace UnityEngine
+} // namespace end def UnityEngine
 NEED_NO_BOX(::UnityEngine::BoxCollider);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::BoxCollider*, "UnityEngine", "BoxCollider");

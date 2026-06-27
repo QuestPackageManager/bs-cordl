@@ -31,71 +31,71 @@ namespace System::Security::Util {
 // CS Name: System.Security.Util.Parser
 class CORDL_TYPE Parser : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field _doc, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__doc, put = __cordl_internal_set__doc)) ::System::Security::SecurityDocument* _doc;
+// Declarations
+/// @brief Field _doc, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get__doc, put=__cordl_internal_set__doc)) ::System::Security::SecurityDocument*  _doc;
 
-  /// @brief Field _t, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__t, put = __cordl_internal_set__t)) ::System::Security::Util::Tokenizer* _t;
+/// @brief Field _t, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get__t, put=__cordl_internal_set__t)) ::System::Security::Util::Tokenizer*  _t;
 
-  /// @brief Method DetermineFormat, addr 0x59b4e28, size 0x188, virtual false, abstract: false, final false
-  inline int32_t DetermineFormat(::System::Security::Util::TokenizerStream* stream);
+/// @brief Method DetermineFormat, addr 0x59b69a0, size 0x188, virtual false, abstract: false, final false
+inline int32_t DetermineFormat(::System::Security::Util::TokenizerStream*  stream) ;
 
-  /// @brief Method GetRequiredSizes, addr 0x59b4900, size 0x424, virtual false, abstract: false, final false
-  inline void GetRequiredSizes(::System::Security::Util::TokenizerStream* stream, ::ByRef<int32_t> index);
+/// @brief Method GetRequiredSizes, addr 0x59b6478, size 0x424, virtual false, abstract: false, final false
+inline void GetRequiredSizes(::System::Security::Util::TokenizerStream*  stream, ::ByRef<int32_t>  index) ;
 
-  /// @brief Method GetTopElement, addr 0x59b48d8, size 0x28, virtual false, abstract: false, final false
-  inline ::System::Security::SecurityElement* GetTopElement();
+/// @brief Method GetTopElement, addr 0x59b6450, size 0x28, virtual false, abstract: false, final false
+inline ::System::Security::SecurityElement* GetTopElement() ;
 
-  static inline ::System::Security::Util::Parser* New_ctor(::StringW input);
+static inline ::System::Security::Util::Parser* New_ctor(::StringW  input) ;
 
-  static inline ::System::Security::Util::Parser* New_ctor(::System::Security::Util::Tokenizer* t);
+static inline ::System::Security::Util::Parser* New_ctor(::System::Security::Util::Tokenizer*  t) ;
 
-  /// @brief Method ParseContents, addr 0x59b59f8, size 0x300, virtual false, abstract: false, final false
-  inline void ParseContents();
+/// @brief Method ParseContents, addr 0x59b7570, size 0x300, virtual false, abstract: false, final false
+inline void ParseContents() ;
 
-  constexpr ::System::Security::SecurityDocument* const& __cordl_internal_get__doc() const;
+constexpr ::System::Security::SecurityDocument* const& __cordl_internal_get__doc() const;
 
-  constexpr ::System::Security::SecurityDocument*& __cordl_internal_get__doc();
+constexpr ::System::Security::SecurityDocument*& __cordl_internal_get__doc() ;
 
-  constexpr ::System::Security::Util::Tokenizer* const& __cordl_internal_get__t() const;
+constexpr ::System::Security::Util::Tokenizer* const& __cordl_internal_get__t() const;
 
-  constexpr ::System::Security::Util::Tokenizer*& __cordl_internal_get__t();
+constexpr ::System::Security::Util::Tokenizer*& __cordl_internal_get__t() ;
 
-  constexpr void __cordl_internal_set__doc(::System::Security::SecurityDocument* value);
+constexpr void __cordl_internal_set__doc(::System::Security::SecurityDocument*  value) ;
 
-  constexpr void __cordl_internal_set__t(::System::Security::Util::Tokenizer* value);
+constexpr void __cordl_internal_set__t(::System::Security::Util::Tokenizer*  value) ;
 
-  /// @brief Method .ctor, addr 0x59b5eb4, size 0x6c, virtual false, abstract: false, final false
-  inline void _ctor(::StringW input);
+/// @brief Method .ctor, addr 0x59b7a2c, size 0x6c, virtual false, abstract: false, final false
+inline void _ctor(::StringW  input) ;
 
-  /// @brief Method .ctor, addr 0x59b5e24, size 0x90, virtual false, abstract: false, final false
-  inline void _ctor(::System::Security::Util::Tokenizer* t);
+/// @brief Method .ctor, addr 0x59b799c, size 0x90, virtual false, abstract: false, final false
+inline void _ctor(::System::Security::Util::Tokenizer*  t) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Parser();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr Parser() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Parser", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  Parser(Parser&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Parser", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  Parser(Parser const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "Parser", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Parser(Parser && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2911 };
+// Ctor Parameters [CppParam { name: "", ty: "Parser", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Parser(Parser const& ) = delete;
 
-  /// @brief Field _doc, offset: 0x10, size: 0x8, def value: None
-  ::System::Security::SecurityDocument* ____doc;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{2911};
 
-  /// @brief Field _t, offset: 0x18, size: 0x8, def value: None
-  ::System::Security::Util::Tokenizer* ____t;
+/// @brief Field _doc, offset: 0x10, size: 0x8, def value: None
+ ::System::Security::SecurityDocument*  ____doc;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _t, offset: 0x18, size: 0x8, def value: None
+ ::System::Security::Util::Tokenizer*  ____t;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Security::Util::Parser, ____doc) == 0x10, "Offset mismatch!");
@@ -104,6 +104,6 @@ static_assert(offsetof(::System::Security::Util::Parser, ____t) == 0x18, "Offset
 
 static_assert(::cordl_internals::size_check_v<::System::Security::Util::Parser, 0x20>, "Size mismatch!");
 
-} // namespace System::Security::Util
+} // namespace end def System::Security::Util
 NEED_NO_BOX(::System::Security::Util::Parser);
 DEFINE_IL2CPP_ARG_TYPE(::System::Security::Util::Parser*, "System.Security.Util", "Parser");

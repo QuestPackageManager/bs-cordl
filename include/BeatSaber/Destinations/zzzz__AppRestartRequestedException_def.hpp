@@ -17,34 +17,34 @@ namespace BeatSaber::Destinations {
 // CS Name: BeatSaber.Destinations.AppRestartRequestedException
 class CORDL_TYPE AppRestartRequestedException : public ::BeatSaber::Destinations::InitialDestinationException {
 public:
-  // Declarations
-  static inline ::BeatSaber::Destinations::AppRestartRequestedException* New_ctor();
+// Declarations
+static inline ::BeatSaber::Destinations::AppRestartRequestedException* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x31e8bcc, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x31e98ec, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AppRestartRequestedException();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr AppRestartRequestedException() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AppRestartRequestedException", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  AppRestartRequestedException(AppRestartRequestedException&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AppRestartRequestedException", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  AppRestartRequestedException(AppRestartRequestedException const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "AppRestartRequestedException", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+AppRestartRequestedException(AppRestartRequestedException && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22866 };
+// Ctor Parameters [CppParam { name: "", ty: "AppRestartRequestedException", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+AppRestartRequestedException(AppRestartRequestedException const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22870};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::BeatSaber::Destinations::AppRestartRequestedException, 0x90>, "Size mismatch!");
 
-} // namespace BeatSaber::Destinations
+} // namespace end def BeatSaber::Destinations
 NEED_NO_BOX(::BeatSaber::Destinations::AppRestartRequestedException);
 DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::Destinations::AppRestartRequestedException*, "BeatSaber.Destinations", "AppRestartRequestedException");

@@ -24,48 +24,48 @@ namespace System::Text {
 // CS Name: System.Text.EncoderExceptionFallback
 class CORDL_TYPE EncoderExceptionFallback : public ::System::Text::EncoderFallback {
 public:
-  // Declarations
-  __declspec(property(get = get_MaxCharCount)) int32_t MaxCharCount;
+// Declarations
+ __declspec(property(get=get_MaxCharCount)) int32_t  MaxCharCount;
 
-  /// @brief Method CreateFallbackBuffer, addr 0x59960e4, size 0x44, virtual true, abstract: false, final false
-  inline ::System::Text::EncoderFallbackBuffer* CreateFallbackBuffer();
+/// @brief Method CreateFallbackBuffer, addr 0x5997c5c, size 0x44, virtual true, abstract: false, final false
+inline ::System::Text::EncoderFallbackBuffer* CreateFallbackBuffer() ;
 
-  /// @brief Method Equals, addr 0x5996134, size 0x60, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* value);
+/// @brief Method Equals, addr 0x5997cac, size 0x60, virtual true, abstract: false, final false
+inline bool Equals(::System::Object*  value) ;
 
-  /// @brief Method GetHashCode, addr 0x5996194, size 0x8, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
+/// @brief Method GetHashCode, addr 0x5997d0c, size 0x8, virtual true, abstract: false, final false
+inline int32_t GetHashCode() ;
 
-  static inline ::System::Text::EncoderExceptionFallback* New_ctor();
+static inline ::System::Text::EncoderExceptionFallback* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x59960e0, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5997c58, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_MaxCharCount, addr 0x599612c, size 0x8, virtual true, abstract: false, final false
-  inline int32_t get_MaxCharCount();
+/// @brief Method get_MaxCharCount, addr 0x5997ca4, size 0x8, virtual true, abstract: false, final false
+inline int32_t get_MaxCharCount() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr EncoderExceptionFallback();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr EncoderExceptionFallback() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EncoderExceptionFallback", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  EncoderExceptionFallback(EncoderExceptionFallback&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EncoderExceptionFallback", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  EncoderExceptionFallback(EncoderExceptionFallback const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "EncoderExceptionFallback", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+EncoderExceptionFallback(EncoderExceptionFallback && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2860 };
+// Ctor Parameters [CppParam { name: "", ty: "EncoderExceptionFallback", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+EncoderExceptionFallback(EncoderExceptionFallback const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{2860};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Text::EncoderExceptionFallback, 0x10>, "Size mismatch!");
 
-} // namespace System::Text
+} // namespace end def System::Text
 NEED_NO_BOX(::System::Text::EncoderExceptionFallback);
 DEFINE_IL2CPP_ARG_TYPE(::System::Text::EncoderExceptionFallback*, "System.Text", "EncoderExceptionFallback");

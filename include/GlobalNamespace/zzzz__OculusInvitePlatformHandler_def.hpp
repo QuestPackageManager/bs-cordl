@@ -20,48 +20,48 @@ namespace GlobalNamespace {
 // CS Name: OculusInvitePlatformHandler
 class CORDL_TYPE OculusInvitePlatformHandler : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = get_isSupported)) bool isSupported;
+// Declarations
+ __declspec(property(get=get_isSupported)) bool  isSupported;
 
-  /// @brief Convert operator to "::GlobalNamespace::IInvitePlatformHandler"
-  constexpr operator ::GlobalNamespace::IInvitePlatformHandler*() noexcept;
+/// @brief Convert operator to "::GlobalNamespace::IInvitePlatformHandler"
+constexpr operator  ::GlobalNamespace::IInvitePlatformHandler*() noexcept;
 
-  static inline ::GlobalNamespace::OculusInvitePlatformHandler* New_ctor();
+static inline ::GlobalNamespace::OculusInvitePlatformHandler* New_ctor() ;
 
-  /// @brief Method OpenInvitePanel, addr 0x3675b3c, size 0x5c, virtual true, abstract: false, final true
-  inline void OpenInvitePanel();
+/// @brief Method OpenInvitePanel, addr 0x3676ed0, size 0x5c, virtual true, abstract: false, final true
+inline void OpenInvitePanel() ;
 
-  /// @brief Method .ctor, addr 0x3675b98, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x3676f2c, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_isSupported, addr 0x3675b34, size 0x8, virtual true, abstract: false, final true
-  inline bool get_isSupported();
+/// @brief Method get_isSupported, addr 0x3676ec8, size 0x8, virtual true, abstract: false, final true
+inline bool get_isSupported() ;
 
-  /// @brief Convert to "::GlobalNamespace::IInvitePlatformHandler"
-  constexpr ::GlobalNamespace::IInvitePlatformHandler* i___GlobalNamespace__IInvitePlatformHandler() noexcept;
+/// @brief Convert to "::GlobalNamespace::IInvitePlatformHandler"
+constexpr ::GlobalNamespace::IInvitePlatformHandler* i___GlobalNamespace__IInvitePlatformHandler() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OculusInvitePlatformHandler();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr OculusInvitePlatformHandler() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OculusInvitePlatformHandler", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  OculusInvitePlatformHandler(OculusInvitePlatformHandler&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OculusInvitePlatformHandler", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  OculusInvitePlatformHandler(OculusInvitePlatformHandler const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "OculusInvitePlatformHandler", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+OculusInvitePlatformHandler(OculusInvitePlatformHandler && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15092 };
+// Ctor Parameters [CppParam { name: "", ty: "OculusInvitePlatformHandler", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+OculusInvitePlatformHandler(OculusInvitePlatformHandler const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{15094};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OculusInvitePlatformHandler, 0x10>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::OculusInvitePlatformHandler);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OculusInvitePlatformHandler*, "", "OculusInvitePlatformHandler");

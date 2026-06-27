@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "UnityEngine/Rendering/Universal/Internal/AdditionalLightsShadowCasterPass.hpp"
 #include "UnityEngine/Rendering/Universal/Internal/ColorGradingLutPass.hpp"
@@ -23,5 +23,6 @@ module;
 #include "UnityEngine/Rendering/Universal/Internal/RenderTargetBufferSystem.hpp"
 #include "UnityEngine/Rendering/Universal/Internal/StencilUsage.hpp"
 #ifdef __cpp_modules
-export module Internal;
-#endif
+                    export module Internal;
+                    #endif
+                

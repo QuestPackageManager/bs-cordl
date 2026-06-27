@@ -20,53 +20,51 @@ namespace GlobalNamespace {
 // CS Name: Parametric3SliceUpdater
 class CORDL_TYPE Parametric3SliceUpdater : public ::UnityEngine::MonoBehaviour {
 public:
-  // Declarations
-  /// @brief Field _parametric3SliceSpriteController, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__parametric3SliceSpriteController,
-                      put = __cordl_internal_set__parametric3SliceSpriteController)) ::UnityW<::GlobalNamespace::Parametric3SliceSpriteController>
-      _parametric3SliceSpriteController;
+// Declarations
+/// @brief Field _parametric3SliceSpriteController, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get__parametric3SliceSpriteController, put=__cordl_internal_set__parametric3SliceSpriteController)) ::UnityW<::GlobalNamespace::Parametric3SliceSpriteController>  _parametric3SliceSpriteController;
 
-  static inline ::GlobalNamespace::Parametric3SliceUpdater* New_ctor();
+static inline ::GlobalNamespace::Parametric3SliceUpdater* New_ctor() ;
 
-  /// @brief Method Update, addr 0x5721070, size 0x14, virtual false, abstract: false, final false
-  inline void Update();
+/// @brief Method Update, addr 0x57228d8, size 0x14, virtual false, abstract: false, final false
+inline void Update() ;
 
-  constexpr ::UnityW<::GlobalNamespace::Parametric3SliceSpriteController> const& __cordl_internal_get__parametric3SliceSpriteController() const;
+constexpr ::UnityW<::GlobalNamespace::Parametric3SliceSpriteController> const& __cordl_internal_get__parametric3SliceSpriteController() const;
 
-  constexpr ::UnityW<::GlobalNamespace::Parametric3SliceSpriteController>& __cordl_internal_get__parametric3SliceSpriteController();
+constexpr ::UnityW<::GlobalNamespace::Parametric3SliceSpriteController>& __cordl_internal_get__parametric3SliceSpriteController() ;
 
-  constexpr void __cordl_internal_set__parametric3SliceSpriteController(::UnityW<::GlobalNamespace::Parametric3SliceSpriteController> value);
+constexpr void __cordl_internal_set__parametric3SliceSpriteController(::UnityW<::GlobalNamespace::Parametric3SliceSpriteController>  value) ;
 
-  /// @brief Method .ctor, addr 0x5721084, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x57228ec, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Parametric3SliceUpdater();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr Parametric3SliceUpdater() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Parametric3SliceUpdater", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  Parametric3SliceUpdater(Parametric3SliceUpdater&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Parametric3SliceUpdater", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  Parametric3SliceUpdater(Parametric3SliceUpdater const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "Parametric3SliceUpdater", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Parametric3SliceUpdater(Parametric3SliceUpdater && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19687 };
+// Ctor Parameters [CppParam { name: "", ty: "Parametric3SliceUpdater", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Parametric3SliceUpdater(Parametric3SliceUpdater const& ) = delete;
 
-  /// @brief Field _parametric3SliceSpriteController, offset: 0x20, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::Parametric3SliceSpriteController> ____parametric3SliceSpriteController;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19690};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _parametric3SliceSpriteController, offset: 0x20, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::Parametric3SliceSpriteController>  ____parametric3SliceSpriteController;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::Parametric3SliceUpdater, ____parametric3SliceSpriteController) == 0x20, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::Parametric3SliceUpdater, 0x28>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::Parametric3SliceUpdater);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::Parametric3SliceUpdater*, "", "Parametric3SliceUpdater");

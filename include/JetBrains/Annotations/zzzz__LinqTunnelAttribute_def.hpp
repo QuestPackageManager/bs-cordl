@@ -17,34 +17,34 @@ namespace JetBrains::Annotations {
 // CS Name: JetBrains.Annotations.LinqTunnelAttribute
 class CORDL_TYPE LinqTunnelAttribute : public ::System::Attribute {
 public:
-  // Declarations
-  static inline ::JetBrains::Annotations::LinqTunnelAttribute* New_ctor();
+// Declarations
+static inline ::JetBrains::Annotations::LinqTunnelAttribute* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x6ce4de4, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6ce695c, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LinqTunnelAttribute();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr LinqTunnelAttribute() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LinqTunnelAttribute", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  LinqTunnelAttribute(LinqTunnelAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LinqTunnelAttribute", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  LinqTunnelAttribute(LinqTunnelAttribute const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "LinqTunnelAttribute", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+LinqTunnelAttribute(LinqTunnelAttribute && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22378 };
+// Ctor Parameters [CppParam { name: "", ty: "LinqTunnelAttribute", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+LinqTunnelAttribute(LinqTunnelAttribute const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22382};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::JetBrains::Annotations::LinqTunnelAttribute, 0x10>, "Size mismatch!");
 
-} // namespace JetBrains::Annotations
+} // namespace end def JetBrains::Annotations
 NEED_NO_BOX(::JetBrains::Annotations::LinqTunnelAttribute);
 DEFINE_IL2CPP_ARG_TYPE(::JetBrains::Annotations::LinqTunnelAttribute*, "JetBrains.Annotations", "LinqTunnelAttribute");

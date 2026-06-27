@@ -21,44 +21,44 @@ namespace Org::BouncyCastle::Crypto {
 // CS Name: Org.BouncyCastle.Crypto.OutputLengthException
 class CORDL_TYPE OutputLengthException : public ::Org::BouncyCastle::Crypto::DataLengthException {
 public:
-  // Declarations
-  static inline ::Org::BouncyCastle::Crypto::OutputLengthException* New_ctor();
+// Declarations
+static inline ::Org::BouncyCastle::Crypto::OutputLengthException* New_ctor() ;
 
-  static inline ::Org::BouncyCastle::Crypto::OutputLengthException* New_ctor(::StringW message);
+static inline ::Org::BouncyCastle::Crypto::OutputLengthException* New_ctor(::StringW  message) ;
 
-  static inline ::Org::BouncyCastle::Crypto::OutputLengthException* New_ctor(::StringW message, ::System::Exception* exception);
+static inline ::Org::BouncyCastle::Crypto::OutputLengthException* New_ctor(::StringW  message, ::System::Exception*  exception) ;
 
-  /// @brief Method .ctor, addr 0x33dfb04, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x33e08a0, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method .ctor, addr 0x33df9a4, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor(::StringW message);
+/// @brief Method .ctor, addr 0x33e0740, size 0x4, virtual false, abstract: false, final false
+inline void _ctor(::StringW  message) ;
 
-  /// @brief Method .ctor, addr 0x33dfb08, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor(::StringW message, ::System::Exception* exception);
+/// @brief Method .ctor, addr 0x33e08a4, size 0x4, virtual false, abstract: false, final false
+inline void _ctor(::StringW  message, ::System::Exception*  exception) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OutputLengthException();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr OutputLengthException() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OutputLengthException", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  OutputLengthException(OutputLengthException&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OutputLengthException", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  OutputLengthException(OutputLengthException const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "OutputLengthException", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+OutputLengthException(OutputLengthException && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1352 };
+// Ctor Parameters [CppParam { name: "", ty: "OutputLengthException", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+OutputLengthException(OutputLengthException const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{1352};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::OutputLengthException, 0x90>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Crypto
+} // namespace end def Org::BouncyCastle::Crypto
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::OutputLengthException);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::OutputLengthException*, "Org.BouncyCastle.Crypto", "OutputLengthException");

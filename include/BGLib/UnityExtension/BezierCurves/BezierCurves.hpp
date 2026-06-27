@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "BGLib/UnityExtension/BezierCurves/BaseBezierCurve.hpp"
 #include "BGLib/UnityExtension/BezierCurves/BaseBezierCurveData.hpp"
@@ -13,5 +13,6 @@ module;
 #include "BGLib/UnityExtension/BezierCurves/ObjectBasedBezierCurve.hpp"
 #include "BGLib/UnityExtension/BezierCurves/ObjectBasedBezierCurveData.hpp"
 #ifdef __cpp_modules
-export module BezierCurves;
-#endif
+                    export module BezierCurves;
+                    #endif
+                

@@ -21,92 +21,92 @@ namespace System {
 // CS Name: System.Platform
 class CORDL_TYPE Platform : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field checkedOS, offset 0xffffffff, size 0x1
-  __declspec(property(get = getStaticF_checkedOS, put = setStaticF_checkedOS)) bool checkedOS;
+// Declarations
+/// @brief Field checkedOS, offset 0xffffffff, size 0x1 
+ __declspec(property(get=getStaticF_checkedOS, put=setStaticF_checkedOS)) bool  checkedOS;
 
-  /// @brief Field isAix, offset 0xffffffff, size 0x1
-  __declspec(property(get = getStaticF_isAix, put = setStaticF_isAix)) bool isAix;
+/// @brief Field isAix, offset 0xffffffff, size 0x1 
+ __declspec(property(get=getStaticF_isAix, put=setStaticF_isAix)) bool  isAix;
 
-  /// @brief Field isFreeBSD, offset 0xffffffff, size 0x1
-  __declspec(property(get = getStaticF_isFreeBSD, put = setStaticF_isFreeBSD)) bool isFreeBSD;
+/// @brief Field isFreeBSD, offset 0xffffffff, size 0x1 
+ __declspec(property(get=getStaticF_isFreeBSD, put=setStaticF_isFreeBSD)) bool  isFreeBSD;
 
-  /// @brief Field isIBMi, offset 0xffffffff, size 0x1
-  __declspec(property(get = getStaticF_isIBMi, put = setStaticF_isIBMi)) bool isIBMi;
+/// @brief Field isIBMi, offset 0xffffffff, size 0x1 
+ __declspec(property(get=getStaticF_isIBMi, put=setStaticF_isIBMi)) bool  isIBMi;
 
-  /// @brief Field isMacOS, offset 0xffffffff, size 0x1
-  __declspec(property(get = getStaticF_isMacOS, put = setStaticF_isMacOS)) bool isMacOS;
+/// @brief Field isMacOS, offset 0xffffffff, size 0x1 
+ __declspec(property(get=getStaticF_isMacOS, put=setStaticF_isMacOS)) bool  isMacOS;
 
-  /// @brief Field isOpenBSD, offset 0xffffffff, size 0x1
-  __declspec(property(get = getStaticF_isOpenBSD, put = setStaticF_isOpenBSD)) bool isOpenBSD;
+/// @brief Field isOpenBSD, offset 0xffffffff, size 0x1 
+ __declspec(property(get=getStaticF_isOpenBSD, put=setStaticF_isOpenBSD)) bool  isOpenBSD;
 
-  /// @brief Method CheckOS, addr 0x6238440, size 0x200, virtual false, abstract: false, final false
-  static inline void CheckOS();
+/// @brief Method CheckOS, addr 0x6239fb8, size 0x200, virtual false, abstract: false, final false
+static inline void CheckOS() ;
 
-  static inline bool getStaticF_checkedOS();
+static inline bool getStaticF_checkedOS() ;
 
-  static inline bool getStaticF_isAix();
+static inline bool getStaticF_isAix() ;
 
-  static inline bool getStaticF_isFreeBSD();
+static inline bool getStaticF_isFreeBSD() ;
 
-  static inline bool getStaticF_isIBMi();
+static inline bool getStaticF_isIBMi() ;
 
-  static inline bool getStaticF_isMacOS();
+static inline bool getStaticF_isMacOS() ;
 
-  static inline bool getStaticF_isOpenBSD();
+static inline bool getStaticF_isOpenBSD() ;
 
-  /// @brief Method get_IsAix, addr 0x623884c, size 0x60, virtual false, abstract: false, final false
-  static inline bool get_IsAix();
+/// @brief Method get_IsAix, addr 0x623a3c4, size 0x60, virtual false, abstract: false, final false
+static inline bool get_IsAix() ;
 
-  /// @brief Method get_IsFreeBSD, addr 0x623872c, size 0x60, virtual false, abstract: false, final false
-  static inline bool get_IsFreeBSD();
+/// @brief Method get_IsFreeBSD, addr 0x623a2a4, size 0x60, virtual false, abstract: false, final false
+static inline bool get_IsFreeBSD() ;
 
-  /// @brief Method get_IsIBMi, addr 0x62387ec, size 0x60, virtual false, abstract: false, final false
-  static inline bool get_IsIBMi();
+/// @brief Method get_IsIBMi, addr 0x623a364, size 0x60, virtual false, abstract: false, final false
+static inline bool get_IsIBMi() ;
 
-  /// @brief Method get_IsMacOS, addr 0x6238640, size 0xec, virtual false, abstract: false, final false
-  static inline bool get_IsMacOS();
+/// @brief Method get_IsMacOS, addr 0x623a1b8, size 0xec, virtual false, abstract: false, final false
+static inline bool get_IsMacOS() ;
 
-  /// @brief Method get_IsOpenBSD, addr 0x623878c, size 0x60, virtual false, abstract: false, final false
-  static inline bool get_IsOpenBSD();
+/// @brief Method get_IsOpenBSD, addr 0x623a304, size 0x60, virtual false, abstract: false, final false
+static inline bool get_IsOpenBSD() ;
 
-  static inline void setStaticF_checkedOS(bool value);
+static inline void setStaticF_checkedOS(bool  value) ;
 
-  static inline void setStaticF_isAix(bool value);
+static inline void setStaticF_isAix(bool  value) ;
 
-  static inline void setStaticF_isFreeBSD(bool value);
+static inline void setStaticF_isFreeBSD(bool  value) ;
 
-  static inline void setStaticF_isIBMi(bool value);
+static inline void setStaticF_isIBMi(bool  value) ;
 
-  static inline void setStaticF_isMacOS(bool value);
+static inline void setStaticF_isMacOS(bool  value) ;
 
-  static inline void setStaticF_isOpenBSD(bool value);
+static inline void setStaticF_isOpenBSD(bool  value) ;
 
-  /// @brief Method uname, addr 0x62383c4, size 0x7c, virtual false, abstract: false, final false
-  static inline int32_t uname(::System::IntPtr buf);
+/// @brief Method uname, addr 0x6239f3c, size 0x7c, virtual false, abstract: false, final false
+static inline int32_t uname(::System::IntPtr  buf) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Platform();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr Platform() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Platform", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  Platform(Platform&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Platform", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  Platform(Platform const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "Platform", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Platform(Platform && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11077 };
+// Ctor Parameters [CppParam { name: "", ty: "Platform", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Platform(Platform const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11078};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Platform, 0x10>, "Size mismatch!");
 
-} // namespace System
+} // namespace end def System
 NEED_NO_BOX(::System::Platform);
 DEFINE_IL2CPP_ARG_TYPE(::System::Platform*, "System", "Platform");

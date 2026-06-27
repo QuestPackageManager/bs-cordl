@@ -76,61 +76,57 @@ namespace System {
 // CS Name: System.Enum/EnumResult
 struct CORDL_TYPE Enum_EnumResult {
 public:
-  // Declarations
-  /// @brief Method GetEnumParseException, addr 0x5b3de2c, size 0x194, virtual false, abstract: false, final false
-  inline ::System::Exception* GetEnumParseException();
+// Declarations
+/// @brief Method GetEnumParseException, addr 0x5b3f9a4, size 0x194, virtual false, abstract: false, final false
+inline ::System::Exception* GetEnumParseException() ;
 
-  /// @brief Method Init, addr 0x5b3d7b8, size 0x38, virtual false, abstract: false, final false
-  inline void Init(bool canMethodThrow);
+/// @brief Method Init, addr 0x5b3f330, size 0x38, virtual false, abstract: false, final false
+inline void Init(bool  canMethodThrow) ;
 
-  /// @brief Method SetFailure, addr 0x5b3dff8, size 0x3c, virtual false, abstract: false, final false
-  inline void SetFailure(::GlobalNamespace::Enum_ParseFailureKind failure, ::StringW failureMessageID, ::System::Object* failureMessageFormatArgument);
+/// @brief Method SetFailure, addr 0x5b3fb70, size 0x3c, virtual false, abstract: false, final false
+inline void SetFailure(::GlobalNamespace::Enum_ParseFailureKind  failure, ::StringW  failureMessageID, ::System::Object*  failureMessageFormatArgument) ;
 
-  /// @brief Method SetFailure, addr 0x5b3dfc0, size 0x38, virtual false, abstract: false, final false
-  inline void SetFailure(::GlobalNamespace::Enum_ParseFailureKind failure, ::StringW failureParameter);
+/// @brief Method SetFailure, addr 0x5b3fb38, size 0x38, virtual false, abstract: false, final false
+inline void SetFailure(::GlobalNamespace::Enum_ParseFailureKind  failure, ::StringW  failureParameter) ;
 
-  /// @brief Method SetFailure, addr 0x5b3e4fc, size 0x10, virtual false, abstract: false, final false
-  inline void SetFailure(::System::Exception* unhandledException);
+/// @brief Method SetFailure, addr 0x5b40074, size 0x10, virtual false, abstract: false, final false
+inline void SetFailure(::System::Exception*  unhandledException) ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Enum_EnumResult();
+// Ctor Parameters []
+// @brief default ctor
+constexpr Enum_EnumResult() ;
 
-  // Ctor Parameters [CppParam { name: "parsedEnum", ty: "::System::Object*", modifiers: "", def_value: None }, CppParam { name: "canThrow", ty: "bool", modifiers: "", def_value: None }, CppParam {
-  // name: "m_failure", ty: "::GlobalNamespace::Enum_ParseFailureKind", modifiers: "", def_value: None }, CppParam { name: "m_failureMessageID", ty: "::StringW", modifiers: "", def_value: None },
-  // CppParam { name: "m_failureParameter", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "m_failureMessageFormatArgument", ty: "::System::Object*", modifiers: "", def_value:
-  // None }, CppParam { name: "m_innerException", ty: "::System::Exception*", modifiers: "", def_value: None }]
-  constexpr Enum_EnumResult(::System::Object* parsedEnum, bool canThrow, ::GlobalNamespace::Enum_ParseFailureKind m_failure, ::StringW m_failureMessageID, ::StringW m_failureParameter,
-                            ::System::Object* m_failureMessageFormatArgument, ::System::Exception* m_innerException) noexcept;
+// Ctor Parameters [CppParam { name: "parsedEnum", ty: "::System::Object*", modifiers: "", def_value: None }, CppParam { name: "canThrow", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "m_failure", ty: "::GlobalNamespace::Enum_ParseFailureKind", modifiers: "", def_value: None }, CppParam { name: "m_failureMessageID", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "m_failureParameter", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "m_failureMessageFormatArgument", ty: "::System::Object*", modifiers: "", def_value: None }, CppParam { name: "m_innerException", ty: "::System::Exception*", modifiers: "", def_value: None }]
+constexpr Enum_EnumResult(::System::Object*  parsedEnum, bool  canThrow, ::GlobalNamespace::Enum_ParseFailureKind  m_failure, ::StringW  m_failureMessageID, ::StringW  m_failureParameter, ::System::Object*  m_failureMessageFormatArgument, ::System::Exception*  m_innerException) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2567 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{2567};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x30};
 
-  /// @brief Field parsedEnum, offset: 0x0, size: 0x8, def value: None
-  ::System::Object* parsedEnum;
+/// @brief Field parsedEnum, offset: 0x0, size: 0x8, def value: None
+ ::System::Object*  parsedEnum;
 
-  /// @brief Field canThrow, offset: 0x8, size: 0x1, def value: None
-  bool canThrow;
+/// @brief Field canThrow, offset: 0x8, size: 0x1, def value: None
+ bool  canThrow;
 
-  /// @brief Field m_failure, offset: 0xc, size: 0x4, def value: None
-  ::GlobalNamespace::Enum_ParseFailureKind m_failure;
+/// @brief Field m_failure, offset: 0xc, size: 0x4, def value: None
+ ::GlobalNamespace::Enum_ParseFailureKind  m_failure;
 
-  /// @brief Field m_failureMessageID, offset: 0x10, size: 0x8, def value: None
-  ::StringW m_failureMessageID;
+/// @brief Field m_failureMessageID, offset: 0x10, size: 0x8, def value: None
+ ::StringW  m_failureMessageID;
 
-  /// @brief Field m_failureParameter, offset: 0x18, size: 0x8, def value: None
-  ::StringW m_failureParameter;
+/// @brief Field m_failureParameter, offset: 0x18, size: 0x8, def value: None
+ ::StringW  m_failureParameter;
 
-  /// @brief Field m_failureMessageFormatArgument, offset: 0x20, size: 0x8, def value: None
-  ::System::Object* m_failureMessageFormatArgument;
+/// @brief Field m_failureMessageFormatArgument, offset: 0x20, size: 0x8, def value: None
+ ::System::Object*  m_failureMessageFormatArgument;
 
-  /// @brief Field m_innerException, offset: 0x28, size: 0x8, def value: None
-  ::System::Exception* m_innerException;
+/// @brief Field m_innerException, offset: 0x28, size: 0x8, def value: None
+ ::System::Exception*  m_innerException;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Enum_EnumResult, parsedEnum) == 0x0, "Offset mismatch!");
@@ -149,61 +145,61 @@ static_assert(offsetof(::System::Enum_EnumResult, m_innerException) == 0x28, "Of
 
 static_assert(::cordl_internals::size_check_v<::System::Enum_EnumResult, 0x30>, "Size mismatch!");
 
-} // namespace System
+} // namespace end def System
 // Dependencies System.Object
 namespace System {
 // Is value type: false
 // CS Name: System.Enum/ValuesAndNames
 class CORDL_TYPE Enum_ValuesAndNames : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field Names, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_Names, put = __cordl_internal_set_Names)) ::ArrayW<::StringW, ::Array<::StringW>*> Names;
+// Declarations
+/// @brief Field Names, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_Names, put=__cordl_internal_set_Names)) ::ArrayW<::StringW,::Array<::StringW>*>  Names;
 
-  /// @brief Field Values, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_Values, put = __cordl_internal_set_Values)) ::ArrayW<uint64_t, ::Array<uint64_t>*> Values;
+/// @brief Field Values, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_Values, put=__cordl_internal_set_Values)) ::ArrayW<uint64_t,::Array<uint64_t>*>  Values;
 
-  static inline ::System::Enum_ValuesAndNames* New_ctor(::ArrayW<uint64_t, ::Array<uint64_t>*> values, ::ArrayW<::StringW, ::Array<::StringW>*> names);
+static inline ::System::Enum_ValuesAndNames* New_ctor(::ArrayW<uint64_t,::Array<uint64_t>*>  values, ::ArrayW<::StringW,::Array<::StringW>*>  names) ;
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get_Names() const;
+constexpr ::ArrayW<::StringW,::Array<::StringW>*> const& __cordl_internal_get_Names() const;
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get_Names();
+constexpr ::ArrayW<::StringW,::Array<::StringW>*>& __cordl_internal_get_Names() ;
 
-  constexpr ::ArrayW<uint64_t, ::Array<uint64_t>*> const& __cordl_internal_get_Values() const;
+constexpr ::ArrayW<uint64_t,::Array<uint64_t>*> const& __cordl_internal_get_Values() const;
 
-  constexpr ::ArrayW<uint64_t, ::Array<uint64_t>*>& __cordl_internal_get_Values();
+constexpr ::ArrayW<uint64_t,::Array<uint64_t>*>& __cordl_internal_get_Values() ;
 
-  constexpr void __cordl_internal_set_Names(::ArrayW<::StringW, ::Array<::StringW>*> value);
+constexpr void __cordl_internal_set_Names(::ArrayW<::StringW,::Array<::StringW>*>  value) ;
 
-  constexpr void __cordl_internal_set_Values(::ArrayW<uint64_t, ::Array<uint64_t>*> value);
+constexpr void __cordl_internal_set_Values(::ArrayW<uint64_t,::Array<uint64_t>*>  value) ;
 
-  /// @brief Method .ctor, addr 0x5b3ce28, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::ArrayW<uint64_t, ::Array<uint64_t>*> values, ::ArrayW<::StringW, ::Array<::StringW>*> names);
+/// @brief Method .ctor, addr 0x5b3e9a0, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(::ArrayW<uint64_t,::Array<uint64_t>*>  values, ::ArrayW<::StringW,::Array<::StringW>*>  names) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Enum_ValuesAndNames();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr Enum_ValuesAndNames() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Enum_ValuesAndNames", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  Enum_ValuesAndNames(Enum_ValuesAndNames&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Enum_ValuesAndNames", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  Enum_ValuesAndNames(Enum_ValuesAndNames const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "Enum_ValuesAndNames", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Enum_ValuesAndNames(Enum_ValuesAndNames && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2568 };
+// Ctor Parameters [CppParam { name: "", ty: "Enum_ValuesAndNames", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Enum_ValuesAndNames(Enum_ValuesAndNames const& ) = delete;
 
-  /// @brief Field Values, offset: 0x10, size: 0x8, def value: None
-  ::ArrayW<uint64_t, ::Array<uint64_t>*> ___Values;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{2568};
 
-  /// @brief Field Names, offset: 0x18, size: 0x8, def value: None
-  ::ArrayW<::StringW, ::Array<::StringW>*> ___Names;
+/// @brief Field Values, offset: 0x10, size: 0x8, def value: None
+ ::ArrayW<uint64_t,::Array<uint64_t>*>  ___Values;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field Names, offset: 0x18, size: 0x8, def value: None
+ ::ArrayW<::StringW,::Array<::StringW>*>  ___Names;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Enum_ValuesAndNames, ___Values) == 0x10, "Offset mismatch!");
@@ -212,49 +208,50 @@ static_assert(offsetof(::System::Enum_ValuesAndNames, ___Names) == 0x18, "Offset
 
 static_assert(::cordl_internals::size_check_v<::System::Enum_ValuesAndNames, 0x20>, "Size mismatch!");
 
-} // namespace System
+} // namespace end def System
 // Dependencies System.ValueType
 namespace System {
 // Is value type: false
 // CS Name: System.Enum
 class CORDL_TYPE Enum : public ::System::ValueType {
 public:
-  // Declarations
-  using ParseFailureKind = ::GlobalNamespace::Enum_ParseFailureKind;
+// Declarations
+using ParseFailureKind = ::GlobalNamespace::Enum_ParseFailureKind;
 
-  using EnumResult = ::System::Enum_EnumResult;
+using EnumResult = ::System::Enum_EnumResult;
 
-  using ValuesAndNames = ::System::Enum_ValuesAndNames;
+using ValuesAndNames = ::System::Enum_ValuesAndNames;
 
-  /// @brief Field enumSeperatorCharArray, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_enumSeperatorCharArray, put = setStaticF_enumSeperatorCharArray)) ::ArrayW<char16_t, ::Array<char16_t>*> enumSeperatorCharArray;
+/// @brief Field enumSeperatorCharArray, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_enumSeperatorCharArray, put=setStaticF_enumSeperatorCharArray)) ::ArrayW<char16_t,::Array<char16_t>*>  enumSeperatorCharArray;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Enum() {}
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr Enum()   {
+}
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Enum", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  Enum(Enum&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Enum", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  Enum(Enum const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "Enum", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Enum(Enum && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2569 };
+// Ctor Parameters [CppParam { name: "", ty: "Enum", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Enum(Enum const& ) = delete;
 
-  /// @brief Field enumSeperator offset 0xffffffff size 0x8
-  static constexpr ::ConstString enumSeperator{ u", " };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{2569};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field enumSeperator offset 0xffffffff size 0x8
+static constexpr ::ConstString  enumSeperator{u", "};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Enum, 0x10>, "Size mismatch!");
 
-} // namespace System
+} // namespace end def System
 NEED_NO_BOX(::System::Enum);
 DEFINE_IL2CPP_ARG_TYPE(::System::Enum*, "System", "Enum");
 NEED_NO_BOX(::System::Enum_ValuesAndNames);

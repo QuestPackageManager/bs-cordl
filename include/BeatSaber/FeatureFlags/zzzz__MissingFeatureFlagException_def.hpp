@@ -18,34 +18,34 @@ namespace BeatSaber::FeatureFlags {
 // CS Name: BeatSaber.FeatureFlags.MissingFeatureFlagException
 class CORDL_TYPE MissingFeatureFlagException : public ::System::Exception {
 public:
-  // Declarations
-  static inline ::BeatSaber::FeatureFlags::MissingFeatureFlagException* New_ctor(::StringW message);
+// Declarations
+static inline ::BeatSaber::FeatureFlags::MissingFeatureFlagException* New_ctor(::StringW  message) ;
 
-  /// @brief Method .ctor, addr 0x31f4e60, size 0x6c, virtual false, abstract: false, final false
-  inline void _ctor(::StringW message);
+/// @brief Method .ctor, addr 0x31f5b80, size 0x6c, virtual false, abstract: false, final false
+inline void _ctor(::StringW  message) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MissingFeatureFlagException();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr MissingFeatureFlagException() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MissingFeatureFlagException", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  MissingFeatureFlagException(MissingFeatureFlagException&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MissingFeatureFlagException", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  MissingFeatureFlagException(MissingFeatureFlagException const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "MissingFeatureFlagException", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+MissingFeatureFlagException(MissingFeatureFlagException && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22633 };
+// Ctor Parameters [CppParam { name: "", ty: "MissingFeatureFlagException", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+MissingFeatureFlagException(MissingFeatureFlagException const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22637};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::BeatSaber::FeatureFlags::MissingFeatureFlagException, 0x90>, "Size mismatch!");
 
-} // namespace BeatSaber::FeatureFlags
+} // namespace end def BeatSaber::FeatureFlags
 NEED_NO_BOX(::BeatSaber::FeatureFlags::MissingFeatureFlagException);
 DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::FeatureFlags::MissingFeatureFlagException*, "BeatSaber.FeatureFlags", "MissingFeatureFlagException");

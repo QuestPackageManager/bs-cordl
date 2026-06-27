@@ -21,156 +21,155 @@ namespace UnityEngine::XR::Management {
 // CS Name: UnityEngine.XR.Management.XRGeneralSettings
 class CORDL_TYPE XRGeneralSettings : public ::UnityEngine::ScriptableObject {
 public:
-  // Declarations
-  __declspec(property(get = get_AssignedSettings)) ::UnityW<::UnityEngine::XR::Management::XRManagerSettings> AssignedSettings;
+// Declarations
+ __declspec(property(get=get_AssignedSettings)) ::UnityW<::UnityEngine::XR::Management::XRManagerSettings>  AssignedSettings;
 
-  __declspec(property(get = get_InitManagerOnStart)) bool InitManagerOnStart;
+ __declspec(property(get=get_InitManagerOnStart)) bool  InitManagerOnStart;
 
-  __declspec(property(get = get_Manager, put = set_Manager)) ::UnityW<::UnityEngine::XR::Management::XRManagerSettings> Manager;
+ __declspec(property(get=get_Manager, put=set_Manager)) ::UnityW<::UnityEngine::XR::Management::XRManagerSettings>  Manager;
 
-  /// @brief Field k_SettingsKey, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_k_SettingsKey, put = setStaticF_k_SettingsKey)) ::StringW k_SettingsKey;
+/// @brief Field k_SettingsKey, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_k_SettingsKey, put=setStaticF_k_SettingsKey)) ::StringW  k_SettingsKey;
 
-  /// @brief Field m_InitManagerOnStart, offset 0x20, size 0x1
-  __declspec(property(get = __cordl_internal_get_m_InitManagerOnStart, put = __cordl_internal_set_m_InitManagerOnStart)) bool m_InitManagerOnStart;
+/// @brief Field m_InitManagerOnStart, offset 0x20, size 0x1 
+ __declspec(property(get=__cordl_internal_get_m_InitManagerOnStart, put=__cordl_internal_set_m_InitManagerOnStart)) bool  m_InitManagerOnStart;
 
-  /// @brief Field m_LoaderManagerInstance, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_LoaderManagerInstance, put = __cordl_internal_set_m_LoaderManagerInstance)) ::UnityW<::UnityEngine::XR::Management::XRManagerSettings>
-      m_LoaderManagerInstance;
+/// @brief Field m_LoaderManagerInstance, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_LoaderManagerInstance, put=__cordl_internal_set_m_LoaderManagerInstance)) ::UnityW<::UnityEngine::XR::Management::XRManagerSettings>  m_LoaderManagerInstance;
 
-  /// @brief Field m_ProviderIntialized, offset 0x30, size 0x1
-  __declspec(property(get = __cordl_internal_get_m_ProviderIntialized, put = __cordl_internal_set_m_ProviderIntialized)) bool m_ProviderIntialized;
+/// @brief Field m_ProviderIntialized, offset 0x30, size 0x1 
+ __declspec(property(get=__cordl_internal_get_m_ProviderIntialized, put=__cordl_internal_set_m_ProviderIntialized)) bool  m_ProviderIntialized;
 
-  /// @brief Field m_ProviderStarted, offset 0x31, size 0x1
-  __declspec(property(get = __cordl_internal_get_m_ProviderStarted, put = __cordl_internal_set_m_ProviderStarted)) bool m_ProviderStarted;
+/// @brief Field m_ProviderStarted, offset 0x31, size 0x1 
+ __declspec(property(get=__cordl_internal_get_m_ProviderStarted, put=__cordl_internal_set_m_ProviderStarted)) bool  m_ProviderStarted;
 
-  /// @brief Field m_XRManager, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_XRManager, put = __cordl_internal_set_m_XRManager)) ::UnityW<::UnityEngine::XR::Management::XRManagerSettings> m_XRManager;
+/// @brief Field m_XRManager, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_XRManager, put=__cordl_internal_set_m_XRManager)) ::UnityW<::UnityEngine::XR::Management::XRManagerSettings>  m_XRManager;
 
-  /// @brief Field s_RuntimeSettingsInstance, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_s_RuntimeSettingsInstance, put = setStaticF_s_RuntimeSettingsInstance)) ::UnityW<::UnityEngine::XR::Management::XRGeneralSettings> s_RuntimeSettingsInstance;
+/// @brief Field s_RuntimeSettingsInstance, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_s_RuntimeSettingsInstance, put=setStaticF_s_RuntimeSettingsInstance)) ::UnityW<::UnityEngine::XR::Management::XRGeneralSettings>  s_RuntimeSettingsInstance;
 
-  /// @brief Method AttemptInitializeXRSDKOnLoad, addr 0x688baf0, size 0xf4, virtual false, abstract: false, final false
-  static inline void AttemptInitializeXRSDKOnLoad();
+/// @brief Method AttemptInitializeXRSDKOnLoad, addr 0x688d668, size 0xf4, virtual false, abstract: false, final false
+static inline void AttemptInitializeXRSDKOnLoad() ;
 
-  /// @brief Method AttemptStartXRSDKOnBeforeSplashScreen, addr 0x688be8c, size 0xf4, virtual false, abstract: false, final false
-  static inline void AttemptStartXRSDKOnBeforeSplashScreen();
+/// @brief Method AttemptStartXRSDKOnBeforeSplashScreen, addr 0x688da04, size 0xf4, virtual false, abstract: false, final false
+static inline void AttemptStartXRSDKOnBeforeSplashScreen() ;
 
-  /// @brief Method Awake, addr 0x688b72c, size 0x168, virtual false, abstract: false, final false
-  inline void Awake();
+/// @brief Method Awake, addr 0x688d2a4, size 0x168, virtual false, abstract: false, final false
+inline void Awake() ;
 
-  /// @brief Method DeInitXRSDK, addr 0x688b980, size 0xb4, virtual false, abstract: false, final false
-  inline void DeInitXRSDK();
+/// @brief Method DeInitXRSDK, addr 0x688d4f8, size 0xb4, virtual false, abstract: false, final false
+inline void DeInitXRSDK() ;
 
-  /// @brief Method InitXRSDK, addr 0x688bbe4, size 0x2a8, virtual false, abstract: false, final false
-  inline void InitXRSDK();
+/// @brief Method InitXRSDK, addr 0x688d75c, size 0x2a8, virtual false, abstract: false, final false
+inline void InitXRSDK() ;
 
-  static inline ::UnityEngine::XR::Management::XRGeneralSettings* New_ctor();
+static inline ::UnityEngine::XR::Management::XRGeneralSettings* New_ctor() ;
 
-  /// @brief Method OnDestroy, addr 0x688baec, size 0x4, virtual false, abstract: false, final false
-  inline void OnDestroy();
+/// @brief Method OnDestroy, addr 0x688d664, size 0x4, virtual false, abstract: false, final false
+inline void OnDestroy() ;
 
-  /// @brief Method Quit, addr 0x688b894, size 0xec, virtual false, abstract: false, final false
-  static inline void Quit();
+/// @brief Method Quit, addr 0x688d40c, size 0xec, virtual false, abstract: false, final false
+static inline void Quit() ;
 
-  /// @brief Method Start, addr 0x688ba34, size 0x4, virtual false, abstract: false, final false
-  inline void Start();
+/// @brief Method Start, addr 0x688d5ac, size 0x4, virtual false, abstract: false, final false
+inline void Start() ;
 
-  /// @brief Method StartXRSDK, addr 0x688ba38, size 0xb4, virtual false, abstract: false, final false
-  inline void StartXRSDK();
+/// @brief Method StartXRSDK, addr 0x688d5b0, size 0xb4, virtual false, abstract: false, final false
+inline void StartXRSDK() ;
 
-  /// @brief Method StopXRSDK, addr 0x688c26c, size 0xb0, virtual false, abstract: false, final false
-  inline void StopXRSDK();
+/// @brief Method StopXRSDK, addr 0x688dde4, size 0xb0, virtual false, abstract: false, final false
+inline void StopXRSDK() ;
 
-  constexpr bool const& __cordl_internal_get_m_InitManagerOnStart() const;
+constexpr bool const& __cordl_internal_get_m_InitManagerOnStart() const;
 
-  constexpr bool& __cordl_internal_get_m_InitManagerOnStart();
+constexpr bool& __cordl_internal_get_m_InitManagerOnStart() ;
 
-  constexpr ::UnityW<::UnityEngine::XR::Management::XRManagerSettings> const& __cordl_internal_get_m_LoaderManagerInstance() const;
+constexpr ::UnityW<::UnityEngine::XR::Management::XRManagerSettings> const& __cordl_internal_get_m_LoaderManagerInstance() const;
 
-  constexpr ::UnityW<::UnityEngine::XR::Management::XRManagerSettings>& __cordl_internal_get_m_LoaderManagerInstance();
+constexpr ::UnityW<::UnityEngine::XR::Management::XRManagerSettings>& __cordl_internal_get_m_LoaderManagerInstance() ;
 
-  constexpr bool const& __cordl_internal_get_m_ProviderIntialized() const;
+constexpr bool const& __cordl_internal_get_m_ProviderIntialized() const;
 
-  constexpr bool& __cordl_internal_get_m_ProviderIntialized();
+constexpr bool& __cordl_internal_get_m_ProviderIntialized() ;
 
-  constexpr bool const& __cordl_internal_get_m_ProviderStarted() const;
+constexpr bool const& __cordl_internal_get_m_ProviderStarted() const;
 
-  constexpr bool& __cordl_internal_get_m_ProviderStarted();
+constexpr bool& __cordl_internal_get_m_ProviderStarted() ;
 
-  constexpr ::UnityW<::UnityEngine::XR::Management::XRManagerSettings> const& __cordl_internal_get_m_XRManager() const;
+constexpr ::UnityW<::UnityEngine::XR::Management::XRManagerSettings> const& __cordl_internal_get_m_XRManager() const;
 
-  constexpr ::UnityW<::UnityEngine::XR::Management::XRManagerSettings>& __cordl_internal_get_m_XRManager();
+constexpr ::UnityW<::UnityEngine::XR::Management::XRManagerSettings>& __cordl_internal_get_m_XRManager() ;
 
-  constexpr void __cordl_internal_set_m_InitManagerOnStart(bool value);
+constexpr void __cordl_internal_set_m_InitManagerOnStart(bool  value) ;
 
-  constexpr void __cordl_internal_set_m_LoaderManagerInstance(::UnityW<::UnityEngine::XR::Management::XRManagerSettings> value);
+constexpr void __cordl_internal_set_m_LoaderManagerInstance(::UnityW<::UnityEngine::XR::Management::XRManagerSettings>  value) ;
 
-  constexpr void __cordl_internal_set_m_ProviderIntialized(bool value);
+constexpr void __cordl_internal_set_m_ProviderIntialized(bool  value) ;
 
-  constexpr void __cordl_internal_set_m_ProviderStarted(bool value);
+constexpr void __cordl_internal_set_m_ProviderStarted(bool  value) ;
 
-  constexpr void __cordl_internal_set_m_XRManager(::UnityW<::UnityEngine::XR::Management::XRManagerSettings> value);
+constexpr void __cordl_internal_set_m_XRManager(::UnityW<::UnityEngine::XR::Management::XRManagerSettings>  value) ;
 
-  /// @brief Method .ctor, addr 0x688c4f4, size 0x10, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x688e06c, size 0x10, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  static inline ::StringW getStaticF_k_SettingsKey();
+static inline ::StringW getStaticF_k_SettingsKey() ;
 
-  static inline ::UnityW<::UnityEngine::XR::Management::XRGeneralSettings> getStaticF_s_RuntimeSettingsInstance();
+static inline ::UnityW<::UnityEngine::XR::Management::XRGeneralSettings> getStaticF_s_RuntimeSettingsInstance() ;
 
-  /// @brief Method get_AssignedSettings, addr 0x688b71c, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::XR::Management::XRManagerSettings> get_AssignedSettings();
+/// @brief Method get_AssignedSettings, addr 0x688d294, size 0x8, virtual false, abstract: false, final false
+inline ::UnityW<::UnityEngine::XR::Management::XRManagerSettings> get_AssignedSettings() ;
 
-  /// @brief Method get_InitManagerOnStart, addr 0x688b724, size 0x8, virtual false, abstract: false, final false
-  inline bool get_InitManagerOnStart();
+/// @brief Method get_InitManagerOnStart, addr 0x688d29c, size 0x8, virtual false, abstract: false, final false
+inline bool get_InitManagerOnStart() ;
 
-  /// @brief Method get_Instance, addr 0x688b6c0, size 0x5c, virtual false, abstract: false, final false
-  static inline ::UnityW<::UnityEngine::XR::Management::XRGeneralSettings> get_Instance();
+/// @brief Method get_Instance, addr 0x688d238, size 0x5c, virtual false, abstract: false, final false
+static inline ::UnityW<::UnityEngine::XR::Management::XRGeneralSettings> get_Instance() ;
 
-  /// @brief Method get_Manager, addr 0x688b6b0, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::XR::Management::XRManagerSettings> get_Manager();
+/// @brief Method get_Manager, addr 0x688d228, size 0x8, virtual false, abstract: false, final false
+inline ::UnityW<::UnityEngine::XR::Management::XRManagerSettings> get_Manager() ;
 
-  static inline void setStaticF_k_SettingsKey(::StringW value);
+static inline void setStaticF_k_SettingsKey(::StringW  value) ;
 
-  static inline void setStaticF_s_RuntimeSettingsInstance(::UnityW<::UnityEngine::XR::Management::XRGeneralSettings> value);
+static inline void setStaticF_s_RuntimeSettingsInstance(::UnityW<::UnityEngine::XR::Management::XRGeneralSettings>  value) ;
 
-  /// @brief Method set_Manager, addr 0x688b6b8, size 0x8, virtual false, abstract: false, final false
-  inline void set_Manager(::UnityEngine::XR::Management::XRManagerSettings* value);
+/// @brief Method set_Manager, addr 0x688d230, size 0x8, virtual false, abstract: false, final false
+inline void set_Manager(::UnityEngine::XR::Management::XRManagerSettings*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr XRGeneralSettings();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr XRGeneralSettings() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XRGeneralSettings", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  XRGeneralSettings(XRGeneralSettings&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XRGeneralSettings", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  XRGeneralSettings(XRGeneralSettings const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "XRGeneralSettings", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+XRGeneralSettings(XRGeneralSettings && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22770 };
+// Ctor Parameters [CppParam { name: "", ty: "XRGeneralSettings", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+XRGeneralSettings(XRGeneralSettings const& ) = delete;
 
-  /// @brief Field m_LoaderManagerInstance, offset: 0x18, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::XR::Management::XRManagerSettings> ___m_LoaderManagerInstance;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22774};
 
-  /// @brief Field m_InitManagerOnStart, offset: 0x20, size: 0x1, def value: None
-  bool ___m_InitManagerOnStart;
+/// @brief Field m_LoaderManagerInstance, offset: 0x18, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::XR::Management::XRManagerSettings>  ___m_LoaderManagerInstance;
 
-  /// @brief Field m_XRManager, offset: 0x28, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::XR::Management::XRManagerSettings> ___m_XRManager;
+/// @brief Field m_InitManagerOnStart, offset: 0x20, size: 0x1, def value: None
+ bool  ___m_InitManagerOnStart;
 
-  /// @brief Field m_ProviderIntialized, offset: 0x30, size: 0x1, def value: None
-  bool ___m_ProviderIntialized;
+/// @brief Field m_XRManager, offset: 0x28, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::XR::Management::XRManagerSettings>  ___m_XRManager;
 
-  /// @brief Field m_ProviderStarted, offset: 0x31, size: 0x1, def value: None
-  bool ___m_ProviderStarted;
+/// @brief Field m_ProviderIntialized, offset: 0x30, size: 0x1, def value: None
+ bool  ___m_ProviderIntialized;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field m_ProviderStarted, offset: 0x31, size: 0x1, def value: None
+ bool  ___m_ProviderStarted;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::XR::Management::XRGeneralSettings, ___m_LoaderManagerInstance) == 0x18, "Offset mismatch!");
@@ -185,6 +184,6 @@ static_assert(offsetof(::UnityEngine::XR::Management::XRGeneralSettings, ___m_Pr
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::XR::Management::XRGeneralSettings, 0x38>, "Size mismatch!");
 
-} // namespace UnityEngine::XR::Management
+} // namespace end def UnityEngine::XR::Management
 NEED_NO_BOX(::UnityEngine::XR::Management::XRGeneralSettings);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::XR::Management::XRGeneralSettings*, "UnityEngine.XR.Management", "XRGeneralSettings");

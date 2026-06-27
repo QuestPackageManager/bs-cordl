@@ -27,60 +27,58 @@ namespace System::Linq::Expressions {
 // CS Name: System.Linq.Expressions.LogicalBinaryExpression
 class CORDL_TYPE LogicalBinaryExpression : public ::System::Linq::Expressions::BinaryExpression {
 public:
-  // Declarations
-  __declspec(property(get = get_NodeType)) ::System::Linq::Expressions::ExpressionType NodeType;
+// Declarations
+ __declspec(property(get=get_NodeType)) ::System::Linq::Expressions::ExpressionType  NodeType;
 
-  __declspec(property(get = get_Type)) ::System::Type* Type;
+ __declspec(property(get=get_Type)) ::System::Type*  Type;
 
-  /// @brief Field <NodeType>k__BackingField, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get__NodeType_k__BackingField,
-                      put = __cordl_internal_set__NodeType_k__BackingField)) ::System::Linq::Expressions::ExpressionType _NodeType_k__BackingField;
+/// @brief Field <NodeType>k__BackingField, offset 0x20, size 0x4 
+ __declspec(property(get=__cordl_internal_get__NodeType_k__BackingField, put=__cordl_internal_set__NodeType_k__BackingField)) ::System::Linq::Expressions::ExpressionType  _NodeType_k__BackingField;
 
-  static inline ::System::Linq::Expressions::LogicalBinaryExpression* New_ctor(::System::Linq::Expressions::ExpressionType nodeType, ::System::Linq::Expressions::Expression* left,
-                                                                               ::System::Linq::Expressions::Expression* right);
+static inline ::System::Linq::Expressions::LogicalBinaryExpression* New_ctor(::System::Linq::Expressions::ExpressionType  nodeType, ::System::Linq::Expressions::Expression*  left, ::System::Linq::Expressions::Expression*  right) ;
 
-  constexpr ::System::Linq::Expressions::ExpressionType const& __cordl_internal_get__NodeType_k__BackingField() const;
+constexpr ::System::Linq::Expressions::ExpressionType const& __cordl_internal_get__NodeType_k__BackingField() const;
 
-  constexpr ::System::Linq::Expressions::ExpressionType& __cordl_internal_get__NodeType_k__BackingField();
+constexpr ::System::Linq::Expressions::ExpressionType& __cordl_internal_get__NodeType_k__BackingField() ;
 
-  constexpr void __cordl_internal_set__NodeType_k__BackingField(::System::Linq::Expressions::ExpressionType value);
+constexpr void __cordl_internal_set__NodeType_k__BackingField(::System::Linq::Expressions::ExpressionType  value) ;
 
-  /// @brief Method .ctor, addr 0x5e20ad4, size 0x2c, virtual false, abstract: false, final false
-  inline void _ctor(::System::Linq::Expressions::ExpressionType nodeType, ::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right);
+/// @brief Method .ctor, addr 0x5e2264c, size 0x2c, virtual false, abstract: false, final false
+inline void _ctor(::System::Linq::Expressions::ExpressionType  nodeType, ::System::Linq::Expressions::Expression*  left, ::System::Linq::Expressions::Expression*  right) ;
 
-  /// @brief Method get_NodeType, addr 0x5e20b30, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Linq::Expressions::ExpressionType get_NodeType();
+/// @brief Method get_NodeType, addr 0x5e226a8, size 0x8, virtual true, abstract: false, final true
+inline ::System::Linq::Expressions::ExpressionType get_NodeType() ;
 
-  /// @brief Method get_Type, addr 0x5e20b00, size 0x30, virtual true, abstract: false, final true
-  inline ::System::Type* get_Type();
+/// @brief Method get_Type, addr 0x5e22678, size 0x30, virtual true, abstract: false, final true
+inline ::System::Type* get_Type() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LogicalBinaryExpression();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr LogicalBinaryExpression() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LogicalBinaryExpression", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  LogicalBinaryExpression(LogicalBinaryExpression&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LogicalBinaryExpression", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  LogicalBinaryExpression(LogicalBinaryExpression const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "LogicalBinaryExpression", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+LogicalBinaryExpression(LogicalBinaryExpression && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16086 };
+// Ctor Parameters [CppParam { name: "", ty: "LogicalBinaryExpression", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+LogicalBinaryExpression(LogicalBinaryExpression const& ) = delete;
 
-  /// @brief Field <NodeType>k__BackingField, offset: 0x20, size: 0x4, def value: None
-  ::System::Linq::Expressions::ExpressionType ____NodeType_k__BackingField;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{16088};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field <NodeType>k__BackingField, offset: 0x20, size: 0x4, def value: None
+ ::System::Linq::Expressions::ExpressionType  ____NodeType_k__BackingField;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Linq::Expressions::LogicalBinaryExpression, ____NodeType_k__BackingField) == 0x20, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::LogicalBinaryExpression, 0x28>, "Size mismatch!");
 
-} // namespace System::Linq::Expressions
+} // namespace end def System::Linq::Expressions
 NEED_NO_BOX(::System::Linq::Expressions::LogicalBinaryExpression);
 DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::LogicalBinaryExpression*, "System.Linq.Expressions", "LogicalBinaryExpression");

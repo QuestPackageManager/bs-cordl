@@ -49,249 +49,249 @@ MARK_REF_PTR_T(::Unity::Properties::Internal::SystemVersionPropertyBag_RevisionP
 namespace Unity::Properties::Internal {
 // Is value type: false
 // CS Name: Unity.Properties.Internal.SystemVersionPropertyBag/MajorProperty
-class CORDL_TYPE SystemVersionPropertyBag_MajorProperty : public ::Unity::Properties::Property_2<::System::Version*, int32_t> {
+class CORDL_TYPE SystemVersionPropertyBag_MajorProperty : public ::Unity::Properties::Property_2<::System::Version*,int32_t> {
 public:
-  // Declarations
-  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
+// Declarations
+ __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
 
-  __declspec(property(get = get_Name)) ::StringW Name;
+ __declspec(property(get=get_Name)) ::StringW  Name;
 
-  /// @brief Method GetValue, addr 0x6a5bc30, size 0x18, virtual true, abstract: false, final false
-  inline int32_t GetValue(::ByRef<::System::Version*> container);
+/// @brief Method GetValue, addr 0x6a5d7a8, size 0x18, virtual true, abstract: false, final false
+inline int32_t GetValue(::ByRef<::System::Version*>  container) ;
 
-  static inline ::Unity::Properties::Internal::SystemVersionPropertyBag_MajorProperty* New_ctor();
+static inline ::Unity::Properties::Internal::SystemVersionPropertyBag_MajorProperty* New_ctor() ;
 
-  /// @brief Method SetValue, addr 0x6a5bc48, size 0x4, virtual true, abstract: false, final false
-  inline void SetValue(::ByRef<::System::Version*> container, int32_t value);
+/// @brief Method SetValue, addr 0x6a5d7c0, size 0x4, virtual true, abstract: false, final false
+inline void SetValue(::ByRef<::System::Version*>  container, int32_t  value) ;
 
-  /// @brief Method .ctor, addr 0x6a5b9b4, size 0x8c, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6a5d52c, size 0x8c, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_IsReadOnly, addr 0x6a5bc28, size 0x8, virtual true, abstract: false, final false
-  inline bool get_IsReadOnly();
+/// @brief Method get_IsReadOnly, addr 0x6a5d7a0, size 0x8, virtual true, abstract: false, final false
+inline bool get_IsReadOnly() ;
 
-  /// @brief Method get_Name, addr 0x6a5bbe4, size 0x44, virtual true, abstract: false, final false
-  inline ::StringW get_Name();
+/// @brief Method get_Name, addr 0x6a5d75c, size 0x44, virtual true, abstract: false, final false
+inline ::StringW get_Name() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SystemVersionPropertyBag_MajorProperty();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr SystemVersionPropertyBag_MajorProperty() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SystemVersionPropertyBag_MajorProperty", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  SystemVersionPropertyBag_MajorProperty(SystemVersionPropertyBag_MajorProperty&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SystemVersionPropertyBag_MajorProperty", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  SystemVersionPropertyBag_MajorProperty(SystemVersionPropertyBag_MajorProperty const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "SystemVersionPropertyBag_MajorProperty", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+SystemVersionPropertyBag_MajorProperty(SystemVersionPropertyBag_MajorProperty && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19485 };
+// Ctor Parameters [CppParam { name: "", ty: "SystemVersionPropertyBag_MajorProperty", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+SystemVersionPropertyBag_MajorProperty(SystemVersionPropertyBag_MajorProperty const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19488};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Unity::Properties::Internal::SystemVersionPropertyBag_MajorProperty, 0x18>, "Size mismatch!");
 
-} // namespace Unity::Properties::Internal
+} // namespace end def Unity::Properties::Internal
 // Dependencies Unity.Properties.Property`2<TContainer, TValue>
 namespace Unity::Properties::Internal {
 // Is value type: false
 // CS Name: Unity.Properties.Internal.SystemVersionPropertyBag/MinorProperty
-class CORDL_TYPE SystemVersionPropertyBag_MinorProperty : public ::Unity::Properties::Property_2<::System::Version*, int32_t> {
+class CORDL_TYPE SystemVersionPropertyBag_MinorProperty : public ::Unity::Properties::Property_2<::System::Version*,int32_t> {
 public:
-  // Declarations
-  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
+// Declarations
+ __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
 
-  __declspec(property(get = get_Name)) ::StringW Name;
+ __declspec(property(get=get_Name)) ::StringW  Name;
 
-  /// @brief Method GetValue, addr 0x6a5bc98, size 0x18, virtual true, abstract: false, final false
-  inline int32_t GetValue(::ByRef<::System::Version*> container);
+/// @brief Method GetValue, addr 0x6a5d810, size 0x18, virtual true, abstract: false, final false
+inline int32_t GetValue(::ByRef<::System::Version*>  container) ;
 
-  static inline ::Unity::Properties::Internal::SystemVersionPropertyBag_MinorProperty* New_ctor();
+static inline ::Unity::Properties::Internal::SystemVersionPropertyBag_MinorProperty* New_ctor() ;
 
-  /// @brief Method SetValue, addr 0x6a5bcb0, size 0x4, virtual true, abstract: false, final false
-  inline void SetValue(::ByRef<::System::Version*> container, int32_t value);
+/// @brief Method SetValue, addr 0x6a5d828, size 0x4, virtual true, abstract: false, final false
+inline void SetValue(::ByRef<::System::Version*>  container, int32_t  value) ;
 
-  /// @brief Method .ctor, addr 0x6a5ba40, size 0x8c, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6a5d5b8, size 0x8c, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_IsReadOnly, addr 0x6a5bc90, size 0x8, virtual true, abstract: false, final false
-  inline bool get_IsReadOnly();
+/// @brief Method get_IsReadOnly, addr 0x6a5d808, size 0x8, virtual true, abstract: false, final false
+inline bool get_IsReadOnly() ;
 
-  /// @brief Method get_Name, addr 0x6a5bc4c, size 0x44, virtual true, abstract: false, final false
-  inline ::StringW get_Name();
+/// @brief Method get_Name, addr 0x6a5d7c4, size 0x44, virtual true, abstract: false, final false
+inline ::StringW get_Name() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SystemVersionPropertyBag_MinorProperty();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr SystemVersionPropertyBag_MinorProperty() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SystemVersionPropertyBag_MinorProperty", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  SystemVersionPropertyBag_MinorProperty(SystemVersionPropertyBag_MinorProperty&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SystemVersionPropertyBag_MinorProperty", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  SystemVersionPropertyBag_MinorProperty(SystemVersionPropertyBag_MinorProperty const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "SystemVersionPropertyBag_MinorProperty", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+SystemVersionPropertyBag_MinorProperty(SystemVersionPropertyBag_MinorProperty && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19486 };
+// Ctor Parameters [CppParam { name: "", ty: "SystemVersionPropertyBag_MinorProperty", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+SystemVersionPropertyBag_MinorProperty(SystemVersionPropertyBag_MinorProperty const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19489};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Unity::Properties::Internal::SystemVersionPropertyBag_MinorProperty, 0x18>, "Size mismatch!");
 
-} // namespace Unity::Properties::Internal
+} // namespace end def Unity::Properties::Internal
 // Dependencies Unity.Properties.Property`2<TContainer, TValue>
 namespace Unity::Properties::Internal {
 // Is value type: false
 // CS Name: Unity.Properties.Internal.SystemVersionPropertyBag/BuildProperty
-class CORDL_TYPE SystemVersionPropertyBag_BuildProperty : public ::Unity::Properties::Property_2<::System::Version*, int32_t> {
+class CORDL_TYPE SystemVersionPropertyBag_BuildProperty : public ::Unity::Properties::Property_2<::System::Version*,int32_t> {
 public:
-  // Declarations
-  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
+// Declarations
+ __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
 
-  __declspec(property(get = get_Name)) ::StringW Name;
+ __declspec(property(get=get_Name)) ::StringW  Name;
 
-  /// @brief Method GetValue, addr 0x6a5bd00, size 0x18, virtual true, abstract: false, final false
-  inline int32_t GetValue(::ByRef<::System::Version*> container);
+/// @brief Method GetValue, addr 0x6a5d878, size 0x18, virtual true, abstract: false, final false
+inline int32_t GetValue(::ByRef<::System::Version*>  container) ;
 
-  static inline ::Unity::Properties::Internal::SystemVersionPropertyBag_BuildProperty* New_ctor();
+static inline ::Unity::Properties::Internal::SystemVersionPropertyBag_BuildProperty* New_ctor() ;
 
-  /// @brief Method SetValue, addr 0x6a5bd18, size 0x4, virtual true, abstract: false, final false
-  inline void SetValue(::ByRef<::System::Version*> container, int32_t value);
+/// @brief Method SetValue, addr 0x6a5d890, size 0x4, virtual true, abstract: false, final false
+inline void SetValue(::ByRef<::System::Version*>  container, int32_t  value) ;
 
-  /// @brief Method .ctor, addr 0x6a5bacc, size 0x8c, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6a5d644, size 0x8c, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_IsReadOnly, addr 0x6a5bcf8, size 0x8, virtual true, abstract: false, final false
-  inline bool get_IsReadOnly();
+/// @brief Method get_IsReadOnly, addr 0x6a5d870, size 0x8, virtual true, abstract: false, final false
+inline bool get_IsReadOnly() ;
 
-  /// @brief Method get_Name, addr 0x6a5bcb4, size 0x44, virtual true, abstract: false, final false
-  inline ::StringW get_Name();
+/// @brief Method get_Name, addr 0x6a5d82c, size 0x44, virtual true, abstract: false, final false
+inline ::StringW get_Name() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SystemVersionPropertyBag_BuildProperty();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr SystemVersionPropertyBag_BuildProperty() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SystemVersionPropertyBag_BuildProperty", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  SystemVersionPropertyBag_BuildProperty(SystemVersionPropertyBag_BuildProperty&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SystemVersionPropertyBag_BuildProperty", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  SystemVersionPropertyBag_BuildProperty(SystemVersionPropertyBag_BuildProperty const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "SystemVersionPropertyBag_BuildProperty", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+SystemVersionPropertyBag_BuildProperty(SystemVersionPropertyBag_BuildProperty && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19487 };
+// Ctor Parameters [CppParam { name: "", ty: "SystemVersionPropertyBag_BuildProperty", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+SystemVersionPropertyBag_BuildProperty(SystemVersionPropertyBag_BuildProperty const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19490};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Unity::Properties::Internal::SystemVersionPropertyBag_BuildProperty, 0x18>, "Size mismatch!");
 
-} // namespace Unity::Properties::Internal
+} // namespace end def Unity::Properties::Internal
 // Dependencies Unity.Properties.Property`2<TContainer, TValue>
 namespace Unity::Properties::Internal {
 // Is value type: false
 // CS Name: Unity.Properties.Internal.SystemVersionPropertyBag/RevisionProperty
-class CORDL_TYPE SystemVersionPropertyBag_RevisionProperty : public ::Unity::Properties::Property_2<::System::Version*, int32_t> {
+class CORDL_TYPE SystemVersionPropertyBag_RevisionProperty : public ::Unity::Properties::Property_2<::System::Version*,int32_t> {
 public:
-  // Declarations
-  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
+// Declarations
+ __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
 
-  __declspec(property(get = get_Name)) ::StringW Name;
+ __declspec(property(get=get_Name)) ::StringW  Name;
 
-  /// @brief Method GetValue, addr 0x6a5bd68, size 0x18, virtual true, abstract: false, final false
-  inline int32_t GetValue(::ByRef<::System::Version*> container);
+/// @brief Method GetValue, addr 0x6a5d8e0, size 0x18, virtual true, abstract: false, final false
+inline int32_t GetValue(::ByRef<::System::Version*>  container) ;
 
-  static inline ::Unity::Properties::Internal::SystemVersionPropertyBag_RevisionProperty* New_ctor();
+static inline ::Unity::Properties::Internal::SystemVersionPropertyBag_RevisionProperty* New_ctor() ;
 
-  /// @brief Method SetValue, addr 0x6a5bd80, size 0x4, virtual true, abstract: false, final false
-  inline void SetValue(::ByRef<::System::Version*> container, int32_t value);
+/// @brief Method SetValue, addr 0x6a5d8f8, size 0x4, virtual true, abstract: false, final false
+inline void SetValue(::ByRef<::System::Version*>  container, int32_t  value) ;
 
-  /// @brief Method .ctor, addr 0x6a5bb58, size 0x8c, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6a5d6d0, size 0x8c, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_IsReadOnly, addr 0x6a5bd60, size 0x8, virtual true, abstract: false, final false
-  inline bool get_IsReadOnly();
+/// @brief Method get_IsReadOnly, addr 0x6a5d8d8, size 0x8, virtual true, abstract: false, final false
+inline bool get_IsReadOnly() ;
 
-  /// @brief Method get_Name, addr 0x6a5bd1c, size 0x44, virtual true, abstract: false, final false
-  inline ::StringW get_Name();
+/// @brief Method get_Name, addr 0x6a5d894, size 0x44, virtual true, abstract: false, final false
+inline ::StringW get_Name() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SystemVersionPropertyBag_RevisionProperty();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr SystemVersionPropertyBag_RevisionProperty() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SystemVersionPropertyBag_RevisionProperty", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  SystemVersionPropertyBag_RevisionProperty(SystemVersionPropertyBag_RevisionProperty&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SystemVersionPropertyBag_RevisionProperty", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  SystemVersionPropertyBag_RevisionProperty(SystemVersionPropertyBag_RevisionProperty const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "SystemVersionPropertyBag_RevisionProperty", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+SystemVersionPropertyBag_RevisionProperty(SystemVersionPropertyBag_RevisionProperty && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19488 };
+// Ctor Parameters [CppParam { name: "", ty: "SystemVersionPropertyBag_RevisionProperty", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+SystemVersionPropertyBag_RevisionProperty(SystemVersionPropertyBag_RevisionProperty const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19491};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Unity::Properties::Internal::SystemVersionPropertyBag_RevisionProperty, 0x18>, "Size mismatch!");
 
-} // namespace Unity::Properties::Internal
+} // namespace end def Unity::Properties::Internal
 // Dependencies Unity.Properties.ContainerPropertyBag`1<TContainer>
 namespace Unity::Properties::Internal {
 // Is value type: false
 // CS Name: Unity.Properties.Internal.SystemVersionPropertyBag
 class CORDL_TYPE SystemVersionPropertyBag : public ::Unity::Properties::ContainerPropertyBag_1<::System::Version*> {
 public:
-  // Declarations
-  using BuildProperty = ::Unity::Properties::Internal::SystemVersionPropertyBag_BuildProperty;
+// Declarations
+using BuildProperty = ::Unity::Properties::Internal::SystemVersionPropertyBag_BuildProperty;
 
-  using MajorProperty = ::Unity::Properties::Internal::SystemVersionPropertyBag_MajorProperty;
+using MajorProperty = ::Unity::Properties::Internal::SystemVersionPropertyBag_MajorProperty;
 
-  using MinorProperty = ::Unity::Properties::Internal::SystemVersionPropertyBag_MinorProperty;
+using MinorProperty = ::Unity::Properties::Internal::SystemVersionPropertyBag_MinorProperty;
 
-  using RevisionProperty = ::Unity::Properties::Internal::SystemVersionPropertyBag_RevisionProperty;
+using RevisionProperty = ::Unity::Properties::Internal::SystemVersionPropertyBag_RevisionProperty;
 
-  static inline ::Unity::Properties::Internal::SystemVersionPropertyBag* New_ctor();
+static inline ::Unity::Properties::Internal::SystemVersionPropertyBag* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x6a5a658, size 0x16c, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6a5c1d0, size 0x16c, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SystemVersionPropertyBag();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr SystemVersionPropertyBag() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SystemVersionPropertyBag", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  SystemVersionPropertyBag(SystemVersionPropertyBag&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SystemVersionPropertyBag", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  SystemVersionPropertyBag(SystemVersionPropertyBag const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "SystemVersionPropertyBag", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+SystemVersionPropertyBag(SystemVersionPropertyBag && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19489 };
+// Ctor Parameters [CppParam { name: "", ty: "SystemVersionPropertyBag", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+SystemVersionPropertyBag(SystemVersionPropertyBag const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19492};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Unity::Properties::Internal::SystemVersionPropertyBag, 0x28>, "Size mismatch!");
 
-} // namespace Unity::Properties::Internal
+} // namespace end def Unity::Properties::Internal
 NEED_NO_BOX(::Unity::Properties::Internal::SystemVersionPropertyBag);
 DEFINE_IL2CPP_ARG_TYPE(::Unity::Properties::Internal::SystemVersionPropertyBag*, "Unity.Properties.Internal", "SystemVersionPropertyBag");
 NEED_NO_BOX(::Unity::Properties::Internal::SystemVersionPropertyBag_BuildProperty);

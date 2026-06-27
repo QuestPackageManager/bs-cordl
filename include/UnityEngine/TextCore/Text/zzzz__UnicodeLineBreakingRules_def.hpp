@@ -7,7 +7,8 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(UnicodeLineBreakingRules)
 namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
+template<typename T>
+class HashSet_1;
 }
 namespace UnityEngine {
 class TextAsset;
@@ -24,125 +25,123 @@ namespace UnityEngine::TextCore::Text {
 // CS Name: UnityEngine.TextCore.Text.UnicodeLineBreakingRules
 class CORDL_TYPE UnicodeLineBreakingRules : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = get_followingCharactersLookup)) ::System::Collections::Generic::HashSet_1<uint32_t>* followingCharactersLookup;
+// Declarations
+ __declspec(property(get=get_followingCharactersLookup)) ::System::Collections::Generic::HashSet_1<uint32_t>*  followingCharactersLookup;
 
-  __declspec(property(get = get_leadingCharactersLookup)) ::System::Collections::Generic::HashSet_1<uint32_t>* leadingCharactersLookup;
+ __declspec(property(get=get_leadingCharactersLookup)) ::System::Collections::Generic::HashSet_1<uint32_t>*  leadingCharactersLookup;
 
-  /// @brief Field m_FollowingCharacters, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_FollowingCharacters, put = __cordl_internal_set_m_FollowingCharacters)) ::UnityW<::UnityEngine::TextAsset> m_FollowingCharacters;
+/// @brief Field m_FollowingCharacters, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_FollowingCharacters, put=__cordl_internal_set_m_FollowingCharacters)) ::UnityW<::UnityEngine::TextAsset>  m_FollowingCharacters;
 
-  /// @brief Field m_FollowingCharactersLookup, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_FollowingCharactersLookup,
-                      put = __cordl_internal_set_m_FollowingCharactersLookup)) ::System::Collections::Generic::HashSet_1<uint32_t>* m_FollowingCharactersLookup;
+/// @brief Field m_FollowingCharactersLookup, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_FollowingCharactersLookup, put=__cordl_internal_set_m_FollowingCharactersLookup)) ::System::Collections::Generic::HashSet_1<uint32_t>*  m_FollowingCharactersLookup;
 
-  /// @brief Field m_LeadingCharacters, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_LeadingCharacters, put = __cordl_internal_set_m_LeadingCharacters)) ::UnityW<::UnityEngine::TextAsset> m_LeadingCharacters;
+/// @brief Field m_LeadingCharacters, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_LeadingCharacters, put=__cordl_internal_set_m_LeadingCharacters)) ::UnityW<::UnityEngine::TextAsset>  m_LeadingCharacters;
 
-  /// @brief Field m_LeadingCharactersLookup, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_LeadingCharactersLookup,
-                      put = __cordl_internal_set_m_LeadingCharactersLookup)) ::System::Collections::Generic::HashSet_1<uint32_t>* m_LeadingCharactersLookup;
+/// @brief Field m_LeadingCharactersLookup, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_LeadingCharactersLookup, put=__cordl_internal_set_m_LeadingCharactersLookup)) ::System::Collections::Generic::HashSet_1<uint32_t>*  m_LeadingCharactersLookup;
 
-  /// @brief Field m_UnicodeLineBreakingRules, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_UnicodeLineBreakingRules, put = __cordl_internal_set_m_UnicodeLineBreakingRules)) ::UnityW<::UnityEngine::TextAsset> m_UnicodeLineBreakingRules;
+/// @brief Field m_UnicodeLineBreakingRules, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_UnicodeLineBreakingRules, put=__cordl_internal_set_m_UnicodeLineBreakingRules)) ::UnityW<::UnityEngine::TextAsset>  m_UnicodeLineBreakingRules;
 
-  /// @brief Field m_UseModernHangulLineBreakingRules, offset 0x28, size 0x1
-  __declspec(property(get = __cordl_internal_get_m_UseModernHangulLineBreakingRules, put = __cordl_internal_set_m_UseModernHangulLineBreakingRules)) bool m_UseModernHangulLineBreakingRules;
+/// @brief Field m_UseModernHangulLineBreakingRules, offset 0x28, size 0x1 
+ __declspec(property(get=__cordl_internal_get_m_UseModernHangulLineBreakingRules, put=__cordl_internal_set_m_UseModernHangulLineBreakingRules)) bool  m_UseModernHangulLineBreakingRules;
 
-  __declspec(property(get = get_useModernHangulLineBreakingRules)) bool useModernHangulLineBreakingRules;
+ __declspec(property(get=get_useModernHangulLineBreakingRules)) bool  useModernHangulLineBreakingRules;
 
-  /// @brief Method GetCharacters, addr 0x6abc10c, size 0xf4, virtual false, abstract: false, final false
-  static inline ::System::Collections::Generic::HashSet_1<uint32_t>* GetCharacters(::UnityEngine::TextAsset* file);
+/// @brief Method GetCharacters, addr 0x6abdc84, size 0xf4, virtual false, abstract: false, final false
+static inline ::System::Collections::Generic::HashSet_1<uint32_t>* GetCharacters(::UnityEngine::TextAsset*  file) ;
 
-  /// @brief Method LoadLineBreakingRules, addr 0x6abbeec, size 0x1f4, virtual false, abstract: false, final false
-  inline void LoadLineBreakingRules();
+/// @brief Method LoadLineBreakingRules, addr 0x6abda64, size 0x1f4, virtual false, abstract: false, final false
+inline void LoadLineBreakingRules() ;
 
-  static inline ::UnityEngine::TextCore::Text::UnicodeLineBreakingRules* New_ctor();
+static inline ::UnityEngine::TextCore::Text::UnicodeLineBreakingRules* New_ctor() ;
 
-  constexpr ::UnityW<::UnityEngine::TextAsset> const& __cordl_internal_get_m_FollowingCharacters() const;
+constexpr ::UnityW<::UnityEngine::TextAsset> const& __cordl_internal_get_m_FollowingCharacters() const;
 
-  constexpr ::UnityW<::UnityEngine::TextAsset>& __cordl_internal_get_m_FollowingCharacters();
+constexpr ::UnityW<::UnityEngine::TextAsset>& __cordl_internal_get_m_FollowingCharacters() ;
 
-  constexpr ::System::Collections::Generic::HashSet_1<uint32_t>* const& __cordl_internal_get_m_FollowingCharactersLookup() const;
+constexpr ::System::Collections::Generic::HashSet_1<uint32_t>* const& __cordl_internal_get_m_FollowingCharactersLookup() const;
 
-  constexpr ::System::Collections::Generic::HashSet_1<uint32_t>*& __cordl_internal_get_m_FollowingCharactersLookup();
+constexpr ::System::Collections::Generic::HashSet_1<uint32_t>*& __cordl_internal_get_m_FollowingCharactersLookup() ;
 
-  constexpr ::UnityW<::UnityEngine::TextAsset> const& __cordl_internal_get_m_LeadingCharacters() const;
+constexpr ::UnityW<::UnityEngine::TextAsset> const& __cordl_internal_get_m_LeadingCharacters() const;
 
-  constexpr ::UnityW<::UnityEngine::TextAsset>& __cordl_internal_get_m_LeadingCharacters();
+constexpr ::UnityW<::UnityEngine::TextAsset>& __cordl_internal_get_m_LeadingCharacters() ;
 
-  constexpr ::System::Collections::Generic::HashSet_1<uint32_t>* const& __cordl_internal_get_m_LeadingCharactersLookup() const;
+constexpr ::System::Collections::Generic::HashSet_1<uint32_t>* const& __cordl_internal_get_m_LeadingCharactersLookup() const;
 
-  constexpr ::System::Collections::Generic::HashSet_1<uint32_t>*& __cordl_internal_get_m_LeadingCharactersLookup();
+constexpr ::System::Collections::Generic::HashSet_1<uint32_t>*& __cordl_internal_get_m_LeadingCharactersLookup() ;
 
-  constexpr ::UnityW<::UnityEngine::TextAsset> const& __cordl_internal_get_m_UnicodeLineBreakingRules() const;
+constexpr ::UnityW<::UnityEngine::TextAsset> const& __cordl_internal_get_m_UnicodeLineBreakingRules() const;
 
-  constexpr ::UnityW<::UnityEngine::TextAsset>& __cordl_internal_get_m_UnicodeLineBreakingRules();
+constexpr ::UnityW<::UnityEngine::TextAsset>& __cordl_internal_get_m_UnicodeLineBreakingRules() ;
 
-  constexpr bool const& __cordl_internal_get_m_UseModernHangulLineBreakingRules() const;
+constexpr bool const& __cordl_internal_get_m_UseModernHangulLineBreakingRules() const;
 
-  constexpr bool& __cordl_internal_get_m_UseModernHangulLineBreakingRules();
+constexpr bool& __cordl_internal_get_m_UseModernHangulLineBreakingRules() ;
 
-  constexpr void __cordl_internal_set_m_FollowingCharacters(::UnityW<::UnityEngine::TextAsset> value);
+constexpr void __cordl_internal_set_m_FollowingCharacters(::UnityW<::UnityEngine::TextAsset>  value) ;
 
-  constexpr void __cordl_internal_set_m_FollowingCharactersLookup(::System::Collections::Generic::HashSet_1<uint32_t>* value);
+constexpr void __cordl_internal_set_m_FollowingCharactersLookup(::System::Collections::Generic::HashSet_1<uint32_t>*  value) ;
 
-  constexpr void __cordl_internal_set_m_LeadingCharacters(::UnityW<::UnityEngine::TextAsset> value);
+constexpr void __cordl_internal_set_m_LeadingCharacters(::UnityW<::UnityEngine::TextAsset>  value) ;
 
-  constexpr void __cordl_internal_set_m_LeadingCharactersLookup(::System::Collections::Generic::HashSet_1<uint32_t>* value);
+constexpr void __cordl_internal_set_m_LeadingCharactersLookup(::System::Collections::Generic::HashSet_1<uint32_t>*  value) ;
 
-  constexpr void __cordl_internal_set_m_UnicodeLineBreakingRules(::UnityW<::UnityEngine::TextAsset> value);
+constexpr void __cordl_internal_set_m_UnicodeLineBreakingRules(::UnityW<::UnityEngine::TextAsset>  value) ;
 
-  constexpr void __cordl_internal_set_m_UseModernHangulLineBreakingRules(bool value);
+constexpr void __cordl_internal_set_m_UseModernHangulLineBreakingRules(bool  value) ;
 
-  /// @brief Method .ctor, addr 0x6abc200, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6abdd78, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_followingCharactersLookup, addr 0x6abc0e0, size 0x24, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::HashSet_1<uint32_t>* get_followingCharactersLookup();
+/// @brief Method get_followingCharactersLookup, addr 0x6abdc58, size 0x24, virtual false, abstract: false, final false
+inline ::System::Collections::Generic::HashSet_1<uint32_t>* get_followingCharactersLookup() ;
 
-  /// @brief Method get_leadingCharactersLookup, addr 0x6abbec8, size 0x24, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::HashSet_1<uint32_t>* get_leadingCharactersLookup();
+/// @brief Method get_leadingCharactersLookup, addr 0x6abda40, size 0x24, virtual false, abstract: false, final false
+inline ::System::Collections::Generic::HashSet_1<uint32_t>* get_leadingCharactersLookup() ;
 
-  /// @brief Method get_useModernHangulLineBreakingRules, addr 0x6abc104, size 0x8, virtual false, abstract: false, final false
-  inline bool get_useModernHangulLineBreakingRules();
+/// @brief Method get_useModernHangulLineBreakingRules, addr 0x6abdc7c, size 0x8, virtual false, abstract: false, final false
+inline bool get_useModernHangulLineBreakingRules() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr UnicodeLineBreakingRules();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr UnicodeLineBreakingRules() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UnicodeLineBreakingRules", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  UnicodeLineBreakingRules(UnicodeLineBreakingRules&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UnicodeLineBreakingRules", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  UnicodeLineBreakingRules(UnicodeLineBreakingRules const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "UnicodeLineBreakingRules", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+UnicodeLineBreakingRules(UnicodeLineBreakingRules && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17269 };
+// Ctor Parameters [CppParam { name: "", ty: "UnicodeLineBreakingRules", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+UnicodeLineBreakingRules(UnicodeLineBreakingRules const& ) = delete;
 
-  /// @brief Field m_UnicodeLineBreakingRules, offset: 0x10, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::TextAsset> ___m_UnicodeLineBreakingRules;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{17271};
 
-  /// @brief Field m_LeadingCharacters, offset: 0x18, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::TextAsset> ___m_LeadingCharacters;
+/// @brief Field m_UnicodeLineBreakingRules, offset: 0x10, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::TextAsset>  ___m_UnicodeLineBreakingRules;
 
-  /// @brief Field m_FollowingCharacters, offset: 0x20, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::TextAsset> ___m_FollowingCharacters;
+/// @brief Field m_LeadingCharacters, offset: 0x18, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::TextAsset>  ___m_LeadingCharacters;
 
-  /// @brief Field m_UseModernHangulLineBreakingRules, offset: 0x28, size: 0x1, def value: None
-  bool ___m_UseModernHangulLineBreakingRules;
+/// @brief Field m_FollowingCharacters, offset: 0x20, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::TextAsset>  ___m_FollowingCharacters;
 
-  /// @brief Field m_LeadingCharactersLookup, offset: 0x30, size: 0x8, def value: None
-  ::System::Collections::Generic::HashSet_1<uint32_t>* ___m_LeadingCharactersLookup;
+/// @brief Field m_UseModernHangulLineBreakingRules, offset: 0x28, size: 0x1, def value: None
+ bool  ___m_UseModernHangulLineBreakingRules;
 
-  /// @brief Field m_FollowingCharactersLookup, offset: 0x38, size: 0x8, def value: None
-  ::System::Collections::Generic::HashSet_1<uint32_t>* ___m_FollowingCharactersLookup;
+/// @brief Field m_LeadingCharactersLookup, offset: 0x30, size: 0x8, def value: None
+ ::System::Collections::Generic::HashSet_1<uint32_t>*  ___m_LeadingCharactersLookup;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field m_FollowingCharactersLookup, offset: 0x38, size: 0x8, def value: None
+ ::System::Collections::Generic::HashSet_1<uint32_t>*  ___m_FollowingCharactersLookup;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::TextCore::Text::UnicodeLineBreakingRules, ___m_UnicodeLineBreakingRules) == 0x10, "Offset mismatch!");
@@ -159,6 +158,6 @@ static_assert(offsetof(::UnityEngine::TextCore::Text::UnicodeLineBreakingRules, 
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::TextCore::Text::UnicodeLineBreakingRules, 0x40>, "Size mismatch!");
 
-} // namespace UnityEngine::TextCore::Text
+} // namespace end def UnityEngine::TextCore::Text
 NEED_NO_BOX(::UnityEngine::TextCore::Text::UnicodeLineBreakingRules);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextCore::Text::UnicodeLineBreakingRules*, "UnityEngine.TextCore.Text", "UnicodeLineBreakingRules");

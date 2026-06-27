@@ -35,87 +35,72 @@ namespace UnityEngine::Rendering {
 // CS Name: UnityEngine.Rendering.ProbeVolumeSystemParameters
 struct CORDL_TYPE ProbeVolumeSystemParameters {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ProbeVolumeSystemParameters();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr ProbeVolumeSystemParameters() ;
 
-  // Ctor Parameters [CppParam { name: "memoryBudget", ty: "::UnityEngine::Rendering::ProbeVolumeTextureMemoryBudget", modifiers: "", def_value: None }, CppParam { name: "blendingMemoryBudget", ty:
-  // "::UnityEngine::Rendering::ProbeVolumeBlendingTextureMemoryBudget", modifiers: "", def_value: None }, CppParam { name: "shBands", ty: "::UnityEngine::Rendering::ProbeVolumeSHBands", modifiers:
-  // "", def_value: None }, CppParam { name: "supportScenarios", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "supportScenarioBlending", ty: "bool", modifiers: "", def_value: None },
-  // CppParam { name: "supportGPUStreaming", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "supportDiskStreaming", ty: "bool", modifiers: "", def_value: None }, CppParam { name:
-  // "probeDebugShader", ty: "::UnityW<::UnityEngine::Shader>", modifiers: "", def_value: None }, CppParam { name: "probeSamplingDebugShader", ty: "::UnityW<::UnityEngine::Shader>", modifiers: "",
-  // def_value: None }, CppParam { name: "probeSamplingDebugTexture", ty: "::UnityW<::UnityEngine::Texture>", modifiers: "", def_value: None }, CppParam { name: "probeSamplingDebugMesh", ty:
-  // "::UnityW<::UnityEngine::Mesh>", modifiers: "", def_value: None }, CppParam { name: "offsetDebugShader", ty: "::UnityW<::UnityEngine::Shader>", modifiers: "", def_value: None }, CppParam { name:
-  // "fragmentationDebugShader", ty: "::UnityW<::UnityEngine::Shader>", modifiers: "", def_value: None }, CppParam { name: "scenarioBlendingShader", ty: "::UnityW<::UnityEngine::ComputeShader>",
-  // modifiers: "", def_value: None }, CppParam { name: "streamingUploadShader", ty: "::UnityW<::UnityEngine::ComputeShader>", modifiers: "", def_value: None }, CppParam { name: "sceneData", ty:
-  // "::UnityEngine::Rendering::ProbeVolumeSceneData*", modifiers: "", def_value: None }, CppParam { name: "supportsRuntimeDebug", ty: "bool", modifiers: "", def_value: None }]
-  constexpr ProbeVolumeSystemParameters(::UnityEngine::Rendering::ProbeVolumeTextureMemoryBudget memoryBudget, ::UnityEngine::Rendering::ProbeVolumeBlendingTextureMemoryBudget blendingMemoryBudget,
-                                        ::UnityEngine::Rendering::ProbeVolumeSHBands shBands, bool supportScenarios, bool supportScenarioBlending, bool supportGPUStreaming, bool supportDiskStreaming,
-                                        ::UnityW<::UnityEngine::Shader> probeDebugShader, ::UnityW<::UnityEngine::Shader> probeSamplingDebugShader,
-                                        ::UnityW<::UnityEngine::Texture> probeSamplingDebugTexture, ::UnityW<::UnityEngine::Mesh> probeSamplingDebugMesh,
-                                        ::UnityW<::UnityEngine::Shader> offsetDebugShader, ::UnityW<::UnityEngine::Shader> fragmentationDebugShader,
-                                        ::UnityW<::UnityEngine::ComputeShader> scenarioBlendingShader, ::UnityW<::UnityEngine::ComputeShader> streamingUploadShader,
-                                        ::UnityEngine::Rendering::ProbeVolumeSceneData* sceneData, bool supportsRuntimeDebug) noexcept;
+// Ctor Parameters [CppParam { name: "memoryBudget", ty: "::UnityEngine::Rendering::ProbeVolumeTextureMemoryBudget", modifiers: "", def_value: None }, CppParam { name: "blendingMemoryBudget", ty: "::UnityEngine::Rendering::ProbeVolumeBlendingTextureMemoryBudget", modifiers: "", def_value: None }, CppParam { name: "shBands", ty: "::UnityEngine::Rendering::ProbeVolumeSHBands", modifiers: "", def_value: None }, CppParam { name: "supportScenarios", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "supportScenarioBlending", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "supportGPUStreaming", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "supportDiskStreaming", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "probeDebugShader", ty: "::UnityW<::UnityEngine::Shader>", modifiers: "", def_value: None }, CppParam { name: "probeSamplingDebugShader", ty: "::UnityW<::UnityEngine::Shader>", modifiers: "", def_value: None }, CppParam { name: "probeSamplingDebugTexture", ty: "::UnityW<::UnityEngine::Texture>", modifiers: "", def_value: None }, CppParam { name: "probeSamplingDebugMesh", ty: "::UnityW<::UnityEngine::Mesh>", modifiers: "", def_value: None }, CppParam { name: "offsetDebugShader", ty: "::UnityW<::UnityEngine::Shader>", modifiers: "", def_value: None }, CppParam { name: "fragmentationDebugShader", ty: "::UnityW<::UnityEngine::Shader>", modifiers: "", def_value: None }, CppParam { name: "scenarioBlendingShader", ty: "::UnityW<::UnityEngine::ComputeShader>", modifiers: "", def_value: None }, CppParam { name: "streamingUploadShader", ty: "::UnityW<::UnityEngine::ComputeShader>", modifiers: "", def_value: None }, CppParam { name: "sceneData", ty: "::UnityEngine::Rendering::ProbeVolumeSceneData*", modifiers: "", def_value: None }, CppParam { name: "supportsRuntimeDebug", ty: "bool", modifiers: "", def_value: None }]
+constexpr ProbeVolumeSystemParameters(::UnityEngine::Rendering::ProbeVolumeTextureMemoryBudget  memoryBudget, ::UnityEngine::Rendering::ProbeVolumeBlendingTextureMemoryBudget  blendingMemoryBudget, ::UnityEngine::Rendering::ProbeVolumeSHBands  shBands, bool  supportScenarios, bool  supportScenarioBlending, bool  supportGPUStreaming, bool  supportDiskStreaming, ::UnityW<::UnityEngine::Shader>  probeDebugShader, ::UnityW<::UnityEngine::Shader>  probeSamplingDebugShader, ::UnityW<::UnityEngine::Texture>  probeSamplingDebugTexture, ::UnityW<::UnityEngine::Mesh>  probeSamplingDebugMesh, ::UnityW<::UnityEngine::Shader>  offsetDebugShader, ::UnityW<::UnityEngine::Shader>  fragmentationDebugShader, ::UnityW<::UnityEngine::ComputeShader>  scenarioBlendingShader, ::UnityW<::UnityEngine::ComputeShader>  streamingUploadShader, ::UnityEngine::Rendering::ProbeVolumeSceneData*  sceneData, bool  supportsRuntimeDebug) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12100 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12101};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x60 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x60};
 
-  /// @brief Field memoryBudget, offset: 0x0, size: 0x4, def value: None
-  ::UnityEngine::Rendering::ProbeVolumeTextureMemoryBudget memoryBudget;
+/// @brief Field memoryBudget, offset: 0x0, size: 0x4, def value: None
+ ::UnityEngine::Rendering::ProbeVolumeTextureMemoryBudget  memoryBudget;
 
-  /// @brief Field blendingMemoryBudget, offset: 0x4, size: 0x4, def value: None
-  ::UnityEngine::Rendering::ProbeVolumeBlendingTextureMemoryBudget blendingMemoryBudget;
+/// @brief Field blendingMemoryBudget, offset: 0x4, size: 0x4, def value: None
+ ::UnityEngine::Rendering::ProbeVolumeBlendingTextureMemoryBudget  blendingMemoryBudget;
 
-  /// @brief Field shBands, offset: 0x8, size: 0x4, def value: None
-  ::UnityEngine::Rendering::ProbeVolumeSHBands shBands;
+/// @brief Field shBands, offset: 0x8, size: 0x4, def value: None
+ ::UnityEngine::Rendering::ProbeVolumeSHBands  shBands;
 
-  /// @brief Field supportScenarios, offset: 0xc, size: 0x1, def value: None
-  bool supportScenarios;
+/// @brief Field supportScenarios, offset: 0xc, size: 0x1, def value: None
+ bool  supportScenarios;
 
-  /// @brief Field supportScenarioBlending, offset: 0xd, size: 0x1, def value: None
-  bool supportScenarioBlending;
+/// @brief Field supportScenarioBlending, offset: 0xd, size: 0x1, def value: None
+ bool  supportScenarioBlending;
 
-  /// @brief Field supportGPUStreaming, offset: 0xe, size: 0x1, def value: None
-  bool supportGPUStreaming;
+/// @brief Field supportGPUStreaming, offset: 0xe, size: 0x1, def value: None
+ bool  supportGPUStreaming;
 
-  /// @brief Field supportDiskStreaming, offset: 0xf, size: 0x1, def value: None
-  bool supportDiskStreaming;
+/// @brief Field supportDiskStreaming, offset: 0xf, size: 0x1, def value: None
+ bool  supportDiskStreaming;
 
-  /// @brief Field probeDebugShader, offset: 0x10, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::Shader> probeDebugShader;
+/// @brief Field probeDebugShader, offset: 0x10, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::Shader>  probeDebugShader;
 
-  /// @brief Field probeSamplingDebugShader, offset: 0x18, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::Shader> probeSamplingDebugShader;
+/// @brief Field probeSamplingDebugShader, offset: 0x18, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::Shader>  probeSamplingDebugShader;
 
-  /// @brief Field probeSamplingDebugTexture, offset: 0x20, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::Texture> probeSamplingDebugTexture;
+/// @brief Field probeSamplingDebugTexture, offset: 0x20, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::Texture>  probeSamplingDebugTexture;
 
-  /// @brief Field probeSamplingDebugMesh, offset: 0x28, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::Mesh> probeSamplingDebugMesh;
+/// @brief Field probeSamplingDebugMesh, offset: 0x28, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::Mesh>  probeSamplingDebugMesh;
 
-  /// @brief Field offsetDebugShader, offset: 0x30, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::Shader> offsetDebugShader;
+/// @brief Field offsetDebugShader, offset: 0x30, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::Shader>  offsetDebugShader;
 
-  /// @brief Field fragmentationDebugShader, offset: 0x38, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::Shader> fragmentationDebugShader;
+/// @brief Field fragmentationDebugShader, offset: 0x38, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::Shader>  fragmentationDebugShader;
 
-  /// @brief Field scenarioBlendingShader, offset: 0x40, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::ComputeShader> scenarioBlendingShader;
+/// @brief Field scenarioBlendingShader, offset: 0x40, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::ComputeShader>  scenarioBlendingShader;
 
-  /// @brief Field streamingUploadShader, offset: 0x48, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::ComputeShader> streamingUploadShader;
+/// @brief Field streamingUploadShader, offset: 0x48, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::ComputeShader>  streamingUploadShader;
 
-  /// @brief Field sceneData, offset: 0x50, size: 0x8, def value: None
-  ::UnityEngine::Rendering::ProbeVolumeSceneData* sceneData;
+/// @brief Field sceneData, offset: 0x50, size: 0x8, def value: None
+ ::UnityEngine::Rendering::ProbeVolumeSceneData*  sceneData;
 
-  /// @brief Field supportsRuntimeDebug, offset: 0x58, size: 0x1, def value: None
-  bool supportsRuntimeDebug;
+/// @brief Field supportsRuntimeDebug, offset: 0x58, size: 0x1, def value: None
+ bool  supportsRuntimeDebug;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Rendering::ProbeVolumeSystemParameters, memoryBudget) == 0x0, "Offset mismatch!");
@@ -154,5 +139,5 @@ static_assert(offsetof(::UnityEngine::Rendering::ProbeVolumeSystemParameters, su
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::ProbeVolumeSystemParameters, 0x60>, "Size mismatch!");
 
-} // namespace UnityEngine::Rendering
+} // namespace end def UnityEngine::Rendering
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::ProbeVolumeSystemParameters, "UnityEngine.Rendering", "ProbeVolumeSystemParameters");

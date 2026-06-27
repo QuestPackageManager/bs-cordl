@@ -6,7 +6,8 @@ CORDL_MODULE_INIT
 #include "System/zzzz__MulticastDelegate_def.hpp"
 CORDL_MODULE_EXPORT(HierarchyEvent)
 namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
+template<typename T>
+class IReadOnlyList_1;
 }
 namespace System {
 struct IntPtr;
@@ -32,38 +33,37 @@ namespace UnityEngine::UIElements {
 // CS Name: UnityEngine.UIElements.HierarchyEvent
 class CORDL_TYPE HierarchyEvent : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method Invoke, addr 0x6c5e81c, size 0x14, virtual true, abstract: false, final false
-  inline void Invoke(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::HierarchyChangeType changeType,
-                     ::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::UIElements::VisualElement*>* additionalContext);
+// Declarations
+/// @brief Method Invoke, addr 0x6c60394, size 0x14, virtual true, abstract: false, final false
+inline void Invoke(::UnityEngine::UIElements::VisualElement*  ve, ::UnityEngine::UIElements::HierarchyChangeType  changeType, ::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::UIElements::VisualElement*>*  additionalContext) ;
 
-  static inline ::UnityEngine::UIElements::HierarchyEvent* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::UnityEngine::UIElements::HierarchyEvent* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x6c5e6d4, size 0x148, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x6c6024c, size 0x148, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HierarchyEvent();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr HierarchyEvent() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HierarchyEvent", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  HierarchyEvent(HierarchyEvent&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HierarchyEvent", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  HierarchyEvent(HierarchyEvent const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "HierarchyEvent", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+HierarchyEvent(HierarchyEvent && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4640 };
+// Ctor Parameters [CppParam { name: "", ty: "HierarchyEvent", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+HierarchyEvent(HierarchyEvent const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4640};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::HierarchyEvent, 0x80>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements
+} // namespace end def UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::HierarchyEvent);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::HierarchyEvent*, "UnityEngine.UIElements", "HierarchyEvent");

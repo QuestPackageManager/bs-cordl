@@ -30,64 +30,63 @@ namespace GlobalNamespace {
 // CS Name: MockScoreSyncStateSender
 class CORDL_TYPE MockScoreSyncStateSender : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field _multiplayerSessionManager, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__multiplayerSessionManager,
-                      put = __cordl_internal_set__multiplayerSessionManager)) ::GlobalNamespace::IBeatSaberMultiplayerSessionManager* _multiplayerSessionManager;
+// Declarations
+/// @brief Field _multiplayerSessionManager, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get__multiplayerSessionManager, put=__cordl_internal_set__multiplayerSessionManager)) ::GlobalNamespace::IBeatSaberMultiplayerSessionManager*  _multiplayerSessionManager;
 
-  /// @brief Convert operator to "::System::IDisposable"
-  constexpr operator ::System::IDisposable*() noexcept;
+/// @brief Convert operator to "::System::IDisposable"
+constexpr operator  ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x5946980, size 0xc0, virtual true, abstract: false, final true
-  inline void Dispose();
+/// @brief Method Dispose, addr 0x5948350, size 0xc0, virtual true, abstract: false, final true
+inline void Dispose() ;
 
-  /// @brief Method HandleScoreSyncStateUpdate, addr 0x594c318, size 0x4, virtual false, abstract: false, final false
-  inline void HandleScoreSyncStateUpdate(::GlobalNamespace::StandardScoreSyncStateNetSerializable* nodePose, ::GlobalNamespace::IConnectedPlayer* connectedPlayer);
+/// @brief Method HandleScoreSyncStateUpdate, addr 0x594de8c, size 0x4, virtual false, abstract: false, final false
+inline void HandleScoreSyncStateUpdate(::GlobalNamespace::StandardScoreSyncStateNetSerializable*  nodePose, ::GlobalNamespace::IConnectedPlayer*  connectedPlayer) ;
 
-  static inline ::GlobalNamespace::MockScoreSyncStateSender* New_ctor(::GlobalNamespace::IBeatSaberMultiplayerSessionManager* multiplayerSessionManager);
+static inline ::GlobalNamespace::MockScoreSyncStateSender* New_ctor(::GlobalNamespace::IBeatSaberMultiplayerSessionManager*  multiplayerSessionManager) ;
 
-  /// @brief Method SendScore, addr 0x5949bf4, size 0x1ac, virtual false, abstract: false, final false
-  inline void SendScore(int32_t modifiedScore, int32_t multipliedScore, int32_t immediateMaxPossibleMultipliedScore, int32_t combo, int32_t multiplier);
+/// @brief Method SendScore, addr 0x594b5dc, size 0x1ac, virtual false, abstract: false, final false
+inline void SendScore(int32_t  modifiedScore, int32_t  multipliedScore, int32_t  immediateMaxPossibleMultipliedScore, int32_t  combo, int32_t  multiplier) ;
 
-  constexpr ::GlobalNamespace::IBeatSaberMultiplayerSessionManager* const& __cordl_internal_get__multiplayerSessionManager() const;
+constexpr ::GlobalNamespace::IBeatSaberMultiplayerSessionManager* const& __cordl_internal_get__multiplayerSessionManager() const;
 
-  constexpr ::GlobalNamespace::IBeatSaberMultiplayerSessionManager*& __cordl_internal_get__multiplayerSessionManager();
+constexpr ::GlobalNamespace::IBeatSaberMultiplayerSessionManager*& __cordl_internal_get__multiplayerSessionManager() ;
 
-  constexpr void __cordl_internal_set__multiplayerSessionManager(::GlobalNamespace::IBeatSaberMultiplayerSessionManager* value);
+constexpr void __cordl_internal_set__multiplayerSessionManager(::GlobalNamespace::IBeatSaberMultiplayerSessionManager*  value) ;
 
-  /// @brief Method .ctor, addr 0x59467ac, size 0x1a8, virtual false, abstract: false, final false
-  inline void _ctor(::GlobalNamespace::IBeatSaberMultiplayerSessionManager* multiplayerSessionManager);
+/// @brief Method .ctor, addr 0x594817c, size 0x1a8, virtual false, abstract: false, final false
+inline void _ctor(::GlobalNamespace::IBeatSaberMultiplayerSessionManager*  multiplayerSessionManager) ;
 
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+/// @brief Convert to "::System::IDisposable"
+constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MockScoreSyncStateSender();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr MockScoreSyncStateSender() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MockScoreSyncStateSender", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  MockScoreSyncStateSender(MockScoreSyncStateSender&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MockScoreSyncStateSender", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  MockScoreSyncStateSender(MockScoreSyncStateSender const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "MockScoreSyncStateSender", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+MockScoreSyncStateSender(MockScoreSyncStateSender && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22032 };
+// Ctor Parameters [CppParam { name: "", ty: "MockScoreSyncStateSender", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+MockScoreSyncStateSender(MockScoreSyncStateSender const& ) = delete;
 
-  /// @brief Field _multiplayerSessionManager, offset: 0x10, size: 0x8, def value: None
-  ::GlobalNamespace::IBeatSaberMultiplayerSessionManager* ____multiplayerSessionManager;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22008};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _multiplayerSessionManager, offset: 0x10, size: 0x8, def value: None
+ ::GlobalNamespace::IBeatSaberMultiplayerSessionManager*  ____multiplayerSessionManager;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::MockScoreSyncStateSender, ____multiplayerSessionManager) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MockScoreSyncStateSender, 0x18>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MockScoreSyncStateSender);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MockScoreSyncStateSender*, "", "MockScoreSyncStateSender");

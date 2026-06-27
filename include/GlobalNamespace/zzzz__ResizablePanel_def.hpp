@@ -30,75 +30,75 @@ namespace GlobalNamespace {
 // CS Name: ResizablePanel
 class CORDL_TYPE ResizablePanel : public ::UnityEngine::MonoBehaviour {
 public:
-  // Declarations
-  /// @brief Field _rectTransform, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__rectTransform, put = __cordl_internal_set__rectTransform)) ::UnityW<::UnityEngine::RectTransform> _rectTransform;
+// Declarations
+/// @brief Field _rectTransform, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get__rectTransform, put=__cordl_internal_set__rectTransform)) ::UnityW<::UnityEngine::RectTransform>  _rectTransform;
 
-  /// @brief Field _resizeTween, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__resizeTween, put = __cordl_internal_set__resizeTween)) ::Tweening::Vector2Tween* _resizeTween;
+/// @brief Field _resizeTween, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get__resizeTween, put=__cordl_internal_set__resizeTween)) ::Tweening::Vector2Tween*  _resizeTween;
 
-  /// @brief Field _tweeningManager, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__tweeningManager, put = __cordl_internal_set__tweeningManager)) ::UnityW<::Tweening::TimeTweeningManager> _tweeningManager;
+/// @brief Field _tweeningManager, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get__tweeningManager, put=__cordl_internal_set__tweeningManager)) ::UnityW<::Tweening::TimeTweeningManager>  _tweeningManager;
 
-  static inline ::GlobalNamespace::ResizablePanel* New_ctor();
+static inline ::GlobalNamespace::ResizablePanel* New_ctor() ;
 
-  /// @brief Method OnDestroy, addr 0x572d42c, size 0x8c, virtual false, abstract: false, final false
-  inline void OnDestroy();
+/// @brief Method OnDestroy, addr 0x572ec94, size 0x8c, virtual false, abstract: false, final false
+inline void OnDestroy() ;
 
-  /// @brief Method Resize, addr 0x572d4b8, size 0x220, virtual false, abstract: false, final false
-  inline void Resize(::UnityEngine::Vector2 size, float_t duration);
+/// @brief Method Resize, addr 0x572ed20, size 0x220, virtual false, abstract: false, final false
+inline void Resize(::UnityEngine::Vector2  size, float_t  duration) ;
 
-  /// @brief Method SetSize, addr 0x572d6d8, size 0x18, virtual false, abstract: false, final false
-  inline void SetSize(::UnityEngine::Vector2 size);
+/// @brief Method SetSize, addr 0x572ef40, size 0x18, virtual false, abstract: false, final false
+inline void SetSize(::UnityEngine::Vector2  size) ;
 
-  constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get__rectTransform() const;
+constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get__rectTransform() const;
 
-  constexpr ::UnityW<::UnityEngine::RectTransform>& __cordl_internal_get__rectTransform();
+constexpr ::UnityW<::UnityEngine::RectTransform>& __cordl_internal_get__rectTransform() ;
 
-  constexpr ::Tweening::Vector2Tween* const& __cordl_internal_get__resizeTween() const;
+constexpr ::Tweening::Vector2Tween* const& __cordl_internal_get__resizeTween() const;
 
-  constexpr ::Tweening::Vector2Tween*& __cordl_internal_get__resizeTween();
+constexpr ::Tweening::Vector2Tween*& __cordl_internal_get__resizeTween() ;
 
-  constexpr ::UnityW<::Tweening::TimeTweeningManager> const& __cordl_internal_get__tweeningManager() const;
+constexpr ::UnityW<::Tweening::TimeTweeningManager> const& __cordl_internal_get__tweeningManager() const;
 
-  constexpr ::UnityW<::Tweening::TimeTweeningManager>& __cordl_internal_get__tweeningManager();
+constexpr ::UnityW<::Tweening::TimeTweeningManager>& __cordl_internal_get__tweeningManager() ;
 
-  constexpr void __cordl_internal_set__rectTransform(::UnityW<::UnityEngine::RectTransform> value);
+constexpr void __cordl_internal_set__rectTransform(::UnityW<::UnityEngine::RectTransform>  value) ;
 
-  constexpr void __cordl_internal_set__resizeTween(::Tweening::Vector2Tween* value);
+constexpr void __cordl_internal_set__resizeTween(::Tweening::Vector2Tween*  value) ;
 
-  constexpr void __cordl_internal_set__tweeningManager(::UnityW<::Tweening::TimeTweeningManager> value);
+constexpr void __cordl_internal_set__tweeningManager(::UnityW<::Tweening::TimeTweeningManager>  value) ;
 
-  /// @brief Method .ctor, addr 0x572d6f0, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x572ef58, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ResizablePanel();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ResizablePanel() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ResizablePanel", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ResizablePanel(ResizablePanel&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ResizablePanel", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ResizablePanel(ResizablePanel const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ResizablePanel", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ResizablePanel(ResizablePanel && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19115 };
+// Ctor Parameters [CppParam { name: "", ty: "ResizablePanel", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ResizablePanel(ResizablePanel const& ) = delete;
 
-  /// @brief Field _rectTransform, offset: 0x20, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::RectTransform> ____rectTransform;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19118};
 
-  /// @brief Field _tweeningManager, offset: 0x28, size: 0x8, def value: None
-  ::UnityW<::Tweening::TimeTweeningManager> ____tweeningManager;
+/// @brief Field _rectTransform, offset: 0x20, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::RectTransform>  ____rectTransform;
 
-  /// @brief Field _resizeTween, offset: 0x30, size: 0x8, def value: None
-  ::Tweening::Vector2Tween* ____resizeTween;
+/// @brief Field _tweeningManager, offset: 0x28, size: 0x8, def value: None
+ ::UnityW<::Tweening::TimeTweeningManager>  ____tweeningManager;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _resizeTween, offset: 0x30, size: 0x8, def value: None
+ ::Tweening::Vector2Tween*  ____resizeTween;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::ResizablePanel, ____rectTransform) == 0x20, "Offset mismatch!");
@@ -109,6 +109,6 @@ static_assert(offsetof(::GlobalNamespace::ResizablePanel, ____resizeTween) == 0x
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ResizablePanel, 0x38>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ResizablePanel);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ResizablePanel*, "", "ResizablePanel");

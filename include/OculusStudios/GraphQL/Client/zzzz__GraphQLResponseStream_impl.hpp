@@ -10,429 +10,509 @@
 #include "System/zzzz__Func_2_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 //  Writing Method size for method: ::OculusStudios::GraphQL::Client::GraphQLResponseStream___c._ctor
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OculusStudios::GraphQL::Client::GraphQLResponseStream___c::*)()>(
-    &::OculusStudios::GraphQL::Client::GraphQLResponseStream___c::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OculusStudios::GraphQL::Client::GraphQLResponseStream___c::*)()>(&::OculusStudios::GraphQL::Client::GraphQLResponseStream___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5df0134;
+  constexpr static std::size_t addrs = 0x5df1cac;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OculusStudios::GraphQL::Client::GraphQLResponseStream___c*>::get(), ".ctor",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OculusStudios::GraphQL::Client::GraphQLResponseStream___c*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OculusStudios::GraphQL::Client::GraphQLResponseStream___c.__ctor_b__21_0
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OculusStudios::GraphQL::Client::GraphQLResponseStream___c::*)()>(
-    &::OculusStudios::GraphQL::Client::GraphQLResponseStream___c::__ctor_b__21_0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OculusStudios::GraphQL::Client::GraphQLResponseStream___c::*)()>(&::OculusStudios::GraphQL::Client::GraphQLResponseStream___c::__ctor_b__21_0)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5df0138;
+  constexpr static std::size_t addrs = 0x5df1cb0;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OculusStudios::GraphQL::Client::GraphQLResponseStream___c*>::get(), "<.ctor>b__21_0",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OculusStudios::GraphQL::Client::GraphQLResponseStream___c*>::get(),
+                        "<.ctor>b__21_0",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
-inline void OculusStudios::GraphQL::Client::GraphQLResponseStream___c::setStaticF___9(::OculusStudios::GraphQL::Client::GraphQLResponseStream___c* value) {
-  ::cordl_internals::setStaticField<::OculusStudios::GraphQL::Client::GraphQLResponseStream___c*, "<>9",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OculusStudios::GraphQL::Client::GraphQLResponseStream___c*>::get>(
-      std::forward<::OculusStudios::GraphQL::Client::GraphQLResponseStream___c*>(value));
+inline void OculusStudios::GraphQL::Client::GraphQLResponseStream___c::setStaticF___9(::OculusStudios::GraphQL::Client::GraphQLResponseStream___c*  value)  {
+::cordl_internals::setStaticField<::OculusStudios::GraphQL::Client::GraphQLResponseStream___c*, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OculusStudios::GraphQL::Client::GraphQLResponseStream___c*>::get>(std::forward<::OculusStudios::GraphQL::Client::GraphQLResponseStream___c*>(value));
 }
-inline ::OculusStudios::GraphQL::Client::GraphQLResponseStream___c* OculusStudios::GraphQL::Client::GraphQLResponseStream___c::getStaticF___9() {
-  return ::cordl_internals::getStaticField<::OculusStudios::GraphQL::Client::GraphQLResponseStream___c*, "<>9",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OculusStudios::GraphQL::Client::GraphQLResponseStream___c*>::get>();
+inline ::OculusStudios::GraphQL::Client::GraphQLResponseStream___c* OculusStudios::GraphQL::Client::GraphQLResponseStream___c::getStaticF___9()  {
+return ::cordl_internals::getStaticField<::OculusStudios::GraphQL::Client::GraphQLResponseStream___c*, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OculusStudios::GraphQL::Client::GraphQLResponseStream___c*>::get>();
 }
-inline void OculusStudios::GraphQL::Client::GraphQLResponseStream___c::setStaticF___9__21_0(::System::Action* value) {
-  ::cordl_internals::setStaticField<::System::Action*, "<>9__21_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OculusStudios::GraphQL::Client::GraphQLResponseStream___c*>::get>(
-      std::forward<::System::Action*>(value));
+inline void OculusStudios::GraphQL::Client::GraphQLResponseStream___c::setStaticF___9__21_0(::System::Action*  value)  {
+::cordl_internals::setStaticField<::System::Action*, "<>9__21_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OculusStudios::GraphQL::Client::GraphQLResponseStream___c*>::get>(std::forward<::System::Action*>(value));
 }
-inline ::System::Action* OculusStudios::GraphQL::Client::GraphQLResponseStream___c::getStaticF___9__21_0() {
-  return ::cordl_internals::getStaticField<::System::Action*, "<>9__21_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OculusStudios::GraphQL::Client::GraphQLResponseStream___c*>::get>();
+inline ::System::Action* OculusStudios::GraphQL::Client::GraphQLResponseStream___c::getStaticF___9__21_0()  {
+return ::cordl_internals::getStaticField<::System::Action*, "<>9__21_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OculusStudios::GraphQL::Client::GraphQLResponseStream___c*>::get>();
 }
-inline void OculusStudios::GraphQL::Client::GraphQLResponseStream___c::_ctor() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OculusStudios::GraphQL::Client::GraphQLResponseStream___c*>::get(), ".ctor",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void OculusStudios::GraphQL::Client::GraphQLResponseStream___c::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OculusStudios::GraphQL::Client::GraphQLResponseStream___c*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void OculusStudios::GraphQL::Client::GraphQLResponseStream___c::__ctor_b__21_0() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OculusStudios::GraphQL::Client::GraphQLResponseStream___c*>::get(), "<.ctor>b__21_0",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void OculusStudios::GraphQL::Client::GraphQLResponseStream___c::__ctor_b__21_0()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OculusStudios::GraphQL::Client::GraphQLResponseStream___c*>::get(),
+                        "<.ctor>b__21_0",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::OculusStudios::GraphQL::Client::GraphQLResponseStream___c* OculusStudios::GraphQL::Client::GraphQLResponseStream___c::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::OculusStudios::GraphQL::Client::GraphQLResponseStream___c*>());
+inline ::OculusStudios::GraphQL::Client::GraphQLResponseStream___c* OculusStudios::GraphQL::Client::GraphQLResponseStream___c::New_ctor()  {
+return THROW_UNLESS(::il2cpp_utils::NewSpecific<::OculusStudios::GraphQL::Client::GraphQLResponseStream___c*>());
 }
 // Ctor Parameters []
-constexpr ::OculusStudios::GraphQL::Client::GraphQLResponseStream___c::GraphQLResponseStream___c() {}
+constexpr ::OculusStudios::GraphQL::Client::GraphQLResponseStream___c::GraphQLResponseStream___c()   {
+}
 //  Writing Method size for method: ::OculusStudios::GraphQL::Client::GraphQLResponseStream.add_OnCancelled
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OculusStudios::GraphQL::Client::GraphQLResponseStream::*)(::System::Action*)>(
-    &::OculusStudios::GraphQL::Client::GraphQLResponseStream::add_OnCancelled)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OculusStudios::GraphQL::Client::GraphQLResponseStream::*)(::System::Action*)>(&::OculusStudios::GraphQL::Client::GraphQLResponseStream::add_OnCancelled)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5dead50;
+  constexpr static std::size_t addrs = 0x5dec8c8;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>::get(), "add_OnCancelled",
-                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>::get(),
+                        "add_OnCancelled",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OculusStudios::GraphQL::Client::GraphQLResponseStream.remove_OnCancelled
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OculusStudios::GraphQL::Client::GraphQLResponseStream::*)(::System::Action*)>(
-    &::OculusStudios::GraphQL::Client::GraphQLResponseStream::remove_OnCancelled)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OculusStudios::GraphQL::Client::GraphQLResponseStream::*)(::System::Action*)>(&::OculusStudios::GraphQL::Client::GraphQLResponseStream::remove_OnCancelled)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5defe00;
+  constexpr static std::size_t addrs = 0x5df1978;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>::get(), "remove_OnCancelled",
-                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>::get(),
+                        "remove_OnCancelled",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OculusStudios::GraphQL::Client::GraphQLResponseStream.add_OnConnectionClosed
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OculusStudios::GraphQL::Client::GraphQLResponseStream::*)(::System::Action*)>(
-    &::OculusStudios::GraphQL::Client::GraphQLResponseStream::add_OnConnectionClosed)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OculusStudios::GraphQL::Client::GraphQLResponseStream::*)(::System::Action*)>(&::OculusStudios::GraphQL::Client::GraphQLResponseStream::add_OnConnectionClosed)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5defeac;
+  constexpr static std::size_t addrs = 0x5df1a24;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>::get(), "add_OnConnectionClosed",
-                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>::get(),
+                        "add_OnConnectionClosed",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OculusStudios::GraphQL::Client::GraphQLResponseStream.remove_OnConnectionClosed
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OculusStudios::GraphQL::Client::GraphQLResponseStream::*)(::System::Action*)>(
-    &::OculusStudios::GraphQL::Client::GraphQLResponseStream::remove_OnConnectionClosed)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OculusStudios::GraphQL::Client::GraphQLResponseStream::*)(::System::Action*)>(&::OculusStudios::GraphQL::Client::GraphQLResponseStream::remove_OnConnectionClosed)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5deff58;
+  constexpr static std::size_t addrs = 0x5df1ad0;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>::get(), "remove_OnConnectionClosed",
-                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>::get(),
+                        "remove_OnConnectionClosed",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OculusStudios::GraphQL::Client::GraphQLResponseStream.Dispose
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OculusStudios::GraphQL::Client::GraphQLResponseStream::*)()>(
-    &::OculusStudios::GraphQL::Client::GraphQLResponseStream::Dispose)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OculusStudios::GraphQL::Client::GraphQLResponseStream::*)()>(&::OculusStudios::GraphQL::Client::GraphQLResponseStream::Dispose)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5df0004;
+  constexpr static std::size_t addrs = 0x5df1b7c;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>::get(),
-                                                                               "Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>::get(),
+                        "Dispose",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OculusStudios::GraphQL::Client::GraphQLResponseStream.Dispose
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OculusStudios::GraphQL::Client::GraphQLResponseStream::*)(bool)>(
-    &::OculusStudios::GraphQL::Client::GraphQLResponseStream::Dispose)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OculusStudios::GraphQL::Client::GraphQLResponseStream::*)(bool)>(&::OculusStudios::GraphQL::Client::GraphQLResponseStream::Dispose)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5df0014;
+  constexpr static std::size_t addrs = 0x5df1b8c;
 
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>::get(), 5));
+  inline static const ::MethodInfo* methodInfo() {
+    
+                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>::get(),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>::get(),
+                                  5
+                                ));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OculusStudios::GraphQL::Client::GraphQLResponseStream.get_InitialResponse
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OculusStudios::GraphQL::Client::GraphQLResponse* (::OculusStudios::GraphQL::Client::GraphQLResponseStream::*)()>(
-    &::OculusStudios::GraphQL::Client::GraphQLResponseStream::get_InitialResponse)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OculusStudios::GraphQL::Client::GraphQLResponse* (::OculusStudios::GraphQL::Client::GraphQLResponseStream::*)()>(&::OculusStudios::GraphQL::Client::GraphQLResponseStream::get_InitialResponse)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5df0050;
+  constexpr static std::size_t addrs = 0x5df1bc8;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>::get(),
-                                                                               "get_InitialResponse", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>::get(),
+                        "get_InitialResponse",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OculusStudios::GraphQL::Client::GraphQLResponseStream.set_InitialResponse
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OculusStudios::GraphQL::Client::GraphQLResponseStream::*)(
-    ::OculusStudios::GraphQL::Client::GraphQLResponse*)>(&::OculusStudios::GraphQL::Client::GraphQLResponseStream::set_InitialResponse)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OculusStudios::GraphQL::Client::GraphQLResponseStream::*)(::OculusStudios::GraphQL::Client::GraphQLResponse*)>(&::OculusStudios::GraphQL::Client::GraphQLResponseStream::set_InitialResponse)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5df0058;
+  constexpr static std::size_t addrs = 0x5df1bd0;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>::get(), "set_InitialResponse", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::OculusStudios::GraphQL::Client::GraphQLResponse*>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>::get(),
+                        "set_InitialResponse",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::OculusStudios::GraphQL::Client::GraphQLResponse*>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OculusStudios::GraphQL::Client::GraphQLResponseStream.Cancel
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OculusStudios::GraphQL::Client::GraphQLResponseStream::*)()>(
-    &::OculusStudios::GraphQL::Client::GraphQLResponseStream::Cancel)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OculusStudios::GraphQL::Client::GraphQLResponseStream::*)()>(&::OculusStudios::GraphQL::Client::GraphQLResponseStream::Cancel)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5df0034;
+  constexpr static std::size_t addrs = 0x5df1bac;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>::get(),
-                                                                               "Cancel", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>::get(),
+                        "Cancel",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OculusStudios::GraphQL::Client::GraphQLResponseStream.SetResponseCallback
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OculusStudios::GraphQL::Client::GraphQLResponseStream::*)(
-    ::System::Action_1<::OculusStudios::GraphQL::Client::GraphQLResponse*>*)>(&::OculusStudios::GraphQL::Client::GraphQLResponseStream::SetResponseCallback)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OculusStudios::GraphQL::Client::GraphQLResponseStream::*)(::System::Action_1<::OculusStudios::GraphQL::Client::GraphQLResponse*>*)>(&::OculusStudios::GraphQL::Client::GraphQLResponseStream::SetResponseCallback)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5df0060;
+  constexpr static std::size_t addrs = 0x5df1bd8;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>::get(), "SetResponseCallback", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::OculusStudios::GraphQL::Client::GraphQLResponse*>*>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>::get(),
+                        "SetResponseCallback",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::OculusStudios::GraphQL::Client::GraphQLResponse*>*>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OculusStudios::GraphQL::Client::GraphQLResponseStream.SetResponseCallback
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OculusStudios::GraphQL::Client::GraphQLResponseStream::*)(
-    ::System::Func_2<::OculusStudios::GraphQL::Client::GraphQLResponse*, ::System::Threading::Tasks::Task*>*)>(&::OculusStudios::GraphQL::Client::GraphQLResponseStream::SetResponseCallback)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OculusStudios::GraphQL::Client::GraphQLResponseStream::*)(::System::Func_2<::OculusStudios::GraphQL::Client::GraphQLResponse*,::System::Threading::Tasks::Task*>*)>(&::OculusStudios::GraphQL::Client::GraphQLResponseStream::SetResponseCallback)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5df0090;
+  constexpr static std::size_t addrs = 0x5df1c08;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>::get(), "SetResponseCallback", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Func_2<::OculusStudios::GraphQL::Client::GraphQLResponse*, ::System::Threading::Tasks::Task*>*>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>::get(),
+                        "SetResponseCallback",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Func_2<::OculusStudios::GraphQL::Client::GraphQLResponse*,::System::Threading::Tasks::Task*>*>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OculusStudios::GraphQL::Client::GraphQLResponseStream.PostResponse
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OculusStudios::GraphQL::Client::GraphQLResponseStream::*)(
-    ::OculusStudios::GraphQL::Client::GraphQLResponse*)>(&::OculusStudios::GraphQL::Client::GraphQLResponseStream::PostResponse)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OculusStudios::GraphQL::Client::GraphQLResponseStream::*)(::OculusStudios::GraphQL::Client::GraphQLResponse*)>(&::OculusStudios::GraphQL::Client::GraphQLResponseStream::PostResponse)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x5de8b70;
+  constexpr static std::size_t addrs = 0x5dea6e8;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>::get(), "PostResponse", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::OculusStudios::GraphQL::Client::GraphQLResponse*>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>::get(),
+                        "PostResponse",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::OculusStudios::GraphQL::Client::GraphQLResponse*>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OculusStudios::GraphQL::Client::GraphQLResponseStream.NoteConnectionClosed
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OculusStudios::GraphQL::Client::GraphQLResponseStream::*)()>(
-    &::OculusStudios::GraphQL::Client::GraphQLResponseStream::NoteConnectionClosed)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OculusStudios::GraphQL::Client::GraphQLResponseStream::*)()>(&::OculusStudios::GraphQL::Client::GraphQLResponseStream::NoteConnectionClosed)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5df00c0;
+  constexpr static std::size_t addrs = 0x5df1c38;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>::get(),
-                                                                               "NoteConnectionClosed", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>::get(),
+                        "NoteConnectionClosed",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OculusStudios::GraphQL::Client::GraphQLResponseStream._ctor
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OculusStudios::GraphQL::Client::GraphQLResponseStream::*)()>(
-    &::OculusStudios::GraphQL::Client::GraphQLResponseStream::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OculusStudios::GraphQL::Client::GraphQLResponseStream::*)()>(&::OculusStudios::GraphQL::Client::GraphQLResponseStream::_ctor)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x5de8fb0;
+  constexpr static std::size_t addrs = 0x5deab28;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>::get(),
-                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
-constexpr ::System::Action*& OculusStudios::GraphQL::Client::GraphQLResponseStream::__cordl_internal_get_OnCancelled() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___OnCancelled;
+constexpr ::System::Action*& OculusStudios::GraphQL::Client::GraphQLResponseStream::__cordl_internal_get_OnCancelled()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___OnCancelled;
 }
 constexpr ::System::Action* const& OculusStudios::GraphQL::Client::GraphQLResponseStream::__cordl_internal_get_OnCancelled() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___OnCancelled;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___OnCancelled;
 }
-constexpr void OculusStudios::GraphQL::Client::GraphQLResponseStream::__cordl_internal_set_OnCancelled(::System::Action* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___OnCancelled)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void OculusStudios::GraphQL::Client::GraphQLResponseStream::__cordl_internal_set_OnCancelled(::System::Action*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___OnCancelled)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Action*& OculusStudios::GraphQL::Client::GraphQLResponseStream::__cordl_internal_get_OnConnectionClosed() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___OnConnectionClosed;
+constexpr ::System::Action*& OculusStudios::GraphQL::Client::GraphQLResponseStream::__cordl_internal_get_OnConnectionClosed()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___OnConnectionClosed;
 }
 constexpr ::System::Action* const& OculusStudios::GraphQL::Client::GraphQLResponseStream::__cordl_internal_get_OnConnectionClosed() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___OnConnectionClosed;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___OnConnectionClosed;
 }
-constexpr void OculusStudios::GraphQL::Client::GraphQLResponseStream::__cordl_internal_set_OnConnectionClosed(::System::Action* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___OnConnectionClosed)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void OculusStudios::GraphQL::Client::GraphQLResponseStream::__cordl_internal_set_OnConnectionClosed(::System::Action*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___OnConnectionClosed)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Action_1<::OculusStudios::GraphQL::Client::GraphQLResponse*>*& OculusStudios::GraphQL::Client::GraphQLResponseStream::__cordl_internal_get__responseCallbackSync() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____responseCallbackSync;
+constexpr ::System::Action_1<::OculusStudios::GraphQL::Client::GraphQLResponse*>*& OculusStudios::GraphQL::Client::GraphQLResponseStream::__cordl_internal_get__responseCallbackSync()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____responseCallbackSync;
 }
 constexpr ::System::Action_1<::OculusStudios::GraphQL::Client::GraphQLResponse*>* const& OculusStudios::GraphQL::Client::GraphQLResponseStream::__cordl_internal_get__responseCallbackSync() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____responseCallbackSync;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____responseCallbackSync;
 }
-constexpr void OculusStudios::GraphQL::Client::GraphQLResponseStream::__cordl_internal_set__responseCallbackSync(::System::Action_1<::OculusStudios::GraphQL::Client::GraphQLResponse*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____responseCallbackSync)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void OculusStudios::GraphQL::Client::GraphQLResponseStream::__cordl_internal_set__responseCallbackSync(::System::Action_1<::OculusStudios::GraphQL::Client::GraphQLResponse*>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____responseCallbackSync)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Func_2<::OculusStudios::GraphQL::Client::GraphQLResponse*, ::System::Threading::Tasks::Task*>*&
-OculusStudios::GraphQL::Client::GraphQLResponseStream::__cordl_internal_get__responseCallback() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____responseCallback;
+constexpr ::System::Func_2<::OculusStudios::GraphQL::Client::GraphQLResponse*,::System::Threading::Tasks::Task*>*& OculusStudios::GraphQL::Client::GraphQLResponseStream::__cordl_internal_get__responseCallback()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____responseCallback;
 }
-constexpr ::System::Func_2<::OculusStudios::GraphQL::Client::GraphQLResponse*, ::System::Threading::Tasks::Task*>* const&
-OculusStudios::GraphQL::Client::GraphQLResponseStream::__cordl_internal_get__responseCallback() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____responseCallback;
+constexpr ::System::Func_2<::OculusStudios::GraphQL::Client::GraphQLResponse*,::System::Threading::Tasks::Task*>* const& OculusStudios::GraphQL::Client::GraphQLResponseStream::__cordl_internal_get__responseCallback() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____responseCallback;
 }
-constexpr void OculusStudios::GraphQL::Client::GraphQLResponseStream::__cordl_internal_set__responseCallback(
-    ::System::Func_2<::OculusStudios::GraphQL::Client::GraphQLResponse*, ::System::Threading::Tasks::Task*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____responseCallback)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void OculusStudios::GraphQL::Client::GraphQLResponseStream::__cordl_internal_set__responseCallback(::System::Func_2<::OculusStudios::GraphQL::Client::GraphQLResponse*,::System::Threading::Tasks::Task*>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____responseCallback)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::OculusStudios::GraphQL::Client::GraphQLResponse*& OculusStudios::GraphQL::Client::GraphQLResponseStream::__cordl_internal_get__InitialResponse_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____InitialResponse_k__BackingField;
+constexpr ::OculusStudios::GraphQL::Client::GraphQLResponse*& OculusStudios::GraphQL::Client::GraphQLResponseStream::__cordl_internal_get__InitialResponse_k__BackingField()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____InitialResponse_k__BackingField;
 }
 constexpr ::OculusStudios::GraphQL::Client::GraphQLResponse* const& OculusStudios::GraphQL::Client::GraphQLResponseStream::__cordl_internal_get__InitialResponse_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____InitialResponse_k__BackingField;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____InitialResponse_k__BackingField;
 }
-constexpr void OculusStudios::GraphQL::Client::GraphQLResponseStream::__cordl_internal_set__InitialResponse_k__BackingField(::OculusStudios::GraphQL::Client::GraphQLResponse* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____InitialResponse_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void OculusStudios::GraphQL::Client::GraphQLResponseStream::__cordl_internal_set__InitialResponse_k__BackingField(::OculusStudios::GraphQL::Client::GraphQLResponse*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____InitialResponse_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void OculusStudios::GraphQL::Client::GraphQLResponseStream::add_OnCancelled(::System::Action* value) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>::get(), "add_OnCancelled",
-                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void OculusStudios::GraphQL::Client::GraphQLResponseStream::add_OnCancelled(::System::Action*  value)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>::get(),
+                        "add_OnCancelled",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void OculusStudios::GraphQL::Client::GraphQLResponseStream::remove_OnCancelled(::System::Action* value) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>::get(), "remove_OnCancelled",
-                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void OculusStudios::GraphQL::Client::GraphQLResponseStream::remove_OnCancelled(::System::Action*  value)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>::get(),
+                        "remove_OnCancelled",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void OculusStudios::GraphQL::Client::GraphQLResponseStream::add_OnConnectionClosed(::System::Action* value) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>::get(), "add_OnConnectionClosed",
-                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void OculusStudios::GraphQL::Client::GraphQLResponseStream::add_OnConnectionClosed(::System::Action*  value)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>::get(),
+                        "add_OnConnectionClosed",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void OculusStudios::GraphQL::Client::GraphQLResponseStream::remove_OnConnectionClosed(::System::Action* value) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>::get(), "remove_OnConnectionClosed",
-                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void OculusStudios::GraphQL::Client::GraphQLResponseStream::remove_OnConnectionClosed(::System::Action*  value)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>::get(),
+                        "remove_OnConnectionClosed",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void OculusStudios::GraphQL::Client::GraphQLResponseStream::Dispose() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>::get(),
-                                                                             "Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void OculusStudios::GraphQL::Client::GraphQLResponseStream::Dispose()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>::get(),
+                        "Dispose",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void OculusStudios::GraphQL::Client::GraphQLResponseStream::Dispose(bool disposing) {
-  auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>::get(), 5)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, disposing);
+inline void OculusStudios::GraphQL::Client::GraphQLResponseStream::Dispose(bool  disposing)  {
+auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>::get(),
+                            5
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, disposing);
 }
-inline ::OculusStudios::GraphQL::Client::GraphQLResponse* OculusStudios::GraphQL::Client::GraphQLResponseStream::get_InitialResponse() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>::get(),
-                                                                             "get_InitialResponse", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::OculusStudios::GraphQL::Client::GraphQLResponse*, false>(this, ___internal_method);
+inline ::OculusStudios::GraphQL::Client::GraphQLResponse* OculusStudios::GraphQL::Client::GraphQLResponseStream::get_InitialResponse()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>::get(),
+                        "get_InitialResponse",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<::OculusStudios::GraphQL::Client::GraphQLResponse*, false>(this, ___internal_method);
 }
-inline void OculusStudios::GraphQL::Client::GraphQLResponseStream::set_InitialResponse(::OculusStudios::GraphQL::Client::GraphQLResponse* value) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>::get(), "set_InitialResponse", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::OculusStudios::GraphQL::Client::GraphQLResponse*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void OculusStudios::GraphQL::Client::GraphQLResponseStream::set_InitialResponse(::OculusStudios::GraphQL::Client::GraphQLResponse*  value)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>::get(),
+                        "set_InitialResponse",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::OculusStudios::GraphQL::Client::GraphQLResponse*>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void OculusStudios::GraphQL::Client::GraphQLResponseStream::Cancel() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>::get(),
-                                                                             "Cancel", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void OculusStudios::GraphQL::Client::GraphQLResponseStream::Cancel()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>::get(),
+                        "Cancel",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void OculusStudios::GraphQL::Client::GraphQLResponseStream::SetResponseCallback(::System::Action_1<::OculusStudios::GraphQL::Client::GraphQLResponse*>* callback) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>::get(), "SetResponseCallback", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::OculusStudios::GraphQL::Client::GraphQLResponse*>*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, callback);
+inline void OculusStudios::GraphQL::Client::GraphQLResponseStream::SetResponseCallback(::System::Action_1<::OculusStudios::GraphQL::Client::GraphQLResponse*>*  callback)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>::get(),
+                        "SetResponseCallback",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::OculusStudios::GraphQL::Client::GraphQLResponse*>*>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, callback);
 }
-inline void
-OculusStudios::GraphQL::Client::GraphQLResponseStream::SetResponseCallback(::System::Func_2<::OculusStudios::GraphQL::Client::GraphQLResponse*, ::System::Threading::Tasks::Task*>* callback) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>::get(), "SetResponseCallback", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Func_2<::OculusStudios::GraphQL::Client::GraphQLResponse*, ::System::Threading::Tasks::Task*>*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, callback);
+inline void OculusStudios::GraphQL::Client::GraphQLResponseStream::SetResponseCallback(::System::Func_2<::OculusStudios::GraphQL::Client::GraphQLResponse*,::System::Threading::Tasks::Task*>*  callback)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>::get(),
+                        "SetResponseCallback",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Func_2<::OculusStudios::GraphQL::Client::GraphQLResponse*,::System::Threading::Tasks::Task*>*>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, callback);
 }
-inline void OculusStudios::GraphQL::Client::GraphQLResponseStream::PostResponse(::OculusStudios::GraphQL::Client::GraphQLResponse* response) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>::get(), "PostResponse", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::OculusStudios::GraphQL::Client::GraphQLResponse*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, response);
+inline void OculusStudios::GraphQL::Client::GraphQLResponseStream::PostResponse(::OculusStudios::GraphQL::Client::GraphQLResponse*  response)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>::get(),
+                        "PostResponse",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::OculusStudios::GraphQL::Client::GraphQLResponse*>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, response);
 }
-inline void OculusStudios::GraphQL::Client::GraphQLResponseStream::NoteConnectionClosed() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>::get(),
-                                                                             "NoteConnectionClosed", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void OculusStudios::GraphQL::Client::GraphQLResponseStream::NoteConnectionClosed()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>::get(),
+                        "NoteConnectionClosed",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void OculusStudios::GraphQL::Client::GraphQLResponseStream::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>::get(),
-                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void OculusStudios::GraphQL::Client::GraphQLResponseStream::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::OculusStudios::GraphQL::Client::GraphQLResponseStream* OculusStudios::GraphQL::Client::GraphQLResponseStream::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>());
+inline ::OculusStudios::GraphQL::Client::GraphQLResponseStream* OculusStudios::GraphQL::Client::GraphQLResponseStream::New_ctor()  {
+return THROW_UNLESS(::il2cpp_utils::NewSpecific<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>());
 }
 /// @brief Convert operator to "::System::IDisposable"
-constexpr OculusStudios::GraphQL::Client::GraphQLResponseStream::operator ::System::IDisposable*() noexcept {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+constexpr  OculusStudios::GraphQL::Client::GraphQLResponseStream::operator ::System::IDisposable*() noexcept {
+return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::IDisposable"
 constexpr ::System::IDisposable* OculusStudios::GraphQL::Client::GraphQLResponseStream::i___System__IDisposable() noexcept {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-constexpr ::OculusStudios::GraphQL::Client::GraphQLResponseStream::GraphQLResponseStream() {}
+constexpr ::OculusStudios::GraphQL::Client::GraphQLResponseStream::GraphQLResponseStream()   {
+}

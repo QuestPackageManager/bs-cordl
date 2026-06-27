@@ -17,29 +17,29 @@ namespace UnityEngine::Tilemaps {
 // CS Name: UnityEngine.Tilemaps.TilemapRenderer
 class CORDL_TYPE TilemapRenderer : public ::UnityEngine::Renderer {
 public:
-  // Declarations
+// Declarations
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TilemapRenderer();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr TilemapRenderer() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TilemapRenderer", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  TilemapRenderer(TilemapRenderer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TilemapRenderer", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  TilemapRenderer(TilemapRenderer const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "TilemapRenderer", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+TilemapRenderer(TilemapRenderer && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23165 };
+// Ctor Parameters [CppParam { name: "", ty: "TilemapRenderer", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+TilemapRenderer(TilemapRenderer const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{23169};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Tilemaps::TilemapRenderer, 0x18>, "Size mismatch!");
 
-} // namespace UnityEngine::Tilemaps
+} // namespace end def UnityEngine::Tilemaps
 NEED_NO_BOX(::UnityEngine::Tilemaps::TilemapRenderer);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Tilemaps::TilemapRenderer*, "UnityEngine.Tilemaps", "TilemapRenderer");

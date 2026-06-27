@@ -24,100 +24,100 @@ namespace Org::BouncyCastle::Crypto {
 // CS Name: Org.BouncyCastle.Crypto.CipherKeyGenerator
 class CORDL_TYPE CipherKeyGenerator : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = get_DefaultStrength)) int32_t DefaultStrength;
+// Declarations
+ __declspec(property(get=get_DefaultStrength)) int32_t  DefaultStrength;
 
-  /// @brief Field defaultStrength, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get_defaultStrength, put = __cordl_internal_set_defaultStrength)) int32_t defaultStrength;
+/// @brief Field defaultStrength, offset 0x20, size 0x4 
+ __declspec(property(get=__cordl_internal_get_defaultStrength, put=__cordl_internal_set_defaultStrength)) int32_t  defaultStrength;
 
-  /// @brief Field random, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_random, put = __cordl_internal_set_random)) ::Org::BouncyCastle::Security::SecureRandom* random;
+/// @brief Field random, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_random, put=__cordl_internal_set_random)) ::Org::BouncyCastle::Security::SecureRandom*  random;
 
-  /// @brief Field strength, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get_strength, put = __cordl_internal_set_strength)) int32_t strength;
+/// @brief Field strength, offset 0x18, size 0x4 
+ __declspec(property(get=__cordl_internal_get_strength, put=__cordl_internal_set_strength)) int32_t  strength;
 
-  /// @brief Field uninitialised, offset 0x1c, size 0x1
-  __declspec(property(get = __cordl_internal_get_uninitialised, put = __cordl_internal_set_uninitialised)) bool uninitialised;
+/// @brief Field uninitialised, offset 0x1c, size 0x1 
+ __declspec(property(get=__cordl_internal_get_uninitialised, put=__cordl_internal_set_uninitialised)) bool  uninitialised;
 
-  /// @brief Method GenerateKey, addr 0x3315c90, size 0x118, virtual false, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateKey();
+/// @brief Method GenerateKey, addr 0x3316a2c, size 0x118, virtual false, abstract: false, final false
+inline ::ArrayW<uint8_t,::Array<uint8_t>*> GenerateKey() ;
 
-  /// @brief Method Init, addr 0x3315bfc, size 0x60, virtual false, abstract: false, final false
-  inline void Init(::Org::BouncyCastle::Crypto::KeyGenerationParameters* parameters);
+/// @brief Method Init, addr 0x3316998, size 0x60, virtual false, abstract: false, final false
+inline void Init(::Org::BouncyCastle::Crypto::KeyGenerationParameters*  parameters) ;
 
-  static inline ::Org::BouncyCastle::Crypto::CipherKeyGenerator* New_ctor();
+static inline ::Org::BouncyCastle::Crypto::CipherKeyGenerator* New_ctor() ;
 
-  static inline ::Org::BouncyCastle::Crypto::CipherKeyGenerator* New_ctor(int32_t defaultStrength);
+static inline ::Org::BouncyCastle::Crypto::CipherKeyGenerator* New_ctor(int32_t  defaultStrength) ;
 
-  constexpr int32_t const& __cordl_internal_get_defaultStrength() const;
+constexpr int32_t const& __cordl_internal_get_defaultStrength() const;
 
-  constexpr int32_t& __cordl_internal_get_defaultStrength();
+constexpr int32_t& __cordl_internal_get_defaultStrength() ;
 
-  constexpr ::Org::BouncyCastle::Security::SecureRandom* const& __cordl_internal_get_random() const;
+constexpr ::Org::BouncyCastle::Security::SecureRandom* const& __cordl_internal_get_random() const;
 
-  constexpr ::Org::BouncyCastle::Security::SecureRandom*& __cordl_internal_get_random();
+constexpr ::Org::BouncyCastle::Security::SecureRandom*& __cordl_internal_get_random() ;
 
-  constexpr int32_t const& __cordl_internal_get_strength() const;
+constexpr int32_t const& __cordl_internal_get_strength() const;
 
-  constexpr int32_t& __cordl_internal_get_strength();
+constexpr int32_t& __cordl_internal_get_strength() ;
 
-  constexpr bool const& __cordl_internal_get_uninitialised() const;
+constexpr bool const& __cordl_internal_get_uninitialised() const;
 
-  constexpr bool& __cordl_internal_get_uninitialised();
+constexpr bool& __cordl_internal_get_uninitialised() ;
 
-  constexpr void __cordl_internal_set_defaultStrength(int32_t value);
+constexpr void __cordl_internal_set_defaultStrength(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_random(::Org::BouncyCastle::Security::SecureRandom* value);
+constexpr void __cordl_internal_set_random(::Org::BouncyCastle::Security::SecureRandom*  value) ;
 
-  constexpr void __cordl_internal_set_strength(int32_t value);
+constexpr void __cordl_internal_set_strength(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_uninitialised(bool value);
+constexpr void __cordl_internal_set_uninitialised(bool  value) ;
 
-  /// @brief Method .ctor, addr 0x3315b6c, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x3316908, size 0xc, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method .ctor, addr 0x3315b78, size 0x7c, virtual false, abstract: false, final false
-  inline void _ctor(int32_t defaultStrength);
+/// @brief Method .ctor, addr 0x3316914, size 0x7c, virtual false, abstract: false, final false
+inline void _ctor(int32_t  defaultStrength) ;
 
-  /// @brief Method engineGenerateKey, addr 0x3315da8, size 0x68, virtual true, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> engineGenerateKey();
+/// @brief Method engineGenerateKey, addr 0x3316b44, size 0x68, virtual true, abstract: false, final false
+inline ::ArrayW<uint8_t,::Array<uint8_t>*> engineGenerateKey() ;
 
-  /// @brief Method engineInit, addr 0x3315c5c, size 0x34, virtual true, abstract: false, final false
-  inline void engineInit(::Org::BouncyCastle::Crypto::KeyGenerationParameters* parameters);
+/// @brief Method engineInit, addr 0x33169f8, size 0x34, virtual true, abstract: false, final false
+inline void engineInit(::Org::BouncyCastle::Crypto::KeyGenerationParameters*  parameters) ;
 
-  /// @brief Method get_DefaultStrength, addr 0x3315bf4, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_DefaultStrength();
+/// @brief Method get_DefaultStrength, addr 0x3316990, size 0x8, virtual false, abstract: false, final false
+inline int32_t get_DefaultStrength() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CipherKeyGenerator();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr CipherKeyGenerator() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CipherKeyGenerator", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  CipherKeyGenerator(CipherKeyGenerator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CipherKeyGenerator", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  CipherKeyGenerator(CipherKeyGenerator const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "CipherKeyGenerator", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+CipherKeyGenerator(CipherKeyGenerator && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 888 };
+// Ctor Parameters [CppParam { name: "", ty: "CipherKeyGenerator", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+CipherKeyGenerator(CipherKeyGenerator const& ) = delete;
 
-  /// @brief Field random, offset: 0x10, size: 0x8, def value: None
-  ::Org::BouncyCastle::Security::SecureRandom* ___random;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{888};
 
-  /// @brief Field strength, offset: 0x18, size: 0x4, def value: None
-  int32_t ___strength;
+/// @brief Field random, offset: 0x10, size: 0x8, def value: None
+ ::Org::BouncyCastle::Security::SecureRandom*  ___random;
 
-  /// @brief Field uninitialised, offset: 0x1c, size: 0x1, def value: None
-  bool ___uninitialised;
+/// @brief Field strength, offset: 0x18, size: 0x4, def value: None
+ int32_t  ___strength;
 
-  /// @brief Field defaultStrength, offset: 0x20, size: 0x4, def value: None
-  int32_t ___defaultStrength;
+/// @brief Field uninitialised, offset: 0x1c, size: 0x1, def value: None
+ bool  ___uninitialised;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field defaultStrength, offset: 0x20, size: 0x4, def value: None
+ int32_t  ___defaultStrength;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Org::BouncyCastle::Crypto::CipherKeyGenerator, ___random) == 0x10, "Offset mismatch!");
@@ -130,6 +130,6 @@ static_assert(offsetof(::Org::BouncyCastle::Crypto::CipherKeyGenerator, ___defau
 
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::CipherKeyGenerator, 0x28>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Crypto
+} // namespace end def Org::BouncyCastle::Crypto
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::CipherKeyGenerator);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::CipherKeyGenerator*, "Org.BouncyCastle.Crypto", "CipherKeyGenerator");

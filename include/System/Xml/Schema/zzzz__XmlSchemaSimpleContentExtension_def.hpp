@@ -26,90 +26,90 @@ namespace System::Xml::Schema {
 // CS Name: System.Xml.Schema.XmlSchemaSimpleContentExtension
 class CORDL_TYPE XmlSchemaSimpleContentExtension : public ::System::Xml::Schema::XmlSchemaContent {
 public:
-  // Declarations
-  __declspec(property(get = get_AnyAttribute, put = set_AnyAttribute)) ::System::Xml::Schema::XmlSchemaAnyAttribute* AnyAttribute;
+// Declarations
+ __declspec(property(get=get_AnyAttribute, put=set_AnyAttribute)) ::System::Xml::Schema::XmlSchemaAnyAttribute*  AnyAttribute;
 
-  __declspec(property(get = get_Attributes)) ::System::Xml::Schema::XmlSchemaObjectCollection* Attributes;
+ __declspec(property(get=get_Attributes)) ::System::Xml::Schema::XmlSchemaObjectCollection*  Attributes;
 
-  __declspec(property(get = get_BaseTypeName, put = set_BaseTypeName)) ::System::Xml::XmlQualifiedName* BaseTypeName;
+ __declspec(property(get=get_BaseTypeName, put=set_BaseTypeName)) ::System::Xml::XmlQualifiedName*  BaseTypeName;
 
-  /// @brief Field anyAttribute, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get_anyAttribute, put = __cordl_internal_set_anyAttribute)) ::System::Xml::Schema::XmlSchemaAnyAttribute* anyAttribute;
+/// @brief Field anyAttribute, offset 0x58, size 0x8 
+ __declspec(property(get=__cordl_internal_get_anyAttribute, put=__cordl_internal_set_anyAttribute)) ::System::Xml::Schema::XmlSchemaAnyAttribute*  anyAttribute;
 
-  /// @brief Field attributes, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_attributes, put = __cordl_internal_set_attributes)) ::System::Xml::Schema::XmlSchemaObjectCollection* attributes;
+/// @brief Field attributes, offset 0x50, size 0x8 
+ __declspec(property(get=__cordl_internal_get_attributes, put=__cordl_internal_set_attributes)) ::System::Xml::Schema::XmlSchemaObjectCollection*  attributes;
 
-  /// @brief Field baseTypeName, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get_baseTypeName, put = __cordl_internal_set_baseTypeName)) ::System::Xml::XmlQualifiedName* baseTypeName;
+/// @brief Field baseTypeName, offset 0x60, size 0x8 
+ __declspec(property(get=__cordl_internal_get_baseTypeName, put=__cordl_internal_set_baseTypeName)) ::System::Xml::XmlQualifiedName*  baseTypeName;
 
-  static inline ::System::Xml::Schema::XmlSchemaSimpleContentExtension* New_ctor();
+static inline ::System::Xml::Schema::XmlSchemaSimpleContentExtension* New_ctor() ;
 
-  /// @brief Method SetAttributes, addr 0x60f9478, size 0x8, virtual false, abstract: false, final false
-  inline void SetAttributes(::System::Xml::Schema::XmlSchemaObjectCollection* newAttributes);
+/// @brief Method SetAttributes, addr 0x60faff0, size 0x8, virtual false, abstract: false, final false
+inline void SetAttributes(::System::Xml::Schema::XmlSchemaObjectCollection*  newAttributes) ;
 
-  constexpr ::System::Xml::Schema::XmlSchemaAnyAttribute* const& __cordl_internal_get_anyAttribute() const;
+constexpr ::System::Xml::Schema::XmlSchemaAnyAttribute* const& __cordl_internal_get_anyAttribute() const;
 
-  constexpr ::System::Xml::Schema::XmlSchemaAnyAttribute*& __cordl_internal_get_anyAttribute();
+constexpr ::System::Xml::Schema::XmlSchemaAnyAttribute*& __cordl_internal_get_anyAttribute() ;
 
-  constexpr ::System::Xml::Schema::XmlSchemaObjectCollection* const& __cordl_internal_get_attributes() const;
+constexpr ::System::Xml::Schema::XmlSchemaObjectCollection* const& __cordl_internal_get_attributes() const;
 
-  constexpr ::System::Xml::Schema::XmlSchemaObjectCollection*& __cordl_internal_get_attributes();
+constexpr ::System::Xml::Schema::XmlSchemaObjectCollection*& __cordl_internal_get_attributes() ;
 
-  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_baseTypeName() const;
+constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_baseTypeName() const;
 
-  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_baseTypeName();
+constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_baseTypeName() ;
 
-  constexpr void __cordl_internal_set_anyAttribute(::System::Xml::Schema::XmlSchemaAnyAttribute* value);
+constexpr void __cordl_internal_set_anyAttribute(::System::Xml::Schema::XmlSchemaAnyAttribute*  value) ;
 
-  constexpr void __cordl_internal_set_attributes(::System::Xml::Schema::XmlSchemaObjectCollection* value);
+constexpr void __cordl_internal_set_attributes(::System::Xml::Schema::XmlSchemaObjectCollection*  value) ;
 
-  constexpr void __cordl_internal_set_baseTypeName(::System::Xml::XmlQualifiedName* value);
+constexpr void __cordl_internal_set_baseTypeName(::System::Xml::XmlQualifiedName*  value) ;
 
-  /// @brief Method .ctor, addr 0x60f9480, size 0x94, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x60faff8, size 0x94, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_AnyAttribute, addr 0x60f9468, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Xml::Schema::XmlSchemaAnyAttribute* get_AnyAttribute();
+/// @brief Method get_AnyAttribute, addr 0x60fafe0, size 0x8, virtual false, abstract: false, final false
+inline ::System::Xml::Schema::XmlSchemaAnyAttribute* get_AnyAttribute() ;
 
-  /// @brief Method get_Attributes, addr 0x60f9460, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Xml::Schema::XmlSchemaObjectCollection* get_Attributes();
+/// @brief Method get_Attributes, addr 0x60fafd8, size 0x8, virtual false, abstract: false, final false
+inline ::System::Xml::Schema::XmlSchemaObjectCollection* get_Attributes() ;
 
-  /// @brief Method get_BaseTypeName, addr 0x60f93c4, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Xml::XmlQualifiedName* get_BaseTypeName();
+/// @brief Method get_BaseTypeName, addr 0x60faf3c, size 0x8, virtual false, abstract: false, final false
+inline ::System::Xml::XmlQualifiedName* get_BaseTypeName() ;
 
-  /// @brief Method set_AnyAttribute, addr 0x60f9470, size 0x8, virtual false, abstract: false, final false
-  inline void set_AnyAttribute(::System::Xml::Schema::XmlSchemaAnyAttribute* value);
+/// @brief Method set_AnyAttribute, addr 0x60fafe8, size 0x8, virtual false, abstract: false, final false
+inline void set_AnyAttribute(::System::Xml::Schema::XmlSchemaAnyAttribute*  value) ;
 
-  /// @brief Method set_BaseTypeName, addr 0x60f93cc, size 0x94, virtual false, abstract: false, final false
-  inline void set_BaseTypeName(::System::Xml::XmlQualifiedName* value);
+/// @brief Method set_BaseTypeName, addr 0x60faf44, size 0x94, virtual false, abstract: false, final false
+inline void set_BaseTypeName(::System::Xml::XmlQualifiedName*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr XmlSchemaSimpleContentExtension();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr XmlSchemaSimpleContentExtension() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaSimpleContentExtension", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  XmlSchemaSimpleContentExtension(XmlSchemaSimpleContentExtension&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaSimpleContentExtension", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  XmlSchemaSimpleContentExtension(XmlSchemaSimpleContentExtension const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "XmlSchemaSimpleContentExtension", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+XmlSchemaSimpleContentExtension(XmlSchemaSimpleContentExtension && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9800 };
+// Ctor Parameters [CppParam { name: "", ty: "XmlSchemaSimpleContentExtension", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+XmlSchemaSimpleContentExtension(XmlSchemaSimpleContentExtension const& ) = delete;
 
-  /// @brief Field attributes, offset: 0x50, size: 0x8, def value: None
-  ::System::Xml::Schema::XmlSchemaObjectCollection* ___attributes;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9801};
 
-  /// @brief Field anyAttribute, offset: 0x58, size: 0x8, def value: None
-  ::System::Xml::Schema::XmlSchemaAnyAttribute* ___anyAttribute;
+/// @brief Field attributes, offset: 0x50, size: 0x8, def value: None
+ ::System::Xml::Schema::XmlSchemaObjectCollection*  ___attributes;
 
-  /// @brief Field baseTypeName, offset: 0x60, size: 0x8, def value: None
-  ::System::Xml::XmlQualifiedName* ___baseTypeName;
+/// @brief Field anyAttribute, offset: 0x58, size: 0x8, def value: None
+ ::System::Xml::Schema::XmlSchemaAnyAttribute*  ___anyAttribute;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field baseTypeName, offset: 0x60, size: 0x8, def value: None
+ ::System::Xml::XmlQualifiedName*  ___baseTypeName;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Xml::Schema::XmlSchemaSimpleContentExtension, ___attributes) == 0x50, "Offset mismatch!");
@@ -120,6 +120,6 @@ static_assert(offsetof(::System::Xml::Schema::XmlSchemaSimpleContentExtension, _
 
 static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::XmlSchemaSimpleContentExtension, 0x68>, "Size mismatch!");
 
-} // namespace System::Xml::Schema
+} // namespace end def System::Xml::Schema
 NEED_NO_BOX(::System::Xml::Schema::XmlSchemaSimpleContentExtension);
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::XmlSchemaSimpleContentExtension*, "System.Xml.Schema", "XmlSchemaSimpleContentExtension");

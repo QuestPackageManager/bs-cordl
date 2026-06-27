@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "AYellowpaper/SerializedCollections/DictionaryLookupTable_2.hpp"
 #include "AYellowpaper/SerializedCollections/IKeyable.hpp"
@@ -10,5 +10,6 @@ module;
 #include "AYellowpaper/SerializedCollections/SerializedDictionary_2.hpp"
 #include "AYellowpaper/SerializedCollections/SerializedKeyValuePair_2.hpp"
 #ifdef __cpp_modules
-export module SerializedCollections;
-#endif
+                    export module SerializedCollections;
+                    #endif
+                

@@ -8,7 +8,8 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(FeatureFlagsEnabled)
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template<typename T>
+class List_1;
 }
 // Forward declare root types
 namespace Main::GraphQL::Queries {
@@ -22,48 +23,48 @@ namespace Main::GraphQL::Queries {
 // CS Name: Main.GraphQL.Queries.FeatureFlagsEnabled
 class CORDL_TYPE FeatureFlagsEnabled : public ::OculusStudios::GraphQL::Client::GraphQLQueryOperation {
 public:
-  // Declarations
-  __declspec(property(get = get_Features, put = set_Features)) ::System::Collections::Generic::List_1<::StringW>* Features;
+// Declarations
+ __declspec(property(get=get_Features, put=set_Features)) ::System::Collections::Generic::List_1<::StringW>*  Features;
 
-  /// @brief Method GetPersistedQueryID, addr 0x31f4e10, size 0x14, virtual true, abstract: false, final false
-  inline uint64_t GetPersistedQueryID();
+/// @brief Method GetPersistedQueryID, addr 0x31f5b30, size 0x14, virtual true, abstract: false, final false
+inline uint64_t GetPersistedQueryID() ;
 
-  /// @brief Method GetVariableNames, addr 0x31f4bd4, size 0xfc, virtual true, abstract: false, final false
-  inline ::System::Collections::Generic::List_1<::StringW>* GetVariableNames();
+/// @brief Method GetVariableNames, addr 0x31f58f4, size 0xfc, virtual true, abstract: false, final false
+inline ::System::Collections::Generic::List_1<::StringW>* GetVariableNames() ;
 
-  static inline ::Main::GraphQL::Queries::FeatureFlagsEnabled* New_ctor();
+static inline ::Main::GraphQL::Queries::FeatureFlagsEnabled* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x31f4e24, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x31f5b44, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_Features, addr 0x31f4d50, size 0xc0, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::List_1<::StringW>* get_Features();
+/// @brief Method get_Features, addr 0x31f5a70, size 0xc0, virtual false, abstract: false, final false
+inline ::System::Collections::Generic::List_1<::StringW>* get_Features() ;
 
-  /// @brief Method set_Features, addr 0x31f4cd0, size 0x80, virtual false, abstract: false, final false
-  inline void set_Features(::System::Collections::Generic::List_1<::StringW>* value);
+/// @brief Method set_Features, addr 0x31f59f0, size 0x80, virtual false, abstract: false, final false
+inline void set_Features(::System::Collections::Generic::List_1<::StringW>*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr FeatureFlagsEnabled();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr FeatureFlagsEnabled() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FeatureFlagsEnabled", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  FeatureFlagsEnabled(FeatureFlagsEnabled&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FeatureFlagsEnabled", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  FeatureFlagsEnabled(FeatureFlagsEnabled const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "FeatureFlagsEnabled", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+FeatureFlagsEnabled(FeatureFlagsEnabled && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22630 };
+// Ctor Parameters [CppParam { name: "", ty: "FeatureFlagsEnabled", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+FeatureFlagsEnabled(FeatureFlagsEnabled const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22634};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Main::GraphQL::Queries::FeatureFlagsEnabled, 0x18>, "Size mismatch!");
 
-} // namespace Main::GraphQL::Queries
+} // namespace end def Main::GraphQL::Queries
 NEED_NO_BOX(::Main::GraphQL::Queries::FeatureFlagsEnabled);
 DEFINE_IL2CPP_ARG_TYPE(::Main::GraphQL::Queries::FeatureFlagsEnabled*, "Main.GraphQL.Queries", "FeatureFlagsEnabled");

@@ -1,9 +1,10 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "Internal/Threading/Tasks/Tracing/TaskTrace.hpp"
 #ifdef __cpp_modules
-export module Tracing;
-#endif
+                    export module Tracing;
+                    #endif
+                

@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "UnityEngine/ProBuilder/Shapes/Arch.hpp"
 #include "UnityEngine/ProBuilder/Shapes/Cone.hpp"
@@ -20,5 +20,6 @@ module;
 #include "UnityEngine/ProBuilder/Shapes/StepGenerationType.hpp"
 #include "UnityEngine/ProBuilder/Shapes/Torus.hpp"
 #ifdef __cpp_modules
-export module Shapes;
-#endif
+                    export module Shapes;
+                    #endif
+                

@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "BeatSaber/GraphQL/BSClientProviderInitializationState.hpp"
 #include "BeatSaber/GraphQL/DummyGraphQLClient.hpp"
@@ -14,5 +14,6 @@ module;
 #include "BeatSaber/GraphQL/MockGraphQLClientProvider.hpp"
 #include "BeatSaber/GraphQL/MockGraphQLClient_1.hpp"
 #ifdef __cpp_modules
-export module GraphQL;
-#endif
+                    export module GraphQL;
+                    #endif
+                

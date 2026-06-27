@@ -18,57 +18,57 @@ namespace GlobalNamespace {
 // CS Name: OVRMonoscopic
 class CORDL_TYPE OVRMonoscopic : public ::UnityEngine::MonoBehaviour {
 public:
-  // Declarations
-  /// @brief Field monoscopic, offset 0x24, size 0x1
-  __declspec(property(get = __cordl_internal_get_monoscopic, put = __cordl_internal_set_monoscopic)) bool monoscopic;
+// Declarations
+/// @brief Field monoscopic, offset 0x24, size 0x1 
+ __declspec(property(get=__cordl_internal_get_monoscopic, put=__cordl_internal_set_monoscopic)) bool  monoscopic;
 
-  /// @brief Field toggleButton, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get_toggleButton, put = __cordl_internal_set_toggleButton)) ::GlobalNamespace::OVRInput_RawButton toggleButton;
+/// @brief Field toggleButton, offset 0x20, size 0x4 
+ __declspec(property(get=__cordl_internal_get_toggleButton, put=__cordl_internal_set_toggleButton)) ::GlobalNamespace::OVRInput_RawButton  toggleButton;
 
-  static inline ::GlobalNamespace::OVRMonoscopic* New_ctor();
+static inline ::GlobalNamespace::OVRMonoscopic* New_ctor() ;
 
-  /// @brief Method Update, addr 0x5dc8da4, size 0x10c, virtual false, abstract: false, final false
-  inline void Update();
+/// @brief Method Update, addr 0x5dca91c, size 0x10c, virtual false, abstract: false, final false
+inline void Update() ;
 
-  constexpr bool const& __cordl_internal_get_monoscopic() const;
+constexpr bool const& __cordl_internal_get_monoscopic() const;
 
-  constexpr bool& __cordl_internal_get_monoscopic();
+constexpr bool& __cordl_internal_get_monoscopic() ;
 
-  constexpr ::GlobalNamespace::OVRInput_RawButton const& __cordl_internal_get_toggleButton() const;
+constexpr ::GlobalNamespace::OVRInput_RawButton const& __cordl_internal_get_toggleButton() const;
 
-  constexpr ::GlobalNamespace::OVRInput_RawButton& __cordl_internal_get_toggleButton();
+constexpr ::GlobalNamespace::OVRInput_RawButton& __cordl_internal_get_toggleButton() ;
 
-  constexpr void __cordl_internal_set_monoscopic(bool value);
+constexpr void __cordl_internal_set_monoscopic(bool  value) ;
 
-  constexpr void __cordl_internal_set_toggleButton(::GlobalNamespace::OVRInput_RawButton value);
+constexpr void __cordl_internal_set_toggleButton(::GlobalNamespace::OVRInput_RawButton  value) ;
 
-  /// @brief Method .ctor, addr 0x5dc8eb0, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5dcaa28, size 0xc, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OVRMonoscopic();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr OVRMonoscopic() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRMonoscopic", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  OVRMonoscopic(OVRMonoscopic&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRMonoscopic", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  OVRMonoscopic(OVRMonoscopic const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "OVRMonoscopic", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+OVRMonoscopic(OVRMonoscopic && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7935 };
+// Ctor Parameters [CppParam { name: "", ty: "OVRMonoscopic", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+OVRMonoscopic(OVRMonoscopic const& ) = delete;
 
-  /// @brief Field toggleButton, offset: 0x20, size: 0x4, def value: None
-  ::GlobalNamespace::OVRInput_RawButton ___toggleButton;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{7936};
 
-  /// @brief Field monoscopic, offset: 0x24, size: 0x1, def value: None
-  bool ___monoscopic;
+/// @brief Field toggleButton, offset: 0x20, size: 0x4, def value: None
+ ::GlobalNamespace::OVRInput_RawButton  ___toggleButton;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field monoscopic, offset: 0x24, size: 0x1, def value: None
+ bool  ___monoscopic;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::OVRMonoscopic, ___toggleButton) == 0x20, "Offset mismatch!");
@@ -77,6 +77,6 @@ static_assert(offsetof(::GlobalNamespace::OVRMonoscopic, ___monoscopic) == 0x24,
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRMonoscopic, 0x28>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::OVRMonoscopic);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRMonoscopic*, "", "OVRMonoscopic");

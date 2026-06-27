@@ -24,93 +24,93 @@ namespace BeatSaber::RecPlay {
 // CS Name: BeatSaber.RecPlay.PlayerPoseSampler
 class CORDL_TYPE PlayerPoseSampler : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field _headNearestFrame, offset 0x80, size 0x4
-  __declspec(property(get = __cordl_internal_get__headNearestFrame, put = __cordl_internal_set__headNearestFrame)) int32_t _headNearestFrame;
+// Declarations
+/// @brief Field _headNearestFrame, offset 0x80, size 0x4 
+ __declspec(property(get=__cordl_internal_get__headNearestFrame, put=__cordl_internal_set__headNearestFrame)) int32_t  _headNearestFrame;
 
-  /// @brief Field _leftHandNearestFrame, offset 0x84, size 0x4
-  __declspec(property(get = __cordl_internal_get__leftHandNearestFrame, put = __cordl_internal_set__leftHandNearestFrame)) int32_t _leftHandNearestFrame;
+/// @brief Field _leftHandNearestFrame, offset 0x84, size 0x4 
+ __declspec(property(get=__cordl_internal_get__leftHandNearestFrame, put=__cordl_internal_set__leftHandNearestFrame)) int32_t  _leftHandNearestFrame;
 
-  /// @brief Field _rightHandNearestFrame, offset 0x88, size 0x4
-  __declspec(property(get = __cordl_internal_get__rightHandNearestFrame, put = __cordl_internal_set__rightHandNearestFrame)) int32_t _rightHandNearestFrame;
+/// @brief Field _rightHandNearestFrame, offset 0x88, size 0x4 
+ __declspec(property(get=__cordl_internal_get__rightHandNearestFrame, put=__cordl_internal_set__rightHandNearestFrame)) int32_t  _rightHandNearestFrame;
 
-  /// @brief Field frames, offset 0x68, size 0x18
-  __declspec(property(get = __cordl_internal_get_frames, put = __cordl_internal_set_frames)) ::BeatSaber::RecPlay::PlayerPoseFrames frames;
+/// @brief Field frames, offset 0x68, size 0x18 
+ __declspec(property(get=__cordl_internal_get_frames, put=__cordl_internal_set_frames)) ::BeatSaber::RecPlay::PlayerPoseFrames  frames;
 
-  /// @brief Field offsets, offset 0x10, size 0x54
-  __declspec(property(get = __cordl_internal_get_offsets, put = __cordl_internal_set_offsets)) ::BeatSaber::RecPlay::PoseOffsets offsets;
+/// @brief Field offsets, offset 0x10, size 0x54 
+ __declspec(property(get=__cordl_internal_get_offsets, put=__cordl_internal_set_offsets)) ::BeatSaber::RecPlay::PoseOffsets  offsets;
 
-  static inline ::BeatSaber::RecPlay::PlayerPoseSampler* New_ctor();
+static inline ::BeatSaber::RecPlay::PlayerPoseSampler* New_ctor() ;
 
-  /// @brief Method Sample, addr 0x322c180, size 0x110, virtual false, abstract: false, final false
-  inline void Sample(float_t time, ::ByRef<::BeatSaber::RecPlay::PlayerPose> player);
+/// @brief Method Sample, addr 0x322cf1c, size 0x110, virtual false, abstract: false, final false
+inline void Sample(float_t  time, ::ByRef<::BeatSaber::RecPlay::PlayerPose>  player) ;
 
-  constexpr int32_t const& __cordl_internal_get__headNearestFrame() const;
+constexpr int32_t const& __cordl_internal_get__headNearestFrame() const;
 
-  constexpr int32_t& __cordl_internal_get__headNearestFrame();
+constexpr int32_t& __cordl_internal_get__headNearestFrame() ;
 
-  constexpr int32_t const& __cordl_internal_get__leftHandNearestFrame() const;
+constexpr int32_t const& __cordl_internal_get__leftHandNearestFrame() const;
 
-  constexpr int32_t& __cordl_internal_get__leftHandNearestFrame();
+constexpr int32_t& __cordl_internal_get__leftHandNearestFrame() ;
 
-  constexpr int32_t const& __cordl_internal_get__rightHandNearestFrame() const;
+constexpr int32_t const& __cordl_internal_get__rightHandNearestFrame() const;
 
-  constexpr int32_t& __cordl_internal_get__rightHandNearestFrame();
+constexpr int32_t& __cordl_internal_get__rightHandNearestFrame() ;
 
-  constexpr ::BeatSaber::RecPlay::PlayerPoseFrames const& __cordl_internal_get_frames() const;
+constexpr ::BeatSaber::RecPlay::PlayerPoseFrames const& __cordl_internal_get_frames() const;
 
-  constexpr ::BeatSaber::RecPlay::PlayerPoseFrames& __cordl_internal_get_frames();
+constexpr ::BeatSaber::RecPlay::PlayerPoseFrames& __cordl_internal_get_frames() ;
 
-  constexpr ::BeatSaber::RecPlay::PoseOffsets const& __cordl_internal_get_offsets() const;
+constexpr ::BeatSaber::RecPlay::PoseOffsets const& __cordl_internal_get_offsets() const;
 
-  constexpr ::BeatSaber::RecPlay::PoseOffsets& __cordl_internal_get_offsets();
+constexpr ::BeatSaber::RecPlay::PoseOffsets& __cordl_internal_get_offsets() ;
 
-  constexpr void __cordl_internal_set__headNearestFrame(int32_t value);
+constexpr void __cordl_internal_set__headNearestFrame(int32_t  value) ;
 
-  constexpr void __cordl_internal_set__leftHandNearestFrame(int32_t value);
+constexpr void __cordl_internal_set__leftHandNearestFrame(int32_t  value) ;
 
-  constexpr void __cordl_internal_set__rightHandNearestFrame(int32_t value);
+constexpr void __cordl_internal_set__rightHandNearestFrame(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_frames(::BeatSaber::RecPlay::PlayerPoseFrames value);
+constexpr void __cordl_internal_set_frames(::BeatSaber::RecPlay::PlayerPoseFrames  value) ;
 
-  constexpr void __cordl_internal_set_offsets(::BeatSaber::RecPlay::PoseOffsets value);
+constexpr void __cordl_internal_set_offsets(::BeatSaber::RecPlay::PoseOffsets  value) ;
 
-  /// @brief Method .ctor, addr 0x322c498, size 0x70, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x322d234, size 0x70, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PlayerPoseSampler();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr PlayerPoseSampler() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerPoseSampler", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  PlayerPoseSampler(PlayerPoseSampler&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerPoseSampler", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  PlayerPoseSampler(PlayerPoseSampler const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "PlayerPoseSampler", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+PlayerPoseSampler(PlayerPoseSampler && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22983 };
+// Ctor Parameters [CppParam { name: "", ty: "PlayerPoseSampler", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+PlayerPoseSampler(PlayerPoseSampler const& ) = delete;
 
-  /// @brief Field offsets, offset: 0x10, size: 0x54, def value: None
-  ::BeatSaber::RecPlay::PoseOffsets ___offsets;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22987};
 
-  /// @brief Field frames, offset: 0x68, size: 0x18, def value: None
-  ::BeatSaber::RecPlay::PlayerPoseFrames ___frames;
+/// @brief Field offsets, offset: 0x10, size: 0x54, def value: None
+ ::BeatSaber::RecPlay::PoseOffsets  ___offsets;
 
-  /// @brief Field _headNearestFrame, offset: 0x80, size: 0x4, def value: None
-  int32_t ____headNearestFrame;
+/// @brief Field frames, offset: 0x68, size: 0x18, def value: None
+ ::BeatSaber::RecPlay::PlayerPoseFrames  ___frames;
 
-  /// @brief Field _leftHandNearestFrame, offset: 0x84, size: 0x4, def value: None
-  int32_t ____leftHandNearestFrame;
+/// @brief Field _headNearestFrame, offset: 0x80, size: 0x4, def value: None
+ int32_t  ____headNearestFrame;
 
-  /// @brief Field _rightHandNearestFrame, offset: 0x88, size: 0x4, def value: None
-  int32_t ____rightHandNearestFrame;
+/// @brief Field _leftHandNearestFrame, offset: 0x84, size: 0x4, def value: None
+ int32_t  ____leftHandNearestFrame;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _rightHandNearestFrame, offset: 0x88, size: 0x4, def value: None
+ int32_t  ____rightHandNearestFrame;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::BeatSaber::RecPlay::PlayerPoseSampler, ___offsets) == 0x10, "Offset mismatch!");
@@ -125,6 +125,6 @@ static_assert(offsetof(::BeatSaber::RecPlay::PlayerPoseSampler, ____rightHandNea
 
 static_assert(::cordl_internals::size_check_v<::BeatSaber::RecPlay::PlayerPoseSampler, 0x90>, "Size mismatch!");
 
-} // namespace BeatSaber::RecPlay
+} // namespace end def BeatSaber::RecPlay
 NEED_NO_BOX(::BeatSaber::RecPlay::PlayerPoseSampler);
 DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::RecPlay::PlayerPoseSampler*, "BeatSaber.RecPlay", "PlayerPoseSampler");

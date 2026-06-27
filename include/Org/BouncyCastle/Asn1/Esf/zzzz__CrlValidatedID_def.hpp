@@ -32,80 +32,80 @@ namespace Org::BouncyCastle::Asn1::Esf {
 // CS Name: Org.BouncyCastle.Asn1.Esf.CrlValidatedID
 class CORDL_TYPE CrlValidatedID : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
-  // Declarations
-  __declspec(property(get = get_CrlHash)) ::Org::BouncyCastle::Asn1::Esf::OtherHash* CrlHash;
+// Declarations
+ __declspec(property(get=get_CrlHash)) ::Org::BouncyCastle::Asn1::Esf::OtherHash*  CrlHash;
 
-  __declspec(property(get = get_CrlIdentifier)) ::Org::BouncyCastle::Asn1::Esf::CrlIdentifier* CrlIdentifier;
+ __declspec(property(get=get_CrlIdentifier)) ::Org::BouncyCastle::Asn1::Esf::CrlIdentifier*  CrlIdentifier;
 
-  /// @brief Field crlHash, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_crlHash, put = __cordl_internal_set_crlHash)) ::Org::BouncyCastle::Asn1::Esf::OtherHash* crlHash;
+/// @brief Field crlHash, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_crlHash, put=__cordl_internal_set_crlHash)) ::Org::BouncyCastle::Asn1::Esf::OtherHash*  crlHash;
 
-  /// @brief Field crlIdentifier, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_crlIdentifier, put = __cordl_internal_set_crlIdentifier)) ::Org::BouncyCastle::Asn1::Esf::CrlIdentifier* crlIdentifier;
+/// @brief Field crlIdentifier, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_crlIdentifier, put=__cordl_internal_set_crlIdentifier)) ::Org::BouncyCastle::Asn1::Esf::CrlIdentifier*  crlIdentifier;
 
-  /// @brief Method GetInstance, addr 0x32b3650, size 0x184, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::Esf::CrlValidatedID* GetInstance(::System::Object* obj);
+/// @brief Method GetInstance, addr 0x32b43ec, size 0x184, virtual false, abstract: false, final false
+static inline ::Org::BouncyCastle::Asn1::Esf::CrlValidatedID* GetInstance(::System::Object*  obj) ;
 
-  static inline ::Org::BouncyCastle::Asn1::Esf::CrlValidatedID* New_ctor(::Org::BouncyCastle::Asn1::Esf::OtherHash* crlHash);
+static inline ::Org::BouncyCastle::Asn1::Esf::CrlValidatedID* New_ctor(::Org::BouncyCastle::Asn1::Esf::OtherHash*  crlHash) ;
 
-  static inline ::Org::BouncyCastle::Asn1::Esf::CrlValidatedID* New_ctor(::Org::BouncyCastle::Asn1::Esf::OtherHash* crlHash, ::Org::BouncyCastle::Asn1::Esf::CrlIdentifier* crlIdentifier);
+static inline ::Org::BouncyCastle::Asn1::Esf::CrlValidatedID* New_ctor(::Org::BouncyCastle::Asn1::Esf::OtherHash*  crlHash, ::Org::BouncyCastle::Asn1::Esf::CrlIdentifier*  crlIdentifier) ;
 
-  static inline ::Org::BouncyCastle::Asn1::Esf::CrlValidatedID* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
+static inline ::Org::BouncyCastle::Asn1::Esf::CrlValidatedID* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence*  seq) ;
 
-  /// @brief Method ToAsn1Object, addr 0x32b47d8, size 0x13c, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
+/// @brief Method ToAsn1Object, addr 0x32b5574, size 0x13c, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object() ;
 
-  constexpr ::Org::BouncyCastle::Asn1::Esf::OtherHash* const& __cordl_internal_get_crlHash() const;
+constexpr ::Org::BouncyCastle::Asn1::Esf::OtherHash* const& __cordl_internal_get_crlHash() const;
 
-  constexpr ::Org::BouncyCastle::Asn1::Esf::OtherHash*& __cordl_internal_get_crlHash();
+constexpr ::Org::BouncyCastle::Asn1::Esf::OtherHash*& __cordl_internal_get_crlHash() ;
 
-  constexpr ::Org::BouncyCastle::Asn1::Esf::CrlIdentifier* const& __cordl_internal_get_crlIdentifier() const;
+constexpr ::Org::BouncyCastle::Asn1::Esf::CrlIdentifier* const& __cordl_internal_get_crlIdentifier() const;
 
-  constexpr ::Org::BouncyCastle::Asn1::Esf::CrlIdentifier*& __cordl_internal_get_crlIdentifier();
+constexpr ::Org::BouncyCastle::Asn1::Esf::CrlIdentifier*& __cordl_internal_get_crlIdentifier() ;
 
-  constexpr void __cordl_internal_set_crlHash(::Org::BouncyCastle::Asn1::Esf::OtherHash* value);
+constexpr void __cordl_internal_set_crlHash(::Org::BouncyCastle::Asn1::Esf::OtherHash*  value) ;
 
-  constexpr void __cordl_internal_set_crlIdentifier(::Org::BouncyCastle::Asn1::Esf::CrlIdentifier* value);
+constexpr void __cordl_internal_set_crlIdentifier(::Org::BouncyCastle::Asn1::Esf::CrlIdentifier*  value) ;
 
-  /// @brief Method .ctor, addr 0x32b4768, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Asn1::Esf::OtherHash* crlHash);
+/// @brief Method .ctor, addr 0x32b5504, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(::Org::BouncyCastle::Asn1::Esf::OtherHash*  crlHash) ;
 
-  /// @brief Method .ctor, addr 0x32b4770, size 0x58, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Asn1::Esf::OtherHash* crlHash, ::Org::BouncyCastle::Asn1::Esf::CrlIdentifier* crlIdentifier);
+/// @brief Method .ctor, addr 0x32b550c, size 0x58, virtual false, abstract: false, final false
+inline void _ctor(::Org::BouncyCastle::Asn1::Esf::OtherHash*  crlHash, ::Org::BouncyCastle::Asn1::Esf::CrlIdentifier*  crlIdentifier) ;
 
-  /// @brief Method .ctor, addr 0x32b449c, size 0x1b0, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
+/// @brief Method .ctor, addr 0x32b5238, size 0x1b0, virtual false, abstract: false, final false
+inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence*  seq) ;
 
-  /// @brief Method get_CrlHash, addr 0x32b47c8, size 0x8, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Esf::OtherHash* get_CrlHash();
+/// @brief Method get_CrlHash, addr 0x32b5564, size 0x8, virtual false, abstract: false, final false
+inline ::Org::BouncyCastle::Asn1::Esf::OtherHash* get_CrlHash() ;
 
-  /// @brief Method get_CrlIdentifier, addr 0x32b47d0, size 0x8, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Esf::CrlIdentifier* get_CrlIdentifier();
+/// @brief Method get_CrlIdentifier, addr 0x32b556c, size 0x8, virtual false, abstract: false, final false
+inline ::Org::BouncyCastle::Asn1::Esf::CrlIdentifier* get_CrlIdentifier() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CrlValidatedID();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr CrlValidatedID() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CrlValidatedID", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  CrlValidatedID(CrlValidatedID&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CrlValidatedID", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  CrlValidatedID(CrlValidatedID const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "CrlValidatedID", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+CrlValidatedID(CrlValidatedID && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 143 };
+// Ctor Parameters [CppParam { name: "", ty: "CrlValidatedID", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+CrlValidatedID(CrlValidatedID const& ) = delete;
 
-  /// @brief Field crlHash, offset: 0x10, size: 0x8, def value: None
-  ::Org::BouncyCastle::Asn1::Esf::OtherHash* ___crlHash;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{143};
 
-  /// @brief Field crlIdentifier, offset: 0x18, size: 0x8, def value: None
-  ::Org::BouncyCastle::Asn1::Esf::CrlIdentifier* ___crlIdentifier;
+/// @brief Field crlHash, offset: 0x10, size: 0x8, def value: None
+ ::Org::BouncyCastle::Asn1::Esf::OtherHash*  ___crlHash;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field crlIdentifier, offset: 0x18, size: 0x8, def value: None
+ ::Org::BouncyCastle::Asn1::Esf::CrlIdentifier*  ___crlIdentifier;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Org::BouncyCastle::Asn1::Esf::CrlValidatedID, ___crlHash) == 0x10, "Offset mismatch!");
@@ -114,6 +114,6 @@ static_assert(offsetof(::Org::BouncyCastle::Asn1::Esf::CrlValidatedID, ___crlIde
 
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Esf::CrlValidatedID, 0x20>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Asn1::Esf
+} // namespace end def Org::BouncyCastle::Asn1::Esf
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Esf::CrlValidatedID);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::Esf::CrlValidatedID*, "Org.BouncyCastle.Asn1.Esf", "CrlValidatedID");

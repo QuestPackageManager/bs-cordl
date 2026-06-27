@@ -36,137 +36,137 @@ namespace System::Data {
 // CS Name: System.Data.Merger
 class CORDL_TYPE Merger : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field _IgnoreNSforTableLookup, offset 0x29, size 0x1
-  __declspec(property(get = __cordl_internal_get__IgnoreNSforTableLookup, put = __cordl_internal_set__IgnoreNSforTableLookup)) bool _IgnoreNSforTableLookup;
+// Declarations
+/// @brief Field _IgnoreNSforTableLookup, offset 0x29, size 0x1 
+ __declspec(property(get=__cordl_internal_get__IgnoreNSforTableLookup, put=__cordl_internal_set__IgnoreNSforTableLookup)) bool  _IgnoreNSforTableLookup;
 
-  /// @brief Field _dataSet, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__dataSet, put = __cordl_internal_set__dataSet)) ::System::Data::DataSet* _dataSet;
+/// @brief Field _dataSet, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get__dataSet, put=__cordl_internal_set__dataSet)) ::System::Data::DataSet*  _dataSet;
 
-  /// @brief Field _dataTable, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__dataTable, put = __cordl_internal_set__dataTable)) ::System::Data::DataTable* _dataTable;
+/// @brief Field _dataTable, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get__dataTable, put=__cordl_internal_set__dataTable)) ::System::Data::DataTable*  _dataTable;
 
-  /// @brief Field _isStandAlonetable, offset 0x28, size 0x1
-  __declspec(property(get = __cordl_internal_get__isStandAlonetable, put = __cordl_internal_set__isStandAlonetable)) bool _isStandAlonetable;
+/// @brief Field _isStandAlonetable, offset 0x28, size 0x1 
+ __declspec(property(get=__cordl_internal_get__isStandAlonetable, put=__cordl_internal_set__isStandAlonetable)) bool  _isStandAlonetable;
 
-  /// @brief Field _missingSchemaAction, offset 0x24, size 0x4
-  __declspec(property(get = __cordl_internal_get__missingSchemaAction, put = __cordl_internal_set__missingSchemaAction)) ::System::Data::MissingSchemaAction _missingSchemaAction;
+/// @brief Field _missingSchemaAction, offset 0x24, size 0x4 
+ __declspec(property(get=__cordl_internal_get__missingSchemaAction, put=__cordl_internal_set__missingSchemaAction)) ::System::Data::MissingSchemaAction  _missingSchemaAction;
 
-  /// @brief Field _preserveChanges, offset 0x20, size 0x1
-  __declspec(property(get = __cordl_internal_get__preserveChanges, put = __cordl_internal_set__preserveChanges)) bool _preserveChanges;
+/// @brief Field _preserveChanges, offset 0x20, size 0x1 
+ __declspec(property(get=__cordl_internal_get__preserveChanges, put=__cordl_internal_set__preserveChanges)) bool  _preserveChanges;
 
-  /// @brief Method GetSrcKey, addr 0x5f07f44, size 0x150, virtual false, abstract: false, final false
-  inline ::System::Data::DataKey GetSrcKey(::System::Data::DataTable* src, ::System::Data::DataTable* dst);
+/// @brief Method GetSrcKey, addr 0x5f09abc, size 0x150, virtual false, abstract: false, final false
+inline ::System::Data::DataKey GetSrcKey(::System::Data::DataTable*  src, ::System::Data::DataTable*  dst) ;
 
-  /// @brief Method MergeConstraints, addr 0x5f06dc8, size 0x70, virtual false, abstract: false, final false
-  inline void MergeConstraints(::System::Data::DataSet* source);
+/// @brief Method MergeConstraints, addr 0x5f08940, size 0x70, virtual false, abstract: false, final false
+inline void MergeConstraints(::System::Data::DataSet*  source) ;
 
-  /// @brief Method MergeConstraints, addr 0x5f08788, size 0x2b0, virtual false, abstract: false, final false
-  inline void MergeConstraints(::System::Data::DataTable* table);
+/// @brief Method MergeConstraints, addr 0x5f0a300, size 0x2b0, virtual false, abstract: false, final false
+inline void MergeConstraints(::System::Data::DataTable*  table) ;
 
-  /// @brief Method MergeDataSet, addr 0x5f05da4, size 0xf70, virtual false, abstract: false, final false
-  inline void MergeDataSet(::System::Data::DataSet* source);
+/// @brief Method MergeDataSet, addr 0x5f0791c, size 0xf70, virtual false, abstract: false, final false
+inline void MergeDataSet(::System::Data::DataSet*  source) ;
 
-  /// @brief Method MergeExtendedProperties, addr 0x5f07618, size 0x25c, virtual false, abstract: false, final false
-  inline void MergeExtendedProperties(::System::Data::PropertyCollection* src, ::System::Data::PropertyCollection* dst);
+/// @brief Method MergeExtendedProperties, addr 0x5f09190, size 0x25c, virtual false, abstract: false, final false
+inline void MergeExtendedProperties(::System::Data::PropertyCollection*  src, ::System::Data::PropertyCollection*  dst) ;
 
-  /// @brief Method MergeRelation, addr 0x5f06e38, size 0x7e0, virtual false, abstract: false, final false
-  inline void MergeRelation(::System::Data::DataRelation* relation);
+/// @brief Method MergeRelation, addr 0x5f089b0, size 0x7e0, virtual false, abstract: false, final false
+inline void MergeRelation(::System::Data::DataRelation*  relation) ;
 
-  /// @brief Method MergeSchema, addr 0x5f08094, size 0x6f4, virtual false, abstract: false, final false
-  inline ::System::Data::DataTable* MergeSchema(::System::Data::DataTable* table);
+/// @brief Method MergeSchema, addr 0x5f09c0c, size 0x6f4, virtual false, abstract: false, final false
+inline ::System::Data::DataTable* MergeSchema(::System::Data::DataTable*  table) ;
 
-  /// @brief Method MergeTable, addr 0x5f07874, size 0x230, virtual false, abstract: false, final false
-  inline void MergeTable(::System::Data::DataTable* src);
+/// @brief Method MergeTable, addr 0x5f093ec, size 0x230, virtual false, abstract: false, final false
+inline void MergeTable(::System::Data::DataTable*  src) ;
 
-  /// @brief Method MergeTable, addr 0x5f07aa4, size 0x4a0, virtual false, abstract: false, final false
-  inline void MergeTable(::System::Data::DataTable* src, ::System::Data::DataTable* dst);
+/// @brief Method MergeTable, addr 0x5f0961c, size 0x4a0, virtual false, abstract: false, final false
+inline void MergeTable(::System::Data::DataTable*  src, ::System::Data::DataTable*  dst) ;
 
-  /// @brief Method MergeTableData, addr 0x5f06d14, size 0xb4, virtual false, abstract: false, final false
-  inline void MergeTableData(::System::Data::DataTable* src);
+/// @brief Method MergeTableData, addr 0x5f0888c, size 0xb4, virtual false, abstract: false, final false
+inline void MergeTableData(::System::Data::DataTable*  src) ;
 
-  static inline ::System::Data::Merger* New_ctor(::System::Data::DataSet* dataSet, bool preserveChanges, ::System::Data::MissingSchemaAction missingSchemaAction);
+static inline ::System::Data::Merger* New_ctor(::System::Data::DataSet*  dataSet, bool  preserveChanges, ::System::Data::MissingSchemaAction  missingSchemaAction) ;
 
-  static inline ::System::Data::Merger* New_ctor(::System::Data::DataTable* dataTable, bool preserveChanges, ::System::Data::MissingSchemaAction missingSchemaAction);
+static inline ::System::Data::Merger* New_ctor(::System::Data::DataTable*  dataTable, bool  preserveChanges, ::System::Data::MissingSchemaAction  missingSchemaAction) ;
 
-  constexpr bool const& __cordl_internal_get__IgnoreNSforTableLookup() const;
+constexpr bool const& __cordl_internal_get__IgnoreNSforTableLookup() const;
 
-  constexpr bool& __cordl_internal_get__IgnoreNSforTableLookup();
+constexpr bool& __cordl_internal_get__IgnoreNSforTableLookup() ;
 
-  constexpr ::System::Data::DataSet* const& __cordl_internal_get__dataSet() const;
+constexpr ::System::Data::DataSet* const& __cordl_internal_get__dataSet() const;
 
-  constexpr ::System::Data::DataSet*& __cordl_internal_get__dataSet();
+constexpr ::System::Data::DataSet*& __cordl_internal_get__dataSet() ;
 
-  constexpr ::System::Data::DataTable* const& __cordl_internal_get__dataTable() const;
+constexpr ::System::Data::DataTable* const& __cordl_internal_get__dataTable() const;
 
-  constexpr ::System::Data::DataTable*& __cordl_internal_get__dataTable();
+constexpr ::System::Data::DataTable*& __cordl_internal_get__dataTable() ;
 
-  constexpr bool const& __cordl_internal_get__isStandAlonetable() const;
+constexpr bool const& __cordl_internal_get__isStandAlonetable() const;
 
-  constexpr bool& __cordl_internal_get__isStandAlonetable();
+constexpr bool& __cordl_internal_get__isStandAlonetable() ;
 
-  constexpr ::System::Data::MissingSchemaAction const& __cordl_internal_get__missingSchemaAction() const;
+constexpr ::System::Data::MissingSchemaAction const& __cordl_internal_get__missingSchemaAction() const;
 
-  constexpr ::System::Data::MissingSchemaAction& __cordl_internal_get__missingSchemaAction();
+constexpr ::System::Data::MissingSchemaAction& __cordl_internal_get__missingSchemaAction() ;
 
-  constexpr bool const& __cordl_internal_get__preserveChanges() const;
+constexpr bool const& __cordl_internal_get__preserveChanges() const;
 
-  constexpr bool& __cordl_internal_get__preserveChanges();
+constexpr bool& __cordl_internal_get__preserveChanges() ;
 
-  constexpr void __cordl_internal_set__IgnoreNSforTableLookup(bool value);
+constexpr void __cordl_internal_set__IgnoreNSforTableLookup(bool  value) ;
 
-  constexpr void __cordl_internal_set__dataSet(::System::Data::DataSet* value);
+constexpr void __cordl_internal_set__dataSet(::System::Data::DataSet*  value) ;
 
-  constexpr void __cordl_internal_set__dataTable(::System::Data::DataTable* value);
+constexpr void __cordl_internal_set__dataTable(::System::Data::DataTable*  value) ;
 
-  constexpr void __cordl_internal_set__isStandAlonetable(bool value);
+constexpr void __cordl_internal_set__isStandAlonetable(bool  value) ;
 
-  constexpr void __cordl_internal_set__missingSchemaAction(::System::Data::MissingSchemaAction value);
+constexpr void __cordl_internal_set__missingSchemaAction(::System::Data::MissingSchemaAction  value) ;
 
-  constexpr void __cordl_internal_set__preserveChanges(bool value);
+constexpr void __cordl_internal_set__preserveChanges(bool  value) ;
 
-  /// @brief Method .ctor, addr 0x5f05d6c, size 0x18, virtual false, abstract: false, final false
-  inline void _ctor(::System::Data::DataSet* dataSet, bool preserveChanges, ::System::Data::MissingSchemaAction missingSchemaAction);
+/// @brief Method .ctor, addr 0x5f078e4, size 0x18, virtual false, abstract: false, final false
+inline void _ctor(::System::Data::DataSet*  dataSet, bool  preserveChanges, ::System::Data::MissingSchemaAction  missingSchemaAction) ;
 
-  /// @brief Method .ctor, addr 0x5f05d84, size 0x20, virtual false, abstract: false, final false
-  inline void _ctor(::System::Data::DataTable* dataTable, bool preserveChanges, ::System::Data::MissingSchemaAction missingSchemaAction);
+/// @brief Method .ctor, addr 0x5f078fc, size 0x20, virtual false, abstract: false, final false
+inline void _ctor(::System::Data::DataTable*  dataTable, bool  preserveChanges, ::System::Data::MissingSchemaAction  missingSchemaAction) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Merger();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr Merger() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Merger", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  Merger(Merger&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Merger", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  Merger(Merger const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "Merger", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Merger(Merger && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13819 };
+// Ctor Parameters [CppParam { name: "", ty: "Merger", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Merger(Merger const& ) = delete;
 
-  /// @brief Field _dataSet, offset: 0x10, size: 0x8, def value: None
-  ::System::Data::DataSet* ____dataSet;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{13820};
 
-  /// @brief Field _dataTable, offset: 0x18, size: 0x8, def value: None
-  ::System::Data::DataTable* ____dataTable;
+/// @brief Field _dataSet, offset: 0x10, size: 0x8, def value: None
+ ::System::Data::DataSet*  ____dataSet;
 
-  /// @brief Field _preserveChanges, offset: 0x20, size: 0x1, def value: None
-  bool ____preserveChanges;
+/// @brief Field _dataTable, offset: 0x18, size: 0x8, def value: None
+ ::System::Data::DataTable*  ____dataTable;
 
-  /// @brief Field _missingSchemaAction, offset: 0x24, size: 0x4, def value: None
-  ::System::Data::MissingSchemaAction ____missingSchemaAction;
+/// @brief Field _preserveChanges, offset: 0x20, size: 0x1, def value: None
+ bool  ____preserveChanges;
 
-  /// @brief Field _isStandAlonetable, offset: 0x28, size: 0x1, def value: None
-  bool ____isStandAlonetable;
+/// @brief Field _missingSchemaAction, offset: 0x24, size: 0x4, def value: None
+ ::System::Data::MissingSchemaAction  ____missingSchemaAction;
 
-  /// @brief Field _IgnoreNSforTableLookup, offset: 0x29, size: 0x1, def value: None
-  bool ____IgnoreNSforTableLookup;
+/// @brief Field _isStandAlonetable, offset: 0x28, size: 0x1, def value: None
+ bool  ____isStandAlonetable;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _IgnoreNSforTableLookup, offset: 0x29, size: 0x1, def value: None
+ bool  ____IgnoreNSforTableLookup;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Data::Merger, ____dataSet) == 0x10, "Offset mismatch!");
@@ -183,6 +183,6 @@ static_assert(offsetof(::System::Data::Merger, ____IgnoreNSforTableLookup) == 0x
 
 static_assert(::cordl_internals::size_check_v<::System::Data::Merger, 0x30>, "Size mismatch!");
 
-} // namespace System::Data
+} // namespace end def System::Data
 NEED_NO_BOX(::System::Data::Merger);
 DEFINE_IL2CPP_ARG_TYPE(::System::Data::Merger*, "System.Data", "Merger");

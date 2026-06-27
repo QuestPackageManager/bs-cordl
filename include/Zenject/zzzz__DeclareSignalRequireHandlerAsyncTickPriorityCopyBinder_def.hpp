@@ -23,43 +23,43 @@ namespace Zenject {
 // CS Name: Zenject.DeclareSignalRequireHandlerAsyncTickPriorityCopyBinder
 class CORDL_TYPE DeclareSignalRequireHandlerAsyncTickPriorityCopyBinder : public ::Zenject::DeclareSignalAsyncTickPriorityCopyBinder {
 public:
-  // Declarations
-  static inline ::Zenject::DeclareSignalRequireHandlerAsyncTickPriorityCopyBinder* New_ctor(::Zenject::SignalDeclarationBindInfo* signalBindInfo);
+// Declarations
+static inline ::Zenject::DeclareSignalRequireHandlerAsyncTickPriorityCopyBinder* New_ctor(::Zenject::SignalDeclarationBindInfo*  signalBindInfo) ;
 
-  /// @brief Method OptionalSubscriber, addr 0x6cecac4, size 0x18, virtual false, abstract: false, final false
-  inline ::Zenject::DeclareSignalAsyncTickPriorityCopyBinder* OptionalSubscriber();
+/// @brief Method OptionalSubscriber, addr 0x6cee63c, size 0x18, virtual false, abstract: false, final false
+inline ::Zenject::DeclareSignalAsyncTickPriorityCopyBinder* OptionalSubscriber() ;
 
-  /// @brief Method OptionalSubscriberWithWarning, addr 0x6cecadc, size 0x1c, virtual false, abstract: false, final false
-  inline ::Zenject::DeclareSignalAsyncTickPriorityCopyBinder* OptionalSubscriberWithWarning();
+/// @brief Method OptionalSubscriberWithWarning, addr 0x6cee654, size 0x1c, virtual false, abstract: false, final false
+inline ::Zenject::DeclareSignalAsyncTickPriorityCopyBinder* OptionalSubscriberWithWarning() ;
 
-  /// @brief Method RequireSubscriber, addr 0x6cecaa8, size 0x1c, virtual false, abstract: false, final false
-  inline ::Zenject::DeclareSignalAsyncTickPriorityCopyBinder* RequireSubscriber();
+/// @brief Method RequireSubscriber, addr 0x6cee620, size 0x1c, virtual false, abstract: false, final false
+inline ::Zenject::DeclareSignalAsyncTickPriorityCopyBinder* RequireSubscriber() ;
 
-  /// @brief Method .ctor, addr 0x6ceca6c, size 0x24, virtual false, abstract: false, final false
-  inline void _ctor(::Zenject::SignalDeclarationBindInfo* signalBindInfo);
+/// @brief Method .ctor, addr 0x6cee5e4, size 0x24, virtual false, abstract: false, final false
+inline void _ctor(::Zenject::SignalDeclarationBindInfo*  signalBindInfo) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DeclareSignalRequireHandlerAsyncTickPriorityCopyBinder();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr DeclareSignalRequireHandlerAsyncTickPriorityCopyBinder() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DeclareSignalRequireHandlerAsyncTickPriorityCopyBinder", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  DeclareSignalRequireHandlerAsyncTickPriorityCopyBinder(DeclareSignalRequireHandlerAsyncTickPriorityCopyBinder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DeclareSignalRequireHandlerAsyncTickPriorityCopyBinder", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  DeclareSignalRequireHandlerAsyncTickPriorityCopyBinder(DeclareSignalRequireHandlerAsyncTickPriorityCopyBinder const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "DeclareSignalRequireHandlerAsyncTickPriorityCopyBinder", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+DeclareSignalRequireHandlerAsyncTickPriorityCopyBinder(DeclareSignalRequireHandlerAsyncTickPriorityCopyBinder && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13989 };
+// Ctor Parameters [CppParam { name: "", ty: "DeclareSignalRequireHandlerAsyncTickPriorityCopyBinder", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+DeclareSignalRequireHandlerAsyncTickPriorityCopyBinder(DeclareSignalRequireHandlerAsyncTickPriorityCopyBinder const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{13990};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Zenject::DeclareSignalRequireHandlerAsyncTickPriorityCopyBinder, 0x20>, "Size mismatch!");
 
-} // namespace Zenject
+} // namespace end def Zenject
 NEED_NO_BOX(::Zenject::DeclareSignalRequireHandlerAsyncTickPriorityCopyBinder);
 DEFINE_IL2CPP_ARG_TYPE(::Zenject::DeclareSignalRequireHandlerAsyncTickPriorityCopyBinder*, "Zenject", "DeclareSignalRequireHandlerAsyncTickPriorityCopyBinder");

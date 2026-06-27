@@ -26,68 +26,68 @@ namespace GlobalNamespace {
 // CS Name: LanguageSettingsController
 class CORDL_TYPE LanguageSettingsController : public ::GlobalNamespace::DropdownSettingsController {
 public:
-  // Declarations
-  /// @brief Field _language, offset 0x40, size 0x4
-  __declspec(property(get = __cordl_internal_get__language, put = __cordl_internal_set__language)) ::BGLib::Polyglot::LocalizationLanguage _language;
+// Declarations
+/// @brief Field _language, offset 0x40, size 0x4 
+ __declspec(property(get=__cordl_internal_get__language, put=__cordl_internal_set__language)) ::BGLib::Polyglot::LocalizationLanguage  _language;
 
-  /// @brief Field _settingsManager, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__settingsManager, put = __cordl_internal_set__settingsManager)) ::GlobalNamespace::SettingsManager* _settingsManager;
+/// @brief Field _settingsManager, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get__settingsManager, put=__cordl_internal_set__settingsManager)) ::GlobalNamespace::SettingsManager*  _settingsManager;
 
-  __declspec(property(get = get_language)) ::BGLib::Polyglot::LocalizationLanguage language;
+ __declspec(property(get=get_language)) ::BGLib::Polyglot::LocalizationLanguage  language;
 
-  /// @brief Method ApplyValue, addr 0x58e3c58, size 0xe4, virtual true, abstract: false, final false
-  inline void ApplyValue(int32_t idx);
+/// @brief Method ApplyValue, addr 0x58e5628, size 0xe4, virtual true, abstract: false, final false
+inline void ApplyValue(int32_t  idx) ;
 
-  /// @brief Method GetInitValues, addr 0x58e3a90, size 0x1c8, virtual true, abstract: false, final false
-  inline bool GetInitValues(::ByRef<int32_t> idx, ::ByRef<int32_t> numberOfElements);
+/// @brief Method GetInitValues, addr 0x58e5460, size 0x1c8, virtual true, abstract: false, final false
+inline bool GetInitValues(::ByRef<int32_t>  idx, ::ByRef<int32_t>  numberOfElements) ;
 
-  static inline ::GlobalNamespace::LanguageSettingsController* New_ctor();
+static inline ::GlobalNamespace::LanguageSettingsController* New_ctor() ;
 
-  /// @brief Method TextForValue, addr 0x58e3d3c, size 0x68, virtual true, abstract: false, final false
-  inline ::StringW TextForValue(int32_t idx);
+/// @brief Method TextForValue, addr 0x58e570c, size 0x68, virtual true, abstract: false, final false
+inline ::StringW TextForValue(int32_t  idx) ;
 
-  constexpr ::BGLib::Polyglot::LocalizationLanguage const& __cordl_internal_get__language() const;
+constexpr ::BGLib::Polyglot::LocalizationLanguage const& __cordl_internal_get__language() const;
 
-  constexpr ::BGLib::Polyglot::LocalizationLanguage& __cordl_internal_get__language();
+constexpr ::BGLib::Polyglot::LocalizationLanguage& __cordl_internal_get__language() ;
 
-  constexpr ::GlobalNamespace::SettingsManager* const& __cordl_internal_get__settingsManager() const;
+constexpr ::GlobalNamespace::SettingsManager* const& __cordl_internal_get__settingsManager() const;
 
-  constexpr ::GlobalNamespace::SettingsManager*& __cordl_internal_get__settingsManager();
+constexpr ::GlobalNamespace::SettingsManager*& __cordl_internal_get__settingsManager() ;
 
-  constexpr void __cordl_internal_set__language(::BGLib::Polyglot::LocalizationLanguage value);
+constexpr void __cordl_internal_set__language(::BGLib::Polyglot::LocalizationLanguage  value) ;
 
-  constexpr void __cordl_internal_set__settingsManager(::GlobalNamespace::SettingsManager* value);
+constexpr void __cordl_internal_set__settingsManager(::GlobalNamespace::SettingsManager*  value) ;
 
-  /// @brief Method .ctor, addr 0x58e3da4, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x58e5774, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_language, addr 0x58e3a88, size 0x8, virtual false, abstract: false, final false
-  inline ::BGLib::Polyglot::LocalizationLanguage get_language();
+/// @brief Method get_language, addr 0x58e5458, size 0x8, virtual false, abstract: false, final false
+inline ::BGLib::Polyglot::LocalizationLanguage get_language() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LanguageSettingsController();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr LanguageSettingsController() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LanguageSettingsController", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  LanguageSettingsController(LanguageSettingsController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LanguageSettingsController", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  LanguageSettingsController(LanguageSettingsController const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "LanguageSettingsController", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+LanguageSettingsController(LanguageSettingsController && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6454 };
+// Ctor Parameters [CppParam { name: "", ty: "LanguageSettingsController", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+LanguageSettingsController(LanguageSettingsController const& ) = delete;
 
-  /// @brief Field _settingsManager, offset: 0x38, size: 0x8, def value: None
-  ::GlobalNamespace::SettingsManager* ____settingsManager;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6454};
 
-  /// @brief Field _language, offset: 0x40, size: 0x4, def value: None
-  ::BGLib::Polyglot::LocalizationLanguage ____language;
+/// @brief Field _settingsManager, offset: 0x38, size: 0x8, def value: None
+ ::GlobalNamespace::SettingsManager*  ____settingsManager;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _language, offset: 0x40, size: 0x4, def value: None
+ ::BGLib::Polyglot::LocalizationLanguage  ____language;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::LanguageSettingsController, ____settingsManager) == 0x38, "Offset mismatch!");
@@ -96,6 +96,6 @@ static_assert(offsetof(::GlobalNamespace::LanguageSettingsController, ____langua
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LanguageSettingsController, 0x48>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::LanguageSettingsController);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LanguageSettingsController*, "", "LanguageSettingsController");

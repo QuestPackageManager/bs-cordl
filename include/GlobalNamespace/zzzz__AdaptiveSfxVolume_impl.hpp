@@ -9,258 +9,304 @@
 #include "GlobalNamespace/zzzz__MomentaryLoudnessHistory_def.hpp"
 #include "LufsMetering/zzzz__LufsMeter_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::AdaptiveSfxVolume_InitData._ctor
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AdaptiveSfxVolume_InitData::*)(float_t, bool, int32_t)>(
-    &::GlobalNamespace::AdaptiveSfxVolume_InitData::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AdaptiveSfxVolume_InitData::*)(float_t, bool, int32_t)>(&::GlobalNamespace::AdaptiveSfxVolume_InitData::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5777ef8;
+  constexpr static std::size_t addrs = 0x5779760;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AdaptiveSfxVolume_InitData*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AdaptiveSfxVolume_InitData*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                    )));
     return ___internal_method;
   }
 };
-constexpr float_t& GlobalNamespace::AdaptiveSfxVolume_InitData::__cordl_internal_get_userSettingsVolumeOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___userSettingsVolumeOffset;
+constexpr float_t& GlobalNamespace::AdaptiveSfxVolume_InitData::__cordl_internal_get_userSettingsVolumeOffset()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___userSettingsVolumeOffset;
 }
 constexpr float_t const& GlobalNamespace::AdaptiveSfxVolume_InitData::__cordl_internal_get_userSettingsVolumeOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___userSettingsVolumeOffset;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___userSettingsVolumeOffset;
 }
-constexpr void GlobalNamespace::AdaptiveSfxVolume_InitData::__cordl_internal_set_userSettingsVolumeOffset(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___userSettingsVolumeOffset = value;
+constexpr void GlobalNamespace::AdaptiveSfxVolume_InitData::__cordl_internal_set_userSettingsVolumeOffset(float_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___userSettingsVolumeOffset = value;
 }
-constexpr bool& GlobalNamespace::AdaptiveSfxVolume_InitData::__cordl_internal_get_adaptiveSfx() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___adaptiveSfx;
+constexpr bool& GlobalNamespace::AdaptiveSfxVolume_InitData::__cordl_internal_get_adaptiveSfx()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___adaptiveSfx;
 }
 constexpr bool const& GlobalNamespace::AdaptiveSfxVolume_InitData::__cordl_internal_get_adaptiveSfx() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___adaptiveSfx;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___adaptiveSfx;
 }
-constexpr void GlobalNamespace::AdaptiveSfxVolume_InitData::__cordl_internal_set_adaptiveSfx(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___adaptiveSfx = value;
+constexpr void GlobalNamespace::AdaptiveSfxVolume_InitData::__cordl_internal_set_adaptiveSfx(bool  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___adaptiveSfx = value;
 }
-constexpr int32_t& GlobalNamespace::AdaptiveSfxVolume_InitData::__cordl_internal_get_frequency() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___frequency;
+constexpr int32_t& GlobalNamespace::AdaptiveSfxVolume_InitData::__cordl_internal_get_frequency()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___frequency;
 }
 constexpr int32_t const& GlobalNamespace::AdaptiveSfxVolume_InitData::__cordl_internal_get_frequency() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___frequency;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___frequency;
 }
-constexpr void GlobalNamespace::AdaptiveSfxVolume_InitData::__cordl_internal_set_frequency(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___frequency = value;
+constexpr void GlobalNamespace::AdaptiveSfxVolume_InitData::__cordl_internal_set_frequency(int32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___frequency = value;
 }
-inline void GlobalNamespace::AdaptiveSfxVolume_InitData::_ctor(float_t userSettingsVolumeOffset, bool adaptiveSfx, int32_t frequency) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AdaptiveSfxVolume_InitData*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, userSettingsVolumeOffset, adaptiveSfx, frequency);
+inline void GlobalNamespace::AdaptiveSfxVolume_InitData::_ctor(float_t  userSettingsVolumeOffset, bool  adaptiveSfx, int32_t  frequency)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AdaptiveSfxVolume_InitData*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, userSettingsVolumeOffset, adaptiveSfx, frequency);
 }
-inline ::GlobalNamespace::AdaptiveSfxVolume_InitData* GlobalNamespace::AdaptiveSfxVolume_InitData::New_ctor(float_t userSettingsVolumeOffset, bool adaptiveSfx, int32_t frequency) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::AdaptiveSfxVolume_InitData*>(userSettingsVolumeOffset, adaptiveSfx, frequency));
+inline ::GlobalNamespace::AdaptiveSfxVolume_InitData* GlobalNamespace::AdaptiveSfxVolume_InitData::New_ctor(float_t  userSettingsVolumeOffset, bool  adaptiveSfx, int32_t  frequency)  {
+return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::AdaptiveSfxVolume_InitData*>(userSettingsVolumeOffset, adaptiveSfx, frequency));
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::AdaptiveSfxVolume_InitData::AdaptiveSfxVolume_InitData() {}
+constexpr ::GlobalNamespace::AdaptiveSfxVolume_InitData::AdaptiveSfxVolume_InitData()   {
+}
 //  Writing Method size for method: ::GlobalNamespace::AdaptiveSfxVolume.Start
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AdaptiveSfxVolume::*)()>(&::GlobalNamespace::AdaptiveSfxVolume::Start)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x57779b0;
+  constexpr static std::size_t addrs = 0x5779218;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AdaptiveSfxVolume*>::get(), "Start",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AdaptiveSfxVolume*>::get(),
+                        "Start",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::AdaptiveSfxVolume.OnDisable
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AdaptiveSfxVolume::*)()>(&::GlobalNamespace::AdaptiveSfxVolume::OnDisable)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5777a0c;
+  constexpr static std::size_t addrs = 0x5779274;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AdaptiveSfxVolume*>::get(), "OnDisable",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AdaptiveSfxVolume*>::get(),
+                        "OnDisable",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::AdaptiveSfxVolume.OnAudioFilterRead
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AdaptiveSfxVolume::*)(::ArrayW<float_t, ::Array<float_t>*>, int32_t)>(
-    &::GlobalNamespace::AdaptiveSfxVolume::OnAudioFilterRead)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AdaptiveSfxVolume::*)(::ArrayW<float_t,::Array<float_t>*>, int32_t)>(&::GlobalNamespace::AdaptiveSfxVolume::OnAudioFilterRead)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x5777a38;
+  constexpr static std::size_t addrs = 0x57792a0;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AdaptiveSfxVolume*>::get(), "OnAudioFilterRead", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<float_t, ::Array<float_t>*>>::get(),
-                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AdaptiveSfxVolume*>::get(),
+                        "OnAudioFilterRead",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<float_t,::Array<float_t>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::AdaptiveSfxVolume.Update
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AdaptiveSfxVolume::*)()>(&::GlobalNamespace::AdaptiveSfxVolume::Update)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x5777d28;
+  constexpr static std::size_t addrs = 0x5779590;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AdaptiveSfxVolume*>::get(), "Update",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AdaptiveSfxVolume*>::get(),
+                        "Update",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::AdaptiveSfxVolume.ApplyLoudness
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AdaptiveSfxVolume::*)(float_t)>(&::GlobalNamespace::AdaptiveSfxVolume::ApplyLoudness)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x5777dd4;
+  constexpr static std::size_t addrs = 0x577963c;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AdaptiveSfxVolume*>::get(), "ApplyLoudness", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AdaptiveSfxVolume*>::get(),
+                        "ApplyLoudness",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::AdaptiveSfxVolume._ctor
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AdaptiveSfxVolume::*)()>(&::GlobalNamespace::AdaptiveSfxVolume::_ctor)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x5777e08;
+  constexpr static std::size_t addrs = 0x5779670;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AdaptiveSfxVolume*>::get(), ".ctor",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AdaptiveSfxVolume*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
-constexpr ::GlobalNamespace::AudioManager*& GlobalNamespace::AdaptiveSfxVolume::__cordl_internal_get__audioManager() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____audioManager;
+constexpr ::GlobalNamespace::AudioManager*& GlobalNamespace::AdaptiveSfxVolume::__cordl_internal_get__audioManager()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____audioManager;
 }
 constexpr ::GlobalNamespace::AudioManager* const& GlobalNamespace::AdaptiveSfxVolume::__cordl_internal_get__audioManager() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____audioManager;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____audioManager;
 }
-constexpr void GlobalNamespace::AdaptiveSfxVolume::__cordl_internal_set__audioManager(::GlobalNamespace::AudioManager* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____audioManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::AdaptiveSfxVolume::__cordl_internal_set__audioManager(::GlobalNamespace::AudioManager*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____audioManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::AdaptiveSfxVolume_InitData*& GlobalNamespace::AdaptiveSfxVolume::__cordl_internal_get__initData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____initData;
+constexpr ::GlobalNamespace::AdaptiveSfxVolume_InitData*& GlobalNamespace::AdaptiveSfxVolume::__cordl_internal_get__initData()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____initData;
 }
 constexpr ::GlobalNamespace::AdaptiveSfxVolume_InitData* const& GlobalNamespace::AdaptiveSfxVolume::__cordl_internal_get__initData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____initData;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____initData;
 }
-constexpr void GlobalNamespace::AdaptiveSfxVolume::__cordl_internal_set__initData(::GlobalNamespace::AdaptiveSfxVolume_InitData* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____initData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::AdaptiveSfxVolume::__cordl_internal_set__initData(::GlobalNamespace::AdaptiveSfxVolume_InitData*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____initData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr float_t& GlobalNamespace::AdaptiveSfxVolume::__cordl_internal_get__minThreshold() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____minThreshold;
+constexpr float_t& GlobalNamespace::AdaptiveSfxVolume::__cordl_internal_get__minThreshold()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____minThreshold;
 }
 constexpr float_t const& GlobalNamespace::AdaptiveSfxVolume::__cordl_internal_get__minThreshold() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____minThreshold;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____minThreshold;
 }
-constexpr void GlobalNamespace::AdaptiveSfxVolume::__cordl_internal_set__minThreshold(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____minThreshold = value;
+constexpr void GlobalNamespace::AdaptiveSfxVolume::__cordl_internal_set__minThreshold(float_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____minThreshold = value;
 }
-constexpr ::GlobalNamespace::MomentaryLoudnessBuffer*& GlobalNamespace::AdaptiveSfxVolume::__cordl_internal_get__buffer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____buffer;
+constexpr ::GlobalNamespace::MomentaryLoudnessBuffer*& GlobalNamespace::AdaptiveSfxVolume::__cordl_internal_get__buffer()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____buffer;
 }
 constexpr ::GlobalNamespace::MomentaryLoudnessBuffer* const& GlobalNamespace::AdaptiveSfxVolume::__cordl_internal_get__buffer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____buffer;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____buffer;
 }
-constexpr void GlobalNamespace::AdaptiveSfxVolume::__cordl_internal_set__buffer(::GlobalNamespace::MomentaryLoudnessBuffer* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____buffer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::AdaptiveSfxVolume::__cordl_internal_set__buffer(::GlobalNamespace::MomentaryLoudnessBuffer*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____buffer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::LufsMetering::LufsMeter*& GlobalNamespace::AdaptiveSfxVolume::__cordl_internal_get__lufsMeter() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____lufsMeter;
+constexpr ::LufsMetering::LufsMeter*& GlobalNamespace::AdaptiveSfxVolume::__cordl_internal_get__lufsMeter()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____lufsMeter;
 }
 constexpr ::LufsMetering::LufsMeter* const& GlobalNamespace::AdaptiveSfxVolume::__cordl_internal_get__lufsMeter() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____lufsMeter;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____lufsMeter;
 }
-constexpr void GlobalNamespace::AdaptiveSfxVolume::__cordl_internal_set__lufsMeter(::LufsMetering::LufsMeter* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____lufsMeter)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::AdaptiveSfxVolume::__cordl_internal_set__lufsMeter(::LufsMetering::LufsMeter*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____lufsMeter)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::MomentaryLoudnessHistory*& GlobalNamespace::AdaptiveSfxVolume::__cordl_internal_get__loudnessHistory() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____loudnessHistory;
+constexpr ::GlobalNamespace::MomentaryLoudnessHistory*& GlobalNamespace::AdaptiveSfxVolume::__cordl_internal_get__loudnessHistory()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____loudnessHistory;
 }
 constexpr ::GlobalNamespace::MomentaryLoudnessHistory* const& GlobalNamespace::AdaptiveSfxVolume::__cordl_internal_get__loudnessHistory() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____loudnessHistory;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____loudnessHistory;
 }
-constexpr void GlobalNamespace::AdaptiveSfxVolume::__cordl_internal_set__loudnessHistory(::GlobalNamespace::MomentaryLoudnessHistory* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____loudnessHistory)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::AdaptiveSfxVolume::__cordl_internal_set__loudnessHistory(::GlobalNamespace::MomentaryLoudnessHistory*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____loudnessHistory)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void GlobalNamespace::AdaptiveSfxVolume::Start() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AdaptiveSfxVolume*>::get(), "Start",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::AdaptiveSfxVolume::Start()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AdaptiveSfxVolume*>::get(),
+                        "Start",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::AdaptiveSfxVolume::OnDisable() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AdaptiveSfxVolume*>::get(), "OnDisable",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::AdaptiveSfxVolume::OnDisable()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AdaptiveSfxVolume*>::get(),
+                        "OnDisable",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::AdaptiveSfxVolume::OnAudioFilterRead(::ArrayW<float_t, ::Array<float_t>*> data, int32_t channels) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AdaptiveSfxVolume*>::get(), "OnAudioFilterRead", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<float_t, ::Array<float_t>*>>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, data, channels);
+inline void GlobalNamespace::AdaptiveSfxVolume::OnAudioFilterRead(::ArrayW<float_t,::Array<float_t>*>  data, int32_t  channels)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AdaptiveSfxVolume*>::get(),
+                        "OnAudioFilterRead",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<float_t,::Array<float_t>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, data, channels);
 }
-inline void GlobalNamespace::AdaptiveSfxVolume::Update() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AdaptiveSfxVolume*>::get(), "Update",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::AdaptiveSfxVolume::Update()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AdaptiveSfxVolume*>::get(),
+                        "Update",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::AdaptiveSfxVolume::ApplyLoudness(float_t songLoudness) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AdaptiveSfxVolume*>::get(), "ApplyLoudness",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, songLoudness);
+inline void GlobalNamespace::AdaptiveSfxVolume::ApplyLoudness(float_t  songLoudness)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AdaptiveSfxVolume*>::get(),
+                        "ApplyLoudness",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, songLoudness);
 }
-inline void GlobalNamespace::AdaptiveSfxVolume::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AdaptiveSfxVolume*>::get(), ".ctor",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::AdaptiveSfxVolume::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AdaptiveSfxVolume*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::AdaptiveSfxVolume* GlobalNamespace::AdaptiveSfxVolume::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::AdaptiveSfxVolume*>());
+inline ::GlobalNamespace::AdaptiveSfxVolume* GlobalNamespace::AdaptiveSfxVolume::New_ctor()  {
+return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::AdaptiveSfxVolume*>());
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::AdaptiveSfxVolume::AdaptiveSfxVolume() {}
+constexpr ::GlobalNamespace::AdaptiveSfxVolume::AdaptiveSfxVolume()   {
+}

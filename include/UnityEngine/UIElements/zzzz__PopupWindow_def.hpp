@@ -34,144 +34,144 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::PopupWindow_UxmlTraits);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.PopupWindow/UxmlFactory
-class CORDL_TYPE PopupWindow_UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::PopupWindow*, ::UnityEngine::UIElements::PopupWindow_UxmlTraits*> {
+class CORDL_TYPE PopupWindow_UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::PopupWindow*,::UnityEngine::UIElements::PopupWindow_UxmlTraits*> {
 public:
-  // Declarations
-  static inline ::UnityEngine::UIElements::PopupWindow_UxmlFactory* New_ctor();
+// Declarations
+static inline ::UnityEngine::UIElements::PopupWindow_UxmlFactory* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x6c0a920, size 0x68, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6c0c498, size 0x68, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PopupWindow_UxmlFactory();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr PopupWindow_UxmlFactory() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PopupWindow_UxmlFactory", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  PopupWindow_UxmlFactory(PopupWindow_UxmlFactory&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PopupWindow_UxmlFactory", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  PopupWindow_UxmlFactory(PopupWindow_UxmlFactory const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "PopupWindow_UxmlFactory", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+PopupWindow_UxmlFactory(PopupWindow_UxmlFactory && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4286 };
+// Ctor Parameters [CppParam { name: "", ty: "PopupWindow_UxmlFactory", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+PopupWindow_UxmlFactory(PopupWindow_UxmlFactory const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4286};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::PopupWindow_UxmlFactory, 0x18>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements
+} // namespace end def UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.TextElement::UxmlTraits
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.PopupWindow/UxmlTraits
 class CORDL_TYPE PopupWindow_UxmlTraits : public ::UnityEngine::UIElements::TextElement_UxmlTraits {
 public:
-  // Declarations
-  static inline ::UnityEngine::UIElements::PopupWindow_UxmlTraits* New_ctor();
+// Declarations
+static inline ::UnityEngine::UIElements::PopupWindow_UxmlTraits* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x6c0a988, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6c0c500, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PopupWindow_UxmlTraits();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr PopupWindow_UxmlTraits() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PopupWindow_UxmlTraits", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  PopupWindow_UxmlTraits(PopupWindow_UxmlTraits&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PopupWindow_UxmlTraits", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  PopupWindow_UxmlTraits(PopupWindow_UxmlTraits const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "PopupWindow_UxmlTraits", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+PopupWindow_UxmlTraits(PopupWindow_UxmlTraits && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4287 };
+// Ctor Parameters [CppParam { name: "", ty: "PopupWindow_UxmlTraits", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+PopupWindow_UxmlTraits(PopupWindow_UxmlTraits const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4287};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::PopupWindow_UxmlTraits, 0xd0>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements
+} // namespace end def UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.TextElement
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.PopupWindow
 class CORDL_TYPE PopupWindow : public ::UnityEngine::UIElements::TextElement {
 public:
-  // Declarations
-  using UxmlFactory = ::UnityEngine::UIElements::PopupWindow_UxmlFactory;
+// Declarations
+using UxmlFactory = ::UnityEngine::UIElements::PopupWindow_UxmlFactory;
 
-  using UxmlTraits = ::UnityEngine::UIElements::PopupWindow_UxmlTraits;
+using UxmlTraits = ::UnityEngine::UIElements::PopupWindow_UxmlTraits;
 
-  __declspec(property(get = get_contentContainer)) ::UnityEngine::UIElements::VisualElement* contentContainer;
+ __declspec(property(get=get_contentContainer)) ::UnityEngine::UIElements::VisualElement*  contentContainer;
 
-  /// @brief Field contentUssClassName, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_contentUssClassName, put = setStaticF_contentUssClassName)) ::StringW contentUssClassName;
+/// @brief Field contentUssClassName, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_contentUssClassName, put=setStaticF_contentUssClassName)) ::StringW  contentUssClassName;
 
-  /// @brief Field m_ContentContainer, offset 0x5a8, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_ContentContainer, put = __cordl_internal_set_m_ContentContainer)) ::UnityEngine::UIElements::VisualElement* m_ContentContainer;
+/// @brief Field m_ContentContainer, offset 0x5a8, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_ContentContainer, put=__cordl_internal_set_m_ContentContainer)) ::UnityEngine::UIElements::VisualElement*  m_ContentContainer;
 
-  /// @brief Field ussClassName, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_ussClassName, put = setStaticF_ussClassName)) ::StringW ussClassName;
+/// @brief Field ussClassName, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_ussClassName, put=setStaticF_ussClassName)) ::StringW  ussClassName;
 
-  static inline ::UnityEngine::UIElements::PopupWindow* New_ctor();
+static inline ::UnityEngine::UIElements::PopupWindow* New_ctor() ;
 
-  constexpr ::UnityEngine::UIElements::VisualElement* const& __cordl_internal_get_m_ContentContainer() const;
+constexpr ::UnityEngine::UIElements::VisualElement* const& __cordl_internal_get_m_ContentContainer() const;
 
-  constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get_m_ContentContainer();
+constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get_m_ContentContainer() ;
 
-  constexpr void __cordl_internal_set_m_ContentContainer(::UnityEngine::UIElements::VisualElement* value);
+constexpr void __cordl_internal_set_m_ContentContainer(::UnityEngine::UIElements::VisualElement*  value) ;
 
-  /// @brief Method .ctor, addr 0x6c0a73c, size 0x138, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6c0c2b4, size 0x138, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  static inline ::StringW getStaticF_contentUssClassName();
+static inline ::StringW getStaticF_contentUssClassName() ;
 
-  static inline ::StringW getStaticF_ussClassName();
+static inline ::StringW getStaticF_ussClassName() ;
 
-  /// @brief Method get_contentContainer, addr 0x6c0a874, size 0x8, virtual true, abstract: false, final false
-  inline ::UnityEngine::UIElements::VisualElement* get_contentContainer();
+/// @brief Method get_contentContainer, addr 0x6c0c3ec, size 0x8, virtual true, abstract: false, final false
+inline ::UnityEngine::UIElements::VisualElement* get_contentContainer() ;
 
-  static inline void setStaticF_contentUssClassName(::StringW value);
+static inline void setStaticF_contentUssClassName(::StringW  value) ;
 
-  static inline void setStaticF_ussClassName(::StringW value);
+static inline void setStaticF_ussClassName(::StringW  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PopupWindow();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr PopupWindow() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PopupWindow", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  PopupWindow(PopupWindow&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PopupWindow", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  PopupWindow(PopupWindow const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "PopupWindow", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+PopupWindow(PopupWindow && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4288 };
+// Ctor Parameters [CppParam { name: "", ty: "PopupWindow", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+PopupWindow(PopupWindow const& ) = delete;
 
-  /// @brief Field m_ContentContainer, offset: 0x5a8, size: 0x8, def value: None
-  ::UnityEngine::UIElements::VisualElement* ___m_ContentContainer;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4288};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field m_ContentContainer, offset: 0x5a8, size: 0x8, def value: None
+ ::UnityEngine::UIElements::VisualElement*  ___m_ContentContainer;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::UIElements::PopupWindow, ___m_ContentContainer) == 0x5a8, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::PopupWindow, 0x5b0>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements
+} // namespace end def UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::PopupWindow);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::PopupWindow*, "UnityEngine.UIElements", "PopupWindow");
 NEED_NO_BOX(::UnityEngine::UIElements::PopupWindow_UxmlFactory);

@@ -13,62 +13,62 @@ struct InclusiveRange;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::Universal::InclusiveRange);
-// Dependencies
+// Dependencies 
 namespace UnityEngine::Rendering::Universal {
 // Is value type: true
 // CS Name: UnityEngine.Rendering.Universal.InclusiveRange
 struct CORDL_TYPE InclusiveRange {
 public:
-  // Declarations
-  __declspec(property(get = get_isEmpty)) bool isEmpty;
+// Declarations
+ __declspec(property(get=get_isEmpty)) bool  isEmpty;
 
-  /// @brief Method Clamp, addr 0x677bb5c, size 0x90, virtual false, abstract: false, final false
-  inline void Clamp(int16_t min, int16_t max);
+/// @brief Method Clamp, addr 0x677d6d4, size 0x90, virtual false, abstract: false, final false
+inline void Clamp(int16_t  min, int16_t  max) ;
 
-  /// @brief Method Contains, addr 0x677bc00, size 0x24, virtual false, abstract: false, final false
-  inline bool Contains(int16_t index);
+/// @brief Method Contains, addr 0x677d778, size 0x24, virtual false, abstract: false, final false
+inline bool Contains(int16_t  index) ;
 
-  /// @brief Method Expand, addr 0x677bad4, size 0x88, virtual false, abstract: false, final false
-  inline void Expand(int16_t index);
+/// @brief Method Expand, addr 0x677d64c, size 0x88, virtual false, abstract: false, final false
+inline void Expand(int16_t  index) ;
 
-  /// @brief Method Merge, addr 0x677bc24, size 0x84, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Rendering::Universal::InclusiveRange Merge(::UnityEngine::Rendering::Universal::InclusiveRange a, ::UnityEngine::Rendering::Universal::InclusiveRange b);
+/// @brief Method Merge, addr 0x677d79c, size 0x84, virtual false, abstract: false, final false
+static inline ::UnityEngine::Rendering::Universal::InclusiveRange Merge(::UnityEngine::Rendering::Universal::InclusiveRange  a, ::UnityEngine::Rendering::Universal::InclusiveRange  b) ;
 
-  /// @brief Method ToString, addr 0x677bcb0, size 0xb4, virtual true, abstract: false, final false
-  inline ::StringW ToString();
+/// @brief Method ToString, addr 0x677d828, size 0xb4, virtual true, abstract: false, final false
+inline ::StringW ToString() ;
 
-  /// @brief Method .ctor, addr 0x677bac8, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor(int16_t start, int16_t end);
+/// @brief Method .ctor, addr 0x677d640, size 0xc, virtual false, abstract: false, final false
+inline void _ctor(int16_t  start, int16_t  end) ;
 
-  /// @brief Method .ctor, addr 0x677babc, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor(int16_t startEnd);
+/// @brief Method .ctor, addr 0x677d634, size 0xc, virtual false, abstract: false, final false
+inline void _ctor(int16_t  startEnd) ;
 
-  /// @brief Method get_empty, addr 0x677bca8, size 0x8, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Rendering::Universal::InclusiveRange get_empty();
+/// @brief Method get_empty, addr 0x677d820, size 0x8, virtual false, abstract: false, final false
+static inline ::UnityEngine::Rendering::Universal::InclusiveRange get_empty() ;
 
-  /// @brief Method get_isEmpty, addr 0x677bbec, size 0x14, virtual false, abstract: false, final false
-  inline bool get_isEmpty();
+/// @brief Method get_isEmpty, addr 0x677d764, size 0x14, virtual false, abstract: false, final false
+inline bool get_isEmpty() ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr InclusiveRange();
+// Ctor Parameters []
+// @brief default ctor
+constexpr InclusiveRange() ;
 
-  // Ctor Parameters [CppParam { name: "start", ty: "int16_t", modifiers: "", def_value: None }, CppParam { name: "end", ty: "int16_t", modifiers: "", def_value: None }]
-  constexpr InclusiveRange(int16_t start, int16_t end) noexcept;
+// Ctor Parameters [CppParam { name: "start", ty: "int16_t", modifiers: "", def_value: None }, CppParam { name: "end", ty: "int16_t", modifiers: "", def_value: None }]
+constexpr InclusiveRange(int16_t  start, int16_t  end) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12959 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12960};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x4};
 
-  /// @brief Field start, offset: 0x0, size: 0x2, def value: None
-  int16_t start;
+/// @brief Field start, offset: 0x0, size: 0x2, def value: None
+ int16_t  start;
 
-  /// @brief Field end, offset: 0x2, size: 0x2, def value: None
-  int16_t end;
+/// @brief Field end, offset: 0x2, size: 0x2, def value: None
+ int16_t  end;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Rendering::Universal::InclusiveRange, start) == 0x0, "Offset mismatch!");
@@ -77,5 +77,5 @@ static_assert(offsetof(::UnityEngine::Rendering::Universal::InclusiveRange, end)
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::Universal::InclusiveRange, 0x4>, "Size mismatch!");
 
-} // namespace UnityEngine::Rendering::Universal
+} // namespace end def UnityEngine::Rendering::Universal
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::Universal::InclusiveRange, "UnityEngine.Rendering.Universal", "InclusiveRange");

@@ -22,10 +22,12 @@ namespace GlobalNamespace {
 class PackDefinitionSO;
 }
 namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
+template<typename T>
+class HashSet_1;
 }
 namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
+template<typename TResult>
+class Task_1;
 }
 namespace System::Threading {
 struct CancellationToken;
@@ -42,89 +44,87 @@ namespace GlobalNamespace {
 // CS Name: BeatmapLevelsEntitlementModel
 class CORDL_TYPE BeatmapLevelsEntitlementModel : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field _additionalContentEntitlementModel, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__additionalContentEntitlementModel,
-                      put = __cordl_internal_set__additionalContentEntitlementModel)) ::GlobalNamespace::IAdditionalContentEntitlementModel* _additionalContentEntitlementModel;
+// Declarations
+/// @brief Field _additionalContentEntitlementModel, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get__additionalContentEntitlementModel, put=__cordl_internal_set__additionalContentEntitlementModel)) ::GlobalNamespace::IAdditionalContentEntitlementModel*  _additionalContentEntitlementModel;
 
-  /// @brief Field _alwaysOwnedBeatmapLevelIds, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__alwaysOwnedBeatmapLevelIds,
-                      put = __cordl_internal_set__alwaysOwnedBeatmapLevelIds)) ::System::Collections::Generic::HashSet_1<::StringW>* _alwaysOwnedBeatmapLevelIds;
+/// @brief Field _alwaysOwnedBeatmapLevelIds, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get__alwaysOwnedBeatmapLevelIds, put=__cordl_internal_set__alwaysOwnedBeatmapLevelIds)) ::System::Collections::Generic::HashSet_1<::StringW>*  _alwaysOwnedBeatmapLevelIds;
 
-  /// @brief Field _alwaysOwnedPacksIds, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__alwaysOwnedPacksIds, put = __cordl_internal_set__alwaysOwnedPacksIds)) ::System::Collections::Generic::HashSet_1<::StringW>* _alwaysOwnedPacksIds;
+/// @brief Field _alwaysOwnedPacksIds, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get__alwaysOwnedPacksIds, put=__cordl_internal_set__alwaysOwnedPacksIds)) ::System::Collections::Generic::HashSet_1<::StringW>*  _alwaysOwnedPacksIds;
 
-  /// @brief Convert operator to "::GlobalNamespace::IEntitlementModel"
-  constexpr operator ::GlobalNamespace::IEntitlementModel*() noexcept;
+/// @brief Convert operator to "::GlobalNamespace::IEntitlementModel"
+constexpr operator  ::GlobalNamespace::IEntitlementModel*() noexcept;
 
-  /// @brief Method AddAlwaysOwnedPack, addr 0x3665050, size 0x334, virtual false, abstract: false, final false
-  inline void AddAlwaysOwnedPack(::GlobalNamespace::PackDefinitionSO* pack);
+/// @brief Method AddAlwaysOwnedPack, addr 0x36663e4, size 0x334, virtual false, abstract: false, final false
+inline void AddAlwaysOwnedPack(::GlobalNamespace::PackDefinitionSO*  pack) ;
 
-  /// @brief Method GetExcludedLevelIdsAsync, addr 0x36656d0, size 0xb8, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task_1<::ArrayW<::StringW, ::Array<::StringW>*>>* GetExcludedLevelIdsAsync(::System::Threading::CancellationToken token);
+/// @brief Method GetExcludedLevelIdsAsync, addr 0x3666a64, size 0xb8, virtual false, abstract: false, final false
+inline ::System::Threading::Tasks::Task_1<::ArrayW<::StringW,::Array<::StringW>*>>* GetExcludedLevelIdsAsync(::System::Threading::CancellationToken  token) ;
 
-  /// @brief Method GetLevelDataVersionAsync, addr 0x3665610, size 0xc0, virtual true, abstract: false, final true
-  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::BeatmapLevelDataVersion>* GetLevelDataVersionAsync(::StringW levelId, ::System::Threading::CancellationToken token);
+/// @brief Method GetLevelDataVersionAsync, addr 0x36669a4, size 0xc0, virtual true, abstract: false, final true
+inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::BeatmapLevelDataVersion>* GetLevelDataVersionAsync(::StringW  levelId, ::System::Threading::CancellationToken  token) ;
 
-  /// @brief Method GetLevelEntitlementStatusAsync, addr 0x3665384, size 0x144, virtual true, abstract: false, final true
-  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>* GetLevelEntitlementStatusAsync(::StringW levelId, ::System::Threading::CancellationToken token);
+/// @brief Method GetLevelEntitlementStatusAsync, addr 0x3666718, size 0x144, virtual true, abstract: false, final true
+inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>* GetLevelEntitlementStatusAsync(::StringW  levelId, ::System::Threading::CancellationToken  token) ;
 
-  /// @brief Method GetPackEntitlementStatusAsync, addr 0x36654c8, size 0x148, virtual true, abstract: false, final true
-  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>* GetPackEntitlementStatusAsync(::StringW levelPackId, ::System::Threading::CancellationToken token);
+/// @brief Method GetPackEntitlementStatusAsync, addr 0x366685c, size 0x148, virtual true, abstract: false, final true
+inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>* GetPackEntitlementStatusAsync(::StringW  levelPackId, ::System::Threading::CancellationToken  token) ;
 
-  static inline ::GlobalNamespace::BeatmapLevelsEntitlementModel* New_ctor(::GlobalNamespace::IAdditionalContentEntitlementModel* additionalContentEntitlementModel);
+static inline ::GlobalNamespace::BeatmapLevelsEntitlementModel* New_ctor(::GlobalNamespace::IAdditionalContentEntitlementModel*  additionalContentEntitlementModel) ;
 
-  constexpr ::GlobalNamespace::IAdditionalContentEntitlementModel* const& __cordl_internal_get__additionalContentEntitlementModel() const;
+constexpr ::GlobalNamespace::IAdditionalContentEntitlementModel* const& __cordl_internal_get__additionalContentEntitlementModel() const;
 
-  constexpr ::GlobalNamespace::IAdditionalContentEntitlementModel*& __cordl_internal_get__additionalContentEntitlementModel();
+constexpr ::GlobalNamespace::IAdditionalContentEntitlementModel*& __cordl_internal_get__additionalContentEntitlementModel() ;
 
-  constexpr ::System::Collections::Generic::HashSet_1<::StringW>* const& __cordl_internal_get__alwaysOwnedBeatmapLevelIds() const;
+constexpr ::System::Collections::Generic::HashSet_1<::StringW>* const& __cordl_internal_get__alwaysOwnedBeatmapLevelIds() const;
 
-  constexpr ::System::Collections::Generic::HashSet_1<::StringW>*& __cordl_internal_get__alwaysOwnedBeatmapLevelIds();
+constexpr ::System::Collections::Generic::HashSet_1<::StringW>*& __cordl_internal_get__alwaysOwnedBeatmapLevelIds() ;
 
-  constexpr ::System::Collections::Generic::HashSet_1<::StringW>* const& __cordl_internal_get__alwaysOwnedPacksIds() const;
+constexpr ::System::Collections::Generic::HashSet_1<::StringW>* const& __cordl_internal_get__alwaysOwnedPacksIds() const;
 
-  constexpr ::System::Collections::Generic::HashSet_1<::StringW>*& __cordl_internal_get__alwaysOwnedPacksIds();
+constexpr ::System::Collections::Generic::HashSet_1<::StringW>*& __cordl_internal_get__alwaysOwnedPacksIds() ;
 
-  constexpr void __cordl_internal_set__additionalContentEntitlementModel(::GlobalNamespace::IAdditionalContentEntitlementModel* value);
+constexpr void __cordl_internal_set__additionalContentEntitlementModel(::GlobalNamespace::IAdditionalContentEntitlementModel*  value) ;
 
-  constexpr void __cordl_internal_set__alwaysOwnedBeatmapLevelIds(::System::Collections::Generic::HashSet_1<::StringW>* value);
+constexpr void __cordl_internal_set__alwaysOwnedBeatmapLevelIds(::System::Collections::Generic::HashSet_1<::StringW>*  value) ;
 
-  constexpr void __cordl_internal_set__alwaysOwnedPacksIds(::System::Collections::Generic::HashSet_1<::StringW>* value);
+constexpr void __cordl_internal_set__alwaysOwnedPacksIds(::System::Collections::Generic::HashSet_1<::StringW>*  value) ;
 
-  /// @brief Method .ctor, addr 0x3664fb4, size 0x9c, virtual false, abstract: false, final false
-  inline void _ctor(::GlobalNamespace::IAdditionalContentEntitlementModel* additionalContentEntitlementModel);
+/// @brief Method .ctor, addr 0x3666348, size 0x9c, virtual false, abstract: false, final false
+inline void _ctor(::GlobalNamespace::IAdditionalContentEntitlementModel*  additionalContentEntitlementModel) ;
 
-  /// @brief Convert to "::GlobalNamespace::IEntitlementModel"
-  constexpr ::GlobalNamespace::IEntitlementModel* i___GlobalNamespace__IEntitlementModel() noexcept;
+/// @brief Convert to "::GlobalNamespace::IEntitlementModel"
+constexpr ::GlobalNamespace::IEntitlementModel* i___GlobalNamespace__IEntitlementModel() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BeatmapLevelsEntitlementModel();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr BeatmapLevelsEntitlementModel() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelsEntitlementModel", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  BeatmapLevelsEntitlementModel(BeatmapLevelsEntitlementModel&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelsEntitlementModel", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapLevelsEntitlementModel(BeatmapLevelsEntitlementModel const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelsEntitlementModel", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+BeatmapLevelsEntitlementModel(BeatmapLevelsEntitlementModel && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14957 };
+// Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelsEntitlementModel", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+BeatmapLevelsEntitlementModel(BeatmapLevelsEntitlementModel const& ) = delete;
 
-  /// @brief Field _additionalContentEntitlementModel, offset: 0x10, size: 0x8, def value: None
-  ::GlobalNamespace::IAdditionalContentEntitlementModel* ____additionalContentEntitlementModel;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{14959};
 
-  /// @brief Field _alwaysOwnedBeatmapLevelIds, offset: 0x18, size: 0x8, def value: None
-  ::System::Collections::Generic::HashSet_1<::StringW>* ____alwaysOwnedBeatmapLevelIds;
+/// @brief Field _additionalContentEntitlementModel, offset: 0x10, size: 0x8, def value: None
+ ::GlobalNamespace::IAdditionalContentEntitlementModel*  ____additionalContentEntitlementModel;
 
-  /// @brief Field _alwaysOwnedPacksIds, offset: 0x20, size: 0x8, def value: None
-  ::System::Collections::Generic::HashSet_1<::StringW>* ____alwaysOwnedPacksIds;
+/// @brief Field _alwaysOwnedBeatmapLevelIds, offset: 0x18, size: 0x8, def value: None
+ ::System::Collections::Generic::HashSet_1<::StringW>*  ____alwaysOwnedBeatmapLevelIds;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _alwaysOwnedPacksIds, offset: 0x20, size: 0x8, def value: None
+ ::System::Collections::Generic::HashSet_1<::StringW>*  ____alwaysOwnedPacksIds;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::BeatmapLevelsEntitlementModel, ____additionalContentEntitlementModel) == 0x10, "Offset mismatch!");
@@ -135,6 +135,6 @@ static_assert(offsetof(::GlobalNamespace::BeatmapLevelsEntitlementModel, ____alw
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatmapLevelsEntitlementModel, 0x28>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BeatmapLevelsEntitlementModel);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BeatmapLevelsEntitlementModel*, "", "BeatmapLevelsEntitlementModel");

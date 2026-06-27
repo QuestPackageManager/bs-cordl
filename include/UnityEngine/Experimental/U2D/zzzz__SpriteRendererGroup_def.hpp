@@ -17,29 +17,29 @@ namespace UnityEngine::Experimental::U2D {
 // CS Name: UnityEngine.Experimental.U2D.SpriteRendererGroup
 class CORDL_TYPE SpriteRendererGroup : public ::System::Object {
 public:
-  // Declarations
+// Declarations
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SpriteRendererGroup();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr SpriteRendererGroup() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SpriteRendererGroup", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  SpriteRendererGroup(SpriteRendererGroup&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SpriteRendererGroup", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  SpriteRendererGroup(SpriteRendererGroup const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "SpriteRendererGroup", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+SpriteRendererGroup(SpriteRendererGroup && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10917 };
+// Ctor Parameters [CppParam { name: "", ty: "SpriteRendererGroup", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+SpriteRendererGroup(SpriteRendererGroup const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10918};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Experimental::U2D::SpriteRendererGroup, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::Experimental::U2D
+} // namespace end def UnityEngine::Experimental::U2D
 NEED_NO_BOX(::UnityEngine::Experimental::U2D::SpriteRendererGroup);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Experimental::U2D::SpriteRendererGroup*, "UnityEngine.Experimental.U2D", "SpriteRendererGroup");

@@ -21,40 +21,40 @@ namespace UnityEngine::InputSystem::Controls {
 // CS Name: UnityEngine.InputSystem.Controls.TouchPhaseControl
 class CORDL_TYPE TouchPhaseControl : public ::UnityEngine::InputSystem::InputControl_1<::UnityEngine::InputSystem::TouchPhase> {
 public:
-  // Declarations
-  static inline ::UnityEngine::InputSystem::Controls::TouchPhaseControl* New_ctor();
+// Declarations
+static inline ::UnityEngine::InputSystem::Controls::TouchPhaseControl* New_ctor() ;
 
-  /// @brief Method ReadUnprocessedValueFromState, addr 0x63b90b4, size 0x80, virtual true, abstract: false, final false
-  inline ::UnityEngine::InputSystem::TouchPhase ReadUnprocessedValueFromState(void* statePtr);
+/// @brief Method ReadUnprocessedValueFromState, addr 0x63bac2c, size 0x80, virtual true, abstract: false, final false
+inline ::UnityEngine::InputSystem::TouchPhase ReadUnprocessedValueFromState(void*  statePtr) ;
 
-  /// @brief Method WriteValueIntoState, addr 0x63b9134, size 0x6c, virtual true, abstract: false, final false
-  inline void WriteValueIntoState(::UnityEngine::InputSystem::TouchPhase value, void* statePtr);
+/// @brief Method WriteValueIntoState, addr 0x63bacac, size 0x6c, virtual true, abstract: false, final false
+inline void WriteValueIntoState(::UnityEngine::InputSystem::TouchPhase  value, void*  statePtr) ;
 
-  /// @brief Method .ctor, addr 0x63b9030, size 0x84, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x63baba8, size 0x84, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TouchPhaseControl();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr TouchPhaseControl() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TouchPhaseControl", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  TouchPhaseControl(TouchPhaseControl&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TouchPhaseControl", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  TouchPhaseControl(TouchPhaseControl const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "TouchPhaseControl", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+TouchPhaseControl(TouchPhaseControl && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9124 };
+// Ctor Parameters [CppParam { name: "", ty: "TouchPhaseControl", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+TouchPhaseControl(TouchPhaseControl const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9125};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Controls::TouchPhaseControl, 0x108>, "Size mismatch!");
 
-} // namespace UnityEngine::InputSystem::Controls
+} // namespace end def UnityEngine::InputSystem::Controls
 NEED_NO_BOX(::UnityEngine::InputSystem::Controls::TouchPhaseControl);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Controls::TouchPhaseControl*, "UnityEngine.InputSystem.Controls", "TouchPhaseControl");

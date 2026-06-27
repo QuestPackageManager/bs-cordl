@@ -7,7 +7,8 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MethodCallExpressionN)
 namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
+template<typename T>
+class IReadOnlyList_1;
 }
 namespace System::Linq::Expressions {
 class Expression;
@@ -33,68 +34,65 @@ namespace System::Linq::Expressions {
 // CS Name: System.Linq.Expressions.MethodCallExpressionN
 class CORDL_TYPE MethodCallExpressionN : public ::System::Linq::Expressions::MethodCallExpression {
 public:
-  // Declarations
-  __declspec(property(get = get_ArgumentCount)) int32_t ArgumentCount;
+// Declarations
+ __declspec(property(get=get_ArgumentCount)) int32_t  ArgumentCount;
 
-  /// @brief Field _arguments, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__arguments,
-                      put = __cordl_internal_set__arguments)) ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>* _arguments;
+/// @brief Field _arguments, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get__arguments, put=__cordl_internal_set__arguments)) ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>*  _arguments;
 
-  /// @brief Convert operator to "::System::Linq::Expressions::IArgumentProvider"
-  constexpr operator ::System::Linq::Expressions::IArgumentProvider*() noexcept;
+/// @brief Convert operator to "::System::Linq::Expressions::IArgumentProvider"
+constexpr operator  ::System::Linq::Expressions::IArgumentProvider*() noexcept;
 
-  /// @brief Method GetArgument, addr 0x5e44b6c, size 0xb4, virtual true, abstract: false, final false
-  inline ::System::Linq::Expressions::Expression* GetArgument(int32_t index);
+/// @brief Method GetArgument, addr 0x5e466e4, size 0xb4, virtual true, abstract: false, final false
+inline ::System::Linq::Expressions::Expression* GetArgument(int32_t  index) ;
 
-  static inline ::System::Linq::Expressions::MethodCallExpressionN* New_ctor(::System::Reflection::MethodInfo* method,
-                                                                             ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>* args);
+static inline ::System::Linq::Expressions::MethodCallExpressionN* New_ctor(::System::Reflection::MethodInfo*  method, ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>*  args) ;
 
-  /// @brief Method Rewrite, addr 0x5e44cc4, size 0x78, virtual true, abstract: false, final false
-  inline ::System::Linq::Expressions::MethodCallExpression* Rewrite(::System::Linq::Expressions::Expression* instance,
-                                                                    ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>* args);
+/// @brief Method Rewrite, addr 0x5e4683c, size 0x78, virtual true, abstract: false, final false
+inline ::System::Linq::Expressions::MethodCallExpression* Rewrite(::System::Linq::Expressions::Expression*  instance, ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>*  args) ;
 
-  constexpr ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>* const& __cordl_internal_get__arguments() const;
+constexpr ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>* const& __cordl_internal_get__arguments() const;
 
-  constexpr ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>*& __cordl_internal_get__arguments();
+constexpr ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>*& __cordl_internal_get__arguments() ;
 
-  constexpr void __cordl_internal_set__arguments(::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>* value);
+constexpr void __cordl_internal_set__arguments(::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>*  value) ;
 
-  /// @brief Method .ctor, addr 0x5e44b48, size 0x24, virtual false, abstract: false, final false
-  inline void _ctor(::System::Reflection::MethodInfo* method, ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>* args);
+/// @brief Method .ctor, addr 0x5e466c0, size 0x24, virtual false, abstract: false, final false
+inline void _ctor(::System::Reflection::MethodInfo*  method, ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>*  args) ;
 
-  /// @brief Method get_ArgumentCount, addr 0x5e44c20, size 0xa4, virtual true, abstract: false, final false
-  inline int32_t get_ArgumentCount();
+/// @brief Method get_ArgumentCount, addr 0x5e46798, size 0xa4, virtual true, abstract: false, final false
+inline int32_t get_ArgumentCount() ;
 
-  /// @brief Convert to "::System::Linq::Expressions::IArgumentProvider"
-  constexpr ::System::Linq::Expressions::IArgumentProvider* i___System__Linq__Expressions__IArgumentProvider() noexcept;
+/// @brief Convert to "::System::Linq::Expressions::IArgumentProvider"
+constexpr ::System::Linq::Expressions::IArgumentProvider* i___System__Linq__Expressions__IArgumentProvider() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MethodCallExpressionN();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr MethodCallExpressionN() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MethodCallExpressionN", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  MethodCallExpressionN(MethodCallExpressionN&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MethodCallExpressionN", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  MethodCallExpressionN(MethodCallExpressionN const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "MethodCallExpressionN", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+MethodCallExpressionN(MethodCallExpressionN && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16185 };
+// Ctor Parameters [CppParam { name: "", ty: "MethodCallExpressionN", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+MethodCallExpressionN(MethodCallExpressionN const& ) = delete;
 
-  /// @brief Field _arguments, offset: 0x18, size: 0x8, def value: None
-  ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>* ____arguments;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{16187};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _arguments, offset: 0x18, size: 0x8, def value: None
+ ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>*  ____arguments;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Linq::Expressions::MethodCallExpressionN, ____arguments) == 0x18, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::MethodCallExpressionN, 0x20>, "Size mismatch!");
 
-} // namespace System::Linq::Expressions
+} // namespace end def System::Linq::Expressions
 NEED_NO_BOX(::System::Linq::Expressions::MethodCallExpressionN);
 DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::MethodCallExpressionN*, "System.Linq.Expressions", "MethodCallExpressionN");

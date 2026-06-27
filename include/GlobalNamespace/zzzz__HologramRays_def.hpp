@@ -21,7 +21,8 @@ namespace GlobalNamespace {
 class TubeBloomPrePassLight;
 }
 namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+template<typename T>
+class IEnumerator_1;
 }
 namespace System::Collections {
 class IEnumerator;
@@ -66,139 +67,139 @@ namespace GlobalNamespace {
 // CS Name: HologramRays/<FadingCoroutine>d__28
 class CORDL_TYPE HologramRays__FadingCoroutine_d__28 : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current)) ::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
+// Declarations
+ __declspec(property(get=System_Collections_Generic_IEnumerator_System_Object__get_Current)) ::System::Object*  System_Collections_Generic_IEnumerator_System_Object__Current;
 
-  __declspec(property(get = System_Collections_IEnumerator_get_Current)) ::System::Object* System_Collections_IEnumerator_Current;
+ __declspec(property(get=System_Collections_IEnumerator_get_Current)) ::System::Object*  System_Collections_IEnumerator_Current;
 
-  /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
+/// @brief Field <>1__state, offset 0x10, size 0x4 
+ __declspec(property(get=__cordl_internal_get___1__state, put=__cordl_internal_set___1__state)) int32_t  __1__state;
 
-  /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current)) ::System::Object* __2__current;
+/// @brief Field <>2__current, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get___2__current, put=__cordl_internal_set___2__current)) ::System::Object*  __2__current;
 
-  /// @brief Field <>4__this, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::UnityW<::GlobalNamespace::HologramRays> __4__this;
+/// @brief Field <>4__this, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get___4__this, put=__cordl_internal_set___4__this)) ::UnityW<::GlobalNamespace::HologramRays>  __4__this;
 
-  /// @brief Field duration, offset 0x34, size 0x4
-  __declspec(property(get = __cordl_internal_get_duration, put = __cordl_internal_set_duration)) float_t duration;
+/// @brief Field duration, offset 0x34, size 0x4 
+ __declspec(property(get=__cordl_internal_get_duration, put=__cordl_internal_set_duration)) float_t  duration;
 
-  /// @brief Field easeType, offset 0x30, size 0x4
-  __declspec(property(get = __cordl_internal_get_easeType, put = __cordl_internal_set_easeType)) ::GlobalNamespace::EaseType easeType;
+/// @brief Field easeType, offset 0x30, size 0x4 
+ __declspec(property(get=__cordl_internal_get_easeType, put=__cordl_internal_set_easeType)) ::GlobalNamespace::EaseType  easeType;
 
-  /// @brief Field turningOn, offset 0x20, size 0x1
-  __declspec(property(get = __cordl_internal_get_turningOn, put = __cordl_internal_set_turningOn)) bool turningOn;
+/// @brief Field turningOn, offset 0x20, size 0x1 
+ __declspec(property(get=__cordl_internal_get_turningOn, put=__cordl_internal_set_turningOn)) bool  turningOn;
 
-  /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
-  constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+constexpr operator  ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
 
-  /// @brief Convert operator to "::System::Collections::IEnumerator"
-  constexpr operator ::System::Collections::IEnumerator*() noexcept;
+/// @brief Convert operator to "::System::Collections::IEnumerator"
+constexpr operator  ::System::Collections::IEnumerator*() noexcept;
 
-  /// @brief Convert operator to "::System::IDisposable"
-  constexpr operator ::System::IDisposable*() noexcept;
+/// @brief Convert operator to "::System::IDisposable"
+constexpr operator  ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x587efd4, size 0x190, virtual true, abstract: false, final true
-  inline bool MoveNext();
+/// @brief Method MoveNext, addr 0x5880880, size 0x190, virtual true, abstract: false, final true
+inline bool MoveNext() ;
 
-  static inline ::GlobalNamespace::HologramRays__FadingCoroutine_d__28* New_ctor(int32_t __1__state);
+static inline ::GlobalNamespace::HologramRays__FadingCoroutine_d__28* New_ctor(int32_t  __1__state) ;
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x587f164, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
+/// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5880a10, size 0x8, virtual true, abstract: false, final true
+inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current() ;
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x587f16c, size 0x38, virtual true, abstract: false, final true
-  inline void System_Collections_IEnumerator_Reset();
+/// @brief Method System.Collections.IEnumerator.Reset, addr 0x5880a18, size 0x38, virtual true, abstract: false, final true
+inline void System_Collections_IEnumerator_Reset() ;
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x587f1a4, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Object* System_Collections_IEnumerator_get_Current();
+/// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5880a50, size 0x8, virtual true, abstract: false, final true
+inline ::System::Object* System_Collections_IEnumerator_get_Current() ;
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x587efd0, size 0x4, virtual true, abstract: false, final true
-  inline void System_IDisposable_Dispose();
+/// @brief Method System.IDisposable.Dispose, addr 0x588087c, size 0x4, virtual true, abstract: false, final true
+inline void System_IDisposable_Dispose() ;
 
-  constexpr int32_t const& __cordl_internal_get___1__state() const;
+constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr int32_t& __cordl_internal_get___1__state();
+constexpr int32_t& __cordl_internal_get___1__state() ;
 
-  constexpr ::System::Object* const& __cordl_internal_get___2__current() const;
+constexpr ::System::Object* const& __cordl_internal_get___2__current() const;
 
-  constexpr ::System::Object*& __cordl_internal_get___2__current();
+constexpr ::System::Object*& __cordl_internal_get___2__current() ;
 
-  constexpr ::UnityW<::GlobalNamespace::HologramRays> const& __cordl_internal_get___4__this() const;
+constexpr ::UnityW<::GlobalNamespace::HologramRays> const& __cordl_internal_get___4__this() const;
 
-  constexpr ::UnityW<::GlobalNamespace::HologramRays>& __cordl_internal_get___4__this();
+constexpr ::UnityW<::GlobalNamespace::HologramRays>& __cordl_internal_get___4__this() ;
 
-  constexpr float_t const& __cordl_internal_get_duration() const;
+constexpr float_t const& __cordl_internal_get_duration() const;
 
-  constexpr float_t& __cordl_internal_get_duration();
+constexpr float_t& __cordl_internal_get_duration() ;
 
-  constexpr ::GlobalNamespace::EaseType const& __cordl_internal_get_easeType() const;
+constexpr ::GlobalNamespace::EaseType const& __cordl_internal_get_easeType() const;
 
-  constexpr ::GlobalNamespace::EaseType& __cordl_internal_get_easeType();
+constexpr ::GlobalNamespace::EaseType& __cordl_internal_get_easeType() ;
 
-  constexpr bool const& __cordl_internal_get_turningOn() const;
+constexpr bool const& __cordl_internal_get_turningOn() const;
 
-  constexpr bool& __cordl_internal_get_turningOn();
+constexpr bool& __cordl_internal_get_turningOn() ;
 
-  constexpr void __cordl_internal_set___1__state(int32_t value);
+constexpr void __cordl_internal_set___1__state(int32_t  value) ;
 
-  constexpr void __cordl_internal_set___2__current(::System::Object* value);
+constexpr void __cordl_internal_set___2__current(::System::Object*  value) ;
 
-  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::HologramRays> value);
+constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::HologramRays>  value) ;
 
-  constexpr void __cordl_internal_set_duration(float_t value);
+constexpr void __cordl_internal_set_duration(float_t  value) ;
 
-  constexpr void __cordl_internal_set_easeType(::GlobalNamespace::EaseType value);
+constexpr void __cordl_internal_set_easeType(::GlobalNamespace::EaseType  value) ;
 
-  constexpr void __cordl_internal_set_turningOn(bool value);
+constexpr void __cordl_internal_set_turningOn(bool  value) ;
 
-  /// @brief Method .ctor, addr 0x587ee68, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(int32_t __1__state);
+/// @brief Method .ctor, addr 0x5880714, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(int32_t  __1__state) ;
 
-  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
-  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
+/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
 
-  /// @brief Convert to "::System::Collections::IEnumerator"
-  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+/// @brief Convert to "::System::Collections::IEnumerator"
+constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+/// @brief Convert to "::System::IDisposable"
+constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HologramRays__FadingCoroutine_d__28();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr HologramRays__FadingCoroutine_d__28() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HologramRays__FadingCoroutine_d__28", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  HologramRays__FadingCoroutine_d__28(HologramRays__FadingCoroutine_d__28&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HologramRays__FadingCoroutine_d__28", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  HologramRays__FadingCoroutine_d__28(HologramRays__FadingCoroutine_d__28 const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "HologramRays__FadingCoroutine_d__28", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+HologramRays__FadingCoroutine_d__28(HologramRays__FadingCoroutine_d__28 && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6058 };
+// Ctor Parameters [CppParam { name: "", ty: "HologramRays__FadingCoroutine_d__28", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+HologramRays__FadingCoroutine_d__28(HologramRays__FadingCoroutine_d__28 const& ) = delete;
 
-  /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
-  int32_t _____1__state;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6058};
 
-  /// @brief Field <>2__current, offset: 0x18, size: 0x8, def value: None
-  ::System::Object* _____2__current;
+/// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
+ int32_t  _____1__state;
 
-  /// @brief Field turningOn, offset: 0x20, size: 0x1, def value: None
-  bool ___turningOn;
+/// @brief Field <>2__current, offset: 0x18, size: 0x8, def value: None
+ ::System::Object*  _____2__current;
 
-  /// @brief Field <>4__this, offset: 0x28, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::HologramRays> _____4__this;
+/// @brief Field turningOn, offset: 0x20, size: 0x1, def value: None
+ bool  ___turningOn;
 
-  /// @brief Field easeType, offset: 0x30, size: 0x4, def value: None
-  ::GlobalNamespace::EaseType ___easeType;
+/// @brief Field <>4__this, offset: 0x28, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::HologramRays>  _____4__this;
 
-  /// @brief Field duration, offset: 0x34, size: 0x4, def value: None
-  float_t ___duration;
+/// @brief Field easeType, offset: 0x30, size: 0x4, def value: None
+ ::GlobalNamespace::EaseType  ___easeType;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field duration, offset: 0x34, size: 0x4, def value: None
+ float_t  ___duration;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::HologramRays__FadingCoroutine_d__28, _____1__state) == 0x10, "Offset mismatch!");
@@ -215,301 +216,301 @@ static_assert(offsetof(::GlobalNamespace::HologramRays__FadingCoroutine_d__28, _
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::HologramRays__FadingCoroutine_d__28, 0x38>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 // Dependencies UnityEngine.Color, UnityEngine.MonoBehaviour, UnityEngine.Vector3
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: HologramRays
 class CORDL_TYPE HologramRays : public ::UnityEngine::MonoBehaviour {
 public:
-  // Declarations
-  using _FadingCoroutine_d__28 = ::GlobalNamespace::HologramRays__FadingCoroutine_d__28;
+// Declarations
+using _FadingCoroutine_d__28 = ::GlobalNamespace::HologramRays__FadingCoroutine_d__28;
 
-  /// @brief Field _alpha, offset 0x90, size 0x4
-  __declspec(property(get = __cordl_internal_get__alpha, put = __cordl_internal_set__alpha)) float_t _alpha;
+/// @brief Field _alpha, offset 0x90, size 0x4 
+ __declspec(property(get=__cordl_internal_get__alpha, put=__cordl_internal_set__alpha)) float_t  _alpha;
 
-  /// @brief Field _bloomColor, offset 0x70, size 0x10
-  __declspec(property(get = __cordl_internal_get__bloomColor, put = __cordl_internal_set__bloomColor)) ::UnityEngine::Color _bloomColor;
+/// @brief Field _bloomColor, offset 0x70, size 0x10 
+ __declspec(property(get=__cordl_internal_get__bloomColor, put=__cordl_internal_set__bloomColor)) ::UnityEngine::Color  _bloomColor;
 
-  /// @brief Field _bloomLight, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__bloomLight, put = __cordl_internal_set__bloomLight)) ::UnityW<::GlobalNamespace::TubeBloomPrePassLight> _bloomLight;
+/// @brief Field _bloomLight, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get__bloomLight, put=__cordl_internal_set__bloomLight)) ::UnityW<::GlobalNamespace::TubeBloomPrePassLight>  _bloomLight;
 
-  /// @brief Field _bloomTransparentColor, offset 0x80, size 0x10
-  __declspec(property(get = __cordl_internal_get__bloomTransparentColor, put = __cordl_internal_set__bloomTransparentColor)) ::UnityEngine::Color _bloomTransparentColor;
+/// @brief Field _bloomTransparentColor, offset 0x80, size 0x10 
+ __declspec(property(get=__cordl_internal_get__bloomTransparentColor, put=__cordl_internal_set__bloomTransparentColor)) ::UnityEngine::Color  _bloomTransparentColor;
 
-  /// @brief Field _bottomYPosition, offset 0x54, size 0x4
-  __declspec(property(get = __cordl_internal_get__bottomYPosition, put = __cordl_internal_set__bottomYPosition)) float_t _bottomYPosition;
+/// @brief Field _bottomYPosition, offset 0x54, size 0x4 
+ __declspec(property(get=__cordl_internal_get__bottomYPosition, put=__cordl_internal_set__bottomYPosition)) float_t  _bottomYPosition;
 
-  /// @brief Field _hologramRaysMesh, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__hologramRaysMesh, put = __cordl_internal_set__hologramRaysMesh)) ::UnityW<::UnityEngine::Mesh> _hologramRaysMesh;
+/// @brief Field _hologramRaysMesh, offset 0x48, size 0x8 
+ __declspec(property(get=__cordl_internal_get__hologramRaysMesh, put=__cordl_internal_set__hologramRaysMesh)) ::UnityW<::UnityEngine::Mesh>  _hologramRaysMesh;
 
-  /// @brief Field _hologramRaysTransform, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__hologramRaysTransform, put = __cordl_internal_set__hologramRaysTransform)) ::UnityW<::UnityEngine::Transform> _hologramRaysTransform;
+/// @brief Field _hologramRaysTransform, offset 0x40, size 0x8 
+ __declspec(property(get=__cordl_internal_get__hologramRaysTransform, put=__cordl_internal_set__hologramRaysTransform)) ::UnityW<::UnityEngine::Transform>  _hologramRaysTransform;
 
-  /// @brief Field _laserHolderTransform, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__laserHolderTransform, put = __cordl_internal_set__laserHolderTransform)) ::UnityW<::UnityEngine::Transform> _laserHolderTransform;
+/// @brief Field _laserHolderTransform, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get__laserHolderTransform, put=__cordl_internal_set__laserHolderTransform)) ::UnityW<::UnityEngine::Transform>  _laserHolderTransform;
 
-  /// @brief Field _materialAlphaID, offset 0xffffffff, size 0x4
-  __declspec(property(get = getStaticF__materialAlphaID, put = setStaticF__materialAlphaID)) int32_t _materialAlphaID;
+/// @brief Field _materialAlphaID, offset 0xffffffff, size 0x4 
+ __declspec(property(get=getStaticF__materialAlphaID, put=setStaticF__materialAlphaID)) int32_t  _materialAlphaID;
 
-  /// @brief Field _materialBottomPositionID, offset 0xffffffff, size 0x4
-  __declspec(property(get = getStaticF__materialBottomPositionID, put = setStaticF__materialBottomPositionID)) int32_t _materialBottomPositionID;
+/// @brief Field _materialBottomPositionID, offset 0xffffffff, size 0x4 
+ __declspec(property(get=getStaticF__materialBottomPositionID, put=setStaticF__materialBottomPositionID)) int32_t  _materialBottomPositionID;
 
-  /// @brief Field _materialPropertyBlock, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF__materialPropertyBlock, put = setStaticF__materialPropertyBlock)) ::UnityEngine::MaterialPropertyBlock* _materialPropertyBlock;
+/// @brief Field _materialPropertyBlock, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF__materialPropertyBlock, put=setStaticF__materialPropertyBlock)) ::UnityEngine::MaterialPropertyBlock*  _materialPropertyBlock;
 
-  /// @brief Field _materialTopPositionID, offset 0xffffffff, size 0x4
-  __declspec(property(get = getStaticF__materialTopPositionID, put = setStaticF__materialTopPositionID)) int32_t _materialTopPositionID;
+/// @brief Field _materialTopPositionID, offset 0xffffffff, size 0x4 
+ __declspec(property(get=getStaticF__materialTopPositionID, put=setStaticF__materialTopPositionID)) int32_t  _materialTopPositionID;
 
-  /// @brief Field _raysDistance, offset 0x94, size 0x4
-  __declspec(property(get = __cordl_internal_get__raysDistance, put = __cordl_internal_set__raysDistance)) float_t _raysDistance;
+/// @brief Field _raysDistance, offset 0x94, size 0x4 
+ __declspec(property(get=__cordl_internal_get__raysDistance, put=__cordl_internal_set__raysDistance)) float_t  _raysDistance;
 
-  /// @brief Field _raysLocalScale, offset 0x98, size 0xc
-  __declspec(property(get = __cordl_internal_get__raysLocalScale, put = __cordl_internal_set__raysLocalScale)) ::UnityEngine::Vector3 _raysLocalScale;
+/// @brief Field _raysLocalScale, offset 0x98, size 0xc 
+ __declspec(property(get=__cordl_internal_get__raysLocalScale, put=__cordl_internal_set__raysLocalScale)) ::UnityEngine::Vector3  _raysLocalScale;
 
-  /// @brief Field _raysMeshRenderer, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__raysMeshRenderer, put = __cordl_internal_set__raysMeshRenderer)) ::UnityW<::UnityEngine::MeshRenderer> _raysMeshRenderer;
+/// @brief Field _raysMeshRenderer, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get__raysMeshRenderer, put=__cordl_internal_set__raysMeshRenderer)) ::UnityW<::UnityEngine::MeshRenderer>  _raysMeshRenderer;
 
-  /// @brief Field _targetTransform, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__targetTransform, put = __cordl_internal_set__targetTransform)) ::UnityW<::UnityEngine::Transform> _targetTransform;
+/// @brief Field _targetTransform, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get__targetTransform, put=__cordl_internal_set__targetTransform)) ::UnityW<::UnityEngine::Transform>  _targetTransform;
 
-  /// @brief Field _topYPosition, offset 0x50, size 0x4
-  __declspec(property(get = __cordl_internal_get__topYPosition, put = __cordl_internal_set__topYPosition)) float_t _topYPosition;
+/// @brief Field _topYPosition, offset 0x50, size 0x4 
+ __declspec(property(get=__cordl_internal_get__topYPosition, put=__cordl_internal_set__topYPosition)) float_t  _topYPosition;
 
-  /// @brief Field _transitionTween, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get__transitionTween, put = __cordl_internal_set__transitionTween)) ::Tweening::FloatTween* _transitionTween;
+/// @brief Field _transitionTween, offset 0x68, size 0x8 
+ __declspec(property(get=__cordl_internal_get__transitionTween, put=__cordl_internal_set__transitionTween)) ::Tweening::FloatTween*  _transitionTween;
 
-  /// @brief Field _tweeningManager, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get__tweeningManager, put = __cordl_internal_set__tweeningManager)) ::UnityW<::Tweening::TimeTweeningManager> _tweeningManager;
+/// @brief Field _tweeningManager, offset 0x60, size 0x8 
+ __declspec(property(get=__cordl_internal_get__tweeningManager, put=__cordl_internal_set__tweeningManager)) ::UnityW<::Tweening::TimeTweeningManager>  _tweeningManager;
 
-  /// @brief Field boundsInitialized, offset 0xa4, size 0x1
-  __declspec(property(get = __cordl_internal_get_boundsInitialized, put = __cordl_internal_set_boundsInitialized)) bool boundsInitialized;
+/// @brief Field boundsInitialized, offset 0xa4, size 0x1 
+ __declspec(property(get=__cordl_internal_get_boundsInitialized, put=__cordl_internal_set_boundsInitialized)) bool  boundsInitialized;
 
-  /// @brief Field cachedExtent, offset 0x58, size 0x4
-  __declspec(property(get = __cordl_internal_get_cachedExtent, put = __cordl_internal_set_cachedExtent)) float_t cachedExtent;
+/// @brief Field cachedExtent, offset 0x58, size 0x4 
+ __declspec(property(get=__cordl_internal_get_cachedExtent, put=__cordl_internal_set_cachedExtent)) float_t  cachedExtent;
 
-  /// @brief Method Animate, addr 0x587ec74, size 0xa4, virtual false, abstract: false, final false
-  inline void Animate(bool turningOn, float_t duration, ::GlobalNamespace::EaseType easeType);
+/// @brief Method Animate, addr 0x5880520, size 0xa4, virtual false, abstract: false, final false
+inline void Animate(bool  turningOn, float_t  duration, ::GlobalNamespace::EaseType  easeType) ;
 
-  /// @brief Method Awake, addr 0x587e740, size 0x1b0, virtual false, abstract: false, final false
-  inline void Awake();
+/// @brief Method Awake, addr 0x587ffec, size 0x1b0, virtual false, abstract: false, final false
+inline void Awake() ;
 
-  /// @brief Method FadingCoroutine, addr 0x587ed18, size 0x80, virtual false, abstract: false, final false
-  inline ::System::Collections::IEnumerator* FadingCoroutine(bool turningOn, float_t duration, ::GlobalNamespace::EaseType easeType);
+/// @brief Method FadingCoroutine, addr 0x58805c4, size 0x80, virtual false, abstract: false, final false
+inline ::System::Collections::IEnumerator* FadingCoroutine(bool  turningOn, float_t  duration, ::GlobalNamespace::EaseType  easeType) ;
 
-  static inline ::GlobalNamespace::HologramRays* New_ctor();
+static inline ::GlobalNamespace::HologramRays* New_ctor() ;
 
-  /// @brief Method OnDisable, addr 0x587e8f0, size 0x1c, virtual false, abstract: false, final false
-  inline void OnDisable();
+/// @brief Method OnDisable, addr 0x588019c, size 0x1c, virtual false, abstract: false, final false
+inline void OnDisable() ;
 
-  /// @brief Method OnValidate, addr 0x587e90c, size 0xd0, virtual false, abstract: false, final false
-  inline void OnValidate();
+/// @brief Method OnValidate, addr 0x58801b8, size 0xd0, virtual false, abstract: false, final false
+inline void OnValidate() ;
 
-  /// @brief Method Refresh, addr 0x587e9dc, size 0x294, virtual false, abstract: false, final false
-  inline void Refresh();
+/// @brief Method Refresh, addr 0x5880288, size 0x294, virtual false, abstract: false, final false
+inline void Refresh() ;
 
-  /// @brief Method RuntimeInit, addr 0x587e6e4, size 0x5c, virtual false, abstract: false, final false
-  static inline void RuntimeInit();
+/// @brief Method RuntimeInit, addr 0x587ff90, size 0x5c, virtual false, abstract: false, final false
+static inline void RuntimeInit() ;
 
-  /// @brief Method Update, addr 0x587ec70, size 0x4, virtual false, abstract: false, final false
-  inline void Update();
+/// @brief Method Update, addr 0x588051c, size 0x4, virtual false, abstract: false, final false
+inline void Update() ;
 
-  /// @brief Method UpdateBounds, addr 0x587ed98, size 0xd0, virtual false, abstract: false, final false
-  inline void UpdateBounds();
+/// @brief Method UpdateBounds, addr 0x5880644, size 0xd0, virtual false, abstract: false, final false
+inline void UpdateBounds() ;
 
-  /// @brief Method <Awake>b__22_0, addr 0x587ef68, size 0x68, virtual false, abstract: false, final false
-  inline void _Awake_b__22_0(float_t f);
+/// @brief Method <Awake>b__22_0, addr 0x5880814, size 0x68, virtual false, abstract: false, final false
+inline void _Awake_b__22_0(float_t  f) ;
 
-  constexpr float_t const& __cordl_internal_get__alpha() const;
+constexpr float_t const& __cordl_internal_get__alpha() const;
 
-  constexpr float_t& __cordl_internal_get__alpha();
+constexpr float_t& __cordl_internal_get__alpha() ;
 
-  constexpr ::UnityEngine::Color const& __cordl_internal_get__bloomColor() const;
+constexpr ::UnityEngine::Color const& __cordl_internal_get__bloomColor() const;
 
-  constexpr ::UnityEngine::Color& __cordl_internal_get__bloomColor();
+constexpr ::UnityEngine::Color& __cordl_internal_get__bloomColor() ;
 
-  constexpr ::UnityW<::GlobalNamespace::TubeBloomPrePassLight> const& __cordl_internal_get__bloomLight() const;
+constexpr ::UnityW<::GlobalNamespace::TubeBloomPrePassLight> const& __cordl_internal_get__bloomLight() const;
 
-  constexpr ::UnityW<::GlobalNamespace::TubeBloomPrePassLight>& __cordl_internal_get__bloomLight();
+constexpr ::UnityW<::GlobalNamespace::TubeBloomPrePassLight>& __cordl_internal_get__bloomLight() ;
 
-  constexpr ::UnityEngine::Color const& __cordl_internal_get__bloomTransparentColor() const;
+constexpr ::UnityEngine::Color const& __cordl_internal_get__bloomTransparentColor() const;
 
-  constexpr ::UnityEngine::Color& __cordl_internal_get__bloomTransparentColor();
+constexpr ::UnityEngine::Color& __cordl_internal_get__bloomTransparentColor() ;
 
-  constexpr float_t const& __cordl_internal_get__bottomYPosition() const;
+constexpr float_t const& __cordl_internal_get__bottomYPosition() const;
 
-  constexpr float_t& __cordl_internal_get__bottomYPosition();
+constexpr float_t& __cordl_internal_get__bottomYPosition() ;
 
-  constexpr ::UnityW<::UnityEngine::Mesh> const& __cordl_internal_get__hologramRaysMesh() const;
+constexpr ::UnityW<::UnityEngine::Mesh> const& __cordl_internal_get__hologramRaysMesh() const;
 
-  constexpr ::UnityW<::UnityEngine::Mesh>& __cordl_internal_get__hologramRaysMesh();
+constexpr ::UnityW<::UnityEngine::Mesh>& __cordl_internal_get__hologramRaysMesh() ;
 
-  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__hologramRaysTransform() const;
+constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__hologramRaysTransform() const;
 
-  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__hologramRaysTransform();
+constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__hologramRaysTransform() ;
 
-  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__laserHolderTransform() const;
+constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__laserHolderTransform() const;
 
-  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__laserHolderTransform();
+constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__laserHolderTransform() ;
 
-  constexpr float_t const& __cordl_internal_get__raysDistance() const;
+constexpr float_t const& __cordl_internal_get__raysDistance() const;
 
-  constexpr float_t& __cordl_internal_get__raysDistance();
+constexpr float_t& __cordl_internal_get__raysDistance() ;
 
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__raysLocalScale() const;
+constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__raysLocalScale() const;
 
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get__raysLocalScale();
+constexpr ::UnityEngine::Vector3& __cordl_internal_get__raysLocalScale() ;
 
-  constexpr ::UnityW<::UnityEngine::MeshRenderer> const& __cordl_internal_get__raysMeshRenderer() const;
+constexpr ::UnityW<::UnityEngine::MeshRenderer> const& __cordl_internal_get__raysMeshRenderer() const;
 
-  constexpr ::UnityW<::UnityEngine::MeshRenderer>& __cordl_internal_get__raysMeshRenderer();
+constexpr ::UnityW<::UnityEngine::MeshRenderer>& __cordl_internal_get__raysMeshRenderer() ;
 
-  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__targetTransform() const;
+constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__targetTransform() const;
 
-  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__targetTransform();
+constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__targetTransform() ;
 
-  constexpr float_t const& __cordl_internal_get__topYPosition() const;
+constexpr float_t const& __cordl_internal_get__topYPosition() const;
 
-  constexpr float_t& __cordl_internal_get__topYPosition();
+constexpr float_t& __cordl_internal_get__topYPosition() ;
 
-  constexpr ::Tweening::FloatTween* const& __cordl_internal_get__transitionTween() const;
+constexpr ::Tweening::FloatTween* const& __cordl_internal_get__transitionTween() const;
 
-  constexpr ::Tweening::FloatTween*& __cordl_internal_get__transitionTween();
+constexpr ::Tweening::FloatTween*& __cordl_internal_get__transitionTween() ;
 
-  constexpr ::UnityW<::Tweening::TimeTweeningManager> const& __cordl_internal_get__tweeningManager() const;
+constexpr ::UnityW<::Tweening::TimeTweeningManager> const& __cordl_internal_get__tweeningManager() const;
 
-  constexpr ::UnityW<::Tweening::TimeTweeningManager>& __cordl_internal_get__tweeningManager();
+constexpr ::UnityW<::Tweening::TimeTweeningManager>& __cordl_internal_get__tweeningManager() ;
 
-  constexpr bool const& __cordl_internal_get_boundsInitialized() const;
+constexpr bool const& __cordl_internal_get_boundsInitialized() const;
 
-  constexpr bool& __cordl_internal_get_boundsInitialized();
+constexpr bool& __cordl_internal_get_boundsInitialized() ;
 
-  constexpr float_t const& __cordl_internal_get_cachedExtent() const;
+constexpr float_t const& __cordl_internal_get_cachedExtent() const;
 
-  constexpr float_t& __cordl_internal_get_cachedExtent();
+constexpr float_t& __cordl_internal_get_cachedExtent() ;
 
-  constexpr void __cordl_internal_set__alpha(float_t value);
+constexpr void __cordl_internal_set__alpha(float_t  value) ;
 
-  constexpr void __cordl_internal_set__bloomColor(::UnityEngine::Color value);
+constexpr void __cordl_internal_set__bloomColor(::UnityEngine::Color  value) ;
 
-  constexpr void __cordl_internal_set__bloomLight(::UnityW<::GlobalNamespace::TubeBloomPrePassLight> value);
+constexpr void __cordl_internal_set__bloomLight(::UnityW<::GlobalNamespace::TubeBloomPrePassLight>  value) ;
 
-  constexpr void __cordl_internal_set__bloomTransparentColor(::UnityEngine::Color value);
+constexpr void __cordl_internal_set__bloomTransparentColor(::UnityEngine::Color  value) ;
 
-  constexpr void __cordl_internal_set__bottomYPosition(float_t value);
+constexpr void __cordl_internal_set__bottomYPosition(float_t  value) ;
 
-  constexpr void __cordl_internal_set__hologramRaysMesh(::UnityW<::UnityEngine::Mesh> value);
+constexpr void __cordl_internal_set__hologramRaysMesh(::UnityW<::UnityEngine::Mesh>  value) ;
 
-  constexpr void __cordl_internal_set__hologramRaysTransform(::UnityW<::UnityEngine::Transform> value);
+constexpr void __cordl_internal_set__hologramRaysTransform(::UnityW<::UnityEngine::Transform>  value) ;
 
-  constexpr void __cordl_internal_set__laserHolderTransform(::UnityW<::UnityEngine::Transform> value);
+constexpr void __cordl_internal_set__laserHolderTransform(::UnityW<::UnityEngine::Transform>  value) ;
 
-  constexpr void __cordl_internal_set__raysDistance(float_t value);
+constexpr void __cordl_internal_set__raysDistance(float_t  value) ;
 
-  constexpr void __cordl_internal_set__raysLocalScale(::UnityEngine::Vector3 value);
+constexpr void __cordl_internal_set__raysLocalScale(::UnityEngine::Vector3  value) ;
 
-  constexpr void __cordl_internal_set__raysMeshRenderer(::UnityW<::UnityEngine::MeshRenderer> value);
+constexpr void __cordl_internal_set__raysMeshRenderer(::UnityW<::UnityEngine::MeshRenderer>  value) ;
 
-  constexpr void __cordl_internal_set__targetTransform(::UnityW<::UnityEngine::Transform> value);
+constexpr void __cordl_internal_set__targetTransform(::UnityW<::UnityEngine::Transform>  value) ;
 
-  constexpr void __cordl_internal_set__topYPosition(float_t value);
+constexpr void __cordl_internal_set__topYPosition(float_t  value) ;
 
-  constexpr void __cordl_internal_set__transitionTween(::Tweening::FloatTween* value);
+constexpr void __cordl_internal_set__transitionTween(::Tweening::FloatTween*  value) ;
 
-  constexpr void __cordl_internal_set__tweeningManager(::UnityW<::Tweening::TimeTweeningManager> value);
+constexpr void __cordl_internal_set__tweeningManager(::UnityW<::Tweening::TimeTweeningManager>  value) ;
 
-  constexpr void __cordl_internal_set_boundsInitialized(bool value);
+constexpr void __cordl_internal_set_boundsInitialized(bool  value) ;
 
-  constexpr void __cordl_internal_set_cachedExtent(float_t value);
+constexpr void __cordl_internal_set_cachedExtent(float_t  value) ;
 
-  /// @brief Method .ctor, addr 0x587ee70, size 0x1c, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x588071c, size 0x1c, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  static inline int32_t getStaticF__materialAlphaID();
+static inline int32_t getStaticF__materialAlphaID() ;
 
-  static inline int32_t getStaticF__materialBottomPositionID();
+static inline int32_t getStaticF__materialBottomPositionID() ;
 
-  static inline ::UnityEngine::MaterialPropertyBlock* getStaticF__materialPropertyBlock();
+static inline ::UnityEngine::MaterialPropertyBlock* getStaticF__materialPropertyBlock() ;
 
-  static inline int32_t getStaticF__materialTopPositionID();
+static inline int32_t getStaticF__materialTopPositionID() ;
 
-  static inline void setStaticF__materialAlphaID(int32_t value);
+static inline void setStaticF__materialAlphaID(int32_t  value) ;
 
-  static inline void setStaticF__materialBottomPositionID(int32_t value);
+static inline void setStaticF__materialBottomPositionID(int32_t  value) ;
 
-  static inline void setStaticF__materialPropertyBlock(::UnityEngine::MaterialPropertyBlock* value);
+static inline void setStaticF__materialPropertyBlock(::UnityEngine::MaterialPropertyBlock*  value) ;
 
-  static inline void setStaticF__materialTopPositionID(int32_t value);
+static inline void setStaticF__materialTopPositionID(int32_t  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HologramRays();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr HologramRays() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HologramRays", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  HologramRays(HologramRays&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HologramRays", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  HologramRays(HologramRays const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "HologramRays", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+HologramRays(HologramRays && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6059 };
+// Ctor Parameters [CppParam { name: "", ty: "HologramRays", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+HologramRays(HologramRays const& ) = delete;
 
-  /// @brief Field _bloomLight, offset: 0x20, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::TubeBloomPrePassLight> ____bloomLight;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6059};
 
-  /// @brief Field _raysMeshRenderer, offset: 0x28, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::MeshRenderer> ____raysMeshRenderer;
+/// @brief Field _bloomLight, offset: 0x20, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::TubeBloomPrePassLight>  ____bloomLight;
 
-  /// @brief Field _targetTransform, offset: 0x30, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::Transform> ____targetTransform;
+/// @brief Field _raysMeshRenderer, offset: 0x28, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::MeshRenderer>  ____raysMeshRenderer;
 
-  /// @brief Field _laserHolderTransform, offset: 0x38, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::Transform> ____laserHolderTransform;
+/// @brief Field _targetTransform, offset: 0x30, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::Transform>  ____targetTransform;
 
-  /// @brief Field _hologramRaysTransform, offset: 0x40, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::Transform> ____hologramRaysTransform;
+/// @brief Field _laserHolderTransform, offset: 0x38, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::Transform>  ____laserHolderTransform;
 
-  /// @brief Field _hologramRaysMesh, offset: 0x48, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::Mesh> ____hologramRaysMesh;
+/// @brief Field _hologramRaysTransform, offset: 0x40, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::Transform>  ____hologramRaysTransform;
 
-  /// @brief Field _topYPosition, offset: 0x50, size: 0x4, def value: None
-  float_t ____topYPosition;
+/// @brief Field _hologramRaysMesh, offset: 0x48, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::Mesh>  ____hologramRaysMesh;
 
-  /// @brief Field _bottomYPosition, offset: 0x54, size: 0x4, def value: None
-  float_t ____bottomYPosition;
+/// @brief Field _topYPosition, offset: 0x50, size: 0x4, def value: None
+ float_t  ____topYPosition;
 
-  /// @brief Field cachedExtent, offset: 0x58, size: 0x4, def value: None
-  float_t ___cachedExtent;
+/// @brief Field _bottomYPosition, offset: 0x54, size: 0x4, def value: None
+ float_t  ____bottomYPosition;
 
-  /// @brief Field _tweeningManager, offset: 0x60, size: 0x8, def value: None
-  ::UnityW<::Tweening::TimeTweeningManager> ____tweeningManager;
+/// @brief Field cachedExtent, offset: 0x58, size: 0x4, def value: None
+ float_t  ___cachedExtent;
 
-  /// @brief Field _transitionTween, offset: 0x68, size: 0x8, def value: None
-  ::Tweening::FloatTween* ____transitionTween;
+/// @brief Field _tweeningManager, offset: 0x60, size: 0x8, def value: None
+ ::UnityW<::Tweening::TimeTweeningManager>  ____tweeningManager;
 
-  /// @brief Field _bloomColor, offset: 0x70, size: 0x10, def value: None
-  ::UnityEngine::Color ____bloomColor;
+/// @brief Field _transitionTween, offset: 0x68, size: 0x8, def value: None
+ ::Tweening::FloatTween*  ____transitionTween;
 
-  /// @brief Field _bloomTransparentColor, offset: 0x80, size: 0x10, def value: None
-  ::UnityEngine::Color ____bloomTransparentColor;
+/// @brief Field _bloomColor, offset: 0x70, size: 0x10, def value: None
+ ::UnityEngine::Color  ____bloomColor;
 
-  /// @brief Field _alpha, offset: 0x90, size: 0x4, def value: None
-  float_t ____alpha;
+/// @brief Field _bloomTransparentColor, offset: 0x80, size: 0x10, def value: None
+ ::UnityEngine::Color  ____bloomTransparentColor;
 
-  /// @brief Field _raysDistance, offset: 0x94, size: 0x4, def value: None
-  float_t ____raysDistance;
+/// @brief Field _alpha, offset: 0x90, size: 0x4, def value: None
+ float_t  ____alpha;
 
-  /// @brief Field _raysLocalScale, offset: 0x98, size: 0xc, def value: None
-  ::UnityEngine::Vector3 ____raysLocalScale;
+/// @brief Field _raysDistance, offset: 0x94, size: 0x4, def value: None
+ float_t  ____raysDistance;
 
-  /// @brief Field boundsInitialized, offset: 0xa4, size: 0x1, def value: None
-  bool ___boundsInitialized;
+/// @brief Field _raysLocalScale, offset: 0x98, size: 0xc, def value: None
+ ::UnityEngine::Vector3  ____raysLocalScale;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field boundsInitialized, offset: 0xa4, size: 0x1, def value: None
+ bool  ___boundsInitialized;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::HologramRays, ____bloomLight) == 0x20, "Offset mismatch!");
@@ -548,7 +549,7 @@ static_assert(offsetof(::GlobalNamespace::HologramRays, ___boundsInitialized) ==
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::HologramRays, 0xa8>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::HologramRays);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::HologramRays*, "", "HologramRays");
 NEED_NO_BOX(::GlobalNamespace::HologramRays__FadingCoroutine_d__28);

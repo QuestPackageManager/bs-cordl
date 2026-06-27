@@ -32,51 +32,50 @@ namespace System {
 // CS Name: System.TypedReference
 struct CORDL_TYPE TypedReference {
 public:
-  // Declarations
-  __declspec(property(get = get_IsNull)) bool IsNull;
+// Declarations
+ __declspec(property(get=get_IsNull)) bool  IsNull;
 
-  /// @brief Method Equals, addr 0x5b4cc44, size 0x50, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* o);
+/// @brief Method Equals, addr 0x5b4e7bc, size 0x50, virtual true, abstract: false, final false
+inline bool Equals(::System::Object*  o) ;
 
-  /// @brief Method GetHashCode, addr 0x5b4cbec, size 0x58, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
+/// @brief Method GetHashCode, addr 0x5b4e764, size 0x58, virtual true, abstract: false, final false
+inline int32_t GetHashCode() ;
 
-  /// @brief Method InternalMakeTypedReference, addr 0x5b4cbe8, size 0x4, virtual false, abstract: false, final false
-  static inline void InternalMakeTypedReference(void* result, ::System::Object* target, ::ArrayW<::System::IntPtr, ::Array<::System::IntPtr>*> flds, ::System::RuntimeType* lastFieldType);
+/// @brief Method InternalMakeTypedReference, addr 0x5b4e760, size 0x4, virtual false, abstract: false, final false
+static inline void InternalMakeTypedReference(void*  result, ::System::Object*  target, ::ArrayW<::System::IntPtr,::Array<::System::IntPtr>*>  flds, ::System::RuntimeType*  lastFieldType) ;
 
-  /// @brief Method MakeTypedReference, addr 0x5b4c7c4, size 0x418, virtual false, abstract: false, final false
-  static inline ::System::TypedReference MakeTypedReference(::System::Object* target, ::ArrayW<::System::Reflection::FieldInfo*, ::Array<::System::Reflection::FieldInfo*>*> flds);
+/// @brief Method MakeTypedReference, addr 0x5b4e33c, size 0x418, virtual false, abstract: false, final false
+static inline ::System::TypedReference MakeTypedReference(::System::Object*  target, ::ArrayW<::System::Reflection::FieldInfo*,::Array<::System::Reflection::FieldInfo*>*>  flds) ;
 
-  /// @brief Method SetTypedReference, addr 0x5b4ccb4, size 0x4c, virtual false, abstract: false, final false
-  static inline void SetTypedReference(::System::TypedReference target, ::System::Object* value);
+/// @brief Method SetTypedReference, addr 0x5b4e82c, size 0x4c, virtual false, abstract: false, final false
+static inline void SetTypedReference(::System::TypedReference  target, ::System::Object*  value) ;
 
-  /// @brief Method get_IsNull, addr 0x5b4cc94, size 0x20, virtual false, abstract: false, final false
-  inline bool get_IsNull();
+/// @brief Method get_IsNull, addr 0x5b4e80c, size 0x20, virtual false, abstract: false, final false
+inline bool get_IsNull() ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TypedReference();
+// Ctor Parameters []
+// @brief default ctor
+constexpr TypedReference() ;
 
-  // Ctor Parameters [CppParam { name: "type", ty: "::System::RuntimeTypeHandle", modifiers: "", def_value: None }, CppParam { name: "Value", ty: "::System::IntPtr", modifiers: "", def_value: None },
-  // CppParam { name: "Type", ty: "::System::IntPtr", modifiers: "", def_value: None }]
-  constexpr TypedReference(::System::RuntimeTypeHandle type, ::System::IntPtr Value, ::System::IntPtr Type) noexcept;
+// Ctor Parameters [CppParam { name: "type", ty: "::System::RuntimeTypeHandle", modifiers: "", def_value: None }, CppParam { name: "Value", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "Type", ty: "::System::IntPtr", modifiers: "", def_value: None }]
+constexpr TypedReference(::System::RuntimeTypeHandle  type, ::System::IntPtr  Value, ::System::IntPtr  Type) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2582 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{2582};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x18};
 
-  /// @brief Field type, offset: 0x0, size: 0x8, def value: None
-  ::System::RuntimeTypeHandle type;
+/// @brief Field type, offset: 0x0, size: 0x8, def value: None
+ ::System::RuntimeTypeHandle  type;
 
-  /// @brief Field Value, offset: 0x8, size: 0x8, def value: None
-  ::System::IntPtr Value;
+/// @brief Field Value, offset: 0x8, size: 0x8, def value: None
+ ::System::IntPtr  Value;
 
-  /// @brief Field Type, offset: 0x10, size: 0x8, def value: None
-  ::System::IntPtr Type;
+/// @brief Field Type, offset: 0x10, size: 0x8, def value: None
+ ::System::IntPtr  Type;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::System::TypedReference, type) == 0x0, "Offset mismatch!");
@@ -87,5 +86,5 @@ static_assert(offsetof(::System::TypedReference, Type) == 0x10, "Offset mismatch
 
 static_assert(::cordl_internals::size_check_v<::System::TypedReference, 0x18>, "Size mismatch!");
 
-} // namespace System
+} // namespace end def System
 DEFINE_IL2CPP_ARG_TYPE(::System::TypedReference, "System", "TypedReference");

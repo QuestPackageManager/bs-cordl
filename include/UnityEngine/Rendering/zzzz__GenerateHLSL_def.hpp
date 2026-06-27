@@ -23,152 +23,150 @@ namespace UnityEngine::Rendering {
 // CS Name: UnityEngine.Rendering.GenerateHLSL
 class CORDL_TYPE GenerateHLSL : public ::System::Attribute {
 public:
-  // Declarations
-  /// @brief Field constantRegister, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get_constantRegister, put = __cordl_internal_set_constantRegister)) int32_t constantRegister;
+// Declarations
+/// @brief Field constantRegister, offset 0x20, size 0x4 
+ __declspec(property(get=__cordl_internal_get_constantRegister, put=__cordl_internal_set_constantRegister)) int32_t  constantRegister;
 
-  /// @brief Field containsPackedFields, offset 0x14, size 0x1
-  __declspec(property(get = __cordl_internal_get_containsPackedFields, put = __cordl_internal_set_containsPackedFields)) bool containsPackedFields;
+/// @brief Field containsPackedFields, offset 0x14, size 0x1 
+ __declspec(property(get=__cordl_internal_get_containsPackedFields, put=__cordl_internal_set_containsPackedFields)) bool  containsPackedFields;
 
-  /// @brief Field generateCBuffer, offset 0x1d, size 0x1
-  __declspec(property(get = __cordl_internal_get_generateCBuffer, put = __cordl_internal_set_generateCBuffer)) bool generateCBuffer;
+/// @brief Field generateCBuffer, offset 0x1d, size 0x1 
+ __declspec(property(get=__cordl_internal_get_generateCBuffer, put=__cordl_internal_set_generateCBuffer)) bool  generateCBuffer;
 
-  /// @brief Field needAccessors, offset 0x15, size 0x1
-  __declspec(property(get = __cordl_internal_get_needAccessors, put = __cordl_internal_set_needAccessors)) bool needAccessors;
+/// @brief Field needAccessors, offset 0x15, size 0x1 
+ __declspec(property(get=__cordl_internal_get_needAccessors, put=__cordl_internal_set_needAccessors)) bool  needAccessors;
 
-  /// @brief Field needParamDebug, offset 0x17, size 0x1
-  __declspec(property(get = __cordl_internal_get_needParamDebug, put = __cordl_internal_set_needParamDebug)) bool needParamDebug;
+/// @brief Field needParamDebug, offset 0x17, size 0x1 
+ __declspec(property(get=__cordl_internal_get_needParamDebug, put=__cordl_internal_set_needParamDebug)) bool  needParamDebug;
 
-  /// @brief Field needSetters, offset 0x16, size 0x1
-  __declspec(property(get = __cordl_internal_get_needSetters, put = __cordl_internal_set_needSetters)) bool needSetters;
+/// @brief Field needSetters, offset 0x16, size 0x1 
+ __declspec(property(get=__cordl_internal_get_needSetters, put=__cordl_internal_set_needSetters)) bool  needSetters;
 
-  /// @brief Field omitStructDeclaration, offset 0x1c, size 0x1
-  __declspec(property(get = __cordl_internal_get_omitStructDeclaration, put = __cordl_internal_set_omitStructDeclaration)) bool omitStructDeclaration;
+/// @brief Field omitStructDeclaration, offset 0x1c, size 0x1 
+ __declspec(property(get=__cordl_internal_get_omitStructDeclaration, put=__cordl_internal_set_omitStructDeclaration)) bool  omitStructDeclaration;
 
-  /// @brief Field packingRules, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_packingRules, put = __cordl_internal_set_packingRules)) ::UnityEngine::Rendering::PackingRules packingRules;
+/// @brief Field packingRules, offset 0x10, size 0x4 
+ __declspec(property(get=__cordl_internal_get_packingRules, put=__cordl_internal_set_packingRules)) ::UnityEngine::Rendering::PackingRules  packingRules;
 
-  /// @brief Field paramDefinesStart, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get_paramDefinesStart, put = __cordl_internal_set_paramDefinesStart)) int32_t paramDefinesStart;
+/// @brief Field paramDefinesStart, offset 0x18, size 0x4 
+ __declspec(property(get=__cordl_internal_get_paramDefinesStart, put=__cordl_internal_set_paramDefinesStart)) int32_t  paramDefinesStart;
 
-  /// @brief Field sourcePath, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_sourcePath, put = __cordl_internal_set_sourcePath)) ::StringW sourcePath;
+/// @brief Field sourcePath, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get_sourcePath, put=__cordl_internal_set_sourcePath)) ::StringW  sourcePath;
 
-  static inline ::UnityEngine::Rendering::GenerateHLSL* New_ctor(::UnityEngine::Rendering::PackingRules rules, bool needAccessors, bool needSetters, bool needParamDebug, int32_t paramDefinesStart,
-                                                                 bool omitStructDeclaration, bool containsPackedFields, bool generateCBuffer, int32_t constantRegister, ::StringW sourcePath);
+static inline ::UnityEngine::Rendering::GenerateHLSL* New_ctor(::UnityEngine::Rendering::PackingRules  rules, bool  needAccessors, bool  needSetters, bool  needParamDebug, int32_t  paramDefinesStart, bool  omitStructDeclaration, bool  containsPackedFields, bool  generateCBuffer, int32_t  constantRegister, ::StringW  sourcePath) ;
 
-  constexpr int32_t const& __cordl_internal_get_constantRegister() const;
+constexpr int32_t const& __cordl_internal_get_constantRegister() const;
 
-  constexpr int32_t& __cordl_internal_get_constantRegister();
+constexpr int32_t& __cordl_internal_get_constantRegister() ;
 
-  constexpr bool const& __cordl_internal_get_containsPackedFields() const;
+constexpr bool const& __cordl_internal_get_containsPackedFields() const;
 
-  constexpr bool& __cordl_internal_get_containsPackedFields();
+constexpr bool& __cordl_internal_get_containsPackedFields() ;
 
-  constexpr bool const& __cordl_internal_get_generateCBuffer() const;
+constexpr bool const& __cordl_internal_get_generateCBuffer() const;
 
-  constexpr bool& __cordl_internal_get_generateCBuffer();
+constexpr bool& __cordl_internal_get_generateCBuffer() ;
 
-  constexpr bool const& __cordl_internal_get_needAccessors() const;
+constexpr bool const& __cordl_internal_get_needAccessors() const;
 
-  constexpr bool& __cordl_internal_get_needAccessors();
+constexpr bool& __cordl_internal_get_needAccessors() ;
 
-  constexpr bool const& __cordl_internal_get_needParamDebug() const;
+constexpr bool const& __cordl_internal_get_needParamDebug() const;
 
-  constexpr bool& __cordl_internal_get_needParamDebug();
+constexpr bool& __cordl_internal_get_needParamDebug() ;
 
-  constexpr bool const& __cordl_internal_get_needSetters() const;
+constexpr bool const& __cordl_internal_get_needSetters() const;
 
-  constexpr bool& __cordl_internal_get_needSetters();
+constexpr bool& __cordl_internal_get_needSetters() ;
 
-  constexpr bool const& __cordl_internal_get_omitStructDeclaration() const;
+constexpr bool const& __cordl_internal_get_omitStructDeclaration() const;
 
-  constexpr bool& __cordl_internal_get_omitStructDeclaration();
+constexpr bool& __cordl_internal_get_omitStructDeclaration() ;
 
-  constexpr ::UnityEngine::Rendering::PackingRules const& __cordl_internal_get_packingRules() const;
+constexpr ::UnityEngine::Rendering::PackingRules const& __cordl_internal_get_packingRules() const;
 
-  constexpr ::UnityEngine::Rendering::PackingRules& __cordl_internal_get_packingRules();
+constexpr ::UnityEngine::Rendering::PackingRules& __cordl_internal_get_packingRules() ;
 
-  constexpr int32_t const& __cordl_internal_get_paramDefinesStart() const;
+constexpr int32_t const& __cordl_internal_get_paramDefinesStart() const;
 
-  constexpr int32_t& __cordl_internal_get_paramDefinesStart();
+constexpr int32_t& __cordl_internal_get_paramDefinesStart() ;
 
-  constexpr ::StringW const& __cordl_internal_get_sourcePath() const;
+constexpr ::StringW const& __cordl_internal_get_sourcePath() const;
 
-  constexpr ::StringW& __cordl_internal_get_sourcePath();
+constexpr ::StringW& __cordl_internal_get_sourcePath() ;
 
-  constexpr void __cordl_internal_set_constantRegister(int32_t value);
+constexpr void __cordl_internal_set_constantRegister(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_containsPackedFields(bool value);
+constexpr void __cordl_internal_set_containsPackedFields(bool  value) ;
 
-  constexpr void __cordl_internal_set_generateCBuffer(bool value);
+constexpr void __cordl_internal_set_generateCBuffer(bool  value) ;
 
-  constexpr void __cordl_internal_set_needAccessors(bool value);
+constexpr void __cordl_internal_set_needAccessors(bool  value) ;
 
-  constexpr void __cordl_internal_set_needParamDebug(bool value);
+constexpr void __cordl_internal_set_needParamDebug(bool  value) ;
 
-  constexpr void __cordl_internal_set_needSetters(bool value);
+constexpr void __cordl_internal_set_needSetters(bool  value) ;
 
-  constexpr void __cordl_internal_set_omitStructDeclaration(bool value);
+constexpr void __cordl_internal_set_omitStructDeclaration(bool  value) ;
 
-  constexpr void __cordl_internal_set_packingRules(::UnityEngine::Rendering::PackingRules value);
+constexpr void __cordl_internal_set_packingRules(::UnityEngine::Rendering::PackingRules  value) ;
 
-  constexpr void __cordl_internal_set_paramDefinesStart(int32_t value);
+constexpr void __cordl_internal_set_paramDefinesStart(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_sourcePath(::StringW value);
+constexpr void __cordl_internal_set_sourcePath(::StringW  value) ;
 
-  /// @brief Method .ctor, addr 0x665e7a0, size 0x38, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::Rendering::PackingRules rules, bool needAccessors, bool needSetters, bool needParamDebug, int32_t paramDefinesStart, bool omitStructDeclaration,
-                    bool containsPackedFields, bool generateCBuffer, int32_t constantRegister, ::StringW sourcePath);
+/// @brief Method .ctor, addr 0x6660318, size 0x38, virtual false, abstract: false, final false
+inline void _ctor(::UnityEngine::Rendering::PackingRules  rules, bool  needAccessors, bool  needSetters, bool  needParamDebug, int32_t  paramDefinesStart, bool  omitStructDeclaration, bool  containsPackedFields, bool  generateCBuffer, int32_t  constantRegister, ::StringW  sourcePath) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr GenerateHLSL();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr GenerateHLSL() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GenerateHLSL", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  GenerateHLSL(GenerateHLSL&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GenerateHLSL", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  GenerateHLSL(GenerateHLSL const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "GenerateHLSL", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+GenerateHLSL(GenerateHLSL && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12187 };
+// Ctor Parameters [CppParam { name: "", ty: "GenerateHLSL", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+GenerateHLSL(GenerateHLSL const& ) = delete;
 
-  /// @brief Field packingRules, offset: 0x10, size: 0x4, def value: None
-  ::UnityEngine::Rendering::PackingRules ___packingRules;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12188};
 
-  /// @brief Field containsPackedFields, offset: 0x14, size: 0x1, def value: None
-  bool ___containsPackedFields;
+/// @brief Field packingRules, offset: 0x10, size: 0x4, def value: None
+ ::UnityEngine::Rendering::PackingRules  ___packingRules;
 
-  /// @brief Field needAccessors, offset: 0x15, size: 0x1, def value: None
-  bool ___needAccessors;
+/// @brief Field containsPackedFields, offset: 0x14, size: 0x1, def value: None
+ bool  ___containsPackedFields;
 
-  /// @brief Field needSetters, offset: 0x16, size: 0x1, def value: None
-  bool ___needSetters;
+/// @brief Field needAccessors, offset: 0x15, size: 0x1, def value: None
+ bool  ___needAccessors;
 
-  /// @brief Field needParamDebug, offset: 0x17, size: 0x1, def value: None
-  bool ___needParamDebug;
+/// @brief Field needSetters, offset: 0x16, size: 0x1, def value: None
+ bool  ___needSetters;
 
-  /// @brief Field paramDefinesStart, offset: 0x18, size: 0x4, def value: None
-  int32_t ___paramDefinesStart;
+/// @brief Field needParamDebug, offset: 0x17, size: 0x1, def value: None
+ bool  ___needParamDebug;
 
-  /// @brief Field omitStructDeclaration, offset: 0x1c, size: 0x1, def value: None
-  bool ___omitStructDeclaration;
+/// @brief Field paramDefinesStart, offset: 0x18, size: 0x4, def value: None
+ int32_t  ___paramDefinesStart;
 
-  /// @brief Field generateCBuffer, offset: 0x1d, size: 0x1, def value: None
-  bool ___generateCBuffer;
+/// @brief Field omitStructDeclaration, offset: 0x1c, size: 0x1, def value: None
+ bool  ___omitStructDeclaration;
 
-  /// @brief Field constantRegister, offset: 0x20, size: 0x4, def value: None
-  int32_t ___constantRegister;
+/// @brief Field generateCBuffer, offset: 0x1d, size: 0x1, def value: None
+ bool  ___generateCBuffer;
 
-  /// @brief Field sourcePath, offset: 0x28, size: 0x8, def value: None
-  ::StringW ___sourcePath;
+/// @brief Field constantRegister, offset: 0x20, size: 0x4, def value: None
+ int32_t  ___constantRegister;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field sourcePath, offset: 0x28, size: 0x8, def value: None
+ ::StringW  ___sourcePath;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Rendering::GenerateHLSL, ___packingRules) == 0x10, "Offset mismatch!");
@@ -193,6 +191,6 @@ static_assert(offsetof(::UnityEngine::Rendering::GenerateHLSL, ___sourcePath) ==
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::GenerateHLSL, 0x30>, "Size mismatch!");
 
-} // namespace UnityEngine::Rendering
+} // namespace end def UnityEngine::Rendering
 NEED_NO_BOX(::UnityEngine::Rendering::GenerateHLSL);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::GenerateHLSL*, "UnityEngine.Rendering", "GenerateHLSL");

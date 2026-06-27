@@ -22,193 +22,193 @@ namespace Org::BouncyCastle::Crypto::Digests {
 // CS Name: Org.BouncyCastle.Crypto.Digests.MD4Digest
 class CORDL_TYPE MD4Digest : public ::Org::BouncyCastle::Crypto::Digests::GeneralDigest {
 public:
-  // Declarations
-  __declspec(property(get = get_AlgorithmName)) ::StringW AlgorithmName;
+// Declarations
+ __declspec(property(get=get_AlgorithmName)) ::StringW  AlgorithmName;
 
-  /// @brief Field H1, offset 0x28, size 0x4
-  __declspec(property(get = __cordl_internal_get_H1, put = __cordl_internal_set_H1)) int32_t H1;
+/// @brief Field H1, offset 0x28, size 0x4 
+ __declspec(property(get=__cordl_internal_get_H1, put=__cordl_internal_set_H1)) int32_t  H1;
 
-  /// @brief Field H2, offset 0x2c, size 0x4
-  __declspec(property(get = __cordl_internal_get_H2, put = __cordl_internal_set_H2)) int32_t H2;
+/// @brief Field H2, offset 0x2c, size 0x4 
+ __declspec(property(get=__cordl_internal_get_H2, put=__cordl_internal_set_H2)) int32_t  H2;
 
-  /// @brief Field H3, offset 0x30, size 0x4
-  __declspec(property(get = __cordl_internal_get_H3, put = __cordl_internal_set_H3)) int32_t H3;
+/// @brief Field H3, offset 0x30, size 0x4 
+ __declspec(property(get=__cordl_internal_get_H3, put=__cordl_internal_set_H3)) int32_t  H3;
 
-  /// @brief Field H4, offset 0x34, size 0x4
-  __declspec(property(get = __cordl_internal_get_H4, put = __cordl_internal_set_H4)) int32_t H4;
+/// @brief Field H4, offset 0x34, size 0x4 
+ __declspec(property(get=__cordl_internal_get_H4, put=__cordl_internal_set_H4)) int32_t  H4;
 
-  /// @brief Field X, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_X, put = __cordl_internal_set_X)) ::ArrayW<int32_t, ::Array<int32_t>*> X;
+/// @brief Field X, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get_X, put=__cordl_internal_set_X)) ::ArrayW<int32_t,::Array<int32_t>*>  X;
 
-  /// @brief Field xOff, offset 0x40, size 0x4
-  __declspec(property(get = __cordl_internal_get_xOff, put = __cordl_internal_set_xOff)) int32_t xOff;
+/// @brief Field xOff, offset 0x40, size 0x4 
+ __declspec(property(get=__cordl_internal_get_xOff, put=__cordl_internal_set_xOff)) int32_t  xOff;
 
-  /// @brief Method Copy, addr 0x3632ba8, size 0x5c, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Utilities::IMemoable* Copy();
+/// @brief Method Copy, addr 0x3633944, size 0x5c, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Utilities::IMemoable* Copy() ;
 
-  /// @brief Method CopyIn, addr 0x3632208, size 0x5c, virtual false, abstract: false, final false
-  inline void CopyIn(::Org::BouncyCastle::Crypto::Digests::MD4Digest* t);
+/// @brief Method CopyIn, addr 0x3632fa4, size 0x5c, virtual false, abstract: false, final false
+inline void CopyIn(::Org::BouncyCastle::Crypto::Digests::MD4Digest*  t) ;
 
-  /// @brief Method DoFinal, addr 0x3632458, size 0x80, virtual true, abstract: false, final false
-  inline int32_t DoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
+/// @brief Method DoFinal, addr 0x36331f4, size 0x80, virtual true, abstract: false, final false
+inline int32_t DoFinal(::ArrayW<uint8_t,::Array<uint8_t>*>  output, int32_t  outOff) ;
 
-  /// @brief Method F, addr 0x3632538, size 0x10, virtual false, abstract: false, final false
-  inline int32_t F(int32_t u, int32_t v, int32_t w);
+/// @brief Method F, addr 0x36332d4, size 0x10, virtual false, abstract: false, final false
+inline int32_t F(int32_t  u, int32_t  v, int32_t  w) ;
 
-  /// @brief Method G, addr 0x3632548, size 0x14, virtual false, abstract: false, final false
-  inline int32_t G(int32_t u, int32_t v, int32_t w);
+/// @brief Method G, addr 0x36332e4, size 0x14, virtual false, abstract: false, final false
+inline int32_t G(int32_t  u, int32_t  v, int32_t  w) ;
 
-  /// @brief Method GetDigestSize, addr 0x36322a8, size 0x8, virtual true, abstract: false, final false
-  inline int32_t GetDigestSize();
+/// @brief Method GetDigestSize, addr 0x3633044, size 0x8, virtual true, abstract: false, final false
+inline int32_t GetDigestSize() ;
 
-  /// @brief Method H, addr 0x363255c, size 0xc, virtual false, abstract: false, final false
-  inline int32_t H(int32_t u, int32_t v, int32_t w);
+/// @brief Method H, addr 0x36332f8, size 0xc, virtual false, abstract: false, final false
+inline int32_t H(int32_t  u, int32_t  v, int32_t  w) ;
 
-  static inline ::Org::BouncyCastle::Crypto::Digests::MD4Digest* New_ctor();
+static inline ::Org::BouncyCastle::Crypto::Digests::MD4Digest* New_ctor() ;
 
-  static inline ::Org::BouncyCastle::Crypto::Digests::MD4Digest* New_ctor(::Org::BouncyCastle::Crypto::Digests::MD4Digest* t);
+static inline ::Org::BouncyCastle::Crypto::Digests::MD4Digest* New_ctor(::Org::BouncyCastle::Crypto::Digests::MD4Digest*  t) ;
 
-  /// @brief Method ProcessBlock, addr 0x3632568, size 0x640, virtual true, abstract: false, final false
-  inline void ProcessBlock();
+/// @brief Method ProcessBlock, addr 0x3633304, size 0x640, virtual true, abstract: false, final false
+inline void ProcessBlock() ;
 
-  /// @brief Method ProcessLength, addr 0x363236c, size 0x6c, virtual true, abstract: false, final false
-  inline void ProcessLength(int64_t bitLength);
+/// @brief Method ProcessLength, addr 0x3633108, size 0x6c, virtual true, abstract: false, final false
+inline void ProcessLength(int64_t  bitLength) ;
 
-  /// @brief Method ProcessWord, addr 0x36322b0, size 0xbc, virtual true, abstract: false, final false
-  inline void ProcessWord(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff);
+/// @brief Method ProcessWord, addr 0x363304c, size 0xbc, virtual true, abstract: false, final false
+inline void ProcessWord(::ArrayW<uint8_t,::Array<uint8_t>*>  input, int32_t  inOff) ;
 
-  /// @brief Method Reset, addr 0x36324d8, size 0x54, virtual true, abstract: false, final false
-  inline void Reset();
+/// @brief Method Reset, addr 0x3633274, size 0x54, virtual true, abstract: false, final false
+inline void Reset() ;
 
-  /// @brief Method Reset, addr 0x3632c04, size 0x90, virtual true, abstract: false, final false
-  inline void Reset(::Org::BouncyCastle::Utilities::IMemoable* other);
+/// @brief Method Reset, addr 0x36339a0, size 0x90, virtual true, abstract: false, final false
+inline void Reset(::Org::BouncyCastle::Utilities::IMemoable*  other) ;
 
-  /// @brief Method RotateLeft, addr 0x363252c, size 0xc, virtual false, abstract: false, final false
-  inline int32_t RotateLeft(int32_t x, int32_t n);
+/// @brief Method RotateLeft, addr 0x36332c8, size 0xc, virtual false, abstract: false, final false
+inline int32_t RotateLeft(int32_t  x, int32_t  n) ;
 
-  /// @brief Method UnpackWord, addr 0x36323d8, size 0x80, virtual false, abstract: false, final false
-  inline void UnpackWord(int32_t word, ::ArrayW<uint8_t, ::Array<uint8_t>*> outBytes, int32_t outOff);
+/// @brief Method UnpackWord, addr 0x3633174, size 0x80, virtual false, abstract: false, final false
+inline void UnpackWord(int32_t  word, ::ArrayW<uint8_t,::Array<uint8_t>*>  outBytes, int32_t  outOff) ;
 
-  constexpr int32_t const& __cordl_internal_get_H1() const;
+constexpr int32_t const& __cordl_internal_get_H1() const;
 
-  constexpr int32_t& __cordl_internal_get_H1();
+constexpr int32_t& __cordl_internal_get_H1() ;
 
-  constexpr int32_t const& __cordl_internal_get_H2() const;
+constexpr int32_t const& __cordl_internal_get_H2() const;
 
-  constexpr int32_t& __cordl_internal_get_H2();
+constexpr int32_t& __cordl_internal_get_H2() ;
 
-  constexpr int32_t const& __cordl_internal_get_H3() const;
+constexpr int32_t const& __cordl_internal_get_H3() const;
 
-  constexpr int32_t& __cordl_internal_get_H3();
+constexpr int32_t& __cordl_internal_get_H3() ;
 
-  constexpr int32_t const& __cordl_internal_get_H4() const;
+constexpr int32_t const& __cordl_internal_get_H4() const;
 
-  constexpr int32_t& __cordl_internal_get_H4();
+constexpr int32_t& __cordl_internal_get_H4() ;
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_X() const;
+constexpr ::ArrayW<int32_t,::Array<int32_t>*> const& __cordl_internal_get_X() const;
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_X();
+constexpr ::ArrayW<int32_t,::Array<int32_t>*>& __cordl_internal_get_X() ;
 
-  constexpr int32_t const& __cordl_internal_get_xOff() const;
+constexpr int32_t const& __cordl_internal_get_xOff() const;
 
-  constexpr int32_t& __cordl_internal_get_xOff();
+constexpr int32_t& __cordl_internal_get_xOff() ;
 
-  constexpr void __cordl_internal_set_H1(int32_t value);
+constexpr void __cordl_internal_set_H1(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_H2(int32_t value);
+constexpr void __cordl_internal_set_H2(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_H3(int32_t value);
+constexpr void __cordl_internal_set_H3(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_H4(int32_t value);
+constexpr void __cordl_internal_set_H4(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_X(::ArrayW<int32_t, ::Array<int32_t>*> value);
+constexpr void __cordl_internal_set_X(::ArrayW<int32_t,::Array<int32_t>*>  value) ;
 
-  constexpr void __cordl_internal_set_xOff(int32_t value);
+constexpr void __cordl_internal_set_xOff(int32_t  value) ;
 
-  /// @brief Method .ctor, addr 0x3632120, size 0x70, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x3632ebc, size 0x70, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method .ctor, addr 0x3632190, size 0x78, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Crypto::Digests::MD4Digest* t);
+/// @brief Method .ctor, addr 0x3632f2c, size 0x78, virtual false, abstract: false, final false
+inline void _ctor(::Org::BouncyCastle::Crypto::Digests::MD4Digest*  t) ;
 
-  /// @brief Method get_AlgorithmName, addr 0x3632264, size 0x44, virtual true, abstract: false, final false
-  inline ::StringW get_AlgorithmName();
+/// @brief Method get_AlgorithmName, addr 0x3633000, size 0x44, virtual true, abstract: false, final false
+inline ::StringW get_AlgorithmName() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MD4Digest();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr MD4Digest() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MD4Digest", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  MD4Digest(MD4Digest&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MD4Digest", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  MD4Digest(MD4Digest const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "MD4Digest", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+MD4Digest(MD4Digest && ) = delete;
 
-  /// @brief Field DigestLength offset 0xffffffff size 0x4
-  static constexpr int32_t DigestLength{ static_cast<int32_t>(0x10) };
+// Ctor Parameters [CppParam { name: "", ty: "MD4Digest", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+MD4Digest(MD4Digest const& ) = delete;
 
-  /// @brief Field S11 offset 0xffffffff size 0x4
-  static constexpr int32_t S11{ static_cast<int32_t>(0x3) };
+/// @brief Field DigestLength offset 0xffffffff size 0x4
+static constexpr int32_t  DigestLength{static_cast<int32_t>(0x10)};
 
-  /// @brief Field S12 offset 0xffffffff size 0x4
-  static constexpr int32_t S12{ static_cast<int32_t>(0x7) };
+/// @brief Field S11 offset 0xffffffff size 0x4
+static constexpr int32_t  S11{static_cast<int32_t>(0x3)};
 
-  /// @brief Field S13 offset 0xffffffff size 0x4
-  static constexpr int32_t S13{ static_cast<int32_t>(0xb) };
+/// @brief Field S12 offset 0xffffffff size 0x4
+static constexpr int32_t  S12{static_cast<int32_t>(0x7)};
 
-  /// @brief Field S14 offset 0xffffffff size 0x4
-  static constexpr int32_t S14{ static_cast<int32_t>(0x13) };
+/// @brief Field S13 offset 0xffffffff size 0x4
+static constexpr int32_t  S13{static_cast<int32_t>(0xb)};
 
-  /// @brief Field S21 offset 0xffffffff size 0x4
-  static constexpr int32_t S21{ static_cast<int32_t>(0x3) };
+/// @brief Field S14 offset 0xffffffff size 0x4
+static constexpr int32_t  S14{static_cast<int32_t>(0x13)};
 
-  /// @brief Field S22 offset 0xffffffff size 0x4
-  static constexpr int32_t S22{ static_cast<int32_t>(0x5) };
+/// @brief Field S21 offset 0xffffffff size 0x4
+static constexpr int32_t  S21{static_cast<int32_t>(0x3)};
 
-  /// @brief Field S23 offset 0xffffffff size 0x4
-  static constexpr int32_t S23{ static_cast<int32_t>(0x9) };
+/// @brief Field S22 offset 0xffffffff size 0x4
+static constexpr int32_t  S22{static_cast<int32_t>(0x5)};
 
-  /// @brief Field S24 offset 0xffffffff size 0x4
-  static constexpr int32_t S24{ static_cast<int32_t>(0xd) };
+/// @brief Field S23 offset 0xffffffff size 0x4
+static constexpr int32_t  S23{static_cast<int32_t>(0x9)};
 
-  /// @brief Field S31 offset 0xffffffff size 0x4
-  static constexpr int32_t S31{ static_cast<int32_t>(0x3) };
+/// @brief Field S24 offset 0xffffffff size 0x4
+static constexpr int32_t  S24{static_cast<int32_t>(0xd)};
 
-  /// @brief Field S32 offset 0xffffffff size 0x4
-  static constexpr int32_t S32{ static_cast<int32_t>(0x9) };
+/// @brief Field S31 offset 0xffffffff size 0x4
+static constexpr int32_t  S31{static_cast<int32_t>(0x3)};
 
-  /// @brief Field S33 offset 0xffffffff size 0x4
-  static constexpr int32_t S33{ static_cast<int32_t>(0xb) };
+/// @brief Field S32 offset 0xffffffff size 0x4
+static constexpr int32_t  S32{static_cast<int32_t>(0x9)};
 
-  /// @brief Field S34 offset 0xffffffff size 0x4
-  static constexpr int32_t S34{ static_cast<int32_t>(0xf) };
+/// @brief Field S33 offset 0xffffffff size 0x4
+static constexpr int32_t  S33{static_cast<int32_t>(0xb)};
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 758 };
+/// @brief Field S34 offset 0xffffffff size 0x4
+static constexpr int32_t  S34{static_cast<int32_t>(0xf)};
 
-  /// @brief Field H1, offset: 0x28, size: 0x4, def value: None
-  int32_t ___H1;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{758};
 
-  /// @brief Field H2, offset: 0x2c, size: 0x4, def value: None
-  int32_t ___H2;
+/// @brief Field H1, offset: 0x28, size: 0x4, def value: None
+ int32_t  ___H1;
 
-  /// @brief Field H3, offset: 0x30, size: 0x4, def value: None
-  int32_t ___H3;
+/// @brief Field H2, offset: 0x2c, size: 0x4, def value: None
+ int32_t  ___H2;
 
-  /// @brief Field H4, offset: 0x34, size: 0x4, def value: None
-  int32_t ___H4;
+/// @brief Field H3, offset: 0x30, size: 0x4, def value: None
+ int32_t  ___H3;
 
-  /// @brief Field X, offset: 0x38, size: 0x8, def value: None
-  ::ArrayW<int32_t, ::Array<int32_t>*> ___X;
+/// @brief Field H4, offset: 0x34, size: 0x4, def value: None
+ int32_t  ___H4;
 
-  /// @brief Field xOff, offset: 0x40, size: 0x4, def value: None
-  int32_t ___xOff;
+/// @brief Field X, offset: 0x38, size: 0x8, def value: None
+ ::ArrayW<int32_t,::Array<int32_t>*>  ___X;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field xOff, offset: 0x40, size: 0x4, def value: None
+ int32_t  ___xOff;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Digests::MD4Digest, ___H1) == 0x28, "Offset mismatch!");
@@ -225,6 +225,6 @@ static_assert(offsetof(::Org::BouncyCastle::Crypto::Digests::MD4Digest, ___xOff)
 
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Digests::MD4Digest, 0x48>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Crypto::Digests
+} // namespace end def Org::BouncyCastle::Crypto::Digests
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Digests::MD4Digest);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Digests::MD4Digest*, "Org.BouncyCastle.Crypto.Digests", "MD4Digest");

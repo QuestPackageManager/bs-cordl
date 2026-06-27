@@ -18,92 +18,92 @@ namespace System::Collections::Generic {
 // CS Name: System.Collections.Generic.BitHelper
 class CORDL_TYPE BitHelper : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field _array, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__array, put = __cordl_internal_set__array)) ::ArrayW<int32_t, ::Array<int32_t>*> _array;
+// Declarations
+/// @brief Field _array, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get__array, put=__cordl_internal_set__array)) ::ArrayW<int32_t,::Array<int32_t>*>  _array;
 
-  /// @brief Field _arrayPtr, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__arrayPtr, put = __cordl_internal_set__arrayPtr)) int32_t* _arrayPtr;
+/// @brief Field _arrayPtr, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get__arrayPtr, put=__cordl_internal_set__arrayPtr)) int32_t*  _arrayPtr;
 
-  /// @brief Field _length, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get__length, put = __cordl_internal_set__length)) int32_t _length;
+/// @brief Field _length, offset 0x10, size 0x4 
+ __declspec(property(get=__cordl_internal_get__length, put=__cordl_internal_set__length)) int32_t  _length;
 
-  /// @brief Field _useStackAlloc, offset 0x28, size 0x1
-  __declspec(property(get = __cordl_internal_get__useStackAlloc, put = __cordl_internal_set__useStackAlloc)) bool _useStackAlloc;
+/// @brief Field _useStackAlloc, offset 0x28, size 0x1 
+ __declspec(property(get=__cordl_internal_get__useStackAlloc, put=__cordl_internal_set__useStackAlloc)) bool  _useStackAlloc;
 
-  /// @brief Method IsMarked, addr 0x62b0acc, size 0x84, virtual false, abstract: false, final false
-  inline bool IsMarked(int32_t bitPosition);
+/// @brief Method IsMarked, addr 0x5e8d084, size 0x84, virtual false, abstract: false, final false
+inline bool IsMarked(int32_t  bitPosition) ;
 
-  /// @brief Method MarkBit, addr 0x62b0a50, size 0x7c, virtual false, abstract: false, final false
-  inline void MarkBit(int32_t bitPosition);
+/// @brief Method MarkBit, addr 0x5e8d008, size 0x7c, virtual false, abstract: false, final false
+inline void MarkBit(int32_t  bitPosition) ;
 
-  static inline ::System::Collections::Generic::BitHelper* New_ctor(::ArrayW<int32_t, ::Array<int32_t>*> bitArray, int32_t length);
+static inline ::System::Collections::Generic::BitHelper* New_ctor(::ArrayW<int32_t,::Array<int32_t>*>  bitArray, int32_t  length) ;
 
-  static inline ::System::Collections::Generic::BitHelper* New_ctor(int32_t* bitArrayPtr, int32_t length);
+static inline ::System::Collections::Generic::BitHelper* New_ctor(int32_t*  bitArrayPtr, int32_t  length) ;
 
-  /// @brief Method ToIntArrayLength, addr 0x62b0b50, size 0x14, virtual false, abstract: false, final false
-  static inline int32_t ToIntArrayLength(int32_t n);
+/// @brief Method ToIntArrayLength, addr 0x5e8d108, size 0x14, virtual false, abstract: false, final false
+static inline int32_t ToIntArrayLength(int32_t  n) ;
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get__array() const;
+constexpr ::ArrayW<int32_t,::Array<int32_t>*> const& __cordl_internal_get__array() const;
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get__array();
+constexpr ::ArrayW<int32_t,::Array<int32_t>*>& __cordl_internal_get__array() ;
 
-  constexpr int32_t* const& __cordl_internal_get__arrayPtr() const;
+constexpr int32_t* const& __cordl_internal_get__arrayPtr() const;
 
-  constexpr int32_t*& __cordl_internal_get__arrayPtr();
+constexpr int32_t*& __cordl_internal_get__arrayPtr() ;
 
-  constexpr int32_t const& __cordl_internal_get__length() const;
+constexpr int32_t const& __cordl_internal_get__length() const;
 
-  constexpr int32_t& __cordl_internal_get__length();
+constexpr int32_t& __cordl_internal_get__length() ;
 
-  constexpr bool const& __cordl_internal_get__useStackAlloc() const;
+constexpr bool const& __cordl_internal_get__useStackAlloc() const;
 
-  constexpr bool& __cordl_internal_get__useStackAlloc();
+constexpr bool& __cordl_internal_get__useStackAlloc() ;
 
-  constexpr void __cordl_internal_set__array(::ArrayW<int32_t, ::Array<int32_t>*> value);
+constexpr void __cordl_internal_set__array(::ArrayW<int32_t,::Array<int32_t>*>  value) ;
 
-  constexpr void __cordl_internal_set__arrayPtr(int32_t* value);
+constexpr void __cordl_internal_set__arrayPtr(int32_t*  value) ;
 
-  constexpr void __cordl_internal_set__length(int32_t value);
+constexpr void __cordl_internal_set__length(int32_t  value) ;
 
-  constexpr void __cordl_internal_set__useStackAlloc(bool value);
+constexpr void __cordl_internal_set__useStackAlloc(bool  value) ;
 
-  /// @brief Method .ctor, addr 0x62b0a44, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor(::ArrayW<int32_t, ::Array<int32_t>*> bitArray, int32_t length);
+/// @brief Method .ctor, addr 0x5e8cffc, size 0xc, virtual false, abstract: false, final false
+inline void _ctor(::ArrayW<int32_t,::Array<int32_t>*>  bitArray, int32_t  length) ;
 
-  /// @brief Method .ctor, addr 0x62b0a30, size 0x14, virtual false, abstract: false, final false
-  inline void _ctor(int32_t* bitArrayPtr, int32_t length);
+/// @brief Method .ctor, addr 0x5e8cfe8, size 0x14, virtual false, abstract: false, final false
+inline void _ctor(int32_t*  bitArrayPtr, int32_t  length) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BitHelper();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr BitHelper() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BitHelper", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  BitHelper(BitHelper&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BitHelper", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  BitHelper(BitHelper const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "BitHelper", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+BitHelper(BitHelper && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11378 };
+// Ctor Parameters [CppParam { name: "", ty: "BitHelper", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+BitHelper(BitHelper const& ) = delete;
 
-  /// @brief Field _length, offset: 0x10, size: 0x4, def value: None
-  int32_t ____length;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{16667};
 
-  /// @brief Field _arrayPtr, offset: 0x18, size: 0x8, def value: None
-  int32_t* ____arrayPtr;
+/// @brief Field _length, offset: 0x10, size: 0x4, def value: None
+ int32_t  ____length;
 
-  /// @brief Field _array, offset: 0x20, size: 0x8, def value: None
-  ::ArrayW<int32_t, ::Array<int32_t>*> ____array;
+/// @brief Field _arrayPtr, offset: 0x18, size: 0x8, def value: None
+ int32_t*  ____arrayPtr;
 
-  /// @brief Field _useStackAlloc, offset: 0x28, size: 0x1, def value: None
-  bool ____useStackAlloc;
+/// @brief Field _array, offset: 0x20, size: 0x8, def value: None
+ ::ArrayW<int32_t,::Array<int32_t>*>  ____array;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _useStackAlloc, offset: 0x28, size: 0x1, def value: None
+ bool  ____useStackAlloc;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Collections::Generic::BitHelper, ____length) == 0x10, "Offset mismatch!");
@@ -116,6 +116,6 @@ static_assert(offsetof(::System::Collections::Generic::BitHelper, ____useStackAl
 
 static_assert(::cordl_internals::size_check_v<::System::Collections::Generic::BitHelper, 0x30>, "Size mismatch!");
 
-} // namespace System::Collections::Generic
+} // namespace end def System::Collections::Generic
 NEED_NO_BOX(::System::Collections::Generic::BitHelper);
 DEFINE_IL2CPP_ARG_TYPE(::System::Collections::Generic::BitHelper*, "System.Collections.Generic", "BitHelper");

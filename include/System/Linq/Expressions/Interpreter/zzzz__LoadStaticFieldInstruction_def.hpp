@@ -25,47 +25,47 @@ namespace System::Linq::Expressions::Interpreter {
 // CS Name: System.Linq.Expressions.Interpreter.LoadStaticFieldInstruction
 class CORDL_TYPE LoadStaticFieldInstruction : public ::System::Linq::Expressions::Interpreter::FieldInstruction {
 public:
-  // Declarations
-  __declspec(property(get = get_InstructionName)) ::StringW InstructionName;
+// Declarations
+ __declspec(property(get=get_InstructionName)) ::StringW  InstructionName;
 
-  __declspec(property(get = get_ProducedStack)) int32_t ProducedStack;
+ __declspec(property(get=get_ProducedStack)) int32_t  ProducedStack;
 
-  static inline ::System::Linq::Expressions::Interpreter::LoadStaticFieldInstruction* New_ctor(::System::Reflection::FieldInfo* field);
+static inline ::System::Linq::Expressions::Interpreter::LoadStaticFieldInstruction* New_ctor(::System::Reflection::FieldInfo*  field) ;
 
-  /// @brief Method Run, addr 0x5e52c68, size 0x44, virtual true, abstract: false, final false
-  inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
+/// @brief Method Run, addr 0x5e547e0, size 0x44, virtual true, abstract: false, final false
+inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame*  frame) ;
 
-  /// @brief Method .ctor, addr 0x5e52c14, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::System::Reflection::FieldInfo* field);
+/// @brief Method .ctor, addr 0x5e5478c, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(::System::Reflection::FieldInfo*  field) ;
 
-  /// @brief Method get_InstructionName, addr 0x5e52c1c, size 0x44, virtual true, abstract: false, final false
-  inline ::StringW get_InstructionName();
+/// @brief Method get_InstructionName, addr 0x5e54794, size 0x44, virtual true, abstract: false, final false
+inline ::StringW get_InstructionName() ;
 
-  /// @brief Method get_ProducedStack, addr 0x5e52c60, size 0x8, virtual true, abstract: false, final false
-  inline int32_t get_ProducedStack();
+/// @brief Method get_ProducedStack, addr 0x5e547d8, size 0x8, virtual true, abstract: false, final false
+inline int32_t get_ProducedStack() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LoadStaticFieldInstruction();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr LoadStaticFieldInstruction() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LoadStaticFieldInstruction", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  LoadStaticFieldInstruction(LoadStaticFieldInstruction&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LoadStaticFieldInstruction", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  LoadStaticFieldInstruction(LoadStaticFieldInstruction const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "LoadStaticFieldInstruction", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+LoadStaticFieldInstruction(LoadStaticFieldInstruction && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16330 };
+// Ctor Parameters [CppParam { name: "", ty: "LoadStaticFieldInstruction", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+LoadStaticFieldInstruction(LoadStaticFieldInstruction const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{16332};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Interpreter::LoadStaticFieldInstruction, 0x18>, "Size mismatch!");
 
-} // namespace System::Linq::Expressions::Interpreter
+} // namespace end def System::Linq::Expressions::Interpreter
 NEED_NO_BOX(::System::Linq::Expressions::Interpreter::LoadStaticFieldInstruction);
 DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Interpreter::LoadStaticFieldInstruction*, "System.Linq.Expressions.Interpreter", "LoadStaticFieldInstruction");

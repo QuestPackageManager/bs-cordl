@@ -20,34 +20,34 @@ namespace Newtonsoft::Json::Serialization {
 // CS Name: Newtonsoft.Json.Serialization.JsonStringContract
 class CORDL_TYPE JsonStringContract : public ::Newtonsoft::Json::Serialization::JsonPrimitiveContract {
 public:
-  // Declarations
-  static inline ::Newtonsoft::Json::Serialization::JsonStringContract* New_ctor(::System::Type* underlyingType);
+// Declarations
+static inline ::Newtonsoft::Json::Serialization::JsonStringContract* New_ctor(::System::Type*  underlyingType) ;
 
-  /// @brief Method .ctor, addr 0x5c1c1b8, size 0x78, virtual false, abstract: false, final false
-  inline void _ctor(::System::Type* underlyingType);
+/// @brief Method .ctor, addr 0x5c1dd30, size 0x78, virtual false, abstract: false, final false
+inline void _ctor(::System::Type*  underlyingType) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr JsonStringContract();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr JsonStringContract() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "JsonStringContract", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  JsonStringContract(JsonStringContract&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "JsonStringContract", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  JsonStringContract(JsonStringContract const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "JsonStringContract", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+JsonStringContract(JsonStringContract && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13508 };
+// Ctor Parameters [CppParam { name: "", ty: "JsonStringContract", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+JsonStringContract(JsonStringContract const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{13509};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Serialization::JsonStringContract, 0x90>, "Size mismatch!");
 
-} // namespace Newtonsoft::Json::Serialization
+} // namespace end def Newtonsoft::Json::Serialization
 NEED_NO_BOX(::Newtonsoft::Json::Serialization::JsonStringContract);
 DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Serialization::JsonStringContract*, "Newtonsoft.Json.Serialization", "JsonStringContract");

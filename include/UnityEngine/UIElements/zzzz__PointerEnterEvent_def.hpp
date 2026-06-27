@@ -31,94 +31,94 @@ namespace UnityEngine::UIElements {
 // CS Name: UnityEngine.UIElements.PointerEnterEvent/<>c
 class CORDL_TYPE PointerEnterEvent___c : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field <>9, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::UIElements::PointerEnterEvent___c* __9;
+// Declarations
+/// @brief Field <>9, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF___9, put=setStaticF___9)) ::UnityEngine::UIElements::PointerEnterEvent___c*  __9;
 
-  static inline ::UnityEngine::UIElements::PointerEnterEvent___c* New_ctor();
+static inline ::UnityEngine::UIElements::PointerEnterEvent___c* New_ctor() ;
 
-  /// @brief Method <.cctor>b__0_0, addr 0x6c4c8ac, size 0x54, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::PointerEnterEvent* __cctor_b__0_0();
+/// @brief Method <.cctor>b__0_0, addr 0x6c4e424, size 0x54, virtual false, abstract: false, final false
+inline ::UnityEngine::UIElements::PointerEnterEvent* __cctor_b__0_0() ;
 
-  /// @brief Method .ctor, addr 0x6c4c8a8, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6c4e420, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  static inline ::UnityEngine::UIElements::PointerEnterEvent___c* getStaticF___9();
+static inline ::UnityEngine::UIElements::PointerEnterEvent___c* getStaticF___9() ;
 
-  static inline void setStaticF___9(::UnityEngine::UIElements::PointerEnterEvent___c* value);
+static inline void setStaticF___9(::UnityEngine::UIElements::PointerEnterEvent___c*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PointerEnterEvent___c();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr PointerEnterEvent___c() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PointerEnterEvent___c", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  PointerEnterEvent___c(PointerEnterEvent___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PointerEnterEvent___c", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  PointerEnterEvent___c(PointerEnterEvent___c const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "PointerEnterEvent___c", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+PointerEnterEvent___c(PointerEnterEvent___c && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4550 };
+// Ctor Parameters [CppParam { name: "", ty: "PointerEnterEvent___c", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+PointerEnterEvent___c(PointerEnterEvent___c const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4550};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::PointerEnterEvent___c, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements
+} // namespace end def UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.PointerEventBase`1<T>
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.PointerEnterEvent
 class CORDL_TYPE PointerEnterEvent : public ::UnityEngine::UIElements::PointerEventBase_1<::UnityEngine::UIElements::PointerEnterEvent*> {
 public:
-  // Declarations
-  using __c = ::UnityEngine::UIElements::PointerEnterEvent___c;
+// Declarations
+using __c = ::UnityEngine::UIElements::PointerEnterEvent___c;
 
-  /// @brief Method Dispatch, addr 0x6c4c7b4, size 0x4, virtual true, abstract: false, final false
-  inline void Dispatch(::UnityEngine::UIElements::BaseVisualElementPanel* panel);
+/// @brief Method Dispatch, addr 0x6c4e32c, size 0x4, virtual true, abstract: false, final false
+inline void Dispatch(::UnityEngine::UIElements::BaseVisualElementPanel*  panel) ;
 
-  /// @brief Method Init, addr 0x6c4c6f8, size 0x58, virtual true, abstract: false, final false
-  inline void Init();
+/// @brief Method Init, addr 0x6c4e270, size 0x58, virtual true, abstract: false, final false
+inline void Init() ;
 
-  /// @brief Method LocalInit, addr 0x6c4c750, size 0xc, virtual false, abstract: false, final false
-  inline void LocalInit();
+/// @brief Method LocalInit, addr 0x6c4e2c8, size 0xc, virtual false, abstract: false, final false
+inline void LocalInit() ;
 
-  static inline ::UnityEngine::UIElements::PointerEnterEvent* New_ctor();
+static inline ::UnityEngine::UIElements::PointerEnterEvent* New_ctor() ;
 
-  /// @brief Method PreDispatch, addr 0x6c4c7b8, size 0x9c, virtual true, abstract: false, final false
-  inline void PreDispatch(::UnityEngine::UIElements::IPanel* panel);
+/// @brief Method PreDispatch, addr 0x6c4e330, size 0x9c, virtual true, abstract: false, final false
+inline void PreDispatch(::UnityEngine::UIElements::IPanel*  panel) ;
 
-  /// @brief Method .ctor, addr 0x6c4c75c, size 0x58, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6c4e2d4, size 0x58, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PointerEnterEvent();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr PointerEnterEvent() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PointerEnterEvent", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  PointerEnterEvent(PointerEnterEvent&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PointerEnterEvent", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  PointerEnterEvent(PointerEnterEvent const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "PointerEnterEvent", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+PointerEnterEvent(PointerEnterEvent && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4551 };
+// Ctor Parameters [CppParam { name: "", ty: "PointerEnterEvent", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+PointerEnterEvent(PointerEnterEvent const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4551};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::PointerEnterEvent, 0xf8>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements
+} // namespace end def UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::PointerEnterEvent);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::PointerEnterEvent*, "UnityEngine.UIElements", "PointerEnterEvent");
 NEED_NO_BOX(::UnityEngine::UIElements::PointerEnterEvent___c);

@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "System/Runtime/Remoting/Activation/ActivationServices.hpp"
 #include "System/Runtime/Remoting/Activation/AppDomainLevelActivator.hpp"
@@ -13,5 +13,6 @@ module;
 #include "System/Runtime/Remoting/Activation/RemoteActivationAttribute.hpp"
 #include "System/Runtime/Remoting/Activation/RemoteActivator.hpp"
 #ifdef __cpp_modules
-export module Activation;
-#endif
+                    export module Activation;
+                    #endif
+                

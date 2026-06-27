@@ -16,353 +16,402 @@
 #include "Zenject/zzzz__IInitializable_def.hpp"
 #include "Zenject/zzzz__ITickable_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer_HapticPlayerState._ctor
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer_HapticPlayerState::*)()>(
-    &::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer_HapticPlayerState::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer_HapticPlayerState::*)()>(&::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer_HapticPlayerState::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x57156dc;
+  constexpr static std::size_t addrs = 0x5716f44;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer_HapticPlayerState*>::get(), ".ctor",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer_HapticPlayerState*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
-constexpr ::Oculus::Haptics::HapticClipPlayer*& GlobalNamespace::OculusAdvancedHapticFeedbackPlayer_HapticPlayerState::__cordl_internal_get_player() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___player;
+constexpr ::Oculus::Haptics::HapticClipPlayer*& GlobalNamespace::OculusAdvancedHapticFeedbackPlayer_HapticPlayerState::__cordl_internal_get_player()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___player;
 }
 constexpr ::Oculus::Haptics::HapticClipPlayer* const& GlobalNamespace::OculusAdvancedHapticFeedbackPlayer_HapticPlayerState::__cordl_internal_get_player() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___player;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___player;
 }
-constexpr void GlobalNamespace::OculusAdvancedHapticFeedbackPlayer_HapticPlayerState::__cordl_internal_set_player(::Oculus::Haptics::HapticClipPlayer* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___player)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::OculusAdvancedHapticFeedbackPlayer_HapticPlayerState::__cordl_internal_set_player(::Oculus::Haptics::HapticClipPlayer*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___player)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr int32_t& GlobalNamespace::OculusAdvancedHapticFeedbackPlayer_HapticPlayerState::__cordl_internal_get_lastFrameTriggered() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___lastFrameTriggered;
+constexpr int32_t& GlobalNamespace::OculusAdvancedHapticFeedbackPlayer_HapticPlayerState::__cordl_internal_get_lastFrameTriggered()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___lastFrameTriggered;
 }
 constexpr int32_t const& GlobalNamespace::OculusAdvancedHapticFeedbackPlayer_HapticPlayerState::__cordl_internal_get_lastFrameTriggered() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___lastFrameTriggered;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___lastFrameTriggered;
 }
-constexpr void GlobalNamespace::OculusAdvancedHapticFeedbackPlayer_HapticPlayerState::__cordl_internal_set_lastFrameTriggered(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___lastFrameTriggered = value;
+constexpr void GlobalNamespace::OculusAdvancedHapticFeedbackPlayer_HapticPlayerState::__cordl_internal_set_lastFrameTriggered(int32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___lastFrameTriggered = value;
 }
-constexpr bool& GlobalNamespace::OculusAdvancedHapticFeedbackPlayer_HapticPlayerState::__cordl_internal_get_isPlayingLoopingClip() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___isPlayingLoopingClip;
+constexpr bool& GlobalNamespace::OculusAdvancedHapticFeedbackPlayer_HapticPlayerState::__cordl_internal_get_isPlayingLoopingClip()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___isPlayingLoopingClip;
 }
 constexpr bool const& GlobalNamespace::OculusAdvancedHapticFeedbackPlayer_HapticPlayerState::__cordl_internal_get_isPlayingLoopingClip() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___isPlayingLoopingClip;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___isPlayingLoopingClip;
 }
-constexpr void GlobalNamespace::OculusAdvancedHapticFeedbackPlayer_HapticPlayerState::__cordl_internal_set_isPlayingLoopingClip(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___isPlayingLoopingClip = value;
+constexpr void GlobalNamespace::OculusAdvancedHapticFeedbackPlayer_HapticPlayerState::__cordl_internal_set_isPlayingLoopingClip(bool  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___isPlayingLoopingClip = value;
 }
-inline void GlobalNamespace::OculusAdvancedHapticFeedbackPlayer_HapticPlayerState::_ctor() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer_HapticPlayerState*>::get(), ".ctor",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::OculusAdvancedHapticFeedbackPlayer_HapticPlayerState::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer_HapticPlayerState*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer_HapticPlayerState* GlobalNamespace::OculusAdvancedHapticFeedbackPlayer_HapticPlayerState::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer_HapticPlayerState*>());
+inline ::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer_HapticPlayerState* GlobalNamespace::OculusAdvancedHapticFeedbackPlayer_HapticPlayerState::New_ctor()  {
+return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer_HapticPlayerState*>());
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer_HapticPlayerState::OculusAdvancedHapticFeedbackPlayer_HapticPlayerState() {}
+constexpr ::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer_HapticPlayerState::OculusAdvancedHapticFeedbackPlayer_HapticPlayerState()   {
+}
 //  Writing Method size for method: ::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer.PlayHapticFeedback
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer::*)(
-    ::UnityEngine::XR::XRNode, ::Libraries::HM::HMLib::VR::HapticPresetSO*)>(&::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer::PlayHapticFeedback)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer::*)(::UnityEngine::XR::XRNode, ::Libraries::HM::HMLib::VR::HapticPresetSO*)>(&::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer::PlayHapticFeedback)> {
   constexpr static std::size_t size = 0x2dc;
-  constexpr static std::size_t addrs = 0x5715400;
+  constexpr static std::size_t addrs = 0x5716c68;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer*>::get(), "PlayHapticFeedback", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::XR::XRNode>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Libraries::HM::HMLib::VR::HapticPresetSO*>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer*>::get(),
+                        "PlayHapticFeedback",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::XR::XRNode>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Libraries::HM::HMLib::VR::HapticPresetSO*>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer.CanPlayHapticPreset
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer::*)(
-    ::Libraries::HM::HMLib::VR::HapticPresetSO*, ::UnityEngine::XR::XRNode)>(&::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer::CanPlayHapticPreset)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer::*)(::Libraries::HM::HMLib::VR::HapticPresetSO*, ::UnityEngine::XR::XRNode)>(&::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer::CanPlayHapticPreset)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x5715718;
+  constexpr static std::size_t addrs = 0x5716f80;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer*>::get(), "CanPlayHapticPreset", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Libraries::HM::HMLib::VR::HapticPresetSO*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::XR::XRNode>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer*>::get(),
+                        "CanPlayHapticPreset",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Libraries::HM::HMLib::VR::HapticPresetSO*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::XR::XRNode>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer.Initialize
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer::*)()>(
-    &::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer::Initialize)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer::*)()>(&::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer::Initialize)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x57159d0;
+  constexpr static std::size_t addrs = 0x5717238;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer*>::get(),
-                                                                               "Initialize", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer*>::get(),
+                        "Initialize",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer.Dispose
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer::*)()>(
-    &::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer::Dispose)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer::*)()>(&::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer::Dispose)> {
   constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x5715a78;
+  constexpr static std::size_t addrs = 0x57172e0;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer*>::get(),
-                                                                               "Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer*>::get(),
+                        "Dispose",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer.Tick
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer::*)()>(
-    &::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer::Tick)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer::*)()>(&::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer::Tick)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x5715c64;
+  constexpr static std::size_t addrs = 0x57174cc;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer*>::get(),
-                                                                               "Tick", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer*>::get(),
+                        "Tick",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer.IsTouchControllerSupported
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::XR::XRNode)>(
-    &::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer::IsTouchControllerSupported)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::XR::XRNode)>(&::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer::IsTouchControllerSupported)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x5715e18;
+  constexpr static std::size_t addrs = 0x5717680;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer*>::get(), "IsTouchControllerSupported", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::XR::XRNode>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer*>::get(),
+                        "IsTouchControllerSupported",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::XR::XRNode>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer.GetHapticClip
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::Oculus::Haptics::HapticClip> (*)(::UnityEngine::XR::XRNode, ::Libraries::HM::HMLib::VR::HapticPresetSO*)>(
-    &::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer::GetHapticClip)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::Oculus::Haptics::HapticClip> (*)(::UnityEngine::XR::XRNode, ::Libraries::HM::HMLib::VR::HapticPresetSO*)>(&::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer::GetHapticClip)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x57156e0;
+  constexpr static std::size_t addrs = 0x5716f48;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer*>::get(), "GetHapticClip", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::XR::XRNode>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Libraries::HM::HMLib::VR::HapticPresetSO*>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer*>::get(),
+                        "GetHapticClip",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::XR::XRNode>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Libraries::HM::HMLib::VR::HapticPresetSO*>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer.HandleApplicationQuitting
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer::*)()>(
-    &::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer::HandleApplicationQuitting)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer::*)()>(&::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer::HandleApplicationQuitting)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5715ea0;
+  constexpr static std::size_t addrs = 0x5717708;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer*>::get(),
-                                                                               "HandleApplicationQuitting", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer*>::get(),
+                        "HandleApplicationQuitting",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer._ctor
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer::*)()>(
-    &::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer::*)()>(&::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer::_ctor)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x5715f10;
+  constexpr static std::size_t addrs = 0x5717778;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer*>::get(),
-                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
-constexpr ::GlobalNamespace::IVRPlatformHelper*& GlobalNamespace::OculusAdvancedHapticFeedbackPlayer::__cordl_internal_get__vrPlatformHelper() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____vrPlatformHelper;
+constexpr ::GlobalNamespace::IVRPlatformHelper*& GlobalNamespace::OculusAdvancedHapticFeedbackPlayer::__cordl_internal_get__vrPlatformHelper()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____vrPlatformHelper;
 }
 constexpr ::GlobalNamespace::IVRPlatformHelper* const& GlobalNamespace::OculusAdvancedHapticFeedbackPlayer::__cordl_internal_get__vrPlatformHelper() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____vrPlatformHelper;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____vrPlatformHelper;
 }
-constexpr void GlobalNamespace::OculusAdvancedHapticFeedbackPlayer::__cordl_internal_set__vrPlatformHelper(::GlobalNamespace::IVRPlatformHelper* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____vrPlatformHelper)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::OculusAdvancedHapticFeedbackPlayer::__cordl_internal_set__vrPlatformHelper(::GlobalNamespace::IVRPlatformHelper*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____vrPlatformHelper)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO>, ::UnityEngine::XR::XRNode>,
-                                                       ::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer_HapticPlayerState*>*&
-GlobalNamespace::OculusAdvancedHapticFeedbackPlayer::__cordl_internal_get__hapticPlayerStatesDictionary() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____hapticPlayerStatesDictionary;
+constexpr ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO>,::UnityEngine::XR::XRNode>,::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer_HapticPlayerState*>*& GlobalNamespace::OculusAdvancedHapticFeedbackPlayer::__cordl_internal_get__hapticPlayerStatesDictionary()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____hapticPlayerStatesDictionary;
 }
-constexpr ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO>, ::UnityEngine::XR::XRNode>,
-                                                       ::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer_HapticPlayerState*>* const&
-GlobalNamespace::OculusAdvancedHapticFeedbackPlayer::__cordl_internal_get__hapticPlayerStatesDictionary() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____hapticPlayerStatesDictionary;
+constexpr ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO>,::UnityEngine::XR::XRNode>,::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer_HapticPlayerState*>* const& GlobalNamespace::OculusAdvancedHapticFeedbackPlayer::__cordl_internal_get__hapticPlayerStatesDictionary() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____hapticPlayerStatesDictionary;
 }
-constexpr void GlobalNamespace::OculusAdvancedHapticFeedbackPlayer::__cordl_internal_set__hapticPlayerStatesDictionary(
-    ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO>, ::UnityEngine::XR::XRNode>,
-                                                 ::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer_HapticPlayerState*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____hapticPlayerStatesDictionary)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::OculusAdvancedHapticFeedbackPlayer::__cordl_internal_set__hapticPlayerStatesDictionary(::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO>,::UnityEngine::XR::XRNode>,::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer_HapticPlayerState*>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____hapticPlayerStatesDictionary)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr bool& GlobalNamespace::OculusAdvancedHapticFeedbackPlayer::__cordl_internal_get__hasAtLeastOneLoopingClipPlaying() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____hasAtLeastOneLoopingClipPlaying;
+constexpr bool& GlobalNamespace::OculusAdvancedHapticFeedbackPlayer::__cordl_internal_get__hasAtLeastOneLoopingClipPlaying()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____hasAtLeastOneLoopingClipPlaying;
 }
 constexpr bool const& GlobalNamespace::OculusAdvancedHapticFeedbackPlayer::__cordl_internal_get__hasAtLeastOneLoopingClipPlaying() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____hasAtLeastOneLoopingClipPlaying;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____hasAtLeastOneLoopingClipPlaying;
 }
-constexpr void GlobalNamespace::OculusAdvancedHapticFeedbackPlayer::__cordl_internal_set__hasAtLeastOneLoopingClipPlaying(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____hasAtLeastOneLoopingClipPlaying = value;
+constexpr void GlobalNamespace::OculusAdvancedHapticFeedbackPlayer::__cordl_internal_set__hasAtLeastOneLoopingClipPlaying(bool  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____hasAtLeastOneLoopingClipPlaying = value;
 }
-constexpr ::System::Nullable_1<bool>& GlobalNamespace::OculusAdvancedHapticFeedbackPlayer::__cordl_internal_get__isLeftHandSupported() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____isLeftHandSupported;
+constexpr ::System::Nullable_1<bool>& GlobalNamespace::OculusAdvancedHapticFeedbackPlayer::__cordl_internal_get__isLeftHandSupported()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____isLeftHandSupported;
 }
 constexpr ::System::Nullable_1<bool> const& GlobalNamespace::OculusAdvancedHapticFeedbackPlayer::__cordl_internal_get__isLeftHandSupported() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____isLeftHandSupported;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____isLeftHandSupported;
 }
-constexpr void GlobalNamespace::OculusAdvancedHapticFeedbackPlayer::__cordl_internal_set__isLeftHandSupported(::System::Nullable_1<bool> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____isLeftHandSupported = value;
+constexpr void GlobalNamespace::OculusAdvancedHapticFeedbackPlayer::__cordl_internal_set__isLeftHandSupported(::System::Nullable_1<bool>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____isLeftHandSupported = value;
 }
-constexpr ::System::Nullable_1<bool>& GlobalNamespace::OculusAdvancedHapticFeedbackPlayer::__cordl_internal_get__isRightHandSupported() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____isRightHandSupported;
+constexpr ::System::Nullable_1<bool>& GlobalNamespace::OculusAdvancedHapticFeedbackPlayer::__cordl_internal_get__isRightHandSupported()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____isRightHandSupported;
 }
 constexpr ::System::Nullable_1<bool> const& GlobalNamespace::OculusAdvancedHapticFeedbackPlayer::__cordl_internal_get__isRightHandSupported() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____isRightHandSupported;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____isRightHandSupported;
 }
-constexpr void GlobalNamespace::OculusAdvancedHapticFeedbackPlayer::__cordl_internal_set__isRightHandSupported(::System::Nullable_1<bool> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____isRightHandSupported = value;
+constexpr void GlobalNamespace::OculusAdvancedHapticFeedbackPlayer::__cordl_internal_set__isRightHandSupported(::System::Nullable_1<bool>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____isRightHandSupported = value;
 }
-inline void GlobalNamespace::OculusAdvancedHapticFeedbackPlayer::PlayHapticFeedback(::UnityEngine::XR::XRNode node, ::Libraries::HM::HMLib::VR::HapticPresetSO* hapticPreset) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer*>::get(), "PlayHapticFeedback", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::XR::XRNode>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Libraries::HM::HMLib::VR::HapticPresetSO*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, node, hapticPreset);
+inline void GlobalNamespace::OculusAdvancedHapticFeedbackPlayer::PlayHapticFeedback(::UnityEngine::XR::XRNode  node, ::Libraries::HM::HMLib::VR::HapticPresetSO*  hapticPreset)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer*>::get(),
+                        "PlayHapticFeedback",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::XR::XRNode>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Libraries::HM::HMLib::VR::HapticPresetSO*>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, node, hapticPreset);
 }
-inline bool GlobalNamespace::OculusAdvancedHapticFeedbackPlayer::CanPlayHapticPreset(::Libraries::HM::HMLib::VR::HapticPresetSO* hapticPreset, ::UnityEngine::XR::XRNode node) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer*>::get(), "CanPlayHapticPreset", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Libraries::HM::HMLib::VR::HapticPresetSO*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::XR::XRNode>::get() })));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, hapticPreset, node);
+inline bool GlobalNamespace::OculusAdvancedHapticFeedbackPlayer::CanPlayHapticPreset(::Libraries::HM::HMLib::VR::HapticPresetSO*  hapticPreset, ::UnityEngine::XR::XRNode  node)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer*>::get(),
+                        "CanPlayHapticPreset",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Libraries::HM::HMLib::VR::HapticPresetSO*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::XR::XRNode>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, hapticPreset, node);
 }
-inline void GlobalNamespace::OculusAdvancedHapticFeedbackPlayer::Initialize() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer*>::get(),
-                                                                             "Initialize", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::OculusAdvancedHapticFeedbackPlayer::Initialize()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer*>::get(),
+                        "Initialize",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::OculusAdvancedHapticFeedbackPlayer::Dispose() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer*>::get(),
-                                                                             "Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::OculusAdvancedHapticFeedbackPlayer::Dispose()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer*>::get(),
+                        "Dispose",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::OculusAdvancedHapticFeedbackPlayer::Tick() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer*>::get(),
-                                                                             "Tick", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::OculusAdvancedHapticFeedbackPlayer::Tick()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer*>::get(),
+                        "Tick",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool GlobalNamespace::OculusAdvancedHapticFeedbackPlayer::IsTouchControllerSupported(::UnityEngine::XR::XRNode node) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer*>::get(), "IsTouchControllerSupported", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::XR::XRNode>::get() })));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, node);
+inline bool GlobalNamespace::OculusAdvancedHapticFeedbackPlayer::IsTouchControllerSupported(::UnityEngine::XR::XRNode  node)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer*>::get(),
+                        "IsTouchControllerSupported",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::XR::XRNode>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, node);
 }
-inline ::UnityW<::Oculus::Haptics::HapticClip> GlobalNamespace::OculusAdvancedHapticFeedbackPlayer::GetHapticClip(::UnityEngine::XR::XRNode node,
-                                                                                                                  ::Libraries::HM::HMLib::VR::HapticPresetSO* hapticPreset) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer*>::get(), "GetHapticClip", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::XR::XRNode>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Libraries::HM::HMLib::VR::HapticPresetSO*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityW<::Oculus::Haptics::HapticClip>, false>(nullptr, ___internal_method, node, hapticPreset);
+inline ::UnityW<::Oculus::Haptics::HapticClip> GlobalNamespace::OculusAdvancedHapticFeedbackPlayer::GetHapticClip(::UnityEngine::XR::XRNode  node, ::Libraries::HM::HMLib::VR::HapticPresetSO*  hapticPreset)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer*>::get(),
+                        "GetHapticClip",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::XR::XRNode>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Libraries::HM::HMLib::VR::HapticPresetSO*>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityW<::Oculus::Haptics::HapticClip>, false>(nullptr, ___internal_method, node, hapticPreset);
 }
-inline void GlobalNamespace::OculusAdvancedHapticFeedbackPlayer::HandleApplicationQuitting() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer*>::get(),
-                                                                             "HandleApplicationQuitting", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::OculusAdvancedHapticFeedbackPlayer::HandleApplicationQuitting()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer*>::get(),
+                        "HandleApplicationQuitting",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::OculusAdvancedHapticFeedbackPlayer::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer*>::get(),
-                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::OculusAdvancedHapticFeedbackPlayer::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer* GlobalNamespace::OculusAdvancedHapticFeedbackPlayer::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer*>());
+inline ::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer* GlobalNamespace::OculusAdvancedHapticFeedbackPlayer::New_ctor()  {
+return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer*>());
 }
 /// @brief Convert operator to "::GlobalNamespace::IHapticFeedbackPlayer"
-constexpr GlobalNamespace::OculusAdvancedHapticFeedbackPlayer::operator ::GlobalNamespace::IHapticFeedbackPlayer*() noexcept {
-  return static_cast<::GlobalNamespace::IHapticFeedbackPlayer*>(static_cast<void*>(this));
+constexpr  GlobalNamespace::OculusAdvancedHapticFeedbackPlayer::operator ::GlobalNamespace::IHapticFeedbackPlayer*() noexcept {
+return static_cast<::GlobalNamespace::IHapticFeedbackPlayer*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::GlobalNamespace::IHapticFeedbackPlayer"
 constexpr ::GlobalNamespace::IHapticFeedbackPlayer* GlobalNamespace::OculusAdvancedHapticFeedbackPlayer::i___GlobalNamespace__IHapticFeedbackPlayer() noexcept {
-  return static_cast<::GlobalNamespace::IHapticFeedbackPlayer*>(static_cast<void*>(this));
+return static_cast<::GlobalNamespace::IHapticFeedbackPlayer*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::Zenject::IInitializable"
-constexpr GlobalNamespace::OculusAdvancedHapticFeedbackPlayer::operator ::Zenject::IInitializable*() noexcept {
-  return static_cast<::Zenject::IInitializable*>(static_cast<void*>(this));
+constexpr  GlobalNamespace::OculusAdvancedHapticFeedbackPlayer::operator ::Zenject::IInitializable*() noexcept {
+return static_cast<::Zenject::IInitializable*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::Zenject::IInitializable"
 constexpr ::Zenject::IInitializable* GlobalNamespace::OculusAdvancedHapticFeedbackPlayer::i___Zenject__IInitializable() noexcept {
-  return static_cast<::Zenject::IInitializable*>(static_cast<void*>(this));
+return static_cast<::Zenject::IInitializable*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::IDisposable"
-constexpr GlobalNamespace::OculusAdvancedHapticFeedbackPlayer::operator ::System::IDisposable*() noexcept {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+constexpr  GlobalNamespace::OculusAdvancedHapticFeedbackPlayer::operator ::System::IDisposable*() noexcept {
+return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::IDisposable"
 constexpr ::System::IDisposable* GlobalNamespace::OculusAdvancedHapticFeedbackPlayer::i___System__IDisposable() noexcept {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::Zenject::ITickable"
-constexpr GlobalNamespace::OculusAdvancedHapticFeedbackPlayer::operator ::Zenject::ITickable*() noexcept {
-  return static_cast<::Zenject::ITickable*>(static_cast<void*>(this));
+constexpr  GlobalNamespace::OculusAdvancedHapticFeedbackPlayer::operator ::Zenject::ITickable*() noexcept {
+return static_cast<::Zenject::ITickable*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::Zenject::ITickable"
 constexpr ::Zenject::ITickable* GlobalNamespace::OculusAdvancedHapticFeedbackPlayer::i___Zenject__ITickable() noexcept {
-  return static_cast<::Zenject::ITickable*>(static_cast<void*>(this));
+return static_cast<::Zenject::ITickable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer::OculusAdvancedHapticFeedbackPlayer() {}
+constexpr ::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer::OculusAdvancedHapticFeedbackPlayer()   {
+}

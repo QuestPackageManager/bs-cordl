@@ -27,43 +27,42 @@ namespace Meta::XR::ImmersiveDebugger::Manager {
 // CS Name: Meta.XR.ImmersiveDebugger.Manager.Tweak
 class CORDL_TYPE Tweak : public ::Meta::XR::ImmersiveDebugger::Manager::Hook {
 public:
-  // Declarations
-  __declspec(property(get = get_Tween, put = set_Tween)) float_t Tween;
+// Declarations
+ __declspec(property(get=get_Tween, put=set_Tween)) float_t  Tween;
 
-  static inline ::Meta::XR::ImmersiveDebugger::Manager::Tweak* New_ctor(::System::Reflection::MemberInfo* memberInfo, ::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle instanceHandle,
-                                                                        ::Meta::XR::ImmersiveDebugger::DebugMember* attribute);
+static inline ::Meta::XR::ImmersiveDebugger::Manager::Tweak* New_ctor(::System::Reflection::MemberInfo*  memberInfo, ::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle  instanceHandle, ::Meta::XR::ImmersiveDebugger::DebugMember*  attribute) ;
 
-  /// @brief Method .ctor, addr 0x59287a8, size 0x28, virtual false, abstract: false, final false
-  inline void _ctor(::System::Reflection::MemberInfo* memberInfo, ::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle instanceHandle, ::Meta::XR::ImmersiveDebugger::DebugMember* attribute);
+/// @brief Method .ctor, addr 0x592a178, size 0x28, virtual false, abstract: false, final false
+inline void _ctor(::System::Reflection::MemberInfo*  memberInfo, ::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle  instanceHandle, ::Meta::XR::ImmersiveDebugger::DebugMember*  attribute) ;
 
-  /// @brief Method get_Tween, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline float_t get_Tween();
+/// @brief Method get_Tween, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline float_t get_Tween() ;
 
-  /// @brief Method set_Tween, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void set_Tween(float_t value);
+/// @brief Method set_Tween, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline void set_Tween(float_t  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Tweak();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr Tweak() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Tweak", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  Tweak(Tweak&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Tweak", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  Tweak(Tweak const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "Tweak", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Tweak(Tweak && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18421 };
+// Ctor Parameters [CppParam { name: "", ty: "Tweak", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Tweak(Tweak const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{18423};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Meta::XR::ImmersiveDebugger::Manager::Tweak, 0x40>, "Size mismatch!");
 
-} // namespace Meta::XR::ImmersiveDebugger::Manager
+} // namespace end def Meta::XR::ImmersiveDebugger::Manager
 NEED_NO_BOX(::Meta::XR::ImmersiveDebugger::Manager::Tweak);
 DEFINE_IL2CPP_ARG_TYPE(::Meta::XR::ImmersiveDebugger::Manager::Tweak*, "Meta.XR.ImmersiveDebugger.Manager", "Tweak");

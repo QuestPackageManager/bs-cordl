@@ -21,34 +21,34 @@ namespace UnityEngine::Rendering {
 // CS Name: UnityEngine.Rendering.ResourcePathsBaseAttribute
 class CORDL_TYPE ResourcePathsBaseAttribute : public ::System::Attribute {
 public:
-  // Declarations
-  static inline ::UnityEngine::Rendering::ResourcePathsBaseAttribute* New_ctor(::ArrayW<::StringW, ::Array<::StringW>*> paths, bool isField, ::UnityEngine::Rendering::SearchType location);
+// Declarations
+static inline ::UnityEngine::Rendering::ResourcePathsBaseAttribute* New_ctor(::ArrayW<::StringW,::Array<::StringW>*>  paths, bool  isField, ::UnityEngine::Rendering::SearchType  location) ;
 
-  /// @brief Method .ctor, addr 0x69b2990, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor(::ArrayW<::StringW, ::Array<::StringW>*> paths, bool isField, ::UnityEngine::Rendering::SearchType location);
+/// @brief Method .ctor, addr 0x69b4508, size 0x4, virtual false, abstract: false, final false
+inline void _ctor(::ArrayW<::StringW,::Array<::StringW>*>  paths, bool  isField, ::UnityEngine::Rendering::SearchType  location) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ResourcePathsBaseAttribute();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ResourcePathsBaseAttribute() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ResourcePathsBaseAttribute", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ResourcePathsBaseAttribute(ResourcePathsBaseAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ResourcePathsBaseAttribute", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ResourcePathsBaseAttribute(ResourcePathsBaseAttribute const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ResourcePathsBaseAttribute", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ResourcePathsBaseAttribute(ResourcePathsBaseAttribute && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10756 };
+// Ctor Parameters [CppParam { name: "", ty: "ResourcePathsBaseAttribute", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ResourcePathsBaseAttribute(ResourcePathsBaseAttribute const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10757};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::ResourcePathsBaseAttribute, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::Rendering
+} // namespace end def UnityEngine::Rendering
 NEED_NO_BOX(::UnityEngine::Rendering::ResourcePathsBaseAttribute);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::ResourcePathsBaseAttribute*, "UnityEngine.Rendering", "ResourcePathsBaseAttribute");

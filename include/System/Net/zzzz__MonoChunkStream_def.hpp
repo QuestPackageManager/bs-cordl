@@ -34,7 +34,8 @@ namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
 }
 namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
+template<typename TResult>
+class Task_1;
 }
 namespace System::Threading::Tasks {
 class Task;
@@ -56,75 +57,66 @@ struct MonoChunkStream__ProcessReadAsync_d__7;
 MARK_REF_PTR_T(::System::Net::MonoChunkStream);
 MARK_VAL_T(::System::Net::MonoChunkStream__FinishReading_d__8);
 MARK_VAL_T(::System::Net::MonoChunkStream__ProcessReadAsync_d__7);
-// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>,
-// System.Threading.CancellationToken
+// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>, System.Threading.CancellationToken
 namespace System::Net {
 // Is value type: true
 // CS Name: System.Net.MonoChunkStream/<ProcessReadAsync>d__7
 struct CORDL_TYPE MonoChunkStream__ProcessReadAsync_d__7 {
 public:
-  // Declarations
-  /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-  constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+// Declarations
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr operator  ::System::Runtime::CompilerServices::IAsyncStateMachine*() ;
 
-  /// @brief Method MoveNext, addr 0x61f8360, size 0x440, virtual true, abstract: false, final true
-  inline void MoveNext();
+/// @brief Method MoveNext, addr 0x61f9ed8, size 0x440, virtual true, abstract: false, final true
+inline void MoveNext() ;
 
-  /// @brief Method SetStateMachine, addr 0x61f87a0, size 0x80, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+/// @brief Method SetStateMachine, addr 0x61fa318, size 0x80, virtual true, abstract: false, final true
+inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine*  stateMachine) ;
 
-  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
+/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine() ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MonoChunkStream__ProcessReadAsync_d__7();
+// Ctor Parameters []
+// @brief default ctor
+constexpr MonoChunkStream__ProcessReadAsync_d__7() ;
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<int32_t>", modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken",
-  // modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::System::Net::MonoChunkStream*", modifiers: "", def_value: None }, CppParam { name: "buffer", ty:
-  // "::ArrayW<uint8_t,::Array<uint8_t>*>", modifiers: "", def_value: None }, CppParam { name: "offset", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "size", ty: "int32_t",
-  // modifiers: "", def_value: None }, CppParam { name: "_moreBytes_5__2", ty: "::ArrayW<uint8_t,::Array<uint8_t>*>", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t>", modifiers: "", def_value: None }]
-  constexpr MonoChunkStream__ProcessReadAsync_d__7(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<int32_t> __t__builder,
-                                                   ::System::Threading::CancellationToken cancellationToken, ::System::Net::MonoChunkStream* __4__this, ::ArrayW<uint8_t, ::Array<uint8_t>*> buffer,
-                                                   int32_t offset, int32_t size, ::ArrayW<uint8_t, ::Array<uint8_t>*> _moreBytes_5__2,
-                                                   ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t> __u__1) noexcept;
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty: "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<int32_t>", modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::System::Net::MonoChunkStream*", modifiers: "", def_value: None }, CppParam { name: "buffer", ty: "::ArrayW<uint8_t,::Array<uint8_t>*>", modifiers: "", def_value: None }, CppParam { name: "offset", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "size", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_moreBytes_5__2", ty: "::ArrayW<uint8_t,::Array<uint8_t>*>", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t>", modifiers: "", def_value: None }]
+constexpr MonoChunkStream__ProcessReadAsync_d__7(int32_t  __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<int32_t>  __t__builder, ::System::Threading::CancellationToken  cancellationToken, ::System::Net::MonoChunkStream*  __4__this, ::ArrayW<uint8_t,::Array<uint8_t>*>  buffer, int32_t  offset, int32_t  size, ::ArrayW<uint8_t,::Array<uint8_t>*>  _moreBytes_5__2, ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t>  __u__1) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11604 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11605};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x58 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x58};
 
-  /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
-  int32_t __1__state;
+/// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
+ int32_t  __1__state;
 
-  /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
-  ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<int32_t> __t__builder;
+/// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
+ ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<int32_t>  __t__builder;
 
-  /// @brief Field cancellationToken, offset: 0x20, size: 0x8, def value: None
-  ::System::Threading::CancellationToken cancellationToken;
+/// @brief Field cancellationToken, offset: 0x20, size: 0x8, def value: None
+ ::System::Threading::CancellationToken  cancellationToken;
 
-  /// @brief Field <>4__this, offset: 0x28, size: 0x8, def value: None
-  ::System::Net::MonoChunkStream* __4__this;
+/// @brief Field <>4__this, offset: 0x28, size: 0x8, def value: None
+ ::System::Net::MonoChunkStream*  __4__this;
 
-  /// @brief Field buffer, offset: 0x30, size: 0x8, def value: None
-  ::ArrayW<uint8_t, ::Array<uint8_t>*> buffer;
+/// @brief Field buffer, offset: 0x30, size: 0x8, def value: None
+ ::ArrayW<uint8_t,::Array<uint8_t>*>  buffer;
 
-  /// @brief Field offset, offset: 0x38, size: 0x4, def value: None
-  int32_t offset;
+/// @brief Field offset, offset: 0x38, size: 0x4, def value: None
+ int32_t  offset;
 
-  /// @brief Field size, offset: 0x3c, size: 0x4, def value: None
-  int32_t size;
+/// @brief Field size, offset: 0x3c, size: 0x4, def value: None
+ int32_t  size;
 
-  /// @brief Field <moreBytes>5__2, offset: 0x40, size: 0x8, def value: None
-  ::ArrayW<uint8_t, ::Array<uint8_t>*> _moreBytes_5__2;
+/// @brief Field <moreBytes>5__2, offset: 0x40, size: 0x8, def value: None
+ ::ArrayW<uint8_t,::Array<uint8_t>*>  _moreBytes_5__2;
 
-  /// @brief Field <>u__1, offset: 0x48, size: 0x10, def value: None
-  ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t> __u__1;
+/// @brief Field <>u__1, offset: 0x48, size: 0x10, def value: None
+ ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t>  __u__1;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Net::MonoChunkStream__ProcessReadAsync_d__7, __1__state) == 0x0, "Offset mismatch!");
@@ -147,69 +139,61 @@ static_assert(offsetof(::System::Net::MonoChunkStream__ProcessReadAsync_d__7, __
 
 static_assert(::cordl_internals::size_check_v<::System::Net::MonoChunkStream__ProcessReadAsync_d__7, 0x58>, "Size mismatch!");
 
-} // namespace System::Net
-// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.ConfiguredTaskAwaitable::ConfiguredTaskAwaiter,
-// System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>, System.Threading.CancellationToken
+} // namespace end def System::Net
+// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.ConfiguredTaskAwaitable::ConfiguredTaskAwaiter, System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>, System.Threading.CancellationToken
 namespace System::Net {
 // Is value type: true
 // CS Name: System.Net.MonoChunkStream/<FinishReading>d__8
 struct CORDL_TYPE MonoChunkStream__FinishReading_d__8 {
 public:
-  // Declarations
-  /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-  constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+// Declarations
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr operator  ::System::Runtime::CompilerServices::IAsyncStateMachine*() ;
 
-  /// @brief Method MoveNext, addr 0x61f8820, size 0x490, virtual true, abstract: false, final true
-  inline void MoveNext();
+/// @brief Method MoveNext, addr 0x61fa398, size 0x490, virtual true, abstract: false, final true
+inline void MoveNext() ;
 
-  /// @brief Method SetStateMachine, addr 0x61f8cb0, size 0x6c, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+/// @brief Method SetStateMachine, addr 0x61fa828, size 0x6c, virtual true, abstract: false, final true
+inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine*  stateMachine) ;
 
-  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
+/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine() ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MonoChunkStream__FinishReading_d__8();
+// Ctor Parameters []
+// @brief default ctor
+constexpr MonoChunkStream__FinishReading_d__8() ;
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::System::Net::MonoChunkStream*", modifiers: "", def_value:
-  // None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: None }, CppParam { name: "_buffer_5__2", ty: "::ArrayW<uint8_t,::Array<uint8_t>*>",
-  // modifiers: "", def_value: None }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t>", modifiers: "", def_value: None }]
-  constexpr MonoChunkStream__FinishReading_d__8(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::System::Net::MonoChunkStream* __4__this,
-                                                ::System::Threading::CancellationToken cancellationToken, ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__1,
-                                                ::ArrayW<uint8_t, ::Array<uint8_t>*> _buffer_5__2,
-                                                ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t> __u__2) noexcept;
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty: "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::System::Net::MonoChunkStream*", modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: None }, CppParam { name: "_buffer_5__2", ty: "::ArrayW<uint8_t,::Array<uint8_t>*>", modifiers: "", def_value: None }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t>", modifiers: "", def_value: None }]
+constexpr MonoChunkStream__FinishReading_d__8(int32_t  __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder  __t__builder, ::System::Net::MonoChunkStream*  __4__this, ::System::Threading::CancellationToken  cancellationToken, ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter  __u__1, ::ArrayW<uint8_t,::Array<uint8_t>*>  _buffer_5__2, ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t>  __u__2) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11605 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11606};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x58 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x58};
 
-  /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
-  int32_t __1__state;
+/// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
+ int32_t  __1__state;
 
-  /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
-  ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder;
+/// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
+ ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder  __t__builder;
 
-  /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::System::Net::MonoChunkStream* __4__this;
+/// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
+ ::System::Net::MonoChunkStream*  __4__this;
 
-  /// @brief Field cancellationToken, offset: 0x28, size: 0x8, def value: None
-  ::System::Threading::CancellationToken cancellationToken;
+/// @brief Field cancellationToken, offset: 0x28, size: 0x8, def value: None
+ ::System::Threading::CancellationToken  cancellationToken;
 
-  /// @brief Field <>u__1, offset: 0x30, size: 0x10, def value: None
-  ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__1;
+/// @brief Field <>u__1, offset: 0x30, size: 0x10, def value: None
+ ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter  __u__1;
 
-  /// @brief Field <buffer>5__2, offset: 0x40, size: 0x8, def value: None
-  ::ArrayW<uint8_t, ::Array<uint8_t>*> _buffer_5__2;
+/// @brief Field <buffer>5__2, offset: 0x40, size: 0x8, def value: None
+ ::ArrayW<uint8_t,::Array<uint8_t>*>  _buffer_5__2;
 
-  /// @brief Field <>u__2, offset: 0x48, size: 0x10, def value: None
-  ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t> __u__2;
+/// @brief Field <>u__2, offset: 0x48, size: 0x10, def value: None
+ ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t>  __u__2;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Net::MonoChunkStream__FinishReading_d__8, __1__state) == 0x0, "Offset mismatch!");
@@ -228,83 +212,82 @@ static_assert(offsetof(::System::Net::MonoChunkStream__FinishReading_d__8, __u__
 
 static_assert(::cordl_internals::size_check_v<::System::Net::MonoChunkStream__FinishReading_d__8, 0x58>, "Size mismatch!");
 
-} // namespace System::Net
+} // namespace end def System::Net
 // Dependencies System.Net.WebReadStream
 namespace System::Net {
 // Is value type: false
 // CS Name: System.Net.MonoChunkStream
 class CORDL_TYPE MonoChunkStream : public ::System::Net::WebReadStream {
 public:
-  // Declarations
-  using _FinishReading_d__8 = ::System::Net::MonoChunkStream__FinishReading_d__8;
+// Declarations
+using _FinishReading_d__8 = ::System::Net::MonoChunkStream__FinishReading_d__8;
 
-  using _ProcessReadAsync_d__7 = ::System::Net::MonoChunkStream__ProcessReadAsync_d__7;
+using _ProcessReadAsync_d__7 = ::System::Net::MonoChunkStream__ProcessReadAsync_d__7;
 
-  __declspec(property(get = get_Decoder)) ::System::Net::MonoChunkParser* Decoder;
+ __declspec(property(get=get_Decoder)) ::System::Net::MonoChunkParser*  Decoder;
 
-  /// @brief Field <Decoder>k__BackingField, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__Decoder_k__BackingField, put = __cordl_internal_set__Decoder_k__BackingField)) ::System::Net::MonoChunkParser* _Decoder_k__BackingField;
+/// @brief Field <Decoder>k__BackingField, offset 0x48, size 0x8 
+ __declspec(property(get=__cordl_internal_get__Decoder_k__BackingField, put=__cordl_internal_set__Decoder_k__BackingField)) ::System::Net::MonoChunkParser*  _Decoder_k__BackingField;
 
-  /// @brief Field <Headers>k__BackingField, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__Headers_k__BackingField, put = __cordl_internal_set__Headers_k__BackingField)) ::System::Net::WebHeaderCollection* _Headers_k__BackingField;
+/// @brief Field <Headers>k__BackingField, offset 0x40, size 0x8 
+ __declspec(property(get=__cordl_internal_get__Headers_k__BackingField, put=__cordl_internal_set__Headers_k__BackingField)) ::System::Net::WebHeaderCollection*  _Headers_k__BackingField;
 
-  /// @brief Method FinishReading, addr 0x61f8238, size 0xc8, virtual true, abstract: false, final false
-  inline ::System::Threading::Tasks::Task* FinishReading(::System::Threading::CancellationToken cancellationToken);
+/// @brief Method FinishReading, addr 0x61f9db0, size 0xc8, virtual true, abstract: false, final false
+inline ::System::Threading::Tasks::Task* FinishReading(::System::Threading::CancellationToken  cancellationToken) ;
 
-  static inline ::System::Net::MonoChunkStream* New_ctor(::System::Net::WebOperation* operation, ::System::IO::Stream* innerStream, ::System::Net::WebHeaderCollection* headers);
+static inline ::System::Net::MonoChunkStream* New_ctor(::System::Net::WebOperation*  operation, ::System::IO::Stream*  innerStream, ::System::Net::WebHeaderCollection*  headers) ;
 
-  /// @brief Method ProcessReadAsync, addr 0x61f8128, size 0x110, virtual true, abstract: false, final false
-  inline ::System::Threading::Tasks::Task_1<int32_t>* ProcessReadAsync(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size,
-                                                                       ::System::Threading::CancellationToken cancellationToken);
+/// @brief Method ProcessReadAsync, addr 0x61f9ca0, size 0x110, virtual true, abstract: false, final false
+inline ::System::Threading::Tasks::Task_1<int32_t>* ProcessReadAsync(::ArrayW<uint8_t,::Array<uint8_t>*>  buffer, int32_t  offset, int32_t  size, ::System::Threading::CancellationToken  cancellationToken) ;
 
-  /// @brief Method ThrowExpectingChunkTrailer, addr 0x61f8300, size 0x58, virtual false, abstract: false, final false
-  static inline void ThrowExpectingChunkTrailer();
+/// @brief Method ThrowExpectingChunkTrailer, addr 0x61f9e78, size 0x58, virtual false, abstract: false, final false
+static inline void ThrowExpectingChunkTrailer() ;
 
-  constexpr ::System::Net::MonoChunkParser* const& __cordl_internal_get__Decoder_k__BackingField() const;
+constexpr ::System::Net::MonoChunkParser* const& __cordl_internal_get__Decoder_k__BackingField() const;
 
-  constexpr ::System::Net::MonoChunkParser*& __cordl_internal_get__Decoder_k__BackingField();
+constexpr ::System::Net::MonoChunkParser*& __cordl_internal_get__Decoder_k__BackingField() ;
 
-  constexpr ::System::Net::WebHeaderCollection* const& __cordl_internal_get__Headers_k__BackingField() const;
+constexpr ::System::Net::WebHeaderCollection* const& __cordl_internal_get__Headers_k__BackingField() const;
 
-  constexpr ::System::Net::WebHeaderCollection*& __cordl_internal_get__Headers_k__BackingField();
+constexpr ::System::Net::WebHeaderCollection*& __cordl_internal_get__Headers_k__BackingField() ;
 
-  constexpr void __cordl_internal_set__Decoder_k__BackingField(::System::Net::MonoChunkParser* value);
+constexpr void __cordl_internal_set__Decoder_k__BackingField(::System::Net::MonoChunkParser*  value) ;
 
-  constexpr void __cordl_internal_set__Headers_k__BackingField(::System::Net::WebHeaderCollection* value);
+constexpr void __cordl_internal_set__Headers_k__BackingField(::System::Net::WebHeaderCollection*  value) ;
 
-  /// @brief Method <>n__0, addr 0x61f8358, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task* __n__0(::System::Threading::CancellationToken cancellationToken);
+/// @brief Method <>n__0, addr 0x61f9ed0, size 0x8, virtual false, abstract: false, final false
+inline ::System::Threading::Tasks::Task* __n__0(::System::Threading::CancellationToken  cancellationToken) ;
 
-  /// @brief Method .ctor, addr 0x61f8098, size 0x90, virtual false, abstract: false, final false
-  inline void _ctor(::System::Net::WebOperation* operation, ::System::IO::Stream* innerStream, ::System::Net::WebHeaderCollection* headers);
+/// @brief Method .ctor, addr 0x61f9c10, size 0x90, virtual false, abstract: false, final false
+inline void _ctor(::System::Net::WebOperation*  operation, ::System::IO::Stream*  innerStream, ::System::Net::WebHeaderCollection*  headers) ;
 
-  /// @brief Method get_Decoder, addr 0x61f8090, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Net::MonoChunkParser* get_Decoder();
+/// @brief Method get_Decoder, addr 0x61f9c08, size 0x8, virtual false, abstract: false, final false
+inline ::System::Net::MonoChunkParser* get_Decoder() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MonoChunkStream();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr MonoChunkStream() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MonoChunkStream", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  MonoChunkStream(MonoChunkStream&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MonoChunkStream", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  MonoChunkStream(MonoChunkStream const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "MonoChunkStream", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+MonoChunkStream(MonoChunkStream && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11606 };
+// Ctor Parameters [CppParam { name: "", ty: "MonoChunkStream", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+MonoChunkStream(MonoChunkStream const& ) = delete;
 
-  /// @brief Field <Headers>k__BackingField, offset: 0x40, size: 0x8, def value: None
-  ::System::Net::WebHeaderCollection* ____Headers_k__BackingField;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11607};
 
-  /// @brief Field <Decoder>k__BackingField, offset: 0x48, size: 0x8, def value: None
-  ::System::Net::MonoChunkParser* ____Decoder_k__BackingField;
+/// @brief Field <Headers>k__BackingField, offset: 0x40, size: 0x8, def value: None
+ ::System::Net::WebHeaderCollection*  ____Headers_k__BackingField;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field <Decoder>k__BackingField, offset: 0x48, size: 0x8, def value: None
+ ::System::Net::MonoChunkParser*  ____Decoder_k__BackingField;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Net::MonoChunkStream, ____Headers_k__BackingField) == 0x40, "Offset mismatch!");
@@ -313,7 +296,7 @@ static_assert(offsetof(::System::Net::MonoChunkStream, ____Decoder_k__BackingFie
 
 static_assert(::cordl_internals::size_check_v<::System::Net::MonoChunkStream, 0x50>, "Size mismatch!");
 
-} // namespace System::Net
+} // namespace end def System::Net
 NEED_NO_BOX(::System::Net::MonoChunkStream);
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::MonoChunkStream*, "System.Net", "MonoChunkStream");
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::MonoChunkStream__FinishReading_d__8, "System.Net", "MonoChunkStream/<FinishReading>d__8");

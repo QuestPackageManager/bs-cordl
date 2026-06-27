@@ -17,34 +17,34 @@ namespace Unity::Burst::CompilerServices {
 // CS Name: Unity.Burst.CompilerServices.SkipLocalsInitAttribute
 class CORDL_TYPE SkipLocalsInitAttribute : public ::System::Attribute {
 public:
-  // Declarations
-  static inline ::Unity::Burst::CompilerServices::SkipLocalsInitAttribute* New_ctor();
+// Declarations
+static inline ::Unity::Burst::CompilerServices::SkipLocalsInitAttribute* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x6363678, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x63651f0, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SkipLocalsInitAttribute();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr SkipLocalsInitAttribute() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SkipLocalsInitAttribute", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  SkipLocalsInitAttribute(SkipLocalsInitAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SkipLocalsInitAttribute", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  SkipLocalsInitAttribute(SkipLocalsInitAttribute const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "SkipLocalsInitAttribute", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+SkipLocalsInitAttribute(SkipLocalsInitAttribute && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17353 };
+// Ctor Parameters [CppParam { name: "", ty: "SkipLocalsInitAttribute", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+SkipLocalsInitAttribute(SkipLocalsInitAttribute const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{17355};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Unity::Burst::CompilerServices::SkipLocalsInitAttribute, 0x10>, "Size mismatch!");
 
-} // namespace Unity::Burst::CompilerServices
+} // namespace end def Unity::Burst::CompilerServices
 NEED_NO_BOX(::Unity::Burst::CompilerServices::SkipLocalsInitAttribute);
 DEFINE_IL2CPP_ARG_TYPE(::Unity::Burst::CompilerServices::SkipLocalsInitAttribute*, "Unity.Burst.CompilerServices", "SkipLocalsInitAttribute");

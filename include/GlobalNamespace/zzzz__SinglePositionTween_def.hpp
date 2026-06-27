@@ -39,69 +39,68 @@ namespace GlobalNamespace {
 // CS Name: SinglePositionTween
 class CORDL_TYPE SinglePositionTween : public ::UnityEngine::Playables::PlayableAsset {
 public:
-  // Declarations
-  /// @brief Field template, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__cordl_template, put = __cordl_internal_set__cordl_template)) ::GlobalNamespace::CustomTweenBehaviour* _cordl_template;
+// Declarations
+/// @brief Field template, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get__cordl_template, put=__cordl_internal_set__cordl_template)) ::GlobalNamespace::CustomTweenBehaviour*  _cordl_template;
 
-  __declspec(property(get = get_clipCaps)) ::UnityEngine::Timeline::ClipCaps clipCaps;
+ __declspec(property(get=get_clipCaps)) ::UnityEngine::Timeline::ClipCaps  clipCaps;
 
-  /// @brief Field transformReference, offset 0x18, size 0x10
-  __declspec(property(get = __cordl_internal_get_transformReference, put = __cordl_internal_set_transformReference)) ::UnityEngine::ExposedReference_1<::UnityW<::UnityEngine::Transform>>
-      transformReference;
+/// @brief Field transformReference, offset 0x18, size 0x10 
+ __declspec(property(get=__cordl_internal_get_transformReference, put=__cordl_internal_set_transformReference)) ::UnityEngine::ExposedReference_1<::UnityW<::UnityEngine::Transform>>  transformReference;
 
-  /// @brief Convert operator to "::UnityEngine::Timeline::ITimelineClipAsset"
-  constexpr operator ::UnityEngine::Timeline::ITimelineClipAsset*() noexcept;
+/// @brief Convert operator to "::UnityEngine::Timeline::ITimelineClipAsset"
+constexpr operator  ::UnityEngine::Timeline::ITimelineClipAsset*() noexcept;
 
-  /// @brief Method CreatePlayable, addr 0x57e5234, size 0x1f8, virtual true, abstract: false, final false
-  inline ::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject* go);
+/// @brief Method CreatePlayable, addr 0x57e6a9c, size 0x1f8, virtual true, abstract: false, final false
+inline ::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph  graph, ::UnityEngine::GameObject*  go) ;
 
-  static inline ::GlobalNamespace::SinglePositionTween* New_ctor();
+static inline ::GlobalNamespace::SinglePositionTween* New_ctor() ;
 
-  constexpr ::GlobalNamespace::CustomTweenBehaviour* const& __cordl_internal_get__cordl_template() const;
+constexpr ::GlobalNamespace::CustomTweenBehaviour* const& __cordl_internal_get__cordl_template() const;
 
-  constexpr ::GlobalNamespace::CustomTweenBehaviour*& __cordl_internal_get__cordl_template();
+constexpr ::GlobalNamespace::CustomTweenBehaviour*& __cordl_internal_get__cordl_template() ;
 
-  constexpr ::UnityEngine::ExposedReference_1<::UnityW<::UnityEngine::Transform>> const& __cordl_internal_get_transformReference() const;
+constexpr ::UnityEngine::ExposedReference_1<::UnityW<::UnityEngine::Transform>> const& __cordl_internal_get_transformReference() const;
 
-  constexpr ::UnityEngine::ExposedReference_1<::UnityW<::UnityEngine::Transform>>& __cordl_internal_get_transformReference();
+constexpr ::UnityEngine::ExposedReference_1<::UnityW<::UnityEngine::Transform>>& __cordl_internal_get_transformReference() ;
 
-  constexpr void __cordl_internal_set__cordl_template(::GlobalNamespace::CustomTweenBehaviour* value);
+constexpr void __cordl_internal_set__cordl_template(::GlobalNamespace::CustomTweenBehaviour*  value) ;
 
-  constexpr void __cordl_internal_set_transformReference(::UnityEngine::ExposedReference_1<::UnityW<::UnityEngine::Transform>> value);
+constexpr void __cordl_internal_set_transformReference(::UnityEngine::ExposedReference_1<::UnityW<::UnityEngine::Transform>>  value) ;
 
-  /// @brief Method .ctor, addr 0x57e542c, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x57e6c94, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_clipCaps, addr 0x57e522c, size 0x8, virtual true, abstract: false, final true
-  inline ::UnityEngine::Timeline::ClipCaps get_clipCaps();
+/// @brief Method get_clipCaps, addr 0x57e6a94, size 0x8, virtual true, abstract: false, final true
+inline ::UnityEngine::Timeline::ClipCaps get_clipCaps() ;
 
-  /// @brief Convert to "::UnityEngine::Timeline::ITimelineClipAsset"
-  constexpr ::UnityEngine::Timeline::ITimelineClipAsset* i___UnityEngine__Timeline__ITimelineClipAsset() noexcept;
+/// @brief Convert to "::UnityEngine::Timeline::ITimelineClipAsset"
+constexpr ::UnityEngine::Timeline::ITimelineClipAsset* i___UnityEngine__Timeline__ITimelineClipAsset() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SinglePositionTween();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr SinglePositionTween() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SinglePositionTween", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  SinglePositionTween(SinglePositionTween&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SinglePositionTween", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  SinglePositionTween(SinglePositionTween const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "SinglePositionTween", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+SinglePositionTween(SinglePositionTween && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6790 };
+// Ctor Parameters [CppParam { name: "", ty: "SinglePositionTween", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+SinglePositionTween(SinglePositionTween const& ) = delete;
 
-  /// @brief Field transformReference, offset: 0x18, size: 0x10, def value: None
-  ::UnityEngine::ExposedReference_1<::UnityW<::UnityEngine::Transform>> ___transformReference;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6790};
 
-  /// @brief Field template, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::CustomTweenBehaviour* ____cordl_template;
+/// @brief Field transformReference, offset: 0x18, size: 0x10, def value: None
+ ::UnityEngine::ExposedReference_1<::UnityW<::UnityEngine::Transform>>  ___transformReference;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field template, offset: 0x28, size: 0x8, def value: None
+ ::GlobalNamespace::CustomTweenBehaviour*  ____cordl_template;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::SinglePositionTween, ___transformReference) == 0x18, "Offset mismatch!");
@@ -110,6 +109,6 @@ static_assert(offsetof(::GlobalNamespace::SinglePositionTween, ____cordl_templat
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SinglePositionTween, 0x30>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SinglePositionTween);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SinglePositionTween*, "", "SinglePositionTween");

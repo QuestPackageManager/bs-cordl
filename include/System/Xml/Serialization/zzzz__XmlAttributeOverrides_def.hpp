@@ -33,64 +33,64 @@ namespace System::Xml::Serialization {
 // CS Name: System.Xml.Serialization.XmlAttributeOverrides
 class CORDL_TYPE XmlAttributeOverrides : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = get_Item)) ::System::Xml::Serialization::XmlAttributes* Item[];
+// Declarations
+ __declspec(property(get=get_Item)) ::System::Xml::Serialization::XmlAttributes*  Item[];
 
-  __declspec(property(get = get_Item)) ::System::Xml::Serialization::XmlAttributes* Item[];
+ __declspec(property(get=get_Item)) ::System::Xml::Serialization::XmlAttributes*  Item[];
 
-  /// @brief Field overrides, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_overrides, put = __cordl_internal_set_overrides)) ::System::Collections::Hashtable* overrides;
+/// @brief Field overrides, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_overrides, put=__cordl_internal_set_overrides)) ::System::Collections::Hashtable*  overrides;
 
-  /// @brief Method AddKeyHash, addr 0x61aa35c, size 0x4c4, virtual false, abstract: false, final false
-  inline void AddKeyHash(::System::Text::StringBuilder* sb);
+/// @brief Method AddKeyHash, addr 0x61abed4, size 0x4c4, virtual false, abstract: false, final false
+inline void AddKeyHash(::System::Text::StringBuilder*  sb) ;
 
-  /// @brief Method GetKey, addr 0x61b0c48, size 0x5c, virtual false, abstract: false, final false
-  inline ::System::Xml::Serialization::TypeMember* GetKey(::System::Type* type, ::StringW member);
+/// @brief Method GetKey, addr 0x61b27c0, size 0x5c, virtual false, abstract: false, final false
+inline ::System::Xml::Serialization::TypeMember* GetKey(::System::Type*  type, ::StringW  member) ;
 
-  static inline ::System::Xml::Serialization::XmlAttributeOverrides* New_ctor();
+static inline ::System::Xml::Serialization::XmlAttributeOverrides* New_ctor() ;
 
-  constexpr ::System::Collections::Hashtable* const& __cordl_internal_get_overrides() const;
+constexpr ::System::Collections::Hashtable* const& __cordl_internal_get_overrides() const;
 
-  constexpr ::System::Collections::Hashtable*& __cordl_internal_get_overrides();
+constexpr ::System::Collections::Hashtable*& __cordl_internal_get_overrides() ;
 
-  constexpr void __cordl_internal_set_overrides(::System::Collections::Hashtable* value);
+constexpr void __cordl_internal_set_overrides(::System::Collections::Hashtable*  value) ;
 
-  /// @brief Method .ctor, addr 0x61b0b1c, size 0x60, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x61b2694, size 0x60, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_Item, addr 0x61b0b7c, size 0x14, virtual false, abstract: false, final false
-  inline ::System::Xml::Serialization::XmlAttributes* get_Item(::System::Type* type);
+/// @brief Method get_Item, addr 0x61b26f4, size 0x14, virtual false, abstract: false, final false
+inline ::System::Xml::Serialization::XmlAttributes* get_Item(::System::Type*  type) ;
 
-  /// @brief Method get_Item, addr 0x61b0b90, size 0xb8, virtual false, abstract: false, final false
-  inline ::System::Xml::Serialization::XmlAttributes* get_Item(::System::Type* type, ::StringW member);
+/// @brief Method get_Item, addr 0x61b2708, size 0xb8, virtual false, abstract: false, final false
+inline ::System::Xml::Serialization::XmlAttributes* get_Item(::System::Type*  type, ::StringW  member) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr XmlAttributeOverrides();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr XmlAttributeOverrides() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlAttributeOverrides", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  XmlAttributeOverrides(XmlAttributeOverrides&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlAttributeOverrides", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  XmlAttributeOverrides(XmlAttributeOverrides const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "XmlAttributeOverrides", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+XmlAttributeOverrides(XmlAttributeOverrides && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9491 };
+// Ctor Parameters [CppParam { name: "", ty: "XmlAttributeOverrides", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+XmlAttributeOverrides(XmlAttributeOverrides const& ) = delete;
 
-  /// @brief Field overrides, offset: 0x10, size: 0x8, def value: None
-  ::System::Collections::Hashtable* ___overrides;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9492};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field overrides, offset: 0x10, size: 0x8, def value: None
+ ::System::Collections::Hashtable*  ___overrides;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Xml::Serialization::XmlAttributeOverrides, ___overrides) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::System::Xml::Serialization::XmlAttributeOverrides, 0x18>, "Size mismatch!");
 
-} // namespace System::Xml::Serialization
+} // namespace end def System::Xml::Serialization
 NEED_NO_BOX(::System::Xml::Serialization::XmlAttributeOverrides);
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Serialization::XmlAttributeOverrides*, "System.Xml.Serialization", "XmlAttributeOverrides");

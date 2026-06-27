@@ -21,66 +21,66 @@ namespace Org::BouncyCastle::Asn1::X509 {
 // CS Name: Org.BouncyCastle.Asn1.X509.ReasonFlags
 class CORDL_TYPE ReasonFlags : public ::Org::BouncyCastle::Asn1::DerBitString {
 public:
-  // Declarations
-  static inline ::Org::BouncyCastle::Asn1::X509::ReasonFlags* New_ctor(::Org::BouncyCastle::Asn1::DerBitString* reasons);
+// Declarations
+static inline ::Org::BouncyCastle::Asn1::X509::ReasonFlags* New_ctor(::Org::BouncyCastle::Asn1::DerBitString*  reasons) ;
 
-  static inline ::Org::BouncyCastle::Asn1::X509::ReasonFlags* New_ctor(int32_t reasons);
+static inline ::Org::BouncyCastle::Asn1::X509::ReasonFlags* New_ctor(int32_t  reasons) ;
 
-  /// @brief Method .ctor, addr 0x359bad0, size 0xa0, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Asn1::DerBitString* reasons);
+/// @brief Method .ctor, addr 0x359c86c, size 0xa0, virtual false, abstract: false, final false
+inline void _ctor(::Org::BouncyCastle::Asn1::DerBitString*  reasons) ;
 
-  /// @brief Method .ctor, addr 0x35a4d7c, size 0x6c, virtual false, abstract: false, final false
-  inline void _ctor(int32_t reasons);
+/// @brief Method .ctor, addr 0x35a5b18, size 0x6c, virtual false, abstract: false, final false
+inline void _ctor(int32_t  reasons) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ReasonFlags();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ReasonFlags() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ReasonFlags", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ReasonFlags(ReasonFlags&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ReasonFlags", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ReasonFlags(ReasonFlags const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ReasonFlags", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ReasonFlags(ReasonFlags && ) = delete;
 
-  /// @brief Field AACompromise offset 0xffffffff size 0x4
-  static constexpr int32_t AACompromise{ static_cast<int32_t>(0x8000) };
+// Ctor Parameters [CppParam { name: "", ty: "ReasonFlags", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ReasonFlags(ReasonFlags const& ) = delete;
 
-  /// @brief Field AffiliationChanged offset 0xffffffff size 0x4
-  static constexpr int32_t AffiliationChanged{ static_cast<int32_t>(0x10) };
+/// @brief Field AACompromise offset 0xffffffff size 0x4
+static constexpr int32_t  AACompromise{static_cast<int32_t>(0x8000)};
 
-  /// @brief Field CACompromise offset 0xffffffff size 0x4
-  static constexpr int32_t CACompromise{ static_cast<int32_t>(0x20) };
+/// @brief Field AffiliationChanged offset 0xffffffff size 0x4
+static constexpr int32_t  AffiliationChanged{static_cast<int32_t>(0x10)};
 
-  /// @brief Field CertificateHold offset 0xffffffff size 0x4
-  static constexpr int32_t CertificateHold{ static_cast<int32_t>(0x2) };
+/// @brief Field CACompromise offset 0xffffffff size 0x4
+static constexpr int32_t  CACompromise{static_cast<int32_t>(0x20)};
 
-  /// @brief Field CessationOfOperation offset 0xffffffff size 0x4
-  static constexpr int32_t CessationOfOperation{ static_cast<int32_t>(0x4) };
+/// @brief Field CertificateHold offset 0xffffffff size 0x4
+static constexpr int32_t  CertificateHold{static_cast<int32_t>(0x2)};
 
-  /// @brief Field KeyCompromise offset 0xffffffff size 0x4
-  static constexpr int32_t KeyCompromise{ static_cast<int32_t>(0x40) };
+/// @brief Field CessationOfOperation offset 0xffffffff size 0x4
+static constexpr int32_t  CessationOfOperation{static_cast<int32_t>(0x4)};
 
-  /// @brief Field PrivilegeWithdrawn offset 0xffffffff size 0x4
-  static constexpr int32_t PrivilegeWithdrawn{ static_cast<int32_t>(0x1) };
+/// @brief Field KeyCompromise offset 0xffffffff size 0x4
+static constexpr int32_t  KeyCompromise{static_cast<int32_t>(0x40)};
 
-  /// @brief Field Superseded offset 0xffffffff size 0x4
-  static constexpr int32_t Superseded{ static_cast<int32_t>(0x8) };
+/// @brief Field PrivilegeWithdrawn offset 0xffffffff size 0x4
+static constexpr int32_t  PrivilegeWithdrawn{static_cast<int32_t>(0x1)};
 
-  /// @brief Field Unused offset 0xffffffff size 0x4
-  static constexpr int32_t Unused{ static_cast<int32_t>(0x80) };
+/// @brief Field Superseded offset 0xffffffff size 0x4
+static constexpr int32_t  Superseded{static_cast<int32_t>(0x8)};
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 379 };
+/// @brief Field Unused offset 0xffffffff size 0x4
+static constexpr int32_t  Unused{static_cast<int32_t>(0x80)};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{379};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::X509::ReasonFlags, 0x20>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Asn1::X509
+} // namespace end def Org::BouncyCastle::Asn1::X509
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::X509::ReasonFlags);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::X509::ReasonFlags*, "Org.BouncyCastle.Asn1.X509", "ReasonFlags");

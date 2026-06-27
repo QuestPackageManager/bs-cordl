@@ -21,7 +21,8 @@ namespace GlobalNamespace {
 class TubeBloomPrePassLight;
 }
 namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+template<typename T>
+class IEnumerator_1;
 }
 namespace System::Collections {
 class IEnumerator;
@@ -57,115 +58,115 @@ namespace GlobalNamespace {
 // CS Name: LightsAnimator/<DisableDirectionalLightsCoroutine>d__11
 class CORDL_TYPE LightsAnimator__DisableDirectionalLightsCoroutine_d__11 : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current)) ::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
+// Declarations
+ __declspec(property(get=System_Collections_Generic_IEnumerator_System_Object__get_Current)) ::System::Object*  System_Collections_Generic_IEnumerator_System_Object__Current;
 
-  __declspec(property(get = System_Collections_IEnumerator_get_Current)) ::System::Object* System_Collections_IEnumerator_Current;
+ __declspec(property(get=System_Collections_IEnumerator_get_Current)) ::System::Object*  System_Collections_IEnumerator_Current;
 
-  /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
+/// @brief Field <>1__state, offset 0x10, size 0x4 
+ __declspec(property(get=__cordl_internal_get___1__state, put=__cordl_internal_set___1__state)) int32_t  __1__state;
 
-  /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current)) ::System::Object* __2__current;
+/// @brief Field <>2__current, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get___2__current, put=__cordl_internal_set___2__current)) ::System::Object*  __2__current;
 
-  /// @brief Field <>4__this, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::UnityW<::GlobalNamespace::LightsAnimator> __4__this;
+/// @brief Field <>4__this, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get___4__this, put=__cordl_internal_set___4__this)) ::UnityW<::GlobalNamespace::LightsAnimator>  __4__this;
 
-  /// @brief Field delay, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get_delay, put = __cordl_internal_set_delay)) float_t delay;
+/// @brief Field delay, offset 0x20, size 0x4 
+ __declspec(property(get=__cordl_internal_get_delay, put=__cordl_internal_set_delay)) float_t  delay;
 
-  /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
-  constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+constexpr operator  ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
 
-  /// @brief Convert operator to "::System::Collections::IEnumerator"
-  constexpr operator ::System::Collections::IEnumerator*() noexcept;
+/// @brief Convert operator to "::System::Collections::IEnumerator"
+constexpr operator  ::System::Collections::IEnumerator*() noexcept;
 
-  /// @brief Convert operator to "::System::IDisposable"
-  constexpr operator ::System::IDisposable*() noexcept;
+/// @brief Convert operator to "::System::IDisposable"
+constexpr operator  ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x5885888, size 0xf4, virtual true, abstract: false, final true
-  inline bool MoveNext();
+/// @brief Method MoveNext, addr 0x5887134, size 0xf4, virtual true, abstract: false, final true
+inline bool MoveNext() ;
 
-  static inline ::GlobalNamespace::LightsAnimator__DisableDirectionalLightsCoroutine_d__11* New_ctor(int32_t __1__state);
+static inline ::GlobalNamespace::LightsAnimator__DisableDirectionalLightsCoroutine_d__11* New_ctor(int32_t  __1__state) ;
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x588597c, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
+/// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5887228, size 0x8, virtual true, abstract: false, final true
+inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current() ;
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5885984, size 0x38, virtual true, abstract: false, final true
-  inline void System_Collections_IEnumerator_Reset();
+/// @brief Method System.Collections.IEnumerator.Reset, addr 0x5887230, size 0x38, virtual true, abstract: false, final true
+inline void System_Collections_IEnumerator_Reset() ;
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x58859bc, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Object* System_Collections_IEnumerator_get_Current();
+/// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5887268, size 0x8, virtual true, abstract: false, final true
+inline ::System::Object* System_Collections_IEnumerator_get_Current() ;
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x5885884, size 0x4, virtual true, abstract: false, final true
-  inline void System_IDisposable_Dispose();
+/// @brief Method System.IDisposable.Dispose, addr 0x5887130, size 0x4, virtual true, abstract: false, final true
+inline void System_IDisposable_Dispose() ;
 
-  constexpr int32_t const& __cordl_internal_get___1__state() const;
+constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr int32_t& __cordl_internal_get___1__state();
+constexpr int32_t& __cordl_internal_get___1__state() ;
 
-  constexpr ::System::Object* const& __cordl_internal_get___2__current() const;
+constexpr ::System::Object* const& __cordl_internal_get___2__current() const;
 
-  constexpr ::System::Object*& __cordl_internal_get___2__current();
+constexpr ::System::Object*& __cordl_internal_get___2__current() ;
 
-  constexpr ::UnityW<::GlobalNamespace::LightsAnimator> const& __cordl_internal_get___4__this() const;
+constexpr ::UnityW<::GlobalNamespace::LightsAnimator> const& __cordl_internal_get___4__this() const;
 
-  constexpr ::UnityW<::GlobalNamespace::LightsAnimator>& __cordl_internal_get___4__this();
+constexpr ::UnityW<::GlobalNamespace::LightsAnimator>& __cordl_internal_get___4__this() ;
 
-  constexpr float_t const& __cordl_internal_get_delay() const;
+constexpr float_t const& __cordl_internal_get_delay() const;
 
-  constexpr float_t& __cordl_internal_get_delay();
+constexpr float_t& __cordl_internal_get_delay() ;
 
-  constexpr void __cordl_internal_set___1__state(int32_t value);
+constexpr void __cordl_internal_set___1__state(int32_t  value) ;
 
-  constexpr void __cordl_internal_set___2__current(::System::Object* value);
+constexpr void __cordl_internal_set___2__current(::System::Object*  value) ;
 
-  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::LightsAnimator> value);
+constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::LightsAnimator>  value) ;
 
-  constexpr void __cordl_internal_set_delay(float_t value);
+constexpr void __cordl_internal_set_delay(float_t  value) ;
 
-  /// @brief Method .ctor, addr 0x5885878, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(int32_t __1__state);
+/// @brief Method .ctor, addr 0x5887124, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(int32_t  __1__state) ;
 
-  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
-  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
+/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
 
-  /// @brief Convert to "::System::Collections::IEnumerator"
-  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+/// @brief Convert to "::System::Collections::IEnumerator"
+constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+/// @brief Convert to "::System::IDisposable"
+constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LightsAnimator__DisableDirectionalLightsCoroutine_d__11();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr LightsAnimator__DisableDirectionalLightsCoroutine_d__11() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LightsAnimator__DisableDirectionalLightsCoroutine_d__11", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  LightsAnimator__DisableDirectionalLightsCoroutine_d__11(LightsAnimator__DisableDirectionalLightsCoroutine_d__11&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LightsAnimator__DisableDirectionalLightsCoroutine_d__11", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  LightsAnimator__DisableDirectionalLightsCoroutine_d__11(LightsAnimator__DisableDirectionalLightsCoroutine_d__11 const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "LightsAnimator__DisableDirectionalLightsCoroutine_d__11", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+LightsAnimator__DisableDirectionalLightsCoroutine_d__11(LightsAnimator__DisableDirectionalLightsCoroutine_d__11 && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6088 };
+// Ctor Parameters [CppParam { name: "", ty: "LightsAnimator__DisableDirectionalLightsCoroutine_d__11", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+LightsAnimator__DisableDirectionalLightsCoroutine_d__11(LightsAnimator__DisableDirectionalLightsCoroutine_d__11 const& ) = delete;
 
-  /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
-  int32_t _____1__state;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6088};
 
-  /// @brief Field <>2__current, offset: 0x18, size: 0x8, def value: None
-  ::System::Object* _____2__current;
+/// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
+ int32_t  _____1__state;
 
-  /// @brief Field delay, offset: 0x20, size: 0x4, def value: None
-  float_t ___delay;
+/// @brief Field <>2__current, offset: 0x18, size: 0x8, def value: None
+ ::System::Object*  _____2__current;
 
-  /// @brief Field <>4__this, offset: 0x28, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::LightsAnimator> _____4__this;
+/// @brief Field delay, offset: 0x20, size: 0x4, def value: None
+ float_t  ___delay;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field <>4__this, offset: 0x28, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::LightsAnimator>  _____4__this;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::LightsAnimator__DisableDirectionalLightsCoroutine_d__11, _____1__state) == 0x10, "Offset mismatch!");
@@ -178,115 +179,111 @@ static_assert(offsetof(::GlobalNamespace::LightsAnimator__DisableDirectionalLigh
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LightsAnimator__DisableDirectionalLightsCoroutine_d__11, 0x30>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: LightsAnimator
 class CORDL_TYPE LightsAnimator : public ::UnityEngine::MonoBehaviour {
 public:
-  // Declarations
-  using _DisableDirectionalLightsCoroutine_d__11 = ::GlobalNamespace::LightsAnimator__DisableDirectionalLightsCoroutine_d__11;
+// Declarations
+using _DisableDirectionalLightsCoroutine_d__11 = ::GlobalNamespace::LightsAnimator__DisableDirectionalLightsCoroutine_d__11;
 
-  /// @brief Field _directionalLights, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__directionalLights,
-                      put = __cordl_internal_set__directionalLights)) ::ArrayW<::UnityW<::GlobalNamespace::DirectionalLight>, ::Array<::UnityW<::GlobalNamespace::DirectionalLight>>*>
-      _directionalLights;
+/// @brief Field _directionalLights, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get__directionalLights, put=__cordl_internal_set__directionalLights)) ::ArrayW<::UnityW<::GlobalNamespace::DirectionalLight>,::Array<::UnityW<::GlobalNamespace::DirectionalLight>>*>  _directionalLights;
 
-  /// @brief Field _lights, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__lights,
-                      put = __cordl_internal_set__lights)) ::ArrayW<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>, ::Array<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>>*>
-      _lights;
+/// @brief Field _lights, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get__lights, put=__cordl_internal_set__lights)) ::ArrayW<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>,::Array<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>>*>  _lights;
 
-  /// @brief Field _tween, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__tween, put = __cordl_internal_set__tween)) ::Tweening::ColorTween* _tween;
+/// @brief Field _tween, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get__tween, put=__cordl_internal_set__tween)) ::Tweening::ColorTween*  _tween;
 
-  /// @brief Field _tweeningManager, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__tweeningManager, put = __cordl_internal_set__tweeningManager)) ::UnityW<::Tweening::TimeTweeningManager> _tweeningManager;
+/// @brief Field _tweeningManager, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get__tweeningManager, put=__cordl_internal_set__tweeningManager)) ::UnityW<::Tweening::TimeTweeningManager>  _tweeningManager;
 
-  /// @brief Method AnimateToColor, addr 0x5882944, size 0x114, virtual false, abstract: false, final false
-  inline void AnimateToColor(::UnityEngine::Color color, float_t duration, ::GlobalNamespace::EaseType easeType);
+/// @brief Method AnimateToColor, addr 0x58841f0, size 0x114, virtual false, abstract: false, final false
+inline void AnimateToColor(::UnityEngine::Color  color, float_t  duration, ::GlobalNamespace::EaseType  easeType) ;
 
-  /// @brief Method Awake, addr 0x5885588, size 0xe0, virtual false, abstract: false, final false
-  inline void Awake();
+/// @brief Method Awake, addr 0x5886e34, size 0xe0, virtual false, abstract: false, final false
+inline void Awake() ;
 
-  /// @brief Method DisableDirectionalLights, addr 0x58857e0, size 0x34, virtual false, abstract: false, final false
-  inline void DisableDirectionalLights(float_t delay);
+/// @brief Method DisableDirectionalLights, addr 0x588708c, size 0x34, virtual false, abstract: false, final false
+inline void DisableDirectionalLights(float_t  delay) ;
 
-  /// @brief Method DisableDirectionalLightsCoroutine, addr 0x5885814, size 0x64, virtual false, abstract: false, final false
-  inline ::System::Collections::IEnumerator* DisableDirectionalLightsCoroutine(float_t delay);
+/// @brief Method DisableDirectionalLightsCoroutine, addr 0x58870c0, size 0x64, virtual false, abstract: false, final false
+inline ::System::Collections::IEnumerator* DisableDirectionalLightsCoroutine(float_t  delay) ;
 
-  static inline ::GlobalNamespace::LightsAnimator* New_ctor();
+static inline ::GlobalNamespace::LightsAnimator* New_ctor() ;
 
-  /// @brief Method OnDestroy, addr 0x5885668, size 0x8c, virtual false, abstract: false, final false
-  inline void OnDestroy();
+/// @brief Method OnDestroy, addr 0x5886f14, size 0x8c, virtual false, abstract: false, final false
+inline void OnDestroy() ;
 
-  /// @brief Method SetColor, addr 0x58856f4, size 0x1c, virtual false, abstract: false, final false
-  inline void SetColor(::UnityEngine::Color color);
+/// @brief Method SetColor, addr 0x5886fa0, size 0x1c, virtual false, abstract: false, final false
+inline void SetColor(::UnityEngine::Color  color) ;
 
-  /// @brief Method SetLightsColor, addr 0x5885710, size 0xd0, virtual false, abstract: false, final false
-  inline void SetLightsColor(::UnityEngine::Color color);
+/// @brief Method SetLightsColor, addr 0x5886fbc, size 0xd0, virtual false, abstract: false, final false
+inline void SetLightsColor(::UnityEngine::Color  color) ;
 
-  /// @brief Method SetLightsWidth, addr 0x5882df8, size 0x4c, virtual false, abstract: false, final false
-  inline void SetLightsWidth(float_t width);
+/// @brief Method SetLightsWidth, addr 0x58846a4, size 0x4c, virtual false, abstract: false, final false
+inline void SetLightsWidth(float_t  width) ;
 
-  constexpr ::ArrayW<::UnityW<::GlobalNamespace::DirectionalLight>, ::Array<::UnityW<::GlobalNamespace::DirectionalLight>>*> const& __cordl_internal_get__directionalLights() const;
+constexpr ::ArrayW<::UnityW<::GlobalNamespace::DirectionalLight>,::Array<::UnityW<::GlobalNamespace::DirectionalLight>>*> const& __cordl_internal_get__directionalLights() const;
 
-  constexpr ::ArrayW<::UnityW<::GlobalNamespace::DirectionalLight>, ::Array<::UnityW<::GlobalNamespace::DirectionalLight>>*>& __cordl_internal_get__directionalLights();
+constexpr ::ArrayW<::UnityW<::GlobalNamespace::DirectionalLight>,::Array<::UnityW<::GlobalNamespace::DirectionalLight>>*>& __cordl_internal_get__directionalLights() ;
 
-  constexpr ::ArrayW<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>, ::Array<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>>*> const& __cordl_internal_get__lights() const;
+constexpr ::ArrayW<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>,::Array<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>>*> const& __cordl_internal_get__lights() const;
 
-  constexpr ::ArrayW<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>, ::Array<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>>*>& __cordl_internal_get__lights();
+constexpr ::ArrayW<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>,::Array<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>>*>& __cordl_internal_get__lights() ;
 
-  constexpr ::Tweening::ColorTween* const& __cordl_internal_get__tween() const;
+constexpr ::Tweening::ColorTween* const& __cordl_internal_get__tween() const;
 
-  constexpr ::Tweening::ColorTween*& __cordl_internal_get__tween();
+constexpr ::Tweening::ColorTween*& __cordl_internal_get__tween() ;
 
-  constexpr ::UnityW<::Tweening::TimeTweeningManager> const& __cordl_internal_get__tweeningManager() const;
+constexpr ::UnityW<::Tweening::TimeTweeningManager> const& __cordl_internal_get__tweeningManager() const;
 
-  constexpr ::UnityW<::Tweening::TimeTweeningManager>& __cordl_internal_get__tweeningManager();
+constexpr ::UnityW<::Tweening::TimeTweeningManager>& __cordl_internal_get__tweeningManager() ;
 
-  constexpr void __cordl_internal_set__directionalLights(::ArrayW<::UnityW<::GlobalNamespace::DirectionalLight>, ::Array<::UnityW<::GlobalNamespace::DirectionalLight>>*> value);
+constexpr void __cordl_internal_set__directionalLights(::ArrayW<::UnityW<::GlobalNamespace::DirectionalLight>,::Array<::UnityW<::GlobalNamespace::DirectionalLight>>*>  value) ;
 
-  constexpr void __cordl_internal_set__lights(::ArrayW<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>, ::Array<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>>*> value);
+constexpr void __cordl_internal_set__lights(::ArrayW<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>,::Array<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>>*>  value) ;
 
-  constexpr void __cordl_internal_set__tween(::Tweening::ColorTween* value);
+constexpr void __cordl_internal_set__tween(::Tweening::ColorTween*  value) ;
 
-  constexpr void __cordl_internal_set__tweeningManager(::UnityW<::Tweening::TimeTweeningManager> value);
+constexpr void __cordl_internal_set__tweeningManager(::UnityW<::Tweening::TimeTweeningManager>  value) ;
 
-  /// @brief Method .ctor, addr 0x5885880, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x588712c, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LightsAnimator();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr LightsAnimator() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LightsAnimator", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  LightsAnimator(LightsAnimator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LightsAnimator", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  LightsAnimator(LightsAnimator const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "LightsAnimator", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+LightsAnimator(LightsAnimator && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6089 };
+// Ctor Parameters [CppParam { name: "", ty: "LightsAnimator", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+LightsAnimator(LightsAnimator const& ) = delete;
 
-  /// @brief Field _lights, offset: 0x20, size: 0x8, def value: None
-  ::ArrayW<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>, ::Array<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>>*> ____lights;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6089};
 
-  /// @brief Field _directionalLights, offset: 0x28, size: 0x8, def value: None
-  ::ArrayW<::UnityW<::GlobalNamespace::DirectionalLight>, ::Array<::UnityW<::GlobalNamespace::DirectionalLight>>*> ____directionalLights;
+/// @brief Field _lights, offset: 0x20, size: 0x8, def value: None
+ ::ArrayW<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>,::Array<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>>*>  ____lights;
 
-  /// @brief Field _tweeningManager, offset: 0x30, size: 0x8, def value: None
-  ::UnityW<::Tweening::TimeTweeningManager> ____tweeningManager;
+/// @brief Field _directionalLights, offset: 0x28, size: 0x8, def value: None
+ ::ArrayW<::UnityW<::GlobalNamespace::DirectionalLight>,::Array<::UnityW<::GlobalNamespace::DirectionalLight>>*>  ____directionalLights;
 
-  /// @brief Field _tween, offset: 0x38, size: 0x8, def value: None
-  ::Tweening::ColorTween* ____tween;
+/// @brief Field _tweeningManager, offset: 0x30, size: 0x8, def value: None
+ ::UnityW<::Tweening::TimeTweeningManager>  ____tweeningManager;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _tween, offset: 0x38, size: 0x8, def value: None
+ ::Tweening::ColorTween*  ____tween;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::LightsAnimator, ____lights) == 0x20, "Offset mismatch!");
@@ -299,7 +296,7 @@ static_assert(offsetof(::GlobalNamespace::LightsAnimator, ____tween) == 0x38, "O
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LightsAnimator, 0x40>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::LightsAnimator);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LightsAnimator*, "", "LightsAnimator");
 NEED_NO_BOX(::GlobalNamespace::LightsAnimator__DisableDirectionalLightsCoroutine_d__11);

@@ -19,117 +19,117 @@ namespace UnityEditor::Analytics {
 // CS Name: UnityEditor.Analytics.LicensingInitAnalytic
 class CORDL_TYPE LicensingInitAnalytic : public ::UnityEngine::Analytics::AnalyticsEventBase {
 public:
-  // Declarations
-  /// @brief Field channelType, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_channelType, put = __cordl_internal_set_channelType)) ::StringW channelType;
+// Declarations
+/// @brief Field channelType, offset 0x40, size 0x8 
+ __declspec(property(get=__cordl_internal_get_channelType, put=__cordl_internal_set_channelType)) ::StringW  channelType;
 
-  /// @brief Field correlationId, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get_correlationId, put = __cordl_internal_set_correlationId)) ::StringW correlationId;
+/// @brief Field correlationId, offset 0x60, size 0x8 
+ __declspec(property(get=__cordl_internal_get_correlationId, put=__cordl_internal_set_correlationId)) ::StringW  correlationId;
 
-  /// @brief Field initTime, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_initTime, put = __cordl_internal_set_initTime)) double_t initTime;
+/// @brief Field initTime, offset 0x48, size 0x8 
+ __declspec(property(get=__cordl_internal_get_initTime, put=__cordl_internal_set_initTime)) double_t  initTime;
 
-  /// @brief Field isLegacy, offset 0x50, size 0x1
-  __declspec(property(get = __cordl_internal_get_isLegacy, put = __cordl_internal_set_isLegacy)) bool isLegacy;
+/// @brief Field isLegacy, offset 0x50, size 0x1 
+ __declspec(property(get=__cordl_internal_get_isLegacy, put=__cordl_internal_set_isLegacy)) bool  isLegacy;
 
-  /// @brief Field licensingClientVersion, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_licensingClientVersion, put = __cordl_internal_set_licensingClientVersion)) ::StringW licensingClientVersion;
+/// @brief Field licensingClientVersion, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get_licensingClientVersion, put=__cordl_internal_set_licensingClientVersion)) ::StringW  licensingClientVersion;
 
-  /// @brief Field licensingProtocolVersion, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_licensingProtocolVersion, put = __cordl_internal_set_licensingProtocolVersion)) ::StringW licensingProtocolVersion;
+/// @brief Field licensingProtocolVersion, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get_licensingProtocolVersion, put=__cordl_internal_set_licensingProtocolVersion)) ::StringW  licensingProtocolVersion;
 
-  /// @brief Field sessionId, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get_sessionId, put = __cordl_internal_set_sessionId)) ::StringW sessionId;
+/// @brief Field sessionId, offset 0x58, size 0x8 
+ __declspec(property(get=__cordl_internal_get_sessionId, put=__cordl_internal_set_sessionId)) ::StringW  sessionId;
 
-  /// @brief Method CreateLicensingInitAnalytic, addr 0x6ccc03c, size 0x54, virtual false, abstract: false, final false
-  static inline ::UnityEditor::Analytics::LicensingInitAnalytic* CreateLicensingInitAnalytic();
+/// @brief Method CreateLicensingInitAnalytic, addr 0x6ccdbb4, size 0x54, virtual false, abstract: false, final false
+static inline ::UnityEditor::Analytics::LicensingInitAnalytic* CreateLicensingInitAnalytic() ;
 
-  static inline ::UnityEditor::Analytics::LicensingInitAnalytic* New_ctor();
+static inline ::UnityEditor::Analytics::LicensingInitAnalytic* New_ctor() ;
 
-  constexpr ::StringW const& __cordl_internal_get_channelType() const;
+constexpr ::StringW const& __cordl_internal_get_channelType() const;
 
-  constexpr ::StringW& __cordl_internal_get_channelType();
+constexpr ::StringW& __cordl_internal_get_channelType() ;
 
-  constexpr ::StringW const& __cordl_internal_get_correlationId() const;
+constexpr ::StringW const& __cordl_internal_get_correlationId() const;
 
-  constexpr ::StringW& __cordl_internal_get_correlationId();
+constexpr ::StringW& __cordl_internal_get_correlationId() ;
 
-  constexpr double_t const& __cordl_internal_get_initTime() const;
+constexpr double_t const& __cordl_internal_get_initTime() const;
 
-  constexpr double_t& __cordl_internal_get_initTime();
+constexpr double_t& __cordl_internal_get_initTime() ;
 
-  constexpr bool const& __cordl_internal_get_isLegacy() const;
+constexpr bool const& __cordl_internal_get_isLegacy() const;
 
-  constexpr bool& __cordl_internal_get_isLegacy();
+constexpr bool& __cordl_internal_get_isLegacy() ;
 
-  constexpr ::StringW const& __cordl_internal_get_licensingClientVersion() const;
+constexpr ::StringW const& __cordl_internal_get_licensingClientVersion() const;
 
-  constexpr ::StringW& __cordl_internal_get_licensingClientVersion();
+constexpr ::StringW& __cordl_internal_get_licensingClientVersion() ;
 
-  constexpr ::StringW const& __cordl_internal_get_licensingProtocolVersion() const;
+constexpr ::StringW const& __cordl_internal_get_licensingProtocolVersion() const;
 
-  constexpr ::StringW& __cordl_internal_get_licensingProtocolVersion();
+constexpr ::StringW& __cordl_internal_get_licensingProtocolVersion() ;
 
-  constexpr ::StringW const& __cordl_internal_get_sessionId() const;
+constexpr ::StringW const& __cordl_internal_get_sessionId() const;
 
-  constexpr ::StringW& __cordl_internal_get_sessionId();
+constexpr ::StringW& __cordl_internal_get_sessionId() ;
 
-  constexpr void __cordl_internal_set_channelType(::StringW value);
+constexpr void __cordl_internal_set_channelType(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_correlationId(::StringW value);
+constexpr void __cordl_internal_set_correlationId(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_initTime(double_t value);
+constexpr void __cordl_internal_set_initTime(double_t  value) ;
 
-  constexpr void __cordl_internal_set_isLegacy(bool value);
+constexpr void __cordl_internal_set_isLegacy(bool  value) ;
 
-  constexpr void __cordl_internal_set_licensingClientVersion(::StringW value);
+constexpr void __cordl_internal_set_licensingClientVersion(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_licensingProtocolVersion(::StringW value);
+constexpr void __cordl_internal_set_licensingProtocolVersion(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_sessionId(::StringW value);
+constexpr void __cordl_internal_set_sessionId(::StringW  value) ;
 
-  /// @brief Method .ctor, addr 0x6ccbfc4, size 0x78, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6ccdb3c, size 0x78, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LicensingInitAnalytic();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr LicensingInitAnalytic() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LicensingInitAnalytic", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  LicensingInitAnalytic(LicensingInitAnalytic&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LicensingInitAnalytic", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  LicensingInitAnalytic(LicensingInitAnalytic const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "LicensingInitAnalytic", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+LicensingInitAnalytic(LicensingInitAnalytic && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22696 };
+// Ctor Parameters [CppParam { name: "", ty: "LicensingInitAnalytic", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+LicensingInitAnalytic(LicensingInitAnalytic const& ) = delete;
 
-  /// @brief Field licensingProtocolVersion, offset: 0x30, size: 0x8, def value: None
-  ::StringW ___licensingProtocolVersion;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22700};
 
-  /// @brief Field licensingClientVersion, offset: 0x38, size: 0x8, def value: None
-  ::StringW ___licensingClientVersion;
+/// @brief Field licensingProtocolVersion, offset: 0x30, size: 0x8, def value: None
+ ::StringW  ___licensingProtocolVersion;
 
-  /// @brief Field channelType, offset: 0x40, size: 0x8, def value: None
-  ::StringW ___channelType;
+/// @brief Field licensingClientVersion, offset: 0x38, size: 0x8, def value: None
+ ::StringW  ___licensingClientVersion;
 
-  /// @brief Field initTime, offset: 0x48, size: 0x8, def value: None
-  double_t ___initTime;
+/// @brief Field channelType, offset: 0x40, size: 0x8, def value: None
+ ::StringW  ___channelType;
 
-  /// @brief Field isLegacy, offset: 0x50, size: 0x1, def value: None
-  bool ___isLegacy;
+/// @brief Field initTime, offset: 0x48, size: 0x8, def value: None
+ double_t  ___initTime;
 
-  /// @brief Field sessionId, offset: 0x58, size: 0x8, def value: None
-  ::StringW ___sessionId;
+/// @brief Field isLegacy, offset: 0x50, size: 0x1, def value: None
+ bool  ___isLegacy;
 
-  /// @brief Field correlationId, offset: 0x60, size: 0x8, def value: None
-  ::StringW ___correlationId;
+/// @brief Field sessionId, offset: 0x58, size: 0x8, def value: None
+ ::StringW  ___sessionId;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field correlationId, offset: 0x60, size: 0x8, def value: None
+ ::StringW  ___correlationId;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEditor::Analytics::LicensingInitAnalytic, ___licensingProtocolVersion) == 0x30, "Offset mismatch!");
@@ -148,6 +148,6 @@ static_assert(offsetof(::UnityEditor::Analytics::LicensingInitAnalytic, ___corre
 
 static_assert(::cordl_internals::size_check_v<::UnityEditor::Analytics::LicensingInitAnalytic, 0x68>, "Size mismatch!");
 
-} // namespace UnityEditor::Analytics
+} // namespace end def UnityEditor::Analytics
 NEED_NO_BOX(::UnityEditor::Analytics::LicensingInitAnalytic);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEditor::Analytics::LicensingInitAnalytic*, "UnityEditor.Analytics", "LicensingInitAnalytic");

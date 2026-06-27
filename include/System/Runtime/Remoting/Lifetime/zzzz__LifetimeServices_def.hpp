@@ -27,91 +27,91 @@ namespace System::Runtime::Remoting::Lifetime {
 // CS Name: System.Runtime.Remoting.Lifetime.LifetimeServices
 class CORDL_TYPE LifetimeServices : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field _leaseManager, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF__leaseManager, put = setStaticF__leaseManager)) ::System::Runtime::Remoting::Lifetime::LeaseManager* _leaseManager;
+// Declarations
+/// @brief Field _leaseManager, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF__leaseManager, put=setStaticF__leaseManager)) ::System::Runtime::Remoting::Lifetime::LeaseManager*  _leaseManager;
 
-  /// @brief Field _leaseManagerPollTime, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF__leaseManagerPollTime, put = setStaticF__leaseManagerPollTime)) ::System::TimeSpan _leaseManagerPollTime;
+/// @brief Field _leaseManagerPollTime, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF__leaseManagerPollTime, put=setStaticF__leaseManagerPollTime)) ::System::TimeSpan  _leaseManagerPollTime;
 
-  /// @brief Field _leaseTime, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF__leaseTime, put = setStaticF__leaseTime)) ::System::TimeSpan _leaseTime;
+/// @brief Field _leaseTime, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF__leaseTime, put=setStaticF__leaseTime)) ::System::TimeSpan  _leaseTime;
 
-  /// @brief Field _renewOnCallTime, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF__renewOnCallTime, put = setStaticF__renewOnCallTime)) ::System::TimeSpan _renewOnCallTime;
+/// @brief Field _renewOnCallTime, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF__renewOnCallTime, put=setStaticF__renewOnCallTime)) ::System::TimeSpan  _renewOnCallTime;
 
-  /// @brief Field _sponsorshipTimeout, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF__sponsorshipTimeout, put = setStaticF__sponsorshipTimeout)) ::System::TimeSpan _sponsorshipTimeout;
+/// @brief Field _sponsorshipTimeout, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF__sponsorshipTimeout, put=setStaticF__sponsorshipTimeout)) ::System::TimeSpan  _sponsorshipTimeout;
 
-  /// @brief Method TrackLifetime, addr 0x59f0980, size 0x6c, virtual false, abstract: false, final false
-  static inline void TrackLifetime(::System::Runtime::Remoting::ServerIdentity* identity);
+/// @brief Method TrackLifetime, addr 0x59f24f8, size 0x6c, virtual false, abstract: false, final false
+static inline void TrackLifetime(::System::Runtime::Remoting::ServerIdentity*  identity) ;
 
-  static inline ::System::Runtime::Remoting::Lifetime::LeaseManager* getStaticF__leaseManager();
+static inline ::System::Runtime::Remoting::Lifetime::LeaseManager* getStaticF__leaseManager() ;
 
-  static inline ::System::TimeSpan getStaticF__leaseManagerPollTime();
+static inline ::System::TimeSpan getStaticF__leaseManagerPollTime() ;
 
-  static inline ::System::TimeSpan getStaticF__leaseTime();
+static inline ::System::TimeSpan getStaticF__leaseTime() ;
 
-  static inline ::System::TimeSpan getStaticF__renewOnCallTime();
+static inline ::System::TimeSpan getStaticF__renewOnCallTime() ;
 
-  static inline ::System::TimeSpan getStaticF__sponsorshipTimeout();
+static inline ::System::TimeSpan getStaticF__sponsorshipTimeout() ;
 
-  /// @brief Method get_LeaseManagerPollTime, addr 0x59f8924, size 0x5c, virtual false, abstract: false, final false
-  static inline ::System::TimeSpan get_LeaseManagerPollTime();
+/// @brief Method get_LeaseManagerPollTime, addr 0x59fa49c, size 0x5c, virtual false, abstract: false, final false
+static inline ::System::TimeSpan get_LeaseManagerPollTime() ;
 
-  /// @brief Method get_LeaseTime, addr 0x59f89f8, size 0x5c, virtual false, abstract: false, final false
-  static inline ::System::TimeSpan get_LeaseTime();
+/// @brief Method get_LeaseTime, addr 0x59fa570, size 0x5c, virtual false, abstract: false, final false
+static inline ::System::TimeSpan get_LeaseTime() ;
 
-  /// @brief Method get_RenewOnCallTime, addr 0x59f8ab4, size 0x5c, virtual false, abstract: false, final false
-  static inline ::System::TimeSpan get_RenewOnCallTime();
+/// @brief Method get_RenewOnCallTime, addr 0x59fa62c, size 0x5c, virtual false, abstract: false, final false
+static inline ::System::TimeSpan get_RenewOnCallTime() ;
 
-  /// @brief Method get_SponsorshipTimeout, addr 0x59f8b70, size 0x5c, virtual false, abstract: false, final false
-  static inline ::System::TimeSpan get_SponsorshipTimeout();
+/// @brief Method get_SponsorshipTimeout, addr 0x59fa6e8, size 0x5c, virtual false, abstract: false, final false
+static inline ::System::TimeSpan get_SponsorshipTimeout() ;
 
-  static inline void setStaticF__leaseManager(::System::Runtime::Remoting::Lifetime::LeaseManager* value);
+static inline void setStaticF__leaseManager(::System::Runtime::Remoting::Lifetime::LeaseManager*  value) ;
 
-  static inline void setStaticF__leaseManagerPollTime(::System::TimeSpan value);
+static inline void setStaticF__leaseManagerPollTime(::System::TimeSpan  value) ;
 
-  static inline void setStaticF__leaseTime(::System::TimeSpan value);
+static inline void setStaticF__leaseTime(::System::TimeSpan  value) ;
 
-  static inline void setStaticF__renewOnCallTime(::System::TimeSpan value);
+static inline void setStaticF__renewOnCallTime(::System::TimeSpan  value) ;
 
-  static inline void setStaticF__sponsorshipTimeout(::System::TimeSpan value);
+static inline void setStaticF__sponsorshipTimeout(::System::TimeSpan  value) ;
 
-  /// @brief Method set_LeaseManagerPollTime, addr 0x59f8980, size 0x78, virtual false, abstract: false, final false
-  static inline void set_LeaseManagerPollTime(::System::TimeSpan value);
+/// @brief Method set_LeaseManagerPollTime, addr 0x59fa4f8, size 0x78, virtual false, abstract: false, final false
+static inline void set_LeaseManagerPollTime(::System::TimeSpan  value) ;
 
-  /// @brief Method set_LeaseTime, addr 0x59f8a54, size 0x60, virtual false, abstract: false, final false
-  static inline void set_LeaseTime(::System::TimeSpan value);
+/// @brief Method set_LeaseTime, addr 0x59fa5cc, size 0x60, virtual false, abstract: false, final false
+static inline void set_LeaseTime(::System::TimeSpan  value) ;
 
-  /// @brief Method set_RenewOnCallTime, addr 0x59f8b10, size 0x60, virtual false, abstract: false, final false
-  static inline void set_RenewOnCallTime(::System::TimeSpan value);
+/// @brief Method set_RenewOnCallTime, addr 0x59fa688, size 0x60, virtual false, abstract: false, final false
+static inline void set_RenewOnCallTime(::System::TimeSpan  value) ;
 
-  /// @brief Method set_SponsorshipTimeout, addr 0x59f8bcc, size 0x60, virtual false, abstract: false, final false
-  static inline void set_SponsorshipTimeout(::System::TimeSpan value);
+/// @brief Method set_SponsorshipTimeout, addr 0x59fa744, size 0x60, virtual false, abstract: false, final false
+static inline void set_SponsorshipTimeout(::System::TimeSpan  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LifetimeServices();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr LifetimeServices() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LifetimeServices", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  LifetimeServices(LifetimeServices&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LifetimeServices", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  LifetimeServices(LifetimeServices const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "LifetimeServices", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+LifetimeServices(LifetimeServices && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3113 };
+// Ctor Parameters [CppParam { name: "", ty: "LifetimeServices", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+LifetimeServices(LifetimeServices const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{3113};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Remoting::Lifetime::LifetimeServices, 0x10>, "Size mismatch!");
 
-} // namespace System::Runtime::Remoting::Lifetime
+} // namespace end def System::Runtime::Remoting::Lifetime
 NEED_NO_BOX(::System::Runtime::Remoting::Lifetime::LifetimeServices);
 DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::Lifetime::LifetimeServices*, "System.Runtime.Remoting.Lifetime", "LifetimeServices");

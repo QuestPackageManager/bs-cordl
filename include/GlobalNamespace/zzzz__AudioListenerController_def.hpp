@@ -17,65 +17,65 @@ namespace GlobalNamespace {
 // CS Name: AudioListenerController
 class CORDL_TYPE AudioListenerController : public ::UnityEngine::MonoBehaviour {
 public:
-  // Declarations
-  /// @brief Field _startAudioListenerPauseState, offset 0x20, size 0x1
-  __declspec(property(get = __cordl_internal_get__startAudioListenerPauseState, put = __cordl_internal_set__startAudioListenerPauseState)) bool _startAudioListenerPauseState;
+// Declarations
+/// @brief Field _startAudioListenerPauseState, offset 0x20, size 0x1 
+ __declspec(property(get=__cordl_internal_get__startAudioListenerPauseState, put=__cordl_internal_set__startAudioListenerPauseState)) bool  _startAudioListenerPauseState;
 
-  __declspec(property(get = get_isPaused)) bool isPaused;
+ __declspec(property(get=get_isPaused)) bool  isPaused;
 
-  /// @brief Method Awake, addr 0x5778490, size 0x44, virtual false, abstract: false, final false
-  inline void Awake();
+/// @brief Method Awake, addr 0x5779cf8, size 0x44, virtual false, abstract: false, final false
+inline void Awake() ;
 
-  static inline ::GlobalNamespace::AudioListenerController* New_ctor();
+static inline ::GlobalNamespace::AudioListenerController* New_ctor() ;
 
-  /// @brief Method OnDestroy, addr 0x57784d4, size 0x40, virtual false, abstract: false, final false
-  inline void OnDestroy();
+/// @brief Method OnDestroy, addr 0x5779d3c, size 0x40, virtual false, abstract: false, final false
+inline void OnDestroy() ;
 
-  /// @brief Method Pause, addr 0x5778514, size 0x30, virtual false, abstract: false, final false
-  inline void Pause();
+/// @brief Method Pause, addr 0x5779d7c, size 0x30, virtual false, abstract: false, final false
+inline void Pause() ;
 
-  /// @brief Method Resume, addr 0x5778544, size 0x30, virtual false, abstract: false, final false
-  inline void Resume();
+/// @brief Method Resume, addr 0x5779dac, size 0x30, virtual false, abstract: false, final false
+inline void Resume() ;
 
-  constexpr bool const& __cordl_internal_get__startAudioListenerPauseState() const;
+constexpr bool const& __cordl_internal_get__startAudioListenerPauseState() const;
 
-  constexpr bool& __cordl_internal_get__startAudioListenerPauseState();
+constexpr bool& __cordl_internal_get__startAudioListenerPauseState() ;
 
-  constexpr void __cordl_internal_set__startAudioListenerPauseState(bool value);
+constexpr void __cordl_internal_set__startAudioListenerPauseState(bool  value) ;
 
-  /// @brief Method .ctor, addr 0x5778574, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5779ddc, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_isPaused, addr 0x5778468, size 0x28, virtual false, abstract: false, final false
-  inline bool get_isPaused();
+/// @brief Method get_isPaused, addr 0x5779cd0, size 0x28, virtual false, abstract: false, final false
+inline bool get_isPaused() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AudioListenerController();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr AudioListenerController() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AudioListenerController", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  AudioListenerController(AudioListenerController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AudioListenerController", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  AudioListenerController(AudioListenerController const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "AudioListenerController", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+AudioListenerController(AudioListenerController && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5554 };
+// Ctor Parameters [CppParam { name: "", ty: "AudioListenerController", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+AudioListenerController(AudioListenerController const& ) = delete;
 
-  /// @brief Field _startAudioListenerPauseState, offset: 0x20, size: 0x1, def value: None
-  bool ____startAudioListenerPauseState;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{5554};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _startAudioListenerPauseState, offset: 0x20, size: 0x1, def value: None
+ bool  ____startAudioListenerPauseState;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::AudioListenerController, ____startAudioListenerPauseState) == 0x20, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::AudioListenerController, 0x28>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::AudioListenerController);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::AudioListenerController*, "", "AudioListenerController");

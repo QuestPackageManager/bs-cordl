@@ -20,32 +20,32 @@ namespace BeatSaber::Destinations {
 // CS Name: BeatSaber.Destinations.GameStageExtensions
 class CORDL_TYPE GameStageExtensions : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method RequiresShaderWarmup, addr 0x31e8348, size 0x34, virtual false, abstract: false, final false
-  static inline bool RequiresShaderWarmup(::BeatSaber::Destinations::DestinationTarget stage);
+// Declarations
+/// @brief Method RequiresShaderWarmup, addr 0x31e9068, size 0x34, virtual false, abstract: false, final false
+static inline bool RequiresShaderWarmup(::BeatSaber::Destinations::DestinationTarget  stage) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr GameStageExtensions();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr GameStageExtensions() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GameStageExtensions", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  GameStageExtensions(GameStageExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GameStageExtensions", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  GameStageExtensions(GameStageExtensions const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "GameStageExtensions", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+GameStageExtensions(GameStageExtensions && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22860 };
+// Ctor Parameters [CppParam { name: "", ty: "GameStageExtensions", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+GameStageExtensions(GameStageExtensions const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22864};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::BeatSaber::Destinations::GameStageExtensions, 0x10>, "Size mismatch!");
 
-} // namespace BeatSaber::Destinations
+} // namespace end def BeatSaber::Destinations
 NEED_NO_BOX(::BeatSaber::Destinations::GameStageExtensions);
 DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::Destinations::GameStageExtensions*, "BeatSaber.Destinations", "GameStageExtensions");

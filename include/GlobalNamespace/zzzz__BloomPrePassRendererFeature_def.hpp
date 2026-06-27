@@ -32,73 +32,72 @@ namespace GlobalNamespace {
 // CS Name: BloomPrePassRendererFeature
 class CORDL_TYPE BloomPrePassRendererFeature : public ::UnityEngine::Rendering::Universal::ScriptableRendererFeature {
 public:
-  // Declarations
-  /// @brief Field _bloomFog, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__bloomFog, put = __cordl_internal_set__bloomFog)) ::UnityW<::GlobalNamespace::BloomFogSO> _bloomFog;
+// Declarations
+/// @brief Field _bloomFog, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get__bloomFog, put=__cordl_internal_set__bloomFog)) ::UnityW<::GlobalNamespace::BloomFogSO>  _bloomFog;
 
-  /// @brief Field _sceneEffectContainer, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__sceneEffectContainer, put = __cordl_internal_set__sceneEffectContainer)) ::UnityW<::GlobalNamespace::BloomPrePassEffectContainerSO>
-      _sceneEffectContainer;
+/// @brief Field _sceneEffectContainer, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get__sceneEffectContainer, put=__cordl_internal_set__sceneEffectContainer)) ::UnityW<::GlobalNamespace::BloomPrePassEffectContainerSO>  _sceneEffectContainer;
 
-  /// @brief Field _sceneRenderer, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__sceneRenderer, put = __cordl_internal_set__sceneRenderer)) ::UnityW<::GlobalNamespace::BloomPrePassRendererSO> _sceneRenderer;
+/// @brief Field _sceneRenderer, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get__sceneRenderer, put=__cordl_internal_set__sceneRenderer)) ::UnityW<::GlobalNamespace::BloomPrePassRendererSO>  _sceneRenderer;
 
-  /// @brief Method AddRenderPasses, addr 0x571ef50, size 0x4, virtual true, abstract: false, final false
-  inline void AddRenderPasses(::UnityEngine::Rendering::Universal::ScriptableRenderer* renderer, ::ByRef<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
+/// @brief Method AddRenderPasses, addr 0x57207b8, size 0x4, virtual true, abstract: false, final false
+inline void AddRenderPasses(::UnityEngine::Rendering::Universal::ScriptableRenderer*  renderer, ::ByRef<::UnityEngine::Rendering::Universal::RenderingData>  renderingData) ;
 
-  /// @brief Method Create, addr 0x571ef4c, size 0x4, virtual true, abstract: false, final false
-  inline void Create();
+/// @brief Method Create, addr 0x57207b4, size 0x4, virtual true, abstract: false, final false
+inline void Create() ;
 
-  static inline ::GlobalNamespace::BloomPrePassRendererFeature* New_ctor();
+static inline ::GlobalNamespace::BloomPrePassRendererFeature* New_ctor() ;
 
-  constexpr ::UnityW<::GlobalNamespace::BloomFogSO> const& __cordl_internal_get__bloomFog() const;
+constexpr ::UnityW<::GlobalNamespace::BloomFogSO> const& __cordl_internal_get__bloomFog() const;
 
-  constexpr ::UnityW<::GlobalNamespace::BloomFogSO>& __cordl_internal_get__bloomFog();
+constexpr ::UnityW<::GlobalNamespace::BloomFogSO>& __cordl_internal_get__bloomFog() ;
 
-  constexpr ::UnityW<::GlobalNamespace::BloomPrePassEffectContainerSO> const& __cordl_internal_get__sceneEffectContainer() const;
+constexpr ::UnityW<::GlobalNamespace::BloomPrePassEffectContainerSO> const& __cordl_internal_get__sceneEffectContainer() const;
 
-  constexpr ::UnityW<::GlobalNamespace::BloomPrePassEffectContainerSO>& __cordl_internal_get__sceneEffectContainer();
+constexpr ::UnityW<::GlobalNamespace::BloomPrePassEffectContainerSO>& __cordl_internal_get__sceneEffectContainer() ;
 
-  constexpr ::UnityW<::GlobalNamespace::BloomPrePassRendererSO> const& __cordl_internal_get__sceneRenderer() const;
+constexpr ::UnityW<::GlobalNamespace::BloomPrePassRendererSO> const& __cordl_internal_get__sceneRenderer() const;
 
-  constexpr ::UnityW<::GlobalNamespace::BloomPrePassRendererSO>& __cordl_internal_get__sceneRenderer();
+constexpr ::UnityW<::GlobalNamespace::BloomPrePassRendererSO>& __cordl_internal_get__sceneRenderer() ;
 
-  constexpr void __cordl_internal_set__bloomFog(::UnityW<::GlobalNamespace::BloomFogSO> value);
+constexpr void __cordl_internal_set__bloomFog(::UnityW<::GlobalNamespace::BloomFogSO>  value) ;
 
-  constexpr void __cordl_internal_set__sceneEffectContainer(::UnityW<::GlobalNamespace::BloomPrePassEffectContainerSO> value);
+constexpr void __cordl_internal_set__sceneEffectContainer(::UnityW<::GlobalNamespace::BloomPrePassEffectContainerSO>  value) ;
 
-  constexpr void __cordl_internal_set__sceneRenderer(::UnityW<::GlobalNamespace::BloomPrePassRendererSO> value);
+constexpr void __cordl_internal_set__sceneRenderer(::UnityW<::GlobalNamespace::BloomPrePassRendererSO>  value) ;
 
-  /// @brief Method .ctor, addr 0x571ef54, size 0x10, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x57207bc, size 0x10, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BloomPrePassRendererFeature();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr BloomPrePassRendererFeature() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassRendererFeature", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  BloomPrePassRendererFeature(BloomPrePassRendererFeature&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassRendererFeature", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  BloomPrePassRendererFeature(BloomPrePassRendererFeature const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "BloomPrePassRendererFeature", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+BloomPrePassRendererFeature(BloomPrePassRendererFeature && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19680 };
+// Ctor Parameters [CppParam { name: "", ty: "BloomPrePassRendererFeature", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+BloomPrePassRendererFeature(BloomPrePassRendererFeature const& ) = delete;
 
-  /// @brief Field _sceneEffectContainer, offset: 0x20, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::BloomPrePassEffectContainerSO> ____sceneEffectContainer;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19683};
 
-  /// @brief Field _sceneRenderer, offset: 0x28, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::BloomPrePassRendererSO> ____sceneRenderer;
+/// @brief Field _sceneEffectContainer, offset: 0x20, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::BloomPrePassEffectContainerSO>  ____sceneEffectContainer;
 
-  /// @brief Field _bloomFog, offset: 0x30, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::BloomFogSO> ____bloomFog;
+/// @brief Field _sceneRenderer, offset: 0x28, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::BloomPrePassRendererSO>  ____sceneRenderer;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _bloomFog, offset: 0x30, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::BloomFogSO>  ____bloomFog;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::BloomPrePassRendererFeature, ____sceneEffectContainer) == 0x20, "Offset mismatch!");
@@ -109,6 +108,6 @@ static_assert(offsetof(::GlobalNamespace::BloomPrePassRendererFeature, ____bloom
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BloomPrePassRendererFeature, 0x38>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BloomPrePassRendererFeature);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BloomPrePassRendererFeature*, "", "BloomPrePassRendererFeature");

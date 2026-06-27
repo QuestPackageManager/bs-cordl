@@ -27,47 +27,46 @@ namespace GlobalNamespace {
 // CS Name: LocalServerConnectionRequestHandler
 class CORDL_TYPE LocalServerConnectionRequestHandler : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Convert operator to "::GlobalNamespace::IConnectionRequestHandler"
-  constexpr operator ::GlobalNamespace::IConnectionRequestHandler*() noexcept;
+// Declarations
+/// @brief Convert operator to "::GlobalNamespace::IConnectionRequestHandler"
+constexpr operator  ::GlobalNamespace::IConnectionRequestHandler*() noexcept;
 
-  /// @brief Method GetConnectionMessage, addr 0x327b53c, size 0x208, virtual true, abstract: false, final true
-  inline void GetConnectionMessage(::LiteNetLib::Utils::NetDataWriter* writer, ::StringW userId, ::StringW userName, bool isConnectionOwner, ::StringW compatibilityVersion);
+/// @brief Method GetConnectionMessage, addr 0x327c2d8, size 0x208, virtual true, abstract: false, final true
+inline void GetConnectionMessage(::LiteNetLib::Utils::NetDataWriter*  writer, ::StringW  userId, ::StringW  userName, bool  isConnectionOwner, ::StringW  compatibilityVersion) ;
 
-  static inline ::GlobalNamespace::LocalServerConnectionRequestHandler* New_ctor();
+static inline ::GlobalNamespace::LocalServerConnectionRequestHandler* New_ctor() ;
 
-  /// @brief Method ValidateConnectionMessage, addr 0x327b744, size 0x27c, virtual true, abstract: false, final true
-  inline bool ValidateConnectionMessage(::LiteNetLib::Utils::NetDataReader* reader, ::ByRef<::StringW> userId, ::ByRef<::StringW> userName, ::ByRef<bool> isConnectionOwner,
-                                        ::ByRef<::StringW> compatibilityVersion);
+/// @brief Method ValidateConnectionMessage, addr 0x327c4e0, size 0x27c, virtual true, abstract: false, final true
+inline bool ValidateConnectionMessage(::LiteNetLib::Utils::NetDataReader*  reader, ::ByRef<::StringW>  userId, ::ByRef<::StringW>  userName, ::ByRef<bool>  isConnectionOwner, ::ByRef<::StringW>  compatibilityVersion) ;
 
-  /// @brief Method .ctor, addr 0x327b9c0, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x327c75c, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Convert to "::GlobalNamespace::IConnectionRequestHandler"
-  constexpr ::GlobalNamespace::IConnectionRequestHandler* i___GlobalNamespace__IConnectionRequestHandler() noexcept;
+/// @brief Convert to "::GlobalNamespace::IConnectionRequestHandler"
+constexpr ::GlobalNamespace::IConnectionRequestHandler* i___GlobalNamespace__IConnectionRequestHandler() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LocalServerConnectionRequestHandler();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr LocalServerConnectionRequestHandler() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LocalServerConnectionRequestHandler", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  LocalServerConnectionRequestHandler(LocalServerConnectionRequestHandler&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LocalServerConnectionRequestHandler", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  LocalServerConnectionRequestHandler(LocalServerConnectionRequestHandler const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "LocalServerConnectionRequestHandler", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+LocalServerConnectionRequestHandler(LocalServerConnectionRequestHandler && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18194 };
+// Ctor Parameters [CppParam { name: "", ty: "LocalServerConnectionRequestHandler", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+LocalServerConnectionRequestHandler(LocalServerConnectionRequestHandler const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{18196};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LocalServerConnectionRequestHandler, 0x10>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::LocalServerConnectionRequestHandler);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LocalServerConnectionRequestHandler*, "", "LocalServerConnectionRequestHandler");

@@ -28,58 +28,57 @@ namespace UnityEngine::UIElements::Layout {
 // CS Name: UnityEngine.UIElements.Layout.LayoutProcessorNative
 class CORDL_TYPE LayoutProcessorNative : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field m_State, offset 0x10, size 0x28
-  __declspec(property(get = __cordl_internal_get_m_State, put = __cordl_internal_set_m_State)) ::UnityEngine::UIElements::Layout::LayoutState m_State;
+// Declarations
+/// @brief Field m_State, offset 0x10, size 0x28 
+ __declspec(property(get=__cordl_internal_get_m_State, put=__cordl_internal_set_m_State)) ::UnityEngine::UIElements::Layout::LayoutState  m_State;
 
-  /// @brief Convert operator to "::UnityEngine::UIElements::Layout::ILayoutProcessor"
-  constexpr operator ::UnityEngine::UIElements::Layout::ILayoutProcessor*() noexcept;
+/// @brief Convert operator to "::UnityEngine::UIElements::Layout::ILayoutProcessor"
+constexpr operator  ::UnityEngine::UIElements::Layout::ILayoutProcessor*() noexcept;
 
-  static inline ::UnityEngine::UIElements::Layout::LayoutProcessorNative* New_ctor();
+static inline ::UnityEngine::UIElements::Layout::LayoutProcessorNative* New_ctor() ;
 
-  /// @brief Method UnityEngine.UIElements.Layout.ILayoutProcessor.CalculateLayout, addr 0x6bab00c, size 0x130, virtual true, abstract: false, final true
-  inline void UnityEngine_UIElements_Layout_ILayoutProcessor_CalculateLayout(::UnityEngine::UIElements::Layout::LayoutNode node, float_t parentWidth, float_t parentHeight,
-                                                                             ::UnityEngine::UIElements::Layout::LayoutDirection parentDirection);
+/// @brief Method UnityEngine.UIElements.Layout.ILayoutProcessor.CalculateLayout, addr 0x6bacb84, size 0x130, virtual true, abstract: false, final true
+inline void UnityEngine_UIElements_Layout_ILayoutProcessor_CalculateLayout(::UnityEngine::UIElements::Layout::LayoutNode  node, float_t  parentWidth, float_t  parentHeight, ::UnityEngine::UIElements::Layout::LayoutDirection  parentDirection) ;
 
-  constexpr ::UnityEngine::UIElements::Layout::LayoutState const& __cordl_internal_get_m_State() const;
+constexpr ::UnityEngine::UIElements::Layout::LayoutState const& __cordl_internal_get_m_State() const;
 
-  constexpr ::UnityEngine::UIElements::Layout::LayoutState& __cordl_internal_get_m_State();
+constexpr ::UnityEngine::UIElements::Layout::LayoutState& __cordl_internal_get_m_State() ;
 
-  constexpr void __cordl_internal_set_m_State(::UnityEngine::UIElements::Layout::LayoutState value);
+constexpr void __cordl_internal_set_m_State(::UnityEngine::UIElements::Layout::LayoutState  value) ;
 
-  /// @brief Method .ctor, addr 0x6ba9590, size 0x34, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6bab108, size 0x34, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Convert to "::UnityEngine::UIElements::Layout::ILayoutProcessor"
-  constexpr ::UnityEngine::UIElements::Layout::ILayoutProcessor* i___UnityEngine__UIElements__Layout__ILayoutProcessor() noexcept;
+/// @brief Convert to "::UnityEngine::UIElements::Layout::ILayoutProcessor"
+constexpr ::UnityEngine::UIElements::Layout::ILayoutProcessor* i___UnityEngine__UIElements__Layout__ILayoutProcessor() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LayoutProcessorNative();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr LayoutProcessorNative() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LayoutProcessorNative", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  LayoutProcessorNative(LayoutProcessorNative&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LayoutProcessorNative", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  LayoutProcessorNative(LayoutProcessorNative const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "LayoutProcessorNative", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+LayoutProcessorNative(LayoutProcessorNative && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5444 };
+// Ctor Parameters [CppParam { name: "", ty: "LayoutProcessorNative", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+LayoutProcessorNative(LayoutProcessorNative const& ) = delete;
 
-  /// @brief Field m_State, offset: 0x10, size: 0x28, def value: None
-  ::UnityEngine::UIElements::Layout::LayoutState ___m_State;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{5444};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field m_State, offset: 0x10, size: 0x28, def value: None
+ ::UnityEngine::UIElements::Layout::LayoutState  ___m_State;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::UIElements::Layout::LayoutProcessorNative, ___m_State) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::Layout::LayoutProcessorNative, 0x38>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements::Layout
+} // namespace end def UnityEngine::UIElements::Layout
 NEED_NO_BOX(::UnityEngine::UIElements::Layout::LayoutProcessorNative);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::Layout::LayoutProcessorNative*, "UnityEngine.UIElements.Layout", "LayoutProcessorNative");

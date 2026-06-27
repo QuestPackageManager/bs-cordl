@@ -34,118 +34,117 @@ namespace GlobalNamespace {
 // CS Name: System.Data.DataRelationCollection/DataTableRelationCollection
 class CORDL_TYPE DataRelationCollection_DataTableRelationCollection : public ::System::Data::DataRelationCollection {
 public:
-  // Declarations
-  __declspec(property(get = get_Item)) ::System::Data::DataRelation* Item[];
+// Declarations
+ __declspec(property(get=get_Item)) ::System::Data::DataRelation*  Item[];
 
-  __declspec(property(get = get_Item)) ::System::Data::DataRelation* Item[];
+ __declspec(property(get=get_Item)) ::System::Data::DataRelation*  Item[];
 
-  __declspec(property(get = get_List)) ::System::Collections::ArrayList* List;
+ __declspec(property(get=get_List)) ::System::Collections::ArrayList*  List;
 
-  /// @brief Field RelationPropertyChanged, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_RelationPropertyChanged,
-                      put = __cordl_internal_set_RelationPropertyChanged)) ::System::ComponentModel::CollectionChangeEventHandler* RelationPropertyChanged;
+/// @brief Field RelationPropertyChanged, offset 0x50, size 0x8 
+ __declspec(property(get=__cordl_internal_get_RelationPropertyChanged, put=__cordl_internal_set_RelationPropertyChanged)) ::System::ComponentModel::CollectionChangeEventHandler*  RelationPropertyChanged;
 
-  /// @brief Field _fParentCollection, offset 0x48, size 0x1
-  __declspec(property(get = __cordl_internal_get__fParentCollection, put = __cordl_internal_set__fParentCollection)) bool _fParentCollection;
+/// @brief Field _fParentCollection, offset 0x48, size 0x1 
+ __declspec(property(get=__cordl_internal_get__fParentCollection, put=__cordl_internal_set__fParentCollection)) bool  _fParentCollection;
 
-  /// @brief Field _relations, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__relations, put = __cordl_internal_set__relations)) ::System::Collections::ArrayList* _relations;
+/// @brief Field _relations, offset 0x40, size 0x8 
+ __declspec(property(get=__cordl_internal_get__relations, put=__cordl_internal_set__relations)) ::System::Collections::ArrayList*  _relations;
 
-  /// @brief Field _table, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__table, put = __cordl_internal_set__table)) ::System::Data::DataTable* _table;
+/// @brief Field _table, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get__table, put=__cordl_internal_set__table)) ::System::Data::DataTable*  _table;
 
-  /// @brief Method AddCache, addr 0x5ee71f0, size 0x40, virtual false, abstract: false, final false
-  inline void AddCache(::System::Data::DataRelation* relation);
+/// @brief Method AddCache, addr 0x5ee8d68, size 0x40, virtual false, abstract: false, final false
+inline void AddCache(::System::Data::DataRelation*  relation) ;
 
-  /// @brief Method AddCore, addr 0x5ee7230, size 0xc8, virtual true, abstract: false, final false
-  inline void AddCore(::System::Data::DataRelation* relation);
+/// @brief Method AddCore, addr 0x5ee8da8, size 0xc8, virtual true, abstract: false, final false
+inline void AddCore(::System::Data::DataRelation*  relation) ;
 
-  /// @brief Method EnsureDataSet, addr 0x5ee6e38, size 0x44, virtual false, abstract: false, final false
-  inline void EnsureDataSet();
+/// @brief Method EnsureDataSet, addr 0x5ee89b0, size 0x44, virtual false, abstract: false, final false
+inline void EnsureDataSet() ;
 
-  /// @brief Method GetDataSet, addr 0x5ee6e7c, size 0x24, virtual true, abstract: false, final false
-  inline ::System::Data::DataSet* GetDataSet();
+/// @brief Method GetDataSet, addr 0x5ee89f4, size 0x24, virtual true, abstract: false, final false
+inline ::System::Data::DataSet* GetDataSet() ;
 
-  static inline ::GlobalNamespace::DataRelationCollection_DataTableRelationCollection* New_ctor(::System::Data::DataTable* table, bool fParentCollection);
+static inline ::GlobalNamespace::DataRelationCollection_DataTableRelationCollection* New_ctor(::System::Data::DataTable*  table, bool  fParentCollection) ;
 
-  /// @brief Method RemoveCache, addr 0x5ee72f8, size 0xc8, virtual false, abstract: false, final false
-  inline void RemoveCache(::System::Data::DataRelation* relation);
+/// @brief Method RemoveCache, addr 0x5ee8e70, size 0xc8, virtual false, abstract: false, final false
+inline void RemoveCache(::System::Data::DataRelation*  relation) ;
 
-  /// @brief Method RemoveCore, addr 0x5ee73c0, size 0xc8, virtual true, abstract: false, final false
-  inline void RemoveCore(::System::Data::DataRelation* relation);
+/// @brief Method RemoveCore, addr 0x5ee8f38, size 0xc8, virtual true, abstract: false, final false
+inline void RemoveCore(::System::Data::DataRelation*  relation) ;
 
-  constexpr ::System::ComponentModel::CollectionChangeEventHandler* const& __cordl_internal_get_RelationPropertyChanged() const;
+constexpr ::System::ComponentModel::CollectionChangeEventHandler* const& __cordl_internal_get_RelationPropertyChanged() const;
 
-  constexpr ::System::ComponentModel::CollectionChangeEventHandler*& __cordl_internal_get_RelationPropertyChanged();
+constexpr ::System::ComponentModel::CollectionChangeEventHandler*& __cordl_internal_get_RelationPropertyChanged() ;
 
-  constexpr bool const& __cordl_internal_get__fParentCollection() const;
+constexpr bool const& __cordl_internal_get__fParentCollection() const;
 
-  constexpr bool& __cordl_internal_get__fParentCollection();
+constexpr bool& __cordl_internal_get__fParentCollection() ;
 
-  constexpr ::System::Collections::ArrayList* const& __cordl_internal_get__relations() const;
+constexpr ::System::Collections::ArrayList* const& __cordl_internal_get__relations() const;
 
-  constexpr ::System::Collections::ArrayList*& __cordl_internal_get__relations();
+constexpr ::System::Collections::ArrayList*& __cordl_internal_get__relations() ;
 
-  constexpr ::System::Data::DataTable* const& __cordl_internal_get__table() const;
+constexpr ::System::Data::DataTable* const& __cordl_internal_get__table() const;
 
-  constexpr ::System::Data::DataTable*& __cordl_internal_get__table();
+constexpr ::System::Data::DataTable*& __cordl_internal_get__table() ;
 
-  constexpr void __cordl_internal_set_RelationPropertyChanged(::System::ComponentModel::CollectionChangeEventHandler* value);
+constexpr void __cordl_internal_set_RelationPropertyChanged(::System::ComponentModel::CollectionChangeEventHandler*  value) ;
 
-  constexpr void __cordl_internal_set__fParentCollection(bool value);
+constexpr void __cordl_internal_set__fParentCollection(bool  value) ;
 
-  constexpr void __cordl_internal_set__relations(::System::Collections::ArrayList* value);
+constexpr void __cordl_internal_set__relations(::System::Collections::ArrayList*  value) ;
 
-  constexpr void __cordl_internal_set__table(::System::Data::DataTable* value);
+constexpr void __cordl_internal_set__table(::System::Data::DataTable*  value) ;
 
-  /// @brief Method .ctor, addr 0x5ee6d88, size 0xa8, virtual false, abstract: false, final false
-  inline void _ctor(::System::Data::DataTable* table, bool fParentCollection);
+/// @brief Method .ctor, addr 0x5ee8900, size 0xa8, virtual false, abstract: false, final false
+inline void _ctor(::System::Data::DataTable*  table, bool  fParentCollection) ;
 
-  /// @brief Method add_RelationPropertyChanged, addr 0x5ee7098, size 0xac, virtual false, abstract: false, final false
-  inline void add_RelationPropertyChanged(::System::ComponentModel::CollectionChangeEventHandler* value);
+/// @brief Method add_RelationPropertyChanged, addr 0x5ee8c10, size 0xac, virtual false, abstract: false, final false
+inline void add_RelationPropertyChanged(::System::ComponentModel::CollectionChangeEventHandler*  value) ;
 
-  /// @brief Method get_Item, addr 0x5ee6ea0, size 0x100, virtual true, abstract: false, final false
-  inline ::System::Data::DataRelation* get_Item(int32_t index);
+/// @brief Method get_Item, addr 0x5ee8a18, size 0x100, virtual true, abstract: false, final false
+inline ::System::Data::DataRelation* get_Item(int32_t  index) ;
 
-  /// @brief Method get_Item, addr 0x5ee6fa0, size 0xf8, virtual true, abstract: false, final false
-  inline ::System::Data::DataRelation* get_Item(::StringW name);
+/// @brief Method get_Item, addr 0x5ee8b18, size 0xf8, virtual true, abstract: false, final false
+inline ::System::Data::DataRelation* get_Item(::StringW  name) ;
 
-  /// @brief Method get_List, addr 0x5ee6e30, size 0x8, virtual true, abstract: false, final false
-  inline ::System::Collections::ArrayList* get_List();
+/// @brief Method get_List, addr 0x5ee89a8, size 0x8, virtual true, abstract: false, final false
+inline ::System::Collections::ArrayList* get_List() ;
 
-  /// @brief Method remove_RelationPropertyChanged, addr 0x5ee7144, size 0xac, virtual false, abstract: false, final false
-  inline void remove_RelationPropertyChanged(::System::ComponentModel::CollectionChangeEventHandler* value);
+/// @brief Method remove_RelationPropertyChanged, addr 0x5ee8cbc, size 0xac, virtual false, abstract: false, final false
+inline void remove_RelationPropertyChanged(::System::ComponentModel::CollectionChangeEventHandler*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DataRelationCollection_DataTableRelationCollection();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr DataRelationCollection_DataTableRelationCollection() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DataRelationCollection_DataTableRelationCollection", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  DataRelationCollection_DataTableRelationCollection(DataRelationCollection_DataTableRelationCollection&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DataRelationCollection_DataTableRelationCollection", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  DataRelationCollection_DataTableRelationCollection(DataRelationCollection_DataTableRelationCollection const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "DataRelationCollection_DataTableRelationCollection", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+DataRelationCollection_DataTableRelationCollection(DataRelationCollection_DataTableRelationCollection && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13757 };
+// Ctor Parameters [CppParam { name: "", ty: "DataRelationCollection_DataTableRelationCollection", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+DataRelationCollection_DataTableRelationCollection(DataRelationCollection_DataTableRelationCollection const& ) = delete;
 
-  /// @brief Field _table, offset: 0x38, size: 0x8, def value: None
-  ::System::Data::DataTable* ____table;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{13758};
 
-  /// @brief Field _relations, offset: 0x40, size: 0x8, def value: None
-  ::System::Collections::ArrayList* ____relations;
+/// @brief Field _table, offset: 0x38, size: 0x8, def value: None
+ ::System::Data::DataTable*  ____table;
 
-  /// @brief Field _fParentCollection, offset: 0x48, size: 0x1, def value: None
-  bool ____fParentCollection;
+/// @brief Field _relations, offset: 0x40, size: 0x8, def value: None
+ ::System::Collections::ArrayList*  ____relations;
 
-  /// @brief Field RelationPropertyChanged, offset: 0x50, size: 0x8, def value: None
-  ::System::ComponentModel::CollectionChangeEventHandler* ___RelationPropertyChanged;
+/// @brief Field _fParentCollection, offset: 0x48, size: 0x1, def value: None
+ bool  ____fParentCollection;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field RelationPropertyChanged, offset: 0x50, size: 0x8, def value: None
+ ::System::ComponentModel::CollectionChangeEventHandler*  ___RelationPropertyChanged;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::DataRelationCollection_DataTableRelationCollection, ____table) == 0x38, "Offset mismatch!");
@@ -158,6 +157,6 @@ static_assert(offsetof(::GlobalNamespace::DataRelationCollection_DataTableRelati
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::DataRelationCollection_DataTableRelationCollection, 0x58>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::DataRelationCollection_DataTableRelationCollection);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::DataRelationCollection_DataTableRelationCollection*, "System.Data", "DataRelationCollection/DataTableRelationCollection");

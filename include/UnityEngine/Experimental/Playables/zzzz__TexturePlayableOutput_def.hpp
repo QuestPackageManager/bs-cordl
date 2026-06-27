@@ -24,38 +24,38 @@ namespace UnityEngine::Experimental::Playables {
 // CS Name: UnityEngine.Experimental.Playables.TexturePlayableOutput
 struct CORDL_TYPE TexturePlayableOutput {
 public:
-  // Declarations
-  /// @brief Convert operator to "::UnityEngine::Playables::IPlayableOutput"
-  constexpr operator ::UnityEngine::Playables::IPlayableOutput*();
+// Declarations
+/// @brief Convert operator to "::UnityEngine::Playables::IPlayableOutput"
+constexpr operator  ::UnityEngine::Playables::IPlayableOutput*() ;
 
-  /// @brief Method GetHandle, addr 0x69d7e58, size 0xc, virtual true, abstract: false, final true
-  inline ::UnityEngine::Playables::PlayableOutputHandle GetHandle();
+/// @brief Method GetHandle, addr 0x69d99d0, size 0xc, virtual true, abstract: false, final true
+inline ::UnityEngine::Playables::PlayableOutputHandle GetHandle() ;
 
-  /// @brief Convert to "::UnityEngine::Playables::IPlayableOutput"
-  constexpr ::UnityEngine::Playables::IPlayableOutput* i___UnityEngine__Playables__IPlayableOutput();
+/// @brief Convert to "::UnityEngine::Playables::IPlayableOutput"
+constexpr ::UnityEngine::Playables::IPlayableOutput* i___UnityEngine__Playables__IPlayableOutput() ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TexturePlayableOutput();
+// Ctor Parameters []
+// @brief default ctor
+constexpr TexturePlayableOutput() ;
 
-  // Ctor Parameters [CppParam { name: "m_Handle", ty: "::UnityEngine::Playables::PlayableOutputHandle", modifiers: "", def_value: None }]
-  constexpr TexturePlayableOutput(::UnityEngine::Playables::PlayableOutputHandle m_Handle) noexcept;
+// Ctor Parameters [CppParam { name: "m_Handle", ty: "::UnityEngine::Playables::PlayableOutputHandle", modifiers: "", def_value: None }]
+constexpr TexturePlayableOutput(::UnityEngine::Playables::PlayableOutputHandle  m_Handle) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10905 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10906};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x10};
 
-  /// @brief Field m_Handle, offset: 0x0, size: 0x10, def value: None
-  ::UnityEngine::Playables::PlayableOutputHandle m_Handle;
+/// @brief Field m_Handle, offset: 0x0, size: 0x10, def value: None
+ ::UnityEngine::Playables::PlayableOutputHandle  m_Handle;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Experimental::Playables::TexturePlayableOutput, m_Handle) == 0x0, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Experimental::Playables::TexturePlayableOutput, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::Experimental::Playables
+} // namespace end def UnityEngine::Experimental::Playables
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Experimental::Playables::TexturePlayableOutput, "UnityEngine.Experimental.Playables", "TexturePlayableOutput");

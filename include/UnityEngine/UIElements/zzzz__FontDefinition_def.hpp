@@ -10,7 +10,8 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(FontDefinition)
 namespace System {
-template <typename T> class IEquatable_1;
+template<typename T>
+class IEquatable_1;
 }
 namespace System {
 class Object;
@@ -48,88 +49,87 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::FontDefinition_PropertyBag);
 MARK_REF_PTR_T(::UnityEngine::UIElements::PropertyBag_FontDefinition_FontAssetProperty);
 MARK_REF_PTR_T(::UnityEngine::UIElements::PropertyBag_FontDefinition_FontProperty);
 MARK_VAL_T(::UnityEngine::UIElements::FontDefinition);
-// Dependencies
+// Dependencies 
 namespace UnityEngine::UIElements {
 // Is value type: true
 // CS Name: UnityEngine.UIElements.FontDefinition
 struct CORDL_TYPE FontDefinition {
 public:
-  // Declarations
-  using PropertyBag = ::UnityEngine::UIElements::FontDefinition_PropertyBag;
+// Declarations
+using PropertyBag = ::UnityEngine::UIElements::FontDefinition_PropertyBag;
 
-  __declspec(property(get = get_font, put = set_font)) ::UnityW<::UnityEngine::Font> font;
+ __declspec(property(get=get_font, put=set_font)) ::UnityW<::UnityEngine::Font>  font;
 
-  __declspec(property(get = get_fontAsset, put = set_fontAsset)) ::UnityW<::UnityEngine::TextCore::Text::FontAsset> fontAsset;
+ __declspec(property(get=get_fontAsset, put=set_fontAsset)) ::UnityW<::UnityEngine::TextCore::Text::FontAsset>  fontAsset;
 
-  /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::FontDefinition>"
-  constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::FontDefinition>*();
+/// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::FontDefinition>"
+constexpr operator  ::System::IEquatable_1<::UnityEngine::UIElements::FontDefinition>*() ;
 
-  /// @brief Method Equals, addr 0x6c84d0c, size 0x80, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* obj);
+/// @brief Method Equals, addr 0x6c86884, size 0x80, virtual true, abstract: false, final false
+inline bool Equals(::System::Object*  obj) ;
 
-  /// @brief Method Equals, addr 0x6c84c84, size 0x88, virtual true, abstract: false, final true
-  inline bool Equals(::UnityEngine::UIElements::FontDefinition other);
+/// @brief Method Equals, addr 0x6c867fc, size 0x88, virtual true, abstract: false, final true
+inline bool Equals(::UnityEngine::UIElements::FontDefinition  other) ;
 
-  /// @brief Method FromFont, addr 0x6c849e8, size 0x8, virtual false, abstract: false, final false
-  static inline ::UnityEngine::UIElements::FontDefinition FromFont(::UnityEngine::Font* f);
+/// @brief Method FromFont, addr 0x6c86560, size 0x8, virtual false, abstract: false, final false
+static inline ::UnityEngine::UIElements::FontDefinition FromFont(::UnityEngine::Font*  f) ;
 
-  /// @brief Method FromObject, addr 0x6c849fc, size 0x124, virtual false, abstract: false, final false
-  static inline ::UnityEngine::UIElements::FontDefinition FromObject(::System::Object* obj);
+/// @brief Method FromObject, addr 0x6c86574, size 0x124, virtual false, abstract: false, final false
+static inline ::UnityEngine::UIElements::FontDefinition FromObject(::System::Object*  obj) ;
 
-  /// @brief Method FromSDFFont, addr 0x6c849f0, size 0xc, virtual false, abstract: false, final false
-  static inline ::UnityEngine::UIElements::FontDefinition FromSDFFont(::UnityEngine::TextCore::Text::FontAsset* f);
+/// @brief Method FromSDFFont, addr 0x6c86568, size 0xc, virtual false, abstract: false, final false
+static inline ::UnityEngine::UIElements::FontDefinition FromSDFFont(::UnityEngine::TextCore::Text::FontAsset*  f) ;
 
-  /// @brief Method GetHashCode, addr 0x6c84d8c, size 0xe4, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
+/// @brief Method GetHashCode, addr 0x6c86904, size 0xe4, virtual true, abstract: false, final false
+inline int32_t GetHashCode() ;
 
-  /// @brief Method IsEmpty, addr 0x6c84b20, size 0x9c, virtual false, abstract: false, final false
-  inline bool IsEmpty();
+/// @brief Method IsEmpty, addr 0x6c86698, size 0x9c, virtual false, abstract: false, final false
+inline bool IsEmpty() ;
 
-  /// @brief Method ToString, addr 0x6c84bbc, size 0xc8, virtual true, abstract: false, final false
-  inline ::StringW ToString();
+/// @brief Method ToString, addr 0x6c86734, size 0xc8, virtual true, abstract: false, final false
+inline ::StringW ToString() ;
 
-  /// @brief Method get_font, addr 0x6c84808, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::Font> get_font();
+/// @brief Method get_font, addr 0x6c86380, size 0x8, virtual false, abstract: false, final false
+inline ::UnityW<::UnityEngine::Font> get_font() ;
 
-  /// @brief Method get_fontAsset, addr 0x6c848f8, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::TextCore::Text::FontAsset> get_fontAsset();
+/// @brief Method get_fontAsset, addr 0x6c86470, size 0x8, virtual false, abstract: false, final false
+inline ::UnityW<::UnityEngine::TextCore::Text::FontAsset> get_fontAsset() ;
 
-  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::FontDefinition>"
-  constexpr ::System::IEquatable_1<::UnityEngine::UIElements::FontDefinition>* i___System__IEquatable_1___UnityEngine__UIElements__FontDefinition_();
+/// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::FontDefinition>"
+constexpr ::System::IEquatable_1<::UnityEngine::UIElements::FontDefinition>* i___System__IEquatable_1___UnityEngine__UIElements__FontDefinition_() ;
 
-  /// @brief Method op_Equality, addr 0x6c84e70, size 0x2c, virtual false, abstract: false, final false
-  static inline bool op_Equality(::UnityEngine::UIElements::FontDefinition left, ::UnityEngine::UIElements::FontDefinition right);
+/// @brief Method op_Equality, addr 0x6c869e8, size 0x2c, virtual false, abstract: false, final false
+static inline bool op_Equality(::UnityEngine::UIElements::FontDefinition  left, ::UnityEngine::UIElements::FontDefinition  right) ;
 
-  /// @brief Method op_Inequality, addr 0x6c84e9c, size 0x30, virtual false, abstract: false, final false
-  static inline bool op_Inequality(::UnityEngine::UIElements::FontDefinition left, ::UnityEngine::UIElements::FontDefinition right);
+/// @brief Method op_Inequality, addr 0x6c86a14, size 0x30, virtual false, abstract: false, final false
+static inline bool op_Inequality(::UnityEngine::UIElements::FontDefinition  left, ::UnityEngine::UIElements::FontDefinition  right) ;
 
-  /// @brief Method set_font, addr 0x6c84810, size 0xe8, virtual false, abstract: false, final false
-  inline void set_font(::UnityEngine::Font* value);
+/// @brief Method set_font, addr 0x6c86388, size 0xe8, virtual false, abstract: false, final false
+inline void set_font(::UnityEngine::Font*  value) ;
 
-  /// @brief Method set_fontAsset, addr 0x6c84900, size 0xe8, virtual false, abstract: false, final false
-  inline void set_fontAsset(::UnityEngine::TextCore::Text::FontAsset* value);
+/// @brief Method set_fontAsset, addr 0x6c86478, size 0xe8, virtual false, abstract: false, final false
+inline void set_fontAsset(::UnityEngine::TextCore::Text::FontAsset*  value) ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr FontDefinition();
+// Ctor Parameters []
+// @brief default ctor
+constexpr FontDefinition() ;
 
-  // Ctor Parameters [CppParam { name: "m_Font", ty: "::UnityW<::UnityEngine::Font>", modifiers: "", def_value: None }, CppParam { name: "m_FontAsset", ty:
-  // "::UnityW<::UnityEngine::TextCore::Text::FontAsset>", modifiers: "", def_value: None }]
-  constexpr FontDefinition(::UnityW<::UnityEngine::Font> m_Font, ::UnityW<::UnityEngine::TextCore::Text::FontAsset> m_FontAsset) noexcept;
+// Ctor Parameters [CppParam { name: "m_Font", ty: "::UnityW<::UnityEngine::Font>", modifiers: "", def_value: None }, CppParam { name: "m_FontAsset", ty: "::UnityW<::UnityEngine::TextCore::Text::FontAsset>", modifiers: "", def_value: None }]
+constexpr FontDefinition(::UnityW<::UnityEngine::Font>  m_Font, ::UnityW<::UnityEngine::TextCore::Text::FontAsset>  m_FontAsset) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4717 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4717};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x10};
 
-  /// @brief Field m_Font, offset: 0x0, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::Font> m_Font;
+/// @brief Field m_Font, offset: 0x0, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::Font>  m_Font;
 
-  /// @brief Field m_FontAsset, offset: 0x8, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::TextCore::Text::FontAsset> m_FontAsset;
+/// @brief Field m_FontAsset, offset: 0x8, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::TextCore::Text::FontAsset>  m_FontAsset;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::UIElements::FontDefinition, m_Font) == 0x0, "Offset mismatch!");
@@ -138,77 +138,77 @@ static_assert(offsetof(::UnityEngine::UIElements::FontDefinition, m_FontAsset) =
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::FontDefinition, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements
+} // namespace end def UnityEngine::UIElements
 // Dependencies Unity.Properties.Property`2<TContainer, TValue>, UnityEngine.UIElements.FontDefinition
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.FontDefinition/PropertyBag/FontProperty
-class CORDL_TYPE PropertyBag_FontDefinition_FontProperty : public ::Unity::Properties::Property_2<::UnityEngine::UIElements::FontDefinition, ::UnityW<::UnityEngine::Font>> {
+class CORDL_TYPE PropertyBag_FontDefinition_FontProperty : public ::Unity::Properties::Property_2<::UnityEngine::UIElements::FontDefinition,::UnityW<::UnityEngine::Font>> {
 public:
-  // Declarations
-  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
+// Declarations
+ __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
 
-  __declspec(property(get = get_Name)) ::StringW Name;
+ __declspec(property(get=get_Name)) ::StringW  Name;
 
-  /// @brief Field <IsReadOnly>k__BackingField, offset 0x20, size 0x1
-  __declspec(property(get = __cordl_internal_get__IsReadOnly_k__BackingField, put = __cordl_internal_set__IsReadOnly_k__BackingField)) bool _IsReadOnly_k__BackingField;
+/// @brief Field <IsReadOnly>k__BackingField, offset 0x20, size 0x1 
+ __declspec(property(get=__cordl_internal_get__IsReadOnly_k__BackingField, put=__cordl_internal_set__IsReadOnly_k__BackingField)) bool  _IsReadOnly_k__BackingField;
 
-  /// @brief Field <Name>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__Name_k__BackingField, put = __cordl_internal_set__Name_k__BackingField)) ::StringW _Name_k__BackingField;
+/// @brief Field <Name>k__BackingField, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get__Name_k__BackingField, put=__cordl_internal_set__Name_k__BackingField)) ::StringW  _Name_k__BackingField;
 
-  /// @brief Method GetValue, addr 0x6c850b8, size 0x8, virtual true, abstract: false, final false
-  inline ::UnityW<::UnityEngine::Font> GetValue(::ByRef<::UnityEngine::UIElements::FontDefinition> container);
+/// @brief Method GetValue, addr 0x6c86c30, size 0x8, virtual true, abstract: false, final false
+inline ::UnityW<::UnityEngine::Font> GetValue(::ByRef<::UnityEngine::UIElements::FontDefinition>  container) ;
 
-  static inline ::UnityEngine::UIElements::PropertyBag_FontDefinition_FontProperty* New_ctor();
+static inline ::UnityEngine::UIElements::PropertyBag_FontDefinition_FontProperty* New_ctor() ;
 
-  /// @brief Method SetValue, addr 0x6c850c0, size 0xc, virtual true, abstract: false, final false
-  inline void SetValue(::ByRef<::UnityEngine::UIElements::FontDefinition> container, ::UnityEngine::Font* value);
+/// @brief Method SetValue, addr 0x6c86c38, size 0xc, virtual true, abstract: false, final false
+inline void SetValue(::ByRef<::UnityEngine::UIElements::FontDefinition>  container, ::UnityEngine::Font*  value) ;
 
-  constexpr bool const& __cordl_internal_get__IsReadOnly_k__BackingField() const;
+constexpr bool const& __cordl_internal_get__IsReadOnly_k__BackingField() const;
 
-  constexpr bool& __cordl_internal_get__IsReadOnly_k__BackingField();
+constexpr bool& __cordl_internal_get__IsReadOnly_k__BackingField() ;
 
-  constexpr ::StringW const& __cordl_internal_get__Name_k__BackingField() const;
+constexpr ::StringW const& __cordl_internal_get__Name_k__BackingField() const;
 
-  constexpr ::StringW& __cordl_internal_get__Name_k__BackingField();
+constexpr ::StringW& __cordl_internal_get__Name_k__BackingField() ;
 
-  constexpr void __cordl_internal_set__IsReadOnly_k__BackingField(bool value);
+constexpr void __cordl_internal_set__IsReadOnly_k__BackingField(bool  value) ;
 
-  constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
+constexpr void __cordl_internal_set__Name_k__BackingField(::StringW  value) ;
 
-  /// @brief Method .ctor, addr 0x6c84fe0, size 0x64, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6c86b58, size 0x64, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_IsReadOnly, addr 0x6c850b0, size 0x8, virtual true, abstract: false, final false
-  inline bool get_IsReadOnly();
+/// @brief Method get_IsReadOnly, addr 0x6c86c28, size 0x8, virtual true, abstract: false, final false
+inline bool get_IsReadOnly() ;
 
-  /// @brief Method get_Name, addr 0x6c850a8, size 0x8, virtual true, abstract: false, final false
-  inline ::StringW get_Name();
+/// @brief Method get_Name, addr 0x6c86c20, size 0x8, virtual true, abstract: false, final false
+inline ::StringW get_Name() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PropertyBag_FontDefinition_FontProperty();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr PropertyBag_FontDefinition_FontProperty() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_FontDefinition_FontProperty", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  PropertyBag_FontDefinition_FontProperty(PropertyBag_FontDefinition_FontProperty&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_FontDefinition_FontProperty", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  PropertyBag_FontDefinition_FontProperty(PropertyBag_FontDefinition_FontProperty const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "PropertyBag_FontDefinition_FontProperty", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+PropertyBag_FontDefinition_FontProperty(PropertyBag_FontDefinition_FontProperty && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4714 };
+// Ctor Parameters [CppParam { name: "", ty: "PropertyBag_FontDefinition_FontProperty", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+PropertyBag_FontDefinition_FontProperty(PropertyBag_FontDefinition_FontProperty const& ) = delete;
 
-  /// @brief Field <Name>k__BackingField, offset: 0x18, size: 0x8, def value: None
-  ::StringW ____Name_k__BackingField;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4714};
 
-  /// @brief Field <IsReadOnly>k__BackingField, offset: 0x20, size: 0x1, def value: None
-  bool ____IsReadOnly_k__BackingField;
+/// @brief Field <Name>k__BackingField, offset: 0x18, size: 0x8, def value: None
+ ::StringW  ____Name_k__BackingField;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field <IsReadOnly>k__BackingField, offset: 0x20, size: 0x1, def value: None
+ bool  ____IsReadOnly_k__BackingField;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::UIElements::PropertyBag_FontDefinition_FontProperty, ____Name_k__BackingField) == 0x18, "Offset mismatch!");
@@ -217,77 +217,77 @@ static_assert(offsetof(::UnityEngine::UIElements::PropertyBag_FontDefinition_Fon
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::PropertyBag_FontDefinition_FontProperty, 0x28>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements
+} // namespace end def UnityEngine::UIElements
 // Dependencies Unity.Properties.Property`2<TContainer, TValue>, UnityEngine.UIElements.FontDefinition
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.FontDefinition/PropertyBag/FontAssetProperty
-class CORDL_TYPE PropertyBag_FontDefinition_FontAssetProperty : public ::Unity::Properties::Property_2<::UnityEngine::UIElements::FontDefinition, ::UnityW<::UnityEngine::TextCore::Text::FontAsset>> {
+class CORDL_TYPE PropertyBag_FontDefinition_FontAssetProperty : public ::Unity::Properties::Property_2<::UnityEngine::UIElements::FontDefinition,::UnityW<::UnityEngine::TextCore::Text::FontAsset>> {
 public:
-  // Declarations
-  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
+// Declarations
+ __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
 
-  __declspec(property(get = get_Name)) ::StringW Name;
+ __declspec(property(get=get_Name)) ::StringW  Name;
 
-  /// @brief Field <IsReadOnly>k__BackingField, offset 0x20, size 0x1
-  __declspec(property(get = __cordl_internal_get__IsReadOnly_k__BackingField, put = __cordl_internal_set__IsReadOnly_k__BackingField)) bool _IsReadOnly_k__BackingField;
+/// @brief Field <IsReadOnly>k__BackingField, offset 0x20, size 0x1 
+ __declspec(property(get=__cordl_internal_get__IsReadOnly_k__BackingField, put=__cordl_internal_set__IsReadOnly_k__BackingField)) bool  _IsReadOnly_k__BackingField;
 
-  /// @brief Field <Name>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__Name_k__BackingField, put = __cordl_internal_set__Name_k__BackingField)) ::StringW _Name_k__BackingField;
+/// @brief Field <Name>k__BackingField, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get__Name_k__BackingField, put=__cordl_internal_set__Name_k__BackingField)) ::StringW  _Name_k__BackingField;
 
-  /// @brief Method GetValue, addr 0x6c850dc, size 0x8, virtual true, abstract: false, final false
-  inline ::UnityW<::UnityEngine::TextCore::Text::FontAsset> GetValue(::ByRef<::UnityEngine::UIElements::FontDefinition> container);
+/// @brief Method GetValue, addr 0x6c86c54, size 0x8, virtual true, abstract: false, final false
+inline ::UnityW<::UnityEngine::TextCore::Text::FontAsset> GetValue(::ByRef<::UnityEngine::UIElements::FontDefinition>  container) ;
 
-  static inline ::UnityEngine::UIElements::PropertyBag_FontDefinition_FontAssetProperty* New_ctor();
+static inline ::UnityEngine::UIElements::PropertyBag_FontDefinition_FontAssetProperty* New_ctor() ;
 
-  /// @brief Method SetValue, addr 0x6c850e4, size 0xc, virtual true, abstract: false, final false
-  inline void SetValue(::ByRef<::UnityEngine::UIElements::FontDefinition> container, ::UnityEngine::TextCore::Text::FontAsset* value);
+/// @brief Method SetValue, addr 0x6c86c5c, size 0xc, virtual true, abstract: false, final false
+inline void SetValue(::ByRef<::UnityEngine::UIElements::FontDefinition>  container, ::UnityEngine::TextCore::Text::FontAsset*  value) ;
 
-  constexpr bool const& __cordl_internal_get__IsReadOnly_k__BackingField() const;
+constexpr bool const& __cordl_internal_get__IsReadOnly_k__BackingField() const;
 
-  constexpr bool& __cordl_internal_get__IsReadOnly_k__BackingField();
+constexpr bool& __cordl_internal_get__IsReadOnly_k__BackingField() ;
 
-  constexpr ::StringW const& __cordl_internal_get__Name_k__BackingField() const;
+constexpr ::StringW const& __cordl_internal_get__Name_k__BackingField() const;
 
-  constexpr ::StringW& __cordl_internal_get__Name_k__BackingField();
+constexpr ::StringW& __cordl_internal_get__Name_k__BackingField() ;
 
-  constexpr void __cordl_internal_set__IsReadOnly_k__BackingField(bool value);
+constexpr void __cordl_internal_set__IsReadOnly_k__BackingField(bool  value) ;
 
-  constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
+constexpr void __cordl_internal_set__Name_k__BackingField(::StringW  value) ;
 
-  /// @brief Method .ctor, addr 0x6c85044, size 0x64, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6c86bbc, size 0x64, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_IsReadOnly, addr 0x6c850d4, size 0x8, virtual true, abstract: false, final false
-  inline bool get_IsReadOnly();
+/// @brief Method get_IsReadOnly, addr 0x6c86c4c, size 0x8, virtual true, abstract: false, final false
+inline bool get_IsReadOnly() ;
 
-  /// @brief Method get_Name, addr 0x6c850cc, size 0x8, virtual true, abstract: false, final false
-  inline ::StringW get_Name();
+/// @brief Method get_Name, addr 0x6c86c44, size 0x8, virtual true, abstract: false, final false
+inline ::StringW get_Name() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PropertyBag_FontDefinition_FontAssetProperty();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr PropertyBag_FontDefinition_FontAssetProperty() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_FontDefinition_FontAssetProperty", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  PropertyBag_FontDefinition_FontAssetProperty(PropertyBag_FontDefinition_FontAssetProperty&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_FontDefinition_FontAssetProperty", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  PropertyBag_FontDefinition_FontAssetProperty(PropertyBag_FontDefinition_FontAssetProperty const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "PropertyBag_FontDefinition_FontAssetProperty", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+PropertyBag_FontDefinition_FontAssetProperty(PropertyBag_FontDefinition_FontAssetProperty && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4715 };
+// Ctor Parameters [CppParam { name: "", ty: "PropertyBag_FontDefinition_FontAssetProperty", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+PropertyBag_FontDefinition_FontAssetProperty(PropertyBag_FontDefinition_FontAssetProperty const& ) = delete;
 
-  /// @brief Field <Name>k__BackingField, offset: 0x18, size: 0x8, def value: None
-  ::StringW ____Name_k__BackingField;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4715};
 
-  /// @brief Field <IsReadOnly>k__BackingField, offset: 0x20, size: 0x1, def value: None
-  bool ____IsReadOnly_k__BackingField;
+/// @brief Field <Name>k__BackingField, offset: 0x18, size: 0x8, def value: None
+ ::StringW  ____Name_k__BackingField;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field <IsReadOnly>k__BackingField, offset: 0x20, size: 0x1, def value: None
+ bool  ____IsReadOnly_k__BackingField;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::UIElements::PropertyBag_FontDefinition_FontAssetProperty, ____Name_k__BackingField) == 0x18, "Offset mismatch!");
@@ -296,46 +296,46 @@ static_assert(offsetof(::UnityEngine::UIElements::PropertyBag_FontDefinition_Fon
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::PropertyBag_FontDefinition_FontAssetProperty, 0x28>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements
+} // namespace end def UnityEngine::UIElements
 // Dependencies Unity.Properties.ContainerPropertyBag`1<TContainer>, UnityEngine.UIElements.FontDefinition
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.FontDefinition/PropertyBag
 class CORDL_TYPE FontDefinition_PropertyBag : public ::Unity::Properties::ContainerPropertyBag_1<::UnityEngine::UIElements::FontDefinition> {
 public:
-  // Declarations
-  using FontAssetProperty = ::UnityEngine::UIElements::PropertyBag_FontDefinition_FontAssetProperty;
+// Declarations
+using FontAssetProperty = ::UnityEngine::UIElements::PropertyBag_FontDefinition_FontAssetProperty;
 
-  using FontProperty = ::UnityEngine::UIElements::PropertyBag_FontDefinition_FontProperty;
+using FontProperty = ::UnityEngine::UIElements::PropertyBag_FontDefinition_FontProperty;
 
-  static inline ::UnityEngine::UIElements::FontDefinition_PropertyBag* New_ctor();
+static inline ::UnityEngine::UIElements::FontDefinition_PropertyBag* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x6c84ecc, size 0x114, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6c86a44, size 0x114, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr FontDefinition_PropertyBag();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr FontDefinition_PropertyBag() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FontDefinition_PropertyBag", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  FontDefinition_PropertyBag(FontDefinition_PropertyBag&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FontDefinition_PropertyBag", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  FontDefinition_PropertyBag(FontDefinition_PropertyBag const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "FontDefinition_PropertyBag", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+FontDefinition_PropertyBag(FontDefinition_PropertyBag && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4716 };
+// Ctor Parameters [CppParam { name: "", ty: "FontDefinition_PropertyBag", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+FontDefinition_PropertyBag(FontDefinition_PropertyBag const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4716};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::FontDefinition_PropertyBag, 0x28>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements
+} // namespace end def UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::FontDefinition_PropertyBag);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::FontDefinition_PropertyBag*, "UnityEngine.UIElements", "FontDefinition/PropertyBag");
 NEED_NO_BOX(::UnityEngine::UIElements::PropertyBag_FontDefinition_FontAssetProperty);

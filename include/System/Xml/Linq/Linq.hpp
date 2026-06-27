@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "System/Xml/Linq/BaseUriAnnotation.hpp"
 #include "System/Xml/Linq/ElementWriter.hpp"
@@ -31,5 +31,6 @@ module;
 #include "System/Xml/Linq/XStreamingElement.hpp"
 #include "System/Xml/Linq/XText.hpp"
 #ifdef __cpp_modules
-export module Linq;
-#endif
+                    export module Linq;
+                    #endif
+                

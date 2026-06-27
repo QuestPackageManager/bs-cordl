@@ -18,35 +18,33 @@ namespace UnityEngine::Rendering::Universal {
 // CS Name: UnityEngine.Rendering.Universal.PreTile
 struct CORDL_TYPE PreTile {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PreTile();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr PreTile() ;
 
-  // Ctor Parameters [CppParam { name: "planeLeft", ty: "::Unity::Mathematics::float4", modifiers: "", def_value: None }, CppParam { name: "planeRight", ty: "::Unity::Mathematics::float4", modifiers:
-  // "", def_value: None }, CppParam { name: "planeBottom", ty: "::Unity::Mathematics::float4", modifiers: "", def_value: None }, CppParam { name: "planeTop", ty: "::Unity::Mathematics::float4",
-  // modifiers: "", def_value: None }]
-  constexpr PreTile(::Unity::Mathematics::float4 planeLeft, ::Unity::Mathematics::float4 planeRight, ::Unity::Mathematics::float4 planeBottom, ::Unity::Mathematics::float4 planeTop) noexcept;
+// Ctor Parameters [CppParam { name: "planeLeft", ty: "::Unity::Mathematics::float4", modifiers: "", def_value: None }, CppParam { name: "planeRight", ty: "::Unity::Mathematics::float4", modifiers: "", def_value: None }, CppParam { name: "planeBottom", ty: "::Unity::Mathematics::float4", modifiers: "", def_value: None }, CppParam { name: "planeTop", ty: "::Unity::Mathematics::float4", modifiers: "", def_value: None }]
+constexpr PreTile(::Unity::Mathematics::float4  planeLeft, ::Unity::Mathematics::float4  planeRight, ::Unity::Mathematics::float4  planeBottom, ::Unity::Mathematics::float4  planeTop) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13024 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{13025};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x40};
 
-  /// @brief Field planeLeft, offset: 0x0, size: 0x10, def value: None
-  ::Unity::Mathematics::float4 planeLeft;
+/// @brief Field planeLeft, offset: 0x0, size: 0x10, def value: None
+ ::Unity::Mathematics::float4  planeLeft;
 
-  /// @brief Field planeRight, offset: 0x10, size: 0x10, def value: None
-  ::Unity::Mathematics::float4 planeRight;
+/// @brief Field planeRight, offset: 0x10, size: 0x10, def value: None
+ ::Unity::Mathematics::float4  planeRight;
 
-  /// @brief Field planeBottom, offset: 0x20, size: 0x10, def value: None
-  ::Unity::Mathematics::float4 planeBottom;
+/// @brief Field planeBottom, offset: 0x20, size: 0x10, def value: None
+ ::Unity::Mathematics::float4  planeBottom;
 
-  /// @brief Field planeTop, offset: 0x30, size: 0x10, def value: None
-  ::Unity::Mathematics::float4 planeTop;
+/// @brief Field planeTop, offset: 0x30, size: 0x10, def value: None
+ ::Unity::Mathematics::float4  planeTop;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Rendering::Universal::PreTile, planeLeft) == 0x0, "Offset mismatch!");
@@ -59,5 +57,5 @@ static_assert(offsetof(::UnityEngine::Rendering::Universal::PreTile, planeTop) =
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::Universal::PreTile, 0x40>, "Size mismatch!");
 
-} // namespace UnityEngine::Rendering::Universal
+} // namespace end def UnityEngine::Rendering::Universal
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::Universal::PreTile, "UnityEngine.Rendering.Universal", "PreTile");

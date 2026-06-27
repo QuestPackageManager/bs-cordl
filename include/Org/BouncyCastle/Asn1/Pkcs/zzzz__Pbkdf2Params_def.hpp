@@ -39,135 +39,134 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
 // CS Name: Org.BouncyCastle.Asn1.Pkcs.Pbkdf2Params
 class CORDL_TYPE Pbkdf2Params : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
-  // Declarations
-  __declspec(property(get = get_IsDefaultPrf)) bool IsDefaultPrf;
+// Declarations
+ __declspec(property(get=get_IsDefaultPrf)) bool  IsDefaultPrf;
 
-  __declspec(property(get = get_IterationCount)) ::Org::BouncyCastle::Math::BigInteger* IterationCount;
+ __declspec(property(get=get_IterationCount)) ::Org::BouncyCastle::Math::BigInteger*  IterationCount;
 
-  __declspec(property(get = get_KeyLength)) ::Org::BouncyCastle::Math::BigInteger* KeyLength;
+ __declspec(property(get=get_KeyLength)) ::Org::BouncyCastle::Math::BigInteger*  KeyLength;
 
-  __declspec(property(get = get_Prf)) ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* Prf;
+ __declspec(property(get=get_Prf)) ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*  Prf;
 
-  /// @brief Field algid_hmacWithSHA1, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_algid_hmacWithSHA1, put = setStaticF_algid_hmacWithSHA1)) ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algid_hmacWithSHA1;
+/// @brief Field algid_hmacWithSHA1, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_algid_hmacWithSHA1, put=setStaticF_algid_hmacWithSHA1)) ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*  algid_hmacWithSHA1;
 
-  /// @brief Field iterationCount, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_iterationCount, put = __cordl_internal_set_iterationCount)) ::Org::BouncyCastle::Asn1::DerInteger* iterationCount;
+/// @brief Field iterationCount, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_iterationCount, put=__cordl_internal_set_iterationCount)) ::Org::BouncyCastle::Asn1::DerInteger*  iterationCount;
 
-  /// @brief Field keyLength, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_keyLength, put = __cordl_internal_set_keyLength)) ::Org::BouncyCastle::Asn1::DerInteger* keyLength;
+/// @brief Field keyLength, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_keyLength, put=__cordl_internal_set_keyLength)) ::Org::BouncyCastle::Asn1::DerInteger*  keyLength;
 
-  /// @brief Field octStr, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_octStr, put = __cordl_internal_set_octStr)) ::Org::BouncyCastle::Asn1::Asn1OctetString* octStr;
+/// @brief Field octStr, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_octStr, put=__cordl_internal_set_octStr)) ::Org::BouncyCastle::Asn1::Asn1OctetString*  octStr;
 
-  /// @brief Field prf, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_prf, put = __cordl_internal_set_prf)) ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* prf;
+/// @brief Field prf, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get_prf, put=__cordl_internal_set_prf)) ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*  prf;
 
-  /// @brief Method GetInstance, addr 0x33a4850, size 0x184, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params* GetInstance(::System::Object* obj);
+/// @brief Method GetInstance, addr 0x33a55ec, size 0x184, virtual false, abstract: false, final false
+static inline ::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params* GetInstance(::System::Object*  obj) ;
 
-  /// @brief Method GetSalt, addr 0x33a4f80, size 0x1c, virtual false, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetSalt();
+/// @brief Method GetSalt, addr 0x33a5d1c, size 0x1c, virtual false, abstract: false, final false
+inline ::ArrayW<uint8_t,::Array<uint8_t>*> GetSalt() ;
 
-  static inline ::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> salt, int32_t iterationCount);
+static inline ::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params* New_ctor(::ArrayW<uint8_t,::Array<uint8_t>*>  salt, int32_t  iterationCount) ;
 
-  static inline ::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> salt, int32_t iterationCount, int32_t keyLength);
+static inline ::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params* New_ctor(::ArrayW<uint8_t,::Array<uint8_t>*>  salt, int32_t  iterationCount, int32_t  keyLength) ;
 
-  static inline ::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> salt, int32_t iterationCount, int32_t keyLength,
-                                                                        ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* prf);
+static inline ::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params* New_ctor(::ArrayW<uint8_t,::Array<uint8_t>*>  salt, int32_t  iterationCount, int32_t  keyLength, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*  prf) ;
 
-  static inline ::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> salt, int32_t iterationCount, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* prf);
+static inline ::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params* New_ctor(::ArrayW<uint8_t,::Array<uint8_t>*>  salt, int32_t  iterationCount, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*  prf) ;
 
-  static inline ::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
+static inline ::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence*  seq) ;
 
-  /// @brief Method ToAsn1Object, addr 0x33a50b0, size 0x19c, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
+/// @brief Method ToAsn1Object, addr 0x33a5e4c, size 0x19c, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object() ;
 
-  constexpr ::Org::BouncyCastle::Asn1::DerInteger* const& __cordl_internal_get_iterationCount() const;
+constexpr ::Org::BouncyCastle::Asn1::DerInteger* const& __cordl_internal_get_iterationCount() const;
 
-  constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_iterationCount();
+constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_iterationCount() ;
 
-  constexpr ::Org::BouncyCastle::Asn1::DerInteger* const& __cordl_internal_get_keyLength() const;
+constexpr ::Org::BouncyCastle::Asn1::DerInteger* const& __cordl_internal_get_keyLength() const;
 
-  constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_keyLength();
+constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_keyLength() ;
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString* const& __cordl_internal_get_octStr() const;
+constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString* const& __cordl_internal_get_octStr() const;
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString*& __cordl_internal_get_octStr();
+constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString*& __cordl_internal_get_octStr() ;
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* const& __cordl_internal_get_prf() const;
+constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* const& __cordl_internal_get_prf() const;
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __cordl_internal_get_prf();
+constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __cordl_internal_get_prf() ;
 
-  constexpr void __cordl_internal_set_iterationCount(::Org::BouncyCastle::Asn1::DerInteger* value);
+constexpr void __cordl_internal_set_iterationCount(::Org::BouncyCastle::Asn1::DerInteger*  value) ;
 
-  constexpr void __cordl_internal_set_keyLength(::Org::BouncyCastle::Asn1::DerInteger* value);
+constexpr void __cordl_internal_set_keyLength(::Org::BouncyCastle::Asn1::DerInteger*  value) ;
 
-  constexpr void __cordl_internal_set_octStr(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
+constexpr void __cordl_internal_set_octStr(::Org::BouncyCastle::Asn1::Asn1OctetString*  value) ;
 
-  constexpr void __cordl_internal_set_prf(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
+constexpr void __cordl_internal_set_prf(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*  value) ;
 
-  /// @brief Method .ctor, addr 0x33a4e0c, size 0xa0, virtual false, abstract: false, final false
-  inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> salt, int32_t iterationCount);
+/// @brief Method .ctor, addr 0x33a5ba8, size 0xa0, virtual false, abstract: false, final false
+inline void _ctor(::ArrayW<uint8_t,::Array<uint8_t>*>  salt, int32_t  iterationCount) ;
 
-  /// @brief Method .ctor, addr 0x33a4eac, size 0x8c, virtual false, abstract: false, final false
-  inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> salt, int32_t iterationCount, int32_t keyLength);
+/// @brief Method .ctor, addr 0x33a5c48, size 0x8c, virtual false, abstract: false, final false
+inline void _ctor(::ArrayW<uint8_t,::Array<uint8_t>*>  salt, int32_t  iterationCount, int32_t  keyLength) ;
 
-  /// @brief Method .ctor, addr 0x33a4f38, size 0x24, virtual false, abstract: false, final false
-  inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> salt, int32_t iterationCount, int32_t keyLength, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* prf);
+/// @brief Method .ctor, addr 0x33a5cd4, size 0x24, virtual false, abstract: false, final false
+inline void _ctor(::ArrayW<uint8_t,::Array<uint8_t>*>  salt, int32_t  iterationCount, int32_t  keyLength, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*  prf) ;
 
-  /// @brief Method .ctor, addr 0x33a4f5c, size 0x24, virtual false, abstract: false, final false
-  inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> salt, int32_t iterationCount, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* prf);
+/// @brief Method .ctor, addr 0x33a5cf8, size 0x24, virtual false, abstract: false, final false
+inline void _ctor(::ArrayW<uint8_t,::Array<uint8_t>*>  salt, int32_t  iterationCount, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*  prf) ;
 
-  /// @brief Method .ctor, addr 0x33a4ad4, size 0x338, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
+/// @brief Method .ctor, addr 0x33a5870, size 0x338, virtual false, abstract: false, final false
+inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence*  seq) ;
 
-  static inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* getStaticF_algid_hmacWithSHA1();
+static inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* getStaticF_algid_hmacWithSHA1() ;
 
-  /// @brief Method get_IsDefaultPrf, addr 0x33a4fc8, size 0x80, virtual false, abstract: false, final false
-  inline bool get_IsDefaultPrf();
+/// @brief Method get_IsDefaultPrf, addr 0x33a5d64, size 0x80, virtual false, abstract: false, final false
+inline bool get_IsDefaultPrf() ;
 
-  /// @brief Method get_IterationCount, addr 0x33a4f9c, size 0x18, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Math::BigInteger* get_IterationCount();
+/// @brief Method get_IterationCount, addr 0x33a5d38, size 0x18, virtual false, abstract: false, final false
+inline ::Org::BouncyCastle::Math::BigInteger* get_IterationCount() ;
 
-  /// @brief Method get_KeyLength, addr 0x33a4fb4, size 0x14, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Math::BigInteger* get_KeyLength();
+/// @brief Method get_KeyLength, addr 0x33a5d50, size 0x14, virtual false, abstract: false, final false
+inline ::Org::BouncyCastle::Math::BigInteger* get_KeyLength() ;
 
-  /// @brief Method get_Prf, addr 0x33a5048, size 0x68, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_Prf();
+/// @brief Method get_Prf, addr 0x33a5de4, size 0x68, virtual false, abstract: false, final false
+inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_Prf() ;
 
-  static inline void setStaticF_algid_hmacWithSHA1(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
+static inline void setStaticF_algid_hmacWithSHA1(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Pbkdf2Params();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr Pbkdf2Params() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Pbkdf2Params", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  Pbkdf2Params(Pbkdf2Params&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Pbkdf2Params", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  Pbkdf2Params(Pbkdf2Params const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "Pbkdf2Params", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Pbkdf2Params(Pbkdf2Params && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 242 };
+// Ctor Parameters [CppParam { name: "", ty: "Pbkdf2Params", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Pbkdf2Params(Pbkdf2Params const& ) = delete;
 
-  /// @brief Field octStr, offset: 0x10, size: 0x8, def value: None
-  ::Org::BouncyCastle::Asn1::Asn1OctetString* ___octStr;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{242};
 
-  /// @brief Field iterationCount, offset: 0x18, size: 0x8, def value: None
-  ::Org::BouncyCastle::Asn1::DerInteger* ___iterationCount;
+/// @brief Field octStr, offset: 0x10, size: 0x8, def value: None
+ ::Org::BouncyCastle::Asn1::Asn1OctetString*  ___octStr;
 
-  /// @brief Field keyLength, offset: 0x20, size: 0x8, def value: None
-  ::Org::BouncyCastle::Asn1::DerInteger* ___keyLength;
+/// @brief Field iterationCount, offset: 0x18, size: 0x8, def value: None
+ ::Org::BouncyCastle::Asn1::DerInteger*  ___iterationCount;
 
-  /// @brief Field prf, offset: 0x28, size: 0x8, def value: None
-  ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* ___prf;
+/// @brief Field keyLength, offset: 0x20, size: 0x8, def value: None
+ ::Org::BouncyCastle::Asn1::DerInteger*  ___keyLength;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field prf, offset: 0x28, size: 0x8, def value: None
+ ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*  ___prf;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params, ___octStr) == 0x10, "Offset mismatch!");
@@ -180,6 +179,6 @@ static_assert(offsetof(::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params, ___prf) ==
 
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params, 0x30>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Asn1::Pkcs
+} // namespace end def Org::BouncyCastle::Asn1::Pkcs
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params*, "Org.BouncyCastle.Asn1.Pkcs", "Pbkdf2Params");

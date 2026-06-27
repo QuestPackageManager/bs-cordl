@@ -6,7 +6,8 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(ClipperRegistry)
 namespace UnityEngine::UI::Collections {
-template <typename T> class IndexedSet_1;
+template<typename T>
+class IndexedSet_1;
 }
 namespace UnityEngine::UI {
 class IClipper;
@@ -23,70 +24,70 @@ namespace UnityEngine::UI {
 // CS Name: UnityEngine.UI.ClipperRegistry
 class CORDL_TYPE ClipperRegistry : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field m_Clippers, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Clippers, put = __cordl_internal_set_m_Clippers)) ::UnityEngine::UI::Collections::IndexedSet_1<::UnityEngine::UI::IClipper*>* m_Clippers;
+// Declarations
+/// @brief Field m_Clippers, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_Clippers, put=__cordl_internal_set_m_Clippers)) ::UnityEngine::UI::Collections::IndexedSet_1<::UnityEngine::UI::IClipper*>*  m_Clippers;
 
-  /// @brief Field s_Instance, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_s_Instance, put = setStaticF_s_Instance)) ::UnityEngine::UI::ClipperRegistry* s_Instance;
+/// @brief Field s_Instance, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_s_Instance, put=setStaticF_s_Instance)) ::UnityEngine::UI::ClipperRegistry*  s_Instance;
 
-  /// @brief Method Cull, addr 0x6ac0df8, size 0x11c, virtual false, abstract: false, final false
-  inline void Cull();
+/// @brief Method Cull, addr 0x6ac2970, size 0x11c, virtual false, abstract: false, final false
+inline void Cull() ;
 
-  /// @brief Method Disable, addr 0x6ac2434, size 0x60, virtual false, abstract: false, final false
-  static inline void Disable(::UnityEngine::UI::IClipper* c);
+/// @brief Method Disable, addr 0x6ac3fac, size 0x60, virtual false, abstract: false, final false
+static inline void Disable(::UnityEngine::UI::IClipper*  c) ;
 
-  static inline ::UnityEngine::UI::ClipperRegistry* New_ctor();
+static inline ::UnityEngine::UI::ClipperRegistry* New_ctor() ;
 
-  /// @brief Method Register, addr 0x6ac2360, size 0x74, virtual false, abstract: false, final false
-  static inline void Register(::UnityEngine::UI::IClipper* c);
+/// @brief Method Register, addr 0x6ac3ed8, size 0x74, virtual false, abstract: false, final false
+static inline void Register(::UnityEngine::UI::IClipper*  c) ;
 
-  /// @brief Method Unregister, addr 0x6ac23d4, size 0x60, virtual false, abstract: false, final false
-  static inline void Unregister(::UnityEngine::UI::IClipper* c);
+/// @brief Method Unregister, addr 0x6ac3f4c, size 0x60, virtual false, abstract: false, final false
+static inline void Unregister(::UnityEngine::UI::IClipper*  c) ;
 
-  constexpr ::UnityEngine::UI::Collections::IndexedSet_1<::UnityEngine::UI::IClipper*>* const& __cordl_internal_get_m_Clippers() const;
+constexpr ::UnityEngine::UI::Collections::IndexedSet_1<::UnityEngine::UI::IClipper*>* const& __cordl_internal_get_m_Clippers() const;
 
-  constexpr ::UnityEngine::UI::Collections::IndexedSet_1<::UnityEngine::UI::IClipper*>*& __cordl_internal_get_m_Clippers();
+constexpr ::UnityEngine::UI::Collections::IndexedSet_1<::UnityEngine::UI::IClipper*>*& __cordl_internal_get_m_Clippers() ;
 
-  constexpr void __cordl_internal_set_m_Clippers(::UnityEngine::UI::Collections::IndexedSet_1<::UnityEngine::UI::IClipper*>* value);
+constexpr void __cordl_internal_set_m_Clippers(::UnityEngine::UI::Collections::IndexedSet_1<::UnityEngine::UI::IClipper*>*  value) ;
 
-  /// @brief Method .ctor, addr 0x6ac22ec, size 0x74, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6ac3e64, size 0x74, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  static inline ::UnityEngine::UI::ClipperRegistry* getStaticF_s_Instance();
+static inline ::UnityEngine::UI::ClipperRegistry* getStaticF_s_Instance() ;
 
-  /// @brief Method get_instance, addr 0x6ac0d80, size 0x78, virtual false, abstract: false, final false
-  static inline ::UnityEngine::UI::ClipperRegistry* get_instance();
+/// @brief Method get_instance, addr 0x6ac28f8, size 0x78, virtual false, abstract: false, final false
+static inline ::UnityEngine::UI::ClipperRegistry* get_instance() ;
 
-  static inline void setStaticF_s_Instance(::UnityEngine::UI::ClipperRegistry* value);
+static inline void setStaticF_s_Instance(::UnityEngine::UI::ClipperRegistry*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ClipperRegistry();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ClipperRegistry() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ClipperRegistry", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ClipperRegistry(ClipperRegistry&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ClipperRegistry", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ClipperRegistry(ClipperRegistry const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ClipperRegistry", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ClipperRegistry(ClipperRegistry && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17374 };
+// Ctor Parameters [CppParam { name: "", ty: "ClipperRegistry", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ClipperRegistry(ClipperRegistry const& ) = delete;
 
-  /// @brief Field m_Clippers, offset: 0x10, size: 0x8, def value: None
-  ::UnityEngine::UI::Collections::IndexedSet_1<::UnityEngine::UI::IClipper*>* ___m_Clippers;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{17376};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field m_Clippers, offset: 0x10, size: 0x8, def value: None
+ ::UnityEngine::UI::Collections::IndexedSet_1<::UnityEngine::UI::IClipper*>*  ___m_Clippers;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::UI::ClipperRegistry, ___m_Clippers) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UI::ClipperRegistry, 0x18>, "Size mismatch!");
 
-} // namespace UnityEngine::UI
+} // namespace end def UnityEngine::UI
 NEED_NO_BOX(::UnityEngine::UI::ClipperRegistry);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UI::ClipperRegistry*, "UnityEngine.UI", "ClipperRegistry");

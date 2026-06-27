@@ -19,10 +19,12 @@ namespace BeatmapSaveDataVersion3 {
 class IndexFilter;
 }
 namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
+template<typename T>
+class IReadOnlyList_1;
 }
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template<typename T>
+class List_1;
 }
 // Forward declare root types
 namespace BeatmapSaveDataVersion3 {
@@ -36,120 +38,115 @@ namespace BeatmapSaveDataVersion3 {
 // CS Name: BeatmapSaveDataVersion3.FxEventBox
 class CORDL_TYPE FxEventBox : public ::BeatmapSaveDataVersion3::EventBox {
 public:
-  // Declarations
-  /// @brief Field b, offset 0x34, size 0x4
-  __declspec(property(get = __cordl_internal_get_b, put = __cordl_internal_set_b)) int32_t b;
+// Declarations
+/// @brief Field b, offset 0x34, size 0x4 
+ __declspec(property(get=__cordl_internal_get_b, put=__cordl_internal_set_b)) int32_t  b;
 
-  /// @brief Field i, offset 0x30, size 0x4
-  __declspec(property(get = __cordl_internal_get_i, put = __cordl_internal_set_i)) ::BeatmapSaveDataCommon::EaseType i;
+/// @brief Field i, offset 0x30, size 0x4 
+ __declspec(property(get=__cordl_internal_get_i, put=__cordl_internal_set_i)) ::BeatmapSaveDataCommon::EaseType  i;
 
-  /// @brief Field l, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_l, put = __cordl_internal_set_l)) ::System::Collections::Generic::List_1<int32_t>* l;
+/// @brief Field l, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_l, put=__cordl_internal_set_l)) ::System::Collections::Generic::List_1<int32_t>*  l;
 
-  /// @brief Field s, offset 0x28, size 0x4
-  __declspec(property(get = __cordl_internal_get_s, put = __cordl_internal_set_s)) float_t s;
+/// @brief Field s, offset 0x28, size 0x4 
+ __declspec(property(get=__cordl_internal_get_s, put=__cordl_internal_set_s)) float_t  s;
 
-  /// @brief Field t, offset 0x2c, size 0x4
-  __declspec(property(get = __cordl_internal_get_t, put = __cordl_internal_set_t)) ::BeatmapSaveDataCommon::DistributionParamType t;
+/// @brief Field t, offset 0x2c, size 0x4 
+ __declspec(property(get=__cordl_internal_get_t, put=__cordl_internal_set_t)) ::BeatmapSaveDataCommon::DistributionParamType  t;
 
-  __declspec(property(get = get_vfxBaseDataList)) ::System::Collections::Generic::IReadOnlyList_1<int32_t>* vfxBaseDataList;
+ __declspec(property(get=get_vfxBaseDataList)) ::System::Collections::Generic::IReadOnlyList_1<int32_t>*  vfxBaseDataList;
 
-  __declspec(property(get = get_vfxDistributionEaseType)) ::BeatmapSaveDataCommon::EaseType vfxDistributionEaseType;
+ __declspec(property(get=get_vfxDistributionEaseType)) ::BeatmapSaveDataCommon::EaseType  vfxDistributionEaseType;
 
-  __declspec(property(get = get_vfxDistributionParam)) float_t vfxDistributionParam;
+ __declspec(property(get=get_vfxDistributionParam)) float_t  vfxDistributionParam;
 
-  __declspec(property(get = get_vfxDistributionParamType)) ::BeatmapSaveDataCommon::DistributionParamType vfxDistributionParamType;
+ __declspec(property(get=get_vfxDistributionParamType)) ::BeatmapSaveDataCommon::DistributionParamType  vfxDistributionParamType;
 
-  __declspec(property(get = get_vfxDistributionShouldAffectFirstBaseEvent)) bool vfxDistributionShouldAffectFirstBaseEvent;
+ __declspec(property(get=get_vfxDistributionShouldAffectFirstBaseEvent)) bool  vfxDistributionShouldAffectFirstBaseEvent;
 
-  static inline ::BeatmapSaveDataVersion3::FxEventBox* New_ctor(::BeatmapSaveDataVersion3::IndexFilter* indexFilter, float_t beatDistributionParam,
-                                                                ::BeatmapSaveDataCommon::DistributionParamType beatDistributionParamType, float_t vfxDistributionParam,
-                                                                ::BeatmapSaveDataCommon::DistributionParamType vfxDistributionParamType, ::BeatmapSaveDataCommon::EaseType vfxDistributionEaseType,
-                                                                bool vfxDistributionShouldAffectFirstBaseEvent, ::System::Collections::Generic::List_1<int32_t>* effectsBaseDataList);
+static inline ::BeatmapSaveDataVersion3::FxEventBox* New_ctor(::BeatmapSaveDataVersion3::IndexFilter*  indexFilter, float_t  beatDistributionParam, ::BeatmapSaveDataCommon::DistributionParamType  beatDistributionParamType, float_t  vfxDistributionParam, ::BeatmapSaveDataCommon::DistributionParamType  vfxDistributionParamType, ::BeatmapSaveDataCommon::EaseType  vfxDistributionEaseType, bool  vfxDistributionShouldAffectFirstBaseEvent, ::System::Collections::Generic::List_1<int32_t>*  effectsBaseDataList) ;
 
-  constexpr int32_t const& __cordl_internal_get_b() const;
+constexpr int32_t const& __cordl_internal_get_b() const;
 
-  constexpr int32_t& __cordl_internal_get_b();
+constexpr int32_t& __cordl_internal_get_b() ;
 
-  constexpr ::BeatmapSaveDataCommon::EaseType const& __cordl_internal_get_i() const;
+constexpr ::BeatmapSaveDataCommon::EaseType const& __cordl_internal_get_i() const;
 
-  constexpr ::BeatmapSaveDataCommon::EaseType& __cordl_internal_get_i();
+constexpr ::BeatmapSaveDataCommon::EaseType& __cordl_internal_get_i() ;
 
-  constexpr ::System::Collections::Generic::List_1<int32_t>* const& __cordl_internal_get_l() const;
+constexpr ::System::Collections::Generic::List_1<int32_t>* const& __cordl_internal_get_l() const;
 
-  constexpr ::System::Collections::Generic::List_1<int32_t>*& __cordl_internal_get_l();
+constexpr ::System::Collections::Generic::List_1<int32_t>*& __cordl_internal_get_l() ;
 
-  constexpr float_t const& __cordl_internal_get_s() const;
+constexpr float_t const& __cordl_internal_get_s() const;
 
-  constexpr float_t& __cordl_internal_get_s();
+constexpr float_t& __cordl_internal_get_s() ;
 
-  constexpr ::BeatmapSaveDataCommon::DistributionParamType const& __cordl_internal_get_t() const;
+constexpr ::BeatmapSaveDataCommon::DistributionParamType const& __cordl_internal_get_t() const;
 
-  constexpr ::BeatmapSaveDataCommon::DistributionParamType& __cordl_internal_get_t();
+constexpr ::BeatmapSaveDataCommon::DistributionParamType& __cordl_internal_get_t() ;
 
-  constexpr void __cordl_internal_set_b(int32_t value);
+constexpr void __cordl_internal_set_b(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_i(::BeatmapSaveDataCommon::EaseType value);
+constexpr void __cordl_internal_set_i(::BeatmapSaveDataCommon::EaseType  value) ;
 
-  constexpr void __cordl_internal_set_l(::System::Collections::Generic::List_1<int32_t>* value);
+constexpr void __cordl_internal_set_l(::System::Collections::Generic::List_1<int32_t>*  value) ;
 
-  constexpr void __cordl_internal_set_s(float_t value);
+constexpr void __cordl_internal_set_s(float_t  value) ;
 
-  constexpr void __cordl_internal_set_t(::BeatmapSaveDataCommon::DistributionParamType value);
+constexpr void __cordl_internal_set_t(::BeatmapSaveDataCommon::DistributionParamType  value) ;
 
-  /// @brief Method .ctor, addr 0x369d5e8, size 0x24, virtual false, abstract: false, final false
-  inline void _ctor(::BeatmapSaveDataVersion3::IndexFilter* indexFilter, float_t beatDistributionParam, ::BeatmapSaveDataCommon::DistributionParamType beatDistributionParamType,
-                    float_t vfxDistributionParam, ::BeatmapSaveDataCommon::DistributionParamType vfxDistributionParamType, ::BeatmapSaveDataCommon::EaseType vfxDistributionEaseType,
-                    bool vfxDistributionShouldAffectFirstBaseEvent, ::System::Collections::Generic::List_1<int32_t>* effectsBaseDataList);
+/// @brief Method .ctor, addr 0x369e97c, size 0x24, virtual false, abstract: false, final false
+inline void _ctor(::BeatmapSaveDataVersion3::IndexFilter*  indexFilter, float_t  beatDistributionParam, ::BeatmapSaveDataCommon::DistributionParamType  beatDistributionParamType, float_t  vfxDistributionParam, ::BeatmapSaveDataCommon::DistributionParamType  vfxDistributionParamType, ::BeatmapSaveDataCommon::EaseType  vfxDistributionEaseType, bool  vfxDistributionShouldAffectFirstBaseEvent, ::System::Collections::Generic::List_1<int32_t>*  effectsBaseDataList) ;
 
-  /// @brief Method get_vfxBaseDataList, addr 0x369d5e0, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::IReadOnlyList_1<int32_t>* get_vfxBaseDataList();
+/// @brief Method get_vfxBaseDataList, addr 0x369e974, size 0x8, virtual false, abstract: false, final false
+inline ::System::Collections::Generic::IReadOnlyList_1<int32_t>* get_vfxBaseDataList() ;
 
-  /// @brief Method get_vfxDistributionEaseType, addr 0x369d5c8, size 0x8, virtual false, abstract: false, final false
-  inline ::BeatmapSaveDataCommon::EaseType get_vfxDistributionEaseType();
+/// @brief Method get_vfxDistributionEaseType, addr 0x369e95c, size 0x8, virtual false, abstract: false, final false
+inline ::BeatmapSaveDataCommon::EaseType get_vfxDistributionEaseType() ;
 
-  /// @brief Method get_vfxDistributionParam, addr 0x369d5b8, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_vfxDistributionParam();
+/// @brief Method get_vfxDistributionParam, addr 0x369e94c, size 0x8, virtual false, abstract: false, final false
+inline float_t get_vfxDistributionParam() ;
 
-  /// @brief Method get_vfxDistributionParamType, addr 0x369d5c0, size 0x8, virtual false, abstract: false, final false
-  inline ::BeatmapSaveDataCommon::DistributionParamType get_vfxDistributionParamType();
+/// @brief Method get_vfxDistributionParamType, addr 0x369e954, size 0x8, virtual false, abstract: false, final false
+inline ::BeatmapSaveDataCommon::DistributionParamType get_vfxDistributionParamType() ;
 
-  /// @brief Method get_vfxDistributionShouldAffectFirstBaseEvent, addr 0x369d5d0, size 0x10, virtual false, abstract: false, final false
-  inline bool get_vfxDistributionShouldAffectFirstBaseEvent();
+/// @brief Method get_vfxDistributionShouldAffectFirstBaseEvent, addr 0x369e964, size 0x10, virtual false, abstract: false, final false
+inline bool get_vfxDistributionShouldAffectFirstBaseEvent() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr FxEventBox();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr FxEventBox() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FxEventBox", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  FxEventBox(FxEventBox&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FxEventBox", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  FxEventBox(FxEventBox const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "FxEventBox", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+FxEventBox(FxEventBox && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15337 };
+// Ctor Parameters [CppParam { name: "", ty: "FxEventBox", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+FxEventBox(FxEventBox const& ) = delete;
 
-  /// @brief Field l, offset: 0x20, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<int32_t>* ___l;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{15339};
 
-  /// @brief Field s, offset: 0x28, size: 0x4, def value: None
-  float_t ___s;
+/// @brief Field l, offset: 0x20, size: 0x8, def value: None
+ ::System::Collections::Generic::List_1<int32_t>*  ___l;
 
-  /// @brief Field t, offset: 0x2c, size: 0x4, def value: None
-  ::BeatmapSaveDataCommon::DistributionParamType ___t;
+/// @brief Field s, offset: 0x28, size: 0x4, def value: None
+ float_t  ___s;
 
-  /// @brief Field i, offset: 0x30, size: 0x4, def value: None
-  ::BeatmapSaveDataCommon::EaseType ___i;
+/// @brief Field t, offset: 0x2c, size: 0x4, def value: None
+ ::BeatmapSaveDataCommon::DistributionParamType  ___t;
 
-  /// @brief Field b, offset: 0x34, size: 0x4, def value: None
-  int32_t ___b;
+/// @brief Field i, offset: 0x30, size: 0x4, def value: None
+ ::BeatmapSaveDataCommon::EaseType  ___i;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field b, offset: 0x34, size: 0x4, def value: None
+ int32_t  ___b;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::BeatmapSaveDataVersion3::FxEventBox, ___l) == 0x20, "Offset mismatch!");
@@ -164,6 +161,6 @@ static_assert(offsetof(::BeatmapSaveDataVersion3::FxEventBox, ___b) == 0x34, "Of
 
 static_assert(::cordl_internals::size_check_v<::BeatmapSaveDataVersion3::FxEventBox, 0x38>, "Size mismatch!");
 
-} // namespace BeatmapSaveDataVersion3
+} // namespace end def BeatmapSaveDataVersion3
 NEED_NO_BOX(::BeatmapSaveDataVersion3::FxEventBox);
 DEFINE_IL2CPP_ARG_TYPE(::BeatmapSaveDataVersion3::FxEventBox*, "BeatmapSaveDataVersion3", "FxEventBox");

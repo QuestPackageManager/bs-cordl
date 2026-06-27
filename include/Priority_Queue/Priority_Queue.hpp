@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "Priority_Queue/FastPriorityQueueNode.hpp"
 #include "Priority_Queue/FastPriorityQueue_1.hpp"
@@ -14,5 +14,6 @@ module;
 #include "Priority_Queue/StablePriorityQueueNode.hpp"
 #include "Priority_Queue/StablePriorityQueue_1.hpp"
 #ifdef __cpp_modules
-export module Priority_Queue;
-#endif
+                    export module Priority_Queue;
+                    #endif
+                

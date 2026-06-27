@@ -4,245 +4,278 @@
 #include "UnityEngine/zzzz__GUIScrollGroup_def.hpp"
 #include "UnityEngine/zzzz__GUIStyle_def.hpp"
 //  Writing Method size for method: ::UnityEngine::GUIScrollGroup._ctor
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::GUIScrollGroup::*)()>(&::UnityEngine::GUIScrollGroup::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x69f882c;
+  constexpr static std::size_t addrs = 0x69fa3a4;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIScrollGroup*>::get(), ".ctor",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIScrollGroup*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::GUIScrollGroup.CalcWidth
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::GUIScrollGroup::*)()>(&::UnityEngine::GUIScrollGroup::CalcWidth)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x69f8890;
+  constexpr static std::size_t addrs = 0x69fa408;
 
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIScrollGroup*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIScrollGroup*>::get(), 8));
+  inline static const ::MethodInfo* methodInfo() {
+    
+                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIScrollGroup*>::get(),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIScrollGroup*>::get(),
+                                  8
+                                ));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::GUIScrollGroup.SetHorizontal
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::GUIScrollGroup::*)(float_t, float_t)>(&::UnityEngine::GUIScrollGroup::SetHorizontal)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x69f8908;
+  constexpr static std::size_t addrs = 0x69fa480;
 
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIScrollGroup*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIScrollGroup*>::get(), 10));
+  inline static const ::MethodInfo* methodInfo() {
+    
+                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIScrollGroup*>::get(),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIScrollGroup*>::get(),
+                                  10
+                                ));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::GUIScrollGroup.CalcHeight
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::GUIScrollGroup::*)()>(&::UnityEngine::GUIScrollGroup::CalcHeight)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x69f89e8;
+  constexpr static std::size_t addrs = 0x69fa560;
 
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIScrollGroup*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIScrollGroup*>::get(), 9));
+  inline static const ::MethodInfo* methodInfo() {
+    
+                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIScrollGroup*>::get(),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIScrollGroup*>::get(),
+                                  9
+                                ));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::GUIScrollGroup.SetVertical
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::GUIScrollGroup::*)(float_t, float_t)>(&::UnityEngine::GUIScrollGroup::SetVertical)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x69f8abc;
+  constexpr static std::size_t addrs = 0x69fa634;
 
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIScrollGroup*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIScrollGroup*>::get(), 11));
+  inline static const ::MethodInfo* methodInfo() {
+    
+                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIScrollGroup*>::get(),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIScrollGroup*>::get(),
+                                  11
+                                ));
     return ___internal_method;
   }
 };
-constexpr float_t& UnityEngine::GUIScrollGroup::__cordl_internal_get_calcMinWidth() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___calcMinWidth;
+constexpr float_t& UnityEngine::GUIScrollGroup::__cordl_internal_get_calcMinWidth()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___calcMinWidth;
 }
 constexpr float_t const& UnityEngine::GUIScrollGroup::__cordl_internal_get_calcMinWidth() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___calcMinWidth;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___calcMinWidth;
 }
-constexpr void UnityEngine::GUIScrollGroup::__cordl_internal_set_calcMinWidth(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___calcMinWidth = value;
+constexpr void UnityEngine::GUIScrollGroup::__cordl_internal_set_calcMinWidth(float_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___calcMinWidth = value;
 }
-constexpr float_t& UnityEngine::GUIScrollGroup::__cordl_internal_get_calcMaxWidth() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___calcMaxWidth;
+constexpr float_t& UnityEngine::GUIScrollGroup::__cordl_internal_get_calcMaxWidth()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___calcMaxWidth;
 }
 constexpr float_t const& UnityEngine::GUIScrollGroup::__cordl_internal_get_calcMaxWidth() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___calcMaxWidth;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___calcMaxWidth;
 }
-constexpr void UnityEngine::GUIScrollGroup::__cordl_internal_set_calcMaxWidth(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___calcMaxWidth = value;
+constexpr void UnityEngine::GUIScrollGroup::__cordl_internal_set_calcMaxWidth(float_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___calcMaxWidth = value;
 }
-constexpr float_t& UnityEngine::GUIScrollGroup::__cordl_internal_get_calcMinHeight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___calcMinHeight;
+constexpr float_t& UnityEngine::GUIScrollGroup::__cordl_internal_get_calcMinHeight()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___calcMinHeight;
 }
 constexpr float_t const& UnityEngine::GUIScrollGroup::__cordl_internal_get_calcMinHeight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___calcMinHeight;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___calcMinHeight;
 }
-constexpr void UnityEngine::GUIScrollGroup::__cordl_internal_set_calcMinHeight(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___calcMinHeight = value;
+constexpr void UnityEngine::GUIScrollGroup::__cordl_internal_set_calcMinHeight(float_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___calcMinHeight = value;
 }
-constexpr float_t& UnityEngine::GUIScrollGroup::__cordl_internal_get_calcMaxHeight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___calcMaxHeight;
+constexpr float_t& UnityEngine::GUIScrollGroup::__cordl_internal_get_calcMaxHeight()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___calcMaxHeight;
 }
 constexpr float_t const& UnityEngine::GUIScrollGroup::__cordl_internal_get_calcMaxHeight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___calcMaxHeight;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___calcMaxHeight;
 }
-constexpr void UnityEngine::GUIScrollGroup::__cordl_internal_set_calcMaxHeight(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___calcMaxHeight = value;
+constexpr void UnityEngine::GUIScrollGroup::__cordl_internal_set_calcMaxHeight(float_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___calcMaxHeight = value;
 }
-constexpr float_t& UnityEngine::GUIScrollGroup::__cordl_internal_get_clientWidth() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___clientWidth;
+constexpr float_t& UnityEngine::GUIScrollGroup::__cordl_internal_get_clientWidth()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___clientWidth;
 }
 constexpr float_t const& UnityEngine::GUIScrollGroup::__cordl_internal_get_clientWidth() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___clientWidth;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___clientWidth;
 }
-constexpr void UnityEngine::GUIScrollGroup::__cordl_internal_set_clientWidth(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___clientWidth = value;
+constexpr void UnityEngine::GUIScrollGroup::__cordl_internal_set_clientWidth(float_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___clientWidth = value;
 }
-constexpr float_t& UnityEngine::GUIScrollGroup::__cordl_internal_get_clientHeight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___clientHeight;
+constexpr float_t& UnityEngine::GUIScrollGroup::__cordl_internal_get_clientHeight()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___clientHeight;
 }
 constexpr float_t const& UnityEngine::GUIScrollGroup::__cordl_internal_get_clientHeight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___clientHeight;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___clientHeight;
 }
-constexpr void UnityEngine::GUIScrollGroup::__cordl_internal_set_clientHeight(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___clientHeight = value;
+constexpr void UnityEngine::GUIScrollGroup::__cordl_internal_set_clientHeight(float_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___clientHeight = value;
 }
-constexpr bool& UnityEngine::GUIScrollGroup::__cordl_internal_get_allowHorizontalScroll() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___allowHorizontalScroll;
+constexpr bool& UnityEngine::GUIScrollGroup::__cordl_internal_get_allowHorizontalScroll()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___allowHorizontalScroll;
 }
 constexpr bool const& UnityEngine::GUIScrollGroup::__cordl_internal_get_allowHorizontalScroll() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___allowHorizontalScroll;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___allowHorizontalScroll;
 }
-constexpr void UnityEngine::GUIScrollGroup::__cordl_internal_set_allowHorizontalScroll(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___allowHorizontalScroll = value;
+constexpr void UnityEngine::GUIScrollGroup::__cordl_internal_set_allowHorizontalScroll(bool  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___allowHorizontalScroll = value;
 }
-constexpr bool& UnityEngine::GUIScrollGroup::__cordl_internal_get_allowVerticalScroll() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___allowVerticalScroll;
+constexpr bool& UnityEngine::GUIScrollGroup::__cordl_internal_get_allowVerticalScroll()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___allowVerticalScroll;
 }
 constexpr bool const& UnityEngine::GUIScrollGroup::__cordl_internal_get_allowVerticalScroll() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___allowVerticalScroll;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___allowVerticalScroll;
 }
-constexpr void UnityEngine::GUIScrollGroup::__cordl_internal_set_allowVerticalScroll(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___allowVerticalScroll = value;
+constexpr void UnityEngine::GUIScrollGroup::__cordl_internal_set_allowVerticalScroll(bool  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___allowVerticalScroll = value;
 }
-constexpr bool& UnityEngine::GUIScrollGroup::__cordl_internal_get_needsHorizontalScrollbar() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___needsHorizontalScrollbar;
+constexpr bool& UnityEngine::GUIScrollGroup::__cordl_internal_get_needsHorizontalScrollbar()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___needsHorizontalScrollbar;
 }
 constexpr bool const& UnityEngine::GUIScrollGroup::__cordl_internal_get_needsHorizontalScrollbar() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___needsHorizontalScrollbar;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___needsHorizontalScrollbar;
 }
-constexpr void UnityEngine::GUIScrollGroup::__cordl_internal_set_needsHorizontalScrollbar(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___needsHorizontalScrollbar = value;
+constexpr void UnityEngine::GUIScrollGroup::__cordl_internal_set_needsHorizontalScrollbar(bool  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___needsHorizontalScrollbar = value;
 }
-constexpr bool& UnityEngine::GUIScrollGroup::__cordl_internal_get_needsVerticalScrollbar() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___needsVerticalScrollbar;
+constexpr bool& UnityEngine::GUIScrollGroup::__cordl_internal_get_needsVerticalScrollbar()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___needsVerticalScrollbar;
 }
 constexpr bool const& UnityEngine::GUIScrollGroup::__cordl_internal_get_needsVerticalScrollbar() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___needsVerticalScrollbar;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___needsVerticalScrollbar;
 }
-constexpr void UnityEngine::GUIScrollGroup::__cordl_internal_set_needsVerticalScrollbar(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___needsVerticalScrollbar = value;
+constexpr void UnityEngine::GUIScrollGroup::__cordl_internal_set_needsVerticalScrollbar(bool  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___needsVerticalScrollbar = value;
 }
-constexpr ::UnityEngine::GUIStyle*& UnityEngine::GUIScrollGroup::__cordl_internal_get_horizontalScrollbar() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___horizontalScrollbar;
+constexpr ::UnityEngine::GUIStyle*& UnityEngine::GUIScrollGroup::__cordl_internal_get_horizontalScrollbar()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___horizontalScrollbar;
 }
 constexpr ::UnityEngine::GUIStyle* const& UnityEngine::GUIScrollGroup::__cordl_internal_get_horizontalScrollbar() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___horizontalScrollbar;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___horizontalScrollbar;
 }
-constexpr void UnityEngine::GUIScrollGroup::__cordl_internal_set_horizontalScrollbar(::UnityEngine::GUIStyle* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___horizontalScrollbar)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void UnityEngine::GUIScrollGroup::__cordl_internal_set_horizontalScrollbar(::UnityEngine::GUIStyle*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___horizontalScrollbar)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::GUIStyle*& UnityEngine::GUIScrollGroup::__cordl_internal_get_verticalScrollbar() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___verticalScrollbar;
+constexpr ::UnityEngine::GUIStyle*& UnityEngine::GUIScrollGroup::__cordl_internal_get_verticalScrollbar()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___verticalScrollbar;
 }
 constexpr ::UnityEngine::GUIStyle* const& UnityEngine::GUIScrollGroup::__cordl_internal_get_verticalScrollbar() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___verticalScrollbar;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___verticalScrollbar;
 }
-constexpr void UnityEngine::GUIScrollGroup::__cordl_internal_set_verticalScrollbar(::UnityEngine::GUIStyle* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___verticalScrollbar)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void UnityEngine::GUIScrollGroup::__cordl_internal_set_verticalScrollbar(::UnityEngine::GUIStyle*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___verticalScrollbar)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void UnityEngine::GUIScrollGroup::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIScrollGroup*>::get(), ".ctor",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void UnityEngine::GUIScrollGroup::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIScrollGroup*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void UnityEngine::GUIScrollGroup::CalcWidth() {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIScrollGroup*>::get(), 8)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void UnityEngine::GUIScrollGroup::CalcWidth()  {
+auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIScrollGroup*>::get(),
+                            8
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void UnityEngine::GUIScrollGroup::SetHorizontal(float_t x, float_t width) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIScrollGroup*>::get(), 10)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, x, width);
+inline void UnityEngine::GUIScrollGroup::SetHorizontal(float_t  x, float_t  width)  {
+auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIScrollGroup*>::get(),
+                            10
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, x, width);
 }
-inline void UnityEngine::GUIScrollGroup::CalcHeight() {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIScrollGroup*>::get(), 9)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void UnityEngine::GUIScrollGroup::CalcHeight()  {
+auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIScrollGroup*>::get(),
+                            9
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void UnityEngine::GUIScrollGroup::SetVertical(float_t y, float_t height) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIScrollGroup*>::get(), 11)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, y, height);
+inline void UnityEngine::GUIScrollGroup::SetVertical(float_t  y, float_t  height)  {
+auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIScrollGroup*>::get(),
+                            11
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, y, height);
 }
-inline ::UnityEngine::GUIScrollGroup* UnityEngine::GUIScrollGroup::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::GUIScrollGroup*>());
+inline ::UnityEngine::GUIScrollGroup* UnityEngine::GUIScrollGroup::New_ctor()  {
+return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::GUIScrollGroup*>());
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::GUIScrollGroup::GUIScrollGroup() {}
+constexpr ::UnityEngine::GUIScrollGroup::GUIScrollGroup()   {
+}

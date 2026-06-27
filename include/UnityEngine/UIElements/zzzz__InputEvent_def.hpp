@@ -26,120 +26,120 @@ namespace UnityEngine::UIElements {
 // CS Name: UnityEngine.UIElements.InputEvent/<>c
 class CORDL_TYPE InputEvent___c : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field <>9, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::UIElements::InputEvent___c* __9;
+// Declarations
+/// @brief Field <>9, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF___9, put=setStaticF___9)) ::UnityEngine::UIElements::InputEvent___c*  __9;
 
-  static inline ::UnityEngine::UIElements::InputEvent___c* New_ctor();
+static inline ::UnityEngine::UIElements::InputEvent___c* New_ctor() ;
 
-  /// @brief Method <.cctor>b__0_0, addr 0x6c44720, size 0x54, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::InputEvent* __cctor_b__0_0();
+/// @brief Method <.cctor>b__0_0, addr 0x6c46298, size 0x54, virtual false, abstract: false, final false
+inline ::UnityEngine::UIElements::InputEvent* __cctor_b__0_0() ;
 
-  /// @brief Method .ctor, addr 0x6c4471c, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6c46294, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  static inline ::UnityEngine::UIElements::InputEvent___c* getStaticF___9();
+static inline ::UnityEngine::UIElements::InputEvent___c* getStaticF___9() ;
 
-  static inline void setStaticF___9(::UnityEngine::UIElements::InputEvent___c* value);
+static inline void setStaticF___9(::UnityEngine::UIElements::InputEvent___c*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr InputEvent___c();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr InputEvent___c() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InputEvent___c", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  InputEvent___c(InputEvent___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InputEvent___c", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  InputEvent___c(InputEvent___c const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "InputEvent___c", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+InputEvent___c(InputEvent___c && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4475 };
+// Ctor Parameters [CppParam { name: "", ty: "InputEvent___c", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+InputEvent___c(InputEvent___c const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4475};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InputEvent___c, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements
+} // namespace end def UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.EventBase`1<T>
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InputEvent
 class CORDL_TYPE InputEvent : public ::UnityEngine::UIElements::EventBase_1<::UnityEngine::UIElements::InputEvent*> {
 public:
-  // Declarations
-  using __c = ::UnityEngine::UIElements::InputEvent___c;
+// Declarations
+using __c = ::UnityEngine::UIElements::InputEvent___c;
 
-  /// @brief Field <newData>k__BackingField, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get__newData_k__BackingField, put = __cordl_internal_set__newData_k__BackingField)) ::StringW _newData_k__BackingField;
+/// @brief Field <newData>k__BackingField, offset 0x70, size 0x8 
+ __declspec(property(get=__cordl_internal_get__newData_k__BackingField, put=__cordl_internal_set__newData_k__BackingField)) ::StringW  _newData_k__BackingField;
 
-  /// @brief Field <previousData>k__BackingField, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get__previousData_k__BackingField, put = __cordl_internal_set__previousData_k__BackingField)) ::StringW _previousData_k__BackingField;
+/// @brief Field <previousData>k__BackingField, offset 0x68, size 0x8 
+ __declspec(property(get=__cordl_internal_get__previousData_k__BackingField, put=__cordl_internal_set__previousData_k__BackingField)) ::StringW  _previousData_k__BackingField;
 
-  __declspec(property(put = set_newData)) ::StringW newData;
+ __declspec(property(put=set_newData)) ::StringW  newData;
 
-  __declspec(property(put = set_previousData)) ::StringW previousData;
+ __declspec(property(put=set_previousData)) ::StringW  previousData;
 
-  /// @brief Method GetPooled, addr 0x6c445b8, size 0x8c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::UIElements::InputEvent* GetPooled(::StringW previousData, ::StringW newData);
+/// @brief Method GetPooled, addr 0x6c46130, size 0x8c, virtual false, abstract: false, final false
+static inline ::UnityEngine::UIElements::InputEvent* GetPooled(::StringW  previousData, ::StringW  newData) ;
 
-  /// @brief Method Init, addr 0x6c4454c, size 0x5c, virtual true, abstract: false, final false
-  inline void Init();
+/// @brief Method Init, addr 0x6c460c4, size 0x5c, virtual true, abstract: false, final false
+inline void Init() ;
 
-  /// @brief Method LocalInit, addr 0x6c445a8, size 0x10, virtual false, abstract: false, final false
-  inline void LocalInit();
+/// @brief Method LocalInit, addr 0x6c46120, size 0x10, virtual false, abstract: false, final false
+inline void LocalInit() ;
 
-  static inline ::UnityEngine::UIElements::InputEvent* New_ctor();
+static inline ::UnityEngine::UIElements::InputEvent* New_ctor() ;
 
-  constexpr ::StringW const& __cordl_internal_get__newData_k__BackingField() const;
+constexpr ::StringW const& __cordl_internal_get__newData_k__BackingField() const;
 
-  constexpr ::StringW& __cordl_internal_get__newData_k__BackingField();
+constexpr ::StringW& __cordl_internal_get__newData_k__BackingField() ;
 
-  constexpr ::StringW const& __cordl_internal_get__previousData_k__BackingField() const;
+constexpr ::StringW const& __cordl_internal_get__previousData_k__BackingField() const;
 
-  constexpr ::StringW& __cordl_internal_get__previousData_k__BackingField();
+constexpr ::StringW& __cordl_internal_get__previousData_k__BackingField() ;
 
-  constexpr void __cordl_internal_set__newData_k__BackingField(::StringW value);
+constexpr void __cordl_internal_set__newData_k__BackingField(::StringW  value) ;
 
-  constexpr void __cordl_internal_set__previousData_k__BackingField(::StringW value);
+constexpr void __cordl_internal_set__previousData_k__BackingField(::StringW  value) ;
 
-  /// @brief Method .ctor, addr 0x6c44644, size 0x84, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6c461bc, size 0x84, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method set_newData, addr 0x6c44544, size 0x8, virtual false, abstract: false, final false
-  inline void set_newData(::StringW value);
+/// @brief Method set_newData, addr 0x6c460bc, size 0x8, virtual false, abstract: false, final false
+inline void set_newData(::StringW  value) ;
 
-  /// @brief Method set_previousData, addr 0x6c4453c, size 0x8, virtual false, abstract: false, final false
-  inline void set_previousData(::StringW value);
+/// @brief Method set_previousData, addr 0x6c460b4, size 0x8, virtual false, abstract: false, final false
+inline void set_previousData(::StringW  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr InputEvent();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr InputEvent() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InputEvent", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  InputEvent(InputEvent&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InputEvent", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  InputEvent(InputEvent const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "InputEvent", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+InputEvent(InputEvent && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4476 };
+// Ctor Parameters [CppParam { name: "", ty: "InputEvent", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+InputEvent(InputEvent const& ) = delete;
 
-  /// @brief Field <previousData>k__BackingField, offset: 0x68, size: 0x8, def value: None
-  ::StringW ____previousData_k__BackingField;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4476};
 
-  /// @brief Field <newData>k__BackingField, offset: 0x70, size: 0x8, def value: None
-  ::StringW ____newData_k__BackingField;
+/// @brief Field <previousData>k__BackingField, offset: 0x68, size: 0x8, def value: None
+ ::StringW  ____previousData_k__BackingField;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field <newData>k__BackingField, offset: 0x70, size: 0x8, def value: None
+ ::StringW  ____newData_k__BackingField;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::UIElements::InputEvent, ____previousData_k__BackingField) == 0x68, "Offset mismatch!");
@@ -148,7 +148,7 @@ static_assert(offsetof(::UnityEngine::UIElements::InputEvent, ____newData_k__Bac
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InputEvent, 0x78>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements
+} // namespace end def UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::InputEvent);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::InputEvent*, "UnityEngine.UIElements", "InputEvent");
 NEED_NO_BOX(::UnityEngine::UIElements::InputEvent___c);

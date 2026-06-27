@@ -21,37 +21,37 @@ namespace GlobalNamespace {
 // CS Name: System.Linq.Expressions.Interpreter.ExclusiveOrInstruction/ExclusiveOrBoolean
 class CORDL_TYPE ExclusiveOrInstruction_ExclusiveOrBoolean : public ::System::Linq::Expressions::Interpreter::ExclusiveOrInstruction {
 public:
-  // Declarations
-  static inline ::GlobalNamespace::ExclusiveOrInstruction_ExclusiveOrBoolean* New_ctor();
+// Declarations
+static inline ::GlobalNamespace::ExclusiveOrInstruction_ExclusiveOrBoolean* New_ctor() ;
 
-  /// @brief Method Run, addr 0x5e529e4, size 0x9c, virtual true, abstract: false, final false
-  inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
+/// @brief Method Run, addr 0x5e5455c, size 0x9c, virtual true, abstract: false, final false
+inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame*  frame) ;
 
-  /// @brief Method .ctor, addr 0x5e52b5c, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5e546d4, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ExclusiveOrInstruction_ExclusiveOrBoolean();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ExclusiveOrInstruction_ExclusiveOrBoolean() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ExclusiveOrInstruction_ExclusiveOrBoolean", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ExclusiveOrInstruction_ExclusiveOrBoolean(ExclusiveOrInstruction_ExclusiveOrBoolean&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ExclusiveOrInstruction_ExclusiveOrBoolean", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ExclusiveOrInstruction_ExclusiveOrBoolean(ExclusiveOrInstruction_ExclusiveOrBoolean const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ExclusiveOrInstruction_ExclusiveOrBoolean", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ExclusiveOrInstruction_ExclusiveOrBoolean(ExclusiveOrInstruction_ExclusiveOrBoolean && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16327 };
+// Ctor Parameters [CppParam { name: "", ty: "ExclusiveOrInstruction_ExclusiveOrBoolean", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ExclusiveOrInstruction_ExclusiveOrBoolean(ExclusiveOrInstruction_ExclusiveOrBoolean const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{16329};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ExclusiveOrInstruction_ExclusiveOrBoolean, 0x10>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ExclusiveOrInstruction_ExclusiveOrBoolean);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ExclusiveOrInstruction_ExclusiveOrBoolean*, "System.Linq.Expressions.Interpreter", "ExclusiveOrInstruction/ExclusiveOrBoolean");

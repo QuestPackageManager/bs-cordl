@@ -10,7 +10,8 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(DebugFrameTiming)
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template<typename T>
+class List_1;
 }
 namespace System {
 class Object;
@@ -39,203 +40,202 @@ namespace UnityEngine::Rendering {
 // CS Name: UnityEngine.Rendering.DebugFrameTiming
 class CORDL_TYPE DebugFrameTiming : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field <bottleneckHistorySize>k__BackingField, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get__bottleneckHistorySize_k__BackingField,
-                      put = __cordl_internal_set__bottleneckHistorySize_k__BackingField)) int32_t _bottleneckHistorySize_k__BackingField;
+// Declarations
+/// @brief Field <bottleneckHistorySize>k__BackingField, offset 0x20, size 0x4 
+ __declspec(property(get=__cordl_internal_get__bottleneckHistorySize_k__BackingField, put=__cordl_internal_set__bottleneckHistorySize_k__BackingField)) int32_t  _bottleneckHistorySize_k__BackingField;
 
-  /// @brief Field <sampleHistorySize>k__BackingField, offset 0x24, size 0x4
-  __declspec(property(get = __cordl_internal_get__sampleHistorySize_k__BackingField, put = __cordl_internal_set__sampleHistorySize_k__BackingField)) int32_t _sampleHistorySize_k__BackingField;
+/// @brief Field <sampleHistorySize>k__BackingField, offset 0x24, size 0x4 
+ __declspec(property(get=__cordl_internal_get__sampleHistorySize_k__BackingField, put=__cordl_internal_set__sampleHistorySize_k__BackingField)) int32_t  _sampleHistorySize_k__BackingField;
 
-  __declspec(property(get = get_bottleneckHistorySize, put = set_bottleneckHistorySize)) int32_t bottleneckHistorySize;
+ __declspec(property(get=get_bottleneckHistorySize, put=set_bottleneckHistorySize)) int32_t  bottleneckHistorySize;
 
-  /// @brief Field m_BottleneckHistory, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_BottleneckHistory, put = __cordl_internal_set_m_BottleneckHistory)) ::UnityEngine::Rendering::BottleneckHistory* m_BottleneckHistory;
+/// @brief Field m_BottleneckHistory, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_BottleneckHistory, put=__cordl_internal_set_m_BottleneckHistory)) ::UnityEngine::Rendering::BottleneckHistory*  m_BottleneckHistory;
 
-  /// @brief Field m_FrameHistory, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_FrameHistory, put = __cordl_internal_set_m_FrameHistory)) ::UnityEngine::Rendering::FrameTimeSampleHistory* m_FrameHistory;
+/// @brief Field m_FrameHistory, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_FrameHistory, put=__cordl_internal_set_m_FrameHistory)) ::UnityEngine::Rendering::FrameTimeSampleHistory*  m_FrameHistory;
 
-  /// @brief Field m_Sample, offset 0x30, size 0x18
-  __declspec(property(get = __cordl_internal_get_m_Sample, put = __cordl_internal_set_m_Sample)) ::UnityEngine::Rendering::FrameTimeSample m_Sample;
+/// @brief Field m_Sample, offset 0x30, size 0x18 
+ __declspec(property(get=__cordl_internal_get_m_Sample, put=__cordl_internal_set_m_Sample)) ::UnityEngine::Rendering::FrameTimeSample  m_Sample;
 
-  /// @brief Field m_Timing, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Timing, put = __cordl_internal_set_m_Timing)) ::ArrayW<::UnityEngine::FrameTiming, ::Array<::UnityEngine::FrameTiming>*> m_Timing;
+/// @brief Field m_Timing, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_Timing, put=__cordl_internal_set_m_Timing)) ::ArrayW<::UnityEngine::FrameTiming,::Array<::UnityEngine::FrameTiming>*>  m_Timing;
 
-  __declspec(property(get = get_sampleHistorySize, put = set_sampleHistorySize)) int32_t sampleHistorySize;
+ __declspec(property(get=get_sampleHistorySize, put=set_sampleHistorySize)) int32_t  sampleHistorySize;
 
-  static inline ::UnityEngine::Rendering::DebugFrameTiming* New_ctor();
+static inline ::UnityEngine::Rendering::DebugFrameTiming* New_ctor() ;
 
-  /// @brief Method RegisterDebugUI, addr 0x661ca0c, size 0x14e8, virtual false, abstract: false, final false
-  inline void RegisterDebugUI(::System::Collections::Generic::List_1<::UnityEngine::Rendering::DebugUI_Widget*>* list);
+/// @brief Method RegisterDebugUI, addr 0x661e584, size 0x14e8, virtual false, abstract: false, final false
+inline void RegisterDebugUI(::System::Collections::Generic::List_1<::UnityEngine::Rendering::DebugUI_Widget*>*  list) ;
 
-  /// @brief Method Reset, addr 0x661dfe8, size 0x28, virtual false, abstract: false, final false
-  inline void Reset();
+/// @brief Method Reset, addr 0x661fb60, size 0x28, virtual false, abstract: false, final false
+inline void Reset() ;
 
-  /// @brief Method UpdateFrameTiming, addr 0x661c194, size 0x1e4, virtual false, abstract: false, final false
-  inline void UpdateFrameTiming();
+/// @brief Method UpdateFrameTiming, addr 0x661dd0c, size 0x1e4, virtual false, abstract: false, final false
+inline void UpdateFrameTiming() ;
 
-  /// @brief Method <RegisterDebugUI>b__17_0, addr 0x661e0c4, size 0x30, virtual false, abstract: false, final false
-  inline ::System::Object* _RegisterDebugUI_b__17_0();
+/// @brief Method <RegisterDebugUI>b__17_0, addr 0x661fc3c, size 0x30, virtual false, abstract: false, final false
+inline ::System::Object* _RegisterDebugUI_b__17_0() ;
 
-  /// @brief Method <RegisterDebugUI>b__17_1, addr 0x661e0f4, size 0x30, virtual false, abstract: false, final false
-  inline ::System::Object* _RegisterDebugUI_b__17_1();
+/// @brief Method <RegisterDebugUI>b__17_1, addr 0x661fc6c, size 0x30, virtual false, abstract: false, final false
+inline ::System::Object* _RegisterDebugUI_b__17_1() ;
 
-  /// @brief Method <RegisterDebugUI>b__17_10, addr 0x661e2a4, size 0x30, virtual false, abstract: false, final false
-  inline ::System::Object* _RegisterDebugUI_b__17_10();
+/// @brief Method <RegisterDebugUI>b__17_10, addr 0x661fe1c, size 0x30, virtual false, abstract: false, final false
+inline ::System::Object* _RegisterDebugUI_b__17_10() ;
 
-  /// @brief Method <RegisterDebugUI>b__17_11, addr 0x661e2d4, size 0x30, virtual false, abstract: false, final false
-  inline ::System::Object* _RegisterDebugUI_b__17_11();
+/// @brief Method <RegisterDebugUI>b__17_11, addr 0x661fe4c, size 0x30, virtual false, abstract: false, final false
+inline ::System::Object* _RegisterDebugUI_b__17_11() ;
 
-  /// @brief Method <RegisterDebugUI>b__17_12, addr 0x661e304, size 0x30, virtual false, abstract: false, final false
-  inline ::System::Object* _RegisterDebugUI_b__17_12();
+/// @brief Method <RegisterDebugUI>b__17_12, addr 0x661fe7c, size 0x30, virtual false, abstract: false, final false
+inline ::System::Object* _RegisterDebugUI_b__17_12() ;
 
-  /// @brief Method <RegisterDebugUI>b__17_13, addr 0x661e334, size 0x30, virtual false, abstract: false, final false
-  inline ::System::Object* _RegisterDebugUI_b__17_13();
+/// @brief Method <RegisterDebugUI>b__17_13, addr 0x661feac, size 0x30, virtual false, abstract: false, final false
+inline ::System::Object* _RegisterDebugUI_b__17_13() ;
 
-  /// @brief Method <RegisterDebugUI>b__17_14, addr 0x661e364, size 0x30, virtual false, abstract: false, final false
-  inline ::System::Object* _RegisterDebugUI_b__17_14();
+/// @brief Method <RegisterDebugUI>b__17_14, addr 0x661fedc, size 0x30, virtual false, abstract: false, final false
+inline ::System::Object* _RegisterDebugUI_b__17_14() ;
 
-  /// @brief Method <RegisterDebugUI>b__17_15, addr 0x661e394, size 0x30, virtual false, abstract: false, final false
-  inline ::System::Object* _RegisterDebugUI_b__17_15();
+/// @brief Method <RegisterDebugUI>b__17_15, addr 0x661ff0c, size 0x30, virtual false, abstract: false, final false
+inline ::System::Object* _RegisterDebugUI_b__17_15() ;
 
-  /// @brief Method <RegisterDebugUI>b__17_16, addr 0x661e3c4, size 0x30, virtual false, abstract: false, final false
-  inline ::System::Object* _RegisterDebugUI_b__17_16();
+/// @brief Method <RegisterDebugUI>b__17_16, addr 0x661ff3c, size 0x30, virtual false, abstract: false, final false
+inline ::System::Object* _RegisterDebugUI_b__17_16() ;
 
-  /// @brief Method <RegisterDebugUI>b__17_17, addr 0x661e3f4, size 0x30, virtual false, abstract: false, final false
-  inline ::System::Object* _RegisterDebugUI_b__17_17();
+/// @brief Method <RegisterDebugUI>b__17_17, addr 0x661ff6c, size 0x30, virtual false, abstract: false, final false
+inline ::System::Object* _RegisterDebugUI_b__17_17() ;
 
-  /// @brief Method <RegisterDebugUI>b__17_18, addr 0x661e424, size 0x30, virtual false, abstract: false, final false
-  inline ::System::Object* _RegisterDebugUI_b__17_18();
+/// @brief Method <RegisterDebugUI>b__17_18, addr 0x661ff9c, size 0x30, virtual false, abstract: false, final false
+inline ::System::Object* _RegisterDebugUI_b__17_18() ;
 
-  /// @brief Method <RegisterDebugUI>b__17_19, addr 0x661e454, size 0x30, virtual false, abstract: false, final false
-  inline ::System::Object* _RegisterDebugUI_b__17_19();
+/// @brief Method <RegisterDebugUI>b__17_19, addr 0x661ffcc, size 0x30, virtual false, abstract: false, final false
+inline ::System::Object* _RegisterDebugUI_b__17_19() ;
 
-  /// @brief Method <RegisterDebugUI>b__17_2, addr 0x661e124, size 0x30, virtual false, abstract: false, final false
-  inline ::System::Object* _RegisterDebugUI_b__17_2();
+/// @brief Method <RegisterDebugUI>b__17_2, addr 0x661fc9c, size 0x30, virtual false, abstract: false, final false
+inline ::System::Object* _RegisterDebugUI_b__17_2() ;
 
-  /// @brief Method <RegisterDebugUI>b__17_20, addr 0x661e484, size 0x30, virtual false, abstract: false, final false
-  inline ::System::Object* _RegisterDebugUI_b__17_20();
+/// @brief Method <RegisterDebugUI>b__17_20, addr 0x661fffc, size 0x30, virtual false, abstract: false, final false
+inline ::System::Object* _RegisterDebugUI_b__17_20() ;
 
-  /// @brief Method <RegisterDebugUI>b__17_21, addr 0x661e4b4, size 0x30, virtual false, abstract: false, final false
-  inline ::System::Object* _RegisterDebugUI_b__17_21();
+/// @brief Method <RegisterDebugUI>b__17_21, addr 0x662002c, size 0x30, virtual false, abstract: false, final false
+inline ::System::Object* _RegisterDebugUI_b__17_21() ;
 
-  /// @brief Method <RegisterDebugUI>b__17_3, addr 0x661e154, size 0x30, virtual false, abstract: false, final false
-  inline ::System::Object* _RegisterDebugUI_b__17_3();
+/// @brief Method <RegisterDebugUI>b__17_3, addr 0x661fccc, size 0x30, virtual false, abstract: false, final false
+inline ::System::Object* _RegisterDebugUI_b__17_3() ;
 
-  /// @brief Method <RegisterDebugUI>b__17_4, addr 0x661e184, size 0x30, virtual false, abstract: false, final false
-  inline ::System::Object* _RegisterDebugUI_b__17_4();
+/// @brief Method <RegisterDebugUI>b__17_4, addr 0x661fcfc, size 0x30, virtual false, abstract: false, final false
+inline ::System::Object* _RegisterDebugUI_b__17_4() ;
 
-  /// @brief Method <RegisterDebugUI>b__17_5, addr 0x661e1b4, size 0x30, virtual false, abstract: false, final false
-  inline ::System::Object* _RegisterDebugUI_b__17_5();
+/// @brief Method <RegisterDebugUI>b__17_5, addr 0x661fd2c, size 0x30, virtual false, abstract: false, final false
+inline ::System::Object* _RegisterDebugUI_b__17_5() ;
 
-  /// @brief Method <RegisterDebugUI>b__17_6, addr 0x661e1e4, size 0x30, virtual false, abstract: false, final false
-  inline ::System::Object* _RegisterDebugUI_b__17_6();
+/// @brief Method <RegisterDebugUI>b__17_6, addr 0x661fd5c, size 0x30, virtual false, abstract: false, final false
+inline ::System::Object* _RegisterDebugUI_b__17_6() ;
 
-  /// @brief Method <RegisterDebugUI>b__17_7, addr 0x661e214, size 0x30, virtual false, abstract: false, final false
-  inline ::System::Object* _RegisterDebugUI_b__17_7();
+/// @brief Method <RegisterDebugUI>b__17_7, addr 0x661fd8c, size 0x30, virtual false, abstract: false, final false
+inline ::System::Object* _RegisterDebugUI_b__17_7() ;
 
-  /// @brief Method <RegisterDebugUI>b__17_8, addr 0x661e244, size 0x30, virtual false, abstract: false, final false
-  inline ::System::Object* _RegisterDebugUI_b__17_8();
+/// @brief Method <RegisterDebugUI>b__17_8, addr 0x661fdbc, size 0x30, virtual false, abstract: false, final false
+inline ::System::Object* _RegisterDebugUI_b__17_8() ;
 
-  /// @brief Method <RegisterDebugUI>b__17_9, addr 0x661e274, size 0x30, virtual false, abstract: false, final false
-  inline ::System::Object* _RegisterDebugUI_b__17_9();
+/// @brief Method <RegisterDebugUI>b__17_9, addr 0x661fdec, size 0x30, virtual false, abstract: false, final false
+inline ::System::Object* _RegisterDebugUI_b__17_9() ;
 
-  constexpr int32_t const& __cordl_internal_get__bottleneckHistorySize_k__BackingField() const;
+constexpr int32_t const& __cordl_internal_get__bottleneckHistorySize_k__BackingField() const;
 
-  constexpr int32_t& __cordl_internal_get__bottleneckHistorySize_k__BackingField();
+constexpr int32_t& __cordl_internal_get__bottleneckHistorySize_k__BackingField() ;
 
-  constexpr int32_t const& __cordl_internal_get__sampleHistorySize_k__BackingField() const;
+constexpr int32_t const& __cordl_internal_get__sampleHistorySize_k__BackingField() const;
 
-  constexpr int32_t& __cordl_internal_get__sampleHistorySize_k__BackingField();
+constexpr int32_t& __cordl_internal_get__sampleHistorySize_k__BackingField() ;
 
-  constexpr ::UnityEngine::Rendering::BottleneckHistory* const& __cordl_internal_get_m_BottleneckHistory() const;
+constexpr ::UnityEngine::Rendering::BottleneckHistory* const& __cordl_internal_get_m_BottleneckHistory() const;
 
-  constexpr ::UnityEngine::Rendering::BottleneckHistory*& __cordl_internal_get_m_BottleneckHistory();
+constexpr ::UnityEngine::Rendering::BottleneckHistory*& __cordl_internal_get_m_BottleneckHistory() ;
 
-  constexpr ::UnityEngine::Rendering::FrameTimeSampleHistory* const& __cordl_internal_get_m_FrameHistory() const;
+constexpr ::UnityEngine::Rendering::FrameTimeSampleHistory* const& __cordl_internal_get_m_FrameHistory() const;
 
-  constexpr ::UnityEngine::Rendering::FrameTimeSampleHistory*& __cordl_internal_get_m_FrameHistory();
+constexpr ::UnityEngine::Rendering::FrameTimeSampleHistory*& __cordl_internal_get_m_FrameHistory() ;
 
-  constexpr ::UnityEngine::Rendering::FrameTimeSample const& __cordl_internal_get_m_Sample() const;
+constexpr ::UnityEngine::Rendering::FrameTimeSample const& __cordl_internal_get_m_Sample() const;
 
-  constexpr ::UnityEngine::Rendering::FrameTimeSample& __cordl_internal_get_m_Sample();
+constexpr ::UnityEngine::Rendering::FrameTimeSample& __cordl_internal_get_m_Sample() ;
 
-  constexpr ::ArrayW<::UnityEngine::FrameTiming, ::Array<::UnityEngine::FrameTiming>*> const& __cordl_internal_get_m_Timing() const;
+constexpr ::ArrayW<::UnityEngine::FrameTiming,::Array<::UnityEngine::FrameTiming>*> const& __cordl_internal_get_m_Timing() const;
 
-  constexpr ::ArrayW<::UnityEngine::FrameTiming, ::Array<::UnityEngine::FrameTiming>*>& __cordl_internal_get_m_Timing();
+constexpr ::ArrayW<::UnityEngine::FrameTiming,::Array<::UnityEngine::FrameTiming>*>& __cordl_internal_get_m_Timing() ;
 
-  constexpr void __cordl_internal_set__bottleneckHistorySize_k__BackingField(int32_t value);
+constexpr void __cordl_internal_set__bottleneckHistorySize_k__BackingField(int32_t  value) ;
 
-  constexpr void __cordl_internal_set__sampleHistorySize_k__BackingField(int32_t value);
+constexpr void __cordl_internal_set__sampleHistorySize_k__BackingField(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_m_BottleneckHistory(::UnityEngine::Rendering::BottleneckHistory* value);
+constexpr void __cordl_internal_set_m_BottleneckHistory(::UnityEngine::Rendering::BottleneckHistory*  value) ;
 
-  constexpr void __cordl_internal_set_m_FrameHistory(::UnityEngine::Rendering::FrameTimeSampleHistory* value);
+constexpr void __cordl_internal_set_m_FrameHistory(::UnityEngine::Rendering::FrameTimeSampleHistory*  value) ;
 
-  constexpr void __cordl_internal_set_m_Sample(::UnityEngine::Rendering::FrameTimeSample value);
+constexpr void __cordl_internal_set_m_Sample(::UnityEngine::Rendering::FrameTimeSample  value) ;
 
-  constexpr void __cordl_internal_set_m_Timing(::ArrayW<::UnityEngine::FrameTiming, ::Array<::UnityEngine::FrameTiming>*> value);
+constexpr void __cordl_internal_set_m_Timing(::ArrayW<::UnityEngine::FrameTiming,::Array<::UnityEngine::FrameTiming>*>  value) ;
 
-  /// @brief Method .ctor, addr 0x661bf70, size 0xcc, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x661dae8, size 0xcc, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_bottleneckHistorySize, addr 0x661bf50, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_bottleneckHistorySize();
+/// @brief Method get_bottleneckHistorySize, addr 0x661dac8, size 0x8, virtual false, abstract: false, final false
+inline int32_t get_bottleneckHistorySize() ;
 
-  /// @brief Method get_sampleHistorySize, addr 0x661bf60, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_sampleHistorySize();
+/// @brief Method get_sampleHistorySize, addr 0x661dad8, size 0x8, virtual false, abstract: false, final false
+inline int32_t get_sampleHistorySize() ;
 
-  /// @brief Method set_bottleneckHistorySize, addr 0x661bf58, size 0x8, virtual false, abstract: false, final false
-  inline void set_bottleneckHistorySize(int32_t value);
+/// @brief Method set_bottleneckHistorySize, addr 0x661dad0, size 0x8, virtual false, abstract: false, final false
+inline void set_bottleneckHistorySize(int32_t  value) ;
 
-  /// @brief Method set_sampleHistorySize, addr 0x661bf68, size 0x8, virtual false, abstract: false, final false
-  inline void set_sampleHistorySize(int32_t value);
+/// @brief Method set_sampleHistorySize, addr 0x661dae0, size 0x8, virtual false, abstract: false, final false
+inline void set_sampleHistorySize(int32_t  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DebugFrameTiming();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr DebugFrameTiming() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugFrameTiming", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  DebugFrameTiming(DebugFrameTiming&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugFrameTiming", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  DebugFrameTiming(DebugFrameTiming const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "DebugFrameTiming", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+DebugFrameTiming(DebugFrameTiming && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11962 };
+// Ctor Parameters [CppParam { name: "", ty: "DebugFrameTiming", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+DebugFrameTiming(DebugFrameTiming const& ) = delete;
 
-  /// @brief Field k_FpsFormatString offset 0xffffffff size 0x8
-  static constexpr ::ConstString k_FpsFormatString{ u"{0:F1}" };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11963};
 
-  /// @brief Field k_MsFormatString offset 0xffffffff size 0x8
-  static constexpr ::ConstString k_MsFormatString{ u"{0:F2}ms" };
+/// @brief Field k_FpsFormatString offset 0xffffffff size 0x8
+static constexpr ::ConstString  k_FpsFormatString{u"{0:F1}"};
 
-  /// @brief Field k_RefreshRate offset 0xffffffff size 0x4
-  static constexpr float_t k_RefreshRate{ static_cast<float_t>(0.2f) };
+/// @brief Field k_MsFormatString offset 0xffffffff size 0x8
+static constexpr ::ConstString  k_MsFormatString{u"{0:F2}ms"};
 
-  /// @brief Field m_FrameHistory, offset: 0x10, size: 0x8, def value: None
-  ::UnityEngine::Rendering::FrameTimeSampleHistory* ___m_FrameHistory;
+/// @brief Field k_RefreshRate offset 0xffffffff size 0x4
+static constexpr float_t  k_RefreshRate{static_cast<float_t>(0.2f)};
 
-  /// @brief Field m_BottleneckHistory, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::Rendering::BottleneckHistory* ___m_BottleneckHistory;
+/// @brief Field m_FrameHistory, offset: 0x10, size: 0x8, def value: None
+ ::UnityEngine::Rendering::FrameTimeSampleHistory*  ___m_FrameHistory;
 
-  /// @brief Field <bottleneckHistorySize>k__BackingField, offset: 0x20, size: 0x4, def value: None
-  int32_t ____bottleneckHistorySize_k__BackingField;
+/// @brief Field m_BottleneckHistory, offset: 0x18, size: 0x8, def value: None
+ ::UnityEngine::Rendering::BottleneckHistory*  ___m_BottleneckHistory;
 
-  /// @brief Field <sampleHistorySize>k__BackingField, offset: 0x24, size: 0x4, def value: None
-  int32_t ____sampleHistorySize_k__BackingField;
+/// @brief Field <bottleneckHistorySize>k__BackingField, offset: 0x20, size: 0x4, def value: None
+ int32_t  ____bottleneckHistorySize_k__BackingField;
 
-  /// @brief Field m_Timing, offset: 0x28, size: 0x8, def value: None
-  ::ArrayW<::UnityEngine::FrameTiming, ::Array<::UnityEngine::FrameTiming>*> ___m_Timing;
+/// @brief Field <sampleHistorySize>k__BackingField, offset: 0x24, size: 0x4, def value: None
+ int32_t  ____sampleHistorySize_k__BackingField;
 
-  /// @brief Field m_Sample, offset: 0x30, size: 0x18, def value: None
-  ::UnityEngine::Rendering::FrameTimeSample ___m_Sample;
+/// @brief Field m_Timing, offset: 0x28, size: 0x8, def value: None
+ ::ArrayW<::UnityEngine::FrameTiming,::Array<::UnityEngine::FrameTiming>*>  ___m_Timing;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field m_Sample, offset: 0x30, size: 0x18, def value: None
+ ::UnityEngine::Rendering::FrameTimeSample  ___m_Sample;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Rendering::DebugFrameTiming, ___m_FrameHistory) == 0x10, "Offset mismatch!");
@@ -252,6 +252,6 @@ static_assert(offsetof(::UnityEngine::Rendering::DebugFrameTiming, ___m_Sample) 
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::DebugFrameTiming, 0x48>, "Size mismatch!");
 
-} // namespace UnityEngine::Rendering
+} // namespace end def UnityEngine::Rendering
 NEED_NO_BOX(::UnityEngine::Rendering::DebugFrameTiming);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::DebugFrameTiming*, "UnityEngine.Rendering", "DebugFrameTiming");

@@ -21,48 +21,48 @@ namespace Unity::Burst::Intrinsics {
 // CS Name: Unity.Burst.Intrinsics.BurstTargetCpuAttribute
 class CORDL_TYPE BurstTargetCpuAttribute : public ::System::Attribute {
 public:
-  // Declarations
-  /// @brief Field TargetCpu, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_TargetCpu, put = __cordl_internal_set_TargetCpu)) ::Unity::Burst::BurstTargetCpu TargetCpu;
+// Declarations
+/// @brief Field TargetCpu, offset 0x10, size 0x4 
+ __declspec(property(get=__cordl_internal_get_TargetCpu, put=__cordl_internal_set_TargetCpu)) ::Unity::Burst::BurstTargetCpu  TargetCpu;
 
-  static inline ::Unity::Burst::Intrinsics::BurstTargetCpuAttribute* New_ctor(::Unity::Burst::BurstTargetCpu TargetCpu);
+static inline ::Unity::Burst::Intrinsics::BurstTargetCpuAttribute* New_ctor(::Unity::Burst::BurstTargetCpu  TargetCpu) ;
 
-  constexpr ::Unity::Burst::BurstTargetCpu const& __cordl_internal_get_TargetCpu() const;
+constexpr ::Unity::Burst::BurstTargetCpu const& __cordl_internal_get_TargetCpu() const;
 
-  constexpr ::Unity::Burst::BurstTargetCpu& __cordl_internal_get_TargetCpu();
+constexpr ::Unity::Burst::BurstTargetCpu& __cordl_internal_get_TargetCpu() ;
 
-  constexpr void __cordl_internal_set_TargetCpu(::Unity::Burst::BurstTargetCpu value);
+constexpr void __cordl_internal_set_TargetCpu(::Unity::Burst::BurstTargetCpu  value) ;
 
-  /// @brief Method .ctor, addr 0x634f8e0, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::Unity::Burst::BurstTargetCpu TargetCpu);
+/// @brief Method .ctor, addr 0x6351458, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(::Unity::Burst::BurstTargetCpu  TargetCpu) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BurstTargetCpuAttribute();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr BurstTargetCpuAttribute() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BurstTargetCpuAttribute", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  BurstTargetCpuAttribute(BurstTargetCpuAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BurstTargetCpuAttribute", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  BurstTargetCpuAttribute(BurstTargetCpuAttribute const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "BurstTargetCpuAttribute", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+BurstTargetCpuAttribute(BurstTargetCpuAttribute && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17319 };
+// Ctor Parameters [CppParam { name: "", ty: "BurstTargetCpuAttribute", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+BurstTargetCpuAttribute(BurstTargetCpuAttribute const& ) = delete;
 
-  /// @brief Field TargetCpu, offset: 0x10, size: 0x4, def value: None
-  ::Unity::Burst::BurstTargetCpu ___TargetCpu;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{17321};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field TargetCpu, offset: 0x10, size: 0x4, def value: None
+ ::Unity::Burst::BurstTargetCpu  ___TargetCpu;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Unity::Burst::Intrinsics::BurstTargetCpuAttribute, ___TargetCpu) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::Unity::Burst::Intrinsics::BurstTargetCpuAttribute, 0x18>, "Size mismatch!");
 
-} // namespace Unity::Burst::Intrinsics
+} // namespace end def Unity::Burst::Intrinsics
 NEED_NO_BOX(::Unity::Burst::Intrinsics::BurstTargetCpuAttribute);
 DEFINE_IL2CPP_ARG_TYPE(::Unity::Burst::Intrinsics::BurstTargetCpuAttribute*, "Unity.Burst.Intrinsics", "BurstTargetCpuAttribute");

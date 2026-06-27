@@ -38,48 +38,47 @@ namespace Mono::Unity {
 // CS Name: Mono.Unity.UnityTlsConversions
 class CORDL_TYPE UnityTlsConversions : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method ConvertProtocolVersion, addr 0x5e91afc, size 0x20, virtual false, abstract: false, final false
-  static inline ::Mono::Security::Interface::TlsProtocols ConvertProtocolVersion(::Mono::Unity::UnityTls_unitytls_protocol protocol);
+// Declarations
+/// @brief Method ConvertProtocolVersion, addr 0x5e93674, size 0x20, virtual false, abstract: false, final false
+static inline ::Mono::Security::Interface::TlsProtocols ConvertProtocolVersion(::Mono::Unity::UnityTls_unitytls_protocol  protocol) ;
 
-  /// @brief Method GetMaxProtocol, addr 0x5e90ec8, size 0x38, virtual false, abstract: false, final false
-  static inline ::Mono::Unity::UnityTls_unitytls_protocol GetMaxProtocol(::System::Security::Authentication::SslProtocols protocols);
+/// @brief Method GetMaxProtocol, addr 0x5e92a40, size 0x38, virtual false, abstract: false, final false
+static inline ::Mono::Unity::UnityTls_unitytls_protocol GetMaxProtocol(::System::Security::Authentication::SslProtocols  protocols) ;
 
-  /// @brief Method GetMinProtocol, addr 0x5e90e98, size 0x30, virtual false, abstract: false, final false
-  static inline ::Mono::Unity::UnityTls_unitytls_protocol GetMinProtocol(::System::Security::Authentication::SslProtocols protocols);
+/// @brief Method GetMinProtocol, addr 0x5e92a10, size 0x30, virtual false, abstract: false, final false
+static inline ::Mono::Unity::UnityTls_unitytls_protocol GetMinProtocol(::System::Security::Authentication::SslProtocols  protocols) ;
 
-  /// @brief Method VerifyResultToAlertDescription, addr 0x5e8ec94, size 0x54, virtual false, abstract: false, final false
-  static inline ::Mono::Security::Interface::AlertDescription VerifyResultToAlertDescription(::Mono::Unity::UnityTls_unitytls_x509verify_result verifyResult,
-                                                                                             ::Mono::Security::Interface::AlertDescription defaultAlert);
+/// @brief Method VerifyResultToAlertDescription, addr 0x5e9080c, size 0x54, virtual false, abstract: false, final false
+static inline ::Mono::Security::Interface::AlertDescription VerifyResultToAlertDescription(::Mono::Unity::UnityTls_unitytls_x509verify_result  verifyResult, ::Mono::Security::Interface::AlertDescription  defaultAlert) ;
 
-  /// @brief Method VerifyResultToChainStatus, addr 0x5e92f34, size 0x3c, virtual false, abstract: false, final false
-  static inline ::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags VerifyResultToChainStatus(::Mono::Unity::UnityTls_unitytls_x509verify_result verifyResult);
+/// @brief Method VerifyResultToChainStatus, addr 0x5e94aac, size 0x3c, virtual false, abstract: false, final false
+static inline ::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags VerifyResultToChainStatus(::Mono::Unity::UnityTls_unitytls_x509verify_result  verifyResult) ;
 
-  /// @brief Method VerifyResultToPolicyErrror, addr 0x5e92f04, size 0x30, virtual false, abstract: false, final false
-  static inline ::System::Net::Security::SslPolicyErrors VerifyResultToPolicyErrror(::Mono::Unity::UnityTls_unitytls_x509verify_result verifyResult);
+/// @brief Method VerifyResultToPolicyErrror, addr 0x5e94a7c, size 0x30, virtual false, abstract: false, final false
+static inline ::System::Net::Security::SslPolicyErrors VerifyResultToPolicyErrror(::Mono::Unity::UnityTls_unitytls_x509verify_result  verifyResult) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr UnityTlsConversions();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr UnityTlsConversions() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UnityTlsConversions", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  UnityTlsConversions(UnityTlsConversions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UnityTlsConversions", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  UnityTlsConversions(UnityTlsConversions const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "UnityTlsConversions", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+UnityTlsConversions(UnityTlsConversions && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10990 };
+// Ctor Parameters [CppParam { name: "", ty: "UnityTlsConversions", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+UnityTlsConversions(UnityTlsConversions const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10991};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Mono::Unity::UnityTlsConversions, 0x10>, "Size mismatch!");
 
-} // namespace Mono::Unity
+} // namespace end def Mono::Unity
 NEED_NO_BOX(::Mono::Unity::UnityTlsConversions);
 DEFINE_IL2CPP_ARG_TYPE(::Mono::Unity::UnityTlsConversions*, "Mono.Unity", "UnityTlsConversions");

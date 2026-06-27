@@ -21,34 +21,34 @@ namespace UnityEngine::AddressableAssets {
 // CS Name: UnityEngine.AddressableAssets.AssetReferenceTexture2D
 class CORDL_TYPE AssetReferenceTexture2D : public ::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityW<::UnityEngine::Texture2D>> {
 public:
-  // Declarations
-  static inline ::UnityEngine::AddressableAssets::AssetReferenceTexture2D* New_ctor(::StringW guid);
+// Declarations
+static inline ::UnityEngine::AddressableAssets::AssetReferenceTexture2D* New_ctor(::StringW  guid) ;
 
-  /// @brief Method .ctor, addr 0x631c290, size 0x78, virtual false, abstract: false, final false
-  inline void _ctor(::StringW guid);
+/// @brief Method .ctor, addr 0x631de08, size 0x78, virtual false, abstract: false, final false
+inline void _ctor(::StringW  guid) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AssetReferenceTexture2D();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr AssetReferenceTexture2D() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AssetReferenceTexture2D", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  AssetReferenceTexture2D(AssetReferenceTexture2D&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AssetReferenceTexture2D", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  AssetReferenceTexture2D(AssetReferenceTexture2D const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "AssetReferenceTexture2D", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+AssetReferenceTexture2D(AssetReferenceTexture2D && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19552 };
+// Ctor Parameters [CppParam { name: "", ty: "AssetReferenceTexture2D", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+AssetReferenceTexture2D(AssetReferenceTexture2D const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19555};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::AddressableAssets::AssetReferenceTexture2D, 0x40>, "Size mismatch!");
 
-} // namespace UnityEngine::AddressableAssets
+} // namespace end def UnityEngine::AddressableAssets
 NEED_NO_BOX(::UnityEngine::AddressableAssets::AssetReferenceTexture2D);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AddressableAssets::AssetReferenceTexture2D*, "UnityEngine.AddressableAssets", "AssetReferenceTexture2D");

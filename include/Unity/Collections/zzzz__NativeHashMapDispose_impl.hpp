@@ -4,29 +4,36 @@
 #include "Unity/Collections/zzzz__NativeHashMapDispose_def.hpp"
 #include "Unity/Collections/LowLevel/Unsafe/zzzz__UnsafeHashMap_2_def.hpp"
 //  Writing Method size for method: ::Unity::Collections::NativeHashMapDispose.Dispose
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Collections::NativeHashMapDispose::*)()>(&::Unity::Collections::NativeHashMapDispose::Dispose)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x637f19c;
+  constexpr static std::size_t addrs = 0x6380d14;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::NativeHashMapDispose>::get(), "Dispose",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::NativeHashMapDispose>::get(),
+                        "Dispose",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
-inline void Unity::Collections::NativeHashMapDispose::Dispose() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::NativeHashMapDispose>::get(), "Dispose",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void Unity::Collections::NativeHashMapDispose::Dispose()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::NativeHashMapDispose>::get(),
+                        "Dispose",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "m_HashMapData", ty: "::Unity::Collections::LowLevel::Unsafe::UnsafeHashMap_2<int32_t,int32_t>*", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "m_Allocator", ty: "::Unity::Collections::AllocatorManager_AllocatorHandle", modifiers: "", def_value: Some("{}") }]
-constexpr ::Unity::Collections::NativeHashMapDispose::NativeHashMapDispose(::Unity::Collections::LowLevel::Unsafe::UnsafeHashMap_2<int32_t, int32_t>* m_HashMapData,
-                                                                           ::Unity::Collections::AllocatorManager_AllocatorHandle m_Allocator) noexcept {
-  this->m_HashMapData = m_HashMapData;
-  this->m_Allocator = m_Allocator;
+// Ctor Parameters [CppParam { name: "m_HashMapData", ty: "::Unity::Collections::LowLevel::Unsafe::UnsafeHashMap_2<int32_t,int32_t>*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Allocator", ty: "::Unity::Collections::AllocatorManager_AllocatorHandle", modifiers: "", def_value: Some("{}") }]
+constexpr ::Unity::Collections::NativeHashMapDispose::NativeHashMapDispose(::Unity::Collections::LowLevel::Unsafe::UnsafeHashMap_2<int32_t,int32_t>*  m_HashMapData, ::Unity::Collections::AllocatorManager_AllocatorHandle  m_Allocator) noexcept  {
+this->m_HashMapData = m_HashMapData;
+this->m_Allocator = m_Allocator;
 }
 // Ctor Parameters []
-constexpr ::Unity::Collections::NativeHashMapDispose::NativeHashMapDispose() {}
+constexpr ::Unity::Collections::NativeHashMapDispose::NativeHashMapDispose()   {
+}

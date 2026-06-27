@@ -29,43 +29,43 @@ namespace ENet {
 // CS Name: ENet.AllocCallback
 class CORDL_TYPE AllocCallback : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x574a5ac, size 0x54, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::System::IntPtr size, ::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x574be14, size 0x54, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(::System::IntPtr  size, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x574a600, size 0x24, virtual true, abstract: false, final false
-  inline ::System::IntPtr EndInvoke(::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x574be68, size 0x24, virtual true, abstract: false, final false
+inline ::System::IntPtr EndInvoke(::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x574a598, size 0x14, virtual true, abstract: false, final false
-  inline ::System::IntPtr Invoke(::System::IntPtr size);
+/// @brief Method Invoke, addr 0x574be00, size 0x14, virtual true, abstract: false, final false
+inline ::System::IntPtr Invoke(::System::IntPtr  size) ;
 
-  static inline ::ENet::AllocCallback* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::ENet::AllocCallback* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x574a52c, size 0x6c, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x574bd94, size 0x6c, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AllocCallback();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr AllocCallback() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AllocCallback", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  AllocCallback(AllocCallback&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AllocCallback", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  AllocCallback(AllocCallback const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "AllocCallback", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+AllocCallback(AllocCallback && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21543 };
+// Ctor Parameters [CppParam { name: "", ty: "AllocCallback", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+AllocCallback(AllocCallback const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{21546};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::ENet::AllocCallback, 0x80>, "Size mismatch!");
 
-} // namespace ENet
+} // namespace end def ENet
 NEED_NO_BOX(::ENet::AllocCallback);
 DEFINE_IL2CPP_ARG_TYPE(::ENet::AllocCallback*, "ENet", "AllocCallback");

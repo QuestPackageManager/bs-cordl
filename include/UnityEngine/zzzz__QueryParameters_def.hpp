@@ -22,40 +22,39 @@ namespace UnityEngine {
 // CS Name: UnityEngine.QueryParameters
 struct CORDL_TYPE QueryParameters {
 public:
-  // Declarations
-  /// @brief Method .ctor, addr 0x6a3d2ac, size 0x14, virtual false, abstract: false, final false
-  inline void _ctor(int32_t layerMask, bool hitMultipleFaces, ::UnityEngine::QueryTriggerInteraction hitTriggers, bool hitBackfaces);
+// Declarations
+/// @brief Method .ctor, addr 0x6a3ee24, size 0x14, virtual false, abstract: false, final false
+inline void _ctor(int32_t  layerMask, bool  hitMultipleFaces, ::UnityEngine::QueryTriggerInteraction  hitTriggers, bool  hitBackfaces) ;
 
-  /// @brief Method get_Default, addr 0x6a3d2c0, size 0xc, virtual false, abstract: false, final false
-  static inline ::UnityEngine::QueryParameters get_Default();
+/// @brief Method get_Default, addr 0x6a3ee38, size 0xc, virtual false, abstract: false, final false
+static inline ::UnityEngine::QueryParameters get_Default() ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr QueryParameters();
+// Ctor Parameters []
+// @brief default ctor
+constexpr QueryParameters() ;
 
-  // Ctor Parameters [CppParam { name: "layerMask", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "hitMultipleFaces", ty: "bool", modifiers: "", def_value: None }, CppParam { name:
-  // "hitTriggers", ty: "::UnityEngine::QueryTriggerInteraction", modifiers: "", def_value: None }, CppParam { name: "hitBackfaces", ty: "bool", modifiers: "", def_value: None }]
-  constexpr QueryParameters(int32_t layerMask, bool hitMultipleFaces, ::UnityEngine::QueryTriggerInteraction hitTriggers, bool hitBackfaces) noexcept;
+// Ctor Parameters [CppParam { name: "layerMask", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "hitMultipleFaces", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "hitTriggers", ty: "::UnityEngine::QueryTriggerInteraction", modifiers: "", def_value: None }, CppParam { name: "hitBackfaces", ty: "bool", modifiers: "", def_value: None }]
+constexpr QueryParameters(int32_t  layerMask, bool  hitMultipleFaces, ::UnityEngine::QueryTriggerInteraction  hitTriggers, bool  hitBackfaces) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18657 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{18659};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x10};
 
-  /// @brief Field layerMask, offset: 0x0, size: 0x4, def value: None
-  int32_t layerMask;
+/// @brief Field layerMask, offset: 0x0, size: 0x4, def value: None
+ int32_t  layerMask;
 
-  /// @brief Field hitMultipleFaces, offset: 0x4, size: 0x1, def value: None
-  bool hitMultipleFaces;
+/// @brief Field hitMultipleFaces, offset: 0x4, size: 0x1, def value: None
+ bool  hitMultipleFaces;
 
-  /// @brief Field hitTriggers, offset: 0x8, size: 0x4, def value: None
-  ::UnityEngine::QueryTriggerInteraction hitTriggers;
+/// @brief Field hitTriggers, offset: 0x8, size: 0x4, def value: None
+ ::UnityEngine::QueryTriggerInteraction  hitTriggers;
 
-  /// @brief Field hitBackfaces, offset: 0xc, size: 0x1, def value: None
-  bool hitBackfaces;
+/// @brief Field hitBackfaces, offset: 0xc, size: 0x1, def value: None
+ bool  hitBackfaces;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::QueryParameters, layerMask) == 0x0, "Offset mismatch!");
@@ -68,5 +67,5 @@ static_assert(offsetof(::UnityEngine::QueryParameters, hitBackfaces) == 0xc, "Of
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::QueryParameters, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine
+} // namespace end def UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::QueryParameters, "UnityEngine", "QueryParameters");

@@ -39,73 +39,71 @@ namespace BeatSaber::BeatAvatarAdapter {
 // CS Name: BeatSaber.BeatAvatarAdapter.BeatAvatar
 class CORDL_TYPE BeatAvatar : public ::BeatSaber::AvatarCore::Avatar {
 public:
-  // Declarations
-  /// @brief Field _avatarPoseController, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__avatarPoseController, put = __cordl_internal_set__avatarPoseController)) ::UnityW<::BeatSaber::BeatAvatarSDK::BeatAvatarPoseController>
-      _avatarPoseController;
+// Declarations
+/// @brief Field _avatarPoseController, offset 0x40, size 0x8 
+ __declspec(property(get=__cordl_internal_get__avatarPoseController, put=__cordl_internal_set__avatarPoseController)) ::UnityW<::BeatSaber::BeatAvatarSDK::BeatAvatarPoseController>  _avatarPoseController;
 
-  /// @brief Field _avatarVisualController, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__avatarVisualController, put = __cordl_internal_set__avatarVisualController)) ::UnityW<::BeatSaber::BeatAvatarSDK::BeatAvatarVisualController>
-      _avatarVisualController;
+/// @brief Field _avatarVisualController, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get__avatarVisualController, put=__cordl_internal_set__avatarVisualController)) ::UnityW<::BeatSaber::BeatAvatarSDK::BeatAvatarVisualController>  _avatarVisualController;
 
-  __declspec(property(get = get_bodyCenterWorldPosition)) ::UnityEngine::Vector3 bodyCenterWorldPosition;
+ __declspec(property(get=get_bodyCenterWorldPosition)) ::UnityEngine::Vector3  bodyCenterWorldPosition;
 
-  static inline ::BeatSaber::BeatAvatarAdapter::BeatAvatar* New_ctor();
+static inline ::BeatSaber::BeatAvatarAdapter::BeatAvatar* New_ctor() ;
 
-  /// @brief Method SetLightColor, addr 0x31db980, size 0x1c, virtual true, abstract: false, final false
-  inline void SetLightColor(::UnityEngine::Color lightColor);
+/// @brief Method SetLightColor, addr 0x31dc6a0, size 0x1c, virtual true, abstract: false, final false
+inline void SetLightColor(::UnityEngine::Color  lightColor) ;
 
-  /// @brief Method UpdateAvatarFromOptionalData, addr 0x31dbb88, size 0x4, virtual true, abstract: false, final false
-  inline void UpdateAvatarFromOptionalData(::BeatSaber::AvatarCore::OptionalAvatarData data, int64_t playbackDelayMs);
+/// @brief Method UpdateAvatarFromOptionalData, addr 0x31dc8a8, size 0x4, virtual true, abstract: false, final false
+inline void UpdateAvatarFromOptionalData(::BeatSaber::AvatarCore::OptionalAvatarData  data, int64_t  playbackDelayMs) ;
 
-  /// @brief Method UpdateAvatarFromPose, addr 0x31db99c, size 0x78, virtual true, abstract: false, final false
-  inline void UpdateAvatarFromPose(::BeatSaber::AvatarCore::AvatarPoseData currentPose);
+/// @brief Method UpdateAvatarFromPose, addr 0x31dc6bc, size 0x78, virtual true, abstract: false, final false
+inline void UpdateAvatarFromPose(::BeatSaber::AvatarCore::AvatarPoseData  currentPose) ;
 
-  /// @brief Method UpdateAvatarFromVisualData, addr 0x31dba14, size 0x174, virtual true, abstract: false, final false
-  inline void UpdateAvatarFromVisualData(::GlobalNamespace::MultiplayerAvatarsData visualData);
+/// @brief Method UpdateAvatarFromVisualData, addr 0x31dc734, size 0x174, virtual true, abstract: false, final false
+inline void UpdateAvatarFromVisualData(::GlobalNamespace::MultiplayerAvatarsData  visualData) ;
 
-  constexpr ::UnityW<::BeatSaber::BeatAvatarSDK::BeatAvatarPoseController> const& __cordl_internal_get__avatarPoseController() const;
+constexpr ::UnityW<::BeatSaber::BeatAvatarSDK::BeatAvatarPoseController> const& __cordl_internal_get__avatarPoseController() const;
 
-  constexpr ::UnityW<::BeatSaber::BeatAvatarSDK::BeatAvatarPoseController>& __cordl_internal_get__avatarPoseController();
+constexpr ::UnityW<::BeatSaber::BeatAvatarSDK::BeatAvatarPoseController>& __cordl_internal_get__avatarPoseController() ;
 
-  constexpr ::UnityW<::BeatSaber::BeatAvatarSDK::BeatAvatarVisualController> const& __cordl_internal_get__avatarVisualController() const;
+constexpr ::UnityW<::BeatSaber::BeatAvatarSDK::BeatAvatarVisualController> const& __cordl_internal_get__avatarVisualController() const;
 
-  constexpr ::UnityW<::BeatSaber::BeatAvatarSDK::BeatAvatarVisualController>& __cordl_internal_get__avatarVisualController();
+constexpr ::UnityW<::BeatSaber::BeatAvatarSDK::BeatAvatarVisualController>& __cordl_internal_get__avatarVisualController() ;
 
-  constexpr void __cordl_internal_set__avatarPoseController(::UnityW<::BeatSaber::BeatAvatarSDK::BeatAvatarPoseController> value);
+constexpr void __cordl_internal_set__avatarPoseController(::UnityW<::BeatSaber::BeatAvatarSDK::BeatAvatarPoseController>  value) ;
 
-  constexpr void __cordl_internal_set__avatarVisualController(::UnityW<::BeatSaber::BeatAvatarSDK::BeatAvatarVisualController> value);
+constexpr void __cordl_internal_set__avatarVisualController(::UnityW<::BeatSaber::BeatAvatarSDK::BeatAvatarVisualController>  value) ;
 
-  /// @brief Method .ctor, addr 0x31dbb8c, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x31dc8ac, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_bodyCenterWorldPosition, addr 0x31db95c, size 0x24, virtual true, abstract: false, final false
-  inline ::UnityEngine::Vector3 get_bodyCenterWorldPosition();
+/// @brief Method get_bodyCenterWorldPosition, addr 0x31dc67c, size 0x24, virtual true, abstract: false, final false
+inline ::UnityEngine::Vector3 get_bodyCenterWorldPosition() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BeatAvatar();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr BeatAvatar() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatAvatar", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  BeatAvatar(BeatAvatar&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatAvatar", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  BeatAvatar(BeatAvatar const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "BeatAvatar", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+BeatAvatar(BeatAvatar && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21509 };
+// Ctor Parameters [CppParam { name: "", ty: "BeatAvatar", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+BeatAvatar(BeatAvatar const& ) = delete;
 
-  /// @brief Field _avatarVisualController, offset: 0x38, size: 0x8, def value: None
-  ::UnityW<::BeatSaber::BeatAvatarSDK::BeatAvatarVisualController> ____avatarVisualController;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{21512};
 
-  /// @brief Field _avatarPoseController, offset: 0x40, size: 0x8, def value: None
-  ::UnityW<::BeatSaber::BeatAvatarSDK::BeatAvatarPoseController> ____avatarPoseController;
+/// @brief Field _avatarVisualController, offset: 0x38, size: 0x8, def value: None
+ ::UnityW<::BeatSaber::BeatAvatarSDK::BeatAvatarVisualController>  ____avatarVisualController;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _avatarPoseController, offset: 0x40, size: 0x8, def value: None
+ ::UnityW<::BeatSaber::BeatAvatarSDK::BeatAvatarPoseController>  ____avatarPoseController;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::BeatSaber::BeatAvatarAdapter::BeatAvatar, ____avatarVisualController) == 0x38, "Offset mismatch!");
@@ -114,6 +112,6 @@ static_assert(offsetof(::BeatSaber::BeatAvatarAdapter::BeatAvatar, ____avatarPos
 
 static_assert(::cordl_internals::size_check_v<::BeatSaber::BeatAvatarAdapter::BeatAvatar, 0x48>, "Size mismatch!");
 
-} // namespace BeatSaber::BeatAvatarAdapter
+} // namespace end def BeatSaber::BeatAvatarAdapter
 NEED_NO_BOX(::BeatSaber::BeatAvatarAdapter::BeatAvatar);
 DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::BeatAvatarAdapter::BeatAvatar*, "BeatSaber.BeatAvatarAdapter", "BeatAvatar");

@@ -19,7 +19,8 @@ namespace System {
 class ICloneable;
 }
 namespace System {
-template <typename T> struct Nullable_1;
+template<typename T>
+struct Nullable_1;
 }
 namespace System {
 class Object;
@@ -36,97 +37,96 @@ namespace System::Net::Http::Headers {
 // CS Name: System.Net.Http.Headers.RangeConditionHeaderValue
 class CORDL_TYPE RangeConditionHeaderValue : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = get_Date, put = set_Date)) ::System::Nullable_1<::System::DateTimeOffset> Date;
+// Declarations
+ __declspec(property(get=get_Date, put=set_Date)) ::System::Nullable_1<::System::DateTimeOffset>  Date;
 
-  __declspec(property(get = get_EntityTag, put = set_EntityTag)) ::System::Net::Http::Headers::EntityTagHeaderValue* EntityTag;
+ __declspec(property(get=get_EntityTag, put=set_EntityTag)) ::System::Net::Http::Headers::EntityTagHeaderValue*  EntityTag;
 
-  /// @brief Field <Date>k__BackingField, offset 0x10, size 0x18
-  __declspec(property(get = __cordl_internal_get__Date_k__BackingField, put = __cordl_internal_set__Date_k__BackingField)) ::System::Nullable_1<::System::DateTimeOffset> _Date_k__BackingField;
+/// @brief Field <Date>k__BackingField, offset 0x10, size 0x18 
+ __declspec(property(get=__cordl_internal_get__Date_k__BackingField, put=__cordl_internal_set__Date_k__BackingField)) ::System::Nullable_1<::System::DateTimeOffset>  _Date_k__BackingField;
 
-  /// @brief Field <EntityTag>k__BackingField, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__EntityTag_k__BackingField,
-                      put = __cordl_internal_set__EntityTag_k__BackingField)) ::System::Net::Http::Headers::EntityTagHeaderValue* _EntityTag_k__BackingField;
+/// @brief Field <EntityTag>k__BackingField, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get__EntityTag_k__BackingField, put=__cordl_internal_set__EntityTag_k__BackingField)) ::System::Net::Http::Headers::EntityTagHeaderValue*  _EntityTag_k__BackingField;
 
-  /// @brief Convert operator to "::System::ICloneable"
-  constexpr operator ::System::ICloneable*() noexcept;
+/// @brief Convert operator to "::System::ICloneable"
+constexpr operator  ::System::ICloneable*() noexcept;
 
-  /// @brief Method Equals, addr 0x5faba20, size 0x14c, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* obj);
+/// @brief Method Equals, addr 0x5fad598, size 0x14c, virtual true, abstract: false, final false
+inline bool Equals(::System::Object*  obj) ;
 
-  /// @brief Method GetHashCode, addr 0x5fabb6c, size 0x88, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
+/// @brief Method GetHashCode, addr 0x5fad6e4, size 0x88, virtual true, abstract: false, final false
+inline int32_t GetHashCode() ;
 
-  static inline ::System::Net::Http::Headers::RangeConditionHeaderValue* New_ctor(::System::DateTimeOffset date);
+static inline ::System::Net::Http::Headers::RangeConditionHeaderValue* New_ctor(::System::DateTimeOffset  date) ;
 
-  static inline ::System::Net::Http::Headers::RangeConditionHeaderValue* New_ctor(::System::Net::Http::Headers::EntityTagHeaderValue* entityTag);
+static inline ::System::Net::Http::Headers::RangeConditionHeaderValue* New_ctor(::System::Net::Http::Headers::EntityTagHeaderValue*  entityTag) ;
 
-  /// @brief Method System.ICloneable.Clone, addr 0x5faba1c, size 0x4, virtual true, abstract: false, final true
-  inline ::System::Object* System_ICloneable_Clone();
+/// @brief Method System.ICloneable.Clone, addr 0x5fad594, size 0x4, virtual true, abstract: false, final true
+inline ::System::Object* System_ICloneable_Clone() ;
 
-  /// @brief Method ToString, addr 0x5fabe58, size 0x10c, virtual true, abstract: false, final false
-  inline ::StringW ToString();
+/// @brief Method ToString, addr 0x5fad9d0, size 0x10c, virtual true, abstract: false, final false
+inline ::StringW ToString() ;
 
-  /// @brief Method TryParse, addr 0x5fabbf4, size 0x264, virtual false, abstract: false, final false
-  static inline bool TryParse(::StringW input, ::ByRef<::System::Net::Http::Headers::RangeConditionHeaderValue*> parsedValue);
+/// @brief Method TryParse, addr 0x5fad76c, size 0x264, virtual false, abstract: false, final false
+static inline bool TryParse(::StringW  input, ::ByRef<::System::Net::Http::Headers::RangeConditionHeaderValue*>  parsedValue) ;
 
-  constexpr ::System::Nullable_1<::System::DateTimeOffset> const& __cordl_internal_get__Date_k__BackingField() const;
+constexpr ::System::Nullable_1<::System::DateTimeOffset> const& __cordl_internal_get__Date_k__BackingField() const;
 
-  constexpr ::System::Nullable_1<::System::DateTimeOffset>& __cordl_internal_get__Date_k__BackingField();
+constexpr ::System::Nullable_1<::System::DateTimeOffset>& __cordl_internal_get__Date_k__BackingField() ;
 
-  constexpr ::System::Net::Http::Headers::EntityTagHeaderValue* const& __cordl_internal_get__EntityTag_k__BackingField() const;
+constexpr ::System::Net::Http::Headers::EntityTagHeaderValue* const& __cordl_internal_get__EntityTag_k__BackingField() const;
 
-  constexpr ::System::Net::Http::Headers::EntityTagHeaderValue*& __cordl_internal_get__EntityTag_k__BackingField();
+constexpr ::System::Net::Http::Headers::EntityTagHeaderValue*& __cordl_internal_get__EntityTag_k__BackingField() ;
 
-  constexpr void __cordl_internal_set__Date_k__BackingField(::System::Nullable_1<::System::DateTimeOffset> value);
+constexpr void __cordl_internal_set__Date_k__BackingField(::System::Nullable_1<::System::DateTimeOffset>  value) ;
 
-  constexpr void __cordl_internal_set__EntityTag_k__BackingField(::System::Net::Http::Headers::EntityTagHeaderValue* value);
+constexpr void __cordl_internal_set__EntityTag_k__BackingField(::System::Net::Http::Headers::EntityTagHeaderValue*  value) ;
 
-  /// @brief Method .ctor, addr 0x5fab928, size 0x64, virtual false, abstract: false, final false
-  inline void _ctor(::System::DateTimeOffset date);
+/// @brief Method .ctor, addr 0x5fad4a0, size 0x64, virtual false, abstract: false, final false
+inline void _ctor(::System::DateTimeOffset  date) ;
 
-  /// @brief Method .ctor, addr 0x5fab98c, size 0x58, virtual false, abstract: false, final false
-  inline void _ctor(::System::Net::Http::Headers::EntityTagHeaderValue* entityTag);
+/// @brief Method .ctor, addr 0x5fad504, size 0x58, virtual false, abstract: false, final false
+inline void _ctor(::System::Net::Http::Headers::EntityTagHeaderValue*  entityTag) ;
 
-  /// @brief Method get_Date, addr 0x5fab9e4, size 0x14, virtual false, abstract: false, final false
-  inline ::System::Nullable_1<::System::DateTimeOffset> get_Date();
+/// @brief Method get_Date, addr 0x5fad55c, size 0x14, virtual false, abstract: false, final false
+inline ::System::Nullable_1<::System::DateTimeOffset> get_Date() ;
 
-  /// @brief Method get_EntityTag, addr 0x5faba0c, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Net::Http::Headers::EntityTagHeaderValue* get_EntityTag();
+/// @brief Method get_EntityTag, addr 0x5fad584, size 0x8, virtual false, abstract: false, final false
+inline ::System::Net::Http::Headers::EntityTagHeaderValue* get_EntityTag() ;
 
-  /// @brief Convert to "::System::ICloneable"
-  constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
+/// @brief Convert to "::System::ICloneable"
+constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
-  /// @brief Method set_Date, addr 0x5fab9f8, size 0x14, virtual false, abstract: false, final false
-  inline void set_Date(::System::Nullable_1<::System::DateTimeOffset> value);
+/// @brief Method set_Date, addr 0x5fad570, size 0x14, virtual false, abstract: false, final false
+inline void set_Date(::System::Nullable_1<::System::DateTimeOffset>  value) ;
 
-  /// @brief Method set_EntityTag, addr 0x5faba14, size 0x8, virtual false, abstract: false, final false
-  inline void set_EntityTag(::System::Net::Http::Headers::EntityTagHeaderValue* value);
+/// @brief Method set_EntityTag, addr 0x5fad58c, size 0x8, virtual false, abstract: false, final false
+inline void set_EntityTag(::System::Net::Http::Headers::EntityTagHeaderValue*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RangeConditionHeaderValue();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr RangeConditionHeaderValue() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RangeConditionHeaderValue", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  RangeConditionHeaderValue(RangeConditionHeaderValue&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RangeConditionHeaderValue", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  RangeConditionHeaderValue(RangeConditionHeaderValue const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "RangeConditionHeaderValue", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+RangeConditionHeaderValue(RangeConditionHeaderValue && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20122 };
+// Ctor Parameters [CppParam { name: "", ty: "RangeConditionHeaderValue", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+RangeConditionHeaderValue(RangeConditionHeaderValue const& ) = delete;
 
-  /// @brief Field <Date>k__BackingField, offset: 0x10, size: 0x18, def value: None
-  ::System::Nullable_1<::System::DateTimeOffset> ____Date_k__BackingField;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20125};
 
-  /// @brief Field <EntityTag>k__BackingField, offset: 0x28, size: 0x8, def value: None
-  ::System::Net::Http::Headers::EntityTagHeaderValue* ____EntityTag_k__BackingField;
+/// @brief Field <Date>k__BackingField, offset: 0x10, size: 0x18, def value: None
+ ::System::Nullable_1<::System::DateTimeOffset>  ____Date_k__BackingField;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field <EntityTag>k__BackingField, offset: 0x28, size: 0x8, def value: None
+ ::System::Net::Http::Headers::EntityTagHeaderValue*  ____EntityTag_k__BackingField;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Net::Http::Headers::RangeConditionHeaderValue, ____Date_k__BackingField) == 0x10, "Offset mismatch!");
@@ -135,6 +135,6 @@ static_assert(offsetof(::System::Net::Http::Headers::RangeConditionHeaderValue, 
 
 static_assert(::cordl_internals::size_check_v<::System::Net::Http::Headers::RangeConditionHeaderValue, 0x30>, "Size mismatch!");
 
-} // namespace System::Net::Http::Headers
+} // namespace end def System::Net::Http::Headers
 NEED_NO_BOX(::System::Net::Http::Headers::RangeConditionHeaderValue);
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::Http::Headers::RangeConditionHeaderValue*, "System.Net.Http.Headers", "RangeConditionHeaderValue");

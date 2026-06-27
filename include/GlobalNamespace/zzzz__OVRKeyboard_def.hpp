@@ -41,46 +41,42 @@ namespace GlobalNamespace {
 // CS Name: OVRKeyboard/TrackedKeyboardState
 struct CORDL_TYPE OVRKeyboard_TrackedKeyboardState {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OVRKeyboard_TrackedKeyboardState();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr OVRKeyboard_TrackedKeyboardState() ;
 
-  // Ctor Parameters [CppParam { name: "isPositionValid", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "isPositionTracked", ty: "bool", modifiers: "", def_value: None }, CppParam {
-  // name: "isOrientationValid", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "isOrientationTracked", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "position", ty:
-  // "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "rotation", ty: "::UnityEngine::Quaternion", modifiers: "", def_value: None }, CppParam { name: "timeInSeconds", ty:
-  // "double_t", modifiers: "", def_value: None }]
-  constexpr OVRKeyboard_TrackedKeyboardState(bool isPositionValid, bool isPositionTracked, bool isOrientationValid, bool isOrientationTracked, ::UnityEngine::Vector3 position,
-                                             ::UnityEngine::Quaternion rotation, double_t timeInSeconds) noexcept;
+// Ctor Parameters [CppParam { name: "isPositionValid", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "isPositionTracked", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "isOrientationValid", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "isOrientationTracked", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "rotation", ty: "::UnityEngine::Quaternion", modifiers: "", def_value: None }, CppParam { name: "timeInSeconds", ty: "double_t", modifiers: "", def_value: None }]
+constexpr OVRKeyboard_TrackedKeyboardState(bool  isPositionValid, bool  isPositionTracked, bool  isOrientationValid, bool  isOrientationTracked, ::UnityEngine::Vector3  position, ::UnityEngine::Quaternion  rotation, double_t  timeInSeconds) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7765 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{7766};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x28};
 
-  /// @brief Field isPositionValid, offset: 0x0, size: 0x1, def value: None
-  bool isPositionValid;
+/// @brief Field isPositionValid, offset: 0x0, size: 0x1, def value: None
+ bool  isPositionValid;
 
-  /// @brief Field isPositionTracked, offset: 0x1, size: 0x1, def value: None
-  bool isPositionTracked;
+/// @brief Field isPositionTracked, offset: 0x1, size: 0x1, def value: None
+ bool  isPositionTracked;
 
-  /// @brief Field isOrientationValid, offset: 0x2, size: 0x1, def value: None
-  bool isOrientationValid;
+/// @brief Field isOrientationValid, offset: 0x2, size: 0x1, def value: None
+ bool  isOrientationValid;
 
-  /// @brief Field isOrientationTracked, offset: 0x3, size: 0x1, def value: None
-  bool isOrientationTracked;
+/// @brief Field isOrientationTracked, offset: 0x3, size: 0x1, def value: None
+ bool  isOrientationTracked;
 
-  /// @brief Field position, offset: 0x4, size: 0xc, def value: None
-  ::UnityEngine::Vector3 position;
+/// @brief Field position, offset: 0x4, size: 0xc, def value: None
+ ::UnityEngine::Vector3  position;
 
-  /// @brief Field rotation, offset: 0x10, size: 0x10, def value: None
-  ::UnityEngine::Quaternion rotation;
+/// @brief Field rotation, offset: 0x10, size: 0x10, def value: None
+ ::UnityEngine::Quaternion  rotation;
 
-  /// @brief Field timeInSeconds, offset: 0x20, size: 0x8, def value: None
-  double_t timeInSeconds;
+/// @brief Field timeInSeconds, offset: 0x20, size: 0x8, def value: None
+ double_t  timeInSeconds;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::OVRKeyboard_TrackedKeyboardState, isPositionValid) == 0x0, "Offset mismatch!");
@@ -99,46 +95,43 @@ static_assert(offsetof(::GlobalNamespace::OVRKeyboard_TrackedKeyboardState, time
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRKeyboard_TrackedKeyboardState, 0x28>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 // Dependencies OVRPlugin::TrackedKeyboardFlags, OVRPlugin::TrackedKeyboardPresentationStyles, UnityEngine.Vector3
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: OVRKeyboard/TrackedKeyboardInfo
 struct CORDL_TYPE OVRKeyboard_TrackedKeyboardInfo {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OVRKeyboard_TrackedKeyboardInfo();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr OVRKeyboard_TrackedKeyboardInfo() ;
 
-  // Ctor Parameters [CppParam { name: "Name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "Identifier", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name:
-  // "Dimensions", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "KeyboardFlags", ty: "::GlobalNamespace::OVRPlugin_TrackedKeyboardFlags", modifiers: "", def_value:
-  // None }, CppParam { name: "SupportedPresentationStyles", ty: "::GlobalNamespace::OVRPlugin_TrackedKeyboardPresentationStyles", modifiers: "", def_value: None }]
-  constexpr OVRKeyboard_TrackedKeyboardInfo(::StringW Name, uint64_t Identifier, ::UnityEngine::Vector3 Dimensions, ::GlobalNamespace::OVRPlugin_TrackedKeyboardFlags KeyboardFlags,
-                                            ::GlobalNamespace::OVRPlugin_TrackedKeyboardPresentationStyles SupportedPresentationStyles) noexcept;
+// Ctor Parameters [CppParam { name: "Name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "Identifier", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "Dimensions", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "KeyboardFlags", ty: "::GlobalNamespace::OVRPlugin_TrackedKeyboardFlags", modifiers: "", def_value: None }, CppParam { name: "SupportedPresentationStyles", ty: "::GlobalNamespace::OVRPlugin_TrackedKeyboardPresentationStyles", modifiers: "", def_value: None }]
+constexpr OVRKeyboard_TrackedKeyboardInfo(::StringW  Name, uint64_t  Identifier, ::UnityEngine::Vector3  Dimensions, ::GlobalNamespace::OVRPlugin_TrackedKeyboardFlags  KeyboardFlags, ::GlobalNamespace::OVRPlugin_TrackedKeyboardPresentationStyles  SupportedPresentationStyles) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7766 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{7767};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x28};
 
-  /// @brief Field Name, offset: 0x0, size: 0x8, def value: None
-  ::StringW Name;
+/// @brief Field Name, offset: 0x0, size: 0x8, def value: None
+ ::StringW  Name;
 
-  /// @brief Field Identifier, offset: 0x8, size: 0x8, def value: None
-  uint64_t Identifier;
+/// @brief Field Identifier, offset: 0x8, size: 0x8, def value: None
+ uint64_t  Identifier;
 
-  /// @brief Field Dimensions, offset: 0x10, size: 0xc, def value: None
-  ::UnityEngine::Vector3 Dimensions;
+/// @brief Field Dimensions, offset: 0x10, size: 0xc, def value: None
+ ::UnityEngine::Vector3  Dimensions;
 
-  /// @brief Field KeyboardFlags, offset: 0x1c, size: 0x4, def value: None
-  ::GlobalNamespace::OVRPlugin_TrackedKeyboardFlags KeyboardFlags;
+/// @brief Field KeyboardFlags, offset: 0x1c, size: 0x4, def value: None
+ ::GlobalNamespace::OVRPlugin_TrackedKeyboardFlags  KeyboardFlags;
 
-  /// @brief Field SupportedPresentationStyles, offset: 0x20, size: 0x4, def value: None
-  ::GlobalNamespace::OVRPlugin_TrackedKeyboardPresentationStyles SupportedPresentationStyles;
+/// @brief Field SupportedPresentationStyles, offset: 0x20, size: 0x4, def value: None
+ ::GlobalNamespace::OVRPlugin_TrackedKeyboardPresentationStyles  SupportedPresentationStyles;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::OVRKeyboard_TrackedKeyboardInfo, Name) == 0x0, "Offset mismatch!");
@@ -153,50 +146,50 @@ static_assert(offsetof(::GlobalNamespace::OVRKeyboard_TrackedKeyboardInfo, Suppo
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRKeyboard_TrackedKeyboardInfo, 0x28>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: OVRKeyboard
 class CORDL_TYPE OVRKeyboard : public ::System::Object {
 public:
-  // Declarations
-  using TrackedKeyboardInfo = ::GlobalNamespace::OVRKeyboard_TrackedKeyboardInfo;
+// Declarations
+using TrackedKeyboardInfo = ::GlobalNamespace::OVRKeyboard_TrackedKeyboardInfo;
 
-  using TrackedKeyboardState = ::GlobalNamespace::OVRKeyboard_TrackedKeyboardState;
+using TrackedKeyboardState = ::GlobalNamespace::OVRKeyboard_TrackedKeyboardState;
 
-  /// @brief Method GetKeyboardState, addr 0x5da3980, size 0xd0, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::OVRKeyboard_TrackedKeyboardState GetKeyboardState();
+/// @brief Method GetKeyboardState, addr 0x5da54f8, size 0xd0, virtual false, abstract: false, final false
+static inline ::GlobalNamespace::OVRKeyboard_TrackedKeyboardState GetKeyboardState() ;
 
-  /// @brief Method GetSystemKeyboardInfo, addr 0x5da3a50, size 0xf4, virtual false, abstract: false, final false
-  static inline bool GetSystemKeyboardInfo(::GlobalNamespace::OVRPlugin_TrackedKeyboardQueryFlags keyboardQueryFlags, ::ByRef<::GlobalNamespace::OVRKeyboard_TrackedKeyboardInfo> keyboardInfo);
+/// @brief Method GetSystemKeyboardInfo, addr 0x5da55c8, size 0xf4, virtual false, abstract: false, final false
+static inline bool GetSystemKeyboardInfo(::GlobalNamespace::OVRPlugin_TrackedKeyboardQueryFlags  keyboardQueryFlags, ::ByRef<::GlobalNamespace::OVRKeyboard_TrackedKeyboardInfo>  keyboardInfo) ;
 
-  /// @brief Method StopKeyboardTracking, addr 0x5da3b44, size 0x54, virtual false, abstract: false, final false
-  static inline bool StopKeyboardTracking(::GlobalNamespace::OVRKeyboard_TrackedKeyboardInfo keyboardInfo);
+/// @brief Method StopKeyboardTracking, addr 0x5da56bc, size 0x54, virtual false, abstract: false, final false
+static inline bool StopKeyboardTracking(::GlobalNamespace::OVRKeyboard_TrackedKeyboardInfo  keyboardInfo) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OVRKeyboard();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr OVRKeyboard() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRKeyboard", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  OVRKeyboard(OVRKeyboard&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRKeyboard", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  OVRKeyboard(OVRKeyboard const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "OVRKeyboard", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+OVRKeyboard(OVRKeyboard && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7767 };
+// Ctor Parameters [CppParam { name: "", ty: "OVRKeyboard", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+OVRKeyboard(OVRKeyboard const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{7768};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRKeyboard, 0x10>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::OVRKeyboard);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRKeyboard*, "", "OVRKeyboard");
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRKeyboard_TrackedKeyboardInfo, "", "OVRKeyboard/TrackedKeyboardInfo");

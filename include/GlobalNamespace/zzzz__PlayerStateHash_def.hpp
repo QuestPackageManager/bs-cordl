@@ -12,7 +12,8 @@ namespace GlobalNamespace {
 struct BitMask128;
 }
 namespace LiteNetLib::Utils {
-template <typename T> class INetImmutableSerializable_1;
+template<typename T>
+class INetImmutableSerializable_1;
 }
 namespace LiteNetLib::Utils {
 class INetImmutableSerializable;
@@ -24,10 +25,12 @@ namespace LiteNetLib::Utils {
 class NetDataWriter;
 }
 namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
+template<typename T>
+class HashSet_1;
 }
 namespace System {
-template <typename T> class IEquatable_1;
+template<typename T>
+class IEquatable_1;
 }
 namespace System {
 class Object;
@@ -44,104 +47,104 @@ namespace GlobalNamespace {
 // CS Name: PlayerStateHash
 struct CORDL_TYPE PlayerStateHash {
 public:
-  // Declarations
-  /// @brief Convert operator to "::LiteNetLib::Utils::INetImmutableSerializable"
-  constexpr operator ::LiteNetLib::Utils::INetImmutableSerializable*();
+// Declarations
+/// @brief Convert operator to "::LiteNetLib::Utils::INetImmutableSerializable"
+constexpr operator  ::LiteNetLib::Utils::INetImmutableSerializable*() ;
 
-  /// @brief Convert operator to "::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::PlayerStateHash>"
-  constexpr operator ::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::PlayerStateHash>*();
+/// @brief Convert operator to "::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::PlayerStateHash>"
+constexpr operator  ::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::PlayerStateHash>*() ;
 
-  /// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::PlayerStateHash>"
-  constexpr operator ::System::IEquatable_1<::GlobalNamespace::PlayerStateHash>*();
+/// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::PlayerStateHash>"
+constexpr operator  ::System::IEquatable_1<::GlobalNamespace::PlayerStateHash>*() ;
 
-  /// @brief Method AddState, addr 0x32800b4, size 0x64, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::PlayerStateHash AddState(::StringW state);
+/// @brief Method AddState, addr 0x3280e50, size 0x64, virtual false, abstract: false, final false
+inline ::GlobalNamespace::PlayerStateHash AddState(::StringW  state) ;
 
-  /// @brief Method Contains, addr 0x3280050, size 0x64, virtual false, abstract: false, final false
-  inline bool Contains(::StringW state);
+/// @brief Method Contains, addr 0x3280dec, size 0x64, virtual false, abstract: false, final false
+inline bool Contains(::StringW  state) ;
 
-  /// @brief Method CreateFromSerializedData, addr 0x3280118, size 0xc, virtual true, abstract: false, final true
-  inline ::GlobalNamespace::PlayerStateHash CreateFromSerializedData(::LiteNetLib::Utils::NetDataReader* reader);
+/// @brief Method CreateFromSerializedData, addr 0x3280eb4, size 0xc, virtual true, abstract: false, final true
+inline ::GlobalNamespace::PlayerStateHash CreateFromSerializedData(::LiteNetLib::Utils::NetDataReader*  reader) ;
 
-  /// @brief Method Deserialize, addr 0x326e598, size 0x8, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::PlayerStateHash Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
+/// @brief Method Deserialize, addr 0x326f334, size 0x8, virtual false, abstract: false, final false
+static inline ::GlobalNamespace::PlayerStateHash Deserialize(::LiteNetLib::Utils::NetDataReader*  reader) ;
 
-  /// @brief Method Equals, addr 0x3280274, size 0x8c, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* obj);
+/// @brief Method Equals, addr 0x3281010, size 0x8c, virtual true, abstract: false, final false
+inline bool Equals(::System::Object*  obj) ;
 
-  /// @brief Method Equals, addr 0x3280250, size 0x24, virtual true, abstract: false, final true
-  inline bool Equals(::GlobalNamespace::PlayerStateHash other);
+/// @brief Method Equals, addr 0x3280fec, size 0x24, virtual true, abstract: false, final true
+inline bool Equals(::GlobalNamespace::PlayerStateHash  other) ;
 
-  /// @brief Method FromBytes, addr 0x32804c0, size 0x5c, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::PlayerStateHash FromBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t offset);
+/// @brief Method FromBytes, addr 0x328125c, size 0x5c, virtual false, abstract: false, final false
+static inline ::GlobalNamespace::PlayerStateHash FromBytes(::ArrayW<uint8_t,::Array<uint8_t>*>  bytes, int32_t  offset) ;
 
-  /// @brief Method GetHashCode, addr 0x3280238, size 0x18, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
+/// @brief Method GetHashCode, addr 0x3280fd4, size 0x18, virtual true, abstract: false, final false
+inline int32_t GetHashCode() ;
 
-  /// @brief Method Parse, addr 0x3280438, size 0x88, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::PlayerStateHash Parse(::StringW stringSerializedMask);
+/// @brief Method Parse, addr 0x32811d4, size 0x88, virtual false, abstract: false, final false
+static inline ::GlobalNamespace::PlayerStateHash Parse(::StringW  stringSerializedMask) ;
 
-  /// @brief Method Serialize, addr 0x326e570, size 0x8, virtual true, abstract: false, final true
-  inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
+/// @brief Method Serialize, addr 0x326f30c, size 0x8, virtual true, abstract: false, final true
+inline void Serialize(::LiteNetLib::Utils::NetDataWriter*  writer) ;
 
-  /// @brief Method ToBytes, addr 0x32801ec, size 0x4c, virtual false, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ToBytes();
+/// @brief Method ToBytes, addr 0x3280f88, size 0x4c, virtual false, abstract: false, final false
+inline ::ArrayW<uint8_t,::Array<uint8_t>*> ToBytes() ;
 
-  /// @brief Method ToShortString, addr 0x32801a0, size 0x4c, virtual false, abstract: false, final false
-  inline ::StringW ToShortString();
+/// @brief Method ToShortString, addr 0x3280f3c, size 0x4c, virtual false, abstract: false, final false
+inline ::StringW ToShortString() ;
 
-  /// @brief Method ToString, addr 0x3280124, size 0x7c, virtual true, abstract: false, final false
-  inline ::StringW ToString();
+/// @brief Method ToString, addr 0x3280ec0, size 0x7c, virtual true, abstract: false, final false
+inline ::StringW ToString() ;
 
-  /// @brief Method TryParse, addr 0x3280300, size 0x138, virtual false, abstract: false, final false
-  static inline bool TryParse(::StringW stringSerializedMask, ::ByRef<::GlobalNamespace::PlayerStateHash> playerStateHash);
+/// @brief Method TryParse, addr 0x328109c, size 0x138, virtual false, abstract: false, final false
+static inline bool TryParse(::StringW  stringSerializedMask, ::ByRef<::GlobalNamespace::PlayerStateHash>  playerStateHash) ;
 
-  /// @brief Method .ctor, addr 0x327ff78, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::GlobalNamespace::BitMask128 bloomFilter);
+/// @brief Method .ctor, addr 0x3280d14, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(::GlobalNamespace::BitMask128  bloomFilter) ;
 
-  /// @brief Method .ctor, addr 0x327ff80, size 0x68, virtual false, abstract: false, final false
-  inline void _ctor(::StringW state);
+/// @brief Method .ctor, addr 0x3280d1c, size 0x68, virtual false, abstract: false, final false
+inline void _ctor(::StringW  state) ;
 
-  /// @brief Method .ctor, addr 0x327ffe8, size 0x68, virtual false, abstract: false, final false
-  inline void _ctor(::System::Collections::Generic::HashSet_1<::StringW>* stateHashSet);
+/// @brief Method .ctor, addr 0x3280d84, size 0x68, virtual false, abstract: false, final false
+inline void _ctor(::System::Collections::Generic::HashSet_1<::StringW>*  stateHashSet) ;
 
-  /// @brief Convert to "::LiteNetLib::Utils::INetImmutableSerializable"
-  constexpr ::LiteNetLib::Utils::INetImmutableSerializable* i___LiteNetLib__Utils__INetImmutableSerializable();
+/// @brief Convert to "::LiteNetLib::Utils::INetImmutableSerializable"
+constexpr ::LiteNetLib::Utils::INetImmutableSerializable* i___LiteNetLib__Utils__INetImmutableSerializable() ;
 
-  /// @brief Convert to "::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::PlayerStateHash>"
-  constexpr ::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::PlayerStateHash>* i___LiteNetLib__Utils__INetImmutableSerializable_1___GlobalNamespace__PlayerStateHash_();
+/// @brief Convert to "::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::PlayerStateHash>"
+constexpr ::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::PlayerStateHash>* i___LiteNetLib__Utils__INetImmutableSerializable_1___GlobalNamespace__PlayerStateHash_() ;
 
-  /// @brief Convert to "::System::IEquatable_1<::GlobalNamespace::PlayerStateHash>"
-  constexpr ::System::IEquatable_1<::GlobalNamespace::PlayerStateHash>* i___System__IEquatable_1___GlobalNamespace__PlayerStateHash_();
+/// @brief Convert to "::System::IEquatable_1<::GlobalNamespace::PlayerStateHash>"
+constexpr ::System::IEquatable_1<::GlobalNamespace::PlayerStateHash>* i___System__IEquatable_1___GlobalNamespace__PlayerStateHash_() ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PlayerStateHash();
+// Ctor Parameters []
+// @brief default ctor
+constexpr PlayerStateHash() ;
 
-  // Ctor Parameters [CppParam { name: "_bloomFilter", ty: "::GlobalNamespace::BitMask128", modifiers: "", def_value: None }]
-  constexpr PlayerStateHash(::GlobalNamespace::BitMask128 _bloomFilter) noexcept;
+// Ctor Parameters [CppParam { name: "_bloomFilter", ty: "::GlobalNamespace::BitMask128", modifiers: "", def_value: None }]
+constexpr PlayerStateHash(::GlobalNamespace::BitMask128  _bloomFilter) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18237 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{18239};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x10};
 
-  /// @brief Field kToStringPrefix offset 0xffffffff size 0x8
-  static constexpr ::ConstString kToStringPrefix{ u"[PlayerStateMask " };
+/// @brief Field kToStringPrefix offset 0xffffffff size 0x8
+static constexpr ::ConstString  kToStringPrefix{u"[PlayerStateMask "};
 
-  /// @brief Field kToStringSuffix offset 0xffffffff size 0x8
-  static constexpr ::ConstString kToStringSuffix{ u"]" };
+/// @brief Field kToStringSuffix offset 0xffffffff size 0x8
+static constexpr ::ConstString  kToStringSuffix{u"]"};
 
-  /// @brief Field _bloomFilter, offset: 0x0, size: 0x10, def value: None
-  ::GlobalNamespace::BitMask128 _bloomFilter;
+/// @brief Field _bloomFilter, offset: 0x0, size: 0x10, def value: None
+ ::GlobalNamespace::BitMask128  _bloomFilter;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::PlayerStateHash, _bloomFilter) == 0x0, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PlayerStateHash, 0x10>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PlayerStateHash, "", "PlayerStateHash");

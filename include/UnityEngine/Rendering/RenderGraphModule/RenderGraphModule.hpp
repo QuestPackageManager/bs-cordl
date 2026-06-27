@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "UnityEngine/Rendering/RenderGraphModule/AccessFlags.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/BaseRenderFunc_2.hpp"
@@ -64,5 +64,6 @@ module;
 #include "UnityEngine/Rendering/RenderGraphModule/UnsafeGraphContext.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/UnsafeRenderGraphPass_1.hpp"
 #ifdef __cpp_modules
-export module RenderGraphModule;
-#endif
+                    export module RenderGraphModule;
+                    #endif
+                

@@ -28,95 +28,95 @@ namespace GlobalNamespace {
 // CS Name: TextOnlyTableCell
 class CORDL_TYPE TextOnlyTableCell : public ::HMUI::TableCell {
 public:
-  // Declarations
-  /// @brief Field _bgImage, offset 0x90, size 0x8
-  __declspec(property(get = __cordl_internal_get__bgImage, put = __cordl_internal_set__bgImage)) ::UnityW<::HMUI::ImageView> _bgImage;
+// Declarations
+/// @brief Field _bgImage, offset 0x90, size 0x8 
+ __declspec(property(get=__cordl_internal_get__bgImage, put=__cordl_internal_set__bgImage)) ::UnityW<::HMUI::ImageView>  _bgImage;
 
-  /// @brief Field _highlightImage, offset 0x98, size 0x8
-  __declspec(property(get = __cordl_internal_get__highlightImage, put = __cordl_internal_set__highlightImage)) ::UnityW<::HMUI::ImageView> _highlightImage;
+/// @brief Field _highlightImage, offset 0x98, size 0x8 
+ __declspec(property(get=__cordl_internal_get__highlightImage, put=__cordl_internal_set__highlightImage)) ::UnityW<::HMUI::ImageView>  _highlightImage;
 
-  /// @brief Field _selectedHighlightColor, offset 0x78, size 0x10
-  __declspec(property(get = __cordl_internal_get__selectedHighlightColor, put = __cordl_internal_set__selectedHighlightColor)) ::UnityEngine::Color _selectedHighlightColor;
+/// @brief Field _selectedHighlightColor, offset 0x78, size 0x10 
+ __declspec(property(get=__cordl_internal_get__selectedHighlightColor, put=__cordl_internal_set__selectedHighlightColor)) ::UnityEngine::Color  _selectedHighlightColor;
 
-  /// @brief Field _text, offset 0x88, size 0x8
-  __declspec(property(get = __cordl_internal_get__text, put = __cordl_internal_set__text)) ::UnityW<::TMPro::TextMeshProUGUI> _text;
+/// @brief Field _text, offset 0x88, size 0x8 
+ __declspec(property(get=__cordl_internal_get__text, put=__cordl_internal_set__text)) ::UnityW<::TMPro::TextMeshProUGUI>  _text;
 
-  __declspec(property(get = get_text, put = set_text)) ::StringW text;
+ __declspec(property(get=get_text, put=set_text)) ::StringW  text;
 
-  /// @brief Method HighlightDidChange, addr 0x58cd3d8, size 0x4, virtual true, abstract: false, final false
-  inline void HighlightDidChange(::HMUI::SelectableCell_TransitionType transitionType);
+/// @brief Method HighlightDidChange, addr 0x58ceda8, size 0x4, virtual true, abstract: false, final false
+inline void HighlightDidChange(::HMUI::SelectableCell_TransitionType  transitionType) ;
 
-  static inline ::GlobalNamespace::TextOnlyTableCell* New_ctor();
+static inline ::GlobalNamespace::TextOnlyTableCell* New_ctor() ;
 
-  /// @brief Method RefreshVisuals, addr 0x58cd30c, size 0xcc, virtual false, abstract: false, final false
-  inline void RefreshVisuals();
+/// @brief Method RefreshVisuals, addr 0x58cecdc, size 0xcc, virtual false, abstract: false, final false
+inline void RefreshVisuals() ;
 
-  /// @brief Method SelectionDidChange, addr 0x58cd308, size 0x4, virtual true, abstract: false, final false
-  inline void SelectionDidChange(::HMUI::SelectableCell_TransitionType transitionType);
+/// @brief Method SelectionDidChange, addr 0x58cecd8, size 0x4, virtual true, abstract: false, final false
+inline void SelectionDidChange(::HMUI::SelectableCell_TransitionType  transitionType) ;
 
-  constexpr ::UnityW<::HMUI::ImageView> const& __cordl_internal_get__bgImage() const;
+constexpr ::UnityW<::HMUI::ImageView> const& __cordl_internal_get__bgImage() const;
 
-  constexpr ::UnityW<::HMUI::ImageView>& __cordl_internal_get__bgImage();
+constexpr ::UnityW<::HMUI::ImageView>& __cordl_internal_get__bgImage() ;
 
-  constexpr ::UnityW<::HMUI::ImageView> const& __cordl_internal_get__highlightImage() const;
+constexpr ::UnityW<::HMUI::ImageView> const& __cordl_internal_get__highlightImage() const;
 
-  constexpr ::UnityW<::HMUI::ImageView>& __cordl_internal_get__highlightImage();
+constexpr ::UnityW<::HMUI::ImageView>& __cordl_internal_get__highlightImage() ;
 
-  constexpr ::UnityEngine::Color const& __cordl_internal_get__selectedHighlightColor() const;
+constexpr ::UnityEngine::Color const& __cordl_internal_get__selectedHighlightColor() const;
 
-  constexpr ::UnityEngine::Color& __cordl_internal_get__selectedHighlightColor();
+constexpr ::UnityEngine::Color& __cordl_internal_get__selectedHighlightColor() ;
 
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__text() const;
+constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__text() const;
 
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__text();
+constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__text() ;
 
-  constexpr void __cordl_internal_set__bgImage(::UnityW<::HMUI::ImageView> value);
+constexpr void __cordl_internal_set__bgImage(::UnityW<::HMUI::ImageView>  value) ;
 
-  constexpr void __cordl_internal_set__highlightImage(::UnityW<::HMUI::ImageView> value);
+constexpr void __cordl_internal_set__highlightImage(::UnityW<::HMUI::ImageView>  value) ;
 
-  constexpr void __cordl_internal_set__selectedHighlightColor(::UnityEngine::Color value);
+constexpr void __cordl_internal_set__selectedHighlightColor(::UnityEngine::Color  value) ;
 
-  constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshProUGUI> value);
+constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshProUGUI>  value) ;
 
-  /// @brief Method .ctor, addr 0x58cd3dc, size 0x14, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x58cedac, size 0x14, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_text, addr 0x58cd2c8, size 0x20, virtual false, abstract: false, final false
-  inline ::StringW get_text();
+/// @brief Method get_text, addr 0x58cec98, size 0x20, virtual false, abstract: false, final false
+inline ::StringW get_text() ;
 
-  /// @brief Method set_text, addr 0x58cd2e8, size 0x20, virtual false, abstract: false, final false
-  inline void set_text(::StringW value);
+/// @brief Method set_text, addr 0x58cecb8, size 0x20, virtual false, abstract: false, final false
+inline void set_text(::StringW  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TextOnlyTableCell();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr TextOnlyTableCell() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TextOnlyTableCell", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  TextOnlyTableCell(TextOnlyTableCell&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TextOnlyTableCell", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  TextOnlyTableCell(TextOnlyTableCell const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "TextOnlyTableCell", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+TextOnlyTableCell(TextOnlyTableCell && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6354 };
+// Ctor Parameters [CppParam { name: "", ty: "TextOnlyTableCell", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+TextOnlyTableCell(TextOnlyTableCell const& ) = delete;
 
-  /// @brief Field _selectedHighlightColor, offset: 0x78, size: 0x10, def value: None
-  ::UnityEngine::Color ____selectedHighlightColor;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6354};
 
-  /// @brief Field _text, offset: 0x88, size: 0x8, def value: None
-  ::UnityW<::TMPro::TextMeshProUGUI> ____text;
+/// @brief Field _selectedHighlightColor, offset: 0x78, size: 0x10, def value: None
+ ::UnityEngine::Color  ____selectedHighlightColor;
 
-  /// @brief Field _bgImage, offset: 0x90, size: 0x8, def value: None
-  ::UnityW<::HMUI::ImageView> ____bgImage;
+/// @brief Field _text, offset: 0x88, size: 0x8, def value: None
+ ::UnityW<::TMPro::TextMeshProUGUI>  ____text;
 
-  /// @brief Field _highlightImage, offset: 0x98, size: 0x8, def value: None
-  ::UnityW<::HMUI::ImageView> ____highlightImage;
+/// @brief Field _bgImage, offset: 0x90, size: 0x8, def value: None
+ ::UnityW<::HMUI::ImageView>  ____bgImage;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _highlightImage, offset: 0x98, size: 0x8, def value: None
+ ::UnityW<::HMUI::ImageView>  ____highlightImage;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::TextOnlyTableCell, ____selectedHighlightColor) == 0x78, "Offset mismatch!");
@@ -129,6 +129,6 @@ static_assert(offsetof(::GlobalNamespace::TextOnlyTableCell, ____highlightImage)
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::TextOnlyTableCell, 0xa0>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::TextOnlyTableCell);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::TextOnlyTableCell*, "", "TextOnlyTableCell");

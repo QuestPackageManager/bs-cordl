@@ -18,38 +18,38 @@ namespace BeatSaber::Analytics::Gameplay::Events {
 // CS Name: BeatSaber.Analytics.Gameplay.Events.SpaceshipLoggerNames
 class CORDL_TYPE SpaceshipLoggerNames : public ::System::Object {
 public:
-  // Declarations
+// Declarations
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SpaceshipLoggerNames();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr SpaceshipLoggerNames() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SpaceshipLoggerNames", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  SpaceshipLoggerNames(SpaceshipLoggerNames&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SpaceshipLoggerNames", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  SpaceshipLoggerNames(SpaceshipLoggerNames const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "SpaceshipLoggerNames", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+SpaceshipLoggerNames(SpaceshipLoggerNames && ) = delete;
 
-  /// @brief Field Custom offset 0xffffffff size 0x8
-  static constexpr ::ConstString Custom{ u"OCSpaceshipFirstPartyCustomEventsFunctionalLogger" };
+// Ctor Parameters [CppParam { name: "", ty: "SpaceshipLoggerNames", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+SpaceshipLoggerNames(SpaceshipLoggerNames const& ) = delete;
 
-  /// @brief Field Metric offset 0xffffffff size 0x8
-  static constexpr ::ConstString Metric{ u"OCSpaceshipFirstPartyMetricEventsFunctionalLogger" };
+/// @brief Field Custom offset 0xffffffff size 0x8
+static constexpr ::ConstString  Custom{u"OCSpaceshipFirstPartyCustomEventsFunctionalLogger"};
 
-  /// @brief Field Segment offset 0xffffffff size 0x8
-  static constexpr ::ConstString Segment{ u"OCSpaceshipFirstPartySegmentEventsFunctionalLogger" };
+/// @brief Field Metric offset 0xffffffff size 0x8
+static constexpr ::ConstString  Metric{u"OCSpaceshipFirstPartyMetricEventsFunctionalLogger"};
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22105 };
+/// @brief Field Segment offset 0xffffffff size 0x8
+static constexpr ::ConstString  Segment{u"OCSpaceshipFirstPartySegmentEventsFunctionalLogger"};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22109};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::BeatSaber::Analytics::Gameplay::Events::SpaceshipLoggerNames, 0x10>, "Size mismatch!");
 
-} // namespace BeatSaber::Analytics::Gameplay::Events
+} // namespace end def BeatSaber::Analytics::Gameplay::Events
 NEED_NO_BOX(::BeatSaber::Analytics::Gameplay::Events::SpaceshipLoggerNames);
 DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::Analytics::Gameplay::Events::SpaceshipLoggerNames*, "BeatSaber.Analytics.Gameplay.Events", "SpaceshipLoggerNames");

@@ -25,90 +25,90 @@ namespace VRUIControls {
 // CS Name: VRUIControls.ButtonState
 class CORDL_TYPE ButtonState : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field _button, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get__button, put = __cordl_internal_set__button)) ::UnityEngine::EventSystems::PointerEventData_InputButton _button;
+// Declarations
+/// @brief Field _button, offset 0x10, size 0x4 
+ __declspec(property(get=__cordl_internal_get__button, put=__cordl_internal_set__button)) ::UnityEngine::EventSystems::PointerEventData_InputButton  _button;
 
-  /// @brief Field _eventData, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__eventData, put = __cordl_internal_set__eventData)) ::VRUIControls::MouseButtonEventData* _eventData;
+/// @brief Field _eventData, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get__eventData, put=__cordl_internal_set__eventData)) ::VRUIControls::MouseButtonEventData*  _eventData;
 
-  /// @brief Field _pressedValue, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get__pressedValue, put = __cordl_internal_set__pressedValue)) float_t _pressedValue;
+/// @brief Field _pressedValue, offset 0x20, size 0x4 
+ __declspec(property(get=__cordl_internal_get__pressedValue, put=__cordl_internal_set__pressedValue)) float_t  _pressedValue;
 
-  __declspec(property(get = get_button, put = set_button)) ::UnityEngine::EventSystems::PointerEventData_InputButton button;
+ __declspec(property(get=get_button, put=set_button)) ::UnityEngine::EventSystems::PointerEventData_InputButton  button;
 
-  __declspec(property(get = get_eventData, put = set_eventData)) ::VRUIControls::MouseButtonEventData* eventData;
+ __declspec(property(get=get_eventData, put=set_eventData)) ::VRUIControls::MouseButtonEventData*  eventData;
 
-  __declspec(property(get = get_pressedValue, put = set_pressedValue)) float_t pressedValue;
+ __declspec(property(get=get_pressedValue, put=set_pressedValue)) float_t  pressedValue;
 
-  static inline ::VRUIControls::ButtonState* New_ctor();
+static inline ::VRUIControls::ButtonState* New_ctor() ;
 
-  constexpr ::UnityEngine::EventSystems::PointerEventData_InputButton const& __cordl_internal_get__button() const;
+constexpr ::UnityEngine::EventSystems::PointerEventData_InputButton const& __cordl_internal_get__button() const;
 
-  constexpr ::UnityEngine::EventSystems::PointerEventData_InputButton& __cordl_internal_get__button();
+constexpr ::UnityEngine::EventSystems::PointerEventData_InputButton& __cordl_internal_get__button() ;
 
-  constexpr ::VRUIControls::MouseButtonEventData* const& __cordl_internal_get__eventData() const;
+constexpr ::VRUIControls::MouseButtonEventData* const& __cordl_internal_get__eventData() const;
 
-  constexpr ::VRUIControls::MouseButtonEventData*& __cordl_internal_get__eventData();
+constexpr ::VRUIControls::MouseButtonEventData*& __cordl_internal_get__eventData() ;
 
-  constexpr float_t const& __cordl_internal_get__pressedValue() const;
+constexpr float_t const& __cordl_internal_get__pressedValue() const;
 
-  constexpr float_t& __cordl_internal_get__pressedValue();
+constexpr float_t& __cordl_internal_get__pressedValue() ;
 
-  constexpr void __cordl_internal_set__button(::UnityEngine::EventSystems::PointerEventData_InputButton value);
+constexpr void __cordl_internal_set__button(::UnityEngine::EventSystems::PointerEventData_InputButton  value) ;
 
-  constexpr void __cordl_internal_set__eventData(::VRUIControls::MouseButtonEventData* value);
+constexpr void __cordl_internal_set__eventData(::VRUIControls::MouseButtonEventData*  value) ;
 
-  constexpr void __cordl_internal_set__pressedValue(float_t value);
+constexpr void __cordl_internal_set__pressedValue(float_t  value) ;
 
-  /// @brief Method .ctor, addr 0x6cde514, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6ce008c, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_button, addr 0x6cde4f4, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::EventSystems::PointerEventData_InputButton get_button();
+/// @brief Method get_button, addr 0x6ce006c, size 0x8, virtual false, abstract: false, final false
+inline ::UnityEngine::EventSystems::PointerEventData_InputButton get_button() ;
 
-  /// @brief Method get_eventData, addr 0x6cde4e4, size 0x8, virtual false, abstract: false, final false
-  inline ::VRUIControls::MouseButtonEventData* get_eventData();
+/// @brief Method get_eventData, addr 0x6ce005c, size 0x8, virtual false, abstract: false, final false
+inline ::VRUIControls::MouseButtonEventData* get_eventData() ;
 
-  /// @brief Method get_pressedValue, addr 0x6cde504, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_pressedValue();
+/// @brief Method get_pressedValue, addr 0x6ce007c, size 0x8, virtual false, abstract: false, final false
+inline float_t get_pressedValue() ;
 
-  /// @brief Method set_button, addr 0x6cde4fc, size 0x8, virtual false, abstract: false, final false
-  inline void set_button(::UnityEngine::EventSystems::PointerEventData_InputButton value);
+/// @brief Method set_button, addr 0x6ce0074, size 0x8, virtual false, abstract: false, final false
+inline void set_button(::UnityEngine::EventSystems::PointerEventData_InputButton  value) ;
 
-  /// @brief Method set_eventData, addr 0x6cde4ec, size 0x8, virtual false, abstract: false, final false
-  inline void set_eventData(::VRUIControls::MouseButtonEventData* value);
+/// @brief Method set_eventData, addr 0x6ce0064, size 0x8, virtual false, abstract: false, final false
+inline void set_eventData(::VRUIControls::MouseButtonEventData*  value) ;
 
-  /// @brief Method set_pressedValue, addr 0x6cde50c, size 0x8, virtual false, abstract: false, final false
-  inline void set_pressedValue(float_t value);
+/// @brief Method set_pressedValue, addr 0x6ce0084, size 0x8, virtual false, abstract: false, final false
+inline void set_pressedValue(float_t  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ButtonState();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ButtonState() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ButtonState", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ButtonState(ButtonState&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ButtonState", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ButtonState(ButtonState const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ButtonState", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ButtonState(ButtonState && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22151 };
+// Ctor Parameters [CppParam { name: "", ty: "ButtonState", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ButtonState(ButtonState const& ) = delete;
 
-  /// @brief Field _button, offset: 0x10, size: 0x4, def value: None
-  ::UnityEngine::EventSystems::PointerEventData_InputButton ____button;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22155};
 
-  /// @brief Field _eventData, offset: 0x18, size: 0x8, def value: None
-  ::VRUIControls::MouseButtonEventData* ____eventData;
+/// @brief Field _button, offset: 0x10, size: 0x4, def value: None
+ ::UnityEngine::EventSystems::PointerEventData_InputButton  ____button;
 
-  /// @brief Field _pressedValue, offset: 0x20, size: 0x4, def value: None
-  float_t ____pressedValue;
+/// @brief Field _eventData, offset: 0x18, size: 0x8, def value: None
+ ::VRUIControls::MouseButtonEventData*  ____eventData;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _pressedValue, offset: 0x20, size: 0x4, def value: None
+ float_t  ____pressedValue;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::VRUIControls::ButtonState, ____button) == 0x10, "Offset mismatch!");
@@ -119,6 +119,6 @@ static_assert(offsetof(::VRUIControls::ButtonState, ____pressedValue) == 0x20, "
 
 static_assert(::cordl_internals::size_check_v<::VRUIControls::ButtonState, 0x28>, "Size mismatch!");
 
-} // namespace VRUIControls
+} // namespace end def VRUIControls
 NEED_NO_BOX(::VRUIControls::ButtonState);
 DEFINE_IL2CPP_ARG_TYPE(::VRUIControls::ButtonState*, "VRUIControls", "ButtonState");

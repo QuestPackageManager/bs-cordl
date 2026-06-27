@@ -37,84 +37,84 @@ namespace OVRSimpleJSON {
 // CS Name: OVRSimpleJSON.JSONString
 class CORDL_TYPE JSONString : public ::OVRSimpleJSON::JSONNode {
 public:
-  // Declarations
-  __declspec(property(get = get_IsString)) bool IsString;
+// Declarations
+ __declspec(property(get=get_IsString)) bool  IsString;
 
-  __declspec(property(get = get_Tag)) ::OVRSimpleJSON::JSONNodeType Tag;
+ __declspec(property(get=get_Tag)) ::OVRSimpleJSON::JSONNodeType  Tag;
 
-  __declspec(property(get = get_Value, put = set_Value)) ::StringW Value;
+ __declspec(property(get=get_Value, put=set_Value)) ::StringW  Value;
 
-  /// @brief Field m_Data, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Data, put = __cordl_internal_set_m_Data)) ::StringW m_Data;
+/// @brief Field m_Data, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_Data, put=__cordl_internal_set_m_Data)) ::StringW  m_Data;
 
-  /// @brief Method Clear, addr 0x5cedfd0, size 0x4c, virtual true, abstract: false, final false
-  inline void Clear();
+/// @brief Method Clear, addr 0x5cefb48, size 0x4c, virtual true, abstract: false, final false
+inline void Clear() ;
 
-  /// @brief Method Clone, addr 0x5cedda0, size 0x60, virtual true, abstract: false, final false
-  inline ::OVRSimpleJSON::JSONNode* Clone();
+/// @brief Method Clone, addr 0x5cef918, size 0x60, virtual true, abstract: false, final false
+inline ::OVRSimpleJSON::JSONNode* Clone() ;
 
-  /// @brief Method Equals, addr 0x5cedea0, size 0x114, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* obj);
+/// @brief Method Equals, addr 0x5cefa18, size 0x114, virtual true, abstract: false, final false
+inline bool Equals(::System::Object*  obj) ;
 
-  /// @brief Method GetEnumerator, addr 0x5cedd18, size 0x14, virtual true, abstract: false, final false
-  inline ::OVRSimpleJSON::JSONNode_Enumerator GetEnumerator();
+/// @brief Method GetEnumerator, addr 0x5cef890, size 0x14, virtual true, abstract: false, final false
+inline ::OVRSimpleJSON::JSONNode_Enumerator GetEnumerator() ;
 
-  /// @brief Method GetHashCode, addr 0x5cedfb4, size 0x1c, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
+/// @brief Method GetHashCode, addr 0x5cefb2c, size 0x1c, virtual true, abstract: false, final false
+inline int32_t GetHashCode() ;
 
-  static inline ::OVRSimpleJSON::JSONString* New_ctor(::StringW aData);
+static inline ::OVRSimpleJSON::JSONString* New_ctor(::StringW  aData) ;
 
-  /// @brief Method WriteToStringBuilder, addr 0x5cede00, size 0xa0, virtual true, abstract: false, final false
-  inline void WriteToStringBuilder(::System::Text::StringBuilder* aSB, int32_t aIndent, int32_t aIndentInc, ::OVRSimpleJSON::JSONTextMode aMode);
+/// @brief Method WriteToStringBuilder, addr 0x5cef978, size 0xa0, virtual true, abstract: false, final false
+inline void WriteToStringBuilder(::System::Text::StringBuilder*  aSB, int32_t  aIndent, int32_t  aIndentInc, ::OVRSimpleJSON::JSONTextMode  aMode) ;
 
-  constexpr ::StringW const& __cordl_internal_get_m_Data() const;
+constexpr ::StringW const& __cordl_internal_get_m_Data() const;
 
-  constexpr ::StringW& __cordl_internal_get_m_Data();
+constexpr ::StringW& __cordl_internal_get_m_Data() ;
 
-  constexpr void __cordl_internal_set_m_Data(::StringW value);
+constexpr void __cordl_internal_set_m_Data(::StringW  value) ;
 
-  /// @brief Method .ctor, addr 0x5cedd3c, size 0x64, virtual false, abstract: false, final false
-  inline void _ctor(::StringW aData);
+/// @brief Method .ctor, addr 0x5cef8b4, size 0x64, virtual false, abstract: false, final false
+inline void _ctor(::StringW  aData) ;
 
-  /// @brief Method get_IsString, addr 0x5cedd10, size 0x8, virtual true, abstract: false, final false
-  inline bool get_IsString();
+/// @brief Method get_IsString, addr 0x5cef888, size 0x8, virtual true, abstract: false, final false
+inline bool get_IsString() ;
 
-  /// @brief Method get_Tag, addr 0x5cedd08, size 0x8, virtual true, abstract: false, final false
-  inline ::OVRSimpleJSON::JSONNodeType get_Tag();
+/// @brief Method get_Tag, addr 0x5cef880, size 0x8, virtual true, abstract: false, final false
+inline ::OVRSimpleJSON::JSONNodeType get_Tag() ;
 
-  /// @brief Method get_Value, addr 0x5cedd2c, size 0x8, virtual true, abstract: false, final false
-  inline ::StringW get_Value();
+/// @brief Method get_Value, addr 0x5cef8a4, size 0x8, virtual true, abstract: false, final false
+inline ::StringW get_Value() ;
 
-  /// @brief Method set_Value, addr 0x5cedd34, size 0x8, virtual true, abstract: false, final false
-  inline void set_Value(::StringW value);
+/// @brief Method set_Value, addr 0x5cef8ac, size 0x8, virtual true, abstract: false, final false
+inline void set_Value(::StringW  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr JSONString();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr JSONString() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "JSONString", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  JSONString(JSONString&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "JSONString", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  JSONString(JSONString const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "JSONString", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+JSONString(JSONString && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8019 };
+// Ctor Parameters [CppParam { name: "", ty: "JSONString", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+JSONString(JSONString const& ) = delete;
 
-  /// @brief Field m_Data, offset: 0x10, size: 0x8, def value: None
-  ::StringW ___m_Data;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8020};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field m_Data, offset: 0x10, size: 0x8, def value: None
+ ::StringW  ___m_Data;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::OVRSimpleJSON::JSONString, ___m_Data) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::OVRSimpleJSON::JSONString, 0x18>, "Size mismatch!");
 
-} // namespace OVRSimpleJSON
+} // namespace end def OVRSimpleJSON
 NEED_NO_BOX(::OVRSimpleJSON::JSONString);
 DEFINE_IL2CPP_ARG_TYPE(::OVRSimpleJSON::JSONString*, "OVRSimpleJSON", "JSONString");

@@ -26,63 +26,63 @@ namespace UnityEngine::Rendering::UI {
 // CS Name: UnityEngine.Rendering.UI.DebugUIHandlerObject
 class CORDL_TYPE DebugUIHandlerObject : public ::UnityEngine::Rendering::UI::DebugUIHandlerWidget {
 public:
-  // Declarations
-  /// @brief Field nameLabel, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get_nameLabel, put = __cordl_internal_set_nameLabel)) ::UnityW<::UnityEngine::UI::Text> nameLabel;
+// Declarations
+/// @brief Field nameLabel, offset 0x60, size 0x8 
+ __declspec(property(get=__cordl_internal_get_nameLabel, put=__cordl_internal_set_nameLabel)) ::UnityW<::UnityEngine::UI::Text>  nameLabel;
 
-  /// @brief Field valueLabel, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get_valueLabel, put = __cordl_internal_set_valueLabel)) ::UnityW<::UnityEngine::UI::Text> valueLabel;
+/// @brief Field valueLabel, offset 0x68, size 0x8 
+ __declspec(property(get=__cordl_internal_get_valueLabel, put=__cordl_internal_set_valueLabel)) ::UnityW<::UnityEngine::UI::Text>  valueLabel;
 
-  static inline ::UnityEngine::Rendering::UI::DebugUIHandlerObject* New_ctor();
+static inline ::UnityEngine::Rendering::UI::DebugUIHandlerObject* New_ctor() ;
 
-  /// @brief Method OnDeselection, addr 0x66bfe10, size 0x50, virtual true, abstract: false, final false
-  inline void OnDeselection();
+/// @brief Method OnDeselection, addr 0x66c1988, size 0x50, virtual true, abstract: false, final false
+inline void OnDeselection() ;
 
-  /// @brief Method OnSelection, addr 0x66bfdb8, size 0x58, virtual true, abstract: false, final false
-  inline bool OnSelection(bool fromNext, ::UnityEngine::Rendering::UI::DebugUIHandlerWidget* previous);
+/// @brief Method OnSelection, addr 0x66c1930, size 0x58, virtual true, abstract: false, final false
+inline bool OnSelection(bool  fromNext, ::UnityEngine::Rendering::UI::DebugUIHandlerWidget*  previous) ;
 
-  /// @brief Method SetWidget, addr 0x66bfce0, size 0xd8, virtual true, abstract: false, final false
-  inline void SetWidget(::UnityEngine::Rendering::DebugUI_Widget* widget);
+/// @brief Method SetWidget, addr 0x66c1858, size 0xd8, virtual true, abstract: false, final false
+inline void SetWidget(::UnityEngine::Rendering::DebugUI_Widget*  widget) ;
 
-  constexpr ::UnityW<::UnityEngine::UI::Text> const& __cordl_internal_get_nameLabel() const;
+constexpr ::UnityW<::UnityEngine::UI::Text> const& __cordl_internal_get_nameLabel() const;
 
-  constexpr ::UnityW<::UnityEngine::UI::Text>& __cordl_internal_get_nameLabel();
+constexpr ::UnityW<::UnityEngine::UI::Text>& __cordl_internal_get_nameLabel() ;
 
-  constexpr ::UnityW<::UnityEngine::UI::Text> const& __cordl_internal_get_valueLabel() const;
+constexpr ::UnityW<::UnityEngine::UI::Text> const& __cordl_internal_get_valueLabel() const;
 
-  constexpr ::UnityW<::UnityEngine::UI::Text>& __cordl_internal_get_valueLabel();
+constexpr ::UnityW<::UnityEngine::UI::Text>& __cordl_internal_get_valueLabel() ;
 
-  constexpr void __cordl_internal_set_nameLabel(::UnityW<::UnityEngine::UI::Text> value);
+constexpr void __cordl_internal_set_nameLabel(::UnityW<::UnityEngine::UI::Text>  value) ;
 
-  constexpr void __cordl_internal_set_valueLabel(::UnityW<::UnityEngine::UI::Text> value);
+constexpr void __cordl_internal_set_valueLabel(::UnityW<::UnityEngine::UI::Text>  value) ;
 
-  /// @brief Method .ctor, addr 0x66bfe60, size 0x18, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x66c19d8, size 0x18, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DebugUIHandlerObject();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr DebugUIHandlerObject() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUIHandlerObject", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  DebugUIHandlerObject(DebugUIHandlerObject&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUIHandlerObject", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  DebugUIHandlerObject(DebugUIHandlerObject const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "DebugUIHandlerObject", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+DebugUIHandlerObject(DebugUIHandlerObject && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12514 };
+// Ctor Parameters [CppParam { name: "", ty: "DebugUIHandlerObject", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+DebugUIHandlerObject(DebugUIHandlerObject const& ) = delete;
 
-  /// @brief Field nameLabel, offset: 0x60, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::UI::Text> ___nameLabel;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12515};
 
-  /// @brief Field valueLabel, offset: 0x68, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::UI::Text> ___valueLabel;
+/// @brief Field nameLabel, offset: 0x60, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::UI::Text>  ___nameLabel;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field valueLabel, offset: 0x68, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::UI::Text>  ___valueLabel;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Rendering::UI::DebugUIHandlerObject, ___nameLabel) == 0x60, "Offset mismatch!");
@@ -91,6 +91,6 @@ static_assert(offsetof(::UnityEngine::Rendering::UI::DebugUIHandlerObject, ___va
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::UI::DebugUIHandlerObject, 0x70>, "Size mismatch!");
 
-} // namespace UnityEngine::Rendering::UI
+} // namespace end def UnityEngine::Rendering::UI
 NEED_NO_BOX(::UnityEngine::Rendering::UI::DebugUIHandlerObject);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::UI::DebugUIHandlerObject*, "UnityEngine.Rendering.UI", "DebugUIHandlerObject");

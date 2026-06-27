@@ -17,39 +17,39 @@ namespace GlobalNamespace {
 // CS Name: System.Xml.Schema.XmlSchemaParticle/EmptyParticle
 class CORDL_TYPE XmlSchemaParticle_EmptyParticle : public ::System::Xml::Schema::XmlSchemaParticle {
 public:
-  // Declarations
-  __declspec(property(get = get_IsEmpty)) bool IsEmpty;
+// Declarations
+ __declspec(property(get=get_IsEmpty)) bool  IsEmpty;
 
-  static inline ::GlobalNamespace::XmlSchemaParticle_EmptyParticle* New_ctor();
+static inline ::GlobalNamespace::XmlSchemaParticle_EmptyParticle* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x60f1d54, size 0x58, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x60f38cc, size 0x58, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_IsEmpty, addr 0x60f1dac, size 0x8, virtual true, abstract: false, final false
-  inline bool get_IsEmpty();
+/// @brief Method get_IsEmpty, addr 0x60f3924, size 0x8, virtual true, abstract: false, final false
+inline bool get_IsEmpty() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr XmlSchemaParticle_EmptyParticle();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr XmlSchemaParticle_EmptyParticle() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaParticle_EmptyParticle", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  XmlSchemaParticle_EmptyParticle(XmlSchemaParticle_EmptyParticle&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaParticle_EmptyParticle", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  XmlSchemaParticle_EmptyParticle(XmlSchemaParticle_EmptyParticle const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "XmlSchemaParticle_EmptyParticle", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+XmlSchemaParticle_EmptyParticle(XmlSchemaParticle_EmptyParticle && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9794 };
+// Ctor Parameters [CppParam { name: "", ty: "XmlSchemaParticle_EmptyParticle", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+XmlSchemaParticle_EmptyParticle(XmlSchemaParticle_EmptyParticle const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9795};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::XmlSchemaParticle_EmptyParticle, 0x78>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::XmlSchemaParticle_EmptyParticle);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::XmlSchemaParticle_EmptyParticle*, "System.Xml.Schema", "XmlSchemaParticle/EmptyParticle");

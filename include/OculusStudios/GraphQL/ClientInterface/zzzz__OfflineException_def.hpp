@@ -21,44 +21,44 @@ namespace OculusStudios::GraphQL::ClientInterface {
 // CS Name: OculusStudios.GraphQL.ClientInterface.OfflineException
 class CORDL_TYPE OfflineException : public ::System::Exception {
 public:
-  // Declarations
-  static inline ::OculusStudios::GraphQL::ClientInterface::OfflineException* New_ctor();
+// Declarations
+static inline ::OculusStudios::GraphQL::ClientInterface::OfflineException* New_ctor() ;
 
-  static inline ::OculusStudios::GraphQL::ClientInterface::OfflineException* New_ctor(::StringW message);
+static inline ::OculusStudios::GraphQL::ClientInterface::OfflineException* New_ctor(::StringW  message) ;
 
-  static inline ::OculusStudios::GraphQL::ClientInterface::OfflineException* New_ctor(::StringW message, ::System::Exception* inner);
+static inline ::OculusStudios::GraphQL::ClientInterface::OfflineException* New_ctor(::StringW  message, ::System::Exception*  inner) ;
 
-  /// @brief Method .ctor, addr 0x5df0478, size 0x58, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5df1ff0, size 0x58, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method .ctor, addr 0x5df04d0, size 0x6c, virtual false, abstract: false, final false
-  inline void _ctor(::StringW message);
+/// @brief Method .ctor, addr 0x5df2048, size 0x6c, virtual false, abstract: false, final false
+inline void _ctor(::StringW  message) ;
 
-  /// @brief Method .ctor, addr 0x5df053c, size 0x74, virtual false, abstract: false, final false
-  inline void _ctor(::StringW message, ::System::Exception* inner);
+/// @brief Method .ctor, addr 0x5df20b4, size 0x74, virtual false, abstract: false, final false
+inline void _ctor(::StringW  message, ::System::Exception*  inner) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OfflineException();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr OfflineException() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OfflineException", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  OfflineException(OfflineException&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OfflineException", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  OfflineException(OfflineException const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "OfflineException", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+OfflineException(OfflineException && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22545 };
+// Ctor Parameters [CppParam { name: "", ty: "OfflineException", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+OfflineException(OfflineException const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22549};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OculusStudios::GraphQL::ClientInterface::OfflineException, 0x90>, "Size mismatch!");
 
-} // namespace OculusStudios::GraphQL::ClientInterface
+} // namespace end def OculusStudios::GraphQL::ClientInterface
 NEED_NO_BOX(::OculusStudios::GraphQL::ClientInterface::OfflineException);
 DEFINE_IL2CPP_ARG_TYPE(::OculusStudios::GraphQL::ClientInterface::OfflineException*, "OculusStudios.GraphQL.ClientInterface", "OfflineException");

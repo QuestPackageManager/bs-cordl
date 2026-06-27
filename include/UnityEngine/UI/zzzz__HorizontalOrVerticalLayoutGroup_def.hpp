@@ -22,199 +22,199 @@ namespace UnityEngine::UI {
 // CS Name: UnityEngine.UI.HorizontalOrVerticalLayoutGroup
 class CORDL_TYPE HorizontalOrVerticalLayoutGroup : public ::UnityEngine::UI::LayoutGroup {
 public:
-  // Declarations
-  __declspec(property(get = get_childControlHeight, put = set_childControlHeight)) bool childControlHeight;
+// Declarations
+ __declspec(property(get=get_childControlHeight, put=set_childControlHeight)) bool  childControlHeight;
 
-  __declspec(property(get = get_childControlWidth, put = set_childControlWidth)) bool childControlWidth;
+ __declspec(property(get=get_childControlWidth, put=set_childControlWidth)) bool  childControlWidth;
 
-  __declspec(property(get = get_childForceExpandHeight, put = set_childForceExpandHeight)) bool childForceExpandHeight;
+ __declspec(property(get=get_childForceExpandHeight, put=set_childForceExpandHeight)) bool  childForceExpandHeight;
 
-  __declspec(property(get = get_childForceExpandWidth, put = set_childForceExpandWidth)) bool childForceExpandWidth;
+ __declspec(property(get=get_childForceExpandWidth, put=set_childForceExpandWidth)) bool  childForceExpandWidth;
 
-  __declspec(property(get = get_childScaleHeight, put = set_childScaleHeight)) bool childScaleHeight;
+ __declspec(property(get=get_childScaleHeight, put=set_childScaleHeight)) bool  childScaleHeight;
 
-  __declspec(property(get = get_childScaleWidth, put = set_childScaleWidth)) bool childScaleWidth;
+ __declspec(property(get=get_childScaleWidth, put=set_childScaleWidth)) bool  childScaleWidth;
 
-  /// @brief Field m_ChildControlHeight, offset 0x67, size 0x1
-  __declspec(property(get = __cordl_internal_get_m_ChildControlHeight, put = __cordl_internal_set_m_ChildControlHeight)) bool m_ChildControlHeight;
+/// @brief Field m_ChildControlHeight, offset 0x67, size 0x1 
+ __declspec(property(get=__cordl_internal_get_m_ChildControlHeight, put=__cordl_internal_set_m_ChildControlHeight)) bool  m_ChildControlHeight;
 
-  /// @brief Field m_ChildControlWidth, offset 0x66, size 0x1
-  __declspec(property(get = __cordl_internal_get_m_ChildControlWidth, put = __cordl_internal_set_m_ChildControlWidth)) bool m_ChildControlWidth;
+/// @brief Field m_ChildControlWidth, offset 0x66, size 0x1 
+ __declspec(property(get=__cordl_internal_get_m_ChildControlWidth, put=__cordl_internal_set_m_ChildControlWidth)) bool  m_ChildControlWidth;
 
-  /// @brief Field m_ChildForceExpandHeight, offset 0x65, size 0x1
-  __declspec(property(get = __cordl_internal_get_m_ChildForceExpandHeight, put = __cordl_internal_set_m_ChildForceExpandHeight)) bool m_ChildForceExpandHeight;
+/// @brief Field m_ChildForceExpandHeight, offset 0x65, size 0x1 
+ __declspec(property(get=__cordl_internal_get_m_ChildForceExpandHeight, put=__cordl_internal_set_m_ChildForceExpandHeight)) bool  m_ChildForceExpandHeight;
 
-  /// @brief Field m_ChildForceExpandWidth, offset 0x64, size 0x1
-  __declspec(property(get = __cordl_internal_get_m_ChildForceExpandWidth, put = __cordl_internal_set_m_ChildForceExpandWidth)) bool m_ChildForceExpandWidth;
+/// @brief Field m_ChildForceExpandWidth, offset 0x64, size 0x1 
+ __declspec(property(get=__cordl_internal_get_m_ChildForceExpandWidth, put=__cordl_internal_set_m_ChildForceExpandWidth)) bool  m_ChildForceExpandWidth;
 
-  /// @brief Field m_ChildScaleHeight, offset 0x69, size 0x1
-  __declspec(property(get = __cordl_internal_get_m_ChildScaleHeight, put = __cordl_internal_set_m_ChildScaleHeight)) bool m_ChildScaleHeight;
+/// @brief Field m_ChildScaleHeight, offset 0x69, size 0x1 
+ __declspec(property(get=__cordl_internal_get_m_ChildScaleHeight, put=__cordl_internal_set_m_ChildScaleHeight)) bool  m_ChildScaleHeight;
 
-  /// @brief Field m_ChildScaleWidth, offset 0x68, size 0x1
-  __declspec(property(get = __cordl_internal_get_m_ChildScaleWidth, put = __cordl_internal_set_m_ChildScaleWidth)) bool m_ChildScaleWidth;
+/// @brief Field m_ChildScaleWidth, offset 0x68, size 0x1 
+ __declspec(property(get=__cordl_internal_get_m_ChildScaleWidth, put=__cordl_internal_set_m_ChildScaleWidth)) bool  m_ChildScaleWidth;
 
-  /// @brief Field m_ReverseArrangement, offset 0x6a, size 0x1
-  __declspec(property(get = __cordl_internal_get_m_ReverseArrangement, put = __cordl_internal_set_m_ReverseArrangement)) bool m_ReverseArrangement;
+/// @brief Field m_ReverseArrangement, offset 0x6a, size 0x1 
+ __declspec(property(get=__cordl_internal_get_m_ReverseArrangement, put=__cordl_internal_set_m_ReverseArrangement)) bool  m_ReverseArrangement;
 
-  /// @brief Field m_Spacing, offset 0x60, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_Spacing, put = __cordl_internal_set_m_Spacing)) float_t m_Spacing;
+/// @brief Field m_Spacing, offset 0x60, size 0x4 
+ __declspec(property(get=__cordl_internal_get_m_Spacing, put=__cordl_internal_set_m_Spacing)) float_t  m_Spacing;
 
-  __declspec(property(get = get_reverseArrangement, put = set_reverseArrangement)) bool reverseArrangement;
+ __declspec(property(get=get_reverseArrangement, put=set_reverseArrangement)) bool  reverseArrangement;
 
-  __declspec(property(get = get_spacing, put = set_spacing)) float_t spacing;
+ __declspec(property(get=get_spacing, put=set_spacing)) float_t  spacing;
 
-  /// @brief Method CalcAlongAxis, addr 0x6ca1d28, size 0x2b0, virtual false, abstract: false, final false
-  inline void CalcAlongAxis(int32_t axis, bool isVertical);
+/// @brief Method CalcAlongAxis, addr 0x6ca38a0, size 0x2b0, virtual false, abstract: false, final false
+inline void CalcAlongAxis(int32_t  axis, bool  isVertical) ;
 
-  /// @brief Method GetChildSizes, addr 0x6ca2980, size 0x11c, virtual false, abstract: false, final false
-  inline void GetChildSizes(::UnityEngine::RectTransform* child, int32_t axis, bool controlSize, bool childForceExpand, ::ByRef<float_t> min, ::ByRef<float_t> preferred, ::ByRef<float_t> flexible);
+/// @brief Method GetChildSizes, addr 0x6ca44f8, size 0x11c, virtual false, abstract: false, final false
+inline void GetChildSizes(::UnityEngine::RectTransform*  child, int32_t  axis, bool  controlSize, bool  childForceExpand, ::ByRef<float_t>  min, ::ByRef<float_t>  preferred, ::ByRef<float_t>  flexible) ;
 
-  static inline ::UnityEngine::UI::HorizontalOrVerticalLayoutGroup* New_ctor();
+static inline ::UnityEngine::UI::HorizontalOrVerticalLayoutGroup* New_ctor() ;
 
-  /// @brief Method SetChildrenAlongAxis, addr 0x6ca1ff0, size 0x644, virtual false, abstract: false, final false
-  inline void SetChildrenAlongAxis(int32_t axis, bool isVertical);
+/// @brief Method SetChildrenAlongAxis, addr 0x6ca3b68, size 0x644, virtual false, abstract: false, final false
+inline void SetChildrenAlongAxis(int32_t  axis, bool  isVertical) ;
 
-  constexpr bool const& __cordl_internal_get_m_ChildControlHeight() const;
+constexpr bool const& __cordl_internal_get_m_ChildControlHeight() const;
 
-  constexpr bool& __cordl_internal_get_m_ChildControlHeight();
+constexpr bool& __cordl_internal_get_m_ChildControlHeight() ;
 
-  constexpr bool const& __cordl_internal_get_m_ChildControlWidth() const;
+constexpr bool const& __cordl_internal_get_m_ChildControlWidth() const;
 
-  constexpr bool& __cordl_internal_get_m_ChildControlWidth();
+constexpr bool& __cordl_internal_get_m_ChildControlWidth() ;
 
-  constexpr bool const& __cordl_internal_get_m_ChildForceExpandHeight() const;
+constexpr bool const& __cordl_internal_get_m_ChildForceExpandHeight() const;
 
-  constexpr bool& __cordl_internal_get_m_ChildForceExpandHeight();
+constexpr bool& __cordl_internal_get_m_ChildForceExpandHeight() ;
 
-  constexpr bool const& __cordl_internal_get_m_ChildForceExpandWidth() const;
+constexpr bool const& __cordl_internal_get_m_ChildForceExpandWidth() const;
 
-  constexpr bool& __cordl_internal_get_m_ChildForceExpandWidth();
+constexpr bool& __cordl_internal_get_m_ChildForceExpandWidth() ;
 
-  constexpr bool const& __cordl_internal_get_m_ChildScaleHeight() const;
+constexpr bool const& __cordl_internal_get_m_ChildScaleHeight() const;
 
-  constexpr bool& __cordl_internal_get_m_ChildScaleHeight();
+constexpr bool& __cordl_internal_get_m_ChildScaleHeight() ;
 
-  constexpr bool const& __cordl_internal_get_m_ChildScaleWidth() const;
+constexpr bool const& __cordl_internal_get_m_ChildScaleWidth() const;
 
-  constexpr bool& __cordl_internal_get_m_ChildScaleWidth();
+constexpr bool& __cordl_internal_get_m_ChildScaleWidth() ;
 
-  constexpr bool const& __cordl_internal_get_m_ReverseArrangement() const;
+constexpr bool const& __cordl_internal_get_m_ReverseArrangement() const;
 
-  constexpr bool& __cordl_internal_get_m_ReverseArrangement();
+constexpr bool& __cordl_internal_get_m_ReverseArrangement() ;
 
-  constexpr float_t const& __cordl_internal_get_m_Spacing() const;
+constexpr float_t const& __cordl_internal_get_m_Spacing() const;
 
-  constexpr float_t& __cordl_internal_get_m_Spacing();
+constexpr float_t& __cordl_internal_get_m_Spacing() ;
 
-  constexpr void __cordl_internal_set_m_ChildControlHeight(bool value);
+constexpr void __cordl_internal_set_m_ChildControlHeight(bool  value) ;
 
-  constexpr void __cordl_internal_set_m_ChildControlWidth(bool value);
+constexpr void __cordl_internal_set_m_ChildControlWidth(bool  value) ;
 
-  constexpr void __cordl_internal_set_m_ChildForceExpandHeight(bool value);
+constexpr void __cordl_internal_set_m_ChildForceExpandHeight(bool  value) ;
 
-  constexpr void __cordl_internal_set_m_ChildForceExpandWidth(bool value);
+constexpr void __cordl_internal_set_m_ChildForceExpandWidth(bool  value) ;
 
-  constexpr void __cordl_internal_set_m_ChildScaleHeight(bool value);
+constexpr void __cordl_internal_set_m_ChildScaleHeight(bool  value) ;
 
-  constexpr void __cordl_internal_set_m_ChildScaleWidth(bool value);
+constexpr void __cordl_internal_set_m_ChildScaleWidth(bool  value) ;
 
-  constexpr void __cordl_internal_set_m_ReverseArrangement(bool value);
+constexpr void __cordl_internal_set_m_ReverseArrangement(bool  value) ;
 
-  constexpr void __cordl_internal_set_m_Spacing(float_t value);
+constexpr void __cordl_internal_set_m_Spacing(float_t  value) ;
 
-  /// @brief Method .ctor, addr 0x6ca1cfc, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6ca3874, size 0xc, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_childControlHeight, addr 0x6ca27e0, size 0x8, virtual false, abstract: false, final false
-  inline bool get_childControlHeight();
+/// @brief Method get_childControlHeight, addr 0x6ca4358, size 0x8, virtual false, abstract: false, final false
+inline bool get_childControlHeight() ;
 
-  /// @brief Method get_childControlWidth, addr 0x6ca2778, size 0x8, virtual false, abstract: false, final false
-  inline bool get_childControlWidth();
+/// @brief Method get_childControlWidth, addr 0x6ca42f0, size 0x8, virtual false, abstract: false, final false
+inline bool get_childControlWidth() ;
 
-  /// @brief Method get_childForceExpandHeight, addr 0x6ca2710, size 0x8, virtual false, abstract: false, final false
-  inline bool get_childForceExpandHeight();
+/// @brief Method get_childForceExpandHeight, addr 0x6ca4288, size 0x8, virtual false, abstract: false, final false
+inline bool get_childForceExpandHeight() ;
 
-  /// @brief Method get_childForceExpandWidth, addr 0x6ca26a8, size 0x8, virtual false, abstract: false, final false
-  inline bool get_childForceExpandWidth();
+/// @brief Method get_childForceExpandWidth, addr 0x6ca4220, size 0x8, virtual false, abstract: false, final false
+inline bool get_childForceExpandWidth() ;
 
-  /// @brief Method get_childScaleHeight, addr 0x6ca28b0, size 0x8, virtual false, abstract: false, final false
-  inline bool get_childScaleHeight();
+/// @brief Method get_childScaleHeight, addr 0x6ca4428, size 0x8, virtual false, abstract: false, final false
+inline bool get_childScaleHeight() ;
 
-  /// @brief Method get_childScaleWidth, addr 0x6ca2848, size 0x8, virtual false, abstract: false, final false
-  inline bool get_childScaleWidth();
+/// @brief Method get_childScaleWidth, addr 0x6ca43c0, size 0x8, virtual false, abstract: false, final false
+inline bool get_childScaleWidth() ;
 
-  /// @brief Method get_reverseArrangement, addr 0x6ca2918, size 0x8, virtual false, abstract: false, final false
-  inline bool get_reverseArrangement();
+/// @brief Method get_reverseArrangement, addr 0x6ca4490, size 0x8, virtual false, abstract: false, final false
+inline bool get_reverseArrangement() ;
 
-  /// @brief Method get_spacing, addr 0x6ca2640, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_spacing();
+/// @brief Method get_spacing, addr 0x6ca41b8, size 0x8, virtual false, abstract: false, final false
+inline float_t get_spacing() ;
 
-  /// @brief Method set_childControlHeight, addr 0x6ca27e8, size 0x60, virtual false, abstract: false, final false
-  inline void set_childControlHeight(bool value);
+/// @brief Method set_childControlHeight, addr 0x6ca4360, size 0x60, virtual false, abstract: false, final false
+inline void set_childControlHeight(bool  value) ;
 
-  /// @brief Method set_childControlWidth, addr 0x6ca2780, size 0x60, virtual false, abstract: false, final false
-  inline void set_childControlWidth(bool value);
+/// @brief Method set_childControlWidth, addr 0x6ca42f8, size 0x60, virtual false, abstract: false, final false
+inline void set_childControlWidth(bool  value) ;
 
-  /// @brief Method set_childForceExpandHeight, addr 0x6ca2718, size 0x60, virtual false, abstract: false, final false
-  inline void set_childForceExpandHeight(bool value);
+/// @brief Method set_childForceExpandHeight, addr 0x6ca4290, size 0x60, virtual false, abstract: false, final false
+inline void set_childForceExpandHeight(bool  value) ;
 
-  /// @brief Method set_childForceExpandWidth, addr 0x6ca26b0, size 0x60, virtual false, abstract: false, final false
-  inline void set_childForceExpandWidth(bool value);
+/// @brief Method set_childForceExpandWidth, addr 0x6ca4228, size 0x60, virtual false, abstract: false, final false
+inline void set_childForceExpandWidth(bool  value) ;
 
-  /// @brief Method set_childScaleHeight, addr 0x6ca28b8, size 0x60, virtual false, abstract: false, final false
-  inline void set_childScaleHeight(bool value);
+/// @brief Method set_childScaleHeight, addr 0x6ca4430, size 0x60, virtual false, abstract: false, final false
+inline void set_childScaleHeight(bool  value) ;
 
-  /// @brief Method set_childScaleWidth, addr 0x6ca2850, size 0x60, virtual false, abstract: false, final false
-  inline void set_childScaleWidth(bool value);
+/// @brief Method set_childScaleWidth, addr 0x6ca43c8, size 0x60, virtual false, abstract: false, final false
+inline void set_childScaleWidth(bool  value) ;
 
-  /// @brief Method set_reverseArrangement, addr 0x6ca2920, size 0x60, virtual false, abstract: false, final false
-  inline void set_reverseArrangement(bool value);
+/// @brief Method set_reverseArrangement, addr 0x6ca4498, size 0x60, virtual false, abstract: false, final false
+inline void set_reverseArrangement(bool  value) ;
 
-  /// @brief Method set_spacing, addr 0x6ca2648, size 0x60, virtual false, abstract: false, final false
-  inline void set_spacing(float_t value);
+/// @brief Method set_spacing, addr 0x6ca41c0, size 0x60, virtual false, abstract: false, final false
+inline void set_spacing(float_t  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HorizontalOrVerticalLayoutGroup();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr HorizontalOrVerticalLayoutGroup() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HorizontalOrVerticalLayoutGroup", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  HorizontalOrVerticalLayoutGroup(HorizontalOrVerticalLayoutGroup&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HorizontalOrVerticalLayoutGroup", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  HorizontalOrVerticalLayoutGroup(HorizontalOrVerticalLayoutGroup const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "HorizontalOrVerticalLayoutGroup", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+HorizontalOrVerticalLayoutGroup(HorizontalOrVerticalLayoutGroup && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17433 };
+// Ctor Parameters [CppParam { name: "", ty: "HorizontalOrVerticalLayoutGroup", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+HorizontalOrVerticalLayoutGroup(HorizontalOrVerticalLayoutGroup const& ) = delete;
 
-  /// @brief Field m_Spacing, offset: 0x60, size: 0x4, def value: None
-  float_t ___m_Spacing;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{17435};
 
-  /// @brief Field m_ChildForceExpandWidth, offset: 0x64, size: 0x1, def value: None
-  bool ___m_ChildForceExpandWidth;
+/// @brief Field m_Spacing, offset: 0x60, size: 0x4, def value: None
+ float_t  ___m_Spacing;
 
-  /// @brief Field m_ChildForceExpandHeight, offset: 0x65, size: 0x1, def value: None
-  bool ___m_ChildForceExpandHeight;
+/// @brief Field m_ChildForceExpandWidth, offset: 0x64, size: 0x1, def value: None
+ bool  ___m_ChildForceExpandWidth;
 
-  /// @brief Field m_ChildControlWidth, offset: 0x66, size: 0x1, def value: None
-  bool ___m_ChildControlWidth;
+/// @brief Field m_ChildForceExpandHeight, offset: 0x65, size: 0x1, def value: None
+ bool  ___m_ChildForceExpandHeight;
 
-  /// @brief Field m_ChildControlHeight, offset: 0x67, size: 0x1, def value: None
-  bool ___m_ChildControlHeight;
+/// @brief Field m_ChildControlWidth, offset: 0x66, size: 0x1, def value: None
+ bool  ___m_ChildControlWidth;
 
-  /// @brief Field m_ChildScaleWidth, offset: 0x68, size: 0x1, def value: None
-  bool ___m_ChildScaleWidth;
+/// @brief Field m_ChildControlHeight, offset: 0x67, size: 0x1, def value: None
+ bool  ___m_ChildControlHeight;
 
-  /// @brief Field m_ChildScaleHeight, offset: 0x69, size: 0x1, def value: None
-  bool ___m_ChildScaleHeight;
+/// @brief Field m_ChildScaleWidth, offset: 0x68, size: 0x1, def value: None
+ bool  ___m_ChildScaleWidth;
 
-  /// @brief Field m_ReverseArrangement, offset: 0x6a, size: 0x1, def value: None
-  bool ___m_ReverseArrangement;
+/// @brief Field m_ChildScaleHeight, offset: 0x69, size: 0x1, def value: None
+ bool  ___m_ChildScaleHeight;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field m_ReverseArrangement, offset: 0x6a, size: 0x1, def value: None
+ bool  ___m_ReverseArrangement;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::UI::HorizontalOrVerticalLayoutGroup, ___m_Spacing) == 0x60, "Offset mismatch!");
@@ -235,6 +235,6 @@ static_assert(offsetof(::UnityEngine::UI::HorizontalOrVerticalLayoutGroup, ___m_
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UI::HorizontalOrVerticalLayoutGroup, 0x70>, "Size mismatch!");
 
-} // namespace UnityEngine::UI
+} // namespace end def UnityEngine::UI
 NEED_NO_BOX(::UnityEngine::UI::HorizontalOrVerticalLayoutGroup);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UI::HorizontalOrVerticalLayoutGroup*, "UnityEngine.UI", "HorizontalOrVerticalLayoutGroup");

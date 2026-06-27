@@ -23,123 +23,123 @@ namespace UnityEngine::Rendering::Universal {
 // CS Name: UnityEngine.Rendering.Universal.DecalCulledChunk
 class CORDL_TYPE DecalCulledChunk : public ::UnityEngine::Rendering::Universal::DecalChunk {
 public:
-  // Declarations
-  /// @brief Field cameraPosition, offset 0x28, size 0xc
-  __declspec(property(get = __cordl_internal_get_cameraPosition, put = __cordl_internal_set_cameraPosition)) ::UnityEngine::Vector3 cameraPosition;
+// Declarations
+/// @brief Field cameraPosition, offset 0x28, size 0xc 
+ __declspec(property(get=__cordl_internal_get_cameraPosition, put=__cordl_internal_set_cameraPosition)) ::UnityEngine::Vector3  cameraPosition;
 
-  /// @brief Field cullingGroups, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_cullingGroups, put = __cordl_internal_set_cullingGroups)) ::UnityEngine::CullingGroup* cullingGroups;
+/// @brief Field cullingGroups, offset 0x48, size 0x8 
+ __declspec(property(get=__cordl_internal_get_cullingGroups, put=__cordl_internal_set_cullingGroups)) ::UnityEngine::CullingGroup*  cullingGroups;
 
-  /// @brief Field cullingMask, offset 0x40, size 0x4
-  __declspec(property(get = __cordl_internal_get_cullingMask, put = __cordl_internal_set_cullingMask)) int32_t cullingMask;
+/// @brief Field cullingMask, offset 0x40, size 0x4 
+ __declspec(property(get=__cordl_internal_get_cullingMask, put=__cordl_internal_set_cullingMask)) int32_t  cullingMask;
 
-  /// @brief Field sceneCullingMask, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_sceneCullingMask, put = __cordl_internal_set_sceneCullingMask)) uint64_t sceneCullingMask;
+/// @brief Field sceneCullingMask, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get_sceneCullingMask, put=__cordl_internal_set_sceneCullingMask)) uint64_t  sceneCullingMask;
 
-  /// @brief Field visibleDecalCount, offset 0x68, size 0x4
-  __declspec(property(get = __cordl_internal_get_visibleDecalCount, put = __cordl_internal_set_visibleDecalCount)) int32_t visibleDecalCount;
+/// @brief Field visibleDecalCount, offset 0x68, size 0x4 
+ __declspec(property(get=__cordl_internal_get_visibleDecalCount, put=__cordl_internal_set_visibleDecalCount)) int32_t  visibleDecalCount;
 
-  /// @brief Field visibleDecalIndexArray, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_visibleDecalIndexArray, put = __cordl_internal_set_visibleDecalIndexArray)) ::ArrayW<int32_t, ::Array<int32_t>*> visibleDecalIndexArray;
+/// @brief Field visibleDecalIndexArray, offset 0x50, size 0x8 
+ __declspec(property(get=__cordl_internal_get_visibleDecalIndexArray, put=__cordl_internal_set_visibleDecalIndexArray)) ::ArrayW<int32_t,::Array<int32_t>*>  visibleDecalIndexArray;
 
-  /// @brief Field visibleDecalIndices, offset 0x58, size 0x10
-  __declspec(property(get = __cordl_internal_get_visibleDecalIndices, put = __cordl_internal_set_visibleDecalIndices)) ::Unity::Collections::NativeArray_1<int32_t> visibleDecalIndices;
+/// @brief Field visibleDecalIndices, offset 0x58, size 0x10 
+ __declspec(property(get=__cordl_internal_get_visibleDecalIndices, put=__cordl_internal_set_visibleDecalIndices)) ::Unity::Collections::NativeArray_1<int32_t>  visibleDecalIndices;
 
-  /// @brief Method Dispose, addr 0x671aa44, size 0x7c, virtual true, abstract: false, final false
-  inline void Dispose();
+/// @brief Method Dispose, addr 0x671c5bc, size 0x7c, virtual true, abstract: false, final false
+inline void Dispose() ;
 
-  static inline ::UnityEngine::Rendering::Universal::DecalCulledChunk* New_ctor();
+static inline ::UnityEngine::Rendering::Universal::DecalCulledChunk* New_ctor() ;
 
-  /// @brief Method RemoveAtSwapBack, addr 0x671a8bc, size 0x9c, virtual true, abstract: false, final false
-  inline void RemoveAtSwapBack(int32_t entityIndex);
+/// @brief Method RemoveAtSwapBack, addr 0x671c434, size 0x9c, virtual true, abstract: false, final false
+inline void RemoveAtSwapBack(int32_t  entityIndex) ;
 
-  /// @brief Method SetCapacity, addr 0x671a958, size 0xec, virtual true, abstract: false, final false
-  inline void SetCapacity(int32_t newCapacity);
+/// @brief Method SetCapacity, addr 0x671c4d0, size 0xec, virtual true, abstract: false, final false
+inline void SetCapacity(int32_t  newCapacity) ;
 
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_cameraPosition() const;
+constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_cameraPosition() const;
 
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_cameraPosition();
+constexpr ::UnityEngine::Vector3& __cordl_internal_get_cameraPosition() ;
 
-  constexpr ::UnityEngine::CullingGroup* const& __cordl_internal_get_cullingGroups() const;
+constexpr ::UnityEngine::CullingGroup* const& __cordl_internal_get_cullingGroups() const;
 
-  constexpr ::UnityEngine::CullingGroup*& __cordl_internal_get_cullingGroups();
+constexpr ::UnityEngine::CullingGroup*& __cordl_internal_get_cullingGroups() ;
 
-  constexpr int32_t const& __cordl_internal_get_cullingMask() const;
+constexpr int32_t const& __cordl_internal_get_cullingMask() const;
 
-  constexpr int32_t& __cordl_internal_get_cullingMask();
+constexpr int32_t& __cordl_internal_get_cullingMask() ;
 
-  constexpr uint64_t const& __cordl_internal_get_sceneCullingMask() const;
+constexpr uint64_t const& __cordl_internal_get_sceneCullingMask() const;
 
-  constexpr uint64_t& __cordl_internal_get_sceneCullingMask();
+constexpr uint64_t& __cordl_internal_get_sceneCullingMask() ;
 
-  constexpr int32_t const& __cordl_internal_get_visibleDecalCount() const;
+constexpr int32_t const& __cordl_internal_get_visibleDecalCount() const;
 
-  constexpr int32_t& __cordl_internal_get_visibleDecalCount();
+constexpr int32_t& __cordl_internal_get_visibleDecalCount() ;
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_visibleDecalIndexArray() const;
+constexpr ::ArrayW<int32_t,::Array<int32_t>*> const& __cordl_internal_get_visibleDecalIndexArray() const;
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_visibleDecalIndexArray();
+constexpr ::ArrayW<int32_t,::Array<int32_t>*>& __cordl_internal_get_visibleDecalIndexArray() ;
 
-  constexpr ::Unity::Collections::NativeArray_1<int32_t> const& __cordl_internal_get_visibleDecalIndices() const;
+constexpr ::Unity::Collections::NativeArray_1<int32_t> const& __cordl_internal_get_visibleDecalIndices() const;
 
-  constexpr ::Unity::Collections::NativeArray_1<int32_t>& __cordl_internal_get_visibleDecalIndices();
+constexpr ::Unity::Collections::NativeArray_1<int32_t>& __cordl_internal_get_visibleDecalIndices() ;
 
-  constexpr void __cordl_internal_set_cameraPosition(::UnityEngine::Vector3 value);
+constexpr void __cordl_internal_set_cameraPosition(::UnityEngine::Vector3  value) ;
 
-  constexpr void __cordl_internal_set_cullingGroups(::UnityEngine::CullingGroup* value);
+constexpr void __cordl_internal_set_cullingGroups(::UnityEngine::CullingGroup*  value) ;
 
-  constexpr void __cordl_internal_set_cullingMask(int32_t value);
+constexpr void __cordl_internal_set_cullingMask(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_sceneCullingMask(uint64_t value);
+constexpr void __cordl_internal_set_sceneCullingMask(uint64_t  value) ;
 
-  constexpr void __cordl_internal_set_visibleDecalCount(int32_t value);
+constexpr void __cordl_internal_set_visibleDecalCount(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_visibleDecalIndexArray(::ArrayW<int32_t, ::Array<int32_t>*> value);
+constexpr void __cordl_internal_set_visibleDecalIndexArray(::ArrayW<int32_t,::Array<int32_t>*>  value) ;
 
-  constexpr void __cordl_internal_set_visibleDecalIndices(::Unity::Collections::NativeArray_1<int32_t> value);
+constexpr void __cordl_internal_set_visibleDecalIndices(::Unity::Collections::NativeArray_1<int32_t>  value) ;
 
-  /// @brief Method .ctor, addr 0x6717550, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x67190c8, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DecalCulledChunk();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr DecalCulledChunk() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DecalCulledChunk", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  DecalCulledChunk(DecalCulledChunk&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DecalCulledChunk", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  DecalCulledChunk(DecalCulledChunk const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "DecalCulledChunk", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+DecalCulledChunk(DecalCulledChunk && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12691 };
+// Ctor Parameters [CppParam { name: "", ty: "DecalCulledChunk", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+DecalCulledChunk(DecalCulledChunk const& ) = delete;
 
-  /// @brief Field cameraPosition, offset: 0x28, size: 0xc, def value: None
-  ::UnityEngine::Vector3 ___cameraPosition;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12692};
 
-  /// @brief Field sceneCullingMask, offset: 0x38, size: 0x8, def value: None
-  uint64_t ___sceneCullingMask;
+/// @brief Field cameraPosition, offset: 0x28, size: 0xc, def value: None
+ ::UnityEngine::Vector3  ___cameraPosition;
 
-  /// @brief Field cullingMask, offset: 0x40, size: 0x4, def value: None
-  int32_t ___cullingMask;
+/// @brief Field sceneCullingMask, offset: 0x38, size: 0x8, def value: None
+ uint64_t  ___sceneCullingMask;
 
-  /// @brief Field cullingGroups, offset: 0x48, size: 0x8, def value: None
-  ::UnityEngine::CullingGroup* ___cullingGroups;
+/// @brief Field cullingMask, offset: 0x40, size: 0x4, def value: None
+ int32_t  ___cullingMask;
 
-  /// @brief Field visibleDecalIndexArray, offset: 0x50, size: 0x8, def value: None
-  ::ArrayW<int32_t, ::Array<int32_t>*> ___visibleDecalIndexArray;
+/// @brief Field cullingGroups, offset: 0x48, size: 0x8, def value: None
+ ::UnityEngine::CullingGroup*  ___cullingGroups;
 
-  /// @brief Field visibleDecalIndices, offset: 0x58, size: 0x10, def value: None
-  ::Unity::Collections::NativeArray_1<int32_t> ___visibleDecalIndices;
+/// @brief Field visibleDecalIndexArray, offset: 0x50, size: 0x8, def value: None
+ ::ArrayW<int32_t,::Array<int32_t>*>  ___visibleDecalIndexArray;
 
-  /// @brief Field visibleDecalCount, offset: 0x68, size: 0x4, def value: None
-  int32_t ___visibleDecalCount;
+/// @brief Field visibleDecalIndices, offset: 0x58, size: 0x10, def value: None
+ ::Unity::Collections::NativeArray_1<int32_t>  ___visibleDecalIndices;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field visibleDecalCount, offset: 0x68, size: 0x4, def value: None
+ int32_t  ___visibleDecalCount;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Rendering::Universal::DecalCulledChunk, ___cameraPosition) == 0x28, "Offset mismatch!");
@@ -158,6 +158,6 @@ static_assert(offsetof(::UnityEngine::Rendering::Universal::DecalCulledChunk, __
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::Universal::DecalCulledChunk, 0x70>, "Size mismatch!");
 
-} // namespace UnityEngine::Rendering::Universal
+} // namespace end def UnityEngine::Rendering::Universal
 NEED_NO_BOX(::UnityEngine::Rendering::Universal::DecalCulledChunk);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::Universal::DecalCulledChunk*, "UnityEngine.Rendering.Universal", "DecalCulledChunk");

@@ -7,10 +7,12 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__RuntimeAnimatorController_def.hpp"
 CORDL_MODULE_EXPORT(AnimatorOverrideController)
 namespace System::Collections::Generic {
-template <typename T> class IList_1;
+template<typename T>
+class IList_1;
 }
 namespace System::Collections::Generic {
-template <typename TKey, typename TValue> struct KeyValuePair_2;
+template<typename TKey,typename TValue>
+struct KeyValuePair_2;
 }
 namespace System {
 struct IntPtr;
@@ -43,115 +45,113 @@ namespace UnityEngine {
 // CS Name: UnityEngine.AnimatorOverrideController/OnOverrideControllerDirtyCallback
 class CORDL_TYPE AnimatorOverrideController_OnOverrideControllerDirtyCallback : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method Invoke, addr 0x68e7cb0, size 0x14, virtual true, abstract: false, final false
-  inline void Invoke();
+// Declarations
+/// @brief Method Invoke, addr 0x68e9828, size 0x14, virtual true, abstract: false, final false
+inline void Invoke() ;
 
-  static inline ::UnityEngine::AnimatorOverrideController_OnOverrideControllerDirtyCallback* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::UnityEngine::AnimatorOverrideController_OnOverrideControllerDirtyCallback* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x68e7c48, size 0x68, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x68e97c0, size 0x68, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AnimatorOverrideController_OnOverrideControllerDirtyCallback();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr AnimatorOverrideController_OnOverrideControllerDirtyCallback() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AnimatorOverrideController_OnOverrideControllerDirtyCallback", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  AnimatorOverrideController_OnOverrideControllerDirtyCallback(AnimatorOverrideController_OnOverrideControllerDirtyCallback&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AnimatorOverrideController_OnOverrideControllerDirtyCallback", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  AnimatorOverrideController_OnOverrideControllerDirtyCallback(AnimatorOverrideController_OnOverrideControllerDirtyCallback const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "AnimatorOverrideController_OnOverrideControllerDirtyCallback", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+AnimatorOverrideController_OnOverrideControllerDirtyCallback(AnimatorOverrideController_OnOverrideControllerDirtyCallback && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20012 };
+// Ctor Parameters [CppParam { name: "", ty: "AnimatorOverrideController_OnOverrideControllerDirtyCallback", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+AnimatorOverrideController_OnOverrideControllerDirtyCallback(AnimatorOverrideController_OnOverrideControllerDirtyCallback const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20015};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::AnimatorOverrideController_OnOverrideControllerDirtyCallback, 0x80>, "Size mismatch!");
 
-} // namespace UnityEngine
+} // namespace end def UnityEngine
 // Dependencies UnityEngine.RuntimeAnimatorController
 namespace UnityEngine {
 // Is value type: false
 // CS Name: UnityEngine.AnimatorOverrideController
 class CORDL_TYPE AnimatorOverrideController : public ::UnityEngine::RuntimeAnimatorController {
 public:
-  // Declarations
-  using OnOverrideControllerDirtyCallback = ::UnityEngine::AnimatorOverrideController_OnOverrideControllerDirtyCallback;
+// Declarations
+using OnOverrideControllerDirtyCallback = ::UnityEngine::AnimatorOverrideController_OnOverrideControllerDirtyCallback;
 
-  /// @brief Field OnOverrideControllerDirty, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_OnOverrideControllerDirty,
-                      put = __cordl_internal_set_OnOverrideControllerDirty)) ::UnityEngine::AnimatorOverrideController_OnOverrideControllerDirtyCallback* OnOverrideControllerDirty;
+/// @brief Field OnOverrideControllerDirty, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_OnOverrideControllerDirty, put=__cordl_internal_set_OnOverrideControllerDirty)) ::UnityEngine::AnimatorOverrideController_OnOverrideControllerDirtyCallback*  OnOverrideControllerDirty;
 
-  /// @brief Method ApplyOverrides, addr 0x68e79fc, size 0x224, virtual false, abstract: false, final false
-  inline void
-  ApplyOverrides(::System::Collections::Generic::IList_1<::System::Collections::Generic::KeyValuePair_2<::UnityW<::UnityEngine::AnimationClip>, ::UnityW<::UnityEngine::AnimationClip>>>* overrides);
+/// @brief Method ApplyOverrides, addr 0x68e9574, size 0x224, virtual false, abstract: false, final false
+inline void ApplyOverrides(::System::Collections::Generic::IList_1<::System::Collections::Generic::KeyValuePair_2<::UnityW<::UnityEngine::AnimationClip>,::UnityW<::UnityEngine::AnimationClip>>>*  overrides) ;
 
-  /// @brief Method Internal_Create, addr 0x68e7720, size 0x90, virtual false, abstract: false, final false
-  static inline void Internal_Create(::UnityEngine::AnimatorOverrideController* self, ::UnityEngine::RuntimeAnimatorController* controller);
+/// @brief Method Internal_Create, addr 0x68e9298, size 0x90, virtual false, abstract: false, final false
+static inline void Internal_Create(::UnityEngine::AnimatorOverrideController*  self, ::UnityEngine::RuntimeAnimatorController*  controller) ;
 
-  /// @brief Method Internal_Create_Injected, addr 0x68e77b0, size 0x44, virtual false, abstract: false, final false
-  static inline void Internal_Create_Injected(::UnityEngine::AnimatorOverrideController* self, ::System::IntPtr controller);
+/// @brief Method Internal_Create_Injected, addr 0x68e9328, size 0x44, virtual false, abstract: false, final false
+static inline void Internal_Create_Injected(::UnityEngine::AnimatorOverrideController*  self, ::System::IntPtr  controller) ;
 
-  static inline ::UnityEngine::AnimatorOverrideController* New_ctor(::UnityEngine::RuntimeAnimatorController* controller);
+static inline ::UnityEngine::AnimatorOverrideController* New_ctor(::UnityEngine::RuntimeAnimatorController*  controller) ;
 
-  /// @brief Method OnInvalidateOverrideController, addr 0x68e7c20, size 0x28, virtual false, abstract: false, final false
-  static inline void OnInvalidateOverrideController(::UnityEngine::AnimatorOverrideController* controller);
+/// @brief Method OnInvalidateOverrideController, addr 0x68e9798, size 0x28, virtual false, abstract: false, final false
+static inline void OnInvalidateOverrideController(::UnityEngine::AnimatorOverrideController*  controller) ;
 
-  /// @brief Method SendNotification, addr 0x68e7940, size 0x80, virtual false, abstract: false, final false
-  inline void SendNotification();
+/// @brief Method SendNotification, addr 0x68e94b8, size 0x80, virtual false, abstract: false, final false
+inline void SendNotification() ;
 
-  /// @brief Method SendNotification_Injected, addr 0x68e79c0, size 0x3c, virtual false, abstract: false, final false
-  static inline void SendNotification_Injected(::System::IntPtr _unity_self);
+/// @brief Method SendNotification_Injected, addr 0x68e9538, size 0x3c, virtual false, abstract: false, final false
+static inline void SendNotification_Injected(::System::IntPtr  _unity_self) ;
 
-  /// @brief Method SetClip, addr 0x68e77f4, size 0xf0, virtual false, abstract: false, final false
-  inline void SetClip(::UnityEngine::AnimationClip* originalClip, ::UnityEngine::AnimationClip* overrideClip, bool notify);
+/// @brief Method SetClip, addr 0x68e936c, size 0xf0, virtual false, abstract: false, final false
+inline void SetClip(::UnityEngine::AnimationClip*  originalClip, ::UnityEngine::AnimationClip*  overrideClip, bool  notify) ;
 
-  /// @brief Method SetClip_Injected, addr 0x68e78e4, size 0x5c, virtual false, abstract: false, final false
-  static inline void SetClip_Injected(::System::IntPtr _unity_self, ::System::IntPtr originalClip, ::System::IntPtr overrideClip, bool notify);
+/// @brief Method SetClip_Injected, addr 0x68e945c, size 0x5c, virtual false, abstract: false, final false
+static inline void SetClip_Injected(::System::IntPtr  _unity_self, ::System::IntPtr  originalClip, ::System::IntPtr  overrideClip, bool  notify) ;
 
-  constexpr ::UnityEngine::AnimatorOverrideController_OnOverrideControllerDirtyCallback* const& __cordl_internal_get_OnOverrideControllerDirty() const;
+constexpr ::UnityEngine::AnimatorOverrideController_OnOverrideControllerDirtyCallback* const& __cordl_internal_get_OnOverrideControllerDirty() const;
 
-  constexpr ::UnityEngine::AnimatorOverrideController_OnOverrideControllerDirtyCallback*& __cordl_internal_get_OnOverrideControllerDirty();
+constexpr ::UnityEngine::AnimatorOverrideController_OnOverrideControllerDirtyCallback*& __cordl_internal_get_OnOverrideControllerDirty() ;
 
-  constexpr void __cordl_internal_set_OnOverrideControllerDirty(::UnityEngine::AnimatorOverrideController_OnOverrideControllerDirtyCallback* value);
+constexpr void __cordl_internal_set_OnOverrideControllerDirty(::UnityEngine::AnimatorOverrideController_OnOverrideControllerDirtyCallback*  value) ;
 
-  /// @brief Method .ctor, addr 0x68e7698, size 0x30, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::RuntimeAnimatorController* controller);
+/// @brief Method .ctor, addr 0x68e9210, size 0x30, virtual false, abstract: false, final false
+inline void _ctor(::UnityEngine::RuntimeAnimatorController*  controller) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AnimatorOverrideController();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr AnimatorOverrideController() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AnimatorOverrideController", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  AnimatorOverrideController(AnimatorOverrideController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AnimatorOverrideController", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  AnimatorOverrideController(AnimatorOverrideController const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "AnimatorOverrideController", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+AnimatorOverrideController(AnimatorOverrideController && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20013 };
+// Ctor Parameters [CppParam { name: "", ty: "AnimatorOverrideController", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+AnimatorOverrideController(AnimatorOverrideController const& ) = delete;
 
-  /// @brief Field OnOverrideControllerDirty, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::AnimatorOverrideController_OnOverrideControllerDirtyCallback* ___OnOverrideControllerDirty;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20016};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field OnOverrideControllerDirty, offset: 0x18, size: 0x8, def value: None
+ ::UnityEngine::AnimatorOverrideController_OnOverrideControllerDirtyCallback*  ___OnOverrideControllerDirty;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::AnimatorOverrideController, ___OnOverrideControllerDirty) == 0x18, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::AnimatorOverrideController, 0x20>, "Size mismatch!");
 
-} // namespace UnityEngine
+} // namespace end def UnityEngine
 NEED_NO_BOX(::UnityEngine::AnimatorOverrideController);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AnimatorOverrideController*, "UnityEngine", "AnimatorOverrideController");
 NEED_NO_BOX(::UnityEngine::AnimatorOverrideController_OnOverrideControllerDirtyCallback);

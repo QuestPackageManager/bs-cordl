@@ -16,7 +16,8 @@ class Object;
 namespace {
 namespace cordl_internals {
 
-template <typename TOut = void, bool checkTypes = true, typename T, typename... TArgs> CORDL_HIDDEN TOut RunMethodRethrow(T&& instance, MethodInfo const* method, TArgs&&... params) {
+template <typename TOut = void, bool checkTypes = true, typename T, typename... TArgs>
+CORDL_HIDDEN TOut RunMethodRethrow(T&& instance, MethodInfo const* method, TArgs&&... params) {
   CRASH_UNLESS(method);
 
   // do a null check for reference instance method calls

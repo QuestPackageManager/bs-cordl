@@ -22,64 +22,64 @@ namespace BeatmapSaveDataVersion3 {
 // CS Name: BeatmapSaveDataVersion3.RotationEventData
 class CORDL_TYPE RotationEventData : public ::BeatmapSaveDataVersion3::BeatmapSaveDataItem {
 public:
-  // Declarations
-  /// @brief Field e, offset 0x14, size 0x4
-  __declspec(property(get = __cordl_internal_get_e, put = __cordl_internal_set_e)) ::BeatmapSaveDataCommon::ExecutionTime e;
+// Declarations
+/// @brief Field e, offset 0x14, size 0x4 
+ __declspec(property(get=__cordl_internal_get_e, put=__cordl_internal_set_e)) ::BeatmapSaveDataCommon::ExecutionTime  e;
 
-  __declspec(property(get = get_executionTime)) ::BeatmapSaveDataCommon::ExecutionTime executionTime;
+ __declspec(property(get=get_executionTime)) ::BeatmapSaveDataCommon::ExecutionTime  executionTime;
 
-  /// @brief Field r, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get_r, put = __cordl_internal_set_r)) float_t r;
+/// @brief Field r, offset 0x18, size 0x4 
+ __declspec(property(get=__cordl_internal_get_r, put=__cordl_internal_set_r)) float_t  r;
 
-  __declspec(property(get = get_rotation)) float_t rotation;
+ __declspec(property(get=get_rotation)) float_t  rotation;
 
-  static inline ::BeatmapSaveDataVersion3::RotationEventData* New_ctor(float_t beat, ::BeatmapSaveDataCommon::ExecutionTime executionTime, float_t rotation);
+static inline ::BeatmapSaveDataVersion3::RotationEventData* New_ctor(float_t  beat, ::BeatmapSaveDataCommon::ExecutionTime  executionTime, float_t  rotation) ;
 
-  constexpr ::BeatmapSaveDataCommon::ExecutionTime const& __cordl_internal_get_e() const;
+constexpr ::BeatmapSaveDataCommon::ExecutionTime const& __cordl_internal_get_e() const;
 
-  constexpr ::BeatmapSaveDataCommon::ExecutionTime& __cordl_internal_get_e();
+constexpr ::BeatmapSaveDataCommon::ExecutionTime& __cordl_internal_get_e() ;
 
-  constexpr float_t const& __cordl_internal_get_r() const;
+constexpr float_t const& __cordl_internal_get_r() const;
 
-  constexpr float_t& __cordl_internal_get_r();
+constexpr float_t& __cordl_internal_get_r() ;
 
-  constexpr void __cordl_internal_set_e(::BeatmapSaveDataCommon::ExecutionTime value);
+constexpr void __cordl_internal_set_e(::BeatmapSaveDataCommon::ExecutionTime  value) ;
 
-  constexpr void __cordl_internal_set_r(float_t value);
+constexpr void __cordl_internal_set_r(float_t  value) ;
 
-  /// @brief Method .ctor, addr 0x369daf8, size 0x10, virtual false, abstract: false, final false
-  inline void _ctor(float_t beat, ::BeatmapSaveDataCommon::ExecutionTime executionTime, float_t rotation);
+/// @brief Method .ctor, addr 0x369ee8c, size 0x10, virtual false, abstract: false, final false
+inline void _ctor(float_t  beat, ::BeatmapSaveDataCommon::ExecutionTime  executionTime, float_t  rotation) ;
 
-  /// @brief Method get_executionTime, addr 0x369dae8, size 0x8, virtual false, abstract: false, final false
-  inline ::BeatmapSaveDataCommon::ExecutionTime get_executionTime();
+/// @brief Method get_executionTime, addr 0x369ee7c, size 0x8, virtual false, abstract: false, final false
+inline ::BeatmapSaveDataCommon::ExecutionTime get_executionTime() ;
 
-  /// @brief Method get_rotation, addr 0x369daf0, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_rotation();
+/// @brief Method get_rotation, addr 0x369ee84, size 0x8, virtual false, abstract: false, final false
+inline float_t get_rotation() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RotationEventData();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr RotationEventData() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RotationEventData", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  RotationEventData(RotationEventData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RotationEventData", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  RotationEventData(RotationEventData const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "RotationEventData", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+RotationEventData(RotationEventData && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15350 };
+// Ctor Parameters [CppParam { name: "", ty: "RotationEventData", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+RotationEventData(RotationEventData const& ) = delete;
 
-  /// @brief Field e, offset: 0x14, size: 0x4, def value: None
-  ::BeatmapSaveDataCommon::ExecutionTime ___e;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{15352};
 
-  /// @brief Field r, offset: 0x18, size: 0x4, def value: None
-  float_t ___r;
+/// @brief Field e, offset: 0x14, size: 0x4, def value: None
+ ::BeatmapSaveDataCommon::ExecutionTime  ___e;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field r, offset: 0x18, size: 0x4, def value: None
+ float_t  ___r;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::BeatmapSaveDataVersion3::RotationEventData, ___e) == 0x14, "Offset mismatch!");
@@ -88,6 +88,6 @@ static_assert(offsetof(::BeatmapSaveDataVersion3::RotationEventData, ___r) == 0x
 
 static_assert(::cordl_internals::size_check_v<::BeatmapSaveDataVersion3::RotationEventData, 0x20>, "Size mismatch!");
 
-} // namespace BeatmapSaveDataVersion3
+} // namespace end def BeatmapSaveDataVersion3
 NEED_NO_BOX(::BeatmapSaveDataVersion3::RotationEventData);
 DEFINE_IL2CPP_ARG_TYPE(::BeatmapSaveDataVersion3::RotationEventData*, "BeatmapSaveDataVersion3", "RotationEventData");

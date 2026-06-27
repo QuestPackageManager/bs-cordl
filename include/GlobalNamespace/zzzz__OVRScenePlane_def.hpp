@@ -26,13 +26,16 @@ namespace GlobalNamespace {
 struct OVRScenePlane_GetBoundaryLengthJob;
 }
 namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
+template<typename T>
+class IReadOnlyList_1;
 }
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template<typename T>
+class List_1;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+template<typename T>
+struct NativeArray_1;
 }
 namespace Unity::Jobs {
 class IJob;
@@ -60,37 +63,36 @@ namespace GlobalNamespace {
 // CS Name: OVRScenePlane/GetBoundaryLengthJob
 struct CORDL_TYPE OVRScenePlane_GetBoundaryLengthJob {
 public:
-  // Declarations
-  /// @brief Convert operator to "::Unity::Jobs::IJob"
-  constexpr operator ::Unity::Jobs::IJob*();
+// Declarations
+/// @brief Convert operator to "::Unity::Jobs::IJob"
+constexpr operator  ::Unity::Jobs::IJob*() ;
 
-  /// @brief Method Execute, addr 0x5d90a44, size 0x88, virtual true, abstract: false, final true
-  inline void Execute();
+/// @brief Method Execute, addr 0x5d925bc, size 0x88, virtual true, abstract: false, final true
+inline void Execute() ;
 
-  /// @brief Convert to "::Unity::Jobs::IJob"
-  constexpr ::Unity::Jobs::IJob* i___Unity__Jobs__IJob();
+/// @brief Convert to "::Unity::Jobs::IJob"
+constexpr ::Unity::Jobs::IJob* i___Unity__Jobs__IJob() ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OVRScenePlane_GetBoundaryLengthJob();
+// Ctor Parameters []
+// @brief default ctor
+constexpr OVRScenePlane_GetBoundaryLengthJob() ;
 
-  // Ctor Parameters [CppParam { name: "Space", ty: "::GlobalNamespace::OVRSpace", modifiers: "", def_value: None }, CppParam { name: "Length", ty: "::Unity::Collections::NativeArray_1<int32_t>",
-  // modifiers: "", def_value: None }]
-  constexpr OVRScenePlane_GetBoundaryLengthJob(::GlobalNamespace::OVRSpace Space, ::Unity::Collections::NativeArray_1<int32_t> Length) noexcept;
+// Ctor Parameters [CppParam { name: "Space", ty: "::GlobalNamespace::OVRSpace", modifiers: "", def_value: None }, CppParam { name: "Length", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None }]
+constexpr OVRScenePlane_GetBoundaryLengthJob(::GlobalNamespace::OVRSpace  Space, ::Unity::Collections::NativeArray_1<int32_t>  Length) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7676 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{7677};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x18};
 
-  /// @brief Field Space, offset: 0x0, size: 0x8, def value: None
-  ::GlobalNamespace::OVRSpace Space;
+/// @brief Field Space, offset: 0x0, size: 0x8, def value: None
+ ::GlobalNamespace::OVRSpace  Space;
 
-  /// @brief Field Length, offset: 0x8, size: 0x10, def value: None
-  ::Unity::Collections::NativeArray_1<int32_t> Length;
+/// @brief Field Length, offset: 0x8, size: 0x10, def value: None
+ ::Unity::Collections::NativeArray_1<int32_t>  Length;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::OVRScenePlane_GetBoundaryLengthJob, Space) == 0x0, "Offset mismatch!");
@@ -99,55 +101,52 @@ static_assert(offsetof(::GlobalNamespace::OVRScenePlane_GetBoundaryLengthJob, Le
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRScenePlane_GetBoundaryLengthJob, 0x18>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 // Dependencies OVRSpace, Unity.Collections.NativeArray`1<T>, UnityEngine.Vector2
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: OVRScenePlane/GetBoundaryJob
 struct CORDL_TYPE OVRScenePlane_GetBoundaryJob {
 public:
-  // Declarations
-  /// @brief Convert operator to "::Unity::Jobs::IJob"
-  constexpr operator ::Unity::Jobs::IJob*();
+// Declarations
+/// @brief Convert operator to "::Unity::Jobs::IJob"
+constexpr operator  ::Unity::Jobs::IJob*() ;
 
-  /// @brief Method Execute, addr 0x5d90b8c, size 0xac, virtual true, abstract: false, final true
-  inline void Execute();
+/// @brief Method Execute, addr 0x5d92704, size 0xac, virtual true, abstract: false, final true
+inline void Execute() ;
 
-  /// @brief Method HasBoundaryChanged, addr 0x5d90acc, size 0xa8, virtual false, abstract: false, final false
-  inline bool HasBoundaryChanged();
+/// @brief Method HasBoundaryChanged, addr 0x5d92644, size 0xa8, virtual false, abstract: false, final false
+inline bool HasBoundaryChanged() ;
 
-  /// @brief Method SetNaN, addr 0x5d90b74, size 0x18, virtual false, abstract: false, final false
-  static inline void SetNaN(::Unity::Collections::NativeArray_1<::UnityEngine::Vector2> array);
+/// @brief Method SetNaN, addr 0x5d926ec, size 0x18, virtual false, abstract: false, final false
+static inline void SetNaN(::Unity::Collections::NativeArray_1<::UnityEngine::Vector2>  array) ;
 
-  /// @brief Convert to "::Unity::Jobs::IJob"
-  constexpr ::Unity::Jobs::IJob* i___Unity__Jobs__IJob();
+/// @brief Convert to "::Unity::Jobs::IJob"
+constexpr ::Unity::Jobs::IJob* i___Unity__Jobs__IJob() ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OVRScenePlane_GetBoundaryJob();
+// Ctor Parameters []
+// @brief default ctor
+constexpr OVRScenePlane_GetBoundaryJob() ;
 
-  // Ctor Parameters [CppParam { name: "Space", ty: "::GlobalNamespace::OVRSpace", modifiers: "", def_value: None }, CppParam { name: "Boundary", ty:
-  // "::Unity::Collections::NativeArray_1<::UnityEngine::Vector2>", modifiers: "", def_value: None }, CppParam { name: "PreviousBoundary", ty:
-  // "::Unity::Collections::NativeArray_1<::UnityEngine::Vector2>", modifiers: "", def_value: None }]
-  constexpr OVRScenePlane_GetBoundaryJob(::GlobalNamespace::OVRSpace Space, ::Unity::Collections::NativeArray_1<::UnityEngine::Vector2> Boundary,
-                                         ::Unity::Collections::NativeArray_1<::UnityEngine::Vector2> PreviousBoundary) noexcept;
+// Ctor Parameters [CppParam { name: "Space", ty: "::GlobalNamespace::OVRSpace", modifiers: "", def_value: None }, CppParam { name: "Boundary", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Vector2>", modifiers: "", def_value: None }, CppParam { name: "PreviousBoundary", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Vector2>", modifiers: "", def_value: None }]
+constexpr OVRScenePlane_GetBoundaryJob(::GlobalNamespace::OVRSpace  Space, ::Unity::Collections::NativeArray_1<::UnityEngine::Vector2>  Boundary, ::Unity::Collections::NativeArray_1<::UnityEngine::Vector2>  PreviousBoundary) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7677 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{7678};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x28};
 
-  /// @brief Field Space, offset: 0x0, size: 0x8, def value: None
-  ::GlobalNamespace::OVRSpace Space;
+/// @brief Field Space, offset: 0x0, size: 0x8, def value: None
+ ::GlobalNamespace::OVRSpace  Space;
 
-  /// @brief Field Boundary, offset: 0x8, size: 0x10, def value: None
-  ::Unity::Collections::NativeArray_1<::UnityEngine::Vector2> Boundary;
+/// @brief Field Boundary, offset: 0x8, size: 0x10, def value: None
+ ::Unity::Collections::NativeArray_1<::UnityEngine::Vector2>  Boundary;
 
-  /// @brief Field PreviousBoundary, offset: 0x18, size: 0x10, def value: None
-  ::Unity::Collections::NativeArray_1<::UnityEngine::Vector2> PreviousBoundary;
+/// @brief Field PreviousBoundary, offset: 0x18, size: 0x10, def value: None
+ ::Unity::Collections::NativeArray_1<::UnityEngine::Vector2>  PreviousBoundary;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::OVRScenePlane_GetBoundaryJob, Space) == 0x0, "Offset mismatch!");
@@ -158,271 +157,271 @@ static_assert(offsetof(::GlobalNamespace::OVRScenePlane_GetBoundaryJob, Previous
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRScenePlane_GetBoundaryJob, 0x28>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 // Dependencies System.Nullable`1<T>, Unity.Collections.NativeArray`1<T>, Unity.Jobs.JobHandle, UnityEngine.MonoBehaviour, UnityEngine.Vector2
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: OVRScenePlane
 class CORDL_TYPE OVRScenePlane : public ::UnityEngine::MonoBehaviour {
 public:
-  // Declarations
-  using GetBoundaryJob = ::GlobalNamespace::OVRScenePlane_GetBoundaryJob;
+// Declarations
+using GetBoundaryJob = ::GlobalNamespace::OVRScenePlane_GetBoundaryJob;
 
-  using GetBoundaryLengthJob = ::GlobalNamespace::OVRScenePlane_GetBoundaryLengthJob;
+using GetBoundaryLengthJob = ::GlobalNamespace::OVRScenePlane_GetBoundaryLengthJob;
 
-  __declspec(property(get = get_Boundary)) ::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::Vector2>* Boundary;
+ __declspec(property(get=get_Boundary)) ::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::Vector2>*  Boundary;
 
-  __declspec(property(get = get_Dimensions)) ::UnityEngine::Vector2 Dimensions;
+ __declspec(property(get=get_Dimensions)) ::UnityEngine::Vector2  Dimensions;
 
-  __declspec(property(get = get_Height, put = set_Height)) float_t Height;
+ __declspec(property(get=get_Height, put=set_Height)) float_t  Height;
 
-  __declspec(property(get = get_Offset, put = set_Offset)) ::UnityEngine::Vector2 Offset;
+ __declspec(property(get=get_Offset, put=set_Offset)) ::UnityEngine::Vector2  Offset;
 
-  __declspec(property(get = get_OffsetChildren, put = set_OffsetChildren)) bool OffsetChildren;
+ __declspec(property(get=get_OffsetChildren, put=set_OffsetChildren)) bool  OffsetChildren;
 
-  __declspec(property(get = get_ScaleChildren, put = set_ScaleChildren)) bool ScaleChildren;
+ __declspec(property(get=get_ScaleChildren, put=set_ScaleChildren)) bool  ScaleChildren;
 
-  __declspec(property(get = get_Width, put = set_Width)) float_t Width;
+ __declspec(property(get=get_Width, put=set_Width)) float_t  Width;
 
-  /// @brief Field <Height>k__BackingField, offset 0x24, size 0x4
-  __declspec(property(get = __cordl_internal_get__Height_k__BackingField, put = __cordl_internal_set__Height_k__BackingField)) float_t _Height_k__BackingField;
+/// @brief Field <Height>k__BackingField, offset 0x24, size 0x4 
+ __declspec(property(get=__cordl_internal_get__Height_k__BackingField, put=__cordl_internal_set__Height_k__BackingField)) float_t  _Height_k__BackingField;
 
-  /// @brief Field <Offset>k__BackingField, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__Offset_k__BackingField, put = __cordl_internal_set__Offset_k__BackingField)) ::UnityEngine::Vector2 _Offset_k__BackingField;
+/// @brief Field <Offset>k__BackingField, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get__Offset_k__BackingField, put=__cordl_internal_set__Offset_k__BackingField)) ::UnityEngine::Vector2  _Offset_k__BackingField;
 
-  /// @brief Field <Width>k__BackingField, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get__Width_k__BackingField, put = __cordl_internal_set__Width_k__BackingField)) float_t _Width_k__BackingField;
+/// @brief Field <Width>k__BackingField, offset 0x20, size 0x4 
+ __declspec(property(get=__cordl_internal_get__Width_k__BackingField, put=__cordl_internal_set__Width_k__BackingField)) float_t  _Width_k__BackingField;
 
-  /// @brief Field _boundary, offset 0x90, size 0x8
-  __declspec(property(get = __cordl_internal_get__boundary, put = __cordl_internal_set__boundary)) ::System::Collections::Generic::List_1<::UnityEngine::Vector2>* _boundary;
+/// @brief Field _boundary, offset 0x90, size 0x8 
+ __declspec(property(get=__cordl_internal_get__boundary, put=__cordl_internal_set__boundary)) ::System::Collections::Generic::List_1<::UnityEngine::Vector2>*  _boundary;
 
-  /// @brief Field _boundaryBuffer, offset 0x70, size 0x10
-  __declspec(property(get = __cordl_internal_get__boundaryBuffer, put = __cordl_internal_set__boundaryBuffer)) ::Unity::Collections::NativeArray_1<::UnityEngine::Vector2> _boundaryBuffer;
+/// @brief Field _boundaryBuffer, offset 0x70, size 0x10 
+ __declspec(property(get=__cordl_internal_get__boundaryBuffer, put=__cordl_internal_set__boundaryBuffer)) ::Unity::Collections::NativeArray_1<::UnityEngine::Vector2>  _boundaryBuffer;
 
-  /// @brief Field _boundaryLength, offset 0x60, size 0x10
-  __declspec(property(get = __cordl_internal_get__boundaryLength, put = __cordl_internal_set__boundaryLength)) ::Unity::Collections::NativeArray_1<int32_t> _boundaryLength;
+/// @brief Field _boundaryLength, offset 0x60, size 0x10 
+ __declspec(property(get=__cordl_internal_get__boundaryLength, put=__cordl_internal_set__boundaryLength)) ::Unity::Collections::NativeArray_1<int32_t>  _boundaryLength;
 
-  /// @brief Field _boundaryRequested, offset 0x80, size 0x1
-  __declspec(property(get = __cordl_internal_get__boundaryRequested, put = __cordl_internal_set__boundaryRequested)) bool _boundaryRequested;
+/// @brief Field _boundaryRequested, offset 0x80, size 0x1 
+ __declspec(property(get=__cordl_internal_get__boundaryRequested, put=__cordl_internal_set__boundaryRequested)) bool  _boundaryRequested;
 
-  /// @brief Field _jobHandle, offset 0x38, size 0x18
-  __declspec(property(get = __cordl_internal_get__jobHandle, put = __cordl_internal_set__jobHandle)) ::System::Nullable_1<::Unity::Jobs::JobHandle> _jobHandle;
+/// @brief Field _jobHandle, offset 0x38, size 0x18 
+ __declspec(property(get=__cordl_internal_get__jobHandle, put=__cordl_internal_set__jobHandle)) ::System::Nullable_1<::Unity::Jobs::JobHandle>  _jobHandle;
 
-  /// @brief Field _offsetChildren, offset 0x31, size 0x1
-  __declspec(property(get = __cordl_internal_get__offsetChildren, put = __cordl_internal_set__offsetChildren)) bool _offsetChildren;
+/// @brief Field _offsetChildren, offset 0x31, size 0x1 
+ __declspec(property(get=__cordl_internal_get__offsetChildren, put=__cordl_internal_set__offsetChildren)) bool  _offsetChildren;
 
-  /// @brief Field _previousBoundary, offset 0x50, size 0x10
-  __declspec(property(get = __cordl_internal_get__previousBoundary, put = __cordl_internal_set__previousBoundary)) ::Unity::Collections::NativeArray_1<::UnityEngine::Vector2> _previousBoundary;
+/// @brief Field _previousBoundary, offset 0x50, size 0x10 
+ __declspec(property(get=__cordl_internal_get__previousBoundary, put=__cordl_internal_set__previousBoundary)) ::Unity::Collections::NativeArray_1<::UnityEngine::Vector2>  _previousBoundary;
 
-  /// @brief Field _scaleChildren, offset 0x30, size 0x1
-  __declspec(property(get = __cordl_internal_get__scaleChildren, put = __cordl_internal_set__scaleChildren)) bool _scaleChildren;
+/// @brief Field _scaleChildren, offset 0x30, size 0x1 
+ __declspec(property(get=__cordl_internal_get__scaleChildren, put=__cordl_internal_set__scaleChildren)) bool  _scaleChildren;
 
-  /// @brief Field _sceneAnchor, offset 0x88, size 0x8
-  __declspec(property(get = __cordl_internal_get__sceneAnchor, put = __cordl_internal_set__sceneAnchor)) ::UnityW<::GlobalNamespace::OVRSceneAnchor> _sceneAnchor;
+/// @brief Field _sceneAnchor, offset 0x88, size 0x8 
+ __declspec(property(get=__cordl_internal_get__sceneAnchor, put=__cordl_internal_set__sceneAnchor)) ::UnityW<::GlobalNamespace::OVRSceneAnchor>  _sceneAnchor;
 
-  /// @brief Convert operator to "::GlobalNamespace::IOVRSceneComponent"
-  constexpr operator ::GlobalNamespace::IOVRSceneComponent*() noexcept;
+/// @brief Convert operator to "::GlobalNamespace::IOVRSceneComponent"
+constexpr operator  ::GlobalNamespace::IOVRSceneComponent*() noexcept;
 
-  /// @brief Method Awake, addr 0x5d900c4, size 0xdc, virtual false, abstract: false, final false
-  inline void Awake();
+/// @brief Method Awake, addr 0x5d91c3c, size 0xdc, virtual false, abstract: false, final false
+inline void Awake() ;
 
-  /// @brief Method IOVRSceneComponent.Initialize, addr 0x5d901a4, size 0x4, virtual true, abstract: false, final true
-  inline void IOVRSceneComponent_Initialize();
+/// @brief Method IOVRSceneComponent.Initialize, addr 0x5d91d1c, size 0x4, virtual true, abstract: false, final true
+inline void IOVRSceneComponent_Initialize() ;
 
-  static inline ::GlobalNamespace::OVRScenePlane* New_ctor();
+static inline ::GlobalNamespace::OVRScenePlane* New_ctor() ;
 
-  /// @brief Method OnDisable, addr 0x5d908cc, size 0xf8, virtual false, abstract: false, final false
-  inline void OnDisable();
+/// @brief Method OnDisable, addr 0x5d92444, size 0xf8, virtual false, abstract: false, final false
+inline void OnDisable() ;
 
-  /// @brief Method RequestBoundary, addr 0x5d89064, size 0x30, virtual false, abstract: false, final false
-  inline void RequestBoundary();
+/// @brief Method RequestBoundary, addr 0x5d8abdc, size 0x30, virtual false, abstract: false, final false
+inline void RequestBoundary() ;
 
-  /// @brief Method ScheduleGetLengthJob, addr 0x5d901a8, size 0x16c, virtual false, abstract: false, final false
-  inline void ScheduleGetLengthJob();
+/// @brief Method ScheduleGetLengthJob, addr 0x5d91d20, size 0x16c, virtual false, abstract: false, final false
+inline void ScheduleGetLengthJob() ;
 
-  /// @brief Method SetChildOffset, addr 0x5d8ff90, size 0x134, virtual false, abstract: false, final false
-  inline void SetChildOffset();
+/// @brief Method SetChildOffset, addr 0x5d91b08, size 0x134, virtual false, abstract: false, final false
+inline void SetChildOffset() ;
 
-  /// @brief Method SetChildScale, addr 0x5d8fe14, size 0x14c, virtual false, abstract: false, final false
-  inline void SetChildScale();
+/// @brief Method SetChildScale, addr 0x5d9198c, size 0x14c, virtual false, abstract: false, final false
+inline void SetChildScale() ;
 
-  /// @brief Method Start, addr 0x5d901a0, size 0x4, virtual false, abstract: false, final false
-  inline void Start();
+/// @brief Method Start, addr 0x5d91d18, size 0x4, virtual false, abstract: false, final false
+inline void Start() ;
 
-  /// @brief Method Update, addr 0x5d90314, size 0x588, virtual false, abstract: false, final false
-  inline void Update();
+/// @brief Method Update, addr 0x5d91e8c, size 0x588, virtual false, abstract: false, final false
+inline void Update() ;
 
-  /// @brief Method UpdateTransform, addr 0x5d88f0c, size 0x158, virtual false, abstract: false, final false
-  inline void UpdateTransform();
+/// @brief Method UpdateTransform, addr 0x5d8aa84, size 0x158, virtual false, abstract: false, final false
+inline void UpdateTransform() ;
 
-  constexpr float_t const& __cordl_internal_get__Height_k__BackingField() const;
+constexpr float_t const& __cordl_internal_get__Height_k__BackingField() const;
 
-  constexpr float_t& __cordl_internal_get__Height_k__BackingField();
+constexpr float_t& __cordl_internal_get__Height_k__BackingField() ;
 
-  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get__Offset_k__BackingField() const;
+constexpr ::UnityEngine::Vector2 const& __cordl_internal_get__Offset_k__BackingField() const;
 
-  constexpr ::UnityEngine::Vector2& __cordl_internal_get__Offset_k__BackingField();
+constexpr ::UnityEngine::Vector2& __cordl_internal_get__Offset_k__BackingField() ;
 
-  constexpr float_t const& __cordl_internal_get__Width_k__BackingField() const;
+constexpr float_t const& __cordl_internal_get__Width_k__BackingField() const;
 
-  constexpr float_t& __cordl_internal_get__Width_k__BackingField();
+constexpr float_t& __cordl_internal_get__Width_k__BackingField() ;
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector2>* const& __cordl_internal_get__boundary() const;
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector2>* const& __cordl_internal_get__boundary() const;
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector2>*& __cordl_internal_get__boundary();
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector2>*& __cordl_internal_get__boundary() ;
 
-  constexpr ::Unity::Collections::NativeArray_1<::UnityEngine::Vector2> const& __cordl_internal_get__boundaryBuffer() const;
+constexpr ::Unity::Collections::NativeArray_1<::UnityEngine::Vector2> const& __cordl_internal_get__boundaryBuffer() const;
 
-  constexpr ::Unity::Collections::NativeArray_1<::UnityEngine::Vector2>& __cordl_internal_get__boundaryBuffer();
+constexpr ::Unity::Collections::NativeArray_1<::UnityEngine::Vector2>& __cordl_internal_get__boundaryBuffer() ;
 
-  constexpr ::Unity::Collections::NativeArray_1<int32_t> const& __cordl_internal_get__boundaryLength() const;
+constexpr ::Unity::Collections::NativeArray_1<int32_t> const& __cordl_internal_get__boundaryLength() const;
 
-  constexpr ::Unity::Collections::NativeArray_1<int32_t>& __cordl_internal_get__boundaryLength();
+constexpr ::Unity::Collections::NativeArray_1<int32_t>& __cordl_internal_get__boundaryLength() ;
 
-  constexpr bool const& __cordl_internal_get__boundaryRequested() const;
+constexpr bool const& __cordl_internal_get__boundaryRequested() const;
 
-  constexpr bool& __cordl_internal_get__boundaryRequested();
+constexpr bool& __cordl_internal_get__boundaryRequested() ;
 
-  constexpr ::System::Nullable_1<::Unity::Jobs::JobHandle> const& __cordl_internal_get__jobHandle() const;
+constexpr ::System::Nullable_1<::Unity::Jobs::JobHandle> const& __cordl_internal_get__jobHandle() const;
 
-  constexpr ::System::Nullable_1<::Unity::Jobs::JobHandle>& __cordl_internal_get__jobHandle();
+constexpr ::System::Nullable_1<::Unity::Jobs::JobHandle>& __cordl_internal_get__jobHandle() ;
 
-  constexpr bool const& __cordl_internal_get__offsetChildren() const;
+constexpr bool const& __cordl_internal_get__offsetChildren() const;
 
-  constexpr bool& __cordl_internal_get__offsetChildren();
+constexpr bool& __cordl_internal_get__offsetChildren() ;
 
-  constexpr ::Unity::Collections::NativeArray_1<::UnityEngine::Vector2> const& __cordl_internal_get__previousBoundary() const;
+constexpr ::Unity::Collections::NativeArray_1<::UnityEngine::Vector2> const& __cordl_internal_get__previousBoundary() const;
 
-  constexpr ::Unity::Collections::NativeArray_1<::UnityEngine::Vector2>& __cordl_internal_get__previousBoundary();
+constexpr ::Unity::Collections::NativeArray_1<::UnityEngine::Vector2>& __cordl_internal_get__previousBoundary() ;
 
-  constexpr bool const& __cordl_internal_get__scaleChildren() const;
+constexpr bool const& __cordl_internal_get__scaleChildren() const;
 
-  constexpr bool& __cordl_internal_get__scaleChildren();
+constexpr bool& __cordl_internal_get__scaleChildren() ;
 
-  constexpr ::UnityW<::GlobalNamespace::OVRSceneAnchor> const& __cordl_internal_get__sceneAnchor() const;
+constexpr ::UnityW<::GlobalNamespace::OVRSceneAnchor> const& __cordl_internal_get__sceneAnchor() const;
 
-  constexpr ::UnityW<::GlobalNamespace::OVRSceneAnchor>& __cordl_internal_get__sceneAnchor();
+constexpr ::UnityW<::GlobalNamespace::OVRSceneAnchor>& __cordl_internal_get__sceneAnchor() ;
 
-  constexpr void __cordl_internal_set__Height_k__BackingField(float_t value);
+constexpr void __cordl_internal_set__Height_k__BackingField(float_t  value) ;
 
-  constexpr void __cordl_internal_set__Offset_k__BackingField(::UnityEngine::Vector2 value);
+constexpr void __cordl_internal_set__Offset_k__BackingField(::UnityEngine::Vector2  value) ;
 
-  constexpr void __cordl_internal_set__Width_k__BackingField(float_t value);
+constexpr void __cordl_internal_set__Width_k__BackingField(float_t  value) ;
 
-  constexpr void __cordl_internal_set__boundary(::System::Collections::Generic::List_1<::UnityEngine::Vector2>* value);
+constexpr void __cordl_internal_set__boundary(::System::Collections::Generic::List_1<::UnityEngine::Vector2>*  value) ;
 
-  constexpr void __cordl_internal_set__boundaryBuffer(::Unity::Collections::NativeArray_1<::UnityEngine::Vector2> value);
+constexpr void __cordl_internal_set__boundaryBuffer(::Unity::Collections::NativeArray_1<::UnityEngine::Vector2>  value) ;
 
-  constexpr void __cordl_internal_set__boundaryLength(::Unity::Collections::NativeArray_1<int32_t> value);
+constexpr void __cordl_internal_set__boundaryLength(::Unity::Collections::NativeArray_1<int32_t>  value) ;
 
-  constexpr void __cordl_internal_set__boundaryRequested(bool value);
+constexpr void __cordl_internal_set__boundaryRequested(bool  value) ;
 
-  constexpr void __cordl_internal_set__jobHandle(::System::Nullable_1<::Unity::Jobs::JobHandle> value);
+constexpr void __cordl_internal_set__jobHandle(::System::Nullable_1<::Unity::Jobs::JobHandle>  value) ;
 
-  constexpr void __cordl_internal_set__offsetChildren(bool value);
+constexpr void __cordl_internal_set__offsetChildren(bool  value) ;
 
-  constexpr void __cordl_internal_set__previousBoundary(::Unity::Collections::NativeArray_1<::UnityEngine::Vector2> value);
+constexpr void __cordl_internal_set__previousBoundary(::Unity::Collections::NativeArray_1<::UnityEngine::Vector2>  value) ;
 
-  constexpr void __cordl_internal_set__scaleChildren(bool value);
+constexpr void __cordl_internal_set__scaleChildren(bool  value) ;
 
-  constexpr void __cordl_internal_set__sceneAnchor(::UnityW<::GlobalNamespace::OVRSceneAnchor> value);
+constexpr void __cordl_internal_set__sceneAnchor(::UnityW<::GlobalNamespace::OVRSceneAnchor>  value) ;
 
-  /// @brief Method .ctor, addr 0x5d909c4, size 0x80, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5d9253c, size 0x80, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_Boundary, addr 0x5d8fddc, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::Vector2>* get_Boundary();
+/// @brief Method get_Boundary, addr 0x5d91954, size 0x8, virtual false, abstract: false, final false
+inline ::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::Vector2>* get_Boundary() ;
 
-  /// @brief Method get_Dimensions, addr 0x5d8fdd4, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector2 get_Dimensions();
+/// @brief Method get_Dimensions, addr 0x5d9194c, size 0x8, virtual false, abstract: false, final false
+inline ::UnityEngine::Vector2 get_Dimensions() ;
 
-  /// @brief Method get_Height, addr 0x5d8fdb4, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_Height();
+/// @brief Method get_Height, addr 0x5d9192c, size 0x8, virtual false, abstract: false, final false
+inline float_t get_Height() ;
 
-  /// @brief Method get_Offset, addr 0x5d8fdc4, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector2 get_Offset();
+/// @brief Method get_Offset, addr 0x5d9193c, size 0x8, virtual false, abstract: false, final false
+inline ::UnityEngine::Vector2 get_Offset() ;
 
-  /// @brief Method get_OffsetChildren, addr 0x5d8ff60, size 0x8, virtual false, abstract: false, final false
-  inline bool get_OffsetChildren();
+/// @brief Method get_OffsetChildren, addr 0x5d91ad8, size 0x8, virtual false, abstract: false, final false
+inline bool get_OffsetChildren() ;
 
-  /// @brief Method get_ScaleChildren, addr 0x5d8fde4, size 0x8, virtual false, abstract: false, final false
-  inline bool get_ScaleChildren();
+/// @brief Method get_ScaleChildren, addr 0x5d9195c, size 0x8, virtual false, abstract: false, final false
+inline bool get_ScaleChildren() ;
 
-  /// @brief Method get_Width, addr 0x5d8fda4, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_Width();
+/// @brief Method get_Width, addr 0x5d9191c, size 0x8, virtual false, abstract: false, final false
+inline float_t get_Width() ;
 
-  /// @brief Convert to "::GlobalNamespace::IOVRSceneComponent"
-  constexpr ::GlobalNamespace::IOVRSceneComponent* i___GlobalNamespace__IOVRSceneComponent() noexcept;
+/// @brief Convert to "::GlobalNamespace::IOVRSceneComponent"
+constexpr ::GlobalNamespace::IOVRSceneComponent* i___GlobalNamespace__IOVRSceneComponent() noexcept;
 
-  /// @brief Method set_Height, addr 0x5d8fdbc, size 0x8, virtual false, abstract: false, final false
-  inline void set_Height(float_t value);
+/// @brief Method set_Height, addr 0x5d91934, size 0x8, virtual false, abstract: false, final false
+inline void set_Height(float_t  value) ;
 
-  /// @brief Method set_Offset, addr 0x5d8fdcc, size 0x8, virtual false, abstract: false, final false
-  inline void set_Offset(::UnityEngine::Vector2 value);
+/// @brief Method set_Offset, addr 0x5d91944, size 0x8, virtual false, abstract: false, final false
+inline void set_Offset(::UnityEngine::Vector2  value) ;
 
-  /// @brief Method set_OffsetChildren, addr 0x5d8ff68, size 0x28, virtual false, abstract: false, final false
-  inline void set_OffsetChildren(bool value);
+/// @brief Method set_OffsetChildren, addr 0x5d91ae0, size 0x28, virtual false, abstract: false, final false
+inline void set_OffsetChildren(bool  value) ;
 
-  /// @brief Method set_ScaleChildren, addr 0x5d8fdec, size 0x28, virtual false, abstract: false, final false
-  inline void set_ScaleChildren(bool value);
+/// @brief Method set_ScaleChildren, addr 0x5d91964, size 0x28, virtual false, abstract: false, final false
+inline void set_ScaleChildren(bool  value) ;
 
-  /// @brief Method set_Width, addr 0x5d8fdac, size 0x8, virtual false, abstract: false, final false
-  inline void set_Width(float_t value);
+/// @brief Method set_Width, addr 0x5d91924, size 0x8, virtual false, abstract: false, final false
+inline void set_Width(float_t  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OVRScenePlane();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr OVRScenePlane() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRScenePlane", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  OVRScenePlane(OVRScenePlane&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRScenePlane", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  OVRScenePlane(OVRScenePlane const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "OVRScenePlane", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+OVRScenePlane(OVRScenePlane && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7678 };
+// Ctor Parameters [CppParam { name: "", ty: "OVRScenePlane", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+OVRScenePlane(OVRScenePlane const& ) = delete;
 
-  /// @brief Field <Width>k__BackingField, offset: 0x20, size: 0x4, def value: None
-  float_t ____Width_k__BackingField;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{7679};
 
-  /// @brief Field <Height>k__BackingField, offset: 0x24, size: 0x4, def value: None
-  float_t ____Height_k__BackingField;
+/// @brief Field <Width>k__BackingField, offset: 0x20, size: 0x4, def value: None
+ float_t  ____Width_k__BackingField;
 
-  /// @brief Field <Offset>k__BackingField, offset: 0x28, size: 0x8, def value: None
-  ::UnityEngine::Vector2 ____Offset_k__BackingField;
+/// @brief Field <Height>k__BackingField, offset: 0x24, size: 0x4, def value: None
+ float_t  ____Height_k__BackingField;
 
-  /// @brief Field _scaleChildren, offset: 0x30, size: 0x1, def value: None
-  bool ____scaleChildren;
+/// @brief Field <Offset>k__BackingField, offset: 0x28, size: 0x8, def value: None
+ ::UnityEngine::Vector2  ____Offset_k__BackingField;
 
-  /// @brief Field _offsetChildren, offset: 0x31, size: 0x1, def value: None
-  bool ____offsetChildren;
+/// @brief Field _scaleChildren, offset: 0x30, size: 0x1, def value: None
+ bool  ____scaleChildren;
 
-  /// @brief Field _jobHandle, offset: 0x38, size: 0x18, def value: None
-  ::System::Nullable_1<::Unity::Jobs::JobHandle> ____jobHandle;
+/// @brief Field _offsetChildren, offset: 0x31, size: 0x1, def value: None
+ bool  ____offsetChildren;
 
-  /// @brief Field _previousBoundary, offset: 0x50, size: 0x10, def value: None
-  ::Unity::Collections::NativeArray_1<::UnityEngine::Vector2> ____previousBoundary;
+/// @brief Field _jobHandle, offset: 0x38, size: 0x18, def value: None
+ ::System::Nullable_1<::Unity::Jobs::JobHandle>  ____jobHandle;
 
-  /// @brief Field _boundaryLength, offset: 0x60, size: 0x10, def value: None
-  ::Unity::Collections::NativeArray_1<int32_t> ____boundaryLength;
+/// @brief Field _previousBoundary, offset: 0x50, size: 0x10, def value: None
+ ::Unity::Collections::NativeArray_1<::UnityEngine::Vector2>  ____previousBoundary;
 
-  /// @brief Field _boundaryBuffer, offset: 0x70, size: 0x10, def value: None
-  ::Unity::Collections::NativeArray_1<::UnityEngine::Vector2> ____boundaryBuffer;
+/// @brief Field _boundaryLength, offset: 0x60, size: 0x10, def value: None
+ ::Unity::Collections::NativeArray_1<int32_t>  ____boundaryLength;
 
-  /// @brief Field _boundaryRequested, offset: 0x80, size: 0x1, def value: None
-  bool ____boundaryRequested;
+/// @brief Field _boundaryBuffer, offset: 0x70, size: 0x10, def value: None
+ ::Unity::Collections::NativeArray_1<::UnityEngine::Vector2>  ____boundaryBuffer;
 
-  /// @brief Field _sceneAnchor, offset: 0x88, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::OVRSceneAnchor> ____sceneAnchor;
+/// @brief Field _boundaryRequested, offset: 0x80, size: 0x1, def value: None
+ bool  ____boundaryRequested;
 
-  /// @brief Field _boundary, offset: 0x90, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::UnityEngine::Vector2>* ____boundary;
+/// @brief Field _sceneAnchor, offset: 0x88, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::OVRSceneAnchor>  ____sceneAnchor;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _boundary, offset: 0x90, size: 0x8, def value: None
+ ::System::Collections::Generic::List_1<::UnityEngine::Vector2>*  ____boundary;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::OVRScenePlane, ____Width_k__BackingField) == 0x20, "Offset mismatch!");
@@ -451,7 +450,7 @@ static_assert(offsetof(::GlobalNamespace::OVRScenePlane, ____boundary) == 0x90, 
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRScenePlane, 0x98>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::OVRScenePlane);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRScenePlane*, "", "OVRScenePlane");
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRScenePlane_GetBoundaryJob, "", "OVRScenePlane/GetBoundaryJob");

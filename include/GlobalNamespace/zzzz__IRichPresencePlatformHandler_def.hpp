@@ -13,29 +13,29 @@ class IRichPresencePlatformHandler;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::IRichPresencePlatformHandler);
-// Dependencies
+// Dependencies 
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: IRichPresencePlatformHandler
 class CORDL_TYPE IRichPresencePlatformHandler {
 public:
-  // Declarations
-  /// @brief Method Clear, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void Clear();
+// Declarations
+/// @brief Method Clear, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline void Clear() ;
 
-  /// @brief Method SetPresence, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void SetPresence(::GlobalNamespace::IRichPresenceData* richPresenceData);
+/// @brief Method SetPresence, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline void SetPresence(::GlobalNamespace::IRichPresenceData*  richPresenceData) ;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IRichPresencePlatformHandler", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  IRichPresencePlatformHandler(IRichPresencePlatformHandler const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "IRichPresencePlatformHandler", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+IRichPresencePlatformHandler(IRichPresencePlatformHandler const& ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6733 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6733};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::IRichPresencePlatformHandler);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::IRichPresencePlatformHandler*, "", "IRichPresencePlatformHandler");

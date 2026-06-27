@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "UnityEngine/InputSystem/Composites/AxisComposite.hpp"
 #include "UnityEngine/InputSystem/Composites/ButtonWithOneModifier.hpp"
@@ -11,5 +11,6 @@ module;
 #include "UnityEngine/InputSystem/Composites/Vector2Composite.hpp"
 #include "UnityEngine/InputSystem/Composites/Vector3Composite.hpp"
 #ifdef __cpp_modules
-export module Composites;
-#endif
+                    export module Composites;
+                    #endif
+                

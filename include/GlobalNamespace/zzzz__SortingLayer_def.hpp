@@ -20,56 +20,56 @@ namespace GlobalNamespace {
 // CS Name: SortingLayer
 class CORDL_TYPE SortingLayer : public ::UnityEngine::MonoBehaviour {
 public:
-  // Declarations
-  /// @brief Field _renderer, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__renderer, put = __cordl_internal_set__renderer)) ::UnityW<::UnityEngine::Renderer> _renderer;
+// Declarations
+/// @brief Field _renderer, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get__renderer, put=__cordl_internal_set__renderer)) ::UnityW<::UnityEngine::Renderer>  _renderer;
 
-  __declspec(property(get = get_renderer)) ::UnityW<::UnityEngine::Renderer> renderer;
+ __declspec(property(get=get_renderer)) ::UnityW<::UnityEngine::Renderer>  renderer;
 
-  static inline ::GlobalNamespace::SortingLayer* New_ctor();
+static inline ::GlobalNamespace::SortingLayer* New_ctor() ;
 
-  /// @brief Method Reset, addr 0x57123c0, size 0x54, virtual false, abstract: false, final false
-  inline void Reset();
+/// @brief Method Reset, addr 0x5713c28, size 0x54, virtual false, abstract: false, final false
+inline void Reset() ;
 
-  constexpr ::UnityW<::UnityEngine::Renderer> const& __cordl_internal_get__renderer() const;
+constexpr ::UnityW<::UnityEngine::Renderer> const& __cordl_internal_get__renderer() const;
 
-  constexpr ::UnityW<::UnityEngine::Renderer>& __cordl_internal_get__renderer();
+constexpr ::UnityW<::UnityEngine::Renderer>& __cordl_internal_get__renderer() ;
 
-  constexpr void __cordl_internal_set__renderer(::UnityW<::UnityEngine::Renderer> value);
+constexpr void __cordl_internal_set__renderer(::UnityW<::UnityEngine::Renderer>  value) ;
 
-  /// @brief Method .ctor, addr 0x5712414, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5713c7c, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_renderer, addr 0x57123b8, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::Renderer> get_renderer();
+/// @brief Method get_renderer, addr 0x5713c20, size 0x8, virtual false, abstract: false, final false
+inline ::UnityW<::UnityEngine::Renderer> get_renderer() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SortingLayer();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr SortingLayer() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SortingLayer", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  SortingLayer(SortingLayer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SortingLayer", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  SortingLayer(SortingLayer const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "SortingLayer", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+SortingLayer(SortingLayer && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20306 };
+// Ctor Parameters [CppParam { name: "", ty: "SortingLayer", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+SortingLayer(SortingLayer const& ) = delete;
 
-  /// @brief Field _renderer, offset: 0x20, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::Renderer> ____renderer;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20309};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _renderer, offset: 0x20, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::Renderer>  ____renderer;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::SortingLayer, ____renderer) == 0x20, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SortingLayer, 0x28>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SortingLayer);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SortingLayer*, "", "SortingLayer");

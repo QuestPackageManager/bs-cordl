@@ -18,59 +18,59 @@ namespace GlobalNamespace {
 // CS Name: BTSCharacterSpawnEventValueParser
 class CORDL_TYPE BTSCharacterSpawnEventValueParser : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method GetAnimationId, addr 0x31edda4, size 0x8, virtual false, abstract: false, final false
-  static inline int32_t GetAnimationId(int32_t value);
+// Declarations
+/// @brief Method GetAnimationId, addr 0x31eeac4, size 0x8, virtual false, abstract: false, final false
+static inline int32_t GetAnimationId(int32_t  value) ;
 
-  /// @brief Method GetIsAlternativeMaterial, addr 0x31ee238, size 0x8, virtual false, abstract: false, final false
-  static inline bool GetIsAlternativeMaterial(int32_t value);
+/// @brief Method GetIsAlternativeMaterial, addr 0x31eef58, size 0x8, virtual false, abstract: false, final false
+static inline bool GetIsAlternativeMaterial(int32_t  value) ;
 
-  /// @brief Method GetPrefabId, addr 0x31edd9c, size 0x8, virtual false, abstract: false, final false
-  static inline int32_t GetPrefabId(int32_t value);
+/// @brief Method GetPrefabId, addr 0x31eeabc, size 0x8, virtual false, abstract: false, final false
+static inline int32_t GetPrefabId(int32_t  value) ;
 
-  /// @brief Method MergeValuesIntoOneInt, addr 0x31ee3dc, size 0x18, virtual false, abstract: false, final false
-  static inline int32_t MergeValuesIntoOneInt(int32_t prefabId, int32_t animationId, bool isAlternativeMaterial);
+/// @brief Method MergeValuesIntoOneInt, addr 0x31ef0fc, size 0x18, virtual false, abstract: false, final false
+static inline int32_t MergeValuesIntoOneInt(int32_t  prefabId, int32_t  animationId, bool  isAlternativeMaterial) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BTSCharacterSpawnEventValueParser();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr BTSCharacterSpawnEventValueParser() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BTSCharacterSpawnEventValueParser", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  BTSCharacterSpawnEventValueParser(BTSCharacterSpawnEventValueParser&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BTSCharacterSpawnEventValueParser", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  BTSCharacterSpawnEventValueParser(BTSCharacterSpawnEventValueParser const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "BTSCharacterSpawnEventValueParser", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+BTSCharacterSpawnEventValueParser(BTSCharacterSpawnEventValueParser && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21483 };
+// Ctor Parameters [CppParam { name: "", ty: "BTSCharacterSpawnEventValueParser", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+BTSCharacterSpawnEventValueParser(BTSCharacterSpawnEventValueParser const& ) = delete;
 
-  /// @brief Field kAlternativeMaterialMask offset 0xffffffff size 0x4
-  static constexpr int32_t kAlternativeMaterialMask{ static_cast<int32_t>(0x10000) };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{21486};
 
-  /// @brief Field kAlternativeMaterialOffset offset 0xffffffff size 0x4
-  static constexpr int32_t kAlternativeMaterialOffset{ static_cast<int32_t>(0x10) };
+/// @brief Field kAlternativeMaterialMask offset 0xffffffff size 0x4
+static constexpr int32_t  kAlternativeMaterialMask{static_cast<int32_t>(0x10000)};
 
-  /// @brief Field kAnimationBitOffset offset 0xffffffff size 0x4
-  static constexpr int32_t kAnimationBitOffset{ static_cast<int32_t>(0x8) };
+/// @brief Field kAlternativeMaterialOffset offset 0xffffffff size 0x4
+static constexpr int32_t  kAlternativeMaterialOffset{static_cast<int32_t>(0x10)};
 
-  /// @brief Field kAnimationMask offset 0xffffffff size 0x4
-  static constexpr int32_t kAnimationMask{ static_cast<int32_t>(0xff00) };
+/// @brief Field kAnimationBitOffset offset 0xffffffff size 0x4
+static constexpr int32_t  kAnimationBitOffset{static_cast<int32_t>(0x8)};
 
-  /// @brief Field kPrefabBitOffset offset 0xffffffff size 0x4
-  static constexpr int32_t kPrefabBitOffset{ static_cast<int32_t>(0x0) };
+/// @brief Field kAnimationMask offset 0xffffffff size 0x4
+static constexpr int32_t  kAnimationMask{static_cast<int32_t>(0xff00)};
 
-  /// @brief Field kPrefabMask offset 0xffffffff size 0x4
-  static constexpr int32_t kPrefabMask{ static_cast<int32_t>(0xff) };
+/// @brief Field kPrefabBitOffset offset 0xffffffff size 0x4
+static constexpr int32_t  kPrefabBitOffset{static_cast<int32_t>(0x0)};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field kPrefabMask offset 0xffffffff size 0x4
+static constexpr int32_t  kPrefabMask{static_cast<int32_t>(0xff)};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BTSCharacterSpawnEventValueParser, 0x10>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BTSCharacterSpawnEventValueParser);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BTSCharacterSpawnEventValueParser*, "", "BTSCharacterSpawnEventValueParser");

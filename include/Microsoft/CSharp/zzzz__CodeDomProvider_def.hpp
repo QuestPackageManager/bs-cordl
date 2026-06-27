@@ -17,34 +17,34 @@ namespace Microsoft::CSharp {
 // CS Name: Microsoft.CSharp.CodeDomProvider
 class CORDL_TYPE CodeDomProvider : public ::System::Object {
 public:
-  // Declarations
-  static inline ::Microsoft::CSharp::CodeDomProvider* New_ctor();
+// Declarations
+static inline ::Microsoft::CSharp::CodeDomProvider* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x604f7f4, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x605136c, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CodeDomProvider();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr CodeDomProvider() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CodeDomProvider", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  CodeDomProvider(CodeDomProvider&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CodeDomProvider", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  CodeDomProvider(CodeDomProvider const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "CodeDomProvider", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+CodeDomProvider(CodeDomProvider && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9225 };
+// Ctor Parameters [CppParam { name: "", ty: "CodeDomProvider", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+CodeDomProvider(CodeDomProvider const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9226};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Microsoft::CSharp::CodeDomProvider, 0x10>, "Size mismatch!");
 
-} // namespace Microsoft::CSharp
+} // namespace end def Microsoft::CSharp
 NEED_NO_BOX(::Microsoft::CSharp::CodeDomProvider);
 DEFINE_IL2CPP_ARG_TYPE(::Microsoft::CSharp::CodeDomProvider*, "Microsoft.CSharp", "CodeDomProvider");

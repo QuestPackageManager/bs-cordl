@@ -17,70 +17,70 @@ namespace Newtonsoft::Json {
 // CS Name: Newtonsoft.Json.JsonExtensionDataAttribute
 class CORDL_TYPE JsonExtensionDataAttribute : public ::System::Attribute {
 public:
-  // Declarations
-  __declspec(property(get = get_ReadData, put = set_ReadData)) bool ReadData;
+// Declarations
+ __declspec(property(get=get_ReadData, put=set_ReadData)) bool  ReadData;
 
-  __declspec(property(get = get_WriteData, put = set_WriteData)) bool WriteData;
+ __declspec(property(get=get_WriteData, put=set_WriteData)) bool  WriteData;
 
-  /// @brief Field <ReadData>k__BackingField, offset 0x11, size 0x1
-  __declspec(property(get = __cordl_internal_get__ReadData_k__BackingField, put = __cordl_internal_set__ReadData_k__BackingField)) bool _ReadData_k__BackingField;
+/// @brief Field <ReadData>k__BackingField, offset 0x11, size 0x1 
+ __declspec(property(get=__cordl_internal_get__ReadData_k__BackingField, put=__cordl_internal_set__ReadData_k__BackingField)) bool  _ReadData_k__BackingField;
 
-  /// @brief Field <WriteData>k__BackingField, offset 0x10, size 0x1
-  __declspec(property(get = __cordl_internal_get__WriteData_k__BackingField, put = __cordl_internal_set__WriteData_k__BackingField)) bool _WriteData_k__BackingField;
+/// @brief Field <WriteData>k__BackingField, offset 0x10, size 0x1 
+ __declspec(property(get=__cordl_internal_get__WriteData_k__BackingField, put=__cordl_internal_set__WriteData_k__BackingField)) bool  _WriteData_k__BackingField;
 
-  static inline ::Newtonsoft::Json::JsonExtensionDataAttribute* New_ctor();
+static inline ::Newtonsoft::Json::JsonExtensionDataAttribute* New_ctor() ;
 
-  constexpr bool const& __cordl_internal_get__ReadData_k__BackingField() const;
+constexpr bool const& __cordl_internal_get__ReadData_k__BackingField() const;
 
-  constexpr bool& __cordl_internal_get__ReadData_k__BackingField();
+constexpr bool& __cordl_internal_get__ReadData_k__BackingField() ;
 
-  constexpr bool const& __cordl_internal_get__WriteData_k__BackingField() const;
+constexpr bool const& __cordl_internal_get__WriteData_k__BackingField() const;
 
-  constexpr bool& __cordl_internal_get__WriteData_k__BackingField();
+constexpr bool& __cordl_internal_get__WriteData_k__BackingField() ;
 
-  constexpr void __cordl_internal_set__ReadData_k__BackingField(bool value);
+constexpr void __cordl_internal_set__ReadData_k__BackingField(bool  value) ;
 
-  constexpr void __cordl_internal_set__WriteData_k__BackingField(bool value);
+constexpr void __cordl_internal_set__WriteData_k__BackingField(bool  value) ;
 
-  /// @brief Method .ctor, addr 0x5b9b4f0, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5b9d068, size 0xc, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_ReadData, addr 0x5b9b4e0, size 0x8, virtual false, abstract: false, final false
-  inline bool get_ReadData();
+/// @brief Method get_ReadData, addr 0x5b9d058, size 0x8, virtual false, abstract: false, final false
+inline bool get_ReadData() ;
 
-  /// @brief Method get_WriteData, addr 0x5b9b4d0, size 0x8, virtual false, abstract: false, final false
-  inline bool get_WriteData();
+/// @brief Method get_WriteData, addr 0x5b9d048, size 0x8, virtual false, abstract: false, final false
+inline bool get_WriteData() ;
 
-  /// @brief Method set_ReadData, addr 0x5b9b4e8, size 0x8, virtual false, abstract: false, final false
-  inline void set_ReadData(bool value);
+/// @brief Method set_ReadData, addr 0x5b9d060, size 0x8, virtual false, abstract: false, final false
+inline void set_ReadData(bool  value) ;
 
-  /// @brief Method set_WriteData, addr 0x5b9b4d8, size 0x8, virtual false, abstract: false, final false
-  inline void set_WriteData(bool value);
+/// @brief Method set_WriteData, addr 0x5b9d050, size 0x8, virtual false, abstract: false, final false
+inline void set_WriteData(bool  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr JsonExtensionDataAttribute();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr JsonExtensionDataAttribute() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "JsonExtensionDataAttribute", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  JsonExtensionDataAttribute(JsonExtensionDataAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "JsonExtensionDataAttribute", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  JsonExtensionDataAttribute(JsonExtensionDataAttribute const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "JsonExtensionDataAttribute", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+JsonExtensionDataAttribute(JsonExtensionDataAttribute && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13239 };
+// Ctor Parameters [CppParam { name: "", ty: "JsonExtensionDataAttribute", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+JsonExtensionDataAttribute(JsonExtensionDataAttribute const& ) = delete;
 
-  /// @brief Field <WriteData>k__BackingField, offset: 0x10, size: 0x1, def value: None
-  bool ____WriteData_k__BackingField;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{13240};
 
-  /// @brief Field <ReadData>k__BackingField, offset: 0x11, size: 0x1, def value: None
-  bool ____ReadData_k__BackingField;
+/// @brief Field <WriteData>k__BackingField, offset: 0x10, size: 0x1, def value: None
+ bool  ____WriteData_k__BackingField;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field <ReadData>k__BackingField, offset: 0x11, size: 0x1, def value: None
+ bool  ____ReadData_k__BackingField;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Newtonsoft::Json::JsonExtensionDataAttribute, ____WriteData_k__BackingField) == 0x10, "Offset mismatch!");
@@ -89,6 +89,6 @@ static_assert(offsetof(::Newtonsoft::Json::JsonExtensionDataAttribute, ____ReadD
 
 static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::JsonExtensionDataAttribute, 0x18>, "Size mismatch!");
 
-} // namespace Newtonsoft::Json
+} // namespace end def Newtonsoft::Json
 NEED_NO_BOX(::Newtonsoft::Json::JsonExtensionDataAttribute);
 DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::JsonExtensionDataAttribute*, "Newtonsoft.Json", "JsonExtensionDataAttribute");

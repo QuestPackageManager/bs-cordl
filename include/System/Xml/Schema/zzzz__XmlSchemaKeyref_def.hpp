@@ -20,56 +20,56 @@ namespace System::Xml::Schema {
 // CS Name: System.Xml.Schema.XmlSchemaKeyref
 class CORDL_TYPE XmlSchemaKeyref : public ::System::Xml::Schema::XmlSchemaIdentityConstraint {
 public:
-  // Declarations
-  __declspec(property(get = get_Refer, put = set_Refer)) ::System::Xml::XmlQualifiedName* Refer;
+// Declarations
+ __declspec(property(get=get_Refer, put=set_Refer)) ::System::Xml::XmlQualifiedName*  Refer;
 
-  /// @brief Field refer, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get_refer, put = __cordl_internal_set_refer)) ::System::Xml::XmlQualifiedName* refer;
+/// @brief Field refer, offset 0x78, size 0x8 
+ __declspec(property(get=__cordl_internal_get_refer, put=__cordl_internal_set_refer)) ::System::Xml::XmlQualifiedName*  refer;
 
-  static inline ::System::Xml::Schema::XmlSchemaKeyref* New_ctor();
+static inline ::System::Xml::Schema::XmlSchemaKeyref* New_ctor() ;
 
-  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_refer() const;
+constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_refer() const;
 
-  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_refer();
+constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_refer() ;
 
-  constexpr void __cordl_internal_set_refer(::System::Xml::XmlQualifiedName* value);
+constexpr void __cordl_internal_set_refer(::System::Xml::XmlQualifiedName*  value) ;
 
-  /// @brief Method .ctor, addr 0x60ef5e0, size 0x68, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x60f1158, size 0x68, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_Refer, addr 0x60ef544, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Xml::XmlQualifiedName* get_Refer();
+/// @brief Method get_Refer, addr 0x60f10bc, size 0x8, virtual false, abstract: false, final false
+inline ::System::Xml::XmlQualifiedName* get_Refer() ;
 
-  /// @brief Method set_Refer, addr 0x60ef54c, size 0x94, virtual false, abstract: false, final false
-  inline void set_Refer(::System::Xml::XmlQualifiedName* value);
+/// @brief Method set_Refer, addr 0x60f10c4, size 0x94, virtual false, abstract: false, final false
+inline void set_Refer(::System::Xml::XmlQualifiedName*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr XmlSchemaKeyref();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr XmlSchemaKeyref() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaKeyref", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  XmlSchemaKeyref(XmlSchemaKeyref&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaKeyref", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  XmlSchemaKeyref(XmlSchemaKeyref const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "XmlSchemaKeyref", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+XmlSchemaKeyref(XmlSchemaKeyref && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9779 };
+// Ctor Parameters [CppParam { name: "", ty: "XmlSchemaKeyref", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+XmlSchemaKeyref(XmlSchemaKeyref const& ) = delete;
 
-  /// @brief Field refer, offset: 0x78, size: 0x8, def value: None
-  ::System::Xml::XmlQualifiedName* ___refer;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9780};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field refer, offset: 0x78, size: 0x8, def value: None
+ ::System::Xml::XmlQualifiedName*  ___refer;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Xml::Schema::XmlSchemaKeyref, ___refer) == 0x78, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::XmlSchemaKeyref, 0x80>, "Size mismatch!");
 
-} // namespace System::Xml::Schema
+} // namespace end def System::Xml::Schema
 NEED_NO_BOX(::System::Xml::Schema::XmlSchemaKeyref);
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::XmlSchemaKeyref*, "System.Xml.Schema", "XmlSchemaKeyref");

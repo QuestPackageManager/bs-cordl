@@ -8,7 +8,8 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ManifestBasedResourceGroveler)
 namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+template<typename TKey,typename TValue>
+class Dictionary_2;
 }
 namespace System::Globalization {
 class CultureInfo;
@@ -49,92 +50,90 @@ namespace System::Resources {
 // CS Name: System.Resources.ManifestBasedResourceGroveler
 class CORDL_TYPE ManifestBasedResourceGroveler : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field _mediator, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__mediator, put = __cordl_internal_set__mediator)) ::System::Resources::ResourceManager_ResourceManagerMediator* _mediator;
+// Declarations
+/// @brief Field _mediator, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get__mediator, put=__cordl_internal_set__mediator)) ::System::Resources::ResourceManager_ResourceManagerMediator*  _mediator;
 
-  /// @brief Convert operator to "::System::Resources::IResourceGroveler"
-  constexpr operator ::System::Resources::IResourceGroveler*() noexcept;
+/// @brief Convert operator to "::System::Resources::IResourceGroveler"
+constexpr operator  ::System::Resources::IResourceGroveler*() noexcept;
 
-  /// @brief Method CanUseDefaultResourceClasses, addr 0x5a39704, size 0x144, virtual false, abstract: false, final false
-  inline bool CanUseDefaultResourceClasses(::StringW readerTypeName, ::StringW resSetTypeName);
+/// @brief Method CanUseDefaultResourceClasses, addr 0x5a3b27c, size 0x144, virtual false, abstract: false, final false
+inline bool CanUseDefaultResourceClasses(::StringW  readerTypeName, ::StringW  resSetTypeName) ;
 
-  /// @brief Method CaseInsensitiveManifestResourceStreamLookup, addr 0x5a39860, size 0x358, virtual false, abstract: false, final false
-  inline ::System::IO::Stream* CaseInsensitiveManifestResourceStreamLookup(::System::Reflection::RuntimeAssembly* satellite, ::StringW name);
+/// @brief Method CaseInsensitiveManifestResourceStreamLookup, addr 0x5a3b3d8, size 0x358, virtual false, abstract: false, final false
+inline ::System::IO::Stream* CaseInsensitiveManifestResourceStreamLookup(::System::Reflection::RuntimeAssembly*  satellite, ::StringW  name) ;
 
-  /// @brief Method CreateResourceSet, addr 0x5a387a0, size 0x910, virtual false, abstract: false, final false
-  inline ::System::Resources::ResourceSet* CreateResourceSet(::System::IO::Stream* store, ::System::Reflection::Assembly* assembly);
+/// @brief Method CreateResourceSet, addr 0x5a3a318, size 0x910, virtual false, abstract: false, final false
+inline ::System::Resources::ResourceSet* CreateResourceSet(::System::IO::Stream*  store, ::System::Reflection::Assembly*  assembly) ;
 
-  /// @brief Method GetManifestResourceStream, addr 0x5a386d4, size 0xcc, virtual false, abstract: false, final false
-  inline ::System::IO::Stream* GetManifestResourceStream(::System::Reflection::RuntimeAssembly* satellite, ::StringW fileName, ::ByRef<::System::Threading::StackCrawlMark> stackMark);
+/// @brief Method GetManifestResourceStream, addr 0x5a3a24c, size 0xcc, virtual false, abstract: false, final false
+inline ::System::IO::Stream* GetManifestResourceStream(::System::Reflection::RuntimeAssembly*  satellite, ::StringW  fileName, ::ByRef<::System::Threading::StackCrawlMark>  stackMark) ;
 
-  /// @brief Method GetNeutralResourcesLanguage, addr 0x5a39374, size 0x314, virtual false, abstract: false, final false
-  static inline ::System::Globalization::CultureInfo* GetNeutralResourcesLanguage(::System::Reflection::Assembly* a, ::ByRef<::System::Resources::UltimateResourceFallbackLocation> fallbackLocation);
+/// @brief Method GetNeutralResourcesLanguage, addr 0x5a3aeec, size 0x314, virtual false, abstract: false, final false
+static inline ::System::Globalization::CultureInfo* GetNeutralResourcesLanguage(::System::Reflection::Assembly*  a, ::ByRef<::System::Resources::UltimateResourceFallbackLocation>  fallbackLocation) ;
 
-  /// @brief Method GetNeutralResourcesLanguageAttribute, addr 0x5a39688, size 0x7c, virtual false, abstract: false, final false
-  static inline bool GetNeutralResourcesLanguageAttribute(::System::Reflection::Assembly* assembly, ::ByRef<::StringW> cultureName, ::ByRef<int16_t> fallbackLocation);
+/// @brief Method GetNeutralResourcesLanguageAttribute, addr 0x5a3b200, size 0x7c, virtual false, abstract: false, final false
+static inline bool GetNeutralResourcesLanguageAttribute(::System::Reflection::Assembly*  assembly, ::ByRef<::StringW>  cultureName, ::ByRef<int16_t>  fallbackLocation) ;
 
-  /// @brief Method GetSatelliteAssembly, addr 0x5a381b0, size 0x180, virtual false, abstract: false, final false
-  inline ::System::Reflection::RuntimeAssembly* GetSatelliteAssembly(::System::Globalization::CultureInfo* lookForCulture, ::ByRef<::System::Threading::StackCrawlMark> stackMark);
+/// @brief Method GetSatelliteAssembly, addr 0x5a39d28, size 0x180, virtual false, abstract: false, final false
+inline ::System::Reflection::RuntimeAssembly* GetSatelliteAssembly(::System::Globalization::CultureInfo*  lookForCulture, ::ByRef<::System::Threading::StackCrawlMark>  stackMark) ;
 
-  /// @brief Method GetSatelliteAssemblyName, addr 0x5a39c5c, size 0x7c, virtual false, abstract: false, final false
-  inline ::StringW GetSatelliteAssemblyName();
+/// @brief Method GetSatelliteAssemblyName, addr 0x5a3b7d4, size 0x7c, virtual false, abstract: false, final false
+inline ::StringW GetSatelliteAssemblyName() ;
 
-  /// @brief Method GrovelForResourceSet, addr 0x5a37d4c, size 0x2b4, virtual true, abstract: false, final true
-  inline ::System::Resources::ResourceSet* GrovelForResourceSet(::System::Globalization::CultureInfo* culture,
-                                                                ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceSet*>* localResourceSets, bool tryParents,
-                                                                bool createIfNotExists, ::ByRef<::System::Threading::StackCrawlMark> stackMark);
+/// @brief Method GrovelForResourceSet, addr 0x5a398c4, size 0x2b4, virtual true, abstract: false, final true
+inline ::System::Resources::ResourceSet* GrovelForResourceSet(::System::Globalization::CultureInfo*  culture, ::System::Collections::Generic::Dictionary_2<::StringW,::System::Resources::ResourceSet*>*  localResourceSets, bool  tryParents, bool  createIfNotExists, ::ByRef<::System::Threading::StackCrawlMark>  stackMark) ;
 
-  /// @brief Method HandleResourceStreamMissing, addr 0x5a390b0, size 0x2ac, virtual false, abstract: false, final false
-  inline void HandleResourceStreamMissing(::StringW fileName);
+/// @brief Method HandleResourceStreamMissing, addr 0x5a3ac28, size 0x2ac, virtual false, abstract: false, final false
+inline void HandleResourceStreamMissing(::StringW  fileName) ;
 
-  /// @brief Method HandleSatelliteMissing, addr 0x5a38330, size 0x3a4, virtual false, abstract: false, final false
-  inline void HandleSatelliteMissing();
+/// @brief Method HandleSatelliteMissing, addr 0x5a39ea8, size 0x3a4, virtual false, abstract: false, final false
+inline void HandleSatelliteMissing() ;
 
-  static inline ::System::Resources::ManifestBasedResourceGroveler* New_ctor(::System::Resources::ResourceManager_ResourceManagerMediator* mediator);
+static inline ::System::Resources::ManifestBasedResourceGroveler* New_ctor(::System::Resources::ResourceManager_ResourceManagerMediator*  mediator) ;
 
-  /// @brief Method UltimateFallbackFixup, addr 0x5a38000, size 0x110, virtual false, abstract: false, final false
-  inline ::System::Globalization::CultureInfo* UltimateFallbackFixup(::System::Globalization::CultureInfo* lookForCulture);
+/// @brief Method UltimateFallbackFixup, addr 0x5a39b78, size 0x110, virtual false, abstract: false, final false
+inline ::System::Globalization::CultureInfo* UltimateFallbackFixup(::System::Globalization::CultureInfo*  lookForCulture) ;
 
-  constexpr ::System::Resources::ResourceManager_ResourceManagerMediator* const& __cordl_internal_get__mediator() const;
+constexpr ::System::Resources::ResourceManager_ResourceManagerMediator* const& __cordl_internal_get__mediator() const;
 
-  constexpr ::System::Resources::ResourceManager_ResourceManagerMediator*& __cordl_internal_get__mediator();
+constexpr ::System::Resources::ResourceManager_ResourceManagerMediator*& __cordl_internal_get__mediator() ;
 
-  constexpr void __cordl_internal_set__mediator(::System::Resources::ResourceManager_ResourceManagerMediator* value);
+constexpr void __cordl_internal_set__mediator(::System::Resources::ResourceManager_ResourceManagerMediator*  value) ;
 
-  /// @brief Method .ctor, addr 0x5a37d44, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::System::Resources::ResourceManager_ResourceManagerMediator* mediator);
+/// @brief Method .ctor, addr 0x5a398bc, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(::System::Resources::ResourceManager_ResourceManagerMediator*  mediator) ;
 
-  /// @brief Convert to "::System::Resources::IResourceGroveler"
-  constexpr ::System::Resources::IResourceGroveler* i___System__Resources__IResourceGroveler() noexcept;
+/// @brief Convert to "::System::Resources::IResourceGroveler"
+constexpr ::System::Resources::IResourceGroveler* i___System__Resources__IResourceGroveler() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ManifestBasedResourceGroveler();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ManifestBasedResourceGroveler() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ManifestBasedResourceGroveler", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ManifestBasedResourceGroveler(ManifestBasedResourceGroveler&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ManifestBasedResourceGroveler", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ManifestBasedResourceGroveler(ManifestBasedResourceGroveler const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ManifestBasedResourceGroveler", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ManifestBasedResourceGroveler(ManifestBasedResourceGroveler && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3454 };
+// Ctor Parameters [CppParam { name: "", ty: "ManifestBasedResourceGroveler", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ManifestBasedResourceGroveler(ManifestBasedResourceGroveler const& ) = delete;
 
-  /// @brief Field _mediator, offset: 0x10, size: 0x8, def value: None
-  ::System::Resources::ResourceManager_ResourceManagerMediator* ____mediator;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{3454};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _mediator, offset: 0x10, size: 0x8, def value: None
+ ::System::Resources::ResourceManager_ResourceManagerMediator*  ____mediator;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Resources::ManifestBasedResourceGroveler, ____mediator) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::System::Resources::ManifestBasedResourceGroveler, 0x18>, "Size mismatch!");
 
-} // namespace System::Resources
+} // namespace end def System::Resources
 NEED_NO_BOX(::System::Resources::ManifestBasedResourceGroveler);
 DEFINE_IL2CPP_ARG_TYPE(::System::Resources::ManifestBasedResourceGroveler*, "System.Resources", "ManifestBasedResourceGroveler");

@@ -23,46 +23,46 @@ namespace GlobalNamespace {
 // CS Name: NoTransitionButtonSelectableStateController
 class CORDL_TYPE NoTransitionButtonSelectableStateController : public ::GlobalNamespace::SelectableStateController_1<::UnityW<::HMUI::NoTransitionsButton>> {
 public:
-  // Declarations
-  /// @brief Method HandleNoTransitionButtonSelectionStateDidChange, addr 0x63027f0, size 0x8, virtual false, abstract: false, final false
-  inline void HandleNoTransitionButtonSelectionStateDidChange(::HMUI::NoTransitionsButton_SelectionState state);
+// Declarations
+/// @brief Method HandleNoTransitionButtonSelectionStateDidChange, addr 0x6304368, size 0x8, virtual false, abstract: false, final false
+inline void HandleNoTransitionButtonSelectionStateDidChange(::HMUI::NoTransitionsButton_SelectionState  state) ;
 
-  static inline ::GlobalNamespace::NoTransitionButtonSelectableStateController* New_ctor();
+static inline ::GlobalNamespace::NoTransitionButtonSelectableStateController* New_ctor() ;
 
-  /// @brief Method OnDisable, addr 0x6302760, size 0x90, virtual false, abstract: false, final false
-  inline void OnDisable();
+/// @brief Method OnDisable, addr 0x63042d8, size 0x90, virtual false, abstract: false, final false
+inline void OnDisable() ;
 
-  /// @brief Method OnEnable, addr 0x6302668, size 0xa8, virtual false, abstract: false, final false
-  inline void OnEnable();
+/// @brief Method OnEnable, addr 0x63041e0, size 0xa8, virtual false, abstract: false, final false
+inline void OnEnable() ;
 
-  /// @brief Method ResolveSelectionState, addr 0x6302710, size 0x50, virtual false, abstract: false, final false
-  inline void ResolveSelectionState(::HMUI::NoTransitionsButton_SelectionState state, bool animated);
+/// @brief Method ResolveSelectionState, addr 0x6304288, size 0x50, virtual false, abstract: false, final false
+inline void ResolveSelectionState(::HMUI::NoTransitionsButton_SelectionState  state, bool  animated) ;
 
-  /// @brief Method .ctor, addr 0x63027f8, size 0x44, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6304370, size 0x44, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NoTransitionButtonSelectableStateController();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr NoTransitionButtonSelectableStateController() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NoTransitionButtonSelectableStateController", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  NoTransitionButtonSelectableStateController(NoTransitionButtonSelectableStateController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NoTransitionButtonSelectableStateController", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  NoTransitionButtonSelectableStateController(NoTransitionButtonSelectableStateController const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "NoTransitionButtonSelectableStateController", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+NoTransitionButtonSelectableStateController(NoTransitionButtonSelectableStateController && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22181 };
+// Ctor Parameters [CppParam { name: "", ty: "NoTransitionButtonSelectableStateController", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+NoTransitionButtonSelectableStateController(NoTransitionButtonSelectableStateController const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22185};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NoTransitionButtonSelectableStateController, 0x40>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::NoTransitionButtonSelectableStateController);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::NoTransitionButtonSelectableStateController*, "", "NoTransitionButtonSelectableStateController");

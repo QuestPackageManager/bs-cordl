@@ -20,79 +20,78 @@ namespace UnityEngine::InputSystem {
 // CS Name: UnityEngine.InputSystem.Gyroscope
 class CORDL_TYPE Gyroscope : public ::UnityEngine::InputSystem::Sensor {
 public:
-  // Declarations
-  /// @brief Field <angularVelocity>k__BackingField, offset 0x188, size 0x8
-  __declspec(property(get = __cordl_internal_get__angularVelocity_k__BackingField,
-                      put = __cordl_internal_set__angularVelocity_k__BackingField)) ::UnityEngine::InputSystem::Controls::Vector3Control* _angularVelocity_k__BackingField;
+// Declarations
+/// @brief Field <angularVelocity>k__BackingField, offset 0x188, size 0x8 
+ __declspec(property(get=__cordl_internal_get__angularVelocity_k__BackingField, put=__cordl_internal_set__angularVelocity_k__BackingField)) ::UnityEngine::InputSystem::Controls::Vector3Control*  _angularVelocity_k__BackingField;
 
-  /// @brief Field <current>k__BackingField, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF__current_k__BackingField, put = setStaticF__current_k__BackingField)) ::UnityEngine::InputSystem::Gyroscope* _current_k__BackingField;
+/// @brief Field <current>k__BackingField, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF__current_k__BackingField, put=setStaticF__current_k__BackingField)) ::UnityEngine::InputSystem::Gyroscope*  _current_k__BackingField;
 
-  __declspec(property(get = get_angularVelocity, put = set_angularVelocity)) ::UnityEngine::InputSystem::Controls::Vector3Control* angularVelocity;
+ __declspec(property(get=get_angularVelocity, put=set_angularVelocity)) ::UnityEngine::InputSystem::Controls::Vector3Control*  angularVelocity;
 
-  /// @brief Method FinishSetup, addr 0x6421dfc, size 0x70, virtual true, abstract: false, final false
-  inline void FinishSetup();
+/// @brief Method FinishSetup, addr 0x6423974, size 0x70, virtual true, abstract: false, final false
+inline void FinishSetup() ;
 
-  /// @brief Method MakeCurrent, addr 0x6421d1c, size 0x50, virtual true, abstract: false, final false
-  inline void MakeCurrent();
+/// @brief Method MakeCurrent, addr 0x6423894, size 0x50, virtual true, abstract: false, final false
+inline void MakeCurrent() ;
 
-  static inline ::UnityEngine::InputSystem::Gyroscope* New_ctor();
+static inline ::UnityEngine::InputSystem::Gyroscope* New_ctor() ;
 
-  /// @brief Method OnRemoved, addr 0x6421d6c, size 0x90, virtual true, abstract: false, final false
-  inline void OnRemoved();
+/// @brief Method OnRemoved, addr 0x64238e4, size 0x90, virtual true, abstract: false, final false
+inline void OnRemoved() ;
 
-  constexpr ::UnityEngine::InputSystem::Controls::Vector3Control* const& __cordl_internal_get__angularVelocity_k__BackingField() const;
+constexpr ::UnityEngine::InputSystem::Controls::Vector3Control* const& __cordl_internal_get__angularVelocity_k__BackingField() const;
 
-  constexpr ::UnityEngine::InputSystem::Controls::Vector3Control*& __cordl_internal_get__angularVelocity_k__BackingField();
+constexpr ::UnityEngine::InputSystem::Controls::Vector3Control*& __cordl_internal_get__angularVelocity_k__BackingField() ;
 
-  constexpr void __cordl_internal_set__angularVelocity_k__BackingField(::UnityEngine::InputSystem::Controls::Vector3Control* value);
+constexpr void __cordl_internal_set__angularVelocity_k__BackingField(::UnityEngine::InputSystem::Controls::Vector3Control*  value) ;
 
-  /// @brief Method .ctor, addr 0x6421e6c, size 0x20, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x64239e4, size 0x20, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  static inline ::UnityEngine::InputSystem::Gyroscope* getStaticF__current_k__BackingField();
+static inline ::UnityEngine::InputSystem::Gyroscope* getStaticF__current_k__BackingField() ;
 
-  /// @brief Method get_angularVelocity, addr 0x6421c70, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_angularVelocity();
+/// @brief Method get_angularVelocity, addr 0x64237e8, size 0x8, virtual false, abstract: false, final false
+inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_angularVelocity() ;
 
-  /// @brief Method get_current, addr 0x6421c80, size 0x4c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::InputSystem::Gyroscope* get_current();
+/// @brief Method get_current, addr 0x64237f8, size 0x4c, virtual false, abstract: false, final false
+static inline ::UnityEngine::InputSystem::Gyroscope* get_current() ;
 
-  static inline void setStaticF__current_k__BackingField(::UnityEngine::InputSystem::Gyroscope* value);
+static inline void setStaticF__current_k__BackingField(::UnityEngine::InputSystem::Gyroscope*  value) ;
 
-  /// @brief Method set_angularVelocity, addr 0x6421c78, size 0x8, virtual false, abstract: false, final false
-  inline void set_angularVelocity(::UnityEngine::InputSystem::Controls::Vector3Control* value);
+/// @brief Method set_angularVelocity, addr 0x64237f0, size 0x8, virtual false, abstract: false, final false
+inline void set_angularVelocity(::UnityEngine::InputSystem::Controls::Vector3Control*  value) ;
 
-  /// @brief Method set_current, addr 0x6421ccc, size 0x50, virtual false, abstract: false, final false
-  static inline void set_current(::UnityEngine::InputSystem::Gyroscope* value);
+/// @brief Method set_current, addr 0x6423844, size 0x50, virtual false, abstract: false, final false
+static inline void set_current(::UnityEngine::InputSystem::Gyroscope*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Gyroscope();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr Gyroscope() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Gyroscope", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  Gyroscope(Gyroscope&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Gyroscope", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  Gyroscope(Gyroscope const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "Gyroscope", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Gyroscope(Gyroscope && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8751 };
+// Ctor Parameters [CppParam { name: "", ty: "Gyroscope", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Gyroscope(Gyroscope const& ) = delete;
 
-  /// @brief Field <angularVelocity>k__BackingField, offset: 0x188, size: 0x8, def value: None
-  ::UnityEngine::InputSystem::Controls::Vector3Control* ____angularVelocity_k__BackingField;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8752};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field <angularVelocity>k__BackingField, offset: 0x188, size: 0x8, def value: None
+ ::UnityEngine::InputSystem::Controls::Vector3Control*  ____angularVelocity_k__BackingField;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::InputSystem::Gyroscope, ____angularVelocity_k__BackingField) == 0x188, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Gyroscope, 0x190>, "Size mismatch!");
 
-} // namespace UnityEngine::InputSystem
+} // namespace end def UnityEngine::InputSystem
 NEED_NO_BOX(::UnityEngine::InputSystem::Gyroscope);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Gyroscope*, "UnityEngine.InputSystem", "Gyroscope");

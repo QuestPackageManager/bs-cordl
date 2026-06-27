@@ -23,46 +23,46 @@ namespace GlobalNamespace {
 // CS Name: InputFieldSelectableStateController
 class CORDL_TYPE InputFieldSelectableStateController : public ::GlobalNamespace::SelectableStateController_1<::UnityW<::HMUI::InputFieldView>> {
 public:
-  // Declarations
-  /// @brief Method HandleInputFieldSelectionStateDidChange, addr 0x630261c, size 0x8, virtual false, abstract: false, final false
-  inline void HandleInputFieldSelectionStateDidChange(::HMUI::InputFieldView_SelectionState state);
+// Declarations
+/// @brief Method HandleInputFieldSelectionStateDidChange, addr 0x6304194, size 0x8, virtual false, abstract: false, final false
+inline void HandleInputFieldSelectionStateDidChange(::HMUI::InputFieldView_SelectionState  state) ;
 
-  static inline ::GlobalNamespace::InputFieldSelectableStateController* New_ctor();
+static inline ::GlobalNamespace::InputFieldSelectableStateController* New_ctor() ;
 
-  /// @brief Method OnDisable, addr 0x630258c, size 0x90, virtual false, abstract: false, final false
-  inline void OnDisable();
+/// @brief Method OnDisable, addr 0x6304104, size 0x90, virtual false, abstract: false, final false
+inline void OnDisable() ;
 
-  /// @brief Method OnEnable, addr 0x6302460, size 0xa8, virtual false, abstract: false, final false
-  inline void OnEnable();
+/// @brief Method OnEnable, addr 0x6303fd8, size 0xa8, virtual false, abstract: false, final false
+inline void OnEnable() ;
 
-  /// @brief Method ResolveSelectionState, addr 0x6302508, size 0x84, virtual false, abstract: false, final false
-  inline void ResolveSelectionState(::HMUI::InputFieldView_SelectionState state, bool animated);
+/// @brief Method ResolveSelectionState, addr 0x6304080, size 0x84, virtual false, abstract: false, final false
+inline void ResolveSelectionState(::HMUI::InputFieldView_SelectionState  state, bool  animated) ;
 
-  /// @brief Method .ctor, addr 0x6302624, size 0x44, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x630419c, size 0x44, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr InputFieldSelectableStateController();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr InputFieldSelectableStateController() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InputFieldSelectableStateController", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  InputFieldSelectableStateController(InputFieldSelectableStateController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InputFieldSelectableStateController", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  InputFieldSelectableStateController(InputFieldSelectableStateController const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "InputFieldSelectableStateController", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+InputFieldSelectableStateController(InputFieldSelectableStateController && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22180 };
+// Ctor Parameters [CppParam { name: "", ty: "InputFieldSelectableStateController", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+InputFieldSelectableStateController(InputFieldSelectableStateController const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22184};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::InputFieldSelectableStateController, 0x40>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::InputFieldSelectableStateController);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::InputFieldSelectableStateController*, "", "InputFieldSelectableStateController");

@@ -12,74 +12,74 @@ struct BitField64;
 }
 // Write type traits
 MARK_VAL_T(::Unity::Collections::BitField64);
-// Dependencies
+// Dependencies 
 namespace Unity::Collections {
 // Is value type: true
 // CS Name: Unity.Collections.BitField64
 struct CORDL_TYPE BitField64 {
 public:
-  // Declarations
-  /// @brief Method CheckArgs, addr 0x6367d98, size 0xbc, virtual false, abstract: false, final false
-  static inline void CheckArgs(int32_t pos, int32_t numBits);
+// Declarations
+/// @brief Method CheckArgs, addr 0x6369910, size 0xbc, virtual false, abstract: false, final false
+static inline void CheckArgs(int32_t  pos, int32_t  numBits) ;
 
-  /// @brief Method Clear, addr 0x6367bfc, size 0x8, virtual false, abstract: false, final false
-  inline void Clear();
+/// @brief Method Clear, addr 0x6369774, size 0x8, virtual false, abstract: false, final false
+inline void Clear() ;
 
-  /// @brief Method CountBits, addr 0x6367cdc, size 0x14, virtual false, abstract: false, final false
-  inline int32_t CountBits();
+/// @brief Method CountBits, addr 0x6369854, size 0x14, virtual false, abstract: false, final false
+inline int32_t CountBits() ;
 
-  /// @brief Method CountLeadingZeros, addr 0x6367cf0, size 0x50, virtual false, abstract: false, final false
-  inline int32_t CountLeadingZeros();
+/// @brief Method CountLeadingZeros, addr 0x6369868, size 0x50, virtual false, abstract: false, final false
+inline int32_t CountLeadingZeros() ;
 
-  /// @brief Method CountTrailingZeros, addr 0x6367d40, size 0x58, virtual false, abstract: false, final false
-  inline int32_t CountTrailingZeros();
+/// @brief Method CountTrailingZeros, addr 0x63698b8, size 0x58, virtual false, abstract: false, final false
+inline int32_t CountTrailingZeros() ;
 
-  /// @brief Method GetBits, addr 0x6367c58, size 0x1c, virtual false, abstract: false, final false
-  inline uint64_t GetBits(int32_t pos, int32_t numBits);
+/// @brief Method GetBits, addr 0x63697d0, size 0x1c, virtual false, abstract: false, final false
+inline uint64_t GetBits(int32_t  pos, int32_t  numBits) ;
 
-  /// @brief Method IsSet, addr 0x6367c74, size 0x10, virtual false, abstract: false, final false
-  inline bool IsSet(int32_t pos);
+/// @brief Method IsSet, addr 0x63697ec, size 0x10, virtual false, abstract: false, final false
+inline bool IsSet(int32_t  pos) ;
 
-  /// @brief Method SetBits, addr 0x6367c04, size 0x24, virtual false, abstract: false, final false
-  inline void SetBits(int32_t pos, bool value);
+/// @brief Method SetBits, addr 0x636977c, size 0x24, virtual false, abstract: false, final false
+inline void SetBits(int32_t  pos, bool  value) ;
 
-  /// @brief Method SetBits, addr 0x6367c28, size 0x30, virtual false, abstract: false, final false
-  inline void SetBits(int32_t pos, bool value, int32_t numBits);
+/// @brief Method SetBits, addr 0x63697a0, size 0x30, virtual false, abstract: false, final false
+inline void SetBits(int32_t  pos, bool  value, int32_t  numBits) ;
 
-  /// @brief Method TestAll, addr 0x6367cbc, size 0x20, virtual false, abstract: false, final false
-  inline bool TestAll(int32_t pos, int32_t numBits);
+/// @brief Method TestAll, addr 0x6369834, size 0x20, virtual false, abstract: false, final false
+inline bool TestAll(int32_t  pos, int32_t  numBits) ;
 
-  /// @brief Method TestAny, addr 0x6367ca0, size 0x1c, virtual false, abstract: false, final false
-  inline bool TestAny(int32_t pos, int32_t numBits);
+/// @brief Method TestAny, addr 0x6369818, size 0x1c, virtual false, abstract: false, final false
+inline bool TestAny(int32_t  pos, int32_t  numBits) ;
 
-  /// @brief Method TestNone, addr 0x6367c84, size 0x1c, virtual false, abstract: false, final false
-  inline bool TestNone(int32_t pos, int32_t numBits);
+/// @brief Method TestNone, addr 0x63697fc, size 0x1c, virtual false, abstract: false, final false
+inline bool TestNone(int32_t  pos, int32_t  numBits) ;
 
-  /// @brief Method .ctor, addr 0x6367bf4, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(uint64_t initialValue);
+/// @brief Method .ctor, addr 0x636976c, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(uint64_t  initialValue) ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BitField64();
+// Ctor Parameters []
+// @brief default ctor
+constexpr BitField64() ;
 
-  // Ctor Parameters [CppParam { name: "Value", ty: "uint64_t", modifiers: "", def_value: None }]
-  constexpr BitField64(uint64_t Value) noexcept;
+// Ctor Parameters [CppParam { name: "Value", ty: "uint64_t", modifiers: "", def_value: None }]
+constexpr BitField64(uint64_t  Value) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15534 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{15536};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x8};
 
-  /// @brief Field Value, offset: 0x0, size: 0x8, def value: None
-  uint64_t Value;
+/// @brief Field Value, offset: 0x0, size: 0x8, def value: None
+ uint64_t  Value;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::Unity::Collections::BitField64, Value) == 0x0, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::Unity::Collections::BitField64, 0x8>, "Size mismatch!");
 
-} // namespace Unity::Collections
+} // namespace end def Unity::Collections
 DEFINE_IL2CPP_ARG_TYPE(::Unity::Collections::BitField64, "Unity.Collections", "BitField64");

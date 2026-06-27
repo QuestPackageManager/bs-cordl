@@ -83,52 +83,48 @@ namespace GlobalNamespace {
 // CS Name: LevelBar/<Setup>d__19
 struct CORDL_TYPE LevelBar__Setup_d__19 {
 public:
-  // Declarations
-  /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-  constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+// Declarations
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr operator  ::System::Runtime::CompilerServices::IAsyncStateMachine*() ;
 
-  /// @brief Method MoveNext, addr 0x57b1bcc, size 0x1c4, virtual true, abstract: false, final true
-  inline void MoveNext();
+/// @brief Method MoveNext, addr 0x57b3434, size 0x1c4, virtual true, abstract: false, final true
+inline void MoveNext() ;
 
-  /// @brief Method SetStateMachine, addr 0x57b1d90, size 0x8, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+/// @brief Method SetStateMachine, addr 0x57b35f8, size 0x8, virtual true, abstract: false, final true
+inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine*  stateMachine) ;
 
-  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
+/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine() ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LevelBar__Setup_d__19();
+// Ctor Parameters []
+// @brief default ctor
+constexpr LevelBar__Setup_d__19() ;
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::LevelBar>", modifiers: "",
-  // def_value: None }, CppParam { name: "beatmapKey", ty: "::GlobalNamespace::BeatmapKey", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
-  constexpr LevelBar__Setup_d__19(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder, ::UnityW<::GlobalNamespace::LevelBar> __4__this,
-                                  ::GlobalNamespace::BeatmapKey beatmapKey, ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty: "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::LevelBar>", modifiers: "", def_value: None }, CppParam { name: "beatmapKey", ty: "::GlobalNamespace::BeatmapKey", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
+constexpr LevelBar__Setup_d__19(int32_t  __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder  __t__builder, ::UnityW<::GlobalNamespace::LevelBar>  __4__this, ::GlobalNamespace::BeatmapKey  beatmapKey, ::System::Runtime::CompilerServices::TaskAwaiter  __u__1) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6568 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6568};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x58 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x58};
 
-  /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
-  int32_t __1__state;
+/// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
+ int32_t  __1__state;
 
-  /// @brief Field <>t__builder, offset: 0x8, size: 0x20, def value: None
-  ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder;
+/// @brief Field <>t__builder, offset: 0x8, size: 0x20, def value: None
+ ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder  __t__builder;
 
-  /// @brief Field <>4__this, offset: 0x28, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::LevelBar> __4__this;
+/// @brief Field <>4__this, offset: 0x28, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::LevelBar>  __4__this;
 
-  /// @brief Field beatmapKey, offset: 0x30, size: 0x20, def value: None
-  ::GlobalNamespace::BeatmapKey beatmapKey;
+/// @brief Field beatmapKey, offset: 0x30, size: 0x20, def value: None
+ ::GlobalNamespace::BeatmapKey  beatmapKey;
 
-  /// @brief Field <>u__1, offset: 0x50, size: 0x8, def value: None
-  ::System::Runtime::CompilerServices::TaskAwaiter __u__1;
+/// @brief Field <>u__1, offset: 0x50, size: 0x8, def value: None
+ ::System::Runtime::CompilerServices::TaskAwaiter  __u__1;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::LevelBar__Setup_d__19, __1__state) == 0x0, "Offset mismatch!");
@@ -143,67 +139,61 @@ static_assert(offsetof(::GlobalNamespace::LevelBar__Setup_d__19, __u__1) == 0x50
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LevelBar__Setup_d__19, 0x58>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 // Dependencies BeatmapDifficulty, System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: LevelBar/<Setup>d__20
 struct CORDL_TYPE LevelBar__Setup_d__20 {
 public:
-  // Declarations
-  /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-  constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+// Declarations
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr operator  ::System::Runtime::CompilerServices::IAsyncStateMachine*() ;
 
-  /// @brief Method MoveNext, addr 0x57b1d98, size 0x190, virtual true, abstract: false, final true
-  inline void MoveNext();
+/// @brief Method MoveNext, addr 0x57b3600, size 0x190, virtual true, abstract: false, final true
+inline void MoveNext() ;
 
-  /// @brief Method SetStateMachine, addr 0x57b1f28, size 0x8, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+/// @brief Method SetStateMachine, addr 0x57b3790, size 0x8, virtual true, abstract: false, final true
+inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine*  stateMachine) ;
 
-  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
+/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine() ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LevelBar__Setup_d__20();
+// Ctor Parameters []
+// @brief default ctor
+constexpr LevelBar__Setup_d__20() ;
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::LevelBar>", modifiers: "",
-  // def_value: None }, CppParam { name: "beatmapLevel", ty: "::GlobalNamespace::BeatmapLevel*", modifiers: "", def_value: None }, CppParam { name: "beatmapDifficulty", ty:
-  // "::GlobalNamespace::BeatmapDifficulty", modifiers: "", def_value: None }, CppParam { name: "beatmapCharacteristic", ty: "::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>", modifiers: "",
-  // def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
-  constexpr LevelBar__Setup_d__20(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder, ::UnityW<::GlobalNamespace::LevelBar> __4__this,
-                                  ::GlobalNamespace::BeatmapLevel* beatmapLevel, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty,
-                                  ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> beatmapCharacteristic, ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty: "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::LevelBar>", modifiers: "", def_value: None }, CppParam { name: "beatmapLevel", ty: "::GlobalNamespace::BeatmapLevel*", modifiers: "", def_value: None }, CppParam { name: "beatmapDifficulty", ty: "::GlobalNamespace::BeatmapDifficulty", modifiers: "", def_value: None }, CppParam { name: "beatmapCharacteristic", ty: "::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
+constexpr LevelBar__Setup_d__20(int32_t  __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder  __t__builder, ::UnityW<::GlobalNamespace::LevelBar>  __4__this, ::GlobalNamespace::BeatmapLevel*  beatmapLevel, ::GlobalNamespace::BeatmapDifficulty  beatmapDifficulty, ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>  beatmapCharacteristic, ::System::Runtime::CompilerServices::TaskAwaiter  __u__1) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6569 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6569};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x50};
 
-  /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
-  int32_t __1__state;
+/// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
+ int32_t  __1__state;
 
-  /// @brief Field <>t__builder, offset: 0x8, size: 0x20, def value: None
-  ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder;
+/// @brief Field <>t__builder, offset: 0x8, size: 0x20, def value: None
+ ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder  __t__builder;
 
-  /// @brief Field <>4__this, offset: 0x28, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::LevelBar> __4__this;
+/// @brief Field <>4__this, offset: 0x28, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::LevelBar>  __4__this;
 
-  /// @brief Field beatmapLevel, offset: 0x30, size: 0x8, def value: None
-  ::GlobalNamespace::BeatmapLevel* beatmapLevel;
+/// @brief Field beatmapLevel, offset: 0x30, size: 0x8, def value: None
+ ::GlobalNamespace::BeatmapLevel*  beatmapLevel;
 
-  /// @brief Field beatmapDifficulty, offset: 0x38, size: 0x4, def value: None
-  ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty;
+/// @brief Field beatmapDifficulty, offset: 0x38, size: 0x4, def value: None
+ ::GlobalNamespace::BeatmapDifficulty  beatmapDifficulty;
 
-  /// @brief Field beatmapCharacteristic, offset: 0x40, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> beatmapCharacteristic;
+/// @brief Field beatmapCharacteristic, offset: 0x40, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>  beatmapCharacteristic;
 
-  /// @brief Field <>u__1, offset: 0x48, size: 0x8, def value: None
-  ::System::Runtime::CompilerServices::TaskAwaiter __u__1;
+/// @brief Field <>u__1, offset: 0x48, size: 0x8, def value: None
+ ::System::Runtime::CompilerServices::TaskAwaiter  __u__1;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::LevelBar__Setup_d__20, __1__state) == 0x0, "Offset mismatch!");
@@ -222,72 +212,64 @@ static_assert(offsetof(::GlobalNamespace::LevelBar__Setup_d__20, __u__1) == 0x48
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LevelBar__Setup_d__20, 0x50>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 // Dependencies BeatmapDifficulty, System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>, System.Threading.CancellationToken
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: LevelBar/<SetupData>d__21
 struct CORDL_TYPE LevelBar__SetupData_d__21 {
 public:
-  // Declarations
-  /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-  constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+// Declarations
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr operator  ::System::Runtime::CompilerServices::IAsyncStateMachine*() ;
 
-  /// @brief Method MoveNext, addr 0x57b1f30, size 0x7b8, virtual true, abstract: false, final true
-  inline void MoveNext();
+/// @brief Method MoveNext, addr 0x57b3798, size 0x7b8, virtual true, abstract: false, final true
+inline void MoveNext() ;
 
-  /// @brief Method SetStateMachine, addr 0x57b26e8, size 0x6c, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+/// @brief Method SetStateMachine, addr 0x57b3f50, size 0x6c, virtual true, abstract: false, final true
+inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine*  stateMachine) ;
 
-  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
+/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine() ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LevelBar__SetupData_d__21();
+// Ctor Parameters []
+// @brief default ctor
+constexpr LevelBar__SetupData_d__21() ;
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::LevelBar>", modifiers: "",
-  // def_value: None }, CppParam { name: "beatmapLevel", ty: "::GlobalNamespace::BeatmapLevel*", modifiers: "", def_value: None }, CppParam { name: "beatmapDifficulty", ty:
-  // "::GlobalNamespace::BeatmapDifficulty", modifiers: "", def_value: None }, CppParam { name: "beatmapCharacteristic", ty: "::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>", modifiers: "",
-  // def_value: None }, CppParam { name: "_cancellationToken_5__2", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::Sprite>>", modifiers: "", def_value: None }]
-  constexpr LevelBar__SetupData_d__21(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::UnityW<::GlobalNamespace::LevelBar> __4__this,
-                                      ::GlobalNamespace::BeatmapLevel* beatmapLevel, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty,
-                                      ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> beatmapCharacteristic, ::System::Threading::CancellationToken _cancellationToken_5__2,
-                                      ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::Sprite>> __u__1) noexcept;
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty: "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::LevelBar>", modifiers: "", def_value: None }, CppParam { name: "beatmapLevel", ty: "::GlobalNamespace::BeatmapLevel*", modifiers: "", def_value: None }, CppParam { name: "beatmapDifficulty", ty: "::GlobalNamespace::BeatmapDifficulty", modifiers: "", def_value: None }, CppParam { name: "beatmapCharacteristic", ty: "::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>", modifiers: "", def_value: None }, CppParam { name: "_cancellationToken_5__2", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::Sprite>>", modifiers: "", def_value: None }]
+constexpr LevelBar__SetupData_d__21(int32_t  __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder  __t__builder, ::UnityW<::GlobalNamespace::LevelBar>  __4__this, ::GlobalNamespace::BeatmapLevel*  beatmapLevel, ::GlobalNamespace::BeatmapDifficulty  beatmapDifficulty, ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>  beatmapCharacteristic, ::System::Threading::CancellationToken  _cancellationToken_5__2, ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::Sprite>>  __u__1) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6570 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6570};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x50};
 
-  /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
-  int32_t __1__state;
+/// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
+ int32_t  __1__state;
 
-  /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
-  ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder;
+/// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
+ ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder  __t__builder;
 
-  /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::LevelBar> __4__this;
+/// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::LevelBar>  __4__this;
 
-  /// @brief Field beatmapLevel, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::BeatmapLevel* beatmapLevel;
+/// @brief Field beatmapLevel, offset: 0x28, size: 0x8, def value: None
+ ::GlobalNamespace::BeatmapLevel*  beatmapLevel;
 
-  /// @brief Field beatmapDifficulty, offset: 0x30, size: 0x4, def value: None
-  ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty;
+/// @brief Field beatmapDifficulty, offset: 0x30, size: 0x4, def value: None
+ ::GlobalNamespace::BeatmapDifficulty  beatmapDifficulty;
 
-  /// @brief Field beatmapCharacteristic, offset: 0x38, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> beatmapCharacteristic;
+/// @brief Field beatmapCharacteristic, offset: 0x38, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>  beatmapCharacteristic;
 
-  /// @brief Field <cancellationToken>5__2, offset: 0x40, size: 0x8, def value: None
-  ::System::Threading::CancellationToken _cancellationToken_5__2;
+/// @brief Field <cancellationToken>5__2, offset: 0x40, size: 0x8, def value: None
+ ::System::Threading::CancellationToken  _cancellationToken_5__2;
 
-  /// @brief Field <>u__1, offset: 0x48, size: 0x8, def value: None
-  ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::Sprite>> __u__1;
+/// @brief Field <>u__1, offset: 0x48, size: 0x8, def value: None
+ ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::Sprite>>  __u__1;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::LevelBar__SetupData_d__21, __1__state) == 0x0, "Offset mismatch!");
@@ -308,266 +290,264 @@ static_assert(offsetof(::GlobalNamespace::LevelBar__SetupData_d__21, __u__1) == 
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LevelBar__SetupData_d__21, 0x50>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: LevelBar
 class CORDL_TYPE LevelBar : public ::UnityEngine::MonoBehaviour {
 public:
-  // Declarations
-  using _SetupData_d__21 = ::GlobalNamespace::LevelBar__SetupData_d__21;
+// Declarations
+using _SetupData_d__21 = ::GlobalNamespace::LevelBar__SetupData_d__21;
 
-  using _Setup_d__19 = ::GlobalNamespace::LevelBar__Setup_d__19;
+using _Setup_d__19 = ::GlobalNamespace::LevelBar__Setup_d__19;
 
-  using _Setup_d__20 = ::GlobalNamespace::LevelBar__Setup_d__20;
+using _Setup_d__20 = ::GlobalNamespace::LevelBar__Setup_d__20;
 
-  /// @brief Field _artworkBackgroundImage, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get__artworkBackgroundImage, put = __cordl_internal_set__artworkBackgroundImage)) ::UnityW<::HMUI::ImageView> _artworkBackgroundImage;
+/// @brief Field _artworkBackgroundImage, offset 0x80, size 0x8 
+ __declspec(property(get=__cordl_internal_get__artworkBackgroundImage, put=__cordl_internal_set__artworkBackgroundImage)) ::UnityW<::HMUI::ImageView>  _artworkBackgroundImage;
 
-  /// @brief Field _authorNameText, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__authorNameText, put = __cordl_internal_set__authorNameText)) ::UnityW<::TMPro::TextMeshProUGUI> _authorNameText;
+/// @brief Field _authorNameText, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get__authorNameText, put=__cordl_internal_set__authorNameText)) ::UnityW<::TMPro::TextMeshProUGUI>  _authorNameText;
 
-  /// @brief Field _beatmapLevel, offset 0xa0, size 0x8
-  __declspec(property(get = __cordl_internal_get__beatmapLevel, put = __cordl_internal_set__beatmapLevel)) ::GlobalNamespace::BeatmapLevel* _beatmapLevel;
+/// @brief Field _beatmapLevel, offset 0xa0, size 0x8 
+ __declspec(property(get=__cordl_internal_get__beatmapLevel, put=__cordl_internal_set__beatmapLevel)) ::GlobalNamespace::BeatmapLevel*  _beatmapLevel;
 
-  /// @brief Field _beatmapLevelsModel, offset 0x90, size 0x8
-  __declspec(property(get = __cordl_internal_get__beatmapLevelsModel, put = __cordl_internal_set__beatmapLevelsModel)) ::GlobalNamespace::BeatmapLevelsModel* _beatmapLevelsModel;
+/// @brief Field _beatmapLevelsModel, offset 0x90, size 0x8 
+ __declspec(property(get=__cordl_internal_get__beatmapLevelsModel, put=__cordl_internal_set__beatmapLevelsModel)) ::GlobalNamespace::BeatmapLevelsModel*  _beatmapLevelsModel;
 
-  /// @brief Field _cancellationTokenSource, offset 0x98, size 0x8
-  __declspec(property(get = __cordl_internal_get__cancellationTokenSource, put = __cordl_internal_set__cancellationTokenSource)) ::System::Threading::CancellationTokenSource* _cancellationTokenSource;
+/// @brief Field _cancellationTokenSource, offset 0x98, size 0x8 
+ __declspec(property(get=__cordl_internal_get__cancellationTokenSource, put=__cordl_internal_set__cancellationTokenSource)) ::System::Threading::CancellationTokenSource*  _cancellationTokenSource;
 
-  /// @brief Field _characteristicIconImageView, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get__characteristicIconImageView, put = __cordl_internal_set__characteristicIconImageView)) ::UnityW<::HMUI::ImageView> _characteristicIconImageView;
+/// @brief Field _characteristicIconImageView, offset 0x70, size 0x8 
+ __declspec(property(get=__cordl_internal_get__characteristicIconImageView, put=__cordl_internal_set__characteristicIconImageView)) ::UnityW<::HMUI::ImageView>  _characteristicIconImageView;
 
-  /// @brief Field _defaultArtworkImage, offset 0x88, size 0x8
-  __declspec(property(get = __cordl_internal_get__defaultArtworkImage, put = __cordl_internal_set__defaultArtworkImage)) ::UnityW<::UnityEngine::Sprite> _defaultArtworkImage;
+/// @brief Field _defaultArtworkImage, offset 0x88, size 0x8 
+ __declspec(property(get=__cordl_internal_get__defaultArtworkImage, put=__cordl_internal_set__defaultArtworkImage)) ::UnityW<::UnityEngine::Sprite>  _defaultArtworkImage;
 
-  /// @brief Field _difficultyText, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get__difficultyText, put = __cordl_internal_set__difficultyText)) ::UnityW<::TMPro::TextMeshProUGUI> _difficultyText;
+/// @brief Field _difficultyText, offset 0x68, size 0x8 
+ __declspec(property(get=__cordl_internal_get__difficultyText, put=__cordl_internal_set__difficultyText)) ::UnityW<::TMPro::TextMeshProUGUI>  _difficultyText;
 
-  /// @brief Field _multiLineAuthorNameText, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get__multiLineAuthorNameText, put = __cordl_internal_set__multiLineAuthorNameText)) ::UnityW<::TMPro::TextMeshProUGUI> _multiLineAuthorNameText;
+/// @brief Field _multiLineAuthorNameText, offset 0x58, size 0x8 
+ __declspec(property(get=__cordl_internal_get__multiLineAuthorNameText, put=__cordl_internal_set__multiLineAuthorNameText)) ::UnityW<::TMPro::TextMeshProUGUI>  _multiLineAuthorNameText;
 
-  /// @brief Field _multiLineSongInfoContainer, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__multiLineSongInfoContainer, put = __cordl_internal_set__multiLineSongInfoContainer)) ::UnityW<::UnityEngine::GameObject> _multiLineSongInfoContainer;
+/// @brief Field _multiLineSongInfoContainer, offset 0x48, size 0x8 
+ __declspec(property(get=__cordl_internal_get__multiLineSongInfoContainer, put=__cordl_internal_set__multiLineSongInfoContainer)) ::UnityW<::UnityEngine::GameObject>  _multiLineSongInfoContainer;
 
-  /// @brief Field _multiLineSongNameText, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get__multiLineSongNameText, put = __cordl_internal_set__multiLineSongNameText)) ::UnityW<::TMPro::TextMeshProUGUI> _multiLineSongNameText;
+/// @brief Field _multiLineSongNameText, offset 0x50, size 0x8 
+ __declspec(property(get=__cordl_internal_get__multiLineSongNameText, put=__cordl_internal_set__multiLineSongNameText)) ::UnityW<::TMPro::TextMeshProUGUI>  _multiLineSongNameText;
 
-  /// @brief Field _showDifficultyAndCharacteristic, offset 0x60, size 0x1
-  __declspec(property(get = __cordl_internal_get__showDifficultyAndCharacteristic, put = __cordl_internal_set__showDifficultyAndCharacteristic)) bool _showDifficultyAndCharacteristic;
+/// @brief Field _showDifficultyAndCharacteristic, offset 0x60, size 0x1 
+ __declspec(property(get=__cordl_internal_get__showDifficultyAndCharacteristic, put=__cordl_internal_set__showDifficultyAndCharacteristic)) bool  _showDifficultyAndCharacteristic;
 
-  /// @brief Field _showSongSubName, offset 0x38, size 0x1
-  __declspec(property(get = __cordl_internal_get__showSongSubName, put = __cordl_internal_set__showSongSubName)) bool _showSongSubName;
+/// @brief Field _showSongSubName, offset 0x38, size 0x1 
+ __declspec(property(get=__cordl_internal_get__showSongSubName, put=__cordl_internal_set__showSongSubName)) bool  _showSongSubName;
 
-  /// @brief Field _singleLineSongInfoContainer, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__singleLineSongInfoContainer, put = __cordl_internal_set__singleLineSongInfoContainer)) ::UnityW<::UnityEngine::GameObject>
-      _singleLineSongInfoContainer;
+/// @brief Field _singleLineSongInfoContainer, offset 0x40, size 0x8 
+ __declspec(property(get=__cordl_internal_get__singleLineSongInfoContainer, put=__cordl_internal_set__singleLineSongInfoContainer)) ::UnityW<::UnityEngine::GameObject>  _singleLineSongInfoContainer;
 
-  /// @brief Field _songArtworkImageView, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__songArtworkImageView, put = __cordl_internal_set__songArtworkImageView)) ::UnityW<::HMUI::ImageView> _songArtworkImageView;
+/// @brief Field _songArtworkImageView, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get__songArtworkImageView, put=__cordl_internal_set__songArtworkImageView)) ::UnityW<::HMUI::ImageView>  _songArtworkImageView;
 
-  /// @brief Field _songNameText, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__songNameText, put = __cordl_internal_set__songNameText)) ::UnityW<::TMPro::TextMeshProUGUI> _songNameText;
+/// @brief Field _songNameText, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get__songNameText, put=__cordl_internal_set__songNameText)) ::UnityW<::TMPro::TextMeshProUGUI>  _songNameText;
 
-  /// @brief Field _useArtworkBackground, offset 0x78, size 0x1
-  __declspec(property(get = __cordl_internal_get__useArtworkBackground, put = __cordl_internal_set__useArtworkBackground)) bool _useArtworkBackground;
+/// @brief Field _useArtworkBackground, offset 0x78, size 0x1 
+ __declspec(property(get=__cordl_internal_get__useArtworkBackground, put=__cordl_internal_set__useArtworkBackground)) bool  _useArtworkBackground;
 
-  __declspec(property(put = set_hide)) bool hide;
+ __declspec(property(put=set_hide)) bool  hide;
 
-  static inline ::GlobalNamespace::LevelBar* New_ctor();
+static inline ::GlobalNamespace::LevelBar* New_ctor() ;
 
-  /// @brief Method OnDestroy, addr 0x57b1b9c, size 0x2c, virtual false, abstract: false, final false
-  inline void OnDestroy();
+/// @brief Method OnDestroy, addr 0x57b3404, size 0x2c, virtual false, abstract: false, final false
+inline void OnDestroy() ;
 
-  /// @brief Method Setup, addr 0x579fde8, size 0xbc, virtual false, abstract: false, final false
-  inline void Setup(::GlobalNamespace::BeatmapKey beatmapKey);
+/// @brief Method Setup, addr 0x57a1650, size 0xbc, virtual false, abstract: false, final false
+inline void Setup(::GlobalNamespace::BeatmapKey  beatmapKey) ;
 
-  /// @brief Method Setup, addr 0x57b19f8, size 0xc8, virtual false, abstract: false, final false
-  inline void Setup(::GlobalNamespace::BeatmapLevel* beatmapLevel, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty, ::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic);
+/// @brief Method Setup, addr 0x57b3260, size 0xc8, virtual false, abstract: false, final false
+inline void Setup(::GlobalNamespace::BeatmapLevel*  beatmapLevel, ::GlobalNamespace::BeatmapDifficulty  beatmapDifficulty, ::GlobalNamespace::BeatmapCharacteristicSO*  beatmapCharacteristic) ;
 
-  /// @brief Method SetupData, addr 0x57b1ac0, size 0xdc, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task* SetupData(::GlobalNamespace::BeatmapLevel* beatmapLevel, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty,
-                                                     ::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic);
+/// @brief Method SetupData, addr 0x57b3328, size 0xdc, virtual false, abstract: false, final false
+inline ::System::Threading::Tasks::Task* SetupData(::GlobalNamespace::BeatmapLevel*  beatmapLevel, ::GlobalNamespace::BeatmapDifficulty  beatmapDifficulty, ::GlobalNamespace::BeatmapCharacteristicSO*  beatmapCharacteristic) ;
 
-  constexpr ::UnityW<::HMUI::ImageView> const& __cordl_internal_get__artworkBackgroundImage() const;
+constexpr ::UnityW<::HMUI::ImageView> const& __cordl_internal_get__artworkBackgroundImage() const;
 
-  constexpr ::UnityW<::HMUI::ImageView>& __cordl_internal_get__artworkBackgroundImage();
+constexpr ::UnityW<::HMUI::ImageView>& __cordl_internal_get__artworkBackgroundImage() ;
 
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__authorNameText() const;
+constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__authorNameText() const;
 
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__authorNameText();
+constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__authorNameText() ;
 
-  constexpr ::GlobalNamespace::BeatmapLevel* const& __cordl_internal_get__beatmapLevel() const;
+constexpr ::GlobalNamespace::BeatmapLevel* const& __cordl_internal_get__beatmapLevel() const;
 
-  constexpr ::GlobalNamespace::BeatmapLevel*& __cordl_internal_get__beatmapLevel();
+constexpr ::GlobalNamespace::BeatmapLevel*& __cordl_internal_get__beatmapLevel() ;
 
-  constexpr ::GlobalNamespace::BeatmapLevelsModel* const& __cordl_internal_get__beatmapLevelsModel() const;
+constexpr ::GlobalNamespace::BeatmapLevelsModel* const& __cordl_internal_get__beatmapLevelsModel() const;
 
-  constexpr ::GlobalNamespace::BeatmapLevelsModel*& __cordl_internal_get__beatmapLevelsModel();
+constexpr ::GlobalNamespace::BeatmapLevelsModel*& __cordl_internal_get__beatmapLevelsModel() ;
 
-  constexpr ::System::Threading::CancellationTokenSource* const& __cordl_internal_get__cancellationTokenSource() const;
+constexpr ::System::Threading::CancellationTokenSource* const& __cordl_internal_get__cancellationTokenSource() const;
 
-  constexpr ::System::Threading::CancellationTokenSource*& __cordl_internal_get__cancellationTokenSource();
+constexpr ::System::Threading::CancellationTokenSource*& __cordl_internal_get__cancellationTokenSource() ;
 
-  constexpr ::UnityW<::HMUI::ImageView> const& __cordl_internal_get__characteristicIconImageView() const;
+constexpr ::UnityW<::HMUI::ImageView> const& __cordl_internal_get__characteristicIconImageView() const;
 
-  constexpr ::UnityW<::HMUI::ImageView>& __cordl_internal_get__characteristicIconImageView();
+constexpr ::UnityW<::HMUI::ImageView>& __cordl_internal_get__characteristicIconImageView() ;
 
-  constexpr ::UnityW<::UnityEngine::Sprite> const& __cordl_internal_get__defaultArtworkImage() const;
+constexpr ::UnityW<::UnityEngine::Sprite> const& __cordl_internal_get__defaultArtworkImage() const;
 
-  constexpr ::UnityW<::UnityEngine::Sprite>& __cordl_internal_get__defaultArtworkImage();
+constexpr ::UnityW<::UnityEngine::Sprite>& __cordl_internal_get__defaultArtworkImage() ;
 
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__difficultyText() const;
+constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__difficultyText() const;
 
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__difficultyText();
+constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__difficultyText() ;
 
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__multiLineAuthorNameText() const;
+constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__multiLineAuthorNameText() const;
 
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__multiLineAuthorNameText();
+constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__multiLineAuthorNameText() ;
 
-  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__multiLineSongInfoContainer() const;
+constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__multiLineSongInfoContainer() const;
 
-  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__multiLineSongInfoContainer();
+constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__multiLineSongInfoContainer() ;
 
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__multiLineSongNameText() const;
+constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__multiLineSongNameText() const;
 
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__multiLineSongNameText();
+constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__multiLineSongNameText() ;
 
-  constexpr bool const& __cordl_internal_get__showDifficultyAndCharacteristic() const;
+constexpr bool const& __cordl_internal_get__showDifficultyAndCharacteristic() const;
 
-  constexpr bool& __cordl_internal_get__showDifficultyAndCharacteristic();
+constexpr bool& __cordl_internal_get__showDifficultyAndCharacteristic() ;
 
-  constexpr bool const& __cordl_internal_get__showSongSubName() const;
+constexpr bool const& __cordl_internal_get__showSongSubName() const;
 
-  constexpr bool& __cordl_internal_get__showSongSubName();
+constexpr bool& __cordl_internal_get__showSongSubName() ;
 
-  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__singleLineSongInfoContainer() const;
+constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__singleLineSongInfoContainer() const;
 
-  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__singleLineSongInfoContainer();
+constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__singleLineSongInfoContainer() ;
 
-  constexpr ::UnityW<::HMUI::ImageView> const& __cordl_internal_get__songArtworkImageView() const;
+constexpr ::UnityW<::HMUI::ImageView> const& __cordl_internal_get__songArtworkImageView() const;
 
-  constexpr ::UnityW<::HMUI::ImageView>& __cordl_internal_get__songArtworkImageView();
+constexpr ::UnityW<::HMUI::ImageView>& __cordl_internal_get__songArtworkImageView() ;
 
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__songNameText() const;
+constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__songNameText() const;
 
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__songNameText();
+constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__songNameText() ;
 
-  constexpr bool const& __cordl_internal_get__useArtworkBackground() const;
+constexpr bool const& __cordl_internal_get__useArtworkBackground() const;
 
-  constexpr bool& __cordl_internal_get__useArtworkBackground();
+constexpr bool& __cordl_internal_get__useArtworkBackground() ;
 
-  constexpr void __cordl_internal_set__artworkBackgroundImage(::UnityW<::HMUI::ImageView> value);
+constexpr void __cordl_internal_set__artworkBackgroundImage(::UnityW<::HMUI::ImageView>  value) ;
 
-  constexpr void __cordl_internal_set__authorNameText(::UnityW<::TMPro::TextMeshProUGUI> value);
+constexpr void __cordl_internal_set__authorNameText(::UnityW<::TMPro::TextMeshProUGUI>  value) ;
 
-  constexpr void __cordl_internal_set__beatmapLevel(::GlobalNamespace::BeatmapLevel* value);
+constexpr void __cordl_internal_set__beatmapLevel(::GlobalNamespace::BeatmapLevel*  value) ;
 
-  constexpr void __cordl_internal_set__beatmapLevelsModel(::GlobalNamespace::BeatmapLevelsModel* value);
+constexpr void __cordl_internal_set__beatmapLevelsModel(::GlobalNamespace::BeatmapLevelsModel*  value) ;
 
-  constexpr void __cordl_internal_set__cancellationTokenSource(::System::Threading::CancellationTokenSource* value);
+constexpr void __cordl_internal_set__cancellationTokenSource(::System::Threading::CancellationTokenSource*  value) ;
 
-  constexpr void __cordl_internal_set__characteristicIconImageView(::UnityW<::HMUI::ImageView> value);
+constexpr void __cordl_internal_set__characteristicIconImageView(::UnityW<::HMUI::ImageView>  value) ;
 
-  constexpr void __cordl_internal_set__defaultArtworkImage(::UnityW<::UnityEngine::Sprite> value);
+constexpr void __cordl_internal_set__defaultArtworkImage(::UnityW<::UnityEngine::Sprite>  value) ;
 
-  constexpr void __cordl_internal_set__difficultyText(::UnityW<::TMPro::TextMeshProUGUI> value);
+constexpr void __cordl_internal_set__difficultyText(::UnityW<::TMPro::TextMeshProUGUI>  value) ;
 
-  constexpr void __cordl_internal_set__multiLineAuthorNameText(::UnityW<::TMPro::TextMeshProUGUI> value);
+constexpr void __cordl_internal_set__multiLineAuthorNameText(::UnityW<::TMPro::TextMeshProUGUI>  value) ;
 
-  constexpr void __cordl_internal_set__multiLineSongInfoContainer(::UnityW<::UnityEngine::GameObject> value);
+constexpr void __cordl_internal_set__multiLineSongInfoContainer(::UnityW<::UnityEngine::GameObject>  value) ;
 
-  constexpr void __cordl_internal_set__multiLineSongNameText(::UnityW<::TMPro::TextMeshProUGUI> value);
+constexpr void __cordl_internal_set__multiLineSongNameText(::UnityW<::TMPro::TextMeshProUGUI>  value) ;
 
-  constexpr void __cordl_internal_set__showDifficultyAndCharacteristic(bool value);
+constexpr void __cordl_internal_set__showDifficultyAndCharacteristic(bool  value) ;
 
-  constexpr void __cordl_internal_set__showSongSubName(bool value);
+constexpr void __cordl_internal_set__showSongSubName(bool  value) ;
 
-  constexpr void __cordl_internal_set__singleLineSongInfoContainer(::UnityW<::UnityEngine::GameObject> value);
+constexpr void __cordl_internal_set__singleLineSongInfoContainer(::UnityW<::UnityEngine::GameObject>  value) ;
 
-  constexpr void __cordl_internal_set__songArtworkImageView(::UnityW<::HMUI::ImageView> value);
+constexpr void __cordl_internal_set__songArtworkImageView(::UnityW<::HMUI::ImageView>  value) ;
 
-  constexpr void __cordl_internal_set__songNameText(::UnityW<::TMPro::TextMeshProUGUI> value);
+constexpr void __cordl_internal_set__songNameText(::UnityW<::TMPro::TextMeshProUGUI>  value) ;
 
-  constexpr void __cordl_internal_set__useArtworkBackground(bool value);
+constexpr void __cordl_internal_set__useArtworkBackground(bool  value) ;
 
-  /// @brief Method .ctor, addr 0x57b1bc8, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x57b3430, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method set_hide, addr 0x57ae4d0, size 0x2c, virtual false, abstract: false, final false
-  inline void set_hide(bool value);
+/// @brief Method set_hide, addr 0x57afd38, size 0x2c, virtual false, abstract: false, final false
+inline void set_hide(bool  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LevelBar();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr LevelBar() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LevelBar", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  LevelBar(LevelBar&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LevelBar", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  LevelBar(LevelBar const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "LevelBar", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+LevelBar(LevelBar && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6571 };
+// Ctor Parameters [CppParam { name: "", ty: "LevelBar", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+LevelBar(LevelBar const& ) = delete;
 
-  /// @brief Field _songArtworkImageView, offset: 0x20, size: 0x8, def value: None
-  ::UnityW<::HMUI::ImageView> ____songArtworkImageView;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6571};
 
-  /// @brief Field _songNameText, offset: 0x28, size: 0x8, def value: None
-  ::UnityW<::TMPro::TextMeshProUGUI> ____songNameText;
+/// @brief Field _songArtworkImageView, offset: 0x20, size: 0x8, def value: None
+ ::UnityW<::HMUI::ImageView>  ____songArtworkImageView;
 
-  /// @brief Field _authorNameText, offset: 0x30, size: 0x8, def value: None
-  ::UnityW<::TMPro::TextMeshProUGUI> ____authorNameText;
+/// @brief Field _songNameText, offset: 0x28, size: 0x8, def value: None
+ ::UnityW<::TMPro::TextMeshProUGUI>  ____songNameText;
 
-  /// @brief Field _showSongSubName, offset: 0x38, size: 0x1, def value: None
-  bool ____showSongSubName;
+/// @brief Field _authorNameText, offset: 0x30, size: 0x8, def value: None
+ ::UnityW<::TMPro::TextMeshProUGUI>  ____authorNameText;
 
-  /// @brief Field _singleLineSongInfoContainer, offset: 0x40, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::GameObject> ____singleLineSongInfoContainer;
+/// @brief Field _showSongSubName, offset: 0x38, size: 0x1, def value: None
+ bool  ____showSongSubName;
 
-  /// @brief Field _multiLineSongInfoContainer, offset: 0x48, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::GameObject> ____multiLineSongInfoContainer;
+/// @brief Field _singleLineSongInfoContainer, offset: 0x40, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::GameObject>  ____singleLineSongInfoContainer;
 
-  /// @brief Field _multiLineSongNameText, offset: 0x50, size: 0x8, def value: None
-  ::UnityW<::TMPro::TextMeshProUGUI> ____multiLineSongNameText;
+/// @brief Field _multiLineSongInfoContainer, offset: 0x48, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::GameObject>  ____multiLineSongInfoContainer;
 
-  /// @brief Field _multiLineAuthorNameText, offset: 0x58, size: 0x8, def value: None
-  ::UnityW<::TMPro::TextMeshProUGUI> ____multiLineAuthorNameText;
+/// @brief Field _multiLineSongNameText, offset: 0x50, size: 0x8, def value: None
+ ::UnityW<::TMPro::TextMeshProUGUI>  ____multiLineSongNameText;
 
-  /// @brief Field _showDifficultyAndCharacteristic, offset: 0x60, size: 0x1, def value: None
-  bool ____showDifficultyAndCharacteristic;
+/// @brief Field _multiLineAuthorNameText, offset: 0x58, size: 0x8, def value: None
+ ::UnityW<::TMPro::TextMeshProUGUI>  ____multiLineAuthorNameText;
 
-  /// @brief Field _difficultyText, offset: 0x68, size: 0x8, def value: None
-  ::UnityW<::TMPro::TextMeshProUGUI> ____difficultyText;
+/// @brief Field _showDifficultyAndCharacteristic, offset: 0x60, size: 0x1, def value: None
+ bool  ____showDifficultyAndCharacteristic;
 
-  /// @brief Field _characteristicIconImageView, offset: 0x70, size: 0x8, def value: None
-  ::UnityW<::HMUI::ImageView> ____characteristicIconImageView;
+/// @brief Field _difficultyText, offset: 0x68, size: 0x8, def value: None
+ ::UnityW<::TMPro::TextMeshProUGUI>  ____difficultyText;
 
-  /// @brief Field _useArtworkBackground, offset: 0x78, size: 0x1, def value: None
-  bool ____useArtworkBackground;
+/// @brief Field _characteristicIconImageView, offset: 0x70, size: 0x8, def value: None
+ ::UnityW<::HMUI::ImageView>  ____characteristicIconImageView;
 
-  /// @brief Field _artworkBackgroundImage, offset: 0x80, size: 0x8, def value: None
-  ::UnityW<::HMUI::ImageView> ____artworkBackgroundImage;
+/// @brief Field _useArtworkBackground, offset: 0x78, size: 0x1, def value: None
+ bool  ____useArtworkBackground;
 
-  /// @brief Field _defaultArtworkImage, offset: 0x88, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::Sprite> ____defaultArtworkImage;
+/// @brief Field _artworkBackgroundImage, offset: 0x80, size: 0x8, def value: None
+ ::UnityW<::HMUI::ImageView>  ____artworkBackgroundImage;
 
-  /// @brief Field _beatmapLevelsModel, offset: 0x90, size: 0x8, def value: None
-  ::GlobalNamespace::BeatmapLevelsModel* ____beatmapLevelsModel;
+/// @brief Field _defaultArtworkImage, offset: 0x88, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::Sprite>  ____defaultArtworkImage;
 
-  /// @brief Field _cancellationTokenSource, offset: 0x98, size: 0x8, def value: None
-  ::System::Threading::CancellationTokenSource* ____cancellationTokenSource;
+/// @brief Field _beatmapLevelsModel, offset: 0x90, size: 0x8, def value: None
+ ::GlobalNamespace::BeatmapLevelsModel*  ____beatmapLevelsModel;
 
-  /// @brief Field _beatmapLevel, offset: 0xa0, size: 0x8, def value: None
-  ::GlobalNamespace::BeatmapLevel* ____beatmapLevel;
+/// @brief Field _cancellationTokenSource, offset: 0x98, size: 0x8, def value: None
+ ::System::Threading::CancellationTokenSource*  ____cancellationTokenSource;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _beatmapLevel, offset: 0xa0, size: 0x8, def value: None
+ ::GlobalNamespace::BeatmapLevel*  ____beatmapLevel;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::LevelBar, ____songArtworkImageView) == 0x20, "Offset mismatch!");
@@ -606,7 +586,7 @@ static_assert(offsetof(::GlobalNamespace::LevelBar, ____beatmapLevel) == 0xa0, "
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LevelBar, 0xa8>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::LevelBar);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LevelBar*, "", "LevelBar");
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LevelBar__SetupData_d__21, "", "LevelBar/<SetupData>d__21");

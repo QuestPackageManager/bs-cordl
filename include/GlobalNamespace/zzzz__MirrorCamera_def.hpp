@@ -17,34 +17,34 @@ namespace GlobalNamespace {
 // CS Name: MirrorCamera
 class CORDL_TYPE MirrorCamera : public ::UnityEngine::MonoBehaviour {
 public:
-  // Declarations
-  static inline ::GlobalNamespace::MirrorCamera* New_ctor();
+// Declarations
+static inline ::GlobalNamespace::MirrorCamera* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x5e09540, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5e0b0b8, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MirrorCamera();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr MirrorCamera() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MirrorCamera", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  MirrorCamera(MirrorCamera&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MirrorCamera", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  MirrorCamera(MirrorCamera const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "MirrorCamera", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+MirrorCamera(MirrorCamera && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20808 };
+// Ctor Parameters [CppParam { name: "", ty: "MirrorCamera", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+MirrorCamera(MirrorCamera const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20811};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MirrorCamera, 0x20>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MirrorCamera);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MirrorCamera*, "", "MirrorCamera");

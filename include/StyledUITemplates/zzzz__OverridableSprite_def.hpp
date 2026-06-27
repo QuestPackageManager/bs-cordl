@@ -20,34 +20,34 @@ namespace StyledUITemplates {
 // CS Name: StyledUITemplates.OverridableSprite
 class CORDL_TYPE OverridableSprite : public ::StyledUITemplates::OverridableData_1<::UnityW<::UnityEngine::Sprite>> {
 public:
-  // Declarations
-  static inline ::StyledUITemplates::OverridableSprite* New_ctor();
+// Declarations
+static inline ::StyledUITemplates::OverridableSprite* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x5e0348c, size 0x3c, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5e05004, size 0x3c, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OverridableSprite();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr OverridableSprite() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OverridableSprite", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  OverridableSprite(OverridableSprite&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OverridableSprite", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  OverridableSprite(OverridableSprite const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "OverridableSprite", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+OverridableSprite(OverridableSprite && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23423 };
+// Ctor Parameters [CppParam { name: "", ty: "OverridableSprite", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+OverridableSprite(OverridableSprite const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{23427};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::StyledUITemplates::OverridableSprite, 0x20>, "Size mismatch!");
 
-} // namespace StyledUITemplates
+} // namespace end def StyledUITemplates
 NEED_NO_BOX(::StyledUITemplates::OverridableSprite);
 DEFINE_IL2CPP_ARG_TYPE(::StyledUITemplates::OverridableSprite*, "StyledUITemplates", "OverridableSprite");

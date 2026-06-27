@@ -31,96 +31,96 @@ namespace HMUI {
 // CS Name: HMUI.TextSegmentedControlCell
 class CORDL_TYPE TextSegmentedControlCell : public ::HMUI::SegmentedControlCell {
 public:
-  // Declarations
-  /// @brief Field _backgroundGameObject, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get__backgroundGameObject, put = __cordl_internal_set__backgroundGameObject)) ::UnityW<::UnityEngine::GameObject> _backgroundGameObject;
+// Declarations
+/// @brief Field _backgroundGameObject, offset 0x78, size 0x8 
+ __declspec(property(get=__cordl_internal_get__backgroundGameObject, put=__cordl_internal_set__backgroundGameObject)) ::UnityW<::UnityEngine::GameObject>  _backgroundGameObject;
 
-  /// @brief Field _text, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get__text, put = __cordl_internal_set__text)) ::UnityW<::TMPro::TextMeshProUGUI> _text;
+/// @brief Field _text, offset 0x70, size 0x8 
+ __declspec(property(get=__cordl_internal_get__text, put=__cordl_internal_set__text)) ::UnityW<::TMPro::TextMeshProUGUI>  _text;
 
-  __declspec(property(get = get_fontSize, put = set_fontSize)) float_t fontSize;
+ __declspec(property(get=get_fontSize, put=set_fontSize)) float_t  fontSize;
 
-  __declspec(property(put = set_hideBackgroundImage)) bool hideBackgroundImage;
+ __declspec(property(put=set_hideBackgroundImage)) bool  hideBackgroundImage;
 
-  __declspec(property(get = get_preferredWidth)) float_t preferredWidth;
+ __declspec(property(get=get_preferredWidth)) float_t  preferredWidth;
 
-  __declspec(property(get = get_text, put = set_text)) ::StringW text;
+ __declspec(property(get=get_text, put=set_text)) ::StringW  text;
 
-  __declspec(property(get = get_textOverflowMode, put = set_textOverflowMode)) ::TMPro::TextOverflowModes textOverflowMode;
+ __declspec(property(get=get_textOverflowMode, put=set_textOverflowMode)) ::TMPro::TextOverflowModes  textOverflowMode;
 
-  __declspec(property(get = get_textWrappingMode, put = set_textWrappingMode)) ::TMPro::TextWrappingModes textWrappingMode;
+ __declspec(property(get=get_textWrappingMode, put=set_textWrappingMode)) ::TMPro::TextWrappingModes  textWrappingMode;
 
-  static inline ::HMUI::TextSegmentedControlCell* New_ctor();
+static inline ::HMUI::TextSegmentedControlCell* New_ctor() ;
 
-  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__backgroundGameObject() const;
+constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__backgroundGameObject() const;
 
-  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__backgroundGameObject();
+constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__backgroundGameObject() ;
 
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__text() const;
+constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__text() const;
 
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__text();
+constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__text() ;
 
-  constexpr void __cordl_internal_set__backgroundGameObject(::UnityW<::UnityEngine::GameObject> value);
+constexpr void __cordl_internal_set__backgroundGameObject(::UnityW<::UnityEngine::GameObject>  value) ;
 
-  constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshProUGUI> value);
+constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshProUGUI>  value) ;
 
-  /// @brief Method .ctor, addr 0x5e15374, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5e16eec, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_fontSize, addr 0x5e1532c, size 0x18, virtual false, abstract: false, final false
-  inline float_t get_fontSize();
+/// @brief Method get_fontSize, addr 0x5e16ea4, size 0x18, virtual false, abstract: false, final false
+inline float_t get_fontSize() ;
 
-  /// @brief Method get_preferredWidth, addr 0x5e152d4, size 0x20, virtual false, abstract: false, final false
-  inline float_t get_preferredWidth();
+/// @brief Method get_preferredWidth, addr 0x5e16e4c, size 0x20, virtual false, abstract: false, final false
+inline float_t get_preferredWidth() ;
 
-  /// @brief Method get_text, addr 0x5e1530c, size 0x20, virtual false, abstract: false, final false
-  inline ::StringW get_text();
+/// @brief Method get_text, addr 0x5e16e84, size 0x20, virtual false, abstract: false, final false
+inline ::StringW get_text() ;
 
-  /// @brief Method get_textOverflowMode, addr 0x5e1535c, size 0x18, virtual false, abstract: false, final false
-  inline ::TMPro::TextOverflowModes get_textOverflowMode();
+/// @brief Method get_textOverflowMode, addr 0x5e16ed4, size 0x18, virtual false, abstract: false, final false
+inline ::TMPro::TextOverflowModes get_textOverflowMode() ;
 
-  /// @brief Method get_textWrappingMode, addr 0x5e15344, size 0x18, virtual false, abstract: false, final false
-  inline ::TMPro::TextWrappingModes get_textWrappingMode();
+/// @brief Method get_textWrappingMode, addr 0x5e16ebc, size 0x18, virtual false, abstract: false, final false
+inline ::TMPro::TextWrappingModes get_textWrappingMode() ;
 
-  /// @brief Method set_fontSize, addr 0x5e151c0, size 0x18, virtual false, abstract: false, final false
-  inline void set_fontSize(float_t value);
+/// @brief Method set_fontSize, addr 0x5e16d38, size 0x18, virtual false, abstract: false, final false
+inline void set_fontSize(float_t  value) ;
 
-  /// @brief Method set_hideBackgroundImage, addr 0x5e151f8, size 0x20, virtual false, abstract: false, final false
-  inline void set_hideBackgroundImage(bool value);
+/// @brief Method set_hideBackgroundImage, addr 0x5e16d70, size 0x20, virtual false, abstract: false, final false
+inline void set_hideBackgroundImage(bool  value) ;
 
-  /// @brief Method set_text, addr 0x5e151d8, size 0x20, virtual false, abstract: false, final false
-  inline void set_text(::StringW value);
+/// @brief Method set_text, addr 0x5e16d50, size 0x20, virtual false, abstract: false, final false
+inline void set_text(::StringW  value) ;
 
-  /// @brief Method set_textOverflowMode, addr 0x5e15278, size 0x5c, virtual false, abstract: false, final false
-  inline void set_textOverflowMode(::TMPro::TextOverflowModes value);
+/// @brief Method set_textOverflowMode, addr 0x5e16df0, size 0x5c, virtual false, abstract: false, final false
+inline void set_textOverflowMode(::TMPro::TextOverflowModes  value) ;
 
-  /// @brief Method set_textWrappingMode, addr 0x5e15218, size 0x60, virtual false, abstract: false, final false
-  inline void set_textWrappingMode(::TMPro::TextWrappingModes value);
+/// @brief Method set_textWrappingMode, addr 0x5e16d90, size 0x60, virtual false, abstract: false, final false
+inline void set_textWrappingMode(::TMPro::TextWrappingModes  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TextSegmentedControlCell();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr TextSegmentedControlCell() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TextSegmentedControlCell", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  TextSegmentedControlCell(TextSegmentedControlCell&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TextSegmentedControlCell", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  TextSegmentedControlCell(TextSegmentedControlCell const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "TextSegmentedControlCell", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+TextSegmentedControlCell(TextSegmentedControlCell && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22839 };
+// Ctor Parameters [CppParam { name: "", ty: "TextSegmentedControlCell", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+TextSegmentedControlCell(TextSegmentedControlCell const& ) = delete;
 
-  /// @brief Field _text, offset: 0x70, size: 0x8, def value: None
-  ::UnityW<::TMPro::TextMeshProUGUI> ____text;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22843};
 
-  /// @brief Field _backgroundGameObject, offset: 0x78, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::GameObject> ____backgroundGameObject;
+/// @brief Field _text, offset: 0x70, size: 0x8, def value: None
+ ::UnityW<::TMPro::TextMeshProUGUI>  ____text;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _backgroundGameObject, offset: 0x78, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::GameObject>  ____backgroundGameObject;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::HMUI::TextSegmentedControlCell, ____text) == 0x70, "Offset mismatch!");
@@ -129,6 +129,6 @@ static_assert(offsetof(::HMUI::TextSegmentedControlCell, ____backgroundGameObjec
 
 static_assert(::cordl_internals::size_check_v<::HMUI::TextSegmentedControlCell, 0x80>, "Size mismatch!");
 
-} // namespace HMUI
+} // namespace end def HMUI
 NEED_NO_BOX(::HMUI::TextSegmentedControlCell);
 DEFINE_IL2CPP_ARG_TYPE(::HMUI::TextSegmentedControlCell*, "HMUI", "TextSegmentedControlCell");

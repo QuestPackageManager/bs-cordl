@@ -17,37 +17,37 @@ namespace UnityEngine::Analytics {
 // CS Name: UnityEngine.Analytics.SubsystemsAnalyticStart
 class CORDL_TYPE SubsystemsAnalyticStart : public ::UnityEngine::Analytics::SubsystemsAnalyticBase {
 public:
-  // Declarations
-  /// @brief Method CreateSubsystemsAnalyticStart, addr 0x6ccb898, size 0x54, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Analytics::SubsystemsAnalyticStart* CreateSubsystemsAnalyticStart();
+// Declarations
+/// @brief Method CreateSubsystemsAnalyticStart, addr 0x6ccd410, size 0x54, virtual false, abstract: false, final false
+static inline ::UnityEngine::Analytics::SubsystemsAnalyticStart* CreateSubsystemsAnalyticStart() ;
 
-  static inline ::UnityEngine::Analytics::SubsystemsAnalyticStart* New_ctor();
+static inline ::UnityEngine::Analytics::SubsystemsAnalyticStart* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x6ccb804, size 0x94, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6ccd37c, size 0x94, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SubsystemsAnalyticStart();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr SubsystemsAnalyticStart() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SubsystemsAnalyticStart", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  SubsystemsAnalyticStart(SubsystemsAnalyticStart&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SubsystemsAnalyticStart", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  SubsystemsAnalyticStart(SubsystemsAnalyticStart const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "SubsystemsAnalyticStart", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+SubsystemsAnalyticStart(SubsystemsAnalyticStart && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22684 };
+// Ctor Parameters [CppParam { name: "", ty: "SubsystemsAnalyticStart", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+SubsystemsAnalyticStart(SubsystemsAnalyticStart const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22688};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Analytics::SubsystemsAnalyticStart, 0x38>, "Size mismatch!");
 
-} // namespace UnityEngine::Analytics
+} // namespace end def UnityEngine::Analytics
 NEED_NO_BOX(::UnityEngine::Analytics::SubsystemsAnalyticStart);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Analytics::SubsystemsAnalyticStart*, "UnityEngine.Analytics", "SubsystemsAnalyticStart");

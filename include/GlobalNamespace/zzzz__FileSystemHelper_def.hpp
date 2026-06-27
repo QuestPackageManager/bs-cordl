@@ -21,44 +21,44 @@ namespace GlobalNamespace {
 // CS Name: FileSystemHelper
 class CORDL_TYPE FileSystemHelper : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method FindFirstExistedParentPath, addr 0x3250e50, size 0x94, virtual false, abstract: false, final false
-  static inline ::StringW FindFirstExistedParentPath(::StringW path);
+// Declarations
+/// @brief Method FindFirstExistedParentPath, addr 0x3251bec, size 0x94, virtual false, abstract: false, final false
+static inline ::StringW FindFirstExistedParentPath(::StringW  path) ;
 
-  /// @brief Method HasWritePermission, addr 0x3250ee4, size 0x338, virtual false, abstract: false, final false
-  static inline bool HasWritePermission(::System::Security::AccessControl::FileSystemSecurity* accessControlList);
+/// @brief Method HasWritePermission, addr 0x3251c80, size 0x338, virtual false, abstract: false, final false
+static inline bool HasWritePermission(::System::Security::AccessControl::FileSystemSecurity*  accessControlList) ;
 
-  /// @brief Method HasWritePermissionOnDirectory, addr 0x325121c, size 0x14, virtual false, abstract: false, final false
-  static inline bool HasWritePermissionOnDirectory(::StringW path);
+/// @brief Method HasWritePermissionOnDirectory, addr 0x3251fb8, size 0x14, virtual false, abstract: false, final false
+static inline bool HasWritePermissionOnDirectory(::StringW  path) ;
 
-  /// @brief Method HasWritePermissionOnFile, addr 0x3251230, size 0x14, virtual false, abstract: false, final false
-  static inline bool HasWritePermissionOnFile(::StringW path);
+/// @brief Method HasWritePermissionOnFile, addr 0x3251fcc, size 0x14, virtual false, abstract: false, final false
+static inline bool HasWritePermissionOnFile(::StringW  path) ;
 
-  /// @brief Method IsFileWritable, addr 0x3251244, size 0x80, virtual false, abstract: false, final false
-  static inline bool IsFileWritable(::StringW path);
+/// @brief Method IsFileWritable, addr 0x3251fe0, size 0x80, virtual false, abstract: false, final false
+static inline bool IsFileWritable(::StringW  path) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr FileSystemHelper();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr FileSystemHelper() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FileSystemHelper", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  FileSystemHelper(FileSystemHelper&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FileSystemHelper", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  FileSystemHelper(FileSystemHelper const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "FileSystemHelper", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+FileSystemHelper(FileSystemHelper && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20516 };
+// Ctor Parameters [CppParam { name: "", ty: "FileSystemHelper", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+FileSystemHelper(FileSystemHelper const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20519};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FileSystemHelper, 0x10>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::FileSystemHelper);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::FileSystemHelper*, "", "FileSystemHelper");

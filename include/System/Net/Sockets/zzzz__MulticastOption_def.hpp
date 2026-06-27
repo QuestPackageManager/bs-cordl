@@ -17,29 +17,29 @@ namespace System::Net::Sockets {
 // CS Name: System.Net.Sockets.MulticastOption
 class CORDL_TYPE MulticastOption : public ::System::Object {
 public:
-  // Declarations
+// Declarations
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MulticastOption();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr MulticastOption() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MulticastOption", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  MulticastOption(MulticastOption&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MulticastOption", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  MulticastOption(MulticastOption const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "MulticastOption", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+MulticastOption(MulticastOption && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11753 };
+// Ctor Parameters [CppParam { name: "", ty: "MulticastOption", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+MulticastOption(MulticastOption const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11754};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::Sockets::MulticastOption, 0x10>, "Size mismatch!");
 
-} // namespace System::Net::Sockets
+} // namespace end def System::Net::Sockets
 NEED_NO_BOX(::System::Net::Sockets::MulticastOption);
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::Sockets::MulticastOption*, "System.Net.Sockets", "MulticastOption");

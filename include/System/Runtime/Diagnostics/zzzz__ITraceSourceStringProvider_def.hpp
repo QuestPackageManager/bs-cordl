@@ -11,26 +11,26 @@ class ITraceSourceStringProvider;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Diagnostics::ITraceSourceStringProvider);
-// Dependencies
+// Dependencies 
 namespace System::Runtime::Diagnostics {
 // Is value type: false
 // CS Name: System.Runtime.Diagnostics.ITraceSourceStringProvider
 class CORDL_TYPE ITraceSourceStringProvider {
 public:
-  // Declarations
-  /// @brief Method GetSourceString, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline ::StringW GetSourceString();
+// Declarations
+/// @brief Method GetSourceString, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline ::StringW GetSourceString() ;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ITraceSourceStringProvider", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ITraceSourceStringProvider(ITraceSourceStringProvider const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ITraceSourceStringProvider", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ITraceSourceStringProvider(ITraceSourceStringProvider const& ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21151 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{21154};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-} // namespace System::Runtime::Diagnostics
+} // namespace end def System::Runtime::Diagnostics
 NEED_NO_BOX(::System::Runtime::Diagnostics::ITraceSourceStringProvider);
 DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Diagnostics::ITraceSourceStringProvider*, "System.Runtime.Diagnostics", "ITraceSourceStringProvider");

@@ -21,44 +21,44 @@ namespace Org::BouncyCastle::Crypto {
 // CS Name: Org.BouncyCastle.Crypto.MaxBytesExceededException
 class CORDL_TYPE MaxBytesExceededException : public ::Org::BouncyCastle::Crypto::CryptoException {
 public:
-  // Declarations
-  static inline ::Org::BouncyCastle::Crypto::MaxBytesExceededException* New_ctor();
+// Declarations
+static inline ::Org::BouncyCastle::Crypto::MaxBytesExceededException* New_ctor() ;
 
-  static inline ::Org::BouncyCastle::Crypto::MaxBytesExceededException* New_ctor(::StringW message);
+static inline ::Org::BouncyCastle::Crypto::MaxBytesExceededException* New_ctor(::StringW  message) ;
 
-  static inline ::Org::BouncyCastle::Crypto::MaxBytesExceededException* New_ctor(::StringW message, ::System::Exception* e);
+static inline ::Org::BouncyCastle::Crypto::MaxBytesExceededException* New_ctor(::StringW  message, ::System::Exception*  e) ;
 
-  /// @brief Method .ctor, addr 0x33dfaf8, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x33e0894, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method .ctor, addr 0x33dfafc, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor(::StringW message);
+/// @brief Method .ctor, addr 0x33e0898, size 0x4, virtual false, abstract: false, final false
+inline void _ctor(::StringW  message) ;
 
-  /// @brief Method .ctor, addr 0x33dfb00, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor(::StringW message, ::System::Exception* e);
+/// @brief Method .ctor, addr 0x33e089c, size 0x4, virtual false, abstract: false, final false
+inline void _ctor(::StringW  message, ::System::Exception*  e) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MaxBytesExceededException();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr MaxBytesExceededException() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MaxBytesExceededException", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  MaxBytesExceededException(MaxBytesExceededException&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MaxBytesExceededException", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  MaxBytesExceededException(MaxBytesExceededException const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "MaxBytesExceededException", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+MaxBytesExceededException(MaxBytesExceededException && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1351 };
+// Ctor Parameters [CppParam { name: "", ty: "MaxBytesExceededException", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+MaxBytesExceededException(MaxBytesExceededException const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{1351};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::MaxBytesExceededException, 0x90>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Crypto
+} // namespace end def Org::BouncyCastle::Crypto
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::MaxBytesExceededException);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::MaxBytesExceededException*, "Org.BouncyCastle.Crypto", "MaxBytesExceededException");

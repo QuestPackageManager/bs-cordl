@@ -18,70 +18,70 @@ namespace System::Xml {
 // CS Name: System.Xml.Bits
 class CORDL_TYPE Bits : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field MASK_0000000011111111, offset 0xffffffff, size 0x4
-  __declspec(property(get = getStaticF_MASK_0000000011111111, put = setStaticF_MASK_0000000011111111)) uint32_t MASK_0000000011111111;
+// Declarations
+/// @brief Field MASK_0000000011111111, offset 0xffffffff, size 0x4 
+ __declspec(property(get=getStaticF_MASK_0000000011111111, put=setStaticF_MASK_0000000011111111)) uint32_t  MASK_0000000011111111;
 
-  /// @brief Field MASK_0000111100001111, offset 0xffffffff, size 0x4
-  __declspec(property(get = getStaticF_MASK_0000111100001111, put = setStaticF_MASK_0000111100001111)) uint32_t MASK_0000111100001111;
+/// @brief Field MASK_0000111100001111, offset 0xffffffff, size 0x4 
+ __declspec(property(get=getStaticF_MASK_0000111100001111, put=setStaticF_MASK_0000111100001111)) uint32_t  MASK_0000111100001111;
 
-  /// @brief Field MASK_0011001100110011, offset 0xffffffff, size 0x4
-  __declspec(property(get = getStaticF_MASK_0011001100110011, put = setStaticF_MASK_0011001100110011)) uint32_t MASK_0011001100110011;
+/// @brief Field MASK_0011001100110011, offset 0xffffffff, size 0x4 
+ __declspec(property(get=getStaticF_MASK_0011001100110011, put=setStaticF_MASK_0011001100110011)) uint32_t  MASK_0011001100110011;
 
-  /// @brief Field MASK_0101010101010101, offset 0xffffffff, size 0x4
-  __declspec(property(get = getStaticF_MASK_0101010101010101, put = setStaticF_MASK_0101010101010101)) uint32_t MASK_0101010101010101;
+/// @brief Field MASK_0101010101010101, offset 0xffffffff, size 0x4 
+ __declspec(property(get=getStaticF_MASK_0101010101010101, put=setStaticF_MASK_0101010101010101)) uint32_t  MASK_0101010101010101;
 
-  /// @brief Field MASK_1111111111111111, offset 0xffffffff, size 0x4
-  __declspec(property(get = getStaticF_MASK_1111111111111111, put = setStaticF_MASK_1111111111111111)) uint32_t MASK_1111111111111111;
+/// @brief Field MASK_1111111111111111, offset 0xffffffff, size 0x4 
+ __declspec(property(get=getStaticF_MASK_1111111111111111, put=setStaticF_MASK_1111111111111111)) uint32_t  MASK_1111111111111111;
 
-  /// @brief Method Count, addr 0x606a34c, size 0xa0, virtual false, abstract: false, final false
-  static inline int32_t Count(uint32_t num);
+/// @brief Method Count, addr 0x606bec4, size 0xa0, virtual false, abstract: false, final false
+static inline int32_t Count(uint32_t  num) ;
 
-  /// @brief Method LeastPosition, addr 0x606a3ec, size 0x70, virtual false, abstract: false, final false
-  static inline int32_t LeastPosition(uint32_t num);
+/// @brief Method LeastPosition, addr 0x606bf64, size 0x70, virtual false, abstract: false, final false
+static inline int32_t LeastPosition(uint32_t  num) ;
 
-  static inline uint32_t getStaticF_MASK_0000000011111111();
+static inline uint32_t getStaticF_MASK_0000000011111111() ;
 
-  static inline uint32_t getStaticF_MASK_0000111100001111();
+static inline uint32_t getStaticF_MASK_0000111100001111() ;
 
-  static inline uint32_t getStaticF_MASK_0011001100110011();
+static inline uint32_t getStaticF_MASK_0011001100110011() ;
 
-  static inline uint32_t getStaticF_MASK_0101010101010101();
+static inline uint32_t getStaticF_MASK_0101010101010101() ;
 
-  static inline uint32_t getStaticF_MASK_1111111111111111();
+static inline uint32_t getStaticF_MASK_1111111111111111() ;
 
-  static inline void setStaticF_MASK_0000000011111111(uint32_t value);
+static inline void setStaticF_MASK_0000000011111111(uint32_t  value) ;
 
-  static inline void setStaticF_MASK_0000111100001111(uint32_t value);
+static inline void setStaticF_MASK_0000111100001111(uint32_t  value) ;
 
-  static inline void setStaticF_MASK_0011001100110011(uint32_t value);
+static inline void setStaticF_MASK_0011001100110011(uint32_t  value) ;
 
-  static inline void setStaticF_MASK_0101010101010101(uint32_t value);
+static inline void setStaticF_MASK_0101010101010101(uint32_t  value) ;
 
-  static inline void setStaticF_MASK_1111111111111111(uint32_t value);
+static inline void setStaticF_MASK_1111111111111111(uint32_t  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Bits();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr Bits() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Bits", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  Bits(Bits&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Bits", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  Bits(Bits const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "Bits", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Bits(Bits && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9249 };
+// Ctor Parameters [CppParam { name: "", ty: "Bits", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Bits(Bits const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9250};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::Bits, 0x10>, "Size mismatch!");
 
-} // namespace System::Xml
+} // namespace end def System::Xml
 NEED_NO_BOX(::System::Xml::Bits);
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Bits*, "System.Xml", "Bits");

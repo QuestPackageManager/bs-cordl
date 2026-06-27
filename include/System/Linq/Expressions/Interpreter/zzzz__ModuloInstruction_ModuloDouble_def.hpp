@@ -21,37 +21,37 @@ namespace GlobalNamespace {
 // CS Name: System.Linq.Expressions.Interpreter.ModuloInstruction/ModuloDouble
 class CORDL_TYPE ModuloInstruction_ModuloDouble : public ::System::Linq::Expressions::Interpreter::ModuloInstruction {
 public:
-  // Declarations
-  static inline ::GlobalNamespace::ModuloInstruction_ModuloDouble* New_ctor();
+// Declarations
+static inline ::GlobalNamespace::ModuloInstruction_ModuloDouble* New_ctor() ;
 
-  /// @brief Method Run, addr 0x5e72a80, size 0x10c, virtual true, abstract: false, final false
-  inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
+/// @brief Method Run, addr 0x5e745f8, size 0x10c, virtual true, abstract: false, final false
+inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame*  frame) ;
 
-  /// @brief Method .ctor, addr 0x5e721e0, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5e73d58, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ModuloInstruction_ModuloDouble();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ModuloInstruction_ModuloDouble() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ModuloInstruction_ModuloDouble", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ModuloInstruction_ModuloDouble(ModuloInstruction_ModuloDouble&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ModuloInstruction_ModuloDouble", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ModuloInstruction_ModuloDouble(ModuloInstruction_ModuloDouble const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ModuloInstruction_ModuloDouble", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ModuloInstruction_ModuloDouble(ModuloInstruction_ModuloDouble && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16467 };
+// Ctor Parameters [CppParam { name: "", ty: "ModuloInstruction_ModuloDouble", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ModuloInstruction_ModuloDouble(ModuloInstruction_ModuloDouble const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{16469};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ModuloInstruction_ModuloDouble, 0x10>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ModuloInstruction_ModuloDouble);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ModuloInstruction_ModuloDouble*, "System.Linq.Expressions.Interpreter", "ModuloInstruction/ModuloDouble");

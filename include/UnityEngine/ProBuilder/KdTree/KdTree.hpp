@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "UnityEngine/ProBuilder/KdTree/AddDuplicateBehavior.hpp"
 #include "UnityEngine/ProBuilder/KdTree/DuplicateNodeError.hpp"
@@ -16,5 +16,6 @@ module;
 #include "UnityEngine/ProBuilder/KdTree/NearestNeighbourList_2.hpp"
 #include "UnityEngine/ProBuilder/KdTree/PriorityQueue_2.hpp"
 #ifdef __cpp_modules
-export module KdTree;
-#endif
+                    export module KdTree;
+                    #endif
+                

@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "UnityEngine/SceneManagement/LoadSceneMode.hpp"
 #include "UnityEngine/SceneManagement/LoadSceneParameters.hpp"
@@ -12,5 +12,6 @@ module;
 #include "UnityEngine/SceneManagement/SceneManagerAPIInternal.hpp"
 #include "UnityEngine/SceneManagement/UnloadSceneOptions.hpp"
 #ifdef __cpp_modules
-export module SceneManagement;
-#endif
+                    export module SceneManagement;
+                    #endif
+                

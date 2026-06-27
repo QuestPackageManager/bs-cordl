@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "UnityEngine/ProBuilder/Poly2Tri/AdvancingFront.hpp"
 #include "UnityEngine/ProBuilder/Poly2Tri/AdvancingFrontNode.hpp"
@@ -34,5 +34,6 @@ module;
 #include "UnityEngine/ProBuilder/Poly2Tri/TriangulationPoint.hpp"
 #include "UnityEngine/ProBuilder/Poly2Tri/TriangulationUtil.hpp"
 #ifdef __cpp_modules
-export module Poly2Tri;
-#endif
+                    export module Poly2Tri;
+                    #endif
+                

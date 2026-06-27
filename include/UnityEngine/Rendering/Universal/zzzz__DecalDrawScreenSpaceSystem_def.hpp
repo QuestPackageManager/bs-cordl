@@ -24,37 +24,37 @@ namespace UnityEngine::Rendering::Universal {
 // CS Name: UnityEngine.Rendering.Universal.DecalDrawScreenSpaceSystem
 class CORDL_TYPE DecalDrawScreenSpaceSystem : public ::UnityEngine::Rendering::Universal::DecalDrawSystem {
 public:
-  // Declarations
-  /// @brief Method GetPassIndex, addr 0x671cb64, size 0x14, virtual true, abstract: false, final false
-  inline int32_t GetPassIndex(::UnityEngine::Rendering::Universal::DecalCachedChunk* decalCachedChunk);
+// Declarations
+/// @brief Method GetPassIndex, addr 0x671e6dc, size 0x14, virtual true, abstract: false, final false
+inline int32_t GetPassIndex(::UnityEngine::Rendering::Universal::DecalCachedChunk*  decalCachedChunk) ;
 
-  static inline ::UnityEngine::Rendering::Universal::DecalDrawScreenSpaceSystem* New_ctor(::UnityEngine::Rendering::Universal::DecalEntityManager* entityManager);
+static inline ::UnityEngine::Rendering::Universal::DecalDrawScreenSpaceSystem* New_ctor(::UnityEngine::Rendering::Universal::DecalEntityManager*  entityManager) ;
 
-  /// @brief Method .ctor, addr 0x671cae0, size 0x84, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::Rendering::Universal::DecalEntityManager* entityManager);
+/// @brief Method .ctor, addr 0x671e658, size 0x84, virtual false, abstract: false, final false
+inline void _ctor(::UnityEngine::Rendering::Universal::DecalEntityManager*  entityManager) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DecalDrawScreenSpaceSystem();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr DecalDrawScreenSpaceSystem() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DecalDrawScreenSpaceSystem", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  DecalDrawScreenSpaceSystem(DecalDrawScreenSpaceSystem&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DecalDrawScreenSpaceSystem", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  DecalDrawScreenSpaceSystem(DecalDrawScreenSpaceSystem const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "DecalDrawScreenSpaceSystem", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+DecalDrawScreenSpaceSystem(DecalDrawScreenSpaceSystem && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12697 };
+// Ctor Parameters [CppParam { name: "", ty: "DecalDrawScreenSpaceSystem", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+DecalDrawScreenSpaceSystem(DecalDrawScreenSpaceSystem const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12698};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::Universal::DecalDrawScreenSpaceSystem, 0x40>, "Size mismatch!");
 
-} // namespace UnityEngine::Rendering::Universal
+} // namespace end def UnityEngine::Rendering::Universal
 NEED_NO_BOX(::UnityEngine::Rendering::Universal::DecalDrawScreenSpaceSystem);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::Universal::DecalDrawScreenSpaceSystem*, "UnityEngine.Rendering.Universal", "DecalDrawScreenSpaceSystem");

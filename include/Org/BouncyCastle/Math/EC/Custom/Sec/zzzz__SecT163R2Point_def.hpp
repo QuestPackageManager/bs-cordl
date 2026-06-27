@@ -26,74 +26,69 @@ namespace Org::BouncyCastle::Math::EC::Custom::Sec {
 // CS Name: Org.BouncyCastle.Math.EC.Custom.Sec.SecT163R2Point
 class CORDL_TYPE SecT163R2Point : public ::Org::BouncyCastle::Math::EC::AbstractF2mPoint {
 public:
-  // Declarations
-  __declspec(property(get = get_CompressionYTilde)) bool CompressionYTilde;
+// Declarations
+ __declspec(property(get=get_CompressionYTilde)) bool  CompressionYTilde;
 
-  __declspec(property(get = get_YCoord)) ::Org::BouncyCastle::Math::EC::ECFieldElement* YCoord;
+ __declspec(property(get=get_YCoord)) ::Org::BouncyCastle::Math::EC::ECFieldElement*  YCoord;
 
-  /// @brief Method Add, addr 0x342cb08, size 0x71c, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Math::EC::ECPoint* Add(::Org::BouncyCastle::Math::EC::ECPoint* b);
+/// @brief Method Add, addr 0x342d8a4, size 0x71c, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Math::EC::ECPoint* Add(::Org::BouncyCastle::Math::EC::ECPoint*  b) ;
 
-  /// @brief Method Detach, addr 0x342c930, size 0x94, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Math::EC::ECPoint* Detach();
+/// @brief Method Detach, addr 0x342d6cc, size 0x94, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Math::EC::ECPoint* Detach() ;
 
-  /// @brief Method Negate, addr 0x342da40, size 0x160, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Math::EC::ECPoint* Negate();
+/// @brief Method Negate, addr 0x342e7dc, size 0x160, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Math::EC::ECPoint* Negate() ;
 
-  static inline ::Org::BouncyCastle::Math::EC::Custom::Sec::SecT163R2Point* New_ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECFieldElement* x,
-                                                                                     ::Org::BouncyCastle::Math::EC::ECFieldElement* y);
+static inline ::Org::BouncyCastle::Math::EC::Custom::Sec::SecT163R2Point* New_ctor(::Org::BouncyCastle::Math::EC::ECCurve*  curve, ::Org::BouncyCastle::Math::EC::ECFieldElement*  x, ::Org::BouncyCastle::Math::EC::ECFieldElement*  y) ;
 
-  static inline ::Org::BouncyCastle::Math::EC::Custom::Sec::SecT163R2Point* New_ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECFieldElement* x,
-                                                                                     ::Org::BouncyCastle::Math::EC::ECFieldElement* y, bool withCompression);
+static inline ::Org::BouncyCastle::Math::EC::Custom::Sec::SecT163R2Point* New_ctor(::Org::BouncyCastle::Math::EC::ECCurve*  curve, ::Org::BouncyCastle::Math::EC::ECFieldElement*  x, ::Org::BouncyCastle::Math::EC::ECFieldElement*  y, bool  withCompression) ;
 
-  static inline ::Org::BouncyCastle::Math::EC::Custom::Sec::SecT163R2Point*
-  New_ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECFieldElement* x, ::Org::BouncyCastle::Math::EC::ECFieldElement* y,
-           ::ArrayW<::Org::BouncyCastle::Math::EC::ECFieldElement*, ::Array<::Org::BouncyCastle::Math::EC::ECFieldElement*>*> zs, bool withCompression);
+static inline ::Org::BouncyCastle::Math::EC::Custom::Sec::SecT163R2Point* New_ctor(::Org::BouncyCastle::Math::EC::ECCurve*  curve, ::Org::BouncyCastle::Math::EC::ECFieldElement*  x, ::Org::BouncyCastle::Math::EC::ECFieldElement*  y, ::ArrayW<::Org::BouncyCastle::Math::EC::ECFieldElement*,::Array<::Org::BouncyCastle::Math::EC::ECFieldElement*>*>  zs, bool  withCompression) ;
 
-  /// @brief Method Twice, addr 0x342d224, size 0x338, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Math::EC::ECPoint* Twice();
+/// @brief Method Twice, addr 0x342dfc0, size 0x338, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Math::EC::ECPoint* Twice() ;
 
-  /// @brief Method TwicePlus, addr 0x342d55c, size 0x4e4, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Math::EC::ECPoint* TwicePlus(::Org::BouncyCastle::Math::EC::ECPoint* b);
+/// @brief Method TwicePlus, addr 0x342e2f8, size 0x4e4, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Math::EC::ECPoint* TwicePlus(::Org::BouncyCastle::Math::EC::ECPoint*  b) ;
 
-  /// @brief Method .ctor, addr 0x342c0c4, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECFieldElement* x, ::Org::BouncyCastle::Math::EC::ECFieldElement* y);
+/// @brief Method .ctor, addr 0x342ce60, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(::Org::BouncyCastle::Math::EC::ECCurve*  curve, ::Org::BouncyCastle::Math::EC::ECFieldElement*  x, ::Org::BouncyCastle::Math::EC::ECFieldElement*  y) ;
 
-  /// @brief Method .ctor, addr 0x342c21c, size 0x84, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECFieldElement* x, ::Org::BouncyCastle::Math::EC::ECFieldElement* y, bool withCompression);
+/// @brief Method .ctor, addr 0x342cfb8, size 0x84, virtual false, abstract: false, final false
+inline void _ctor(::Org::BouncyCastle::Math::EC::ECCurve*  curve, ::Org::BouncyCastle::Math::EC::ECFieldElement*  x, ::Org::BouncyCastle::Math::EC::ECFieldElement*  y, bool  withCompression) ;
 
-  /// @brief Method .ctor, addr 0x342c330, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECFieldElement* x, ::Org::BouncyCastle::Math::EC::ECFieldElement* y,
-                    ::ArrayW<::Org::BouncyCastle::Math::EC::ECFieldElement*, ::Array<::Org::BouncyCastle::Math::EC::ECFieldElement*>*> zs, bool withCompression);
+/// @brief Method .ctor, addr 0x342d0cc, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(::Org::BouncyCastle::Math::EC::ECCurve*  curve, ::Org::BouncyCastle::Math::EC::ECFieldElement*  x, ::Org::BouncyCastle::Math::EC::ECFieldElement*  y, ::ArrayW<::Org::BouncyCastle::Math::EC::ECFieldElement*,::Array<::Org::BouncyCastle::Math::EC::ECFieldElement*>*>  zs, bool  withCompression) ;
 
-  /// @brief Method get_CompressionYTilde, addr 0x342ca8c, size 0x7c, virtual true, abstract: false, final false
-  inline bool get_CompressionYTilde();
+/// @brief Method get_CompressionYTilde, addr 0x342d828, size 0x7c, virtual true, abstract: false, final false
+inline bool get_CompressionYTilde() ;
 
-  /// @brief Method get_YCoord, addr 0x342c9c4, size 0xc8, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Math::EC::ECFieldElement* get_YCoord();
+/// @brief Method get_YCoord, addr 0x342d760, size 0xc8, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Math::EC::ECFieldElement* get_YCoord() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SecT163R2Point();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr SecT163R2Point() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SecT163R2Point", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  SecT163R2Point(SecT163R2Point&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SecT163R2Point", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  SecT163R2Point(SecT163R2Point const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "SecT163R2Point", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+SecT163R2Point(SecT163R2Point && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1469 };
+// Ctor Parameters [CppParam { name: "", ty: "SecT163R2Point", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+SecT163R2Point(SecT163R2Point const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{1469};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Math::EC::Custom::Sec::SecT163R2Point, 0x40>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Math::EC::Custom::Sec
+} // namespace end def Org::BouncyCastle::Math::EC::Custom::Sec
 NEED_NO_BOX(::Org::BouncyCastle::Math::EC::Custom::Sec::SecT163R2Point);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Math::EC::Custom::Sec::SecT163R2Point*, "Org.BouncyCastle.Math.EC.Custom.Sec", "SecT163R2Point");

@@ -27,87 +27,86 @@ namespace Org::BouncyCastle::Crypto::Tls {
 // CS Name: Org.BouncyCastle.Crypto.Tls.DefaultTlsAgreementCredentials
 class CORDL_TYPE DefaultTlsAgreementCredentials : public ::Org::BouncyCastle::Crypto::Tls::AbstractTlsAgreementCredentials {
 public:
-  // Declarations
-  __declspec(property(get = get_Certificate)) ::Org::BouncyCastle::Crypto::Tls::Certificate* Certificate;
+// Declarations
+ __declspec(property(get=get_Certificate)) ::Org::BouncyCastle::Crypto::Tls::Certificate*  Certificate;
 
-  /// @brief Field mBasicAgreement, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_mBasicAgreement, put = __cordl_internal_set_mBasicAgreement)) ::Org::BouncyCastle::Crypto::IBasicAgreement* mBasicAgreement;
+/// @brief Field mBasicAgreement, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_mBasicAgreement, put=__cordl_internal_set_mBasicAgreement)) ::Org::BouncyCastle::Crypto::IBasicAgreement*  mBasicAgreement;
 
-  /// @brief Field mCertificate, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_mCertificate, put = __cordl_internal_set_mCertificate)) ::Org::BouncyCastle::Crypto::Tls::Certificate* mCertificate;
+/// @brief Field mCertificate, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_mCertificate, put=__cordl_internal_set_mCertificate)) ::Org::BouncyCastle::Crypto::Tls::Certificate*  mCertificate;
 
-  /// @brief Field mPrivateKey, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_mPrivateKey, put = __cordl_internal_set_mPrivateKey)) ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* mPrivateKey;
+/// @brief Field mPrivateKey, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_mPrivateKey, put=__cordl_internal_set_mPrivateKey)) ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*  mPrivateKey;
 
-  /// @brief Field mTruncateAgreement, offset 0x28, size 0x1
-  __declspec(property(get = __cordl_internal_get_mTruncateAgreement, put = __cordl_internal_set_mTruncateAgreement)) bool mTruncateAgreement;
+/// @brief Field mTruncateAgreement, offset 0x28, size 0x1 
+ __declspec(property(get=__cordl_internal_get_mTruncateAgreement, put=__cordl_internal_set_mTruncateAgreement)) bool  mTruncateAgreement;
 
-  /// @brief Method GenerateAgreement, addr 0x337e7f4, size 0x1b8, virtual true, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateAgreement(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* peerPublicKey);
+/// @brief Method GenerateAgreement, addr 0x337f590, size 0x1b8, virtual true, abstract: false, final false
+inline ::ArrayW<uint8_t,::Array<uint8_t>*> GenerateAgreement(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*  peerPublicKey) ;
 
-  static inline ::Org::BouncyCastle::Crypto::Tls::DefaultTlsAgreementCredentials* New_ctor(::Org::BouncyCastle::Crypto::Tls::Certificate* certificate,
-                                                                                           ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey);
+static inline ::Org::BouncyCastle::Crypto::Tls::DefaultTlsAgreementCredentials* New_ctor(::Org::BouncyCastle::Crypto::Tls::Certificate*  certificate, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*  privateKey) ;
 
-  constexpr ::Org::BouncyCastle::Crypto::IBasicAgreement* const& __cordl_internal_get_mBasicAgreement() const;
+constexpr ::Org::BouncyCastle::Crypto::IBasicAgreement* const& __cordl_internal_get_mBasicAgreement() const;
 
-  constexpr ::Org::BouncyCastle::Crypto::IBasicAgreement*& __cordl_internal_get_mBasicAgreement();
+constexpr ::Org::BouncyCastle::Crypto::IBasicAgreement*& __cordl_internal_get_mBasicAgreement() ;
 
-  constexpr ::Org::BouncyCastle::Crypto::Tls::Certificate* const& __cordl_internal_get_mCertificate() const;
+constexpr ::Org::BouncyCastle::Crypto::Tls::Certificate* const& __cordl_internal_get_mCertificate() const;
 
-  constexpr ::Org::BouncyCastle::Crypto::Tls::Certificate*& __cordl_internal_get_mCertificate();
+constexpr ::Org::BouncyCastle::Crypto::Tls::Certificate*& __cordl_internal_get_mCertificate() ;
 
-  constexpr ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* const& __cordl_internal_get_mPrivateKey() const;
+constexpr ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* const& __cordl_internal_get_mPrivateKey() const;
 
-  constexpr ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*& __cordl_internal_get_mPrivateKey();
+constexpr ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*& __cordl_internal_get_mPrivateKey() ;
 
-  constexpr bool const& __cordl_internal_get_mTruncateAgreement() const;
+constexpr bool const& __cordl_internal_get_mTruncateAgreement() const;
 
-  constexpr bool& __cordl_internal_get_mTruncateAgreement();
+constexpr bool& __cordl_internal_get_mTruncateAgreement() ;
 
-  constexpr void __cordl_internal_set_mBasicAgreement(::Org::BouncyCastle::Crypto::IBasicAgreement* value);
+constexpr void __cordl_internal_set_mBasicAgreement(::Org::BouncyCastle::Crypto::IBasicAgreement*  value) ;
 
-  constexpr void __cordl_internal_set_mCertificate(::Org::BouncyCastle::Crypto::Tls::Certificate* value);
+constexpr void __cordl_internal_set_mCertificate(::Org::BouncyCastle::Crypto::Tls::Certificate*  value) ;
 
-  constexpr void __cordl_internal_set_mPrivateKey(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* value);
+constexpr void __cordl_internal_set_mPrivateKey(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*  value) ;
 
-  constexpr void __cordl_internal_set_mTruncateAgreement(bool value);
+constexpr void __cordl_internal_set_mTruncateAgreement(bool  value) ;
 
-  /// @brief Method .ctor, addr 0x337e54c, size 0x2a0, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Crypto::Tls::Certificate* certificate, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey);
+/// @brief Method .ctor, addr 0x337f2e8, size 0x2a0, virtual false, abstract: false, final false
+inline void _ctor(::Org::BouncyCastle::Crypto::Tls::Certificate*  certificate, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*  privateKey) ;
 
-  /// @brief Method get_Certificate, addr 0x337e7ec, size 0x8, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Crypto::Tls::Certificate* get_Certificate();
+/// @brief Method get_Certificate, addr 0x337f588, size 0x8, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Crypto::Tls::Certificate* get_Certificate() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DefaultTlsAgreementCredentials();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr DefaultTlsAgreementCredentials() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DefaultTlsAgreementCredentials", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  DefaultTlsAgreementCredentials(DefaultTlsAgreementCredentials&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DefaultTlsAgreementCredentials", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  DefaultTlsAgreementCredentials(DefaultTlsAgreementCredentials const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "DefaultTlsAgreementCredentials", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+DefaultTlsAgreementCredentials(DefaultTlsAgreementCredentials && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1208 };
+// Ctor Parameters [CppParam { name: "", ty: "DefaultTlsAgreementCredentials", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+DefaultTlsAgreementCredentials(DefaultTlsAgreementCredentials const& ) = delete;
 
-  /// @brief Field mCertificate, offset: 0x10, size: 0x8, def value: None
-  ::Org::BouncyCastle::Crypto::Tls::Certificate* ___mCertificate;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{1208};
 
-  /// @brief Field mPrivateKey, offset: 0x18, size: 0x8, def value: None
-  ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* ___mPrivateKey;
+/// @brief Field mCertificate, offset: 0x10, size: 0x8, def value: None
+ ::Org::BouncyCastle::Crypto::Tls::Certificate*  ___mCertificate;
 
-  /// @brief Field mBasicAgreement, offset: 0x20, size: 0x8, def value: None
-  ::Org::BouncyCastle::Crypto::IBasicAgreement* ___mBasicAgreement;
+/// @brief Field mPrivateKey, offset: 0x18, size: 0x8, def value: None
+ ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*  ___mPrivateKey;
 
-  /// @brief Field mTruncateAgreement, offset: 0x28, size: 0x1, def value: None
-  bool ___mTruncateAgreement;
+/// @brief Field mBasicAgreement, offset: 0x20, size: 0x8, def value: None
+ ::Org::BouncyCastle::Crypto::IBasicAgreement*  ___mBasicAgreement;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field mTruncateAgreement, offset: 0x28, size: 0x1, def value: None
+ bool  ___mTruncateAgreement;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::DefaultTlsAgreementCredentials, ___mCertificate) == 0x10, "Offset mismatch!");
@@ -120,6 +119,6 @@ static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::DefaultTlsAgreementCred
 
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Tls::DefaultTlsAgreementCredentials, 0x30>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Crypto::Tls
+} // namespace end def Org::BouncyCastle::Crypto::Tls
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Tls::DefaultTlsAgreementCredentials);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Tls::DefaultTlsAgreementCredentials*, "Org.BouncyCastle.Crypto.Tls", "DefaultTlsAgreementCredentials");

@@ -8,10 +8,12 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ContentDispositionHeaderValue)
 namespace System::Collections::Generic {
-template <typename T> class ICollection_1;
+template<typename T>
+class ICollection_1;
 }
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template<typename T>
+class List_1;
 }
 namespace System::Net::Http::Headers {
 class NameValueHeaderValue;
@@ -34,120 +36,119 @@ namespace System::Net::Http::Headers {
 // CS Name: System.Net.Http.Headers.ContentDispositionHeaderValue
 class CORDL_TYPE ContentDispositionHeaderValue : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(put = set_DispositionType)) ::StringW DispositionType;
+// Declarations
+ __declspec(property(put=set_DispositionType)) ::StringW  DispositionType;
 
-  __declspec(property(put = set_FileName)) ::StringW FileName;
+ __declspec(property(put=set_FileName)) ::StringW  FileName;
 
-  __declspec(property(put = set_FileNameStar)) ::StringW FileNameStar;
+ __declspec(property(put=set_FileNameStar)) ::StringW  FileNameStar;
 
-  __declspec(property(put = set_Name)) ::StringW Name;
+ __declspec(property(put=set_Name)) ::StringW  Name;
 
-  __declspec(property(get = get_Parameters)) ::System::Collections::Generic::ICollection_1<::System::Net::Http::Headers::NameValueHeaderValue*>* Parameters;
+ __declspec(property(get=get_Parameters)) ::System::Collections::Generic::ICollection_1<::System::Net::Http::Headers::NameValueHeaderValue*>*  Parameters;
 
-  /// @brief Field dispositionType, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_dispositionType, put = __cordl_internal_set_dispositionType)) ::StringW dispositionType;
+/// @brief Field dispositionType, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_dispositionType, put=__cordl_internal_set_dispositionType)) ::StringW  dispositionType;
 
-  /// @brief Field parameters, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_parameters,
-                      put = __cordl_internal_set_parameters)) ::System::Collections::Generic::List_1<::System::Net::Http::Headers::NameValueHeaderValue*>* parameters;
+/// @brief Field parameters, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_parameters, put=__cordl_internal_set_parameters)) ::System::Collections::Generic::List_1<::System::Net::Http::Headers::NameValueHeaderValue*>*  parameters;
 
-  /// @brief Convert operator to "::System::ICloneable"
-  constexpr operator ::System::ICloneable*() noexcept;
+/// @brief Convert operator to "::System::ICloneable"
+constexpr operator  ::System::ICloneable*() noexcept;
 
-  /// @brief Method EncodeBase64Value, addr 0x5fa2dac, size 0x1fc, virtual false, abstract: false, final false
-  static inline ::StringW EncodeBase64Value(::StringW value);
+/// @brief Method EncodeBase64Value, addr 0x5fa4924, size 0x1fc, virtual false, abstract: false, final false
+static inline ::StringW EncodeBase64Value(::StringW  value) ;
 
-  /// @brief Method EncodeRFC5987, addr 0x5fa3040, size 0x2b4, virtual false, abstract: false, final false
-  static inline ::StringW EncodeRFC5987(::StringW value);
+/// @brief Method EncodeRFC5987, addr 0x5fa4bb8, size 0x2b4, virtual false, abstract: false, final false
+static inline ::StringW EncodeRFC5987(::StringW  value) ;
 
-  /// @brief Method Equals, addr 0x5fa3350, size 0xd0, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* obj);
+/// @brief Method Equals, addr 0x5fa4ec8, size 0xd0, virtual true, abstract: false, final false
+inline bool Equals(::System::Object*  obj) ;
 
-  /// @brief Method GetHashCode, addr 0x5fa3588, size 0x80, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
+/// @brief Method GetHashCode, addr 0x5fa5100, size 0x80, virtual true, abstract: false, final false
+inline int32_t GetHashCode() ;
 
-  static inline ::System::Net::Http::Headers::ContentDispositionHeaderValue* New_ctor();
+static inline ::System::Net::Http::Headers::ContentDispositionHeaderValue* New_ctor() ;
 
-  static inline ::System::Net::Http::Headers::ContentDispositionHeaderValue* New_ctor(::StringW dispositionType);
+static inline ::System::Net::Http::Headers::ContentDispositionHeaderValue* New_ctor(::StringW  dispositionType) ;
 
-  static inline ::System::Net::Http::Headers::ContentDispositionHeaderValue* New_ctor(::System::Net::Http::Headers::ContentDispositionHeaderValue* source);
+static inline ::System::Net::Http::Headers::ContentDispositionHeaderValue* New_ctor(::System::Net::Http::Headers::ContentDispositionHeaderValue*  source) ;
 
-  /// @brief Method SetValue, addr 0x5fa2fa8, size 0x98, virtual false, abstract: false, final false
-  inline void SetValue(::StringW key, ::StringW value);
+/// @brief Method SetValue, addr 0x5fa4b20, size 0x98, virtual false, abstract: false, final false
+inline void SetValue(::StringW  key, ::StringW  value) ;
 
-  /// @brief Method System.ICloneable.Clone, addr 0x5fa32f4, size 0x5c, virtual true, abstract: false, final true
-  inline ::System::Object* System_ICloneable_Clone();
+/// @brief Method System.ICloneable.Clone, addr 0x5fa4e6c, size 0x5c, virtual true, abstract: false, final true
+inline ::System::Object* System_ICloneable_Clone() ;
 
-  /// @brief Method ToString, addr 0x5fa3608, size 0x5c, virtual true, abstract: false, final false
-  inline ::StringW ToString();
+/// @brief Method ToString, addr 0x5fa5180, size 0x5c, virtual true, abstract: false, final false
+inline ::StringW ToString() ;
 
-  /// @brief Method TryParse, addr 0x5fa3664, size 0x16c, virtual false, abstract: false, final false
-  static inline bool TryParse(::StringW input, ::ByRef<::System::Net::Http::Headers::ContentDispositionHeaderValue*> parsedValue);
+/// @brief Method TryParse, addr 0x5fa51dc, size 0x16c, virtual false, abstract: false, final false
+static inline bool TryParse(::StringW  input, ::ByRef<::System::Net::Http::Headers::ContentDispositionHeaderValue*>  parsedValue) ;
 
-  constexpr ::StringW const& __cordl_internal_get_dispositionType() const;
+constexpr ::StringW const& __cordl_internal_get_dispositionType() const;
 
-  constexpr ::StringW& __cordl_internal_get_dispositionType();
+constexpr ::StringW& __cordl_internal_get_dispositionType() ;
 
-  constexpr ::System::Collections::Generic::List_1<::System::Net::Http::Headers::NameValueHeaderValue*>* const& __cordl_internal_get_parameters() const;
+constexpr ::System::Collections::Generic::List_1<::System::Net::Http::Headers::NameValueHeaderValue*>* const& __cordl_internal_get_parameters() const;
 
-  constexpr ::System::Collections::Generic::List_1<::System::Net::Http::Headers::NameValueHeaderValue*>*& __cordl_internal_get_parameters();
+constexpr ::System::Collections::Generic::List_1<::System::Net::Http::Headers::NameValueHeaderValue*>*& __cordl_internal_get_parameters() ;
 
-  constexpr void __cordl_internal_set_dispositionType(::StringW value);
+constexpr void __cordl_internal_set_dispositionType(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_parameters(::System::Collections::Generic::List_1<::System::Net::Http::Headers::NameValueHeaderValue*>* value);
+constexpr void __cordl_internal_set_parameters(::System::Collections::Generic::List_1<::System::Net::Http::Headers::NameValueHeaderValue*>*  value) ;
 
-  /// @brief Method .ctor, addr 0x5fa2ac8, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5fa4640, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method .ctor, addr 0x5f9f7a4, size 0x28, virtual false, abstract: false, final false
-  inline void _ctor(::StringW dispositionType);
+/// @brief Method .ctor, addr 0x5fa131c, size 0x28, virtual false, abstract: false, final false
+inline void _ctor(::StringW  dispositionType) ;
 
-  /// @brief Method .ctor, addr 0x5fa2af4, size 0x220, virtual false, abstract: false, final false
-  inline void _ctor(::System::Net::Http::Headers::ContentDispositionHeaderValue* source);
+/// @brief Method .ctor, addr 0x5fa466c, size 0x220, virtual false, abstract: false, final false
+inline void _ctor(::System::Net::Http::Headers::ContentDispositionHeaderValue*  source) ;
 
-  /// @brief Method get_Parameters, addr 0x5fa2d14, size 0x80, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::ICollection_1<::System::Net::Http::Headers::NameValueHeaderValue*>* get_Parameters();
+/// @brief Method get_Parameters, addr 0x5fa488c, size 0x80, virtual false, abstract: false, final false
+inline ::System::Collections::Generic::ICollection_1<::System::Net::Http::Headers::NameValueHeaderValue*>* get_Parameters() ;
 
-  /// @brief Convert to "::System::ICloneable"
-  constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
+/// @brief Convert to "::System::ICloneable"
+constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
-  /// @brief Method set_DispositionType, addr 0x5fa2acc, size 0x28, virtual false, abstract: false, final false
-  inline void set_DispositionType(::StringW value);
+/// @brief Method set_DispositionType, addr 0x5fa4644, size 0x28, virtual false, abstract: false, final false
+inline void set_DispositionType(::StringW  value) ;
 
-  /// @brief Method set_FileName, addr 0x5f9f83c, size 0x70, virtual false, abstract: false, final false
-  inline void set_FileName(::StringW value);
+/// @brief Method set_FileName, addr 0x5fa13b4, size 0x70, virtual false, abstract: false, final false
+inline void set_FileName(::StringW  value) ;
 
-  /// @brief Method set_FileNameStar, addr 0x5f9f8ac, size 0x70, virtual false, abstract: false, final false
-  inline void set_FileNameStar(::StringW value);
+/// @brief Method set_FileNameStar, addr 0x5fa1424, size 0x70, virtual false, abstract: false, final false
+inline void set_FileNameStar(::StringW  value) ;
 
-  /// @brief Method set_Name, addr 0x5f9f7cc, size 0x70, virtual false, abstract: false, final false
-  inline void set_Name(::StringW value);
+/// @brief Method set_Name, addr 0x5fa1344, size 0x70, virtual false, abstract: false, final false
+inline void set_Name(::StringW  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ContentDispositionHeaderValue();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ContentDispositionHeaderValue() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ContentDispositionHeaderValue", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ContentDispositionHeaderValue(ContentDispositionHeaderValue&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ContentDispositionHeaderValue", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ContentDispositionHeaderValue(ContentDispositionHeaderValue const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ContentDispositionHeaderValue", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ContentDispositionHeaderValue(ContentDispositionHeaderValue && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20082 };
+// Ctor Parameters [CppParam { name: "", ty: "ContentDispositionHeaderValue", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ContentDispositionHeaderValue(ContentDispositionHeaderValue const& ) = delete;
 
-  /// @brief Field dispositionType, offset: 0x10, size: 0x8, def value: None
-  ::StringW ___dispositionType;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20085};
 
-  /// @brief Field parameters, offset: 0x18, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::System::Net::Http::Headers::NameValueHeaderValue*>* ___parameters;
+/// @brief Field dispositionType, offset: 0x10, size: 0x8, def value: None
+ ::StringW  ___dispositionType;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field parameters, offset: 0x18, size: 0x8, def value: None
+ ::System::Collections::Generic::List_1<::System::Net::Http::Headers::NameValueHeaderValue*>*  ___parameters;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Net::Http::Headers::ContentDispositionHeaderValue, ___dispositionType) == 0x10, "Offset mismatch!");
@@ -156,6 +157,6 @@ static_assert(offsetof(::System::Net::Http::Headers::ContentDispositionHeaderVal
 
 static_assert(::cordl_internals::size_check_v<::System::Net::Http::Headers::ContentDispositionHeaderValue, 0x20>, "Size mismatch!");
 
-} // namespace System::Net::Http::Headers
+} // namespace end def System::Net::Http::Headers
 NEED_NO_BOX(::System::Net::Http::Headers::ContentDispositionHeaderValue);
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::Http::Headers::ContentDispositionHeaderValue*, "System.Net.Http.Headers", "ContentDispositionHeaderValue");

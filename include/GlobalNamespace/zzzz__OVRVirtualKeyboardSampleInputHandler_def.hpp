@@ -41,164 +41,164 @@ namespace GlobalNamespace {
 // CS Name: OVRVirtualKeyboardSampleInputHandler
 class CORDL_TYPE OVRVirtualKeyboardSampleInputHandler : public ::UnityEngine::MonoBehaviour {
 public:
-  // Declarations
-  __declspec(property(get = get_AnalogStickX)) float_t AnalogStickX;
+// Declarations
+ __declspec(property(get=get_AnalogStickX)) float_t  AnalogStickX;
 
-  __declspec(property(get = get_AnalogStickY)) float_t AnalogStickY;
+ __declspec(property(get=get_AnalogStickY)) float_t  AnalogStickY;
 
-  __declspec(property(get = get_InputRayPosition)) ::UnityEngine::Vector3 InputRayPosition;
+ __declspec(property(get=get_InputRayPosition)) ::UnityEngine::Vector3  InputRayPosition;
 
-  __declspec(property(get = get_InputRayRotation)) ::UnityEngine::Quaternion InputRayRotation;
+ __declspec(property(get=get_InputRayRotation)) ::UnityEngine::Quaternion  InputRayRotation;
 
-  /// @brief Field OVRVirtualKeyboard, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_OVRVirtualKeyboard, put = __cordl_internal_set_OVRVirtualKeyboard)) ::UnityW<::GlobalNamespace::OVRVirtualKeyboard> OVRVirtualKeyboard;
+/// @brief Field OVRVirtualKeyboard, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_OVRVirtualKeyboard, put=__cordl_internal_set_OVRVirtualKeyboard)) ::UnityW<::GlobalNamespace::OVRVirtualKeyboard>  OVRVirtualKeyboard;
 
-  /// @brief Field inputModule, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_inputModule, put = __cordl_internal_set_inputModule)) ::UnityW<::UnityEngine::EventSystems::OVRInputModule> inputModule;
+/// @brief Field inputModule, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get_inputModule, put=__cordl_internal_set_inputModule)) ::UnityW<::UnityEngine::EventSystems::OVRInputModule>  inputModule;
 
-  /// @brief Field interactionDevice_, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_interactionDevice_, put = __cordl_internal_set_interactionDevice_)) ::System::Nullable_1<::GlobalNamespace::OVRInput_Controller> interactionDevice_;
+/// @brief Field interactionDevice_, offset 0x48, size 0x8 
+ __declspec(property(get=__cordl_internal_get_interactionDevice_, put=__cordl_internal_set_interactionDevice_)) ::System::Nullable_1<::GlobalNamespace::OVRInput_Controller>  interactionDevice_;
 
-  /// @brief Field leftLinePointer, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_leftLinePointer, put = __cordl_internal_set_leftLinePointer)) ::UnityW<::UnityEngine::LineRenderer> leftLinePointer;
+/// @brief Field leftLinePointer, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get_leftLinePointer, put=__cordl_internal_set_leftLinePointer)) ::UnityW<::UnityEngine::LineRenderer>  leftLinePointer;
 
-  /// @brief Field linePointerInitialWidth_, offset 0x50, size 0x4
-  __declspec(property(get = __cordl_internal_get_linePointerInitialWidth_, put = __cordl_internal_set_linePointerInitialWidth_)) float_t linePointerInitialWidth_;
+/// @brief Field linePointerInitialWidth_, offset 0x50, size 0x4 
+ __declspec(property(get=__cordl_internal_get_linePointerInitialWidth_, put=__cordl_internal_set_linePointerInitialWidth_)) float_t  linePointerInitialWidth_;
 
-  /// @brief Field raycaster, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_raycaster, put = __cordl_internal_set_raycaster)) ::UnityW<::GlobalNamespace::OVRRaycaster> raycaster;
+/// @brief Field raycaster, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get_raycaster, put=__cordl_internal_set_raycaster)) ::UnityW<::GlobalNamespace::OVRRaycaster>  raycaster;
 
-  /// @brief Field rightLinePointer, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_rightLinePointer, put = __cordl_internal_set_rightLinePointer)) ::UnityW<::UnityEngine::LineRenderer> rightLinePointer;
+/// @brief Field rightLinePointer, offset 0x40, size 0x8 
+ __declspec(property(get=__cordl_internal_get_rightLinePointer, put=__cordl_internal_set_rightLinePointer)) ::UnityW<::UnityEngine::LineRenderer>  rightLinePointer;
 
-  /// @brief Method ApplyDeadzone, addr 0x5db328c, size 0x48, virtual false, abstract: false, final false
-  static inline float_t ApplyDeadzone(float_t value);
+/// @brief Method ApplyDeadzone, addr 0x5db4e04, size 0x48, virtual false, abstract: false, final false
+static inline float_t ApplyDeadzone(float_t  value) ;
 
-  static inline ::GlobalNamespace::OVRVirtualKeyboardSampleInputHandler* New_ctor();
+static inline ::GlobalNamespace::OVRVirtualKeyboardSampleInputHandler* New_ctor() ;
 
-  /// @brief Method Start, addr 0x5db32d4, size 0xd0, virtual false, abstract: false, final false
-  inline void Start();
+/// @brief Method Start, addr 0x5db4e4c, size 0xd0, virtual false, abstract: false, final false
+inline void Start() ;
 
-  /// @brief Method Update, addr 0x5db33a4, size 0x18, virtual false, abstract: false, final false
-  inline void Update();
+/// @brief Method Update, addr 0x5db4f1c, size 0x18, virtual false, abstract: false, final false
+inline void Update() ;
 
-  /// @brief Method UpdateInteractionAnchor, addr 0x5db33bc, size 0x2b4, virtual false, abstract: false, final false
-  inline void UpdateInteractionAnchor();
+/// @brief Method UpdateInteractionAnchor, addr 0x5db4f34, size 0x2b4, virtual false, abstract: false, final false
+inline void UpdateInteractionAnchor() ;
 
-  /// @brief Method UpdateLineRenderer, addr 0x5db3670, size 0xf8, virtual false, abstract: false, final false
-  inline void UpdateLineRenderer();
+/// @brief Method UpdateLineRenderer, addr 0x5db51e8, size 0xf8, virtual false, abstract: false, final false
+inline void UpdateLineRenderer() ;
 
-  /// @brief Method UpdateLineRendererFromSource, addr 0x5db3768, size 0x754, virtual false, abstract: false, final false
-  inline void UpdateLineRendererFromSource(::GlobalNamespace::OVRVirtualKeyboard_InputSource source);
+/// @brief Method UpdateLineRendererFromSource, addr 0x5db52e0, size 0x754, virtual false, abstract: false, final false
+inline void UpdateLineRendererFromSource(::GlobalNamespace::OVRVirtualKeyboard_InputSource  source) ;
 
-  constexpr ::UnityW<::GlobalNamespace::OVRVirtualKeyboard> const& __cordl_internal_get_OVRVirtualKeyboard() const;
+constexpr ::UnityW<::GlobalNamespace::OVRVirtualKeyboard> const& __cordl_internal_get_OVRVirtualKeyboard() const;
 
-  constexpr ::UnityW<::GlobalNamespace::OVRVirtualKeyboard>& __cordl_internal_get_OVRVirtualKeyboard();
+constexpr ::UnityW<::GlobalNamespace::OVRVirtualKeyboard>& __cordl_internal_get_OVRVirtualKeyboard() ;
 
-  constexpr ::UnityW<::UnityEngine::EventSystems::OVRInputModule> const& __cordl_internal_get_inputModule() const;
+constexpr ::UnityW<::UnityEngine::EventSystems::OVRInputModule> const& __cordl_internal_get_inputModule() const;
 
-  constexpr ::UnityW<::UnityEngine::EventSystems::OVRInputModule>& __cordl_internal_get_inputModule();
+constexpr ::UnityW<::UnityEngine::EventSystems::OVRInputModule>& __cordl_internal_get_inputModule() ;
 
-  constexpr ::System::Nullable_1<::GlobalNamespace::OVRInput_Controller> const& __cordl_internal_get_interactionDevice_() const;
+constexpr ::System::Nullable_1<::GlobalNamespace::OVRInput_Controller> const& __cordl_internal_get_interactionDevice_() const;
 
-  constexpr ::System::Nullable_1<::GlobalNamespace::OVRInput_Controller>& __cordl_internal_get_interactionDevice_();
+constexpr ::System::Nullable_1<::GlobalNamespace::OVRInput_Controller>& __cordl_internal_get_interactionDevice_() ;
 
-  constexpr ::UnityW<::UnityEngine::LineRenderer> const& __cordl_internal_get_leftLinePointer() const;
+constexpr ::UnityW<::UnityEngine::LineRenderer> const& __cordl_internal_get_leftLinePointer() const;
 
-  constexpr ::UnityW<::UnityEngine::LineRenderer>& __cordl_internal_get_leftLinePointer();
+constexpr ::UnityW<::UnityEngine::LineRenderer>& __cordl_internal_get_leftLinePointer() ;
 
-  constexpr float_t const& __cordl_internal_get_linePointerInitialWidth_() const;
+constexpr float_t const& __cordl_internal_get_linePointerInitialWidth_() const;
 
-  constexpr float_t& __cordl_internal_get_linePointerInitialWidth_();
+constexpr float_t& __cordl_internal_get_linePointerInitialWidth_() ;
 
-  constexpr ::UnityW<::GlobalNamespace::OVRRaycaster> const& __cordl_internal_get_raycaster() const;
+constexpr ::UnityW<::GlobalNamespace::OVRRaycaster> const& __cordl_internal_get_raycaster() const;
 
-  constexpr ::UnityW<::GlobalNamespace::OVRRaycaster>& __cordl_internal_get_raycaster();
+constexpr ::UnityW<::GlobalNamespace::OVRRaycaster>& __cordl_internal_get_raycaster() ;
 
-  constexpr ::UnityW<::UnityEngine::LineRenderer> const& __cordl_internal_get_rightLinePointer() const;
+constexpr ::UnityW<::UnityEngine::LineRenderer> const& __cordl_internal_get_rightLinePointer() const;
 
-  constexpr ::UnityW<::UnityEngine::LineRenderer>& __cordl_internal_get_rightLinePointer();
+constexpr ::UnityW<::UnityEngine::LineRenderer>& __cordl_internal_get_rightLinePointer() ;
 
-  constexpr void __cordl_internal_set_OVRVirtualKeyboard(::UnityW<::GlobalNamespace::OVRVirtualKeyboard> value);
+constexpr void __cordl_internal_set_OVRVirtualKeyboard(::UnityW<::GlobalNamespace::OVRVirtualKeyboard>  value) ;
 
-  constexpr void __cordl_internal_set_inputModule(::UnityW<::UnityEngine::EventSystems::OVRInputModule> value);
+constexpr void __cordl_internal_set_inputModule(::UnityW<::UnityEngine::EventSystems::OVRInputModule>  value) ;
 
-  constexpr void __cordl_internal_set_interactionDevice_(::System::Nullable_1<::GlobalNamespace::OVRInput_Controller> value);
+constexpr void __cordl_internal_set_interactionDevice_(::System::Nullable_1<::GlobalNamespace::OVRInput_Controller>  value) ;
 
-  constexpr void __cordl_internal_set_leftLinePointer(::UnityW<::UnityEngine::LineRenderer> value);
+constexpr void __cordl_internal_set_leftLinePointer(::UnityW<::UnityEngine::LineRenderer>  value) ;
 
-  constexpr void __cordl_internal_set_linePointerInitialWidth_(float_t value);
+constexpr void __cordl_internal_set_linePointerInitialWidth_(float_t  value) ;
 
-  constexpr void __cordl_internal_set_raycaster(::UnityW<::GlobalNamespace::OVRRaycaster> value);
+constexpr void __cordl_internal_set_raycaster(::UnityW<::GlobalNamespace::OVRRaycaster>  value) ;
 
-  constexpr void __cordl_internal_set_rightLinePointer(::UnityW<::UnityEngine::LineRenderer> value);
+constexpr void __cordl_internal_set_rightLinePointer(::UnityW<::UnityEngine::LineRenderer>  value) ;
 
-  /// @brief Method .ctor, addr 0x5db3ebc, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5db5a34, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_AnalogStickX, addr 0x5db2aac, size 0xc0, virtual false, abstract: false, final false
-  inline float_t get_AnalogStickX();
+/// @brief Method get_AnalogStickX, addr 0x5db4624, size 0xc0, virtual false, abstract: false, final false
+inline float_t get_AnalogStickX() ;
 
-  /// @brief Method get_AnalogStickY, addr 0x5db29ec, size 0xc0, virtual false, abstract: false, final false
-  inline float_t get_AnalogStickY();
+/// @brief Method get_AnalogStickY, addr 0x5db4564, size 0xc0, virtual false, abstract: false, final false
+inline float_t get_AnalogStickY() ;
 
-  /// @brief Method get_InputRayPosition, addr 0x5db2438, size 0x24, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector3 get_InputRayPosition();
+/// @brief Method get_InputRayPosition, addr 0x5db3fb0, size 0x24, virtual false, abstract: false, final false
+inline ::UnityEngine::Vector3 get_InputRayPosition() ;
 
-  /// @brief Method get_InputRayRotation, addr 0x5db2b6c, size 0x1a8, virtual false, abstract: false, final false
-  inline ::UnityEngine::Quaternion get_InputRayRotation();
+/// @brief Method get_InputRayRotation, addr 0x5db46e4, size 0x1a8, virtual false, abstract: false, final false
+inline ::UnityEngine::Quaternion get_InputRayRotation() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OVRVirtualKeyboardSampleInputHandler();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr OVRVirtualKeyboardSampleInputHandler() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRVirtualKeyboardSampleInputHandler", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  OVRVirtualKeyboardSampleInputHandler(OVRVirtualKeyboardSampleInputHandler&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRVirtualKeyboardSampleInputHandler", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  OVRVirtualKeyboardSampleInputHandler(OVRVirtualKeyboardSampleInputHandler const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "OVRVirtualKeyboardSampleInputHandler", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+OVRVirtualKeyboardSampleInputHandler(OVRVirtualKeyboardSampleInputHandler && ) = delete;
 
-  /// @brief Field COLLISION_BOUNDS_ADDED_BLEED_PERCENT offset 0xffffffff size 0x4
-  static constexpr float_t COLLISION_BOUNDS_ADDED_BLEED_PERCENT{ static_cast<float_t>(0.1f) };
+// Ctor Parameters [CppParam { name: "", ty: "OVRVirtualKeyboardSampleInputHandler", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+OVRVirtualKeyboardSampleInputHandler(OVRVirtualKeyboardSampleInputHandler const& ) = delete;
 
-  /// @brief Field LINEPOINTER_THINNING_THRESHOLD offset 0xffffffff size 0x4
-  static constexpr float_t LINEPOINTER_THINNING_THRESHOLD{ static_cast<float_t>(0.015f) };
+/// @brief Field COLLISION_BOUNDS_ADDED_BLEED_PERCENT offset 0xffffffff size 0x4
+static constexpr float_t  COLLISION_BOUNDS_ADDED_BLEED_PERCENT{static_cast<float_t>(0.1f)};
 
-  /// @brief Field RAY_MAX_DISTANCE offset 0xffffffff size 0x4
-  static constexpr float_t RAY_MAX_DISTANCE{ static_cast<float_t>(100.0f) };
+/// @brief Field LINEPOINTER_THINNING_THRESHOLD offset 0xffffffff size 0x4
+static constexpr float_t  LINEPOINTER_THINNING_THRESHOLD{static_cast<float_t>(0.015f)};
 
-  /// @brief Field THUMBSTICK_DEADZONE offset 0xffffffff size 0x4
-  static constexpr float_t THUMBSTICK_DEADZONE{ static_cast<float_t>(0.2f) };
+/// @brief Field RAY_MAX_DISTANCE offset 0xffffffff size 0x4
+static constexpr float_t  RAY_MAX_DISTANCE{static_cast<float_t>(100.0f)};
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7812 };
+/// @brief Field THUMBSTICK_DEADZONE offset 0xffffffff size 0x4
+static constexpr float_t  THUMBSTICK_DEADZONE{static_cast<float_t>(0.2f)};
 
-  /// @brief Field OVRVirtualKeyboard, offset: 0x20, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::OVRVirtualKeyboard> ___OVRVirtualKeyboard;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{7813};
 
-  /// @brief Field raycaster, offset: 0x28, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::OVRRaycaster> ___raycaster;
+/// @brief Field OVRVirtualKeyboard, offset: 0x20, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::OVRVirtualKeyboard>  ___OVRVirtualKeyboard;
 
-  /// @brief Field inputModule, offset: 0x30, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::EventSystems::OVRInputModule> ___inputModule;
+/// @brief Field raycaster, offset: 0x28, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::OVRRaycaster>  ___raycaster;
 
-  /// @brief Field leftLinePointer, offset: 0x38, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::LineRenderer> ___leftLinePointer;
+/// @brief Field inputModule, offset: 0x30, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::EventSystems::OVRInputModule>  ___inputModule;
 
-  /// @brief Field rightLinePointer, offset: 0x40, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::LineRenderer> ___rightLinePointer;
+/// @brief Field leftLinePointer, offset: 0x38, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::LineRenderer>  ___leftLinePointer;
 
-  /// @brief Field interactionDevice_, offset: 0x48, size: 0x8, def value: None
-  ::System::Nullable_1<::GlobalNamespace::OVRInput_Controller> ___interactionDevice_;
+/// @brief Field rightLinePointer, offset: 0x40, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::LineRenderer>  ___rightLinePointer;
 
-  /// @brief Field linePointerInitialWidth_, offset: 0x50, size: 0x4, def value: None
-  float_t ___linePointerInitialWidth_;
+/// @brief Field interactionDevice_, offset: 0x48, size: 0x8, def value: None
+ ::System::Nullable_1<::GlobalNamespace::OVRInput_Controller>  ___interactionDevice_;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field linePointerInitialWidth_, offset: 0x50, size: 0x4, def value: None
+ float_t  ___linePointerInitialWidth_;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::OVRVirtualKeyboardSampleInputHandler, ___OVRVirtualKeyboard) == 0x20, "Offset mismatch!");
@@ -217,6 +217,6 @@ static_assert(offsetof(::GlobalNamespace::OVRVirtualKeyboardSampleInputHandler, 
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRVirtualKeyboardSampleInputHandler, 0x58>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::OVRVirtualKeyboardSampleInputHandler);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRVirtualKeyboardSampleInputHandler*, "", "OVRVirtualKeyboardSampleInputHandler");

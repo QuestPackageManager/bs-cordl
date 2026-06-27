@@ -21,44 +21,44 @@ namespace OculusStudios::GraphQL::ClientInterface {
 // CS Name: OculusStudios.GraphQL.ClientInterface.ApplicationSuspendedException
 class CORDL_TYPE ApplicationSuspendedException : public ::System::Exception {
 public:
-  // Declarations
-  static inline ::OculusStudios::GraphQL::ClientInterface::ApplicationSuspendedException* New_ctor();
+// Declarations
+static inline ::OculusStudios::GraphQL::ClientInterface::ApplicationSuspendedException* New_ctor() ;
 
-  static inline ::OculusStudios::GraphQL::ClientInterface::ApplicationSuspendedException* New_ctor(::StringW message);
+static inline ::OculusStudios::GraphQL::ClientInterface::ApplicationSuspendedException* New_ctor(::StringW  message) ;
 
-  static inline ::OculusStudios::GraphQL::ClientInterface::ApplicationSuspendedException* New_ctor(::StringW message, ::System::Exception* inner);
+static inline ::OculusStudios::GraphQL::ClientInterface::ApplicationSuspendedException* New_ctor(::StringW  message, ::System::Exception*  inner) ;
 
-  /// @brief Method .ctor, addr 0x5df0208, size 0x58, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5df1d80, size 0x58, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method .ctor, addr 0x5df0260, size 0x6c, virtual false, abstract: false, final false
-  inline void _ctor(::StringW message);
+/// @brief Method .ctor, addr 0x5df1dd8, size 0x6c, virtual false, abstract: false, final false
+inline void _ctor(::StringW  message) ;
 
-  /// @brief Method .ctor, addr 0x5df02cc, size 0x74, virtual false, abstract: false, final false
-  inline void _ctor(::StringW message, ::System::Exception* inner);
+/// @brief Method .ctor, addr 0x5df1e44, size 0x74, virtual false, abstract: false, final false
+inline void _ctor(::StringW  message, ::System::Exception*  inner) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ApplicationSuspendedException();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ApplicationSuspendedException() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ApplicationSuspendedException", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ApplicationSuspendedException(ApplicationSuspendedException&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ApplicationSuspendedException", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ApplicationSuspendedException(ApplicationSuspendedException const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ApplicationSuspendedException", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ApplicationSuspendedException(ApplicationSuspendedException && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22543 };
+// Ctor Parameters [CppParam { name: "", ty: "ApplicationSuspendedException", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ApplicationSuspendedException(ApplicationSuspendedException const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22547};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OculusStudios::GraphQL::ClientInterface::ApplicationSuspendedException, 0x90>, "Size mismatch!");
 
-} // namespace OculusStudios::GraphQL::ClientInterface
+} // namespace end def OculusStudios::GraphQL::ClientInterface
 NEED_NO_BOX(::OculusStudios::GraphQL::ClientInterface::ApplicationSuspendedException);
 DEFINE_IL2CPP_ARG_TYPE(::OculusStudios::GraphQL::ClientInterface::ApplicationSuspendedException*, "OculusStudios.GraphQL.ClientInterface", "ApplicationSuspendedException");

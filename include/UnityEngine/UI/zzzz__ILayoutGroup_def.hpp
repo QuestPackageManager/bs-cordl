@@ -13,29 +13,29 @@ class ILayoutGroup;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UI::ILayoutGroup);
-// Dependencies
+// Dependencies 
 namespace UnityEngine::UI {
 // Is value type: false
 // CS Name: UnityEngine.UI.ILayoutGroup
 class CORDL_TYPE ILayoutGroup {
 public:
-  // Declarations
-  /// @brief Convert operator to "::UnityEngine::UI::ILayoutController"
-  constexpr operator ::UnityEngine::UI::ILayoutController*() noexcept;
+// Declarations
+/// @brief Convert operator to "::UnityEngine::UI::ILayoutController"
+constexpr operator  ::UnityEngine::UI::ILayoutController*() noexcept;
 
-  /// @brief Convert to "::UnityEngine::UI::ILayoutController"
-  constexpr ::UnityEngine::UI::ILayoutController* i___UnityEngine__UI__ILayoutController() noexcept;
+/// @brief Convert to "::UnityEngine::UI::ILayoutController"
+constexpr ::UnityEngine::UI::ILayoutController* i___UnityEngine__UI__ILayoutController() noexcept;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ILayoutGroup", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ILayoutGroup(ILayoutGroup const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ILayoutGroup", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ILayoutGroup(ILayoutGroup const& ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17436 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{17438};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-} // namespace UnityEngine::UI
+} // namespace end def UnityEngine::UI
 NEED_NO_BOX(::UnityEngine::UI::ILayoutGroup);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UI::ILayoutGroup*, "UnityEngine.UI", "ILayoutGroup");

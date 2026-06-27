@@ -11,7 +11,8 @@ namespace BeatSaber::Main::GraphQL::InputTypes {
 class IXOCBeatGamesBeatmapLeaderboardEntryUpsertData;
 }
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template<typename T>
+class List_1;
 }
 // Forward declare root types
 namespace BeatSaber::Main::GraphQL::Mutations {
@@ -25,48 +26,48 @@ namespace BeatSaber::Main::GraphQL::Mutations {
 // CS Name: BeatSaber.Main.GraphQL.Mutations.BSUpsertLeaderboardEntry
 class CORDL_TYPE BSUpsertLeaderboardEntry : public ::OculusStudios::GraphQL::Client::GraphQLMutationOperation {
 public:
-  // Declarations
-  __declspec(property(get = get_Data, put = set_Data)) ::BeatSaber::Main::GraphQL::InputTypes::IXOCBeatGamesBeatmapLeaderboardEntryUpsertData* Data;
+// Declarations
+ __declspec(property(get=get_Data, put=set_Data)) ::BeatSaber::Main::GraphQL::InputTypes::IXOCBeatGamesBeatmapLeaderboardEntryUpsertData*  Data;
 
-  /// @brief Method GetPersistedQueryID, addr 0x32075f8, size 0x14, virtual true, abstract: false, final false
-  inline uint64_t GetPersistedQueryID();
+/// @brief Method GetPersistedQueryID, addr 0x3208318, size 0x14, virtual true, abstract: false, final false
+inline uint64_t GetPersistedQueryID() ;
 
-  /// @brief Method GetVariableNames, addr 0x32073cc, size 0xfc, virtual true, abstract: false, final false
-  inline ::System::Collections::Generic::List_1<::StringW>* GetVariableNames();
+/// @brief Method GetVariableNames, addr 0x32080ec, size 0xfc, virtual true, abstract: false, final false
+inline ::System::Collections::Generic::List_1<::StringW>* GetVariableNames() ;
 
-  static inline ::BeatSaber::Main::GraphQL::Mutations::BSUpsertLeaderboardEntry* New_ctor();
+static inline ::BeatSaber::Main::GraphQL::Mutations::BSUpsertLeaderboardEntry* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x320760c, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x320832c, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_Data, addr 0x3207548, size 0xb0, virtual false, abstract: false, final false
-  inline ::BeatSaber::Main::GraphQL::InputTypes::IXOCBeatGamesBeatmapLeaderboardEntryUpsertData* get_Data();
+/// @brief Method get_Data, addr 0x3208268, size 0xb0, virtual false, abstract: false, final false
+inline ::BeatSaber::Main::GraphQL::InputTypes::IXOCBeatGamesBeatmapLeaderboardEntryUpsertData* get_Data() ;
 
-  /// @brief Method set_Data, addr 0x32074c8, size 0x80, virtual false, abstract: false, final false
-  inline void set_Data(::BeatSaber::Main::GraphQL::InputTypes::IXOCBeatGamesBeatmapLeaderboardEntryUpsertData* value);
+/// @brief Method set_Data, addr 0x32081e8, size 0x80, virtual false, abstract: false, final false
+inline void set_Data(::BeatSaber::Main::GraphQL::InputTypes::IXOCBeatGamesBeatmapLeaderboardEntryUpsertData*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BSUpsertLeaderboardEntry();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr BSUpsertLeaderboardEntry() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BSUpsertLeaderboardEntry", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  BSUpsertLeaderboardEntry(BSUpsertLeaderboardEntry&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BSUpsertLeaderboardEntry", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  BSUpsertLeaderboardEntry(BSUpsertLeaderboardEntry const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "BSUpsertLeaderboardEntry", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+BSUpsertLeaderboardEntry(BSUpsertLeaderboardEntry && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21048 };
+// Ctor Parameters [CppParam { name: "", ty: "BSUpsertLeaderboardEntry", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+BSUpsertLeaderboardEntry(BSUpsertLeaderboardEntry const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{21051};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::BeatSaber::Main::GraphQL::Mutations::BSUpsertLeaderboardEntry, 0x18>, "Size mismatch!");
 
-} // namespace BeatSaber::Main::GraphQL::Mutations
+} // namespace end def BeatSaber::Main::GraphQL::Mutations
 NEED_NO_BOX(::BeatSaber::Main::GraphQL::Mutations::BSUpsertLeaderboardEntry);
 DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::Main::GraphQL::Mutations::BSUpsertLeaderboardEntry*, "BeatSaber.Main.GraphQL.Mutations", "BSUpsertLeaderboardEntry");

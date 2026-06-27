@@ -26,48 +26,48 @@ namespace UnityEngine::Audio {
 // CS Name: UnityEngine.Audio.AudioMixerGroup
 class CORDL_TYPE AudioMixerGroup : public ::UnityEngine::Object {
 public:
-  // Declarations
-  __declspec(property(get = get_audioMixer)) ::UnityW<::UnityEngine::Audio::AudioMixer> audioMixer;
+// Declarations
+ __declspec(property(get=get_audioMixer)) ::UnityW<::UnityEngine::Audio::AudioMixer>  audioMixer;
 
-  /// @brief Convert operator to "::UnityEngine::Internal::ISubAssetNotDuplicatable"
-  constexpr operator ::UnityEngine::Internal::ISubAssetNotDuplicatable*() noexcept;
+/// @brief Convert operator to "::UnityEngine::Internal::ISubAssetNotDuplicatable"
+constexpr operator  ::UnityEngine::Internal::ISubAssetNotDuplicatable*() noexcept;
 
-  static inline ::UnityEngine::Audio::AudioMixerGroup* New_ctor();
+static inline ::UnityEngine::Audio::AudioMixerGroup* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x68fa0a0, size 0x58, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x68fbc18, size 0x58, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_audioMixer, addr 0x68fa0f8, size 0x150, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::Audio::AudioMixer> get_audioMixer();
+/// @brief Method get_audioMixer, addr 0x68fbc70, size 0x150, virtual false, abstract: false, final false
+inline ::UnityW<::UnityEngine::Audio::AudioMixer> get_audioMixer() ;
 
-  /// @brief Method get_audioMixer_Injected, addr 0x68fa248, size 0x3c, virtual false, abstract: false, final false
-  static inline ::System::IntPtr get_audioMixer_Injected(::System::IntPtr _unity_self);
+/// @brief Method get_audioMixer_Injected, addr 0x68fbdc0, size 0x3c, virtual false, abstract: false, final false
+static inline ::System::IntPtr get_audioMixer_Injected(::System::IntPtr  _unity_self) ;
 
-  /// @brief Convert to "::UnityEngine::Internal::ISubAssetNotDuplicatable"
-  constexpr ::UnityEngine::Internal::ISubAssetNotDuplicatable* i___UnityEngine__Internal__ISubAssetNotDuplicatable() noexcept;
+/// @brief Convert to "::UnityEngine::Internal::ISubAssetNotDuplicatable"
+constexpr ::UnityEngine::Internal::ISubAssetNotDuplicatable* i___UnityEngine__Internal__ISubAssetNotDuplicatable() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AudioMixerGroup();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr AudioMixerGroup() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AudioMixerGroup", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  AudioMixerGroup(AudioMixerGroup&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AudioMixerGroup", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  AudioMixerGroup(AudioMixerGroup const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "AudioMixerGroup", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+AudioMixerGroup(AudioMixerGroup && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20605 };
+// Ctor Parameters [CppParam { name: "", ty: "AudioMixerGroup", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+AudioMixerGroup(AudioMixerGroup const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20608};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Audio::AudioMixerGroup, 0x18>, "Size mismatch!");
 
-} // namespace UnityEngine::Audio
+} // namespace end def UnityEngine::Audio
 NEED_NO_BOX(::UnityEngine::Audio::AudioMixerGroup);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Audio::AudioMixerGroup*, "UnityEngine.Audio", "AudioMixerGroup");

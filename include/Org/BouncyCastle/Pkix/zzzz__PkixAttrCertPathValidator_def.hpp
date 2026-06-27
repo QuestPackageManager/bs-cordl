@@ -26,37 +26,37 @@ namespace Org::BouncyCastle::Pkix {
 // CS Name: Org.BouncyCastle.Pkix.PkixAttrCertPathValidator
 class CORDL_TYPE PkixAttrCertPathValidator : public ::System::Object {
 public:
-  // Declarations
-  static inline ::Org::BouncyCastle::Pkix::PkixAttrCertPathValidator* New_ctor();
+// Declarations
+static inline ::Org::BouncyCastle::Pkix::PkixAttrCertPathValidator* New_ctor() ;
 
-  /// @brief Method Validate, addr 0x35004a8, size 0x3d8, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Pkix::PkixCertPathValidatorResult* Validate(::Org::BouncyCastle::Pkix::PkixCertPath* certPath, ::Org::BouncyCastle::Pkix::PkixParameters* pkixParams);
+/// @brief Method Validate, addr 0x3501244, size 0x3d8, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Pkix::PkixCertPathValidatorResult* Validate(::Org::BouncyCastle::Pkix::PkixCertPath*  certPath, ::Org::BouncyCastle::Pkix::PkixParameters*  pkixParams) ;
 
-  /// @brief Method .ctor, addr 0x34ffb54, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x35008f0, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PkixAttrCertPathValidator();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr PkixAttrCertPathValidator() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PkixAttrCertPathValidator", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  PkixAttrCertPathValidator(PkixAttrCertPathValidator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PkixAttrCertPathValidator", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  PkixAttrCertPathValidator(PkixAttrCertPathValidator const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "PkixAttrCertPathValidator", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+PkixAttrCertPathValidator(PkixAttrCertPathValidator && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1712 };
+// Ctor Parameters [CppParam { name: "", ty: "PkixAttrCertPathValidator", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+PkixAttrCertPathValidator(PkixAttrCertPathValidator const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{1712};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Pkix::PkixAttrCertPathValidator, 0x10>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Pkix
+} // namespace end def Org::BouncyCastle::Pkix
 NEED_NO_BOX(::Org::BouncyCastle::Pkix::PkixAttrCertPathValidator);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Pkix::PkixAttrCertPathValidator*, "Org.BouncyCastle.Pkix", "PkixAttrCertPathValidator");

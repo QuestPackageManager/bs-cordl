@@ -32,43 +32,43 @@ namespace Zenject {
 // CS Name: Zenject.ZenTypeInfoGetter
 class CORDL_TYPE ZenTypeInfoGetter : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x6d42ee8, size 0x1c, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x6d44a60, size 0x1c, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x6d42f04, size 0xc, virtual true, abstract: false, final false
-  inline ::Zenject::InjectTypeInfo* EndInvoke(::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x6d44a7c, size 0xc, virtual true, abstract: false, final false
+inline ::Zenject::InjectTypeInfo* EndInvoke(::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x6d42ed4, size 0x14, virtual true, abstract: false, final false
-  inline ::Zenject::InjectTypeInfo* Invoke();
+/// @brief Method Invoke, addr 0x6d44a4c, size 0x14, virtual true, abstract: false, final false
+inline ::Zenject::InjectTypeInfo* Invoke() ;
 
-  static inline ::Zenject::ZenTypeInfoGetter* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::Zenject::ZenTypeInfoGetter* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x6d42e6c, size 0x68, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x6d449e4, size 0x68, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ZenTypeInfoGetter();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ZenTypeInfoGetter() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ZenTypeInfoGetter", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ZenTypeInfoGetter(ZenTypeInfoGetter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ZenTypeInfoGetter", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ZenTypeInfoGetter(ZenTypeInfoGetter const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ZenTypeInfoGetter", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ZenTypeInfoGetter(ZenTypeInfoGetter && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14691 };
+// Ctor Parameters [CppParam { name: "", ty: "ZenTypeInfoGetter", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ZenTypeInfoGetter(ZenTypeInfoGetter const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{14692};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Zenject::ZenTypeInfoGetter, 0x80>, "Size mismatch!");
 
-} // namespace Zenject
+} // namespace end def Zenject
 NEED_NO_BOX(::Zenject::ZenTypeInfoGetter);
 DEFINE_IL2CPP_ARG_TYPE(::Zenject::ZenTypeInfoGetter*, "Zenject", "ZenTypeInfoGetter");

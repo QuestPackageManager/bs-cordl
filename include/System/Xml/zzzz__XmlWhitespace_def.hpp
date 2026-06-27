@@ -33,86 +33,86 @@ namespace System::Xml {
 // CS Name: System.Xml.XmlWhitespace
 class CORDL_TYPE XmlWhitespace : public ::System::Xml::XmlCharacterData {
 public:
-  // Declarations
-  __declspec(property(get = get_IsText)) bool IsText;
+// Declarations
+ __declspec(property(get=get_IsText)) bool  IsText;
 
-  __declspec(property(get = get_LocalName)) ::StringW LocalName;
+ __declspec(property(get=get_LocalName)) ::StringW  LocalName;
 
-  __declspec(property(get = get_Name)) ::StringW Name;
+ __declspec(property(get=get_Name)) ::StringW  Name;
 
-  __declspec(property(get = get_NodeType)) ::System::Xml::XmlNodeType NodeType;
+ __declspec(property(get=get_NodeType)) ::System::Xml::XmlNodeType  NodeType;
 
-  __declspec(property(get = get_ParentNode)) ::System::Xml::XmlNode* ParentNode;
+ __declspec(property(get=get_ParentNode)) ::System::Xml::XmlNode*  ParentNode;
 
-  __declspec(property(get = get_PreviousText)) ::System::Xml::XmlNode* PreviousText;
+ __declspec(property(get=get_PreviousText)) ::System::Xml::XmlNode*  PreviousText;
 
-  __declspec(property(get = get_Value, put = set_Value)) ::StringW Value;
+ __declspec(property(get=get_Value, put=set_Value)) ::StringW  Value;
 
-  __declspec(property(get = get_XPNodeType)) ::System::Xml::XPath::XPathNodeType XPNodeType;
+ __declspec(property(get=get_XPNodeType)) ::System::Xml::XPath::XPathNodeType  XPNodeType;
 
-  /// @brief Method CloneNode, addr 0x618b284, size 0x5c, virtual true, abstract: false, final false
-  inline ::System::Xml::XmlNode* CloneNode(bool deep);
+/// @brief Method CloneNode, addr 0x618cdfc, size 0x5c, virtual true, abstract: false, final false
+inline ::System::Xml::XmlNode* CloneNode(bool  deep) ;
 
-  static inline ::System::Xml::XmlWhitespace* New_ctor(::StringW strData, ::System::Xml::XmlDocument* doc);
+static inline ::System::Xml::XmlWhitespace* New_ctor(::StringW  strData, ::System::Xml::XmlDocument*  doc) ;
 
-  /// @brief Method WriteContentTo, addr 0x618b320, size 0x4, virtual true, abstract: false, final false
-  inline void WriteContentTo(::System::Xml::XmlWriter* w);
+/// @brief Method WriteContentTo, addr 0x618ce98, size 0x4, virtual true, abstract: false, final false
+inline void WriteContentTo(::System::Xml::XmlWriter*  w) ;
 
-  /// @brief Method WriteTo, addr 0x618b2e0, size 0x40, virtual true, abstract: false, final false
-  inline void WriteTo(::System::Xml::XmlWriter* w);
+/// @brief Method WriteTo, addr 0x618ce58, size 0x40, virtual true, abstract: false, final false
+inline void WriteTo(::System::Xml::XmlWriter*  w) ;
 
-  /// @brief Method .ctor, addr 0x618b054, size 0xa8, virtual false, abstract: false, final false
-  inline void _ctor(::StringW strData, ::System::Xml::XmlDocument* doc);
+/// @brief Method .ctor, addr 0x618cbcc, size 0xa8, virtual false, abstract: false, final false
+inline void _ctor(::StringW  strData, ::System::Xml::XmlDocument*  doc) ;
 
-  /// @brief Method get_IsText, addr 0x618b34c, size 0x8, virtual true, abstract: false, final false
-  inline bool get_IsText();
+/// @brief Method get_IsText, addr 0x618cec4, size 0x8, virtual true, abstract: false, final false
+inline bool get_IsText() ;
 
-  /// @brief Method get_LocalName, addr 0x618b124, size 0x28, virtual true, abstract: false, final false
-  inline ::StringW get_LocalName();
+/// @brief Method get_LocalName, addr 0x618cc9c, size 0x28, virtual true, abstract: false, final false
+inline ::StringW get_LocalName() ;
 
-  /// @brief Method get_Name, addr 0x618b0fc, size 0x28, virtual true, abstract: false, final false
-  inline ::StringW get_Name();
+/// @brief Method get_Name, addr 0x618cc74, size 0x28, virtual true, abstract: false, final false
+inline ::StringW get_Name() ;
 
-  /// @brief Method get_NodeType, addr 0x618b14c, size 0x8, virtual true, abstract: false, final false
-  inline ::System::Xml::XmlNodeType get_NodeType();
+/// @brief Method get_NodeType, addr 0x618ccc4, size 0x8, virtual true, abstract: false, final false
+inline ::System::Xml::XmlNodeType get_NodeType() ;
 
-  /// @brief Method get_ParentNode, addr 0x618b154, size 0x8c, virtual true, abstract: false, final false
-  inline ::System::Xml::XmlNode* get_ParentNode();
+/// @brief Method get_ParentNode, addr 0x618cccc, size 0x8c, virtual true, abstract: false, final false
+inline ::System::Xml::XmlNode* get_ParentNode() ;
 
-  /// @brief Method get_PreviousText, addr 0x618b354, size 0x3c, virtual true, abstract: false, final false
-  inline ::System::Xml::XmlNode* get_PreviousText();
+/// @brief Method get_PreviousText, addr 0x618cecc, size 0x3c, virtual true, abstract: false, final false
+inline ::System::Xml::XmlNode* get_PreviousText() ;
 
-  /// @brief Method get_Value, addr 0x618b1e0, size 0x10, virtual true, abstract: false, final false
-  inline ::StringW get_Value();
+/// @brief Method get_Value, addr 0x618cd58, size 0x10, virtual true, abstract: false, final false
+inline ::StringW get_Value() ;
 
-  /// @brief Method get_XPNodeType, addr 0x618b324, size 0x28, virtual true, abstract: false, final false
-  inline ::System::Xml::XPath::XPathNodeType get_XPNodeType();
+/// @brief Method get_XPNodeType, addr 0x618ce9c, size 0x28, virtual true, abstract: false, final false
+inline ::System::Xml::XPath::XPathNodeType get_XPNodeType() ;
 
-  /// @brief Method set_Value, addr 0x618b1f0, size 0x94, virtual true, abstract: false, final false
-  inline void set_Value(::StringW value);
+/// @brief Method set_Value, addr 0x618cd68, size 0x94, virtual true, abstract: false, final false
+inline void set_Value(::StringW  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr XmlWhitespace();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr XmlWhitespace() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlWhitespace", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  XmlWhitespace(XmlWhitespace&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlWhitespace", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  XmlWhitespace(XmlWhitespace const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "XmlWhitespace", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+XmlWhitespace(XmlWhitespace && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9400 };
+// Ctor Parameters [CppParam { name: "", ty: "XmlWhitespace", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+XmlWhitespace(XmlWhitespace const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9401};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::XmlWhitespace, 0x28>, "Size mismatch!");
 
-} // namespace System::Xml
+} // namespace end def System::Xml
 NEED_NO_BOX(::System::Xml::XmlWhitespace);
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::XmlWhitespace*, "System.Xml", "XmlWhitespace");

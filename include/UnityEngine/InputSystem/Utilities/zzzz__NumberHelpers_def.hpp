@@ -19,56 +19,56 @@ namespace UnityEngine::InputSystem::Utilities {
 // CS Name: UnityEngine.InputSystem.Utilities.NumberHelpers
 class CORDL_TYPE NumberHelpers : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method AlignToMultipleOf, addr 0x63c2bec, size 0x1c, virtual false, abstract: false, final false
-  static inline int32_t AlignToMultipleOf(int32_t number, int32_t alignment);
+// Declarations
+/// @brief Method AlignToMultipleOf, addr 0x63c4764, size 0x1c, virtual false, abstract: false, final false
+static inline int32_t AlignToMultipleOf(int32_t  number, int32_t  alignment) ;
 
-  /// @brief Method AlignToMultipleOf, addr 0x63c2c08, size 0x1c, virtual false, abstract: false, final false
-  static inline int64_t AlignToMultipleOf(int64_t number, int64_t alignment);
+/// @brief Method AlignToMultipleOf, addr 0x63c4780, size 0x1c, virtual false, abstract: false, final false
+static inline int64_t AlignToMultipleOf(int64_t  number, int64_t  alignment) ;
 
-  /// @brief Method AlignToMultipleOf, addr 0x63c2c24, size 0x1c, virtual false, abstract: false, final false
-  static inline uint32_t AlignToMultipleOf(uint32_t number, uint32_t alignment);
+/// @brief Method AlignToMultipleOf, addr 0x63c479c, size 0x1c, virtual false, abstract: false, final false
+static inline uint32_t AlignToMultipleOf(uint32_t  number, uint32_t  alignment) ;
 
-  /// @brief Method Approximately, addr 0x63c2c40, size 0xac, virtual false, abstract: false, final false
-  static inline bool Approximately(double_t a, double_t b);
+/// @brief Method Approximately, addr 0x63c47b8, size 0xac, virtual false, abstract: false, final false
+static inline bool Approximately(double_t  a, double_t  b) ;
 
-  /// @brief Method IntToNormalizedFloat, addr 0x63c2cec, size 0x38, virtual false, abstract: false, final false
-  static inline float_t IntToNormalizedFloat(int32_t value, int32_t minValue, int32_t maxValue);
+/// @brief Method IntToNormalizedFloat, addr 0x63c4864, size 0x38, virtual false, abstract: false, final false
+static inline float_t IntToNormalizedFloat(int32_t  value, int32_t  minValue, int32_t  maxValue) ;
 
-  /// @brief Method NormalizedFloatToInt, addr 0x63c2d24, size 0x50, virtual false, abstract: false, final false
-  static inline int32_t NormalizedFloatToInt(float_t value, int32_t intMinValue, int32_t intMaxValue);
+/// @brief Method NormalizedFloatToInt, addr 0x63c489c, size 0x50, virtual false, abstract: false, final false
+static inline int32_t NormalizedFloatToInt(float_t  value, int32_t  intMinValue, int32_t  intMaxValue) ;
 
-  /// @brief Method NormalizedFloatToUInt, addr 0x63c2dac, size 0x48, virtual false, abstract: false, final false
-  static inline uint32_t NormalizedFloatToUInt(float_t value, uint32_t uintMinValue, uint32_t uintMaxValue);
+/// @brief Method NormalizedFloatToUInt, addr 0x63c4924, size 0x48, virtual false, abstract: false, final false
+static inline uint32_t NormalizedFloatToUInt(float_t  value, uint32_t  uintMinValue, uint32_t  uintMaxValue) ;
 
-  /// @brief Method RemapUIntBitsToNormalizeFloatToUIntBits, addr 0x63c2df4, size 0x78, virtual false, abstract: false, final false
-  static inline uint32_t RemapUIntBitsToNormalizeFloatToUIntBits(uint32_t value, uint32_t inBitSize, uint32_t outBitSize);
+/// @brief Method RemapUIntBitsToNormalizeFloatToUIntBits, addr 0x63c496c, size 0x78, virtual false, abstract: false, final false
+static inline uint32_t RemapUIntBitsToNormalizeFloatToUIntBits(uint32_t  value, uint32_t  inBitSize, uint32_t  outBitSize) ;
 
-  /// @brief Method UIntToNormalizedFloat, addr 0x63c2d74, size 0x38, virtual false, abstract: false, final false
-  static inline float_t UIntToNormalizedFloat(uint32_t value, uint32_t minValue, uint32_t maxValue);
+/// @brief Method UIntToNormalizedFloat, addr 0x63c48ec, size 0x38, virtual false, abstract: false, final false
+static inline float_t UIntToNormalizedFloat(uint32_t  value, uint32_t  minValue, uint32_t  maxValue) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NumberHelpers();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr NumberHelpers() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NumberHelpers", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  NumberHelpers(NumberHelpers&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NumberHelpers", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  NumberHelpers(NumberHelpers const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "NumberHelpers", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+NumberHelpers(NumberHelpers && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9166 };
+// Ctor Parameters [CppParam { name: "", ty: "NumberHelpers", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+NumberHelpers(NumberHelpers const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9167};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Utilities::NumberHelpers, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::InputSystem::Utilities
+} // namespace end def UnityEngine::InputSystem::Utilities
 NEED_NO_BOX(::UnityEngine::InputSystem::Utilities::NumberHelpers);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Utilities::NumberHelpers*, "UnityEngine.InputSystem.Utilities", "NumberHelpers");

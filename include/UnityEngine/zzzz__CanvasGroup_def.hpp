@@ -30,99 +30,99 @@ namespace UnityEngine {
 // CS Name: UnityEngine.CanvasGroup
 class CORDL_TYPE CanvasGroup : public ::UnityEngine::Behaviour {
 public:
-  // Declarations
-  __declspec(property(get = get_alpha, put = set_alpha)) float_t alpha;
+// Declarations
+ __declspec(property(get=get_alpha, put=set_alpha)) float_t  alpha;
 
-  __declspec(property(get = get_blocksRaycasts, put = set_blocksRaycasts)) bool blocksRaycasts;
+ __declspec(property(get=get_blocksRaycasts, put=set_blocksRaycasts)) bool  blocksRaycasts;
 
-  __declspec(property(get = get_ignoreParentGroups, put = set_ignoreParentGroups)) bool ignoreParentGroups;
+ __declspec(property(get=get_ignoreParentGroups, put=set_ignoreParentGroups)) bool  ignoreParentGroups;
 
-  __declspec(property(get = get_interactable, put = set_interactable)) bool interactable;
+ __declspec(property(get=get_interactable, put=set_interactable)) bool  interactable;
 
-  /// @brief Convert operator to "::UnityEngine::ICanvasRaycastFilter"
-  constexpr operator ::UnityEngine::ICanvasRaycastFilter*() noexcept;
+/// @brief Convert operator to "::UnityEngine::ICanvasRaycastFilter"
+constexpr operator  ::UnityEngine::ICanvasRaycastFilter*() noexcept;
 
-  /// @brief Method IsRaycastLocationValid, addr 0x6c8d870, size 0x4, virtual true, abstract: false, final true
-  inline bool IsRaycastLocationValid(::UnityEngine::Vector2 sp, ::UnityEngine::Camera* eventCamera);
+/// @brief Method IsRaycastLocationValid, addr 0x6c8f3e8, size 0x4, virtual true, abstract: false, final true
+inline bool IsRaycastLocationValid(::UnityEngine::Vector2  sp, ::UnityEngine::Camera*  eventCamera) ;
 
-  static inline ::UnityEngine::CanvasGroup* New_ctor();
+static inline ::UnityEngine::CanvasGroup* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x6c8d874, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6c8f3ec, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_alpha, addr 0x6c8d228, size 0x80, virtual false, abstract: false, final false
-  inline float_t get_alpha();
+/// @brief Method get_alpha, addr 0x6c8eda0, size 0x80, virtual false, abstract: false, final false
+inline float_t get_alpha() ;
 
-  /// @brief Method get_alpha_Injected, addr 0x6c8d2a8, size 0x3c, virtual false, abstract: false, final false
-  static inline float_t get_alpha_Injected(::System::IntPtr _unity_self);
+/// @brief Method get_alpha_Injected, addr 0x6c8ee20, size 0x3c, virtual false, abstract: false, final false
+static inline float_t get_alpha_Injected(::System::IntPtr  _unity_self) ;
 
-  /// @brief Method get_blocksRaycasts, addr 0x6c8d550, size 0x80, virtual false, abstract: false, final false
-  inline bool get_blocksRaycasts();
+/// @brief Method get_blocksRaycasts, addr 0x6c8f0c8, size 0x80, virtual false, abstract: false, final false
+inline bool get_blocksRaycasts() ;
 
-  /// @brief Method get_blocksRaycasts_Injected, addr 0x6c8d5d0, size 0x3c, virtual false, abstract: false, final false
-  static inline bool get_blocksRaycasts_Injected(::System::IntPtr _unity_self);
+/// @brief Method get_blocksRaycasts_Injected, addr 0x6c8f148, size 0x3c, virtual false, abstract: false, final false
+static inline bool get_blocksRaycasts_Injected(::System::IntPtr  _unity_self) ;
 
-  /// @brief Method get_ignoreParentGroups, addr 0x6c8d6e0, size 0x80, virtual false, abstract: false, final false
-  inline bool get_ignoreParentGroups();
+/// @brief Method get_ignoreParentGroups, addr 0x6c8f258, size 0x80, virtual false, abstract: false, final false
+inline bool get_ignoreParentGroups() ;
 
-  /// @brief Method get_ignoreParentGroups_Injected, addr 0x6c8d760, size 0x3c, virtual false, abstract: false, final false
-  static inline bool get_ignoreParentGroups_Injected(::System::IntPtr _unity_self);
+/// @brief Method get_ignoreParentGroups_Injected, addr 0x6c8f2d8, size 0x3c, virtual false, abstract: false, final false
+static inline bool get_ignoreParentGroups_Injected(::System::IntPtr  _unity_self) ;
 
-  /// @brief Method get_interactable, addr 0x6c8d3c0, size 0x80, virtual false, abstract: false, final false
-  inline bool get_interactable();
+/// @brief Method get_interactable, addr 0x6c8ef38, size 0x80, virtual false, abstract: false, final false
+inline bool get_interactable() ;
 
-  /// @brief Method get_interactable_Injected, addr 0x6c8d440, size 0x3c, virtual false, abstract: false, final false
-  static inline bool get_interactable_Injected(::System::IntPtr _unity_self);
+/// @brief Method get_interactable_Injected, addr 0x6c8efb8, size 0x3c, virtual false, abstract: false, final false
+static inline bool get_interactable_Injected(::System::IntPtr  _unity_self) ;
 
-  /// @brief Convert to "::UnityEngine::ICanvasRaycastFilter"
-  constexpr ::UnityEngine::ICanvasRaycastFilter* i___UnityEngine__ICanvasRaycastFilter() noexcept;
+/// @brief Convert to "::UnityEngine::ICanvasRaycastFilter"
+constexpr ::UnityEngine::ICanvasRaycastFilter* i___UnityEngine__ICanvasRaycastFilter() noexcept;
 
-  /// @brief Method set_alpha, addr 0x6c8d2e4, size 0x90, virtual false, abstract: false, final false
-  inline void set_alpha(float_t value);
+/// @brief Method set_alpha, addr 0x6c8ee5c, size 0x90, virtual false, abstract: false, final false
+inline void set_alpha(float_t  value) ;
 
-  /// @brief Method set_alpha_Injected, addr 0x6c8d374, size 0x4c, virtual false, abstract: false, final false
-  static inline void set_alpha_Injected(::System::IntPtr _unity_self, float_t value);
+/// @brief Method set_alpha_Injected, addr 0x6c8eeec, size 0x4c, virtual false, abstract: false, final false
+static inline void set_alpha_Injected(::System::IntPtr  _unity_self, float_t  value) ;
 
-  /// @brief Method set_blocksRaycasts, addr 0x6c8d60c, size 0x90, virtual false, abstract: false, final false
-  inline void set_blocksRaycasts(bool value);
+/// @brief Method set_blocksRaycasts, addr 0x6c8f184, size 0x90, virtual false, abstract: false, final false
+inline void set_blocksRaycasts(bool  value) ;
 
-  /// @brief Method set_blocksRaycasts_Injected, addr 0x6c8d69c, size 0x44, virtual false, abstract: false, final false
-  static inline void set_blocksRaycasts_Injected(::System::IntPtr _unity_self, bool value);
+/// @brief Method set_blocksRaycasts_Injected, addr 0x6c8f214, size 0x44, virtual false, abstract: false, final false
+static inline void set_blocksRaycasts_Injected(::System::IntPtr  _unity_self, bool  value) ;
 
-  /// @brief Method set_ignoreParentGroups, addr 0x6c8d79c, size 0x90, virtual false, abstract: false, final false
-  inline void set_ignoreParentGroups(bool value);
+/// @brief Method set_ignoreParentGroups, addr 0x6c8f314, size 0x90, virtual false, abstract: false, final false
+inline void set_ignoreParentGroups(bool  value) ;
 
-  /// @brief Method set_ignoreParentGroups_Injected, addr 0x6c8d82c, size 0x44, virtual false, abstract: false, final false
-  static inline void set_ignoreParentGroups_Injected(::System::IntPtr _unity_self, bool value);
+/// @brief Method set_ignoreParentGroups_Injected, addr 0x6c8f3a4, size 0x44, virtual false, abstract: false, final false
+static inline void set_ignoreParentGroups_Injected(::System::IntPtr  _unity_self, bool  value) ;
 
-  /// @brief Method set_interactable, addr 0x6c8d47c, size 0x90, virtual false, abstract: false, final false
-  inline void set_interactable(bool value);
+/// @brief Method set_interactable, addr 0x6c8eff4, size 0x90, virtual false, abstract: false, final false
+inline void set_interactable(bool  value) ;
 
-  /// @brief Method set_interactable_Injected, addr 0x6c8d50c, size 0x44, virtual false, abstract: false, final false
-  static inline void set_interactable_Injected(::System::IntPtr _unity_self, bool value);
+/// @brief Method set_interactable_Injected, addr 0x6c8f084, size 0x44, virtual false, abstract: false, final false
+static inline void set_interactable_Injected(::System::IntPtr  _unity_self, bool  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CanvasGroup();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr CanvasGroup() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CanvasGroup", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  CanvasGroup(CanvasGroup&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CanvasGroup", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  CanvasGroup(CanvasGroup const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "CanvasGroup", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+CanvasGroup(CanvasGroup && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21905 };
+// Ctor Parameters [CppParam { name: "", ty: "CanvasGroup", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+CanvasGroup(CanvasGroup const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{21908};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::CanvasGroup, 0x18>, "Size mismatch!");
 
-} // namespace UnityEngine
+} // namespace end def UnityEngine
 NEED_NO_BOX(::UnityEngine::CanvasGroup);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::CanvasGroup*, "UnityEngine", "CanvasGroup");

@@ -18,10 +18,12 @@ namespace OculusStudios::Platform::Core {
 class IRichPresenceDefinition;
 }
 namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
+template<typename T>
+class HashSet_1;
 }
 namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
+template<typename T>
+class IReadOnlyList_1;
 }
 // Forward declare root types
 namespace OculusStudios::Platform::Core {
@@ -35,118 +37,114 @@ namespace OculusStudios::Platform::Core {
 // CS Name: OculusStudios.Platform.Core.PlatformInitParams
 class CORDL_TYPE PlatformInitParams : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field achievementIdDefinitions, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_achievementIdDefinitions,
-                      put = __cordl_internal_set_achievementIdDefinitions)) ::System::Collections::Generic::HashSet_1<::StringW>* achievementIdDefinitions;
+// Declarations
+/// @brief Field achievementIdDefinitions, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get_achievementIdDefinitions, put=__cordl_internal_set_achievementIdDefinitions)) ::System::Collections::Generic::HashSet_1<::StringW>*  achievementIdDefinitions;
 
-  /// @brief Field appId, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_appId, put = __cordl_internal_set_appId)) uint64_t appId;
+/// @brief Field appId, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_appId, put=__cordl_internal_set_appId)) uint64_t  appId;
 
-  /// @brief Field destinationDefinitions, offset 0x20, size 0x8
-  __declspec(property(
-      get = __cordl_internal_get_destinationDefinitions,
-      put = __cordl_internal_set_destinationDefinitions)) ::System::Collections::Generic::IReadOnlyList_1<::OculusStudios::Platform::Core::IRichPresenceDefinition*>* destinationDefinitions;
+/// @brief Field destinationDefinitions, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_destinationDefinitions, put=__cordl_internal_set_destinationDefinitions)) ::System::Collections::Generic::IReadOnlyList_1<::OculusStudios::Platform::Core::IRichPresenceDefinition*>*  destinationDefinitions;
 
-  /// @brief Field graphApiUrl, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_graphApiUrl, put = __cordl_internal_set_graphApiUrl)) ::StringW graphApiUrl;
+/// @brief Field graphApiUrl, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get_graphApiUrl, put=__cordl_internal_set_graphApiUrl)) ::StringW  graphApiUrl;
 
-  /// @brief Field graphAppId, offset 0x40, size 0x10
-  __declspec(property(get = __cordl_internal_get_graphAppId, put = __cordl_internal_set_graphAppId)) ::System::Nullable_1<uint64_t> graphAppId;
+/// @brief Field graphAppId, offset 0x40, size 0x10 
+ __declspec(property(get=__cordl_internal_get_graphAppId, put=__cordl_internal_set_graphAppId)) ::System::Nullable_1<uint64_t>  graphAppId;
 
-  /// @brief Field logger, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_logger, put = __cordl_internal_set_logger)) ::OculusStudios::Platform::Core::IPlatformLogger* logger;
+/// @brief Field logger, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_logger, put=__cordl_internal_set_logger)) ::OculusStudios::Platform::Core::IPlatformLogger*  logger;
 
-  /// @brief Field productDefinitions, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_productDefinitions,
-                      put = __cordl_internal_set_productDefinitions)) ::System::Collections::Generic::IReadOnlyList_1<::OculusStudios::Platform::Core::IProductDefinition*>* productDefinitions;
+/// @brief Field productDefinitions, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get_productDefinitions, put=__cordl_internal_set_productDefinitions)) ::System::Collections::Generic::IReadOnlyList_1<::OculusStudios::Platform::Core::IProductDefinition*>*  productDefinitions;
 
-  static inline ::OculusStudios::Platform::Core::PlatformInitParams* New_ctor();
+static inline ::OculusStudios::Platform::Core::PlatformInitParams* New_ctor() ;
 
-  constexpr ::System::Collections::Generic::HashSet_1<::StringW>* const& __cordl_internal_get_achievementIdDefinitions() const;
+constexpr ::System::Collections::Generic::HashSet_1<::StringW>* const& __cordl_internal_get_achievementIdDefinitions() const;
 
-  constexpr ::System::Collections::Generic::HashSet_1<::StringW>*& __cordl_internal_get_achievementIdDefinitions();
+constexpr ::System::Collections::Generic::HashSet_1<::StringW>*& __cordl_internal_get_achievementIdDefinitions() ;
 
-  constexpr uint64_t const& __cordl_internal_get_appId() const;
+constexpr uint64_t const& __cordl_internal_get_appId() const;
 
-  constexpr uint64_t& __cordl_internal_get_appId();
+constexpr uint64_t& __cordl_internal_get_appId() ;
 
-  constexpr ::System::Collections::Generic::IReadOnlyList_1<::OculusStudios::Platform::Core::IRichPresenceDefinition*>* const& __cordl_internal_get_destinationDefinitions() const;
+constexpr ::System::Collections::Generic::IReadOnlyList_1<::OculusStudios::Platform::Core::IRichPresenceDefinition*>* const& __cordl_internal_get_destinationDefinitions() const;
 
-  constexpr ::System::Collections::Generic::IReadOnlyList_1<::OculusStudios::Platform::Core::IRichPresenceDefinition*>*& __cordl_internal_get_destinationDefinitions();
+constexpr ::System::Collections::Generic::IReadOnlyList_1<::OculusStudios::Platform::Core::IRichPresenceDefinition*>*& __cordl_internal_get_destinationDefinitions() ;
 
-  constexpr ::StringW const& __cordl_internal_get_graphApiUrl() const;
+constexpr ::StringW const& __cordl_internal_get_graphApiUrl() const;
 
-  constexpr ::StringW& __cordl_internal_get_graphApiUrl();
+constexpr ::StringW& __cordl_internal_get_graphApiUrl() ;
 
-  constexpr ::System::Nullable_1<uint64_t> const& __cordl_internal_get_graphAppId() const;
+constexpr ::System::Nullable_1<uint64_t> const& __cordl_internal_get_graphAppId() const;
 
-  constexpr ::System::Nullable_1<uint64_t>& __cordl_internal_get_graphAppId();
+constexpr ::System::Nullable_1<uint64_t>& __cordl_internal_get_graphAppId() ;
 
-  constexpr ::OculusStudios::Platform::Core::IPlatformLogger* const& __cordl_internal_get_logger() const;
+constexpr ::OculusStudios::Platform::Core::IPlatformLogger* const& __cordl_internal_get_logger() const;
 
-  constexpr ::OculusStudios::Platform::Core::IPlatformLogger*& __cordl_internal_get_logger();
+constexpr ::OculusStudios::Platform::Core::IPlatformLogger*& __cordl_internal_get_logger() ;
 
-  constexpr ::System::Collections::Generic::IReadOnlyList_1<::OculusStudios::Platform::Core::IProductDefinition*>* const& __cordl_internal_get_productDefinitions() const;
+constexpr ::System::Collections::Generic::IReadOnlyList_1<::OculusStudios::Platform::Core::IProductDefinition*>* const& __cordl_internal_get_productDefinitions() const;
 
-  constexpr ::System::Collections::Generic::IReadOnlyList_1<::OculusStudios::Platform::Core::IProductDefinition*>*& __cordl_internal_get_productDefinitions();
+constexpr ::System::Collections::Generic::IReadOnlyList_1<::OculusStudios::Platform::Core::IProductDefinition*>*& __cordl_internal_get_productDefinitions() ;
 
-  constexpr void __cordl_internal_set_achievementIdDefinitions(::System::Collections::Generic::HashSet_1<::StringW>* value);
+constexpr void __cordl_internal_set_achievementIdDefinitions(::System::Collections::Generic::HashSet_1<::StringW>*  value) ;
 
-  constexpr void __cordl_internal_set_appId(uint64_t value);
+constexpr void __cordl_internal_set_appId(uint64_t  value) ;
 
-  constexpr void __cordl_internal_set_destinationDefinitions(::System::Collections::Generic::IReadOnlyList_1<::OculusStudios::Platform::Core::IRichPresenceDefinition*>* value);
+constexpr void __cordl_internal_set_destinationDefinitions(::System::Collections::Generic::IReadOnlyList_1<::OculusStudios::Platform::Core::IRichPresenceDefinition*>*  value) ;
 
-  constexpr void __cordl_internal_set_graphApiUrl(::StringW value);
+constexpr void __cordl_internal_set_graphApiUrl(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_graphAppId(::System::Nullable_1<uint64_t> value);
+constexpr void __cordl_internal_set_graphAppId(::System::Nullable_1<uint64_t>  value) ;
 
-  constexpr void __cordl_internal_set_logger(::OculusStudios::Platform::Core::IPlatformLogger* value);
+constexpr void __cordl_internal_set_logger(::OculusStudios::Platform::Core::IPlatformLogger*  value) ;
 
-  constexpr void __cordl_internal_set_productDefinitions(::System::Collections::Generic::IReadOnlyList_1<::OculusStudios::Platform::Core::IProductDefinition*>* value);
+constexpr void __cordl_internal_set_productDefinitions(::System::Collections::Generic::IReadOnlyList_1<::OculusStudios::Platform::Core::IProductDefinition*>*  value) ;
 
-  /// @brief Method .ctor, addr 0x5df2d88, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5df4900, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PlatformInitParams();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr PlatformInitParams() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlatformInitParams", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  PlatformInitParams(PlatformInitParams&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlatformInitParams", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  PlatformInitParams(PlatformInitParams const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "PlatformInitParams", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+PlatformInitParams(PlatformInitParams && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22250 };
+// Ctor Parameters [CppParam { name: "", ty: "PlatformInitParams", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+PlatformInitParams(PlatformInitParams const& ) = delete;
 
-  /// @brief Field appId, offset: 0x10, size: 0x8, def value: None
-  uint64_t ___appId;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22254};
 
-  /// @brief Field logger, offset: 0x18, size: 0x8, def value: None
-  ::OculusStudios::Platform::Core::IPlatformLogger* ___logger;
+/// @brief Field appId, offset: 0x10, size: 0x8, def value: None
+ uint64_t  ___appId;
 
-  /// @brief Field destinationDefinitions, offset: 0x20, size: 0x8, def value: None
-  ::System::Collections::Generic::IReadOnlyList_1<::OculusStudios::Platform::Core::IRichPresenceDefinition*>* ___destinationDefinitions;
+/// @brief Field logger, offset: 0x18, size: 0x8, def value: None
+ ::OculusStudios::Platform::Core::IPlatformLogger*  ___logger;
 
-  /// @brief Field productDefinitions, offset: 0x28, size: 0x8, def value: None
-  ::System::Collections::Generic::IReadOnlyList_1<::OculusStudios::Platform::Core::IProductDefinition*>* ___productDefinitions;
+/// @brief Field destinationDefinitions, offset: 0x20, size: 0x8, def value: None
+ ::System::Collections::Generic::IReadOnlyList_1<::OculusStudios::Platform::Core::IRichPresenceDefinition*>*  ___destinationDefinitions;
 
-  /// @brief Field achievementIdDefinitions, offset: 0x30, size: 0x8, def value: None
-  ::System::Collections::Generic::HashSet_1<::StringW>* ___achievementIdDefinitions;
+/// @brief Field productDefinitions, offset: 0x28, size: 0x8, def value: None
+ ::System::Collections::Generic::IReadOnlyList_1<::OculusStudios::Platform::Core::IProductDefinition*>*  ___productDefinitions;
 
-  /// @brief Field graphApiUrl, offset: 0x38, size: 0x8, def value: None
-  ::StringW ___graphApiUrl;
+/// @brief Field achievementIdDefinitions, offset: 0x30, size: 0x8, def value: None
+ ::System::Collections::Generic::HashSet_1<::StringW>*  ___achievementIdDefinitions;
 
-  /// @brief Field graphAppId, offset: 0x40, size: 0x10, def value: None
-  ::System::Nullable_1<uint64_t> ___graphAppId;
+/// @brief Field graphApiUrl, offset: 0x38, size: 0x8, def value: None
+ ::StringW  ___graphApiUrl;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field graphAppId, offset: 0x40, size: 0x10, def value: None
+ ::System::Nullable_1<uint64_t>  ___graphAppId;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::OculusStudios::Platform::Core::PlatformInitParams, ___appId) == 0x10, "Offset mismatch!");
@@ -165,6 +163,6 @@ static_assert(offsetof(::OculusStudios::Platform::Core::PlatformInitParams, ___g
 
 static_assert(::cordl_internals::size_check_v<::OculusStudios::Platform::Core::PlatformInitParams, 0x50>, "Size mismatch!");
 
-} // namespace OculusStudios::Platform::Core
+} // namespace end def OculusStudios::Platform::Core
 NEED_NO_BOX(::OculusStudios::Platform::Core::PlatformInitParams);
 DEFINE_IL2CPP_ARG_TYPE(::OculusStudios::Platform::Core::PlatformInitParams*, "OculusStudios.Platform.Core", "PlatformInitParams");

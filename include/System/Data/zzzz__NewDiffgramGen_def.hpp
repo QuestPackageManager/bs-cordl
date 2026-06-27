@@ -45,173 +45,173 @@ namespace System::Data {
 // CS Name: System.Data.NewDiffgramGen
 class CORDL_TYPE NewDiffgramGen : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field _doc, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__doc, put = __cordl_internal_set__doc)) ::System::Xml::XmlDocument* _doc;
+// Declarations
+/// @brief Field _doc, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get__doc, put=__cordl_internal_set__doc)) ::System::Xml::XmlDocument*  _doc;
 
-  /// @brief Field _ds, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__ds, put = __cordl_internal_set__ds)) ::System::Data::DataSet* _ds;
+/// @brief Field _ds, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get__ds, put=__cordl_internal_set__ds)) ::System::Data::DataSet*  _ds;
 
-  /// @brief Field _dt, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__dt, put = __cordl_internal_set__dt)) ::System::Data::DataTable* _dt;
+/// @brief Field _dt, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get__dt, put=__cordl_internal_set__dt)) ::System::Data::DataTable*  _dt;
 
-  /// @brief Field _fBefore, offset 0x30, size 0x1
-  __declspec(property(get = __cordl_internal_get__fBefore, put = __cordl_internal_set__fBefore)) bool _fBefore;
+/// @brief Field _fBefore, offset 0x30, size 0x1 
+ __declspec(property(get=__cordl_internal_get__fBefore, put=__cordl_internal_set__fBefore)) bool  _fBefore;
 
-  /// @brief Field _fErrors, offset 0x31, size 0x1
-  __declspec(property(get = __cordl_internal_get__fErrors, put = __cordl_internal_set__fErrors)) bool _fErrors;
+/// @brief Field _fErrors, offset 0x31, size 0x1 
+ __declspec(property(get=__cordl_internal_get__fErrors, put=__cordl_internal_set__fErrors)) bool  _fErrors;
 
-  /// @brief Field _rowsOrder, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__rowsOrder, put = __cordl_internal_set__rowsOrder)) ::System::Collections::Hashtable* _rowsOrder;
+/// @brief Field _rowsOrder, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get__rowsOrder, put=__cordl_internal_set__rowsOrder)) ::System::Collections::Hashtable*  _rowsOrder;
 
-  /// @brief Field _tables, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__tables, put = __cordl_internal_set__tables)) ::System::Collections::ArrayList* _tables;
+/// @brief Field _tables, offset 0x40, size 0x8 
+ __declspec(property(get=__cordl_internal_get__tables, put=__cordl_internal_set__tables)) ::System::Collections::ArrayList*  _tables;
 
-  /// @brief Field _writeHierarchy, offset 0x48, size 0x1
-  __declspec(property(get = __cordl_internal_get__writeHierarchy, put = __cordl_internal_set__writeHierarchy)) bool _writeHierarchy;
+/// @brief Field _writeHierarchy, offset 0x48, size 0x1 
+ __declspec(property(get=__cordl_internal_get__writeHierarchy, put=__cordl_internal_set__writeHierarchy)) bool  _writeHierarchy;
 
-  /// @brief Field _xmlw, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__xmlw, put = __cordl_internal_set__xmlw)) ::System::Xml::XmlWriter* _xmlw;
+/// @brief Field _xmlw, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get__xmlw, put=__cordl_internal_set__xmlw)) ::System::Xml::XmlWriter*  _xmlw;
 
-  /// @brief Method CreateTableHierarchy, addr 0x5f3b1cc, size 0x358, virtual false, abstract: false, final false
-  inline void CreateTableHierarchy(::System::Data::DataTable* dt);
+/// @brief Method CreateTableHierarchy, addr 0x5f3cd44, size 0x358, virtual false, abstract: false, final false
+inline void CreateTableHierarchy(::System::Data::DataTable*  dt) ;
 
-  /// @brief Method DoAssignments, addr 0x5f3ae90, size 0x25c, virtual false, abstract: false, final false
-  inline void DoAssignments(::System::Collections::ArrayList* tables);
+/// @brief Method DoAssignments, addr 0x5f3ca08, size 0x25c, virtual false, abstract: false, final false
+inline void DoAssignments(::System::Collections::ArrayList*  tables) ;
 
-  /// @brief Method EmptyData, addr 0x5f3b524, size 0xf8, virtual false, abstract: false, final false
-  inline bool EmptyData();
+/// @brief Method EmptyData, addr 0x5f3d09c, size 0xf8, virtual false, abstract: false, final false
+inline bool EmptyData() ;
 
-  /// @brief Method GenerateColumn, addr 0x5f3d35c, size 0x9ec, virtual false, abstract: false, final false
-  inline void GenerateColumn(::System::Data::DataRow* row, ::System::Data::DataColumn* col, ::System::Data::DataRowVersion version);
+/// @brief Method GenerateColumn, addr 0x5f3eed4, size 0x9ec, virtual false, abstract: false, final false
+inline void GenerateColumn(::System::Data::DataRow*  row, ::System::Data::DataColumn*  col, ::System::Data::DataRowVersion  version) ;
 
-  /// @brief Method GenerateRow, addr 0x5f3cc1c, size 0x688, virtual false, abstract: false, final false
-  inline void GenerateRow(::System::Data::DataRow* row);
+/// @brief Method GenerateRow, addr 0x5f3e794, size 0x688, virtual false, abstract: false, final false
+inline void GenerateRow(::System::Data::DataRow*  row) ;
 
-  /// @brief Method GenerateTable, addr 0x5f3c594, size 0x7c, virtual false, abstract: false, final false
-  inline void GenerateTable(::System::Data::DataTable* table);
+/// @brief Method GenerateTable, addr 0x5f3e10c, size 0x7c, virtual false, abstract: false, final false
+inline void GenerateTable(::System::Data::DataTable*  table) ;
 
-  /// @brief Method GenerateTableErrors, addr 0x5f3c610, size 0x60c, virtual false, abstract: false, final false
-  inline void GenerateTableErrors(::System::Data::DataTable* table);
+/// @brief Method GenerateTableErrors, addr 0x5f3e188, size 0x60c, virtual false, abstract: false, final false
+inline void GenerateTableErrors(::System::Data::DataTable*  table) ;
 
-  static inline ::System::Data::NewDiffgramGen* New_ctor(::System::Data::DataSet* ds);
+static inline ::System::Data::NewDiffgramGen* New_ctor(::System::Data::DataSet*  ds) ;
 
-  static inline ::System::Data::NewDiffgramGen* New_ctor(::System::Data::DataTable* dt, bool writeHierarchy);
+static inline ::System::Data::NewDiffgramGen* New_ctor(::System::Data::DataTable*  dt, bool  writeHierarchy) ;
 
-  /// @brief Method QualifiedName, addr 0x5f3ad0c, size 0x78, virtual false, abstract: false, final false
-  static inline ::StringW QualifiedName(::StringW prefix, ::StringW name);
+/// @brief Method QualifiedName, addr 0x5f3c884, size 0x78, virtual false, abstract: false, final false
+static inline ::StringW QualifiedName(::StringW  prefix, ::StringW  name) ;
 
-  /// @brief Method Save, addr 0x5f3b61c, size 0x8, virtual false, abstract: false, final false
-  inline void Save(::System::Xml::XmlWriter* xmlw);
+/// @brief Method Save, addr 0x5f3d194, size 0x8, virtual false, abstract: false, final false
+inline void Save(::System::Xml::XmlWriter*  xmlw) ;
 
-  /// @brief Method Save, addr 0x5f3b624, size 0x430, virtual false, abstract: false, final false
-  inline void Save(::System::Xml::XmlWriter* xmlw, ::System::Data::DataTable* table);
+/// @brief Method Save, addr 0x5f3d19c, size 0x430, virtual false, abstract: false, final false
+inline void Save(::System::Xml::XmlWriter*  xmlw, ::System::Data::DataTable*  table) ;
 
-  constexpr ::System::Xml::XmlDocument* const& __cordl_internal_get__doc() const;
+constexpr ::System::Xml::XmlDocument* const& __cordl_internal_get__doc() const;
 
-  constexpr ::System::Xml::XmlDocument*& __cordl_internal_get__doc();
+constexpr ::System::Xml::XmlDocument*& __cordl_internal_get__doc() ;
 
-  constexpr ::System::Data::DataSet* const& __cordl_internal_get__ds() const;
+constexpr ::System::Data::DataSet* const& __cordl_internal_get__ds() const;
 
-  constexpr ::System::Data::DataSet*& __cordl_internal_get__ds();
+constexpr ::System::Data::DataSet*& __cordl_internal_get__ds() ;
 
-  constexpr ::System::Data::DataTable* const& __cordl_internal_get__dt() const;
+constexpr ::System::Data::DataTable* const& __cordl_internal_get__dt() const;
 
-  constexpr ::System::Data::DataTable*& __cordl_internal_get__dt();
+constexpr ::System::Data::DataTable*& __cordl_internal_get__dt() ;
 
-  constexpr bool const& __cordl_internal_get__fBefore() const;
+constexpr bool const& __cordl_internal_get__fBefore() const;
 
-  constexpr bool& __cordl_internal_get__fBefore();
+constexpr bool& __cordl_internal_get__fBefore() ;
 
-  constexpr bool const& __cordl_internal_get__fErrors() const;
+constexpr bool const& __cordl_internal_get__fErrors() const;
 
-  constexpr bool& __cordl_internal_get__fErrors();
+constexpr bool& __cordl_internal_get__fErrors() ;
 
-  constexpr ::System::Collections::Hashtable* const& __cordl_internal_get__rowsOrder() const;
+constexpr ::System::Collections::Hashtable* const& __cordl_internal_get__rowsOrder() const;
 
-  constexpr ::System::Collections::Hashtable*& __cordl_internal_get__rowsOrder();
+constexpr ::System::Collections::Hashtable*& __cordl_internal_get__rowsOrder() ;
 
-  constexpr ::System::Collections::ArrayList* const& __cordl_internal_get__tables() const;
+constexpr ::System::Collections::ArrayList* const& __cordl_internal_get__tables() const;
 
-  constexpr ::System::Collections::ArrayList*& __cordl_internal_get__tables();
+constexpr ::System::Collections::ArrayList*& __cordl_internal_get__tables() ;
 
-  constexpr bool const& __cordl_internal_get__writeHierarchy() const;
+constexpr bool const& __cordl_internal_get__writeHierarchy() const;
 
-  constexpr bool& __cordl_internal_get__writeHierarchy();
+constexpr bool& __cordl_internal_get__writeHierarchy() ;
 
-  constexpr ::System::Xml::XmlWriter* const& __cordl_internal_get__xmlw() const;
+constexpr ::System::Xml::XmlWriter* const& __cordl_internal_get__xmlw() const;
 
-  constexpr ::System::Xml::XmlWriter*& __cordl_internal_get__xmlw();
+constexpr ::System::Xml::XmlWriter*& __cordl_internal_get__xmlw() ;
 
-  constexpr void __cordl_internal_set__doc(::System::Xml::XmlDocument* value);
+constexpr void __cordl_internal_set__doc(::System::Xml::XmlDocument*  value) ;
 
-  constexpr void __cordl_internal_set__ds(::System::Data::DataSet* value);
+constexpr void __cordl_internal_set__ds(::System::Data::DataSet*  value) ;
 
-  constexpr void __cordl_internal_set__dt(::System::Data::DataTable* value);
+constexpr void __cordl_internal_set__dt(::System::Data::DataTable*  value) ;
 
-  constexpr void __cordl_internal_set__fBefore(bool value);
+constexpr void __cordl_internal_set__fBefore(bool  value) ;
 
-  constexpr void __cordl_internal_set__fErrors(bool value);
+constexpr void __cordl_internal_set__fErrors(bool  value) ;
 
-  constexpr void __cordl_internal_set__rowsOrder(::System::Collections::Hashtable* value);
+constexpr void __cordl_internal_set__rowsOrder(::System::Collections::Hashtable*  value) ;
 
-  constexpr void __cordl_internal_set__tables(::System::Collections::ArrayList* value);
+constexpr void __cordl_internal_set__tables(::System::Collections::ArrayList*  value) ;
 
-  constexpr void __cordl_internal_set__writeHierarchy(bool value);
+constexpr void __cordl_internal_set__writeHierarchy(bool  value) ;
 
-  constexpr void __cordl_internal_set__xmlw(::System::Xml::XmlWriter* value);
+constexpr void __cordl_internal_set__xmlw(::System::Xml::XmlWriter*  value) ;
 
-  /// @brief Method .ctor, addr 0x5f3ad84, size 0x10c, virtual false, abstract: false, final false
-  inline void _ctor(::System::Data::DataSet* ds);
+/// @brief Method .ctor, addr 0x5f3c8fc, size 0x10c, virtual false, abstract: false, final false
+inline void _ctor(::System::Data::DataSet*  ds) ;
 
-  /// @brief Method .ctor, addr 0x5f3b0ec, size 0xe0, virtual false, abstract: false, final false
-  inline void _ctor(::System::Data::DataTable* dt, bool writeHierarchy);
+/// @brief Method .ctor, addr 0x5f3cc64, size 0xe0, virtual false, abstract: false, final false
+inline void _ctor(::System::Data::DataTable*  dt, bool  writeHierarchy) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NewDiffgramGen();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr NewDiffgramGen() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NewDiffgramGen", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  NewDiffgramGen(NewDiffgramGen&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NewDiffgramGen", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  NewDiffgramGen(NewDiffgramGen const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "NewDiffgramGen", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+NewDiffgramGen(NewDiffgramGen && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13864 };
+// Ctor Parameters [CppParam { name: "", ty: "NewDiffgramGen", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+NewDiffgramGen(NewDiffgramGen const& ) = delete;
 
-  /// @brief Field _doc, offset: 0x10, size: 0x8, def value: None
-  ::System::Xml::XmlDocument* ____doc;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{13865};
 
-  /// @brief Field _ds, offset: 0x18, size: 0x8, def value: None
-  ::System::Data::DataSet* ____ds;
+/// @brief Field _doc, offset: 0x10, size: 0x8, def value: None
+ ::System::Xml::XmlDocument*  ____doc;
 
-  /// @brief Field _dt, offset: 0x20, size: 0x8, def value: None
-  ::System::Data::DataTable* ____dt;
+/// @brief Field _ds, offset: 0x18, size: 0x8, def value: None
+ ::System::Data::DataSet*  ____ds;
 
-  /// @brief Field _xmlw, offset: 0x28, size: 0x8, def value: None
-  ::System::Xml::XmlWriter* ____xmlw;
+/// @brief Field _dt, offset: 0x20, size: 0x8, def value: None
+ ::System::Data::DataTable*  ____dt;
 
-  /// @brief Field _fBefore, offset: 0x30, size: 0x1, def value: None
-  bool ____fBefore;
+/// @brief Field _xmlw, offset: 0x28, size: 0x8, def value: None
+ ::System::Xml::XmlWriter*  ____xmlw;
 
-  /// @brief Field _fErrors, offset: 0x31, size: 0x1, def value: None
-  bool ____fErrors;
+/// @brief Field _fBefore, offset: 0x30, size: 0x1, def value: None
+ bool  ____fBefore;
 
-  /// @brief Field _rowsOrder, offset: 0x38, size: 0x8, def value: None
-  ::System::Collections::Hashtable* ____rowsOrder;
+/// @brief Field _fErrors, offset: 0x31, size: 0x1, def value: None
+ bool  ____fErrors;
 
-  /// @brief Field _tables, offset: 0x40, size: 0x8, def value: None
-  ::System::Collections::ArrayList* ____tables;
+/// @brief Field _rowsOrder, offset: 0x38, size: 0x8, def value: None
+ ::System::Collections::Hashtable*  ____rowsOrder;
 
-  /// @brief Field _writeHierarchy, offset: 0x48, size: 0x1, def value: None
-  bool ____writeHierarchy;
+/// @brief Field _tables, offset: 0x40, size: 0x8, def value: None
+ ::System::Collections::ArrayList*  ____tables;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _writeHierarchy, offset: 0x48, size: 0x1, def value: None
+ bool  ____writeHierarchy;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Data::NewDiffgramGen, ____doc) == 0x10, "Offset mismatch!");
@@ -234,6 +234,6 @@ static_assert(offsetof(::System::Data::NewDiffgramGen, ____writeHierarchy) == 0x
 
 static_assert(::cordl_internals::size_check_v<::System::Data::NewDiffgramGen, 0x50>, "Size mismatch!");
 
-} // namespace System::Data
+} // namespace end def System::Data
 NEED_NO_BOX(::System::Data::NewDiffgramGen);
 DEFINE_IL2CPP_ARG_TYPE(::System::Data::NewDiffgramGen*, "System.Data", "NewDiffgramGen");

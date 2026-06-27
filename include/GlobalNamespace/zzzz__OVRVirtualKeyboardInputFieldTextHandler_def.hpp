@@ -7,7 +7,8 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(OVRVirtualKeyboardInputFieldTextHandler)
 namespace System {
-template <typename T> class Action_1;
+template<typename T>
+class Action_1;
 }
 namespace UnityEngine::UI {
 class InputField;
@@ -24,116 +25,115 @@ namespace GlobalNamespace {
 // CS Name: OVRVirtualKeyboardInputFieldTextHandler
 class CORDL_TYPE OVRVirtualKeyboardInputFieldTextHandler : public ::GlobalNamespace::OVRVirtualKeyboard_AbstractTextHandler {
 public:
-  // Declarations
-  __declspec(property(get = get_InputField, put = set_InputField)) ::UnityW<::UnityEngine::UI::InputField> InputField;
+// Declarations
+ __declspec(property(get=get_InputField, put=set_InputField)) ::UnityW<::UnityEngine::UI::InputField>  InputField;
 
-  __declspec(property(get = get_IsFocused)) bool IsFocused;
+ __declspec(property(get=get_IsFocused)) bool  IsFocused;
 
-  __declspec(property(get = get_OnTextChanged, put = set_OnTextChanged)) ::System::Action_1<::StringW>* OnTextChanged;
+ __declspec(property(get=get_OnTextChanged, put=set_OnTextChanged)) ::System::Action_1<::StringW>*  OnTextChanged;
 
-  __declspec(property(get = get_SubmitOnEnter)) bool SubmitOnEnter;
+ __declspec(property(get=get_SubmitOnEnter)) bool  SubmitOnEnter;
 
-  __declspec(property(get = get_Text)) ::StringW Text;
+ __declspec(property(get=get_Text)) ::StringW  Text;
 
-  /// @brief Field <OnTextChanged>k__BackingField, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__OnTextChanged_k__BackingField,
-                      put = __cordl_internal_set__OnTextChanged_k__BackingField)) ::System::Action_1<::StringW>* _OnTextChanged_k__BackingField;
+/// @brief Field <OnTextChanged>k__BackingField, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get__OnTextChanged_k__BackingField, put=__cordl_internal_set__OnTextChanged_k__BackingField)) ::System::Action_1<::StringW>*  _OnTextChanged_k__BackingField;
 
-  /// @brief Field _isSelected, offset 0x28, size 0x1
-  __declspec(property(get = __cordl_internal_get__isSelected, put = __cordl_internal_set__isSelected)) bool _isSelected;
+/// @brief Field _isSelected, offset 0x28, size 0x1 
+ __declspec(property(get=__cordl_internal_get__isSelected, put=__cordl_internal_set__isSelected)) bool  _isSelected;
 
-  /// @brief Field inputField, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_inputField, put = __cordl_internal_set_inputField)) ::UnityW<::UnityEngine::UI::InputField> inputField;
+/// @brief Field inputField, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_inputField, put=__cordl_internal_set_inputField)) ::UnityW<::UnityEngine::UI::InputField>  inputField;
 
-  /// @brief Method AppendText, addr 0x5db1624, size 0xac, virtual true, abstract: false, final false
-  inline void AppendText(::StringW s);
+/// @brief Method AppendText, addr 0x5db319c, size 0xac, virtual true, abstract: false, final false
+inline void AppendText(::StringW  s) ;
 
-  /// @brief Method ApplyBackspace, addr 0x5db16d0, size 0xe8, virtual true, abstract: false, final false
-  inline void ApplyBackspace();
+/// @brief Method ApplyBackspace, addr 0x5db3248, size 0xe8, virtual true, abstract: false, final false
+inline void ApplyBackspace() ;
 
-  /// @brief Method MoveTextEnd, addr 0x5db17b8, size 0x88, virtual true, abstract: false, final false
-  inline void MoveTextEnd();
+/// @brief Method MoveTextEnd, addr 0x5db3330, size 0x88, virtual true, abstract: false, final false
+inline void MoveTextEnd() ;
 
-  static inline ::GlobalNamespace::OVRVirtualKeyboardInputFieldTextHandler* New_ctor();
+static inline ::GlobalNamespace::OVRVirtualKeyboardInputFieldTextHandler* New_ctor() ;
 
-  /// @brief Method ProxyOnValueChanged, addr 0x5db1938, size 0x44, virtual false, abstract: false, final false
-  inline void ProxyOnValueChanged(::StringW arg0);
+/// @brief Method ProxyOnValueChanged, addr 0x5db34b0, size 0x44, virtual false, abstract: false, final false
+inline void ProxyOnValueChanged(::StringW  arg0) ;
 
-  /// @brief Method Start, addr 0x5db1840, size 0xf8, virtual false, abstract: false, final false
-  inline void Start();
+/// @brief Method Start, addr 0x5db33b8, size 0xf8, virtual false, abstract: false, final false
+inline void Start() ;
 
-  /// @brief Method Submit, addr 0x5db157c, size 0xa8, virtual true, abstract: false, final false
-  inline void Submit();
+/// @brief Method Submit, addr 0x5db30f4, size 0xa8, virtual true, abstract: false, final false
+inline void Submit() ;
 
-  constexpr ::System::Action_1<::StringW>* const& __cordl_internal_get__OnTextChanged_k__BackingField() const;
+constexpr ::System::Action_1<::StringW>* const& __cordl_internal_get__OnTextChanged_k__BackingField() const;
 
-  constexpr ::System::Action_1<::StringW>*& __cordl_internal_get__OnTextChanged_k__BackingField();
+constexpr ::System::Action_1<::StringW>*& __cordl_internal_get__OnTextChanged_k__BackingField() ;
 
-  constexpr bool const& __cordl_internal_get__isSelected() const;
+constexpr bool const& __cordl_internal_get__isSelected() const;
 
-  constexpr bool& __cordl_internal_get__isSelected();
+constexpr bool& __cordl_internal_get__isSelected() ;
 
-  constexpr ::UnityW<::UnityEngine::UI::InputField> const& __cordl_internal_get_inputField() const;
+constexpr ::UnityW<::UnityEngine::UI::InputField> const& __cordl_internal_get_inputField() const;
 
-  constexpr ::UnityW<::UnityEngine::UI::InputField>& __cordl_internal_get_inputField();
+constexpr ::UnityW<::UnityEngine::UI::InputField>& __cordl_internal_get_inputField() ;
 
-  constexpr void __cordl_internal_set__OnTextChanged_k__BackingField(::System::Action_1<::StringW>* value);
+constexpr void __cordl_internal_set__OnTextChanged_k__BackingField(::System::Action_1<::StringW>*  value) ;
 
-  constexpr void __cordl_internal_set__isSelected(bool value);
+constexpr void __cordl_internal_set__isSelected(bool  value) ;
 
-  constexpr void __cordl_internal_set_inputField(::UnityW<::UnityEngine::UI::InputField> value);
+constexpr void __cordl_internal_set_inputField(::UnityW<::UnityEngine::UI::InputField>  value) ;
 
-  /// @brief Method .ctor, addr 0x5db197c, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5db34f4, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_InputField, addr 0x5db13c8, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::UI::InputField> get_InputField();
+/// @brief Method get_InputField, addr 0x5db2f40, size 0x8, virtual false, abstract: false, final false
+inline ::UnityW<::UnityEngine::UI::InputField> get_InputField() ;
 
-  /// @brief Method get_IsFocused, addr 0x5db14f4, size 0x88, virtual true, abstract: false, final false
-  inline bool get_IsFocused();
+/// @brief Method get_IsFocused, addr 0x5db306c, size 0x88, virtual true, abstract: false, final false
+inline bool get_IsFocused() ;
 
-  /// @brief Method get_OnTextChanged, addr 0x5db13d0, size 0x8, virtual true, abstract: false, final false
-  inline ::System::Action_1<::StringW>* get_OnTextChanged();
+/// @brief Method get_OnTextChanged, addr 0x5db2f48, size 0x8, virtual true, abstract: false, final false
+inline ::System::Action_1<::StringW>* get_OnTextChanged() ;
 
-  /// @brief Method get_SubmitOnEnter, addr 0x5db146c, size 0x88, virtual true, abstract: false, final false
-  inline bool get_SubmitOnEnter();
+/// @brief Method get_SubmitOnEnter, addr 0x5db2fe4, size 0x88, virtual true, abstract: false, final false
+inline bool get_SubmitOnEnter() ;
 
-  /// @brief Method get_Text, addr 0x5db13e0, size 0x8c, virtual true, abstract: false, final false
-  inline ::StringW get_Text();
+/// @brief Method get_Text, addr 0x5db2f58, size 0x8c, virtual true, abstract: false, final false
+inline ::StringW get_Text() ;
 
-  /// @brief Method set_InputField, addr 0x5daa41c, size 0x1f4, virtual false, abstract: false, final false
-  inline void set_InputField(::UnityEngine::UI::InputField* value);
+/// @brief Method set_InputField, addr 0x5dabf94, size 0x1f4, virtual false, abstract: false, final false
+inline void set_InputField(::UnityEngine::UI::InputField*  value) ;
 
-  /// @brief Method set_OnTextChanged, addr 0x5db13d8, size 0x8, virtual true, abstract: false, final false
-  inline void set_OnTextChanged(::System::Action_1<::StringW>* value);
+/// @brief Method set_OnTextChanged, addr 0x5db2f50, size 0x8, virtual true, abstract: false, final false
+inline void set_OnTextChanged(::System::Action_1<::StringW>*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OVRVirtualKeyboardInputFieldTextHandler();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr OVRVirtualKeyboardInputFieldTextHandler() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRVirtualKeyboardInputFieldTextHandler", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  OVRVirtualKeyboardInputFieldTextHandler(OVRVirtualKeyboardInputFieldTextHandler&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRVirtualKeyboardInputFieldTextHandler", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  OVRVirtualKeyboardInputFieldTextHandler(OVRVirtualKeyboardInputFieldTextHandler const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "OVRVirtualKeyboardInputFieldTextHandler", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+OVRVirtualKeyboardInputFieldTextHandler(OVRVirtualKeyboardInputFieldTextHandler && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7808 };
+// Ctor Parameters [CppParam { name: "", ty: "OVRVirtualKeyboardInputFieldTextHandler", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+OVRVirtualKeyboardInputFieldTextHandler(OVRVirtualKeyboardInputFieldTextHandler const& ) = delete;
 
-  /// @brief Field inputField, offset: 0x20, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::UI::InputField> ___inputField;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{7809};
 
-  /// @brief Field _isSelected, offset: 0x28, size: 0x1, def value: None
-  bool ____isSelected;
+/// @brief Field inputField, offset: 0x20, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::UI::InputField>  ___inputField;
 
-  /// @brief Field <OnTextChanged>k__BackingField, offset: 0x30, size: 0x8, def value: None
-  ::System::Action_1<::StringW>* ____OnTextChanged_k__BackingField;
+/// @brief Field _isSelected, offset: 0x28, size: 0x1, def value: None
+ bool  ____isSelected;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field <OnTextChanged>k__BackingField, offset: 0x30, size: 0x8, def value: None
+ ::System::Action_1<::StringW>*  ____OnTextChanged_k__BackingField;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::OVRVirtualKeyboardInputFieldTextHandler, ___inputField) == 0x20, "Offset mismatch!");
@@ -144,6 +144,6 @@ static_assert(offsetof(::GlobalNamespace::OVRVirtualKeyboardInputFieldTextHandle
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRVirtualKeyboardInputFieldTextHandler, 0x38>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::OVRVirtualKeyboardInputFieldTextHandler);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRVirtualKeyboardInputFieldTextHandler*, "", "OVRVirtualKeyboardInputFieldTextHandler");

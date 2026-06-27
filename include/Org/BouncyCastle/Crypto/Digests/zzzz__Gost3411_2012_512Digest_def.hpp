@@ -22,57 +22,57 @@ namespace Org::BouncyCastle::Crypto::Digests {
 // CS Name: Org.BouncyCastle.Crypto.Digests.Gost3411_2012_512Digest
 class CORDL_TYPE Gost3411_2012_512Digest : public ::Org::BouncyCastle::Crypto::Digests::Gost3411_2012Digest {
 public:
-  // Declarations
-  __declspec(property(get = get_AlgorithmName)) ::StringW AlgorithmName;
+// Declarations
+ __declspec(property(get=get_AlgorithmName)) ::StringW  AlgorithmName;
 
-  /// @brief Field IV, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_IV, put = setStaticF_IV)) ::ArrayW<uint8_t, ::Array<uint8_t>*> IV;
+/// @brief Field IV, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_IV, put=setStaticF_IV)) ::ArrayW<uint8_t,::Array<uint8_t>*>  IV;
 
-  /// @brief Method Copy, addr 0x362f790, size 0x5c, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Utilities::IMemoable* Copy();
+/// @brief Method Copy, addr 0x363052c, size 0x5c, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Utilities::IMemoable* Copy() ;
 
-  /// @brief Method GetDigestSize, addr 0x362f788, size 0x8, virtual true, abstract: false, final false
-  inline int32_t GetDigestSize();
+/// @brief Method GetDigestSize, addr 0x3630524, size 0x8, virtual true, abstract: false, final false
+inline int32_t GetDigestSize() ;
 
-  static inline ::Org::BouncyCastle::Crypto::Digests::Gost3411_2012_512Digest* New_ctor();
+static inline ::Org::BouncyCastle::Crypto::Digests::Gost3411_2012_512Digest* New_ctor() ;
 
-  static inline ::Org::BouncyCastle::Crypto::Digests::Gost3411_2012_512Digest* New_ctor(::Org::BouncyCastle::Crypto::Digests::Gost3411_2012_512Digest* other);
+static inline ::Org::BouncyCastle::Crypto::Digests::Gost3411_2012_512Digest* New_ctor(::Org::BouncyCastle::Crypto::Digests::Gost3411_2012_512Digest*  other) ;
 
-  /// @brief Method .ctor, addr 0x362f648, size 0x94, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x36303e4, size 0x94, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method .ctor, addr 0x362f6dc, size 0xac, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Crypto::Digests::Gost3411_2012_512Digest* other);
+/// @brief Method .ctor, addr 0x3630478, size 0xac, virtual false, abstract: false, final false
+inline void _ctor(::Org::BouncyCastle::Crypto::Digests::Gost3411_2012_512Digest*  other) ;
 
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_IV();
+static inline ::ArrayW<uint8_t,::Array<uint8_t>*> getStaticF_IV() ;
 
-  /// @brief Method get_AlgorithmName, addr 0x362f604, size 0x44, virtual true, abstract: false, final false
-  inline ::StringW get_AlgorithmName();
+/// @brief Method get_AlgorithmName, addr 0x36303a0, size 0x44, virtual true, abstract: false, final false
+inline ::StringW get_AlgorithmName() ;
 
-  static inline void setStaticF_IV(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+static inline void setStaticF_IV(::ArrayW<uint8_t,::Array<uint8_t>*>  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Gost3411_2012_512Digest();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr Gost3411_2012_512Digest() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Gost3411_2012_512Digest", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  Gost3411_2012_512Digest(Gost3411_2012_512Digest&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Gost3411_2012_512Digest", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  Gost3411_2012_512Digest(Gost3411_2012_512Digest const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "Gost3411_2012_512Digest", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Gost3411_2012_512Digest(Gost3411_2012_512Digest && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 754 };
+// Ctor Parameters [CppParam { name: "", ty: "Gost3411_2012_512Digest", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Gost3411_2012_512Digest(Gost3411_2012_512Digest const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{754};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Digests::Gost3411_2012_512Digest, 0x58>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Crypto::Digests
+} // namespace end def Org::BouncyCastle::Crypto::Digests
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Digests::Gost3411_2012_512Digest);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Digests::Gost3411_2012_512Digest*, "Org.BouncyCastle.Crypto.Digests", "Gost3411_2012_512Digest");

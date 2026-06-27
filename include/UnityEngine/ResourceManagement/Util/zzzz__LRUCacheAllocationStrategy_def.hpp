@@ -7,10 +7,12 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(LRUCacheAllocationStrategy)
 namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+template<typename TKey,typename TValue>
+class Dictionary_2;
 }
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template<typename T>
+class List_1;
 }
 namespace System {
 class Object;
@@ -33,110 +35,108 @@ namespace UnityEngine::ResourceManagement::Util {
 // CS Name: UnityEngine.ResourceManagement.Util.LRUCacheAllocationStrategy
 class CORDL_TYPE LRUCacheAllocationStrategy : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field m_cache, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_cache,
-                      put = __cordl_internal_set_m_cache)) ::System::Collections::Generic::Dictionary_2<int32_t, ::System::Collections::Generic::List_1<::System::Object*>*>* m_cache;
+// Declarations
+/// @brief Field m_cache, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_cache, put=__cordl_internal_set_m_cache)) ::System::Collections::Generic::Dictionary_2<int32_t,::System::Collections::Generic::List_1<::System::Object*>*>*  m_cache;
 
-  /// @brief Field m_poolCache, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_poolCache,
-                      put = __cordl_internal_set_m_poolCache)) ::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::System::Object*>*>* m_poolCache;
+/// @brief Field m_poolCache, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_poolCache, put=__cordl_internal_set_m_poolCache)) ::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::System::Object*>*>*  m_poolCache;
 
-  /// @brief Field m_poolCacheMaxSize, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_poolCacheMaxSize, put = __cordl_internal_set_m_poolCacheMaxSize)) int32_t m_poolCacheMaxSize;
+/// @brief Field m_poolCacheMaxSize, offset 0x18, size 0x4 
+ __declspec(property(get=__cordl_internal_get_m_poolCacheMaxSize, put=__cordl_internal_set_m_poolCacheMaxSize)) int32_t  m_poolCacheMaxSize;
 
-  /// @brief Field m_poolInitialCapacity, offset 0x14, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_poolInitialCapacity, put = __cordl_internal_set_m_poolInitialCapacity)) int32_t m_poolInitialCapacity;
+/// @brief Field m_poolInitialCapacity, offset 0x14, size 0x4 
+ __declspec(property(get=__cordl_internal_get_m_poolInitialCapacity, put=__cordl_internal_set_m_poolInitialCapacity)) int32_t  m_poolInitialCapacity;
 
-  /// @brief Field m_poolMaxSize, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_poolMaxSize, put = __cordl_internal_set_m_poolMaxSize)) int32_t m_poolMaxSize;
+/// @brief Field m_poolMaxSize, offset 0x10, size 0x4 
+ __declspec(property(get=__cordl_internal_get_m_poolMaxSize, put=__cordl_internal_set_m_poolMaxSize)) int32_t  m_poolMaxSize;
 
-  /// @brief Convert operator to "::UnityEngine::ResourceManagement::Util::IAllocationStrategy"
-  constexpr operator ::UnityEngine::ResourceManagement::Util::IAllocationStrategy*() noexcept;
+/// @brief Convert operator to "::UnityEngine::ResourceManagement::Util::IAllocationStrategy"
+constexpr operator  ::UnityEngine::ResourceManagement::Util::IAllocationStrategy*() noexcept;
 
-  /// @brief Method GetPool, addr 0x67d1964, size 0x104, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::List_1<::System::Object*>* GetPool();
+/// @brief Method GetPool, addr 0x67d34dc, size 0x104, virtual false, abstract: false, final false
+inline ::System::Collections::Generic::List_1<::System::Object*>* GetPool() ;
 
-  /// @brief Method New, addr 0x67d1b3c, size 0x15c, virtual true, abstract: false, final true
-  inline ::System::Object* New(::System::Type* type, int32_t typeHash);
+/// @brief Method New, addr 0x67d36b4, size 0x15c, virtual true, abstract: false, final true
+inline ::System::Object* New(::System::Type*  type, int32_t  typeHash) ;
 
-  static inline ::UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy* New_ctor(int32_t poolMaxSize, int32_t poolCapacity, int32_t poolCacheMaxSize, int32_t initialPoolCacheCapacity);
+static inline ::UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy* New_ctor(int32_t  poolMaxSize, int32_t  poolCapacity, int32_t  poolCacheMaxSize, int32_t  initialPoolCacheCapacity) ;
 
-  /// @brief Method Release, addr 0x67d1c98, size 0x174, virtual true, abstract: false, final true
-  inline void Release(int32_t typeHash, ::System::Object* obj);
+/// @brief Method Release, addr 0x67d3810, size 0x174, virtual true, abstract: false, final true
+inline void Release(int32_t  typeHash, ::System::Object*  obj) ;
 
-  /// @brief Method ReleasePool, addr 0x67d1a68, size 0xd4, virtual false, abstract: false, final false
-  inline void ReleasePool(::System::Collections::Generic::List_1<::System::Object*>* pool);
+/// @brief Method ReleasePool, addr 0x67d35e0, size 0xd4, virtual false, abstract: false, final false
+inline void ReleasePool(::System::Collections::Generic::List_1<::System::Object*>*  pool) ;
 
-  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::System::Collections::Generic::List_1<::System::Object*>*>* const& __cordl_internal_get_m_cache() const;
+constexpr ::System::Collections::Generic::Dictionary_2<int32_t,::System::Collections::Generic::List_1<::System::Object*>*>* const& __cordl_internal_get_m_cache() const;
 
-  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::System::Collections::Generic::List_1<::System::Object*>*>*& __cordl_internal_get_m_cache();
+constexpr ::System::Collections::Generic::Dictionary_2<int32_t,::System::Collections::Generic::List_1<::System::Object*>*>*& __cordl_internal_get_m_cache() ;
 
-  constexpr ::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::System::Object*>*>* const& __cordl_internal_get_m_poolCache() const;
+constexpr ::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::System::Object*>*>* const& __cordl_internal_get_m_poolCache() const;
 
-  constexpr ::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::System::Object*>*>*& __cordl_internal_get_m_poolCache();
+constexpr ::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::System::Object*>*>*& __cordl_internal_get_m_poolCache() ;
 
-  constexpr int32_t const& __cordl_internal_get_m_poolCacheMaxSize() const;
+constexpr int32_t const& __cordl_internal_get_m_poolCacheMaxSize() const;
 
-  constexpr int32_t& __cordl_internal_get_m_poolCacheMaxSize();
+constexpr int32_t& __cordl_internal_get_m_poolCacheMaxSize() ;
 
-  constexpr int32_t const& __cordl_internal_get_m_poolInitialCapacity() const;
+constexpr int32_t const& __cordl_internal_get_m_poolInitialCapacity() const;
 
-  constexpr int32_t& __cordl_internal_get_m_poolInitialCapacity();
+constexpr int32_t& __cordl_internal_get_m_poolInitialCapacity() ;
 
-  constexpr int32_t const& __cordl_internal_get_m_poolMaxSize() const;
+constexpr int32_t const& __cordl_internal_get_m_poolMaxSize() const;
 
-  constexpr int32_t& __cordl_internal_get_m_poolMaxSize();
+constexpr int32_t& __cordl_internal_get_m_poolMaxSize() ;
 
-  constexpr void __cordl_internal_set_m_cache(::System::Collections::Generic::Dictionary_2<int32_t, ::System::Collections::Generic::List_1<::System::Object*>*>* value);
+constexpr void __cordl_internal_set_m_cache(::System::Collections::Generic::Dictionary_2<int32_t,::System::Collections::Generic::List_1<::System::Object*>*>*  value) ;
 
-  constexpr void __cordl_internal_set_m_poolCache(::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::System::Object*>*>* value);
+constexpr void __cordl_internal_set_m_poolCache(::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::System::Object*>*>*  value) ;
 
-  constexpr void __cordl_internal_set_m_poolCacheMaxSize(int32_t value);
+constexpr void __cordl_internal_set_m_poolCacheMaxSize(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_m_poolInitialCapacity(int32_t value);
+constexpr void __cordl_internal_set_m_poolInitialCapacity(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_m_poolMaxSize(int32_t value);
+constexpr void __cordl_internal_set_m_poolMaxSize(int32_t  value) ;
 
-  /// @brief Method .ctor, addr 0x67c5ecc, size 0x1e4, virtual false, abstract: false, final false
-  inline void _ctor(int32_t poolMaxSize, int32_t poolCapacity, int32_t poolCacheMaxSize, int32_t initialPoolCacheCapacity);
+/// @brief Method .ctor, addr 0x67c7a44, size 0x1e4, virtual false, abstract: false, final false
+inline void _ctor(int32_t  poolMaxSize, int32_t  poolCapacity, int32_t  poolCacheMaxSize, int32_t  initialPoolCacheCapacity) ;
 
-  /// @brief Convert to "::UnityEngine::ResourceManagement::Util::IAllocationStrategy"
-  constexpr ::UnityEngine::ResourceManagement::Util::IAllocationStrategy* i___UnityEngine__ResourceManagement__Util__IAllocationStrategy() noexcept;
+/// @brief Convert to "::UnityEngine::ResourceManagement::Util::IAllocationStrategy"
+constexpr ::UnityEngine::ResourceManagement::Util::IAllocationStrategy* i___UnityEngine__ResourceManagement__Util__IAllocationStrategy() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LRUCacheAllocationStrategy();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr LRUCacheAllocationStrategy() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LRUCacheAllocationStrategy", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  LRUCacheAllocationStrategy(LRUCacheAllocationStrategy&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LRUCacheAllocationStrategy", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  LRUCacheAllocationStrategy(LRUCacheAllocationStrategy const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "LRUCacheAllocationStrategy", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+LRUCacheAllocationStrategy(LRUCacheAllocationStrategy && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18732 };
+// Ctor Parameters [CppParam { name: "", ty: "LRUCacheAllocationStrategy", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+LRUCacheAllocationStrategy(LRUCacheAllocationStrategy const& ) = delete;
 
-  /// @brief Field m_poolMaxSize, offset: 0x10, size: 0x4, def value: None
-  int32_t ___m_poolMaxSize;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{18734};
 
-  /// @brief Field m_poolInitialCapacity, offset: 0x14, size: 0x4, def value: None
-  int32_t ___m_poolInitialCapacity;
+/// @brief Field m_poolMaxSize, offset: 0x10, size: 0x4, def value: None
+ int32_t  ___m_poolMaxSize;
 
-  /// @brief Field m_poolCacheMaxSize, offset: 0x18, size: 0x4, def value: None
-  int32_t ___m_poolCacheMaxSize;
+/// @brief Field m_poolInitialCapacity, offset: 0x14, size: 0x4, def value: None
+ int32_t  ___m_poolInitialCapacity;
 
-  /// @brief Field m_poolCache, offset: 0x20, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::System::Object*>*>* ___m_poolCache;
+/// @brief Field m_poolCacheMaxSize, offset: 0x18, size: 0x4, def value: None
+ int32_t  ___m_poolCacheMaxSize;
 
-  /// @brief Field m_cache, offset: 0x28, size: 0x8, def value: None
-  ::System::Collections::Generic::Dictionary_2<int32_t, ::System::Collections::Generic::List_1<::System::Object*>*>* ___m_cache;
+/// @brief Field m_poolCache, offset: 0x20, size: 0x8, def value: None
+ ::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::System::Object*>*>*  ___m_poolCache;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field m_cache, offset: 0x28, size: 0x8, def value: None
+ ::System::Collections::Generic::Dictionary_2<int32_t,::System::Collections::Generic::List_1<::System::Object*>*>*  ___m_cache;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy, ___m_poolMaxSize) == 0x10, "Offset mismatch!");
@@ -151,6 +151,6 @@ static_assert(offsetof(::UnityEngine::ResourceManagement::Util::LRUCacheAllocati
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy, 0x30>, "Size mismatch!");
 
-} // namespace UnityEngine::ResourceManagement::Util
+} // namespace end def UnityEngine::ResourceManagement::Util
 NEED_NO_BOX(::UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy*, "UnityEngine.ResourceManagement.Util", "LRUCacheAllocationStrategy");

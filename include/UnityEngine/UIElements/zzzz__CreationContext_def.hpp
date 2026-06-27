@@ -8,13 +8,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(CreationContext)
 namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+template<typename TKey,typename TValue>
+class Dictionary_2;
 }
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template<typename T>
+class List_1;
 }
 namespace System {
-template <typename T> class IEquatable_1;
+template<typename T>
+class IEquatable_1;
 }
 namespace System {
 class Object;
@@ -51,38 +54,36 @@ struct CreationContext_SerializedDataOverrideRange;
 MARK_VAL_T(::UnityEngine::UIElements::CreationContext);
 MARK_VAL_T(::UnityEngine::UIElements::CreationContext_AttributeOverrideRange);
 MARK_VAL_T(::UnityEngine::UIElements::CreationContext_SerializedDataOverrideRange);
-// Dependencies
+// Dependencies 
 namespace UnityEngine::UIElements {
 // Is value type: true
 // CS Name: UnityEngine.UIElements.CreationContext/AttributeOverrideRange
 struct CORDL_TYPE CreationContext_AttributeOverrideRange {
 public:
-  // Declarations
-  /// @brief Method .ctor, addr 0x6b639fc, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::UIElements::VisualTreeAsset* sourceAsset, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::TemplateAsset_AttributeOverride>* attributeOverrides);
+// Declarations
+/// @brief Method .ctor, addr 0x6b65574, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(::UnityEngine::UIElements::VisualTreeAsset*  sourceAsset, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::TemplateAsset_AttributeOverride>*  attributeOverrides) ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CreationContext_AttributeOverrideRange();
+// Ctor Parameters []
+// @brief default ctor
+constexpr CreationContext_AttributeOverrideRange() ;
 
-  // Ctor Parameters [CppParam { name: "sourceAsset", ty: "::UnityW<::UnityEngine::UIElements::VisualTreeAsset>", modifiers: "", def_value: None }, CppParam { name: "attributeOverrides", ty:
-  // "::System::Collections::Generic::List_1<::UnityEngine::UIElements::TemplateAsset_AttributeOverride>*", modifiers: "", def_value: None }]
-  constexpr CreationContext_AttributeOverrideRange(::UnityW<::UnityEngine::UIElements::VisualTreeAsset> sourceAsset,
-                                                   ::System::Collections::Generic::List_1<::UnityEngine::UIElements::TemplateAsset_AttributeOverride>* attributeOverrides) noexcept;
+// Ctor Parameters [CppParam { name: "sourceAsset", ty: "::UnityW<::UnityEngine::UIElements::VisualTreeAsset>", modifiers: "", def_value: None }, CppParam { name: "attributeOverrides", ty: "::System::Collections::Generic::List_1<::UnityEngine::UIElements::TemplateAsset_AttributeOverride>*", modifiers: "", def_value: None }]
+constexpr CreationContext_AttributeOverrideRange(::UnityW<::UnityEngine::UIElements::VisualTreeAsset>  sourceAsset, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::TemplateAsset_AttributeOverride>*  attributeOverrides) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5210 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{5210};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x10};
 
-  /// @brief Field sourceAsset, offset: 0x0, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::UIElements::VisualTreeAsset> sourceAsset;
+/// @brief Field sourceAsset, offset: 0x0, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::UIElements::VisualTreeAsset>  sourceAsset;
 
-  /// @brief Field attributeOverrides, offset: 0x8, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::UnityEngine::UIElements::TemplateAsset_AttributeOverride>* attributeOverrides;
+/// @brief Field attributeOverrides, offset: 0x8, size: 0x8, def value: None
+ ::System::Collections::Generic::List_1<::UnityEngine::UIElements::TemplateAsset_AttributeOverride>*  attributeOverrides;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::UIElements::CreationContext_AttributeOverrideRange, sourceAsset) == 0x0, "Offset mismatch!");
@@ -91,44 +92,40 @@ static_assert(offsetof(::UnityEngine::UIElements::CreationContext_AttributeOverr
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::CreationContext_AttributeOverrideRange, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements
-// Dependencies
+} // namespace end def UnityEngine::UIElements
+// Dependencies 
 namespace UnityEngine::UIElements {
 // Is value type: true
 // CS Name: UnityEngine.UIElements.CreationContext/SerializedDataOverrideRange
 struct CORDL_TYPE CreationContext_SerializedDataOverrideRange {
 public:
-  // Declarations
-  /// @brief Method .ctor, addr 0x6b63a04, size 0x10, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::UIElements::VisualTreeAsset* sourceAsset,
-                    ::System::Collections::Generic::List_1<::UnityEngine::UIElements::TemplateAsset_UxmlSerializedDataOverride>* attributeOverrides, int32_t templateId);
+// Declarations
+/// @brief Method .ctor, addr 0x6b6557c, size 0x10, virtual false, abstract: false, final false
+inline void _ctor(::UnityEngine::UIElements::VisualTreeAsset*  sourceAsset, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::TemplateAsset_UxmlSerializedDataOverride>*  attributeOverrides, int32_t  templateId) ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CreationContext_SerializedDataOverrideRange();
+// Ctor Parameters []
+// @brief default ctor
+constexpr CreationContext_SerializedDataOverrideRange() ;
 
-  // Ctor Parameters [CppParam { name: "sourceAsset", ty: "::UnityW<::UnityEngine::UIElements::VisualTreeAsset>", modifiers: "", def_value: None }, CppParam { name: "templateId", ty: "int32_t",
-  // modifiers: "", def_value: None }, CppParam { name: "attributeOverrides", ty: "::System::Collections::Generic::List_1<::UnityEngine::UIElements::TemplateAsset_UxmlSerializedDataOverride>*",
-  // modifiers: "", def_value: None }]
-  constexpr CreationContext_SerializedDataOverrideRange(::UnityW<::UnityEngine::UIElements::VisualTreeAsset> sourceAsset, int32_t templateId,
-                                                        ::System::Collections::Generic::List_1<::UnityEngine::UIElements::TemplateAsset_UxmlSerializedDataOverride>* attributeOverrides) noexcept;
+// Ctor Parameters [CppParam { name: "sourceAsset", ty: "::UnityW<::UnityEngine::UIElements::VisualTreeAsset>", modifiers: "", def_value: None }, CppParam { name: "templateId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "attributeOverrides", ty: "::System::Collections::Generic::List_1<::UnityEngine::UIElements::TemplateAsset_UxmlSerializedDataOverride>*", modifiers: "", def_value: None }]
+constexpr CreationContext_SerializedDataOverrideRange(::UnityW<::UnityEngine::UIElements::VisualTreeAsset>  sourceAsset, int32_t  templateId, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::TemplateAsset_UxmlSerializedDataOverride>*  attributeOverrides) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5211 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{5211};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x18};
 
-  /// @brief Field sourceAsset, offset: 0x0, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::UIElements::VisualTreeAsset> sourceAsset;
+/// @brief Field sourceAsset, offset: 0x0, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::UIElements::VisualTreeAsset>  sourceAsset;
 
-  /// @brief Field templateId, offset: 0x8, size: 0x4, def value: None
-  int32_t templateId;
+/// @brief Field templateId, offset: 0x8, size: 0x4, def value: None
+ int32_t  templateId;
 
-  /// @brief Field attributeOverrides, offset: 0x10, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::UnityEngine::UIElements::TemplateAsset_UxmlSerializedDataOverride>* attributeOverrides;
+/// @brief Field attributeOverrides, offset: 0x10, size: 0x8, def value: None
+ ::System::Collections::Generic::List_1<::UnityEngine::UIElements::TemplateAsset_UxmlSerializedDataOverride>*  attributeOverrides;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::UIElements::CreationContext_SerializedDataOverrideRange, sourceAsset) == 0x0, "Offset mismatch!");
@@ -139,173 +136,151 @@ static_assert(offsetof(::UnityEngine::UIElements::CreationContext_SerializedData
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::CreationContext_SerializedDataOverrideRange, 0x18>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements
-// Dependencies
+} // namespace end def UnityEngine::UIElements
+// Dependencies 
 namespace UnityEngine::UIElements {
 // Is value type: true
 // CS Name: UnityEngine.UIElements.CreationContext
 struct CORDL_TYPE CreationContext {
 public:
-  // Declarations
-  using AttributeOverrideRange = ::UnityEngine::UIElements::CreationContext_AttributeOverrideRange;
+// Declarations
+using AttributeOverrideRange = ::UnityEngine::UIElements::CreationContext_AttributeOverrideRange;
 
-  using SerializedDataOverrideRange = ::UnityEngine::UIElements::CreationContext_SerializedDataOverrideRange;
+using SerializedDataOverrideRange = ::UnityEngine::UIElements::CreationContext_SerializedDataOverrideRange;
 
-  /// @brief Field Default, offset 0xffffffff, size 0x38
-  __declspec(property(get = getStaticF_Default, put = setStaticF_Default)) ::UnityEngine::UIElements::CreationContext Default;
+/// @brief Field Default, offset 0xffffffff, size 0x38 
+ __declspec(property(get=getStaticF_Default, put=setStaticF_Default)) ::UnityEngine::UIElements::CreationContext  Default;
 
-  __declspec(property(get = get_attributeOverrides,
-                      put = set_attributeOverrides)) ::System::Collections::Generic::List_1<::UnityEngine::UIElements::CreationContext_AttributeOverrideRange>* attributeOverrides;
+ __declspec(property(get=get_attributeOverrides, put=set_attributeOverrides)) ::System::Collections::Generic::List_1<::UnityEngine::UIElements::CreationContext_AttributeOverrideRange>*  attributeOverrides;
 
-  __declspec(property(get = get_hasOverrides)) bool hasOverrides;
+ __declspec(property(get=get_hasOverrides)) bool  hasOverrides;
 
-  __declspec(property(get = get_namesPath, put = set_namesPath)) ::System::Collections::Generic::List_1<::StringW>* namesPath;
+ __declspec(property(get=get_namesPath, put=set_namesPath)) ::System::Collections::Generic::List_1<::StringW>*  namesPath;
 
-  __declspec(property(get = get_serializedDataOverrides,
-                      put = set_serializedDataOverrides)) ::System::Collections::Generic::List_1<::UnityEngine::UIElements::CreationContext_SerializedDataOverrideRange>* serializedDataOverrides;
+ __declspec(property(get=get_serializedDataOverrides, put=set_serializedDataOverrides)) ::System::Collections::Generic::List_1<::UnityEngine::UIElements::CreationContext_SerializedDataOverrideRange>*  serializedDataOverrides;
 
-  __declspec(property(get = get_slotInsertionPoints,
-                      put = set_slotInsertionPoints)) ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::VisualElement*>* slotInsertionPoints;
+ __declspec(property(get=get_slotInsertionPoints, put=set_slotInsertionPoints)) ::System::Collections::Generic::Dictionary_2<::StringW,::UnityEngine::UIElements::VisualElement*>*  slotInsertionPoints;
 
-  __declspec(property(get = get_target, put = set_target)) ::UnityEngine::UIElements::VisualElement* target;
+ __declspec(property(get=get_target, put=set_target)) ::UnityEngine::UIElements::VisualElement*  target;
 
-  __declspec(property(get = get_veaIdsPath, put = set_veaIdsPath)) ::System::Collections::Generic::List_1<int32_t>* veaIdsPath;
+ __declspec(property(get=get_veaIdsPath, put=set_veaIdsPath)) ::System::Collections::Generic::List_1<int32_t>*  veaIdsPath;
 
-  __declspec(property(get = get_visualTreeAsset, put = set_visualTreeAsset)) ::UnityW<::UnityEngine::UIElements::VisualTreeAsset> visualTreeAsset;
+ __declspec(property(get=get_visualTreeAsset, put=set_visualTreeAsset)) ::UnityW<::UnityEngine::UIElements::VisualTreeAsset>  visualTreeAsset;
 
-  /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::CreationContext>"
-  constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::CreationContext>*();
+/// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::CreationContext>"
+constexpr operator  ::System::IEquatable_1<::UnityEngine::UIElements::CreationContext>*() ;
 
-  /// @brief Method Equals, addr 0x6b6ffec, size 0xd0, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* obj);
+/// @brief Method Equals, addr 0x6b71b64, size 0xd0, virtual true, abstract: false, final false
+inline bool Equals(::System::Object*  obj) ;
 
-  /// @brief Method Equals, addr 0x6b700bc, size 0x168, virtual true, abstract: false, final true
-  inline bool Equals(::UnityEngine::UIElements::CreationContext other);
+/// @brief Method Equals, addr 0x6b71c34, size 0x168, virtual true, abstract: false, final true
+inline bool Equals(::UnityEngine::UIElements::CreationContext  other) ;
 
-  /// @brief Method GetHashCode, addr 0x6b70224, size 0x138, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
+/// @brief Method GetHashCode, addr 0x6b71d9c, size 0x138, virtual true, abstract: false, final false
+inline int32_t GetHashCode() ;
 
-  /// @brief Method .ctor, addr 0x6b6fed4, size 0x78, virtual false, abstract: false, final false
-  inline void _ctor(::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::VisualElement*>* slotInsertionPoints,
-                    ::System::Collections::Generic::List_1<::UnityEngine::UIElements::CreationContext_AttributeOverrideRange>* attributeOverrides);
+/// @brief Method .ctor, addr 0x6b71a4c, size 0x78, virtual false, abstract: false, final false
+inline void _ctor(::System::Collections::Generic::Dictionary_2<::StringW,::UnityEngine::UIElements::VisualElement*>*  slotInsertionPoints, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::CreationContext_AttributeOverrideRange>*  attributeOverrides) ;
 
-  /// @brief Method .ctor, addr 0x6b63a14, size 0xa0, virtual false, abstract: false, final false
-  inline void _ctor(::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::VisualElement*>* slotInsertionPoints,
-                    ::System::Collections::Generic::List_1<::UnityEngine::UIElements::CreationContext_AttributeOverrideRange>* attributeOverrides,
-                    ::System::Collections::Generic::List_1<::UnityEngine::UIElements::CreationContext_SerializedDataOverrideRange>* serializedDataOverrides,
-                    ::UnityEngine::UIElements::VisualTreeAsset* vta, ::UnityEngine::UIElements::VisualElement* target, ::System::Collections::Generic::List_1<int32_t>* veaIdsPath,
-                    ::System::Collections::Generic::List_1<::StringW>* namesPath);
+/// @brief Method .ctor, addr 0x6b6558c, size 0xa0, virtual false, abstract: false, final false
+inline void _ctor(::System::Collections::Generic::Dictionary_2<::StringW,::UnityEngine::UIElements::VisualElement*>*  slotInsertionPoints, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::CreationContext_AttributeOverrideRange>*  attributeOverrides, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::CreationContext_SerializedDataOverrideRange>*  serializedDataOverrides, ::UnityEngine::UIElements::VisualTreeAsset*  vta, ::UnityEngine::UIElements::VisualElement*  target, ::System::Collections::Generic::List_1<int32_t>*  veaIdsPath, ::System::Collections::Generic::List_1<::StringW>*  namesPath) ;
 
-  /// @brief Method .ctor, addr 0x6b6ff4c, size 0xa0, virtual false, abstract: false, final false
-  inline void _ctor(::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::VisualElement*>* slotInsertionPoints,
-                    ::System::Collections::Generic::List_1<::UnityEngine::UIElements::CreationContext_AttributeOverrideRange>* attributeOverrides, ::UnityEngine::UIElements::VisualTreeAsset* vta,
-                    ::UnityEngine::UIElements::VisualElement* target);
+/// @brief Method .ctor, addr 0x6b71ac4, size 0xa0, virtual false, abstract: false, final false
+inline void _ctor(::System::Collections::Generic::Dictionary_2<::StringW,::UnityEngine::UIElements::VisualElement*>*  slotInsertionPoints, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::CreationContext_AttributeOverrideRange>*  attributeOverrides, ::UnityEngine::UIElements::VisualTreeAsset*  vta, ::UnityEngine::UIElements::VisualElement*  target) ;
 
-  /// @brief Method .ctor, addr 0x6b6fe50, size 0x84, virtual false, abstract: false, final false
-  inline void _ctor(::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::VisualElement*>* slotInsertionPoints, ::UnityEngine::UIElements::VisualTreeAsset* vta,
-                    ::UnityEngine::UIElements::VisualElement* target);
+/// @brief Method .ctor, addr 0x6b719c8, size 0x84, virtual false, abstract: false, final false
+inline void _ctor(::System::Collections::Generic::Dictionary_2<::StringW,::UnityEngine::UIElements::VisualElement*>*  slotInsertionPoints, ::UnityEngine::UIElements::VisualTreeAsset*  vta, ::UnityEngine::UIElements::VisualElement*  target) ;
 
-  /// @brief Method .ctor, addr 0x6b6cca4, size 0x70, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::UIElements::VisualTreeAsset* vta);
+/// @brief Method .ctor, addr 0x6b6e81c, size 0x70, virtual false, abstract: false, final false
+inline void _ctor(::UnityEngine::UIElements::VisualTreeAsset*  vta) ;
 
-  static inline ::UnityEngine::UIElements::CreationContext getStaticF_Default();
+static inline ::UnityEngine::UIElements::CreationContext getStaticF_Default() ;
 
-  /// @brief Method get_attributeOverrides, addr 0x6b6fe20, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::CreationContext_AttributeOverrideRange>* get_attributeOverrides();
+/// @brief Method get_attributeOverrides, addr 0x6b71998, size 0x8, virtual false, abstract: false, final false
+inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::CreationContext_AttributeOverrideRange>* get_attributeOverrides() ;
 
-  /// @brief Method get_hasOverrides, addr 0x6b68c04, size 0xc4, virtual false, abstract: false, final false
-  inline bool get_hasOverrides();
+/// @brief Method get_hasOverrides, addr 0x6b6a77c, size 0xc4, virtual false, abstract: false, final false
+inline bool get_hasOverrides() ;
 
-  /// @brief Method get_namesPath, addr 0x6b6fe40, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::List_1<::StringW>* get_namesPath();
+/// @brief Method get_namesPath, addr 0x6b719b8, size 0x8, virtual false, abstract: false, final false
+inline ::System::Collections::Generic::List_1<::StringW>* get_namesPath() ;
 
-  /// @brief Method get_serializedDataOverrides, addr 0x6b6fe30, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::CreationContext_SerializedDataOverrideRange>* get_serializedDataOverrides();
+/// @brief Method get_serializedDataOverrides, addr 0x6b719a8, size 0x8, virtual false, abstract: false, final false
+inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::CreationContext_SerializedDataOverrideRange>* get_serializedDataOverrides() ;
 
-  /// @brief Method get_slotInsertionPoints, addr 0x6b6fe10, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::VisualElement*>* get_slotInsertionPoints();
+/// @brief Method get_slotInsertionPoints, addr 0x6b71988, size 0x8, virtual false, abstract: false, final false
+inline ::System::Collections::Generic::Dictionary_2<::StringW,::UnityEngine::UIElements::VisualElement*>* get_slotInsertionPoints() ;
 
-  /// @brief Method get_target, addr 0x6b6fde0, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::VisualElement* get_target();
+/// @brief Method get_target, addr 0x6b71958, size 0x8, virtual false, abstract: false, final false
+inline ::UnityEngine::UIElements::VisualElement* get_target() ;
 
-  /// @brief Method get_veaIdsPath, addr 0x6b6fdf0, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::List_1<int32_t>* get_veaIdsPath();
+/// @brief Method get_veaIdsPath, addr 0x6b71968, size 0x8, virtual false, abstract: false, final false
+inline ::System::Collections::Generic::List_1<int32_t>* get_veaIdsPath() ;
 
-  /// @brief Method get_visualTreeAsset, addr 0x6b6fe00, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::UIElements::VisualTreeAsset> get_visualTreeAsset();
+/// @brief Method get_visualTreeAsset, addr 0x6b71978, size 0x8, virtual false, abstract: false, final false
+inline ::UnityW<::UnityEngine::UIElements::VisualTreeAsset> get_visualTreeAsset() ;
 
-  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::CreationContext>"
-  constexpr ::System::IEquatable_1<::UnityEngine::UIElements::CreationContext>* i___System__IEquatable_1___UnityEngine__UIElements__CreationContext_();
+/// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::CreationContext>"
+constexpr ::System::IEquatable_1<::UnityEngine::UIElements::CreationContext>* i___System__IEquatable_1___UnityEngine__UIElements__CreationContext_() ;
 
-  static inline void setStaticF_Default(::UnityEngine::UIElements::CreationContext value);
+static inline void setStaticF_Default(::UnityEngine::UIElements::CreationContext  value) ;
 
-  /// @brief Method set_attributeOverrides, addr 0x6b6fe28, size 0x8, virtual false, abstract: false, final false
-  inline void set_attributeOverrides(::System::Collections::Generic::List_1<::UnityEngine::UIElements::CreationContext_AttributeOverrideRange>* value);
+/// @brief Method set_attributeOverrides, addr 0x6b719a0, size 0x8, virtual false, abstract: false, final false
+inline void set_attributeOverrides(::System::Collections::Generic::List_1<::UnityEngine::UIElements::CreationContext_AttributeOverrideRange>*  value) ;
 
-  /// @brief Method set_namesPath, addr 0x6b6fe48, size 0x8, virtual false, abstract: false, final false
-  inline void set_namesPath(::System::Collections::Generic::List_1<::StringW>* value);
+/// @brief Method set_namesPath, addr 0x6b719c0, size 0x8, virtual false, abstract: false, final false
+inline void set_namesPath(::System::Collections::Generic::List_1<::StringW>*  value) ;
 
-  /// @brief Method set_serializedDataOverrides, addr 0x6b6fe38, size 0x8, virtual false, abstract: false, final false
-  inline void set_serializedDataOverrides(::System::Collections::Generic::List_1<::UnityEngine::UIElements::CreationContext_SerializedDataOverrideRange>* value);
+/// @brief Method set_serializedDataOverrides, addr 0x6b719b0, size 0x8, virtual false, abstract: false, final false
+inline void set_serializedDataOverrides(::System::Collections::Generic::List_1<::UnityEngine::UIElements::CreationContext_SerializedDataOverrideRange>*  value) ;
 
-  /// @brief Method set_slotInsertionPoints, addr 0x6b6fe18, size 0x8, virtual false, abstract: false, final false
-  inline void set_slotInsertionPoints(::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::VisualElement*>* value);
+/// @brief Method set_slotInsertionPoints, addr 0x6b71990, size 0x8, virtual false, abstract: false, final false
+inline void set_slotInsertionPoints(::System::Collections::Generic::Dictionary_2<::StringW,::UnityEngine::UIElements::VisualElement*>*  value) ;
 
-  /// @brief Method set_target, addr 0x6b6fde8, size 0x8, virtual false, abstract: false, final false
-  inline void set_target(::UnityEngine::UIElements::VisualElement* value);
+/// @brief Method set_target, addr 0x6b71960, size 0x8, virtual false, abstract: false, final false
+inline void set_target(::UnityEngine::UIElements::VisualElement*  value) ;
 
-  /// @brief Method set_veaIdsPath, addr 0x6b6fdf8, size 0x8, virtual false, abstract: false, final false
-  inline void set_veaIdsPath(::System::Collections::Generic::List_1<int32_t>* value);
+/// @brief Method set_veaIdsPath, addr 0x6b71970, size 0x8, virtual false, abstract: false, final false
+inline void set_veaIdsPath(::System::Collections::Generic::List_1<int32_t>*  value) ;
 
-  /// @brief Method set_visualTreeAsset, addr 0x6b6fe08, size 0x8, virtual false, abstract: false, final false
-  inline void set_visualTreeAsset(::UnityEngine::UIElements::VisualTreeAsset* value);
+/// @brief Method set_visualTreeAsset, addr 0x6b71980, size 0x8, virtual false, abstract: false, final false
+inline void set_visualTreeAsset(::UnityEngine::UIElements::VisualTreeAsset*  value) ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CreationContext();
+// Ctor Parameters []
+// @brief default ctor
+constexpr CreationContext() ;
 
-  // Ctor Parameters [CppParam { name: "_target_k__BackingField", ty: "::UnityEngine::UIElements::VisualElement*", modifiers: "", def_value: None }, CppParam { name: "_veaIdsPath_k__BackingField", ty:
-  // "::System::Collections::Generic::List_1<int32_t>*", modifiers: "", def_value: None }, CppParam { name: "_visualTreeAsset_k__BackingField", ty:
-  // "::UnityW<::UnityEngine::UIElements::VisualTreeAsset>", modifiers: "", def_value: None }, CppParam { name: "_slotInsertionPoints_k__BackingField", ty:
-  // "::System::Collections::Generic::Dictionary_2<::StringW,::UnityEngine::UIElements::VisualElement*>*", modifiers: "", def_value: None }, CppParam { name: "_attributeOverrides_k__BackingField", ty:
-  // "::System::Collections::Generic::List_1<::UnityEngine::UIElements::CreationContext_AttributeOverrideRange>*", modifiers: "", def_value: None }, CppParam { name:
-  // "_serializedDataOverrides_k__BackingField", ty: "::System::Collections::Generic::List_1<::UnityEngine::UIElements::CreationContext_SerializedDataOverrideRange>*", modifiers: "", def_value: None
-  // }, CppParam { name: "_namesPath_k__BackingField", ty: "::System::Collections::Generic::List_1<::StringW>*", modifiers: "", def_value: None }]
-  constexpr CreationContext(::UnityEngine::UIElements::VisualElement* _target_k__BackingField, ::System::Collections::Generic::List_1<int32_t>* _veaIdsPath_k__BackingField,
-                            ::UnityW<::UnityEngine::UIElements::VisualTreeAsset> _visualTreeAsset_k__BackingField,
-                            ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::VisualElement*>* _slotInsertionPoints_k__BackingField,
-                            ::System::Collections::Generic::List_1<::UnityEngine::UIElements::CreationContext_AttributeOverrideRange>* _attributeOverrides_k__BackingField,
-                            ::System::Collections::Generic::List_1<::UnityEngine::UIElements::CreationContext_SerializedDataOverrideRange>* _serializedDataOverrides_k__BackingField,
-                            ::System::Collections::Generic::List_1<::StringW>* _namesPath_k__BackingField) noexcept;
+// Ctor Parameters [CppParam { name: "_target_k__BackingField", ty: "::UnityEngine::UIElements::VisualElement*", modifiers: "", def_value: None }, CppParam { name: "_veaIdsPath_k__BackingField", ty: "::System::Collections::Generic::List_1<int32_t>*", modifiers: "", def_value: None }, CppParam { name: "_visualTreeAsset_k__BackingField", ty: "::UnityW<::UnityEngine::UIElements::VisualTreeAsset>", modifiers: "", def_value: None }, CppParam { name: "_slotInsertionPoints_k__BackingField", ty: "::System::Collections::Generic::Dictionary_2<::StringW,::UnityEngine::UIElements::VisualElement*>*", modifiers: "", def_value: None }, CppParam { name: "_attributeOverrides_k__BackingField", ty: "::System::Collections::Generic::List_1<::UnityEngine::UIElements::CreationContext_AttributeOverrideRange>*", modifiers: "", def_value: None }, CppParam { name: "_serializedDataOverrides_k__BackingField", ty: "::System::Collections::Generic::List_1<::UnityEngine::UIElements::CreationContext_SerializedDataOverrideRange>*", modifiers: "", def_value: None }, CppParam { name: "_namesPath_k__BackingField", ty: "::System::Collections::Generic::List_1<::StringW>*", modifiers: "", def_value: None }]
+constexpr CreationContext(::UnityEngine::UIElements::VisualElement*  _target_k__BackingField, ::System::Collections::Generic::List_1<int32_t>*  _veaIdsPath_k__BackingField, ::UnityW<::UnityEngine::UIElements::VisualTreeAsset>  _visualTreeAsset_k__BackingField, ::System::Collections::Generic::Dictionary_2<::StringW,::UnityEngine::UIElements::VisualElement*>*  _slotInsertionPoints_k__BackingField, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::CreationContext_AttributeOverrideRange>*  _attributeOverrides_k__BackingField, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::CreationContext_SerializedDataOverrideRange>*  _serializedDataOverrides_k__BackingField, ::System::Collections::Generic::List_1<::StringW>*  _namesPath_k__BackingField) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5212 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{5212};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x38};
 
-  /// @brief Field <target>k__BackingField, offset: 0x0, size: 0x8, def value: None
-  ::UnityEngine::UIElements::VisualElement* _target_k__BackingField;
+/// @brief Field <target>k__BackingField, offset: 0x0, size: 0x8, def value: None
+ ::UnityEngine::UIElements::VisualElement*  _target_k__BackingField;
 
-  /// @brief Field <veaIdsPath>k__BackingField, offset: 0x8, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<int32_t>* _veaIdsPath_k__BackingField;
+/// @brief Field <veaIdsPath>k__BackingField, offset: 0x8, size: 0x8, def value: None
+ ::System::Collections::Generic::List_1<int32_t>*  _veaIdsPath_k__BackingField;
 
-  /// @brief Field <visualTreeAsset>k__BackingField, offset: 0x10, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::UIElements::VisualTreeAsset> _visualTreeAsset_k__BackingField;
+/// @brief Field <visualTreeAsset>k__BackingField, offset: 0x10, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::UIElements::VisualTreeAsset>  _visualTreeAsset_k__BackingField;
 
-  /// @brief Field <slotInsertionPoints>k__BackingField, offset: 0x18, size: 0x8, def value: None
-  ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::VisualElement*>* _slotInsertionPoints_k__BackingField;
+/// @brief Field <slotInsertionPoints>k__BackingField, offset: 0x18, size: 0x8, def value: None
+ ::System::Collections::Generic::Dictionary_2<::StringW,::UnityEngine::UIElements::VisualElement*>*  _slotInsertionPoints_k__BackingField;
 
-  /// @brief Field <attributeOverrides>k__BackingField, offset: 0x20, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::UnityEngine::UIElements::CreationContext_AttributeOverrideRange>* _attributeOverrides_k__BackingField;
+/// @brief Field <attributeOverrides>k__BackingField, offset: 0x20, size: 0x8, def value: None
+ ::System::Collections::Generic::List_1<::UnityEngine::UIElements::CreationContext_AttributeOverrideRange>*  _attributeOverrides_k__BackingField;
 
-  /// @brief Field <serializedDataOverrides>k__BackingField, offset: 0x28, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::UnityEngine::UIElements::CreationContext_SerializedDataOverrideRange>* _serializedDataOverrides_k__BackingField;
+/// @brief Field <serializedDataOverrides>k__BackingField, offset: 0x28, size: 0x8, def value: None
+ ::System::Collections::Generic::List_1<::UnityEngine::UIElements::CreationContext_SerializedDataOverrideRange>*  _serializedDataOverrides_k__BackingField;
 
-  /// @brief Field <namesPath>k__BackingField, offset: 0x30, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::StringW>* _namesPath_k__BackingField;
+/// @brief Field <namesPath>k__BackingField, offset: 0x30, size: 0x8, def value: None
+ ::System::Collections::Generic::List_1<::StringW>*  _namesPath_k__BackingField;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::UIElements::CreationContext, _target_k__BackingField) == 0x0, "Offset mismatch!");
@@ -324,7 +299,7 @@ static_assert(offsetof(::UnityEngine::UIElements::CreationContext, _namesPath_k_
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::CreationContext, 0x38>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements
+} // namespace end def UnityEngine::UIElements
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::CreationContext, "UnityEngine.UIElements", "CreationContext");
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::CreationContext_AttributeOverrideRange, "UnityEngine.UIElements", "CreationContext/AttributeOverrideRange");
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::CreationContext_SerializedDataOverrideRange, "UnityEngine.UIElements", "CreationContext/SerializedDataOverrideRange");

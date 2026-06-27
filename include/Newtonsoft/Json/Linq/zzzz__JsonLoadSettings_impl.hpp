@@ -9,183 +9,226 @@
 #include "Newtonsoft/Json/Linq/zzzz__DuplicatePropertyNameHandling_def.hpp"
 #include "Newtonsoft/Json/Linq/zzzz__LineInfoHandling_def.hpp"
 //  Writing Method size for method: ::Newtonsoft::Json::Linq::JsonLoadSettings._ctor
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JsonLoadSettings::*)()>(&::Newtonsoft::Json::Linq::JsonLoadSettings::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5c3edc0;
+  constexpr static std::size_t addrs = 0x5c40938;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JsonLoadSettings*>::get(), ".ctor",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JsonLoadSettings*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::Linq::JsonLoadSettings.get_CommentHandling
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Linq::CommentHandling (::Newtonsoft::Json::Linq::JsonLoadSettings::*)()>(
-    &::Newtonsoft::Json::Linq::JsonLoadSettings::get_CommentHandling)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Linq::CommentHandling (::Newtonsoft::Json::Linq::JsonLoadSettings::*)()>(&::Newtonsoft::Json::Linq::JsonLoadSettings::get_CommentHandling)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5c3edd4;
+  constexpr static std::size_t addrs = 0x5c4094c;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JsonLoadSettings*>::get(),
-                                                                               "get_CommentHandling", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JsonLoadSettings*>::get(),
+                        "get_CommentHandling",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::Linq::JsonLoadSettings.set_CommentHandling
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JsonLoadSettings::*)(::Newtonsoft::Json::Linq::CommentHandling)>(
-    &::Newtonsoft::Json::Linq::JsonLoadSettings::set_CommentHandling)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JsonLoadSettings::*)(::Newtonsoft::Json::Linq::CommentHandling)>(&::Newtonsoft::Json::Linq::JsonLoadSettings::set_CommentHandling)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5c3eddc;
+  constexpr static std::size_t addrs = 0x5c40954;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JsonLoadSettings*>::get(), "set_CommentHandling", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::Linq::CommentHandling>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JsonLoadSettings*>::get(),
+                        "set_CommentHandling",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::Linq::CommentHandling>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::Linq::JsonLoadSettings.get_LineInfoHandling
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Linq::LineInfoHandling (::Newtonsoft::Json::Linq::JsonLoadSettings::*)()>(
-    &::Newtonsoft::Json::Linq::JsonLoadSettings::get_LineInfoHandling)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Linq::LineInfoHandling (::Newtonsoft::Json::Linq::JsonLoadSettings::*)()>(&::Newtonsoft::Json::Linq::JsonLoadSettings::get_LineInfoHandling)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5c3ee38;
+  constexpr static std::size_t addrs = 0x5c409b0;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JsonLoadSettings*>::get(),
-                                                                               "get_LineInfoHandling", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JsonLoadSettings*>::get(),
+                        "get_LineInfoHandling",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::Linq::JsonLoadSettings.set_LineInfoHandling
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JsonLoadSettings::*)(::Newtonsoft::Json::Linq::LineInfoHandling)>(
-    &::Newtonsoft::Json::Linq::JsonLoadSettings::set_LineInfoHandling)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JsonLoadSettings::*)(::Newtonsoft::Json::Linq::LineInfoHandling)>(&::Newtonsoft::Json::Linq::JsonLoadSettings::set_LineInfoHandling)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5c3ee40;
+  constexpr static std::size_t addrs = 0x5c409b8;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JsonLoadSettings*>::get(), "set_LineInfoHandling", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::Linq::LineInfoHandling>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JsonLoadSettings*>::get(),
+                        "set_LineInfoHandling",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::Linq::LineInfoHandling>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::Linq::JsonLoadSettings.get_DuplicatePropertyNameHandling
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Linq::DuplicatePropertyNameHandling (::Newtonsoft::Json::Linq::JsonLoadSettings::*)()>(
-    &::Newtonsoft::Json::Linq::JsonLoadSettings::get_DuplicatePropertyNameHandling)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Linq::DuplicatePropertyNameHandling (::Newtonsoft::Json::Linq::JsonLoadSettings::*)()>(&::Newtonsoft::Json::Linq::JsonLoadSettings::get_DuplicatePropertyNameHandling)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5c3ee9c;
+  constexpr static std::size_t addrs = 0x5c40a14;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JsonLoadSettings*>::get(), "get_DuplicatePropertyNameHandling",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JsonLoadSettings*>::get(),
+                        "get_DuplicatePropertyNameHandling",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::Linq::JsonLoadSettings.set_DuplicatePropertyNameHandling
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JsonLoadSettings::*)(::Newtonsoft::Json::Linq::DuplicatePropertyNameHandling)>(
-    &::Newtonsoft::Json::Linq::JsonLoadSettings::set_DuplicatePropertyNameHandling)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JsonLoadSettings::*)(::Newtonsoft::Json::Linq::DuplicatePropertyNameHandling)>(&::Newtonsoft::Json::Linq::JsonLoadSettings::set_DuplicatePropertyNameHandling)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5c3eea4;
+  constexpr static std::size_t addrs = 0x5c40a1c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JsonLoadSettings*>::get(), "set_DuplicatePropertyNameHandling", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::Linq::DuplicatePropertyNameHandling>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JsonLoadSettings*>::get(),
+                        "set_DuplicatePropertyNameHandling",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::Linq::DuplicatePropertyNameHandling>::get()}
+                    )));
     return ___internal_method;
   }
 };
-constexpr ::Newtonsoft::Json::Linq::CommentHandling& Newtonsoft::Json::Linq::JsonLoadSettings::__cordl_internal_get__commentHandling() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____commentHandling;
+constexpr ::Newtonsoft::Json::Linq::CommentHandling& Newtonsoft::Json::Linq::JsonLoadSettings::__cordl_internal_get__commentHandling()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____commentHandling;
 }
 constexpr ::Newtonsoft::Json::Linq::CommentHandling const& Newtonsoft::Json::Linq::JsonLoadSettings::__cordl_internal_get__commentHandling() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____commentHandling;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____commentHandling;
 }
-constexpr void Newtonsoft::Json::Linq::JsonLoadSettings::__cordl_internal_set__commentHandling(::Newtonsoft::Json::Linq::CommentHandling value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____commentHandling = value;
+constexpr void Newtonsoft::Json::Linq::JsonLoadSettings::__cordl_internal_set__commentHandling(::Newtonsoft::Json::Linq::CommentHandling  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____commentHandling = value;
 }
-constexpr ::Newtonsoft::Json::Linq::LineInfoHandling& Newtonsoft::Json::Linq::JsonLoadSettings::__cordl_internal_get__lineInfoHandling() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____lineInfoHandling;
+constexpr ::Newtonsoft::Json::Linq::LineInfoHandling& Newtonsoft::Json::Linq::JsonLoadSettings::__cordl_internal_get__lineInfoHandling()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____lineInfoHandling;
 }
 constexpr ::Newtonsoft::Json::Linq::LineInfoHandling const& Newtonsoft::Json::Linq::JsonLoadSettings::__cordl_internal_get__lineInfoHandling() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____lineInfoHandling;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____lineInfoHandling;
 }
-constexpr void Newtonsoft::Json::Linq::JsonLoadSettings::__cordl_internal_set__lineInfoHandling(::Newtonsoft::Json::Linq::LineInfoHandling value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____lineInfoHandling = value;
+constexpr void Newtonsoft::Json::Linq::JsonLoadSettings::__cordl_internal_set__lineInfoHandling(::Newtonsoft::Json::Linq::LineInfoHandling  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____lineInfoHandling = value;
 }
-constexpr ::Newtonsoft::Json::Linq::DuplicatePropertyNameHandling& Newtonsoft::Json::Linq::JsonLoadSettings::__cordl_internal_get__duplicatePropertyNameHandling() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____duplicatePropertyNameHandling;
+constexpr ::Newtonsoft::Json::Linq::DuplicatePropertyNameHandling& Newtonsoft::Json::Linq::JsonLoadSettings::__cordl_internal_get__duplicatePropertyNameHandling()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____duplicatePropertyNameHandling;
 }
 constexpr ::Newtonsoft::Json::Linq::DuplicatePropertyNameHandling const& Newtonsoft::Json::Linq::JsonLoadSettings::__cordl_internal_get__duplicatePropertyNameHandling() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____duplicatePropertyNameHandling;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____duplicatePropertyNameHandling;
 }
-constexpr void Newtonsoft::Json::Linq::JsonLoadSettings::__cordl_internal_set__duplicatePropertyNameHandling(::Newtonsoft::Json::Linq::DuplicatePropertyNameHandling value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____duplicatePropertyNameHandling = value;
+constexpr void Newtonsoft::Json::Linq::JsonLoadSettings::__cordl_internal_set__duplicatePropertyNameHandling(::Newtonsoft::Json::Linq::DuplicatePropertyNameHandling  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____duplicatePropertyNameHandling = value;
 }
-inline void Newtonsoft::Json::Linq::JsonLoadSettings::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JsonLoadSettings*>::get(), ".ctor",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void Newtonsoft::Json::Linq::JsonLoadSettings::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JsonLoadSettings*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::Newtonsoft::Json::Linq::CommentHandling Newtonsoft::Json::Linq::JsonLoadSettings::get_CommentHandling() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JsonLoadSettings*>::get(),
-                                                                             "get_CommentHandling", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::Linq::CommentHandling, false>(this, ___internal_method);
+inline ::Newtonsoft::Json::Linq::CommentHandling Newtonsoft::Json::Linq::JsonLoadSettings::get_CommentHandling()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JsonLoadSettings*>::get(),
+                        "get_CommentHandling",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::Linq::CommentHandling, false>(this, ___internal_method);
 }
-inline void Newtonsoft::Json::Linq::JsonLoadSettings::set_CommentHandling(::Newtonsoft::Json::Linq::CommentHandling value) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JsonLoadSettings*>::get(), "set_CommentHandling", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::Linq::CommentHandling>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void Newtonsoft::Json::Linq::JsonLoadSettings::set_CommentHandling(::Newtonsoft::Json::Linq::CommentHandling  value)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JsonLoadSettings*>::get(),
+                        "set_CommentHandling",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::Linq::CommentHandling>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::Newtonsoft::Json::Linq::LineInfoHandling Newtonsoft::Json::Linq::JsonLoadSettings::get_LineInfoHandling() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JsonLoadSettings*>::get(),
-                                                                             "get_LineInfoHandling", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::Linq::LineInfoHandling, false>(this, ___internal_method);
+inline ::Newtonsoft::Json::Linq::LineInfoHandling Newtonsoft::Json::Linq::JsonLoadSettings::get_LineInfoHandling()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JsonLoadSettings*>::get(),
+                        "get_LineInfoHandling",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::Linq::LineInfoHandling, false>(this, ___internal_method);
 }
-inline void Newtonsoft::Json::Linq::JsonLoadSettings::set_LineInfoHandling(::Newtonsoft::Json::Linq::LineInfoHandling value) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JsonLoadSettings*>::get(), "set_LineInfoHandling", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::Linq::LineInfoHandling>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void Newtonsoft::Json::Linq::JsonLoadSettings::set_LineInfoHandling(::Newtonsoft::Json::Linq::LineInfoHandling  value)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JsonLoadSettings*>::get(),
+                        "set_LineInfoHandling",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::Linq::LineInfoHandling>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::Newtonsoft::Json::Linq::DuplicatePropertyNameHandling Newtonsoft::Json::Linq::JsonLoadSettings::get_DuplicatePropertyNameHandling() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JsonLoadSettings*>::get(), "get_DuplicatePropertyNameHandling",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::Linq::DuplicatePropertyNameHandling, false>(this, ___internal_method);
+inline ::Newtonsoft::Json::Linq::DuplicatePropertyNameHandling Newtonsoft::Json::Linq::JsonLoadSettings::get_DuplicatePropertyNameHandling()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JsonLoadSettings*>::get(),
+                        "get_DuplicatePropertyNameHandling",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::Linq::DuplicatePropertyNameHandling, false>(this, ___internal_method);
 }
-inline void Newtonsoft::Json::Linq::JsonLoadSettings::set_DuplicatePropertyNameHandling(::Newtonsoft::Json::Linq::DuplicatePropertyNameHandling value) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JsonLoadSettings*>::get(), "set_DuplicatePropertyNameHandling", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::Linq::DuplicatePropertyNameHandling>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void Newtonsoft::Json::Linq::JsonLoadSettings::set_DuplicatePropertyNameHandling(::Newtonsoft::Json::Linq::DuplicatePropertyNameHandling  value)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JsonLoadSettings*>::get(),
+                        "set_DuplicatePropertyNameHandling",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::Linq::DuplicatePropertyNameHandling>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::Newtonsoft::Json::Linq::JsonLoadSettings* Newtonsoft::Json::Linq::JsonLoadSettings::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Linq::JsonLoadSettings*>());
+inline ::Newtonsoft::Json::Linq::JsonLoadSettings* Newtonsoft::Json::Linq::JsonLoadSettings::New_ctor()  {
+return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Linq::JsonLoadSettings*>());
 }
 // Ctor Parameters []
-constexpr ::Newtonsoft::Json::Linq::JsonLoadSettings::JsonLoadSettings() {}
+constexpr ::Newtonsoft::Json::Linq::JsonLoadSettings::JsonLoadSettings()   {
+}

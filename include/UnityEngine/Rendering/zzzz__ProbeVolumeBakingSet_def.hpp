@@ -21,19 +21,24 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ProbeVolumeBakingSet)
 namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+template<typename TKey,typename TValue>
+class Dictionary_2;
 }
 namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
+template<typename T>
+class IReadOnlyList_1;
 }
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template<typename T>
+class List_1;
 }
 namespace System::Collections::Generic {
-template <typename T> class Stack_1;
+template<typename T>
+class Stack_1;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+template<typename T>
+struct NativeArray_1;
 }
 namespace Unity::Mathematics {
 struct uint4;
@@ -69,7 +74,8 @@ namespace UnityEngine::Rendering {
 class ProbeVolumeStreamableAsset;
 }
 namespace UnityEngine::Rendering {
-template <typename K, typename V> class SerializedDictionary_2;
+template<typename K,typename V>
+class SerializedDictionary_2;
 }
 namespace UnityEngine {
 class ISerializationCallbackReceiver;
@@ -100,164 +106,163 @@ MARK_REF_PTR_T(::UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInf
 MARK_VAL_T(::UnityEngine::Rendering::ProbeVolumeBakingSet_CellCounts);
 MARK_VAL_T(::UnityEngine::Rendering::ProbeVolumeBakingSet_ProbeLayerMask);
 MARK_VAL_T(::UnityEngine::Rendering::ProbeVolumeBakingSet_SerializedPerSceneCellList);
-// Dependencies
+// Dependencies 
 namespace UnityEngine::Rendering {
 // Is value type: true
 // CS Name: UnityEngine.Rendering.ProbeVolumeBakingSet/Version
 struct CORDL_TYPE ProbeVolumeBakingSet_Version {
 public:
-  // Declarations
-  using __CORDL_BACKING_ENUM_TYPE = int32_t;
+// Declarations
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct __ProbeVolumeBakingSet_Version_Unwrapped
-  enum struct __ProbeVolumeBakingSet_Version_Unwrapped : int32_t {
-    __E_Initial = static_cast<int32_t>(0x0),
-    __E_RemoveProbeVolumeSceneData = static_cast<int32_t>(0x1),
-  };
+/// @brief Nested struct __ProbeVolumeBakingSet_Version_Unwrapped
+enum struct __ProbeVolumeBakingSet_Version_Unwrapped : int32_t {
+__E_Initial = static_cast<int32_t>(0x0),
+__E_RemoveProbeVolumeSceneData = static_cast<int32_t>(0x1),
+};
 
-  /// @brief Conversion into unwrapped enum value
-  constexpr operator __ProbeVolumeBakingSet_Version_Unwrapped() const noexcept {
-    return static_cast<__ProbeVolumeBakingSet_Version_Unwrapped>(this->value__);
-  }
+/// @brief Conversion into unwrapped enum value
+constexpr operator __ProbeVolumeBakingSet_Version_Unwrapped () const noexcept {
+return static_cast<__ProbeVolumeBakingSet_Version_Unwrapped>(this->value__);
+}
 
-  /// @brief Conversion into unwrapped enum value
-  constexpr explicit operator int32_t() const noexcept {
-    return static_cast<int32_t>(this->value__);
-  }
+/// @brief Conversion into unwrapped enum value
+constexpr explicit operator int32_t () const noexcept {
+return static_cast<int32_t>(this->value__);
+}
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ProbeVolumeBakingSet_Version();
+// Ctor Parameters []
+// @brief default ctor
+constexpr ProbeVolumeBakingSet_Version() ;
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr ProbeVolumeBakingSet_Version(int32_t value__) noexcept;
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr ProbeVolumeBakingSet_Version(int32_t  value__) noexcept;
 
-  /// @brief Field Initial value: I32(0)
-  static ::UnityEngine::Rendering::ProbeVolumeBakingSet_Version const Initial;
+/// @brief Field Initial value: I32(0)
+static ::UnityEngine::Rendering::ProbeVolumeBakingSet_Version const Initial;
 
-  /// @brief Field RemoveProbeVolumeSceneData value: I32(1)
-  static ::UnityEngine::Rendering::ProbeVolumeBakingSet_Version const RemoveProbeVolumeSceneData;
+/// @brief Field RemoveProbeVolumeSceneData value: I32(1)
+static ::UnityEngine::Rendering::ProbeVolumeBakingSet_Version const RemoveProbeVolumeSceneData;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12119 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12120};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x4};
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+/// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+ int32_t  value__;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Rendering::ProbeVolumeBakingSet_Version, value__) == 0x0, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::ProbeVolumeBakingSet_Version, 0x4>, "Size mismatch!");
 
-} // namespace UnityEngine::Rendering
+} // namespace end def UnityEngine::Rendering
 // Dependencies System.Object
 namespace UnityEngine::Rendering {
 // Is value type: false
 // CS Name: UnityEngine.Rendering.ProbeVolumeBakingSet/PerScenarioDataInfo
 class CORDL_TYPE ProbeVolumeBakingSet_PerScenarioDataInfo : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field cellDataAsset, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_cellDataAsset, put = __cordl_internal_set_cellDataAsset)) ::UnityEngine::Rendering::ProbeVolumeStreamableAsset* cellDataAsset;
+// Declarations
+/// @brief Field cellDataAsset, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_cellDataAsset, put=__cordl_internal_set_cellDataAsset)) ::UnityEngine::Rendering::ProbeVolumeStreamableAsset*  cellDataAsset;
 
-  /// @brief Field cellOptionalDataAsset, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_cellOptionalDataAsset, put = __cordl_internal_set_cellOptionalDataAsset)) ::UnityEngine::Rendering::ProbeVolumeStreamableAsset* cellOptionalDataAsset;
+/// @brief Field cellOptionalDataAsset, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_cellOptionalDataAsset, put=__cordl_internal_set_cellOptionalDataAsset)) ::UnityEngine::Rendering::ProbeVolumeStreamableAsset*  cellOptionalDataAsset;
 
-  /// @brief Field cellProbeOcclusionDataAsset, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_cellProbeOcclusionDataAsset,
-                      put = __cordl_internal_set_cellProbeOcclusionDataAsset)) ::UnityEngine::Rendering::ProbeVolumeStreamableAsset* cellProbeOcclusionDataAsset;
+/// @brief Field cellProbeOcclusionDataAsset, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get_cellProbeOcclusionDataAsset, put=__cordl_internal_set_cellProbeOcclusionDataAsset)) ::UnityEngine::Rendering::ProbeVolumeStreamableAsset*  cellProbeOcclusionDataAsset;
 
-  /// @brief Field m_HasValidData, offset 0x30, size 0x1
-  __declspec(property(get = __cordl_internal_get_m_HasValidData, put = __cordl_internal_set_m_HasValidData)) bool m_HasValidData;
+/// @brief Field m_HasValidData, offset 0x30, size 0x1 
+ __declspec(property(get=__cordl_internal_get_m_HasValidData, put=__cordl_internal_set_m_HasValidData)) bool  m_HasValidData;
 
-  /// @brief Field sceneHash, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_sceneHash, put = __cordl_internal_set_sceneHash)) int32_t sceneHash;
+/// @brief Field sceneHash, offset 0x10, size 0x4 
+ __declspec(property(get=__cordl_internal_get_sceneHash, put=__cordl_internal_set_sceneHash)) int32_t  sceneHash;
 
-  /// @brief Method ComputeHasValidData, addr 0x66517fc, size 0x58, virtual false, abstract: false, final false
-  inline bool ComputeHasValidData(::UnityEngine::Rendering::ProbeVolumeSHBands shBands);
+/// @brief Method ComputeHasValidData, addr 0x6653374, size 0x58, virtual false, abstract: false, final false
+inline bool ComputeHasValidData(::UnityEngine::Rendering::ProbeVolumeSHBands  shBands) ;
 
-  /// @brief Method HasValidData, addr 0x6651854, size 0x8, virtual false, abstract: false, final false
-  inline bool HasValidData(::UnityEngine::Rendering::ProbeVolumeSHBands shBands);
+/// @brief Method HasValidData, addr 0x66533cc, size 0x8, virtual false, abstract: false, final false
+inline bool HasValidData(::UnityEngine::Rendering::ProbeVolumeSHBands  shBands) ;
 
-  /// @brief Method Initialize, addr 0x664e664, size 0x1c, virtual false, abstract: false, final false
-  inline void Initialize(::UnityEngine::Rendering::ProbeVolumeSHBands shBands);
+/// @brief Method Initialize, addr 0x66501dc, size 0x1c, virtual false, abstract: false, final false
+inline void Initialize(::UnityEngine::Rendering::ProbeVolumeSHBands  shBands) ;
 
-  /// @brief Method IsValid, addr 0x664edf0, size 0x28, virtual false, abstract: false, final false
-  inline bool IsValid();
+/// @brief Method IsValid, addr 0x6650968, size 0x28, virtual false, abstract: false, final false
+inline bool IsValid() ;
 
-  static inline ::UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo* New_ctor();
+static inline ::UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo* New_ctor() ;
 
-  constexpr ::UnityEngine::Rendering::ProbeVolumeStreamableAsset* const& __cordl_internal_get_cellDataAsset() const;
+constexpr ::UnityEngine::Rendering::ProbeVolumeStreamableAsset* const& __cordl_internal_get_cellDataAsset() const;
 
-  constexpr ::UnityEngine::Rendering::ProbeVolumeStreamableAsset*& __cordl_internal_get_cellDataAsset();
+constexpr ::UnityEngine::Rendering::ProbeVolumeStreamableAsset*& __cordl_internal_get_cellDataAsset() ;
 
-  constexpr ::UnityEngine::Rendering::ProbeVolumeStreamableAsset* const& __cordl_internal_get_cellOptionalDataAsset() const;
+constexpr ::UnityEngine::Rendering::ProbeVolumeStreamableAsset* const& __cordl_internal_get_cellOptionalDataAsset() const;
 
-  constexpr ::UnityEngine::Rendering::ProbeVolumeStreamableAsset*& __cordl_internal_get_cellOptionalDataAsset();
+constexpr ::UnityEngine::Rendering::ProbeVolumeStreamableAsset*& __cordl_internal_get_cellOptionalDataAsset() ;
 
-  constexpr ::UnityEngine::Rendering::ProbeVolumeStreamableAsset* const& __cordl_internal_get_cellProbeOcclusionDataAsset() const;
+constexpr ::UnityEngine::Rendering::ProbeVolumeStreamableAsset* const& __cordl_internal_get_cellProbeOcclusionDataAsset() const;
 
-  constexpr ::UnityEngine::Rendering::ProbeVolumeStreamableAsset*& __cordl_internal_get_cellProbeOcclusionDataAsset();
+constexpr ::UnityEngine::Rendering::ProbeVolumeStreamableAsset*& __cordl_internal_get_cellProbeOcclusionDataAsset() ;
 
-  constexpr bool const& __cordl_internal_get_m_HasValidData() const;
+constexpr bool const& __cordl_internal_get_m_HasValidData() const;
 
-  constexpr bool& __cordl_internal_get_m_HasValidData();
+constexpr bool& __cordl_internal_get_m_HasValidData() ;
 
-  constexpr int32_t const& __cordl_internal_get_sceneHash() const;
+constexpr int32_t const& __cordl_internal_get_sceneHash() const;
 
-  constexpr int32_t& __cordl_internal_get_sceneHash();
+constexpr int32_t& __cordl_internal_get_sceneHash() ;
 
-  constexpr void __cordl_internal_set_cellDataAsset(::UnityEngine::Rendering::ProbeVolumeStreamableAsset* value);
+constexpr void __cordl_internal_set_cellDataAsset(::UnityEngine::Rendering::ProbeVolumeStreamableAsset*  value) ;
 
-  constexpr void __cordl_internal_set_cellOptionalDataAsset(::UnityEngine::Rendering::ProbeVolumeStreamableAsset* value);
+constexpr void __cordl_internal_set_cellOptionalDataAsset(::UnityEngine::Rendering::ProbeVolumeStreamableAsset*  value) ;
 
-  constexpr void __cordl_internal_set_cellProbeOcclusionDataAsset(::UnityEngine::Rendering::ProbeVolumeStreamableAsset* value);
+constexpr void __cordl_internal_set_cellProbeOcclusionDataAsset(::UnityEngine::Rendering::ProbeVolumeStreamableAsset*  value) ;
 
-  constexpr void __cordl_internal_set_m_HasValidData(bool value);
+constexpr void __cordl_internal_set_m_HasValidData(bool  value) ;
 
-  constexpr void __cordl_internal_set_sceneHash(int32_t value);
+constexpr void __cordl_internal_set_sceneHash(int32_t  value) ;
 
-  /// @brief Method .ctor, addr 0x665185c, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x66533d4, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ProbeVolumeBakingSet_PerScenarioDataInfo();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ProbeVolumeBakingSet_PerScenarioDataInfo() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ProbeVolumeBakingSet_PerScenarioDataInfo", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ProbeVolumeBakingSet_PerScenarioDataInfo(ProbeVolumeBakingSet_PerScenarioDataInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ProbeVolumeBakingSet_PerScenarioDataInfo", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ProbeVolumeBakingSet_PerScenarioDataInfo(ProbeVolumeBakingSet_PerScenarioDataInfo const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ProbeVolumeBakingSet_PerScenarioDataInfo", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ProbeVolumeBakingSet_PerScenarioDataInfo(ProbeVolumeBakingSet_PerScenarioDataInfo && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12120 };
+// Ctor Parameters [CppParam { name: "", ty: "ProbeVolumeBakingSet_PerScenarioDataInfo", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ProbeVolumeBakingSet_PerScenarioDataInfo(ProbeVolumeBakingSet_PerScenarioDataInfo const& ) = delete;
 
-  /// @brief Field sceneHash, offset: 0x10, size: 0x4, def value: None
-  int32_t ___sceneHash;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12121};
 
-  /// @brief Field cellDataAsset, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::Rendering::ProbeVolumeStreamableAsset* ___cellDataAsset;
+/// @brief Field sceneHash, offset: 0x10, size: 0x4, def value: None
+ int32_t  ___sceneHash;
 
-  /// @brief Field cellOptionalDataAsset, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::Rendering::ProbeVolumeStreamableAsset* ___cellOptionalDataAsset;
+/// @brief Field cellDataAsset, offset: 0x18, size: 0x8, def value: None
+ ::UnityEngine::Rendering::ProbeVolumeStreamableAsset*  ___cellDataAsset;
 
-  /// @brief Field cellProbeOcclusionDataAsset, offset: 0x28, size: 0x8, def value: None
-  ::UnityEngine::Rendering::ProbeVolumeStreamableAsset* ___cellProbeOcclusionDataAsset;
+/// @brief Field cellOptionalDataAsset, offset: 0x20, size: 0x8, def value: None
+ ::UnityEngine::Rendering::ProbeVolumeStreamableAsset*  ___cellOptionalDataAsset;
 
-  /// @brief Field m_HasValidData, offset: 0x30, size: 0x1, def value: None
-  bool ___m_HasValidData;
+/// @brief Field cellProbeOcclusionDataAsset, offset: 0x28, size: 0x8, def value: None
+ ::UnityEngine::Rendering::ProbeVolumeStreamableAsset*  ___cellProbeOcclusionDataAsset;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field m_HasValidData, offset: 0x30, size: 0x1, def value: None
+ bool  ___m_HasValidData;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo, ___sceneHash) == 0x10, "Offset mismatch!");
@@ -272,37 +277,37 @@ static_assert(offsetof(::UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenari
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo, 0x38>, "Size mismatch!");
 
-} // namespace UnityEngine::Rendering
-// Dependencies
+} // namespace end def UnityEngine::Rendering
+// Dependencies 
 namespace UnityEngine::Rendering {
 // Is value type: true
 // CS Name: UnityEngine.Rendering.ProbeVolumeBakingSet/CellCounts
 struct CORDL_TYPE ProbeVolumeBakingSet_CellCounts {
 public:
-  // Declarations
-  /// @brief Method Add, addr 0x6651860, size 0x18, virtual false, abstract: false, final false
-  inline void Add(::UnityEngine::Rendering::ProbeVolumeBakingSet_CellCounts o);
+// Declarations
+/// @brief Method Add, addr 0x66533d8, size 0x18, virtual false, abstract: false, final false
+inline void Add(::UnityEngine::Rendering::ProbeVolumeBakingSet_CellCounts  o) ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ProbeVolumeBakingSet_CellCounts();
+// Ctor Parameters []
+// @brief default ctor
+constexpr ProbeVolumeBakingSet_CellCounts() ;
 
-  // Ctor Parameters [CppParam { name: "bricksCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "chunksCount", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr ProbeVolumeBakingSet_CellCounts(int32_t bricksCount, int32_t chunksCount) noexcept;
+// Ctor Parameters [CppParam { name: "bricksCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "chunksCount", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr ProbeVolumeBakingSet_CellCounts(int32_t  bricksCount, int32_t  chunksCount) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12121 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12122};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x8};
 
-  /// @brief Field bricksCount, offset: 0x0, size: 0x4, def value: None
-  int32_t bricksCount;
+/// @brief Field bricksCount, offset: 0x0, size: 0x4, def value: None
+ int32_t  bricksCount;
 
-  /// @brief Field chunksCount, offset: 0x4, size: 0x4, def value: None
-  int32_t chunksCount;
+/// @brief Field chunksCount, offset: 0x4, size: 0x4, def value: None
+ int32_t  chunksCount;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Rendering::ProbeVolumeBakingSet_CellCounts, bricksCount) == 0x0, "Offset mismatch!");
@@ -311,35 +316,34 @@ static_assert(offsetof(::UnityEngine::Rendering::ProbeVolumeBakingSet_CellCounts
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::ProbeVolumeBakingSet_CellCounts, 0x8>, "Size mismatch!");
 
-} // namespace UnityEngine::Rendering
-// Dependencies
+} // namespace end def UnityEngine::Rendering
+// Dependencies 
 namespace UnityEngine::Rendering {
 // Is value type: true
 // CS Name: UnityEngine.Rendering.ProbeVolumeBakingSet/SerializedPerSceneCellList
 struct CORDL_TYPE ProbeVolumeBakingSet_SerializedPerSceneCellList {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ProbeVolumeBakingSet_SerializedPerSceneCellList();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr ProbeVolumeBakingSet_SerializedPerSceneCellList() ;
 
-  // Ctor Parameters [CppParam { name: "sceneGUID", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "cellList", ty: "::System::Collections::Generic::List_1<int32_t>*", modifiers:
-  // "", def_value: None }]
-  constexpr ProbeVolumeBakingSet_SerializedPerSceneCellList(::StringW sceneGUID, ::System::Collections::Generic::List_1<int32_t>* cellList) noexcept;
+// Ctor Parameters [CppParam { name: "sceneGUID", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "cellList", ty: "::System::Collections::Generic::List_1<int32_t>*", modifiers: "", def_value: None }]
+constexpr ProbeVolumeBakingSet_SerializedPerSceneCellList(::StringW  sceneGUID, ::System::Collections::Generic::List_1<int32_t>*  cellList) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12122 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12123};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x10};
 
-  /// @brief Field sceneGUID, offset: 0x0, size: 0x8, def value: None
-  ::StringW sceneGUID;
+/// @brief Field sceneGUID, offset: 0x0, size: 0x8, def value: None
+ ::StringW  sceneGUID;
 
-  /// @brief Field cellList, offset: 0x8, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<int32_t>* cellList;
+/// @brief Field cellList, offset: 0x8, size: 0x8, def value: None
+ ::System::Collections::Generic::List_1<int32_t>*  cellList;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Rendering::ProbeVolumeBakingSet_SerializedPerSceneCellList, sceneGUID) == 0x0, "Offset mismatch!");
@@ -348,34 +352,34 @@ static_assert(offsetof(::UnityEngine::Rendering::ProbeVolumeBakingSet_Serialized
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::ProbeVolumeBakingSet_SerializedPerSceneCellList, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::Rendering
+} // namespace end def UnityEngine::Rendering
 // Dependencies UnityEngine.RenderingLayerMask
 namespace UnityEngine::Rendering {
 // Is value type: true
 // CS Name: UnityEngine.Rendering.ProbeVolumeBakingSet/ProbeLayerMask
 struct CORDL_TYPE ProbeVolumeBakingSet_ProbeLayerMask {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ProbeVolumeBakingSet_ProbeLayerMask();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr ProbeVolumeBakingSet_ProbeLayerMask() ;
 
-  // Ctor Parameters [CppParam { name: "mask", ty: "::UnityEngine::RenderingLayerMask", modifiers: "", def_value: None }, CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }]
-  constexpr ProbeVolumeBakingSet_ProbeLayerMask(::UnityEngine::RenderingLayerMask mask, ::StringW name) noexcept;
+// Ctor Parameters [CppParam { name: "mask", ty: "::UnityEngine::RenderingLayerMask", modifiers: "", def_value: None }, CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }]
+constexpr ProbeVolumeBakingSet_ProbeLayerMask(::UnityEngine::RenderingLayerMask  mask, ::StringW  name) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12123 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12124};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x10};
 
-  /// @brief Field mask, offset: 0x0, size: 0x4, def value: None
-  ::UnityEngine::RenderingLayerMask mask;
+/// @brief Field mask, offset: 0x0, size: 0x4, def value: None
+ ::UnityEngine::RenderingLayerMask  mask;
 
-  /// @brief Field name, offset: 0x8, size: 0x8, def value: None
-  ::StringW name;
+/// @brief Field name, offset: 0x8, size: 0x8, def value: None
+ ::StringW  name;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Rendering::ProbeVolumeBakingSet_ProbeLayerMask, mask) == 0x0, "Offset mismatch!");
@@ -384,1070 +388,1050 @@ static_assert(offsetof(::UnityEngine::Rendering::ProbeVolumeBakingSet_ProbeLayer
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::ProbeVolumeBakingSet_ProbeLayerMask, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::Rendering
-// Dependencies Unity.Collections.NativeArray`1<T>, Unity.IO.LowLevel.Unsafe.ReadCommand, Unity.IO.LowLevel.Unsafe.ReadCommandArray, Unity.Mathematics.uint4, UnityEngine.Bounds, UnityEngine.LayerMask,
-// UnityEngine.Rendering.ProbeVolumeBakingProcessSettings, UnityEngine.Rendering.ProbeVolumeBakingSet::Version, UnityEngine.ScriptableObject, UnityEngine.Vector3, UnityEngine.Vector3Int
+} // namespace end def UnityEngine::Rendering
+// Dependencies Unity.Collections.NativeArray`1<T>, Unity.IO.LowLevel.Unsafe.ReadCommand, Unity.IO.LowLevel.Unsafe.ReadCommandArray, Unity.Mathematics.uint4, UnityEngine.Bounds, UnityEngine.LayerMask, UnityEngine.Rendering.ProbeVolumeBakingProcessSettings, UnityEngine.Rendering.ProbeVolumeBakingSet::Version, UnityEngine.ScriptableObject, UnityEngine.Vector3, UnityEngine.Vector3Int
 namespace UnityEngine::Rendering {
 // Is value type: false
 // CS Name: UnityEngine.Rendering.ProbeVolumeBakingSet
 class CORDL_TYPE ProbeVolumeBakingSet : public ::UnityEngine::ScriptableObject {
 public:
-  // Declarations
-  using CellCounts = ::UnityEngine::Rendering::ProbeVolumeBakingSet_CellCounts;
+// Declarations
+using CellCounts = ::UnityEngine::Rendering::ProbeVolumeBakingSet_CellCounts;
 
-  using PerScenarioDataInfo = ::UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo;
+using PerScenarioDataInfo = ::UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo;
 
-  using ProbeLayerMask = ::UnityEngine::Rendering::ProbeVolumeBakingSet_ProbeLayerMask;
+using ProbeLayerMask = ::UnityEngine::Rendering::ProbeVolumeBakingSet_ProbeLayerMask;
 
-  using SerializedPerSceneCellList = ::UnityEngine::Rendering::ProbeVolumeBakingSet_SerializedPerSceneCellList;
+using SerializedPerSceneCellList = ::UnityEngine::Rendering::ProbeVolumeBakingSet_SerializedPerSceneCellList;
 
-  using Version = ::UnityEngine::Rendering::ProbeVolumeBakingSet_Version;
+using Version = ::UnityEngine::Rendering::ProbeVolumeBakingSet_Version;
 
-  /// @brief Field L0ChunkSize, offset 0x11c, size 0x4
-  __declspec(property(get = __cordl_internal_get_L0ChunkSize, put = __cordl_internal_set_L0ChunkSize)) int32_t L0ChunkSize;
+/// @brief Field L0ChunkSize, offset 0x11c, size 0x4 
+ __declspec(property(get=__cordl_internal_get_L0ChunkSize, put=__cordl_internal_set_L0ChunkSize)) int32_t  L0ChunkSize;
 
-  /// @brief Field L1ChunkSize, offset 0x120, size 0x4
-  __declspec(property(get = __cordl_internal_get_L1ChunkSize, put = __cordl_internal_set_L1ChunkSize)) int32_t L1ChunkSize;
+/// @brief Field L1ChunkSize, offset 0x120, size 0x4 
+ __declspec(property(get=__cordl_internal_get_L1ChunkSize, put=__cordl_internal_set_L1ChunkSize)) int32_t  L1ChunkSize;
 
-  /// @brief Field L2TextureChunkSize, offset 0x124, size 0x4
-  __declspec(property(get = __cordl_internal_get_L2TextureChunkSize, put = __cordl_internal_set_L2TextureChunkSize)) int32_t L2TextureChunkSize;
+/// @brief Field L2TextureChunkSize, offset 0x124, size 0x4 
+ __declspec(property(get=__cordl_internal_get_L2TextureChunkSize, put=__cordl_internal_set_L2TextureChunkSize)) int32_t  L2TextureChunkSize;
 
-  /// @brief Field ProbeOcclusionChunkSize, offset 0x128, size 0x4
-  __declspec(property(get = __cordl_internal_get_ProbeOcclusionChunkSize, put = __cordl_internal_set_ProbeOcclusionChunkSize)) int32_t ProbeOcclusionChunkSize;
+/// @brief Field ProbeOcclusionChunkSize, offset 0x128, size 0x4 
+ __declspec(property(get=__cordl_internal_get_ProbeOcclusionChunkSize, put=__cordl_internal_set_ProbeOcclusionChunkSize)) int32_t  ProbeOcclusionChunkSize;
 
-  /// @brief Field bakedLayerMasks, offset 0x108, size 0x10
-  __declspec(property(get = __cordl_internal_get_bakedLayerMasks, put = __cordl_internal_set_bakedLayerMasks)) ::Unity::Mathematics::uint4 bakedLayerMasks;
+/// @brief Field bakedLayerMasks, offset 0x108, size 0x10 
+ __declspec(property(get=__cordl_internal_get_bakedLayerMasks, put=__cordl_internal_set_bakedLayerMasks)) ::Unity::Mathematics::uint4  bakedLayerMasks;
 
-  /// @brief Field bakedMaskCount, offset 0x104, size 0x4
-  __declspec(property(get = __cordl_internal_get_bakedMaskCount, put = __cordl_internal_set_bakedMaskCount)) int32_t bakedMaskCount;
+/// @brief Field bakedMaskCount, offset 0x104, size 0x4 
+ __declspec(property(get=__cordl_internal_get_bakedMaskCount, put=__cordl_internal_set_bakedMaskCount)) int32_t  bakedMaskCount;
 
-  /// @brief Field bakedMinDistanceBetweenProbes, offset 0xe8, size 0x4
-  __declspec(property(get = __cordl_internal_get_bakedMinDistanceBetweenProbes, put = __cordl_internal_set_bakedMinDistanceBetweenProbes)) float_t bakedMinDistanceBetweenProbes;
+/// @brief Field bakedMinDistanceBetweenProbes, offset 0xe8, size 0x4 
+ __declspec(property(get=__cordl_internal_get_bakedMinDistanceBetweenProbes, put=__cordl_internal_set_bakedMinDistanceBetweenProbes)) float_t  bakedMinDistanceBetweenProbes;
 
-  /// @brief Field bakedProbeOcclusion, offset 0xec, size 0x1
-  __declspec(property(get = __cordl_internal_get_bakedProbeOcclusion, put = __cordl_internal_set_bakedProbeOcclusion)) bool bakedProbeOcclusion;
+/// @brief Field bakedProbeOcclusion, offset 0xec, size 0x1 
+ __declspec(property(get=__cordl_internal_get_bakedProbeOcclusion, put=__cordl_internal_set_bakedProbeOcclusion)) bool  bakedProbeOcclusion;
 
-  /// @brief Field bakedProbeOffset, offset 0xf8, size 0xc
-  __declspec(property(get = __cordl_internal_get_bakedProbeOffset, put = __cordl_internal_set_bakedProbeOffset)) ::UnityEngine::Vector3 bakedProbeOffset;
+/// @brief Field bakedProbeOffset, offset 0xf8, size 0xc 
+ __declspec(property(get=__cordl_internal_get_bakedProbeOffset, put=__cordl_internal_set_bakedProbeOffset)) ::UnityEngine::Vector3  bakedProbeOffset;
 
-  /// @brief Field bakedSimplificationLevels, offset 0xe4, size 0x4
-  __declspec(property(get = __cordl_internal_get_bakedSimplificationLevels, put = __cordl_internal_set_bakedSimplificationLevels)) int32_t bakedSimplificationLevels;
+/// @brief Field bakedSimplificationLevels, offset 0xe4, size 0x4 
+ __declspec(property(get=__cordl_internal_get_bakedSimplificationLevels, put=__cordl_internal_set_bakedSimplificationLevels)) int32_t  bakedSimplificationLevels;
 
-  __declspec(property(get = get_bakedSkyOcclusion, put = set_bakedSkyOcclusion)) bool bakedSkyOcclusion;
+ __declspec(property(get=get_bakedSkyOcclusion, put=set_bakedSkyOcclusion)) bool  bakedSkyOcclusion;
 
-  /// @brief Field bakedSkyOcclusionValue, offset 0xf0, size 0x4
-  __declspec(property(get = __cordl_internal_get_bakedSkyOcclusionValue, put = __cordl_internal_set_bakedSkyOcclusionValue)) int32_t bakedSkyOcclusionValue;
+/// @brief Field bakedSkyOcclusionValue, offset 0xf0, size 0x4 
+ __declspec(property(get=__cordl_internal_get_bakedSkyOcclusionValue, put=__cordl_internal_set_bakedSkyOcclusionValue)) int32_t  bakedSkyOcclusionValue;
 
-  __declspec(property(get = get_bakedSkyShadingDirection, put = set_bakedSkyShadingDirection)) bool bakedSkyShadingDirection;
+ __declspec(property(get=get_bakedSkyShadingDirection, put=set_bakedSkyShadingDirection)) bool  bakedSkyShadingDirection;
 
-  /// @brief Field bakedSkyShadingDirectionValue, offset 0xf4, size 0x4
-  __declspec(property(get = __cordl_internal_get_bakedSkyShadingDirectionValue, put = __cordl_internal_set_bakedSkyShadingDirectionValue)) int32_t bakedSkyShadingDirectionValue;
+/// @brief Field bakedSkyShadingDirectionValue, offset 0xf4, size 0x4 
+ __declspec(property(get=__cordl_internal_get_bakedSkyShadingDirectionValue, put=__cordl_internal_set_bakedSkyShadingDirectionValue)) int32_t  bakedSkyShadingDirectionValue;
 
-  /// @brief Field cellBricksDataAsset, offset 0xa0, size 0x8
-  __declspec(property(get = __cordl_internal_get_cellBricksDataAsset, put = __cordl_internal_set_cellBricksDataAsset)) ::UnityEngine::Rendering::ProbeVolumeStreamableAsset* cellBricksDataAsset;
+/// @brief Field cellBricksDataAsset, offset 0xa0, size 0x8 
+ __declspec(property(get=__cordl_internal_get_cellBricksDataAsset, put=__cordl_internal_set_cellBricksDataAsset)) ::UnityEngine::Rendering::ProbeVolumeStreamableAsset*  cellBricksDataAsset;
 
-  /// @brief Field cellDataMap, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get_cellDataMap,
-                      put = __cordl_internal_set_cellDataMap)) ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::Rendering::ProbeReferenceVolume_CellData*>* cellDataMap;
+/// @brief Field cellDataMap, offset 0x70, size 0x8 
+ __declspec(property(get=__cordl_internal_get_cellDataMap, put=__cordl_internal_set_cellDataMap)) ::System::Collections::Generic::Dictionary_2<int32_t,::UnityEngine::Rendering::ProbeReferenceVolume_CellData*>*  cellDataMap;
 
-  /// @brief Field cellDescs, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get_cellDescs,
-                      put = __cordl_internal_set_cellDescs)) ::UnityEngine::Rendering::SerializedDictionary_2<int32_t, ::UnityEngine::Rendering::ProbeReferenceVolume_CellDesc*>* cellDescs;
+/// @brief Field cellDescs, offset 0x68, size 0x8 
+ __declspec(property(get=__cordl_internal_get_cellDescs, put=__cordl_internal_set_cellDescs)) ::UnityEngine::Rendering::SerializedDictionary_2<int32_t,::UnityEngine::Rendering::ProbeReferenceVolume_CellDesc*>*  cellDescs;
 
-  /// @brief Field cellSharedDataAsset, offset 0x90, size 0x8
-  __declspec(property(get = __cordl_internal_get_cellSharedDataAsset, put = __cordl_internal_set_cellSharedDataAsset)) ::UnityEngine::Rendering::ProbeVolumeStreamableAsset* cellSharedDataAsset;
+/// @brief Field cellSharedDataAsset, offset 0x90, size 0x8 
+ __declspec(property(get=__cordl_internal_get_cellSharedDataAsset, put=__cordl_internal_set_cellSharedDataAsset)) ::UnityEngine::Rendering::ProbeVolumeStreamableAsset*  cellSharedDataAsset;
 
-  __declspec(property(get = get_cellSizeInBricks)) int32_t cellSizeInBricks;
+ __declspec(property(get=get_cellSizeInBricks)) int32_t  cellSizeInBricks;
 
-  __declspec(property(get = get_cellSizeInMeters)) float_t cellSizeInMeters;
+ __declspec(property(get=get_cellSizeInMeters)) float_t  cellSizeInMeters;
 
-  /// @brief Field cellSupportDataAsset, offset 0xa8, size 0x8
-  __declspec(property(get = __cordl_internal_get_cellSupportDataAsset, put = __cordl_internal_set_cellSupportDataAsset)) ::UnityEngine::Rendering::ProbeVolumeStreamableAsset* cellSupportDataAsset;
+/// @brief Field cellSupportDataAsset, offset 0xa8, size 0x8 
+ __declspec(property(get=__cordl_internal_get_cellSupportDataAsset, put=__cordl_internal_set_cellSupportDataAsset)) ::UnityEngine::Rendering::ProbeVolumeStreamableAsset*  cellSupportDataAsset;
 
-  /// @brief Field chunkSizeInBricks, offset 0xb0, size 0x4
-  __declspec(property(get = __cordl_internal_get_chunkSizeInBricks, put = __cordl_internal_set_chunkSizeInBricks)) int32_t chunkSizeInBricks;
+/// @brief Field chunkSizeInBricks, offset 0xb0, size 0x4 
+ __declspec(property(get=__cordl_internal_get_chunkSizeInBricks, put=__cordl_internal_set_chunkSizeInBricks)) int32_t  chunkSizeInBricks;
 
-  /// @brief Field dialogNoProbeVolumeInSetShown, offset 0x19, size 0x1
-  __declspec(property(get = __cordl_internal_get_dialogNoProbeVolumeInSetShown, put = __cordl_internal_set_dialogNoProbeVolumeInSetShown)) bool dialogNoProbeVolumeInSetShown;
+/// @brief Field dialogNoProbeVolumeInSetShown, offset 0x19, size 0x1 
+ __declspec(property(get=__cordl_internal_get_dialogNoProbeVolumeInSetShown, put=__cordl_internal_set_dialogNoProbeVolumeInSetShown)) bool  dialogNoProbeVolumeInSetShown;
 
-  /// @brief Field freezePlacement, offset 0x1ac, size 0x1
-  __declspec(property(get = __cordl_internal_get_freezePlacement, put = __cordl_internal_set_freezePlacement)) bool freezePlacement;
+/// @brief Field freezePlacement, offset 0x1ac, size 0x1 
+ __declspec(property(get=__cordl_internal_get_freezePlacement, put=__cordl_internal_set_freezePlacement)) bool  freezePlacement;
 
-  /// @brief Field globalBounds, offset 0xcc, size 0x18
-  __declspec(property(get = __cordl_internal_get_globalBounds, put = __cordl_internal_set_globalBounds)) ::UnityEngine::Bounds globalBounds;
+/// @brief Field globalBounds, offset 0xcc, size 0x18 
+ __declspec(property(get=__cordl_internal_get_globalBounds, put=__cordl_internal_set_globalBounds)) ::UnityEngine::Bounds  globalBounds;
 
-  __declspec(property(get = get_hasDilation)) bool hasDilation;
+ __declspec(property(get=get_hasDilation)) bool  hasDilation;
 
-  /// @brief Field lightingScenario, offset 0x158, size 0x8
-  __declspec(property(get = __cordl_internal_get_lightingScenario, put = __cordl_internal_set_lightingScenario)) ::StringW lightingScenario;
+/// @brief Field lightingScenario, offset 0x158, size 0x8 
+ __declspec(property(get=__cordl_internal_get_lightingScenario, put=__cordl_internal_set_lightingScenario)) ::StringW  lightingScenario;
 
-  __declspec(property(get = get_lightingScenarios)) ::System::Collections::Generic::IReadOnlyList_1<::StringW>* lightingScenarios;
+ __declspec(property(get=get_lightingScenarios)) ::System::Collections::Generic::IReadOnlyList_1<::StringW>*  lightingScenarios;
 
-  /// @brief Field m_HasSupportData, offset 0x1e8, size 0x1
-  __declspec(property(get = __cordl_internal_get_m_HasSupportData, put = __cordl_internal_set_m_HasSupportData)) bool m_HasSupportData;
+/// @brief Field m_HasSupportData, offset 0x1e8, size 0x1 
+ __declspec(property(get=__cordl_internal_get_m_HasSupportData, put=__cordl_internal_set_m_HasSupportData)) bool  m_HasSupportData;
 
-  /// @brief Field m_LightingScenarios, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_LightingScenarios, put = __cordl_internal_set_m_LightingScenarios)) ::System::Collections::Generic::List_1<::StringW>* m_LightingScenarios;
+/// @brief Field m_LightingScenarios, offset 0x60, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_LightingScenarios, put=__cordl_internal_set_m_LightingScenarios)) ::System::Collections::Generic::List_1<::StringW>*  m_LightingScenarios;
 
-  /// @brief Field m_OtherScenario, offset 0x160, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_OtherScenario, put = __cordl_internal_set_m_OtherScenario)) ::StringW m_OtherScenario;
+/// @brief Field m_OtherScenario, offset 0x160, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_OtherScenario, put=__cordl_internal_set_m_OtherScenario)) ::StringW  m_OtherScenario;
 
-  /// @brief Field m_PrunedIndexList, offset 0x198, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_PrunedIndexList, put = __cordl_internal_set_m_PrunedIndexList)) ::System::Collections::Generic::List_1<int32_t>* m_PrunedIndexList;
+/// @brief Field m_PrunedIndexList, offset 0x198, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_PrunedIndexList, put=__cordl_internal_set_m_PrunedIndexList)) ::System::Collections::Generic::List_1<int32_t>*  m_PrunedIndexList;
 
-  /// @brief Field m_PrunedScenarioIndexList, offset 0x1a0, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_PrunedScenarioIndexList,
-                      put = __cordl_internal_set_m_PrunedScenarioIndexList)) ::System::Collections::Generic::List_1<int32_t>* m_PrunedScenarioIndexList;
+/// @brief Field m_PrunedScenarioIndexList, offset 0x1a0, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_PrunedScenarioIndexList, put=__cordl_internal_set_m_PrunedScenarioIndexList)) ::System::Collections::Generic::List_1<int32_t>*  m_PrunedScenarioIndexList;
 
-  /// @brief Field m_ReadCommandArray, offset 0x170, size 0x10
-  __declspec(property(get = __cordl_internal_get_m_ReadCommandArray, put = __cordl_internal_set_m_ReadCommandArray)) ::Unity::IO::LowLevel::Unsafe::ReadCommandArray m_ReadCommandArray;
+/// @brief Field m_ReadCommandArray, offset 0x170, size 0x10 
+ __declspec(property(get=__cordl_internal_get_m_ReadCommandArray, put=__cordl_internal_set_m_ReadCommandArray)) ::Unity::IO::LowLevel::Unsafe::ReadCommandArray  m_ReadCommandArray;
 
-  /// @brief Field m_ReadCommandBuffer, offset 0x180, size 0x10
-  __declspec(property(get = __cordl_internal_get_m_ReadCommandBuffer, put = __cordl_internal_set_m_ReadCommandBuffer)) ::Unity::Collections::NativeArray_1<::Unity::IO::LowLevel::Unsafe::ReadCommand>
-      m_ReadCommandBuffer;
+/// @brief Field m_ReadCommandBuffer, offset 0x180, size 0x10 
+ __declspec(property(get=__cordl_internal_get_m_ReadCommandBuffer, put=__cordl_internal_set_m_ReadCommandBuffer)) ::Unity::Collections::NativeArray_1<::Unity::IO::LowLevel::Unsafe::ReadCommand>  m_ReadCommandBuffer;
 
-  /// @brief Field m_ReadOperationScratchBuffers, offset 0x190, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_ReadOperationScratchBuffers,
-                      put = __cordl_internal_set_m_ReadOperationScratchBuffers)) ::System::Collections::Generic::Stack_1<::Unity::Collections::NativeArray_1<uint8_t>>* m_ReadOperationScratchBuffers;
+/// @brief Field m_ReadOperationScratchBuffers, offset 0x190, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_ReadOperationScratchBuffers, put=__cordl_internal_set_m_ReadOperationScratchBuffers)) ::System::Collections::Generic::Stack_1<::Unity::Collections::NativeArray_1<uint8_t>>*  m_ReadOperationScratchBuffers;
 
-  /// @brief Field m_ScenarioBlendingFactor, offset 0x168, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_ScenarioBlendingFactor, put = __cordl_internal_set_m_ScenarioBlendingFactor)) float_t m_ScenarioBlendingFactor;
+/// @brief Field m_ScenarioBlendingFactor, offset 0x168, size 0x4 
+ __declspec(property(get=__cordl_internal_get_m_ScenarioBlendingFactor, put=__cordl_internal_set_m_ScenarioBlendingFactor)) float_t  m_ScenarioBlendingFactor;
 
-  /// @brief Field m_SceneGUIDs, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_SceneGUIDs, put = __cordl_internal_set_m_SceneGUIDs)) ::System::Collections::Generic::List_1<::StringW>* m_SceneGUIDs;
+/// @brief Field m_SceneGUIDs, offset 0x50, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_SceneGUIDs, put=__cordl_internal_set_m_SceneGUIDs)) ::System::Collections::Generic::List_1<::StringW>*  m_SceneGUIDs;
 
-  /// @brief Field m_SerializedPerSceneCellList, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_SerializedPerSceneCellList,
-                      put = __cordl_internal_set_m_SerializedPerSceneCellList)) ::System::Collections::Generic::List_1<::UnityEngine::Rendering::ProbeVolumeBakingSet_SerializedPerSceneCellList>*
-      m_SerializedPerSceneCellList;
+/// @brief Field m_SerializedPerSceneCellList, offset 0x80, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_SerializedPerSceneCellList, put=__cordl_internal_set_m_SerializedPerSceneCellList)) ::System::Collections::Generic::List_1<::UnityEngine::Rendering::ProbeVolumeBakingSet_SerializedPerSceneCellList>*  m_SerializedPerSceneCellList;
 
-  /// @brief Field m_SharedDataIsValid, offset 0x1e9, size 0x1
-  __declspec(property(get = __cordl_internal_get_m_SharedDataIsValid, put = __cordl_internal_set_m_SharedDataIsValid)) bool m_SharedDataIsValid;
+/// @brief Field m_SharedDataIsValid, offset 0x1e9, size 0x1 
+ __declspec(property(get=__cordl_internal_get_m_SharedDataIsValid, put=__cordl_internal_set_m_SharedDataIsValid)) bool  m_SharedDataIsValid;
 
-  /// @brief Field m_TotalIndexList, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_TotalIndexList, put = __cordl_internal_set_m_TotalIndexList)) ::System::Collections::Generic::List_1<int32_t>* m_TotalIndexList;
+/// @brief Field m_TotalIndexList, offset 0x78, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_TotalIndexList, put=__cordl_internal_set_m_TotalIndexList)) ::System::Collections::Generic::List_1<int32_t>*  m_TotalIndexList;
 
-  /// @brief Field m_UseStreamingAsset, offset 0x1ea, size 0x1
-  __declspec(property(get = __cordl_internal_get_m_UseStreamingAsset, put = __cordl_internal_set_m_UseStreamingAsset)) bool m_UseStreamingAsset;
+/// @brief Field m_UseStreamingAsset, offset 0x1ea, size 0x1 
+ __declspec(property(get=__cordl_internal_get_m_UseStreamingAsset, put=__cordl_internal_set_m_UseStreamingAsset)) bool  m_UseStreamingAsset;
 
-  /// @brief Field maxCellPosition, offset 0xb4, size 0xc
-  __declspec(property(get = __cordl_internal_get_maxCellPosition, put = __cordl_internal_set_maxCellPosition)) ::UnityEngine::Vector3Int maxCellPosition;
+/// @brief Field maxCellPosition, offset 0xb4, size 0xc 
+ __declspec(property(get=__cordl_internal_get_maxCellPosition, put=__cordl_internal_set_maxCellPosition)) ::UnityEngine::Vector3Int  maxCellPosition;
 
-  /// @brief Field maxSHChunkCount, offset 0x118, size 0x4
-  __declspec(property(get = __cordl_internal_get_maxSHChunkCount, put = __cordl_internal_set_maxSHChunkCount)) int32_t maxSHChunkCount;
+/// @brief Field maxSHChunkCount, offset 0x118, size 0x4 
+ __declspec(property(get=__cordl_internal_get_maxSHChunkCount, put=__cordl_internal_set_maxSHChunkCount)) int32_t  maxSHChunkCount;
 
-  __declspec(property(get = get_maxSubdivision)) int32_t maxSubdivision;
+ __declspec(property(get=get_maxSubdivision)) int32_t  maxSubdivision;
 
-  __declspec(property(get = get_minBrickSize)) float_t minBrickSize;
+ __declspec(property(get=get_minBrickSize)) float_t  minBrickSize;
 
-  /// @brief Field minCellPosition, offset 0xc0, size 0xc
-  __declspec(property(get = __cordl_internal_get_minCellPosition, put = __cordl_internal_set_minCellPosition)) ::UnityEngine::Vector3Int minCellPosition;
+/// @brief Field minCellPosition, offset 0xc0, size 0xc 
+ __declspec(property(get=__cordl_internal_get_minCellPosition, put=__cordl_internal_set_minCellPosition)) ::UnityEngine::Vector3Int  minCellPosition;
 
-  /// @brief Field minDistanceBetweenProbes, offset 0x1c0, size 0x4
-  __declspec(property(get = __cordl_internal_get_minDistanceBetweenProbes, put = __cordl_internal_set_minDistanceBetweenProbes)) float_t minDistanceBetweenProbes;
+/// @brief Field minDistanceBetweenProbes, offset 0x1c0, size 0x4 
+ __declspec(property(get=__cordl_internal_get_minDistanceBetweenProbes, put=__cordl_internal_set_minDistanceBetweenProbes)) float_t  minDistanceBetweenProbes;
 
-  /// @brief Field minRendererVolumeSize, offset 0x1c8, size 0x4
-  __declspec(property(get = __cordl_internal_get_minRendererVolumeSize, put = __cordl_internal_set_minRendererVolumeSize)) float_t minRendererVolumeSize;
+/// @brief Field minRendererVolumeSize, offset 0x1c8, size 0x4 
+ __declspec(property(get=__cordl_internal_get_minRendererVolumeSize, put=__cordl_internal_set_minRendererVolumeSize)) float_t  minRendererVolumeSize;
 
-  /// @brief Field obsoleteScenesToNotBake, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get_obsoleteScenesToNotBake,
-                      put = __cordl_internal_set_obsoleteScenesToNotBake)) ::System::Collections::Generic::List_1<::StringW>* obsoleteScenesToNotBake;
+/// @brief Field obsoleteScenesToNotBake, offset 0x58, size 0x8 
+ __declspec(property(get=__cordl_internal_get_obsoleteScenesToNotBake, put=__cordl_internal_set_obsoleteScenesToNotBake)) ::System::Collections::Generic::List_1<::StringW>*  obsoleteScenesToNotBake;
 
-  __declspec(property(get = get_otherScenario)) ::StringW otherScenario;
+ __declspec(property(get=get_otherScenario)) ::StringW  otherScenario;
 
-  /// @brief Field perSceneCellLists, offset 0x88, size 0x8
-  __declspec(property(get = __cordl_internal_get_perSceneCellLists,
-                      put = __cordl_internal_set_perSceneCellLists)) ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<int32_t>*>* perSceneCellLists;
+/// @brief Field perSceneCellLists, offset 0x88, size 0x8 
+ __declspec(property(get=__cordl_internal_get_perSceneCellLists, put=__cordl_internal_set_perSceneCellLists)) ::System::Collections::Generic::Dictionary_2<::StringW,::System::Collections::Generic::List_1<int32_t>*>*  perSceneCellLists;
 
-  /// @brief Field probeOffset, offset 0x1b0, size 0xc
-  __declspec(property(get = __cordl_internal_get_probeOffset, put = __cordl_internal_set_probeOffset)) ::UnityEngine::Vector3 probeOffset;
+/// @brief Field probeOffset, offset 0x1b0, size 0xc 
+ __declspec(property(get=__cordl_internal_get_probeOffset, put=__cordl_internal_set_probeOffset)) ::UnityEngine::Vector3  probeOffset;
 
-  /// @brief Field renderersLayerMask, offset 0x1c4, size 0x4
-  __declspec(property(get = __cordl_internal_get_renderersLayerMask, put = __cordl_internal_set_renderersLayerMask)) ::UnityEngine::LayerMask renderersLayerMask;
+/// @brief Field renderersLayerMask, offset 0x1c4, size 0x4 
+ __declspec(property(get=__cordl_internal_get_renderersLayerMask, put=__cordl_internal_set_renderersLayerMask)) ::UnityEngine::LayerMask  renderersLayerMask;
 
-  /// @brief Field renderingLayerMasks, offset 0x1e0, size 0x8
-  __declspec(property(
-      get = __cordl_internal_get_renderingLayerMasks,
-      put = __cordl_internal_set_renderingLayerMasks)) ::ArrayW<::UnityEngine::Rendering::ProbeVolumeBakingSet_ProbeLayerMask, ::Array<::UnityEngine::Rendering::ProbeVolumeBakingSet_ProbeLayerMask>*>
-      renderingLayerMasks;
+/// @brief Field renderingLayerMasks, offset 0x1e0, size 0x8 
+ __declspec(property(get=__cordl_internal_get_renderingLayerMasks, put=__cordl_internal_set_renderingLayerMasks)) ::ArrayW<::UnityEngine::Rendering::ProbeVolumeBakingSet_ProbeLayerMask,::Array<::UnityEngine::Rendering::ProbeVolumeBakingSet_ProbeLayerMask>*>  renderingLayerMasks;
 
-  __declspec(property(get = get_scenarioBlendingFactor)) float_t scenarioBlendingFactor;
+ __declspec(property(get=get_scenarioBlendingFactor)) float_t  scenarioBlendingFactor;
 
-  /// @brief Field scenarios, offset 0x98, size 0x8
-  __declspec(property(get = __cordl_internal_get_scenarios,
-                      put =
-                          __cordl_internal_set_scenarios)) ::UnityEngine::Rendering::SerializedDictionary_2<::StringW, ::UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo*>* scenarios;
+/// @brief Field scenarios, offset 0x98, size 0x8 
+ __declspec(property(get=__cordl_internal_get_scenarios, put=__cordl_internal_set_scenarios)) ::UnityEngine::Rendering::SerializedDictionary_2<::StringW,::UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo*>*  scenarios;
 
-  __declspec(property(get = get_sceneGUIDs)) ::System::Collections::Generic::IReadOnlyList_1<::StringW>* sceneGUIDs;
+ __declspec(property(get=get_sceneGUIDs)) ::System::Collections::Generic::IReadOnlyList_1<::StringW>*  sceneGUIDs;
 
-  /// @brief Field settings, offset 0x1c, size 0x30
-  __declspec(property(get = __cordl_internal_get_settings, put = __cordl_internal_set_settings)) ::UnityEngine::Rendering::ProbeVolumeBakingProcessSettings settings;
+/// @brief Field settings, offset 0x1c, size 0x30 
+ __declspec(property(get=__cordl_internal_get_settings, put=__cordl_internal_set_settings)) ::UnityEngine::Rendering::ProbeVolumeBakingProcessSettings  settings;
 
-  /// @brief Field sharedDataChunkSize, offset 0x138, size 0x4
-  __declspec(property(get = __cordl_internal_get_sharedDataChunkSize, put = __cordl_internal_set_sharedDataChunkSize)) int32_t sharedDataChunkSize;
+/// @brief Field sharedDataChunkSize, offset 0x138, size 0x4 
+ __declspec(property(get=__cordl_internal_get_sharedDataChunkSize, put=__cordl_internal_set_sharedDataChunkSize)) int32_t  sharedDataChunkSize;
 
-  /// @brief Field sharedSkyOcclusionL0L1ChunkSize, offset 0x130, size 0x4
-  __declspec(property(get = __cordl_internal_get_sharedSkyOcclusionL0L1ChunkSize, put = __cordl_internal_set_sharedSkyOcclusionL0L1ChunkSize)) int32_t sharedSkyOcclusionL0L1ChunkSize;
+/// @brief Field sharedSkyOcclusionL0L1ChunkSize, offset 0x130, size 0x4 
+ __declspec(property(get=__cordl_internal_get_sharedSkyOcclusionL0L1ChunkSize, put=__cordl_internal_set_sharedSkyOcclusionL0L1ChunkSize)) int32_t  sharedSkyOcclusionL0L1ChunkSize;
 
-  /// @brief Field sharedSkyShadingDirectionIndicesChunkSize, offset 0x134, size 0x4
-  __declspec(property(get = __cordl_internal_get_sharedSkyShadingDirectionIndicesChunkSize,
-                      put = __cordl_internal_set_sharedSkyShadingDirectionIndicesChunkSize)) int32_t sharedSkyShadingDirectionIndicesChunkSize;
+/// @brief Field sharedSkyShadingDirectionIndicesChunkSize, offset 0x134, size 0x4 
+ __declspec(property(get=__cordl_internal_get_sharedSkyShadingDirectionIndicesChunkSize, put=__cordl_internal_set_sharedSkyShadingDirectionIndicesChunkSize)) int32_t  sharedSkyShadingDirectionIndicesChunkSize;
 
-  /// @brief Field sharedValidityMaskChunkSize, offset 0x12c, size 0x4
-  __declspec(property(get = __cordl_internal_get_sharedValidityMaskChunkSize, put = __cordl_internal_set_sharedValidityMaskChunkSize)) int32_t sharedValidityMaskChunkSize;
+/// @brief Field sharedValidityMaskChunkSize, offset 0x12c, size 0x4 
+ __declspec(property(get=__cordl_internal_get_sharedValidityMaskChunkSize, put=__cordl_internal_set_sharedValidityMaskChunkSize)) int32_t  sharedValidityMaskChunkSize;
 
-  /// @brief Field simplificationLevels, offset 0x1bc, size 0x4
-  __declspec(property(get = __cordl_internal_get_simplificationLevels, put = __cordl_internal_set_simplificationLevels)) int32_t simplificationLevels;
+/// @brief Field simplificationLevels, offset 0x1bc, size 0x4 
+ __declspec(property(get=__cordl_internal_get_simplificationLevels, put=__cordl_internal_set_simplificationLevels)) int32_t  simplificationLevels;
 
-  /// @brief Field singleSceneMode, offset 0x18, size 0x1
-  __declspec(property(get = __cordl_internal_get_singleSceneMode, put = __cordl_internal_set_singleSceneMode)) bool singleSceneMode;
+/// @brief Field singleSceneMode, offset 0x18, size 0x1 
+ __declspec(property(get=__cordl_internal_get_singleSceneMode, put=__cordl_internal_set_singleSceneMode)) bool  singleSceneMode;
 
-  /// @brief Field skyOcclusion, offset 0x1cc, size 0x1
-  __declspec(property(get = __cordl_internal_get_skyOcclusion, put = __cordl_internal_set_skyOcclusion)) bool skyOcclusion;
+/// @brief Field skyOcclusion, offset 0x1cc, size 0x1 
+ __declspec(property(get=__cordl_internal_get_skyOcclusion, put=__cordl_internal_set_skyOcclusion)) bool  skyOcclusion;
 
-  /// @brief Field skyOcclusionAverageAlbedo, offset 0x1d8, size 0x4
-  __declspec(property(get = __cordl_internal_get_skyOcclusionAverageAlbedo, put = __cordl_internal_set_skyOcclusionAverageAlbedo)) float_t skyOcclusionAverageAlbedo;
+/// @brief Field skyOcclusionAverageAlbedo, offset 0x1d8, size 0x4 
+ __declspec(property(get=__cordl_internal_get_skyOcclusionAverageAlbedo, put=__cordl_internal_set_skyOcclusionAverageAlbedo)) float_t  skyOcclusionAverageAlbedo;
 
-  /// @brief Field skyOcclusionBackFaceCulling, offset 0x1dc, size 0x1
-  __declspec(property(get = __cordl_internal_get_skyOcclusionBackFaceCulling, put = __cordl_internal_set_skyOcclusionBackFaceCulling)) bool skyOcclusionBackFaceCulling;
+/// @brief Field skyOcclusionBackFaceCulling, offset 0x1dc, size 0x1 
+ __declspec(property(get=__cordl_internal_get_skyOcclusionBackFaceCulling, put=__cordl_internal_set_skyOcclusionBackFaceCulling)) bool  skyOcclusionBackFaceCulling;
 
-  /// @brief Field skyOcclusionBakingBounces, offset 0x1d4, size 0x4
-  __declspec(property(get = __cordl_internal_get_skyOcclusionBakingBounces, put = __cordl_internal_set_skyOcclusionBakingBounces)) int32_t skyOcclusionBakingBounces;
+/// @brief Field skyOcclusionBakingBounces, offset 0x1d4, size 0x4 
+ __declspec(property(get=__cordl_internal_get_skyOcclusionBakingBounces, put=__cordl_internal_set_skyOcclusionBakingBounces)) int32_t  skyOcclusionBakingBounces;
 
-  /// @brief Field skyOcclusionBakingSamples, offset 0x1d0, size 0x4
-  __declspec(property(get = __cordl_internal_get_skyOcclusionBakingSamples, put = __cordl_internal_set_skyOcclusionBakingSamples)) int32_t skyOcclusionBakingSamples;
+/// @brief Field skyOcclusionBakingSamples, offset 0x1d0, size 0x4 
+ __declspec(property(get=__cordl_internal_get_skyOcclusionBakingSamples, put=__cordl_internal_set_skyOcclusionBakingSamples)) int32_t  skyOcclusionBakingSamples;
 
-  /// @brief Field skyOcclusionShadingDirection, offset 0x1dd, size 0x1
-  __declspec(property(get = __cordl_internal_get_skyOcclusionShadingDirection, put = __cordl_internal_set_skyOcclusionShadingDirection)) bool skyOcclusionShadingDirection;
+/// @brief Field skyOcclusionShadingDirection, offset 0x1dd, size 0x1 
+ __declspec(property(get=__cordl_internal_get_skyOcclusionShadingDirection, put=__cordl_internal_set_skyOcclusionShadingDirection)) bool  skyOcclusionShadingDirection;
 
-  /// @brief Field supportDataChunkSize, offset 0x150, size 0x4
-  __declspec(property(get = __cordl_internal_get_supportDataChunkSize, put = __cordl_internal_set_supportDataChunkSize)) int32_t supportDataChunkSize;
+/// @brief Field supportDataChunkSize, offset 0x150, size 0x4 
+ __declspec(property(get=__cordl_internal_get_supportDataChunkSize, put=__cordl_internal_set_supportDataChunkSize)) int32_t  supportDataChunkSize;
 
-  /// @brief Field supportLayerMaskChunkSize, offset 0x148, size 0x4
-  __declspec(property(get = __cordl_internal_get_supportLayerMaskChunkSize, put = __cordl_internal_set_supportLayerMaskChunkSize)) int32_t supportLayerMaskChunkSize;
+/// @brief Field supportLayerMaskChunkSize, offset 0x148, size 0x4 
+ __declspec(property(get=__cordl_internal_get_supportLayerMaskChunkSize, put=__cordl_internal_set_supportLayerMaskChunkSize)) int32_t  supportLayerMaskChunkSize;
 
-  /// @brief Field supportOffsetsChunkSize, offset 0x14c, size 0x4
-  __declspec(property(get = __cordl_internal_get_supportOffsetsChunkSize, put = __cordl_internal_set_supportOffsetsChunkSize)) int32_t supportOffsetsChunkSize;
+/// @brief Field supportOffsetsChunkSize, offset 0x14c, size 0x4 
+ __declspec(property(get=__cordl_internal_get_supportOffsetsChunkSize, put=__cordl_internal_set_supportOffsetsChunkSize)) int32_t  supportOffsetsChunkSize;
 
-  /// @brief Field supportPositionChunkSize, offset 0x13c, size 0x4
-  __declspec(property(get = __cordl_internal_get_supportPositionChunkSize, put = __cordl_internal_set_supportPositionChunkSize)) int32_t supportPositionChunkSize;
+/// @brief Field supportPositionChunkSize, offset 0x13c, size 0x4 
+ __declspec(property(get=__cordl_internal_get_supportPositionChunkSize, put=__cordl_internal_set_supportPositionChunkSize)) int32_t  supportPositionChunkSize;
 
-  /// @brief Field supportTouchupChunkSize, offset 0x144, size 0x4
-  __declspec(property(get = __cordl_internal_get_supportTouchupChunkSize, put = __cordl_internal_set_supportTouchupChunkSize)) int32_t supportTouchupChunkSize;
+/// @brief Field supportTouchupChunkSize, offset 0x144, size 0x4 
+ __declspec(property(get=__cordl_internal_get_supportTouchupChunkSize, put=__cordl_internal_set_supportTouchupChunkSize)) int32_t  supportTouchupChunkSize;
 
-  /// @brief Field supportValidityChunkSize, offset 0x140, size 0x4
-  __declspec(property(get = __cordl_internal_get_supportValidityChunkSize, put = __cordl_internal_set_supportValidityChunkSize)) int32_t supportValidityChunkSize;
+/// @brief Field supportValidityChunkSize, offset 0x140, size 0x4 
+ __declspec(property(get=__cordl_internal_get_supportValidityChunkSize, put=__cordl_internal_set_supportValidityChunkSize)) int32_t  supportValidityChunkSize;
 
-  /// @brief Field useRenderingLayers, offset 0x1de, size 0x1
-  __declspec(property(get = __cordl_internal_get_useRenderingLayers, put = __cordl_internal_set_useRenderingLayers)) bool useRenderingLayers;
+/// @brief Field useRenderingLayers, offset 0x1de, size 0x1 
+ __declspec(property(get=__cordl_internal_get_useRenderingLayers, put=__cordl_internal_set_useRenderingLayers)) bool  useRenderingLayers;
 
-  /// @brief Field version, offset 0x1a8, size 0x4
-  __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version)) ::UnityEngine::Rendering::ProbeVolumeBakingSet_Version version;
+/// @brief Field version, offset 0x1a8, size 0x4 
+ __declspec(property(get=__cordl_internal_get_version, put=__cordl_internal_set_version)) ::UnityEngine::Rendering::ProbeVolumeBakingSet_Version  version;
 
-  /// @brief Convert operator to "::UnityEngine::ISerializationCallbackReceiver"
-  constexpr operator ::UnityEngine::ISerializationCallbackReceiver*() noexcept;
+/// @brief Convert operator to "::UnityEngine::ISerializationCallbackReceiver"
+constexpr operator  ::UnityEngine::ISerializationCallbackReceiver*() noexcept;
 
-  /// @brief Method AlignUp16, addr 0x664f24c, size 0x28, virtual false, abstract: false, final false
-  static inline int32_t AlignUp16(int32_t count);
+/// @brief Method AlignUp16, addr 0x6650dc4, size 0x28, virtual false, abstract: false, final false
+static inline int32_t AlignUp16(int32_t  count) ;
 
-  /// @brief Method BlendLightingScenario, addr 0x664e6b0, size 0x344, virtual false, abstract: false, final false
-  inline void BlendLightingScenario(::StringW otherScenario, float_t blendingFactor);
+/// @brief Method BlendLightingScenario, addr 0x6650228, size 0x344, virtual false, abstract: false, final false
+inline void BlendLightingScenario(::StringW  otherScenario, float_t  blendingFactor) ;
 
-  /// @brief Method CheckCompatibleCellLayout, addr 0x664da00, size 0x8c, virtual false, abstract: false, final false
-  inline bool CheckCompatibleCellLayout();
+/// @brief Method CheckCompatibleCellLayout, addr 0x664f578, size 0x8c, virtual false, abstract: false, final false
+inline bool CheckCompatibleCellLayout() ;
 
-  /// @brief Method Cleanup, addr 0x664e9f4, size 0x368, virtual false, abstract: false, final false
-  inline void Cleanup();
+/// @brief Method Cleanup, addr 0x665056c, size 0x368, virtual false, abstract: false, final false
+inline void Cleanup() ;
 
-  /// @brief Method ComputeHasSupportData, addr 0x664d8ac, size 0x24, virtual false, abstract: false, final false
-  inline bool ComputeHasSupportData();
+/// @brief Method ComputeHasSupportData, addr 0x664f424, size 0x24, virtual false, abstract: false, final false
+inline bool ComputeHasSupportData() ;
 
-  /// @brief Method ComputeHasValidSharedData, addr 0x664d8d0, size 0x38, virtual false, abstract: false, final false
-  inline bool ComputeHasValidSharedData();
+/// @brief Method ComputeHasValidSharedData, addr 0x664f448, size 0x38, virtual false, abstract: false, final false
+inline bool ComputeHasValidSharedData() ;
 
-  /// @brief Method ComputeRegionMasks, addr 0x664d534, size 0xe0, virtual false, abstract: false, final false
-  inline ::Unity::Mathematics::uint4 ComputeRegionMasks();
+/// @brief Method ComputeRegionMasks, addr 0x664f0ac, size 0xe0, virtual false, abstract: false, final false
+inline ::Unity::Mathematics::uint4 ComputeRegionMasks() ;
 
-  /// @brief Method GetBakingHashCode, addr 0x664f108, size 0x144, virtual false, abstract: false, final false
-  inline int32_t GetBakingHashCode();
+/// @brief Method GetBakingHashCode, addr 0x6650c80, size 0x144, virtual false, abstract: false, final false
+inline int32_t GetBakingHashCode() ;
 
-  /// @brief Method GetCellData, addr 0x66512d4, size 0x7c, virtual false, abstract: false, final false
-  inline ::UnityEngine::Rendering::ProbeReferenceVolume_CellData* GetCellData(int32_t cellIndex);
+/// @brief Method GetCellData, addr 0x6652e4c, size 0x7c, virtual false, abstract: false, final false
+inline ::UnityEngine::Rendering::ProbeReferenceVolume_CellData* GetCellData(int32_t  cellIndex) ;
 
-  /// @brief Method GetCellDesc, addr 0x6651258, size 0x7c, virtual false, abstract: false, final false
-  inline ::UnityEngine::Rendering::ProbeReferenceVolume_CellDesc* GetCellDesc(int32_t cellIndex);
+/// @brief Method GetCellDesc, addr 0x6652dd0, size 0x7c, virtual false, abstract: false, final false
+inline ::UnityEngine::Rendering::ProbeReferenceVolume_CellDesc* GetCellDesc(int32_t  cellIndex) ;
 
-  /// @brief Method GetCellSizeInBricks, addr 0x664d450, size 0x30, virtual false, abstract: false, final false
-  static inline int32_t GetCellSizeInBricks(int32_t simplificationLevels);
+/// @brief Method GetCellSizeInBricks, addr 0x664efc8, size 0x30, virtual false, abstract: false, final false
+static inline int32_t GetCellSizeInBricks(int32_t  simplificationLevels) ;
 
-  /// @brief Method GetChunkGPUMemory, addr 0x6651350, size 0x3c, virtual false, abstract: false, final false
-  inline int32_t GetChunkGPUMemory(::UnityEngine::Rendering::ProbeVolumeSHBands shBands);
+/// @brief Method GetChunkGPUMemory, addr 0x6652ec8, size 0x3c, virtual false, abstract: false, final false
+inline int32_t GetChunkGPUMemory(::UnityEngine::Rendering::ProbeVolumeSHBands  shBands) ;
 
-  /// @brief Method GetMaxSubdivision, addr 0x664d48c, size 0x8, virtual false, abstract: false, final false
-  static inline int32_t GetMaxSubdivision(int32_t simplificationLevels);
+/// @brief Method GetMaxSubdivision, addr 0x664f004, size 0x8, virtual false, abstract: false, final false
+static inline int32_t GetMaxSubdivision(int32_t  simplificationLevels) ;
 
-  /// @brief Method GetMinBrickSize, addr 0x664d4b4, size 0x1c, virtual false, abstract: false, final false
-  static inline float_t GetMinBrickSize(float_t minDistanceBetweenProbes);
+/// @brief Method GetMinBrickSize, addr 0x664f02c, size 0x1c, virtual false, abstract: false, final false
+static inline float_t GetMinBrickSize(float_t  minDistanceBetweenProbes) ;
 
-  /// @brief Method GetSceneCellIndexList, addr 0x664f75c, size 0x7c, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::List_1<int32_t>* GetSceneCellIndexList(::StringW sceneGUID);
+/// @brief Method GetSceneCellIndexList, addr 0x66512d4, size 0x7c, virtual false, abstract: false, final false
+inline ::System::Collections::Generic::List_1<int32_t>* GetSceneCellIndexList(::StringW  sceneGUID) ;
 
-  /// @brief Method GetSubArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline ::Unity::Collections::NativeArray_1<T> GetSubArray(::Unity::Collections::NativeArray_1<uint8_t> input, int32_t count, ::ByRef<int32_t> offset);
+/// @brief Method GetSubArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+template<typename T>
+inline ::Unity::Collections::NativeArray_1<T> GetSubArray(::Unity::Collections::NativeArray_1<uint8_t>  input, int32_t  count, ::ByRef<int32_t>  offset) ;
 
-  /// @brief Method HasBakedData, addr 0x664dab4, size 0x15c, virtual false, abstract: false, final false
-  inline bool HasBakedData(::StringW scenario);
+/// @brief Method HasBakedData, addr 0x664f62c, size 0x15c, virtual false, abstract: false, final false
+inline bool HasBakedData(::StringW  scenario) ;
 
-  /// @brief Method HasSupportData, addr 0x664daac, size 0x8, virtual false, abstract: false, final false
-  inline bool HasSupportData();
+/// @brief Method HasSupportData, addr 0x664f624, size 0x8, virtual false, abstract: false, final false
+inline bool HasSupportData() ;
 
-  /// @brief Method HasValidSharedData, addr 0x664d9f8, size 0x8, virtual false, abstract: false, final false
-  inline bool HasValidSharedData();
+/// @brief Method HasValidSharedData, addr 0x664f570, size 0x8, virtual false, abstract: false, final false
+inline bool HasValidSharedData() ;
 
-  /// @brief Method Initialize, addr 0x664e1dc, size 0x488, virtual false, abstract: false, final false
-  inline void Initialize(bool useStreamingAsset);
+/// @brief Method Initialize, addr 0x664fd54, size 0x488, virtual false, abstract: false, final false
+inline void Initialize(bool  useStreamingAsset) ;
 
-  /// @brief Method LoadStreambleAssetData, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T>
-  inline ::Unity::Collections::NativeArray_1<T> LoadStreambleAssetData(::UnityEngine::Rendering::ProbeVolumeStreamableAsset* asset, ::System::Collections::Generic::List_1<int32_t>* cellIndices);
+/// @brief Method LoadStreambleAssetData, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+template<typename T>
+inline ::Unity::Collections::NativeArray_1<T> LoadStreambleAssetData(::UnityEngine::Rendering::ProbeVolumeStreamableAsset*  asset, ::System::Collections::Generic::List_1<int32_t>*  cellIndices) ;
 
-  /// @brief Method Migrate, addr 0x664d7ec, size 0xc0, virtual false, abstract: false, final false
-  inline void Migrate();
+/// @brief Method Migrate, addr 0x664f364, size 0xc0, virtual false, abstract: false, final false
+inline void Migrate() ;
 
-  static inline ::UnityEngine::Rendering::ProbeVolumeBakingSet* New_ctor();
+static inline ::UnityEngine::Rendering::ProbeVolumeBakingSet* New_ctor() ;
 
-  /// @brief Method OnEnable, addr 0x664d79c, size 0x50, virtual false, abstract: false, final false
-  inline void OnEnable();
+/// @brief Method OnEnable, addr 0x664f314, size 0x50, virtual false, abstract: false, final false
+inline void OnEnable() ;
 
-  /// @brief Method OnValidate, addr 0x664d614, size 0x188, virtual false, abstract: false, final false
-  inline void OnValidate();
+/// @brief Method OnValidate, addr 0x664f18c, size 0x188, virtual false, abstract: false, final false
+inline void OnValidate() ;
 
-  /// @brief Method PruneCellIndexList, addr 0x664f370, size 0x1e8, virtual false, abstract: false, final false
-  inline void PruneCellIndexList(::System::Collections::Generic::List_1<int32_t>* cellIndices, ::System::Collections::Generic::List_1<int32_t>* prunedIndexList);
+/// @brief Method PruneCellIndexList, addr 0x6650ee8, size 0x1e8, virtual false, abstract: false, final false
+inline void PruneCellIndexList(::System::Collections::Generic::List_1<int32_t>*  cellIndices, ::System::Collections::Generic::List_1<int32_t>*  prunedIndexList) ;
 
-  /// @brief Method PruneCellIndexListForScenario, addr 0x664f558, size 0x204, virtual false, abstract: false, final false
-  inline void PruneCellIndexListForScenario(::System::Collections::Generic::List_1<int32_t>* cellIndices, ::UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo* scenarioData,
-                                            ::System::Collections::Generic::List_1<int32_t>* prunedIndexList);
+/// @brief Method PruneCellIndexListForScenario, addr 0x66510d0, size 0x204, virtual false, abstract: false, final false
+inline void PruneCellIndexListForScenario(::System::Collections::Generic::List_1<int32_t>*  cellIndices, ::UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo*  scenarioData, ::System::Collections::Generic::List_1<int32_t>*  prunedIndexList) ;
 
-  /// @brief Method ReleaseCell, addr 0x66511bc, size 0x9c, virtual false, abstract: false, final false
-  inline void ReleaseCell(int32_t cellIndex);
+/// @brief Method ReleaseCell, addr 0x6652d34, size 0x9c, virtual false, abstract: false, final false
+inline void ReleaseCell(int32_t  cellIndex) ;
 
-  /// @brief Method ReleaseStreamableAssetData, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline void ReleaseStreamableAssetData(::Unity::Collections::NativeArray_1<T> buffer);
+/// @brief Method ReleaseStreamableAssetData, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+template<typename T>
+inline void ReleaseStreamableAssetData(::Unity::Collections::NativeArray_1<T>  buffer) ;
 
-  /// @brief Method RequestScratchBuffer, addr 0x664f274, size 0xfc, virtual false, abstract: false, final false
-  inline ::Unity::Collections::NativeArray_1<uint8_t> RequestScratchBuffer(int32_t size);
+/// @brief Method RequestScratchBuffer, addr 0x6650dec, size 0xfc, virtual false, abstract: false, final false
+inline ::Unity::Collections::NativeArray_1<uint8_t> RequestScratchBuffer(int32_t  size) ;
 
-  /// @brief Method ResolveAllCellData, addr 0x664e680, size 0x30, virtual false, abstract: false, final false
-  inline bool ResolveAllCellData();
+/// @brief Method ResolveAllCellData, addr 0x66501f8, size 0x30, virtual false, abstract: false, final false
+inline bool ResolveAllCellData() ;
 
-  /// @brief Method ResolveCellData, addr 0x665008c, size 0x4a0, virtual false, abstract: false, final false
-  inline bool ResolveCellData(::System::Collections::Generic::List_1<int32_t>* cellIndices);
+/// @brief Method ResolveCellData, addr 0x6651c04, size 0x4a0, virtual false, abstract: false, final false
+inline bool ResolveCellData(::System::Collections::Generic::List_1<int32_t>*  cellIndices) ;
 
-  /// @brief Method ResolvePerScenarioCellData, addr 0x6650c34, size 0x588, virtual false, abstract: false, final false
-  inline bool ResolvePerScenarioCellData(::Unity::Collections::NativeArray_1<uint8_t> cellData, ::Unity::Collections::NativeArray_1<uint8_t> cellOptionalData,
-                                         ::Unity::Collections::NativeArray_1<uint8_t> cellProbeOcclusionData, ::StringW scenario, ::System::Collections::Generic::List_1<int32_t>* cellIndices);
+/// @brief Method ResolvePerScenarioCellData, addr 0x66527ac, size 0x588, virtual false, abstract: false, final false
+inline bool ResolvePerScenarioCellData(::Unity::Collections::NativeArray_1<uint8_t>  cellData, ::Unity::Collections::NativeArray_1<uint8_t>  cellOptionalData, ::Unity::Collections::NativeArray_1<uint8_t>  cellProbeOcclusionData, ::StringW  scenario, ::System::Collections::Generic::List_1<int32_t>*  cellIndices) ;
 
-  /// @brief Method ResolvePerScenarioCellData, addr 0x664fa0c, size 0x680, virtual false, abstract: false, final false
-  inline bool ResolvePerScenarioCellData(::System::Collections::Generic::List_1<int32_t>* cellIndices);
+/// @brief Method ResolvePerScenarioCellData, addr 0x6651584, size 0x680, virtual false, abstract: false, final false
+inline bool ResolvePerScenarioCellData(::System::Collections::Generic::List_1<int32_t>*  cellIndices) ;
 
-  /// @brief Method ResolveSharedCellData, addr 0x664f7d8, size 0x234, virtual false, abstract: false, final false
-  inline bool ResolveSharedCellData(::System::Collections::Generic::List_1<int32_t>* cellIndices);
+/// @brief Method ResolveSharedCellData, addr 0x6651350, size 0x234, virtual false, abstract: false, final false
+inline bool ResolveSharedCellData(::System::Collections::Generic::List_1<int32_t>*  cellIndices) ;
 
-  /// @brief Method ResolveSharedCellData, addr 0x665052c, size 0x708, virtual false, abstract: false, final false
-  inline void ResolveSharedCellData(::System::Collections::Generic::List_1<int32_t>* cellIndices, ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::ProbeBrickIndex_Brick> bricksData,
-                                    ::Unity::Collections::NativeArray_1<uint8_t> cellSharedData, ::Unity::Collections::NativeArray_1<uint8_t> cellSupportData);
+/// @brief Method ResolveSharedCellData, addr 0x66520a4, size 0x708, virtual false, abstract: false, final false
+inline void ResolveSharedCellData(::System::Collections::Generic::List_1<int32_t>*  cellIndices, ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::ProbeBrickIndex_Brick>  bricksData, ::Unity::Collections::NativeArray_1<uint8_t>  cellSharedData, ::Unity::Collections::NativeArray_1<uint8_t>  cellSupportData) ;
 
-  /// @brief Method SetActiveScenario, addr 0x664ee18, size 0x2f0, virtual false, abstract: false, final false
-  inline void SetActiveScenario(::StringW scenario, bool verbose);
+/// @brief Method SetActiveScenario, addr 0x6650990, size 0x2f0, virtual false, abstract: false, final false
+inline void SetActiveScenario(::StringW  scenario, bool  verbose) ;
 
-  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize, addr 0x664dc10, size 0x3e4, virtual true, abstract: false, final true
-  inline void UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize();
+/// @brief Method UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize, addr 0x664f788, size 0x3e4, virtual true, abstract: false, final true
+inline void UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize() ;
 
-  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize, addr 0x664dff4, size 0x1e8, virtual true, abstract: false, final true
-  inline void UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize();
+/// @brief Method UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize, addr 0x664fb6c, size 0x1e8, virtual true, abstract: false, final true
+inline void UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize() ;
 
-  constexpr int32_t const& __cordl_internal_get_L0ChunkSize() const;
+constexpr int32_t const& __cordl_internal_get_L0ChunkSize() const;
 
-  constexpr int32_t& __cordl_internal_get_L0ChunkSize();
+constexpr int32_t& __cordl_internal_get_L0ChunkSize() ;
 
-  constexpr int32_t const& __cordl_internal_get_L1ChunkSize() const;
+constexpr int32_t const& __cordl_internal_get_L1ChunkSize() const;
 
-  constexpr int32_t& __cordl_internal_get_L1ChunkSize();
+constexpr int32_t& __cordl_internal_get_L1ChunkSize() ;
 
-  constexpr int32_t const& __cordl_internal_get_L2TextureChunkSize() const;
+constexpr int32_t const& __cordl_internal_get_L2TextureChunkSize() const;
 
-  constexpr int32_t& __cordl_internal_get_L2TextureChunkSize();
+constexpr int32_t& __cordl_internal_get_L2TextureChunkSize() ;
 
-  constexpr int32_t const& __cordl_internal_get_ProbeOcclusionChunkSize() const;
+constexpr int32_t const& __cordl_internal_get_ProbeOcclusionChunkSize() const;
 
-  constexpr int32_t& __cordl_internal_get_ProbeOcclusionChunkSize();
+constexpr int32_t& __cordl_internal_get_ProbeOcclusionChunkSize() ;
 
-  constexpr ::Unity::Mathematics::uint4 const& __cordl_internal_get_bakedLayerMasks() const;
+constexpr ::Unity::Mathematics::uint4 const& __cordl_internal_get_bakedLayerMasks() const;
 
-  constexpr ::Unity::Mathematics::uint4& __cordl_internal_get_bakedLayerMasks();
+constexpr ::Unity::Mathematics::uint4& __cordl_internal_get_bakedLayerMasks() ;
 
-  constexpr int32_t const& __cordl_internal_get_bakedMaskCount() const;
+constexpr int32_t const& __cordl_internal_get_bakedMaskCount() const;
 
-  constexpr int32_t& __cordl_internal_get_bakedMaskCount();
+constexpr int32_t& __cordl_internal_get_bakedMaskCount() ;
 
-  constexpr float_t const& __cordl_internal_get_bakedMinDistanceBetweenProbes() const;
+constexpr float_t const& __cordl_internal_get_bakedMinDistanceBetweenProbes() const;
 
-  constexpr float_t& __cordl_internal_get_bakedMinDistanceBetweenProbes();
+constexpr float_t& __cordl_internal_get_bakedMinDistanceBetweenProbes() ;
 
-  constexpr bool const& __cordl_internal_get_bakedProbeOcclusion() const;
+constexpr bool const& __cordl_internal_get_bakedProbeOcclusion() const;
 
-  constexpr bool& __cordl_internal_get_bakedProbeOcclusion();
+constexpr bool& __cordl_internal_get_bakedProbeOcclusion() ;
 
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_bakedProbeOffset() const;
+constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_bakedProbeOffset() const;
 
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_bakedProbeOffset();
+constexpr ::UnityEngine::Vector3& __cordl_internal_get_bakedProbeOffset() ;
 
-  constexpr int32_t const& __cordl_internal_get_bakedSimplificationLevels() const;
+constexpr int32_t const& __cordl_internal_get_bakedSimplificationLevels() const;
 
-  constexpr int32_t& __cordl_internal_get_bakedSimplificationLevels();
+constexpr int32_t& __cordl_internal_get_bakedSimplificationLevels() ;
 
-  constexpr int32_t const& __cordl_internal_get_bakedSkyOcclusionValue() const;
+constexpr int32_t const& __cordl_internal_get_bakedSkyOcclusionValue() const;
 
-  constexpr int32_t& __cordl_internal_get_bakedSkyOcclusionValue();
+constexpr int32_t& __cordl_internal_get_bakedSkyOcclusionValue() ;
 
-  constexpr int32_t const& __cordl_internal_get_bakedSkyShadingDirectionValue() const;
+constexpr int32_t const& __cordl_internal_get_bakedSkyShadingDirectionValue() const;
 
-  constexpr int32_t& __cordl_internal_get_bakedSkyShadingDirectionValue();
+constexpr int32_t& __cordl_internal_get_bakedSkyShadingDirectionValue() ;
 
-  constexpr ::UnityEngine::Rendering::ProbeVolumeStreamableAsset* const& __cordl_internal_get_cellBricksDataAsset() const;
+constexpr ::UnityEngine::Rendering::ProbeVolumeStreamableAsset* const& __cordl_internal_get_cellBricksDataAsset() const;
 
-  constexpr ::UnityEngine::Rendering::ProbeVolumeStreamableAsset*& __cordl_internal_get_cellBricksDataAsset();
+constexpr ::UnityEngine::Rendering::ProbeVolumeStreamableAsset*& __cordl_internal_get_cellBricksDataAsset() ;
 
-  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::Rendering::ProbeReferenceVolume_CellData*>* const& __cordl_internal_get_cellDataMap() const;
+constexpr ::System::Collections::Generic::Dictionary_2<int32_t,::UnityEngine::Rendering::ProbeReferenceVolume_CellData*>* const& __cordl_internal_get_cellDataMap() const;
 
-  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::Rendering::ProbeReferenceVolume_CellData*>*& __cordl_internal_get_cellDataMap();
+constexpr ::System::Collections::Generic::Dictionary_2<int32_t,::UnityEngine::Rendering::ProbeReferenceVolume_CellData*>*& __cordl_internal_get_cellDataMap() ;
 
-  constexpr ::UnityEngine::Rendering::SerializedDictionary_2<int32_t, ::UnityEngine::Rendering::ProbeReferenceVolume_CellDesc*>* const& __cordl_internal_get_cellDescs() const;
+constexpr ::UnityEngine::Rendering::SerializedDictionary_2<int32_t,::UnityEngine::Rendering::ProbeReferenceVolume_CellDesc*>* const& __cordl_internal_get_cellDescs() const;
 
-  constexpr ::UnityEngine::Rendering::SerializedDictionary_2<int32_t, ::UnityEngine::Rendering::ProbeReferenceVolume_CellDesc*>*& __cordl_internal_get_cellDescs();
+constexpr ::UnityEngine::Rendering::SerializedDictionary_2<int32_t,::UnityEngine::Rendering::ProbeReferenceVolume_CellDesc*>*& __cordl_internal_get_cellDescs() ;
 
-  constexpr ::UnityEngine::Rendering::ProbeVolumeStreamableAsset* const& __cordl_internal_get_cellSharedDataAsset() const;
+constexpr ::UnityEngine::Rendering::ProbeVolumeStreamableAsset* const& __cordl_internal_get_cellSharedDataAsset() const;
 
-  constexpr ::UnityEngine::Rendering::ProbeVolumeStreamableAsset*& __cordl_internal_get_cellSharedDataAsset();
+constexpr ::UnityEngine::Rendering::ProbeVolumeStreamableAsset*& __cordl_internal_get_cellSharedDataAsset() ;
 
-  constexpr ::UnityEngine::Rendering::ProbeVolumeStreamableAsset* const& __cordl_internal_get_cellSupportDataAsset() const;
+constexpr ::UnityEngine::Rendering::ProbeVolumeStreamableAsset* const& __cordl_internal_get_cellSupportDataAsset() const;
 
-  constexpr ::UnityEngine::Rendering::ProbeVolumeStreamableAsset*& __cordl_internal_get_cellSupportDataAsset();
+constexpr ::UnityEngine::Rendering::ProbeVolumeStreamableAsset*& __cordl_internal_get_cellSupportDataAsset() ;
 
-  constexpr int32_t const& __cordl_internal_get_chunkSizeInBricks() const;
+constexpr int32_t const& __cordl_internal_get_chunkSizeInBricks() const;
 
-  constexpr int32_t& __cordl_internal_get_chunkSizeInBricks();
+constexpr int32_t& __cordl_internal_get_chunkSizeInBricks() ;
 
-  constexpr bool const& __cordl_internal_get_dialogNoProbeVolumeInSetShown() const;
+constexpr bool const& __cordl_internal_get_dialogNoProbeVolumeInSetShown() const;
 
-  constexpr bool& __cordl_internal_get_dialogNoProbeVolumeInSetShown();
+constexpr bool& __cordl_internal_get_dialogNoProbeVolumeInSetShown() ;
 
-  constexpr bool const& __cordl_internal_get_freezePlacement() const;
+constexpr bool const& __cordl_internal_get_freezePlacement() const;
 
-  constexpr bool& __cordl_internal_get_freezePlacement();
+constexpr bool& __cordl_internal_get_freezePlacement() ;
 
-  constexpr ::UnityEngine::Bounds const& __cordl_internal_get_globalBounds() const;
+constexpr ::UnityEngine::Bounds const& __cordl_internal_get_globalBounds() const;
 
-  constexpr ::UnityEngine::Bounds& __cordl_internal_get_globalBounds();
+constexpr ::UnityEngine::Bounds& __cordl_internal_get_globalBounds() ;
 
-  constexpr ::StringW const& __cordl_internal_get_lightingScenario() const;
+constexpr ::StringW const& __cordl_internal_get_lightingScenario() const;
 
-  constexpr ::StringW& __cordl_internal_get_lightingScenario();
+constexpr ::StringW& __cordl_internal_get_lightingScenario() ;
 
-  constexpr bool const& __cordl_internal_get_m_HasSupportData() const;
+constexpr bool const& __cordl_internal_get_m_HasSupportData() const;
 
-  constexpr bool& __cordl_internal_get_m_HasSupportData();
+constexpr bool& __cordl_internal_get_m_HasSupportData() ;
 
-  constexpr ::System::Collections::Generic::List_1<::StringW>* const& __cordl_internal_get_m_LightingScenarios() const;
+constexpr ::System::Collections::Generic::List_1<::StringW>* const& __cordl_internal_get_m_LightingScenarios() const;
 
-  constexpr ::System::Collections::Generic::List_1<::StringW>*& __cordl_internal_get_m_LightingScenarios();
+constexpr ::System::Collections::Generic::List_1<::StringW>*& __cordl_internal_get_m_LightingScenarios() ;
 
-  constexpr ::StringW const& __cordl_internal_get_m_OtherScenario() const;
+constexpr ::StringW const& __cordl_internal_get_m_OtherScenario() const;
 
-  constexpr ::StringW& __cordl_internal_get_m_OtherScenario();
+constexpr ::StringW& __cordl_internal_get_m_OtherScenario() ;
 
-  constexpr ::System::Collections::Generic::List_1<int32_t>* const& __cordl_internal_get_m_PrunedIndexList() const;
+constexpr ::System::Collections::Generic::List_1<int32_t>* const& __cordl_internal_get_m_PrunedIndexList() const;
 
-  constexpr ::System::Collections::Generic::List_1<int32_t>*& __cordl_internal_get_m_PrunedIndexList();
+constexpr ::System::Collections::Generic::List_1<int32_t>*& __cordl_internal_get_m_PrunedIndexList() ;
 
-  constexpr ::System::Collections::Generic::List_1<int32_t>* const& __cordl_internal_get_m_PrunedScenarioIndexList() const;
+constexpr ::System::Collections::Generic::List_1<int32_t>* const& __cordl_internal_get_m_PrunedScenarioIndexList() const;
 
-  constexpr ::System::Collections::Generic::List_1<int32_t>*& __cordl_internal_get_m_PrunedScenarioIndexList();
+constexpr ::System::Collections::Generic::List_1<int32_t>*& __cordl_internal_get_m_PrunedScenarioIndexList() ;
 
-  constexpr ::Unity::IO::LowLevel::Unsafe::ReadCommandArray const& __cordl_internal_get_m_ReadCommandArray() const;
+constexpr ::Unity::IO::LowLevel::Unsafe::ReadCommandArray const& __cordl_internal_get_m_ReadCommandArray() const;
 
-  constexpr ::Unity::IO::LowLevel::Unsafe::ReadCommandArray& __cordl_internal_get_m_ReadCommandArray();
+constexpr ::Unity::IO::LowLevel::Unsafe::ReadCommandArray& __cordl_internal_get_m_ReadCommandArray() ;
 
-  constexpr ::Unity::Collections::NativeArray_1<::Unity::IO::LowLevel::Unsafe::ReadCommand> const& __cordl_internal_get_m_ReadCommandBuffer() const;
+constexpr ::Unity::Collections::NativeArray_1<::Unity::IO::LowLevel::Unsafe::ReadCommand> const& __cordl_internal_get_m_ReadCommandBuffer() const;
 
-  constexpr ::Unity::Collections::NativeArray_1<::Unity::IO::LowLevel::Unsafe::ReadCommand>& __cordl_internal_get_m_ReadCommandBuffer();
+constexpr ::Unity::Collections::NativeArray_1<::Unity::IO::LowLevel::Unsafe::ReadCommand>& __cordl_internal_get_m_ReadCommandBuffer() ;
 
-  constexpr ::System::Collections::Generic::Stack_1<::Unity::Collections::NativeArray_1<uint8_t>>* const& __cordl_internal_get_m_ReadOperationScratchBuffers() const;
+constexpr ::System::Collections::Generic::Stack_1<::Unity::Collections::NativeArray_1<uint8_t>>* const& __cordl_internal_get_m_ReadOperationScratchBuffers() const;
 
-  constexpr ::System::Collections::Generic::Stack_1<::Unity::Collections::NativeArray_1<uint8_t>>*& __cordl_internal_get_m_ReadOperationScratchBuffers();
+constexpr ::System::Collections::Generic::Stack_1<::Unity::Collections::NativeArray_1<uint8_t>>*& __cordl_internal_get_m_ReadOperationScratchBuffers() ;
 
-  constexpr float_t const& __cordl_internal_get_m_ScenarioBlendingFactor() const;
+constexpr float_t const& __cordl_internal_get_m_ScenarioBlendingFactor() const;
 
-  constexpr float_t& __cordl_internal_get_m_ScenarioBlendingFactor();
+constexpr float_t& __cordl_internal_get_m_ScenarioBlendingFactor() ;
 
-  constexpr ::System::Collections::Generic::List_1<::StringW>* const& __cordl_internal_get_m_SceneGUIDs() const;
+constexpr ::System::Collections::Generic::List_1<::StringW>* const& __cordl_internal_get_m_SceneGUIDs() const;
 
-  constexpr ::System::Collections::Generic::List_1<::StringW>*& __cordl_internal_get_m_SceneGUIDs();
+constexpr ::System::Collections::Generic::List_1<::StringW>*& __cordl_internal_get_m_SceneGUIDs() ;
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Rendering::ProbeVolumeBakingSet_SerializedPerSceneCellList>* const& __cordl_internal_get_m_SerializedPerSceneCellList() const;
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::Rendering::ProbeVolumeBakingSet_SerializedPerSceneCellList>* const& __cordl_internal_get_m_SerializedPerSceneCellList() const;
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Rendering::ProbeVolumeBakingSet_SerializedPerSceneCellList>*& __cordl_internal_get_m_SerializedPerSceneCellList();
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::Rendering::ProbeVolumeBakingSet_SerializedPerSceneCellList>*& __cordl_internal_get_m_SerializedPerSceneCellList() ;
 
-  constexpr bool const& __cordl_internal_get_m_SharedDataIsValid() const;
+constexpr bool const& __cordl_internal_get_m_SharedDataIsValid() const;
 
-  constexpr bool& __cordl_internal_get_m_SharedDataIsValid();
+constexpr bool& __cordl_internal_get_m_SharedDataIsValid() ;
 
-  constexpr ::System::Collections::Generic::List_1<int32_t>* const& __cordl_internal_get_m_TotalIndexList() const;
+constexpr ::System::Collections::Generic::List_1<int32_t>* const& __cordl_internal_get_m_TotalIndexList() const;
 
-  constexpr ::System::Collections::Generic::List_1<int32_t>*& __cordl_internal_get_m_TotalIndexList();
+constexpr ::System::Collections::Generic::List_1<int32_t>*& __cordl_internal_get_m_TotalIndexList() ;
 
-  constexpr bool const& __cordl_internal_get_m_UseStreamingAsset() const;
+constexpr bool const& __cordl_internal_get_m_UseStreamingAsset() const;
 
-  constexpr bool& __cordl_internal_get_m_UseStreamingAsset();
+constexpr bool& __cordl_internal_get_m_UseStreamingAsset() ;
 
-  constexpr ::UnityEngine::Vector3Int const& __cordl_internal_get_maxCellPosition() const;
+constexpr ::UnityEngine::Vector3Int const& __cordl_internal_get_maxCellPosition() const;
 
-  constexpr ::UnityEngine::Vector3Int& __cordl_internal_get_maxCellPosition();
+constexpr ::UnityEngine::Vector3Int& __cordl_internal_get_maxCellPosition() ;
 
-  constexpr int32_t const& __cordl_internal_get_maxSHChunkCount() const;
+constexpr int32_t const& __cordl_internal_get_maxSHChunkCount() const;
 
-  constexpr int32_t& __cordl_internal_get_maxSHChunkCount();
+constexpr int32_t& __cordl_internal_get_maxSHChunkCount() ;
 
-  constexpr ::UnityEngine::Vector3Int const& __cordl_internal_get_minCellPosition() const;
+constexpr ::UnityEngine::Vector3Int const& __cordl_internal_get_minCellPosition() const;
 
-  constexpr ::UnityEngine::Vector3Int& __cordl_internal_get_minCellPosition();
+constexpr ::UnityEngine::Vector3Int& __cordl_internal_get_minCellPosition() ;
 
-  constexpr float_t const& __cordl_internal_get_minDistanceBetweenProbes() const;
+constexpr float_t const& __cordl_internal_get_minDistanceBetweenProbes() const;
 
-  constexpr float_t& __cordl_internal_get_minDistanceBetweenProbes();
+constexpr float_t& __cordl_internal_get_minDistanceBetweenProbes() ;
 
-  constexpr float_t const& __cordl_internal_get_minRendererVolumeSize() const;
+constexpr float_t const& __cordl_internal_get_minRendererVolumeSize() const;
 
-  constexpr float_t& __cordl_internal_get_minRendererVolumeSize();
+constexpr float_t& __cordl_internal_get_minRendererVolumeSize() ;
 
-  constexpr ::System::Collections::Generic::List_1<::StringW>* const& __cordl_internal_get_obsoleteScenesToNotBake() const;
+constexpr ::System::Collections::Generic::List_1<::StringW>* const& __cordl_internal_get_obsoleteScenesToNotBake() const;
 
-  constexpr ::System::Collections::Generic::List_1<::StringW>*& __cordl_internal_get_obsoleteScenesToNotBake();
+constexpr ::System::Collections::Generic::List_1<::StringW>*& __cordl_internal_get_obsoleteScenesToNotBake() ;
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<int32_t>*>* const& __cordl_internal_get_perSceneCellLists() const;
+constexpr ::System::Collections::Generic::Dictionary_2<::StringW,::System::Collections::Generic::List_1<int32_t>*>* const& __cordl_internal_get_perSceneCellLists() const;
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<int32_t>*>*& __cordl_internal_get_perSceneCellLists();
+constexpr ::System::Collections::Generic::Dictionary_2<::StringW,::System::Collections::Generic::List_1<int32_t>*>*& __cordl_internal_get_perSceneCellLists() ;
 
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_probeOffset() const;
+constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_probeOffset() const;
 
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_probeOffset();
+constexpr ::UnityEngine::Vector3& __cordl_internal_get_probeOffset() ;
 
-  constexpr ::UnityEngine::LayerMask const& __cordl_internal_get_renderersLayerMask() const;
+constexpr ::UnityEngine::LayerMask const& __cordl_internal_get_renderersLayerMask() const;
 
-  constexpr ::UnityEngine::LayerMask& __cordl_internal_get_renderersLayerMask();
+constexpr ::UnityEngine::LayerMask& __cordl_internal_get_renderersLayerMask() ;
 
-  constexpr ::ArrayW<::UnityEngine::Rendering::ProbeVolumeBakingSet_ProbeLayerMask, ::Array<::UnityEngine::Rendering::ProbeVolumeBakingSet_ProbeLayerMask>*> const&
-  __cordl_internal_get_renderingLayerMasks() const;
+constexpr ::ArrayW<::UnityEngine::Rendering::ProbeVolumeBakingSet_ProbeLayerMask,::Array<::UnityEngine::Rendering::ProbeVolumeBakingSet_ProbeLayerMask>*> const& __cordl_internal_get_renderingLayerMasks() const;
 
-  constexpr ::ArrayW<::UnityEngine::Rendering::ProbeVolumeBakingSet_ProbeLayerMask, ::Array<::UnityEngine::Rendering::ProbeVolumeBakingSet_ProbeLayerMask>*>&
-  __cordl_internal_get_renderingLayerMasks();
+constexpr ::ArrayW<::UnityEngine::Rendering::ProbeVolumeBakingSet_ProbeLayerMask,::Array<::UnityEngine::Rendering::ProbeVolumeBakingSet_ProbeLayerMask>*>& __cordl_internal_get_renderingLayerMasks() ;
 
-  constexpr ::UnityEngine::Rendering::SerializedDictionary_2<::StringW, ::UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo*>* const& __cordl_internal_get_scenarios() const;
+constexpr ::UnityEngine::Rendering::SerializedDictionary_2<::StringW,::UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo*>* const& __cordl_internal_get_scenarios() const;
 
-  constexpr ::UnityEngine::Rendering::SerializedDictionary_2<::StringW, ::UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo*>*& __cordl_internal_get_scenarios();
+constexpr ::UnityEngine::Rendering::SerializedDictionary_2<::StringW,::UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo*>*& __cordl_internal_get_scenarios() ;
 
-  constexpr ::UnityEngine::Rendering::ProbeVolumeBakingProcessSettings const& __cordl_internal_get_settings() const;
+constexpr ::UnityEngine::Rendering::ProbeVolumeBakingProcessSettings const& __cordl_internal_get_settings() const;
 
-  constexpr ::UnityEngine::Rendering::ProbeVolumeBakingProcessSettings& __cordl_internal_get_settings();
+constexpr ::UnityEngine::Rendering::ProbeVolumeBakingProcessSettings& __cordl_internal_get_settings() ;
 
-  constexpr int32_t const& __cordl_internal_get_sharedDataChunkSize() const;
+constexpr int32_t const& __cordl_internal_get_sharedDataChunkSize() const;
 
-  constexpr int32_t& __cordl_internal_get_sharedDataChunkSize();
+constexpr int32_t& __cordl_internal_get_sharedDataChunkSize() ;
 
-  constexpr int32_t const& __cordl_internal_get_sharedSkyOcclusionL0L1ChunkSize() const;
+constexpr int32_t const& __cordl_internal_get_sharedSkyOcclusionL0L1ChunkSize() const;
 
-  constexpr int32_t& __cordl_internal_get_sharedSkyOcclusionL0L1ChunkSize();
+constexpr int32_t& __cordl_internal_get_sharedSkyOcclusionL0L1ChunkSize() ;
 
-  constexpr int32_t const& __cordl_internal_get_sharedSkyShadingDirectionIndicesChunkSize() const;
+constexpr int32_t const& __cordl_internal_get_sharedSkyShadingDirectionIndicesChunkSize() const;
 
-  constexpr int32_t& __cordl_internal_get_sharedSkyShadingDirectionIndicesChunkSize();
+constexpr int32_t& __cordl_internal_get_sharedSkyShadingDirectionIndicesChunkSize() ;
 
-  constexpr int32_t const& __cordl_internal_get_sharedValidityMaskChunkSize() const;
+constexpr int32_t const& __cordl_internal_get_sharedValidityMaskChunkSize() const;
 
-  constexpr int32_t& __cordl_internal_get_sharedValidityMaskChunkSize();
+constexpr int32_t& __cordl_internal_get_sharedValidityMaskChunkSize() ;
 
-  constexpr int32_t const& __cordl_internal_get_simplificationLevels() const;
+constexpr int32_t const& __cordl_internal_get_simplificationLevels() const;
 
-  constexpr int32_t& __cordl_internal_get_simplificationLevels();
+constexpr int32_t& __cordl_internal_get_simplificationLevels() ;
 
-  constexpr bool const& __cordl_internal_get_singleSceneMode() const;
+constexpr bool const& __cordl_internal_get_singleSceneMode() const;
 
-  constexpr bool& __cordl_internal_get_singleSceneMode();
+constexpr bool& __cordl_internal_get_singleSceneMode() ;
 
-  constexpr bool const& __cordl_internal_get_skyOcclusion() const;
+constexpr bool const& __cordl_internal_get_skyOcclusion() const;
 
-  constexpr bool& __cordl_internal_get_skyOcclusion();
+constexpr bool& __cordl_internal_get_skyOcclusion() ;
 
-  constexpr float_t const& __cordl_internal_get_skyOcclusionAverageAlbedo() const;
+constexpr float_t const& __cordl_internal_get_skyOcclusionAverageAlbedo() const;
 
-  constexpr float_t& __cordl_internal_get_skyOcclusionAverageAlbedo();
+constexpr float_t& __cordl_internal_get_skyOcclusionAverageAlbedo() ;
 
-  constexpr bool const& __cordl_internal_get_skyOcclusionBackFaceCulling() const;
+constexpr bool const& __cordl_internal_get_skyOcclusionBackFaceCulling() const;
 
-  constexpr bool& __cordl_internal_get_skyOcclusionBackFaceCulling();
+constexpr bool& __cordl_internal_get_skyOcclusionBackFaceCulling() ;
 
-  constexpr int32_t const& __cordl_internal_get_skyOcclusionBakingBounces() const;
+constexpr int32_t const& __cordl_internal_get_skyOcclusionBakingBounces() const;
 
-  constexpr int32_t& __cordl_internal_get_skyOcclusionBakingBounces();
+constexpr int32_t& __cordl_internal_get_skyOcclusionBakingBounces() ;
 
-  constexpr int32_t const& __cordl_internal_get_skyOcclusionBakingSamples() const;
+constexpr int32_t const& __cordl_internal_get_skyOcclusionBakingSamples() const;
 
-  constexpr int32_t& __cordl_internal_get_skyOcclusionBakingSamples();
+constexpr int32_t& __cordl_internal_get_skyOcclusionBakingSamples() ;
 
-  constexpr bool const& __cordl_internal_get_skyOcclusionShadingDirection() const;
+constexpr bool const& __cordl_internal_get_skyOcclusionShadingDirection() const;
 
-  constexpr bool& __cordl_internal_get_skyOcclusionShadingDirection();
+constexpr bool& __cordl_internal_get_skyOcclusionShadingDirection() ;
 
-  constexpr int32_t const& __cordl_internal_get_supportDataChunkSize() const;
+constexpr int32_t const& __cordl_internal_get_supportDataChunkSize() const;
 
-  constexpr int32_t& __cordl_internal_get_supportDataChunkSize();
+constexpr int32_t& __cordl_internal_get_supportDataChunkSize() ;
 
-  constexpr int32_t const& __cordl_internal_get_supportLayerMaskChunkSize() const;
+constexpr int32_t const& __cordl_internal_get_supportLayerMaskChunkSize() const;
 
-  constexpr int32_t& __cordl_internal_get_supportLayerMaskChunkSize();
+constexpr int32_t& __cordl_internal_get_supportLayerMaskChunkSize() ;
 
-  constexpr int32_t const& __cordl_internal_get_supportOffsetsChunkSize() const;
+constexpr int32_t const& __cordl_internal_get_supportOffsetsChunkSize() const;
 
-  constexpr int32_t& __cordl_internal_get_supportOffsetsChunkSize();
+constexpr int32_t& __cordl_internal_get_supportOffsetsChunkSize() ;
 
-  constexpr int32_t const& __cordl_internal_get_supportPositionChunkSize() const;
+constexpr int32_t const& __cordl_internal_get_supportPositionChunkSize() const;
 
-  constexpr int32_t& __cordl_internal_get_supportPositionChunkSize();
+constexpr int32_t& __cordl_internal_get_supportPositionChunkSize() ;
 
-  constexpr int32_t const& __cordl_internal_get_supportTouchupChunkSize() const;
+constexpr int32_t const& __cordl_internal_get_supportTouchupChunkSize() const;
 
-  constexpr int32_t& __cordl_internal_get_supportTouchupChunkSize();
+constexpr int32_t& __cordl_internal_get_supportTouchupChunkSize() ;
 
-  constexpr int32_t const& __cordl_internal_get_supportValidityChunkSize() const;
+constexpr int32_t const& __cordl_internal_get_supportValidityChunkSize() const;
 
-  constexpr int32_t& __cordl_internal_get_supportValidityChunkSize();
+constexpr int32_t& __cordl_internal_get_supportValidityChunkSize() ;
 
-  constexpr bool const& __cordl_internal_get_useRenderingLayers() const;
+constexpr bool const& __cordl_internal_get_useRenderingLayers() const;
 
-  constexpr bool& __cordl_internal_get_useRenderingLayers();
+constexpr bool& __cordl_internal_get_useRenderingLayers() ;
 
-  constexpr ::UnityEngine::Rendering::ProbeVolumeBakingSet_Version const& __cordl_internal_get_version() const;
+constexpr ::UnityEngine::Rendering::ProbeVolumeBakingSet_Version const& __cordl_internal_get_version() const;
 
-  constexpr ::UnityEngine::Rendering::ProbeVolumeBakingSet_Version& __cordl_internal_get_version();
+constexpr ::UnityEngine::Rendering::ProbeVolumeBakingSet_Version& __cordl_internal_get_version() ;
 
-  constexpr void __cordl_internal_set_L0ChunkSize(int32_t value);
+constexpr void __cordl_internal_set_L0ChunkSize(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_L1ChunkSize(int32_t value);
+constexpr void __cordl_internal_set_L1ChunkSize(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_L2TextureChunkSize(int32_t value);
+constexpr void __cordl_internal_set_L2TextureChunkSize(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_ProbeOcclusionChunkSize(int32_t value);
+constexpr void __cordl_internal_set_ProbeOcclusionChunkSize(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_bakedLayerMasks(::Unity::Mathematics::uint4 value);
+constexpr void __cordl_internal_set_bakedLayerMasks(::Unity::Mathematics::uint4  value) ;
 
-  constexpr void __cordl_internal_set_bakedMaskCount(int32_t value);
+constexpr void __cordl_internal_set_bakedMaskCount(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_bakedMinDistanceBetweenProbes(float_t value);
+constexpr void __cordl_internal_set_bakedMinDistanceBetweenProbes(float_t  value) ;
 
-  constexpr void __cordl_internal_set_bakedProbeOcclusion(bool value);
+constexpr void __cordl_internal_set_bakedProbeOcclusion(bool  value) ;
 
-  constexpr void __cordl_internal_set_bakedProbeOffset(::UnityEngine::Vector3 value);
+constexpr void __cordl_internal_set_bakedProbeOffset(::UnityEngine::Vector3  value) ;
 
-  constexpr void __cordl_internal_set_bakedSimplificationLevels(int32_t value);
+constexpr void __cordl_internal_set_bakedSimplificationLevels(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_bakedSkyOcclusionValue(int32_t value);
+constexpr void __cordl_internal_set_bakedSkyOcclusionValue(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_bakedSkyShadingDirectionValue(int32_t value);
+constexpr void __cordl_internal_set_bakedSkyShadingDirectionValue(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_cellBricksDataAsset(::UnityEngine::Rendering::ProbeVolumeStreamableAsset* value);
+constexpr void __cordl_internal_set_cellBricksDataAsset(::UnityEngine::Rendering::ProbeVolumeStreamableAsset*  value) ;
 
-  constexpr void __cordl_internal_set_cellDataMap(::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::Rendering::ProbeReferenceVolume_CellData*>* value);
+constexpr void __cordl_internal_set_cellDataMap(::System::Collections::Generic::Dictionary_2<int32_t,::UnityEngine::Rendering::ProbeReferenceVolume_CellData*>*  value) ;
 
-  constexpr void __cordl_internal_set_cellDescs(::UnityEngine::Rendering::SerializedDictionary_2<int32_t, ::UnityEngine::Rendering::ProbeReferenceVolume_CellDesc*>* value);
+constexpr void __cordl_internal_set_cellDescs(::UnityEngine::Rendering::SerializedDictionary_2<int32_t,::UnityEngine::Rendering::ProbeReferenceVolume_CellDesc*>*  value) ;
 
-  constexpr void __cordl_internal_set_cellSharedDataAsset(::UnityEngine::Rendering::ProbeVolumeStreamableAsset* value);
+constexpr void __cordl_internal_set_cellSharedDataAsset(::UnityEngine::Rendering::ProbeVolumeStreamableAsset*  value) ;
 
-  constexpr void __cordl_internal_set_cellSupportDataAsset(::UnityEngine::Rendering::ProbeVolumeStreamableAsset* value);
+constexpr void __cordl_internal_set_cellSupportDataAsset(::UnityEngine::Rendering::ProbeVolumeStreamableAsset*  value) ;
 
-  constexpr void __cordl_internal_set_chunkSizeInBricks(int32_t value);
+constexpr void __cordl_internal_set_chunkSizeInBricks(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_dialogNoProbeVolumeInSetShown(bool value);
+constexpr void __cordl_internal_set_dialogNoProbeVolumeInSetShown(bool  value) ;
 
-  constexpr void __cordl_internal_set_freezePlacement(bool value);
+constexpr void __cordl_internal_set_freezePlacement(bool  value) ;
 
-  constexpr void __cordl_internal_set_globalBounds(::UnityEngine::Bounds value);
+constexpr void __cordl_internal_set_globalBounds(::UnityEngine::Bounds  value) ;
 
-  constexpr void __cordl_internal_set_lightingScenario(::StringW value);
+constexpr void __cordl_internal_set_lightingScenario(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_m_HasSupportData(bool value);
+constexpr void __cordl_internal_set_m_HasSupportData(bool  value) ;
 
-  constexpr void __cordl_internal_set_m_LightingScenarios(::System::Collections::Generic::List_1<::StringW>* value);
+constexpr void __cordl_internal_set_m_LightingScenarios(::System::Collections::Generic::List_1<::StringW>*  value) ;
 
-  constexpr void __cordl_internal_set_m_OtherScenario(::StringW value);
+constexpr void __cordl_internal_set_m_OtherScenario(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_m_PrunedIndexList(::System::Collections::Generic::List_1<int32_t>* value);
+constexpr void __cordl_internal_set_m_PrunedIndexList(::System::Collections::Generic::List_1<int32_t>*  value) ;
 
-  constexpr void __cordl_internal_set_m_PrunedScenarioIndexList(::System::Collections::Generic::List_1<int32_t>* value);
+constexpr void __cordl_internal_set_m_PrunedScenarioIndexList(::System::Collections::Generic::List_1<int32_t>*  value) ;
 
-  constexpr void __cordl_internal_set_m_ReadCommandArray(::Unity::IO::LowLevel::Unsafe::ReadCommandArray value);
+constexpr void __cordl_internal_set_m_ReadCommandArray(::Unity::IO::LowLevel::Unsafe::ReadCommandArray  value) ;
 
-  constexpr void __cordl_internal_set_m_ReadCommandBuffer(::Unity::Collections::NativeArray_1<::Unity::IO::LowLevel::Unsafe::ReadCommand> value);
+constexpr void __cordl_internal_set_m_ReadCommandBuffer(::Unity::Collections::NativeArray_1<::Unity::IO::LowLevel::Unsafe::ReadCommand>  value) ;
 
-  constexpr void __cordl_internal_set_m_ReadOperationScratchBuffers(::System::Collections::Generic::Stack_1<::Unity::Collections::NativeArray_1<uint8_t>>* value);
+constexpr void __cordl_internal_set_m_ReadOperationScratchBuffers(::System::Collections::Generic::Stack_1<::Unity::Collections::NativeArray_1<uint8_t>>*  value) ;
 
-  constexpr void __cordl_internal_set_m_ScenarioBlendingFactor(float_t value);
+constexpr void __cordl_internal_set_m_ScenarioBlendingFactor(float_t  value) ;
 
-  constexpr void __cordl_internal_set_m_SceneGUIDs(::System::Collections::Generic::List_1<::StringW>* value);
+constexpr void __cordl_internal_set_m_SceneGUIDs(::System::Collections::Generic::List_1<::StringW>*  value) ;
 
-  constexpr void __cordl_internal_set_m_SerializedPerSceneCellList(::System::Collections::Generic::List_1<::UnityEngine::Rendering::ProbeVolumeBakingSet_SerializedPerSceneCellList>* value);
+constexpr void __cordl_internal_set_m_SerializedPerSceneCellList(::System::Collections::Generic::List_1<::UnityEngine::Rendering::ProbeVolumeBakingSet_SerializedPerSceneCellList>*  value) ;
 
-  constexpr void __cordl_internal_set_m_SharedDataIsValid(bool value);
+constexpr void __cordl_internal_set_m_SharedDataIsValid(bool  value) ;
 
-  constexpr void __cordl_internal_set_m_TotalIndexList(::System::Collections::Generic::List_1<int32_t>* value);
+constexpr void __cordl_internal_set_m_TotalIndexList(::System::Collections::Generic::List_1<int32_t>*  value) ;
 
-  constexpr void __cordl_internal_set_m_UseStreamingAsset(bool value);
+constexpr void __cordl_internal_set_m_UseStreamingAsset(bool  value) ;
 
-  constexpr void __cordl_internal_set_maxCellPosition(::UnityEngine::Vector3Int value);
+constexpr void __cordl_internal_set_maxCellPosition(::UnityEngine::Vector3Int  value) ;
 
-  constexpr void __cordl_internal_set_maxSHChunkCount(int32_t value);
+constexpr void __cordl_internal_set_maxSHChunkCount(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_minCellPosition(::UnityEngine::Vector3Int value);
+constexpr void __cordl_internal_set_minCellPosition(::UnityEngine::Vector3Int  value) ;
 
-  constexpr void __cordl_internal_set_minDistanceBetweenProbes(float_t value);
+constexpr void __cordl_internal_set_minDistanceBetweenProbes(float_t  value) ;
 
-  constexpr void __cordl_internal_set_minRendererVolumeSize(float_t value);
+constexpr void __cordl_internal_set_minRendererVolumeSize(float_t  value) ;
 
-  constexpr void __cordl_internal_set_obsoleteScenesToNotBake(::System::Collections::Generic::List_1<::StringW>* value);
+constexpr void __cordl_internal_set_obsoleteScenesToNotBake(::System::Collections::Generic::List_1<::StringW>*  value) ;
 
-  constexpr void __cordl_internal_set_perSceneCellLists(::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<int32_t>*>* value);
+constexpr void __cordl_internal_set_perSceneCellLists(::System::Collections::Generic::Dictionary_2<::StringW,::System::Collections::Generic::List_1<int32_t>*>*  value) ;
 
-  constexpr void __cordl_internal_set_probeOffset(::UnityEngine::Vector3 value);
+constexpr void __cordl_internal_set_probeOffset(::UnityEngine::Vector3  value) ;
 
-  constexpr void __cordl_internal_set_renderersLayerMask(::UnityEngine::LayerMask value);
+constexpr void __cordl_internal_set_renderersLayerMask(::UnityEngine::LayerMask  value) ;
 
-  constexpr void
-  __cordl_internal_set_renderingLayerMasks(::ArrayW<::UnityEngine::Rendering::ProbeVolumeBakingSet_ProbeLayerMask, ::Array<::UnityEngine::Rendering::ProbeVolumeBakingSet_ProbeLayerMask>*> value);
+constexpr void __cordl_internal_set_renderingLayerMasks(::ArrayW<::UnityEngine::Rendering::ProbeVolumeBakingSet_ProbeLayerMask,::Array<::UnityEngine::Rendering::ProbeVolumeBakingSet_ProbeLayerMask>*>  value) ;
 
-  constexpr void __cordl_internal_set_scenarios(::UnityEngine::Rendering::SerializedDictionary_2<::StringW, ::UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo*>* value);
+constexpr void __cordl_internal_set_scenarios(::UnityEngine::Rendering::SerializedDictionary_2<::StringW,::UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo*>*  value) ;
 
-  constexpr void __cordl_internal_set_settings(::UnityEngine::Rendering::ProbeVolumeBakingProcessSettings value);
+constexpr void __cordl_internal_set_settings(::UnityEngine::Rendering::ProbeVolumeBakingProcessSettings  value) ;
 
-  constexpr void __cordl_internal_set_sharedDataChunkSize(int32_t value);
+constexpr void __cordl_internal_set_sharedDataChunkSize(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_sharedSkyOcclusionL0L1ChunkSize(int32_t value);
+constexpr void __cordl_internal_set_sharedSkyOcclusionL0L1ChunkSize(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_sharedSkyShadingDirectionIndicesChunkSize(int32_t value);
+constexpr void __cordl_internal_set_sharedSkyShadingDirectionIndicesChunkSize(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_sharedValidityMaskChunkSize(int32_t value);
+constexpr void __cordl_internal_set_sharedValidityMaskChunkSize(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_simplificationLevels(int32_t value);
+constexpr void __cordl_internal_set_simplificationLevels(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_singleSceneMode(bool value);
+constexpr void __cordl_internal_set_singleSceneMode(bool  value) ;
 
-  constexpr void __cordl_internal_set_skyOcclusion(bool value);
+constexpr void __cordl_internal_set_skyOcclusion(bool  value) ;
 
-  constexpr void __cordl_internal_set_skyOcclusionAverageAlbedo(float_t value);
+constexpr void __cordl_internal_set_skyOcclusionAverageAlbedo(float_t  value) ;
 
-  constexpr void __cordl_internal_set_skyOcclusionBackFaceCulling(bool value);
+constexpr void __cordl_internal_set_skyOcclusionBackFaceCulling(bool  value) ;
 
-  constexpr void __cordl_internal_set_skyOcclusionBakingBounces(int32_t value);
+constexpr void __cordl_internal_set_skyOcclusionBakingBounces(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_skyOcclusionBakingSamples(int32_t value);
+constexpr void __cordl_internal_set_skyOcclusionBakingSamples(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_skyOcclusionShadingDirection(bool value);
+constexpr void __cordl_internal_set_skyOcclusionShadingDirection(bool  value) ;
 
-  constexpr void __cordl_internal_set_supportDataChunkSize(int32_t value);
+constexpr void __cordl_internal_set_supportDataChunkSize(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_supportLayerMaskChunkSize(int32_t value);
+constexpr void __cordl_internal_set_supportLayerMaskChunkSize(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_supportOffsetsChunkSize(int32_t value);
+constexpr void __cordl_internal_set_supportOffsetsChunkSize(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_supportPositionChunkSize(int32_t value);
+constexpr void __cordl_internal_set_supportPositionChunkSize(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_supportTouchupChunkSize(int32_t value);
+constexpr void __cordl_internal_set_supportTouchupChunkSize(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_supportValidityChunkSize(int32_t value);
+constexpr void __cordl_internal_set_supportValidityChunkSize(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_useRenderingLayers(bool value);
+constexpr void __cordl_internal_set_useRenderingLayers(bool  value) ;
 
-  constexpr void __cordl_internal_set_version(::UnityEngine::Rendering::ProbeVolumeBakingSet_Version value);
+constexpr void __cordl_internal_set_version(::UnityEngine::Rendering::ProbeVolumeBakingSet_Version  value) ;
 
-  /// @brief Method .ctor, addr 0x665138c, size 0x470, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6652f04, size 0x470, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_bakedSkyOcclusion, addr 0x664d3bc, size 0x10, virtual false, abstract: false, final false
-  inline bool get_bakedSkyOcclusion();
+/// @brief Method get_bakedSkyOcclusion, addr 0x664ef34, size 0x10, virtual false, abstract: false, final false
+inline bool get_bakedSkyOcclusion() ;
 
-  /// @brief Method get_bakedSkyShadingDirection, addr 0x664d3e4, size 0x10, virtual false, abstract: false, final false
-  inline bool get_bakedSkyShadingDirection();
+/// @brief Method get_bakedSkyShadingDirection, addr 0x664ef5c, size 0x10, virtual false, abstract: false, final false
+inline bool get_bakedSkyShadingDirection() ;
 
-  /// @brief Method get_cellSizeInBricks, addr 0x664d41c, size 0x34, virtual false, abstract: false, final false
-  inline int32_t get_cellSizeInBricks();
+/// @brief Method get_cellSizeInBricks, addr 0x664ef94, size 0x34, virtual false, abstract: false, final false
+inline int32_t get_cellSizeInBricks() ;
 
-  /// @brief Method get_cellSizeInMeters, addr 0x664d4d0, size 0x64, virtual false, abstract: false, final false
-  inline float_t get_cellSizeInMeters();
+/// @brief Method get_cellSizeInMeters, addr 0x664f048, size 0x64, virtual false, abstract: false, final false
+inline float_t get_cellSizeInMeters() ;
 
-  /// @brief Method get_hasDilation, addr 0x664d38c, size 0x20, virtual false, abstract: false, final false
-  inline bool get_hasDilation();
+/// @brief Method get_hasDilation, addr 0x664ef04, size 0x20, virtual false, abstract: false, final false
+inline bool get_hasDilation() ;
 
-  /// @brief Method get_lightingScenarios, addr 0x664d3b4, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::IReadOnlyList_1<::StringW>* get_lightingScenarios();
+/// @brief Method get_lightingScenarios, addr 0x664ef2c, size 0x8, virtual false, abstract: false, final false
+inline ::System::Collections::Generic::IReadOnlyList_1<::StringW>* get_lightingScenarios() ;
 
-  /// @brief Method get_maxSubdivision, addr 0x664d480, size 0xc, virtual false, abstract: false, final false
-  inline int32_t get_maxSubdivision();
+/// @brief Method get_maxSubdivision, addr 0x664eff8, size 0xc, virtual false, abstract: false, final false
+inline int32_t get_maxSubdivision() ;
 
-  /// @brief Method get_minBrickSize, addr 0x664d494, size 0x20, virtual false, abstract: false, final false
-  inline float_t get_minBrickSize();
+/// @brief Method get_minBrickSize, addr 0x664f00c, size 0x20, virtual false, abstract: false, final false
+inline float_t get_minBrickSize() ;
 
-  /// @brief Method get_otherScenario, addr 0x664d40c, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_otherScenario();
+/// @brief Method get_otherScenario, addr 0x664ef84, size 0x8, virtual false, abstract: false, final false
+inline ::StringW get_otherScenario() ;
 
-  /// @brief Method get_scenarioBlendingFactor, addr 0x664d414, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_scenarioBlendingFactor();
+/// @brief Method get_scenarioBlendingFactor, addr 0x664ef8c, size 0x8, virtual false, abstract: false, final false
+inline float_t get_scenarioBlendingFactor() ;
 
-  /// @brief Method get_sceneGUIDs, addr 0x664d3ac, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::IReadOnlyList_1<::StringW>* get_sceneGUIDs();
+/// @brief Method get_sceneGUIDs, addr 0x664ef24, size 0x8, virtual false, abstract: false, final false
+inline ::System::Collections::Generic::IReadOnlyList_1<::StringW>* get_sceneGUIDs() ;
 
-  /// @brief Convert to "::UnityEngine::ISerializationCallbackReceiver"
-  constexpr ::UnityEngine::ISerializationCallbackReceiver* i___UnityEngine__ISerializationCallbackReceiver() noexcept;
+/// @brief Convert to "::UnityEngine::ISerializationCallbackReceiver"
+constexpr ::UnityEngine::ISerializationCallbackReceiver* i___UnityEngine__ISerializationCallbackReceiver() noexcept;
 
-  /// @brief Method set_bakedSkyOcclusion, addr 0x664d3cc, size 0x18, virtual false, abstract: false, final false
-  inline void set_bakedSkyOcclusion(bool value);
+/// @brief Method set_bakedSkyOcclusion, addr 0x664ef44, size 0x18, virtual false, abstract: false, final false
+inline void set_bakedSkyOcclusion(bool  value) ;
 
-  /// @brief Method set_bakedSkyShadingDirection, addr 0x664d3f4, size 0x18, virtual false, abstract: false, final false
-  inline void set_bakedSkyShadingDirection(bool value);
+/// @brief Method set_bakedSkyShadingDirection, addr 0x664ef6c, size 0x18, virtual false, abstract: false, final false
+inline void set_bakedSkyShadingDirection(bool  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ProbeVolumeBakingSet();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ProbeVolumeBakingSet() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ProbeVolumeBakingSet", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ProbeVolumeBakingSet(ProbeVolumeBakingSet&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ProbeVolumeBakingSet", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ProbeVolumeBakingSet(ProbeVolumeBakingSet const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ProbeVolumeBakingSet", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ProbeVolumeBakingSet(ProbeVolumeBakingSet && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12124 };
+// Ctor Parameters [CppParam { name: "", ty: "ProbeVolumeBakingSet", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ProbeVolumeBakingSet(ProbeVolumeBakingSet const& ) = delete;
 
-  /// @brief Field k_MaxSkyOcclusionBakingSamples offset 0xffffffff size 0x4
-  static constexpr int32_t k_MaxSkyOcclusionBakingSamples{ static_cast<int32_t>(0x2000) };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12125};
 
-  /// @brief Field singleSceneMode, offset: 0x18, size: 0x1, def value: None
-  bool ___singleSceneMode;
+/// @brief Field k_MaxSkyOcclusionBakingSamples offset 0xffffffff size 0x4
+static constexpr int32_t  k_MaxSkyOcclusionBakingSamples{static_cast<int32_t>(0x2000)};
 
-  /// @brief Field dialogNoProbeVolumeInSetShown, offset: 0x19, size: 0x1, def value: None
-  bool ___dialogNoProbeVolumeInSetShown;
+/// @brief Field singleSceneMode, offset: 0x18, size: 0x1, def value: None
+ bool  ___singleSceneMode;
 
-  /// @brief Field settings, offset: 0x1c, size: 0x30, def value: None
-  ::UnityEngine::Rendering::ProbeVolumeBakingProcessSettings ___settings;
+/// @brief Field dialogNoProbeVolumeInSetShown, offset: 0x19, size: 0x1, def value: None
+ bool  ___dialogNoProbeVolumeInSetShown;
 
-  /// @brief Field m_SceneGUIDs, offset: 0x50, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::StringW>* ___m_SceneGUIDs;
+/// @brief Field settings, offset: 0x1c, size: 0x30, def value: None
+ ::UnityEngine::Rendering::ProbeVolumeBakingProcessSettings  ___settings;
 
-  /// @brief Field obsoleteScenesToNotBake, offset: 0x58, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::StringW>* ___obsoleteScenesToNotBake;
+/// @brief Field m_SceneGUIDs, offset: 0x50, size: 0x8, def value: None
+ ::System::Collections::Generic::List_1<::StringW>*  ___m_SceneGUIDs;
 
-  /// @brief Field m_LightingScenarios, offset: 0x60, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::StringW>* ___m_LightingScenarios;
+/// @brief Field obsoleteScenesToNotBake, offset: 0x58, size: 0x8, def value: None
+ ::System::Collections::Generic::List_1<::StringW>*  ___obsoleteScenesToNotBake;
 
-  /// @brief Field cellDescs, offset: 0x68, size: 0x8, def value: None
-  ::UnityEngine::Rendering::SerializedDictionary_2<int32_t, ::UnityEngine::Rendering::ProbeReferenceVolume_CellDesc*>* ___cellDescs;
+/// @brief Field m_LightingScenarios, offset: 0x60, size: 0x8, def value: None
+ ::System::Collections::Generic::List_1<::StringW>*  ___m_LightingScenarios;
 
-  /// @brief Field cellDataMap, offset: 0x70, size: 0x8, def value: None
-  ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::Rendering::ProbeReferenceVolume_CellData*>* ___cellDataMap;
+/// @brief Field cellDescs, offset: 0x68, size: 0x8, def value: None
+ ::UnityEngine::Rendering::SerializedDictionary_2<int32_t,::UnityEngine::Rendering::ProbeReferenceVolume_CellDesc*>*  ___cellDescs;
 
-  /// @brief Field m_TotalIndexList, offset: 0x78, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<int32_t>* ___m_TotalIndexList;
+/// @brief Field cellDataMap, offset: 0x70, size: 0x8, def value: None
+ ::System::Collections::Generic::Dictionary_2<int32_t,::UnityEngine::Rendering::ProbeReferenceVolume_CellData*>*  ___cellDataMap;
 
-  /// @brief Field m_SerializedPerSceneCellList, offset: 0x80, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::UnityEngine::Rendering::ProbeVolumeBakingSet_SerializedPerSceneCellList>* ___m_SerializedPerSceneCellList;
+/// @brief Field m_TotalIndexList, offset: 0x78, size: 0x8, def value: None
+ ::System::Collections::Generic::List_1<int32_t>*  ___m_TotalIndexList;
 
-  /// @brief Field perSceneCellLists, offset: 0x88, size: 0x8, def value: None
-  ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<int32_t>*>* ___perSceneCellLists;
+/// @brief Field m_SerializedPerSceneCellList, offset: 0x80, size: 0x8, def value: None
+ ::System::Collections::Generic::List_1<::UnityEngine::Rendering::ProbeVolumeBakingSet_SerializedPerSceneCellList>*  ___m_SerializedPerSceneCellList;
 
-  /// @brief Field cellSharedDataAsset, offset: 0x90, size: 0x8, def value: None
-  ::UnityEngine::Rendering::ProbeVolumeStreamableAsset* ___cellSharedDataAsset;
+/// @brief Field perSceneCellLists, offset: 0x88, size: 0x8, def value: None
+ ::System::Collections::Generic::Dictionary_2<::StringW,::System::Collections::Generic::List_1<int32_t>*>*  ___perSceneCellLists;
 
-  /// @brief Field scenarios, offset: 0x98, size: 0x8, def value: None
-  ::UnityEngine::Rendering::SerializedDictionary_2<::StringW, ::UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo*>* ___scenarios;
+/// @brief Field cellSharedDataAsset, offset: 0x90, size: 0x8, def value: None
+ ::UnityEngine::Rendering::ProbeVolumeStreamableAsset*  ___cellSharedDataAsset;
 
-  /// @brief Field cellBricksDataAsset, offset: 0xa0, size: 0x8, def value: None
-  ::UnityEngine::Rendering::ProbeVolumeStreamableAsset* ___cellBricksDataAsset;
+/// @brief Field scenarios, offset: 0x98, size: 0x8, def value: None
+ ::UnityEngine::Rendering::SerializedDictionary_2<::StringW,::UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo*>*  ___scenarios;
 
-  /// @brief Field cellSupportDataAsset, offset: 0xa8, size: 0x8, def value: None
-  ::UnityEngine::Rendering::ProbeVolumeStreamableAsset* ___cellSupportDataAsset;
+/// @brief Field cellBricksDataAsset, offset: 0xa0, size: 0x8, def value: None
+ ::UnityEngine::Rendering::ProbeVolumeStreamableAsset*  ___cellBricksDataAsset;
 
-  /// @brief Field chunkSizeInBricks, offset: 0xb0, size: 0x4, def value: None
-  int32_t ___chunkSizeInBricks;
+/// @brief Field cellSupportDataAsset, offset: 0xa8, size: 0x8, def value: None
+ ::UnityEngine::Rendering::ProbeVolumeStreamableAsset*  ___cellSupportDataAsset;
 
-  /// @brief Field maxCellPosition, offset: 0xb4, size: 0xc, def value: None
-  ::UnityEngine::Vector3Int ___maxCellPosition;
+/// @brief Field chunkSizeInBricks, offset: 0xb0, size: 0x4, def value: None
+ int32_t  ___chunkSizeInBricks;
 
-  /// @brief Field minCellPosition, offset: 0xc0, size: 0xc, def value: None
-  ::UnityEngine::Vector3Int ___minCellPosition;
+/// @brief Field maxCellPosition, offset: 0xb4, size: 0xc, def value: None
+ ::UnityEngine::Vector3Int  ___maxCellPosition;
 
-  /// @brief Field globalBounds, offset: 0xcc, size: 0x18, def value: None
-  ::UnityEngine::Bounds ___globalBounds;
+/// @brief Field minCellPosition, offset: 0xc0, size: 0xc, def value: None
+ ::UnityEngine::Vector3Int  ___minCellPosition;
 
-  /// @brief Field bakedSimplificationLevels, offset: 0xe4, size: 0x4, def value: None
-  int32_t ___bakedSimplificationLevels;
+/// @brief Field globalBounds, offset: 0xcc, size: 0x18, def value: None
+ ::UnityEngine::Bounds  ___globalBounds;
 
-  /// @brief Field bakedMinDistanceBetweenProbes, offset: 0xe8, size: 0x4, def value: None
-  float_t ___bakedMinDistanceBetweenProbes;
+/// @brief Field bakedSimplificationLevels, offset: 0xe4, size: 0x4, def value: None
+ int32_t  ___bakedSimplificationLevels;
 
-  /// @brief Field bakedProbeOcclusion, offset: 0xec, size: 0x1, def value: None
-  bool ___bakedProbeOcclusion;
+/// @brief Field bakedMinDistanceBetweenProbes, offset: 0xe8, size: 0x4, def value: None
+ float_t  ___bakedMinDistanceBetweenProbes;
 
-  /// @brief Field bakedSkyOcclusionValue, offset: 0xf0, size: 0x4, def value: None
-  int32_t ___bakedSkyOcclusionValue;
+/// @brief Field bakedProbeOcclusion, offset: 0xec, size: 0x1, def value: None
+ bool  ___bakedProbeOcclusion;
 
-  /// @brief Field bakedSkyShadingDirectionValue, offset: 0xf4, size: 0x4, def value: None
-  int32_t ___bakedSkyShadingDirectionValue;
+/// @brief Field bakedSkyOcclusionValue, offset: 0xf0, size: 0x4, def value: None
+ int32_t  ___bakedSkyOcclusionValue;
 
-  /// @brief Field bakedProbeOffset, offset: 0xf8, size: 0xc, def value: None
-  ::UnityEngine::Vector3 ___bakedProbeOffset;
+/// @brief Field bakedSkyShadingDirectionValue, offset: 0xf4, size: 0x4, def value: None
+ int32_t  ___bakedSkyShadingDirectionValue;
 
-  /// @brief Field bakedMaskCount, offset: 0x104, size: 0x4, def value: None
-  int32_t ___bakedMaskCount;
+/// @brief Field bakedProbeOffset, offset: 0xf8, size: 0xc, def value: None
+ ::UnityEngine::Vector3  ___bakedProbeOffset;
 
-  /// @brief Field bakedLayerMasks, offset: 0x108, size: 0x10, def value: None
-  ::Unity::Mathematics::uint4 ___bakedLayerMasks;
+/// @brief Field bakedMaskCount, offset: 0x104, size: 0x4, def value: None
+ int32_t  ___bakedMaskCount;
 
-  /// @brief Field maxSHChunkCount, offset: 0x118, size: 0x4, def value: None
-  int32_t ___maxSHChunkCount;
+/// @brief Field bakedLayerMasks, offset: 0x108, size: 0x10, def value: None
+ ::Unity::Mathematics::uint4  ___bakedLayerMasks;
 
-  /// @brief Field L0ChunkSize, offset: 0x11c, size: 0x4, def value: None
-  int32_t ___L0ChunkSize;
+/// @brief Field maxSHChunkCount, offset: 0x118, size: 0x4, def value: None
+ int32_t  ___maxSHChunkCount;
 
-  /// @brief Field L1ChunkSize, offset: 0x120, size: 0x4, def value: None
-  int32_t ___L1ChunkSize;
+/// @brief Field L0ChunkSize, offset: 0x11c, size: 0x4, def value: None
+ int32_t  ___L0ChunkSize;
 
-  /// @brief Field L2TextureChunkSize, offset: 0x124, size: 0x4, def value: None
-  int32_t ___L2TextureChunkSize;
+/// @brief Field L1ChunkSize, offset: 0x120, size: 0x4, def value: None
+ int32_t  ___L1ChunkSize;
 
-  /// @brief Field ProbeOcclusionChunkSize, offset: 0x128, size: 0x4, def value: None
-  int32_t ___ProbeOcclusionChunkSize;
+/// @brief Field L2TextureChunkSize, offset: 0x124, size: 0x4, def value: None
+ int32_t  ___L2TextureChunkSize;
 
-  /// @brief Field sharedValidityMaskChunkSize, offset: 0x12c, size: 0x4, def value: None
-  int32_t ___sharedValidityMaskChunkSize;
+/// @brief Field ProbeOcclusionChunkSize, offset: 0x128, size: 0x4, def value: None
+ int32_t  ___ProbeOcclusionChunkSize;
 
-  /// @brief Field sharedSkyOcclusionL0L1ChunkSize, offset: 0x130, size: 0x4, def value: None
-  int32_t ___sharedSkyOcclusionL0L1ChunkSize;
+/// @brief Field sharedValidityMaskChunkSize, offset: 0x12c, size: 0x4, def value: None
+ int32_t  ___sharedValidityMaskChunkSize;
 
-  /// @brief Field sharedSkyShadingDirectionIndicesChunkSize, offset: 0x134, size: 0x4, def value: None
-  int32_t ___sharedSkyShadingDirectionIndicesChunkSize;
+/// @brief Field sharedSkyOcclusionL0L1ChunkSize, offset: 0x130, size: 0x4, def value: None
+ int32_t  ___sharedSkyOcclusionL0L1ChunkSize;
 
-  /// @brief Field sharedDataChunkSize, offset: 0x138, size: 0x4, def value: None
-  int32_t ___sharedDataChunkSize;
+/// @brief Field sharedSkyShadingDirectionIndicesChunkSize, offset: 0x134, size: 0x4, def value: None
+ int32_t  ___sharedSkyShadingDirectionIndicesChunkSize;
 
-  /// @brief Field supportPositionChunkSize, offset: 0x13c, size: 0x4, def value: None
-  int32_t ___supportPositionChunkSize;
+/// @brief Field sharedDataChunkSize, offset: 0x138, size: 0x4, def value: None
+ int32_t  ___sharedDataChunkSize;
 
-  /// @brief Field supportValidityChunkSize, offset: 0x140, size: 0x4, def value: None
-  int32_t ___supportValidityChunkSize;
+/// @brief Field supportPositionChunkSize, offset: 0x13c, size: 0x4, def value: None
+ int32_t  ___supportPositionChunkSize;
 
-  /// @brief Field supportTouchupChunkSize, offset: 0x144, size: 0x4, def value: None
-  int32_t ___supportTouchupChunkSize;
+/// @brief Field supportValidityChunkSize, offset: 0x140, size: 0x4, def value: None
+ int32_t  ___supportValidityChunkSize;
 
-  /// @brief Field supportLayerMaskChunkSize, offset: 0x148, size: 0x4, def value: None
-  int32_t ___supportLayerMaskChunkSize;
+/// @brief Field supportTouchupChunkSize, offset: 0x144, size: 0x4, def value: None
+ int32_t  ___supportTouchupChunkSize;
 
-  /// @brief Field supportOffsetsChunkSize, offset: 0x14c, size: 0x4, def value: None
-  int32_t ___supportOffsetsChunkSize;
+/// @brief Field supportLayerMaskChunkSize, offset: 0x148, size: 0x4, def value: None
+ int32_t  ___supportLayerMaskChunkSize;
 
-  /// @brief Field supportDataChunkSize, offset: 0x150, size: 0x4, def value: None
-  int32_t ___supportDataChunkSize;
+/// @brief Field supportOffsetsChunkSize, offset: 0x14c, size: 0x4, def value: None
+ int32_t  ___supportOffsetsChunkSize;
 
-  /// @brief Field lightingScenario, offset: 0x158, size: 0x8, def value: None
-  ::StringW ___lightingScenario;
+/// @brief Field supportDataChunkSize, offset: 0x150, size: 0x4, def value: None
+ int32_t  ___supportDataChunkSize;
 
-  /// @brief Field m_OtherScenario, offset: 0x160, size: 0x8, def value: None
-  ::StringW ___m_OtherScenario;
+/// @brief Field lightingScenario, offset: 0x158, size: 0x8, def value: None
+ ::StringW  ___lightingScenario;
 
-  /// @brief Field m_ScenarioBlendingFactor, offset: 0x168, size: 0x4, def value: None
-  float_t ___m_ScenarioBlendingFactor;
+/// @brief Field m_OtherScenario, offset: 0x160, size: 0x8, def value: None
+ ::StringW  ___m_OtherScenario;
 
-  /// @brief Field m_ReadCommandArray, offset: 0x170, size: 0x10, def value: None
-  ::Unity::IO::LowLevel::Unsafe::ReadCommandArray ___m_ReadCommandArray;
+/// @brief Field m_ScenarioBlendingFactor, offset: 0x168, size: 0x4, def value: None
+ float_t  ___m_ScenarioBlendingFactor;
 
-  /// @brief Field m_ReadCommandBuffer, offset: 0x180, size: 0x10, def value: None
-  ::Unity::Collections::NativeArray_1<::Unity::IO::LowLevel::Unsafe::ReadCommand> ___m_ReadCommandBuffer;
+/// @brief Field m_ReadCommandArray, offset: 0x170, size: 0x10, def value: None
+ ::Unity::IO::LowLevel::Unsafe::ReadCommandArray  ___m_ReadCommandArray;
 
-  /// @brief Field m_ReadOperationScratchBuffers, offset: 0x190, size: 0x8, def value: None
-  ::System::Collections::Generic::Stack_1<::Unity::Collections::NativeArray_1<uint8_t>>* ___m_ReadOperationScratchBuffers;
+/// @brief Field m_ReadCommandBuffer, offset: 0x180, size: 0x10, def value: None
+ ::Unity::Collections::NativeArray_1<::Unity::IO::LowLevel::Unsafe::ReadCommand>  ___m_ReadCommandBuffer;
 
-  /// @brief Field m_PrunedIndexList, offset: 0x198, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<int32_t>* ___m_PrunedIndexList;
+/// @brief Field m_ReadOperationScratchBuffers, offset: 0x190, size: 0x8, def value: None
+ ::System::Collections::Generic::Stack_1<::Unity::Collections::NativeArray_1<uint8_t>>*  ___m_ReadOperationScratchBuffers;
 
-  /// @brief Field m_PrunedScenarioIndexList, offset: 0x1a0, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<int32_t>* ___m_PrunedScenarioIndexList;
+/// @brief Field m_PrunedIndexList, offset: 0x198, size: 0x8, def value: None
+ ::System::Collections::Generic::List_1<int32_t>*  ___m_PrunedIndexList;
 
-  /// @brief Field version, offset: 0x1a8, size: 0x4, def value: None
-  ::UnityEngine::Rendering::ProbeVolumeBakingSet_Version ___version;
+/// @brief Field m_PrunedScenarioIndexList, offset: 0x1a0, size: 0x8, def value: None
+ ::System::Collections::Generic::List_1<int32_t>*  ___m_PrunedScenarioIndexList;
 
-  /// @brief Field freezePlacement, offset: 0x1ac, size: 0x1, def value: None
-  bool ___freezePlacement;
+/// @brief Field version, offset: 0x1a8, size: 0x4, def value: None
+ ::UnityEngine::Rendering::ProbeVolumeBakingSet_Version  ___version;
 
-  /// @brief Field probeOffset, offset: 0x1b0, size: 0xc, def value: None
-  ::UnityEngine::Vector3 ___probeOffset;
+/// @brief Field freezePlacement, offset: 0x1ac, size: 0x1, def value: None
+ bool  ___freezePlacement;
 
-  /// @brief Field simplificationLevels, offset: 0x1bc, size: 0x4, def value: None
-  int32_t ___simplificationLevels;
+/// @brief Field probeOffset, offset: 0x1b0, size: 0xc, def value: None
+ ::UnityEngine::Vector3  ___probeOffset;
 
-  /// @brief Field minDistanceBetweenProbes, offset: 0x1c0, size: 0x4, def value: None
-  float_t ___minDistanceBetweenProbes;
+/// @brief Field simplificationLevels, offset: 0x1bc, size: 0x4, def value: None
+ int32_t  ___simplificationLevels;
 
-  /// @brief Field renderersLayerMask, offset: 0x1c4, size: 0x4, def value: None
-  ::UnityEngine::LayerMask ___renderersLayerMask;
+/// @brief Field minDistanceBetweenProbes, offset: 0x1c0, size: 0x4, def value: None
+ float_t  ___minDistanceBetweenProbes;
 
-  /// @brief Field minRendererVolumeSize, offset: 0x1c8, size: 0x4, def value: None
-  float_t ___minRendererVolumeSize;
+/// @brief Field renderersLayerMask, offset: 0x1c4, size: 0x4, def value: None
+ ::UnityEngine::LayerMask  ___renderersLayerMask;
 
-  /// @brief Field skyOcclusion, offset: 0x1cc, size: 0x1, def value: None
-  bool ___skyOcclusion;
+/// @brief Field minRendererVolumeSize, offset: 0x1c8, size: 0x4, def value: None
+ float_t  ___minRendererVolumeSize;
 
-  /// @brief Field skyOcclusionBakingSamples, offset: 0x1d0, size: 0x4, def value: None
-  int32_t ___skyOcclusionBakingSamples;
+/// @brief Field skyOcclusion, offset: 0x1cc, size: 0x1, def value: None
+ bool  ___skyOcclusion;
 
-  /// @brief Field skyOcclusionBakingBounces, offset: 0x1d4, size: 0x4, def value: None
-  int32_t ___skyOcclusionBakingBounces;
+/// @brief Field skyOcclusionBakingSamples, offset: 0x1d0, size: 0x4, def value: None
+ int32_t  ___skyOcclusionBakingSamples;
 
-  /// @brief Field skyOcclusionAverageAlbedo, offset: 0x1d8, size: 0x4, def value: None
-  float_t ___skyOcclusionAverageAlbedo;
+/// @brief Field skyOcclusionBakingBounces, offset: 0x1d4, size: 0x4, def value: None
+ int32_t  ___skyOcclusionBakingBounces;
 
-  /// @brief Field skyOcclusionBackFaceCulling, offset: 0x1dc, size: 0x1, def value: None
-  bool ___skyOcclusionBackFaceCulling;
+/// @brief Field skyOcclusionAverageAlbedo, offset: 0x1d8, size: 0x4, def value: None
+ float_t  ___skyOcclusionAverageAlbedo;
 
-  /// @brief Field skyOcclusionShadingDirection, offset: 0x1dd, size: 0x1, def value: None
-  bool ___skyOcclusionShadingDirection;
+/// @brief Field skyOcclusionBackFaceCulling, offset: 0x1dc, size: 0x1, def value: None
+ bool  ___skyOcclusionBackFaceCulling;
 
-  /// @brief Field useRenderingLayers, offset: 0x1de, size: 0x1, def value: None
-  bool ___useRenderingLayers;
+/// @brief Field skyOcclusionShadingDirection, offset: 0x1dd, size: 0x1, def value: None
+ bool  ___skyOcclusionShadingDirection;
 
-  /// @brief Field renderingLayerMasks, offset: 0x1e0, size: 0x8, def value: None
-  ::ArrayW<::UnityEngine::Rendering::ProbeVolumeBakingSet_ProbeLayerMask, ::Array<::UnityEngine::Rendering::ProbeVolumeBakingSet_ProbeLayerMask>*> ___renderingLayerMasks;
+/// @brief Field useRenderingLayers, offset: 0x1de, size: 0x1, def value: None
+ bool  ___useRenderingLayers;
 
-  /// @brief Field m_HasSupportData, offset: 0x1e8, size: 0x1, def value: None
-  bool ___m_HasSupportData;
+/// @brief Field renderingLayerMasks, offset: 0x1e0, size: 0x8, def value: None
+ ::ArrayW<::UnityEngine::Rendering::ProbeVolumeBakingSet_ProbeLayerMask,::Array<::UnityEngine::Rendering::ProbeVolumeBakingSet_ProbeLayerMask>*>  ___renderingLayerMasks;
 
-  /// @brief Field m_SharedDataIsValid, offset: 0x1e9, size: 0x1, def value: None
-  bool ___m_SharedDataIsValid;
+/// @brief Field m_HasSupportData, offset: 0x1e8, size: 0x1, def value: None
+ bool  ___m_HasSupportData;
 
-  /// @brief Field m_UseStreamingAsset, offset: 0x1ea, size: 0x1, def value: None
-  bool ___m_UseStreamingAsset;
+/// @brief Field m_SharedDataIsValid, offset: 0x1e9, size: 0x1, def value: None
+ bool  ___m_SharedDataIsValid;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field m_UseStreamingAsset, offset: 0x1ea, size: 0x1, def value: None
+ bool  ___m_UseStreamingAsset;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Rendering::ProbeVolumeBakingSet, ___singleSceneMode) == 0x18, "Offset mismatch!");
@@ -1588,7 +1572,7 @@ static_assert(offsetof(::UnityEngine::Rendering::ProbeVolumeBakingSet, ___m_UseS
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::ProbeVolumeBakingSet, 0x1f0>, "Size mismatch!");
 
-} // namespace UnityEngine::Rendering
+} // namespace end def UnityEngine::Rendering
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::ProbeVolumeBakingSet_Version, "UnityEngine.Rendering", "ProbeVolumeBakingSet/Version");
 NEED_NO_BOX(::UnityEngine::Rendering::ProbeVolumeBakingSet);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::ProbeVolumeBakingSet*, "UnityEngine.Rendering", "ProbeVolumeBakingSet");

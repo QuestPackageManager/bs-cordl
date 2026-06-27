@@ -33,87 +33,87 @@ namespace UnityEngine {
 // CS Name: UnityEngine.UnhandledExceptionHandler/<>c
 class CORDL_TYPE UnhandledExceptionHandler___c : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field <>9, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::UnhandledExceptionHandler___c* __9;
+// Declarations
+/// @brief Field <>9, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF___9, put=setStaticF___9)) ::UnityEngine::UnhandledExceptionHandler___c*  __9;
 
-  /// @brief Field <>9__0_0, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9__0_0, put = setStaticF___9__0_0)) ::System::UnhandledExceptionEventHandler* __9__0_0;
+/// @brief Field <>9__0_0, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF___9__0_0, put=setStaticF___9__0_0)) ::System::UnhandledExceptionEventHandler*  __9__0_0;
 
-  static inline ::UnityEngine::UnhandledExceptionHandler___c* New_ctor();
+static inline ::UnityEngine::UnhandledExceptionHandler___c* New_ctor() ;
 
-  /// @brief Method <RegisterUECatcher>b__0_0, addr 0x699002c, size 0xbc, virtual false, abstract: false, final false
-  inline void _RegisterUECatcher_b__0_0(::System::Object* sender, ::System::UnhandledExceptionEventArgs* e);
+/// @brief Method <RegisterUECatcher>b__0_0, addr 0x6991ba4, size 0xbc, virtual false, abstract: false, final false
+inline void _RegisterUECatcher_b__0_0(::System::Object*  sender, ::System::UnhandledExceptionEventArgs*  e) ;
 
-  /// @brief Method .ctor, addr 0x6990028, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6991ba0, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  static inline ::UnityEngine::UnhandledExceptionHandler___c* getStaticF___9();
+static inline ::UnityEngine::UnhandledExceptionHandler___c* getStaticF___9() ;
 
-  static inline ::System::UnhandledExceptionEventHandler* getStaticF___9__0_0();
+static inline ::System::UnhandledExceptionEventHandler* getStaticF___9__0_0() ;
 
-  static inline void setStaticF___9(::UnityEngine::UnhandledExceptionHandler___c* value);
+static inline void setStaticF___9(::UnityEngine::UnhandledExceptionHandler___c*  value) ;
 
-  static inline void setStaticF___9__0_0(::System::UnhandledExceptionEventHandler* value);
+static inline void setStaticF___9__0_0(::System::UnhandledExceptionEventHandler*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr UnhandledExceptionHandler___c();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr UnhandledExceptionHandler___c() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UnhandledExceptionHandler___c", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  UnhandledExceptionHandler___c(UnhandledExceptionHandler___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UnhandledExceptionHandler___c", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  UnhandledExceptionHandler___c(UnhandledExceptionHandler___c const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "UnhandledExceptionHandler___c", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+UnhandledExceptionHandler___c(UnhandledExceptionHandler___c && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10362 };
+// Ctor Parameters [CppParam { name: "", ty: "UnhandledExceptionHandler___c", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+UnhandledExceptionHandler___c(UnhandledExceptionHandler___c const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10363};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UnhandledExceptionHandler___c, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine
+} // namespace end def UnityEngine
 // Dependencies System.Object
 namespace UnityEngine {
 // Is value type: false
 // CS Name: UnityEngine.UnhandledExceptionHandler
 class CORDL_TYPE UnhandledExceptionHandler : public ::System::Object {
 public:
-  // Declarations
-  using __c = ::UnityEngine::UnhandledExceptionHandler___c;
+// Declarations
+using __c = ::UnityEngine::UnhandledExceptionHandler___c;
 
-  /// @brief Method RegisterUECatcher, addr 0x698fed8, size 0xfc, virtual false, abstract: false, final false
-  static inline void RegisterUECatcher();
+/// @brief Method RegisterUECatcher, addr 0x6991a50, size 0xfc, virtual false, abstract: false, final false
+static inline void RegisterUECatcher() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr UnhandledExceptionHandler();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr UnhandledExceptionHandler() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UnhandledExceptionHandler", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  UnhandledExceptionHandler(UnhandledExceptionHandler&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UnhandledExceptionHandler", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  UnhandledExceptionHandler(UnhandledExceptionHandler const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "UnhandledExceptionHandler", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+UnhandledExceptionHandler(UnhandledExceptionHandler && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10363 };
+// Ctor Parameters [CppParam { name: "", ty: "UnhandledExceptionHandler", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+UnhandledExceptionHandler(UnhandledExceptionHandler const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10364};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UnhandledExceptionHandler, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine
+} // namespace end def UnityEngine
 NEED_NO_BOX(::UnityEngine::UnhandledExceptionHandler);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UnhandledExceptionHandler*, "UnityEngine", "UnhandledExceptionHandler");
 NEED_NO_BOX(::UnityEngine::UnhandledExceptionHandler___c);

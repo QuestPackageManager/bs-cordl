@@ -40,108 +40,108 @@ namespace Org::BouncyCastle::Crypto::Signers {
 // CS Name: Org.BouncyCastle.Crypto.Signers.DsaSigner
 class CORDL_TYPE DsaSigner : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = get_AlgorithmName)) ::StringW AlgorithmName;
+// Declarations
+ __declspec(property(get=get_AlgorithmName)) ::StringW  AlgorithmName;
 
-  __declspec(property(get = get_Order)) ::Org::BouncyCastle::Math::BigInteger* Order;
+ __declspec(property(get=get_Order)) ::Org::BouncyCastle::Math::BigInteger*  Order;
 
-  /// @brief Field kCalculator, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_kCalculator, put = __cordl_internal_set_kCalculator)) ::Org::BouncyCastle::Crypto::Signers::IDsaKCalculator* kCalculator;
+/// @brief Field kCalculator, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_kCalculator, put=__cordl_internal_set_kCalculator)) ::Org::BouncyCastle::Crypto::Signers::IDsaKCalculator*  kCalculator;
 
-  /// @brief Field key, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_key, put = __cordl_internal_set_key)) ::Org::BouncyCastle::Crypto::Parameters::DsaKeyParameters* key;
+/// @brief Field key, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_key, put=__cordl_internal_set_key)) ::Org::BouncyCastle::Crypto::Parameters::DsaKeyParameters*  key;
 
-  /// @brief Field random, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_random, put = __cordl_internal_set_random)) ::Org::BouncyCastle::Security::SecureRandom* random;
+/// @brief Field random, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_random, put=__cordl_internal_set_random)) ::Org::BouncyCastle::Security::SecureRandom*  random;
 
-  /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IDsa"
-  constexpr operator ::Org::BouncyCastle::Crypto::IDsa*() noexcept;
+/// @brief Convert operator to "::Org::BouncyCastle::Crypto::IDsa"
+constexpr operator  ::Org::BouncyCastle::Crypto::IDsa*() noexcept;
 
-  /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IDsaExt"
-  constexpr operator ::Org::BouncyCastle::Crypto::IDsaExt*() noexcept;
+/// @brief Convert operator to "::Org::BouncyCastle::Crypto::IDsaExt"
+constexpr operator  ::Org::BouncyCastle::Crypto::IDsaExt*() noexcept;
 
-  /// @brief Method CalculateE, addr 0x336424c, size 0xdc, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Math::BigInteger* CalculateE(::Org::BouncyCastle::Math::BigInteger* n, ::ArrayW<uint8_t, ::Array<uint8_t>*> message);
+/// @brief Method CalculateE, addr 0x3364fe8, size 0xdc, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Math::BigInteger* CalculateE(::Org::BouncyCastle::Math::BigInteger*  n, ::ArrayW<uint8_t,::Array<uint8_t>*>  message) ;
 
-  /// @brief Method GenerateSignature, addr 0x3363c68, size 0x3c4, virtual true, abstract: false, final false
-  inline ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> GenerateSignature(::ArrayW<uint8_t, ::Array<uint8_t>*> message);
+/// @brief Method GenerateSignature, addr 0x3364a04, size 0x3c4, virtual true, abstract: false, final false
+inline ::ArrayW<::Org::BouncyCastle::Math::BigInteger*,::Array<::Org::BouncyCastle::Math::BigInteger*>*> GenerateSignature(::ArrayW<uint8_t,::Array<uint8_t>*>  message) ;
 
-  /// @brief Method Init, addr 0x33639a8, size 0x29c, virtual true, abstract: false, final false
-  inline void Init(bool forSigning, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
+/// @brief Method Init, addr 0x3364744, size 0x29c, virtual true, abstract: false, final false
+inline void Init(bool  forSigning, ::Org::BouncyCastle::Crypto::ICipherParameters*  parameters) ;
 
-  /// @brief Method InitSecureRandom, addr 0x3364328, size 0x74, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Security::SecureRandom* InitSecureRandom(bool needed, ::Org::BouncyCastle::Security::SecureRandom* provided);
+/// @brief Method InitSecureRandom, addr 0x33650c4, size 0x74, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Security::SecureRandom* InitSecureRandom(bool  needed, ::Org::BouncyCastle::Security::SecureRandom*  provided) ;
 
-  static inline ::Org::BouncyCastle::Crypto::Signers::DsaSigner* New_ctor();
+static inline ::Org::BouncyCastle::Crypto::Signers::DsaSigner* New_ctor() ;
 
-  static inline ::Org::BouncyCastle::Crypto::Signers::DsaSigner* New_ctor(::Org::BouncyCastle::Crypto::Signers::IDsaKCalculator* kCalculator);
+static inline ::Org::BouncyCastle::Crypto::Signers::DsaSigner* New_ctor(::Org::BouncyCastle::Crypto::Signers::IDsaKCalculator*  kCalculator) ;
 
-  /// @brief Method VerifySignature, addr 0x336402c, size 0x220, virtual true, abstract: false, final false
-  inline bool VerifySignature(::ArrayW<uint8_t, ::Array<uint8_t>*> message, ::Org::BouncyCastle::Math::BigInteger* r, ::Org::BouncyCastle::Math::BigInteger* s);
+/// @brief Method VerifySignature, addr 0x3364dc8, size 0x220, virtual true, abstract: false, final false
+inline bool VerifySignature(::ArrayW<uint8_t,::Array<uint8_t>*>  message, ::Org::BouncyCastle::Math::BigInteger*  r, ::Org::BouncyCastle::Math::BigInteger*  s) ;
 
-  constexpr ::Org::BouncyCastle::Crypto::Signers::IDsaKCalculator* const& __cordl_internal_get_kCalculator() const;
+constexpr ::Org::BouncyCastle::Crypto::Signers::IDsaKCalculator* const& __cordl_internal_get_kCalculator() const;
 
-  constexpr ::Org::BouncyCastle::Crypto::Signers::IDsaKCalculator*& __cordl_internal_get_kCalculator();
+constexpr ::Org::BouncyCastle::Crypto::Signers::IDsaKCalculator*& __cordl_internal_get_kCalculator() ;
 
-  constexpr ::Org::BouncyCastle::Crypto::Parameters::DsaKeyParameters* const& __cordl_internal_get_key() const;
+constexpr ::Org::BouncyCastle::Crypto::Parameters::DsaKeyParameters* const& __cordl_internal_get_key() const;
 
-  constexpr ::Org::BouncyCastle::Crypto::Parameters::DsaKeyParameters*& __cordl_internal_get_key();
+constexpr ::Org::BouncyCastle::Crypto::Parameters::DsaKeyParameters*& __cordl_internal_get_key() ;
 
-  constexpr ::Org::BouncyCastle::Security::SecureRandom* const& __cordl_internal_get_random() const;
+constexpr ::Org::BouncyCastle::Security::SecureRandom* const& __cordl_internal_get_random() const;
 
-  constexpr ::Org::BouncyCastle::Security::SecureRandom*& __cordl_internal_get_random();
+constexpr ::Org::BouncyCastle::Security::SecureRandom*& __cordl_internal_get_random() ;
 
-  constexpr void __cordl_internal_set_kCalculator(::Org::BouncyCastle::Crypto::Signers::IDsaKCalculator* value);
+constexpr void __cordl_internal_set_kCalculator(::Org::BouncyCastle::Crypto::Signers::IDsaKCalculator*  value) ;
 
-  constexpr void __cordl_internal_set_key(::Org::BouncyCastle::Crypto::Parameters::DsaKeyParameters* value);
+constexpr void __cordl_internal_set_key(::Org::BouncyCastle::Crypto::Parameters::DsaKeyParameters*  value) ;
 
-  constexpr void __cordl_internal_set_random(::Org::BouncyCastle::Security::SecureRandom* value);
+constexpr void __cordl_internal_set_random(::Org::BouncyCastle::Security::SecureRandom*  value) ;
 
-  /// @brief Method .ctor, addr 0x3363904, size 0x54, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x33646a0, size 0x54, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method .ctor, addr 0x3363958, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Crypto::Signers::IDsaKCalculator* kCalculator);
+/// @brief Method .ctor, addr 0x33646f4, size 0xc, virtual false, abstract: false, final false
+inline void _ctor(::Org::BouncyCastle::Crypto::Signers::IDsaKCalculator*  kCalculator) ;
 
-  /// @brief Method get_AlgorithmName, addr 0x3363964, size 0x44, virtual true, abstract: false, final false
-  inline ::StringW get_AlgorithmName();
+/// @brief Method get_AlgorithmName, addr 0x3364700, size 0x44, virtual true, abstract: false, final false
+inline ::StringW get_AlgorithmName() ;
 
-  /// @brief Method get_Order, addr 0x3363c44, size 0x24, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Math::BigInteger* get_Order();
+/// @brief Method get_Order, addr 0x33649e0, size 0x24, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Math::BigInteger* get_Order() ;
 
-  /// @brief Convert to "::Org::BouncyCastle::Crypto::IDsa"
-  constexpr ::Org::BouncyCastle::Crypto::IDsa* i___Org__BouncyCastle__Crypto__IDsa() noexcept;
+/// @brief Convert to "::Org::BouncyCastle::Crypto::IDsa"
+constexpr ::Org::BouncyCastle::Crypto::IDsa* i___Org__BouncyCastle__Crypto__IDsa() noexcept;
 
-  /// @brief Convert to "::Org::BouncyCastle::Crypto::IDsaExt"
-  constexpr ::Org::BouncyCastle::Crypto::IDsaExt* i___Org__BouncyCastle__Crypto__IDsaExt() noexcept;
+/// @brief Convert to "::Org::BouncyCastle::Crypto::IDsaExt"
+constexpr ::Org::BouncyCastle::Crypto::IDsaExt* i___Org__BouncyCastle__Crypto__IDsaExt() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DsaSigner();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr DsaSigner() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DsaSigner", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  DsaSigner(DsaSigner&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DsaSigner", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  DsaSigner(DsaSigner const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "DsaSigner", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+DsaSigner(DsaSigner && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1127 };
+// Ctor Parameters [CppParam { name: "", ty: "DsaSigner", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+DsaSigner(DsaSigner const& ) = delete;
 
-  /// @brief Field kCalculator, offset: 0x10, size: 0x8, def value: None
-  ::Org::BouncyCastle::Crypto::Signers::IDsaKCalculator* ___kCalculator;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{1127};
 
-  /// @brief Field key, offset: 0x18, size: 0x8, def value: None
-  ::Org::BouncyCastle::Crypto::Parameters::DsaKeyParameters* ___key;
+/// @brief Field kCalculator, offset: 0x10, size: 0x8, def value: None
+ ::Org::BouncyCastle::Crypto::Signers::IDsaKCalculator*  ___kCalculator;
 
-  /// @brief Field random, offset: 0x20, size: 0x8, def value: None
-  ::Org::BouncyCastle::Security::SecureRandom* ___random;
+/// @brief Field key, offset: 0x18, size: 0x8, def value: None
+ ::Org::BouncyCastle::Crypto::Parameters::DsaKeyParameters*  ___key;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field random, offset: 0x20, size: 0x8, def value: None
+ ::Org::BouncyCastle::Security::SecureRandom*  ___random;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Signers::DsaSigner, ___kCalculator) == 0x10, "Offset mismatch!");
@@ -152,6 +152,6 @@ static_assert(offsetof(::Org::BouncyCastle::Crypto::Signers::DsaSigner, ___rando
 
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Signers::DsaSigner, 0x28>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Crypto::Signers
+} // namespace end def Org::BouncyCastle::Crypto::Signers
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Signers::DsaSigner);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Signers::DsaSigner*, "Org.BouncyCastle.Crypto.Signers", "DsaSigner");

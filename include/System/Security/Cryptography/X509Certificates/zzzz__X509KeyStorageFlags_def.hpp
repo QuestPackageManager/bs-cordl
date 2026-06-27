@@ -12,79 +12,79 @@ struct X509KeyStorageFlags;
 }
 // Write type traits
 MARK_VAL_T(::System::Security::Cryptography::X509Certificates::X509KeyStorageFlags);
-// Dependencies
+// Dependencies 
 namespace System::Security::Cryptography::X509Certificates {
 // Is value type: true
 // CS Name: System.Security.Cryptography.X509Certificates.X509KeyStorageFlags
 struct CORDL_TYPE X509KeyStorageFlags {
 public:
-  // Declarations
-  using __CORDL_BACKING_ENUM_TYPE = int32_t;
+// Declarations
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct __X509KeyStorageFlags_Unwrapped
-  enum struct __X509KeyStorageFlags_Unwrapped : int32_t {
-    __E_DefaultKeySet = static_cast<int32_t>(0x0),
-    __E_UserKeySet = static_cast<int32_t>(0x1),
-    __E_MachineKeySet = static_cast<int32_t>(0x2),
-    __E_Exportable = static_cast<int32_t>(0x4),
-    __E_UserProtected = static_cast<int32_t>(0x8),
-    __E_PersistKeySet = static_cast<int32_t>(0x10),
-    __E_EphemeralKeySet = static_cast<int32_t>(0x20),
-  };
+/// @brief Nested struct __X509KeyStorageFlags_Unwrapped
+enum struct __X509KeyStorageFlags_Unwrapped : int32_t {
+__E_DefaultKeySet = static_cast<int32_t>(0x0),
+__E_UserKeySet = static_cast<int32_t>(0x1),
+__E_MachineKeySet = static_cast<int32_t>(0x2),
+__E_Exportable = static_cast<int32_t>(0x4),
+__E_UserProtected = static_cast<int32_t>(0x8),
+__E_PersistKeySet = static_cast<int32_t>(0x10),
+__E_EphemeralKeySet = static_cast<int32_t>(0x20),
+};
 
-  /// @brief Conversion into unwrapped enum value
-  constexpr operator __X509KeyStorageFlags_Unwrapped() const noexcept {
-    return static_cast<__X509KeyStorageFlags_Unwrapped>(this->value__);
-  }
+/// @brief Conversion into unwrapped enum value
+constexpr operator __X509KeyStorageFlags_Unwrapped () const noexcept {
+return static_cast<__X509KeyStorageFlags_Unwrapped>(this->value__);
+}
 
-  /// @brief Conversion into unwrapped enum value
-  constexpr explicit operator int32_t() const noexcept {
-    return static_cast<int32_t>(this->value__);
-  }
+/// @brief Conversion into unwrapped enum value
+constexpr explicit operator int32_t () const noexcept {
+return static_cast<int32_t>(this->value__);
+}
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr X509KeyStorageFlags();
+// Ctor Parameters []
+// @brief default ctor
+constexpr X509KeyStorageFlags() ;
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr X509KeyStorageFlags(int32_t value__) noexcept;
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr X509KeyStorageFlags(int32_t  value__) noexcept;
 
-  /// @brief Field DefaultKeySet value: I32(0)
-  static ::System::Security::Cryptography::X509Certificates::X509KeyStorageFlags const DefaultKeySet;
+/// @brief Field DefaultKeySet value: I32(0)
+static ::System::Security::Cryptography::X509Certificates::X509KeyStorageFlags const DefaultKeySet;
 
-  /// @brief Field EphemeralKeySet value: I32(32)
-  static ::System::Security::Cryptography::X509Certificates::X509KeyStorageFlags const EphemeralKeySet;
+/// @brief Field EphemeralKeySet value: I32(32)
+static ::System::Security::Cryptography::X509Certificates::X509KeyStorageFlags const EphemeralKeySet;
 
-  /// @brief Field Exportable value: I32(4)
-  static ::System::Security::Cryptography::X509Certificates::X509KeyStorageFlags const Exportable;
+/// @brief Field Exportable value: I32(4)
+static ::System::Security::Cryptography::X509Certificates::X509KeyStorageFlags const Exportable;
 
-  /// @brief Field MachineKeySet value: I32(2)
-  static ::System::Security::Cryptography::X509Certificates::X509KeyStorageFlags const MachineKeySet;
+/// @brief Field MachineKeySet value: I32(2)
+static ::System::Security::Cryptography::X509Certificates::X509KeyStorageFlags const MachineKeySet;
 
-  /// @brief Field PersistKeySet value: I32(16)
-  static ::System::Security::Cryptography::X509Certificates::X509KeyStorageFlags const PersistKeySet;
+/// @brief Field PersistKeySet value: I32(16)
+static ::System::Security::Cryptography::X509Certificates::X509KeyStorageFlags const PersistKeySet;
 
-  /// @brief Field UserKeySet value: I32(1)
-  static ::System::Security::Cryptography::X509Certificates::X509KeyStorageFlags const UserKeySet;
+/// @brief Field UserKeySet value: I32(1)
+static ::System::Security::Cryptography::X509Certificates::X509KeyStorageFlags const UserKeySet;
 
-  /// @brief Field UserProtected value: I32(8)
-  static ::System::Security::Cryptography::X509Certificates::X509KeyStorageFlags const UserProtected;
+/// @brief Field UserProtected value: I32(8)
+static ::System::Security::Cryptography::X509Certificates::X509KeyStorageFlags const UserProtected;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3006 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{3006};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x4};
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+/// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+ int32_t  value__;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Security::Cryptography::X509Certificates::X509KeyStorageFlags, value__) == 0x0, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::System::Security::Cryptography::X509Certificates::X509KeyStorageFlags, 0x4>, "Size mismatch!");
 
-} // namespace System::Security::Cryptography::X509Certificates
+} // namespace end def System::Security::Cryptography::X509Certificates
 DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::X509Certificates::X509KeyStorageFlags, "System.Security.Cryptography.X509Certificates", "X509KeyStorageFlags");

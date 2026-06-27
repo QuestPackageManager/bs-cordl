@@ -9,7 +9,8 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(DebugUpdater)
 namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+template<typename T>
+class IEnumerator_1;
 }
 namespace System::Collections {
 class IEnumerator;
@@ -49,103 +50,103 @@ namespace UnityEngine::Rendering {
 // CS Name: UnityEngine.Rendering.DebugUpdater/<DoAfterInputModuleUpdated>d__9
 class CORDL_TYPE DebugUpdater__DoAfterInputModuleUpdated_d__9 : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current)) ::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
+// Declarations
+ __declspec(property(get=System_Collections_Generic_IEnumerator_System_Object__get_Current)) ::System::Object*  System_Collections_Generic_IEnumerator_System_Object__Current;
 
-  __declspec(property(get = System_Collections_IEnumerator_get_Current)) ::System::Object* System_Collections_IEnumerator_Current;
+ __declspec(property(get=System_Collections_IEnumerator_get_Current)) ::System::Object*  System_Collections_IEnumerator_Current;
 
-  /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
+/// @brief Field <>1__state, offset 0x10, size 0x4 
+ __declspec(property(get=__cordl_internal_get___1__state, put=__cordl_internal_set___1__state)) int32_t  __1__state;
 
-  /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current)) ::System::Object* __2__current;
+/// @brief Field <>2__current, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get___2__current, put=__cordl_internal_set___2__current)) ::System::Object*  __2__current;
 
-  /// @brief Field action, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_action, put = __cordl_internal_set_action)) ::System::Action* action;
+/// @brief Field action, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_action, put=__cordl_internal_set_action)) ::System::Action*  action;
 
-  /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
-  constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+constexpr operator  ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
 
-  /// @brief Convert operator to "::System::Collections::IEnumerator"
-  constexpr operator ::System::Collections::IEnumerator*() noexcept;
+/// @brief Convert operator to "::System::Collections::IEnumerator"
+constexpr operator  ::System::Collections::IEnumerator*() noexcept;
 
-  /// @brief Convert operator to "::System::IDisposable"
-  constexpr operator ::System::IDisposable*() noexcept;
+/// @brief Convert operator to "::System::IDisposable"
+constexpr operator  ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x66286d8, size 0xd0, virtual true, abstract: false, final true
-  inline bool MoveNext();
+/// @brief Method MoveNext, addr 0x662a250, size 0xd0, virtual true, abstract: false, final true
+inline bool MoveNext() ;
 
-  static inline ::UnityEngine::Rendering::DebugUpdater__DoAfterInputModuleUpdated_d__9* New_ctor(int32_t __1__state);
+static inline ::UnityEngine::Rendering::DebugUpdater__DoAfterInputModuleUpdated_d__9* New_ctor(int32_t  __1__state) ;
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x66287a8, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
+/// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x662a320, size 0x8, virtual true, abstract: false, final true
+inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current() ;
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x66287b0, size 0x38, virtual true, abstract: false, final true
-  inline void System_Collections_IEnumerator_Reset();
+/// @brief Method System.Collections.IEnumerator.Reset, addr 0x662a328, size 0x38, virtual true, abstract: false, final true
+inline void System_Collections_IEnumerator_Reset() ;
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x66287e8, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Object* System_Collections_IEnumerator_get_Current();
+/// @brief Method System.Collections.IEnumerator.get_Current, addr 0x662a360, size 0x8, virtual true, abstract: false, final true
+inline ::System::Object* System_Collections_IEnumerator_get_Current() ;
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x66286d4, size 0x4, virtual true, abstract: false, final true
-  inline void System_IDisposable_Dispose();
+/// @brief Method System.IDisposable.Dispose, addr 0x662a24c, size 0x4, virtual true, abstract: false, final true
+inline void System_IDisposable_Dispose() ;
 
-  constexpr int32_t const& __cordl_internal_get___1__state() const;
+constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr int32_t& __cordl_internal_get___1__state();
+constexpr int32_t& __cordl_internal_get___1__state() ;
 
-  constexpr ::System::Object* const& __cordl_internal_get___2__current() const;
+constexpr ::System::Object* const& __cordl_internal_get___2__current() const;
 
-  constexpr ::System::Object*& __cordl_internal_get___2__current();
+constexpr ::System::Object*& __cordl_internal_get___2__current() ;
 
-  constexpr ::System::Action* const& __cordl_internal_get_action() const;
+constexpr ::System::Action* const& __cordl_internal_get_action() const;
 
-  constexpr ::System::Action*& __cordl_internal_get_action();
+constexpr ::System::Action*& __cordl_internal_get_action() ;
 
-  constexpr void __cordl_internal_set___1__state(int32_t value);
+constexpr void __cordl_internal_set___1__state(int32_t  value) ;
 
-  constexpr void __cordl_internal_set___2__current(::System::Object* value);
+constexpr void __cordl_internal_set___2__current(::System::Object*  value) ;
 
-  constexpr void __cordl_internal_set_action(::System::Action* value);
+constexpr void __cordl_internal_set_action(::System::Action*  value) ;
 
-  /// @brief Method .ctor, addr 0x6628234, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(int32_t __1__state);
+/// @brief Method .ctor, addr 0x6629dac, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(int32_t  __1__state) ;
 
-  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
-  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
+/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
 
-  /// @brief Convert to "::System::Collections::IEnumerator"
-  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+/// @brief Convert to "::System::Collections::IEnumerator"
+constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+/// @brief Convert to "::System::IDisposable"
+constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DebugUpdater__DoAfterInputModuleUpdated_d__9();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr DebugUpdater__DoAfterInputModuleUpdated_d__9() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUpdater__DoAfterInputModuleUpdated_d__9", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  DebugUpdater__DoAfterInputModuleUpdated_d__9(DebugUpdater__DoAfterInputModuleUpdated_d__9&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUpdater__DoAfterInputModuleUpdated_d__9", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  DebugUpdater__DoAfterInputModuleUpdated_d__9(DebugUpdater__DoAfterInputModuleUpdated_d__9 const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "DebugUpdater__DoAfterInputModuleUpdated_d__9", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+DebugUpdater__DoAfterInputModuleUpdated_d__9(DebugUpdater__DoAfterInputModuleUpdated_d__9 && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12019 };
+// Ctor Parameters [CppParam { name: "", ty: "DebugUpdater__DoAfterInputModuleUpdated_d__9", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+DebugUpdater__DoAfterInputModuleUpdated_d__9(DebugUpdater__DoAfterInputModuleUpdated_d__9 const& ) = delete;
 
-  /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
-  int32_t _____1__state;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12020};
 
-  /// @brief Field <>2__current, offset: 0x18, size: 0x8, def value: None
-  ::System::Object* _____2__current;
+/// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
+ int32_t  _____1__state;
 
-  /// @brief Field action, offset: 0x20, size: 0x8, def value: None
-  ::System::Action* ___action;
+/// @brief Field <>2__current, offset: 0x18, size: 0x8, def value: None
+ ::System::Object*  _____2__current;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field action, offset: 0x20, size: 0x8, def value: None
+ ::System::Action*  ___action;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Rendering::DebugUpdater__DoAfterInputModuleUpdated_d__9, _____1__state) == 0x10, "Offset mismatch!");
@@ -156,98 +157,98 @@ static_assert(offsetof(::UnityEngine::Rendering::DebugUpdater__DoAfterInputModul
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::DebugUpdater__DoAfterInputModuleUpdated_d__9, 0x28>, "Size mismatch!");
 
-} // namespace UnityEngine::Rendering
+} // namespace end def UnityEngine::Rendering
 // Dependencies System.Object
 namespace UnityEngine::Rendering {
 // Is value type: false
 // CS Name: UnityEngine.Rendering.DebugUpdater/<RefreshRuntimeUINextFrame>d__15
 class CORDL_TYPE DebugUpdater__RefreshRuntimeUINextFrame_d__15 : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current)) ::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
+// Declarations
+ __declspec(property(get=System_Collections_Generic_IEnumerator_System_Object__get_Current)) ::System::Object*  System_Collections_Generic_IEnumerator_System_Object__Current;
 
-  __declspec(property(get = System_Collections_IEnumerator_get_Current)) ::System::Object* System_Collections_IEnumerator_Current;
+ __declspec(property(get=System_Collections_IEnumerator_get_Current)) ::System::Object*  System_Collections_IEnumerator_Current;
 
-  /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
+/// @brief Field <>1__state, offset 0x10, size 0x4 
+ __declspec(property(get=__cordl_internal_get___1__state, put=__cordl_internal_set___1__state)) int32_t  __1__state;
 
-  /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current)) ::System::Object* __2__current;
+/// @brief Field <>2__current, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get___2__current, put=__cordl_internal_set___2__current)) ::System::Object*  __2__current;
 
-  /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
-  constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+constexpr operator  ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
 
-  /// @brief Convert operator to "::System::Collections::IEnumerator"
-  constexpr operator ::System::Collections::IEnumerator*() noexcept;
+/// @brief Convert operator to "::System::Collections::IEnumerator"
+constexpr operator  ::System::Collections::IEnumerator*() noexcept;
 
-  /// @brief Convert operator to "::System::IDisposable"
-  constexpr operator ::System::IDisposable*() noexcept;
+/// @brief Convert operator to "::System::IDisposable"
+constexpr operator  ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x66287f4, size 0xac, virtual true, abstract: false, final true
-  inline bool MoveNext();
+/// @brief Method MoveNext, addr 0x662a36c, size 0xac, virtual true, abstract: false, final true
+inline bool MoveNext() ;
 
-  static inline ::UnityEngine::Rendering::DebugUpdater__RefreshRuntimeUINextFrame_d__15* New_ctor(int32_t __1__state);
+static inline ::UnityEngine::Rendering::DebugUpdater__RefreshRuntimeUINextFrame_d__15* New_ctor(int32_t  __1__state) ;
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x66288a0, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
+/// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x662a418, size 0x8, virtual true, abstract: false, final true
+inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current() ;
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x66288a8, size 0x38, virtual true, abstract: false, final true
-  inline void System_Collections_IEnumerator_Reset();
+/// @brief Method System.Collections.IEnumerator.Reset, addr 0x662a420, size 0x38, virtual true, abstract: false, final true
+inline void System_Collections_IEnumerator_Reset() ;
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x66288e0, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Object* System_Collections_IEnumerator_get_Current();
+/// @brief Method System.Collections.IEnumerator.get_Current, addr 0x662a458, size 0x8, virtual true, abstract: false, final true
+inline ::System::Object* System_Collections_IEnumerator_get_Current() ;
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x66287f0, size 0x4, virtual true, abstract: false, final true
-  inline void System_IDisposable_Dispose();
+/// @brief Method System.IDisposable.Dispose, addr 0x662a368, size 0x4, virtual true, abstract: false, final true
+inline void System_IDisposable_Dispose() ;
 
-  constexpr int32_t const& __cordl_internal_get___1__state() const;
+constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr int32_t& __cordl_internal_get___1__state();
+constexpr int32_t& __cordl_internal_get___1__state() ;
 
-  constexpr ::System::Object* const& __cordl_internal_get___2__current() const;
+constexpr ::System::Object* const& __cordl_internal_get___2__current() const;
 
-  constexpr ::System::Object*& __cordl_internal_get___2__current();
+constexpr ::System::Object*& __cordl_internal_get___2__current() ;
 
-  constexpr void __cordl_internal_set___1__state(int32_t value);
+constexpr void __cordl_internal_set___1__state(int32_t  value) ;
 
-  constexpr void __cordl_internal_set___2__current(::System::Object* value);
+constexpr void __cordl_internal_set___2__current(::System::Object*  value) ;
 
-  /// @brief Method .ctor, addr 0x66286c8, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(int32_t __1__state);
+/// @brief Method .ctor, addr 0x662a240, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(int32_t  __1__state) ;
 
-  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
-  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
+/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
 
-  /// @brief Convert to "::System::Collections::IEnumerator"
-  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+/// @brief Convert to "::System::Collections::IEnumerator"
+constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+/// @brief Convert to "::System::IDisposable"
+constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DebugUpdater__RefreshRuntimeUINextFrame_d__15();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr DebugUpdater__RefreshRuntimeUINextFrame_d__15() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUpdater__RefreshRuntimeUINextFrame_d__15", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  DebugUpdater__RefreshRuntimeUINextFrame_d__15(DebugUpdater__RefreshRuntimeUINextFrame_d__15&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUpdater__RefreshRuntimeUINextFrame_d__15", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  DebugUpdater__RefreshRuntimeUINextFrame_d__15(DebugUpdater__RefreshRuntimeUINextFrame_d__15 const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "DebugUpdater__RefreshRuntimeUINextFrame_d__15", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+DebugUpdater__RefreshRuntimeUINextFrame_d__15(DebugUpdater__RefreshRuntimeUINextFrame_d__15 && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12020 };
+// Ctor Parameters [CppParam { name: "", ty: "DebugUpdater__RefreshRuntimeUINextFrame_d__15", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+DebugUpdater__RefreshRuntimeUINextFrame_d__15(DebugUpdater__RefreshRuntimeUINextFrame_d__15 const& ) = delete;
 
-  /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
-  int32_t _____1__state;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12021};
 
-  /// @brief Field <>2__current, offset: 0x18, size: 0x8, def value: None
-  ::System::Object* _____2__current;
+/// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
+ int32_t  _____1__state;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field <>2__current, offset: 0x18, size: 0x8, def value: None
+ ::System::Object*  _____2__current;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Rendering::DebugUpdater__RefreshRuntimeUINextFrame_d__15, _____1__state) == 0x10, "Offset mismatch!");
@@ -256,111 +257,111 @@ static_assert(offsetof(::UnityEngine::Rendering::DebugUpdater__RefreshRuntimeUIN
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::DebugUpdater__RefreshRuntimeUINextFrame_d__15, 0x20>, "Size mismatch!");
 
-} // namespace UnityEngine::Rendering
+} // namespace end def UnityEngine::Rendering
 // Dependencies UnityEngine.MonoBehaviour, UnityEngine.ScreenOrientation
 namespace UnityEngine::Rendering {
 // Is value type: false
 // CS Name: UnityEngine.Rendering.DebugUpdater
 class CORDL_TYPE DebugUpdater : public ::UnityEngine::MonoBehaviour {
 public:
-  // Declarations
-  using _DoAfterInputModuleUpdated_d__9 = ::UnityEngine::Rendering::DebugUpdater__DoAfterInputModuleUpdated_d__9;
+// Declarations
+using _DoAfterInputModuleUpdated_d__9 = ::UnityEngine::Rendering::DebugUpdater__DoAfterInputModuleUpdated_d__9;
 
-  using _RefreshRuntimeUINextFrame_d__15 = ::UnityEngine::Rendering::DebugUpdater__RefreshRuntimeUINextFrame_d__15;
+using _RefreshRuntimeUINextFrame_d__15 = ::UnityEngine::Rendering::DebugUpdater__RefreshRuntimeUINextFrame_d__15;
 
-  /// @brief Field m_Orientation, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_Orientation, put = __cordl_internal_set_m_Orientation)) ::UnityEngine::ScreenOrientation m_Orientation;
+/// @brief Field m_Orientation, offset 0x20, size 0x4 
+ __declspec(property(get=__cordl_internal_get_m_Orientation, put=__cordl_internal_set_m_Orientation)) ::UnityEngine::ScreenOrientation  m_Orientation;
 
-  /// @brief Field m_RuntimeUiWasVisibleLastFrame, offset 0x24, size 0x1
-  __declspec(property(get = __cordl_internal_get_m_RuntimeUiWasVisibleLastFrame, put = __cordl_internal_set_m_RuntimeUiWasVisibleLastFrame)) bool m_RuntimeUiWasVisibleLastFrame;
+/// @brief Field m_RuntimeUiWasVisibleLastFrame, offset 0x24, size 0x1 
+ __declspec(property(get=__cordl_internal_get_m_RuntimeUiWasVisibleLastFrame, put=__cordl_internal_set_m_RuntimeUiWasVisibleLastFrame)) bool  m_RuntimeUiWasVisibleLastFrame;
 
-  /// @brief Field s_Instance, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_s_Instance, put = setStaticF_s_Instance)) ::UnityW<::UnityEngine::Rendering::DebugUpdater> s_Instance;
+/// @brief Field s_Instance, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_s_Instance, put=setStaticF_s_Instance)) ::UnityW<::UnityEngine::Rendering::DebugUpdater>  s_Instance;
 
-  /// @brief Method AssignDefaultActions, addr 0x6628378, size 0x160, virtual false, abstract: false, final false
-  inline void AssignDefaultActions();
+/// @brief Method AssignDefaultActions, addr 0x6629ef0, size 0x160, virtual false, abstract: false, final false
+inline void AssignDefaultActions() ;
 
-  /// @brief Method CheckInputModuleExists, addr 0x662823c, size 0x13c, virtual false, abstract: false, final false
-  inline void CheckInputModuleExists();
+/// @brief Method CheckInputModuleExists, addr 0x6629db4, size 0x13c, virtual false, abstract: false, final false
+inline void CheckInputModuleExists() ;
 
-  /// @brief Method CreateDebugEventSystem, addr 0x66280f0, size 0xf0, virtual false, abstract: false, final false
-  inline void CreateDebugEventSystem();
+/// @brief Method CreateDebugEventSystem, addr 0x6629c68, size 0xf0, virtual false, abstract: false, final false
+inline void CreateDebugEventSystem() ;
 
-  /// @brief Method DestroyDebugEventSystem, addr 0x6627f80, size 0x170, virtual false, abstract: false, final false
-  inline void DestroyDebugEventSystem();
+/// @brief Method DestroyDebugEventSystem, addr 0x6629af8, size 0x170, virtual false, abstract: false, final false
+inline void DestroyDebugEventSystem() ;
 
-  /// @brief Method DisableRuntime, addr 0x6627c54, size 0x134, virtual false, abstract: false, final false
-  static inline void DisableRuntime();
+/// @brief Method DisableRuntime, addr 0x66297cc, size 0x134, virtual false, abstract: false, final false
+static inline void DisableRuntime() ;
 
-  /// @brief Method DoAfterInputModuleUpdated, addr 0x66281e0, size 0x54, virtual false, abstract: false, final false
-  inline ::System::Collections::IEnumerator* DoAfterInputModuleUpdated(::System::Action* action);
+/// @brief Method DoAfterInputModuleUpdated, addr 0x6629d58, size 0x54, virtual false, abstract: false, final false
+inline ::System::Collections::IEnumerator* DoAfterInputModuleUpdated(::System::Action*  action) ;
 
-  /// @brief Method EnableRuntime, addr 0x6627aa0, size 0x1b4, virtual false, abstract: false, final false
-  static inline void EnableRuntime();
+/// @brief Method EnableRuntime, addr 0x6629618, size 0x1b4, virtual false, abstract: false, final false
+static inline void EnableRuntime() ;
 
-  /// @brief Method EnsureExactlyOneEventSystem, addr 0x6627d88, size 0x1f8, virtual false, abstract: false, final false
-  inline void EnsureExactlyOneEventSystem();
+/// @brief Method EnsureExactlyOneEventSystem, addr 0x6629900, size 0x1f8, virtual false, abstract: false, final false
+inline void EnsureExactlyOneEventSystem() ;
 
-  /// @brief Method HandleInternalEventSystemComponents, addr 0x6622ad8, size 0xc0, virtual false, abstract: false, final false
-  static inline void HandleInternalEventSystemComponents(bool uiEnabled);
+/// @brief Method HandleInternalEventSystemComponents, addr 0x6624650, size 0xc0, virtual false, abstract: false, final false
+static inline void HandleInternalEventSystemComponents(bool  uiEnabled) ;
 
-  static inline ::UnityEngine::Rendering::DebugUpdater* New_ctor();
+static inline ::UnityEngine::Rendering::DebugUpdater* New_ctor() ;
 
-  /// @brief Method RefreshRuntimeUINextFrame, addr 0x662867c, size 0x4c, virtual false, abstract: false, final false
-  static inline ::System::Collections::IEnumerator* RefreshRuntimeUINextFrame();
+/// @brief Method RefreshRuntimeUINextFrame, addr 0x662a1f4, size 0x4c, virtual false, abstract: false, final false
+static inline ::System::Collections::IEnumerator* RefreshRuntimeUINextFrame() ;
 
-  /// @brief Method RuntimeInit, addr 0x6627a9c, size 0x4, virtual false, abstract: false, final false
-  static inline void RuntimeInit();
+/// @brief Method RuntimeInit, addr 0x6629614, size 0x4, virtual false, abstract: false, final false
+static inline void RuntimeInit() ;
 
-  /// @brief Method SetEnabled, addr 0x662282c, size 0xc, virtual false, abstract: false, final false
-  static inline void SetEnabled(bool enabled);
+/// @brief Method SetEnabled, addr 0x66243a4, size 0xc, virtual false, abstract: false, final false
+static inline void SetEnabled(bool  enabled) ;
 
-  /// @brief Method Update, addr 0x66284d8, size 0x1a4, virtual false, abstract: false, final false
-  inline void Update();
+/// @brief Method Update, addr 0x662a050, size 0x1a4, virtual false, abstract: false, final false
+inline void Update() ;
 
-  constexpr ::UnityEngine::ScreenOrientation const& __cordl_internal_get_m_Orientation() const;
+constexpr ::UnityEngine::ScreenOrientation const& __cordl_internal_get_m_Orientation() const;
 
-  constexpr ::UnityEngine::ScreenOrientation& __cordl_internal_get_m_Orientation();
+constexpr ::UnityEngine::ScreenOrientation& __cordl_internal_get_m_Orientation() ;
 
-  constexpr bool const& __cordl_internal_get_m_RuntimeUiWasVisibleLastFrame() const;
+constexpr bool const& __cordl_internal_get_m_RuntimeUiWasVisibleLastFrame() const;
 
-  constexpr bool& __cordl_internal_get_m_RuntimeUiWasVisibleLastFrame();
+constexpr bool& __cordl_internal_get_m_RuntimeUiWasVisibleLastFrame() ;
 
-  constexpr void __cordl_internal_set_m_Orientation(::UnityEngine::ScreenOrientation value);
+constexpr void __cordl_internal_set_m_Orientation(::UnityEngine::ScreenOrientation  value) ;
 
-  constexpr void __cordl_internal_set_m_RuntimeUiWasVisibleLastFrame(bool value);
+constexpr void __cordl_internal_set_m_RuntimeUiWasVisibleLastFrame(bool  value) ;
 
-  /// @brief Method .ctor, addr 0x66286d0, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x662a248, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  static inline ::UnityW<::UnityEngine::Rendering::DebugUpdater> getStaticF_s_Instance();
+static inline ::UnityW<::UnityEngine::Rendering::DebugUpdater> getStaticF_s_Instance() ;
 
-  static inline void setStaticF_s_Instance(::UnityW<::UnityEngine::Rendering::DebugUpdater> value);
+static inline void setStaticF_s_Instance(::UnityW<::UnityEngine::Rendering::DebugUpdater>  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DebugUpdater();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr DebugUpdater() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUpdater", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  DebugUpdater(DebugUpdater&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUpdater", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  DebugUpdater(DebugUpdater const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "DebugUpdater", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+DebugUpdater(DebugUpdater && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12021 };
+// Ctor Parameters [CppParam { name: "", ty: "DebugUpdater", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+DebugUpdater(DebugUpdater const& ) = delete;
 
-  /// @brief Field m_Orientation, offset: 0x20, size: 0x4, def value: None
-  ::UnityEngine::ScreenOrientation ___m_Orientation;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12022};
 
-  /// @brief Field m_RuntimeUiWasVisibleLastFrame, offset: 0x24, size: 0x1, def value: None
-  bool ___m_RuntimeUiWasVisibleLastFrame;
+/// @brief Field m_Orientation, offset: 0x20, size: 0x4, def value: None
+ ::UnityEngine::ScreenOrientation  ___m_Orientation;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field m_RuntimeUiWasVisibleLastFrame, offset: 0x24, size: 0x1, def value: None
+ bool  ___m_RuntimeUiWasVisibleLastFrame;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Rendering::DebugUpdater, ___m_Orientation) == 0x20, "Offset mismatch!");
@@ -369,7 +370,7 @@ static_assert(offsetof(::UnityEngine::Rendering::DebugUpdater, ___m_RuntimeUiWas
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::DebugUpdater, 0x28>, "Size mismatch!");
 
-} // namespace UnityEngine::Rendering
+} // namespace end def UnityEngine::Rendering
 NEED_NO_BOX(::UnityEngine::Rendering::DebugUpdater);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::DebugUpdater*, "UnityEngine.Rendering", "DebugUpdater");
 NEED_NO_BOX(::UnityEngine::Rendering::DebugUpdater__DoAfterInputModuleUpdated_d__9);

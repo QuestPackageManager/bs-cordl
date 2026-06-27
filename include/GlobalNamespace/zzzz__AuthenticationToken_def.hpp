@@ -11,7 +11,8 @@ namespace GlobalNamespace {
 struct AuthenticationToken_PlatformType;
 }
 namespace LiteNetLib::Utils {
-template <typename T> class INetImmutableSerializable_1;
+template<typename T>
+class INetImmutableSerializable_1;
 }
 namespace LiteNetLib::Utils {
 class INetImmutableSerializable;
@@ -32,172 +33,171 @@ struct AuthenticationToken;
 // Write type traits
 MARK_VAL_T(::GlobalNamespace::AuthenticationToken_PlatformType);
 MARK_VAL_T(::GlobalNamespace::AuthenticationToken);
-// Dependencies
+// Dependencies 
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: AuthenticationToken/PlatformType
 struct CORDL_TYPE AuthenticationToken_PlatformType {
 public:
-  // Declarations
-  using __CORDL_BACKING_ENUM_TYPE = uint8_t;
+// Declarations
+using __CORDL_BACKING_ENUM_TYPE = uint8_t;
 
-  /// @brief Nested struct __AuthenticationToken_PlatformType_Unwrapped
-  enum struct __AuthenticationToken_PlatformType_Unwrapped : uint8_t {
-    __E_Test = static_cast<uint8_t>(0x0u),
-    __E_OculusRift = static_cast<uint8_t>(0x1u),
-    __E_OculusQuest = static_cast<uint8_t>(0x2u),
-    __E_Steam = static_cast<uint8_t>(0x3u),
-    __E_PS4 = static_cast<uint8_t>(0x4u),
-    __E_PS4Dev = static_cast<uint8_t>(0x5u),
-    __E_PS4Cert = static_cast<uint8_t>(0x6u),
-    __E_PS5 = static_cast<uint8_t>(0x7u),
-    __E_PS5Dev = static_cast<uint8_t>(0x8u),
-    __E_PS5Cert = static_cast<uint8_t>(0x9u),
-    __E_Oculus = static_cast<uint8_t>(0x2u),
-  };
+/// @brief Nested struct __AuthenticationToken_PlatformType_Unwrapped
+enum struct __AuthenticationToken_PlatformType_Unwrapped : uint8_t {
+__E_Test = static_cast<uint8_t>(0x0u),
+__E_OculusRift = static_cast<uint8_t>(0x1u),
+__E_OculusQuest = static_cast<uint8_t>(0x2u),
+__E_Steam = static_cast<uint8_t>(0x3u),
+__E_PS4 = static_cast<uint8_t>(0x4u),
+__E_PS4Dev = static_cast<uint8_t>(0x5u),
+__E_PS4Cert = static_cast<uint8_t>(0x6u),
+__E_PS5 = static_cast<uint8_t>(0x7u),
+__E_PS5Dev = static_cast<uint8_t>(0x8u),
+__E_PS5Cert = static_cast<uint8_t>(0x9u),
+__E_Oculus = static_cast<uint8_t>(0x2u),
+};
 
-  /// @brief Conversion into unwrapped enum value
-  constexpr operator __AuthenticationToken_PlatformType_Unwrapped() const noexcept {
-    return static_cast<__AuthenticationToken_PlatformType_Unwrapped>(this->value__);
-  }
+/// @brief Conversion into unwrapped enum value
+constexpr operator __AuthenticationToken_PlatformType_Unwrapped () const noexcept {
+return static_cast<__AuthenticationToken_PlatformType_Unwrapped>(this->value__);
+}
 
-  /// @brief Conversion into unwrapped enum value
-  constexpr explicit operator uint8_t() const noexcept {
-    return static_cast<uint8_t>(this->value__);
-  }
+/// @brief Conversion into unwrapped enum value
+constexpr explicit operator uint8_t () const noexcept {
+return static_cast<uint8_t>(this->value__);
+}
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AuthenticationToken_PlatformType();
+// Ctor Parameters []
+// @brief default ctor
+constexpr AuthenticationToken_PlatformType() ;
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: None }]
-  constexpr AuthenticationToken_PlatformType(uint8_t value__) noexcept;
+// Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: None }]
+constexpr AuthenticationToken_PlatformType(uint8_t  value__) noexcept;
 
-  /// @brief Field Oculus value: U8(2)
-  static ::GlobalNamespace::AuthenticationToken_PlatformType const Oculus;
+/// @brief Field Oculus value: U8(2)
+static ::GlobalNamespace::AuthenticationToken_PlatformType const Oculus;
 
-  /// @brief Field OculusQuest value: U8(2)
-  static ::GlobalNamespace::AuthenticationToken_PlatformType const OculusQuest;
+/// @brief Field OculusQuest value: U8(2)
+static ::GlobalNamespace::AuthenticationToken_PlatformType const OculusQuest;
 
-  /// @brief Field OculusRift value: U8(1)
-  static ::GlobalNamespace::AuthenticationToken_PlatformType const OculusRift;
+/// @brief Field OculusRift value: U8(1)
+static ::GlobalNamespace::AuthenticationToken_PlatformType const OculusRift;
 
-  /// @brief Field PS4 value: U8(4)
-  static ::GlobalNamespace::AuthenticationToken_PlatformType const PS4;
+/// @brief Field PS4 value: U8(4)
+static ::GlobalNamespace::AuthenticationToken_PlatformType const PS4;
 
-  /// @brief Field PS4Cert value: U8(6)
-  static ::GlobalNamespace::AuthenticationToken_PlatformType const PS4Cert;
+/// @brief Field PS4Cert value: U8(6)
+static ::GlobalNamespace::AuthenticationToken_PlatformType const PS4Cert;
 
-  /// @brief Field PS4Dev value: U8(5)
-  static ::GlobalNamespace::AuthenticationToken_PlatformType const PS4Dev;
+/// @brief Field PS4Dev value: U8(5)
+static ::GlobalNamespace::AuthenticationToken_PlatformType const PS4Dev;
 
-  /// @brief Field PS5 value: U8(7)
-  static ::GlobalNamespace::AuthenticationToken_PlatformType const PS5;
+/// @brief Field PS5 value: U8(7)
+static ::GlobalNamespace::AuthenticationToken_PlatformType const PS5;
 
-  /// @brief Field PS5Cert value: U8(9)
-  static ::GlobalNamespace::AuthenticationToken_PlatformType const PS5Cert;
+/// @brief Field PS5Cert value: U8(9)
+static ::GlobalNamespace::AuthenticationToken_PlatformType const PS5Cert;
 
-  /// @brief Field PS5Dev value: U8(8)
-  static ::GlobalNamespace::AuthenticationToken_PlatformType const PS5Dev;
+/// @brief Field PS5Dev value: U8(8)
+static ::GlobalNamespace::AuthenticationToken_PlatformType const PS5Dev;
 
-  /// @brief Field Steam value: U8(3)
-  static ::GlobalNamespace::AuthenticationToken_PlatformType const Steam;
+/// @brief Field Steam value: U8(3)
+static ::GlobalNamespace::AuthenticationToken_PlatformType const Steam;
 
-  /// @brief Field Test value: U8(0)
-  static ::GlobalNamespace::AuthenticationToken_PlatformType const Test;
+/// @brief Field Test value: U8(0)
+static ::GlobalNamespace::AuthenticationToken_PlatformType const Test;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18813 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{18815};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
 
-  /// @brief Field value__, offset: 0x0, size: 0x1, def value: None
-  uint8_t value__;
+/// @brief Field value__, offset: 0x0, size: 0x1, def value: None
+ uint8_t  value__;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::AuthenticationToken_PlatformType, value__) == 0x0, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::AuthenticationToken_PlatformType, 0x1>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 // Dependencies AuthenticationToken::PlatformType
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: AuthenticationToken
 struct CORDL_TYPE AuthenticationToken {
 public:
-  // Declarations
-  using PlatformType = ::GlobalNamespace::AuthenticationToken_PlatformType;
+// Declarations
+using PlatformType = ::GlobalNamespace::AuthenticationToken_PlatformType;
 
-  /// @brief Convert operator to "::LiteNetLib::Utils::INetImmutableSerializable"
-  constexpr operator ::LiteNetLib::Utils::INetImmutableSerializable*();
+/// @brief Convert operator to "::LiteNetLib::Utils::INetImmutableSerializable"
+constexpr operator  ::LiteNetLib::Utils::INetImmutableSerializable*() ;
 
-  /// @brief Convert operator to "::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::AuthenticationToken>"
-  constexpr operator ::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::AuthenticationToken>*();
+/// @brief Convert operator to "::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::AuthenticationToken>"
+constexpr operator  ::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::AuthenticationToken>*() ;
 
-  /// @brief Method CreateFromSerializedData, addr 0x320d1f4, size 0x2c, virtual true, abstract: false, final true
-  inline ::GlobalNamespace::AuthenticationToken CreateFromSerializedData(::LiteNetLib::Utils::NetDataReader* reader);
+/// @brief Method CreateFromSerializedData, addr 0x320df14, size 0x2c, virtual true, abstract: false, final true
+inline ::GlobalNamespace::AuthenticationToken CreateFromSerializedData(::LiteNetLib::Utils::NetDataReader*  reader) ;
 
-  /// @brief Method Deserialize, addr 0x320d220, size 0x104, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::AuthenticationToken Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
+/// @brief Method Deserialize, addr 0x320df40, size 0x104, virtual false, abstract: false, final false
+static inline ::GlobalNamespace::AuthenticationToken Deserialize(::LiteNetLib::Utils::NetDataReader*  reader) ;
 
-  /// @brief Method FromHex, addr 0x320d0f8, size 0xfc, virtual false, abstract: false, final false
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> FromHex(::StringW str);
+/// @brief Method FromHex, addr 0x320de18, size 0xfc, virtual false, abstract: false, final false
+static inline ::ArrayW<uint8_t,::Array<uint8_t>*> FromHex(::StringW  str) ;
 
-  /// @brief Method FromUtf8, addr 0x320d0c8, size 0x30, virtual false, abstract: false, final false
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> FromUtf8(::StringW str);
+/// @brief Method FromUtf8, addr 0x320dde8, size 0x30, virtual false, abstract: false, final false
+static inline ::ArrayW<uint8_t,::Array<uint8_t>*> FromUtf8(::StringW  str) ;
 
-  /// @brief Method GetHexVal, addr 0x320d3d0, size 0xc0, virtual false, abstract: false, final false
-  static inline uint8_t GetHexVal(char16_t c);
+/// @brief Method GetHexVal, addr 0x320e0f0, size 0xc0, virtual false, abstract: false, final false
+static inline uint8_t GetHexVal(char16_t  c) ;
 
-  /// @brief Method Serialize, addr 0x320d038, size 0x90, virtual true, abstract: false, final true
-  inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
+/// @brief Method Serialize, addr 0x320dd58, size 0x90, virtual true, abstract: false, final true
+inline void Serialize(::LiteNetLib::Utils::NetDataWriter*  writer) ;
 
-  /// @brief Method ToHex, addr 0x320d354, size 0x7c, virtual false, abstract: false, final false
-  static inline ::StringW ToHex(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
+/// @brief Method ToHex, addr 0x320e074, size 0x7c, virtual false, abstract: false, final false
+static inline ::StringW ToHex(::ArrayW<uint8_t,::Array<uint8_t>*>  bytes) ;
 
-  /// @brief Method ToUtf8, addr 0x320d324, size 0x30, virtual false, abstract: false, final false
-  static inline ::StringW ToUtf8(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
+/// @brief Method ToUtf8, addr 0x320e044, size 0x30, virtual false, abstract: false, final false
+static inline ::StringW ToUtf8(::ArrayW<uint8_t,::Array<uint8_t>*>  bytes) ;
 
-  /// @brief Method .ctor, addr 0x320d028, size 0x10, virtual false, abstract: false, final false
-  inline void _ctor(::GlobalNamespace::AuthenticationToken_PlatformType platform, ::StringW userId, ::StringW userName, ::StringW sessionToken);
+/// @brief Method .ctor, addr 0x320dd48, size 0x10, virtual false, abstract: false, final false
+inline void _ctor(::GlobalNamespace::AuthenticationToken_PlatformType  platform, ::StringW  userId, ::StringW  userName, ::StringW  sessionToken) ;
 
-  /// @brief Convert to "::LiteNetLib::Utils::INetImmutableSerializable"
-  constexpr ::LiteNetLib::Utils::INetImmutableSerializable* i___LiteNetLib__Utils__INetImmutableSerializable();
+/// @brief Convert to "::LiteNetLib::Utils::INetImmutableSerializable"
+constexpr ::LiteNetLib::Utils::INetImmutableSerializable* i___LiteNetLib__Utils__INetImmutableSerializable() ;
 
-  /// @brief Convert to "::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::AuthenticationToken>"
-  constexpr ::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::AuthenticationToken>* i___LiteNetLib__Utils__INetImmutableSerializable_1___GlobalNamespace__AuthenticationToken_();
+/// @brief Convert to "::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::AuthenticationToken>"
+constexpr ::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::AuthenticationToken>* i___LiteNetLib__Utils__INetImmutableSerializable_1___GlobalNamespace__AuthenticationToken_() ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AuthenticationToken();
+// Ctor Parameters []
+// @brief default ctor
+constexpr AuthenticationToken() ;
 
-  // Ctor Parameters [CppParam { name: "platform", ty: "::GlobalNamespace::AuthenticationToken_PlatformType", modifiers: "", def_value: None }, CppParam { name: "userId", ty: "::StringW", modifiers:
-  // "", def_value: None }, CppParam { name: "userName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "sessionToken", ty: "::StringW", modifiers: "", def_value: None }]
-  constexpr AuthenticationToken(::GlobalNamespace::AuthenticationToken_PlatformType platform, ::StringW userId, ::StringW userName, ::StringW sessionToken) noexcept;
+// Ctor Parameters [CppParam { name: "platform", ty: "::GlobalNamespace::AuthenticationToken_PlatformType", modifiers: "", def_value: None }, CppParam { name: "userId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "userName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "sessionToken", ty: "::StringW", modifiers: "", def_value: None }]
+constexpr AuthenticationToken(::GlobalNamespace::AuthenticationToken_PlatformType  platform, ::StringW  userId, ::StringW  userName, ::StringW  sessionToken) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18814 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{18816};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x20};
 
-  /// @brief Field platform, offset: 0x0, size: 0x1, def value: None
-  ::GlobalNamespace::AuthenticationToken_PlatformType platform;
+/// @brief Field platform, offset: 0x0, size: 0x1, def value: None
+ ::GlobalNamespace::AuthenticationToken_PlatformType  platform;
 
-  /// @brief Field userId, offset: 0x8, size: 0x8, def value: None
-  ::StringW userId;
+/// @brief Field userId, offset: 0x8, size: 0x8, def value: None
+ ::StringW  userId;
 
-  /// @brief Field userName, offset: 0x10, size: 0x8, def value: None
-  ::StringW userName;
+/// @brief Field userName, offset: 0x10, size: 0x8, def value: None
+ ::StringW  userName;
 
-  /// @brief Field sessionToken, offset: 0x18, size: 0x8, def value: None
-  ::StringW sessionToken;
+/// @brief Field sessionToken, offset: 0x18, size: 0x8, def value: None
+ ::StringW  sessionToken;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::AuthenticationToken, platform) == 0x0, "Offset mismatch!");
@@ -210,6 +210,6 @@ static_assert(offsetof(::GlobalNamespace::AuthenticationToken, sessionToken) == 
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::AuthenticationToken, 0x20>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::AuthenticationToken_PlatformType, "", "AuthenticationToken/PlatformType");
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::AuthenticationToken, "", "AuthenticationToken");

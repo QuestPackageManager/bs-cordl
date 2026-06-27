@@ -21,54 +21,54 @@ namespace Oculus::Platform {
 // CS Name: Oculus.Platform.RichPresenceOptions
 class CORDL_TYPE RichPresenceOptions : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field Handle, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_Handle, put = __cordl_internal_set_Handle)) ::System::IntPtr Handle;
+// Declarations
+/// @brief Field Handle, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_Handle, put=__cordl_internal_set_Handle)) ::System::IntPtr  Handle;
 
-  /// @brief Method Finalize, addr 0x5cafe38, size 0x94, virtual true, abstract: false, final false
-  inline void Finalize();
+/// @brief Method Finalize, addr 0x5cb19b0, size 0x94, virtual true, abstract: false, final false
+inline void Finalize() ;
 
-  static inline ::Oculus::Platform::RichPresenceOptions* New_ctor();
+static inline ::Oculus::Platform::RichPresenceOptions* New_ctor() ;
 
-  constexpr ::System::IntPtr const& __cordl_internal_get_Handle() const;
+constexpr ::System::IntPtr const& __cordl_internal_get_Handle() const;
 
-  constexpr ::System::IntPtr& __cordl_internal_get_Handle();
+constexpr ::System::IntPtr& __cordl_internal_get_Handle() ;
 
-  constexpr void __cordl_internal_set_Handle(::System::IntPtr value);
+constexpr void __cordl_internal_set_Handle(::System::IntPtr  value) ;
 
-  /// @brief Method .ctor, addr 0x5cafddc, size 0x5c, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5cb1954, size 0x5c, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method op_Explicit, addr 0x5caefa0, size 0xc, virtual false, abstract: false, final false
-  static inline ::System::IntPtr op_Explicit___System__IntPtr(::Oculus::Platform::RichPresenceOptions* options);
+/// @brief Method op_Explicit, addr 0x5cb0b18, size 0xc, virtual false, abstract: false, final false
+static inline ::System::IntPtr op_Explicit___System__IntPtr(::Oculus::Platform::RichPresenceOptions*  options) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RichPresenceOptions();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr RichPresenceOptions() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RichPresenceOptions", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  RichPresenceOptions(RichPresenceOptions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RichPresenceOptions", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  RichPresenceOptions(RichPresenceOptions const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "RichPresenceOptions", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+RichPresenceOptions(RichPresenceOptions && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17961 };
+// Ctor Parameters [CppParam { name: "", ty: "RichPresenceOptions", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+RichPresenceOptions(RichPresenceOptions const& ) = delete;
 
-  /// @brief Field Handle, offset: 0x10, size: 0x8, def value: None
-  ::System::IntPtr ___Handle;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{17963};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field Handle, offset: 0x10, size: 0x8, def value: None
+ ::System::IntPtr  ___Handle;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Oculus::Platform::RichPresenceOptions, ___Handle) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::Oculus::Platform::RichPresenceOptions, 0x18>, "Size mismatch!");
 
-} // namespace Oculus::Platform
+} // namespace end def Oculus::Platform
 NEED_NO_BOX(::Oculus::Platform::RichPresenceOptions);
 DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::RichPresenceOptions*, "Oculus.Platform", "RichPresenceOptions");

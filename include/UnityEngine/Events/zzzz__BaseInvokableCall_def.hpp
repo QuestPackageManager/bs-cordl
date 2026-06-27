@@ -26,51 +26,52 @@ namespace UnityEngine::Events {
 // CS Name: UnityEngine.Events.BaseInvokableCall
 class CORDL_TYPE BaseInvokableCall : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method AllowInvoke, addr 0x69a4558, size 0xa8, virtual false, abstract: false, final false
-  static inline bool AllowInvoke(::System::Delegate* delegate);
+// Declarations
+/// @brief Method AllowInvoke, addr 0x69a60d0, size 0xa8, virtual false, abstract: false, final false
+static inline bool AllowInvoke(::System::Delegate*  delegate) ;
 
-  /// @brief Method Find, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline bool Find(::System::Object* targetObj, ::System::Reflection::MethodInfo* method);
+/// @brief Method Find, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline bool Find(::System::Object*  targetObj, ::System::Reflection::MethodInfo*  method) ;
 
-  /// @brief Method Invoke, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void Invoke(::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
+/// @brief Method Invoke, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline void Invoke(::ArrayW<::System::Object*,::Array<::System::Object*>*>  args) ;
 
-  static inline ::UnityEngine::Events::BaseInvokableCall* New_ctor();
+static inline ::UnityEngine::Events::BaseInvokableCall* New_ctor() ;
 
-  static inline ::UnityEngine::Events::BaseInvokableCall* New_ctor(::System::Object* target, ::System::Reflection::MethodInfo* function);
+static inline ::UnityEngine::Events::BaseInvokableCall* New_ctor(::System::Object*  target, ::System::Reflection::MethodInfo*  function) ;
 
-  /// @brief Method ThrowOnInvalidArg, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline void ThrowOnInvalidArg(::System::Object* arg);
+/// @brief Method ThrowOnInvalidArg, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+template<typename T>
+static inline void ThrowOnInvalidArg(::System::Object*  arg) ;
 
-  /// @brief Method .ctor, addr 0x69a4484, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x69a5ffc, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method .ctor, addr 0x69a4488, size 0xd0, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* target, ::System::Reflection::MethodInfo* function);
+/// @brief Method .ctor, addr 0x69a6000, size 0xd0, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  target, ::System::Reflection::MethodInfo*  function) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BaseInvokableCall();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr BaseInvokableCall() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BaseInvokableCall", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  BaseInvokableCall(BaseInvokableCall&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BaseInvokableCall", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  BaseInvokableCall(BaseInvokableCall const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "BaseInvokableCall", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+BaseInvokableCall(BaseInvokableCall && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10430 };
+// Ctor Parameters [CppParam { name: "", ty: "BaseInvokableCall", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+BaseInvokableCall(BaseInvokableCall const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10431};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Events::BaseInvokableCall, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::Events
+} // namespace end def UnityEngine::Events
 NEED_NO_BOX(::UnityEngine::Events::BaseInvokableCall);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Events::BaseInvokableCall*, "UnityEngine.Events", "BaseInvokableCall");

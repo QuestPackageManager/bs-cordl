@@ -4,27 +4,35 @@
 #include "Mono/zzzz__RuntimeClassHandle_def.hpp"
 #include "Mono/zzzz__RuntimeStructs_def.hpp"
 //  Writing Method size for method: ::Mono::RuntimeRemoteClassHandle.get_ProxyClass
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::RuntimeClassHandle (::Mono::RuntimeRemoteClassHandle::*)()>(
-    &::Mono::RuntimeRemoteClassHandle::get_ProxyClass)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::RuntimeClassHandle (::Mono::RuntimeRemoteClassHandle::*)()>(&::Mono::RuntimeRemoteClassHandle::get_ProxyClass)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x59712bc;
+  constexpr static std::size_t addrs = 0x5972e34;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::RuntimeRemoteClassHandle>::get(), "get_ProxyClass",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::RuntimeRemoteClassHandle>::get(),
+                        "get_ProxyClass",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
-inline ::Mono::RuntimeClassHandle Mono::RuntimeRemoteClassHandle::get_ProxyClass() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::RuntimeRemoteClassHandle>::get(), "get_ProxyClass",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::Mono::RuntimeClassHandle, false>(this, ___internal_method);
+inline ::Mono::RuntimeClassHandle Mono::RuntimeRemoteClassHandle::get_ProxyClass()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::RuntimeRemoteClassHandle>::get(),
+                        "get_ProxyClass",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<::Mono::RuntimeClassHandle, false>(this, ___internal_method);
 }
 // Ctor Parameters [CppParam { name: "value", ty: "::Mono::RuntimeStructs_RemoteClass*", modifiers: "", def_value: Some("{}") }]
-constexpr ::Mono::RuntimeRemoteClassHandle::RuntimeRemoteClassHandle(::Mono::RuntimeStructs_RemoteClass* value) noexcept {
-  this->value = value;
+constexpr ::Mono::RuntimeRemoteClassHandle::RuntimeRemoteClassHandle(::Mono::RuntimeStructs_RemoteClass*  value) noexcept  {
+this->value = value;
 }
 // Ctor Parameters []
-constexpr ::Mono::RuntimeRemoteClassHandle::RuntimeRemoteClassHandle() {}
+constexpr ::Mono::RuntimeRemoteClassHandle::RuntimeRemoteClassHandle()   {
+}

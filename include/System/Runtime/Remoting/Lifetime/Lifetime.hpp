@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "System/Runtime/Remoting/Lifetime/ILease.hpp"
 #include "System/Runtime/Remoting/Lifetime/ISponsor.hpp"
@@ -11,5 +11,6 @@ module;
 #include "System/Runtime/Remoting/Lifetime/LeaseState.hpp"
 #include "System/Runtime/Remoting/Lifetime/LifetimeServices.hpp"
 #ifdef __cpp_modules
-export module Lifetime;
-#endif
+                    export module Lifetime;
+                    #endif
+                

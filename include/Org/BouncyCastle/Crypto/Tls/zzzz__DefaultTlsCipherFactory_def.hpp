@@ -48,106 +48,106 @@ namespace Org::BouncyCastle::Crypto::Tls {
 // CS Name: Org.BouncyCastle.Crypto.Tls.DefaultTlsCipherFactory
 class CORDL_TYPE DefaultTlsCipherFactory : public ::Org::BouncyCastle::Crypto::Tls::AbstractTlsCipherFactory {
 public:
-  // Declarations
-  /// @brief Method CreateAESCipher, addr 0x337eb64, size 0xfc, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Crypto::Tls::TlsBlockCipher* CreateAESCipher(::Org::BouncyCastle::Crypto::Tls::TlsContext* context, int32_t cipherKeySize, int32_t macAlgorithm);
+// Declarations
+/// @brief Method CreateAESCipher, addr 0x337f900, size 0xfc, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Crypto::Tls::TlsBlockCipher* CreateAESCipher(::Org::BouncyCastle::Crypto::Tls::TlsContext*  context, int32_t  cipherKeySize, int32_t  macAlgorithm) ;
 
-  /// @brief Method CreateAeadBlockCipher_Aes_Ccm, addr 0x337f580, size 0x7c, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher* CreateAeadBlockCipher_Aes_Ccm();
+/// @brief Method CreateAeadBlockCipher_Aes_Ccm, addr 0x338031c, size 0x7c, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher* CreateAeadBlockCipher_Aes_Ccm() ;
 
-  /// @brief Method CreateAeadBlockCipher_Aes_Gcm, addr 0x337f5fc, size 0x7c, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher* CreateAeadBlockCipher_Aes_Gcm();
+/// @brief Method CreateAeadBlockCipher_Aes_Gcm, addr 0x3380398, size 0x7c, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher* CreateAeadBlockCipher_Aes_Gcm() ;
 
-  /// @brief Method CreateAeadBlockCipher_Aes_Ocb, addr 0x337f678, size 0x98, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher* CreateAeadBlockCipher_Aes_Ocb();
+/// @brief Method CreateAeadBlockCipher_Aes_Ocb, addr 0x3380414, size 0x98, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher* CreateAeadBlockCipher_Aes_Ocb() ;
 
-  /// @brief Method CreateAeadBlockCipher_Camellia_Gcm, addr 0x337f710, size 0x7c, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher* CreateAeadBlockCipher_Camellia_Gcm();
+/// @brief Method CreateAeadBlockCipher_Camellia_Gcm, addr 0x33804ac, size 0x7c, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher* CreateAeadBlockCipher_Camellia_Gcm() ;
 
-  /// @brief Method CreateAesBlockCipher, addr 0x337f504, size 0x7c, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Crypto::IBlockCipher* CreateAesBlockCipher();
+/// @brief Method CreateAesBlockCipher, addr 0x33802a0, size 0x7c, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Crypto::IBlockCipher* CreateAesBlockCipher() ;
 
-  /// @brief Method CreateAesEngine, addr 0x337f468, size 0x44, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Crypto::IBlockCipher* CreateAesEngine();
+/// @brief Method CreateAesEngine, addr 0x3380204, size 0x44, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Crypto::IBlockCipher* CreateAesEngine() ;
 
-  /// @brief Method CreateCamelliaBlockCipher, addr 0x337f78c, size 0x7c, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Crypto::IBlockCipher* CreateCamelliaBlockCipher();
+/// @brief Method CreateCamelliaBlockCipher, addr 0x3380528, size 0x7c, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Crypto::IBlockCipher* CreateCamelliaBlockCipher() ;
 
-  /// @brief Method CreateCamelliaCipher, addr 0x337ec60, size 0xfc, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Crypto::Tls::TlsBlockCipher* CreateCamelliaCipher(::Org::BouncyCastle::Crypto::Tls::TlsContext* context, int32_t cipherKeySize, int32_t macAlgorithm);
+/// @brief Method CreateCamelliaCipher, addr 0x337f9fc, size 0xfc, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Crypto::Tls::TlsBlockCipher* CreateCamelliaCipher(::Org::BouncyCastle::Crypto::Tls::TlsContext*  context, int32_t  cipherKeySize, int32_t  macAlgorithm) ;
 
-  /// @brief Method CreateCamelliaEngine, addr 0x337f4ac, size 0x58, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Crypto::IBlockCipher* CreateCamelliaEngine();
+/// @brief Method CreateCamelliaEngine, addr 0x3380248, size 0x58, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Crypto::IBlockCipher* CreateCamelliaEngine() ;
 
-  /// @brief Method CreateChaCha20Poly1305, addr 0x337ed5c, size 0x5c, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Crypto::Tls::TlsCipher* CreateChaCha20Poly1305(::Org::BouncyCastle::Crypto::Tls::TlsContext* context);
+/// @brief Method CreateChaCha20Poly1305, addr 0x337faf8, size 0x5c, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Crypto::Tls::TlsCipher* CreateChaCha20Poly1305(::Org::BouncyCastle::Crypto::Tls::TlsContext*  context) ;
 
-  /// @brief Method CreateCipher, addr 0x337e9ac, size 0x1b8, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Crypto::Tls::TlsCipher* CreateCipher(::Org::BouncyCastle::Crypto::Tls::TlsContext* context, int32_t encryptionAlgorithm, int32_t macAlgorithm);
+/// @brief Method CreateCipher, addr 0x337f748, size 0x1b8, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Crypto::Tls::TlsCipher* CreateCipher(::Org::BouncyCastle::Crypto::Tls::TlsContext*  context, int32_t  encryptionAlgorithm, int32_t  macAlgorithm) ;
 
-  /// @brief Method CreateCipher_Aes_Ccm, addr 0x337edb8, size 0xc0, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Crypto::Tls::TlsAeadCipher* CreateCipher_Aes_Ccm(::Org::BouncyCastle::Crypto::Tls::TlsContext* context, int32_t cipherKeySize, int32_t macSize);
+/// @brief Method CreateCipher_Aes_Ccm, addr 0x337fb54, size 0xc0, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Crypto::Tls::TlsAeadCipher* CreateCipher_Aes_Ccm(::Org::BouncyCastle::Crypto::Tls::TlsContext*  context, int32_t  cipherKeySize, int32_t  macSize) ;
 
-  /// @brief Method CreateCipher_Aes_Gcm, addr 0x337ee78, size 0xc0, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Crypto::Tls::TlsAeadCipher* CreateCipher_Aes_Gcm(::Org::BouncyCastle::Crypto::Tls::TlsContext* context, int32_t cipherKeySize, int32_t macSize);
+/// @brief Method CreateCipher_Aes_Gcm, addr 0x337fc14, size 0xc0, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Crypto::Tls::TlsAeadCipher* CreateCipher_Aes_Gcm(::Org::BouncyCastle::Crypto::Tls::TlsContext*  context, int32_t  cipherKeySize, int32_t  macSize) ;
 
-  /// @brief Method CreateCipher_Aes_Ocb, addr 0x337ef38, size 0xc4, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Crypto::Tls::TlsAeadCipher* CreateCipher_Aes_Ocb(::Org::BouncyCastle::Crypto::Tls::TlsContext* context, int32_t cipherKeySize, int32_t macSize);
+/// @brief Method CreateCipher_Aes_Ocb, addr 0x337fcd4, size 0xc4, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Crypto::Tls::TlsAeadCipher* CreateCipher_Aes_Ocb(::Org::BouncyCastle::Crypto::Tls::TlsContext*  context, int32_t  cipherKeySize, int32_t  macSize) ;
 
-  /// @brief Method CreateCipher_Camellia_Gcm, addr 0x337effc, size 0xc0, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Crypto::Tls::TlsAeadCipher* CreateCipher_Camellia_Gcm(::Org::BouncyCastle::Crypto::Tls::TlsContext* context, int32_t cipherKeySize, int32_t macSize);
+/// @brief Method CreateCipher_Camellia_Gcm, addr 0x337fd98, size 0xc0, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Crypto::Tls::TlsAeadCipher* CreateCipher_Camellia_Gcm(::Org::BouncyCastle::Crypto::Tls::TlsContext*  context, int32_t  cipherKeySize, int32_t  macSize) ;
 
-  /// @brief Method CreateDesEdeBlockCipher, addr 0x337f808, size 0x88, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Crypto::IBlockCipher* CreateDesEdeBlockCipher();
+/// @brief Method CreateDesEdeBlockCipher, addr 0x33805a4, size 0x88, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Crypto::IBlockCipher* CreateDesEdeBlockCipher() ;
 
-  /// @brief Method CreateDesEdeCipher, addr 0x337f0bc, size 0xf8, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Crypto::Tls::TlsBlockCipher* CreateDesEdeCipher(::Org::BouncyCastle::Crypto::Tls::TlsContext* context, int32_t macAlgorithm);
+/// @brief Method CreateDesEdeCipher, addr 0x337fe58, size 0xf8, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Crypto::Tls::TlsBlockCipher* CreateDesEdeCipher(::Org::BouncyCastle::Crypto::Tls::TlsContext*  context, int32_t  macAlgorithm) ;
 
-  /// @brief Method CreateHMacDigest, addr 0x337f958, size 0xfc, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Crypto::IDigest* CreateHMacDigest(int32_t macAlgorithm);
+/// @brief Method CreateHMacDigest, addr 0x33806f4, size 0xfc, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Crypto::IDigest* CreateHMacDigest(int32_t  macAlgorithm) ;
 
-  /// @brief Method CreateNullCipher, addr 0x337f1b4, size 0xb4, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Crypto::Tls::TlsNullCipher* CreateNullCipher(::Org::BouncyCastle::Crypto::Tls::TlsContext* context, int32_t macAlgorithm);
+/// @brief Method CreateNullCipher, addr 0x337ff50, size 0xb4, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Crypto::Tls::TlsNullCipher* CreateNullCipher(::Org::BouncyCastle::Crypto::Tls::TlsContext*  context, int32_t  macAlgorithm) ;
 
-  /// @brief Method CreateRC4Cipher, addr 0x337f268, size 0x108, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Crypto::Tls::TlsStreamCipher* CreateRC4Cipher(::Org::BouncyCastle::Crypto::Tls::TlsContext* context, int32_t cipherKeySize, int32_t macAlgorithm);
+/// @brief Method CreateRC4Cipher, addr 0x3380004, size 0x108, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Crypto::Tls::TlsStreamCipher* CreateRC4Cipher(::Org::BouncyCastle::Crypto::Tls::TlsContext*  context, int32_t  cipherKeySize, int32_t  macAlgorithm) ;
 
-  /// @brief Method CreateRC4StreamCipher, addr 0x337f890, size 0x44, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Crypto::IStreamCipher* CreateRC4StreamCipher();
+/// @brief Method CreateRC4StreamCipher, addr 0x338062c, size 0x44, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Crypto::IStreamCipher* CreateRC4StreamCipher() ;
 
-  /// @brief Method CreateSeedBlockCipher, addr 0x337f8d4, size 0x84, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Crypto::IBlockCipher* CreateSeedBlockCipher();
+/// @brief Method CreateSeedBlockCipher, addr 0x3380670, size 0x84, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Crypto::IBlockCipher* CreateSeedBlockCipher() ;
 
-  /// @brief Method CreateSeedCipher, addr 0x337f370, size 0xf8, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Crypto::Tls::TlsBlockCipher* CreateSeedCipher(::Org::BouncyCastle::Crypto::Tls::TlsContext* context, int32_t macAlgorithm);
+/// @brief Method CreateSeedCipher, addr 0x338010c, size 0xf8, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Crypto::Tls::TlsBlockCipher* CreateSeedCipher(::Org::BouncyCastle::Crypto::Tls::TlsContext*  context, int32_t  macAlgorithm) ;
 
-  static inline ::Org::BouncyCastle::Crypto::Tls::DefaultTlsCipherFactory* New_ctor();
+static inline ::Org::BouncyCastle::Crypto::Tls::DefaultTlsCipherFactory* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x3375de0, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x3376b7c, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DefaultTlsCipherFactory();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr DefaultTlsCipherFactory() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DefaultTlsCipherFactory", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  DefaultTlsCipherFactory(DefaultTlsCipherFactory&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DefaultTlsCipherFactory", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  DefaultTlsCipherFactory(DefaultTlsCipherFactory const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "DefaultTlsCipherFactory", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+DefaultTlsCipherFactory(DefaultTlsCipherFactory && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1209 };
+// Ctor Parameters [CppParam { name: "", ty: "DefaultTlsCipherFactory", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+DefaultTlsCipherFactory(DefaultTlsCipherFactory const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{1209};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Tls::DefaultTlsCipherFactory, 0x10>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Crypto::Tls
+} // namespace end def Org::BouncyCastle::Crypto::Tls
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Tls::DefaultTlsCipherFactory);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Tls::DefaultTlsCipherFactory*, "Org.BouncyCastle.Crypto.Tls", "DefaultTlsCipherFactory");

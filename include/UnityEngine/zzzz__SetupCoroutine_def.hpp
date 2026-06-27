@@ -27,35 +27,35 @@ namespace UnityEngine {
 // CS Name: UnityEngine.SetupCoroutine
 class CORDL_TYPE SetupCoroutine : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method InvokeMember, addr 0x6986758, size 0xf8, virtual false, abstract: false, final false
-  static inline ::System::Object* InvokeMember(::System::Object* behaviour, ::StringW name, ::System::Object* variable);
+// Declarations
+/// @brief Method InvokeMember, addr 0x69882d0, size 0xf8, virtual false, abstract: false, final false
+static inline ::System::Object* InvokeMember(::System::Object*  behaviour, ::StringW  name, ::System::Object*  variable) ;
 
-  /// @brief Method InvokeMoveNext, addr 0x6986640, size 0x118, virtual false, abstract: false, final false
-  static inline void InvokeMoveNext(::System::Collections::IEnumerator* enumerator, ::System::IntPtr returnValueAddress);
+/// @brief Method InvokeMoveNext, addr 0x69881b8, size 0x118, virtual false, abstract: false, final false
+static inline void InvokeMoveNext(::System::Collections::IEnumerator*  enumerator, ::System::IntPtr  returnValueAddress) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SetupCoroutine();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr SetupCoroutine() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SetupCoroutine", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  SetupCoroutine(SetupCoroutine&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SetupCoroutine", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  SetupCoroutine(SetupCoroutine const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "SetupCoroutine", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+SetupCoroutine(SetupCoroutine && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10325 };
+// Ctor Parameters [CppParam { name: "", ty: "SetupCoroutine", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+SetupCoroutine(SetupCoroutine const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10326};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::SetupCoroutine, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine
+} // namespace end def UnityEngine
 NEED_NO_BOX(::UnityEngine::SetupCoroutine);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::SetupCoroutine*, "UnityEngine", "SetupCoroutine");

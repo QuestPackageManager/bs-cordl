@@ -8,10 +8,12 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Spline)
 namespace System::Collections::Generic {
-template <typename T> class IList_1;
+template<typename T>
+class IList_1;
 }
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template<typename T>
+class List_1;
 }
 namespace UnityEngine::ProBuilder {
 struct BezierPoint;
@@ -37,52 +39,47 @@ namespace UnityEngine::ProBuilder {
 // CS Name: UnityEngine.ProBuilder.Spline
 class CORDL_TYPE Spline : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method Extrude, addr 0x65b0c84, size 0x18, virtual false, abstract: false, final false
-  static inline ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> Extrude(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::BezierPoint>* points, float_t radius, int32_t columns,
-                                                                            int32_t rows, bool closeLoop, bool smooth);
+// Declarations
+/// @brief Method Extrude, addr 0x65b27fc, size 0x18, virtual false, abstract: false, final false
+static inline ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> Extrude(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::BezierPoint>*  points, float_t  radius, int32_t  columns, int32_t  rows, bool  closeLoop, bool  smooth) ;
 
-  /// @brief Method Extrude, addr 0x65b0c9c, size 0xd4, virtual false, abstract: false, final false
-  static inline void Extrude(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::BezierPoint>* bezierPoints, float_t radius, int32_t columns, int32_t rows, bool closeLoop, bool smooth,
-                             ::ByRef<::UnityEngine::ProBuilder::ProBuilderMesh*> target);
+/// @brief Method Extrude, addr 0x65b2814, size 0xd4, virtual false, abstract: false, final false
+static inline void Extrude(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::BezierPoint>*  bezierPoints, float_t  radius, int32_t  columns, int32_t  rows, bool  closeLoop, bool  smooth, ::ByRef<::UnityEngine::ProBuilder::ProBuilderMesh*>  target) ;
 
-  /// @brief Method Extrude, addr 0x65b12b0, size 0x994, virtual false, abstract: false, final false
-  static inline void Extrude(::System::Collections::Generic::IList_1<::UnityEngine::Vector3>* points, float_t radius, int32_t radiusRows, bool closeLoop, bool smooth,
-                             ::ByRef<::UnityEngine::ProBuilder::ProBuilderMesh*> target, ::System::Collections::Generic::IList_1<::UnityEngine::Quaternion>* pointRotations);
+/// @brief Method Extrude, addr 0x65b2e28, size 0x994, virtual false, abstract: false, final false
+static inline void Extrude(::System::Collections::Generic::IList_1<::UnityEngine::Vector3>*  points, float_t  radius, int32_t  radiusRows, bool  closeLoop, bool  smooth, ::ByRef<::UnityEngine::ProBuilder::ProBuilderMesh*>  target, ::System::Collections::Generic::IList_1<::UnityEngine::Quaternion>*  pointRotations) ;
 
-  /// @brief Method GetControlPoints, addr 0x65b0d70, size 0x540, virtual false, abstract: false, final false
-  static inline ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* GetControlPoints(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::BezierPoint>* bezierPoints,
-                                                                                                 int32_t subdivisionsPerSegment, bool closeLoop,
-                                                                                                 ::System::Collections::Generic::List_1<::UnityEngine::Quaternion>* rotations);
+/// @brief Method GetControlPoints, addr 0x65b28e8, size 0x540, virtual false, abstract: false, final false
+static inline ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* GetControlPoints(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::BezierPoint>*  bezierPoints, int32_t  subdivisionsPerSegment, bool  closeLoop, ::System::Collections::Generic::List_1<::UnityEngine::Quaternion>*  rotations) ;
 
-  /// @brief Method GetRingRotation, addr 0x65b1c44, size 0x8f0, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Quaternion GetRingRotation(::System::Collections::Generic::IList_1<::UnityEngine::Vector3>* points, int32_t i, bool closeLoop, ::ByRef<float_t> secant);
+/// @brief Method GetRingRotation, addr 0x65b37bc, size 0x8f0, virtual false, abstract: false, final false
+static inline ::UnityEngine::Quaternion GetRingRotation(::System::Collections::Generic::IList_1<::UnityEngine::Vector3>*  points, int32_t  i, bool  closeLoop, ::ByRef<float_t>  secant) ;
 
-  /// @brief Method VertexRing, addr 0x65b2534, size 0x25c, virtual false, abstract: false, final false
-  static inline ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> VertexRing(::UnityEngine::Quaternion orientation, ::UnityEngine::Vector3 offset, float_t radius, int32_t segments);
+/// @brief Method VertexRing, addr 0x65b40ac, size 0x25c, virtual false, abstract: false, final false
+static inline ::ArrayW<::UnityEngine::Vector3,::Array<::UnityEngine::Vector3>*> VertexRing(::UnityEngine::Quaternion  orientation, ::UnityEngine::Vector3  offset, float_t  radius, int32_t  segments) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Spline();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr Spline() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Spline", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  Spline(Spline&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Spline", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  Spline(Spline const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "Spline", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Spline(Spline && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16796 };
+// Ctor Parameters [CppParam { name: "", ty: "Spline", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Spline(Spline const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{16798};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::Spline, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::ProBuilder
+} // namespace end def UnityEngine::ProBuilder
 NEED_NO_BOX(::UnityEngine::ProBuilder::Spline);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::Spline*, "UnityEngine.ProBuilder", "Spline");

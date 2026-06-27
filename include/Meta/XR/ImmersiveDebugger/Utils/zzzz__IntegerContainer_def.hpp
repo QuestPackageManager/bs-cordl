@@ -18,34 +18,34 @@ namespace Meta::XR::ImmersiveDebugger::Utils {
 // CS Name: Meta.XR.ImmersiveDebugger.Utils.IntegerContainer
 class CORDL_TYPE IntegerContainer : public ::Meta::XR::ImmersiveDebugger::Utils::ValueContainer_1<int32_t> {
 public:
-  // Declarations
-  static inline ::Meta::XR::ImmersiveDebugger::Utils::IntegerContainer* New_ctor();
+// Declarations
+static inline ::Meta::XR::ImmersiveDebugger::Utils::IntegerContainer* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x590ba6c, size 0x48, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x590d43c, size 0x48, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IntegerContainer();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr IntegerContainer() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IntegerContainer", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IntegerContainer(IntegerContainer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IntegerContainer", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  IntegerContainer(IntegerContainer const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "IntegerContainer", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+IntegerContainer(IntegerContainer && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18334 };
+// Ctor Parameters [CppParam { name: "", ty: "IntegerContainer", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+IntegerContainer(IntegerContainer const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{18336};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Meta::XR::ImmersiveDebugger::Utils::IntegerContainer, 0x20>, "Size mismatch!");
 
-} // namespace Meta::XR::ImmersiveDebugger::Utils
+} // namespace end def Meta::XR::ImmersiveDebugger::Utils
 NEED_NO_BOX(::Meta::XR::ImmersiveDebugger::Utils::IntegerContainer);
 DEFINE_IL2CPP_ARG_TYPE(::Meta::XR::ImmersiveDebugger::Utils::IntegerContainer*, "Meta.XR.ImmersiveDebugger.Utils", "IntegerContainer");

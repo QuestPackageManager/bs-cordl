@@ -25,60 +25,60 @@ namespace UnityEngine {
 // CS Name: UnityEngine.UnityLogWriter
 class CORDL_TYPE UnityLogWriter : public ::System::IO::TextWriter {
 public:
-  // Declarations
-  __declspec(property(get = get_Encoding)) ::System::Text::Encoding* Encoding;
+// Declarations
+ __declspec(property(get=get_Encoding)) ::System::Text::Encoding*  Encoding;
 
-  /// @brief Method Init, addr 0x697214c, size 0xc8, virtual false, abstract: false, final false
-  static inline void Init();
+/// @brief Method Init, addr 0x6973cc4, size 0xc8, virtual false, abstract: false, final false
+static inline void Init() ;
 
-  static inline ::UnityEngine::UnityLogWriter* New_ctor();
+static inline ::UnityEngine::UnityLogWriter* New_ctor() ;
 
-  /// @brief Method Write, addr 0x69722c4, size 0x1c, virtual true, abstract: false, final false
-  inline void Write(::ArrayW<char16_t, ::Array<char16_t>*> buffer, int32_t index, int32_t count);
+/// @brief Method Write, addr 0x6973e3c, size 0x1c, virtual true, abstract: false, final false
+inline void Write(::ArrayW<char16_t,::Array<char16_t>*>  buffer, int32_t  index, int32_t  count) ;
 
-  /// @brief Method Write, addr 0x69722b4, size 0x10, virtual true, abstract: false, final false
-  inline void Write(::StringW s);
+/// @brief Method Write, addr 0x6973e2c, size 0x10, virtual true, abstract: false, final false
+inline void Write(::StringW  s) ;
 
-  /// @brief Method Write, addr 0x6972278, size 0x3c, virtual true, abstract: false, final false
-  inline void Write(char16_t value);
+/// @brief Method Write, addr 0x6973df0, size 0x3c, virtual true, abstract: false, final false
+inline void Write(char16_t  value) ;
 
-  /// @brief Method WriteStringToUnityLog, addr 0x6971fe0, size 0xc, virtual false, abstract: false, final false
-  static inline void WriteStringToUnityLog(::StringW s);
+/// @brief Method WriteStringToUnityLog, addr 0x6973b58, size 0xc, virtual false, abstract: false, final false
+static inline void WriteStringToUnityLog(::StringW  s) ;
 
-  /// @brief Method WriteStringToUnityLogImpl, addr 0x6971fec, size 0x124, virtual false, abstract: false, final false
-  static inline void WriteStringToUnityLogImpl(::StringW s);
+/// @brief Method WriteStringToUnityLogImpl, addr 0x6973b64, size 0x124, virtual false, abstract: false, final false
+static inline void WriteStringToUnityLogImpl(::StringW  s) ;
 
-  /// @brief Method WriteStringToUnityLogImpl_Injected, addr 0x6972110, size 0x3c, virtual false, abstract: false, final false
-  static inline void WriteStringToUnityLogImpl_Injected(::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> s);
+/// @brief Method WriteStringToUnityLogImpl_Injected, addr 0x6973c88, size 0x3c, virtual false, abstract: false, final false
+static inline void WriteStringToUnityLogImpl_Injected(::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>  s) ;
 
-  /// @brief Method .ctor, addr 0x6972214, size 0x5c, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6973d8c, size 0x5c, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_Encoding, addr 0x6972270, size 0x8, virtual true, abstract: false, final false
-  inline ::System::Text::Encoding* get_Encoding();
+/// @brief Method get_Encoding, addr 0x6973de8, size 0x8, virtual true, abstract: false, final false
+inline ::System::Text::Encoding* get_Encoding() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr UnityLogWriter();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr UnityLogWriter() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UnityLogWriter", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  UnityLogWriter(UnityLogWriter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UnityLogWriter", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  UnityLogWriter(UnityLogWriter const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "UnityLogWriter", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+UnityLogWriter(UnityLogWriter && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10235 };
+// Ctor Parameters [CppParam { name: "", ty: "UnityLogWriter", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+UnityLogWriter(UnityLogWriter const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10236};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UnityLogWriter, 0x30>, "Size mismatch!");
 
-} // namespace UnityEngine
+} // namespace end def UnityEngine
 NEED_NO_BOX(::UnityEngine::UnityLogWriter);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UnityLogWriter*, "UnityEngine", "UnityLogWriter");

@@ -18,10 +18,12 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(UniversalAdditionalCameraData)
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template<typename T>
+class List_1;
 }
 namespace System {
-template <typename T> class Predicate_1;
+template<typename T>
+class Predicate_1;
 }
 namespace UnityEngine::Rendering::Universal {
 struct AntialiasingMode;
@@ -93,718 +95,709 @@ namespace UnityEngine::Rendering::Universal {
 // CS Name: UnityEngine.Rendering.Universal.UniversalAdditionalCameraData/<>c
 class CORDL_TYPE UniversalAdditionalCameraData___c : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field <>9, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData___c* __9;
+// Declarations
+/// @brief Field <>9, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF___9, put=setStaticF___9)) ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData___c*  __9;
 
-  /// @brief Field <>9__53_0, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9__53_0, put = setStaticF___9__53_0)) ::System::Predicate_1<::UnityW<::UnityEngine::Camera>>* __9__53_0;
+/// @brief Field <>9__53_0, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF___9__53_0, put=setStaticF___9__53_0)) ::System::Predicate_1<::UnityW<::UnityEngine::Camera>>*  __9__53_0;
 
-  static inline ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData___c* New_ctor();
+static inline ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData___c* New_ctor() ;
 
-  /// @brief Method <UpdateCameraStack>b__53_0, addr 0x67837d8, size 0x60, virtual false, abstract: false, final false
-  inline bool _UpdateCameraStack_b__53_0(::UnityEngine::Camera* cam);
+/// @brief Method <UpdateCameraStack>b__53_0, addr 0x6785350, size 0x60, virtual false, abstract: false, final false
+inline bool _UpdateCameraStack_b__53_0(::UnityEngine::Camera*  cam) ;
 
-  /// @brief Method .ctor, addr 0x67837d4, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x678534c, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  static inline ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData___c* getStaticF___9();
+static inline ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData___c* getStaticF___9() ;
 
-  static inline ::System::Predicate_1<::UnityW<::UnityEngine::Camera>>* getStaticF___9__53_0();
+static inline ::System::Predicate_1<::UnityW<::UnityEngine::Camera>>* getStaticF___9__53_0() ;
 
-  static inline void setStaticF___9(::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData___c* value);
+static inline void setStaticF___9(::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData___c*  value) ;
 
-  static inline void setStaticF___9__53_0(::System::Predicate_1<::UnityW<::UnityEngine::Camera>>* value);
+static inline void setStaticF___9__53_0(::System::Predicate_1<::UnityW<::UnityEngine::Camera>>*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr UniversalAdditionalCameraData___c();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr UniversalAdditionalCameraData___c() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UniversalAdditionalCameraData___c", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  UniversalAdditionalCameraData___c(UniversalAdditionalCameraData___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UniversalAdditionalCameraData___c", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  UniversalAdditionalCameraData___c(UniversalAdditionalCameraData___c const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "UniversalAdditionalCameraData___c", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+UniversalAdditionalCameraData___c(UniversalAdditionalCameraData___c && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12976 };
+// Ctor Parameters [CppParam { name: "", ty: "UniversalAdditionalCameraData___c", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+UniversalAdditionalCameraData___c(UniversalAdditionalCameraData___c const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12977};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData___c, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::Rendering::Universal
-// Dependencies UnityEngine.LayerMask, UnityEngine.MonoBehaviour, UnityEngine.Rendering.Universal.AntialiasingMode, UnityEngine.Rendering.Universal.AntialiasingQuality,
-// UnityEngine.Rendering.Universal.CameraOverrideOption, UnityEngine.Rendering.Universal.CameraRenderType, UnityEngine.Rendering.Universal.TemporalAA::Settings,
-// UnityEngine.Rendering.Universal.VolumeFrameworkUpdateMode, UnityEngine.Vector4
+} // namespace end def UnityEngine::Rendering::Universal
+// Dependencies UnityEngine.LayerMask, UnityEngine.MonoBehaviour, UnityEngine.Rendering.Universal.AntialiasingMode, UnityEngine.Rendering.Universal.AntialiasingQuality, UnityEngine.Rendering.Universal.CameraOverrideOption, UnityEngine.Rendering.Universal.CameraRenderType, UnityEngine.Rendering.Universal.TemporalAA::Settings, UnityEngine.Rendering.Universal.VolumeFrameworkUpdateMode, UnityEngine.Vector4
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
 // CS Name: UnityEngine.Rendering.Universal.UniversalAdditionalCameraData
 class CORDL_TYPE UniversalAdditionalCameraData : public ::UnityEngine::MonoBehaviour {
 public:
-  // Declarations
-  using __c = ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData___c;
+// Declarations
+using __c = ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData___c;
 
-  __declspec(property(get = get_allowHDROutput, put = set_allowHDROutput)) bool allowHDROutput;
+ __declspec(property(get=get_allowHDROutput, put=set_allowHDROutput)) bool  allowHDROutput;
 
-  __declspec(property(get = get_allowXRRendering, put = set_allowXRRendering)) bool allowXRRendering;
+ __declspec(property(get=get_allowXRRendering, put=set_allowXRRendering)) bool  allowXRRendering;
 
-  __declspec(property(get = get_antialiasing, put = set_antialiasing)) ::UnityEngine::Rendering::Universal::AntialiasingMode antialiasing;
+ __declspec(property(get=get_antialiasing, put=set_antialiasing)) ::UnityEngine::Rendering::Universal::AntialiasingMode  antialiasing;
 
-  __declspec(property(get = get_antialiasingQuality, put = set_antialiasingQuality)) ::UnityEngine::Rendering::Universal::AntialiasingQuality antialiasingQuality;
+ __declspec(property(get=get_antialiasingQuality, put=set_antialiasingQuality)) ::UnityEngine::Rendering::Universal::AntialiasingQuality  antialiasingQuality;
 
-  __declspec(property(get = get_camera)) ::UnityW<::UnityEngine::Camera> camera;
+ __declspec(property(get=get_camera)) ::UnityW<::UnityEngine::Camera>  camera;
 
-  __declspec(property(get = get_cameraStack)) ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Camera>>* cameraStack;
+ __declspec(property(get=get_cameraStack)) ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Camera>>*  cameraStack;
 
-  __declspec(property(get = get_clearDepth)) bool clearDepth;
+ __declspec(property(get=get_clearDepth)) bool  clearDepth;
 
-  __declspec(property(get = get_dithering, put = set_dithering)) bool dithering;
+ __declspec(property(get=get_dithering, put=set_dithering)) bool  dithering;
 
-  __declspec(property(get = get_history)) ::UnityEngine::Rendering::ICameraHistoryReadAccess* history;
+ __declspec(property(get=get_history)) ::UnityEngine::Rendering::ICameraHistoryReadAccess*  history;
 
-  __declspec(property(get = get_historyManager)) ::UnityEngine::Rendering::Universal::UniversalCameraHistory* historyManager;
+ __declspec(property(get=get_historyManager)) ::UnityEngine::Rendering::Universal::UniversalCameraHistory*  historyManager;
 
-  /// @brief Field m_AllowHDROutput, offset 0x5c, size 0x1
-  __declspec(property(get = __cordl_internal_get_m_AllowHDROutput, put = __cordl_internal_set_m_AllowHDROutput)) bool m_AllowHDROutput;
+/// @brief Field m_AllowHDROutput, offset 0x5c, size 0x1 
+ __declspec(property(get=__cordl_internal_get_m_AllowHDROutput, put=__cordl_internal_set_m_AllowHDROutput)) bool  m_AllowHDROutput;
 
-  /// @brief Field m_AllowXRRendering, offset 0x5b, size 0x1
-  __declspec(property(get = __cordl_internal_get_m_AllowXRRendering, put = __cordl_internal_set_m_AllowXRRendering)) bool m_AllowXRRendering;
+/// @brief Field m_AllowXRRendering, offset 0x5b, size 0x1 
+ __declspec(property(get=__cordl_internal_get_m_AllowXRRendering, put=__cordl_internal_set_m_AllowXRRendering)) bool  m_AllowXRRendering;
 
-  /// @brief Field m_Antialiasing, offset 0x50, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_Antialiasing, put = __cordl_internal_set_m_Antialiasing)) ::UnityEngine::Rendering::Universal::AntialiasingMode m_Antialiasing;
+/// @brief Field m_Antialiasing, offset 0x50, size 0x4 
+ __declspec(property(get=__cordl_internal_get_m_Antialiasing, put=__cordl_internal_set_m_Antialiasing)) ::UnityEngine::Rendering::Universal::AntialiasingMode  m_Antialiasing;
 
-  /// @brief Field m_AntialiasingQuality, offset 0x54, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_AntialiasingQuality,
-                      put = __cordl_internal_set_m_AntialiasingQuality)) ::UnityEngine::Rendering::Universal::AntialiasingQuality m_AntialiasingQuality;
+/// @brief Field m_AntialiasingQuality, offset 0x54, size 0x4 
+ __declspec(property(get=__cordl_internal_get_m_AntialiasingQuality, put=__cordl_internal_set_m_AntialiasingQuality)) ::UnityEngine::Rendering::Universal::AntialiasingQuality  m_AntialiasingQuality;
 
-  /// @brief Field m_Camera, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Camera, put = __cordl_internal_set_m_Camera)) ::UnityW<::UnityEngine::Camera> m_Camera;
+/// @brief Field m_Camera, offset 0x80, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_Camera, put=__cordl_internal_set_m_Camera)) ::UnityW<::UnityEngine::Camera>  m_Camera;
 
-  /// @brief Field m_CameraType, offset 0x2c, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_CameraType, put = __cordl_internal_set_m_CameraType)) ::UnityEngine::Rendering::Universal::CameraRenderType m_CameraType;
+/// @brief Field m_CameraType, offset 0x2c, size 0x4 
+ __declspec(property(get=__cordl_internal_get_m_CameraType, put=__cordl_internal_set_m_CameraType)) ::UnityEngine::Rendering::Universal::CameraRenderType  m_CameraType;
 
-  /// @brief Field m_Cameras, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Cameras, put = __cordl_internal_set_m_Cameras)) ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Camera>>* m_Cameras;
+/// @brief Field m_Cameras, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_Cameras, put=__cordl_internal_set_m_Cameras)) ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Camera>>*  m_Cameras;
 
-  /// @brief Field m_ClearDepth, offset 0x5a, size 0x1
-  __declspec(property(get = __cordl_internal_get_m_ClearDepth, put = __cordl_internal_set_m_ClearDepth)) bool m_ClearDepth;
+/// @brief Field m_ClearDepth, offset 0x5a, size 0x1 
+ __declspec(property(get=__cordl_internal_get_m_ClearDepth, put=__cordl_internal_set_m_ClearDepth)) bool  m_ClearDepth;
 
-  /// @brief Field m_Dithering, offset 0x59, size 0x1
-  __declspec(property(get = __cordl_internal_get_m_Dithering, put = __cordl_internal_set_m_Dithering)) bool m_Dithering;
+/// @brief Field m_Dithering, offset 0x59, size 0x1 
+ __declspec(property(get=__cordl_internal_get_m_Dithering, put=__cordl_internal_set_m_Dithering)) bool  m_Dithering;
 
-  /// @brief Field m_History, offset 0x98, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_History, put = __cordl_internal_set_m_History)) ::UnityEngine::Rendering::Universal::UniversalCameraHistory* m_History;
+/// @brief Field m_History, offset 0x98, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_History, put=__cordl_internal_set_m_History)) ::UnityEngine::Rendering::Universal::UniversalCameraHistory*  m_History;
 
-  /// @brief Field m_MotionVectorsPersistentData, offset 0x90, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_MotionVectorsPersistentData,
-                      put = __cordl_internal_set_m_MotionVectorsPersistentData)) ::UnityEngine::Rendering::Universal::MotionVectorsPersistentData* m_MotionVectorsPersistentData;
+/// @brief Field m_MotionVectorsPersistentData, offset 0x90, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_MotionVectorsPersistentData, put=__cordl_internal_set_m_MotionVectorsPersistentData)) ::UnityEngine::Rendering::Universal::MotionVectorsPersistentData*  m_MotionVectorsPersistentData;
 
-  /// @brief Field m_RenderPostProcessing, offset 0x4c, size 0x1
-  __declspec(property(get = __cordl_internal_get_m_RenderPostProcessing, put = __cordl_internal_set_m_RenderPostProcessing)) bool m_RenderPostProcessing;
+/// @brief Field m_RenderPostProcessing, offset 0x4c, size 0x1 
+ __declspec(property(get=__cordl_internal_get_m_RenderPostProcessing, put=__cordl_internal_set_m_RenderPostProcessing)) bool  m_RenderPostProcessing;
 
-  /// @brief Field m_RenderShadows, offset 0x20, size 0x1
-  __declspec(property(get = __cordl_internal_get_m_RenderShadows, put = __cordl_internal_set_m_RenderShadows)) bool m_RenderShadows;
+/// @brief Field m_RenderShadows, offset 0x20, size 0x1 
+ __declspec(property(get=__cordl_internal_get_m_RenderShadows, put=__cordl_internal_set_m_RenderShadows)) bool  m_RenderShadows;
 
-  /// @brief Field m_RendererIndex, offset 0x38, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_RendererIndex, put = __cordl_internal_set_m_RendererIndex)) int32_t m_RendererIndex;
+/// @brief Field m_RendererIndex, offset 0x38, size 0x4 
+ __declspec(property(get=__cordl_internal_get_m_RendererIndex, put=__cordl_internal_set_m_RendererIndex)) int32_t  m_RendererIndex;
 
-  /// @brief Field m_RequiresColorTexture, offset 0x89, size 0x1
-  __declspec(property(get = __cordl_internal_get_m_RequiresColorTexture, put = __cordl_internal_set_m_RequiresColorTexture)) bool m_RequiresColorTexture;
+/// @brief Field m_RequiresColorTexture, offset 0x89, size 0x1 
+ __declspec(property(get=__cordl_internal_get_m_RequiresColorTexture, put=__cordl_internal_set_m_RequiresColorTexture)) bool  m_RequiresColorTexture;
 
-  /// @brief Field m_RequiresDepthTexture, offset 0x88, size 0x1
-  __declspec(property(get = __cordl_internal_get_m_RequiresDepthTexture, put = __cordl_internal_set_m_RequiresDepthTexture)) bool m_RequiresDepthTexture;
+/// @brief Field m_RequiresDepthTexture, offset 0x88, size 0x1 
+ __declspec(property(get=__cordl_internal_get_m_RequiresDepthTexture, put=__cordl_internal_set_m_RequiresDepthTexture)) bool  m_RequiresDepthTexture;
 
-  /// @brief Field m_RequiresDepthTextureOption, offset 0x24, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_RequiresDepthTextureOption,
-                      put = __cordl_internal_set_m_RequiresDepthTextureOption)) ::UnityEngine::Rendering::Universal::CameraOverrideOption m_RequiresDepthTextureOption;
+/// @brief Field m_RequiresDepthTextureOption, offset 0x24, size 0x4 
+ __declspec(property(get=__cordl_internal_get_m_RequiresDepthTextureOption, put=__cordl_internal_set_m_RequiresDepthTextureOption)) ::UnityEngine::Rendering::Universal::CameraOverrideOption  m_RequiresDepthTextureOption;
 
-  /// @brief Field m_RequiresOpaqueTextureOption, offset 0x28, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_RequiresOpaqueTextureOption,
-                      put = __cordl_internal_set_m_RequiresOpaqueTextureOption)) ::UnityEngine::Rendering::Universal::CameraOverrideOption m_RequiresOpaqueTextureOption;
+/// @brief Field m_RequiresOpaqueTextureOption, offset 0x28, size 0x4 
+ __declspec(property(get=__cordl_internal_get_m_RequiresOpaqueTextureOption, put=__cordl_internal_set_m_RequiresOpaqueTextureOption)) ::UnityEngine::Rendering::Universal::CameraOverrideOption  m_RequiresOpaqueTextureOption;
 
-  /// @brief Field m_ScreenCoordScaleBias, offset 0x70, size 0x10
-  __declspec(property(get = __cordl_internal_get_m_ScreenCoordScaleBias, put = __cordl_internal_set_m_ScreenCoordScaleBias)) ::UnityEngine::Vector4 m_ScreenCoordScaleBias;
+/// @brief Field m_ScreenCoordScaleBias, offset 0x70, size 0x10 
+ __declspec(property(get=__cordl_internal_get_m_ScreenCoordScaleBias, put=__cordl_internal_set_m_ScreenCoordScaleBias)) ::UnityEngine::Vector4  m_ScreenCoordScaleBias;
 
-  /// @brief Field m_ScreenSizeOverride, offset 0x60, size 0x10
-  __declspec(property(get = __cordl_internal_get_m_ScreenSizeOverride, put = __cordl_internal_set_m_ScreenSizeOverride)) ::UnityEngine::Vector4 m_ScreenSizeOverride;
+/// @brief Field m_ScreenSizeOverride, offset 0x60, size 0x10 
+ __declspec(property(get=__cordl_internal_get_m_ScreenSizeOverride, put=__cordl_internal_set_m_ScreenSizeOverride)) ::UnityEngine::Vector4  m_ScreenSizeOverride;
 
-  /// @brief Field m_StopNaN, offset 0x58, size 0x1
-  __declspec(property(get = __cordl_internal_get_m_StopNaN, put = __cordl_internal_set_m_StopNaN)) bool m_StopNaN;
+/// @brief Field m_StopNaN, offset 0x58, size 0x1 
+ __declspec(property(get=__cordl_internal_get_m_StopNaN, put=__cordl_internal_set_m_StopNaN)) bool  m_StopNaN;
 
-  /// @brief Field m_TaaSettings, offset 0xa0, size 0x20
-  __declspec(property(get = __cordl_internal_get_m_TaaSettings, put = __cordl_internal_set_m_TaaSettings)) ::UnityEngine::Rendering::Universal::TemporalAA_Settings m_TaaSettings;
+/// @brief Field m_TaaSettings, offset 0xa0, size 0x20 
+ __declspec(property(get=__cordl_internal_get_m_TaaSettings, put=__cordl_internal_set_m_TaaSettings)) ::UnityEngine::Rendering::Universal::TemporalAA_Settings  m_TaaSettings;
 
-  /// @brief Field m_UseScreenCoordOverride, offset 0x5d, size 0x1
-  __declspec(property(get = __cordl_internal_get_m_UseScreenCoordOverride, put = __cordl_internal_set_m_UseScreenCoordOverride)) bool m_UseScreenCoordOverride;
+/// @brief Field m_UseScreenCoordOverride, offset 0x5d, size 0x1 
+ __declspec(property(get=__cordl_internal_get_m_UseScreenCoordOverride, put=__cordl_internal_set_m_UseScreenCoordOverride)) bool  m_UseScreenCoordOverride;
 
-  /// @brief Field m_Version, offset 0x8c, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_Version, put = __cordl_internal_set_m_Version)) float_t m_Version;
+/// @brief Field m_Version, offset 0x8c, size 0x4 
+ __declspec(property(get=__cordl_internal_get_m_Version, put=__cordl_internal_set_m_Version)) float_t  m_Version;
 
-  /// @brief Field m_VolumeFrameworkUpdateModeOption, offset 0x48, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_VolumeFrameworkUpdateModeOption,
-                      put = __cordl_internal_set_m_VolumeFrameworkUpdateModeOption)) ::UnityEngine::Rendering::Universal::VolumeFrameworkUpdateMode m_VolumeFrameworkUpdateModeOption;
+/// @brief Field m_VolumeFrameworkUpdateModeOption, offset 0x48, size 0x4 
+ __declspec(property(get=__cordl_internal_get_m_VolumeFrameworkUpdateModeOption, put=__cordl_internal_set_m_VolumeFrameworkUpdateModeOption)) ::UnityEngine::Rendering::Universal::VolumeFrameworkUpdateMode  m_VolumeFrameworkUpdateModeOption;
 
-  /// @brief Field m_VolumeLayerMask, offset 0x3c, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_VolumeLayerMask, put = __cordl_internal_set_m_VolumeLayerMask)) ::UnityEngine::LayerMask m_VolumeLayerMask;
+/// @brief Field m_VolumeLayerMask, offset 0x3c, size 0x4 
+ __declspec(property(get=__cordl_internal_get_m_VolumeLayerMask, put=__cordl_internal_set_m_VolumeLayerMask)) ::UnityEngine::LayerMask  m_VolumeLayerMask;
 
-  /// @brief Field m_VolumeStack, offset 0xc0, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_VolumeStack, put = __cordl_internal_set_m_VolumeStack)) ::UnityEngine::Rendering::VolumeStack* m_VolumeStack;
+/// @brief Field m_VolumeStack, offset 0xc0, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_VolumeStack, put=__cordl_internal_set_m_VolumeStack)) ::UnityEngine::Rendering::VolumeStack*  m_VolumeStack;
 
-  /// @brief Field m_VolumeTrigger, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_VolumeTrigger, put = __cordl_internal_set_m_VolumeTrigger)) ::UnityW<::UnityEngine::Transform> m_VolumeTrigger;
+/// @brief Field m_VolumeTrigger, offset 0x40, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_VolumeTrigger, put=__cordl_internal_set_m_VolumeTrigger)) ::UnityW<::UnityEngine::Transform>  m_VolumeTrigger;
 
-  __declspec(property(get = get_motionVectorsPersistentData)) ::UnityEngine::Rendering::Universal::MotionVectorsPersistentData* motionVectorsPersistentData;
+ __declspec(property(get=get_motionVectorsPersistentData)) ::UnityEngine::Rendering::Universal::MotionVectorsPersistentData*  motionVectorsPersistentData;
 
-  __declspec(property(get = get_renderPostProcessing, put = set_renderPostProcessing)) bool renderPostProcessing;
+ __declspec(property(get=get_renderPostProcessing, put=set_renderPostProcessing)) bool  renderPostProcessing;
 
-  __declspec(property(get = get_renderShadows, put = set_renderShadows)) bool renderShadows;
+ __declspec(property(get=get_renderShadows, put=set_renderShadows)) bool  renderShadows;
 
-  __declspec(property(get = get_renderType, put = set_renderType)) ::UnityEngine::Rendering::Universal::CameraRenderType renderType;
+ __declspec(property(get=get_renderType, put=set_renderType)) ::UnityEngine::Rendering::Universal::CameraRenderType  renderType;
 
-  __declspec(property(get = get_requiresColorOption, put = set_requiresColorOption)) ::UnityEngine::Rendering::Universal::CameraOverrideOption requiresColorOption;
+ __declspec(property(get=get_requiresColorOption, put=set_requiresColorOption)) ::UnityEngine::Rendering::Universal::CameraOverrideOption  requiresColorOption;
 
-  __declspec(property(get = get_requiresColorTexture, put = set_requiresColorTexture)) bool requiresColorTexture;
+ __declspec(property(get=get_requiresColorTexture, put=set_requiresColorTexture)) bool  requiresColorTexture;
 
-  __declspec(property(get = get_requiresDepthOption, put = set_requiresDepthOption)) ::UnityEngine::Rendering::Universal::CameraOverrideOption requiresDepthOption;
+ __declspec(property(get=get_requiresDepthOption, put=set_requiresDepthOption)) ::UnityEngine::Rendering::Universal::CameraOverrideOption  requiresDepthOption;
 
-  __declspec(property(get = get_requiresDepthTexture, put = set_requiresDepthTexture)) bool requiresDepthTexture;
+ __declspec(property(get=get_requiresDepthTexture, put=set_requiresDepthTexture)) bool  requiresDepthTexture;
 
-  __declspec(property(get = get_requiresVolumeFrameworkUpdate)) bool requiresVolumeFrameworkUpdate;
+ __declspec(property(get=get_requiresVolumeFrameworkUpdate)) bool  requiresVolumeFrameworkUpdate;
 
-  __declspec(property(get = get_resetHistory, put = set_resetHistory)) bool resetHistory;
+ __declspec(property(get=get_resetHistory, put=set_resetHistory)) bool  resetHistory;
 
-  /// @brief Field s_CachedVolumeStacks, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_s_CachedVolumeStacks,
-                      put = setStaticF_s_CachedVolumeStacks)) ::System::Collections::Generic::List_1<::UnityEngine::Rendering::VolumeStack*>* s_CachedVolumeStacks;
+/// @brief Field s_CachedVolumeStacks, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_s_CachedVolumeStacks, put=setStaticF_s_CachedVolumeStacks)) ::System::Collections::Generic::List_1<::UnityEngine::Rendering::VolumeStack*>*  s_CachedVolumeStacks;
 
-  /// @brief Field s_DefaultAdditionalCameraData, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_s_DefaultAdditionalCameraData, put = setStaticF_s_DefaultAdditionalCameraData)) ::UnityW<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData>
-      s_DefaultAdditionalCameraData;
+/// @brief Field s_DefaultAdditionalCameraData, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_s_DefaultAdditionalCameraData, put=setStaticF_s_DefaultAdditionalCameraData)) ::UnityW<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData>  s_DefaultAdditionalCameraData;
 
-  __declspec(property(get = get_screenCoordScaleBias, put = set_screenCoordScaleBias)) ::UnityEngine::Vector4 screenCoordScaleBias;
+ __declspec(property(get=get_screenCoordScaleBias, put=set_screenCoordScaleBias)) ::UnityEngine::Vector4  screenCoordScaleBias;
 
-  __declspec(property(get = get_screenSizeOverride, put = set_screenSizeOverride)) ::UnityEngine::Vector4 screenSizeOverride;
+ __declspec(property(get=get_screenSizeOverride, put=set_screenSizeOverride)) ::UnityEngine::Vector4  screenSizeOverride;
 
-  __declspec(property(get = get_scriptableRenderer)) ::UnityEngine::Rendering::Universal::ScriptableRenderer* scriptableRenderer;
+ __declspec(property(get=get_scriptableRenderer)) ::UnityEngine::Rendering::Universal::ScriptableRenderer*  scriptableRenderer;
 
-  __declspec(property(get = get_stopNaN, put = set_stopNaN)) bool stopNaN;
+ __declspec(property(get=get_stopNaN, put=set_stopNaN)) bool  stopNaN;
 
-  __declspec(property(get = get_taaSettings)) ::UnityEngine::Rendering::Universal::TemporalAA_Settings taaSettings;
+ __declspec(property(get=get_taaSettings)) ::UnityEngine::Rendering::Universal::TemporalAA_Settings  taaSettings;
 
-  __declspec(property(get = get_useScreenCoordOverride, put = set_useScreenCoordOverride)) bool useScreenCoordOverride;
+ __declspec(property(get=get_useScreenCoordOverride, put=set_useScreenCoordOverride)) bool  useScreenCoordOverride;
 
-  __declspec(property(get = get_version)) float_t version;
+ __declspec(property(get=get_version)) float_t  version;
 
-  __declspec(property(get = get_volumeFrameworkUpdateMode, put = set_volumeFrameworkUpdateMode)) ::UnityEngine::Rendering::Universal::VolumeFrameworkUpdateMode volumeFrameworkUpdateMode;
+ __declspec(property(get=get_volumeFrameworkUpdateMode, put=set_volumeFrameworkUpdateMode)) ::UnityEngine::Rendering::Universal::VolumeFrameworkUpdateMode  volumeFrameworkUpdateMode;
 
-  __declspec(property(get = get_volumeLayerMask, put = set_volumeLayerMask)) ::UnityEngine::LayerMask volumeLayerMask;
+ __declspec(property(get=get_volumeLayerMask, put=set_volumeLayerMask)) ::UnityEngine::LayerMask  volumeLayerMask;
 
-  __declspec(property(get = get_volumeStack, put = set_volumeStack)) ::UnityEngine::Rendering::VolumeStack* volumeStack;
+ __declspec(property(get=get_volumeStack, put=set_volumeStack)) ::UnityEngine::Rendering::VolumeStack*  volumeStack;
 
-  __declspec(property(get = get_volumeTrigger, put = set_volumeTrigger)) ::UnityW<::UnityEngine::Transform> volumeTrigger;
+ __declspec(property(get=get_volumeTrigger, put=set_volumeTrigger)) ::UnityW<::UnityEngine::Transform>  volumeTrigger;
 
-  /// @brief Convert operator to "::UnityEngine::ISerializationCallbackReceiver"
-  constexpr operator ::UnityEngine::ISerializationCallbackReceiver*() noexcept;
+/// @brief Convert operator to "::UnityEngine::ISerializationCallbackReceiver"
+constexpr operator  ::UnityEngine::ISerializationCallbackReceiver*() noexcept;
 
-  /// @brief Convert operator to "::UnityEngine::Rendering::IAdditionalData"
-  constexpr operator ::UnityEngine::Rendering::IAdditionalData*() noexcept;
+/// @brief Convert operator to "::UnityEngine::Rendering::IAdditionalData"
+constexpr operator  ::UnityEngine::Rendering::IAdditionalData*() noexcept;
 
-  /// @brief Method GetOrCreateVolumeStack, addr 0x6782258, size 0x148, virtual false, abstract: false, final false
-  inline void GetOrCreateVolumeStack();
+/// @brief Method GetOrCreateVolumeStack, addr 0x6783dd0, size 0x148, virtual false, abstract: false, final false
+inline void GetOrCreateVolumeStack() ;
 
-  /// @brief Method GetRawRenderer, addr 0x6783660, size 0x120, virtual false, abstract: false, final false
-  inline ::UnityEngine::Rendering::Universal::ScriptableRenderer* GetRawRenderer();
+/// @brief Method GetRawRenderer, addr 0x67851d8, size 0x120, virtual false, abstract: false, final false
+inline ::UnityEngine::Rendering::Universal::ScriptableRenderer* GetRawRenderer() ;
 
-  static inline ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData* New_ctor();
+static inline ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData* New_ctor() ;
 
-  /// @brief Method OnAfterDeserialize, addr 0x6783414, size 0x28, virtual true, abstract: false, final true
-  inline void OnAfterDeserialize();
+/// @brief Method OnAfterDeserialize, addr 0x6784f8c, size 0x28, virtual true, abstract: false, final true
+inline void OnAfterDeserialize() ;
 
-  /// @brief Method OnBeforeSerialize, addr 0x6783410, size 0x4, virtual true, abstract: false, final true
-  inline void OnBeforeSerialize();
+/// @brief Method OnBeforeSerialize, addr 0x6784f88, size 0x4, virtual true, abstract: false, final true
+inline void OnBeforeSerialize() ;
 
-  /// @brief Method OnDestroy, addr 0x67835fc, size 0x64, virtual false, abstract: false, final false
-  inline void OnDestroy();
+/// @brief Method OnDestroy, addr 0x6785174, size 0x64, virtual false, abstract: false, final false
+inline void OnDestroy() ;
 
-  /// @brief Method OnDrawGizmos, addr 0x67834d4, size 0x128, virtual false, abstract: false, final false
-  inline void OnDrawGizmos();
+/// @brief Method OnDrawGizmos, addr 0x678504c, size 0x128, virtual false, abstract: false, final false
+inline void OnDrawGizmos() ;
 
-  /// @brief Method OnValidate, addr 0x678343c, size 0x98, virtual false, abstract: false, final false
-  inline void OnValidate();
+/// @brief Method OnValidate, addr 0x6784fb4, size 0x98, virtual false, abstract: false, final false
+inline void OnValidate() ;
 
-  /// @brief Method SetRenderer, addr 0x678328c, size 0x8, virtual false, abstract: false, final false
-  inline void SetRenderer(int32_t index);
+/// @brief Method SetRenderer, addr 0x6784e04, size 0x8, virtual false, abstract: false, final false
+inline void SetRenderer(int32_t  index) ;
 
-  /// @brief Method Start, addr 0x6782b74, size 0x34, virtual false, abstract: false, final false
-  inline void Start();
+/// @brief Method Start, addr 0x67846ec, size 0x34, virtual false, abstract: false, final false
+inline void Start() ;
 
-  /// @brief Method UpdateCameraStack, addr 0x6782e7c, size 0x2c8, virtual false, abstract: false, final false
-  inline void UpdateCameraStack();
+/// @brief Method UpdateCameraStack, addr 0x67849f4, size 0x2c8, virtual false, abstract: false, final false
+inline void UpdateCameraStack() ;
 
-  constexpr bool const& __cordl_internal_get_m_AllowHDROutput() const;
+constexpr bool const& __cordl_internal_get_m_AllowHDROutput() const;
 
-  constexpr bool& __cordl_internal_get_m_AllowHDROutput();
+constexpr bool& __cordl_internal_get_m_AllowHDROutput() ;
 
-  constexpr bool const& __cordl_internal_get_m_AllowXRRendering() const;
+constexpr bool const& __cordl_internal_get_m_AllowXRRendering() const;
 
-  constexpr bool& __cordl_internal_get_m_AllowXRRendering();
+constexpr bool& __cordl_internal_get_m_AllowXRRendering() ;
 
-  constexpr ::UnityEngine::Rendering::Universal::AntialiasingMode const& __cordl_internal_get_m_Antialiasing() const;
+constexpr ::UnityEngine::Rendering::Universal::AntialiasingMode const& __cordl_internal_get_m_Antialiasing() const;
 
-  constexpr ::UnityEngine::Rendering::Universal::AntialiasingMode& __cordl_internal_get_m_Antialiasing();
+constexpr ::UnityEngine::Rendering::Universal::AntialiasingMode& __cordl_internal_get_m_Antialiasing() ;
 
-  constexpr ::UnityEngine::Rendering::Universal::AntialiasingQuality const& __cordl_internal_get_m_AntialiasingQuality() const;
+constexpr ::UnityEngine::Rendering::Universal::AntialiasingQuality const& __cordl_internal_get_m_AntialiasingQuality() const;
 
-  constexpr ::UnityEngine::Rendering::Universal::AntialiasingQuality& __cordl_internal_get_m_AntialiasingQuality();
+constexpr ::UnityEngine::Rendering::Universal::AntialiasingQuality& __cordl_internal_get_m_AntialiasingQuality() ;
 
-  constexpr ::UnityW<::UnityEngine::Camera> const& __cordl_internal_get_m_Camera() const;
+constexpr ::UnityW<::UnityEngine::Camera> const& __cordl_internal_get_m_Camera() const;
 
-  constexpr ::UnityW<::UnityEngine::Camera>& __cordl_internal_get_m_Camera();
+constexpr ::UnityW<::UnityEngine::Camera>& __cordl_internal_get_m_Camera() ;
 
-  constexpr ::UnityEngine::Rendering::Universal::CameraRenderType const& __cordl_internal_get_m_CameraType() const;
+constexpr ::UnityEngine::Rendering::Universal::CameraRenderType const& __cordl_internal_get_m_CameraType() const;
 
-  constexpr ::UnityEngine::Rendering::Universal::CameraRenderType& __cordl_internal_get_m_CameraType();
+constexpr ::UnityEngine::Rendering::Universal::CameraRenderType& __cordl_internal_get_m_CameraType() ;
 
-  constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Camera>>* const& __cordl_internal_get_m_Cameras() const;
+constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Camera>>* const& __cordl_internal_get_m_Cameras() const;
 
-  constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Camera>>*& __cordl_internal_get_m_Cameras();
+constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Camera>>*& __cordl_internal_get_m_Cameras() ;
 
-  constexpr bool const& __cordl_internal_get_m_ClearDepth() const;
+constexpr bool const& __cordl_internal_get_m_ClearDepth() const;
 
-  constexpr bool& __cordl_internal_get_m_ClearDepth();
+constexpr bool& __cordl_internal_get_m_ClearDepth() ;
 
-  constexpr bool const& __cordl_internal_get_m_Dithering() const;
+constexpr bool const& __cordl_internal_get_m_Dithering() const;
 
-  constexpr bool& __cordl_internal_get_m_Dithering();
+constexpr bool& __cordl_internal_get_m_Dithering() ;
 
-  constexpr ::UnityEngine::Rendering::Universal::UniversalCameraHistory* const& __cordl_internal_get_m_History() const;
+constexpr ::UnityEngine::Rendering::Universal::UniversalCameraHistory* const& __cordl_internal_get_m_History() const;
 
-  constexpr ::UnityEngine::Rendering::Universal::UniversalCameraHistory*& __cordl_internal_get_m_History();
+constexpr ::UnityEngine::Rendering::Universal::UniversalCameraHistory*& __cordl_internal_get_m_History() ;
 
-  constexpr ::UnityEngine::Rendering::Universal::MotionVectorsPersistentData* const& __cordl_internal_get_m_MotionVectorsPersistentData() const;
+constexpr ::UnityEngine::Rendering::Universal::MotionVectorsPersistentData* const& __cordl_internal_get_m_MotionVectorsPersistentData() const;
 
-  constexpr ::UnityEngine::Rendering::Universal::MotionVectorsPersistentData*& __cordl_internal_get_m_MotionVectorsPersistentData();
+constexpr ::UnityEngine::Rendering::Universal::MotionVectorsPersistentData*& __cordl_internal_get_m_MotionVectorsPersistentData() ;
 
-  constexpr bool const& __cordl_internal_get_m_RenderPostProcessing() const;
+constexpr bool const& __cordl_internal_get_m_RenderPostProcessing() const;
 
-  constexpr bool& __cordl_internal_get_m_RenderPostProcessing();
+constexpr bool& __cordl_internal_get_m_RenderPostProcessing() ;
 
-  constexpr bool const& __cordl_internal_get_m_RenderShadows() const;
+constexpr bool const& __cordl_internal_get_m_RenderShadows() const;
 
-  constexpr bool& __cordl_internal_get_m_RenderShadows();
+constexpr bool& __cordl_internal_get_m_RenderShadows() ;
 
-  constexpr int32_t const& __cordl_internal_get_m_RendererIndex() const;
+constexpr int32_t const& __cordl_internal_get_m_RendererIndex() const;
 
-  constexpr int32_t& __cordl_internal_get_m_RendererIndex();
+constexpr int32_t& __cordl_internal_get_m_RendererIndex() ;
 
-  constexpr bool const& __cordl_internal_get_m_RequiresColorTexture() const;
+constexpr bool const& __cordl_internal_get_m_RequiresColorTexture() const;
 
-  constexpr bool& __cordl_internal_get_m_RequiresColorTexture();
+constexpr bool& __cordl_internal_get_m_RequiresColorTexture() ;
 
-  constexpr bool const& __cordl_internal_get_m_RequiresDepthTexture() const;
+constexpr bool const& __cordl_internal_get_m_RequiresDepthTexture() const;
 
-  constexpr bool& __cordl_internal_get_m_RequiresDepthTexture();
+constexpr bool& __cordl_internal_get_m_RequiresDepthTexture() ;
 
-  constexpr ::UnityEngine::Rendering::Universal::CameraOverrideOption const& __cordl_internal_get_m_RequiresDepthTextureOption() const;
+constexpr ::UnityEngine::Rendering::Universal::CameraOverrideOption const& __cordl_internal_get_m_RequiresDepthTextureOption() const;
 
-  constexpr ::UnityEngine::Rendering::Universal::CameraOverrideOption& __cordl_internal_get_m_RequiresDepthTextureOption();
+constexpr ::UnityEngine::Rendering::Universal::CameraOverrideOption& __cordl_internal_get_m_RequiresDepthTextureOption() ;
 
-  constexpr ::UnityEngine::Rendering::Universal::CameraOverrideOption const& __cordl_internal_get_m_RequiresOpaqueTextureOption() const;
+constexpr ::UnityEngine::Rendering::Universal::CameraOverrideOption const& __cordl_internal_get_m_RequiresOpaqueTextureOption() const;
 
-  constexpr ::UnityEngine::Rendering::Universal::CameraOverrideOption& __cordl_internal_get_m_RequiresOpaqueTextureOption();
+constexpr ::UnityEngine::Rendering::Universal::CameraOverrideOption& __cordl_internal_get_m_RequiresOpaqueTextureOption() ;
 
-  constexpr ::UnityEngine::Vector4 const& __cordl_internal_get_m_ScreenCoordScaleBias() const;
+constexpr ::UnityEngine::Vector4 const& __cordl_internal_get_m_ScreenCoordScaleBias() const;
 
-  constexpr ::UnityEngine::Vector4& __cordl_internal_get_m_ScreenCoordScaleBias();
+constexpr ::UnityEngine::Vector4& __cordl_internal_get_m_ScreenCoordScaleBias() ;
 
-  constexpr ::UnityEngine::Vector4 const& __cordl_internal_get_m_ScreenSizeOverride() const;
+constexpr ::UnityEngine::Vector4 const& __cordl_internal_get_m_ScreenSizeOverride() const;
 
-  constexpr ::UnityEngine::Vector4& __cordl_internal_get_m_ScreenSizeOverride();
+constexpr ::UnityEngine::Vector4& __cordl_internal_get_m_ScreenSizeOverride() ;
 
-  constexpr bool const& __cordl_internal_get_m_StopNaN() const;
+constexpr bool const& __cordl_internal_get_m_StopNaN() const;
 
-  constexpr bool& __cordl_internal_get_m_StopNaN();
+constexpr bool& __cordl_internal_get_m_StopNaN() ;
 
-  constexpr ::UnityEngine::Rendering::Universal::TemporalAA_Settings const& __cordl_internal_get_m_TaaSettings() const;
+constexpr ::UnityEngine::Rendering::Universal::TemporalAA_Settings const& __cordl_internal_get_m_TaaSettings() const;
 
-  constexpr ::UnityEngine::Rendering::Universal::TemporalAA_Settings& __cordl_internal_get_m_TaaSettings();
+constexpr ::UnityEngine::Rendering::Universal::TemporalAA_Settings& __cordl_internal_get_m_TaaSettings() ;
 
-  constexpr bool const& __cordl_internal_get_m_UseScreenCoordOverride() const;
+constexpr bool const& __cordl_internal_get_m_UseScreenCoordOverride() const;
 
-  constexpr bool& __cordl_internal_get_m_UseScreenCoordOverride();
+constexpr bool& __cordl_internal_get_m_UseScreenCoordOverride() ;
 
-  constexpr float_t const& __cordl_internal_get_m_Version() const;
+constexpr float_t const& __cordl_internal_get_m_Version() const;
 
-  constexpr float_t& __cordl_internal_get_m_Version();
+constexpr float_t& __cordl_internal_get_m_Version() ;
 
-  constexpr ::UnityEngine::Rendering::Universal::VolumeFrameworkUpdateMode const& __cordl_internal_get_m_VolumeFrameworkUpdateModeOption() const;
+constexpr ::UnityEngine::Rendering::Universal::VolumeFrameworkUpdateMode const& __cordl_internal_get_m_VolumeFrameworkUpdateModeOption() const;
 
-  constexpr ::UnityEngine::Rendering::Universal::VolumeFrameworkUpdateMode& __cordl_internal_get_m_VolumeFrameworkUpdateModeOption();
+constexpr ::UnityEngine::Rendering::Universal::VolumeFrameworkUpdateMode& __cordl_internal_get_m_VolumeFrameworkUpdateModeOption() ;
 
-  constexpr ::UnityEngine::LayerMask const& __cordl_internal_get_m_VolumeLayerMask() const;
+constexpr ::UnityEngine::LayerMask const& __cordl_internal_get_m_VolumeLayerMask() const;
 
-  constexpr ::UnityEngine::LayerMask& __cordl_internal_get_m_VolumeLayerMask();
+constexpr ::UnityEngine::LayerMask& __cordl_internal_get_m_VolumeLayerMask() ;
 
-  constexpr ::UnityEngine::Rendering::VolumeStack* const& __cordl_internal_get_m_VolumeStack() const;
+constexpr ::UnityEngine::Rendering::VolumeStack* const& __cordl_internal_get_m_VolumeStack() const;
 
-  constexpr ::UnityEngine::Rendering::VolumeStack*& __cordl_internal_get_m_VolumeStack();
+constexpr ::UnityEngine::Rendering::VolumeStack*& __cordl_internal_get_m_VolumeStack() ;
 
-  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_m_VolumeTrigger() const;
+constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_m_VolumeTrigger() const;
 
-  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_m_VolumeTrigger();
+constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_m_VolumeTrigger() ;
 
-  constexpr void __cordl_internal_set_m_AllowHDROutput(bool value);
+constexpr void __cordl_internal_set_m_AllowHDROutput(bool  value) ;
 
-  constexpr void __cordl_internal_set_m_AllowXRRendering(bool value);
+constexpr void __cordl_internal_set_m_AllowXRRendering(bool  value) ;
 
-  constexpr void __cordl_internal_set_m_Antialiasing(::UnityEngine::Rendering::Universal::AntialiasingMode value);
+constexpr void __cordl_internal_set_m_Antialiasing(::UnityEngine::Rendering::Universal::AntialiasingMode  value) ;
 
-  constexpr void __cordl_internal_set_m_AntialiasingQuality(::UnityEngine::Rendering::Universal::AntialiasingQuality value);
+constexpr void __cordl_internal_set_m_AntialiasingQuality(::UnityEngine::Rendering::Universal::AntialiasingQuality  value) ;
 
-  constexpr void __cordl_internal_set_m_Camera(::UnityW<::UnityEngine::Camera> value);
+constexpr void __cordl_internal_set_m_Camera(::UnityW<::UnityEngine::Camera>  value) ;
 
-  constexpr void __cordl_internal_set_m_CameraType(::UnityEngine::Rendering::Universal::CameraRenderType value);
+constexpr void __cordl_internal_set_m_CameraType(::UnityEngine::Rendering::Universal::CameraRenderType  value) ;
 
-  constexpr void __cordl_internal_set_m_Cameras(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Camera>>* value);
+constexpr void __cordl_internal_set_m_Cameras(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Camera>>*  value) ;
 
-  constexpr void __cordl_internal_set_m_ClearDepth(bool value);
+constexpr void __cordl_internal_set_m_ClearDepth(bool  value) ;
 
-  constexpr void __cordl_internal_set_m_Dithering(bool value);
+constexpr void __cordl_internal_set_m_Dithering(bool  value) ;
 
-  constexpr void __cordl_internal_set_m_History(::UnityEngine::Rendering::Universal::UniversalCameraHistory* value);
+constexpr void __cordl_internal_set_m_History(::UnityEngine::Rendering::Universal::UniversalCameraHistory*  value) ;
 
-  constexpr void __cordl_internal_set_m_MotionVectorsPersistentData(::UnityEngine::Rendering::Universal::MotionVectorsPersistentData* value);
+constexpr void __cordl_internal_set_m_MotionVectorsPersistentData(::UnityEngine::Rendering::Universal::MotionVectorsPersistentData*  value) ;
 
-  constexpr void __cordl_internal_set_m_RenderPostProcessing(bool value);
+constexpr void __cordl_internal_set_m_RenderPostProcessing(bool  value) ;
 
-  constexpr void __cordl_internal_set_m_RenderShadows(bool value);
+constexpr void __cordl_internal_set_m_RenderShadows(bool  value) ;
 
-  constexpr void __cordl_internal_set_m_RendererIndex(int32_t value);
+constexpr void __cordl_internal_set_m_RendererIndex(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_m_RequiresColorTexture(bool value);
+constexpr void __cordl_internal_set_m_RequiresColorTexture(bool  value) ;
 
-  constexpr void __cordl_internal_set_m_RequiresDepthTexture(bool value);
+constexpr void __cordl_internal_set_m_RequiresDepthTexture(bool  value) ;
 
-  constexpr void __cordl_internal_set_m_RequiresDepthTextureOption(::UnityEngine::Rendering::Universal::CameraOverrideOption value);
+constexpr void __cordl_internal_set_m_RequiresDepthTextureOption(::UnityEngine::Rendering::Universal::CameraOverrideOption  value) ;
 
-  constexpr void __cordl_internal_set_m_RequiresOpaqueTextureOption(::UnityEngine::Rendering::Universal::CameraOverrideOption value);
+constexpr void __cordl_internal_set_m_RequiresOpaqueTextureOption(::UnityEngine::Rendering::Universal::CameraOverrideOption  value) ;
 
-  constexpr void __cordl_internal_set_m_ScreenCoordScaleBias(::UnityEngine::Vector4 value);
+constexpr void __cordl_internal_set_m_ScreenCoordScaleBias(::UnityEngine::Vector4  value) ;
 
-  constexpr void __cordl_internal_set_m_ScreenSizeOverride(::UnityEngine::Vector4 value);
+constexpr void __cordl_internal_set_m_ScreenSizeOverride(::UnityEngine::Vector4  value) ;
 
-  constexpr void __cordl_internal_set_m_StopNaN(bool value);
+constexpr void __cordl_internal_set_m_StopNaN(bool  value) ;
 
-  constexpr void __cordl_internal_set_m_TaaSettings(::UnityEngine::Rendering::Universal::TemporalAA_Settings value);
+constexpr void __cordl_internal_set_m_TaaSettings(::UnityEngine::Rendering::Universal::TemporalAA_Settings  value) ;
 
-  constexpr void __cordl_internal_set_m_UseScreenCoordOverride(bool value);
+constexpr void __cordl_internal_set_m_UseScreenCoordOverride(bool  value) ;
 
-  constexpr void __cordl_internal_set_m_Version(float_t value);
+constexpr void __cordl_internal_set_m_Version(float_t  value) ;
 
-  constexpr void __cordl_internal_set_m_VolumeFrameworkUpdateModeOption(::UnityEngine::Rendering::Universal::VolumeFrameworkUpdateMode value);
+constexpr void __cordl_internal_set_m_VolumeFrameworkUpdateModeOption(::UnityEngine::Rendering::Universal::VolumeFrameworkUpdateMode  value) ;
 
-  constexpr void __cordl_internal_set_m_VolumeLayerMask(::UnityEngine::LayerMask value);
+constexpr void __cordl_internal_set_m_VolumeLayerMask(::UnityEngine::LayerMask  value) ;
 
-  constexpr void __cordl_internal_set_m_VolumeStack(::UnityEngine::Rendering::VolumeStack* value);
+constexpr void __cordl_internal_set_m_VolumeStack(::UnityEngine::Rendering::VolumeStack*  value) ;
 
-  constexpr void __cordl_internal_set_m_VolumeTrigger(::UnityW<::UnityEngine::Transform> value);
+constexpr void __cordl_internal_set_m_VolumeTrigger(::UnityW<::UnityEngine::Transform>  value) ;
 
-  /// @brief Method .ctor, addr 0x678299c, size 0x130, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6784514, size 0x130, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  static inline ::System::Collections::Generic::List_1<::UnityEngine::Rendering::VolumeStack*>* getStaticF_s_CachedVolumeStacks();
+static inline ::System::Collections::Generic::List_1<::UnityEngine::Rendering::VolumeStack*>* getStaticF_s_CachedVolumeStacks() ;
 
-  static inline ::UnityW<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData> getStaticF_s_DefaultAdditionalCameraData();
+static inline ::UnityW<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData> getStaticF_s_DefaultAdditionalCameraData() ;
 
-  /// @brief Method get_allowHDROutput, addr 0x6783400, size 0x8, virtual false, abstract: false, final false
-  inline bool get_allowHDROutput();
+/// @brief Method get_allowHDROutput, addr 0x6784f78, size 0x8, virtual false, abstract: false, final false
+inline bool get_allowHDROutput() ;
 
-  /// @brief Method get_allowXRRendering, addr 0x67833b0, size 0x8, virtual false, abstract: false, final false
-  inline bool get_allowXRRendering();
+/// @brief Method get_allowXRRendering, addr 0x6784f28, size 0x8, virtual false, abstract: false, final false
+inline bool get_allowXRRendering() ;
 
-  /// @brief Method get_antialiasing, addr 0x67832dc, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::Rendering::Universal::AntialiasingMode get_antialiasing();
+/// @brief Method get_antialiasing, addr 0x6784e54, size 0x8, virtual false, abstract: false, final false
+inline ::UnityEngine::Rendering::Universal::AntialiasingMode get_antialiasing() ;
 
-  /// @brief Method get_antialiasingQuality, addr 0x67832ec, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::Rendering::Universal::AntialiasingQuality get_antialiasingQuality();
+/// @brief Method get_antialiasingQuality, addr 0x6784e64, size 0x8, virtual false, abstract: false, final false
+inline ::UnityEngine::Rendering::Universal::AntialiasingQuality get_antialiasingQuality() ;
 
-  /// @brief Method get_camera, addr 0x6782acc, size 0xa8, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::Camera> get_camera();
+/// @brief Method get_camera, addr 0x6784644, size 0xa8, virtual false, abstract: false, final false
+inline ::UnityW<::UnityEngine::Camera> get_camera() ;
 
-  /// @brief Method get_cameraStack, addr 0x6779d94, size 0x1b8, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Camera>>* get_cameraStack();
+/// @brief Method get_cameraStack, addr 0x677b90c, size 0x1b8, virtual false, abstract: false, final false
+inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Camera>>* get_cameraStack() ;
 
-  /// @brief Method get_clearDepth, addr 0x6783144, size 0x8, virtual false, abstract: false, final false
-  inline bool get_clearDepth();
+/// @brief Method get_clearDepth, addr 0x6784cbc, size 0x8, virtual false, abstract: false, final false
+inline bool get_clearDepth() ;
 
-  /// @brief Method get_defaultAdditionalCameraData, addr 0x67828ec, size 0xb0, virtual false, abstract: false, final false
-  static inline ::UnityW<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData> get_defaultAdditionalCameraData();
+/// @brief Method get_defaultAdditionalCameraData, addr 0x6784464, size 0xb0, virtual false, abstract: false, final false
+static inline ::UnityW<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData> get_defaultAdditionalCameraData() ;
 
-  /// @brief Method get_dithering, addr 0x67833a0, size 0x8, virtual false, abstract: false, final false
-  inline bool get_dithering();
+/// @brief Method get_dithering, addr 0x6784f18, size 0x8, virtual false, abstract: false, final false
+inline bool get_dithering() ;
 
-  /// @brief Method get_history, addr 0x6783304, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::Rendering::ICameraHistoryReadAccess* get_history();
+/// @brief Method get_history, addr 0x6784e7c, size 0x8, virtual false, abstract: false, final false
+inline ::UnityEngine::Rendering::ICameraHistoryReadAccess* get_history() ;
 
-  /// @brief Method get_historyManager, addr 0x678330c, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::Rendering::Universal::UniversalCameraHistory* get_historyManager();
+/// @brief Method get_historyManager, addr 0x6784e84, size 0x8, virtual false, abstract: false, final false
+inline ::UnityEngine::Rendering::Universal::UniversalCameraHistory* get_historyManager() ;
 
-  /// @brief Method get_motionVectorsPersistentData, addr 0x6783314, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::Rendering::Universal::MotionVectorsPersistentData* get_motionVectorsPersistentData();
+/// @brief Method get_motionVectorsPersistentData, addr 0x6784e8c, size 0x8, virtual false, abstract: false, final false
+inline ::UnityEngine::Rendering::Universal::MotionVectorsPersistentData* get_motionVectorsPersistentData() ;
 
-  /// @brief Method get_renderPostProcessing, addr 0x67832cc, size 0x8, virtual false, abstract: false, final false
-  inline bool get_renderPostProcessing();
+/// @brief Method get_renderPostProcessing, addr 0x6784e44, size 0x8, virtual false, abstract: false, final false
+inline bool get_renderPostProcessing() ;
 
-  /// @brief Method get_renderShadows, addr 0x6782ba8, size 0x8, virtual false, abstract: false, final false
-  inline bool get_renderShadows();
+/// @brief Method get_renderShadows, addr 0x6784720, size 0x8, virtual false, abstract: false, final false
+inline bool get_renderShadows() ;
 
-  /// @brief Method get_renderType, addr 0x6782bd8, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::Rendering::Universal::CameraRenderType get_renderType();
+/// @brief Method get_renderType, addr 0x6784750, size 0x8, virtual false, abstract: false, final false
+inline ::UnityEngine::Rendering::Universal::CameraRenderType get_renderType() ;
 
-  /// @brief Method get_requiresColorOption, addr 0x6782bc8, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::Rendering::Universal::CameraOverrideOption get_requiresColorOption();
+/// @brief Method get_requiresColorOption, addr 0x6784740, size 0x8, virtual false, abstract: false, final false
+inline ::UnityEngine::Rendering::Universal::CameraOverrideOption get_requiresColorOption() ;
 
-  /// @brief Method get_requiresColorTexture, addr 0x67831ec, size 0x88, virtual false, abstract: false, final false
-  inline bool get_requiresColorTexture();
+/// @brief Method get_requiresColorTexture, addr 0x6784d64, size 0x88, virtual false, abstract: false, final false
+inline bool get_requiresColorTexture() ;
 
-  /// @brief Method get_requiresDepthOption, addr 0x6782bb8, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::Rendering::Universal::CameraOverrideOption get_requiresDepthOption();
+/// @brief Method get_requiresDepthOption, addr 0x6784730, size 0x8, virtual false, abstract: false, final false
+inline ::UnityEngine::Rendering::Universal::CameraOverrideOption get_requiresDepthOption() ;
 
-  /// @brief Method get_requiresDepthTexture, addr 0x678314c, size 0x88, virtual false, abstract: false, final false
-  inline bool get_requiresDepthTexture();
+/// @brief Method get_requiresDepthTexture, addr 0x6784cc4, size 0x88, virtual false, abstract: false, final false
+inline bool get_requiresDepthTexture() ;
 
-  /// @brief Method get_requiresVolumeFrameworkUpdate, addr 0x6782060, size 0x88, virtual false, abstract: false, final false
-  inline bool get_requiresVolumeFrameworkUpdate();
+/// @brief Method get_requiresVolumeFrameworkUpdate, addr 0x6783bd8, size 0x88, virtual false, abstract: false, final false
+inline bool get_requiresVolumeFrameworkUpdate() ;
 
-  /// @brief Method get_resetHistory, addr 0x678331c, size 0x10, virtual false, abstract: false, final false
-  inline bool get_resetHistory();
+/// @brief Method get_resetHistory, addr 0x6784e94, size 0x10, virtual false, abstract: false, final false
+inline bool get_resetHistory() ;
 
-  /// @brief Method get_screenCoordScaleBias, addr 0x67833e8, size 0xc, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector4 get_screenCoordScaleBias();
+/// @brief Method get_screenCoordScaleBias, addr 0x6784f60, size 0xc, virtual false, abstract: false, final false
+inline ::UnityEngine::Vector4 get_screenCoordScaleBias() ;
 
-  /// @brief Method get_screenSizeOverride, addr 0x67833d0, size 0xc, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector4 get_screenSizeOverride();
+/// @brief Method get_screenSizeOverride, addr 0x6784f48, size 0xc, virtual false, abstract: false, final false
+inline ::UnityEngine::Vector4 get_screenSizeOverride() ;
 
-  /// @brief Method get_scriptableRenderer, addr 0x6782be8, size 0x294, virtual false, abstract: false, final false
-  inline ::UnityEngine::Rendering::Universal::ScriptableRenderer* get_scriptableRenderer();
+/// @brief Method get_scriptableRenderer, addr 0x6784760, size 0x294, virtual false, abstract: false, final false
+inline ::UnityEngine::Rendering::Universal::ScriptableRenderer* get_scriptableRenderer() ;
 
-  /// @brief Method get_stopNaN, addr 0x6783390, size 0x8, virtual false, abstract: false, final false
-  inline bool get_stopNaN();
+/// @brief Method get_stopNaN, addr 0x6784f08, size 0x8, virtual false, abstract: false, final false
+inline bool get_stopNaN() ;
 
-  /// @brief Method get_taaSettings, addr 0x67832fc, size 0x8, virtual false, abstract: false, final false
-  inline ::ByRef<::UnityEngine::Rendering::Universal::TemporalAA_Settings> get_taaSettings();
+/// @brief Method get_taaSettings, addr 0x6784e74, size 0x8, virtual false, abstract: false, final false
+inline ::ByRef<::UnityEngine::Rendering::Universal::TemporalAA_Settings> get_taaSettings() ;
 
-  /// @brief Method get_useScreenCoordOverride, addr 0x67833c0, size 0x8, virtual false, abstract: false, final false
-  inline bool get_useScreenCoordOverride();
+/// @brief Method get_useScreenCoordOverride, addr 0x6784f38, size 0x8, virtual false, abstract: false, final false
+inline bool get_useScreenCoordOverride() ;
 
-  /// @brief Method get_version, addr 0x67828e4, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_version();
+/// @brief Method get_version, addr 0x678445c, size 0x8, virtual false, abstract: false, final false
+inline float_t get_version() ;
 
-  /// @brief Method get_volumeFrameworkUpdateMode, addr 0x67832b4, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::Rendering::Universal::VolumeFrameworkUpdateMode get_volumeFrameworkUpdateMode();
+/// @brief Method get_volumeFrameworkUpdateMode, addr 0x6784e2c, size 0x8, virtual false, abstract: false, final false
+inline ::UnityEngine::Rendering::Universal::VolumeFrameworkUpdateMode get_volumeFrameworkUpdateMode() ;
 
-  /// @brief Method get_volumeLayerMask, addr 0x6783294, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::LayerMask get_volumeLayerMask();
+/// @brief Method get_volumeLayerMask, addr 0x6784e0c, size 0x8, virtual false, abstract: false, final false
+inline ::UnityEngine::LayerMask get_volumeLayerMask() ;
 
-  /// @brief Method get_volumeStack, addr 0x67832c4, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::Rendering::VolumeStack* get_volumeStack();
+/// @brief Method get_volumeStack, addr 0x6784e3c, size 0x8, virtual false, abstract: false, final false
+inline ::UnityEngine::Rendering::VolumeStack* get_volumeStack() ;
 
-  /// @brief Method get_volumeTrigger, addr 0x67832a4, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::Transform> get_volumeTrigger();
+/// @brief Method get_volumeTrigger, addr 0x6784e1c, size 0x8, virtual false, abstract: false, final false
+inline ::UnityW<::UnityEngine::Transform> get_volumeTrigger() ;
 
-  /// @brief Convert to "::UnityEngine::ISerializationCallbackReceiver"
-  constexpr ::UnityEngine::ISerializationCallbackReceiver* i___UnityEngine__ISerializationCallbackReceiver() noexcept;
+/// @brief Convert to "::UnityEngine::ISerializationCallbackReceiver"
+constexpr ::UnityEngine::ISerializationCallbackReceiver* i___UnityEngine__ISerializationCallbackReceiver() noexcept;
 
-  /// @brief Convert to "::UnityEngine::Rendering::IAdditionalData"
-  constexpr ::UnityEngine::Rendering::IAdditionalData* i___UnityEngine__Rendering__IAdditionalData() noexcept;
+/// @brief Convert to "::UnityEngine::Rendering::IAdditionalData"
+constexpr ::UnityEngine::Rendering::IAdditionalData* i___UnityEngine__Rendering__IAdditionalData() noexcept;
 
-  static inline void setStaticF_s_CachedVolumeStacks(::System::Collections::Generic::List_1<::UnityEngine::Rendering::VolumeStack*>* value);
+static inline void setStaticF_s_CachedVolumeStacks(::System::Collections::Generic::List_1<::UnityEngine::Rendering::VolumeStack*>*  value) ;
 
-  static inline void setStaticF_s_DefaultAdditionalCameraData(::UnityW<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData> value);
+static inline void setStaticF_s_DefaultAdditionalCameraData(::UnityW<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData>  value) ;
 
-  /// @brief Method set_allowHDROutput, addr 0x6783408, size 0x8, virtual false, abstract: false, final false
-  inline void set_allowHDROutput(bool value);
+/// @brief Method set_allowHDROutput, addr 0x6784f80, size 0x8, virtual false, abstract: false, final false
+inline void set_allowHDROutput(bool  value) ;
 
-  /// @brief Method set_allowXRRendering, addr 0x67833b8, size 0x8, virtual false, abstract: false, final false
-  inline void set_allowXRRendering(bool value);
+/// @brief Method set_allowXRRendering, addr 0x6784f30, size 0x8, virtual false, abstract: false, final false
+inline void set_allowXRRendering(bool  value) ;
 
-  /// @brief Method set_antialiasing, addr 0x67832e4, size 0x8, virtual false, abstract: false, final false
-  inline void set_antialiasing(::UnityEngine::Rendering::Universal::AntialiasingMode value);
+/// @brief Method set_antialiasing, addr 0x6784e5c, size 0x8, virtual false, abstract: false, final false
+inline void set_antialiasing(::UnityEngine::Rendering::Universal::AntialiasingMode  value) ;
 
-  /// @brief Method set_antialiasingQuality, addr 0x67832f4, size 0x8, virtual false, abstract: false, final false
-  inline void set_antialiasingQuality(::UnityEngine::Rendering::Universal::AntialiasingQuality value);
+/// @brief Method set_antialiasingQuality, addr 0x6784e6c, size 0x8, virtual false, abstract: false, final false
+inline void set_antialiasingQuality(::UnityEngine::Rendering::Universal::AntialiasingQuality  value) ;
 
-  /// @brief Method set_dithering, addr 0x67833a8, size 0x8, virtual false, abstract: false, final false
-  inline void set_dithering(bool value);
+/// @brief Method set_dithering, addr 0x6784f20, size 0x8, virtual false, abstract: false, final false
+inline void set_dithering(bool  value) ;
 
-  /// @brief Method set_renderPostProcessing, addr 0x67832d4, size 0x8, virtual false, abstract: false, final false
-  inline void set_renderPostProcessing(bool value);
+/// @brief Method set_renderPostProcessing, addr 0x6784e4c, size 0x8, virtual false, abstract: false, final false
+inline void set_renderPostProcessing(bool  value) ;
 
-  /// @brief Method set_renderShadows, addr 0x6782bb0, size 0x8, virtual false, abstract: false, final false
-  inline void set_renderShadows(bool value);
+/// @brief Method set_renderShadows, addr 0x6784728, size 0x8, virtual false, abstract: false, final false
+inline void set_renderShadows(bool  value) ;
 
-  /// @brief Method set_renderType, addr 0x6782be0, size 0x8, virtual false, abstract: false, final false
-  inline void set_renderType(::UnityEngine::Rendering::Universal::CameraRenderType value);
+/// @brief Method set_renderType, addr 0x6784758, size 0x8, virtual false, abstract: false, final false
+inline void set_renderType(::UnityEngine::Rendering::Universal::CameraRenderType  value) ;
 
-  /// @brief Method set_requiresColorOption, addr 0x6782bd0, size 0x8, virtual false, abstract: false, final false
-  inline void set_requiresColorOption(::UnityEngine::Rendering::Universal::CameraOverrideOption value);
+/// @brief Method set_requiresColorOption, addr 0x6784748, size 0x8, virtual false, abstract: false, final false
+inline void set_requiresColorOption(::UnityEngine::Rendering::Universal::CameraOverrideOption  value) ;
 
-  /// @brief Method set_requiresColorTexture, addr 0x6783274, size 0x18, virtual false, abstract: false, final false
-  inline void set_requiresColorTexture(bool value);
+/// @brief Method set_requiresColorTexture, addr 0x6784dec, size 0x18, virtual false, abstract: false, final false
+inline void set_requiresColorTexture(bool  value) ;
 
-  /// @brief Method set_requiresDepthOption, addr 0x6782bc0, size 0x8, virtual false, abstract: false, final false
-  inline void set_requiresDepthOption(::UnityEngine::Rendering::Universal::CameraOverrideOption value);
+/// @brief Method set_requiresDepthOption, addr 0x6784738, size 0x8, virtual false, abstract: false, final false
+inline void set_requiresDepthOption(::UnityEngine::Rendering::Universal::CameraOverrideOption  value) ;
 
-  /// @brief Method set_requiresDepthTexture, addr 0x67831d4, size 0x18, virtual false, abstract: false, final false
-  inline void set_requiresDepthTexture(bool value);
+/// @brief Method set_requiresDepthTexture, addr 0x6784d4c, size 0x18, virtual false, abstract: false, final false
+inline void set_requiresDepthTexture(bool  value) ;
 
-  /// @brief Method set_resetHistory, addr 0x678332c, size 0x64, virtual false, abstract: false, final false
-  inline void set_resetHistory(bool value);
+/// @brief Method set_resetHistory, addr 0x6784ea4, size 0x64, virtual false, abstract: false, final false
+inline void set_resetHistory(bool  value) ;
 
-  /// @brief Method set_screenCoordScaleBias, addr 0x67833f4, size 0xc, virtual false, abstract: false, final false
-  inline void set_screenCoordScaleBias(::UnityEngine::Vector4 value);
+/// @brief Method set_screenCoordScaleBias, addr 0x6784f6c, size 0xc, virtual false, abstract: false, final false
+inline void set_screenCoordScaleBias(::UnityEngine::Vector4  value) ;
 
-  /// @brief Method set_screenSizeOverride, addr 0x67833dc, size 0xc, virtual false, abstract: false, final false
-  inline void set_screenSizeOverride(::UnityEngine::Vector4 value);
+/// @brief Method set_screenSizeOverride, addr 0x6784f54, size 0xc, virtual false, abstract: false, final false
+inline void set_screenSizeOverride(::UnityEngine::Vector4  value) ;
 
-  /// @brief Method set_stopNaN, addr 0x6783398, size 0x8, virtual false, abstract: false, final false
-  inline void set_stopNaN(bool value);
+/// @brief Method set_stopNaN, addr 0x6784f10, size 0x8, virtual false, abstract: false, final false
+inline void set_stopNaN(bool  value) ;
 
-  /// @brief Method set_useScreenCoordOverride, addr 0x67833c8, size 0x8, virtual false, abstract: false, final false
-  inline void set_useScreenCoordOverride(bool value);
+/// @brief Method set_useScreenCoordOverride, addr 0x6784f40, size 0x8, virtual false, abstract: false, final false
+inline void set_useScreenCoordOverride(bool  value) ;
 
-  /// @brief Method set_volumeFrameworkUpdateMode, addr 0x67832bc, size 0x8, virtual false, abstract: false, final false
-  inline void set_volumeFrameworkUpdateMode(::UnityEngine::Rendering::Universal::VolumeFrameworkUpdateMode value);
+/// @brief Method set_volumeFrameworkUpdateMode, addr 0x6784e34, size 0x8, virtual false, abstract: false, final false
+inline void set_volumeFrameworkUpdateMode(::UnityEngine::Rendering::Universal::VolumeFrameworkUpdateMode  value) ;
 
-  /// @brief Method set_volumeLayerMask, addr 0x678329c, size 0x8, virtual false, abstract: false, final false
-  inline void set_volumeLayerMask(::UnityEngine::LayerMask value);
+/// @brief Method set_volumeLayerMask, addr 0x6784e14, size 0x8, virtual false, abstract: false, final false
+inline void set_volumeLayerMask(::UnityEngine::LayerMask  value) ;
 
-  /// @brief Method set_volumeStack, addr 0x678261c, size 0x144, virtual false, abstract: false, final false
-  inline void set_volumeStack(::UnityEngine::Rendering::VolumeStack* value);
+/// @brief Method set_volumeStack, addr 0x6784194, size 0x144, virtual false, abstract: false, final false
+inline void set_volumeStack(::UnityEngine::Rendering::VolumeStack*  value) ;
 
-  /// @brief Method set_volumeTrigger, addr 0x67832ac, size 0x8, virtual false, abstract: false, final false
-  inline void set_volumeTrigger(::UnityEngine::Transform* value);
+/// @brief Method set_volumeTrigger, addr 0x6784e24, size 0x8, virtual false, abstract: false, final false
+inline void set_volumeTrigger(::UnityEngine::Transform*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr UniversalAdditionalCameraData();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr UniversalAdditionalCameraData() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UniversalAdditionalCameraData", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  UniversalAdditionalCameraData(UniversalAdditionalCameraData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UniversalAdditionalCameraData", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  UniversalAdditionalCameraData(UniversalAdditionalCameraData const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "UniversalAdditionalCameraData", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+UniversalAdditionalCameraData(UniversalAdditionalCameraData && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12977 };
+// Ctor Parameters [CppParam { name: "", ty: "UniversalAdditionalCameraData", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+UniversalAdditionalCameraData(UniversalAdditionalCameraData const& ) = delete;
 
-  /// @brief Field k_BaseCameraGizmoPath offset 0xffffffff size 0x8
-  static constexpr ::ConstString k_BaseCameraGizmoPath{ u"Packages/com.unity.render-pipelines.universal/Editor/Gizmos/Camera_Base.png" };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12978};
 
-  /// @brief Field k_GizmoPath offset 0xffffffff size 0x8
-  static constexpr ::ConstString k_GizmoPath{ u"Packages/com.unity.render-pipelines.universal/Editor/Gizmos/" };
+/// @brief Field k_BaseCameraGizmoPath offset 0xffffffff size 0x8
+static constexpr ::ConstString  k_BaseCameraGizmoPath{u"Packages/com.unity.render-pipelines.universal/Editor/Gizmos/Camera_Base.png"};
 
-  /// @brief Field k_OverlayCameraGizmoPath offset 0xffffffff size 0x8
-  static constexpr ::ConstString k_OverlayCameraGizmoPath{ u"Packages/com.unity.render-pipelines.universal/Editor/Gizmos/Camera_Base.png" };
+/// @brief Field k_GizmoPath offset 0xffffffff size 0x8
+static constexpr ::ConstString  k_GizmoPath{u"Packages/com.unity.render-pipelines.universal/Editor/Gizmos/"};
 
-  /// @brief Field k_PostProcessingGizmoPath offset 0xffffffff size 0x8
-  static constexpr ::ConstString k_PostProcessingGizmoPath{ u"Packages/com.unity.render-pipelines.universal/Editor/Gizmos/Camera_PostProcessing.png" };
+/// @brief Field k_OverlayCameraGizmoPath offset 0xffffffff size 0x8
+static constexpr ::ConstString  k_OverlayCameraGizmoPath{u"Packages/com.unity.render-pipelines.universal/Editor/Gizmos/Camera_Base.png"};
 
-  /// @brief Field m_RenderShadows, offset: 0x20, size: 0x1, def value: None
-  bool ___m_RenderShadows;
+/// @brief Field k_PostProcessingGizmoPath offset 0xffffffff size 0x8
+static constexpr ::ConstString  k_PostProcessingGizmoPath{u"Packages/com.unity.render-pipelines.universal/Editor/Gizmos/Camera_PostProcessing.png"};
 
-  /// @brief Field m_RequiresDepthTextureOption, offset: 0x24, size: 0x4, def value: None
-  ::UnityEngine::Rendering::Universal::CameraOverrideOption ___m_RequiresDepthTextureOption;
+/// @brief Field m_RenderShadows, offset: 0x20, size: 0x1, def value: None
+ bool  ___m_RenderShadows;
 
-  /// @brief Field m_RequiresOpaqueTextureOption, offset: 0x28, size: 0x4, def value: None
-  ::UnityEngine::Rendering::Universal::CameraOverrideOption ___m_RequiresOpaqueTextureOption;
+/// @brief Field m_RequiresDepthTextureOption, offset: 0x24, size: 0x4, def value: None
+ ::UnityEngine::Rendering::Universal::CameraOverrideOption  ___m_RequiresDepthTextureOption;
 
-  /// @brief Field m_CameraType, offset: 0x2c, size: 0x4, def value: None
-  ::UnityEngine::Rendering::Universal::CameraRenderType ___m_CameraType;
+/// @brief Field m_RequiresOpaqueTextureOption, offset: 0x28, size: 0x4, def value: None
+ ::UnityEngine::Rendering::Universal::CameraOverrideOption  ___m_RequiresOpaqueTextureOption;
 
-  /// @brief Field m_Cameras, offset: 0x30, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Camera>>* ___m_Cameras;
+/// @brief Field m_CameraType, offset: 0x2c, size: 0x4, def value: None
+ ::UnityEngine::Rendering::Universal::CameraRenderType  ___m_CameraType;
 
-  /// @brief Field m_RendererIndex, offset: 0x38, size: 0x4, def value: None
-  int32_t ___m_RendererIndex;
+/// @brief Field m_Cameras, offset: 0x30, size: 0x8, def value: None
+ ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Camera>>*  ___m_Cameras;
 
-  /// @brief Field m_VolumeLayerMask, offset: 0x3c, size: 0x4, def value: None
-  ::UnityEngine::LayerMask ___m_VolumeLayerMask;
+/// @brief Field m_RendererIndex, offset: 0x38, size: 0x4, def value: None
+ int32_t  ___m_RendererIndex;
 
-  /// @brief Field m_VolumeTrigger, offset: 0x40, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::Transform> ___m_VolumeTrigger;
+/// @brief Field m_VolumeLayerMask, offset: 0x3c, size: 0x4, def value: None
+ ::UnityEngine::LayerMask  ___m_VolumeLayerMask;
 
-  /// @brief Field m_VolumeFrameworkUpdateModeOption, offset: 0x48, size: 0x4, def value: None
-  ::UnityEngine::Rendering::Universal::VolumeFrameworkUpdateMode ___m_VolumeFrameworkUpdateModeOption;
+/// @brief Field m_VolumeTrigger, offset: 0x40, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::Transform>  ___m_VolumeTrigger;
 
-  /// @brief Field m_RenderPostProcessing, offset: 0x4c, size: 0x1, def value: None
-  bool ___m_RenderPostProcessing;
+/// @brief Field m_VolumeFrameworkUpdateModeOption, offset: 0x48, size: 0x4, def value: None
+ ::UnityEngine::Rendering::Universal::VolumeFrameworkUpdateMode  ___m_VolumeFrameworkUpdateModeOption;
 
-  /// @brief Field m_Antialiasing, offset: 0x50, size: 0x4, def value: None
-  ::UnityEngine::Rendering::Universal::AntialiasingMode ___m_Antialiasing;
+/// @brief Field m_RenderPostProcessing, offset: 0x4c, size: 0x1, def value: None
+ bool  ___m_RenderPostProcessing;
 
-  /// @brief Field m_AntialiasingQuality, offset: 0x54, size: 0x4, def value: None
-  ::UnityEngine::Rendering::Universal::AntialiasingQuality ___m_AntialiasingQuality;
+/// @brief Field m_Antialiasing, offset: 0x50, size: 0x4, def value: None
+ ::UnityEngine::Rendering::Universal::AntialiasingMode  ___m_Antialiasing;
 
-  /// @brief Field m_StopNaN, offset: 0x58, size: 0x1, def value: None
-  bool ___m_StopNaN;
+/// @brief Field m_AntialiasingQuality, offset: 0x54, size: 0x4, def value: None
+ ::UnityEngine::Rendering::Universal::AntialiasingQuality  ___m_AntialiasingQuality;
 
-  /// @brief Field m_Dithering, offset: 0x59, size: 0x1, def value: None
-  bool ___m_Dithering;
+/// @brief Field m_StopNaN, offset: 0x58, size: 0x1, def value: None
+ bool  ___m_StopNaN;
 
-  /// @brief Field m_ClearDepth, offset: 0x5a, size: 0x1, def value: None
-  bool ___m_ClearDepth;
+/// @brief Field m_Dithering, offset: 0x59, size: 0x1, def value: None
+ bool  ___m_Dithering;
 
-  /// @brief Field m_AllowXRRendering, offset: 0x5b, size: 0x1, def value: None
-  bool ___m_AllowXRRendering;
+/// @brief Field m_ClearDepth, offset: 0x5a, size: 0x1, def value: None
+ bool  ___m_ClearDepth;
 
-  /// @brief Field m_AllowHDROutput, offset: 0x5c, size: 0x1, def value: None
-  bool ___m_AllowHDROutput;
+/// @brief Field m_AllowXRRendering, offset: 0x5b, size: 0x1, def value: None
+ bool  ___m_AllowXRRendering;
 
-  /// @brief Field m_UseScreenCoordOverride, offset: 0x5d, size: 0x1, def value: None
-  bool ___m_UseScreenCoordOverride;
+/// @brief Field m_AllowHDROutput, offset: 0x5c, size: 0x1, def value: None
+ bool  ___m_AllowHDROutput;
 
-  /// @brief Field m_ScreenSizeOverride, offset: 0x60, size: 0x10, def value: None
-  ::UnityEngine::Vector4 ___m_ScreenSizeOverride;
+/// @brief Field m_UseScreenCoordOverride, offset: 0x5d, size: 0x1, def value: None
+ bool  ___m_UseScreenCoordOverride;
 
-  /// @brief Field m_ScreenCoordScaleBias, offset: 0x70, size: 0x10, def value: None
-  ::UnityEngine::Vector4 ___m_ScreenCoordScaleBias;
+/// @brief Field m_ScreenSizeOverride, offset: 0x60, size: 0x10, def value: None
+ ::UnityEngine::Vector4  ___m_ScreenSizeOverride;
 
-  /// @brief Field m_Camera, offset: 0x80, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::Camera> ___m_Camera;
+/// @brief Field m_ScreenCoordScaleBias, offset: 0x70, size: 0x10, def value: None
+ ::UnityEngine::Vector4  ___m_ScreenCoordScaleBias;
 
-  /// @brief Field m_RequiresDepthTexture, offset: 0x88, size: 0x1, def value: None
-  bool ___m_RequiresDepthTexture;
+/// @brief Field m_Camera, offset: 0x80, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::Camera>  ___m_Camera;
 
-  /// @brief Field m_RequiresColorTexture, offset: 0x89, size: 0x1, def value: None
-  bool ___m_RequiresColorTexture;
+/// @brief Field m_RequiresDepthTexture, offset: 0x88, size: 0x1, def value: None
+ bool  ___m_RequiresDepthTexture;
 
-  /// @brief Field m_Version, offset: 0x8c, size: 0x4, def value: None
-  float_t ___m_Version;
+/// @brief Field m_RequiresColorTexture, offset: 0x89, size: 0x1, def value: None
+ bool  ___m_RequiresColorTexture;
 
-  /// @brief Field m_MotionVectorsPersistentData, offset: 0x90, size: 0x8, def value: None
-  ::UnityEngine::Rendering::Universal::MotionVectorsPersistentData* ___m_MotionVectorsPersistentData;
+/// @brief Field m_Version, offset: 0x8c, size: 0x4, def value: None
+ float_t  ___m_Version;
 
-  /// @brief Field m_History, offset: 0x98, size: 0x8, def value: None
-  ::UnityEngine::Rendering::Universal::UniversalCameraHistory* ___m_History;
+/// @brief Field m_MotionVectorsPersistentData, offset: 0x90, size: 0x8, def value: None
+ ::UnityEngine::Rendering::Universal::MotionVectorsPersistentData*  ___m_MotionVectorsPersistentData;
 
-  /// @brief Field m_TaaSettings, offset: 0xa0, size: 0x20, def value: None
-  ::UnityEngine::Rendering::Universal::TemporalAA_Settings ___m_TaaSettings;
+/// @brief Field m_History, offset: 0x98, size: 0x8, def value: None
+ ::UnityEngine::Rendering::Universal::UniversalCameraHistory*  ___m_History;
 
-  /// @brief Field m_VolumeStack, offset: 0xc0, size: 0x8, def value: None
-  ::UnityEngine::Rendering::VolumeStack* ___m_VolumeStack;
+/// @brief Field m_TaaSettings, offset: 0xa0, size: 0x20, def value: None
+ ::UnityEngine::Rendering::Universal::TemporalAA_Settings  ___m_TaaSettings;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field m_VolumeStack, offset: 0xc0, size: 0x8, def value: None
+ ::UnityEngine::Rendering::VolumeStack*  ___m_VolumeStack;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData, ___m_RenderShadows) == 0x20, "Offset mismatch!");
@@ -865,7 +858,7 @@ static_assert(offsetof(::UnityEngine::Rendering::Universal::UniversalAdditionalC
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData, 0xc8>, "Size mismatch!");
 
-} // namespace UnityEngine::Rendering::Universal
+} // namespace end def UnityEngine::Rendering::Universal
 NEED_NO_BOX(::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*, "UnityEngine.Rendering.Universal", "UniversalAdditionalCameraData");
 NEED_NO_BOX(::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData___c);

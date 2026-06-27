@@ -18,34 +18,34 @@ namespace GlobalNamespace {
 // CS Name: OverridableGradientDirection
 class CORDL_TYPE OverridableGradientDirection : public ::StyledUITemplates::OverridableData_1<::GlobalNamespace::GradientDirection> {
 public:
-  // Declarations
-  static inline ::GlobalNamespace::OverridableGradientDirection* New_ctor();
+// Declarations
+static inline ::GlobalNamespace::OverridableGradientDirection* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x3231df8, size 0x3c, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x3232b94, size 0x3c, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OverridableGradientDirection();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr OverridableGradientDirection() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OverridableGradientDirection", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  OverridableGradientDirection(OverridableGradientDirection&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OverridableGradientDirection", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  OverridableGradientDirection(OverridableGradientDirection const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "OverridableGradientDirection", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+OverridableGradientDirection(OverridableGradientDirection && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23388 };
+// Ctor Parameters [CppParam { name: "", ty: "OverridableGradientDirection", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+OverridableGradientDirection(OverridableGradientDirection const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{23392};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OverridableGradientDirection, 0x18>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::OverridableGradientDirection);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OverridableGradientDirection*, "", "OverridableGradientDirection");

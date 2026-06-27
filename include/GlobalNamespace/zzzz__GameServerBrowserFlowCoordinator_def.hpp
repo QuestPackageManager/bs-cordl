@@ -17,37 +17,37 @@ namespace GlobalNamespace {
 // CS Name: GameServerBrowserFlowCoordinator
 class CORDL_TYPE GameServerBrowserFlowCoordinator : public ::HMUI::FlowCoordinator {
 public:
-  // Declarations
-  /// @brief Method DidActivate, addr 0x580227c, size 0x4, virtual true, abstract: false, final false
-  inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
+// Declarations
+/// @brief Method DidActivate, addr 0x5803b28, size 0x4, virtual true, abstract: false, final false
+inline void DidActivate(bool  firstActivation, bool  addedToHierarchy, bool  screenSystemEnabling) ;
 
-  static inline ::GlobalNamespace::GameServerBrowserFlowCoordinator* New_ctor();
+static inline ::GlobalNamespace::GameServerBrowserFlowCoordinator* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x5802280, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5803b2c, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr GameServerBrowserFlowCoordinator();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr GameServerBrowserFlowCoordinator() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GameServerBrowserFlowCoordinator", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  GameServerBrowserFlowCoordinator(GameServerBrowserFlowCoordinator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GameServerBrowserFlowCoordinator", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  GameServerBrowserFlowCoordinator(GameServerBrowserFlowCoordinator const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "GameServerBrowserFlowCoordinator", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+GameServerBrowserFlowCoordinator(GameServerBrowserFlowCoordinator && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6899 };
+// Ctor Parameters [CppParam { name: "", ty: "GameServerBrowserFlowCoordinator", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+GameServerBrowserFlowCoordinator(GameServerBrowserFlowCoordinator const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6900};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GameServerBrowserFlowCoordinator, 0xb0>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::GameServerBrowserFlowCoordinator);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::GameServerBrowserFlowCoordinator*, "", "GameServerBrowserFlowCoordinator");

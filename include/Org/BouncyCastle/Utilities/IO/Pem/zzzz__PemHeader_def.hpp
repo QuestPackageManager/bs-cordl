@@ -22,73 +22,73 @@ namespace Org::BouncyCastle::Utilities::IO::Pem {
 // CS Name: Org.BouncyCastle.Utilities.IO.Pem.PemHeader
 class CORDL_TYPE PemHeader : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = get_Name)) ::StringW Name;
+// Declarations
+ __declspec(property(get=get_Name)) ::StringW  Name;
 
-  __declspec(property(get = get_Value)) ::StringW Value;
+ __declspec(property(get=get_Value)) ::StringW  Value;
 
-  /// @brief Field name, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name)) ::StringW name;
+/// @brief Field name, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_name, put=__cordl_internal_set_name)) ::StringW  name;
 
-  /// @brief Field val, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_val, put = __cordl_internal_set_val)) ::StringW val;
+/// @brief Field val, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_val, put=__cordl_internal_set_val)) ::StringW  val;
 
-  /// @brief Method Equals, addr 0x3570364, size 0xfc, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* obj);
+/// @brief Method Equals, addr 0x3571100, size 0xfc, virtual true, abstract: false, final false
+inline bool Equals(::System::Object*  obj) ;
 
-  /// @brief Method GetHashCode, addr 0x3570300, size 0x50, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
+/// @brief Method GetHashCode, addr 0x357109c, size 0x50, virtual true, abstract: false, final false
+inline int32_t GetHashCode() ;
 
-  /// @brief Method GetHashCode, addr 0x3570350, size 0x14, virtual false, abstract: false, final false
-  inline int32_t GetHashCode(::StringW s);
+/// @brief Method GetHashCode, addr 0x35710ec, size 0x14, virtual false, abstract: false, final false
+inline int32_t GetHashCode(::StringW  s) ;
 
-  static inline ::Org::BouncyCastle::Utilities::IO::Pem::PemHeader* New_ctor(::StringW name, ::StringW val);
+static inline ::Org::BouncyCastle::Utilities::IO::Pem::PemHeader* New_ctor(::StringW  name, ::StringW  val) ;
 
-  constexpr ::StringW const& __cordl_internal_get_name() const;
+constexpr ::StringW const& __cordl_internal_get_name() const;
 
-  constexpr ::StringW& __cordl_internal_get_name();
+constexpr ::StringW& __cordl_internal_get_name() ;
 
-  constexpr ::StringW const& __cordl_internal_get_val() const;
+constexpr ::StringW const& __cordl_internal_get_val() const;
 
-  constexpr ::StringW& __cordl_internal_get_val();
+constexpr ::StringW& __cordl_internal_get_val() ;
 
-  constexpr void __cordl_internal_set_name(::StringW value);
+constexpr void __cordl_internal_set_name(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_val(::StringW value);
+constexpr void __cordl_internal_set_val(::StringW  value) ;
 
-  /// @brief Method .ctor, addr 0x35702e8, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::StringW name, ::StringW val);
+/// @brief Method .ctor, addr 0x3571084, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(::StringW  name, ::StringW  val) ;
 
-  /// @brief Method get_Name, addr 0x35702f0, size 0x8, virtual true, abstract: false, final false
-  inline ::StringW get_Name();
+/// @brief Method get_Name, addr 0x357108c, size 0x8, virtual true, abstract: false, final false
+inline ::StringW get_Name() ;
 
-  /// @brief Method get_Value, addr 0x35702f8, size 0x8, virtual true, abstract: false, final false
-  inline ::StringW get_Value();
+/// @brief Method get_Value, addr 0x3571094, size 0x8, virtual true, abstract: false, final false
+inline ::StringW get_Value() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PemHeader();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr PemHeader() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PemHeader", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  PemHeader(PemHeader&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PemHeader", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  PemHeader(PemHeader const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "PemHeader", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+PemHeader(PemHeader && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1805 };
+// Ctor Parameters [CppParam { name: "", ty: "PemHeader", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+PemHeader(PemHeader const& ) = delete;
 
-  /// @brief Field name, offset: 0x10, size: 0x8, def value: None
-  ::StringW ___name;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{1805};
 
-  /// @brief Field val, offset: 0x18, size: 0x8, def value: None
-  ::StringW ___val;
+/// @brief Field name, offset: 0x10, size: 0x8, def value: None
+ ::StringW  ___name;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field val, offset: 0x18, size: 0x8, def value: None
+ ::StringW  ___val;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Org::BouncyCastle::Utilities::IO::Pem::PemHeader, ___name) == 0x10, "Offset mismatch!");
@@ -97,6 +97,6 @@ static_assert(offsetof(::Org::BouncyCastle::Utilities::IO::Pem::PemHeader, ___va
 
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Utilities::IO::Pem::PemHeader, 0x20>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Utilities::IO::Pem
+} // namespace end def Org::BouncyCastle::Utilities::IO::Pem
 NEED_NO_BOX(::Org::BouncyCastle::Utilities::IO::Pem::PemHeader);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Utilities::IO::Pem::PemHeader*, "Org.BouncyCastle.Utilities.IO.Pem", "PemHeader");

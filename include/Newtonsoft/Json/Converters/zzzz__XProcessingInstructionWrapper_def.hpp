@@ -21,52 +21,52 @@ namespace Newtonsoft::Json::Converters {
 // CS Name: Newtonsoft.Json.Converters.XProcessingInstructionWrapper
 class CORDL_TYPE XProcessingInstructionWrapper : public ::Newtonsoft::Json::Converters::XObjectWrapper {
 public:
-  // Declarations
-  __declspec(property(get = get_LocalName)) ::StringW LocalName;
+// Declarations
+ __declspec(property(get=get_LocalName)) ::StringW  LocalName;
 
-  __declspec(property(get = get_ProcessingInstruction)) ::System::Xml::Linq::XProcessingInstruction* ProcessingInstruction;
+ __declspec(property(get=get_ProcessingInstruction)) ::System::Xml::Linq::XProcessingInstruction*  ProcessingInstruction;
 
-  __declspec(property(get = get_Value, put = set_Value)) ::StringW Value;
+ __declspec(property(get=get_Value, put=set_Value)) ::StringW  Value;
 
-  static inline ::Newtonsoft::Json::Converters::XProcessingInstructionWrapper* New_ctor(::System::Xml::Linq::XProcessingInstruction* processingInstruction);
+static inline ::Newtonsoft::Json::Converters::XProcessingInstructionWrapper* New_ctor(::System::Xml::Linq::XProcessingInstruction*  processingInstruction) ;
 
-  /// @brief Method .ctor, addr 0x5c64edc, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::System::Xml::Linq::XProcessingInstruction* processingInstruction);
+/// @brief Method .ctor, addr 0x5c66a54, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(::System::Xml::Linq::XProcessingInstruction*  processingInstruction) ;
 
-  /// @brief Method get_LocalName, addr 0x5c659bc, size 0x1c, virtual true, abstract: false, final false
-  inline ::StringW get_LocalName();
+/// @brief Method get_LocalName, addr 0x5c67534, size 0x1c, virtual true, abstract: false, final false
+inline ::StringW get_LocalName() ;
 
-  /// @brief Method get_ProcessingInstruction, addr 0x5c65940, size 0x7c, virtual false, abstract: false, final false
-  inline ::System::Xml::Linq::XProcessingInstruction* get_ProcessingInstruction();
+/// @brief Method get_ProcessingInstruction, addr 0x5c674b8, size 0x7c, virtual false, abstract: false, final false
+inline ::System::Xml::Linq::XProcessingInstruction* get_ProcessingInstruction() ;
 
-  /// @brief Method get_Value, addr 0x5c659d8, size 0x1c, virtual true, abstract: false, final false
-  inline ::StringW get_Value();
+/// @brief Method get_Value, addr 0x5c67550, size 0x1c, virtual true, abstract: false, final false
+inline ::StringW get_Value() ;
 
-  /// @brief Method set_Value, addr 0x5c659f4, size 0x38, virtual true, abstract: false, final false
-  inline void set_Value(::StringW value);
+/// @brief Method set_Value, addr 0x5c6756c, size 0x38, virtual true, abstract: false, final false
+inline void set_Value(::StringW  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr XProcessingInstructionWrapper();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr XProcessingInstructionWrapper() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XProcessingInstructionWrapper", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  XProcessingInstructionWrapper(XProcessingInstructionWrapper&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XProcessingInstructionWrapper", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  XProcessingInstructionWrapper(XProcessingInstructionWrapper const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "XProcessingInstructionWrapper", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+XProcessingInstructionWrapper(XProcessingInstructionWrapper && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13668 };
+// Ctor Parameters [CppParam { name: "", ty: "XProcessingInstructionWrapper", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+XProcessingInstructionWrapper(XProcessingInstructionWrapper const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{13669};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Converters::XProcessingInstructionWrapper, 0x18>, "Size mismatch!");
 
-} // namespace Newtonsoft::Json::Converters
+} // namespace end def Newtonsoft::Json::Converters
 NEED_NO_BOX(::Newtonsoft::Json::Converters::XProcessingInstructionWrapper);
 DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Converters::XProcessingInstructionWrapper*, "Newtonsoft.Json.Converters", "XProcessingInstructionWrapper");

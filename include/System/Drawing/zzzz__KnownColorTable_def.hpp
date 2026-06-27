@@ -22,64 +22,64 @@ namespace System::Drawing {
 // CS Name: System.Drawing.KnownColorTable
 class CORDL_TYPE KnownColorTable : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field s_colorNameTable, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_s_colorNameTable, put = setStaticF_s_colorNameTable)) ::ArrayW<::StringW, ::Array<::StringW>*> s_colorNameTable;
+// Declarations
+/// @brief Field s_colorNameTable, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_s_colorNameTable, put=setStaticF_s_colorNameTable)) ::ArrayW<::StringW,::Array<::StringW>*>  s_colorNameTable;
 
-  /// @brief Field s_colorTable, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_s_colorTable, put = setStaticF_s_colorTable)) ::ArrayW<int32_t, ::Array<int32_t>*> s_colorTable;
+/// @brief Field s_colorTable, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_s_colorTable, put=setStaticF_s_colorTable)) ::ArrayW<int32_t,::Array<int32_t>*>  s_colorTable;
 
-  /// @brief Method EnsureColorNameTable, addr 0x5f90e94, size 0x5c, virtual false, abstract: false, final false
-  static inline void EnsureColorNameTable();
+/// @brief Method EnsureColorNameTable, addr 0x5f92a0c, size 0x5c, virtual false, abstract: false, final false
+static inline void EnsureColorNameTable() ;
 
-  /// @brief Method EnsureColorTable, addr 0x5f9024c, size 0x5c, virtual false, abstract: false, final false
-  static inline void EnsureColorTable();
+/// @brief Method EnsureColorTable, addr 0x5f91dc4, size 0x5c, virtual false, abstract: false, final false
+static inline void EnsureColorTable() ;
 
-  /// @brief Method InitColorNameTable, addr 0x5f90ef0, size 0x18ec, virtual false, abstract: false, final false
-  static inline void InitColorNameTable();
+/// @brief Method InitColorNameTable, addr 0x5f92a68, size 0x18ec, virtual false, abstract: false, final false
+static inline void InitColorNameTable() ;
 
-  /// @brief Method InitColorTable, addr 0x5f902a8, size 0xab8, virtual false, abstract: false, final false
-  static inline void InitColorTable();
+/// @brief Method InitColorTable, addr 0x5f91e20, size 0xab8, virtual false, abstract: false, final false
+static inline void InitColorTable() ;
 
-  /// @brief Method KnownColorToArgb, addr 0x5f927dc, size 0x74, virtual false, abstract: false, final false
-  static inline int32_t KnownColorToArgb(::System::Drawing::KnownColor color);
+/// @brief Method KnownColorToArgb, addr 0x5f94354, size 0x74, virtual false, abstract: false, final false
+static inline int32_t KnownColorToArgb(::System::Drawing::KnownColor  color) ;
 
-  /// @brief Method KnownColorToName, addr 0x5f92850, size 0x74, virtual false, abstract: false, final false
-  static inline ::StringW KnownColorToName(::System::Drawing::KnownColor color);
+/// @brief Method KnownColorToName, addr 0x5f943c8, size 0x74, virtual false, abstract: false, final false
+static inline ::StringW KnownColorToName(::System::Drawing::KnownColor  color) ;
 
-  /// @brief Method UpdateSystemColors, addr 0x5f90d60, size 0x134, virtual false, abstract: false, final false
-  static inline void UpdateSystemColors(::ArrayW<int32_t, ::Array<int32_t>*> colorTable);
+/// @brief Method UpdateSystemColors, addr 0x5f928d8, size 0x134, virtual false, abstract: false, final false
+static inline void UpdateSystemColors(::ArrayW<int32_t,::Array<int32_t>*>  colorTable) ;
 
-  static inline ::ArrayW<::StringW, ::Array<::StringW>*> getStaticF_s_colorNameTable();
+static inline ::ArrayW<::StringW,::Array<::StringW>*> getStaticF_s_colorNameTable() ;
 
-  static inline ::ArrayW<int32_t, ::Array<int32_t>*> getStaticF_s_colorTable();
+static inline ::ArrayW<int32_t,::Array<int32_t>*> getStaticF_s_colorTable() ;
 
-  static inline void setStaticF_s_colorNameTable(::ArrayW<::StringW, ::Array<::StringW>*> value);
+static inline void setStaticF_s_colorNameTable(::ArrayW<::StringW,::Array<::StringW>*>  value) ;
 
-  static inline void setStaticF_s_colorTable(::ArrayW<int32_t, ::Array<int32_t>*> value);
+static inline void setStaticF_s_colorTable(::ArrayW<int32_t,::Array<int32_t>*>  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr KnownColorTable();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr KnownColorTable() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "KnownColorTable", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  KnownColorTable(KnownColorTable&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "KnownColorTable", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  KnownColorTable(KnownColorTable const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "KnownColorTable", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+KnownColorTable(KnownColorTable && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21342 };
+// Ctor Parameters [CppParam { name: "", ty: "KnownColorTable", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+KnownColorTable(KnownColorTable const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{21345};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Drawing::KnownColorTable, 0x10>, "Size mismatch!");
 
-} // namespace System::Drawing
+} // namespace end def System::Drawing
 NEED_NO_BOX(::System::Drawing::KnownColorTable);
 DEFINE_IL2CPP_ARG_TYPE(::System::Drawing::KnownColorTable*, "System.Drawing", "KnownColorTable");

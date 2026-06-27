@@ -27,50 +27,50 @@ namespace UnityEngine::XR::OpenXR {
 // CS Name: UnityEngine.XR.OpenXR.OpenXRUtility
 class CORDL_TYPE OpenXRUtility : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method ComputePoseToWorldSpace, addr 0x6898714, size 0x218, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Pose ComputePoseToWorldSpace(::UnityEngine::Transform* t, ::UnityEngine::Camera* camera);
+// Declarations
+/// @brief Method ComputePoseToWorldSpace, addr 0x689a28c, size 0x218, virtual false, abstract: false, final false
+static inline ::UnityEngine::Pose ComputePoseToWorldSpace(::UnityEngine::Transform*  t, ::UnityEngine::Camera*  camera) ;
 
-  /// @brief Method Internal_GetUserPresence, addr 0x68989a0, size 0x6c, virtual false, abstract: false, final false
-  static inline bool Internal_GetUserPresence();
+/// @brief Method Internal_GetUserPresence, addr 0x689a518, size 0x6c, virtual false, abstract: false, final false
+static inline bool Internal_GetUserPresence() ;
 
-  /// @brief Method Internal_IsSessionFocused, addr 0x6898930, size 0x6c, virtual false, abstract: false, final false
-  static inline bool Internal_IsSessionFocused();
+/// @brief Method Internal_IsSessionFocused, addr 0x689a4a8, size 0x6c, virtual false, abstract: false, final false
+static inline bool Internal_IsSessionFocused() ;
 
-  /// @brief Method Inverse, addr 0x6898690, size 0x84, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Pose Inverse(::UnityEngine::Pose p);
+/// @brief Method Inverse, addr 0x689a208, size 0x84, virtual false, abstract: false, final false
+static inline ::UnityEngine::Pose Inverse(::UnityEngine::Pose  p) ;
 
-  /// @brief Method get_IsSessionFocused, addr 0x689892c, size 0x4, virtual false, abstract: false, final false
-  static inline bool get_IsSessionFocused();
+/// @brief Method get_IsSessionFocused, addr 0x689a4a4, size 0x4, virtual false, abstract: false, final false
+static inline bool get_IsSessionFocused() ;
 
-  /// @brief Method get_IsUserPresent, addr 0x689899c, size 0x4, virtual false, abstract: false, final false
-  static inline bool get_IsUserPresent();
+/// @brief Method get_IsUserPresent, addr 0x689a514, size 0x4, virtual false, abstract: false, final false
+static inline bool get_IsUserPresent() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OpenXRUtility();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr OpenXRUtility() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OpenXRUtility", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  OpenXRUtility(OpenXRUtility&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OpenXRUtility", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  OpenXRUtility(OpenXRUtility const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "OpenXRUtility", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+OpenXRUtility(OpenXRUtility && ) = delete;
 
-  /// @brief Field LibraryName offset 0xffffffff size 0x8
-  static constexpr ::ConstString LibraryName{ u"UnityOpenXR" };
+// Ctor Parameters [CppParam { name: "", ty: "OpenXRUtility", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+OpenXRUtility(OpenXRUtility const& ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18495 };
+/// @brief Field LibraryName offset 0xffffffff size 0x8
+static constexpr ::ConstString  LibraryName{u"UnityOpenXR"};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{18497};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::XR::OpenXR::OpenXRUtility, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::XR::OpenXR
+} // namespace end def UnityEngine::XR::OpenXR
 NEED_NO_BOX(::UnityEngine::XR::OpenXR::OpenXRUtility);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::XR::OpenXR::OpenXRUtility*, "UnityEngine.XR.OpenXR", "OpenXRUtility");

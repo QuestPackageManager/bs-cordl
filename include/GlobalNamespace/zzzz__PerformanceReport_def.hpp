@@ -26,50 +26,50 @@ namespace GlobalNamespace {
 // CS Name: PerformanceReport
 class CORDL_TYPE PerformanceReport : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method CreateReportDescriptor, addr 0x57d3e50, size 0x108, virtual false, abstract: false, final false
-  static inline ::StringW CreateReportDescriptor(::System::DateTime timestamp, ::GlobalNamespace::GameplayCoreSceneSetupData* sceneSetupData);
+// Declarations
+/// @brief Method CreateReportDescriptor, addr 0x57d56b8, size 0x108, virtual false, abstract: false, final false
+static inline ::StringW CreateReportDescriptor(::System::DateTime  timestamp, ::GlobalNamespace::GameplayCoreSceneSetupData*  sceneSetupData) ;
 
-  /// @brief Method CreateTimestamp, addr 0x57d3dd4, size 0x7c, virtual false, abstract: false, final false
-  static inline ::StringW CreateTimestamp(::System::DateTime timestamp);
+/// @brief Method CreateTimestamp, addr 0x57d563c, size 0x7c, virtual false, abstract: false, final false
+static inline ::StringW CreateTimestamp(::System::DateTime  timestamp) ;
 
-  /// @brief Method ListAggregatedFps, addr 0x57d3abc, size 0x318, virtual false, abstract: false, final false
-  static inline ::StringW ListAggregatedFps(::ArrayW<float_t, ::Array<float_t>*> frameDurations, float_t minWindowSize);
+/// @brief Method ListAggregatedFps, addr 0x57d5324, size 0x318, virtual false, abstract: false, final false
+static inline ::StringW ListAggregatedFps(::ArrayW<float_t,::Array<float_t>*>  frameDurations, float_t  minWindowSize) ;
 
-  /// @brief Method ListFrameTimes, addr 0x57d39a0, size 0x11c, virtual false, abstract: false, final false
-  static inline ::StringW ListFrameTimes(::ArrayW<float_t, ::Array<float_t>*> frameTimes);
+/// @brief Method ListFrameTimes, addr 0x57d5208, size 0x11c, virtual false, abstract: false, final false
+static inline ::StringW ListFrameTimes(::ArrayW<float_t,::Array<float_t>*>  frameTimes) ;
 
-  /// @brief Method ListStat, addr 0x57d45a8, size 0x11c, virtual false, abstract: false, final false
-  static inline ::StringW ListStat(::ArrayW<float_t, ::Array<float_t>*> statList);
+/// @brief Method ListStat, addr 0x57d5e10, size 0x11c, virtual false, abstract: false, final false
+static inline ::StringW ListStat(::ArrayW<float_t,::Array<float_t>*>  statList) ;
 
-  /// @brief Method ListStat, addr 0x57d46c4, size 0x104, virtual false, abstract: false, final false
-  static inline ::StringW ListStat(::ArrayW<int64_t, ::Array<int64_t>*> statList);
+/// @brief Method ListStat, addr 0x57d5f2c, size 0x104, virtual false, abstract: false, final false
+static inline ::StringW ListStat(::ArrayW<int64_t,::Array<int64_t>*>  statList) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PerformanceReport();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr PerformanceReport() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PerformanceReport", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  PerformanceReport(PerformanceReport&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PerformanceReport", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  PerformanceReport(PerformanceReport const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "PerformanceReport", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+PerformanceReport(PerformanceReport && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6710 };
+// Ctor Parameters [CppParam { name: "", ty: "PerformanceReport", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+PerformanceReport(PerformanceReport const& ) = delete;
 
-  /// @brief Field kDefaultFpsWindow offset 0xffffffff size 0x4
-  static constexpr float_t kDefaultFpsWindow{ static_cast<float_t>(1.0f) };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6710};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field kDefaultFpsWindow offset 0xffffffff size 0x4
+static constexpr float_t  kDefaultFpsWindow{static_cast<float_t>(1.0f)};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PerformanceReport, 0x10>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::PerformanceReport);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PerformanceReport*, "", "PerformanceReport");

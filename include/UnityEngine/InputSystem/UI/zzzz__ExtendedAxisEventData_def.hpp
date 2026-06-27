@@ -21,37 +21,37 @@ namespace UnityEngine::InputSystem::UI {
 // CS Name: UnityEngine.InputSystem.UI.ExtendedAxisEventData
 class CORDL_TYPE ExtendedAxisEventData : public ::UnityEngine::EventSystems::AxisEventData {
 public:
-  // Declarations
-  static inline ::UnityEngine::InputSystem::UI::ExtendedAxisEventData* New_ctor(::UnityEngine::EventSystems::EventSystem* eventSystem);
+// Declarations
+static inline ::UnityEngine::InputSystem::UI::ExtendedAxisEventData* New_ctor(::UnityEngine::EventSystems::EventSystem*  eventSystem) ;
 
-  /// @brief Method ToString, addr 0x644e1ac, size 0xe0, virtual true, abstract: false, final false
-  inline ::StringW ToString();
+/// @brief Method ToString, addr 0x644fd24, size 0xe0, virtual true, abstract: false, final false
+inline ::StringW ToString() ;
 
-  /// @brief Method .ctor, addr 0x644e1a4, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::EventSystems::EventSystem* eventSystem);
+/// @brief Method .ctor, addr 0x644fd1c, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(::UnityEngine::EventSystems::EventSystem*  eventSystem) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ExtendedAxisEventData();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ExtendedAxisEventData() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ExtendedAxisEventData", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ExtendedAxisEventData(ExtendedAxisEventData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ExtendedAxisEventData", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ExtendedAxisEventData(ExtendedAxisEventData const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ExtendedAxisEventData", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ExtendedAxisEventData(ExtendedAxisEventData && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8849 };
+// Ctor Parameters [CppParam { name: "", ty: "ExtendedAxisEventData", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ExtendedAxisEventData(ExtendedAxisEventData const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8850};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::UI::ExtendedAxisEventData, 0x30>, "Size mismatch!");
 
-} // namespace UnityEngine::InputSystem::UI
+} // namespace end def UnityEngine::InputSystem::UI
 NEED_NO_BOX(::UnityEngine::InputSystem::UI::ExtendedAxisEventData);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::UI::ExtendedAxisEventData*, "UnityEngine.InputSystem.UI", "ExtendedAxisEventData");

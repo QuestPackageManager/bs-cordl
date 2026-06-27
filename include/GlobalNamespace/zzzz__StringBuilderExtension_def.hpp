@@ -21,41 +21,41 @@ namespace GlobalNamespace {
 // CS Name: StringBuilderExtension
 class CORDL_TYPE StringBuilderExtension : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method AppendNumber, addr 0x3252180, size 0x10, virtual false, abstract: false, final false
-  static inline void AppendNumber(::System::Text::StringBuilder* sb, int32_t number);
+// Declarations
+/// @brief Method AppendNumber, addr 0x3252f1c, size 0x10, virtual false, abstract: false, final false
+static inline void AppendNumber(::System::Text::StringBuilder*  sb, int32_t  number) ;
 
-  /// @brief Method AppendNumber, addr 0x32521a8, size 0x88, virtual false, abstract: false, final false
-  static inline void AppendNumber(::System::Text::StringBuilder* sb, uint32_t uNumber, bool isNegative);
+/// @brief Method AppendNumber, addr 0x3252f44, size 0x88, virtual false, abstract: false, final false
+static inline void AppendNumber(::System::Text::StringBuilder*  sb, uint32_t  uNumber, bool  isNegative) ;
 
-  /// @brief Method Swap, addr 0x3251f88, size 0x1f8, virtual false, abstract: false, final false
-  static inline void Swap(::System::Text::StringBuilder* sb, int32_t startIndex, int32_t endIndex);
+/// @brief Method Swap, addr 0x3252d24, size 0x1f8, virtual false, abstract: false, final false
+static inline void Swap(::System::Text::StringBuilder*  sb, int32_t  startIndex, int32_t  endIndex) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr StringBuilderExtension();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr StringBuilderExtension() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StringBuilderExtension", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  StringBuilderExtension(StringBuilderExtension&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StringBuilderExtension", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  StringBuilderExtension(StringBuilderExtension const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "StringBuilderExtension", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+StringBuilderExtension(StringBuilderExtension && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20526 };
+// Ctor Parameters [CppParam { name: "", ty: "StringBuilderExtension", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+StringBuilderExtension(StringBuilderExtension const& ) = delete;
 
-  /// @brief Field kCharZero offset 0xffffffff size 0x2
-  static constexpr char16_t kCharZero{ u'0' };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20529};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field kCharZero offset 0xffffffff size 0x2
+static constexpr char16_t  kCharZero{u'0'};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::StringBuilderExtension, 0x10>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::StringBuilderExtension);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::StringBuilderExtension*, "", "StringBuilderExtension");

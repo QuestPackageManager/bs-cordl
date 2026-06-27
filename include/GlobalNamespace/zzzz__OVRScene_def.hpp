@@ -10,13 +10,16 @@ namespace GlobalNamespace {
 struct OVRSemanticLabels_Classification;
 }
 namespace GlobalNamespace {
-template <typename TResult> struct OVRTask_1;
+template<typename TResult>
+struct OVRTask_1;
 }
 namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+template<typename T>
+class IEnumerable_1;
 }
 namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
+template<typename T>
+class IReadOnlyList_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -30,41 +33,41 @@ namespace GlobalNamespace {
 // CS Name: OVRScene
 class CORDL_TYPE OVRScene : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method RequestSpaceSetup, addr 0x5cdc1d0, size 0x108, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::OVRTask_1<bool> RequestSpaceSetup();
+// Declarations
+/// @brief Method RequestSpaceSetup, addr 0x5cddd48, size 0x108, virtual false, abstract: false, final false
+static inline ::GlobalNamespace::OVRTask_1<bool> RequestSpaceSetup() ;
 
-  /// @brief Method RequestSpaceSetup, addr 0x5cdc2d8, size 0x5c, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::OVRTask_1<bool> RequestSpaceSetup(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::OVRSemanticLabels_Classification>* classifications);
+/// @brief Method RequestSpaceSetup, addr 0x5cdde50, size 0x5c, virtual false, abstract: false, final false
+static inline ::GlobalNamespace::OVRTask_1<bool> RequestSpaceSetup(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::OVRSemanticLabels_Classification>*  classifications) ;
 
-  /// @brief Method RequestSpaceSetup, addr 0x5cdc0cc, size 0x104, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::OVRTask_1<bool> RequestSpaceSetup(::StringW labels);
+/// @brief Method RequestSpaceSetup, addr 0x5cddc44, size 0x104, virtual false, abstract: false, final false
+static inline ::GlobalNamespace::OVRTask_1<bool> RequestSpaceSetup(::StringW  labels) ;
 
-  /// @brief Method ValidateRequestString, addr 0x5cdc334, size 0x2d8, virtual false, abstract: false, final false
-  static inline void ValidateRequestString(::System::Collections::Generic::IEnumerable_1<::StringW>* labels, ::StringW paramName);
+/// @brief Method ValidateRequestString, addr 0x5cddeac, size 0x2d8, virtual false, abstract: false, final false
+static inline void ValidateRequestString(::System::Collections::Generic::IEnumerable_1<::StringW>*  labels, ::StringW  paramName) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OVRScene();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr OVRScene() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRScene", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  OVRScene(OVRScene&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRScene", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  OVRScene(OVRScene const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "OVRScene", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+OVRScene(OVRScene && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7112 };
+// Ctor Parameters [CppParam { name: "", ty: "OVRScene", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+OVRScene(OVRScene const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{7113};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRScene, 0x10>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::OVRScene);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRScene*, "", "OVRScene");

@@ -13,41 +13,41 @@ class IDebugDisplaySettingsQuery;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Rendering::IDebugDisplaySettingsQuery);
-// Dependencies
+// Dependencies 
 namespace UnityEngine::Rendering {
 // Is value type: false
 // CS Name: UnityEngine.Rendering.IDebugDisplaySettingsQuery
 class CORDL_TYPE IDebugDisplaySettingsQuery {
 public:
-  // Declarations
-  __declspec(property(get = get_AreAnySettingsActive)) bool AreAnySettingsActive;
+// Declarations
+ __declspec(property(get=get_AreAnySettingsActive)) bool  AreAnySettingsActive;
 
-  __declspec(property(get = get_IsLightingActive)) bool IsLightingActive;
+ __declspec(property(get=get_IsLightingActive)) bool  IsLightingActive;
 
-  __declspec(property(get = get_IsPostProcessingAllowed)) bool IsPostProcessingAllowed;
+ __declspec(property(get=get_IsPostProcessingAllowed)) bool  IsPostProcessingAllowed;
 
-  /// @brief Method TryGetScreenClearColor, addr 0x6628da0, size 0x8, virtual true, abstract: false, final false
-  inline bool TryGetScreenClearColor(::ByRef<::UnityEngine::Color> color);
+/// @brief Method TryGetScreenClearColor, addr 0x662a918, size 0x8, virtual true, abstract: false, final false
+inline bool TryGetScreenClearColor(::ByRef<::UnityEngine::Color>  color) ;
 
-  /// @brief Method get_AreAnySettingsActive, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline bool get_AreAnySettingsActive();
+/// @brief Method get_AreAnySettingsActive, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline bool get_AreAnySettingsActive() ;
 
-  /// @brief Method get_IsLightingActive, addr 0x6628d98, size 0x8, virtual true, abstract: false, final false
-  inline bool get_IsLightingActive();
+/// @brief Method get_IsLightingActive, addr 0x662a910, size 0x8, virtual true, abstract: false, final false
+inline bool get_IsLightingActive() ;
 
-  /// @brief Method get_IsPostProcessingAllowed, addr 0x6628d90, size 0x8, virtual true, abstract: false, final false
-  inline bool get_IsPostProcessingAllowed();
+/// @brief Method get_IsPostProcessingAllowed, addr 0x662a908, size 0x8, virtual true, abstract: false, final false
+inline bool get_IsPostProcessingAllowed() ;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IDebugDisplaySettingsQuery", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  IDebugDisplaySettingsQuery(IDebugDisplaySettingsQuery const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "IDebugDisplaySettingsQuery", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+IDebugDisplaySettingsQuery(IDebugDisplaySettingsQuery const& ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12032 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12033};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-} // namespace UnityEngine::Rendering
+} // namespace end def UnityEngine::Rendering
 NEED_NO_BOX(::UnityEngine::Rendering::IDebugDisplaySettingsQuery);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::IDebugDisplaySettingsQuery*, "UnityEngine.Rendering", "IDebugDisplaySettingsQuery");

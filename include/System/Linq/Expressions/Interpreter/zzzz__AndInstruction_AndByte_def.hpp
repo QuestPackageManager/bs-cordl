@@ -21,37 +21,37 @@ namespace GlobalNamespace {
 // CS Name: System.Linq.Expressions.Interpreter.AndInstruction/AndByte
 class CORDL_TYPE AndInstruction_AndByte : public ::System::Linq::Expressions::Interpreter::AndInstruction {
 public:
-  // Declarations
-  static inline ::GlobalNamespace::AndInstruction_AndByte* New_ctor();
+// Declarations
+static inline ::GlobalNamespace::AndInstruction_AndByte* New_ctor() ;
 
-  /// @brief Method Run, addr 0x5e4a990, size 0xa8, virtual true, abstract: false, final false
-  inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
+/// @brief Method Run, addr 0x5e4c508, size 0xa8, virtual true, abstract: false, final false
+inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame*  frame) ;
 
-  /// @brief Method .ctor, addr 0x5e4a6cc, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5e4c244, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AndInstruction_AndByte();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr AndInstruction_AndByte() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AndInstruction_AndByte", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  AndInstruction_AndByte(AndInstruction_AndByte&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AndInstruction_AndByte", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  AndInstruction_AndByte(AndInstruction_AndByte const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "AndInstruction_AndByte", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+AndInstruction_AndByte(AndInstruction_AndByte && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16236 };
+// Ctor Parameters [CppParam { name: "", ty: "AndInstruction_AndByte", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+AndInstruction_AndByte(AndInstruction_AndByte const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{16238};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::AndInstruction_AndByte, 0x10>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::AndInstruction_AndByte);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::AndInstruction_AndByte*, "System.Linq.Expressions.Interpreter", "AndInstruction/AndByte");

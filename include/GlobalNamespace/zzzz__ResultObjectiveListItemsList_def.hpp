@@ -20,34 +20,34 @@ namespace GlobalNamespace {
 // CS Name: ResultObjectiveListItemsList
 class CORDL_TYPE ResultObjectiveListItemsList : public ::HMUI::UIItemsList_1<::UnityW<::GlobalNamespace::ResultObjectiveListItem>> {
 public:
-  // Declarations
-  static inline ::GlobalNamespace::ResultObjectiveListItemsList* New_ctor();
+// Declarations
+static inline ::GlobalNamespace::ResultObjectiveListItemsList* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x57b4e78, size 0x4c, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x57b66e0, size 0x4c, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ResultObjectiveListItemsList();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ResultObjectiveListItemsList() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ResultObjectiveListItemsList", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ResultObjectiveListItemsList(ResultObjectiveListItemsList&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ResultObjectiveListItemsList", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ResultObjectiveListItemsList(ResultObjectiveListItemsList const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ResultObjectiveListItemsList", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ResultObjectiveListItemsList(ResultObjectiveListItemsList && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6584 };
+// Ctor Parameters [CppParam { name: "", ty: "ResultObjectiveListItemsList", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ResultObjectiveListItemsList(ResultObjectiveListItemsList const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6584};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ResultObjectiveListItemsList, 0x48>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ResultObjectiveListItemsList);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ResultObjectiveListItemsList*, "", "ResultObjectiveListItemsList");

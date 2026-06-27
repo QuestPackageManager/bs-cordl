@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "BGLib/DotnetExtension/CommandLine/ArgumentOption.hpp"
 #include "BGLib/DotnetExtension/CommandLine/ArgumentType.hpp"
@@ -9,5 +9,6 @@ module;
 #include "BGLib/DotnetExtension/CommandLine/CommandLineParser.hpp"
 #include "BGLib/DotnetExtension/CommandLine/CommandLineParserResult.hpp"
 #ifdef __cpp_modules
-export module CommandLine;
-#endif
+                    export module CommandLine;
+                    #endif
+                

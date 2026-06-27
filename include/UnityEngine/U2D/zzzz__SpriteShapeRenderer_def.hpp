@@ -17,29 +17,29 @@ namespace UnityEngine::U2D {
 // CS Name: UnityEngine.U2D.SpriteShapeRenderer
 class CORDL_TYPE SpriteShapeRenderer : public ::UnityEngine::Renderer {
 public:
-  // Declarations
+// Declarations
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SpriteShapeRenderer();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr SpriteShapeRenderer() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SpriteShapeRenderer", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  SpriteShapeRenderer(SpriteShapeRenderer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SpriteShapeRenderer", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  SpriteShapeRenderer(SpriteShapeRenderer const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "SpriteShapeRenderer", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+SpriteShapeRenderer(SpriteShapeRenderer && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23169 };
+// Ctor Parameters [CppParam { name: "", ty: "SpriteShapeRenderer", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+SpriteShapeRenderer(SpriteShapeRenderer const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{23173};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::U2D::SpriteShapeRenderer, 0x18>, "Size mismatch!");
 
-} // namespace UnityEngine::U2D
+} // namespace end def UnityEngine::U2D
 NEED_NO_BOX(::UnityEngine::U2D::SpriteShapeRenderer);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::U2D::SpriteShapeRenderer*, "UnityEngine.U2D", "SpriteShapeRenderer");

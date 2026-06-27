@@ -24,60 +24,59 @@ namespace GlobalNamespace {
 // CS Name: SyncTimeProvider
 class CORDL_TYPE SyncTimeProvider : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field _multiplayerSessionManager, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__multiplayerSessionManager,
-                      put = __cordl_internal_set__multiplayerSessionManager)) ::GlobalNamespace::IBeatSaberMultiplayerSessionManager* _multiplayerSessionManager;
+// Declarations
+/// @brief Field _multiplayerSessionManager, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get__multiplayerSessionManager, put=__cordl_internal_set__multiplayerSessionManager)) ::GlobalNamespace::IBeatSaberMultiplayerSessionManager*  _multiplayerSessionManager;
 
-  __declspec(property(get = get_time)) int64_t time;
+ __declspec(property(get=get_time)) int64_t  time;
 
-  /// @brief Convert operator to "::GlobalNamespace::ITimeProvider"
-  constexpr operator ::GlobalNamespace::ITimeProvider*() noexcept;
+/// @brief Convert operator to "::GlobalNamespace::ITimeProvider"
+constexpr operator  ::GlobalNamespace::ITimeProvider*() noexcept;
 
-  static inline ::GlobalNamespace::SyncTimeProvider* New_ctor();
+static inline ::GlobalNamespace::SyncTimeProvider* New_ctor() ;
 
-  constexpr ::GlobalNamespace::IBeatSaberMultiplayerSessionManager* const& __cordl_internal_get__multiplayerSessionManager() const;
+constexpr ::GlobalNamespace::IBeatSaberMultiplayerSessionManager* const& __cordl_internal_get__multiplayerSessionManager() const;
 
-  constexpr ::GlobalNamespace::IBeatSaberMultiplayerSessionManager*& __cordl_internal_get__multiplayerSessionManager();
+constexpr ::GlobalNamespace::IBeatSaberMultiplayerSessionManager*& __cordl_internal_get__multiplayerSessionManager() ;
 
-  constexpr void __cordl_internal_set__multiplayerSessionManager(::GlobalNamespace::IBeatSaberMultiplayerSessionManager* value);
+constexpr void __cordl_internal_set__multiplayerSessionManager(::GlobalNamespace::IBeatSaberMultiplayerSessionManager*  value) ;
 
-  /// @brief Method .ctor, addr 0x570a964, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x570c1cc, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_time, addr 0x570a8bc, size 0xa8, virtual true, abstract: false, final true
-  inline int64_t get_time();
+/// @brief Method get_time, addr 0x570c124, size 0xa8, virtual true, abstract: false, final true
+inline int64_t get_time() ;
 
-  /// @brief Convert to "::GlobalNamespace::ITimeProvider"
-  constexpr ::GlobalNamespace::ITimeProvider* i___GlobalNamespace__ITimeProvider() noexcept;
+/// @brief Convert to "::GlobalNamespace::ITimeProvider"
+constexpr ::GlobalNamespace::ITimeProvider* i___GlobalNamespace__ITimeProvider() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SyncTimeProvider();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr SyncTimeProvider() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SyncTimeProvider", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  SyncTimeProvider(SyncTimeProvider&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SyncTimeProvider", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  SyncTimeProvider(SyncTimeProvider const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "SyncTimeProvider", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+SyncTimeProvider(SyncTimeProvider && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22915 };
+// Ctor Parameters [CppParam { name: "", ty: "SyncTimeProvider", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+SyncTimeProvider(SyncTimeProvider const& ) = delete;
 
-  /// @brief Field _multiplayerSessionManager, offset: 0x10, size: 0x8, def value: None
-  ::GlobalNamespace::IBeatSaberMultiplayerSessionManager* ____multiplayerSessionManager;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22919};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _multiplayerSessionManager, offset: 0x10, size: 0x8, def value: None
+ ::GlobalNamespace::IBeatSaberMultiplayerSessionManager*  ____multiplayerSessionManager;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::SyncTimeProvider, ____multiplayerSessionManager) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SyncTimeProvider, 0x18>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SyncTimeProvider);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SyncTimeProvider*, "", "SyncTimeProvider");

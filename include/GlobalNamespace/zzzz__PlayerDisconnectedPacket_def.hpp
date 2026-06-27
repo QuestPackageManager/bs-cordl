@@ -13,7 +13,8 @@ namespace GlobalNamespace {
 class IPoolablePacket;
 }
 namespace GlobalNamespace {
-template <typename T> class PacketPool_1;
+template<typename T>
+class PacketPool_1;
 }
 namespace LiteNetLib::Utils {
 class INetSerializable;
@@ -36,75 +37,75 @@ namespace GlobalNamespace {
 // CS Name: PlayerDisconnectedPacket
 class CORDL_TYPE PlayerDisconnectedPacket : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field disconnectedReason, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_disconnectedReason, put = __cordl_internal_set_disconnectedReason)) ::GlobalNamespace::DisconnectedReason disconnectedReason;
+// Declarations
+/// @brief Field disconnectedReason, offset 0x10, size 0x4 
+ __declspec(property(get=__cordl_internal_get_disconnectedReason, put=__cordl_internal_set_disconnectedReason)) ::GlobalNamespace::DisconnectedReason  disconnectedReason;
 
-  /// @brief Convert operator to "::GlobalNamespace::IPoolablePacket"
-  constexpr operator ::GlobalNamespace::IPoolablePacket*() noexcept;
+/// @brief Convert operator to "::GlobalNamespace::IPoolablePacket"
+constexpr operator  ::GlobalNamespace::IPoolablePacket*() noexcept;
 
-  /// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
-  constexpr operator ::LiteNetLib::Utils::INetSerializable*() noexcept;
+/// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
+constexpr operator  ::LiteNetLib::Utils::INetSerializable*() noexcept;
 
-  /// @brief Method Deserialize, addr 0x326e7c8, size 0x2c, virtual true, abstract: false, final true
-  inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
+/// @brief Method Deserialize, addr 0x326f564, size 0x2c, virtual true, abstract: false, final true
+inline void Deserialize(::LiteNetLib::Utils::NetDataReader*  reader) ;
 
-  /// @brief Method Init, addr 0x326e798, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::PlayerDisconnectedPacket* Init(::GlobalNamespace::DisconnectedReason disconnectedReason);
+/// @brief Method Init, addr 0x326f534, size 0x8, virtual false, abstract: false, final false
+inline ::GlobalNamespace::PlayerDisconnectedPacket* Init(::GlobalNamespace::DisconnectedReason  disconnectedReason) ;
 
-  static inline ::GlobalNamespace::PlayerDisconnectedPacket* New_ctor();
+static inline ::GlobalNamespace::PlayerDisconnectedPacket* New_ctor() ;
 
-  /// @brief Method Release, addr 0x326e7f4, size 0x58, virtual true, abstract: false, final true
-  inline void Release();
+/// @brief Method Release, addr 0x326f590, size 0x58, virtual true, abstract: false, final true
+inline void Release() ;
 
-  /// @brief Method Serialize, addr 0x326e7a0, size 0x28, virtual true, abstract: false, final true
-  inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
+/// @brief Method Serialize, addr 0x326f53c, size 0x28, virtual true, abstract: false, final true
+inline void Serialize(::LiteNetLib::Utils::NetDataWriter*  writer) ;
 
-  constexpr ::GlobalNamespace::DisconnectedReason const& __cordl_internal_get_disconnectedReason() const;
+constexpr ::GlobalNamespace::DisconnectedReason const& __cordl_internal_get_disconnectedReason() const;
 
-  constexpr ::GlobalNamespace::DisconnectedReason& __cordl_internal_get_disconnectedReason();
+constexpr ::GlobalNamespace::DisconnectedReason& __cordl_internal_get_disconnectedReason() ;
 
-  constexpr void __cordl_internal_set_disconnectedReason(::GlobalNamespace::DisconnectedReason value);
+constexpr void __cordl_internal_set_disconnectedReason(::GlobalNamespace::DisconnectedReason  value) ;
 
-  /// @brief Method .ctor, addr 0x326e84c, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x326f5e8, size 0xc, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_pool, addr 0x326e754, size 0x44, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::PacketPool_1<::GlobalNamespace::PlayerDisconnectedPacket*>* get_pool();
+/// @brief Method get_pool, addr 0x326f4f0, size 0x44, virtual false, abstract: false, final false
+static inline ::GlobalNamespace::PacketPool_1<::GlobalNamespace::PlayerDisconnectedPacket*>* get_pool() ;
 
-  /// @brief Convert to "::GlobalNamespace::IPoolablePacket"
-  constexpr ::GlobalNamespace::IPoolablePacket* i___GlobalNamespace__IPoolablePacket() noexcept;
+/// @brief Convert to "::GlobalNamespace::IPoolablePacket"
+constexpr ::GlobalNamespace::IPoolablePacket* i___GlobalNamespace__IPoolablePacket() noexcept;
 
-  /// @brief Convert to "::LiteNetLib::Utils::INetSerializable"
-  constexpr ::LiteNetLib::Utils::INetSerializable* i___LiteNetLib__Utils__INetSerializable() noexcept;
+/// @brief Convert to "::LiteNetLib::Utils::INetSerializable"
+constexpr ::LiteNetLib::Utils::INetSerializable* i___LiteNetLib__Utils__INetSerializable() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PlayerDisconnectedPacket();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr PlayerDisconnectedPacket() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerDisconnectedPacket", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  PlayerDisconnectedPacket(PlayerDisconnectedPacket&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerDisconnectedPacket", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  PlayerDisconnectedPacket(PlayerDisconnectedPacket const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "PlayerDisconnectedPacket", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+PlayerDisconnectedPacket(PlayerDisconnectedPacket && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18110 };
+// Ctor Parameters [CppParam { name: "", ty: "PlayerDisconnectedPacket", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+PlayerDisconnectedPacket(PlayerDisconnectedPacket const& ) = delete;
 
-  /// @brief Field disconnectedReason, offset: 0x10, size: 0x4, def value: None
-  ::GlobalNamespace::DisconnectedReason ___disconnectedReason;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{18112};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field disconnectedReason, offset: 0x10, size: 0x4, def value: None
+ ::GlobalNamespace::DisconnectedReason  ___disconnectedReason;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::PlayerDisconnectedPacket, ___disconnectedReason) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PlayerDisconnectedPacket, 0x18>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::PlayerDisconnectedPacket);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PlayerDisconnectedPacket*, "", "PlayerDisconnectedPacket");

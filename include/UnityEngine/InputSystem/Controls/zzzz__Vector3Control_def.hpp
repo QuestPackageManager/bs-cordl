@@ -28,105 +28,105 @@ namespace UnityEngine::InputSystem::Controls {
 // CS Name: UnityEngine.InputSystem.Controls.Vector3Control
 class CORDL_TYPE Vector3Control : public ::UnityEngine::InputSystem::InputControl_1<::UnityEngine::Vector3> {
 public:
-  // Declarations
-  /// @brief Field <x>k__BackingField, offset 0x118, size 0x8
-  __declspec(property(get = __cordl_internal_get__x_k__BackingField, put = __cordl_internal_set__x_k__BackingField)) ::UnityEngine::InputSystem::Controls::AxisControl* _x_k__BackingField;
+// Declarations
+/// @brief Field <x>k__BackingField, offset 0x118, size 0x8 
+ __declspec(property(get=__cordl_internal_get__x_k__BackingField, put=__cordl_internal_set__x_k__BackingField)) ::UnityEngine::InputSystem::Controls::AxisControl*  _x_k__BackingField;
 
-  /// @brief Field <y>k__BackingField, offset 0x120, size 0x8
-  __declspec(property(get = __cordl_internal_get__y_k__BackingField, put = __cordl_internal_set__y_k__BackingField)) ::UnityEngine::InputSystem::Controls::AxisControl* _y_k__BackingField;
+/// @brief Field <y>k__BackingField, offset 0x120, size 0x8 
+ __declspec(property(get=__cordl_internal_get__y_k__BackingField, put=__cordl_internal_set__y_k__BackingField)) ::UnityEngine::InputSystem::Controls::AxisControl*  _y_k__BackingField;
 
-  /// @brief Field <z>k__BackingField, offset 0x128, size 0x8
-  __declspec(property(get = __cordl_internal_get__z_k__BackingField, put = __cordl_internal_set__z_k__BackingField)) ::UnityEngine::InputSystem::Controls::AxisControl* _z_k__BackingField;
+/// @brief Field <z>k__BackingField, offset 0x128, size 0x8 
+ __declspec(property(get=__cordl_internal_get__z_k__BackingField, put=__cordl_internal_set__z_k__BackingField)) ::UnityEngine::InputSystem::Controls::AxisControl*  _z_k__BackingField;
 
-  __declspec(property(get = get_x, put = set_x)) ::UnityEngine::InputSystem::Controls::AxisControl* x;
+ __declspec(property(get=get_x, put=set_x)) ::UnityEngine::InputSystem::Controls::AxisControl*  x;
 
-  __declspec(property(get = get_y, put = set_y)) ::UnityEngine::InputSystem::Controls::AxisControl* y;
+ __declspec(property(get=get_y, put=set_y)) ::UnityEngine::InputSystem::Controls::AxisControl*  y;
 
-  __declspec(property(get = get_z, put = set_z)) ::UnityEngine::InputSystem::Controls::AxisControl* z;
+ __declspec(property(get=get_z, put=set_z)) ::UnityEngine::InputSystem::Controls::AxisControl*  z;
 
-  /// @brief Method CalculateOptimizedControlDataType, addr 0x63b9dec, size 0x1ac, virtual true, abstract: false, final false
-  inline ::UnityEngine::InputSystem::Utilities::FourCC CalculateOptimizedControlDataType();
+/// @brief Method CalculateOptimizedControlDataType, addr 0x63bb964, size 0x1ac, virtual true, abstract: false, final false
+inline ::UnityEngine::InputSystem::Utilities::FourCC CalculateOptimizedControlDataType() ;
 
-  /// @brief Method EvaluateMagnitude, addr 0x63b9d1c, size 0xd0, virtual true, abstract: false, final false
-  inline float_t EvaluateMagnitude(void* statePtr);
+/// @brief Method EvaluateMagnitude, addr 0x63bb894, size 0xd0, virtual true, abstract: false, final false
+inline float_t EvaluateMagnitude(void*  statePtr) ;
 
-  /// @brief Method FinishSetup, addr 0x63b9a1c, size 0xec, virtual true, abstract: false, final false
-  inline void FinishSetup();
+/// @brief Method FinishSetup, addr 0x63bb594, size 0xec, virtual true, abstract: false, final false
+inline void FinishSetup() ;
 
-  static inline ::UnityEngine::InputSystem::Controls::Vector3Control* New_ctor();
+static inline ::UnityEngine::InputSystem::Controls::Vector3Control* New_ctor() ;
 
-  /// @brief Method ReadUnprocessedValueFromState, addr 0x63b9b08, size 0xfc, virtual true, abstract: false, final false
-  inline ::UnityEngine::Vector3 ReadUnprocessedValueFromState(void* statePtr);
+/// @brief Method ReadUnprocessedValueFromState, addr 0x63bb680, size 0xfc, virtual true, abstract: false, final false
+inline ::UnityEngine::Vector3 ReadUnprocessedValueFromState(void*  statePtr) ;
 
-  /// @brief Method WriteValueIntoState, addr 0x63b9c04, size 0x118, virtual true, abstract: false, final false
-  inline void WriteValueIntoState(::UnityEngine::Vector3 value, void* statePtr);
+/// @brief Method WriteValueIntoState, addr 0x63bb77c, size 0x118, virtual true, abstract: false, final false
+inline void WriteValueIntoState(::UnityEngine::Vector3  value, void*  statePtr) ;
 
-  constexpr ::UnityEngine::InputSystem::Controls::AxisControl* const& __cordl_internal_get__x_k__BackingField() const;
+constexpr ::UnityEngine::InputSystem::Controls::AxisControl* const& __cordl_internal_get__x_k__BackingField() const;
 
-  constexpr ::UnityEngine::InputSystem::Controls::AxisControl*& __cordl_internal_get__x_k__BackingField();
+constexpr ::UnityEngine::InputSystem::Controls::AxisControl*& __cordl_internal_get__x_k__BackingField() ;
 
-  constexpr ::UnityEngine::InputSystem::Controls::AxisControl* const& __cordl_internal_get__y_k__BackingField() const;
+constexpr ::UnityEngine::InputSystem::Controls::AxisControl* const& __cordl_internal_get__y_k__BackingField() const;
 
-  constexpr ::UnityEngine::InputSystem::Controls::AxisControl*& __cordl_internal_get__y_k__BackingField();
+constexpr ::UnityEngine::InputSystem::Controls::AxisControl*& __cordl_internal_get__y_k__BackingField() ;
 
-  constexpr ::UnityEngine::InputSystem::Controls::AxisControl* const& __cordl_internal_get__z_k__BackingField() const;
+constexpr ::UnityEngine::InputSystem::Controls::AxisControl* const& __cordl_internal_get__z_k__BackingField() const;
 
-  constexpr ::UnityEngine::InputSystem::Controls::AxisControl*& __cordl_internal_get__z_k__BackingField();
+constexpr ::UnityEngine::InputSystem::Controls::AxisControl*& __cordl_internal_get__z_k__BackingField() ;
 
-  constexpr void __cordl_internal_set__x_k__BackingField(::UnityEngine::InputSystem::Controls::AxisControl* value);
+constexpr void __cordl_internal_set__x_k__BackingField(::UnityEngine::InputSystem::Controls::AxisControl*  value) ;
 
-  constexpr void __cordl_internal_set__y_k__BackingField(::UnityEngine::InputSystem::Controls::AxisControl* value);
+constexpr void __cordl_internal_set__y_k__BackingField(::UnityEngine::InputSystem::Controls::AxisControl*  value) ;
 
-  constexpr void __cordl_internal_set__z_k__BackingField(::UnityEngine::InputSystem::Controls::AxisControl* value);
+constexpr void __cordl_internal_set__z_k__BackingField(::UnityEngine::InputSystem::Controls::AxisControl*  value) ;
 
-  /// @brief Method .ctor, addr 0x63b9998, size 0x84, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x63bb510, size 0x84, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_x, addr 0x63b9968, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::Controls::AxisControl* get_x();
+/// @brief Method get_x, addr 0x63bb4e0, size 0x8, virtual false, abstract: false, final false
+inline ::UnityEngine::InputSystem::Controls::AxisControl* get_x() ;
 
-  /// @brief Method get_y, addr 0x63b9978, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::Controls::AxisControl* get_y();
+/// @brief Method get_y, addr 0x63bb4f0, size 0x8, virtual false, abstract: false, final false
+inline ::UnityEngine::InputSystem::Controls::AxisControl* get_y() ;
 
-  /// @brief Method get_z, addr 0x63b9988, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::Controls::AxisControl* get_z();
+/// @brief Method get_z, addr 0x63bb500, size 0x8, virtual false, abstract: false, final false
+inline ::UnityEngine::InputSystem::Controls::AxisControl* get_z() ;
 
-  /// @brief Method set_x, addr 0x63b9970, size 0x8, virtual false, abstract: false, final false
-  inline void set_x(::UnityEngine::InputSystem::Controls::AxisControl* value);
+/// @brief Method set_x, addr 0x63bb4e8, size 0x8, virtual false, abstract: false, final false
+inline void set_x(::UnityEngine::InputSystem::Controls::AxisControl*  value) ;
 
-  /// @brief Method set_y, addr 0x63b9980, size 0x8, virtual false, abstract: false, final false
-  inline void set_y(::UnityEngine::InputSystem::Controls::AxisControl* value);
+/// @brief Method set_y, addr 0x63bb4f8, size 0x8, virtual false, abstract: false, final false
+inline void set_y(::UnityEngine::InputSystem::Controls::AxisControl*  value) ;
 
-  /// @brief Method set_z, addr 0x63b9990, size 0x8, virtual false, abstract: false, final false
-  inline void set_z(::UnityEngine::InputSystem::Controls::AxisControl* value);
+/// @brief Method set_z, addr 0x63bb508, size 0x8, virtual false, abstract: false, final false
+inline void set_z(::UnityEngine::InputSystem::Controls::AxisControl*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Vector3Control();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr Vector3Control() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Vector3Control", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  Vector3Control(Vector3Control&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Vector3Control", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  Vector3Control(Vector3Control const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "Vector3Control", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Vector3Control(Vector3Control && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9127 };
+// Ctor Parameters [CppParam { name: "", ty: "Vector3Control", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Vector3Control(Vector3Control const& ) = delete;
 
-  /// @brief Field <x>k__BackingField, offset: 0x118, size: 0x8, def value: None
-  ::UnityEngine::InputSystem::Controls::AxisControl* ____x_k__BackingField;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9128};
 
-  /// @brief Field <y>k__BackingField, offset: 0x120, size: 0x8, def value: None
-  ::UnityEngine::InputSystem::Controls::AxisControl* ____y_k__BackingField;
+/// @brief Field <x>k__BackingField, offset: 0x118, size: 0x8, def value: None
+ ::UnityEngine::InputSystem::Controls::AxisControl*  ____x_k__BackingField;
 
-  /// @brief Field <z>k__BackingField, offset: 0x128, size: 0x8, def value: None
-  ::UnityEngine::InputSystem::Controls::AxisControl* ____z_k__BackingField;
+/// @brief Field <y>k__BackingField, offset: 0x120, size: 0x8, def value: None
+ ::UnityEngine::InputSystem::Controls::AxisControl*  ____y_k__BackingField;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field <z>k__BackingField, offset: 0x128, size: 0x8, def value: None
+ ::UnityEngine::InputSystem::Controls::AxisControl*  ____z_k__BackingField;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::InputSystem::Controls::Vector3Control, ____x_k__BackingField) == 0x118, "Offset mismatch!");
@@ -137,6 +137,6 @@ static_assert(offsetof(::UnityEngine::InputSystem::Controls::Vector3Control, ___
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Controls::Vector3Control, 0x130>, "Size mismatch!");
 
-} // namespace UnityEngine::InputSystem::Controls
+} // namespace end def UnityEngine::InputSystem::Controls
 NEED_NO_BOX(::UnityEngine::InputSystem::Controls::Vector3Control);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Controls::Vector3Control*, "UnityEngine.InputSystem.Controls", "Vector3Control");

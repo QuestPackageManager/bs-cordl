@@ -15,67 +15,66 @@ struct DualMotorRumble;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::InputSystem::Haptics::DualMotorRumble);
-// Dependencies
+// Dependencies 
 namespace UnityEngine::InputSystem::Haptics {
 // Is value type: true
 // CS Name: UnityEngine.InputSystem.Haptics.DualMotorRumble
 struct CORDL_TYPE DualMotorRumble {
 public:
-  // Declarations
-  __declspec(property(get = get_highFrequencyMotorSpeed, put = set_highFrequencyMotorSpeed)) float_t highFrequencyMotorSpeed;
+// Declarations
+ __declspec(property(get=get_highFrequencyMotorSpeed, put=set_highFrequencyMotorSpeed)) float_t  highFrequencyMotorSpeed;
 
-  __declspec(property(get = get_isRumbling)) bool isRumbling;
+ __declspec(property(get=get_isRumbling)) bool  isRumbling;
 
-  __declspec(property(get = get_lowFrequencyMotorSpeed, put = set_lowFrequencyMotorSpeed)) float_t lowFrequencyMotorSpeed;
+ __declspec(property(get=get_lowFrequencyMotorSpeed, put=set_lowFrequencyMotorSpeed)) float_t  lowFrequencyMotorSpeed;
 
-  /// @brief Method PauseHaptics, addr 0x6469240, size 0xfc, virtual false, abstract: false, final false
-  inline void PauseHaptics(::UnityEngine::InputSystem::InputDevice* device);
+/// @brief Method PauseHaptics, addr 0x646adb8, size 0xfc, virtual false, abstract: false, final false
+inline void PauseHaptics(::UnityEngine::InputSystem::InputDevice*  device) ;
 
-  /// @brief Method ResetHaptics, addr 0x6469504, size 0x8c, virtual false, abstract: false, final false
-  inline void ResetHaptics(::UnityEngine::InputSystem::InputDevice* device);
+/// @brief Method ResetHaptics, addr 0x646b07c, size 0x8c, virtual false, abstract: false, final false
+inline void ResetHaptics(::UnityEngine::InputSystem::InputDevice*  device) ;
 
-  /// @brief Method ResumeHaptics, addr 0x6469358, size 0x88, virtual false, abstract: false, final false
-  inline void ResumeHaptics(::UnityEngine::InputSystem::InputDevice* device);
+/// @brief Method ResumeHaptics, addr 0x646aed0, size 0x88, virtual false, abstract: false, final false
+inline void ResumeHaptics(::UnityEngine::InputSystem::InputDevice*  device) ;
 
-  /// @brief Method SetMotorSpeeds, addr 0x64693e0, size 0x124, virtual false, abstract: false, final false
-  inline void SetMotorSpeeds(::UnityEngine::InputSystem::InputDevice* device, float_t lowFrequency, float_t highFrequency);
+/// @brief Method SetMotorSpeeds, addr 0x646af58, size 0x124, virtual false, abstract: false, final false
+inline void SetMotorSpeeds(::UnityEngine::InputSystem::InputDevice*  device, float_t  lowFrequency, float_t  highFrequency) ;
 
-  /// @brief Method get_highFrequencyMotorSpeed, addr 0x6469174, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_highFrequencyMotorSpeed();
+/// @brief Method get_highFrequencyMotorSpeed, addr 0x646acec, size 0x8, virtual false, abstract: false, final false
+inline float_t get_highFrequencyMotorSpeed() ;
 
-  /// @brief Method get_isRumbling, addr 0x6469184, size 0xbc, virtual false, abstract: false, final false
-  inline bool get_isRumbling();
+/// @brief Method get_isRumbling, addr 0x646acfc, size 0xbc, virtual false, abstract: false, final false
+inline bool get_isRumbling() ;
 
-  /// @brief Method get_lowFrequencyMotorSpeed, addr 0x6469164, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_lowFrequencyMotorSpeed();
+/// @brief Method get_lowFrequencyMotorSpeed, addr 0x646acdc, size 0x8, virtual false, abstract: false, final false
+inline float_t get_lowFrequencyMotorSpeed() ;
 
-  /// @brief Method set_highFrequencyMotorSpeed, addr 0x646917c, size 0x8, virtual false, abstract: false, final false
-  inline void set_highFrequencyMotorSpeed(float_t value);
+/// @brief Method set_highFrequencyMotorSpeed, addr 0x646acf4, size 0x8, virtual false, abstract: false, final false
+inline void set_highFrequencyMotorSpeed(float_t  value) ;
 
-  /// @brief Method set_lowFrequencyMotorSpeed, addr 0x646916c, size 0x8, virtual false, abstract: false, final false
-  inline void set_lowFrequencyMotorSpeed(float_t value);
+/// @brief Method set_lowFrequencyMotorSpeed, addr 0x646ace4, size 0x8, virtual false, abstract: false, final false
+inline void set_lowFrequencyMotorSpeed(float_t  value) ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DualMotorRumble();
+// Ctor Parameters []
+// @brief default ctor
+constexpr DualMotorRumble() ;
 
-  // Ctor Parameters [CppParam { name: "_lowFrequencyMotorSpeed_k__BackingField", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "_highFrequencyMotorSpeed_k__BackingField", ty:
-  // "float_t", modifiers: "", def_value: None }]
-  constexpr DualMotorRumble(float_t _lowFrequencyMotorSpeed_k__BackingField, float_t _highFrequencyMotorSpeed_k__BackingField) noexcept;
+// Ctor Parameters [CppParam { name: "_lowFrequencyMotorSpeed_k__BackingField", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "_highFrequencyMotorSpeed_k__BackingField", ty: "float_t", modifiers: "", def_value: None }]
+constexpr DualMotorRumble(float_t  _lowFrequencyMotorSpeed_k__BackingField, float_t  _highFrequencyMotorSpeed_k__BackingField) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8943 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8944};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x8};
 
-  /// @brief Field <lowFrequencyMotorSpeed>k__BackingField, offset: 0x0, size: 0x4, def value: None
-  float_t _lowFrequencyMotorSpeed_k__BackingField;
+/// @brief Field <lowFrequencyMotorSpeed>k__BackingField, offset: 0x0, size: 0x4, def value: None
+ float_t  _lowFrequencyMotorSpeed_k__BackingField;
 
-  /// @brief Field <highFrequencyMotorSpeed>k__BackingField, offset: 0x4, size: 0x4, def value: None
-  float_t _highFrequencyMotorSpeed_k__BackingField;
+/// @brief Field <highFrequencyMotorSpeed>k__BackingField, offset: 0x4, size: 0x4, def value: None
+ float_t  _highFrequencyMotorSpeed_k__BackingField;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::InputSystem::Haptics::DualMotorRumble, _lowFrequencyMotorSpeed_k__BackingField) == 0x0, "Offset mismatch!");
@@ -84,5 +83,5 @@ static_assert(offsetof(::UnityEngine::InputSystem::Haptics::DualMotorRumble, _hi
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Haptics::DualMotorRumble, 0x8>, "Size mismatch!");
 
-} // namespace UnityEngine::InputSystem::Haptics
+} // namespace end def UnityEngine::InputSystem::Haptics
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Haptics::DualMotorRumble, "UnityEngine.InputSystem.Haptics", "DualMotorRumble");

@@ -21,78 +21,78 @@ namespace Oculus::Platform::Models {
 // CS Name: Oculus.Platform.Models.GroupPresenceJoinIntent
 class CORDL_TYPE GroupPresenceJoinIntent : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field DeeplinkMessage, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_DeeplinkMessage, put = __cordl_internal_set_DeeplinkMessage)) ::StringW DeeplinkMessage;
+// Declarations
+/// @brief Field DeeplinkMessage, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_DeeplinkMessage, put=__cordl_internal_set_DeeplinkMessage)) ::StringW  DeeplinkMessage;
 
-  /// @brief Field DestinationApiName, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_DestinationApiName, put = __cordl_internal_set_DestinationApiName)) ::StringW DestinationApiName;
+/// @brief Field DestinationApiName, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_DestinationApiName, put=__cordl_internal_set_DestinationApiName)) ::StringW  DestinationApiName;
 
-  /// @brief Field LobbySessionId, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_LobbySessionId, put = __cordl_internal_set_LobbySessionId)) ::StringW LobbySessionId;
+/// @brief Field LobbySessionId, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_LobbySessionId, put=__cordl_internal_set_LobbySessionId)) ::StringW  LobbySessionId;
 
-  /// @brief Field MatchSessionId, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_MatchSessionId, put = __cordl_internal_set_MatchSessionId)) ::StringW MatchSessionId;
+/// @brief Field MatchSessionId, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get_MatchSessionId, put=__cordl_internal_set_MatchSessionId)) ::StringW  MatchSessionId;
 
-  static inline ::Oculus::Platform::Models::GroupPresenceJoinIntent* New_ctor(::System::IntPtr o);
+static inline ::Oculus::Platform::Models::GroupPresenceJoinIntent* New_ctor(::System::IntPtr  o) ;
 
-  constexpr ::StringW const& __cordl_internal_get_DeeplinkMessage() const;
+constexpr ::StringW const& __cordl_internal_get_DeeplinkMessage() const;
 
-  constexpr ::StringW& __cordl_internal_get_DeeplinkMessage();
+constexpr ::StringW& __cordl_internal_get_DeeplinkMessage() ;
 
-  constexpr ::StringW const& __cordl_internal_get_DestinationApiName() const;
+constexpr ::StringW const& __cordl_internal_get_DestinationApiName() const;
 
-  constexpr ::StringW& __cordl_internal_get_DestinationApiName();
+constexpr ::StringW& __cordl_internal_get_DestinationApiName() ;
 
-  constexpr ::StringW const& __cordl_internal_get_LobbySessionId() const;
+constexpr ::StringW const& __cordl_internal_get_LobbySessionId() const;
 
-  constexpr ::StringW& __cordl_internal_get_LobbySessionId();
+constexpr ::StringW& __cordl_internal_get_LobbySessionId() ;
 
-  constexpr ::StringW const& __cordl_internal_get_MatchSessionId() const;
+constexpr ::StringW const& __cordl_internal_get_MatchSessionId() const;
 
-  constexpr ::StringW& __cordl_internal_get_MatchSessionId();
+constexpr ::StringW& __cordl_internal_get_MatchSessionId() ;
 
-  constexpr void __cordl_internal_set_DeeplinkMessage(::StringW value);
+constexpr void __cordl_internal_set_DeeplinkMessage(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_DestinationApiName(::StringW value);
+constexpr void __cordl_internal_set_DestinationApiName(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_LobbySessionId(::StringW value);
+constexpr void __cordl_internal_set_LobbySessionId(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_MatchSessionId(::StringW value);
+constexpr void __cordl_internal_set_MatchSessionId(::StringW  value) ;
 
-  /// @brief Method .ctor, addr 0x5cb38bc, size 0xa0, virtual false, abstract: false, final false
-  inline void _ctor(::System::IntPtr o);
+/// @brief Method .ctor, addr 0x5cb5434, size 0xa0, virtual false, abstract: false, final false
+inline void _ctor(::System::IntPtr  o) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr GroupPresenceJoinIntent();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr GroupPresenceJoinIntent() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GroupPresenceJoinIntent", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  GroupPresenceJoinIntent(GroupPresenceJoinIntent&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GroupPresenceJoinIntent", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  GroupPresenceJoinIntent(GroupPresenceJoinIntent const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "GroupPresenceJoinIntent", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+GroupPresenceJoinIntent(GroupPresenceJoinIntent && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18023 };
+// Ctor Parameters [CppParam { name: "", ty: "GroupPresenceJoinIntent", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+GroupPresenceJoinIntent(GroupPresenceJoinIntent const& ) = delete;
 
-  /// @brief Field DeeplinkMessage, offset: 0x10, size: 0x8, def value: None
-  ::StringW ___DeeplinkMessage;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{18025};
 
-  /// @brief Field DestinationApiName, offset: 0x18, size: 0x8, def value: None
-  ::StringW ___DestinationApiName;
+/// @brief Field DeeplinkMessage, offset: 0x10, size: 0x8, def value: None
+ ::StringW  ___DeeplinkMessage;
 
-  /// @brief Field LobbySessionId, offset: 0x20, size: 0x8, def value: None
-  ::StringW ___LobbySessionId;
+/// @brief Field DestinationApiName, offset: 0x18, size: 0x8, def value: None
+ ::StringW  ___DestinationApiName;
 
-  /// @brief Field MatchSessionId, offset: 0x28, size: 0x8, def value: None
-  ::StringW ___MatchSessionId;
+/// @brief Field LobbySessionId, offset: 0x20, size: 0x8, def value: None
+ ::StringW  ___LobbySessionId;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field MatchSessionId, offset: 0x28, size: 0x8, def value: None
+ ::StringW  ___MatchSessionId;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Oculus::Platform::Models::GroupPresenceJoinIntent, ___DeeplinkMessage) == 0x10, "Offset mismatch!");
@@ -105,6 +105,6 @@ static_assert(offsetof(::Oculus::Platform::Models::GroupPresenceJoinIntent, ___M
 
 static_assert(::cordl_internals::size_check_v<::Oculus::Platform::Models::GroupPresenceJoinIntent, 0x30>, "Size mismatch!");
 
-} // namespace Oculus::Platform::Models
+} // namespace end def Oculus::Platform::Models
 NEED_NO_BOX(::Oculus::Platform::Models::GroupPresenceJoinIntent);
 DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::GroupPresenceJoinIntent*, "Oculus.Platform.Models", "GroupPresenceJoinIntent");

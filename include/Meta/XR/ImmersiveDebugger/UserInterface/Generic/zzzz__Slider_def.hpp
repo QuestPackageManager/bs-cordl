@@ -44,160 +44,156 @@ namespace Meta::XR::ImmersiveDebugger::UserInterface::Generic {
 // CS Name: Meta.XR.ImmersiveDebugger.UserInterface.Generic.Slider
 class CORDL_TYPE Slider : public ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Button {
 public:
-  // Declarations
-  __declspec(property(put = set_EmptyBackgroundStyle)) ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ImageStyle> EmptyBackgroundStyle;
+// Declarations
+ __declspec(property(put=set_EmptyBackgroundStyle)) ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ImageStyle>  EmptyBackgroundStyle;
 
-  __declspec(property(put = set_FillBackgroundStyle)) ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ImageStyle> FillBackgroundStyle;
+ __declspec(property(put=set_FillBackgroundStyle)) ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ImageStyle>  FillBackgroundStyle;
 
-  __declspec(property(get = get_Tweak, put = set_Tweak)) ::Meta::XR::ImmersiveDebugger::Manager::Tweak* Tweak;
+ __declspec(property(get=get_Tweak, put=set_Tweak)) ::Meta::XR::ImmersiveDebugger::Manager::Tweak*  Tweak;
 
-  /// @brief Field <Tweak>k__BackingField, offset 0xa0, size 0x8
-  __declspec(property(get = __cordl_internal_get__Tweak_k__BackingField, put = __cordl_internal_set__Tweak_k__BackingField)) ::Meta::XR::ImmersiveDebugger::Manager::Tweak* _Tweak_k__BackingField;
+/// @brief Field <Tweak>k__BackingField, offset 0xa0, size 0x8 
+ __declspec(property(get=__cordl_internal_get__Tweak_k__BackingField, put=__cordl_internal_set__Tweak_k__BackingField)) ::Meta::XR::ImmersiveDebugger::Manager::Tweak*  _Tweak_k__BackingField;
 
-  /// @brief Field _emptyBackground, offset 0x88, size 0x8
-  __declspec(property(get = __cordl_internal_get__emptyBackground, put = __cordl_internal_set__emptyBackground)) ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Background>
-      _emptyBackground;
+/// @brief Field _emptyBackground, offset 0x88, size 0x8 
+ __declspec(property(get=__cordl_internal_get__emptyBackground, put=__cordl_internal_set__emptyBackground)) ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Background>  _emptyBackground;
 
-  /// @brief Field _emptyBackgroundStyle, offset 0xa8, size 0x8
-  __declspec(property(get = __cordl_internal_get__emptyBackgroundStyle, put = __cordl_internal_set__emptyBackgroundStyle)) ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ImageStyle>
-      _emptyBackgroundStyle;
+/// @brief Field _emptyBackgroundStyle, offset 0xa8, size 0x8 
+ __declspec(property(get=__cordl_internal_get__emptyBackgroundStyle, put=__cordl_internal_set__emptyBackgroundStyle)) ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ImageStyle>  _emptyBackgroundStyle;
 
-  /// @brief Field _fillBackground, offset 0x90, size 0x8
-  __declspec(property(get = __cordl_internal_get__fillBackground, put = __cordl_internal_set__fillBackground)) ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Background>
-      _fillBackground;
+/// @brief Field _fillBackground, offset 0x90, size 0x8 
+ __declspec(property(get=__cordl_internal_get__fillBackground, put=__cordl_internal_set__fillBackground)) ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Background>  _fillBackground;
 
-  /// @brief Field _fillBackgroundStyle, offset 0xb0, size 0x8
-  __declspec(property(get = __cordl_internal_get__fillBackgroundStyle, put = __cordl_internal_set__fillBackgroundStyle)) ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ImageStyle>
-      _fillBackgroundStyle;
+/// @brief Field _fillBackgroundStyle, offset 0xb0, size 0x8 
+ __declspec(property(get=__cordl_internal_get__fillBackgroundStyle, put=__cordl_internal_set__fillBackgroundStyle)) ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ImageStyle>  _fillBackgroundStyle;
 
-  /// @brief Field _pill, offset 0x98, size 0x8
-  __declspec(property(get = __cordl_internal_get__pill, put = __cordl_internal_set__pill)) ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Icon> _pill;
+/// @brief Field _pill, offset 0x98, size 0x8 
+ __declspec(property(get=__cordl_internal_get__pill, put=__cordl_internal_set__pill)) ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Icon>  _pill;
 
-  /// @brief Convert operator to "::UnityEngine::EventSystems::IDragHandler"
-  constexpr operator ::UnityEngine::EventSystems::IDragHandler*() noexcept;
+/// @brief Convert operator to "::UnityEngine::EventSystems::IDragHandler"
+constexpr operator  ::UnityEngine::EventSystems::IDragHandler*() noexcept;
 
-  /// @brief Convert operator to "::UnityEngine::EventSystems::IEventSystemHandler"
-  constexpr operator ::UnityEngine::EventSystems::IEventSystemHandler*() noexcept;
+/// @brief Convert operator to "::UnityEngine::EventSystems::IEventSystemHandler"
+constexpr operator  ::UnityEngine::EventSystems::IEventSystemHandler*() noexcept;
 
-  /// @brief Convert operator to "::UnityEngine::EventSystems::IInitializePotentialDragHandler"
-  constexpr operator ::UnityEngine::EventSystems::IInitializePotentialDragHandler*() noexcept;
+/// @brief Convert operator to "::UnityEngine::EventSystems::IInitializePotentialDragHandler"
+constexpr operator  ::UnityEngine::EventSystems::IInitializePotentialDragHandler*() noexcept;
 
-  /// @brief Method MayDrag, addr 0x5920c74, size 0x2c, virtual false, abstract: false, final false
-  inline bool MayDrag(::UnityEngine::EventSystems::PointerEventData* eventData);
+/// @brief Method MayDrag, addr 0x5922644, size 0x2c, virtual false, abstract: false, final false
+inline bool MayDrag(::UnityEngine::EventSystems::PointerEventData*  eventData) ;
 
-  static inline ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Slider* New_ctor();
+static inline ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Slider* New_ctor() ;
 
-  /// @brief Method OnDrag, addr 0x5920b40, size 0x134, virtual true, abstract: false, final true
-  inline void OnDrag(::UnityEngine::EventSystems::PointerEventData* eventData);
+/// @brief Method OnDrag, addr 0x5922510, size 0x134, virtual true, abstract: false, final true
+inline void OnDrag(::UnityEngine::EventSystems::PointerEventData*  eventData) ;
 
-  /// @brief Method OnInitializePotentialDrag, addr 0x5920ca0, size 0x14, virtual true, abstract: false, final true
-  inline void OnInitializePotentialDrag(::UnityEngine::EventSystems::PointerEventData* eventData);
+/// @brief Method OnInitializePotentialDrag, addr 0x5922670, size 0x14, virtual true, abstract: false, final true
+inline void OnInitializePotentialDrag(::UnityEngine::EventSystems::PointerEventData*  eventData) ;
 
-  /// @brief Method Setup, addr 0x592075c, size 0x338, virtual true, abstract: false, final false
-  inline void Setup(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller* owner);
+/// @brief Method Setup, addr 0x592212c, size 0x338, virtual true, abstract: false, final false
+inline void Setup(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller*  owner) ;
 
-  /// @brief Method Update, addr 0x5920b3c, size 0x4, virtual false, abstract: false, final false
-  inline void Update();
+/// @brief Method Update, addr 0x592250c, size 0x4, virtual false, abstract: false, final false
+inline void Update() ;
 
-  /// @brief Method UpdatePillPosition, addr 0x5920a94, size 0xa8, virtual false, abstract: false, final false
-  inline void UpdatePillPosition();
+/// @brief Method UpdatePillPosition, addr 0x5922464, size 0xa8, virtual false, abstract: false, final false
+inline void UpdatePillPosition() ;
 
-  constexpr ::Meta::XR::ImmersiveDebugger::Manager::Tweak* const& __cordl_internal_get__Tweak_k__BackingField() const;
+constexpr ::Meta::XR::ImmersiveDebugger::Manager::Tweak* const& __cordl_internal_get__Tweak_k__BackingField() const;
 
-  constexpr ::Meta::XR::ImmersiveDebugger::Manager::Tweak*& __cordl_internal_get__Tweak_k__BackingField();
+constexpr ::Meta::XR::ImmersiveDebugger::Manager::Tweak*& __cordl_internal_get__Tweak_k__BackingField() ;
 
-  constexpr ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Background> const& __cordl_internal_get__emptyBackground() const;
+constexpr ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Background> const& __cordl_internal_get__emptyBackground() const;
 
-  constexpr ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Background>& __cordl_internal_get__emptyBackground();
+constexpr ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Background>& __cordl_internal_get__emptyBackground() ;
 
-  constexpr ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ImageStyle> const& __cordl_internal_get__emptyBackgroundStyle() const;
+constexpr ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ImageStyle> const& __cordl_internal_get__emptyBackgroundStyle() const;
 
-  constexpr ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ImageStyle>& __cordl_internal_get__emptyBackgroundStyle();
+constexpr ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ImageStyle>& __cordl_internal_get__emptyBackgroundStyle() ;
 
-  constexpr ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Background> const& __cordl_internal_get__fillBackground() const;
+constexpr ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Background> const& __cordl_internal_get__fillBackground() const;
 
-  constexpr ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Background>& __cordl_internal_get__fillBackground();
+constexpr ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Background>& __cordl_internal_get__fillBackground() ;
 
-  constexpr ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ImageStyle> const& __cordl_internal_get__fillBackgroundStyle() const;
+constexpr ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ImageStyle> const& __cordl_internal_get__fillBackgroundStyle() const;
 
-  constexpr ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ImageStyle>& __cordl_internal_get__fillBackgroundStyle();
+constexpr ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ImageStyle>& __cordl_internal_get__fillBackgroundStyle() ;
 
-  constexpr ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Icon> const& __cordl_internal_get__pill() const;
+constexpr ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Icon> const& __cordl_internal_get__pill() const;
 
-  constexpr ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Icon>& __cordl_internal_get__pill();
+constexpr ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Icon>& __cordl_internal_get__pill() ;
 
-  constexpr void __cordl_internal_set__Tweak_k__BackingField(::Meta::XR::ImmersiveDebugger::Manager::Tweak* value);
+constexpr void __cordl_internal_set__Tweak_k__BackingField(::Meta::XR::ImmersiveDebugger::Manager::Tweak*  value) ;
 
-  constexpr void __cordl_internal_set__emptyBackground(::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Background> value);
+constexpr void __cordl_internal_set__emptyBackground(::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Background>  value) ;
 
-  constexpr void __cordl_internal_set__emptyBackgroundStyle(::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ImageStyle> value);
+constexpr void __cordl_internal_set__emptyBackgroundStyle(::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ImageStyle>  value) ;
 
-  constexpr void __cordl_internal_set__fillBackground(::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Background> value);
+constexpr void __cordl_internal_set__fillBackground(::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Background>  value) ;
 
-  constexpr void __cordl_internal_set__fillBackgroundStyle(::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ImageStyle> value);
+constexpr void __cordl_internal_set__fillBackgroundStyle(::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ImageStyle>  value) ;
 
-  constexpr void __cordl_internal_set__pill(::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Icon> value);
+constexpr void __cordl_internal_set__pill(::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Icon>  value) ;
 
-  /// @brief Method .ctor, addr 0x5920cb4, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5922684, size 0xc, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_Tweak, addr 0x592060c, size 0x8, virtual false, abstract: false, final false
-  inline ::Meta::XR::ImmersiveDebugger::Manager::Tweak* get_Tweak();
+/// @brief Method get_Tweak, addr 0x5921fdc, size 0x8, virtual false, abstract: false, final false
+inline ::Meta::XR::ImmersiveDebugger::Manager::Tweak* get_Tweak() ;
 
-  /// @brief Convert to "::UnityEngine::EventSystems::IDragHandler"
-  constexpr ::UnityEngine::EventSystems::IDragHandler* i___UnityEngine__EventSystems__IDragHandler() noexcept;
+/// @brief Convert to "::UnityEngine::EventSystems::IDragHandler"
+constexpr ::UnityEngine::EventSystems::IDragHandler* i___UnityEngine__EventSystems__IDragHandler() noexcept;
 
-  /// @brief Convert to "::UnityEngine::EventSystems::IEventSystemHandler"
-  constexpr ::UnityEngine::EventSystems::IEventSystemHandler* i___UnityEngine__EventSystems__IEventSystemHandler() noexcept;
+/// @brief Convert to "::UnityEngine::EventSystems::IEventSystemHandler"
+constexpr ::UnityEngine::EventSystems::IEventSystemHandler* i___UnityEngine__EventSystems__IEventSystemHandler() noexcept;
 
-  /// @brief Convert to "::UnityEngine::EventSystems::IInitializePotentialDragHandler"
-  constexpr ::UnityEngine::EventSystems::IInitializePotentialDragHandler* i___UnityEngine__EventSystems__IInitializePotentialDragHandler() noexcept;
+/// @brief Convert to "::UnityEngine::EventSystems::IInitializePotentialDragHandler"
+constexpr ::UnityEngine::EventSystems::IInitializePotentialDragHandler* i___UnityEngine__EventSystems__IInitializePotentialDragHandler() noexcept;
 
-  /// @brief Method set_EmptyBackgroundStyle, addr 0x592061c, size 0xa0, virtual false, abstract: false, final false
-  inline void set_EmptyBackgroundStyle(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ImageStyle* value);
+/// @brief Method set_EmptyBackgroundStyle, addr 0x5921fec, size 0xa0, virtual false, abstract: false, final false
+inline void set_EmptyBackgroundStyle(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ImageStyle*  value) ;
 
-  /// @brief Method set_FillBackgroundStyle, addr 0x59206bc, size 0xa0, virtual false, abstract: false, final false
-  inline void set_FillBackgroundStyle(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ImageStyle* value);
+/// @brief Method set_FillBackgroundStyle, addr 0x592208c, size 0xa0, virtual false, abstract: false, final false
+inline void set_FillBackgroundStyle(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ImageStyle*  value) ;
 
-  /// @brief Method set_Tweak, addr 0x5920614, size 0x8, virtual false, abstract: false, final false
-  inline void set_Tweak(::Meta::XR::ImmersiveDebugger::Manager::Tweak* value);
+/// @brief Method set_Tweak, addr 0x5921fe4, size 0x8, virtual false, abstract: false, final false
+inline void set_Tweak(::Meta::XR::ImmersiveDebugger::Manager::Tweak*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Slider();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr Slider() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Slider", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  Slider(Slider&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Slider", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  Slider(Slider const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "Slider", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Slider(Slider && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18386 };
+// Ctor Parameters [CppParam { name: "", ty: "Slider", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Slider(Slider const& ) = delete;
 
-  /// @brief Field _emptyBackground, offset: 0x88, size: 0x8, def value: None
-  ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Background> ____emptyBackground;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{18388};
 
-  /// @brief Field _fillBackground, offset: 0x90, size: 0x8, def value: None
-  ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Background> ____fillBackground;
+/// @brief Field _emptyBackground, offset: 0x88, size: 0x8, def value: None
+ ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Background>  ____emptyBackground;
 
-  /// @brief Field _pill, offset: 0x98, size: 0x8, def value: None
-  ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Icon> ____pill;
+/// @brief Field _fillBackground, offset: 0x90, size: 0x8, def value: None
+ ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Background>  ____fillBackground;
 
-  /// @brief Field <Tweak>k__BackingField, offset: 0xa0, size: 0x8, def value: None
-  ::Meta::XR::ImmersiveDebugger::Manager::Tweak* ____Tweak_k__BackingField;
+/// @brief Field _pill, offset: 0x98, size: 0x8, def value: None
+ ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Icon>  ____pill;
 
-  /// @brief Field _emptyBackgroundStyle, offset: 0xa8, size: 0x8, def value: None
-  ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ImageStyle> ____emptyBackgroundStyle;
+/// @brief Field <Tweak>k__BackingField, offset: 0xa0, size: 0x8, def value: None
+ ::Meta::XR::ImmersiveDebugger::Manager::Tweak*  ____Tweak_k__BackingField;
 
-  /// @brief Field _fillBackgroundStyle, offset: 0xb0, size: 0x8, def value: None
-  ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ImageStyle> ____fillBackgroundStyle;
+/// @brief Field _emptyBackgroundStyle, offset: 0xa8, size: 0x8, def value: None
+ ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ImageStyle>  ____emptyBackgroundStyle;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _fillBackgroundStyle, offset: 0xb0, size: 0x8, def value: None
+ ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ImageStyle>  ____fillBackgroundStyle;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Slider, ____emptyBackground) == 0x88, "Offset mismatch!");
@@ -214,6 +210,6 @@ static_assert(offsetof(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Sl
 
 static_assert(::cordl_internals::size_check_v<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Slider, 0xb8>, "Size mismatch!");
 
-} // namespace Meta::XR::ImmersiveDebugger::UserInterface::Generic
+} // namespace end def Meta::XR::ImmersiveDebugger::UserInterface::Generic
 NEED_NO_BOX(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Slider);
 DEFINE_IL2CPP_ARG_TYPE(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Slider*, "Meta.XR.ImmersiveDebugger.UserInterface.Generic", "Slider");

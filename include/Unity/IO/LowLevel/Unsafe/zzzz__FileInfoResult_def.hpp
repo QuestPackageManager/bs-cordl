@@ -19,28 +19,27 @@ namespace Unity::IO::LowLevel::Unsafe {
 // CS Name: Unity.IO.LowLevel.Unsafe.FileInfoResult
 struct CORDL_TYPE FileInfoResult {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr FileInfoResult();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr FileInfoResult() ;
 
-  // Ctor Parameters [CppParam { name: "FileSize", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "FileState", ty: "::Unity::IO::LowLevel::Unsafe::FileState", modifiers: "",
-  // def_value: None }]
-  constexpr FileInfoResult(int64_t FileSize, ::Unity::IO::LowLevel::Unsafe::FileState FileState) noexcept;
+// Ctor Parameters [CppParam { name: "FileSize", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "FileState", ty: "::Unity::IO::LowLevel::Unsafe::FileState", modifiers: "", def_value: None }]
+constexpr FileInfoResult(int64_t  FileSize, ::Unity::IO::LowLevel::Unsafe::FileState  FileState) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9955 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9956};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x10};
 
-  /// @brief Field FileSize, offset: 0x0, size: 0x8, def value: None
-  int64_t FileSize;
+/// @brief Field FileSize, offset: 0x0, size: 0x8, def value: None
+ int64_t  FileSize;
 
-  /// @brief Field FileState, offset: 0x8, size: 0x4, def value: None
-  ::Unity::IO::LowLevel::Unsafe::FileState FileState;
+/// @brief Field FileState, offset: 0x8, size: 0x4, def value: None
+ ::Unity::IO::LowLevel::Unsafe::FileState  FileState;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::Unity::IO::LowLevel::Unsafe::FileInfoResult, FileSize) == 0x0, "Offset mismatch!");
@@ -49,5 +48,5 @@ static_assert(offsetof(::Unity::IO::LowLevel::Unsafe::FileInfoResult, FileState)
 
 static_assert(::cordl_internals::size_check_v<::Unity::IO::LowLevel::Unsafe::FileInfoResult, 0x10>, "Size mismatch!");
 
-} // namespace Unity::IO::LowLevel::Unsafe
+} // namespace end def Unity::IO::LowLevel::Unsafe
 DEFINE_IL2CPP_ARG_TYPE(::Unity::IO::LowLevel::Unsafe::FileInfoResult, "Unity.IO.LowLevel.Unsafe", "FileInfoResult");

@@ -29,43 +29,43 @@ namespace ENet {
 // CS Name: ENet.FreeCallback
 class CORDL_TYPE FreeCallback : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x574a6a4, size 0x54, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::System::IntPtr memory, ::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x574bf0c, size 0x54, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(::System::IntPtr  memory, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x574a6f8, size 0xc, virtual true, abstract: false, final false
-  inline void EndInvoke(::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x574bf60, size 0xc, virtual true, abstract: false, final false
+inline void EndInvoke(::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x574a690, size 0x14, virtual true, abstract: false, final false
-  inline void Invoke(::System::IntPtr memory);
+/// @brief Method Invoke, addr 0x574bef8, size 0x14, virtual true, abstract: false, final false
+inline void Invoke(::System::IntPtr  memory) ;
 
-  static inline ::ENet::FreeCallback* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::ENet::FreeCallback* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x574a624, size 0x6c, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x574be8c, size 0x6c, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr FreeCallback();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr FreeCallback() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FreeCallback", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  FreeCallback(FreeCallback&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FreeCallback", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  FreeCallback(FreeCallback const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "FreeCallback", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+FreeCallback(FreeCallback && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21544 };
+// Ctor Parameters [CppParam { name: "", ty: "FreeCallback", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+FreeCallback(FreeCallback const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{21547};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::ENet::FreeCallback, 0x80>, "Size mismatch!");
 
-} // namespace ENet
+} // namespace end def ENet
 NEED_NO_BOX(::ENet::FreeCallback);
 DEFINE_IL2CPP_ARG_TYPE(::ENet::FreeCallback*, "ENet", "FreeCallback");

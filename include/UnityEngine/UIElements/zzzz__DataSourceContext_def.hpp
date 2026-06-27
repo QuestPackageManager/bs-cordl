@@ -24,41 +24,40 @@ namespace UnityEngine::UIElements {
 // CS Name: UnityEngine.UIElements.DataSourceContext
 struct CORDL_TYPE DataSourceContext {
 public:
-  // Declarations
-  __declspec(property(get = get_dataSource)) ::System::Object* dataSource;
+// Declarations
+ __declspec(property(get=get_dataSource)) ::System::Object*  dataSource;
 
-  __declspec(property(get = get_dataSourcePath)) ::Unity::Properties::PropertyPath dataSourcePath;
+ __declspec(property(get=get_dataSourcePath)) ::Unity::Properties::PropertyPath  dataSourcePath;
 
-  /// @brief Method .ctor, addr 0x6aec40c, size 0x10, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* dataSource, ::ByRef<::Unity::Properties::PropertyPath> dataSourcePath);
+/// @brief Method .ctor, addr 0x6aedf84, size 0x10, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  dataSource, ::ByRef<::Unity::Properties::PropertyPath>  dataSourcePath) ;
 
-  /// @brief Method get_dataSource, addr 0x6aec3f4, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Object* get_dataSource();
+/// @brief Method get_dataSource, addr 0x6aedf6c, size 0x8, virtual false, abstract: false, final false
+inline ::System::Object* get_dataSource() ;
 
-  /// @brief Method get_dataSourcePath, addr 0x6aec3fc, size 0x10, virtual false, abstract: false, final false
-  inline ::Unity::Properties::PropertyPath get_dataSourcePath();
+/// @brief Method get_dataSourcePath, addr 0x6aedf74, size 0x10, virtual false, abstract: false, final false
+inline ::Unity::Properties::PropertyPath get_dataSourcePath() ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DataSourceContext();
+// Ctor Parameters []
+// @brief default ctor
+constexpr DataSourceContext() ;
 
-  // Ctor Parameters [CppParam { name: "_dataSource_k__BackingField", ty: "::System::Object*", modifiers: "", def_value: None }, CppParam { name: "_dataSourcePath_k__BackingField", ty:
-  // "::Unity::Properties::PropertyPath", modifiers: "", def_value: None }]
-  constexpr DataSourceContext(::System::Object* _dataSource_k__BackingField, ::Unity::Properties::PropertyPath _dataSourcePath_k__BackingField) noexcept;
+// Ctor Parameters [CppParam { name: "_dataSource_k__BackingField", ty: "::System::Object*", modifiers: "", def_value: None }, CppParam { name: "_dataSourcePath_k__BackingField", ty: "::Unity::Properties::PropertyPath", modifiers: "", def_value: None }]
+constexpr DataSourceContext(::System::Object*  _dataSource_k__BackingField, ::Unity::Properties::PropertyPath  _dataSourcePath_k__BackingField) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4055 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4055};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x98 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x98};
 
-  /// @brief Field <dataSource>k__BackingField, offset: 0x0, size: 0x8, def value: None
-  ::System::Object* _dataSource_k__BackingField;
+/// @brief Field <dataSource>k__BackingField, offset: 0x0, size: 0x8, def value: None
+ ::System::Object*  _dataSource_k__BackingField;
 
-  /// @brief Field <dataSourcePath>k__BackingField, offset: 0x8, size: 0x90, def value: None
-  ::Unity::Properties::PropertyPath _dataSourcePath_k__BackingField;
+/// @brief Field <dataSourcePath>k__BackingField, offset: 0x8, size: 0x90, def value: None
+ ::Unity::Properties::PropertyPath  _dataSourcePath_k__BackingField;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::UIElements::DataSourceContext, _dataSource_k__BackingField) == 0x0, "Offset mismatch!");
@@ -67,5 +66,5 @@ static_assert(offsetof(::UnityEngine::UIElements::DataSourceContext, _dataSource
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::DataSourceContext, 0x98>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements
+} // namespace end def UnityEngine::UIElements
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::DataSourceContext, "UnityEngine.UIElements", "DataSourceContext");

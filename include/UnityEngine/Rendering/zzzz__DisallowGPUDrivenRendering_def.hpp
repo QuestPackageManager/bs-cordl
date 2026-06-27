@@ -20,77 +20,77 @@ namespace UnityEngine::Rendering {
 // CS Name: UnityEngine.Rendering.DisallowGPUDrivenRendering
 class CORDL_TYPE DisallowGPUDrivenRendering : public ::UnityEngine::MonoBehaviour {
 public:
-  // Declarations
-  __declspec(property(get = get_applyToChildrenRecursively, put = set_applyToChildrenRecursively)) bool applyToChildrenRecursively;
+// Declarations
+ __declspec(property(get=get_applyToChildrenRecursively, put=set_applyToChildrenRecursively)) bool  applyToChildrenRecursively;
 
-  /// @brief Field m_AppliedRecursively, offset 0x20, size 0x1
-  __declspec(property(get = __cordl_internal_get_m_AppliedRecursively, put = __cordl_internal_set_m_AppliedRecursively)) bool m_AppliedRecursively;
+/// @brief Field m_AppliedRecursively, offset 0x20, size 0x1 
+ __declspec(property(get=__cordl_internal_get_m_AppliedRecursively, put=__cordl_internal_set_m_AppliedRecursively)) bool  m_AppliedRecursively;
 
-  /// @brief Field m_applyToChildrenRecursively, offset 0x21, size 0x1
-  __declspec(property(get = __cordl_internal_get_m_applyToChildrenRecursively, put = __cordl_internal_set_m_applyToChildrenRecursively)) bool m_applyToChildrenRecursively;
+/// @brief Field m_applyToChildrenRecursively, offset 0x21, size 0x1 
+ __declspec(property(get=__cordl_internal_get_m_applyToChildrenRecursively, put=__cordl_internal_set_m_applyToChildrenRecursively)) bool  m_applyToChildrenRecursively;
 
-  /// @brief Method AllowGPUDrivenRendering, addr 0x66c5c30, size 0xc4, virtual false, abstract: false, final false
-  static inline void AllowGPUDrivenRendering(::UnityEngine::Transform* transform, bool allow);
+/// @brief Method AllowGPUDrivenRendering, addr 0x66c77a8, size 0xc4, virtual false, abstract: false, final false
+static inline void AllowGPUDrivenRendering(::UnityEngine::Transform*  transform, bool  allow) ;
 
-  /// @brief Method AllowGPUDrivenRenderingRecursively, addr 0x66c58fc, size 0x334, virtual false, abstract: false, final false
-  static inline void AllowGPUDrivenRenderingRecursively(::UnityEngine::Transform* transform, bool allow);
+/// @brief Method AllowGPUDrivenRenderingRecursively, addr 0x66c7474, size 0x334, virtual false, abstract: false, final false
+static inline void AllowGPUDrivenRenderingRecursively(::UnityEngine::Transform*  transform, bool  allow) ;
 
-  static inline ::UnityEngine::Rendering::DisallowGPUDrivenRendering* New_ctor();
+static inline ::UnityEngine::Rendering::DisallowGPUDrivenRendering* New_ctor() ;
 
-  /// @brief Method OnDisable, addr 0x66c58a8, size 0x28, virtual false, abstract: false, final false
-  inline void OnDisable();
+/// @brief Method OnDisable, addr 0x66c7420, size 0x28, virtual false, abstract: false, final false
+inline void OnDisable() ;
 
-  /// @brief Method OnEnable, addr 0x66c58d0, size 0x2c, virtual false, abstract: false, final false
-  inline void OnEnable();
+/// @brief Method OnEnable, addr 0x66c7448, size 0x2c, virtual false, abstract: false, final false
+inline void OnEnable() ;
 
-  /// @brief Method OnValidate, addr 0x66c5cf4, size 0x18, virtual false, abstract: false, final false
-  inline void OnValidate();
+/// @brief Method OnValidate, addr 0x66c786c, size 0x18, virtual false, abstract: false, final false
+inline void OnValidate() ;
 
-  constexpr bool const& __cordl_internal_get_m_AppliedRecursively() const;
+constexpr bool const& __cordl_internal_get_m_AppliedRecursively() const;
 
-  constexpr bool& __cordl_internal_get_m_AppliedRecursively();
+constexpr bool& __cordl_internal_get_m_AppliedRecursively() ;
 
-  constexpr bool const& __cordl_internal_get_m_applyToChildrenRecursively() const;
+constexpr bool const& __cordl_internal_get_m_applyToChildrenRecursively() const;
 
-  constexpr bool& __cordl_internal_get_m_applyToChildrenRecursively();
+constexpr bool& __cordl_internal_get_m_applyToChildrenRecursively() ;
 
-  constexpr void __cordl_internal_set_m_AppliedRecursively(bool value);
+constexpr void __cordl_internal_set_m_AppliedRecursively(bool  value) ;
 
-  constexpr void __cordl_internal_set_m_applyToChildrenRecursively(bool value);
+constexpr void __cordl_internal_set_m_applyToChildrenRecursively(bool  value) ;
 
-  /// @brief Method .ctor, addr 0x66c5d0c, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x66c7884, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_applyToChildrenRecursively, addr 0x66c5884, size 0x8, virtual false, abstract: false, final false
-  inline bool get_applyToChildrenRecursively();
+/// @brief Method get_applyToChildrenRecursively, addr 0x66c73fc, size 0x8, virtual false, abstract: false, final false
+inline bool get_applyToChildrenRecursively() ;
 
-  /// @brief Method set_applyToChildrenRecursively, addr 0x66c588c, size 0x1c, virtual false, abstract: false, final false
-  inline void set_applyToChildrenRecursively(bool value);
+/// @brief Method set_applyToChildrenRecursively, addr 0x66c7404, size 0x1c, virtual false, abstract: false, final false
+inline void set_applyToChildrenRecursively(bool  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DisallowGPUDrivenRendering();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr DisallowGPUDrivenRendering() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DisallowGPUDrivenRendering", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  DisallowGPUDrivenRendering(DisallowGPUDrivenRendering&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DisallowGPUDrivenRendering", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  DisallowGPUDrivenRendering(DisallowGPUDrivenRendering const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "DisallowGPUDrivenRendering", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+DisallowGPUDrivenRendering(DisallowGPUDrivenRendering && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17576 };
+// Ctor Parameters [CppParam { name: "", ty: "DisallowGPUDrivenRendering", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+DisallowGPUDrivenRendering(DisallowGPUDrivenRendering const& ) = delete;
 
-  /// @brief Field m_AppliedRecursively, offset: 0x20, size: 0x1, def value: None
-  bool ___m_AppliedRecursively;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{17578};
 
-  /// @brief Field m_applyToChildrenRecursively, offset: 0x21, size: 0x1, def value: None
-  bool ___m_applyToChildrenRecursively;
+/// @brief Field m_AppliedRecursively, offset: 0x20, size: 0x1, def value: None
+ bool  ___m_AppliedRecursively;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field m_applyToChildrenRecursively, offset: 0x21, size: 0x1, def value: None
+ bool  ___m_applyToChildrenRecursively;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Rendering::DisallowGPUDrivenRendering, ___m_AppliedRecursively) == 0x20, "Offset mismatch!");
@@ -99,6 +99,6 @@ static_assert(offsetof(::UnityEngine::Rendering::DisallowGPUDrivenRendering, ___
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::DisallowGPUDrivenRendering, 0x28>, "Size mismatch!");
 
-} // namespace UnityEngine::Rendering
+} // namespace end def UnityEngine::Rendering
 NEED_NO_BOX(::UnityEngine::Rendering::DisallowGPUDrivenRendering);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::DisallowGPUDrivenRendering*, "UnityEngine.Rendering", "DisallowGPUDrivenRendering");

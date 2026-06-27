@@ -40,81 +40,81 @@ namespace System::Xml::Schema {
 // CS Name: System.Xml.Schema.Datatype_unsignedShort
 class CORDL_TYPE Datatype_unsignedShort : public ::System::Xml::Schema::Datatype_unsignedInt {
 public:
-  // Declarations
-  __declspec(property(get = get_FacetsChecker)) ::System::Xml::Schema::FacetsChecker* FacetsChecker;
+// Declarations
+ __declspec(property(get=get_FacetsChecker)) ::System::Xml::Schema::FacetsChecker*  FacetsChecker;
 
-  __declspec(property(get = get_ListValueType)) ::System::Type* ListValueType;
+ __declspec(property(get=get_ListValueType)) ::System::Type*  ListValueType;
 
-  __declspec(property(get = get_TypeCode)) ::System::Xml::Schema::XmlTypeCode TypeCode;
+ __declspec(property(get=get_TypeCode)) ::System::Xml::Schema::XmlTypeCode  TypeCode;
 
-  __declspec(property(get = get_ValueType)) ::System::Type* ValueType;
+ __declspec(property(get=get_ValueType)) ::System::Type*  ValueType;
 
-  /// @brief Field atomicValueType, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_atomicValueType, put = setStaticF_atomicValueType)) ::System::Type* atomicValueType;
+/// @brief Field atomicValueType, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_atomicValueType, put=setStaticF_atomicValueType)) ::System::Type*  atomicValueType;
 
-  /// @brief Field listValueType, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_listValueType, put = setStaticF_listValueType)) ::System::Type* listValueType;
+/// @brief Field listValueType, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_listValueType, put=setStaticF_listValueType)) ::System::Type*  listValueType;
 
-  /// @brief Field numeric10FacetsChecker, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_numeric10FacetsChecker, put = setStaticF_numeric10FacetsChecker)) ::System::Xml::Schema::FacetsChecker* numeric10FacetsChecker;
+/// @brief Field numeric10FacetsChecker, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_numeric10FacetsChecker, put=setStaticF_numeric10FacetsChecker)) ::System::Xml::Schema::FacetsChecker*  numeric10FacetsChecker;
 
-  /// @brief Method Compare, addr 0x6087978, size 0x54, virtual true, abstract: false, final false
-  inline int32_t Compare(::System::Object* value1, ::System::Object* value2);
+/// @brief Method Compare, addr 0x60894f0, size 0x54, virtual true, abstract: false, final false
+inline int32_t Compare(::System::Object*  value1, ::System::Object*  value2) ;
 
-  static inline ::System::Xml::Schema::Datatype_unsignedShort* New_ctor();
+static inline ::System::Xml::Schema::Datatype_unsignedShort* New_ctor() ;
 
-  /// @brief Method TryParseValue, addr 0x6087a84, size 0x138, virtual true, abstract: false, final false
-  inline ::System::Exception* TryParseValue(::StringW s, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::IXmlNamespaceResolver* nsmgr, ::ByRef<::System::Object*> typedValue);
+/// @brief Method TryParseValue, addr 0x60895fc, size 0x138, virtual true, abstract: false, final false
+inline ::System::Exception* TryParseValue(::StringW  s, ::System::Xml::XmlNameTable*  nameTable, ::System::Xml::IXmlNamespaceResolver*  nsmgr, ::ByRef<::System::Object*>  typedValue) ;
 
-  /// @brief Method .ctor, addr 0x607e0f0, size 0x58, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x607fc68, size 0x58, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  static inline ::System::Type* getStaticF_atomicValueType();
+static inline ::System::Type* getStaticF_atomicValueType() ;
 
-  static inline ::System::Type* getStaticF_listValueType();
+static inline ::System::Type* getStaticF_listValueType() ;
 
-  static inline ::System::Xml::Schema::FacetsChecker* getStaticF_numeric10FacetsChecker();
+static inline ::System::Xml::Schema::FacetsChecker* getStaticF_numeric10FacetsChecker() ;
 
-  /// @brief Method get_FacetsChecker, addr 0x6087914, size 0x5c, virtual true, abstract: false, final false
-  inline ::System::Xml::Schema::FacetsChecker* get_FacetsChecker();
+/// @brief Method get_FacetsChecker, addr 0x608948c, size 0x5c, virtual true, abstract: false, final false
+inline ::System::Xml::Schema::FacetsChecker* get_FacetsChecker() ;
 
-  /// @brief Method get_ListValueType, addr 0x6087a28, size 0x5c, virtual true, abstract: false, final false
-  inline ::System::Type* get_ListValueType();
+/// @brief Method get_ListValueType, addr 0x60895a0, size 0x5c, virtual true, abstract: false, final false
+inline ::System::Type* get_ListValueType() ;
 
-  /// @brief Method get_TypeCode, addr 0x6087970, size 0x8, virtual true, abstract: false, final false
-  inline ::System::Xml::Schema::XmlTypeCode get_TypeCode();
+/// @brief Method get_TypeCode, addr 0x60894e8, size 0x8, virtual true, abstract: false, final false
+inline ::System::Xml::Schema::XmlTypeCode get_TypeCode() ;
 
-  /// @brief Method get_ValueType, addr 0x60879cc, size 0x5c, virtual true, abstract: false, final false
-  inline ::System::Type* get_ValueType();
+/// @brief Method get_ValueType, addr 0x6089544, size 0x5c, virtual true, abstract: false, final false
+inline ::System::Type* get_ValueType() ;
 
-  static inline void setStaticF_atomicValueType(::System::Type* value);
+static inline void setStaticF_atomicValueType(::System::Type*  value) ;
 
-  static inline void setStaticF_listValueType(::System::Type* value);
+static inline void setStaticF_listValueType(::System::Type*  value) ;
 
-  static inline void setStaticF_numeric10FacetsChecker(::System::Xml::Schema::FacetsChecker* value);
+static inline void setStaticF_numeric10FacetsChecker(::System::Xml::Schema::FacetsChecker*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Datatype_unsignedShort();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr Datatype_unsignedShort() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Datatype_unsignedShort", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  Datatype_unsignedShort(Datatype_unsignedShort&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Datatype_unsignedShort", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  Datatype_unsignedShort(Datatype_unsignedShort const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "Datatype_unsignedShort", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Datatype_unsignedShort(Datatype_unsignedShort && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9654 };
+// Ctor Parameters [CppParam { name: "", ty: "Datatype_unsignedShort", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Datatype_unsignedShort(Datatype_unsignedShort const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9655};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::Datatype_unsignedShort, 0x38>, "Size mismatch!");
 
-} // namespace System::Xml::Schema
+} // namespace end def System::Xml::Schema
 NEED_NO_BOX(::System::Xml::Schema::Datatype_unsignedShort);
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::Datatype_unsignedShort*, "System.Xml.Schema", "Datatype_unsignedShort");

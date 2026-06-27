@@ -21,46 +21,46 @@ namespace UnityEngine::Rendering::RenderGraphModule {
 // CS Name: UnityEngine.Rendering.RenderGraphModule.IRenderGraphResourcePool
 class CORDL_TYPE IRenderGraphResourcePool : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method CheckFrameAllocation, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void CheckFrameAllocation(bool onException, int32_t frameIndex);
+// Declarations
+/// @brief Method CheckFrameAllocation, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline void CheckFrameAllocation(bool  onException, int32_t  frameIndex) ;
 
-  /// @brief Method Cleanup, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void Cleanup();
+/// @brief Method Cleanup, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline void Cleanup() ;
 
-  /// @brief Method LogResources, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void LogResources(::UnityEngine::Rendering::RenderGraphModule::RenderGraphLogger* logger);
+/// @brief Method LogResources, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline void LogResources(::UnityEngine::Rendering::RenderGraphModule::RenderGraphLogger*  logger) ;
 
-  static inline ::UnityEngine::Rendering::RenderGraphModule::IRenderGraphResourcePool* New_ctor();
+static inline ::UnityEngine::Rendering::RenderGraphModule::IRenderGraphResourcePool* New_ctor() ;
 
-  /// @brief Method PurgeUnusedResources, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void PurgeUnusedResources(int32_t currentFrameIndex);
+/// @brief Method PurgeUnusedResources, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline void PurgeUnusedResources(int32_t  currentFrameIndex) ;
 
-  /// @brief Method .ctor, addr 0x66a01ac, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x66a1d24, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IRenderGraphResourcePool();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr IRenderGraphResourcePool() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IRenderGraphResourcePool", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IRenderGraphResourcePool(IRenderGraphResourcePool&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IRenderGraphResourcePool", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  IRenderGraphResourcePool(IRenderGraphResourcePool const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "IRenderGraphResourcePool", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+IRenderGraphResourcePool(IRenderGraphResourcePool && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12429 };
+// Ctor Parameters [CppParam { name: "", ty: "IRenderGraphResourcePool", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+IRenderGraphResourcePool(IRenderGraphResourcePool const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12430};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::RenderGraphModule::IRenderGraphResourcePool, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::Rendering::RenderGraphModule
+} // namespace end def UnityEngine::Rendering::RenderGraphModule
 NEED_NO_BOX(::UnityEngine::Rendering::RenderGraphModule::IRenderGraphResourcePool);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::RenderGraphModule::IRenderGraphResourcePool*, "UnityEngine.Rendering.RenderGraphModule", "IRenderGraphResourcePool");

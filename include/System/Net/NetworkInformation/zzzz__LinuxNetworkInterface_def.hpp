@@ -24,85 +24,85 @@ namespace System::Net::NetworkInformation {
 // CS Name: System.Net.NetworkInformation.LinuxNetworkInterface
 class CORDL_TYPE LinuxNetworkInterface : public ::System::Net::NetworkInformation::UnixNetworkInterface {
 public:
-  // Declarations
-  __declspec(property(get = get_IfacePath)) ::StringW IfacePath;
+// Declarations
+ __declspec(property(get=get_IfacePath)) ::StringW  IfacePath;
 
-  __declspec(property(get = get_OperationalStatus)) ::System::Net::NetworkInformation::OperationalStatus OperationalStatus;
+ __declspec(property(get=get_OperationalStatus)) ::System::Net::NetworkInformation::OperationalStatus  OperationalStatus;
 
-  /// @brief Field iface_flags_path, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_iface_flags_path, put = __cordl_internal_set_iface_flags_path)) ::StringW iface_flags_path;
+/// @brief Field iface_flags_path, offset 0x48, size 0x8 
+ __declspec(property(get=__cordl_internal_get_iface_flags_path, put=__cordl_internal_set_iface_flags_path)) ::StringW  iface_flags_path;
 
-  /// @brief Field iface_operstate_path, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_iface_operstate_path, put = __cordl_internal_set_iface_operstate_path)) ::StringW iface_operstate_path;
+/// @brief Field iface_operstate_path, offset 0x40, size 0x8 
+ __declspec(property(get=__cordl_internal_get_iface_operstate_path, put=__cordl_internal_set_iface_operstate_path)) ::StringW  iface_operstate_path;
 
-  /// @brief Field iface_path, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_iface_path, put = __cordl_internal_set_iface_path)) ::StringW iface_path;
+/// @brief Field iface_path, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get_iface_path, put=__cordl_internal_set_iface_path)) ::StringW  iface_path;
 
-  /// @brief Method GetIPProperties, addr 0x621337c, size 0x70, virtual true, abstract: false, final false
-  inline ::System::Net::NetworkInformation::IPInterfaceProperties* GetIPProperties();
+/// @brief Method GetIPProperties, addr 0x6214ef4, size 0x70, virtual true, abstract: false, final false
+inline ::System::Net::NetworkInformation::IPInterfaceProperties* GetIPProperties() ;
 
-  static inline ::System::Net::NetworkInformation::LinuxNetworkInterface* New_ctor(::StringW name);
+static inline ::System::Net::NetworkInformation::LinuxNetworkInterface* New_ctor(::StringW  name) ;
 
-  /// @brief Method ReadLine, addr 0x6213730, size 0x264, virtual false, abstract: false, final false
-  static inline ::StringW ReadLine(::StringW path);
+/// @brief Method ReadLine, addr 0x62152a8, size 0x264, virtual false, abstract: false, final false
+static inline ::StringW ReadLine(::StringW  path) ;
 
-  constexpr ::StringW const& __cordl_internal_get_iface_flags_path() const;
+constexpr ::StringW const& __cordl_internal_get_iface_flags_path() const;
 
-  constexpr ::StringW& __cordl_internal_get_iface_flags_path();
+constexpr ::StringW& __cordl_internal_get_iface_flags_path() ;
 
-  constexpr ::StringW const& __cordl_internal_get_iface_operstate_path() const;
+constexpr ::StringW const& __cordl_internal_get_iface_operstate_path() const;
 
-  constexpr ::StringW& __cordl_internal_get_iface_operstate_path();
+constexpr ::StringW& __cordl_internal_get_iface_operstate_path() ;
 
-  constexpr ::StringW const& __cordl_internal_get_iface_path() const;
+constexpr ::StringW const& __cordl_internal_get_iface_path() const;
 
-  constexpr ::StringW& __cordl_internal_get_iface_path();
+constexpr ::StringW& __cordl_internal_get_iface_path() ;
 
-  constexpr void __cordl_internal_set_iface_flags_path(::StringW value);
+constexpr void __cordl_internal_set_iface_flags_path(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_iface_operstate_path(::StringW value);
+constexpr void __cordl_internal_set_iface_operstate_path(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_iface_path(::StringW value);
+constexpr void __cordl_internal_set_iface_path(::StringW  value) ;
 
-  /// @brief Method .ctor, addr 0x6213288, size 0xe4, virtual false, abstract: false, final false
-  inline void _ctor(::StringW name);
+/// @brief Method .ctor, addr 0x6214e00, size 0xe4, virtual false, abstract: false, final false
+inline void _ctor(::StringW  name) ;
 
-  /// @brief Method get_IfacePath, addr 0x6213374, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_IfacePath();
+/// @brief Method get_IfacePath, addr 0x6214eec, size 0x8, virtual false, abstract: false, final false
+inline ::StringW get_IfacePath() ;
 
-  /// @brief Method get_OperationalStatus, addr 0x62133ec, size 0x344, virtual true, abstract: false, final false
-  inline ::System::Net::NetworkInformation::OperationalStatus get_OperationalStatus();
+/// @brief Method get_OperationalStatus, addr 0x6214f64, size 0x344, virtual true, abstract: false, final false
+inline ::System::Net::NetworkInformation::OperationalStatus get_OperationalStatus() ;
 
-  /// @brief Method unitydroid_get_network_interface_up_state, addr 0x6213370, size 0x4, virtual false, abstract: false, final false
-  static inline bool unitydroid_get_network_interface_up_state(::StringW ifname, ::ByRef<bool> is_up);
+/// @brief Method unitydroid_get_network_interface_up_state, addr 0x6214ee8, size 0x4, virtual false, abstract: false, final false
+static inline bool unitydroid_get_network_interface_up_state(::StringW  ifname, ::ByRef<bool>  is_up) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LinuxNetworkInterface();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr LinuxNetworkInterface() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LinuxNetworkInterface", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  LinuxNetworkInterface(LinuxNetworkInterface&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LinuxNetworkInterface", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  LinuxNetworkInterface(LinuxNetworkInterface const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "LinuxNetworkInterface", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+LinuxNetworkInterface(LinuxNetworkInterface && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11679 };
+// Ctor Parameters [CppParam { name: "", ty: "LinuxNetworkInterface", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+LinuxNetworkInterface(LinuxNetworkInterface const& ) = delete;
 
-  /// @brief Field iface_path, offset: 0x38, size: 0x8, def value: None
-  ::StringW ___iface_path;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11680};
 
-  /// @brief Field iface_operstate_path, offset: 0x40, size: 0x8, def value: None
-  ::StringW ___iface_operstate_path;
+/// @brief Field iface_path, offset: 0x38, size: 0x8, def value: None
+ ::StringW  ___iface_path;
 
-  /// @brief Field iface_flags_path, offset: 0x48, size: 0x8, def value: None
-  ::StringW ___iface_flags_path;
+/// @brief Field iface_operstate_path, offset: 0x40, size: 0x8, def value: None
+ ::StringW  ___iface_operstate_path;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field iface_flags_path, offset: 0x48, size: 0x8, def value: None
+ ::StringW  ___iface_flags_path;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Net::NetworkInformation::LinuxNetworkInterface, ___iface_path) == 0x38, "Offset mismatch!");
@@ -113,6 +113,6 @@ static_assert(offsetof(::System::Net::NetworkInformation::LinuxNetworkInterface,
 
 static_assert(::cordl_internals::size_check_v<::System::Net::NetworkInformation::LinuxNetworkInterface, 0x50>, "Size mismatch!");
 
-} // namespace System::Net::NetworkInformation
+} // namespace end def System::Net::NetworkInformation
 NEED_NO_BOX(::System::Net::NetworkInformation::LinuxNetworkInterface);
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::NetworkInformation::LinuxNetworkInterface*, "System.Net.NetworkInformation", "LinuxNetworkInterface");

@@ -11,7 +11,8 @@ namespace GlobalNamespace {
 class OVRSceneAnchor;
 }
 namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+template<typename T>
+class IEnumerable_1;
 }
 namespace UnityEngine {
 class ISerializationCallbackReceiver;
@@ -28,84 +29,84 @@ namespace GlobalNamespace {
 // CS Name: OVRScenePrefabOverride
 class CORDL_TYPE OVRScenePrefabOverride : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field ClassificationLabel, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_ClassificationLabel, put = __cordl_internal_set_ClassificationLabel)) ::StringW ClassificationLabel;
+// Declarations
+/// @brief Field ClassificationLabel, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_ClassificationLabel, put=__cordl_internal_set_ClassificationLabel)) ::StringW  ClassificationLabel;
 
-  /// @brief Field Prefab, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_Prefab, put = __cordl_internal_set_Prefab)) ::UnityW<::GlobalNamespace::OVRSceneAnchor> Prefab;
+/// @brief Field Prefab, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_Prefab, put=__cordl_internal_set_Prefab)) ::UnityW<::GlobalNamespace::OVRSceneAnchor>  Prefab;
 
-  /// @brief Field _editorClassificationIndex, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get__editorClassificationIndex, put = __cordl_internal_set__editorClassificationIndex)) int32_t _editorClassificationIndex;
+/// @brief Field _editorClassificationIndex, offset 0x20, size 0x4 
+ __declspec(property(get=__cordl_internal_get__editorClassificationIndex, put=__cordl_internal_set__editorClassificationIndex)) int32_t  _editorClassificationIndex;
 
-  /// @brief Convert operator to "::UnityEngine::ISerializationCallbackReceiver"
-  constexpr operator ::UnityEngine::ISerializationCallbackReceiver*() noexcept;
+/// @brief Convert operator to "::UnityEngine::ISerializationCallbackReceiver"
+constexpr operator  ::UnityEngine::ISerializationCallbackReceiver*() noexcept;
 
-  static inline ::GlobalNamespace::OVRScenePrefabOverride* New_ctor();
+static inline ::GlobalNamespace::OVRScenePrefabOverride* New_ctor() ;
 
-  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize, addr 0x5d91f08, size 0x4, virtual true, abstract: false, final true
-  inline void UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize();
+/// @brief Method UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize, addr 0x5d93a80, size 0x4, virtual true, abstract: false, final true
+inline void UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize() ;
 
-  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize, addr 0x5d91f04, size 0x4, virtual true, abstract: false, final true
-  inline void UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize();
+/// @brief Method UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize, addr 0x5d93a7c, size 0x4, virtual true, abstract: false, final true
+inline void UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize() ;
 
-  /// @brief Method UpdateEditorClassificationIndex, addr 0x5d91f0c, size 0x170, virtual false, abstract: false, final false
-  inline void UpdateEditorClassificationIndex();
+/// @brief Method UpdateEditorClassificationIndex, addr 0x5d93a84, size 0x170, virtual false, abstract: false, final false
+inline void UpdateEditorClassificationIndex() ;
 
-  /// @brief Method <UpdateEditorClassificationIndex>g__IndexOf|5_0, addr 0x5d9207c, size 0x2cc, virtual false, abstract: false, final false
-  static inline int32_t _UpdateEditorClassificationIndex_g__IndexOf_5_0(::StringW label, ::System::Collections::Generic::IEnumerable_1<::StringW>* collection);
+/// @brief Method <UpdateEditorClassificationIndex>g__IndexOf|5_0, addr 0x5d93bf4, size 0x2cc, virtual false, abstract: false, final false
+static inline int32_t _UpdateEditorClassificationIndex_g__IndexOf_5_0(::StringW  label, ::System::Collections::Generic::IEnumerable_1<::StringW>*  collection) ;
 
-  constexpr ::StringW const& __cordl_internal_get_ClassificationLabel() const;
+constexpr ::StringW const& __cordl_internal_get_ClassificationLabel() const;
 
-  constexpr ::StringW& __cordl_internal_get_ClassificationLabel();
+constexpr ::StringW& __cordl_internal_get_ClassificationLabel() ;
 
-  constexpr ::UnityW<::GlobalNamespace::OVRSceneAnchor> const& __cordl_internal_get_Prefab() const;
+constexpr ::UnityW<::GlobalNamespace::OVRSceneAnchor> const& __cordl_internal_get_Prefab() const;
 
-  constexpr ::UnityW<::GlobalNamespace::OVRSceneAnchor>& __cordl_internal_get_Prefab();
+constexpr ::UnityW<::GlobalNamespace::OVRSceneAnchor>& __cordl_internal_get_Prefab() ;
 
-  constexpr int32_t const& __cordl_internal_get__editorClassificationIndex() const;
+constexpr int32_t const& __cordl_internal_get__editorClassificationIndex() const;
 
-  constexpr int32_t& __cordl_internal_get__editorClassificationIndex();
+constexpr int32_t& __cordl_internal_get__editorClassificationIndex() ;
 
-  constexpr void __cordl_internal_set_ClassificationLabel(::StringW value);
+constexpr void __cordl_internal_set_ClassificationLabel(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_Prefab(::UnityW<::GlobalNamespace::OVRSceneAnchor> value);
+constexpr void __cordl_internal_set_Prefab(::UnityW<::GlobalNamespace::OVRSceneAnchor>  value) ;
 
-  constexpr void __cordl_internal_set__editorClassificationIndex(int32_t value);
+constexpr void __cordl_internal_set__editorClassificationIndex(int32_t  value) ;
 
-  /// @brief Method .ctor, addr 0x5d92348, size 0x4c, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5d93ec0, size 0x4c, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Convert to "::UnityEngine::ISerializationCallbackReceiver"
-  constexpr ::UnityEngine::ISerializationCallbackReceiver* i___UnityEngine__ISerializationCallbackReceiver() noexcept;
+/// @brief Convert to "::UnityEngine::ISerializationCallbackReceiver"
+constexpr ::UnityEngine::ISerializationCallbackReceiver* i___UnityEngine__ISerializationCallbackReceiver() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OVRScenePrefabOverride();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr OVRScenePrefabOverride() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRScenePrefabOverride", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  OVRScenePrefabOverride(OVRScenePrefabOverride&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRScenePrefabOverride", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  OVRScenePrefabOverride(OVRScenePrefabOverride const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "OVRScenePrefabOverride", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+OVRScenePrefabOverride(OVRScenePrefabOverride && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7682 };
+// Ctor Parameters [CppParam { name: "", ty: "OVRScenePrefabOverride", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+OVRScenePrefabOverride(OVRScenePrefabOverride const& ) = delete;
 
-  /// @brief Field Prefab, offset: 0x10, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::OVRSceneAnchor> ___Prefab;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{7683};
 
-  /// @brief Field ClassificationLabel, offset: 0x18, size: 0x8, def value: None
-  ::StringW ___ClassificationLabel;
+/// @brief Field Prefab, offset: 0x10, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::OVRSceneAnchor>  ___Prefab;
 
-  /// @brief Field _editorClassificationIndex, offset: 0x20, size: 0x4, def value: None
-  int32_t ____editorClassificationIndex;
+/// @brief Field ClassificationLabel, offset: 0x18, size: 0x8, def value: None
+ ::StringW  ___ClassificationLabel;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _editorClassificationIndex, offset: 0x20, size: 0x4, def value: None
+ int32_t  ____editorClassificationIndex;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::OVRScenePrefabOverride, ___Prefab) == 0x10, "Offset mismatch!");
@@ -116,6 +117,6 @@ static_assert(offsetof(::GlobalNamespace::OVRScenePrefabOverride, ____editorClas
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRScenePrefabOverride, 0x28>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::OVRScenePrefabOverride);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRScenePrefabOverride*, "", "OVRScenePrefabOverride");

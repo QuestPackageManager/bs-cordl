@@ -29,66 +29,66 @@ namespace Org::BouncyCastle::Asn1 {
 // CS Name: Org.BouncyCastle.Asn1.DerSequenceParser
 class CORDL_TYPE DerSequenceParser : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field _parser, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__parser, put = __cordl_internal_set__parser)) ::Org::BouncyCastle::Asn1::Asn1StreamParser* _parser;
+// Declarations
+/// @brief Field _parser, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get__parser, put=__cordl_internal_set__parser)) ::Org::BouncyCastle::Asn1::Asn1StreamParser*  _parser;
 
-  /// @brief Convert operator to "::Org::BouncyCastle::Asn1::Asn1SequenceParser"
-  constexpr operator ::Org::BouncyCastle::Asn1::Asn1SequenceParser*() noexcept;
+/// @brief Convert operator to "::Org::BouncyCastle::Asn1::Asn1SequenceParser"
+constexpr operator  ::Org::BouncyCastle::Asn1::Asn1SequenceParser*() noexcept;
 
-  /// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Convertible"
-  constexpr operator ::Org::BouncyCastle::Asn1::IAsn1Convertible*() noexcept;
+/// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Convertible"
+constexpr operator  ::Org::BouncyCastle::Asn1::IAsn1Convertible*() noexcept;
 
-  static inline ::Org::BouncyCastle::Asn1::DerSequenceParser* New_ctor(::Org::BouncyCastle::Asn1::Asn1StreamParser* parser);
+static inline ::Org::BouncyCastle::Asn1::DerSequenceParser* New_ctor(::Org::BouncyCastle::Asn1::Asn1StreamParser*  parser) ;
 
-  /// @brief Method ReadObject, addr 0x35d1b84, size 0x1c, virtual true, abstract: false, final true
-  inline ::Org::BouncyCastle::Asn1::IAsn1Convertible* ReadObject();
+/// @brief Method ReadObject, addr 0x35d2920, size 0x1c, virtual true, abstract: false, final true
+inline ::Org::BouncyCastle::Asn1::IAsn1Convertible* ReadObject() ;
 
-  /// @brief Method ToAsn1Object, addr 0x35d1ba0, size 0x74, virtual true, abstract: false, final true
-  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
+/// @brief Method ToAsn1Object, addr 0x35d293c, size 0x74, virtual true, abstract: false, final true
+inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object() ;
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1StreamParser* const& __cordl_internal_get__parser() const;
+constexpr ::Org::BouncyCastle::Asn1::Asn1StreamParser* const& __cordl_internal_get__parser() const;
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1StreamParser*& __cordl_internal_get__parser();
+constexpr ::Org::BouncyCastle::Asn1::Asn1StreamParser*& __cordl_internal_get__parser() ;
 
-  constexpr void __cordl_internal_set__parser(::Org::BouncyCastle::Asn1::Asn1StreamParser* value);
+constexpr void __cordl_internal_set__parser(::Org::BouncyCastle::Asn1::Asn1StreamParser*  value) ;
 
-  /// @brief Method .ctor, addr 0x35c842c, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Asn1::Asn1StreamParser* parser);
+/// @brief Method .ctor, addr 0x35c91c8, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(::Org::BouncyCastle::Asn1::Asn1StreamParser*  parser) ;
 
-  /// @brief Convert to "::Org::BouncyCastle::Asn1::Asn1SequenceParser"
-  constexpr ::Org::BouncyCastle::Asn1::Asn1SequenceParser* i___Org__BouncyCastle__Asn1__Asn1SequenceParser() noexcept;
+/// @brief Convert to "::Org::BouncyCastle::Asn1::Asn1SequenceParser"
+constexpr ::Org::BouncyCastle::Asn1::Asn1SequenceParser* i___Org__BouncyCastle__Asn1__Asn1SequenceParser() noexcept;
 
-  /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Convertible"
-  constexpr ::Org::BouncyCastle::Asn1::IAsn1Convertible* i___Org__BouncyCastle__Asn1__IAsn1Convertible() noexcept;
+/// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Convertible"
+constexpr ::Org::BouncyCastle::Asn1::IAsn1Convertible* i___Org__BouncyCastle__Asn1__IAsn1Convertible() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DerSequenceParser();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr DerSequenceParser() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DerSequenceParser", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  DerSequenceParser(DerSequenceParser&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DerSequenceParser", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  DerSequenceParser(DerSequenceParser const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "DerSequenceParser", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+DerSequenceParser(DerSequenceParser && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 514 };
+// Ctor Parameters [CppParam { name: "", ty: "DerSequenceParser", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+DerSequenceParser(DerSequenceParser const& ) = delete;
 
-  /// @brief Field _parser, offset: 0x10, size: 0x8, def value: None
-  ::Org::BouncyCastle::Asn1::Asn1StreamParser* ____parser;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{514};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _parser, offset: 0x10, size: 0x8, def value: None
+ ::Org::BouncyCastle::Asn1::Asn1StreamParser*  ____parser;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Org::BouncyCastle::Asn1::DerSequenceParser, ____parser) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::DerSequenceParser, 0x18>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Asn1
+} // namespace end def Org::BouncyCastle::Asn1
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::DerSequenceParser);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::DerSequenceParser*, "Org.BouncyCastle.Asn1", "DerSequenceParser");

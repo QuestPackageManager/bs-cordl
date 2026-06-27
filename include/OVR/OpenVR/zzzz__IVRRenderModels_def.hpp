@@ -180,987 +180,952 @@ namespace OVR::OpenVR {
 // CS Name: OVR.OpenVR.IVRRenderModels/_LoadRenderModel_Async
 class CORDL_TYPE IVRRenderModels__LoadRenderModel_Async : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x5d010ec, size 0x58, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::StringW pchRenderModelName, ::ByRef<::System::IntPtr> ppRenderModel, ::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x5d02c64, size 0x58, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(::StringW  pchRenderModelName, ::ByRef<::System::IntPtr>  ppRenderModel, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x5d01144, size 0x24, virtual true, abstract: false, final false
-  inline ::OVR::OpenVR::EVRRenderModelError EndInvoke(::ByRef<::System::IntPtr> ppRenderModel, ::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x5d02cbc, size 0x24, virtual true, abstract: false, final false
+inline ::OVR::OpenVR::EVRRenderModelError EndInvoke(::ByRef<::System::IntPtr>  ppRenderModel, ::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x5d010d8, size 0x14, virtual true, abstract: false, final false
-  inline ::OVR::OpenVR::EVRRenderModelError Invoke(::StringW pchRenderModelName, ::ByRef<::System::IntPtr> ppRenderModel);
+/// @brief Method Invoke, addr 0x5d02c50, size 0x14, virtual true, abstract: false, final false
+inline ::OVR::OpenVR::EVRRenderModelError Invoke(::StringW  pchRenderModelName, ::ByRef<::System::IntPtr>  ppRenderModel) ;
 
-  static inline ::OVR::OpenVR::IVRRenderModels__LoadRenderModel_Async* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::IVRRenderModels__LoadRenderModel_Async* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x5d01058, size 0x80, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x5d02bd0, size 0x80, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IVRRenderModels__LoadRenderModel_Async();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr IVRRenderModels__LoadRenderModel_Async() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRRenderModels__LoadRenderModel_Async", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IVRRenderModels__LoadRenderModel_Async(IVRRenderModels__LoadRenderModel_Async&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRRenderModels__LoadRenderModel_Async", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  IVRRenderModels__LoadRenderModel_Async(IVRRenderModels__LoadRenderModel_Async const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "IVRRenderModels__LoadRenderModel_Async", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+IVRRenderModels__LoadRenderModel_Async(IVRRenderModels__LoadRenderModel_Async && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8280 };
+// Ctor Parameters [CppParam { name: "", ty: "IVRRenderModels__LoadRenderModel_Async", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+IVRRenderModels__LoadRenderModel_Async(IVRRenderModels__LoadRenderModel_Async const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8281};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVRRenderModels__LoadRenderModel_Async, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVRRenderModels/_FreeRenderModel
 class CORDL_TYPE IVRRenderModels__FreeRenderModel : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x5d011e8, size 0x54, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::System::IntPtr pRenderModel, ::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x5d02d60, size 0x54, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(::System::IntPtr  pRenderModel, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x5d0123c, size 0xc, virtual true, abstract: false, final false
-  inline void EndInvoke(::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x5d02db4, size 0xc, virtual true, abstract: false, final false
+inline void EndInvoke(::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x5d011d4, size 0x14, virtual true, abstract: false, final false
-  inline void Invoke(::System::IntPtr pRenderModel);
+/// @brief Method Invoke, addr 0x5d02d4c, size 0x14, virtual true, abstract: false, final false
+inline void Invoke(::System::IntPtr  pRenderModel) ;
 
-  static inline ::OVR::OpenVR::IVRRenderModels__FreeRenderModel* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::IVRRenderModels__FreeRenderModel* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x5d01168, size 0x6c, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x5d02ce0, size 0x6c, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IVRRenderModels__FreeRenderModel();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr IVRRenderModels__FreeRenderModel() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRRenderModels__FreeRenderModel", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IVRRenderModels__FreeRenderModel(IVRRenderModels__FreeRenderModel&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRRenderModels__FreeRenderModel", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  IVRRenderModels__FreeRenderModel(IVRRenderModels__FreeRenderModel const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "IVRRenderModels__FreeRenderModel", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+IVRRenderModels__FreeRenderModel(IVRRenderModels__FreeRenderModel && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8281 };
+// Ctor Parameters [CppParam { name: "", ty: "IVRRenderModels__FreeRenderModel", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+IVRRenderModels__FreeRenderModel(IVRRenderModels__FreeRenderModel const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8282};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVRRenderModels__FreeRenderModel, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVRRenderModels/_LoadTexture_Async
 class CORDL_TYPE IVRRenderModels__LoadTexture_Async : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x5d012c8, size 0x7c, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(int32_t textureId, ::ByRef<::System::IntPtr> ppTexture, ::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x5d02e40, size 0x7c, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(int32_t  textureId, ::ByRef<::System::IntPtr>  ppTexture, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x5d01344, size 0x24, virtual true, abstract: false, final false
-  inline ::OVR::OpenVR::EVRRenderModelError EndInvoke(::ByRef<::System::IntPtr> ppTexture, ::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x5d02ebc, size 0x24, virtual true, abstract: false, final false
+inline ::OVR::OpenVR::EVRRenderModelError EndInvoke(::ByRef<::System::IntPtr>  ppTexture, ::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x5d012b4, size 0x14, virtual true, abstract: false, final false
-  inline ::OVR::OpenVR::EVRRenderModelError Invoke(int32_t textureId, ::ByRef<::System::IntPtr> ppTexture);
+/// @brief Method Invoke, addr 0x5d02e2c, size 0x14, virtual true, abstract: false, final false
+inline ::OVR::OpenVR::EVRRenderModelError Invoke(int32_t  textureId, ::ByRef<::System::IntPtr>  ppTexture) ;
 
-  static inline ::OVR::OpenVR::IVRRenderModels__LoadTexture_Async* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::IVRRenderModels__LoadTexture_Async* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x5d01248, size 0x6c, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x5d02dc0, size 0x6c, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IVRRenderModels__LoadTexture_Async();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr IVRRenderModels__LoadTexture_Async() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRRenderModels__LoadTexture_Async", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IVRRenderModels__LoadTexture_Async(IVRRenderModels__LoadTexture_Async&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRRenderModels__LoadTexture_Async", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  IVRRenderModels__LoadTexture_Async(IVRRenderModels__LoadTexture_Async const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "IVRRenderModels__LoadTexture_Async", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+IVRRenderModels__LoadTexture_Async(IVRRenderModels__LoadTexture_Async && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8282 };
+// Ctor Parameters [CppParam { name: "", ty: "IVRRenderModels__LoadTexture_Async", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+IVRRenderModels__LoadTexture_Async(IVRRenderModels__LoadTexture_Async const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8283};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVRRenderModels__LoadTexture_Async, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVRRenderModels/_FreeTexture
 class CORDL_TYPE IVRRenderModels__FreeTexture : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x5d013e8, size 0x54, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::System::IntPtr pTexture, ::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x5d02f60, size 0x54, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(::System::IntPtr  pTexture, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x5d0143c, size 0xc, virtual true, abstract: false, final false
-  inline void EndInvoke(::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x5d02fb4, size 0xc, virtual true, abstract: false, final false
+inline void EndInvoke(::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x5d013d4, size 0x14, virtual true, abstract: false, final false
-  inline void Invoke(::System::IntPtr pTexture);
+/// @brief Method Invoke, addr 0x5d02f4c, size 0x14, virtual true, abstract: false, final false
+inline void Invoke(::System::IntPtr  pTexture) ;
 
-  static inline ::OVR::OpenVR::IVRRenderModels__FreeTexture* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::IVRRenderModels__FreeTexture* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x5d01368, size 0x6c, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x5d02ee0, size 0x6c, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IVRRenderModels__FreeTexture();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr IVRRenderModels__FreeTexture() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRRenderModels__FreeTexture", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IVRRenderModels__FreeTexture(IVRRenderModels__FreeTexture&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRRenderModels__FreeTexture", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  IVRRenderModels__FreeTexture(IVRRenderModels__FreeTexture const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "IVRRenderModels__FreeTexture", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+IVRRenderModels__FreeTexture(IVRRenderModels__FreeTexture && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8283 };
+// Ctor Parameters [CppParam { name: "", ty: "IVRRenderModels__FreeTexture", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+IVRRenderModels__FreeTexture(IVRRenderModels__FreeTexture const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8284};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVRRenderModels__FreeTexture, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVRRenderModels/_LoadTextureD3D11_Async
 class CORDL_TYPE IVRRenderModels__LoadTextureD3D11_Async : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x5d014c8, size 0x90, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(int32_t textureId, ::System::IntPtr pD3D11Device, ::ByRef<::System::IntPtr> ppD3D11Texture2D, ::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x5d03040, size 0x90, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(int32_t  textureId, ::System::IntPtr  pD3D11Device, ::ByRef<::System::IntPtr>  ppD3D11Texture2D, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x5d01558, size 0x24, virtual true, abstract: false, final false
-  inline ::OVR::OpenVR::EVRRenderModelError EndInvoke(::ByRef<::System::IntPtr> ppD3D11Texture2D, ::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x5d030d0, size 0x24, virtual true, abstract: false, final false
+inline ::OVR::OpenVR::EVRRenderModelError EndInvoke(::ByRef<::System::IntPtr>  ppD3D11Texture2D, ::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x5d014b4, size 0x14, virtual true, abstract: false, final false
-  inline ::OVR::OpenVR::EVRRenderModelError Invoke(int32_t textureId, ::System::IntPtr pD3D11Device, ::ByRef<::System::IntPtr> ppD3D11Texture2D);
+/// @brief Method Invoke, addr 0x5d0302c, size 0x14, virtual true, abstract: false, final false
+inline ::OVR::OpenVR::EVRRenderModelError Invoke(int32_t  textureId, ::System::IntPtr  pD3D11Device, ::ByRef<::System::IntPtr>  ppD3D11Texture2D) ;
 
-  static inline ::OVR::OpenVR::IVRRenderModels__LoadTextureD3D11_Async* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::IVRRenderModels__LoadTextureD3D11_Async* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x5d01448, size 0x6c, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x5d02fc0, size 0x6c, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IVRRenderModels__LoadTextureD3D11_Async();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr IVRRenderModels__LoadTextureD3D11_Async() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRRenderModels__LoadTextureD3D11_Async", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IVRRenderModels__LoadTextureD3D11_Async(IVRRenderModels__LoadTextureD3D11_Async&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRRenderModels__LoadTextureD3D11_Async", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  IVRRenderModels__LoadTextureD3D11_Async(IVRRenderModels__LoadTextureD3D11_Async const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "IVRRenderModels__LoadTextureD3D11_Async", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+IVRRenderModels__LoadTextureD3D11_Async(IVRRenderModels__LoadTextureD3D11_Async && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8284 };
+// Ctor Parameters [CppParam { name: "", ty: "IVRRenderModels__LoadTextureD3D11_Async", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+IVRRenderModels__LoadTextureD3D11_Async(IVRRenderModels__LoadTextureD3D11_Async const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8285};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVRRenderModels__LoadTextureD3D11_Async, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVRRenderModels/_LoadIntoTextureD3D11_Async
 class CORDL_TYPE IVRRenderModels__LoadIntoTextureD3D11_Async : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x5d015fc, size 0x78, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(int32_t textureId, ::System::IntPtr pDstTexture, ::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x5d03174, size 0x78, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(int32_t  textureId, ::System::IntPtr  pDstTexture, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x5d01674, size 0x24, virtual true, abstract: false, final false
-  inline ::OVR::OpenVR::EVRRenderModelError EndInvoke(::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x5d031ec, size 0x24, virtual true, abstract: false, final false
+inline ::OVR::OpenVR::EVRRenderModelError EndInvoke(::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x5d015e8, size 0x14, virtual true, abstract: false, final false
-  inline ::OVR::OpenVR::EVRRenderModelError Invoke(int32_t textureId, ::System::IntPtr pDstTexture);
+/// @brief Method Invoke, addr 0x5d03160, size 0x14, virtual true, abstract: false, final false
+inline ::OVR::OpenVR::EVRRenderModelError Invoke(int32_t  textureId, ::System::IntPtr  pDstTexture) ;
 
-  static inline ::OVR::OpenVR::IVRRenderModels__LoadIntoTextureD3D11_Async* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::IVRRenderModels__LoadIntoTextureD3D11_Async* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x5d0157c, size 0x6c, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x5d030f4, size 0x6c, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IVRRenderModels__LoadIntoTextureD3D11_Async();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr IVRRenderModels__LoadIntoTextureD3D11_Async() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRRenderModels__LoadIntoTextureD3D11_Async", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IVRRenderModels__LoadIntoTextureD3D11_Async(IVRRenderModels__LoadIntoTextureD3D11_Async&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRRenderModels__LoadIntoTextureD3D11_Async", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  IVRRenderModels__LoadIntoTextureD3D11_Async(IVRRenderModels__LoadIntoTextureD3D11_Async const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "IVRRenderModels__LoadIntoTextureD3D11_Async", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+IVRRenderModels__LoadIntoTextureD3D11_Async(IVRRenderModels__LoadIntoTextureD3D11_Async && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8285 };
+// Ctor Parameters [CppParam { name: "", ty: "IVRRenderModels__LoadIntoTextureD3D11_Async", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+IVRRenderModels__LoadIntoTextureD3D11_Async(IVRRenderModels__LoadIntoTextureD3D11_Async const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8286};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVRRenderModels__LoadIntoTextureD3D11_Async, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVRRenderModels/_FreeTextureD3D11
 class CORDL_TYPE IVRRenderModels__FreeTextureD3D11 : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x5d01718, size 0x54, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::System::IntPtr pD3D11Texture2D, ::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x5d03290, size 0x54, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(::System::IntPtr  pD3D11Texture2D, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x5d0176c, size 0xc, virtual true, abstract: false, final false
-  inline void EndInvoke(::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x5d032e4, size 0xc, virtual true, abstract: false, final false
+inline void EndInvoke(::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x5d01704, size 0x14, virtual true, abstract: false, final false
-  inline void Invoke(::System::IntPtr pD3D11Texture2D);
+/// @brief Method Invoke, addr 0x5d0327c, size 0x14, virtual true, abstract: false, final false
+inline void Invoke(::System::IntPtr  pD3D11Texture2D) ;
 
-  static inline ::OVR::OpenVR::IVRRenderModels__FreeTextureD3D11* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::IVRRenderModels__FreeTextureD3D11* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x5d01698, size 0x6c, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x5d03210, size 0x6c, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IVRRenderModels__FreeTextureD3D11();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr IVRRenderModels__FreeTextureD3D11() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRRenderModels__FreeTextureD3D11", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IVRRenderModels__FreeTextureD3D11(IVRRenderModels__FreeTextureD3D11&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRRenderModels__FreeTextureD3D11", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  IVRRenderModels__FreeTextureD3D11(IVRRenderModels__FreeTextureD3D11 const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "IVRRenderModels__FreeTextureD3D11", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+IVRRenderModels__FreeTextureD3D11(IVRRenderModels__FreeTextureD3D11 && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8286 };
+// Ctor Parameters [CppParam { name: "", ty: "IVRRenderModels__FreeTextureD3D11", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+IVRRenderModels__FreeTextureD3D11(IVRRenderModels__FreeTextureD3D11 const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8287};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVRRenderModels__FreeTextureD3D11, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVRRenderModels/_GetRenderModelName
 class CORDL_TYPE IVRRenderModels__GetRenderModelName : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x5d017f8, size 0x78, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(uint32_t unRenderModelIndex, ::System::Text::StringBuilder* pchRenderModelName, uint32_t unRenderModelNameLen, ::System::AsyncCallback* callback,
-                                             ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x5d03370, size 0x78, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(uint32_t  unRenderModelIndex, ::System::Text::StringBuilder*  pchRenderModelName, uint32_t  unRenderModelNameLen, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x5d01870, size 0x24, virtual true, abstract: false, final false
-  inline uint32_t EndInvoke(::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x5d033e8, size 0x24, virtual true, abstract: false, final false
+inline uint32_t EndInvoke(::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x5d017e4, size 0x14, virtual true, abstract: false, final false
-  inline uint32_t Invoke(uint32_t unRenderModelIndex, ::System::Text::StringBuilder* pchRenderModelName, uint32_t unRenderModelNameLen);
+/// @brief Method Invoke, addr 0x5d0335c, size 0x14, virtual true, abstract: false, final false
+inline uint32_t Invoke(uint32_t  unRenderModelIndex, ::System::Text::StringBuilder*  pchRenderModelName, uint32_t  unRenderModelNameLen) ;
 
-  static inline ::OVR::OpenVR::IVRRenderModels__GetRenderModelName* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::IVRRenderModels__GetRenderModelName* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x5d01778, size 0x6c, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x5d032f0, size 0x6c, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IVRRenderModels__GetRenderModelName();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr IVRRenderModels__GetRenderModelName() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRRenderModels__GetRenderModelName", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IVRRenderModels__GetRenderModelName(IVRRenderModels__GetRenderModelName&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRRenderModels__GetRenderModelName", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  IVRRenderModels__GetRenderModelName(IVRRenderModels__GetRenderModelName const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "IVRRenderModels__GetRenderModelName", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+IVRRenderModels__GetRenderModelName(IVRRenderModels__GetRenderModelName && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8287 };
+// Ctor Parameters [CppParam { name: "", ty: "IVRRenderModels__GetRenderModelName", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+IVRRenderModels__GetRenderModelName(IVRRenderModels__GetRenderModelName const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8288};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVRRenderModels__GetRenderModelName, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVRRenderModels/_GetRenderModelCount
 class CORDL_TYPE IVRRenderModels__GetRenderModelCount : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x5d01910, size 0x1c, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x5d03488, size 0x1c, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x5d0192c, size 0x24, virtual true, abstract: false, final false
-  inline uint32_t EndInvoke(::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x5d034a4, size 0x24, virtual true, abstract: false, final false
+inline uint32_t EndInvoke(::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x5d018fc, size 0x14, virtual true, abstract: false, final false
-  inline uint32_t Invoke();
+/// @brief Method Invoke, addr 0x5d03474, size 0x14, virtual true, abstract: false, final false
+inline uint32_t Invoke() ;
 
-  static inline ::OVR::OpenVR::IVRRenderModels__GetRenderModelCount* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::IVRRenderModels__GetRenderModelCount* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x5d01894, size 0x68, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x5d0340c, size 0x68, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IVRRenderModels__GetRenderModelCount();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr IVRRenderModels__GetRenderModelCount() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRRenderModels__GetRenderModelCount", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IVRRenderModels__GetRenderModelCount(IVRRenderModels__GetRenderModelCount&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRRenderModels__GetRenderModelCount", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  IVRRenderModels__GetRenderModelCount(IVRRenderModels__GetRenderModelCount const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "IVRRenderModels__GetRenderModelCount", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+IVRRenderModels__GetRenderModelCount(IVRRenderModels__GetRenderModelCount && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8288 };
+// Ctor Parameters [CppParam { name: "", ty: "IVRRenderModels__GetRenderModelCount", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+IVRRenderModels__GetRenderModelCount(IVRRenderModels__GetRenderModelCount const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8289};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVRRenderModels__GetRenderModelCount, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVRRenderModels/_GetComponentCount
 class CORDL_TYPE IVRRenderModels__GetComponentCount : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x5d019e0, size 0x20, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::StringW pchRenderModelName, ::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x5d03558, size 0x20, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(::StringW  pchRenderModelName, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x5d01a00, size 0x24, virtual true, abstract: false, final false
-  inline uint32_t EndInvoke(::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x5d03578, size 0x24, virtual true, abstract: false, final false
+inline uint32_t EndInvoke(::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x5d019cc, size 0x14, virtual true, abstract: false, final false
-  inline uint32_t Invoke(::StringW pchRenderModelName);
+/// @brief Method Invoke, addr 0x5d03544, size 0x14, virtual true, abstract: false, final false
+inline uint32_t Invoke(::StringW  pchRenderModelName) ;
 
-  static inline ::OVR::OpenVR::IVRRenderModels__GetComponentCount* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::IVRRenderModels__GetComponentCount* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x5d01950, size 0x7c, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x5d034c8, size 0x7c, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IVRRenderModels__GetComponentCount();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr IVRRenderModels__GetComponentCount() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRRenderModels__GetComponentCount", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IVRRenderModels__GetComponentCount(IVRRenderModels__GetComponentCount&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRRenderModels__GetComponentCount", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  IVRRenderModels__GetComponentCount(IVRRenderModels__GetComponentCount const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "IVRRenderModels__GetComponentCount", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+IVRRenderModels__GetComponentCount(IVRRenderModels__GetComponentCount && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8289 };
+// Ctor Parameters [CppParam { name: "", ty: "IVRRenderModels__GetComponentCount", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+IVRRenderModels__GetComponentCount(IVRRenderModels__GetComponentCount const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8290};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVRRenderModels__GetComponentCount, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVRRenderModels/_GetComponentName
 class CORDL_TYPE IVRRenderModels__GetComponentName : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x5d01ab8, size 0x7c, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::StringW pchRenderModelName, uint32_t unComponentIndex, ::System::Text::StringBuilder* pchComponentName, uint32_t unComponentNameLen,
-                                             ::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x5d03630, size 0x7c, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(::StringW  pchRenderModelName, uint32_t  unComponentIndex, ::System::Text::StringBuilder*  pchComponentName, uint32_t  unComponentNameLen, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x5d01b34, size 0x24, virtual true, abstract: false, final false
-  inline uint32_t EndInvoke(::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x5d036ac, size 0x24, virtual true, abstract: false, final false
+inline uint32_t EndInvoke(::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x5d01aa4, size 0x14, virtual true, abstract: false, final false
-  inline uint32_t Invoke(::StringW pchRenderModelName, uint32_t unComponentIndex, ::System::Text::StringBuilder* pchComponentName, uint32_t unComponentNameLen);
+/// @brief Method Invoke, addr 0x5d0361c, size 0x14, virtual true, abstract: false, final false
+inline uint32_t Invoke(::StringW  pchRenderModelName, uint32_t  unComponentIndex, ::System::Text::StringBuilder*  pchComponentName, uint32_t  unComponentNameLen) ;
 
-  static inline ::OVR::OpenVR::IVRRenderModels__GetComponentName* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::IVRRenderModels__GetComponentName* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x5d01a24, size 0x80, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x5d0359c, size 0x80, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IVRRenderModels__GetComponentName();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr IVRRenderModels__GetComponentName() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRRenderModels__GetComponentName", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IVRRenderModels__GetComponentName(IVRRenderModels__GetComponentName&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRRenderModels__GetComponentName", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  IVRRenderModels__GetComponentName(IVRRenderModels__GetComponentName const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "IVRRenderModels__GetComponentName", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+IVRRenderModels__GetComponentName(IVRRenderModels__GetComponentName && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8290 };
+// Ctor Parameters [CppParam { name: "", ty: "IVRRenderModels__GetComponentName", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+IVRRenderModels__GetComponentName(IVRRenderModels__GetComponentName const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8291};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVRRenderModels__GetComponentName, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVRRenderModels/_GetComponentButtonMask
 class CORDL_TYPE IVRRenderModels__GetComponentButtonMask : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x5d01bec, size 0x28, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::StringW pchRenderModelName, ::StringW pchComponentName, ::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x5d03764, size 0x28, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(::StringW  pchRenderModelName, ::StringW  pchComponentName, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x5d01c14, size 0x24, virtual true, abstract: false, final false
-  inline uint64_t EndInvoke(::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x5d0378c, size 0x24, virtual true, abstract: false, final false
+inline uint64_t EndInvoke(::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x5d01bd8, size 0x14, virtual true, abstract: false, final false
-  inline uint64_t Invoke(::StringW pchRenderModelName, ::StringW pchComponentName);
+/// @brief Method Invoke, addr 0x5d03750, size 0x14, virtual true, abstract: false, final false
+inline uint64_t Invoke(::StringW  pchRenderModelName, ::StringW  pchComponentName) ;
 
-  static inline ::OVR::OpenVR::IVRRenderModels__GetComponentButtonMask* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::IVRRenderModels__GetComponentButtonMask* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x5d01b58, size 0x80, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x5d036d0, size 0x80, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IVRRenderModels__GetComponentButtonMask();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr IVRRenderModels__GetComponentButtonMask() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRRenderModels__GetComponentButtonMask", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IVRRenderModels__GetComponentButtonMask(IVRRenderModels__GetComponentButtonMask&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRRenderModels__GetComponentButtonMask", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  IVRRenderModels__GetComponentButtonMask(IVRRenderModels__GetComponentButtonMask const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "IVRRenderModels__GetComponentButtonMask", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+IVRRenderModels__GetComponentButtonMask(IVRRenderModels__GetComponentButtonMask && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8291 };
+// Ctor Parameters [CppParam { name: "", ty: "IVRRenderModels__GetComponentButtonMask", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+IVRRenderModels__GetComponentButtonMask(IVRRenderModels__GetComponentButtonMask const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8292};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVRRenderModels__GetComponentButtonMask, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVRRenderModels/_GetComponentRenderModelName
 class CORDL_TYPE IVRRenderModels__GetComponentRenderModelName : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x5d01ccc, size 0x60, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::StringW pchRenderModelName, ::StringW pchComponentName, ::System::Text::StringBuilder* pchComponentRenderModelName,
-                                             uint32_t unComponentRenderModelNameLen, ::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x5d03844, size 0x60, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(::StringW  pchRenderModelName, ::StringW  pchComponentName, ::System::Text::StringBuilder*  pchComponentRenderModelName, uint32_t  unComponentRenderModelNameLen, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x5d01d2c, size 0x24, virtual true, abstract: false, final false
-  inline uint32_t EndInvoke(::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x5d038a4, size 0x24, virtual true, abstract: false, final false
+inline uint32_t EndInvoke(::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x5d01cb8, size 0x14, virtual true, abstract: false, final false
-  inline uint32_t Invoke(::StringW pchRenderModelName, ::StringW pchComponentName, ::System::Text::StringBuilder* pchComponentRenderModelName, uint32_t unComponentRenderModelNameLen);
+/// @brief Method Invoke, addr 0x5d03830, size 0x14, virtual true, abstract: false, final false
+inline uint32_t Invoke(::StringW  pchRenderModelName, ::StringW  pchComponentName, ::System::Text::StringBuilder*  pchComponentRenderModelName, uint32_t  unComponentRenderModelNameLen) ;
 
-  static inline ::OVR::OpenVR::IVRRenderModels__GetComponentRenderModelName* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::IVRRenderModels__GetComponentRenderModelName* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x5d01c38, size 0x80, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x5d037b0, size 0x80, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IVRRenderModels__GetComponentRenderModelName();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr IVRRenderModels__GetComponentRenderModelName() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRRenderModels__GetComponentRenderModelName", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IVRRenderModels__GetComponentRenderModelName(IVRRenderModels__GetComponentRenderModelName&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRRenderModels__GetComponentRenderModelName", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  IVRRenderModels__GetComponentRenderModelName(IVRRenderModels__GetComponentRenderModelName const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "IVRRenderModels__GetComponentRenderModelName", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+IVRRenderModels__GetComponentRenderModelName(IVRRenderModels__GetComponentRenderModelName && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8292 };
+// Ctor Parameters [CppParam { name: "", ty: "IVRRenderModels__GetComponentRenderModelName", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+IVRRenderModels__GetComponentRenderModelName(IVRRenderModels__GetComponentRenderModelName const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8293};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVRRenderModels__GetComponentRenderModelName, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVRRenderModels/_GetComponentStateForDevicePath
 class CORDL_TYPE IVRRenderModels__GetComponentStateForDevicePath : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x5d01de4, size 0xf0, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::StringW pchRenderModelName, ::StringW pchComponentName, uint64_t devicePath, ::ByRef<::OVR::OpenVR::RenderModel_ControllerMode_State_t> pState,
-                                             ::ByRef<::OVR::OpenVR::RenderModel_ComponentState_t> pComponentState, ::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x5d0395c, size 0xf0, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(::StringW  pchRenderModelName, ::StringW  pchComponentName, uint64_t  devicePath, ::ByRef<::OVR::OpenVR::RenderModel_ControllerMode_State_t>  pState, ::ByRef<::OVR::OpenVR::RenderModel_ComponentState_t>  pComponentState, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x5d01ed4, size 0x30, virtual true, abstract: false, final false
-  inline bool EndInvoke(::ByRef<::OVR::OpenVR::RenderModel_ControllerMode_State_t> pState, ::ByRef<::OVR::OpenVR::RenderModel_ComponentState_t> pComponentState, ::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x5d03a4c, size 0x30, virtual true, abstract: false, final false
+inline bool EndInvoke(::ByRef<::OVR::OpenVR::RenderModel_ControllerMode_State_t>  pState, ::ByRef<::OVR::OpenVR::RenderModel_ComponentState_t>  pComponentState, ::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x5d01dd0, size 0x14, virtual true, abstract: false, final false
-  inline bool Invoke(::StringW pchRenderModelName, ::StringW pchComponentName, uint64_t devicePath, ::ByRef<::OVR::OpenVR::RenderModel_ControllerMode_State_t> pState,
-                     ::ByRef<::OVR::OpenVR::RenderModel_ComponentState_t> pComponentState);
+/// @brief Method Invoke, addr 0x5d03948, size 0x14, virtual true, abstract: false, final false
+inline bool Invoke(::StringW  pchRenderModelName, ::StringW  pchComponentName, uint64_t  devicePath, ::ByRef<::OVR::OpenVR::RenderModel_ControllerMode_State_t>  pState, ::ByRef<::OVR::OpenVR::RenderModel_ComponentState_t>  pComponentState) ;
 
-  static inline ::OVR::OpenVR::IVRRenderModels__GetComponentStateForDevicePath* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::IVRRenderModels__GetComponentStateForDevicePath* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x5d01d50, size 0x80, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x5d038c8, size 0x80, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IVRRenderModels__GetComponentStateForDevicePath();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr IVRRenderModels__GetComponentStateForDevicePath() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRRenderModels__GetComponentStateForDevicePath", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IVRRenderModels__GetComponentStateForDevicePath(IVRRenderModels__GetComponentStateForDevicePath&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRRenderModels__GetComponentStateForDevicePath", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  IVRRenderModels__GetComponentStateForDevicePath(IVRRenderModels__GetComponentStateForDevicePath const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "IVRRenderModels__GetComponentStateForDevicePath", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+IVRRenderModels__GetComponentStateForDevicePath(IVRRenderModels__GetComponentStateForDevicePath && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8293 };
+// Ctor Parameters [CppParam { name: "", ty: "IVRRenderModels__GetComponentStateForDevicePath", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+IVRRenderModels__GetComponentStateForDevicePath(IVRRenderModels__GetComponentStateForDevicePath const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8294};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVRRenderModels__GetComponentStateForDevicePath, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVRRenderModels/_GetComponentState
 class CORDL_TYPE IVRRenderModels__GetComponentState : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x5d01f98, size 0x10c, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::StringW pchRenderModelName, ::StringW pchComponentName, ::ByRef<::OVR::OpenVR::VRControllerState_t> pControllerState,
-                                             ::ByRef<::OVR::OpenVR::RenderModel_ControllerMode_State_t> pState, ::ByRef<::OVR::OpenVR::RenderModel_ComponentState_t> pComponentState,
-                                             ::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x5d03b10, size 0x10c, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(::StringW  pchRenderModelName, ::StringW  pchComponentName, ::ByRef<::OVR::OpenVR::VRControllerState_t>  pControllerState, ::ByRef<::OVR::OpenVR::RenderModel_ControllerMode_State_t>  pState, ::ByRef<::OVR::OpenVR::RenderModel_ComponentState_t>  pComponentState, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x5d020a4, size 0x30, virtual true, abstract: false, final false
-  inline bool EndInvoke(::ByRef<::OVR::OpenVR::VRControllerState_t> pControllerState, ::ByRef<::OVR::OpenVR::RenderModel_ControllerMode_State_t> pState,
-                        ::ByRef<::OVR::OpenVR::RenderModel_ComponentState_t> pComponentState, ::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x5d03c1c, size 0x30, virtual true, abstract: false, final false
+inline bool EndInvoke(::ByRef<::OVR::OpenVR::VRControllerState_t>  pControllerState, ::ByRef<::OVR::OpenVR::RenderModel_ControllerMode_State_t>  pState, ::ByRef<::OVR::OpenVR::RenderModel_ComponentState_t>  pComponentState, ::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x5d01f84, size 0x14, virtual true, abstract: false, final false
-  inline bool Invoke(::StringW pchRenderModelName, ::StringW pchComponentName, ::ByRef<::OVR::OpenVR::VRControllerState_t> pControllerState,
-                     ::ByRef<::OVR::OpenVR::RenderModel_ControllerMode_State_t> pState, ::ByRef<::OVR::OpenVR::RenderModel_ComponentState_t> pComponentState);
+/// @brief Method Invoke, addr 0x5d03afc, size 0x14, virtual true, abstract: false, final false
+inline bool Invoke(::StringW  pchRenderModelName, ::StringW  pchComponentName, ::ByRef<::OVR::OpenVR::VRControllerState_t>  pControllerState, ::ByRef<::OVR::OpenVR::RenderModel_ControllerMode_State_t>  pState, ::ByRef<::OVR::OpenVR::RenderModel_ComponentState_t>  pComponentState) ;
 
-  static inline ::OVR::OpenVR::IVRRenderModels__GetComponentState* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::IVRRenderModels__GetComponentState* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x5d01f04, size 0x80, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x5d03a7c, size 0x80, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IVRRenderModels__GetComponentState();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr IVRRenderModels__GetComponentState() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRRenderModels__GetComponentState", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IVRRenderModels__GetComponentState(IVRRenderModels__GetComponentState&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRRenderModels__GetComponentState", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  IVRRenderModels__GetComponentState(IVRRenderModels__GetComponentState const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "IVRRenderModels__GetComponentState", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+IVRRenderModels__GetComponentState(IVRRenderModels__GetComponentState && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8294 };
+// Ctor Parameters [CppParam { name: "", ty: "IVRRenderModels__GetComponentState", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+IVRRenderModels__GetComponentState(IVRRenderModels__GetComponentState const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8295};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVRRenderModels__GetComponentState, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVRRenderModels/_RenderModelHasComponent
 class CORDL_TYPE IVRRenderModels__RenderModelHasComponent : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x5d02168, size 0x28, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::StringW pchRenderModelName, ::StringW pchComponentName, ::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x5d03ce0, size 0x28, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(::StringW  pchRenderModelName, ::StringW  pchComponentName, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x5d02190, size 0x24, virtual true, abstract: false, final false
-  inline bool EndInvoke(::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x5d03d08, size 0x24, virtual true, abstract: false, final false
+inline bool EndInvoke(::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x5d02154, size 0x14, virtual true, abstract: false, final false
-  inline bool Invoke(::StringW pchRenderModelName, ::StringW pchComponentName);
+/// @brief Method Invoke, addr 0x5d03ccc, size 0x14, virtual true, abstract: false, final false
+inline bool Invoke(::StringW  pchRenderModelName, ::StringW  pchComponentName) ;
 
-  static inline ::OVR::OpenVR::IVRRenderModels__RenderModelHasComponent* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::IVRRenderModels__RenderModelHasComponent* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x5d020d4, size 0x80, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x5d03c4c, size 0x80, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IVRRenderModels__RenderModelHasComponent();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr IVRRenderModels__RenderModelHasComponent() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRRenderModels__RenderModelHasComponent", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IVRRenderModels__RenderModelHasComponent(IVRRenderModels__RenderModelHasComponent&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRRenderModels__RenderModelHasComponent", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  IVRRenderModels__RenderModelHasComponent(IVRRenderModels__RenderModelHasComponent const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "IVRRenderModels__RenderModelHasComponent", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+IVRRenderModels__RenderModelHasComponent(IVRRenderModels__RenderModelHasComponent && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8295 };
+// Ctor Parameters [CppParam { name: "", ty: "IVRRenderModels__RenderModelHasComponent", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+IVRRenderModels__RenderModelHasComponent(IVRRenderModels__RenderModelHasComponent const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8296};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVRRenderModels__RenderModelHasComponent, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVRRenderModels/_GetRenderModelThumbnailURL
 class CORDL_TYPE IVRRenderModels__GetRenderModelThumbnailURL : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x5d02248, size 0xc0, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::StringW pchRenderModelName, ::System::Text::StringBuilder* pchThumbnailURL, uint32_t unThumbnailURLLen,
-                                             ::ByRef<::OVR::OpenVR::EVRRenderModelError> peError, ::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x5d03dc0, size 0xc0, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(::StringW  pchRenderModelName, ::System::Text::StringBuilder*  pchThumbnailURL, uint32_t  unThumbnailURLLen, ::ByRef<::OVR::OpenVR::EVRRenderModelError>  peError, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x5d02308, size 0x24, virtual true, abstract: false, final false
-  inline uint32_t EndInvoke(::ByRef<::OVR::OpenVR::EVRRenderModelError> peError, ::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x5d03e80, size 0x24, virtual true, abstract: false, final false
+inline uint32_t EndInvoke(::ByRef<::OVR::OpenVR::EVRRenderModelError>  peError, ::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x5d02234, size 0x14, virtual true, abstract: false, final false
-  inline uint32_t Invoke(::StringW pchRenderModelName, ::System::Text::StringBuilder* pchThumbnailURL, uint32_t unThumbnailURLLen, ::ByRef<::OVR::OpenVR::EVRRenderModelError> peError);
+/// @brief Method Invoke, addr 0x5d03dac, size 0x14, virtual true, abstract: false, final false
+inline uint32_t Invoke(::StringW  pchRenderModelName, ::System::Text::StringBuilder*  pchThumbnailURL, uint32_t  unThumbnailURLLen, ::ByRef<::OVR::OpenVR::EVRRenderModelError>  peError) ;
 
-  static inline ::OVR::OpenVR::IVRRenderModels__GetRenderModelThumbnailURL* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::IVRRenderModels__GetRenderModelThumbnailURL* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x5d021b4, size 0x80, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x5d03d2c, size 0x80, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IVRRenderModels__GetRenderModelThumbnailURL();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr IVRRenderModels__GetRenderModelThumbnailURL() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRRenderModels__GetRenderModelThumbnailURL", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IVRRenderModels__GetRenderModelThumbnailURL(IVRRenderModels__GetRenderModelThumbnailURL&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRRenderModels__GetRenderModelThumbnailURL", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  IVRRenderModels__GetRenderModelThumbnailURL(IVRRenderModels__GetRenderModelThumbnailURL const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "IVRRenderModels__GetRenderModelThumbnailURL", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+IVRRenderModels__GetRenderModelThumbnailURL(IVRRenderModels__GetRenderModelThumbnailURL && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8296 };
+// Ctor Parameters [CppParam { name: "", ty: "IVRRenderModels__GetRenderModelThumbnailURL", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+IVRRenderModels__GetRenderModelThumbnailURL(IVRRenderModels__GetRenderModelThumbnailURL const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8297};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVRRenderModels__GetRenderModelThumbnailURL, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVRRenderModels/_GetRenderModelOriginalPath
 class CORDL_TYPE IVRRenderModels__GetRenderModelOriginalPath : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x5d023c0, size 0xc0, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::StringW pchRenderModelName, ::System::Text::StringBuilder* pchOriginalPath, uint32_t unOriginalPathLen,
-                                             ::ByRef<::OVR::OpenVR::EVRRenderModelError> peError, ::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x5d03f38, size 0xc0, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(::StringW  pchRenderModelName, ::System::Text::StringBuilder*  pchOriginalPath, uint32_t  unOriginalPathLen, ::ByRef<::OVR::OpenVR::EVRRenderModelError>  peError, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x5d02480, size 0x24, virtual true, abstract: false, final false
-  inline uint32_t EndInvoke(::ByRef<::OVR::OpenVR::EVRRenderModelError> peError, ::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x5d03ff8, size 0x24, virtual true, abstract: false, final false
+inline uint32_t EndInvoke(::ByRef<::OVR::OpenVR::EVRRenderModelError>  peError, ::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x5d023ac, size 0x14, virtual true, abstract: false, final false
-  inline uint32_t Invoke(::StringW pchRenderModelName, ::System::Text::StringBuilder* pchOriginalPath, uint32_t unOriginalPathLen, ::ByRef<::OVR::OpenVR::EVRRenderModelError> peError);
+/// @brief Method Invoke, addr 0x5d03f24, size 0x14, virtual true, abstract: false, final false
+inline uint32_t Invoke(::StringW  pchRenderModelName, ::System::Text::StringBuilder*  pchOriginalPath, uint32_t  unOriginalPathLen, ::ByRef<::OVR::OpenVR::EVRRenderModelError>  peError) ;
 
-  static inline ::OVR::OpenVR::IVRRenderModels__GetRenderModelOriginalPath* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::IVRRenderModels__GetRenderModelOriginalPath* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x5d0232c, size 0x80, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x5d03ea4, size 0x80, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IVRRenderModels__GetRenderModelOriginalPath();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr IVRRenderModels__GetRenderModelOriginalPath() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRRenderModels__GetRenderModelOriginalPath", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IVRRenderModels__GetRenderModelOriginalPath(IVRRenderModels__GetRenderModelOriginalPath&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRRenderModels__GetRenderModelOriginalPath", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  IVRRenderModels__GetRenderModelOriginalPath(IVRRenderModels__GetRenderModelOriginalPath const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "IVRRenderModels__GetRenderModelOriginalPath", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+IVRRenderModels__GetRenderModelOriginalPath(IVRRenderModels__GetRenderModelOriginalPath && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8297 };
+// Ctor Parameters [CppParam { name: "", ty: "IVRRenderModels__GetRenderModelOriginalPath", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+IVRRenderModels__GetRenderModelOriginalPath(IVRRenderModels__GetRenderModelOriginalPath const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8298};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVRRenderModels__GetRenderModelOriginalPath, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: OVR.OpenVR.IVRRenderModels/_GetRenderModelErrorNameFromEnum
 class CORDL_TYPE IVRRenderModels__GetRenderModelErrorNameFromEnum : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x5d02524, size 0x88, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::OVR::OpenVR::EVRRenderModelError error, ::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x5d0409c, size 0x88, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(::OVR::OpenVR::EVRRenderModelError  error, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x5d025ac, size 0x24, virtual true, abstract: false, final false
-  inline ::System::IntPtr EndInvoke(::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x5d04124, size 0x24, virtual true, abstract: false, final false
+inline ::System::IntPtr EndInvoke(::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x5d02510, size 0x14, virtual true, abstract: false, final false
-  inline ::System::IntPtr Invoke(::OVR::OpenVR::EVRRenderModelError error);
+/// @brief Method Invoke, addr 0x5d04088, size 0x14, virtual true, abstract: false, final false
+inline ::System::IntPtr Invoke(::OVR::OpenVR::EVRRenderModelError  error) ;
 
-  static inline ::OVR::OpenVR::IVRRenderModels__GetRenderModelErrorNameFromEnum* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::IVRRenderModels__GetRenderModelErrorNameFromEnum* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x5d024a4, size 0x6c, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x5d0401c, size 0x6c, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IVRRenderModels__GetRenderModelErrorNameFromEnum();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr IVRRenderModels__GetRenderModelErrorNameFromEnum() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRRenderModels__GetRenderModelErrorNameFromEnum", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IVRRenderModels__GetRenderModelErrorNameFromEnum(IVRRenderModels__GetRenderModelErrorNameFromEnum&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRRenderModels__GetRenderModelErrorNameFromEnum", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  IVRRenderModels__GetRenderModelErrorNameFromEnum(IVRRenderModels__GetRenderModelErrorNameFromEnum const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "IVRRenderModels__GetRenderModelErrorNameFromEnum", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+IVRRenderModels__GetRenderModelErrorNameFromEnum(IVRRenderModels__GetRenderModelErrorNameFromEnum && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8298 };
+// Ctor Parameters [CppParam { name: "", ty: "IVRRenderModels__GetRenderModelErrorNameFromEnum", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+IVRRenderModels__GetRenderModelErrorNameFromEnum(IVRRenderModels__GetRenderModelErrorNameFromEnum const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8299};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVRRenderModels__GetRenderModelErrorNameFromEnum, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
-// Dependencies
+} // namespace end def OVR::OpenVR
+// Dependencies 
 namespace OVR::OpenVR {
 // Is value type: true
 // CS Name: OVR.OpenVR.IVRRenderModels
 struct CORDL_TYPE IVRRenderModels {
 public:
-  // Declarations
-  using _FreeRenderModel = ::OVR::OpenVR::IVRRenderModels__FreeRenderModel;
+// Declarations
+using _FreeRenderModel = ::OVR::OpenVR::IVRRenderModels__FreeRenderModel;
 
-  using _FreeTexture = ::OVR::OpenVR::IVRRenderModels__FreeTexture;
+using _FreeTexture = ::OVR::OpenVR::IVRRenderModels__FreeTexture;
 
-  using _FreeTextureD3D11 = ::OVR::OpenVR::IVRRenderModels__FreeTextureD3D11;
+using _FreeTextureD3D11 = ::OVR::OpenVR::IVRRenderModels__FreeTextureD3D11;
 
-  using _GetComponentButtonMask = ::OVR::OpenVR::IVRRenderModels__GetComponentButtonMask;
+using _GetComponentButtonMask = ::OVR::OpenVR::IVRRenderModels__GetComponentButtonMask;
 
-  using _GetComponentCount = ::OVR::OpenVR::IVRRenderModels__GetComponentCount;
+using _GetComponentCount = ::OVR::OpenVR::IVRRenderModels__GetComponentCount;
 
-  using _GetComponentName = ::OVR::OpenVR::IVRRenderModels__GetComponentName;
+using _GetComponentName = ::OVR::OpenVR::IVRRenderModels__GetComponentName;
 
-  using _GetComponentRenderModelName = ::OVR::OpenVR::IVRRenderModels__GetComponentRenderModelName;
+using _GetComponentRenderModelName = ::OVR::OpenVR::IVRRenderModels__GetComponentRenderModelName;
 
-  using _GetComponentState = ::OVR::OpenVR::IVRRenderModels__GetComponentState;
+using _GetComponentState = ::OVR::OpenVR::IVRRenderModels__GetComponentState;
 
-  using _GetComponentStateForDevicePath = ::OVR::OpenVR::IVRRenderModels__GetComponentStateForDevicePath;
+using _GetComponentStateForDevicePath = ::OVR::OpenVR::IVRRenderModels__GetComponentStateForDevicePath;
 
-  using _GetRenderModelCount = ::OVR::OpenVR::IVRRenderModels__GetRenderModelCount;
+using _GetRenderModelCount = ::OVR::OpenVR::IVRRenderModels__GetRenderModelCount;
 
-  using _GetRenderModelErrorNameFromEnum = ::OVR::OpenVR::IVRRenderModels__GetRenderModelErrorNameFromEnum;
+using _GetRenderModelErrorNameFromEnum = ::OVR::OpenVR::IVRRenderModels__GetRenderModelErrorNameFromEnum;
 
-  using _GetRenderModelName = ::OVR::OpenVR::IVRRenderModels__GetRenderModelName;
+using _GetRenderModelName = ::OVR::OpenVR::IVRRenderModels__GetRenderModelName;
 
-  using _GetRenderModelOriginalPath = ::OVR::OpenVR::IVRRenderModels__GetRenderModelOriginalPath;
+using _GetRenderModelOriginalPath = ::OVR::OpenVR::IVRRenderModels__GetRenderModelOriginalPath;
 
-  using _GetRenderModelThumbnailURL = ::OVR::OpenVR::IVRRenderModels__GetRenderModelThumbnailURL;
+using _GetRenderModelThumbnailURL = ::OVR::OpenVR::IVRRenderModels__GetRenderModelThumbnailURL;
 
-  using _LoadIntoTextureD3D11_Async = ::OVR::OpenVR::IVRRenderModels__LoadIntoTextureD3D11_Async;
+using _LoadIntoTextureD3D11_Async = ::OVR::OpenVR::IVRRenderModels__LoadIntoTextureD3D11_Async;
 
-  using _LoadRenderModel_Async = ::OVR::OpenVR::IVRRenderModels__LoadRenderModel_Async;
+using _LoadRenderModel_Async = ::OVR::OpenVR::IVRRenderModels__LoadRenderModel_Async;
 
-  using _LoadTextureD3D11_Async = ::OVR::OpenVR::IVRRenderModels__LoadTextureD3D11_Async;
+using _LoadTextureD3D11_Async = ::OVR::OpenVR::IVRRenderModels__LoadTextureD3D11_Async;
 
-  using _LoadTexture_Async = ::OVR::OpenVR::IVRRenderModels__LoadTexture_Async;
+using _LoadTexture_Async = ::OVR::OpenVR::IVRRenderModels__LoadTexture_Async;
 
-  using _RenderModelHasComponent = ::OVR::OpenVR::IVRRenderModels__RenderModelHasComponent;
+using _RenderModelHasComponent = ::OVR::OpenVR::IVRRenderModels__RenderModelHasComponent;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IVRRenderModels();
+// Ctor Parameters []
+// @brief default ctor
+constexpr IVRRenderModels() ;
 
-  // Ctor Parameters [CppParam { name: "LoadRenderModel_Async", ty: "::OVR::OpenVR::IVRRenderModels__LoadRenderModel_Async*", modifiers: "", def_value: None }, CppParam { name: "FreeRenderModel", ty:
-  // "::OVR::OpenVR::IVRRenderModels__FreeRenderModel*", modifiers: "", def_value: None }, CppParam { name: "LoadTexture_Async", ty: "::OVR::OpenVR::IVRRenderModels__LoadTexture_Async*", modifiers:
-  // "", def_value: None }, CppParam { name: "FreeTexture", ty: "::OVR::OpenVR::IVRRenderModels__FreeTexture*", modifiers: "", def_value: None }, CppParam { name: "LoadTextureD3D11_Async", ty:
-  // "::OVR::OpenVR::IVRRenderModels__LoadTextureD3D11_Async*", modifiers: "", def_value: None }, CppParam { name: "LoadIntoTextureD3D11_Async", ty:
-  // "::OVR::OpenVR::IVRRenderModels__LoadIntoTextureD3D11_Async*", modifiers: "", def_value: None }, CppParam { name: "FreeTextureD3D11", ty: "::OVR::OpenVR::IVRRenderModels__FreeTextureD3D11*",
-  // modifiers: "", def_value: None }, CppParam { name: "GetRenderModelName", ty: "::OVR::OpenVR::IVRRenderModels__GetRenderModelName*", modifiers: "", def_value: None }, CppParam { name:
-  // "GetRenderModelCount", ty: "::OVR::OpenVR::IVRRenderModels__GetRenderModelCount*", modifiers: "", def_value: None }, CppParam { name: "GetComponentCount", ty:
-  // "::OVR::OpenVR::IVRRenderModels__GetComponentCount*", modifiers: "", def_value: None }, CppParam { name: "GetComponentName", ty: "::OVR::OpenVR::IVRRenderModels__GetComponentName*", modifiers:
-  // "", def_value: None }, CppParam { name: "GetComponentButtonMask", ty: "::OVR::OpenVR::IVRRenderModels__GetComponentButtonMask*", modifiers: "", def_value: None }, CppParam { name:
-  // "GetComponentRenderModelName", ty: "::OVR::OpenVR::IVRRenderModels__GetComponentRenderModelName*", modifiers: "", def_value: None }, CppParam { name: "GetComponentStateForDevicePath", ty:
-  // "::OVR::OpenVR::IVRRenderModels__GetComponentStateForDevicePath*", modifiers: "", def_value: None }, CppParam { name: "GetComponentState", ty:
-  // "::OVR::OpenVR::IVRRenderModels__GetComponentState*", modifiers: "", def_value: None }, CppParam { name: "RenderModelHasComponent", ty: "::OVR::OpenVR::IVRRenderModels__RenderModelHasComponent*",
-  // modifiers: "", def_value: None }, CppParam { name: "GetRenderModelThumbnailURL", ty: "::OVR::OpenVR::IVRRenderModels__GetRenderModelThumbnailURL*", modifiers: "", def_value: None }, CppParam {
-  // name: "GetRenderModelOriginalPath", ty: "::OVR::OpenVR::IVRRenderModels__GetRenderModelOriginalPath*", modifiers: "", def_value: None }, CppParam { name: "GetRenderModelErrorNameFromEnum", ty:
-  // "::OVR::OpenVR::IVRRenderModels__GetRenderModelErrorNameFromEnum*", modifiers: "", def_value: None }]
-  constexpr IVRRenderModels(::OVR::OpenVR::IVRRenderModels__LoadRenderModel_Async* LoadRenderModel_Async, ::OVR::OpenVR::IVRRenderModels__FreeRenderModel* FreeRenderModel,
-                            ::OVR::OpenVR::IVRRenderModels__LoadTexture_Async* LoadTexture_Async, ::OVR::OpenVR::IVRRenderModels__FreeTexture* FreeTexture,
-                            ::OVR::OpenVR::IVRRenderModels__LoadTextureD3D11_Async* LoadTextureD3D11_Async, ::OVR::OpenVR::IVRRenderModels__LoadIntoTextureD3D11_Async* LoadIntoTextureD3D11_Async,
-                            ::OVR::OpenVR::IVRRenderModels__FreeTextureD3D11* FreeTextureD3D11, ::OVR::OpenVR::IVRRenderModels__GetRenderModelName* GetRenderModelName,
-                            ::OVR::OpenVR::IVRRenderModels__GetRenderModelCount* GetRenderModelCount, ::OVR::OpenVR::IVRRenderModels__GetComponentCount* GetComponentCount,
-                            ::OVR::OpenVR::IVRRenderModels__GetComponentName* GetComponentName, ::OVR::OpenVR::IVRRenderModels__GetComponentButtonMask* GetComponentButtonMask,
-                            ::OVR::OpenVR::IVRRenderModels__GetComponentRenderModelName* GetComponentRenderModelName,
-                            ::OVR::OpenVR::IVRRenderModels__GetComponentStateForDevicePath* GetComponentStateForDevicePath, ::OVR::OpenVR::IVRRenderModels__GetComponentState* GetComponentState,
-                            ::OVR::OpenVR::IVRRenderModels__RenderModelHasComponent* RenderModelHasComponent, ::OVR::OpenVR::IVRRenderModels__GetRenderModelThumbnailURL* GetRenderModelThumbnailURL,
-                            ::OVR::OpenVR::IVRRenderModels__GetRenderModelOriginalPath* GetRenderModelOriginalPath,
-                            ::OVR::OpenVR::IVRRenderModels__GetRenderModelErrorNameFromEnum* GetRenderModelErrorNameFromEnum) noexcept;
+// Ctor Parameters [CppParam { name: "LoadRenderModel_Async", ty: "::OVR::OpenVR::IVRRenderModels__LoadRenderModel_Async*", modifiers: "", def_value: None }, CppParam { name: "FreeRenderModel", ty: "::OVR::OpenVR::IVRRenderModels__FreeRenderModel*", modifiers: "", def_value: None }, CppParam { name: "LoadTexture_Async", ty: "::OVR::OpenVR::IVRRenderModels__LoadTexture_Async*", modifiers: "", def_value: None }, CppParam { name: "FreeTexture", ty: "::OVR::OpenVR::IVRRenderModels__FreeTexture*", modifiers: "", def_value: None }, CppParam { name: "LoadTextureD3D11_Async", ty: "::OVR::OpenVR::IVRRenderModels__LoadTextureD3D11_Async*", modifiers: "", def_value: None }, CppParam { name: "LoadIntoTextureD3D11_Async", ty: "::OVR::OpenVR::IVRRenderModels__LoadIntoTextureD3D11_Async*", modifiers: "", def_value: None }, CppParam { name: "FreeTextureD3D11", ty: "::OVR::OpenVR::IVRRenderModels__FreeTextureD3D11*", modifiers: "", def_value: None }, CppParam { name: "GetRenderModelName", ty: "::OVR::OpenVR::IVRRenderModels__GetRenderModelName*", modifiers: "", def_value: None }, CppParam { name: "GetRenderModelCount", ty: "::OVR::OpenVR::IVRRenderModels__GetRenderModelCount*", modifiers: "", def_value: None }, CppParam { name: "GetComponentCount", ty: "::OVR::OpenVR::IVRRenderModels__GetComponentCount*", modifiers: "", def_value: None }, CppParam { name: "GetComponentName", ty: "::OVR::OpenVR::IVRRenderModels__GetComponentName*", modifiers: "", def_value: None }, CppParam { name: "GetComponentButtonMask", ty: "::OVR::OpenVR::IVRRenderModels__GetComponentButtonMask*", modifiers: "", def_value: None }, CppParam { name: "GetComponentRenderModelName", ty: "::OVR::OpenVR::IVRRenderModels__GetComponentRenderModelName*", modifiers: "", def_value: None }, CppParam { name: "GetComponentStateForDevicePath", ty: "::OVR::OpenVR::IVRRenderModels__GetComponentStateForDevicePath*", modifiers: "", def_value: None }, CppParam { name: "GetComponentState", ty: "::OVR::OpenVR::IVRRenderModels__GetComponentState*", modifiers: "", def_value: None }, CppParam { name: "RenderModelHasComponent", ty: "::OVR::OpenVR::IVRRenderModels__RenderModelHasComponent*", modifiers: "", def_value: None }, CppParam { name: "GetRenderModelThumbnailURL", ty: "::OVR::OpenVR::IVRRenderModels__GetRenderModelThumbnailURL*", modifiers: "", def_value: None }, CppParam { name: "GetRenderModelOriginalPath", ty: "::OVR::OpenVR::IVRRenderModels__GetRenderModelOriginalPath*", modifiers: "", def_value: None }, CppParam { name: "GetRenderModelErrorNameFromEnum", ty: "::OVR::OpenVR::IVRRenderModels__GetRenderModelErrorNameFromEnum*", modifiers: "", def_value: None }]
+constexpr IVRRenderModels(::OVR::OpenVR::IVRRenderModels__LoadRenderModel_Async*  LoadRenderModel_Async, ::OVR::OpenVR::IVRRenderModels__FreeRenderModel*  FreeRenderModel, ::OVR::OpenVR::IVRRenderModels__LoadTexture_Async*  LoadTexture_Async, ::OVR::OpenVR::IVRRenderModels__FreeTexture*  FreeTexture, ::OVR::OpenVR::IVRRenderModels__LoadTextureD3D11_Async*  LoadTextureD3D11_Async, ::OVR::OpenVR::IVRRenderModels__LoadIntoTextureD3D11_Async*  LoadIntoTextureD3D11_Async, ::OVR::OpenVR::IVRRenderModels__FreeTextureD3D11*  FreeTextureD3D11, ::OVR::OpenVR::IVRRenderModels__GetRenderModelName*  GetRenderModelName, ::OVR::OpenVR::IVRRenderModels__GetRenderModelCount*  GetRenderModelCount, ::OVR::OpenVR::IVRRenderModels__GetComponentCount*  GetComponentCount, ::OVR::OpenVR::IVRRenderModels__GetComponentName*  GetComponentName, ::OVR::OpenVR::IVRRenderModels__GetComponentButtonMask*  GetComponentButtonMask, ::OVR::OpenVR::IVRRenderModels__GetComponentRenderModelName*  GetComponentRenderModelName, ::OVR::OpenVR::IVRRenderModels__GetComponentStateForDevicePath*  GetComponentStateForDevicePath, ::OVR::OpenVR::IVRRenderModels__GetComponentState*  GetComponentState, ::OVR::OpenVR::IVRRenderModels__RenderModelHasComponent*  RenderModelHasComponent, ::OVR::OpenVR::IVRRenderModels__GetRenderModelThumbnailURL*  GetRenderModelThumbnailURL, ::OVR::OpenVR::IVRRenderModels__GetRenderModelOriginalPath*  GetRenderModelOriginalPath, ::OVR::OpenVR::IVRRenderModels__GetRenderModelErrorNameFromEnum*  GetRenderModelErrorNameFromEnum) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8299 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8300};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x98 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x98};
 
-  /// @brief Field LoadRenderModel_Async, offset: 0x0, size: 0x8, def value: None
-  ::OVR::OpenVR::IVRRenderModels__LoadRenderModel_Async* LoadRenderModel_Async;
+/// @brief Field LoadRenderModel_Async, offset: 0x0, size: 0x8, def value: None
+ ::OVR::OpenVR::IVRRenderModels__LoadRenderModel_Async*  LoadRenderModel_Async;
 
-  /// @brief Field FreeRenderModel, offset: 0x8, size: 0x8, def value: None
-  ::OVR::OpenVR::IVRRenderModels__FreeRenderModel* FreeRenderModel;
+/// @brief Field FreeRenderModel, offset: 0x8, size: 0x8, def value: None
+ ::OVR::OpenVR::IVRRenderModels__FreeRenderModel*  FreeRenderModel;
 
-  /// @brief Field LoadTexture_Async, offset: 0x10, size: 0x8, def value: None
-  ::OVR::OpenVR::IVRRenderModels__LoadTexture_Async* LoadTexture_Async;
+/// @brief Field LoadTexture_Async, offset: 0x10, size: 0x8, def value: None
+ ::OVR::OpenVR::IVRRenderModels__LoadTexture_Async*  LoadTexture_Async;
 
-  /// @brief Field FreeTexture, offset: 0x18, size: 0x8, def value: None
-  ::OVR::OpenVR::IVRRenderModels__FreeTexture* FreeTexture;
+/// @brief Field FreeTexture, offset: 0x18, size: 0x8, def value: None
+ ::OVR::OpenVR::IVRRenderModels__FreeTexture*  FreeTexture;
 
-  /// @brief Field LoadTextureD3D11_Async, offset: 0x20, size: 0x8, def value: None
-  ::OVR::OpenVR::IVRRenderModels__LoadTextureD3D11_Async* LoadTextureD3D11_Async;
+/// @brief Field LoadTextureD3D11_Async, offset: 0x20, size: 0x8, def value: None
+ ::OVR::OpenVR::IVRRenderModels__LoadTextureD3D11_Async*  LoadTextureD3D11_Async;
 
-  /// @brief Field LoadIntoTextureD3D11_Async, offset: 0x28, size: 0x8, def value: None
-  ::OVR::OpenVR::IVRRenderModels__LoadIntoTextureD3D11_Async* LoadIntoTextureD3D11_Async;
+/// @brief Field LoadIntoTextureD3D11_Async, offset: 0x28, size: 0x8, def value: None
+ ::OVR::OpenVR::IVRRenderModels__LoadIntoTextureD3D11_Async*  LoadIntoTextureD3D11_Async;
 
-  /// @brief Field FreeTextureD3D11, offset: 0x30, size: 0x8, def value: None
-  ::OVR::OpenVR::IVRRenderModels__FreeTextureD3D11* FreeTextureD3D11;
+/// @brief Field FreeTextureD3D11, offset: 0x30, size: 0x8, def value: None
+ ::OVR::OpenVR::IVRRenderModels__FreeTextureD3D11*  FreeTextureD3D11;
 
-  /// @brief Field GetRenderModelName, offset: 0x38, size: 0x8, def value: None
-  ::OVR::OpenVR::IVRRenderModels__GetRenderModelName* GetRenderModelName;
+/// @brief Field GetRenderModelName, offset: 0x38, size: 0x8, def value: None
+ ::OVR::OpenVR::IVRRenderModels__GetRenderModelName*  GetRenderModelName;
 
-  /// @brief Field GetRenderModelCount, offset: 0x40, size: 0x8, def value: None
-  ::OVR::OpenVR::IVRRenderModels__GetRenderModelCount* GetRenderModelCount;
+/// @brief Field GetRenderModelCount, offset: 0x40, size: 0x8, def value: None
+ ::OVR::OpenVR::IVRRenderModels__GetRenderModelCount*  GetRenderModelCount;
 
-  /// @brief Field GetComponentCount, offset: 0x48, size: 0x8, def value: None
-  ::OVR::OpenVR::IVRRenderModels__GetComponentCount* GetComponentCount;
+/// @brief Field GetComponentCount, offset: 0x48, size: 0x8, def value: None
+ ::OVR::OpenVR::IVRRenderModels__GetComponentCount*  GetComponentCount;
 
-  /// @brief Field GetComponentName, offset: 0x50, size: 0x8, def value: None
-  ::OVR::OpenVR::IVRRenderModels__GetComponentName* GetComponentName;
+/// @brief Field GetComponentName, offset: 0x50, size: 0x8, def value: None
+ ::OVR::OpenVR::IVRRenderModels__GetComponentName*  GetComponentName;
 
-  /// @brief Field GetComponentButtonMask, offset: 0x58, size: 0x8, def value: None
-  ::OVR::OpenVR::IVRRenderModels__GetComponentButtonMask* GetComponentButtonMask;
+/// @brief Field GetComponentButtonMask, offset: 0x58, size: 0x8, def value: None
+ ::OVR::OpenVR::IVRRenderModels__GetComponentButtonMask*  GetComponentButtonMask;
 
-  /// @brief Field GetComponentRenderModelName, offset: 0x60, size: 0x8, def value: None
-  ::OVR::OpenVR::IVRRenderModels__GetComponentRenderModelName* GetComponentRenderModelName;
+/// @brief Field GetComponentRenderModelName, offset: 0x60, size: 0x8, def value: None
+ ::OVR::OpenVR::IVRRenderModels__GetComponentRenderModelName*  GetComponentRenderModelName;
 
-  /// @brief Field GetComponentStateForDevicePath, offset: 0x68, size: 0x8, def value: None
-  ::OVR::OpenVR::IVRRenderModels__GetComponentStateForDevicePath* GetComponentStateForDevicePath;
+/// @brief Field GetComponentStateForDevicePath, offset: 0x68, size: 0x8, def value: None
+ ::OVR::OpenVR::IVRRenderModels__GetComponentStateForDevicePath*  GetComponentStateForDevicePath;
 
-  /// @brief Field GetComponentState, offset: 0x70, size: 0x8, def value: None
-  ::OVR::OpenVR::IVRRenderModels__GetComponentState* GetComponentState;
+/// @brief Field GetComponentState, offset: 0x70, size: 0x8, def value: None
+ ::OVR::OpenVR::IVRRenderModels__GetComponentState*  GetComponentState;
 
-  /// @brief Field RenderModelHasComponent, offset: 0x78, size: 0x8, def value: None
-  ::OVR::OpenVR::IVRRenderModels__RenderModelHasComponent* RenderModelHasComponent;
+/// @brief Field RenderModelHasComponent, offset: 0x78, size: 0x8, def value: None
+ ::OVR::OpenVR::IVRRenderModels__RenderModelHasComponent*  RenderModelHasComponent;
 
-  /// @brief Field GetRenderModelThumbnailURL, offset: 0x80, size: 0x8, def value: None
-  ::OVR::OpenVR::IVRRenderModels__GetRenderModelThumbnailURL* GetRenderModelThumbnailURL;
+/// @brief Field GetRenderModelThumbnailURL, offset: 0x80, size: 0x8, def value: None
+ ::OVR::OpenVR::IVRRenderModels__GetRenderModelThumbnailURL*  GetRenderModelThumbnailURL;
 
-  /// @brief Field GetRenderModelOriginalPath, offset: 0x88, size: 0x8, def value: None
-  ::OVR::OpenVR::IVRRenderModels__GetRenderModelOriginalPath* GetRenderModelOriginalPath;
+/// @brief Field GetRenderModelOriginalPath, offset: 0x88, size: 0x8, def value: None
+ ::OVR::OpenVR::IVRRenderModels__GetRenderModelOriginalPath*  GetRenderModelOriginalPath;
 
-  /// @brief Field GetRenderModelErrorNameFromEnum, offset: 0x90, size: 0x8, def value: None
-  ::OVR::OpenVR::IVRRenderModels__GetRenderModelErrorNameFromEnum* GetRenderModelErrorNameFromEnum;
+/// @brief Field GetRenderModelErrorNameFromEnum, offset: 0x90, size: 0x8, def value: None
+ ::OVR::OpenVR::IVRRenderModels__GetRenderModelErrorNameFromEnum*  GetRenderModelErrorNameFromEnum;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::OVR::OpenVR::IVRRenderModels, LoadRenderModel_Async) == 0x0, "Offset mismatch!");
@@ -1203,7 +1168,7 @@ static_assert(offsetof(::OVR::OpenVR::IVRRenderModels, GetRenderModelErrorNameFr
 
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVRRenderModels, 0x98>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 NEED_NO_BOX(::OVR::OpenVR::IVRRenderModels__FreeRenderModel);
 DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::IVRRenderModels__FreeRenderModel*, "OVR.OpenVR", "IVRRenderModels/_FreeRenderModel");
 NEED_NO_BOX(::OVR::OpenVR::IVRRenderModels__FreeTexture);

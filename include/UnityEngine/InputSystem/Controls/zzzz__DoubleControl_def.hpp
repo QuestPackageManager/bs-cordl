@@ -18,40 +18,40 @@ namespace UnityEngine::InputSystem::Controls {
 // CS Name: UnityEngine.InputSystem.Controls.DoubleControl
 class CORDL_TYPE DoubleControl : public ::UnityEngine::InputSystem::InputControl_1<double_t> {
 public:
-  // Declarations
-  static inline ::UnityEngine::InputSystem::Controls::DoubleControl* New_ctor();
+// Declarations
+static inline ::UnityEngine::InputSystem::Controls::DoubleControl* New_ctor() ;
 
-  /// @brief Method ReadUnprocessedValueFromState, addr 0x63b74d0, size 0x6c, virtual true, abstract: false, final false
-  inline double_t ReadUnprocessedValueFromState(void* statePtr);
+/// @brief Method ReadUnprocessedValueFromState, addr 0x63b9048, size 0x6c, virtual true, abstract: false, final false
+inline double_t ReadUnprocessedValueFromState(void*  statePtr) ;
 
-  /// @brief Method WriteValueIntoState, addr 0x63b753c, size 0x7c, virtual true, abstract: false, final false
-  inline void WriteValueIntoState(double_t value, void* statePtr);
+/// @brief Method WriteValueIntoState, addr 0x63b90b4, size 0x7c, virtual true, abstract: false, final false
+inline void WriteValueIntoState(double_t  value, void*  statePtr) ;
 
-  /// @brief Method .ctor, addr 0x63b744c, size 0x84, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x63b8fc4, size 0x84, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DoubleControl();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr DoubleControl() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DoubleControl", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  DoubleControl(DoubleControl&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DoubleControl", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  DoubleControl(DoubleControl const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "DoubleControl", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+DoubleControl(DoubleControl && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9115 };
+// Ctor Parameters [CppParam { name: "", ty: "DoubleControl", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+DoubleControl(DoubleControl const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9116};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Controls::DoubleControl, 0x110>, "Size mismatch!");
 
-} // namespace UnityEngine::InputSystem::Controls
+} // namespace end def UnityEngine::InputSystem::Controls
 NEED_NO_BOX(::UnityEngine::InputSystem::Controls::DoubleControl);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Controls::DoubleControl*, "UnityEngine.InputSystem.Controls", "DoubleControl");

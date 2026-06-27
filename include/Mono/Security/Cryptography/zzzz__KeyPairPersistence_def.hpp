@@ -24,205 +24,205 @@ namespace Mono::Security::Cryptography {
 // CS Name: Mono.Security.Cryptography.KeyPairPersistence
 class CORDL_TYPE KeyPairPersistence : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = get_CanChange)) bool CanChange;
+// Declarations
+ __declspec(property(get=get_CanChange)) bool  CanChange;
 
-  __declspec(property(get = get_ContainerName)) ::StringW ContainerName;
+ __declspec(property(get=get_ContainerName)) ::StringW  ContainerName;
 
-  __declspec(property(get = get_Filename)) ::StringW Filename;
+ __declspec(property(get=get_Filename)) ::StringW  Filename;
 
-  __declspec(property(get = get_KeyValue, put = set_KeyValue)) ::StringW KeyValue;
+ __declspec(property(get=get_KeyValue, put=set_KeyValue)) ::StringW  KeyValue;
 
-  __declspec(property(get = get_UseDefaultKeyContainer)) bool UseDefaultKeyContainer;
+ __declspec(property(get=get_UseDefaultKeyContainer)) bool  UseDefaultKeyContainer;
 
-  __declspec(property(get = get_UseMachineKeyStore)) bool UseMachineKeyStore;
+ __declspec(property(get=get_UseMachineKeyStore)) bool  UseMachineKeyStore;
 
-  /// @brief Field _container, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__container, put = __cordl_internal_set__container)) ::StringW _container;
+/// @brief Field _container, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get__container, put=__cordl_internal_set__container)) ::StringW  _container;
 
-  /// @brief Field _filename, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__filename, put = __cordl_internal_set__filename)) ::StringW _filename;
+/// @brief Field _filename, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get__filename, put=__cordl_internal_set__filename)) ::StringW  _filename;
 
-  /// @brief Field _keyvalue, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__keyvalue, put = __cordl_internal_set__keyvalue)) ::StringW _keyvalue;
+/// @brief Field _keyvalue, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get__keyvalue, put=__cordl_internal_set__keyvalue)) ::StringW  _keyvalue;
 
-  /// @brief Field _machinePath, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF__machinePath, put = setStaticF__machinePath)) ::StringW _machinePath;
+/// @brief Field _machinePath, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF__machinePath, put=setStaticF__machinePath)) ::StringW  _machinePath;
 
-  /// @brief Field _machinePathExists, offset 0xffffffff, size 0x1
-  __declspec(property(get = getStaticF__machinePathExists, put = setStaticF__machinePathExists)) bool _machinePathExists;
+/// @brief Field _machinePathExists, offset 0xffffffff, size 0x1 
+ __declspec(property(get=getStaticF__machinePathExists, put=setStaticF__machinePathExists)) bool  _machinePathExists;
 
-  /// @brief Field _params, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__params, put = __cordl_internal_set__params)) ::System::Security::Cryptography::CspParameters* _params;
+/// @brief Field _params, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get__params, put=__cordl_internal_set__params)) ::System::Security::Cryptography::CspParameters*  _params;
 
-  /// @brief Field _userPath, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF__userPath, put = setStaticF__userPath)) ::StringW _userPath;
+/// @brief Field _userPath, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF__userPath, put=setStaticF__userPath)) ::StringW  _userPath;
 
-  /// @brief Field _userPathExists, offset 0xffffffff, size 0x1
-  __declspec(property(get = getStaticF__userPathExists, put = setStaticF__userPathExists)) bool _userPathExists;
+/// @brief Field _userPathExists, offset 0xffffffff, size 0x1 
+ __declspec(property(get=getStaticF__userPathExists, put=setStaticF__userPathExists)) bool  _userPathExists;
 
-  /// @brief Field lockobj, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_lockobj, put = setStaticF_lockobj)) ::System::Object* lockobj;
+/// @brief Field lockobj, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_lockobj, put=setStaticF_lockobj)) ::System::Object*  lockobj;
 
-  /// @brief Method CanSecure, addr 0x597f1cc, size 0x84, virtual false, abstract: false, final false
-  static inline bool CanSecure(::StringW path);
+/// @brief Method CanSecure, addr 0x5980d44, size 0x84, virtual false, abstract: false, final false
+static inline bool CanSecure(::StringW  path) ;
 
-  /// @brief Method Copy, addr 0x597d9a4, size 0x98, virtual false, abstract: false, final false
-  inline ::System::Security::Cryptography::CspParameters* Copy(::System::Security::Cryptography::CspParameters* p);
+/// @brief Method Copy, addr 0x597f51c, size 0x98, virtual false, abstract: false, final false
+inline ::System::Security::Cryptography::CspParameters* Copy(::System::Security::Cryptography::CspParameters*  p) ;
 
-  /// @brief Method FromXml, addr 0x597e988, size 0x124, virtual false, abstract: false, final false
-  inline void FromXml(::StringW xml);
+/// @brief Method FromXml, addr 0x5980500, size 0x124, virtual false, abstract: false, final false
+inline void FromXml(::StringW  xml) ;
 
-  /// @brief Method IsMachineProtected, addr 0x597f130, size 0x74, virtual false, abstract: false, final false
-  static inline bool IsMachineProtected(::StringW path);
+/// @brief Method IsMachineProtected, addr 0x5980ca8, size 0x74, virtual false, abstract: false, final false
+static inline bool IsMachineProtected(::StringW  path) ;
 
-  /// @brief Method IsUserProtected, addr 0x597f0bc, size 0x74, virtual false, abstract: false, final false
-  static inline bool IsUserProtected(::StringW path);
+/// @brief Method IsUserProtected, addr 0x5980c34, size 0x74, virtual false, abstract: false, final false
+static inline bool IsUserProtected(::StringW  path) ;
 
-  /// @brief Method Load, addr 0x597e828, size 0x160, virtual false, abstract: false, final false
-  inline bool Load();
+/// @brief Method Load, addr 0x59803a0, size 0x160, virtual false, abstract: false, final false
+inline bool Load() ;
 
-  static inline ::Mono::Security::Cryptography::KeyPairPersistence* New_ctor(::System::Security::Cryptography::CspParameters* parameters);
+static inline ::Mono::Security::Cryptography::KeyPairPersistence* New_ctor(::System::Security::Cryptography::CspParameters*  parameters) ;
 
-  static inline ::Mono::Security::Cryptography::KeyPairPersistence* New_ctor(::System::Security::Cryptography::CspParameters* parameters, ::StringW keyPair);
+static inline ::Mono::Security::Cryptography::KeyPairPersistence* New_ctor(::System::Security::Cryptography::CspParameters*  parameters, ::StringW  keyPair) ;
 
-  /// @brief Method ProtectMachine, addr 0x597efc0, size 0x74, virtual false, abstract: false, final false
-  static inline bool ProtectMachine(::StringW path);
+/// @brief Method ProtectMachine, addr 0x5980b38, size 0x74, virtual false, abstract: false, final false
+static inline bool ProtectMachine(::StringW  path) ;
 
-  /// @brief Method ProtectUser, addr 0x597f034, size 0x74, virtual false, abstract: false, final false
-  static inline bool ProtectUser(::StringW path);
+/// @brief Method ProtectUser, addr 0x5980bac, size 0x74, virtual false, abstract: false, final false
+static inline bool ProtectUser(::StringW  path) ;
 
-  /// @brief Method Remove, addr 0x597f0a8, size 0x14, virtual false, abstract: false, final false
-  inline void Remove();
+/// @brief Method Remove, addr 0x5980c20, size 0x14, virtual false, abstract: false, final false
+inline void Remove() ;
 
-  /// @brief Method Save, addr 0x597eaac, size 0x220, virtual false, abstract: false, final false
-  inline void Save();
+/// @brief Method Save, addr 0x5980624, size 0x220, virtual false, abstract: false, final false
+inline void Save() ;
 
-  /// @brief Method ToXml, addr 0x597eccc, size 0x2f4, virtual false, abstract: false, final false
-  inline ::StringW ToXml();
+/// @brief Method ToXml, addr 0x5980844, size 0x2f4, virtual false, abstract: false, final false
+inline ::StringW ToXml() ;
 
-  /// @brief Method _CanSecure, addr 0x597f1a4, size 0x8, virtual false, abstract: false, final false
-  static inline bool _CanSecure(char16_t* root);
+/// @brief Method _CanSecure, addr 0x5980d1c, size 0x8, virtual false, abstract: false, final false
+static inline bool _CanSecure(char16_t*  root) ;
 
-  /// @brief Method _IsMachineProtected, addr 0x597f1c4, size 0x8, virtual false, abstract: false, final false
-  static inline bool _IsMachineProtected(char16_t* path);
+/// @brief Method _IsMachineProtected, addr 0x5980d3c, size 0x8, virtual false, abstract: false, final false
+static inline bool _IsMachineProtected(char16_t*  path) ;
 
-  /// @brief Method _IsUserProtected, addr 0x597f1bc, size 0x8, virtual false, abstract: false, final false
-  static inline bool _IsUserProtected(char16_t* path);
+/// @brief Method _IsUserProtected, addr 0x5980d34, size 0x8, virtual false, abstract: false, final false
+static inline bool _IsUserProtected(char16_t*  path) ;
 
-  /// @brief Method _ProtectMachine, addr 0x597f1b4, size 0x8, virtual false, abstract: false, final false
-  static inline bool _ProtectMachine(char16_t* path);
+/// @brief Method _ProtectMachine, addr 0x5980d2c, size 0x8, virtual false, abstract: false, final false
+static inline bool _ProtectMachine(char16_t*  path) ;
 
-  /// @brief Method _ProtectUser, addr 0x597f1ac, size 0x8, virtual false, abstract: false, final false
-  static inline bool _ProtectUser(char16_t* path);
+/// @brief Method _ProtectUser, addr 0x5980d24, size 0x8, virtual false, abstract: false, final false
+static inline bool _ProtectUser(char16_t*  path) ;
 
-  constexpr ::StringW const& __cordl_internal_get__container() const;
+constexpr ::StringW const& __cordl_internal_get__container() const;
 
-  constexpr ::StringW& __cordl_internal_get__container();
+constexpr ::StringW& __cordl_internal_get__container() ;
 
-  constexpr ::StringW const& __cordl_internal_get__filename() const;
+constexpr ::StringW const& __cordl_internal_get__filename() const;
 
-  constexpr ::StringW& __cordl_internal_get__filename();
+constexpr ::StringW& __cordl_internal_get__filename() ;
 
-  constexpr ::StringW const& __cordl_internal_get__keyvalue() const;
+constexpr ::StringW const& __cordl_internal_get__keyvalue() const;
 
-  constexpr ::StringW& __cordl_internal_get__keyvalue();
+constexpr ::StringW& __cordl_internal_get__keyvalue() ;
 
-  constexpr ::System::Security::Cryptography::CspParameters* const& __cordl_internal_get__params() const;
+constexpr ::System::Security::Cryptography::CspParameters* const& __cordl_internal_get__params() const;
 
-  constexpr ::System::Security::Cryptography::CspParameters*& __cordl_internal_get__params();
+constexpr ::System::Security::Cryptography::CspParameters*& __cordl_internal_get__params() ;
 
-  constexpr void __cordl_internal_set__container(::StringW value);
+constexpr void __cordl_internal_set__container(::StringW  value) ;
 
-  constexpr void __cordl_internal_set__filename(::StringW value);
+constexpr void __cordl_internal_set__filename(::StringW  value) ;
 
-  constexpr void __cordl_internal_set__keyvalue(::StringW value);
+constexpr void __cordl_internal_set__keyvalue(::StringW  value) ;
 
-  constexpr void __cordl_internal_set__params(::System::Security::Cryptography::CspParameters* value);
+constexpr void __cordl_internal_set__params(::System::Security::Cryptography::CspParameters*  value) ;
 
-  /// @brief Method .ctor, addr 0x597d92c, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::System::Security::Cryptography::CspParameters* parameters);
+/// @brief Method .ctor, addr 0x597f4a4, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(::System::Security::Cryptography::CspParameters*  parameters) ;
 
-  /// @brief Method .ctor, addr 0x597d934, size 0x70, virtual false, abstract: false, final false
-  inline void _ctor(::System::Security::Cryptography::CspParameters* parameters, ::StringW keyPair);
+/// @brief Method .ctor, addr 0x597f4ac, size 0x70, virtual false, abstract: false, final false
+inline void _ctor(::System::Security::Cryptography::CspParameters*  parameters, ::StringW  keyPair) ;
 
-  static inline ::StringW getStaticF__machinePath();
+static inline ::StringW getStaticF__machinePath() ;
 
-  static inline bool getStaticF__machinePathExists();
+static inline bool getStaticF__machinePathExists() ;
 
-  static inline ::StringW getStaticF__userPath();
+static inline ::StringW getStaticF__userPath() ;
 
-  static inline bool getStaticF__userPathExists();
+static inline bool getStaticF__userPathExists() ;
 
-  static inline ::System::Object* getStaticF_lockobj();
+static inline ::System::Object* getStaticF_lockobj() ;
 
-  /// @brief Method get_CanChange, addr 0x597e818, size 0x10, virtual false, abstract: false, final false
-  inline bool get_CanChange();
+/// @brief Method get_CanChange, addr 0x5980390, size 0x10, virtual false, abstract: false, final false
+inline bool get_CanChange() ;
 
-  /// @brief Method get_ContainerName, addr 0x597dbf0, size 0x100, virtual false, abstract: false, final false
-  inline ::StringW get_ContainerName();
+/// @brief Method get_ContainerName, addr 0x597f768, size 0x100, virtual false, abstract: false, final false
+inline ::StringW get_ContainerName() ;
 
-  /// @brief Method get_Filename, addr 0x597da3c, size 0x1b4, virtual false, abstract: false, final false
-  inline ::StringW get_Filename();
+/// @brief Method get_Filename, addr 0x597f5b4, size 0x1b4, virtual false, abstract: false, final false
+inline ::StringW get_Filename() ;
 
-  /// @brief Method get_KeyValue, addr 0x597e7fc, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_KeyValue();
+/// @brief Method get_KeyValue, addr 0x5980374, size 0x8, virtual false, abstract: false, final false
+inline ::StringW get_KeyValue() ;
 
-  /// @brief Method get_MachinePath, addr 0x597dd0c, size 0x578, virtual false, abstract: false, final false
-  static inline ::StringW get_MachinePath();
+/// @brief Method get_MachinePath, addr 0x597f884, size 0x578, virtual false, abstract: false, final false
+static inline ::StringW get_MachinePath() ;
 
-  /// @brief Method get_UseDefaultKeyContainer, addr 0x597f250, size 0x1c, virtual false, abstract: false, final false
-  inline bool get_UseDefaultKeyContainer();
+/// @brief Method get_UseDefaultKeyContainer, addr 0x5980dc8, size 0x1c, virtual false, abstract: false, final false
+inline bool get_UseDefaultKeyContainer() ;
 
-  /// @brief Method get_UseMachineKeyStore, addr 0x597dcf0, size 0x1c, virtual false, abstract: false, final false
-  inline bool get_UseMachineKeyStore();
+/// @brief Method get_UseMachineKeyStore, addr 0x597f868, size 0x1c, virtual false, abstract: false, final false
+inline bool get_UseMachineKeyStore() ;
 
-  /// @brief Method get_UserPath, addr 0x597e284, size 0x578, virtual false, abstract: false, final false
-  static inline ::StringW get_UserPath();
+/// @brief Method get_UserPath, addr 0x597fdfc, size 0x578, virtual false, abstract: false, final false
+static inline ::StringW get_UserPath() ;
 
-  static inline void setStaticF__machinePath(::StringW value);
+static inline void setStaticF__machinePath(::StringW  value) ;
 
-  static inline void setStaticF__machinePathExists(bool value);
+static inline void setStaticF__machinePathExists(bool  value) ;
 
-  static inline void setStaticF__userPath(::StringW value);
+static inline void setStaticF__userPath(::StringW  value) ;
 
-  static inline void setStaticF__userPathExists(bool value);
+static inline void setStaticF__userPathExists(bool  value) ;
 
-  static inline void setStaticF_lockobj(::System::Object* value);
+static inline void setStaticF_lockobj(::System::Object*  value) ;
 
-  /// @brief Method set_KeyValue, addr 0x597e804, size 0x14, virtual false, abstract: false, final false
-  inline void set_KeyValue(::StringW value);
+/// @brief Method set_KeyValue, addr 0x598037c, size 0x14, virtual false, abstract: false, final false
+inline void set_KeyValue(::StringW  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr KeyPairPersistence();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr KeyPairPersistence() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "KeyPairPersistence", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  KeyPairPersistence(KeyPairPersistence&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "KeyPairPersistence", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  KeyPairPersistence(KeyPairPersistence const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "KeyPairPersistence", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+KeyPairPersistence(KeyPairPersistence && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2276 };
+// Ctor Parameters [CppParam { name: "", ty: "KeyPairPersistence", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+KeyPairPersistence(KeyPairPersistence const& ) = delete;
 
-  /// @brief Field _params, offset: 0x10, size: 0x8, def value: None
-  ::System::Security::Cryptography::CspParameters* ____params;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{2276};
 
-  /// @brief Field _keyvalue, offset: 0x18, size: 0x8, def value: None
-  ::StringW ____keyvalue;
+/// @brief Field _params, offset: 0x10, size: 0x8, def value: None
+ ::System::Security::Cryptography::CspParameters*  ____params;
 
-  /// @brief Field _filename, offset: 0x20, size: 0x8, def value: None
-  ::StringW ____filename;
+/// @brief Field _keyvalue, offset: 0x18, size: 0x8, def value: None
+ ::StringW  ____keyvalue;
 
-  /// @brief Field _container, offset: 0x28, size: 0x8, def value: None
-  ::StringW ____container;
+/// @brief Field _filename, offset: 0x20, size: 0x8, def value: None
+ ::StringW  ____filename;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _container, offset: 0x28, size: 0x8, def value: None
+ ::StringW  ____container;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Mono::Security::Cryptography::KeyPairPersistence, ____params) == 0x10, "Offset mismatch!");
@@ -235,6 +235,6 @@ static_assert(offsetof(::Mono::Security::Cryptography::KeyPairPersistence, ____c
 
 static_assert(::cordl_internals::size_check_v<::Mono::Security::Cryptography::KeyPairPersistence, 0x30>, "Size mismatch!");
 
-} // namespace Mono::Security::Cryptography
+} // namespace end def Mono::Security::Cryptography
 NEED_NO_BOX(::Mono::Security::Cryptography::KeyPairPersistence);
 DEFINE_IL2CPP_ARG_TYPE(::Mono::Security::Cryptography::KeyPairPersistence*, "Mono.Security.Cryptography", "KeyPairPersistence");

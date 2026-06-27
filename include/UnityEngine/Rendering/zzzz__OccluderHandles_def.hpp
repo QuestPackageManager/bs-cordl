@@ -22,37 +22,36 @@ namespace UnityEngine::Rendering {
 // CS Name: UnityEngine.Rendering.OccluderHandles
 struct CORDL_TYPE OccluderHandles {
 public:
-  // Declarations
-  /// @brief Method IsValid, addr 0x66e9b4c, size 0x120, virtual false, abstract: false, final false
-  inline bool IsValid();
+// Declarations
+/// @brief Method IsValid, addr 0x66eb6c4, size 0x120, virtual false, abstract: false, final false
+inline bool IsValid() ;
 
-  /// @brief Method UseForOccluderUpdate, addr 0x66e9dcc, size 0x160, virtual false, abstract: false, final false
-  inline void UseForOccluderUpdate(::UnityEngine::Rendering::RenderGraphModule::IBaseRenderGraphBuilder* builder);
+/// @brief Method UseForOccluderUpdate, addr 0x66eb944, size 0x160, virtual false, abstract: false, final false
+inline void UseForOccluderUpdate(::UnityEngine::Rendering::RenderGraphModule::IBaseRenderGraphBuilder*  builder) ;
 
-  /// @brief Method UseForOcclusionTest, addr 0x66e9c6c, size 0x160, virtual false, abstract: false, final false
-  inline void UseForOcclusionTest(::UnityEngine::Rendering::RenderGraphModule::IBaseRenderGraphBuilder* builder);
+/// @brief Method UseForOcclusionTest, addr 0x66eb7e4, size 0x160, virtual false, abstract: false, final false
+inline void UseForOcclusionTest(::UnityEngine::Rendering::RenderGraphModule::IBaseRenderGraphBuilder*  builder) ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OccluderHandles();
+// Ctor Parameters []
+// @brief default ctor
+constexpr OccluderHandles() ;
 
-  // Ctor Parameters [CppParam { name: "occluderDepthPyramid", ty: "::UnityEngine::Rendering::RenderGraphModule::TextureHandle", modifiers: "", def_value: None }, CppParam { name:
-  // "occlusionDebugOverlay", ty: "::UnityEngine::Rendering::RenderGraphModule::BufferHandle", modifiers: "", def_value: None }]
-  constexpr OccluderHandles(::UnityEngine::Rendering::RenderGraphModule::TextureHandle occluderDepthPyramid, ::UnityEngine::Rendering::RenderGraphModule::BufferHandle occlusionDebugOverlay) noexcept;
+// Ctor Parameters [CppParam { name: "occluderDepthPyramid", ty: "::UnityEngine::Rendering::RenderGraphModule::TextureHandle", modifiers: "", def_value: None }, CppParam { name: "occlusionDebugOverlay", ty: "::UnityEngine::Rendering::RenderGraphModule::BufferHandle", modifiers: "", def_value: None }]
+constexpr OccluderHandles(::UnityEngine::Rendering::RenderGraphModule::TextureHandle  occluderDepthPyramid, ::UnityEngine::Rendering::RenderGraphModule::BufferHandle  occlusionDebugOverlay) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17714 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{17716};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1c };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1c};
 
-  /// @brief Field occluderDepthPyramid, offset: 0x0, size: 0x10, def value: None
-  ::UnityEngine::Rendering::RenderGraphModule::TextureHandle occluderDepthPyramid;
+/// @brief Field occluderDepthPyramid, offset: 0x0, size: 0x10, def value: None
+ ::UnityEngine::Rendering::RenderGraphModule::TextureHandle  occluderDepthPyramid;
 
-  /// @brief Field occlusionDebugOverlay, offset: 0x10, size: 0xc, def value: None
-  ::UnityEngine::Rendering::RenderGraphModule::BufferHandle occlusionDebugOverlay;
+/// @brief Field occlusionDebugOverlay, offset: 0x10, size: 0xc, def value: None
+ ::UnityEngine::Rendering::RenderGraphModule::BufferHandle  occlusionDebugOverlay;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Rendering::OccluderHandles, occluderDepthPyramid) == 0x0, "Offset mismatch!");
@@ -61,5 +60,5 @@ static_assert(offsetof(::UnityEngine::Rendering::OccluderHandles, occlusionDebug
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::OccluderHandles, 0x1c>, "Size mismatch!");
 
-} // namespace UnityEngine::Rendering
+} // namespace end def UnityEngine::Rendering
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::OccluderHandles, "UnityEngine.Rendering", "OccluderHandles");

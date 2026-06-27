@@ -36,108 +36,108 @@ namespace System::ComponentModel {
 // CS Name: System.ComponentModel.Component
 class CORDL_TYPE Component : public ::System::MarshalByRefObject {
 public:
-  // Declarations
-  __declspec(property(get = get_CanRaiseEvents)) bool CanRaiseEvents;
+// Declarations
+ __declspec(property(get=get_CanRaiseEvents)) bool  CanRaiseEvents;
 
-  __declspec(property(get = get_CanRaiseEventsInternal)) bool CanRaiseEventsInternal;
+ __declspec(property(get=get_CanRaiseEventsInternal)) bool  CanRaiseEventsInternal;
 
-  __declspec(property(get = get_DesignMode)) bool DesignMode;
+ __declspec(property(get=get_DesignMode)) bool  DesignMode;
 
-  /// @brief Field EventDisposed, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_EventDisposed, put = setStaticF_EventDisposed)) ::System::Object* EventDisposed;
+/// @brief Field EventDisposed, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_EventDisposed, put=setStaticF_EventDisposed)) ::System::Object*  EventDisposed;
 
-  __declspec(property(get = get_Site)) ::System::ComponentModel::ISite* Site;
+ __declspec(property(get=get_Site)) ::System::ComponentModel::ISite*  Site;
 
-  /// @brief Field events, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_events, put = __cordl_internal_set_events)) ::System::ComponentModel::EventHandlerList* events;
+/// @brief Field events, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_events, put=__cordl_internal_set_events)) ::System::ComponentModel::EventHandlerList*  events;
 
-  /// @brief Field site, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_site, put = __cordl_internal_set_site)) ::System::ComponentModel::ISite* site;
+/// @brief Field site, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_site, put=__cordl_internal_set_site)) ::System::ComponentModel::ISite*  site;
 
-  /// @brief Convert operator to "::System::ComponentModel::IComponent"
-  constexpr operator ::System::ComponentModel::IComponent*() noexcept;
+/// @brief Convert operator to "::System::ComponentModel::IComponent"
+constexpr operator  ::System::ComponentModel::IComponent*() noexcept;
 
-  /// @brief Convert operator to "::System::IDisposable"
-  constexpr operator ::System::IDisposable*() noexcept;
+/// @brief Convert operator to "::System::IDisposable"
+constexpr operator  ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x6287be8, size 0x70, virtual true, abstract: false, final true
-  inline void Dispose();
+/// @brief Method Dispose, addr 0x6289760, size 0x70, virtual true, abstract: false, final true
+inline void Dispose() ;
 
-  /// @brief Method Dispose, addr 0x6287c58, size 0x31c, virtual true, abstract: false, final false
-  inline void Dispose(bool disposing);
+/// @brief Method Dispose, addr 0x62897d0, size 0x31c, virtual true, abstract: false, final false
+inline void Dispose(bool  disposing) ;
 
-  /// @brief Method Finalize, addr 0x6287b7c, size 0x50, virtual true, abstract: false, final false
-  inline void Finalize();
+/// @brief Method Finalize, addr 0x62896f4, size 0x50, virtual true, abstract: false, final false
+inline void Finalize() ;
 
-  /// @brief Method GetService, addr 0x6287f74, size 0xc4, virtual true, abstract: false, final false
-  inline ::System::Object* GetService(::System::Type* service);
+/// @brief Method GetService, addr 0x6289aec, size 0xc4, virtual true, abstract: false, final false
+inline ::System::Object* GetService(::System::Type*  service) ;
 
-  static inline ::System::ComponentModel::Component* New_ctor();
+static inline ::System::ComponentModel::Component* New_ctor() ;
 
-  /// @brief Method ToString, addr 0x62880ec, size 0x13c, virtual true, abstract: false, final false
-  inline ::StringW ToString();
+/// @brief Method ToString, addr 0x6289c64, size 0x13c, virtual true, abstract: false, final false
+inline ::StringW ToString() ;
 
-  constexpr ::System::ComponentModel::EventHandlerList* const& __cordl_internal_get_events() const;
+constexpr ::System::ComponentModel::EventHandlerList* const& __cordl_internal_get_events() const;
 
-  constexpr ::System::ComponentModel::EventHandlerList*& __cordl_internal_get_events();
+constexpr ::System::ComponentModel::EventHandlerList*& __cordl_internal_get_events() ;
 
-  constexpr ::System::ComponentModel::ISite* const& __cordl_internal_get_site() const;
+constexpr ::System::ComponentModel::ISite* const& __cordl_internal_get_site() const;
 
-  constexpr ::System::ComponentModel::ISite*& __cordl_internal_get_site();
+constexpr ::System::ComponentModel::ISite*& __cordl_internal_get_site() ;
 
-  constexpr void __cordl_internal_set_events(::System::ComponentModel::EventHandlerList* value);
+constexpr void __cordl_internal_set_events(::System::ComponentModel::EventHandlerList*  value) ;
 
-  constexpr void __cordl_internal_set_site(::System::ComponentModel::ISite* value);
+constexpr void __cordl_internal_set_site(::System::ComponentModel::ISite*  value) ;
 
-  /// @brief Method .ctor, addr 0x6288228, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6289da0, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  static inline ::System::Object* getStaticF_EventDisposed();
+static inline ::System::Object* getStaticF_EventDisposed() ;
 
-  /// @brief Method get_CanRaiseEvents, addr 0x6287bcc, size 0x8, virtual true, abstract: false, final false
-  inline bool get_CanRaiseEvents();
+/// @brief Method get_CanRaiseEvents, addr 0x6289744, size 0x8, virtual true, abstract: false, final false
+inline bool get_CanRaiseEvents() ;
 
-  /// @brief Method get_CanRaiseEventsInternal, addr 0x6287bd4, size 0xc, virtual false, abstract: false, final false
-  inline bool get_CanRaiseEventsInternal();
+/// @brief Method get_CanRaiseEventsInternal, addr 0x628974c, size 0xc, virtual false, abstract: false, final false
+inline bool get_CanRaiseEventsInternal() ;
 
-  /// @brief Method get_DesignMode, addr 0x6288038, size 0xb4, virtual false, abstract: false, final false
-  inline bool get_DesignMode();
+/// @brief Method get_DesignMode, addr 0x6289bb0, size 0xb4, virtual false, abstract: false, final false
+inline bool get_DesignMode() ;
 
-  /// @brief Method get_Site, addr 0x6287be0, size 0x8, virtual true, abstract: false, final false
-  inline ::System::ComponentModel::ISite* get_Site();
+/// @brief Method get_Site, addr 0x6289758, size 0x8, virtual true, abstract: false, final false
+inline ::System::ComponentModel::ISite* get_Site() ;
 
-  /// @brief Convert to "::System::ComponentModel::IComponent"
-  constexpr ::System::ComponentModel::IComponent* i___System__ComponentModel__IComponent() noexcept;
+/// @brief Convert to "::System::ComponentModel::IComponent"
+constexpr ::System::ComponentModel::IComponent* i___System__ComponentModel__IComponent() noexcept;
 
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+/// @brief Convert to "::System::IDisposable"
+constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  static inline void setStaticF_EventDisposed(::System::Object* value);
+static inline void setStaticF_EventDisposed(::System::Object*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Component();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr Component() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Component", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  Component(Component&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Component", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  Component(Component const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "Component", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Component(Component && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11304 };
+// Ctor Parameters [CppParam { name: "", ty: "Component", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Component(Component const& ) = delete;
 
-  /// @brief Field site, offset: 0x18, size: 0x8, def value: None
-  ::System::ComponentModel::ISite* ___site;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11305};
 
-  /// @brief Field events, offset: 0x20, size: 0x8, def value: None
-  ::System::ComponentModel::EventHandlerList* ___events;
+/// @brief Field site, offset: 0x18, size: 0x8, def value: None
+ ::System::ComponentModel::ISite*  ___site;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field events, offset: 0x20, size: 0x8, def value: None
+ ::System::ComponentModel::EventHandlerList*  ___events;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::ComponentModel::Component, ___site) == 0x18, "Offset mismatch!");
@@ -146,6 +146,6 @@ static_assert(offsetof(::System::ComponentModel::Component, ___events) == 0x20, 
 
 static_assert(::cordl_internals::size_check_v<::System::ComponentModel::Component, 0x28>, "Size mismatch!");
 
-} // namespace System::ComponentModel
+} // namespace end def System::ComponentModel
 NEED_NO_BOX(::System::ComponentModel::Component);
 DEFINE_IL2CPP_ARG_TYPE(::System::ComponentModel::Component*, "System.ComponentModel", "Component");

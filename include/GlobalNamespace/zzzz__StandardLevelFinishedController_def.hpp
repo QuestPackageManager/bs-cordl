@@ -26,81 +26,78 @@ namespace GlobalNamespace {
 // CS Name: StandardLevelFinishedController
 class CORDL_TYPE StandardLevelFinishedController : public ::UnityEngine::MonoBehaviour {
 public:
-  // Declarations
-  /// @brief Field _gameplayManager, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__gameplayManager, put = __cordl_internal_set__gameplayManager)) ::GlobalNamespace::ILevelEndActions* _gameplayManager;
+// Declarations
+/// @brief Field _gameplayManager, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get__gameplayManager, put=__cordl_internal_set__gameplayManager)) ::GlobalNamespace::ILevelEndActions*  _gameplayManager;
 
-  /// @brief Field _prepareLevelCompletionResults, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__prepareLevelCompletionResults, put = __cordl_internal_set__prepareLevelCompletionResults)) ::UnityW<::GlobalNamespace::PrepareLevelCompletionResults>
-      _prepareLevelCompletionResults;
+/// @brief Field _prepareLevelCompletionResults, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get__prepareLevelCompletionResults, put=__cordl_internal_set__prepareLevelCompletionResults)) ::UnityW<::GlobalNamespace::PrepareLevelCompletionResults>  _prepareLevelCompletionResults;
 
-  /// @brief Field _standardLevelSceneSetupData, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__standardLevelSceneSetupData,
-                      put = __cordl_internal_set__standardLevelSceneSetupData)) ::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO>
-      _standardLevelSceneSetupData;
+/// @brief Field _standardLevelSceneSetupData, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get__standardLevelSceneSetupData, put=__cordl_internal_set__standardLevelSceneSetupData)) ::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO>  _standardLevelSceneSetupData;
 
-  /// @brief Method HandleLevelFinished, addr 0x587bbf8, size 0x4, virtual false, abstract: false, final false
-  inline void HandleLevelFinished();
+/// @brief Method HandleLevelFinished, addr 0x587d4a4, size 0x4, virtual false, abstract: false, final false
+inline void HandleLevelFinished() ;
 
-  static inline ::GlobalNamespace::StandardLevelFinishedController* New_ctor();
+static inline ::GlobalNamespace::StandardLevelFinishedController* New_ctor() ;
 
-  /// @brief Method OnDestroy, addr 0x587bac0, size 0x138, virtual false, abstract: false, final false
-  inline void OnDestroy();
+/// @brief Method OnDestroy, addr 0x587d36c, size 0x138, virtual false, abstract: false, final false
+inline void OnDestroy() ;
 
-  /// @brief Method Start, addr 0x587b9cc, size 0xf4, virtual false, abstract: false, final false
-  inline void Start();
+/// @brief Method Start, addr 0x587d278, size 0xf4, virtual false, abstract: false, final false
+inline void Start() ;
 
-  /// @brief Method StartLevelFinished, addr 0x587bbfc, size 0x54, virtual false, abstract: false, final false
-  inline void StartLevelFinished();
+/// @brief Method StartLevelFinished, addr 0x587d4a8, size 0x54, virtual false, abstract: false, final false
+inline void StartLevelFinished() ;
 
-  constexpr ::GlobalNamespace::ILevelEndActions* const& __cordl_internal_get__gameplayManager() const;
+constexpr ::GlobalNamespace::ILevelEndActions* const& __cordl_internal_get__gameplayManager() const;
 
-  constexpr ::GlobalNamespace::ILevelEndActions*& __cordl_internal_get__gameplayManager();
+constexpr ::GlobalNamespace::ILevelEndActions*& __cordl_internal_get__gameplayManager() ;
 
-  constexpr ::UnityW<::GlobalNamespace::PrepareLevelCompletionResults> const& __cordl_internal_get__prepareLevelCompletionResults() const;
+constexpr ::UnityW<::GlobalNamespace::PrepareLevelCompletionResults> const& __cordl_internal_get__prepareLevelCompletionResults() const;
 
-  constexpr ::UnityW<::GlobalNamespace::PrepareLevelCompletionResults>& __cordl_internal_get__prepareLevelCompletionResults();
+constexpr ::UnityW<::GlobalNamespace::PrepareLevelCompletionResults>& __cordl_internal_get__prepareLevelCompletionResults() ;
 
-  constexpr ::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO> const& __cordl_internal_get__standardLevelSceneSetupData() const;
+constexpr ::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO> const& __cordl_internal_get__standardLevelSceneSetupData() const;
 
-  constexpr ::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO>& __cordl_internal_get__standardLevelSceneSetupData();
+constexpr ::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO>& __cordl_internal_get__standardLevelSceneSetupData() ;
 
-  constexpr void __cordl_internal_set__gameplayManager(::GlobalNamespace::ILevelEndActions* value);
+constexpr void __cordl_internal_set__gameplayManager(::GlobalNamespace::ILevelEndActions*  value) ;
 
-  constexpr void __cordl_internal_set__prepareLevelCompletionResults(::UnityW<::GlobalNamespace::PrepareLevelCompletionResults> value);
+constexpr void __cordl_internal_set__prepareLevelCompletionResults(::UnityW<::GlobalNamespace::PrepareLevelCompletionResults>  value) ;
 
-  constexpr void __cordl_internal_set__standardLevelSceneSetupData(::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO> value);
+constexpr void __cordl_internal_set__standardLevelSceneSetupData(::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO>  value) ;
 
-  /// @brief Method .ctor, addr 0x587bc50, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x587d4fc, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr StandardLevelFinishedController();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr StandardLevelFinishedController() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StandardLevelFinishedController", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  StandardLevelFinishedController(StandardLevelFinishedController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StandardLevelFinishedController", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  StandardLevelFinishedController(StandardLevelFinishedController const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "StandardLevelFinishedController", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+StandardLevelFinishedController(StandardLevelFinishedController && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6040 };
+// Ctor Parameters [CppParam { name: "", ty: "StandardLevelFinishedController", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+StandardLevelFinishedController(StandardLevelFinishedController const& ) = delete;
 
-  /// @brief Field _standardLevelSceneSetupData, offset: 0x20, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO> ____standardLevelSceneSetupData;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6040};
 
-  /// @brief Field _prepareLevelCompletionResults, offset: 0x28, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::PrepareLevelCompletionResults> ____prepareLevelCompletionResults;
+/// @brief Field _standardLevelSceneSetupData, offset: 0x20, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO>  ____standardLevelSceneSetupData;
 
-  /// @brief Field _gameplayManager, offset: 0x30, size: 0x8, def value: None
-  ::GlobalNamespace::ILevelEndActions* ____gameplayManager;
+/// @brief Field _prepareLevelCompletionResults, offset: 0x28, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::PrepareLevelCompletionResults>  ____prepareLevelCompletionResults;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _gameplayManager, offset: 0x30, size: 0x8, def value: None
+ ::GlobalNamespace::ILevelEndActions*  ____gameplayManager;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::StandardLevelFinishedController, ____standardLevelSceneSetupData) == 0x20, "Offset mismatch!");
@@ -111,6 +108,6 @@ static_assert(offsetof(::GlobalNamespace::StandardLevelFinishedController, ____g
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::StandardLevelFinishedController, 0x38>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::StandardLevelFinishedController);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::StandardLevelFinishedController*, "", "StandardLevelFinishedController");

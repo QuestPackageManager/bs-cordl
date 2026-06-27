@@ -21,32 +21,33 @@ namespace UnityEngine::Rendering {
 // CS Name: UnityEngine.Rendering.RenderPipelineGraphicsSettingsExtensions
 class CORDL_TYPE RenderPipelineGraphicsSettingsExtensions : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method SetValueAndNotify, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline void SetValueAndNotify(::UnityEngine::Rendering::IRenderPipelineGraphicsSettings* settings, ::ByRef<T> currentPropertyValue, T newValue, ::StringW propertyName);
+// Declarations
+/// @brief Method SetValueAndNotify, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+template<typename T>
+static inline void SetValueAndNotify(::UnityEngine::Rendering::IRenderPipelineGraphicsSettings*  settings, ::ByRef<T>  currentPropertyValue, T  newValue, ::StringW  propertyName) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RenderPipelineGraphicsSettingsExtensions();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr RenderPipelineGraphicsSettingsExtensions() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RenderPipelineGraphicsSettingsExtensions", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  RenderPipelineGraphicsSettingsExtensions(RenderPipelineGraphicsSettingsExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RenderPipelineGraphicsSettingsExtensions", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  RenderPipelineGraphicsSettingsExtensions(RenderPipelineGraphicsSettingsExtensions const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "RenderPipelineGraphicsSettingsExtensions", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+RenderPipelineGraphicsSettingsExtensions(RenderPipelineGraphicsSettingsExtensions && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10763 };
+// Ctor Parameters [CppParam { name: "", ty: "RenderPipelineGraphicsSettingsExtensions", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+RenderPipelineGraphicsSettingsExtensions(RenderPipelineGraphicsSettingsExtensions const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10764};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::RenderPipelineGraphicsSettingsExtensions, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::Rendering
+} // namespace end def UnityEngine::Rendering
 NEED_NO_BOX(::UnityEngine::Rendering::RenderPipelineGraphicsSettingsExtensions);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::RenderPipelineGraphicsSettingsExtensions*, "UnityEngine.Rendering", "RenderPipelineGraphicsSettingsExtensions");

@@ -9,7 +9,8 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(AnimationCurve)
 namespace System {
-template <typename T> class IEquatable_1;
+template<typename T>
+class IEquatable_1;
 }
 namespace System {
 struct IntPtr;
@@ -45,237 +46,237 @@ namespace UnityEngine {
 // CS Name: UnityEngine.AnimationCurve/BindingsMarshaller
 class CORDL_TYPE AnimationCurve_BindingsMarshaller : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method ConvertToManaged, addr 0x690c298, size 0x58, virtual false, abstract: false, final false
-  static inline ::UnityEngine::AnimationCurve* ConvertToManaged(::System::IntPtr ptr);
+// Declarations
+/// @brief Method ConvertToManaged, addr 0x690de10, size 0x58, virtual false, abstract: false, final false
+static inline ::UnityEngine::AnimationCurve* ConvertToManaged(::System::IntPtr  ptr) ;
 
-  /// @brief Method ConvertToNative, addr 0x690c2f0, size 0x14, virtual false, abstract: false, final false
-  static inline ::System::IntPtr ConvertToNative(::UnityEngine::AnimationCurve* animationCurve);
+/// @brief Method ConvertToNative, addr 0x690de68, size 0x14, virtual false, abstract: false, final false
+static inline ::System::IntPtr ConvertToNative(::UnityEngine::AnimationCurve*  animationCurve) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AnimationCurve_BindingsMarshaller();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr AnimationCurve_BindingsMarshaller() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AnimationCurve_BindingsMarshaller", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  AnimationCurve_BindingsMarshaller(AnimationCurve_BindingsMarshaller&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AnimationCurve_BindingsMarshaller", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  AnimationCurve_BindingsMarshaller(AnimationCurve_BindingsMarshaller const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "AnimationCurve_BindingsMarshaller", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+AnimationCurve_BindingsMarshaller(AnimationCurve_BindingsMarshaller && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10044 };
+// Ctor Parameters [CppParam { name: "", ty: "AnimationCurve_BindingsMarshaller", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+AnimationCurve_BindingsMarshaller(AnimationCurve_BindingsMarshaller const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10045};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::AnimationCurve_BindingsMarshaller, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine
+} // namespace end def UnityEngine
 // Dependencies System.IntPtr, System.Object
 namespace UnityEngine {
 // Is value type: false
 // CS Name: UnityEngine.AnimationCurve
 class CORDL_TYPE AnimationCurve : public ::System::Object {
 public:
-  // Declarations
-  using BindingsMarshaller = ::UnityEngine::AnimationCurve_BindingsMarshaller;
+// Declarations
+using BindingsMarshaller = ::UnityEngine::AnimationCurve_BindingsMarshaller;
 
-  __declspec(property(get = get_Item)) ::UnityEngine::Keyframe Item[];
+ __declspec(property(get=get_Item)) ::UnityEngine::Keyframe  Item[];
 
-  __declspec(property(get = get_keys, put = set_keys)) ::ArrayW<::UnityEngine::Keyframe, ::Array<::UnityEngine::Keyframe>*> keys;
+ __declspec(property(get=get_keys, put=set_keys)) ::ArrayW<::UnityEngine::Keyframe,::Array<::UnityEngine::Keyframe>*>  keys;
 
-  __declspec(property(get = get_length)) int32_t length;
+ __declspec(property(get=get_length)) int32_t  length;
 
-  /// @brief Field m_Ptr, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Ptr, put = __cordl_internal_set_m_Ptr)) ::System::IntPtr m_Ptr;
+/// @brief Field m_Ptr, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_Ptr, put=__cordl_internal_set_m_Ptr)) ::System::IntPtr  m_Ptr;
 
-  /// @brief Field m_RequiresNativeCleanup, offset 0x18, size 0x1
-  __declspec(property(get = __cordl_internal_get_m_RequiresNativeCleanup, put = __cordl_internal_set_m_RequiresNativeCleanup)) bool m_RequiresNativeCleanup;
+/// @brief Field m_RequiresNativeCleanup, offset 0x18, size 0x1 
+ __declspec(property(get=__cordl_internal_get_m_RequiresNativeCleanup, put=__cordl_internal_set_m_RequiresNativeCleanup)) bool  m_RequiresNativeCleanup;
 
-  /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::AnimationCurve*>"
-  constexpr operator ::System::IEquatable_1<::UnityEngine::AnimationCurve*>*() noexcept;
+/// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::AnimationCurve*>"
+constexpr operator  ::System::IEquatable_1<::UnityEngine::AnimationCurve*>*() noexcept;
 
-  /// @brief Method AddKey, addr 0x690b858, size 0x2c, virtual false, abstract: false, final false
-  inline int32_t AddKey(::UnityEngine::Keyframe key);
+/// @brief Method AddKey, addr 0x690d3d0, size 0x2c, virtual false, abstract: false, final false
+inline int32_t AddKey(::UnityEngine::Keyframe  key) ;
 
-  /// @brief Method AddKey, addr 0x690b79c, size 0x68, virtual false, abstract: false, final false
-  inline int32_t AddKey(float_t time, float_t value);
+/// @brief Method AddKey, addr 0x690d314, size 0x68, virtual false, abstract: false, final false
+inline int32_t AddKey(float_t  time, float_t  value) ;
 
-  /// @brief Method AddKey_Injected, addr 0x690b804, size 0x54, virtual false, abstract: false, final false
-  static inline int32_t AddKey_Injected(::System::IntPtr _unity_self, float_t time, float_t value);
+/// @brief Method AddKey_Injected, addr 0x690d37c, size 0x54, virtual false, abstract: false, final false
+static inline int32_t AddKey_Injected(::System::IntPtr  _unity_self, float_t  time, float_t  value) ;
 
-  /// @brief Method AddKey_Internal, addr 0x690b884, size 0x58, virtual false, abstract: false, final false
-  inline int32_t AddKey_Internal(::UnityEngine::Keyframe key);
+/// @brief Method AddKey_Internal, addr 0x690d3fc, size 0x58, virtual false, abstract: false, final false
+inline int32_t AddKey_Internal(::UnityEngine::Keyframe  key) ;
 
-  /// @brief Method AddKey_Internal_Injected, addr 0x690b8dc, size 0x44, virtual false, abstract: false, final false
-  static inline int32_t AddKey_Internal_Injected(::System::IntPtr _unity_self, ::ByRef<::UnityEngine::Keyframe> key);
+/// @brief Method AddKey_Internal_Injected, addr 0x690d454, size 0x44, virtual false, abstract: false, final false
+static inline int32_t AddKey_Internal_Injected(::System::IntPtr  _unity_self, ::ByRef<::UnityEngine::Keyframe>  key) ;
 
-  /// @brief Method ClearKeys, addr 0x690b9dc, size 0x50, virtual false, abstract: false, final false
-  inline void ClearKeys();
+/// @brief Method ClearKeys, addr 0x690d554, size 0x50, virtual false, abstract: false, final false
+inline void ClearKeys() ;
 
-  /// @brief Method ClearKeys_Injected, addr 0x690ba2c, size 0x3c, virtual false, abstract: false, final false
-  static inline void ClearKeys_Injected(::System::IntPtr _unity_self);
+/// @brief Method ClearKeys_Injected, addr 0x690d5a4, size 0x3c, virtual false, abstract: false, final false
+static inline void ClearKeys_Injected(::System::IntPtr  _unity_self) ;
 
-  /// @brief Method CopyFrom, addr 0x690c284, size 0x14, virtual false, abstract: false, final false
-  inline void CopyFrom(::UnityEngine::AnimationCurve* other);
+/// @brief Method CopyFrom, addr 0x690ddfc, size 0x14, virtual false, abstract: false, final false
+inline void CopyFrom(::UnityEngine::AnimationCurve*  other) ;
 
-  /// @brief Method EaseInOut, addr 0x690bfc0, size 0x110, virtual false, abstract: false, final false
-  static inline ::UnityEngine::AnimationCurve* EaseInOut(float_t timeStart, float_t valueStart, float_t timeEnd, float_t valueEnd);
+/// @brief Method EaseInOut, addr 0x690db38, size 0x110, virtual false, abstract: false, final false
+static inline ::UnityEngine::AnimationCurve* EaseInOut(float_t  timeStart, float_t  valueStart, float_t  timeEnd, float_t  valueEnd) ;
 
-  /// @brief Method Equals, addr 0x690c100, size 0xf4, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* o);
+/// @brief Method Equals, addr 0x690dc78, size 0xf4, virtual true, abstract: false, final false
+inline bool Equals(::System::Object*  o) ;
 
-  /// @brief Method Equals, addr 0x690c1f4, size 0x90, virtual true, abstract: false, final true
-  inline bool Equals(::UnityEngine::AnimationCurve* other);
+/// @brief Method Equals, addr 0x690dd6c, size 0x90, virtual true, abstract: false, final true
+inline bool Equals(::UnityEngine::AnimationCurve*  other) ;
 
-  /// @brief Method Evaluate, addr 0x690b4ac, size 0x60, virtual false, abstract: false, final false
-  inline float_t Evaluate(float_t time);
+/// @brief Method Evaluate, addr 0x690d024, size 0x60, virtual false, abstract: false, final false
+inline float_t Evaluate(float_t  time) ;
 
-  /// @brief Method Evaluate_Injected, addr 0x690b50c, size 0x4c, virtual false, abstract: false, final false
-  static inline float_t Evaluate_Injected(::System::IntPtr _unity_self, float_t time);
+/// @brief Method Evaluate_Injected, addr 0x690d084, size 0x4c, virtual false, abstract: false, final false
+static inline float_t Evaluate_Injected(::System::IntPtr  _unity_self, float_t  time) ;
 
-  /// @brief Method Finalize, addr 0x690b430, size 0x7c, virtual true, abstract: false, final false
-  inline void Finalize();
+/// @brief Method Finalize, addr 0x690cfa8, size 0x7c, virtual true, abstract: false, final false
+inline void Finalize() ;
 
-  /// @brief Method GetHashCode, addr 0x690bd2c, size 0x50, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
+/// @brief Method GetHashCode, addr 0x690d8a4, size 0x50, virtual true, abstract: false, final false
+inline int32_t GetHashCode() ;
 
-  /// @brief Method GetHashCode_Injected, addr 0x690bd7c, size 0x3c, virtual false, abstract: false, final false
-  static inline int32_t GetHashCode_Injected(::System::IntPtr _unity_self);
+/// @brief Method GetHashCode_Injected, addr 0x690d8f4, size 0x3c, virtual false, abstract: false, final false
+static inline int32_t GetHashCode_Injected(::System::IntPtr  _unity_self) ;
 
-  /// @brief Method GetKey, addr 0x690bb34, size 0x90, virtual false, abstract: false, final false
-  inline ::UnityEngine::Keyframe GetKey(int32_t index);
+/// @brief Method GetKey, addr 0x690d6ac, size 0x90, virtual false, abstract: false, final false
+inline ::UnityEngine::Keyframe GetKey(int32_t  index) ;
 
-  /// @brief Method GetKey_Injected, addr 0x690bc94, size 0x54, virtual false, abstract: false, final false
-  static inline void GetKey_Injected(::System::IntPtr _unity_self, int32_t index, ::ByRef<::UnityEngine::Keyframe> ret);
+/// @brief Method GetKey_Injected, addr 0x690d80c, size 0x54, virtual false, abstract: false, final false
+static inline void GetKey_Injected(::System::IntPtr  _unity_self, int32_t  index, ::ByRef<::UnityEngine::Keyframe>  ret) ;
 
-  /// @brief Method GetKeys, addr 0x690b55c, size 0x14c, virtual false, abstract: false, final false
-  inline ::ArrayW<::UnityEngine::Keyframe, ::Array<::UnityEngine::Keyframe>*> GetKeys();
+/// @brief Method GetKeys, addr 0x690d0d4, size 0x14c, virtual false, abstract: false, final false
+inline ::ArrayW<::UnityEngine::Keyframe,::Array<::UnityEngine::Keyframe>*> GetKeys() ;
 
-  /// @brief Method GetKeys_Injected, addr 0x690bce8, size 0x44, virtual false, abstract: false, final false
-  static inline void GetKeys_Injected(::System::IntPtr _unity_self, ::ByRef<::UnityEngine::Bindings::BlittableArrayWrapper> ret);
+/// @brief Method GetKeys_Injected, addr 0x690d860, size 0x44, virtual false, abstract: false, final false
+static inline void GetKeys_Injected(::System::IntPtr  _unity_self, ::ByRef<::UnityEngine::Bindings::BlittableArrayWrapper>  ret) ;
 
-  /// @brief Method Internal_CopyFrom, addr 0x690b394, size 0x58, virtual false, abstract: false, final false
-  inline void Internal_CopyFrom(::System::IntPtr other);
+/// @brief Method Internal_CopyFrom, addr 0x690cf0c, size 0x58, virtual false, abstract: false, final false
+inline void Internal_CopyFrom(::System::IntPtr  other) ;
 
-  /// @brief Method Internal_CopyFrom_Injected, addr 0x690b3ec, size 0x44, virtual false, abstract: false, final false
-  static inline void Internal_CopyFrom_Injected(::System::IntPtr _unity_self, ::System::IntPtr other);
+/// @brief Method Internal_CopyFrom_Injected, addr 0x690cf64, size 0x44, virtual false, abstract: false, final false
+static inline void Internal_CopyFrom_Injected(::System::IntPtr  _unity_self, ::System::IntPtr  other) ;
 
-  /// @brief Method Internal_Create, addr 0x690b1f8, size 0xc4, virtual false, abstract: false, final false
-  static inline ::System::IntPtr Internal_Create(::ArrayW<::UnityEngine::Keyframe, ::Array<::UnityEngine::Keyframe>*> keys);
+/// @brief Method Internal_Create, addr 0x690cd70, size 0xc4, virtual false, abstract: false, final false
+static inline ::System::IntPtr Internal_Create(::ArrayW<::UnityEngine::Keyframe,::Array<::UnityEngine::Keyframe>*>  keys) ;
 
-  /// @brief Method Internal_Create_Injected, addr 0x690b2bc, size 0x3c, virtual false, abstract: false, final false
-  static inline ::System::IntPtr Internal_Create_Injected(::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> keys);
+/// @brief Method Internal_Create_Injected, addr 0x690ce34, size 0x3c, virtual false, abstract: false, final false
+static inline ::System::IntPtr Internal_Create_Injected(::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>  keys) ;
 
-  /// @brief Method Internal_Destroy, addr 0x690b1bc, size 0x3c, virtual false, abstract: false, final false
-  static inline void Internal_Destroy(::System::IntPtr ptr);
+/// @brief Method Internal_Destroy, addr 0x690cd34, size 0x3c, virtual false, abstract: false, final false
+static inline void Internal_Destroy(::System::IntPtr  ptr) ;
 
-  /// @brief Method Internal_Equals, addr 0x690b2f8, size 0x58, virtual false, abstract: false, final false
-  inline bool Internal_Equals(::System::IntPtr other);
+/// @brief Method Internal_Equals, addr 0x690ce70, size 0x58, virtual false, abstract: false, final false
+inline bool Internal_Equals(::System::IntPtr  other) ;
 
-  /// @brief Method Internal_Equals_Injected, addr 0x690b350, size 0x44, virtual false, abstract: false, final false
-  static inline bool Internal_Equals_Injected(::System::IntPtr _unity_self, ::System::IntPtr other);
+/// @brief Method Internal_Equals_Injected, addr 0x690cec8, size 0x44, virtual false, abstract: false, final false
+static inline bool Internal_Equals_Injected(::System::IntPtr  _unity_self, ::System::IntPtr  other) ;
 
-  /// @brief Method Linear, addr 0x690be74, size 0x128, virtual false, abstract: false, final false
-  static inline ::UnityEngine::AnimationCurve* Linear(float_t timeStart, float_t valueStart, float_t timeEnd, float_t valueEnd);
+/// @brief Method Linear, addr 0x690d9ec, size 0x128, virtual false, abstract: false, final false
+static inline ::UnityEngine::AnimationCurve* Linear(float_t  timeStart, float_t  valueStart, float_t  timeEnd, float_t  valueEnd) ;
 
-  /// @brief Method MoveKey, addr 0x690b920, size 0x68, virtual false, abstract: false, final false
-  inline int32_t MoveKey(int32_t index, ::UnityEngine::Keyframe key);
+/// @brief Method MoveKey, addr 0x690d498, size 0x68, virtual false, abstract: false, final false
+inline int32_t MoveKey(int32_t  index, ::UnityEngine::Keyframe  key) ;
 
-  /// @brief Method MoveKey_Injected, addr 0x690b988, size 0x54, virtual false, abstract: false, final false
-  static inline int32_t MoveKey_Injected(::System::IntPtr _unity_self, int32_t index, ::ByRef<::UnityEngine::Keyframe> key);
+/// @brief Method MoveKey_Injected, addr 0x690d500, size 0x54, virtual false, abstract: false, final false
+static inline int32_t MoveKey_Injected(::System::IntPtr  _unity_self, int32_t  index, ::ByRef<::UnityEngine::Keyframe>  key) ;
 
-  static inline ::UnityEngine::AnimationCurve* New_ctor();
+static inline ::UnityEngine::AnimationCurve* New_ctor() ;
 
-  static inline ::UnityEngine::AnimationCurve* New_ctor(::ArrayW<::UnityEngine::Keyframe, ::Array<::UnityEngine::Keyframe>*> keys);
+static inline ::UnityEngine::AnimationCurve* New_ctor(::ArrayW<::UnityEngine::Keyframe,::Array<::UnityEngine::Keyframe>*>  keys) ;
 
-  static inline ::UnityEngine::AnimationCurve* New_ctor(::System::IntPtr ptr, bool ownMemory);
+static inline ::UnityEngine::AnimationCurve* New_ctor(::System::IntPtr  ptr, bool  ownMemory) ;
 
-  /// @brief Method RemoveKey, addr 0x690ba68, size 0x58, virtual false, abstract: false, final false
-  inline void RemoveKey(int32_t index);
+/// @brief Method RemoveKey, addr 0x690d5e0, size 0x58, virtual false, abstract: false, final false
+inline void RemoveKey(int32_t  index) ;
 
-  /// @brief Method RemoveKey_Injected, addr 0x690bac0, size 0x44, virtual false, abstract: false, final false
-  static inline void RemoveKey_Injected(::System::IntPtr _unity_self, int32_t index);
+/// @brief Method RemoveKey_Injected, addr 0x690d638, size 0x44, virtual false, abstract: false, final false
+static inline void RemoveKey_Injected(::System::IntPtr  _unity_self, int32_t  index) ;
 
-  /// @brief Method SetKeys, addr 0x690b6ac, size 0xf0, virtual false, abstract: false, final false
-  inline void SetKeys(::ArrayW<::UnityEngine::Keyframe, ::Array<::UnityEngine::Keyframe>*> keys);
+/// @brief Method SetKeys, addr 0x690d224, size 0xf0, virtual false, abstract: false, final false
+inline void SetKeys(::ArrayW<::UnityEngine::Keyframe,::Array<::UnityEngine::Keyframe>*>  keys) ;
 
-  /// @brief Method SetKeys_Injected, addr 0x690bc50, size 0x44, virtual false, abstract: false, final false
-  static inline void SetKeys_Injected(::System::IntPtr _unity_self, ::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> keys);
+/// @brief Method SetKeys_Injected, addr 0x690d7c8, size 0x44, virtual false, abstract: false, final false
+static inline void SetKeys_Injected(::System::IntPtr  _unity_self, ::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>  keys) ;
 
-  /// @brief Method SmoothTangents, addr 0x690bdb8, size 0x68, virtual false, abstract: false, final false
-  inline void SmoothTangents(int32_t index, float_t weight);
+/// @brief Method SmoothTangents, addr 0x690d930, size 0x68, virtual false, abstract: false, final false
+inline void SmoothTangents(int32_t  index, float_t  weight) ;
 
-  /// @brief Method SmoothTangents_Injected, addr 0x690be20, size 0x54, virtual false, abstract: false, final false
-  static inline void SmoothTangents_Injected(::System::IntPtr _unity_self, int32_t index, float_t weight);
+/// @brief Method SmoothTangents_Injected, addr 0x690d998, size 0x54, virtual false, abstract: false, final false
+static inline void SmoothTangents_Injected(::System::IntPtr  _unity_self, int32_t  index, float_t  weight) ;
 
-  constexpr ::System::IntPtr const& __cordl_internal_get_m_Ptr() const;
+constexpr ::System::IntPtr const& __cordl_internal_get_m_Ptr() const;
 
-  constexpr ::System::IntPtr& __cordl_internal_get_m_Ptr();
+constexpr ::System::IntPtr& __cordl_internal_get_m_Ptr() ;
 
-  constexpr bool const& __cordl_internal_get_m_RequiresNativeCleanup() const;
+constexpr bool const& __cordl_internal_get_m_RequiresNativeCleanup() const;
 
-  constexpr bool& __cordl_internal_get_m_RequiresNativeCleanup();
+constexpr bool& __cordl_internal_get_m_RequiresNativeCleanup() ;
 
-  constexpr void __cordl_internal_set_m_Ptr(::System::IntPtr value);
+constexpr void __cordl_internal_set_m_Ptr(::System::IntPtr  value) ;
 
-  constexpr void __cordl_internal_set_m_RequiresNativeCleanup(bool value);
+constexpr void __cordl_internal_set_m_RequiresNativeCleanup(bool  value) ;
 
-  /// @brief Method .ctor, addr 0x690c0d0, size 0x24, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x690dc48, size 0x24, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method .ctor, addr 0x690bf9c, size 0x24, virtual false, abstract: false, final false
-  inline void _ctor(::ArrayW<::UnityEngine::Keyframe, ::Array<::UnityEngine::Keyframe>*> keys);
+/// @brief Method .ctor, addr 0x690db14, size 0x24, virtual false, abstract: false, final false
+inline void _ctor(::ArrayW<::UnityEngine::Keyframe,::Array<::UnityEngine::Keyframe>*>  keys) ;
 
-  /// @brief Method .ctor, addr 0x690c0f4, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor(::System::IntPtr ptr, bool ownMemory);
+/// @brief Method .ctor, addr 0x690dc6c, size 0xc, virtual false, abstract: false, final false
+inline void _ctor(::System::IntPtr  ptr, bool  ownMemory) ;
 
-  /// @brief Method get_Item, addr 0x690bb04, size 0x30, virtual false, abstract: false, final false
-  inline ::UnityEngine::Keyframe get_Item(int32_t index);
+/// @brief Method get_Item, addr 0x690d67c, size 0x30, virtual false, abstract: false, final false
+inline ::UnityEngine::Keyframe get_Item(int32_t  index) ;
 
-  /// @brief Method get_keys, addr 0x690b558, size 0x4, virtual false, abstract: false, final false
-  inline ::ArrayW<::UnityEngine::Keyframe, ::Array<::UnityEngine::Keyframe>*> get_keys();
+/// @brief Method get_keys, addr 0x690d0d0, size 0x4, virtual false, abstract: false, final false
+inline ::ArrayW<::UnityEngine::Keyframe,::Array<::UnityEngine::Keyframe>*> get_keys() ;
 
-  /// @brief Method get_length, addr 0x690bbc4, size 0x50, virtual false, abstract: false, final false
-  inline int32_t get_length();
+/// @brief Method get_length, addr 0x690d73c, size 0x50, virtual false, abstract: false, final false
+inline int32_t get_length() ;
 
-  /// @brief Method get_length_Injected, addr 0x690bc14, size 0x3c, virtual false, abstract: false, final false
-  static inline int32_t get_length_Injected(::System::IntPtr _unity_self);
+/// @brief Method get_length_Injected, addr 0x690d78c, size 0x3c, virtual false, abstract: false, final false
+static inline int32_t get_length_Injected(::System::IntPtr  _unity_self) ;
 
-  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::AnimationCurve*>"
-  constexpr ::System::IEquatable_1<::UnityEngine::AnimationCurve*>* i___System__IEquatable_1___UnityEngine__AnimationCurve__() noexcept;
+/// @brief Convert to "::System::IEquatable_1<::UnityEngine::AnimationCurve*>"
+constexpr ::System::IEquatable_1<::UnityEngine::AnimationCurve*>* i___System__IEquatable_1___UnityEngine__AnimationCurve__() noexcept;
 
-  /// @brief Method set_keys, addr 0x690b6a8, size 0x4, virtual false, abstract: false, final false
-  inline void set_keys(::ArrayW<::UnityEngine::Keyframe, ::Array<::UnityEngine::Keyframe>*> value);
+/// @brief Method set_keys, addr 0x690d220, size 0x4, virtual false, abstract: false, final false
+inline void set_keys(::ArrayW<::UnityEngine::Keyframe,::Array<::UnityEngine::Keyframe>*>  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AnimationCurve();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr AnimationCurve() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AnimationCurve", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  AnimationCurve(AnimationCurve&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AnimationCurve", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  AnimationCurve(AnimationCurve const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "AnimationCurve", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+AnimationCurve(AnimationCurve && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10045 };
+// Ctor Parameters [CppParam { name: "", ty: "AnimationCurve", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+AnimationCurve(AnimationCurve const& ) = delete;
 
-  /// @brief Field m_Ptr, offset: 0x10, size: 0x8, def value: None
-  ::System::IntPtr ___m_Ptr;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10046};
 
-  /// @brief Field m_RequiresNativeCleanup, offset: 0x18, size: 0x1, def value: None
-  bool ___m_RequiresNativeCleanup;
+/// @brief Field m_Ptr, offset: 0x10, size: 0x8, def value: None
+ ::System::IntPtr  ___m_Ptr;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field m_RequiresNativeCleanup, offset: 0x18, size: 0x1, def value: None
+ bool  ___m_RequiresNativeCleanup;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::AnimationCurve, ___m_Ptr) == 0x10, "Offset mismatch!");
@@ -284,7 +285,7 @@ static_assert(offsetof(::UnityEngine::AnimationCurve, ___m_RequiresNativeCleanup
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::AnimationCurve, 0x20>, "Size mismatch!");
 
-} // namespace UnityEngine
+} // namespace end def UnityEngine
 NEED_NO_BOX(::UnityEngine::AnimationCurve);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AnimationCurve*, "UnityEngine", "AnimationCurve");
 NEED_NO_BOX(::UnityEngine::AnimationCurve_BindingsMarshaller);

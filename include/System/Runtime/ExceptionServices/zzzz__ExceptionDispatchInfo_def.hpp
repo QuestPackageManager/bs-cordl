@@ -23,73 +23,73 @@ namespace System::Runtime::ExceptionServices {
 // CS Name: System.Runtime.ExceptionServices.ExceptionDispatchInfo
 class CORDL_TYPE ExceptionDispatchInfo : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = get_BinaryStackTraceArray)) ::System::Object* BinaryStackTraceArray;
+// Declarations
+ __declspec(property(get=get_BinaryStackTraceArray)) ::System::Object*  BinaryStackTraceArray;
 
-  __declspec(property(get = get_SourceException)) ::System::Exception* SourceException;
+ __declspec(property(get=get_SourceException)) ::System::Exception*  SourceException;
 
-  /// @brief Field m_Exception, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Exception, put = __cordl_internal_set_m_Exception)) ::System::Exception* m_Exception;
+/// @brief Field m_Exception, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_Exception, put=__cordl_internal_set_m_Exception)) ::System::Exception*  m_Exception;
 
-  /// @brief Field m_stackTrace, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_stackTrace, put = __cordl_internal_set_m_stackTrace)) ::System::Object* m_stackTrace;
+/// @brief Field m_stackTrace, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_stackTrace, put=__cordl_internal_set_m_stackTrace)) ::System::Object*  m_stackTrace;
 
-  /// @brief Method Capture, addr 0x5a31c34, size 0xbc, virtual false, abstract: false, final false
-  static inline ::System::Runtime::ExceptionServices::ExceptionDispatchInfo* Capture(::System::Exception* source);
+/// @brief Method Capture, addr 0x5a337ac, size 0xbc, virtual false, abstract: false, final false
+static inline ::System::Runtime::ExceptionServices::ExceptionDispatchInfo* Capture(::System::Exception*  source) ;
 
-  static inline ::System::Runtime::ExceptionServices::ExceptionDispatchInfo* New_ctor(::System::Exception* exception);
+static inline ::System::Runtime::ExceptionServices::ExceptionDispatchInfo* New_ctor(::System::Exception*  exception) ;
 
-  /// @brief Method Throw, addr 0x5a31cf8, size 0x44, virtual false, abstract: false, final false
-  inline void Throw();
+/// @brief Method Throw, addr 0x5a33870, size 0x44, virtual false, abstract: false, final false
+inline void Throw() ;
 
-  /// @brief Method Throw, addr 0x5a31d3c, size 0x14, virtual false, abstract: false, final false
-  static inline void Throw(::System::Exception* source);
+/// @brief Method Throw, addr 0x5a338b4, size 0x14, virtual false, abstract: false, final false
+static inline void Throw(::System::Exception*  source) ;
 
-  constexpr ::System::Exception* const& __cordl_internal_get_m_Exception() const;
+constexpr ::System::Exception* const& __cordl_internal_get_m_Exception() const;
 
-  constexpr ::System::Exception*& __cordl_internal_get_m_Exception();
+constexpr ::System::Exception*& __cordl_internal_get_m_Exception() ;
 
-  constexpr ::System::Object* const& __cordl_internal_get_m_stackTrace() const;
+constexpr ::System::Object* const& __cordl_internal_get_m_stackTrace() const;
 
-  constexpr ::System::Object*& __cordl_internal_get_m_stackTrace();
+constexpr ::System::Object*& __cordl_internal_get_m_stackTrace() ;
 
-  constexpr void __cordl_internal_set_m_Exception(::System::Exception* value);
+constexpr void __cordl_internal_set_m_Exception(::System::Exception*  value) ;
 
-  constexpr void __cordl_internal_set_m_stackTrace(::System::Object* value);
+constexpr void __cordl_internal_set_m_stackTrace(::System::Object*  value) ;
 
-  /// @brief Method .ctor, addr 0x5a31b10, size 0x11c, virtual false, abstract: false, final false
-  inline void _ctor(::System::Exception* exception);
+/// @brief Method .ctor, addr 0x5a33688, size 0x11c, virtual false, abstract: false, final false
+inline void _ctor(::System::Exception*  exception) ;
 
-  /// @brief Method get_BinaryStackTraceArray, addr 0x5a31c2c, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Object* get_BinaryStackTraceArray();
+/// @brief Method get_BinaryStackTraceArray, addr 0x5a337a4, size 0x8, virtual false, abstract: false, final false
+inline ::System::Object* get_BinaryStackTraceArray() ;
 
-  /// @brief Method get_SourceException, addr 0x5a31cf0, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Exception* get_SourceException();
+/// @brief Method get_SourceException, addr 0x5a33868, size 0x8, virtual false, abstract: false, final false
+inline ::System::Exception* get_SourceException() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ExceptionDispatchInfo();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ExceptionDispatchInfo() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ExceptionDispatchInfo", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ExceptionDispatchInfo(ExceptionDispatchInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ExceptionDispatchInfo", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ExceptionDispatchInfo(ExceptionDispatchInfo const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ExceptionDispatchInfo", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ExceptionDispatchInfo(ExceptionDispatchInfo && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3362 };
+// Ctor Parameters [CppParam { name: "", ty: "ExceptionDispatchInfo", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ExceptionDispatchInfo(ExceptionDispatchInfo const& ) = delete;
 
-  /// @brief Field m_Exception, offset: 0x10, size: 0x8, def value: None
-  ::System::Exception* ___m_Exception;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{3362};
 
-  /// @brief Field m_stackTrace, offset: 0x18, size: 0x8, def value: None
-  ::System::Object* ___m_stackTrace;
+/// @brief Field m_Exception, offset: 0x10, size: 0x8, def value: None
+ ::System::Exception*  ___m_Exception;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field m_stackTrace, offset: 0x18, size: 0x8, def value: None
+ ::System::Object*  ___m_stackTrace;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Runtime::ExceptionServices::ExceptionDispatchInfo, ___m_Exception) == 0x10, "Offset mismatch!");
@@ -98,6 +98,6 @@ static_assert(offsetof(::System::Runtime::ExceptionServices::ExceptionDispatchIn
 
 static_assert(::cordl_internals::size_check_v<::System::Runtime::ExceptionServices::ExceptionDispatchInfo, 0x20>, "Size mismatch!");
 
-} // namespace System::Runtime::ExceptionServices
+} // namespace end def System::Runtime::ExceptionServices
 NEED_NO_BOX(::System::Runtime::ExceptionServices::ExceptionDispatchInfo);
 DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::ExceptionServices::ExceptionDispatchInfo*, "System.Runtime.ExceptionServices", "ExceptionDispatchInfo");

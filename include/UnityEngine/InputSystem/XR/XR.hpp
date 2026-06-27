@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "UnityEngine/InputSystem/XR/Bone.hpp"
 #include "UnityEngine/InputSystem/XR/BoneControl.hpp"
@@ -21,5 +21,6 @@ module;
 #include "UnityEngine/InputSystem/XR/XRSupport.hpp"
 #include "UnityEngine/InputSystem/XR/XRUtilities.hpp"
 #ifdef __cpp_modules
-export module XR;
-#endif
+                    export module XR;
+                    #endif
+                

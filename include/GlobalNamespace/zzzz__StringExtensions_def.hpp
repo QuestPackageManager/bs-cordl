@@ -22,38 +22,38 @@ namespace GlobalNamespace {
 // CS Name: StringExtensions
 class CORDL_TYPE StringExtensions : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method AnyContains, addr 0x3252314, size 0x88, virtual false, abstract: false, final false
-  static inline bool AnyContains(::ArrayW<::StringW, ::Array<::StringW>*> stringArray, ::StringW value, ::System::StringComparison stringComparison);
+// Declarations
+/// @brief Method AnyContains, addr 0x32530b0, size 0x88, virtual false, abstract: false, final false
+static inline bool AnyContains(::ArrayW<::StringW,::Array<::StringW>*>  stringArray, ::StringW  value, ::System::StringComparison  stringComparison) ;
 
-  /// @brief Method Contains, addr 0x32522ec, size 0x28, virtual false, abstract: false, final false
-  static inline bool Contains(::StringW source, ::StringW substring, ::System::StringComparison comp);
+/// @brief Method Contains, addr 0x3253088, size 0x28, virtual false, abstract: false, final false
+static inline bool Contains(::StringW  source, ::StringW  substring, ::System::StringComparison  comp) ;
 
-  /// @brief Method Truncate, addr 0x3252230, size 0xbc, virtual false, abstract: false, final false
-  static inline ::StringW Truncate(::StringW s, int32_t length, bool appendEllipsis);
+/// @brief Method Truncate, addr 0x3252fcc, size 0xbc, virtual false, abstract: false, final false
+static inline ::StringW Truncate(::StringW  s, int32_t  length, bool  appendEllipsis) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr StringExtensions();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr StringExtensions() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StringExtensions", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  StringExtensions(StringExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StringExtensions", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  StringExtensions(StringExtensions const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "StringExtensions", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+StringExtensions(StringExtensions && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20527 };
+// Ctor Parameters [CppParam { name: "", ty: "StringExtensions", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+StringExtensions(StringExtensions const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20530};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::StringExtensions, 0x10>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::StringExtensions);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::StringExtensions*, "", "StringExtensions");

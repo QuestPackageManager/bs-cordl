@@ -23,81 +23,81 @@ namespace GlobalNamespace {
 // CS Name: LeaderboardEntry
 class CORDL_TYPE LeaderboardEntry : public ::UnityEngine::MonoBehaviour {
 public:
-  // Declarations
-  /// @brief Field _color, offset 0x38, size 0x10
-  __declspec(property(get = __cordl_internal_get__color, put = __cordl_internal_set__color)) ::UnityEngine::Color _color;
+// Declarations
+/// @brief Field _color, offset 0x38, size 0x10 
+ __declspec(property(get=__cordl_internal_get__color, put=__cordl_internal_set__color)) ::UnityEngine::Color  _color;
 
-  /// @brief Field _playerNameText, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__playerNameText, put = __cordl_internal_set__playerNameText)) ::UnityW<::TMPro::TextMeshProUGUI> _playerNameText;
+/// @brief Field _playerNameText, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get__playerNameText, put=__cordl_internal_set__playerNameText)) ::UnityW<::TMPro::TextMeshProUGUI>  _playerNameText;
 
-  /// @brief Field _rankText, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__rankText, put = __cordl_internal_set__rankText)) ::UnityW<::TMPro::TextMeshProUGUI> _rankText;
+/// @brief Field _rankText, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get__rankText, put=__cordl_internal_set__rankText)) ::UnityW<::TMPro::TextMeshProUGUI>  _rankText;
 
-  /// @brief Field _scoreText, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__scoreText, put = __cordl_internal_set__scoreText)) ::UnityW<::TMPro::TextMeshProUGUI> _scoreText;
+/// @brief Field _scoreText, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get__scoreText, put=__cordl_internal_set__scoreText)) ::UnityW<::TMPro::TextMeshProUGUI>  _scoreText;
 
-  static inline ::GlobalNamespace::LeaderboardEntry* New_ctor();
+static inline ::GlobalNamespace::LeaderboardEntry* New_ctor() ;
 
-  /// @brief Method SetScore, addr 0x58da058, size 0x1a0, virtual false, abstract: false, final false
-  inline void SetScore(int32_t score, ::StringW playerName, int32_t rank, bool highlighted, bool showSeparator);
+/// @brief Method SetScore, addr 0x58dba28, size 0x1a0, virtual false, abstract: false, final false
+inline void SetScore(int32_t  score, ::StringW  playerName, int32_t  rank, bool  highlighted, bool  showSeparator) ;
 
-  constexpr ::UnityEngine::Color const& __cordl_internal_get__color() const;
+constexpr ::UnityEngine::Color const& __cordl_internal_get__color() const;
 
-  constexpr ::UnityEngine::Color& __cordl_internal_get__color();
+constexpr ::UnityEngine::Color& __cordl_internal_get__color() ;
 
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__playerNameText() const;
+constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__playerNameText() const;
 
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__playerNameText();
+constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__playerNameText() ;
 
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__rankText() const;
+constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__rankText() const;
 
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__rankText();
+constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__rankText() ;
 
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__scoreText() const;
+constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__scoreText() const;
 
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__scoreText();
+constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__scoreText() ;
 
-  constexpr void __cordl_internal_set__color(::UnityEngine::Color value);
+constexpr void __cordl_internal_set__color(::UnityEngine::Color  value) ;
 
-  constexpr void __cordl_internal_set__playerNameText(::UnityW<::TMPro::TextMeshProUGUI> value);
+constexpr void __cordl_internal_set__playerNameText(::UnityW<::TMPro::TextMeshProUGUI>  value) ;
 
-  constexpr void __cordl_internal_set__rankText(::UnityW<::TMPro::TextMeshProUGUI> value);
+constexpr void __cordl_internal_set__rankText(::UnityW<::TMPro::TextMeshProUGUI>  value) ;
 
-  constexpr void __cordl_internal_set__scoreText(::UnityW<::TMPro::TextMeshProUGUI> value);
+constexpr void __cordl_internal_set__scoreText(::UnityW<::TMPro::TextMeshProUGUI>  value) ;
 
-  /// @brief Method .ctor, addr 0x58da1f8, size 0x10, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x58dbbc8, size 0x10, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LeaderboardEntry();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr LeaderboardEntry() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LeaderboardEntry", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  LeaderboardEntry(LeaderboardEntry&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LeaderboardEntry", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  LeaderboardEntry(LeaderboardEntry const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "LeaderboardEntry", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+LeaderboardEntry(LeaderboardEntry && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6400 };
+// Ctor Parameters [CppParam { name: "", ty: "LeaderboardEntry", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+LeaderboardEntry(LeaderboardEntry const& ) = delete;
 
-  /// @brief Field _scoreText, offset: 0x20, size: 0x8, def value: None
-  ::UnityW<::TMPro::TextMeshProUGUI> ____scoreText;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6400};
 
-  /// @brief Field _playerNameText, offset: 0x28, size: 0x8, def value: None
-  ::UnityW<::TMPro::TextMeshProUGUI> ____playerNameText;
+/// @brief Field _scoreText, offset: 0x20, size: 0x8, def value: None
+ ::UnityW<::TMPro::TextMeshProUGUI>  ____scoreText;
 
-  /// @brief Field _rankText, offset: 0x30, size: 0x8, def value: None
-  ::UnityW<::TMPro::TextMeshProUGUI> ____rankText;
+/// @brief Field _playerNameText, offset: 0x28, size: 0x8, def value: None
+ ::UnityW<::TMPro::TextMeshProUGUI>  ____playerNameText;
 
-  /// @brief Field _color, offset: 0x38, size: 0x10, def value: None
-  ::UnityEngine::Color ____color;
+/// @brief Field _rankText, offset: 0x30, size: 0x8, def value: None
+ ::UnityW<::TMPro::TextMeshProUGUI>  ____rankText;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _color, offset: 0x38, size: 0x10, def value: None
+ ::UnityEngine::Color  ____color;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::LeaderboardEntry, ____scoreText) == 0x20, "Offset mismatch!");
@@ -110,6 +110,6 @@ static_assert(offsetof(::GlobalNamespace::LeaderboardEntry, ____color) == 0x38, 
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LeaderboardEntry, 0x48>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::LeaderboardEntry);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LeaderboardEntry*, "", "LeaderboardEntry");

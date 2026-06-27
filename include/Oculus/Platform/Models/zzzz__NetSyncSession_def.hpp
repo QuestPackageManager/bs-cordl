@@ -22,90 +22,90 @@ namespace Oculus::Platform::Models {
 // CS Name: Oculus.Platform.Models.NetSyncSession
 class CORDL_TYPE NetSyncSession : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field ConnectionId, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_ConnectionId, put = __cordl_internal_set_ConnectionId)) int64_t ConnectionId;
+// Declarations
+/// @brief Field ConnectionId, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_ConnectionId, put=__cordl_internal_set_ConnectionId)) int64_t  ConnectionId;
 
-  /// @brief Field Muted, offset 0x18, size 0x1
-  __declspec(property(get = __cordl_internal_get_Muted, put = __cordl_internal_set_Muted)) bool Muted;
+/// @brief Field Muted, offset 0x18, size 0x1 
+ __declspec(property(get=__cordl_internal_get_Muted, put=__cordl_internal_set_Muted)) bool  Muted;
 
-  /// @brief Field SessionId, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_SessionId, put = __cordl_internal_set_SessionId)) uint64_t SessionId;
+/// @brief Field SessionId, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_SessionId, put=__cordl_internal_set_SessionId)) uint64_t  SessionId;
 
-  /// @brief Field UserId, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_UserId, put = __cordl_internal_set_UserId)) uint64_t UserId;
+/// @brief Field UserId, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get_UserId, put=__cordl_internal_set_UserId)) uint64_t  UserId;
 
-  /// @brief Field VoipGroup, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_VoipGroup, put = __cordl_internal_set_VoipGroup)) ::StringW VoipGroup;
+/// @brief Field VoipGroup, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get_VoipGroup, put=__cordl_internal_set_VoipGroup)) ::StringW  VoipGroup;
 
-  static inline ::Oculus::Platform::Models::NetSyncSession* New_ctor(::System::IntPtr o);
+static inline ::Oculus::Platform::Models::NetSyncSession* New_ctor(::System::IntPtr  o) ;
 
-  constexpr int64_t const& __cordl_internal_get_ConnectionId() const;
+constexpr int64_t const& __cordl_internal_get_ConnectionId() const;
 
-  constexpr int64_t& __cordl_internal_get_ConnectionId();
+constexpr int64_t& __cordl_internal_get_ConnectionId() ;
 
-  constexpr bool const& __cordl_internal_get_Muted() const;
+constexpr bool const& __cordl_internal_get_Muted() const;
 
-  constexpr bool& __cordl_internal_get_Muted();
+constexpr bool& __cordl_internal_get_Muted() ;
 
-  constexpr uint64_t const& __cordl_internal_get_SessionId() const;
+constexpr uint64_t const& __cordl_internal_get_SessionId() const;
 
-  constexpr uint64_t& __cordl_internal_get_SessionId();
+constexpr uint64_t& __cordl_internal_get_SessionId() ;
 
-  constexpr uint64_t const& __cordl_internal_get_UserId() const;
+constexpr uint64_t const& __cordl_internal_get_UserId() const;
 
-  constexpr uint64_t& __cordl_internal_get_UserId();
+constexpr uint64_t& __cordl_internal_get_UserId() ;
 
-  constexpr ::StringW const& __cordl_internal_get_VoipGroup() const;
+constexpr ::StringW const& __cordl_internal_get_VoipGroup() const;
 
-  constexpr ::StringW& __cordl_internal_get_VoipGroup();
+constexpr ::StringW& __cordl_internal_get_VoipGroup() ;
 
-  constexpr void __cordl_internal_set_ConnectionId(int64_t value);
+constexpr void __cordl_internal_set_ConnectionId(int64_t  value) ;
 
-  constexpr void __cordl_internal_set_Muted(bool value);
+constexpr void __cordl_internal_set_Muted(bool  value) ;
 
-  constexpr void __cordl_internal_set_SessionId(uint64_t value);
+constexpr void __cordl_internal_set_SessionId(uint64_t  value) ;
 
-  constexpr void __cordl_internal_set_UserId(uint64_t value);
+constexpr void __cordl_internal_set_UserId(uint64_t  value) ;
 
-  constexpr void __cordl_internal_set_VoipGroup(::StringW value);
+constexpr void __cordl_internal_set_VoipGroup(::StringW  value) ;
 
-  /// @brief Method .ctor, addr 0x5cb4f40, size 0xb4, virtual false, abstract: false, final false
-  inline void _ctor(::System::IntPtr o);
+/// @brief Method .ctor, addr 0x5cb6ab8, size 0xb4, virtual false, abstract: false, final false
+inline void _ctor(::System::IntPtr  o) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NetSyncSession();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr NetSyncSession() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NetSyncSession", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  NetSyncSession(NetSyncSession&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NetSyncSession", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  NetSyncSession(NetSyncSession const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "NetSyncSession", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+NetSyncSession(NetSyncSession && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18049 };
+// Ctor Parameters [CppParam { name: "", ty: "NetSyncSession", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+NetSyncSession(NetSyncSession const& ) = delete;
 
-  /// @brief Field ConnectionId, offset: 0x10, size: 0x8, def value: None
-  int64_t ___ConnectionId;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{18051};
 
-  /// @brief Field Muted, offset: 0x18, size: 0x1, def value: None
-  bool ___Muted;
+/// @brief Field ConnectionId, offset: 0x10, size: 0x8, def value: None
+ int64_t  ___ConnectionId;
 
-  /// @brief Field SessionId, offset: 0x20, size: 0x8, def value: None
-  uint64_t ___SessionId;
+/// @brief Field Muted, offset: 0x18, size: 0x1, def value: None
+ bool  ___Muted;
 
-  /// @brief Field UserId, offset: 0x28, size: 0x8, def value: None
-  uint64_t ___UserId;
+/// @brief Field SessionId, offset: 0x20, size: 0x8, def value: None
+ uint64_t  ___SessionId;
 
-  /// @brief Field VoipGroup, offset: 0x30, size: 0x8, def value: None
-  ::StringW ___VoipGroup;
+/// @brief Field UserId, offset: 0x28, size: 0x8, def value: None
+ uint64_t  ___UserId;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field VoipGroup, offset: 0x30, size: 0x8, def value: None
+ ::StringW  ___VoipGroup;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Oculus::Platform::Models::NetSyncSession, ___ConnectionId) == 0x10, "Offset mismatch!");
@@ -120,6 +120,6 @@ static_assert(offsetof(::Oculus::Platform::Models::NetSyncSession, ___VoipGroup)
 
 static_assert(::cordl_internals::size_check_v<::Oculus::Platform::Models::NetSyncSession, 0x38>, "Size mismatch!");
 
-} // namespace Oculus::Platform::Models
+} // namespace end def Oculus::Platform::Models
 NEED_NO_BOX(::Oculus::Platform::Models::NetSyncSession);
 DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::NetSyncSession*, "Oculus.Platform.Models", "NetSyncSession");

@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "GlobalNamespace/$BurstDirectCallInitializer.hpp"
 #include "GlobalNamespace/AOTEnforcer.hpp"
@@ -943,6 +943,7 @@ module;
 #include "GlobalNamespace/Interpolation.hpp"
 #include "GlobalNamespace/IntroTutorialController.hpp"
 #include "GlobalNamespace/IntroTutorialRing.hpp"
+#include "GlobalNamespace/InvalidBeatmapDataException.hpp"
 #include "GlobalNamespace/InvitePolicy.hpp"
 #include "GlobalNamespace/IsPackBetterBuyThanLevelResult.hpp"
 #include "GlobalNamespace/JoinQuickPlayViewController.hpp"
@@ -2314,5 +2315,6 @@ module;
 #include "GlobalNamespace/ZenjectExtensions.hpp"
 #include "GlobalNamespace/ZenjectSafeBehaviour.hpp"
 #ifdef __cpp_modules
-export module GlobalNamespace;
-#endif
+                    export module GlobalNamespace;
+                    #endif
+                

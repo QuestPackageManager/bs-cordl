@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "System/Text/RegularExpressions/Capture.hpp"
 #include "System/Text/RegularExpressions/CaptureCollection.hpp"
@@ -30,5 +30,6 @@ module;
 #include "System/Text/RegularExpressions/RegexTree.hpp"
 #include "System/Text/RegularExpressions/RegexWriter.hpp"
 #ifdef __cpp_modules
-export module RegularExpressions;
-#endif
+                    export module RegularExpressions;
+                    #endif
+                

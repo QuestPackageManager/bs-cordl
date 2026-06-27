@@ -10,7 +10,8 @@ namespace Newtonsoft::Json::Linq {
 class JToken;
 }
 namespace System::Collections::Generic {
-template <typename T> class IEqualityComparer_1;
+template<typename T>
+class IEqualityComparer_1;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Linq {
@@ -24,46 +25,46 @@ namespace Newtonsoft::Json::Linq {
 // CS Name: Newtonsoft.Json.Linq.JTokenEqualityComparer
 class CORDL_TYPE JTokenEqualityComparer : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Convert operator to "::System::Collections::Generic::IEqualityComparer_1<::Newtonsoft::Json::Linq::JToken*>"
-  constexpr operator ::System::Collections::Generic::IEqualityComparer_1<::Newtonsoft::Json::Linq::JToken*>*() noexcept;
+// Declarations
+/// @brief Convert operator to "::System::Collections::Generic::IEqualityComparer_1<::Newtonsoft::Json::Linq::JToken*>"
+constexpr operator  ::System::Collections::Generic::IEqualityComparer_1<::Newtonsoft::Json::Linq::JToken*>*() noexcept;
 
-  /// @brief Method Equals, addr 0x5c49e70, size 0x9c, virtual true, abstract: false, final true
-  inline bool Equals(::Newtonsoft::Json::Linq::JToken* x, ::Newtonsoft::Json::Linq::JToken* y);
+/// @brief Method Equals, addr 0x5c4b9e8, size 0x9c, virtual true, abstract: false, final true
+inline bool Equals(::Newtonsoft::Json::Linq::JToken*  x, ::Newtonsoft::Json::Linq::JToken*  y) ;
 
-  /// @brief Method GetHashCode, addr 0x5c49f0c, size 0x24, virtual true, abstract: false, final true
-  inline int32_t GetHashCode(::Newtonsoft::Json::Linq::JToken* obj);
+/// @brief Method GetHashCode, addr 0x5c4ba84, size 0x24, virtual true, abstract: false, final true
+inline int32_t GetHashCode(::Newtonsoft::Json::Linq::JToken*  obj) ;
 
-  static inline ::Newtonsoft::Json::Linq::JTokenEqualityComparer* New_ctor();
+static inline ::Newtonsoft::Json::Linq::JTokenEqualityComparer* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x5c49f30, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5c4baa8, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Convert to "::System::Collections::Generic::IEqualityComparer_1<::Newtonsoft::Json::Linq::JToken*>"
-  constexpr ::System::Collections::Generic::IEqualityComparer_1<::Newtonsoft::Json::Linq::JToken*>* i___System__Collections__Generic__IEqualityComparer_1___Newtonsoft__Json__Linq__JToken__() noexcept;
+/// @brief Convert to "::System::Collections::Generic::IEqualityComparer_1<::Newtonsoft::Json::Linq::JToken*>"
+constexpr ::System::Collections::Generic::IEqualityComparer_1<::Newtonsoft::Json::Linq::JToken*>* i___System__Collections__Generic__IEqualityComparer_1___Newtonsoft__Json__Linq__JToken__() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr JTokenEqualityComparer();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr JTokenEqualityComparer() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "JTokenEqualityComparer", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  JTokenEqualityComparer(JTokenEqualityComparer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "JTokenEqualityComparer", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  JTokenEqualityComparer(JTokenEqualityComparer const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "JTokenEqualityComparer", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+JTokenEqualityComparer(JTokenEqualityComparer && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13598 };
+// Ctor Parameters [CppParam { name: "", ty: "JTokenEqualityComparer", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+JTokenEqualityComparer(JTokenEqualityComparer const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{13599};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Linq::JTokenEqualityComparer, 0x10>, "Size mismatch!");
 
-} // namespace Newtonsoft::Json::Linq
+} // namespace end def Newtonsoft::Json::Linq
 NEED_NO_BOX(::Newtonsoft::Json::Linq::JTokenEqualityComparer);
 DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Linq::JTokenEqualityComparer*, "Newtonsoft.Json.Linq", "JTokenEqualityComparer");

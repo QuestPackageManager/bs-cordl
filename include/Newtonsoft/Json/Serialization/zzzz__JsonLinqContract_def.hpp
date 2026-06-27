@@ -20,34 +20,34 @@ namespace Newtonsoft::Json::Serialization {
 // CS Name: Newtonsoft.Json.Serialization.JsonLinqContract
 class CORDL_TYPE JsonLinqContract : public ::Newtonsoft::Json::Serialization::JsonContract {
 public:
-  // Declarations
-  static inline ::Newtonsoft::Json::Serialization::JsonLinqContract* New_ctor(::System::Type* underlyingType);
+// Declarations
+static inline ::Newtonsoft::Json::Serialization::JsonLinqContract* New_ctor(::System::Type*  underlyingType) ;
 
-  /// @brief Method .ctor, addr 0x5c01140, size 0x1c, virtual false, abstract: false, final false
-  inline void _ctor(::System::Type* underlyingType);
+/// @brief Method .ctor, addr 0x5c02cb8, size 0x1c, virtual false, abstract: false, final false
+inline void _ctor(::System::Type*  underlyingType) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr JsonLinqContract();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr JsonLinqContract() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "JsonLinqContract", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  JsonLinqContract(JsonLinqContract&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "JsonLinqContract", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  JsonLinqContract(JsonLinqContract const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "JsonLinqContract", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+JsonLinqContract(JsonLinqContract && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13494 };
+// Ctor Parameters [CppParam { name: "", ty: "JsonLinqContract", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+JsonLinqContract(JsonLinqContract const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{13495};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Serialization::JsonLinqContract, 0x90>, "Size mismatch!");
 
-} // namespace Newtonsoft::Json::Serialization
+} // namespace end def Newtonsoft::Json::Serialization
 NEED_NO_BOX(::Newtonsoft::Json::Serialization::JsonLinqContract);
 DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Serialization::JsonLinqContract*, "Newtonsoft.Json.Serialization", "JsonLinqContract");

@@ -22,86 +22,86 @@ namespace System::ComponentModel {
 // CS Name: System.ComponentModel.CategoryAttribute
 class CORDL_TYPE CategoryAttribute : public ::System::Attribute {
 public:
-  // Declarations
-  __declspec(property(get = get_Category)) ::StringW Category;
+// Declarations
+ __declspec(property(get=get_Category)) ::StringW  Category;
 
-  /// @brief Field categoryValue, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_categoryValue, put = __cordl_internal_set_categoryValue)) ::StringW categoryValue;
+/// @brief Field categoryValue, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_categoryValue, put=__cordl_internal_set_categoryValue)) ::StringW  categoryValue;
 
-  /// @brief Field defAttr, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_defAttr, put = setStaticF_defAttr)) ::System::ComponentModel::CategoryAttribute* defAttr;
+/// @brief Field defAttr, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_defAttr, put=setStaticF_defAttr)) ::System::ComponentModel::CategoryAttribute*  defAttr;
 
-  /// @brief Field localized, offset 0x10, size 0x1
-  __declspec(property(get = __cordl_internal_get_localized, put = __cordl_internal_set_localized)) bool localized;
+/// @brief Field localized, offset 0x10, size 0x1 
+ __declspec(property(get=__cordl_internal_get_localized, put=__cordl_internal_set_localized)) bool  localized;
 
-  /// @brief Method Equals, addr 0x62871fc, size 0x144, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* obj);
+/// @brief Method Equals, addr 0x6288d74, size 0x144, virtual true, abstract: false, final false
+inline bool Equals(::System::Object*  obj) ;
 
-  /// @brief Method GetHashCode, addr 0x6287340, size 0x50, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
+/// @brief Method GetHashCode, addr 0x6288eb8, size 0x50, virtual true, abstract: false, final false
+inline int32_t GetHashCode() ;
 
-  /// @brief Method GetLocalizedString, addr 0x6287390, size 0x40c, virtual true, abstract: false, final false
-  inline ::StringW GetLocalizedString(::StringW value);
+/// @brief Method GetLocalizedString, addr 0x6288f08, size 0x40c, virtual true, abstract: false, final false
+inline ::StringW GetLocalizedString(::StringW  value) ;
 
-  /// @brief Method IsDefaultAttribute, addr 0x628779c, size 0x94, virtual true, abstract: false, final false
-  inline bool IsDefaultAttribute();
+/// @brief Method IsDefaultAttribute, addr 0x6289314, size 0x94, virtual true, abstract: false, final false
+inline bool IsDefaultAttribute() ;
 
-  static inline ::System::ComponentModel::CategoryAttribute* New_ctor();
+static inline ::System::ComponentModel::CategoryAttribute* New_ctor() ;
 
-  static inline ::System::ComponentModel::CategoryAttribute* New_ctor(::StringW category);
+static inline ::System::ComponentModel::CategoryAttribute* New_ctor(::StringW  category) ;
 
-  constexpr ::StringW const& __cordl_internal_get_categoryValue() const;
+constexpr ::StringW const& __cordl_internal_get_categoryValue() const;
 
-  constexpr ::StringW& __cordl_internal_get_categoryValue();
+constexpr ::StringW& __cordl_internal_get_categoryValue() ;
 
-  constexpr bool const& __cordl_internal_get_localized() const;
+constexpr bool const& __cordl_internal_get_localized() const;
 
-  constexpr bool& __cordl_internal_get_localized();
+constexpr bool& __cordl_internal_get_localized() ;
 
-  constexpr void __cordl_internal_set_categoryValue(::StringW value);
+constexpr void __cordl_internal_set_categoryValue(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_localized(bool value);
+constexpr void __cordl_internal_set_localized(bool  value) ;
 
-  /// @brief Method .ctor, addr 0x6287160, size 0x50, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6288cd8, size 0x50, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method .ctor, addr 0x62871b0, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor(::StringW category);
+/// @brief Method .ctor, addr 0x6288d28, size 0xc, virtual false, abstract: false, final false
+inline void _ctor(::StringW  category) ;
 
-  static inline ::System::ComponentModel::CategoryAttribute* getStaticF_defAttr();
+static inline ::System::ComponentModel::CategoryAttribute* getStaticF_defAttr() ;
 
-  /// @brief Method get_Category, addr 0x62871bc, size 0x40, virtual false, abstract: false, final false
-  inline ::StringW get_Category();
+/// @brief Method get_Category, addr 0x6288d34, size 0x40, virtual false, abstract: false, final false
+inline ::StringW get_Category() ;
 
-  /// @brief Method get_Default, addr 0x62870a0, size 0xc0, virtual false, abstract: false, final false
-  static inline ::System::ComponentModel::CategoryAttribute* get_Default();
+/// @brief Method get_Default, addr 0x6288c18, size 0xc0, virtual false, abstract: false, final false
+static inline ::System::ComponentModel::CategoryAttribute* get_Default() ;
 
-  static inline void setStaticF_defAttr(::System::ComponentModel::CategoryAttribute* value);
+static inline void setStaticF_defAttr(::System::ComponentModel::CategoryAttribute*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CategoryAttribute();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr CategoryAttribute() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CategoryAttribute", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  CategoryAttribute(CategoryAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CategoryAttribute", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  CategoryAttribute(CategoryAttribute const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "CategoryAttribute", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+CategoryAttribute(CategoryAttribute && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11302 };
+// Ctor Parameters [CppParam { name: "", ty: "CategoryAttribute", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+CategoryAttribute(CategoryAttribute const& ) = delete;
 
-  /// @brief Field localized, offset: 0x10, size: 0x1, def value: None
-  bool ___localized;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11303};
 
-  /// @brief Field categoryValue, offset: 0x18, size: 0x8, def value: None
-  ::StringW ___categoryValue;
+/// @brief Field localized, offset: 0x10, size: 0x1, def value: None
+ bool  ___localized;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field categoryValue, offset: 0x18, size: 0x8, def value: None
+ ::StringW  ___categoryValue;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::ComponentModel::CategoryAttribute, ___localized) == 0x10, "Offset mismatch!");
@@ -110,6 +110,6 @@ static_assert(offsetof(::System::ComponentModel::CategoryAttribute, ___categoryV
 
 static_assert(::cordl_internals::size_check_v<::System::ComponentModel::CategoryAttribute, 0x20>, "Size mismatch!");
 
-} // namespace System::ComponentModel
+} // namespace end def System::ComponentModel
 NEED_NO_BOX(::System::ComponentModel::CategoryAttribute);
 DEFINE_IL2CPP_ARG_TYPE(::System::ComponentModel::CategoryAttribute*, "System.ComponentModel", "CategoryAttribute");

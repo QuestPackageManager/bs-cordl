@@ -18,112 +18,112 @@ namespace BeatSaber::Analytics::Gameplay::Events {
 // CS Name: BeatSaber.Analytics.Gameplay.Events.SpaceshipSegmentType
 class CORDL_TYPE SpaceshipSegmentType : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field Cutscene, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_Cutscene, put = setStaticF_Cutscene)) ::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentType* Cutscene;
+// Declarations
+/// @brief Field Cutscene, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_Cutscene, put=setStaticF_Cutscene)) ::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentType*  Cutscene;
 
-  /// @brief Field Loading, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_Loading, put = setStaticF_Loading)) ::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentType* Loading;
+/// @brief Field Loading, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_Loading, put=setStaticF_Loading)) ::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentType*  Loading;
 
-  /// @brief Field Lobby, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_Lobby, put = setStaticF_Lobby)) ::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentType* Lobby;
+/// @brief Field Lobby, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_Lobby, put=setStaticF_Lobby)) ::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentType*  Lobby;
 
-  /// @brief Field Main, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_Main, put = setStaticF_Main)) ::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentType* Main;
+/// @brief Field Main, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_Main, put=setStaticF_Main)) ::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentType*  Main;
 
-  /// @brief Field Menu, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_Menu, put = setStaticF_Menu)) ::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentType* Menu;
+/// @brief Field Menu, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_Menu, put=setStaticF_Menu)) ::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentType*  Menu;
 
-  /// @brief Field Other, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_Other, put = setStaticF_Other)) ::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentType* Other;
+/// @brief Field Other, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_Other, put=setStaticF_Other)) ::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentType*  Other;
 
-  /// @brief Field Store, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_Store, put = setStaticF_Store)) ::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentType* Store;
+/// @brief Field Store, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_Store, put=setStaticF_Store)) ::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentType*  Store;
 
-  /// @brief Field Tutorial, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_Tutorial, put = setStaticF_Tutorial)) ::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentType* Tutorial;
+/// @brief Field Tutorial, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_Tutorial, put=setStaticF_Tutorial)) ::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentType*  Tutorial;
 
-  __declspec(property(get = get_Value)) ::StringW Value;
+ __declspec(property(get=get_Value)) ::StringW  Value;
 
-  /// @brief Field <Value>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__Value_k__BackingField, put = __cordl_internal_set__Value_k__BackingField)) ::StringW _Value_k__BackingField;
+/// @brief Field <Value>k__BackingField, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get__Value_k__BackingField, put=__cordl_internal_set__Value_k__BackingField)) ::StringW  _Value_k__BackingField;
 
-  static inline ::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentType* New_ctor(::StringW value);
+static inline ::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentType* New_ctor(::StringW  value) ;
 
-  /// @brief Method ToString, addr 0x31d0894, size 0x8, virtual true, abstract: false, final false
-  inline ::StringW ToString();
+/// @brief Method ToString, addr 0x31d15b4, size 0x8, virtual true, abstract: false, final false
+inline ::StringW ToString() ;
 
-  constexpr ::StringW const& __cordl_internal_get__Value_k__BackingField() const;
+constexpr ::StringW const& __cordl_internal_get__Value_k__BackingField() const;
 
-  constexpr ::StringW& __cordl_internal_get__Value_k__BackingField();
+constexpr ::StringW& __cordl_internal_get__Value_k__BackingField() ;
 
-  constexpr void __cordl_internal_set__Value_k__BackingField(::StringW value);
+constexpr void __cordl_internal_set__Value_k__BackingField(::StringW  value) ;
 
-  /// @brief Method .ctor, addr 0x31d088c, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::StringW value);
+/// @brief Method .ctor, addr 0x31d15ac, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(::StringW  value) ;
 
-  static inline ::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentType* getStaticF_Cutscene();
+static inline ::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentType* getStaticF_Cutscene() ;
 
-  static inline ::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentType* getStaticF_Loading();
+static inline ::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentType* getStaticF_Loading() ;
 
-  static inline ::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentType* getStaticF_Lobby();
+static inline ::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentType* getStaticF_Lobby() ;
 
-  static inline ::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentType* getStaticF_Main();
+static inline ::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentType* getStaticF_Main() ;
 
-  static inline ::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentType* getStaticF_Menu();
+static inline ::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentType* getStaticF_Menu() ;
 
-  static inline ::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentType* getStaticF_Other();
+static inline ::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentType* getStaticF_Other() ;
 
-  static inline ::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentType* getStaticF_Store();
+static inline ::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentType* getStaticF_Store() ;
 
-  static inline ::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentType* getStaticF_Tutorial();
+static inline ::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentType* getStaticF_Tutorial() ;
 
-  /// @brief Method get_Value, addr 0x31d0884, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_Value();
+/// @brief Method get_Value, addr 0x31d15a4, size 0x8, virtual false, abstract: false, final false
+inline ::StringW get_Value() ;
 
-  static inline void setStaticF_Cutscene(::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentType* value);
+static inline void setStaticF_Cutscene(::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentType*  value) ;
 
-  static inline void setStaticF_Loading(::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentType* value);
+static inline void setStaticF_Loading(::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentType*  value) ;
 
-  static inline void setStaticF_Lobby(::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentType* value);
+static inline void setStaticF_Lobby(::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentType*  value) ;
 
-  static inline void setStaticF_Main(::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentType* value);
+static inline void setStaticF_Main(::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentType*  value) ;
 
-  static inline void setStaticF_Menu(::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentType* value);
+static inline void setStaticF_Menu(::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentType*  value) ;
 
-  static inline void setStaticF_Other(::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentType* value);
+static inline void setStaticF_Other(::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentType*  value) ;
 
-  static inline void setStaticF_Store(::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentType* value);
+static inline void setStaticF_Store(::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentType*  value) ;
 
-  static inline void setStaticF_Tutorial(::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentType* value);
+static inline void setStaticF_Tutorial(::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentType*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SpaceshipSegmentType();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr SpaceshipSegmentType() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SpaceshipSegmentType", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  SpaceshipSegmentType(SpaceshipSegmentType&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SpaceshipSegmentType", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  SpaceshipSegmentType(SpaceshipSegmentType const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "SpaceshipSegmentType", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+SpaceshipSegmentType(SpaceshipSegmentType && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22110 };
+// Ctor Parameters [CppParam { name: "", ty: "SpaceshipSegmentType", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+SpaceshipSegmentType(SpaceshipSegmentType const& ) = delete;
 
-  /// @brief Field <Value>k__BackingField, offset: 0x10, size: 0x8, def value: None
-  ::StringW ____Value_k__BackingField;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22114};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field <Value>k__BackingField, offset: 0x10, size: 0x8, def value: None
+ ::StringW  ____Value_k__BackingField;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentType, ____Value_k__BackingField) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentType, 0x18>, "Size mismatch!");
 
-} // namespace BeatSaber::Analytics::Gameplay::Events
+} // namespace end def BeatSaber::Analytics::Gameplay::Events
 NEED_NO_BOX(::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentType);
 DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentType*, "BeatSaber.Analytics.Gameplay.Events", "SpaceshipSegmentType");

@@ -28,48 +28,48 @@ namespace System::ComponentModel {
 // CS Name: System.ComponentModel.Int16Converter
 class CORDL_TYPE Int16Converter : public ::System::ComponentModel::BaseNumberConverter {
 public:
-  // Declarations
-  __declspec(property(get = get_TargetType)) ::System::Type* TargetType;
+// Declarations
+ __declspec(property(get=get_TargetType)) ::System::Type*  TargetType;
 
-  /// @brief Method FromString, addr 0x627f350, size 0x34, virtual true, abstract: false, final false
-  inline ::System::Object* FromString(::StringW value, ::System::Globalization::NumberFormatInfo* formatInfo);
+/// @brief Method FromString, addr 0x6280ec8, size 0x34, virtual true, abstract: false, final false
+inline ::System::Object* FromString(::StringW  value, ::System::Globalization::NumberFormatInfo*  formatInfo) ;
 
-  /// @brief Method FromString, addr 0x627f2c8, size 0x88, virtual true, abstract: false, final false
-  inline ::System::Object* FromString(::StringW value, int32_t radix);
+/// @brief Method FromString, addr 0x6280e40, size 0x88, virtual true, abstract: false, final false
+inline ::System::Object* FromString(::StringW  value, int32_t  radix) ;
 
-  static inline ::System::ComponentModel::Int16Converter* New_ctor();
+static inline ::System::ComponentModel::Int16Converter* New_ctor() ;
 
-  /// @brief Method ToString, addr 0x627f384, size 0x98, virtual true, abstract: false, final false
-  inline ::StringW ToString(::System::Object* value, ::System::Globalization::NumberFormatInfo* formatInfo);
+/// @brief Method ToString, addr 0x6280efc, size 0x98, virtual true, abstract: false, final false
+inline ::StringW ToString(::System::Object*  value, ::System::Globalization::NumberFormatInfo*  formatInfo) ;
 
-  /// @brief Method .ctor, addr 0x627f41c, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6280f94, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_TargetType, addr 0x627f298, size 0x30, virtual true, abstract: false, final false
-  inline ::System::Type* get_TargetType();
+/// @brief Method get_TargetType, addr 0x6280e10, size 0x30, virtual true, abstract: false, final false
+inline ::System::Type* get_TargetType() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Int16Converter();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr Int16Converter() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Int16Converter", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  Int16Converter(Int16Converter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Int16Converter", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  Int16Converter(Int16Converter const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "Int16Converter", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Int16Converter(Int16Converter && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11261 };
+// Ctor Parameters [CppParam { name: "", ty: "Int16Converter", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Int16Converter(Int16Converter const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11262};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::ComponentModel::Int16Converter, 0x10>, "Size mismatch!");
 
-} // namespace System::ComponentModel
+} // namespace end def System::ComponentModel
 NEED_NO_BOX(::System::ComponentModel::Int16Converter);
 DEFINE_IL2CPP_ARG_TYPE(::System::ComponentModel::Int16Converter*, "System.ComponentModel", "Int16Converter");

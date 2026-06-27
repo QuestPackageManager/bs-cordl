@@ -45,130 +45,129 @@ namespace System::Runtime::Remoting {
 // CS Name: System.Runtime.Remoting.ServerIdentity
 class CORDL_TYPE ServerIdentity : public ::System::Runtime::Remoting::Identity {
 public:
-  // Declarations
-  __declspec(property(get = get_Context, put = set_Context)) ::System::Runtime::Remoting::Contexts::Context* Context;
+// Declarations
+ __declspec(property(get=get_Context, put=set_Context)) ::System::Runtime::Remoting::Contexts::Context*  Context;
 
-  __declspec(property(get = get_Lease)) ::System::Runtime::Remoting::Lifetime::Lease* Lease;
+ __declspec(property(get=get_Lease)) ::System::Runtime::Remoting::Lifetime::Lease*  Lease;
 
-  __declspec(property(get = get_ObjectType)) ::System::Type* ObjectType;
+ __declspec(property(get=get_ObjectType)) ::System::Type*  ObjectType;
 
-  /// @brief Field _context, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get__context, put = __cordl_internal_set__context)) ::System::Runtime::Remoting::Contexts::Context* _context;
+/// @brief Field _context, offset 0x60, size 0x8 
+ __declspec(property(get=__cordl_internal_get__context, put=__cordl_internal_set__context)) ::System::Runtime::Remoting::Contexts::Context*  _context;
 
-  /// @brief Field _lease, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get__lease, put = __cordl_internal_set__lease)) ::System::Runtime::Remoting::Lifetime::Lease* _lease;
+/// @brief Field _lease, offset 0x68, size 0x8 
+ __declspec(property(get=__cordl_internal_get__lease, put=__cordl_internal_set__lease)) ::System::Runtime::Remoting::Lifetime::Lease*  _lease;
 
-  /// @brief Field _objectType, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__objectType, put = __cordl_internal_set__objectType)) ::System::Type* _objectType;
+/// @brief Field _objectType, offset 0x48, size 0x8 
+ __declspec(property(get=__cordl_internal_get__objectType, put=__cordl_internal_set__objectType)) ::System::Type*  _objectType;
 
-  /// @brief Field _serverObject, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get__serverObject, put = __cordl_internal_set__serverObject)) ::System::MarshalByRefObject* _serverObject;
+/// @brief Field _serverObject, offset 0x50, size 0x8 
+ __declspec(property(get=__cordl_internal_get__serverObject, put=__cordl_internal_set__serverObject)) ::System::MarshalByRefObject*  _serverObject;
 
-  /// @brief Field _serverSink, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get__serverSink, put = __cordl_internal_set__serverSink)) ::System::Runtime::Remoting::Messaging::IMessageSink* _serverSink;
+/// @brief Field _serverSink, offset 0x58, size 0x8 
+ __declspec(property(get=__cordl_internal_get__serverSink, put=__cordl_internal_set__serverSink)) ::System::Runtime::Remoting::Messaging::IMessageSink*  _serverSink;
 
-  /// @brief Method AsyncObjectProcessMessage, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline ::System::Runtime::Remoting::Messaging::IMessageCtrl* AsyncObjectProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg,
-                                                                                         ::System::Runtime::Remoting::Messaging::IMessageSink* replySink);
+/// @brief Method AsyncObjectProcessMessage, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline ::System::Runtime::Remoting::Messaging::IMessageCtrl* AsyncObjectProcessMessage(::System::Runtime::Remoting::Messaging::IMessage*  msg, ::System::Runtime::Remoting::Messaging::IMessageSink*  replySink) ;
 
-  /// @brief Method AttachServerObject, addr 0x59ef834, size 0x60, virtual false, abstract: false, final false
-  inline void AttachServerObject(::System::MarshalByRefObject* serverObject, ::System::Runtime::Remoting::Contexts::Context* context);
+/// @brief Method AttachServerObject, addr 0x59f13ac, size 0x60, virtual false, abstract: false, final false
+inline void AttachServerObject(::System::MarshalByRefObject*  serverObject, ::System::Runtime::Remoting::Contexts::Context*  context) ;
 
-  /// @brief Method CreateObjRef, addr 0x59f0a44, size 0x18c, virtual true, abstract: false, final false
-  inline ::System::Runtime::Remoting::ObjRef* CreateObjRef(::System::Type* requestedType);
+/// @brief Method CreateObjRef, addr 0x59f25bc, size 0x18c, virtual true, abstract: false, final false
+inline ::System::Runtime::Remoting::ObjRef* CreateObjRef(::System::Type*  requestedType) ;
 
-  /// @brief Method DisposeServerObject, addr 0x59f09f0, size 0x54, virtual false, abstract: false, final false
-  inline void DisposeServerObject();
+/// @brief Method DisposeServerObject, addr 0x59f2568, size 0x54, virtual false, abstract: false, final false
+inline void DisposeServerObject() ;
 
-  static inline ::System::Runtime::Remoting::ServerIdentity* New_ctor(::StringW objectUri, ::System::Runtime::Remoting::Contexts::Context* context, ::System::Type* objectType);
+static inline ::System::Runtime::Remoting::ServerIdentity* New_ctor(::StringW  objectUri, ::System::Runtime::Remoting::Contexts::Context*  context, ::System::Type*  objectType) ;
 
-  /// @brief Method OnLifetimeExpired, addr 0x59f09ec, size 0x4, virtual true, abstract: false, final false
-  inline void OnLifetimeExpired();
+/// @brief Method OnLifetimeExpired, addr 0x59f2564, size 0x4, virtual true, abstract: false, final false
+inline void OnLifetimeExpired() ;
 
-  /// @brief Method StartTrackingLifetime, addr 0x59ed458, size 0x1ac, virtual false, abstract: false, final false
-  inline void StartTrackingLifetime(::System::Runtime::Remoting::Lifetime::ILease* lease);
+/// @brief Method StartTrackingLifetime, addr 0x59eefd0, size 0x1ac, virtual false, abstract: false, final false
+inline void StartTrackingLifetime(::System::Runtime::Remoting::Lifetime::ILease*  lease) ;
 
-  /// @brief Method SyncObjectProcessMessage, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline ::System::Runtime::Remoting::Messaging::IMessage* SyncObjectProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg);
+/// @brief Method SyncObjectProcessMessage, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline ::System::Runtime::Remoting::Messaging::IMessage* SyncObjectProcessMessage(::System::Runtime::Remoting::Messaging::IMessage*  msg) ;
 
-  constexpr ::System::Runtime::Remoting::Contexts::Context* const& __cordl_internal_get__context() const;
+constexpr ::System::Runtime::Remoting::Contexts::Context* const& __cordl_internal_get__context() const;
 
-  constexpr ::System::Runtime::Remoting::Contexts::Context*& __cordl_internal_get__context();
+constexpr ::System::Runtime::Remoting::Contexts::Context*& __cordl_internal_get__context() ;
 
-  constexpr ::System::Runtime::Remoting::Lifetime::Lease* const& __cordl_internal_get__lease() const;
+constexpr ::System::Runtime::Remoting::Lifetime::Lease* const& __cordl_internal_get__lease() const;
 
-  constexpr ::System::Runtime::Remoting::Lifetime::Lease*& __cordl_internal_get__lease();
+constexpr ::System::Runtime::Remoting::Lifetime::Lease*& __cordl_internal_get__lease() ;
 
-  constexpr ::System::Type* const& __cordl_internal_get__objectType() const;
+constexpr ::System::Type* const& __cordl_internal_get__objectType() const;
 
-  constexpr ::System::Type*& __cordl_internal_get__objectType();
+constexpr ::System::Type*& __cordl_internal_get__objectType() ;
 
-  constexpr ::System::MarshalByRefObject* const& __cordl_internal_get__serverObject() const;
+constexpr ::System::MarshalByRefObject* const& __cordl_internal_get__serverObject() const;
 
-  constexpr ::System::MarshalByRefObject*& __cordl_internal_get__serverObject();
+constexpr ::System::MarshalByRefObject*& __cordl_internal_get__serverObject() ;
 
-  constexpr ::System::Runtime::Remoting::Messaging::IMessageSink* const& __cordl_internal_get__serverSink() const;
+constexpr ::System::Runtime::Remoting::Messaging::IMessageSink* const& __cordl_internal_get__serverSink() const;
 
-  constexpr ::System::Runtime::Remoting::Messaging::IMessageSink*& __cordl_internal_get__serverSink();
+constexpr ::System::Runtime::Remoting::Messaging::IMessageSink*& __cordl_internal_get__serverSink() ;
 
-  constexpr void __cordl_internal_set__context(::System::Runtime::Remoting::Contexts::Context* value);
+constexpr void __cordl_internal_set__context(::System::Runtime::Remoting::Contexts::Context*  value) ;
 
-  constexpr void __cordl_internal_set__lease(::System::Runtime::Remoting::Lifetime::Lease* value);
+constexpr void __cordl_internal_set__lease(::System::Runtime::Remoting::Lifetime::Lease*  value) ;
 
-  constexpr void __cordl_internal_set__objectType(::System::Type* value);
+constexpr void __cordl_internal_set__objectType(::System::Type*  value) ;
 
-  constexpr void __cordl_internal_set__serverObject(::System::MarshalByRefObject* value);
+constexpr void __cordl_internal_set__serverObject(::System::MarshalByRefObject*  value) ;
 
-  constexpr void __cordl_internal_set__serverSink(::System::Runtime::Remoting::Messaging::IMessageSink* value);
+constexpr void __cordl_internal_set__serverSink(::System::Runtime::Remoting::Messaging::IMessageSink*  value) ;
 
-  /// @brief Method .ctor, addr 0x59f07ec, size 0x10, virtual false, abstract: false, final false
-  inline void _ctor(::StringW objectUri, ::System::Runtime::Remoting::Contexts::Context* context, ::System::Type* objectType);
+/// @brief Method .ctor, addr 0x59f2364, size 0x10, virtual false, abstract: false, final false
+inline void _ctor(::StringW  objectUri, ::System::Runtime::Remoting::Contexts::Context*  context, ::System::Type*  objectType) ;
 
-  /// @brief Method get_Context, addr 0x59f1104, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Runtime::Remoting::Contexts::Context* get_Context();
+/// @brief Method get_Context, addr 0x59f2c7c, size 0x8, virtual false, abstract: false, final false
+inline ::System::Runtime::Remoting::Contexts::Context* get_Context() ;
 
-  /// @brief Method get_Lease, addr 0x59f10fc, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Runtime::Remoting::Lifetime::Lease* get_Lease();
+/// @brief Method get_Lease, addr 0x59f2c74, size 0x8, virtual false, abstract: false, final false
+inline ::System::Runtime::Remoting::Lifetime::Lease* get_Lease() ;
 
-  /// @brief Method get_ObjectType, addr 0x59f07fc, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Type* get_ObjectType();
+/// @brief Method get_ObjectType, addr 0x59f2374, size 0x8, virtual false, abstract: false, final false
+inline ::System::Type* get_ObjectType() ;
 
-  /// @brief Method set_Context, addr 0x59f110c, size 0x8, virtual false, abstract: false, final false
-  inline void set_Context(::System::Runtime::Remoting::Contexts::Context* value);
+/// @brief Method set_Context, addr 0x59f2c84, size 0x8, virtual false, abstract: false, final false
+inline void set_Context(::System::Runtime::Remoting::Contexts::Context*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ServerIdentity();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ServerIdentity() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ServerIdentity", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ServerIdentity(ServerIdentity&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ServerIdentity", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ServerIdentity(ServerIdentity const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ServerIdentity", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ServerIdentity(ServerIdentity && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3088 };
+// Ctor Parameters [CppParam { name: "", ty: "ServerIdentity", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ServerIdentity(ServerIdentity const& ) = delete;
 
-  /// @brief Field _objectType, offset: 0x48, size: 0x8, def value: None
-  ::System::Type* ____objectType;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{3088};
 
-  /// @brief Field _serverObject, offset: 0x50, size: 0x8, def value: None
-  ::System::MarshalByRefObject* ____serverObject;
+/// @brief Field _objectType, offset: 0x48, size: 0x8, def value: None
+ ::System::Type*  ____objectType;
 
-  /// @brief Field _serverSink, offset: 0x58, size: 0x8, def value: None
-  ::System::Runtime::Remoting::Messaging::IMessageSink* ____serverSink;
+/// @brief Field _serverObject, offset: 0x50, size: 0x8, def value: None
+ ::System::MarshalByRefObject*  ____serverObject;
 
-  /// @brief Field _context, offset: 0x60, size: 0x8, def value: None
-  ::System::Runtime::Remoting::Contexts::Context* ____context;
+/// @brief Field _serverSink, offset: 0x58, size: 0x8, def value: None
+ ::System::Runtime::Remoting::Messaging::IMessageSink*  ____serverSink;
 
-  /// @brief Field _lease, offset: 0x68, size: 0x8, def value: None
-  ::System::Runtime::Remoting::Lifetime::Lease* ____lease;
+/// @brief Field _context, offset: 0x60, size: 0x8, def value: None
+ ::System::Runtime::Remoting::Contexts::Context*  ____context;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _lease, offset: 0x68, size: 0x8, def value: None
+ ::System::Runtime::Remoting::Lifetime::Lease*  ____lease;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Runtime::Remoting::ServerIdentity, ____objectType) == 0x48, "Offset mismatch!");
@@ -183,6 +182,6 @@ static_assert(offsetof(::System::Runtime::Remoting::ServerIdentity, ____lease) =
 
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Remoting::ServerIdentity, 0x70>, "Size mismatch!");
 
-} // namespace System::Runtime::Remoting
+} // namespace end def System::Runtime::Remoting
 NEED_NO_BOX(::System::Runtime::Remoting::ServerIdentity);
 DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::ServerIdentity*, "System.Runtime.Remoting", "ServerIdentity");

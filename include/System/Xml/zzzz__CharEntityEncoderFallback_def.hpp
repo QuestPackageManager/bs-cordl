@@ -24,109 +24,109 @@ namespace System::Xml {
 // CS Name: System.Xml.CharEntityEncoderFallback
 class CORDL_TYPE CharEntityEncoderFallback : public ::System::Text::EncoderFallback {
 public:
-  // Declarations
-  __declspec(property(get = get_MaxCharCount)) int32_t MaxCharCount;
+// Declarations
+ __declspec(property(get=get_MaxCharCount)) int32_t  MaxCharCount;
 
-  __declspec(property(put = set_StartOffset)) int32_t StartOffset;
+ __declspec(property(put=set_StartOffset)) int32_t  StartOffset;
 
-  /// @brief Field curMarkPos, offset 0x24, size 0x4
-  __declspec(property(get = __cordl_internal_get_curMarkPos, put = __cordl_internal_set_curMarkPos)) int32_t curMarkPos;
+/// @brief Field curMarkPos, offset 0x24, size 0x4 
+ __declspec(property(get=__cordl_internal_get_curMarkPos, put=__cordl_internal_set_curMarkPos)) int32_t  curMarkPos;
 
-  /// @brief Field endMarkPos, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get_endMarkPos, put = __cordl_internal_set_endMarkPos)) int32_t endMarkPos;
+/// @brief Field endMarkPos, offset 0x20, size 0x4 
+ __declspec(property(get=__cordl_internal_get_endMarkPos, put=__cordl_internal_set_endMarkPos)) int32_t  endMarkPos;
 
-  /// @brief Field fallbackBuffer, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_fallbackBuffer, put = __cordl_internal_set_fallbackBuffer)) ::System::Xml::CharEntityEncoderFallbackBuffer* fallbackBuffer;
+/// @brief Field fallbackBuffer, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_fallbackBuffer, put=__cordl_internal_set_fallbackBuffer)) ::System::Xml::CharEntityEncoderFallbackBuffer*  fallbackBuffer;
 
-  /// @brief Field startOffset, offset 0x28, size 0x4
-  __declspec(property(get = __cordl_internal_get_startOffset, put = __cordl_internal_set_startOffset)) int32_t startOffset;
+/// @brief Field startOffset, offset 0x28, size 0x4 
+ __declspec(property(get=__cordl_internal_get_startOffset, put=__cordl_internal_set_startOffset)) int32_t  startOffset;
 
-  /// @brief Field textContentMarks, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_textContentMarks, put = __cordl_internal_set_textContentMarks)) ::ArrayW<int32_t, ::Array<int32_t>*> textContentMarks;
+/// @brief Field textContentMarks, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_textContentMarks, put=__cordl_internal_set_textContentMarks)) ::ArrayW<int32_t,::Array<int32_t>*>  textContentMarks;
 
-  /// @brief Method CanReplaceAt, addr 0x606a6f8, size 0x80, virtual false, abstract: false, final false
-  inline bool CanReplaceAt(int32_t index);
+/// @brief Method CanReplaceAt, addr 0x606c270, size 0x80, virtual false, abstract: false, final false
+inline bool CanReplaceAt(int32_t  index) ;
 
-  /// @brief Method CreateFallbackBuffer, addr 0x606a648, size 0x74, virtual true, abstract: false, final false
-  inline ::System::Text::EncoderFallbackBuffer* CreateFallbackBuffer();
+/// @brief Method CreateFallbackBuffer, addr 0x606c1c0, size 0x74, virtual true, abstract: false, final false
+inline ::System::Text::EncoderFallbackBuffer* CreateFallbackBuffer() ;
 
-  static inline ::System::Xml::CharEntityEncoderFallback* New_ctor();
+static inline ::System::Xml::CharEntityEncoderFallback* New_ctor() ;
 
-  /// @brief Method Reset, addr 0x606a6ec, size 0xc, virtual false, abstract: false, final false
-  inline void Reset(::ArrayW<int32_t, ::Array<int32_t>*> textContentMarks, int32_t endMarkPos);
+/// @brief Method Reset, addr 0x606c264, size 0xc, virtual false, abstract: false, final false
+inline void Reset(::ArrayW<int32_t,::Array<int32_t>*>  textContentMarks, int32_t  endMarkPos) ;
 
-  constexpr int32_t const& __cordl_internal_get_curMarkPos() const;
+constexpr int32_t const& __cordl_internal_get_curMarkPos() const;
 
-  constexpr int32_t& __cordl_internal_get_curMarkPos();
+constexpr int32_t& __cordl_internal_get_curMarkPos() ;
 
-  constexpr int32_t const& __cordl_internal_get_endMarkPos() const;
+constexpr int32_t const& __cordl_internal_get_endMarkPos() const;
 
-  constexpr int32_t& __cordl_internal_get_endMarkPos();
+constexpr int32_t& __cordl_internal_get_endMarkPos() ;
 
-  constexpr ::System::Xml::CharEntityEncoderFallbackBuffer* const& __cordl_internal_get_fallbackBuffer() const;
+constexpr ::System::Xml::CharEntityEncoderFallbackBuffer* const& __cordl_internal_get_fallbackBuffer() const;
 
-  constexpr ::System::Xml::CharEntityEncoderFallbackBuffer*& __cordl_internal_get_fallbackBuffer();
+constexpr ::System::Xml::CharEntityEncoderFallbackBuffer*& __cordl_internal_get_fallbackBuffer() ;
 
-  constexpr int32_t const& __cordl_internal_get_startOffset() const;
+constexpr int32_t const& __cordl_internal_get_startOffset() const;
 
-  constexpr int32_t& __cordl_internal_get_startOffset();
+constexpr int32_t& __cordl_internal_get_startOffset() ;
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_textContentMarks() const;
+constexpr ::ArrayW<int32_t,::Array<int32_t>*> const& __cordl_internal_get_textContentMarks() const;
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_textContentMarks();
+constexpr ::ArrayW<int32_t,::Array<int32_t>*>& __cordl_internal_get_textContentMarks() ;
 
-  constexpr void __cordl_internal_set_curMarkPos(int32_t value);
+constexpr void __cordl_internal_set_curMarkPos(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_endMarkPos(int32_t value);
+constexpr void __cordl_internal_set_endMarkPos(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_fallbackBuffer(::System::Xml::CharEntityEncoderFallbackBuffer* value);
+constexpr void __cordl_internal_set_fallbackBuffer(::System::Xml::CharEntityEncoderFallbackBuffer*  value) ;
 
-  constexpr void __cordl_internal_set_startOffset(int32_t value);
+constexpr void __cordl_internal_set_startOffset(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_textContentMarks(::ArrayW<int32_t, ::Array<int32_t>*> value);
+constexpr void __cordl_internal_set_textContentMarks(::ArrayW<int32_t,::Array<int32_t>*>  value) ;
 
-  /// @brief Method .ctor, addr 0x606a644, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x606c1bc, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_MaxCharCount, addr 0x606a6dc, size 0x8, virtual true, abstract: false, final false
-  inline int32_t get_MaxCharCount();
+/// @brief Method get_MaxCharCount, addr 0x606c254, size 0x8, virtual true, abstract: false, final false
+inline int32_t get_MaxCharCount() ;
 
-  /// @brief Method set_StartOffset, addr 0x606a6e4, size 0x8, virtual false, abstract: false, final false
-  inline void set_StartOffset(int32_t value);
+/// @brief Method set_StartOffset, addr 0x606c25c, size 0x8, virtual false, abstract: false, final false
+inline void set_StartOffset(int32_t  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CharEntityEncoderFallback();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr CharEntityEncoderFallback() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CharEntityEncoderFallback", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  CharEntityEncoderFallback(CharEntityEncoderFallback&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CharEntityEncoderFallback", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  CharEntityEncoderFallback(CharEntityEncoderFallback const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "CharEntityEncoderFallback", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+CharEntityEncoderFallback(CharEntityEncoderFallback && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9251 };
+// Ctor Parameters [CppParam { name: "", ty: "CharEntityEncoderFallback", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+CharEntityEncoderFallback(CharEntityEncoderFallback const& ) = delete;
 
-  /// @brief Field fallbackBuffer, offset: 0x10, size: 0x8, def value: None
-  ::System::Xml::CharEntityEncoderFallbackBuffer* ___fallbackBuffer;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9252};
 
-  /// @brief Field textContentMarks, offset: 0x18, size: 0x8, def value: None
-  ::ArrayW<int32_t, ::Array<int32_t>*> ___textContentMarks;
+/// @brief Field fallbackBuffer, offset: 0x10, size: 0x8, def value: None
+ ::System::Xml::CharEntityEncoderFallbackBuffer*  ___fallbackBuffer;
 
-  /// @brief Field endMarkPos, offset: 0x20, size: 0x4, def value: None
-  int32_t ___endMarkPos;
+/// @brief Field textContentMarks, offset: 0x18, size: 0x8, def value: None
+ ::ArrayW<int32_t,::Array<int32_t>*>  ___textContentMarks;
 
-  /// @brief Field curMarkPos, offset: 0x24, size: 0x4, def value: None
-  int32_t ___curMarkPos;
+/// @brief Field endMarkPos, offset: 0x20, size: 0x4, def value: None
+ int32_t  ___endMarkPos;
 
-  /// @brief Field startOffset, offset: 0x28, size: 0x4, def value: None
-  int32_t ___startOffset;
+/// @brief Field curMarkPos, offset: 0x24, size: 0x4, def value: None
+ int32_t  ___curMarkPos;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field startOffset, offset: 0x28, size: 0x4, def value: None
+ int32_t  ___startOffset;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Xml::CharEntityEncoderFallback, ___fallbackBuffer) == 0x10, "Offset mismatch!");
@@ -141,6 +141,6 @@ static_assert(offsetof(::System::Xml::CharEntityEncoderFallback, ___startOffset)
 
 static_assert(::cordl_internals::size_check_v<::System::Xml::CharEntityEncoderFallback, 0x30>, "Size mismatch!");
 
-} // namespace System::Xml
+} // namespace end def System::Xml
 NEED_NO_BOX(::System::Xml::CharEntityEncoderFallback);
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::CharEntityEncoderFallback*, "System.Xml", "CharEntityEncoderFallback");

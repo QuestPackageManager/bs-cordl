@@ -24,38 +24,38 @@ namespace UnityEngine {
 // CS Name: UnityEngine.FrameTimingManager
 class CORDL_TYPE FrameTimingManager : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method CaptureFrameTimings, addr 0x692f0bc, size 0x28, virtual false, abstract: false, final false
-  static inline void CaptureFrameTimings();
+// Declarations
+/// @brief Method CaptureFrameTimings, addr 0x6930c34, size 0x28, virtual false, abstract: false, final false
+static inline void CaptureFrameTimings() ;
 
-  /// @brief Method GetLatestTimings, addr 0x692f0e4, size 0xd4, virtual false, abstract: false, final false
-  static inline uint32_t GetLatestTimings(uint32_t numFrames, ::ArrayW<::UnityEngine::FrameTiming, ::Array<::UnityEngine::FrameTiming>*> timings);
+/// @brief Method GetLatestTimings, addr 0x6930c5c, size 0xd4, virtual false, abstract: false, final false
+static inline uint32_t GetLatestTimings(uint32_t  numFrames, ::ArrayW<::UnityEngine::FrameTiming,::Array<::UnityEngine::FrameTiming>*>  timings) ;
 
-  /// @brief Method GetLatestTimings_Injected, addr 0x692f1b8, size 0x44, virtual false, abstract: false, final false
-  static inline uint32_t GetLatestTimings_Injected(uint32_t numFrames, ::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> timings);
+/// @brief Method GetLatestTimings_Injected, addr 0x6930d30, size 0x44, virtual false, abstract: false, final false
+static inline uint32_t GetLatestTimings_Injected(uint32_t  numFrames, ::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>  timings) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr FrameTimingManager();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr FrameTimingManager() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FrameTimingManager", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  FrameTimingManager(FrameTimingManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FrameTimingManager", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  FrameTimingManager(FrameTimingManager const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "FrameTimingManager", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+FrameTimingManager(FrameTimingManager && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10131 };
+// Ctor Parameters [CppParam { name: "", ty: "FrameTimingManager", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+FrameTimingManager(FrameTimingManager const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10132};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::FrameTimingManager, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine
+} // namespace end def UnityEngine
 NEED_NO_BOX(::UnityEngine::FrameTimingManager);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::FrameTimingManager*, "UnityEngine", "FrameTimingManager");

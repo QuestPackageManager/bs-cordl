@@ -7,7 +7,8 @@ CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(KeyboardNavigationManipulator)
 namespace System {
-template <typename T1, typename T2> class Action_2;
+template<typename T1,typename T2>
+class Action_2;
 }
 namespace UnityEngine::UIElements {
 class EventBase;
@@ -40,115 +41,112 @@ struct KeyboardNavigationManipulator___c__DisplayClass4_0;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::KeyboardNavigationManipulator);
 MARK_VAL_T(::UnityEngine::UIElements::KeyboardNavigationManipulator___c__DisplayClass4_0);
-// Dependencies
+// Dependencies 
 namespace UnityEngine::UIElements {
 // Is value type: true
 // CS Name: UnityEngine.UIElements.KeyboardNavigationManipulator/<>c__DisplayClass4_0
 struct CORDL_TYPE KeyboardNavigationManipulator___c__DisplayClass4_0 {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr KeyboardNavigationManipulator___c__DisplayClass4_0();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr KeyboardNavigationManipulator___c__DisplayClass4_0() ;
 
-  // Ctor Parameters [CppParam { name: "evt", ty: "::UnityEngine::UIElements::KeyDownEvent*", modifiers: "", def_value: None }]
-  constexpr KeyboardNavigationManipulator___c__DisplayClass4_0(::UnityEngine::UIElements::KeyDownEvent* evt) noexcept;
+// Ctor Parameters [CppParam { name: "evt", ty: "::UnityEngine::UIElements::KeyDownEvent*", modifiers: "", def_value: None }]
+constexpr KeyboardNavigationManipulator___c__DisplayClass4_0(::UnityEngine::UIElements::KeyDownEvent*  evt) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4616 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4616};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x8};
 
-  /// @brief Field evt, offset: 0x0, size: 0x8, def value: None
-  ::UnityEngine::UIElements::KeyDownEvent* evt;
+/// @brief Field evt, offset: 0x0, size: 0x8, def value: None
+ ::UnityEngine::UIElements::KeyDownEvent*  evt;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::UIElements::KeyboardNavigationManipulator___c__DisplayClass4_0, evt) == 0x0, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::KeyboardNavigationManipulator___c__DisplayClass4_0, 0x8>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements
+} // namespace end def UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.Manipulator
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.KeyboardNavigationManipulator
 class CORDL_TYPE KeyboardNavigationManipulator : public ::UnityEngine::UIElements::Manipulator {
 public:
-  // Declarations
-  using __c__DisplayClass4_0 = ::UnityEngine::UIElements::KeyboardNavigationManipulator___c__DisplayClass4_0;
+// Declarations
+using __c__DisplayClass4_0 = ::UnityEngine::UIElements::KeyboardNavigationManipulator___c__DisplayClass4_0;
 
-  /// @brief Field m_Action, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Action,
-                      put = __cordl_internal_set_m_Action)) ::System::Action_2<::UnityEngine::UIElements::KeyboardNavigationOperation, ::UnityEngine::UIElements::EventBase*>* m_Action;
+/// @brief Field m_Action, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_Action, put=__cordl_internal_set_m_Action)) ::System::Action_2<::UnityEngine::UIElements::KeyboardNavigationOperation,::UnityEngine::UIElements::EventBase*>*  m_Action;
 
-  /// @brief Method Invoke, addr 0x6c5d150, size 0x1c, virtual false, abstract: false, final false
-  inline void Invoke(::UnityEngine::UIElements::KeyboardNavigationOperation operation, ::UnityEngine::UIElements::EventBase* evt);
+/// @brief Method Invoke, addr 0x6c5ecc8, size 0x1c, virtual false, abstract: false, final false
+inline void Invoke(::UnityEngine::UIElements::KeyboardNavigationOperation  operation, ::UnityEngine::UIElements::EventBase*  evt) ;
 
-  static inline ::UnityEngine::UIElements::KeyboardNavigationManipulator*
-  New_ctor(::System::Action_2<::UnityEngine::UIElements::KeyboardNavigationOperation, ::UnityEngine::UIElements::EventBase*>* action);
+static inline ::UnityEngine::UIElements::KeyboardNavigationManipulator* New_ctor(::System::Action_2<::UnityEngine::UIElements::KeyboardNavigationOperation,::UnityEngine::UIElements::EventBase*>*  action) ;
 
-  /// @brief Method OnKeyDown, addr 0x6c5d00c, size 0x54, virtual false, abstract: false, final false
-  inline void OnKeyDown(::UnityEngine::UIElements::KeyDownEvent* evt);
+/// @brief Method OnKeyDown, addr 0x6c5eb84, size 0x54, virtual false, abstract: false, final false
+inline void OnKeyDown(::UnityEngine::UIElements::KeyDownEvent*  evt) ;
 
-  /// @brief Method OnNavigationCancel, addr 0x6c5d16c, size 0x24, virtual false, abstract: false, final false
-  inline void OnNavigationCancel(::UnityEngine::UIElements::NavigationCancelEvent* evt);
+/// @brief Method OnNavigationCancel, addr 0x6c5ece4, size 0x24, virtual false, abstract: false, final false
+inline void OnNavigationCancel(::UnityEngine::UIElements::NavigationCancelEvent*  evt) ;
 
-  /// @brief Method OnNavigationMove, addr 0x6c5d1b4, size 0x8c, virtual false, abstract: false, final false
-  inline void OnNavigationMove(::UnityEngine::UIElements::NavigationMoveEvent* evt);
+/// @brief Method OnNavigationMove, addr 0x6c5ed2c, size 0x8c, virtual false, abstract: false, final false
+inline void OnNavigationMove(::UnityEngine::UIElements::NavigationMoveEvent*  evt) ;
 
-  /// @brief Method OnNavigationSubmit, addr 0x6c5d190, size 0x24, virtual false, abstract: false, final false
-  inline void OnNavigationSubmit(::UnityEngine::UIElements::NavigationSubmitEvent* evt);
+/// @brief Method OnNavigationSubmit, addr 0x6c5ed08, size 0x24, virtual false, abstract: false, final false
+inline void OnNavigationSubmit(::UnityEngine::UIElements::NavigationSubmitEvent*  evt) ;
 
-  /// @brief Method RegisterCallbacksOnTarget, addr 0x6c5cbac, size 0x22c, virtual true, abstract: false, final false
-  inline void RegisterCallbacksOnTarget();
+/// @brief Method RegisterCallbacksOnTarget, addr 0x6c5e724, size 0x22c, virtual true, abstract: false, final false
+inline void RegisterCallbacksOnTarget() ;
 
-  /// @brief Method UnregisterCallbacksFromTarget, addr 0x6c5cde0, size 0x22c, virtual true, abstract: false, final false
-  inline void UnregisterCallbacksFromTarget();
+/// @brief Method UnregisterCallbacksFromTarget, addr 0x6c5e958, size 0x22c, virtual true, abstract: false, final false
+inline void UnregisterCallbacksFromTarget() ;
 
-  /// @brief Method <OnKeyDown>g__GetOperation|4_0, addr 0x6c5d060, size 0xf0, virtual false, abstract: false, final false
-  static inline ::UnityEngine::UIElements::KeyboardNavigationOperation
-  _OnKeyDown_g__GetOperation_4_0(::ByRef<::UnityEngine::UIElements::KeyboardNavigationManipulator___c__DisplayClass4_0> _cordl_fixed_empty_name_whitespace);
+/// @brief Method <OnKeyDown>g__GetOperation|4_0, addr 0x6c5ebd8, size 0xf0, virtual false, abstract: false, final false
+static inline ::UnityEngine::UIElements::KeyboardNavigationOperation _OnKeyDown_g__GetOperation_4_0(::ByRef<::UnityEngine::UIElements::KeyboardNavigationManipulator___c__DisplayClass4_0>  _cordl_fixed_empty_name_whitespace) ;
 
-  constexpr ::System::Action_2<::UnityEngine::UIElements::KeyboardNavigationOperation, ::UnityEngine::UIElements::EventBase*>* const& __cordl_internal_get_m_Action() const;
+constexpr ::System::Action_2<::UnityEngine::UIElements::KeyboardNavigationOperation,::UnityEngine::UIElements::EventBase*>* const& __cordl_internal_get_m_Action() const;
 
-  constexpr ::System::Action_2<::UnityEngine::UIElements::KeyboardNavigationOperation, ::UnityEngine::UIElements::EventBase*>*& __cordl_internal_get_m_Action();
+constexpr ::System::Action_2<::UnityEngine::UIElements::KeyboardNavigationOperation,::UnityEngine::UIElements::EventBase*>*& __cordl_internal_get_m_Action() ;
 
-  constexpr void __cordl_internal_set_m_Action(::System::Action_2<::UnityEngine::UIElements::KeyboardNavigationOperation, ::UnityEngine::UIElements::EventBase*>* value);
+constexpr void __cordl_internal_set_m_Action(::System::Action_2<::UnityEngine::UIElements::KeyboardNavigationOperation,::UnityEngine::UIElements::EventBase*>*  value) ;
 
-  /// @brief Method .ctor, addr 0x6c5cba0, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::System::Action_2<::UnityEngine::UIElements::KeyboardNavigationOperation, ::UnityEngine::UIElements::EventBase*>* action);
+/// @brief Method .ctor, addr 0x6c5e718, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(::System::Action_2<::UnityEngine::UIElements::KeyboardNavigationOperation,::UnityEngine::UIElements::EventBase*>*  action) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr KeyboardNavigationManipulator();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr KeyboardNavigationManipulator() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "KeyboardNavigationManipulator", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  KeyboardNavigationManipulator(KeyboardNavigationManipulator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "KeyboardNavigationManipulator", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  KeyboardNavigationManipulator(KeyboardNavigationManipulator const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "KeyboardNavigationManipulator", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+KeyboardNavigationManipulator(KeyboardNavigationManipulator && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4617 };
+// Ctor Parameters [CppParam { name: "", ty: "KeyboardNavigationManipulator", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+KeyboardNavigationManipulator(KeyboardNavigationManipulator const& ) = delete;
 
-  /// @brief Field m_Action, offset: 0x18, size: 0x8, def value: None
-  ::System::Action_2<::UnityEngine::UIElements::KeyboardNavigationOperation, ::UnityEngine::UIElements::EventBase*>* ___m_Action;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4617};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field m_Action, offset: 0x18, size: 0x8, def value: None
+ ::System::Action_2<::UnityEngine::UIElements::KeyboardNavigationOperation,::UnityEngine::UIElements::EventBase*>*  ___m_Action;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::UIElements::KeyboardNavigationManipulator, ___m_Action) == 0x18, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::KeyboardNavigationManipulator, 0x20>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements
+} // namespace end def UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::KeyboardNavigationManipulator);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::KeyboardNavigationManipulator*, "UnityEngine.UIElements", "KeyboardNavigationManipulator");
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::KeyboardNavigationManipulator___c__DisplayClass4_0, "UnityEngine.UIElements", "KeyboardNavigationManipulator/<>c__DisplayClass4_0");

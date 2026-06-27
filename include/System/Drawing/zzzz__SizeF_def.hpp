@@ -9,7 +9,8 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SizeF)
 namespace System {
-template <typename T> class IEquatable_1;
+template<typename T>
+class IEquatable_1;
 }
 namespace System {
 class Object;
@@ -20,64 +21,64 @@ struct SizeF;
 }
 // Write type traits
 MARK_VAL_T(::System::Drawing::SizeF);
-// Dependencies
+// Dependencies 
 namespace System::Drawing {
 // Is value type: true
 // CS Name: System.Drawing.SizeF
 struct CORDL_TYPE SizeF {
 public:
-  // Declarations
-  __declspec(property(get = get_Height)) float_t Height;
+// Declarations
+ __declspec(property(get=get_Height)) float_t  Height;
 
-  __declspec(property(get = get_Width)) float_t Width;
+ __declspec(property(get=get_Width)) float_t  Width;
 
-  /// @brief Convert operator to "::System::IEquatable_1<::System::Drawing::SizeF>"
-  constexpr operator ::System::IEquatable_1<::System::Drawing::SizeF>*();
+/// @brief Convert operator to "::System::IEquatable_1<::System::Drawing::SizeF>"
+constexpr operator  ::System::IEquatable_1<::System::Drawing::SizeF>*() ;
 
-  /// @brief Method Equals, addr 0x5f93c44, size 0x84, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* obj);
+/// @brief Method Equals, addr 0x5f957bc, size 0x84, virtual true, abstract: false, final false
+inline bool Equals(::System::Object*  obj) ;
 
-  /// @brief Method Equals, addr 0x5f93cc8, size 0x18, virtual true, abstract: false, final true
-  inline bool Equals(::System::Drawing::SizeF other);
+/// @brief Method Equals, addr 0x5f95840, size 0x18, virtual true, abstract: false, final true
+inline bool Equals(::System::Drawing::SizeF  other) ;
 
-  /// @brief Method GetHashCode, addr 0x5f93ce0, size 0x84, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
+/// @brief Method GetHashCode, addr 0x5f95858, size 0x84, virtual true, abstract: false, final false
+inline int32_t GetHashCode() ;
 
-  /// @brief Method ToString, addr 0x5f93d64, size 0x118, virtual true, abstract: false, final false
-  inline ::StringW ToString();
+/// @brief Method ToString, addr 0x5f958dc, size 0x118, virtual true, abstract: false, final false
+inline ::StringW ToString() ;
 
-  /// @brief Method get_Height, addr 0x5f93c3c, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_Height();
+/// @brief Method get_Height, addr 0x5f957b4, size 0x8, virtual false, abstract: false, final false
+inline float_t get_Height() ;
 
-  /// @brief Method get_Width, addr 0x5f93c34, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_Width();
+/// @brief Method get_Width, addr 0x5f957ac, size 0x8, virtual false, abstract: false, final false
+inline float_t get_Width() ;
 
-  /// @brief Convert to "::System::IEquatable_1<::System::Drawing::SizeF>"
-  constexpr ::System::IEquatable_1<::System::Drawing::SizeF>* i___System__IEquatable_1___System__Drawing__SizeF_();
+/// @brief Convert to "::System::IEquatable_1<::System::Drawing::SizeF>"
+constexpr ::System::IEquatable_1<::System::Drawing::SizeF>* i___System__IEquatable_1___System__Drawing__SizeF_() ;
 
-  /// @brief Method op_Equality, addr 0x5f93c24, size 0x10, virtual false, abstract: false, final false
-  static inline bool op_Equality(::System::Drawing::SizeF sz1, ::System::Drawing::SizeF sz2);
+/// @brief Method op_Equality, addr 0x5f9579c, size 0x10, virtual false, abstract: false, final false
+static inline bool op_Equality(::System::Drawing::SizeF  sz1, ::System::Drawing::SizeF  sz2) ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SizeF();
+// Ctor Parameters []
+// @brief default ctor
+constexpr SizeF() ;
 
-  // Ctor Parameters [CppParam { name: "width", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "height", ty: "float_t", modifiers: "", def_value: None }]
-  constexpr SizeF(float_t width, float_t height) noexcept;
+// Ctor Parameters [CppParam { name: "width", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "height", ty: "float_t", modifiers: "", def_value: None }]
+constexpr SizeF(float_t  width, float_t  height) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21349 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{21352};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x8};
 
-  /// @brief Field width, offset: 0x0, size: 0x4, def value: None
-  float_t width;
+/// @brief Field width, offset: 0x0, size: 0x4, def value: None
+ float_t  width;
 
-  /// @brief Field height, offset: 0x4, size: 0x4, def value: None
-  float_t height;
+/// @brief Field height, offset: 0x4, size: 0x4, def value: None
+ float_t  height;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Drawing::SizeF, width) == 0x0, "Offset mismatch!");
@@ -86,5 +87,5 @@ static_assert(offsetof(::System::Drawing::SizeF, height) == 0x4, "Offset mismatc
 
 static_assert(::cordl_internals::size_check_v<::System::Drawing::SizeF, 0x8>, "Size mismatch!");
 
-} // namespace System::Drawing
+} // namespace end def System::Drawing
 DEFINE_IL2CPP_ARG_TYPE(::System::Drawing::SizeF, "System.Drawing", "SizeF");

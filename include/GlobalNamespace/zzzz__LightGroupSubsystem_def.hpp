@@ -21,61 +21,61 @@ namespace GlobalNamespace {
 // CS Name: LightGroupSubsystem
 class CORDL_TYPE LightGroupSubsystem : public ::UnityEngine::MonoBehaviour {
 public:
-  // Declarations
-  /// @brief Field _lightGroup, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__lightGroup, put = __cordl_internal_set__lightGroup)) ::UnityW<::GlobalNamespace::LightGroup> _lightGroup;
+// Declarations
+/// @brief Field _lightGroup, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get__lightGroup, put=__cordl_internal_set__lightGroup)) ::UnityW<::GlobalNamespace::LightGroup>  _lightGroup;
 
-  __declspec(property(get = get_groupId)) int32_t groupId;
+ __declspec(property(get=get_groupId)) int32_t  groupId;
 
-  __declspec(property(get = get_lightGroup)) ::UnityW<::GlobalNamespace::LightGroup> lightGroup;
+ __declspec(property(get=get_lightGroup)) ::UnityW<::GlobalNamespace::LightGroup>  lightGroup;
 
-  static inline ::GlobalNamespace::LightGroupSubsystem* New_ctor();
+static inline ::GlobalNamespace::LightGroupSubsystem* New_ctor() ;
 
-  /// @brief Method OnEnable, addr 0x5858e6c, size 0x64, virtual false, abstract: false, final false
-  inline void OnEnable();
+/// @brief Method OnEnable, addr 0x585a718, size 0x64, virtual false, abstract: false, final false
+inline void OnEnable() ;
 
-  constexpr ::UnityW<::GlobalNamespace::LightGroup> const& __cordl_internal_get__lightGroup() const;
+constexpr ::UnityW<::GlobalNamespace::LightGroup> const& __cordl_internal_get__lightGroup() const;
 
-  constexpr ::UnityW<::GlobalNamespace::LightGroup>& __cordl_internal_get__lightGroup();
+constexpr ::UnityW<::GlobalNamespace::LightGroup>& __cordl_internal_get__lightGroup() ;
 
-  constexpr void __cordl_internal_set__lightGroup(::UnityW<::GlobalNamespace::LightGroup> value);
+constexpr void __cordl_internal_set__lightGroup(::UnityW<::GlobalNamespace::LightGroup>  value) ;
 
-  /// @brief Method .ctor, addr 0x58531b0, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5854a5c, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_groupId, addr 0x5853904, size 0x18, virtual true, abstract: false, final true
-  inline int32_t get_groupId();
+/// @brief Method get_groupId, addr 0x58551b0, size 0x18, virtual true, abstract: false, final true
+inline int32_t get_groupId() ;
 
-  /// @brief Method get_lightGroup, addr 0x5858e64, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityW<::GlobalNamespace::LightGroup> get_lightGroup();
+/// @brief Method get_lightGroup, addr 0x585a710, size 0x8, virtual false, abstract: false, final false
+inline ::UnityW<::GlobalNamespace::LightGroup> get_lightGroup() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LightGroupSubsystem();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr LightGroupSubsystem() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LightGroupSubsystem", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  LightGroupSubsystem(LightGroupSubsystem&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LightGroupSubsystem", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  LightGroupSubsystem(LightGroupSubsystem const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "LightGroupSubsystem", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+LightGroupSubsystem(LightGroupSubsystem && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5885 };
+// Ctor Parameters [CppParam { name: "", ty: "LightGroupSubsystem", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+LightGroupSubsystem(LightGroupSubsystem const& ) = delete;
 
-  /// @brief Field _lightGroup, offset: 0x20, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::LightGroup> ____lightGroup;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{5885};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _lightGroup, offset: 0x20, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::LightGroup>  ____lightGroup;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::LightGroupSubsystem, ____lightGroup) == 0x20, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LightGroupSubsystem, 0x28>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::LightGroupSubsystem);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LightGroupSubsystem*, "", "LightGroupSubsystem");

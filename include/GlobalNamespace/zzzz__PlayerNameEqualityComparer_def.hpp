@@ -10,7 +10,8 @@ namespace GlobalNamespace {
 class PlatformLeaderboardsModel_LeaderboardScore;
 }
 namespace System::Collections::Generic {
-template <typename T> class IEqualityComparer_1;
+template<typename T>
+class IEqualityComparer_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -24,47 +25,46 @@ namespace GlobalNamespace {
 // CS Name: PlayerNameEqualityComparer
 class CORDL_TYPE PlayerNameEqualityComparer : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Convert operator to "::System::Collections::Generic::IEqualityComparer_1<::GlobalNamespace::PlatformLeaderboardsModel_LeaderboardScore*>"
-  constexpr operator ::System::Collections::Generic::IEqualityComparer_1<::GlobalNamespace::PlatformLeaderboardsModel_LeaderboardScore*>*() noexcept;
+// Declarations
+/// @brief Convert operator to "::System::Collections::Generic::IEqualityComparer_1<::GlobalNamespace::PlatformLeaderboardsModel_LeaderboardScore*>"
+constexpr operator  ::System::Collections::Generic::IEqualityComparer_1<::GlobalNamespace::PlatformLeaderboardsModel_LeaderboardScore*>*() noexcept;
 
-  /// @brief Method Equals, addr 0x3694f14, size 0x1c, virtual true, abstract: false, final true
-  inline bool Equals(::GlobalNamespace::PlatformLeaderboardsModel_LeaderboardScore* x, ::GlobalNamespace::PlatformLeaderboardsModel_LeaderboardScore* y);
+/// @brief Method Equals, addr 0x36962a8, size 0x1c, virtual true, abstract: false, final true
+inline bool Equals(::GlobalNamespace::PlatformLeaderboardsModel_LeaderboardScore*  x, ::GlobalNamespace::PlatformLeaderboardsModel_LeaderboardScore*  y) ;
 
-  /// @brief Method GetHashCode, addr 0x3694f30, size 0x24, virtual true, abstract: false, final true
-  inline int32_t GetHashCode(::GlobalNamespace::PlatformLeaderboardsModel_LeaderboardScore* obj);
+/// @brief Method GetHashCode, addr 0x36962c4, size 0x24, virtual true, abstract: false, final true
+inline int32_t GetHashCode(::GlobalNamespace::PlatformLeaderboardsModel_LeaderboardScore*  obj) ;
 
-  static inline ::GlobalNamespace::PlayerNameEqualityComparer* New_ctor();
+static inline ::GlobalNamespace::PlayerNameEqualityComparer* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x3694f54, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x36962e8, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Convert to "::System::Collections::Generic::IEqualityComparer_1<::GlobalNamespace::PlatformLeaderboardsModel_LeaderboardScore*>"
-  constexpr ::System::Collections::Generic::IEqualityComparer_1<::GlobalNamespace::PlatformLeaderboardsModel_LeaderboardScore*>*
-  i___System__Collections__Generic__IEqualityComparer_1___GlobalNamespace__PlatformLeaderboardsModel_LeaderboardScore__() noexcept;
+/// @brief Convert to "::System::Collections::Generic::IEqualityComparer_1<::GlobalNamespace::PlatformLeaderboardsModel_LeaderboardScore*>"
+constexpr ::System::Collections::Generic::IEqualityComparer_1<::GlobalNamespace::PlatformLeaderboardsModel_LeaderboardScore*>* i___System__Collections__Generic__IEqualityComparer_1___GlobalNamespace__PlatformLeaderboardsModel_LeaderboardScore__() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PlayerNameEqualityComparer();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr PlayerNameEqualityComparer() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerNameEqualityComparer", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  PlayerNameEqualityComparer(PlayerNameEqualityComparer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerNameEqualityComparer", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  PlayerNameEqualityComparer(PlayerNameEqualityComparer const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "PlayerNameEqualityComparer", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+PlayerNameEqualityComparer(PlayerNameEqualityComparer && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15255 };
+// Ctor Parameters [CppParam { name: "", ty: "PlayerNameEqualityComparer", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+PlayerNameEqualityComparer(PlayerNameEqualityComparer const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{15257};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PlayerNameEqualityComparer, 0x10>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::PlayerNameEqualityComparer);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PlayerNameEqualityComparer*, "", "PlayerNameEqualityComparer");

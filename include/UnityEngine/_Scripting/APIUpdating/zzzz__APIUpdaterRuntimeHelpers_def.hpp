@@ -21,35 +21,35 @@ namespace UnityEngine::_Scripting::APIUpdating {
 // CS Name: UnityEngine._Scripting.APIUpdating.APIUpdaterRuntimeHelpers
 class CORDL_TYPE APIUpdaterRuntimeHelpers : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method GetMovedFromAttributeDataForType, addr 0x69a2918, size 0x134, virtual false, abstract: false, final false
-  static inline bool GetMovedFromAttributeDataForType(::System::Type* sourceType, ::ByRef<::StringW> assembly, ::ByRef<::StringW> nsp, ::ByRef<::StringW> klass);
+// Declarations
+/// @brief Method GetMovedFromAttributeDataForType, addr 0x69a4490, size 0x134, virtual false, abstract: false, final false
+static inline bool GetMovedFromAttributeDataForType(::System::Type*  sourceType, ::ByRef<::StringW>  assembly, ::ByRef<::StringW>  nsp, ::ByRef<::StringW>  klass) ;
 
-  /// @brief Method GetObsoleteTypeRedirection, addr 0x69a2a4c, size 0x2c4, virtual false, abstract: false, final false
-  static inline bool GetObsoleteTypeRedirection(::System::Type* sourceType, ::ByRef<::StringW> assemblyName, ::ByRef<::StringW> nsp, ::ByRef<::StringW> className);
+/// @brief Method GetObsoleteTypeRedirection, addr 0x69a45c4, size 0x2c4, virtual false, abstract: false, final false
+static inline bool GetObsoleteTypeRedirection(::System::Type*  sourceType, ::ByRef<::StringW>  assemblyName, ::ByRef<::StringW>  nsp, ::ByRef<::StringW>  className) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr APIUpdaterRuntimeHelpers();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr APIUpdaterRuntimeHelpers() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "APIUpdaterRuntimeHelpers", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  APIUpdaterRuntimeHelpers(APIUpdaterRuntimeHelpers&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "APIUpdaterRuntimeHelpers", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  APIUpdaterRuntimeHelpers(APIUpdaterRuntimeHelpers const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "APIUpdaterRuntimeHelpers", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+APIUpdaterRuntimeHelpers(APIUpdaterRuntimeHelpers && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10414 };
+// Ctor Parameters [CppParam { name: "", ty: "APIUpdaterRuntimeHelpers", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+APIUpdaterRuntimeHelpers(APIUpdaterRuntimeHelpers const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10415};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::_Scripting::APIUpdating::APIUpdaterRuntimeHelpers, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::_Scripting::APIUpdating
+} // namespace end def UnityEngine::_Scripting::APIUpdating
 NEED_NO_BOX(::UnityEngine::_Scripting::APIUpdating::APIUpdaterRuntimeHelpers);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::_Scripting::APIUpdating::APIUpdaterRuntimeHelpers*, "UnityEngine._Scripting.APIUpdating", "APIUpdaterRuntimeHelpers");

@@ -21,146 +21,146 @@ struct Volatile_PaddedLong;
 // Write type traits
 MARK_REF_PTR_T(::IgnoranceThirdparty::Volatile);
 MARK_VAL_T(::IgnoranceThirdparty::Volatile_PaddedLong);
-// Dependencies
+// Dependencies 
 namespace IgnoranceThirdparty {
 // Is value type: true
 // CS Name: IgnoranceThirdparty.Volatile/PaddedLong
 #pragma pack(push, 0)
 struct CORDL_TYPE Volatile_PaddedLong {
 public:
-  // Declarations
-  /// @brief Field _value, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__value, put = __cordl_internal_set__value)) int64_t _value;
+// Declarations
+/// @brief Field _value, offset 0x40, size 0x8 
+ __declspec(property(get=__cordl_internal_get__value, put=__cordl_internal_set__value)) int64_t  _value;
 
-  /// @brief Method AtomicAddAndGet, addr 0x574a4a4, size 0x24, virtual false, abstract: false, final false
-  inline int64_t AtomicAddAndGet(int64_t delta);
+/// @brief Method AtomicAddAndGet, addr 0x574bd0c, size 0x24, virtual false, abstract: false, final false
+inline int64_t AtomicAddAndGet(int64_t  delta) ;
 
-  /// @brief Method AtomicCompareExchange, addr 0x574a45c, size 0x28, virtual false, abstract: false, final false
-  inline bool AtomicCompareExchange(int64_t newValue, int64_t comparand);
+/// @brief Method AtomicCompareExchange, addr 0x574bcc4, size 0x28, virtual false, abstract: false, final false
+inline bool AtomicCompareExchange(int64_t  newValue, int64_t  comparand) ;
 
-  /// @brief Method AtomicDecrementAndGet, addr 0x574a4e8, size 0x20, virtual false, abstract: false, final false
-  inline int64_t AtomicDecrementAndGet();
+/// @brief Method AtomicDecrementAndGet, addr 0x574bd50, size 0x20, virtual false, abstract: false, final false
+inline int64_t AtomicDecrementAndGet() ;
 
-  /// @brief Method AtomicExchange, addr 0x574a484, size 0x20, virtual false, abstract: false, final false
-  inline int64_t AtomicExchange(int64_t newValue);
+/// @brief Method AtomicExchange, addr 0x574bcec, size 0x20, virtual false, abstract: false, final false
+inline int64_t AtomicExchange(int64_t  newValue) ;
 
-  /// @brief Method AtomicIncrementAndGet, addr 0x574a4c8, size 0x20, virtual false, abstract: false, final false
-  inline int64_t AtomicIncrementAndGet();
+/// @brief Method AtomicIncrementAndGet, addr 0x574bd30, size 0x20, virtual false, abstract: false, final false
+inline int64_t AtomicIncrementAndGet() ;
 
-  /// @brief Method ReadAcquireFence, addr 0x574a3d4, size 0xc, virtual false, abstract: false, final false
-  inline int64_t ReadAcquireFence();
+/// @brief Method ReadAcquireFence, addr 0x574bc3c, size 0xc, virtual false, abstract: false, final false
+inline int64_t ReadAcquireFence() ;
 
-  /// @brief Method ReadCompilerOnlyFence, addr 0x574a3ec, size 0x24, virtual false, abstract: false, final false
-  inline int64_t ReadCompilerOnlyFence();
+/// @brief Method ReadCompilerOnlyFence, addr 0x574bc54, size 0x24, virtual false, abstract: false, final false
+inline int64_t ReadCompilerOnlyFence() ;
 
-  /// @brief Method ReadFullFence, addr 0x574a3e0, size 0xc, virtual false, abstract: false, final false
-  inline int64_t ReadFullFence();
+/// @brief Method ReadFullFence, addr 0x574bc48, size 0xc, virtual false, abstract: false, final false
+inline int64_t ReadFullFence() ;
 
-  /// @brief Method ReadUnfenced, addr 0x574a3cc, size 0x8, virtual false, abstract: false, final false
-  inline int64_t ReadUnfenced();
+/// @brief Method ReadUnfenced, addr 0x574bc34, size 0x8, virtual false, abstract: false, final false
+inline int64_t ReadUnfenced() ;
 
-  /// @brief Method ToString, addr 0x574a508, size 0x24, virtual true, abstract: false, final false
-  inline ::StringW ToString();
+/// @brief Method ToString, addr 0x574bd70, size 0x24, virtual true, abstract: false, final false
+inline ::StringW ToString() ;
 
-  /// @brief Method WriteCompilerOnlyFence, addr 0x574a428, size 0x2c, virtual false, abstract: false, final false
-  inline void WriteCompilerOnlyFence(int64_t newValue);
+/// @brief Method WriteCompilerOnlyFence, addr 0x574bc90, size 0x2c, virtual false, abstract: false, final false
+inline void WriteCompilerOnlyFence(int64_t  newValue) ;
 
-  /// @brief Method WriteFullFence, addr 0x574a41c, size 0xc, virtual false, abstract: false, final false
-  inline void WriteFullFence(int64_t newValue);
+/// @brief Method WriteFullFence, addr 0x574bc84, size 0xc, virtual false, abstract: false, final false
+inline void WriteFullFence(int64_t  newValue) ;
 
-  /// @brief Method WriteReleaseFence, addr 0x574a410, size 0xc, virtual false, abstract: false, final false
-  inline void WriteReleaseFence(int64_t newValue);
+/// @brief Method WriteReleaseFence, addr 0x574bc78, size 0xc, virtual false, abstract: false, final false
+inline void WriteReleaseFence(int64_t  newValue) ;
 
-  /// @brief Method WriteUnfenced, addr 0x574a454, size 0x8, virtual false, abstract: false, final false
-  inline void WriteUnfenced(int64_t newValue);
+/// @brief Method WriteUnfenced, addr 0x574bcbc, size 0x8, virtual false, abstract: false, final false
+inline void WriteUnfenced(int64_t  newValue) ;
 
-  constexpr int64_t const& __cordl_internal_get__value() const;
+constexpr int64_t const& __cordl_internal_get__value() const;
 
-  constexpr int64_t& __cordl_internal_get__value();
+constexpr int64_t& __cordl_internal_get__value() ;
 
-  constexpr void __cordl_internal_set__value(int64_t value);
+constexpr void __cordl_internal_set__value(int64_t  value) ;
 
-  /// @brief Method .ctor, addr 0x574a3c4, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(int64_t value);
+/// @brief Method .ctor, addr 0x574bc2c, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(int64_t  value) ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Volatile_PaddedLong();
+// Ctor Parameters []
+// @brief default ctor
+constexpr Volatile_PaddedLong() ;
 
-  // Ctor Parameters [CppParam { name: "_value", ty: "int64_t", modifiers: "", def_value: None }]
-  constexpr Volatile_PaddedLong(int64_t _value) noexcept;
+// Ctor Parameters [CppParam { name: "_value", ty: "int64_t", modifiers: "", def_value: None }]
+constexpr Volatile_PaddedLong(int64_t  _value) noexcept;
 
 private:
-  /// @brief Explicitly laid out type with union based offsets
-  union {
+/// @brief Explicitly laid out type with union based offsets
+union {
 #pragma pack(push, tp, 1)
-    struct {
-      /// @brief Padding field 0x40
-      uint8_t ____value_padding[0x40];
-      /// @brief Field _value, offset: 0x40, size: 0x8, def value: None
-      int64_t ____value;
-    };
+struct  {
+/// @brief Padding field 0x40
+ uint8_t  ____value_padding[0x40];
+/// @brief Field _value, offset: 0x40, size: 0x8, def value: None
+ int64_t  ____value;
+};
 #pragma pack(pop, tp)
-    struct {
-      /// @brief Padding field 0x40 for alignment
-      uint8_t ____value_padding_forAlignment[0x40];
-      /// @brief Field _value, offset: 0x40, size: 0x8, def value: None
-      int64_t ____value_forAlignment;
-    };
-  };
-
+struct  {
+/// @brief Padding field 0x40 for alignment
+ uint8_t  ____value_padding_forAlignment[0x40];
+/// @brief Field _value, offset: 0x40, size: 0x8, def value: None
+ int64_t  ____value_forAlignment;
+};
+};
 public:
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21533 };
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x80 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{21536};
 
-  /// @brief Size padding 0x80 - 0x48 = 0x38, packed as 0x38
-  uint8_t _cordl_size_padding[0x38];
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x80};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+/// @brief Size padding 0x80 - 0x48 = 0x38, packed as 0x38
+ uint8_t  _cordl_size_padding[0x38];
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::IgnoranceThirdparty::Volatile_PaddedLong, 0x80>, "Size mismatch!");
 
-} // namespace IgnoranceThirdparty
+} // namespace end def IgnoranceThirdparty
 // Dependencies System.Object
 namespace IgnoranceThirdparty {
 // Is value type: false
 // CS Name: IgnoranceThirdparty.Volatile
 class CORDL_TYPE Volatile : public ::System::Object {
 public:
-  // Declarations
-  using PaddedLong = ::IgnoranceThirdparty::Volatile_PaddedLong;
+// Declarations
+using PaddedLong = ::IgnoranceThirdparty::Volatile_PaddedLong;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Volatile();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr Volatile() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Volatile", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  Volatile(Volatile&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Volatile", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  Volatile(Volatile const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "Volatile", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Volatile(Volatile && ) = delete;
 
-  /// @brief Field CacheLineSize offset 0xffffffff size 0x4
-  static constexpr int32_t CacheLineSize{ static_cast<int32_t>(0x40) };
+// Ctor Parameters [CppParam { name: "", ty: "Volatile", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Volatile(Volatile const& ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21534 };
+/// @brief Field CacheLineSize offset 0xffffffff size 0x4
+static constexpr int32_t  CacheLineSize{static_cast<int32_t>(0x40)};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{21537};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::IgnoranceThirdparty::Volatile, 0x10>, "Size mismatch!");
 
-} // namespace IgnoranceThirdparty
+} // namespace end def IgnoranceThirdparty
 NEED_NO_BOX(::IgnoranceThirdparty::Volatile);
 DEFINE_IL2CPP_ARG_TYPE(::IgnoranceThirdparty::Volatile*, "IgnoranceThirdparty", "Volatile");
 DEFINE_IL2CPP_ARG_TYPE(::IgnoranceThirdparty::Volatile_PaddedLong, "IgnoranceThirdparty", "Volatile/PaddedLong");

@@ -18,19 +18,24 @@ namespace GlobalNamespace {
 class EnvironmentInfoSO;
 }
 namespace System::Collections::Generic {
-template <typename T> class IList_1;
+template<typename T>
+class IList_1;
 }
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template<typename T>
+class List_1;
 }
 namespace System {
-template <typename T, typename TResult> class Func_2;
+template<typename T,typename TResult>
+class Func_2;
 }
 namespace System {
-template <typename T> struct Nullable_1;
+template<typename T>
+struct Nullable_1;
 }
 namespace UnityEngine::ResourceManagement::AsyncOperations {
-template <typename TObject> struct AsyncOperationHandle_1;
+template<typename TObject>
+struct AsyncOperationHandle_1;
 }
 // Forward declare root types
 namespace Environments::Definitions {
@@ -48,126 +53,122 @@ namespace Environments::Definitions {
 // CS Name: Environments.Definitions.EnvironmentsAsyncInstaller/<>c
 class CORDL_TYPE EnvironmentsAsyncInstaller___c : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field <>9, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::Environments::Definitions::EnvironmentsAsyncInstaller___c* __9;
+// Declarations
+/// @brief Field <>9, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF___9, put=setStaticF___9)) ::Environments::Definitions::EnvironmentsAsyncInstaller___c*  __9;
 
-  /// @brief Field <>9__5_0, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9__5_0, put = setStaticF___9__5_0)) ::System::Func_2<::UnityW<::GlobalNamespace::EnvironmentInfoSO>, int32_t>* __9__5_0;
+/// @brief Field <>9__5_0, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF___9__5_0, put=setStaticF___9__5_0)) ::System::Func_2<::UnityW<::GlobalNamespace::EnvironmentInfoSO>,int32_t>*  __9__5_0;
 
-  static inline ::Environments::Definitions::EnvironmentsAsyncInstaller___c* New_ctor();
+static inline ::Environments::Definitions::EnvironmentsAsyncInstaller___c* New_ctor() ;
 
-  /// @brief Method <LoadResourcesBeforeInstall>b__5_0, addr 0x36ab4a4, size 0x14, virtual false, abstract: false, final false
-  inline int32_t _LoadResourcesBeforeInstall_b__5_0(::GlobalNamespace::EnvironmentInfoSO* environmentInfo);
+/// @brief Method <LoadResourcesBeforeInstall>b__5_0, addr 0x36ac838, size 0x14, virtual false, abstract: false, final false
+inline int32_t _LoadResourcesBeforeInstall_b__5_0(::GlobalNamespace::EnvironmentInfoSO*  environmentInfo) ;
 
-  /// @brief Method .ctor, addr 0x36ab4a0, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x36ac834, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  static inline ::Environments::Definitions::EnvironmentsAsyncInstaller___c* getStaticF___9();
+static inline ::Environments::Definitions::EnvironmentsAsyncInstaller___c* getStaticF___9() ;
 
-  static inline ::System::Func_2<::UnityW<::GlobalNamespace::EnvironmentInfoSO>, int32_t>* getStaticF___9__5_0();
+static inline ::System::Func_2<::UnityW<::GlobalNamespace::EnvironmentInfoSO>,int32_t>* getStaticF___9__5_0() ;
 
-  static inline void setStaticF___9(::Environments::Definitions::EnvironmentsAsyncInstaller___c* value);
+static inline void setStaticF___9(::Environments::Definitions::EnvironmentsAsyncInstaller___c*  value) ;
 
-  static inline void setStaticF___9__5_0(::System::Func_2<::UnityW<::GlobalNamespace::EnvironmentInfoSO>, int32_t>* value);
+static inline void setStaticF___9__5_0(::System::Func_2<::UnityW<::GlobalNamespace::EnvironmentInfoSO>,int32_t>*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr EnvironmentsAsyncInstaller___c();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr EnvironmentsAsyncInstaller___c() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentsAsyncInstaller___c", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  EnvironmentsAsyncInstaller___c(EnvironmentsAsyncInstaller___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentsAsyncInstaller___c", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  EnvironmentsAsyncInstaller___c(EnvironmentsAsyncInstaller___c const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "EnvironmentsAsyncInstaller___c", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+EnvironmentsAsyncInstaller___c(EnvironmentsAsyncInstaller___c && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15469 };
+// Ctor Parameters [CppParam { name: "", ty: "EnvironmentsAsyncInstaller___c", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+EnvironmentsAsyncInstaller___c(EnvironmentsAsyncInstaller___c const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{15471};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Environments::Definitions::EnvironmentsAsyncInstaller___c, 0x10>, "Size mismatch!");
 
-} // namespace Environments::Definitions
+} // namespace end def Environments::Definitions
 // Dependencies BGLib.AppFlow.Initialization.AddressablesAsyncInstaller`1<T>
 namespace Environments::Definitions {
 // Is value type: false
 // CS Name: Environments.Definitions.EnvironmentsAsyncInstaller
 class CORDL_TYPE EnvironmentsAsyncInstaller : public ::BGLib::AppFlow::Initialization::AddressablesAsyncInstaller_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>> {
 public:
-  // Declarations
-  using __c = ::Environments::Definitions::EnvironmentsAsyncInstaller___c;
+// Declarations
+using __c = ::Environments::Definitions::EnvironmentsAsyncInstaller___c;
 
-  /// @brief Field _environmentInfos, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__environmentInfos,
-                      put = __cordl_internal_set__environmentInfos)) ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>* _environmentInfos;
+/// @brief Field _environmentInfos, offset 0x40, size 0x8 
+ __declspec(property(get=__cordl_internal_get__environmentInfos, put=__cordl_internal_set__environmentInfos)) ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>*  _environmentInfos;
 
-  __declspec(property(get = get_assetLabelRuntimeKey)) ::StringW assetLabelRuntimeKey;
+ __declspec(property(get=get_assetLabelRuntimeKey)) ::StringW  assetLabelRuntimeKey;
 
-  __declspec(property(get = get_telemetryEventName)) ::StringW telemetryEventName;
+ __declspec(property(get=get_telemetryEventName)) ::StringW  telemetryEventName;
 
-  /// @brief Method InstallBindings, addr 0x36ab278, size 0xcc, virtual true, abstract: false, final false
-  inline void InstallBindings();
+/// @brief Method InstallBindings, addr 0x36ac60c, size 0xcc, virtual true, abstract: false, final false
+inline void InstallBindings() ;
 
-  /// @brief Method LoadEnvironmentInfoListAsync, addr 0x36ab344, size 0x7c, virtual false, abstract: false, final false
-  static inline ::System::Nullable_1<
-      ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>*>>
-  LoadEnvironmentInfoListAsync();
+/// @brief Method LoadEnvironmentInfoListAsync, addr 0x36ac6d8, size 0x7c, virtual false, abstract: false, final false
+static inline ::System::Nullable_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>*>> LoadEnvironmentInfoListAsync() ;
 
-  /// @brief Method LoadResourcesBeforeInstall, addr 0x36ab130, size 0x148, virtual true, abstract: false, final false
-  inline void LoadResourcesBeforeInstall(::System::Collections::Generic::IList_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>* environmentInfos,
-                                         ::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry* registry);
+/// @brief Method LoadResourcesBeforeInstall, addr 0x36ac4c4, size 0x148, virtual true, abstract: false, final false
+inline void LoadResourcesBeforeInstall(::System::Collections::Generic::IList_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>*  environmentInfos, ::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry*  registry) ;
 
-  static inline ::Environments::Definitions::EnvironmentsAsyncInstaller* New_ctor();
+static inline ::Environments::Definitions::EnvironmentsAsyncInstaller* New_ctor() ;
 
-  constexpr ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>* const& __cordl_internal_get__environmentInfos() const;
+constexpr ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>* const& __cordl_internal_get__environmentInfos() const;
 
-  constexpr ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>*& __cordl_internal_get__environmentInfos();
+constexpr ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>*& __cordl_internal_get__environmentInfos() ;
 
-  constexpr void __cordl_internal_set__environmentInfos(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>* value);
+constexpr void __cordl_internal_set__environmentInfos(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>*  value) ;
 
-  /// @brief Method .ctor, addr 0x36ab3c0, size 0x8c, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x36ac754, size 0x8c, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_assetLabelRuntimeKey, addr 0x36ab0a8, size 0x44, virtual true, abstract: false, final false
-  inline ::StringW get_assetLabelRuntimeKey();
+/// @brief Method get_assetLabelRuntimeKey, addr 0x36ac43c, size 0x44, virtual true, abstract: false, final false
+inline ::StringW get_assetLabelRuntimeKey() ;
 
-  /// @brief Method get_telemetryEventName, addr 0x36ab0ec, size 0x44, virtual true, abstract: false, final false
-  inline ::StringW get_telemetryEventName();
+/// @brief Method get_telemetryEventName, addr 0x36ac480, size 0x44, virtual true, abstract: false, final false
+inline ::StringW get_telemetryEventName() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr EnvironmentsAsyncInstaller();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr EnvironmentsAsyncInstaller() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentsAsyncInstaller", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  EnvironmentsAsyncInstaller(EnvironmentsAsyncInstaller&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentsAsyncInstaller", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  EnvironmentsAsyncInstaller(EnvironmentsAsyncInstaller const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "EnvironmentsAsyncInstaller", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+EnvironmentsAsyncInstaller(EnvironmentsAsyncInstaller && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15470 };
+// Ctor Parameters [CppParam { name: "", ty: "EnvironmentsAsyncInstaller", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+EnvironmentsAsyncInstaller(EnvironmentsAsyncInstaller const& ) = delete;
 
-  /// @brief Field _environmentInfos, offset: 0x40, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>* ____environmentInfos;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{15472};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _environmentInfos, offset: 0x40, size: 0x8, def value: None
+ ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>*  ____environmentInfos;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Environments::Definitions::EnvironmentsAsyncInstaller, ____environmentInfos) == 0x40, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::Environments::Definitions::EnvironmentsAsyncInstaller, 0x48>, "Size mismatch!");
 
-} // namespace Environments::Definitions
+} // namespace end def Environments::Definitions
 NEED_NO_BOX(::Environments::Definitions::EnvironmentsAsyncInstaller);
 DEFINE_IL2CPP_ARG_TYPE(::Environments::Definitions::EnvironmentsAsyncInstaller*, "Environments.Definitions", "EnvironmentsAsyncInstaller");
 NEED_NO_BOX(::Environments::Definitions::EnvironmentsAsyncInstaller___c);

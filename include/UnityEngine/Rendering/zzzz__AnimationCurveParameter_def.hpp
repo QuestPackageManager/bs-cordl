@@ -28,46 +28,46 @@ namespace UnityEngine::Rendering {
 // CS Name: UnityEngine.Rendering.AnimationCurveParameter
 class CORDL_TYPE AnimationCurveParameter : public ::UnityEngine::Rendering::VolumeParameter_1<::UnityEngine::AnimationCurve*> {
 public:
-  // Declarations
-  /// @brief Method Clone, addr 0x6689964, size 0xe8, virtual true, abstract: false, final false
-  inline ::System::Object* Clone();
+// Declarations
+/// @brief Method Clone, addr 0x668b4dc, size 0xe8, virtual true, abstract: false, final false
+inline ::System::Object* Clone() ;
 
-  /// @brief Method GetHashCode, addr 0x6689a4c, size 0x78, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
+/// @brief Method GetHashCode, addr 0x668b5c4, size 0x78, virtual true, abstract: false, final false
+inline int32_t GetHashCode() ;
 
-  /// @brief Method Interp, addr 0x66898b8, size 0xc, virtual true, abstract: false, final false
-  inline void Interp(::UnityEngine::AnimationCurve* lhsCurve, ::UnityEngine::AnimationCurve* rhsCurve, float_t t);
+/// @brief Method Interp, addr 0x668b430, size 0xc, virtual true, abstract: false, final false
+inline void Interp(::UnityEngine::AnimationCurve*  lhsCurve, ::UnityEngine::AnimationCurve*  rhsCurve, float_t  t) ;
 
-  static inline ::UnityEngine::Rendering::AnimationCurveParameter* New_ctor(::UnityEngine::AnimationCurve* value, bool overrideState);
+static inline ::UnityEngine::Rendering::AnimationCurveParameter* New_ctor(::UnityEngine::AnimationCurve*  value, bool  overrideState) ;
 
-  /// @brief Method SetValue, addr 0x66898c4, size 0xa0, virtual true, abstract: false, final false
-  inline void SetValue(::UnityEngine::Rendering::VolumeParameter* parameter);
+/// @brief Method SetValue, addr 0x668b43c, size 0xa0, virtual true, abstract: false, final false
+inline void SetValue(::UnityEngine::Rendering::VolumeParameter*  parameter) ;
 
-  /// @brief Method .ctor, addr 0x6689854, size 0x64, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::AnimationCurve* value, bool overrideState);
+/// @brief Method .ctor, addr 0x668b3cc, size 0x64, virtual false, abstract: false, final false
+inline void _ctor(::UnityEngine::AnimationCurve*  value, bool  overrideState) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AnimationCurveParameter();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr AnimationCurveParameter() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AnimationCurveParameter", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  AnimationCurveParameter(AnimationCurveParameter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AnimationCurveParameter", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  AnimationCurveParameter(AnimationCurveParameter const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "AnimationCurveParameter", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+AnimationCurveParameter(AnimationCurveParameter && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12359 };
+// Ctor Parameters [CppParam { name: "", ty: "AnimationCurveParameter", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+AnimationCurveParameter(AnimationCurveParameter const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12360};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::AnimationCurveParameter, 0x20>, "Size mismatch!");
 
-} // namespace UnityEngine::Rendering
+} // namespace end def UnityEngine::Rendering
 NEED_NO_BOX(::UnityEngine::Rendering::AnimationCurveParameter);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::AnimationCurveParameter*, "UnityEngine.Rendering", "AnimationCurveParameter");

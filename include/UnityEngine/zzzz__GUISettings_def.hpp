@@ -19,90 +19,90 @@ namespace UnityEngine {
 // CS Name: UnityEngine.GUISettings
 class CORDL_TYPE GUISettings : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field m_CursorColor, offset 0x14, size 0x10
-  __declspec(property(get = __cordl_internal_get_m_CursorColor, put = __cordl_internal_set_m_CursorColor)) ::UnityEngine::Color m_CursorColor;
+// Declarations
+/// @brief Field m_CursorColor, offset 0x14, size 0x10 
+ __declspec(property(get=__cordl_internal_get_m_CursorColor, put=__cordl_internal_set_m_CursorColor)) ::UnityEngine::Color  m_CursorColor;
 
-  /// @brief Field m_CursorFlashSpeed, offset 0x24, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_CursorFlashSpeed, put = __cordl_internal_set_m_CursorFlashSpeed)) float_t m_CursorFlashSpeed;
+/// @brief Field m_CursorFlashSpeed, offset 0x24, size 0x4 
+ __declspec(property(get=__cordl_internal_get_m_CursorFlashSpeed, put=__cordl_internal_set_m_CursorFlashSpeed)) float_t  m_CursorFlashSpeed;
 
-  /// @brief Field m_DoubleClickSelectsWord, offset 0x10, size 0x1
-  __declspec(property(get = __cordl_internal_get_m_DoubleClickSelectsWord, put = __cordl_internal_set_m_DoubleClickSelectsWord)) bool m_DoubleClickSelectsWord;
+/// @brief Field m_DoubleClickSelectsWord, offset 0x10, size 0x1 
+ __declspec(property(get=__cordl_internal_get_m_DoubleClickSelectsWord, put=__cordl_internal_set_m_DoubleClickSelectsWord)) bool  m_DoubleClickSelectsWord;
 
-  /// @brief Field m_SelectionColor, offset 0x28, size 0x10
-  __declspec(property(get = __cordl_internal_get_m_SelectionColor, put = __cordl_internal_set_m_SelectionColor)) ::UnityEngine::Color m_SelectionColor;
+/// @brief Field m_SelectionColor, offset 0x28, size 0x10 
+ __declspec(property(get=__cordl_internal_get_m_SelectionColor, put=__cordl_internal_set_m_SelectionColor)) ::UnityEngine::Color  m_SelectionColor;
 
-  /// @brief Field m_TripleClickSelectsLine, offset 0x11, size 0x1
-  __declspec(property(get = __cordl_internal_get_m_TripleClickSelectsLine, put = __cordl_internal_set_m_TripleClickSelectsLine)) bool m_TripleClickSelectsLine;
+/// @brief Field m_TripleClickSelectsLine, offset 0x11, size 0x1 
+ __declspec(property(get=__cordl_internal_get_m_TripleClickSelectsLine, put=__cordl_internal_set_m_TripleClickSelectsLine)) bool  m_TripleClickSelectsLine;
 
-  static inline ::UnityEngine::GUISettings* New_ctor();
+static inline ::UnityEngine::GUISettings* New_ctor() ;
 
-  constexpr ::UnityEngine::Color const& __cordl_internal_get_m_CursorColor() const;
+constexpr ::UnityEngine::Color const& __cordl_internal_get_m_CursorColor() const;
 
-  constexpr ::UnityEngine::Color& __cordl_internal_get_m_CursorColor();
+constexpr ::UnityEngine::Color& __cordl_internal_get_m_CursorColor() ;
 
-  constexpr float_t const& __cordl_internal_get_m_CursorFlashSpeed() const;
+constexpr float_t const& __cordl_internal_get_m_CursorFlashSpeed() const;
 
-  constexpr float_t& __cordl_internal_get_m_CursorFlashSpeed();
+constexpr float_t& __cordl_internal_get_m_CursorFlashSpeed() ;
 
-  constexpr bool const& __cordl_internal_get_m_DoubleClickSelectsWord() const;
+constexpr bool const& __cordl_internal_get_m_DoubleClickSelectsWord() const;
 
-  constexpr bool& __cordl_internal_get_m_DoubleClickSelectsWord();
+constexpr bool& __cordl_internal_get_m_DoubleClickSelectsWord() ;
 
-  constexpr ::UnityEngine::Color const& __cordl_internal_get_m_SelectionColor() const;
+constexpr ::UnityEngine::Color const& __cordl_internal_get_m_SelectionColor() const;
 
-  constexpr ::UnityEngine::Color& __cordl_internal_get_m_SelectionColor();
+constexpr ::UnityEngine::Color& __cordl_internal_get_m_SelectionColor() ;
 
-  constexpr bool const& __cordl_internal_get_m_TripleClickSelectsLine() const;
+constexpr bool const& __cordl_internal_get_m_TripleClickSelectsLine() const;
 
-  constexpr bool& __cordl_internal_get_m_TripleClickSelectsLine();
+constexpr bool& __cordl_internal_get_m_TripleClickSelectsLine() ;
 
-  constexpr void __cordl_internal_set_m_CursorColor(::UnityEngine::Color value);
+constexpr void __cordl_internal_set_m_CursorColor(::UnityEngine::Color  value) ;
 
-  constexpr void __cordl_internal_set_m_CursorFlashSpeed(float_t value);
+constexpr void __cordl_internal_set_m_CursorFlashSpeed(float_t  value) ;
 
-  constexpr void __cordl_internal_set_m_DoubleClickSelectsWord(bool value);
+constexpr void __cordl_internal_set_m_DoubleClickSelectsWord(bool  value) ;
 
-  constexpr void __cordl_internal_set_m_SelectionColor(::UnityEngine::Color value);
+constexpr void __cordl_internal_set_m_SelectionColor(::UnityEngine::Color  value) ;
 
-  constexpr void __cordl_internal_set_m_TripleClickSelectsLine(bool value);
+constexpr void __cordl_internal_set_m_TripleClickSelectsLine(bool  value) ;
 
-  /// @brief Method .ctor, addr 0x69ef084, size 0x28, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x69f0bfc, size 0x28, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr GUISettings();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr GUISettings() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GUISettings", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  GUISettings(GUISettings&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GUISettings", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  GUISettings(GUISettings const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "GUISettings", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+GUISettings(GUISettings && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19614 };
+// Ctor Parameters [CppParam { name: "", ty: "GUISettings", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+GUISettings(GUISettings const& ) = delete;
 
-  /// @brief Field m_DoubleClickSelectsWord, offset: 0x10, size: 0x1, def value: None
-  bool ___m_DoubleClickSelectsWord;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19617};
 
-  /// @brief Field m_TripleClickSelectsLine, offset: 0x11, size: 0x1, def value: None
-  bool ___m_TripleClickSelectsLine;
+/// @brief Field m_DoubleClickSelectsWord, offset: 0x10, size: 0x1, def value: None
+ bool  ___m_DoubleClickSelectsWord;
 
-  /// @brief Field m_CursorColor, offset: 0x14, size: 0x10, def value: None
-  ::UnityEngine::Color ___m_CursorColor;
+/// @brief Field m_TripleClickSelectsLine, offset: 0x11, size: 0x1, def value: None
+ bool  ___m_TripleClickSelectsLine;
 
-  /// @brief Field m_CursorFlashSpeed, offset: 0x24, size: 0x4, def value: None
-  float_t ___m_CursorFlashSpeed;
+/// @brief Field m_CursorColor, offset: 0x14, size: 0x10, def value: None
+ ::UnityEngine::Color  ___m_CursorColor;
 
-  /// @brief Field m_SelectionColor, offset: 0x28, size: 0x10, def value: None
-  ::UnityEngine::Color ___m_SelectionColor;
+/// @brief Field m_CursorFlashSpeed, offset: 0x24, size: 0x4, def value: None
+ float_t  ___m_CursorFlashSpeed;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field m_SelectionColor, offset: 0x28, size: 0x10, def value: None
+ ::UnityEngine::Color  ___m_SelectionColor;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::GUISettings, ___m_DoubleClickSelectsWord) == 0x10, "Offset mismatch!");
@@ -117,6 +117,6 @@ static_assert(offsetof(::UnityEngine::GUISettings, ___m_SelectionColor) == 0x28,
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::GUISettings, 0x38>, "Size mismatch!");
 
-} // namespace UnityEngine
+} // namespace end def UnityEngine
 NEED_NO_BOX(::UnityEngine::GUISettings);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::GUISettings*, "UnityEngine", "GUISettings");

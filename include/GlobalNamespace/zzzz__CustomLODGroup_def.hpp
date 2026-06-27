@@ -8,7 +8,8 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(CustomLODGroup)
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template<typename T>
+class List_1;
 }
 namespace UnityEngine {
 class GameObject;
@@ -25,81 +26,81 @@ namespace GlobalNamespace {
 // CS Name: CustomLODGroup
 class CORDL_TYPE CustomLODGroup : public ::UnityEngine::MonoBehaviour {
 public:
-  // Declarations
-  /// @brief Field _activeLevel, offset 0x28, size 0x4
-  __declspec(property(get = __cordl_internal_get__activeLevel, put = __cordl_internal_set__activeLevel)) int32_t _activeLevel;
+// Declarations
+/// @brief Field _activeLevel, offset 0x28, size 0x4 
+ __declspec(property(get=__cordl_internal_get__activeLevel, put=__cordl_internal_set__activeLevel)) int32_t  _activeLevel;
 
-  /// @brief Field _levels, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__levels, put = __cordl_internal_set__levels)) ::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> _levels;
+/// @brief Field _levels, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get__levels, put=__cordl_internal_set__levels)) ::ArrayW<::UnityW<::UnityEngine::GameObject>,::Array<::UnityW<::UnityEngine::GameObject>>*>  _levels;
 
-  /// @brief Method Awake, addr 0x5841e8c, size 0x24, virtual false, abstract: false, final false
-  inline void Awake();
+/// @brief Method Awake, addr 0x5843738, size 0x24, virtual false, abstract: false, final false
+inline void Awake() ;
 
-  /// @brief Method DetectLODs, addr 0x5842158, size 0x1f8, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* DetectLODs();
+/// @brief Method DetectLODs, addr 0x5843a04, size 0x1f8, virtual false, abstract: false, final false
+inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* DetectLODs() ;
 
-  /// @brief Method DisableAllLevels, addr 0x5842040, size 0xc8, virtual false, abstract: false, final false
-  inline void DisableAllLevels();
+/// @brief Method DisableAllLevels, addr 0x58438ec, size 0xc8, virtual false, abstract: false, final false
+inline void DisableAllLevels() ;
 
-  /// @brief Method GetActiveLevel, addr 0x5842004, size 0x3c, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::GameObject> GetActiveLevel();
+/// @brief Method GetActiveLevel, addr 0x58438b0, size 0x3c, virtual false, abstract: false, final false
+inline ::UnityW<::UnityEngine::GameObject> GetActiveLevel() ;
 
-  /// @brief Method GetStartupLevel, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline int32_t GetStartupLevel();
+/// @brief Method GetStartupLevel, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline int32_t GetStartupLevel() ;
 
-  static inline ::GlobalNamespace::CustomLODGroup* New_ctor();
+static inline ::GlobalNamespace::CustomLODGroup* New_ctor() ;
 
-  /// @brief Method SetActiveLevel, addr 0x5841eb0, size 0x154, virtual false, abstract: false, final false
-  inline void SetActiveLevel(int32_t level);
+/// @brief Method SetActiveLevel, addr 0x584375c, size 0x154, virtual false, abstract: false, final false
+inline void SetActiveLevel(int32_t  level) ;
 
-  /// @brief Method SetLevels, addr 0x5842130, size 0x28, virtual false, abstract: false, final false
-  inline void SetLevels(::ArrayW<::UnityEngine::GameObject*, ::Array<::UnityEngine::GameObject*>*> levels);
+/// @brief Method SetLevels, addr 0x58439dc, size 0x28, virtual false, abstract: false, final false
+inline void SetLevels(::ArrayW<::UnityEngine::GameObject*,::Array<::UnityEngine::GameObject*>*>  levels) ;
 
-  /// @brief Method ToggleLevel, addr 0x5842108, size 0x28, virtual false, abstract: false, final false
-  inline void ToggleLevel();
+/// @brief Method ToggleLevel, addr 0x58439b4, size 0x28, virtual false, abstract: false, final false
+inline void ToggleLevel() ;
 
-  constexpr int32_t const& __cordl_internal_get__activeLevel() const;
+constexpr int32_t const& __cordl_internal_get__activeLevel() const;
 
-  constexpr int32_t& __cordl_internal_get__activeLevel();
+constexpr int32_t& __cordl_internal_get__activeLevel() ;
 
-  constexpr ::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> const& __cordl_internal_get__levels() const;
+constexpr ::ArrayW<::UnityW<::UnityEngine::GameObject>,::Array<::UnityW<::UnityEngine::GameObject>>*> const& __cordl_internal_get__levels() const;
 
-  constexpr ::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*>& __cordl_internal_get__levels();
+constexpr ::ArrayW<::UnityW<::UnityEngine::GameObject>,::Array<::UnityW<::UnityEngine::GameObject>>*>& __cordl_internal_get__levels() ;
 
-  constexpr void __cordl_internal_set__activeLevel(int32_t value);
+constexpr void __cordl_internal_set__activeLevel(int32_t  value) ;
 
-  constexpr void __cordl_internal_set__levels(::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> value);
+constexpr void __cordl_internal_set__levels(::ArrayW<::UnityW<::UnityEngine::GameObject>,::Array<::UnityW<::UnityEngine::GameObject>>*>  value) ;
 
-  /// @brief Method .ctor, addr 0x5842350, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5843bfc, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CustomLODGroup();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr CustomLODGroup() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CustomLODGroup", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  CustomLODGroup(CustomLODGroup&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CustomLODGroup", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  CustomLODGroup(CustomLODGroup const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "CustomLODGroup", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+CustomLODGroup(CustomLODGroup && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5755 };
+// Ctor Parameters [CppParam { name: "", ty: "CustomLODGroup", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+CustomLODGroup(CustomLODGroup const& ) = delete;
 
-  /// @brief Field kLodPrefix offset 0xffffffff size 0x8
-  static constexpr ::ConstString kLodPrefix{ u"LOD" };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{5755};
 
-  /// @brief Field _levels, offset: 0x20, size: 0x8, def value: None
-  ::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> ____levels;
+/// @brief Field kLodPrefix offset 0xffffffff size 0x8
+static constexpr ::ConstString  kLodPrefix{u"LOD"};
 
-  /// @brief Field _activeLevel, offset: 0x28, size: 0x4, def value: None
-  int32_t ____activeLevel;
+/// @brief Field _levels, offset: 0x20, size: 0x8, def value: None
+ ::ArrayW<::UnityW<::UnityEngine::GameObject>,::Array<::UnityW<::UnityEngine::GameObject>>*>  ____levels;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _activeLevel, offset: 0x28, size: 0x4, def value: None
+ int32_t  ____activeLevel;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::CustomLODGroup, ____levels) == 0x20, "Offset mismatch!");
@@ -108,6 +109,6 @@ static_assert(offsetof(::GlobalNamespace::CustomLODGroup, ____activeLevel) == 0x
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::CustomLODGroup, 0x30>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::CustomLODGroup);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::CustomLODGroup*, "", "CustomLODGroup");

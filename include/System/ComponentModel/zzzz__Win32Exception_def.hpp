@@ -28,80 +28,80 @@ namespace System::ComponentModel {
 // CS Name: System.ComponentModel.Win32Exception
 class CORDL_TYPE Win32Exception : public ::System::Runtime::InteropServices::ExternalException {
 public:
-  // Declarations
-  __declspec(property(get = get_NativeErrorCode)) int32_t NativeErrorCode;
+// Declarations
+ __declspec(property(get=get_NativeErrorCode)) int32_t  NativeErrorCode;
 
-  /// @brief Field nativeErrorCode, offset 0x8c, size 0x4
-  __declspec(property(get = __cordl_internal_get_nativeErrorCode, put = __cordl_internal_set_nativeErrorCode)) int32_t nativeErrorCode;
+/// @brief Field nativeErrorCode, offset 0x8c, size 0x4 
+ __declspec(property(get=__cordl_internal_get_nativeErrorCode, put=__cordl_internal_set_nativeErrorCode)) int32_t  nativeErrorCode;
 
-  /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
-  constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
+/// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
+constexpr operator  ::System::Runtime::Serialization::ISerializable*() noexcept;
 
-  /// @brief Method GetErrorMessage, addr 0x62a6b30, size 0xb9c, virtual false, abstract: false, final false
-  static inline ::StringW GetErrorMessage(int32_t error);
+/// @brief Method GetErrorMessage, addr 0x62a86a8, size 0xb9c, virtual false, abstract: false, final false
+static inline ::StringW GetErrorMessage(int32_t  error) ;
 
-  /// @brief Method GetObjectData, addr 0x62a77a0, size 0xd4, virtual true, abstract: false, final false
-  inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
+/// @brief Method GetObjectData, addr 0x62a9318, size 0xd4, virtual true, abstract: false, final false
+inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context) ;
 
-  static inline ::System::ComponentModel::Win32Exception* New_ctor();
+static inline ::System::ComponentModel::Win32Exception* New_ctor() ;
 
-  static inline ::System::ComponentModel::Win32Exception* New_ctor(int32_t error);
+static inline ::System::ComponentModel::Win32Exception* New_ctor(int32_t  error) ;
 
-  static inline ::System::ComponentModel::Win32Exception* New_ctor(int32_t error, ::StringW message);
+static inline ::System::ComponentModel::Win32Exception* New_ctor(int32_t  error, ::StringW  message) ;
 
-  static inline ::System::ComponentModel::Win32Exception* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
+static inline ::System::ComponentModel::Win32Exception* New_ctor(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context) ;
 
-  constexpr int32_t const& __cordl_internal_get_nativeErrorCode() const;
+constexpr int32_t const& __cordl_internal_get_nativeErrorCode() const;
 
-  constexpr int32_t& __cordl_internal_get_nativeErrorCode();
+constexpr int32_t& __cordl_internal_get_nativeErrorCode() ;
 
-  constexpr void __cordl_internal_set_nativeErrorCode(int32_t value);
+constexpr void __cordl_internal_set_nativeErrorCode(int32_t  value) ;
 
-  /// @brief Method .ctor, addr 0x62a6a6c, size 0x80, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x62a85e4, size 0x80, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method .ctor, addr 0x62a6aec, size 0x44, virtual false, abstract: false, final false
-  inline void _ctor(int32_t error);
+/// @brief Method .ctor, addr 0x62a8664, size 0x44, virtual false, abstract: false, final false
+inline void _ctor(int32_t  error) ;
 
-  /// @brief Method .ctor, addr 0x62a76cc, size 0x38, virtual false, abstract: false, final false
-  inline void _ctor(int32_t error, ::StringW message);
+/// @brief Method .ctor, addr 0x62a9244, size 0x38, virtual false, abstract: false, final false
+inline void _ctor(int32_t  error, ::StringW  message) ;
 
-  /// @brief Method .ctor, addr 0x62a7704, size 0x94, virtual false, abstract: false, final false
-  inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
+/// @brief Method .ctor, addr 0x62a927c, size 0x94, virtual false, abstract: false, final false
+inline void _ctor(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context) ;
 
-  /// @brief Method get_NativeErrorCode, addr 0x62a7798, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_NativeErrorCode();
+/// @brief Method get_NativeErrorCode, addr 0x62a9310, size 0x8, virtual false, abstract: false, final false
+inline int32_t get_NativeErrorCode() ;
 
-  /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
-  constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
+/// @brief Convert to "::System::Runtime::Serialization::ISerializable"
+constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Win32Exception();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr Win32Exception() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Win32Exception", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  Win32Exception(Win32Exception&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Win32Exception", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  Win32Exception(Win32Exception const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "Win32Exception", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Win32Exception(Win32Exception && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11327 };
+// Ctor Parameters [CppParam { name: "", ty: "Win32Exception", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Win32Exception(Win32Exception const& ) = delete;
 
-  /// @brief Field nativeErrorCode, offset: 0x8c, size: 0x4, def value: None
-  int32_t ___nativeErrorCode;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11328};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field nativeErrorCode, offset: 0x8c, size: 0x4, def value: None
+ int32_t  ___nativeErrorCode;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::ComponentModel::Win32Exception, ___nativeErrorCode) == 0x8c, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::System::ComponentModel::Win32Exception, 0x90>, "Size mismatch!");
 
-} // namespace System::ComponentModel
+} // namespace end def System::ComponentModel
 NEED_NO_BOX(::System::ComponentModel::Win32Exception);
 DEFINE_IL2CPP_ARG_TYPE(::System::ComponentModel::Win32Exception*, "System.ComponentModel", "Win32Exception");

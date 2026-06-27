@@ -20,32 +20,32 @@ namespace Mono::Net::Security {
 // CS Name: Mono.Net.Security.NoReflectionHelper
 class CORDL_TYPE NoReflectionHelper : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method GetProvider, addr 0x5e9c854, size 0x50, virtual false, abstract: false, final false
-  static inline ::System::Object* GetProvider();
+// Declarations
+/// @brief Method GetProvider, addr 0x5e9e3cc, size 0x50, virtual false, abstract: false, final false
+static inline ::System::Object* GetProvider() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NoReflectionHelper();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr NoReflectionHelper() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NoReflectionHelper", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  NoReflectionHelper(NoReflectionHelper&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NoReflectionHelper", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  NoReflectionHelper(NoReflectionHelper const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "NoReflectionHelper", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+NoReflectionHelper(NoReflectionHelper && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11024 };
+// Ctor Parameters [CppParam { name: "", ty: "NoReflectionHelper", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+NoReflectionHelper(NoReflectionHelper const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11025};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Mono::Net::Security::NoReflectionHelper, 0x10>, "Size mismatch!");
 
-} // namespace Mono::Net::Security
+} // namespace end def Mono::Net::Security
 NEED_NO_BOX(::Mono::Net::Security::NoReflectionHelper);
 DEFINE_IL2CPP_ARG_TYPE(::Mono::Net::Security::NoReflectionHelper*, "Mono.Net.Security", "NoReflectionHelper");

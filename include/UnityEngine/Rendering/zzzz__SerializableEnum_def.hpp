@@ -24,62 +24,62 @@ namespace UnityEngine::Rendering {
 // CS Name: UnityEngine.Rendering.SerializableEnum
 class CORDL_TYPE SerializableEnum : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field m_EnumTypeAsString, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_EnumTypeAsString, put = __cordl_internal_set_m_EnumTypeAsString)) ::StringW m_EnumTypeAsString;
+// Declarations
+/// @brief Field m_EnumTypeAsString, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_EnumTypeAsString, put=__cordl_internal_set_m_EnumTypeAsString)) ::StringW  m_EnumTypeAsString;
 
-  /// @brief Field m_EnumValueAsString, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_EnumValueAsString, put = __cordl_internal_set_m_EnumValueAsString)) ::StringW m_EnumValueAsString;
+/// @brief Field m_EnumValueAsString, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_EnumValueAsString, put=__cordl_internal_set_m_EnumValueAsString)) ::StringW  m_EnumValueAsString;
 
-  __declspec(property(get = get_value, put = set_value)) ::System::Enum* value;
+ __declspec(property(get=get_value, put=set_value)) ::System::Enum*  value;
 
-  static inline ::UnityEngine::Rendering::SerializableEnum* New_ctor(::System::Type* enumType);
+static inline ::UnityEngine::Rendering::SerializableEnum* New_ctor(::System::Type*  enumType) ;
 
-  constexpr ::StringW const& __cordl_internal_get_m_EnumTypeAsString() const;
+constexpr ::StringW const& __cordl_internal_get_m_EnumTypeAsString() const;
 
-  constexpr ::StringW& __cordl_internal_get_m_EnumTypeAsString();
+constexpr ::StringW& __cordl_internal_get_m_EnumTypeAsString() ;
 
-  constexpr ::StringW const& __cordl_internal_get_m_EnumValueAsString() const;
+constexpr ::StringW const& __cordl_internal_get_m_EnumValueAsString() const;
 
-  constexpr ::StringW& __cordl_internal_get_m_EnumValueAsString();
+constexpr ::StringW& __cordl_internal_get_m_EnumValueAsString() ;
 
-  constexpr void __cordl_internal_set_m_EnumTypeAsString(::StringW value);
+constexpr void __cordl_internal_set_m_EnumTypeAsString(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_m_EnumValueAsString(::StringW value);
+constexpr void __cordl_internal_set_m_EnumValueAsString(::StringW  value) ;
 
-  /// @brief Method .ctor, addr 0x661499c, size 0x94, virtual false, abstract: false, final false
-  inline void _ctor(::System::Type* enumType);
+/// @brief Method .ctor, addr 0x6616514, size 0x94, virtual false, abstract: false, final false
+inline void _ctor(::System::Type*  enumType) ;
 
-  /// @brief Method get_value, addr 0x6614854, size 0x118, virtual false, abstract: false, final false
-  inline ::System::Enum* get_value();
+/// @brief Method get_value, addr 0x66163cc, size 0x118, virtual false, abstract: false, final false
+inline ::System::Enum* get_value() ;
 
-  /// @brief Method set_value, addr 0x661496c, size 0x30, virtual false, abstract: false, final false
-  inline void set_value(::System::Enum* value);
+/// @brief Method set_value, addr 0x66164e4, size 0x30, virtual false, abstract: false, final false
+inline void set_value(::System::Enum*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SerializableEnum();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr SerializableEnum() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SerializableEnum", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  SerializableEnum(SerializableEnum&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SerializableEnum", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  SerializableEnum(SerializableEnum const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "SerializableEnum", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+SerializableEnum(SerializableEnum && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11926 };
+// Ctor Parameters [CppParam { name: "", ty: "SerializableEnum", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+SerializableEnum(SerializableEnum const& ) = delete;
 
-  /// @brief Field m_EnumValueAsString, offset: 0x10, size: 0x8, def value: None
-  ::StringW ___m_EnumValueAsString;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11927};
 
-  /// @brief Field m_EnumTypeAsString, offset: 0x18, size: 0x8, def value: None
-  ::StringW ___m_EnumTypeAsString;
+/// @brief Field m_EnumValueAsString, offset: 0x10, size: 0x8, def value: None
+ ::StringW  ___m_EnumValueAsString;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field m_EnumTypeAsString, offset: 0x18, size: 0x8, def value: None
+ ::StringW  ___m_EnumTypeAsString;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Rendering::SerializableEnum, ___m_EnumValueAsString) == 0x10, "Offset mismatch!");
@@ -88,6 +88,6 @@ static_assert(offsetof(::UnityEngine::Rendering::SerializableEnum, ___m_EnumType
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::SerializableEnum, 0x20>, "Size mismatch!");
 
-} // namespace UnityEngine::Rendering
+} // namespace end def UnityEngine::Rendering
 NEED_NO_BOX(::UnityEngine::Rendering::SerializableEnum);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::SerializableEnum*, "UnityEngine.Rendering", "SerializableEnum");

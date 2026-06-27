@@ -17,34 +17,34 @@ namespace JetBrains::Annotations {
 // CS Name: JetBrains.Annotations.InstantHandleAttribute
 class CORDL_TYPE InstantHandleAttribute : public ::System::Attribute {
 public:
-  // Declarations
-  static inline ::JetBrains::Annotations::InstantHandleAttribute* New_ctor();
+// Declarations
+static inline ::JetBrains::Annotations::InstantHandleAttribute* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x6ce4be8, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6ce6760, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr InstantHandleAttribute();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr InstantHandleAttribute() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InstantHandleAttribute", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  InstantHandleAttribute(InstantHandleAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InstantHandleAttribute", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  InstantHandleAttribute(InstantHandleAttribute const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "InstantHandleAttribute", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+InstantHandleAttribute(InstantHandleAttribute && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22342 };
+// Ctor Parameters [CppParam { name: "", ty: "InstantHandleAttribute", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+InstantHandleAttribute(InstantHandleAttribute const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22346};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::JetBrains::Annotations::InstantHandleAttribute, 0x10>, "Size mismatch!");
 
-} // namespace JetBrains::Annotations
+} // namespace end def JetBrains::Annotations
 NEED_NO_BOX(::JetBrains::Annotations::InstantHandleAttribute);
 DEFINE_IL2CPP_ARG_TYPE(::JetBrains::Annotations::InstantHandleAttribute*, "JetBrains.Annotations", "InstantHandleAttribute");

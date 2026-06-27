@@ -18,49 +18,49 @@ namespace UnityEngine::Rendering {
 // CS Name: UnityEngine.Rendering.BatchLayer
 class CORDL_TYPE BatchLayer : public ::System::Object {
 public:
-  // Declarations
-  static inline ::UnityEngine::Rendering::BatchLayer* New_ctor();
+// Declarations
+static inline ::UnityEngine::Rendering::BatchLayer* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x66c5880, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x66c73f8, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BatchLayer();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr BatchLayer() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BatchLayer", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  BatchLayer(BatchLayer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BatchLayer", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  BatchLayer(BatchLayer const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "BatchLayer", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+BatchLayer(BatchLayer && ) = delete;
 
-  /// @brief Field InstanceCullingDirect offset 0xffffffff size 0x1
-  static constexpr uint8_t InstanceCullingDirect{ static_cast<uint8_t>(0x1du) };
+// Ctor Parameters [CppParam { name: "", ty: "BatchLayer", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+BatchLayer(BatchLayer const& ) = delete;
 
-  /// @brief Field InstanceCullingDirectMask offset 0xffffffff size 0x4
-  static constexpr uint32_t InstanceCullingDirectMask{ static_cast<uint32_t>(0x20000000u) };
+/// @brief Field InstanceCullingDirect offset 0xffffffff size 0x1
+static constexpr uint8_t  InstanceCullingDirect{static_cast<uint8_t>(0x1du)};
 
-  /// @brief Field InstanceCullingIndirect offset 0xffffffff size 0x1
-  static constexpr uint8_t InstanceCullingIndirect{ static_cast<uint8_t>(0x1cu) };
+/// @brief Field InstanceCullingDirectMask offset 0xffffffff size 0x4
+static constexpr uint32_t  InstanceCullingDirectMask{static_cast<uint32_t>(0x20000000u)};
 
-  /// @brief Field InstanceCullingIndirectMask offset 0xffffffff size 0x4
-  static constexpr uint32_t InstanceCullingIndirectMask{ static_cast<uint32_t>(0x10000000u) };
+/// @brief Field InstanceCullingIndirect offset 0xffffffff size 0x1
+static constexpr uint8_t  InstanceCullingIndirect{static_cast<uint8_t>(0x1cu)};
 
-  /// @brief Field InstanceCullingMask offset 0xffffffff size 0x4
-  static constexpr uint32_t InstanceCullingMask{ static_cast<uint32_t>(0x30000000u) };
+/// @brief Field InstanceCullingIndirectMask offset 0xffffffff size 0x4
+static constexpr uint32_t  InstanceCullingIndirectMask{static_cast<uint32_t>(0x10000000u)};
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17575 };
+/// @brief Field InstanceCullingMask offset 0xffffffff size 0x4
+static constexpr uint32_t  InstanceCullingMask{static_cast<uint32_t>(0x30000000u)};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{17577};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::BatchLayer, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::Rendering
+} // namespace end def UnityEngine::Rendering
 NEED_NO_BOX(::UnityEngine::Rendering::BatchLayer);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::BatchLayer*, "UnityEngine.Rendering", "BatchLayer");

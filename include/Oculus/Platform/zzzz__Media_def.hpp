@@ -13,7 +13,8 @@ namespace Oculus::Platform {
 struct MediaContentType;
 }
 namespace Oculus::Platform {
-template <typename T> class Request_1;
+template<typename T>
+class Request_1;
 }
 // Forward declare root types
 namespace Oculus::Platform {
@@ -27,33 +28,32 @@ namespace Oculus::Platform {
 // CS Name: Oculus.Platform.Media
 class CORDL_TYPE Media : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method ShareToFacebook, addr 0x5cae4b0, size 0x180, virtual false, abstract: false, final false
-  static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::ShareMediaResult*>* ShareToFacebook(::StringW postTextSuggestion, ::StringW filePath,
-                                                                                                              ::Oculus::Platform::MediaContentType contentType);
+// Declarations
+/// @brief Method ShareToFacebook, addr 0x5cb0028, size 0x180, virtual false, abstract: false, final false
+static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::ShareMediaResult*>* ShareToFacebook(::StringW  postTextSuggestion, ::StringW  filePath, ::Oculus::Platform::MediaContentType  contentType) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Media();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr Media() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Media", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  Media(Media&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Media", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  Media(Media const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "Media", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Media(Media && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17942 };
+// Ctor Parameters [CppParam { name: "", ty: "Media", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Media(Media const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{17944};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Oculus::Platform::Media, 0x10>, "Size mismatch!");
 
-} // namespace Oculus::Platform
+} // namespace end def Oculus::Platform
 NEED_NO_BOX(::Oculus::Platform::Media);
 DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Media*, "Oculus.Platform", "Media");

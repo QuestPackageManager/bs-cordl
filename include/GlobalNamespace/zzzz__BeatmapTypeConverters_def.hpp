@@ -96,80 +96,80 @@ namespace GlobalNamespace {
 // CS Name: BeatmapTypeConverters
 class CORDL_TYPE BeatmapTypeConverters : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method ConvertBasicBeatmapEventType, addr 0x3653028, size 0x4, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::BasicBeatmapEventType ConvertBasicBeatmapEventType(::BeatmapSaveDataCommon::BeatmapEventType beatmapEventType);
+// Declarations
+/// @brief Method ConvertBasicBeatmapEventType, addr 0x36543bc, size 0x4, virtual false, abstract: false, final false
+static inline ::GlobalNamespace::BasicBeatmapEventType ConvertBasicBeatmapEventType(::BeatmapSaveDataCommon::BeatmapEventType  beatmapEventType) ;
 
-  /// @brief Method ConvertDistributionParamType, addr 0x365302c, size 0x10, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::BeatmapEventDataBox_DistributionParamType ConvertDistributionParamType(::BeatmapSaveDataCommon::DistributionParamType distributionParamType);
+/// @brief Method ConvertDistributionParamType, addr 0x36543c0, size 0x10, virtual false, abstract: false, final false
+static inline ::GlobalNamespace::BeatmapEventDataBox_DistributionParamType ConvertDistributionParamType(::BeatmapSaveDataCommon::DistributionParamType  distributionParamType) ;
 
-  /// @brief Method ConvertEaseType, addr 0x3652ef0, size 0xe0, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::EaseType ConvertEaseType(::BeatmapSaveDataCommon::EaseType easeType);
+/// @brief Method ConvertEaseType, addr 0x3654284, size 0xe0, virtual false, abstract: false, final false
+static inline ::GlobalNamespace::EaseType ConvertEaseType(::BeatmapSaveDataCommon::EaseType  easeType) ;
 
-  /// @brief Method ConvertEnvironmentColorType, addr 0x3652ec8, size 0x14, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::EnvironmentColorType ConvertEnvironmentColorType(::BeatmapSaveDataCommon::EnvironmentColorType environmentColorType);
+/// @brief Method ConvertEnvironmentColorType, addr 0x365425c, size 0x14, virtual false, abstract: false, final false
+static inline ::GlobalNamespace::EnvironmentColorType ConvertEnvironmentColorType(::BeatmapSaveDataCommon::EnvironmentColorType  environmentColorType) ;
 
-  /// @brief Method ConvertLightAxis, addr 0x3652edc, size 0x14, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::LightAxis ConvertLightAxis(::BeatmapSaveDataCommon::Axis axis);
+/// @brief Method ConvertLightAxis, addr 0x3654270, size 0x14, virtual false, abstract: false, final false
+static inline ::GlobalNamespace::LightAxis ConvertLightAxis(::BeatmapSaveDataCommon::Axis  axis) ;
 
-  /// @brief Method ConvertLightRotationDirection, addr 0x3653014, size 0x14, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::LightRotationDirection ConvertLightRotationDirection(::BeatmapSaveDataCommon::RotationDirection rotationDirection);
+/// @brief Method ConvertLightRotationDirection, addr 0x36543a8, size 0x14, virtual false, abstract: false, final false
+static inline ::GlobalNamespace::LightRotationDirection ConvertLightRotationDirection(::BeatmapSaveDataCommon::RotationDirection  rotationDirection) ;
 
-  /// @brief Method ConvertNoteColorType, addr 0x3652eb4, size 0x14, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::ColorType ConvertNoteColorType(::BeatmapSaveDataCommon::NoteColorType noteType);
+/// @brief Method ConvertNoteColorType, addr 0x3654248, size 0x14, virtual false, abstract: false, final false
+static inline ::GlobalNamespace::ColorType ConvertNoteColorType(::BeatmapSaveDataCommon::NoteColorType  noteType) ;
 
-  /// @brief Method ConvertNoteColorType, addr 0x3652ea0, size 0x14, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::ColorType ConvertNoteColorType(::BeatmapSaveDataVersion2_6_0AndEarlier::ColorType noteType);
+/// @brief Method ConvertNoteColorType, addr 0x3654234, size 0x14, virtual false, abstract: false, final false
+static inline ::GlobalNamespace::ColorType ConvertNoteColorType(::BeatmapSaveDataVersion2_6_0AndEarlier::ColorType  noteType) ;
 
-  /// @brief Method ConvertNoteCutDirection, addr 0x365303c, size 0x10, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::NoteCutDirection ConvertNoteCutDirection(::BeatmapSaveDataCommon::NoteCutDirection noteCutDirection);
+/// @brief Method ConvertNoteCutDirection, addr 0x36543d0, size 0x10, virtual false, abstract: false, final false
+static inline ::GlobalNamespace::NoteCutDirection ConvertNoteCutDirection(::BeatmapSaveDataCommon::NoteCutDirection  noteCutDirection) ;
 
-  /// @brief Method ConvertNoteLineLayer, addr 0x3652ff4, size 0x14, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::NoteLineLayer ConvertNoteLineLayer(::BeatmapSaveDataCommon::NoteLineLayer layer);
+/// @brief Method ConvertNoteLineLayer, addr 0x3654388, size 0x14, virtual false, abstract: false, final false
+static inline ::GlobalNamespace::NoteLineLayer ConvertNoteLineLayer(::BeatmapSaveDataCommon::NoteLineLayer  layer) ;
 
-  /// @brief Method ConvertNoteLineLayer, addr 0x3652fd0, size 0x14, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::NoteLineLayer ConvertNoteLineLayer(int32_t layer);
+/// @brief Method ConvertNoteLineLayer, addr 0x3654364, size 0x14, virtual false, abstract: false, final false
+static inline ::GlobalNamespace::NoteLineLayer ConvertNoteLineLayer(int32_t  layer) ;
 
-  /// @brief Method ConvertObstacleLineLayer, addr 0x3652fe4, size 0x10, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::NoteLineLayer ConvertObstacleLineLayer(int32_t layer);
+/// @brief Method ConvertObstacleLineLayer, addr 0x3654378, size 0x10, virtual false, abstract: false, final false
+static inline ::GlobalNamespace::NoteLineLayer ConvertObstacleLineLayer(int32_t  layer) ;
 
-  /// @brief Method ConvertOffsetDirection, addr 0x3653060, size 0x20, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::OffsetDirection ConvertOffsetDirection(::BeatmapSaveDataCommon::OffsetDirection offsetDirection);
+/// @brief Method ConvertOffsetDirection, addr 0x36543f4, size 0x20, virtual false, abstract: false, final false
+static inline ::GlobalNamespace::OffsetDirection ConvertOffsetDirection(::BeatmapSaveDataCommon::OffsetDirection  offsetDirection) ;
 
-  /// @brief Method ConvertSliderDataType, addr 0x3653008, size 0xc, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::SliderData_Type ConvertSliderDataType(::BeatmapSaveDataVersion3::SliderType sliderType);
+/// @brief Method ConvertSliderDataType, addr 0x365439c, size 0xc, virtual false, abstract: false, final false
+static inline ::GlobalNamespace::SliderData_Type ConvertSliderDataType(::BeatmapSaveDataVersion3::SliderType  sliderType) ;
 
-  /// @brief Method ConvertSliderMidAnchorMode, addr 0x365304c, size 0x14, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::SliderMidAnchorMode ConvertSliderMidAnchorMode(::BeatmapSaveDataCommon::SliderMidAnchorMode sliderMidAnchorMode);
+/// @brief Method ConvertSliderMidAnchorMode, addr 0x36543e0, size 0x14, virtual false, abstract: false, final false
+static inline ::GlobalNamespace::SliderMidAnchorMode ConvertSliderMidAnchorMode(::BeatmapSaveDataCommon::SliderMidAnchorMode  sliderMidAnchorMode) ;
 
-  /// @brief Method ConvertTransitionTypeToEaseType, addr 0x365308c, size 0xc, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::EaseType ConvertTransitionTypeToEaseType(::BeatmapSaveDataVersion3::TransitionType transitionType);
+/// @brief Method ConvertTransitionTypeToEaseType, addr 0x3654420, size 0xc, virtual false, abstract: false, final false
+static inline ::GlobalNamespace::EaseType ConvertTransitionTypeToEaseType(::BeatmapSaveDataVersion3::TransitionType  transitionType) ;
 
-  /// @brief Method ConvertTransitionTypeToExtension, addr 0x3653080, size 0xc, virtual false, abstract: false, final false
-  static inline bool ConvertTransitionTypeToExtension(::BeatmapSaveDataVersion3::TransitionType transitionType);
+/// @brief Method ConvertTransitionTypeToExtension, addr 0x3654414, size 0xc, virtual false, abstract: false, final false
+static inline bool ConvertTransitionTypeToExtension(::BeatmapSaveDataVersion3::TransitionType  transitionType) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BeatmapTypeConverters();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr BeatmapTypeConverters() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapTypeConverters", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  BeatmapTypeConverters(BeatmapTypeConverters&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapTypeConverters", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapTypeConverters(BeatmapTypeConverters const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "BeatmapTypeConverters", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+BeatmapTypeConverters(BeatmapTypeConverters && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14876 };
+// Ctor Parameters [CppParam { name: "", ty: "BeatmapTypeConverters", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+BeatmapTypeConverters(BeatmapTypeConverters const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{14878};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatmapTypeConverters, 0x10>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BeatmapTypeConverters);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BeatmapTypeConverters*, "", "BeatmapTypeConverters");

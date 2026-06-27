@@ -19,105 +19,105 @@ namespace UnityEngine::Rendering::Universal {
 // CS Name: UnityEngine.Rendering.Universal.UniversalPostProcessingData
 class CORDL_TYPE UniversalPostProcessingData : public ::UnityEngine::Rendering::ContextItem {
 public:
-  // Declarations
-  /// @brief Field gradingMode, offset 0x14, size 0x4
-  __declspec(property(get = __cordl_internal_get_gradingMode, put = __cordl_internal_set_gradingMode)) ::UnityEngine::Rendering::Universal::ColorGradingMode gradingMode;
+// Declarations
+/// @brief Field gradingMode, offset 0x14, size 0x4 
+ __declspec(property(get=__cordl_internal_get_gradingMode, put=__cordl_internal_set_gradingMode)) ::UnityEngine::Rendering::Universal::ColorGradingMode  gradingMode;
 
-  /// @brief Field isEnabled, offset 0x10, size 0x1
-  __declspec(property(get = __cordl_internal_get_isEnabled, put = __cordl_internal_set_isEnabled)) bool isEnabled;
+/// @brief Field isEnabled, offset 0x10, size 0x1 
+ __declspec(property(get=__cordl_internal_get_isEnabled, put=__cordl_internal_set_isEnabled)) bool  isEnabled;
 
-  /// @brief Field lutSize, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get_lutSize, put = __cordl_internal_set_lutSize)) int32_t lutSize;
+/// @brief Field lutSize, offset 0x18, size 0x4 
+ __declspec(property(get=__cordl_internal_get_lutSize, put=__cordl_internal_set_lutSize)) int32_t  lutSize;
 
-  /// @brief Field supportDataDrivenLensFlare, offset 0x1e, size 0x1
-  __declspec(property(get = __cordl_internal_get_supportDataDrivenLensFlare, put = __cordl_internal_set_supportDataDrivenLensFlare)) bool supportDataDrivenLensFlare;
+/// @brief Field supportDataDrivenLensFlare, offset 0x1e, size 0x1 
+ __declspec(property(get=__cordl_internal_get_supportDataDrivenLensFlare, put=__cordl_internal_set_supportDataDrivenLensFlare)) bool  supportDataDrivenLensFlare;
 
-  /// @brief Field supportScreenSpaceLensFlare, offset 0x1d, size 0x1
-  __declspec(property(get = __cordl_internal_get_supportScreenSpaceLensFlare, put = __cordl_internal_set_supportScreenSpaceLensFlare)) bool supportScreenSpaceLensFlare;
+/// @brief Field supportScreenSpaceLensFlare, offset 0x1d, size 0x1 
+ __declspec(property(get=__cordl_internal_get_supportScreenSpaceLensFlare, put=__cordl_internal_set_supportScreenSpaceLensFlare)) bool  supportScreenSpaceLensFlare;
 
-  /// @brief Field useFastSRGBLinearConversion, offset 0x1c, size 0x1
-  __declspec(property(get = __cordl_internal_get_useFastSRGBLinearConversion, put = __cordl_internal_set_useFastSRGBLinearConversion)) bool useFastSRGBLinearConversion;
+/// @brief Field useFastSRGBLinearConversion, offset 0x1c, size 0x1 
+ __declspec(property(get=__cordl_internal_get_useFastSRGBLinearConversion, put=__cordl_internal_set_useFastSRGBLinearConversion)) bool  useFastSRGBLinearConversion;
 
-  static inline ::UnityEngine::Rendering::Universal::UniversalPostProcessingData* New_ctor();
+static inline ::UnityEngine::Rendering::Universal::UniversalPostProcessingData* New_ctor() ;
 
-  /// @brief Method Reset, addr 0x6730f80, size 0x10, virtual true, abstract: false, final false
-  inline void Reset();
+/// @brief Method Reset, addr 0x6732af8, size 0x10, virtual true, abstract: false, final false
+inline void Reset() ;
 
-  constexpr ::UnityEngine::Rendering::Universal::ColorGradingMode const& __cordl_internal_get_gradingMode() const;
+constexpr ::UnityEngine::Rendering::Universal::ColorGradingMode const& __cordl_internal_get_gradingMode() const;
 
-  constexpr ::UnityEngine::Rendering::Universal::ColorGradingMode& __cordl_internal_get_gradingMode();
+constexpr ::UnityEngine::Rendering::Universal::ColorGradingMode& __cordl_internal_get_gradingMode() ;
 
-  constexpr bool const& __cordl_internal_get_isEnabled() const;
+constexpr bool const& __cordl_internal_get_isEnabled() const;
 
-  constexpr bool& __cordl_internal_get_isEnabled();
+constexpr bool& __cordl_internal_get_isEnabled() ;
 
-  constexpr int32_t const& __cordl_internal_get_lutSize() const;
+constexpr int32_t const& __cordl_internal_get_lutSize() const;
 
-  constexpr int32_t& __cordl_internal_get_lutSize();
+constexpr int32_t& __cordl_internal_get_lutSize() ;
 
-  constexpr bool const& __cordl_internal_get_supportDataDrivenLensFlare() const;
+constexpr bool const& __cordl_internal_get_supportDataDrivenLensFlare() const;
 
-  constexpr bool& __cordl_internal_get_supportDataDrivenLensFlare();
+constexpr bool& __cordl_internal_get_supportDataDrivenLensFlare() ;
 
-  constexpr bool const& __cordl_internal_get_supportScreenSpaceLensFlare() const;
+constexpr bool const& __cordl_internal_get_supportScreenSpaceLensFlare() const;
 
-  constexpr bool& __cordl_internal_get_supportScreenSpaceLensFlare();
+constexpr bool& __cordl_internal_get_supportScreenSpaceLensFlare() ;
 
-  constexpr bool const& __cordl_internal_get_useFastSRGBLinearConversion() const;
+constexpr bool const& __cordl_internal_get_useFastSRGBLinearConversion() const;
 
-  constexpr bool& __cordl_internal_get_useFastSRGBLinearConversion();
+constexpr bool& __cordl_internal_get_useFastSRGBLinearConversion() ;
 
-  constexpr void __cordl_internal_set_gradingMode(::UnityEngine::Rendering::Universal::ColorGradingMode value);
+constexpr void __cordl_internal_set_gradingMode(::UnityEngine::Rendering::Universal::ColorGradingMode  value) ;
 
-  constexpr void __cordl_internal_set_isEnabled(bool value);
+constexpr void __cordl_internal_set_isEnabled(bool  value) ;
 
-  constexpr void __cordl_internal_set_lutSize(int32_t value);
+constexpr void __cordl_internal_set_lutSize(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_supportDataDrivenLensFlare(bool value);
+constexpr void __cordl_internal_set_supportDataDrivenLensFlare(bool  value) ;
 
-  constexpr void __cordl_internal_set_supportScreenSpaceLensFlare(bool value);
+constexpr void __cordl_internal_set_supportScreenSpaceLensFlare(bool  value) ;
 
-  constexpr void __cordl_internal_set_useFastSRGBLinearConversion(bool value);
+constexpr void __cordl_internal_set_useFastSRGBLinearConversion(bool  value) ;
 
-  /// @brief Method .ctor, addr 0x6730f90, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6732b08, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr UniversalPostProcessingData();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr UniversalPostProcessingData() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UniversalPostProcessingData", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  UniversalPostProcessingData(UniversalPostProcessingData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UniversalPostProcessingData", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  UniversalPostProcessingData(UniversalPostProcessingData const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "UniversalPostProcessingData", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+UniversalPostProcessingData(UniversalPostProcessingData && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12740 };
+// Ctor Parameters [CppParam { name: "", ty: "UniversalPostProcessingData", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+UniversalPostProcessingData(UniversalPostProcessingData const& ) = delete;
 
-  /// @brief Field isEnabled, offset: 0x10, size: 0x1, def value: None
-  bool ___isEnabled;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12741};
 
-  /// @brief Field gradingMode, offset: 0x14, size: 0x4, def value: None
-  ::UnityEngine::Rendering::Universal::ColorGradingMode ___gradingMode;
+/// @brief Field isEnabled, offset: 0x10, size: 0x1, def value: None
+ bool  ___isEnabled;
 
-  /// @brief Field lutSize, offset: 0x18, size: 0x4, def value: None
-  int32_t ___lutSize;
+/// @brief Field gradingMode, offset: 0x14, size: 0x4, def value: None
+ ::UnityEngine::Rendering::Universal::ColorGradingMode  ___gradingMode;
 
-  /// @brief Field useFastSRGBLinearConversion, offset: 0x1c, size: 0x1, def value: None
-  bool ___useFastSRGBLinearConversion;
+/// @brief Field lutSize, offset: 0x18, size: 0x4, def value: None
+ int32_t  ___lutSize;
 
-  /// @brief Field supportScreenSpaceLensFlare, offset: 0x1d, size: 0x1, def value: None
-  bool ___supportScreenSpaceLensFlare;
+/// @brief Field useFastSRGBLinearConversion, offset: 0x1c, size: 0x1, def value: None
+ bool  ___useFastSRGBLinearConversion;
 
-  /// @brief Field supportDataDrivenLensFlare, offset: 0x1e, size: 0x1, def value: None
-  bool ___supportDataDrivenLensFlare;
+/// @brief Field supportScreenSpaceLensFlare, offset: 0x1d, size: 0x1, def value: None
+ bool  ___supportScreenSpaceLensFlare;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field supportDataDrivenLensFlare, offset: 0x1e, size: 0x1, def value: None
+ bool  ___supportDataDrivenLensFlare;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Rendering::Universal::UniversalPostProcessingData, ___isEnabled) == 0x10, "Offset mismatch!");
@@ -134,6 +134,6 @@ static_assert(offsetof(::UnityEngine::Rendering::Universal::UniversalPostProcess
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::Universal::UniversalPostProcessingData, 0x20>, "Size mismatch!");
 
-} // namespace UnityEngine::Rendering::Universal
+} // namespace end def UnityEngine::Rendering::Universal
 NEED_NO_BOX(::UnityEngine::Rendering::Universal::UniversalPostProcessingData);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::Universal::UniversalPostProcessingData*, "UnityEngine.Rendering.Universal", "UniversalPostProcessingData");

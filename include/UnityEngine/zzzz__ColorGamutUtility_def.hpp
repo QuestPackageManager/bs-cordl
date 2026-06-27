@@ -29,38 +29,38 @@ namespace UnityEngine {
 // CS Name: UnityEngine.ColorGamutUtility
 class CORDL_TYPE ColorGamutUtility : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method GetColorPrimaries, addr 0x6931b18, size 0x3c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::ColorPrimaries GetColorPrimaries(::UnityEngine::ColorGamut gamut);
+// Declarations
+/// @brief Method GetColorPrimaries, addr 0x6933690, size 0x3c, virtual false, abstract: false, final false
+static inline ::UnityEngine::ColorPrimaries GetColorPrimaries(::UnityEngine::ColorGamut  gamut) ;
 
-  /// @brief Method GetTransferFunction, addr 0x6931b90, size 0x3c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::TransferFunction GetTransferFunction(::UnityEngine::ColorGamut gamut);
+/// @brief Method GetTransferFunction, addr 0x6933708, size 0x3c, virtual false, abstract: false, final false
+static inline ::UnityEngine::TransferFunction GetTransferFunction(::UnityEngine::ColorGamut  gamut) ;
 
-  /// @brief Method GetWhitePoint, addr 0x6931b54, size 0x3c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::WhitePoint GetWhitePoint(::UnityEngine::ColorGamut gamut);
+/// @brief Method GetWhitePoint, addr 0x69336cc, size 0x3c, virtual false, abstract: false, final false
+static inline ::UnityEngine::WhitePoint GetWhitePoint(::UnityEngine::ColorGamut  gamut) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ColorGamutUtility();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ColorGamutUtility() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ColorGamutUtility", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ColorGamutUtility(ColorGamutUtility&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ColorGamutUtility", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ColorGamutUtility(ColorGamutUtility const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ColorGamutUtility", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ColorGamutUtility(ColorGamutUtility && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10136 };
+// Ctor Parameters [CppParam { name: "", ty: "ColorGamutUtility", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ColorGamutUtility(ColorGamutUtility const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10137};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ColorGamutUtility, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine
+} // namespace end def UnityEngine
 NEED_NO_BOX(::UnityEngine::ColorGamutUtility);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ColorGamutUtility*, "UnityEngine", "ColorGamutUtility");

@@ -70,550 +70,545 @@ namespace UnityEngine {
 // CS Name: UnityEngine.GUIStyle/BindingsMarshaller
 class CORDL_TYPE GUIStyle_BindingsMarshaller : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method ConvertToNative, addr 0x69f3544, size 0x14, virtual false, abstract: false, final false
-  static inline ::System::IntPtr ConvertToNative(::UnityEngine::GUIStyle* guiStyle);
+// Declarations
+/// @brief Method ConvertToNative, addr 0x69f50bc, size 0x14, virtual false, abstract: false, final false
+static inline ::System::IntPtr ConvertToNative(::UnityEngine::GUIStyle*  guiStyle) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr GUIStyle_BindingsMarshaller();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr GUIStyle_BindingsMarshaller() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GUIStyle_BindingsMarshaller", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  GUIStyle_BindingsMarshaller(GUIStyle_BindingsMarshaller&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GUIStyle_BindingsMarshaller", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  GUIStyle_BindingsMarshaller(GUIStyle_BindingsMarshaller const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "GUIStyle_BindingsMarshaller", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+GUIStyle_BindingsMarshaller(GUIStyle_BindingsMarshaller && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19619 };
+// Ctor Parameters [CppParam { name: "", ty: "GUIStyle_BindingsMarshaller", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+GUIStyle_BindingsMarshaller(GUIStyle_BindingsMarshaller const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19622};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::GUIStyle_BindingsMarshaller, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine
+} // namespace end def UnityEngine
 // Dependencies System.IntPtr, System.Object
 namespace UnityEngine {
 // Is value type: false
 // CS Name: UnityEngine.GUIStyle
 class CORDL_TYPE GUIStyle : public ::System::Object {
 public:
-  // Declarations
-  using BindingsMarshaller = ::UnityEngine::GUIStyle_BindingsMarshaller;
+// Declarations
+using BindingsMarshaller = ::UnityEngine::GUIStyle_BindingsMarshaller;
 
-  __declspec(property(get = get_alignment, put = set_alignment)) ::UnityEngine::TextAnchor alignment;
+ __declspec(property(get=get_alignment, put=set_alignment)) ::UnityEngine::TextAnchor  alignment;
 
-  __declspec(property(get = get_clipping)) ::UnityEngine::TextClipping clipping;
+ __declspec(property(get=get_clipping)) ::UnityEngine::TextClipping  clipping;
 
-  __declspec(property(get = get_contentOffset)) ::UnityEngine::Vector2 contentOffset;
+ __declspec(property(get=get_contentOffset)) ::UnityEngine::Vector2  contentOffset;
 
-  __declspec(property(get = get_fixedHeight)) float_t fixedHeight;
+ __declspec(property(get=get_fixedHeight)) float_t  fixedHeight;
 
-  __declspec(property(get = get_fixedWidth)) float_t fixedWidth;
+ __declspec(property(get=get_fixedWidth)) float_t  fixedWidth;
 
-  __declspec(property(get = get_font)) ::UnityW<::UnityEngine::Font> font;
+ __declspec(property(get=get_font)) ::UnityW<::UnityEngine::Font>  font;
 
-  __declspec(property(get = get_fontSize)) int32_t fontSize;
+ __declspec(property(get=get_fontSize)) int32_t  fontSize;
 
-  __declspec(property(get = get_fontStyle)) ::UnityEngine::FontStyle fontStyle;
+ __declspec(property(get=get_fontStyle)) ::UnityEngine::FontStyle  fontStyle;
 
-  __declspec(property(get = get_imagePosition)) ::UnityEngine::ImagePosition imagePosition;
+ __declspec(property(get=get_imagePosition)) ::UnityEngine::ImagePosition  imagePosition;
 
-  __declspec(property(get = get_isHeightDependantOnWidth)) bool isHeightDependantOnWidth;
+ __declspec(property(get=get_isHeightDependantOnWidth)) bool  isHeightDependantOnWidth;
 
-  __declspec(property(get = get_lineHeight)) float_t lineHeight;
+ __declspec(property(get=get_lineHeight)) float_t  lineHeight;
 
-  /// @brief Field m_Active, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Active, put = __cordl_internal_set_m_Active)) ::UnityEngine::GUIStyleState* m_Active;
+/// @brief Field m_Active, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_Active, put=__cordl_internal_set_m_Active)) ::UnityEngine::GUIStyleState*  m_Active;
 
-  /// @brief Field m_Border, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Border, put = __cordl_internal_set_m_Border)) ::UnityEngine::RectOffset* m_Border;
+/// @brief Field m_Border, offset 0x58, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_Border, put=__cordl_internal_set_m_Border)) ::UnityEngine::RectOffset*  m_Border;
 
-  /// @brief Field m_Focused, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Focused, put = __cordl_internal_set_m_Focused)) ::UnityEngine::GUIStyleState* m_Focused;
+/// @brief Field m_Focused, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_Focused, put=__cordl_internal_set_m_Focused)) ::UnityEngine::GUIStyleState*  m_Focused;
 
-  /// @brief Field m_Hover, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Hover, put = __cordl_internal_set_m_Hover)) ::UnityEngine::GUIStyleState* m_Hover;
+/// @brief Field m_Hover, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_Hover, put=__cordl_internal_set_m_Hover)) ::UnityEngine::GUIStyleState*  m_Hover;
 
-  /// @brief Field m_Margin, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Margin, put = __cordl_internal_set_m_Margin)) ::UnityEngine::RectOffset* m_Margin;
+/// @brief Field m_Margin, offset 0x68, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_Margin, put=__cordl_internal_set_m_Margin)) ::UnityEngine::RectOffset*  m_Margin;
 
-  /// @brief Field m_Name, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Name, put = __cordl_internal_set_m_Name)) ::StringW m_Name;
+/// @brief Field m_Name, offset 0x78, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_Name, put=__cordl_internal_set_m_Name)) ::StringW  m_Name;
 
-  /// @brief Field m_Normal, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Normal, put = __cordl_internal_set_m_Normal)) ::UnityEngine::GUIStyleState* m_Normal;
+/// @brief Field m_Normal, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_Normal, put=__cordl_internal_set_m_Normal)) ::UnityEngine::GUIStyleState*  m_Normal;
 
-  /// @brief Field m_OnActive, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_OnActive, put = __cordl_internal_set_m_OnActive)) ::UnityEngine::GUIStyleState* m_OnActive;
+/// @brief Field m_OnActive, offset 0x48, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_OnActive, put=__cordl_internal_set_m_OnActive)) ::UnityEngine::GUIStyleState*  m_OnActive;
 
-  /// @brief Field m_OnFocused, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_OnFocused, put = __cordl_internal_set_m_OnFocused)) ::UnityEngine::GUIStyleState* m_OnFocused;
+/// @brief Field m_OnFocused, offset 0x50, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_OnFocused, put=__cordl_internal_set_m_OnFocused)) ::UnityEngine::GUIStyleState*  m_OnFocused;
 
-  /// @brief Field m_OnHover, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_OnHover, put = __cordl_internal_set_m_OnHover)) ::UnityEngine::GUIStyleState* m_OnHover;
+/// @brief Field m_OnHover, offset 0x40, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_OnHover, put=__cordl_internal_set_m_OnHover)) ::UnityEngine::GUIStyleState*  m_OnHover;
 
-  /// @brief Field m_OnNormal, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_OnNormal, put = __cordl_internal_set_m_OnNormal)) ::UnityEngine::GUIStyleState* m_OnNormal;
+/// @brief Field m_OnNormal, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_OnNormal, put=__cordl_internal_set_m_OnNormal)) ::UnityEngine::GUIStyleState*  m_OnNormal;
 
-  /// @brief Field m_Overflow, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Overflow, put = __cordl_internal_set_m_Overflow)) ::UnityEngine::RectOffset* m_Overflow;
+/// @brief Field m_Overflow, offset 0x70, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_Overflow, put=__cordl_internal_set_m_Overflow)) ::UnityEngine::RectOffset*  m_Overflow;
 
-  /// @brief Field m_Padding, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Padding, put = __cordl_internal_set_m_Padding)) ::UnityEngine::RectOffset* m_Padding;
+/// @brief Field m_Padding, offset 0x60, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_Padding, put=__cordl_internal_set_m_Padding)) ::UnityEngine::RectOffset*  m_Padding;
 
-  /// @brief Field m_Ptr, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Ptr, put = __cordl_internal_set_m_Ptr)) ::System::IntPtr m_Ptr;
+/// @brief Field m_Ptr, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_Ptr, put=__cordl_internal_set_m_Ptr)) ::System::IntPtr  m_Ptr;
 
-  __declspec(property(get = get_margin)) ::UnityEngine::RectOffset* margin;
+ __declspec(property(get=get_margin)) ::UnityEngine::RectOffset*  margin;
 
-  __declspec(property(get = get_name, put = set_name)) ::StringW name;
+ __declspec(property(get=get_name, put=set_name)) ::StringW  name;
 
-  __declspec(property(get = get_normal)) ::UnityEngine::GUIStyleState* normal;
+ __declspec(property(get=get_normal)) ::UnityEngine::GUIStyleState*  normal;
 
-  __declspec(property(get = get_padding)) ::UnityEngine::RectOffset* padding;
+ __declspec(property(get=get_padding)) ::UnityEngine::RectOffset*  padding;
 
-  __declspec(property(get = get_rawName, put = set_rawName)) ::StringW rawName;
+ __declspec(property(get=get_rawName, put=set_rawName)) ::StringW  rawName;
 
-  __declspec(property(get = get_richText)) bool richText;
+ __declspec(property(get=get_richText)) bool  richText;
 
-  /// @brief Field s_None, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_s_None, put = setStaticF_s_None)) ::UnityEngine::GUIStyle* s_None;
+/// @brief Field s_None, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_s_None, put=setStaticF_s_None)) ::UnityEngine::GUIStyle*  s_None;
 
-  /// @brief Field showKeyboardFocus, offset 0xffffffff, size 0x1
-  __declspec(property(get = getStaticF_showKeyboardFocus, put = setStaticF_showKeyboardFocus)) bool showKeyboardFocus;
+/// @brief Field showKeyboardFocus, offset 0xffffffff, size 0x1 
+ __declspec(property(get=getStaticF_showKeyboardFocus, put=setStaticF_showKeyboardFocus)) bool  showKeyboardFocus;
 
-  __declspec(property(get = get_stretchHeight, put = set_stretchHeight)) bool stretchHeight;
+ __declspec(property(get=get_stretchHeight, put=set_stretchHeight)) bool  stretchHeight;
 
-  __declspec(property(get = get_stretchWidth, put = set_stretchWidth)) bool stretchWidth;
+ __declspec(property(get=get_stretchWidth, put=set_stretchWidth)) bool  stretchWidth;
 
-  __declspec(property(get = get_wordWrap)) bool wordWrap;
+ __declspec(property(get=get_wordWrap)) bool  wordWrap;
 
-  /// @brief Method CalcHeight, addr 0x69f2dd4, size 0x4, virtual false, abstract: false, final false
-  inline float_t CalcHeight(::UnityEngine::GUIContent* content, float_t width);
+/// @brief Method CalcHeight, addr 0x69f494c, size 0x4, virtual false, abstract: false, final false
+inline float_t CalcHeight(::UnityEngine::GUIContent*  content, float_t  width) ;
 
-  /// @brief Method CalcMinMaxWidth, addr 0x69f2edc, size 0x28, virtual false, abstract: false, final false
-  inline void CalcMinMaxWidth(::UnityEngine::GUIContent* content, ::ByRef<float_t> minWidth, ::ByRef<float_t> maxWidth);
+/// @brief Method CalcMinMaxWidth, addr 0x69f4a54, size 0x28, virtual false, abstract: false, final false
+inline void CalcMinMaxWidth(::UnityEngine::GUIContent*  content, ::ByRef<float_t>  minWidth, ::ByRef<float_t>  maxWidth) ;
 
-  /// @brief Method CalcSizeWithConstraints, addr 0x69ee8b0, size 0x40, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector2 CalcSizeWithConstraints(::UnityEngine::GUIContent* content, ::UnityEngine::Vector2 constraints);
+/// @brief Method CalcSizeWithConstraints, addr 0x69f0428, size 0x40, virtual false, abstract: false, final false
+inline ::UnityEngine::Vector2 CalcSizeWithConstraints(::UnityEngine::GUIContent*  content, ::UnityEngine::Vector2  constraints) ;
 
-  /// @brief Method Draw, addr 0x69ea1d0, size 0x14, virtual false, abstract: false, final false
-  inline void Draw(::UnityEngine::Rect position, ::UnityEngine::GUIContent* content, int32_t controlID);
+/// @brief Method Draw, addr 0x69ebd48, size 0x14, virtual false, abstract: false, final false
+inline void Draw(::UnityEngine::Rect  position, ::UnityEngine::GUIContent*  content, int32_t  controlID) ;
 
-  /// @brief Method Draw, addr 0x69e99c8, size 0xd4, virtual false, abstract: false, final false
-  inline void Draw(::UnityEngine::Rect position, ::UnityEngine::GUIContent* content, int32_t controlID, bool on, bool hover);
+/// @brief Method Draw, addr 0x69eb540, size 0xd4, virtual false, abstract: false, final false
+inline void Draw(::UnityEngine::Rect  position, ::UnityEngine::GUIContent*  content, int32_t  controlID, bool  on, bool  hover) ;
 
-  /// @brief Method Draw, addr 0x69f29a0, size 0x24, virtual false, abstract: false, final false
-  inline void Draw(::UnityEngine::Rect position, ::UnityEngine::GUIContent* content, int32_t controlId, bool isHover, bool isActive, bool on, bool hasKeyboardFocus);
+/// @brief Method Draw, addr 0x69f4518, size 0x24, virtual false, abstract: false, final false
+inline void Draw(::UnityEngine::Rect  position, ::UnityEngine::GUIContent*  content, int32_t  controlId, bool  isHover, bool  isActive, bool  on, bool  hasKeyboardFocus) ;
 
-  /// @brief Method Draw, addr 0x69e9a9c, size 0x4, virtual false, abstract: false, final false
-  inline void Draw(::UnityEngine::Rect position, ::UnityEngine::GUIContent* content, bool isHover, bool isActive, bool on, bool hasKeyboardFocus);
+/// @brief Method Draw, addr 0x69eb614, size 0x4, virtual false, abstract: false, final false
+inline void Draw(::UnityEngine::Rect  position, ::UnityEngine::GUIContent*  content, bool  isHover, bool  isActive, bool  on, bool  hasKeyboardFocus) ;
 
-  /// @brief Method EmptyManagedCache, addr 0x69f33f4, size 0x50, virtual false, abstract: false, final false
-  static inline void EmptyManagedCache();
+/// @brief Method EmptyManagedCache, addr 0x69f4f6c, size 0x50, virtual false, abstract: false, final false
+static inline void EmptyManagedCache() ;
 
-  /// @brief Method Finalize, addr 0x69f2640, size 0xbc, virtual true, abstract: false, final false
-  inline void Finalize();
+/// @brief Method Finalize, addr 0x69f41b8, size 0xbc, virtual true, abstract: false, final false
+inline void Finalize() ;
 
-  /// @brief Method GetCursorPixelPosition, addr 0x69f2af4, size 0x1b0, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector2 GetCursorPixelPosition(::UnityEngine::Rect position, ::UnityEngine::GUIContent* content, int32_t cursorStringIndex);
+/// @brief Method GetCursorPixelPosition, addr 0x69f466c, size 0x1b0, virtual false, abstract: false, final false
+inline ::UnityEngine::Vector2 GetCursorPixelPosition(::UnityEngine::Rect  position, ::UnityEngine::GUIContent*  content, int32_t  cursorStringIndex) ;
 
-  /// @brief Method GetDefaultFont, addr 0x69f24a0, size 0x13c, virtual false, abstract: false, final false
-  static inline ::UnityW<::UnityEngine::Font> GetDefaultFont();
+/// @brief Method GetDefaultFont, addr 0x69f4018, size 0x13c, virtual false, abstract: false, final false
+static inline ::UnityW<::UnityEngine::Font> GetDefaultFont() ;
 
-  /// @brief Method GetDefaultFont_Injected, addr 0x69f25dc, size 0x28, virtual false, abstract: false, final false
-  static inline ::System::IntPtr GetDefaultFont_Injected();
+/// @brief Method GetDefaultFont_Injected, addr 0x69f4154, size 0x28, virtual false, abstract: false, final false
+static inline ::System::IntPtr GetDefaultFont_Injected() ;
 
-  /// @brief Method GetDimensions, addr 0x69f33a4, size 0x30, virtual false, abstract: false, final false
-  static inline void GetDimensions(::UnityEngine::GUIStyle* style, ::UnityEngine::Color color, ::StringW content, ::UnityEngine::Rect rect, ::ByRef<::UnityEngine::Vector2> dimensions);
+/// @brief Method GetDimensions, addr 0x69f4f1c, size 0x30, virtual false, abstract: false, final false
+static inline void GetDimensions(::UnityEngine::GUIStyle*  style, ::UnityEngine::Color  color, ::StringW  content, ::UnityEngine::Rect  rect, ::ByRef<::UnityEngine::Vector2>  dimensions) ;
 
-  /// @brief Method GetLineHeight, addr 0x69f33d4, size 0x20, virtual false, abstract: false, final false
-  static inline void GetLineHeight(::UnityEngine::GUIStyle* style, ::ByRef<float_t> lineHeight);
+/// @brief Method GetLineHeight, addr 0x69f4f4c, size 0x20, virtual false, abstract: false, final false
+static inline void GetLineHeight(::UnityEngine::GUIStyle*  style, ::ByRef<float_t>  lineHeight) ;
 
-  /// @brief Method GetMeshInfo, addr 0x69f2fd0, size 0x2a4, virtual false, abstract: false, final false
-  static inline void GetMeshInfo(::UnityEngine::GUIStyle* style, ::UnityEngine::Color color, ::StringW content, ::UnityEngine::Rect rect,
-                                 ::ByRef<::ArrayW<::UnityEngine::TextCore::Text::MeshInfoBindings, ::Array<::UnityEngine::TextCore::Text::MeshInfoBindings>*>> meshInfos,
-                                 ::ByRef<::UnityEngine::Vector2> dimensions, ::ByRef<int32_t> generationId);
+/// @brief Method GetMeshInfo, addr 0x69f4b48, size 0x2a4, virtual false, abstract: false, final false
+static inline void GetMeshInfo(::UnityEngine::GUIStyle*  style, ::UnityEngine::Color  color, ::StringW  content, ::UnityEngine::Rect  rect, ::ByRef<::ArrayW<::UnityEngine::TextCore::Text::MeshInfoBindings,::Array<::UnityEngine::TextCore::Text::MeshInfoBindings>*>>  meshInfos, ::ByRef<::UnityEngine::Vector2>  dimensions, ::ByRef<int32_t>  generationId) ;
 
-  /// @brief Method GetPreferredSize, addr 0x69f2dd8, size 0xfc, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector2 GetPreferredSize(::StringW content, ::UnityEngine::Rect rect);
+/// @brief Method GetPreferredSize, addr 0x69f4950, size 0xfc, virtual false, abstract: false, final false
+inline ::UnityEngine::Vector2 GetPreferredSize(::StringW  content, ::UnityEngine::Rect  rect) ;
 
-  /// @brief Method GetRectOffsetPtr, addr 0x69f1be0, size 0xa4, virtual false, abstract: false, final false
-  inline ::System::IntPtr GetRectOffsetPtr(int32_t idx);
+/// @brief Method GetRectOffsetPtr, addr 0x69f3758, size 0xa4, virtual false, abstract: false, final false
+inline ::System::IntPtr GetRectOffsetPtr(int32_t  idx) ;
 
-  /// @brief Method GetRectOffsetPtr_Injected, addr 0x69f1c84, size 0x44, virtual false, abstract: false, final false
-  static inline ::System::IntPtr GetRectOffsetPtr_Injected(::System::IntPtr _unity_self, int32_t idx);
+/// @brief Method GetRectOffsetPtr_Injected, addr 0x69f37fc, size 0x44, virtual false, abstract: false, final false
+static inline ::System::IntPtr GetRectOffsetPtr_Injected(::System::IntPtr  _unity_self, int32_t  idx) ;
 
-  /// @brief Method GetStyleStatePtr, addr 0x69f1af8, size 0xa4, virtual false, abstract: false, final false
-  inline ::System::IntPtr GetStyleStatePtr(int32_t idx);
+/// @brief Method GetStyleStatePtr, addr 0x69f3670, size 0xa4, virtual false, abstract: false, final false
+inline ::System::IntPtr GetStyleStatePtr(int32_t  idx) ;
 
-  /// @brief Method GetStyleStatePtr_Injected, addr 0x69f1b9c, size 0x44, virtual false, abstract: false, final false
-  static inline ::System::IntPtr GetStyleStatePtr_Injected(::System::IntPtr _unity_self, int32_t idx);
+/// @brief Method GetStyleStatePtr_Injected, addr 0x69f3714, size 0x44, virtual false, abstract: false, final false
+static inline ::System::IntPtr GetStyleStatePtr_Injected(::System::IntPtr  _unity_self, int32_t  idx) ;
 
-  /// @brief Method Internal_CalcHeight, addr 0x69f2098, size 0xb4, virtual false, abstract: false, final false
-  inline float_t Internal_CalcHeight(::UnityEngine::GUIContent* content, float_t width);
+/// @brief Method Internal_CalcHeight, addr 0x69f3c10, size 0xb4, virtual false, abstract: false, final false
+inline float_t Internal_CalcHeight(::UnityEngine::GUIContent*  content, float_t  width) ;
 
-  /// @brief Method Internal_CalcHeight_Injected, addr 0x69f214c, size 0x54, virtual false, abstract: false, final false
-  static inline float_t Internal_CalcHeight_Injected(::System::IntPtr _unity_self, ::UnityEngine::GUIContent* content, float_t width);
+/// @brief Method Internal_CalcHeight_Injected, addr 0x69f3cc4, size 0x54, virtual false, abstract: false, final false
+static inline float_t Internal_CalcHeight_Injected(::System::IntPtr  _unity_self, ::UnityEngine::GUIContent*  content, float_t  width) ;
 
-  /// @brief Method Internal_CalcMinMaxWidth, addr 0x69f21a0, size 0xb4, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector2 Internal_CalcMinMaxWidth(::UnityEngine::GUIContent* content);
+/// @brief Method Internal_CalcMinMaxWidth, addr 0x69f3d18, size 0xb4, virtual false, abstract: false, final false
+inline ::UnityEngine::Vector2 Internal_CalcMinMaxWidth(::UnityEngine::GUIContent*  content) ;
 
-  /// @brief Method Internal_CalcMinMaxWidth_Injected, addr 0x69f2254, size 0x54, virtual false, abstract: false, final false
-  static inline void Internal_CalcMinMaxWidth_Injected(::System::IntPtr _unity_self, ::UnityEngine::GUIContent* content, ::ByRef<::UnityEngine::Vector2> ret);
+/// @brief Method Internal_CalcMinMaxWidth_Injected, addr 0x69f3dcc, size 0x54, virtual false, abstract: false, final false
+static inline void Internal_CalcMinMaxWidth_Injected(::System::IntPtr  _unity_self, ::UnityEngine::GUIContent*  content, ::ByRef<::UnityEngine::Vector2>  ret) ;
 
-  /// @brief Method Internal_CalcSizeWithConstraints, addr 0x69f1f78, size 0xc4, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector2 Internal_CalcSizeWithConstraints(::UnityEngine::GUIContent* content, ::UnityEngine::Vector2 maxSize);
+/// @brief Method Internal_CalcSizeWithConstraints, addr 0x69f3af0, size 0xc4, virtual false, abstract: false, final false
+inline ::UnityEngine::Vector2 Internal_CalcSizeWithConstraints(::UnityEngine::GUIContent*  content, ::UnityEngine::Vector2  maxSize) ;
 
-  /// @brief Method Internal_CalcSizeWithConstraints_Injected, addr 0x69f203c, size 0x5c, virtual false, abstract: false, final false
-  static inline void Internal_CalcSizeWithConstraints_Injected(::System::IntPtr _unity_self, ::UnityEngine::GUIContent* content, ::ByRef<::UnityEngine::Vector2> maxSize,
-                                                               ::ByRef<::UnityEngine::Vector2> ret);
+/// @brief Method Internal_CalcSizeWithConstraints_Injected, addr 0x69f3bb4, size 0x5c, virtual false, abstract: false, final false
+static inline void Internal_CalcSizeWithConstraints_Injected(::System::IntPtr  _unity_self, ::UnityEngine::GUIContent*  content, ::ByRef<::UnityEngine::Vector2>  maxSize, ::ByRef<::UnityEngine::Vector2>  ret) ;
 
-  /// @brief Method Internal_Create, addr 0x69f1a80, size 0x3c, virtual false, abstract: false, final false
-  static inline ::System::IntPtr Internal_Create(::UnityEngine::GUIStyle* self);
+/// @brief Method Internal_Create, addr 0x69f35f8, size 0x3c, virtual false, abstract: false, final false
+static inline ::System::IntPtr Internal_Create(::UnityEngine::GUIStyle*  self) ;
 
-  /// @brief Method Internal_Destroy, addr 0x69f1abc, size 0x3c, virtual false, abstract: false, final false
-  static inline void Internal_Destroy(::System::IntPtr self);
+/// @brief Method Internal_Destroy, addr 0x69f3634, size 0x3c, virtual false, abstract: false, final false
+static inline void Internal_Destroy(::System::IntPtr  self) ;
 
-  /// @brief Method Internal_DestroyTextGenerator, addr 0x69f2604, size 0x3c, virtual false, abstract: false, final false
-  static inline void Internal_DestroyTextGenerator(int32_t meshInfoId);
+/// @brief Method Internal_DestroyTextGenerator, addr 0x69f417c, size 0x3c, virtual false, abstract: false, final false
+static inline void Internal_DestroyTextGenerator(int32_t  meshInfoId) ;
 
-  /// @brief Method Internal_Draw, addr 0x69f1cc8, size 0xec, virtual false, abstract: false, final false
-  inline void Internal_Draw(::UnityEngine::Rect screenRect, ::UnityEngine::GUIContent* content, bool isHover, bool isActive, bool on, bool hasKeyboardFocus);
+/// @brief Method Internal_Draw, addr 0x69f3840, size 0xec, virtual false, abstract: false, final false
+inline void Internal_Draw(::UnityEngine::Rect  screenRect, ::UnityEngine::GUIContent*  content, bool  isHover, bool  isActive, bool  on, bool  hasKeyboardFocus) ;
 
-  /// @brief Method Internal_Draw2, addr 0x69f1e38, size 0xd4, virtual false, abstract: false, final false
-  inline void Internal_Draw2(::UnityEngine::Rect position, ::UnityEngine::GUIContent* content, int32_t controlID, bool on);
+/// @brief Method Internal_Draw2, addr 0x69f39b0, size 0xd4, virtual false, abstract: false, final false
+inline void Internal_Draw2(::UnityEngine::Rect  position, ::UnityEngine::GUIContent*  content, int32_t  controlID, bool  on) ;
 
-  /// @brief Method Internal_Draw2_Injected, addr 0x69f1f0c, size 0x6c, virtual false, abstract: false, final false
-  static inline void Internal_Draw2_Injected(::System::IntPtr _unity_self, ::ByRef<::UnityEngine::Rect> position, ::UnityEngine::GUIContent* content, int32_t controlID, bool on);
+/// @brief Method Internal_Draw2_Injected, addr 0x69f3a84, size 0x6c, virtual false, abstract: false, final false
+static inline void Internal_Draw2_Injected(::System::IntPtr  _unity_self, ::ByRef<::UnityEngine::Rect>  position, ::UnityEngine::GUIContent*  content, int32_t  controlID, bool  on) ;
 
-  /// @brief Method Internal_Draw_Injected, addr 0x69f1db4, size 0x84, virtual false, abstract: false, final false
-  static inline void Internal_Draw_Injected(::System::IntPtr _unity_self, ::ByRef<::UnityEngine::Rect> screenRect, ::UnityEngine::GUIContent* content, bool isHover, bool isActive, bool on,
-                                            bool hasKeyboardFocus);
+/// @brief Method Internal_Draw_Injected, addr 0x69f392c, size 0x84, virtual false, abstract: false, final false
+static inline void Internal_Draw_Injected(::System::IntPtr  _unity_self, ::ByRef<::UnityEngine::Rect>  screenRect, ::UnityEngine::GUIContent*  content, bool  isHover, bool  isActive, bool  on, bool  hasKeyboardFocus) ;
 
-  /// @brief Method Internal_GetTextRectOffset, addr 0x69f22a8, size 0xd0, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector2 Internal_GetTextRectOffset(::UnityEngine::Rect screenRect, ::UnityEngine::GUIContent* content, ::UnityEngine::Vector2 textSize);
+/// @brief Method Internal_GetTextRectOffset, addr 0x69f3e20, size 0xd0, virtual false, abstract: false, final false
+inline ::UnityEngine::Vector2 Internal_GetTextRectOffset(::UnityEngine::Rect  screenRect, ::UnityEngine::GUIContent*  content, ::UnityEngine::Vector2  textSize) ;
 
-  /// @brief Method Internal_GetTextRectOffset_Injected, addr 0x69f2378, size 0x6c, virtual false, abstract: false, final false
-  static inline void Internal_GetTextRectOffset_Injected(::System::IntPtr _unity_self, ::ByRef<::UnityEngine::Rect> screenRect, ::UnityEngine::GUIContent* content,
-                                                         ::ByRef<::UnityEngine::Vector2> textSize, ::ByRef<::UnityEngine::Vector2> ret);
+/// @brief Method Internal_GetTextRectOffset_Injected, addr 0x69f3ef0, size 0x6c, virtual false, abstract: false, final false
+static inline void Internal_GetTextRectOffset_Injected(::System::IntPtr  _unity_self, ::ByRef<::UnityEngine::Rect>  screenRect, ::UnityEngine::GUIContent*  content, ::ByRef<::UnityEngine::Vector2>  textSize, ::ByRef<::UnityEngine::Vector2>  ret) ;
 
-  /// @brief Method IsTooltipActive, addr 0x69e9af0, size 0x15c, virtual false, abstract: false, final false
-  static inline bool IsTooltipActive(::StringW tooltip);
+/// @brief Method IsTooltipActive, addr 0x69eb668, size 0x15c, virtual false, abstract: false, final false
+static inline bool IsTooltipActive(::StringW  tooltip) ;
 
-  /// @brief Method IsTooltipActive_Injected, addr 0x69f2428, size 0x3c, virtual false, abstract: false, final false
-  static inline bool IsTooltipActive_Injected(::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> tooltip);
+/// @brief Method IsTooltipActive_Injected, addr 0x69f3fa0, size 0x3c, virtual false, abstract: false, final false
+static inline bool IsTooltipActive_Injected(::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>  tooltip) ;
 
-  static inline ::UnityEngine::GUIStyle* New_ctor();
+static inline ::UnityEngine::GUIStyle* New_ctor() ;
 
-  /// @brief Method SetDefaultFont, addr 0x69ef308, size 0xa8, virtual false, abstract: false, final false
-  static inline void SetDefaultFont(::UnityEngine::Font* font);
+/// @brief Method SetDefaultFont, addr 0x69f0e80, size 0xa8, virtual false, abstract: false, final false
+static inline void SetDefaultFont(::UnityEngine::Font*  font) ;
 
-  /// @brief Method SetDefaultFont_Injected, addr 0x69f2464, size 0x3c, virtual false, abstract: false, final false
-  static inline void SetDefaultFont_Injected(::System::IntPtr font);
+/// @brief Method SetDefaultFont_Injected, addr 0x69f3fdc, size 0x3c, virtual false, abstract: false, final false
+static inline void SetDefaultFont_Injected(::System::IntPtr  font) ;
 
-  /// @brief Method SetMouseTooltip, addr 0x69e9c4c, size 0x158, virtual false, abstract: false, final false
-  static inline void SetMouseTooltip(::StringW tooltip, ::UnityEngine::Rect screenRect);
+/// @brief Method SetMouseTooltip, addr 0x69eb7c4, size 0x158, virtual false, abstract: false, final false
+static inline void SetMouseTooltip(::StringW  tooltip, ::UnityEngine::Rect  screenRect) ;
 
-  /// @brief Method SetMouseTooltip_Injected, addr 0x69f23e4, size 0x44, virtual false, abstract: false, final false
-  static inline void SetMouseTooltip_Injected(::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> tooltip, ::ByRef<::UnityEngine::Rect> screenRect);
+/// @brief Method SetMouseTooltip_Injected, addr 0x69f3f5c, size 0x44, virtual false, abstract: false, final false
+static inline void SetMouseTooltip_Injected(::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>  tooltip, ::ByRef<::UnityEngine::Rect>  screenRect) ;
 
-  /// @brief Method ToString, addr 0x69f2f04, size 0xcc, virtual true, abstract: false, final false
-  inline ::StringW ToString();
+/// @brief Method ToString, addr 0x69f4a7c, size 0xcc, virtual true, abstract: false, final false
+inline ::StringW ToString() ;
 
-  constexpr ::UnityEngine::GUIStyleState* const& __cordl_internal_get_m_Active() const;
+constexpr ::UnityEngine::GUIStyleState* const& __cordl_internal_get_m_Active() const;
 
-  constexpr ::UnityEngine::GUIStyleState*& __cordl_internal_get_m_Active();
+constexpr ::UnityEngine::GUIStyleState*& __cordl_internal_get_m_Active() ;
 
-  constexpr ::UnityEngine::RectOffset* const& __cordl_internal_get_m_Border() const;
+constexpr ::UnityEngine::RectOffset* const& __cordl_internal_get_m_Border() const;
 
-  constexpr ::UnityEngine::RectOffset*& __cordl_internal_get_m_Border();
+constexpr ::UnityEngine::RectOffset*& __cordl_internal_get_m_Border() ;
 
-  constexpr ::UnityEngine::GUIStyleState* const& __cordl_internal_get_m_Focused() const;
+constexpr ::UnityEngine::GUIStyleState* const& __cordl_internal_get_m_Focused() const;
 
-  constexpr ::UnityEngine::GUIStyleState*& __cordl_internal_get_m_Focused();
+constexpr ::UnityEngine::GUIStyleState*& __cordl_internal_get_m_Focused() ;
 
-  constexpr ::UnityEngine::GUIStyleState* const& __cordl_internal_get_m_Hover() const;
+constexpr ::UnityEngine::GUIStyleState* const& __cordl_internal_get_m_Hover() const;
 
-  constexpr ::UnityEngine::GUIStyleState*& __cordl_internal_get_m_Hover();
+constexpr ::UnityEngine::GUIStyleState*& __cordl_internal_get_m_Hover() ;
 
-  constexpr ::UnityEngine::RectOffset* const& __cordl_internal_get_m_Margin() const;
+constexpr ::UnityEngine::RectOffset* const& __cordl_internal_get_m_Margin() const;
 
-  constexpr ::UnityEngine::RectOffset*& __cordl_internal_get_m_Margin();
+constexpr ::UnityEngine::RectOffset*& __cordl_internal_get_m_Margin() ;
 
-  constexpr ::StringW const& __cordl_internal_get_m_Name() const;
+constexpr ::StringW const& __cordl_internal_get_m_Name() const;
 
-  constexpr ::StringW& __cordl_internal_get_m_Name();
+constexpr ::StringW& __cordl_internal_get_m_Name() ;
 
-  constexpr ::UnityEngine::GUIStyleState* const& __cordl_internal_get_m_Normal() const;
+constexpr ::UnityEngine::GUIStyleState* const& __cordl_internal_get_m_Normal() const;
 
-  constexpr ::UnityEngine::GUIStyleState*& __cordl_internal_get_m_Normal();
+constexpr ::UnityEngine::GUIStyleState*& __cordl_internal_get_m_Normal() ;
 
-  constexpr ::UnityEngine::GUIStyleState* const& __cordl_internal_get_m_OnActive() const;
+constexpr ::UnityEngine::GUIStyleState* const& __cordl_internal_get_m_OnActive() const;
 
-  constexpr ::UnityEngine::GUIStyleState*& __cordl_internal_get_m_OnActive();
+constexpr ::UnityEngine::GUIStyleState*& __cordl_internal_get_m_OnActive() ;
 
-  constexpr ::UnityEngine::GUIStyleState* const& __cordl_internal_get_m_OnFocused() const;
+constexpr ::UnityEngine::GUIStyleState* const& __cordl_internal_get_m_OnFocused() const;
 
-  constexpr ::UnityEngine::GUIStyleState*& __cordl_internal_get_m_OnFocused();
+constexpr ::UnityEngine::GUIStyleState*& __cordl_internal_get_m_OnFocused() ;
 
-  constexpr ::UnityEngine::GUIStyleState* const& __cordl_internal_get_m_OnHover() const;
+constexpr ::UnityEngine::GUIStyleState* const& __cordl_internal_get_m_OnHover() const;
 
-  constexpr ::UnityEngine::GUIStyleState*& __cordl_internal_get_m_OnHover();
+constexpr ::UnityEngine::GUIStyleState*& __cordl_internal_get_m_OnHover() ;
 
-  constexpr ::UnityEngine::GUIStyleState* const& __cordl_internal_get_m_OnNormal() const;
+constexpr ::UnityEngine::GUIStyleState* const& __cordl_internal_get_m_OnNormal() const;
 
-  constexpr ::UnityEngine::GUIStyleState*& __cordl_internal_get_m_OnNormal();
+constexpr ::UnityEngine::GUIStyleState*& __cordl_internal_get_m_OnNormal() ;
 
-  constexpr ::UnityEngine::RectOffset* const& __cordl_internal_get_m_Overflow() const;
+constexpr ::UnityEngine::RectOffset* const& __cordl_internal_get_m_Overflow() const;
 
-  constexpr ::UnityEngine::RectOffset*& __cordl_internal_get_m_Overflow();
+constexpr ::UnityEngine::RectOffset*& __cordl_internal_get_m_Overflow() ;
 
-  constexpr ::UnityEngine::RectOffset* const& __cordl_internal_get_m_Padding() const;
+constexpr ::UnityEngine::RectOffset* const& __cordl_internal_get_m_Padding() const;
 
-  constexpr ::UnityEngine::RectOffset*& __cordl_internal_get_m_Padding();
+constexpr ::UnityEngine::RectOffset*& __cordl_internal_get_m_Padding() ;
 
-  constexpr ::System::IntPtr const& __cordl_internal_get_m_Ptr() const;
+constexpr ::System::IntPtr const& __cordl_internal_get_m_Ptr() const;
 
-  constexpr ::System::IntPtr& __cordl_internal_get_m_Ptr();
+constexpr ::System::IntPtr& __cordl_internal_get_m_Ptr() ;
 
-  constexpr void __cordl_internal_set_m_Active(::UnityEngine::GUIStyleState* value);
+constexpr void __cordl_internal_set_m_Active(::UnityEngine::GUIStyleState*  value) ;
 
-  constexpr void __cordl_internal_set_m_Border(::UnityEngine::RectOffset* value);
+constexpr void __cordl_internal_set_m_Border(::UnityEngine::RectOffset*  value) ;
 
-  constexpr void __cordl_internal_set_m_Focused(::UnityEngine::GUIStyleState* value);
+constexpr void __cordl_internal_set_m_Focused(::UnityEngine::GUIStyleState*  value) ;
 
-  constexpr void __cordl_internal_set_m_Hover(::UnityEngine::GUIStyleState* value);
+constexpr void __cordl_internal_set_m_Hover(::UnityEngine::GUIStyleState*  value) ;
 
-  constexpr void __cordl_internal_set_m_Margin(::UnityEngine::RectOffset* value);
+constexpr void __cordl_internal_set_m_Margin(::UnityEngine::RectOffset*  value) ;
 
-  constexpr void __cordl_internal_set_m_Name(::StringW value);
+constexpr void __cordl_internal_set_m_Name(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_m_Normal(::UnityEngine::GUIStyleState* value);
+constexpr void __cordl_internal_set_m_Normal(::UnityEngine::GUIStyleState*  value) ;
 
-  constexpr void __cordl_internal_set_m_OnActive(::UnityEngine::GUIStyleState* value);
+constexpr void __cordl_internal_set_m_OnActive(::UnityEngine::GUIStyleState*  value) ;
 
-  constexpr void __cordl_internal_set_m_OnFocused(::UnityEngine::GUIStyleState* value);
+constexpr void __cordl_internal_set_m_OnFocused(::UnityEngine::GUIStyleState*  value) ;
 
-  constexpr void __cordl_internal_set_m_OnHover(::UnityEngine::GUIStyleState* value);
+constexpr void __cordl_internal_set_m_OnHover(::UnityEngine::GUIStyleState*  value) ;
 
-  constexpr void __cordl_internal_set_m_OnNormal(::UnityEngine::GUIStyleState* value);
+constexpr void __cordl_internal_set_m_OnNormal(::UnityEngine::GUIStyleState*  value) ;
 
-  constexpr void __cordl_internal_set_m_Overflow(::UnityEngine::RectOffset* value);
+constexpr void __cordl_internal_set_m_Overflow(::UnityEngine::RectOffset*  value) ;
 
-  constexpr void __cordl_internal_set_m_Padding(::UnityEngine::RectOffset* value);
+constexpr void __cordl_internal_set_m_Padding(::UnityEngine::RectOffset*  value) ;
 
-  constexpr void __cordl_internal_set_m_Ptr(::System::IntPtr value);
+constexpr void __cordl_internal_set_m_Ptr(::System::IntPtr  value) ;
 
-  /// @brief Method .ctor, addr 0x69eeb54, size 0x80, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x69f06cc, size 0x80, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  static inline ::UnityEngine::GUIStyle* getStaticF_s_None();
+static inline ::UnityEngine::GUIStyle* getStaticF_s_None() ;
 
-  static inline bool getStaticF_showKeyboardFocus();
+static inline bool getStaticF_showKeyboardFocus() ;
 
-  /// @brief Method get_alignment, addr 0x69f1000, size 0x94, virtual false, abstract: false, final false
-  inline ::UnityEngine::TextAnchor get_alignment();
+/// @brief Method get_alignment, addr 0x69f2b78, size 0x94, virtual false, abstract: false, final false
+inline ::UnityEngine::TextAnchor get_alignment() ;
 
-  /// @brief Method get_alignment_Injected, addr 0x69f1094, size 0x3c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::TextAnchor get_alignment_Injected(::System::IntPtr _unity_self);
+/// @brief Method get_alignment_Injected, addr 0x69f2c0c, size 0x3c, virtual false, abstract: false, final false
+static inline ::UnityEngine::TextAnchor get_alignment_Injected(::System::IntPtr  _unity_self) ;
 
-  /// @brief Method get_clipping, addr 0x69f1288, size 0x94, virtual false, abstract: false, final false
-  inline ::UnityEngine::TextClipping get_clipping();
+/// @brief Method get_clipping, addr 0x69f2e00, size 0x94, virtual false, abstract: false, final false
+inline ::UnityEngine::TextClipping get_clipping() ;
 
-  /// @brief Method get_clipping_Injected, addr 0x69f131c, size 0x3c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::TextClipping get_clipping_Injected(::System::IntPtr _unity_self);
+/// @brief Method get_clipping_Injected, addr 0x69f2e94, size 0x3c, virtual false, abstract: false, final false
+static inline ::UnityEngine::TextClipping get_clipping_Injected(::System::IntPtr  _unity_self) ;
 
-  /// @brief Method get_contentOffset, addr 0x69f1358, size 0xac, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector2 get_contentOffset();
+/// @brief Method get_contentOffset, addr 0x69f2ed0, size 0xac, virtual false, abstract: false, final false
+inline ::UnityEngine::Vector2 get_contentOffset() ;
 
-  /// @brief Method get_contentOffset_Injected, addr 0x69f1404, size 0x44, virtual false, abstract: false, final false
-  static inline void get_contentOffset_Injected(::System::IntPtr _unity_self, ::ByRef<::UnityEngine::Vector2> ret);
+/// @brief Method get_contentOffset_Injected, addr 0x69f2f7c, size 0x44, virtual false, abstract: false, final false
+static inline void get_contentOffset_Injected(::System::IntPtr  _unity_self, ::ByRef<::UnityEngine::Vector2>  ret) ;
 
-  /// @brief Method get_fixedHeight, addr 0x69f1518, size 0x94, virtual false, abstract: false, final false
-  inline float_t get_fixedHeight();
+/// @brief Method get_fixedHeight, addr 0x69f3090, size 0x94, virtual false, abstract: false, final false
+inline float_t get_fixedHeight() ;
 
-  /// @brief Method get_fixedHeight_Injected, addr 0x69f15ac, size 0x3c, virtual false, abstract: false, final false
-  static inline float_t get_fixedHeight_Injected(::System::IntPtr _unity_self);
+/// @brief Method get_fixedHeight_Injected, addr 0x69f3124, size 0x3c, virtual false, abstract: false, final false
+static inline float_t get_fixedHeight_Injected(::System::IntPtr  _unity_self) ;
 
-  /// @brief Method get_fixedWidth, addr 0x69f1448, size 0x94, virtual false, abstract: false, final false
-  inline float_t get_fixedWidth();
+/// @brief Method get_fixedWidth, addr 0x69f2fc0, size 0x94, virtual false, abstract: false, final false
+inline float_t get_fixedWidth() ;
 
-  /// @brief Method get_fixedWidth_Injected, addr 0x69f14dc, size 0x3c, virtual false, abstract: false, final false
-  static inline float_t get_fixedWidth_Injected(::System::IntPtr _unity_self);
+/// @brief Method get_fixedWidth_Injected, addr 0x69f3054, size 0x3c, virtual false, abstract: false, final false
+static inline float_t get_fixedWidth_Injected(::System::IntPtr  _unity_self) ;
 
-  /// @brief Method get_font, addr 0x69f0d90, size 0x164, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::Font> get_font();
+/// @brief Method get_font, addr 0x69f2908, size 0x164, virtual false, abstract: false, final false
+inline ::UnityW<::UnityEngine::Font> get_font() ;
 
-  /// @brief Method get_fontSize, addr 0x69f1810, size 0x94, virtual false, abstract: false, final false
-  inline int32_t get_fontSize();
+/// @brief Method get_fontSize, addr 0x69f3388, size 0x94, virtual false, abstract: false, final false
+inline int32_t get_fontSize() ;
 
-  /// @brief Method get_fontSize_Injected, addr 0x69f18a4, size 0x3c, virtual false, abstract: false, final false
-  static inline int32_t get_fontSize_Injected(::System::IntPtr _unity_self);
+/// @brief Method get_fontSize_Injected, addr 0x69f341c, size 0x3c, virtual false, abstract: false, final false
+static inline int32_t get_fontSize_Injected(::System::IntPtr  _unity_self) ;
 
-  /// @brief Method get_fontStyle, addr 0x69f18e0, size 0x94, virtual false, abstract: false, final false
-  inline ::UnityEngine::FontStyle get_fontStyle();
+/// @brief Method get_fontStyle, addr 0x69f3458, size 0x94, virtual false, abstract: false, final false
+inline ::UnityEngine::FontStyle get_fontStyle() ;
 
-  /// @brief Method get_fontStyle_Injected, addr 0x69f1974, size 0x3c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::FontStyle get_fontStyle_Injected(::System::IntPtr _unity_self);
+/// @brief Method get_fontStyle_Injected, addr 0x69f34ec, size 0x3c, virtual false, abstract: false, final false
+static inline ::UnityEngine::FontStyle get_fontStyle_Injected(::System::IntPtr  _unity_self) ;
 
-  /// @brief Method get_font_Injected, addr 0x69f0ef4, size 0x3c, virtual false, abstract: false, final false
-  static inline ::System::IntPtr get_font_Injected(::System::IntPtr _unity_self);
+/// @brief Method get_font_Injected, addr 0x69f2a6c, size 0x3c, virtual false, abstract: false, final false
+static inline ::System::IntPtr get_font_Injected(::System::IntPtr  _unity_self) ;
 
-  /// @brief Method get_imagePosition, addr 0x69f0f30, size 0x94, virtual false, abstract: false, final false
-  inline ::UnityEngine::ImagePosition get_imagePosition();
+/// @brief Method get_imagePosition, addr 0x69f2aa8, size 0x94, virtual false, abstract: false, final false
+inline ::UnityEngine::ImagePosition get_imagePosition() ;
 
-  /// @brief Method get_imagePosition_Injected, addr 0x69f0fc4, size 0x3c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::ImagePosition get_imagePosition_Injected(::System::IntPtr _unity_self);
+/// @brief Method get_imagePosition_Injected, addr 0x69f2b3c, size 0x3c, virtual false, abstract: false, final false
+static inline ::UnityEngine::ImagePosition get_imagePosition_Injected(::System::IntPtr  _unity_self) ;
 
-  /// @brief Method get_isHeightDependantOnWidth, addr 0x69ee794, size 0x40, virtual false, abstract: false, final false
-  inline bool get_isHeightDependantOnWidth();
+/// @brief Method get_isHeightDependantOnWidth, addr 0x69f030c, size 0x40, virtual false, abstract: false, final false
+inline bool get_isHeightDependantOnWidth() ;
 
-  /// @brief Method get_lineHeight, addr 0x69f27dc, size 0xdc, virtual false, abstract: false, final false
-  inline float_t get_lineHeight();
+/// @brief Method get_lineHeight, addr 0x69f4354, size 0xdc, virtual false, abstract: false, final false
+inline float_t get_lineHeight() ;
 
-  /// @brief Method get_margin, addr 0x69f26fc, size 0x70, virtual false, abstract: false, final false
-  inline ::UnityEngine::RectOffset* get_margin();
+/// @brief Method get_margin, addr 0x69f4274, size 0x70, virtual false, abstract: false, final false
+inline ::UnityEngine::RectOffset* get_margin() ;
 
-  /// @brief Method get_name, addr 0x69f0300, size 0x24, virtual false, abstract: false, final false
-  inline ::StringW get_name();
+/// @brief Method get_name, addr 0x69f1e78, size 0x24, virtual false, abstract: false, final false
+inline ::StringW get_name() ;
 
-  /// @brief Method get_none, addr 0x69ea144, size 0x8c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::GUIStyle* get_none();
+/// @brief Method get_none, addr 0x69ebcbc, size 0x8c, virtual false, abstract: false, final false
+static inline ::UnityEngine::GUIStyle* get_none() ;
 
-  /// @brief Method get_normal, addr 0x69f03c8, size 0x34, virtual false, abstract: false, final false
-  inline ::UnityEngine::GUIStyleState* get_normal();
+/// @brief Method get_normal, addr 0x69f1f40, size 0x34, virtual false, abstract: false, final false
+inline ::UnityEngine::GUIStyleState* get_normal() ;
 
-  /// @brief Method get_padding, addr 0x69f276c, size 0x70, virtual false, abstract: false, final false
-  inline ::UnityEngine::RectOffset* get_padding();
+/// @brief Method get_padding, addr 0x69f42e4, size 0x70, virtual false, abstract: false, final false
+inline ::UnityEngine::RectOffset* get_padding() ;
 
-  /// @brief Method get_rawName, addr 0x69f0a44, size 0x148, virtual false, abstract: false, final false
-  inline ::StringW get_rawName();
+/// @brief Method get_rawName, addr 0x69f25bc, size 0x148, virtual false, abstract: false, final false
+inline ::StringW get_rawName() ;
 
-  /// @brief Method get_rawName_Injected, addr 0x69f0b8c, size 0x44, virtual false, abstract: false, final false
-  static inline void get_rawName_Injected(::System::IntPtr _unity_self, ::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> ret);
+/// @brief Method get_rawName_Injected, addr 0x69f2704, size 0x44, virtual false, abstract: false, final false
+static inline void get_rawName_Injected(::System::IntPtr  _unity_self, ::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>  ret) ;
 
-  /// @brief Method get_richText, addr 0x69f19b0, size 0x94, virtual false, abstract: false, final false
-  inline bool get_richText();
+/// @brief Method get_richText, addr 0x69f3528, size 0x94, virtual false, abstract: false, final false
+inline bool get_richText() ;
 
-  /// @brief Method get_richText_Injected, addr 0x69f1a44, size 0x3c, virtual false, abstract: false, final false
-  static inline bool get_richText_Injected(::System::IntPtr _unity_self);
+/// @brief Method get_richText_Injected, addr 0x69f35bc, size 0x3c, virtual false, abstract: false, final false
+static inline bool get_richText_Injected(::System::IntPtr  _unity_self) ;
 
-  /// @brief Method get_stretchHeight, addr 0x69f16fc, size 0x94, virtual false, abstract: false, final false
-  inline bool get_stretchHeight();
+/// @brief Method get_stretchHeight, addr 0x69f3274, size 0x94, virtual false, abstract: false, final false
+inline bool get_stretchHeight() ;
 
-  /// @brief Method get_stretchHeight_Injected, addr 0x69f1790, size 0x3c, virtual false, abstract: false, final false
-  static inline bool get_stretchHeight_Injected(::System::IntPtr _unity_self);
+/// @brief Method get_stretchHeight_Injected, addr 0x69f3308, size 0x3c, virtual false, abstract: false, final false
+static inline bool get_stretchHeight_Injected(::System::IntPtr  _unity_self) ;
 
-  /// @brief Method get_stretchWidth, addr 0x69f15e8, size 0x94, virtual false, abstract: false, final false
-  inline bool get_stretchWidth();
+/// @brief Method get_stretchWidth, addr 0x69f3160, size 0x94, virtual false, abstract: false, final false
+inline bool get_stretchWidth() ;
 
-  /// @brief Method get_stretchWidth_Injected, addr 0x69f167c, size 0x3c, virtual false, abstract: false, final false
-  static inline bool get_stretchWidth_Injected(::System::IntPtr _unity_self);
+/// @brief Method get_stretchWidth_Injected, addr 0x69f31f4, size 0x3c, virtual false, abstract: false, final false
+static inline bool get_stretchWidth_Injected(::System::IntPtr  _unity_self) ;
 
-  /// @brief Method get_wordWrap, addr 0x69f11b8, size 0x94, virtual false, abstract: false, final false
-  inline bool get_wordWrap();
+/// @brief Method get_wordWrap, addr 0x69f2d30, size 0x94, virtual false, abstract: false, final false
+inline bool get_wordWrap() ;
 
-  /// @brief Method get_wordWrap_Injected, addr 0x69f124c, size 0x3c, virtual false, abstract: false, final false
-  static inline bool get_wordWrap_Injected(::System::IntPtr _unity_self);
+/// @brief Method get_wordWrap_Injected, addr 0x69f2dc4, size 0x3c, virtual false, abstract: false, final false
+static inline bool get_wordWrap_Injected(::System::IntPtr  _unity_self) ;
 
-  static inline void setStaticF_s_None(::UnityEngine::GUIStyle* value);
+static inline void setStaticF_s_None(::UnityEngine::GUIStyle*  value) ;
 
-  static inline void setStaticF_showKeyboardFocus(bool value);
+static inline void setStaticF_showKeyboardFocus(bool  value) ;
 
-  /// @brief Method set_alignment, addr 0x69f10d0, size 0xa4, virtual false, abstract: false, final false
-  inline void set_alignment(::UnityEngine::TextAnchor value);
+/// @brief Method set_alignment, addr 0x69f2c48, size 0xa4, virtual false, abstract: false, final false
+inline void set_alignment(::UnityEngine::TextAnchor  value) ;
 
-  /// @brief Method set_alignment_Injected, addr 0x69f1174, size 0x44, virtual false, abstract: false, final false
-  static inline void set_alignment_Injected(::System::IntPtr _unity_self, ::UnityEngine::TextAnchor value);
+/// @brief Method set_alignment_Injected, addr 0x69f2cec, size 0x44, virtual false, abstract: false, final false
+static inline void set_alignment_Injected(::System::IntPtr  _unity_self, ::UnityEngine::TextAnchor  value) ;
 
-  /// @brief Method set_name, addr 0x69ef5f0, size 0x8, virtual false, abstract: false, final false
-  inline void set_name(::StringW value);
+/// @brief Method set_name, addr 0x69f1168, size 0x8, virtual false, abstract: false, final false
+inline void set_name(::StringW  value) ;
 
-  /// @brief Method set_rawName, addr 0x69f0bd0, size 0x17c, virtual false, abstract: false, final false
-  inline void set_rawName(::StringW value);
+/// @brief Method set_rawName, addr 0x69f2748, size 0x17c, virtual false, abstract: false, final false
+inline void set_rawName(::StringW  value) ;
 
-  /// @brief Method set_rawName_Injected, addr 0x69f0d4c, size 0x44, virtual false, abstract: false, final false
-  static inline void set_rawName_Injected(::System::IntPtr _unity_self, ::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> value);
+/// @brief Method set_rawName_Injected, addr 0x69f28c4, size 0x44, virtual false, abstract: false, final false
+static inline void set_rawName_Injected(::System::IntPtr  _unity_self, ::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>  value) ;
 
-  /// @brief Method set_stretchHeight, addr 0x69f0324, size 0xa4, virtual false, abstract: false, final false
-  inline void set_stretchHeight(bool value);
+/// @brief Method set_stretchHeight, addr 0x69f1e9c, size 0xa4, virtual false, abstract: false, final false
+inline void set_stretchHeight(bool  value) ;
 
-  /// @brief Method set_stretchHeight_Injected, addr 0x69f17cc, size 0x44, virtual false, abstract: false, final false
-  static inline void set_stretchHeight_Injected(::System::IntPtr _unity_self, bool value);
+/// @brief Method set_stretchHeight_Injected, addr 0x69f3344, size 0x44, virtual false, abstract: false, final false
+static inline void set_stretchHeight_Injected(::System::IntPtr  _unity_self, bool  value) ;
 
-  /// @brief Method set_stretchWidth, addr 0x69eebd4, size 0xa4, virtual false, abstract: false, final false
-  inline void set_stretchWidth(bool value);
+/// @brief Method set_stretchWidth, addr 0x69f074c, size 0xa4, virtual false, abstract: false, final false
+inline void set_stretchWidth(bool  value) ;
 
-  /// @brief Method set_stretchWidth_Injected, addr 0x69f16b8, size 0x44, virtual false, abstract: false, final false
-  static inline void set_stretchWidth_Injected(::System::IntPtr _unity_self, bool value);
+/// @brief Method set_stretchWidth_Injected, addr 0x69f3230, size 0x44, virtual false, abstract: false, final false
+static inline void set_stretchWidth_Injected(::System::IntPtr  _unity_self, bool  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr GUIStyle();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr GUIStyle() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GUIStyle", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  GUIStyle(GUIStyle&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GUIStyle", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  GUIStyle(GUIStyle const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "GUIStyle", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+GUIStyle(GUIStyle && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19620 };
+// Ctor Parameters [CppParam { name: "", ty: "GUIStyle", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+GUIStyle(GUIStyle const& ) = delete;
 
-  /// @brief Field m_Ptr, offset: 0x10, size: 0x8, def value: None
-  ::System::IntPtr ___m_Ptr;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19623};
 
-  /// @brief Field m_Normal, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::GUIStyleState* ___m_Normal;
+/// @brief Field m_Ptr, offset: 0x10, size: 0x8, def value: None
+ ::System::IntPtr  ___m_Ptr;
 
-  /// @brief Field m_Hover, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::GUIStyleState* ___m_Hover;
+/// @brief Field m_Normal, offset: 0x18, size: 0x8, def value: None
+ ::UnityEngine::GUIStyleState*  ___m_Normal;
 
-  /// @brief Field m_Active, offset: 0x28, size: 0x8, def value: None
-  ::UnityEngine::GUIStyleState* ___m_Active;
+/// @brief Field m_Hover, offset: 0x20, size: 0x8, def value: None
+ ::UnityEngine::GUIStyleState*  ___m_Hover;
 
-  /// @brief Field m_Focused, offset: 0x30, size: 0x8, def value: None
-  ::UnityEngine::GUIStyleState* ___m_Focused;
+/// @brief Field m_Active, offset: 0x28, size: 0x8, def value: None
+ ::UnityEngine::GUIStyleState*  ___m_Active;
 
-  /// @brief Field m_OnNormal, offset: 0x38, size: 0x8, def value: None
-  ::UnityEngine::GUIStyleState* ___m_OnNormal;
+/// @brief Field m_Focused, offset: 0x30, size: 0x8, def value: None
+ ::UnityEngine::GUIStyleState*  ___m_Focused;
 
-  /// @brief Field m_OnHover, offset: 0x40, size: 0x8, def value: None
-  ::UnityEngine::GUIStyleState* ___m_OnHover;
+/// @brief Field m_OnNormal, offset: 0x38, size: 0x8, def value: None
+ ::UnityEngine::GUIStyleState*  ___m_OnNormal;
 
-  /// @brief Field m_OnActive, offset: 0x48, size: 0x8, def value: None
-  ::UnityEngine::GUIStyleState* ___m_OnActive;
+/// @brief Field m_OnHover, offset: 0x40, size: 0x8, def value: None
+ ::UnityEngine::GUIStyleState*  ___m_OnHover;
 
-  /// @brief Field m_OnFocused, offset: 0x50, size: 0x8, def value: None
-  ::UnityEngine::GUIStyleState* ___m_OnFocused;
+/// @brief Field m_OnActive, offset: 0x48, size: 0x8, def value: None
+ ::UnityEngine::GUIStyleState*  ___m_OnActive;
 
-  /// @brief Field m_Border, offset: 0x58, size: 0x8, def value: None
-  ::UnityEngine::RectOffset* ___m_Border;
+/// @brief Field m_OnFocused, offset: 0x50, size: 0x8, def value: None
+ ::UnityEngine::GUIStyleState*  ___m_OnFocused;
 
-  /// @brief Field m_Padding, offset: 0x60, size: 0x8, def value: None
-  ::UnityEngine::RectOffset* ___m_Padding;
+/// @brief Field m_Border, offset: 0x58, size: 0x8, def value: None
+ ::UnityEngine::RectOffset*  ___m_Border;
 
-  /// @brief Field m_Margin, offset: 0x68, size: 0x8, def value: None
-  ::UnityEngine::RectOffset* ___m_Margin;
+/// @brief Field m_Padding, offset: 0x60, size: 0x8, def value: None
+ ::UnityEngine::RectOffset*  ___m_Padding;
 
-  /// @brief Field m_Overflow, offset: 0x70, size: 0x8, def value: None
-  ::UnityEngine::RectOffset* ___m_Overflow;
+/// @brief Field m_Margin, offset: 0x68, size: 0x8, def value: None
+ ::UnityEngine::RectOffset*  ___m_Margin;
 
-  /// @brief Field m_Name, offset: 0x78, size: 0x8, def value: None
-  ::StringW ___m_Name;
+/// @brief Field m_Overflow, offset: 0x70, size: 0x8, def value: None
+ ::UnityEngine::RectOffset*  ___m_Overflow;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field m_Name, offset: 0x78, size: 0x8, def value: None
+ ::StringW  ___m_Name;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::GUIStyle, ___m_Ptr) == 0x10, "Offset mismatch!");
@@ -646,7 +641,7 @@ static_assert(offsetof(::UnityEngine::GUIStyle, ___m_Name) == 0x78, "Offset mism
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::GUIStyle, 0x80>, "Size mismatch!");
 
-} // namespace UnityEngine
+} // namespace end def UnityEngine
 NEED_NO_BOX(::UnityEngine::GUIStyle);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::GUIStyle*, "UnityEngine", "GUIStyle");
 NEED_NO_BOX(::UnityEngine::GUIStyle_BindingsMarshaller);

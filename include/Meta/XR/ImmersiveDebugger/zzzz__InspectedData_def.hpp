@@ -10,10 +10,12 @@ namespace Meta::XR::ImmersiveDebugger {
 class InspectedMember;
 }
 namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+template<typename T>
+class IEnumerable_1;
 }
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template<typename T>
+class List_1;
 }
 namespace System {
 class Type;
@@ -30,58 +32,57 @@ namespace Meta::XR::ImmersiveDebugger {
 // CS Name: Meta.XR.ImmersiveDebugger.InspectedData
 class CORDL_TYPE InspectedData : public ::UnityEngine::ScriptableObject {
 public:
-  // Declarations
-  /// @brief Field DisplayName, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_DisplayName, put = __cordl_internal_set_DisplayName)) ::StringW DisplayName;
+// Declarations
+/// @brief Field DisplayName, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_DisplayName, put=__cordl_internal_set_DisplayName)) ::StringW  DisplayName;
 
-  /// @brief Field InspectedMembers, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_InspectedMembers,
-                      put = __cordl_internal_set_InspectedMembers)) ::System::Collections::Generic::List_1<::Meta::XR::ImmersiveDebugger::InspectedMember*>* InspectedMembers;
+/// @brief Field InspectedMembers, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_InspectedMembers, put=__cordl_internal_set_InspectedMembers)) ::System::Collections::Generic::List_1<::Meta::XR::ImmersiveDebugger::InspectedMember*>*  InspectedMembers;
 
-  /// @brief Method ExtractTypesFromInspectedMembers, addr 0x5903c8c, size 0x224, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::IEnumerable_1<::System::Type*>* ExtractTypesFromInspectedMembers();
+/// @brief Method ExtractTypesFromInspectedMembers, addr 0x590565c, size 0x224, virtual false, abstract: false, final false
+inline ::System::Collections::Generic::IEnumerable_1<::System::Type*>* ExtractTypesFromInspectedMembers() ;
 
-  static inline ::Meta::XR::ImmersiveDebugger::InspectedData* New_ctor();
+static inline ::Meta::XR::ImmersiveDebugger::InspectedData* New_ctor() ;
 
-  constexpr ::StringW const& __cordl_internal_get_DisplayName() const;
+constexpr ::StringW const& __cordl_internal_get_DisplayName() const;
 
-  constexpr ::StringW& __cordl_internal_get_DisplayName();
+constexpr ::StringW& __cordl_internal_get_DisplayName() ;
 
-  constexpr ::System::Collections::Generic::List_1<::Meta::XR::ImmersiveDebugger::InspectedMember*>* const& __cordl_internal_get_InspectedMembers() const;
+constexpr ::System::Collections::Generic::List_1<::Meta::XR::ImmersiveDebugger::InspectedMember*>* const& __cordl_internal_get_InspectedMembers() const;
 
-  constexpr ::System::Collections::Generic::List_1<::Meta::XR::ImmersiveDebugger::InspectedMember*>*& __cordl_internal_get_InspectedMembers();
+constexpr ::System::Collections::Generic::List_1<::Meta::XR::ImmersiveDebugger::InspectedMember*>*& __cordl_internal_get_InspectedMembers() ;
 
-  constexpr void __cordl_internal_set_DisplayName(::StringW value);
+constexpr void __cordl_internal_set_DisplayName(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_InspectedMembers(::System::Collections::Generic::List_1<::Meta::XR::ImmersiveDebugger::InspectedMember*>* value);
+constexpr void __cordl_internal_set_InspectedMembers(::System::Collections::Generic::List_1<::Meta::XR::ImmersiveDebugger::InspectedMember*>*  value) ;
 
-  /// @brief Method .ctor, addr 0x5904198, size 0x7c, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5905b68, size 0x7c, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr InspectedData();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr InspectedData() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InspectedData", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  InspectedData(InspectedData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InspectedData", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  InspectedData(InspectedData const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "InspectedData", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+InspectedData(InspectedData && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18308 };
+// Ctor Parameters [CppParam { name: "", ty: "InspectedData", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+InspectedData(InspectedData const& ) = delete;
 
-  /// @brief Field DisplayName, offset: 0x18, size: 0x8, def value: None
-  ::StringW ___DisplayName;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{18310};
 
-  /// @brief Field InspectedMembers, offset: 0x20, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::Meta::XR::ImmersiveDebugger::InspectedMember*>* ___InspectedMembers;
+/// @brief Field DisplayName, offset: 0x18, size: 0x8, def value: None
+ ::StringW  ___DisplayName;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field InspectedMembers, offset: 0x20, size: 0x8, def value: None
+ ::System::Collections::Generic::List_1<::Meta::XR::ImmersiveDebugger::InspectedMember*>*  ___InspectedMembers;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Meta::XR::ImmersiveDebugger::InspectedData, ___DisplayName) == 0x18, "Offset mismatch!");
@@ -90,6 +91,6 @@ static_assert(offsetof(::Meta::XR::ImmersiveDebugger::InspectedData, ___Inspecte
 
 static_assert(::cordl_internals::size_check_v<::Meta::XR::ImmersiveDebugger::InspectedData, 0x28>, "Size mismatch!");
 
-} // namespace Meta::XR::ImmersiveDebugger
+} // namespace end def Meta::XR::ImmersiveDebugger
 NEED_NO_BOX(::Meta::XR::ImmersiveDebugger::InspectedData);
 DEFINE_IL2CPP_ARG_TYPE(::Meta::XR::ImmersiveDebugger::InspectedData*, "Meta.XR.ImmersiveDebugger", "InspectedData");

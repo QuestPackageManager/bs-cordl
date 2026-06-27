@@ -26,205 +26,202 @@ namespace GlobalNamespace {
 // CS Name: MaterialPropertyBlockColorSetter
 class CORDL_TYPE MaterialPropertyBlockColorSetter : public ::UnityEngine::MonoBehaviour {
 public:
-  // Declarations
-  /// @brief Field _alphaProperty, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get__alphaProperty, put = __cordl_internal_set__alphaProperty)) ::StringW _alphaProperty;
+// Declarations
+/// @brief Field _alphaProperty, offset 0x50, size 0x8 
+ __declspec(property(get=__cordl_internal_get__alphaProperty, put=__cordl_internal_set__alphaProperty)) ::StringW  _alphaProperty;
 
-  /// @brief Field _alphaPropertyId, offset 0x60, size 0x4
-  __declspec(property(get = __cordl_internal_get__alphaPropertyId, put = __cordl_internal_set__alphaPropertyId)) int32_t _alphaPropertyId;
+/// @brief Field _alphaPropertyId, offset 0x60, size 0x4 
+ __declspec(property(get=__cordl_internal_get__alphaPropertyId, put=__cordl_internal_set__alphaPropertyId)) int32_t  _alphaPropertyId;
 
-  /// @brief Field _disableOnZeroAlpha, offset 0x49, size 0x1
-  __declspec(property(get = __cordl_internal_get__disableOnZeroAlpha, put = __cordl_internal_set__disableOnZeroAlpha)) bool _disableOnZeroAlpha;
+/// @brief Field _disableOnZeroAlpha, offset 0x49, size 0x1 
+ __declspec(property(get=__cordl_internal_get__disableOnZeroAlpha, put=__cordl_internal_set__disableOnZeroAlpha)) bool  _disableOnZeroAlpha;
 
-  /// @brief Field _inverseAlpha, offset 0x48, size 0x1
-  __declspec(property(get = __cordl_internal_get__inverseAlpha, put = __cordl_internal_set__inverseAlpha)) bool _inverseAlpha;
+/// @brief Field _inverseAlpha, offset 0x48, size 0x1 
+ __declspec(property(get=__cordl_internal_get__inverseAlpha, put=__cordl_internal_set__inverseAlpha)) bool  _inverseAlpha;
 
-  /// @brief Field _isInitialized, offset 0x64, size 0x1
-  __declspec(property(get = __cordl_internal_get__isInitialized, put = __cordl_internal_set__isInitialized)) bool _isInitialized;
+/// @brief Field _isInitialized, offset 0x64, size 0x1 
+ __declspec(property(get=__cordl_internal_get__isInitialized, put=__cordl_internal_set__isInitialized)) bool  _isInitialized;
 
-  /// @brief Field _materialPropertyBlockController, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__materialPropertyBlockController,
-                      put = __cordl_internal_set__materialPropertyBlockController)) ::UnityW<::GlobalNamespace::MaterialPropertyBlockController>
-      _materialPropertyBlockController;
+/// @brief Field _materialPropertyBlockController, offset 0x40, size 0x8 
+ __declspec(property(get=__cordl_internal_get__materialPropertyBlockController, put=__cordl_internal_set__materialPropertyBlockController)) ::UnityW<::GlobalNamespace::MaterialPropertyBlockController>  _materialPropertyBlockController;
 
-  /// @brief Field _multiplyWithAlpha, offset 0x58, size 0x1
-  __declspec(property(get = __cordl_internal_get__multiplyWithAlpha, put = __cordl_internal_set__multiplyWithAlpha)) bool _multiplyWithAlpha;
+/// @brief Field _multiplyWithAlpha, offset 0x58, size 0x1 
+ __declspec(property(get=__cordl_internal_get__multiplyWithAlpha, put=__cordl_internal_set__multiplyWithAlpha)) bool  _multiplyWithAlpha;
 
-  /// @brief Field _property, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__property, put = __cordl_internal_set__property)) ::StringW _property;
+/// @brief Field _property, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get__property, put=__cordl_internal_set__property)) ::StringW  _property;
 
-  /// @brief Field _propertyId, offset 0x5c, size 0x4
-  __declspec(property(get = __cordl_internal_get__propertyId, put = __cordl_internal_set__propertyId)) int32_t _propertyId;
+/// @brief Field _propertyId, offset 0x5c, size 0x4 
+ __declspec(property(get=__cordl_internal_get__propertyId, put=__cordl_internal_set__propertyId)) int32_t  _propertyId;
 
-  /// @brief Field _sendAlphaToProperty, offset 0x4a, size 0x1
-  __declspec(property(get = __cordl_internal_get__sendAlphaToProperty, put = __cordl_internal_set__sendAlphaToProperty)) bool _sendAlphaToProperty;
+/// @brief Field _sendAlphaToProperty, offset 0x4a, size 0x1 
+ __declspec(property(get=__cordl_internal_get__sendAlphaToProperty, put=__cordl_internal_set__sendAlphaToProperty)) bool  _sendAlphaToProperty;
 
-  /// @brief Field _testColor, offset 0x24, size 0x10
-  __declspec(property(get = __cordl_internal_get__testColor, put = __cordl_internal_set__testColor)) ::UnityEngine::Color _testColor;
+/// @brief Field _testColor, offset 0x24, size 0x10 
+ __declspec(property(get=__cordl_internal_get__testColor, put=__cordl_internal_set__testColor)) ::UnityEngine::Color  _testColor;
 
-  /// @brief Field _useTestColor, offset 0x20, size 0x1
-  __declspec(property(get = __cordl_internal_get__useTestColor, put = __cordl_internal_set__useTestColor)) bool _useTestColor;
+/// @brief Field _useTestColor, offset 0x20, size 0x1 
+ __declspec(property(get=__cordl_internal_get__useTestColor, put=__cordl_internal_set__useTestColor)) bool  _useTestColor;
 
-  __declspec(property(get = get_color)) ::UnityEngine::Color color;
+ __declspec(property(get=get_color)) ::UnityEngine::Color  color;
 
-  __declspec(property(get = get_materialPropertyBlockController, put = set_materialPropertyBlockController)) ::UnityW<::GlobalNamespace::MaterialPropertyBlockController>
-      materialPropertyBlockController;
+ __declspec(property(get=get_materialPropertyBlockController, put=set_materialPropertyBlockController)) ::UnityW<::GlobalNamespace::MaterialPropertyBlockController>  materialPropertyBlockController;
 
-  /// @brief Method AddNecessaryComponents, addr 0x572bc80, size 0xfc, virtual false, abstract: false, final false
-  inline void AddNecessaryComponents();
+/// @brief Method AddNecessaryComponents, addr 0x572d4e8, size 0xfc, virtual false, abstract: false, final false
+inline void AddNecessaryComponents() ;
 
-  /// @brief Method Awake, addr 0x572ba50, size 0x4, virtual false, abstract: false, final false
-  inline void Awake();
+/// @brief Method Awake, addr 0x572d2b8, size 0x4, virtual false, abstract: false, final false
+inline void Awake() ;
 
-  /// @brief Method InitIfNeeded, addr 0x572ba54, size 0x48, virtual false, abstract: false, final false
-  inline void InitIfNeeded();
+/// @brief Method InitIfNeeded, addr 0x572d2bc, size 0x48, virtual false, abstract: false, final false
+inline void InitIfNeeded() ;
 
-  static inline ::GlobalNamespace::MaterialPropertyBlockColorSetter* New_ctor();
+static inline ::GlobalNamespace::MaterialPropertyBlockColorSetter* New_ctor() ;
 
-  /// @brief Method OnValidate, addr 0x572bbe8, size 0x98, virtual false, abstract: false, final false
-  inline void OnValidate();
+/// @brief Method OnValidate, addr 0x572d450, size 0x98, virtual false, abstract: false, final false
+inline void OnValidate() ;
 
-  /// @brief Method SetColor, addr 0x572ba9c, size 0xe8, virtual false, abstract: false, final false
-  inline void SetColor(::UnityEngine::Color color);
+/// @brief Method SetColor, addr 0x572d304, size 0xe8, virtual false, abstract: false, final false
+inline void SetColor(::UnityEngine::Color  color) ;
 
-  constexpr ::StringW const& __cordl_internal_get__alphaProperty() const;
+constexpr ::StringW const& __cordl_internal_get__alphaProperty() const;
 
-  constexpr ::StringW& __cordl_internal_get__alphaProperty();
+constexpr ::StringW& __cordl_internal_get__alphaProperty() ;
 
-  constexpr int32_t const& __cordl_internal_get__alphaPropertyId() const;
+constexpr int32_t const& __cordl_internal_get__alphaPropertyId() const;
 
-  constexpr int32_t& __cordl_internal_get__alphaPropertyId();
+constexpr int32_t& __cordl_internal_get__alphaPropertyId() ;
 
-  constexpr bool const& __cordl_internal_get__disableOnZeroAlpha() const;
+constexpr bool const& __cordl_internal_get__disableOnZeroAlpha() const;
 
-  constexpr bool& __cordl_internal_get__disableOnZeroAlpha();
+constexpr bool& __cordl_internal_get__disableOnZeroAlpha() ;
 
-  constexpr bool const& __cordl_internal_get__inverseAlpha() const;
+constexpr bool const& __cordl_internal_get__inverseAlpha() const;
 
-  constexpr bool& __cordl_internal_get__inverseAlpha();
+constexpr bool& __cordl_internal_get__inverseAlpha() ;
 
-  constexpr bool const& __cordl_internal_get__isInitialized() const;
+constexpr bool const& __cordl_internal_get__isInitialized() const;
 
-  constexpr bool& __cordl_internal_get__isInitialized();
+constexpr bool& __cordl_internal_get__isInitialized() ;
 
-  constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> const& __cordl_internal_get__materialPropertyBlockController() const;
+constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> const& __cordl_internal_get__materialPropertyBlockController() const;
 
-  constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController>& __cordl_internal_get__materialPropertyBlockController();
+constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController>& __cordl_internal_get__materialPropertyBlockController() ;
 
-  constexpr bool const& __cordl_internal_get__multiplyWithAlpha() const;
+constexpr bool const& __cordl_internal_get__multiplyWithAlpha() const;
 
-  constexpr bool& __cordl_internal_get__multiplyWithAlpha();
+constexpr bool& __cordl_internal_get__multiplyWithAlpha() ;
 
-  constexpr ::StringW const& __cordl_internal_get__property() const;
+constexpr ::StringW const& __cordl_internal_get__property() const;
 
-  constexpr ::StringW& __cordl_internal_get__property();
+constexpr ::StringW& __cordl_internal_get__property() ;
 
-  constexpr int32_t const& __cordl_internal_get__propertyId() const;
+constexpr int32_t const& __cordl_internal_get__propertyId() const;
 
-  constexpr int32_t& __cordl_internal_get__propertyId();
+constexpr int32_t& __cordl_internal_get__propertyId() ;
 
-  constexpr bool const& __cordl_internal_get__sendAlphaToProperty() const;
+constexpr bool const& __cordl_internal_get__sendAlphaToProperty() const;
 
-  constexpr bool& __cordl_internal_get__sendAlphaToProperty();
+constexpr bool& __cordl_internal_get__sendAlphaToProperty() ;
 
-  constexpr ::UnityEngine::Color const& __cordl_internal_get__testColor() const;
+constexpr ::UnityEngine::Color const& __cordl_internal_get__testColor() const;
 
-  constexpr ::UnityEngine::Color& __cordl_internal_get__testColor();
+constexpr ::UnityEngine::Color& __cordl_internal_get__testColor() ;
 
-  constexpr bool const& __cordl_internal_get__useTestColor() const;
+constexpr bool const& __cordl_internal_get__useTestColor() const;
 
-  constexpr bool& __cordl_internal_get__useTestColor();
+constexpr bool& __cordl_internal_get__useTestColor() ;
 
-  constexpr void __cordl_internal_set__alphaProperty(::StringW value);
+constexpr void __cordl_internal_set__alphaProperty(::StringW  value) ;
 
-  constexpr void __cordl_internal_set__alphaPropertyId(int32_t value);
+constexpr void __cordl_internal_set__alphaPropertyId(int32_t  value) ;
 
-  constexpr void __cordl_internal_set__disableOnZeroAlpha(bool value);
+constexpr void __cordl_internal_set__disableOnZeroAlpha(bool  value) ;
 
-  constexpr void __cordl_internal_set__inverseAlpha(bool value);
+constexpr void __cordl_internal_set__inverseAlpha(bool  value) ;
 
-  constexpr void __cordl_internal_set__isInitialized(bool value);
+constexpr void __cordl_internal_set__isInitialized(bool  value) ;
 
-  constexpr void __cordl_internal_set__materialPropertyBlockController(::UnityW<::GlobalNamespace::MaterialPropertyBlockController> value);
+constexpr void __cordl_internal_set__materialPropertyBlockController(::UnityW<::GlobalNamespace::MaterialPropertyBlockController>  value) ;
 
-  constexpr void __cordl_internal_set__multiplyWithAlpha(bool value);
+constexpr void __cordl_internal_set__multiplyWithAlpha(bool  value) ;
 
-  constexpr void __cordl_internal_set__property(::StringW value);
+constexpr void __cordl_internal_set__property(::StringW  value) ;
 
-  constexpr void __cordl_internal_set__propertyId(int32_t value);
+constexpr void __cordl_internal_set__propertyId(int32_t  value) ;
 
-  constexpr void __cordl_internal_set__sendAlphaToProperty(bool value);
+constexpr void __cordl_internal_set__sendAlphaToProperty(bool  value) ;
 
-  constexpr void __cordl_internal_set__testColor(::UnityEngine::Color value);
+constexpr void __cordl_internal_set__testColor(::UnityEngine::Color  value) ;
 
-  constexpr void __cordl_internal_set__useTestColor(bool value);
+constexpr void __cordl_internal_set__useTestColor(bool  value) ;
 
-  /// @brief Method .ctor, addr 0x572bd7c, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x572d5e4, size 0xc, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_color, addr 0x572ba18, size 0x28, virtual false, abstract: false, final false
-  inline ::UnityEngine::Color get_color();
+/// @brief Method get_color, addr 0x572d280, size 0x28, virtual false, abstract: false, final false
+inline ::UnityEngine::Color get_color() ;
 
-  /// @brief Method get_materialPropertyBlockController, addr 0x572ba40, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> get_materialPropertyBlockController();
+/// @brief Method get_materialPropertyBlockController, addr 0x572d2a8, size 0x8, virtual false, abstract: false, final false
+inline ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> get_materialPropertyBlockController() ;
 
-  /// @brief Method set_materialPropertyBlockController, addr 0x572ba48, size 0x8, virtual false, abstract: false, final false
-  inline void set_materialPropertyBlockController(::GlobalNamespace::MaterialPropertyBlockController* value);
+/// @brief Method set_materialPropertyBlockController, addr 0x572d2b0, size 0x8, virtual false, abstract: false, final false
+inline void set_materialPropertyBlockController(::GlobalNamespace::MaterialPropertyBlockController*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MaterialPropertyBlockColorSetter();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr MaterialPropertyBlockColorSetter() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MaterialPropertyBlockColorSetter", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  MaterialPropertyBlockColorSetter(MaterialPropertyBlockColorSetter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MaterialPropertyBlockColorSetter", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  MaterialPropertyBlockColorSetter(MaterialPropertyBlockColorSetter const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "MaterialPropertyBlockColorSetter", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+MaterialPropertyBlockColorSetter(MaterialPropertyBlockColorSetter && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19772 };
+// Ctor Parameters [CppParam { name: "", ty: "MaterialPropertyBlockColorSetter", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+MaterialPropertyBlockColorSetter(MaterialPropertyBlockColorSetter const& ) = delete;
 
-  /// @brief Field _useTestColor, offset: 0x20, size: 0x1, def value: None
-  bool ____useTestColor;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19775};
 
-  /// @brief Field _testColor, offset: 0x24, size: 0x10, def value: None
-  ::UnityEngine::Color ____testColor;
+/// @brief Field _useTestColor, offset: 0x20, size: 0x1, def value: None
+ bool  ____useTestColor;
 
-  /// @brief Field _property, offset: 0x38, size: 0x8, def value: None
-  ::StringW ____property;
+/// @brief Field _testColor, offset: 0x24, size: 0x10, def value: None
+ ::UnityEngine::Color  ____testColor;
 
-  /// @brief Field _materialPropertyBlockController, offset: 0x40, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> ____materialPropertyBlockController;
+/// @brief Field _property, offset: 0x38, size: 0x8, def value: None
+ ::StringW  ____property;
 
-  /// @brief Field _inverseAlpha, offset: 0x48, size: 0x1, def value: None
-  bool ____inverseAlpha;
+/// @brief Field _materialPropertyBlockController, offset: 0x40, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::MaterialPropertyBlockController>  ____materialPropertyBlockController;
 
-  /// @brief Field _disableOnZeroAlpha, offset: 0x49, size: 0x1, def value: None
-  bool ____disableOnZeroAlpha;
+/// @brief Field _inverseAlpha, offset: 0x48, size: 0x1, def value: None
+ bool  ____inverseAlpha;
 
-  /// @brief Field _sendAlphaToProperty, offset: 0x4a, size: 0x1, def value: None
-  bool ____sendAlphaToProperty;
+/// @brief Field _disableOnZeroAlpha, offset: 0x49, size: 0x1, def value: None
+ bool  ____disableOnZeroAlpha;
 
-  /// @brief Field _alphaProperty, offset: 0x50, size: 0x8, def value: None
-  ::StringW ____alphaProperty;
+/// @brief Field _sendAlphaToProperty, offset: 0x4a, size: 0x1, def value: None
+ bool  ____sendAlphaToProperty;
 
-  /// @brief Field _multiplyWithAlpha, offset: 0x58, size: 0x1, def value: None
-  bool ____multiplyWithAlpha;
+/// @brief Field _alphaProperty, offset: 0x50, size: 0x8, def value: None
+ ::StringW  ____alphaProperty;
 
-  /// @brief Field _propertyId, offset: 0x5c, size: 0x4, def value: None
-  int32_t ____propertyId;
+/// @brief Field _multiplyWithAlpha, offset: 0x58, size: 0x1, def value: None
+ bool  ____multiplyWithAlpha;
 
-  /// @brief Field _alphaPropertyId, offset: 0x60, size: 0x4, def value: None
-  int32_t ____alphaPropertyId;
+/// @brief Field _propertyId, offset: 0x5c, size: 0x4, def value: None
+ int32_t  ____propertyId;
 
-  /// @brief Field _isInitialized, offset: 0x64, size: 0x1, def value: None
-  bool ____isInitialized;
+/// @brief Field _alphaPropertyId, offset: 0x60, size: 0x4, def value: None
+ int32_t  ____alphaPropertyId;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _isInitialized, offset: 0x64, size: 0x1, def value: None
+ bool  ____isInitialized;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::MaterialPropertyBlockColorSetter, ____useTestColor) == 0x20, "Offset mismatch!");
@@ -253,6 +250,6 @@ static_assert(offsetof(::GlobalNamespace::MaterialPropertyBlockColorSetter, ____
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MaterialPropertyBlockColorSetter, 0x68>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MaterialPropertyBlockColorSetter);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MaterialPropertyBlockColorSetter*, "", "MaterialPropertyBlockColorSetter");

@@ -18,31 +18,30 @@ namespace UnityEngine::Rendering::RenderGraphModule {
 // CS Name: UnityEngine.Rendering.RenderGraphModule.ImportResourceParams
 struct CORDL_TYPE ImportResourceParams {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ImportResourceParams();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr ImportResourceParams() ;
 
-  // Ctor Parameters [CppParam { name: "clearOnFirstUse", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "clearColor", ty: "::UnityEngine::Color", modifiers: "", def_value: None },
-  // CppParam { name: "discardOnLastUse", ty: "bool", modifiers: "", def_value: None }]
-  constexpr ImportResourceParams(bool clearOnFirstUse, ::UnityEngine::Color clearColor, bool discardOnLastUse) noexcept;
+// Ctor Parameters [CppParam { name: "clearOnFirstUse", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "clearColor", ty: "::UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "discardOnLastUse", ty: "bool", modifiers: "", def_value: None }]
+constexpr ImportResourceParams(bool  clearOnFirstUse, ::UnityEngine::Color  clearColor, bool  discardOnLastUse) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12434 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12435};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x18};
 
-  /// @brief Field clearOnFirstUse, offset: 0x0, size: 0x1, def value: None
-  bool clearOnFirstUse;
+/// @brief Field clearOnFirstUse, offset: 0x0, size: 0x1, def value: None
+ bool  clearOnFirstUse;
 
-  /// @brief Field clearColor, offset: 0x4, size: 0x10, def value: None
-  ::UnityEngine::Color clearColor;
+/// @brief Field clearColor, offset: 0x4, size: 0x10, def value: None
+ ::UnityEngine::Color  clearColor;
 
-  /// @brief Field discardOnLastUse, offset: 0x14, size: 0x1, def value: None
-  bool discardOnLastUse;
+/// @brief Field discardOnLastUse, offset: 0x14, size: 0x1, def value: None
+ bool  discardOnLastUse;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Rendering::RenderGraphModule::ImportResourceParams, clearOnFirstUse) == 0x0, "Offset mismatch!");
@@ -53,5 +52,5 @@ static_assert(offsetof(::UnityEngine::Rendering::RenderGraphModule::ImportResour
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::RenderGraphModule::ImportResourceParams, 0x18>, "Size mismatch!");
 
-} // namespace UnityEngine::Rendering::RenderGraphModule
+} // namespace end def UnityEngine::Rendering::RenderGraphModule
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::RenderGraphModule::ImportResourceParams, "UnityEngine.Rendering.RenderGraphModule", "ImportResourceParams");

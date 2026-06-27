@@ -30,75 +30,75 @@ namespace UnityEngine::Rendering::Universal {
 // CS Name: UnityEngine.Rendering.Universal.DecalSkipCulledSystem
 class CORDL_TYPE DecalSkipCulledSystem : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field m_Camera, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Camera, put = __cordl_internal_set_m_Camera)) ::UnityW<::UnityEngine::Camera> m_Camera;
+// Declarations
+/// @brief Field m_Camera, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_Camera, put=__cordl_internal_set_m_Camera)) ::UnityW<::UnityEngine::Camera>  m_Camera;
 
-  /// @brief Field m_EntityManager, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_EntityManager, put = __cordl_internal_set_m_EntityManager)) ::UnityEngine::Rendering::Universal::DecalEntityManager* m_EntityManager;
+/// @brief Field m_EntityManager, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_EntityManager, put=__cordl_internal_set_m_EntityManager)) ::UnityEngine::Rendering::Universal::DecalEntityManager*  m_EntityManager;
 
-  /// @brief Field m_Sampler, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Sampler, put = __cordl_internal_set_m_Sampler)) ::UnityEngine::Rendering::ProfilingSampler* m_Sampler;
+/// @brief Field m_Sampler, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_Sampler, put=__cordl_internal_set_m_Sampler)) ::UnityEngine::Rendering::ProfilingSampler*  m_Sampler;
 
-  /// @brief Method Execute, addr 0x6718c3c, size 0x124, virtual false, abstract: false, final false
-  inline void Execute(::UnityEngine::Camera* camera);
+/// @brief Method Execute, addr 0x671a7b4, size 0x124, virtual false, abstract: false, final false
+inline void Execute(::UnityEngine::Camera*  camera) ;
 
-  /// @brief Method Execute, addr 0x6718d60, size 0xd4, virtual false, abstract: false, final false
-  inline void Execute(::UnityEngine::Rendering::Universal::DecalCulledChunk* culledChunk, int32_t count);
+/// @brief Method Execute, addr 0x671a8d8, size 0xd4, virtual false, abstract: false, final false
+inline void Execute(::UnityEngine::Rendering::Universal::DecalCulledChunk*  culledChunk, int32_t  count) ;
 
-  /// @brief Method GetSceneCullingMaskFromCamera, addr 0x6718e34, size 0x8, virtual false, abstract: false, final false
-  static inline uint64_t GetSceneCullingMaskFromCamera(::UnityEngine::Camera* camera);
+/// @brief Method GetSceneCullingMaskFromCamera, addr 0x671a9ac, size 0x8, virtual false, abstract: false, final false
+static inline uint64_t GetSceneCullingMaskFromCamera(::UnityEngine::Camera*  camera) ;
 
-  static inline ::UnityEngine::Rendering::Universal::DecalSkipCulledSystem* New_ctor(::UnityEngine::Rendering::Universal::DecalEntityManager* entityManager);
+static inline ::UnityEngine::Rendering::Universal::DecalSkipCulledSystem* New_ctor(::UnityEngine::Rendering::Universal::DecalEntityManager*  entityManager) ;
 
-  constexpr ::UnityW<::UnityEngine::Camera> const& __cordl_internal_get_m_Camera() const;
+constexpr ::UnityW<::UnityEngine::Camera> const& __cordl_internal_get_m_Camera() const;
 
-  constexpr ::UnityW<::UnityEngine::Camera>& __cordl_internal_get_m_Camera();
+constexpr ::UnityW<::UnityEngine::Camera>& __cordl_internal_get_m_Camera() ;
 
-  constexpr ::UnityEngine::Rendering::Universal::DecalEntityManager* const& __cordl_internal_get_m_EntityManager() const;
+constexpr ::UnityEngine::Rendering::Universal::DecalEntityManager* const& __cordl_internal_get_m_EntityManager() const;
 
-  constexpr ::UnityEngine::Rendering::Universal::DecalEntityManager*& __cordl_internal_get_m_EntityManager();
+constexpr ::UnityEngine::Rendering::Universal::DecalEntityManager*& __cordl_internal_get_m_EntityManager() ;
 
-  constexpr ::UnityEngine::Rendering::ProfilingSampler* const& __cordl_internal_get_m_Sampler() const;
+constexpr ::UnityEngine::Rendering::ProfilingSampler* const& __cordl_internal_get_m_Sampler() const;
 
-  constexpr ::UnityEngine::Rendering::ProfilingSampler*& __cordl_internal_get_m_Sampler();
+constexpr ::UnityEngine::Rendering::ProfilingSampler*& __cordl_internal_get_m_Sampler() ;
 
-  constexpr void __cordl_internal_set_m_Camera(::UnityW<::UnityEngine::Camera> value);
+constexpr void __cordl_internal_set_m_Camera(::UnityW<::UnityEngine::Camera>  value) ;
 
-  constexpr void __cordl_internal_set_m_EntityManager(::UnityEngine::Rendering::Universal::DecalEntityManager* value);
+constexpr void __cordl_internal_set_m_EntityManager(::UnityEngine::Rendering::Universal::DecalEntityManager*  value) ;
 
-  constexpr void __cordl_internal_set_m_Sampler(::UnityEngine::Rendering::ProfilingSampler* value);
+constexpr void __cordl_internal_set_m_Sampler(::UnityEngine::Rendering::ProfilingSampler*  value) ;
 
-  /// @brief Method .ctor, addr 0x6718bb4, size 0x88, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::Rendering::Universal::DecalEntityManager* entityManager);
+/// @brief Method .ctor, addr 0x671a72c, size 0x88, virtual false, abstract: false, final false
+inline void _ctor(::UnityEngine::Rendering::Universal::DecalEntityManager*  entityManager) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DecalSkipCulledSystem();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr DecalSkipCulledSystem() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DecalSkipCulledSystem", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  DecalSkipCulledSystem(DecalSkipCulledSystem&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DecalSkipCulledSystem", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  DecalSkipCulledSystem(DecalSkipCulledSystem const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "DecalSkipCulledSystem", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+DecalSkipCulledSystem(DecalSkipCulledSystem && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12686 };
+// Ctor Parameters [CppParam { name: "", ty: "DecalSkipCulledSystem", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+DecalSkipCulledSystem(DecalSkipCulledSystem const& ) = delete;
 
-  /// @brief Field m_EntityManager, offset: 0x10, size: 0x8, def value: None
-  ::UnityEngine::Rendering::Universal::DecalEntityManager* ___m_EntityManager;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12687};
 
-  /// @brief Field m_Sampler, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::Rendering::ProfilingSampler* ___m_Sampler;
+/// @brief Field m_EntityManager, offset: 0x10, size: 0x8, def value: None
+ ::UnityEngine::Rendering::Universal::DecalEntityManager*  ___m_EntityManager;
 
-  /// @brief Field m_Camera, offset: 0x20, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::Camera> ___m_Camera;
+/// @brief Field m_Sampler, offset: 0x18, size: 0x8, def value: None
+ ::UnityEngine::Rendering::ProfilingSampler*  ___m_Sampler;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field m_Camera, offset: 0x20, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::Camera>  ___m_Camera;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Rendering::Universal::DecalSkipCulledSystem, ___m_EntityManager) == 0x10, "Offset mismatch!");
@@ -109,6 +109,6 @@ static_assert(offsetof(::UnityEngine::Rendering::Universal::DecalSkipCulledSyste
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::Universal::DecalSkipCulledSystem, 0x28>, "Size mismatch!");
 
-} // namespace UnityEngine::Rendering::Universal
+} // namespace end def UnityEngine::Rendering::Universal
 NEED_NO_BOX(::UnityEngine::Rendering::Universal::DecalSkipCulledSystem);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::Universal::DecalSkipCulledSystem*, "UnityEngine.Rendering.Universal", "DecalSkipCulledSystem");

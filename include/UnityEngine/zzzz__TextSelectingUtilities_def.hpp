@@ -10,7 +10,8 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TextSelectingUtilities)
 namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+template<typename TKey,typename TValue>
+class Dictionary_2;
 }
 namespace System {
 class Action;
@@ -53,589 +54,588 @@ class TextSelectingUtilities;
 MARK_VAL_T(::UnityEngine::TextSelectingUtilities_CharacterType);
 MARK_VAL_T(::UnityEngine::TextSelectingUtilities_Direction);
 MARK_REF_PTR_T(::UnityEngine::TextSelectingUtilities);
-// Dependencies
+// Dependencies 
 namespace UnityEngine {
 // Is value type: true
 // CS Name: UnityEngine.TextSelectingUtilities/CharacterType
 struct CORDL_TYPE TextSelectingUtilities_CharacterType {
 public:
-  // Declarations
-  using __CORDL_BACKING_ENUM_TYPE = int32_t;
+// Declarations
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct __TextSelectingUtilities_CharacterType_Unwrapped
-  enum struct __TextSelectingUtilities_CharacterType_Unwrapped : int32_t {
-    __E_LetterLike = static_cast<int32_t>(0x0),
-    __E_Symbol = static_cast<int32_t>(0x1),
-    __E_Symbol2 = static_cast<int32_t>(0x2),
-    __E_WhiteSpace = static_cast<int32_t>(0x3),
-    __E_NewLine = static_cast<int32_t>(0x4),
-  };
+/// @brief Nested struct __TextSelectingUtilities_CharacterType_Unwrapped
+enum struct __TextSelectingUtilities_CharacterType_Unwrapped : int32_t {
+__E_LetterLike = static_cast<int32_t>(0x0),
+__E_Symbol = static_cast<int32_t>(0x1),
+__E_Symbol2 = static_cast<int32_t>(0x2),
+__E_WhiteSpace = static_cast<int32_t>(0x3),
+__E_NewLine = static_cast<int32_t>(0x4),
+};
 
-  /// @brief Conversion into unwrapped enum value
-  constexpr operator __TextSelectingUtilities_CharacterType_Unwrapped() const noexcept {
-    return static_cast<__TextSelectingUtilities_CharacterType_Unwrapped>(this->value__);
-  }
+/// @brief Conversion into unwrapped enum value
+constexpr operator __TextSelectingUtilities_CharacterType_Unwrapped () const noexcept {
+return static_cast<__TextSelectingUtilities_CharacterType_Unwrapped>(this->value__);
+}
 
-  /// @brief Conversion into unwrapped enum value
-  constexpr explicit operator int32_t() const noexcept {
-    return static_cast<int32_t>(this->value__);
-  }
+/// @brief Conversion into unwrapped enum value
+constexpr explicit operator int32_t () const noexcept {
+return static_cast<int32_t>(this->value__);
+}
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TextSelectingUtilities_CharacterType();
+// Ctor Parameters []
+// @brief default ctor
+constexpr TextSelectingUtilities_CharacterType() ;
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr TextSelectingUtilities_CharacterType(int32_t value__) noexcept;
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr TextSelectingUtilities_CharacterType(int32_t  value__) noexcept;
 
-  /// @brief Field LetterLike value: I32(0)
-  static ::UnityEngine::TextSelectingUtilities_CharacterType const LetterLike;
+/// @brief Field LetterLike value: I32(0)
+static ::UnityEngine::TextSelectingUtilities_CharacterType const LetterLike;
 
-  /// @brief Field NewLine value: I32(4)
-  static ::UnityEngine::TextSelectingUtilities_CharacterType const NewLine;
+/// @brief Field NewLine value: I32(4)
+static ::UnityEngine::TextSelectingUtilities_CharacterType const NewLine;
 
-  /// @brief Field Symbol value: I32(1)
-  static ::UnityEngine::TextSelectingUtilities_CharacterType const Symbol;
+/// @brief Field Symbol value: I32(1)
+static ::UnityEngine::TextSelectingUtilities_CharacterType const Symbol;
 
-  /// @brief Field Symbol2 value: I32(2)
-  static ::UnityEngine::TextSelectingUtilities_CharacterType const Symbol2;
+/// @brief Field Symbol2 value: I32(2)
+static ::UnityEngine::TextSelectingUtilities_CharacterType const Symbol2;
 
-  /// @brief Field WhiteSpace value: I32(3)
-  static ::UnityEngine::TextSelectingUtilities_CharacterType const WhiteSpace;
+/// @brief Field WhiteSpace value: I32(3)
+static ::UnityEngine::TextSelectingUtilities_CharacterType const WhiteSpace;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19642 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19645};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x4};
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+/// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+ int32_t  value__;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::TextSelectingUtilities_CharacterType, value__) == 0x0, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::TextSelectingUtilities_CharacterType, 0x4>, "Size mismatch!");
 
-} // namespace UnityEngine
-// Dependencies
+} // namespace end def UnityEngine
+// Dependencies 
 namespace UnityEngine {
 // Is value type: true
 // CS Name: UnityEngine.TextSelectingUtilities/Direction
 struct CORDL_TYPE TextSelectingUtilities_Direction {
 public:
-  // Declarations
-  using __CORDL_BACKING_ENUM_TYPE = int32_t;
+// Declarations
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct __TextSelectingUtilities_Direction_Unwrapped
-  enum struct __TextSelectingUtilities_Direction_Unwrapped : int32_t {
-    __E_Forward = static_cast<int32_t>(0x0),
-    __E_Backward = static_cast<int32_t>(0x1),
-  };
+/// @brief Nested struct __TextSelectingUtilities_Direction_Unwrapped
+enum struct __TextSelectingUtilities_Direction_Unwrapped : int32_t {
+__E_Forward = static_cast<int32_t>(0x0),
+__E_Backward = static_cast<int32_t>(0x1),
+};
 
-  /// @brief Conversion into unwrapped enum value
-  constexpr operator __TextSelectingUtilities_Direction_Unwrapped() const noexcept {
-    return static_cast<__TextSelectingUtilities_Direction_Unwrapped>(this->value__);
-  }
+/// @brief Conversion into unwrapped enum value
+constexpr operator __TextSelectingUtilities_Direction_Unwrapped () const noexcept {
+return static_cast<__TextSelectingUtilities_Direction_Unwrapped>(this->value__);
+}
 
-  /// @brief Conversion into unwrapped enum value
-  constexpr explicit operator int32_t() const noexcept {
-    return static_cast<int32_t>(this->value__);
-  }
+/// @brief Conversion into unwrapped enum value
+constexpr explicit operator int32_t () const noexcept {
+return static_cast<int32_t>(this->value__);
+}
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TextSelectingUtilities_Direction();
+// Ctor Parameters []
+// @brief default ctor
+constexpr TextSelectingUtilities_Direction() ;
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr TextSelectingUtilities_Direction(int32_t value__) noexcept;
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr TextSelectingUtilities_Direction(int32_t  value__) noexcept;
 
-  /// @brief Field Backward value: I32(1)
-  static ::UnityEngine::TextSelectingUtilities_Direction const Backward;
+/// @brief Field Backward value: I32(1)
+static ::UnityEngine::TextSelectingUtilities_Direction const Backward;
 
-  /// @brief Field Forward value: I32(0)
-  static ::UnityEngine::TextSelectingUtilities_Direction const Forward;
+/// @brief Field Forward value: I32(0)
+static ::UnityEngine::TextSelectingUtilities_Direction const Forward;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19643 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19646};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x4};
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+/// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+ int32_t  value__;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::TextSelectingUtilities_Direction, value__) == 0x0, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::TextSelectingUtilities_Direction, 0x4>, "Size mismatch!");
 
-} // namespace UnityEngine
+} // namespace end def UnityEngine
 // Dependencies System.Object, UnityEngine.TextEditor::DblClickSnapping
 namespace UnityEngine {
 // Is value type: false
 // CS Name: UnityEngine.TextSelectingUtilities
 class CORDL_TYPE TextSelectingUtilities : public ::System::Object {
 public:
-  // Declarations
-  using CharacterType = ::UnityEngine::TextSelectingUtilities_CharacterType;
+// Declarations
+using CharacterType = ::UnityEngine::TextSelectingUtilities_CharacterType;
 
-  using Direction = ::UnityEngine::TextSelectingUtilities_Direction;
+using Direction = ::UnityEngine::TextSelectingUtilities_Direction;
 
-  /// @brief Field OnCursorIndexChange, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_OnCursorIndexChange, put = __cordl_internal_set_OnCursorIndexChange)) ::System::Action* OnCursorIndexChange;
+/// @brief Field OnCursorIndexChange, offset 0x40, size 0x8 
+ __declspec(property(get=__cordl_internal_get_OnCursorIndexChange, put=__cordl_internal_set_OnCursorIndexChange)) ::System::Action*  OnCursorIndexChange;
 
-  /// @brief Field OnRevealCursorChange, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_OnRevealCursorChange, put = __cordl_internal_set_OnRevealCursorChange)) ::System::Action* OnRevealCursorChange;
+/// @brief Field OnRevealCursorChange, offset 0x50, size 0x8 
+ __declspec(property(get=__cordl_internal_get_OnRevealCursorChange, put=__cordl_internal_set_OnRevealCursorChange)) ::System::Action*  OnRevealCursorChange;
 
-  /// @brief Field OnSelectIndexChange, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_OnSelectIndexChange, put = __cordl_internal_set_OnSelectIndexChange)) ::System::Action* OnSelectIndexChange;
+/// @brief Field OnSelectIndexChange, offset 0x48, size 0x8 
+ __declspec(property(get=__cordl_internal_get_OnSelectIndexChange, put=__cordl_internal_set_OnSelectIndexChange)) ::System::Action*  OnSelectIndexChange;
 
-  __declspec(property(get = get_characterCount)) int32_t characterCount;
+ __declspec(property(get=get_characterCount)) int32_t  characterCount;
 
-  __declspec(property(get = get_cursorIndex, put = set_cursorIndex)) int32_t cursorIndex;
+ __declspec(property(get=get_cursorIndex, put=set_cursorIndex)) int32_t  cursorIndex;
 
-  __declspec(property(get = get_cursorIndexNoValidation, put = set_cursorIndexNoValidation)) int32_t cursorIndexNoValidation;
+ __declspec(property(get=get_cursorIndexNoValidation, put=set_cursorIndexNoValidation)) int32_t  cursorIndexNoValidation;
 
-  /// @brief Field dblClickSnap, offset 0x10, size 0x1
-  __declspec(property(get = __cordl_internal_get_dblClickSnap, put = __cordl_internal_set_dblClickSnap)) ::UnityEngine::TextEditor_DblClickSnapping dblClickSnap;
+/// @brief Field dblClickSnap, offset 0x10, size 0x1 
+ __declspec(property(get=__cordl_internal_get_dblClickSnap, put=__cordl_internal_set_dblClickSnap)) ::UnityEngine::TextEditor_DblClickSnapping  dblClickSnap;
 
-  /// @brief Field hasHorizontalCursorPos, offset 0x18, size 0x1
-  __declspec(property(get = __cordl_internal_get_hasHorizontalCursorPos, put = __cordl_internal_set_hasHorizontalCursorPos)) bool hasHorizontalCursorPos;
+/// @brief Field hasHorizontalCursorPos, offset 0x18, size 0x1 
+ __declspec(property(get=__cordl_internal_get_hasHorizontalCursorPos, put=__cordl_internal_set_hasHorizontalCursorPos)) bool  hasHorizontalCursorPos;
 
-  __declspec(property(get = get_hasSelection)) bool hasSelection;
+ __declspec(property(get=get_hasSelection)) bool  hasSelection;
 
-  /// @brief Field iAltCursorPos, offset 0x14, size 0x4
-  __declspec(property(get = __cordl_internal_get_iAltCursorPos, put = __cordl_internal_set_iAltCursorPos)) int32_t iAltCursorPos;
+/// @brief Field iAltCursorPos, offset 0x14, size 0x4 
+ __declspec(property(get=__cordl_internal_get_iAltCursorPos, put=__cordl_internal_set_iAltCursorPos)) int32_t  iAltCursorPos;
 
-  __declspec(property(get = get_m_CharacterCount)) int32_t m_CharacterCount;
+ __declspec(property(get=get_m_CharacterCount)) int32_t  m_CharacterCount;
 
-  /// @brief Field m_CursorIndex, offset 0x34, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_CursorIndex, put = __cordl_internal_set_m_CursorIndex)) int32_t m_CursorIndex;
+/// @brief Field m_CursorIndex, offset 0x34, size 0x4 
+ __declspec(property(get=__cordl_internal_get_m_CursorIndex, put=__cordl_internal_set_m_CursorIndex)) int32_t  m_CursorIndex;
 
-  /// @brief Field m_DblClickInitPosEnd, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_DblClickInitPosEnd, put = __cordl_internal_set_m_DblClickInitPosEnd)) int32_t m_DblClickInitPosEnd;
+/// @brief Field m_DblClickInitPosEnd, offset 0x20, size 0x4 
+ __declspec(property(get=__cordl_internal_get_m_DblClickInitPosEnd, put=__cordl_internal_set_m_DblClickInitPosEnd)) int32_t  m_DblClickInitPosEnd;
 
-  /// @brief Field m_DblClickInitPosStart, offset 0x1c, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_DblClickInitPosStart, put = __cordl_internal_set_m_DblClickInitPosStart)) int32_t m_DblClickInitPosStart;
+/// @brief Field m_DblClickInitPosStart, offset 0x1c, size 0x4 
+ __declspec(property(get=__cordl_internal_get_m_DblClickInitPosStart, put=__cordl_internal_set_m_DblClickInitPosStart)) int32_t  m_DblClickInitPosStart;
 
-  /// @brief Field m_MouseDragSelectsWholeWords, offset 0x1a, size 0x1
-  __declspec(property(get = __cordl_internal_get_m_MouseDragSelectsWholeWords, put = __cordl_internal_set_m_MouseDragSelectsWholeWords)) bool m_MouseDragSelectsWholeWords;
+/// @brief Field m_MouseDragSelectsWholeWords, offset 0x1a, size 0x1 
+ __declspec(property(get=__cordl_internal_get_m_MouseDragSelectsWholeWords, put=__cordl_internal_set_m_MouseDragSelectsWholeWords)) bool  m_MouseDragSelectsWholeWords;
 
-  /// @brief Field m_RevealCursor, offset 0x30, size 0x1
-  __declspec(property(get = __cordl_internal_get_m_RevealCursor, put = __cordl_internal_set_m_RevealCursor)) bool m_RevealCursor;
+/// @brief Field m_RevealCursor, offset 0x30, size 0x1 
+ __declspec(property(get=__cordl_internal_get_m_RevealCursor, put=__cordl_internal_set_m_RevealCursor)) bool  m_RevealCursor;
 
-  /// @brief Field m_SelectIndex, offset 0x38, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_SelectIndex, put = __cordl_internal_set_m_SelectIndex)) int32_t m_SelectIndex;
+/// @brief Field m_SelectIndex, offset 0x38, size 0x4 
+ __declspec(property(get=__cordl_internal_get_m_SelectIndex, put=__cordl_internal_set_m_SelectIndex)) int32_t  m_SelectIndex;
 
-  __declspec(property(get = get_m_TextElementInfos)) ::ArrayW<::UnityEngine::TextCore::Text::TextElementInfo, ::Array<::UnityEngine::TextCore::Text::TextElementInfo>*> m_TextElementInfos;
+ __declspec(property(get=get_m_TextElementInfos)) ::ArrayW<::UnityEngine::TextCore::Text::TextElementInfo,::Array<::UnityEngine::TextCore::Text::TextElementInfo>*>  m_TextElementInfos;
 
-  /// @brief Field m_bJustSelected, offset 0x19, size 0x1
-  __declspec(property(get = __cordl_internal_get_m_bJustSelected, put = __cordl_internal_set_m_bJustSelected)) bool m_bJustSelected;
+/// @brief Field m_bJustSelected, offset 0x19, size 0x1 
+ __declspec(property(get=__cordl_internal_get_m_bJustSelected, put=__cordl_internal_set_m_bJustSelected)) bool  m_bJustSelected;
 
-  __declspec(property(get = get_revealCursor, put = set_revealCursor)) bool revealCursor;
+ __declspec(property(get=get_revealCursor, put=set_revealCursor)) bool  revealCursor;
 
-  /// @brief Field s_KeySelectOps, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_s_KeySelectOps,
-                      put = setStaticF_s_KeySelectOps)) ::System::Collections::Generic::Dictionary_2<::UnityEngine::Event*, ::UnityEngine::TextSelectOp>* s_KeySelectOps;
+/// @brief Field s_KeySelectOps, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_s_KeySelectOps, put=setStaticF_s_KeySelectOps)) ::System::Collections::Generic::Dictionary_2<::UnityEngine::Event*,::UnityEngine::TextSelectOp>*  s_KeySelectOps;
 
-  __declspec(property(get = get_selectIndex, put = set_selectIndex)) int32_t selectIndex;
+ __declspec(property(get=get_selectIndex, put=set_selectIndex)) int32_t  selectIndex;
 
-  __declspec(property(put = set_selectIndexNoValidation)) int32_t selectIndexNoValidation;
+ __declspec(property(put=set_selectIndexNoValidation)) int32_t  selectIndexNoValidation;
 
-  __declspec(property(get = get_selectedText)) ::StringW selectedText;
+ __declspec(property(get=get_selectedText)) ::StringW  selectedText;
 
-  /// @brief Field textHandle, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_textHandle, put = __cordl_internal_set_textHandle)) ::UnityEngine::TextCore::Text::TextHandle* textHandle;
+/// @brief Field textHandle, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get_textHandle, put=__cordl_internal_set_textHandle)) ::UnityEngine::TextCore::Text::TextHandle*  textHandle;
 
-  /// @brief Method ClampTextIndex, addr 0x69fd3b4, size 0x24, virtual false, abstract: false, final false
-  inline int32_t ClampTextIndex(int32_t index);
+/// @brief Method ClampTextIndex, addr 0x69fef2c, size 0x24, virtual false, abstract: false, final false
+inline int32_t ClampTextIndex(int32_t  index) ;
 
-  /// @brief Method ClassifyChar, addr 0x69ff9a8, size 0xe0, virtual false, abstract: false, final false
-  inline ::UnityEngine::TextSelectingUtilities_CharacterType ClassifyChar(int32_t index);
+/// @brief Method ClassifyChar, addr 0x6a01520, size 0xe0, virtual false, abstract: false, final false
+inline ::UnityEngine::TextSelectingUtilities_CharacterType ClassifyChar(int32_t  index) ;
 
-  /// @brief Method ClearCursorPos, addr 0x69fc268, size 0x10, virtual false, abstract: false, final false
-  inline void ClearCursorPos();
+/// @brief Method ClearCursorPos, addr 0x69fdde0, size 0x10, virtual false, abstract: false, final false
+inline void ClearCursorPos() ;
 
-  /// @brief Method Copy, addr 0x69fc404, size 0x94, virtual false, abstract: false, final false
-  inline void Copy();
+/// @brief Method Copy, addr 0x69fdf7c, size 0x94, virtual false, abstract: false, final false
+inline void Copy() ;
 
-  /// @brief Method DblClickSnap, addr 0x69ff3a0, size 0x8, virtual false, abstract: false, final false
-  inline void DblClickSnap(::UnityEngine::TextEditor_DblClickSnapping snapping);
+/// @brief Method DblClickSnap, addr 0x6a00f18, size 0x8, virtual false, abstract: false, final false
+inline void DblClickSnap(::UnityEngine::TextEditor_DblClickSnapping  snapping) ;
 
-  /// @brief Method ExpandSelectGraphicalLineEnd, addr 0x69fe468, size 0xdc, virtual false, abstract: false, final false
-  inline void ExpandSelectGraphicalLineEnd();
+/// @brief Method ExpandSelectGraphicalLineEnd, addr 0x69fffe0, size 0xdc, virtual false, abstract: false, final false
+inline void ExpandSelectGraphicalLineEnd() ;
 
-  /// @brief Method ExpandSelectGraphicalLineStart, addr 0x69fe38c, size 0xdc, virtual false, abstract: false, final false
-  inline void ExpandSelectGraphicalLineStart();
+/// @brief Method ExpandSelectGraphicalLineStart, addr 0x69fff04, size 0xdc, virtual false, abstract: false, final false
+inline void ExpandSelectGraphicalLineStart() ;
 
-  /// @brief Method FindEndOfClassification, addr 0x69fef20, size 0x14c, virtual false, abstract: false, final false
-  inline int32_t FindEndOfClassification(int32_t p, ::UnityEngine::TextSelectingUtilities_Direction dir);
+/// @brief Method FindEndOfClassification, addr 0x6a00a98, size 0x14c, virtual false, abstract: false, final false
+inline int32_t FindEndOfClassification(int32_t  p, ::UnityEngine::TextSelectingUtilities_Direction  dir) ;
 
-  /// @brief Method FindEndOfPreviousWord, addr 0x69fbef4, size 0x114, virtual false, abstract: false, final false
-  inline int32_t FindEndOfPreviousWord(int32_t p);
+/// @brief Method FindEndOfPreviousWord, addr 0x69fda6c, size 0x114, virtual false, abstract: false, final false
+inline int32_t FindEndOfPreviousWord(int32_t  p) ;
 
-  /// @brief Method FindNextSeperator, addr 0x69ff200, size 0x84, virtual false, abstract: false, final false
-  inline int32_t FindNextSeperator(int32_t startPos);
+/// @brief Method FindNextSeperator, addr 0x6a00d78, size 0x84, virtual false, abstract: false, final false
+inline int32_t FindNextSeperator(int32_t  startPos) ;
 
-  /// @brief Method FindPrevSeperator, addr 0x69ff284, size 0x9c, virtual false, abstract: false, final false
-  inline int32_t FindPrevSeperator(int32_t startPos);
+/// @brief Method FindPrevSeperator, addr 0x6a00dfc, size 0x9c, virtual false, abstract: false, final false
+inline int32_t FindPrevSeperator(int32_t  startPos) ;
 
-  /// @brief Method FindStartOfNextWord, addr 0x69fc008, size 0x200, virtual false, abstract: false, final false
-  inline int32_t FindStartOfNextWord(int32_t p);
+/// @brief Method FindStartOfNextWord, addr 0x69fdb80, size 0x200, virtual false, abstract: false, final false
+inline int32_t FindStartOfNextWord(int32_t  p) ;
 
-  /// @brief Method GetGraphicalLineEnd, addr 0x69febd8, size 0x114, virtual false, abstract: false, final false
-  inline int32_t GetGraphicalLineEnd(int32_t p);
+/// @brief Method GetGraphicalLineEnd, addr 0x6a00750, size 0x114, virtual false, abstract: false, final false
+inline int32_t GetGraphicalLineEnd(int32_t  p) ;
 
-  /// @brief Method GetGraphicalLineStart, addr 0x69fead0, size 0x108, virtual false, abstract: false, final false
-  inline int32_t GetGraphicalLineStart(int32_t p);
+/// @brief Method GetGraphicalLineStart, addr 0x6a00648, size 0x108, virtual false, abstract: false, final false
+inline int32_t GetGraphicalLineStart(int32_t  p) ;
 
-  /// @brief Method HandleKeyEvent, addr 0x69fd4e0, size 0x128, virtual false, abstract: false, final false
-  inline bool HandleKeyEvent(::UnityEngine::Event* e);
+/// @brief Method HandleKeyEvent, addr 0x69ff058, size 0x128, virtual false, abstract: false, final false
+inline bool HandleKeyEvent(::UnityEngine::Event*  e) ;
 
-  /// @brief Method IndexOfEndOfLine, addr 0x69fecec, size 0x40, virtual false, abstract: false, final false
-  inline int32_t IndexOfEndOfLine(int32_t startIndex);
+/// @brief Method IndexOfEndOfLine, addr 0x6a00864, size 0x40, virtual false, abstract: false, final false
+inline int32_t IndexOfEndOfLine(int32_t  startIndex) ;
 
-  /// @brief Method InitKeyActions, addr 0x69fd608, size 0x508, virtual false, abstract: false, final false
-  inline void InitKeyActions();
+/// @brief Method InitKeyActions, addr 0x69ff180, size 0x508, virtual false, abstract: false, final false
+inline void InitKeyActions() ;
 
-  /// @brief Method MapKey, addr 0x69fe97c, size 0xa8, virtual false, abstract: false, final false
-  static inline void MapKey(::StringW key, ::UnityEngine::TextSelectOp action);
+/// @brief Method MapKey, addr 0x6a004f4, size 0xa8, virtual false, abstract: false, final false
+static inline void MapKey(::StringW  key, ::UnityEngine::TextSelectOp  action) ;
 
-  /// @brief Method MouseDragSelectsWholeWords, addr 0x69ff320, size 0x80, virtual false, abstract: false, final false
-  inline void MouseDragSelectsWholeWords(bool on);
+/// @brief Method MouseDragSelectsWholeWords, addr 0x6a00e98, size 0x80, virtual false, abstract: false, final false
+inline void MouseDragSelectsWholeWords(bool  on) ;
 
-  /// @brief Method MoveCursorToPosition_Internal, addr 0x69ff3a8, size 0x98, virtual false, abstract: false, final false
-  inline void MoveCursorToPosition_Internal(::UnityEngine::Vector2 cursorPosition, bool shift);
+/// @brief Method MoveCursorToPosition_Internal, addr 0x6a00f20, size 0x98, virtual false, abstract: false, final false
+inline void MoveCursorToPosition_Internal(::UnityEngine::Vector2  cursorPosition, bool  shift) ;
 
-  /// @brief Method MoveDown, addr 0x69fa80c, size 0x124, virtual false, abstract: false, final false
-  inline void MoveDown();
+/// @brief Method MoveDown, addr 0x69fc384, size 0x124, virtual false, abstract: false, final false
+inline void MoveDown() ;
 
-  /// @brief Method MoveGraphicalLineEnd, addr 0x69fb430, size 0xb4, virtual false, abstract: false, final false
-  inline void MoveGraphicalLineEnd();
+/// @brief Method MoveGraphicalLineEnd, addr 0x69fcfa8, size 0xb4, virtual false, abstract: false, final false
+inline void MoveGraphicalLineEnd() ;
 
-  /// @brief Method MoveGraphicalLineStart, addr 0x69fb37c, size 0xb4, virtual false, abstract: false, final false
-  inline void MoveGraphicalLineStart();
+/// @brief Method MoveGraphicalLineStart, addr 0x69fcef4, size 0xb4, virtual false, abstract: false, final false
+inline void MoveGraphicalLineStart() ;
 
-  /// @brief Method MoveLeft, addr 0x69fa514, size 0xec, virtual false, abstract: false, final false
-  inline void MoveLeft();
+/// @brief Method MoveLeft, addr 0x69fc08c, size 0xec, virtual false, abstract: false, final false
+inline void MoveLeft() ;
 
-  /// @brief Method MoveLineEnd, addr 0x69faa5c, size 0x14c, virtual false, abstract: false, final false
-  inline void MoveLineEnd();
+/// @brief Method MoveLineEnd, addr 0x69fc5d4, size 0x14c, virtual false, abstract: false, final false
+inline void MoveLineEnd() ;
 
-  /// @brief Method MoveLineStart, addr 0x69fa930, size 0x12c, virtual false, abstract: false, final false
-  inline void MoveLineStart();
+/// @brief Method MoveLineStart, addr 0x69fc4a8, size 0x12c, virtual false, abstract: false, final false
+inline void MoveLineStart() ;
 
-  /// @brief Method MoveParagraphBackward, addr 0x69fb1a4, size 0x1d8, virtual false, abstract: false, final false
-  inline void MoveParagraphBackward();
+/// @brief Method MoveParagraphBackward, addr 0x69fcd1c, size 0x1d8, virtual false, abstract: false, final false
+inline void MoveParagraphBackward() ;
 
-  /// @brief Method MoveParagraphForward, addr 0x69fb00c, size 0x198, virtual false, abstract: false, final false
-  inline void MoveParagraphForward();
+/// @brief Method MoveParagraphForward, addr 0x69fcb84, size 0x198, virtual false, abstract: false, final false
+inline void MoveParagraphForward() ;
 
-  /// @brief Method MoveRight, addr 0x69fa600, size 0xf4, virtual false, abstract: false, final false
-  inline void MoveRight();
+/// @brief Method MoveRight, addr 0x69fc178, size 0xf4, virtual false, abstract: false, final false
+inline void MoveRight() ;
 
-  /// @brief Method MoveTextEnd, addr 0x69faf94, size 0x78, virtual false, abstract: false, final false
-  inline void MoveTextEnd();
+/// @brief Method MoveTextEnd, addr 0x69fcb0c, size 0x78, virtual false, abstract: false, final false
+inline void MoveTextEnd() ;
 
-  /// @brief Method MoveTextStart, addr 0x69faf38, size 0x5c, virtual false, abstract: false, final false
-  inline void MoveTextStart();
+/// @brief Method MoveTextStart, addr 0x69fcab0, size 0x5c, virtual false, abstract: false, final false
+inline void MoveTextStart() ;
 
-  /// @brief Method MoveToEndOfPreviousWord, addr 0x69fad70, size 0xbc, virtual false, abstract: false, final false
-  inline void MoveToEndOfPreviousWord();
+/// @brief Method MoveToEndOfPreviousWord, addr 0x69fc8e8, size 0xbc, virtual false, abstract: false, final false
+inline void MoveToEndOfPreviousWord() ;
 
-  /// @brief Method MoveToStartOfNextWord, addr 0x69facb4, size 0xbc, virtual false, abstract: false, final false
-  inline void MoveToStartOfNextWord();
+/// @brief Method MoveToStartOfNextWord, addr 0x69fc82c, size 0xbc, virtual false, abstract: false, final false
+inline void MoveToStartOfNextWord() ;
 
-  /// @brief Method MoveUp, addr 0x69fa6f4, size 0x118, virtual false, abstract: false, final false
-  inline void MoveUp();
+/// @brief Method MoveUp, addr 0x69fc26c, size 0x118, virtual false, abstract: false, final false
+inline void MoveUp() ;
 
-  /// @brief Method MoveWordLeft, addr 0x69fae2c, size 0x10c, virtual false, abstract: false, final false
-  inline void MoveWordLeft();
+/// @brief Method MoveWordLeft, addr 0x69fc9a4, size 0x10c, virtual false, abstract: false, final false
+inline void MoveWordLeft() ;
 
-  /// @brief Method MoveWordRight, addr 0x69faba8, size 0x10c, virtual false, abstract: false, final false
-  inline void MoveWordRight();
+/// @brief Method MoveWordRight, addr 0x69fc720, size 0x10c, virtual false, abstract: false, final false
+inline void MoveWordRight() ;
 
-  static inline ::UnityEngine::TextSelectingUtilities* New_ctor(::UnityEngine::TextCore::Text::TextHandle* textHandle);
+static inline ::UnityEngine::TextSelectingUtilities* New_ctor(::UnityEngine::TextCore::Text::TextHandle*  textHandle) ;
 
-  /// @brief Method NextCodePointIndex, addr 0x69fea6c, size 0x64, virtual false, abstract: false, final false
-  inline int32_t NextCodePointIndex(int32_t index);
+/// @brief Method NextCodePointIndex, addr 0x6a005e4, size 0x64, virtual false, abstract: false, final false
+inline int32_t NextCodePointIndex(int32_t  index) ;
 
-  /// @brief Method OnFocus, addr 0x69fea24, size 0x48, virtual false, abstract: false, final false
-  inline void OnFocus(bool selectAll);
+/// @brief Method OnFocus, addr 0x6a0059c, size 0x48, virtual false, abstract: false, final false
+inline void OnFocus(bool  selectAll) ;
 
-  /// @brief Method PerformOperation, addr 0x69fdb10, size 0x204, virtual false, abstract: false, final false
-  inline bool PerformOperation(::UnityEngine::TextSelectOp operation);
+/// @brief Method PerformOperation, addr 0x69ff688, size 0x204, virtual false, abstract: false, final false
+inline bool PerformOperation(::UnityEngine::TextSelectOp  operation) ;
 
-  /// @brief Method PreviousCodePointIndex, addr 0x69fc208, size 0x60, virtual false, abstract: false, final false
-  inline int32_t PreviousCodePointIndex(int32_t index);
+/// @brief Method PreviousCodePointIndex, addr 0x69fdd80, size 0x60, virtual false, abstract: false, final false
+inline int32_t PreviousCodePointIndex(int32_t  index) ;
 
-  /// @brief Method SelectAll, addr 0x69fe910, size 0x6c, virtual false, abstract: false, final false
-  inline void SelectAll();
+/// @brief Method SelectAll, addr 0x6a00488, size 0x6c, virtual false, abstract: false, final false
+inline void SelectAll() ;
 
-  /// @brief Method SelectCurrentParagraph, addr 0x69ff06c, size 0x194, virtual false, abstract: false, final false
-  inline void SelectCurrentParagraph();
+/// @brief Method SelectCurrentParagraph, addr 0x6a00be4, size 0x194, virtual false, abstract: false, final false
+inline void SelectCurrentParagraph() ;
 
-  /// @brief Method SelectCurrentWord, addr 0x69fed2c, size 0x1f4, virtual false, abstract: false, final false
-  inline void SelectCurrentWord();
+/// @brief Method SelectCurrentWord, addr 0x6a008a4, size 0x1f4, virtual false, abstract: false, final false
+inline void SelectCurrentWord() ;
 
-  /// @brief Method SelectDown, addr 0x69fdf4c, size 0x68, virtual false, abstract: false, final false
-  inline void SelectDown();
+/// @brief Method SelectDown, addr 0x69ffac4, size 0x68, virtual false, abstract: false, final false
+inline void SelectDown() ;
 
-  /// @brief Method SelectGraphicalLineEnd, addr 0x69fe8b8, size 0x58, virtual false, abstract: false, final false
-  inline void SelectGraphicalLineEnd();
+/// @brief Method SelectGraphicalLineEnd, addr 0x6a00430, size 0x58, virtual false, abstract: false, final false
+inline void SelectGraphicalLineEnd() ;
 
-  /// @brief Method SelectGraphicalLineStart, addr 0x69fe860, size 0x58, virtual false, abstract: false, final false
-  inline void SelectGraphicalLineStart();
+/// @brief Method SelectGraphicalLineStart, addr 0x6a003d8, size 0x58, virtual false, abstract: false, final false
+inline void SelectGraphicalLineStart() ;
 
-  /// @brief Method SelectLeft, addr 0x69fdd14, size 0xe8, virtual false, abstract: false, final false
-  inline void SelectLeft();
+/// @brief Method SelectLeft, addr 0x69ff88c, size 0xe8, virtual false, abstract: false, final false
+inline void SelectLeft() ;
 
-  /// @brief Method SelectNone, addr 0x69fc558, size 0x48, virtual false, abstract: false, final false
-  inline void SelectNone();
+/// @brief Method SelectNone, addr 0x69fe0d0, size 0x48, virtual false, abstract: false, final false
+inline void SelectNone() ;
 
-  /// @brief Method SelectParagraphBackward, addr 0x69fe6b4, size 0x1ac, virtual false, abstract: false, final false
-  inline void SelectParagraphBackward();
+/// @brief Method SelectParagraphBackward, addr 0x6a0022c, size 0x1ac, virtual false, abstract: false, final false
+inline void SelectParagraphBackward() ;
 
-  /// @brief Method SelectParagraphForward, addr 0x69fe544, size 0x170, virtual false, abstract: false, final false
-  inline void SelectParagraphForward();
+/// @brief Method SelectParagraphForward, addr 0x6a000bc, size 0x170, virtual false, abstract: false, final false
+inline void SelectParagraphForward() ;
 
-  /// @brief Method SelectRight, addr 0x69fddfc, size 0xe8, virtual false, abstract: false, final false
-  inline void SelectRight();
+/// @brief Method SelectRight, addr 0x69ff974, size 0xe8, virtual false, abstract: false, final false
+inline void SelectRight() ;
 
-  /// @brief Method SelectTextEnd, addr 0x69fe34c, size 0x40, virtual false, abstract: false, final false
-  inline void SelectTextEnd();
+/// @brief Method SelectTextEnd, addr 0x69ffec4, size 0x40, virtual false, abstract: false, final false
+inline void SelectTextEnd() ;
 
-  /// @brief Method SelectTextStart, addr 0x69fe324, size 0x28, virtual false, abstract: false, final false
-  inline void SelectTextStart();
+/// @brief Method SelectTextStart, addr 0x69ffe9c, size 0x28, virtual false, abstract: false, final false
+inline void SelectTextStart() ;
 
-  /// @brief Method SelectToEndOfPreviousWord, addr 0x69fe274, size 0x58, virtual false, abstract: false, final false
-  inline void SelectToEndOfPreviousWord();
+/// @brief Method SelectToEndOfPreviousWord, addr 0x69ffdec, size 0x58, virtual false, abstract: false, final false
+inline void SelectToEndOfPreviousWord() ;
 
-  /// @brief Method SelectToPosition, addr 0x69ff440, size 0x568, virtual false, abstract: false, final false
-  inline void SelectToPosition(::UnityEngine::Vector2 cursorPosition);
+/// @brief Method SelectToPosition, addr 0x6a00fb8, size 0x568, virtual false, abstract: false, final false
+inline void SelectToPosition(::UnityEngine::Vector2  cursorPosition) ;
 
-  /// @brief Method SelectToStartOfNextWord, addr 0x69fe2cc, size 0x58, virtual false, abstract: false, final false
-  inline void SelectToStartOfNextWord();
+/// @brief Method SelectToStartOfNextWord, addr 0x69ffe44, size 0x58, virtual false, abstract: false, final false
+inline void SelectToStartOfNextWord() ;
 
-  /// @brief Method SelectUp, addr 0x69fdee4, size 0x68, virtual false, abstract: false, final false
-  inline void SelectUp();
+/// @brief Method SelectUp, addr 0x69ffa5c, size 0x68, virtual false, abstract: false, final false
+inline void SelectUp() ;
 
-  /// @brief Method SelectWordLeft, addr 0x69fe114, size 0x160, virtual false, abstract: false, final false
-  inline void SelectWordLeft();
+/// @brief Method SelectWordLeft, addr 0x69ffc8c, size 0x160, virtual false, abstract: false, final false
+inline void SelectWordLeft() ;
 
-  /// @brief Method SelectWordRight, addr 0x69fdfb4, size 0x160, virtual false, abstract: false, final false
-  inline void SelectWordRight();
+/// @brief Method SelectWordRight, addr 0x69ffb2c, size 0x160, virtual false, abstract: false, final false
+inline void SelectWordRight() ;
 
-  /// @brief Method SetCursorIndexWithoutNotify, addr 0x69fd3d8, size 0x8, virtual false, abstract: false, final false
-  inline void SetCursorIndexWithoutNotify(int32_t index);
+/// @brief Method SetCursorIndexWithoutNotify, addr 0x69fef50, size 0x8, virtual false, abstract: false, final false
+inline void SetCursorIndexWithoutNotify(int32_t  index) ;
 
-  /// @brief Method SetSelectIndexWithoutNotify, addr 0x69fd3e0, size 0x8, virtual false, abstract: false, final false
-  inline void SetSelectIndexWithoutNotify(int32_t index);
+/// @brief Method SetSelectIndexWithoutNotify, addr 0x69fef58, size 0x8, virtual false, abstract: false, final false
+inline void SetSelectIndexWithoutNotify(int32_t  index) ;
 
-  constexpr ::System::Action* const& __cordl_internal_get_OnCursorIndexChange() const;
+constexpr ::System::Action* const& __cordl_internal_get_OnCursorIndexChange() const;
 
-  constexpr ::System::Action*& __cordl_internal_get_OnCursorIndexChange();
+constexpr ::System::Action*& __cordl_internal_get_OnCursorIndexChange() ;
 
-  constexpr ::System::Action* const& __cordl_internal_get_OnRevealCursorChange() const;
+constexpr ::System::Action* const& __cordl_internal_get_OnRevealCursorChange() const;
 
-  constexpr ::System::Action*& __cordl_internal_get_OnRevealCursorChange();
+constexpr ::System::Action*& __cordl_internal_get_OnRevealCursorChange() ;
 
-  constexpr ::System::Action* const& __cordl_internal_get_OnSelectIndexChange() const;
+constexpr ::System::Action* const& __cordl_internal_get_OnSelectIndexChange() const;
 
-  constexpr ::System::Action*& __cordl_internal_get_OnSelectIndexChange();
+constexpr ::System::Action*& __cordl_internal_get_OnSelectIndexChange() ;
 
-  constexpr ::UnityEngine::TextEditor_DblClickSnapping const& __cordl_internal_get_dblClickSnap() const;
+constexpr ::UnityEngine::TextEditor_DblClickSnapping const& __cordl_internal_get_dblClickSnap() const;
 
-  constexpr ::UnityEngine::TextEditor_DblClickSnapping& __cordl_internal_get_dblClickSnap();
+constexpr ::UnityEngine::TextEditor_DblClickSnapping& __cordl_internal_get_dblClickSnap() ;
 
-  constexpr bool const& __cordl_internal_get_hasHorizontalCursorPos() const;
+constexpr bool const& __cordl_internal_get_hasHorizontalCursorPos() const;
 
-  constexpr bool& __cordl_internal_get_hasHorizontalCursorPos();
+constexpr bool& __cordl_internal_get_hasHorizontalCursorPos() ;
 
-  constexpr int32_t const& __cordl_internal_get_iAltCursorPos() const;
+constexpr int32_t const& __cordl_internal_get_iAltCursorPos() const;
 
-  constexpr int32_t& __cordl_internal_get_iAltCursorPos();
+constexpr int32_t& __cordl_internal_get_iAltCursorPos() ;
 
-  constexpr int32_t const& __cordl_internal_get_m_CursorIndex() const;
+constexpr int32_t const& __cordl_internal_get_m_CursorIndex() const;
 
-  constexpr int32_t& __cordl_internal_get_m_CursorIndex();
+constexpr int32_t& __cordl_internal_get_m_CursorIndex() ;
 
-  constexpr int32_t const& __cordl_internal_get_m_DblClickInitPosEnd() const;
+constexpr int32_t const& __cordl_internal_get_m_DblClickInitPosEnd() const;
 
-  constexpr int32_t& __cordl_internal_get_m_DblClickInitPosEnd();
+constexpr int32_t& __cordl_internal_get_m_DblClickInitPosEnd() ;
 
-  constexpr int32_t const& __cordl_internal_get_m_DblClickInitPosStart() const;
+constexpr int32_t const& __cordl_internal_get_m_DblClickInitPosStart() const;
 
-  constexpr int32_t& __cordl_internal_get_m_DblClickInitPosStart();
+constexpr int32_t& __cordl_internal_get_m_DblClickInitPosStart() ;
 
-  constexpr bool const& __cordl_internal_get_m_MouseDragSelectsWholeWords() const;
+constexpr bool const& __cordl_internal_get_m_MouseDragSelectsWholeWords() const;
 
-  constexpr bool& __cordl_internal_get_m_MouseDragSelectsWholeWords();
+constexpr bool& __cordl_internal_get_m_MouseDragSelectsWholeWords() ;
 
-  constexpr bool const& __cordl_internal_get_m_RevealCursor() const;
+constexpr bool const& __cordl_internal_get_m_RevealCursor() const;
 
-  constexpr bool& __cordl_internal_get_m_RevealCursor();
+constexpr bool& __cordl_internal_get_m_RevealCursor() ;
 
-  constexpr int32_t const& __cordl_internal_get_m_SelectIndex() const;
+constexpr int32_t const& __cordl_internal_get_m_SelectIndex() const;
 
-  constexpr int32_t& __cordl_internal_get_m_SelectIndex();
+constexpr int32_t& __cordl_internal_get_m_SelectIndex() ;
 
-  constexpr bool const& __cordl_internal_get_m_bJustSelected() const;
+constexpr bool const& __cordl_internal_get_m_bJustSelected() const;
 
-  constexpr bool& __cordl_internal_get_m_bJustSelected();
+constexpr bool& __cordl_internal_get_m_bJustSelected() ;
 
-  constexpr ::UnityEngine::TextCore::Text::TextHandle* const& __cordl_internal_get_textHandle() const;
+constexpr ::UnityEngine::TextCore::Text::TextHandle* const& __cordl_internal_get_textHandle() const;
 
-  constexpr ::UnityEngine::TextCore::Text::TextHandle*& __cordl_internal_get_textHandle();
+constexpr ::UnityEngine::TextCore::Text::TextHandle*& __cordl_internal_get_textHandle() ;
 
-  constexpr void __cordl_internal_set_OnCursorIndexChange(::System::Action* value);
+constexpr void __cordl_internal_set_OnCursorIndexChange(::System::Action*  value) ;
 
-  constexpr void __cordl_internal_set_OnRevealCursorChange(::System::Action* value);
+constexpr void __cordl_internal_set_OnRevealCursorChange(::System::Action*  value) ;
 
-  constexpr void __cordl_internal_set_OnSelectIndexChange(::System::Action* value);
+constexpr void __cordl_internal_set_OnSelectIndexChange(::System::Action*  value) ;
 
-  constexpr void __cordl_internal_set_dblClickSnap(::UnityEngine::TextEditor_DblClickSnapping value);
+constexpr void __cordl_internal_set_dblClickSnap(::UnityEngine::TextEditor_DblClickSnapping  value) ;
 
-  constexpr void __cordl_internal_set_hasHorizontalCursorPos(bool value);
+constexpr void __cordl_internal_set_hasHorizontalCursorPos(bool  value) ;
 
-  constexpr void __cordl_internal_set_iAltCursorPos(int32_t value);
+constexpr void __cordl_internal_set_iAltCursorPos(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_m_CursorIndex(int32_t value);
+constexpr void __cordl_internal_set_m_CursorIndex(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_m_DblClickInitPosEnd(int32_t value);
+constexpr void __cordl_internal_set_m_DblClickInitPosEnd(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_m_DblClickInitPosStart(int32_t value);
+constexpr void __cordl_internal_set_m_DblClickInitPosStart(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_m_MouseDragSelectsWholeWords(bool value);
+constexpr void __cordl_internal_set_m_MouseDragSelectsWholeWords(bool  value) ;
 
-  constexpr void __cordl_internal_set_m_RevealCursor(bool value);
+constexpr void __cordl_internal_set_m_RevealCursor(bool  value) ;
 
-  constexpr void __cordl_internal_set_m_SelectIndex(int32_t value);
+constexpr void __cordl_internal_set_m_SelectIndex(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_m_bJustSelected(bool value);
+constexpr void __cordl_internal_set_m_bJustSelected(bool  value) ;
 
-  constexpr void __cordl_internal_set_textHandle(::UnityEngine::TextCore::Text::TextHandle* value);
+constexpr void __cordl_internal_set_textHandle(::UnityEngine::TextCore::Text::TextHandle*  value) ;
 
-  /// @brief Method .ctor, addr 0x69fcdfc, size 0x28, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::TextCore::Text::TextHandle* textHandle);
+/// @brief Method .ctor, addr 0x69fe974, size 0x28, virtual false, abstract: false, final false
+inline void _ctor(::UnityEngine::TextCore::Text::TextHandle*  textHandle) ;
 
-  static inline ::System::Collections::Generic::Dictionary_2<::UnityEngine::Event*, ::UnityEngine::TextSelectOp>* getStaticF_s_KeySelectOps();
+static inline ::System::Collections::Generic::Dictionary_2<::UnityEngine::Event*,::UnityEngine::TextSelectOp>* getStaticF_s_KeySelectOps() ;
 
-  /// @brief Method get_characterCount, addr 0x69fd2b8, size 0xd4, virtual false, abstract: false, final false
-  inline int32_t get_characterCount();
+/// @brief Method get_characterCount, addr 0x69fee30, size 0xd4, virtual false, abstract: false, final false
+inline int32_t get_characterCount() ;
 
-  /// @brief Method get_cursorIndex, addr 0x69f9120, size 0x58, virtual false, abstract: false, final false
-  inline int32_t get_cursorIndex();
+/// @brief Method get_cursorIndex, addr 0x69fac98, size 0x58, virtual false, abstract: false, final false
+inline int32_t get_cursorIndex() ;
 
-  /// @brief Method get_cursorIndexNoValidation, addr 0x69f91f8, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_cursorIndexNoValidation();
+/// @brief Method get_cursorIndexNoValidation, addr 0x69fad70, size 0x8, virtual false, abstract: false, final false
+inline int32_t get_cursorIndexNoValidation() ;
 
-  /// @brief Method get_hasSelection, addr 0x69f9038, size 0x30, virtual false, abstract: false, final false
-  inline bool get_hasSelection();
+/// @brief Method get_hasSelection, addr 0x69fabb0, size 0x30, virtual false, abstract: false, final false
+inline bool get_hasSelection() ;
 
-  /// @brief Method get_m_CharacterCount, addr 0x69fd2a0, size 0x18, virtual false, abstract: false, final false
-  inline int32_t get_m_CharacterCount();
+/// @brief Method get_m_CharacterCount, addr 0x69fee18, size 0x18, virtual false, abstract: false, final false
+inline int32_t get_m_CharacterCount() ;
 
-  /// @brief Method get_m_TextElementInfos, addr 0x69fd38c, size 0x28, virtual false, abstract: false, final false
-  inline ::ArrayW<::UnityEngine::TextCore::Text::TextElementInfo, ::Array<::UnityEngine::TextCore::Text::TextElementInfo>*> get_m_TextElementInfos();
+/// @brief Method get_m_TextElementInfos, addr 0x69fef04, size 0x28, virtual false, abstract: false, final false
+inline ::ArrayW<::UnityEngine::TextCore::Text::TextElementInfo,::Array<::UnityEngine::TextCore::Text::TextElementInfo>*> get_m_TextElementInfos() ;
 
-  /// @brief Method get_revealCursor, addr 0x69fd298, size 0x8, virtual false, abstract: false, final false
-  inline bool get_revealCursor();
+/// @brief Method get_revealCursor, addr 0x69fee10, size 0x8, virtual false, abstract: false, final false
+inline bool get_revealCursor() ;
 
-  /// @brief Method get_selectIndex, addr 0x69f9318, size 0x58, virtual false, abstract: false, final false
-  inline int32_t get_selectIndex();
+/// @brief Method get_selectIndex, addr 0x69fae90, size 0x58, virtual false, abstract: false, final false
+inline int32_t get_selectIndex() ;
 
-  /// @brief Method get_selectedText, addr 0x69fd3e8, size 0xf8, virtual false, abstract: false, final false
-  inline ::StringW get_selectedText();
+/// @brief Method get_selectedText, addr 0x69fef60, size 0xf8, virtual false, abstract: false, final false
+inline ::StringW get_selectedText() ;
 
-  static inline void setStaticF_s_KeySelectOps(::System::Collections::Generic::Dictionary_2<::UnityEngine::Event*, ::UnityEngine::TextSelectOp>* value);
+static inline void setStaticF_s_KeySelectOps(::System::Collections::Generic::Dictionary_2<::UnityEngine::Event*,::UnityEngine::TextSelectOp>*  value) ;
 
-  /// @brief Method set_cursorIndex, addr 0x69f91b4, size 0x2c, virtual false, abstract: false, final false
-  inline void set_cursorIndex(int32_t value);
+/// @brief Method set_cursorIndex, addr 0x69fad2c, size 0x2c, virtual false, abstract: false, final false
+inline void set_cursorIndex(int32_t  value) ;
 
-  /// @brief Method set_cursorIndexNoValidation, addr 0x69f923c, size 0x2c, virtual false, abstract: false, final false
-  inline void set_cursorIndexNoValidation(int32_t value);
+/// @brief Method set_cursorIndexNoValidation, addr 0x69fadb4, size 0x2c, virtual false, abstract: false, final false
+inline void set_cursorIndexNoValidation(int32_t  value) ;
 
-  /// @brief Method set_revealCursor, addr 0x69f90a8, size 0x30, virtual false, abstract: false, final false
-  inline void set_revealCursor(bool value);
+/// @brief Method set_revealCursor, addr 0x69fac20, size 0x30, virtual false, abstract: false, final false
+inline void set_revealCursor(bool  value) ;
 
-  /// @brief Method set_selectIndex, addr 0x69f93ac, size 0x2c, virtual false, abstract: false, final false
-  inline void set_selectIndex(int32_t value);
+/// @brief Method set_selectIndex, addr 0x69faf24, size 0x2c, virtual false, abstract: false, final false
+inline void set_selectIndex(int32_t  value) ;
 
-  /// @brief Method set_selectIndexNoValidation, addr 0x69f92a4, size 0x2c, virtual false, abstract: false, final false
-  inline void set_selectIndexNoValidation(int32_t value);
+/// @brief Method set_selectIndexNoValidation, addr 0x69fae1c, size 0x2c, virtual false, abstract: false, final false
+inline void set_selectIndexNoValidation(int32_t  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TextSelectingUtilities();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr TextSelectingUtilities() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TextSelectingUtilities", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  TextSelectingUtilities(TextSelectingUtilities&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TextSelectingUtilities", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  TextSelectingUtilities(TextSelectingUtilities const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "TextSelectingUtilities", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+TextSelectingUtilities(TextSelectingUtilities && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19644 };
+// Ctor Parameters [CppParam { name: "", ty: "TextSelectingUtilities", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+TextSelectingUtilities(TextSelectingUtilities const& ) = delete;
 
-  /// @brief Field kMoveDownHeight offset 0xffffffff size 0x4
-  static constexpr int32_t kMoveDownHeight{ static_cast<int32_t>(0x5) };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19647};
 
-  /// @brief Field kNewLineChar offset 0xffffffff size 0x2
-  static constexpr char16_t kNewLineChar{ u'\n' };
+/// @brief Field kMoveDownHeight offset 0xffffffff size 0x4
+static constexpr int32_t  kMoveDownHeight{static_cast<int32_t>(0x5)};
 
-  /// @brief Field dblClickSnap, offset: 0x10, size: 0x1, def value: None
-  ::UnityEngine::TextEditor_DblClickSnapping ___dblClickSnap;
+/// @brief Field kNewLineChar offset 0xffffffff size 0x2
+static constexpr char16_t  kNewLineChar{u'\n'};
 
-  /// @brief Field iAltCursorPos, offset: 0x14, size: 0x4, def value: None
-  int32_t ___iAltCursorPos;
+/// @brief Field dblClickSnap, offset: 0x10, size: 0x1, def value: None
+ ::UnityEngine::TextEditor_DblClickSnapping  ___dblClickSnap;
 
-  /// @brief Field hasHorizontalCursorPos, offset: 0x18, size: 0x1, def value: None
-  bool ___hasHorizontalCursorPos;
+/// @brief Field iAltCursorPos, offset: 0x14, size: 0x4, def value: None
+ int32_t  ___iAltCursorPos;
 
-  /// @brief Field m_bJustSelected, offset: 0x19, size: 0x1, def value: None
-  bool ___m_bJustSelected;
+/// @brief Field hasHorizontalCursorPos, offset: 0x18, size: 0x1, def value: None
+ bool  ___hasHorizontalCursorPos;
 
-  /// @brief Field m_MouseDragSelectsWholeWords, offset: 0x1a, size: 0x1, def value: None
-  bool ___m_MouseDragSelectsWholeWords;
+/// @brief Field m_bJustSelected, offset: 0x19, size: 0x1, def value: None
+ bool  ___m_bJustSelected;
 
-  /// @brief Field m_DblClickInitPosStart, offset: 0x1c, size: 0x4, def value: None
-  int32_t ___m_DblClickInitPosStart;
+/// @brief Field m_MouseDragSelectsWholeWords, offset: 0x1a, size: 0x1, def value: None
+ bool  ___m_MouseDragSelectsWholeWords;
 
-  /// @brief Field m_DblClickInitPosEnd, offset: 0x20, size: 0x4, def value: None
-  int32_t ___m_DblClickInitPosEnd;
+/// @brief Field m_DblClickInitPosStart, offset: 0x1c, size: 0x4, def value: None
+ int32_t  ___m_DblClickInitPosStart;
 
-  /// @brief Field textHandle, offset: 0x28, size: 0x8, def value: None
-  ::UnityEngine::TextCore::Text::TextHandle* ___textHandle;
+/// @brief Field m_DblClickInitPosEnd, offset: 0x20, size: 0x4, def value: None
+ int32_t  ___m_DblClickInitPosEnd;
 
-  /// @brief Field m_RevealCursor, offset: 0x30, size: 0x1, def value: None
-  bool ___m_RevealCursor;
+/// @brief Field textHandle, offset: 0x28, size: 0x8, def value: None
+ ::UnityEngine::TextCore::Text::TextHandle*  ___textHandle;
 
-  /// @brief Field m_CursorIndex, offset: 0x34, size: 0x4, def value: None
-  int32_t ___m_CursorIndex;
+/// @brief Field m_RevealCursor, offset: 0x30, size: 0x1, def value: None
+ bool  ___m_RevealCursor;
 
-  /// @brief Field m_SelectIndex, offset: 0x38, size: 0x4, def value: None
-  int32_t ___m_SelectIndex;
+/// @brief Field m_CursorIndex, offset: 0x34, size: 0x4, def value: None
+ int32_t  ___m_CursorIndex;
 
-  /// @brief Field OnCursorIndexChange, offset: 0x40, size: 0x8, def value: None
-  ::System::Action* ___OnCursorIndexChange;
+/// @brief Field m_SelectIndex, offset: 0x38, size: 0x4, def value: None
+ int32_t  ___m_SelectIndex;
 
-  /// @brief Field OnSelectIndexChange, offset: 0x48, size: 0x8, def value: None
-  ::System::Action* ___OnSelectIndexChange;
+/// @brief Field OnCursorIndexChange, offset: 0x40, size: 0x8, def value: None
+ ::System::Action*  ___OnCursorIndexChange;
 
-  /// @brief Field OnRevealCursorChange, offset: 0x50, size: 0x8, def value: None
-  ::System::Action* ___OnRevealCursorChange;
+/// @brief Field OnSelectIndexChange, offset: 0x48, size: 0x8, def value: None
+ ::System::Action*  ___OnSelectIndexChange;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field OnRevealCursorChange, offset: 0x50, size: 0x8, def value: None
+ ::System::Action*  ___OnRevealCursorChange;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::TextSelectingUtilities, ___dblClickSnap) == 0x10, "Offset mismatch!");
@@ -668,7 +668,7 @@ static_assert(offsetof(::UnityEngine::TextSelectingUtilities, ___OnRevealCursorC
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::TextSelectingUtilities, 0x58>, "Size mismatch!");
 
-} // namespace UnityEngine
+} // namespace end def UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextSelectingUtilities_CharacterType, "UnityEngine", "TextSelectingUtilities/CharacterType");
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextSelectingUtilities_Direction, "UnityEngine", "TextSelectingUtilities/Direction");
 NEED_NO_BOX(::UnityEngine::TextSelectingUtilities);

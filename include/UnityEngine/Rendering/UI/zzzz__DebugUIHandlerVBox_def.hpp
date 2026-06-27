@@ -26,57 +26,57 @@ namespace UnityEngine::Rendering::UI {
 // CS Name: UnityEngine.Rendering.UI.DebugUIHandlerVBox
 class CORDL_TYPE DebugUIHandlerVBox : public ::UnityEngine::Rendering::UI::DebugUIHandlerWidget {
 public:
-  // Declarations
-  /// @brief Field m_Container, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Container, put = __cordl_internal_set_m_Container)) ::UnityW<::UnityEngine::Rendering::UI::DebugUIHandlerContainer> m_Container;
+// Declarations
+/// @brief Field m_Container, offset 0x60, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_Container, put=__cordl_internal_set_m_Container)) ::UnityW<::UnityEngine::Rendering::UI::DebugUIHandlerContainer>  m_Container;
 
-  static inline ::UnityEngine::Rendering::UI::DebugUIHandlerVBox* New_ctor();
+static inline ::UnityEngine::Rendering::UI::DebugUIHandlerVBox* New_ctor() ;
 
-  /// @brief Method Next, addr 0x66c3240, size 0xbc, virtual true, abstract: false, final false
-  inline ::UnityW<::UnityEngine::Rendering::UI::DebugUIHandlerWidget> Next();
+/// @brief Method Next, addr 0x66c4db8, size 0xbc, virtual true, abstract: false, final false
+inline ::UnityW<::UnityEngine::Rendering::UI::DebugUIHandlerWidget> Next() ;
 
-  /// @brief Method OnSelection, addr 0x66c3180, size 0xc0, virtual true, abstract: false, final false
-  inline bool OnSelection(bool fromNext, ::UnityEngine::Rendering::UI::DebugUIHandlerWidget* previous);
+/// @brief Method OnSelection, addr 0x66c4cf8, size 0xc0, virtual true, abstract: false, final false
+inline bool OnSelection(bool  fromNext, ::UnityEngine::Rendering::UI::DebugUIHandlerWidget*  previous) ;
 
-  /// @brief Method SetWidget, addr 0x66c311c, size 0x64, virtual true, abstract: false, final false
-  inline void SetWidget(::UnityEngine::Rendering::DebugUI_Widget* widget);
+/// @brief Method SetWidget, addr 0x66c4c94, size 0x64, virtual true, abstract: false, final false
+inline void SetWidget(::UnityEngine::Rendering::DebugUI_Widget*  widget) ;
 
-  constexpr ::UnityW<::UnityEngine::Rendering::UI::DebugUIHandlerContainer> const& __cordl_internal_get_m_Container() const;
+constexpr ::UnityW<::UnityEngine::Rendering::UI::DebugUIHandlerContainer> const& __cordl_internal_get_m_Container() const;
 
-  constexpr ::UnityW<::UnityEngine::Rendering::UI::DebugUIHandlerContainer>& __cordl_internal_get_m_Container();
+constexpr ::UnityW<::UnityEngine::Rendering::UI::DebugUIHandlerContainer>& __cordl_internal_get_m_Container() ;
 
-  constexpr void __cordl_internal_set_m_Container(::UnityW<::UnityEngine::Rendering::UI::DebugUIHandlerContainer> value);
+constexpr void __cordl_internal_set_m_Container(::UnityW<::UnityEngine::Rendering::UI::DebugUIHandlerContainer>  value) ;
 
-  /// @brief Method .ctor, addr 0x66c32fc, size 0x18, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x66c4e74, size 0x18, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DebugUIHandlerVBox();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr DebugUIHandlerVBox() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUIHandlerVBox", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  DebugUIHandlerVBox(DebugUIHandlerVBox&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUIHandlerVBox", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  DebugUIHandlerVBox(DebugUIHandlerVBox const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "DebugUIHandlerVBox", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+DebugUIHandlerVBox(DebugUIHandlerVBox && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12529 };
+// Ctor Parameters [CppParam { name: "", ty: "DebugUIHandlerVBox", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+DebugUIHandlerVBox(DebugUIHandlerVBox const& ) = delete;
 
-  /// @brief Field m_Container, offset: 0x60, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::Rendering::UI::DebugUIHandlerContainer> ___m_Container;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12530};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field m_Container, offset: 0x60, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::Rendering::UI::DebugUIHandlerContainer>  ___m_Container;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Rendering::UI::DebugUIHandlerVBox, ___m_Container) == 0x60, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::UI::DebugUIHandlerVBox, 0x68>, "Size mismatch!");
 
-} // namespace UnityEngine::Rendering::UI
+} // namespace end def UnityEngine::Rendering::UI
 NEED_NO_BOX(::UnityEngine::Rendering::UI::DebugUIHandlerVBox);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::UI::DebugUIHandlerVBox*, "UnityEngine.Rendering.UI", "DebugUIHandlerVBox");

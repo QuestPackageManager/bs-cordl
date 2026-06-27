@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "UnityEngine/TextCore/LowLevel/FontEngine.hpp"
 #include "UnityEngine/TextCore/LowLevel/FontEngineError.hpp"
@@ -22,5 +22,6 @@ module;
 #include "UnityEngine/TextCore/LowLevel/MarkToMarkAdjustmentRecord.hpp"
 #include "UnityEngine/TextCore/LowLevel/MultipleSubstitutionRecord.hpp"
 #ifdef __cpp_modules
-export module LowLevel;
-#endif
+                    export module LowLevel;
+                    #endif
+                

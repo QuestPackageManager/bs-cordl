@@ -20,70 +20,70 @@ namespace GlobalNamespace {
 // CS Name: LightmapDataSO
 class CORDL_TYPE LightmapDataSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
-  // Declarations
-  /// @brief Field _lightmap1, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__lightmap1, put = __cordl_internal_set__lightmap1)) ::UnityW<::UnityEngine::Texture2D> _lightmap1;
+// Declarations
+/// @brief Field _lightmap1, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get__lightmap1, put=__cordl_internal_set__lightmap1)) ::UnityW<::UnityEngine::Texture2D>  _lightmap1;
 
-  /// @brief Field _lightmap2, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__lightmap2, put = __cordl_internal_set__lightmap2)) ::UnityW<::UnityEngine::Texture2D> _lightmap2;
+/// @brief Field _lightmap2, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get__lightmap2, put=__cordl_internal_set__lightmap2)) ::UnityW<::UnityEngine::Texture2D>  _lightmap2;
 
-  __declspec(property(get = get_lightmap1, put = set_lightmap1)) ::UnityW<::UnityEngine::Texture2D> lightmap1;
+ __declspec(property(get=get_lightmap1, put=set_lightmap1)) ::UnityW<::UnityEngine::Texture2D>  lightmap1;
 
-  __declspec(property(get = get_lightmap2, put = set_lightmap2)) ::UnityW<::UnityEngine::Texture2D> lightmap2;
+ __declspec(property(get=get_lightmap2, put=set_lightmap2)) ::UnityW<::UnityEngine::Texture2D>  lightmap2;
 
-  static inline ::GlobalNamespace::LightmapDataSO* New_ctor();
+static inline ::GlobalNamespace::LightmapDataSO* New_ctor() ;
 
-  constexpr ::UnityW<::UnityEngine::Texture2D> const& __cordl_internal_get__lightmap1() const;
+constexpr ::UnityW<::UnityEngine::Texture2D> const& __cordl_internal_get__lightmap1() const;
 
-  constexpr ::UnityW<::UnityEngine::Texture2D>& __cordl_internal_get__lightmap1();
+constexpr ::UnityW<::UnityEngine::Texture2D>& __cordl_internal_get__lightmap1() ;
 
-  constexpr ::UnityW<::UnityEngine::Texture2D> const& __cordl_internal_get__lightmap2() const;
+constexpr ::UnityW<::UnityEngine::Texture2D> const& __cordl_internal_get__lightmap2() const;
 
-  constexpr ::UnityW<::UnityEngine::Texture2D>& __cordl_internal_get__lightmap2();
+constexpr ::UnityW<::UnityEngine::Texture2D>& __cordl_internal_get__lightmap2() ;
 
-  constexpr void __cordl_internal_set__lightmap1(::UnityW<::UnityEngine::Texture2D> value);
+constexpr void __cordl_internal_set__lightmap1(::UnityW<::UnityEngine::Texture2D>  value) ;
 
-  constexpr void __cordl_internal_set__lightmap2(::UnityW<::UnityEngine::Texture2D> value);
+constexpr void __cordl_internal_set__lightmap2(::UnityW<::UnityEngine::Texture2D>  value) ;
 
-  /// @brief Method .ctor, addr 0x57c25dc, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x57c3e44, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_lightmap1, addr 0x57c25bc, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::Texture2D> get_lightmap1();
+/// @brief Method get_lightmap1, addr 0x57c3e24, size 0x8, virtual false, abstract: false, final false
+inline ::UnityW<::UnityEngine::Texture2D> get_lightmap1() ;
 
-  /// @brief Method get_lightmap2, addr 0x57c25cc, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::Texture2D> get_lightmap2();
+/// @brief Method get_lightmap2, addr 0x57c3e34, size 0x8, virtual false, abstract: false, final false
+inline ::UnityW<::UnityEngine::Texture2D> get_lightmap2() ;
 
-  /// @brief Method set_lightmap1, addr 0x57c25c4, size 0x8, virtual false, abstract: false, final false
-  inline void set_lightmap1(::UnityEngine::Texture2D* value);
+/// @brief Method set_lightmap1, addr 0x57c3e2c, size 0x8, virtual false, abstract: false, final false
+inline void set_lightmap1(::UnityEngine::Texture2D*  value) ;
 
-  /// @brief Method set_lightmap2, addr 0x57c25d4, size 0x8, virtual false, abstract: false, final false
-  inline void set_lightmap2(::UnityEngine::Texture2D* value);
+/// @brief Method set_lightmap2, addr 0x57c3e3c, size 0x8, virtual false, abstract: false, final false
+inline void set_lightmap2(::UnityEngine::Texture2D*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LightmapDataSO();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr LightmapDataSO() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LightmapDataSO", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  LightmapDataSO(LightmapDataSO&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LightmapDataSO", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  LightmapDataSO(LightmapDataSO const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "LightmapDataSO", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+LightmapDataSO(LightmapDataSO && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6634 };
+// Ctor Parameters [CppParam { name: "", ty: "LightmapDataSO", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+LightmapDataSO(LightmapDataSO const& ) = delete;
 
-  /// @brief Field _lightmap1, offset: 0x18, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::Texture2D> ____lightmap1;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6634};
 
-  /// @brief Field _lightmap2, offset: 0x20, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::Texture2D> ____lightmap2;
+/// @brief Field _lightmap1, offset: 0x18, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::Texture2D>  ____lightmap1;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _lightmap2, offset: 0x20, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::Texture2D>  ____lightmap2;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::LightmapDataSO, ____lightmap1) == 0x18, "Offset mismatch!");
@@ -92,6 +92,6 @@ static_assert(offsetof(::GlobalNamespace::LightmapDataSO, ____lightmap2) == 0x20
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LightmapDataSO, 0x28>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::LightmapDataSO);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LightmapDataSO*, "", "LightmapDataSO");

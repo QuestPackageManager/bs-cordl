@@ -54,309 +54,309 @@ namespace UnityEngine::Rendering {
 // CS Name: UnityEngine.Rendering.RTHandle
 class CORDL_TYPE RTHandle : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field <referenceSize>k__BackingField, offset 0xac, size 0x8
-  __declspec(property(get = __cordl_internal_get__referenceSize_k__BackingField, put = __cordl_internal_set__referenceSize_k__BackingField)) ::UnityEngine::Vector2Int _referenceSize_k__BackingField;
+// Declarations
+/// @brief Field <referenceSize>k__BackingField, offset 0xac, size 0x8 
+ __declspec(property(get=__cordl_internal_get__referenceSize_k__BackingField, put=__cordl_internal_set__referenceSize_k__BackingField)) ::UnityEngine::Vector2Int  _referenceSize_k__BackingField;
 
-  /// @brief Field <scaleFactor>k__BackingField, offset 0x94, size 0x8
-  __declspec(property(get = __cordl_internal_get__scaleFactor_k__BackingField, put = __cordl_internal_set__scaleFactor_k__BackingField)) ::UnityEngine::Vector2 _scaleFactor_k__BackingField;
+/// @brief Field <scaleFactor>k__BackingField, offset 0x94, size 0x8 
+ __declspec(property(get=__cordl_internal_get__scaleFactor_k__BackingField, put=__cordl_internal_set__scaleFactor_k__BackingField)) ::UnityEngine::Vector2  _scaleFactor_k__BackingField;
 
-  /// @brief Field <useScaling>k__BackingField, offset 0xa8, size 0x1
-  __declspec(property(get = __cordl_internal_get__useScaling_k__BackingField, put = __cordl_internal_set__useScaling_k__BackingField)) bool _useScaling_k__BackingField;
+/// @brief Field <useScaling>k__BackingField, offset 0xa8, size 0x1 
+ __declspec(property(get=__cordl_internal_get__useScaling_k__BackingField, put=__cordl_internal_set__useScaling_k__BackingField)) bool  _useScaling_k__BackingField;
 
-  __declspec(property(get = get_externalTexture)) ::UnityW<::UnityEngine::Texture> externalTexture;
+ __declspec(property(get=get_externalTexture)) ::UnityW<::UnityEngine::Texture>  externalTexture;
 
-  __declspec(property(get = get_isMSAAEnabled)) bool isMSAAEnabled;
+ __declspec(property(get=get_isMSAAEnabled)) bool  isMSAAEnabled;
 
-  /// @brief Field m_CustomHandleProperties, offset 0x64, size 0x30
-  __declspec(property(get = __cordl_internal_get_m_CustomHandleProperties, put = __cordl_internal_set_m_CustomHandleProperties)) ::UnityEngine::Rendering::RTHandleProperties m_CustomHandleProperties;
+/// @brief Field m_CustomHandleProperties, offset 0x64, size 0x30 
+ __declspec(property(get=__cordl_internal_get_m_CustomHandleProperties, put=__cordl_internal_set_m_CustomHandleProperties)) ::UnityEngine::Rendering::RTHandleProperties  m_CustomHandleProperties;
 
-  /// @brief Field m_EnableHWDynamicScale, offset 0x52, size 0x1
-  __declspec(property(get = __cordl_internal_get_m_EnableHWDynamicScale, put = __cordl_internal_set_m_EnableHWDynamicScale)) bool m_EnableHWDynamicScale;
+/// @brief Field m_EnableHWDynamicScale, offset 0x52, size 0x1 
+ __declspec(property(get=__cordl_internal_get_m_EnableHWDynamicScale, put=__cordl_internal_set_m_EnableHWDynamicScale)) bool  m_EnableHWDynamicScale;
 
-  /// @brief Field m_EnableMSAA, offset 0x50, size 0x1
-  __declspec(property(get = __cordl_internal_get_m_EnableMSAA, put = __cordl_internal_set_m_EnableMSAA)) bool m_EnableMSAA;
+/// @brief Field m_EnableMSAA, offset 0x50, size 0x1 
+ __declspec(property(get=__cordl_internal_get_m_EnableMSAA, put=__cordl_internal_set_m_EnableMSAA)) bool  m_EnableMSAA;
 
-  /// @brief Field m_EnableRandomWrite, offset 0x51, size 0x1
-  __declspec(property(get = __cordl_internal_get_m_EnableRandomWrite, put = __cordl_internal_set_m_EnableRandomWrite)) bool m_EnableRandomWrite;
+/// @brief Field m_EnableRandomWrite, offset 0x51, size 0x1 
+ __declspec(property(get=__cordl_internal_get_m_EnableRandomWrite, put=__cordl_internal_set_m_EnableRandomWrite)) bool  m_EnableRandomWrite;
 
-  /// @brief Field m_ExternalTexture, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_ExternalTexture, put = __cordl_internal_set_m_ExternalTexture)) ::UnityW<::UnityEngine::Texture> m_ExternalTexture;
+/// @brief Field m_ExternalTexture, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_ExternalTexture, put=__cordl_internal_set_m_ExternalTexture)) ::UnityW<::UnityEngine::Texture>  m_ExternalTexture;
 
-  /// @brief Field m_Name, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Name, put = __cordl_internal_set_m_Name)) ::StringW m_Name;
+/// @brief Field m_Name, offset 0x58, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_Name, put=__cordl_internal_set_m_Name)) ::StringW  m_Name;
 
-  /// @brief Field m_NameID, offset 0x28, size 0x28
-  __declspec(property(get = __cordl_internal_get_m_NameID, put = __cordl_internal_set_m_NameID)) ::UnityEngine::Rendering::RenderTargetIdentifier m_NameID;
+/// @brief Field m_NameID, offset 0x28, size 0x28 
+ __declspec(property(get=__cordl_internal_get_m_NameID, put=__cordl_internal_set_m_NameID)) ::UnityEngine::Rendering::RenderTargetIdentifier  m_NameID;
 
-  /// @brief Field m_Owner, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Owner, put = __cordl_internal_set_m_Owner)) ::UnityEngine::Rendering::RTHandleSystem* m_Owner;
+/// @brief Field m_Owner, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_Owner, put=__cordl_internal_set_m_Owner)) ::UnityEngine::Rendering::RTHandleSystem*  m_Owner;
 
-  /// @brief Field m_RT, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_RT, put = __cordl_internal_set_m_RT)) ::UnityW<::UnityEngine::RenderTexture> m_RT;
+/// @brief Field m_RT, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_RT, put=__cordl_internal_set_m_RT)) ::UnityW<::UnityEngine::RenderTexture>  m_RT;
 
-  /// @brief Field m_RTHasOwnership, offset 0x53, size 0x1
-  __declspec(property(get = __cordl_internal_get_m_RTHasOwnership, put = __cordl_internal_set_m_RTHasOwnership)) bool m_RTHasOwnership;
+/// @brief Field m_RTHasOwnership, offset 0x53, size 0x1 
+ __declspec(property(get=__cordl_internal_get_m_RTHasOwnership, put=__cordl_internal_set_m_RTHasOwnership)) bool  m_RTHasOwnership;
 
-  /// @brief Field m_UseCustomHandleScales, offset 0x60, size 0x1
-  __declspec(property(get = __cordl_internal_get_m_UseCustomHandleScales, put = __cordl_internal_set_m_UseCustomHandleScales)) bool m_UseCustomHandleScales;
+/// @brief Field m_UseCustomHandleScales, offset 0x60, size 0x1 
+ __declspec(property(get=__cordl_internal_get_m_UseCustomHandleScales, put=__cordl_internal_set_m_UseCustomHandleScales)) bool  m_UseCustomHandleScales;
 
-  __declspec(property(get = get_name)) ::StringW name;
+ __declspec(property(get=get_name)) ::StringW  name;
 
-  __declspec(property(get = get_nameID)) ::UnityEngine::Rendering::RenderTargetIdentifier nameID;
+ __declspec(property(get=get_nameID)) ::UnityEngine::Rendering::RenderTargetIdentifier  nameID;
 
-  __declspec(property(get = get_referenceSize, put = set_referenceSize)) ::UnityEngine::Vector2Int referenceSize;
+ __declspec(property(get=get_referenceSize, put=set_referenceSize)) ::UnityEngine::Vector2Int  referenceSize;
 
-  __declspec(property(get = get_rt)) ::UnityW<::UnityEngine::RenderTexture> rt;
+ __declspec(property(get=get_rt)) ::UnityW<::UnityEngine::RenderTexture>  rt;
 
-  __declspec(property(get = get_rtHandleProperties)) ::UnityEngine::Rendering::RTHandleProperties rtHandleProperties;
+ __declspec(property(get=get_rtHandleProperties)) ::UnityEngine::Rendering::RTHandleProperties  rtHandleProperties;
 
-  __declspec(property(get = get_scaleFactor, put = set_scaleFactor)) ::UnityEngine::Vector2 scaleFactor;
+ __declspec(property(get=get_scaleFactor, put=set_scaleFactor)) ::UnityEngine::Vector2  scaleFactor;
 
-  /// @brief Field scaleFunc, offset 0xa0, size 0x8
-  __declspec(property(get = __cordl_internal_get_scaleFunc, put = __cordl_internal_set_scaleFunc)) ::UnityEngine::Rendering::ScaleFunc* scaleFunc;
+/// @brief Field scaleFunc, offset 0xa0, size 0x8 
+ __declspec(property(get=__cordl_internal_get_scaleFunc, put=__cordl_internal_set_scaleFunc)) ::UnityEngine::Rendering::ScaleFunc*  scaleFunc;
 
-  __declspec(property(get = get_useScaling, put = set_useScaling)) bool useScaling;
+ __declspec(property(get=get_useScaling, put=set_useScaling)) bool  useScaling;
 
-  /// @brief Method ClearCustomHandleProperties, addr 0x66665b8, size 0x8, virtual false, abstract: false, final false
-  inline void ClearCustomHandleProperties();
+/// @brief Method ClearCustomHandleProperties, addr 0x6668130, size 0x8, virtual false, abstract: false, final false
+inline void ClearCustomHandleProperties() ;
 
-  /// @brief Method CopyToFastMemory, addr 0x6666eb0, size 0x8, virtual false, abstract: false, final false
-  inline void CopyToFastMemory(::UnityEngine::Rendering::CommandBuffer* cmd, float_t residencyFraction, ::UnityEngine::Rendering::FastMemoryFlags flags);
+/// @brief Method CopyToFastMemory, addr 0x6668a28, size 0x8, virtual false, abstract: false, final false
+inline void CopyToFastMemory(::UnityEngine::Rendering::CommandBuffer*  cmd, float_t  residencyFraction, ::UnityEngine::Rendering::FastMemoryFlags  flags) ;
 
-  /// @brief Method GetInstanceID, addr 0x66667c8, size 0xcc, virtual false, abstract: false, final false
-  inline int32_t GetInstanceID();
+/// @brief Method GetInstanceID, addr 0x6668340, size 0xcc, virtual false, abstract: false, final false
+inline int32_t GetInstanceID() ;
 
-  /// @brief Method GetScaledSize, addr 0x6666c28, size 0x200, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector2Int GetScaledSize();
+/// @brief Method GetScaledSize, addr 0x66687a0, size 0x200, virtual false, abstract: false, final false
+inline ::UnityEngine::Vector2Int GetScaledSize() ;
 
-  /// @brief Method GetScaledSize, addr 0x6666a28, size 0x200, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector2Int GetScaledSize(::UnityEngine::Vector2Int refSize);
+/// @brief Method GetScaledSize, addr 0x66685a0, size 0x200, virtual false, abstract: false, final false
+inline ::UnityEngine::Vector2Int GetScaledSize(::UnityEngine::Vector2Int  refSize) ;
 
-  static inline ::UnityEngine::Rendering::RTHandle* New_ctor(::UnityEngine::Rendering::RTHandleSystem* owner);
+static inline ::UnityEngine::Rendering::RTHandle* New_ctor(::UnityEngine::Rendering::RTHandleSystem*  owner) ;
 
-  /// @brief Method Release, addr 0x6666894, size 0xa4, virtual false, abstract: false, final false
-  inline void Release();
+/// @brief Method Release, addr 0x666840c, size 0xa4, virtual false, abstract: false, final false
+inline void Release() ;
 
-  /// @brief Method SetCustomHandleProperties, addr 0x6666598, size 0x20, virtual false, abstract: false, final false
-  inline void SetCustomHandleProperties(::ByRef<::UnityEngine::Rendering::RTHandleProperties> properties);
+/// @brief Method SetCustomHandleProperties, addr 0x6668110, size 0x20, virtual false, abstract: false, final false
+inline void SetCustomHandleProperties(::ByRef<::UnityEngine::Rendering::RTHandleProperties>  properties) ;
 
-  /// @brief Method SetRenderTexture, addr 0x6666734, size 0x4c, virtual false, abstract: false, final false
-  inline void SetRenderTexture(::UnityEngine::RenderTexture* rt, bool transferOwnership);
+/// @brief Method SetRenderTexture, addr 0x66682ac, size 0x4c, virtual false, abstract: false, final false
+inline void SetRenderTexture(::UnityEngine::RenderTexture*  rt, bool  transferOwnership) ;
 
-  /// @brief Method SetTexture, addr 0x666654c, size 0x1c, virtual false, abstract: false, final false
-  inline void SetTexture(::UnityEngine::Rendering::RenderTargetIdentifier tex);
+/// @brief Method SetTexture, addr 0x66680c4, size 0x1c, virtual false, abstract: false, final false
+inline void SetTexture(::UnityEngine::Rendering::RenderTargetIdentifier  tex) ;
 
-  /// @brief Method SetTexture, addr 0x6666780, size 0x48, virtual false, abstract: false, final false
-  inline void SetTexture(::UnityEngine::Texture* tex);
+/// @brief Method SetTexture, addr 0x66682f8, size 0x48, virtual false, abstract: false, final false
+inline void SetTexture(::UnityEngine::Texture*  tex) ;
 
-  /// @brief Method SwitchOutFastMemory, addr 0x6666eb8, size 0x5c, virtual false, abstract: false, final false
-  inline void SwitchOutFastMemory(::UnityEngine::Rendering::CommandBuffer* cmd, bool copyContents);
+/// @brief Method SwitchOutFastMemory, addr 0x6668a30, size 0x5c, virtual false, abstract: false, final false
+inline void SwitchOutFastMemory(::UnityEngine::Rendering::CommandBuffer*  cmd, bool  copyContents) ;
 
-  /// @brief Method SwitchToFastMemory, addr 0x6666e28, size 0x88, virtual false, abstract: false, final false
-  inline void SwitchToFastMemory(::UnityEngine::Rendering::CommandBuffer* cmd, float_t residencyFraction, ::UnityEngine::Rendering::FastMemoryFlags flags, bool copyContents);
+/// @brief Method SwitchToFastMemory, addr 0x66689a0, size 0x88, virtual false, abstract: false, final false
+inline void SwitchToFastMemory(::UnityEngine::Rendering::CommandBuffer*  cmd, float_t  residencyFraction, ::UnityEngine::Rendering::FastMemoryFlags  flags, bool  copyContents) ;
 
-  constexpr ::UnityEngine::Vector2Int const& __cordl_internal_get__referenceSize_k__BackingField() const;
+constexpr ::UnityEngine::Vector2Int const& __cordl_internal_get__referenceSize_k__BackingField() const;
 
-  constexpr ::UnityEngine::Vector2Int& __cordl_internal_get__referenceSize_k__BackingField();
+constexpr ::UnityEngine::Vector2Int& __cordl_internal_get__referenceSize_k__BackingField() ;
 
-  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get__scaleFactor_k__BackingField() const;
+constexpr ::UnityEngine::Vector2 const& __cordl_internal_get__scaleFactor_k__BackingField() const;
 
-  constexpr ::UnityEngine::Vector2& __cordl_internal_get__scaleFactor_k__BackingField();
+constexpr ::UnityEngine::Vector2& __cordl_internal_get__scaleFactor_k__BackingField() ;
 
-  constexpr bool const& __cordl_internal_get__useScaling_k__BackingField() const;
+constexpr bool const& __cordl_internal_get__useScaling_k__BackingField() const;
 
-  constexpr bool& __cordl_internal_get__useScaling_k__BackingField();
+constexpr bool& __cordl_internal_get__useScaling_k__BackingField() ;
 
-  constexpr ::UnityEngine::Rendering::RTHandleProperties const& __cordl_internal_get_m_CustomHandleProperties() const;
+constexpr ::UnityEngine::Rendering::RTHandleProperties const& __cordl_internal_get_m_CustomHandleProperties() const;
 
-  constexpr ::UnityEngine::Rendering::RTHandleProperties& __cordl_internal_get_m_CustomHandleProperties();
+constexpr ::UnityEngine::Rendering::RTHandleProperties& __cordl_internal_get_m_CustomHandleProperties() ;
 
-  constexpr bool const& __cordl_internal_get_m_EnableHWDynamicScale() const;
+constexpr bool const& __cordl_internal_get_m_EnableHWDynamicScale() const;
 
-  constexpr bool& __cordl_internal_get_m_EnableHWDynamicScale();
+constexpr bool& __cordl_internal_get_m_EnableHWDynamicScale() ;
 
-  constexpr bool const& __cordl_internal_get_m_EnableMSAA() const;
+constexpr bool const& __cordl_internal_get_m_EnableMSAA() const;
 
-  constexpr bool& __cordl_internal_get_m_EnableMSAA();
+constexpr bool& __cordl_internal_get_m_EnableMSAA() ;
 
-  constexpr bool const& __cordl_internal_get_m_EnableRandomWrite() const;
+constexpr bool const& __cordl_internal_get_m_EnableRandomWrite() const;
 
-  constexpr bool& __cordl_internal_get_m_EnableRandomWrite();
+constexpr bool& __cordl_internal_get_m_EnableRandomWrite() ;
 
-  constexpr ::UnityW<::UnityEngine::Texture> const& __cordl_internal_get_m_ExternalTexture() const;
+constexpr ::UnityW<::UnityEngine::Texture> const& __cordl_internal_get_m_ExternalTexture() const;
 
-  constexpr ::UnityW<::UnityEngine::Texture>& __cordl_internal_get_m_ExternalTexture();
+constexpr ::UnityW<::UnityEngine::Texture>& __cordl_internal_get_m_ExternalTexture() ;
 
-  constexpr ::StringW const& __cordl_internal_get_m_Name() const;
+constexpr ::StringW const& __cordl_internal_get_m_Name() const;
 
-  constexpr ::StringW& __cordl_internal_get_m_Name();
+constexpr ::StringW& __cordl_internal_get_m_Name() ;
 
-  constexpr ::UnityEngine::Rendering::RenderTargetIdentifier const& __cordl_internal_get_m_NameID() const;
+constexpr ::UnityEngine::Rendering::RenderTargetIdentifier const& __cordl_internal_get_m_NameID() const;
 
-  constexpr ::UnityEngine::Rendering::RenderTargetIdentifier& __cordl_internal_get_m_NameID();
+constexpr ::UnityEngine::Rendering::RenderTargetIdentifier& __cordl_internal_get_m_NameID() ;
 
-  constexpr ::UnityEngine::Rendering::RTHandleSystem* const& __cordl_internal_get_m_Owner() const;
+constexpr ::UnityEngine::Rendering::RTHandleSystem* const& __cordl_internal_get_m_Owner() const;
 
-  constexpr ::UnityEngine::Rendering::RTHandleSystem*& __cordl_internal_get_m_Owner();
+constexpr ::UnityEngine::Rendering::RTHandleSystem*& __cordl_internal_get_m_Owner() ;
 
-  constexpr ::UnityW<::UnityEngine::RenderTexture> const& __cordl_internal_get_m_RT() const;
+constexpr ::UnityW<::UnityEngine::RenderTexture> const& __cordl_internal_get_m_RT() const;
 
-  constexpr ::UnityW<::UnityEngine::RenderTexture>& __cordl_internal_get_m_RT();
+constexpr ::UnityW<::UnityEngine::RenderTexture>& __cordl_internal_get_m_RT() ;
 
-  constexpr bool const& __cordl_internal_get_m_RTHasOwnership() const;
+constexpr bool const& __cordl_internal_get_m_RTHasOwnership() const;
 
-  constexpr bool& __cordl_internal_get_m_RTHasOwnership();
+constexpr bool& __cordl_internal_get_m_RTHasOwnership() ;
 
-  constexpr bool const& __cordl_internal_get_m_UseCustomHandleScales() const;
+constexpr bool const& __cordl_internal_get_m_UseCustomHandleScales() const;
 
-  constexpr bool& __cordl_internal_get_m_UseCustomHandleScales();
+constexpr bool& __cordl_internal_get_m_UseCustomHandleScales() ;
 
-  constexpr ::UnityEngine::Rendering::ScaleFunc* const& __cordl_internal_get_scaleFunc() const;
+constexpr ::UnityEngine::Rendering::ScaleFunc* const& __cordl_internal_get_scaleFunc() const;
 
-  constexpr ::UnityEngine::Rendering::ScaleFunc*& __cordl_internal_get_scaleFunc();
+constexpr ::UnityEngine::Rendering::ScaleFunc*& __cordl_internal_get_scaleFunc() ;
 
-  constexpr void __cordl_internal_set__referenceSize_k__BackingField(::UnityEngine::Vector2Int value);
+constexpr void __cordl_internal_set__referenceSize_k__BackingField(::UnityEngine::Vector2Int  value) ;
 
-  constexpr void __cordl_internal_set__scaleFactor_k__BackingField(::UnityEngine::Vector2 value);
+constexpr void __cordl_internal_set__scaleFactor_k__BackingField(::UnityEngine::Vector2  value) ;
 
-  constexpr void __cordl_internal_set__useScaling_k__BackingField(bool value);
+constexpr void __cordl_internal_set__useScaling_k__BackingField(bool  value) ;
 
-  constexpr void __cordl_internal_set_m_CustomHandleProperties(::UnityEngine::Rendering::RTHandleProperties value);
+constexpr void __cordl_internal_set_m_CustomHandleProperties(::UnityEngine::Rendering::RTHandleProperties  value) ;
 
-  constexpr void __cordl_internal_set_m_EnableHWDynamicScale(bool value);
+constexpr void __cordl_internal_set_m_EnableHWDynamicScale(bool  value) ;
 
-  constexpr void __cordl_internal_set_m_EnableMSAA(bool value);
+constexpr void __cordl_internal_set_m_EnableMSAA(bool  value) ;
 
-  constexpr void __cordl_internal_set_m_EnableRandomWrite(bool value);
+constexpr void __cordl_internal_set_m_EnableRandomWrite(bool  value) ;
 
-  constexpr void __cordl_internal_set_m_ExternalTexture(::UnityW<::UnityEngine::Texture> value);
+constexpr void __cordl_internal_set_m_ExternalTexture(::UnityW<::UnityEngine::Texture>  value) ;
 
-  constexpr void __cordl_internal_set_m_Name(::StringW value);
+constexpr void __cordl_internal_set_m_Name(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_m_NameID(::UnityEngine::Rendering::RenderTargetIdentifier value);
+constexpr void __cordl_internal_set_m_NameID(::UnityEngine::Rendering::RenderTargetIdentifier  value) ;
 
-  constexpr void __cordl_internal_set_m_Owner(::UnityEngine::Rendering::RTHandleSystem* value);
+constexpr void __cordl_internal_set_m_Owner(::UnityEngine::Rendering::RTHandleSystem*  value) ;
 
-  constexpr void __cordl_internal_set_m_RT(::UnityW<::UnityEngine::RenderTexture> value);
+constexpr void __cordl_internal_set_m_RT(::UnityW<::UnityEngine::RenderTexture>  value) ;
 
-  constexpr void __cordl_internal_set_m_RTHasOwnership(bool value);
+constexpr void __cordl_internal_set_m_RTHasOwnership(bool  value) ;
 
-  constexpr void __cordl_internal_set_m_UseCustomHandleScales(bool value);
+constexpr void __cordl_internal_set_m_UseCustomHandleScales(bool  value) ;
 
-  constexpr void __cordl_internal_set_scaleFunc(::UnityEngine::Rendering::ScaleFunc* value);
+constexpr void __cordl_internal_set_scaleFunc(::UnityEngine::Rendering::ScaleFunc*  value) ;
 
-  /// @brief Method .ctor, addr 0x6666664, size 0x10, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::Rendering::RTHandleSystem* owner);
+/// @brief Method .ctor, addr 0x66681dc, size 0x10, virtual false, abstract: false, final false
+inline void _ctor(::UnityEngine::Rendering::RTHandleSystem*  owner) ;
 
-  /// @brief Method get_externalTexture, addr 0x6666634, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::Texture> get_externalTexture();
+/// @brief Method get_externalTexture, addr 0x66681ac, size 0x8, virtual false, abstract: false, final false
+inline ::UnityW<::UnityEngine::Texture> get_externalTexture() ;
 
-  /// @brief Method get_isMSAAEnabled, addr 0x666665c, size 0x8, virtual false, abstract: false, final false
-  inline bool get_isMSAAEnabled();
+/// @brief Method get_isMSAAEnabled, addr 0x66681d4, size 0x8, virtual false, abstract: false, final false
+inline bool get_isMSAAEnabled() ;
 
-  /// @brief Method get_name, addr 0x6666654, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_name();
+/// @brief Method get_name, addr 0x66681cc, size 0x8, virtual false, abstract: false, final false
+inline ::StringW get_name() ;
 
-  /// @brief Method get_nameID, addr 0x666663c, size 0x18, virtual false, abstract: false, final false
-  inline ::UnityEngine::Rendering::RenderTargetIdentifier get_nameID();
+/// @brief Method get_nameID, addr 0x66681b4, size 0x18, virtual false, abstract: false, final false
+inline ::UnityEngine::Rendering::RenderTargetIdentifier get_nameID() ;
 
-  /// @brief Method get_referenceSize, addr 0x66665e0, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector2Int get_referenceSize();
+/// @brief Method get_referenceSize, addr 0x6668158, size 0x8, virtual false, abstract: false, final false
+inline ::UnityEngine::Vector2Int get_referenceSize() ;
 
-  /// @brief Method get_rt, addr 0x666662c, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::RenderTexture> get_rt();
+/// @brief Method get_rt, addr 0x66681a4, size 0x8, virtual false, abstract: false, final false
+inline ::UnityW<::UnityEngine::RenderTexture> get_rt() ;
 
-  /// @brief Method get_rtHandleProperties, addr 0x66665f0, size 0x3c, virtual false, abstract: false, final false
-  inline ::UnityEngine::Rendering::RTHandleProperties get_rtHandleProperties();
+/// @brief Method get_rtHandleProperties, addr 0x6668168, size 0x3c, virtual false, abstract: false, final false
+inline ::UnityEngine::Rendering::RTHandleProperties get_rtHandleProperties() ;
 
-  /// @brief Method get_scaleFactor, addr 0x66665c0, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector2 get_scaleFactor();
+/// @brief Method get_scaleFactor, addr 0x6668138, size 0x8, virtual false, abstract: false, final false
+inline ::UnityEngine::Vector2 get_scaleFactor() ;
 
-  /// @brief Method get_useScaling, addr 0x66665d0, size 0x8, virtual false, abstract: false, final false
-  inline bool get_useScaling();
+/// @brief Method get_useScaling, addr 0x6668148, size 0x8, virtual false, abstract: false, final false
+inline bool get_useScaling() ;
 
-  /// @brief Method op_Implicit, addr 0x6666674, size 0x2c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Rendering::RenderTargetIdentifier op_Implicit___UnityEngine__Rendering__RenderTargetIdentifier(::UnityEngine::Rendering::RTHandle* handle);
+/// @brief Method op_Implicit, addr 0x66681ec, size 0x2c, virtual false, abstract: false, final false
+static inline ::UnityEngine::Rendering::RenderTargetIdentifier op_Implicit___UnityEngine__Rendering__RenderTargetIdentifier(::UnityEngine::Rendering::RTHandle*  handle) ;
 
-  /// @brief Method op_Implicit, addr 0x6666728, size 0xc, virtual false, abstract: false, final false
-  static inline ::UnityW<::UnityEngine::RenderTexture> op_Implicit___UnityW___UnityEngine__RenderTexture_(::UnityEngine::Rendering::RTHandle* handle);
+/// @brief Method op_Implicit, addr 0x66682a0, size 0xc, virtual false, abstract: false, final false
+static inline ::UnityW<::UnityEngine::RenderTexture> op_Implicit___UnityW___UnityEngine__RenderTexture_(::UnityEngine::Rendering::RTHandle*  handle) ;
 
-  /// @brief Method op_Implicit, addr 0x66666a0, size 0x88, virtual false, abstract: false, final false
-  static inline ::UnityW<::UnityEngine::Texture> op_Implicit___UnityW___UnityEngine__Texture_(::UnityEngine::Rendering::RTHandle* handle);
+/// @brief Method op_Implicit, addr 0x6668218, size 0x88, virtual false, abstract: false, final false
+static inline ::UnityW<::UnityEngine::Texture> op_Implicit___UnityW___UnityEngine__Texture_(::UnityEngine::Rendering::RTHandle*  handle) ;
 
-  /// @brief Method set_referenceSize, addr 0x66665e8, size 0x8, virtual false, abstract: false, final false
-  inline void set_referenceSize(::UnityEngine::Vector2Int value);
+/// @brief Method set_referenceSize, addr 0x6668160, size 0x8, virtual false, abstract: false, final false
+inline void set_referenceSize(::UnityEngine::Vector2Int  value) ;
 
-  /// @brief Method set_scaleFactor, addr 0x66665c8, size 0x8, virtual false, abstract: false, final false
-  inline void set_scaleFactor(::UnityEngine::Vector2 value);
+/// @brief Method set_scaleFactor, addr 0x6668140, size 0x8, virtual false, abstract: false, final false
+inline void set_scaleFactor(::UnityEngine::Vector2  value) ;
 
-  /// @brief Method set_useScaling, addr 0x66665d8, size 0x8, virtual false, abstract: false, final false
-  inline void set_useScaling(bool value);
+/// @brief Method set_useScaling, addr 0x6668150, size 0x8, virtual false, abstract: false, final false
+inline void set_useScaling(bool  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RTHandle();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr RTHandle() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RTHandle", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  RTHandle(RTHandle&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RTHandle", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  RTHandle(RTHandle const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "RTHandle", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+RTHandle(RTHandle && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12227 };
+// Ctor Parameters [CppParam { name: "", ty: "RTHandle", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+RTHandle(RTHandle const& ) = delete;
 
-  /// @brief Field m_Owner, offset: 0x10, size: 0x8, def value: None
-  ::UnityEngine::Rendering::RTHandleSystem* ___m_Owner;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12228};
 
-  /// @brief Field m_RT, offset: 0x18, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::RenderTexture> ___m_RT;
+/// @brief Field m_Owner, offset: 0x10, size: 0x8, def value: None
+ ::UnityEngine::Rendering::RTHandleSystem*  ___m_Owner;
 
-  /// @brief Field m_ExternalTexture, offset: 0x20, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::Texture> ___m_ExternalTexture;
+/// @brief Field m_RT, offset: 0x18, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::RenderTexture>  ___m_RT;
 
-  /// @brief Field m_NameID, offset: 0x28, size: 0x28, def value: None
-  ::UnityEngine::Rendering::RenderTargetIdentifier ___m_NameID;
+/// @brief Field m_ExternalTexture, offset: 0x20, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::Texture>  ___m_ExternalTexture;
 
-  /// @brief Field m_EnableMSAA, offset: 0x50, size: 0x1, def value: None
-  bool ___m_EnableMSAA;
+/// @brief Field m_NameID, offset: 0x28, size: 0x28, def value: None
+ ::UnityEngine::Rendering::RenderTargetIdentifier  ___m_NameID;
 
-  /// @brief Field m_EnableRandomWrite, offset: 0x51, size: 0x1, def value: None
-  bool ___m_EnableRandomWrite;
+/// @brief Field m_EnableMSAA, offset: 0x50, size: 0x1, def value: None
+ bool  ___m_EnableMSAA;
 
-  /// @brief Field m_EnableHWDynamicScale, offset: 0x52, size: 0x1, def value: None
-  bool ___m_EnableHWDynamicScale;
+/// @brief Field m_EnableRandomWrite, offset: 0x51, size: 0x1, def value: None
+ bool  ___m_EnableRandomWrite;
 
-  /// @brief Field m_RTHasOwnership, offset: 0x53, size: 0x1, def value: None
-  bool ___m_RTHasOwnership;
+/// @brief Field m_EnableHWDynamicScale, offset: 0x52, size: 0x1, def value: None
+ bool  ___m_EnableHWDynamicScale;
 
-  /// @brief Field m_Name, offset: 0x58, size: 0x8, def value: None
-  ::StringW ___m_Name;
+/// @brief Field m_RTHasOwnership, offset: 0x53, size: 0x1, def value: None
+ bool  ___m_RTHasOwnership;
 
-  /// @brief Field m_UseCustomHandleScales, offset: 0x60, size: 0x1, def value: None
-  bool ___m_UseCustomHandleScales;
+/// @brief Field m_Name, offset: 0x58, size: 0x8, def value: None
+ ::StringW  ___m_Name;
 
-  /// @brief Field m_CustomHandleProperties, offset: 0x64, size: 0x30, def value: None
-  ::UnityEngine::Rendering::RTHandleProperties ___m_CustomHandleProperties;
+/// @brief Field m_UseCustomHandleScales, offset: 0x60, size: 0x1, def value: None
+ bool  ___m_UseCustomHandleScales;
 
-  /// @brief Field <scaleFactor>k__BackingField, offset: 0x94, size: 0x8, def value: None
-  ::UnityEngine::Vector2 ____scaleFactor_k__BackingField;
+/// @brief Field m_CustomHandleProperties, offset: 0x64, size: 0x30, def value: None
+ ::UnityEngine::Rendering::RTHandleProperties  ___m_CustomHandleProperties;
 
-  /// @brief Field scaleFunc, offset: 0xa0, size: 0x8, def value: None
-  ::UnityEngine::Rendering::ScaleFunc* ___scaleFunc;
+/// @brief Field <scaleFactor>k__BackingField, offset: 0x94, size: 0x8, def value: None
+ ::UnityEngine::Vector2  ____scaleFactor_k__BackingField;
 
-  /// @brief Field <useScaling>k__BackingField, offset: 0xa8, size: 0x1, def value: None
-  bool ____useScaling_k__BackingField;
+/// @brief Field scaleFunc, offset: 0xa0, size: 0x8, def value: None
+ ::UnityEngine::Rendering::ScaleFunc*  ___scaleFunc;
 
-  /// @brief Field <referenceSize>k__BackingField, offset: 0xac, size: 0x8, def value: None
-  ::UnityEngine::Vector2Int ____referenceSize_k__BackingField;
+/// @brief Field <useScaling>k__BackingField, offset: 0xa8, size: 0x1, def value: None
+ bool  ____useScaling_k__BackingField;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field <referenceSize>k__BackingField, offset: 0xac, size: 0x8, def value: None
+ ::UnityEngine::Vector2Int  ____referenceSize_k__BackingField;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Rendering::RTHandle, ___m_Owner) == 0x10, "Offset mismatch!");
@@ -391,6 +391,6 @@ static_assert(offsetof(::UnityEngine::Rendering::RTHandle, ____referenceSize_k__
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::RTHandle, 0xb8>, "Size mismatch!");
 
-} // namespace UnityEngine::Rendering
+} // namespace end def UnityEngine::Rendering
 NEED_NO_BOX(::UnityEngine::Rendering::RTHandle);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::RTHandle*, "UnityEngine.Rendering", "RTHandle");

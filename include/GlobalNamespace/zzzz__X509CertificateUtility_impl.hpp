@@ -16,627 +16,696 @@
 #include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::X509CertificateUtility_PasswordFinder._ctor
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::X509CertificateUtility_PasswordFinder::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
-    &::GlobalNamespace::X509CertificateUtility_PasswordFinder::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::X509CertificateUtility_PasswordFinder::*)(::ArrayW<uint8_t,::Array<uint8_t>*>)>(&::GlobalNamespace::X509CertificateUtility_PasswordFinder::_ctor)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3283274;
+  constexpr static std::size_t addrs = 0x3284010;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::X509CertificateUtility_PasswordFinder*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::X509CertificateUtility_PasswordFinder*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t,::Array<uint8_t>*>>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::X509CertificateUtility_PasswordFinder._ctor
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::X509CertificateUtility_PasswordFinder::*)(::StringW)>(
-    &::GlobalNamespace::X509CertificateUtility_PasswordFinder::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::X509CertificateUtility_PasswordFinder::*)(::StringW)>(&::GlobalNamespace::X509CertificateUtility_PasswordFinder::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3282e48;
+  constexpr static std::size_t addrs = 0x3283be4;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::X509CertificateUtility_PasswordFinder*>::get(), ".ctor",
-                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::X509CertificateUtility_PasswordFinder*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::X509CertificateUtility_PasswordFinder.GetPassword
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<char16_t, ::Array<char16_t>*> (::GlobalNamespace::X509CertificateUtility_PasswordFinder::*)()>(
-    &::GlobalNamespace::X509CertificateUtility_PasswordFinder::GetPassword)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<char16_t,::Array<char16_t>*> (::GlobalNamespace::X509CertificateUtility_PasswordFinder::*)()>(&::GlobalNamespace::X509CertificateUtility_PasswordFinder::GetPassword)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3283324;
+  constexpr static std::size_t addrs = 0x32840c0;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::X509CertificateUtility_PasswordFinder*>::get(),
-                                                                               "GetPassword", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::X509CertificateUtility_PasswordFinder*>::get(),
+                        "GetPassword",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
-constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& GlobalNamespace::X509CertificateUtility_PasswordFinder::__cordl_internal_get__password() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____password;
+constexpr ::ArrayW<char16_t,::Array<char16_t>*>& GlobalNamespace::X509CertificateUtility_PasswordFinder::__cordl_internal_get__password()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____password;
 }
-constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& GlobalNamespace::X509CertificateUtility_PasswordFinder::__cordl_internal_get__password() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____password;
+constexpr ::ArrayW<char16_t,::Array<char16_t>*> const& GlobalNamespace::X509CertificateUtility_PasswordFinder::__cordl_internal_get__password() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____password;
 }
-constexpr void GlobalNamespace::X509CertificateUtility_PasswordFinder::__cordl_internal_set__password(::ArrayW<char16_t, ::Array<char16_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____password)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::X509CertificateUtility_PasswordFinder::__cordl_internal_set__password(::ArrayW<char16_t,::Array<char16_t>*>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____password)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void GlobalNamespace::X509CertificateUtility_PasswordFinder::_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> password) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::X509CertificateUtility_PasswordFinder*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, password);
+inline void GlobalNamespace::X509CertificateUtility_PasswordFinder::_ctor(::ArrayW<uint8_t,::Array<uint8_t>*>  password)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::X509CertificateUtility_PasswordFinder*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t,::Array<uint8_t>*>>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, password);
 }
-inline void GlobalNamespace::X509CertificateUtility_PasswordFinder::_ctor(::StringW password) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::X509CertificateUtility_PasswordFinder*>::get(), ".ctor",
-                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, password);
+inline void GlobalNamespace::X509CertificateUtility_PasswordFinder::_ctor(::StringW  password)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::X509CertificateUtility_PasswordFinder*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, password);
 }
-inline ::ArrayW<char16_t, ::Array<char16_t>*> GlobalNamespace::X509CertificateUtility_PasswordFinder::GetPassword() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::X509CertificateUtility_PasswordFinder*>::get(),
-                                                                             "GetPassword", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::ArrayW<char16_t, ::Array<char16_t>*>, false>(this, ___internal_method);
+inline ::ArrayW<char16_t,::Array<char16_t>*> GlobalNamespace::X509CertificateUtility_PasswordFinder::GetPassword()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::X509CertificateUtility_PasswordFinder*>::get(),
+                        "GetPassword",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<::ArrayW<char16_t,::Array<char16_t>*>, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::X509CertificateUtility_PasswordFinder* GlobalNamespace::X509CertificateUtility_PasswordFinder::New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> password) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::X509CertificateUtility_PasswordFinder*>(password));
+inline ::GlobalNamespace::X509CertificateUtility_PasswordFinder* GlobalNamespace::X509CertificateUtility_PasswordFinder::New_ctor(::ArrayW<uint8_t,::Array<uint8_t>*>  password)  {
+return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::X509CertificateUtility_PasswordFinder*>(password));
 }
-inline ::GlobalNamespace::X509CertificateUtility_PasswordFinder* GlobalNamespace::X509CertificateUtility_PasswordFinder::New_ctor(::StringW password) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::X509CertificateUtility_PasswordFinder*>(password));
+inline ::GlobalNamespace::X509CertificateUtility_PasswordFinder* GlobalNamespace::X509CertificateUtility_PasswordFinder::New_ctor(::StringW  password)  {
+return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::X509CertificateUtility_PasswordFinder*>(password));
 }
 /// @brief Convert operator to "::Org::BouncyCastle::OpenSsl::IPasswordFinder"
-constexpr GlobalNamespace::X509CertificateUtility_PasswordFinder::operator ::Org::BouncyCastle::OpenSsl::IPasswordFinder*() noexcept {
-  return static_cast<::Org::BouncyCastle::OpenSsl::IPasswordFinder*>(static_cast<void*>(this));
+constexpr  GlobalNamespace::X509CertificateUtility_PasswordFinder::operator ::Org::BouncyCastle::OpenSsl::IPasswordFinder*() noexcept {
+return static_cast<::Org::BouncyCastle::OpenSsl::IPasswordFinder*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::Org::BouncyCastle::OpenSsl::IPasswordFinder"
 constexpr ::Org::BouncyCastle::OpenSsl::IPasswordFinder* GlobalNamespace::X509CertificateUtility_PasswordFinder::i___Org__BouncyCastle__OpenSsl__IPasswordFinder() noexcept {
-  return static_cast<::Org::BouncyCastle::OpenSsl::IPasswordFinder*>(static_cast<void*>(this));
+return static_cast<::Org::BouncyCastle::OpenSsl::IPasswordFinder*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::X509CertificateUtility_PasswordFinder::X509CertificateUtility_PasswordFinder() {}
+constexpr ::GlobalNamespace::X509CertificateUtility_PasswordFinder::X509CertificateUtility_PasswordFinder()   {
+}
 //  Writing Method size for method: ::GlobalNamespace::X509CertificateUtility_RSACertificateEncryptionProvider._ctor
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::X509CertificateUtility_RSACertificateEncryptionProvider::*)(
-    ::Org::BouncyCastle::Crypto::Parameters::RsaPrivateCrtKeyParameters*)>(&::GlobalNamespace::X509CertificateUtility_RSACertificateEncryptionProvider::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::X509CertificateUtility_RSACertificateEncryptionProvider::*)(::Org::BouncyCastle::Crypto::Parameters::RsaPrivateCrtKeyParameters*)>(&::GlobalNamespace::X509CertificateUtility_RSACertificateEncryptionProvider::_ctor)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x3283064;
+  constexpr static std::size_t addrs = 0x3283e00;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::X509CertificateUtility_RSACertificateEncryptionProvider*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Crypto::Parameters::RsaPrivateCrtKeyParameters*>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::X509CertificateUtility_RSACertificateEncryptionProvider*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Crypto::Parameters::RsaPrivateCrtKeyParameters*>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::X509CertificateUtility_RSACertificateEncryptionProvider.Dispose
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::X509CertificateUtility_RSACertificateEncryptionProvider::*)()>(
-    &::GlobalNamespace::X509CertificateUtility_RSACertificateEncryptionProvider::Dispose)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::X509CertificateUtility_RSACertificateEncryptionProvider::*)()>(&::GlobalNamespace::X509CertificateUtility_RSACertificateEncryptionProvider::Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x328332c;
+  constexpr static std::size_t addrs = 0x32840c8;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::X509CertificateUtility_RSACertificateEncryptionProvider*>::get(), "Dispose",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::X509CertificateUtility_RSACertificateEncryptionProvider*>::get(),
+                        "Dispose",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::X509CertificateUtility_RSACertificateEncryptionProvider.SignData
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::GlobalNamespace::X509CertificateUtility_RSACertificateEncryptionProvider::*)(
-    ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(&::GlobalNamespace::X509CertificateUtility_RSACertificateEncryptionProvider::SignData)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t,::Array<uint8_t>*> (::GlobalNamespace::X509CertificateUtility_RSACertificateEncryptionProvider::*)(::ArrayW<uint8_t,::Array<uint8_t>*>, int32_t, int32_t)>(&::GlobalNamespace::X509CertificateUtility_RSACertificateEncryptionProvider::SignData)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x3283330;
+  constexpr static std::size_t addrs = 0x32840cc;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::X509CertificateUtility_RSACertificateEncryptionProvider*>::get(), "SignData",
-        std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::X509CertificateUtility_RSACertificateEncryptionProvider*>::get(),
+                        "SignData",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t,::Array<uint8_t>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                    )));
     return ___internal_method;
   }
 };
-constexpr ::Org::BouncyCastle::Crypto::ISigner*& GlobalNamespace::X509CertificateUtility_RSACertificateEncryptionProvider::__cordl_internal_get__signer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____signer;
+constexpr ::Org::BouncyCastle::Crypto::ISigner*& GlobalNamespace::X509CertificateUtility_RSACertificateEncryptionProvider::__cordl_internal_get__signer()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____signer;
 }
 constexpr ::Org::BouncyCastle::Crypto::ISigner* const& GlobalNamespace::X509CertificateUtility_RSACertificateEncryptionProvider::__cordl_internal_get__signer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____signer;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____signer;
 }
-constexpr void GlobalNamespace::X509CertificateUtility_RSACertificateEncryptionProvider::__cordl_internal_set__signer(::Org::BouncyCastle::Crypto::ISigner* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____signer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::X509CertificateUtility_RSACertificateEncryptionProvider::__cordl_internal_set__signer(::Org::BouncyCastle::Crypto::ISigner*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____signer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void GlobalNamespace::X509CertificateUtility_RSACertificateEncryptionProvider::_ctor(::Org::BouncyCastle::Crypto::Parameters::RsaPrivateCrtKeyParameters* privateKey) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::X509CertificateUtility_RSACertificateEncryptionProvider*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Crypto::Parameters::RsaPrivateCrtKeyParameters*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, privateKey);
+inline void GlobalNamespace::X509CertificateUtility_RSACertificateEncryptionProvider::_ctor(::Org::BouncyCastle::Crypto::Parameters::RsaPrivateCrtKeyParameters*  privateKey)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::X509CertificateUtility_RSACertificateEncryptionProvider*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Crypto::Parameters::RsaPrivateCrtKeyParameters*>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, privateKey);
 }
-inline void GlobalNamespace::X509CertificateUtility_RSACertificateEncryptionProvider::Dispose() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::X509CertificateUtility_RSACertificateEncryptionProvider*>::get(), "Dispose",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::X509CertificateUtility_RSACertificateEncryptionProvider::Dispose()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::X509CertificateUtility_RSACertificateEncryptionProvider*>::get(),
+                        "Dispose",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GlobalNamespace::X509CertificateUtility_RSACertificateEncryptionProvider::SignData(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t offset,
-                                                                                                                               int32_t length) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::X509CertificateUtility_RSACertificateEncryptionProvider*>::get(), "SignData", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t, ::Array<uint8_t>*>, false>(this, ___internal_method, data, offset, length);
+inline ::ArrayW<uint8_t,::Array<uint8_t>*> GlobalNamespace::X509CertificateUtility_RSACertificateEncryptionProvider::SignData(::ArrayW<uint8_t,::Array<uint8_t>*>  data, int32_t  offset, int32_t  length)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::X509CertificateUtility_RSACertificateEncryptionProvider*>::get(),
+                        "SignData",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t,::Array<uint8_t>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t,::Array<uint8_t>*>, false>(this, ___internal_method, data, offset, length);
 }
-inline ::GlobalNamespace::X509CertificateUtility_RSACertificateEncryptionProvider*
-GlobalNamespace::X509CertificateUtility_RSACertificateEncryptionProvider::New_ctor(::Org::BouncyCastle::Crypto::Parameters::RsaPrivateCrtKeyParameters* privateKey) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::X509CertificateUtility_RSACertificateEncryptionProvider*>(privateKey));
+inline ::GlobalNamespace::X509CertificateUtility_RSACertificateEncryptionProvider* GlobalNamespace::X509CertificateUtility_RSACertificateEncryptionProvider::New_ctor(::Org::BouncyCastle::Crypto::Parameters::RsaPrivateCrtKeyParameters*  privateKey)  {
+return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::X509CertificateUtility_RSACertificateEncryptionProvider*>(privateKey));
 }
 /// @brief Convert operator to "::GlobalNamespace::ICertificateEncryptionProvider"
-constexpr GlobalNamespace::X509CertificateUtility_RSACertificateEncryptionProvider::operator ::GlobalNamespace::ICertificateEncryptionProvider*() noexcept {
-  return static_cast<::GlobalNamespace::ICertificateEncryptionProvider*>(static_cast<void*>(this));
+constexpr  GlobalNamespace::X509CertificateUtility_RSACertificateEncryptionProvider::operator ::GlobalNamespace::ICertificateEncryptionProvider*() noexcept {
+return static_cast<::GlobalNamespace::ICertificateEncryptionProvider*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::GlobalNamespace::ICertificateEncryptionProvider"
 constexpr ::GlobalNamespace::ICertificateEncryptionProvider* GlobalNamespace::X509CertificateUtility_RSACertificateEncryptionProvider::i___GlobalNamespace__ICertificateEncryptionProvider() noexcept {
-  return static_cast<::GlobalNamespace::ICertificateEncryptionProvider*>(static_cast<void*>(this));
+return static_cast<::GlobalNamespace::ICertificateEncryptionProvider*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::IDisposable"
-constexpr GlobalNamespace::X509CertificateUtility_RSACertificateEncryptionProvider::operator ::System::IDisposable*() noexcept {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+constexpr  GlobalNamespace::X509CertificateUtility_RSACertificateEncryptionProvider::operator ::System::IDisposable*() noexcept {
+return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::IDisposable"
 constexpr ::System::IDisposable* GlobalNamespace::X509CertificateUtility_RSACertificateEncryptionProvider::i___System__IDisposable() noexcept {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::X509CertificateUtility_RSACertificateEncryptionProvider::X509CertificateUtility_RSACertificateEncryptionProvider() {}
+constexpr ::GlobalNamespace::X509CertificateUtility_RSACertificateEncryptionProvider::X509CertificateUtility_RSACertificateEncryptionProvider()   {
+}
 //  Writing Method size for method: ::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5._ctor
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::*)(int32_t)>(
-    &::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::*)(int32_t)>(&::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x32831ec;
+  constexpr static std::size_t addrs = 0x3283f88;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5*>::get(), ".ctor",
-                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5.System_IDisposable_Dispose
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::*)()>(
-    &::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::System_IDisposable_Dispose)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::*)()>(&::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x32834c8;
+  constexpr static std::size_t addrs = 0x3284264;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5*>::get(),
-                                                 "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5*>::get(),
+                        "System.IDisposable.Dispose",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5.MoveNext
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::*)()>(
-    &::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::MoveNext)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::*)()>(&::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::MoveNext)> {
   constexpr static std::size_t size = 0x4f0;
-  constexpr static std::size_t addrs = 0x32834e4;
+  constexpr static std::size_t addrs = 0x3284280;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5*>::get(), "MoveNext",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5*>::get(),
+                        "MoveNext",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5.__m__Finally1
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::*)()>(
-    &::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::__m__Finally1)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::*)()>(&::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::__m__Finally1)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x32839d4;
+  constexpr static std::size_t addrs = 0x3284770;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5*>::get(), "<>m__Finally1",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5*>::get(),
+                        "<>m__Finally1",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5.System_Collections_Generic_IEnumerator_System_Security_Cryptography_X509Certificates_X509Certificate2__get_Current
-template <>
+//  Writing Method size for method: ::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5.System_Collections_Generic_IEnumerator_System_Security_Cryptography_X509Certificates_X509Certificate2__get_Current
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Security::Cryptography::X509Certificates::X509Certificate2* (::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::*)()>(
-        &::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::System_Collections_Generic_IEnumerator_System_Security_Cryptography_X509Certificates_X509Certificate2__get_Current)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Cryptography::X509Certificates::X509Certificate2* (::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::*)()>(&::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::System_Collections_Generic_IEnumerator_System_Security_Cryptography_X509Certificates_X509Certificate2__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3283a94;
+  constexpr static std::size_t addrs = 0x3284830;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5*>::get(),
-                                                 "System.Collections.Generic.IEnumerator<System.Security.Cryptography.X509Certificates.X509Certificate2>.get_Current",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5*>::get(),
+                        "System.Collections.Generic.IEnumerator<System.Security.Cryptography.X509Certificates.X509Certificate2>.get_Current",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5.System_Collections_IEnumerator_Reset
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::*)()>(
-    &::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::System_Collections_IEnumerator_Reset)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::*)()>(&::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3283a9c;
+  constexpr static std::size_t addrs = 0x3284838;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5*>::get(),
-                                                 "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5*>::get(),
+                        "System.Collections.IEnumerator.Reset",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5.System_Collections_IEnumerator_get_Current
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::*)()>(
-    &::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::System_Collections_IEnumerator_get_Current)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::*)()>(&::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3283ad4;
+  constexpr static std::size_t addrs = 0x3284870;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5*>::get(),
-                                                 "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5*>::get(),
+                        "System.Collections.IEnumerator.get_Current",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5.System_Collections_Generic_IEnumerable_System_Security_Cryptography_X509Certificates_X509Certificate2__GetEnumerator
-template <>
+//  Writing Method size for method: ::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5.System_Collections_Generic_IEnumerable_System_Security_Cryptography_X509Certificates_X509Certificate2__GetEnumerator
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
-    ::System::Collections::Generic::IEnumerator_1<::System::Security::Cryptography::X509Certificates::X509Certificate2*>* (::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::*)()>(
-    &::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::System_Collections_Generic_IEnumerable_System_Security_Cryptography_X509Certificates_X509Certificate2__GetEnumerator)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerator_1<::System::Security::Cryptography::X509Certificates::X509Certificate2*>* (::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::*)()>(&::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::System_Collections_Generic_IEnumerable_System_Security_Cryptography_X509Certificates_X509Certificate2__GetEnumerator)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x3283adc;
+  constexpr static std::size_t addrs = 0x3284878;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5*>::get(),
-                                                 "System.Collections.Generic.IEnumerable<System.Security.Cryptography.X509Certificates.X509Certificate2>.GetEnumerator",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5*>::get(),
+                        "System.Collections.Generic.IEnumerable<System.Security.Cryptography.X509Certificates.X509Certificate2>.GetEnumerator",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5.System_Collections_IEnumerable_GetEnumerator
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::*)()>(
-    &::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::System_Collections_IEnumerable_GetEnumerator)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::*)()>(&::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3283b7c;
+  constexpr static std::size_t addrs = 0x3284918;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5*>::get(),
-                                                 "System.Collections.IEnumerable.GetEnumerator", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5*>::get(),
+                        "System.Collections.IEnumerable.GetEnumerator",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
-constexpr int32_t& GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::__cordl_internal_get___1__state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____1__state;
+constexpr int32_t& GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::__cordl_internal_get___1__state()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____1__state;
 }
 constexpr int32_t const& GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::__cordl_internal_get___1__state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____1__state;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____1__state;
 }
-constexpr void GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::__cordl_internal_set___1__state(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->_____1__state = value;
+constexpr void GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::__cordl_internal_set___1__state(int32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->_____1__state = value;
 }
-constexpr ::System::Security::Cryptography::X509Certificates::X509Certificate2*& GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::__cordl_internal_get___2__current() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____2__current;
+constexpr ::System::Security::Cryptography::X509Certificates::X509Certificate2*& GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::__cordl_internal_get___2__current()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____2__current;
 }
 constexpr ::System::Security::Cryptography::X509Certificates::X509Certificate2* const& GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::__cordl_internal_get___2__current() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____2__current;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____2__current;
 }
-constexpr void GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::__cordl_internal_set___2__current(::System::Security::Cryptography::X509Certificates::X509Certificate2* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::__cordl_internal_set___2__current(::System::Security::Cryptography::X509Certificates::X509Certificate2*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr int32_t& GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::__cordl_internal_get___l__initialThreadId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____l__initialThreadId;
+constexpr int32_t& GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::__cordl_internal_get___l__initialThreadId()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____l__initialThreadId;
 }
 constexpr int32_t const& GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::__cordl_internal_get___l__initialThreadId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____l__initialThreadId;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____l__initialThreadId;
 }
-constexpr void GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::__cordl_internal_set___l__initialThreadId(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->_____l__initialThreadId = value;
+constexpr void GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::__cordl_internal_set___l__initialThreadId(int32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->_____l__initialThreadId = value;
 }
-constexpr ::StringW& GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::__cordl_internal_get_certificatePem() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___certificatePem;
+constexpr ::StringW& GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::__cordl_internal_get_certificatePem()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___certificatePem;
 }
 constexpr ::StringW const& GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::__cordl_internal_get_certificatePem() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___certificatePem;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___certificatePem;
 }
-constexpr void GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::__cordl_internal_set_certificatePem(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___certificatePem)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::__cordl_internal_set_certificatePem(::StringW  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___certificatePem)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::StringW& GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::__cordl_internal_get___3__certificatePem() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____3__certificatePem;
+constexpr ::StringW& GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::__cordl_internal_get___3__certificatePem()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____3__certificatePem;
 }
 constexpr ::StringW const& GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::__cordl_internal_get___3__certificatePem() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____3__certificatePem;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____3__certificatePem;
 }
-constexpr void GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::__cordl_internal_set___3__certificatePem(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____3__certificatePem)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::__cordl_internal_set___3__certificatePem(::StringW  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____3__certificatePem)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::StringW& GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::__cordl_internal_get_certificateChainPem() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___certificateChainPem;
+constexpr ::StringW& GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::__cordl_internal_get_certificateChainPem()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___certificateChainPem;
 }
 constexpr ::StringW const& GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::__cordl_internal_get_certificateChainPem() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___certificateChainPem;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___certificateChainPem;
 }
-constexpr void GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::__cordl_internal_set_certificateChainPem(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___certificateChainPem)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::__cordl_internal_set_certificateChainPem(::StringW  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___certificateChainPem)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::StringW& GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::__cordl_internal_get___3__certificateChainPem() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____3__certificateChainPem;
+constexpr ::StringW& GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::__cordl_internal_get___3__certificateChainPem()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____3__certificateChainPem;
 }
 constexpr ::StringW const& GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::__cordl_internal_get___3__certificateChainPem() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____3__certificateChainPem;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____3__certificateChainPem;
 }
-constexpr void GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::__cordl_internal_set___3__certificateChainPem(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____3__certificateChainPem)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::__cordl_internal_set___3__certificateChainPem(::StringW  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____3__certificateChainPem)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::Org::BouncyCastle::X509::X509CertificateParser*& GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::__cordl_internal_get__x509CertificateParser_5__2() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____x509CertificateParser_5__2;
+constexpr ::Org::BouncyCastle::X509::X509CertificateParser*& GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::__cordl_internal_get__x509CertificateParser_5__2()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____x509CertificateParser_5__2;
 }
 constexpr ::Org::BouncyCastle::X509::X509CertificateParser* const& GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::__cordl_internal_get__x509CertificateParser_5__2() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____x509CertificateParser_5__2;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____x509CertificateParser_5__2;
 }
-constexpr void GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::__cordl_internal_set__x509CertificateParser_5__2(::Org::BouncyCastle::X509::X509CertificateParser* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____x509CertificateParser_5__2)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::__cordl_internal_set__x509CertificateParser_5__2(::Org::BouncyCastle::X509::X509CertificateParser*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____x509CertificateParser_5__2)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Collections::IEnumerator*& GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::__cordl_internal_get___7__wrap2() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____7__wrap2;
+constexpr ::System::Collections::IEnumerator*& GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::__cordl_internal_get___7__wrap2()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____7__wrap2;
 }
 constexpr ::System::Collections::IEnumerator* const& GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::__cordl_internal_get___7__wrap2() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____7__wrap2;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____7__wrap2;
 }
-constexpr void GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::__cordl_internal_set___7__wrap2(::System::Collections::IEnumerator* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____7__wrap2)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::__cordl_internal_set___7__wrap2(::System::Collections::IEnumerator*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____7__wrap2)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::_ctor(int32_t __1__state) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5*>::get(), ".ctor",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, __1__state);
+inline void GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::_ctor(int32_t  __1__state)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, __1__state);
 }
-inline void GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::System_IDisposable_Dispose() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5*>::get(),
-                                               "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::System_IDisposable_Dispose()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5*>::get(),
+                        "System.IDisposable.Dispose",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::MoveNext() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5*>::get(), "MoveNext",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::MoveNext()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5*>::get(),
+                        "MoveNext",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::__m__Finally1() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5*>::get(), "<>m__Finally1",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::__m__Finally1()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5*>::get(),
+                        "<>m__Finally1",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::System::Security::Cryptography::X509Certificates::X509Certificate2*
-GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::System_Collections_Generic_IEnumerator_System_Security_Cryptography_X509Certificates_X509Certificate2__get_Current() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5*>::get(),
-                                               "System.Collections.Generic.IEnumerator<System.Security.Cryptography.X509Certificates.X509Certificate2>.get_Current",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::System::Security::Cryptography::X509Certificates::X509Certificate2*, false>(this, ___internal_method);
+inline ::System::Security::Cryptography::X509Certificates::X509Certificate2* GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::System_Collections_Generic_IEnumerator_System_Security_Cryptography_X509Certificates_X509Certificate2__get_Current()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5*>::get(),
+                        "System.Collections.Generic.IEnumerator<System.Security.Cryptography.X509Certificates.X509Certificate2>.get_Current",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Security::Cryptography::X509Certificates::X509Certificate2*, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::System_Collections_IEnumerator_Reset() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5*>::get(),
-                                               "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::System_Collections_IEnumerator_Reset()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5*>::get(),
+                        "System.Collections.IEnumerator.Reset",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::System::Object* GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::System_Collections_IEnumerator_get_Current() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5*>::get(),
-                                               "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
+inline ::System::Object* GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::System_Collections_IEnumerator_get_Current()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5*>::get(),
+                        "System.Collections.IEnumerator.get_Current",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-inline ::System::Collections::Generic::IEnumerator_1<::System::Security::Cryptography::X509Certificates::X509Certificate2*>*
-GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::System_Collections_Generic_IEnumerable_System_Security_Cryptography_X509Certificates_X509Certificate2__GetEnumerator() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5*>::get(),
-                                               "System.Collections.Generic.IEnumerable<System.Security.Cryptography.X509Certificates.X509Certificate2>.GetEnumerator",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerator_1<::System::Security::Cryptography::X509Certificates::X509Certificate2*>*, false>(this, ___internal_method);
+inline ::System::Collections::Generic::IEnumerator_1<::System::Security::Cryptography::X509Certificates::X509Certificate2*>* GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::System_Collections_Generic_IEnumerable_System_Security_Cryptography_X509Certificates_X509Certificate2__GetEnumerator()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5*>::get(),
+                        "System.Collections.Generic.IEnumerable<System.Security.Cryptography.X509Certificates.X509Certificate2>.GetEnumerator",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerator_1<::System::Security::Cryptography::X509Certificates::X509Certificate2*>*, false>(this, ___internal_method);
 }
-inline ::System::Collections::IEnumerator* GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::System_Collections_IEnumerable_GetEnumerator() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5*>::get(),
-                                               "System.Collections.IEnumerable.GetEnumerator", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*, false>(this, ___internal_method);
+inline ::System::Collections::IEnumerator* GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::System_Collections_IEnumerable_GetEnumerator()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5*>::get(),
+                        "System.Collections.IEnumerable.GetEnumerator",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5* GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::New_ctor(int32_t __1__state) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5*>(__1__state));
+inline ::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5* GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::New_ctor(int32_t  __1__state)  {
+return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5*>(__1__state));
 }
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::System::Security::Cryptography::X509Certificates::X509Certificate2*>"
-constexpr GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::operator ::System::Collections::Generic::IEnumerable_1<
-    ::System::Security::Cryptography::X509Certificates::X509Certificate2*>*() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerable_1<::System::Security::Cryptography::X509Certificates::X509Certificate2*>*>(static_cast<void*>(this));
+constexpr  GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::operator ::System::Collections::Generic::IEnumerable_1<::System::Security::Cryptography::X509Certificates::X509Certificate2*>*() noexcept {
+return static_cast<::System::Collections::Generic::IEnumerable_1<::System::Security::Cryptography::X509Certificates::X509Certificate2*>*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::System::Security::Cryptography::X509Certificates::X509Certificate2*>"
-constexpr ::System::Collections::Generic::IEnumerable_1<::System::Security::Cryptography::X509Certificates::X509Certificate2*>*
-GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::i___System__Collections__Generic__IEnumerable_1___System__Security__Cryptography__X509Certificates__X509Certificate2__() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerable_1<::System::Security::Cryptography::X509Certificates::X509Certificate2*>*>(static_cast<void*>(this));
+constexpr ::System::Collections::Generic::IEnumerable_1<::System::Security::Cryptography::X509Certificates::X509Certificate2*>* GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::i___System__Collections__Generic__IEnumerable_1___System__Security__Cryptography__X509Certificates__X509Certificate2__() noexcept {
+return static_cast<::System::Collections::Generic::IEnumerable_1<::System::Security::Cryptography::X509Certificates::X509Certificate2*>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerable"
-constexpr GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::operator ::System::Collections::IEnumerable*() noexcept {
-  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+constexpr  GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::operator ::System::Collections::IEnumerable*() noexcept {
+return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::IEnumerable"
 constexpr ::System::Collections::IEnumerable* GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::i___System__Collections__IEnumerable() noexcept {
-  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Security::Cryptography::X509Certificates::X509Certificate2*>"
-constexpr GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::operator ::System::Collections::Generic::IEnumerator_1<
-    ::System::Security::Cryptography::X509Certificates::X509Certificate2*>*() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Security::Cryptography::X509Certificates::X509Certificate2*>*>(static_cast<void*>(this));
+constexpr  GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::operator ::System::Collections::Generic::IEnumerator_1<::System::Security::Cryptography::X509Certificates::X509Certificate2*>*() noexcept {
+return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Security::Cryptography::X509Certificates::X509Certificate2*>*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Security::Cryptography::X509Certificates::X509Certificate2*>"
-constexpr ::System::Collections::Generic::IEnumerator_1<::System::Security::Cryptography::X509Certificates::X509Certificate2*>*
-GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::i___System__Collections__Generic__IEnumerator_1___System__Security__Cryptography__X509Certificates__X509Certificate2__() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Security::Cryptography::X509Certificates::X509Certificate2*>*>(static_cast<void*>(this));
+constexpr ::System::Collections::Generic::IEnumerator_1<::System::Security::Cryptography::X509Certificates::X509Certificate2*>* GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::i___System__Collections__Generic__IEnumerator_1___System__Security__Cryptography__X509Certificates__X509Certificate2__() noexcept {
+return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Security::Cryptography::X509Certificates::X509Certificate2*>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerator"
-constexpr GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::operator ::System::Collections::IEnumerator*() noexcept {
-  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
+constexpr  GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::operator ::System::Collections::IEnumerator*() noexcept {
+return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::IEnumerator"
 constexpr ::System::Collections::IEnumerator* GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::i___System__Collections__IEnumerator() noexcept {
-  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
+return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::IDisposable"
-constexpr GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::operator ::System::IDisposable*() noexcept {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+constexpr  GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::operator ::System::IDisposable*() noexcept {
+return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::IDisposable"
 constexpr ::System::IDisposable* GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::i___System__IDisposable() noexcept {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::X509CertificateUtility__GetCertificateList_d__5() {}
+constexpr ::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::X509CertificateUtility__GetCertificateList_d__5()   {
+}
 //  Writing Method size for method: ::GlobalNamespace::X509CertificateUtility.GetCertificateEncryptionProvider
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::ICertificateEncryptionProvider* (*)(::StringW, ::StringW)>(
-    &::GlobalNamespace::X509CertificateUtility::GetCertificateEncryptionProvider)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::ICertificateEncryptionProvider* (*)(::StringW, ::StringW)>(&::GlobalNamespace::X509CertificateUtility::GetCertificateEncryptionProvider)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3282d98;
+  constexpr static std::size_t addrs = 0x3283b34;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::X509CertificateUtility*>::get(), "GetCertificateEncryptionProvider", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::X509CertificateUtility*>::get(),
+                        "GetCertificateEncryptionProvider",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::X509CertificateUtility.GetRSACertificateEncryptionProvider
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::GlobalNamespace::X509CertificateUtility_RSACertificateEncryptionProvider* (*)(::StringW, ::GlobalNamespace::X509CertificateUtility_PasswordFinder*)>(
-        &::GlobalNamespace::X509CertificateUtility::GetRSACertificateEncryptionProvider)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::X509CertificateUtility_RSACertificateEncryptionProvider* (*)(::StringW, ::GlobalNamespace::X509CertificateUtility_PasswordFinder*)>(&::GlobalNamespace::X509CertificateUtility::GetRSACertificateEncryptionProvider)> {
   constexpr static std::size_t size = 0x1f4;
-  constexpr static std::size_t addrs = 0x3282e70;
+  constexpr static std::size_t addrs = 0x3283c0c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::X509CertificateUtility*>::get(), "GetRSACertificateEncryptionProvider", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::X509CertificateUtility_PasswordFinder*>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::X509CertificateUtility*>::get(),
+                        "GetRSACertificateEncryptionProvider",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::X509CertificateUtility_PasswordFinder*>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::X509CertificateUtility.GetCertificateList
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Collections::Generic::IEnumerable_1<::System::Security::Cryptography::X509Certificates::X509Certificate2*>* (*)(::StringW, ::StringW)>(
-        &::GlobalNamespace::X509CertificateUtility::GetCertificateList)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::System::Security::Cryptography::X509Certificates::X509Certificate2*>* (*)(::StringW, ::StringW)>(&::GlobalNamespace::X509CertificateUtility::GetCertificateList)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3283170;
+  constexpr static std::size_t addrs = 0x3283f0c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::X509CertificateUtility*>::get(), "GetCertificateList", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::X509CertificateUtility*>::get(),
+                        "GetCertificateList",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
+                    )));
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::X509CertificateUtility::setStaticF_kAwsRootCertificates(::StringW value) {
-  ::cordl_internals::setStaticField<::StringW, "kAwsRootCertificates", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::X509CertificateUtility*>::get>(
-      std::forward<::StringW>(value));
+inline void GlobalNamespace::X509CertificateUtility::setStaticF_kAwsRootCertificates(::StringW  value)  {
+::cordl_internals::setStaticField<::StringW, "kAwsRootCertificates", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::X509CertificateUtility*>::get>(std::forward<::StringW>(value));
 }
-inline ::StringW GlobalNamespace::X509CertificateUtility::getStaticF_kAwsRootCertificates() {
-  return ::cordl_internals::getStaticField<::StringW, "kAwsRootCertificates", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::X509CertificateUtility*>::get>();
+inline ::StringW GlobalNamespace::X509CertificateUtility::getStaticF_kAwsRootCertificates()  {
+return ::cordl_internals::getStaticField<::StringW, "kAwsRootCertificates", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::X509CertificateUtility*>::get>();
 }
-inline ::GlobalNamespace::ICertificateEncryptionProvider* GlobalNamespace::X509CertificateUtility::GetCertificateEncryptionProvider(::StringW privateKeyPem, ::StringW password) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::X509CertificateUtility*>::get(), "GetCertificateEncryptionProvider", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::ICertificateEncryptionProvider*, false>(nullptr, ___internal_method, privateKeyPem, password);
+inline ::GlobalNamespace::ICertificateEncryptionProvider* GlobalNamespace::X509CertificateUtility::GetCertificateEncryptionProvider(::StringW  privateKeyPem, ::StringW  password)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::X509CertificateUtility*>::get(),
+                        "GetCertificateEncryptionProvider",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::ICertificateEncryptionProvider*, false>(nullptr, ___internal_method, privateKeyPem, password);
 }
-inline ::GlobalNamespace::X509CertificateUtility_RSACertificateEncryptionProvider*
-GlobalNamespace::X509CertificateUtility::GetRSACertificateEncryptionProvider(::StringW privateKeyPem, ::GlobalNamespace::X509CertificateUtility_PasswordFinder* passwordFinder) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::X509CertificateUtility*>::get(), "GetRSACertificateEncryptionProvider", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::X509CertificateUtility_PasswordFinder*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::X509CertificateUtility_RSACertificateEncryptionProvider*, false>(nullptr, ___internal_method, privateKeyPem, passwordFinder);
+inline ::GlobalNamespace::X509CertificateUtility_RSACertificateEncryptionProvider* GlobalNamespace::X509CertificateUtility::GetRSACertificateEncryptionProvider(::StringW  privateKeyPem, ::GlobalNamespace::X509CertificateUtility_PasswordFinder*  passwordFinder)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::X509CertificateUtility*>::get(),
+                        "GetRSACertificateEncryptionProvider",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::X509CertificateUtility_PasswordFinder*>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::X509CertificateUtility_RSACertificateEncryptionProvider*, false>(nullptr, ___internal_method, privateKeyPem, passwordFinder);
 }
-inline ::System::Collections::Generic::IEnumerable_1<::System::Security::Cryptography::X509Certificates::X509Certificate2*>*
-GlobalNamespace::X509CertificateUtility::GetCertificateList(::StringW certificatePem, ::StringW certificateChainPem) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::X509CertificateUtility*>::get(), "GetCertificateList", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::System::Security::Cryptography::X509Certificates::X509Certificate2*>*, false>(
-      nullptr, ___internal_method, certificatePem, certificateChainPem);
+inline ::System::Collections::Generic::IEnumerable_1<::System::Security::Cryptography::X509Certificates::X509Certificate2*>* GlobalNamespace::X509CertificateUtility::GetCertificateList(::StringW  certificatePem, ::StringW  certificateChainPem)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::X509CertificateUtility*>::get(),
+                        "GetCertificateList",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::System::Security::Cryptography::X509Certificates::X509Certificate2*>*, false>(nullptr, ___internal_method, certificatePem, certificateChainPem);
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::X509CertificateUtility::X509CertificateUtility() {}
+constexpr ::GlobalNamespace::X509CertificateUtility::X509CertificateUtility()   {
+}

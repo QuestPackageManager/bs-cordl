@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "Org/BouncyCastle/Crypto/Modes/CbcBlockCipher.hpp"
 #include "Org/BouncyCastle/Crypto/Modes/CcmBlockCipher.hpp"
@@ -20,5 +20,6 @@ module;
 #include "Org/BouncyCastle/Crypto/Modes/OpenPgpCfbBlockCipher.hpp"
 #include "Org/BouncyCastle/Crypto/Modes/SicBlockCipher.hpp"
 #ifdef __cpp_modules
-export module Modes;
-#endif
+                    export module Modes;
+                    #endif
+                

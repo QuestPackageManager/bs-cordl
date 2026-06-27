@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "System/IO/Compression/CompressionLevel.hpp"
 #include "System/IO/Compression/CompressionMode.hpp"
@@ -9,5 +9,6 @@ module;
 #include "System/IO/Compression/DeflateStreamNative.hpp"
 #include "System/IO/Compression/GZipStream.hpp"
 #ifdef __cpp_modules
-export module Compression;
-#endif
+                    export module Compression;
+                    #endif
+                

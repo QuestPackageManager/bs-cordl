@@ -26,116 +26,115 @@ namespace GlobalNamespace {
 // CS Name: PosesRecordingInfoSaveData/ExternalCameraCalibrationSaveData
 class CORDL_TYPE PosesRecordingInfoSaveData_ExternalCameraCalibrationSaveData : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field _farClip, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get__farClip, put = __cordl_internal_set__farClip)) float_t _farClip;
+// Declarations
+/// @brief Field _farClip, offset 0x18, size 0x4 
+ __declspec(property(get=__cordl_internal_get__farClip, put=__cordl_internal_set__farClip)) float_t  _farClip;
 
-  /// @brief Field _fieldOfVision, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get__fieldOfVision, put = __cordl_internal_set__fieldOfVision)) float_t _fieldOfVision;
+/// @brief Field _fieldOfVision, offset 0x10, size 0x4 
+ __declspec(property(get=__cordl_internal_get__fieldOfVision, put=__cordl_internal_set__fieldOfVision)) float_t  _fieldOfVision;
 
-  /// @brief Field _hmdOffset, offset 0x1c, size 0x4
-  __declspec(property(get = __cordl_internal_get__hmdOffset, put = __cordl_internal_set__hmdOffset)) float_t _hmdOffset;
+/// @brief Field _hmdOffset, offset 0x1c, size 0x4 
+ __declspec(property(get=__cordl_internal_get__hmdOffset, put=__cordl_internal_set__hmdOffset)) float_t  _hmdOffset;
 
-  /// @brief Field _nearClip, offset 0x14, size 0x4
-  __declspec(property(get = __cordl_internal_get__nearClip, put = __cordl_internal_set__nearClip)) float_t _nearClip;
+/// @brief Field _nearClip, offset 0x14, size 0x4 
+ __declspec(property(get=__cordl_internal_get__nearClip, put=__cordl_internal_set__nearClip)) float_t  _nearClip;
 
-  /// @brief Field _nearOffset, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get__nearOffset, put = __cordl_internal_set__nearOffset)) float_t _nearOffset;
+/// @brief Field _nearOffset, offset 0x20, size 0x4 
+ __declspec(property(get=__cordl_internal_get__nearOffset, put=__cordl_internal_set__nearOffset)) float_t  _nearOffset;
 
-  __declspec(property(get = get_farClip)) float_t farClip;
+ __declspec(property(get=get_farClip)) float_t  farClip;
 
-  __declspec(property(get = get_fieldOfVision)) float_t fieldOfVision;
+ __declspec(property(get=get_fieldOfVision)) float_t  fieldOfVision;
 
-  __declspec(property(get = get_hmdOffset)) float_t hmdOffset;
+ __declspec(property(get=get_hmdOffset)) float_t  hmdOffset;
 
-  __declspec(property(get = get_nearClip)) float_t nearClip;
+ __declspec(property(get=get_nearClip)) float_t  nearClip;
 
-  __declspec(property(get = get_nearOffset)) float_t nearOffset;
+ __declspec(property(get=get_nearOffset)) float_t  nearOffset;
 
-  static inline ::GlobalNamespace::PosesRecordingInfoSaveData_ExternalCameraCalibrationSaveData* New_ctor(float_t fieldOfVision, float_t nearClip, float_t farClip, float_t hmdOffset,
-                                                                                                          float_t nearOffset);
+static inline ::GlobalNamespace::PosesRecordingInfoSaveData_ExternalCameraCalibrationSaveData* New_ctor(float_t  fieldOfVision, float_t  nearClip, float_t  farClip, float_t  hmdOffset, float_t  nearOffset) ;
 
-  constexpr float_t const& __cordl_internal_get__farClip() const;
+constexpr float_t const& __cordl_internal_get__farClip() const;
 
-  constexpr float_t& __cordl_internal_get__farClip();
+constexpr float_t& __cordl_internal_get__farClip() ;
 
-  constexpr float_t const& __cordl_internal_get__fieldOfVision() const;
+constexpr float_t const& __cordl_internal_get__fieldOfVision() const;
 
-  constexpr float_t& __cordl_internal_get__fieldOfVision();
+constexpr float_t& __cordl_internal_get__fieldOfVision() ;
 
-  constexpr float_t const& __cordl_internal_get__hmdOffset() const;
+constexpr float_t const& __cordl_internal_get__hmdOffset() const;
 
-  constexpr float_t& __cordl_internal_get__hmdOffset();
+constexpr float_t& __cordl_internal_get__hmdOffset() ;
 
-  constexpr float_t const& __cordl_internal_get__nearClip() const;
+constexpr float_t const& __cordl_internal_get__nearClip() const;
 
-  constexpr float_t& __cordl_internal_get__nearClip();
+constexpr float_t& __cordl_internal_get__nearClip() ;
 
-  constexpr float_t const& __cordl_internal_get__nearOffset() const;
+constexpr float_t const& __cordl_internal_get__nearOffset() const;
 
-  constexpr float_t& __cordl_internal_get__nearOffset();
+constexpr float_t& __cordl_internal_get__nearOffset() ;
 
-  constexpr void __cordl_internal_set__farClip(float_t value);
+constexpr void __cordl_internal_set__farClip(float_t  value) ;
 
-  constexpr void __cordl_internal_set__fieldOfVision(float_t value);
+constexpr void __cordl_internal_set__fieldOfVision(float_t  value) ;
 
-  constexpr void __cordl_internal_set__hmdOffset(float_t value);
+constexpr void __cordl_internal_set__hmdOffset(float_t  value) ;
 
-  constexpr void __cordl_internal_set__nearClip(float_t value);
+constexpr void __cordl_internal_set__nearClip(float_t  value) ;
 
-  constexpr void __cordl_internal_set__nearOffset(float_t value);
+constexpr void __cordl_internal_set__nearOffset(float_t  value) ;
 
-  /// @brief Method .ctor, addr 0x57c7cf0, size 0x10, virtual false, abstract: false, final false
-  inline void _ctor(float_t fieldOfVision, float_t nearClip, float_t farClip, float_t hmdOffset, float_t nearOffset);
+/// @brief Method .ctor, addr 0x57c9558, size 0x10, virtual false, abstract: false, final false
+inline void _ctor(float_t  fieldOfVision, float_t  nearClip, float_t  farClip, float_t  hmdOffset, float_t  nearOffset) ;
 
-  /// @brief Method get_farClip, addr 0x57c7cd8, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_farClip();
+/// @brief Method get_farClip, addr 0x57c9540, size 0x8, virtual false, abstract: false, final false
+inline float_t get_farClip() ;
 
-  /// @brief Method get_fieldOfVision, addr 0x57c7cc8, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_fieldOfVision();
+/// @brief Method get_fieldOfVision, addr 0x57c9530, size 0x8, virtual false, abstract: false, final false
+inline float_t get_fieldOfVision() ;
 
-  /// @brief Method get_hmdOffset, addr 0x57c7ce0, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_hmdOffset();
+/// @brief Method get_hmdOffset, addr 0x57c9548, size 0x8, virtual false, abstract: false, final false
+inline float_t get_hmdOffset() ;
 
-  /// @brief Method get_nearClip, addr 0x57c7cd0, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_nearClip();
+/// @brief Method get_nearClip, addr 0x57c9538, size 0x8, virtual false, abstract: false, final false
+inline float_t get_nearClip() ;
 
-  /// @brief Method get_nearOffset, addr 0x57c7ce8, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_nearOffset();
+/// @brief Method get_nearOffset, addr 0x57c9550, size 0x8, virtual false, abstract: false, final false
+inline float_t get_nearOffset() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PosesRecordingInfoSaveData_ExternalCameraCalibrationSaveData();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr PosesRecordingInfoSaveData_ExternalCameraCalibrationSaveData() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PosesRecordingInfoSaveData_ExternalCameraCalibrationSaveData", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  PosesRecordingInfoSaveData_ExternalCameraCalibrationSaveData(PosesRecordingInfoSaveData_ExternalCameraCalibrationSaveData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PosesRecordingInfoSaveData_ExternalCameraCalibrationSaveData", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  PosesRecordingInfoSaveData_ExternalCameraCalibrationSaveData(PosesRecordingInfoSaveData_ExternalCameraCalibrationSaveData const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "PosesRecordingInfoSaveData_ExternalCameraCalibrationSaveData", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+PosesRecordingInfoSaveData_ExternalCameraCalibrationSaveData(PosesRecordingInfoSaveData_ExternalCameraCalibrationSaveData && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6682 };
+// Ctor Parameters [CppParam { name: "", ty: "PosesRecordingInfoSaveData_ExternalCameraCalibrationSaveData", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+PosesRecordingInfoSaveData_ExternalCameraCalibrationSaveData(PosesRecordingInfoSaveData_ExternalCameraCalibrationSaveData const& ) = delete;
 
-  /// @brief Field _fieldOfVision, offset: 0x10, size: 0x4, def value: None
-  float_t ____fieldOfVision;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6682};
 
-  /// @brief Field _nearClip, offset: 0x14, size: 0x4, def value: None
-  float_t ____nearClip;
+/// @brief Field _fieldOfVision, offset: 0x10, size: 0x4, def value: None
+ float_t  ____fieldOfVision;
 
-  /// @brief Field _farClip, offset: 0x18, size: 0x4, def value: None
-  float_t ____farClip;
+/// @brief Field _nearClip, offset: 0x14, size: 0x4, def value: None
+ float_t  ____nearClip;
 
-  /// @brief Field _hmdOffset, offset: 0x1c, size: 0x4, def value: None
-  float_t ____hmdOffset;
+/// @brief Field _farClip, offset: 0x18, size: 0x4, def value: None
+ float_t  ____farClip;
 
-  /// @brief Field _nearOffset, offset: 0x20, size: 0x4, def value: None
-  float_t ____nearOffset;
+/// @brief Field _hmdOffset, offset: 0x1c, size: 0x4, def value: None
+ float_t  ____hmdOffset;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _nearOffset, offset: 0x20, size: 0x4, def value: None
+ float_t  ____nearOffset;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::PosesRecordingInfoSaveData_ExternalCameraCalibrationSaveData, ____fieldOfVision) == 0x10, "Offset mismatch!");
@@ -150,113 +149,110 @@ static_assert(offsetof(::GlobalNamespace::PosesRecordingInfoSaveData_ExternalCam
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PosesRecordingInfoSaveData_ExternalCameraCalibrationSaveData, 0x28>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: PosesRecordingInfoSaveData
 class CORDL_TYPE PosesRecordingInfoSaveData : public ::System::Object {
 public:
-  // Declarations
-  using ExternalCameraCalibrationSaveData = ::GlobalNamespace::PosesRecordingInfoSaveData_ExternalCameraCalibrationSaveData;
+// Declarations
+using ExternalCameraCalibrationSaveData = ::GlobalNamespace::PosesRecordingInfoSaveData_ExternalCameraCalibrationSaveData;
 
-  /// @brief Field _dataFileName, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__dataFileName, put = __cordl_internal_set__dataFileName)) ::StringW _dataFileName;
+/// @brief Field _dataFileName, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get__dataFileName, put=__cordl_internal_set__dataFileName)) ::StringW  _dataFileName;
 
-  /// @brief Field _externalCameraCalibration, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__externalCameraCalibration,
-                      put = __cordl_internal_set__externalCameraCalibration)) ::GlobalNamespace::PosesRecordingInfoSaveData_ExternalCameraCalibrationSaveData* _externalCameraCalibration;
+/// @brief Field _externalCameraCalibration, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get__externalCameraCalibration, put=__cordl_internal_set__externalCameraCalibration)) ::GlobalNamespace::PosesRecordingInfoSaveData_ExternalCameraCalibrationSaveData*  _externalCameraCalibration;
 
-  /// @brief Field _objectIds, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__objectIds, put = __cordl_internal_set__objectIds)) ::ArrayW<::StringW, ::Array<::StringW>*> _objectIds;
+/// @brief Field _objectIds, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get__objectIds, put=__cordl_internal_set__objectIds)) ::ArrayW<::StringW,::Array<::StringW>*>  _objectIds;
 
-  /// @brief Field _version, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__version, put = __cordl_internal_set__version)) ::StringW _version;
+/// @brief Field _version, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get__version, put=__cordl_internal_set__version)) ::StringW  _version;
 
-  __declspec(property(get = get_dataFileName)) ::StringW dataFileName;
+ __declspec(property(get=get_dataFileName)) ::StringW  dataFileName;
 
-  __declspec(property(get = get_externalCameraCalibration)) ::GlobalNamespace::PosesRecordingInfoSaveData_ExternalCameraCalibrationSaveData* externalCameraCalibration;
+ __declspec(property(get=get_externalCameraCalibration)) ::GlobalNamespace::PosesRecordingInfoSaveData_ExternalCameraCalibrationSaveData*  externalCameraCalibration;
 
-  __declspec(property(get = get_objectIds)) ::ArrayW<::StringW, ::Array<::StringW>*> objectIds;
+ __declspec(property(get=get_objectIds)) ::ArrayW<::StringW,::Array<::StringW>*>  objectIds;
 
-  __declspec(property(get = get_version)) ::StringW version;
+ __declspec(property(get=get_version)) ::StringW  version;
 
-  static inline ::GlobalNamespace::PosesRecordingInfoSaveData*
-  New_ctor(::ArrayW<::StringW, ::Array<::StringW>*> objectIds, ::GlobalNamespace::PosesRecordingInfoSaveData_ExternalCameraCalibrationSaveData* externalCameraCalibration, ::StringW dataFileName);
+static inline ::GlobalNamespace::PosesRecordingInfoSaveData* New_ctor(::ArrayW<::StringW,::Array<::StringW>*>  objectIds, ::GlobalNamespace::PosesRecordingInfoSaveData_ExternalCameraCalibrationSaveData*  externalCameraCalibration, ::StringW  dataFileName) ;
 
-  constexpr ::StringW const& __cordl_internal_get__dataFileName() const;
+constexpr ::StringW const& __cordl_internal_get__dataFileName() const;
 
-  constexpr ::StringW& __cordl_internal_get__dataFileName();
+constexpr ::StringW& __cordl_internal_get__dataFileName() ;
 
-  constexpr ::GlobalNamespace::PosesRecordingInfoSaveData_ExternalCameraCalibrationSaveData* const& __cordl_internal_get__externalCameraCalibration() const;
+constexpr ::GlobalNamespace::PosesRecordingInfoSaveData_ExternalCameraCalibrationSaveData* const& __cordl_internal_get__externalCameraCalibration() const;
 
-  constexpr ::GlobalNamespace::PosesRecordingInfoSaveData_ExternalCameraCalibrationSaveData*& __cordl_internal_get__externalCameraCalibration();
+constexpr ::GlobalNamespace::PosesRecordingInfoSaveData_ExternalCameraCalibrationSaveData*& __cordl_internal_get__externalCameraCalibration() ;
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get__objectIds() const;
+constexpr ::ArrayW<::StringW,::Array<::StringW>*> const& __cordl_internal_get__objectIds() const;
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get__objectIds();
+constexpr ::ArrayW<::StringW,::Array<::StringW>*>& __cordl_internal_get__objectIds() ;
 
-  constexpr ::StringW const& __cordl_internal_get__version() const;
+constexpr ::StringW const& __cordl_internal_get__version() const;
 
-  constexpr ::StringW& __cordl_internal_get__version();
+constexpr ::StringW& __cordl_internal_get__version() ;
 
-  constexpr void __cordl_internal_set__dataFileName(::StringW value);
+constexpr void __cordl_internal_set__dataFileName(::StringW  value) ;
 
-  constexpr void __cordl_internal_set__externalCameraCalibration(::GlobalNamespace::PosesRecordingInfoSaveData_ExternalCameraCalibrationSaveData* value);
+constexpr void __cordl_internal_set__externalCameraCalibration(::GlobalNamespace::PosesRecordingInfoSaveData_ExternalCameraCalibrationSaveData*  value) ;
 
-  constexpr void __cordl_internal_set__objectIds(::ArrayW<::StringW, ::Array<::StringW>*> value);
+constexpr void __cordl_internal_set__objectIds(::ArrayW<::StringW,::Array<::StringW>*>  value) ;
 
-  constexpr void __cordl_internal_set__version(::StringW value);
+constexpr void __cordl_internal_set__version(::StringW  value) ;
 
-  /// @brief Method .ctor, addr 0x57c7c5c, size 0x6c, virtual false, abstract: false, final false
-  inline void _ctor(::ArrayW<::StringW, ::Array<::StringW>*> objectIds, ::GlobalNamespace::PosesRecordingInfoSaveData_ExternalCameraCalibrationSaveData* externalCameraCalibration,
-                    ::StringW dataFileName);
+/// @brief Method .ctor, addr 0x57c94c4, size 0x6c, virtual false, abstract: false, final false
+inline void _ctor(::ArrayW<::StringW,::Array<::StringW>*>  objectIds, ::GlobalNamespace::PosesRecordingInfoSaveData_ExternalCameraCalibrationSaveData*  externalCameraCalibration, ::StringW  dataFileName) ;
 
-  /// @brief Method get_dataFileName, addr 0x57c7c54, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_dataFileName();
+/// @brief Method get_dataFileName, addr 0x57c94bc, size 0x8, virtual false, abstract: false, final false
+inline ::StringW get_dataFileName() ;
 
-  /// @brief Method get_externalCameraCalibration, addr 0x57c7c4c, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::PosesRecordingInfoSaveData_ExternalCameraCalibrationSaveData* get_externalCameraCalibration();
+/// @brief Method get_externalCameraCalibration, addr 0x57c94b4, size 0x8, virtual false, abstract: false, final false
+inline ::GlobalNamespace::PosesRecordingInfoSaveData_ExternalCameraCalibrationSaveData* get_externalCameraCalibration() ;
 
-  /// @brief Method get_objectIds, addr 0x57c7c44, size 0x8, virtual false, abstract: false, final false
-  inline ::ArrayW<::StringW, ::Array<::StringW>*> get_objectIds();
+/// @brief Method get_objectIds, addr 0x57c94ac, size 0x8, virtual false, abstract: false, final false
+inline ::ArrayW<::StringW,::Array<::StringW>*> get_objectIds() ;
 
-  /// @brief Method get_version, addr 0x57c7c3c, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_version();
+/// @brief Method get_version, addr 0x57c94a4, size 0x8, virtual false, abstract: false, final false
+inline ::StringW get_version() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PosesRecordingInfoSaveData();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr PosesRecordingInfoSaveData() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PosesRecordingInfoSaveData", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  PosesRecordingInfoSaveData(PosesRecordingInfoSaveData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PosesRecordingInfoSaveData", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  PosesRecordingInfoSaveData(PosesRecordingInfoSaveData const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "PosesRecordingInfoSaveData", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+PosesRecordingInfoSaveData(PosesRecordingInfoSaveData && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6683 };
+// Ctor Parameters [CppParam { name: "", ty: "PosesRecordingInfoSaveData", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+PosesRecordingInfoSaveData(PosesRecordingInfoSaveData const& ) = delete;
 
-  /// @brief Field kCurrentVersion offset 0xffffffff size 0x8
-  static constexpr ::ConstString kCurrentVersion{ u"1.0.0" };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6683};
 
-  /// @brief Field _version, offset: 0x10, size: 0x8, def value: None
-  ::StringW ____version;
+/// @brief Field kCurrentVersion offset 0xffffffff size 0x8
+static constexpr ::ConstString  kCurrentVersion{u"1.0.0"};
 
-  /// @brief Field _objectIds, offset: 0x18, size: 0x8, def value: None
-  ::ArrayW<::StringW, ::Array<::StringW>*> ____objectIds;
+/// @brief Field _version, offset: 0x10, size: 0x8, def value: None
+ ::StringW  ____version;
 
-  /// @brief Field _externalCameraCalibration, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::PosesRecordingInfoSaveData_ExternalCameraCalibrationSaveData* ____externalCameraCalibration;
+/// @brief Field _objectIds, offset: 0x18, size: 0x8, def value: None
+ ::ArrayW<::StringW,::Array<::StringW>*>  ____objectIds;
 
-  /// @brief Field _dataFileName, offset: 0x28, size: 0x8, def value: None
-  ::StringW ____dataFileName;
+/// @brief Field _externalCameraCalibration, offset: 0x20, size: 0x8, def value: None
+ ::GlobalNamespace::PosesRecordingInfoSaveData_ExternalCameraCalibrationSaveData*  ____externalCameraCalibration;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _dataFileName, offset: 0x28, size: 0x8, def value: None
+ ::StringW  ____dataFileName;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::PosesRecordingInfoSaveData, ____version) == 0x10, "Offset mismatch!");
@@ -269,7 +265,7 @@ static_assert(offsetof(::GlobalNamespace::PosesRecordingInfoSaveData, ____dataFi
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PosesRecordingInfoSaveData, 0x30>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::PosesRecordingInfoSaveData);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PosesRecordingInfoSaveData*, "", "PosesRecordingInfoSaveData");
 NEED_NO_BOX(::GlobalNamespace::PosesRecordingInfoSaveData_ExternalCameraCalibrationSaveData);

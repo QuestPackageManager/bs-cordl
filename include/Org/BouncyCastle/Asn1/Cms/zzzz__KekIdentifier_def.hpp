@@ -39,96 +39,95 @@ namespace Org::BouncyCastle::Asn1::Cms {
 // CS Name: Org.BouncyCastle.Asn1.Cms.KekIdentifier
 class CORDL_TYPE KekIdentifier : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
-  // Declarations
-  __declspec(property(get = get_Date)) ::Org::BouncyCastle::Asn1::DerGeneralizedTime* Date;
+// Declarations
+ __declspec(property(get=get_Date)) ::Org::BouncyCastle::Asn1::DerGeneralizedTime*  Date;
 
-  __declspec(property(get = get_KeyIdentifier)) ::Org::BouncyCastle::Asn1::Asn1OctetString* KeyIdentifier;
+ __declspec(property(get=get_KeyIdentifier)) ::Org::BouncyCastle::Asn1::Asn1OctetString*  KeyIdentifier;
 
-  __declspec(property(get = get_Other)) ::Org::BouncyCastle::Asn1::Cms::OtherKeyAttribute* Other;
+ __declspec(property(get=get_Other)) ::Org::BouncyCastle::Asn1::Cms::OtherKeyAttribute*  Other;
 
-  /// @brief Field date, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_date, put = __cordl_internal_set_date)) ::Org::BouncyCastle::Asn1::DerGeneralizedTime* date;
+/// @brief Field date, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_date, put=__cordl_internal_set_date)) ::Org::BouncyCastle::Asn1::DerGeneralizedTime*  date;
 
-  /// @brief Field keyIdentifier, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_keyIdentifier, put = __cordl_internal_set_keyIdentifier)) ::Org::BouncyCastle::Asn1::Asn1OctetString* keyIdentifier;
+/// @brief Field keyIdentifier, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_keyIdentifier, put=__cordl_internal_set_keyIdentifier)) ::Org::BouncyCastle::Asn1::Asn1OctetString*  keyIdentifier;
 
-  /// @brief Field other, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_other, put = __cordl_internal_set_other)) ::Org::BouncyCastle::Asn1::Cms::OtherKeyAttribute* other;
+/// @brief Field other, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_other, put=__cordl_internal_set_other)) ::Org::BouncyCastle::Asn1::Cms::OtherKeyAttribute*  other;
 
-  /// @brief Method GetInstance, addr 0x329bda8, size 0x14, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::Cms::KekIdentifier* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
+/// @brief Method GetInstance, addr 0x329cb44, size 0x14, virtual false, abstract: false, final false
+static inline ::Org::BouncyCastle::Asn1::Cms::KekIdentifier* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject*  obj, bool  explicitly) ;
 
-  /// @brief Method GetInstance, addr 0x329bdbc, size 0x170, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::Cms::KekIdentifier* GetInstance(::System::Object* obj);
+/// @brief Method GetInstance, addr 0x329cb58, size 0x170, virtual false, abstract: false, final false
+static inline ::Org::BouncyCastle::Asn1::Cms::KekIdentifier* GetInstance(::System::Object*  obj) ;
 
-  static inline ::Org::BouncyCastle::Asn1::Cms::KekIdentifier* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> keyIdentifier, ::Org::BouncyCastle::Asn1::DerGeneralizedTime* date,
-                                                                        ::Org::BouncyCastle::Asn1::Cms::OtherKeyAttribute* other);
+static inline ::Org::BouncyCastle::Asn1::Cms::KekIdentifier* New_ctor(::ArrayW<uint8_t,::Array<uint8_t>*>  keyIdentifier, ::Org::BouncyCastle::Asn1::DerGeneralizedTime*  date, ::Org::BouncyCastle::Asn1::Cms::OtherKeyAttribute*  other) ;
 
-  static inline ::Org::BouncyCastle::Asn1::Cms::KekIdentifier* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
+static inline ::Org::BouncyCastle::Asn1::Cms::KekIdentifier* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence*  seq) ;
 
-  /// @brief Method ToAsn1Object, addr 0x329bf44, size 0x180, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
+/// @brief Method ToAsn1Object, addr 0x329cce0, size 0x180, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object() ;
 
-  constexpr ::Org::BouncyCastle::Asn1::DerGeneralizedTime* const& __cordl_internal_get_date() const;
+constexpr ::Org::BouncyCastle::Asn1::DerGeneralizedTime* const& __cordl_internal_get_date() const;
 
-  constexpr ::Org::BouncyCastle::Asn1::DerGeneralizedTime*& __cordl_internal_get_date();
+constexpr ::Org::BouncyCastle::Asn1::DerGeneralizedTime*& __cordl_internal_get_date() ;
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString* const& __cordl_internal_get_keyIdentifier() const;
+constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString* const& __cordl_internal_get_keyIdentifier() const;
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString*& __cordl_internal_get_keyIdentifier();
+constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString*& __cordl_internal_get_keyIdentifier() ;
 
-  constexpr ::Org::BouncyCastle::Asn1::Cms::OtherKeyAttribute* const& __cordl_internal_get_other() const;
+constexpr ::Org::BouncyCastle::Asn1::Cms::OtherKeyAttribute* const& __cordl_internal_get_other() const;
 
-  constexpr ::Org::BouncyCastle::Asn1::Cms::OtherKeyAttribute*& __cordl_internal_get_other();
+constexpr ::Org::BouncyCastle::Asn1::Cms::OtherKeyAttribute*& __cordl_internal_get_other() ;
 
-  constexpr void __cordl_internal_set_date(::Org::BouncyCastle::Asn1::DerGeneralizedTime* value);
+constexpr void __cordl_internal_set_date(::Org::BouncyCastle::Asn1::DerGeneralizedTime*  value) ;
 
-  constexpr void __cordl_internal_set_keyIdentifier(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
+constexpr void __cordl_internal_set_keyIdentifier(::Org::BouncyCastle::Asn1::Asn1OctetString*  value) ;
 
-  constexpr void __cordl_internal_set_other(::Org::BouncyCastle::Asn1::Cms::OtherKeyAttribute* value);
+constexpr void __cordl_internal_set_other(::Org::BouncyCastle::Asn1::Cms::OtherKeyAttribute*  value) ;
 
-  /// @brief Method .ctor, addr 0x329b900, size 0x7c, virtual false, abstract: false, final false
-  inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> keyIdentifier, ::Org::BouncyCastle::Asn1::DerGeneralizedTime* date, ::Org::BouncyCastle::Asn1::Cms::OtherKeyAttribute* other);
+/// @brief Method .ctor, addr 0x329c69c, size 0x7c, virtual false, abstract: false, final false
+inline void _ctor(::ArrayW<uint8_t,::Array<uint8_t>*>  keyIdentifier, ::Org::BouncyCastle::Asn1::DerGeneralizedTime*  date, ::Org::BouncyCastle::Asn1::Cms::OtherKeyAttribute*  other) ;
 
-  /// @brief Method .ctor, addr 0x329b97c, size 0x2a8, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
+/// @brief Method .ctor, addr 0x329c718, size 0x2a8, virtual false, abstract: false, final false
+inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence*  seq) ;
 
-  /// @brief Method get_Date, addr 0x329bf34, size 0x8, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::DerGeneralizedTime* get_Date();
+/// @brief Method get_Date, addr 0x329ccd0, size 0x8, virtual false, abstract: false, final false
+inline ::Org::BouncyCastle::Asn1::DerGeneralizedTime* get_Date() ;
 
-  /// @brief Method get_KeyIdentifier, addr 0x329bf2c, size 0x8, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Asn1OctetString* get_KeyIdentifier();
+/// @brief Method get_KeyIdentifier, addr 0x329ccc8, size 0x8, virtual false, abstract: false, final false
+inline ::Org::BouncyCastle::Asn1::Asn1OctetString* get_KeyIdentifier() ;
 
-  /// @brief Method get_Other, addr 0x329bf3c, size 0x8, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Cms::OtherKeyAttribute* get_Other();
+/// @brief Method get_Other, addr 0x329ccd8, size 0x8, virtual false, abstract: false, final false
+inline ::Org::BouncyCastle::Asn1::Cms::OtherKeyAttribute* get_Other() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr KekIdentifier();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr KekIdentifier() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "KekIdentifier", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  KekIdentifier(KekIdentifier&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "KekIdentifier", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  KekIdentifier(KekIdentifier const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "KekIdentifier", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+KekIdentifier(KekIdentifier && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 75 };
+// Ctor Parameters [CppParam { name: "", ty: "KekIdentifier", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+KekIdentifier(KekIdentifier const& ) = delete;
 
-  /// @brief Field keyIdentifier, offset: 0x10, size: 0x8, def value: None
-  ::Org::BouncyCastle::Asn1::Asn1OctetString* ___keyIdentifier;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{75};
 
-  /// @brief Field date, offset: 0x18, size: 0x8, def value: None
-  ::Org::BouncyCastle::Asn1::DerGeneralizedTime* ___date;
+/// @brief Field keyIdentifier, offset: 0x10, size: 0x8, def value: None
+ ::Org::BouncyCastle::Asn1::Asn1OctetString*  ___keyIdentifier;
 
-  /// @brief Field other, offset: 0x20, size: 0x8, def value: None
-  ::Org::BouncyCastle::Asn1::Cms::OtherKeyAttribute* ___other;
+/// @brief Field date, offset: 0x18, size: 0x8, def value: None
+ ::Org::BouncyCastle::Asn1::DerGeneralizedTime*  ___date;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field other, offset: 0x20, size: 0x8, def value: None
+ ::Org::BouncyCastle::Asn1::Cms::OtherKeyAttribute*  ___other;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Org::BouncyCastle::Asn1::Cms::KekIdentifier, ___keyIdentifier) == 0x10, "Offset mismatch!");
@@ -139,6 +138,6 @@ static_assert(offsetof(::Org::BouncyCastle::Asn1::Cms::KekIdentifier, ___other) 
 
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Cms::KekIdentifier, 0x28>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Asn1::Cms
+} // namespace end def Org::BouncyCastle::Asn1::Cms
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Cms::KekIdentifier);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::Cms::KekIdentifier*, "Org.BouncyCastle.Asn1.Cms", "KekIdentifier");

@@ -13,60 +13,57 @@ struct SDKPriority;
 }
 // Write type traits
 MARK_VAL_T(::LIV::SDK::Unity::SDKPriority);
-// Dependencies
+// Dependencies 
 namespace LIV::SDK::Unity {
 // Is value type: true
 // CS Name: LIV.SDK.Unity.SDKPriority
 struct CORDL_TYPE SDKPriority {
 public:
-  // Declarations
-  /// @brief Method ToString, addr 0x576f754, size 0x260, virtual true, abstract: false, final false
-  inline ::StringW ToString();
+// Declarations
+/// @brief Method ToString, addr 0x5770fbc, size 0x260, virtual true, abstract: false, final false
+inline ::StringW ToString() ;
 
-  /// @brief Method get_empty, addr 0x576f748, size 0xc, virtual false, abstract: false, final false
-  static inline ::LIV::SDK::Unity::SDKPriority get_empty();
+/// @brief Method get_empty, addr 0x5770fb0, size 0xc, virtual false, abstract: false, final false
+static inline ::LIV::SDK::Unity::SDKPriority get_empty() ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SDKPriority();
+// Ctor Parameters []
+// @brief default ctor
+constexpr SDKPriority() ;
 
-  // Ctor Parameters [CppParam { name: "pose", ty: "int8_t", modifiers: "", def_value: None }, CppParam { name: "clipPlane", ty: "int8_t", modifiers: "", def_value: None }, CppParam { name: "stage",
-  // ty: "int8_t", modifiers: "", def_value: None }, CppParam { name: "resolution", ty: "int8_t", modifiers: "", def_value: None }, CppParam { name: "feature", ty: "int8_t", modifiers: "", def_value:
-  // None }, CppParam { name: "nearFarAdjustment", ty: "int8_t", modifiers: "", def_value: None }, CppParam { name: "groundPlane", ty: "int8_t", modifiers: "", def_value: None }, CppParam { name:
-  // "reserved2", ty: "int8_t", modifiers: "", def_value: None }]
-  constexpr SDKPriority(int8_t pose, int8_t clipPlane, int8_t stage, int8_t resolution, int8_t feature, int8_t nearFarAdjustment, int8_t groundPlane, int8_t reserved2) noexcept;
+// Ctor Parameters [CppParam { name: "pose", ty: "int8_t", modifiers: "", def_value: None }, CppParam { name: "clipPlane", ty: "int8_t", modifiers: "", def_value: None }, CppParam { name: "stage", ty: "int8_t", modifiers: "", def_value: None }, CppParam { name: "resolution", ty: "int8_t", modifiers: "", def_value: None }, CppParam { name: "feature", ty: "int8_t", modifiers: "", def_value: None }, CppParam { name: "nearFarAdjustment", ty: "int8_t", modifiers: "", def_value: None }, CppParam { name: "groundPlane", ty: "int8_t", modifiers: "", def_value: None }, CppParam { name: "reserved2", ty: "int8_t", modifiers: "", def_value: None }]
+constexpr SDKPriority(int8_t  pose, int8_t  clipPlane, int8_t  stage, int8_t  resolution, int8_t  feature, int8_t  nearFarAdjustment, int8_t  groundPlane, int8_t  reserved2) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21325 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{21328};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x8};
 
-  /// @brief Field pose, offset: 0x0, size: 0x1, def value: None
-  int8_t pose;
+/// @brief Field pose, offset: 0x0, size: 0x1, def value: None
+ int8_t  pose;
 
-  /// @brief Field clipPlane, offset: 0x1, size: 0x1, def value: None
-  int8_t clipPlane;
+/// @brief Field clipPlane, offset: 0x1, size: 0x1, def value: None
+ int8_t  clipPlane;
 
-  /// @brief Field stage, offset: 0x2, size: 0x1, def value: None
-  int8_t stage;
+/// @brief Field stage, offset: 0x2, size: 0x1, def value: None
+ int8_t  stage;
 
-  /// @brief Field resolution, offset: 0x3, size: 0x1, def value: None
-  int8_t resolution;
+/// @brief Field resolution, offset: 0x3, size: 0x1, def value: None
+ int8_t  resolution;
 
-  /// @brief Field feature, offset: 0x4, size: 0x1, def value: None
-  int8_t feature;
+/// @brief Field feature, offset: 0x4, size: 0x1, def value: None
+ int8_t  feature;
 
-  /// @brief Field nearFarAdjustment, offset: 0x5, size: 0x1, def value: None
-  int8_t nearFarAdjustment;
+/// @brief Field nearFarAdjustment, offset: 0x5, size: 0x1, def value: None
+ int8_t  nearFarAdjustment;
 
-  /// @brief Field groundPlane, offset: 0x6, size: 0x1, def value: None
-  int8_t groundPlane;
+/// @brief Field groundPlane, offset: 0x6, size: 0x1, def value: None
+ int8_t  groundPlane;
 
-  /// @brief Field reserved2, offset: 0x7, size: 0x1, def value: None
-  int8_t reserved2;
+/// @brief Field reserved2, offset: 0x7, size: 0x1, def value: None
+ int8_t  reserved2;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::LIV::SDK::Unity::SDKPriority, pose) == 0x0, "Offset mismatch!");
@@ -87,5 +84,5 @@ static_assert(offsetof(::LIV::SDK::Unity::SDKPriority, reserved2) == 0x7, "Offse
 
 static_assert(::cordl_internals::size_check_v<::LIV::SDK::Unity::SDKPriority, 0x8>, "Size mismatch!");
 
-} // namespace LIV::SDK::Unity
+} // namespace end def LIV::SDK::Unity
 DEFINE_IL2CPP_ARG_TYPE(::LIV::SDK::Unity::SDKPriority, "LIV.SDK.Unity", "SDKPriority");

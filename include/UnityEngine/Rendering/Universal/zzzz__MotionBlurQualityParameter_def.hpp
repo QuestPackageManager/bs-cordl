@@ -21,34 +21,34 @@ namespace UnityEngine::Rendering::Universal {
 // CS Name: UnityEngine.Rendering.Universal.MotionBlurQualityParameter
 class CORDL_TYPE MotionBlurQualityParameter : public ::UnityEngine::Rendering::VolumeParameter_1<::UnityEngine::Rendering::Universal::MotionBlurQuality> {
 public:
-  // Declarations
-  static inline ::UnityEngine::Rendering::Universal::MotionBlurQualityParameter* New_ctor(::UnityEngine::Rendering::Universal::MotionBlurQuality value, bool overrideState);
+// Declarations
+static inline ::UnityEngine::Rendering::Universal::MotionBlurQualityParameter* New_ctor(::UnityEngine::Rendering::Universal::MotionBlurQuality  value, bool  overrideState) ;
 
-  /// @brief Method .ctor, addr 0x67394e4, size 0x64, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::Rendering::Universal::MotionBlurQuality value, bool overrideState);
+/// @brief Method .ctor, addr 0x673b05c, size 0x64, virtual false, abstract: false, final false
+inline void _ctor(::UnityEngine::Rendering::Universal::MotionBlurQuality  value, bool  overrideState) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MotionBlurQualityParameter();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr MotionBlurQualityParameter() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MotionBlurQualityParameter", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  MotionBlurQualityParameter(MotionBlurQualityParameter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MotionBlurQualityParameter", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  MotionBlurQualityParameter(MotionBlurQualityParameter const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "MotionBlurQualityParameter", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+MotionBlurQualityParameter(MotionBlurQualityParameter && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12789 };
+// Ctor Parameters [CppParam { name: "", ty: "MotionBlurQualityParameter", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+MotionBlurQualityParameter(MotionBlurQualityParameter const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12790};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::Universal::MotionBlurQualityParameter, 0x18>, "Size mismatch!");
 
-} // namespace UnityEngine::Rendering::Universal
+} // namespace end def UnityEngine::Rendering::Universal
 NEED_NO_BOX(::UnityEngine::Rendering::Universal::MotionBlurQualityParameter);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::Universal::MotionBlurQualityParameter*, "UnityEngine.Rendering.Universal", "MotionBlurQualityParameter");

@@ -17,37 +17,37 @@ namespace GlobalNamespace {
 // CS Name: AppInitSetupInstaller
 class CORDL_TYPE AppInitSetupInstaller : public ::Zenject::MonoInstaller {
 public:
-  // Declarations
-  /// @brief Method InstallBindings, addr 0x36ab544, size 0x74, virtual true, abstract: false, final false
-  inline void InstallBindings();
+// Declarations
+/// @brief Method InstallBindings, addr 0x36ac8d8, size 0x74, virtual true, abstract: false, final false
+inline void InstallBindings() ;
 
-  static inline ::GlobalNamespace::AppInitSetupInstaller* New_ctor();
+static inline ::GlobalNamespace::AppInitSetupInstaller* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x36ab5b8, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x36ac94c, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AppInitSetupInstaller();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr AppInitSetupInstaller() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AppInitSetupInstaller", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  AppInitSetupInstaller(AppInitSetupInstaller&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AppInitSetupInstaller", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  AppInitSetupInstaller(AppInitSetupInstaller const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "AppInitSetupInstaller", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+AppInitSetupInstaller(AppInitSetupInstaller && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20919 };
+// Ctor Parameters [CppParam { name: "", ty: "AppInitSetupInstaller", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+AppInitSetupInstaller(AppInitSetupInstaller const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20922};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::AppInitSetupInstaller, 0x28>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::AppInitSetupInstaller);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::AppInitSetupInstaller*, "", "AppInitSetupInstaller");

@@ -24,108 +24,107 @@ namespace System::Runtime::Serialization::Formatters::Binary {
 // CS Name: System.Runtime.Serialization.Formatters.Binary.SerObjectInfoCache
 class CORDL_TYPE SerObjectInfoCache : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field assemblyString, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_assemblyString, put = __cordl_internal_set_assemblyString)) ::StringW assemblyString;
+// Declarations
+/// @brief Field assemblyString, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_assemblyString, put=__cordl_internal_set_assemblyString)) ::StringW  assemblyString;
 
-  /// @brief Field fullTypeName, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_fullTypeName, put = __cordl_internal_set_fullTypeName)) ::StringW fullTypeName;
+/// @brief Field fullTypeName, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_fullTypeName, put=__cordl_internal_set_fullTypeName)) ::StringW  fullTypeName;
 
-  /// @brief Field hasTypeForwardedFrom, offset 0x20, size 0x1
-  __declspec(property(get = __cordl_internal_get_hasTypeForwardedFrom, put = __cordl_internal_set_hasTypeForwardedFrom)) bool hasTypeForwardedFrom;
+/// @brief Field hasTypeForwardedFrom, offset 0x20, size 0x1 
+ __declspec(property(get=__cordl_internal_get_hasTypeForwardedFrom, put=__cordl_internal_set_hasTypeForwardedFrom)) bool  hasTypeForwardedFrom;
 
-  /// @brief Field memberInfos, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_memberInfos, put = __cordl_internal_set_memberInfos)) ::ArrayW<::System::Reflection::MemberInfo*, ::Array<::System::Reflection::MemberInfo*>*>
-      memberInfos;
+/// @brief Field memberInfos, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get_memberInfos, put=__cordl_internal_set_memberInfos)) ::ArrayW<::System::Reflection::MemberInfo*,::Array<::System::Reflection::MemberInfo*>*>  memberInfos;
 
-  /// @brief Field memberNames, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_memberNames, put = __cordl_internal_set_memberNames)) ::ArrayW<::StringW, ::Array<::StringW>*> memberNames;
+/// @brief Field memberNames, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get_memberNames, put=__cordl_internal_set_memberNames)) ::ArrayW<::StringW,::Array<::StringW>*>  memberNames;
 
-  /// @brief Field memberTypes, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_memberTypes, put = __cordl_internal_set_memberTypes)) ::ArrayW<::System::Type*, ::Array<::System::Type*>*> memberTypes;
+/// @brief Field memberTypes, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get_memberTypes, put=__cordl_internal_set_memberTypes)) ::ArrayW<::System::Type*,::Array<::System::Type*>*>  memberTypes;
 
-  static inline ::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache* New_ctor(::System::Type* type);
+static inline ::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache* New_ctor(::System::Type*  type) ;
 
-  static inline ::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache* New_ctor(::StringW typeName, ::StringW assemblyName, bool hasTypeForwardedFrom);
+static inline ::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache* New_ctor(::StringW  typeName, ::StringW  assemblyName, bool  hasTypeForwardedFrom) ;
 
-  constexpr ::StringW const& __cordl_internal_get_assemblyString() const;
+constexpr ::StringW const& __cordl_internal_get_assemblyString() const;
 
-  constexpr ::StringW& __cordl_internal_get_assemblyString();
+constexpr ::StringW& __cordl_internal_get_assemblyString() ;
 
-  constexpr ::StringW const& __cordl_internal_get_fullTypeName() const;
+constexpr ::StringW const& __cordl_internal_get_fullTypeName() const;
 
-  constexpr ::StringW& __cordl_internal_get_fullTypeName();
+constexpr ::StringW& __cordl_internal_get_fullTypeName() ;
 
-  constexpr bool const& __cordl_internal_get_hasTypeForwardedFrom() const;
+constexpr bool const& __cordl_internal_get_hasTypeForwardedFrom() const;
 
-  constexpr bool& __cordl_internal_get_hasTypeForwardedFrom();
+constexpr bool& __cordl_internal_get_hasTypeForwardedFrom() ;
 
-  constexpr ::ArrayW<::System::Reflection::MemberInfo*, ::Array<::System::Reflection::MemberInfo*>*> const& __cordl_internal_get_memberInfos() const;
+constexpr ::ArrayW<::System::Reflection::MemberInfo*,::Array<::System::Reflection::MemberInfo*>*> const& __cordl_internal_get_memberInfos() const;
 
-  constexpr ::ArrayW<::System::Reflection::MemberInfo*, ::Array<::System::Reflection::MemberInfo*>*>& __cordl_internal_get_memberInfos();
+constexpr ::ArrayW<::System::Reflection::MemberInfo*,::Array<::System::Reflection::MemberInfo*>*>& __cordl_internal_get_memberInfos() ;
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get_memberNames() const;
+constexpr ::ArrayW<::StringW,::Array<::StringW>*> const& __cordl_internal_get_memberNames() const;
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get_memberNames();
+constexpr ::ArrayW<::StringW,::Array<::StringW>*>& __cordl_internal_get_memberNames() ;
 
-  constexpr ::ArrayW<::System::Type*, ::Array<::System::Type*>*> const& __cordl_internal_get_memberTypes() const;
+constexpr ::ArrayW<::System::Type*,::Array<::System::Type*>*> const& __cordl_internal_get_memberTypes() const;
 
-  constexpr ::ArrayW<::System::Type*, ::Array<::System::Type*>*>& __cordl_internal_get_memberTypes();
+constexpr ::ArrayW<::System::Type*,::Array<::System::Type*>*>& __cordl_internal_get_memberTypes() ;
 
-  constexpr void __cordl_internal_set_assemblyString(::StringW value);
+constexpr void __cordl_internal_set_assemblyString(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_fullTypeName(::StringW value);
+constexpr void __cordl_internal_set_fullTypeName(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_hasTypeForwardedFrom(bool value);
+constexpr void __cordl_internal_set_hasTypeForwardedFrom(bool  value) ;
 
-  constexpr void __cordl_internal_set_memberInfos(::ArrayW<::System::Reflection::MemberInfo*, ::Array<::System::Reflection::MemberInfo*>*> value);
+constexpr void __cordl_internal_set_memberInfos(::ArrayW<::System::Reflection::MemberInfo*,::Array<::System::Reflection::MemberInfo*>*>  value) ;
 
-  constexpr void __cordl_internal_set_memberNames(::ArrayW<::StringW, ::Array<::StringW>*> value);
+constexpr void __cordl_internal_set_memberNames(::ArrayW<::StringW,::Array<::StringW>*>  value) ;
 
-  constexpr void __cordl_internal_set_memberTypes(::ArrayW<::System::Type*, ::Array<::System::Type*>*> value);
+constexpr void __cordl_internal_set_memberTypes(::ArrayW<::System::Type*,::Array<::System::Type*>*>  value) ;
 
-  /// @brief Method .ctor, addr 0x5a21528, size 0x84, virtual false, abstract: false, final false
-  inline void _ctor(::System::Type* type);
+/// @brief Method .ctor, addr 0x5a230a0, size 0x84, virtual false, abstract: false, final false
+inline void _ctor(::System::Type*  type) ;
 
-  /// @brief Method .ctor, addr 0x5a215ac, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor(::StringW typeName, ::StringW assemblyName, bool hasTypeForwardedFrom);
+/// @brief Method .ctor, addr 0x5a23124, size 0xc, virtual false, abstract: false, final false
+inline void _ctor(::StringW  typeName, ::StringW  assemblyName, bool  hasTypeForwardedFrom) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SerObjectInfoCache();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr SerObjectInfoCache() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SerObjectInfoCache", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  SerObjectInfoCache(SerObjectInfoCache&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SerObjectInfoCache", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  SerObjectInfoCache(SerObjectInfoCache const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "SerObjectInfoCache", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+SerObjectInfoCache(SerObjectInfoCache && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3297 };
+// Ctor Parameters [CppParam { name: "", ty: "SerObjectInfoCache", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+SerObjectInfoCache(SerObjectInfoCache const& ) = delete;
 
-  /// @brief Field fullTypeName, offset: 0x10, size: 0x8, def value: None
-  ::StringW ___fullTypeName;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{3297};
 
-  /// @brief Field assemblyString, offset: 0x18, size: 0x8, def value: None
-  ::StringW ___assemblyString;
+/// @brief Field fullTypeName, offset: 0x10, size: 0x8, def value: None
+ ::StringW  ___fullTypeName;
 
-  /// @brief Field hasTypeForwardedFrom, offset: 0x20, size: 0x1, def value: None
-  bool ___hasTypeForwardedFrom;
+/// @brief Field assemblyString, offset: 0x18, size: 0x8, def value: None
+ ::StringW  ___assemblyString;
 
-  /// @brief Field memberInfos, offset: 0x28, size: 0x8, def value: None
-  ::ArrayW<::System::Reflection::MemberInfo*, ::Array<::System::Reflection::MemberInfo*>*> ___memberInfos;
+/// @brief Field hasTypeForwardedFrom, offset: 0x20, size: 0x1, def value: None
+ bool  ___hasTypeForwardedFrom;
 
-  /// @brief Field memberNames, offset: 0x30, size: 0x8, def value: None
-  ::ArrayW<::StringW, ::Array<::StringW>*> ___memberNames;
+/// @brief Field memberInfos, offset: 0x28, size: 0x8, def value: None
+ ::ArrayW<::System::Reflection::MemberInfo*,::Array<::System::Reflection::MemberInfo*>*>  ___memberInfos;
 
-  /// @brief Field memberTypes, offset: 0x38, size: 0x8, def value: None
-  ::ArrayW<::System::Type*, ::Array<::System::Type*>*> ___memberTypes;
+/// @brief Field memberNames, offset: 0x30, size: 0x8, def value: None
+ ::ArrayW<::StringW,::Array<::StringW>*>  ___memberNames;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field memberTypes, offset: 0x38, size: 0x8, def value: None
+ ::ArrayW<::System::Type*,::Array<::System::Type*>*>  ___memberTypes;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache, ___fullTypeName) == 0x10, "Offset mismatch!");
@@ -142,6 +141,6 @@ static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::Ser
 
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache, 0x40>, "Size mismatch!");
 
-} // namespace System::Runtime::Serialization::Formatters::Binary
+} // namespace end def System::Runtime::Serialization::Formatters::Binary
 NEED_NO_BOX(::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache);
 DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache*, "System.Runtime.Serialization.Formatters.Binary", "SerObjectInfoCache");

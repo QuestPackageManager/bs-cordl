@@ -33,60 +33,60 @@ namespace System::Runtime::Serialization {
 // CS Name: System.Runtime.Serialization.ObjectDataContract
 class CORDL_TYPE ObjectDataContract : public ::System::Runtime::Serialization::PrimitiveDataContract {
 public:
-  // Declarations
-  __declspec(property(get = get_CanContainReferences)) bool CanContainReferences;
+// Declarations
+ __declspec(property(get=get_CanContainReferences)) bool  CanContainReferences;
 
-  __declspec(property(get = get_IsPrimitive)) bool IsPrimitive;
+ __declspec(property(get=get_IsPrimitive)) bool  IsPrimitive;
 
-  __declspec(property(get = get_ReadMethodName)) ::StringW ReadMethodName;
+ __declspec(property(get=get_ReadMethodName)) ::StringW  ReadMethodName;
 
-  __declspec(property(get = get_WriteMethodName)) ::StringW WriteMethodName;
+ __declspec(property(get=get_WriteMethodName)) ::StringW  WriteMethodName;
 
-  static inline ::System::Runtime::Serialization::ObjectDataContract* New_ctor();
+static inline ::System::Runtime::Serialization::ObjectDataContract* New_ctor() ;
 
-  /// @brief Method ReadXmlValue, addr 0x601bf34, size 0x1cc, virtual true, abstract: false, final false
-  inline ::System::Object* ReadXmlValue(::System::Runtime::Serialization::XmlReaderDelegator* reader, ::System::Runtime::Serialization::XmlObjectSerializerReadContext* context);
+/// @brief Method ReadXmlValue, addr 0x601daac, size 0x1cc, virtual true, abstract: false, final false
+inline ::System::Object* ReadXmlValue(::System::Runtime::Serialization::XmlReaderDelegator*  reader, ::System::Runtime::Serialization::XmlObjectSerializerReadContext*  context) ;
 
-  /// @brief Method WriteXmlValue, addr 0x601bf30, size 0x4, virtual true, abstract: false, final false
-  inline void WriteXmlValue(::System::Runtime::Serialization::XmlWriterDelegator* writer, ::System::Object* obj, ::System::Runtime::Serialization::XmlObjectSerializerWriteContext* context);
+/// @brief Method WriteXmlValue, addr 0x601daa8, size 0x4, virtual true, abstract: false, final false
+inline void WriteXmlValue(::System::Runtime::Serialization::XmlWriterDelegator*  writer, ::System::Object*  obj, ::System::Runtime::Serialization::XmlObjectSerializerWriteContext*  context) ;
 
-  /// @brief Method .ctor, addr 0x601be0c, size 0x9c, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x601d984, size 0x9c, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_CanContainReferences, addr 0x601c17c, size 0x8, virtual true, abstract: false, final false
-  inline bool get_CanContainReferences();
+/// @brief Method get_CanContainReferences, addr 0x601dcf4, size 0x8, virtual true, abstract: false, final false
+inline bool get_CanContainReferences() ;
 
-  /// @brief Method get_IsPrimitive, addr 0x601c184, size 0x8, virtual true, abstract: false, final false
-  inline bool get_IsPrimitive();
+/// @brief Method get_IsPrimitive, addr 0x601dcfc, size 0x8, virtual true, abstract: false, final false
+inline bool get_IsPrimitive() ;
 
-  /// @brief Method get_ReadMethodName, addr 0x601beec, size 0x44, virtual true, abstract: false, final false
-  inline ::StringW get_ReadMethodName();
+/// @brief Method get_ReadMethodName, addr 0x601da64, size 0x44, virtual true, abstract: false, final false
+inline ::StringW get_ReadMethodName() ;
 
-  /// @brief Method get_WriteMethodName, addr 0x601bea8, size 0x44, virtual true, abstract: false, final false
-  inline ::StringW get_WriteMethodName();
+/// @brief Method get_WriteMethodName, addr 0x601da20, size 0x44, virtual true, abstract: false, final false
+inline ::StringW get_WriteMethodName() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ObjectDataContract();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ObjectDataContract() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ObjectDataContract", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ObjectDataContract(ObjectDataContract&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ObjectDataContract", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ObjectDataContract(ObjectDataContract const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ObjectDataContract", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ObjectDataContract(ObjectDataContract && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17083 };
+// Ctor Parameters [CppParam { name: "", ty: "ObjectDataContract", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ObjectDataContract(ObjectDataContract const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{17085};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::ObjectDataContract, 0x30>, "Size mismatch!");
 
-} // namespace System::Runtime::Serialization
+} // namespace end def System::Runtime::Serialization
 NEED_NO_BOX(::System::Runtime::Serialization::ObjectDataContract);
 DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::ObjectDataContract*, "System.Runtime.Serialization", "ObjectDataContract");

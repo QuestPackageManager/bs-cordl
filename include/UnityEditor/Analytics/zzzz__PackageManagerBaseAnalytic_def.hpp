@@ -19,102 +19,102 @@ namespace UnityEditor::Analytics {
 // CS Name: UnityEditor.Analytics.PackageManagerBaseAnalytic
 class CORDL_TYPE PackageManagerBaseAnalytic : public ::UnityEngine::Analytics::AnalyticsEventBase {
 public:
-  // Declarations
-  /// @brief Field blocking, offset 0x40, size 0x1
-  __declspec(property(get = __cordl_internal_get_blocking, put = __cordl_internal_set_blocking)) bool blocking;
+// Declarations
+/// @brief Field blocking, offset 0x40, size 0x1 
+ __declspec(property(get=__cordl_internal_get_blocking, put=__cordl_internal_set_blocking)) bool  blocking;
 
-  /// @brief Field duration, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_duration, put = __cordl_internal_set_duration)) int64_t duration;
+/// @brief Field duration, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get_duration, put=__cordl_internal_set_duration)) int64_t  duration;
 
-  /// @brief Field error_message, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get_error_message, put = __cordl_internal_set_error_message)) ::StringW error_message;
+/// @brief Field error_message, offset 0x58, size 0x8 
+ __declspec(property(get=__cordl_internal_get_error_message, put=__cordl_internal_set_error_message)) ::StringW  error_message;
 
-  /// @brief Field package_id, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_package_id, put = __cordl_internal_set_package_id)) ::StringW package_id;
+/// @brief Field package_id, offset 0x48, size 0x8 
+ __declspec(property(get=__cordl_internal_get_package_id, put=__cordl_internal_set_package_id)) ::StringW  package_id;
 
-  /// @brief Field start_ts, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_start_ts, put = __cordl_internal_set_start_ts)) int64_t start_ts;
+/// @brief Field start_ts, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get_start_ts, put=__cordl_internal_set_start_ts)) int64_t  start_ts;
 
-  /// @brief Field status_code, offset 0x50, size 0x4
-  __declspec(property(get = __cordl_internal_get_status_code, put = __cordl_internal_set_status_code)) int32_t status_code;
+/// @brief Field status_code, offset 0x50, size 0x4 
+ __declspec(property(get=__cordl_internal_get_status_code, put=__cordl_internal_set_status_code)) int32_t  status_code;
 
-  static inline ::UnityEditor::Analytics::PackageManagerBaseAnalytic* New_ctor(::StringW eventName);
+static inline ::UnityEditor::Analytics::PackageManagerBaseAnalytic* New_ctor(::StringW  eventName) ;
 
-  constexpr bool const& __cordl_internal_get_blocking() const;
+constexpr bool const& __cordl_internal_get_blocking() const;
 
-  constexpr bool& __cordl_internal_get_blocking();
+constexpr bool& __cordl_internal_get_blocking() ;
 
-  constexpr int64_t const& __cordl_internal_get_duration() const;
+constexpr int64_t const& __cordl_internal_get_duration() const;
 
-  constexpr int64_t& __cordl_internal_get_duration();
+constexpr int64_t& __cordl_internal_get_duration() ;
 
-  constexpr ::StringW const& __cordl_internal_get_error_message() const;
+constexpr ::StringW const& __cordl_internal_get_error_message() const;
 
-  constexpr ::StringW& __cordl_internal_get_error_message();
+constexpr ::StringW& __cordl_internal_get_error_message() ;
 
-  constexpr ::StringW const& __cordl_internal_get_package_id() const;
+constexpr ::StringW const& __cordl_internal_get_package_id() const;
 
-  constexpr ::StringW& __cordl_internal_get_package_id();
+constexpr ::StringW& __cordl_internal_get_package_id() ;
 
-  constexpr int64_t const& __cordl_internal_get_start_ts() const;
+constexpr int64_t const& __cordl_internal_get_start_ts() const;
 
-  constexpr int64_t& __cordl_internal_get_start_ts();
+constexpr int64_t& __cordl_internal_get_start_ts() ;
 
-  constexpr int32_t const& __cordl_internal_get_status_code() const;
+constexpr int32_t const& __cordl_internal_get_status_code() const;
 
-  constexpr int32_t& __cordl_internal_get_status_code();
+constexpr int32_t& __cordl_internal_get_status_code() ;
 
-  constexpr void __cordl_internal_set_blocking(bool value);
+constexpr void __cordl_internal_set_blocking(bool  value) ;
 
-  constexpr void __cordl_internal_set_duration(int64_t value);
+constexpr void __cordl_internal_set_duration(int64_t  value) ;
 
-  constexpr void __cordl_internal_set_error_message(::StringW value);
+constexpr void __cordl_internal_set_error_message(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_package_id(::StringW value);
+constexpr void __cordl_internal_set_package_id(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_start_ts(int64_t value);
+constexpr void __cordl_internal_set_start_ts(int64_t  value) ;
 
-  constexpr void __cordl_internal_set_status_code(int32_t value);
+constexpr void __cordl_internal_set_status_code(int32_t  value) ;
 
-  /// @brief Method .ctor, addr 0x6ccc3c0, size 0x68, virtual false, abstract: false, final false
-  inline void _ctor(::StringW eventName);
+/// @brief Method .ctor, addr 0x6ccdf38, size 0x68, virtual false, abstract: false, final false
+inline void _ctor(::StringW  eventName) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PackageManagerBaseAnalytic();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr PackageManagerBaseAnalytic() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PackageManagerBaseAnalytic", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  PackageManagerBaseAnalytic(PackageManagerBaseAnalytic&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PackageManagerBaseAnalytic", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  PackageManagerBaseAnalytic(PackageManagerBaseAnalytic const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "PackageManagerBaseAnalytic", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+PackageManagerBaseAnalytic(PackageManagerBaseAnalytic && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22701 };
+// Ctor Parameters [CppParam { name: "", ty: "PackageManagerBaseAnalytic", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+PackageManagerBaseAnalytic(PackageManagerBaseAnalytic const& ) = delete;
 
-  /// @brief Field start_ts, offset: 0x30, size: 0x8, def value: None
-  int64_t ___start_ts;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22705};
 
-  /// @brief Field duration, offset: 0x38, size: 0x8, def value: None
-  int64_t ___duration;
+/// @brief Field start_ts, offset: 0x30, size: 0x8, def value: None
+ int64_t  ___start_ts;
 
-  /// @brief Field blocking, offset: 0x40, size: 0x1, def value: None
-  bool ___blocking;
+/// @brief Field duration, offset: 0x38, size: 0x8, def value: None
+ int64_t  ___duration;
 
-  /// @brief Field package_id, offset: 0x48, size: 0x8, def value: None
-  ::StringW ___package_id;
+/// @brief Field blocking, offset: 0x40, size: 0x1, def value: None
+ bool  ___blocking;
 
-  /// @brief Field status_code, offset: 0x50, size: 0x4, def value: None
-  int32_t ___status_code;
+/// @brief Field package_id, offset: 0x48, size: 0x8, def value: None
+ ::StringW  ___package_id;
 
-  /// @brief Field error_message, offset: 0x58, size: 0x8, def value: None
-  ::StringW ___error_message;
+/// @brief Field status_code, offset: 0x50, size: 0x4, def value: None
+ int32_t  ___status_code;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field error_message, offset: 0x58, size: 0x8, def value: None
+ ::StringW  ___error_message;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEditor::Analytics::PackageManagerBaseAnalytic, ___start_ts) == 0x30, "Offset mismatch!");
@@ -131,6 +131,6 @@ static_assert(offsetof(::UnityEditor::Analytics::PackageManagerBaseAnalytic, ___
 
 static_assert(::cordl_internals::size_check_v<::UnityEditor::Analytics::PackageManagerBaseAnalytic, 0x60>, "Size mismatch!");
 
-} // namespace UnityEditor::Analytics
+} // namespace end def UnityEditor::Analytics
 NEED_NO_BOX(::UnityEditor::Analytics::PackageManagerBaseAnalytic);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEditor::Analytics::PackageManagerBaseAnalytic*, "UnityEditor.Analytics", "PackageManagerBaseAnalytic");

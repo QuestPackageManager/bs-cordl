@@ -19,38 +19,36 @@ namespace Unity::Collections::LowLevel::Unsafe {
 // CS Name: Unity.Collections.LowLevel.Unsafe.UntypedUnsafeList
 struct CORDL_TYPE UntypedUnsafeList {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr UntypedUnsafeList();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr UntypedUnsafeList() ;
 
-  // Ctor Parameters [CppParam { name: "Ptr", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "m_length", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "m_capacity", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Allocator", ty: "::Unity::Collections::AllocatorManager_AllocatorHandle", modifiers: "", def_value: None },
-  // CppParam { name: "padding", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr UntypedUnsafeList(void* Ptr, int32_t m_length, int32_t m_capacity, ::Unity::Collections::AllocatorManager_AllocatorHandle Allocator, int32_t padding) noexcept;
+// Ctor Parameters [CppParam { name: "Ptr", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "m_length", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_capacity", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Allocator", ty: "::Unity::Collections::AllocatorManager_AllocatorHandle", modifiers: "", def_value: None }, CppParam { name: "padding", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr UntypedUnsafeList(void*  Ptr, int32_t  m_length, int32_t  m_capacity, ::Unity::Collections::AllocatorManager_AllocatorHandle  Allocator, int32_t  padding) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15754 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{15756};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x18};
 
-  /// @brief Field Ptr, offset: 0x0, size: 0x8, def value: None
-  void* Ptr;
+/// @brief Field Ptr, offset: 0x0, size: 0x8, def value: None
+ void*  Ptr;
 
-  /// @brief Field m_length, offset: 0x8, size: 0x4, def value: None
-  int32_t m_length;
+/// @brief Field m_length, offset: 0x8, size: 0x4, def value: None
+ int32_t  m_length;
 
-  /// @brief Field m_capacity, offset: 0xc, size: 0x4, def value: None
-  int32_t m_capacity;
+/// @brief Field m_capacity, offset: 0xc, size: 0x4, def value: None
+ int32_t  m_capacity;
 
-  /// @brief Field Allocator, offset: 0x10, size: 0x4, def value: None
-  ::Unity::Collections::AllocatorManager_AllocatorHandle Allocator;
+/// @brief Field Allocator, offset: 0x10, size: 0x4, def value: None
+ ::Unity::Collections::AllocatorManager_AllocatorHandle  Allocator;
 
-  /// @brief Field padding, offset: 0x14, size: 0x4, def value: None
-  int32_t padding;
+/// @brief Field padding, offset: 0x14, size: 0x4, def value: None
+ int32_t  padding;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::Unity::Collections::LowLevel::Unsafe::UntypedUnsafeList, Ptr) == 0x0, "Offset mismatch!");
@@ -65,5 +63,5 @@ static_assert(offsetof(::Unity::Collections::LowLevel::Unsafe::UntypedUnsafeList
 
 static_assert(::cordl_internals::size_check_v<::Unity::Collections::LowLevel::Unsafe::UntypedUnsafeList, 0x18>, "Size mismatch!");
 
-} // namespace Unity::Collections::LowLevel::Unsafe
+} // namespace end def Unity::Collections::LowLevel::Unsafe
 DEFINE_IL2CPP_ARG_TYPE(::Unity::Collections::LowLevel::Unsafe::UntypedUnsafeList, "Unity.Collections.LowLevel.Unsafe", "UntypedUnsafeList");

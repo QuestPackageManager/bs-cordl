@@ -20,34 +20,34 @@ namespace UnityEngine::UIElements {
 // CS Name: UnityEngine.UIElements.ImmediateModeException
 class CORDL_TYPE ImmediateModeException : public ::System::Exception {
 public:
-  // Declarations
-  static inline ::UnityEngine::UIElements::ImmediateModeException* New_ctor(::System::Exception* inner);
+// Declarations
+static inline ::UnityEngine::UIElements::ImmediateModeException* New_ctor(::System::Exception*  inner) ;
 
-  /// @brief Method .ctor, addr 0x6c5cb14, size 0x8c, virtual false, abstract: false, final false
-  inline void _ctor(::System::Exception* inner);
+/// @brief Method .ctor, addr 0x6c5e68c, size 0x8c, virtual false, abstract: false, final false
+inline void _ctor(::System::Exception*  inner) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ImmediateModeException();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ImmediateModeException() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ImmediateModeException", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ImmediateModeException(ImmediateModeException&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ImmediateModeException", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ImmediateModeException(ImmediateModeException const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ImmediateModeException", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ImmediateModeException(ImmediateModeException && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4613 };
+// Ctor Parameters [CppParam { name: "", ty: "ImmediateModeException", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ImmediateModeException(ImmediateModeException const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4613};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::ImmediateModeException, 0x90>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements
+} // namespace end def UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::ImmediateModeException);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::ImmediateModeException*, "UnityEngine.UIElements", "ImmediateModeException");

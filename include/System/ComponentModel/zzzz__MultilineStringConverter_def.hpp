@@ -35,45 +35,43 @@ namespace System::ComponentModel {
 // CS Name: System.ComponentModel.MultilineStringConverter
 class CORDL_TYPE MultilineStringConverter : public ::System::ComponentModel::TypeConverter {
 public:
-  // Declarations
-  /// @brief Method ConvertTo, addr 0x6280150, size 0x13c, virtual true, abstract: false, final false
-  inline ::System::Object* ConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value,
-                                     ::System::Type* destinationType);
+// Declarations
+/// @brief Method ConvertTo, addr 0x6281cc8, size 0x13c, virtual true, abstract: false, final false
+inline ::System::Object* ConvertTo(::System::ComponentModel::ITypeDescriptorContext*  context, ::System::Globalization::CultureInfo*  culture, ::System::Object*  value, ::System::Type*  destinationType) ;
 
-  /// @brief Method GetProperties, addr 0x628028c, size 0x8, virtual true, abstract: false, final false
-  inline ::System::ComponentModel::PropertyDescriptorCollection* GetProperties(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Object* value,
-                                                                               ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> attributes);
+/// @brief Method GetProperties, addr 0x6281e04, size 0x8, virtual true, abstract: false, final false
+inline ::System::ComponentModel::PropertyDescriptorCollection* GetProperties(::System::ComponentModel::ITypeDescriptorContext*  context, ::System::Object*  value, ::ArrayW<::System::Attribute*,::Array<::System::Attribute*>*>  attributes) ;
 
-  /// @brief Method GetPropertiesSupported, addr 0x6280294, size 0x8, virtual true, abstract: false, final false
-  inline bool GetPropertiesSupported(::System::ComponentModel::ITypeDescriptorContext* context);
+/// @brief Method GetPropertiesSupported, addr 0x6281e0c, size 0x8, virtual true, abstract: false, final false
+inline bool GetPropertiesSupported(::System::ComponentModel::ITypeDescriptorContext*  context) ;
 
-  static inline ::System::ComponentModel::MultilineStringConverter* New_ctor();
+static inline ::System::ComponentModel::MultilineStringConverter* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x628029c, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6281e14, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MultilineStringConverter();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr MultilineStringConverter() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultilineStringConverter", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  MultilineStringConverter(MultilineStringConverter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultilineStringConverter", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  MultilineStringConverter(MultilineStringConverter const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "MultilineStringConverter", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+MultilineStringConverter(MultilineStringConverter && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11270 };
+// Ctor Parameters [CppParam { name: "", ty: "MultilineStringConverter", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+MultilineStringConverter(MultilineStringConverter const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11271};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::ComponentModel::MultilineStringConverter, 0x10>, "Size mismatch!");
 
-} // namespace System::ComponentModel
+} // namespace end def System::ComponentModel
 NEED_NO_BOX(::System::ComponentModel::MultilineStringConverter);
 DEFINE_IL2CPP_ARG_TYPE(::System::ComponentModel::MultilineStringConverter*, "System.ComponentModel", "MultilineStringConverter");

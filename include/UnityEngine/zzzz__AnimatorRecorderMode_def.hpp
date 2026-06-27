@@ -12,63 +12,63 @@ struct AnimatorRecorderMode;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::AnimatorRecorderMode);
-// Dependencies
+// Dependencies 
 namespace UnityEngine {
 // Is value type: true
 // CS Name: UnityEngine.AnimatorRecorderMode
 struct CORDL_TYPE AnimatorRecorderMode {
 public:
-  // Declarations
-  using __CORDL_BACKING_ENUM_TYPE = int32_t;
+// Declarations
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct __AnimatorRecorderMode_Unwrapped
-  enum struct __AnimatorRecorderMode_Unwrapped : int32_t {
-    __E_Offline = static_cast<int32_t>(0x0),
-    __E_Playback = static_cast<int32_t>(0x1),
-    __E_Record = static_cast<int32_t>(0x2),
-  };
+/// @brief Nested struct __AnimatorRecorderMode_Unwrapped
+enum struct __AnimatorRecorderMode_Unwrapped : int32_t {
+__E_Offline = static_cast<int32_t>(0x0),
+__E_Playback = static_cast<int32_t>(0x1),
+__E_Record = static_cast<int32_t>(0x2),
+};
 
-  /// @brief Conversion into unwrapped enum value
-  constexpr operator __AnimatorRecorderMode_Unwrapped() const noexcept {
-    return static_cast<__AnimatorRecorderMode_Unwrapped>(this->value__);
-  }
+/// @brief Conversion into unwrapped enum value
+constexpr operator __AnimatorRecorderMode_Unwrapped () const noexcept {
+return static_cast<__AnimatorRecorderMode_Unwrapped>(this->value__);
+}
 
-  /// @brief Conversion into unwrapped enum value
-  constexpr explicit operator int32_t() const noexcept {
-    return static_cast<int32_t>(this->value__);
-  }
+/// @brief Conversion into unwrapped enum value
+constexpr explicit operator int32_t () const noexcept {
+return static_cast<int32_t>(this->value__);
+}
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AnimatorRecorderMode();
+// Ctor Parameters []
+// @brief default ctor
+constexpr AnimatorRecorderMode() ;
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr AnimatorRecorderMode(int32_t value__) noexcept;
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr AnimatorRecorderMode(int32_t  value__) noexcept;
 
-  /// @brief Field Offline value: I32(0)
-  static ::UnityEngine::AnimatorRecorderMode const Offline;
+/// @brief Field Offline value: I32(0)
+static ::UnityEngine::AnimatorRecorderMode const Offline;
 
-  /// @brief Field Playback value: I32(1)
-  static ::UnityEngine::AnimatorRecorderMode const Playback;
+/// @brief Field Playback value: I32(1)
+static ::UnityEngine::AnimatorRecorderMode const Playback;
 
-  /// @brief Field Record value: I32(2)
-  static ::UnityEngine::AnimatorRecorderMode const Record;
+/// @brief Field Record value: I32(2)
+static ::UnityEngine::AnimatorRecorderMode const Record;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20003 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20006};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x4};
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+/// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+ int32_t  value__;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::AnimatorRecorderMode, value__) == 0x0, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::AnimatorRecorderMode, 0x4>, "Size mismatch!");
 
-} // namespace UnityEngine
+} // namespace end def UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AnimatorRecorderMode, "UnityEngine", "AnimatorRecorderMode");

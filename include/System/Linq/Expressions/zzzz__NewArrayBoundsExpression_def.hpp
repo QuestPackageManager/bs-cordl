@@ -6,7 +6,8 @@ CORDL_MODULE_INIT
 #include "System/Linq/Expressions/zzzz__NewArrayExpression_def.hpp"
 CORDL_MODULE_EXPORT(NewArrayBoundsExpression)
 namespace System::Collections::ObjectModel {
-template <typename T> class ReadOnlyCollection_1;
+template<typename T>
+class ReadOnlyCollection_1;
 }
 namespace System::Linq::Expressions {
 struct ExpressionType;
@@ -29,40 +30,39 @@ namespace System::Linq::Expressions {
 // CS Name: System.Linq.Expressions.NewArrayBoundsExpression
 class CORDL_TYPE NewArrayBoundsExpression : public ::System::Linq::Expressions::NewArrayExpression {
 public:
-  // Declarations
-  __declspec(property(get = get_NodeType)) ::System::Linq::Expressions::ExpressionType NodeType;
+// Declarations
+ __declspec(property(get=get_NodeType)) ::System::Linq::Expressions::ExpressionType  NodeType;
 
-  static inline ::System::Linq::Expressions::NewArrayBoundsExpression* New_ctor(::System::Type* type,
-                                                                                ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>* expressions);
+static inline ::System::Linq::Expressions::NewArrayBoundsExpression* New_ctor(::System::Type*  type, ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>*  expressions) ;
 
-  /// @brief Method .ctor, addr 0x5e468fc, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor(::System::Type* type, ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>* expressions);
+/// @brief Method .ctor, addr 0x5e48474, size 0x4, virtual false, abstract: false, final false
+inline void _ctor(::System::Type*  type, ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>*  expressions) ;
 
-  /// @brief Method get_NodeType, addr 0x5e46940, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Linq::Expressions::ExpressionType get_NodeType();
+/// @brief Method get_NodeType, addr 0x5e484b8, size 0x8, virtual true, abstract: false, final true
+inline ::System::Linq::Expressions::ExpressionType get_NodeType() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NewArrayBoundsExpression();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr NewArrayBoundsExpression() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NewArrayBoundsExpression", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  NewArrayBoundsExpression(NewArrayBoundsExpression&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NewArrayBoundsExpression", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  NewArrayBoundsExpression(NewArrayBoundsExpression const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "NewArrayBoundsExpression", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+NewArrayBoundsExpression(NewArrayBoundsExpression && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16199 };
+// Ctor Parameters [CppParam { name: "", ty: "NewArrayBoundsExpression", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+NewArrayBoundsExpression(NewArrayBoundsExpression const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{16201};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::NewArrayBoundsExpression, 0x20>, "Size mismatch!");
 
-} // namespace System::Linq::Expressions
+} // namespace end def System::Linq::Expressions
 NEED_NO_BOX(::System::Linq::Expressions::NewArrayBoundsExpression);
 DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::NewArrayBoundsExpression*, "System.Linq.Expressions", "NewArrayBoundsExpression");

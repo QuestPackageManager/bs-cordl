@@ -17,34 +17,34 @@ namespace Microsoft::CSharp {
 // CS Name: Microsoft.CSharp.CSharpCodeProvider
 class CORDL_TYPE CSharpCodeProvider : public ::Microsoft::CSharp::CodeDomProvider {
 public:
-  // Declarations
-  static inline ::Microsoft::CSharp::CSharpCodeProvider* New_ctor();
+// Declarations
+static inline ::Microsoft::CSharp::CSharpCodeProvider* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x604f7f8, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6051370, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CSharpCodeProvider();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr CSharpCodeProvider() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CSharpCodeProvider", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  CSharpCodeProvider(CSharpCodeProvider&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CSharpCodeProvider", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  CSharpCodeProvider(CSharpCodeProvider const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "CSharpCodeProvider", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+CSharpCodeProvider(CSharpCodeProvider && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9226 };
+// Ctor Parameters [CppParam { name: "", ty: "CSharpCodeProvider", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+CSharpCodeProvider(CSharpCodeProvider const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9227};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Microsoft::CSharp::CSharpCodeProvider, 0x10>, "Size mismatch!");
 
-} // namespace Microsoft::CSharp
+} // namespace end def Microsoft::CSharp
 NEED_NO_BOX(::Microsoft::CSharp::CSharpCodeProvider);
 DEFINE_IL2CPP_ARG_TYPE(::Microsoft::CSharp::CSharpCodeProvider*, "Microsoft.CSharp", "CSharpCodeProvider");

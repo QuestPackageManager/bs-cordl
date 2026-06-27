@@ -21,74 +21,73 @@ namespace Org::BouncyCastle::Crypto::Parameters {
 // CS Name: Org.BouncyCastle.Crypto.Parameters.ParametersWithIV
 class CORDL_TYPE ParametersWithIV : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = get_Parameters)) ::Org::BouncyCastle::Crypto::ICipherParameters* Parameters;
+// Declarations
+ __declspec(property(get=get_Parameters)) ::Org::BouncyCastle::Crypto::ICipherParameters*  Parameters;
 
-  /// @brief Field iv, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_iv, put = __cordl_internal_set_iv)) ::ArrayW<uint8_t, ::Array<uint8_t>*> iv;
+/// @brief Field iv, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_iv, put=__cordl_internal_set_iv)) ::ArrayW<uint8_t,::Array<uint8_t>*>  iv;
 
-  /// @brief Field parameters, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_parameters, put = __cordl_internal_set_parameters)) ::Org::BouncyCastle::Crypto::ICipherParameters* parameters;
+/// @brief Field parameters, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_parameters, put=__cordl_internal_set_parameters)) ::Org::BouncyCastle::Crypto::ICipherParameters*  parameters;
 
-  /// @brief Convert operator to "::Org::BouncyCastle::Crypto::ICipherParameters"
-  constexpr operator ::Org::BouncyCastle::Crypto::ICipherParameters*() noexcept;
+/// @brief Convert operator to "::Org::BouncyCastle::Crypto::ICipherParameters"
+constexpr operator  ::Org::BouncyCastle::Crypto::ICipherParameters*() noexcept;
 
-  /// @brief Method GetIV, addr 0x3355b30, size 0x78, virtual false, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetIV();
+/// @brief Method GetIV, addr 0x33568cc, size 0x78, virtual false, abstract: false, final false
+inline ::ArrayW<uint8_t,::Array<uint8_t>*> GetIV() ;
 
-  static inline ::Org::BouncyCastle::Crypto::Parameters::ParametersWithIV* New_ctor(::Org::BouncyCastle::Crypto::ICipherParameters* parameters, ::ArrayW<uint8_t, ::Array<uint8_t>*> iv);
+static inline ::Org::BouncyCastle::Crypto::Parameters::ParametersWithIV* New_ctor(::Org::BouncyCastle::Crypto::ICipherParameters*  parameters, ::ArrayW<uint8_t,::Array<uint8_t>*>  iv) ;
 
-  static inline ::Org::BouncyCastle::Crypto::Parameters::ParametersWithIV* New_ctor(::Org::BouncyCastle::Crypto::ICipherParameters* parameters, ::ArrayW<uint8_t, ::Array<uint8_t>*> iv, int32_t ivOff,
-                                                                                    int32_t ivLen);
+static inline ::Org::BouncyCastle::Crypto::Parameters::ParametersWithIV* New_ctor(::Org::BouncyCastle::Crypto::ICipherParameters*  parameters, ::ArrayW<uint8_t,::Array<uint8_t>*>  iv, int32_t  ivOff, int32_t  ivLen) ;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_iv() const;
+constexpr ::ArrayW<uint8_t,::Array<uint8_t>*> const& __cordl_internal_get_iv() const;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_iv();
+constexpr ::ArrayW<uint8_t,::Array<uint8_t>*>& __cordl_internal_get_iv() ;
 
-  constexpr ::Org::BouncyCastle::Crypto::ICipherParameters* const& __cordl_internal_get_parameters() const;
+constexpr ::Org::BouncyCastle::Crypto::ICipherParameters* const& __cordl_internal_get_parameters() const;
 
-  constexpr ::Org::BouncyCastle::Crypto::ICipherParameters*& __cordl_internal_get_parameters();
+constexpr ::Org::BouncyCastle::Crypto::ICipherParameters*& __cordl_internal_get_parameters() ;
 
-  constexpr void __cordl_internal_set_iv(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+constexpr void __cordl_internal_set_iv(::ArrayW<uint8_t,::Array<uint8_t>*>  value) ;
 
-  constexpr void __cordl_internal_set_parameters(::Org::BouncyCastle::Crypto::ICipherParameters* value);
+constexpr void __cordl_internal_set_parameters(::Org::BouncyCastle::Crypto::ICipherParameters*  value) ;
 
-  /// @brief Method .ctor, addr 0x3355a3c, size 0x18, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Crypto::ICipherParameters* parameters, ::ArrayW<uint8_t, ::Array<uint8_t>*> iv);
+/// @brief Method .ctor, addr 0x33567d8, size 0x18, virtual false, abstract: false, final false
+inline void _ctor(::Org::BouncyCastle::Crypto::ICipherParameters*  parameters, ::ArrayW<uint8_t,::Array<uint8_t>*>  iv) ;
 
-  /// @brief Method .ctor, addr 0x3355a54, size 0xdc, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Crypto::ICipherParameters* parameters, ::ArrayW<uint8_t, ::Array<uint8_t>*> iv, int32_t ivOff, int32_t ivLen);
+/// @brief Method .ctor, addr 0x33567f0, size 0xdc, virtual false, abstract: false, final false
+inline void _ctor(::Org::BouncyCastle::Crypto::ICipherParameters*  parameters, ::ArrayW<uint8_t,::Array<uint8_t>*>  iv, int32_t  ivOff, int32_t  ivLen) ;
 
-  /// @brief Method get_Parameters, addr 0x3355ba8, size 0x8, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Crypto::ICipherParameters* get_Parameters();
+/// @brief Method get_Parameters, addr 0x3356944, size 0x8, virtual false, abstract: false, final false
+inline ::Org::BouncyCastle::Crypto::ICipherParameters* get_Parameters() ;
 
-  /// @brief Convert to "::Org::BouncyCastle::Crypto::ICipherParameters"
-  constexpr ::Org::BouncyCastle::Crypto::ICipherParameters* i___Org__BouncyCastle__Crypto__ICipherParameters() noexcept;
+/// @brief Convert to "::Org::BouncyCastle::Crypto::ICipherParameters"
+constexpr ::Org::BouncyCastle::Crypto::ICipherParameters* i___Org__BouncyCastle__Crypto__ICipherParameters() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ParametersWithIV();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ParametersWithIV() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ParametersWithIV", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ParametersWithIV(ParametersWithIV&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ParametersWithIV", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ParametersWithIV(ParametersWithIV const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ParametersWithIV", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ParametersWithIV(ParametersWithIV && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1072 };
+// Ctor Parameters [CppParam { name: "", ty: "ParametersWithIV", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ParametersWithIV(ParametersWithIV const& ) = delete;
 
-  /// @brief Field parameters, offset: 0x10, size: 0x8, def value: None
-  ::Org::BouncyCastle::Crypto::ICipherParameters* ___parameters;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{1072};
 
-  /// @brief Field iv, offset: 0x18, size: 0x8, def value: None
-  ::ArrayW<uint8_t, ::Array<uint8_t>*> ___iv;
+/// @brief Field parameters, offset: 0x10, size: 0x8, def value: None
+ ::Org::BouncyCastle::Crypto::ICipherParameters*  ___parameters;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field iv, offset: 0x18, size: 0x8, def value: None
+ ::ArrayW<uint8_t,::Array<uint8_t>*>  ___iv;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Parameters::ParametersWithIV, ___parameters) == 0x10, "Offset mismatch!");
@@ -97,6 +96,6 @@ static_assert(offsetof(::Org::BouncyCastle::Crypto::Parameters::ParametersWithIV
 
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Parameters::ParametersWithIV, 0x20>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Crypto::Parameters
+} // namespace end def Org::BouncyCastle::Crypto::Parameters
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Parameters::ParametersWithIV);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Parameters::ParametersWithIV*, "Org.BouncyCastle.Crypto.Parameters", "ParametersWithIV");

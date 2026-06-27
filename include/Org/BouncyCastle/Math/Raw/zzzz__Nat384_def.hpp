@@ -18,40 +18,40 @@ namespace Org::BouncyCastle::Math::Raw {
 // CS Name: Org.BouncyCastle.Math.Raw.Nat384
 class CORDL_TYPE Nat384 : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method Mul, addr 0x34a53d0, size 0x170, virtual false, abstract: false, final false
-  static inline void Mul(::ArrayW<uint32_t, ::Array<uint32_t>*> x, ::ArrayW<uint32_t, ::Array<uint32_t>*> y, ::ArrayW<uint32_t, ::Array<uint32_t>*> zz);
+// Declarations
+/// @brief Method Mul, addr 0x34a616c, size 0x170, virtual false, abstract: false, final false
+static inline void Mul(::ArrayW<uint32_t,::Array<uint32_t>*>  x, ::ArrayW<uint32_t,::Array<uint32_t>*>  y, ::ArrayW<uint32_t,::Array<uint32_t>*>  zz) ;
 
-  static inline ::Org::BouncyCastle::Math::Raw::Nat384* New_ctor();
+static inline ::Org::BouncyCastle::Math::Raw::Nat384* New_ctor() ;
 
-  /// @brief Method Square, addr 0x34a5540, size 0x11c, virtual false, abstract: false, final false
-  static inline void Square(::ArrayW<uint32_t, ::Array<uint32_t>*> x, ::ArrayW<uint32_t, ::Array<uint32_t>*> zz);
+/// @brief Method Square, addr 0x34a62dc, size 0x11c, virtual false, abstract: false, final false
+static inline void Square(::ArrayW<uint32_t,::Array<uint32_t>*>  x, ::ArrayW<uint32_t,::Array<uint32_t>*>  zz) ;
 
-  /// @brief Method .ctor, addr 0x34a565c, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x34a63f8, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Nat384();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr Nat384() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Nat384", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  Nat384(Nat384&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Nat384", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  Nat384(Nat384 const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "Nat384", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Nat384(Nat384 && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1597 };
+// Ctor Parameters [CppParam { name: "", ty: "Nat384", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Nat384(Nat384 const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{1597};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Math::Raw::Nat384, 0x10>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Math::Raw
+} // namespace end def Org::BouncyCastle::Math::Raw
 NEED_NO_BOX(::Org::BouncyCastle::Math::Raw::Nat384);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Math::Raw::Nat384*, "Org.BouncyCastle.Math.Raw", "Nat384");

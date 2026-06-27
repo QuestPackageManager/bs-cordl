@@ -21,37 +21,37 @@ namespace GlobalNamespace {
 // CS Name: LocalLeaderboardsIdModel
 class CORDL_TYPE LocalLeaderboardsIdModel : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method GetLocalLeaderboardID, addr 0x3694f08, size 0x8, virtual false, abstract: false, final false
-  static inline ::StringW GetLocalLeaderboardID(::ByRef<::GlobalNamespace::BeatmapKey> beatmapKey);
+// Declarations
+/// @brief Method GetLocalLeaderboardID, addr 0x369629c, size 0x8, virtual false, abstract: false, final false
+static inline ::StringW GetLocalLeaderboardID(::ByRef<::GlobalNamespace::BeatmapKey>  beatmapKey) ;
 
-  static inline ::GlobalNamespace::LocalLeaderboardsIdModel* New_ctor();
+static inline ::GlobalNamespace::LocalLeaderboardsIdModel* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x3694f10, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x36962a4, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LocalLeaderboardsIdModel();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr LocalLeaderboardsIdModel() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LocalLeaderboardsIdModel", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  LocalLeaderboardsIdModel(LocalLeaderboardsIdModel&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LocalLeaderboardsIdModel", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  LocalLeaderboardsIdModel(LocalLeaderboardsIdModel const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "LocalLeaderboardsIdModel", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+LocalLeaderboardsIdModel(LocalLeaderboardsIdModel && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15254 };
+// Ctor Parameters [CppParam { name: "", ty: "LocalLeaderboardsIdModel", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+LocalLeaderboardsIdModel(LocalLeaderboardsIdModel const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{15256};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LocalLeaderboardsIdModel, 0x10>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::LocalLeaderboardsIdModel);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LocalLeaderboardsIdModel*, "", "LocalLeaderboardsIdModel");

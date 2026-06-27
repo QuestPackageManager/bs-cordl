@@ -25,50 +25,49 @@ namespace System::Runtime::Serialization {
 // CS Name: System.Runtime.Serialization.StreamingContext
 struct CORDL_TYPE StreamingContext {
 public:
-  // Declarations
-  __declspec(property(get = get_Context)) ::System::Object* Context;
+// Declarations
+ __declspec(property(get=get_Context)) ::System::Object*  Context;
 
-  __declspec(property(get = get_State)) ::System::Runtime::Serialization::StreamingContextStates State;
+ __declspec(property(get=get_State)) ::System::Runtime::Serialization::StreamingContextStates  State;
 
-  /// @brief Method Equals, addr 0x5a1893c, size 0x90, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* obj);
+/// @brief Method Equals, addr 0x5a1a4b4, size 0x90, virtual true, abstract: false, final false
+inline bool Equals(::System::Object*  obj) ;
 
-  /// @brief Method GetHashCode, addr 0x5a189cc, size 0x8, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
+/// @brief Method GetHashCode, addr 0x5a1a544, size 0x8, virtual true, abstract: false, final false
+inline int32_t GetHashCode() ;
 
-  /// @brief Method .ctor, addr 0x5a1891c, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor(::System::Runtime::Serialization::StreamingContextStates state);
+/// @brief Method .ctor, addr 0x5a1a494, size 0xc, virtual false, abstract: false, final false
+inline void _ctor(::System::Runtime::Serialization::StreamingContextStates  state) ;
 
-  /// @brief Method .ctor, addr 0x5a18928, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor(::System::Runtime::Serialization::StreamingContextStates state, ::System::Object* additional);
+/// @brief Method .ctor, addr 0x5a1a4a0, size 0xc, virtual false, abstract: false, final false
+inline void _ctor(::System::Runtime::Serialization::StreamingContextStates  state, ::System::Object*  additional) ;
 
-  /// @brief Method get_Context, addr 0x5a18934, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Object* get_Context();
+/// @brief Method get_Context, addr 0x5a1a4ac, size 0x8, virtual false, abstract: false, final false
+inline ::System::Object* get_Context() ;
 
-  /// @brief Method get_State, addr 0x5a189d4, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Runtime::Serialization::StreamingContextStates get_State();
+/// @brief Method get_State, addr 0x5a1a54c, size 0x8, virtual false, abstract: false, final false
+inline ::System::Runtime::Serialization::StreamingContextStates get_State() ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr StreamingContext();
+// Ctor Parameters []
+// @brief default ctor
+constexpr StreamingContext() ;
 
-  // Ctor Parameters [CppParam { name: "m_additionalContext", ty: "::System::Object*", modifiers: "", def_value: None }, CppParam { name: "m_state", ty:
-  // "::System::Runtime::Serialization::StreamingContextStates", modifiers: "", def_value: None }]
-  constexpr StreamingContext(::System::Object* m_additionalContext, ::System::Runtime::Serialization::StreamingContextStates m_state) noexcept;
+// Ctor Parameters [CppParam { name: "m_additionalContext", ty: "::System::Object*", modifiers: "", def_value: None }, CppParam { name: "m_state", ty: "::System::Runtime::Serialization::StreamingContextStates", modifiers: "", def_value: None }]
+constexpr StreamingContext(::System::Object*  m_additionalContext, ::System::Runtime::Serialization::StreamingContextStates  m_state) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3251 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{3251};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x10};
 
-  /// @brief Field m_additionalContext, offset: 0x0, size: 0x8, def value: None
-  ::System::Object* m_additionalContext;
+/// @brief Field m_additionalContext, offset: 0x0, size: 0x8, def value: None
+ ::System::Object*  m_additionalContext;
 
-  /// @brief Field m_state, offset: 0x8, size: 0x4, def value: None
-  ::System::Runtime::Serialization::StreamingContextStates m_state;
+/// @brief Field m_state, offset: 0x8, size: 0x4, def value: None
+ ::System::Runtime::Serialization::StreamingContextStates  m_state;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Runtime::Serialization::StreamingContext, m_additionalContext) == 0x0, "Offset mismatch!");
@@ -77,5 +76,5 @@ static_assert(offsetof(::System::Runtime::Serialization::StreamingContext, m_sta
 
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::StreamingContext, 0x10>, "Size mismatch!");
 
-} // namespace System::Runtime::Serialization
+} // namespace end def System::Runtime::Serialization
 DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::StreamingContext, "System.Runtime.Serialization", "StreamingContext");

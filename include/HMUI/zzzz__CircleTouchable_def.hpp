@@ -31,81 +31,81 @@ namespace HMUI {
 // CS Name: HMUI.CircleTouchable
 class CORDL_TYPE CircleTouchable : public ::HMUI::Touchable {
 public:
-  // Declarations
-  /// @brief Field _containerRect, offset 0xb0, size 0x8
-  __declspec(property(get = __cordl_internal_get__containerRect, put = __cordl_internal_set__containerRect)) ::UnityW<::UnityEngine::RectTransform> _containerRect;
+// Declarations
+/// @brief Field _containerRect, offset 0xb0, size 0x8 
+ __declspec(property(get=__cordl_internal_get__containerRect, put=__cordl_internal_set__containerRect)) ::UnityW<::UnityEngine::RectTransform>  _containerRect;
 
-  /// @brief Field _maxRadius, offset 0xac, size 0x4
-  __declspec(property(get = __cordl_internal_get__maxRadius, put = __cordl_internal_set__maxRadius)) float_t _maxRadius;
+/// @brief Field _maxRadius, offset 0xac, size 0x4 
+ __declspec(property(get=__cordl_internal_get__maxRadius, put=__cordl_internal_set__maxRadius)) float_t  _maxRadius;
 
-  /// @brief Field _minRadius, offset 0xa8, size 0x4
-  __declspec(property(get = __cordl_internal_get__minRadius, put = __cordl_internal_set__minRadius)) float_t _minRadius;
+/// @brief Field _minRadius, offset 0xa8, size 0x4 
+ __declspec(property(get=__cordl_internal_get__minRadius, put=__cordl_internal_set__minRadius)) float_t  _minRadius;
 
-  /// @brief Method DrawGizmoCircle, addr 0x573a26c, size 0xe0, virtual false, abstract: false, final false
-  inline void DrawGizmoCircle(::UnityEngine::Vector3 center, float_t radius, int32_t steps);
+/// @brief Method DrawGizmoCircle, addr 0x573bad4, size 0xe0, virtual false, abstract: false, final false
+inline void DrawGizmoCircle(::UnityEngine::Vector3  center, float_t  radius, int32_t  steps) ;
 
-  static inline ::HMUI::CircleTouchable* New_ctor();
+static inline ::HMUI::CircleTouchable* New_ctor() ;
 
-  /// @brief Method OnDrawGizmosSelected, addr 0x573a134, size 0x138, virtual false, abstract: false, final false
-  inline void OnDrawGizmosSelected();
+/// @brief Method OnDrawGizmosSelected, addr 0x573b99c, size 0x138, virtual false, abstract: false, final false
+inline void OnDrawGizmosSelected() ;
 
-  /// @brief Method OnEnable, addr 0x5739fdc, size 0x1c, virtual true, abstract: false, final false
-  inline void OnEnable();
+/// @brief Method OnEnable, addr 0x573b844, size 0x1c, virtual true, abstract: false, final false
+inline void OnEnable() ;
 
-  /// @brief Method Raycast, addr 0x573a068, size 0xcc, virtual true, abstract: false, final false
-  inline bool Raycast(::UnityEngine::Vector2 sp, ::UnityEngine::Camera* eventCamera);
+/// @brief Method Raycast, addr 0x573b8d0, size 0xcc, virtual true, abstract: false, final false
+inline bool Raycast(::UnityEngine::Vector2  sp, ::UnityEngine::Camera*  eventCamera) ;
 
-  /// @brief Method UpdateCachedReferences, addr 0x5739ff8, size 0x70, virtual false, abstract: false, final false
-  inline void UpdateCachedReferences();
+/// @brief Method UpdateCachedReferences, addr 0x573b860, size 0x70, virtual false, abstract: false, final false
+inline void UpdateCachedReferences() ;
 
-  constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get__containerRect() const;
+constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get__containerRect() const;
 
-  constexpr ::UnityW<::UnityEngine::RectTransform>& __cordl_internal_get__containerRect();
+constexpr ::UnityW<::UnityEngine::RectTransform>& __cordl_internal_get__containerRect() ;
 
-  constexpr float_t const& __cordl_internal_get__maxRadius() const;
+constexpr float_t const& __cordl_internal_get__maxRadius() const;
 
-  constexpr float_t& __cordl_internal_get__maxRadius();
+constexpr float_t& __cordl_internal_get__maxRadius() ;
 
-  constexpr float_t const& __cordl_internal_get__minRadius() const;
+constexpr float_t const& __cordl_internal_get__minRadius() const;
 
-  constexpr float_t& __cordl_internal_get__minRadius();
+constexpr float_t& __cordl_internal_get__minRadius() ;
 
-  constexpr void __cordl_internal_set__containerRect(::UnityW<::UnityEngine::RectTransform> value);
+constexpr void __cordl_internal_set__containerRect(::UnityW<::UnityEngine::RectTransform>  value) ;
 
-  constexpr void __cordl_internal_set__maxRadius(float_t value);
+constexpr void __cordl_internal_set__maxRadius(float_t  value) ;
 
-  constexpr void __cordl_internal_set__minRadius(float_t value);
+constexpr void __cordl_internal_set__minRadius(float_t  value) ;
 
-  /// @brief Method .ctor, addr 0x573a34c, size 0x10, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x573bbb4, size 0x10, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CircleTouchable();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr CircleTouchable() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CircleTouchable", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  CircleTouchable(CircleTouchable&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CircleTouchable", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  CircleTouchable(CircleTouchable const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "CircleTouchable", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+CircleTouchable(CircleTouchable && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19173 };
+// Ctor Parameters [CppParam { name: "", ty: "CircleTouchable", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+CircleTouchable(CircleTouchable const& ) = delete;
 
-  /// @brief Field _minRadius, offset: 0xa8, size: 0x4, def value: None
-  float_t ____minRadius;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19176};
 
-  /// @brief Field _maxRadius, offset: 0xac, size: 0x4, def value: None
-  float_t ____maxRadius;
+/// @brief Field _minRadius, offset: 0xa8, size: 0x4, def value: None
+ float_t  ____minRadius;
 
-  /// @brief Field _containerRect, offset: 0xb0, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::RectTransform> ____containerRect;
+/// @brief Field _maxRadius, offset: 0xac, size: 0x4, def value: None
+ float_t  ____maxRadius;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _containerRect, offset: 0xb0, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::RectTransform>  ____containerRect;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::HMUI::CircleTouchable, ____minRadius) == 0xa8, "Offset mismatch!");
@@ -116,6 +116,6 @@ static_assert(offsetof(::HMUI::CircleTouchable, ____containerRect) == 0xb0, "Off
 
 static_assert(::cordl_internals::size_check_v<::HMUI::CircleTouchable, 0xb8>, "Size mismatch!");
 
-} // namespace HMUI
+} // namespace end def HMUI
 NEED_NO_BOX(::HMUI::CircleTouchable);
 DEFINE_IL2CPP_ARG_TYPE(::HMUI::CircleTouchable*, "HMUI", "CircleTouchable");

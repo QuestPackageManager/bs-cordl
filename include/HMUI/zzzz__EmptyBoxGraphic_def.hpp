@@ -21,54 +21,54 @@ namespace HMUI {
 // CS Name: HMUI.EmptyBoxGraphic
 class CORDL_TYPE EmptyBoxGraphic : public ::UnityEngine::UI::Graphic {
 public:
-  // Declarations
-  /// @brief Field _depth, offset 0xa4, size 0x4
-  __declspec(property(get = __cordl_internal_get__depth, put = __cordl_internal_set__depth)) float_t _depth;
+// Declarations
+/// @brief Field _depth, offset 0xa4, size 0x4 
+ __declspec(property(get=__cordl_internal_get__depth, put=__cordl_internal_set__depth)) float_t  _depth;
 
-  static inline ::HMUI::EmptyBoxGraphic* New_ctor();
+static inline ::HMUI::EmptyBoxGraphic* New_ctor() ;
 
-  /// @brief Method OnDrawGizmosSelected, addr 0x573a650, size 0x138, virtual false, abstract: false, final false
-  inline void OnDrawGizmosSelected();
+/// @brief Method OnDrawGizmosSelected, addr 0x573beb8, size 0x138, virtual false, abstract: false, final false
+inline void OnDrawGizmosSelected() ;
 
-  /// @brief Method OnPopulateMesh, addr 0x573a3b8, size 0x298, virtual true, abstract: false, final false
-  inline void OnPopulateMesh(::UnityEngine::UI::VertexHelper* vh);
+/// @brief Method OnPopulateMesh, addr 0x573bc20, size 0x298, virtual true, abstract: false, final false
+inline void OnPopulateMesh(::UnityEngine::UI::VertexHelper*  vh) ;
 
-  constexpr float_t const& __cordl_internal_get__depth() const;
+constexpr float_t const& __cordl_internal_get__depth() const;
 
-  constexpr float_t& __cordl_internal_get__depth();
+constexpr float_t& __cordl_internal_get__depth() ;
 
-  constexpr void __cordl_internal_set__depth(float_t value);
+constexpr void __cordl_internal_set__depth(float_t  value) ;
 
-  /// @brief Method .ctor, addr 0x573a788, size 0x64, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x573bff0, size 0x64, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr EmptyBoxGraphic();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr EmptyBoxGraphic() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EmptyBoxGraphic", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  EmptyBoxGraphic(EmptyBoxGraphic&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EmptyBoxGraphic", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  EmptyBoxGraphic(EmptyBoxGraphic const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "EmptyBoxGraphic", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+EmptyBoxGraphic(EmptyBoxGraphic && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19174 };
+// Ctor Parameters [CppParam { name: "", ty: "EmptyBoxGraphic", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+EmptyBoxGraphic(EmptyBoxGraphic const& ) = delete;
 
-  /// @brief Field _depth, offset: 0xa4, size: 0x4, def value: None
-  float_t ____depth;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19177};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _depth, offset: 0xa4, size: 0x4, def value: None
+ float_t  ____depth;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::HMUI::EmptyBoxGraphic, ____depth) == 0xa4, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::HMUI::EmptyBoxGraphic, 0xa8>, "Size mismatch!");
 
-} // namespace HMUI
+} // namespace end def HMUI
 NEED_NO_BOX(::HMUI::EmptyBoxGraphic);
 DEFINE_IL2CPP_ARG_TYPE(::HMUI::EmptyBoxGraphic*, "HMUI", "EmptyBoxGraphic");

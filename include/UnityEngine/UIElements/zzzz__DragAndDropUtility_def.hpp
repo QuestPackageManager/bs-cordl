@@ -6,7 +6,8 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(DragAndDropUtility)
 namespace System {
-template <typename TResult> class Func_1;
+template<typename TResult>
+class Func_1;
 }
 namespace UnityEngine::UIElements {
 class IDragAndDrop;
@@ -26,54 +27,53 @@ namespace UnityEngine::UIElements {
 // CS Name: UnityEngine.UIElements.DragAndDropUtility
 class CORDL_TYPE DragAndDropUtility : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field s_DragAndDropEditor, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_s_DragAndDropEditor, put = setStaticF_s_DragAndDropEditor)) ::UnityEngine::UIElements::IDragAndDrop* s_DragAndDropEditor;
+// Declarations
+/// @brief Field s_DragAndDropEditor, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_s_DragAndDropEditor, put=setStaticF_s_DragAndDropEditor)) ::UnityEngine::UIElements::IDragAndDrop*  s_DragAndDropEditor;
 
-  /// @brief Field s_DragAndDropPlayMode, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_s_DragAndDropPlayMode, put = setStaticF_s_DragAndDropPlayMode)) ::UnityEngine::UIElements::IDragAndDrop* s_DragAndDropPlayMode;
+/// @brief Field s_DragAndDropPlayMode, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_s_DragAndDropPlayMode, put=setStaticF_s_DragAndDropPlayMode)) ::UnityEngine::UIElements::IDragAndDrop*  s_DragAndDropPlayMode;
 
-  /// @brief Field s_MakeDragAndDropClientFunc, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_s_MakeDragAndDropClientFunc,
-                      put = setStaticF_s_MakeDragAndDropClientFunc)) ::System::Func_1<::UnityEngine::UIElements::IDragAndDrop*>* s_MakeDragAndDropClientFunc;
+/// @brief Field s_MakeDragAndDropClientFunc, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_s_MakeDragAndDropClientFunc, put=setStaticF_s_MakeDragAndDropClientFunc)) ::System::Func_1<::UnityEngine::UIElements::IDragAndDrop*>*  s_MakeDragAndDropClientFunc;
 
-  /// @brief Method GetDragAndDrop, addr 0x6c30c00, size 0x158, virtual false, abstract: false, final false
-  static inline ::UnityEngine::UIElements::IDragAndDrop* GetDragAndDrop(::UnityEngine::UIElements::IPanel* panel);
+/// @brief Method GetDragAndDrop, addr 0x6c32778, size 0x158, virtual false, abstract: false, final false
+static inline ::UnityEngine::UIElements::IDragAndDrop* GetDragAndDrop(::UnityEngine::UIElements::IPanel*  panel) ;
 
-  static inline ::UnityEngine::UIElements::IDragAndDrop* getStaticF_s_DragAndDropEditor();
+static inline ::UnityEngine::UIElements::IDragAndDrop* getStaticF_s_DragAndDropEditor() ;
 
-  static inline ::UnityEngine::UIElements::IDragAndDrop* getStaticF_s_DragAndDropPlayMode();
+static inline ::UnityEngine::UIElements::IDragAndDrop* getStaticF_s_DragAndDropPlayMode() ;
 
-  static inline ::System::Func_1<::UnityEngine::UIElements::IDragAndDrop*>* getStaticF_s_MakeDragAndDropClientFunc();
+static inline ::System::Func_1<::UnityEngine::UIElements::IDragAndDrop*>* getStaticF_s_MakeDragAndDropClientFunc() ;
 
-  static inline void setStaticF_s_DragAndDropEditor(::UnityEngine::UIElements::IDragAndDrop* value);
+static inline void setStaticF_s_DragAndDropEditor(::UnityEngine::UIElements::IDragAndDrop*  value) ;
 
-  static inline void setStaticF_s_DragAndDropPlayMode(::UnityEngine::UIElements::IDragAndDrop* value);
+static inline void setStaticF_s_DragAndDropPlayMode(::UnityEngine::UIElements::IDragAndDrop*  value) ;
 
-  static inline void setStaticF_s_MakeDragAndDropClientFunc(::System::Func_1<::UnityEngine::UIElements::IDragAndDrop*>* value);
+static inline void setStaticF_s_MakeDragAndDropClientFunc(::System::Func_1<::UnityEngine::UIElements::IDragAndDrop*>*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DragAndDropUtility();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr DragAndDropUtility() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DragAndDropUtility", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  DragAndDropUtility(DragAndDropUtility&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DragAndDropUtility", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  DragAndDropUtility(DragAndDropUtility const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "DragAndDropUtility", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+DragAndDropUtility(DragAndDropUtility && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4389 };
+// Ctor Parameters [CppParam { name: "", ty: "DragAndDropUtility", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+DragAndDropUtility(DragAndDropUtility const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4389};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::DragAndDropUtility, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements
+} // namespace end def UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::DragAndDropUtility);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::DragAndDropUtility*, "UnityEngine.UIElements", "DragAndDropUtility");

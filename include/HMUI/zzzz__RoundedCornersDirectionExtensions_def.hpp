@@ -23,32 +23,32 @@ namespace HMUI {
 // CS Name: HMUI.RoundedCornersDirectionExtensions
 class CORDL_TYPE RoundedCornersDirectionExtensions : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method GetFlipAndSymmetry, addr 0x5740e70, size 0xa4, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Vector4 GetFlipAndSymmetry(::HMUI::RoundedCornersDirection direction);
+// Declarations
+/// @brief Method GetFlipAndSymmetry, addr 0x57426d8, size 0xa4, virtual false, abstract: false, final false
+static inline ::UnityEngine::Vector4 GetFlipAndSymmetry(::HMUI::RoundedCornersDirection  direction) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RoundedCornersDirectionExtensions();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr RoundedCornersDirectionExtensions() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RoundedCornersDirectionExtensions", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  RoundedCornersDirectionExtensions(RoundedCornersDirectionExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RoundedCornersDirectionExtensions", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  RoundedCornersDirectionExtensions(RoundedCornersDirectionExtensions const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "RoundedCornersDirectionExtensions", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+RoundedCornersDirectionExtensions(RoundedCornersDirectionExtensions && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19201 };
+// Ctor Parameters [CppParam { name: "", ty: "RoundedCornersDirectionExtensions", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+RoundedCornersDirectionExtensions(RoundedCornersDirectionExtensions const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19204};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HMUI::RoundedCornersDirectionExtensions, 0x10>, "Size mismatch!");
 
-} // namespace HMUI
+} // namespace end def HMUI
 NEED_NO_BOX(::HMUI::RoundedCornersDirectionExtensions);
 DEFINE_IL2CPP_ARG_TYPE(::HMUI::RoundedCornersDirectionExtensions*, "HMUI", "RoundedCornersDirectionExtensions");

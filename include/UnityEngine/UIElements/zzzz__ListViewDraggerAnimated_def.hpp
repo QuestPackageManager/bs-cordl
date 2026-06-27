@@ -38,162 +38,162 @@ namespace UnityEngine::UIElements {
 // CS Name: UnityEngine.UIElements.ListViewDraggerAnimated
 class CORDL_TYPE ListViewDraggerAnimated : public ::UnityEngine::UIElements::ListViewDragger {
 public:
-  // Declarations
-  /// @brief Field <isDragging>k__BackingField, offset 0xb0, size 0x1
-  __declspec(property(get = __cordl_internal_get__isDragging_k__BackingField, put = __cordl_internal_set__isDragging_k__BackingField)) bool _isDragging_k__BackingField;
+// Declarations
+/// @brief Field <isDragging>k__BackingField, offset 0xb0, size 0x1 
+ __declspec(property(get=__cordl_internal_get__isDragging_k__BackingField, put=__cordl_internal_set__isDragging_k__BackingField)) bool  _isDragging_k__BackingField;
 
-  __declspec(property(get = get_draggedItem)) ::UnityEngine::UIElements::ReusableCollectionItem* draggedItem;
+ __declspec(property(get=get_draggedItem)) ::UnityEngine::UIElements::ReusableCollectionItem*  draggedItem;
 
-  __declspec(property(get = get_isDragging, put = set_isDragging)) bool isDragging;
+ __declspec(property(get=get_isDragging, put=set_isDragging)) bool  isDragging;
 
-  /// @brief Field m_CurrentIndex, offset 0x84, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_CurrentIndex, put = __cordl_internal_set_m_CurrentIndex)) int32_t m_CurrentIndex;
+/// @brief Field m_CurrentIndex, offset 0x84, size 0x4 
+ __declspec(property(get=__cordl_internal_get_m_CurrentIndex, put=__cordl_internal_set_m_CurrentIndex)) int32_t  m_CurrentIndex;
 
-  /// @brief Field m_CurrentPointerPosition, offset 0x90, size 0xc
-  __declspec(property(get = __cordl_internal_get_m_CurrentPointerPosition, put = __cordl_internal_set_m_CurrentPointerPosition)) ::UnityEngine::Vector3 m_CurrentPointerPosition;
+/// @brief Field m_CurrentPointerPosition, offset 0x90, size 0xc 
+ __declspec(property(get=__cordl_internal_get_m_CurrentPointerPosition, put=__cordl_internal_set_m_CurrentPointerPosition)) ::UnityEngine::Vector3  m_CurrentPointerPosition;
 
-  /// @brief Field m_DragStartIndex, offset 0x80, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_DragStartIndex, put = __cordl_internal_set_m_DragStartIndex)) int32_t m_DragStartIndex;
+/// @brief Field m_DragStartIndex, offset 0x80, size 0x4 
+ __declspec(property(get=__cordl_internal_get_m_DragStartIndex, put=__cordl_internal_set_m_DragStartIndex)) int32_t  m_DragStartIndex;
 
-  /// @brief Field m_Item, offset 0xa0, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Item, put = __cordl_internal_set_m_Item)) ::UnityEngine::UIElements::ReusableCollectionItem* m_Item;
+/// @brief Field m_Item, offset 0xa0, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_Item, put=__cordl_internal_set_m_Item)) ::UnityEngine::UIElements::ReusableCollectionItem*  m_Item;
 
-  /// @brief Field m_LocalOffsetOnStart, offset 0x8c, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_LocalOffsetOnStart, put = __cordl_internal_set_m_LocalOffsetOnStart)) float_t m_LocalOffsetOnStart;
+/// @brief Field m_LocalOffsetOnStart, offset 0x8c, size 0x4 
+ __declspec(property(get=__cordl_internal_get_m_LocalOffsetOnStart, put=__cordl_internal_set_m_LocalOffsetOnStart)) float_t  m_LocalOffsetOnStart;
 
-  /// @brief Field m_OffsetItem, offset 0xa8, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_OffsetItem, put = __cordl_internal_set_m_OffsetItem)) ::UnityEngine::UIElements::ReusableCollectionItem* m_OffsetItem;
+/// @brief Field m_OffsetItem, offset 0xa8, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_OffsetItem, put=__cordl_internal_set_m_OffsetItem)) ::UnityEngine::UIElements::ReusableCollectionItem*  m_OffsetItem;
 
-  /// @brief Field m_SelectionHeight, offset 0x88, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_SelectionHeight, put = __cordl_internal_set_m_SelectionHeight)) float_t m_SelectionHeight;
+/// @brief Field m_SelectionHeight, offset 0x88, size 0x4 
+ __declspec(property(get=__cordl_internal_get_m_SelectionHeight, put=__cordl_internal_set_m_SelectionHeight)) float_t  m_SelectionHeight;
 
-  __declspec(property(get = get_supportsDragEvents)) bool supportsDragEvents;
+ __declspec(property(get=get_supportsDragEvents)) bool  supportsDragEvents;
 
-  /// @brief Method Animate, addr 0x6c37948, size 0x380, virtual false, abstract: false, final false
-  inline void Animate(::UnityEngine::UIElements::ReusableCollectionItem* element, float_t paddingTop);
+/// @brief Method Animate, addr 0x6c394c0, size 0x380, virtual false, abstract: false, final false
+inline void Animate(::UnityEngine::UIElements::ReusableCollectionItem*  element, float_t  paddingTop) ;
 
-  /// @brief Method ClearDragAndDropUI, addr 0x6c38aa8, size 0x4, virtual true, abstract: false, final false
-  inline void ClearDragAndDropUI(bool dragCancelled);
+/// @brief Method ClearDragAndDropUI, addr 0x6c3a620, size 0x4, virtual true, abstract: false, final false
+inline void ClearDragAndDropUI(bool  dragCancelled) ;
 
-  static inline ::UnityEngine::UIElements::ListViewDraggerAnimated* New_ctor(::UnityEngine::UIElements::BaseVerticalCollectionView* listView);
+static inline ::UnityEngine::UIElements::ListViewDraggerAnimated* New_ctor(::UnityEngine::UIElements::BaseVerticalCollectionView*  listView) ;
 
-  /// @brief Method OnDrop, addr 0x6c38620, size 0x488, virtual true, abstract: false, final false
-  inline void OnDrop(::UnityEngine::Vector3 pointerPosition);
+/// @brief Method OnDrop, addr 0x6c3a198, size 0x488, virtual true, abstract: false, final false
+inline void OnDrop(::UnityEngine::Vector3  pointerPosition) ;
 
-  /// @brief Method StartDrag, addr 0x6c3719c, size 0x7ac, virtual true, abstract: false, final false
-  inline ::UnityEngine::UIElements::StartDragArgs StartDrag(::UnityEngine::Vector3 pointerPosition);
+/// @brief Method StartDrag, addr 0x6c38d14, size 0x7ac, virtual true, abstract: false, final false
+inline ::UnityEngine::UIElements::StartDragArgs StartDrag(::UnityEngine::Vector3  pointerPosition) ;
 
-  /// @brief Method TryGetDragPosition, addr 0x6c38aac, size 0x20, virtual true, abstract: false, final false
-  inline bool TryGetDragPosition(::UnityEngine::Vector2 pointerPosition, ::ByRef<::UnityEngine::UIElements::ListViewDragger_DragPosition> dragPosition);
+/// @brief Method TryGetDragPosition, addr 0x6c3a624, size 0x20, virtual true, abstract: false, final false
+inline bool TryGetDragPosition(::UnityEngine::Vector2  pointerPosition, ::ByRef<::UnityEngine::UIElements::ListViewDragger_DragPosition>  dragPosition) ;
 
-  /// @brief Method UpdateDrag, addr 0x6c37cc8, size 0x958, virtual true, abstract: false, final false
-  inline void UpdateDrag(::UnityEngine::Vector3 pointerPosition);
+/// @brief Method UpdateDrag, addr 0x6c39840, size 0x958, virtual true, abstract: false, final false
+inline void UpdateDrag(::UnityEngine::Vector3  pointerPosition) ;
 
-  constexpr bool const& __cordl_internal_get__isDragging_k__BackingField() const;
+constexpr bool const& __cordl_internal_get__isDragging_k__BackingField() const;
 
-  constexpr bool& __cordl_internal_get__isDragging_k__BackingField();
+constexpr bool& __cordl_internal_get__isDragging_k__BackingField() ;
 
-  constexpr int32_t const& __cordl_internal_get_m_CurrentIndex() const;
+constexpr int32_t const& __cordl_internal_get_m_CurrentIndex() const;
 
-  constexpr int32_t& __cordl_internal_get_m_CurrentIndex();
+constexpr int32_t& __cordl_internal_get_m_CurrentIndex() ;
 
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_m_CurrentPointerPosition() const;
+constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_m_CurrentPointerPosition() const;
 
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_m_CurrentPointerPosition();
+constexpr ::UnityEngine::Vector3& __cordl_internal_get_m_CurrentPointerPosition() ;
 
-  constexpr int32_t const& __cordl_internal_get_m_DragStartIndex() const;
+constexpr int32_t const& __cordl_internal_get_m_DragStartIndex() const;
 
-  constexpr int32_t& __cordl_internal_get_m_DragStartIndex();
+constexpr int32_t& __cordl_internal_get_m_DragStartIndex() ;
 
-  constexpr ::UnityEngine::UIElements::ReusableCollectionItem* const& __cordl_internal_get_m_Item() const;
+constexpr ::UnityEngine::UIElements::ReusableCollectionItem* const& __cordl_internal_get_m_Item() const;
 
-  constexpr ::UnityEngine::UIElements::ReusableCollectionItem*& __cordl_internal_get_m_Item();
+constexpr ::UnityEngine::UIElements::ReusableCollectionItem*& __cordl_internal_get_m_Item() ;
 
-  constexpr float_t const& __cordl_internal_get_m_LocalOffsetOnStart() const;
+constexpr float_t const& __cordl_internal_get_m_LocalOffsetOnStart() const;
 
-  constexpr float_t& __cordl_internal_get_m_LocalOffsetOnStart();
+constexpr float_t& __cordl_internal_get_m_LocalOffsetOnStart() ;
 
-  constexpr ::UnityEngine::UIElements::ReusableCollectionItem* const& __cordl_internal_get_m_OffsetItem() const;
+constexpr ::UnityEngine::UIElements::ReusableCollectionItem* const& __cordl_internal_get_m_OffsetItem() const;
 
-  constexpr ::UnityEngine::UIElements::ReusableCollectionItem*& __cordl_internal_get_m_OffsetItem();
+constexpr ::UnityEngine::UIElements::ReusableCollectionItem*& __cordl_internal_get_m_OffsetItem() ;
 
-  constexpr float_t const& __cordl_internal_get_m_SelectionHeight() const;
+constexpr float_t const& __cordl_internal_get_m_SelectionHeight() const;
 
-  constexpr float_t& __cordl_internal_get_m_SelectionHeight();
+constexpr float_t& __cordl_internal_get_m_SelectionHeight() ;
 
-  constexpr void __cordl_internal_set__isDragging_k__BackingField(bool value);
+constexpr void __cordl_internal_set__isDragging_k__BackingField(bool  value) ;
 
-  constexpr void __cordl_internal_set_m_CurrentIndex(int32_t value);
+constexpr void __cordl_internal_set_m_CurrentIndex(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_m_CurrentPointerPosition(::UnityEngine::Vector3 value);
+constexpr void __cordl_internal_set_m_CurrentPointerPosition(::UnityEngine::Vector3  value) ;
 
-  constexpr void __cordl_internal_set_m_DragStartIndex(int32_t value);
+constexpr void __cordl_internal_set_m_DragStartIndex(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_m_Item(::UnityEngine::UIElements::ReusableCollectionItem* value);
+constexpr void __cordl_internal_set_m_Item(::UnityEngine::UIElements::ReusableCollectionItem*  value) ;
 
-  constexpr void __cordl_internal_set_m_LocalOffsetOnStart(float_t value);
+constexpr void __cordl_internal_set_m_LocalOffsetOnStart(float_t  value) ;
 
-  constexpr void __cordl_internal_set_m_OffsetItem(::UnityEngine::UIElements::ReusableCollectionItem* value);
+constexpr void __cordl_internal_set_m_OffsetItem(::UnityEngine::UIElements::ReusableCollectionItem*  value) ;
 
-  constexpr void __cordl_internal_set_m_SelectionHeight(float_t value);
+constexpr void __cordl_internal_set_m_SelectionHeight(float_t  value) ;
 
-  /// @brief Method .ctor, addr 0x6c37188, size 0x14, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::UIElements::BaseVerticalCollectionView* listView);
+/// @brief Method .ctor, addr 0x6c38d00, size 0x14, virtual false, abstract: false, final false
+inline void _ctor(::UnityEngine::UIElements::BaseVerticalCollectionView*  listView) ;
 
-  /// @brief Method get_draggedItem, addr 0x6c37178, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::ReusableCollectionItem* get_draggedItem();
+/// @brief Method get_draggedItem, addr 0x6c38cf0, size 0x8, virtual false, abstract: false, final false
+inline ::UnityEngine::UIElements::ReusableCollectionItem* get_draggedItem() ;
 
-  /// @brief Method get_isDragging, addr 0x6c37168, size 0x8, virtual false, abstract: false, final false
-  inline bool get_isDragging();
+/// @brief Method get_isDragging, addr 0x6c38ce0, size 0x8, virtual false, abstract: false, final false
+inline bool get_isDragging() ;
 
-  /// @brief Method get_supportsDragEvents, addr 0x6c37180, size 0x8, virtual true, abstract: false, final false
-  inline bool get_supportsDragEvents();
+/// @brief Method get_supportsDragEvents, addr 0x6c38cf8, size 0x8, virtual true, abstract: false, final false
+inline bool get_supportsDragEvents() ;
 
-  /// @brief Method set_isDragging, addr 0x6c37170, size 0x8, virtual false, abstract: false, final false
-  inline void set_isDragging(bool value);
+/// @brief Method set_isDragging, addr 0x6c38ce8, size 0x8, virtual false, abstract: false, final false
+inline void set_isDragging(bool  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ListViewDraggerAnimated();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ListViewDraggerAnimated() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ListViewDraggerAnimated", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ListViewDraggerAnimated(ListViewDraggerAnimated&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ListViewDraggerAnimated", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ListViewDraggerAnimated(ListViewDraggerAnimated const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ListViewDraggerAnimated", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ListViewDraggerAnimated(ListViewDraggerAnimated && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4409 };
+// Ctor Parameters [CppParam { name: "", ty: "ListViewDraggerAnimated", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ListViewDraggerAnimated(ListViewDraggerAnimated const& ) = delete;
 
-  /// @brief Field m_DragStartIndex, offset: 0x80, size: 0x4, def value: None
-  int32_t ___m_DragStartIndex;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4409};
 
-  /// @brief Field m_CurrentIndex, offset: 0x84, size: 0x4, def value: None
-  int32_t ___m_CurrentIndex;
+/// @brief Field m_DragStartIndex, offset: 0x80, size: 0x4, def value: None
+ int32_t  ___m_DragStartIndex;
 
-  /// @brief Field m_SelectionHeight, offset: 0x88, size: 0x4, def value: None
-  float_t ___m_SelectionHeight;
+/// @brief Field m_CurrentIndex, offset: 0x84, size: 0x4, def value: None
+ int32_t  ___m_CurrentIndex;
 
-  /// @brief Field m_LocalOffsetOnStart, offset: 0x8c, size: 0x4, def value: None
-  float_t ___m_LocalOffsetOnStart;
+/// @brief Field m_SelectionHeight, offset: 0x88, size: 0x4, def value: None
+ float_t  ___m_SelectionHeight;
 
-  /// @brief Field m_CurrentPointerPosition, offset: 0x90, size: 0xc, def value: None
-  ::UnityEngine::Vector3 ___m_CurrentPointerPosition;
+/// @brief Field m_LocalOffsetOnStart, offset: 0x8c, size: 0x4, def value: None
+ float_t  ___m_LocalOffsetOnStart;
 
-  /// @brief Field m_Item, offset: 0xa0, size: 0x8, def value: None
-  ::UnityEngine::UIElements::ReusableCollectionItem* ___m_Item;
+/// @brief Field m_CurrentPointerPosition, offset: 0x90, size: 0xc, def value: None
+ ::UnityEngine::Vector3  ___m_CurrentPointerPosition;
 
-  /// @brief Field m_OffsetItem, offset: 0xa8, size: 0x8, def value: None
-  ::UnityEngine::UIElements::ReusableCollectionItem* ___m_OffsetItem;
+/// @brief Field m_Item, offset: 0xa0, size: 0x8, def value: None
+ ::UnityEngine::UIElements::ReusableCollectionItem*  ___m_Item;
 
-  /// @brief Field <isDragging>k__BackingField, offset: 0xb0, size: 0x1, def value: None
-  bool ____isDragging_k__BackingField;
+/// @brief Field m_OffsetItem, offset: 0xa8, size: 0x8, def value: None
+ ::UnityEngine::UIElements::ReusableCollectionItem*  ___m_OffsetItem;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field <isDragging>k__BackingField, offset: 0xb0, size: 0x1, def value: None
+ bool  ____isDragging_k__BackingField;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::UIElements::ListViewDraggerAnimated, ___m_DragStartIndex) == 0x80, "Offset mismatch!");
@@ -214,6 +214,6 @@ static_assert(offsetof(::UnityEngine::UIElements::ListViewDraggerAnimated, ____i
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::ListViewDraggerAnimated, 0xb8>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements
+} // namespace end def UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::ListViewDraggerAnimated);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::ListViewDraggerAnimated*, "UnityEngine.UIElements", "ListViewDraggerAnimated");

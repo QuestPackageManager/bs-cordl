@@ -72,86 +72,85 @@ namespace Org::BouncyCastle::Cms {
 // CS Name: Org.BouncyCastle.Cms.CmsEnvelopedHelper/CmsAuthenticatedSecureReadable
 class CORDL_TYPE CmsEnvelopedHelper_CmsAuthenticatedSecureReadable : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = get_Algorithm)) ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* Algorithm;
+// Declarations
+ __declspec(property(get=get_Algorithm)) ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*  Algorithm;
 
-  __declspec(property(get = get_CryptoObject)) ::System::Object* CryptoObject;
+ __declspec(property(get=get_CryptoObject)) ::System::Object*  CryptoObject;
 
-  /// @brief Field algorithm, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_algorithm, put = __cordl_internal_set_algorithm)) ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algorithm;
+/// @brief Field algorithm, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_algorithm, put=__cordl_internal_set_algorithm)) ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*  algorithm;
 
-  /// @brief Field mac, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_mac, put = __cordl_internal_set_mac)) ::Org::BouncyCastle::Crypto::IMac* mac;
+/// @brief Field mac, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_mac, put=__cordl_internal_set_mac)) ::Org::BouncyCastle::Crypto::IMac*  mac;
 
-  /// @brief Field readable, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_readable, put = __cordl_internal_set_readable)) ::Org::BouncyCastle::Cms::CmsReadable* readable;
+/// @brief Field readable, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_readable, put=__cordl_internal_set_readable)) ::Org::BouncyCastle::Cms::CmsReadable*  readable;
 
-  /// @brief Convert operator to "::Org::BouncyCastle::Cms::CmsSecureReadable"
-  constexpr operator ::Org::BouncyCastle::Cms::CmsSecureReadable*() noexcept;
+/// @brief Convert operator to "::Org::BouncyCastle::Cms::CmsSecureReadable"
+constexpr operator  ::Org::BouncyCastle::Cms::CmsSecureReadable*() noexcept;
 
-  /// @brief Method GetReadable, addr 0x35efea8, size 0x418, virtual true, abstract: false, final true
-  inline ::Org::BouncyCastle::Cms::CmsReadable* GetReadable(::Org::BouncyCastle::Crypto::Parameters::KeyParameter* sKey);
+/// @brief Method GetReadable, addr 0x35f0c44, size 0x418, virtual true, abstract: false, final true
+inline ::Org::BouncyCastle::Cms::CmsReadable* GetReadable(::Org::BouncyCastle::Crypto::Parameters::KeyParameter*  sKey) ;
 
-  static inline ::Org::BouncyCastle::Cms::CmsEnvelopedHelper_CmsAuthenticatedSecureReadable* New_ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algorithm,
-                                                                                                      ::Org::BouncyCastle::Cms::CmsReadable* readable);
+static inline ::Org::BouncyCastle::Cms::CmsEnvelopedHelper_CmsAuthenticatedSecureReadable* New_ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*  algorithm, ::Org::BouncyCastle::Cms::CmsReadable*  readable) ;
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* const& __cordl_internal_get_algorithm() const;
+constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* const& __cordl_internal_get_algorithm() const;
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __cordl_internal_get_algorithm();
+constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __cordl_internal_get_algorithm() ;
 
-  constexpr ::Org::BouncyCastle::Crypto::IMac* const& __cordl_internal_get_mac() const;
+constexpr ::Org::BouncyCastle::Crypto::IMac* const& __cordl_internal_get_mac() const;
 
-  constexpr ::Org::BouncyCastle::Crypto::IMac*& __cordl_internal_get_mac();
+constexpr ::Org::BouncyCastle::Crypto::IMac*& __cordl_internal_get_mac() ;
 
-  constexpr ::Org::BouncyCastle::Cms::CmsReadable* const& __cordl_internal_get_readable() const;
+constexpr ::Org::BouncyCastle::Cms::CmsReadable* const& __cordl_internal_get_readable() const;
 
-  constexpr ::Org::BouncyCastle::Cms::CmsReadable*& __cordl_internal_get_readable();
+constexpr ::Org::BouncyCastle::Cms::CmsReadable*& __cordl_internal_get_readable() ;
 
-  constexpr void __cordl_internal_set_algorithm(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
+constexpr void __cordl_internal_set_algorithm(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*  value) ;
 
-  constexpr void __cordl_internal_set_mac(::Org::BouncyCastle::Crypto::IMac* value);
+constexpr void __cordl_internal_set_mac(::Org::BouncyCastle::Crypto::IMac*  value) ;
 
-  constexpr void __cordl_internal_set_readable(::Org::BouncyCastle::Cms::CmsReadable* value);
+constexpr void __cordl_internal_set_readable(::Org::BouncyCastle::Cms::CmsReadable*  value) ;
 
-  /// @brief Method .ctor, addr 0x35efe8c, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algorithm, ::Org::BouncyCastle::Cms::CmsReadable* readable);
+/// @brief Method .ctor, addr 0x35f0c28, size 0xc, virtual false, abstract: false, final false
+inline void _ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*  algorithm, ::Org::BouncyCastle::Cms::CmsReadable*  readable) ;
 
-  /// @brief Method get_Algorithm, addr 0x35efe98, size 0x8, virtual true, abstract: false, final true
-  inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_Algorithm();
+/// @brief Method get_Algorithm, addr 0x35f0c34, size 0x8, virtual true, abstract: false, final true
+inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_Algorithm() ;
 
-  /// @brief Method get_CryptoObject, addr 0x35efea0, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Object* get_CryptoObject();
+/// @brief Method get_CryptoObject, addr 0x35f0c3c, size 0x8, virtual true, abstract: false, final true
+inline ::System::Object* get_CryptoObject() ;
 
-  /// @brief Convert to "::Org::BouncyCastle::Cms::CmsSecureReadable"
-  constexpr ::Org::BouncyCastle::Cms::CmsSecureReadable* i___Org__BouncyCastle__Cms__CmsSecureReadable() noexcept;
+/// @brief Convert to "::Org::BouncyCastle::Cms::CmsSecureReadable"
+constexpr ::Org::BouncyCastle::Cms::CmsSecureReadable* i___Org__BouncyCastle__Cms__CmsSecureReadable() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CmsEnvelopedHelper_CmsAuthenticatedSecureReadable();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr CmsEnvelopedHelper_CmsAuthenticatedSecureReadable() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CmsEnvelopedHelper_CmsAuthenticatedSecureReadable", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  CmsEnvelopedHelper_CmsAuthenticatedSecureReadable(CmsEnvelopedHelper_CmsAuthenticatedSecureReadable&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CmsEnvelopedHelper_CmsAuthenticatedSecureReadable", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  CmsEnvelopedHelper_CmsAuthenticatedSecureReadable(CmsEnvelopedHelper_CmsAuthenticatedSecureReadable const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "CmsEnvelopedHelper_CmsAuthenticatedSecureReadable", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+CmsEnvelopedHelper_CmsAuthenticatedSecureReadable(CmsEnvelopedHelper_CmsAuthenticatedSecureReadable && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 638 };
+// Ctor Parameters [CppParam { name: "", ty: "CmsEnvelopedHelper_CmsAuthenticatedSecureReadable", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+CmsEnvelopedHelper_CmsAuthenticatedSecureReadable(CmsEnvelopedHelper_CmsAuthenticatedSecureReadable const& ) = delete;
 
-  /// @brief Field algorithm, offset: 0x10, size: 0x8, def value: None
-  ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* ___algorithm;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{638};
 
-  /// @brief Field mac, offset: 0x18, size: 0x8, def value: None
-  ::Org::BouncyCastle::Crypto::IMac* ___mac;
+/// @brief Field algorithm, offset: 0x10, size: 0x8, def value: None
+ ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*  ___algorithm;
 
-  /// @brief Field readable, offset: 0x20, size: 0x8, def value: None
-  ::Org::BouncyCastle::Cms::CmsReadable* ___readable;
+/// @brief Field mac, offset: 0x18, size: 0x8, def value: None
+ ::Org::BouncyCastle::Crypto::IMac*  ___mac;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field readable, offset: 0x20, size: 0x8, def value: None
+ ::Org::BouncyCastle::Cms::CmsReadable*  ___readable;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Org::BouncyCastle::Cms::CmsEnvelopedHelper_CmsAuthenticatedSecureReadable, ___algorithm) == 0x10, "Offset mismatch!");
@@ -162,93 +161,92 @@ static_assert(offsetof(::Org::BouncyCastle::Cms::CmsEnvelopedHelper_CmsAuthentic
 
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Cms::CmsEnvelopedHelper_CmsAuthenticatedSecureReadable, 0x28>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Cms
+} // namespace end def Org::BouncyCastle::Cms
 // Dependencies System.Object
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
 // CS Name: Org.BouncyCastle.Cms.CmsEnvelopedHelper/CmsEnvelopedSecureReadable
 class CORDL_TYPE CmsEnvelopedHelper_CmsEnvelopedSecureReadable : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = get_Algorithm)) ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* Algorithm;
+// Declarations
+ __declspec(property(get=get_Algorithm)) ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*  Algorithm;
 
-  __declspec(property(get = get_CryptoObject)) ::System::Object* CryptoObject;
+ __declspec(property(get=get_CryptoObject)) ::System::Object*  CryptoObject;
 
-  /// @brief Field algorithm, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_algorithm, put = __cordl_internal_set_algorithm)) ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algorithm;
+/// @brief Field algorithm, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_algorithm, put=__cordl_internal_set_algorithm)) ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*  algorithm;
 
-  /// @brief Field cipher, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_cipher, put = __cordl_internal_set_cipher)) ::Org::BouncyCastle::Crypto::IBufferedCipher* cipher;
+/// @brief Field cipher, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_cipher, put=__cordl_internal_set_cipher)) ::Org::BouncyCastle::Crypto::IBufferedCipher*  cipher;
 
-  /// @brief Field readable, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_readable, put = __cordl_internal_set_readable)) ::Org::BouncyCastle::Cms::CmsReadable* readable;
+/// @brief Field readable, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_readable, put=__cordl_internal_set_readable)) ::Org::BouncyCastle::Cms::CmsReadable*  readable;
 
-  /// @brief Convert operator to "::Org::BouncyCastle::Cms::CmsSecureReadable"
-  constexpr operator ::Org::BouncyCastle::Cms::CmsSecureReadable*() noexcept;
+/// @brief Convert operator to "::Org::BouncyCastle::Cms::CmsSecureReadable"
+constexpr operator  ::Org::BouncyCastle::Cms::CmsSecureReadable*() noexcept;
 
-  /// @brief Method GetReadable, addr 0x35f02e8, size 0x634, virtual true, abstract: false, final true
-  inline ::Org::BouncyCastle::Cms::CmsReadable* GetReadable(::Org::BouncyCastle::Crypto::Parameters::KeyParameter* sKey);
+/// @brief Method GetReadable, addr 0x35f1084, size 0x634, virtual true, abstract: false, final true
+inline ::Org::BouncyCastle::Cms::CmsReadable* GetReadable(::Org::BouncyCastle::Crypto::Parameters::KeyParameter*  sKey) ;
 
-  static inline ::Org::BouncyCastle::Cms::CmsEnvelopedHelper_CmsEnvelopedSecureReadable* New_ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algorithm,
-                                                                                                  ::Org::BouncyCastle::Cms::CmsReadable* readable);
+static inline ::Org::BouncyCastle::Cms::CmsEnvelopedHelper_CmsEnvelopedSecureReadable* New_ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*  algorithm, ::Org::BouncyCastle::Cms::CmsReadable*  readable) ;
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* const& __cordl_internal_get_algorithm() const;
+constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* const& __cordl_internal_get_algorithm() const;
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __cordl_internal_get_algorithm();
+constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __cordl_internal_get_algorithm() ;
 
-  constexpr ::Org::BouncyCastle::Crypto::IBufferedCipher* const& __cordl_internal_get_cipher() const;
+constexpr ::Org::BouncyCastle::Crypto::IBufferedCipher* const& __cordl_internal_get_cipher() const;
 
-  constexpr ::Org::BouncyCastle::Crypto::IBufferedCipher*& __cordl_internal_get_cipher();
+constexpr ::Org::BouncyCastle::Crypto::IBufferedCipher*& __cordl_internal_get_cipher() ;
 
-  constexpr ::Org::BouncyCastle::Cms::CmsReadable* const& __cordl_internal_get_readable() const;
+constexpr ::Org::BouncyCastle::Cms::CmsReadable* const& __cordl_internal_get_readable() const;
 
-  constexpr ::Org::BouncyCastle::Cms::CmsReadable*& __cordl_internal_get_readable();
+constexpr ::Org::BouncyCastle::Cms::CmsReadable*& __cordl_internal_get_readable() ;
 
-  constexpr void __cordl_internal_set_algorithm(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
+constexpr void __cordl_internal_set_algorithm(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*  value) ;
 
-  constexpr void __cordl_internal_set_cipher(::Org::BouncyCastle::Crypto::IBufferedCipher* value);
+constexpr void __cordl_internal_set_cipher(::Org::BouncyCastle::Crypto::IBufferedCipher*  value) ;
 
-  constexpr void __cordl_internal_set_readable(::Org::BouncyCastle::Cms::CmsReadable* value);
+constexpr void __cordl_internal_set_readable(::Org::BouncyCastle::Cms::CmsReadable*  value) ;
 
-  /// @brief Method .ctor, addr 0x35f02cc, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algorithm, ::Org::BouncyCastle::Cms::CmsReadable* readable);
+/// @brief Method .ctor, addr 0x35f1068, size 0xc, virtual false, abstract: false, final false
+inline void _ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*  algorithm, ::Org::BouncyCastle::Cms::CmsReadable*  readable) ;
 
-  /// @brief Method get_Algorithm, addr 0x35f02d8, size 0x8, virtual true, abstract: false, final true
-  inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_Algorithm();
+/// @brief Method get_Algorithm, addr 0x35f1074, size 0x8, virtual true, abstract: false, final true
+inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_Algorithm() ;
 
-  /// @brief Method get_CryptoObject, addr 0x35f02e0, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Object* get_CryptoObject();
+/// @brief Method get_CryptoObject, addr 0x35f107c, size 0x8, virtual true, abstract: false, final true
+inline ::System::Object* get_CryptoObject() ;
 
-  /// @brief Convert to "::Org::BouncyCastle::Cms::CmsSecureReadable"
-  constexpr ::Org::BouncyCastle::Cms::CmsSecureReadable* i___Org__BouncyCastle__Cms__CmsSecureReadable() noexcept;
+/// @brief Convert to "::Org::BouncyCastle::Cms::CmsSecureReadable"
+constexpr ::Org::BouncyCastle::Cms::CmsSecureReadable* i___Org__BouncyCastle__Cms__CmsSecureReadable() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CmsEnvelopedHelper_CmsEnvelopedSecureReadable();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr CmsEnvelopedHelper_CmsEnvelopedSecureReadable() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CmsEnvelopedHelper_CmsEnvelopedSecureReadable", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  CmsEnvelopedHelper_CmsEnvelopedSecureReadable(CmsEnvelopedHelper_CmsEnvelopedSecureReadable&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CmsEnvelopedHelper_CmsEnvelopedSecureReadable", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  CmsEnvelopedHelper_CmsEnvelopedSecureReadable(CmsEnvelopedHelper_CmsEnvelopedSecureReadable const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "CmsEnvelopedHelper_CmsEnvelopedSecureReadable", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+CmsEnvelopedHelper_CmsEnvelopedSecureReadable(CmsEnvelopedHelper_CmsEnvelopedSecureReadable && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 639 };
+// Ctor Parameters [CppParam { name: "", ty: "CmsEnvelopedHelper_CmsEnvelopedSecureReadable", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+CmsEnvelopedHelper_CmsEnvelopedSecureReadable(CmsEnvelopedHelper_CmsEnvelopedSecureReadable const& ) = delete;
 
-  /// @brief Field algorithm, offset: 0x10, size: 0x8, def value: None
-  ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* ___algorithm;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{639};
 
-  /// @brief Field cipher, offset: 0x18, size: 0x8, def value: None
-  ::Org::BouncyCastle::Crypto::IBufferedCipher* ___cipher;
+/// @brief Field algorithm, offset: 0x10, size: 0x8, def value: None
+ ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*  ___algorithm;
 
-  /// @brief Field readable, offset: 0x20, size: 0x8, def value: None
-  ::Org::BouncyCastle::Cms::CmsReadable* ___readable;
+/// @brief Field cipher, offset: 0x18, size: 0x8, def value: None
+ ::Org::BouncyCastle::Crypto::IBufferedCipher*  ___cipher;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field readable, offset: 0x20, size: 0x8, def value: None
+ ::Org::BouncyCastle::Cms::CmsReadable*  ___readable;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Org::BouncyCastle::Cms::CmsEnvelopedHelper_CmsEnvelopedSecureReadable, ___algorithm) == 0x10, "Offset mismatch!");
@@ -259,89 +257,88 @@ static_assert(offsetof(::Org::BouncyCastle::Cms::CmsEnvelopedHelper_CmsEnveloped
 
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Cms::CmsEnvelopedHelper_CmsEnvelopedSecureReadable, 0x28>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Cms
+} // namespace end def Org::BouncyCastle::Cms
 // Dependencies System.Object
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
 // CS Name: Org.BouncyCastle.Cms.CmsEnvelopedHelper
 class CORDL_TYPE CmsEnvelopedHelper : public ::System::Object {
 public:
-  // Declarations
-  using CmsAuthenticatedSecureReadable = ::Org::BouncyCastle::Cms::CmsEnvelopedHelper_CmsAuthenticatedSecureReadable;
+// Declarations
+using CmsAuthenticatedSecureReadable = ::Org::BouncyCastle::Cms::CmsEnvelopedHelper_CmsAuthenticatedSecureReadable;
 
-  using CmsEnvelopedSecureReadable = ::Org::BouncyCastle::Cms::CmsEnvelopedHelper_CmsEnvelopedSecureReadable;
+using CmsEnvelopedSecureReadable = ::Org::BouncyCastle::Cms::CmsEnvelopedHelper_CmsEnvelopedSecureReadable;
 
-  /// @brief Field BaseCipherNames, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_BaseCipherNames, put = setStaticF_BaseCipherNames)) ::System::Collections::IDictionary* BaseCipherNames;
+/// @brief Field BaseCipherNames, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_BaseCipherNames, put=setStaticF_BaseCipherNames)) ::System::Collections::IDictionary*  BaseCipherNames;
 
-  /// @brief Field Instance, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance)) ::Org::BouncyCastle::Cms::CmsEnvelopedHelper* Instance;
+/// @brief Field Instance, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_Instance, put=setStaticF_Instance)) ::Org::BouncyCastle::Cms::CmsEnvelopedHelper*  Instance;
 
-  /// @brief Field KeySizes, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_KeySizes, put = setStaticF_KeySizes)) ::System::Collections::IDictionary* KeySizes;
+/// @brief Field KeySizes, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_KeySizes, put=setStaticF_KeySizes)) ::System::Collections::IDictionary*  KeySizes;
 
-  /// @brief Method BuildRecipientInformationStore, addr 0x35eebec, size 0x13c, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Cms::RecipientInformationStore* BuildRecipientInformationStore(::Org::BouncyCastle::Asn1::Asn1Set* recipientInfos,
-                                                                                                    ::Org::BouncyCastle::Cms::CmsSecureReadable* secureReadable);
+/// @brief Method BuildRecipientInformationStore, addr 0x35ef988, size 0x13c, virtual false, abstract: false, final false
+static inline ::Org::BouncyCastle::Cms::RecipientInformationStore* BuildRecipientInformationStore(::Org::BouncyCastle::Asn1::Asn1Set*  recipientInfos, ::Org::BouncyCastle::Cms::CmsSecureReadable*  secureReadable) ;
 
-  /// @brief Method CreateAsymmetricCipher, addr 0x35ee5f8, size 0x120, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Crypto::IBufferedCipher* CreateAsymmetricCipher(::StringW encryptionOid);
+/// @brief Method CreateAsymmetricCipher, addr 0x35ef394, size 0x120, virtual false, abstract: false, final false
+inline ::Org::BouncyCastle::Crypto::IBufferedCipher* CreateAsymmetricCipher(::StringW  encryptionOid) ;
 
-  /// @brief Method CreateWrapper, addr 0x35ee718, size 0x110, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Crypto::IWrapper* CreateWrapper(::StringW encryptionOid);
+/// @brief Method CreateWrapper, addr 0x35ef4b4, size 0x110, virtual false, abstract: false, final false
+inline ::Org::BouncyCastle::Crypto::IWrapper* CreateWrapper(::StringW  encryptionOid) ;
 
-  /// @brief Method GetAsymmetricEncryptionAlgName, addr 0x35ee558, size 0xa0, virtual false, abstract: false, final false
-  inline ::StringW GetAsymmetricEncryptionAlgName(::StringW encryptionAlgOid);
+/// @brief Method GetAsymmetricEncryptionAlgName, addr 0x35ef2f4, size 0xa0, virtual false, abstract: false, final false
+inline ::StringW GetAsymmetricEncryptionAlgName(::StringW  encryptionAlgOid) ;
 
-  /// @brief Method GetKeySize, addr 0x35ee9f4, size 0x1f8, virtual false, abstract: false, final false
-  inline int32_t GetKeySize(::StringW oid);
+/// @brief Method GetKeySize, addr 0x35ef790, size 0x1f8, virtual false, abstract: false, final false
+inline int32_t GetKeySize(::StringW  oid) ;
 
-  /// @brief Method GetRfc3211WrapperName, addr 0x35ee828, size 0x1cc, virtual false, abstract: false, final false
-  inline ::StringW GetRfc3211WrapperName(::StringW oid);
+/// @brief Method GetRfc3211WrapperName, addr 0x35ef5c4, size 0x1cc, virtual false, abstract: false, final false
+inline ::StringW GetRfc3211WrapperName(::StringW  oid) ;
 
-  static inline ::Org::BouncyCastle::Cms::CmsEnvelopedHelper* New_ctor();
+static inline ::Org::BouncyCastle::Cms::CmsEnvelopedHelper* New_ctor() ;
 
-  /// @brief Method ReadRecipientInfo, addr 0x35eed28, size 0x388, virtual false, abstract: false, final false
-  static inline void ReadRecipientInfo(::System::Collections::IList* infos, ::Org::BouncyCastle::Asn1::Cms::RecipientInfo* info, ::Org::BouncyCastle::Cms::CmsSecureReadable* secureReadable);
+/// @brief Method ReadRecipientInfo, addr 0x35efac4, size 0x388, virtual false, abstract: false, final false
+static inline void ReadRecipientInfo(::System::Collections::IList*  infos, ::Org::BouncyCastle::Asn1::Cms::RecipientInfo*  info, ::Org::BouncyCastle::Cms::CmsSecureReadable*  secureReadable) ;
 
-  /// @brief Method .ctor, addr 0x35ee554, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x35ef2f0, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  static inline ::System::Collections::IDictionary* getStaticF_BaseCipherNames();
+static inline ::System::Collections::IDictionary* getStaticF_BaseCipherNames() ;
 
-  static inline ::Org::BouncyCastle::Cms::CmsEnvelopedHelper* getStaticF_Instance();
+static inline ::Org::BouncyCastle::Cms::CmsEnvelopedHelper* getStaticF_Instance() ;
 
-  static inline ::System::Collections::IDictionary* getStaticF_KeySizes();
+static inline ::System::Collections::IDictionary* getStaticF_KeySizes() ;
 
-  static inline void setStaticF_BaseCipherNames(::System::Collections::IDictionary* value);
+static inline void setStaticF_BaseCipherNames(::System::Collections::IDictionary*  value) ;
 
-  static inline void setStaticF_Instance(::Org::BouncyCastle::Cms::CmsEnvelopedHelper* value);
+static inline void setStaticF_Instance(::Org::BouncyCastle::Cms::CmsEnvelopedHelper*  value) ;
 
-  static inline void setStaticF_KeySizes(::System::Collections::IDictionary* value);
+static inline void setStaticF_KeySizes(::System::Collections::IDictionary*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CmsEnvelopedHelper();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr CmsEnvelopedHelper() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CmsEnvelopedHelper", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  CmsEnvelopedHelper(CmsEnvelopedHelper&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CmsEnvelopedHelper", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  CmsEnvelopedHelper(CmsEnvelopedHelper const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "CmsEnvelopedHelper", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+CmsEnvelopedHelper(CmsEnvelopedHelper && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 640 };
+// Ctor Parameters [CppParam { name: "", ty: "CmsEnvelopedHelper", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+CmsEnvelopedHelper(CmsEnvelopedHelper const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{640};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Cms::CmsEnvelopedHelper, 0x10>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Cms
+} // namespace end def Org::BouncyCastle::Cms
 NEED_NO_BOX(::Org::BouncyCastle::Cms::CmsEnvelopedHelper);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Cms::CmsEnvelopedHelper*, "Org.BouncyCastle.Cms", "CmsEnvelopedHelper");
 NEED_NO_BOX(::Org::BouncyCastle::Cms::CmsEnvelopedHelper_CmsAuthenticatedSecureReadable);

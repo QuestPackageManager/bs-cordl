@@ -20,34 +20,34 @@ namespace GlobalNamespace {
 // CS Name: DIContainerSignal
 class CORDL_TYPE DIContainerSignal : public ::GlobalNamespace::GenericSignal_1<::Zenject::DiContainer*> {
 public:
-  // Declarations
-  static inline ::GlobalNamespace::DIContainerSignal* New_ctor();
+// Declarations
+static inline ::GlobalNamespace::DIContainerSignal* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x5711bc0, size 0x48, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5713428, size 0x48, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DIContainerSignal();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr DIContainerSignal() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DIContainerSignal", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  DIContainerSignal(DIContainerSignal&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DIContainerSignal", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  DIContainerSignal(DIContainerSignal const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "DIContainerSignal", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+DIContainerSignal(DIContainerSignal && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20295 };
+// Ctor Parameters [CppParam { name: "", ty: "DIContainerSignal", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+DIContainerSignal(DIContainerSignal const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20298};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::DIContainerSignal, 0x28>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::DIContainerSignal);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::DIContainerSignal*, "", "DIContainerSignal");

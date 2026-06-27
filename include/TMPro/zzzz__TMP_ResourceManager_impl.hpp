@@ -8,250 +8,289 @@
 #include "TMPro/zzzz__TMP_ResourceManager_def.hpp"
 #include "TMPro/zzzz__TMP_Settings_def.hpp"
 //  Writing Method size for method: ::TMPro::TMP_ResourceManager_FontAssetRef._ctor
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_ResourceManager_FontAssetRef::*)(int32_t, int32_t, int32_t, ::TMPro::TMP_FontAsset*)>(
-    &::TMPro::TMP_ResourceManager_FontAssetRef::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_ResourceManager_FontAssetRef::*)(int32_t, int32_t, int32_t, ::TMPro::TMP_FontAsset*)>(&::TMPro::TMP_ResourceManager_FontAssetRef::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x68553b4;
+  constexpr static std::size_t addrs = 0x6856f2c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_ResourceManager_FontAssetRef>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::TMP_FontAsset*>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_ResourceManager_FontAssetRef>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::TMP_FontAsset*>::get()}
+                    )));
     return ___internal_method;
   }
 };
-inline void TMPro::TMP_ResourceManager_FontAssetRef::_ctor(int32_t nameHashCode, int32_t familyNameHashCode, int32_t styleNameHashCode, ::TMPro::TMP_FontAsset* fontAsset) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_ResourceManager_FontAssetRef>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 4>{
-                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::TMP_FontAsset*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, nameHashCode, familyNameHashCode, styleNameHashCode, fontAsset);
+inline void TMPro::TMP_ResourceManager_FontAssetRef::_ctor(int32_t  nameHashCode, int32_t  familyNameHashCode, int32_t  styleNameHashCode, ::TMPro::TMP_FontAsset*  fontAsset)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_ResourceManager_FontAssetRef>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::TMP_FontAsset*>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, nameHashCode, familyNameHashCode, styleNameHashCode, fontAsset);
 }
-// Ctor Parameters [CppParam { name: "nameHashCode", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "familyNameHashCode", ty: "int32_t", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "styleNameHashCode", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "familyNameAndStyleHashCode", ty: "int64_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "fontAsset", ty: "::UnityW<::TMPro::TMP_FontAsset>", modifiers: "", def_value: Some("{}") }]
-constexpr ::TMPro::TMP_ResourceManager_FontAssetRef::TMP_ResourceManager_FontAssetRef(int32_t nameHashCode, int32_t familyNameHashCode, int32_t styleNameHashCode, int64_t familyNameAndStyleHashCode,
-                                                                                      ::UnityW<::TMPro::TMP_FontAsset> fontAsset) noexcept {
-  this->nameHashCode = nameHashCode;
-  this->familyNameHashCode = familyNameHashCode;
-  this->styleNameHashCode = styleNameHashCode;
-  this->familyNameAndStyleHashCode = familyNameAndStyleHashCode;
-  this->fontAsset = fontAsset;
+// Ctor Parameters [CppParam { name: "nameHashCode", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "familyNameHashCode", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "styleNameHashCode", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "familyNameAndStyleHashCode", ty: "int64_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "fontAsset", ty: "::UnityW<::TMPro::TMP_FontAsset>", modifiers: "", def_value: Some("{}") }]
+constexpr ::TMPro::TMP_ResourceManager_FontAssetRef::TMP_ResourceManager_FontAssetRef(int32_t  nameHashCode, int32_t  familyNameHashCode, int32_t  styleNameHashCode, int64_t  familyNameAndStyleHashCode, ::UnityW<::TMPro::TMP_FontAsset>  fontAsset) noexcept  {
+this->nameHashCode = nameHashCode;
+this->familyNameHashCode = familyNameHashCode;
+this->styleNameHashCode = styleNameHashCode;
+this->familyNameAndStyleHashCode = familyNameAndStyleHashCode;
+this->fontAsset = fontAsset;
 }
 // Ctor Parameters []
-constexpr ::TMPro::TMP_ResourceManager_FontAssetRef::TMP_ResourceManager_FontAssetRef() {}
+constexpr ::TMPro::TMP_ResourceManager_FontAssetRef::TMP_ResourceManager_FontAssetRef()   {
+}
 //  Writing Method size for method: ::TMPro::TMP_ResourceManager.GetTextSettings
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::TMPro::TMP_Settings> (*)()>(&::TMPro::TMP_ResourceManager::GetTextSettings)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x6854cbc;
+  constexpr static std::size_t addrs = 0x6856834;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_ResourceManager*>::get(), "GetTextSettings",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_ResourceManager*>::get(),
+                        "GetTextSettings",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::TMPro::TMP_ResourceManager.AddFontAsset
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::TMPro::TMP_FontAsset*)>(&::TMPro::TMP_ResourceManager::AddFontAsset)> {
   constexpr static std::size_t size = 0x5e0;
-  constexpr static std::size_t addrs = 0x6854dd4;
+  constexpr static std::size_t addrs = 0x685694c;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_ResourceManager*>::get(), "AddFontAsset", std::span<Il2CppClass const* const, 0>(),
-                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::TMP_FontAsset*>::get() })));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_ResourceManager*>::get(),
+                        "AddFontAsset",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::TMP_FontAsset*>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::TMPro::TMP_ResourceManager.RemoveFontAsset
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::TMPro::TMP_FontAsset*)>(&::TMPro::TMP_ResourceManager::RemoveFontAsset)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x68553d4;
+  constexpr static std::size_t addrs = 0x6856f4c;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_ResourceManager*>::get(), "RemoveFontAsset", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::TMP_FontAsset*>::get() })));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_ResourceManager*>::get(),
+                        "RemoveFontAsset",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::TMP_FontAsset*>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::TMPro::TMP_ResourceManager.TryGetFontAssetByName
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int32_t, ::ByRef<::TMPro::TMP_FontAsset*>)>(&::TMPro::TMP_ResourceManager::TryGetFontAssetByName)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x6855550;
+  constexpr static std::size_t addrs = 0x68570c8;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_ResourceManager*>::get(), "TryGetFontAssetByName", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::TMPro::TMP_FontAsset*>>::get() })));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_ResourceManager*>::get(),
+                        "TryGetFontAssetByName",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::TMPro::TMP_FontAsset*>>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::TMPro::TMP_ResourceManager.TryGetFontAssetByFamilyName
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int32_t, int32_t, ::ByRef<::TMPro::TMP_FontAsset*>)>(
-    &::TMPro::TMP_ResourceManager::TryGetFontAssetByFamilyName)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int32_t, int32_t, ::ByRef<::TMPro::TMP_FontAsset*>)>(&::TMPro::TMP_ResourceManager::TryGetFontAssetByFamilyName)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x68555ec;
+  constexpr static std::size_t addrs = 0x6857164;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_ResourceManager*>::get(), "TryGetFontAssetByFamilyName", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::TMPro::TMP_FontAsset*>>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_ResourceManager*>::get(),
+                        "TryGetFontAssetByFamilyName",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::TMPro::TMP_FontAsset*>>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::TMPro::TMP_ResourceManager.ClearFontAssetGlyphCache
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::TMPro::TMP_ResourceManager::ClearFontAssetGlyphCache)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x68556ac;
+  constexpr static std::size_t addrs = 0x6857224;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_ResourceManager*>::get(), "ClearFontAssetGlyphCache",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_ResourceManager*>::get(),
+                        "ClearFontAssetGlyphCache",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::TMPro::TMP_ResourceManager.RebuildFontAssetCache
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::TMPro::TMP_ResourceManager::RebuildFontAssetCache)> {
   constexpr static std::size_t size = 0x4ec;
-  constexpr static std::size_t addrs = 0x68556fc;
+  constexpr static std::size_t addrs = 0x6857274;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_ResourceManager*>::get(), "RebuildFontAssetCache",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_ResourceManager*>::get(),
+                        "RebuildFontAssetCache",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::TMPro::TMP_ResourceManager._ctor
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_ResourceManager::*)()>(&::TMPro::TMP_ResourceManager::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6855be8;
+  constexpr static std::size_t addrs = 0x6857760;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_ResourceManager*>::get(), ".ctor",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_ResourceManager*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
-inline void TMPro::TMP_ResourceManager::setStaticF_s_TextSettings(::UnityW<::TMPro::TMP_Settings> value) {
-  ::cordl_internals::setStaticField<::UnityW<::TMPro::TMP_Settings>, "s_TextSettings", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_ResourceManager*>::get>(
-      std::forward<::UnityW<::TMPro::TMP_Settings>>(value));
+inline void TMPro::TMP_ResourceManager::setStaticF_s_TextSettings(::UnityW<::TMPro::TMP_Settings>  value)  {
+::cordl_internals::setStaticField<::UnityW<::TMPro::TMP_Settings>, "s_TextSettings", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_ResourceManager*>::get>(std::forward<::UnityW<::TMPro::TMP_Settings>>(value));
 }
-inline ::UnityW<::TMPro::TMP_Settings> TMPro::TMP_ResourceManager::getStaticF_s_TextSettings() {
-  return ::cordl_internals::getStaticField<::UnityW<::TMPro::TMP_Settings>, "s_TextSettings", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_ResourceManager*>::get>();
+inline ::UnityW<::TMPro::TMP_Settings> TMPro::TMP_ResourceManager::getStaticF_s_TextSettings()  {
+return ::cordl_internals::getStaticField<::UnityW<::TMPro::TMP_Settings>, "s_TextSettings", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_ResourceManager*>::get>();
 }
-inline void TMPro::TMP_ResourceManager::setStaticF_s_FontAssetReferences(::System::Collections::Generic::Dictionary_2<int32_t, ::TMPro::TMP_ResourceManager_FontAssetRef>* value) {
-  ::cordl_internals::setStaticField<::System::Collections::Generic::Dictionary_2<int32_t, ::TMPro::TMP_ResourceManager_FontAssetRef>*, "s_FontAssetReferences",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_ResourceManager*>::get>(
-      std::forward<::System::Collections::Generic::Dictionary_2<int32_t, ::TMPro::TMP_ResourceManager_FontAssetRef>*>(value));
+inline void TMPro::TMP_ResourceManager::setStaticF_s_FontAssetReferences(::System::Collections::Generic::Dictionary_2<int32_t,::TMPro::TMP_ResourceManager_FontAssetRef>*  value)  {
+::cordl_internals::setStaticField<::System::Collections::Generic::Dictionary_2<int32_t,::TMPro::TMP_ResourceManager_FontAssetRef>*, "s_FontAssetReferences", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_ResourceManager*>::get>(std::forward<::System::Collections::Generic::Dictionary_2<int32_t,::TMPro::TMP_ResourceManager_FontAssetRef>*>(value));
 }
-inline ::System::Collections::Generic::Dictionary_2<int32_t, ::TMPro::TMP_ResourceManager_FontAssetRef>* TMPro::TMP_ResourceManager::getStaticF_s_FontAssetReferences() {
-  return ::cordl_internals::getStaticField<::System::Collections::Generic::Dictionary_2<int32_t, ::TMPro::TMP_ResourceManager_FontAssetRef>*, "s_FontAssetReferences",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_ResourceManager*>::get>();
+inline ::System::Collections::Generic::Dictionary_2<int32_t,::TMPro::TMP_ResourceManager_FontAssetRef>* TMPro::TMP_ResourceManager::getStaticF_s_FontAssetReferences()  {
+return ::cordl_internals::getStaticField<::System::Collections::Generic::Dictionary_2<int32_t,::TMPro::TMP_ResourceManager_FontAssetRef>*, "s_FontAssetReferences", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_ResourceManager*>::get>();
 }
-inline void TMPro::TMP_ResourceManager::setStaticF_s_FontAssetNameReferenceLookup(::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::TMPro::TMP_FontAsset>>* value) {
-  ::cordl_internals::setStaticField<::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::TMPro::TMP_FontAsset>>*, "s_FontAssetNameReferenceLookup",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_ResourceManager*>::get>(
-      std::forward<::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::TMPro::TMP_FontAsset>>*>(value));
+inline void TMPro::TMP_ResourceManager::setStaticF_s_FontAssetNameReferenceLookup(::System::Collections::Generic::Dictionary_2<int32_t,::UnityW<::TMPro::TMP_FontAsset>>*  value)  {
+::cordl_internals::setStaticField<::System::Collections::Generic::Dictionary_2<int32_t,::UnityW<::TMPro::TMP_FontAsset>>*, "s_FontAssetNameReferenceLookup", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_ResourceManager*>::get>(std::forward<::System::Collections::Generic::Dictionary_2<int32_t,::UnityW<::TMPro::TMP_FontAsset>>*>(value));
 }
-inline ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::TMPro::TMP_FontAsset>>* TMPro::TMP_ResourceManager::getStaticF_s_FontAssetNameReferenceLookup() {
-  return ::cordl_internals::getStaticField<::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::TMPro::TMP_FontAsset>>*, "s_FontAssetNameReferenceLookup",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_ResourceManager*>::get>();
+inline ::System::Collections::Generic::Dictionary_2<int32_t,::UnityW<::TMPro::TMP_FontAsset>>* TMPro::TMP_ResourceManager::getStaticF_s_FontAssetNameReferenceLookup()  {
+return ::cordl_internals::getStaticField<::System::Collections::Generic::Dictionary_2<int32_t,::UnityW<::TMPro::TMP_FontAsset>>*, "s_FontAssetNameReferenceLookup", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_ResourceManager*>::get>();
 }
-inline void TMPro::TMP_ResourceManager::setStaticF_s_FontAssetFamilyNameAndStyleReferenceLookup(::System::Collections::Generic::Dictionary_2<int64_t, ::UnityW<::TMPro::TMP_FontAsset>>* value) {
-  ::cordl_internals::setStaticField<::System::Collections::Generic::Dictionary_2<int64_t, ::UnityW<::TMPro::TMP_FontAsset>>*, "s_FontAssetFamilyNameAndStyleReferenceLookup",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_ResourceManager*>::get>(
-      std::forward<::System::Collections::Generic::Dictionary_2<int64_t, ::UnityW<::TMPro::TMP_FontAsset>>*>(value));
+inline void TMPro::TMP_ResourceManager::setStaticF_s_FontAssetFamilyNameAndStyleReferenceLookup(::System::Collections::Generic::Dictionary_2<int64_t,::UnityW<::TMPro::TMP_FontAsset>>*  value)  {
+::cordl_internals::setStaticField<::System::Collections::Generic::Dictionary_2<int64_t,::UnityW<::TMPro::TMP_FontAsset>>*, "s_FontAssetFamilyNameAndStyleReferenceLookup", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_ResourceManager*>::get>(std::forward<::System::Collections::Generic::Dictionary_2<int64_t,::UnityW<::TMPro::TMP_FontAsset>>*>(value));
 }
-inline ::System::Collections::Generic::Dictionary_2<int64_t, ::UnityW<::TMPro::TMP_FontAsset>>* TMPro::TMP_ResourceManager::getStaticF_s_FontAssetFamilyNameAndStyleReferenceLookup() {
-  return ::cordl_internals::getStaticField<::System::Collections::Generic::Dictionary_2<int64_t, ::UnityW<::TMPro::TMP_FontAsset>>*, "s_FontAssetFamilyNameAndStyleReferenceLookup",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_ResourceManager*>::get>();
+inline ::System::Collections::Generic::Dictionary_2<int64_t,::UnityW<::TMPro::TMP_FontAsset>>* TMPro::TMP_ResourceManager::getStaticF_s_FontAssetFamilyNameAndStyleReferenceLookup()  {
+return ::cordl_internals::getStaticField<::System::Collections::Generic::Dictionary_2<int64_t,::UnityW<::TMPro::TMP_FontAsset>>*, "s_FontAssetFamilyNameAndStyleReferenceLookup", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_ResourceManager*>::get>();
 }
-inline void TMPro::TMP_ResourceManager::setStaticF_s_FontAssetRemovalList(::System::Collections::Generic::List_1<int32_t>* value) {
-  ::cordl_internals::setStaticField<::System::Collections::Generic::List_1<int32_t>*, "s_FontAssetRemovalList",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_ResourceManager*>::get>(std::forward<::System::Collections::Generic::List_1<int32_t>*>(value));
+inline void TMPro::TMP_ResourceManager::setStaticF_s_FontAssetRemovalList(::System::Collections::Generic::List_1<int32_t>*  value)  {
+::cordl_internals::setStaticField<::System::Collections::Generic::List_1<int32_t>*, "s_FontAssetRemovalList", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_ResourceManager*>::get>(std::forward<::System::Collections::Generic::List_1<int32_t>*>(value));
 }
-inline ::System::Collections::Generic::List_1<int32_t>* TMPro::TMP_ResourceManager::getStaticF_s_FontAssetRemovalList() {
-  return ::cordl_internals::getStaticField<::System::Collections::Generic::List_1<int32_t>*, "s_FontAssetRemovalList",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_ResourceManager*>::get>();
+inline ::System::Collections::Generic::List_1<int32_t>* TMPro::TMP_ResourceManager::getStaticF_s_FontAssetRemovalList()  {
+return ::cordl_internals::getStaticField<::System::Collections::Generic::List_1<int32_t>*, "s_FontAssetRemovalList", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_ResourceManager*>::get>();
 }
-inline void TMPro::TMP_ResourceManager::setStaticF_k_RegularStyleHashCode(int32_t value) {
-  ::cordl_internals::setStaticField<int32_t, "k_RegularStyleHashCode", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_ResourceManager*>::get>(std::forward<int32_t>(value));
+inline void TMPro::TMP_ResourceManager::setStaticF_k_RegularStyleHashCode(int32_t  value)  {
+::cordl_internals::setStaticField<int32_t, "k_RegularStyleHashCode", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_ResourceManager*>::get>(std::forward<int32_t>(value));
 }
-inline int32_t TMPro::TMP_ResourceManager::getStaticF_k_RegularStyleHashCode() {
-  return ::cordl_internals::getStaticField<int32_t, "k_RegularStyleHashCode", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_ResourceManager*>::get>();
+inline int32_t TMPro::TMP_ResourceManager::getStaticF_k_RegularStyleHashCode()  {
+return ::cordl_internals::getStaticField<int32_t, "k_RegularStyleHashCode", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_ResourceManager*>::get>();
 }
-inline ::UnityW<::TMPro::TMP_Settings> TMPro::TMP_ResourceManager::GetTextSettings() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_ResourceManager*>::get(), "GetTextSettings",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::UnityW<::TMPro::TMP_Settings>, false>(nullptr, ___internal_method);
+inline ::UnityW<::TMPro::TMP_Settings> TMPro::TMP_ResourceManager::GetTextSettings()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_ResourceManager*>::get(),
+                        "GetTextSettings",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityW<::TMPro::TMP_Settings>, false>(nullptr, ___internal_method);
 }
-inline void TMPro::TMP_ResourceManager::AddFontAsset(::TMPro::TMP_FontAsset* fontAsset) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_ResourceManager*>::get(), "AddFontAsset", std::span<Il2CppClass const* const, 0>(),
-                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::TMP_FontAsset*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, fontAsset);
+inline void TMPro::TMP_ResourceManager::AddFontAsset(::TMPro::TMP_FontAsset*  fontAsset)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_ResourceManager*>::get(),
+                        "AddFontAsset",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::TMP_FontAsset*>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, fontAsset);
 }
-inline void TMPro::TMP_ResourceManager::RemoveFontAsset(::TMPro::TMP_FontAsset* fontAsset) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_ResourceManager*>::get(), "RemoveFontAsset", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::TMP_FontAsset*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, fontAsset);
+inline void TMPro::TMP_ResourceManager::RemoveFontAsset(::TMPro::TMP_FontAsset*  fontAsset)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_ResourceManager*>::get(),
+                        "RemoveFontAsset",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::TMP_FontAsset*>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, fontAsset);
 }
-inline bool TMPro::TMP_ResourceManager::TryGetFontAssetByName(int32_t nameHashcode, ::ByRef<::TMPro::TMP_FontAsset*> fontAsset) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_ResourceManager*>::get(), "TryGetFontAssetByName", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::TMPro::TMP_FontAsset*>>::get() })));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, nameHashcode, fontAsset);
+inline bool TMPro::TMP_ResourceManager::TryGetFontAssetByName(int32_t  nameHashcode, ::ByRef<::TMPro::TMP_FontAsset*>  fontAsset)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_ResourceManager*>::get(),
+                        "TryGetFontAssetByName",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::TMPro::TMP_FontAsset*>>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, nameHashcode, fontAsset);
 }
-inline bool TMPro::TMP_ResourceManager::TryGetFontAssetByFamilyName(int32_t familyNameHashCode, int32_t styleNameHashCode, ::ByRef<::TMPro::TMP_FontAsset*> fontAsset) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_ResourceManager*>::get(), "TryGetFontAssetByFamilyName", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::TMPro::TMP_FontAsset*>>::get() })));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, familyNameHashCode, styleNameHashCode, fontAsset);
+inline bool TMPro::TMP_ResourceManager::TryGetFontAssetByFamilyName(int32_t  familyNameHashCode, int32_t  styleNameHashCode, ::ByRef<::TMPro::TMP_FontAsset*>  fontAsset)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_ResourceManager*>::get(),
+                        "TryGetFontAssetByFamilyName",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::TMPro::TMP_FontAsset*>>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, familyNameHashCode, styleNameHashCode, fontAsset);
 }
-inline void TMPro::TMP_ResourceManager::ClearFontAssetGlyphCache() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_ResourceManager*>::get(), "ClearFontAssetGlyphCache",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method);
+inline void TMPro::TMP_ResourceManager::ClearFontAssetGlyphCache()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_ResourceManager*>::get(),
+                        "ClearFontAssetGlyphCache",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method);
 }
-inline void TMPro::TMP_ResourceManager::RebuildFontAssetCache() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_ResourceManager*>::get(), "RebuildFontAssetCache",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method);
+inline void TMPro::TMP_ResourceManager::RebuildFontAssetCache()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_ResourceManager*>::get(),
+                        "RebuildFontAssetCache",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method);
 }
-inline void TMPro::TMP_ResourceManager::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_ResourceManager*>::get(), ".ctor",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void TMPro::TMP_ResourceManager::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_ResourceManager*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::TMPro::TMP_ResourceManager* TMPro::TMP_ResourceManager::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::TMPro::TMP_ResourceManager*>());
+inline ::TMPro::TMP_ResourceManager* TMPro::TMP_ResourceManager::New_ctor()  {
+return THROW_UNLESS(::il2cpp_utils::NewSpecific<::TMPro::TMP_ResourceManager*>());
 }
 // Ctor Parameters []
-constexpr ::TMPro::TMP_ResourceManager::TMP_ResourceManager() {}
+constexpr ::TMPro::TMP_ResourceManager::TMP_ResourceManager()   {
+}

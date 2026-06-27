@@ -17,29 +17,29 @@ namespace UnityEngine::VFX {
 // CS Name: UnityEngine.VFX.VisualEffectObject
 class CORDL_TYPE VisualEffectObject : public ::UnityEngine::Object {
 public:
-  // Declarations
+// Declarations
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr VisualEffectObject();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr VisualEffectObject() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VisualEffectObject", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  VisualEffectObject(VisualEffectObject&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VisualEffectObject", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  VisualEffectObject(VisualEffectObject const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "VisualEffectObject", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+VisualEffectObject(VisualEffectObject && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22727 };
+// Ctor Parameters [CppParam { name: "", ty: "VisualEffectObject", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+VisualEffectObject(VisualEffectObject const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22731};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::VFX::VisualEffectObject, 0x18>, "Size mismatch!");
 
-} // namespace UnityEngine::VFX
+} // namespace end def UnityEngine::VFX
 NEED_NO_BOX(::UnityEngine::VFX::VisualEffectObject);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::VFX::VisualEffectObject*, "UnityEngine.VFX", "VisualEffectObject");

@@ -29,62 +29,62 @@ namespace System {
 // CS Name: System.MarshalByRefObject
 class CORDL_TYPE MarshalByRefObject : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = get_ObjectIdentity, put = set_ObjectIdentity)) ::System::Runtime::Remoting::ServerIdentity* ObjectIdentity;
+// Declarations
+ __declspec(property(get=get_ObjectIdentity, put=set_ObjectIdentity)) ::System::Runtime::Remoting::ServerIdentity*  ObjectIdentity;
 
-  /// @brief Field _identity, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__identity, put = __cordl_internal_set__identity)) ::System::Object* _identity;
+/// @brief Field _identity, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get__identity, put=__cordl_internal_set__identity)) ::System::Object*  _identity;
 
-  /// @brief Method CreateObjRef, addr 0x5b55490, size 0x38, virtual true, abstract: false, final false
-  inline ::System::Runtime::Remoting::ObjRef* CreateObjRef(::System::Type* requestedType);
+/// @brief Method CreateObjRef, addr 0x5b57008, size 0x38, virtual true, abstract: false, final false
+inline ::System::Runtime::Remoting::ObjRef* CreateObjRef(::System::Type*  requestedType) ;
 
-  /// @brief Method InitializeLifetimeService, addr 0x5b554c8, size 0x38, virtual true, abstract: false, final false
-  inline ::System::Object* InitializeLifetimeService();
+/// @brief Method InitializeLifetimeService, addr 0x5b57040, size 0x38, virtual true, abstract: false, final false
+inline ::System::Object* InitializeLifetimeService() ;
 
-  static inline ::System::MarshalByRefObject* New_ctor();
+static inline ::System::MarshalByRefObject* New_ctor() ;
 
-  constexpr ::System::Object* const& __cordl_internal_get__identity() const;
+constexpr ::System::Object* const& __cordl_internal_get__identity() const;
 
-  constexpr ::System::Object*& __cordl_internal_get__identity();
+constexpr ::System::Object*& __cordl_internal_get__identity() ;
 
-  constexpr void __cordl_internal_set__identity(::System::Object* value);
+constexpr void __cordl_internal_set__identity(::System::Object*  value) ;
 
-  /// @brief Method .ctor, addr 0x5b4e8ec, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5b50464, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_ObjectIdentity, addr 0x5b55420, size 0x38, virtual false, abstract: false, final false
-  inline ::System::Runtime::Remoting::ServerIdentity* get_ObjectIdentity();
+/// @brief Method get_ObjectIdentity, addr 0x5b56f98, size 0x38, virtual false, abstract: false, final false
+inline ::System::Runtime::Remoting::ServerIdentity* get_ObjectIdentity() ;
 
-  /// @brief Method set_ObjectIdentity, addr 0x5b55458, size 0x38, virtual false, abstract: false, final false
-  inline void set_ObjectIdentity(::System::Runtime::Remoting::ServerIdentity* value);
+/// @brief Method set_ObjectIdentity, addr 0x5b56fd0, size 0x38, virtual false, abstract: false, final false
+inline void set_ObjectIdentity(::System::Runtime::Remoting::ServerIdentity*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MarshalByRefObject();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr MarshalByRefObject() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MarshalByRefObject", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  MarshalByRefObject(MarshalByRefObject&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MarshalByRefObject", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  MarshalByRefObject(MarshalByRefObject const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "MarshalByRefObject", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+MarshalByRefObject(MarshalByRefObject && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2615 };
+// Ctor Parameters [CppParam { name: "", ty: "MarshalByRefObject", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+MarshalByRefObject(MarshalByRefObject const& ) = delete;
 
-  /// @brief Field _identity, offset: 0x10, size: 0x8, def value: None
-  ::System::Object* ____identity;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{2615};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _identity, offset: 0x10, size: 0x8, def value: None
+ ::System::Object*  ____identity;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::MarshalByRefObject, ____identity) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::System::MarshalByRefObject, 0x18>, "Size mismatch!");
 
-} // namespace System
+} // namespace end def System
 NEED_NO_BOX(::System::MarshalByRefObject);
 DEFINE_IL2CPP_ARG_TYPE(::System::MarshalByRefObject*, "System", "MarshalByRefObject");

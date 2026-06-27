@@ -24,57 +24,56 @@ namespace Org::BouncyCastle::Crypto::Parameters {
 // CS Name: Org.BouncyCastle.Crypto.Parameters.ElGamalKeyGenerationParameters
 class CORDL_TYPE ElGamalKeyGenerationParameters : public ::Org::BouncyCastle::Crypto::KeyGenerationParameters {
 public:
-  // Declarations
-  __declspec(property(get = get_Parameters)) ::Org::BouncyCastle::Crypto::Parameters::ElGamalParameters* Parameters;
+// Declarations
+ __declspec(property(get=get_Parameters)) ::Org::BouncyCastle::Crypto::Parameters::ElGamalParameters*  Parameters;
 
-  /// @brief Field parameters, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_parameters, put = __cordl_internal_set_parameters)) ::Org::BouncyCastle::Crypto::Parameters::ElGamalParameters* parameters;
+/// @brief Field parameters, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_parameters, put=__cordl_internal_set_parameters)) ::Org::BouncyCastle::Crypto::Parameters::ElGamalParameters*  parameters;
 
-  /// @brief Method GetStrength, addr 0x33533d8, size 0x34, virtual false, abstract: false, final false
-  static inline int32_t GetStrength(::Org::BouncyCastle::Crypto::Parameters::ElGamalParameters* parameters);
+/// @brief Method GetStrength, addr 0x3354174, size 0x34, virtual false, abstract: false, final false
+static inline int32_t GetStrength(::Org::BouncyCastle::Crypto::Parameters::ElGamalParameters*  parameters) ;
 
-  static inline ::Org::BouncyCastle::Crypto::Parameters::ElGamalKeyGenerationParameters* New_ctor(::Org::BouncyCastle::Security::SecureRandom* random,
-                                                                                                  ::Org::BouncyCastle::Crypto::Parameters::ElGamalParameters* parameters);
+static inline ::Org::BouncyCastle::Crypto::Parameters::ElGamalKeyGenerationParameters* New_ctor(::Org::BouncyCastle::Security::SecureRandom*  random, ::Org::BouncyCastle::Crypto::Parameters::ElGamalParameters*  parameters) ;
 
-  constexpr ::Org::BouncyCastle::Crypto::Parameters::ElGamalParameters* const& __cordl_internal_get_parameters() const;
+constexpr ::Org::BouncyCastle::Crypto::Parameters::ElGamalParameters* const& __cordl_internal_get_parameters() const;
 
-  constexpr ::Org::BouncyCastle::Crypto::Parameters::ElGamalParameters*& __cordl_internal_get_parameters();
+constexpr ::Org::BouncyCastle::Crypto::Parameters::ElGamalParameters*& __cordl_internal_get_parameters() ;
 
-  constexpr void __cordl_internal_set_parameters(::Org::BouncyCastle::Crypto::Parameters::ElGamalParameters* value);
+constexpr void __cordl_internal_set_parameters(::Org::BouncyCastle::Crypto::Parameters::ElGamalParameters*  value) ;
 
-  /// @brief Method .ctor, addr 0x335339c, size 0x3c, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Security::SecureRandom* random, ::Org::BouncyCastle::Crypto::Parameters::ElGamalParameters* parameters);
+/// @brief Method .ctor, addr 0x3354138, size 0x3c, virtual false, abstract: false, final false
+inline void _ctor(::Org::BouncyCastle::Security::SecureRandom*  random, ::Org::BouncyCastle::Crypto::Parameters::ElGamalParameters*  parameters) ;
 
-  /// @brief Method get_Parameters, addr 0x335340c, size 0x8, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Crypto::Parameters::ElGamalParameters* get_Parameters();
+/// @brief Method get_Parameters, addr 0x33541a8, size 0x8, virtual false, abstract: false, final false
+inline ::Org::BouncyCastle::Crypto::Parameters::ElGamalParameters* get_Parameters() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ElGamalKeyGenerationParameters();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ElGamalKeyGenerationParameters() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ElGamalKeyGenerationParameters", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ElGamalKeyGenerationParameters(ElGamalKeyGenerationParameters&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ElGamalKeyGenerationParameters", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ElGamalKeyGenerationParameters(ElGamalKeyGenerationParameters const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ElGamalKeyGenerationParameters", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ElGamalKeyGenerationParameters(ElGamalKeyGenerationParameters && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1046 };
+// Ctor Parameters [CppParam { name: "", ty: "ElGamalKeyGenerationParameters", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ElGamalKeyGenerationParameters(ElGamalKeyGenerationParameters const& ) = delete;
 
-  /// @brief Field parameters, offset: 0x20, size: 0x8, def value: None
-  ::Org::BouncyCastle::Crypto::Parameters::ElGamalParameters* ___parameters;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{1046};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field parameters, offset: 0x20, size: 0x8, def value: None
+ ::Org::BouncyCastle::Crypto::Parameters::ElGamalParameters*  ___parameters;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Parameters::ElGamalKeyGenerationParameters, ___parameters) == 0x20, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Parameters::ElGamalKeyGenerationParameters, 0x28>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Crypto::Parameters
+} // namespace end def Org::BouncyCastle::Crypto::Parameters
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Parameters::ElGamalKeyGenerationParameters);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Parameters::ElGamalKeyGenerationParameters*, "Org.BouncyCastle.Crypto.Parameters", "ElGamalKeyGenerationParameters");

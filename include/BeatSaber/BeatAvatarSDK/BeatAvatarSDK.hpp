@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "BeatSaber/BeatAvatarSDK/AvatarData.hpp"
 #include "BeatSaber/BeatAvatarSDK/AvatarDataModel.hpp"
@@ -24,5 +24,6 @@ module;
 #include "BeatSaber/BeatAvatarSDK/SkinColorSO.hpp"
 #include "BeatSaber/BeatAvatarSDK/SkinColorSetSO.hpp"
 #ifdef __cpp_modules
-export module BeatAvatarSDK;
-#endif
+                    export module BeatAvatarSDK;
+                    #endif
+                

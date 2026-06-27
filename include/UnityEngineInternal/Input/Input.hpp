@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "UnityEngineInternal/Input/NativeInputEvent.hpp"
 #include "UnityEngineInternal/Input/NativeInputEventBuffer.hpp"
@@ -10,5 +10,6 @@ module;
 #include "UnityEngineInternal/Input/NativeInputUpdateType.hpp"
 #include "UnityEngineInternal/Input/NativeUpdateCallback.hpp"
 #ifdef __cpp_modules
-export module Input;
-#endif
+                    export module Input;
+                    #endif
+                

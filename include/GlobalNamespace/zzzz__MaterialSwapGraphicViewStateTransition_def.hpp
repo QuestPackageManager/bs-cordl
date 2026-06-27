@@ -29,89 +29,89 @@ namespace GlobalNamespace {
 // CS Name: MaterialSwapGraphicViewStateTransition
 class CORDL_TYPE MaterialSwapGraphicViewStateTransition : public ::GlobalNamespace::BaseStateTransition_1<::UnityW<::UnityEngine::UI::Graphic>> {
 public:
-  // Declarations
-  /// @brief Field _transition, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__transition, put = __cordl_internal_set__transition)) ::UnityW<::GlobalNamespace::MaterialSwapTransitionSO> _transition;
+// Declarations
+/// @brief Field _transition, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get__transition, put=__cordl_internal_set__transition)) ::UnityW<::GlobalNamespace::MaterialSwapTransitionSO>  _transition;
 
-  __declspec(property(get = get_transition)) ::UnityW<::GlobalNamespace::BaseTransitionSO> transition;
+ __declspec(property(get=get_transition)) ::UnityW<::GlobalNamespace::BaseTransitionSO>  transition;
 
-  static inline ::GlobalNamespace::MaterialSwapGraphicViewStateTransition* New_ctor();
+static inline ::GlobalNamespace::MaterialSwapGraphicViewStateTransition* New_ctor() ;
 
-  /// @brief Method SetDisabledState, addr 0x6301880, size 0x30, virtual true, abstract: false, final false
-  inline void SetDisabledState();
+/// @brief Method SetDisabledState, addr 0x63033f8, size 0x30, virtual true, abstract: false, final false
+inline void SetDisabledState() ;
 
-  /// @brief Method SetHighlightedState, addr 0x6301820, size 0x30, virtual true, abstract: false, final false
-  inline void SetHighlightedState();
+/// @brief Method SetHighlightedState, addr 0x6303398, size 0x30, virtual true, abstract: false, final false
+inline void SetHighlightedState() ;
 
-  /// @brief Method SetNormalState, addr 0x63017f0, size 0x30, virtual true, abstract: false, final false
-  inline void SetNormalState();
+/// @brief Method SetNormalState, addr 0x6303368, size 0x30, virtual true, abstract: false, final false
+inline void SetNormalState() ;
 
-  /// @brief Method SetPressedState, addr 0x6301850, size 0x30, virtual true, abstract: false, final false
-  inline void SetPressedState();
+/// @brief Method SetPressedState, addr 0x63033c8, size 0x30, virtual true, abstract: false, final false
+inline void SetPressedState() ;
 
-  /// @brief Method SetSelectedAndHighlightedState, addr 0x63018e0, size 0x30, virtual true, abstract: false, final false
-  inline void SetSelectedAndHighlightedState();
+/// @brief Method SetSelectedAndHighlightedState, addr 0x6303458, size 0x30, virtual true, abstract: false, final false
+inline void SetSelectedAndHighlightedState() ;
 
-  /// @brief Method SetSelectedState, addr 0x63018b0, size 0x30, virtual true, abstract: false, final false
-  inline void SetSelectedState();
+/// @brief Method SetSelectedState, addr 0x6303428, size 0x30, virtual true, abstract: false, final false
+inline void SetSelectedState() ;
 
-  /// @brief Method TransitionToDisabledState, addr 0x63017c0, size 0x10, virtual true, abstract: false, final false
-  inline void TransitionToDisabledState(::GlobalNamespace::TransitionTimingSO* transitionTiming);
+/// @brief Method TransitionToDisabledState, addr 0x6303338, size 0x10, virtual true, abstract: false, final false
+inline void TransitionToDisabledState(::GlobalNamespace::TransitionTimingSO*  transitionTiming) ;
 
-  /// @brief Method TransitionToHighlightedState, addr 0x63017a0, size 0x10, virtual true, abstract: false, final false
-  inline void TransitionToHighlightedState(::GlobalNamespace::TransitionTimingSO* transitionTiming);
+/// @brief Method TransitionToHighlightedState, addr 0x6303318, size 0x10, virtual true, abstract: false, final false
+inline void TransitionToHighlightedState(::GlobalNamespace::TransitionTimingSO*  transitionTiming) ;
 
-  /// @brief Method TransitionToNormalState, addr 0x6301794, size 0xc, virtual true, abstract: false, final false
-  inline void TransitionToNormalState(::GlobalNamespace::TransitionTimingSO* transitionTiming);
+/// @brief Method TransitionToNormalState, addr 0x630330c, size 0xc, virtual true, abstract: false, final false
+inline void TransitionToNormalState(::GlobalNamespace::TransitionTimingSO*  transitionTiming) ;
 
-  /// @brief Method TransitionToPressedState, addr 0x63017b0, size 0x10, virtual true, abstract: false, final false
-  inline void TransitionToPressedState(::GlobalNamespace::TransitionTimingSO* transitionTiming);
+/// @brief Method TransitionToPressedState, addr 0x6303328, size 0x10, virtual true, abstract: false, final false
+inline void TransitionToPressedState(::GlobalNamespace::TransitionTimingSO*  transitionTiming) ;
 
-  /// @brief Method TransitionToSelectedAndHighlightedState, addr 0x63017e0, size 0x10, virtual true, abstract: false, final false
-  inline void TransitionToSelectedAndHighlightedState(::GlobalNamespace::TransitionTimingSO* transitionTiming);
+/// @brief Method TransitionToSelectedAndHighlightedState, addr 0x6303358, size 0x10, virtual true, abstract: false, final false
+inline void TransitionToSelectedAndHighlightedState(::GlobalNamespace::TransitionTimingSO*  transitionTiming) ;
 
-  /// @brief Method TransitionToSelectedState, addr 0x63017d0, size 0x10, virtual true, abstract: false, final false
-  inline void TransitionToSelectedState(::GlobalNamespace::TransitionTimingSO* transitionTiming);
+/// @brief Method TransitionToSelectedState, addr 0x6303348, size 0x10, virtual true, abstract: false, final false
+inline void TransitionToSelectedState(::GlobalNamespace::TransitionTimingSO*  transitionTiming) ;
 
-  constexpr ::UnityW<::GlobalNamespace::MaterialSwapTransitionSO> const& __cordl_internal_get__transition() const;
+constexpr ::UnityW<::GlobalNamespace::MaterialSwapTransitionSO> const& __cordl_internal_get__transition() const;
 
-  constexpr ::UnityW<::GlobalNamespace::MaterialSwapTransitionSO>& __cordl_internal_get__transition();
+constexpr ::UnityW<::GlobalNamespace::MaterialSwapTransitionSO>& __cordl_internal_get__transition() ;
 
-  constexpr void __cordl_internal_set__transition(::UnityW<::GlobalNamespace::MaterialSwapTransitionSO> value);
+constexpr void __cordl_internal_set__transition(::UnityW<::GlobalNamespace::MaterialSwapTransitionSO>  value) ;
 
-  /// @brief Method .ctor, addr 0x6301910, size 0x44, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6303488, size 0x44, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_transition, addr 0x630178c, size 0x8, virtual true, abstract: false, final false
-  inline ::UnityW<::GlobalNamespace::BaseTransitionSO> get_transition();
+/// @brief Method get_transition, addr 0x6303304, size 0x8, virtual true, abstract: false, final false
+inline ::UnityW<::GlobalNamespace::BaseTransitionSO> get_transition() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MaterialSwapGraphicViewStateTransition();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr MaterialSwapGraphicViewStateTransition() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MaterialSwapGraphicViewStateTransition", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  MaterialSwapGraphicViewStateTransition(MaterialSwapGraphicViewStateTransition&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MaterialSwapGraphicViewStateTransition", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  MaterialSwapGraphicViewStateTransition(MaterialSwapGraphicViewStateTransition const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "MaterialSwapGraphicViewStateTransition", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+MaterialSwapGraphicViewStateTransition(MaterialSwapGraphicViewStateTransition && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22174 };
+// Ctor Parameters [CppParam { name: "", ty: "MaterialSwapGraphicViewStateTransition", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+MaterialSwapGraphicViewStateTransition(MaterialSwapGraphicViewStateTransition const& ) = delete;
 
-  /// @brief Field _transition, offset: 0x38, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::MaterialSwapTransitionSO> ____transition;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22178};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _transition, offset: 0x38, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::MaterialSwapTransitionSO>  ____transition;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::MaterialSwapGraphicViewStateTransition, ____transition) == 0x38, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MaterialSwapGraphicViewStateTransition, 0x40>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MaterialSwapGraphicViewStateTransition);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MaterialSwapGraphicViewStateTransition*, "", "MaterialSwapGraphicViewStateTransition");

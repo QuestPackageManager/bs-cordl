@@ -38,99 +38,93 @@ namespace Org::BouncyCastle::Asn1::Esf {
 // CS Name: Org.BouncyCastle.Asn1.Esf.RevocationValues
 class CORDL_TYPE RevocationValues : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
-  // Declarations
-  __declspec(property(get = get_OtherRevVals)) ::Org::BouncyCastle::Asn1::Esf::OtherRevVals* OtherRevVals;
+// Declarations
+ __declspec(property(get=get_OtherRevVals)) ::Org::BouncyCastle::Asn1::Esf::OtherRevVals*  OtherRevVals;
 
-  /// @brief Field crlVals, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_crlVals, put = __cordl_internal_set_crlVals)) ::Org::BouncyCastle::Asn1::Asn1Sequence* crlVals;
+/// @brief Field crlVals, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_crlVals, put=__cordl_internal_set_crlVals)) ::Org::BouncyCastle::Asn1::Asn1Sequence*  crlVals;
 
-  /// @brief Field ocspVals, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_ocspVals, put = __cordl_internal_set_ocspVals)) ::Org::BouncyCastle::Asn1::Asn1Sequence* ocspVals;
+/// @brief Field ocspVals, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_ocspVals, put=__cordl_internal_set_ocspVals)) ::Org::BouncyCastle::Asn1::Asn1Sequence*  ocspVals;
 
-  /// @brief Field otherRevVals, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_otherRevVals, put = __cordl_internal_set_otherRevVals)) ::Org::BouncyCastle::Asn1::Esf::OtherRevVals* otherRevVals;
+/// @brief Field otherRevVals, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_otherRevVals, put=__cordl_internal_set_otherRevVals)) ::Org::BouncyCastle::Asn1::Esf::OtherRevVals*  otherRevVals;
 
-  /// @brief Method GetCrlVals, addr 0x32b8818, size 0x128, virtual false, abstract: false, final false
-  inline ::ArrayW<::Org::BouncyCastle::Asn1::X509::CertificateList*, ::Array<::Org::BouncyCastle::Asn1::X509::CertificateList*>*> GetCrlVals();
+/// @brief Method GetCrlVals, addr 0x32b95b4, size 0x128, virtual false, abstract: false, final false
+inline ::ArrayW<::Org::BouncyCastle::Asn1::X509::CertificateList*,::Array<::Org::BouncyCastle::Asn1::X509::CertificateList*>*> GetCrlVals() ;
 
-  /// @brief Method GetInstance, addr 0x32b7ac0, size 0xa0, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::Esf::RevocationValues* GetInstance(::System::Object* obj);
+/// @brief Method GetInstance, addr 0x32b885c, size 0xa0, virtual false, abstract: false, final false
+static inline ::Org::BouncyCastle::Asn1::Esf::RevocationValues* GetInstance(::System::Object*  obj) ;
 
-  /// @brief Method GetOcspVals, addr 0x32b8940, size 0x128, virtual false, abstract: false, final false
-  inline ::ArrayW<::Org::BouncyCastle::Asn1::Ocsp::BasicOcspResponse*, ::Array<::Org::BouncyCastle::Asn1::Ocsp::BasicOcspResponse*>*> GetOcspVals();
+/// @brief Method GetOcspVals, addr 0x32b96dc, size 0x128, virtual false, abstract: false, final false
+inline ::ArrayW<::Org::BouncyCastle::Asn1::Ocsp::BasicOcspResponse*,::Array<::Org::BouncyCastle::Asn1::Ocsp::BasicOcspResponse*>*> GetOcspVals() ;
 
-  static inline ::Org::BouncyCastle::Asn1::Esf::RevocationValues*
-  New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::X509::CertificateList*, ::Array<::Org::BouncyCastle::Asn1::X509::CertificateList*>*> crlVals,
-           ::ArrayW<::Org::BouncyCastle::Asn1::Ocsp::BasicOcspResponse*, ::Array<::Org::BouncyCastle::Asn1::Ocsp::BasicOcspResponse*>*> ocspVals,
-           ::Org::BouncyCastle::Asn1::Esf::OtherRevVals* otherRevVals);
+static inline ::Org::BouncyCastle::Asn1::Esf::RevocationValues* New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::X509::CertificateList*,::Array<::Org::BouncyCastle::Asn1::X509::CertificateList*>*>  crlVals, ::ArrayW<::Org::BouncyCastle::Asn1::Ocsp::BasicOcspResponse*,::Array<::Org::BouncyCastle::Asn1::Ocsp::BasicOcspResponse*>*>  ocspVals, ::Org::BouncyCastle::Asn1::Esf::OtherRevVals*  otherRevVals) ;
 
-  static inline ::Org::BouncyCastle::Asn1::Esf::RevocationValues* New_ctor(::System::Collections::IEnumerable* crlVals, ::System::Collections::IEnumerable* ocspVals,
-                                                                           ::Org::BouncyCastle::Asn1::Esf::OtherRevVals* otherRevVals);
+static inline ::Org::BouncyCastle::Asn1::Esf::RevocationValues* New_ctor(::System::Collections::IEnumerable*  crlVals, ::System::Collections::IEnumerable*  ocspVals, ::Org::BouncyCastle::Asn1::Esf::OtherRevVals*  otherRevVals) ;
 
-  static inline ::Org::BouncyCastle::Asn1::Esf::RevocationValues* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
+static inline ::Org::BouncyCastle::Asn1::Esf::RevocationValues* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence*  seq) ;
 
-  /// @brief Method ToAsn1Object, addr 0x32b8a70, size 0x154, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
+/// @brief Method ToAsn1Object, addr 0x32b980c, size 0x154, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object() ;
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence* const& __cordl_internal_get_crlVals() const;
+constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence* const& __cordl_internal_get_crlVals() const;
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& __cordl_internal_get_crlVals();
+constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& __cordl_internal_get_crlVals() ;
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence* const& __cordl_internal_get_ocspVals() const;
+constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence* const& __cordl_internal_get_ocspVals() const;
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& __cordl_internal_get_ocspVals();
+constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& __cordl_internal_get_ocspVals() ;
 
-  constexpr ::Org::BouncyCastle::Asn1::Esf::OtherRevVals* const& __cordl_internal_get_otherRevVals() const;
+constexpr ::Org::BouncyCastle::Asn1::Esf::OtherRevVals* const& __cordl_internal_get_otherRevVals() const;
 
-  constexpr ::Org::BouncyCastle::Asn1::Esf::OtherRevVals*& __cordl_internal_get_otherRevVals();
+constexpr ::Org::BouncyCastle::Asn1::Esf::OtherRevVals*& __cordl_internal_get_otherRevVals() ;
 
-  constexpr void __cordl_internal_set_crlVals(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
+constexpr void __cordl_internal_set_crlVals(::Org::BouncyCastle::Asn1::Asn1Sequence*  value) ;
 
-  constexpr void __cordl_internal_set_ocspVals(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
+constexpr void __cordl_internal_set_ocspVals(::Org::BouncyCastle::Asn1::Asn1Sequence*  value) ;
 
-  constexpr void __cordl_internal_set_otherRevVals(::Org::BouncyCastle::Asn1::Esf::OtherRevVals* value);
+constexpr void __cordl_internal_set_otherRevVals(::Org::BouncyCastle::Asn1::Esf::OtherRevVals*  value) ;
 
-  /// @brief Method .ctor, addr 0x32b8550, size 0x9c, virtual false, abstract: false, final false
-  inline void _ctor(::ArrayW<::Org::BouncyCastle::Asn1::X509::CertificateList*, ::Array<::Org::BouncyCastle::Asn1::X509::CertificateList*>*> crlVals,
-                    ::ArrayW<::Org::BouncyCastle::Asn1::Ocsp::BasicOcspResponse*, ::Array<::Org::BouncyCastle::Asn1::Ocsp::BasicOcspResponse*>*> ocspVals,
-                    ::Org::BouncyCastle::Asn1::Esf::OtherRevVals* otherRevVals);
+/// @brief Method .ctor, addr 0x32b92ec, size 0x9c, virtual false, abstract: false, final false
+inline void _ctor(::ArrayW<::Org::BouncyCastle::Asn1::X509::CertificateList*,::Array<::Org::BouncyCastle::Asn1::X509::CertificateList*>*>  crlVals, ::ArrayW<::Org::BouncyCastle::Asn1::Ocsp::BasicOcspResponse*,::Array<::Org::BouncyCastle::Asn1::Ocsp::BasicOcspResponse*>*>  ocspVals, ::Org::BouncyCastle::Asn1::Esf::OtherRevVals*  otherRevVals) ;
 
-  /// @brief Method .ctor, addr 0x32b85ec, size 0x22c, virtual false, abstract: false, final false
-  inline void _ctor(::System::Collections::IEnumerable* crlVals, ::System::Collections::IEnumerable* ocspVals, ::Org::BouncyCastle::Asn1::Esf::OtherRevVals* otherRevVals);
+/// @brief Method .ctor, addr 0x32b9388, size 0x22c, virtual false, abstract: false, final false
+inline void _ctor(::System::Collections::IEnumerable*  crlVals, ::System::Collections::IEnumerable*  ocspVals, ::Org::BouncyCastle::Asn1::Esf::OtherRevVals*  otherRevVals) ;
 
-  /// @brief Method .ctor, addr 0x32b7b60, size 0x9f0, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
+/// @brief Method .ctor, addr 0x32b88fc, size 0x9f0, virtual false, abstract: false, final false
+inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence*  seq) ;
 
-  /// @brief Method get_OtherRevVals, addr 0x32b8a68, size 0x8, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Esf::OtherRevVals* get_OtherRevVals();
+/// @brief Method get_OtherRevVals, addr 0x32b9804, size 0x8, virtual false, abstract: false, final false
+inline ::Org::BouncyCastle::Asn1::Esf::OtherRevVals* get_OtherRevVals() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RevocationValues();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr RevocationValues() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RevocationValues", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  RevocationValues(RevocationValues&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RevocationValues", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  RevocationValues(RevocationValues const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "RevocationValues", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+RevocationValues(RevocationValues && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 154 };
+// Ctor Parameters [CppParam { name: "", ty: "RevocationValues", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+RevocationValues(RevocationValues const& ) = delete;
 
-  /// @brief Field crlVals, offset: 0x10, size: 0x8, def value: None
-  ::Org::BouncyCastle::Asn1::Asn1Sequence* ___crlVals;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{154};
 
-  /// @brief Field ocspVals, offset: 0x18, size: 0x8, def value: None
-  ::Org::BouncyCastle::Asn1::Asn1Sequence* ___ocspVals;
+/// @brief Field crlVals, offset: 0x10, size: 0x8, def value: None
+ ::Org::BouncyCastle::Asn1::Asn1Sequence*  ___crlVals;
 
-  /// @brief Field otherRevVals, offset: 0x20, size: 0x8, def value: None
-  ::Org::BouncyCastle::Asn1::Esf::OtherRevVals* ___otherRevVals;
+/// @brief Field ocspVals, offset: 0x18, size: 0x8, def value: None
+ ::Org::BouncyCastle::Asn1::Asn1Sequence*  ___ocspVals;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field otherRevVals, offset: 0x20, size: 0x8, def value: None
+ ::Org::BouncyCastle::Asn1::Esf::OtherRevVals*  ___otherRevVals;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Org::BouncyCastle::Asn1::Esf::RevocationValues, ___crlVals) == 0x10, "Offset mismatch!");
@@ -141,6 +135,6 @@ static_assert(offsetof(::Org::BouncyCastle::Asn1::Esf::RevocationValues, ___othe
 
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Esf::RevocationValues, 0x28>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Asn1::Esf
+} // namespace end def Org::BouncyCastle::Asn1::Esf
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Esf::RevocationValues);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::Esf::RevocationValues*, "Org.BouncyCastle.Asn1.Esf", "RevocationValues");

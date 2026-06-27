@@ -20,35 +20,35 @@ namespace GlobalNamespace {
 // CS Name: EnvironmentIdFilterExtensions
 class CORDL_TYPE EnvironmentIdFilterExtensions : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method ShouldExcludeMultiplayer, addr 0x366cc1c, size 0x8, virtual false, abstract: false, final false
-  static inline bool ShouldExcludeMultiplayer(::GlobalNamespace::EnvironmentIdFilter filter);
+// Declarations
+/// @brief Method ShouldExcludeMultiplayer, addr 0x366dfb0, size 0x8, virtual false, abstract: false, final false
+static inline bool ShouldExcludeMultiplayer(::GlobalNamespace::EnvironmentIdFilter  filter) ;
 
-  /// @brief Method ShouldExcludeTutorial, addr 0x366cc14, size 0x8, virtual false, abstract: false, final false
-  static inline bool ShouldExcludeTutorial(::GlobalNamespace::EnvironmentIdFilter filter);
+/// @brief Method ShouldExcludeTutorial, addr 0x366dfa8, size 0x8, virtual false, abstract: false, final false
+static inline bool ShouldExcludeTutorial(::GlobalNamespace::EnvironmentIdFilter  filter) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr EnvironmentIdFilterExtensions();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr EnvironmentIdFilterExtensions() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentIdFilterExtensions", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  EnvironmentIdFilterExtensions(EnvironmentIdFilterExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentIdFilterExtensions", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  EnvironmentIdFilterExtensions(EnvironmentIdFilterExtensions const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "EnvironmentIdFilterExtensions", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+EnvironmentIdFilterExtensions(EnvironmentIdFilterExtensions && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15003 };
+// Ctor Parameters [CppParam { name: "", ty: "EnvironmentIdFilterExtensions", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+EnvironmentIdFilterExtensions(EnvironmentIdFilterExtensions const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{15005};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::EnvironmentIdFilterExtensions, 0x10>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::EnvironmentIdFilterExtensions);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::EnvironmentIdFilterExtensions*, "", "EnvironmentIdFilterExtensions");

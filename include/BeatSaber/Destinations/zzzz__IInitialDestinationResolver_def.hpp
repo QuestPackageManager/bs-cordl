@@ -13,26 +13,26 @@ class IInitialDestinationResolver;
 }
 // Write type traits
 MARK_REF_PTR_T(::BeatSaber::Destinations::IInitialDestinationResolver);
-// Dependencies
+// Dependencies 
 namespace BeatSaber::Destinations {
 // Is value type: false
 // CS Name: BeatSaber.Destinations.IInitialDestinationResolver
 class CORDL_TYPE IInitialDestinationResolver {
 public:
-  // Declarations
-  /// @brief Method InitializeScenesAsync, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline ::System::Threading::Tasks::Task* InitializeScenesAsync();
+// Declarations
+/// @brief Method InitializeScenesAsync, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline ::System::Threading::Tasks::Task* InitializeScenesAsync() ;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IInitialDestinationResolver", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  IInitialDestinationResolver(IInitialDestinationResolver const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "IInitialDestinationResolver", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+IInitialDestinationResolver(IInitialDestinationResolver const& ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22861 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22865};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-} // namespace BeatSaber::Destinations
+} // namespace end def BeatSaber::Destinations
 NEED_NO_BOX(::BeatSaber::Destinations::IInitialDestinationResolver);
 DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::Destinations::IInitialDestinationResolver*, "BeatSaber.Destinations", "IInitialDestinationResolver");

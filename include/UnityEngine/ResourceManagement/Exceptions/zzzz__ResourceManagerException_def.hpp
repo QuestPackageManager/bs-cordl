@@ -27,53 +27,52 @@ namespace UnityEngine::ResourceManagement::Exceptions {
 // CS Name: UnityEngine.ResourceManagement.Exceptions.ResourceManagerException
 class CORDL_TYPE ResourceManagerException : public ::System::Exception {
 public:
-  // Declarations
-  static inline ::UnityEngine::ResourceManagement::Exceptions::ResourceManagerException* New_ctor();
+// Declarations
+static inline ::UnityEngine::ResourceManagement::Exceptions::ResourceManagerException* New_ctor() ;
 
-  static inline ::UnityEngine::ResourceManagement::Exceptions::ResourceManagerException* New_ctor(::StringW message);
+static inline ::UnityEngine::ResourceManagement::Exceptions::ResourceManagerException* New_ctor(::StringW  message) ;
 
-  static inline ::UnityEngine::ResourceManagement::Exceptions::ResourceManagerException* New_ctor(::StringW message, ::System::Exception* innerException);
+static inline ::UnityEngine::ResourceManagement::Exceptions::ResourceManagerException* New_ctor(::StringW  message, ::System::Exception*  innerException) ;
 
-  static inline ::UnityEngine::ResourceManagement::Exceptions::ResourceManagerException* New_ctor(::System::Runtime::Serialization::SerializationInfo* message,
-                                                                                                  ::System::Runtime::Serialization::StreamingContext context);
+static inline ::UnityEngine::ResourceManagement::Exceptions::ResourceManagerException* New_ctor(::System::Runtime::Serialization::SerializationInfo*  message, ::System::Runtime::Serialization::StreamingContext  context) ;
 
-  /// @brief Method ToString, addr 0x67cbac4, size 0xb8, virtual true, abstract: false, final false
-  inline ::StringW ToString();
+/// @brief Method ToString, addr 0x67cd63c, size 0xb8, virtual true, abstract: false, final false
+inline ::StringW ToString() ;
 
-  /// @brief Method .ctor, addr 0x67cb908, size 0x58, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x67cd480, size 0x58, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method .ctor, addr 0x67cb960, size 0x6c, virtual false, abstract: false, final false
-  inline void _ctor(::StringW message);
+/// @brief Method .ctor, addr 0x67cd4d8, size 0x6c, virtual false, abstract: false, final false
+inline void _ctor(::StringW  message) ;
 
-  /// @brief Method .ctor, addr 0x67cb9cc, size 0x74, virtual false, abstract: false, final false
-  inline void _ctor(::StringW message, ::System::Exception* innerException);
+/// @brief Method .ctor, addr 0x67cd544, size 0x74, virtual false, abstract: false, final false
+inline void _ctor(::StringW  message, ::System::Exception*  innerException) ;
 
-  /// @brief Method .ctor, addr 0x67cba40, size 0x84, virtual false, abstract: false, final false
-  inline void _ctor(::System::Runtime::Serialization::SerializationInfo* message, ::System::Runtime::Serialization::StreamingContext context);
+/// @brief Method .ctor, addr 0x67cd5b8, size 0x84, virtual false, abstract: false, final false
+inline void _ctor(::System::Runtime::Serialization::SerializationInfo*  message, ::System::Runtime::Serialization::StreamingContext  context) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ResourceManagerException();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ResourceManagerException() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ResourceManagerException", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ResourceManagerException(ResourceManagerException&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ResourceManagerException", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ResourceManagerException(ResourceManagerException const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ResourceManagerException", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ResourceManagerException(ResourceManagerException && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18696 };
+// Ctor Parameters [CppParam { name: "", ty: "ResourceManagerException", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ResourceManagerException(ResourceManagerException const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{18698};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ResourceManagement::Exceptions::ResourceManagerException, 0x90>, "Size mismatch!");
 
-} // namespace UnityEngine::ResourceManagement::Exceptions
+} // namespace end def UnityEngine::ResourceManagement::Exceptions
 NEED_NO_BOX(::UnityEngine::ResourceManagement::Exceptions::ResourceManagerException);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ResourceManagement::Exceptions::ResourceManagerException*, "UnityEngine.ResourceManagement.Exceptions", "ResourceManagerException");

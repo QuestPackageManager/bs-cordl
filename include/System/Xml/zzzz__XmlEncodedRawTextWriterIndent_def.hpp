@@ -35,170 +35,170 @@ namespace System::Xml {
 // CS Name: System.Xml.XmlEncodedRawTextWriterIndent
 class CORDL_TYPE XmlEncodedRawTextWriterIndent : public ::System::Xml::XmlEncodedRawTextWriter {
 public:
-  // Declarations
-  /// @brief Field conformanceLevel, offset 0xe0, size 0x4
-  __declspec(property(get = __cordl_internal_get_conformanceLevel, put = __cordl_internal_set_conformanceLevel)) ::System::Xml::ConformanceLevel conformanceLevel;
+// Declarations
+/// @brief Field conformanceLevel, offset 0xe0, size 0x4 
+ __declspec(property(get=__cordl_internal_get_conformanceLevel, put=__cordl_internal_set_conformanceLevel)) ::System::Xml::ConformanceLevel  conformanceLevel;
 
-  /// @brief Field indentChars, offset 0xc8, size 0x8
-  __declspec(property(get = __cordl_internal_get_indentChars, put = __cordl_internal_set_indentChars)) ::StringW indentChars;
+/// @brief Field indentChars, offset 0xc8, size 0x8 
+ __declspec(property(get=__cordl_internal_get_indentChars, put=__cordl_internal_set_indentChars)) ::StringW  indentChars;
 
-  /// @brief Field indentLevel, offset 0xc0, size 0x4
-  __declspec(property(get = __cordl_internal_get_indentLevel, put = __cordl_internal_set_indentLevel)) int32_t indentLevel;
+/// @brief Field indentLevel, offset 0xc0, size 0x4 
+ __declspec(property(get=__cordl_internal_get_indentLevel, put=__cordl_internal_set_indentLevel)) int32_t  indentLevel;
 
-  /// @brief Field mixedContent, offset 0xd0, size 0x1
-  __declspec(property(get = __cordl_internal_get_mixedContent, put = __cordl_internal_set_mixedContent)) bool mixedContent;
+/// @brief Field mixedContent, offset 0xd0, size 0x1 
+ __declspec(property(get=__cordl_internal_get_mixedContent, put=__cordl_internal_set_mixedContent)) bool  mixedContent;
 
-  /// @brief Field mixedContentStack, offset 0xd8, size 0x8
-  __declspec(property(get = __cordl_internal_get_mixedContentStack, put = __cordl_internal_set_mixedContentStack)) ::System::Xml::BitStack* mixedContentStack;
+/// @brief Field mixedContentStack, offset 0xd8, size 0x8 
+ __declspec(property(get=__cordl_internal_get_mixedContentStack, put=__cordl_internal_set_mixedContentStack)) ::System::Xml::BitStack*  mixedContentStack;
 
-  /// @brief Field newLineOnAttributes, offset 0xc4, size 0x1
-  __declspec(property(get = __cordl_internal_get_newLineOnAttributes, put = __cordl_internal_set_newLineOnAttributes)) bool newLineOnAttributes;
+/// @brief Field newLineOnAttributes, offset 0xc4, size 0x1 
+ __declspec(property(get=__cordl_internal_get_newLineOnAttributes, put=__cordl_internal_set_newLineOnAttributes)) bool  newLineOnAttributes;
 
-  /// @brief Method Init, addr 0x6076ed8, size 0x10c, virtual false, abstract: false, final false
-  inline void Init(::System::Xml::XmlWriterSettings* settings);
+/// @brief Method Init, addr 0x6078a50, size 0x10c, virtual false, abstract: false, final false
+inline void Init(::System::Xml::XmlWriterSettings*  settings) ;
 
-  static inline ::System::Xml::XmlEncodedRawTextWriterIndent* New_ctor(::System::IO::Stream* stream, ::System::Xml::XmlWriterSettings* settings);
+static inline ::System::Xml::XmlEncodedRawTextWriterIndent* New_ctor(::System::IO::Stream*  stream, ::System::Xml::XmlWriterSettings*  settings) ;
 
-  static inline ::System::Xml::XmlEncodedRawTextWriterIndent* New_ctor(::System::IO::TextWriter* writer, ::System::Xml::XmlWriterSettings* settings);
+static inline ::System::Xml::XmlEncodedRawTextWriterIndent* New_ctor(::System::IO::TextWriter*  writer, ::System::Xml::XmlWriterSettings*  settings) ;
 
-  /// @brief Method OnRootElement, addr 0x607718c, size 0x8, virtual true, abstract: false, final false
-  inline void OnRootElement(::System::Xml::ConformanceLevel currentConformanceLevel);
+/// @brief Method OnRootElement, addr 0x6078d04, size 0x8, virtual true, abstract: false, final false
+inline void OnRootElement(::System::Xml::ConformanceLevel  currentConformanceLevel) ;
 
-  /// @brief Method StartElementContent, addr 0x607714c, size 0x40, virtual true, abstract: false, final false
-  inline void StartElementContent();
+/// @brief Method StartElementContent, addr 0x6078cc4, size 0x40, virtual true, abstract: false, final false
+inline void StartElementContent() ;
 
-  /// @brief Method WriteBase64, addr 0x60773f4, size 0x10, virtual true, abstract: false, final false
-  inline void WriteBase64(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t index, int32_t count);
+/// @brief Method WriteBase64, addr 0x6078f6c, size 0x10, virtual true, abstract: false, final false
+inline void WriteBase64(::ArrayW<uint8_t,::Array<uint8_t>*>  buffer, int32_t  index, int32_t  count) ;
 
-  /// @brief Method WriteCData, addr 0x6077300, size 0xc, virtual true, abstract: false, final false
-  inline void WriteCData(::StringW text);
+/// @brief Method WriteCData, addr 0x6078e78, size 0xc, virtual true, abstract: false, final false
+inline void WriteCData(::StringW  text) ;
 
-  /// @brief Method WriteCharEntity, addr 0x60773a0, size 0xc, virtual true, abstract: false, final false
-  inline void WriteCharEntity(char16_t ch);
+/// @brief Method WriteCharEntity, addr 0x6078f18, size 0xc, virtual true, abstract: false, final false
+inline void WriteCharEntity(char16_t  ch) ;
 
-  /// @brief Method WriteChars, addr 0x60773d0, size 0xc, virtual true, abstract: false, final false
-  inline void WriteChars(::ArrayW<char16_t, ::Array<char16_t>*> buffer, int32_t index, int32_t count);
+/// @brief Method WriteChars, addr 0x6078f48, size 0xc, virtual true, abstract: false, final false
+inline void WriteChars(::ArrayW<char16_t,::Array<char16_t>*>  buffer, int32_t  index, int32_t  count) ;
 
-  /// @brief Method WriteComment, addr 0x607730c, size 0x40, virtual true, abstract: false, final false
-  inline void WriteComment(::StringW text);
+/// @brief Method WriteComment, addr 0x6078e84, size 0x40, virtual true, abstract: false, final false
+inline void WriteComment(::StringW  text) ;
 
-  /// @brief Method WriteDocType, addr 0x607700c, size 0x60, virtual true, abstract: false, final false
-  inline void WriteDocType(::StringW name, ::StringW pubid, ::StringW sysid, ::StringW subset);
+/// @brief Method WriteDocType, addr 0x6078b84, size 0x60, virtual true, abstract: false, final false
+inline void WriteDocType(::StringW  name, ::StringW  pubid, ::StringW  sysid, ::StringW  subset) ;
 
-  /// @brief Method WriteEndElement, addr 0x6077194, size 0x98, virtual true, abstract: false, final false
-  inline void WriteEndElement(::StringW prefix, ::StringW localName, ::StringW ns);
+/// @brief Method WriteEndElement, addr 0x6078d0c, size 0x98, virtual true, abstract: false, final false
+inline void WriteEndElement(::StringW  prefix, ::StringW  localName, ::StringW  ns) ;
 
-  /// @brief Method WriteEntityRef, addr 0x6077394, size 0xc, virtual true, abstract: false, final false
-  inline void WriteEntityRef(::StringW name);
+/// @brief Method WriteEntityRef, addr 0x6078f0c, size 0xc, virtual true, abstract: false, final false
+inline void WriteEntityRef(::StringW  name) ;
 
-  /// @brief Method WriteFullEndElement, addr 0x607722c, size 0x98, virtual true, abstract: false, final false
-  inline void WriteFullEndElement(::StringW prefix, ::StringW localName, ::StringW ns);
+/// @brief Method WriteFullEndElement, addr 0x6078da4, size 0x98, virtual true, abstract: false, final false
+inline void WriteFullEndElement(::StringW  prefix, ::StringW  localName, ::StringW  ns) ;
 
-  /// @brief Method WriteIndent, addr 0x607706c, size 0x48, virtual false, abstract: false, final false
-  inline void WriteIndent();
+/// @brief Method WriteIndent, addr 0x6078be4, size 0x48, virtual false, abstract: false, final false
+inline void WriteIndent() ;
 
-  /// @brief Method WriteProcessingInstruction, addr 0x607734c, size 0x48, virtual true, abstract: false, final false
-  inline void WriteProcessingInstruction(::StringW target, ::StringW text);
+/// @brief Method WriteProcessingInstruction, addr 0x6078ec4, size 0x48, virtual true, abstract: false, final false
+inline void WriteProcessingInstruction(::StringW  target, ::StringW  text) ;
 
-  /// @brief Method WriteRaw, addr 0x60773dc, size 0xc, virtual true, abstract: false, final false
-  inline void WriteRaw(::ArrayW<char16_t, ::Array<char16_t>*> buffer, int32_t index, int32_t count);
+/// @brief Method WriteRaw, addr 0x6078f54, size 0xc, virtual true, abstract: false, final false
+inline void WriteRaw(::ArrayW<char16_t,::Array<char16_t>*>  buffer, int32_t  index, int32_t  count) ;
 
-  /// @brief Method WriteRaw, addr 0x60773e8, size 0xc, virtual true, abstract: false, final false
-  inline void WriteRaw(::StringW data);
+/// @brief Method WriteRaw, addr 0x6078f60, size 0xc, virtual true, abstract: false, final false
+inline void WriteRaw(::StringW  data) ;
 
-  /// @brief Method WriteStartAttribute, addr 0x60772c4, size 0x3c, virtual true, abstract: false, final false
-  inline void WriteStartAttribute(::StringW prefix, ::StringW localName, ::StringW ns);
+/// @brief Method WriteStartAttribute, addr 0x6078e3c, size 0x3c, virtual true, abstract: false, final false
+inline void WriteStartAttribute(::StringW  prefix, ::StringW  localName, ::StringW  ns) ;
 
-  /// @brief Method WriteStartElement, addr 0x60770b4, size 0x98, virtual true, abstract: false, final false
-  inline void WriteStartElement(::StringW prefix, ::StringW localName, ::StringW ns);
+/// @brief Method WriteStartElement, addr 0x6078c2c, size 0x98, virtual true, abstract: false, final false
+inline void WriteStartElement(::StringW  prefix, ::StringW  localName, ::StringW  ns) ;
 
-  /// @brief Method WriteString, addr 0x60773c4, size 0xc, virtual true, abstract: false, final false
-  inline void WriteString(::StringW text);
+/// @brief Method WriteString, addr 0x6078f3c, size 0xc, virtual true, abstract: false, final false
+inline void WriteString(::StringW  text) ;
 
-  /// @brief Method WriteSurrogateCharEntity, addr 0x60773ac, size 0xc, virtual true, abstract: false, final false
-  inline void WriteSurrogateCharEntity(char16_t lowChar, char16_t highChar);
+/// @brief Method WriteSurrogateCharEntity, addr 0x6078f24, size 0xc, virtual true, abstract: false, final false
+inline void WriteSurrogateCharEntity(char16_t  lowChar, char16_t  highChar) ;
 
-  /// @brief Method WriteWhitespace, addr 0x60773b8, size 0xc, virtual true, abstract: false, final false
-  inline void WriteWhitespace(::StringW ws);
+/// @brief Method WriteWhitespace, addr 0x6078f30, size 0xc, virtual true, abstract: false, final false
+inline void WriteWhitespace(::StringW  ws) ;
 
-  constexpr ::System::Xml::ConformanceLevel const& __cordl_internal_get_conformanceLevel() const;
+constexpr ::System::Xml::ConformanceLevel const& __cordl_internal_get_conformanceLevel() const;
 
-  constexpr ::System::Xml::ConformanceLevel& __cordl_internal_get_conformanceLevel();
+constexpr ::System::Xml::ConformanceLevel& __cordl_internal_get_conformanceLevel() ;
 
-  constexpr ::StringW const& __cordl_internal_get_indentChars() const;
+constexpr ::StringW const& __cordl_internal_get_indentChars() const;
 
-  constexpr ::StringW& __cordl_internal_get_indentChars();
+constexpr ::StringW& __cordl_internal_get_indentChars() ;
 
-  constexpr int32_t const& __cordl_internal_get_indentLevel() const;
+constexpr int32_t const& __cordl_internal_get_indentLevel() const;
 
-  constexpr int32_t& __cordl_internal_get_indentLevel();
+constexpr int32_t& __cordl_internal_get_indentLevel() ;
 
-  constexpr bool const& __cordl_internal_get_mixedContent() const;
+constexpr bool const& __cordl_internal_get_mixedContent() const;
 
-  constexpr bool& __cordl_internal_get_mixedContent();
+constexpr bool& __cordl_internal_get_mixedContent() ;
 
-  constexpr ::System::Xml::BitStack* const& __cordl_internal_get_mixedContentStack() const;
+constexpr ::System::Xml::BitStack* const& __cordl_internal_get_mixedContentStack() const;
 
-  constexpr ::System::Xml::BitStack*& __cordl_internal_get_mixedContentStack();
+constexpr ::System::Xml::BitStack*& __cordl_internal_get_mixedContentStack() ;
 
-  constexpr bool const& __cordl_internal_get_newLineOnAttributes() const;
+constexpr bool const& __cordl_internal_get_newLineOnAttributes() const;
 
-  constexpr bool& __cordl_internal_get_newLineOnAttributes();
+constexpr bool& __cordl_internal_get_newLineOnAttributes() ;
 
-  constexpr void __cordl_internal_set_conformanceLevel(::System::Xml::ConformanceLevel value);
+constexpr void __cordl_internal_set_conformanceLevel(::System::Xml::ConformanceLevel  value) ;
 
-  constexpr void __cordl_internal_set_indentChars(::StringW value);
+constexpr void __cordl_internal_set_indentChars(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_indentLevel(int32_t value);
+constexpr void __cordl_internal_set_indentLevel(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_mixedContent(bool value);
+constexpr void __cordl_internal_set_mixedContent(bool  value) ;
 
-  constexpr void __cordl_internal_set_mixedContentStack(::System::Xml::BitStack* value);
+constexpr void __cordl_internal_set_mixedContentStack(::System::Xml::BitStack*  value) ;
 
-  constexpr void __cordl_internal_set_newLineOnAttributes(bool value);
+constexpr void __cordl_internal_set_newLineOnAttributes(bool  value) ;
 
-  /// @brief Method .ctor, addr 0x6076fe4, size 0x28, virtual false, abstract: false, final false
-  inline void _ctor(::System::IO::Stream* stream, ::System::Xml::XmlWriterSettings* settings);
+/// @brief Method .ctor, addr 0x6078b5c, size 0x28, virtual false, abstract: false, final false
+inline void _ctor(::System::IO::Stream*  stream, ::System::Xml::XmlWriterSettings*  settings) ;
 
-  /// @brief Method .ctor, addr 0x6076eb0, size 0x28, virtual false, abstract: false, final false
-  inline void _ctor(::System::IO::TextWriter* writer, ::System::Xml::XmlWriterSettings* settings);
+/// @brief Method .ctor, addr 0x6078a28, size 0x28, virtual false, abstract: false, final false
+inline void _ctor(::System::IO::TextWriter*  writer, ::System::Xml::XmlWriterSettings*  settings) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr XmlEncodedRawTextWriterIndent();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr XmlEncodedRawTextWriterIndent() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlEncodedRawTextWriterIndent", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  XmlEncodedRawTextWriterIndent(XmlEncodedRawTextWriterIndent&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlEncodedRawTextWriterIndent", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  XmlEncodedRawTextWriterIndent(XmlEncodedRawTextWriterIndent const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "XmlEncodedRawTextWriterIndent", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+XmlEncodedRawTextWriterIndent(XmlEncodedRawTextWriterIndent && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9298 };
+// Ctor Parameters [CppParam { name: "", ty: "XmlEncodedRawTextWriterIndent", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+XmlEncodedRawTextWriterIndent(XmlEncodedRawTextWriterIndent const& ) = delete;
 
-  /// @brief Field indentLevel, offset: 0xc0, size: 0x4, def value: None
-  int32_t ___indentLevel;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9299};
 
-  /// @brief Field newLineOnAttributes, offset: 0xc4, size: 0x1, def value: None
-  bool ___newLineOnAttributes;
+/// @brief Field indentLevel, offset: 0xc0, size: 0x4, def value: None
+ int32_t  ___indentLevel;
 
-  /// @brief Field indentChars, offset: 0xc8, size: 0x8, def value: None
-  ::StringW ___indentChars;
+/// @brief Field newLineOnAttributes, offset: 0xc4, size: 0x1, def value: None
+ bool  ___newLineOnAttributes;
 
-  /// @brief Field mixedContent, offset: 0xd0, size: 0x1, def value: None
-  bool ___mixedContent;
+/// @brief Field indentChars, offset: 0xc8, size: 0x8, def value: None
+ ::StringW  ___indentChars;
 
-  /// @brief Field mixedContentStack, offset: 0xd8, size: 0x8, def value: None
-  ::System::Xml::BitStack* ___mixedContentStack;
+/// @brief Field mixedContent, offset: 0xd0, size: 0x1, def value: None
+ bool  ___mixedContent;
 
-  /// @brief Field conformanceLevel, offset: 0xe0, size: 0x4, def value: None
-  ::System::Xml::ConformanceLevel ___conformanceLevel;
+/// @brief Field mixedContentStack, offset: 0xd8, size: 0x8, def value: None
+ ::System::Xml::BitStack*  ___mixedContentStack;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field conformanceLevel, offset: 0xe0, size: 0x4, def value: None
+ ::System::Xml::ConformanceLevel  ___conformanceLevel;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Xml::XmlEncodedRawTextWriterIndent, ___indentLevel) == 0xc0, "Offset mismatch!");
@@ -215,6 +215,6 @@ static_assert(offsetof(::System::Xml::XmlEncodedRawTextWriterIndent, ___conforma
 
 static_assert(::cordl_internals::size_check_v<::System::Xml::XmlEncodedRawTextWriterIndent, 0xe8>, "Size mismatch!");
 
-} // namespace System::Xml
+} // namespace end def System::Xml
 NEED_NO_BOX(::System::Xml::XmlEncodedRawTextWriterIndent);
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::XmlEncodedRawTextWriterIndent*, "System.Xml", "XmlEncodedRawTextWriterIndent");

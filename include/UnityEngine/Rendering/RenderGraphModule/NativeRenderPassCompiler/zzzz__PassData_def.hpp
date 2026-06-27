@@ -9,7 +9,8 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PassData)
 namespace System {
-template <typename T> struct ReadOnlySpan_1;
+template<typename T>
+struct ReadOnlySpan_1;
 }
 namespace UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler {
 struct Name;
@@ -44,191 +45,171 @@ namespace UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler {
 // CS Name: UnityEngine.Rendering.RenderGraphModule.NativeRenderPassCompiler.PassData
 struct CORDL_TYPE PassData {
 public:
-  // Declarations
-  /// @brief Method AddFirstUse, addr 0x66b50b4, size 0x1d8, virtual false, abstract: false, final false
-  inline void AddFirstUse(::UnityEngine::Rendering::RenderGraphModule::ResourceHandle h, Il2CppObject* ctx);
+// Declarations
+/// @brief Method AddFirstUse, addr 0x66b6c2c, size 0x1d8, virtual false, abstract: false, final false
+inline void AddFirstUse(::UnityEngine::Rendering::RenderGraphModule::ResourceHandle  h, Il2CppObject*  ctx) ;
 
-  /// @brief Method AddFragment, addr 0x66b505c, size 0x24, virtual false, abstract: false, final false
-  inline void AddFragment(::UnityEngine::Rendering::RenderGraphModule::ResourceHandle h, Il2CppObject* ctx);
+/// @brief Method AddFragment, addr 0x66b6bd4, size 0x24, virtual false, abstract: false, final false
+inline void AddFragment(::UnityEngine::Rendering::RenderGraphModule::ResourceHandle  h, Il2CppObject*  ctx) ;
 
-  /// @brief Method AddFragmentInput, addr 0x66b5080, size 0x24, virtual false, abstract: false, final false
-  inline void AddFragmentInput(::UnityEngine::Rendering::RenderGraphModule::ResourceHandle h, Il2CppObject* ctx);
+/// @brief Method AddFragmentInput, addr 0x66b6bf8, size 0x24, virtual false, abstract: false, final false
+inline void AddFragmentInput(::UnityEngine::Rendering::RenderGraphModule::ResourceHandle  h, Il2CppObject*  ctx) ;
 
-  /// @brief Method AddLastUse, addr 0x66b528c, size 0x1d8, virtual false, abstract: false, final false
-  inline void AddLastUse(::UnityEngine::Rendering::RenderGraphModule::ResourceHandle h, Il2CppObject* ctx);
+/// @brief Method AddLastUse, addr 0x66b6e04, size 0x1d8, virtual false, abstract: false, final false
+inline void AddLastUse(::UnityEngine::Rendering::RenderGraphModule::ResourceHandle  h, Il2CppObject*  ctx) ;
 
-  /// @brief Method AddRandomAccessResource, addr 0x66b50a4, size 0x10, virtual false, abstract: false, final false
-  inline void AddRandomAccessResource();
+/// @brief Method AddRandomAccessResource, addr 0x66b6c1c, size 0x10, virtual false, abstract: false, final false
+inline void AddRandomAccessResource() ;
 
-  /// @brief Method FirstUsedResources, addr 0x66b4e60, size 0x94, virtual false, abstract: false, final false
-  inline ::System::ReadOnlySpan_1<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle> FirstUsedResources(Il2CppObject* ctx);
+/// @brief Method FirstUsedResources, addr 0x66b69d8, size 0x94, virtual false, abstract: false, final false
+inline ::System::ReadOnlySpan_1<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle> FirstUsedResources(Il2CppObject*  ctx) ;
 
-  /// @brief Method FragmentInputs, addr 0x66b4dcc, size 0x94, virtual false, abstract: false, final false
-  inline ::System::ReadOnlySpan_1<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassFragmentData> FragmentInputs(Il2CppObject* ctx);
+/// @brief Method FragmentInputs, addr 0x66b6944, size 0x94, virtual false, abstract: false, final false
+inline ::System::ReadOnlySpan_1<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassFragmentData> FragmentInputs(Il2CppObject*  ctx) ;
 
-  /// @brief Method Fragments, addr 0x66b4d38, size 0x94, virtual false, abstract: false, final false
-  inline ::System::ReadOnlySpan_1<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassFragmentData> Fragments(Il2CppObject* ctx);
+/// @brief Method Fragments, addr 0x66b68b0, size 0x94, virtual false, abstract: false, final false
+inline ::System::ReadOnlySpan_1<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassFragmentData> Fragments(Il2CppObject*  ctx) ;
 
-  /// @brief Method GetName, addr 0x66b4ab4, size 0x7c, virtual false, abstract: false, final false
-  inline ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::Name GetName(Il2CppObject* ctx);
+/// @brief Method GetName, addr 0x66b662c, size 0x7c, virtual false, abstract: false, final false
+inline ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::Name GetName(Il2CppObject*  ctx) ;
 
-  /// @brief Method Inputs, addr 0x66b4ca4, size 0x94, virtual false, abstract: false, final false
-  inline ::System::ReadOnlySpan_1<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassInputData> Inputs(Il2CppObject* ctx);
+/// @brief Method Inputs, addr 0x66b681c, size 0x94, virtual false, abstract: false, final false
+inline ::System::ReadOnlySpan_1<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassInputData> Inputs(Il2CppObject*  ctx) ;
 
-  /// @brief Method IsUsedAsFragment, addr 0x66b5464, size 0x1f0, virtual false, abstract: false, final false
-  inline bool IsUsedAsFragment(::UnityEngine::Rendering::RenderGraphModule::ResourceHandle h, Il2CppObject* ctx);
+/// @brief Method IsUsedAsFragment, addr 0x66b6fdc, size 0x1f0, virtual false, abstract: false, final false
+inline bool IsUsedAsFragment(::UnityEngine::Rendering::RenderGraphModule::ResourceHandle  h, Il2CppObject*  ctx) ;
 
-  /// @brief Method LastUsedResources, addr 0x66b4f88, size 0x94, virtual false, abstract: false, final false
-  inline ::System::ReadOnlySpan_1<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle> LastUsedResources(Il2CppObject* ctx);
+/// @brief Method LastUsedResources, addr 0x66b6b00, size 0x94, virtual false, abstract: false, final false
+inline ::System::ReadOnlySpan_1<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle> LastUsedResources(Il2CppObject*  ctx) ;
 
-  /// @brief Method Outputs, addr 0x66b4c10, size 0x94, virtual false, abstract: false, final false
-  inline ::System::ReadOnlySpan_1<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassOutputData> Outputs(Il2CppObject* ctx);
+/// @brief Method Outputs, addr 0x66b6788, size 0x94, virtual false, abstract: false, final false
+inline ::System::ReadOnlySpan_1<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassOutputData> Outputs(Il2CppObject*  ctx) ;
 
-  /// @brief Method RandomWriteTextures, addr 0x66b4ef4, size 0x94, virtual false, abstract: false, final false
-  inline ::System::ReadOnlySpan_1<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassRandomWriteData> RandomWriteTextures(Il2CppObject* ctx);
+/// @brief Method RandomWriteTextures, addr 0x66b6a6c, size 0x94, virtual false, abstract: false, final false
+inline ::System::ReadOnlySpan_1<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassRandomWriteData> RandomWriteTextures(Il2CppObject*  ctx) ;
 
-  /// @brief Method ResetAndInitialize, addr 0x66b4ba0, size 0x70, virtual false, abstract: false, final false
-  inline void ResetAndInitialize(::ByRef<::UnityEngine::Rendering::RenderGraphModule::RenderGraphPass*> pass, int32_t passIndex);
+/// @brief Method ResetAndInitialize, addr 0x66b6718, size 0x70, virtual false, abstract: false, final false
+inline void ResetAndInitialize(::ByRef<::UnityEngine::Rendering::RenderGraphModule::RenderGraphPass*>  pass, int32_t  passIndex) ;
 
-  /// @brief Method SetupAndValidateFragmentInfo, addr 0x66b501c, size 0x40, virtual false, abstract: false, final false
-  inline void SetupAndValidateFragmentInfo(::UnityEngine::Rendering::RenderGraphModule::ResourceHandle h, Il2CppObject* ctx);
+/// @brief Method SetupAndValidateFragmentInfo, addr 0x66b6b94, size 0x40, virtual false, abstract: false, final false
+inline void SetupAndValidateFragmentInfo(::UnityEngine::Rendering::RenderGraphModule::ResourceHandle  h, Il2CppObject*  ctx) ;
 
-  /// @brief Method .ctor, addr 0x66b4b30, size 0x70, virtual false, abstract: false, final false
-  inline void _ctor(::ByRef<::UnityEngine::Rendering::RenderGraphModule::RenderGraphPass*> pass, int32_t passIndex);
+/// @brief Method .ctor, addr 0x66b66a8, size 0x70, virtual false, abstract: false, final false
+inline void _ctor(::ByRef<::UnityEngine::Rendering::RenderGraphModule::RenderGraphPass*>  pass, int32_t  passIndex) ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PassData();
+// Ctor Parameters []
+// @brief default ctor
+constexpr PassData() ;
 
-  // Ctor Parameters [CppParam { name: "passId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "type", ty: "::UnityEngine::Rendering::RenderGraphModule::RenderGraphPassType",
-  // modifiers: "", def_value: None }, CppParam { name: "hasFoveatedRasterization", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "tag", ty: "int32_t", modifiers: "", def_value: None
-  // }, CppParam { name: "mergeState", ty: "::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassMergeState", modifiers: "", def_value: None }, CppParam { name:
-  // "nativePassIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "nativeSubPassIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "firstInput", ty:
-  // "int32_t", modifiers: "", def_value: None }, CppParam { name: "numInputs", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "firstOutput", ty: "int32_t", modifiers: "",
-  // def_value: None }, CppParam { name: "numOutputs", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "firstFragment", ty: "int32_t", modifiers: "", def_value: None }, CppParam {
-  // name: "numFragments", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "firstFragmentInput", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "numFragmentInputs", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "firstRandomAccessResource", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "numRandomAccessResources", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "firstCreate", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "numCreated", ty:
-  // "int32_t", modifiers: "", def_value: None }, CppParam { name: "firstDestroy", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "numDestroyed", ty: "int32_t", modifiers: "",
-  // def_value: None }, CppParam { name: "fragmentInfoWidth", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "fragmentInfoHeight", ty: "int32_t", modifiers: "", def_value: None },
-  // CppParam { name: "fragmentInfoVolumeDepth", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "fragmentInfoSamples", ty: "int32_t", modifiers: "", def_value: None }, CppParam {
-  // name: "waitOnGraphicsFencePassId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "asyncCompute", ty: "bool", modifiers: "", def_value: None }, CppParam { name:
-  // "hasSideEffects", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "culled", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "beginNativeSubpass", ty: "bool",
-  // modifiers: "", def_value: None }, CppParam { name: "fragmentInfoValid", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "fragmentInfoHasDepth", ty: "bool", modifiers: "",
-  // def_value: None }, CppParam { name: "insertGraphicsFence", ty: "bool", modifiers: "", def_value: None }]
-  constexpr PassData(int32_t passId, ::UnityEngine::Rendering::RenderGraphModule::RenderGraphPassType type, bool hasFoveatedRasterization, int32_t tag,
-                     ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassMergeState mergeState, int32_t nativePassIndex, int32_t nativeSubPassIndex, int32_t firstInput,
-                     int32_t numInputs, int32_t firstOutput, int32_t numOutputs, int32_t firstFragment, int32_t numFragments, int32_t firstFragmentInput, int32_t numFragmentInputs,
-                     int32_t firstRandomAccessResource, int32_t numRandomAccessResources, int32_t firstCreate, int32_t numCreated, int32_t firstDestroy, int32_t numDestroyed,
-                     int32_t fragmentInfoWidth, int32_t fragmentInfoHeight, int32_t fragmentInfoVolumeDepth, int32_t fragmentInfoSamples, int32_t waitOnGraphicsFencePassId, bool asyncCompute,
-                     bool hasSideEffects, bool culled, bool beginNativeSubpass, bool fragmentInfoValid, bool fragmentInfoHasDepth, bool insertGraphicsFence) noexcept;
+// Ctor Parameters [CppParam { name: "passId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "type", ty: "::UnityEngine::Rendering::RenderGraphModule::RenderGraphPassType", modifiers: "", def_value: None }, CppParam { name: "hasFoveatedRasterization", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "tag", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "mergeState", ty: "::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassMergeState", modifiers: "", def_value: None }, CppParam { name: "nativePassIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "nativeSubPassIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "firstInput", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "numInputs", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "firstOutput", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "numOutputs", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "firstFragment", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "numFragments", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "firstFragmentInput", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "numFragmentInputs", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "firstRandomAccessResource", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "numRandomAccessResources", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "firstCreate", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "numCreated", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "firstDestroy", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "numDestroyed", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "fragmentInfoWidth", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "fragmentInfoHeight", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "fragmentInfoVolumeDepth", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "fragmentInfoSamples", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "waitOnGraphicsFencePassId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "asyncCompute", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "hasSideEffects", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "culled", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "beginNativeSubpass", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "fragmentInfoValid", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "fragmentInfoHasDepth", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "insertGraphicsFence", ty: "bool", modifiers: "", def_value: None }]
+constexpr PassData(int32_t  passId, ::UnityEngine::Rendering::RenderGraphModule::RenderGraphPassType  type, bool  hasFoveatedRasterization, int32_t  tag, ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassMergeState  mergeState, int32_t  nativePassIndex, int32_t  nativeSubPassIndex, int32_t  firstInput, int32_t  numInputs, int32_t  firstOutput, int32_t  numOutputs, int32_t  firstFragment, int32_t  numFragments, int32_t  firstFragmentInput, int32_t  numFragmentInputs, int32_t  firstRandomAccessResource, int32_t  numRandomAccessResources, int32_t  firstCreate, int32_t  numCreated, int32_t  firstDestroy, int32_t  numDestroyed, int32_t  fragmentInfoWidth, int32_t  fragmentInfoHeight, int32_t  fragmentInfoVolumeDepth, int32_t  fragmentInfoSamples, int32_t  waitOnGraphicsFencePassId, bool  asyncCompute, bool  hasSideEffects, bool  culled, bool  beginNativeSubpass, bool  fragmentInfoValid, bool  fragmentInfoHasDepth, bool  insertGraphicsFence) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12477 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12478};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x70 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x70};
 
-  /// @brief Field passId, offset: 0x0, size: 0x4, def value: None
-  int32_t passId;
+/// @brief Field passId, offset: 0x0, size: 0x4, def value: None
+ int32_t  passId;
 
-  /// @brief Field type, offset: 0x4, size: 0x4, def value: None
-  ::UnityEngine::Rendering::RenderGraphModule::RenderGraphPassType type;
+/// @brief Field type, offset: 0x4, size: 0x4, def value: None
+ ::UnityEngine::Rendering::RenderGraphModule::RenderGraphPassType  type;
 
-  /// @brief Field hasFoveatedRasterization, offset: 0x8, size: 0x1, def value: None
-  bool hasFoveatedRasterization;
+/// @brief Field hasFoveatedRasterization, offset: 0x8, size: 0x1, def value: None
+ bool  hasFoveatedRasterization;
 
-  /// @brief Field tag, offset: 0xc, size: 0x4, def value: None
-  int32_t tag;
+/// @brief Field tag, offset: 0xc, size: 0x4, def value: None
+ int32_t  tag;
 
-  /// @brief Field mergeState, offset: 0x10, size: 0x4, def value: None
-  ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassMergeState mergeState;
+/// @brief Field mergeState, offset: 0x10, size: 0x4, def value: None
+ ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassMergeState  mergeState;
 
-  /// @brief Field nativePassIndex, offset: 0x14, size: 0x4, def value: None
-  int32_t nativePassIndex;
+/// @brief Field nativePassIndex, offset: 0x14, size: 0x4, def value: None
+ int32_t  nativePassIndex;
 
-  /// @brief Field nativeSubPassIndex, offset: 0x18, size: 0x4, def value: None
-  int32_t nativeSubPassIndex;
+/// @brief Field nativeSubPassIndex, offset: 0x18, size: 0x4, def value: None
+ int32_t  nativeSubPassIndex;
 
-  /// @brief Field firstInput, offset: 0x1c, size: 0x4, def value: None
-  int32_t firstInput;
+/// @brief Field firstInput, offset: 0x1c, size: 0x4, def value: None
+ int32_t  firstInput;
 
-  /// @brief Field numInputs, offset: 0x20, size: 0x4, def value: None
-  int32_t numInputs;
+/// @brief Field numInputs, offset: 0x20, size: 0x4, def value: None
+ int32_t  numInputs;
 
-  /// @brief Field firstOutput, offset: 0x24, size: 0x4, def value: None
-  int32_t firstOutput;
+/// @brief Field firstOutput, offset: 0x24, size: 0x4, def value: None
+ int32_t  firstOutput;
 
-  /// @brief Field numOutputs, offset: 0x28, size: 0x4, def value: None
-  int32_t numOutputs;
+/// @brief Field numOutputs, offset: 0x28, size: 0x4, def value: None
+ int32_t  numOutputs;
 
-  /// @brief Field firstFragment, offset: 0x2c, size: 0x4, def value: None
-  int32_t firstFragment;
+/// @brief Field firstFragment, offset: 0x2c, size: 0x4, def value: None
+ int32_t  firstFragment;
 
-  /// @brief Field numFragments, offset: 0x30, size: 0x4, def value: None
-  int32_t numFragments;
+/// @brief Field numFragments, offset: 0x30, size: 0x4, def value: None
+ int32_t  numFragments;
 
-  /// @brief Field firstFragmentInput, offset: 0x34, size: 0x4, def value: None
-  int32_t firstFragmentInput;
+/// @brief Field firstFragmentInput, offset: 0x34, size: 0x4, def value: None
+ int32_t  firstFragmentInput;
 
-  /// @brief Field numFragmentInputs, offset: 0x38, size: 0x4, def value: None
-  int32_t numFragmentInputs;
+/// @brief Field numFragmentInputs, offset: 0x38, size: 0x4, def value: None
+ int32_t  numFragmentInputs;
 
-  /// @brief Field firstRandomAccessResource, offset: 0x3c, size: 0x4, def value: None
-  int32_t firstRandomAccessResource;
+/// @brief Field firstRandomAccessResource, offset: 0x3c, size: 0x4, def value: None
+ int32_t  firstRandomAccessResource;
 
-  /// @brief Field numRandomAccessResources, offset: 0x40, size: 0x4, def value: None
-  int32_t numRandomAccessResources;
+/// @brief Field numRandomAccessResources, offset: 0x40, size: 0x4, def value: None
+ int32_t  numRandomAccessResources;
 
-  /// @brief Field firstCreate, offset: 0x44, size: 0x4, def value: None
-  int32_t firstCreate;
+/// @brief Field firstCreate, offset: 0x44, size: 0x4, def value: None
+ int32_t  firstCreate;
 
-  /// @brief Field numCreated, offset: 0x48, size: 0x4, def value: None
-  int32_t numCreated;
+/// @brief Field numCreated, offset: 0x48, size: 0x4, def value: None
+ int32_t  numCreated;
 
-  /// @brief Field firstDestroy, offset: 0x4c, size: 0x4, def value: None
-  int32_t firstDestroy;
+/// @brief Field firstDestroy, offset: 0x4c, size: 0x4, def value: None
+ int32_t  firstDestroy;
 
-  /// @brief Field numDestroyed, offset: 0x50, size: 0x4, def value: None
-  int32_t numDestroyed;
+/// @brief Field numDestroyed, offset: 0x50, size: 0x4, def value: None
+ int32_t  numDestroyed;
 
-  /// @brief Field fragmentInfoWidth, offset: 0x54, size: 0x4, def value: None
-  int32_t fragmentInfoWidth;
+/// @brief Field fragmentInfoWidth, offset: 0x54, size: 0x4, def value: None
+ int32_t  fragmentInfoWidth;
 
-  /// @brief Field fragmentInfoHeight, offset: 0x58, size: 0x4, def value: None
-  int32_t fragmentInfoHeight;
+/// @brief Field fragmentInfoHeight, offset: 0x58, size: 0x4, def value: None
+ int32_t  fragmentInfoHeight;
 
-  /// @brief Field fragmentInfoVolumeDepth, offset: 0x5c, size: 0x4, def value: None
-  int32_t fragmentInfoVolumeDepth;
+/// @brief Field fragmentInfoVolumeDepth, offset: 0x5c, size: 0x4, def value: None
+ int32_t  fragmentInfoVolumeDepth;
 
-  /// @brief Field fragmentInfoSamples, offset: 0x60, size: 0x4, def value: None
-  int32_t fragmentInfoSamples;
+/// @brief Field fragmentInfoSamples, offset: 0x60, size: 0x4, def value: None
+ int32_t  fragmentInfoSamples;
 
-  /// @brief Field waitOnGraphicsFencePassId, offset: 0x64, size: 0x4, def value: None
-  int32_t waitOnGraphicsFencePassId;
+/// @brief Field waitOnGraphicsFencePassId, offset: 0x64, size: 0x4, def value: None
+ int32_t  waitOnGraphicsFencePassId;
 
-  /// @brief Field asyncCompute, offset: 0x68, size: 0x1, def value: None
-  bool asyncCompute;
+/// @brief Field asyncCompute, offset: 0x68, size: 0x1, def value: None
+ bool  asyncCompute;
 
-  /// @brief Field hasSideEffects, offset: 0x69, size: 0x1, def value: None
-  bool hasSideEffects;
+/// @brief Field hasSideEffects, offset: 0x69, size: 0x1, def value: None
+ bool  hasSideEffects;
 
-  /// @brief Field culled, offset: 0x6a, size: 0x1, def value: None
-  bool culled;
+/// @brief Field culled, offset: 0x6a, size: 0x1, def value: None
+ bool  culled;
 
-  /// @brief Field beginNativeSubpass, offset: 0x6b, size: 0x1, def value: None
-  bool beginNativeSubpass;
+/// @brief Field beginNativeSubpass, offset: 0x6b, size: 0x1, def value: None
+ bool  beginNativeSubpass;
 
-  /// @brief Field fragmentInfoValid, offset: 0x6c, size: 0x1, def value: None
-  bool fragmentInfoValid;
+/// @brief Field fragmentInfoValid, offset: 0x6c, size: 0x1, def value: None
+ bool  fragmentInfoValid;
 
-  /// @brief Field fragmentInfoHasDepth, offset: 0x6d, size: 0x1, def value: None
-  bool fragmentInfoHasDepth;
+/// @brief Field fragmentInfoHasDepth, offset: 0x6d, size: 0x1, def value: None
+ bool  fragmentInfoHasDepth;
 
-  /// @brief Field insertGraphicsFence, offset: 0x6e, size: 0x1, def value: None
-  bool insertGraphicsFence;
+/// @brief Field insertGraphicsFence, offset: 0x6e, size: 0x1, def value: None
+ bool  insertGraphicsFence;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData, passId) == 0x0, "Offset mismatch!");
@@ -299,5 +280,5 @@ static_assert(offsetof(::UnityEngine::Rendering::RenderGraphModule::NativeRender
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData, 0x70>, "Size mismatch!");
 
-} // namespace UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler
+} // namespace end def UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData, "UnityEngine.Rendering.RenderGraphModule.NativeRenderPassCompiler", "PassData");

@@ -11,7 +11,8 @@ namespace BeatmapSaveDataCommon {
 class IBeat;
 }
 namespace System {
-template <typename T> class IComparable_1;
+template<typename T>
+class IComparable_1;
 }
 // Forward declare root types
 namespace BeatmapSaveDataVersion4 {
@@ -25,83 +26,83 @@ namespace BeatmapSaveDataVersion4 {
 // CS Name: BeatmapSaveDataVersion4.BeatmapBeatIndex
 class CORDL_TYPE BeatmapBeatIndex : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field b, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_b, put = __cordl_internal_set_b)) float_t b;
+// Declarations
+/// @brief Field b, offset 0x10, size 0x4 
+ __declspec(property(get=__cordl_internal_get_b, put=__cordl_internal_set_b)) float_t  b;
 
-  __declspec(property(get = get_beat)) float_t beat;
+ __declspec(property(get=get_beat)) float_t  beat;
 
-  /// @brief Field i, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get_i, put = __cordl_internal_set_i)) int32_t i;
+/// @brief Field i, offset 0x18, size 0x4 
+ __declspec(property(get=__cordl_internal_get_i, put=__cordl_internal_set_i)) int32_t  i;
 
-  /// @brief Field r, offset 0x14, size 0x4
-  __declspec(property(get = __cordl_internal_get_r, put = __cordl_internal_set_r)) int32_t r;
+/// @brief Field r, offset 0x14, size 0x4 
+ __declspec(property(get=__cordl_internal_get_r, put=__cordl_internal_set_r)) int32_t  r;
 
-  /// @brief Convert operator to "::BeatmapSaveDataCommon::IBeat"
-  constexpr operator ::BeatmapSaveDataCommon::IBeat*() noexcept;
+/// @brief Convert operator to "::BeatmapSaveDataCommon::IBeat"
+constexpr operator  ::BeatmapSaveDataCommon::IBeat*() noexcept;
 
-  /// @brief Convert operator to "::System::IComparable_1<::BeatmapSaveDataCommon::IBeat*>"
-  constexpr operator ::System::IComparable_1<::BeatmapSaveDataCommon::IBeat*>*() noexcept;
+/// @brief Convert operator to "::System::IComparable_1<::BeatmapSaveDataCommon::IBeat*>"
+constexpr operator  ::System::IComparable_1<::BeatmapSaveDataCommon::IBeat*>*() noexcept;
 
-  static inline ::BeatmapSaveDataVersion4::BeatmapBeatIndex* New_ctor();
+static inline ::BeatmapSaveDataVersion4::BeatmapBeatIndex* New_ctor() ;
 
-  constexpr float_t const& __cordl_internal_get_b() const;
+constexpr float_t const& __cordl_internal_get_b() const;
 
-  constexpr float_t& __cordl_internal_get_b();
+constexpr float_t& __cordl_internal_get_b() ;
 
-  constexpr int32_t const& __cordl_internal_get_i() const;
+constexpr int32_t const& __cordl_internal_get_i() const;
 
-  constexpr int32_t& __cordl_internal_get_i();
+constexpr int32_t& __cordl_internal_get_i() ;
 
-  constexpr int32_t const& __cordl_internal_get_r() const;
+constexpr int32_t const& __cordl_internal_get_r() const;
 
-  constexpr int32_t& __cordl_internal_get_r();
+constexpr int32_t& __cordl_internal_get_r() ;
 
-  constexpr void __cordl_internal_set_b(float_t value);
+constexpr void __cordl_internal_set_b(float_t  value) ;
 
-  constexpr void __cordl_internal_set_i(int32_t value);
+constexpr void __cordl_internal_set_i(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_r(int32_t value);
+constexpr void __cordl_internal_set_r(int32_t  value) ;
 
-  /// @brief Method .ctor, addr 0x369bd90, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x369d124, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_beat, addr 0x369bd88, size 0x8, virtual true, abstract: false, final true
-  inline float_t get_beat();
+/// @brief Method get_beat, addr 0x369d11c, size 0x8, virtual true, abstract: false, final true
+inline float_t get_beat() ;
 
-  /// @brief Convert to "::BeatmapSaveDataCommon::IBeat"
-  constexpr ::BeatmapSaveDataCommon::IBeat* i___BeatmapSaveDataCommon__IBeat() noexcept;
+/// @brief Convert to "::BeatmapSaveDataCommon::IBeat"
+constexpr ::BeatmapSaveDataCommon::IBeat* i___BeatmapSaveDataCommon__IBeat() noexcept;
 
-  /// @brief Convert to "::System::IComparable_1<::BeatmapSaveDataCommon::IBeat*>"
-  constexpr ::System::IComparable_1<::BeatmapSaveDataCommon::IBeat*>* i___System__IComparable_1___BeatmapSaveDataCommon__IBeat__() noexcept;
+/// @brief Convert to "::System::IComparable_1<::BeatmapSaveDataCommon::IBeat*>"
+constexpr ::System::IComparable_1<::BeatmapSaveDataCommon::IBeat*>* i___System__IComparable_1___BeatmapSaveDataCommon__IBeat__() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BeatmapBeatIndex();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr BeatmapBeatIndex() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapBeatIndex", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  BeatmapBeatIndex(BeatmapBeatIndex&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapBeatIndex", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapBeatIndex(BeatmapBeatIndex const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "BeatmapBeatIndex", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+BeatmapBeatIndex(BeatmapBeatIndex && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15297 };
+// Ctor Parameters [CppParam { name: "", ty: "BeatmapBeatIndex", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+BeatmapBeatIndex(BeatmapBeatIndex const& ) = delete;
 
-  /// @brief Field b, offset: 0x10, size: 0x4, def value: None
-  float_t ___b;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{15299};
 
-  /// @brief Field r, offset: 0x14, size: 0x4, def value: None
-  int32_t ___r;
+/// @brief Field b, offset: 0x10, size: 0x4, def value: None
+ float_t  ___b;
 
-  /// @brief Field i, offset: 0x18, size: 0x4, def value: None
-  int32_t ___i;
+/// @brief Field r, offset: 0x14, size: 0x4, def value: None
+ int32_t  ___r;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field i, offset: 0x18, size: 0x4, def value: None
+ int32_t  ___i;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::BeatmapSaveDataVersion4::BeatmapBeatIndex, ___b) == 0x10, "Offset mismatch!");
@@ -112,6 +113,6 @@ static_assert(offsetof(::BeatmapSaveDataVersion4::BeatmapBeatIndex, ___i) == 0x1
 
 static_assert(::cordl_internals::size_check_v<::BeatmapSaveDataVersion4::BeatmapBeatIndex, 0x20>, "Size mismatch!");
 
-} // namespace BeatmapSaveDataVersion4
+} // namespace end def BeatmapSaveDataVersion4
 NEED_NO_BOX(::BeatmapSaveDataVersion4::BeatmapBeatIndex);
 DEFINE_IL2CPP_ARG_TYPE(::BeatmapSaveDataVersion4::BeatmapBeatIndex*, "BeatmapSaveDataVersion4", "BeatmapBeatIndex");

@@ -27,54 +27,54 @@ namespace Org::BouncyCastle::Math::Field {
 // CS Name: Org.BouncyCastle.Math.Field.FiniteFields
 class CORDL_TYPE FiniteFields : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field GF_2, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_GF_2, put = setStaticF_GF_2)) ::Org::BouncyCastle::Math::Field::IFiniteField* GF_2;
+// Declarations
+/// @brief Field GF_2, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_GF_2, put=setStaticF_GF_2)) ::Org::BouncyCastle::Math::Field::IFiniteField*  GF_2;
 
-  /// @brief Field GF_3, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_GF_3, put = setStaticF_GF_3)) ::Org::BouncyCastle::Math::Field::IFiniteField* GF_3;
+/// @brief Field GF_3, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_GF_3, put=setStaticF_GF_3)) ::Org::BouncyCastle::Math::Field::IFiniteField*  GF_3;
 
-  /// @brief Method GetBinaryExtensionField, addr 0x34732a0, size 0x178, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Math::Field::IPolynomialExtensionField* GetBinaryExtensionField(::ArrayW<int32_t, ::Array<int32_t>*> exponents);
+/// @brief Method GetBinaryExtensionField, addr 0x347403c, size 0x178, virtual false, abstract: false, final false
+static inline ::Org::BouncyCastle::Math::Field::IPolynomialExtensionField* GetBinaryExtensionField(::ArrayW<int32_t,::Array<int32_t>*>  exponents) ;
 
-  /// @brief Method GetPrimeField, addr 0x3473490, size 0x174, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Math::Field::IFiniteField* GetPrimeField(::Org::BouncyCastle::Math::BigInteger* characteristic);
+/// @brief Method GetPrimeField, addr 0x347422c, size 0x174, virtual false, abstract: false, final false
+static inline ::Org::BouncyCastle::Math::Field::IFiniteField* GetPrimeField(::Org::BouncyCastle::Math::BigInteger*  characteristic) ;
 
-  static inline ::Org::BouncyCastle::Math::Field::FiniteFields* New_ctor();
+static inline ::Org::BouncyCastle::Math::Field::FiniteFields* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x34736e4, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x3474480, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  static inline ::Org::BouncyCastle::Math::Field::IFiniteField* getStaticF_GF_2();
+static inline ::Org::BouncyCastle::Math::Field::IFiniteField* getStaticF_GF_2() ;
 
-  static inline ::Org::BouncyCastle::Math::Field::IFiniteField* getStaticF_GF_3();
+static inline ::Org::BouncyCastle::Math::Field::IFiniteField* getStaticF_GF_3() ;
 
-  static inline void setStaticF_GF_2(::Org::BouncyCastle::Math::Field::IFiniteField* value);
+static inline void setStaticF_GF_2(::Org::BouncyCastle::Math::Field::IFiniteField*  value) ;
 
-  static inline void setStaticF_GF_3(::Org::BouncyCastle::Math::Field::IFiniteField* value);
+static inline void setStaticF_GF_3(::Org::BouncyCastle::Math::Field::IFiniteField*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr FiniteFields();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr FiniteFields() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FiniteFields", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  FiniteFields(FiniteFields&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FiniteFields", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  FiniteFields(FiniteFields const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "FiniteFields", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+FiniteFields(FiniteFields && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1580 };
+// Ctor Parameters [CppParam { name: "", ty: "FiniteFields", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+FiniteFields(FiniteFields const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{1580};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Math::Field::FiniteFields, 0x10>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Math::Field
+} // namespace end def Org::BouncyCastle::Math::Field
 NEED_NO_BOX(::Org::BouncyCastle::Math::Field::FiniteFields);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Math::Field::FiniteFields*, "Org.BouncyCastle.Math.Field", "FiniteFields");

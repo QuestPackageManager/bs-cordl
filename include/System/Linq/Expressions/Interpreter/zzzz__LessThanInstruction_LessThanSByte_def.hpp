@@ -24,37 +24,37 @@ namespace GlobalNamespace {
 // CS Name: System.Linq.Expressions.Interpreter.LessThanInstruction/LessThanSByte
 class CORDL_TYPE LessThanInstruction_LessThanSByte : public ::System::Linq::Expressions::Interpreter::LessThanInstruction {
 public:
-  // Declarations
-  static inline ::GlobalNamespace::LessThanInstruction_LessThanSByte* New_ctor(::System::Object* nullValue);
+// Declarations
+static inline ::GlobalNamespace::LessThanInstruction_LessThanSByte* New_ctor(::System::Object*  nullValue) ;
 
-  /// @brief Method Run, addr 0x5e5da08, size 0xa4, virtual true, abstract: false, final false
-  inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
+/// @brief Method Run, addr 0x5e5f580, size 0xa4, virtual true, abstract: false, final false
+inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame*  frame) ;
 
-  /// @brief Method .ctor, addr 0x5e5d9b0, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* nullValue);
+/// @brief Method .ctor, addr 0x5e5f528, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  nullValue) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LessThanInstruction_LessThanSByte();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr LessThanInstruction_LessThanSByte() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LessThanInstruction_LessThanSByte", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  LessThanInstruction_LessThanSByte(LessThanInstruction_LessThanSByte&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LessThanInstruction_LessThanSByte", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  LessThanInstruction_LessThanSByte(LessThanInstruction_LessThanSByte const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "LessThanInstruction_LessThanSByte", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+LessThanInstruction_LessThanSByte(LessThanInstruction_LessThanSByte && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16389 };
+// Ctor Parameters [CppParam { name: "", ty: "LessThanInstruction_LessThanSByte", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+LessThanInstruction_LessThanSByte(LessThanInstruction_LessThanSByte const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{16391};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LessThanInstruction_LessThanSByte, 0x18>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::LessThanInstruction_LessThanSByte);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LessThanInstruction_LessThanSByte*, "System.Linq.Expressions.Interpreter", "LessThanInstruction/LessThanSByte");

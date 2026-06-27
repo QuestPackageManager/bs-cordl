@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "BeatSaber/Analytics/Gameplay/EventsBuilder.hpp"
 #include "BeatSaber/Analytics/Gameplay/EventsBuilderFactory.hpp"
@@ -12,5 +12,6 @@ module;
 #include "BeatSaber/Analytics/Gameplay/NoopGameplayEventsDispatcher.hpp"
 #include "BeatSaber/Analytics/Gameplay/SegmentState.hpp"
 #ifdef __cpp_modules
-export module Gameplay;
-#endif
+                    export module Gameplay;
+                    #endif
+                

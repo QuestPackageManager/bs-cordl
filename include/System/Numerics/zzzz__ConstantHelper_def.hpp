@@ -19,59 +19,59 @@ namespace System::Numerics {
 // CS Name: System.Numerics.ConstantHelper
 class CORDL_TYPE ConstantHelper : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method GetByteWithAllBitsSet, addr 0x5a56498, size 0x8, virtual false, abstract: false, final false
-  static inline uint8_t GetByteWithAllBitsSet();
+// Declarations
+/// @brief Method GetByteWithAllBitsSet, addr 0x5a58010, size 0x8, virtual false, abstract: false, final false
+static inline uint8_t GetByteWithAllBitsSet() ;
 
-  /// @brief Method GetDoubleWithAllBitsSet, addr 0x5a564e4, size 0x8, virtual false, abstract: false, final false
-  static inline double_t GetDoubleWithAllBitsSet();
+/// @brief Method GetDoubleWithAllBitsSet, addr 0x5a5805c, size 0x8, virtual false, abstract: false, final false
+static inline double_t GetDoubleWithAllBitsSet() ;
 
-  /// @brief Method GetInt16WithAllBitsSet, addr 0x5a564b0, size 0x8, virtual false, abstract: false, final false
-  static inline int16_t GetInt16WithAllBitsSet();
+/// @brief Method GetInt16WithAllBitsSet, addr 0x5a58028, size 0x8, virtual false, abstract: false, final false
+static inline int16_t GetInt16WithAllBitsSet() ;
 
-  /// @brief Method GetInt32WithAllBitsSet, addr 0x5a564c0, size 0x8, virtual false, abstract: false, final false
-  static inline int32_t GetInt32WithAllBitsSet();
+/// @brief Method GetInt32WithAllBitsSet, addr 0x5a58038, size 0x8, virtual false, abstract: false, final false
+static inline int32_t GetInt32WithAllBitsSet() ;
 
-  /// @brief Method GetInt64WithAllBitsSet, addr 0x5a564d0, size 0x8, virtual false, abstract: false, final false
-  static inline int64_t GetInt64WithAllBitsSet();
+/// @brief Method GetInt64WithAllBitsSet, addr 0x5a58048, size 0x8, virtual false, abstract: false, final false
+static inline int64_t GetInt64WithAllBitsSet() ;
 
-  /// @brief Method GetSByteWithAllBitsSet, addr 0x5a564a0, size 0x8, virtual false, abstract: false, final false
-  static inline int8_t GetSByteWithAllBitsSet();
+/// @brief Method GetSByteWithAllBitsSet, addr 0x5a58018, size 0x8, virtual false, abstract: false, final false
+static inline int8_t GetSByteWithAllBitsSet() ;
 
-  /// @brief Method GetSingleWithAllBitsSet, addr 0x5a564d8, size 0xc, virtual false, abstract: false, final false
-  static inline float_t GetSingleWithAllBitsSet();
+/// @brief Method GetSingleWithAllBitsSet, addr 0x5a58050, size 0xc, virtual false, abstract: false, final false
+static inline float_t GetSingleWithAllBitsSet() ;
 
-  /// @brief Method GetUInt16WithAllBitsSet, addr 0x5a564a8, size 0x8, virtual false, abstract: false, final false
-  static inline uint16_t GetUInt16WithAllBitsSet();
+/// @brief Method GetUInt16WithAllBitsSet, addr 0x5a58020, size 0x8, virtual false, abstract: false, final false
+static inline uint16_t GetUInt16WithAllBitsSet() ;
 
-  /// @brief Method GetUInt32WithAllBitsSet, addr 0x5a564b8, size 0x8, virtual false, abstract: false, final false
-  static inline uint32_t GetUInt32WithAllBitsSet();
+/// @brief Method GetUInt32WithAllBitsSet, addr 0x5a58030, size 0x8, virtual false, abstract: false, final false
+static inline uint32_t GetUInt32WithAllBitsSet() ;
 
-  /// @brief Method GetUInt64WithAllBitsSet, addr 0x5a564c8, size 0x8, virtual false, abstract: false, final false
-  static inline uint64_t GetUInt64WithAllBitsSet();
+/// @brief Method GetUInt64WithAllBitsSet, addr 0x5a58040, size 0x8, virtual false, abstract: false, final false
+static inline uint64_t GetUInt64WithAllBitsSet() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ConstantHelper();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ConstantHelper() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ConstantHelper", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ConstantHelper(ConstantHelper&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ConstantHelper", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ConstantHelper(ConstantHelper const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ConstantHelper", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ConstantHelper(ConstantHelper && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3577 };
+// Ctor Parameters [CppParam { name: "", ty: "ConstantHelper", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ConstantHelper(ConstantHelper const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{3577};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Numerics::ConstantHelper, 0x10>, "Size mismatch!");
 
-} // namespace System::Numerics
+} // namespace end def System::Numerics
 NEED_NO_BOX(::System::Numerics::ConstantHelper);
 DEFINE_IL2CPP_ARG_TYPE(::System::Numerics::ConstantHelper*, "System.Numerics", "ConstantHelper");

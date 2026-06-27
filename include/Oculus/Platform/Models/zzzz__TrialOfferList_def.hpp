@@ -23,34 +23,34 @@ namespace Oculus::Platform::Models {
 // CS Name: Oculus.Platform.Models.TrialOfferList
 class CORDL_TYPE TrialOfferList : public ::Oculus::Platform::Models::DeserializableList_1<::Oculus::Platform::Models::TrialOffer*> {
 public:
-  // Declarations
-  static inline ::Oculus::Platform::Models::TrialOfferList* New_ctor(::System::IntPtr a);
+// Declarations
+static inline ::Oculus::Platform::Models::TrialOfferList* New_ctor(::System::IntPtr  a) ;
 
-  /// @brief Method .ctor, addr 0x5cb1f28, size 0x1dc, virtual false, abstract: false, final false
-  inline void _ctor(::System::IntPtr a);
+/// @brief Method .ctor, addr 0x5cb3aa0, size 0x1dc, virtual false, abstract: false, final false
+inline void _ctor(::System::IntPtr  a) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TrialOfferList();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr TrialOfferList() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TrialOfferList", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  TrialOfferList(TrialOfferList&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TrialOfferList", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  TrialOfferList(TrialOfferList const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "TrialOfferList", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+TrialOfferList(TrialOfferList && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18078 };
+// Ctor Parameters [CppParam { name: "", ty: "TrialOfferList", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+TrialOfferList(TrialOfferList const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{18080};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Oculus::Platform::Models::TrialOfferList, 0x28>, "Size mismatch!");
 
-} // namespace Oculus::Platform::Models
+} // namespace end def Oculus::Platform::Models
 NEED_NO_BOX(::Oculus::Platform::Models::TrialOfferList);
 DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::TrialOfferList*, "Oculus.Platform.Models", "TrialOfferList");

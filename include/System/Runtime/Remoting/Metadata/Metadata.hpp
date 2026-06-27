@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "System/Runtime/Remoting/Metadata/SoapAttribute.hpp"
 #include "System/Runtime/Remoting/Metadata/SoapFieldAttribute.hpp"
@@ -9,5 +9,6 @@ module;
 #include "System/Runtime/Remoting/Metadata/SoapParameterAttribute.hpp"
 #include "System/Runtime/Remoting/Metadata/SoapTypeAttribute.hpp"
 #ifdef __cpp_modules
-export module Metadata;
-#endif
+                    export module Metadata;
+                    #endif
+                

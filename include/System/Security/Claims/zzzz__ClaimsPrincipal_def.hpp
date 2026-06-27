@@ -7,10 +7,12 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ClaimsPrincipal)
 namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+template<typename T>
+class IEnumerable_1;
 }
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template<typename T>
+class List_1;
 }
 namespace System::Runtime::Serialization {
 class SerializationInfo;
@@ -25,10 +27,12 @@ namespace System::Security::Principal {
 class IPrincipal;
 }
 namespace System {
-template <typename TResult> class Func_1;
+template<typename TResult>
+class Func_1;
 }
 namespace System {
-template <typename T, typename TResult> class Func_2;
+template<typename T,typename TResult>
+class Func_2;
 }
 // Forward declare root types
 namespace System::Security::Claims {
@@ -42,117 +46,112 @@ namespace System::Security::Claims {
 // CS Name: System.Security.Claims.ClaimsPrincipal
 class CORDL_TYPE ClaimsPrincipal : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field m_identities, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_identities,
-                      put = __cordl_internal_set_m_identities)) ::System::Collections::Generic::List_1<::System::Security::Claims::ClaimsIdentity*>* m_identities;
+// Declarations
+/// @brief Field m_identities, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_identities, put=__cordl_internal_set_m_identities)) ::System::Collections::Generic::List_1<::System::Security::Claims::ClaimsIdentity*>*  m_identities;
 
-  /// @brief Field m_serializedClaimsIdentities, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_serializedClaimsIdentities, put = __cordl_internal_set_m_serializedClaimsIdentities)) ::StringW m_serializedClaimsIdentities;
+/// @brief Field m_serializedClaimsIdentities, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_serializedClaimsIdentities, put=__cordl_internal_set_m_serializedClaimsIdentities)) ::StringW  m_serializedClaimsIdentities;
 
-  /// @brief Field m_version, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_version, put = __cordl_internal_set_m_version)) ::StringW m_version;
+/// @brief Field m_version, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_version, put=__cordl_internal_set_m_version)) ::StringW  m_version;
 
-  /// @brief Field s_identitySelector, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_s_identitySelector,
-                      put = setStaticF_s_identitySelector)) ::System::Func_2<::System::Collections::Generic::IEnumerable_1<::System::Security::Claims::ClaimsIdentity*>*,
-                                                                             ::System::Security::Claims::ClaimsIdentity*>* s_identitySelector;
+/// @brief Field s_identitySelector, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_s_identitySelector, put=setStaticF_s_identitySelector)) ::System::Func_2<::System::Collections::Generic::IEnumerable_1<::System::Security::Claims::ClaimsIdentity*>*,::System::Security::Claims::ClaimsIdentity*>*  s_identitySelector;
 
-  /// @brief Field s_principalSelector, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_s_principalSelector, put = setStaticF_s_principalSelector)) ::System::Func_1<::System::Security::Claims::ClaimsPrincipal*>* s_principalSelector;
+/// @brief Field s_principalSelector, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_s_principalSelector, put=setStaticF_s_principalSelector)) ::System::Func_1<::System::Security::Claims::ClaimsPrincipal*>*  s_principalSelector;
 
-  /// @brief Convert operator to "::System::Security::Principal::IPrincipal"
-  constexpr operator ::System::Security::Principal::IPrincipal*() noexcept;
+/// @brief Convert operator to "::System::Security::Principal::IPrincipal"
+constexpr operator  ::System::Security::Principal::IPrincipal*() noexcept;
 
-  /// @brief Method Deserialize, addr 0x59dd998, size 0x160, virtual false, abstract: false, final false
-  inline void Deserialize(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
+/// @brief Method Deserialize, addr 0x59df510, size 0x160, virtual false, abstract: false, final false
+inline void Deserialize(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context) ;
 
-  /// @brief Method DeserializeIdentities, addr 0x59de4ec, size 0x630, virtual false, abstract: false, final false
-  inline void DeserializeIdentities(::StringW identities);
+/// @brief Method DeserializeIdentities, addr 0x59e0064, size 0x630, virtual false, abstract: false, final false
+inline void DeserializeIdentities(::StringW  identities) ;
 
-  static inline ::System::Security::Claims::ClaimsPrincipal* New_ctor();
+static inline ::System::Security::Claims::ClaimsPrincipal* New_ctor() ;
 
-  static inline ::System::Security::Claims::ClaimsPrincipal* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
+static inline ::System::Security::Claims::ClaimsPrincipal* New_ctor(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context) ;
 
-  /// @brief Method OnDeserializedMethod, addr 0x59de488, size 0x64, virtual false, abstract: false, final false
-  inline void OnDeserializedMethod(::System::Runtime::Serialization::StreamingContext context);
+/// @brief Method OnDeserializedMethod, addr 0x59e0000, size 0x64, virtual false, abstract: false, final false
+inline void OnDeserializedMethod(::System::Runtime::Serialization::StreamingContext  context) ;
 
-  /// @brief Method OnSerializingMethod, addr 0x59ddaf8, size 0x60, virtual false, abstract: false, final false
-  inline void OnSerializingMethod(::System::Runtime::Serialization::StreamingContext context);
+/// @brief Method OnSerializingMethod, addr 0x59df670, size 0x60, virtual false, abstract: false, final false
+inline void OnSerializingMethod(::System::Runtime::Serialization::StreamingContext  context) ;
 
-  /// @brief Method SelectPrimaryIdentity, addr 0x59dd4ec, size 0x35c, virtual false, abstract: false, final false
-  static inline ::System::Security::Claims::ClaimsIdentity* SelectPrimaryIdentity(::System::Collections::Generic::IEnumerable_1<::System::Security::Claims::ClaimsIdentity*>* identities);
+/// @brief Method SelectPrimaryIdentity, addr 0x59df064, size 0x35c, virtual false, abstract: false, final false
+static inline ::System::Security::Claims::ClaimsIdentity* SelectPrimaryIdentity(::System::Collections::Generic::IEnumerable_1<::System::Security::Claims::ClaimsIdentity*>*  identities) ;
 
-  /// @brief Method SerializeIdentities, addr 0x59ddb58, size 0x930, virtual false, abstract: false, final false
-  inline ::StringW SerializeIdentities();
+/// @brief Method SerializeIdentities, addr 0x59df6d0, size 0x930, virtual false, abstract: false, final false
+inline ::StringW SerializeIdentities() ;
 
-  constexpr ::System::Collections::Generic::List_1<::System::Security::Claims::ClaimsIdentity*>* const& __cordl_internal_get_m_identities() const;
+constexpr ::System::Collections::Generic::List_1<::System::Security::Claims::ClaimsIdentity*>* const& __cordl_internal_get_m_identities() const;
 
-  constexpr ::System::Collections::Generic::List_1<::System::Security::Claims::ClaimsIdentity*>*& __cordl_internal_get_m_identities();
+constexpr ::System::Collections::Generic::List_1<::System::Security::Claims::ClaimsIdentity*>*& __cordl_internal_get_m_identities() ;
 
-  constexpr ::StringW const& __cordl_internal_get_m_serializedClaimsIdentities() const;
+constexpr ::StringW const& __cordl_internal_get_m_serializedClaimsIdentities() const;
 
-  constexpr ::StringW& __cordl_internal_get_m_serializedClaimsIdentities();
+constexpr ::StringW& __cordl_internal_get_m_serializedClaimsIdentities() ;
 
-  constexpr ::StringW const& __cordl_internal_get_m_version() const;
+constexpr ::StringW const& __cordl_internal_get_m_version() const;
 
-  constexpr ::StringW& __cordl_internal_get_m_version();
+constexpr ::StringW& __cordl_internal_get_m_version() ;
 
-  constexpr void __cordl_internal_set_m_identities(::System::Collections::Generic::List_1<::System::Security::Claims::ClaimsIdentity*>* value);
+constexpr void __cordl_internal_set_m_identities(::System::Collections::Generic::List_1<::System::Security::Claims::ClaimsIdentity*>*  value) ;
 
-  constexpr void __cordl_internal_set_m_serializedClaimsIdentities(::StringW value);
+constexpr void __cordl_internal_set_m_serializedClaimsIdentities(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_m_version(::StringW value);
+constexpr void __cordl_internal_set_m_version(::StringW  value) ;
 
-  /// @brief Method .ctor, addr 0x59d5ba4, size 0x94, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x59d771c, size 0x94, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method .ctor, addr 0x59dd8a4, size 0xf4, virtual false, abstract: false, final false
-  inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
+/// @brief Method .ctor, addr 0x59df41c, size 0xf4, virtual false, abstract: false, final false
+inline void _ctor(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context) ;
 
-  static inline ::System::Func_2<::System::Collections::Generic::IEnumerable_1<::System::Security::Claims::ClaimsIdentity*>*, ::System::Security::Claims::ClaimsIdentity*>*
-  getStaticF_s_identitySelector();
+static inline ::System::Func_2<::System::Collections::Generic::IEnumerable_1<::System::Security::Claims::ClaimsIdentity*>*,::System::Security::Claims::ClaimsIdentity*>* getStaticF_s_identitySelector() ;
 
-  static inline ::System::Func_1<::System::Security::Claims::ClaimsPrincipal*>* getStaticF_s_principalSelector();
+static inline ::System::Func_1<::System::Security::Claims::ClaimsPrincipal*>* getStaticF_s_principalSelector() ;
 
-  /// @brief Method get_ClaimsPrincipalSelector, addr 0x59dd848, size 0x5c, virtual false, abstract: false, final false
-  static inline ::System::Func_1<::System::Security::Claims::ClaimsPrincipal*>* get_ClaimsPrincipalSelector();
+/// @brief Method get_ClaimsPrincipalSelector, addr 0x59df3c0, size 0x5c, virtual false, abstract: false, final false
+static inline ::System::Func_1<::System::Security::Claims::ClaimsPrincipal*>* get_ClaimsPrincipalSelector() ;
 
-  /// @brief Convert to "::System::Security::Principal::IPrincipal"
-  constexpr ::System::Security::Principal::IPrincipal* i___System__Security__Principal__IPrincipal() noexcept;
+/// @brief Convert to "::System::Security::Principal::IPrincipal"
+constexpr ::System::Security::Principal::IPrincipal* i___System__Security__Principal__IPrincipal() noexcept;
 
-  static inline void
-  setStaticF_s_identitySelector(::System::Func_2<::System::Collections::Generic::IEnumerable_1<::System::Security::Claims::ClaimsIdentity*>*, ::System::Security::Claims::ClaimsIdentity*>* value);
+static inline void setStaticF_s_identitySelector(::System::Func_2<::System::Collections::Generic::IEnumerable_1<::System::Security::Claims::ClaimsIdentity*>*,::System::Security::Claims::ClaimsIdentity*>*  value) ;
 
-  static inline void setStaticF_s_principalSelector(::System::Func_1<::System::Security::Claims::ClaimsPrincipal*>* value);
+static inline void setStaticF_s_principalSelector(::System::Func_1<::System::Security::Claims::ClaimsPrincipal*>*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ClaimsPrincipal();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ClaimsPrincipal() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ClaimsPrincipal", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ClaimsPrincipal(ClaimsPrincipal&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ClaimsPrincipal", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ClaimsPrincipal(ClaimsPrincipal const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ClaimsPrincipal", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ClaimsPrincipal(ClaimsPrincipal && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3027 };
+// Ctor Parameters [CppParam { name: "", ty: "ClaimsPrincipal", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ClaimsPrincipal(ClaimsPrincipal const& ) = delete;
 
-  /// @brief Field m_version, offset: 0x10, size: 0x8, def value: None
-  ::StringW ___m_version;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{3027};
 
-  /// @brief Field m_serializedClaimsIdentities, offset: 0x18, size: 0x8, def value: None
-  ::StringW ___m_serializedClaimsIdentities;
+/// @brief Field m_version, offset: 0x10, size: 0x8, def value: None
+ ::StringW  ___m_version;
 
-  /// @brief Field m_identities, offset: 0x20, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::System::Security::Claims::ClaimsIdentity*>* ___m_identities;
+/// @brief Field m_serializedClaimsIdentities, offset: 0x18, size: 0x8, def value: None
+ ::StringW  ___m_serializedClaimsIdentities;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field m_identities, offset: 0x20, size: 0x8, def value: None
+ ::System::Collections::Generic::List_1<::System::Security::Claims::ClaimsIdentity*>*  ___m_identities;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Security::Claims::ClaimsPrincipal, ___m_version) == 0x10, "Offset mismatch!");
@@ -163,6 +162,6 @@ static_assert(offsetof(::System::Security::Claims::ClaimsPrincipal, ___m_identit
 
 static_assert(::cordl_internals::size_check_v<::System::Security::Claims::ClaimsPrincipal, 0x28>, "Size mismatch!");
 
-} // namespace System::Security::Claims
+} // namespace end def System::Security::Claims
 NEED_NO_BOX(::System::Security::Claims::ClaimsPrincipal);
 DEFINE_IL2CPP_ARG_TYPE(::System::Security::Claims::ClaimsPrincipal*, "System.Security.Claims", "ClaimsPrincipal");

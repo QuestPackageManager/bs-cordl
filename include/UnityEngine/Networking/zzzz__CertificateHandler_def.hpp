@@ -32,111 +32,111 @@ namespace UnityEngine::Networking {
 // CS Name: UnityEngine.Networking.CertificateHandler/BindingsMarshaller
 class CORDL_TYPE CertificateHandler_BindingsMarshaller : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method ConvertToNative, addr 0x6ccf598, size 0x14, virtual false, abstract: false, final false
-  static inline ::System::IntPtr ConvertToNative(::UnityEngine::Networking::CertificateHandler* handler);
+// Declarations
+/// @brief Method ConvertToNative, addr 0x6cd1110, size 0x14, virtual false, abstract: false, final false
+static inline ::System::IntPtr ConvertToNative(::UnityEngine::Networking::CertificateHandler*  handler) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CertificateHandler_BindingsMarshaller();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr CertificateHandler_BindingsMarshaller() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CertificateHandler_BindingsMarshaller", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  CertificateHandler_BindingsMarshaller(CertificateHandler_BindingsMarshaller&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CertificateHandler_BindingsMarshaller", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  CertificateHandler_BindingsMarshaller(CertificateHandler_BindingsMarshaller const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "CertificateHandler_BindingsMarshaller", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+CertificateHandler_BindingsMarshaller(CertificateHandler_BindingsMarshaller && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22042 };
+// Ctor Parameters [CppParam { name: "", ty: "CertificateHandler_BindingsMarshaller", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+CertificateHandler_BindingsMarshaller(CertificateHandler_BindingsMarshaller const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22046};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Networking::CertificateHandler_BindingsMarshaller, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::Networking
+} // namespace end def UnityEngine::Networking
 // Dependencies System.IntPtr, System.Object
 namespace UnityEngine::Networking {
 // Is value type: false
 // CS Name: UnityEngine.Networking.CertificateHandler
 class CORDL_TYPE CertificateHandler : public ::System::Object {
 public:
-  // Declarations
-  using BindingsMarshaller = ::UnityEngine::Networking::CertificateHandler_BindingsMarshaller;
+// Declarations
+using BindingsMarshaller = ::UnityEngine::Networking::CertificateHandler_BindingsMarshaller;
 
-  /// @brief Field m_Ptr, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Ptr, put = __cordl_internal_set_m_Ptr)) ::System::IntPtr m_Ptr;
+/// @brief Field m_Ptr, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_Ptr, put=__cordl_internal_set_m_Ptr)) ::System::IntPtr  m_Ptr;
 
-  /// @brief Convert operator to "::System::IDisposable"
-  constexpr operator ::System::IDisposable*() noexcept;
+/// @brief Convert operator to "::System::IDisposable"
+constexpr operator  ::System::IDisposable*() noexcept;
 
-  /// @brief Method Create, addr 0x6ccf404, size 0x3c, virtual false, abstract: false, final false
-  static inline ::System::IntPtr Create(::UnityEngine::Networking::CertificateHandler* obj);
+/// @brief Method Create, addr 0x6cd0f7c, size 0x3c, virtual false, abstract: false, final false
+static inline ::System::IntPtr Create(::UnityEngine::Networking::CertificateHandler*  obj) ;
 
-  /// @brief Method Dispose, addr 0x6ccf564, size 0x20, virtual true, abstract: false, final true
-  inline void Dispose();
+/// @brief Method Dispose, addr 0x6cd10dc, size 0x20, virtual true, abstract: false, final true
+inline void Dispose() ;
 
-  /// @brief Method Finalize, addr 0x6ccf510, size 0x54, virtual true, abstract: false, final false
-  inline void Finalize();
+/// @brief Method Finalize, addr 0x6cd1088, size 0x54, virtual true, abstract: false, final false
+inline void Finalize() ;
 
-  static inline ::UnityEngine::Networking::CertificateHandler* New_ctor();
+static inline ::UnityEngine::Networking::CertificateHandler* New_ctor() ;
 
-  /// @brief Method ReleaseFromScripting, addr 0x6ccf440, size 0x50, virtual false, abstract: false, final false
-  inline void ReleaseFromScripting();
+/// @brief Method ReleaseFromScripting, addr 0x6cd0fb8, size 0x50, virtual false, abstract: false, final false
+inline void ReleaseFromScripting() ;
 
-  /// @brief Method ReleaseFromScripting_Injected, addr 0x6ccf490, size 0x3c, virtual false, abstract: false, final false
-  static inline void ReleaseFromScripting_Injected(::System::IntPtr _unity_self);
+/// @brief Method ReleaseFromScripting_Injected, addr 0x6cd1008, size 0x3c, virtual false, abstract: false, final false
+static inline void ReleaseFromScripting_Injected(::System::IntPtr  _unity_self) ;
 
-  /// @brief Method ValidateCertificate, addr 0x6ccf584, size 0x8, virtual true, abstract: false, final false
-  inline bool ValidateCertificate(::ArrayW<uint8_t, ::Array<uint8_t>*> certificateData);
+/// @brief Method ValidateCertificate, addr 0x6cd10fc, size 0x8, virtual true, abstract: false, final false
+inline bool ValidateCertificate(::ArrayW<uint8_t,::Array<uint8_t>*>  certificateData) ;
 
-  /// @brief Method ValidateCertificateNative, addr 0x6ccf58c, size 0xc, virtual false, abstract: false, final false
-  inline bool ValidateCertificateNative(::ArrayW<uint8_t, ::Array<uint8_t>*> certificateData);
+/// @brief Method ValidateCertificateNative, addr 0x6cd1104, size 0xc, virtual false, abstract: false, final false
+inline bool ValidateCertificateNative(::ArrayW<uint8_t,::Array<uint8_t>*>  certificateData) ;
 
-  constexpr ::System::IntPtr const& __cordl_internal_get_m_Ptr() const;
+constexpr ::System::IntPtr const& __cordl_internal_get_m_Ptr() const;
 
-  constexpr ::System::IntPtr& __cordl_internal_get_m_Ptr();
+constexpr ::System::IntPtr& __cordl_internal_get_m_Ptr() ;
 
-  constexpr void __cordl_internal_set_m_Ptr(::System::IntPtr value);
+constexpr void __cordl_internal_set_m_Ptr(::System::IntPtr  value) ;
 
-  /// @brief Method .ctor, addr 0x6ccf4cc, size 0x44, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6cd1044, size 0x44, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+/// @brief Convert to "::System::IDisposable"
+constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CertificateHandler();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr CertificateHandler() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CertificateHandler", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  CertificateHandler(CertificateHandler&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CertificateHandler", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  CertificateHandler(CertificateHandler const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "CertificateHandler", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+CertificateHandler(CertificateHandler && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22043 };
+// Ctor Parameters [CppParam { name: "", ty: "CertificateHandler", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+CertificateHandler(CertificateHandler const& ) = delete;
 
-  /// @brief Field m_Ptr, offset: 0x10, size: 0x8, def value: None
-  ::System::IntPtr ___m_Ptr;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22047};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field m_Ptr, offset: 0x10, size: 0x8, def value: None
+ ::System::IntPtr  ___m_Ptr;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Networking::CertificateHandler, ___m_Ptr) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Networking::CertificateHandler, 0x18>, "Size mismatch!");
 
-} // namespace UnityEngine::Networking
+} // namespace end def UnityEngine::Networking
 NEED_NO_BOX(::UnityEngine::Networking::CertificateHandler);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Networking::CertificateHandler*, "UnityEngine.Networking", "CertificateHandler");
 NEED_NO_BOX(::UnityEngine::Networking::CertificateHandler_BindingsMarshaller);

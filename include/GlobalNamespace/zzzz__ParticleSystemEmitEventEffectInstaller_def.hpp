@@ -21,60 +21,57 @@ namespace GlobalNamespace {
 // CS Name: ParticleSystemEmitEventEffectInstaller
 class CORDL_TYPE ParticleSystemEmitEventEffectInstaller : public ::Zenject::MonoInstaller {
 public:
-  // Declarations
-  /// @brief Field _particleSystemEventControllerInitialSize, offset 0x30, size 0x4
-  __declspec(property(get = __cordl_internal_get__particleSystemEventControllerInitialSize,
-                      put = __cordl_internal_set__particleSystemEventControllerInitialSize)) int32_t _particleSystemEventControllerInitialSize;
+// Declarations
+/// @brief Field _particleSystemEventControllerInitialSize, offset 0x30, size 0x4 
+ __declspec(property(get=__cordl_internal_get__particleSystemEventControllerInitialSize, put=__cordl_internal_set__particleSystemEventControllerInitialSize)) int32_t  _particleSystemEventControllerInitialSize;
 
-  /// @brief Field _particleSystemEventControllerPrefab, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__particleSystemEventControllerPrefab,
-                      put = __cordl_internal_set__particleSystemEventControllerPrefab)) ::UnityW<::GlobalNamespace::ParticleSystemEventController>
-      _particleSystemEventControllerPrefab;
+/// @brief Field _particleSystemEventControllerPrefab, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get__particleSystemEventControllerPrefab, put=__cordl_internal_set__particleSystemEventControllerPrefab)) ::UnityW<::GlobalNamespace::ParticleSystemEventController>  _particleSystemEventControllerPrefab;
 
-  /// @brief Method InstallBindings, addr 0x585f860, size 0xa4, virtual true, abstract: false, final false
-  inline void InstallBindings();
+/// @brief Method InstallBindings, addr 0x586110c, size 0xa4, virtual true, abstract: false, final false
+inline void InstallBindings() ;
 
-  static inline ::GlobalNamespace::ParticleSystemEmitEventEffectInstaller* New_ctor();
+static inline ::GlobalNamespace::ParticleSystemEmitEventEffectInstaller* New_ctor() ;
 
-  constexpr int32_t const& __cordl_internal_get__particleSystemEventControllerInitialSize() const;
+constexpr int32_t const& __cordl_internal_get__particleSystemEventControllerInitialSize() const;
 
-  constexpr int32_t& __cordl_internal_get__particleSystemEventControllerInitialSize();
+constexpr int32_t& __cordl_internal_get__particleSystemEventControllerInitialSize() ;
 
-  constexpr ::UnityW<::GlobalNamespace::ParticleSystemEventController> const& __cordl_internal_get__particleSystemEventControllerPrefab() const;
+constexpr ::UnityW<::GlobalNamespace::ParticleSystemEventController> const& __cordl_internal_get__particleSystemEventControllerPrefab() const;
 
-  constexpr ::UnityW<::GlobalNamespace::ParticleSystemEventController>& __cordl_internal_get__particleSystemEventControllerPrefab();
+constexpr ::UnityW<::GlobalNamespace::ParticleSystemEventController>& __cordl_internal_get__particleSystemEventControllerPrefab() ;
 
-  constexpr void __cordl_internal_set__particleSystemEventControllerInitialSize(int32_t value);
+constexpr void __cordl_internal_set__particleSystemEventControllerInitialSize(int32_t  value) ;
 
-  constexpr void __cordl_internal_set__particleSystemEventControllerPrefab(::UnityW<::GlobalNamespace::ParticleSystemEventController> value);
+constexpr void __cordl_internal_set__particleSystemEventControllerPrefab(::UnityW<::GlobalNamespace::ParticleSystemEventController>  value) ;
 
-  /// @brief Method .ctor, addr 0x585f904, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x58611b0, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ParticleSystemEmitEventEffectInstaller();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ParticleSystemEmitEventEffectInstaller() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ParticleSystemEmitEventEffectInstaller", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ParticleSystemEmitEventEffectInstaller(ParticleSystemEmitEventEffectInstaller&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ParticleSystemEmitEventEffectInstaller", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ParticleSystemEmitEventEffectInstaller(ParticleSystemEmitEventEffectInstaller const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ParticleSystemEmitEventEffectInstaller", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ParticleSystemEmitEventEffectInstaller(ParticleSystemEmitEventEffectInstaller && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5916 };
+// Ctor Parameters [CppParam { name: "", ty: "ParticleSystemEmitEventEffectInstaller", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ParticleSystemEmitEventEffectInstaller(ParticleSystemEmitEventEffectInstaller const& ) = delete;
 
-  /// @brief Field _particleSystemEventControllerPrefab, offset: 0x28, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::ParticleSystemEventController> ____particleSystemEventControllerPrefab;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{5916};
 
-  /// @brief Field _particleSystemEventControllerInitialSize, offset: 0x30, size: 0x4, def value: None
-  int32_t ____particleSystemEventControllerInitialSize;
+/// @brief Field _particleSystemEventControllerPrefab, offset: 0x28, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::ParticleSystemEventController>  ____particleSystemEventControllerPrefab;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _particleSystemEventControllerInitialSize, offset: 0x30, size: 0x4, def value: None
+ int32_t  ____particleSystemEventControllerInitialSize;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::ParticleSystemEmitEventEffectInstaller, ____particleSystemEventControllerPrefab) == 0x28, "Offset mismatch!");
@@ -83,6 +80,6 @@ static_assert(offsetof(::GlobalNamespace::ParticleSystemEmitEventEffectInstaller
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ParticleSystemEmitEventEffectInstaller, 0x38>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ParticleSystemEmitEventEffectInstaller);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ParticleSystemEmitEventEffectInstaller*, "", "ParticleSystemEmitEventEffectInstaller");

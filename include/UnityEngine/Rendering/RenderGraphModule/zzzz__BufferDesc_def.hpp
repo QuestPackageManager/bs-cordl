@@ -23,47 +23,45 @@ namespace UnityEngine::Rendering::RenderGraphModule {
 // CS Name: UnityEngine.Rendering.RenderGraphModule.BufferDesc
 struct CORDL_TYPE BufferDesc {
 public:
-  // Declarations
-  /// @brief Method GetHashCode, addr 0x669fc48, size 0x3c, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
+// Declarations
+/// @brief Method GetHashCode, addr 0x66a17c0, size 0x3c, virtual true, abstract: false, final false
+inline int32_t GetHashCode() ;
 
-  /// @brief Method .ctor, addr 0x669fc20, size 0x18, virtual false, abstract: false, final false
-  inline void _ctor(int32_t count, int32_t stride);
+/// @brief Method .ctor, addr 0x66a1798, size 0x18, virtual false, abstract: false, final false
+inline void _ctor(int32_t  count, int32_t  stride) ;
 
-  /// @brief Method .ctor, addr 0x669fc38, size 0x10, virtual false, abstract: false, final false
-  inline void _ctor(int32_t count, int32_t stride, ::UnityEngine::GraphicsBuffer_Target target);
+/// @brief Method .ctor, addr 0x66a17b0, size 0x10, virtual false, abstract: false, final false
+inline void _ctor(int32_t  count, int32_t  stride, ::UnityEngine::GraphicsBuffer_Target  target) ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BufferDesc();
+// Ctor Parameters []
+// @brief default ctor
+constexpr BufferDesc() ;
 
-  // Ctor Parameters [CppParam { name: "count", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "stride", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "name",
-  // ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "target", ty: "::UnityEngine::GraphicsBuffer_Target", modifiers: "", def_value: None }, CppParam { name: "usageFlags", ty:
-  // "::UnityEngine::GraphicsBuffer_UsageFlags", modifiers: "", def_value: None }]
-  constexpr BufferDesc(int32_t count, int32_t stride, ::StringW name, ::UnityEngine::GraphicsBuffer_Target target, ::UnityEngine::GraphicsBuffer_UsageFlags usageFlags) noexcept;
+// Ctor Parameters [CppParam { name: "count", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "stride", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "target", ty: "::UnityEngine::GraphicsBuffer_Target", modifiers: "", def_value: None }, CppParam { name: "usageFlags", ty: "::UnityEngine::GraphicsBuffer_UsageFlags", modifiers: "", def_value: None }]
+constexpr BufferDesc(int32_t  count, int32_t  stride, ::StringW  name, ::UnityEngine::GraphicsBuffer_Target  target, ::UnityEngine::GraphicsBuffer_UsageFlags  usageFlags) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12426 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12427};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x18};
 
-  /// @brief Field count, offset: 0x0, size: 0x4, def value: None
-  int32_t count;
+/// @brief Field count, offset: 0x0, size: 0x4, def value: None
+ int32_t  count;
 
-  /// @brief Field stride, offset: 0x4, size: 0x4, def value: None
-  int32_t stride;
+/// @brief Field stride, offset: 0x4, size: 0x4, def value: None
+ int32_t  stride;
 
-  /// @brief Field name, offset: 0x8, size: 0x8, def value: None
-  ::StringW name;
+/// @brief Field name, offset: 0x8, size: 0x8, def value: None
+ ::StringW  name;
 
-  /// @brief Field target, offset: 0x10, size: 0x4, def value: None
-  ::UnityEngine::GraphicsBuffer_Target target;
+/// @brief Field target, offset: 0x10, size: 0x4, def value: None
+ ::UnityEngine::GraphicsBuffer_Target  target;
 
-  /// @brief Field usageFlags, offset: 0x14, size: 0x4, def value: None
-  ::UnityEngine::GraphicsBuffer_UsageFlags usageFlags;
+/// @brief Field usageFlags, offset: 0x14, size: 0x4, def value: None
+ ::UnityEngine::GraphicsBuffer_UsageFlags  usageFlags;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Rendering::RenderGraphModule::BufferDesc, count) == 0x0, "Offset mismatch!");
@@ -78,5 +76,5 @@ static_assert(offsetof(::UnityEngine::Rendering::RenderGraphModule::BufferDesc, 
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::RenderGraphModule::BufferDesc, 0x18>, "Size mismatch!");
 
-} // namespace UnityEngine::Rendering::RenderGraphModule
+} // namespace end def UnityEngine::Rendering::RenderGraphModule
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::RenderGraphModule::BufferDesc, "UnityEngine.Rendering.RenderGraphModule", "BufferDesc");

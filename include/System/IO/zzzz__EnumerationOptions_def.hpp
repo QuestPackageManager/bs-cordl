@@ -32,181 +32,177 @@ namespace System::IO {
 // CS Name: System.IO.EnumerationOptions
 class CORDL_TYPE EnumerationOptions : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = get_AttributesToSkip, put = set_AttributesToSkip)) ::System::IO::FileAttributes AttributesToSkip;
+// Declarations
+ __declspec(property(get=get_AttributesToSkip, put=set_AttributesToSkip)) ::System::IO::FileAttributes  AttributesToSkip;
 
-  __declspec(property(get = get_IgnoreInaccessible, put = set_IgnoreInaccessible)) bool IgnoreInaccessible;
+ __declspec(property(get=get_IgnoreInaccessible, put=set_IgnoreInaccessible)) bool  IgnoreInaccessible;
 
-  __declspec(property(get = get_MatchCasing)) ::System::IO::MatchCasing MatchCasing;
+ __declspec(property(get=get_MatchCasing)) ::System::IO::MatchCasing  MatchCasing;
 
-  __declspec(property(get = get_MatchType, put = set_MatchType)) ::System::IO::MatchType MatchType;
+ __declspec(property(get=get_MatchType, put=set_MatchType)) ::System::IO::MatchType  MatchType;
 
-  __declspec(property(get = get_RecurseSubdirectories, put = set_RecurseSubdirectories)) bool RecurseSubdirectories;
+ __declspec(property(get=get_RecurseSubdirectories, put=set_RecurseSubdirectories)) bool  RecurseSubdirectories;
 
-  __declspec(property(get = get_ReturnSpecialDirectories)) bool ReturnSpecialDirectories;
+ __declspec(property(get=get_ReturnSpecialDirectories)) bool  ReturnSpecialDirectories;
 
-  /// @brief Field <AttributesToSkip>k__BackingField, offset 0x14, size 0x4
-  __declspec(property(get = __cordl_internal_get__AttributesToSkip_k__BackingField,
-                      put = __cordl_internal_set__AttributesToSkip_k__BackingField)) ::System::IO::FileAttributes _AttributesToSkip_k__BackingField;
+/// @brief Field <AttributesToSkip>k__BackingField, offset 0x14, size 0x4 
+ __declspec(property(get=__cordl_internal_get__AttributesToSkip_k__BackingField, put=__cordl_internal_set__AttributesToSkip_k__BackingField)) ::System::IO::FileAttributes  _AttributesToSkip_k__BackingField;
 
-  /// @brief Field <CompatibleRecursive>k__BackingField, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF__CompatibleRecursive_k__BackingField,
-                      put = setStaticF__CompatibleRecursive_k__BackingField)) ::System::IO::EnumerationOptions* _CompatibleRecursive_k__BackingField;
+/// @brief Field <CompatibleRecursive>k__BackingField, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF__CompatibleRecursive_k__BackingField, put=setStaticF__CompatibleRecursive_k__BackingField)) ::System::IO::EnumerationOptions*  _CompatibleRecursive_k__BackingField;
 
-  /// @brief Field <Compatible>k__BackingField, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF__Compatible_k__BackingField, put = setStaticF__Compatible_k__BackingField)) ::System::IO::EnumerationOptions* _Compatible_k__BackingField;
+/// @brief Field <Compatible>k__BackingField, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF__Compatible_k__BackingField, put=setStaticF__Compatible_k__BackingField)) ::System::IO::EnumerationOptions*  _Compatible_k__BackingField;
 
-  /// @brief Field <Default>k__BackingField, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF__Default_k__BackingField, put = setStaticF__Default_k__BackingField)) ::System::IO::EnumerationOptions* _Default_k__BackingField;
+/// @brief Field <Default>k__BackingField, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF__Default_k__BackingField, put=setStaticF__Default_k__BackingField)) ::System::IO::EnumerationOptions*  _Default_k__BackingField;
 
-  /// @brief Field <IgnoreInaccessible>k__BackingField, offset 0x11, size 0x1
-  __declspec(property(get = __cordl_internal_get__IgnoreInaccessible_k__BackingField, put = __cordl_internal_set__IgnoreInaccessible_k__BackingField)) bool _IgnoreInaccessible_k__BackingField;
+/// @brief Field <IgnoreInaccessible>k__BackingField, offset 0x11, size 0x1 
+ __declspec(property(get=__cordl_internal_get__IgnoreInaccessible_k__BackingField, put=__cordl_internal_set__IgnoreInaccessible_k__BackingField)) bool  _IgnoreInaccessible_k__BackingField;
 
-  /// @brief Field <MatchCasing>k__BackingField, offset 0x1c, size 0x4
-  __declspec(property(get = __cordl_internal_get__MatchCasing_k__BackingField, put = __cordl_internal_set__MatchCasing_k__BackingField)) ::System::IO::MatchCasing _MatchCasing_k__BackingField;
+/// @brief Field <MatchCasing>k__BackingField, offset 0x1c, size 0x4 
+ __declspec(property(get=__cordl_internal_get__MatchCasing_k__BackingField, put=__cordl_internal_set__MatchCasing_k__BackingField)) ::System::IO::MatchCasing  _MatchCasing_k__BackingField;
 
-  /// @brief Field <MatchType>k__BackingField, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get__MatchType_k__BackingField, put = __cordl_internal_set__MatchType_k__BackingField)) ::System::IO::MatchType _MatchType_k__BackingField;
+/// @brief Field <MatchType>k__BackingField, offset 0x18, size 0x4 
+ __declspec(property(get=__cordl_internal_get__MatchType_k__BackingField, put=__cordl_internal_set__MatchType_k__BackingField)) ::System::IO::MatchType  _MatchType_k__BackingField;
 
-  /// @brief Field <RecurseSubdirectories>k__BackingField, offset 0x10, size 0x1
-  __declspec(property(get = __cordl_internal_get__RecurseSubdirectories_k__BackingField,
-                      put = __cordl_internal_set__RecurseSubdirectories_k__BackingField)) bool _RecurseSubdirectories_k__BackingField;
+/// @brief Field <RecurseSubdirectories>k__BackingField, offset 0x10, size 0x1 
+ __declspec(property(get=__cordl_internal_get__RecurseSubdirectories_k__BackingField, put=__cordl_internal_set__RecurseSubdirectories_k__BackingField)) bool  _RecurseSubdirectories_k__BackingField;
 
-  /// @brief Field <ReturnSpecialDirectories>k__BackingField, offset 0x20, size 0x1
-  __declspec(property(get = __cordl_internal_get__ReturnSpecialDirectories_k__BackingField,
-                      put = __cordl_internal_set__ReturnSpecialDirectories_k__BackingField)) bool _ReturnSpecialDirectories_k__BackingField;
+/// @brief Field <ReturnSpecialDirectories>k__BackingField, offset 0x20, size 0x1 
+ __declspec(property(get=__cordl_internal_get__ReturnSpecialDirectories_k__BackingField, put=__cordl_internal_set__ReturnSpecialDirectories_k__BackingField)) bool  _ReturnSpecialDirectories_k__BackingField;
 
-  /// @brief Method FromSearchOption, addr 0x5ac94dc, size 0x15c, virtual false, abstract: false, final false
-  static inline ::System::IO::EnumerationOptions* FromSearchOption(::System::IO::SearchOption searchOption);
+/// @brief Method FromSearchOption, addr 0x5acb054, size 0x15c, virtual false, abstract: false, final false
+static inline ::System::IO::EnumerationOptions* FromSearchOption(::System::IO::SearchOption  searchOption) ;
 
-  static inline ::System::IO::EnumerationOptions* New_ctor();
+static inline ::System::IO::EnumerationOptions* New_ctor() ;
 
-  constexpr ::System::IO::FileAttributes const& __cordl_internal_get__AttributesToSkip_k__BackingField() const;
+constexpr ::System::IO::FileAttributes const& __cordl_internal_get__AttributesToSkip_k__BackingField() const;
 
-  constexpr ::System::IO::FileAttributes& __cordl_internal_get__AttributesToSkip_k__BackingField();
+constexpr ::System::IO::FileAttributes& __cordl_internal_get__AttributesToSkip_k__BackingField() ;
 
-  constexpr bool const& __cordl_internal_get__IgnoreInaccessible_k__BackingField() const;
+constexpr bool const& __cordl_internal_get__IgnoreInaccessible_k__BackingField() const;
 
-  constexpr bool& __cordl_internal_get__IgnoreInaccessible_k__BackingField();
+constexpr bool& __cordl_internal_get__IgnoreInaccessible_k__BackingField() ;
 
-  constexpr ::System::IO::MatchCasing const& __cordl_internal_get__MatchCasing_k__BackingField() const;
+constexpr ::System::IO::MatchCasing const& __cordl_internal_get__MatchCasing_k__BackingField() const;
 
-  constexpr ::System::IO::MatchCasing& __cordl_internal_get__MatchCasing_k__BackingField();
+constexpr ::System::IO::MatchCasing& __cordl_internal_get__MatchCasing_k__BackingField() ;
 
-  constexpr ::System::IO::MatchType const& __cordl_internal_get__MatchType_k__BackingField() const;
+constexpr ::System::IO::MatchType const& __cordl_internal_get__MatchType_k__BackingField() const;
 
-  constexpr ::System::IO::MatchType& __cordl_internal_get__MatchType_k__BackingField();
+constexpr ::System::IO::MatchType& __cordl_internal_get__MatchType_k__BackingField() ;
 
-  constexpr bool const& __cordl_internal_get__RecurseSubdirectories_k__BackingField() const;
+constexpr bool const& __cordl_internal_get__RecurseSubdirectories_k__BackingField() const;
 
-  constexpr bool& __cordl_internal_get__RecurseSubdirectories_k__BackingField();
+constexpr bool& __cordl_internal_get__RecurseSubdirectories_k__BackingField() ;
 
-  constexpr bool const& __cordl_internal_get__ReturnSpecialDirectories_k__BackingField() const;
+constexpr bool const& __cordl_internal_get__ReturnSpecialDirectories_k__BackingField() const;
 
-  constexpr bool& __cordl_internal_get__ReturnSpecialDirectories_k__BackingField();
+constexpr bool& __cordl_internal_get__ReturnSpecialDirectories_k__BackingField() ;
 
-  constexpr void __cordl_internal_set__AttributesToSkip_k__BackingField(::System::IO::FileAttributes value);
+constexpr void __cordl_internal_set__AttributesToSkip_k__BackingField(::System::IO::FileAttributes  value) ;
 
-  constexpr void __cordl_internal_set__IgnoreInaccessible_k__BackingField(bool value);
+constexpr void __cordl_internal_set__IgnoreInaccessible_k__BackingField(bool  value) ;
 
-  constexpr void __cordl_internal_set__MatchCasing_k__BackingField(::System::IO::MatchCasing value);
+constexpr void __cordl_internal_set__MatchCasing_k__BackingField(::System::IO::MatchCasing  value) ;
 
-  constexpr void __cordl_internal_set__MatchType_k__BackingField(::System::IO::MatchType value);
+constexpr void __cordl_internal_set__MatchType_k__BackingField(::System::IO::MatchType  value) ;
 
-  constexpr void __cordl_internal_set__RecurseSubdirectories_k__BackingField(bool value);
+constexpr void __cordl_internal_set__RecurseSubdirectories_k__BackingField(bool  value) ;
 
-  constexpr void __cordl_internal_set__ReturnSpecialDirectories_k__BackingField(bool value);
+constexpr void __cordl_internal_set__ReturnSpecialDirectories_k__BackingField(bool  value) ;
 
-  /// @brief Method .ctor, addr 0x5ac9b7c, size 0x14, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5acb6f4, size 0x14, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  static inline ::System::IO::EnumerationOptions* getStaticF__CompatibleRecursive_k__BackingField();
+static inline ::System::IO::EnumerationOptions* getStaticF__CompatibleRecursive_k__BackingField() ;
 
-  static inline ::System::IO::EnumerationOptions* getStaticF__Compatible_k__BackingField();
+static inline ::System::IO::EnumerationOptions* getStaticF__Compatible_k__BackingField() ;
 
-  static inline ::System::IO::EnumerationOptions* getStaticF__Default_k__BackingField();
+static inline ::System::IO::EnumerationOptions* getStaticF__Default_k__BackingField() ;
 
-  /// @brief Method get_AttributesToSkip, addr 0x5ac9bb0, size 0x8, virtual false, abstract: false, final false
-  inline ::System::IO::FileAttributes get_AttributesToSkip();
+/// @brief Method get_AttributesToSkip, addr 0x5acb728, size 0x8, virtual false, abstract: false, final false
+inline ::System::IO::FileAttributes get_AttributesToSkip() ;
 
-  /// @brief Method get_Compatible, addr 0x5ac9a68, size 0x5c, virtual false, abstract: false, final false
-  static inline ::System::IO::EnumerationOptions* get_Compatible();
+/// @brief Method get_Compatible, addr 0x5acb5e0, size 0x5c, virtual false, abstract: false, final false
+static inline ::System::IO::EnumerationOptions* get_Compatible() ;
 
-  /// @brief Method get_CompatibleRecursive, addr 0x5ac9ac4, size 0x5c, virtual false, abstract: false, final false
-  static inline ::System::IO::EnumerationOptions* get_CompatibleRecursive();
+/// @brief Method get_CompatibleRecursive, addr 0x5acb63c, size 0x5c, virtual false, abstract: false, final false
+static inline ::System::IO::EnumerationOptions* get_CompatibleRecursive() ;
 
-  /// @brief Method get_Default, addr 0x5ac9b20, size 0x5c, virtual false, abstract: false, final false
-  static inline ::System::IO::EnumerationOptions* get_Default();
+/// @brief Method get_Default, addr 0x5acb698, size 0x5c, virtual false, abstract: false, final false
+static inline ::System::IO::EnumerationOptions* get_Default() ;
 
-  /// @brief Method get_IgnoreInaccessible, addr 0x5ac9ba0, size 0x8, virtual false, abstract: false, final false
-  inline bool get_IgnoreInaccessible();
+/// @brief Method get_IgnoreInaccessible, addr 0x5acb718, size 0x8, virtual false, abstract: false, final false
+inline bool get_IgnoreInaccessible() ;
 
-  /// @brief Method get_MatchCasing, addr 0x5ac9bd0, size 0x8, virtual false, abstract: false, final false
-  inline ::System::IO::MatchCasing get_MatchCasing();
+/// @brief Method get_MatchCasing, addr 0x5acb748, size 0x8, virtual false, abstract: false, final false
+inline ::System::IO::MatchCasing get_MatchCasing() ;
 
-  /// @brief Method get_MatchType, addr 0x5ac9bc0, size 0x8, virtual false, abstract: false, final false
-  inline ::System::IO::MatchType get_MatchType();
+/// @brief Method get_MatchType, addr 0x5acb738, size 0x8, virtual false, abstract: false, final false
+inline ::System::IO::MatchType get_MatchType() ;
 
-  /// @brief Method get_RecurseSubdirectories, addr 0x5ac9b90, size 0x8, virtual false, abstract: false, final false
-  inline bool get_RecurseSubdirectories();
+/// @brief Method get_RecurseSubdirectories, addr 0x5acb708, size 0x8, virtual false, abstract: false, final false
+inline bool get_RecurseSubdirectories() ;
 
-  /// @brief Method get_ReturnSpecialDirectories, addr 0x5ac9bd8, size 0x8, virtual false, abstract: false, final false
-  inline bool get_ReturnSpecialDirectories();
+/// @brief Method get_ReturnSpecialDirectories, addr 0x5acb750, size 0x8, virtual false, abstract: false, final false
+inline bool get_ReturnSpecialDirectories() ;
 
-  static inline void setStaticF__CompatibleRecursive_k__BackingField(::System::IO::EnumerationOptions* value);
+static inline void setStaticF__CompatibleRecursive_k__BackingField(::System::IO::EnumerationOptions*  value) ;
 
-  static inline void setStaticF__Compatible_k__BackingField(::System::IO::EnumerationOptions* value);
+static inline void setStaticF__Compatible_k__BackingField(::System::IO::EnumerationOptions*  value) ;
 
-  static inline void setStaticF__Default_k__BackingField(::System::IO::EnumerationOptions* value);
+static inline void setStaticF__Default_k__BackingField(::System::IO::EnumerationOptions*  value) ;
 
-  /// @brief Method set_AttributesToSkip, addr 0x5ac9bb8, size 0x8, virtual false, abstract: false, final false
-  inline void set_AttributesToSkip(::System::IO::FileAttributes value);
+/// @brief Method set_AttributesToSkip, addr 0x5acb730, size 0x8, virtual false, abstract: false, final false
+inline void set_AttributesToSkip(::System::IO::FileAttributes  value) ;
 
-  /// @brief Method set_IgnoreInaccessible, addr 0x5ac9ba8, size 0x8, virtual false, abstract: false, final false
-  inline void set_IgnoreInaccessible(bool value);
+/// @brief Method set_IgnoreInaccessible, addr 0x5acb720, size 0x8, virtual false, abstract: false, final false
+inline void set_IgnoreInaccessible(bool  value) ;
 
-  /// @brief Method set_MatchType, addr 0x5ac9bc8, size 0x8, virtual false, abstract: false, final false
-  inline void set_MatchType(::System::IO::MatchType value);
+/// @brief Method set_MatchType, addr 0x5acb740, size 0x8, virtual false, abstract: false, final false
+inline void set_MatchType(::System::IO::MatchType  value) ;
 
-  /// @brief Method set_RecurseSubdirectories, addr 0x5ac9b98, size 0x8, virtual false, abstract: false, final false
-  inline void set_RecurseSubdirectories(bool value);
+/// @brief Method set_RecurseSubdirectories, addr 0x5acb710, size 0x8, virtual false, abstract: false, final false
+inline void set_RecurseSubdirectories(bool  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr EnumerationOptions();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr EnumerationOptions() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EnumerationOptions", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  EnumerationOptions(EnumerationOptions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EnumerationOptions", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  EnumerationOptions(EnumerationOptions const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "EnumerationOptions", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+EnumerationOptions(EnumerationOptions && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3876 };
+// Ctor Parameters [CppParam { name: "", ty: "EnumerationOptions", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+EnumerationOptions(EnumerationOptions const& ) = delete;
 
-  /// @brief Field <RecurseSubdirectories>k__BackingField, offset: 0x10, size: 0x1, def value: None
-  bool ____RecurseSubdirectories_k__BackingField;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{3876};
 
-  /// @brief Field <IgnoreInaccessible>k__BackingField, offset: 0x11, size: 0x1, def value: None
-  bool ____IgnoreInaccessible_k__BackingField;
+/// @brief Field <RecurseSubdirectories>k__BackingField, offset: 0x10, size: 0x1, def value: None
+ bool  ____RecurseSubdirectories_k__BackingField;
 
-  /// @brief Field <AttributesToSkip>k__BackingField, offset: 0x14, size: 0x4, def value: None
-  ::System::IO::FileAttributes ____AttributesToSkip_k__BackingField;
+/// @brief Field <IgnoreInaccessible>k__BackingField, offset: 0x11, size: 0x1, def value: None
+ bool  ____IgnoreInaccessible_k__BackingField;
 
-  /// @brief Field <MatchType>k__BackingField, offset: 0x18, size: 0x4, def value: None
-  ::System::IO::MatchType ____MatchType_k__BackingField;
+/// @brief Field <AttributesToSkip>k__BackingField, offset: 0x14, size: 0x4, def value: None
+ ::System::IO::FileAttributes  ____AttributesToSkip_k__BackingField;
 
-  /// @brief Field <MatchCasing>k__BackingField, offset: 0x1c, size: 0x4, def value: None
-  ::System::IO::MatchCasing ____MatchCasing_k__BackingField;
+/// @brief Field <MatchType>k__BackingField, offset: 0x18, size: 0x4, def value: None
+ ::System::IO::MatchType  ____MatchType_k__BackingField;
 
-  /// @brief Field <ReturnSpecialDirectories>k__BackingField, offset: 0x20, size: 0x1, def value: None
-  bool ____ReturnSpecialDirectories_k__BackingField;
+/// @brief Field <MatchCasing>k__BackingField, offset: 0x1c, size: 0x4, def value: None
+ ::System::IO::MatchCasing  ____MatchCasing_k__BackingField;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field <ReturnSpecialDirectories>k__BackingField, offset: 0x20, size: 0x1, def value: None
+ bool  ____ReturnSpecialDirectories_k__BackingField;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::IO::EnumerationOptions, ____RecurseSubdirectories_k__BackingField) == 0x10, "Offset mismatch!");
@@ -223,6 +219,6 @@ static_assert(offsetof(::System::IO::EnumerationOptions, ____ReturnSpecialDirect
 
 static_assert(::cordl_internals::size_check_v<::System::IO::EnumerationOptions, 0x28>, "Size mismatch!");
 
-} // namespace System::IO
+} // namespace end def System::IO
 NEED_NO_BOX(::System::IO::EnumerationOptions);
 DEFINE_IL2CPP_ARG_TYPE(::System::IO::EnumerationOptions*, "System.IO", "EnumerationOptions");

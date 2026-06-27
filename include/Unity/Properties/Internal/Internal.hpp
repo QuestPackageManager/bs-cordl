@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "Unity/Properties/Internal/BoundsIntPropertyBag.hpp"
 #include "Unity/Properties/Internal/BoundsPropertyBag.hpp"
@@ -23,5 +23,6 @@ module;
 #include "Unity/Properties/Internal/Vector3PropertyBag.hpp"
 #include "Unity/Properties/Internal/Vector4PropertyBag.hpp"
 #ifdef __cpp_modules
-export module Internal;
-#endif
+                    export module Internal;
+                    #endif
+                

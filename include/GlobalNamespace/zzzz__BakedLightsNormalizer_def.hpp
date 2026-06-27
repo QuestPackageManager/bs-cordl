@@ -14,7 +14,8 @@ namespace GlobalNamespace {
 class LightmapLightWithIds;
 }
 namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+template<typename TKey,typename TValue>
+class Dictionary_2;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -28,144 +29,139 @@ namespace GlobalNamespace {
 // CS Name: BakedLightsNormalizer
 class CORDL_TYPE BakedLightsNormalizer : public ::UnityEngine::MonoBehaviour {
 public:
-  // Declarations
-  /// @brief Field _grayscaleCalculatedOnce, offset 0x3c, size 0x1
-  __declspec(property(get = __cordl_internal_get__grayscaleCalculatedOnce, put = __cordl_internal_set__grayscaleCalculatedOnce)) bool _grayscaleCalculatedOnce;
+// Declarations
+/// @brief Field _grayscaleCalculatedOnce, offset 0x3c, size 0x1 
+ __declspec(property(get=__cordl_internal_get__grayscaleCalculatedOnce, put=__cordl_internal_set__grayscaleCalculatedOnce)) bool  _grayscaleCalculatedOnce;
 
-  /// @brief Field _grayscaleTotal, offset 0x34, size 0x4
-  __declspec(property(get = __cordl_internal_get__grayscaleTotal, put = __cordl_internal_set__grayscaleTotal)) float_t _grayscaleTotal;
+/// @brief Field _grayscaleTotal, offset 0x34, size 0x4 
+ __declspec(property(get=__cordl_internal_get__grayscaleTotal, put=__cordl_internal_set__grayscaleTotal)) float_t  _grayscaleTotal;
 
-  /// @brief Field _lastCalculatedOnFrame, offset 0x38, size 0x4
-  __declspec(property(get = __cordl_internal_get__lastCalculatedOnFrame, put = __cordl_internal_set__lastCalculatedOnFrame)) int32_t _lastCalculatedOnFrame;
+/// @brief Field _lastCalculatedOnFrame, offset 0x38, size 0x4 
+ __declspec(property(get=__cordl_internal_get__lastCalculatedOnFrame, put=__cordl_internal_set__lastCalculatedOnFrame)) int32_t  _lastCalculatedOnFrame;
 
-  /// @brief Field _lightmapDictInitialized, offset 0x30, size 0x1
-  __declspec(property(get = __cordl_internal_get__lightmapDictInitialized, put = __cordl_internal_set__lightmapDictInitialized)) bool _lightmapDictInitialized;
+/// @brief Field _lightmapDictInitialized, offset 0x30, size 0x1 
+ __declspec(property(get=__cordl_internal_get__lightmapDictInitialized, put=__cordl_internal_set__lightmapDictInitialized)) bool  _lightmapDictInitialized;
 
-  /// @brief Field _lightmapLightDict, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__lightmapLightDict,
-                      put = __cordl_internal_set__lightmapLightDict)) ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::LightConstants_BakeId,
-                                                                                                                   ::UnityW<::GlobalNamespace::LightmapLightWithIds>>* _lightmapLightDict;
+/// @brief Field _lightmapLightDict, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get__lightmapLightDict, put=__cordl_internal_set__lightmapLightDict)) ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::LightConstants_BakeId,::UnityW<::GlobalNamespace::LightmapLightWithIds>>*  _lightmapLightDict;
 
-  /// @brief Field _maxTotalIntensity, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get__maxTotalIntensity, put = __cordl_internal_set__maxTotalIntensity)) float_t _maxTotalIntensity;
+/// @brief Field _maxTotalIntensity, offset 0x20, size 0x4 
+ __declspec(property(get=__cordl_internal_get__maxTotalIntensity, put=__cordl_internal_set__maxTotalIntensity)) float_t  _maxTotalIntensity;
 
-  /// @brief Field _newUpdates, offset 0x3d, size 0x1
-  __declspec(property(get = __cordl_internal_get__newUpdates, put = __cordl_internal_set__newUpdates)) bool _newUpdates;
+/// @brief Field _newUpdates, offset 0x3d, size 0x1 
+ __declspec(property(get=__cordl_internal_get__newUpdates, put=__cordl_internal_set__newUpdates)) bool  _newUpdates;
 
-  __declspec(property(
-      get = get_lightmapLightDict)) ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::LightConstants_BakeId, ::UnityW<::GlobalNamespace::LightmapLightWithIds>>* lightmapLightDict;
+ __declspec(property(get=get_lightmapLightDict)) ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::LightConstants_BakeId,::UnityW<::GlobalNamespace::LightmapLightWithIds>>*  lightmapLightDict;
 
-  __declspec(property(get = get_maxTotalIntensity)) float_t maxTotalIntensity;
+ __declspec(property(get=get_maxTotalIntensity)) float_t  maxTotalIntensity;
 
-  /// @brief Method GetLightmapLights, addr 0x5726788, size 0x124, virtual false, abstract: false, final false
-  inline void GetLightmapLights();
+/// @brief Method GetLightmapLights, addr 0x5727ff0, size 0x124, virtual false, abstract: false, final false
+inline void GetLightmapLights() ;
 
-  /// @brief Method GetNormalizationMultiplier, addr 0x57268ac, size 0x70, virtual false, abstract: false, final false
-  inline float_t GetNormalizationMultiplier();
+/// @brief Method GetNormalizationMultiplier, addr 0x5728114, size 0x70, virtual false, abstract: false, final false
+inline float_t GetNormalizationMultiplier() ;
 
-  /// @brief Method LateUpdate, addr 0x5726520, size 0x5c, virtual false, abstract: false, final false
-  inline void LateUpdate();
+/// @brief Method LateUpdate, addr 0x5727d88, size 0x5c, virtual false, abstract: false, final false
+inline void LateUpdate() ;
 
-  static inline ::GlobalNamespace::BakedLightsNormalizer* New_ctor();
+static inline ::GlobalNamespace::BakedLightsNormalizer* New_ctor() ;
 
-  /// @brief Method UpdateGrayscaleTotal, addr 0x572657c, size 0x20c, virtual false, abstract: false, final false
-  inline void UpdateGrayscaleTotal();
+/// @brief Method UpdateGrayscaleTotal, addr 0x5727de4, size 0x20c, virtual false, abstract: false, final false
+inline void UpdateGrayscaleTotal() ;
 
-  constexpr bool const& __cordl_internal_get__grayscaleCalculatedOnce() const;
+constexpr bool const& __cordl_internal_get__grayscaleCalculatedOnce() const;
 
-  constexpr bool& __cordl_internal_get__grayscaleCalculatedOnce();
+constexpr bool& __cordl_internal_get__grayscaleCalculatedOnce() ;
 
-  constexpr float_t const& __cordl_internal_get__grayscaleTotal() const;
+constexpr float_t const& __cordl_internal_get__grayscaleTotal() const;
 
-  constexpr float_t& __cordl_internal_get__grayscaleTotal();
+constexpr float_t& __cordl_internal_get__grayscaleTotal() ;
 
-  constexpr int32_t const& __cordl_internal_get__lastCalculatedOnFrame() const;
+constexpr int32_t const& __cordl_internal_get__lastCalculatedOnFrame() const;
 
-  constexpr int32_t& __cordl_internal_get__lastCalculatedOnFrame();
+constexpr int32_t& __cordl_internal_get__lastCalculatedOnFrame() ;
 
-  constexpr bool const& __cordl_internal_get__lightmapDictInitialized() const;
+constexpr bool const& __cordl_internal_get__lightmapDictInitialized() const;
 
-  constexpr bool& __cordl_internal_get__lightmapDictInitialized();
+constexpr bool& __cordl_internal_get__lightmapDictInitialized() ;
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::LightConstants_BakeId, ::UnityW<::GlobalNamespace::LightmapLightWithIds>>* const&
-  __cordl_internal_get__lightmapLightDict() const;
+constexpr ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::LightConstants_BakeId,::UnityW<::GlobalNamespace::LightmapLightWithIds>>* const& __cordl_internal_get__lightmapLightDict() const;
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::LightConstants_BakeId, ::UnityW<::GlobalNamespace::LightmapLightWithIds>>*& __cordl_internal_get__lightmapLightDict();
+constexpr ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::LightConstants_BakeId,::UnityW<::GlobalNamespace::LightmapLightWithIds>>*& __cordl_internal_get__lightmapLightDict() ;
 
-  constexpr float_t const& __cordl_internal_get__maxTotalIntensity() const;
+constexpr float_t const& __cordl_internal_get__maxTotalIntensity() const;
 
-  constexpr float_t& __cordl_internal_get__maxTotalIntensity();
+constexpr float_t& __cordl_internal_get__maxTotalIntensity() ;
 
-  constexpr bool const& __cordl_internal_get__newUpdates() const;
+constexpr bool const& __cordl_internal_get__newUpdates() const;
 
-  constexpr bool& __cordl_internal_get__newUpdates();
+constexpr bool& __cordl_internal_get__newUpdates() ;
 
-  constexpr void __cordl_internal_set__grayscaleCalculatedOnce(bool value);
+constexpr void __cordl_internal_set__grayscaleCalculatedOnce(bool  value) ;
 
-  constexpr void __cordl_internal_set__grayscaleTotal(float_t value);
+constexpr void __cordl_internal_set__grayscaleTotal(float_t  value) ;
 
-  constexpr void __cordl_internal_set__lastCalculatedOnFrame(int32_t value);
+constexpr void __cordl_internal_set__lastCalculatedOnFrame(int32_t  value) ;
 
-  constexpr void __cordl_internal_set__lightmapDictInitialized(bool value);
+constexpr void __cordl_internal_set__lightmapDictInitialized(bool  value) ;
 
-  constexpr void
-  __cordl_internal_set__lightmapLightDict(::System::Collections::Generic::Dictionary_2<::GlobalNamespace::LightConstants_BakeId, ::UnityW<::GlobalNamespace::LightmapLightWithIds>>* value);
+constexpr void __cordl_internal_set__lightmapLightDict(::System::Collections::Generic::Dictionary_2<::GlobalNamespace::LightConstants_BakeId,::UnityW<::GlobalNamespace::LightmapLightWithIds>>*  value) ;
 
-  constexpr void __cordl_internal_set__maxTotalIntensity(float_t value);
+constexpr void __cordl_internal_set__maxTotalIntensity(float_t  value) ;
 
-  constexpr void __cordl_internal_set__newUpdates(bool value);
+constexpr void __cordl_internal_set__newUpdates(bool  value) ;
 
-  /// @brief Method .ctor, addr 0x572691c, size 0xac, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5728184, size 0xac, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_lightmapLightDict, addr 0x5726510, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::LightConstants_BakeId, ::UnityW<::GlobalNamespace::LightmapLightWithIds>>* get_lightmapLightDict();
+/// @brief Method get_lightmapLightDict, addr 0x5727d78, size 0x8, virtual false, abstract: false, final false
+inline ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::LightConstants_BakeId,::UnityW<::GlobalNamespace::LightmapLightWithIds>>* get_lightmapLightDict() ;
 
-  /// @brief Method get_maxTotalIntensity, addr 0x5726518, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_maxTotalIntensity();
+/// @brief Method get_maxTotalIntensity, addr 0x5727d80, size 0x8, virtual false, abstract: false, final false
+inline float_t get_maxTotalIntensity() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BakedLightsNormalizer();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr BakedLightsNormalizer() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BakedLightsNormalizer", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  BakedLightsNormalizer(BakedLightsNormalizer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BakedLightsNormalizer", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  BakedLightsNormalizer(BakedLightsNormalizer const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "BakedLightsNormalizer", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+BakedLightsNormalizer(BakedLightsNormalizer && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19715 };
+// Ctor Parameters [CppParam { name: "", ty: "BakedLightsNormalizer", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+BakedLightsNormalizer(BakedLightsNormalizer const& ) = delete;
 
-  /// @brief Field kMaxFramesWithoutUpdate offset 0xffffffff size 0x4
-  static constexpr int32_t kMaxFramesWithoutUpdate{ static_cast<int32_t>(0x5) };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19718};
 
-  /// @brief Field _maxTotalIntensity, offset: 0x20, size: 0x4, def value: None
-  float_t ____maxTotalIntensity;
+/// @brief Field kMaxFramesWithoutUpdate offset 0xffffffff size 0x4
+static constexpr int32_t  kMaxFramesWithoutUpdate{static_cast<int32_t>(0x5)};
 
-  /// @brief Field _lightmapLightDict, offset: 0x28, size: 0x8, def value: None
-  ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::LightConstants_BakeId, ::UnityW<::GlobalNamespace::LightmapLightWithIds>>* ____lightmapLightDict;
+/// @brief Field _maxTotalIntensity, offset: 0x20, size: 0x4, def value: None
+ float_t  ____maxTotalIntensity;
 
-  /// @brief Field _lightmapDictInitialized, offset: 0x30, size: 0x1, def value: None
-  bool ____lightmapDictInitialized;
+/// @brief Field _lightmapLightDict, offset: 0x28, size: 0x8, def value: None
+ ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::LightConstants_BakeId,::UnityW<::GlobalNamespace::LightmapLightWithIds>>*  ____lightmapLightDict;
 
-  /// @brief Field _grayscaleTotal, offset: 0x34, size: 0x4, def value: None
-  float_t ____grayscaleTotal;
+/// @brief Field _lightmapDictInitialized, offset: 0x30, size: 0x1, def value: None
+ bool  ____lightmapDictInitialized;
 
-  /// @brief Field _lastCalculatedOnFrame, offset: 0x38, size: 0x4, def value: None
-  int32_t ____lastCalculatedOnFrame;
+/// @brief Field _grayscaleTotal, offset: 0x34, size: 0x4, def value: None
+ float_t  ____grayscaleTotal;
 
-  /// @brief Field _grayscaleCalculatedOnce, offset: 0x3c, size: 0x1, def value: None
-  bool ____grayscaleCalculatedOnce;
+/// @brief Field _lastCalculatedOnFrame, offset: 0x38, size: 0x4, def value: None
+ int32_t  ____lastCalculatedOnFrame;
 
-  /// @brief Field _newUpdates, offset: 0x3d, size: 0x1, def value: None
-  bool ____newUpdates;
+/// @brief Field _grayscaleCalculatedOnce, offset: 0x3c, size: 0x1, def value: None
+ bool  ____grayscaleCalculatedOnce;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _newUpdates, offset: 0x3d, size: 0x1, def value: None
+ bool  ____newUpdates;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::BakedLightsNormalizer, ____maxTotalIntensity) == 0x20, "Offset mismatch!");
@@ -184,6 +180,6 @@ static_assert(offsetof(::GlobalNamespace::BakedLightsNormalizer, ____newUpdates)
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BakedLightsNormalizer, 0x40>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BakedLightsNormalizer);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BakedLightsNormalizer*, "", "BakedLightsNormalizer");

@@ -23,90 +23,90 @@ namespace GlobalNamespace {
 // CS Name: OVRControllerDrivenHandPosesSample
 class CORDL_TYPE OVRControllerDrivenHandPosesSample : public ::UnityEngine::MonoBehaviour {
 public:
-  // Declarations
-  /// @brief Field buttonConforming, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_buttonConforming, put = __cordl_internal_set_buttonConforming)) ::UnityW<::UnityEngine::UI::Button> buttonConforming;
+// Declarations
+/// @brief Field buttonConforming, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get_buttonConforming, put=__cordl_internal_set_buttonConforming)) ::UnityW<::UnityEngine::UI::Button>  buttonConforming;
 
-  /// @brief Field buttonNatural, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_buttonNatural, put = __cordl_internal_set_buttonNatural)) ::UnityW<::UnityEngine::UI::Button> buttonNatural;
+/// @brief Field buttonNatural, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get_buttonNatural, put=__cordl_internal_set_buttonNatural)) ::UnityW<::UnityEngine::UI::Button>  buttonNatural;
 
-  /// @brief Field buttonOff, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_buttonOff, put = __cordl_internal_set_buttonOff)) ::UnityW<::UnityEngine::UI::Button> buttonOff;
+/// @brief Field buttonOff, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_buttonOff, put=__cordl_internal_set_buttonOff)) ::UnityW<::UnityEngine::UI::Button>  buttonOff;
 
-  /// @brief Field cameraRig, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_cameraRig, put = __cordl_internal_set_cameraRig)) ::UnityW<::GlobalNamespace::OVRCameraRig> cameraRig;
+/// @brief Field cameraRig, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get_cameraRig, put=__cordl_internal_set_cameraRig)) ::UnityW<::GlobalNamespace::OVRCameraRig>  cameraRig;
 
-  /// @brief Method Awake, addr 0x5ce2478, size 0xfc, virtual false, abstract: false, final false
-  inline void Awake();
+/// @brief Method Awake, addr 0x5ce3ff0, size 0xfc, virtual false, abstract: false, final false
+inline void Awake() ;
 
-  static inline ::GlobalNamespace::OVRControllerDrivenHandPosesSample* New_ctor();
+static inline ::GlobalNamespace::OVRControllerDrivenHandPosesSample* New_ctor() ;
 
-  /// @brief Method SetControllerDrivenHandPosesTypeToControllerConforming, addr 0x5ce2658, size 0xe8, virtual false, abstract: false, final false
-  inline void SetControllerDrivenHandPosesTypeToControllerConforming();
+/// @brief Method SetControllerDrivenHandPosesTypeToControllerConforming, addr 0x5ce41d0, size 0xe8, virtual false, abstract: false, final false
+inline void SetControllerDrivenHandPosesTypeToControllerConforming() ;
 
-  /// @brief Method SetControllerDrivenHandPosesTypeToNatural, addr 0x5ce2740, size 0xe8, virtual false, abstract: false, final false
-  inline void SetControllerDrivenHandPosesTypeToNatural();
+/// @brief Method SetControllerDrivenHandPosesTypeToNatural, addr 0x5ce42b8, size 0xe8, virtual false, abstract: false, final false
+inline void SetControllerDrivenHandPosesTypeToNatural() ;
 
-  /// @brief Method SetControllerDrivenHandPosesTypeToNone, addr 0x5ce2574, size 0xe4, virtual false, abstract: false, final false
-  inline void SetControllerDrivenHandPosesTypeToNone();
+/// @brief Method SetControllerDrivenHandPosesTypeToNone, addr 0x5ce40ec, size 0xe4, virtual false, abstract: false, final false
+inline void SetControllerDrivenHandPosesTypeToNone() ;
 
-  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get_buttonConforming() const;
+constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get_buttonConforming() const;
 
-  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get_buttonConforming();
+constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get_buttonConforming() ;
 
-  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get_buttonNatural() const;
+constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get_buttonNatural() const;
 
-  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get_buttonNatural();
+constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get_buttonNatural() ;
 
-  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get_buttonOff() const;
+constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get_buttonOff() const;
 
-  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get_buttonOff();
+constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get_buttonOff() ;
 
-  constexpr ::UnityW<::GlobalNamespace::OVRCameraRig> const& __cordl_internal_get_cameraRig() const;
+constexpr ::UnityW<::GlobalNamespace::OVRCameraRig> const& __cordl_internal_get_cameraRig() const;
 
-  constexpr ::UnityW<::GlobalNamespace::OVRCameraRig>& __cordl_internal_get_cameraRig();
+constexpr ::UnityW<::GlobalNamespace::OVRCameraRig>& __cordl_internal_get_cameraRig() ;
 
-  constexpr void __cordl_internal_set_buttonConforming(::UnityW<::UnityEngine::UI::Button> value);
+constexpr void __cordl_internal_set_buttonConforming(::UnityW<::UnityEngine::UI::Button>  value) ;
 
-  constexpr void __cordl_internal_set_buttonNatural(::UnityW<::UnityEngine::UI::Button> value);
+constexpr void __cordl_internal_set_buttonNatural(::UnityW<::UnityEngine::UI::Button>  value) ;
 
-  constexpr void __cordl_internal_set_buttonOff(::UnityW<::UnityEngine::UI::Button> value);
+constexpr void __cordl_internal_set_buttonOff(::UnityW<::UnityEngine::UI::Button>  value) ;
 
-  constexpr void __cordl_internal_set_cameraRig(::UnityW<::GlobalNamespace::OVRCameraRig> value);
+constexpr void __cordl_internal_set_cameraRig(::UnityW<::GlobalNamespace::OVRCameraRig>  value) ;
 
-  /// @brief Method .ctor, addr 0x5ce2828, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5ce43a0, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OVRControllerDrivenHandPosesSample();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr OVRControllerDrivenHandPosesSample() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRControllerDrivenHandPosesSample", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  OVRControllerDrivenHandPosesSample(OVRControllerDrivenHandPosesSample&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRControllerDrivenHandPosesSample", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  OVRControllerDrivenHandPosesSample(OVRControllerDrivenHandPosesSample const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "OVRControllerDrivenHandPosesSample", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+OVRControllerDrivenHandPosesSample(OVRControllerDrivenHandPosesSample && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7127 };
+// Ctor Parameters [CppParam { name: "", ty: "OVRControllerDrivenHandPosesSample", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+OVRControllerDrivenHandPosesSample(OVRControllerDrivenHandPosesSample const& ) = delete;
 
-  /// @brief Field buttonOff, offset: 0x20, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::UI::Button> ___buttonOff;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{7128};
 
-  /// @brief Field buttonConforming, offset: 0x28, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::UI::Button> ___buttonConforming;
+/// @brief Field buttonOff, offset: 0x20, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::UI::Button>  ___buttonOff;
 
-  /// @brief Field buttonNatural, offset: 0x30, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::UI::Button> ___buttonNatural;
+/// @brief Field buttonConforming, offset: 0x28, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::UI::Button>  ___buttonConforming;
 
-  /// @brief Field cameraRig, offset: 0x38, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::OVRCameraRig> ___cameraRig;
+/// @brief Field buttonNatural, offset: 0x30, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::UI::Button>  ___buttonNatural;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field cameraRig, offset: 0x38, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::OVRCameraRig>  ___cameraRig;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::OVRControllerDrivenHandPosesSample, ___buttonOff) == 0x20, "Offset mismatch!");
@@ -119,6 +119,6 @@ static_assert(offsetof(::GlobalNamespace::OVRControllerDrivenHandPosesSample, __
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRControllerDrivenHandPosesSample, 0x40>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::OVRControllerDrivenHandPosesSample);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRControllerDrivenHandPosesSample*, "", "OVRControllerDrivenHandPosesSample");

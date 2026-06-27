@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "UnityEngine/UIElements/UIR/Alloc.hpp"
 #include "UnityEngine/UIElements/UIR/Allocator2D.hpp"
@@ -82,5 +82,6 @@ module;
 #include "UnityEngine/UIElements/UIR/VectorImageRenderInfoPool.hpp"
 #include "UnityEngine/UIElements/UIR/VertexFlags.hpp"
 #ifdef __cpp_modules
-export module UIR;
-#endif
+                    export module UIR;
+                    #endif
+                

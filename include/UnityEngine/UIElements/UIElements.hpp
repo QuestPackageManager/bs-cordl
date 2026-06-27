@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "UnityEngine/UIElements/ATGTextEventHandler.hpp"
 #include "UnityEngine/UIElements/AbstractProgressBar.hpp"
@@ -617,5 +617,6 @@ module;
 #include "UnityEngine/UIElements/WorldSpaceDataStore.hpp"
 #include "UnityEngine/UIElements/Wrap.hpp"
 #ifdef __cpp_modules
-export module UIElements;
-#endif
+                    export module UIElements;
+                    #endif
+                

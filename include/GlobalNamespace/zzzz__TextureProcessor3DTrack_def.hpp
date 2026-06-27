@@ -27,37 +27,37 @@ namespace GlobalNamespace {
 // CS Name: TextureProcessor3DTrack
 class CORDL_TYPE TextureProcessor3DTrack : public ::UnityEngine::Timeline::TrackAsset {
 public:
-  // Declarations
-  /// @brief Method CreateTrackMixer, addr 0x57e6b08, size 0xac, virtual true, abstract: false, final false
-  inline ::UnityEngine::Playables::Playable CreateTrackMixer(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject* go, int32_t inputCount);
+// Declarations
+/// @brief Method CreateTrackMixer, addr 0x57e8370, size 0xac, virtual true, abstract: false, final false
+inline ::UnityEngine::Playables::Playable CreateTrackMixer(::UnityEngine::Playables::PlayableGraph  graph, ::UnityEngine::GameObject*  go, int32_t  inputCount) ;
 
-  static inline ::GlobalNamespace::TextureProcessor3DTrack* New_ctor();
+static inline ::GlobalNamespace::TextureProcessor3DTrack* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x57e6bb4, size 0x5c, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x57e841c, size 0x5c, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TextureProcessor3DTrack();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr TextureProcessor3DTrack() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TextureProcessor3DTrack", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  TextureProcessor3DTrack(TextureProcessor3DTrack&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TextureProcessor3DTrack", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  TextureProcessor3DTrack(TextureProcessor3DTrack const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "TextureProcessor3DTrack", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+TextureProcessor3DTrack(TextureProcessor3DTrack && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6794 };
+// Ctor Parameters [CppParam { name: "", ty: "TextureProcessor3DTrack", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+TextureProcessor3DTrack(TextureProcessor3DTrack const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6794};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::TextureProcessor3DTrack, 0xa0>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::TextureProcessor3DTrack);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::TextureProcessor3DTrack*, "", "TextureProcessor3DTrack");

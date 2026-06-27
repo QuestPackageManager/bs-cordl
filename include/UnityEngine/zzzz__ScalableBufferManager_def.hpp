@@ -18,38 +18,38 @@ namespace UnityEngine {
 // CS Name: UnityEngine.ScalableBufferManager
 class CORDL_TYPE ScalableBufferManager : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method ResizeBuffers, addr 0x692f07c, size 0x40, virtual false, abstract: false, final false
-  static inline void ResizeBuffers(float_t widthScale, float_t heightScale);
+// Declarations
+/// @brief Method ResizeBuffers, addr 0x6930bf4, size 0x40, virtual false, abstract: false, final false
+static inline void ResizeBuffers(float_t  widthScale, float_t  heightScale) ;
 
-  /// @brief Method get_heightScaleFactor, addr 0x692f054, size 0x28, virtual false, abstract: false, final false
-  static inline float_t get_heightScaleFactor();
+/// @brief Method get_heightScaleFactor, addr 0x6930bcc, size 0x28, virtual false, abstract: false, final false
+static inline float_t get_heightScaleFactor() ;
 
-  /// @brief Method get_widthScaleFactor, addr 0x692f02c, size 0x28, virtual false, abstract: false, final false
-  static inline float_t get_widthScaleFactor();
+/// @brief Method get_widthScaleFactor, addr 0x6930ba4, size 0x28, virtual false, abstract: false, final false
+static inline float_t get_widthScaleFactor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ScalableBufferManager();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ScalableBufferManager() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ScalableBufferManager", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ScalableBufferManager(ScalableBufferManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ScalableBufferManager", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ScalableBufferManager(ScalableBufferManager const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ScalableBufferManager", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ScalableBufferManager(ScalableBufferManager && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10129 };
+// Ctor Parameters [CppParam { name: "", ty: "ScalableBufferManager", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ScalableBufferManager(ScalableBufferManager const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10130};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ScalableBufferManager, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine
+} // namespace end def UnityEngine
 NEED_NO_BOX(::UnityEngine::ScalableBufferManager);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ScalableBufferManager*, "UnityEngine", "ScalableBufferManager");

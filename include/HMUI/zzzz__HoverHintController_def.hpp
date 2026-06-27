@@ -21,7 +21,8 @@ namespace HMUI {
 class HoverHint;
 }
 namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+template<typename T>
+class IEnumerator_1;
 }
 namespace System::Collections {
 class IEnumerator;
@@ -55,115 +56,115 @@ namespace HMUI {
 // CS Name: HMUI.HoverHintController/<HideHintAfterDelay>d__12
 class CORDL_TYPE HoverHintController__HideHintAfterDelay_d__12 : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current)) ::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
+// Declarations
+ __declspec(property(get=System_Collections_Generic_IEnumerator_System_Object__get_Current)) ::System::Object*  System_Collections_Generic_IEnumerator_System_Object__Current;
 
-  __declspec(property(get = System_Collections_IEnumerator_get_Current)) ::System::Object* System_Collections_IEnumerator_Current;
+ __declspec(property(get=System_Collections_IEnumerator_get_Current)) ::System::Object*  System_Collections_IEnumerator_Current;
 
-  /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
+/// @brief Field <>1__state, offset 0x10, size 0x4 
+ __declspec(property(get=__cordl_internal_get___1__state, put=__cordl_internal_set___1__state)) int32_t  __1__state;
 
-  /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current)) ::System::Object* __2__current;
+/// @brief Field <>2__current, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get___2__current, put=__cordl_internal_set___2__current)) ::System::Object*  __2__current;
 
-  /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::UnityW<::HMUI::HoverHintController> __4__this;
+/// @brief Field <>4__this, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get___4__this, put=__cordl_internal_set___4__this)) ::UnityW<::HMUI::HoverHintController>  __4__this;
 
-  /// @brief Field delay, offset 0x28, size 0x4
-  __declspec(property(get = __cordl_internal_get_delay, put = __cordl_internal_set_delay)) float_t delay;
+/// @brief Field delay, offset 0x28, size 0x4 
+ __declspec(property(get=__cordl_internal_get_delay, put=__cordl_internal_set_delay)) float_t  delay;
 
-  /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
-  constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+constexpr operator  ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
 
-  /// @brief Convert operator to "::System::Collections::IEnumerator"
-  constexpr operator ::System::Collections::IEnumerator*() noexcept;
+/// @brief Convert operator to "::System::Collections::IEnumerator"
+constexpr operator  ::System::Collections::IEnumerator*() noexcept;
 
-  /// @brief Convert operator to "::System::IDisposable"
-  constexpr operator ::System::IDisposable*() noexcept;
+/// @brief Convert operator to "::System::IDisposable"
+constexpr operator  ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x5733f84, size 0xc0, virtual true, abstract: false, final true
-  inline bool MoveNext();
+/// @brief Method MoveNext, addr 0x57357ec, size 0xc0, virtual true, abstract: false, final true
+inline bool MoveNext() ;
 
-  static inline ::HMUI::HoverHintController__HideHintAfterDelay_d__12* New_ctor(int32_t __1__state);
+static inline ::HMUI::HoverHintController__HideHintAfterDelay_d__12* New_ctor(int32_t  __1__state) ;
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5734044, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
+/// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x57358ac, size 0x8, virtual true, abstract: false, final true
+inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current() ;
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x573404c, size 0x38, virtual true, abstract: false, final true
-  inline void System_Collections_IEnumerator_Reset();
+/// @brief Method System.Collections.IEnumerator.Reset, addr 0x57358b4, size 0x38, virtual true, abstract: false, final true
+inline void System_Collections_IEnumerator_Reset() ;
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5734084, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Object* System_Collections_IEnumerator_get_Current();
+/// @brief Method System.Collections.IEnumerator.get_Current, addr 0x57358ec, size 0x8, virtual true, abstract: false, final true
+inline ::System::Object* System_Collections_IEnumerator_get_Current() ;
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x5733f80, size 0x4, virtual true, abstract: false, final true
-  inline void System_IDisposable_Dispose();
+/// @brief Method System.IDisposable.Dispose, addr 0x57357e8, size 0x4, virtual true, abstract: false, final true
+inline void System_IDisposable_Dispose() ;
 
-  constexpr int32_t const& __cordl_internal_get___1__state() const;
+constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr int32_t& __cordl_internal_get___1__state();
+constexpr int32_t& __cordl_internal_get___1__state() ;
 
-  constexpr ::System::Object* const& __cordl_internal_get___2__current() const;
+constexpr ::System::Object* const& __cordl_internal_get___2__current() const;
 
-  constexpr ::System::Object*& __cordl_internal_get___2__current();
+constexpr ::System::Object*& __cordl_internal_get___2__current() ;
 
-  constexpr ::UnityW<::HMUI::HoverHintController> const& __cordl_internal_get___4__this() const;
+constexpr ::UnityW<::HMUI::HoverHintController> const& __cordl_internal_get___4__this() const;
 
-  constexpr ::UnityW<::HMUI::HoverHintController>& __cordl_internal_get___4__this();
+constexpr ::UnityW<::HMUI::HoverHintController>& __cordl_internal_get___4__this() ;
 
-  constexpr float_t const& __cordl_internal_get_delay() const;
+constexpr float_t const& __cordl_internal_get_delay() const;
 
-  constexpr float_t& __cordl_internal_get_delay();
+constexpr float_t& __cordl_internal_get_delay() ;
 
-  constexpr void __cordl_internal_set___1__state(int32_t value);
+constexpr void __cordl_internal_set___1__state(int32_t  value) ;
 
-  constexpr void __cordl_internal_set___2__current(::System::Object* value);
+constexpr void __cordl_internal_set___2__current(::System::Object*  value) ;
 
-  constexpr void __cordl_internal_set___4__this(::UnityW<::HMUI::HoverHintController> value);
+constexpr void __cordl_internal_set___4__this(::UnityW<::HMUI::HoverHintController>  value) ;
 
-  constexpr void __cordl_internal_set_delay(float_t value);
+constexpr void __cordl_internal_set_delay(float_t  value) ;
 
-  /// @brief Method .ctor, addr 0x5733bb8, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(int32_t __1__state);
+/// @brief Method .ctor, addr 0x5735420, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(int32_t  __1__state) ;
 
-  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
-  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
+/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
 
-  /// @brief Convert to "::System::Collections::IEnumerator"
-  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+/// @brief Convert to "::System::Collections::IEnumerator"
+constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+/// @brief Convert to "::System::IDisposable"
+constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HoverHintController__HideHintAfterDelay_d__12();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr HoverHintController__HideHintAfterDelay_d__12() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HoverHintController__HideHintAfterDelay_d__12", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  HoverHintController__HideHintAfterDelay_d__12(HoverHintController__HideHintAfterDelay_d__12&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HoverHintController__HideHintAfterDelay_d__12", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  HoverHintController__HideHintAfterDelay_d__12(HoverHintController__HideHintAfterDelay_d__12 const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "HoverHintController__HideHintAfterDelay_d__12", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+HoverHintController__HideHintAfterDelay_d__12(HoverHintController__HideHintAfterDelay_d__12 && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19149 };
+// Ctor Parameters [CppParam { name: "", ty: "HoverHintController__HideHintAfterDelay_d__12", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+HoverHintController__HideHintAfterDelay_d__12(HoverHintController__HideHintAfterDelay_d__12 const& ) = delete;
 
-  /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
-  int32_t _____1__state;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19152};
 
-  /// @brief Field <>2__current, offset: 0x18, size: 0x8, def value: None
-  ::System::Object* _____2__current;
+/// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
+ int32_t  _____1__state;
 
-  /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::UnityW<::HMUI::HoverHintController> _____4__this;
+/// @brief Field <>2__current, offset: 0x18, size: 0x8, def value: None
+ ::System::Object*  _____2__current;
 
-  /// @brief Field delay, offset: 0x28, size: 0x4, def value: None
-  float_t ___delay;
+/// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
+ ::UnityW<::HMUI::HoverHintController>  _____4__this;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field delay, offset: 0x28, size: 0x4, def value: None
+ float_t  ___delay;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::HMUI::HoverHintController__HideHintAfterDelay_d__12, _____1__state) == 0x10, "Offset mismatch!");
@@ -176,134 +177,134 @@ static_assert(offsetof(::HMUI::HoverHintController__HideHintAfterDelay_d__12, __
 
 static_assert(::cordl_internals::size_check_v<::HMUI::HoverHintController__HideHintAfterDelay_d__12, 0x30>, "Size mismatch!");
 
-} // namespace HMUI
+} // namespace end def HMUI
 // Dependencies System.Object
 namespace HMUI {
 // Is value type: false
 // CS Name: HMUI.HoverHintController/<ShowHintAfterDelay>d__11
 class CORDL_TYPE HoverHintController__ShowHintAfterDelay_d__11 : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current)) ::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
+// Declarations
+ __declspec(property(get=System_Collections_Generic_IEnumerator_System_Object__get_Current)) ::System::Object*  System_Collections_Generic_IEnumerator_System_Object__Current;
 
-  __declspec(property(get = System_Collections_IEnumerator_get_Current)) ::System::Object* System_Collections_IEnumerator_Current;
+ __declspec(property(get=System_Collections_IEnumerator_get_Current)) ::System::Object*  System_Collections_IEnumerator_Current;
 
-  /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
+/// @brief Field <>1__state, offset 0x10, size 0x4 
+ __declspec(property(get=__cordl_internal_get___1__state, put=__cordl_internal_set___1__state)) int32_t  __1__state;
 
-  /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current)) ::System::Object* __2__current;
+/// @brief Field <>2__current, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get___2__current, put=__cordl_internal_set___2__current)) ::System::Object*  __2__current;
 
-  /// @brief Field <>4__this, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::UnityW<::HMUI::HoverHintController> __4__this;
+/// @brief Field <>4__this, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get___4__this, put=__cordl_internal_set___4__this)) ::UnityW<::HMUI::HoverHintController>  __4__this;
 
-  /// @brief Field delay, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get_delay, put = __cordl_internal_set_delay)) float_t delay;
+/// @brief Field delay, offset 0x20, size 0x4 
+ __declspec(property(get=__cordl_internal_get_delay, put=__cordl_internal_set_delay)) float_t  delay;
 
-  /// @brief Field hoverHint, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_hoverHint, put = __cordl_internal_set_hoverHint)) ::UnityW<::HMUI::HoverHint> hoverHint;
+/// @brief Field hoverHint, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get_hoverHint, put=__cordl_internal_set_hoverHint)) ::UnityW<::HMUI::HoverHint>  hoverHint;
 
-  /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
-  constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+constexpr operator  ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
 
-  /// @brief Convert operator to "::System::Collections::IEnumerator"
-  constexpr operator ::System::Collections::IEnumerator*() noexcept;
+/// @brief Convert operator to "::System::Collections::IEnumerator"
+constexpr operator  ::System::Collections::IEnumerator*() noexcept;
 
-  /// @brief Convert operator to "::System::IDisposable"
-  constexpr operator ::System::IDisposable*() noexcept;
+/// @brief Convert operator to "::System::IDisposable"
+constexpr operator  ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x5734090, size 0xf0, virtual true, abstract: false, final true
-  inline bool MoveNext();
+/// @brief Method MoveNext, addr 0x57358f8, size 0xf0, virtual true, abstract: false, final true
+inline bool MoveNext() ;
 
-  static inline ::HMUI::HoverHintController__ShowHintAfterDelay_d__11* New_ctor(int32_t __1__state);
+static inline ::HMUI::HoverHintController__ShowHintAfterDelay_d__11* New_ctor(int32_t  __1__state) ;
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5734180, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
+/// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x57359e8, size 0x8, virtual true, abstract: false, final true
+inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current() ;
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5734188, size 0x38, virtual true, abstract: false, final true
-  inline void System_Collections_IEnumerator_Reset();
+/// @brief Method System.Collections.IEnumerator.Reset, addr 0x57359f0, size 0x38, virtual true, abstract: false, final true
+inline void System_Collections_IEnumerator_Reset() ;
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x57341c0, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Object* System_Collections_IEnumerator_get_Current();
+/// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5735a28, size 0x8, virtual true, abstract: false, final true
+inline ::System::Object* System_Collections_IEnumerator_get_Current() ;
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x573408c, size 0x4, virtual true, abstract: false, final true
-  inline void System_IDisposable_Dispose();
+/// @brief Method System.IDisposable.Dispose, addr 0x57358f4, size 0x4, virtual true, abstract: false, final true
+inline void System_IDisposable_Dispose() ;
 
-  constexpr int32_t const& __cordl_internal_get___1__state() const;
+constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr int32_t& __cordl_internal_get___1__state();
+constexpr int32_t& __cordl_internal_get___1__state() ;
 
-  constexpr ::System::Object* const& __cordl_internal_get___2__current() const;
+constexpr ::System::Object* const& __cordl_internal_get___2__current() const;
 
-  constexpr ::System::Object*& __cordl_internal_get___2__current();
+constexpr ::System::Object*& __cordl_internal_get___2__current() ;
 
-  constexpr ::UnityW<::HMUI::HoverHintController> const& __cordl_internal_get___4__this() const;
+constexpr ::UnityW<::HMUI::HoverHintController> const& __cordl_internal_get___4__this() const;
 
-  constexpr ::UnityW<::HMUI::HoverHintController>& __cordl_internal_get___4__this();
+constexpr ::UnityW<::HMUI::HoverHintController>& __cordl_internal_get___4__this() ;
 
-  constexpr float_t const& __cordl_internal_get_delay() const;
+constexpr float_t const& __cordl_internal_get_delay() const;
 
-  constexpr float_t& __cordl_internal_get_delay();
+constexpr float_t& __cordl_internal_get_delay() ;
 
-  constexpr ::UnityW<::HMUI::HoverHint> const& __cordl_internal_get_hoverHint() const;
+constexpr ::UnityW<::HMUI::HoverHint> const& __cordl_internal_get_hoverHint() const;
 
-  constexpr ::UnityW<::HMUI::HoverHint>& __cordl_internal_get_hoverHint();
+constexpr ::UnityW<::HMUI::HoverHint>& __cordl_internal_get_hoverHint() ;
 
-  constexpr void __cordl_internal_set___1__state(int32_t value);
+constexpr void __cordl_internal_set___1__state(int32_t  value) ;
 
-  constexpr void __cordl_internal_set___2__current(::System::Object* value);
+constexpr void __cordl_internal_set___2__current(::System::Object*  value) ;
 
-  constexpr void __cordl_internal_set___4__this(::UnityW<::HMUI::HoverHintController> value);
+constexpr void __cordl_internal_set___4__this(::UnityW<::HMUI::HoverHintController>  value) ;
 
-  constexpr void __cordl_internal_set_delay(float_t value);
+constexpr void __cordl_internal_set_delay(float_t  value) ;
 
-  constexpr void __cordl_internal_set_hoverHint(::UnityW<::HMUI::HoverHint> value);
+constexpr void __cordl_internal_set_hoverHint(::UnityW<::HMUI::HoverHint>  value) ;
 
-  /// @brief Method .ctor, addr 0x5733bb0, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(int32_t __1__state);
+/// @brief Method .ctor, addr 0x5735418, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(int32_t  __1__state) ;
 
-  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
-  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
+/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
 
-  /// @brief Convert to "::System::Collections::IEnumerator"
-  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+/// @brief Convert to "::System::Collections::IEnumerator"
+constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+/// @brief Convert to "::System::IDisposable"
+constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HoverHintController__ShowHintAfterDelay_d__11();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr HoverHintController__ShowHintAfterDelay_d__11() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HoverHintController__ShowHintAfterDelay_d__11", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  HoverHintController__ShowHintAfterDelay_d__11(HoverHintController__ShowHintAfterDelay_d__11&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HoverHintController__ShowHintAfterDelay_d__11", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  HoverHintController__ShowHintAfterDelay_d__11(HoverHintController__ShowHintAfterDelay_d__11 const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "HoverHintController__ShowHintAfterDelay_d__11", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+HoverHintController__ShowHintAfterDelay_d__11(HoverHintController__ShowHintAfterDelay_d__11 && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19150 };
+// Ctor Parameters [CppParam { name: "", ty: "HoverHintController__ShowHintAfterDelay_d__11", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+HoverHintController__ShowHintAfterDelay_d__11(HoverHintController__ShowHintAfterDelay_d__11 const& ) = delete;
 
-  /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
-  int32_t _____1__state;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19153};
 
-  /// @brief Field <>2__current, offset: 0x18, size: 0x8, def value: None
-  ::System::Object* _____2__current;
+/// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
+ int32_t  _____1__state;
 
-  /// @brief Field delay, offset: 0x20, size: 0x4, def value: None
-  float_t ___delay;
+/// @brief Field <>2__current, offset: 0x18, size: 0x8, def value: None
+ ::System::Object*  _____2__current;
 
-  /// @brief Field hoverHint, offset: 0x28, size: 0x8, def value: None
-  ::UnityW<::HMUI::HoverHint> ___hoverHint;
+/// @brief Field delay, offset: 0x20, size: 0x4, def value: None
+ float_t  ___delay;
 
-  /// @brief Field <>4__this, offset: 0x30, size: 0x8, def value: None
-  ::UnityW<::HMUI::HoverHintController> _____4__this;
+/// @brief Field hoverHint, offset: 0x28, size: 0x8, def value: None
+ ::UnityW<::HMUI::HoverHint>  ___hoverHint;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field <>4__this, offset: 0x30, size: 0x8, def value: None
+ ::UnityW<::HMUI::HoverHintController>  _____4__this;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::HMUI::HoverHintController__ShowHintAfterDelay_d__11, _____1__state) == 0x10, "Offset mismatch!");
@@ -318,113 +319,113 @@ static_assert(offsetof(::HMUI::HoverHintController__ShowHintAfterDelay_d__11, __
 
 static_assert(::cordl_internals::size_check_v<::HMUI::HoverHintController__ShowHintAfterDelay_d__11, 0x38>, "Size mismatch!");
 
-} // namespace HMUI
+} // namespace end def HMUI
 // Dependencies UnityEngine.MonoBehaviour
 namespace HMUI {
 // Is value type: false
 // CS Name: HMUI.HoverHintController
 class CORDL_TYPE HoverHintController : public ::UnityEngine::MonoBehaviour {
 public:
-  // Declarations
-  using _HideHintAfterDelay_d__12 = ::HMUI::HoverHintController__HideHintAfterDelay_d__12;
+// Declarations
+using _HideHintAfterDelay_d__12 = ::HMUI::HoverHintController__HideHintAfterDelay_d__12;
 
-  using _ShowHintAfterDelay_d__11 = ::HMUI::HoverHintController__ShowHintAfterDelay_d__11;
+using _ShowHintAfterDelay_d__11 = ::HMUI::HoverHintController__ShowHintAfterDelay_d__11;
 
-  /// @brief Field _hoverHintPanel, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__hoverHintPanel, put = __cordl_internal_set__hoverHintPanel)) ::UnityW<::HMUI::HoverHintPanel> _hoverHintPanel;
+/// @brief Field _hoverHintPanel, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get__hoverHintPanel, put=__cordl_internal_set__hoverHintPanel)) ::UnityW<::HMUI::HoverHintPanel>  _hoverHintPanel;
 
-  /// @brief Field _hoverHintPanelPrefab, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__hoverHintPanelPrefab, put = __cordl_internal_set__hoverHintPanelPrefab)) ::UnityW<::HMUI::HoverHintPanel> _hoverHintPanelPrefab;
+/// @brief Field _hoverHintPanelPrefab, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get__hoverHintPanelPrefab, put=__cordl_internal_set__hoverHintPanelPrefab)) ::UnityW<::HMUI::HoverHintPanel>  _hoverHintPanelPrefab;
 
-  /// @brief Field _isHiding, offset 0x28, size 0x1
-  __declspec(property(get = __cordl_internal_get__isHiding, put = __cordl_internal_set__isHiding)) bool _isHiding;
+/// @brief Field _isHiding, offset 0x28, size 0x1 
+ __declspec(property(get=__cordl_internal_get__isHiding, put=__cordl_internal_set__isHiding)) bool  _isHiding;
 
-  /// @brief Method Awake, addr 0x5733874, size 0xa0, virtual false, abstract: false, final false
-  inline void Awake();
+/// @brief Method Awake, addr 0x57350dc, size 0xa0, virtual false, abstract: false, final false
+inline void Awake() ;
 
-  /// @brief Method GetScreenTransformForHoverHint, addr 0x5733bc0, size 0x15c, virtual false, abstract: false, final false
-  static inline ::UnityW<::UnityEngine::Transform> GetScreenTransformForHoverHint(::HMUI::HoverHint* hoverHint);
+/// @brief Method GetScreenTransformForHoverHint, addr 0x5735428, size 0x15c, virtual false, abstract: false, final false
+static inline ::UnityW<::UnityEngine::Transform> GetScreenTransformForHoverHint(::HMUI::HoverHint*  hoverHint) ;
 
-  /// @brief Method HideHint, addr 0x5733754, size 0x40, virtual false, abstract: false, final false
-  inline void HideHint(::HMUI::HoverHint* hoverHint);
+/// @brief Method HideHint, addr 0x5734fbc, size 0x40, virtual false, abstract: false, final false
+inline void HideHint(::HMUI::HoverHint*  hoverHint) ;
 
-  /// @brief Method HideHintAfterDelay, addr 0x5733b4c, size 0x64, virtual false, abstract: false, final false
-  inline ::System::Collections::IEnumerator* HideHintAfterDelay(float_t delay);
+/// @brief Method HideHintAfterDelay, addr 0x57353b4, size 0x64, virtual false, abstract: false, final false
+inline ::System::Collections::IEnumerator* HideHintAfterDelay(float_t  delay) ;
 
-  /// @brief Method HideHintInstant, addr 0x5733720, size 0x34, virtual false, abstract: false, final false
-  inline void HideHintInstant(::HMUI::HoverHint* hoverHint);
+/// @brief Method HideHintInstant, addr 0x5734f88, size 0x34, virtual false, abstract: false, final false
+inline void HideHintInstant(::HMUI::HoverHint*  hoverHint) ;
 
-  static inline ::HMUI::HoverHintController* New_ctor();
+static inline ::HMUI::HoverHintController* New_ctor() ;
 
-  /// @brief Method OnApplicationFocus, addr 0x573393c, size 0x24, virtual false, abstract: false, final false
-  inline void OnApplicationFocus(bool hasFocus);
+/// @brief Method OnApplicationFocus, addr 0x57351a4, size 0x24, virtual false, abstract: false, final false
+inline void OnApplicationFocus(bool  hasFocus) ;
 
-  /// @brief Method SetupAndShowHintPanel, addr 0x57339cc, size 0x110, virtual false, abstract: false, final false
-  inline void SetupAndShowHintPanel(::HMUI::HoverHint* hoverHint);
+/// @brief Method SetupAndShowHintPanel, addr 0x5735234, size 0x110, virtual false, abstract: false, final false
+inline void SetupAndShowHintPanel(::HMUI::HoverHint*  hoverHint) ;
 
-  /// @brief Method ShowHint, addr 0x5733634, size 0x28, virtual false, abstract: false, final false
-  inline void ShowHint(::HMUI::HoverHint* hoverHint);
+/// @brief Method ShowHint, addr 0x5734e9c, size 0x28, virtual false, abstract: false, final false
+inline void ShowHint(::HMUI::HoverHint*  hoverHint) ;
 
-  /// @brief Method ShowHintAfterDelay, addr 0x5733adc, size 0x70, virtual false, abstract: false, final false
-  inline ::System::Collections::IEnumerator* ShowHintAfterDelay(::HMUI::HoverHint* hoverHint, float_t delay);
+/// @brief Method ShowHintAfterDelay, addr 0x5735344, size 0x70, virtual false, abstract: false, final false
+inline ::System::Collections::IEnumerator* ShowHintAfterDelay(::HMUI::HoverHint*  hoverHint, float_t  delay) ;
 
-  /// @brief Method ShowHintInternal, addr 0x5733960, size 0x6c, virtual false, abstract: false, final false
-  inline void ShowHintInternal(::HMUI::HoverHint* hoverHint);
+/// @brief Method ShowHintInternal, addr 0x57351c8, size 0x6c, virtual false, abstract: false, final false
+inline void ShowHintInternal(::HMUI::HoverHint*  hoverHint) ;
 
-  constexpr ::UnityW<::HMUI::HoverHintPanel> const& __cordl_internal_get__hoverHintPanel() const;
+constexpr ::UnityW<::HMUI::HoverHintPanel> const& __cordl_internal_get__hoverHintPanel() const;
 
-  constexpr ::UnityW<::HMUI::HoverHintPanel>& __cordl_internal_get__hoverHintPanel();
+constexpr ::UnityW<::HMUI::HoverHintPanel>& __cordl_internal_get__hoverHintPanel() ;
 
-  constexpr ::UnityW<::HMUI::HoverHintPanel> const& __cordl_internal_get__hoverHintPanelPrefab() const;
+constexpr ::UnityW<::HMUI::HoverHintPanel> const& __cordl_internal_get__hoverHintPanelPrefab() const;
 
-  constexpr ::UnityW<::HMUI::HoverHintPanel>& __cordl_internal_get__hoverHintPanelPrefab();
+constexpr ::UnityW<::HMUI::HoverHintPanel>& __cordl_internal_get__hoverHintPanelPrefab() ;
 
-  constexpr bool const& __cordl_internal_get__isHiding() const;
+constexpr bool const& __cordl_internal_get__isHiding() const;
 
-  constexpr bool& __cordl_internal_get__isHiding();
+constexpr bool& __cordl_internal_get__isHiding() ;
 
-  constexpr void __cordl_internal_set__hoverHintPanel(::UnityW<::HMUI::HoverHintPanel> value);
+constexpr void __cordl_internal_set__hoverHintPanel(::UnityW<::HMUI::HoverHintPanel>  value) ;
 
-  constexpr void __cordl_internal_set__hoverHintPanelPrefab(::UnityW<::HMUI::HoverHintPanel> value);
+constexpr void __cordl_internal_set__hoverHintPanelPrefab(::UnityW<::HMUI::HoverHintPanel>  value) ;
 
-  constexpr void __cordl_internal_set__isHiding(bool value);
+constexpr void __cordl_internal_set__isHiding(bool  value) ;
 
-  /// @brief Method .ctor, addr 0x5733f7c, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x57357e4, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HoverHintController();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr HoverHintController() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HoverHintController", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  HoverHintController(HoverHintController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HoverHintController", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  HoverHintController(HoverHintController const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "HoverHintController", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+HoverHintController(HoverHintController && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19151 };
+// Ctor Parameters [CppParam { name: "", ty: "HoverHintController", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+HoverHintController(HoverHintController const& ) = delete;
 
-  /// @brief Field kHideHintDelay offset 0xffffffff size 0x4
-  static constexpr float_t kHideHintDelay{ static_cast<float_t>(0.3f) };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19154};
 
-  /// @brief Field kShowHintDelay offset 0xffffffff size 0x4
-  static constexpr float_t kShowHintDelay{ static_cast<float_t>(0.6f) };
+/// @brief Field kHideHintDelay offset 0xffffffff size 0x4
+static constexpr float_t  kHideHintDelay{static_cast<float_t>(0.3f)};
 
-  /// @brief Field _hoverHintPanelPrefab, offset: 0x20, size: 0x8, def value: None
-  ::UnityW<::HMUI::HoverHintPanel> ____hoverHintPanelPrefab;
+/// @brief Field kShowHintDelay offset 0xffffffff size 0x4
+static constexpr float_t  kShowHintDelay{static_cast<float_t>(0.6f)};
 
-  /// @brief Field _isHiding, offset: 0x28, size: 0x1, def value: None
-  bool ____isHiding;
+/// @brief Field _hoverHintPanelPrefab, offset: 0x20, size: 0x8, def value: None
+ ::UnityW<::HMUI::HoverHintPanel>  ____hoverHintPanelPrefab;
 
-  /// @brief Field _hoverHintPanel, offset: 0x30, size: 0x8, def value: None
-  ::UnityW<::HMUI::HoverHintPanel> ____hoverHintPanel;
+/// @brief Field _isHiding, offset: 0x28, size: 0x1, def value: None
+ bool  ____isHiding;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _hoverHintPanel, offset: 0x30, size: 0x8, def value: None
+ ::UnityW<::HMUI::HoverHintPanel>  ____hoverHintPanel;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::HMUI::HoverHintController, ____hoverHintPanelPrefab) == 0x20, "Offset mismatch!");
@@ -435,7 +436,7 @@ static_assert(offsetof(::HMUI::HoverHintController, ____hoverHintPanel) == 0x30,
 
 static_assert(::cordl_internals::size_check_v<::HMUI::HoverHintController, 0x38>, "Size mismatch!");
 
-} // namespace HMUI
+} // namespace end def HMUI
 NEED_NO_BOX(::HMUI::HoverHintController);
 DEFINE_IL2CPP_ARG_TYPE(::HMUI::HoverHintController*, "HMUI", "HoverHintController");
 NEED_NO_BOX(::HMUI::HoverHintController__HideHintAfterDelay_d__12);

@@ -29,60 +29,60 @@ namespace System::Runtime::Remoting::Activation {
 // CS Name: System.Runtime.Remoting.Activation.RemoteActivationAttribute
 class CORDL_TYPE RemoteActivationAttribute : public ::System::Attribute {
 public:
-  // Declarations
-  /// @brief Field _contextProperties, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__contextProperties, put = __cordl_internal_set__contextProperties)) ::System::Collections::IList* _contextProperties;
+// Declarations
+/// @brief Field _contextProperties, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get__contextProperties, put=__cordl_internal_set__contextProperties)) ::System::Collections::IList*  _contextProperties;
 
-  /// @brief Convert operator to "::System::Runtime::Remoting::Contexts::IContextAttribute"
-  constexpr operator ::System::Runtime::Remoting::Contexts::IContextAttribute*() noexcept;
+/// @brief Convert operator to "::System::Runtime::Remoting::Contexts::IContextAttribute"
+constexpr operator  ::System::Runtime::Remoting::Contexts::IContextAttribute*() noexcept;
 
-  /// @brief Method GetPropertiesForNewContext, addr 0x59ffeb8, size 0x3c8, virtual true, abstract: false, final true
-  inline void GetPropertiesForNewContext(::System::Runtime::Remoting::Activation::IConstructionCallMessage* ctor);
+/// @brief Method GetPropertiesForNewContext, addr 0x5a01a30, size 0x3c8, virtual true, abstract: false, final true
+inline void GetPropertiesForNewContext(::System::Runtime::Remoting::Activation::IConstructionCallMessage*  ctor) ;
 
-  /// @brief Method IsContextOK, addr 0x59ffeb0, size 0x8, virtual true, abstract: false, final true
-  inline bool IsContextOK(::System::Runtime::Remoting::Contexts::Context* ctx, ::System::Runtime::Remoting::Activation::IConstructionCallMessage* ctor);
+/// @brief Method IsContextOK, addr 0x5a01a28, size 0x8, virtual true, abstract: false, final true
+inline bool IsContextOK(::System::Runtime::Remoting::Contexts::Context*  ctx, ::System::Runtime::Remoting::Activation::IConstructionCallMessage*  ctor) ;
 
-  static inline ::System::Runtime::Remoting::Activation::RemoteActivationAttribute* New_ctor(::System::Collections::IList* contextProperties);
+static inline ::System::Runtime::Remoting::Activation::RemoteActivationAttribute* New_ctor(::System::Collections::IList*  contextProperties) ;
 
-  constexpr ::System::Collections::IList* const& __cordl_internal_get__contextProperties() const;
+constexpr ::System::Collections::IList* const& __cordl_internal_get__contextProperties() const;
 
-  constexpr ::System::Collections::IList*& __cordl_internal_get__contextProperties();
+constexpr ::System::Collections::IList*& __cordl_internal_get__contextProperties() ;
 
-  constexpr void __cordl_internal_set__contextProperties(::System::Collections::IList* value);
+constexpr void __cordl_internal_set__contextProperties(::System::Collections::IList*  value) ;
 
-  /// @brief Method .ctor, addr 0x59ffea8, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::System::Collections::IList* contextProperties);
+/// @brief Method .ctor, addr 0x5a01a20, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(::System::Collections::IList*  contextProperties) ;
 
-  /// @brief Convert to "::System::Runtime::Remoting::Contexts::IContextAttribute"
-  constexpr ::System::Runtime::Remoting::Contexts::IContextAttribute* i___System__Runtime__Remoting__Contexts__IContextAttribute() noexcept;
+/// @brief Convert to "::System::Runtime::Remoting::Contexts::IContextAttribute"
+constexpr ::System::Runtime::Remoting::Contexts::IContextAttribute* i___System__Runtime__Remoting__Contexts__IContextAttribute() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RemoteActivationAttribute();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr RemoteActivationAttribute() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RemoteActivationAttribute", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  RemoteActivationAttribute(RemoteActivationAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RemoteActivationAttribute", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  RemoteActivationAttribute(RemoteActivationAttribute const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "RemoteActivationAttribute", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+RemoteActivationAttribute(RemoteActivationAttribute && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3152 };
+// Ctor Parameters [CppParam { name: "", ty: "RemoteActivationAttribute", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+RemoteActivationAttribute(RemoteActivationAttribute const& ) = delete;
 
-  /// @brief Field _contextProperties, offset: 0x10, size: 0x8, def value: None
-  ::System::Collections::IList* ____contextProperties;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{3152};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _contextProperties, offset: 0x10, size: 0x8, def value: None
+ ::System::Collections::IList*  ____contextProperties;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Runtime::Remoting::Activation::RemoteActivationAttribute, ____contextProperties) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Remoting::Activation::RemoteActivationAttribute, 0x18>, "Size mismatch!");
 
-} // namespace System::Runtime::Remoting::Activation
+} // namespace end def System::Runtime::Remoting::Activation
 NEED_NO_BOX(::System::Runtime::Remoting::Activation::RemoteActivationAttribute);
 DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::Activation::RemoteActivationAttribute*, "System.Runtime.Remoting.Activation", "RemoteActivationAttribute");

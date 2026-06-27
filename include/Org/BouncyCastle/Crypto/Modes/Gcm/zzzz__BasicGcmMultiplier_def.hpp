@@ -21,60 +21,60 @@ namespace Org::BouncyCastle::Crypto::Modes::Gcm {
 // CS Name: Org.BouncyCastle.Crypto.Modes.Gcm.BasicGcmMultiplier
 class CORDL_TYPE BasicGcmMultiplier : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field H, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_H, put = __cordl_internal_set_H)) ::ArrayW<uint32_t, ::Array<uint32_t>*> H;
+// Declarations
+/// @brief Field H, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_H, put=__cordl_internal_set_H)) ::ArrayW<uint32_t,::Array<uint32_t>*>  H;
 
-  /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Modes::Gcm::IGcmMultiplier"
-  constexpr operator ::Org::BouncyCastle::Crypto::Modes::Gcm::IGcmMultiplier*() noexcept;
+/// @brief Convert operator to "::Org::BouncyCastle::Crypto::Modes::Gcm::IGcmMultiplier"
+constexpr operator  ::Org::BouncyCastle::Crypto::Modes::Gcm::IGcmMultiplier*() noexcept;
 
-  /// @brief Method Init, addr 0x33312b4, size 0x6c, virtual true, abstract: false, final true
-  inline void Init(::ArrayW<uint8_t, ::Array<uint8_t>*> H);
+/// @brief Method Init, addr 0x3332050, size 0x6c, virtual true, abstract: false, final true
+inline void Init(::ArrayW<uint8_t,::Array<uint8_t>*>  H) ;
 
-  /// @brief Method MultiplyH, addr 0x3331320, size 0x84, virtual true, abstract: false, final true
-  inline void MultiplyH(::ArrayW<uint8_t, ::Array<uint8_t>*> x);
+/// @brief Method MultiplyH, addr 0x33320bc, size 0x84, virtual true, abstract: false, final true
+inline void MultiplyH(::ArrayW<uint8_t,::Array<uint8_t>*>  x) ;
 
-  static inline ::Org::BouncyCastle::Crypto::Modes::Gcm::BasicGcmMultiplier* New_ctor();
+static inline ::Org::BouncyCastle::Crypto::Modes::Gcm::BasicGcmMultiplier* New_ctor() ;
 
-  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __cordl_internal_get_H() const;
+constexpr ::ArrayW<uint32_t,::Array<uint32_t>*> const& __cordl_internal_get_H() const;
 
-  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& __cordl_internal_get_H();
+constexpr ::ArrayW<uint32_t,::Array<uint32_t>*>& __cordl_internal_get_H() ;
 
-  constexpr void __cordl_internal_set_H(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
+constexpr void __cordl_internal_set_H(::ArrayW<uint32_t,::Array<uint32_t>*>  value) ;
 
-  /// @brief Method .ctor, addr 0x33313a4, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x3332140, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Convert to "::Org::BouncyCastle::Crypto::Modes::Gcm::IGcmMultiplier"
-  constexpr ::Org::BouncyCastle::Crypto::Modes::Gcm::IGcmMultiplier* i___Org__BouncyCastle__Crypto__Modes__Gcm__IGcmMultiplier() noexcept;
+/// @brief Convert to "::Org::BouncyCastle::Crypto::Modes::Gcm::IGcmMultiplier"
+constexpr ::Org::BouncyCastle::Crypto::Modes::Gcm::IGcmMultiplier* i___Org__BouncyCastle__Crypto__Modes__Gcm__IGcmMultiplier() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BasicGcmMultiplier();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr BasicGcmMultiplier() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BasicGcmMultiplier", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  BasicGcmMultiplier(BasicGcmMultiplier&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BasicGcmMultiplier", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  BasicGcmMultiplier(BasicGcmMultiplier const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "BasicGcmMultiplier", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+BasicGcmMultiplier(BasicGcmMultiplier && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 952 };
+// Ctor Parameters [CppParam { name: "", ty: "BasicGcmMultiplier", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+BasicGcmMultiplier(BasicGcmMultiplier const& ) = delete;
 
-  /// @brief Field H, offset: 0x10, size: 0x8, def value: None
-  ::ArrayW<uint32_t, ::Array<uint32_t>*> ___H;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{952};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field H, offset: 0x10, size: 0x8, def value: None
+ ::ArrayW<uint32_t,::Array<uint32_t>*>  ___H;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Modes::Gcm::BasicGcmMultiplier, ___H) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Modes::Gcm::BasicGcmMultiplier, 0x18>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Crypto::Modes::Gcm
+} // namespace end def Org::BouncyCastle::Crypto::Modes::Gcm
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Modes::Gcm::BasicGcmMultiplier);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Modes::Gcm::BasicGcmMultiplier*, "Org.BouncyCastle.Crypto.Modes.Gcm", "BasicGcmMultiplier");

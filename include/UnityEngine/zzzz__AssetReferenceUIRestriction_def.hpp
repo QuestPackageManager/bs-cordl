@@ -21,40 +21,40 @@ namespace UnityEngine {
 // CS Name: UnityEngine.AssetReferenceUIRestriction
 class CORDL_TYPE AssetReferenceUIRestriction : public ::System::Attribute {
 public:
-  // Declarations
-  static inline ::UnityEngine::AssetReferenceUIRestriction* New_ctor();
+// Declarations
+static inline ::UnityEngine::AssetReferenceUIRestriction* New_ctor() ;
 
-  /// @brief Method ValidateAsset, addr 0x6306a90, size 0x8, virtual true, abstract: false, final false
-  inline bool ValidateAsset(::UnityEngine::Object* obj);
+/// @brief Method ValidateAsset, addr 0x6308608, size 0x8, virtual true, abstract: false, final false
+inline bool ValidateAsset(::UnityEngine::Object*  obj) ;
 
-  /// @brief Method ValidateAsset, addr 0x6306a98, size 0x8, virtual true, abstract: false, final false
-  inline bool ValidateAsset(::StringW path);
+/// @brief Method ValidateAsset, addr 0x6308610, size 0x8, virtual true, abstract: false, final false
+inline bool ValidateAsset(::StringW  path) ;
 
-  /// @brief Method .ctor, addr 0x6306aa0, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6308618, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AssetReferenceUIRestriction();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr AssetReferenceUIRestriction() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AssetReferenceUIRestriction", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  AssetReferenceUIRestriction(AssetReferenceUIRestriction&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AssetReferenceUIRestriction", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  AssetReferenceUIRestriction(AssetReferenceUIRestriction const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "AssetReferenceUIRestriction", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+AssetReferenceUIRestriction(AssetReferenceUIRestriction && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19507 };
+// Ctor Parameters [CppParam { name: "", ty: "AssetReferenceUIRestriction", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+AssetReferenceUIRestriction(AssetReferenceUIRestriction const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19510};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::AssetReferenceUIRestriction, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine
+} // namespace end def UnityEngine
 NEED_NO_BOX(::UnityEngine::AssetReferenceUIRestriction);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AssetReferenceUIRestriction*, "UnityEngine", "AssetReferenceUIRestriction");

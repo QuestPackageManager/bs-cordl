@@ -13,16 +13,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TextElement)
 namespace System {
-template <typename T> class Action_1;
+template<typename T>
+class Action_1;
 }
 namespace System {
 class Action;
 }
 namespace System {
-template <typename TResult> class Func_1;
+template<typename TResult>
+class Func_1;
 }
 namespace System {
-template <typename T, typename TResult> class Func_2;
+template<typename T,typename TResult>
+class Func_2;
 }
 namespace UnityEngine::TextCore::Text {
 struct RenderedText;
@@ -52,7 +55,8 @@ namespace UnityEngine::UIElements {
 class IExperimentalFeatures;
 }
 namespace UnityEngine::UIElements {
-template <typename T> class INotifyValueChanged_1;
+template<typename T>
+class INotifyValueChanged_1;
 }
 namespace UnityEngine::UIElements {
 class ITextEdition;
@@ -123,171 +127,166 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::TextElement_UxmlTraits);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.TextElement/UxmlFactory
-class CORDL_TYPE TextElement_UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::TextElement*, ::UnityEngine::UIElements::TextElement_UxmlTraits*> {
+class CORDL_TYPE TextElement_UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::TextElement*,::UnityEngine::UIElements::TextElement_UxmlTraits*> {
 public:
-  // Declarations
-  static inline ::UnityEngine::UIElements::TextElement_UxmlFactory* New_ctor();
+// Declarations
+static inline ::UnityEngine::UIElements::TextElement_UxmlFactory* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x6b591e4, size 0x68, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6b5ad5c, size 0x68, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TextElement_UxmlFactory();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr TextElement_UxmlFactory() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TextElement_UxmlFactory", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  TextElement_UxmlFactory(TextElement_UxmlFactory&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TextElement_UxmlFactory", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  TextElement_UxmlFactory(TextElement_UxmlFactory const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "TextElement_UxmlFactory", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+TextElement_UxmlFactory(TextElement_UxmlFactory && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5100 };
+// Ctor Parameters [CppParam { name: "", ty: "TextElement_UxmlFactory", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+TextElement_UxmlFactory(TextElement_UxmlFactory const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{5100};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::TextElement_UxmlFactory, 0x18>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements
+} // namespace end def UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.BindableElement::UxmlTraits
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.TextElement/UxmlTraits
 class CORDL_TYPE TextElement_UxmlTraits : public ::UnityEngine::UIElements::BindableElement_UxmlTraits {
 public:
-  // Declarations
-  /// @brief Field m_DisplayTooltipWhenElided, offset 0xc8, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_DisplayTooltipWhenElided,
-                      put = __cordl_internal_set_m_DisplayTooltipWhenElided)) ::UnityEngine::UIElements::UxmlBoolAttributeDescription* m_DisplayTooltipWhenElided;
+// Declarations
+/// @brief Field m_DisplayTooltipWhenElided, offset 0xc8, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_DisplayTooltipWhenElided, put=__cordl_internal_set_m_DisplayTooltipWhenElided)) ::UnityEngine::UIElements::UxmlBoolAttributeDescription*  m_DisplayTooltipWhenElided;
 
-  /// @brief Field m_EmojiFallbackSupport, offset 0xa0, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_EmojiFallbackSupport,
-                      put = __cordl_internal_set_m_EmojiFallbackSupport)) ::UnityEngine::UIElements::UxmlBoolAttributeDescription* m_EmojiFallbackSupport;
+/// @brief Field m_EmojiFallbackSupport, offset 0xa0, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_EmojiFallbackSupport, put=__cordl_internal_set_m_EmojiFallbackSupport)) ::UnityEngine::UIElements::UxmlBoolAttributeDescription*  m_EmojiFallbackSupport;
 
-  /// @brief Field m_EnableRichText, offset 0x98, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_EnableRichText, put = __cordl_internal_set_m_EnableRichText)) ::UnityEngine::UIElements::UxmlBoolAttributeDescription* m_EnableRichText;
+/// @brief Field m_EnableRichText, offset 0x98, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_EnableRichText, put=__cordl_internal_set_m_EnableRichText)) ::UnityEngine::UIElements::UxmlBoolAttributeDescription*  m_EnableRichText;
 
-  /// @brief Field m_ParseEscapeSequences, offset 0xa8, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_ParseEscapeSequences,
-                      put = __cordl_internal_set_m_ParseEscapeSequences)) ::UnityEngine::UIElements::UxmlBoolAttributeDescription* m_ParseEscapeSequences;
+/// @brief Field m_ParseEscapeSequences, offset 0xa8, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_ParseEscapeSequences, put=__cordl_internal_set_m_ParseEscapeSequences)) ::UnityEngine::UIElements::UxmlBoolAttributeDescription*  m_ParseEscapeSequences;
 
-  /// @brief Field m_SelectLineByTripleClick, offset 0xc0, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_SelectLineByTripleClick,
-                      put = __cordl_internal_set_m_SelectLineByTripleClick)) ::UnityEngine::UIElements::UxmlBoolAttributeDescription* m_SelectLineByTripleClick;
+/// @brief Field m_SelectLineByTripleClick, offset 0xc0, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_SelectLineByTripleClick, put=__cordl_internal_set_m_SelectLineByTripleClick)) ::UnityEngine::UIElements::UxmlBoolAttributeDescription*  m_SelectLineByTripleClick;
 
-  /// @brief Field m_SelectWordByDoubleClick, offset 0xb8, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_SelectWordByDoubleClick,
-                      put = __cordl_internal_set_m_SelectWordByDoubleClick)) ::UnityEngine::UIElements::UxmlBoolAttributeDescription* m_SelectWordByDoubleClick;
+/// @brief Field m_SelectWordByDoubleClick, offset 0xb8, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_SelectWordByDoubleClick, put=__cordl_internal_set_m_SelectWordByDoubleClick)) ::UnityEngine::UIElements::UxmlBoolAttributeDescription*  m_SelectWordByDoubleClick;
 
-  /// @brief Field m_Selectable, offset 0xb0, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Selectable, put = __cordl_internal_set_m_Selectable)) ::UnityEngine::UIElements::UxmlBoolAttributeDescription* m_Selectable;
+/// @brief Field m_Selectable, offset 0xb0, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_Selectable, put=__cordl_internal_set_m_Selectable)) ::UnityEngine::UIElements::UxmlBoolAttributeDescription*  m_Selectable;
 
-  /// @brief Field m_Text, offset 0x90, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Text, put = __cordl_internal_set_m_Text)) ::UnityEngine::UIElements::UxmlStringAttributeDescription* m_Text;
+/// @brief Field m_Text, offset 0x90, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_Text, put=__cordl_internal_set_m_Text)) ::UnityEngine::UIElements::UxmlStringAttributeDescription*  m_Text;
 
-  /// @brief Method Init, addr 0x6b5924c, size 0x3e0, virtual true, abstract: false, final false
-  inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
+/// @brief Method Init, addr 0x6b5adc4, size 0x3e0, virtual true, abstract: false, final false
+inline void Init(::UnityEngine::UIElements::VisualElement*  ve, ::UnityEngine::UIElements::IUxmlAttributes*  bag, ::UnityEngine::UIElements::CreationContext  cc) ;
 
-  static inline ::UnityEngine::UIElements::TextElement_UxmlTraits* New_ctor();
+static inline ::UnityEngine::UIElements::TextElement_UxmlTraits* New_ctor() ;
 
-  constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription* const& __cordl_internal_get_m_DisplayTooltipWhenElided() const;
+constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription* const& __cordl_internal_get_m_DisplayTooltipWhenElided() const;
 
-  constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription*& __cordl_internal_get_m_DisplayTooltipWhenElided();
+constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription*& __cordl_internal_get_m_DisplayTooltipWhenElided() ;
 
-  constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription* const& __cordl_internal_get_m_EmojiFallbackSupport() const;
+constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription* const& __cordl_internal_get_m_EmojiFallbackSupport() const;
 
-  constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription*& __cordl_internal_get_m_EmojiFallbackSupport();
+constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription*& __cordl_internal_get_m_EmojiFallbackSupport() ;
 
-  constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription* const& __cordl_internal_get_m_EnableRichText() const;
+constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription* const& __cordl_internal_get_m_EnableRichText() const;
 
-  constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription*& __cordl_internal_get_m_EnableRichText();
+constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription*& __cordl_internal_get_m_EnableRichText() ;
 
-  constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription* const& __cordl_internal_get_m_ParseEscapeSequences() const;
+constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription* const& __cordl_internal_get_m_ParseEscapeSequences() const;
 
-  constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription*& __cordl_internal_get_m_ParseEscapeSequences();
+constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription*& __cordl_internal_get_m_ParseEscapeSequences() ;
 
-  constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription* const& __cordl_internal_get_m_SelectLineByTripleClick() const;
+constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription* const& __cordl_internal_get_m_SelectLineByTripleClick() const;
 
-  constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription*& __cordl_internal_get_m_SelectLineByTripleClick();
+constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription*& __cordl_internal_get_m_SelectLineByTripleClick() ;
 
-  constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription* const& __cordl_internal_get_m_SelectWordByDoubleClick() const;
+constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription* const& __cordl_internal_get_m_SelectWordByDoubleClick() const;
 
-  constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription*& __cordl_internal_get_m_SelectWordByDoubleClick();
+constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription*& __cordl_internal_get_m_SelectWordByDoubleClick() ;
 
-  constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription* const& __cordl_internal_get_m_Selectable() const;
+constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription* const& __cordl_internal_get_m_Selectable() const;
 
-  constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription*& __cordl_internal_get_m_Selectable();
+constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription*& __cordl_internal_get_m_Selectable() ;
 
-  constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription* const& __cordl_internal_get_m_Text() const;
+constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription* const& __cordl_internal_get_m_Text() const;
 
-  constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription*& __cordl_internal_get_m_Text();
+constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription*& __cordl_internal_get_m_Text() ;
 
-  constexpr void __cordl_internal_set_m_DisplayTooltipWhenElided(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value);
+constexpr void __cordl_internal_set_m_DisplayTooltipWhenElided(::UnityEngine::UIElements::UxmlBoolAttributeDescription*  value) ;
 
-  constexpr void __cordl_internal_set_m_EmojiFallbackSupport(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value);
+constexpr void __cordl_internal_set_m_EmojiFallbackSupport(::UnityEngine::UIElements::UxmlBoolAttributeDescription*  value) ;
 
-  constexpr void __cordl_internal_set_m_EnableRichText(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value);
+constexpr void __cordl_internal_set_m_EnableRichText(::UnityEngine::UIElements::UxmlBoolAttributeDescription*  value) ;
 
-  constexpr void __cordl_internal_set_m_ParseEscapeSequences(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value);
+constexpr void __cordl_internal_set_m_ParseEscapeSequences(::UnityEngine::UIElements::UxmlBoolAttributeDescription*  value) ;
 
-  constexpr void __cordl_internal_set_m_SelectLineByTripleClick(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value);
+constexpr void __cordl_internal_set_m_SelectLineByTripleClick(::UnityEngine::UIElements::UxmlBoolAttributeDescription*  value) ;
 
-  constexpr void __cordl_internal_set_m_SelectWordByDoubleClick(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value);
+constexpr void __cordl_internal_set_m_SelectWordByDoubleClick(::UnityEngine::UIElements::UxmlBoolAttributeDescription*  value) ;
 
-  constexpr void __cordl_internal_set_m_Selectable(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value);
+constexpr void __cordl_internal_set_m_Selectable(::UnityEngine::UIElements::UxmlBoolAttributeDescription*  value) ;
 
-  constexpr void __cordl_internal_set_m_Text(::UnityEngine::UIElements::UxmlStringAttributeDescription* value);
+constexpr void __cordl_internal_set_m_Text(::UnityEngine::UIElements::UxmlStringAttributeDescription*  value) ;
 
-  /// @brief Method .ctor, addr 0x6b5962c, size 0x250, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6b5b1a4, size 0x250, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TextElement_UxmlTraits();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr TextElement_UxmlTraits() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TextElement_UxmlTraits", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  TextElement_UxmlTraits(TextElement_UxmlTraits&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TextElement_UxmlTraits", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  TextElement_UxmlTraits(TextElement_UxmlTraits const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "TextElement_UxmlTraits", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+TextElement_UxmlTraits(TextElement_UxmlTraits && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5101 };
+// Ctor Parameters [CppParam { name: "", ty: "TextElement_UxmlTraits", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+TextElement_UxmlTraits(TextElement_UxmlTraits const& ) = delete;
 
-  /// @brief Field m_Text, offset: 0x90, size: 0x8, def value: None
-  ::UnityEngine::UIElements::UxmlStringAttributeDescription* ___m_Text;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{5101};
 
-  /// @brief Field m_EnableRichText, offset: 0x98, size: 0x8, def value: None
-  ::UnityEngine::UIElements::UxmlBoolAttributeDescription* ___m_EnableRichText;
+/// @brief Field m_Text, offset: 0x90, size: 0x8, def value: None
+ ::UnityEngine::UIElements::UxmlStringAttributeDescription*  ___m_Text;
 
-  /// @brief Field m_EmojiFallbackSupport, offset: 0xa0, size: 0x8, def value: None
-  ::UnityEngine::UIElements::UxmlBoolAttributeDescription* ___m_EmojiFallbackSupport;
+/// @brief Field m_EnableRichText, offset: 0x98, size: 0x8, def value: None
+ ::UnityEngine::UIElements::UxmlBoolAttributeDescription*  ___m_EnableRichText;
 
-  /// @brief Field m_ParseEscapeSequences, offset: 0xa8, size: 0x8, def value: None
-  ::UnityEngine::UIElements::UxmlBoolAttributeDescription* ___m_ParseEscapeSequences;
+/// @brief Field m_EmojiFallbackSupport, offset: 0xa0, size: 0x8, def value: None
+ ::UnityEngine::UIElements::UxmlBoolAttributeDescription*  ___m_EmojiFallbackSupport;
 
-  /// @brief Field m_Selectable, offset: 0xb0, size: 0x8, def value: None
-  ::UnityEngine::UIElements::UxmlBoolAttributeDescription* ___m_Selectable;
+/// @brief Field m_ParseEscapeSequences, offset: 0xa8, size: 0x8, def value: None
+ ::UnityEngine::UIElements::UxmlBoolAttributeDescription*  ___m_ParseEscapeSequences;
 
-  /// @brief Field m_SelectWordByDoubleClick, offset: 0xb8, size: 0x8, def value: None
-  ::UnityEngine::UIElements::UxmlBoolAttributeDescription* ___m_SelectWordByDoubleClick;
+/// @brief Field m_Selectable, offset: 0xb0, size: 0x8, def value: None
+ ::UnityEngine::UIElements::UxmlBoolAttributeDescription*  ___m_Selectable;
 
-  /// @brief Field m_SelectLineByTripleClick, offset: 0xc0, size: 0x8, def value: None
-  ::UnityEngine::UIElements::UxmlBoolAttributeDescription* ___m_SelectLineByTripleClick;
+/// @brief Field m_SelectWordByDoubleClick, offset: 0xb8, size: 0x8, def value: None
+ ::UnityEngine::UIElements::UxmlBoolAttributeDescription*  ___m_SelectWordByDoubleClick;
 
-  /// @brief Field m_DisplayTooltipWhenElided, offset: 0xc8, size: 0x8, def value: None
-  ::UnityEngine::UIElements::UxmlBoolAttributeDescription* ___m_DisplayTooltipWhenElided;
+/// @brief Field m_SelectLineByTripleClick, offset: 0xc0, size: 0x8, def value: None
+ ::UnityEngine::UIElements::UxmlBoolAttributeDescription*  ___m_SelectLineByTripleClick;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field m_DisplayTooltipWhenElided, offset: 0xc8, size: 0x8, def value: None
+ ::UnityEngine::UIElements::UxmlBoolAttributeDescription*  ___m_DisplayTooltipWhenElided;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::UIElements::TextElement_UxmlTraits, ___m_Text) == 0x90, "Offset mismatch!");
@@ -308,1390 +307,1351 @@ static_assert(offsetof(::UnityEngine::UIElements::TextElement_UxmlTraits, ___m_D
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::TextElement_UxmlTraits, 0xd0>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements
+} // namespace end def UnityEngine::UIElements
 // Dependencies UnityEngine.Color, UnityEngine.TouchScreenKeyboardType, UnityEngine.UIElements.BindableElement, UnityEngine.UIElements.BindingId
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.TextElement
 class CORDL_TYPE TextElement : public ::UnityEngine::UIElements::BindableElement {
 public:
-  // Declarations
-  using UxmlFactory = ::UnityEngine::UIElements::TextElement_UxmlFactory;
+// Declarations
+using UxmlFactory = ::UnityEngine::UIElements::TextElement_UxmlFactory;
 
-  using UxmlTraits = ::UnityEngine::UIElements::TextElement_UxmlTraits;
+using UxmlTraits = ::UnityEngine::UIElements::TextElement_UxmlTraits;
 
-  __declspec(property(get = get_OnPlaceholderChanged, put = set_OnPlaceholderChanged)) ::System::Action* OnPlaceholderChanged;
+ __declspec(property(get=get_OnPlaceholderChanged, put=set_OnPlaceholderChanged)) ::System::Action*  OnPlaceholderChanged;
 
-  __declspec(property(get = UnityEngine_UIElements_INotifyValueChanged_System_String__get_value,
-                      put = UnityEngine_UIElements_INotifyValueChanged_System_String__set_value)) ::StringW UnityEngine_UIElements_INotifyValueChanged_System_String__value;
+ __declspec(property(get=UnityEngine_UIElements_INotifyValueChanged_System_String__get_value, put=UnityEngine_UIElements_INotifyValueChanged_System_String__set_value)) ::StringW  UnityEngine_UIElements_INotifyValueChanged_System_String__value;
 
-  __declspec(property(get = UnityEngine_UIElements_ITextEdition_get_AcceptCharacter,
-                      put = UnityEngine_UIElements_ITextEdition_set_AcceptCharacter)) ::System::Func_2<char16_t, bool>* UnityEngine_UIElements_ITextEdition_AcceptCharacter;
+ __declspec(property(get=UnityEngine_UIElements_ITextEdition_get_AcceptCharacter, put=UnityEngine_UIElements_ITextEdition_set_AcceptCharacter)) ::System::Func_2<char16_t,bool>*  UnityEngine_UIElements_ITextEdition_AcceptCharacter;
 
-  __declspec(property(get = UnityEngine_UIElements_ITextEdition_get_GetDefaultValueType,
-                      put = UnityEngine_UIElements_ITextEdition_set_GetDefaultValueType)) ::System::Func_1<::StringW>* UnityEngine_UIElements_ITextEdition_GetDefaultValueType;
+ __declspec(property(get=UnityEngine_UIElements_ITextEdition_get_GetDefaultValueType, put=UnityEngine_UIElements_ITextEdition_set_GetDefaultValueType)) ::System::Func_1<::StringW>*  UnityEngine_UIElements_ITextEdition_GetDefaultValueType;
 
-  __declspec(property(get = UnityEngine_UIElements_ITextEdition_get_MoveFocusToCompositeRoot,
-                      put = UnityEngine_UIElements_ITextEdition_set_MoveFocusToCompositeRoot)) ::System::Action* UnityEngine_UIElements_ITextEdition_MoveFocusToCompositeRoot;
+ __declspec(property(get=UnityEngine_UIElements_ITextEdition_get_MoveFocusToCompositeRoot, put=UnityEngine_UIElements_ITextEdition_set_MoveFocusToCompositeRoot)) ::System::Action*  UnityEngine_UIElements_ITextEdition_MoveFocusToCompositeRoot;
 
-  __declspec(property(get = UnityEngine_UIElements_ITextEdition_get_UpdateScrollOffset,
-                      put = UnityEngine_UIElements_ITextEdition_set_UpdateScrollOffset)) ::System::Action_1<bool>* UnityEngine_UIElements_ITextEdition_UpdateScrollOffset;
+ __declspec(property(get=UnityEngine_UIElements_ITextEdition_get_UpdateScrollOffset, put=UnityEngine_UIElements_ITextEdition_set_UpdateScrollOffset)) ::System::Action_1<bool>*  UnityEngine_UIElements_ITextEdition_UpdateScrollOffset;
 
-  __declspec(property(get = UnityEngine_UIElements_ITextEdition_get_UpdateTextFromValue,
-                      put = UnityEngine_UIElements_ITextEdition_set_UpdateTextFromValue)) ::System::Action* UnityEngine_UIElements_ITextEdition_UpdateTextFromValue;
+ __declspec(property(get=UnityEngine_UIElements_ITextEdition_get_UpdateTextFromValue, put=UnityEngine_UIElements_ITextEdition_set_UpdateTextFromValue)) ::System::Action*  UnityEngine_UIElements_ITextEdition_UpdateTextFromValue;
 
-  __declspec(property(get = UnityEngine_UIElements_ITextEdition_get_UpdateValueFromText,
-                      put = UnityEngine_UIElements_ITextEdition_set_UpdateValueFromText)) ::System::Action* UnityEngine_UIElements_ITextEdition_UpdateValueFromText;
+ __declspec(property(get=UnityEngine_UIElements_ITextEdition_get_UpdateValueFromText, put=UnityEngine_UIElements_ITextEdition_set_UpdateValueFromText)) ::System::Action*  UnityEngine_UIElements_ITextEdition_UpdateValueFromText;
 
-  __declspec(property(get = UnityEngine_UIElements_ITextEdition_get_autoCorrection,
-                      put = UnityEngine_UIElements_ITextEdition_set_autoCorrection)) bool UnityEngine_UIElements_ITextEdition_autoCorrection;
+ __declspec(property(get=UnityEngine_UIElements_ITextEdition_get_autoCorrection, put=UnityEngine_UIElements_ITextEdition_set_autoCorrection)) bool  UnityEngine_UIElements_ITextEdition_autoCorrection;
 
-  __declspec(property(get = UnityEngine_UIElements_ITextEdition_get_hideMobileInput,
-                      put = UnityEngine_UIElements_ITextEdition_set_hideMobileInput)) bool UnityEngine_UIElements_ITextEdition_hideMobileInput;
+ __declspec(property(get=UnityEngine_UIElements_ITextEdition_get_hideMobileInput, put=UnityEngine_UIElements_ITextEdition_set_hideMobileInput)) bool  UnityEngine_UIElements_ITextEdition_hideMobileInput;
 
-  __declspec(property(get = UnityEngine_UIElements_ITextEdition_get_hidePlaceholderOnFocus,
-                      put = UnityEngine_UIElements_ITextEdition_set_hidePlaceholderOnFocus)) bool UnityEngine_UIElements_ITextEdition_hidePlaceholderOnFocus;
+ __declspec(property(get=UnityEngine_UIElements_ITextEdition_get_hidePlaceholderOnFocus, put=UnityEngine_UIElements_ITextEdition_set_hidePlaceholderOnFocus)) bool  UnityEngine_UIElements_ITextEdition_hidePlaceholderOnFocus;
 
-  __declspec(property(get = UnityEngine_UIElements_ITextEdition_get_isDelayed, put = UnityEngine_UIElements_ITextEdition_set_isDelayed)) bool UnityEngine_UIElements_ITextEdition_isDelayed;
+ __declspec(property(get=UnityEngine_UIElements_ITextEdition_get_isDelayed, put=UnityEngine_UIElements_ITextEdition_set_isDelayed)) bool  UnityEngine_UIElements_ITextEdition_isDelayed;
 
-  __declspec(property(get = UnityEngine_UIElements_ITextEdition_get_isPassword, put = UnityEngine_UIElements_ITextEdition_set_isPassword)) bool UnityEngine_UIElements_ITextEdition_isPassword;
+ __declspec(property(get=UnityEngine_UIElements_ITextEdition_get_isPassword, put=UnityEngine_UIElements_ITextEdition_set_isPassword)) bool  UnityEngine_UIElements_ITextEdition_isPassword;
 
-  __declspec(property(get = UnityEngine_UIElements_ITextEdition_get_isReadOnly, put = UnityEngine_UIElements_ITextEdition_set_isReadOnly)) bool UnityEngine_UIElements_ITextEdition_isReadOnly;
+ __declspec(property(get=UnityEngine_UIElements_ITextEdition_get_isReadOnly, put=UnityEngine_UIElements_ITextEdition_set_isReadOnly)) bool  UnityEngine_UIElements_ITextEdition_isReadOnly;
 
-  __declspec(property(get = UnityEngine_UIElements_ITextEdition_get_keyboardType,
-                      put = UnityEngine_UIElements_ITextEdition_set_keyboardType)) ::UnityEngine::TouchScreenKeyboardType UnityEngine_UIElements_ITextEdition_keyboardType;
+ __declspec(property(get=UnityEngine_UIElements_ITextEdition_get_keyboardType, put=UnityEngine_UIElements_ITextEdition_set_keyboardType)) ::UnityEngine::TouchScreenKeyboardType  UnityEngine_UIElements_ITextEdition_keyboardType;
 
-  __declspec(property(get = UnityEngine_UIElements_ITextEdition_get_maskChar, put = UnityEngine_UIElements_ITextEdition_set_maskChar)) char16_t UnityEngine_UIElements_ITextEdition_maskChar;
+ __declspec(property(get=UnityEngine_UIElements_ITextEdition_get_maskChar, put=UnityEngine_UIElements_ITextEdition_set_maskChar)) char16_t  UnityEngine_UIElements_ITextEdition_maskChar;
 
-  __declspec(property(get = UnityEngine_UIElements_ITextEdition_get_maxLength, put = UnityEngine_UIElements_ITextEdition_set_maxLength)) int32_t UnityEngine_UIElements_ITextEdition_maxLength;
+ __declspec(property(get=UnityEngine_UIElements_ITextEdition_get_maxLength, put=UnityEngine_UIElements_ITextEdition_set_maxLength)) int32_t  UnityEngine_UIElements_ITextEdition_maxLength;
 
-  __declspec(property(get = UnityEngine_UIElements_ITextEdition_get_multiline, put = UnityEngine_UIElements_ITextEdition_set_multiline)) bool UnityEngine_UIElements_ITextEdition_multiline;
+ __declspec(property(get=UnityEngine_UIElements_ITextEdition_get_multiline, put=UnityEngine_UIElements_ITextEdition_set_multiline)) bool  UnityEngine_UIElements_ITextEdition_multiline;
 
-  __declspec(property(get = UnityEngine_UIElements_ITextEdition_get_placeholder, put = UnityEngine_UIElements_ITextEdition_set_placeholder)) ::StringW UnityEngine_UIElements_ITextEdition_placeholder;
+ __declspec(property(get=UnityEngine_UIElements_ITextEdition_get_placeholder, put=UnityEngine_UIElements_ITextEdition_set_placeholder)) ::StringW  UnityEngine_UIElements_ITextEdition_placeholder;
 
-  __declspec(property(get = UnityEngine_UIElements_ITextSelection_get_cursorColor,
-                      put = UnityEngine_UIElements_ITextSelection_set_cursorColor)) ::UnityEngine::Color UnityEngine_UIElements_ITextSelection_cursorColor;
+ __declspec(property(get=UnityEngine_UIElements_ITextSelection_get_cursorColor, put=UnityEngine_UIElements_ITextSelection_set_cursorColor)) ::UnityEngine::Color  UnityEngine_UIElements_ITextSelection_cursorColor;
 
-  __declspec(property(get = UnityEngine_UIElements_ITextSelection_get_cursorIndex,
-                      put = UnityEngine_UIElements_ITextSelection_set_cursorIndex)) int32_t UnityEngine_UIElements_ITextSelection_cursorIndex;
+ __declspec(property(get=UnityEngine_UIElements_ITextSelection_get_cursorIndex, put=UnityEngine_UIElements_ITextSelection_set_cursorIndex)) int32_t  UnityEngine_UIElements_ITextSelection_cursorIndex;
 
-  __declspec(property(get = UnityEngine_UIElements_ITextSelection_get_cursorPosition)) ::UnityEngine::Vector2 UnityEngine_UIElements_ITextSelection_cursorPosition;
+ __declspec(property(get=UnityEngine_UIElements_ITextSelection_get_cursorPosition)) ::UnityEngine::Vector2  UnityEngine_UIElements_ITextSelection_cursorPosition;
 
-  __declspec(property(get = UnityEngine_UIElements_ITextSelection_get_cursorWidth)) float_t UnityEngine_UIElements_ITextSelection_cursorWidth;
+ __declspec(property(get=UnityEngine_UIElements_ITextSelection_get_cursorWidth)) float_t  UnityEngine_UIElements_ITextSelection_cursorWidth;
 
-  __declspec(property(get = UnityEngine_UIElements_ITextSelection_get_doubleClickSelectsWord,
-                      put = UnityEngine_UIElements_ITextSelection_set_doubleClickSelectsWord)) bool UnityEngine_UIElements_ITextSelection_doubleClickSelectsWord;
+ __declspec(property(get=UnityEngine_UIElements_ITextSelection_get_doubleClickSelectsWord, put=UnityEngine_UIElements_ITextSelection_set_doubleClickSelectsWord)) bool  UnityEngine_UIElements_ITextSelection_doubleClickSelectsWord;
 
-  __declspec(property(get = UnityEngine_UIElements_ITextSelection_get_isSelectable,
-                      put = UnityEngine_UIElements_ITextSelection_set_isSelectable)) bool UnityEngine_UIElements_ITextSelection_isSelectable;
+ __declspec(property(get=UnityEngine_UIElements_ITextSelection_get_isSelectable, put=UnityEngine_UIElements_ITextSelection_set_isSelectable)) bool  UnityEngine_UIElements_ITextSelection_isSelectable;
 
-  __declspec(property(get = UnityEngine_UIElements_ITextSelection_get_lineHeightAtCursorPosition)) float_t UnityEngine_UIElements_ITextSelection_lineHeightAtCursorPosition;
+ __declspec(property(get=UnityEngine_UIElements_ITextSelection_get_lineHeightAtCursorPosition)) float_t  UnityEngine_UIElements_ITextSelection_lineHeightAtCursorPosition;
 
-  __declspec(property(get = UnityEngine_UIElements_ITextSelection_get_selectAllOnFocus,
-                      put = UnityEngine_UIElements_ITextSelection_set_selectAllOnFocus)) bool UnityEngine_UIElements_ITextSelection_selectAllOnFocus;
+ __declspec(property(get=UnityEngine_UIElements_ITextSelection_get_selectAllOnFocus, put=UnityEngine_UIElements_ITextSelection_set_selectAllOnFocus)) bool  UnityEngine_UIElements_ITextSelection_selectAllOnFocus;
 
-  __declspec(property(get = UnityEngine_UIElements_ITextSelection_get_selectAllOnMouseUp,
-                      put = UnityEngine_UIElements_ITextSelection_set_selectAllOnMouseUp)) bool UnityEngine_UIElements_ITextSelection_selectAllOnMouseUp;
+ __declspec(property(get=UnityEngine_UIElements_ITextSelection_get_selectAllOnMouseUp, put=UnityEngine_UIElements_ITextSelection_set_selectAllOnMouseUp)) bool  UnityEngine_UIElements_ITextSelection_selectAllOnMouseUp;
 
-  __declspec(property(get = UnityEngine_UIElements_ITextSelection_get_selectIndex,
-                      put = UnityEngine_UIElements_ITextSelection_set_selectIndex)) int32_t UnityEngine_UIElements_ITextSelection_selectIndex;
+ __declspec(property(get=UnityEngine_UIElements_ITextSelection_get_selectIndex, put=UnityEngine_UIElements_ITextSelection_set_selectIndex)) int32_t  UnityEngine_UIElements_ITextSelection_selectIndex;
 
-  __declspec(property(get = UnityEngine_UIElements_ITextSelection_get_selectionColor,
-                      put = UnityEngine_UIElements_ITextSelection_set_selectionColor)) ::UnityEngine::Color UnityEngine_UIElements_ITextSelection_selectionColor;
+ __declspec(property(get=UnityEngine_UIElements_ITextSelection_get_selectionColor, put=UnityEngine_UIElements_ITextSelection_set_selectionColor)) ::UnityEngine::Color  UnityEngine_UIElements_ITextSelection_selectionColor;
 
-  __declspec(property(get = UnityEngine_UIElements_ITextSelection_get_tripleClickSelectsLine,
-                      put = UnityEngine_UIElements_ITextSelection_set_tripleClickSelectsLine)) bool UnityEngine_UIElements_ITextSelection_tripleClickSelectsLine;
+ __declspec(property(get=UnityEngine_UIElements_ITextSelection_get_tripleClickSelectsLine, put=UnityEngine_UIElements_ITextSelection_set_tripleClickSelectsLine)) bool  UnityEngine_UIElements_ITextSelection_tripleClickSelectsLine;
 
-  /// @brief Field <OnPlaceholderChanged>k__BackingField, offset 0x548, size 0x8
-  __declspec(property(get = __cordl_internal_get__OnPlaceholderChanged_k__BackingField,
-                      put = __cordl_internal_set__OnPlaceholderChanged_k__BackingField)) ::System::Action* _OnPlaceholderChanged_k__BackingField;
+/// @brief Field <OnPlaceholderChanged>k__BackingField, offset 0x548, size 0x8 
+ __declspec(property(get=__cordl_internal_get__OnPlaceholderChanged_k__BackingField, put=__cordl_internal_set__OnPlaceholderChanged_k__BackingField)) ::System::Action*  _OnPlaceholderChanged_k__BackingField;
 
-  /// @brief Field <UnityEngine.UIElements.ITextEdition.AcceptCharacter>k__BackingField, offset 0x520, size 0x8
-  __declspec(property(get = __cordl_internal_get__UnityEngine_UIElements_ITextEdition_AcceptCharacter_k__BackingField,
-                      put = __cordl_internal_set__UnityEngine_UIElements_ITextEdition_AcceptCharacter_k__BackingField)) ::System::Func_2<char16_t, bool>*
-      _UnityEngine_UIElements_ITextEdition_AcceptCharacter_k__BackingField;
+/// @brief Field <UnityEngine.UIElements.ITextEdition.AcceptCharacter>k__BackingField, offset 0x520, size 0x8 
+ __declspec(property(get=__cordl_internal_get__UnityEngine_UIElements_ITextEdition_AcceptCharacter_k__BackingField, put=__cordl_internal_set__UnityEngine_UIElements_ITextEdition_AcceptCharacter_k__BackingField)) ::System::Func_2<char16_t,bool>*  _UnityEngine_UIElements_ITextEdition_AcceptCharacter_k__BackingField;
 
-  /// @brief Field <UnityEngine.UIElements.ITextEdition.GetDefaultValueType>k__BackingField, offset 0x550, size 0x8
-  __declspec(property(get = __cordl_internal_get__UnityEngine_UIElements_ITextEdition_GetDefaultValueType_k__BackingField,
-                      put = __cordl_internal_set__UnityEngine_UIElements_ITextEdition_GetDefaultValueType_k__BackingField)) ::System::Func_1<::StringW>*
-      _UnityEngine_UIElements_ITextEdition_GetDefaultValueType_k__BackingField;
+/// @brief Field <UnityEngine.UIElements.ITextEdition.GetDefaultValueType>k__BackingField, offset 0x550, size 0x8 
+ __declspec(property(get=__cordl_internal_get__UnityEngine_UIElements_ITextEdition_GetDefaultValueType_k__BackingField, put=__cordl_internal_set__UnityEngine_UIElements_ITextEdition_GetDefaultValueType_k__BackingField)) ::System::Func_1<::StringW>*  _UnityEngine_UIElements_ITextEdition_GetDefaultValueType_k__BackingField;
 
-  /// @brief Field <UnityEngine.UIElements.ITextEdition.MoveFocusToCompositeRoot>k__BackingField, offset 0x540, size 0x8
-  __declspec(property(get = __cordl_internal_get__UnityEngine_UIElements_ITextEdition_MoveFocusToCompositeRoot_k__BackingField,
-                      put = __cordl_internal_set__UnityEngine_UIElements_ITextEdition_MoveFocusToCompositeRoot_k__BackingField)) ::System::Action*
-      _UnityEngine_UIElements_ITextEdition_MoveFocusToCompositeRoot_k__BackingField;
+/// @brief Field <UnityEngine.UIElements.ITextEdition.MoveFocusToCompositeRoot>k__BackingField, offset 0x540, size 0x8 
+ __declspec(property(get=__cordl_internal_get__UnityEngine_UIElements_ITextEdition_MoveFocusToCompositeRoot_k__BackingField, put=__cordl_internal_set__UnityEngine_UIElements_ITextEdition_MoveFocusToCompositeRoot_k__BackingField)) ::System::Action*  _UnityEngine_UIElements_ITextEdition_MoveFocusToCompositeRoot_k__BackingField;
 
-  /// @brief Field <UnityEngine.UIElements.ITextEdition.UpdateScrollOffset>k__BackingField, offset 0x528, size 0x8
-  __declspec(property(get = __cordl_internal_get__UnityEngine_UIElements_ITextEdition_UpdateScrollOffset_k__BackingField,
-                      put = __cordl_internal_set__UnityEngine_UIElements_ITextEdition_UpdateScrollOffset_k__BackingField)) ::System::Action_1<bool>*
-      _UnityEngine_UIElements_ITextEdition_UpdateScrollOffset_k__BackingField;
+/// @brief Field <UnityEngine.UIElements.ITextEdition.UpdateScrollOffset>k__BackingField, offset 0x528, size 0x8 
+ __declspec(property(get=__cordl_internal_get__UnityEngine_UIElements_ITextEdition_UpdateScrollOffset_k__BackingField, put=__cordl_internal_set__UnityEngine_UIElements_ITextEdition_UpdateScrollOffset_k__BackingField)) ::System::Action_1<bool>*  _UnityEngine_UIElements_ITextEdition_UpdateScrollOffset_k__BackingField;
 
-  /// @brief Field <UnityEngine.UIElements.ITextEdition.UpdateTextFromValue>k__BackingField, offset 0x538, size 0x8
-  __declspec(property(
-      get = __cordl_internal_get__UnityEngine_UIElements_ITextEdition_UpdateTextFromValue_k__BackingField,
-      put = __cordl_internal_set__UnityEngine_UIElements_ITextEdition_UpdateTextFromValue_k__BackingField)) ::System::Action* _UnityEngine_UIElements_ITextEdition_UpdateTextFromValue_k__BackingField;
+/// @brief Field <UnityEngine.UIElements.ITextEdition.UpdateTextFromValue>k__BackingField, offset 0x538, size 0x8 
+ __declspec(property(get=__cordl_internal_get__UnityEngine_UIElements_ITextEdition_UpdateTextFromValue_k__BackingField, put=__cordl_internal_set__UnityEngine_UIElements_ITextEdition_UpdateTextFromValue_k__BackingField)) ::System::Action*  _UnityEngine_UIElements_ITextEdition_UpdateTextFromValue_k__BackingField;
 
-  /// @brief Field <UnityEngine.UIElements.ITextEdition.UpdateValueFromText>k__BackingField, offset 0x530, size 0x8
-  __declspec(property(
-      get = __cordl_internal_get__UnityEngine_UIElements_ITextEdition_UpdateValueFromText_k__BackingField,
-      put = __cordl_internal_set__UnityEngine_UIElements_ITextEdition_UpdateValueFromText_k__BackingField)) ::System::Action* _UnityEngine_UIElements_ITextEdition_UpdateValueFromText_k__BackingField;
+/// @brief Field <UnityEngine.UIElements.ITextEdition.UpdateValueFromText>k__BackingField, offset 0x530, size 0x8 
+ __declspec(property(get=__cordl_internal_get__UnityEngine_UIElements_ITextEdition_UpdateValueFromText_k__BackingField, put=__cordl_internal_set__UnityEngine_UIElements_ITextEdition_UpdateValueFromText_k__BackingField)) ::System::Action*  _UnityEngine_UIElements_ITextEdition_UpdateValueFromText_k__BackingField;
 
-  /// @brief Field <UnityEngine.UIElements.ITextEdition.isDelayed>k__BackingField, offset 0x518, size 0x1
-  __declspec(property(get = __cordl_internal_get__UnityEngine_UIElements_ITextEdition_isDelayed_k__BackingField,
-                      put = __cordl_internal_set__UnityEngine_UIElements_ITextEdition_isDelayed_k__BackingField)) bool _UnityEngine_UIElements_ITextEdition_isDelayed_k__BackingField;
+/// @brief Field <UnityEngine.UIElements.ITextEdition.isDelayed>k__BackingField, offset 0x518, size 0x1 
+ __declspec(property(get=__cordl_internal_get__UnityEngine_UIElements_ITextEdition_isDelayed_k__BackingField, put=__cordl_internal_set__UnityEngine_UIElements_ITextEdition_isDelayed_k__BackingField)) bool  _UnityEngine_UIElements_ITextEdition_isDelayed_k__BackingField;
 
-  /// @brief Field <editingManipulator>k__BackingField, offset 0x4e0, size 0x8
-  __declspec(property(get = __cordl_internal_get__editingManipulator_k__BackingField,
-                      put = __cordl_internal_set__editingManipulator_k__BackingField)) ::UnityEngine::UIElements::TextEditingManipulator* _editingManipulator_k__BackingField;
+/// @brief Field <editingManipulator>k__BackingField, offset 0x4e0, size 0x8 
+ __declspec(property(get=__cordl_internal_get__editingManipulator_k__BackingField, put=__cordl_internal_set__editingManipulator_k__BackingField)) ::UnityEngine::UIElements::TextEditingManipulator*  _editingManipulator_k__BackingField;
 
-  /// @brief Field <isElided>k__BackingField, offset 0x4cc, size 0x1
-  __declspec(property(get = __cordl_internal_get__isElided_k__BackingField, put = __cordl_internal_set__isElided_k__BackingField)) bool _isElided_k__BackingField;
+/// @brief Field <isElided>k__BackingField, offset 0x4cc, size 0x1 
+ __declspec(property(get=__cordl_internal_get__isElided_k__BackingField, put=__cordl_internal_set__isElided_k__BackingField)) bool  _isElided_k__BackingField;
 
-  /// @brief Field <uitkTextHandle>k__BackingField, offset 0x4b8, size 0x8
-  __declspec(property(get = __cordl_internal_get__uitkTextHandle_k__BackingField,
-                      put = __cordl_internal_set__uitkTextHandle_k__BackingField)) ::UnityEngine::UIElements::UITKTextHandle* _uitkTextHandle_k__BackingField;
+/// @brief Field <uitkTextHandle>k__BackingField, offset 0x4b8, size 0x8 
+ __declspec(property(get=__cordl_internal_get__uitkTextHandle_k__BackingField, put=__cordl_internal_set__uitkTextHandle_k__BackingField)) ::UnityEngine::UIElements::UITKTextHandle*  _uitkTextHandle_k__BackingField;
 
-  __declspec(property(get = get_autoCorrection, put = set_autoCorrection)) bool autoCorrection;
+ __declspec(property(get=get_autoCorrection, put=set_autoCorrection)) bool  autoCorrection;
 
-  /// @brief Field autoCorrectionProperty, offset 0xffffffff, size 0x98
-  __declspec(property(get = getStaticF_autoCorrectionProperty, put = setStaticF_autoCorrectionProperty)) ::UnityEngine::UIElements::BindingId autoCorrectionProperty;
+/// @brief Field autoCorrectionProperty, offset 0xffffffff, size 0x98 
+ __declspec(property(get=getStaticF_autoCorrectionProperty, put=setStaticF_autoCorrectionProperty)) ::UnityEngine::UIElements::BindingId  autoCorrectionProperty;
 
-  __declspec(property(get = get_cursorColor, put = set_cursorColor)) ::UnityEngine::Color cursorColor;
+ __declspec(property(get=get_cursorColor, put=set_cursorColor)) ::UnityEngine::Color  cursorColor;
 
-  /// @brief Field cursorColorProperty, offset 0xffffffff, size 0x98
-  __declspec(property(get = getStaticF_cursorColorProperty, put = setStaticF_cursorColorProperty)) ::UnityEngine::UIElements::BindingId cursorColorProperty;
+/// @brief Field cursorColorProperty, offset 0xffffffff, size 0x98 
+ __declspec(property(get=getStaticF_cursorColorProperty, put=setStaticF_cursorColorProperty)) ::UnityEngine::UIElements::BindingId  cursorColorProperty;
 
-  __declspec(property(get = get_cursorIndex, put = set_cursorIndex)) int32_t cursorIndex;
+ __declspec(property(get=get_cursorIndex, put=set_cursorIndex)) int32_t  cursorIndex;
 
-  /// @brief Field cursorIndexProperty, offset 0xffffffff, size 0x98
-  __declspec(property(get = getStaticF_cursorIndexProperty, put = setStaticF_cursorIndexProperty)) ::UnityEngine::UIElements::BindingId cursorIndexProperty;
+/// @brief Field cursorIndexProperty, offset 0xffffffff, size 0x98 
+ __declspec(property(get=getStaticF_cursorIndexProperty, put=setStaticF_cursorIndexProperty)) ::UnityEngine::UIElements::BindingId  cursorIndexProperty;
 
-  __declspec(property(get = get_cursorPosition)) ::UnityEngine::Vector2 cursorPosition;
+ __declspec(property(get=get_cursorPosition)) ::UnityEngine::Vector2  cursorPosition;
 
-  /// @brief Field cursorPositionProperty, offset 0xffffffff, size 0x98
-  __declspec(property(get = getStaticF_cursorPositionProperty, put = setStaticF_cursorPositionProperty)) ::UnityEngine::UIElements::BindingId cursorPositionProperty;
+/// @brief Field cursorPositionProperty, offset 0xffffffff, size 0x98 
+ __declspec(property(get=getStaticF_cursorPositionProperty, put=setStaticF_cursorPositionProperty)) ::UnityEngine::UIElements::BindingId  cursorPositionProperty;
 
-  __declspec(property(get = get_displayTooltipWhenElided, put = set_displayTooltipWhenElided)) bool displayTooltipWhenElided;
+ __declspec(property(get=get_displayTooltipWhenElided, put=set_displayTooltipWhenElided)) bool  displayTooltipWhenElided;
 
-  /// @brief Field displayTooltipWhenElidedProperty, offset 0xffffffff, size 0x98
-  __declspec(property(get = getStaticF_displayTooltipWhenElidedProperty, put = setStaticF_displayTooltipWhenElidedProperty)) ::UnityEngine::UIElements::BindingId displayTooltipWhenElidedProperty;
+/// @brief Field displayTooltipWhenElidedProperty, offset 0xffffffff, size 0x98 
+ __declspec(property(get=getStaticF_displayTooltipWhenElidedProperty, put=setStaticF_displayTooltipWhenElidedProperty)) ::UnityEngine::UIElements::BindingId  displayTooltipWhenElidedProperty;
 
-  __declspec(property(get = get_doubleClickSelectsWord, put = set_doubleClickSelectsWord)) bool doubleClickSelectsWord;
+ __declspec(property(get=get_doubleClickSelectsWord, put=set_doubleClickSelectsWord)) bool  doubleClickSelectsWord;
 
-  /// @brief Field doubleClickSelectsWordProperty, offset 0xffffffff, size 0x98
-  __declspec(property(get = getStaticF_doubleClickSelectsWordProperty, put = setStaticF_doubleClickSelectsWordProperty)) ::UnityEngine::UIElements::BindingId doubleClickSelectsWordProperty;
+/// @brief Field doubleClickSelectsWordProperty, offset 0xffffffff, size 0x98 
+ __declspec(property(get=getStaticF_doubleClickSelectsWordProperty, put=setStaticF_doubleClickSelectsWordProperty)) ::UnityEngine::UIElements::BindingId  doubleClickSelectsWordProperty;
 
-  __declspec(property(get = get_editingManipulator, put = set_editingManipulator)) ::UnityEngine::UIElements::TextEditingManipulator* editingManipulator;
+ __declspec(property(get=get_editingManipulator, put=set_editingManipulator)) ::UnityEngine::UIElements::TextEditingManipulator*  editingManipulator;
 
-  __declspec(property(get = get_edition)) ::UnityEngine::UIElements::ITextEdition* edition;
+ __declspec(property(get=get_edition)) ::UnityEngine::UIElements::ITextEdition*  edition;
 
-  __declspec(property(get = get_effectiveMaskChar)) char16_t effectiveMaskChar;
+ __declspec(property(get=get_effectiveMaskChar)) char16_t  effectiveMaskChar;
 
-  /// @brief Field elidedText, offset 0x4d0, size 0x8
-  __declspec(property(get = __cordl_internal_get_elidedText, put = __cordl_internal_set_elidedText)) ::StringW elidedText;
+/// @brief Field elidedText, offset 0x4d0, size 0x8 
+ __declspec(property(get=__cordl_internal_get_elidedText, put=__cordl_internal_set_elidedText)) ::StringW  elidedText;
 
-  __declspec(property(get = get_emojiFallbackSupport, put = set_emojiFallbackSupport)) bool emojiFallbackSupport;
+ __declspec(property(get=get_emojiFallbackSupport, put=set_emojiFallbackSupport)) bool  emojiFallbackSupport;
 
-  /// @brief Field emojiFallbackSupportProperty, offset 0xffffffff, size 0x98
-  __declspec(property(get = getStaticF_emojiFallbackSupportProperty, put = setStaticF_emojiFallbackSupportProperty)) ::UnityEngine::UIElements::BindingId emojiFallbackSupportProperty;
+/// @brief Field emojiFallbackSupportProperty, offset 0xffffffff, size 0x98 
+ __declspec(property(get=getStaticF_emojiFallbackSupportProperty, put=setStaticF_emojiFallbackSupportProperty)) ::UnityEngine::UIElements::BindingId  emojiFallbackSupportProperty;
 
-  __declspec(property(get = get_enableRichText, put = set_enableRichText)) bool enableRichText;
+ __declspec(property(get=get_enableRichText, put=set_enableRichText)) bool  enableRichText;
 
-  /// @brief Field enableRichTextProperty, offset 0xffffffff, size 0x98
-  __declspec(property(get = getStaticF_enableRichTextProperty, put = setStaticF_enableRichTextProperty)) ::UnityEngine::UIElements::BindingId enableRichTextProperty;
+/// @brief Field enableRichTextProperty, offset 0xffffffff, size 0x98 
+ __declspec(property(get=getStaticF_enableRichTextProperty, put=setStaticF_enableRichTextProperty)) ::UnityEngine::UIElements::BindingId  enableRichTextProperty;
 
-  __declspec(property(get = get_hasFocus)) bool hasFocus;
+ __declspec(property(get=get_hasFocus)) bool  hasFocus;
 
-  __declspec(property(get = get_hideMobileInput, put = set_hideMobileInput)) bool hideMobileInput;
+ __declspec(property(get=get_hideMobileInput, put=set_hideMobileInput)) bool  hideMobileInput;
 
-  /// @brief Field hideMobileInputProperty, offset 0xffffffff, size 0x98
-  __declspec(property(get = getStaticF_hideMobileInputProperty, put = setStaticF_hideMobileInputProperty)) ::UnityEngine::UIElements::BindingId hideMobileInputProperty;
+/// @brief Field hideMobileInputProperty, offset 0xffffffff, size 0x98 
+ __declspec(property(get=getStaticF_hideMobileInputProperty, put=setStaticF_hideMobileInputProperty)) ::UnityEngine::UIElements::BindingId  hideMobileInputProperty;
 
-  __declspec(property(get = get_isElided, put = set_isElided)) bool isElided;
+ __declspec(property(get=get_isElided, put=set_isElided)) bool  isElided;
 
-  /// @brief Field isElidedProperty, offset 0xffffffff, size 0x98
-  __declspec(property(get = getStaticF_isElidedProperty, put = setStaticF_isElidedProperty)) ::UnityEngine::UIElements::BindingId isElidedProperty;
+/// @brief Field isElidedProperty, offset 0xffffffff, size 0x98 
+ __declspec(property(get=getStaticF_isElidedProperty, put=setStaticF_isElidedProperty)) ::UnityEngine::UIElements::BindingId  isElidedProperty;
 
-  /// @brief Field isInputField, offset 0x4e8, size 0x1
-  __declspec(property(get = __cordl_internal_get_isInputField, put = __cordl_internal_set_isInputField)) bool isInputField;
+/// @brief Field isInputField, offset 0x4e8, size 0x1 
+ __declspec(property(get=__cordl_internal_get_isInputField, put=__cordl_internal_set_isInputField)) bool  isInputField;
 
-  __declspec(property(get = get_isPassword, put = set_isPassword)) bool isPassword;
+ __declspec(property(get=get_isPassword, put=set_isPassword)) bool  isPassword;
 
-  /// @brief Field isPasswordProperty, offset 0xffffffff, size 0x98
-  __declspec(property(get = getStaticF_isPasswordProperty, put = setStaticF_isPasswordProperty)) ::UnityEngine::UIElements::BindingId isPasswordProperty;
+/// @brief Field isPasswordProperty, offset 0xffffffff, size 0x98 
+ __declspec(property(get=getStaticF_isPasswordProperty, put=setStaticF_isPasswordProperty)) ::UnityEngine::UIElements::BindingId  isPasswordProperty;
 
-  __declspec(property(get = get_isReadOnly, put = set_isReadOnly)) bool isReadOnly;
+ __declspec(property(get=get_isReadOnly, put=set_isReadOnly)) bool  isReadOnly;
 
-  /// @brief Field isReadOnlyProperty, offset 0xffffffff, size 0x98
-  __declspec(property(get = getStaticF_isReadOnlyProperty, put = setStaticF_isReadOnlyProperty)) ::UnityEngine::UIElements::BindingId isReadOnlyProperty;
+/// @brief Field isReadOnlyProperty, offset 0xffffffff, size 0x98 
+ __declspec(property(get=getStaticF_isReadOnlyProperty, put=setStaticF_isReadOnlyProperty)) ::UnityEngine::UIElements::BindingId  isReadOnlyProperty;
 
-  __declspec(property(get = get_isSelectable, put = set_isSelectable)) bool isSelectable;
+ __declspec(property(get=get_isSelectable, put=set_isSelectable)) bool  isSelectable;
 
-  /// @brief Field isSelectableProperty, offset 0xffffffff, size 0x98
-  __declspec(property(get = getStaticF_isSelectableProperty, put = setStaticF_isSelectableProperty)) ::UnityEngine::UIElements::BindingId isSelectableProperty;
+/// @brief Field isSelectableProperty, offset 0xffffffff, size 0x98 
+ __declspec(property(get=getStaticF_isSelectableProperty, put=setStaticF_isSelectableProperty)) ::UnityEngine::UIElements::BindingId  isSelectableProperty;
 
-  /// @brief Field k_EllipsisText, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_k_EllipsisText, put = setStaticF_k_EllipsisText)) ::StringW k_EllipsisText;
+/// @brief Field k_EllipsisText, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_k_EllipsisText, put=setStaticF_k_EllipsisText)) ::StringW  k_EllipsisText;
 
-  __declspec(property(get = get_keyboardType, put = set_keyboardType)) ::UnityEngine::TouchScreenKeyboardType keyboardType;
+ __declspec(property(get=get_keyboardType, put=set_keyboardType)) ::UnityEngine::TouchScreenKeyboardType  keyboardType;
 
-  /// @brief Field keyboardTypeProperty, offset 0xffffffff, size 0x98
-  __declspec(property(get = getStaticF_keyboardTypeProperty, put = setStaticF_keyboardTypeProperty)) ::UnityEngine::UIElements::BindingId keyboardTypeProperty;
+/// @brief Field keyboardTypeProperty, offset 0xffffffff, size 0x98 
+ __declspec(property(get=getStaticF_keyboardTypeProperty, put=setStaticF_keyboardTypeProperty)) ::UnityEngine::UIElements::BindingId  keyboardTypeProperty;
 
-  /// @brief Field m_AutoCorrection, offset 0x56c, size 0x1
-  __declspec(property(get = __cordl_internal_get_m_AutoCorrection, put = __cordl_internal_set_m_AutoCorrection)) bool m_AutoCorrection;
+/// @brief Field m_AutoCorrection, offset 0x56c, size 0x1 
+ __declspec(property(get=__cordl_internal_get_m_AutoCorrection, put=__cordl_internal_set_m_AutoCorrection)) bool  m_AutoCorrection;
 
-  /// @brief Field m_CursorColor, offset 0x590, size 0x10
-  __declspec(property(get = __cordl_internal_get_m_CursorColor, put = __cordl_internal_set_m_CursorColor)) ::UnityEngine::Color m_CursorColor;
+/// @brief Field m_CursorColor, offset 0x590, size 0x10 
+ __declspec(property(get=__cordl_internal_get_m_CursorColor, put=__cordl_internal_set_m_CursorColor)) ::UnityEngine::Color  m_CursorColor;
 
-  /// @brief Field m_CursorWidth, offset 0x5a0, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_CursorWidth, put = __cordl_internal_set_m_CursorWidth)) float_t m_CursorWidth;
+/// @brief Field m_CursorWidth, offset 0x5a0, size 0x4 
+ __declspec(property(get=__cordl_internal_get_m_CursorWidth, put=__cordl_internal_set_m_CursorWidth)) float_t  m_CursorWidth;
 
-  /// @brief Field m_DisplayTooltipWhenElided, offset 0x4cb, size 0x1
-  __declspec(property(get = __cordl_internal_get_m_DisplayTooltipWhenElided, put = __cordl_internal_set_m_DisplayTooltipWhenElided)) bool m_DisplayTooltipWhenElided;
+/// @brief Field m_DisplayTooltipWhenElided, offset 0x4cb, size 0x1 
+ __declspec(property(get=__cordl_internal_get_m_DisplayTooltipWhenElided, put=__cordl_internal_set_m_DisplayTooltipWhenElided)) bool  m_DisplayTooltipWhenElided;
 
-  /// @brief Field m_DoubleClickSelectsWord, offset 0x579, size 0x1
-  __declspec(property(get = __cordl_internal_get_m_DoubleClickSelectsWord, put = __cordl_internal_set_m_DoubleClickSelectsWord)) bool m_DoubleClickSelectsWord;
+/// @brief Field m_DoubleClickSelectsWord, offset 0x579, size 0x1 
+ __declspec(property(get=__cordl_internal_get_m_DoubleClickSelectsWord, put=__cordl_internal_set_m_DoubleClickSelectsWord)) bool  m_DoubleClickSelectsWord;
 
-  /// @brief Field m_EmojiFallbackSupport, offset 0x4c9, size 0x1
-  __declspec(property(get = __cordl_internal_get_m_EmojiFallbackSupport, put = __cordl_internal_set_m_EmojiFallbackSupport)) bool m_EmojiFallbackSupport;
+/// @brief Field m_EmojiFallbackSupport, offset 0x4c9, size 0x1 
+ __declspec(property(get=__cordl_internal_get_m_EmojiFallbackSupport, put=__cordl_internal_set_m_EmojiFallbackSupport)) bool  m_EmojiFallbackSupport;
 
-  /// @brief Field m_EnableRichText, offset 0x4c8, size 0x1
-  __declspec(property(get = __cordl_internal_get_m_EnableRichText, put = __cordl_internal_set_m_EnableRichText)) bool m_EnableRichText;
+/// @brief Field m_EnableRichText, offset 0x4c8, size 0x1 
+ __declspec(property(get=__cordl_internal_get_m_EnableRichText, put=__cordl_internal_set_m_EnableRichText)) bool  m_EnableRichText;
 
-  /// @brief Field m_HideMobileInput, offset 0x504, size 0x1
-  __declspec(property(get = __cordl_internal_get_m_HideMobileInput, put = __cordl_internal_set_m_HideMobileInput)) bool m_HideMobileInput;
+/// @brief Field m_HideMobileInput, offset 0x504, size 0x1 
+ __declspec(property(get=__cordl_internal_get_m_HideMobileInput, put=__cordl_internal_set_m_HideMobileInput)) bool  m_HideMobileInput;
 
-  /// @brief Field m_HidePlaceholderTextOnFocus, offset 0x56b, size 0x1
-  __declspec(property(get = __cordl_internal_get_m_HidePlaceholderTextOnFocus, put = __cordl_internal_set_m_HidePlaceholderTextOnFocus)) bool m_HidePlaceholderTextOnFocus;
+/// @brief Field m_HidePlaceholderTextOnFocus, offset 0x56b, size 0x1 
+ __declspec(property(get=__cordl_internal_get_m_HidePlaceholderTextOnFocus, put=__cordl_internal_set_m_HidePlaceholderTextOnFocus)) bool  m_HidePlaceholderTextOnFocus;
 
-  /// @brief Field m_IsPassword, offset 0x56a, size 0x1
-  __declspec(property(get = __cordl_internal_get_m_IsPassword, put = __cordl_internal_set_m_IsPassword)) bool m_IsPassword;
+/// @brief Field m_IsPassword, offset 0x56a, size 0x1 
+ __declspec(property(get=__cordl_internal_get_m_IsPassword, put=__cordl_internal_set_m_IsPassword)) bool  m_IsPassword;
 
-  /// @brief Field m_IsReadOnly, offset 0x505, size 0x1
-  __declspec(property(get = __cordl_internal_get_m_IsReadOnly, put = __cordl_internal_set_m_IsReadOnly)) bool m_IsReadOnly;
+/// @brief Field m_IsReadOnly, offset 0x505, size 0x1 
+ __declspec(property(get=__cordl_internal_get_m_IsReadOnly, put=__cordl_internal_set_m_IsReadOnly)) bool  m_IsReadOnly;
 
-  /// @brief Field m_IsSelectable, offset 0x578, size 0x1
-  __declspec(property(get = __cordl_internal_get_m_IsSelectable, put = __cordl_internal_set_m_IsSelectable)) bool m_IsSelectable;
+/// @brief Field m_IsSelectable, offset 0x578, size 0x1 
+ __declspec(property(get=__cordl_internal_get_m_IsSelectable, put=__cordl_internal_set_m_IsSelectable)) bool  m_IsSelectable;
 
-  /// @brief Field m_KeyboardType, offset 0x500, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_KeyboardType, put = __cordl_internal_set_m_KeyboardType)) ::UnityEngine::TouchScreenKeyboardType m_KeyboardType;
+/// @brief Field m_KeyboardType, offset 0x500, size 0x4 
+ __declspec(property(get=__cordl_internal_get_m_KeyboardType, put=__cordl_internal_set_m_KeyboardType)) ::UnityEngine::TouchScreenKeyboardType  m_KeyboardType;
 
-  /// @brief Field m_MaskChar, offset 0x568, size 0x2
-  __declspec(property(get = __cordl_internal_get_m_MaskChar, put = __cordl_internal_set_m_MaskChar)) char16_t m_MaskChar;
+/// @brief Field m_MaskChar, offset 0x568, size 0x2 
+ __declspec(property(get=__cordl_internal_get_m_MaskChar, put=__cordl_internal_set_m_MaskChar)) char16_t  m_MaskChar;
 
-  /// @brief Field m_MaxLength, offset 0x508, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_MaxLength, put = __cordl_internal_set_m_MaxLength)) int32_t m_MaxLength;
+/// @brief Field m_MaxLength, offset 0x508, size 0x4 
+ __declspec(property(get=__cordl_internal_get_m_MaxLength, put=__cordl_internal_set_m_MaxLength)) int32_t  m_MaxLength;
 
-  /// @brief Field m_Multiline, offset 0x4e9, size 0x1
-  __declspec(property(get = __cordl_internal_get_m_Multiline, put = __cordl_internal_set_m_Multiline)) bool m_Multiline;
+/// @brief Field m_Multiline, offset 0x4e9, size 0x1 
+ __declspec(property(get=__cordl_internal_get_m_Multiline, put=__cordl_internal_set_m_Multiline)) bool  m_Multiline;
 
-  /// @brief Field m_OriginalText, offset 0x560, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_OriginalText, put = __cordl_internal_set_m_OriginalText)) ::StringW m_OriginalText;
+/// @brief Field m_OriginalText, offset 0x560, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_OriginalText, put=__cordl_internal_set_m_OriginalText)) ::StringW  m_OriginalText;
 
-  /// @brief Field m_ParseEscapeSequences, offset 0x4ca, size 0x1
-  __declspec(property(get = __cordl_internal_get_m_ParseEscapeSequences, put = __cordl_internal_set_m_ParseEscapeSequences)) bool m_ParseEscapeSequences;
+/// @brief Field m_ParseEscapeSequences, offset 0x4ca, size 0x1 
+ __declspec(property(get=__cordl_internal_get_m_ParseEscapeSequences, put=__cordl_internal_set_m_ParseEscapeSequences)) bool  m_ParseEscapeSequences;
 
-  /// @brief Field m_PlaceholderText, offset 0x510, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_PlaceholderText, put = __cordl_internal_set_m_PlaceholderText)) ::StringW m_PlaceholderText;
+/// @brief Field m_PlaceholderText, offset 0x510, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_PlaceholderText, put=__cordl_internal_set_m_PlaceholderText)) ::StringW  m_PlaceholderText;
 
-  /// @brief Field m_RenderedText, offset 0x558, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_RenderedText, put = __cordl_internal_set_m_RenderedText)) ::StringW m_RenderedText;
+/// @brief Field m_RenderedText, offset 0x558, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_RenderedText, put=__cordl_internal_set_m_RenderedText)) ::StringW  m_RenderedText;
 
-  /// @brief Field m_SelectAllOnFocus, offset 0x57b, size 0x1
-  __declspec(property(get = __cordl_internal_get_m_SelectAllOnFocus, put = __cordl_internal_set_m_SelectAllOnFocus)) bool m_SelectAllOnFocus;
+/// @brief Field m_SelectAllOnFocus, offset 0x57b, size 0x1 
+ __declspec(property(get=__cordl_internal_get_m_SelectAllOnFocus, put=__cordl_internal_set_m_SelectAllOnFocus)) bool  m_SelectAllOnFocus;
 
-  /// @brief Field m_SelectAllOnMouseUp, offset 0x57c, size 0x1
-  __declspec(property(get = __cordl_internal_get_m_SelectAllOnMouseUp, put = __cordl_internal_set_m_SelectAllOnMouseUp)) bool m_SelectAllOnMouseUp;
+/// @brief Field m_SelectAllOnMouseUp, offset 0x57c, size 0x1 
+ __declspec(property(get=__cordl_internal_get_m_SelectAllOnMouseUp, put=__cordl_internal_set_m_SelectAllOnMouseUp)) bool  m_SelectAllOnMouseUp;
 
-  /// @brief Field m_SelectingManipulator, offset 0x570, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_SelectingManipulator,
-                      put = __cordl_internal_set_m_SelectingManipulator)) ::UnityEngine::UIElements::TextSelectingManipulator* m_SelectingManipulator;
+/// @brief Field m_SelectingManipulator, offset 0x570, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_SelectingManipulator, put=__cordl_internal_set_m_SelectingManipulator)) ::UnityEngine::UIElements::TextSelectingManipulator*  m_SelectingManipulator;
 
-  /// @brief Field m_SelectionColor, offset 0x580, size 0x10
-  __declspec(property(get = __cordl_internal_get_m_SelectionColor, put = __cordl_internal_set_m_SelectionColor)) ::UnityEngine::Color m_SelectionColor;
+/// @brief Field m_SelectionColor, offset 0x580, size 0x10 
+ __declspec(property(get=__cordl_internal_get_m_SelectionColor, put=__cordl_internal_set_m_SelectionColor)) ::UnityEngine::Color  m_SelectionColor;
 
-  /// @brief Field m_Text, offset 0x4c0, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Text, put = __cordl_internal_set_m_Text)) ::StringW m_Text;
+/// @brief Field m_Text, offset 0x4c0, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_Text, put=__cordl_internal_set_m_Text)) ::StringW  m_Text;
 
-  /// @brief Field m_TouchScreenKeyboard, offset 0x4f0, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_TouchScreenKeyboard, put = __cordl_internal_set_m_TouchScreenKeyboard)) ::UnityEngine::TouchScreenKeyboard* m_TouchScreenKeyboard;
+/// @brief Field m_TouchScreenKeyboard, offset 0x4f0, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_TouchScreenKeyboard, put=__cordl_internal_set_m_TouchScreenKeyboard)) ::UnityEngine::TouchScreenKeyboard*  m_TouchScreenKeyboard;
 
-  /// @brief Field m_TripleClickSelectsLine, offset 0x57a, size 0x1
-  __declspec(property(get = __cordl_internal_get_m_TripleClickSelectsLine, put = __cordl_internal_set_m_TripleClickSelectsLine)) bool m_TripleClickSelectsLine;
+/// @brief Field m_TripleClickSelectsLine, offset 0x57a, size 0x1 
+ __declspec(property(get=__cordl_internal_get_m_TripleClickSelectsLine, put=__cordl_internal_set_m_TripleClickSelectsLine)) bool  m_TripleClickSelectsLine;
 
-  /// @brief Field m_WasElided, offset 0x4d8, size 0x1
-  __declspec(property(get = __cordl_internal_get_m_WasElided, put = __cordl_internal_set_m_WasElided)) bool m_WasElided;
+/// @brief Field m_WasElided, offset 0x4d8, size 0x1 
+ __declspec(property(get=__cordl_internal_get_m_WasElided, put=__cordl_internal_set_m_WasElided)) bool  m_WasElided;
 
-  __declspec(property(get = get_maskChar, put = set_maskChar)) char16_t maskChar;
+ __declspec(property(get=get_maskChar, put=set_maskChar)) char16_t  maskChar;
 
-  /// @brief Field maskCharProperty, offset 0xffffffff, size 0x98
-  __declspec(property(get = getStaticF_maskCharProperty, put = setStaticF_maskCharProperty)) ::UnityEngine::UIElements::BindingId maskCharProperty;
+/// @brief Field maskCharProperty, offset 0xffffffff, size 0x98 
+ __declspec(property(get=getStaticF_maskCharProperty, put=setStaticF_maskCharProperty)) ::UnityEngine::UIElements::BindingId  maskCharProperty;
 
-  __declspec(property(get = get_maxLength, put = set_maxLength)) int32_t maxLength;
+ __declspec(property(get=get_maxLength, put=set_maxLength)) int32_t  maxLength;
 
-  /// @brief Field maxLengthProperty, offset 0xffffffff, size 0x98
-  __declspec(property(get = getStaticF_maxLengthProperty, put = setStaticF_maxLengthProperty)) ::UnityEngine::UIElements::BindingId maxLengthProperty;
+/// @brief Field maxLengthProperty, offset 0xffffffff, size 0x98 
+ __declspec(property(get=getStaticF_maxLengthProperty, put=setStaticF_maxLengthProperty)) ::UnityEngine::UIElements::BindingId  maxLengthProperty;
 
-  /// @brief Field onIsReadOnlyChanged, offset 0x4f8, size 0x8
-  __declspec(property(get = __cordl_internal_get_onIsReadOnlyChanged, put = __cordl_internal_set_onIsReadOnlyChanged)) ::System::Action_1<bool>* onIsReadOnlyChanged;
+/// @brief Field onIsReadOnlyChanged, offset 0x4f8, size 0x8 
+ __declspec(property(get=__cordl_internal_get_onIsReadOnlyChanged, put=__cordl_internal_set_onIsReadOnlyChanged)) ::System::Action_1<bool>*  onIsReadOnlyChanged;
 
-  __declspec(property(get = get_originalText)) ::StringW originalText;
+ __declspec(property(get=get_originalText)) ::StringW  originalText;
 
-  __declspec(property(get = get_parseEscapeSequences, put = set_parseEscapeSequences)) bool parseEscapeSequences;
+ __declspec(property(get=get_parseEscapeSequences, put=set_parseEscapeSequences)) bool  parseEscapeSequences;
 
-  /// @brief Field parseEscapeSequencesProperty, offset 0xffffffff, size 0x98
-  __declspec(property(get = getStaticF_parseEscapeSequencesProperty, put = setStaticF_parseEscapeSequencesProperty)) ::UnityEngine::UIElements::BindingId parseEscapeSequencesProperty;
+/// @brief Field parseEscapeSequencesProperty, offset 0xffffffff, size 0x98 
+ __declspec(property(get=getStaticF_parseEscapeSequencesProperty, put=setStaticF_parseEscapeSequencesProperty)) ::UnityEngine::UIElements::BindingId  parseEscapeSequencesProperty;
 
-  __declspec(property(get = get_renderedText)) ::UnityEngine::TextCore::Text::RenderedText renderedText;
+ __declspec(property(get=get_renderedText)) ::UnityEngine::TextCore::Text::RenderedText  renderedText;
 
-  __declspec(property(get = get_selectAllOnFocus, put = set_selectAllOnFocus)) bool selectAllOnFocus;
+ __declspec(property(get=get_selectAllOnFocus, put=set_selectAllOnFocus)) bool  selectAllOnFocus;
 
-  /// @brief Field selectAllOnFocusProperty, offset 0xffffffff, size 0x98
-  __declspec(property(get = getStaticF_selectAllOnFocusProperty, put = setStaticF_selectAllOnFocusProperty)) ::UnityEngine::UIElements::BindingId selectAllOnFocusProperty;
+/// @brief Field selectAllOnFocusProperty, offset 0xffffffff, size 0x98 
+ __declspec(property(get=getStaticF_selectAllOnFocusProperty, put=setStaticF_selectAllOnFocusProperty)) ::UnityEngine::UIElements::BindingId  selectAllOnFocusProperty;
 
-  __declspec(property(get = get_selectAllOnMouseUp, put = set_selectAllOnMouseUp)) bool selectAllOnMouseUp;
+ __declspec(property(get=get_selectAllOnMouseUp, put=set_selectAllOnMouseUp)) bool  selectAllOnMouseUp;
 
-  /// @brief Field selectAllOnMouseUpProperty, offset 0xffffffff, size 0x98
-  __declspec(property(get = getStaticF_selectAllOnMouseUpProperty, put = setStaticF_selectAllOnMouseUpProperty)) ::UnityEngine::UIElements::BindingId selectAllOnMouseUpProperty;
+/// @brief Field selectAllOnMouseUpProperty, offset 0xffffffff, size 0x98 
+ __declspec(property(get=getStaticF_selectAllOnMouseUpProperty, put=setStaticF_selectAllOnMouseUpProperty)) ::UnityEngine::UIElements::BindingId  selectAllOnMouseUpProperty;
 
-  __declspec(property(get = get_selectIndex, put = set_selectIndex)) int32_t selectIndex;
+ __declspec(property(get=get_selectIndex, put=set_selectIndex)) int32_t  selectIndex;
 
-  /// @brief Field selectIndexProperty, offset 0xffffffff, size 0x98
-  __declspec(property(get = getStaticF_selectIndexProperty, put = setStaticF_selectIndexProperty)) ::UnityEngine::UIElements::BindingId selectIndexProperty;
+/// @brief Field selectIndexProperty, offset 0xffffffff, size 0x98 
+ __declspec(property(get=getStaticF_selectIndexProperty, put=setStaticF_selectIndexProperty)) ::UnityEngine::UIElements::BindingId  selectIndexProperty;
 
-  /// @brief Field selectableUssClassName, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_selectableUssClassName, put = setStaticF_selectableUssClassName)) ::StringW selectableUssClassName;
+/// @brief Field selectableUssClassName, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_selectableUssClassName, put=setStaticF_selectableUssClassName)) ::StringW  selectableUssClassName;
 
-  __declspec(property(get = get_selectingManipulator)) ::UnityEngine::UIElements::TextSelectingManipulator* selectingManipulator;
+ __declspec(property(get=get_selectingManipulator)) ::UnityEngine::UIElements::TextSelectingManipulator*  selectingManipulator;
 
-  __declspec(property(get = get_selection)) ::UnityEngine::UIElements::ITextSelection* selection;
+ __declspec(property(get=get_selection)) ::UnityEngine::UIElements::ITextSelection*  selection;
 
-  __declspec(property(get = get_selectionColor, put = set_selectionColor)) ::UnityEngine::Color selectionColor;
+ __declspec(property(get=get_selectionColor, put=set_selectionColor)) ::UnityEngine::Color  selectionColor;
 
-  /// @brief Field selectionColorProperty, offset 0xffffffff, size 0x98
-  __declspec(property(get = getStaticF_selectionColorProperty, put = setStaticF_selectionColorProperty)) ::UnityEngine::UIElements::BindingId selectionColorProperty;
+/// @brief Field selectionColorProperty, offset 0xffffffff, size 0x98 
+ __declspec(property(get=getStaticF_selectionColorProperty, put=setStaticF_selectionColorProperty)) ::UnityEngine::UIElements::BindingId  selectionColorProperty;
 
-  /// @brief Field selectionProperty, offset 0xffffffff, size 0x98
-  __declspec(property(get = getStaticF_selectionProperty, put = setStaticF_selectionProperty)) ::UnityEngine::UIElements::BindingId selectionProperty;
+/// @brief Field selectionProperty, offset 0xffffffff, size 0x98 
+ __declspec(property(get=getStaticF_selectionProperty, put=setStaticF_selectionProperty)) ::UnityEngine::UIElements::BindingId  selectionProperty;
 
-  __declspec(property(get = get_showPlaceholderText)) bool showPlaceholderText;
+ __declspec(property(get=get_showPlaceholderText)) bool  showPlaceholderText;
 
-  __declspec(property(get = get_text, put = set_text)) ::StringW text;
+ __declspec(property(get=get_text, put=set_text)) ::StringW  text;
 
-  /// @brief Field textProperty, offset 0xffffffff, size 0x98
-  __declspec(property(get = getStaticF_textProperty, put = setStaticF_textProperty)) ::UnityEngine::UIElements::BindingId textProperty;
+/// @brief Field textProperty, offset 0xffffffff, size 0x98 
+ __declspec(property(get=getStaticF_textProperty, put=setStaticF_textProperty)) ::UnityEngine::UIElements::BindingId  textProperty;
 
-  __declspec(property(get = get_tripleClickSelectsLine, put = set_tripleClickSelectsLine)) bool tripleClickSelectsLine;
+ __declspec(property(get=get_tripleClickSelectsLine, put=set_tripleClickSelectsLine)) bool  tripleClickSelectsLine;
 
-  /// @brief Field tripleClickSelectsLineProperty, offset 0xffffffff, size 0x98
-  __declspec(property(get = getStaticF_tripleClickSelectsLineProperty, put = setStaticF_tripleClickSelectsLineProperty)) ::UnityEngine::UIElements::BindingId tripleClickSelectsLineProperty;
+/// @brief Field tripleClickSelectsLineProperty, offset 0xffffffff, size 0x98 
+ __declspec(property(get=getStaticF_tripleClickSelectsLineProperty, put=setStaticF_tripleClickSelectsLineProperty)) ::UnityEngine::UIElements::BindingId  tripleClickSelectsLineProperty;
 
-  __declspec(property(get = get_uitkTextHandle, put = set_uitkTextHandle)) ::UnityEngine::UIElements::UITKTextHandle* uitkTextHandle;
+ __declspec(property(get=get_uitkTextHandle, put=set_uitkTextHandle)) ::UnityEngine::UIElements::UITKTextHandle*  uitkTextHandle;
 
-  /// @brief Field ussClassName, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_ussClassName, put = setStaticF_ussClassName)) ::StringW ussClassName;
+/// @brief Field ussClassName, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_ussClassName, put=setStaticF_ussClassName)) ::StringW  ussClassName;
 
-  __declspec(property(get = get_value, put = set_value)) ::StringW value;
+ __declspec(property(get=get_value, put=set_value)) ::StringW  value;
 
-  /// @brief Field valueProperty, offset 0xffffffff, size 0x98
-  __declspec(property(get = getStaticF_valueProperty, put = setStaticF_valueProperty)) ::UnityEngine::UIElements::BindingId valueProperty;
+/// @brief Field valueProperty, offset 0xffffffff, size 0x98 
+ __declspec(property(get=getStaticF_valueProperty, put=setStaticF_valueProperty)) ::UnityEngine::UIElements::BindingId  valueProperty;
 
-  /// @brief Convert operator to "::UnityEngine::UIElements::IExperimentalFeatures"
-  constexpr operator ::UnityEngine::UIElements::IExperimentalFeatures*() noexcept;
+/// @brief Convert operator to "::UnityEngine::UIElements::IExperimentalFeatures"
+constexpr operator  ::UnityEngine::UIElements::IExperimentalFeatures*() noexcept;
 
-  /// @brief Convert operator to "::UnityEngine::UIElements::INotifyValueChanged_1<::StringW>"
-  constexpr operator ::UnityEngine::UIElements::INotifyValueChanged_1<::StringW>*() noexcept;
+/// @brief Convert operator to "::UnityEngine::UIElements::INotifyValueChanged_1<::StringW>"
+constexpr operator  ::UnityEngine::UIElements::INotifyValueChanged_1<::StringW>*() noexcept;
 
-  /// @brief Convert operator to "::UnityEngine::UIElements::ITextEdition"
-  constexpr operator ::UnityEngine::UIElements::ITextEdition*() noexcept;
+/// @brief Convert operator to "::UnityEngine::UIElements::ITextEdition"
+constexpr operator  ::UnityEngine::UIElements::ITextEdition*() noexcept;
 
-  /// @brief Convert operator to "::UnityEngine::UIElements::ITextSelection"
-  constexpr operator ::UnityEngine::UIElements::ITextSelection*() noexcept;
+/// @brief Convert operator to "::UnityEngine::UIElements::ITextSelection"
+constexpr operator  ::UnityEngine::UIElements::ITextSelection*() noexcept;
 
-  /// @brief Method BuildContextualMenu, addr 0x6b54804, size 0x3a0, virtual false, abstract: false, final false
-  inline void BuildContextualMenu(::UnityEngine::UIElements::ContextualMenuPopulateEvent* evt);
+/// @brief Method BuildContextualMenu, addr 0x6b5637c, size 0x3a0, virtual false, abstract: false, final false
+inline void BuildContextualMenu(::UnityEngine::UIElements::ContextualMenuPopulateEvent*  evt) ;
 
-  /// @brief Method Copy, addr 0x6b5476c, size 0x4c, virtual false, abstract: false, final false
-  inline void Copy(::UnityEngine::UIElements::DropdownMenuAction* a);
+/// @brief Method Copy, addr 0x6b562e4, size 0x4c, virtual false, abstract: false, final false
+inline void Copy(::UnityEngine::UIElements::DropdownMenuAction*  a) ;
 
-  /// @brief Method CopyActionStatus, addr 0x6b54cd8, size 0x134, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::DropdownMenuAction_Status CopyActionStatus(::UnityEngine::UIElements::DropdownMenuAction* a);
+/// @brief Method CopyActionStatus, addr 0x6b56850, size 0x134, virtual false, abstract: false, final false
+inline ::UnityEngine::UIElements::DropdownMenuAction_Status CopyActionStatus(::UnityEngine::UIElements::DropdownMenuAction*  a) ;
 
-  /// @brief Method Cut, addr 0x6b54720, size 0x4c, virtual false, abstract: false, final false
-  inline void Cut(::UnityEngine::UIElements::DropdownMenuAction* a);
+/// @brief Method Cut, addr 0x6b56298, size 0x4c, virtual false, abstract: false, final false
+inline void Cut(::UnityEngine::UIElements::DropdownMenuAction*  a) ;
 
-  /// @brief Method CutActionStatus, addr 0x6b54ba4, size 0x134, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::DropdownMenuAction_Status CutActionStatus(::UnityEngine::UIElements::DropdownMenuAction* a);
+/// @brief Method CutActionStatus, addr 0x6b5671c, size 0x134, virtual false, abstract: false, final false
+inline ::UnityEngine::UIElements::DropdownMenuAction_Status CutActionStatus(::UnityEngine::UIElements::DropdownMenuAction*  a) ;
 
-  /// @brief Method DoMeasure, addr 0x6b53740, size 0x64, virtual true, abstract: false, final false
-  inline ::UnityEngine::Vector2 DoMeasure(float_t desiredWidth, ::UnityEngine::UIElements::VisualElement_MeasureMode widthMode, float_t desiredHeight,
-                                          ::UnityEngine::UIElements::VisualElement_MeasureMode heightMode);
+/// @brief Method DoMeasure, addr 0x6b552b8, size 0x64, virtual true, abstract: false, final false
+inline ::UnityEngine::Vector2 DoMeasure(float_t  desiredWidth, ::UnityEngine::UIElements::VisualElement_MeasureMode  widthMode, float_t  desiredHeight, ::UnityEngine::UIElements::VisualElement_MeasureMode  heightMode) ;
 
-  /// @brief Method DrawCaret, addr 0x6b522e0, size 0x3cc, virtual false, abstract: false, final false
-  inline void DrawCaret(Il2CppObject* mgc);
+/// @brief Method DrawCaret, addr 0x6b53e58, size 0x3cc, virtual false, abstract: false, final false
+inline void DrawCaret(Il2CppObject*  mgc) ;
 
-  /// @brief Method DrawHighlighting, addr 0x6b526ac, size 0xa84, virtual false, abstract: false, final false
-  inline void DrawHighlighting(Il2CppObject* mgc);
+/// @brief Method DrawHighlighting, addr 0x6b54224, size 0xa84, virtual false, abstract: false, final false
+inline void DrawHighlighting(Il2CppObject*  mgc) ;
 
-  /// @brief Method DrawNativeHighlighting, addr 0x6b51e84, size 0x45c, virtual false, abstract: false, final false
-  inline void DrawNativeHighlighting(Il2CppObject* mgc);
+/// @brief Method DrawNativeHighlighting, addr 0x6b539fc, size 0x45c, virtual false, abstract: false, final false
+inline void DrawNativeHighlighting(Il2CppObject*  mgc) ;
 
-  /// @brief Method ElideText, addr 0x6b531dc, size 0x510, virtual false, abstract: false, final false
-  inline ::StringW ElideText(::StringW drawText, ::StringW ellipsisText, float_t width, ::UnityEngine::UIElements::TextOverflowPosition textOverflowPosition);
+/// @brief Method ElideText, addr 0x6b54d54, size 0x510, virtual false, abstract: false, final false
+inline ::StringW ElideText(::StringW  drawText, ::StringW  ellipsisText, float_t  width, ::UnityEngine::UIElements::TextOverflowPosition  textOverflowPosition) ;
 
-  /// @brief Method GetDefaultValueType, addr 0x6b515ac, size 0x44, virtual false, abstract: false, final false
-  inline ::StringW GetDefaultValueType();
+/// @brief Method GetDefaultValueType, addr 0x6b53124, size 0x44, virtual false, abstract: false, final false
+inline ::StringW GetDefaultValueType() ;
 
-  /// @brief Method GetLastCharacterAt, addr 0x6b57e00, size 0x140, virtual false, abstract: false, final false
-  inline int32_t GetLastCharacterAt(int32_t lineIndex);
+/// @brief Method GetLastCharacterAt, addr 0x6b59978, size 0x140, virtual false, abstract: false, final false
+inline int32_t GetLastCharacterAt(int32_t  lineIndex) ;
 
-  /// @brief Method HandleEventBubbleUp, addr 0x6b54e54, size 0x358, virtual true, abstract: false, final false
-  inline void HandleEventBubbleUp(::UnityEngine::UIElements::EventBase* evt);
+/// @brief Method HandleEventBubbleUp, addr 0x6b569cc, size 0x358, virtual true, abstract: false, final false
+inline void HandleEventBubbleUp(::UnityEngine::UIElements::EventBase*  evt) ;
 
-  /// @brief Method MeasureTextSize, addr 0x6b536ec, size 0x54, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector2 MeasureTextSize(::StringW textToMeasure, float_t width, ::UnityEngine::UIElements::VisualElement_MeasureMode widthMode, float_t height,
-                                                ::UnityEngine::UIElements::VisualElement_MeasureMode heightMode);
+/// @brief Method MeasureTextSize, addr 0x6b55264, size 0x54, virtual false, abstract: false, final false
+inline ::UnityEngine::Vector2 MeasureTextSize(::StringW  textToMeasure, float_t  width, ::UnityEngine::UIElements::VisualElement_MeasureMode  widthMode, float_t  height, ::UnityEngine::UIElements::VisualElement_MeasureMode  heightMode) ;
 
-  static inline ::UnityEngine::UIElements::TextElement* New_ctor();
+static inline ::UnityEngine::UIElements::TextElement* New_ctor() ;
 
-  /// @brief Method OnDetachFromPanel, addr 0x6b51720, size 0x30, virtual false, abstract: false, final false
-  inline void OnDetachFromPanel(::UnityEngine::UIElements::DetachFromPanelEvent* detachEvent);
+/// @brief Method OnDetachFromPanel, addr 0x6b53298, size 0x30, virtual false, abstract: false, final false
+inline void OnDetachFromPanel(::UnityEngine::UIElements::DetachFromPanelEvent*  detachEvent) ;
 
-  /// @brief Method OnGenerateTextOver, addr 0x6b4fff0, size 0x218, virtual false, abstract: false, final false
-  inline void OnGenerateTextOver(Il2CppObject* mgc);
+/// @brief Method OnGenerateTextOver, addr 0x6b51b68, size 0x218, virtual false, abstract: false, final false
+inline void OnGenerateTextOver(Il2CppObject*  mgc) ;
 
-  /// @brief Method OnGenerateVisualContent, addr 0x6b51b98, size 0x2ec, virtual false, abstract: false, final false
-  inline void OnGenerateVisualContent(Il2CppObject* mgc);
+/// @brief Method OnGenerateVisualContent, addr 0x6b53710, size 0x2ec, virtual false, abstract: false, final false
+inline void OnGenerateVisualContent(Il2CppObject*  mgc) ;
 
-  /// @brief Method OnGeometryChanged, addr 0x6b51600, size 0x4, virtual false, abstract: false, final false
-  inline void OnGeometryChanged(::UnityEngine::UIElements::GeometryChangedEvent* e);
+/// @brief Method OnGeometryChanged, addr 0x6b53178, size 0x4, virtual false, abstract: false, final false
+inline void OnGeometryChanged(::UnityEngine::UIElements::GeometryChangedEvent*  e) ;
 
-  /// @brief Method Paste, addr 0x6b547b8, size 0x4c, virtual false, abstract: false, final false
-  inline void Paste(::UnityEngine::UIElements::DropdownMenuAction* a);
+/// @brief Method Paste, addr 0x6b56330, size 0x4c, virtual false, abstract: false, final false
+inline void Paste(::UnityEngine::UIElements::DropdownMenuAction*  a) ;
 
-  /// @brief Method PasteActionStatus, addr 0x6b54e0c, size 0x48, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::DropdownMenuAction_Status PasteActionStatus(::UnityEngine::UIElements::DropdownMenuAction* a);
+/// @brief Method PasteActionStatus, addr 0x6b56984, size 0x48, virtual false, abstract: false, final false
+inline ::UnityEngine::UIElements::DropdownMenuAction_Status PasteActionStatus(::UnityEngine::UIElements::DropdownMenuAction*  a) ;
 
-  /// @brief Method ProcessMenuCommand, addr 0x6b545ac, size 0x174, virtual false, abstract: false, final false
-  inline void ProcessMenuCommand(::StringW command);
+/// @brief Method ProcessMenuCommand, addr 0x6b56124, size 0x174, virtual false, abstract: false, final false
+inline void ProcessMenuCommand(::StringW  command) ;
 
-  /// @brief Method SetRenderedText, addr 0x6b53dbc, size 0x8, virtual false, abstract: false, final false
-  inline void SetRenderedText(::StringW value);
+/// @brief Method SetRenderedText, addr 0x6b55934, size 0x8, virtual false, abstract: false, final false
+inline void SetRenderedText(::StringW  value) ;
 
-  /// @brief Method ShouldElide, addr 0x6b53130, size 0x40, virtual false, abstract: false, final false
-  inline bool ShouldElide();
+/// @brief Method ShouldElide, addr 0x6b54ca8, size 0x40, virtual false, abstract: false, final false
+inline bool ShouldElide() ;
 
-  /// @brief Method UnityEngine.UIElements.INotifyValueChanged<System.String>.SetValueWithoutNotify, addr 0x6b53c14, size 0x1a8, virtual true, abstract: false, final true
-  inline void UnityEngine_UIElements_INotifyValueChanged_System_String__SetValueWithoutNotify(::StringW newValue);
+/// @brief Method UnityEngine.UIElements.INotifyValueChanged<System.String>.SetValueWithoutNotify, addr 0x6b5578c, size 0x1a8, virtual true, abstract: false, final true
+inline void UnityEngine_UIElements_INotifyValueChanged_System_String__SetValueWithoutNotify(::StringW  newValue) ;
 
-  /// @brief Method UnityEngine.UIElements.INotifyValueChanged<System.String>.get_value, addr 0x6b537a4, size 0x20, virtual true, abstract: false, final true
-  inline ::StringW UnityEngine_UIElements_INotifyValueChanged_System_String__get_value();
+/// @brief Method UnityEngine.UIElements.INotifyValueChanged<System.String>.get_value, addr 0x6b5531c, size 0x20, virtual true, abstract: false, final true
+inline ::StringW UnityEngine_UIElements_INotifyValueChanged_System_String__get_value() ;
 
-  /// @brief Method UnityEngine.UIElements.INotifyValueChanged<System.String>.set_value, addr 0x6b537c4, size 0x30c, virtual true, abstract: false, final true
-  inline void UnityEngine_UIElements_INotifyValueChanged_System_String__set_value(::StringW value);
+/// @brief Method UnityEngine.UIElements.INotifyValueChanged<System.String>.set_value, addr 0x6b5533c, size 0x30c, virtual true, abstract: false, final true
+inline void UnityEngine_UIElements_INotifyValueChanged_System_String__set_value(::StringW  value) ;
 
-  /// @brief Method UnityEngine.UIElements.ITextEdition.CullString, addr 0x6b55918, size 0xec, virtual true, abstract: false, final true
-  inline ::StringW UnityEngine_UIElements_ITextEdition_CullString(::StringW s);
+/// @brief Method UnityEngine.UIElements.ITextEdition.CullString, addr 0x6b57490, size 0xec, virtual true, abstract: false, final true
+inline ::StringW UnityEngine_UIElements_ITextEdition_CullString(::StringW  s) ;
 
-  /// @brief Method UnityEngine.UIElements.ITextEdition.RestoreValueAndText, addr 0x6b55628, size 0x14, virtual true, abstract: false, final true
-  inline void UnityEngine_UIElements_ITextEdition_RestoreValueAndText();
+/// @brief Method UnityEngine.UIElements.ITextEdition.RestoreValueAndText, addr 0x6b571a0, size 0x14, virtual true, abstract: false, final true
+inline void UnityEngine_UIElements_ITextEdition_RestoreValueAndText() ;
 
-  /// @brief Method UnityEngine.UIElements.ITextEdition.SaveValueAndText, addr 0x6b55604, size 0x24, virtual true, abstract: false, final true
-  inline void UnityEngine_UIElements_ITextEdition_SaveValueAndText();
+/// @brief Method UnityEngine.UIElements.ITextEdition.SaveValueAndText, addr 0x6b5717c, size 0x24, virtual true, abstract: false, final true
+inline void UnityEngine_UIElements_ITextEdition_SaveValueAndText() ;
 
-  /// @brief Method UnityEngine.UIElements.ITextEdition.UpdateText, addr 0x6b556ac, size 0x26c, virtual true, abstract: false, final true
-  inline void UnityEngine_UIElements_ITextEdition_UpdateText(::StringW value);
+/// @brief Method UnityEngine.UIElements.ITextEdition.UpdateText, addr 0x6b57224, size 0x26c, virtual true, abstract: false, final true
+inline void UnityEngine_UIElements_ITextEdition_UpdateText(::StringW  value) ;
 
-  /// @brief Method UnityEngine.UIElements.ITextEdition.get_AcceptCharacter, addr 0x6b5563c, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Func_2<char16_t, bool>* UnityEngine_UIElements_ITextEdition_get_AcceptCharacter();
+/// @brief Method UnityEngine.UIElements.ITextEdition.get_AcceptCharacter, addr 0x6b571b4, size 0x8, virtual true, abstract: false, final true
+inline ::System::Func_2<char16_t,bool>* UnityEngine_UIElements_ITextEdition_get_AcceptCharacter() ;
 
-  /// @brief Method UnityEngine.UIElements.ITextEdition.get_GetDefaultValueType, addr 0x6b5569c, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Func_1<::StringW>* UnityEngine_UIElements_ITextEdition_get_GetDefaultValueType();
+/// @brief Method UnityEngine.UIElements.ITextEdition.get_GetDefaultValueType, addr 0x6b57214, size 0x8, virtual true, abstract: false, final true
+inline ::System::Func_1<::StringW>* UnityEngine_UIElements_ITextEdition_get_GetDefaultValueType() ;
 
-  /// @brief Method UnityEngine.UIElements.ITextEdition.get_MoveFocusToCompositeRoot, addr 0x6b5567c, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Action* UnityEngine_UIElements_ITextEdition_get_MoveFocusToCompositeRoot();
+/// @brief Method UnityEngine.UIElements.ITextEdition.get_MoveFocusToCompositeRoot, addr 0x6b571f4, size 0x8, virtual true, abstract: false, final true
+inline ::System::Action* UnityEngine_UIElements_ITextEdition_get_MoveFocusToCompositeRoot() ;
 
-  /// @brief Method UnityEngine.UIElements.ITextEdition.get_UpdateScrollOffset, addr 0x6b5564c, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Action_1<bool>* UnityEngine_UIElements_ITextEdition_get_UpdateScrollOffset();
+/// @brief Method UnityEngine.UIElements.ITextEdition.get_UpdateScrollOffset, addr 0x6b571c4, size 0x8, virtual true, abstract: false, final true
+inline ::System::Action_1<bool>* UnityEngine_UIElements_ITextEdition_get_UpdateScrollOffset() ;
 
-  /// @brief Method UnityEngine.UIElements.ITextEdition.get_UpdateTextFromValue, addr 0x6b5566c, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Action* UnityEngine_UIElements_ITextEdition_get_UpdateTextFromValue();
+/// @brief Method UnityEngine.UIElements.ITextEdition.get_UpdateTextFromValue, addr 0x6b571e4, size 0x8, virtual true, abstract: false, final true
+inline ::System::Action* UnityEngine_UIElements_ITextEdition_get_UpdateTextFromValue() ;
 
-  /// @brief Method UnityEngine.UIElements.ITextEdition.get_UpdateValueFromText, addr 0x6b5565c, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Action* UnityEngine_UIElements_ITextEdition_get_UpdateValueFromText();
+/// @brief Method UnityEngine.UIElements.ITextEdition.get_UpdateValueFromText, addr 0x6b571d4, size 0x8, virtual true, abstract: false, final true
+inline ::System::Action* UnityEngine_UIElements_ITextEdition_get_UpdateValueFromText() ;
 
-  /// @brief Method UnityEngine.UIElements.ITextEdition.get_autoCorrection, addr 0x6b55f6c, size 0x8, virtual true, abstract: false, final true
-  inline bool UnityEngine_UIElements_ITextEdition_get_autoCorrection();
+/// @brief Method UnityEngine.UIElements.ITextEdition.get_autoCorrection, addr 0x6b57ae4, size 0x8, virtual true, abstract: false, final true
+inline bool UnityEngine_UIElements_ITextEdition_get_autoCorrection() ;
 
-  /// @brief Method UnityEngine.UIElements.ITextEdition.get_hideMobileInput, addr 0x6b540a8, size 0x68, virtual true, abstract: false, final true
-  inline bool UnityEngine_UIElements_ITextEdition_get_hideMobileInput();
+/// @brief Method UnityEngine.UIElements.ITextEdition.get_hideMobileInput, addr 0x6b55c20, size 0x68, virtual true, abstract: false, final true
+inline bool UnityEngine_UIElements_ITextEdition_get_hideMobileInput() ;
 
-  /// @brief Method UnityEngine.UIElements.ITextEdition.get_hidePlaceholderOnFocus, addr 0x6b55f5c, size 0x8, virtual true, abstract: false, final true
-  inline bool UnityEngine_UIElements_ITextEdition_get_hidePlaceholderOnFocus();
+/// @brief Method UnityEngine.UIElements.ITextEdition.get_hidePlaceholderOnFocus, addr 0x6b57ad4, size 0x8, virtual true, abstract: false, final true
+inline bool UnityEngine_UIElements_ITextEdition_get_hidePlaceholderOnFocus() ;
 
-  /// @brief Method UnityEngine.UIElements.ITextEdition.get_isDelayed, addr 0x6b555f4, size 0x8, virtual true, abstract: false, final true
-  inline bool UnityEngine_UIElements_ITextEdition_get_isDelayed();
+/// @brief Method UnityEngine.UIElements.ITextEdition.get_isDelayed, addr 0x6b5716c, size 0x8, virtual true, abstract: false, final true
+inline bool UnityEngine_UIElements_ITextEdition_get_isDelayed() ;
 
-  /// @brief Method UnityEngine.UIElements.ITextEdition.get_isPassword, addr 0x6b55d48, size 0x8, virtual true, abstract: false, final true
-  inline bool UnityEngine_UIElements_ITextEdition_get_isPassword();
+/// @brief Method UnityEngine.UIElements.ITextEdition.get_isPassword, addr 0x6b578c0, size 0x8, virtual true, abstract: false, final true
+inline bool UnityEngine_UIElements_ITextEdition_get_isPassword() ;
 
-  /// @brief Method UnityEngine.UIElements.ITextEdition.get_isReadOnly, addr 0x6b54324, size 0x1c, virtual true, abstract: false, final true
-  inline bool UnityEngine_UIElements_ITextEdition_get_isReadOnly();
+/// @brief Method UnityEngine.UIElements.ITextEdition.get_isReadOnly, addr 0x6b55e9c, size 0x1c, virtual true, abstract: false, final true
+inline bool UnityEngine_UIElements_ITextEdition_get_isReadOnly() ;
 
-  /// @brief Method UnityEngine.UIElements.ITextEdition.get_keyboardType, addr 0x6b53eb4, size 0x8, virtual true, abstract: false, final true
-  inline ::UnityEngine::TouchScreenKeyboardType UnityEngine_UIElements_ITextEdition_get_keyboardType();
+/// @brief Method UnityEngine.UIElements.ITextEdition.get_keyboardType, addr 0x6b55a2c, size 0x8, virtual true, abstract: false, final true
+inline ::UnityEngine::TouchScreenKeyboardType UnityEngine_UIElements_ITextEdition_get_keyboardType() ;
 
-  /// @brief Method UnityEngine.UIElements.ITextEdition.get_maskChar, addr 0x6b55a04, size 0x8, virtual true, abstract: false, final true
-  inline char16_t UnityEngine_UIElements_ITextEdition_get_maskChar();
+/// @brief Method UnityEngine.UIElements.ITextEdition.get_maskChar, addr 0x6b5757c, size 0x8, virtual true, abstract: false, final true
+inline char16_t UnityEngine_UIElements_ITextEdition_get_maskChar() ;
 
-  /// @brief Method UnityEngine.UIElements.ITextEdition.get_maxLength, addr 0x6b551ac, size 0x8, virtual true, abstract: false, final true
-  inline int32_t UnityEngine_UIElements_ITextEdition_get_maxLength();
+/// @brief Method UnityEngine.UIElements.ITextEdition.get_maxLength, addr 0x6b56d24, size 0x8, virtual true, abstract: false, final true
+inline int32_t UnityEngine_UIElements_ITextEdition_get_maxLength() ;
 
-  /// @brief Method UnityEngine.UIElements.ITextEdition.get_multiline, addr 0x6b53dd4, size 0x8, virtual true, abstract: false, final true
-  inline bool UnityEngine_UIElements_ITextEdition_get_multiline();
+/// @brief Method UnityEngine.UIElements.ITextEdition.get_multiline, addr 0x6b5594c, size 0x8, virtual true, abstract: false, final true
+inline bool UnityEngine_UIElements_ITextEdition_get_multiline() ;
 
-  /// @brief Method UnityEngine.UIElements.ITextEdition.get_placeholder, addr 0x6b55448, size 0x8, virtual true, abstract: false, final true
-  inline ::StringW UnityEngine_UIElements_ITextEdition_get_placeholder();
+/// @brief Method UnityEngine.UIElements.ITextEdition.get_placeholder, addr 0x6b56fc0, size 0x8, virtual true, abstract: false, final true
+inline ::StringW UnityEngine_UIElements_ITextEdition_get_placeholder() ;
 
-  /// @brief Method UnityEngine.UIElements.ITextEdition.set_AcceptCharacter, addr 0x6b55644, size 0x8, virtual true, abstract: false, final true
-  inline void UnityEngine_UIElements_ITextEdition_set_AcceptCharacter(::System::Func_2<char16_t, bool>* value);
+/// @brief Method UnityEngine.UIElements.ITextEdition.set_AcceptCharacter, addr 0x6b571bc, size 0x8, virtual true, abstract: false, final true
+inline void UnityEngine_UIElements_ITextEdition_set_AcceptCharacter(::System::Func_2<char16_t,bool>*  value) ;
 
-  /// @brief Method UnityEngine.UIElements.ITextEdition.set_GetDefaultValueType, addr 0x6b556a4, size 0x8, virtual true, abstract: false, final true
-  inline void UnityEngine_UIElements_ITextEdition_set_GetDefaultValueType(::System::Func_1<::StringW>* value);
+/// @brief Method UnityEngine.UIElements.ITextEdition.set_GetDefaultValueType, addr 0x6b5721c, size 0x8, virtual true, abstract: false, final true
+inline void UnityEngine_UIElements_ITextEdition_set_GetDefaultValueType(::System::Func_1<::StringW>*  value) ;
 
-  /// @brief Method UnityEngine.UIElements.ITextEdition.set_MoveFocusToCompositeRoot, addr 0x6b55684, size 0x8, virtual true, abstract: false, final true
-  inline void UnityEngine_UIElements_ITextEdition_set_MoveFocusToCompositeRoot(::System::Action* value);
+/// @brief Method UnityEngine.UIElements.ITextEdition.set_MoveFocusToCompositeRoot, addr 0x6b571fc, size 0x8, virtual true, abstract: false, final true
+inline void UnityEngine_UIElements_ITextEdition_set_MoveFocusToCompositeRoot(::System::Action*  value) ;
 
-  /// @brief Method UnityEngine.UIElements.ITextEdition.set_UpdateScrollOffset, addr 0x6b55654, size 0x8, virtual true, abstract: false, final true
-  inline void UnityEngine_UIElements_ITextEdition_set_UpdateScrollOffset(::System::Action_1<bool>* value);
+/// @brief Method UnityEngine.UIElements.ITextEdition.set_UpdateScrollOffset, addr 0x6b571cc, size 0x8, virtual true, abstract: false, final true
+inline void UnityEngine_UIElements_ITextEdition_set_UpdateScrollOffset(::System::Action_1<bool>*  value) ;
 
-  /// @brief Method UnityEngine.UIElements.ITextEdition.set_UpdateTextFromValue, addr 0x6b55674, size 0x8, virtual true, abstract: false, final true
-  inline void UnityEngine_UIElements_ITextEdition_set_UpdateTextFromValue(::System::Action* value);
+/// @brief Method UnityEngine.UIElements.ITextEdition.set_UpdateTextFromValue, addr 0x6b571ec, size 0x8, virtual true, abstract: false, final true
+inline void UnityEngine_UIElements_ITextEdition_set_UpdateTextFromValue(::System::Action*  value) ;
 
-  /// @brief Method UnityEngine.UIElements.ITextEdition.set_UpdateValueFromText, addr 0x6b55664, size 0x8, virtual true, abstract: false, final true
-  inline void UnityEngine_UIElements_ITextEdition_set_UpdateValueFromText(::System::Action* value);
+/// @brief Method UnityEngine.UIElements.ITextEdition.set_UpdateValueFromText, addr 0x6b571dc, size 0x8, virtual true, abstract: false, final true
+inline void UnityEngine_UIElements_ITextEdition_set_UpdateValueFromText(::System::Action*  value) ;
 
-  /// @brief Method UnityEngine.UIElements.ITextEdition.set_autoCorrection, addr 0x6b55f74, size 0x94, virtual true, abstract: false, final true
-  inline void UnityEngine_UIElements_ITextEdition_set_autoCorrection(bool value);
+/// @brief Method UnityEngine.UIElements.ITextEdition.set_autoCorrection, addr 0x6b57aec, size 0x94, virtual true, abstract: false, final true
+inline void UnityEngine_UIElements_ITextEdition_set_autoCorrection(bool  value) ;
 
-  /// @brief Method UnityEngine.UIElements.ITextEdition.set_hideMobileInput, addr 0x6b54110, size 0xbc, virtual true, abstract: false, final true
-  inline void UnityEngine_UIElements_ITextEdition_set_hideMobileInput(bool value);
+/// @brief Method UnityEngine.UIElements.ITextEdition.set_hideMobileInput, addr 0x6b55c88, size 0xbc, virtual true, abstract: false, final true
+inline void UnityEngine_UIElements_ITextEdition_set_hideMobileInput(bool  value) ;
 
-  /// @brief Method UnityEngine.UIElements.ITextEdition.set_hidePlaceholderOnFocus, addr 0x6b55f64, size 0x8, virtual true, abstract: false, final true
-  inline void UnityEngine_UIElements_ITextEdition_set_hidePlaceholderOnFocus(bool value);
+/// @brief Method UnityEngine.UIElements.ITextEdition.set_hidePlaceholderOnFocus, addr 0x6b57adc, size 0x8, virtual true, abstract: false, final true
+inline void UnityEngine_UIElements_ITextEdition_set_hidePlaceholderOnFocus(bool  value) ;
 
-  /// @brief Method UnityEngine.UIElements.ITextEdition.set_isDelayed, addr 0x6b555fc, size 0x8, virtual true, abstract: false, final true
-  inline void UnityEngine_UIElements_ITextEdition_set_isDelayed(bool value);
+/// @brief Method UnityEngine.UIElements.ITextEdition.set_isDelayed, addr 0x6b57174, size 0x8, virtual true, abstract: false, final true
+inline void UnityEngine_UIElements_ITextEdition_set_isDelayed(bool  value) ;
 
-  /// @brief Method UnityEngine.UIElements.ITextEdition.set_isPassword, addr 0x6b55d50, size 0xb4, virtual true, abstract: false, final true
-  inline void UnityEngine_UIElements_ITextEdition_set_isPassword(bool value);
+/// @brief Method UnityEngine.UIElements.ITextEdition.set_isPassword, addr 0x6b578c8, size 0xb4, virtual true, abstract: false, final true
+inline void UnityEngine_UIElements_ITextEdition_set_isPassword(bool  value) ;
 
-  /// @brief Method UnityEngine.UIElements.ITextEdition.set_isReadOnly, addr 0x6b54340, size 0x114, virtual true, abstract: false, final true
-  inline void UnityEngine_UIElements_ITextEdition_set_isReadOnly(bool value);
+/// @brief Method UnityEngine.UIElements.ITextEdition.set_isReadOnly, addr 0x6b55eb8, size 0x114, virtual true, abstract: false, final true
+inline void UnityEngine_UIElements_ITextEdition_set_isReadOnly(bool  value) ;
 
-  /// @brief Method UnityEngine.UIElements.ITextEdition.set_keyboardType, addr 0x6b53ebc, size 0x94, virtual true, abstract: false, final true
-  inline void UnityEngine_UIElements_ITextEdition_set_keyboardType(::UnityEngine::TouchScreenKeyboardType value);
+/// @brief Method UnityEngine.UIElements.ITextEdition.set_keyboardType, addr 0x6b55a34, size 0x94, virtual true, abstract: false, final true
+inline void UnityEngine_UIElements_ITextEdition_set_keyboardType(::UnityEngine::TouchScreenKeyboardType  value) ;
 
-  /// @brief Method UnityEngine.UIElements.ITextEdition.set_maskChar, addr 0x6b55a0c, size 0x12c, virtual true, abstract: false, final true
-  inline void UnityEngine_UIElements_ITextEdition_set_maskChar(char16_t value);
+/// @brief Method UnityEngine.UIElements.ITextEdition.set_maskChar, addr 0x6b57584, size 0x12c, virtual true, abstract: false, final true
+inline void UnityEngine_UIElements_ITextEdition_set_maskChar(char16_t  value) ;
 
-  /// @brief Method UnityEngine.UIElements.ITextEdition.set_maxLength, addr 0x6b551b4, size 0x13c, virtual true, abstract: false, final true
-  inline void UnityEngine_UIElements_ITextEdition_set_maxLength(int32_t value);
+/// @brief Method UnityEngine.UIElements.ITextEdition.set_maxLength, addr 0x6b56d2c, size 0x13c, virtual true, abstract: false, final true
+inline void UnityEngine_UIElements_ITextEdition_set_maxLength(int32_t  value) ;
 
-  /// @brief Method UnityEngine.UIElements.ITextEdition.set_multiline, addr 0x6b53ddc, size 0xd8, virtual true, abstract: false, final true
-  inline void UnityEngine_UIElements_ITextEdition_set_multiline(bool value);
+/// @brief Method UnityEngine.UIElements.ITextEdition.set_multiline, addr 0x6b55954, size 0xd8, virtual true, abstract: false, final true
+inline void UnityEngine_UIElements_ITextEdition_set_multiline(bool  value) ;
 
-  /// @brief Method UnityEngine.UIElements.ITextEdition.set_placeholder, addr 0x6b55450, size 0x1a4, virtual true, abstract: false, final true
-  inline void UnityEngine_UIElements_ITextEdition_set_placeholder(::StringW value);
+/// @brief Method UnityEngine.UIElements.ITextEdition.set_placeholder, addr 0x6b56fc8, size 0x1a4, virtual true, abstract: false, final true
+inline void UnityEngine_UIElements_ITextEdition_set_placeholder(::StringW  value) ;
 
-  /// @brief Method UnityEngine.UIElements.ITextSelection.HasSelection, addr 0x6b56d94, size 0xe0, virtual true, abstract: false, final true
-  inline bool UnityEngine_UIElements_ITextSelection_HasSelection();
+/// @brief Method UnityEngine.UIElements.ITextSelection.HasSelection, addr 0x6b5890c, size 0xe0, virtual true, abstract: false, final true
+inline bool UnityEngine_UIElements_ITextSelection_HasSelection() ;
 
-  /// @brief Method UnityEngine.UIElements.ITextSelection.SelectAll, addr 0x6b56bfc, size 0xcc, virtual true, abstract: false, final true
-  inline void UnityEngine_UIElements_ITextSelection_SelectAll();
+/// @brief Method UnityEngine.UIElements.ITextSelection.SelectAll, addr 0x6b58774, size 0xcc, virtual true, abstract: false, final true
+inline void UnityEngine_UIElements_ITextSelection_SelectAll() ;
 
-  /// @brief Method UnityEngine.UIElements.ITextSelection.SelectNone, addr 0x6b56cc8, size 0xcc, virtual true, abstract: false, final true
-  inline void UnityEngine_UIElements_ITextSelection_SelectNone();
+/// @brief Method UnityEngine.UIElements.ITextSelection.SelectNone, addr 0x6b58840, size 0xcc, virtual true, abstract: false, final true
+inline void UnityEngine_UIElements_ITextSelection_SelectNone() ;
 
-  /// @brief Method UnityEngine.UIElements.ITextSelection.get_cursorColor, addr 0x6b57b54, size 0x14, virtual true, abstract: false, final true
-  inline ::UnityEngine::Color UnityEngine_UIElements_ITextSelection_get_cursorColor();
+/// @brief Method UnityEngine.UIElements.ITextSelection.get_cursorColor, addr 0x6b596cc, size 0x14, virtual true, abstract: false, final true
+inline ::UnityEngine::Color UnityEngine_UIElements_ITextSelection_get_cursorColor() ;
 
-  /// @brief Method UnityEngine.UIElements.ITextSelection.get_cursorIndex, addr 0x6b563ac, size 0xd0, virtual true, abstract: false, final true
-  inline int32_t UnityEngine_UIElements_ITextSelection_get_cursorIndex();
+/// @brief Method UnityEngine.UIElements.ITextSelection.get_cursorIndex, addr 0x6b57f24, size 0xd0, virtual true, abstract: false, final true
+inline int32_t UnityEngine_UIElements_ITextSelection_get_cursorIndex() ;
 
-  /// @brief Method UnityEngine.UIElements.ITextSelection.get_cursorPosition, addr 0x6b57644, size 0xfc, virtual true, abstract: false, final true
-  inline ::UnityEngine::Vector2 UnityEngine_UIElements_ITextSelection_get_cursorPosition();
+/// @brief Method UnityEngine.UIElements.ITextSelection.get_cursorPosition, addr 0x6b591bc, size 0xfc, virtual true, abstract: false, final true
+inline ::UnityEngine::Vector2 UnityEngine_UIElements_ITextSelection_get_cursorPosition() ;
 
-  /// @brief Method UnityEngine.UIElements.ITextSelection.get_cursorWidth, addr 0x6b57df8, size 0x8, virtual true, abstract: false, final true
-  inline float_t UnityEngine_UIElements_ITextSelection_get_cursorWidth();
+/// @brief Method UnityEngine.UIElements.ITextSelection.get_cursorWidth, addr 0x6b59970, size 0x8, virtual true, abstract: false, final true
+inline float_t UnityEngine_UIElements_ITextSelection_get_cursorWidth() ;
 
-  /// @brief Method UnityEngine.UIElements.ITextSelection.get_doubleClickSelectsWord, addr 0x6b56e74, size 0x8, virtual true, abstract: false, final true
-  inline bool UnityEngine_UIElements_ITextSelection_get_doubleClickSelectsWord();
+/// @brief Method UnityEngine.UIElements.ITextSelection.get_doubleClickSelectsWord, addr 0x6b589ec, size 0x8, virtual true, abstract: false, final true
+inline bool UnityEngine_UIElements_ITextSelection_get_doubleClickSelectsWord() ;
 
-  /// @brief Method UnityEngine.UIElements.ITextSelection.get_isSelectable, addr 0x6b56168, size 0x20, virtual true, abstract: false, final true
-  inline bool UnityEngine_UIElements_ITextSelection_get_isSelectable();
+/// @brief Method UnityEngine.UIElements.ITextSelection.get_isSelectable, addr 0x6b57ce0, size 0x20, virtual true, abstract: false, final true
+inline bool UnityEngine_UIElements_ITextSelection_get_isSelectable() ;
 
-  /// @brief Method UnityEngine.UIElements.ITextSelection.get_lineHeightAtCursorPosition, addr 0x6b577e4, size 0xcc, virtual true, abstract: false, final true
-  inline float_t UnityEngine_UIElements_ITextSelection_get_lineHeightAtCursorPosition();
+/// @brief Method UnityEngine.UIElements.ITextSelection.get_lineHeightAtCursorPosition, addr 0x6b5935c, size 0xcc, virtual true, abstract: false, final true
+inline float_t UnityEngine_UIElements_ITextSelection_get_lineHeightAtCursorPosition() ;
 
-  /// @brief Method UnityEngine.UIElements.ITextSelection.get_selectAllOnFocus, addr 0x6b5725c, size 0x8, virtual true, abstract: false, final true
-  inline bool UnityEngine_UIElements_ITextSelection_get_selectAllOnFocus();
+/// @brief Method UnityEngine.UIElements.ITextSelection.get_selectAllOnFocus, addr 0x6b58dd4, size 0x8, virtual true, abstract: false, final true
+inline bool UnityEngine_UIElements_ITextSelection_get_selectAllOnFocus() ;
 
-  /// @brief Method UnityEngine.UIElements.ITextSelection.get_selectAllOnMouseUp, addr 0x6b57450, size 0x8, virtual true, abstract: false, final true
-  inline bool UnityEngine_UIElements_ITextSelection_get_selectAllOnMouseUp();
+/// @brief Method UnityEngine.UIElements.ITextSelection.get_selectAllOnMouseUp, addr 0x6b58fc8, size 0x8, virtual true, abstract: false, final true
+inline bool UnityEngine_UIElements_ITextSelection_get_selectAllOnMouseUp() ;
 
-  /// @brief Method UnityEngine.UIElements.ITextSelection.get_selectIndex, addr 0x6b567d4, size 0xd0, virtual true, abstract: false, final true
-  inline int32_t UnityEngine_UIElements_ITextSelection_get_selectIndex();
+/// @brief Method UnityEngine.UIElements.ITextSelection.get_selectIndex, addr 0x6b5834c, size 0xd0, virtual true, abstract: false, final true
+inline int32_t UnityEngine_UIElements_ITextSelection_get_selectIndex() ;
 
-  /// @brief Method UnityEngine.UIElements.ITextSelection.get_selectionColor, addr 0x6b578b0, size 0x14, virtual true, abstract: false, final true
-  inline ::UnityEngine::Color UnityEngine_UIElements_ITextSelection_get_selectionColor();
+/// @brief Method UnityEngine.UIElements.ITextSelection.get_selectionColor, addr 0x6b59428, size 0x14, virtual true, abstract: false, final true
+inline ::UnityEngine::Color UnityEngine_UIElements_ITextSelection_get_selectionColor() ;
 
-  /// @brief Method UnityEngine.UIElements.ITextSelection.get_tripleClickSelectsLine, addr 0x6b57068, size 0x8, virtual true, abstract: false, final true
-  inline bool UnityEngine_UIElements_ITextSelection_get_tripleClickSelectsLine();
+/// @brief Method UnityEngine.UIElements.ITextSelection.get_tripleClickSelectsLine, addr 0x6b58be0, size 0x8, virtual true, abstract: false, final true
+inline bool UnityEngine_UIElements_ITextSelection_get_tripleClickSelectsLine() ;
 
-  /// @brief Method UnityEngine.UIElements.ITextSelection.set_cursorColor, addr 0x6b57b68, size 0x118, virtual true, abstract: false, final true
-  inline void UnityEngine_UIElements_ITextSelection_set_cursorColor(::UnityEngine::Color value);
+/// @brief Method UnityEngine.UIElements.ITextSelection.set_cursorColor, addr 0x6b596e0, size 0x118, virtual true, abstract: false, final true
+inline void UnityEngine_UIElements_ITextSelection_set_cursorColor(::UnityEngine::Color  value) ;
 
-  /// @brief Method UnityEngine.UIElements.ITextSelection.set_cursorIndex, addr 0x6b5647c, size 0x200, virtual true, abstract: false, final true
-  inline void UnityEngine_UIElements_ITextSelection_set_cursorIndex(int32_t value);
+/// @brief Method UnityEngine.UIElements.ITextSelection.set_cursorIndex, addr 0x6b57ff4, size 0x200, virtual true, abstract: false, final true
+inline void UnityEngine_UIElements_ITextSelection_set_cursorIndex(int32_t  value) ;
 
-  /// @brief Method UnityEngine.UIElements.ITextSelection.set_doubleClickSelectsWord, addr 0x6b56e7c, size 0x94, virtual true, abstract: false, final true
-  inline void UnityEngine_UIElements_ITextSelection_set_doubleClickSelectsWord(bool value);
+/// @brief Method UnityEngine.UIElements.ITextSelection.set_doubleClickSelectsWord, addr 0x6b589f4, size 0x94, virtual true, abstract: false, final true
+inline void UnityEngine_UIElements_ITextSelection_set_doubleClickSelectsWord(bool  value) ;
 
-  /// @brief Method UnityEngine.UIElements.ITextSelection.set_isSelectable, addr 0x6b56188, size 0xd0, virtual true, abstract: false, final true
-  inline void UnityEngine_UIElements_ITextSelection_set_isSelectable(bool value);
+/// @brief Method UnityEngine.UIElements.ITextSelection.set_isSelectable, addr 0x6b57d00, size 0xd0, virtual true, abstract: false, final true
+inline void UnityEngine_UIElements_ITextSelection_set_isSelectable(bool  value) ;
 
-  /// @brief Method UnityEngine.UIElements.ITextSelection.set_selectAllOnFocus, addr 0x6b57264, size 0x94, virtual true, abstract: false, final true
-  inline void UnityEngine_UIElements_ITextSelection_set_selectAllOnFocus(bool value);
+/// @brief Method UnityEngine.UIElements.ITextSelection.set_selectAllOnFocus, addr 0x6b58ddc, size 0x94, virtual true, abstract: false, final true
+inline void UnityEngine_UIElements_ITextSelection_set_selectAllOnFocus(bool  value) ;
 
-  /// @brief Method UnityEngine.UIElements.ITextSelection.set_selectAllOnMouseUp, addr 0x6b57458, size 0x94, virtual true, abstract: false, final true
-  inline void UnityEngine_UIElements_ITextSelection_set_selectAllOnMouseUp(bool value);
+/// @brief Method UnityEngine.UIElements.ITextSelection.set_selectAllOnMouseUp, addr 0x6b58fd0, size 0x94, virtual true, abstract: false, final true
+inline void UnityEngine_UIElements_ITextSelection_set_selectAllOnMouseUp(bool  value) ;
 
-  /// @brief Method UnityEngine.UIElements.ITextSelection.set_selectIndex, addr 0x6b568a4, size 0x200, virtual true, abstract: false, final true
-  inline void UnityEngine_UIElements_ITextSelection_set_selectIndex(int32_t value);
+/// @brief Method UnityEngine.UIElements.ITextSelection.set_selectIndex, addr 0x6b5841c, size 0x200, virtual true, abstract: false, final true
+inline void UnityEngine_UIElements_ITextSelection_set_selectIndex(int32_t  value) ;
 
-  /// @brief Method UnityEngine.UIElements.ITextSelection.set_selectionColor, addr 0x6b578c4, size 0x118, virtual true, abstract: false, final true
-  inline void UnityEngine_UIElements_ITextSelection_set_selectionColor(::UnityEngine::Color value);
+/// @brief Method UnityEngine.UIElements.ITextSelection.set_selectionColor, addr 0x6b5943c, size 0x118, virtual true, abstract: false, final true
+inline void UnityEngine_UIElements_ITextSelection_set_selectionColor(::UnityEngine::Color  value) ;
 
-  /// @brief Method UnityEngine.UIElements.ITextSelection.set_tripleClickSelectsLine, addr 0x6b57070, size 0x94, virtual true, abstract: false, final true
-  inline void UnityEngine_UIElements_ITextSelection_set_tripleClickSelectsLine(bool value);
+/// @brief Method UnityEngine.UIElements.ITextSelection.set_tripleClickSelectsLine, addr 0x6b58be8, size 0x94, virtual true, abstract: false, final true
+inline void UnityEngine_UIElements_ITextSelection_set_tripleClickSelectsLine(bool  value) ;
 
-  /// @brief Method UpdateTooltip, addr 0x6b53170, size 0x6c, virtual false, abstract: false, final false
-  inline void UpdateTooltip();
+/// @brief Method UpdateTooltip, addr 0x6b54ce8, size 0x6c, virtual false, abstract: false, final false
+inline void UpdateTooltip() ;
 
-  /// @brief Method UpdateVisibleText, addr 0x6b51604, size 0x11c, virtual false, abstract: false, final false
-  inline void UpdateVisibleText();
+/// @brief Method UpdateVisibleText, addr 0x6b5317c, size 0x11c, virtual false, abstract: false, final false
+inline void UpdateVisibleText() ;
 
-  constexpr ::System::Action* const& __cordl_internal_get__OnPlaceholderChanged_k__BackingField() const;
+constexpr ::System::Action* const& __cordl_internal_get__OnPlaceholderChanged_k__BackingField() const;
 
-  constexpr ::System::Action*& __cordl_internal_get__OnPlaceholderChanged_k__BackingField();
+constexpr ::System::Action*& __cordl_internal_get__OnPlaceholderChanged_k__BackingField() ;
 
-  constexpr ::System::Func_2<char16_t, bool>* const& __cordl_internal_get__UnityEngine_UIElements_ITextEdition_AcceptCharacter_k__BackingField() const;
+constexpr ::System::Func_2<char16_t,bool>* const& __cordl_internal_get__UnityEngine_UIElements_ITextEdition_AcceptCharacter_k__BackingField() const;
 
-  constexpr ::System::Func_2<char16_t, bool>*& __cordl_internal_get__UnityEngine_UIElements_ITextEdition_AcceptCharacter_k__BackingField();
+constexpr ::System::Func_2<char16_t,bool>*& __cordl_internal_get__UnityEngine_UIElements_ITextEdition_AcceptCharacter_k__BackingField() ;
 
-  constexpr ::System::Func_1<::StringW>* const& __cordl_internal_get__UnityEngine_UIElements_ITextEdition_GetDefaultValueType_k__BackingField() const;
+constexpr ::System::Func_1<::StringW>* const& __cordl_internal_get__UnityEngine_UIElements_ITextEdition_GetDefaultValueType_k__BackingField() const;
 
-  constexpr ::System::Func_1<::StringW>*& __cordl_internal_get__UnityEngine_UIElements_ITextEdition_GetDefaultValueType_k__BackingField();
+constexpr ::System::Func_1<::StringW>*& __cordl_internal_get__UnityEngine_UIElements_ITextEdition_GetDefaultValueType_k__BackingField() ;
 
-  constexpr ::System::Action* const& __cordl_internal_get__UnityEngine_UIElements_ITextEdition_MoveFocusToCompositeRoot_k__BackingField() const;
+constexpr ::System::Action* const& __cordl_internal_get__UnityEngine_UIElements_ITextEdition_MoveFocusToCompositeRoot_k__BackingField() const;
 
-  constexpr ::System::Action*& __cordl_internal_get__UnityEngine_UIElements_ITextEdition_MoveFocusToCompositeRoot_k__BackingField();
+constexpr ::System::Action*& __cordl_internal_get__UnityEngine_UIElements_ITextEdition_MoveFocusToCompositeRoot_k__BackingField() ;
 
-  constexpr ::System::Action_1<bool>* const& __cordl_internal_get__UnityEngine_UIElements_ITextEdition_UpdateScrollOffset_k__BackingField() const;
+constexpr ::System::Action_1<bool>* const& __cordl_internal_get__UnityEngine_UIElements_ITextEdition_UpdateScrollOffset_k__BackingField() const;
 
-  constexpr ::System::Action_1<bool>*& __cordl_internal_get__UnityEngine_UIElements_ITextEdition_UpdateScrollOffset_k__BackingField();
+constexpr ::System::Action_1<bool>*& __cordl_internal_get__UnityEngine_UIElements_ITextEdition_UpdateScrollOffset_k__BackingField() ;
 
-  constexpr ::System::Action* const& __cordl_internal_get__UnityEngine_UIElements_ITextEdition_UpdateTextFromValue_k__BackingField() const;
+constexpr ::System::Action* const& __cordl_internal_get__UnityEngine_UIElements_ITextEdition_UpdateTextFromValue_k__BackingField() const;
 
-  constexpr ::System::Action*& __cordl_internal_get__UnityEngine_UIElements_ITextEdition_UpdateTextFromValue_k__BackingField();
+constexpr ::System::Action*& __cordl_internal_get__UnityEngine_UIElements_ITextEdition_UpdateTextFromValue_k__BackingField() ;
 
-  constexpr ::System::Action* const& __cordl_internal_get__UnityEngine_UIElements_ITextEdition_UpdateValueFromText_k__BackingField() const;
+constexpr ::System::Action* const& __cordl_internal_get__UnityEngine_UIElements_ITextEdition_UpdateValueFromText_k__BackingField() const;
 
-  constexpr ::System::Action*& __cordl_internal_get__UnityEngine_UIElements_ITextEdition_UpdateValueFromText_k__BackingField();
+constexpr ::System::Action*& __cordl_internal_get__UnityEngine_UIElements_ITextEdition_UpdateValueFromText_k__BackingField() ;
 
-  constexpr bool const& __cordl_internal_get__UnityEngine_UIElements_ITextEdition_isDelayed_k__BackingField() const;
+constexpr bool const& __cordl_internal_get__UnityEngine_UIElements_ITextEdition_isDelayed_k__BackingField() const;
 
-  constexpr bool& __cordl_internal_get__UnityEngine_UIElements_ITextEdition_isDelayed_k__BackingField();
+constexpr bool& __cordl_internal_get__UnityEngine_UIElements_ITextEdition_isDelayed_k__BackingField() ;
 
-  constexpr ::UnityEngine::UIElements::TextEditingManipulator* const& __cordl_internal_get__editingManipulator_k__BackingField() const;
+constexpr ::UnityEngine::UIElements::TextEditingManipulator* const& __cordl_internal_get__editingManipulator_k__BackingField() const;
 
-  constexpr ::UnityEngine::UIElements::TextEditingManipulator*& __cordl_internal_get__editingManipulator_k__BackingField();
+constexpr ::UnityEngine::UIElements::TextEditingManipulator*& __cordl_internal_get__editingManipulator_k__BackingField() ;
 
-  constexpr bool const& __cordl_internal_get__isElided_k__BackingField() const;
+constexpr bool const& __cordl_internal_get__isElided_k__BackingField() const;
 
-  constexpr bool& __cordl_internal_get__isElided_k__BackingField();
+constexpr bool& __cordl_internal_get__isElided_k__BackingField() ;
 
-  constexpr ::UnityEngine::UIElements::UITKTextHandle* const& __cordl_internal_get__uitkTextHandle_k__BackingField() const;
+constexpr ::UnityEngine::UIElements::UITKTextHandle* const& __cordl_internal_get__uitkTextHandle_k__BackingField() const;
 
-  constexpr ::UnityEngine::UIElements::UITKTextHandle*& __cordl_internal_get__uitkTextHandle_k__BackingField();
+constexpr ::UnityEngine::UIElements::UITKTextHandle*& __cordl_internal_get__uitkTextHandle_k__BackingField() ;
 
-  constexpr ::StringW const& __cordl_internal_get_elidedText() const;
+constexpr ::StringW const& __cordl_internal_get_elidedText() const;
 
-  constexpr ::StringW& __cordl_internal_get_elidedText();
+constexpr ::StringW& __cordl_internal_get_elidedText() ;
 
-  constexpr bool const& __cordl_internal_get_isInputField() const;
+constexpr bool const& __cordl_internal_get_isInputField() const;
 
-  constexpr bool& __cordl_internal_get_isInputField();
+constexpr bool& __cordl_internal_get_isInputField() ;
 
-  constexpr bool const& __cordl_internal_get_m_AutoCorrection() const;
+constexpr bool const& __cordl_internal_get_m_AutoCorrection() const;
 
-  constexpr bool& __cordl_internal_get_m_AutoCorrection();
+constexpr bool& __cordl_internal_get_m_AutoCorrection() ;
 
-  constexpr ::UnityEngine::Color const& __cordl_internal_get_m_CursorColor() const;
+constexpr ::UnityEngine::Color const& __cordl_internal_get_m_CursorColor() const;
 
-  constexpr ::UnityEngine::Color& __cordl_internal_get_m_CursorColor();
+constexpr ::UnityEngine::Color& __cordl_internal_get_m_CursorColor() ;
 
-  constexpr float_t const& __cordl_internal_get_m_CursorWidth() const;
+constexpr float_t const& __cordl_internal_get_m_CursorWidth() const;
 
-  constexpr float_t& __cordl_internal_get_m_CursorWidth();
+constexpr float_t& __cordl_internal_get_m_CursorWidth() ;
 
-  constexpr bool const& __cordl_internal_get_m_DisplayTooltipWhenElided() const;
+constexpr bool const& __cordl_internal_get_m_DisplayTooltipWhenElided() const;
 
-  constexpr bool& __cordl_internal_get_m_DisplayTooltipWhenElided();
+constexpr bool& __cordl_internal_get_m_DisplayTooltipWhenElided() ;
 
-  constexpr bool const& __cordl_internal_get_m_DoubleClickSelectsWord() const;
+constexpr bool const& __cordl_internal_get_m_DoubleClickSelectsWord() const;
 
-  constexpr bool& __cordl_internal_get_m_DoubleClickSelectsWord();
+constexpr bool& __cordl_internal_get_m_DoubleClickSelectsWord() ;
 
-  constexpr bool const& __cordl_internal_get_m_EmojiFallbackSupport() const;
+constexpr bool const& __cordl_internal_get_m_EmojiFallbackSupport() const;
 
-  constexpr bool& __cordl_internal_get_m_EmojiFallbackSupport();
+constexpr bool& __cordl_internal_get_m_EmojiFallbackSupport() ;
 
-  constexpr bool const& __cordl_internal_get_m_EnableRichText() const;
+constexpr bool const& __cordl_internal_get_m_EnableRichText() const;
 
-  constexpr bool& __cordl_internal_get_m_EnableRichText();
+constexpr bool& __cordl_internal_get_m_EnableRichText() ;
 
-  constexpr bool const& __cordl_internal_get_m_HideMobileInput() const;
+constexpr bool const& __cordl_internal_get_m_HideMobileInput() const;
 
-  constexpr bool& __cordl_internal_get_m_HideMobileInput();
+constexpr bool& __cordl_internal_get_m_HideMobileInput() ;
 
-  constexpr bool const& __cordl_internal_get_m_HidePlaceholderTextOnFocus() const;
+constexpr bool const& __cordl_internal_get_m_HidePlaceholderTextOnFocus() const;
 
-  constexpr bool& __cordl_internal_get_m_HidePlaceholderTextOnFocus();
+constexpr bool& __cordl_internal_get_m_HidePlaceholderTextOnFocus() ;
 
-  constexpr bool const& __cordl_internal_get_m_IsPassword() const;
+constexpr bool const& __cordl_internal_get_m_IsPassword() const;
 
-  constexpr bool& __cordl_internal_get_m_IsPassword();
+constexpr bool& __cordl_internal_get_m_IsPassword() ;
 
-  constexpr bool const& __cordl_internal_get_m_IsReadOnly() const;
+constexpr bool const& __cordl_internal_get_m_IsReadOnly() const;
 
-  constexpr bool& __cordl_internal_get_m_IsReadOnly();
+constexpr bool& __cordl_internal_get_m_IsReadOnly() ;
 
-  constexpr bool const& __cordl_internal_get_m_IsSelectable() const;
+constexpr bool const& __cordl_internal_get_m_IsSelectable() const;
 
-  constexpr bool& __cordl_internal_get_m_IsSelectable();
+constexpr bool& __cordl_internal_get_m_IsSelectable() ;
 
-  constexpr ::UnityEngine::TouchScreenKeyboardType const& __cordl_internal_get_m_KeyboardType() const;
+constexpr ::UnityEngine::TouchScreenKeyboardType const& __cordl_internal_get_m_KeyboardType() const;
 
-  constexpr ::UnityEngine::TouchScreenKeyboardType& __cordl_internal_get_m_KeyboardType();
+constexpr ::UnityEngine::TouchScreenKeyboardType& __cordl_internal_get_m_KeyboardType() ;
 
-  constexpr char16_t const& __cordl_internal_get_m_MaskChar() const;
+constexpr char16_t const& __cordl_internal_get_m_MaskChar() const;
 
-  constexpr char16_t& __cordl_internal_get_m_MaskChar();
+constexpr char16_t& __cordl_internal_get_m_MaskChar() ;
 
-  constexpr int32_t const& __cordl_internal_get_m_MaxLength() const;
+constexpr int32_t const& __cordl_internal_get_m_MaxLength() const;
 
-  constexpr int32_t& __cordl_internal_get_m_MaxLength();
+constexpr int32_t& __cordl_internal_get_m_MaxLength() ;
 
-  constexpr bool const& __cordl_internal_get_m_Multiline() const;
+constexpr bool const& __cordl_internal_get_m_Multiline() const;
 
-  constexpr bool& __cordl_internal_get_m_Multiline();
+constexpr bool& __cordl_internal_get_m_Multiline() ;
 
-  constexpr ::StringW const& __cordl_internal_get_m_OriginalText() const;
+constexpr ::StringW const& __cordl_internal_get_m_OriginalText() const;
 
-  constexpr ::StringW& __cordl_internal_get_m_OriginalText();
+constexpr ::StringW& __cordl_internal_get_m_OriginalText() ;
 
-  constexpr bool const& __cordl_internal_get_m_ParseEscapeSequences() const;
+constexpr bool const& __cordl_internal_get_m_ParseEscapeSequences() const;
 
-  constexpr bool& __cordl_internal_get_m_ParseEscapeSequences();
+constexpr bool& __cordl_internal_get_m_ParseEscapeSequences() ;
 
-  constexpr ::StringW const& __cordl_internal_get_m_PlaceholderText() const;
+constexpr ::StringW const& __cordl_internal_get_m_PlaceholderText() const;
 
-  constexpr ::StringW& __cordl_internal_get_m_PlaceholderText();
+constexpr ::StringW& __cordl_internal_get_m_PlaceholderText() ;
 
-  constexpr ::StringW const& __cordl_internal_get_m_RenderedText() const;
+constexpr ::StringW const& __cordl_internal_get_m_RenderedText() const;
 
-  constexpr ::StringW& __cordl_internal_get_m_RenderedText();
+constexpr ::StringW& __cordl_internal_get_m_RenderedText() ;
 
-  constexpr bool const& __cordl_internal_get_m_SelectAllOnFocus() const;
+constexpr bool const& __cordl_internal_get_m_SelectAllOnFocus() const;
 
-  constexpr bool& __cordl_internal_get_m_SelectAllOnFocus();
+constexpr bool& __cordl_internal_get_m_SelectAllOnFocus() ;
 
-  constexpr bool const& __cordl_internal_get_m_SelectAllOnMouseUp() const;
+constexpr bool const& __cordl_internal_get_m_SelectAllOnMouseUp() const;
 
-  constexpr bool& __cordl_internal_get_m_SelectAllOnMouseUp();
+constexpr bool& __cordl_internal_get_m_SelectAllOnMouseUp() ;
 
-  constexpr ::UnityEngine::UIElements::TextSelectingManipulator* const& __cordl_internal_get_m_SelectingManipulator() const;
+constexpr ::UnityEngine::UIElements::TextSelectingManipulator* const& __cordl_internal_get_m_SelectingManipulator() const;
 
-  constexpr ::UnityEngine::UIElements::TextSelectingManipulator*& __cordl_internal_get_m_SelectingManipulator();
+constexpr ::UnityEngine::UIElements::TextSelectingManipulator*& __cordl_internal_get_m_SelectingManipulator() ;
 
-  constexpr ::UnityEngine::Color const& __cordl_internal_get_m_SelectionColor() const;
+constexpr ::UnityEngine::Color const& __cordl_internal_get_m_SelectionColor() const;
 
-  constexpr ::UnityEngine::Color& __cordl_internal_get_m_SelectionColor();
+constexpr ::UnityEngine::Color& __cordl_internal_get_m_SelectionColor() ;
 
-  constexpr ::StringW const& __cordl_internal_get_m_Text() const;
+constexpr ::StringW const& __cordl_internal_get_m_Text() const;
 
-  constexpr ::StringW& __cordl_internal_get_m_Text();
+constexpr ::StringW& __cordl_internal_get_m_Text() ;
 
-  constexpr ::UnityEngine::TouchScreenKeyboard* const& __cordl_internal_get_m_TouchScreenKeyboard() const;
+constexpr ::UnityEngine::TouchScreenKeyboard* const& __cordl_internal_get_m_TouchScreenKeyboard() const;
 
-  constexpr ::UnityEngine::TouchScreenKeyboard*& __cordl_internal_get_m_TouchScreenKeyboard();
+constexpr ::UnityEngine::TouchScreenKeyboard*& __cordl_internal_get_m_TouchScreenKeyboard() ;
 
-  constexpr bool const& __cordl_internal_get_m_TripleClickSelectsLine() const;
+constexpr bool const& __cordl_internal_get_m_TripleClickSelectsLine() const;
 
-  constexpr bool& __cordl_internal_get_m_TripleClickSelectsLine();
+constexpr bool& __cordl_internal_get_m_TripleClickSelectsLine() ;
 
-  constexpr bool const& __cordl_internal_get_m_WasElided() const;
+constexpr bool const& __cordl_internal_get_m_WasElided() const;
 
-  constexpr bool& __cordl_internal_get_m_WasElided();
+constexpr bool& __cordl_internal_get_m_WasElided() ;
 
-  constexpr ::System::Action_1<bool>* const& __cordl_internal_get_onIsReadOnlyChanged() const;
+constexpr ::System::Action_1<bool>* const& __cordl_internal_get_onIsReadOnlyChanged() const;
 
-  constexpr ::System::Action_1<bool>*& __cordl_internal_get_onIsReadOnlyChanged();
+constexpr ::System::Action_1<bool>*& __cordl_internal_get_onIsReadOnlyChanged() ;
 
-  constexpr void __cordl_internal_set__OnPlaceholderChanged_k__BackingField(::System::Action* value);
+constexpr void __cordl_internal_set__OnPlaceholderChanged_k__BackingField(::System::Action*  value) ;
 
-  constexpr void __cordl_internal_set__UnityEngine_UIElements_ITextEdition_AcceptCharacter_k__BackingField(::System::Func_2<char16_t, bool>* value);
+constexpr void __cordl_internal_set__UnityEngine_UIElements_ITextEdition_AcceptCharacter_k__BackingField(::System::Func_2<char16_t,bool>*  value) ;
 
-  constexpr void __cordl_internal_set__UnityEngine_UIElements_ITextEdition_GetDefaultValueType_k__BackingField(::System::Func_1<::StringW>* value);
+constexpr void __cordl_internal_set__UnityEngine_UIElements_ITextEdition_GetDefaultValueType_k__BackingField(::System::Func_1<::StringW>*  value) ;
 
-  constexpr void __cordl_internal_set__UnityEngine_UIElements_ITextEdition_MoveFocusToCompositeRoot_k__BackingField(::System::Action* value);
+constexpr void __cordl_internal_set__UnityEngine_UIElements_ITextEdition_MoveFocusToCompositeRoot_k__BackingField(::System::Action*  value) ;
 
-  constexpr void __cordl_internal_set__UnityEngine_UIElements_ITextEdition_UpdateScrollOffset_k__BackingField(::System::Action_1<bool>* value);
+constexpr void __cordl_internal_set__UnityEngine_UIElements_ITextEdition_UpdateScrollOffset_k__BackingField(::System::Action_1<bool>*  value) ;
 
-  constexpr void __cordl_internal_set__UnityEngine_UIElements_ITextEdition_UpdateTextFromValue_k__BackingField(::System::Action* value);
+constexpr void __cordl_internal_set__UnityEngine_UIElements_ITextEdition_UpdateTextFromValue_k__BackingField(::System::Action*  value) ;
 
-  constexpr void __cordl_internal_set__UnityEngine_UIElements_ITextEdition_UpdateValueFromText_k__BackingField(::System::Action* value);
+constexpr void __cordl_internal_set__UnityEngine_UIElements_ITextEdition_UpdateValueFromText_k__BackingField(::System::Action*  value) ;
 
-  constexpr void __cordl_internal_set__UnityEngine_UIElements_ITextEdition_isDelayed_k__BackingField(bool value);
+constexpr void __cordl_internal_set__UnityEngine_UIElements_ITextEdition_isDelayed_k__BackingField(bool  value) ;
 
-  constexpr void __cordl_internal_set__editingManipulator_k__BackingField(::UnityEngine::UIElements::TextEditingManipulator* value);
+constexpr void __cordl_internal_set__editingManipulator_k__BackingField(::UnityEngine::UIElements::TextEditingManipulator*  value) ;
 
-  constexpr void __cordl_internal_set__isElided_k__BackingField(bool value);
+constexpr void __cordl_internal_set__isElided_k__BackingField(bool  value) ;
 
-  constexpr void __cordl_internal_set__uitkTextHandle_k__BackingField(::UnityEngine::UIElements::UITKTextHandle* value);
+constexpr void __cordl_internal_set__uitkTextHandle_k__BackingField(::UnityEngine::UIElements::UITKTextHandle*  value) ;
 
-  constexpr void __cordl_internal_set_elidedText(::StringW value);
+constexpr void __cordl_internal_set_elidedText(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_isInputField(bool value);
+constexpr void __cordl_internal_set_isInputField(bool  value) ;
 
-  constexpr void __cordl_internal_set_m_AutoCorrection(bool value);
+constexpr void __cordl_internal_set_m_AutoCorrection(bool  value) ;
 
-  constexpr void __cordl_internal_set_m_CursorColor(::UnityEngine::Color value);
+constexpr void __cordl_internal_set_m_CursorColor(::UnityEngine::Color  value) ;
 
-  constexpr void __cordl_internal_set_m_CursorWidth(float_t value);
+constexpr void __cordl_internal_set_m_CursorWidth(float_t  value) ;
 
-  constexpr void __cordl_internal_set_m_DisplayTooltipWhenElided(bool value);
+constexpr void __cordl_internal_set_m_DisplayTooltipWhenElided(bool  value) ;
 
-  constexpr void __cordl_internal_set_m_DoubleClickSelectsWord(bool value);
+constexpr void __cordl_internal_set_m_DoubleClickSelectsWord(bool  value) ;
 
-  constexpr void __cordl_internal_set_m_EmojiFallbackSupport(bool value);
+constexpr void __cordl_internal_set_m_EmojiFallbackSupport(bool  value) ;
 
-  constexpr void __cordl_internal_set_m_EnableRichText(bool value);
+constexpr void __cordl_internal_set_m_EnableRichText(bool  value) ;
 
-  constexpr void __cordl_internal_set_m_HideMobileInput(bool value);
+constexpr void __cordl_internal_set_m_HideMobileInput(bool  value) ;
 
-  constexpr void __cordl_internal_set_m_HidePlaceholderTextOnFocus(bool value);
+constexpr void __cordl_internal_set_m_HidePlaceholderTextOnFocus(bool  value) ;
 
-  constexpr void __cordl_internal_set_m_IsPassword(bool value);
+constexpr void __cordl_internal_set_m_IsPassword(bool  value) ;
 
-  constexpr void __cordl_internal_set_m_IsReadOnly(bool value);
+constexpr void __cordl_internal_set_m_IsReadOnly(bool  value) ;
 
-  constexpr void __cordl_internal_set_m_IsSelectable(bool value);
+constexpr void __cordl_internal_set_m_IsSelectable(bool  value) ;
 
-  constexpr void __cordl_internal_set_m_KeyboardType(::UnityEngine::TouchScreenKeyboardType value);
+constexpr void __cordl_internal_set_m_KeyboardType(::UnityEngine::TouchScreenKeyboardType  value) ;
 
-  constexpr void __cordl_internal_set_m_MaskChar(char16_t value);
+constexpr void __cordl_internal_set_m_MaskChar(char16_t  value) ;
 
-  constexpr void __cordl_internal_set_m_MaxLength(int32_t value);
+constexpr void __cordl_internal_set_m_MaxLength(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_m_Multiline(bool value);
+constexpr void __cordl_internal_set_m_Multiline(bool  value) ;
 
-  constexpr void __cordl_internal_set_m_OriginalText(::StringW value);
+constexpr void __cordl_internal_set_m_OriginalText(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_m_ParseEscapeSequences(bool value);
+constexpr void __cordl_internal_set_m_ParseEscapeSequences(bool  value) ;
 
-  constexpr void __cordl_internal_set_m_PlaceholderText(::StringW value);
+constexpr void __cordl_internal_set_m_PlaceholderText(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_m_RenderedText(::StringW value);
+constexpr void __cordl_internal_set_m_RenderedText(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_m_SelectAllOnFocus(bool value);
+constexpr void __cordl_internal_set_m_SelectAllOnFocus(bool  value) ;
 
-  constexpr void __cordl_internal_set_m_SelectAllOnMouseUp(bool value);
+constexpr void __cordl_internal_set_m_SelectAllOnMouseUp(bool  value) ;
 
-  constexpr void __cordl_internal_set_m_SelectingManipulator(::UnityEngine::UIElements::TextSelectingManipulator* value);
+constexpr void __cordl_internal_set_m_SelectingManipulator(::UnityEngine::UIElements::TextSelectingManipulator*  value) ;
 
-  constexpr void __cordl_internal_set_m_SelectionColor(::UnityEngine::Color value);
+constexpr void __cordl_internal_set_m_SelectionColor(::UnityEngine::Color  value) ;
 
-  constexpr void __cordl_internal_set_m_Text(::StringW value);
+constexpr void __cordl_internal_set_m_Text(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_m_TouchScreenKeyboard(::UnityEngine::TouchScreenKeyboard* value);
+constexpr void __cordl_internal_set_m_TouchScreenKeyboard(::UnityEngine::TouchScreenKeyboard*  value) ;
 
-  constexpr void __cordl_internal_set_m_TripleClickSelectsLine(bool value);
+constexpr void __cordl_internal_set_m_TripleClickSelectsLine(bool  value) ;
 
-  constexpr void __cordl_internal_set_m_WasElided(bool value);
+constexpr void __cordl_internal_set_m_WasElided(bool  value) ;
 
-  constexpr void __cordl_internal_set_onIsReadOnlyChanged(::System::Action_1<bool>* value);
+constexpr void __cordl_internal_set_onIsReadOnlyChanged(::System::Action_1<bool>*  value) ;
 
-  /// @brief Method .ctor, addr 0x6b511e0, size 0x3cc, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6b52d58, size 0x3cc, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  static inline ::UnityEngine::UIElements::BindingId getStaticF_autoCorrectionProperty();
+static inline ::UnityEngine::UIElements::BindingId getStaticF_autoCorrectionProperty() ;
 
-  static inline ::UnityEngine::UIElements::BindingId getStaticF_cursorColorProperty();
+static inline ::UnityEngine::UIElements::BindingId getStaticF_cursorColorProperty() ;
 
-  static inline ::UnityEngine::UIElements::BindingId getStaticF_cursorIndexProperty();
+static inline ::UnityEngine::UIElements::BindingId getStaticF_cursorIndexProperty() ;
 
-  static inline ::UnityEngine::UIElements::BindingId getStaticF_cursorPositionProperty();
+static inline ::UnityEngine::UIElements::BindingId getStaticF_cursorPositionProperty() ;
 
-  static inline ::UnityEngine::UIElements::BindingId getStaticF_displayTooltipWhenElidedProperty();
+static inline ::UnityEngine::UIElements::BindingId getStaticF_displayTooltipWhenElidedProperty() ;
 
-  static inline ::UnityEngine::UIElements::BindingId getStaticF_doubleClickSelectsWordProperty();
+static inline ::UnityEngine::UIElements::BindingId getStaticF_doubleClickSelectsWordProperty() ;
 
-  static inline ::UnityEngine::UIElements::BindingId getStaticF_emojiFallbackSupportProperty();
+static inline ::UnityEngine::UIElements::BindingId getStaticF_emojiFallbackSupportProperty() ;
 
-  static inline ::UnityEngine::UIElements::BindingId getStaticF_enableRichTextProperty();
+static inline ::UnityEngine::UIElements::BindingId getStaticF_enableRichTextProperty() ;
 
-  static inline ::UnityEngine::UIElements::BindingId getStaticF_hideMobileInputProperty();
+static inline ::UnityEngine::UIElements::BindingId getStaticF_hideMobileInputProperty() ;
 
-  static inline ::UnityEngine::UIElements::BindingId getStaticF_isElidedProperty();
+static inline ::UnityEngine::UIElements::BindingId getStaticF_isElidedProperty() ;
 
-  static inline ::UnityEngine::UIElements::BindingId getStaticF_isPasswordProperty();
+static inline ::UnityEngine::UIElements::BindingId getStaticF_isPasswordProperty() ;
 
-  static inline ::UnityEngine::UIElements::BindingId getStaticF_isReadOnlyProperty();
+static inline ::UnityEngine::UIElements::BindingId getStaticF_isReadOnlyProperty() ;
 
-  static inline ::UnityEngine::UIElements::BindingId getStaticF_isSelectableProperty();
+static inline ::UnityEngine::UIElements::BindingId getStaticF_isSelectableProperty() ;
 
-  static inline ::StringW getStaticF_k_EllipsisText();
+static inline ::StringW getStaticF_k_EllipsisText() ;
 
-  static inline ::UnityEngine::UIElements::BindingId getStaticF_keyboardTypeProperty();
+static inline ::UnityEngine::UIElements::BindingId getStaticF_keyboardTypeProperty() ;
 
-  static inline ::UnityEngine::UIElements::BindingId getStaticF_maskCharProperty();
+static inline ::UnityEngine::UIElements::BindingId getStaticF_maskCharProperty() ;
 
-  static inline ::UnityEngine::UIElements::BindingId getStaticF_maxLengthProperty();
+static inline ::UnityEngine::UIElements::BindingId getStaticF_maxLengthProperty() ;
 
-  static inline ::UnityEngine::UIElements::BindingId getStaticF_parseEscapeSequencesProperty();
+static inline ::UnityEngine::UIElements::BindingId getStaticF_parseEscapeSequencesProperty() ;
 
-  static inline ::UnityEngine::UIElements::BindingId getStaticF_selectAllOnFocusProperty();
+static inline ::UnityEngine::UIElements::BindingId getStaticF_selectAllOnFocusProperty() ;
 
-  static inline ::UnityEngine::UIElements::BindingId getStaticF_selectAllOnMouseUpProperty();
+static inline ::UnityEngine::UIElements::BindingId getStaticF_selectAllOnMouseUpProperty() ;
 
-  static inline ::UnityEngine::UIElements::BindingId getStaticF_selectIndexProperty();
+static inline ::UnityEngine::UIElements::BindingId getStaticF_selectIndexProperty() ;
 
-  static inline ::StringW getStaticF_selectableUssClassName();
+static inline ::StringW getStaticF_selectableUssClassName() ;
 
-  static inline ::UnityEngine::UIElements::BindingId getStaticF_selectionColorProperty();
+static inline ::UnityEngine::UIElements::BindingId getStaticF_selectionColorProperty() ;
 
-  static inline ::UnityEngine::UIElements::BindingId getStaticF_selectionProperty();
+static inline ::UnityEngine::UIElements::BindingId getStaticF_selectionProperty() ;
 
-  static inline ::UnityEngine::UIElements::BindingId getStaticF_textProperty();
+static inline ::UnityEngine::UIElements::BindingId getStaticF_textProperty() ;
 
-  static inline ::UnityEngine::UIElements::BindingId getStaticF_tripleClickSelectsLineProperty();
+static inline ::UnityEngine::UIElements::BindingId getStaticF_tripleClickSelectsLineProperty() ;
 
-  static inline ::StringW getStaticF_ussClassName();
+static inline ::StringW getStaticF_ussClassName() ;
 
-  static inline ::UnityEngine::UIElements::BindingId getStaticF_valueProperty();
+static inline ::UnityEngine::UIElements::BindingId getStaticF_valueProperty() ;
 
-  /// @brief Method get_OnPlaceholderChanged, addr 0x6b5568c, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Action* get_OnPlaceholderChanged();
+/// @brief Method get_OnPlaceholderChanged, addr 0x6b57204, size 0x8, virtual false, abstract: false, final false
+inline ::System::Action* get_OnPlaceholderChanged() ;
 
-  /// @brief Method get_autoCorrection, addr 0x6b56008, size 0xa4, virtual false, abstract: false, final false
-  inline bool get_autoCorrection();
+/// @brief Method get_autoCorrection, addr 0x6b57b80, size 0xa4, virtual false, abstract: false, final false
+inline bool get_autoCorrection() ;
 
-  /// @brief Method get_cursorColor, addr 0x6b57c80, size 0xa4, virtual false, abstract: false, final false
-  inline ::UnityEngine::Color get_cursorColor();
+/// @brief Method get_cursorColor, addr 0x6b597f8, size 0xa4, virtual false, abstract: false, final false
+inline ::UnityEngine::Color get_cursorColor() ;
 
-  /// @brief Method get_cursorIndex, addr 0x6b5667c, size 0xa4, virtual false, abstract: false, final false
-  inline int32_t get_cursorIndex();
+/// @brief Method get_cursorIndex, addr 0x6b581f4, size 0xa4, virtual false, abstract: false, final false
+inline int32_t get_cursorIndex() ;
 
-  /// @brief Method get_cursorPosition, addr 0x6b57740, size 0xa4, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector2 get_cursorPosition();
+/// @brief Method get_cursorPosition, addr 0x6b592b8, size 0xa4, virtual false, abstract: false, final false
+inline ::UnityEngine::Vector2 get_cursorPosition() ;
 
-  /// @brief Method get_displayTooltipWhenElided, addr 0x6b51ac8, size 0x8, virtual false, abstract: false, final false
-  inline bool get_displayTooltipWhenElided();
+/// @brief Method get_displayTooltipWhenElided, addr 0x6b53640, size 0x8, virtual false, abstract: false, final false
+inline bool get_displayTooltipWhenElided() ;
 
-  /// @brief Method get_doubleClickSelectsWord, addr 0x6b56f10, size 0xa4, virtual false, abstract: false, final false
-  inline bool get_doubleClickSelectsWord();
+/// @brief Method get_doubleClickSelectsWord, addr 0x6b58a88, size 0xa4, virtual false, abstract: false, final false
+inline bool get_doubleClickSelectsWord() ;
 
-  /// @brief Method get_editingManipulator, addr 0x6b53dc4, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::TextEditingManipulator* get_editingManipulator();
+/// @brief Method get_editingManipulator, addr 0x6b5593c, size 0x8, virtual false, abstract: false, final false
+inline ::UnityEngine::UIElements::TextEditingManipulator* get_editingManipulator() ;
 
-  /// @brief Method get_edition, addr 0x6b4b434, size 0x4, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::ITextEdition* get_edition();
+/// @brief Method get_edition, addr 0x6b4cfac, size 0x4, virtual false, abstract: false, final false
+inline ::UnityEngine::UIElements::ITextEdition* get_edition() ;
 
-  /// @brief Method get_effectiveMaskChar, addr 0x6b55c90, size 0xb8, virtual false, abstract: false, final false
-  inline char16_t get_effectiveMaskChar();
+/// @brief Method get_effectiveMaskChar, addr 0x6b57808, size 0xb8, virtual false, abstract: false, final false
+inline char16_t get_effectiveMaskChar() ;
 
-  /// @brief Method get_emojiFallbackSupport, addr 0x6b51950, size 0x8, virtual false, abstract: false, final false
-  inline bool get_emojiFallbackSupport();
+/// @brief Method get_emojiFallbackSupport, addr 0x6b534c8, size 0x8, virtual false, abstract: false, final false
+inline bool get_emojiFallbackSupport() ;
 
-  /// @brief Method get_enableRichText, addr 0x6b51894, size 0x8, virtual false, abstract: false, final false
-  inline bool get_enableRichText();
+/// @brief Method get_enableRichText, addr 0x6b5340c, size 0x8, virtual false, abstract: false, final false
+inline bool get_enableRichText() ;
 
-  /// @brief Method get_hasFocus, addr 0x6b4d328, size 0x3c, virtual false, abstract: false, final false
-  inline bool get_hasFocus();
+/// @brief Method get_hasFocus, addr 0x6b4eea0, size 0x3c, virtual false, abstract: false, final false
+inline bool get_hasFocus() ;
 
-  /// @brief Method get_hideMobileInput, addr 0x6b541cc, size 0xa4, virtual false, abstract: false, final false
-  inline bool get_hideMobileInput();
+/// @brief Method get_hideMobileInput, addr 0x6b55d44, size 0xa4, virtual false, abstract: false, final false
+inline bool get_hideMobileInput() ;
 
-  /// @brief Method get_isElided, addr 0x6b51b88, size 0x8, virtual false, abstract: false, final false
-  inline bool get_isElided();
+/// @brief Method get_isElided, addr 0x6b53700, size 0x8, virtual false, abstract: false, final false
+inline bool get_isElided() ;
 
-  /// @brief Method get_isPassword, addr 0x6b55e04, size 0xa4, virtual false, abstract: false, final false
-  inline bool get_isPassword();
+/// @brief Method get_isPassword, addr 0x6b5797c, size 0xa4, virtual false, abstract: false, final false
+inline bool get_isPassword() ;
 
-  /// @brief Method get_isReadOnly, addr 0x6b54454, size 0xa4, virtual false, abstract: false, final false
-  inline bool get_isReadOnly();
+/// @brief Method get_isReadOnly, addr 0x6b55fcc, size 0xa4, virtual false, abstract: false, final false
+inline bool get_isReadOnly() ;
 
-  /// @brief Method get_isSelectable, addr 0x6b56258, size 0xa0, virtual false, abstract: false, final false
-  inline bool get_isSelectable();
+/// @brief Method get_isSelectable, addr 0x6b57dd0, size 0xa0, virtual false, abstract: false, final false
+inline bool get_isSelectable() ;
 
-  /// @brief Method get_keyboardType, addr 0x6b53f50, size 0xa4, virtual false, abstract: false, final false
-  inline ::UnityEngine::TouchScreenKeyboardType get_keyboardType();
+/// @brief Method get_keyboardType, addr 0x6b55ac8, size 0xa4, virtual false, abstract: false, final false
+inline ::UnityEngine::TouchScreenKeyboardType get_keyboardType() ;
 
-  /// @brief Method get_maskChar, addr 0x6b55b38, size 0xa4, virtual false, abstract: false, final false
-  inline char16_t get_maskChar();
+/// @brief Method get_maskChar, addr 0x6b576b0, size 0xa4, virtual false, abstract: false, final false
+inline char16_t get_maskChar() ;
 
-  /// @brief Method get_maxLength, addr 0x6b552f0, size 0xa4, virtual false, abstract: false, final false
-  inline int32_t get_maxLength();
+/// @brief Method get_maxLength, addr 0x6b56e68, size 0xa4, virtual false, abstract: false, final false
+inline int32_t get_maxLength() ;
 
-  /// @brief Method get_originalText, addr 0x6b56160, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_originalText();
+/// @brief Method get_originalText, addr 0x6b57cd8, size 0x8, virtual false, abstract: false, final false
+inline ::StringW get_originalText() ;
 
-  /// @brief Method get_parseEscapeSequences, addr 0x6b51a0c, size 0x8, virtual false, abstract: false, final false
-  inline bool get_parseEscapeSequences();
+/// @brief Method get_parseEscapeSequences, addr 0x6b53584, size 0x8, virtual false, abstract: false, final false
+inline bool get_parseEscapeSequences() ;
 
-  /// @brief Method get_renderedText, addr 0x6b492b0, size 0x190, virtual false, abstract: false, final false
-  inline ::UnityEngine::TextCore::Text::RenderedText get_renderedText();
+/// @brief Method get_renderedText, addr 0x6b4ae28, size 0x190, virtual false, abstract: false, final false
+inline ::UnityEngine::TextCore::Text::RenderedText get_renderedText() ;
 
-  /// @brief Method get_selectAllOnFocus, addr 0x6b572f8, size 0xa4, virtual false, abstract: false, final false
-  inline bool get_selectAllOnFocus();
+/// @brief Method get_selectAllOnFocus, addr 0x6b58e70, size 0xa4, virtual false, abstract: false, final false
+inline bool get_selectAllOnFocus() ;
 
-  /// @brief Method get_selectAllOnMouseUp, addr 0x6b574ec, size 0xa4, virtual false, abstract: false, final false
-  inline bool get_selectAllOnMouseUp();
+/// @brief Method get_selectAllOnMouseUp, addr 0x6b59064, size 0xa4, virtual false, abstract: false, final false
+inline bool get_selectAllOnMouseUp() ;
 
-  /// @brief Method get_selectIndex, addr 0x6b56aa4, size 0xa4, virtual false, abstract: false, final false
-  inline int32_t get_selectIndex();
+/// @brief Method get_selectIndex, addr 0x6b5861c, size 0xa4, virtual false, abstract: false, final false
+inline int32_t get_selectIndex() ;
 
-  /// @brief Method get_selectingManipulator, addr 0x6b4b05c, size 0x68, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::TextSelectingManipulator* get_selectingManipulator();
+/// @brief Method get_selectingManipulator, addr 0x6b4cbd4, size 0x68, virtual false, abstract: false, final false
+inline ::UnityEngine::UIElements::TextSelectingManipulator* get_selectingManipulator() ;
 
-  /// @brief Method get_selection, addr 0x6b4e3e0, size 0x4, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::ITextSelection* get_selection();
+/// @brief Method get_selection, addr 0x6b4ff58, size 0x4, virtual false, abstract: false, final false
+inline ::UnityEngine::UIElements::ITextSelection* get_selection() ;
 
-  /// @brief Method get_selectionColor, addr 0x6b579dc, size 0xa4, virtual false, abstract: false, final false
-  inline ::UnityEngine::Color get_selectionColor();
+/// @brief Method get_selectionColor, addr 0x6b59554, size 0xa4, virtual false, abstract: false, final false
+inline ::UnityEngine::Color get_selectionColor() ;
 
-  /// @brief Method get_showPlaceholderText, addr 0x6b4aaa8, size 0x104, virtual false, abstract: false, final false
-  inline bool get_showPlaceholderText();
+/// @brief Method get_showPlaceholderText, addr 0x6b4c620, size 0x104, virtual false, abstract: false, final false
+inline bool get_showPlaceholderText() ;
 
-  /// @brief Method get_text, addr 0x6b51750, size 0x98, virtual true, abstract: false, final false
-  inline ::StringW get_text();
+/// @brief Method get_text, addr 0x6b532c8, size 0x98, virtual true, abstract: false, final false
+inline ::StringW get_text() ;
 
-  /// @brief Method get_tripleClickSelectsLine, addr 0x6b57104, size 0xa4, virtual false, abstract: false, final false
-  inline bool get_tripleClickSelectsLine();
+/// @brief Method get_tripleClickSelectsLine, addr 0x6b58c7c, size 0xa4, virtual false, abstract: false, final false
+inline bool get_tripleClickSelectsLine() ;
 
-  /// @brief Method get_uitkTextHandle, addr 0x6b515f0, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::UITKTextHandle* get_uitkTextHandle();
+/// @brief Method get_uitkTextHandle, addr 0x6b53168, size 0x8, virtual false, abstract: false, final false
+inline ::UnityEngine::UIElements::UITKTextHandle* get_uitkTextHandle() ;
 
-  /// @brief Method get_value, addr 0x6b53ad0, size 0x98, virtual false, abstract: false, final false
-  inline ::StringW get_value();
+/// @brief Method get_value, addr 0x6b55648, size 0x98, virtual false, abstract: false, final false
+inline ::StringW get_value() ;
 
-  /// @brief Convert to "::UnityEngine::UIElements::IExperimentalFeatures"
-  constexpr ::UnityEngine::UIElements::IExperimentalFeatures* i___UnityEngine__UIElements__IExperimentalFeatures() noexcept;
+/// @brief Convert to "::UnityEngine::UIElements::IExperimentalFeatures"
+constexpr ::UnityEngine::UIElements::IExperimentalFeatures* i___UnityEngine__UIElements__IExperimentalFeatures() noexcept;
 
-  /// @brief Convert to "::UnityEngine::UIElements::INotifyValueChanged_1<::StringW>"
-  constexpr ::UnityEngine::UIElements::INotifyValueChanged_1<::StringW>* i___UnityEngine__UIElements__INotifyValueChanged_1___StringW_() noexcept;
+/// @brief Convert to "::UnityEngine::UIElements::INotifyValueChanged_1<::StringW>"
+constexpr ::UnityEngine::UIElements::INotifyValueChanged_1<::StringW>* i___UnityEngine__UIElements__INotifyValueChanged_1___StringW_() noexcept;
 
-  /// @brief Convert to "::UnityEngine::UIElements::ITextEdition"
-  constexpr ::UnityEngine::UIElements::ITextEdition* i___UnityEngine__UIElements__ITextEdition() noexcept;
+/// @brief Convert to "::UnityEngine::UIElements::ITextEdition"
+constexpr ::UnityEngine::UIElements::ITextEdition* i___UnityEngine__UIElements__ITextEdition() noexcept;
 
-  /// @brief Convert to "::UnityEngine::UIElements::ITextSelection"
-  constexpr ::UnityEngine::UIElements::ITextSelection* i___UnityEngine__UIElements__ITextSelection() noexcept;
+/// @brief Convert to "::UnityEngine::UIElements::ITextSelection"
+constexpr ::UnityEngine::UIElements::ITextSelection* i___UnityEngine__UIElements__ITextSelection() noexcept;
 
-  static inline void setStaticF_autoCorrectionProperty(::UnityEngine::UIElements::BindingId value);
+static inline void setStaticF_autoCorrectionProperty(::UnityEngine::UIElements::BindingId  value) ;
 
-  static inline void setStaticF_cursorColorProperty(::UnityEngine::UIElements::BindingId value);
+static inline void setStaticF_cursorColorProperty(::UnityEngine::UIElements::BindingId  value) ;
 
-  static inline void setStaticF_cursorIndexProperty(::UnityEngine::UIElements::BindingId value);
+static inline void setStaticF_cursorIndexProperty(::UnityEngine::UIElements::BindingId  value) ;
 
-  static inline void setStaticF_cursorPositionProperty(::UnityEngine::UIElements::BindingId value);
+static inline void setStaticF_cursorPositionProperty(::UnityEngine::UIElements::BindingId  value) ;
 
-  static inline void setStaticF_displayTooltipWhenElidedProperty(::UnityEngine::UIElements::BindingId value);
+static inline void setStaticF_displayTooltipWhenElidedProperty(::UnityEngine::UIElements::BindingId  value) ;
 
-  static inline void setStaticF_doubleClickSelectsWordProperty(::UnityEngine::UIElements::BindingId value);
+static inline void setStaticF_doubleClickSelectsWordProperty(::UnityEngine::UIElements::BindingId  value) ;
 
-  static inline void setStaticF_emojiFallbackSupportProperty(::UnityEngine::UIElements::BindingId value);
+static inline void setStaticF_emojiFallbackSupportProperty(::UnityEngine::UIElements::BindingId  value) ;
 
-  static inline void setStaticF_enableRichTextProperty(::UnityEngine::UIElements::BindingId value);
+static inline void setStaticF_enableRichTextProperty(::UnityEngine::UIElements::BindingId  value) ;
 
-  static inline void setStaticF_hideMobileInputProperty(::UnityEngine::UIElements::BindingId value);
+static inline void setStaticF_hideMobileInputProperty(::UnityEngine::UIElements::BindingId  value) ;
 
-  static inline void setStaticF_isElidedProperty(::UnityEngine::UIElements::BindingId value);
+static inline void setStaticF_isElidedProperty(::UnityEngine::UIElements::BindingId  value) ;
 
-  static inline void setStaticF_isPasswordProperty(::UnityEngine::UIElements::BindingId value);
+static inline void setStaticF_isPasswordProperty(::UnityEngine::UIElements::BindingId  value) ;
 
-  static inline void setStaticF_isReadOnlyProperty(::UnityEngine::UIElements::BindingId value);
+static inline void setStaticF_isReadOnlyProperty(::UnityEngine::UIElements::BindingId  value) ;
 
-  static inline void setStaticF_isSelectableProperty(::UnityEngine::UIElements::BindingId value);
+static inline void setStaticF_isSelectableProperty(::UnityEngine::UIElements::BindingId  value) ;
 
-  static inline void setStaticF_k_EllipsisText(::StringW value);
+static inline void setStaticF_k_EllipsisText(::StringW  value) ;
 
-  static inline void setStaticF_keyboardTypeProperty(::UnityEngine::UIElements::BindingId value);
+static inline void setStaticF_keyboardTypeProperty(::UnityEngine::UIElements::BindingId  value) ;
 
-  static inline void setStaticF_maskCharProperty(::UnityEngine::UIElements::BindingId value);
+static inline void setStaticF_maskCharProperty(::UnityEngine::UIElements::BindingId  value) ;
 
-  static inline void setStaticF_maxLengthProperty(::UnityEngine::UIElements::BindingId value);
+static inline void setStaticF_maxLengthProperty(::UnityEngine::UIElements::BindingId  value) ;
 
-  static inline void setStaticF_parseEscapeSequencesProperty(::UnityEngine::UIElements::BindingId value);
+static inline void setStaticF_parseEscapeSequencesProperty(::UnityEngine::UIElements::BindingId  value) ;
 
-  static inline void setStaticF_selectAllOnFocusProperty(::UnityEngine::UIElements::BindingId value);
+static inline void setStaticF_selectAllOnFocusProperty(::UnityEngine::UIElements::BindingId  value) ;
 
-  static inline void setStaticF_selectAllOnMouseUpProperty(::UnityEngine::UIElements::BindingId value);
+static inline void setStaticF_selectAllOnMouseUpProperty(::UnityEngine::UIElements::BindingId  value) ;
 
-  static inline void setStaticF_selectIndexProperty(::UnityEngine::UIElements::BindingId value);
+static inline void setStaticF_selectIndexProperty(::UnityEngine::UIElements::BindingId  value) ;
 
-  static inline void setStaticF_selectableUssClassName(::StringW value);
+static inline void setStaticF_selectableUssClassName(::StringW  value) ;
 
-  static inline void setStaticF_selectionColorProperty(::UnityEngine::UIElements::BindingId value);
+static inline void setStaticF_selectionColorProperty(::UnityEngine::UIElements::BindingId  value) ;
 
-  static inline void setStaticF_selectionProperty(::UnityEngine::UIElements::BindingId value);
+static inline void setStaticF_selectionProperty(::UnityEngine::UIElements::BindingId  value) ;
 
-  static inline void setStaticF_textProperty(::UnityEngine::UIElements::BindingId value);
+static inline void setStaticF_textProperty(::UnityEngine::UIElements::BindingId  value) ;
 
-  static inline void setStaticF_tripleClickSelectsLineProperty(::UnityEngine::UIElements::BindingId value);
+static inline void setStaticF_tripleClickSelectsLineProperty(::UnityEngine::UIElements::BindingId  value) ;
 
-  static inline void setStaticF_ussClassName(::StringW value);
+static inline void setStaticF_ussClassName(::StringW  value) ;
 
-  static inline void setStaticF_valueProperty(::UnityEngine::UIElements::BindingId value);
+static inline void setStaticF_valueProperty(::UnityEngine::UIElements::BindingId  value) ;
 
-  /// @brief Method set_OnPlaceholderChanged, addr 0x6b55694, size 0x8, virtual false, abstract: false, final false
-  inline void set_OnPlaceholderChanged(::System::Action* value);
+/// @brief Method set_OnPlaceholderChanged, addr 0x6b5720c, size 0x8, virtual false, abstract: false, final false
+inline void set_OnPlaceholderChanged(::System::Action*  value) ;
 
-  /// @brief Method set_autoCorrection, addr 0x6b560ac, size 0xb4, virtual false, abstract: false, final false
-  inline void set_autoCorrection(bool value);
+/// @brief Method set_autoCorrection, addr 0x6b57c24, size 0xb4, virtual false, abstract: false, final false
+inline void set_autoCorrection(bool  value) ;
 
-  /// @brief Method set_cursorColor, addr 0x6b57d24, size 0xd4, virtual false, abstract: false, final false
-  inline void set_cursorColor(::UnityEngine::Color value);
+/// @brief Method set_cursorColor, addr 0x6b5989c, size 0xd4, virtual false, abstract: false, final false
+inline void set_cursorColor(::UnityEngine::Color  value) ;
 
-  /// @brief Method set_cursorIndex, addr 0x6b56720, size 0xb4, virtual false, abstract: false, final false
-  inline void set_cursorIndex(int32_t value);
+/// @brief Method set_cursorIndex, addr 0x6b58298, size 0xb4, virtual false, abstract: false, final false
+inline void set_cursorIndex(int32_t  value) ;
 
-  /// @brief Method set_displayTooltipWhenElided, addr 0x6b51ad0, size 0xb8, virtual false, abstract: false, final false
-  inline void set_displayTooltipWhenElided(bool value);
+/// @brief Method set_displayTooltipWhenElided, addr 0x6b53648, size 0xb8, virtual false, abstract: false, final false
+inline void set_displayTooltipWhenElided(bool  value) ;
 
-  /// @brief Method set_doubleClickSelectsWord, addr 0x6b56fb4, size 0xb4, virtual false, abstract: false, final false
-  inline void set_doubleClickSelectsWord(bool value);
+/// @brief Method set_doubleClickSelectsWord, addr 0x6b58b2c, size 0xb4, virtual false, abstract: false, final false
+inline void set_doubleClickSelectsWord(bool  value) ;
 
-  /// @brief Method set_editingManipulator, addr 0x6b53dcc, size 0x8, virtual false, abstract: false, final false
-  inline void set_editingManipulator(::UnityEngine::UIElements::TextEditingManipulator* value);
+/// @brief Method set_editingManipulator, addr 0x6b55944, size 0x8, virtual false, abstract: false, final false
+inline void set_editingManipulator(::UnityEngine::UIElements::TextEditingManipulator*  value) ;
 
-  /// @brief Method set_emojiFallbackSupport, addr 0x6b51958, size 0xb4, virtual false, abstract: false, final false
-  inline void set_emojiFallbackSupport(bool value);
+/// @brief Method set_emojiFallbackSupport, addr 0x6b534d0, size 0xb4, virtual false, abstract: false, final false
+inline void set_emojiFallbackSupport(bool  value) ;
 
-  /// @brief Method set_enableRichText, addr 0x6b5189c, size 0xb4, virtual false, abstract: false, final false
-  inline void set_enableRichText(bool value);
+/// @brief Method set_enableRichText, addr 0x6b53414, size 0xb4, virtual false, abstract: false, final false
+inline void set_enableRichText(bool  value) ;
 
-  /// @brief Method set_hideMobileInput, addr 0x6b54270, size 0xb4, virtual false, abstract: false, final false
-  inline void set_hideMobileInput(bool value);
+/// @brief Method set_hideMobileInput, addr 0x6b55de8, size 0xb4, virtual false, abstract: false, final false
+inline void set_hideMobileInput(bool  value) ;
 
-  /// @brief Method set_isElided, addr 0x6b51b90, size 0x8, virtual false, abstract: false, final false
-  inline void set_isElided(bool value);
+/// @brief Method set_isElided, addr 0x6b53708, size 0x8, virtual false, abstract: false, final false
+inline void set_isElided(bool  value) ;
 
-  /// @brief Method set_isPassword, addr 0x6b55ea8, size 0xb4, virtual false, abstract: false, final false
-  inline void set_isPassword(bool value);
+/// @brief Method set_isPassword, addr 0x6b57a20, size 0xb4, virtual false, abstract: false, final false
+inline void set_isPassword(bool  value) ;
 
-  /// @brief Method set_isReadOnly, addr 0x6b544f8, size 0xb4, virtual false, abstract: false, final false
-  inline void set_isReadOnly(bool value);
+/// @brief Method set_isReadOnly, addr 0x6b56070, size 0xb4, virtual false, abstract: false, final false
+inline void set_isReadOnly(bool  value) ;
 
-  /// @brief Method set_isSelectable, addr 0x6b562f8, size 0xb4, virtual false, abstract: false, final false
-  inline void set_isSelectable(bool value);
+/// @brief Method set_isSelectable, addr 0x6b57e70, size 0xb4, virtual false, abstract: false, final false
+inline void set_isSelectable(bool  value) ;
 
-  /// @brief Method set_keyboardType, addr 0x6b53ff4, size 0xb4, virtual false, abstract: false, final false
-  inline void set_keyboardType(::UnityEngine::TouchScreenKeyboardType value);
+/// @brief Method set_keyboardType, addr 0x6b55b6c, size 0xb4, virtual false, abstract: false, final false
+inline void set_keyboardType(::UnityEngine::TouchScreenKeyboardType  value) ;
 
-  /// @brief Method set_maskChar, addr 0x6b55bdc, size 0xb4, virtual false, abstract: false, final false
-  inline void set_maskChar(char16_t value);
+/// @brief Method set_maskChar, addr 0x6b57754, size 0xb4, virtual false, abstract: false, final false
+inline void set_maskChar(char16_t  value) ;
 
-  /// @brief Method set_maxLength, addr 0x6b55394, size 0xb4, virtual false, abstract: false, final false
-  inline void set_maxLength(int32_t value);
+/// @brief Method set_maxLength, addr 0x6b56f0c, size 0xb4, virtual false, abstract: false, final false
+inline void set_maxLength(int32_t  value) ;
 
-  /// @brief Method set_parseEscapeSequences, addr 0x6b51a14, size 0xb4, virtual false, abstract: false, final false
-  inline void set_parseEscapeSequences(bool value);
+/// @brief Method set_parseEscapeSequences, addr 0x6b5358c, size 0xb4, virtual false, abstract: false, final false
+inline void set_parseEscapeSequences(bool  value) ;
 
-  /// @brief Method set_selectAllOnFocus, addr 0x6b5739c, size 0xb4, virtual false, abstract: false, final false
-  inline void set_selectAllOnFocus(bool value);
+/// @brief Method set_selectAllOnFocus, addr 0x6b58f14, size 0xb4, virtual false, abstract: false, final false
+inline void set_selectAllOnFocus(bool  value) ;
 
-  /// @brief Method set_selectAllOnMouseUp, addr 0x6b57590, size 0xb4, virtual false, abstract: false, final false
-  inline void set_selectAllOnMouseUp(bool value);
+/// @brief Method set_selectAllOnMouseUp, addr 0x6b59108, size 0xb4, virtual false, abstract: false, final false
+inline void set_selectAllOnMouseUp(bool  value) ;
 
-  /// @brief Method set_selectIndex, addr 0x6b56b48, size 0xb4, virtual false, abstract: false, final false
-  inline void set_selectIndex(int32_t value);
+/// @brief Method set_selectIndex, addr 0x6b586c0, size 0xb4, virtual false, abstract: false, final false
+inline void set_selectIndex(int32_t  value) ;
 
-  /// @brief Method set_selectionColor, addr 0x6b57a80, size 0xd4, virtual false, abstract: false, final false
-  inline void set_selectionColor(::UnityEngine::Color value);
+/// @brief Method set_selectionColor, addr 0x6b595f8, size 0xd4, virtual false, abstract: false, final false
+inline void set_selectionColor(::UnityEngine::Color  value) ;
 
-  /// @brief Method set_text, addr 0x6b517e8, size 0xac, virtual true, abstract: false, final false
-  inline void set_text(::StringW value);
+/// @brief Method set_text, addr 0x6b53360, size 0xac, virtual true, abstract: false, final false
+inline void set_text(::StringW  value) ;
 
-  /// @brief Method set_tripleClickSelectsLine, addr 0x6b571a8, size 0xb4, virtual false, abstract: false, final false
-  inline void set_tripleClickSelectsLine(bool value);
+/// @brief Method set_tripleClickSelectsLine, addr 0x6b58d20, size 0xb4, virtual false, abstract: false, final false
+inline void set_tripleClickSelectsLine(bool  value) ;
 
-  /// @brief Method set_uitkTextHandle, addr 0x6b515f8, size 0x8, virtual false, abstract: false, final false
-  inline void set_uitkTextHandle(::UnityEngine::UIElements::UITKTextHandle* value);
+/// @brief Method set_uitkTextHandle, addr 0x6b53170, size 0x8, virtual false, abstract: false, final false
+inline void set_uitkTextHandle(::UnityEngine::UIElements::UITKTextHandle*  value) ;
 
-  /// @brief Method set_value, addr 0x6b53b68, size 0xac, virtual false, abstract: false, final false
-  inline void set_value(::StringW value);
+/// @brief Method set_value, addr 0x6b556e0, size 0xac, virtual false, abstract: false, final false
+inline void set_value(::StringW  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TextElement();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr TextElement() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TextElement", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  TextElement(TextElement&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TextElement", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  TextElement(TextElement const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "TextElement", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+TextElement(TextElement && ) = delete;
 
-  /// @brief Field ZeroWidthSpace offset 0xffffffff size 0x8
-  static constexpr ::ConstString ZeroWidthSpace{ u"\u{200b}" };
+// Ctor Parameters [CppParam { name: "", ty: "TextElement", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+TextElement(TextElement const& ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5102 };
+/// @brief Field ZeroWidthSpace offset 0xffffffff size 0x8
+static constexpr ::ConstString  ZeroWidthSpace{u"\u{200b}"};
 
-  /// @brief Field <uitkTextHandle>k__BackingField, offset: 0x4b8, size: 0x8, def value: None
-  ::UnityEngine::UIElements::UITKTextHandle* ____uitkTextHandle_k__BackingField;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{5102};
 
-  /// @brief Field m_Text, offset: 0x4c0, size: 0x8, def value: None
-  ::StringW ___m_Text;
+/// @brief Field <uitkTextHandle>k__BackingField, offset: 0x4b8, size: 0x8, def value: None
+ ::UnityEngine::UIElements::UITKTextHandle*  ____uitkTextHandle_k__BackingField;
 
-  /// @brief Field m_EnableRichText, offset: 0x4c8, size: 0x1, def value: None
-  bool ___m_EnableRichText;
+/// @brief Field m_Text, offset: 0x4c0, size: 0x8, def value: None
+ ::StringW  ___m_Text;
 
-  /// @brief Field m_EmojiFallbackSupport, offset: 0x4c9, size: 0x1, def value: None
-  bool ___m_EmojiFallbackSupport;
+/// @brief Field m_EnableRichText, offset: 0x4c8, size: 0x1, def value: None
+ bool  ___m_EnableRichText;
 
-  /// @brief Field m_ParseEscapeSequences, offset: 0x4ca, size: 0x1, def value: None
-  bool ___m_ParseEscapeSequences;
+/// @brief Field m_EmojiFallbackSupport, offset: 0x4c9, size: 0x1, def value: None
+ bool  ___m_EmojiFallbackSupport;
 
-  /// @brief Field m_DisplayTooltipWhenElided, offset: 0x4cb, size: 0x1, def value: None
-  bool ___m_DisplayTooltipWhenElided;
+/// @brief Field m_ParseEscapeSequences, offset: 0x4ca, size: 0x1, def value: None
+ bool  ___m_ParseEscapeSequences;
 
-  /// @brief Field <isElided>k__BackingField, offset: 0x4cc, size: 0x1, def value: None
-  bool ____isElided_k__BackingField;
+/// @brief Field m_DisplayTooltipWhenElided, offset: 0x4cb, size: 0x1, def value: None
+ bool  ___m_DisplayTooltipWhenElided;
 
-  /// @brief Field elidedText, offset: 0x4d0, size: 0x8, def value: None
-  ::StringW ___elidedText;
+/// @brief Field <isElided>k__BackingField, offset: 0x4cc, size: 0x1, def value: None
+ bool  ____isElided_k__BackingField;
 
-  /// @brief Field m_WasElided, offset: 0x4d8, size: 0x1, def value: None
-  bool ___m_WasElided;
+/// @brief Field elidedText, offset: 0x4d0, size: 0x8, def value: None
+ ::StringW  ___elidedText;
 
-  /// @brief Field <editingManipulator>k__BackingField, offset: 0x4e0, size: 0x8, def value: None
-  ::UnityEngine::UIElements::TextEditingManipulator* ____editingManipulator_k__BackingField;
+/// @brief Field m_WasElided, offset: 0x4d8, size: 0x1, def value: None
+ bool  ___m_WasElided;
 
-  /// @brief Field isInputField, offset: 0x4e8, size: 0x1, def value: None
-  bool ___isInputField;
+/// @brief Field <editingManipulator>k__BackingField, offset: 0x4e0, size: 0x8, def value: None
+ ::UnityEngine::UIElements::TextEditingManipulator*  ____editingManipulator_k__BackingField;
 
-  /// @brief Field m_Multiline, offset: 0x4e9, size: 0x1, def value: None
-  bool ___m_Multiline;
+/// @brief Field isInputField, offset: 0x4e8, size: 0x1, def value: None
+ bool  ___isInputField;
 
-  /// @brief Field m_TouchScreenKeyboard, offset: 0x4f0, size: 0x8, def value: None
-  ::UnityEngine::TouchScreenKeyboard* ___m_TouchScreenKeyboard;
+/// @brief Field m_Multiline, offset: 0x4e9, size: 0x1, def value: None
+ bool  ___m_Multiline;
 
-  /// @brief Field onIsReadOnlyChanged, offset: 0x4f8, size: 0x8, def value: None
-  ::System::Action_1<bool>* ___onIsReadOnlyChanged;
+/// @brief Field m_TouchScreenKeyboard, offset: 0x4f0, size: 0x8, def value: None
+ ::UnityEngine::TouchScreenKeyboard*  ___m_TouchScreenKeyboard;
 
-  /// @brief Field m_KeyboardType, offset: 0x500, size: 0x4, def value: None
-  ::UnityEngine::TouchScreenKeyboardType ___m_KeyboardType;
+/// @brief Field onIsReadOnlyChanged, offset: 0x4f8, size: 0x8, def value: None
+ ::System::Action_1<bool>*  ___onIsReadOnlyChanged;
 
-  /// @brief Field m_HideMobileInput, offset: 0x504, size: 0x1, def value: None
-  bool ___m_HideMobileInput;
+/// @brief Field m_KeyboardType, offset: 0x500, size: 0x4, def value: None
+ ::UnityEngine::TouchScreenKeyboardType  ___m_KeyboardType;
 
-  /// @brief Field m_IsReadOnly, offset: 0x505, size: 0x1, def value: None
-  bool ___m_IsReadOnly;
+/// @brief Field m_HideMobileInput, offset: 0x504, size: 0x1, def value: None
+ bool  ___m_HideMobileInput;
 
-  /// @brief Field m_MaxLength, offset: 0x508, size: 0x4, def value: None
-  int32_t ___m_MaxLength;
+/// @brief Field m_IsReadOnly, offset: 0x505, size: 0x1, def value: None
+ bool  ___m_IsReadOnly;
 
-  /// @brief Field m_PlaceholderText, offset: 0x510, size: 0x8, def value: None
-  ::StringW ___m_PlaceholderText;
+/// @brief Field m_MaxLength, offset: 0x508, size: 0x4, def value: None
+ int32_t  ___m_MaxLength;
 
-  /// @brief Field <UnityEngine.UIElements.ITextEdition.isDelayed>k__BackingField, offset: 0x518, size: 0x1, def value: None
-  bool ____UnityEngine_UIElements_ITextEdition_isDelayed_k__BackingField;
+/// @brief Field m_PlaceholderText, offset: 0x510, size: 0x8, def value: None
+ ::StringW  ___m_PlaceholderText;
 
-  /// @brief Field <UnityEngine.UIElements.ITextEdition.AcceptCharacter>k__BackingField, offset: 0x520, size: 0x8, def value: None
-  ::System::Func_2<char16_t, bool>* ____UnityEngine_UIElements_ITextEdition_AcceptCharacter_k__BackingField;
+/// @brief Field <UnityEngine.UIElements.ITextEdition.isDelayed>k__BackingField, offset: 0x518, size: 0x1, def value: None
+ bool  ____UnityEngine_UIElements_ITextEdition_isDelayed_k__BackingField;
 
-  /// @brief Field <UnityEngine.UIElements.ITextEdition.UpdateScrollOffset>k__BackingField, offset: 0x528, size: 0x8, def value: None
-  ::System::Action_1<bool>* ____UnityEngine_UIElements_ITextEdition_UpdateScrollOffset_k__BackingField;
+/// @brief Field <UnityEngine.UIElements.ITextEdition.AcceptCharacter>k__BackingField, offset: 0x520, size: 0x8, def value: None
+ ::System::Func_2<char16_t,bool>*  ____UnityEngine_UIElements_ITextEdition_AcceptCharacter_k__BackingField;
 
-  /// @brief Field <UnityEngine.UIElements.ITextEdition.UpdateValueFromText>k__BackingField, offset: 0x530, size: 0x8, def value: None
-  ::System::Action* ____UnityEngine_UIElements_ITextEdition_UpdateValueFromText_k__BackingField;
+/// @brief Field <UnityEngine.UIElements.ITextEdition.UpdateScrollOffset>k__BackingField, offset: 0x528, size: 0x8, def value: None
+ ::System::Action_1<bool>*  ____UnityEngine_UIElements_ITextEdition_UpdateScrollOffset_k__BackingField;
 
-  /// @brief Field <UnityEngine.UIElements.ITextEdition.UpdateTextFromValue>k__BackingField, offset: 0x538, size: 0x8, def value: None
-  ::System::Action* ____UnityEngine_UIElements_ITextEdition_UpdateTextFromValue_k__BackingField;
+/// @brief Field <UnityEngine.UIElements.ITextEdition.UpdateValueFromText>k__BackingField, offset: 0x530, size: 0x8, def value: None
+ ::System::Action*  ____UnityEngine_UIElements_ITextEdition_UpdateValueFromText_k__BackingField;
 
-  /// @brief Field <UnityEngine.UIElements.ITextEdition.MoveFocusToCompositeRoot>k__BackingField, offset: 0x540, size: 0x8, def value: None
-  ::System::Action* ____UnityEngine_UIElements_ITextEdition_MoveFocusToCompositeRoot_k__BackingField;
+/// @brief Field <UnityEngine.UIElements.ITextEdition.UpdateTextFromValue>k__BackingField, offset: 0x538, size: 0x8, def value: None
+ ::System::Action*  ____UnityEngine_UIElements_ITextEdition_UpdateTextFromValue_k__BackingField;
 
-  /// @brief Field <OnPlaceholderChanged>k__BackingField, offset: 0x548, size: 0x8, def value: None
-  ::System::Action* ____OnPlaceholderChanged_k__BackingField;
+/// @brief Field <UnityEngine.UIElements.ITextEdition.MoveFocusToCompositeRoot>k__BackingField, offset: 0x540, size: 0x8, def value: None
+ ::System::Action*  ____UnityEngine_UIElements_ITextEdition_MoveFocusToCompositeRoot_k__BackingField;
 
-  /// @brief Field <UnityEngine.UIElements.ITextEdition.GetDefaultValueType>k__BackingField, offset: 0x550, size: 0x8, def value: None
-  ::System::Func_1<::StringW>* ____UnityEngine_UIElements_ITextEdition_GetDefaultValueType_k__BackingField;
+/// @brief Field <OnPlaceholderChanged>k__BackingField, offset: 0x548, size: 0x8, def value: None
+ ::System::Action*  ____OnPlaceholderChanged_k__BackingField;
 
-  /// @brief Field m_RenderedText, offset: 0x558, size: 0x8, def value: None
-  ::StringW ___m_RenderedText;
+/// @brief Field <UnityEngine.UIElements.ITextEdition.GetDefaultValueType>k__BackingField, offset: 0x550, size: 0x8, def value: None
+ ::System::Func_1<::StringW>*  ____UnityEngine_UIElements_ITextEdition_GetDefaultValueType_k__BackingField;
 
-  /// @brief Field m_OriginalText, offset: 0x560, size: 0x8, def value: None
-  ::StringW ___m_OriginalText;
+/// @brief Field m_RenderedText, offset: 0x558, size: 0x8, def value: None
+ ::StringW  ___m_RenderedText;
 
-  /// @brief Field m_MaskChar, offset: 0x568, size: 0x2, def value: None
-  char16_t ___m_MaskChar;
+/// @brief Field m_OriginalText, offset: 0x560, size: 0x8, def value: None
+ ::StringW  ___m_OriginalText;
 
-  /// @brief Field m_IsPassword, offset: 0x56a, size: 0x1, def value: None
-  bool ___m_IsPassword;
+/// @brief Field m_MaskChar, offset: 0x568, size: 0x2, def value: None
+ char16_t  ___m_MaskChar;
 
-  /// @brief Field m_HidePlaceholderTextOnFocus, offset: 0x56b, size: 0x1, def value: None
-  bool ___m_HidePlaceholderTextOnFocus;
+/// @brief Field m_IsPassword, offset: 0x56a, size: 0x1, def value: None
+ bool  ___m_IsPassword;
 
-  /// @brief Field m_AutoCorrection, offset: 0x56c, size: 0x1, def value: None
-  bool ___m_AutoCorrection;
+/// @brief Field m_HidePlaceholderTextOnFocus, offset: 0x56b, size: 0x1, def value: None
+ bool  ___m_HidePlaceholderTextOnFocus;
 
-  /// @brief Field m_SelectingManipulator, offset: 0x570, size: 0x8, def value: None
-  ::UnityEngine::UIElements::TextSelectingManipulator* ___m_SelectingManipulator;
+/// @brief Field m_AutoCorrection, offset: 0x56c, size: 0x1, def value: None
+ bool  ___m_AutoCorrection;
 
-  /// @brief Field m_IsSelectable, offset: 0x578, size: 0x1, def value: None
-  bool ___m_IsSelectable;
+/// @brief Field m_SelectingManipulator, offset: 0x570, size: 0x8, def value: None
+ ::UnityEngine::UIElements::TextSelectingManipulator*  ___m_SelectingManipulator;
 
-  /// @brief Field m_DoubleClickSelectsWord, offset: 0x579, size: 0x1, def value: None
-  bool ___m_DoubleClickSelectsWord;
+/// @brief Field m_IsSelectable, offset: 0x578, size: 0x1, def value: None
+ bool  ___m_IsSelectable;
 
-  /// @brief Field m_TripleClickSelectsLine, offset: 0x57a, size: 0x1, def value: None
-  bool ___m_TripleClickSelectsLine;
+/// @brief Field m_DoubleClickSelectsWord, offset: 0x579, size: 0x1, def value: None
+ bool  ___m_DoubleClickSelectsWord;
 
-  /// @brief Field m_SelectAllOnFocus, offset: 0x57b, size: 0x1, def value: None
-  bool ___m_SelectAllOnFocus;
+/// @brief Field m_TripleClickSelectsLine, offset: 0x57a, size: 0x1, def value: None
+ bool  ___m_TripleClickSelectsLine;
 
-  /// @brief Field m_SelectAllOnMouseUp, offset: 0x57c, size: 0x1, def value: None
-  bool ___m_SelectAllOnMouseUp;
+/// @brief Field m_SelectAllOnFocus, offset: 0x57b, size: 0x1, def value: None
+ bool  ___m_SelectAllOnFocus;
 
-  /// @brief Field m_SelectionColor, offset: 0x580, size: 0x10, def value: None
-  ::UnityEngine::Color ___m_SelectionColor;
+/// @brief Field m_SelectAllOnMouseUp, offset: 0x57c, size: 0x1, def value: None
+ bool  ___m_SelectAllOnMouseUp;
 
-  /// @brief Field m_CursorColor, offset: 0x590, size: 0x10, def value: None
-  ::UnityEngine::Color ___m_CursorColor;
+/// @brief Field m_SelectionColor, offset: 0x580, size: 0x10, def value: None
+ ::UnityEngine::Color  ___m_SelectionColor;
 
-  /// @brief Field m_CursorWidth, offset: 0x5a0, size: 0x4, def value: None
-  float_t ___m_CursorWidth;
+/// @brief Field m_CursorColor, offset: 0x590, size: 0x10, def value: None
+ ::UnityEngine::Color  ___m_CursorColor;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field m_CursorWidth, offset: 0x5a0, size: 0x4, def value: None
+ float_t  ___m_CursorWidth;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::UIElements::TextElement, ____uitkTextHandle_k__BackingField) == 0x4b8, "Offset mismatch!");
@@ -1780,7 +1740,7 @@ static_assert(offsetof(::UnityEngine::UIElements::TextElement, ___m_CursorWidth)
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::TextElement, 0x5a8>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements
+} // namespace end def UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::TextElement);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::TextElement*, "UnityEngine.UIElements", "TextElement");
 NEED_NO_BOX(::UnityEngine::UIElements::TextElement_UxmlFactory);

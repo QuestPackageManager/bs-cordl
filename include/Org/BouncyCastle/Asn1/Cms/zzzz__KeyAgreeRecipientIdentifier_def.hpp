@@ -35,84 +35,84 @@ namespace Org::BouncyCastle::Asn1::Cms {
 // CS Name: Org.BouncyCastle.Asn1.Cms.KeyAgreeRecipientIdentifier
 class CORDL_TYPE KeyAgreeRecipientIdentifier : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
-  // Declarations
-  __declspec(property(get = get_IssuerAndSerialNumber)) ::Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber* IssuerAndSerialNumber;
+// Declarations
+ __declspec(property(get=get_IssuerAndSerialNumber)) ::Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber*  IssuerAndSerialNumber;
 
-  __declspec(property(get = get_RKeyID)) ::Org::BouncyCastle::Asn1::Cms::RecipientKeyIdentifier* RKeyID;
+ __declspec(property(get=get_RKeyID)) ::Org::BouncyCastle::Asn1::Cms::RecipientKeyIdentifier*  RKeyID;
 
-  /// @brief Field issuerSerial, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_issuerSerial, put = __cordl_internal_set_issuerSerial)) ::Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber* issuerSerial;
+/// @brief Field issuerSerial, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_issuerSerial, put=__cordl_internal_set_issuerSerial)) ::Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber*  issuerSerial;
 
-  /// @brief Field rKeyID, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_rKeyID, put = __cordl_internal_set_rKeyID)) ::Org::BouncyCastle::Asn1::Cms::RecipientKeyIdentifier* rKeyID;
+/// @brief Field rKeyID, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_rKeyID, put=__cordl_internal_set_rKeyID)) ::Org::BouncyCastle::Asn1::Cms::RecipientKeyIdentifier*  rKeyID;
 
-  /// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Choice"
-  constexpr operator ::Org::BouncyCastle::Asn1::IAsn1Choice*() noexcept;
+/// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Choice"
+constexpr operator  ::Org::BouncyCastle::Asn1::IAsn1Choice*() noexcept;
 
-  /// @brief Method GetInstance, addr 0x329c5c4, size 0x14, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientIdentifier* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);
+/// @brief Method GetInstance, addr 0x329d360, size 0x14, virtual false, abstract: false, final false
+static inline ::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientIdentifier* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject*  obj, bool  isExplicit) ;
 
-  /// @brief Method GetInstance, addr 0x329c5d8, size 0x1d0, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientIdentifier* GetInstance(::System::Object* obj);
+/// @brief Method GetInstance, addr 0x329d374, size 0x1d0, virtual false, abstract: false, final false
+static inline ::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientIdentifier* GetInstance(::System::Object*  obj) ;
 
-  static inline ::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientIdentifier* New_ctor(::Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber* issuerSerial);
+static inline ::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientIdentifier* New_ctor(::Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber*  issuerSerial) ;
 
-  static inline ::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientIdentifier* New_ctor(::Org::BouncyCastle::Asn1::Cms::RecipientKeyIdentifier* rKeyID);
+static inline ::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientIdentifier* New_ctor(::Org::BouncyCastle::Asn1::Cms::RecipientKeyIdentifier*  rKeyID) ;
 
-  /// @brief Method ToAsn1Object, addr 0x329c7dc, size 0x84, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
+/// @brief Method ToAsn1Object, addr 0x329d578, size 0x84, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object() ;
 
-  constexpr ::Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber* const& __cordl_internal_get_issuerSerial() const;
+constexpr ::Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber* const& __cordl_internal_get_issuerSerial() const;
 
-  constexpr ::Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber*& __cordl_internal_get_issuerSerial();
+constexpr ::Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber*& __cordl_internal_get_issuerSerial() ;
 
-  constexpr ::Org::BouncyCastle::Asn1::Cms::RecipientKeyIdentifier* const& __cordl_internal_get_rKeyID() const;
+constexpr ::Org::BouncyCastle::Asn1::Cms::RecipientKeyIdentifier* const& __cordl_internal_get_rKeyID() const;
 
-  constexpr ::Org::BouncyCastle::Asn1::Cms::RecipientKeyIdentifier*& __cordl_internal_get_rKeyID();
+constexpr ::Org::BouncyCastle::Asn1::Cms::RecipientKeyIdentifier*& __cordl_internal_get_rKeyID() ;
 
-  constexpr void __cordl_internal_set_issuerSerial(::Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber* value);
+constexpr void __cordl_internal_set_issuerSerial(::Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber*  value) ;
 
-  constexpr void __cordl_internal_set_rKeyID(::Org::BouncyCastle::Asn1::Cms::RecipientKeyIdentifier* value);
+constexpr void __cordl_internal_set_rKeyID(::Org::BouncyCastle::Asn1::Cms::RecipientKeyIdentifier*  value) ;
 
-  /// @brief Method .ctor, addr 0x329c7a8, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber* issuerSerial);
+/// @brief Method .ctor, addr 0x329d544, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(::Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber*  issuerSerial) ;
 
-  /// @brief Method .ctor, addr 0x329c7c4, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Asn1::Cms::RecipientKeyIdentifier* rKeyID);
+/// @brief Method .ctor, addr 0x329d560, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(::Org::BouncyCastle::Asn1::Cms::RecipientKeyIdentifier*  rKeyID) ;
 
-  /// @brief Method get_IssuerAndSerialNumber, addr 0x329c7cc, size 0x8, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber* get_IssuerAndSerialNumber();
+/// @brief Method get_IssuerAndSerialNumber, addr 0x329d568, size 0x8, virtual false, abstract: false, final false
+inline ::Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber* get_IssuerAndSerialNumber() ;
 
-  /// @brief Method get_RKeyID, addr 0x329c7d4, size 0x8, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Cms::RecipientKeyIdentifier* get_RKeyID();
+/// @brief Method get_RKeyID, addr 0x329d570, size 0x8, virtual false, abstract: false, final false
+inline ::Org::BouncyCastle::Asn1::Cms::RecipientKeyIdentifier* get_RKeyID() ;
 
-  /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Choice"
-  constexpr ::Org::BouncyCastle::Asn1::IAsn1Choice* i___Org__BouncyCastle__Asn1__IAsn1Choice() noexcept;
+/// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Choice"
+constexpr ::Org::BouncyCastle::Asn1::IAsn1Choice* i___Org__BouncyCastle__Asn1__IAsn1Choice() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr KeyAgreeRecipientIdentifier();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr KeyAgreeRecipientIdentifier() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "KeyAgreeRecipientIdentifier", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  KeyAgreeRecipientIdentifier(KeyAgreeRecipientIdentifier&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "KeyAgreeRecipientIdentifier", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  KeyAgreeRecipientIdentifier(KeyAgreeRecipientIdentifier const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "KeyAgreeRecipientIdentifier", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+KeyAgreeRecipientIdentifier(KeyAgreeRecipientIdentifier && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 77 };
+// Ctor Parameters [CppParam { name: "", ty: "KeyAgreeRecipientIdentifier", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+KeyAgreeRecipientIdentifier(KeyAgreeRecipientIdentifier const& ) = delete;
 
-  /// @brief Field issuerSerial, offset: 0x10, size: 0x8, def value: None
-  ::Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber* ___issuerSerial;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{77};
 
-  /// @brief Field rKeyID, offset: 0x18, size: 0x8, def value: None
-  ::Org::BouncyCastle::Asn1::Cms::RecipientKeyIdentifier* ___rKeyID;
+/// @brief Field issuerSerial, offset: 0x10, size: 0x8, def value: None
+ ::Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber*  ___issuerSerial;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field rKeyID, offset: 0x18, size: 0x8, def value: None
+ ::Org::BouncyCastle::Asn1::Cms::RecipientKeyIdentifier*  ___rKeyID;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientIdentifier, ___issuerSerial) == 0x10, "Offset mismatch!");
@@ -121,6 +121,6 @@ static_assert(offsetof(::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientIdentifi
 
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientIdentifier, 0x20>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Asn1::Cms
+} // namespace end def Org::BouncyCastle::Asn1::Cms
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientIdentifier);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientIdentifier*, "Org.BouncyCastle.Asn1.Cms", "KeyAgreeRecipientIdentifier");

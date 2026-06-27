@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "Unity/Properties/ArrayPropertyBag_1.hpp"
 #include "Unity/Properties/AttributesScope.hpp"
@@ -81,5 +81,6 @@ module;
 #include "Unity/Properties/VisitParameters.hpp"
 #include "Unity/Properties/VisitReturnCode.hpp"
 #ifdef __cpp_modules
-export module Properties;
-#endif
+                    export module Properties;
+                    #endif
+                

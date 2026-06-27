@@ -29,52 +29,52 @@ namespace GlobalNamespace {
 // CS Name: SelectableCellSelectableStateController
 class CORDL_TYPE SelectableCellSelectableStateController : public ::GlobalNamespace::SelectableStateController_1<::UnityW<::HMUI::SelectableCell>> {
 public:
-  // Declarations
-  /// @brief Method HandleSelectableCellHighlightDidChange, addr 0x6302e18, size 0x4, virtual false, abstract: false, final false
-  inline void HandleSelectableCellHighlightDidChange(::HMUI::SelectableCell* selectableCell, ::HMUI::SelectableCell_TransitionType transitionType);
+// Declarations
+/// @brief Method HandleSelectableCellHighlightDidChange, addr 0x6304990, size 0x4, virtual false, abstract: false, final false
+inline void HandleSelectableCellHighlightDidChange(::HMUI::SelectableCell*  selectableCell, ::HMUI::SelectableCell_TransitionType  transitionType) ;
 
-  /// @brief Method HandleSelectableCellInteractableDidChange, addr 0x6302d84, size 0x94, virtual false, abstract: false, final false
-  inline void HandleSelectableCellInteractableDidChange(::HMUI::Interactable* interactableCell, bool interactable);
+/// @brief Method HandleSelectableCellInteractableDidChange, addr 0x63048fc, size 0x94, virtual false, abstract: false, final false
+inline void HandleSelectableCellInteractableDidChange(::HMUI::Interactable*  interactableCell, bool  interactable) ;
 
-  /// @brief Method HandleSelectableCellSelectionStateDidChange, addr 0x6302e1c, size 0x4, virtual false, abstract: false, final false
-  inline void HandleSelectableCellSelectionStateDidChange(::HMUI::SelectableCell* selectableCell, ::HMUI::SelectableCell_TransitionType transitionType, ::System::Object* owner);
+/// @brief Method HandleSelectableCellSelectionStateDidChange, addr 0x6304994, size 0x4, virtual false, abstract: false, final false
+inline void HandleSelectableCellSelectionStateDidChange(::HMUI::SelectableCell*  selectableCell, ::HMUI::SelectableCell_TransitionType  transitionType, ::System::Object*  owner) ;
 
-  static inline ::GlobalNamespace::SelectableCellSelectableStateController* New_ctor();
+static inline ::GlobalNamespace::SelectableCellSelectableStateController* New_ctor() ;
 
-  /// @brief Method OnDisable, addr 0x6302c2c, size 0x158, virtual false, abstract: false, final false
-  inline void OnDisable();
+/// @brief Method OnDisable, addr 0x63047a4, size 0x158, virtual false, abstract: false, final false
+inline void OnDisable() ;
 
-  /// @brief Method OnEnable, addr 0x6302a50, size 0x168, virtual false, abstract: false, final false
-  inline void OnEnable();
+/// @brief Method OnEnable, addr 0x63045c8, size 0x168, virtual false, abstract: false, final false
+inline void OnEnable() ;
 
-  /// @brief Method ResolveState, addr 0x6302bb8, size 0x74, virtual false, abstract: false, final false
-  inline void ResolveState(::HMUI::SelectableCell* selectableCell, ::HMUI::SelectableCell_TransitionType transitionType);
+/// @brief Method ResolveState, addr 0x6304730, size 0x74, virtual false, abstract: false, final false
+inline void ResolveState(::HMUI::SelectableCell*  selectableCell, ::HMUI::SelectableCell_TransitionType  transitionType) ;
 
-  /// @brief Method .ctor, addr 0x6302e20, size 0x44, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6304998, size 0x44, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SelectableCellSelectableStateController();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr SelectableCellSelectableStateController() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SelectableCellSelectableStateController", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  SelectableCellSelectableStateController(SelectableCellSelectableStateController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SelectableCellSelectableStateController", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  SelectableCellSelectableStateController(SelectableCellSelectableStateController const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "SelectableCellSelectableStateController", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+SelectableCellSelectableStateController(SelectableCellSelectableStateController && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22183 };
+// Ctor Parameters [CppParam { name: "", ty: "SelectableCellSelectableStateController", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+SelectableCellSelectableStateController(SelectableCellSelectableStateController const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22187};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SelectableCellSelectableStateController, 0x40>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SelectableCellSelectableStateController);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SelectableCellSelectableStateController*, "", "SelectableCellSelectableStateController");

@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "LiteNetLib/BaseChannel.hpp"
 #include "LiteNetLib/ConnectRequestResult.hpp"
@@ -45,5 +45,6 @@ module;
 #include "LiteNetLib/TooBigPacketException.hpp"
 #include "LiteNetLib/UnconnectedMessageType.hpp"
 #ifdef __cpp_modules
-export module LiteNetLib;
-#endif
+                    export module LiteNetLib;
+                    #endif
+                

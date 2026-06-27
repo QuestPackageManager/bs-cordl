@@ -23,37 +23,37 @@ namespace UnityEngine::InputSystem::Android::LowLevel {
 // CS Name: UnityEngine.InputSystem.Android.LowLevel.AndroidCompensateRotationProcessor
 class CORDL_TYPE AndroidCompensateRotationProcessor : public ::UnityEngine::InputSystem::Processors::CompensateRotationProcessor {
 public:
-  // Declarations
-  static inline ::UnityEngine::InputSystem::Android::LowLevel::AndroidCompensateRotationProcessor* New_ctor();
+// Declarations
+static inline ::UnityEngine::InputSystem::Android::LowLevel::AndroidCompensateRotationProcessor* New_ctor() ;
 
-  /// @brief Method Process, addr 0x64690f4, size 0x34, virtual true, abstract: false, final false
-  inline ::UnityEngine::Quaternion Process(::UnityEngine::Quaternion value, ::UnityEngine::InputSystem::InputControl* control);
+/// @brief Method Process, addr 0x646ac6c, size 0x34, virtual true, abstract: false, final false
+inline ::UnityEngine::Quaternion Process(::UnityEngine::Quaternion  value, ::UnityEngine::InputSystem::InputControl*  control) ;
 
-  /// @brief Method .ctor, addr 0x6469128, size 0x3c, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x646aca0, size 0x3c, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AndroidCompensateRotationProcessor();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr AndroidCompensateRotationProcessor() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AndroidCompensateRotationProcessor", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  AndroidCompensateRotationProcessor(AndroidCompensateRotationProcessor&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AndroidCompensateRotationProcessor", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  AndroidCompensateRotationProcessor(AndroidCompensateRotationProcessor const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "AndroidCompensateRotationProcessor", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+AndroidCompensateRotationProcessor(AndroidCompensateRotationProcessor && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8942 };
+// Ctor Parameters [CppParam { name: "", ty: "AndroidCompensateRotationProcessor", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+AndroidCompensateRotationProcessor(AndroidCompensateRotationProcessor const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8943};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Android::LowLevel::AndroidCompensateRotationProcessor, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::InputSystem::Android::LowLevel
+} // namespace end def UnityEngine::InputSystem::Android::LowLevel
 NEED_NO_BOX(::UnityEngine::InputSystem::Android::LowLevel::AndroidCompensateRotationProcessor);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Android::LowLevel::AndroidCompensateRotationProcessor*, "UnityEngine.InputSystem.Android.LowLevel", "AndroidCompensateRotationProcessor");

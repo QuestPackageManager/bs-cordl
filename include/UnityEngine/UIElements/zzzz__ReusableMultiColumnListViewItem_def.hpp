@@ -23,45 +23,45 @@ namespace UnityEngine::UIElements {
 // CS Name: UnityEngine.UIElements.ReusableMultiColumnListViewItem
 class CORDL_TYPE ReusableMultiColumnListViewItem : public ::UnityEngine::UIElements::ReusableListViewItem {
 public:
-  // Declarations
-  __declspec(property(get = get_rootElement)) ::UnityEngine::UIElements::VisualElement* rootElement;
+// Declarations
+ __declspec(property(get=get_rootElement)) ::UnityEngine::UIElements::VisualElement*  rootElement;
 
-  /// @brief Method Init, addr 0x6afacd8, size 0x3cc, virtual false, abstract: false, final false
-  inline void Init(::UnityEngine::UIElements::VisualElement* container, ::UnityEngine::UIElements::Columns* columns, bool usesAnimatedDrag);
+/// @brief Method Init, addr 0x6afc850, size 0x3cc, virtual false, abstract: false, final false
+inline void Init(::UnityEngine::UIElements::VisualElement*  container, ::UnityEngine::UIElements::Columns*  columns, bool  usesAnimatedDrag) ;
 
-  /// @brief Method Init, addr 0x6afcf58, size 0x4, virtual true, abstract: false, final false
-  inline void Init(::UnityEngine::UIElements::VisualElement* item);
+/// @brief Method Init, addr 0x6afead0, size 0x4, virtual true, abstract: false, final false
+inline void Init(::UnityEngine::UIElements::VisualElement*  item) ;
 
-  static inline ::UnityEngine::UIElements::ReusableMultiColumnListViewItem* New_ctor();
+static inline ::UnityEngine::UIElements::ReusableMultiColumnListViewItem* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x6afcf5c, size 0x58, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6afead4, size 0x58, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_rootElement, addr 0x6afcf50, size 0x8, virtual true, abstract: false, final false
-  inline ::UnityEngine::UIElements::VisualElement* get_rootElement();
+/// @brief Method get_rootElement, addr 0x6afeac8, size 0x8, virtual true, abstract: false, final false
+inline ::UnityEngine::UIElements::VisualElement* get_rootElement() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ReusableMultiColumnListViewItem();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ReusableMultiColumnListViewItem() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ReusableMultiColumnListViewItem", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ReusableMultiColumnListViewItem(ReusableMultiColumnListViewItem&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ReusableMultiColumnListViewItem", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ReusableMultiColumnListViewItem(ReusableMultiColumnListViewItem const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ReusableMultiColumnListViewItem", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ReusableMultiColumnListViewItem(ReusableMultiColumnListViewItem && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4096 };
+// Ctor Parameters [CppParam { name: "", ty: "ReusableMultiColumnListViewItem", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ReusableMultiColumnListViewItem(ReusableMultiColumnListViewItem const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4096};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::ReusableMultiColumnListViewItem, 0x60>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements
+} // namespace end def UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::ReusableMultiColumnListViewItem);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::ReusableMultiColumnListViewItem*, "UnityEngine.UIElements", "ReusableMultiColumnListViewItem");

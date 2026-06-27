@@ -49,211 +49,210 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::UnsignedIntegerField_UxmlTraits);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.UnsignedIntegerField/UxmlFactory
-class CORDL_TYPE UnsignedIntegerField_UxmlFactory
-    : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::UnsignedIntegerField*, ::UnityEngine::UIElements::UnsignedIntegerField_UxmlTraits*> {
+class CORDL_TYPE UnsignedIntegerField_UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::UnsignedIntegerField*,::UnityEngine::UIElements::UnsignedIntegerField_UxmlTraits*> {
 public:
-  // Declarations
-  static inline ::UnityEngine::UIElements::UnsignedIntegerField_UxmlFactory* New_ctor();
+// Declarations
+static inline ::UnityEngine::UIElements::UnsignedIntegerField_UxmlFactory* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x6c286d0, size 0x68, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6c2a248, size 0x68, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr UnsignedIntegerField_UxmlFactory();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr UnsignedIntegerField_UxmlFactory() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UnsignedIntegerField_UxmlFactory", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  UnsignedIntegerField_UxmlFactory(UnsignedIntegerField_UxmlFactory&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UnsignedIntegerField_UxmlFactory", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  UnsignedIntegerField_UxmlFactory(UnsignedIntegerField_UxmlFactory const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "UnsignedIntegerField_UxmlFactory", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+UnsignedIntegerField_UxmlFactory(UnsignedIntegerField_UxmlFactory && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4356 };
+// Ctor Parameters [CppParam { name: "", ty: "UnsignedIntegerField_UxmlFactory", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+UnsignedIntegerField_UxmlFactory(UnsignedIntegerField_UxmlFactory const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4356};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UnsignedIntegerField_UxmlFactory, 0x18>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements
+} // namespace end def UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.TextValueFieldTraits`2<TValueType, TValueUxmlAttributeType>
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.UnsignedIntegerField/UxmlTraits
-class CORDL_TYPE UnsignedIntegerField_UxmlTraits : public ::UnityEngine::UIElements::TextValueFieldTraits_2<uint32_t, ::UnityEngine::UIElements::UxmlUnsignedIntAttributeDescription*> {
+class CORDL_TYPE UnsignedIntegerField_UxmlTraits : public ::UnityEngine::UIElements::TextValueFieldTraits_2<uint32_t,::UnityEngine::UIElements::UxmlUnsignedIntAttributeDescription*> {
 public:
-  // Declarations
-  static inline ::UnityEngine::UIElements::UnsignedIntegerField_UxmlTraits* New_ctor();
+// Declarations
+static inline ::UnityEngine::UIElements::UnsignedIntegerField_UxmlTraits* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x6c28738, size 0x4c, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6c2a2b0, size 0x4c, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr UnsignedIntegerField_UxmlTraits();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr UnsignedIntegerField_UxmlTraits() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UnsignedIntegerField_UxmlTraits", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  UnsignedIntegerField_UxmlTraits(UnsignedIntegerField_UxmlTraits&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UnsignedIntegerField_UxmlTraits", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  UnsignedIntegerField_UxmlTraits(UnsignedIntegerField_UxmlTraits const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "UnsignedIntegerField_UxmlTraits", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+UnsignedIntegerField_UxmlTraits(UnsignedIntegerField_UxmlTraits && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4357 };
+// Ctor Parameters [CppParam { name: "", ty: "UnsignedIntegerField_UxmlTraits", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+UnsignedIntegerField_UxmlTraits(UnsignedIntegerField_UxmlTraits const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4357};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UnsignedIntegerField_UxmlTraits, 0xc0>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements
+} // namespace end def UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.TextValueField`1::TextValueInput<TValueType>
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.UnsignedIntegerField/UnsignedIntegerInput
 class CORDL_TYPE UnsignedIntegerField_UnsignedIntegerInput : public ::UnityEngine::UIElements::TextValueField_1_TextValueInput<uint32_t> {
 public:
-  // Declarations
-  __declspec(property(get = get_allowedCharacters)) ::StringW allowedCharacters;
+// Declarations
+ __declspec(property(get=get_allowedCharacters)) ::StringW  allowedCharacters;
 
-  __declspec(property(get = get_parentUnsignedIntegerField)) ::UnityEngine::UIElements::UnsignedIntegerField* parentUnsignedIntegerField;
+ __declspec(property(get=get_parentUnsignedIntegerField)) ::UnityEngine::UIElements::UnsignedIntegerField*  parentUnsignedIntegerField;
 
-  /// @brief Method ApplyInputDeviceDelta, addr 0x6c2885c, size 0x284, virtual true, abstract: false, final false
-  inline void ApplyInputDeviceDelta(::UnityEngine::Vector3 delta, ::UnityEngine::UIElements::DeltaSpeed speed, uint32_t startValue);
+/// @brief Method ApplyInputDeviceDelta, addr 0x6c2a3d4, size 0x284, virtual true, abstract: false, final false
+inline void ApplyInputDeviceDelta(::UnityEngine::Vector3  delta, ::UnityEngine::UIElements::DeltaSpeed  speed, uint32_t  startValue) ;
 
-  static inline ::UnityEngine::UIElements::UnsignedIntegerField_UnsignedIntegerInput* New_ctor();
+static inline ::UnityEngine::UIElements::UnsignedIntegerField_UnsignedIntegerInput* New_ctor() ;
 
-  /// @brief Method StringToValue, addr 0x6c28b3c, size 0xa0, virtual true, abstract: false, final false
-  inline uint32_t StringToValue(::StringW str);
+/// @brief Method StringToValue, addr 0x6c2a6b4, size 0xa0, virtual true, abstract: false, final false
+inline uint32_t StringToValue(::StringW  str) ;
 
-  /// @brief Method ValueToString, addr 0x6c28ae0, size 0x5c, virtual true, abstract: false, final false
-  inline ::StringW ValueToString(uint32_t v);
+/// @brief Method ValueToString, addr 0x6c2a658, size 0x5c, virtual true, abstract: false, final false
+inline ::StringW ValueToString(uint32_t  v) ;
 
-  /// @brief Method .ctor, addr 0x6c284d0, size 0x9c, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6c2a048, size 0x9c, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_allowedCharacters, addr 0x6c28800, size 0x5c, virtual true, abstract: false, final false
-  inline ::StringW get_allowedCharacters();
+/// @brief Method get_allowedCharacters, addr 0x6c2a378, size 0x5c, virtual true, abstract: false, final false
+inline ::StringW get_allowedCharacters() ;
 
-  /// @brief Method get_parentUnsignedIntegerField, addr 0x6c28784, size 0x7c, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::UnsignedIntegerField* get_parentUnsignedIntegerField();
+/// @brief Method get_parentUnsignedIntegerField, addr 0x6c2a2fc, size 0x7c, virtual false, abstract: false, final false
+inline ::UnityEngine::UIElements::UnsignedIntegerField* get_parentUnsignedIntegerField() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr UnsignedIntegerField_UnsignedIntegerInput();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr UnsignedIntegerField_UnsignedIntegerInput() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UnsignedIntegerField_UnsignedIntegerInput", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  UnsignedIntegerField_UnsignedIntegerInput(UnsignedIntegerField_UnsignedIntegerInput&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UnsignedIntegerField_UnsignedIntegerInput", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  UnsignedIntegerField_UnsignedIntegerInput(UnsignedIntegerField_UnsignedIntegerInput const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "UnsignedIntegerField_UnsignedIntegerInput", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+UnsignedIntegerField_UnsignedIntegerInput(UnsignedIntegerField_UnsignedIntegerInput && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4358 };
+// Ctor Parameters [CppParam { name: "", ty: "UnsignedIntegerField_UnsignedIntegerInput", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+UnsignedIntegerField_UnsignedIntegerInput(UnsignedIntegerField_UnsignedIntegerInput const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4358};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UnsignedIntegerField_UnsignedIntegerInput, 0x4e8>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements
+} // namespace end def UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.TextValueField`1<TValueType>
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.UnsignedIntegerField
 class CORDL_TYPE UnsignedIntegerField : public ::UnityEngine::UIElements::TextValueField_1<uint32_t> {
 public:
-  // Declarations
-  using UnsignedIntegerInput = ::UnityEngine::UIElements::UnsignedIntegerField_UnsignedIntegerInput;
+// Declarations
+using UnsignedIntegerInput = ::UnityEngine::UIElements::UnsignedIntegerField_UnsignedIntegerInput;
 
-  using UxmlFactory = ::UnityEngine::UIElements::UnsignedIntegerField_UxmlFactory;
+using UxmlFactory = ::UnityEngine::UIElements::UnsignedIntegerField_UxmlFactory;
 
-  using UxmlTraits = ::UnityEngine::UIElements::UnsignedIntegerField_UxmlTraits;
+using UxmlTraits = ::UnityEngine::UIElements::UnsignedIntegerField_UxmlTraits;
 
-  /// @brief Field inputUssClassName, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_inputUssClassName, put = setStaticF_inputUssClassName)) ::StringW inputUssClassName;
+/// @brief Field inputUssClassName, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_inputUssClassName, put=setStaticF_inputUssClassName)) ::StringW  inputUssClassName;
 
-  __declspec(property(get = get_integerInput)) ::UnityEngine::UIElements::UnsignedIntegerField_UnsignedIntegerInput* integerInput;
+ __declspec(property(get=get_integerInput)) ::UnityEngine::UIElements::UnsignedIntegerField_UnsignedIntegerInput*  integerInput;
 
-  /// @brief Field labelUssClassName, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_labelUssClassName, put = setStaticF_labelUssClassName)) ::StringW labelUssClassName;
+/// @brief Field labelUssClassName, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_labelUssClassName, put=setStaticF_labelUssClassName)) ::StringW  labelUssClassName;
 
-  /// @brief Field ussClassName, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_ussClassName, put = setStaticF_ussClassName)) ::StringW ussClassName;
+/// @brief Field ussClassName, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_ussClassName, put=setStaticF_ussClassName)) ::StringW  ussClassName;
 
-  /// @brief Method ApplyInputDeviceDelta, addr 0x6c28590, size 0x64, virtual true, abstract: false, final false
-  inline void ApplyInputDeviceDelta(::UnityEngine::Vector3 delta, ::UnityEngine::UIElements::DeltaSpeed speed, uint32_t startValue);
+/// @brief Method ApplyInputDeviceDelta, addr 0x6c2a108, size 0x64, virtual true, abstract: false, final false
+inline void ApplyInputDeviceDelta(::UnityEngine::Vector3  delta, ::UnityEngine::UIElements::DeltaSpeed  speed, uint32_t  startValue) ;
 
-  /// @brief Method CanTryParse, addr 0x6c2856c, size 0x24, virtual true, abstract: false, final false
-  inline bool CanTryParse(::StringW textString);
+/// @brief Method CanTryParse, addr 0x6c2a0e4, size 0x24, virtual true, abstract: false, final false
+inline bool CanTryParse(::StringW  textString) ;
 
-  static inline ::UnityEngine::UIElements::UnsignedIntegerField* New_ctor();
+static inline ::UnityEngine::UIElements::UnsignedIntegerField* New_ctor() ;
 
-  static inline ::UnityEngine::UIElements::UnsignedIntegerField* New_ctor(::StringW label, int32_t maxLength);
+static inline ::UnityEngine::UIElements::UnsignedIntegerField* New_ctor(::StringW  label, int32_t  maxLength) ;
 
-  /// @brief Method StringToValue, addr 0x6c28264, size 0xe0, virtual true, abstract: false, final false
-  inline uint32_t StringToValue(::StringW str);
+/// @brief Method StringToValue, addr 0x6c29ddc, size 0xe0, virtual true, abstract: false, final false
+inline uint32_t StringToValue(::StringW  str) ;
 
-  /// @brief Method ValueToString, addr 0x6c281a4, size 0xc0, virtual true, abstract: false, final false
-  inline ::StringW ValueToString(uint32_t v);
+/// @brief Method ValueToString, addr 0x6c29d1c, size 0xc0, virtual true, abstract: false, final false
+inline ::StringW ValueToString(uint32_t  v) ;
 
-  /// @brief Method .ctor, addr 0x6c28344, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6c29ebc, size 0xc, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method .ctor, addr 0x6c28350, size 0x180, virtual false, abstract: false, final false
-  inline void _ctor(::StringW label, int32_t maxLength);
+/// @brief Method .ctor, addr 0x6c29ec8, size 0x180, virtual false, abstract: false, final false
+inline void _ctor(::StringW  label, int32_t  maxLength) ;
 
-  static inline ::StringW getStaticF_inputUssClassName();
+static inline ::StringW getStaticF_inputUssClassName() ;
 
-  static inline ::StringW getStaticF_labelUssClassName();
+static inline ::StringW getStaticF_labelUssClassName() ;
 
-  static inline ::StringW getStaticF_ussClassName();
+static inline ::StringW getStaticF_ussClassName() ;
 
-  /// @brief Method get_integerInput, addr 0x6c28114, size 0x90, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::UnsignedIntegerField_UnsignedIntegerInput* get_integerInput();
+/// @brief Method get_integerInput, addr 0x6c29c8c, size 0x90, virtual false, abstract: false, final false
+inline ::UnityEngine::UIElements::UnsignedIntegerField_UnsignedIntegerInput* get_integerInput() ;
 
-  static inline void setStaticF_inputUssClassName(::StringW value);
+static inline void setStaticF_inputUssClassName(::StringW  value) ;
 
-  static inline void setStaticF_labelUssClassName(::StringW value);
+static inline void setStaticF_labelUssClassName(::StringW  value) ;
 
-  static inline void setStaticF_ussClassName(::StringW value);
+static inline void setStaticF_ussClassName(::StringW  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr UnsignedIntegerField();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr UnsignedIntegerField() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UnsignedIntegerField", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  UnsignedIntegerField(UnsignedIntegerField&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UnsignedIntegerField", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  UnsignedIntegerField(UnsignedIntegerField const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "UnsignedIntegerField", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+UnsignedIntegerField(UnsignedIntegerField && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4359 };
+// Ctor Parameters [CppParam { name: "", ty: "UnsignedIntegerField", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+UnsignedIntegerField(UnsignedIntegerField const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4359};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UnsignedIntegerField, 0x540>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements
+} // namespace end def UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::UnsignedIntegerField);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UnsignedIntegerField*, "UnityEngine.UIElements", "UnsignedIntegerField");
 NEED_NO_BOX(::UnityEngine::UIElements::UnsignedIntegerField_UnsignedIntegerInput);

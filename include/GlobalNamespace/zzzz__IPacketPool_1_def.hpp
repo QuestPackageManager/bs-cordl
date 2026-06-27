@@ -9,40 +9,41 @@ class IPacketPool;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-template <typename T> class IPacketPool_1;
+template<typename T>
+class IPacketPool_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::GlobalNamespace::IPacketPool_1);
-// Dependencies
+// Dependencies 
 namespace GlobalNamespace {
 // cpp template
-template <typename T>
+template<typename T>
 // Is value type: false
 // CS Name: IPacketPool`1<T>
 class CORDL_TYPE IPacketPool_1 {
 public:
-  // Declarations
-  /// @brief Convert operator to "::GlobalNamespace::IPacketPool"
-  constexpr operator ::GlobalNamespace::IPacketPool*() noexcept;
+// Declarations
+/// @brief Convert operator to "::GlobalNamespace::IPacketPool"
+constexpr operator  ::GlobalNamespace::IPacketPool*() noexcept;
 
-  /// @brief Method Obtain, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline T Obtain();
+/// @brief Method Obtain, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline T Obtain() ;
 
-  /// @brief Method Release, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void Release(T t);
+/// @brief Method Release, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline void Release(T  t) ;
 
-  /// @brief Convert to "::GlobalNamespace::IPacketPool"
-  constexpr ::GlobalNamespace::IPacketPool* i___GlobalNamespace__IPacketPool() noexcept;
+/// @brief Convert to "::GlobalNamespace::IPacketPool"
+constexpr ::GlobalNamespace::IPacketPool* i___GlobalNamespace__IPacketPool() noexcept;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IPacketPool_1", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  IPacketPool_1(IPacketPool_1 const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "IPacketPool_1", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+IPacketPool_1(IPacketPool_1 const& ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18173 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{18175};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::IPacketPool_1, "", "IPacketPool`1");

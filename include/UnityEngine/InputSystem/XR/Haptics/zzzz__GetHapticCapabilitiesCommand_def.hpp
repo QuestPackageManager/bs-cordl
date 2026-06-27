@@ -29,221 +29,217 @@ namespace UnityEngine::InputSystem::XR::Haptics {
 #pragma pack(push, 0)
 struct CORDL_TYPE GetHapticCapabilitiesCommand {
 public:
-  // Declarations
-  /// @brief Field baseCommand, offset 0x0, size 0x8
-  __declspec(property(get = __cordl_internal_get_baseCommand, put = __cordl_internal_set_baseCommand)) ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand baseCommand;
+// Declarations
+/// @brief Field baseCommand, offset 0x0, size 0x8 
+ __declspec(property(get=__cordl_internal_get_baseCommand, put=__cordl_internal_set_baseCommand)) ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand  baseCommand;
 
-  __declspec(property(get = get_capabilities)) ::UnityEngine::InputSystem::XR::Haptics::HapticCapabilities capabilities;
+ __declspec(property(get=get_capabilities)) ::UnityEngine::InputSystem::XR::Haptics::HapticCapabilities  capabilities;
 
-  /// @brief Field frequencyHz, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_frequencyHz, put = __cordl_internal_set_frequencyHz)) uint32_t frequencyHz;
+/// @brief Field frequencyHz, offset 0x10, size 0x4 
+ __declspec(property(get=__cordl_internal_get_frequencyHz, put=__cordl_internal_set_frequencyHz)) uint32_t  frequencyHz;
 
-  /// @brief Field maxBufferSize, offset 0x14, size 0x4
-  __declspec(property(get = __cordl_internal_get_maxBufferSize, put = __cordl_internal_set_maxBufferSize)) uint32_t maxBufferSize;
+/// @brief Field maxBufferSize, offset 0x14, size 0x4 
+ __declspec(property(get=__cordl_internal_get_maxBufferSize, put=__cordl_internal_set_maxBufferSize)) uint32_t  maxBufferSize;
 
-  /// @brief Field numChannels, offset 0x8, size 0x4
-  __declspec(property(get = __cordl_internal_get_numChannels, put = __cordl_internal_set_numChannels)) uint32_t numChannels;
+/// @brief Field numChannels, offset 0x8, size 0x4 
+ __declspec(property(get=__cordl_internal_get_numChannels, put=__cordl_internal_set_numChannels)) uint32_t  numChannels;
 
-  /// @brief Field optimalBufferSize, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get_optimalBufferSize, put = __cordl_internal_set_optimalBufferSize)) uint32_t optimalBufferSize;
+/// @brief Field optimalBufferSize, offset 0x18, size 0x4 
+ __declspec(property(get=__cordl_internal_get_optimalBufferSize, put=__cordl_internal_set_optimalBufferSize)) uint32_t  optimalBufferSize;
 
-  /// @brief Field supportsBuffer, offset 0xd, size 0x1
-  __declspec(property(get = __cordl_internal_get_supportsBuffer, put = __cordl_internal_set_supportsBuffer)) bool supportsBuffer;
+/// @brief Field supportsBuffer, offset 0xd, size 0x1 
+ __declspec(property(get=__cordl_internal_get_supportsBuffer, put=__cordl_internal_set_supportsBuffer)) bool  supportsBuffer;
 
-  /// @brief Field supportsImpulse, offset 0xc, size 0x1
-  __declspec(property(get = __cordl_internal_get_supportsImpulse, put = __cordl_internal_set_supportsImpulse)) bool supportsImpulse;
+/// @brief Field supportsImpulse, offset 0xc, size 0x1 
+ __declspec(property(get=__cordl_internal_get_supportsImpulse, put=__cordl_internal_set_supportsImpulse)) bool  supportsImpulse;
 
-  __declspec(property(get = get_typeStatic)) ::UnityEngine::InputSystem::Utilities::FourCC typeStatic;
+ __declspec(property(get=get_typeStatic)) ::UnityEngine::InputSystem::Utilities::FourCC  typeStatic;
 
-  /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"
-  constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo*();
+/// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"
+constexpr operator  ::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo*() ;
 
-  /// @brief Method Create, addr 0x6448104, size 0x1c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::InputSystem::XR::Haptics::GetHapticCapabilitiesCommand Create();
+/// @brief Method Create, addr 0x6449c7c, size 0x1c, virtual false, abstract: false, final false
+static inline ::UnityEngine::InputSystem::XR::Haptics::GetHapticCapabilitiesCommand Create() ;
 
-  constexpr ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand const& __cordl_internal_get_baseCommand() const;
+constexpr ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand const& __cordl_internal_get_baseCommand() const;
 
-  constexpr ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand& __cordl_internal_get_baseCommand();
+constexpr ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand& __cordl_internal_get_baseCommand() ;
 
-  constexpr uint32_t const& __cordl_internal_get_frequencyHz() const;
+constexpr uint32_t const& __cordl_internal_get_frequencyHz() const;
 
-  constexpr uint32_t& __cordl_internal_get_frequencyHz();
+constexpr uint32_t& __cordl_internal_get_frequencyHz() ;
 
-  constexpr uint32_t const& __cordl_internal_get_maxBufferSize() const;
+constexpr uint32_t const& __cordl_internal_get_maxBufferSize() const;
 
-  constexpr uint32_t& __cordl_internal_get_maxBufferSize();
+constexpr uint32_t& __cordl_internal_get_maxBufferSize() ;
 
-  constexpr uint32_t const& __cordl_internal_get_numChannels() const;
+constexpr uint32_t const& __cordl_internal_get_numChannels() const;
 
-  constexpr uint32_t& __cordl_internal_get_numChannels();
+constexpr uint32_t& __cordl_internal_get_numChannels() ;
 
-  constexpr uint32_t const& __cordl_internal_get_optimalBufferSize() const;
+constexpr uint32_t const& __cordl_internal_get_optimalBufferSize() const;
 
-  constexpr uint32_t& __cordl_internal_get_optimalBufferSize();
+constexpr uint32_t& __cordl_internal_get_optimalBufferSize() ;
 
-  constexpr bool const& __cordl_internal_get_supportsBuffer() const;
+constexpr bool const& __cordl_internal_get_supportsBuffer() const;
 
-  constexpr bool& __cordl_internal_get_supportsBuffer();
+constexpr bool& __cordl_internal_get_supportsBuffer() ;
 
-  constexpr bool const& __cordl_internal_get_supportsImpulse() const;
+constexpr bool const& __cordl_internal_get_supportsImpulse() const;
 
-  constexpr bool& __cordl_internal_get_supportsImpulse();
+constexpr bool& __cordl_internal_get_supportsImpulse() ;
 
-  constexpr void __cordl_internal_set_baseCommand(::UnityEngine::InputSystem::LowLevel::InputDeviceCommand value);
+constexpr void __cordl_internal_set_baseCommand(::UnityEngine::InputSystem::LowLevel::InputDeviceCommand  value) ;
 
-  constexpr void __cordl_internal_set_frequencyHz(uint32_t value);
+constexpr void __cordl_internal_set_frequencyHz(uint32_t  value) ;
 
-  constexpr void __cordl_internal_set_maxBufferSize(uint32_t value);
+constexpr void __cordl_internal_set_maxBufferSize(uint32_t  value) ;
 
-  constexpr void __cordl_internal_set_numChannels(uint32_t value);
+constexpr void __cordl_internal_set_numChannels(uint32_t  value) ;
 
-  constexpr void __cordl_internal_set_optimalBufferSize(uint32_t value);
+constexpr void __cordl_internal_set_optimalBufferSize(uint32_t  value) ;
 
-  constexpr void __cordl_internal_set_supportsBuffer(bool value);
+constexpr void __cordl_internal_set_supportsBuffer(bool  value) ;
 
-  constexpr void __cordl_internal_set_supportsImpulse(bool value);
+constexpr void __cordl_internal_set_supportsImpulse(bool  value) ;
 
-  /// @brief Method get_Type, addr 0x64483e8, size 0xc, virtual false, abstract: false, final false
-  static inline ::UnityEngine::InputSystem::Utilities::FourCC get_Type();
+/// @brief Method get_Type, addr 0x6449f60, size 0xc, virtual false, abstract: false, final false
+static inline ::UnityEngine::InputSystem::Utilities::FourCC get_Type() ;
 
-  /// @brief Method get_capabilities, addr 0x6448120, size 0x24, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::XR::Haptics::HapticCapabilities get_capabilities();
+/// @brief Method get_capabilities, addr 0x6449c98, size 0x24, virtual false, abstract: false, final false
+inline ::UnityEngine::InputSystem::XR::Haptics::HapticCapabilities get_capabilities() ;
 
-  /// @brief Method get_typeStatic, addr 0x64483f4, size 0xc, virtual true, abstract: false, final true
-  inline ::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic();
+/// @brief Method get_typeStatic, addr 0x6449f6c, size 0xc, virtual true, abstract: false, final true
+inline ::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic() ;
 
-  /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"
-  constexpr ::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo* i___UnityEngine__InputSystem__LowLevel__IInputDeviceCommandInfo();
+/// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"
+constexpr ::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo* i___UnityEngine__InputSystem__LowLevel__IInputDeviceCommandInfo() ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr GetHapticCapabilitiesCommand();
+// Ctor Parameters []
+// @brief default ctor
+constexpr GetHapticCapabilitiesCommand() ;
 
-  // Ctor Parameters [CppParam { name: "baseCommand", ty: "::UnityEngine::InputSystem::LowLevel::InputDeviceCommand", modifiers: "", def_value: None }, CppParam { name: "numChannels", ty: "uint32_t",
-  // modifiers: "", def_value: None }, CppParam { name: "supportsImpulse", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "supportsBuffer", ty: "bool", modifiers: "", def_value: None
-  // }, CppParam { name: "frequencyHz", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "maxBufferSize", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "optimalBufferSize", ty: "uint32_t", modifiers: "", def_value: None }]
-  constexpr GetHapticCapabilitiesCommand(::UnityEngine::InputSystem::LowLevel::InputDeviceCommand baseCommand, uint32_t numChannels, bool supportsImpulse, bool supportsBuffer, uint32_t frequencyHz,
-                                         uint32_t maxBufferSize, uint32_t optimalBufferSize) noexcept;
+// Ctor Parameters [CppParam { name: "baseCommand", ty: "::UnityEngine::InputSystem::LowLevel::InputDeviceCommand", modifiers: "", def_value: None }, CppParam { name: "numChannels", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "supportsImpulse", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "supportsBuffer", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "frequencyHz", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "maxBufferSize", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "optimalBufferSize", ty: "uint32_t", modifiers: "", def_value: None }]
+constexpr GetHapticCapabilitiesCommand(::UnityEngine::InputSystem::LowLevel::InputDeviceCommand  baseCommand, uint32_t  numChannels, bool  supportsImpulse, bool  supportsBuffer, uint32_t  frequencyHz, uint32_t  maxBufferSize, uint32_t  optimalBufferSize) noexcept;
 
 private:
-  /// @brief Explicitly laid out type with union based offsets
-  union {
+/// @brief Explicitly laid out type with union based offsets
+union {
 #pragma pack(push, tp, 1)
-    struct {
-      /// @brief Padding field 0x0
-      uint8_t ___baseCommand_padding[0x0];
-      /// @brief Field baseCommand, offset: 0x0, size: 0x8, def value: None
-      ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand ___baseCommand;
-    };
+struct  {
+/// @brief Padding field 0x0
+ uint8_t  ___baseCommand_padding[0x0];
+/// @brief Field baseCommand, offset: 0x0, size: 0x8, def value: None
+ ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand  ___baseCommand;
+};
 #pragma pack(pop, tp)
-    struct {
-      /// @brief Padding field 0x0 for alignment
-      uint8_t ___baseCommand_padding_forAlignment[0x0];
-      /// @brief Field baseCommand, offset: 0x0, size: 0x8, def value: None
-      ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand ___baseCommand_forAlignment;
-    };
+struct  {
+/// @brief Padding field 0x0 for alignment
+ uint8_t  ___baseCommand_padding_forAlignment[0x0];
+/// @brief Field baseCommand, offset: 0x0, size: 0x8, def value: None
+ ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand  ___baseCommand_forAlignment;
+};
 #pragma pack(push, tp, 1)
-    struct {
-      /// @brief Padding field 0x8
-      uint8_t ___numChannels_padding[0x8];
-      /// @brief Field numChannels, offset: 0x8, size: 0x4, def value: None
-      uint32_t ___numChannels;
-    };
+struct  {
+/// @brief Padding field 0x8
+ uint8_t  ___numChannels_padding[0x8];
+/// @brief Field numChannels, offset: 0x8, size: 0x4, def value: None
+ uint32_t  ___numChannels;
+};
 #pragma pack(pop, tp)
-    struct {
-      /// @brief Padding field 0x8 for alignment
-      uint8_t ___numChannels_padding_forAlignment[0x8];
-      /// @brief Field numChannels, offset: 0x8, size: 0x4, def value: None
-      uint32_t ___numChannels_forAlignment;
-    };
+struct  {
+/// @brief Padding field 0x8 for alignment
+ uint8_t  ___numChannels_padding_forAlignment[0x8];
+/// @brief Field numChannels, offset: 0x8, size: 0x4, def value: None
+ uint32_t  ___numChannels_forAlignment;
+};
 #pragma pack(push, tp, 1)
-    struct {
-      /// @brief Padding field 0xc
-      uint8_t ___supportsImpulse_padding[0xc];
-      /// @brief Field supportsImpulse, offset: 0xc, size: 0x1, def value: None
-      bool ___supportsImpulse;
-    };
+struct  {
+/// @brief Padding field 0xc
+ uint8_t  ___supportsImpulse_padding[0xc];
+/// @brief Field supportsImpulse, offset: 0xc, size: 0x1, def value: None
+ bool  ___supportsImpulse;
+};
 #pragma pack(pop, tp)
-    struct {
-      /// @brief Padding field 0xc for alignment
-      uint8_t ___supportsImpulse_padding_forAlignment[0xc];
-      /// @brief Field supportsImpulse, offset: 0xc, size: 0x1, def value: None
-      bool ___supportsImpulse_forAlignment;
-    };
+struct  {
+/// @brief Padding field 0xc for alignment
+ uint8_t  ___supportsImpulse_padding_forAlignment[0xc];
+/// @brief Field supportsImpulse, offset: 0xc, size: 0x1, def value: None
+ bool  ___supportsImpulse_forAlignment;
+};
 #pragma pack(push, tp, 1)
-    struct {
-      /// @brief Padding field 0xd
-      uint8_t ___supportsBuffer_padding[0xd];
-      /// @brief Field supportsBuffer, offset: 0xd, size: 0x1, def value: None
-      bool ___supportsBuffer;
-    };
+struct  {
+/// @brief Padding field 0xd
+ uint8_t  ___supportsBuffer_padding[0xd];
+/// @brief Field supportsBuffer, offset: 0xd, size: 0x1, def value: None
+ bool  ___supportsBuffer;
+};
 #pragma pack(pop, tp)
-    struct {
-      /// @brief Padding field 0xd for alignment
-      uint8_t ___supportsBuffer_padding_forAlignment[0xd];
-      /// @brief Field supportsBuffer, offset: 0xd, size: 0x1, def value: None
-      bool ___supportsBuffer_forAlignment;
-    };
+struct  {
+/// @brief Padding field 0xd for alignment
+ uint8_t  ___supportsBuffer_padding_forAlignment[0xd];
+/// @brief Field supportsBuffer, offset: 0xd, size: 0x1, def value: None
+ bool  ___supportsBuffer_forAlignment;
+};
 #pragma pack(push, tp, 1)
-    struct {
-      /// @brief Padding field 0x10
-      uint8_t ___frequencyHz_padding[0x10];
-      /// @brief Field frequencyHz, offset: 0x10, size: 0x4, def value: None
-      uint32_t ___frequencyHz;
-    };
+struct  {
+/// @brief Padding field 0x10
+ uint8_t  ___frequencyHz_padding[0x10];
+/// @brief Field frequencyHz, offset: 0x10, size: 0x4, def value: None
+ uint32_t  ___frequencyHz;
+};
 #pragma pack(pop, tp)
-    struct {
-      /// @brief Padding field 0x10 for alignment
-      uint8_t ___frequencyHz_padding_forAlignment[0x10];
-      /// @brief Field frequencyHz, offset: 0x10, size: 0x4, def value: None
-      uint32_t ___frequencyHz_forAlignment;
-    };
+struct  {
+/// @brief Padding field 0x10 for alignment
+ uint8_t  ___frequencyHz_padding_forAlignment[0x10];
+/// @brief Field frequencyHz, offset: 0x10, size: 0x4, def value: None
+ uint32_t  ___frequencyHz_forAlignment;
+};
 #pragma pack(push, tp, 1)
-    struct {
-      /// @brief Padding field 0x14
-      uint8_t ___maxBufferSize_padding[0x14];
-      /// @brief Field maxBufferSize, offset: 0x14, size: 0x4, def value: None
-      uint32_t ___maxBufferSize;
-    };
+struct  {
+/// @brief Padding field 0x14
+ uint8_t  ___maxBufferSize_padding[0x14];
+/// @brief Field maxBufferSize, offset: 0x14, size: 0x4, def value: None
+ uint32_t  ___maxBufferSize;
+};
 #pragma pack(pop, tp)
-    struct {
-      /// @brief Padding field 0x14 for alignment
-      uint8_t ___maxBufferSize_padding_forAlignment[0x14];
-      /// @brief Field maxBufferSize, offset: 0x14, size: 0x4, def value: None
-      uint32_t ___maxBufferSize_forAlignment;
-    };
+struct  {
+/// @brief Padding field 0x14 for alignment
+ uint8_t  ___maxBufferSize_padding_forAlignment[0x14];
+/// @brief Field maxBufferSize, offset: 0x14, size: 0x4, def value: None
+ uint32_t  ___maxBufferSize_forAlignment;
+};
 #pragma pack(push, tp, 1)
-    struct {
-      /// @brief Padding field 0x18
-      uint8_t ___optimalBufferSize_padding[0x18];
-      /// @brief Field optimalBufferSize, offset: 0x18, size: 0x4, def value: None
-      uint32_t ___optimalBufferSize;
-    };
+struct  {
+/// @brief Padding field 0x18
+ uint8_t  ___optimalBufferSize_padding[0x18];
+/// @brief Field optimalBufferSize, offset: 0x18, size: 0x4, def value: None
+ uint32_t  ___optimalBufferSize;
+};
 #pragma pack(pop, tp)
-    struct {
-      /// @brief Padding field 0x18 for alignment
-      uint8_t ___optimalBufferSize_padding_forAlignment[0x18];
-      /// @brief Field optimalBufferSize, offset: 0x18, size: 0x4, def value: None
-      uint32_t ___optimalBufferSize_forAlignment;
-    };
-  };
-
+struct  {
+/// @brief Padding field 0x18 for alignment
+ uint8_t  ___optimalBufferSize_padding_forAlignment[0x18];
+/// @brief Field optimalBufferSize, offset: 0x18, size: 0x4, def value: None
+ uint32_t  ___optimalBufferSize_forAlignment;
+};
+};
 public:
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8825 };
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1c };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8826};
 
-  /// @brief Field kSize offset 0xffffffff size 0x4
-  static constexpr int32_t kSize{ static_cast<int32_t>(0x1c) };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1c};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+/// @brief Field kSize offset 0xffffffff size 0x4
+static constexpr int32_t  kSize{static_cast<int32_t>(0x1c)};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::XR::Haptics::GetHapticCapabilitiesCommand, 0x1c>, "Size mismatch!");
 
-} // namespace UnityEngine::InputSystem::XR::Haptics
+} // namespace end def UnityEngine::InputSystem::XR::Haptics
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::XR::Haptics::GetHapticCapabilitiesCommand, "UnityEngine.InputSystem.XR.Haptics", "GetHapticCapabilitiesCommand");

@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "Org/BouncyCastle/Math/EC/AbstractECLookupTable.hpp"
 #include "Org/BouncyCastle/Math/EC/AbstractF2mCurve.hpp"
@@ -30,5 +30,6 @@ module;
 #include "Org/BouncyCastle/Math/EC/ScaleYPointMap.hpp"
 #include "Org/BouncyCastle/Math/EC/SimpleLookupTable.hpp"
 #ifdef __cpp_modules
-export module EC;
-#endif
+                    export module EC;
+                    #endif
+                

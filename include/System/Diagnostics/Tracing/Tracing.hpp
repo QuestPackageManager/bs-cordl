@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "System/Diagnostics/Tracing/EventAttribute.hpp"
 #include "System/Diagnostics/Tracing/EventKeywords.hpp"
@@ -10,5 +10,6 @@ module;
 #include "System/Diagnostics/Tracing/EventSourceAttribute.hpp"
 #include "System/Diagnostics/Tracing/NonEventAttribute.hpp"
 #ifdef __cpp_modules
-export module Tracing;
-#endif
+                    export module Tracing;
+                    #endif
+                

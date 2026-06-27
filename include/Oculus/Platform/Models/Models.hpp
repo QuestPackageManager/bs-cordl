@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "Oculus/Platform/Models/AbuseReportRecording.hpp"
 #include "Oculus/Platform/Models/AchievementDefinition.hpp"
@@ -103,5 +103,6 @@ module;
 #include "Oculus/Platform/Models/UserProof.hpp"
 #include "Oculus/Platform/Models/UserReportID.hpp"
 #ifdef __cpp_modules
-export module Models;
-#endif
+                    export module Models;
+                    #endif
+                

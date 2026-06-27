@@ -37,114 +37,114 @@ namespace System::Net {
 // CS Name: System.Net.WebUtility/UrlDecoder
 class CORDL_TYPE WebUtility_UrlDecoder : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field _bufferSize, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get__bufferSize, put = __cordl_internal_set__bufferSize)) int32_t _bufferSize;
+// Declarations
+/// @brief Field _bufferSize, offset 0x10, size 0x4 
+ __declspec(property(get=__cordl_internal_get__bufferSize, put=__cordl_internal_set__bufferSize)) int32_t  _bufferSize;
 
-  /// @brief Field _byteBuffer, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__byteBuffer, put = __cordl_internal_set__byteBuffer)) ::ArrayW<uint8_t, ::Array<uint8_t>*> _byteBuffer;
+/// @brief Field _byteBuffer, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get__byteBuffer, put=__cordl_internal_set__byteBuffer)) ::ArrayW<uint8_t,::Array<uint8_t>*>  _byteBuffer;
 
-  /// @brief Field _charBuffer, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__charBuffer, put = __cordl_internal_set__charBuffer)) ::ArrayW<char16_t, ::Array<char16_t>*> _charBuffer;
+/// @brief Field _charBuffer, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get__charBuffer, put=__cordl_internal_set__charBuffer)) ::ArrayW<char16_t,::Array<char16_t>*>  _charBuffer;
 
-  /// @brief Field _encoding, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__encoding, put = __cordl_internal_set__encoding)) ::System::Text::Encoding* _encoding;
+/// @brief Field _encoding, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get__encoding, put=__cordl_internal_set__encoding)) ::System::Text::Encoding*  _encoding;
 
-  /// @brief Field _numBytes, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get__numBytes, put = __cordl_internal_set__numBytes)) int32_t _numBytes;
+/// @brief Field _numBytes, offset 0x20, size 0x4 
+ __declspec(property(get=__cordl_internal_get__numBytes, put=__cordl_internal_set__numBytes)) int32_t  _numBytes;
 
-  /// @brief Field _numChars, offset 0x14, size 0x4
-  __declspec(property(get = __cordl_internal_get__numChars, put = __cordl_internal_set__numChars)) int32_t _numChars;
+/// @brief Field _numChars, offset 0x14, size 0x4 
+ __declspec(property(get=__cordl_internal_get__numChars, put=__cordl_internal_set__numChars)) int32_t  _numChars;
 
-  /// @brief Method AddByte, addr 0x62d1f84, size 0xa4, virtual false, abstract: false, final false
-  inline void AddByte(uint8_t b);
+/// @brief Method AddByte, addr 0x62d3afc, size 0xa4, virtual false, abstract: false, final false
+inline void AddByte(uint8_t  b) ;
 
-  /// @brief Method AddChar, addr 0x62d2028, size 0x60, virtual false, abstract: false, final false
-  inline void AddChar(char16_t ch);
+/// @brief Method AddChar, addr 0x62d3ba0, size 0x60, virtual false, abstract: false, final false
+inline void AddChar(char16_t  ch) ;
 
-  /// @brief Method FlushBytes, addr 0x62d2210, size 0x60, virtual false, abstract: false, final false
-  inline void FlushBytes();
+/// @brief Method FlushBytes, addr 0x62d3d88, size 0x60, virtual false, abstract: false, final false
+inline void FlushBytes() ;
 
-  /// @brief Method GetString, addr 0x62d2088, size 0x50, virtual false, abstract: false, final false
-  inline ::StringW GetString();
+/// @brief Method GetString, addr 0x62d3c00, size 0x50, virtual false, abstract: false, final false
+inline ::StringW GetString() ;
 
-  static inline ::System::Net::WebUtility_UrlDecoder* New_ctor(int32_t bufferSize, ::System::Text::Encoding* encoding);
+static inline ::System::Net::WebUtility_UrlDecoder* New_ctor(int32_t  bufferSize, ::System::Text::Encoding*  encoding) ;
 
-  constexpr int32_t const& __cordl_internal_get__bufferSize() const;
+constexpr int32_t const& __cordl_internal_get__bufferSize() const;
 
-  constexpr int32_t& __cordl_internal_get__bufferSize();
+constexpr int32_t& __cordl_internal_get__bufferSize() ;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get__byteBuffer() const;
+constexpr ::ArrayW<uint8_t,::Array<uint8_t>*> const& __cordl_internal_get__byteBuffer() const;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get__byteBuffer();
+constexpr ::ArrayW<uint8_t,::Array<uint8_t>*>& __cordl_internal_get__byteBuffer() ;
 
-  constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& __cordl_internal_get__charBuffer() const;
+constexpr ::ArrayW<char16_t,::Array<char16_t>*> const& __cordl_internal_get__charBuffer() const;
 
-  constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& __cordl_internal_get__charBuffer();
+constexpr ::ArrayW<char16_t,::Array<char16_t>*>& __cordl_internal_get__charBuffer() ;
 
-  constexpr ::System::Text::Encoding* const& __cordl_internal_get__encoding() const;
+constexpr ::System::Text::Encoding* const& __cordl_internal_get__encoding() const;
 
-  constexpr ::System::Text::Encoding*& __cordl_internal_get__encoding();
+constexpr ::System::Text::Encoding*& __cordl_internal_get__encoding() ;
 
-  constexpr int32_t const& __cordl_internal_get__numBytes() const;
+constexpr int32_t const& __cordl_internal_get__numBytes() const;
 
-  constexpr int32_t& __cordl_internal_get__numBytes();
+constexpr int32_t& __cordl_internal_get__numBytes() ;
 
-  constexpr int32_t const& __cordl_internal_get__numChars() const;
+constexpr int32_t const& __cordl_internal_get__numChars() const;
 
-  constexpr int32_t& __cordl_internal_get__numChars();
+constexpr int32_t& __cordl_internal_get__numChars() ;
 
-  constexpr void __cordl_internal_set__bufferSize(int32_t value);
+constexpr void __cordl_internal_set__bufferSize(int32_t  value) ;
 
-  constexpr void __cordl_internal_set__byteBuffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+constexpr void __cordl_internal_set__byteBuffer(::ArrayW<uint8_t,::Array<uint8_t>*>  value) ;
 
-  constexpr void __cordl_internal_set__charBuffer(::ArrayW<char16_t, ::Array<char16_t>*> value);
+constexpr void __cordl_internal_set__charBuffer(::ArrayW<char16_t,::Array<char16_t>*>  value) ;
 
-  constexpr void __cordl_internal_set__encoding(::System::Text::Encoding* value);
+constexpr void __cordl_internal_set__encoding(::System::Text::Encoding*  value) ;
 
-  constexpr void __cordl_internal_set__numBytes(int32_t value);
+constexpr void __cordl_internal_set__numBytes(int32_t  value) ;
 
-  constexpr void __cordl_internal_set__numChars(int32_t value);
+constexpr void __cordl_internal_set__numChars(int32_t  value) ;
 
-  /// @brief Method .ctor, addr 0x62d1ee4, size 0x6c, virtual false, abstract: false, final false
-  inline void _ctor(int32_t bufferSize, ::System::Text::Encoding* encoding);
+/// @brief Method .ctor, addr 0x62d3a5c, size 0x6c, virtual false, abstract: false, final false
+inline void _ctor(int32_t  bufferSize, ::System::Text::Encoding*  encoding) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr WebUtility_UrlDecoder();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr WebUtility_UrlDecoder() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "WebUtility_UrlDecoder", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  WebUtility_UrlDecoder(WebUtility_UrlDecoder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "WebUtility_UrlDecoder", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  WebUtility_UrlDecoder(WebUtility_UrlDecoder const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "WebUtility_UrlDecoder", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+WebUtility_UrlDecoder(WebUtility_UrlDecoder && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11508 };
+// Ctor Parameters [CppParam { name: "", ty: "WebUtility_UrlDecoder", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+WebUtility_UrlDecoder(WebUtility_UrlDecoder const& ) = delete;
 
-  /// @brief Field _bufferSize, offset: 0x10, size: 0x4, def value: None
-  int32_t ____bufferSize;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11509};
 
-  /// @brief Field _numChars, offset: 0x14, size: 0x4, def value: None
-  int32_t ____numChars;
+/// @brief Field _bufferSize, offset: 0x10, size: 0x4, def value: None
+ int32_t  ____bufferSize;
 
-  /// @brief Field _charBuffer, offset: 0x18, size: 0x8, def value: None
-  ::ArrayW<char16_t, ::Array<char16_t>*> ____charBuffer;
+/// @brief Field _numChars, offset: 0x14, size: 0x4, def value: None
+ int32_t  ____numChars;
 
-  /// @brief Field _numBytes, offset: 0x20, size: 0x4, def value: None
-  int32_t ____numBytes;
+/// @brief Field _charBuffer, offset: 0x18, size: 0x8, def value: None
+ ::ArrayW<char16_t,::Array<char16_t>*>  ____charBuffer;
 
-  /// @brief Field _byteBuffer, offset: 0x28, size: 0x8, def value: None
-  ::ArrayW<uint8_t, ::Array<uint8_t>*> ____byteBuffer;
+/// @brief Field _numBytes, offset: 0x20, size: 0x4, def value: None
+ int32_t  ____numBytes;
 
-  /// @brief Field _encoding, offset: 0x30, size: 0x8, def value: None
-  ::System::Text::Encoding* ____encoding;
+/// @brief Field _byteBuffer, offset: 0x28, size: 0x8, def value: None
+ ::ArrayW<uint8_t,::Array<uint8_t>*>  ____byteBuffer;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _encoding, offset: 0x30, size: 0x8, def value: None
+ ::System::Text::Encoding*  ____encoding;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Net::WebUtility_UrlDecoder, ____bufferSize) == 0x10, "Offset mismatch!");
@@ -161,84 +161,84 @@ static_assert(offsetof(::System::Net::WebUtility_UrlDecoder, ____encoding) == 0x
 
 static_assert(::cordl_internals::size_check_v<::System::Net::WebUtility_UrlDecoder, 0x38>, "Size mismatch!");
 
-} // namespace System::Net
+} // namespace end def System::Net
 // Dependencies System.Net.Configuration.UnicodeDecodingConformance, System.Net.Configuration.UnicodeEncodingConformance, System.Object
 namespace System::Net {
 // Is value type: false
 // CS Name: System.Net.WebUtility
 class CORDL_TYPE WebUtility : public ::System::Object {
 public:
-  // Declarations
-  using UrlDecoder = ::System::Net::WebUtility_UrlDecoder;
+// Declarations
+using UrlDecoder = ::System::Net::WebUtility_UrlDecoder;
 
-  /// @brief Field _htmlDecodeConformance, offset 0xffffffff, size 0x4
-  __declspec(property(get = getStaticF__htmlDecodeConformance, put = setStaticF__htmlDecodeConformance)) ::System::Net::Configuration::UnicodeDecodingConformance _htmlDecodeConformance;
+/// @brief Field _htmlDecodeConformance, offset 0xffffffff, size 0x4 
+ __declspec(property(get=getStaticF__htmlDecodeConformance, put=setStaticF__htmlDecodeConformance)) ::System::Net::Configuration::UnicodeDecodingConformance  _htmlDecodeConformance;
 
-  /// @brief Field _htmlEncodeConformance, offset 0xffffffff, size 0x4
-  __declspec(property(get = getStaticF__htmlEncodeConformance, put = setStaticF__htmlEncodeConformance)) ::System::Net::Configuration::UnicodeEncodingConformance _htmlEncodeConformance;
+/// @brief Field _htmlEncodeConformance, offset 0xffffffff, size 0x4 
+ __declspec(property(get=getStaticF__htmlEncodeConformance, put=setStaticF__htmlEncodeConformance)) ::System::Net::Configuration::UnicodeEncodingConformance  _htmlEncodeConformance;
 
-  /// @brief Field _htmlEntityEndingChars, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF__htmlEntityEndingChars, put = setStaticF__htmlEntityEndingChars)) ::ArrayW<char16_t, ::Array<char16_t>*> _htmlEntityEndingChars;
+/// @brief Field _htmlEntityEndingChars, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF__htmlEntityEndingChars, put=setStaticF__htmlEntityEndingChars)) ::ArrayW<char16_t,::Array<char16_t>*>  _htmlEntityEndingChars;
 
-  /// @brief Method GetNextUnicodeScalarValueFromUtf16Surrogate, addr 0x62d1c34, size 0xa4, virtual false, abstract: false, final false
-  static inline int32_t GetNextUnicodeScalarValueFromUtf16Surrogate(::ByRef<char16_t*> pch, ::ByRef<int32_t> charsRemaining);
+/// @brief Method GetNextUnicodeScalarValueFromUtf16Surrogate, addr 0x62d37ac, size 0xa4, virtual false, abstract: false, final false
+static inline int32_t GetNextUnicodeScalarValueFromUtf16Surrogate(::ByRef<char16_t*>  pch, ::ByRef<int32_t>  charsRemaining) ;
 
-  /// @brief Method HexToInt, addr 0x62d1f50, size 0x34, virtual false, abstract: false, final false
-  static inline int32_t HexToInt(char16_t h);
+/// @brief Method HexToInt, addr 0x62d3ac8, size 0x34, virtual false, abstract: false, final false
+static inline int32_t HexToInt(char16_t  h) ;
 
-  /// @brief Method HtmlEncode, addr 0x62d1568, size 0x128, virtual false, abstract: false, final false
-  static inline ::StringW HtmlEncode(::StringW value);
+/// @brief Method HtmlEncode, addr 0x62d30e0, size 0x128, virtual false, abstract: false, final false
+static inline ::StringW HtmlEncode(::StringW  value) ;
 
-  /// @brief Method HtmlEncode, addr 0x62d17a8, size 0x3a0, virtual false, abstract: false, final false
-  static inline void HtmlEncode(::StringW value, ::System::IO::TextWriter* output);
+/// @brief Method HtmlEncode, addr 0x62d3320, size 0x3a0, virtual false, abstract: false, final false
+static inline void HtmlEncode(::StringW  value, ::System::IO::TextWriter*  output) ;
 
-  /// @brief Method IndexOfHtmlEncodingChars, addr 0x62d1690, size 0x118, virtual false, abstract: false, final false
-  static inline int32_t IndexOfHtmlEncodingChars(::StringW s, int32_t startPos);
+/// @brief Method IndexOfHtmlEncodingChars, addr 0x62d3208, size 0x118, virtual false, abstract: false, final false
+static inline int32_t IndexOfHtmlEncodingChars(::StringW  s, int32_t  startPos) ;
 
-  /// @brief Method UrlDecode, addr 0x62d20d8, size 0x7c, virtual false, abstract: false, final false
-  static inline ::StringW UrlDecode(::StringW encodedValue);
+/// @brief Method UrlDecode, addr 0x62d3c50, size 0x7c, virtual false, abstract: false, final false
+static inline ::StringW UrlDecode(::StringW  encodedValue) ;
 
-  /// @brief Method UrlDecodeInternal, addr 0x62d1cd8, size 0x20c, virtual false, abstract: false, final false
-  static inline ::StringW UrlDecodeInternal(::StringW value, ::System::Text::Encoding* encoding);
+/// @brief Method UrlDecodeInternal, addr 0x62d3850, size 0x20c, virtual false, abstract: false, final false
+static inline ::StringW UrlDecodeInternal(::StringW  value, ::System::Text::Encoding*  encoding) ;
 
-  static inline ::System::Net::Configuration::UnicodeDecodingConformance getStaticF__htmlDecodeConformance();
+static inline ::System::Net::Configuration::UnicodeDecodingConformance getStaticF__htmlDecodeConformance() ;
 
-  static inline ::System::Net::Configuration::UnicodeEncodingConformance getStaticF__htmlEncodeConformance();
+static inline ::System::Net::Configuration::UnicodeEncodingConformance getStaticF__htmlEncodeConformance() ;
 
-  static inline ::ArrayW<char16_t, ::Array<char16_t>*> getStaticF__htmlEntityEndingChars();
+static inline ::ArrayW<char16_t,::Array<char16_t>*> getStaticF__htmlEntityEndingChars() ;
 
-  /// @brief Method get_HtmlEncodeConformance, addr 0x62d1b48, size 0xec, virtual false, abstract: false, final false
-  static inline ::System::Net::Configuration::UnicodeEncodingConformance get_HtmlEncodeConformance();
+/// @brief Method get_HtmlEncodeConformance, addr 0x62d36c0, size 0xec, virtual false, abstract: false, final false
+static inline ::System::Net::Configuration::UnicodeEncodingConformance get_HtmlEncodeConformance() ;
 
-  static inline void setStaticF__htmlDecodeConformance(::System::Net::Configuration::UnicodeDecodingConformance value);
+static inline void setStaticF__htmlDecodeConformance(::System::Net::Configuration::UnicodeDecodingConformance  value) ;
 
-  static inline void setStaticF__htmlEncodeConformance(::System::Net::Configuration::UnicodeEncodingConformance value);
+static inline void setStaticF__htmlEncodeConformance(::System::Net::Configuration::UnicodeEncodingConformance  value) ;
 
-  static inline void setStaticF__htmlEntityEndingChars(::ArrayW<char16_t, ::Array<char16_t>*> value);
+static inline void setStaticF__htmlEntityEndingChars(::ArrayW<char16_t,::Array<char16_t>*>  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr WebUtility();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr WebUtility() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "WebUtility", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  WebUtility(WebUtility&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "WebUtility", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  WebUtility(WebUtility const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "WebUtility", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+WebUtility(WebUtility && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11509 };
+// Ctor Parameters [CppParam { name: "", ty: "WebUtility", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+WebUtility(WebUtility const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11510};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::WebUtility, 0x10>, "Size mismatch!");
 
-} // namespace System::Net
+} // namespace end def System::Net
 NEED_NO_BOX(::System::Net::WebUtility);
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::WebUtility*, "System.Net", "WebUtility");
 NEED_NO_BOX(::System::Net::WebUtility_UrlDecoder);

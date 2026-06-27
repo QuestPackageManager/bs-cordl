@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "LufsMetering/AudioJobHelpers.hpp"
 #include "LufsMetering/CalculateRmsBlockJob.hpp"
@@ -12,5 +12,6 @@ module;
 #include "LufsMetering/LufsMeter.hpp"
 #include "LufsMetering/SplitAudioJob.hpp"
 #ifdef __cpp_modules
-export module LufsMetering;
-#endif
+                    export module LufsMetering;
+                    #endif
+                

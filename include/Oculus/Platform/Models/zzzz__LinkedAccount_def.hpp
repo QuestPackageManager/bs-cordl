@@ -22,66 +22,66 @@ namespace Oculus::Platform::Models {
 // CS Name: Oculus.Platform.Models.LinkedAccount
 class CORDL_TYPE LinkedAccount : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field AccessToken, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_AccessToken, put = __cordl_internal_set_AccessToken)) ::StringW AccessToken;
+// Declarations
+/// @brief Field AccessToken, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_AccessToken, put=__cordl_internal_set_AccessToken)) ::StringW  AccessToken;
 
-  /// @brief Field ServiceProvider, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get_ServiceProvider, put = __cordl_internal_set_ServiceProvider)) ::Oculus::Platform::ServiceProvider ServiceProvider;
+/// @brief Field ServiceProvider, offset 0x18, size 0x4 
+ __declspec(property(get=__cordl_internal_get_ServiceProvider, put=__cordl_internal_set_ServiceProvider)) ::Oculus::Platform::ServiceProvider  ServiceProvider;
 
-  /// @brief Field UserId, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_UserId, put = __cordl_internal_set_UserId)) ::StringW UserId;
+/// @brief Field UserId, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_UserId, put=__cordl_internal_set_UserId)) ::StringW  UserId;
 
-  static inline ::Oculus::Platform::Models::LinkedAccount* New_ctor(::System::IntPtr o);
+static inline ::Oculus::Platform::Models::LinkedAccount* New_ctor(::System::IntPtr  o) ;
 
-  constexpr ::StringW const& __cordl_internal_get_AccessToken() const;
+constexpr ::StringW const& __cordl_internal_get_AccessToken() const;
 
-  constexpr ::StringW& __cordl_internal_get_AccessToken();
+constexpr ::StringW& __cordl_internal_get_AccessToken() ;
 
-  constexpr ::Oculus::Platform::ServiceProvider const& __cordl_internal_get_ServiceProvider() const;
+constexpr ::Oculus::Platform::ServiceProvider const& __cordl_internal_get_ServiceProvider() const;
 
-  constexpr ::Oculus::Platform::ServiceProvider& __cordl_internal_get_ServiceProvider();
+constexpr ::Oculus::Platform::ServiceProvider& __cordl_internal_get_ServiceProvider() ;
 
-  constexpr ::StringW const& __cordl_internal_get_UserId() const;
+constexpr ::StringW const& __cordl_internal_get_UserId() const;
 
-  constexpr ::StringW& __cordl_internal_get_UserId();
+constexpr ::StringW& __cordl_internal_get_UserId() ;
 
-  constexpr void __cordl_internal_set_AccessToken(::StringW value);
+constexpr void __cordl_internal_set_AccessToken(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_ServiceProvider(::Oculus::Platform::ServiceProvider value);
+constexpr void __cordl_internal_set_ServiceProvider(::Oculus::Platform::ServiceProvider  value) ;
 
-  constexpr void __cordl_internal_set_UserId(::StringW value);
+constexpr void __cordl_internal_set_UserId(::StringW  value) ;
 
-  /// @brief Method .ctor, addr 0x5cb487c, size 0x90, virtual false, abstract: false, final false
-  inline void _ctor(::System::IntPtr o);
+/// @brief Method .ctor, addr 0x5cb63f4, size 0x90, virtual false, abstract: false, final false
+inline void _ctor(::System::IntPtr  o) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LinkedAccount();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr LinkedAccount() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LinkedAccount", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  LinkedAccount(LinkedAccount&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LinkedAccount", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  LinkedAccount(LinkedAccount const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "LinkedAccount", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+LinkedAccount(LinkedAccount && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18040 };
+// Ctor Parameters [CppParam { name: "", ty: "LinkedAccount", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+LinkedAccount(LinkedAccount const& ) = delete;
 
-  /// @brief Field AccessToken, offset: 0x10, size: 0x8, def value: None
-  ::StringW ___AccessToken;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{18042};
 
-  /// @brief Field ServiceProvider, offset: 0x18, size: 0x4, def value: None
-  ::Oculus::Platform::ServiceProvider ___ServiceProvider;
+/// @brief Field AccessToken, offset: 0x10, size: 0x8, def value: None
+ ::StringW  ___AccessToken;
 
-  /// @brief Field UserId, offset: 0x20, size: 0x8, def value: None
-  ::StringW ___UserId;
+/// @brief Field ServiceProvider, offset: 0x18, size: 0x4, def value: None
+ ::Oculus::Platform::ServiceProvider  ___ServiceProvider;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field UserId, offset: 0x20, size: 0x8, def value: None
+ ::StringW  ___UserId;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Oculus::Platform::Models::LinkedAccount, ___AccessToken) == 0x10, "Offset mismatch!");
@@ -92,6 +92,6 @@ static_assert(offsetof(::Oculus::Platform::Models::LinkedAccount, ___UserId) == 
 
 static_assert(::cordl_internals::size_check_v<::Oculus::Platform::Models::LinkedAccount, 0x28>, "Size mismatch!");
 
-} // namespace Oculus::Platform::Models
+} // namespace end def Oculus::Platform::Models
 NEED_NO_BOX(::Oculus::Platform::Models::LinkedAccount);
 DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::LinkedAccount*, "Oculus.Platform.Models", "LinkedAccount");

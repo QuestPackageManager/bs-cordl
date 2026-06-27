@@ -23,63 +23,63 @@ namespace GlobalNamespace {
 // CS Name: SignalListener
 class CORDL_TYPE SignalListener : public ::UnityEngine::MonoBehaviour {
 public:
-  // Declarations
-  /// @brief Field _signal, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__signal, put = __cordl_internal_set__signal)) ::UnityW<::GlobalNamespace::Signal> _signal;
+// Declarations
+/// @brief Field _signal, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get__signal, put=__cordl_internal_set__signal)) ::UnityW<::GlobalNamespace::Signal>  _signal;
 
-  /// @brief Field _unityEvent, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__unityEvent, put = __cordl_internal_set__unityEvent)) ::UnityEngine::Events::UnityEvent* _unityEvent;
+/// @brief Field _unityEvent, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get__unityEvent, put=__cordl_internal_set__unityEvent)) ::UnityEngine::Events::UnityEvent*  _unityEvent;
 
-  /// @brief Method HandleEvent, addr 0x5711f1c, size 0x18, virtual false, abstract: false, final false
-  inline void HandleEvent();
+/// @brief Method HandleEvent, addr 0x5713784, size 0x18, virtual false, abstract: false, final false
+inline void HandleEvent() ;
 
-  static inline ::GlobalNamespace::SignalListener* New_ctor();
+static inline ::GlobalNamespace::SignalListener* New_ctor() ;
 
-  /// @brief Method OnDisable, addr 0x5711e90, size 0x8c, virtual false, abstract: false, final false
-  inline void OnDisable();
+/// @brief Method OnDisable, addr 0x57136f8, size 0x8c, virtual false, abstract: false, final false
+inline void OnDisable() ;
 
-  /// @brief Method OnEnable, addr 0x5711df8, size 0x98, virtual false, abstract: false, final false
-  inline void OnEnable();
+/// @brief Method OnEnable, addr 0x5713660, size 0x98, virtual false, abstract: false, final false
+inline void OnEnable() ;
 
-  constexpr ::UnityW<::GlobalNamespace::Signal> const& __cordl_internal_get__signal() const;
+constexpr ::UnityW<::GlobalNamespace::Signal> const& __cordl_internal_get__signal() const;
 
-  constexpr ::UnityW<::GlobalNamespace::Signal>& __cordl_internal_get__signal();
+constexpr ::UnityW<::GlobalNamespace::Signal>& __cordl_internal_get__signal() ;
 
-  constexpr ::UnityEngine::Events::UnityEvent* const& __cordl_internal_get__unityEvent() const;
+constexpr ::UnityEngine::Events::UnityEvent* const& __cordl_internal_get__unityEvent() const;
 
-  constexpr ::UnityEngine::Events::UnityEvent*& __cordl_internal_get__unityEvent();
+constexpr ::UnityEngine::Events::UnityEvent*& __cordl_internal_get__unityEvent() ;
 
-  constexpr void __cordl_internal_set__signal(::UnityW<::GlobalNamespace::Signal> value);
+constexpr void __cordl_internal_set__signal(::UnityW<::GlobalNamespace::Signal>  value) ;
 
-  constexpr void __cordl_internal_set__unityEvent(::UnityEngine::Events::UnityEvent* value);
+constexpr void __cordl_internal_set__unityEvent(::UnityEngine::Events::UnityEvent*  value) ;
 
-  /// @brief Method .ctor, addr 0x5711f34, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x571379c, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SignalListener();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr SignalListener() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SignalListener", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  SignalListener(SignalListener&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SignalListener", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  SignalListener(SignalListener const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "SignalListener", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+SignalListener(SignalListener && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20299 };
+// Ctor Parameters [CppParam { name: "", ty: "SignalListener", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+SignalListener(SignalListener const& ) = delete;
 
-  /// @brief Field _signal, offset: 0x20, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::Signal> ____signal;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20302};
 
-  /// @brief Field _unityEvent, offset: 0x28, size: 0x8, def value: None
-  ::UnityEngine::Events::UnityEvent* ____unityEvent;
+/// @brief Field _signal, offset: 0x20, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::Signal>  ____signal;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _unityEvent, offset: 0x28, size: 0x8, def value: None
+ ::UnityEngine::Events::UnityEvent*  ____unityEvent;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::SignalListener, ____signal) == 0x20, "Offset mismatch!");
@@ -88,6 +88,6 @@ static_assert(offsetof(::GlobalNamespace::SignalListener, ____unityEvent) == 0x2
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SignalListener, 0x30>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SignalListener);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SignalListener*, "", "SignalListener");

@@ -30,87 +30,87 @@ namespace UnityEngine::UIElements {
 // CS Name: UnityEngine.UIElements.UIRUtility
 class CORDL_TYPE UIRUtility : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field k_ComputeTransformMatrixMarker, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_k_ComputeTransformMatrixMarker, put = setStaticF_k_ComputeTransformMatrixMarker)) ::Unity::Profiling::ProfilerMarker k_ComputeTransformMatrixMarker;
+// Declarations
+/// @brief Field k_ComputeTransformMatrixMarker, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_k_ComputeTransformMatrixMarker, put=setStaticF_k_ComputeTransformMatrixMarker)) ::Unity::Profiling::ProfilerMarker  k_ComputeTransformMatrixMarker;
 
-  /// @brief Field k_DefaultShaderName, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_k_DefaultShaderName, put = setStaticF_k_DefaultShaderName)) ::StringW k_DefaultShaderName;
+/// @brief Field k_DefaultShaderName, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_k_DefaultShaderName, put=setStaticF_k_DefaultShaderName)) ::StringW  k_DefaultShaderName;
 
-  /// @brief Field k_DefaultWorldSpaceShaderName, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_k_DefaultWorldSpaceShaderName, put = setStaticF_k_DefaultWorldSpaceShaderName)) ::StringW k_DefaultWorldSpaceShaderName;
+/// @brief Field k_DefaultWorldSpaceShaderName, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_k_DefaultWorldSpaceShaderName, put=setStaticF_k_DefaultWorldSpaceShaderName)) ::StringW  k_DefaultWorldSpaceShaderName;
 
-  /// @brief Field s_ThreadIndex, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_s_ThreadIndex, put = setStaticF_s_ThreadIndex)) ::System::Nullable_1<int32_t> s_ThreadIndex;
+/// @brief Field s_ThreadIndex, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_s_ThreadIndex, put=setStaticF_s_ThreadIndex)) ::System::Nullable_1<int32_t>  s_ThreadIndex;
 
-  /// @brief Method ComputeTransformMatrix, addr 0x6c7fed8, size 0x12c, virtual false, abstract: false, final false
-  static inline void ComputeTransformMatrix(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::VisualElement* ancestor, ::ByRef<::UnityEngine::Matrix4x4> result);
+/// @brief Method ComputeTransformMatrix, addr 0x6c81a50, size 0x12c, virtual false, abstract: false, final false
+static inline void ComputeTransformMatrix(::UnityEngine::UIElements::VisualElement*  ve, ::UnityEngine::UIElements::VisualElement*  ancestor, ::ByRef<::UnityEngine::Matrix4x4>  result) ;
 
-  /// @brief Method Destroy, addr 0x6c80298, size 0xf8, virtual false, abstract: false, final false
-  static inline void Destroy(::UnityEngine::Object* obj);
+/// @brief Method Destroy, addr 0x6c81e10, size 0xf8, virtual false, abstract: false, final false
+static inline void Destroy(::UnityEngine::Object*  obj) ;
 
-  /// @brief Method GetNextPow2, addr 0x6c803c8, size 0x1c, virtual false, abstract: false, final false
-  static inline int32_t GetNextPow2(int32_t n);
+/// @brief Method GetNextPow2, addr 0x6c81f40, size 0x1c, virtual false, abstract: false, final false
+static inline int32_t GetNextPow2(int32_t  n) ;
 
-  /// @brief Method GetNextPow2Exp, addr 0x6c803e4, size 0x30, virtual false, abstract: false, final false
-  static inline int32_t GetNextPow2Exp(int32_t n);
+/// @brief Method GetNextPow2Exp, addr 0x6c81f5c, size 0x30, virtual false, abstract: false, final false
+static inline int32_t GetNextPow2Exp(int32_t  n) ;
 
-  /// @brief Method GetPrevPow2, addr 0x6c80390, size 0x38, virtual false, abstract: false, final false
-  static inline int32_t GetPrevPow2(int32_t n);
+/// @brief Method GetPrevPow2, addr 0x6c81f08, size 0x38, virtual false, abstract: false, final false
+static inline int32_t GetPrevPow2(int32_t  n) ;
 
-  /// @brief Method GetThreadIndex, addr 0x6c80414, size 0x144, virtual false, abstract: false, final false
-  static inline int32_t GetThreadIndex();
+/// @brief Method GetThreadIndex, addr 0x6c81f8c, size 0x144, virtual false, abstract: false, final false
+static inline int32_t GetThreadIndex() ;
 
-  /// @brief Method GetVerticesTransformInfo, addr 0x6c7fd4c, size 0x18c, virtual false, abstract: false, final false
-  static inline void GetVerticesTransformInfo(::UnityEngine::UIElements::VisualElement* ve, ::ByRef<::UnityEngine::Matrix4x4> transform);
+/// @brief Method GetVerticesTransformInfo, addr 0x6c818c4, size 0x18c, virtual false, abstract: false, final false
+static inline void GetVerticesTransformInfo(::UnityEngine::UIElements::VisualElement*  ve, ::ByRef<::UnityEngine::Matrix4x4>  transform) ;
 
-  /// @brief Method IsRoundRect, addr 0x6c80004, size 0x208, virtual false, abstract: false, final false
-  static inline bool IsRoundRect(::UnityEngine::UIElements::VisualElement* ve);
+/// @brief Method IsRoundRect, addr 0x6c81b7c, size 0x208, virtual false, abstract: false, final false
+static inline bool IsRoundRect(::UnityEngine::UIElements::VisualElement*  ve) ;
 
-  /// @brief Method IsVectorImageBackground, addr 0x6c8020c, size 0x84, virtual false, abstract: false, final false
-  static inline bool IsVectorImageBackground(::UnityEngine::UIElements::VisualElement* ve);
+/// @brief Method IsVectorImageBackground, addr 0x6c81d84, size 0x84, virtual false, abstract: false, final false
+static inline bool IsVectorImageBackground(::UnityEngine::UIElements::VisualElement*  ve) ;
 
-  /// @brief Method ShapeWindingIsClockwise, addr 0x6c7fccc, size 0x80, virtual false, abstract: false, final false
-  static inline bool ShapeWindingIsClockwise(int32_t maskDepth, int32_t stencilRef);
+/// @brief Method ShapeWindingIsClockwise, addr 0x6c81844, size 0x80, virtual false, abstract: false, final false
+static inline bool ShapeWindingIsClockwise(int32_t  maskDepth, int32_t  stencilRef) ;
 
-  static inline ::Unity::Profiling::ProfilerMarker getStaticF_k_ComputeTransformMatrixMarker();
+static inline ::Unity::Profiling::ProfilerMarker getStaticF_k_ComputeTransformMatrixMarker() ;
 
-  static inline ::StringW getStaticF_k_DefaultShaderName();
+static inline ::StringW getStaticF_k_DefaultShaderName() ;
 
-  static inline ::StringW getStaticF_k_DefaultWorldSpaceShaderName();
+static inline ::StringW getStaticF_k_DefaultWorldSpaceShaderName() ;
 
-  static inline ::System::Nullable_1<int32_t> getStaticF_s_ThreadIndex();
+static inline ::System::Nullable_1<int32_t> getStaticF_s_ThreadIndex() ;
 
-  static inline void setStaticF_k_ComputeTransformMatrixMarker(::Unity::Profiling::ProfilerMarker value);
+static inline void setStaticF_k_ComputeTransformMatrixMarker(::Unity::Profiling::ProfilerMarker  value) ;
 
-  static inline void setStaticF_k_DefaultShaderName(::StringW value);
+static inline void setStaticF_k_DefaultShaderName(::StringW  value) ;
 
-  static inline void setStaticF_k_DefaultWorldSpaceShaderName(::StringW value);
+static inline void setStaticF_k_DefaultWorldSpaceShaderName(::StringW  value) ;
 
-  static inline void setStaticF_s_ThreadIndex(::System::Nullable_1<int32_t> value);
+static inline void setStaticF_s_ThreadIndex(::System::Nullable_1<int32_t>  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr UIRUtility();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr UIRUtility() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UIRUtility", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  UIRUtility(UIRUtility&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UIRUtility", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  UIRUtility(UIRUtility const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "UIRUtility", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+UIRUtility(UIRUtility && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4685 };
+// Ctor Parameters [CppParam { name: "", ty: "UIRUtility", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+UIRUtility(UIRUtility const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4685};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIRUtility, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements
+} // namespace end def UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::UIRUtility);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UIRUtility*, "UnityEngine.UIElements", "UIRUtility");

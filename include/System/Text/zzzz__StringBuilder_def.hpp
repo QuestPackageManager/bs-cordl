@@ -27,10 +27,12 @@ namespace System {
 struct ParamsArray;
 }
 namespace System {
-template <typename T> struct ReadOnlySpan_1;
+template<typename T>
+struct ReadOnlySpan_1;
 }
 namespace System {
-template <typename T> struct Span_1;
+template<typename T>
+struct Span_1;
 }
 // Forward declare root types
 namespace System::Text {
@@ -44,332 +46,333 @@ namespace System::Text {
 // CS Name: System.Text.StringBuilder
 class CORDL_TYPE StringBuilder : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = get_Capacity, put = set_Capacity)) int32_t Capacity;
+// Declarations
+ __declspec(property(get=get_Capacity, put=set_Capacity)) int32_t  Capacity;
 
-  __declspec(property(get = get_Chars, put = set_Chars)) char16_t Chars[];
+ __declspec(property(get=get_Chars, put=set_Chars)) char16_t  Chars[];
 
-  __declspec(property(get = get_Length, put = set_Length)) int32_t Length;
+ __declspec(property(get=get_Length, put=set_Length)) int32_t  Length;
 
-  __declspec(property(get = get_MaxCapacity)) int32_t MaxCapacity;
+ __declspec(property(get=get_MaxCapacity)) int32_t  MaxCapacity;
 
-  __declspec(property(get = get_RemainingCurrentChunk)) ::System::Span_1<char16_t> RemainingCurrentChunk;
+ __declspec(property(get=get_RemainingCurrentChunk)) ::System::Span_1<char16_t>  RemainingCurrentChunk;
 
-  /// @brief Field m_ChunkChars, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_ChunkChars, put = __cordl_internal_set_m_ChunkChars)) ::ArrayW<char16_t, ::Array<char16_t>*> m_ChunkChars;
+/// @brief Field m_ChunkChars, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_ChunkChars, put=__cordl_internal_set_m_ChunkChars)) ::ArrayW<char16_t,::Array<char16_t>*>  m_ChunkChars;
 
-  /// @brief Field m_ChunkLength, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_ChunkLength, put = __cordl_internal_set_m_ChunkLength)) int32_t m_ChunkLength;
+/// @brief Field m_ChunkLength, offset 0x20, size 0x4 
+ __declspec(property(get=__cordl_internal_get_m_ChunkLength, put=__cordl_internal_set_m_ChunkLength)) int32_t  m_ChunkLength;
 
-  /// @brief Field m_ChunkOffset, offset 0x24, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_ChunkOffset, put = __cordl_internal_set_m_ChunkOffset)) int32_t m_ChunkOffset;
+/// @brief Field m_ChunkOffset, offset 0x24, size 0x4 
+ __declspec(property(get=__cordl_internal_get_m_ChunkOffset, put=__cordl_internal_set_m_ChunkOffset)) int32_t  m_ChunkOffset;
 
-  /// @brief Field m_ChunkPrevious, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_ChunkPrevious, put = __cordl_internal_set_m_ChunkPrevious)) ::System::Text::StringBuilder* m_ChunkPrevious;
+/// @brief Field m_ChunkPrevious, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_ChunkPrevious, put=__cordl_internal_set_m_ChunkPrevious)) ::System::Text::StringBuilder*  m_ChunkPrevious;
 
-  /// @brief Field m_MaxCapacity, offset 0x28, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_MaxCapacity, put = __cordl_internal_set_m_MaxCapacity)) int32_t m_MaxCapacity;
+/// @brief Field m_MaxCapacity, offset 0x28, size 0x4 
+ __declspec(property(get=__cordl_internal_get_m_MaxCapacity, put=__cordl_internal_set_m_MaxCapacity)) int32_t  m_MaxCapacity;
 
-  /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
-  constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
+/// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
+constexpr operator  ::System::Runtime::Serialization::ISerializable*() noexcept;
 
-  /// @brief Method Append, addr 0x599c734, size 0x28, virtual false, abstract: false, final false
-  inline ::System::Text::StringBuilder* Append(::ArrayW<char16_t, ::Array<char16_t>*> value);
+/// @brief Method Append, addr 0x599e2ac, size 0x28, virtual false, abstract: false, final false
+inline ::System::Text::StringBuilder* Append(::ArrayW<char16_t,::Array<char16_t>*>  value) ;
 
-  /// @brief Method Append, addr 0x599b408, size 0x13c, virtual false, abstract: false, final false
-  inline ::System::Text::StringBuilder* Append(::ArrayW<char16_t, ::Array<char16_t>*> value, int32_t startIndex, int32_t charCount);
+/// @brief Method Append, addr 0x599cf80, size 0x13c, virtual false, abstract: false, final false
+inline ::System::Text::StringBuilder* Append(::ArrayW<char16_t,::Array<char16_t>*>  value, int32_t  startIndex, int32_t  charCount) ;
 
-  /// @brief Method Append, addr 0x599b694, size 0xe8, virtual false, abstract: false, final false
-  inline ::System::Text::StringBuilder* Append(::StringW value);
+/// @brief Method Append, addr 0x599d20c, size 0xe8, virtual false, abstract: false, final false
+inline ::System::Text::StringBuilder* Append(::StringW  value) ;
 
-  /// @brief Method Append, addr 0x599b794, size 0x114, virtual false, abstract: false, final false
-  inline ::System::Text::StringBuilder* Append(::StringW value, int32_t startIndex, int32_t count);
+/// @brief Method Append, addr 0x599d30c, size 0x114, virtual false, abstract: false, final false
+inline ::System::Text::StringBuilder* Append(::StringW  value, int32_t  startIndex, int32_t  count) ;
 
-  /// @brief Method Append, addr 0x599c6fc, size 0x38, virtual false, abstract: false, final false
-  inline ::System::Text::StringBuilder* Append(::System::Object* value);
+/// @brief Method Append, addr 0x599e274, size 0x38, virtual false, abstract: false, final false
+inline ::System::Text::StringBuilder* Append(::System::Object*  value) ;
 
-  /// @brief Method Append, addr 0x599c75c, size 0x80, virtual false, abstract: false, final false
-  inline ::System::Text::StringBuilder* Append(::System::ReadOnlySpan_1<char16_t> value);
+/// @brief Method Append, addr 0x599e2d4, size 0x80, virtual false, abstract: false, final false
+inline ::System::Text::StringBuilder* Append(::System::ReadOnlySpan_1<char16_t>  value) ;
 
-  /// @brief Method Append, addr 0x599b8a8, size 0x24, virtual false, abstract: false, final false
-  inline ::System::Text::StringBuilder* Append(::System::Text::StringBuilder* value);
+/// @brief Method Append, addr 0x599d420, size 0x24, virtual false, abstract: false, final false
+inline ::System::Text::StringBuilder* Append(::System::Text::StringBuilder*  value) ;
 
-  /// @brief Method Append, addr 0x599c440, size 0x44, virtual false, abstract: false, final false
-  inline ::System::Text::StringBuilder* Append(bool value);
+/// @brief Method Append, addr 0x599dfb8, size 0x44, virtual false, abstract: false, final false
+inline ::System::Text::StringBuilder* Append(bool  value) ;
 
-  /// @brief Method Append, addr 0x599c484, size 0x50, virtual false, abstract: false, final false
-  inline ::System::Text::StringBuilder* Append(char16_t value);
+/// @brief Method Append, addr 0x599dffc, size 0x50, virtual false, abstract: false, final false
+inline ::System::Text::StringBuilder* Append(char16_t  value) ;
 
-  /// @brief Method Append, addr 0x599afe0, size 0x130, virtual false, abstract: false, final false
-  inline ::System::Text::StringBuilder* Append(char16_t value, int32_t repeatCount);
+/// @brief Method Append, addr 0x599cb58, size 0x130, virtual false, abstract: false, final false
+inline ::System::Text::StringBuilder* Append(char16_t  value, int32_t  repeatCount) ;
 
-  /// @brief Method Append, addr 0x599b544, size 0x150, virtual false, abstract: false, final false
-  inline ::System::Text::StringBuilder* Append(char16_t* value, int32_t valueCount);
+/// @brief Method Append, addr 0x599d0bc, size 0x150, virtual false, abstract: false, final false
+inline ::System::Text::StringBuilder* Append(char16_t*  value, int32_t  valueCount) ;
 
-  /// @brief Method Append, addr 0x599c644, size 0x5c, virtual false, abstract: false, final false
-  inline ::System::Text::StringBuilder* Append(double_t value);
+/// @brief Method Append, addr 0x599e1bc, size 0x5c, virtual false, abstract: false, final false
+inline ::System::Text::StringBuilder* Append(double_t  value) ;
 
-  /// @brief Method Append, addr 0x599c5e8, size 0x5c, virtual false, abstract: false, final false
-  inline ::System::Text::StringBuilder* Append(float_t value);
+/// @brief Method Append, addr 0x599e160, size 0x5c, virtual false, abstract: false, final false
+inline ::System::Text::StringBuilder* Append(float_t  value) ;
 
-  /// @brief Method Append, addr 0x599c530, size 0x5c, virtual false, abstract: false, final false
-  inline ::System::Text::StringBuilder* Append(int32_t value);
+/// @brief Method Append, addr 0x599e0a8, size 0x5c, virtual false, abstract: false, final false
+inline ::System::Text::StringBuilder* Append(int32_t  value) ;
 
-  /// @brief Method Append, addr 0x599c58c, size 0x5c, virtual false, abstract: false, final false
-  inline ::System::Text::StringBuilder* Append(int64_t value);
+/// @brief Method Append, addr 0x599e104, size 0x5c, virtual false, abstract: false, final false
+inline ::System::Text::StringBuilder* Append(int64_t  value) ;
 
-  /// @brief Method Append, addr 0x599c6a0, size 0x5c, virtual false, abstract: false, final false
-  inline ::System::Text::StringBuilder* Append(uint32_t value);
+/// @brief Method Append, addr 0x599e218, size 0x5c, virtual false, abstract: false, final false
+inline ::System::Text::StringBuilder* Append(uint32_t  value) ;
 
-  /// @brief Method Append, addr 0x599c4d4, size 0x5c, virtual false, abstract: false, final false
-  inline ::System::Text::StringBuilder* Append(uint8_t value);
+/// @brief Method Append, addr 0x599e04c, size 0x5c, virtual false, abstract: false, final false
+inline ::System::Text::StringBuilder* Append(uint8_t  value) ;
 
-  /// @brief Method AppendCore, addr 0x599b8cc, size 0x204, virtual false, abstract: false, final false
-  inline ::System::Text::StringBuilder* AppendCore(::System::Text::StringBuilder* value, int32_t startIndex, int32_t count);
+/// @brief Method AppendCore, addr 0x599d444, size 0x204, virtual false, abstract: false, final false
+inline ::System::Text::StringBuilder* AppendCore(::System::Text::StringBuilder*  value, int32_t  startIndex, int32_t  count) ;
 
-  /// @brief Method AppendFormat, addr 0x599c9b0, size 0x50, virtual false, abstract: false, final false
-  inline ::System::Text::StringBuilder* AppendFormat(::StringW format, ::System::Object* arg0);
+/// @brief Method AppendFormat, addr 0x599e528, size 0x50, virtual false, abstract: false, final false
+inline ::System::Text::StringBuilder* AppendFormat(::StringW  format, ::System::Object*  arg0) ;
 
-  /// @brief Method AppendFormat, addr 0x599d548, size 0x54, virtual false, abstract: false, final false
-  inline ::System::Text::StringBuilder* AppendFormat(::StringW format, ::System::Object* arg0, ::System::Object* arg1);
+/// @brief Method AppendFormat, addr 0x599f0c0, size 0x54, virtual false, abstract: false, final false
+inline ::System::Text::StringBuilder* AppendFormat(::StringW  format, ::System::Object*  arg0, ::System::Object*  arg1) ;
 
-  /// @brief Method AppendFormat, addr 0x599d59c, size 0x58, virtual false, abstract: false, final false
-  inline ::System::Text::StringBuilder* AppendFormat(::StringW format, ::System::Object* arg0, ::System::Object* arg1, ::System::Object* arg2);
+/// @brief Method AppendFormat, addr 0x599f114, size 0x58, virtual false, abstract: false, final false
+inline ::System::Text::StringBuilder* AppendFormat(::StringW  format, ::System::Object*  arg0, ::System::Object*  arg1, ::System::Object*  arg2) ;
 
-  /// @brief Method AppendFormat, addr 0x599d5f4, size 0xcc, virtual false, abstract: false, final false
-  inline ::System::Text::StringBuilder* AppendFormat(::StringW format, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
+/// @brief Method AppendFormat, addr 0x599f16c, size 0xcc, virtual false, abstract: false, final false
+inline ::System::Text::StringBuilder* AppendFormat(::StringW  format, ::ArrayW<::System::Object*,::Array<::System::Object*>*>  args) ;
 
-  /// @brief Method AppendFormat, addr 0x599d6c0, size 0x54, virtual false, abstract: false, final false
-  inline ::System::Text::StringBuilder* AppendFormat(::System::IFormatProvider* provider, ::StringW format, ::System::Object* arg0);
+/// @brief Method AppendFormat, addr 0x599f238, size 0x54, virtual false, abstract: false, final false
+inline ::System::Text::StringBuilder* AppendFormat(::System::IFormatProvider*  provider, ::StringW  format, ::System::Object*  arg0) ;
 
-  /// @brief Method AppendFormat, addr 0x599d714, size 0x5c, virtual false, abstract: false, final false
-  inline ::System::Text::StringBuilder* AppendFormat(::System::IFormatProvider* provider, ::StringW format, ::System::Object* arg0, ::System::Object* arg1, ::System::Object* arg2);
+/// @brief Method AppendFormat, addr 0x599f28c, size 0x5c, virtual false, abstract: false, final false
+inline ::System::Text::StringBuilder* AppendFormat(::System::IFormatProvider*  provider, ::StringW  format, ::System::Object*  arg0, ::System::Object*  arg1, ::System::Object*  arg2) ;
 
-  /// @brief Method AppendFormatHelper, addr 0x599ca00, size 0xb48, virtual false, abstract: false, final false
-  inline ::System::Text::StringBuilder* AppendFormatHelper(::System::IFormatProvider* provider, ::StringW format, ::System::ParamsArray args);
+/// @brief Method AppendFormatHelper, addr 0x599e578, size 0xb48, virtual false, abstract: false, final false
+inline ::System::Text::StringBuilder* AppendFormatHelper(::System::IFormatProvider*  provider, ::StringW  format, ::System::ParamsArray  args) ;
 
-  /// @brief Method AppendHelper, addr 0x599b77c, size 0x18, virtual false, abstract: false, final false
-  inline void AppendHelper(::StringW value);
+/// @brief Method AppendHelper, addr 0x599d2f4, size 0x18, virtual false, abstract: false, final false
+inline void AppendHelper(::StringW  value) ;
 
-  /// @brief Method AppendLine, addr 0x599bad0, size 0x20, virtual false, abstract: false, final false
-  inline ::System::Text::StringBuilder* AppendLine();
+/// @brief Method AppendLine, addr 0x599d648, size 0x20, virtual false, abstract: false, final false
+inline ::System::Text::StringBuilder* AppendLine() ;
 
-  /// @brief Method AppendLine, addr 0x599baf0, size 0x24, virtual false, abstract: false, final false
-  inline ::System::Text::StringBuilder* AppendLine(::StringW value);
+/// @brief Method AppendLine, addr 0x599d668, size 0x24, virtual false, abstract: false, final false
+inline ::System::Text::StringBuilder* AppendLine(::StringW  value) ;
 
-  /// @brief Method AppendSpanFormattable, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline ::System::Text::StringBuilder* AppendSpanFormattable(T value);
+/// @brief Method AppendSpanFormattable, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+template<typename T>
+inline ::System::Text::StringBuilder* AppendSpanFormattable(T  value) ;
 
-  /// @brief Method Clear, addr 0x599ad98, size 0x1c, virtual false, abstract: false, final false
-  inline ::System::Text::StringBuilder* Clear();
+/// @brief Method Clear, addr 0x599c910, size 0x1c, virtual false, abstract: false, final false
+inline ::System::Text::StringBuilder* Clear() ;
 
-  /// @brief Method CopyTo, addr 0x599abd8, size 0x1c0, virtual false, abstract: false, final false
-  inline void CopyTo(int32_t sourceIndex, ::System::Span_1<char16_t> destination, int32_t count);
+/// @brief Method CopyTo, addr 0x599c750, size 0x1c0, virtual false, abstract: false, final false
+inline void CopyTo(int32_t  sourceIndex, ::System::Span_1<char16_t>  destination, int32_t  count) ;
 
-  /// @brief Method EnsureCapacity, addr 0x599a87c, size 0xb4, virtual false, abstract: false, final false
-  inline int32_t EnsureCapacity(int32_t capacity);
+/// @brief Method EnsureCapacity, addr 0x599c3f4, size 0xb4, virtual false, abstract: false, final false
+inline int32_t EnsureCapacity(int32_t  capacity) ;
 
-  /// @brief Method ExpandByABlock, addr 0x599b278, size 0x190, virtual false, abstract: false, final false
-  inline void ExpandByABlock(int32_t minBlockCharCount);
+/// @brief Method ExpandByABlock, addr 0x599cdf0, size 0x190, virtual false, abstract: false, final false
+inline void ExpandByABlock(int32_t  minBlockCharCount) ;
 
-  /// @brief Method FindChunkForIndex, addr 0x599b110, size 0x28, virtual false, abstract: false, final false
-  inline ::System::Text::StringBuilder* FindChunkForIndex(int32_t index);
+/// @brief Method FindChunkForIndex, addr 0x599cc88, size 0x28, virtual false, abstract: false, final false
+inline ::System::Text::StringBuilder* FindChunkForIndex(int32_t  index) ;
 
-  /// @brief Method FormatError, addr 0x599d770, size 0x4c, virtual false, abstract: false, final false
-  static inline void FormatError();
+/// @brief Method FormatError, addr 0x599f2e8, size 0x4c, virtual false, abstract: false, final false
+static inline void FormatError() ;
 
-  /// @brief Method Insert, addr 0x599c7dc, size 0x9c, virtual false, abstract: false, final false
-  inline ::System::Text::StringBuilder* Insert(int32_t index, ::StringW value);
+/// @brief Method Insert, addr 0x599e354, size 0x9c, virtual false, abstract: false, final false
+inline ::System::Text::StringBuilder* Insert(int32_t  index, ::StringW  value) ;
 
-  /// @brief Method Insert, addr 0x599bca8, size 0x15c, virtual false, abstract: false, final false
-  inline ::System::Text::StringBuilder* Insert(int32_t index, ::StringW value, int32_t count);
+/// @brief Method Insert, addr 0x599d820, size 0x15c, virtual false, abstract: false, final false
+inline ::System::Text::StringBuilder* Insert(int32_t  index, ::StringW  value, int32_t  count) ;
 
-  /// @brief Method Insert, addr 0x599c948, size 0x2c, virtual false, abstract: false, final false
-  inline ::System::Text::StringBuilder* Insert(int32_t index, char16_t value);
+/// @brief Method Insert, addr 0x599e4c0, size 0x2c, virtual false, abstract: false, final false
+inline ::System::Text::StringBuilder* Insert(int32_t  index, char16_t  value) ;
 
-  /// @brief Method Insert, addr 0x599c974, size 0x3c, virtual false, abstract: false, final false
-  inline ::System::Text::StringBuilder* Insert(int32_t index, int32_t value);
+/// @brief Method Insert, addr 0x599e4ec, size 0x3c, virtual false, abstract: false, final false
+inline ::System::Text::StringBuilder* Insert(int32_t  index, int32_t  value) ;
 
-  /// @brief Method Insert, addr 0x599c878, size 0xd0, virtual false, abstract: false, final false
-  inline void Insert(int32_t index, char16_t* value, int32_t valueCount);
+/// @brief Method Insert, addr 0x599e3f0, size 0xd0, virtual false, abstract: false, final false
+inline void Insert(int32_t  index, char16_t*  value, int32_t  valueCount) ;
 
-  /// @brief Method MakeRoom, addr 0x599be04, size 0x2a4, virtual false, abstract: false, final false
-  inline void MakeRoom(int32_t index, int32_t count, ::ByRef<::System::Text::StringBuilder*> chunk, ::ByRef<int32_t> indexInChunk, bool doNotMoveFollowingChars);
+/// @brief Method MakeRoom, addr 0x599d97c, size 0x2a4, virtual false, abstract: false, final false
+inline void MakeRoom(int32_t  index, int32_t  count, ::ByRef<::System::Text::StringBuilder*>  chunk, ::ByRef<int32_t>  indexInChunk, bool  doNotMoveFollowingChars) ;
 
-  static inline ::System::Text::StringBuilder* New_ctor();
+static inline ::System::Text::StringBuilder* New_ctor() ;
 
-  static inline ::System::Text::StringBuilder* New_ctor(int32_t capacity);
+static inline ::System::Text::StringBuilder* New_ctor(int32_t  capacity) ;
 
-  static inline ::System::Text::StringBuilder* New_ctor(int32_t capacity, int32_t maxCapacity);
+static inline ::System::Text::StringBuilder* New_ctor(int32_t  capacity, int32_t  maxCapacity) ;
 
-  static inline ::System::Text::StringBuilder* New_ctor(::System::Text::StringBuilder* from);
+static inline ::System::Text::StringBuilder* New_ctor(::System::Text::StringBuilder*  from) ;
 
-  static inline ::System::Text::StringBuilder* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
+static inline ::System::Text::StringBuilder* New_ctor(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context) ;
 
-  static inline ::System::Text::StringBuilder* New_ctor(int32_t size, int32_t maxCapacity, ::System::Text::StringBuilder* previousBlock);
+static inline ::System::Text::StringBuilder* New_ctor(int32_t  size, int32_t  maxCapacity, ::System::Text::StringBuilder*  previousBlock) ;
 
-  static inline ::System::Text::StringBuilder* New_ctor(::StringW value);
+static inline ::System::Text::StringBuilder* New_ctor(::StringW  value) ;
 
-  static inline ::System::Text::StringBuilder* New_ctor(::StringW value, int32_t capacity);
+static inline ::System::Text::StringBuilder* New_ctor(::StringW  value, int32_t  capacity) ;
 
-  static inline ::System::Text::StringBuilder* New_ctor(::StringW value, int32_t startIndex, int32_t length, int32_t capacity);
+static inline ::System::Text::StringBuilder* New_ctor(::StringW  value, int32_t  startIndex, int32_t  length, int32_t  capacity) ;
 
-  /// @brief Method Next, addr 0x599dd38, size 0x40, virtual false, abstract: false, final false
-  inline ::System::Text::StringBuilder* Next(::System::Text::StringBuilder* chunk);
+/// @brief Method Next, addr 0x599f8b0, size 0x40, virtual false, abstract: false, final false
+inline ::System::Text::StringBuilder* Next(::System::Text::StringBuilder*  chunk) ;
 
-  /// @brief Method Remove, addr 0x599c1bc, size 0x130, virtual false, abstract: false, final false
-  inline ::System::Text::StringBuilder* Remove(int32_t startIndex, int32_t length);
+/// @brief Method Remove, addr 0x599dd34, size 0x130, virtual false, abstract: false, final false
+inline ::System::Text::StringBuilder* Remove(int32_t  startIndex, int32_t  length) ;
 
-  /// @brief Method Remove, addr 0x599c2ec, size 0x154, virtual false, abstract: false, final false
-  inline void Remove(int32_t startIndex, int32_t count, ::ByRef<::System::Text::StringBuilder*> chunk, ::ByRef<int32_t> indexInChunk);
+/// @brief Method Remove, addr 0x599de64, size 0x154, virtual false, abstract: false, final false
+inline void Remove(int32_t  startIndex, int32_t  count, ::ByRef<::System::Text::StringBuilder*>  chunk, ::ByRef<int32_t>  indexInChunk) ;
 
-  /// @brief Method Replace, addr 0x599d7bc, size 0x10, virtual false, abstract: false, final false
-  inline ::System::Text::StringBuilder* Replace(::StringW oldValue, ::StringW newValue);
+/// @brief Method Replace, addr 0x599f334, size 0x10, virtual false, abstract: false, final false
+inline ::System::Text::StringBuilder* Replace(::StringW  oldValue, ::StringW  newValue) ;
 
-  /// @brief Method Replace, addr 0x599d7cc, size 0x300, virtual false, abstract: false, final false
-  inline ::System::Text::StringBuilder* Replace(::StringW oldValue, ::StringW newValue, int32_t startIndex, int32_t count);
+/// @brief Method Replace, addr 0x599f344, size 0x300, virtual false, abstract: false, final false
+inline ::System::Text::StringBuilder* Replace(::StringW  oldValue, ::StringW  newValue, int32_t  startIndex, int32_t  count) ;
 
-  /// @brief Method ReplaceAllInChunk, addr 0x599dba8, size 0x190, virtual false, abstract: false, final false
-  inline void ReplaceAllInChunk(::ArrayW<int32_t, ::Array<int32_t>*> replacements, int32_t replacementsCount, ::System::Text::StringBuilder* sourceChunk, int32_t removeCount, ::StringW value);
+/// @brief Method ReplaceAllInChunk, addr 0x599f720, size 0x190, virtual false, abstract: false, final false
+inline void ReplaceAllInChunk(::ArrayW<int32_t,::Array<int32_t>*>  replacements, int32_t  replacementsCount, ::System::Text::StringBuilder*  sourceChunk, int32_t  removeCount, ::StringW  value) ;
 
-  /// @brief Method ReplaceInPlaceAtChunk, addr 0x599c0a8, size 0x114, virtual false, abstract: false, final false
-  inline void ReplaceInPlaceAtChunk(::ByRef<::System::Text::StringBuilder*> chunk, ::ByRef<int32_t> indexInChunk, char16_t* value, int32_t count);
+/// @brief Method ReplaceInPlaceAtChunk, addr 0x599dc20, size 0x114, virtual false, abstract: false, final false
+inline void ReplaceInPlaceAtChunk(::ByRef<::System::Text::StringBuilder*>  chunk, ::ByRef<int32_t>  indexInChunk, char16_t*  value, int32_t  count) ;
 
-  /// @brief Method StartsWith, addr 0x599dacc, size 0xdc, virtual false, abstract: false, final false
-  inline bool StartsWith(::System::Text::StringBuilder* chunk, int32_t indexInChunk, int32_t count, ::StringW value);
+/// @brief Method StartsWith, addr 0x599f644, size 0xdc, virtual false, abstract: false, final false
+inline bool StartsWith(::System::Text::StringBuilder*  chunk, int32_t  indexInChunk, int32_t  count, ::StringW  value) ;
 
-  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x599a578, size 0x154, virtual true, abstract: false, final true
-  inline void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
+/// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x599c0f0, size 0x154, virtual true, abstract: false, final true
+inline void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context) ;
 
-  /// @brief Method ThreadSafeCopy, addr 0x599bb14, size 0x194, virtual false, abstract: false, final false
-  static inline void ThreadSafeCopy(::ArrayW<char16_t, ::Array<char16_t>*> source, int32_t sourceIndex, ::System::Span_1<char16_t> destination, int32_t destinationIndex, int32_t count);
+/// @brief Method ThreadSafeCopy, addr 0x599d68c, size 0x194, virtual false, abstract: false, final false
+static inline void ThreadSafeCopy(::ArrayW<char16_t,::Array<char16_t>*>  source, int32_t  sourceIndex, ::System::Span_1<char16_t>  destination, int32_t  destinationIndex, int32_t  count) ;
 
-  /// @brief Method ThreadSafeCopy, addr 0x599a190, size 0xec, virtual false, abstract: false, final false
-  static inline void ThreadSafeCopy(char16_t* sourcePtr, ::ArrayW<char16_t, ::Array<char16_t>*> destination, int32_t destinationIndex, int32_t count);
+/// @brief Method ThreadSafeCopy, addr 0x599bd08, size 0xec, virtual false, abstract: false, final false
+static inline void ThreadSafeCopy(char16_t*  sourcePtr, ::ArrayW<char16_t,::Array<char16_t>*>  destination, int32_t  destinationIndex, int32_t  count) ;
 
-  /// @brief Method ToString, addr 0x599a930, size 0x118, virtual true, abstract: false, final false
-  inline ::StringW ToString();
+/// @brief Method ToString, addr 0x599c4a8, size 0x118, virtual true, abstract: false, final false
+inline ::StringW ToString() ;
 
-  /// @brief Method ToString, addr 0x599aa48, size 0x190, virtual false, abstract: false, final false
-  inline ::StringW ToString(int32_t startIndex, int32_t length);
+/// @brief Method ToString, addr 0x599c5c0, size 0x190, virtual false, abstract: false, final false
+inline ::StringW ToString(int32_t  startIndex, int32_t  length) ;
 
-  constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& __cordl_internal_get_m_ChunkChars() const;
+constexpr ::ArrayW<char16_t,::Array<char16_t>*> const& __cordl_internal_get_m_ChunkChars() const;
 
-  constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& __cordl_internal_get_m_ChunkChars();
+constexpr ::ArrayW<char16_t,::Array<char16_t>*>& __cordl_internal_get_m_ChunkChars() ;
 
-  constexpr int32_t const& __cordl_internal_get_m_ChunkLength() const;
+constexpr int32_t const& __cordl_internal_get_m_ChunkLength() const;
 
-  constexpr int32_t& __cordl_internal_get_m_ChunkLength();
+constexpr int32_t& __cordl_internal_get_m_ChunkLength() ;
 
-  constexpr int32_t const& __cordl_internal_get_m_ChunkOffset() const;
+constexpr int32_t const& __cordl_internal_get_m_ChunkOffset() const;
 
-  constexpr int32_t& __cordl_internal_get_m_ChunkOffset();
+constexpr int32_t& __cordl_internal_get_m_ChunkOffset() ;
 
-  constexpr ::System::Text::StringBuilder* const& __cordl_internal_get_m_ChunkPrevious() const;
+constexpr ::System::Text::StringBuilder* const& __cordl_internal_get_m_ChunkPrevious() const;
 
-  constexpr ::System::Text::StringBuilder*& __cordl_internal_get_m_ChunkPrevious();
+constexpr ::System::Text::StringBuilder*& __cordl_internal_get_m_ChunkPrevious() ;
 
-  constexpr int32_t const& __cordl_internal_get_m_MaxCapacity() const;
+constexpr int32_t const& __cordl_internal_get_m_MaxCapacity() const;
 
-  constexpr int32_t& __cordl_internal_get_m_MaxCapacity();
+constexpr int32_t& __cordl_internal_get_m_MaxCapacity() ;
 
-  constexpr void __cordl_internal_set_m_ChunkChars(::ArrayW<char16_t, ::Array<char16_t>*> value);
+constexpr void __cordl_internal_set_m_ChunkChars(::ArrayW<char16_t,::Array<char16_t>*>  value) ;
 
-  constexpr void __cordl_internal_set_m_ChunkLength(int32_t value);
+constexpr void __cordl_internal_set_m_ChunkLength(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_m_ChunkOffset(int32_t value);
+constexpr void __cordl_internal_set_m_ChunkOffset(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_m_ChunkPrevious(::System::Text::StringBuilder* value);
+constexpr void __cordl_internal_set_m_ChunkPrevious(::System::Text::StringBuilder*  value) ;
 
-  constexpr void __cordl_internal_set_m_MaxCapacity(int32_t value);
+constexpr void __cordl_internal_set_m_MaxCapacity(int32_t  value) ;
 
-  /// @brief Method .ctor, addr 0x5999d0c, size 0x5c, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x599b884, size 0x5c, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method .ctor, addr 0x5999d68, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(int32_t capacity);
+/// @brief Method .ctor, addr 0x599b8e0, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(int32_t  capacity) ;
 
-  /// @brief Method .ctor, addr 0x5999d70, size 0x1bc, virtual false, abstract: false, final false
-  inline void _ctor(int32_t capacity, int32_t maxCapacity);
+/// @brief Method .ctor, addr 0x599b8e8, size 0x1bc, virtual false, abstract: false, final false
+inline void _ctor(int32_t  capacity, int32_t  maxCapacity) ;
 
-  /// @brief Method .ctor, addr 0x599dde8, size 0x28, virtual false, abstract: false, final false
-  inline void _ctor(::System::Text::StringBuilder* from);
+/// @brief Method .ctor, addr 0x599f960, size 0x28, virtual false, abstract: false, final false
+inline void _ctor(::System::Text::StringBuilder*  from) ;
 
-  /// @brief Method .ctor, addr 0x599a27c, size 0x2fc, virtual false, abstract: false, final false
-  inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
+/// @brief Method .ctor, addr 0x599bdf4, size 0x2fc, virtual false, abstract: false, final false
+inline void _ctor(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context) ;
 
-  /// @brief Method .ctor, addr 0x599de10, size 0x84, virtual false, abstract: false, final false
-  inline void _ctor(int32_t size, int32_t maxCapacity, ::System::Text::StringBuilder* previousBlock);
+/// @brief Method .ctor, addr 0x599f988, size 0x84, virtual false, abstract: false, final false
+inline void _ctor(int32_t  size, int32_t  maxCapacity, ::System::Text::StringBuilder*  previousBlock) ;
 
-  /// @brief Method .ctor, addr 0x5999f2c, size 0x1c, virtual false, abstract: false, final false
-  inline void _ctor(::StringW value);
+/// @brief Method .ctor, addr 0x599baa4, size 0x1c, virtual false, abstract: false, final false
+inline void _ctor(::StringW  value) ;
 
-  /// @brief Method .ctor, addr 0x5999f48, size 0x1c, virtual false, abstract: false, final false
-  inline void _ctor(::StringW value, int32_t capacity);
+/// @brief Method .ctor, addr 0x599bac0, size 0x1c, virtual false, abstract: false, final false
+inline void _ctor(::StringW  value, int32_t  capacity) ;
 
-  /// @brief Method .ctor, addr 0x5999f64, size 0x22c, virtual false, abstract: false, final false
-  inline void _ctor(::StringW value, int32_t startIndex, int32_t length, int32_t capacity);
+/// @brief Method .ctor, addr 0x599badc, size 0x22c, virtual false, abstract: false, final false
+inline void _ctor(::StringW  value, int32_t  startIndex, int32_t  length, int32_t  capacity) ;
 
-  /// @brief Method get_Capacity, addr 0x599a6cc, size 0x20, virtual false, abstract: false, final false
-  inline int32_t get_Capacity();
+/// @brief Method get_Capacity, addr 0x599c244, size 0x20, virtual false, abstract: false, final false
+inline int32_t get_Capacity() ;
 
-  /// @brief Method get_Chars, addr 0x599b138, size 0x88, virtual false, abstract: false, final false
-  inline char16_t get_Chars(int32_t index);
+/// @brief Method get_Chars, addr 0x599ccb0, size 0x88, virtual false, abstract: false, final false
+inline char16_t get_Chars(int32_t  index) ;
 
-  /// @brief Method get_Length, addr 0x599a868, size 0xc, virtual false, abstract: false, final false
-  inline int32_t get_Length();
+/// @brief Method get_Length, addr 0x599c3e0, size 0xc, virtual false, abstract: false, final false
+inline int32_t get_Length() ;
 
-  /// @brief Method get_MaxCapacity, addr 0x599a874, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_MaxCapacity();
+/// @brief Method get_MaxCapacity, addr 0x599c3ec, size 0x8, virtual false, abstract: false, final false
+inline int32_t get_MaxCapacity() ;
 
-  /// @brief Method get_RemainingCurrentChunk, addr 0x599dd78, size 0x70, virtual false, abstract: false, final false
-  inline ::System::Span_1<char16_t> get_RemainingCurrentChunk();
+/// @brief Method get_RemainingCurrentChunk, addr 0x599f8f0, size 0x70, virtual false, abstract: false, final false
+inline ::System::Span_1<char16_t> get_RemainingCurrentChunk() ;
 
-  /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
-  constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
+/// @brief Convert to "::System::Runtime::Serialization::ISerializable"
+constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
 
-  /// @brief Method set_Capacity, addr 0x599a6ec, size 0x17c, virtual false, abstract: false, final false
-  inline void set_Capacity(int32_t value);
+/// @brief Method set_Capacity, addr 0x599c264, size 0x17c, virtual false, abstract: false, final false
+inline void set_Capacity(int32_t  value) ;
 
-  /// @brief Method set_Chars, addr 0x599b1c0, size 0xb8, virtual false, abstract: false, final false
-  inline void set_Chars(int32_t index, char16_t value);
+/// @brief Method set_Chars, addr 0x599cd38, size 0xb8, virtual false, abstract: false, final false
+inline void set_Chars(int32_t  index, char16_t  value) ;
 
-  /// @brief Method set_Length, addr 0x599adb4, size 0x22c, virtual false, abstract: false, final false
-  inline void set_Length(int32_t value);
+/// @brief Method set_Length, addr 0x599c92c, size 0x22c, virtual false, abstract: false, final false
+inline void set_Length(int32_t  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr StringBuilder();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr StringBuilder() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StringBuilder", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  StringBuilder(StringBuilder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StringBuilder", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  StringBuilder(StringBuilder const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "StringBuilder", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+StringBuilder(StringBuilder && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2872 };
+// Ctor Parameters [CppParam { name: "", ty: "StringBuilder", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+StringBuilder(StringBuilder const& ) = delete;
 
-  /// @brief Field m_ChunkChars, offset: 0x10, size: 0x8, def value: None
-  ::ArrayW<char16_t, ::Array<char16_t>*> ___m_ChunkChars;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{2872};
 
-  /// @brief Field m_ChunkPrevious, offset: 0x18, size: 0x8, def value: None
-  ::System::Text::StringBuilder* ___m_ChunkPrevious;
+/// @brief Field m_ChunkChars, offset: 0x10, size: 0x8, def value: None
+ ::ArrayW<char16_t,::Array<char16_t>*>  ___m_ChunkChars;
 
-  /// @brief Field m_ChunkLength, offset: 0x20, size: 0x4, def value: None
-  int32_t ___m_ChunkLength;
+/// @brief Field m_ChunkPrevious, offset: 0x18, size: 0x8, def value: None
+ ::System::Text::StringBuilder*  ___m_ChunkPrevious;
 
-  /// @brief Field m_ChunkOffset, offset: 0x24, size: 0x4, def value: None
-  int32_t ___m_ChunkOffset;
+/// @brief Field m_ChunkLength, offset: 0x20, size: 0x4, def value: None
+ int32_t  ___m_ChunkLength;
 
-  /// @brief Field m_MaxCapacity, offset: 0x28, size: 0x4, def value: None
-  int32_t ___m_MaxCapacity;
+/// @brief Field m_ChunkOffset, offset: 0x24, size: 0x4, def value: None
+ int32_t  ___m_ChunkOffset;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field m_MaxCapacity, offset: 0x28, size: 0x4, def value: None
+ int32_t  ___m_MaxCapacity;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Text::StringBuilder, ___m_ChunkChars) == 0x10, "Offset mismatch!");
@@ -384,6 +387,6 @@ static_assert(offsetof(::System::Text::StringBuilder, ___m_MaxCapacity) == 0x28,
 
 static_assert(::cordl_internals::size_check_v<::System::Text::StringBuilder, 0x30>, "Size mismatch!");
 
-} // namespace System::Text
+} // namespace end def System::Text
 NEED_NO_BOX(::System::Text::StringBuilder);
 DEFINE_IL2CPP_ARG_TYPE(::System::Text::StringBuilder*, "System.Text", "StringBuilder");

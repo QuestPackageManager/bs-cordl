@@ -30,43 +30,42 @@ namespace Meta::XR::ImmersiveDebugger::Manager {
 // CS Name: Meta.XR.ImmersiveDebugger.Manager.ActionManagerForAddon
 class CORDL_TYPE ActionManagerForAddon : public ::Meta::XR::ImmersiveDebugger::Manager::SubManagerForAddon {
 public:
-  // Declarations
-  __declspec(property(get = get_TelemetryAnnotation)) ::StringW TelemetryAnnotation;
+// Declarations
+ __declspec(property(get=get_TelemetryAnnotation)) ::StringW  TelemetryAnnotation;
 
-  static inline ::Meta::XR::ImmersiveDebugger::Manager::ActionManagerForAddon* New_ctor();
+static inline ::Meta::XR::ImmersiveDebugger::Manager::ActionManagerForAddon* New_ctor() ;
 
-  /// @brief Method RegisterSpecialisedWidget, addr 0x592a22c, size 0x268, virtual true, abstract: false, final false
-  inline bool RegisterSpecialisedWidget(::Meta::XR::ImmersiveDebugger::UserInterface::IMember* member, ::System::Reflection::MemberInfo* memberInfo,
-                                        ::Meta::XR::ImmersiveDebugger::DebugMember* memberAttribute, ::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle handle);
+/// @brief Method RegisterSpecialisedWidget, addr 0x592bbfc, size 0x268, virtual true, abstract: false, final false
+inline bool RegisterSpecialisedWidget(::Meta::XR::ImmersiveDebugger::UserInterface::IMember*  member, ::System::Reflection::MemberInfo*  memberInfo, ::Meta::XR::ImmersiveDebugger::DebugMember*  memberAttribute, ::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle  handle) ;
 
-  /// @brief Method .ctor, addr 0x592a4d8, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x592bea8, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_TelemetryAnnotation, addr 0x592a494, size 0x44, virtual true, abstract: false, final false
-  inline ::StringW get_TelemetryAnnotation();
+/// @brief Method get_TelemetryAnnotation, addr 0x592be64, size 0x44, virtual true, abstract: false, final false
+inline ::StringW get_TelemetryAnnotation() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ActionManagerForAddon();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ActionManagerForAddon() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ActionManagerForAddon", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ActionManagerForAddon(ActionManagerForAddon&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ActionManagerForAddon", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ActionManagerForAddon(ActionManagerForAddon const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ActionManagerForAddon", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ActionManagerForAddon(ActionManagerForAddon && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18438 };
+// Ctor Parameters [CppParam { name: "", ty: "ActionManagerForAddon", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ActionManagerForAddon(ActionManagerForAddon const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{18440};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Meta::XR::ImmersiveDebugger::Manager::ActionManagerForAddon, 0x28>, "Size mismatch!");
 
-} // namespace Meta::XR::ImmersiveDebugger::Manager
+} // namespace end def Meta::XR::ImmersiveDebugger::Manager
 NEED_NO_BOX(::Meta::XR::ImmersiveDebugger::Manager::ActionManagerForAddon);
 DEFINE_IL2CPP_ARG_TYPE(::Meta::XR::ImmersiveDebugger::Manager::ActionManagerForAddon*, "Meta.XR.ImmersiveDebugger.Manager", "ActionManagerForAddon");

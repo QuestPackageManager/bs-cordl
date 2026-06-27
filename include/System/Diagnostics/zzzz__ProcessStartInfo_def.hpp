@@ -9,10 +9,12 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ProcessStartInfo)
 namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class IDictionary_2;
+template<typename TKey,typename TValue>
+class IDictionary_2;
 }
 namespace System::Collections::ObjectModel {
-template <typename T> class Collection_1;
+template<typename T>
+class Collection_1;
 }
 namespace System::Collections::Specialized {
 class StringDictionary;
@@ -44,444 +46,443 @@ namespace System::Diagnostics {
 // CS Name: System.Diagnostics.ProcessStartInfo
 class CORDL_TYPE ProcessStartInfo : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = get_ArgumentList)) ::System::Collections::ObjectModel::Collection_1<::StringW>* ArgumentList;
+// Declarations
+ __declspec(property(get=get_ArgumentList)) ::System::Collections::ObjectModel::Collection_1<::StringW>*  ArgumentList;
 
-  __declspec(property(get = get_Arguments, put = set_Arguments)) ::StringW Arguments;
+ __declspec(property(get=get_Arguments, put=set_Arguments)) ::StringW  Arguments;
 
-  __declspec(property(put = set_CreateNoWindow)) bool CreateNoWindow;
+ __declspec(property(put=set_CreateNoWindow)) bool  CreateNoWindow;
 
-  __declspec(property(get = get_Domain)) ::StringW Domain;
+ __declspec(property(get=get_Domain)) ::StringW  Domain;
 
-  __declspec(property(get = get_EnvironmentVariables)) ::System::Collections::Specialized::StringDictionary* EnvironmentVariables;
+ __declspec(property(get=get_EnvironmentVariables)) ::System::Collections::Specialized::StringDictionary*  EnvironmentVariables;
 
-  __declspec(property(get = get_FileName, put = set_FileName)) ::StringW FileName;
+ __declspec(property(get=get_FileName, put=set_FileName)) ::StringW  FileName;
 
-  __declspec(property(get = get_HaveEnvVars)) bool HaveEnvVars;
+ __declspec(property(get=get_HaveEnvVars)) bool  HaveEnvVars;
 
-  __declspec(property(get = get_LoadUserProfile)) bool LoadUserProfile;
+ __declspec(property(get=get_LoadUserProfile)) bool  LoadUserProfile;
 
-  __declspec(property(get = get_Password)) ::System::Security::SecureString* Password;
+ __declspec(property(get=get_Password)) ::System::Security::SecureString*  Password;
 
-  __declspec(property(get = get_RedirectStandardError, put = set_RedirectStandardError)) bool RedirectStandardError;
+ __declspec(property(get=get_RedirectStandardError, put=set_RedirectStandardError)) bool  RedirectStandardError;
 
-  __declspec(property(get = get_RedirectStandardInput, put = set_RedirectStandardInput)) bool RedirectStandardInput;
+ __declspec(property(get=get_RedirectStandardInput, put=set_RedirectStandardInput)) bool  RedirectStandardInput;
 
-  __declspec(property(get = get_RedirectStandardOutput, put = set_RedirectStandardOutput)) bool RedirectStandardOutput;
+ __declspec(property(get=get_RedirectStandardOutput, put=set_RedirectStandardOutput)) bool  RedirectStandardOutput;
 
-  __declspec(property(get = get_StandardErrorEncoding)) ::System::Text::Encoding* StandardErrorEncoding;
+ __declspec(property(get=get_StandardErrorEncoding)) ::System::Text::Encoding*  StandardErrorEncoding;
 
-  __declspec(property(get = get_StandardInputEncoding)) ::System::Text::Encoding* StandardInputEncoding;
+ __declspec(property(get=get_StandardInputEncoding)) ::System::Text::Encoding*  StandardInputEncoding;
 
-  __declspec(property(get = get_StandardOutputEncoding)) ::System::Text::Encoding* StandardOutputEncoding;
+ __declspec(property(get=get_StandardOutputEncoding)) ::System::Text::Encoding*  StandardOutputEncoding;
 
-  __declspec(property(get = get_UseShellExecute, put = set_UseShellExecute)) bool UseShellExecute;
+ __declspec(property(get=get_UseShellExecute, put=set_UseShellExecute)) bool  UseShellExecute;
 
-  __declspec(property(get = get_UserName)) ::StringW UserName;
+ __declspec(property(get=get_UserName)) ::StringW  UserName;
 
-  __declspec(property(put = set_WindowStyle)) ::System::Diagnostics::ProcessWindowStyle WindowStyle;
+ __declspec(property(put=set_WindowStyle)) ::System::Diagnostics::ProcessWindowStyle  WindowStyle;
 
-  __declspec(property(get = get_WorkingDirectory)) ::StringW WorkingDirectory;
+ __declspec(property(get=get_WorkingDirectory)) ::StringW  WorkingDirectory;
 
-  /// @brief Field <StandardInputEncoding>k__BackingField, offset 0xa8, size 0x8
-  __declspec(property(get = __cordl_internal_get__StandardInputEncoding_k__BackingField,
-                      put = __cordl_internal_set__StandardInputEncoding_k__BackingField)) ::System::Text::Encoding* _StandardInputEncoding_k__BackingField;
+/// @brief Field <StandardInputEncoding>k__BackingField, offset 0xa8, size 0x8 
+ __declspec(property(get=__cordl_internal_get__StandardInputEncoding_k__BackingField, put=__cordl_internal_set__StandardInputEncoding_k__BackingField)) ::System::Text::Encoding*  _StandardInputEncoding_k__BackingField;
 
-  /// @brief Field _argumentList, offset 0x98, size 0x8
-  __declspec(property(get = __cordl_internal_get__argumentList, put = __cordl_internal_set__argumentList)) ::System::Collections::ObjectModel::Collection_1<::StringW>* _argumentList;
+/// @brief Field _argumentList, offset 0x98, size 0x8 
+ __declspec(property(get=__cordl_internal_get__argumentList, put=__cordl_internal_set__argumentList)) ::System::Collections::ObjectModel::Collection_1<::StringW>*  _argumentList;
 
-  /// @brief Field arguments, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_arguments, put = __cordl_internal_set_arguments)) ::StringW arguments;
+/// @brief Field arguments, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_arguments, put=__cordl_internal_set_arguments)) ::StringW  arguments;
 
-  /// @brief Field createNoWindow, offset 0x80, size 0x1
-  __declspec(property(get = __cordl_internal_get_createNoWindow, put = __cordl_internal_set_createNoWindow)) bool createNoWindow;
+/// @brief Field createNoWindow, offset 0x80, size 0x1 
+ __declspec(property(get=__cordl_internal_get_createNoWindow, put=__cordl_internal_set_createNoWindow)) bool  createNoWindow;
 
-  /// @brief Field directory, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_directory, put = __cordl_internal_set_directory)) ::StringW directory;
+/// @brief Field directory, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_directory, put=__cordl_internal_set_directory)) ::StringW  directory;
 
-  /// @brief Field domain, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_domain, put = __cordl_internal_set_domain)) ::StringW domain;
+/// @brief Field domain, offset 0x50, size 0x8 
+ __declspec(property(get=__cordl_internal_get_domain, put=__cordl_internal_set_domain)) ::StringW  domain;
 
-  /// @brief Field empty, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_empty, put = setStaticF_empty)) ::ArrayW<::StringW, ::Array<::StringW>*> empty;
+/// @brief Field empty, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_empty, put=setStaticF_empty)) ::ArrayW<::StringW,::Array<::StringW>*>  empty;
 
-  /// @brief Field environment, offset 0xa0, size 0x8
-  __declspec(property(get = __cordl_internal_get_environment, put = __cordl_internal_set_environment)) ::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>* environment;
+/// @brief Field environment, offset 0xa0, size 0x8 
+ __declspec(property(get=__cordl_internal_get_environment, put=__cordl_internal_set_environment)) ::System::Collections::Generic::IDictionary_2<::StringW,::StringW>*  environment;
 
-  /// @brief Field environmentVariables, offset 0x90, size 0x8
-  __declspec(property(get = __cordl_internal_get_environmentVariables, put = __cordl_internal_set_environmentVariables)) ::System::Collections::Specialized::StringDictionary* environmentVariables;
+/// @brief Field environmentVariables, offset 0x90, size 0x8 
+ __declspec(property(get=__cordl_internal_get_environmentVariables, put=__cordl_internal_set_environmentVariables)) ::System::Collections::Specialized::StringDictionary*  environmentVariables;
 
-  /// @brief Field errorDialog, offset 0x34, size 0x1
-  __declspec(property(get = __cordl_internal_get_errorDialog, put = __cordl_internal_set_errorDialog)) bool errorDialog;
+/// @brief Field errorDialog, offset 0x34, size 0x1 
+ __declspec(property(get=__cordl_internal_get_errorDialog, put=__cordl_internal_set_errorDialog)) bool  errorDialog;
 
-  /// @brief Field errorDialogParentHandle, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_errorDialogParentHandle, put = __cordl_internal_set_errorDialogParentHandle)) ::System::IntPtr errorDialogParentHandle;
+/// @brief Field errorDialogParentHandle, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get_errorDialogParentHandle, put=__cordl_internal_set_errorDialogParentHandle)) ::System::IntPtr  errorDialogParentHandle;
 
-  /// @brief Field fileName, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_fileName, put = __cordl_internal_set_fileName)) ::StringW fileName;
+/// @brief Field fileName, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_fileName, put=__cordl_internal_set_fileName)) ::StringW  fileName;
 
-  /// @brief Field loadUserProfile, offset 0x68, size 0x1
-  __declspec(property(get = __cordl_internal_get_loadUserProfile, put = __cordl_internal_set_loadUserProfile)) bool loadUserProfile;
+/// @brief Field loadUserProfile, offset 0x68, size 0x1 
+ __declspec(property(get=__cordl_internal_get_loadUserProfile, put=__cordl_internal_set_loadUserProfile)) bool  loadUserProfile;
 
-  /// @brief Field password, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get_password, put = __cordl_internal_set_password)) ::System::Security::SecureString* password;
+/// @brief Field password, offset 0x58, size 0x8 
+ __declspec(property(get=__cordl_internal_get_password, put=__cordl_internal_set_password)) ::System::Security::SecureString*  password;
 
-  /// @brief Field passwordInClearText, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get_passwordInClearText, put = __cordl_internal_set_passwordInClearText)) ::StringW passwordInClearText;
+/// @brief Field passwordInClearText, offset 0x60, size 0x8 
+ __declspec(property(get=__cordl_internal_get_passwordInClearText, put=__cordl_internal_set_passwordInClearText)) ::StringW  passwordInClearText;
 
-  /// @brief Field redirectStandardError, offset 0x6b, size 0x1
-  __declspec(property(get = __cordl_internal_get_redirectStandardError, put = __cordl_internal_set_redirectStandardError)) bool redirectStandardError;
+/// @brief Field redirectStandardError, offset 0x6b, size 0x1 
+ __declspec(property(get=__cordl_internal_get_redirectStandardError, put=__cordl_internal_set_redirectStandardError)) bool  redirectStandardError;
 
-  /// @brief Field redirectStandardInput, offset 0x69, size 0x1
-  __declspec(property(get = __cordl_internal_get_redirectStandardInput, put = __cordl_internal_set_redirectStandardInput)) bool redirectStandardInput;
+/// @brief Field redirectStandardInput, offset 0x69, size 0x1 
+ __declspec(property(get=__cordl_internal_get_redirectStandardInput, put=__cordl_internal_set_redirectStandardInput)) bool  redirectStandardInput;
 
-  /// @brief Field redirectStandardOutput, offset 0x6a, size 0x1
-  __declspec(property(get = __cordl_internal_get_redirectStandardOutput, put = __cordl_internal_set_redirectStandardOutput)) bool redirectStandardOutput;
+/// @brief Field redirectStandardOutput, offset 0x6a, size 0x1 
+ __declspec(property(get=__cordl_internal_get_redirectStandardOutput, put=__cordl_internal_set_redirectStandardOutput)) bool  redirectStandardOutput;
 
-  /// @brief Field standardErrorEncoding, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get_standardErrorEncoding, put = __cordl_internal_set_standardErrorEncoding)) ::System::Text::Encoding* standardErrorEncoding;
+/// @brief Field standardErrorEncoding, offset 0x78, size 0x8 
+ __declspec(property(get=__cordl_internal_get_standardErrorEncoding, put=__cordl_internal_set_standardErrorEncoding)) ::System::Text::Encoding*  standardErrorEncoding;
 
-  /// @brief Field standardOutputEncoding, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get_standardOutputEncoding, put = __cordl_internal_set_standardOutputEncoding)) ::System::Text::Encoding* standardOutputEncoding;
+/// @brief Field standardOutputEncoding, offset 0x70, size 0x8 
+ __declspec(property(get=__cordl_internal_get_standardOutputEncoding, put=__cordl_internal_set_standardOutputEncoding)) ::System::Text::Encoding*  standardOutputEncoding;
 
-  /// @brief Field useShellExecute, offset 0x40, size 0x1
-  __declspec(property(get = __cordl_internal_get_useShellExecute, put = __cordl_internal_set_useShellExecute)) bool useShellExecute;
+/// @brief Field useShellExecute, offset 0x40, size 0x1 
+ __declspec(property(get=__cordl_internal_get_useShellExecute, put=__cordl_internal_set_useShellExecute)) bool  useShellExecute;
 
-  /// @brief Field userName, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_userName, put = __cordl_internal_set_userName)) ::StringW userName;
+/// @brief Field userName, offset 0x48, size 0x8 
+ __declspec(property(get=__cordl_internal_get_userName, put=__cordl_internal_set_userName)) ::StringW  userName;
 
-  /// @brief Field verb, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_verb, put = __cordl_internal_set_verb)) ::StringW verb;
+/// @brief Field verb, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get_verb, put=__cordl_internal_set_verb)) ::StringW  verb;
 
-  /// @brief Field weakParentProcess, offset 0x88, size 0x8
-  __declspec(property(get = __cordl_internal_get_weakParentProcess, put = __cordl_internal_set_weakParentProcess)) ::System::WeakReference* weakParentProcess;
+/// @brief Field weakParentProcess, offset 0x88, size 0x8 
+ __declspec(property(get=__cordl_internal_get_weakParentProcess, put=__cordl_internal_set_weakParentProcess)) ::System::WeakReference*  weakParentProcess;
 
-  /// @brief Field windowStyle, offset 0x30, size 0x4
-  __declspec(property(get = __cordl_internal_get_windowStyle, put = __cordl_internal_set_windowStyle)) ::System::Diagnostics::ProcessWindowStyle windowStyle;
+/// @brief Field windowStyle, offset 0x30, size 0x4 
+ __declspec(property(get=__cordl_internal_get_windowStyle, put=__cordl_internal_set_windowStyle)) ::System::Diagnostics::ProcessWindowStyle  windowStyle;
 
-  static inline ::System::Diagnostics::ProcessStartInfo* New_ctor();
+static inline ::System::Diagnostics::ProcessStartInfo* New_ctor() ;
 
-  static inline ::System::Diagnostics::ProcessStartInfo* New_ctor(::System::Diagnostics::Process* parent);
+static inline ::System::Diagnostics::ProcessStartInfo* New_ctor(::System::Diagnostics::Process*  parent) ;
 
-  constexpr ::System::Text::Encoding* const& __cordl_internal_get__StandardInputEncoding_k__BackingField() const;
+constexpr ::System::Text::Encoding* const& __cordl_internal_get__StandardInputEncoding_k__BackingField() const;
 
-  constexpr ::System::Text::Encoding*& __cordl_internal_get__StandardInputEncoding_k__BackingField();
+constexpr ::System::Text::Encoding*& __cordl_internal_get__StandardInputEncoding_k__BackingField() ;
 
-  constexpr ::System::Collections::ObjectModel::Collection_1<::StringW>* const& __cordl_internal_get__argumentList() const;
+constexpr ::System::Collections::ObjectModel::Collection_1<::StringW>* const& __cordl_internal_get__argumentList() const;
 
-  constexpr ::System::Collections::ObjectModel::Collection_1<::StringW>*& __cordl_internal_get__argumentList();
+constexpr ::System::Collections::ObjectModel::Collection_1<::StringW>*& __cordl_internal_get__argumentList() ;
 
-  constexpr ::StringW const& __cordl_internal_get_arguments() const;
+constexpr ::StringW const& __cordl_internal_get_arguments() const;
 
-  constexpr ::StringW& __cordl_internal_get_arguments();
+constexpr ::StringW& __cordl_internal_get_arguments() ;
 
-  constexpr bool const& __cordl_internal_get_createNoWindow() const;
+constexpr bool const& __cordl_internal_get_createNoWindow() const;
 
-  constexpr bool& __cordl_internal_get_createNoWindow();
+constexpr bool& __cordl_internal_get_createNoWindow() ;
 
-  constexpr ::StringW const& __cordl_internal_get_directory() const;
+constexpr ::StringW const& __cordl_internal_get_directory() const;
 
-  constexpr ::StringW& __cordl_internal_get_directory();
+constexpr ::StringW& __cordl_internal_get_directory() ;
 
-  constexpr ::StringW const& __cordl_internal_get_domain() const;
+constexpr ::StringW const& __cordl_internal_get_domain() const;
 
-  constexpr ::StringW& __cordl_internal_get_domain();
+constexpr ::StringW& __cordl_internal_get_domain() ;
 
-  constexpr ::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>* const& __cordl_internal_get_environment() const;
+constexpr ::System::Collections::Generic::IDictionary_2<::StringW,::StringW>* const& __cordl_internal_get_environment() const;
 
-  constexpr ::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>*& __cordl_internal_get_environment();
+constexpr ::System::Collections::Generic::IDictionary_2<::StringW,::StringW>*& __cordl_internal_get_environment() ;
 
-  constexpr ::System::Collections::Specialized::StringDictionary* const& __cordl_internal_get_environmentVariables() const;
+constexpr ::System::Collections::Specialized::StringDictionary* const& __cordl_internal_get_environmentVariables() const;
 
-  constexpr ::System::Collections::Specialized::StringDictionary*& __cordl_internal_get_environmentVariables();
+constexpr ::System::Collections::Specialized::StringDictionary*& __cordl_internal_get_environmentVariables() ;
 
-  constexpr bool const& __cordl_internal_get_errorDialog() const;
+constexpr bool const& __cordl_internal_get_errorDialog() const;
 
-  constexpr bool& __cordl_internal_get_errorDialog();
+constexpr bool& __cordl_internal_get_errorDialog() ;
 
-  constexpr ::System::IntPtr const& __cordl_internal_get_errorDialogParentHandle() const;
+constexpr ::System::IntPtr const& __cordl_internal_get_errorDialogParentHandle() const;
 
-  constexpr ::System::IntPtr& __cordl_internal_get_errorDialogParentHandle();
+constexpr ::System::IntPtr& __cordl_internal_get_errorDialogParentHandle() ;
 
-  constexpr ::StringW const& __cordl_internal_get_fileName() const;
+constexpr ::StringW const& __cordl_internal_get_fileName() const;
 
-  constexpr ::StringW& __cordl_internal_get_fileName();
+constexpr ::StringW& __cordl_internal_get_fileName() ;
 
-  constexpr bool const& __cordl_internal_get_loadUserProfile() const;
+constexpr bool const& __cordl_internal_get_loadUserProfile() const;
 
-  constexpr bool& __cordl_internal_get_loadUserProfile();
+constexpr bool& __cordl_internal_get_loadUserProfile() ;
 
-  constexpr ::System::Security::SecureString* const& __cordl_internal_get_password() const;
+constexpr ::System::Security::SecureString* const& __cordl_internal_get_password() const;
 
-  constexpr ::System::Security::SecureString*& __cordl_internal_get_password();
+constexpr ::System::Security::SecureString*& __cordl_internal_get_password() ;
 
-  constexpr ::StringW const& __cordl_internal_get_passwordInClearText() const;
+constexpr ::StringW const& __cordl_internal_get_passwordInClearText() const;
 
-  constexpr ::StringW& __cordl_internal_get_passwordInClearText();
+constexpr ::StringW& __cordl_internal_get_passwordInClearText() ;
 
-  constexpr bool const& __cordl_internal_get_redirectStandardError() const;
+constexpr bool const& __cordl_internal_get_redirectStandardError() const;
 
-  constexpr bool& __cordl_internal_get_redirectStandardError();
+constexpr bool& __cordl_internal_get_redirectStandardError() ;
 
-  constexpr bool const& __cordl_internal_get_redirectStandardInput() const;
+constexpr bool const& __cordl_internal_get_redirectStandardInput() const;
 
-  constexpr bool& __cordl_internal_get_redirectStandardInput();
+constexpr bool& __cordl_internal_get_redirectStandardInput() ;
 
-  constexpr bool const& __cordl_internal_get_redirectStandardOutput() const;
+constexpr bool const& __cordl_internal_get_redirectStandardOutput() const;
 
-  constexpr bool& __cordl_internal_get_redirectStandardOutput();
+constexpr bool& __cordl_internal_get_redirectStandardOutput() ;
 
-  constexpr ::System::Text::Encoding* const& __cordl_internal_get_standardErrorEncoding() const;
+constexpr ::System::Text::Encoding* const& __cordl_internal_get_standardErrorEncoding() const;
 
-  constexpr ::System::Text::Encoding*& __cordl_internal_get_standardErrorEncoding();
+constexpr ::System::Text::Encoding*& __cordl_internal_get_standardErrorEncoding() ;
 
-  constexpr ::System::Text::Encoding* const& __cordl_internal_get_standardOutputEncoding() const;
+constexpr ::System::Text::Encoding* const& __cordl_internal_get_standardOutputEncoding() const;
 
-  constexpr ::System::Text::Encoding*& __cordl_internal_get_standardOutputEncoding();
+constexpr ::System::Text::Encoding*& __cordl_internal_get_standardOutputEncoding() ;
 
-  constexpr bool const& __cordl_internal_get_useShellExecute() const;
+constexpr bool const& __cordl_internal_get_useShellExecute() const;
 
-  constexpr bool& __cordl_internal_get_useShellExecute();
+constexpr bool& __cordl_internal_get_useShellExecute() ;
 
-  constexpr ::StringW const& __cordl_internal_get_userName() const;
+constexpr ::StringW const& __cordl_internal_get_userName() const;
 
-  constexpr ::StringW& __cordl_internal_get_userName();
+constexpr ::StringW& __cordl_internal_get_userName() ;
 
-  constexpr ::StringW const& __cordl_internal_get_verb() const;
+constexpr ::StringW const& __cordl_internal_get_verb() const;
 
-  constexpr ::StringW& __cordl_internal_get_verb();
+constexpr ::StringW& __cordl_internal_get_verb() ;
 
-  constexpr ::System::WeakReference* const& __cordl_internal_get_weakParentProcess() const;
+constexpr ::System::WeakReference* const& __cordl_internal_get_weakParentProcess() const;
 
-  constexpr ::System::WeakReference*& __cordl_internal_get_weakParentProcess();
+constexpr ::System::WeakReference*& __cordl_internal_get_weakParentProcess() ;
 
-  constexpr ::System::Diagnostics::ProcessWindowStyle const& __cordl_internal_get_windowStyle() const;
+constexpr ::System::Diagnostics::ProcessWindowStyle const& __cordl_internal_get_windowStyle() const;
 
-  constexpr ::System::Diagnostics::ProcessWindowStyle& __cordl_internal_get_windowStyle();
+constexpr ::System::Diagnostics::ProcessWindowStyle& __cordl_internal_get_windowStyle() ;
 
-  constexpr void __cordl_internal_set__StandardInputEncoding_k__BackingField(::System::Text::Encoding* value);
+constexpr void __cordl_internal_set__StandardInputEncoding_k__BackingField(::System::Text::Encoding*  value) ;
 
-  constexpr void __cordl_internal_set__argumentList(::System::Collections::ObjectModel::Collection_1<::StringW>* value);
+constexpr void __cordl_internal_set__argumentList(::System::Collections::ObjectModel::Collection_1<::StringW>*  value) ;
 
-  constexpr void __cordl_internal_set_arguments(::StringW value);
+constexpr void __cordl_internal_set_arguments(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_createNoWindow(bool value);
+constexpr void __cordl_internal_set_createNoWindow(bool  value) ;
 
-  constexpr void __cordl_internal_set_directory(::StringW value);
+constexpr void __cordl_internal_set_directory(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_domain(::StringW value);
+constexpr void __cordl_internal_set_domain(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_environment(::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>* value);
+constexpr void __cordl_internal_set_environment(::System::Collections::Generic::IDictionary_2<::StringW,::StringW>*  value) ;
 
-  constexpr void __cordl_internal_set_environmentVariables(::System::Collections::Specialized::StringDictionary* value);
+constexpr void __cordl_internal_set_environmentVariables(::System::Collections::Specialized::StringDictionary*  value) ;
 
-  constexpr void __cordl_internal_set_errorDialog(bool value);
+constexpr void __cordl_internal_set_errorDialog(bool  value) ;
 
-  constexpr void __cordl_internal_set_errorDialogParentHandle(::System::IntPtr value);
+constexpr void __cordl_internal_set_errorDialogParentHandle(::System::IntPtr  value) ;
 
-  constexpr void __cordl_internal_set_fileName(::StringW value);
+constexpr void __cordl_internal_set_fileName(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_loadUserProfile(bool value);
+constexpr void __cordl_internal_set_loadUserProfile(bool  value) ;
 
-  constexpr void __cordl_internal_set_password(::System::Security::SecureString* value);
+constexpr void __cordl_internal_set_password(::System::Security::SecureString*  value) ;
 
-  constexpr void __cordl_internal_set_passwordInClearText(::StringW value);
+constexpr void __cordl_internal_set_passwordInClearText(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_redirectStandardError(bool value);
+constexpr void __cordl_internal_set_redirectStandardError(bool  value) ;
 
-  constexpr void __cordl_internal_set_redirectStandardInput(bool value);
+constexpr void __cordl_internal_set_redirectStandardInput(bool  value) ;
 
-  constexpr void __cordl_internal_set_redirectStandardOutput(bool value);
+constexpr void __cordl_internal_set_redirectStandardOutput(bool  value) ;
 
-  constexpr void __cordl_internal_set_standardErrorEncoding(::System::Text::Encoding* value);
+constexpr void __cordl_internal_set_standardErrorEncoding(::System::Text::Encoding*  value) ;
 
-  constexpr void __cordl_internal_set_standardOutputEncoding(::System::Text::Encoding* value);
+constexpr void __cordl_internal_set_standardOutputEncoding(::System::Text::Encoding*  value) ;
 
-  constexpr void __cordl_internal_set_useShellExecute(bool value);
+constexpr void __cordl_internal_set_useShellExecute(bool  value) ;
 
-  constexpr void __cordl_internal_set_userName(::StringW value);
+constexpr void __cordl_internal_set_userName(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_verb(::StringW value);
+constexpr void __cordl_internal_set_verb(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_weakParentProcess(::System::WeakReference* value);
+constexpr void __cordl_internal_set_weakParentProcess(::System::WeakReference*  value) ;
 
-  constexpr void __cordl_internal_set_windowStyle(::System::Diagnostics::ProcessWindowStyle value);
+constexpr void __cordl_internal_set_windowStyle(::System::Diagnostics::ProcessWindowStyle  value) ;
 
-  /// @brief Method .ctor, addr 0x625c430, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x625dfa8, size 0xc, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method .ctor, addr 0x6259570, size 0x80, virtual false, abstract: false, final false
-  inline void _ctor(::System::Diagnostics::Process* parent);
+/// @brief Method .ctor, addr 0x625b0e8, size 0x80, virtual false, abstract: false, final false
+inline void _ctor(::System::Diagnostics::Process*  parent) ;
 
-  static inline ::ArrayW<::StringW, ::Array<::StringW>*> getStaticF_empty();
+static inline ::ArrayW<::StringW,::Array<::StringW>*> getStaticF_empty() ;
 
-  /// @brief Method get_ArgumentList, addr 0x625c350, size 0x80, virtual false, abstract: false, final false
-  inline ::System::Collections::ObjectModel::Collection_1<::StringW>* get_ArgumentList();
+/// @brief Method get_ArgumentList, addr 0x625dec8, size 0x80, virtual false, abstract: false, final false
+inline ::System::Collections::ObjectModel::Collection_1<::StringW>* get_ArgumentList() ;
 
-  /// @brief Method get_Arguments, addr 0x625c3d0, size 0x20, virtual false, abstract: false, final false
-  inline ::StringW get_Arguments();
+/// @brief Method get_Arguments, addr 0x625df48, size 0x20, virtual false, abstract: false, final false
+inline ::StringW get_Arguments() ;
 
-  /// @brief Method get_Domain, addr 0x625c410, size 0x20, virtual false, abstract: false, final false
-  inline ::StringW get_Domain();
+/// @brief Method get_Domain, addr 0x625df88, size 0x20, virtual false, abstract: false, final false
+inline ::StringW get_Domain() ;
 
-  /// @brief Method get_EnvironmentVariables, addr 0x625be70, size 0x4e0, virtual false, abstract: false, final false
-  inline ::System::Collections::Specialized::StringDictionary* get_EnvironmentVariables();
+/// @brief Method get_EnvironmentVariables, addr 0x625d9e8, size 0x4e0, virtual false, abstract: false, final false
+inline ::System::Collections::Specialized::StringDictionary* get_EnvironmentVariables() ;
 
-  /// @brief Method get_FileName, addr 0x625a338, size 0x20, virtual false, abstract: false, final false
-  inline ::StringW get_FileName();
+/// @brief Method get_FileName, addr 0x625beb0, size 0x20, virtual false, abstract: false, final false
+inline ::StringW get_FileName() ;
 
-  /// @brief Method get_HaveEnvVars, addr 0x625be60, size 0x10, virtual false, abstract: false, final false
-  inline bool get_HaveEnvVars();
+/// @brief Method get_HaveEnvVars, addr 0x625d9d8, size 0x10, virtual false, abstract: false, final false
+inline bool get_HaveEnvVars() ;
 
-  /// @brief Method get_LoadUserProfile, addr 0x625c4a4, size 0x8, virtual false, abstract: false, final false
-  inline bool get_LoadUserProfile();
+/// @brief Method get_LoadUserProfile, addr 0x625e01c, size 0x8, virtual false, abstract: false, final false
+inline bool get_LoadUserProfile() ;
 
-  /// @brief Method get_Password, addr 0x625c49c, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Security::SecureString* get_Password();
+/// @brief Method get_Password, addr 0x625e014, size 0x8, virtual false, abstract: false, final false
+inline ::System::Security::SecureString* get_Password() ;
 
-  /// @brief Method get_RedirectStandardError, addr 0x625c46c, size 0x8, virtual false, abstract: false, final false
-  inline bool get_RedirectStandardError();
+/// @brief Method get_RedirectStandardError, addr 0x625dfe4, size 0x8, virtual false, abstract: false, final false
+inline bool get_RedirectStandardError() ;
 
-  /// @brief Method get_RedirectStandardInput, addr 0x625c44c, size 0x8, virtual false, abstract: false, final false
-  inline bool get_RedirectStandardInput();
+/// @brief Method get_RedirectStandardInput, addr 0x625dfc4, size 0x8, virtual false, abstract: false, final false
+inline bool get_RedirectStandardInput() ;
 
-  /// @brief Method get_RedirectStandardOutput, addr 0x625c45c, size 0x8, virtual false, abstract: false, final false
-  inline bool get_RedirectStandardOutput();
+/// @brief Method get_RedirectStandardOutput, addr 0x625dfd4, size 0x8, virtual false, abstract: false, final false
+inline bool get_RedirectStandardOutput() ;
 
-  /// @brief Method get_StandardErrorEncoding, addr 0x625c47c, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Text::Encoding* get_StandardErrorEncoding();
+/// @brief Method get_StandardErrorEncoding, addr 0x625dff4, size 0x8, virtual false, abstract: false, final false
+inline ::System::Text::Encoding* get_StandardErrorEncoding() ;
 
-  /// @brief Method get_StandardInputEncoding, addr 0x625c60c, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Text::Encoding* get_StandardInputEncoding();
+/// @brief Method get_StandardInputEncoding, addr 0x625e184, size 0x8, virtual false, abstract: false, final false
+inline ::System::Text::Encoding* get_StandardInputEncoding() ;
 
-  /// @brief Method get_StandardOutputEncoding, addr 0x625c484, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Text::Encoding* get_StandardOutputEncoding();
+/// @brief Method get_StandardOutputEncoding, addr 0x625dffc, size 0x8, virtual false, abstract: false, final false
+inline ::System::Text::Encoding* get_StandardOutputEncoding() ;
 
-  /// @brief Method get_UseShellExecute, addr 0x625c48c, size 0x8, virtual false, abstract: false, final false
-  inline bool get_UseShellExecute();
+/// @brief Method get_UseShellExecute, addr 0x625e004, size 0x8, virtual false, abstract: false, final false
+inline bool get_UseShellExecute() ;
 
-  /// @brief Method get_UserName, addr 0x625bbac, size 0x20, virtual false, abstract: false, final false
-  inline ::StringW get_UserName();
+/// @brief Method get_UserName, addr 0x625d724, size 0x20, virtual false, abstract: false, final false
+inline ::StringW get_UserName() ;
 
-  /// @brief Method get_WorkingDirectory, addr 0x625c3f0, size 0x20, virtual false, abstract: false, final false
-  inline ::StringW get_WorkingDirectory();
+/// @brief Method get_WorkingDirectory, addr 0x625df68, size 0x20, virtual false, abstract: false, final false
+inline ::StringW get_WorkingDirectory() ;
 
-  static inline void setStaticF_empty(::ArrayW<::StringW, ::Array<::StringW>*> value);
+static inline void setStaticF_empty(::ArrayW<::StringW,::Array<::StringW>*>  value) ;
 
-  /// @brief Method set_Arguments, addr 0x625c43c, size 0x8, virtual false, abstract: false, final false
-  inline void set_Arguments(::StringW value);
+/// @brief Method set_Arguments, addr 0x625dfb4, size 0x8, virtual false, abstract: false, final false
+inline void set_Arguments(::StringW  value) ;
 
-  /// @brief Method set_CreateNoWindow, addr 0x625c444, size 0x8, virtual false, abstract: false, final false
-  inline void set_CreateNoWindow(bool value);
+/// @brief Method set_CreateNoWindow, addr 0x625dfbc, size 0x8, virtual false, abstract: false, final false
+inline void set_CreateNoWindow(bool  value) ;
 
-  /// @brief Method set_FileName, addr 0x625c4ac, size 0x8, virtual false, abstract: false, final false
-  inline void set_FileName(::StringW value);
+/// @brief Method set_FileName, addr 0x625e024, size 0x8, virtual false, abstract: false, final false
+inline void set_FileName(::StringW  value) ;
 
-  /// @brief Method set_RedirectStandardError, addr 0x625c474, size 0x8, virtual false, abstract: false, final false
-  inline void set_RedirectStandardError(bool value);
+/// @brief Method set_RedirectStandardError, addr 0x625dfec, size 0x8, virtual false, abstract: false, final false
+inline void set_RedirectStandardError(bool  value) ;
 
-  /// @brief Method set_RedirectStandardInput, addr 0x625c454, size 0x8, virtual false, abstract: false, final false
-  inline void set_RedirectStandardInput(bool value);
+/// @brief Method set_RedirectStandardInput, addr 0x625dfcc, size 0x8, virtual false, abstract: false, final false
+inline void set_RedirectStandardInput(bool  value) ;
 
-  /// @brief Method set_RedirectStandardOutput, addr 0x625c464, size 0x8, virtual false, abstract: false, final false
-  inline void set_RedirectStandardOutput(bool value);
+/// @brief Method set_RedirectStandardOutput, addr 0x625dfdc, size 0x8, virtual false, abstract: false, final false
+inline void set_RedirectStandardOutput(bool  value) ;
 
-  /// @brief Method set_UseShellExecute, addr 0x625c494, size 0x8, virtual false, abstract: false, final false
-  inline void set_UseShellExecute(bool value);
+/// @brief Method set_UseShellExecute, addr 0x625e00c, size 0x8, virtual false, abstract: false, final false
+inline void set_UseShellExecute(bool  value) ;
 
-  /// @brief Method set_WindowStyle, addr 0x625c4b4, size 0x158, virtual false, abstract: false, final false
-  inline void set_WindowStyle(::System::Diagnostics::ProcessWindowStyle value);
+/// @brief Method set_WindowStyle, addr 0x625e02c, size 0x158, virtual false, abstract: false, final false
+inline void set_WindowStyle(::System::Diagnostics::ProcessWindowStyle  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ProcessStartInfo();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ProcessStartInfo() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ProcessStartInfo", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ProcessStartInfo(ProcessStartInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ProcessStartInfo", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ProcessStartInfo(ProcessStartInfo const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ProcessStartInfo", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ProcessStartInfo(ProcessStartInfo && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11139 };
+// Ctor Parameters [CppParam { name: "", ty: "ProcessStartInfo", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ProcessStartInfo(ProcessStartInfo const& ) = delete;
 
-  /// @brief Field fileName, offset: 0x10, size: 0x8, def value: None
-  ::StringW ___fileName;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11140};
 
-  /// @brief Field arguments, offset: 0x18, size: 0x8, def value: None
-  ::StringW ___arguments;
+/// @brief Field fileName, offset: 0x10, size: 0x8, def value: None
+ ::StringW  ___fileName;
 
-  /// @brief Field directory, offset: 0x20, size: 0x8, def value: None
-  ::StringW ___directory;
+/// @brief Field arguments, offset: 0x18, size: 0x8, def value: None
+ ::StringW  ___arguments;
 
-  /// @brief Field verb, offset: 0x28, size: 0x8, def value: None
-  ::StringW ___verb;
+/// @brief Field directory, offset: 0x20, size: 0x8, def value: None
+ ::StringW  ___directory;
 
-  /// @brief Field windowStyle, offset: 0x30, size: 0x4, def value: None
-  ::System::Diagnostics::ProcessWindowStyle ___windowStyle;
+/// @brief Field verb, offset: 0x28, size: 0x8, def value: None
+ ::StringW  ___verb;
 
-  /// @brief Field errorDialog, offset: 0x34, size: 0x1, def value: None
-  bool ___errorDialog;
+/// @brief Field windowStyle, offset: 0x30, size: 0x4, def value: None
+ ::System::Diagnostics::ProcessWindowStyle  ___windowStyle;
 
-  /// @brief Field errorDialogParentHandle, offset: 0x38, size: 0x8, def value: None
-  ::System::IntPtr ___errorDialogParentHandle;
+/// @brief Field errorDialog, offset: 0x34, size: 0x1, def value: None
+ bool  ___errorDialog;
 
-  /// @brief Field useShellExecute, offset: 0x40, size: 0x1, def value: None
-  bool ___useShellExecute;
+/// @brief Field errorDialogParentHandle, offset: 0x38, size: 0x8, def value: None
+ ::System::IntPtr  ___errorDialogParentHandle;
 
-  /// @brief Field userName, offset: 0x48, size: 0x8, def value: None
-  ::StringW ___userName;
+/// @brief Field useShellExecute, offset: 0x40, size: 0x1, def value: None
+ bool  ___useShellExecute;
 
-  /// @brief Field domain, offset: 0x50, size: 0x8, def value: None
-  ::StringW ___domain;
+/// @brief Field userName, offset: 0x48, size: 0x8, def value: None
+ ::StringW  ___userName;
 
-  /// @brief Field password, offset: 0x58, size: 0x8, def value: None
-  ::System::Security::SecureString* ___password;
+/// @brief Field domain, offset: 0x50, size: 0x8, def value: None
+ ::StringW  ___domain;
 
-  /// @brief Field passwordInClearText, offset: 0x60, size: 0x8, def value: None
-  ::StringW ___passwordInClearText;
+/// @brief Field password, offset: 0x58, size: 0x8, def value: None
+ ::System::Security::SecureString*  ___password;
 
-  /// @brief Field loadUserProfile, offset: 0x68, size: 0x1, def value: None
-  bool ___loadUserProfile;
+/// @brief Field passwordInClearText, offset: 0x60, size: 0x8, def value: None
+ ::StringW  ___passwordInClearText;
 
-  /// @brief Field redirectStandardInput, offset: 0x69, size: 0x1, def value: None
-  bool ___redirectStandardInput;
+/// @brief Field loadUserProfile, offset: 0x68, size: 0x1, def value: None
+ bool  ___loadUserProfile;
 
-  /// @brief Field redirectStandardOutput, offset: 0x6a, size: 0x1, def value: None
-  bool ___redirectStandardOutput;
+/// @brief Field redirectStandardInput, offset: 0x69, size: 0x1, def value: None
+ bool  ___redirectStandardInput;
 
-  /// @brief Field redirectStandardError, offset: 0x6b, size: 0x1, def value: None
-  bool ___redirectStandardError;
+/// @brief Field redirectStandardOutput, offset: 0x6a, size: 0x1, def value: None
+ bool  ___redirectStandardOutput;
 
-  /// @brief Field standardOutputEncoding, offset: 0x70, size: 0x8, def value: None
-  ::System::Text::Encoding* ___standardOutputEncoding;
+/// @brief Field redirectStandardError, offset: 0x6b, size: 0x1, def value: None
+ bool  ___redirectStandardError;
 
-  /// @brief Field standardErrorEncoding, offset: 0x78, size: 0x8, def value: None
-  ::System::Text::Encoding* ___standardErrorEncoding;
+/// @brief Field standardOutputEncoding, offset: 0x70, size: 0x8, def value: None
+ ::System::Text::Encoding*  ___standardOutputEncoding;
 
-  /// @brief Field createNoWindow, offset: 0x80, size: 0x1, def value: None
-  bool ___createNoWindow;
+/// @brief Field standardErrorEncoding, offset: 0x78, size: 0x8, def value: None
+ ::System::Text::Encoding*  ___standardErrorEncoding;
 
-  /// @brief Field weakParentProcess, offset: 0x88, size: 0x8, def value: None
-  ::System::WeakReference* ___weakParentProcess;
+/// @brief Field createNoWindow, offset: 0x80, size: 0x1, def value: None
+ bool  ___createNoWindow;
 
-  /// @brief Field environmentVariables, offset: 0x90, size: 0x8, def value: None
-  ::System::Collections::Specialized::StringDictionary* ___environmentVariables;
+/// @brief Field weakParentProcess, offset: 0x88, size: 0x8, def value: None
+ ::System::WeakReference*  ___weakParentProcess;
 
-  /// @brief Field _argumentList, offset: 0x98, size: 0x8, def value: None
-  ::System::Collections::ObjectModel::Collection_1<::StringW>* ____argumentList;
+/// @brief Field environmentVariables, offset: 0x90, size: 0x8, def value: None
+ ::System::Collections::Specialized::StringDictionary*  ___environmentVariables;
 
-  /// @brief Field environment, offset: 0xa0, size: 0x8, def value: None
-  ::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>* ___environment;
+/// @brief Field _argumentList, offset: 0x98, size: 0x8, def value: None
+ ::System::Collections::ObjectModel::Collection_1<::StringW>*  ____argumentList;
 
-  /// @brief Field <StandardInputEncoding>k__BackingField, offset: 0xa8, size: 0x8, def value: None
-  ::System::Text::Encoding* ____StandardInputEncoding_k__BackingField;
+/// @brief Field environment, offset: 0xa0, size: 0x8, def value: None
+ ::System::Collections::Generic::IDictionary_2<::StringW,::StringW>*  ___environment;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field <StandardInputEncoding>k__BackingField, offset: 0xa8, size: 0x8, def value: None
+ ::System::Text::Encoding*  ____StandardInputEncoding_k__BackingField;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Diagnostics::ProcessStartInfo, ___fileName) == 0x10, "Offset mismatch!");
@@ -534,6 +535,6 @@ static_assert(offsetof(::System::Diagnostics::ProcessStartInfo, ____StandardInpu
 
 static_assert(::cordl_internals::size_check_v<::System::Diagnostics::ProcessStartInfo, 0xb0>, "Size mismatch!");
 
-} // namespace System::Diagnostics
+} // namespace end def System::Diagnostics
 NEED_NO_BOX(::System::Diagnostics::ProcessStartInfo);
 DEFINE_IL2CPP_ARG_TYPE(::System::Diagnostics::ProcessStartInfo*, "System.Diagnostics", "ProcessStartInfo");

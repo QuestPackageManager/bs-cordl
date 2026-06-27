@@ -12,55 +12,55 @@ struct EChaperoneImportFlags;
 }
 // Write type traits
 MARK_VAL_T(::OVR::OpenVR::EChaperoneImportFlags);
-// Dependencies
+// Dependencies 
 namespace OVR::OpenVR {
 // Is value type: true
 // CS Name: OVR.OpenVR.EChaperoneImportFlags
 struct CORDL_TYPE EChaperoneImportFlags {
 public:
-  // Declarations
-  using __CORDL_BACKING_ENUM_TYPE = int32_t;
+// Declarations
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct __EChaperoneImportFlags_Unwrapped
-  enum struct __EChaperoneImportFlags_Unwrapped : int32_t {
-    __E_EChaperoneImport_BoundsOnly = static_cast<int32_t>(0x1),
-  };
+/// @brief Nested struct __EChaperoneImportFlags_Unwrapped
+enum struct __EChaperoneImportFlags_Unwrapped : int32_t {
+__E_EChaperoneImport_BoundsOnly = static_cast<int32_t>(0x1),
+};
 
-  /// @brief Conversion into unwrapped enum value
-  constexpr operator __EChaperoneImportFlags_Unwrapped() const noexcept {
-    return static_cast<__EChaperoneImportFlags_Unwrapped>(this->value__);
-  }
+/// @brief Conversion into unwrapped enum value
+constexpr operator __EChaperoneImportFlags_Unwrapped () const noexcept {
+return static_cast<__EChaperoneImportFlags_Unwrapped>(this->value__);
+}
 
-  /// @brief Conversion into unwrapped enum value
-  constexpr explicit operator int32_t() const noexcept {
-    return static_cast<int32_t>(this->value__);
-  }
+/// @brief Conversion into unwrapped enum value
+constexpr explicit operator int32_t () const noexcept {
+return static_cast<int32_t>(this->value__);
+}
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr EChaperoneImportFlags();
+// Ctor Parameters []
+// @brief default ctor
+constexpr EChaperoneImportFlags() ;
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr EChaperoneImportFlags(int32_t value__) noexcept;
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr EChaperoneImportFlags(int32_t  value__) noexcept;
 
-  /// @brief Field EChaperoneImport_BoundsOnly value: I32(1)
-  static ::OVR::OpenVR::EChaperoneImportFlags const EChaperoneImport_BoundsOnly;
+/// @brief Field EChaperoneImport_BoundsOnly value: I32(1)
+static ::OVR::OpenVR::EChaperoneImportFlags const EChaperoneImport_BoundsOnly;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8430 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8431};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x4};
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+/// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+ int32_t  value__;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::OVR::OpenVR::EChaperoneImportFlags, value__) == 0x0, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::EChaperoneImportFlags, 0x4>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::EChaperoneImportFlags, "OVR.OpenVR", "EChaperoneImportFlags");

@@ -20,26 +20,26 @@ class ILayerable;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Timeline::ILayerable);
-// Dependencies
+// Dependencies 
 namespace UnityEngine::Timeline {
 // Is value type: false
 // CS Name: UnityEngine.Timeline.ILayerable
 class CORDL_TYPE ILayerable {
 public:
-  // Declarations
-  /// @brief Method CreateLayerMixer, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline ::UnityEngine::Playables::Playable CreateLayerMixer(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject* go, int32_t inputCount);
+// Declarations
+/// @brief Method CreateLayerMixer, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline ::UnityEngine::Playables::Playable CreateLayerMixer(::UnityEngine::Playables::PlayableGraph  graph, ::UnityEngine::GameObject*  go, int32_t  inputCount) ;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ILayerable", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ILayerable(ILayerable const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ILayerable", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ILayerable(ILayerable const& ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19061 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19064};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-} // namespace UnityEngine::Timeline
+} // namespace end def UnityEngine::Timeline
 NEED_NO_BOX(::UnityEngine::Timeline::ILayerable);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Timeline::ILayerable*, "UnityEngine.Timeline", "ILayerable");

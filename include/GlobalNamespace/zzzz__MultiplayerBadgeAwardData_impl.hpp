@@ -9,232 +9,270 @@
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__Sprite_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MultiplayerBadgeAwardData.get_awardedPlayer
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::IConnectedPlayer* (::GlobalNamespace::MultiplayerBadgeAwardData::*)()>(
-    &::GlobalNamespace::MultiplayerBadgeAwardData::get_awardedPlayer)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::IConnectedPlayer* (::GlobalNamespace::MultiplayerBadgeAwardData::*)()>(&::GlobalNamespace::MultiplayerBadgeAwardData::get_awardedPlayer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3674200;
+  constexpr static std::size_t addrs = 0x3675594;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerBadgeAwardData*>::get(),
-                                                                               "get_awardedPlayer", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerBadgeAwardData*>::get(),
+                        "get_awardedPlayer",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::MultiplayerBadgeAwardData.get_titleLocalizationKey
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::MultiplayerBadgeAwardData::*)()>(
-    &::GlobalNamespace::MultiplayerBadgeAwardData::get_titleLocalizationKey)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::MultiplayerBadgeAwardData::*)()>(&::GlobalNamespace::MultiplayerBadgeAwardData::get_titleLocalizationKey)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3674208;
+  constexpr static std::size_t addrs = 0x367559c;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerBadgeAwardData*>::get(),
-                                                                               "get_titleLocalizationKey", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerBadgeAwardData*>::get(),
+                        "get_titleLocalizationKey",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::MultiplayerBadgeAwardData.get_title
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::MultiplayerBadgeAwardData::*)()>(
-    &::GlobalNamespace::MultiplayerBadgeAwardData::get_title)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::MultiplayerBadgeAwardData::*)()>(&::GlobalNamespace::MultiplayerBadgeAwardData::get_title)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3674220;
+  constexpr static std::size_t addrs = 0x36755b4;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerBadgeAwardData*>::get(),
-                                                                               "get_title", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerBadgeAwardData*>::get(),
+                        "get_title",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::MultiplayerBadgeAwardData.get_subtitle
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::MultiplayerBadgeAwardData::*)()>(
-    &::GlobalNamespace::MultiplayerBadgeAwardData::get_subtitle)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::MultiplayerBadgeAwardData::*)()>(&::GlobalNamespace::MultiplayerBadgeAwardData::get_subtitle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3674228;
+  constexpr static std::size_t addrs = 0x36755bc;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerBadgeAwardData*>::get(),
-                                                                               "get_subtitle", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerBadgeAwardData*>::get(),
+                        "get_subtitle",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::MultiplayerBadgeAwardData.get_icon
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Sprite> (::GlobalNamespace::MultiplayerBadgeAwardData::*)()>(
-    &::GlobalNamespace::MultiplayerBadgeAwardData::get_icon)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Sprite> (::GlobalNamespace::MultiplayerBadgeAwardData::*)()>(&::GlobalNamespace::MultiplayerBadgeAwardData::get_icon)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3674230;
+  constexpr static std::size_t addrs = 0x36755c4;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerBadgeAwardData*>::get(), "get_icon",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerBadgeAwardData*>::get(),
+                        "get_icon",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::MultiplayerBadgeAwardData._ctor
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerBadgeAwardData::*)(
-    ::GlobalNamespace::IBeatSaberConnectedPlayer*, float_t, ::StringW, ::StringW, ::GlobalNamespace::MultiplayerBadgeDataSO*)>(&::GlobalNamespace::MultiplayerBadgeAwardData::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerBadgeAwardData::*)(::GlobalNamespace::IBeatSaberConnectedPlayer*, float_t, ::StringW, ::StringW, ::GlobalNamespace::MultiplayerBadgeDataSO*)>(&::GlobalNamespace::MultiplayerBadgeAwardData::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3672444;
+  constexpr static std::size_t addrs = 0x36737d8;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerBadgeAwardData*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IBeatSaberConnectedPlayer*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::MultiplayerBadgeDataSO*>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerBadgeAwardData*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 5>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IBeatSaberConnectedPlayer*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::MultiplayerBadgeDataSO*>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::MultiplayerBadgeAwardData.CompareTo
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::MultiplayerBadgeAwardData::*)(::System::Object*)>(
-    &::GlobalNamespace::MultiplayerBadgeAwardData::CompareTo)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::MultiplayerBadgeAwardData::*)(::System::Object*)>(&::GlobalNamespace::MultiplayerBadgeAwardData::CompareTo)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x3674238;
+  constexpr static std::size_t addrs = 0x36755cc;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerBadgeAwardData*>::get(), "CompareTo", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerBadgeAwardData*>::get(),
+                        "CompareTo",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get()}
+                    )));
     return ___internal_method;
   }
 };
-constexpr ::GlobalNamespace::IBeatSaberConnectedPlayer*& GlobalNamespace::MultiplayerBadgeAwardData::__cordl_internal_get__awardedPlayer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____awardedPlayer;
+constexpr ::GlobalNamespace::IBeatSaberConnectedPlayer*& GlobalNamespace::MultiplayerBadgeAwardData::__cordl_internal_get__awardedPlayer()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____awardedPlayer;
 }
 constexpr ::GlobalNamespace::IBeatSaberConnectedPlayer* const& GlobalNamespace::MultiplayerBadgeAwardData::__cordl_internal_get__awardedPlayer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____awardedPlayer;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____awardedPlayer;
 }
-constexpr void GlobalNamespace::MultiplayerBadgeAwardData::__cordl_internal_set__awardedPlayer(::GlobalNamespace::IBeatSaberConnectedPlayer* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____awardedPlayer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::MultiplayerBadgeAwardData::__cordl_internal_set__awardedPlayer(::GlobalNamespace::IBeatSaberConnectedPlayer*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____awardedPlayer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr float_t& GlobalNamespace::MultiplayerBadgeAwardData::__cordl_internal_get__weight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____weight;
+constexpr float_t& GlobalNamespace::MultiplayerBadgeAwardData::__cordl_internal_get__weight()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____weight;
 }
 constexpr float_t const& GlobalNamespace::MultiplayerBadgeAwardData::__cordl_internal_get__weight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____weight;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____weight;
 }
-constexpr void GlobalNamespace::MultiplayerBadgeAwardData::__cordl_internal_set__weight(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____weight = value;
+constexpr void GlobalNamespace::MultiplayerBadgeAwardData::__cordl_internal_set__weight(float_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____weight = value;
 }
-constexpr ::StringW& GlobalNamespace::MultiplayerBadgeAwardData::__cordl_internal_get__title() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____title;
+constexpr ::StringW& GlobalNamespace::MultiplayerBadgeAwardData::__cordl_internal_get__title()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____title;
 }
 constexpr ::StringW const& GlobalNamespace::MultiplayerBadgeAwardData::__cordl_internal_get__title() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____title;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____title;
 }
-constexpr void GlobalNamespace::MultiplayerBadgeAwardData::__cordl_internal_set__title(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____title)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::MultiplayerBadgeAwardData::__cordl_internal_set__title(::StringW  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____title)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::StringW& GlobalNamespace::MultiplayerBadgeAwardData::__cordl_internal_get__subtitle() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____subtitle;
+constexpr ::StringW& GlobalNamespace::MultiplayerBadgeAwardData::__cordl_internal_get__subtitle()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____subtitle;
 }
 constexpr ::StringW const& GlobalNamespace::MultiplayerBadgeAwardData::__cordl_internal_get__subtitle() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____subtitle;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____subtitle;
 }
-constexpr void GlobalNamespace::MultiplayerBadgeAwardData::__cordl_internal_set__subtitle(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____subtitle)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::MultiplayerBadgeAwardData::__cordl_internal_set__subtitle(::StringW  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____subtitle)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::UnityEngine::Sprite>& GlobalNamespace::MultiplayerBadgeAwardData::__cordl_internal_get__icon() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____icon;
+constexpr ::UnityW<::UnityEngine::Sprite>& GlobalNamespace::MultiplayerBadgeAwardData::__cordl_internal_get__icon()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____icon;
 }
 constexpr ::UnityW<::UnityEngine::Sprite> const& GlobalNamespace::MultiplayerBadgeAwardData::__cordl_internal_get__icon() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____icon;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____icon;
 }
-constexpr void GlobalNamespace::MultiplayerBadgeAwardData::__cordl_internal_set__icon(::UnityW<::UnityEngine::Sprite> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____icon)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::MultiplayerBadgeAwardData::__cordl_internal_set__icon(::UnityW<::UnityEngine::Sprite>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____icon)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::GlobalNamespace::MultiplayerBadgeDataSO>& GlobalNamespace::MultiplayerBadgeAwardData::__cordl_internal_get__badgeData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____badgeData;
+constexpr ::UnityW<::GlobalNamespace::MultiplayerBadgeDataSO>& GlobalNamespace::MultiplayerBadgeAwardData::__cordl_internal_get__badgeData()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____badgeData;
 }
 constexpr ::UnityW<::GlobalNamespace::MultiplayerBadgeDataSO> const& GlobalNamespace::MultiplayerBadgeAwardData::__cordl_internal_get__badgeData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____badgeData;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____badgeData;
 }
-constexpr void GlobalNamespace::MultiplayerBadgeAwardData::__cordl_internal_set__badgeData(::UnityW<::GlobalNamespace::MultiplayerBadgeDataSO> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____badgeData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::MultiplayerBadgeAwardData::__cordl_internal_set__badgeData(::UnityW<::GlobalNamespace::MultiplayerBadgeDataSO>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____badgeData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::GlobalNamespace::IConnectedPlayer* GlobalNamespace::MultiplayerBadgeAwardData::get_awardedPlayer() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerBadgeAwardData*>::get(),
-                                                                             "get_awardedPlayer", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::IConnectedPlayer*, false>(this, ___internal_method);
+inline ::GlobalNamespace::IConnectedPlayer* GlobalNamespace::MultiplayerBadgeAwardData::get_awardedPlayer()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerBadgeAwardData*>::get(),
+                        "get_awardedPlayer",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::IConnectedPlayer*, false>(this, ___internal_method);
 }
-inline ::StringW GlobalNamespace::MultiplayerBadgeAwardData::get_titleLocalizationKey() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerBadgeAwardData*>::get(),
-                                                                             "get_titleLocalizationKey", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+inline ::StringW GlobalNamespace::MultiplayerBadgeAwardData::get_titleLocalizationKey()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerBadgeAwardData*>::get(),
+                        "get_titleLocalizationKey",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-inline ::StringW GlobalNamespace::MultiplayerBadgeAwardData::get_title() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerBadgeAwardData*>::get(), "get_title",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+inline ::StringW GlobalNamespace::MultiplayerBadgeAwardData::get_title()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerBadgeAwardData*>::get(),
+                        "get_title",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-inline ::StringW GlobalNamespace::MultiplayerBadgeAwardData::get_subtitle() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerBadgeAwardData*>::get(),
-                                                                             "get_subtitle", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+inline ::StringW GlobalNamespace::MultiplayerBadgeAwardData::get_subtitle()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerBadgeAwardData*>::get(),
+                        "get_subtitle",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-inline ::UnityW<::UnityEngine::Sprite> GlobalNamespace::MultiplayerBadgeAwardData::get_icon() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerBadgeAwardData*>::get(), "get_icon",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Sprite>, false>(this, ___internal_method);
+inline ::UnityW<::UnityEngine::Sprite> GlobalNamespace::MultiplayerBadgeAwardData::get_icon()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerBadgeAwardData*>::get(),
+                        "get_icon",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Sprite>, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::MultiplayerBadgeAwardData::_ctor(::GlobalNamespace::IBeatSaberConnectedPlayer* awardedPlayer, float_t weight, ::StringW title, ::StringW subtitle,
-                                                              ::GlobalNamespace::MultiplayerBadgeDataSO* badgeData) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerBadgeAwardData*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IBeatSaberConnectedPlayer*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::MultiplayerBadgeDataSO*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, awardedPlayer, weight, title, subtitle, badgeData);
+inline void GlobalNamespace::MultiplayerBadgeAwardData::_ctor(::GlobalNamespace::IBeatSaberConnectedPlayer*  awardedPlayer, float_t  weight, ::StringW  title, ::StringW  subtitle, ::GlobalNamespace::MultiplayerBadgeDataSO*  badgeData)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerBadgeAwardData*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 5>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IBeatSaberConnectedPlayer*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::MultiplayerBadgeDataSO*>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, awardedPlayer, weight, title, subtitle, badgeData);
 }
-inline int32_t GlobalNamespace::MultiplayerBadgeAwardData::CompareTo(::System::Object* obj) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerBadgeAwardData*>::get(), "CompareTo", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, obj);
+inline int32_t GlobalNamespace::MultiplayerBadgeAwardData::CompareTo(::System::Object*  obj)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerBadgeAwardData*>::get(),
+                        "CompareTo",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, obj);
 }
-inline ::GlobalNamespace::MultiplayerBadgeAwardData* GlobalNamespace::MultiplayerBadgeAwardData::New_ctor(::GlobalNamespace::IBeatSaberConnectedPlayer* awardedPlayer, float_t weight, ::StringW title,
-                                                                                                          ::StringW subtitle, ::GlobalNamespace::MultiplayerBadgeDataSO* badgeData) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MultiplayerBadgeAwardData*>(awardedPlayer, weight, title, subtitle, badgeData));
+inline ::GlobalNamespace::MultiplayerBadgeAwardData* GlobalNamespace::MultiplayerBadgeAwardData::New_ctor(::GlobalNamespace::IBeatSaberConnectedPlayer*  awardedPlayer, float_t  weight, ::StringW  title, ::StringW  subtitle, ::GlobalNamespace::MultiplayerBadgeDataSO*  badgeData)  {
+return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MultiplayerBadgeAwardData*>(awardedPlayer, weight, title, subtitle, badgeData));
 }
 /// @brief Convert operator to "::System::IComparable"
-constexpr GlobalNamespace::MultiplayerBadgeAwardData::operator ::System::IComparable*() noexcept {
-  return static_cast<::System::IComparable*>(static_cast<void*>(this));
+constexpr  GlobalNamespace::MultiplayerBadgeAwardData::operator ::System::IComparable*() noexcept {
+return static_cast<::System::IComparable*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::IComparable"
 constexpr ::System::IComparable* GlobalNamespace::MultiplayerBadgeAwardData::i___System__IComparable() noexcept {
-  return static_cast<::System::IComparable*>(static_cast<void*>(this));
+return static_cast<::System::IComparable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::MultiplayerBadgeAwardData::MultiplayerBadgeAwardData() {}
+constexpr ::GlobalNamespace::MultiplayerBadgeAwardData::MultiplayerBadgeAwardData()   {
+}

@@ -8,7 +8,8 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(UQueryExtensions)
 namespace UnityEngine::UIElements {
-template <typename T> struct UQueryBuilder_1;
+template<typename T>
+struct UQueryBuilder_1;
 }
 namespace UnityEngine::UIElements {
 class VisualElement;
@@ -25,113 +26,103 @@ namespace UnityEngine::UIElements {
 // CS Name: UnityEngine.UIElements.UQueryExtensions
 class CORDL_TYPE UQueryExtensions : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field SingleElementClassQuery, offset 0xffffffff, size 0x10
-  __declspec(property(get = getStaticF_SingleElementClassQuery, put = setStaticF_SingleElementClassQuery)) ::UnityEngine::UIElements::UQueryState_1<::UnityEngine::UIElements::VisualElement*>
-      SingleElementClassQuery;
+// Declarations
+/// @brief Field SingleElementClassQuery, offset 0xffffffff, size 0x10 
+ __declspec(property(get=getStaticF_SingleElementClassQuery, put=setStaticF_SingleElementClassQuery)) ::UnityEngine::UIElements::UQueryState_1<::UnityEngine::UIElements::VisualElement*>  SingleElementClassQuery;
 
-  /// @brief Field SingleElementEmptyQuery, offset 0xffffffff, size 0x10
-  __declspec(property(get = getStaticF_SingleElementEmptyQuery, put = setStaticF_SingleElementEmptyQuery)) ::UnityEngine::UIElements::UQueryState_1<::UnityEngine::UIElements::VisualElement*>
-      SingleElementEmptyQuery;
+/// @brief Field SingleElementEmptyQuery, offset 0xffffffff, size 0x10 
+ __declspec(property(get=getStaticF_SingleElementEmptyQuery, put=setStaticF_SingleElementEmptyQuery)) ::UnityEngine::UIElements::UQueryState_1<::UnityEngine::UIElements::VisualElement*>  SingleElementEmptyQuery;
 
-  /// @brief Field SingleElementNameAndClassQuery, offset 0xffffffff, size 0x10
-  __declspec(property(get = getStaticF_SingleElementNameAndClassQuery,
-                      put = setStaticF_SingleElementNameAndClassQuery)) ::UnityEngine::UIElements::UQueryState_1<::UnityEngine::UIElements::VisualElement*>
-      SingleElementNameAndClassQuery;
+/// @brief Field SingleElementNameAndClassQuery, offset 0xffffffff, size 0x10 
+ __declspec(property(get=getStaticF_SingleElementNameAndClassQuery, put=setStaticF_SingleElementNameAndClassQuery)) ::UnityEngine::UIElements::UQueryState_1<::UnityEngine::UIElements::VisualElement*>  SingleElementNameAndClassQuery;
 
-  /// @brief Field SingleElementNameQuery, offset 0xffffffff, size 0x10
-  __declspec(property(get = getStaticF_SingleElementNameQuery, put = setStaticF_SingleElementNameQuery)) ::UnityEngine::UIElements::UQueryState_1<::UnityEngine::UIElements::VisualElement*>
-      SingleElementNameQuery;
+/// @brief Field SingleElementNameQuery, offset 0xffffffff, size 0x10 
+ __declspec(property(get=getStaticF_SingleElementNameQuery, put=setStaticF_SingleElementNameQuery)) ::UnityEngine::UIElements::UQueryState_1<::UnityEngine::UIElements::VisualElement*>  SingleElementNameQuery;
 
-  /// @brief Field SingleElementTypeAndClassQuery, offset 0xffffffff, size 0x10
-  __declspec(property(get = getStaticF_SingleElementTypeAndClassQuery,
-                      put = setStaticF_SingleElementTypeAndClassQuery)) ::UnityEngine::UIElements::UQueryState_1<::UnityEngine::UIElements::VisualElement*>
-      SingleElementTypeAndClassQuery;
+/// @brief Field SingleElementTypeAndClassQuery, offset 0xffffffff, size 0x10 
+ __declspec(property(get=getStaticF_SingleElementTypeAndClassQuery, put=setStaticF_SingleElementTypeAndClassQuery)) ::UnityEngine::UIElements::UQueryState_1<::UnityEngine::UIElements::VisualElement*>  SingleElementTypeAndClassQuery;
 
-  /// @brief Field SingleElementTypeAndNameAndClassQuery, offset 0xffffffff, size 0x10
-  __declspec(property(get = getStaticF_SingleElementTypeAndNameAndClassQuery,
-                      put = setStaticF_SingleElementTypeAndNameAndClassQuery)) ::UnityEngine::UIElements::UQueryState_1<::UnityEngine::UIElements::VisualElement*>
-      SingleElementTypeAndNameAndClassQuery;
+/// @brief Field SingleElementTypeAndNameAndClassQuery, offset 0xffffffff, size 0x10 
+ __declspec(property(get=getStaticF_SingleElementTypeAndNameAndClassQuery, put=setStaticF_SingleElementTypeAndNameAndClassQuery)) ::UnityEngine::UIElements::UQueryState_1<::UnityEngine::UIElements::VisualElement*>  SingleElementTypeAndNameAndClassQuery;
 
-  /// @brief Field SingleElementTypeAndNameQuery, offset 0xffffffff, size 0x10
-  __declspec(property(get = getStaticF_SingleElementTypeAndNameQuery,
-                      put = setStaticF_SingleElementTypeAndNameQuery)) ::UnityEngine::UIElements::UQueryState_1<::UnityEngine::UIElements::VisualElement*>
-      SingleElementTypeAndNameQuery;
+/// @brief Field SingleElementTypeAndNameQuery, offset 0xffffffff, size 0x10 
+ __declspec(property(get=getStaticF_SingleElementTypeAndNameQuery, put=setStaticF_SingleElementTypeAndNameQuery)) ::UnityEngine::UIElements::UQueryState_1<::UnityEngine::UIElements::VisualElement*>  SingleElementTypeAndNameQuery;
 
-  /// @brief Field SingleElementTypeQuery, offset 0xffffffff, size 0x10
-  __declspec(property(get = getStaticF_SingleElementTypeQuery, put = setStaticF_SingleElementTypeQuery)) ::UnityEngine::UIElements::UQueryState_1<::UnityEngine::UIElements::VisualElement*>
-      SingleElementTypeQuery;
+/// @brief Field SingleElementTypeQuery, offset 0xffffffff, size 0x10 
+ __declspec(property(get=getStaticF_SingleElementTypeQuery, put=setStaticF_SingleElementTypeQuery)) ::UnityEngine::UIElements::UQueryState_1<::UnityEngine::UIElements::VisualElement*>  SingleElementTypeQuery;
 
-  /// @brief Method Q, addr 0x6b61aec, size 0x3ac, virtual false, abstract: false, final false
-  static inline ::UnityEngine::UIElements::VisualElement* Q(::UnityEngine::UIElements::VisualElement* e, ::StringW name, ::StringW className);
+/// @brief Method Q, addr 0x6b63664, size 0x3ac, virtual false, abstract: false, final false
+static inline ::UnityEngine::UIElements::VisualElement* Q(::UnityEngine::UIElements::VisualElement*  e, ::StringW  name, ::StringW  className) ;
 
-  /// @brief Method Q, addr 0x6b619cc, size 0x120, virtual false, abstract: false, final false
-  static inline ::UnityEngine::UIElements::VisualElement* Q(::UnityEngine::UIElements::VisualElement* e, ::StringW name, ::ArrayW<::StringW, ::Array<::StringW>*> classes);
+/// @brief Method Q, addr 0x6b63544, size 0x120, virtual false, abstract: false, final false
+static inline ::UnityEngine::UIElements::VisualElement* Q(::UnityEngine::UIElements::VisualElement*  e, ::StringW  name, ::ArrayW<::StringW,::Array<::StringW>*>  classes) ;
 
-  /// @brief Method Q, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline T Q(::UnityEngine::UIElements::VisualElement* e, ::StringW name, ::StringW className);
+/// @brief Method Q, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+template<typename T>
+static inline T Q(::UnityEngine::UIElements::VisualElement*  e, ::StringW  name, ::StringW  className) ;
 
-  /// @brief Method Query, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ::UnityEngine::UIElements::UQueryBuilder_1<T> Query(::UnityEngine::UIElements::VisualElement* e, ::StringW name, ::StringW className);
+/// @brief Method Query, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+template<typename T>
+static inline ::UnityEngine::UIElements::UQueryBuilder_1<T> Query(::UnityEngine::UIElements::VisualElement*  e, ::StringW  name, ::StringW  className) ;
 
-  /// @brief Method Query, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T>
-  static inline ::UnityEngine::UIElements::UQueryBuilder_1<T> Query(::UnityEngine::UIElements::VisualElement* e, ::StringW name, ::ArrayW<::StringW, ::Array<::StringW>*> classes);
+/// @brief Method Query, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+template<typename T>
+static inline ::UnityEngine::UIElements::UQueryBuilder_1<T> Query(::UnityEngine::UIElements::VisualElement*  e, ::StringW  name, ::ArrayW<::StringW,::Array<::StringW>*>  classes) ;
 
-  static inline ::UnityEngine::UIElements::UQueryState_1<::UnityEngine::UIElements::VisualElement*> getStaticF_SingleElementClassQuery();
+static inline ::UnityEngine::UIElements::UQueryState_1<::UnityEngine::UIElements::VisualElement*> getStaticF_SingleElementClassQuery() ;
 
-  static inline ::UnityEngine::UIElements::UQueryState_1<::UnityEngine::UIElements::VisualElement*> getStaticF_SingleElementEmptyQuery();
+static inline ::UnityEngine::UIElements::UQueryState_1<::UnityEngine::UIElements::VisualElement*> getStaticF_SingleElementEmptyQuery() ;
 
-  static inline ::UnityEngine::UIElements::UQueryState_1<::UnityEngine::UIElements::VisualElement*> getStaticF_SingleElementNameAndClassQuery();
+static inline ::UnityEngine::UIElements::UQueryState_1<::UnityEngine::UIElements::VisualElement*> getStaticF_SingleElementNameAndClassQuery() ;
 
-  static inline ::UnityEngine::UIElements::UQueryState_1<::UnityEngine::UIElements::VisualElement*> getStaticF_SingleElementNameQuery();
+static inline ::UnityEngine::UIElements::UQueryState_1<::UnityEngine::UIElements::VisualElement*> getStaticF_SingleElementNameQuery() ;
 
-  static inline ::UnityEngine::UIElements::UQueryState_1<::UnityEngine::UIElements::VisualElement*> getStaticF_SingleElementTypeAndClassQuery();
+static inline ::UnityEngine::UIElements::UQueryState_1<::UnityEngine::UIElements::VisualElement*> getStaticF_SingleElementTypeAndClassQuery() ;
 
-  static inline ::UnityEngine::UIElements::UQueryState_1<::UnityEngine::UIElements::VisualElement*> getStaticF_SingleElementTypeAndNameAndClassQuery();
+static inline ::UnityEngine::UIElements::UQueryState_1<::UnityEngine::UIElements::VisualElement*> getStaticF_SingleElementTypeAndNameAndClassQuery() ;
 
-  static inline ::UnityEngine::UIElements::UQueryState_1<::UnityEngine::UIElements::VisualElement*> getStaticF_SingleElementTypeAndNameQuery();
+static inline ::UnityEngine::UIElements::UQueryState_1<::UnityEngine::UIElements::VisualElement*> getStaticF_SingleElementTypeAndNameQuery() ;
 
-  static inline ::UnityEngine::UIElements::UQueryState_1<::UnityEngine::UIElements::VisualElement*> getStaticF_SingleElementTypeQuery();
+static inline ::UnityEngine::UIElements::UQueryState_1<::UnityEngine::UIElements::VisualElement*> getStaticF_SingleElementTypeQuery() ;
 
-  static inline void setStaticF_SingleElementClassQuery(::UnityEngine::UIElements::UQueryState_1<::UnityEngine::UIElements::VisualElement*> value);
+static inline void setStaticF_SingleElementClassQuery(::UnityEngine::UIElements::UQueryState_1<::UnityEngine::UIElements::VisualElement*>  value) ;
 
-  static inline void setStaticF_SingleElementEmptyQuery(::UnityEngine::UIElements::UQueryState_1<::UnityEngine::UIElements::VisualElement*> value);
+static inline void setStaticF_SingleElementEmptyQuery(::UnityEngine::UIElements::UQueryState_1<::UnityEngine::UIElements::VisualElement*>  value) ;
 
-  static inline void setStaticF_SingleElementNameAndClassQuery(::UnityEngine::UIElements::UQueryState_1<::UnityEngine::UIElements::VisualElement*> value);
+static inline void setStaticF_SingleElementNameAndClassQuery(::UnityEngine::UIElements::UQueryState_1<::UnityEngine::UIElements::VisualElement*>  value) ;
 
-  static inline void setStaticF_SingleElementNameQuery(::UnityEngine::UIElements::UQueryState_1<::UnityEngine::UIElements::VisualElement*> value);
+static inline void setStaticF_SingleElementNameQuery(::UnityEngine::UIElements::UQueryState_1<::UnityEngine::UIElements::VisualElement*>  value) ;
 
-  static inline void setStaticF_SingleElementTypeAndClassQuery(::UnityEngine::UIElements::UQueryState_1<::UnityEngine::UIElements::VisualElement*> value);
+static inline void setStaticF_SingleElementTypeAndClassQuery(::UnityEngine::UIElements::UQueryState_1<::UnityEngine::UIElements::VisualElement*>  value) ;
 
-  static inline void setStaticF_SingleElementTypeAndNameAndClassQuery(::UnityEngine::UIElements::UQueryState_1<::UnityEngine::UIElements::VisualElement*> value);
+static inline void setStaticF_SingleElementTypeAndNameAndClassQuery(::UnityEngine::UIElements::UQueryState_1<::UnityEngine::UIElements::VisualElement*>  value) ;
 
-  static inline void setStaticF_SingleElementTypeAndNameQuery(::UnityEngine::UIElements::UQueryState_1<::UnityEngine::UIElements::VisualElement*> value);
+static inline void setStaticF_SingleElementTypeAndNameQuery(::UnityEngine::UIElements::UQueryState_1<::UnityEngine::UIElements::VisualElement*>  value) ;
 
-  static inline void setStaticF_SingleElementTypeQuery(::UnityEngine::UIElements::UQueryState_1<::UnityEngine::UIElements::VisualElement*> value);
+static inline void setStaticF_SingleElementTypeQuery(::UnityEngine::UIElements::UQueryState_1<::UnityEngine::UIElements::VisualElement*>  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr UQueryExtensions();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr UQueryExtensions() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UQueryExtensions", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  UQueryExtensions(UQueryExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UQueryExtensions", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  UQueryExtensions(UQueryExtensions const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "UQueryExtensions", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+UQueryExtensions(UQueryExtensions && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5133 };
+// Ctor Parameters [CppParam { name: "", ty: "UQueryExtensions", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+UQueryExtensions(UQueryExtensions const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{5133};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UQueryExtensions, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements
+} // namespace end def UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::UQueryExtensions);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UQueryExtensions*, "UnityEngine.UIElements", "UQueryExtensions");

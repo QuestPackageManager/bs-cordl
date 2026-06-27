@@ -23,7 +23,8 @@ namespace Newtonsoft::Json::Utilities {
 class ReflectionObject;
 }
 namespace Newtonsoft::Json::Utilities {
-template <typename TKey, typename TValue> class ThreadSafeStore_2;
+template<typename TKey,typename TValue>
+class ThreadSafeStore_2;
 }
 namespace Newtonsoft::Json {
 class JsonContainerAttribute;
@@ -47,10 +48,12 @@ namespace System::Runtime::Serialization {
 class DataMemberAttribute;
 }
 namespace System {
-template <typename TResult> class Func_1;
+template<typename TResult>
+class Func_1;
 }
 namespace System {
-template <typename T, typename TResult> class Func_2;
+template<typename T,typename TResult>
+class Func_2;
 }
 namespace System {
 class Object;
@@ -78,109 +81,109 @@ namespace Newtonsoft::Json::Serialization {
 // CS Name: Newtonsoft.Json.Serialization.JsonTypeReflector/<>c
 class CORDL_TYPE JsonTypeReflector___c : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field <>9, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::Newtonsoft::Json::Serialization::JsonTypeReflector___c* __9;
+// Declarations
+/// @brief Field <>9, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF___9, put=setStaticF___9)) ::Newtonsoft::Json::Serialization::JsonTypeReflector___c*  __9;
 
-  /// @brief Field <>9__22_1, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9__22_1, put = setStaticF___9__22_1)) ::System::Func_2<::System::Object*, ::System::Type*>* __9__22_1;
+/// @brief Field <>9__22_1, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF___9__22_1, put=setStaticF___9__22_1)) ::System::Func_2<::System::Object*,::System::Type*>*  __9__22_1;
 
-  static inline ::Newtonsoft::Json::Serialization::JsonTypeReflector___c* New_ctor();
+static inline ::Newtonsoft::Json::Serialization::JsonTypeReflector___c* New_ctor() ;
 
-  /// @brief Method <GetCreator>b__22_1, addr 0x5c1d284, size 0x5c, virtual false, abstract: false, final false
-  inline ::System::Type* _GetCreator_b__22_1(::System::Object* param);
+/// @brief Method <GetCreator>b__22_1, addr 0x5c1edfc, size 0x5c, virtual false, abstract: false, final false
+inline ::System::Type* _GetCreator_b__22_1(::System::Object*  param) ;
 
-  /// @brief Method .ctor, addr 0x5c1d280, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5c1edf8, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  static inline ::Newtonsoft::Json::Serialization::JsonTypeReflector___c* getStaticF___9();
+static inline ::Newtonsoft::Json::Serialization::JsonTypeReflector___c* getStaticF___9() ;
 
-  static inline ::System::Func_2<::System::Object*, ::System::Type*>* getStaticF___9__22_1();
+static inline ::System::Func_2<::System::Object*,::System::Type*>* getStaticF___9__22_1() ;
 
-  static inline void setStaticF___9(::Newtonsoft::Json::Serialization::JsonTypeReflector___c* value);
+static inline void setStaticF___9(::Newtonsoft::Json::Serialization::JsonTypeReflector___c*  value) ;
 
-  static inline void setStaticF___9__22_1(::System::Func_2<::System::Object*, ::System::Type*>* value);
+static inline void setStaticF___9__22_1(::System::Func_2<::System::Object*,::System::Type*>*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr JsonTypeReflector___c();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr JsonTypeReflector___c() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "JsonTypeReflector___c", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  JsonTypeReflector___c(JsonTypeReflector___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "JsonTypeReflector___c", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  JsonTypeReflector___c(JsonTypeReflector___c const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "JsonTypeReflector___c", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+JsonTypeReflector___c(JsonTypeReflector___c && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13509 };
+// Ctor Parameters [CppParam { name: "", ty: "JsonTypeReflector___c", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+JsonTypeReflector___c(JsonTypeReflector___c const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{13510};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Serialization::JsonTypeReflector___c, 0x10>, "Size mismatch!");
 
-} // namespace Newtonsoft::Json::Serialization
+} // namespace end def Newtonsoft::Json::Serialization
 // Dependencies System.Object
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
 // CS Name: Newtonsoft.Json.Serialization.JsonTypeReflector/<>c__DisplayClass22_0
 class CORDL_TYPE JsonTypeReflector___c__DisplayClass22_0 : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field defaultConstructor, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_defaultConstructor, put = __cordl_internal_set_defaultConstructor)) ::System::Func_1<::System::Object*>* defaultConstructor;
+// Declarations
+/// @brief Field defaultConstructor, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_defaultConstructor, put=__cordl_internal_set_defaultConstructor)) ::System::Func_1<::System::Object*>*  defaultConstructor;
 
-  /// @brief Field type, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type)) ::System::Type* type;
+/// @brief Field type, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_type, put=__cordl_internal_set_type)) ::System::Type*  type;
 
-  static inline ::Newtonsoft::Json::Serialization::JsonTypeReflector___c__DisplayClass22_0* New_ctor();
+static inline ::Newtonsoft::Json::Serialization::JsonTypeReflector___c__DisplayClass22_0* New_ctor() ;
 
-  /// @brief Method <GetCreator>b__0, addr 0x5c1d2e0, size 0x470, virtual false, abstract: false, final false
-  inline ::System::Object* _GetCreator_b__0(::ArrayW<::System::Object*, ::Array<::System::Object*>*> parameters);
+/// @brief Method <GetCreator>b__0, addr 0x5c1ee58, size 0x470, virtual false, abstract: false, final false
+inline ::System::Object* _GetCreator_b__0(::ArrayW<::System::Object*,::Array<::System::Object*>*>  parameters) ;
 
-  constexpr ::System::Func_1<::System::Object*>* const& __cordl_internal_get_defaultConstructor() const;
+constexpr ::System::Func_1<::System::Object*>* const& __cordl_internal_get_defaultConstructor() const;
 
-  constexpr ::System::Func_1<::System::Object*>*& __cordl_internal_get_defaultConstructor();
+constexpr ::System::Func_1<::System::Object*>*& __cordl_internal_get_defaultConstructor() ;
 
-  constexpr ::System::Type* const& __cordl_internal_get_type() const;
+constexpr ::System::Type* const& __cordl_internal_get_type() const;
 
-  constexpr ::System::Type*& __cordl_internal_get_type();
+constexpr ::System::Type*& __cordl_internal_get_type() ;
 
-  constexpr void __cordl_internal_set_defaultConstructor(::System::Func_1<::System::Object*>* value);
+constexpr void __cordl_internal_set_defaultConstructor(::System::Func_1<::System::Object*>*  value) ;
 
-  constexpr void __cordl_internal_set_type(::System::Type* value);
+constexpr void __cordl_internal_set_type(::System::Type*  value) ;
 
-  /// @brief Method .ctor, addr 0x5c1cc00, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5c1e778, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr JsonTypeReflector___c__DisplayClass22_0();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr JsonTypeReflector___c__DisplayClass22_0() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "JsonTypeReflector___c__DisplayClass22_0", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  JsonTypeReflector___c__DisplayClass22_0(JsonTypeReflector___c__DisplayClass22_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "JsonTypeReflector___c__DisplayClass22_0", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  JsonTypeReflector___c__DisplayClass22_0(JsonTypeReflector___c__DisplayClass22_0 const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "JsonTypeReflector___c__DisplayClass22_0", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+JsonTypeReflector___c__DisplayClass22_0(JsonTypeReflector___c__DisplayClass22_0 && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13510 };
+// Ctor Parameters [CppParam { name: "", ty: "JsonTypeReflector___c__DisplayClass22_0", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+JsonTypeReflector___c__DisplayClass22_0(JsonTypeReflector___c__DisplayClass22_0 const& ) = delete;
 
-  /// @brief Field type, offset: 0x10, size: 0x8, def value: None
-  ::System::Type* ___type;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{13511};
 
-  /// @brief Field defaultConstructor, offset: 0x18, size: 0x8, def value: None
-  ::System::Func_1<::System::Object*>* ___defaultConstructor;
+/// @brief Field type, offset: 0x10, size: 0x8, def value: None
+ ::System::Type*  ___type;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field defaultConstructor, offset: 0x18, size: 0x8, def value: None
+ ::System::Func_1<::System::Object*>*  ___defaultConstructor;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Newtonsoft::Json::Serialization::JsonTypeReflector___c__DisplayClass22_0, ___type) == 0x10, "Offset mismatch!");
@@ -189,165 +192,164 @@ static_assert(offsetof(::Newtonsoft::Json::Serialization::JsonTypeReflector___c_
 
 static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Serialization::JsonTypeReflector___c__DisplayClass22_0, 0x20>, "Size mismatch!");
 
-} // namespace Newtonsoft::Json::Serialization
+} // namespace end def Newtonsoft::Json::Serialization
 // Dependencies System.Nullable`1<T>, System.Object
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
 // CS Name: Newtonsoft.Json.Serialization.JsonTypeReflector
 class CORDL_TYPE JsonTypeReflector : public ::System::Object {
 public:
-  // Declarations
-  using __c = ::Newtonsoft::Json::Serialization::JsonTypeReflector___c;
+// Declarations
+using __c = ::Newtonsoft::Json::Serialization::JsonTypeReflector___c;
 
-  using __c__DisplayClass22_0 = ::Newtonsoft::Json::Serialization::JsonTypeReflector___c__DisplayClass22_0;
+using __c__DisplayClass22_0 = ::Newtonsoft::Json::Serialization::JsonTypeReflector___c__DisplayClass22_0;
 
-  /// @brief Field AssociatedMetadataTypesCache, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_AssociatedMetadataTypesCache,
-                      put = setStaticF_AssociatedMetadataTypesCache)) ::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::System::Type*, ::System::Type*>* AssociatedMetadataTypesCache;
+/// @brief Field AssociatedMetadataTypesCache, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_AssociatedMetadataTypesCache, put=setStaticF_AssociatedMetadataTypesCache)) ::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::System::Type*,::System::Type*>*  AssociatedMetadataTypesCache;
 
-  /// @brief Field CreatorCache, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_CreatorCache, put = setStaticF_CreatorCache)) ::Newtonsoft::Json::Utilities::ThreadSafeStore_2<
-      ::System::Type*, ::System::Func_2<::ArrayW<::System::Object*, ::Array<::System::Object*>*>, ::System::Object*>*>* CreatorCache;
+/// @brief Field CreatorCache, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_CreatorCache, put=setStaticF_CreatorCache)) ::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::System::Type*,::System::Func_2<::ArrayW<::System::Object*,::Array<::System::Object*>*>,::System::Object*>*>*  CreatorCache;
 
-  /// @brief Field _dynamicCodeGeneration, offset 0xffffffff, size 0x2
-  __declspec(property(get = getStaticF__dynamicCodeGeneration, put = setStaticF__dynamicCodeGeneration)) ::System::Nullable_1<bool> _dynamicCodeGeneration;
+/// @brief Field _dynamicCodeGeneration, offset 0xffffffff, size 0x2 
+ __declspec(property(get=getStaticF__dynamicCodeGeneration, put=setStaticF__dynamicCodeGeneration)) ::System::Nullable_1<bool>  _dynamicCodeGeneration;
 
-  /// @brief Field _fullyTrusted, offset 0xffffffff, size 0x2
-  __declspec(property(get = getStaticF__fullyTrusted, put = setStaticF__fullyTrusted)) ::System::Nullable_1<bool> _fullyTrusted;
+/// @brief Field _fullyTrusted, offset 0xffffffff, size 0x2 
+ __declspec(property(get=getStaticF__fullyTrusted, put=setStaticF__fullyTrusted)) ::System::Nullable_1<bool>  _fullyTrusted;
 
-  /// @brief Field _metadataTypeAttributeReflectionObject, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF__metadataTypeAttributeReflectionObject,
-                      put = setStaticF__metadataTypeAttributeReflectionObject)) ::Newtonsoft::Json::Utilities::ReflectionObject* _metadataTypeAttributeReflectionObject;
+/// @brief Field _metadataTypeAttributeReflectionObject, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF__metadataTypeAttributeReflectionObject, put=setStaticF__metadataTypeAttributeReflectionObject)) ::Newtonsoft::Json::Utilities::ReflectionObject*  _metadataTypeAttributeReflectionObject;
 
-  /// @brief Method CanTypeDescriptorConvertString, addr 0x5c19898, size 0x1e4, virtual false, abstract: false, final false
-  static inline bool CanTypeDescriptorConvertString(::System::Type* type, ::ByRef<::System::ComponentModel::TypeConverter*> typeConverter);
+/// @brief Method CanTypeDescriptorConvertString, addr 0x5c1b410, size 0x1e4, virtual false, abstract: false, final false
+static inline bool CanTypeDescriptorConvertString(::System::Type*  type, ::ByRef<::System::ComponentModel::TypeConverter*>  typeConverter) ;
 
-  /// @brief Method CreateJsonConverterInstance, addr 0x5c1c7ec, size 0x100, virtual false, abstract: false, final false
-  static inline ::Newtonsoft::Json::JsonConverter* CreateJsonConverterInstance(::System::Type* converterType, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
+/// @brief Method CreateJsonConverterInstance, addr 0x5c1e364, size 0x100, virtual false, abstract: false, final false
+static inline ::Newtonsoft::Json::JsonConverter* CreateJsonConverterInstance(::System::Type*  converterType, ::ArrayW<::System::Object*,::Array<::System::Object*>*>  args) ;
 
-  /// @brief Method CreateNamingStrategyInstance, addr 0x5c1c8ec, size 0x100, virtual false, abstract: false, final false
-  static inline ::Newtonsoft::Json::Serialization::NamingStrategy* CreateNamingStrategyInstance(::System::Type* namingStrategyType, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
+/// @brief Method CreateNamingStrategyInstance, addr 0x5c1e464, size 0x100, virtual false, abstract: false, final false
+static inline ::Newtonsoft::Json::Serialization::NamingStrategy* CreateNamingStrategyInstance(::System::Type*  namingStrategyType, ::ArrayW<::System::Object*,::Array<::System::Object*>*>  args) ;
 
-  /// @brief Method GetAssociateMetadataTypeFromAttribute, addr 0x5c1cd20, size 0x234, virtual false, abstract: false, final false
-  static inline ::System::Type* GetAssociateMetadataTypeFromAttribute(::System::Type* type);
+/// @brief Method GetAssociateMetadataTypeFromAttribute, addr 0x5c1e898, size 0x234, virtual false, abstract: false, final false
+static inline ::System::Type* GetAssociateMetadataTypeFromAttribute(::System::Type*  type) ;
 
-  /// @brief Method GetAssociatedMetadataType, addr 0x5c1cc98, size 0x88, virtual false, abstract: false, final false
-  static inline ::System::Type* GetAssociatedMetadataType(::System::Type* type);
+/// @brief Method GetAssociatedMetadataType, addr 0x5c1e810, size 0x88, virtual false, abstract: false, final false
+static inline ::System::Type* GetAssociatedMetadataType(::System::Type*  type) ;
 
-  /// @brief Method GetAttribute, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline T GetAttribute(::System::Reflection::MemberInfo* memberInfo);
+/// @brief Method GetAttribute, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+template<typename T>
+static inline T GetAttribute(::System::Reflection::MemberInfo*  memberInfo) ;
 
-  /// @brief Method GetAttribute, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline T GetAttribute(::System::Object* provider);
+/// @brief Method GetAttribute, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+template<typename T>
+static inline T GetAttribute(::System::Object*  provider) ;
 
-  /// @brief Method GetAttribute, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline T GetAttribute(::System::Type* type);
+/// @brief Method GetAttribute, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+template<typename T>
+static inline T GetAttribute(::System::Type*  type) ;
 
-  /// @brief Method GetCachedAttribute, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline T GetCachedAttribute(::System::Object* attributeProvider);
+/// @brief Method GetCachedAttribute, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+template<typename T>
+static inline T GetCachedAttribute(::System::Object*  attributeProvider) ;
 
-  /// @brief Method GetContainerNamingStrategy, addr 0x5c1c9ec, size 0xa0, virtual false, abstract: false, final false
-  static inline ::Newtonsoft::Json::Serialization::NamingStrategy* GetContainerNamingStrategy(::Newtonsoft::Json::JsonContainerAttribute* containerAttribute);
+/// @brief Method GetContainerNamingStrategy, addr 0x5c1e564, size 0xa0, virtual false, abstract: false, final false
+static inline ::Newtonsoft::Json::Serialization::NamingStrategy* GetContainerNamingStrategy(::Newtonsoft::Json::JsonContainerAttribute*  containerAttribute) ;
 
-  /// @brief Method GetCreator, addr 0x5c1ca8c, size 0x174, virtual false, abstract: false, final false
-  static inline ::System::Func_2<::ArrayW<::System::Object*, ::Array<::System::Object*>*>, ::System::Object*>* GetCreator(::System::Type* type);
+/// @brief Method GetCreator, addr 0x5c1e604, size 0x174, virtual false, abstract: false, final false
+static inline ::System::Func_2<::ArrayW<::System::Object*,::Array<::System::Object*>*>,::System::Object*>* GetCreator(::System::Type*  type) ;
 
-  /// @brief Method GetDataContractAttribute, addr 0x5c1c230, size 0xb4, virtual false, abstract: false, final false
-  static inline ::System::Runtime::Serialization::DataContractAttribute* GetDataContractAttribute(::System::Type* type);
+/// @brief Method GetDataContractAttribute, addr 0x5c1dda8, size 0xb4, virtual false, abstract: false, final false
+static inline ::System::Runtime::Serialization::DataContractAttribute* GetDataContractAttribute(::System::Type*  type) ;
 
-  /// @brief Method GetDataMemberAttribute, addr 0x5c1c2e4, size 0x274, virtual false, abstract: false, final false
-  static inline ::System::Runtime::Serialization::DataMemberAttribute* GetDataMemberAttribute(::System::Reflection::MemberInfo* memberInfo);
+/// @brief Method GetDataMemberAttribute, addr 0x5c1de5c, size 0x274, virtual false, abstract: false, final false
+static inline ::System::Runtime::Serialization::DataMemberAttribute* GetDataMemberAttribute(::System::Reflection::MemberInfo*  memberInfo) ;
 
-  /// @brief Method GetJsonConverter, addr 0x5c1c6bc, size 0x130, virtual false, abstract: false, final false
-  static inline ::Newtonsoft::Json::JsonConverter* GetJsonConverter(::System::Object* attributeProvider);
+/// @brief Method GetJsonConverter, addr 0x5c1e234, size 0x130, virtual false, abstract: false, final false
+static inline ::Newtonsoft::Json::JsonConverter* GetJsonConverter(::System::Object*  attributeProvider) ;
 
-  /// @brief Method GetObjectMemberSerialization, addr 0x5c1c558, size 0xe0, virtual false, abstract: false, final false
-  static inline ::Newtonsoft::Json::MemberSerialization GetObjectMemberSerialization(::System::Type* objectType, bool ignoreSerializableAttribute);
+/// @brief Method GetObjectMemberSerialization, addr 0x5c1e0d0, size 0xe0, virtual false, abstract: false, final false
+static inline ::Newtonsoft::Json::MemberSerialization GetObjectMemberSerialization(::System::Type*  objectType, bool  ignoreSerializableAttribute) ;
 
-  /// @brief Method IsNonSerializable, addr 0x5c1cf54, size 0x84, virtual false, abstract: false, final false
-  static inline bool IsNonSerializable(::System::Object* provider);
+/// @brief Method IsNonSerializable, addr 0x5c1eacc, size 0x84, virtual false, abstract: false, final false
+static inline bool IsNonSerializable(::System::Object*  provider) ;
 
-  /// @brief Method IsSerializable, addr 0x5c1c638, size 0x84, virtual false, abstract: false, final false
-  static inline bool IsSerializable(::System::Object* provider);
+/// @brief Method IsSerializable, addr 0x5c1e1b0, size 0x84, virtual false, abstract: false, final false
+static inline bool IsSerializable(::System::Object*  provider) ;
 
-  static inline ::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::System::Type*, ::System::Type*>* getStaticF_AssociatedMetadataTypesCache();
+static inline ::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::System::Type*,::System::Type*>* getStaticF_AssociatedMetadataTypesCache() ;
 
-  static inline ::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::System::Type*, ::System::Func_2<::ArrayW<::System::Object*, ::Array<::System::Object*>*>, ::System::Object*>*>*
-  getStaticF_CreatorCache();
+static inline ::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::System::Type*,::System::Func_2<::ArrayW<::System::Object*,::Array<::System::Object*>*>,::System::Object*>*>* getStaticF_CreatorCache() ;
 
-  static inline ::System::Nullable_1<bool> getStaticF__dynamicCodeGeneration();
+static inline ::System::Nullable_1<bool> getStaticF__dynamicCodeGeneration() ;
 
-  static inline ::System::Nullable_1<bool> getStaticF__fullyTrusted();
+static inline ::System::Nullable_1<bool> getStaticF__fullyTrusted() ;
 
-  static inline ::Newtonsoft::Json::Utilities::ReflectionObject* getStaticF__metadataTypeAttributeReflectionObject();
+static inline ::Newtonsoft::Json::Utilities::ReflectionObject* getStaticF__metadataTypeAttributeReflectionObject() ;
 
-  /// @brief Method get_DynamicCodeGeneration, addr 0x5c1cfd8, size 0xd4, virtual false, abstract: false, final false
-  static inline bool get_DynamicCodeGeneration();
+/// @brief Method get_DynamicCodeGeneration, addr 0x5c1eb50, size 0xd4, virtual false, abstract: false, final false
+static inline bool get_DynamicCodeGeneration() ;
 
-  /// @brief Method get_FullyTrusted, addr 0x5c1b750, size 0xe4, virtual false, abstract: false, final false
-  static inline bool get_FullyTrusted();
+/// @brief Method get_FullyTrusted, addr 0x5c1d2c8, size 0xe4, virtual false, abstract: false, final false
+static inline bool get_FullyTrusted() ;
 
-  /// @brief Method get_ReflectionDelegateFactory, addr 0x5c1cc04, size 0x94, virtual false, abstract: false, final false
-  static inline ::Newtonsoft::Json::Utilities::ReflectionDelegateFactory* get_ReflectionDelegateFactory();
+/// @brief Method get_ReflectionDelegateFactory, addr 0x5c1e77c, size 0x94, virtual false, abstract: false, final false
+static inline ::Newtonsoft::Json::Utilities::ReflectionDelegateFactory* get_ReflectionDelegateFactory() ;
 
-  static inline void setStaticF_AssociatedMetadataTypesCache(::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::System::Type*, ::System::Type*>* value);
+static inline void setStaticF_AssociatedMetadataTypesCache(::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::System::Type*,::System::Type*>*  value) ;
 
-  static inline void
-  setStaticF_CreatorCache(::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::System::Type*, ::System::Func_2<::ArrayW<::System::Object*, ::Array<::System::Object*>*>, ::System::Object*>*>* value);
+static inline void setStaticF_CreatorCache(::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::System::Type*,::System::Func_2<::ArrayW<::System::Object*,::Array<::System::Object*>*>,::System::Object*>*>*  value) ;
 
-  static inline void setStaticF__dynamicCodeGeneration(::System::Nullable_1<bool> value);
+static inline void setStaticF__dynamicCodeGeneration(::System::Nullable_1<bool>  value) ;
 
-  static inline void setStaticF__fullyTrusted(::System::Nullable_1<bool> value);
+static inline void setStaticF__fullyTrusted(::System::Nullable_1<bool>  value) ;
 
-  static inline void setStaticF__metadataTypeAttributeReflectionObject(::Newtonsoft::Json::Utilities::ReflectionObject* value);
+static inline void setStaticF__metadataTypeAttributeReflectionObject(::Newtonsoft::Json::Utilities::ReflectionObject*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr JsonTypeReflector();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr JsonTypeReflector() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "JsonTypeReflector", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  JsonTypeReflector(JsonTypeReflector&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "JsonTypeReflector", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  JsonTypeReflector(JsonTypeReflector const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "JsonTypeReflector", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+JsonTypeReflector(JsonTypeReflector && ) = delete;
 
-  /// @brief Field ArrayValuesPropertyName offset 0xffffffff size 0x8
-  static constexpr ::ConstString ArrayValuesPropertyName{ u"$values" };
+// Ctor Parameters [CppParam { name: "", ty: "JsonTypeReflector", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+JsonTypeReflector(JsonTypeReflector const& ) = delete;
 
-  /// @brief Field ConcurrentDictionaryTypeName offset 0xffffffff size 0x8
-  static constexpr ::ConstString ConcurrentDictionaryTypeName{ u"System.Collections.Concurrent.ConcurrentDictionary`2" };
+/// @brief Field ArrayValuesPropertyName offset 0xffffffff size 0x8
+static constexpr ::ConstString  ArrayValuesPropertyName{u"$values"};
 
-  /// @brief Field IdPropertyName offset 0xffffffff size 0x8
-  static constexpr ::ConstString IdPropertyName{ u"$id" };
+/// @brief Field ConcurrentDictionaryTypeName offset 0xffffffff size 0x8
+static constexpr ::ConstString  ConcurrentDictionaryTypeName{u"System.Collections.Concurrent.ConcurrentDictionary`2"};
 
-  /// @brief Field RefPropertyName offset 0xffffffff size 0x8
-  static constexpr ::ConstString RefPropertyName{ u"$ref" };
+/// @brief Field IdPropertyName offset 0xffffffff size 0x8
+static constexpr ::ConstString  IdPropertyName{u"$id"};
 
-  /// @brief Field ShouldSerializePrefix offset 0xffffffff size 0x8
-  static constexpr ::ConstString ShouldSerializePrefix{ u"ShouldSerialize" };
+/// @brief Field RefPropertyName offset 0xffffffff size 0x8
+static constexpr ::ConstString  RefPropertyName{u"$ref"};
 
-  /// @brief Field SpecifiedPostfix offset 0xffffffff size 0x8
-  static constexpr ::ConstString SpecifiedPostfix{ u"Specified" };
+/// @brief Field ShouldSerializePrefix offset 0xffffffff size 0x8
+static constexpr ::ConstString  ShouldSerializePrefix{u"ShouldSerialize"};
 
-  /// @brief Field TypePropertyName offset 0xffffffff size 0x8
-  static constexpr ::ConstString TypePropertyName{ u"$type" };
+/// @brief Field SpecifiedPostfix offset 0xffffffff size 0x8
+static constexpr ::ConstString  SpecifiedPostfix{u"Specified"};
 
-  /// @brief Field ValuePropertyName offset 0xffffffff size 0x8
-  static constexpr ::ConstString ValuePropertyName{ u"$value" };
+/// @brief Field TypePropertyName offset 0xffffffff size 0x8
+static constexpr ::ConstString  TypePropertyName{u"$type"};
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13511 };
+/// @brief Field ValuePropertyName offset 0xffffffff size 0x8
+static constexpr ::ConstString  ValuePropertyName{u"$value"};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{13512};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Serialization::JsonTypeReflector, 0x10>, "Size mismatch!");
 
-} // namespace Newtonsoft::Json::Serialization
+} // namespace end def Newtonsoft::Json::Serialization
 NEED_NO_BOX(::Newtonsoft::Json::Serialization::JsonTypeReflector);
 DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Serialization::JsonTypeReflector*, "Newtonsoft.Json.Serialization", "JsonTypeReflector");
 NEED_NO_BOX(::Newtonsoft::Json::Serialization::JsonTypeReflector___c);

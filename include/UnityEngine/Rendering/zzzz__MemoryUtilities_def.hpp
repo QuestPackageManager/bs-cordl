@@ -21,35 +21,37 @@ namespace UnityEngine::Rendering {
 // CS Name: UnityEngine.Rendering.MemoryUtilities
 class CORDL_TYPE MemoryUtilities : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method Free, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline void Free(T* p, ::Unity::Collections::Allocator allocator);
+// Declarations
+/// @brief Method Free, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+template<typename T>
+static inline void Free(T*  p, ::Unity::Collections::Allocator  allocator) ;
 
-  /// @brief Method Malloc, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline T* Malloc(int32_t count, ::Unity::Collections::Allocator allocator);
+/// @brief Method Malloc, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+template<typename T>
+static inline T* Malloc(int32_t  count, ::Unity::Collections::Allocator  allocator) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MemoryUtilities();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr MemoryUtilities() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MemoryUtilities", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  MemoryUtilities(MemoryUtilities&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MemoryUtilities", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  MemoryUtilities(MemoryUtilities const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "MemoryUtilities", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+MemoryUtilities(MemoryUtilities && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17778 };
+// Ctor Parameters [CppParam { name: "", ty: "MemoryUtilities", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+MemoryUtilities(MemoryUtilities const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{17780};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::MemoryUtilities, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::Rendering
+} // namespace end def UnityEngine::Rendering
 NEED_NO_BOX(::UnityEngine::Rendering::MemoryUtilities);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::MemoryUtilities*, "UnityEngine.Rendering", "MemoryUtilities");

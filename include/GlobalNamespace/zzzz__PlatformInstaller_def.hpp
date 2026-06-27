@@ -73,7 +73,8 @@ namespace System::Threading::Tasks {
 class Task;
 }
 namespace System {
-template <typename T, typename TResult> class Func_2;
+template<typename T,typename TResult>
+class Func_2;
 }
 namespace Zenject {
 class DiContainer;
@@ -106,120 +107,113 @@ namespace GlobalNamespace {
 // CS Name: PlatformInstaller/<>c
 class CORDL_TYPE PlatformInstaller___c : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field <>9, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::GlobalNamespace::PlatformInstaller___c* __9;
+// Declarations
+/// @brief Field <>9, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF___9, put=setStaticF___9)) ::GlobalNamespace::PlatformInstaller___c*  __9;
 
-  /// @brief Field <>9__11_0, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9__11_0, put = setStaticF___9__11_0)) ::System::Func_2<::UnityW<::GlobalNamespace::AchievementSO>, ::StringW>* __9__11_0;
+/// @brief Field <>9__11_0, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF___9__11_0, put=setStaticF___9__11_0)) ::System::Func_2<::UnityW<::GlobalNamespace::AchievementSO>,::StringW>*  __9__11_0;
 
-  /// @brief Field <>9__12_0, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9__12_0, put = setStaticF___9__12_0)) ::System::Func_2<::UnityW<::GlobalNamespace::AchievementSO>, ::StringW>* __9__12_0;
+/// @brief Field <>9__12_0, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF___9__12_0, put=setStaticF___9__12_0)) ::System::Func_2<::UnityW<::GlobalNamespace::AchievementSO>,::StringW>*  __9__12_0;
 
-  static inline ::GlobalNamespace::PlatformInstaller___c* New_ctor();
+static inline ::GlobalNamespace::PlatformInstaller___c* New_ctor() ;
 
-  /// @brief Method <LoadResourcesBeforeInstallAsync>b__12_0, addr 0x36b431c, size 0x14, virtual false, abstract: false, final false
-  inline ::StringW _LoadResourcesBeforeInstallAsync_b__12_0(::GlobalNamespace::AchievementSO* x);
+/// @brief Method <LoadResourcesBeforeInstallAsync>b__12_0, addr 0x36b56b0, size 0x14, virtual false, abstract: false, final false
+inline ::StringW _LoadResourcesBeforeInstallAsync_b__12_0(::GlobalNamespace::AchievementSO*  x) ;
 
-  /// @brief Method <LoadResourcesBeforeInstall>b__11_0, addr 0x36b4308, size 0x14, virtual false, abstract: false, final false
-  inline ::StringW _LoadResourcesBeforeInstall_b__11_0(::GlobalNamespace::AchievementSO* x);
+/// @brief Method <LoadResourcesBeforeInstall>b__11_0, addr 0x36b569c, size 0x14, virtual false, abstract: false, final false
+inline ::StringW _LoadResourcesBeforeInstall_b__11_0(::GlobalNamespace::AchievementSO*  x) ;
 
-  /// @brief Method .ctor, addr 0x36b4304, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x36b5698, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  static inline ::GlobalNamespace::PlatformInstaller___c* getStaticF___9();
+static inline ::GlobalNamespace::PlatformInstaller___c* getStaticF___9() ;
 
-  static inline ::System::Func_2<::UnityW<::GlobalNamespace::AchievementSO>, ::StringW>* getStaticF___9__11_0();
+static inline ::System::Func_2<::UnityW<::GlobalNamespace::AchievementSO>,::StringW>* getStaticF___9__11_0() ;
 
-  static inline ::System::Func_2<::UnityW<::GlobalNamespace::AchievementSO>, ::StringW>* getStaticF___9__12_0();
+static inline ::System::Func_2<::UnityW<::GlobalNamespace::AchievementSO>,::StringW>* getStaticF___9__12_0() ;
 
-  static inline void setStaticF___9(::GlobalNamespace::PlatformInstaller___c* value);
+static inline void setStaticF___9(::GlobalNamespace::PlatformInstaller___c*  value) ;
 
-  static inline void setStaticF___9__11_0(::System::Func_2<::UnityW<::GlobalNamespace::AchievementSO>, ::StringW>* value);
+static inline void setStaticF___9__11_0(::System::Func_2<::UnityW<::GlobalNamespace::AchievementSO>,::StringW>*  value) ;
 
-  static inline void setStaticF___9__12_0(::System::Func_2<::UnityW<::GlobalNamespace::AchievementSO>, ::StringW>* value);
+static inline void setStaticF___9__12_0(::System::Func_2<::UnityW<::GlobalNamespace::AchievementSO>,::StringW>*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PlatformInstaller___c();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr PlatformInstaller___c() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlatformInstaller___c", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  PlatformInstaller___c(PlatformInstaller___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlatformInstaller___c", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  PlatformInstaller___c(PlatformInstaller___c const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "PlatformInstaller___c", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+PlatformInstaller___c(PlatformInstaller___c && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20949 };
+// Ctor Parameters [CppParam { name: "", ty: "PlatformInstaller___c", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+PlatformInstaller___c(PlatformInstaller___c const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20952};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PlatformInstaller___c, 0x10>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: PlatformInstaller/<InitializeAnalyticsEventsDispatcherAsync>d__15
 struct CORDL_TYPE PlatformInstaller__InitializeAnalyticsEventsDispatcherAsync_d__15 {
 public:
-  // Declarations
-  /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-  constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+// Declarations
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr operator  ::System::Runtime::CompilerServices::IAsyncStateMachine*() ;
 
-  /// @brief Method MoveNext, addr 0x36b4330, size 0x374, virtual true, abstract: false, final true
-  inline void MoveNext();
+/// @brief Method MoveNext, addr 0x36b56c4, size 0x374, virtual true, abstract: false, final true
+inline void MoveNext() ;
 
-  /// @brief Method SetStateMachine, addr 0x36b46a4, size 0x6c, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+/// @brief Method SetStateMachine, addr 0x36b5a38, size 0x6c, virtual true, abstract: false, final true
+inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine*  stateMachine) ;
 
-  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
+/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine() ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PlatformInstaller__InitializeAnalyticsEventsDispatcherAsync_d__15();
+// Ctor Parameters []
+// @brief default ctor
+constexpr PlatformInstaller__InitializeAnalyticsEventsDispatcherAsync_d__15() ;
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "platform", ty: "::OculusStudios::Platform::Core::IPlatform*", modifiers: "",
-  // def_value: None }, CppParam { name: "analyticsManager", ty: "::UnityW<::OSCE::Analytics::AnalyticsManager>", modifiers: "", def_value: None }, CppParam { name: "telemetry", ty:
-  // "::Analytics::Model::TelemetryModel*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>", modifiers: "", def_value:
-  // None }]
-  constexpr PlatformInstaller__InitializeAnalyticsEventsDispatcherAsync_d__15(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
-                                                                              ::OculusStudios::Platform::Core::IPlatform* platform, ::UnityW<::OSCE::Analytics::AnalyticsManager> analyticsManager,
-                                                                              ::Analytics::Model::TelemetryModel* telemetry,
-                                                                              ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW> __u__1) noexcept;
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty: "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "platform", ty: "::OculusStudios::Platform::Core::IPlatform*", modifiers: "", def_value: None }, CppParam { name: "analyticsManager", ty: "::UnityW<::OSCE::Analytics::AnalyticsManager>", modifiers: "", def_value: None }, CppParam { name: "telemetry", ty: "::Analytics::Model::TelemetryModel*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>", modifiers: "", def_value: None }]
+constexpr PlatformInstaller__InitializeAnalyticsEventsDispatcherAsync_d__15(int32_t  __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder  __t__builder, ::OculusStudios::Platform::Core::IPlatform*  platform, ::UnityW<::OSCE::Analytics::AnalyticsManager>  analyticsManager, ::Analytics::Model::TelemetryModel*  telemetry, ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>  __u__1) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20950 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20953};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x40};
 
-  /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
-  int32_t __1__state;
+/// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
+ int32_t  __1__state;
 
-  /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
-  ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder;
+/// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
+ ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder  __t__builder;
 
-  /// @brief Field platform, offset: 0x20, size: 0x8, def value: None
-  ::OculusStudios::Platform::Core::IPlatform* platform;
+/// @brief Field platform, offset: 0x20, size: 0x8, def value: None
+ ::OculusStudios::Platform::Core::IPlatform*  platform;
 
-  /// @brief Field analyticsManager, offset: 0x28, size: 0x8, def value: None
-  ::UnityW<::OSCE::Analytics::AnalyticsManager> analyticsManager;
+/// @brief Field analyticsManager, offset: 0x28, size: 0x8, def value: None
+ ::UnityW<::OSCE::Analytics::AnalyticsManager>  analyticsManager;
 
-  /// @brief Field telemetry, offset: 0x30, size: 0x8, def value: None
-  ::Analytics::Model::TelemetryModel* telemetry;
+/// @brief Field telemetry, offset: 0x30, size: 0x8, def value: None
+ ::Analytics::Model::TelemetryModel*  telemetry;
 
-  /// @brief Field <>u__1, offset: 0x38, size: 0x8, def value: None
-  ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW> __u__1;
+/// @brief Field <>u__1, offset: 0x38, size: 0x8, def value: None
+ ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>  __u__1;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::PlatformInstaller__InitializeAnalyticsEventsDispatcherAsync_d__15, __1__state) == 0x0, "Offset mismatch!");
@@ -236,56 +230,52 @@ static_assert(offsetof(::GlobalNamespace::PlatformInstaller__InitializeAnalytics
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PlatformInstaller__InitializeAnalyticsEventsDispatcherAsync_d__15, 0x40>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 // Dependencies System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: PlatformInstaller/<LoadResourcesBeforeInstall>d__11
 struct CORDL_TYPE PlatformInstaller__LoadResourcesBeforeInstall_d__11 {
 public:
-  // Declarations
-  /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-  constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+// Declarations
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr operator  ::System::Runtime::CompilerServices::IAsyncStateMachine*() ;
 
-  /// @brief Method MoveNext, addr 0x36b4710, size 0x4d4, virtual true, abstract: false, final true
-  inline void MoveNext();
+/// @brief Method MoveNext, addr 0x36b5aa4, size 0x4d4, virtual true, abstract: false, final true
+inline void MoveNext() ;
 
-  /// @brief Method SetStateMachine, addr 0x36b4bec, size 0x8, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+/// @brief Method SetStateMachine, addr 0x36b5f80, size 0x8, virtual true, abstract: false, final true
+inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine*  stateMachine) ;
 
-  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
+/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine() ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PlatformInstaller__LoadResourcesBeforeInstall_d__11();
+// Ctor Parameters []
+// @brief default ctor
+constexpr PlatformInstaller__LoadResourcesBeforeInstall_d__11() ;
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::PlatformInstaller>", modifiers: "",
-  // def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::OculusStudios::Platform::Core::IPlatform*>", modifiers: "", def_value: None }]
-  constexpr PlatformInstaller__LoadResourcesBeforeInstall_d__11(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
-                                                                ::UnityW<::GlobalNamespace::PlatformInstaller> __4__this,
-                                                                ::System::Runtime::CompilerServices::TaskAwaiter_1<::OculusStudios::Platform::Core::IPlatform*> __u__1) noexcept;
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty: "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::PlatformInstaller>", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::OculusStudios::Platform::Core::IPlatform*>", modifiers: "", def_value: None }]
+constexpr PlatformInstaller__LoadResourcesBeforeInstall_d__11(int32_t  __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder  __t__builder, ::UnityW<::GlobalNamespace::PlatformInstaller>  __4__this, ::System::Runtime::CompilerServices::TaskAwaiter_1<::OculusStudios::Platform::Core::IPlatform*>  __u__1) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20951 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20954};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x38};
 
-  /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
-  int32_t __1__state;
+/// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
+ int32_t  __1__state;
 
-  /// @brief Field <>t__builder, offset: 0x8, size: 0x20, def value: None
-  ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder;
+/// @brief Field <>t__builder, offset: 0x8, size: 0x20, def value: None
+ ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder  __t__builder;
 
-  /// @brief Field <>4__this, offset: 0x28, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::PlatformInstaller> __4__this;
+/// @brief Field <>4__this, offset: 0x28, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::PlatformInstaller>  __4__this;
 
-  /// @brief Field <>u__1, offset: 0x30, size: 0x8, def value: None
-  ::System::Runtime::CompilerServices::TaskAwaiter_1<::OculusStudios::Platform::Core::IPlatform*> __u__1;
+/// @brief Field <>u__1, offset: 0x30, size: 0x8, def value: None
+ ::System::Runtime::CompilerServices::TaskAwaiter_1<::OculusStudios::Platform::Core::IPlatform*>  __u__1;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::PlatformInstaller__LoadResourcesBeforeInstall_d__11, __1__state) == 0x0, "Offset mismatch!");
@@ -298,65 +288,58 @@ static_assert(offsetof(::GlobalNamespace::PlatformInstaller__LoadResourcesBefore
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PlatformInstaller__LoadResourcesBeforeInstall_d__11, 0x38>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: PlatformInstaller/<LoadResourcesBeforeInstallAsync>d__12
 struct CORDL_TYPE PlatformInstaller__LoadResourcesBeforeInstallAsync_d__12 {
 public:
-  // Declarations
-  /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-  constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+// Declarations
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr operator  ::System::Runtime::CompilerServices::IAsyncStateMachine*() ;
 
-  /// @brief Method MoveNext, addr 0x36b4bf4, size 0x7b0, virtual true, abstract: false, final true
-  inline void MoveNext();
+/// @brief Method MoveNext, addr 0x36b5f88, size 0x7b0, virtual true, abstract: false, final true
+inline void MoveNext() ;
 
-  /// @brief Method SetStateMachine, addr 0x36b53a4, size 0x6c, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+/// @brief Method SetStateMachine, addr 0x36b6738, size 0x6c, virtual true, abstract: false, final true
+inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine*  stateMachine) ;
 
-  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
+/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine() ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PlatformInstaller__LoadResourcesBeforeInstallAsync_d__12();
+// Ctor Parameters []
+// @brief default ctor
+constexpr PlatformInstaller__LoadResourcesBeforeInstallAsync_d__12() ;
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::PlatformInstaller>", modifiers: "",
-  // def_value: None }, CppParam { name: "container", ty: "::Zenject::DiContainer*", modifiers: "", def_value: None }, CppParam { name: "_stopWatch_5__2", ty: "::System::Diagnostics::Stopwatch*",
-  // modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::OculusStudios::Platform::Core::IPlatform*>", modifiers: "", def_value: None
-  // }]
-  constexpr PlatformInstaller__LoadResourcesBeforeInstallAsync_d__12(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
-                                                                     ::UnityW<::GlobalNamespace::PlatformInstaller> __4__this, ::Zenject::DiContainer* container,
-                                                                     ::System::Diagnostics::Stopwatch* _stopWatch_5__2,
-                                                                     ::System::Runtime::CompilerServices::TaskAwaiter_1<::OculusStudios::Platform::Core::IPlatform*> __u__1) noexcept;
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty: "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::PlatformInstaller>", modifiers: "", def_value: None }, CppParam { name: "container", ty: "::Zenject::DiContainer*", modifiers: "", def_value: None }, CppParam { name: "_stopWatch_5__2", ty: "::System::Diagnostics::Stopwatch*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::OculusStudios::Platform::Core::IPlatform*>", modifiers: "", def_value: None }]
+constexpr PlatformInstaller__LoadResourcesBeforeInstallAsync_d__12(int32_t  __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder  __t__builder, ::UnityW<::GlobalNamespace::PlatformInstaller>  __4__this, ::Zenject::DiContainer*  container, ::System::Diagnostics::Stopwatch*  _stopWatch_5__2, ::System::Runtime::CompilerServices::TaskAwaiter_1<::OculusStudios::Platform::Core::IPlatform*>  __u__1) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20952 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20955};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x40};
 
-  /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
-  int32_t __1__state;
+/// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
+ int32_t  __1__state;
 
-  /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
-  ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder;
+/// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
+ ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder  __t__builder;
 
-  /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::PlatformInstaller> __4__this;
+/// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::PlatformInstaller>  __4__this;
 
-  /// @brief Field container, offset: 0x28, size: 0x8, def value: None
-  ::Zenject::DiContainer* container;
+/// @brief Field container, offset: 0x28, size: 0x8, def value: None
+ ::Zenject::DiContainer*  container;
 
-  /// @brief Field <stopWatch>5__2, offset: 0x30, size: 0x8, def value: None
-  ::System::Diagnostics::Stopwatch* _stopWatch_5__2;
+/// @brief Field <stopWatch>5__2, offset: 0x30, size: 0x8, def value: None
+ ::System::Diagnostics::Stopwatch*  _stopWatch_5__2;
 
-  /// @brief Field <>u__1, offset: 0x38, size: 0x8, def value: None
-  ::System::Runtime::CompilerServices::TaskAwaiter_1<::OculusStudios::Platform::Core::IPlatform*> __u__1;
+/// @brief Field <>u__1, offset: 0x38, size: 0x8, def value: None
+ ::System::Runtime::CompilerServices::TaskAwaiter_1<::OculusStudios::Platform::Core::IPlatform*>  __u__1;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::PlatformInstaller__LoadResourcesBeforeInstallAsync_d__12, __1__state) == 0x0, "Offset mismatch!");
@@ -373,181 +356,176 @@ static_assert(offsetof(::GlobalNamespace::PlatformInstaller__LoadResourcesBefore
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PlatformInstaller__LoadResourcesBeforeInstallAsync_d__12, 0x40>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 // Dependencies BGLib.AppFlow.Initialization.AsyncInstaller
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: PlatformInstaller
 class CORDL_TYPE PlatformInstaller : public ::BGLib::AppFlow::Initialization::AsyncInstaller {
 public:
-  // Declarations
-  using _InitializeAnalyticsEventsDispatcherAsync_d__15 = ::GlobalNamespace::PlatformInstaller__InitializeAnalyticsEventsDispatcherAsync_d__15;
+// Declarations
+using _InitializeAnalyticsEventsDispatcherAsync_d__15 = ::GlobalNamespace::PlatformInstaller__InitializeAnalyticsEventsDispatcherAsync_d__15;
 
-  using _LoadResourcesBeforeInstallAsync_d__12 = ::GlobalNamespace::PlatformInstaller__LoadResourcesBeforeInstallAsync_d__12;
+using _LoadResourcesBeforeInstallAsync_d__12 = ::GlobalNamespace::PlatformInstaller__LoadResourcesBeforeInstallAsync_d__12;
 
-  using _LoadResourcesBeforeInstall_d__11 = ::GlobalNamespace::PlatformInstaller__LoadResourcesBeforeInstall_d__11;
+using _LoadResourcesBeforeInstall_d__11 = ::GlobalNamespace::PlatformInstaller__LoadResourcesBeforeInstall_d__11;
 
-  using __c = ::GlobalNamespace::PlatformInstaller___c;
+using __c = ::GlobalNamespace::PlatformInstaller___c;
 
-  /// @brief Field _achievementIdsModel, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__achievementIdsModel, put = __cordl_internal_set__achievementIdsModel)) ::UnityW<::GlobalNamespace::AchievementIdsModelSO> _achievementIdsModel;
+/// @brief Field _achievementIdsModel, offset 0x40, size 0x8 
+ __declspec(property(get=__cordl_internal_get__achievementIdsModel, put=__cordl_internal_set__achievementIdsModel)) ::UnityW<::GlobalNamespace::AchievementIdsModelSO>  _achievementIdsModel;
 
-  /// @brief Field _analyticsManager, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get__analyticsManager, put = __cordl_internal_set__analyticsManager)) ::UnityW<::OSCE::Analytics::AnalyticsManager> _analyticsManager;
+/// @brief Field _analyticsManager, offset 0x68, size 0x8 
+ __declspec(property(get=__cordl_internal_get__analyticsManager, put=__cordl_internal_set__analyticsManager)) ::UnityW<::OSCE::Analytics::AnalyticsManager>  _analyticsManager;
 
-  /// @brief Field _appIdentification, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__appIdentification, put = __cordl_internal_set__appIdentification)) ::UnityW<::GlobalNamespace::AppIdentificationSO> _appIdentification;
+/// @brief Field _appIdentification, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get__appIdentification, put=__cordl_internal_set__appIdentification)) ::UnityW<::GlobalNamespace::AppIdentificationSO>  _appIdentification;
 
-  /// @brief Field _graphQLClientProviderInstaller, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get__graphQLClientProviderInstaller,
-                      put = __cordl_internal_set__graphQLClientProviderInstaller)) ::UnityW<::BeatSaber::GraphQL::GraphQLClientProviderInstallerSO>
-      _graphQLClientProviderInstaller;
+/// @brief Field _graphQLClientProviderInstaller, offset 0x50, size 0x8 
+ __declspec(property(get=__cordl_internal_get__graphQLClientProviderInstaller, put=__cordl_internal_set__graphQLClientProviderInstaller)) ::UnityW<::BeatSaber::GraphQL::GraphQLClientProviderInstallerSO>  _graphQLClientProviderInstaller;
 
-  /// @brief Field _loggingCategory, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get__loggingCategory, put = __cordl_internal_set__loggingCategory)) ::StringW _loggingCategory;
+/// @brief Field _loggingCategory, offset 0x60, size 0x8 
+ __declspec(property(get=__cordl_internal_get__loggingCategory, put=__cordl_internal_set__loggingCategory)) ::StringW  _loggingCategory;
 
-  /// @brief Field _mockPlatformAdditionalContentModelInitialData, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__mockPlatformAdditionalContentModelInitialData,
-                      put = __cordl_internal_set__mockPlatformAdditionalContentModelInitialData)) ::UnityW<::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO>
-      _mockPlatformAdditionalContentModelInitialData;
+/// @brief Field _mockPlatformAdditionalContentModelInitialData, offset 0x48, size 0x8 
+ __declspec(property(get=__cordl_internal_get__mockPlatformAdditionalContentModelInitialData, put=__cordl_internal_set__mockPlatformAdditionalContentModelInitialData)) ::UnityW<::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO>  _mockPlatformAdditionalContentModelInitialData;
 
-  /// @brief Field _networkConfig, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__networkConfig, put = __cordl_internal_set__networkConfig)) ::UnityW<::GlobalNamespace::NetworkConfigSO> _networkConfig;
+/// @brief Field _networkConfig, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get__networkConfig, put=__cordl_internal_set__networkConfig)) ::UnityW<::GlobalNamespace::NetworkConfigSO>  _networkConfig;
 
-  /// @brief Field _platform, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get__platform, put = __cordl_internal_set__platform)) ::OculusStudios::Platform::Core::IPlatform* _platform;
+/// @brief Field _platform, offset 0x58, size 0x8 
+ __declspec(property(get=__cordl_internal_get__platform, put=__cordl_internal_set__platform)) ::OculusStudios::Platform::Core::IPlatform*  _platform;
 
-  /// @brief Field _setupData, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__setupData, put = __cordl_internal_set__setupData)) ::GlobalNamespace::AppInitSetupData* _setupData;
+/// @brief Field _setupData, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get__setupData, put=__cordl_internal_set__setupData)) ::GlobalNamespace::AppInitSetupData*  _setupData;
 
-  __declspec(property(get = get_isRunningFromTests)) bool isRunningFromTests;
+ __declspec(property(get=get_isRunningFromTests)) bool  isRunningFromTests;
 
-  /// @brief Method FindOrCreateAnalyticsManager, addr 0x36b3d20, size 0x124, virtual false, abstract: false, final false
-  static inline ::UnityW<::OSCE::Analytics::AnalyticsManager> FindOrCreateAnalyticsManager();
+/// @brief Method FindOrCreateAnalyticsManager, addr 0x36b50b4, size 0x124, virtual false, abstract: false, final false
+static inline ::UnityW<::OSCE::Analytics::AnalyticsManager> FindOrCreateAnalyticsManager() ;
 
-  /// @brief Method InitializeAnalyticsEventsDispatcherAsync, addr 0x36b4160, size 0xc4, virtual false, abstract: false, final false
-  static inline ::System::Threading::Tasks::Task* InitializeAnalyticsEventsDispatcherAsync(::Analytics::Model::TelemetryModel* telemetry, ::OculusStudios::Platform::Core::IPlatform* platform,
-                                                                                           ::OSCE::Analytics::AnalyticsManager* analyticsManager);
+/// @brief Method InitializeAnalyticsEventsDispatcherAsync, addr 0x36b54f4, size 0xc4, virtual false, abstract: false, final false
+static inline ::System::Threading::Tasks::Task* InitializeAnalyticsEventsDispatcherAsync(::Analytics::Model::TelemetryModel*  telemetry, ::OculusStudios::Platform::Core::IPlatform*  platform, ::OSCE::Analytics::AnalyticsManager*  analyticsManager) ;
 
-  /// @brief Method InstallBindings, addr 0x36b3e44, size 0x31c, virtual true, abstract: false, final false
-  inline void InstallBindings();
+/// @brief Method InstallBindings, addr 0x36b51d8, size 0x31c, virtual true, abstract: false, final false
+inline void InstallBindings() ;
 
-  /// @brief Method LoadResourcesBeforeInstall, addr 0x36b3bbc, size 0xa4, virtual true, abstract: false, final false
-  inline void LoadResourcesBeforeInstall(::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry* registry, ::Zenject::DiContainer* container);
+/// @brief Method LoadResourcesBeforeInstall, addr 0x36b4f50, size 0xa4, virtual true, abstract: false, final false
+inline void LoadResourcesBeforeInstall(::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry*  registry, ::Zenject::DiContainer*  container) ;
 
-  /// @brief Method LoadResourcesBeforeInstallAsync, addr 0x36b3c60, size 0xc0, virtual true, abstract: false, final false
-  inline ::System::Threading::Tasks::Task* LoadResourcesBeforeInstallAsync(::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry* registry, ::Zenject::DiContainer* container);
+/// @brief Method LoadResourcesBeforeInstallAsync, addr 0x36b4ff4, size 0xc0, virtual true, abstract: false, final false
+inline ::System::Threading::Tasks::Task* LoadResourcesBeforeInstallAsync(::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry*  registry, ::Zenject::DiContainer*  container) ;
 
-  static inline ::GlobalNamespace::PlatformInstaller* New_ctor();
+static inline ::GlobalNamespace::PlatformInstaller* New_ctor() ;
 
-  /// @brief Method <InstallBindings>b__14_0, addr 0x36b4228, size 0x88, virtual false, abstract: false, final false
-  inline ::BeatSaber::Analytics::Gameplay::GameplayEventsDispatcher* _InstallBindings_b__14_0(::BeatSaber::FeatureFlags::IFeatureFlagService* featureFlagService);
+/// @brief Method <InstallBindings>b__14_0, addr 0x36b55bc, size 0x88, virtual false, abstract: false, final false
+inline ::BeatSaber::Analytics::Gameplay::GameplayEventsDispatcher* _InstallBindings_b__14_0(::BeatSaber::FeatureFlags::IFeatureFlagService*  featureFlagService) ;
 
-  constexpr ::UnityW<::GlobalNamespace::AchievementIdsModelSO> const& __cordl_internal_get__achievementIdsModel() const;
+constexpr ::UnityW<::GlobalNamespace::AchievementIdsModelSO> const& __cordl_internal_get__achievementIdsModel() const;
 
-  constexpr ::UnityW<::GlobalNamespace::AchievementIdsModelSO>& __cordl_internal_get__achievementIdsModel();
+constexpr ::UnityW<::GlobalNamespace::AchievementIdsModelSO>& __cordl_internal_get__achievementIdsModel() ;
 
-  constexpr ::UnityW<::OSCE::Analytics::AnalyticsManager> const& __cordl_internal_get__analyticsManager() const;
+constexpr ::UnityW<::OSCE::Analytics::AnalyticsManager> const& __cordl_internal_get__analyticsManager() const;
 
-  constexpr ::UnityW<::OSCE::Analytics::AnalyticsManager>& __cordl_internal_get__analyticsManager();
+constexpr ::UnityW<::OSCE::Analytics::AnalyticsManager>& __cordl_internal_get__analyticsManager() ;
 
-  constexpr ::UnityW<::GlobalNamespace::AppIdentificationSO> const& __cordl_internal_get__appIdentification() const;
+constexpr ::UnityW<::GlobalNamespace::AppIdentificationSO> const& __cordl_internal_get__appIdentification() const;
 
-  constexpr ::UnityW<::GlobalNamespace::AppIdentificationSO>& __cordl_internal_get__appIdentification();
+constexpr ::UnityW<::GlobalNamespace::AppIdentificationSO>& __cordl_internal_get__appIdentification() ;
 
-  constexpr ::UnityW<::BeatSaber::GraphQL::GraphQLClientProviderInstallerSO> const& __cordl_internal_get__graphQLClientProviderInstaller() const;
+constexpr ::UnityW<::BeatSaber::GraphQL::GraphQLClientProviderInstallerSO> const& __cordl_internal_get__graphQLClientProviderInstaller() const;
 
-  constexpr ::UnityW<::BeatSaber::GraphQL::GraphQLClientProviderInstallerSO>& __cordl_internal_get__graphQLClientProviderInstaller();
+constexpr ::UnityW<::BeatSaber::GraphQL::GraphQLClientProviderInstallerSO>& __cordl_internal_get__graphQLClientProviderInstaller() ;
 
-  constexpr ::StringW const& __cordl_internal_get__loggingCategory() const;
+constexpr ::StringW const& __cordl_internal_get__loggingCategory() const;
 
-  constexpr ::StringW& __cordl_internal_get__loggingCategory();
+constexpr ::StringW& __cordl_internal_get__loggingCategory() ;
 
-  constexpr ::UnityW<::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO> const& __cordl_internal_get__mockPlatformAdditionalContentModelInitialData() const;
+constexpr ::UnityW<::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO> const& __cordl_internal_get__mockPlatformAdditionalContentModelInitialData() const;
 
-  constexpr ::UnityW<::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO>& __cordl_internal_get__mockPlatformAdditionalContentModelInitialData();
+constexpr ::UnityW<::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO>& __cordl_internal_get__mockPlatformAdditionalContentModelInitialData() ;
 
-  constexpr ::UnityW<::GlobalNamespace::NetworkConfigSO> const& __cordl_internal_get__networkConfig() const;
+constexpr ::UnityW<::GlobalNamespace::NetworkConfigSO> const& __cordl_internal_get__networkConfig() const;
 
-  constexpr ::UnityW<::GlobalNamespace::NetworkConfigSO>& __cordl_internal_get__networkConfig();
+constexpr ::UnityW<::GlobalNamespace::NetworkConfigSO>& __cordl_internal_get__networkConfig() ;
 
-  constexpr ::OculusStudios::Platform::Core::IPlatform* const& __cordl_internal_get__platform() const;
+constexpr ::OculusStudios::Platform::Core::IPlatform* const& __cordl_internal_get__platform() const;
 
-  constexpr ::OculusStudios::Platform::Core::IPlatform*& __cordl_internal_get__platform();
+constexpr ::OculusStudios::Platform::Core::IPlatform*& __cordl_internal_get__platform() ;
 
-  constexpr ::GlobalNamespace::AppInitSetupData* const& __cordl_internal_get__setupData() const;
+constexpr ::GlobalNamespace::AppInitSetupData* const& __cordl_internal_get__setupData() const;
 
-  constexpr ::GlobalNamespace::AppInitSetupData*& __cordl_internal_get__setupData();
+constexpr ::GlobalNamespace::AppInitSetupData*& __cordl_internal_get__setupData() ;
 
-  constexpr void __cordl_internal_set__achievementIdsModel(::UnityW<::GlobalNamespace::AchievementIdsModelSO> value);
+constexpr void __cordl_internal_set__achievementIdsModel(::UnityW<::GlobalNamespace::AchievementIdsModelSO>  value) ;
 
-  constexpr void __cordl_internal_set__analyticsManager(::UnityW<::OSCE::Analytics::AnalyticsManager> value);
+constexpr void __cordl_internal_set__analyticsManager(::UnityW<::OSCE::Analytics::AnalyticsManager>  value) ;
 
-  constexpr void __cordl_internal_set__appIdentification(::UnityW<::GlobalNamespace::AppIdentificationSO> value);
+constexpr void __cordl_internal_set__appIdentification(::UnityW<::GlobalNamespace::AppIdentificationSO>  value) ;
 
-  constexpr void __cordl_internal_set__graphQLClientProviderInstaller(::UnityW<::BeatSaber::GraphQL::GraphQLClientProviderInstallerSO> value);
+constexpr void __cordl_internal_set__graphQLClientProviderInstaller(::UnityW<::BeatSaber::GraphQL::GraphQLClientProviderInstallerSO>  value) ;
 
-  constexpr void __cordl_internal_set__loggingCategory(::StringW value);
+constexpr void __cordl_internal_set__loggingCategory(::StringW  value) ;
 
-  constexpr void __cordl_internal_set__mockPlatformAdditionalContentModelInitialData(::UnityW<::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO> value);
+constexpr void __cordl_internal_set__mockPlatformAdditionalContentModelInitialData(::UnityW<::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO>  value) ;
 
-  constexpr void __cordl_internal_set__networkConfig(::UnityW<::GlobalNamespace::NetworkConfigSO> value);
+constexpr void __cordl_internal_set__networkConfig(::UnityW<::GlobalNamespace::NetworkConfigSO>  value) ;
 
-  constexpr void __cordl_internal_set__platform(::OculusStudios::Platform::Core::IPlatform* value);
+constexpr void __cordl_internal_set__platform(::OculusStudios::Platform::Core::IPlatform*  value) ;
 
-  constexpr void __cordl_internal_set__setupData(::GlobalNamespace::AppInitSetupData* value);
+constexpr void __cordl_internal_set__setupData(::GlobalNamespace::AppInitSetupData*  value) ;
 
-  /// @brief Method .ctor, addr 0x36b4224, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x36b55b8, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_isRunningFromTests, addr 0x36b3b9c, size 0x20, virtual false, abstract: false, final false
-  inline bool get_isRunningFromTests();
+/// @brief Method get_isRunningFromTests, addr 0x36b4f30, size 0x20, virtual false, abstract: false, final false
+inline bool get_isRunningFromTests() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PlatformInstaller();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr PlatformInstaller() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlatformInstaller", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  PlatformInstaller(PlatformInstaller&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlatformInstaller", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  PlatformInstaller(PlatformInstaller const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "PlatformInstaller", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+PlatformInstaller(PlatformInstaller && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20953 };
+// Ctor Parameters [CppParam { name: "", ty: "PlatformInstaller", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+PlatformInstaller(PlatformInstaller const& ) = delete;
 
-  /// @brief Field _setupData, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::AppInitSetupData* ____setupData;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20956};
 
-  /// @brief Field _appIdentification, offset: 0x30, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::AppIdentificationSO> ____appIdentification;
+/// @brief Field _setupData, offset: 0x28, size: 0x8, def value: None
+ ::GlobalNamespace::AppInitSetupData*  ____setupData;
 
-  /// @brief Field _networkConfig, offset: 0x38, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::NetworkConfigSO> ____networkConfig;
+/// @brief Field _appIdentification, offset: 0x30, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::AppIdentificationSO>  ____appIdentification;
 
-  /// @brief Field _achievementIdsModel, offset: 0x40, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::AchievementIdsModelSO> ____achievementIdsModel;
+/// @brief Field _networkConfig, offset: 0x38, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::NetworkConfigSO>  ____networkConfig;
 
-  /// @brief Field _mockPlatformAdditionalContentModelInitialData, offset: 0x48, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO> ____mockPlatformAdditionalContentModelInitialData;
+/// @brief Field _achievementIdsModel, offset: 0x40, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::AchievementIdsModelSO>  ____achievementIdsModel;
 
-  /// @brief Field _graphQLClientProviderInstaller, offset: 0x50, size: 0x8, def value: None
-  ::UnityW<::BeatSaber::GraphQL::GraphQLClientProviderInstallerSO> ____graphQLClientProviderInstaller;
+/// @brief Field _mockPlatformAdditionalContentModelInitialData, offset: 0x48, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO>  ____mockPlatformAdditionalContentModelInitialData;
 
-  /// @brief Field _platform, offset: 0x58, size: 0x8, def value: None
-  ::OculusStudios::Platform::Core::IPlatform* ____platform;
+/// @brief Field _graphQLClientProviderInstaller, offset: 0x50, size: 0x8, def value: None
+ ::UnityW<::BeatSaber::GraphQL::GraphQLClientProviderInstallerSO>  ____graphQLClientProviderInstaller;
 
-  /// @brief Field _loggingCategory, offset: 0x60, size: 0x8, def value: None
-  ::StringW ____loggingCategory;
+/// @brief Field _platform, offset: 0x58, size: 0x8, def value: None
+ ::OculusStudios::Platform::Core::IPlatform*  ____platform;
 
-  /// @brief Field _analyticsManager, offset: 0x68, size: 0x8, def value: None
-  ::UnityW<::OSCE::Analytics::AnalyticsManager> ____analyticsManager;
+/// @brief Field _loggingCategory, offset: 0x60, size: 0x8, def value: None
+ ::StringW  ____loggingCategory;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _analyticsManager, offset: 0x68, size: 0x8, def value: None
+ ::UnityW<::OSCE::Analytics::AnalyticsManager>  ____analyticsManager;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::PlatformInstaller, ____setupData) == 0x28, "Offset mismatch!");
@@ -570,7 +548,7 @@ static_assert(offsetof(::GlobalNamespace::PlatformInstaller, ____analyticsManage
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PlatformInstaller, 0x70>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::PlatformInstaller);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PlatformInstaller*, "", "PlatformInstaller");
 NEED_NO_BOX(::GlobalNamespace::PlatformInstaller___c);

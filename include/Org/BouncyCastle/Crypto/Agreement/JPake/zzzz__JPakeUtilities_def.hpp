@@ -34,151 +34,135 @@ namespace Org::BouncyCastle::Crypto::Agreement::JPake {
 // CS Name: Org.BouncyCastle.Crypto.Agreement.JPake.JPakeUtilities
 class CORDL_TYPE JPakeUtilities : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field One, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_One, put = setStaticF_One)) ::Org::BouncyCastle::Math::BigInteger* One;
+// Declarations
+/// @brief Field One, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_One, put=setStaticF_One)) ::Org::BouncyCastle::Math::BigInteger*  One;
 
-  /// @brief Field Zero, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_Zero, put = setStaticF_Zero)) ::Org::BouncyCastle::Math::BigInteger* Zero;
+/// @brief Field Zero, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_Zero, put=setStaticF_Zero)) ::Org::BouncyCastle::Math::BigInteger*  Zero;
 
-  /// @brief Method CalculateA, addr 0x361e9b8, size 0x24, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Math::BigInteger* CalculateA(::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* q, ::Org::BouncyCastle::Math::BigInteger* gA,
-                                                                  ::Org::BouncyCastle::Math::BigInteger* x2s);
+/// @brief Method CalculateA, addr 0x361f754, size 0x24, virtual false, abstract: false, final false
+static inline ::Org::BouncyCastle::Math::BigInteger* CalculateA(::Org::BouncyCastle::Math::BigInteger*  p, ::Org::BouncyCastle::Math::BigInteger*  q, ::Org::BouncyCastle::Math::BigInteger*  gA, ::Org::BouncyCastle::Math::BigInteger*  x2s) ;
 
-  /// @brief Method CalculateGA, addr 0x361e8a8, size 0x50, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Math::BigInteger* CalculateGA(::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* gx1, ::Org::BouncyCastle::Math::BigInteger* gx3,
-                                                                   ::Org::BouncyCastle::Math::BigInteger* gx4);
+/// @brief Method CalculateGA, addr 0x361f644, size 0x50, virtual false, abstract: false, final false
+static inline ::Org::BouncyCastle::Math::BigInteger* CalculateGA(::Org::BouncyCastle::Math::BigInteger*  p, ::Org::BouncyCastle::Math::BigInteger*  gx1, ::Org::BouncyCastle::Math::BigInteger*  gx3, ::Org::BouncyCastle::Math::BigInteger*  gx4) ;
 
-  /// @brief Method CalculateGx, addr 0x361dd60, size 0x24, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Math::BigInteger* CalculateGx(::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* g, ::Org::BouncyCastle::Math::BigInteger* x);
+/// @brief Method CalculateGx, addr 0x361eafc, size 0x24, virtual false, abstract: false, final false
+static inline ::Org::BouncyCastle::Math::BigInteger* CalculateGx(::Org::BouncyCastle::Math::BigInteger*  p, ::Org::BouncyCastle::Math::BigInteger*  g, ::Org::BouncyCastle::Math::BigInteger*  x) ;
 
-  /// @brief Method CalculateHashForZeroKnowledgeProof, addr 0x36200ac, size 0x190, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Math::BigInteger* CalculateHashForZeroKnowledgeProof(::Org::BouncyCastle::Math::BigInteger* g, ::Org::BouncyCastle::Math::BigInteger* gr,
-                                                                                          ::Org::BouncyCastle::Math::BigInteger* gx, ::StringW participantId,
-                                                                                          ::Org::BouncyCastle::Crypto::IDigest* digest);
+/// @brief Method CalculateHashForZeroKnowledgeProof, addr 0x3620e48, size 0x190, virtual false, abstract: false, final false
+static inline ::Org::BouncyCastle::Math::BigInteger* CalculateHashForZeroKnowledgeProof(::Org::BouncyCastle::Math::BigInteger*  g, ::Org::BouncyCastle::Math::BigInteger*  gr, ::Org::BouncyCastle::Math::BigInteger*  gx, ::StringW  participantId, ::Org::BouncyCastle::Crypto::IDigest*  digest) ;
 
-  /// @brief Method CalculateKeyingMaterial, addr 0x361f090, size 0x9c, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Math::BigInteger* CalculateKeyingMaterial(::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* q,
-                                                                               ::Org::BouncyCastle::Math::BigInteger* gx4, ::Org::BouncyCastle::Math::BigInteger* x2,
-                                                                               ::Org::BouncyCastle::Math::BigInteger* s, ::Org::BouncyCastle::Math::BigInteger* B);
+/// @brief Method CalculateKeyingMaterial, addr 0x361fe2c, size 0x9c, virtual false, abstract: false, final false
+static inline ::Org::BouncyCastle::Math::BigInteger* CalculateKeyingMaterial(::Org::BouncyCastle::Math::BigInteger*  p, ::Org::BouncyCastle::Math::BigInteger*  q, ::Org::BouncyCastle::Math::BigInteger*  gx4, ::Org::BouncyCastle::Math::BigInteger*  x2, ::Org::BouncyCastle::Math::BigInteger*  s, ::Org::BouncyCastle::Math::BigInteger*  B) ;
 
-  /// @brief Method CalculateMacKey, addr 0x3620354, size 0x13c, virtual false, abstract: false, final false
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> CalculateMacKey(::Org::BouncyCastle::Math::BigInteger* keyingMaterial, ::Org::BouncyCastle::Crypto::IDigest* digest);
+/// @brief Method CalculateMacKey, addr 0x36210f0, size 0x13c, virtual false, abstract: false, final false
+static inline ::ArrayW<uint8_t,::Array<uint8_t>*> CalculateMacKey(::Org::BouncyCastle::Math::BigInteger*  keyingMaterial, ::Org::BouncyCastle::Crypto::IDigest*  digest) ;
 
-  /// @brief Method CalculateMacTag, addr 0x361f304, size 0x238, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Math::BigInteger* CalculateMacTag(::StringW participantId, ::StringW partnerParticipantId, ::Org::BouncyCastle::Math::BigInteger* gx1,
-                                                                       ::Org::BouncyCastle::Math::BigInteger* gx2, ::Org::BouncyCastle::Math::BigInteger* gx3,
-                                                                       ::Org::BouncyCastle::Math::BigInteger* gx4, ::Org::BouncyCastle::Math::BigInteger* keyingMaterial,
-                                                                       ::Org::BouncyCastle::Crypto::IDigest* digest);
+/// @brief Method CalculateMacTag, addr 0x36200a0, size 0x238, virtual false, abstract: false, final false
+static inline ::Org::BouncyCastle::Math::BigInteger* CalculateMacTag(::StringW  participantId, ::StringW  partnerParticipantId, ::Org::BouncyCastle::Math::BigInteger*  gx1, ::Org::BouncyCastle::Math::BigInteger*  gx2, ::Org::BouncyCastle::Math::BigInteger*  gx3, ::Org::BouncyCastle::Math::BigInteger*  gx4, ::Org::BouncyCastle::Math::BigInteger*  keyingMaterial, ::Org::BouncyCastle::Crypto::IDigest*  digest) ;
 
-  /// @brief Method CalculateS, addr 0x361e8f8, size 0x8c, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Math::BigInteger* CalculateS(::ArrayW<char16_t, ::Array<char16_t>*> password);
+/// @brief Method CalculateS, addr 0x361f694, size 0x8c, virtual false, abstract: false, final false
+static inline ::Org::BouncyCastle::Math::BigInteger* CalculateS(::ArrayW<char16_t,::Array<char16_t>*>  password) ;
 
-  /// @brief Method CalculateX2s, addr 0x361e984, size 0x34, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Math::BigInteger* CalculateX2s(::Org::BouncyCastle::Math::BigInteger* q, ::Org::BouncyCastle::Math::BigInteger* x2, ::Org::BouncyCastle::Math::BigInteger* s);
+/// @brief Method CalculateX2s, addr 0x361f720, size 0x34, virtual false, abstract: false, final false
+static inline ::Org::BouncyCastle::Math::BigInteger* CalculateX2s(::Org::BouncyCastle::Math::BigInteger*  q, ::Org::BouncyCastle::Math::BigInteger*  x2, ::Org::BouncyCastle::Math::BigInteger*  s) ;
 
-  /// @brief Method CalculateZeroKnowledgeProof, addr 0x361dd84, size 0x1cc, virtual false, abstract: false, final false
-  static inline ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*>
-  CalculateZeroKnowledgeProof(::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* q, ::Org::BouncyCastle::Math::BigInteger* g, ::Org::BouncyCastle::Math::BigInteger* gx,
-                              ::Org::BouncyCastle::Math::BigInteger* x, ::StringW participantId, ::Org::BouncyCastle::Crypto::IDigest* digest, ::Org::BouncyCastle::Security::SecureRandom* random);
+/// @brief Method CalculateZeroKnowledgeProof, addr 0x361eb20, size 0x1cc, virtual false, abstract: false, final false
+static inline ::ArrayW<::Org::BouncyCastle::Math::BigInteger*,::Array<::Org::BouncyCastle::Math::BigInteger*>*> CalculateZeroKnowledgeProof(::Org::BouncyCastle::Math::BigInteger*  p, ::Org::BouncyCastle::Math::BigInteger*  q, ::Org::BouncyCastle::Math::BigInteger*  g, ::Org::BouncyCastle::Math::BigInteger*  gx, ::Org::BouncyCastle::Math::BigInteger*  x, ::StringW  participantId, ::Org::BouncyCastle::Crypto::IDigest*  digest, ::Org::BouncyCastle::Security::SecureRandom*  random) ;
 
-  /// @brief Method GenerateX1, addr 0x361dc3c, size 0x90, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Math::BigInteger* GenerateX1(::Org::BouncyCastle::Math::BigInteger* q, ::Org::BouncyCastle::Security::SecureRandom* random);
+/// @brief Method GenerateX1, addr 0x361e9d8, size 0x90, virtual false, abstract: false, final false
+static inline ::Org::BouncyCastle::Math::BigInteger* GenerateX1(::Org::BouncyCastle::Math::BigInteger*  q, ::Org::BouncyCastle::Security::SecureRandom*  random) ;
 
-  /// @brief Method GenerateX2, addr 0x361dccc, size 0x94, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Math::BigInteger* GenerateX2(::Org::BouncyCastle::Math::BigInteger* q, ::Org::BouncyCastle::Security::SecureRandom* random);
+/// @brief Method GenerateX2, addr 0x361ea68, size 0x94, virtual false, abstract: false, final false
+static inline ::Org::BouncyCastle::Math::BigInteger* GenerateX2(::Org::BouncyCastle::Math::BigInteger*  q, ::Org::BouncyCastle::Security::SecureRandom*  random) ;
 
-  /// @brief Method IntToByteArray, addr 0x36209a0, size 0x8, virtual false, abstract: false, final false
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> IntToByteArray(int32_t value);
+/// @brief Method IntToByteArray, addr 0x362173c, size 0x8, virtual false, abstract: false, final false
+static inline ::ArrayW<uint8_t,::Array<uint8_t>*> IntToByteArray(int32_t  value) ;
 
-  static inline ::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeUtilities* New_ctor();
+static inline ::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeUtilities* New_ctor() ;
 
-  /// @brief Method UpdateDigest, addr 0x36205a8, size 0x84, virtual false, abstract: false, final false
-  static inline void UpdateDigest(::Org::BouncyCastle::Crypto::IDigest* digest, ::Org::BouncyCastle::Math::BigInteger* bigInteger);
+/// @brief Method UpdateDigest, addr 0x3621344, size 0x84, virtual false, abstract: false, final false
+static inline void UpdateDigest(::Org::BouncyCastle::Crypto::IDigest*  digest, ::Org::BouncyCastle::Math::BigInteger*  bigInteger) ;
 
-  /// @brief Method UpdateDigest, addr 0x36206c0, size 0x120, virtual false, abstract: false, final false
-  static inline void UpdateDigest(::Org::BouncyCastle::Crypto::IDigest* digest, ::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
+/// @brief Method UpdateDigest, addr 0x362145c, size 0x120, virtual false, abstract: false, final false
+static inline void UpdateDigest(::Org::BouncyCastle::Crypto::IDigest*  digest, ::ArrayW<uint8_t,::Array<uint8_t>*>  bytes) ;
 
-  /// @brief Method UpdateDigest, addr 0x362062c, size 0x94, virtual false, abstract: false, final false
-  static inline void UpdateDigest(::Org::BouncyCastle::Crypto::IDigest* digest, ::StringW str);
+/// @brief Method UpdateDigest, addr 0x36213c8, size 0x94, virtual false, abstract: false, final false
+static inline void UpdateDigest(::Org::BouncyCastle::Crypto::IDigest*  digest, ::StringW  str) ;
 
-  /// @brief Method UpdateDigestIncludingSize, addr 0x362023c, size 0x84, virtual false, abstract: false, final false
-  static inline void UpdateDigestIncludingSize(::Org::BouncyCastle::Crypto::IDigest* digest, ::Org::BouncyCastle::Math::BigInteger* bigInteger);
+/// @brief Method UpdateDigestIncludingSize, addr 0x3620fd8, size 0x84, virtual false, abstract: false, final false
+static inline void UpdateDigestIncludingSize(::Org::BouncyCastle::Crypto::IDigest*  digest, ::Org::BouncyCastle::Math::BigInteger*  bigInteger) ;
 
-  /// @brief Method UpdateDigestIncludingSize, addr 0x36207e0, size 0x1c0, virtual false, abstract: false, final false
-  static inline void UpdateDigestIncludingSize(::Org::BouncyCastle::Crypto::IDigest* digest, ::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
+/// @brief Method UpdateDigestIncludingSize, addr 0x362157c, size 0x1c0, virtual false, abstract: false, final false
+static inline void UpdateDigestIncludingSize(::Org::BouncyCastle::Crypto::IDigest*  digest, ::ArrayW<uint8_t,::Array<uint8_t>*>  bytes) ;
 
-  /// @brief Method UpdateDigestIncludingSize, addr 0x36202c0, size 0x94, virtual false, abstract: false, final false
-  static inline void UpdateDigestIncludingSize(::Org::BouncyCastle::Crypto::IDigest* digest, ::StringW str);
+/// @brief Method UpdateDigestIncludingSize, addr 0x362105c, size 0x94, virtual false, abstract: false, final false
+static inline void UpdateDigestIncludingSize(::Org::BouncyCastle::Crypto::IDigest*  digest, ::StringW  str) ;
 
-  /// @brief Method UpdateMac, addr 0x3620524, size 0x84, virtual false, abstract: false, final false
-  static inline void UpdateMac(::Org::BouncyCastle::Crypto::IMac* mac, ::Org::BouncyCastle::Math::BigInteger* bigInteger);
+/// @brief Method UpdateMac, addr 0x36212c0, size 0x84, virtual false, abstract: false, final false
+static inline void UpdateMac(::Org::BouncyCastle::Crypto::IMac*  mac, ::Org::BouncyCastle::Math::BigInteger*  bigInteger) ;
 
-  /// @brief Method UpdateMac, addr 0x36209a8, size 0x120, virtual false, abstract: false, final false
-  static inline void UpdateMac(::Org::BouncyCastle::Crypto::IMac* mac, ::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
+/// @brief Method UpdateMac, addr 0x3621744, size 0x120, virtual false, abstract: false, final false
+static inline void UpdateMac(::Org::BouncyCastle::Crypto::IMac*  mac, ::ArrayW<uint8_t,::Array<uint8_t>*>  bytes) ;
 
-  /// @brief Method UpdateMac, addr 0x3620490, size 0x94, virtual false, abstract: false, final false
-  static inline void UpdateMac(::Org::BouncyCastle::Crypto::IMac* mac, ::StringW str);
+/// @brief Method UpdateMac, addr 0x362122c, size 0x94, virtual false, abstract: false, final false
+static inline void UpdateMac(::Org::BouncyCastle::Crypto::IMac*  mac, ::StringW  str) ;
 
-  /// @brief Method ValidateGa, addr 0x361ee34, size 0xc4, virtual false, abstract: false, final false
-  static inline void ValidateGa(::Org::BouncyCastle::Math::BigInteger* ga);
+/// @brief Method ValidateGa, addr 0x361fbd0, size 0xc4, virtual false, abstract: false, final false
+static inline void ValidateGa(::Org::BouncyCastle::Math::BigInteger*  ga) ;
 
-  /// @brief Method ValidateGx4, addr 0x361e3c8, size 0xc4, virtual false, abstract: false, final false
-  static inline void ValidateGx4(::Org::BouncyCastle::Math::BigInteger* gx4);
+/// @brief Method ValidateGx4, addr 0x361f164, size 0xc4, virtual false, abstract: false, final false
+static inline void ValidateGx4(::Org::BouncyCastle::Math::BigInteger*  gx4) ;
 
-  /// @brief Method ValidateMacTag, addr 0x361f760, size 0x120, virtual false, abstract: false, final false
-  static inline void ValidateMacTag(::StringW participantId, ::StringW partnerParticipantId, ::Org::BouncyCastle::Math::BigInteger* gx1, ::Org::BouncyCastle::Math::BigInteger* gx2,
-                                    ::Org::BouncyCastle::Math::BigInteger* gx3, ::Org::BouncyCastle::Math::BigInteger* gx4, ::Org::BouncyCastle::Math::BigInteger* keyingMaterial,
-                                    ::Org::BouncyCastle::Crypto::IDigest* digest, ::Org::BouncyCastle::Math::BigInteger* partnerMacTag);
+/// @brief Method ValidateMacTag, addr 0x36204fc, size 0x120, virtual false, abstract: false, final false
+static inline void ValidateMacTag(::StringW  participantId, ::StringW  partnerParticipantId, ::Org::BouncyCastle::Math::BigInteger*  gx1, ::Org::BouncyCastle::Math::BigInteger*  gx2, ::Org::BouncyCastle::Math::BigInteger*  gx3, ::Org::BouncyCastle::Math::BigInteger*  gx4, ::Org::BouncyCastle::Math::BigInteger*  keyingMaterial, ::Org::BouncyCastle::Crypto::IDigest*  digest, ::Org::BouncyCastle::Math::BigInteger*  partnerMacTag) ;
 
-  /// @brief Method ValidateNotNull, addr 0x361d9c0, size 0x4c, virtual false, abstract: false, final false
-  static inline void ValidateNotNull(::System::Object* obj, ::StringW description);
+/// @brief Method ValidateNotNull, addr 0x361e75c, size 0x4c, virtual false, abstract: false, final false
+static inline void ValidateNotNull(::System::Object*  obj, ::StringW  description) ;
 
-  /// @brief Method ValidateParticipantIdsDiffer, addr 0x361e330, size 0x98, virtual false, abstract: false, final false
-  static inline void ValidateParticipantIdsDiffer(::StringW participantId1, ::StringW participantId2);
+/// @brief Method ValidateParticipantIdsDiffer, addr 0x361f0cc, size 0x98, virtual false, abstract: false, final false
+static inline void ValidateParticipantIdsDiffer(::StringW  participantId1, ::StringW  participantId2) ;
 
-  /// @brief Method ValidateParticipantIdsEqual, addr 0x361ed2c, size 0x108, virtual false, abstract: false, final false
-  static inline void ValidateParticipantIdsEqual(::StringW expectedParticipantId, ::StringW actualParticipantId);
+/// @brief Method ValidateParticipantIdsEqual, addr 0x361fac8, size 0x108, virtual false, abstract: false, final false
+static inline void ValidateParticipantIdsEqual(::StringW  expectedParticipantId, ::StringW  actualParticipantId) ;
 
-  /// @brief Method ValidateZeroKnowledgeProof, addr 0x361e48c, size 0x1f8, virtual false, abstract: false, final false
-  static inline void ValidateZeroKnowledgeProof(::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* q, ::Org::BouncyCastle::Math::BigInteger* g,
-                                                ::Org::BouncyCastle::Math::BigInteger* gx,
-                                                ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> zeroKnowledgeProof, ::StringW participantId,
-                                                ::Org::BouncyCastle::Crypto::IDigest* digest);
+/// @brief Method ValidateZeroKnowledgeProof, addr 0x361f228, size 0x1f8, virtual false, abstract: false, final false
+static inline void ValidateZeroKnowledgeProof(::Org::BouncyCastle::Math::BigInteger*  p, ::Org::BouncyCastle::Math::BigInteger*  q, ::Org::BouncyCastle::Math::BigInteger*  g, ::Org::BouncyCastle::Math::BigInteger*  gx, ::ArrayW<::Org::BouncyCastle::Math::BigInteger*,::Array<::Org::BouncyCastle::Math::BigInteger*>*>  zeroKnowledgeProof, ::StringW  participantId, ::Org::BouncyCastle::Crypto::IDigest*  digest) ;
 
-  /// @brief Method .ctor, addr 0x3620b60, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x36218fc, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  static inline ::Org::BouncyCastle::Math::BigInteger* getStaticF_One();
+static inline ::Org::BouncyCastle::Math::BigInteger* getStaticF_One() ;
 
-  static inline ::Org::BouncyCastle::Math::BigInteger* getStaticF_Zero();
+static inline ::Org::BouncyCastle::Math::BigInteger* getStaticF_Zero() ;
 
-  static inline void setStaticF_One(::Org::BouncyCastle::Math::BigInteger* value);
+static inline void setStaticF_One(::Org::BouncyCastle::Math::BigInteger*  value) ;
 
-  static inline void setStaticF_Zero(::Org::BouncyCastle::Math::BigInteger* value);
+static inline void setStaticF_Zero(::Org::BouncyCastle::Math::BigInteger*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr JPakeUtilities();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr JPakeUtilities() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "JPakeUtilities", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  JPakeUtilities(JPakeUtilities&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "JPakeUtilities", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  JPakeUtilities(JPakeUtilities const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "JPakeUtilities", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+JPakeUtilities(JPakeUtilities && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 720 };
+// Ctor Parameters [CppParam { name: "", ty: "JPakeUtilities", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+JPakeUtilities(JPakeUtilities const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{720};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeUtilities, 0x10>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Crypto::Agreement::JPake
+} // namespace end def Org::BouncyCastle::Crypto::Agreement::JPake
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeUtilities);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeUtilities*, "Org.BouncyCastle.Crypto.Agreement.JPake", "JPakeUtilities");

@@ -20,32 +20,32 @@ namespace GlobalNamespace {
 // CS Name: OffsetDirectionExtensions
 class CORDL_TYPE OffsetDirectionExtensions : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method OppositeDirection, addr 0x31c8dc8, size 0x1c, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::OffsetDirection OppositeDirection(::GlobalNamespace::OffsetDirection offsetDirection);
+// Declarations
+/// @brief Method OppositeDirection, addr 0x31c9ae8, size 0x1c, virtual false, abstract: false, final false
+static inline ::GlobalNamespace::OffsetDirection OppositeDirection(::GlobalNamespace::OffsetDirection  offsetDirection) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OffsetDirectionExtensions();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr OffsetDirectionExtensions() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OffsetDirectionExtensions", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  OffsetDirectionExtensions(OffsetDirectionExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OffsetDirectionExtensions", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  OffsetDirectionExtensions(OffsetDirectionExtensions const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "OffsetDirectionExtensions", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+OffsetDirectionExtensions(OffsetDirectionExtensions && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21016 };
+// Ctor Parameters [CppParam { name: "", ty: "OffsetDirectionExtensions", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+OffsetDirectionExtensions(OffsetDirectionExtensions const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{21019};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OffsetDirectionExtensions, 0x10>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::OffsetDirectionExtensions);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OffsetDirectionExtensions*, "", "OffsetDirectionExtensions");

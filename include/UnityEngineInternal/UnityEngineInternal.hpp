@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "UnityEngineInternal/GenericStack.hpp"
 #include "UnityEngineInternal/LightmapType.hpp"
@@ -10,5 +10,6 @@ module;
 #include "UnityEngineInternal/TypeInferenceRules.hpp"
 #include "UnityEngineInternal/WebRequestUtils.hpp"
 #ifdef __cpp_modules
-export module UnityEngineInternal;
-#endif
+                    export module UnityEngineInternal;
+                    #endif
+                

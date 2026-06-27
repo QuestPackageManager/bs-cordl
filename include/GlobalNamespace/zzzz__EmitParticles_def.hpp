@@ -21,51 +21,51 @@ namespace GlobalNamespace {
 // CS Name: EmitParticles
 class CORDL_TYPE EmitParticles : public ::UnityEngine::MonoBehaviour {
 public:
-  // Declarations
-  /// @brief Field _particleSystem, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__particleSystem, put = __cordl_internal_set__particleSystem)) ::UnityW<::UnityEngine::ParticleSystem> _particleSystem;
+// Declarations
+/// @brief Field _particleSystem, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get__particleSystem, put=__cordl_internal_set__particleSystem)) ::UnityW<::UnityEngine::ParticleSystem>  _particleSystem;
 
-  /// @brief Method Emit, addr 0x5845490, size 0x14, virtual false, abstract: false, final false
-  inline void Emit(int32_t count);
+/// @brief Method Emit, addr 0x5846d3c, size 0x14, virtual false, abstract: false, final false
+inline void Emit(int32_t  count) ;
 
-  static inline ::GlobalNamespace::EmitParticles* New_ctor();
+static inline ::GlobalNamespace::EmitParticles* New_ctor() ;
 
-  constexpr ::UnityW<::UnityEngine::ParticleSystem> const& __cordl_internal_get__particleSystem() const;
+constexpr ::UnityW<::UnityEngine::ParticleSystem> const& __cordl_internal_get__particleSystem() const;
 
-  constexpr ::UnityW<::UnityEngine::ParticleSystem>& __cordl_internal_get__particleSystem();
+constexpr ::UnityW<::UnityEngine::ParticleSystem>& __cordl_internal_get__particleSystem() ;
 
-  constexpr void __cordl_internal_set__particleSystem(::UnityW<::UnityEngine::ParticleSystem> value);
+constexpr void __cordl_internal_set__particleSystem(::UnityW<::UnityEngine::ParticleSystem>  value) ;
 
-  /// @brief Method .ctor, addr 0x58454a4, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5846d50, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr EmitParticles();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr EmitParticles() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EmitParticles", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  EmitParticles(EmitParticles&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EmitParticles", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  EmitParticles(EmitParticles const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "EmitParticles", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+EmitParticles(EmitParticles && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5770 };
+// Ctor Parameters [CppParam { name: "", ty: "EmitParticles", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+EmitParticles(EmitParticles const& ) = delete;
 
-  /// @brief Field _particleSystem, offset: 0x20, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::ParticleSystem> ____particleSystem;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{5770};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _particleSystem, offset: 0x20, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::ParticleSystem>  ____particleSystem;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::EmitParticles, ____particleSystem) == 0x20, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::EmitParticles, 0x28>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::EmitParticles);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::EmitParticles*, "", "EmitParticles");

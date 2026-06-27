@@ -13,7 +13,8 @@ namespace GlobalNamespace {
 class LightWithIdManager;
 }
 namespace System {
-template <typename T> class Action_1;
+template<typename T>
+class Action_1;
 }
 namespace UnityEngine {
 struct Color;
@@ -33,124 +34,123 @@ namespace GlobalNamespace {
 // CS Name: LightGroup
 class CORDL_TYPE LightGroup : public ::UnityEngine::MonoBehaviour {
 public:
-  // Declarations
-  /// @brief Field _lightGroupSO, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__lightGroupSO, put = __cordl_internal_set__lightGroupSO)) ::UnityW<::GlobalNamespace::LightGroupSO> _lightGroupSO;
+// Declarations
+/// @brief Field _lightGroupSO, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get__lightGroupSO, put=__cordl_internal_set__lightGroupSO)) ::UnityW<::GlobalNamespace::LightGroupSO>  _lightGroupSO;
 
-  /// @brief Field _lightWithIdManager, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__lightWithIdManager, put = __cordl_internal_set__lightWithIdManager)) ::UnityW<::GlobalNamespace::LightWithIdManager> _lightWithIdManager;
+/// @brief Field _lightWithIdManager, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get__lightWithIdManager, put=__cordl_internal_set__lightWithIdManager)) ::UnityW<::GlobalNamespace::LightWithIdManager>  _lightWithIdManager;
 
-  /// @brief Field didRefreshContentEvent, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_didRefreshContentEvent,
-                      put = __cordl_internal_set_didRefreshContentEvent)) ::System::Action_1<::UnityW<::UnityEngine::GameObject>>* didRefreshContentEvent;
+/// @brief Field didRefreshContentEvent, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get_didRefreshContentEvent, put=__cordl_internal_set_didRefreshContentEvent)) ::System::Action_1<::UnityW<::UnityEngine::GameObject>>*  didRefreshContentEvent;
 
-  __declspec(property(get = get_groupId)) int32_t groupId;
+ __declspec(property(get=get_groupId)) int32_t  groupId;
 
-  __declspec(property(get = get_ignoreLightGroupEffectManager)) bool ignoreLightGroupEffectManager;
+ __declspec(property(get=get_ignoreLightGroupEffectManager)) bool  ignoreLightGroupEffectManager;
 
-  __declspec(property(get = get_lightGroupSO)) ::UnityW<::GlobalNamespace::LightGroupSO> lightGroupSO;
+ __declspec(property(get=get_lightGroupSO)) ::UnityW<::GlobalNamespace::LightGroupSO>  lightGroupSO;
 
-  __declspec(property(get = get_numberOfElements)) int32_t numberOfElements;
+ __declspec(property(get=get_numberOfElements)) int32_t  numberOfElements;
 
-  /// @brief Field respawnEvent, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_respawnEvent, put = __cordl_internal_set_respawnEvent)) ::System::Action_1<::UnityW<::UnityEngine::GameObject>>* respawnEvent;
+/// @brief Field respawnEvent, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get_respawnEvent, put=__cordl_internal_set_respawnEvent)) ::System::Action_1<::UnityW<::UnityEngine::GameObject>>*  respawnEvent;
 
-  __declspec(property(get = get_sameIdElements)) int32_t sameIdElements;
+ __declspec(property(get=get_sameIdElements)) int32_t  sameIdElements;
 
-  __declspec(property(get = get_startLightId)) int32_t startLightId;
+ __declspec(property(get=get_startLightId)) int32_t  startLightId;
 
-  static inline ::GlobalNamespace::LightGroup* New_ctor();
+static inline ::GlobalNamespace::LightGroup* New_ctor() ;
 
-  /// @brief Method SetColor, addr 0x5726224, size 0x8c, virtual false, abstract: false, final false
-  inline void SetColor(::UnityEngine::Color color);
+/// @brief Method SetColor, addr 0x5727a8c, size 0x8c, virtual false, abstract: false, final false
+inline void SetColor(::UnityEngine::Color  color) ;
 
-  constexpr ::UnityW<::GlobalNamespace::LightGroupSO> const& __cordl_internal_get__lightGroupSO() const;
+constexpr ::UnityW<::GlobalNamespace::LightGroupSO> const& __cordl_internal_get__lightGroupSO() const;
 
-  constexpr ::UnityW<::GlobalNamespace::LightGroupSO>& __cordl_internal_get__lightGroupSO();
+constexpr ::UnityW<::GlobalNamespace::LightGroupSO>& __cordl_internal_get__lightGroupSO() ;
 
-  constexpr ::UnityW<::GlobalNamespace::LightWithIdManager> const& __cordl_internal_get__lightWithIdManager() const;
+constexpr ::UnityW<::GlobalNamespace::LightWithIdManager> const& __cordl_internal_get__lightWithIdManager() const;
 
-  constexpr ::UnityW<::GlobalNamespace::LightWithIdManager>& __cordl_internal_get__lightWithIdManager();
+constexpr ::UnityW<::GlobalNamespace::LightWithIdManager>& __cordl_internal_get__lightWithIdManager() ;
 
-  constexpr ::System::Action_1<::UnityW<::UnityEngine::GameObject>>* const& __cordl_internal_get_didRefreshContentEvent() const;
+constexpr ::System::Action_1<::UnityW<::UnityEngine::GameObject>>* const& __cordl_internal_get_didRefreshContentEvent() const;
 
-  constexpr ::System::Action_1<::UnityW<::UnityEngine::GameObject>>*& __cordl_internal_get_didRefreshContentEvent();
+constexpr ::System::Action_1<::UnityW<::UnityEngine::GameObject>>*& __cordl_internal_get_didRefreshContentEvent() ;
 
-  constexpr ::System::Action_1<::UnityW<::UnityEngine::GameObject>>* const& __cordl_internal_get_respawnEvent() const;
+constexpr ::System::Action_1<::UnityW<::UnityEngine::GameObject>>* const& __cordl_internal_get_respawnEvent() const;
 
-  constexpr ::System::Action_1<::UnityW<::UnityEngine::GameObject>>*& __cordl_internal_get_respawnEvent();
+constexpr ::System::Action_1<::UnityW<::UnityEngine::GameObject>>*& __cordl_internal_get_respawnEvent() ;
 
-  constexpr void __cordl_internal_set__lightGroupSO(::UnityW<::GlobalNamespace::LightGroupSO> value);
+constexpr void __cordl_internal_set__lightGroupSO(::UnityW<::GlobalNamespace::LightGroupSO>  value) ;
 
-  constexpr void __cordl_internal_set__lightWithIdManager(::UnityW<::GlobalNamespace::LightWithIdManager> value);
+constexpr void __cordl_internal_set__lightWithIdManager(::UnityW<::GlobalNamespace::LightWithIdManager>  value) ;
 
-  constexpr void __cordl_internal_set_didRefreshContentEvent(::System::Action_1<::UnityW<::UnityEngine::GameObject>>* value);
+constexpr void __cordl_internal_set_didRefreshContentEvent(::System::Action_1<::UnityW<::UnityEngine::GameObject>>*  value) ;
 
-  constexpr void __cordl_internal_set_respawnEvent(::System::Action_1<::UnityW<::UnityEngine::GameObject>>* value);
+constexpr void __cordl_internal_set_respawnEvent(::System::Action_1<::UnityW<::UnityEngine::GameObject>>*  value) ;
 
-  /// @brief Method .ctor, addr 0x57264c4, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5727d2c, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method add_didRefreshContentEvent, addr 0x57260a4, size 0xc0, virtual false, abstract: false, final false
-  inline void add_didRefreshContentEvent(::System::Action_1<::UnityW<::UnityEngine::GameObject>>* value);
+/// @brief Method add_didRefreshContentEvent, addr 0x572790c, size 0xc0, virtual false, abstract: false, final false
+inline void add_didRefreshContentEvent(::System::Action_1<::UnityW<::UnityEngine::GameObject>>*  value) ;
 
-  /// @brief Method add_respawnEvent, addr 0x5725f24, size 0xc0, virtual false, abstract: false, final false
-  inline void add_respawnEvent(::System::Action_1<::UnityW<::UnityEngine::GameObject>>* value);
+/// @brief Method add_respawnEvent, addr 0x572778c, size 0xc0, virtual false, abstract: false, final false
+inline void add_respawnEvent(::System::Action_1<::UnityW<::UnityEngine::GameObject>>*  value) ;
 
-  /// @brief Method get_groupId, addr 0x5725d9c, size 0x80, virtual false, abstract: false, final false
-  inline int32_t get_groupId();
+/// @brief Method get_groupId, addr 0x5727604, size 0x80, virtual false, abstract: false, final false
+inline int32_t get_groupId() ;
 
-  /// @brief Method get_ignoreLightGroupEffectManager, addr 0x5725e9c, size 0x88, virtual false, abstract: false, final false
-  inline bool get_ignoreLightGroupEffectManager();
+/// @brief Method get_ignoreLightGroupEffectManager, addr 0x5727704, size 0x88, virtual false, abstract: false, final false
+inline bool get_ignoreLightGroupEffectManager() ;
 
-  /// @brief Method get_lightGroupSO, addr 0x5725c94, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityW<::GlobalNamespace::LightGroupSO> get_lightGroupSO();
+/// @brief Method get_lightGroupSO, addr 0x57274fc, size 0x8, virtual false, abstract: false, final false
+inline ::UnityW<::GlobalNamespace::LightGroupSO> get_lightGroupSO() ;
 
-  /// @brief Method get_numberOfElements, addr 0x5725c9c, size 0x80, virtual false, abstract: false, final false
-  inline int32_t get_numberOfElements();
+/// @brief Method get_numberOfElements, addr 0x5727504, size 0x80, virtual false, abstract: false, final false
+inline int32_t get_numberOfElements() ;
 
-  /// @brief Method get_sameIdElements, addr 0x5725e1c, size 0x80, virtual false, abstract: false, final false
-  inline int32_t get_sameIdElements();
+/// @brief Method get_sameIdElements, addr 0x5727684, size 0x80, virtual false, abstract: false, final false
+inline int32_t get_sameIdElements() ;
 
-  /// @brief Method get_startLightId, addr 0x5725d1c, size 0x80, virtual false, abstract: false, final false
-  inline int32_t get_startLightId();
+/// @brief Method get_startLightId, addr 0x5727584, size 0x80, virtual false, abstract: false, final false
+inline int32_t get_startLightId() ;
 
-  /// @brief Method remove_didRefreshContentEvent, addr 0x5726164, size 0xc0, virtual false, abstract: false, final false
-  inline void remove_didRefreshContentEvent(::System::Action_1<::UnityW<::UnityEngine::GameObject>>* value);
+/// @brief Method remove_didRefreshContentEvent, addr 0x57279cc, size 0xc0, virtual false, abstract: false, final false
+inline void remove_didRefreshContentEvent(::System::Action_1<::UnityW<::UnityEngine::GameObject>>*  value) ;
 
-  /// @brief Method remove_respawnEvent, addr 0x5725fe4, size 0xc0, virtual false, abstract: false, final false
-  inline void remove_respawnEvent(::System::Action_1<::UnityW<::UnityEngine::GameObject>>* value);
+/// @brief Method remove_respawnEvent, addr 0x572784c, size 0xc0, virtual false, abstract: false, final false
+inline void remove_respawnEvent(::System::Action_1<::UnityW<::UnityEngine::GameObject>>*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LightGroup();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr LightGroup() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LightGroup", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  LightGroup(LightGroup&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LightGroup", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  LightGroup(LightGroup const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "LightGroup", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+LightGroup(LightGroup && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19711 };
+// Ctor Parameters [CppParam { name: "", ty: "LightGroup", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+LightGroup(LightGroup const& ) = delete;
 
-  /// @brief Field _lightGroupSO, offset: 0x20, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::LightGroupSO> ____lightGroupSO;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19714};
 
-  /// @brief Field _lightWithIdManager, offset: 0x28, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::LightWithIdManager> ____lightWithIdManager;
+/// @brief Field _lightGroupSO, offset: 0x20, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::LightGroupSO>  ____lightGroupSO;
 
-  /// @brief Field respawnEvent, offset: 0x30, size: 0x8, def value: None
-  ::System::Action_1<::UnityW<::UnityEngine::GameObject>>* ___respawnEvent;
+/// @brief Field _lightWithIdManager, offset: 0x28, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::LightWithIdManager>  ____lightWithIdManager;
 
-  /// @brief Field didRefreshContentEvent, offset: 0x38, size: 0x8, def value: None
-  ::System::Action_1<::UnityW<::UnityEngine::GameObject>>* ___didRefreshContentEvent;
+/// @brief Field respawnEvent, offset: 0x30, size: 0x8, def value: None
+ ::System::Action_1<::UnityW<::UnityEngine::GameObject>>*  ___respawnEvent;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field didRefreshContentEvent, offset: 0x38, size: 0x8, def value: None
+ ::System::Action_1<::UnityW<::UnityEngine::GameObject>>*  ___didRefreshContentEvent;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::LightGroup, ____lightGroupSO) == 0x20, "Offset mismatch!");
@@ -163,6 +163,6 @@ static_assert(offsetof(::GlobalNamespace::LightGroup, ___didRefreshContentEvent)
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LightGroup, 0x40>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::LightGroup);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LightGroup*, "", "LightGroup");

@@ -33,66 +33,66 @@ namespace GlobalNamespace {
 // CS Name: BloomPrePassBackgroundColorsGradientElementWithLightId/Elements
 class CORDL_TYPE BloomPrePassBackgroundColorsGradientElementWithLightId_Elements : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field elementNumber, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_elementNumber, put = __cordl_internal_set_elementNumber)) int32_t elementNumber;
+// Declarations
+/// @brief Field elementNumber, offset 0x10, size 0x4 
+ __declspec(property(get=__cordl_internal_get_elementNumber, put=__cordl_internal_set_elementNumber)) int32_t  elementNumber;
 
-  /// @brief Field intensity, offset 0x14, size 0x4
-  __declspec(property(get = __cordl_internal_get_intensity, put = __cordl_internal_set_intensity)) float_t intensity;
+/// @brief Field intensity, offset 0x14, size 0x4 
+ __declspec(property(get=__cordl_internal_get_intensity, put=__cordl_internal_set_intensity)) float_t  intensity;
 
-  /// @brief Field minIntensity, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get_minIntensity, put = __cordl_internal_set_minIntensity)) float_t minIntensity;
+/// @brief Field minIntensity, offset 0x18, size 0x4 
+ __declspec(property(get=__cordl_internal_get_minIntensity, put=__cordl_internal_set_minIntensity)) float_t  minIntensity;
 
-  static inline ::GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId_Elements* New_ctor();
+static inline ::GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId_Elements* New_ctor() ;
 
-  constexpr int32_t const& __cordl_internal_get_elementNumber() const;
+constexpr int32_t const& __cordl_internal_get_elementNumber() const;
 
-  constexpr int32_t& __cordl_internal_get_elementNumber();
+constexpr int32_t& __cordl_internal_get_elementNumber() ;
 
-  constexpr float_t const& __cordl_internal_get_intensity() const;
+constexpr float_t const& __cordl_internal_get_intensity() const;
 
-  constexpr float_t& __cordl_internal_get_intensity();
+constexpr float_t& __cordl_internal_get_intensity() ;
 
-  constexpr float_t const& __cordl_internal_get_minIntensity() const;
+constexpr float_t const& __cordl_internal_get_minIntensity() const;
 
-  constexpr float_t& __cordl_internal_get_minIntensity();
+constexpr float_t& __cordl_internal_get_minIntensity() ;
 
-  constexpr void __cordl_internal_set_elementNumber(int32_t value);
+constexpr void __cordl_internal_set_elementNumber(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_intensity(float_t value);
+constexpr void __cordl_internal_set_intensity(float_t  value) ;
 
-  constexpr void __cordl_internal_set_minIntensity(float_t value);
+constexpr void __cordl_internal_set_minIntensity(float_t  value) ;
 
-  /// @brief Method .ctor, addr 0x5726a80, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x57282e8, size 0xc, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BloomPrePassBackgroundColorsGradientElementWithLightId_Elements();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr BloomPrePassBackgroundColorsGradientElementWithLightId_Elements() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassBackgroundColorsGradientElementWithLightId_Elements", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  BloomPrePassBackgroundColorsGradientElementWithLightId_Elements(BloomPrePassBackgroundColorsGradientElementWithLightId_Elements&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassBackgroundColorsGradientElementWithLightId_Elements", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  BloomPrePassBackgroundColorsGradientElementWithLightId_Elements(BloomPrePassBackgroundColorsGradientElementWithLightId_Elements const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "BloomPrePassBackgroundColorsGradientElementWithLightId_Elements", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+BloomPrePassBackgroundColorsGradientElementWithLightId_Elements(BloomPrePassBackgroundColorsGradientElementWithLightId_Elements && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19716 };
+// Ctor Parameters [CppParam { name: "", ty: "BloomPrePassBackgroundColorsGradientElementWithLightId_Elements", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+BloomPrePassBackgroundColorsGradientElementWithLightId_Elements(BloomPrePassBackgroundColorsGradientElementWithLightId_Elements const& ) = delete;
 
-  /// @brief Field elementNumber, offset: 0x10, size: 0x4, def value: None
-  int32_t ___elementNumber;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19719};
 
-  /// @brief Field intensity, offset: 0x14, size: 0x4, def value: None
-  float_t ___intensity;
+/// @brief Field elementNumber, offset: 0x10, size: 0x4, def value: None
+ int32_t  ___elementNumber;
 
-  /// @brief Field minIntensity, offset: 0x18, size: 0x4, def value: None
-  float_t ___minIntensity;
+/// @brief Field intensity, offset: 0x14, size: 0x4, def value: None
+ float_t  ___intensity;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field minIntensity, offset: 0x18, size: 0x4, def value: None
+ float_t  ___minIntensity;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId_Elements, ___elementNumber) == 0x10, "Offset mismatch!");
@@ -103,78 +103,66 @@ static_assert(offsetof(::GlobalNamespace::BloomPrePassBackgroundColorsGradientEl
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId_Elements, 0x20>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 // Dependencies LightWithIdMonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: BloomPrePassBackgroundColorsGradientElementWithLightId
 class CORDL_TYPE BloomPrePassBackgroundColorsGradientElementWithLightId : public ::GlobalNamespace::LightWithIdMonoBehaviour {
 public:
-  // Declarations
-  using Elements = ::GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId_Elements;
+// Declarations
+using Elements = ::GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId_Elements;
 
-  /// @brief Field _bloomPrePassBackgroundColorsGradient, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__bloomPrePassBackgroundColorsGradient,
-                      put = __cordl_internal_set__bloomPrePassBackgroundColorsGradient)) ::UnityW<::GlobalNamespace::BloomPrePassBackgroundColorsGradient>
-      _bloomPrePassBackgroundColorsGradient;
+/// @brief Field _bloomPrePassBackgroundColorsGradient, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get__bloomPrePassBackgroundColorsGradient, put=__cordl_internal_set__bloomPrePassBackgroundColorsGradient)) ::UnityW<::GlobalNamespace::BloomPrePassBackgroundColorsGradient>  _bloomPrePassBackgroundColorsGradient;
 
-  /// @brief Field _elements, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__elements,
-                      put = __cordl_internal_set__elements)) ::ArrayW<::GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId_Elements*,
-                                                                      ::Array<::GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId_Elements*>*>
-      _elements;
+/// @brief Field _elements, offset 0x40, size 0x8 
+ __declspec(property(get=__cordl_internal_get__elements, put=__cordl_internal_set__elements)) ::ArrayW<::GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId_Elements*,::Array<::GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId_Elements*>*>  _elements;
 
-  /// @brief Method ColorWasSet, addr 0x57269c8, size 0xa0, virtual true, abstract: false, final false
-  inline void ColorWasSet(::UnityEngine::Color color);
+/// @brief Method ColorWasSet, addr 0x5728230, size 0xa0, virtual true, abstract: false, final false
+inline void ColorWasSet(::UnityEngine::Color  color) ;
 
-  static inline ::GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId* New_ctor();
+static inline ::GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId* New_ctor() ;
 
-  constexpr ::UnityW<::GlobalNamespace::BloomPrePassBackgroundColorsGradient> const& __cordl_internal_get__bloomPrePassBackgroundColorsGradient() const;
+constexpr ::UnityW<::GlobalNamespace::BloomPrePassBackgroundColorsGradient> const& __cordl_internal_get__bloomPrePassBackgroundColorsGradient() const;
 
-  constexpr ::UnityW<::GlobalNamespace::BloomPrePassBackgroundColorsGradient>& __cordl_internal_get__bloomPrePassBackgroundColorsGradient();
+constexpr ::UnityW<::GlobalNamespace::BloomPrePassBackgroundColorsGradient>& __cordl_internal_get__bloomPrePassBackgroundColorsGradient() ;
 
-  constexpr ::ArrayW<::GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId_Elements*,
-                     ::Array<::GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId_Elements*>*> const&
-  __cordl_internal_get__elements() const;
+constexpr ::ArrayW<::GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId_Elements*,::Array<::GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId_Elements*>*> const& __cordl_internal_get__elements() const;
 
-  constexpr ::ArrayW<::GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId_Elements*,
-                     ::Array<::GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId_Elements*>*>&
-  __cordl_internal_get__elements();
+constexpr ::ArrayW<::GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId_Elements*,::Array<::GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId_Elements*>*>& __cordl_internal_get__elements() ;
 
-  constexpr void __cordl_internal_set__bloomPrePassBackgroundColorsGradient(::UnityW<::GlobalNamespace::BloomPrePassBackgroundColorsGradient> value);
+constexpr void __cordl_internal_set__bloomPrePassBackgroundColorsGradient(::UnityW<::GlobalNamespace::BloomPrePassBackgroundColorsGradient>  value) ;
 
-  constexpr void __cordl_internal_set__elements(
-      ::ArrayW<::GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId_Elements*, ::Array<::GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId_Elements*>*>
-          value);
+constexpr void __cordl_internal_set__elements(::ArrayW<::GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId_Elements*,::Array<::GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId_Elements*>*>  value) ;
 
-  /// @brief Method .ctor, addr 0x5726a68, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x57282d0, size 0xc, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BloomPrePassBackgroundColorsGradientElementWithLightId();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr BloomPrePassBackgroundColorsGradientElementWithLightId() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassBackgroundColorsGradientElementWithLightId", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  BloomPrePassBackgroundColorsGradientElementWithLightId(BloomPrePassBackgroundColorsGradientElementWithLightId&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassBackgroundColorsGradientElementWithLightId", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  BloomPrePassBackgroundColorsGradientElementWithLightId(BloomPrePassBackgroundColorsGradientElementWithLightId const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "BloomPrePassBackgroundColorsGradientElementWithLightId", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+BloomPrePassBackgroundColorsGradientElementWithLightId(BloomPrePassBackgroundColorsGradientElementWithLightId && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19717 };
+// Ctor Parameters [CppParam { name: "", ty: "BloomPrePassBackgroundColorsGradientElementWithLightId", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+BloomPrePassBackgroundColorsGradientElementWithLightId(BloomPrePassBackgroundColorsGradientElementWithLightId const& ) = delete;
 
-  /// @brief Field _bloomPrePassBackgroundColorsGradient, offset: 0x38, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::BloomPrePassBackgroundColorsGradient> ____bloomPrePassBackgroundColorsGradient;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19720};
 
-  /// @brief Field _elements, offset: 0x40, size: 0x8, def value: None
-  ::ArrayW<::GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId_Elements*, ::Array<::GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId_Elements*>*>
-      ____elements;
+/// @brief Field _bloomPrePassBackgroundColorsGradient, offset: 0x38, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::BloomPrePassBackgroundColorsGradient>  ____bloomPrePassBackgroundColorsGradient;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _elements, offset: 0x40, size: 0x8, def value: None
+ ::ArrayW<::GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId_Elements*,::Array<::GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId_Elements*>*>  ____elements;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId, ____bloomPrePassBackgroundColorsGradient) == 0x38, "Offset mismatch!");
@@ -183,7 +171,7 @@ static_assert(offsetof(::GlobalNamespace::BloomPrePassBackgroundColorsGradientEl
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId, 0x48>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId*, "", "BloomPrePassBackgroundColorsGradientElementWithLightId");
 NEED_NO_BOX(::GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId_Elements);

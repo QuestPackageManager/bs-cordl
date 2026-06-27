@@ -20,959 +20,1120 @@
 #include "UnityEngine/zzzz__RenderTexture_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
 //  Writing Method size for method: ::Meta::XR::EnvironmentDepth::EnvironmentDepthManager_Mask._ctor
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::EnvironmentDepth::EnvironmentDepthManager_Mask::*)(int32_t, int32_t, float_t)>(
-    &::Meta::XR::EnvironmentDepth::EnvironmentDepthManager_Mask::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::EnvironmentDepth::EnvironmentDepthManager_Mask::*)(int32_t, int32_t, float_t)>(&::Meta::XR::EnvironmentDepth::EnvironmentDepthManager_Mask::_ctor)> {
   constexpr static std::size_t size = 0x244;
-  constexpr static std::size_t addrs = 0x5900ba4;
+  constexpr static std::size_t addrs = 0x5902574;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager_Mask*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager_Mask*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Meta::XR::EnvironmentDepth::EnvironmentDepthManager_Mask.ApplyMask
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::RenderTexture> (::Meta::XR::EnvironmentDepth::EnvironmentDepthManager_Mask::*)(
-    ::UnityEngine::RenderTexture*, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MeshFilter>>*, ::UnityEngine::Matrix4x4,
-    ::ArrayW<::Meta::XR::EnvironmentDepth::DepthFrameDesc, ::Array<::Meta::XR::EnvironmentDepth::DepthFrameDesc>*>)>(&::Meta::XR::EnvironmentDepth::EnvironmentDepthManager_Mask::ApplyMask)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::RenderTexture> (::Meta::XR::EnvironmentDepth::EnvironmentDepthManager_Mask::*)(::UnityEngine::RenderTexture*, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MeshFilter>>*, ::UnityEngine::Matrix4x4, ::ArrayW<::Meta::XR::EnvironmentDepth::DepthFrameDesc,::Array<::Meta::XR::EnvironmentDepth::DepthFrameDesc>*>)>(&::Meta::XR::EnvironmentDepth::EnvironmentDepthManager_Mask::ApplyMask)> {
   constexpr static std::size_t size = 0x928;
-  constexpr static std::size_t addrs = 0x5900de8;
+  constexpr static std::size_t addrs = 0x59027b8;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager_Mask*>::get(), "ApplyMask", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 4>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::RenderTexture*>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MeshFilter>>*>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Matrix4x4>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::Meta::XR::EnvironmentDepth::DepthFrameDesc, ::Array<::Meta::XR::EnvironmentDepth::DepthFrameDesc>*>>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager_Mask*>::get(),
+                        "ApplyMask",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::RenderTexture*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MeshFilter>>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Matrix4x4>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::Meta::XR::EnvironmentDepth::DepthFrameDesc,::Array<::Meta::XR::EnvironmentDepth::DepthFrameDesc>*>>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Meta::XR::EnvironmentDepth::EnvironmentDepthManager_Mask.Dispose
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::EnvironmentDepth::EnvironmentDepthManager_Mask::*)()>(
-    &::Meta::XR::EnvironmentDepth::EnvironmentDepthManager_Mask::Dispose)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::EnvironmentDepth::EnvironmentDepthManager_Mask::*)()>(&::Meta::XR::EnvironmentDepth::EnvironmentDepthManager_Mask::Dispose)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x59001bc;
+  constexpr static std::size_t addrs = 0x5901b8c;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager_Mask*>::get(), "Dispose",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager_Mask*>::get(),
+                        "Dispose",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
-constexpr ::UnityW<::UnityEngine::Material>& Meta::XR::EnvironmentDepth::EnvironmentDepthManager_Mask::__cordl_internal_get__maskMaterial() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____maskMaterial;
+constexpr ::UnityW<::UnityEngine::Material>& Meta::XR::EnvironmentDepth::EnvironmentDepthManager_Mask::__cordl_internal_get__maskMaterial()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____maskMaterial;
 }
 constexpr ::UnityW<::UnityEngine::Material> const& Meta::XR::EnvironmentDepth::EnvironmentDepthManager_Mask::__cordl_internal_get__maskMaterial() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____maskMaterial;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____maskMaterial;
 }
-constexpr void Meta::XR::EnvironmentDepth::EnvironmentDepthManager_Mask::__cordl_internal_set__maskMaterial(::UnityW<::UnityEngine::Material> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____maskMaterial)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void Meta::XR::EnvironmentDepth::EnvironmentDepthManager_Mask::__cordl_internal_set__maskMaterial(::UnityW<::UnityEngine::Material>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____maskMaterial)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::UnityEngine::RenderTexture>& Meta::XR::EnvironmentDepth::EnvironmentDepthManager_Mask::__cordl_internal_get__maskDepthRt() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____maskDepthRt;
+constexpr ::UnityW<::UnityEngine::RenderTexture>& Meta::XR::EnvironmentDepth::EnvironmentDepthManager_Mask::__cordl_internal_get__maskDepthRt()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____maskDepthRt;
 }
 constexpr ::UnityW<::UnityEngine::RenderTexture> const& Meta::XR::EnvironmentDepth::EnvironmentDepthManager_Mask::__cordl_internal_get__maskDepthRt() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____maskDepthRt;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____maskDepthRt;
 }
-constexpr void Meta::XR::EnvironmentDepth::EnvironmentDepthManager_Mask::__cordl_internal_set__maskDepthRt(::UnityW<::UnityEngine::RenderTexture> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____maskDepthRt)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void Meta::XR::EnvironmentDepth::EnvironmentDepthManager_Mask::__cordl_internal_set__maskDepthRt(::UnityW<::UnityEngine::RenderTexture>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____maskDepthRt)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::UnityEngine::RenderTexture>& Meta::XR::EnvironmentDepth::EnvironmentDepthManager_Mask::__cordl_internal_get__maskedDepthTexture() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____maskedDepthTexture;
+constexpr ::UnityW<::UnityEngine::RenderTexture>& Meta::XR::EnvironmentDepth::EnvironmentDepthManager_Mask::__cordl_internal_get__maskedDepthTexture()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____maskedDepthTexture;
 }
 constexpr ::UnityW<::UnityEngine::RenderTexture> const& Meta::XR::EnvironmentDepth::EnvironmentDepthManager_Mask::__cordl_internal_get__maskedDepthTexture() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____maskedDepthTexture;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____maskedDepthTexture;
 }
-constexpr void Meta::XR::EnvironmentDepth::EnvironmentDepthManager_Mask::__cordl_internal_set__maskedDepthTexture(::UnityW<::UnityEngine::RenderTexture> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____maskedDepthTexture)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void Meta::XR::EnvironmentDepth::EnvironmentDepthManager_Mask::__cordl_internal_set__maskedDepthTexture(::UnityW<::UnityEngine::RenderTexture>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____maskedDepthTexture)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::Rendering::CommandBuffer*& Meta::XR::EnvironmentDepth::EnvironmentDepthManager_Mask::__cordl_internal_get__maskCommandBuffer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____maskCommandBuffer;
+constexpr ::UnityEngine::Rendering::CommandBuffer*& Meta::XR::EnvironmentDepth::EnvironmentDepthManager_Mask::__cordl_internal_get__maskCommandBuffer()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____maskCommandBuffer;
 }
 constexpr ::UnityEngine::Rendering::CommandBuffer* const& Meta::XR::EnvironmentDepth::EnvironmentDepthManager_Mask::__cordl_internal_get__maskCommandBuffer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____maskCommandBuffer;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____maskCommandBuffer;
 }
-constexpr void Meta::XR::EnvironmentDepth::EnvironmentDepthManager_Mask::__cordl_internal_set__maskCommandBuffer(::UnityEngine::Rendering::CommandBuffer* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____maskCommandBuffer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void Meta::XR::EnvironmentDepth::EnvironmentDepthManager_Mask::__cordl_internal_set__maskCommandBuffer(::UnityEngine::Rendering::CommandBuffer*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____maskCommandBuffer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*>& Meta::XR::EnvironmentDepth::EnvironmentDepthManager_Mask::__cordl_internal_get__mvpMatrices() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____mvpMatrices;
+constexpr ::ArrayW<::UnityEngine::Matrix4x4,::Array<::UnityEngine::Matrix4x4>*>& Meta::XR::EnvironmentDepth::EnvironmentDepthManager_Mask::__cordl_internal_get__mvpMatrices()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____mvpMatrices;
 }
-constexpr ::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*> const& Meta::XR::EnvironmentDepth::EnvironmentDepthManager_Mask::__cordl_internal_get__mvpMatrices() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____mvpMatrices;
+constexpr ::ArrayW<::UnityEngine::Matrix4x4,::Array<::UnityEngine::Matrix4x4>*> const& Meta::XR::EnvironmentDepth::EnvironmentDepthManager_Mask::__cordl_internal_get__mvpMatrices() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____mvpMatrices;
 }
-constexpr void Meta::XR::EnvironmentDepth::EnvironmentDepthManager_Mask::__cordl_internal_set__mvpMatrices(::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____mvpMatrices)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void Meta::XR::EnvironmentDepth::EnvironmentDepthManager_Mask::__cordl_internal_set__mvpMatrices(::ArrayW<::UnityEngine::Matrix4x4,::Array<::UnityEngine::Matrix4x4>*>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____mvpMatrices)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void Meta::XR::EnvironmentDepth::EnvironmentDepthManager_Mask::_ctor(int32_t width, int32_t height, float_t bias) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager_Mask*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, width, height, bias);
+inline void Meta::XR::EnvironmentDepth::EnvironmentDepthManager_Mask::_ctor(int32_t  width, int32_t  height, float_t  bias)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager_Mask*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, width, height, bias);
 }
-inline ::UnityW<::UnityEngine::RenderTexture> Meta::XR::EnvironmentDepth::EnvironmentDepthManager_Mask::ApplyMask(
-    ::UnityEngine::RenderTexture* depthTexture, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MeshFilter>>* meshFilters, ::UnityEngine::Matrix4x4 trackingSpaceWorldToLocal,
-    ::ArrayW<::Meta::XR::EnvironmentDepth::DepthFrameDesc, ::Array<::Meta::XR::EnvironmentDepth::DepthFrameDesc>*> frameDescriptors) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager_Mask*>::get(), "ApplyMask", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 4>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::RenderTexture*>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MeshFilter>>*>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Matrix4x4>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::Meta::XR::EnvironmentDepth::DepthFrameDesc, ::Array<::Meta::XR::EnvironmentDepth::DepthFrameDesc>*>>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::RenderTexture>, false>(this, ___internal_method, depthTexture, meshFilters, trackingSpaceWorldToLocal, frameDescriptors);
+inline ::UnityW<::UnityEngine::RenderTexture> Meta::XR::EnvironmentDepth::EnvironmentDepthManager_Mask::ApplyMask(::UnityEngine::RenderTexture*  depthTexture, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MeshFilter>>*  meshFilters, ::UnityEngine::Matrix4x4  trackingSpaceWorldToLocal, ::ArrayW<::Meta::XR::EnvironmentDepth::DepthFrameDesc,::Array<::Meta::XR::EnvironmentDepth::DepthFrameDesc>*>  frameDescriptors)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager_Mask*>::get(),
+                        "ApplyMask",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::RenderTexture*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MeshFilter>>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Matrix4x4>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::Meta::XR::EnvironmentDepth::DepthFrameDesc,::Array<::Meta::XR::EnvironmentDepth::DepthFrameDesc>*>>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::RenderTexture>, false>(this, ___internal_method, depthTexture, meshFilters, trackingSpaceWorldToLocal, frameDescriptors);
 }
-inline void Meta::XR::EnvironmentDepth::EnvironmentDepthManager_Mask::Dispose() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager_Mask*>::get(),
-                                                                             "Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void Meta::XR::EnvironmentDepth::EnvironmentDepthManager_Mask::Dispose()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager_Mask*>::get(),
+                        "Dispose",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::Meta::XR::EnvironmentDepth::EnvironmentDepthManager_Mask* Meta::XR::EnvironmentDepth::EnvironmentDepthManager_Mask::New_ctor(int32_t width, int32_t height, float_t bias) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager_Mask*>(width, height, bias));
+inline ::Meta::XR::EnvironmentDepth::EnvironmentDepthManager_Mask* Meta::XR::EnvironmentDepth::EnvironmentDepthManager_Mask::New_ctor(int32_t  width, int32_t  height, float_t  bias)  {
+return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager_Mask*>(width, height, bias));
 }
 // Ctor Parameters []
-constexpr ::Meta::XR::EnvironmentDepth::EnvironmentDepthManager_Mask::EnvironmentDepthManager_Mask() {}
+constexpr ::Meta::XR::EnvironmentDepth::EnvironmentDepthManager_Mask::EnvironmentDepthManager_Mask()   {
+}
 //  Writing Method size for method: ::Meta::XR::EnvironmentDepth::EnvironmentDepthManager.get_MaskMeshFilters
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MeshFilter>>* (
-    ::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::*)()>(&::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::get_MaskMeshFilters)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MeshFilter>>* (::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::*)()>(&::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::get_MaskMeshFilters)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58ff1d0;
+  constexpr static std::size_t addrs = 0x5900ba0;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(),
-                                                                               "get_MaskMeshFilters", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(),
+                        "get_MaskMeshFilters",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Meta::XR::EnvironmentDepth::EnvironmentDepthManager.set_MaskMeshFilters
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::*)(
-    ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MeshFilter>>*)>(&::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::set_MaskMeshFilters)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::*)(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MeshFilter>>*)>(&::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::set_MaskMeshFilters)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58ff1d8;
+  constexpr static std::size_t addrs = 0x5900ba8;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(), "set_MaskMeshFilters", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MeshFilter>>*>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(),
+                        "set_MaskMeshFilters",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MeshFilter>>*>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Meta::XR::EnvironmentDepth::EnvironmentDepthManager.add_onDepthTextureUpdate
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::*)(
-    ::System::Action_1<::UnityW<::UnityEngine::RenderTexture>>*)>(&::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::add_onDepthTextureUpdate)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::*)(::System::Action_1<::UnityW<::UnityEngine::RenderTexture>>*)>(&::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::add_onDepthTextureUpdate)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x58ff1e0;
+  constexpr static std::size_t addrs = 0x5900bb0;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(), "add_onDepthTextureUpdate", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::UnityEngine::RenderTexture>>*>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(),
+                        "add_onDepthTextureUpdate",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::UnityEngine::RenderTexture>>*>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Meta::XR::EnvironmentDepth::EnvironmentDepthManager.remove_onDepthTextureUpdate
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::*)(
-    ::System::Action_1<::UnityW<::UnityEngine::RenderTexture>>*)>(&::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::remove_onDepthTextureUpdate)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::*)(::System::Action_1<::UnityW<::UnityEngine::RenderTexture>>*)>(&::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::remove_onDepthTextureUpdate)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x58ff2a0;
+  constexpr static std::size_t addrs = 0x5900c70;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(), "remove_onDepthTextureUpdate", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::UnityEngine::RenderTexture>>*>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(),
+                        "remove_onDepthTextureUpdate",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::UnityEngine::RenderTexture>>*>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Meta::XR::EnvironmentDepth::EnvironmentDepthManager.get_provider
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Meta::XR::EnvironmentDepth::IDepthProvider* (*)()>(
-    &::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::get_provider)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Meta::XR::EnvironmentDepth::IDepthProvider* (*)()>(&::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::get_provider)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x58ff360;
+  constexpr static std::size_t addrs = 0x5900d30;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(),
-                                                                               "get_provider", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(),
+                        "get_provider",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Meta::XR::EnvironmentDepth::EnvironmentDepthManager.CreateProvider
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Meta::XR::EnvironmentDepth::IDepthProvider* (*)()>(
-    &::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::CreateProvider)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Meta::XR::EnvironmentDepth::IDepthProvider* (*)()>(&::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::CreateProvider)> {
   constexpr static std::size_t size = 0x2ec;
-  constexpr static std::size_t addrs = 0x58ff3e4;
+  constexpr static std::size_t addrs = 0x5900db4;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(),
-                                                                               "CreateProvider", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(),
+                        "CreateProvider",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Meta::XR::EnvironmentDepth::EnvironmentDepthManager.get_IsSupported
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::get_IsSupported)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x58ff6d4;
+  constexpr static std::size_t addrs = 0x59010a4;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(),
-                                                                               "get_IsSupported", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(),
+                        "get_IsSupported",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Meta::XR::EnvironmentDepth::EnvironmentDepthManager.get_IsDepthAvailable
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::*)()>(
-    &::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::get_IsDepthAvailable)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::*)()>(&::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::get_IsDepthAvailable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58ff7a0;
+  constexpr static std::size_t addrs = 0x5901170;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(),
-                                                                               "get_IsDepthAvailable", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(),
+                        "get_IsDepthAvailable",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Meta::XR::EnvironmentDepth::EnvironmentDepthManager.set_IsDepthAvailable
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::*)(bool)>(
-    &::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::set_IsDepthAvailable)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::*)(bool)>(&::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::set_IsDepthAvailable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58ff7a8;
+  constexpr static std::size_t addrs = 0x5901178;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(), "set_IsDepthAvailable",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(),
+                        "set_IsDepthAvailable",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Meta::XR::EnvironmentDepth::EnvironmentDepthManager.get_OcclusionShadersMode
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Meta::XR::EnvironmentDepth::OcclusionShadersMode (::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::*)()>(
-    &::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::get_OcclusionShadersMode)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Meta::XR::EnvironmentDepth::OcclusionShadersMode (::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::*)()>(&::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::get_OcclusionShadersMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58ff7b0;
+  constexpr static std::size_t addrs = 0x5901180;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(),
-                                                                               "get_OcclusionShadersMode", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(),
+                        "get_OcclusionShadersMode",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Meta::XR::EnvironmentDepth::EnvironmentDepthManager.set_OcclusionShadersMode
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::*)(::Meta::XR::EnvironmentDepth::OcclusionShadersMode)>(
-    &::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::set_OcclusionShadersMode)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::*)(::Meta::XR::EnvironmentDepth::OcclusionShadersMode)>(&::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::set_OcclusionShadersMode)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x58ff7b8;
+  constexpr static std::size_t addrs = 0x5901188;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(), "set_OcclusionShadersMode", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Meta::XR::EnvironmentDepth::OcclusionShadersMode>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(),
+                        "set_OcclusionShadersMode",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Meta::XR::EnvironmentDepth::OcclusionShadersMode>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Meta::XR::EnvironmentDepth::EnvironmentDepthManager.get_RemoveHands
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::*)()>(
-    &::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::get_RemoveHands)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::*)()>(&::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::get_RemoveHands)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58ff9f4;
+  constexpr static std::size_t addrs = 0x59013c4;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(),
-                                                                               "get_RemoveHands", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(),
+                        "get_RemoveHands",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Meta::XR::EnvironmentDepth::EnvironmentDepthManager.set_RemoveHands
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::*)(bool)>(
-    &::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::set_RemoveHands)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::*)(bool)>(&::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::set_RemoveHands)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x58ff9fc;
+  constexpr static std::size_t addrs = 0x59013cc;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(), "set_RemoveHands",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(),
+                        "set_RemoveHands",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Meta::XR::EnvironmentDepth::EnvironmentDepthManager.get_MaskBias
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::*)()>(
-    &::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::get_MaskBias)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::*)()>(&::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::get_MaskBias)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58ffb2c;
+  constexpr static std::size_t addrs = 0x59014fc;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(),
-                                                                               "get_MaskBias", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(),
+                        "get_MaskBias",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Meta::XR::EnvironmentDepth::EnvironmentDepthManager.set_MaskBias
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::*)(float_t)>(
-    &::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::set_MaskBias)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::*)(float_t)>(&::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::set_MaskBias)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x58ffb34;
+  constexpr static std::size_t addrs = 0x5901504;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(), "set_MaskBias",
-                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(),
+                        "set_MaskBias",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Meta::XR::EnvironmentDepth::EnvironmentDepthManager.Awake
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::*)()>(
-    &::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::Awake)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::*)()>(&::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::Awake)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x58ffbd0;
+  constexpr static std::size_t addrs = 0x59015a0;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(),
-                                                                               "Awake", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(),
+                        "Awake",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Meta::XR::EnvironmentDepth::EnvironmentDepthManager.OnEnable
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::*)()>(
-    &::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::OnEnable)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::*)()>(&::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::OnEnable)> {
   constexpr static std::size_t size = 0x21c;
-  constexpr static std::size_t addrs = 0x58ffc8c;
+  constexpr static std::size_t addrs = 0x590165c;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(),
-                                                                               "OnEnable", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(),
+                        "OnEnable",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Meta::XR::EnvironmentDepth::EnvironmentDepthManager.ResetDepthTextureIfAvailable
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::*)()>(
-    &::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::ResetDepthTextureIfAvailable)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::*)()>(&::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::ResetDepthTextureIfAvailable)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x58ffea8;
+  constexpr static std::size_t addrs = 0x5901878;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(),
-                                                                               "ResetDepthTextureIfAvailable", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(),
+                        "ResetDepthTextureIfAvailable",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Meta::XR::EnvironmentDepth::EnvironmentDepthManager.OnDisable
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::*)()>(
-    &::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::OnDisable)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::*)()>(&::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::OnDisable)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x58fff44;
+  constexpr static std::size_t addrs = 0x5901914;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(),
-                                                                               "OnDisable", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(),
+                        "OnDisable",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Meta::XR::EnvironmentDepth::EnvironmentDepthManager.OnDestroy
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::*)()>(
-    &::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::OnDestroy)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::*)()>(&::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::OnDestroy)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x59000d4;
+  constexpr static std::size_t addrs = 0x5901aa4;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(),
-                                                                               "OnDestroy", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(),
+                        "OnDestroy",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Meta::XR::EnvironmentDepth::EnvironmentDepthManager.OnBeforeRender
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::*)()>(
-    &::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::OnBeforeRender)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::*)()>(&::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::OnBeforeRender)> {
   constexpr static std::size_t size = 0x350;
-  constexpr static std::size_t addrs = 0x5900248;
+  constexpr static std::size_t addrs = 0x5901c18;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(),
-                                                                               "OnBeforeRender", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(),
+                        "OnBeforeRender",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Meta::XR::EnvironmentDepth::EnvironmentDepthManager.CacheCameraRig
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::*)()>(
-    &::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::CacheCameraRig)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::*)()>(&::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::CacheCameraRig)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x5900b04;
+  constexpr static std::size_t addrs = 0x59024d4;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(),
-                                                                               "CacheCameraRig", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(),
+                        "CacheCameraRig",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Meta::XR::EnvironmentDepth::EnvironmentDepthManager.SetOcclusionShaderKeywords
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Meta::XR::EnvironmentDepth::OcclusionShadersMode)>(
-    &::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::SetOcclusionShaderKeywords)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Meta::XR::EnvironmentDepth::OcclusionShadersMode)>(&::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::SetOcclusionShaderKeywords)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x58ff844;
+  constexpr static std::size_t addrs = 0x5901214;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(), "SetOcclusionShaderKeywords", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Meta::XR::EnvironmentDepth::OcclusionShadersMode>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(),
+                        "SetOcclusionShaderKeywords",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Meta::XR::EnvironmentDepth::OcclusionShadersMode>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Meta::XR::EnvironmentDepth::EnvironmentDepthManager.TryFetchDepthTexture
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::*)(::UnityEngine::Matrix4x4)>(
-    &::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::TryFetchDepthTexture)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::*)(::UnityEngine::Matrix4x4)>(&::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::TryFetchDepthTexture)> {
   constexpr static std::size_t size = 0x2e4;
-  constexpr static std::size_t addrs = 0x59006dc;
+  constexpr static std::size_t addrs = 0x59020ac;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(), "TryFetchDepthTexture", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Matrix4x4>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(),
+                        "TryFetchDepthTexture",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Matrix4x4>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Meta::XR::EnvironmentDepth::EnvironmentDepthManager.GetTrackingSpaceWorldToLocalMatrix
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Matrix4x4 (::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::*)()>(
-    &::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::GetTrackingSpaceWorldToLocalMatrix)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Matrix4x4 (::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::*)()>(&::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::GetTrackingSpaceWorldToLocalMatrix)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x5900598;
+  constexpr static std::size_t addrs = 0x5901f68;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(),
-                                                 "GetTrackingSpaceWorldToLocalMatrix", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(),
+                        "GetTrackingSpaceWorldToLocalMatrix",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Meta::XR::EnvironmentDepth::EnvironmentDepthManager.PreprocessDepthTexture
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::*)(::UnityEngine::RenderTexture*)>(
-    &::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::PreprocessDepthTexture)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::*)(::UnityEngine::RenderTexture*)>(&::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::PreprocessDepthTexture)> {
   constexpr static std::size_t size = 0x2e4;
-  constexpr static std::size_t addrs = 0x5901710;
+  constexpr static std::size_t addrs = 0x59030e0;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(), "PreprocessDepthTexture", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::RenderTexture*>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(),
+                        "PreprocessDepthTexture",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::RenderTexture*>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Meta::XR::EnvironmentDepth::EnvironmentDepthManager.Log
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::LogType, ::StringW)>(&::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::Log)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x59019f4;
+  constexpr static std::size_t addrs = 0x59033c4;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(),
-                                                                               "Log", std::span<Il2CppClass const* const, 0>(),
-                                                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::LogType>::get(),
-                                                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(),
+                        "Log",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::LogType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Meta::XR::EnvironmentDepth::EnvironmentDepthManager._ctor
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::*)()>(
-    &::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::*)()>(&::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::_ctor)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x5901b18;
+  constexpr static std::size_t addrs = 0x59034e8;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(),
-                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
-constexpr ::Meta::XR::EnvironmentDepth::OcclusionShadersMode& Meta::XR::EnvironmentDepth::EnvironmentDepthManager::__cordl_internal_get__occlusionShadersMode() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____occlusionShadersMode;
+constexpr ::Meta::XR::EnvironmentDepth::OcclusionShadersMode& Meta::XR::EnvironmentDepth::EnvironmentDepthManager::__cordl_internal_get__occlusionShadersMode()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____occlusionShadersMode;
 }
 constexpr ::Meta::XR::EnvironmentDepth::OcclusionShadersMode const& Meta::XR::EnvironmentDepth::EnvironmentDepthManager::__cordl_internal_get__occlusionShadersMode() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____occlusionShadersMode;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____occlusionShadersMode;
 }
-constexpr void Meta::XR::EnvironmentDepth::EnvironmentDepthManager::__cordl_internal_set__occlusionShadersMode(::Meta::XR::EnvironmentDepth::OcclusionShadersMode value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____occlusionShadersMode = value;
+constexpr void Meta::XR::EnvironmentDepth::EnvironmentDepthManager::__cordl_internal_set__occlusionShadersMode(::Meta::XR::EnvironmentDepth::OcclusionShadersMode  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____occlusionShadersMode = value;
 }
-constexpr bool& Meta::XR::EnvironmentDepth::EnvironmentDepthManager::__cordl_internal_get__removeHands() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____removeHands;
+constexpr bool& Meta::XR::EnvironmentDepth::EnvironmentDepthManager::__cordl_internal_get__removeHands()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____removeHands;
 }
 constexpr bool const& Meta::XR::EnvironmentDepth::EnvironmentDepthManager::__cordl_internal_get__removeHands() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____removeHands;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____removeHands;
 }
-constexpr void Meta::XR::EnvironmentDepth::EnvironmentDepthManager::__cordl_internal_set__removeHands(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____removeHands = value;
+constexpr void Meta::XR::EnvironmentDepth::EnvironmentDepthManager::__cordl_internal_set__removeHands(bool  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____removeHands = value;
 }
-constexpr ::UnityW<::UnityEngine::Transform>& Meta::XR::EnvironmentDepth::EnvironmentDepthManager::__cordl_internal_get_CustomTrackingSpace() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___CustomTrackingSpace;
+constexpr ::UnityW<::UnityEngine::Transform>& Meta::XR::EnvironmentDepth::EnvironmentDepthManager::__cordl_internal_get_CustomTrackingSpace()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___CustomTrackingSpace;
 }
 constexpr ::UnityW<::UnityEngine::Transform> const& Meta::XR::EnvironmentDepth::EnvironmentDepthManager::__cordl_internal_get_CustomTrackingSpace() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___CustomTrackingSpace;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___CustomTrackingSpace;
 }
-constexpr void Meta::XR::EnvironmentDepth::EnvironmentDepthManager::__cordl_internal_set_CustomTrackingSpace(::UnityW<::UnityEngine::Transform> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___CustomTrackingSpace)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void Meta::XR::EnvironmentDepth::EnvironmentDepthManager::__cordl_internal_set_CustomTrackingSpace(::UnityW<::UnityEngine::Transform>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___CustomTrackingSpace)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MeshFilter>>*& Meta::XR::EnvironmentDepth::EnvironmentDepthManager::__cordl_internal_get__MaskMeshFilters_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____MaskMeshFilters_k__BackingField;
+constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MeshFilter>>*& Meta::XR::EnvironmentDepth::EnvironmentDepthManager::__cordl_internal_get__MaskMeshFilters_k__BackingField()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____MaskMeshFilters_k__BackingField;
 }
-constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MeshFilter>>* const&
-Meta::XR::EnvironmentDepth::EnvironmentDepthManager::__cordl_internal_get__MaskMeshFilters_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____MaskMeshFilters_k__BackingField;
+constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MeshFilter>>* const& Meta::XR::EnvironmentDepth::EnvironmentDepthManager::__cordl_internal_get__MaskMeshFilters_k__BackingField() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____MaskMeshFilters_k__BackingField;
 }
-constexpr void
-Meta::XR::EnvironmentDepth::EnvironmentDepthManager::__cordl_internal_set__MaskMeshFilters_k__BackingField(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MeshFilter>>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____MaskMeshFilters_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void Meta::XR::EnvironmentDepth::EnvironmentDepthManager::__cordl_internal_set__MaskMeshFilters_k__BackingField(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MeshFilter>>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____MaskMeshFilters_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr bool& Meta::XR::EnvironmentDepth::EnvironmentDepthManager::__cordl_internal_get__isCameraRigCached() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____isCameraRigCached;
+constexpr bool& Meta::XR::EnvironmentDepth::EnvironmentDepthManager::__cordl_internal_get__isCameraRigCached()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____isCameraRigCached;
 }
 constexpr bool const& Meta::XR::EnvironmentDepth::EnvironmentDepthManager::__cordl_internal_get__isCameraRigCached() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____isCameraRigCached;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____isCameraRigCached;
 }
-constexpr void Meta::XR::EnvironmentDepth::EnvironmentDepthManager::__cordl_internal_set__isCameraRigCached(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____isCameraRigCached = value;
+constexpr void Meta::XR::EnvironmentDepth::EnvironmentDepthManager::__cordl_internal_set__isCameraRigCached(bool  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____isCameraRigCached = value;
 }
-constexpr ::UnityW<::GlobalNamespace::OVRCameraRig>& Meta::XR::EnvironmentDepth::EnvironmentDepthManager::__cordl_internal_get__cameraRig() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____cameraRig;
+constexpr ::UnityW<::GlobalNamespace::OVRCameraRig>& Meta::XR::EnvironmentDepth::EnvironmentDepthManager::__cordl_internal_get__cameraRig()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____cameraRig;
 }
 constexpr ::UnityW<::GlobalNamespace::OVRCameraRig> const& Meta::XR::EnvironmentDepth::EnvironmentDepthManager::__cordl_internal_get__cameraRig() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____cameraRig;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____cameraRig;
 }
-constexpr void Meta::XR::EnvironmentDepth::EnvironmentDepthManager::__cordl_internal_set__cameraRig(::UnityW<::GlobalNamespace::OVRCameraRig> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____cameraRig)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void Meta::XR::EnvironmentDepth::EnvironmentDepthManager::__cordl_internal_set__cameraRig(::UnityW<::GlobalNamespace::OVRCameraRig>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____cameraRig)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr bool& Meta::XR::EnvironmentDepth::EnvironmentDepthManager::__cordl_internal_get__hasPermission() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____hasPermission;
+constexpr bool& Meta::XR::EnvironmentDepth::EnvironmentDepthManager::__cordl_internal_get__hasPermission()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____hasPermission;
 }
 constexpr bool const& Meta::XR::EnvironmentDepth::EnvironmentDepthManager::__cordl_internal_get__hasPermission() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____hasPermission;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____hasPermission;
 }
-constexpr void Meta::XR::EnvironmentDepth::EnvironmentDepthManager::__cordl_internal_set__hasPermission(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____hasPermission = value;
+constexpr void Meta::XR::EnvironmentDepth::EnvironmentDepthManager::__cordl_internal_set__hasPermission(bool  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____hasPermission = value;
 }
-constexpr ::UnityW<::UnityEngine::Material>& Meta::XR::EnvironmentDepth::EnvironmentDepthManager::__cordl_internal_get__preprocessMaterial() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____preprocessMaterial;
+constexpr ::UnityW<::UnityEngine::Material>& Meta::XR::EnvironmentDepth::EnvironmentDepthManager::__cordl_internal_get__preprocessMaterial()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____preprocessMaterial;
 }
 constexpr ::UnityW<::UnityEngine::Material> const& Meta::XR::EnvironmentDepth::EnvironmentDepthManager::__cordl_internal_get__preprocessMaterial() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____preprocessMaterial;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____preprocessMaterial;
 }
-constexpr void Meta::XR::EnvironmentDepth::EnvironmentDepthManager::__cordl_internal_set__preprocessMaterial(::UnityW<::UnityEngine::Material> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____preprocessMaterial)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void Meta::XR::EnvironmentDepth::EnvironmentDepthManager::__cordl_internal_set__preprocessMaterial(::UnityW<::UnityEngine::Material>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____preprocessMaterial)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::UnityEngine::RenderTexture>& Meta::XR::EnvironmentDepth::EnvironmentDepthManager::__cordl_internal_get__preprocessTexture() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____preprocessTexture;
+constexpr ::UnityW<::UnityEngine::RenderTexture>& Meta::XR::EnvironmentDepth::EnvironmentDepthManager::__cordl_internal_get__preprocessTexture()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____preprocessTexture;
 }
 constexpr ::UnityW<::UnityEngine::RenderTexture> const& Meta::XR::EnvironmentDepth::EnvironmentDepthManager::__cordl_internal_get__preprocessTexture() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____preprocessTexture;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____preprocessTexture;
 }
-constexpr void Meta::XR::EnvironmentDepth::EnvironmentDepthManager::__cordl_internal_set__preprocessTexture(::UnityW<::UnityEngine::RenderTexture> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____preprocessTexture)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void Meta::XR::EnvironmentDepth::EnvironmentDepthManager::__cordl_internal_set__preprocessTexture(::UnityW<::UnityEngine::RenderTexture>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____preprocessTexture)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::RenderTargetSetup& Meta::XR::EnvironmentDepth::EnvironmentDepthManager::__cordl_internal_get__preprocessRenderTargetSetup() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____preprocessRenderTargetSetup;
+constexpr ::UnityEngine::RenderTargetSetup& Meta::XR::EnvironmentDepth::EnvironmentDepthManager::__cordl_internal_get__preprocessRenderTargetSetup()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____preprocessRenderTargetSetup;
 }
 constexpr ::UnityEngine::RenderTargetSetup const& Meta::XR::EnvironmentDepth::EnvironmentDepthManager::__cordl_internal_get__preprocessRenderTargetSetup() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____preprocessRenderTargetSetup;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____preprocessRenderTargetSetup;
 }
-constexpr void Meta::XR::EnvironmentDepth::EnvironmentDepthManager::__cordl_internal_set__preprocessRenderTargetSetup(::UnityEngine::RenderTargetSetup value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____preprocessRenderTargetSetup = value;
+constexpr void Meta::XR::EnvironmentDepth::EnvironmentDepthManager::__cordl_internal_set__preprocessRenderTargetSetup(::UnityEngine::RenderTargetSetup  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____preprocessRenderTargetSetup = value;
 }
-constexpr ::System::Action_1<::UnityW<::UnityEngine::RenderTexture>>*& Meta::XR::EnvironmentDepth::EnvironmentDepthManager::__cordl_internal_get_onDepthTextureUpdate() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___onDepthTextureUpdate;
+constexpr ::System::Action_1<::UnityW<::UnityEngine::RenderTexture>>*& Meta::XR::EnvironmentDepth::EnvironmentDepthManager::__cordl_internal_get_onDepthTextureUpdate()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___onDepthTextureUpdate;
 }
 constexpr ::System::Action_1<::UnityW<::UnityEngine::RenderTexture>>* const& Meta::XR::EnvironmentDepth::EnvironmentDepthManager::__cordl_internal_get_onDepthTextureUpdate() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___onDepthTextureUpdate;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___onDepthTextureUpdate;
 }
-constexpr void Meta::XR::EnvironmentDepth::EnvironmentDepthManager::__cordl_internal_set_onDepthTextureUpdate(::System::Action_1<::UnityW<::UnityEngine::RenderTexture>>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___onDepthTextureUpdate)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void Meta::XR::EnvironmentDepth::EnvironmentDepthManager::__cordl_internal_set_onDepthTextureUpdate(::System::Action_1<::UnityW<::UnityEngine::RenderTexture>>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___onDepthTextureUpdate)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<::Meta::XR::EnvironmentDepth::DepthFrameDesc, ::Array<::Meta::XR::EnvironmentDepth::DepthFrameDesc>*>&
-Meta::XR::EnvironmentDepth::EnvironmentDepthManager::__cordl_internal_get_frameDescriptors() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___frameDescriptors;
+constexpr ::ArrayW<::Meta::XR::EnvironmentDepth::DepthFrameDesc,::Array<::Meta::XR::EnvironmentDepth::DepthFrameDesc>*>& Meta::XR::EnvironmentDepth::EnvironmentDepthManager::__cordl_internal_get_frameDescriptors()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___frameDescriptors;
 }
-constexpr ::ArrayW<::Meta::XR::EnvironmentDepth::DepthFrameDesc, ::Array<::Meta::XR::EnvironmentDepth::DepthFrameDesc>*> const&
-Meta::XR::EnvironmentDepth::EnvironmentDepthManager::__cordl_internal_get_frameDescriptors() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___frameDescriptors;
+constexpr ::ArrayW<::Meta::XR::EnvironmentDepth::DepthFrameDesc,::Array<::Meta::XR::EnvironmentDepth::DepthFrameDesc>*> const& Meta::XR::EnvironmentDepth::EnvironmentDepthManager::__cordl_internal_get_frameDescriptors() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___frameDescriptors;
 }
-constexpr void Meta::XR::EnvironmentDepth::EnvironmentDepthManager::__cordl_internal_set_frameDescriptors(
-    ::ArrayW<::Meta::XR::EnvironmentDepth::DepthFrameDesc, ::Array<::Meta::XR::EnvironmentDepth::DepthFrameDesc>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___frameDescriptors)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void Meta::XR::EnvironmentDepth::EnvironmentDepthManager::__cordl_internal_set_frameDescriptors(::ArrayW<::Meta::XR::EnvironmentDepth::DepthFrameDesc,::Array<::Meta::XR::EnvironmentDepth::DepthFrameDesc>*>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___frameDescriptors)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr float_t& Meta::XR::EnvironmentDepth::EnvironmentDepthManager::__cordl_internal_get__maskBias() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____maskBias;
+constexpr float_t& Meta::XR::EnvironmentDepth::EnvironmentDepthManager::__cordl_internal_get__maskBias()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____maskBias;
 }
 constexpr float_t const& Meta::XR::EnvironmentDepth::EnvironmentDepthManager::__cordl_internal_get__maskBias() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____maskBias;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____maskBias;
 }
-constexpr void Meta::XR::EnvironmentDepth::EnvironmentDepthManager::__cordl_internal_set__maskBias(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____maskBias = value;
+constexpr void Meta::XR::EnvironmentDepth::EnvironmentDepthManager::__cordl_internal_set__maskBias(float_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____maskBias = value;
 }
-constexpr ::Meta::XR::EnvironmentDepth::EnvironmentDepthManager_Mask*& Meta::XR::EnvironmentDepth::EnvironmentDepthManager::__cordl_internal_get__mask() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____mask;
+constexpr ::Meta::XR::EnvironmentDepth::EnvironmentDepthManager_Mask*& Meta::XR::EnvironmentDepth::EnvironmentDepthManager::__cordl_internal_get__mask()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____mask;
 }
 constexpr ::Meta::XR::EnvironmentDepth::EnvironmentDepthManager_Mask* const& Meta::XR::EnvironmentDepth::EnvironmentDepthManager::__cordl_internal_get__mask() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____mask;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____mask;
 }
-constexpr void Meta::XR::EnvironmentDepth::EnvironmentDepthManager::__cordl_internal_set__mask(::Meta::XR::EnvironmentDepth::EnvironmentDepthManager_Mask* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____mask)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void Meta::XR::EnvironmentDepth::EnvironmentDepthManager::__cordl_internal_set__mask(::Meta::XR::EnvironmentDepth::EnvironmentDepthManager_Mask*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____mask)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr bool& Meta::XR::EnvironmentDepth::EnvironmentDepthManager::__cordl_internal_get__IsDepthAvailable_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____IsDepthAvailable_k__BackingField;
+constexpr bool& Meta::XR::EnvironmentDepth::EnvironmentDepthManager::__cordl_internal_get__IsDepthAvailable_k__BackingField()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____IsDepthAvailable_k__BackingField;
 }
 constexpr bool const& Meta::XR::EnvironmentDepth::EnvironmentDepthManager::__cordl_internal_get__IsDepthAvailable_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____IsDepthAvailable_k__BackingField;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____IsDepthAvailable_k__BackingField;
 }
-constexpr void Meta::XR::EnvironmentDepth::EnvironmentDepthManager::__cordl_internal_set__IsDepthAvailable_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____IsDepthAvailable_k__BackingField = value;
+constexpr void Meta::XR::EnvironmentDepth::EnvironmentDepthManager::__cordl_internal_set__IsDepthAvailable_k__BackingField(bool  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____IsDepthAvailable_k__BackingField = value;
 }
-constexpr ::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*>& Meta::XR::EnvironmentDepth::EnvironmentDepthManager::__cordl_internal_get__reprojectionMatrices() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____reprojectionMatrices;
+constexpr ::ArrayW<::UnityEngine::Matrix4x4,::Array<::UnityEngine::Matrix4x4>*>& Meta::XR::EnvironmentDepth::EnvironmentDepthManager::__cordl_internal_get__reprojectionMatrices()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____reprojectionMatrices;
 }
-constexpr ::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*> const& Meta::XR::EnvironmentDepth::EnvironmentDepthManager::__cordl_internal_get__reprojectionMatrices() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____reprojectionMatrices;
+constexpr ::ArrayW<::UnityEngine::Matrix4x4,::Array<::UnityEngine::Matrix4x4>*> const& Meta::XR::EnvironmentDepth::EnvironmentDepthManager::__cordl_internal_get__reprojectionMatrices() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____reprojectionMatrices;
 }
-constexpr void Meta::XR::EnvironmentDepth::EnvironmentDepthManager::__cordl_internal_set__reprojectionMatrices(::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____reprojectionMatrices)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void Meta::XR::EnvironmentDepth::EnvironmentDepthManager::__cordl_internal_set__reprojectionMatrices(::ArrayW<::UnityEngine::Matrix4x4,::Array<::UnityEngine::Matrix4x4>*>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____reprojectionMatrices)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void Meta::XR::EnvironmentDepth::EnvironmentDepthManager::setStaticF_DepthTextureID(int32_t value) {
-  ::cordl_internals::setStaticField<int32_t, "DepthTextureID", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get>(
-      std::forward<int32_t>(value));
+inline void Meta::XR::EnvironmentDepth::EnvironmentDepthManager::setStaticF_DepthTextureID(int32_t  value)  {
+::cordl_internals::setStaticField<int32_t, "DepthTextureID", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get>(std::forward<int32_t>(value));
 }
-inline int32_t Meta::XR::EnvironmentDepth::EnvironmentDepthManager::getStaticF_DepthTextureID() {
-  return ::cordl_internals::getStaticField<int32_t, "DepthTextureID", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get>();
+inline int32_t Meta::XR::EnvironmentDepth::EnvironmentDepthManager::getStaticF_DepthTextureID()  {
+return ::cordl_internals::getStaticField<int32_t, "DepthTextureID", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get>();
 }
-inline void Meta::XR::EnvironmentDepth::EnvironmentDepthManager::setStaticF_ReprojectionMatricesID(int32_t value) {
-  ::cordl_internals::setStaticField<int32_t, "ReprojectionMatricesID", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get>(
-      std::forward<int32_t>(value));
+inline void Meta::XR::EnvironmentDepth::EnvironmentDepthManager::setStaticF_ReprojectionMatricesID(int32_t  value)  {
+::cordl_internals::setStaticField<int32_t, "ReprojectionMatricesID", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get>(std::forward<int32_t>(value));
 }
-inline int32_t Meta::XR::EnvironmentDepth::EnvironmentDepthManager::getStaticF_ReprojectionMatricesID() {
-  return ::cordl_internals::getStaticField<int32_t, "ReprojectionMatricesID", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get>();
+inline int32_t Meta::XR::EnvironmentDepth::EnvironmentDepthManager::getStaticF_ReprojectionMatricesID()  {
+return ::cordl_internals::getStaticField<int32_t, "ReprojectionMatricesID", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get>();
 }
-inline void Meta::XR::EnvironmentDepth::EnvironmentDepthManager::setStaticF_ZBufferParamsID(int32_t value) {
-  ::cordl_internals::setStaticField<int32_t, "ZBufferParamsID", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get>(
-      std::forward<int32_t>(value));
+inline void Meta::XR::EnvironmentDepth::EnvironmentDepthManager::setStaticF_ZBufferParamsID(int32_t  value)  {
+::cordl_internals::setStaticField<int32_t, "ZBufferParamsID", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get>(std::forward<int32_t>(value));
 }
-inline int32_t Meta::XR::EnvironmentDepth::EnvironmentDepthManager::getStaticF_ZBufferParamsID() {
-  return ::cordl_internals::getStaticField<int32_t, "ZBufferParamsID", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get>();
+inline int32_t Meta::XR::EnvironmentDepth::EnvironmentDepthManager::getStaticF_ZBufferParamsID()  {
+return ::cordl_internals::getStaticField<int32_t, "ZBufferParamsID", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get>();
 }
-inline void Meta::XR::EnvironmentDepth::EnvironmentDepthManager::setStaticF_PreprocessedEnvironmentDepthTexture(int32_t value) {
-  ::cordl_internals::setStaticField<int32_t, "PreprocessedEnvironmentDepthTexture",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get>(std::forward<int32_t>(value));
+inline void Meta::XR::EnvironmentDepth::EnvironmentDepthManager::setStaticF_PreprocessedEnvironmentDepthTexture(int32_t  value)  {
+::cordl_internals::setStaticField<int32_t, "PreprocessedEnvironmentDepthTexture", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get>(std::forward<int32_t>(value));
 }
-inline int32_t Meta::XR::EnvironmentDepth::EnvironmentDepthManager::getStaticF_PreprocessedEnvironmentDepthTexture() {
-  return ::cordl_internals::getStaticField<int32_t, "PreprocessedEnvironmentDepthTexture",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get>();
+inline int32_t Meta::XR::EnvironmentDepth::EnvironmentDepthManager::getStaticF_PreprocessedEnvironmentDepthTexture()  {
+return ::cordl_internals::getStaticField<int32_t, "PreprocessedEnvironmentDepthTexture", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get>();
 }
-inline void Meta::XR::EnvironmentDepth::EnvironmentDepthManager::setStaticF_MvpMatricesID(int32_t value) {
-  ::cordl_internals::setStaticField<int32_t, "MvpMatricesID", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get>(
-      std::forward<int32_t>(value));
+inline void Meta::XR::EnvironmentDepth::EnvironmentDepthManager::setStaticF_MvpMatricesID(int32_t  value)  {
+::cordl_internals::setStaticField<int32_t, "MvpMatricesID", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get>(std::forward<int32_t>(value));
 }
-inline int32_t Meta::XR::EnvironmentDepth::EnvironmentDepthManager::getStaticF_MvpMatricesID() {
-  return ::cordl_internals::getStaticField<int32_t, "MvpMatricesID", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get>();
+inline int32_t Meta::XR::EnvironmentDepth::EnvironmentDepthManager::getStaticF_MvpMatricesID()  {
+return ::cordl_internals::getStaticField<int32_t, "MvpMatricesID", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get>();
 }
-inline void Meta::XR::EnvironmentDepth::EnvironmentDepthManager::setStaticF_MaskTextureID(int32_t value) {
-  ::cordl_internals::setStaticField<int32_t, "MaskTextureID", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get>(
-      std::forward<int32_t>(value));
+inline void Meta::XR::EnvironmentDepth::EnvironmentDepthManager::setStaticF_MaskTextureID(int32_t  value)  {
+::cordl_internals::setStaticField<int32_t, "MaskTextureID", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get>(std::forward<int32_t>(value));
 }
-inline int32_t Meta::XR::EnvironmentDepth::EnvironmentDepthManager::getStaticF_MaskTextureID() {
-  return ::cordl_internals::getStaticField<int32_t, "MaskTextureID", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get>();
+inline int32_t Meta::XR::EnvironmentDepth::EnvironmentDepthManager::getStaticF_MaskTextureID()  {
+return ::cordl_internals::getStaticField<int32_t, "MaskTextureID", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get>();
 }
-inline void Meta::XR::EnvironmentDepth::EnvironmentDepthManager::setStaticF_MaskBiasID(int32_t value) {
-  ::cordl_internals::setStaticField<int32_t, "MaskBiasID", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get>(
-      std::forward<int32_t>(value));
+inline void Meta::XR::EnvironmentDepth::EnvironmentDepthManager::setStaticF_MaskBiasID(int32_t  value)  {
+::cordl_internals::setStaticField<int32_t, "MaskBiasID", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get>(std::forward<int32_t>(value));
 }
-inline int32_t Meta::XR::EnvironmentDepth::EnvironmentDepthManager::getStaticF_MaskBiasID() {
-  return ::cordl_internals::getStaticField<int32_t, "MaskBiasID", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get>();
+inline int32_t Meta::XR::EnvironmentDepth::EnvironmentDepthManager::getStaticF_MaskBiasID()  {
+return ::cordl_internals::getStaticField<int32_t, "MaskBiasID", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get>();
 }
-inline void Meta::XR::EnvironmentDepth::EnvironmentDepthManager::setStaticF__provider(::Meta::XR::EnvironmentDepth::IDepthProvider* value) {
-  ::cordl_internals::setStaticField<::Meta::XR::EnvironmentDepth::IDepthProvider*, "_provider",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get>(
-      std::forward<::Meta::XR::EnvironmentDepth::IDepthProvider*>(value));
+inline void Meta::XR::EnvironmentDepth::EnvironmentDepthManager::setStaticF__provider(::Meta::XR::EnvironmentDepth::IDepthProvider*  value)  {
+::cordl_internals::setStaticField<::Meta::XR::EnvironmentDepth::IDepthProvider*, "_provider", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get>(std::forward<::Meta::XR::EnvironmentDepth::IDepthProvider*>(value));
 }
-inline ::Meta::XR::EnvironmentDepth::IDepthProvider* Meta::XR::EnvironmentDepth::EnvironmentDepthManager::getStaticF__provider() {
-  return ::cordl_internals::getStaticField<::Meta::XR::EnvironmentDepth::IDepthProvider*, "_provider",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get>();
+inline ::Meta::XR::EnvironmentDepth::IDepthProvider* Meta::XR::EnvironmentDepth::EnvironmentDepthManager::getStaticF__provider()  {
+return ::cordl_internals::getStaticField<::Meta::XR::EnvironmentDepth::IDepthProvider*, "_provider", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get>();
 }
-inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MeshFilter>>* Meta::XR::EnvironmentDepth::EnvironmentDepthManager::get_MaskMeshFilters() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(),
-                                                                             "get_MaskMeshFilters", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MeshFilter>>*, false>(this, ___internal_method);
+inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MeshFilter>>* Meta::XR::EnvironmentDepth::EnvironmentDepthManager::get_MaskMeshFilters()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(),
+                        "get_MaskMeshFilters",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MeshFilter>>*, false>(this, ___internal_method);
 }
-inline void Meta::XR::EnvironmentDepth::EnvironmentDepthManager::set_MaskMeshFilters(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MeshFilter>>* value) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(), "set_MaskMeshFilters", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MeshFilter>>*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void Meta::XR::EnvironmentDepth::EnvironmentDepthManager::set_MaskMeshFilters(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MeshFilter>>*  value)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(),
+                        "set_MaskMeshFilters",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MeshFilter>>*>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void Meta::XR::EnvironmentDepth::EnvironmentDepthManager::add_onDepthTextureUpdate(::System::Action_1<::UnityW<::UnityEngine::RenderTexture>>* value) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(), "add_onDepthTextureUpdate", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::UnityEngine::RenderTexture>>*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void Meta::XR::EnvironmentDepth::EnvironmentDepthManager::add_onDepthTextureUpdate(::System::Action_1<::UnityW<::UnityEngine::RenderTexture>>*  value)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(),
+                        "add_onDepthTextureUpdate",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::UnityEngine::RenderTexture>>*>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void Meta::XR::EnvironmentDepth::EnvironmentDepthManager::remove_onDepthTextureUpdate(::System::Action_1<::UnityW<::UnityEngine::RenderTexture>>* value) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(), "remove_onDepthTextureUpdate", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::UnityEngine::RenderTexture>>*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void Meta::XR::EnvironmentDepth::EnvironmentDepthManager::remove_onDepthTextureUpdate(::System::Action_1<::UnityW<::UnityEngine::RenderTexture>>*  value)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(),
+                        "remove_onDepthTextureUpdate",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::UnityEngine::RenderTexture>>*>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::Meta::XR::EnvironmentDepth::IDepthProvider* Meta::XR::EnvironmentDepth::EnvironmentDepthManager::get_provider() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(),
-                                                                             "get_provider", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::Meta::XR::EnvironmentDepth::IDepthProvider*, false>(nullptr, ___internal_method);
+inline ::Meta::XR::EnvironmentDepth::IDepthProvider* Meta::XR::EnvironmentDepth::EnvironmentDepthManager::get_provider()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(),
+                        "get_provider",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<::Meta::XR::EnvironmentDepth::IDepthProvider*, false>(nullptr, ___internal_method);
 }
-inline ::Meta::XR::EnvironmentDepth::IDepthProvider* Meta::XR::EnvironmentDepth::EnvironmentDepthManager::CreateProvider() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(),
-                                                                             "CreateProvider", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::Meta::XR::EnvironmentDepth::IDepthProvider*, false>(nullptr, ___internal_method);
+inline ::Meta::XR::EnvironmentDepth::IDepthProvider* Meta::XR::EnvironmentDepth::EnvironmentDepthManager::CreateProvider()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(),
+                        "CreateProvider",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<::Meta::XR::EnvironmentDepth::IDepthProvider*, false>(nullptr, ___internal_method);
 }
-inline bool Meta::XR::EnvironmentDepth::EnvironmentDepthManager::get_IsSupported() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(),
-                                                                             "get_IsSupported", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method);
+inline bool Meta::XR::EnvironmentDepth::EnvironmentDepthManager::get_IsSupported()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(),
+                        "get_IsSupported",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method);
 }
-inline bool Meta::XR::EnvironmentDepth::EnvironmentDepthManager::get_IsDepthAvailable() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(),
-                                                                             "get_IsDepthAvailable", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool Meta::XR::EnvironmentDepth::EnvironmentDepthManager::get_IsDepthAvailable()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(),
+                        "get_IsDepthAvailable",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline void Meta::XR::EnvironmentDepth::EnvironmentDepthManager::set_IsDepthAvailable(bool value) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(), "set_IsDepthAvailable",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void Meta::XR::EnvironmentDepth::EnvironmentDepthManager::set_IsDepthAvailable(bool  value)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(),
+                        "set_IsDepthAvailable",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::Meta::XR::EnvironmentDepth::OcclusionShadersMode Meta::XR::EnvironmentDepth::EnvironmentDepthManager::get_OcclusionShadersMode() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(),
-                                                                             "get_OcclusionShadersMode", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::Meta::XR::EnvironmentDepth::OcclusionShadersMode, false>(this, ___internal_method);
+inline ::Meta::XR::EnvironmentDepth::OcclusionShadersMode Meta::XR::EnvironmentDepth::EnvironmentDepthManager::get_OcclusionShadersMode()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(),
+                        "get_OcclusionShadersMode",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<::Meta::XR::EnvironmentDepth::OcclusionShadersMode, false>(this, ___internal_method);
 }
-inline void Meta::XR::EnvironmentDepth::EnvironmentDepthManager::set_OcclusionShadersMode(::Meta::XR::EnvironmentDepth::OcclusionShadersMode value) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(), "set_OcclusionShadersMode", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Meta::XR::EnvironmentDepth::OcclusionShadersMode>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void Meta::XR::EnvironmentDepth::EnvironmentDepthManager::set_OcclusionShadersMode(::Meta::XR::EnvironmentDepth::OcclusionShadersMode  value)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(),
+                        "set_OcclusionShadersMode",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Meta::XR::EnvironmentDepth::OcclusionShadersMode>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline bool Meta::XR::EnvironmentDepth::EnvironmentDepthManager::get_RemoveHands() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(),
-                                                                             "get_RemoveHands", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool Meta::XR::EnvironmentDepth::EnvironmentDepthManager::get_RemoveHands()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(),
+                        "get_RemoveHands",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline void Meta::XR::EnvironmentDepth::EnvironmentDepthManager::set_RemoveHands(bool value) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(), "set_RemoveHands",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void Meta::XR::EnvironmentDepth::EnvironmentDepthManager::set_RemoveHands(bool  value)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(),
+                        "set_RemoveHands",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline float_t Meta::XR::EnvironmentDepth::EnvironmentDepthManager::get_MaskBias() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(),
-                                                                             "get_MaskBias", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
+inline float_t Meta::XR::EnvironmentDepth::EnvironmentDepthManager::get_MaskBias()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(),
+                        "get_MaskBias",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
 }
-inline void Meta::XR::EnvironmentDepth::EnvironmentDepthManager::set_MaskBias(float_t value) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(), "set_MaskBias",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void Meta::XR::EnvironmentDepth::EnvironmentDepthManager::set_MaskBias(float_t  value)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(),
+                        "set_MaskBias",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void Meta::XR::EnvironmentDepth::EnvironmentDepthManager::Awake() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(),
-                                                                             "Awake", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void Meta::XR::EnvironmentDepth::EnvironmentDepthManager::Awake()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(),
+                        "Awake",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void Meta::XR::EnvironmentDepth::EnvironmentDepthManager::OnEnable() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(),
-                                                                             "OnEnable", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void Meta::XR::EnvironmentDepth::EnvironmentDepthManager::OnEnable()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(),
+                        "OnEnable",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void Meta::XR::EnvironmentDepth::EnvironmentDepthManager::ResetDepthTextureIfAvailable() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(),
-                                                                             "ResetDepthTextureIfAvailable", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void Meta::XR::EnvironmentDepth::EnvironmentDepthManager::ResetDepthTextureIfAvailable()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(),
+                        "ResetDepthTextureIfAvailable",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void Meta::XR::EnvironmentDepth::EnvironmentDepthManager::OnDisable() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(),
-                                                                             "OnDisable", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void Meta::XR::EnvironmentDepth::EnvironmentDepthManager::OnDisable()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(),
+                        "OnDisable",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void Meta::XR::EnvironmentDepth::EnvironmentDepthManager::OnDestroy() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(),
-                                                                             "OnDestroy", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void Meta::XR::EnvironmentDepth::EnvironmentDepthManager::OnDestroy()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(),
+                        "OnDestroy",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void Meta::XR::EnvironmentDepth::EnvironmentDepthManager::OnBeforeRender() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(),
-                                                                             "OnBeforeRender", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void Meta::XR::EnvironmentDepth::EnvironmentDepthManager::OnBeforeRender()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(),
+                        "OnBeforeRender",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void Meta::XR::EnvironmentDepth::EnvironmentDepthManager::CacheCameraRig() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(),
-                                                                             "CacheCameraRig", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void Meta::XR::EnvironmentDepth::EnvironmentDepthManager::CacheCameraRig()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(),
+                        "CacheCameraRig",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void Meta::XR::EnvironmentDepth::EnvironmentDepthManager::SetOcclusionShaderKeywords(::Meta::XR::EnvironmentDepth::OcclusionShadersMode mode) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(), "SetOcclusionShaderKeywords", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Meta::XR::EnvironmentDepth::OcclusionShadersMode>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, mode);
+inline void Meta::XR::EnvironmentDepth::EnvironmentDepthManager::SetOcclusionShaderKeywords(::Meta::XR::EnvironmentDepth::OcclusionShadersMode  mode)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(),
+                        "SetOcclusionShaderKeywords",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Meta::XR::EnvironmentDepth::OcclusionShadersMode>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, mode);
 }
-inline void Meta::XR::EnvironmentDepth::EnvironmentDepthManager::TryFetchDepthTexture(::UnityEngine::Matrix4x4 trackingSpaceWorldToLocal) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(), "TryFetchDepthTexture", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Matrix4x4>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, trackingSpaceWorldToLocal);
+inline void Meta::XR::EnvironmentDepth::EnvironmentDepthManager::TryFetchDepthTexture(::UnityEngine::Matrix4x4  trackingSpaceWorldToLocal)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(),
+                        "TryFetchDepthTexture",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Matrix4x4>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, trackingSpaceWorldToLocal);
 }
-inline ::UnityEngine::Matrix4x4 Meta::XR::EnvironmentDepth::EnvironmentDepthManager::GetTrackingSpaceWorldToLocalMatrix() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(),
-                                               "GetTrackingSpaceWorldToLocalMatrix", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Matrix4x4, false>(this, ___internal_method);
+inline ::UnityEngine::Matrix4x4 Meta::XR::EnvironmentDepth::EnvironmentDepthManager::GetTrackingSpaceWorldToLocalMatrix()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(),
+                        "GetTrackingSpaceWorldToLocalMatrix",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::Matrix4x4, false>(this, ___internal_method);
 }
-inline void Meta::XR::EnvironmentDepth::EnvironmentDepthManager::PreprocessDepthTexture(::UnityEngine::RenderTexture* depthTexture) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(), "PreprocessDepthTexture", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::RenderTexture*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, depthTexture);
+inline void Meta::XR::EnvironmentDepth::EnvironmentDepthManager::PreprocessDepthTexture(::UnityEngine::RenderTexture*  depthTexture)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(),
+                        "PreprocessDepthTexture",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::RenderTexture*>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, depthTexture);
 }
-inline void Meta::XR::EnvironmentDepth::EnvironmentDepthManager::Log(::UnityEngine::LogType type, ::StringW msg) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(),
-                                                                             "Log", std::span<Il2CppClass const* const, 0>(),
-                                                                             ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::LogType>::get(),
-                                                                                                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, type, msg);
+inline void Meta::XR::EnvironmentDepth::EnvironmentDepthManager::Log(::UnityEngine::LogType  type, ::StringW  msg)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(),
+                        "Log",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::LogType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, type, msg);
 }
-inline void Meta::XR::EnvironmentDepth::EnvironmentDepthManager::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(),
-                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void Meta::XR::EnvironmentDepth::EnvironmentDepthManager::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::Meta::XR::EnvironmentDepth::EnvironmentDepthManager* Meta::XR::EnvironmentDepth::EnvironmentDepthManager::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>());
+inline ::Meta::XR::EnvironmentDepth::EnvironmentDepthManager* Meta::XR::EnvironmentDepth::EnvironmentDepthManager::New_ctor()  {
+return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>());
 }
 // Ctor Parameters []
-constexpr ::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::EnvironmentDepthManager() {}
+constexpr ::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::EnvironmentDepthManager()   {
+}

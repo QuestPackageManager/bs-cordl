@@ -3,4 +3,5 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatSaber/Analytics/Gameplay/Events/zzzz__SpaceshipLoggerNames_def.hpp"
 // Ctor Parameters []
-constexpr ::BeatSaber::Analytics::Gameplay::Events::SpaceshipLoggerNames::SpaceshipLoggerNames() {}
+constexpr ::BeatSaber::Analytics::Gameplay::Events::SpaceshipLoggerNames::SpaceshipLoggerNames()   {
+}

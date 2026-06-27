@@ -21,37 +21,37 @@ namespace UnityEngine::Rendering {
 // CS Name: UnityEngine.Rendering.NoInterpCubemapParameter
 class CORDL_TYPE NoInterpCubemapParameter : public ::UnityEngine::Rendering::VolumeParameter_1<::UnityW<::UnityEngine::Cubemap>> {
 public:
-  // Declarations
-  /// @brief Method GetHashCode, addr 0x668974c, size 0x108, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
+// Declarations
+/// @brief Method GetHashCode, addr 0x668b2c4, size 0x108, virtual true, abstract: false, final false
+inline int32_t GetHashCode() ;
 
-  static inline ::UnityEngine::Rendering::NoInterpCubemapParameter* New_ctor(::UnityEngine::Cubemap* value, bool overrideState);
+static inline ::UnityEngine::Rendering::NoInterpCubemapParameter* New_ctor(::UnityEngine::Cubemap*  value, bool  overrideState) ;
 
-  /// @brief Method .ctor, addr 0x66896e8, size 0x64, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::Cubemap* value, bool overrideState);
+/// @brief Method .ctor, addr 0x668b260, size 0x64, virtual false, abstract: false, final false
+inline void _ctor(::UnityEngine::Cubemap*  value, bool  overrideState) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NoInterpCubemapParameter();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr NoInterpCubemapParameter() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NoInterpCubemapParameter", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  NoInterpCubemapParameter(NoInterpCubemapParameter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NoInterpCubemapParameter", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  NoInterpCubemapParameter(NoInterpCubemapParameter const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "NoInterpCubemapParameter", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+NoInterpCubemapParameter(NoInterpCubemapParameter && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12356 };
+// Ctor Parameters [CppParam { name: "", ty: "NoInterpCubemapParameter", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+NoInterpCubemapParameter(NoInterpCubemapParameter const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12357};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::NoInterpCubemapParameter, 0x20>, "Size mismatch!");
 
-} // namespace UnityEngine::Rendering
+} // namespace end def UnityEngine::Rendering
 NEED_NO_BOX(::UnityEngine::Rendering::NoInterpCubemapParameter);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::NoInterpCubemapParameter*, "UnityEngine.Rendering", "NoInterpCubemapParameter");

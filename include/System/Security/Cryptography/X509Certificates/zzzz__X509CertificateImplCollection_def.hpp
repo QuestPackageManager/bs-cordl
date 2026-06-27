@@ -7,7 +7,8 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(X509CertificateImplCollection)
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template<typename T>
+class List_1;
 }
 namespace System::Security::Cryptography::X509Certificates {
 class X509CertificateImpl;
@@ -27,85 +28,84 @@ namespace System::Security::Cryptography::X509Certificates {
 // CS Name: System.Security.Cryptography.X509Certificates.X509CertificateImplCollection
 class CORDL_TYPE X509CertificateImplCollection : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = get_Count)) int32_t Count;
+// Declarations
+ __declspec(property(get=get_Count)) int32_t  Count;
 
-  __declspec(property(get = get_Item)) ::System::Security::Cryptography::X509Certificates::X509CertificateImpl* Item[];
+ __declspec(property(get=get_Item)) ::System::Security::Cryptography::X509Certificates::X509CertificateImpl*  Item[];
 
-  /// @brief Field list, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_list,
-                      put = __cordl_internal_set_list)) ::System::Collections::Generic::List_1<::System::Security::Cryptography::X509Certificates::X509CertificateImpl*>* list;
+/// @brief Field list, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_list, put=__cordl_internal_set_list)) ::System::Collections::Generic::List_1<::System::Security::Cryptography::X509Certificates::X509CertificateImpl*>*  list;
 
-  /// @brief Convert operator to "::System::IDisposable"
-  constexpr operator ::System::IDisposable*() noexcept;
+/// @brief Convert operator to "::System::IDisposable"
+constexpr operator  ::System::IDisposable*() noexcept;
 
-  /// @brief Method Add, addr 0x62671a0, size 0xd4, virtual false, abstract: false, final false
-  inline void Add(::System::Security::Cryptography::X509Certificates::X509CertificateImpl* impl, bool takeOwnership);
+/// @brief Method Add, addr 0x6268d18, size 0xd4, virtual false, abstract: false, final false
+inline void Add(::System::Security::Cryptography::X509Certificates::X509CertificateImpl*  impl, bool  takeOwnership) ;
 
-  /// @brief Method Clone, addr 0x6266048, size 0x5c, virtual false, abstract: false, final false
-  inline ::System::Security::Cryptography::X509Certificates::X509CertificateImplCollection* Clone();
+/// @brief Method Clone, addr 0x6267bc0, size 0x5c, virtual false, abstract: false, final false
+inline ::System::Security::Cryptography::X509Certificates::X509CertificateImplCollection* Clone() ;
 
-  /// @brief Method Dispose, addr 0x6268218, size 0x70, virtual true, abstract: false, final true
-  inline void Dispose();
+/// @brief Method Dispose, addr 0x6269d90, size 0x70, virtual true, abstract: false, final true
+inline void Dispose() ;
 
-  /// @brief Method Dispose, addr 0x6268288, size 0x1e4, virtual true, abstract: false, final false
-  inline void Dispose(bool disposing);
+/// @brief Method Dispose, addr 0x6269e00, size 0x1e4, virtual true, abstract: false, final false
+inline void Dispose(bool  disposing) ;
 
-  /// @brief Method Finalize, addr 0x626846c, size 0x50, virtual true, abstract: false, final false
-  inline void Finalize();
+/// @brief Method Finalize, addr 0x6269fe4, size 0x50, virtual true, abstract: false, final false
+inline void Finalize() ;
 
-  static inline ::System::Security::Cryptography::X509Certificates::X509CertificateImplCollection* New_ctor();
+static inline ::System::Security::Cryptography::X509Certificates::X509CertificateImplCollection* New_ctor() ;
 
-  static inline ::System::Security::Cryptography::X509Certificates::X509CertificateImplCollection* New_ctor(::System::Security::Cryptography::X509Certificates::X509CertificateImplCollection* other);
+static inline ::System::Security::Cryptography::X509Certificates::X509CertificateImplCollection* New_ctor(::System::Security::Cryptography::X509Certificates::X509CertificateImplCollection*  other) ;
 
-  constexpr ::System::Collections::Generic::List_1<::System::Security::Cryptography::X509Certificates::X509CertificateImpl*>* const& __cordl_internal_get_list() const;
+constexpr ::System::Collections::Generic::List_1<::System::Security::Cryptography::X509Certificates::X509CertificateImpl*>* const& __cordl_internal_get_list() const;
 
-  constexpr ::System::Collections::Generic::List_1<::System::Security::Cryptography::X509Certificates::X509CertificateImpl*>*& __cordl_internal_get_list();
+constexpr ::System::Collections::Generic::List_1<::System::Security::Cryptography::X509Certificates::X509CertificateImpl*>*& __cordl_internal_get_list() ;
 
-  constexpr void __cordl_internal_set_list(::System::Collections::Generic::List_1<::System::Security::Cryptography::X509Certificates::X509CertificateImpl*>* value);
+constexpr void __cordl_internal_set_list(::System::Collections::Generic::List_1<::System::Security::Cryptography::X509Certificates::X509CertificateImpl*>*  value) ;
 
-  /// @brief Method .ctor, addr 0x626712c, size 0x74, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6268ca4, size 0x74, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method .ctor, addr 0x6267f84, size 0x1e0, virtual false, abstract: false, final false
-  inline void _ctor(::System::Security::Cryptography::X509Certificates::X509CertificateImplCollection* other);
+/// @brief Method .ctor, addr 0x6269afc, size 0x1e0, virtual false, abstract: false, final false
+inline void _ctor(::System::Security::Cryptography::X509Certificates::X509CertificateImplCollection*  other) ;
 
-  /// @brief Method get_Count, addr 0x6268164, size 0x50, virtual false, abstract: false, final false
-  inline int32_t get_Count();
+/// @brief Method get_Count, addr 0x6269cdc, size 0x50, virtual false, abstract: false, final false
+inline int32_t get_Count() ;
 
-  /// @brief Method get_Item, addr 0x62681b4, size 0x64, virtual false, abstract: false, final false
-  inline ::System::Security::Cryptography::X509Certificates::X509CertificateImpl* get_Item(int32_t index);
+/// @brief Method get_Item, addr 0x6269d2c, size 0x64, virtual false, abstract: false, final false
+inline ::System::Security::Cryptography::X509Certificates::X509CertificateImpl* get_Item(int32_t  index) ;
 
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+/// @brief Convert to "::System::IDisposable"
+constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr X509CertificateImplCollection();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr X509CertificateImplCollection() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "X509CertificateImplCollection", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  X509CertificateImplCollection(X509CertificateImplCollection&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "X509CertificateImplCollection", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  X509CertificateImplCollection(X509CertificateImplCollection const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "X509CertificateImplCollection", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+X509CertificateImplCollection(X509CertificateImplCollection && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11185 };
+// Ctor Parameters [CppParam { name: "", ty: "X509CertificateImplCollection", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+X509CertificateImplCollection(X509CertificateImplCollection const& ) = delete;
 
-  /// @brief Field list, offset: 0x10, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::System::Security::Cryptography::X509Certificates::X509CertificateImpl*>* ___list;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11186};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field list, offset: 0x10, size: 0x8, def value: None
+ ::System::Collections::Generic::List_1<::System::Security::Cryptography::X509Certificates::X509CertificateImpl*>*  ___list;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Security::Cryptography::X509Certificates::X509CertificateImplCollection, ___list) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::System::Security::Cryptography::X509Certificates::X509CertificateImplCollection, 0x18>, "Size mismatch!");
 
-} // namespace System::Security::Cryptography::X509Certificates
+} // namespace end def System::Security::Cryptography::X509Certificates
 NEED_NO_BOX(::System::Security::Cryptography::X509Certificates::X509CertificateImplCollection);
 DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::X509Certificates::X509CertificateImplCollection*, "System.Security.Cryptography.X509Certificates", "X509CertificateImplCollection");

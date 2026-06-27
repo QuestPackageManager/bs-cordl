@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "Org/BouncyCastle/X509/Store/IX509Selector.hpp"
 #include "Org/BouncyCastle/X509/Store/IX509Store.hpp"
@@ -16,5 +16,6 @@ module;
 #include "Org/BouncyCastle/X509/Store/X509StoreException.hpp"
 #include "Org/BouncyCastle/X509/Store/X509StoreFactory.hpp"
 #ifdef __cpp_modules
-export module Store;
-#endif
+                    export module Store;
+                    #endif
+                

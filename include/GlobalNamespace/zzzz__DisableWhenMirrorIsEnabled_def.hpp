@@ -20,65 +20,65 @@ namespace GlobalNamespace {
 // CS Name: DisableWhenMirrorIsEnabled
 class CORDL_TYPE DisableWhenMirrorIsEnabled : public ::UnityEngine::MonoBehaviour {
 public:
-  // Declarations
-  /// @brief Field _mirror, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__mirror, put = __cordl_internal_set__mirror)) ::UnityW<::GlobalNamespace::Mirror> _mirror;
+// Declarations
+/// @brief Field _mirror, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get__mirror, put=__cordl_internal_set__mirror)) ::UnityW<::GlobalNamespace::Mirror>  _mirror;
 
-  __declspec(property(get = get_mirror, put = set_mirror)) ::UnityW<::GlobalNamespace::Mirror> mirror;
+ __declspec(property(get=get_mirror, put=set_mirror)) ::UnityW<::GlobalNamespace::Mirror>  mirror;
 
-  /// @brief Method HandleMirrorDidChangeEnabledState, addr 0x57c22d8, size 0x2c, virtual false, abstract: false, final false
-  inline void HandleMirrorDidChangeEnabledState(bool isEnabled);
+/// @brief Method HandleMirrorDidChangeEnabledState, addr 0x57c3b40, size 0x2c, virtual false, abstract: false, final false
+inline void HandleMirrorDidChangeEnabledState(bool  isEnabled) ;
 
-  static inline ::GlobalNamespace::DisableWhenMirrorIsEnabled* New_ctor();
+static inline ::GlobalNamespace::DisableWhenMirrorIsEnabled* New_ctor() ;
 
-  /// @brief Method OnDestroy, addr 0x57c2304, size 0x114, virtual false, abstract: false, final false
-  inline void OnDestroy();
+/// @brief Method OnDestroy, addr 0x57c3b6c, size 0x114, virtual false, abstract: false, final false
+inline void OnDestroy() ;
 
-  /// @brief Method Start, addr 0x57c2234, size 0xa4, virtual false, abstract: false, final false
-  inline void Start();
+/// @brief Method Start, addr 0x57c3a9c, size 0xa4, virtual false, abstract: false, final false
+inline void Start() ;
 
-  constexpr ::UnityW<::GlobalNamespace::Mirror> const& __cordl_internal_get__mirror() const;
+constexpr ::UnityW<::GlobalNamespace::Mirror> const& __cordl_internal_get__mirror() const;
 
-  constexpr ::UnityW<::GlobalNamespace::Mirror>& __cordl_internal_get__mirror();
+constexpr ::UnityW<::GlobalNamespace::Mirror>& __cordl_internal_get__mirror() ;
 
-  constexpr void __cordl_internal_set__mirror(::UnityW<::GlobalNamespace::Mirror> value);
+constexpr void __cordl_internal_set__mirror(::UnityW<::GlobalNamespace::Mirror>  value) ;
 
-  /// @brief Method .ctor, addr 0x57c2418, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x57c3c80, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_mirror, addr 0x57c2224, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityW<::GlobalNamespace::Mirror> get_mirror();
+/// @brief Method get_mirror, addr 0x57c3a8c, size 0x8, virtual false, abstract: false, final false
+inline ::UnityW<::GlobalNamespace::Mirror> get_mirror() ;
 
-  /// @brief Method set_mirror, addr 0x57c222c, size 0x8, virtual false, abstract: false, final false
-  inline void set_mirror(::GlobalNamespace::Mirror* value);
+/// @brief Method set_mirror, addr 0x57c3a94, size 0x8, virtual false, abstract: false, final false
+inline void set_mirror(::GlobalNamespace::Mirror*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DisableWhenMirrorIsEnabled();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr DisableWhenMirrorIsEnabled() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DisableWhenMirrorIsEnabled", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  DisableWhenMirrorIsEnabled(DisableWhenMirrorIsEnabled&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DisableWhenMirrorIsEnabled", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  DisableWhenMirrorIsEnabled(DisableWhenMirrorIsEnabled const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "DisableWhenMirrorIsEnabled", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+DisableWhenMirrorIsEnabled(DisableWhenMirrorIsEnabled && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6629 };
+// Ctor Parameters [CppParam { name: "", ty: "DisableWhenMirrorIsEnabled", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+DisableWhenMirrorIsEnabled(DisableWhenMirrorIsEnabled const& ) = delete;
 
-  /// @brief Field _mirror, offset: 0x20, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::Mirror> ____mirror;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6629};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _mirror, offset: 0x20, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::Mirror>  ____mirror;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::DisableWhenMirrorIsEnabled, ____mirror) == 0x20, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::DisableWhenMirrorIsEnabled, 0x28>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::DisableWhenMirrorIsEnabled);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::DisableWhenMirrorIsEnabled*, "", "DisableWhenMirrorIsEnabled");

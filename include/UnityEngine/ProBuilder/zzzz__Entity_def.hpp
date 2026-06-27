@@ -21,59 +21,59 @@ namespace UnityEngine::ProBuilder {
 // CS Name: UnityEngine.ProBuilder.Entity
 class CORDL_TYPE Entity : public ::UnityEngine::MonoBehaviour {
 public:
-  // Declarations
-  __declspec(property(get = get_entityType)) ::UnityEngine::ProBuilder::EntityType entityType;
+// Declarations
+ __declspec(property(get=get_entityType)) ::UnityEngine::ProBuilder::EntityType  entityType;
 
-  /// @brief Field m_EntityType, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_EntityType, put = __cordl_internal_set_m_EntityType)) ::UnityEngine::ProBuilder::EntityType m_EntityType;
+/// @brief Field m_EntityType, offset 0x20, size 0x4 
+ __declspec(property(get=__cordl_internal_get_m_EntityType, put=__cordl_internal_set_m_EntityType)) ::UnityEngine::ProBuilder::EntityType  m_EntityType;
 
-  /// @brief Method Awake, addr 0x65779ec, size 0xc4, virtual false, abstract: false, final false
-  inline void Awake();
+/// @brief Method Awake, addr 0x6579564, size 0xc4, virtual false, abstract: false, final false
+inline void Awake() ;
 
-  static inline ::UnityEngine::ProBuilder::Entity* New_ctor();
+static inline ::UnityEngine::ProBuilder::Entity* New_ctor() ;
 
-  /// @brief Method SetEntity, addr 0x6577ab0, size 0x8, virtual false, abstract: false, final false
-  inline void SetEntity(::UnityEngine::ProBuilder::EntityType t);
+/// @brief Method SetEntity, addr 0x6579628, size 0x8, virtual false, abstract: false, final false
+inline void SetEntity(::UnityEngine::ProBuilder::EntityType  t) ;
 
-  constexpr ::UnityEngine::ProBuilder::EntityType const& __cordl_internal_get_m_EntityType() const;
+constexpr ::UnityEngine::ProBuilder::EntityType const& __cordl_internal_get_m_EntityType() const;
 
-  constexpr ::UnityEngine::ProBuilder::EntityType& __cordl_internal_get_m_EntityType();
+constexpr ::UnityEngine::ProBuilder::EntityType& __cordl_internal_get_m_EntityType() ;
 
-  constexpr void __cordl_internal_set_m_EntityType(::UnityEngine::ProBuilder::EntityType value);
+constexpr void __cordl_internal_set_m_EntityType(::UnityEngine::ProBuilder::EntityType  value) ;
 
-  /// @brief Method .ctor, addr 0x6577ab8, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6579630, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_entityType, addr 0x65779e4, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::ProBuilder::EntityType get_entityType();
+/// @brief Method get_entityType, addr 0x657955c, size 0x8, virtual false, abstract: false, final false
+inline ::UnityEngine::ProBuilder::EntityType get_entityType() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Entity();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr Entity() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Entity", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  Entity(Entity&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Entity", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  Entity(Entity const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "Entity", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Entity(Entity && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16713 };
+// Ctor Parameters [CppParam { name: "", ty: "Entity", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Entity(Entity const& ) = delete;
 
-  /// @brief Field m_EntityType, offset: 0x20, size: 0x4, def value: None
-  ::UnityEngine::ProBuilder::EntityType ___m_EntityType;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{16715};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field m_EntityType, offset: 0x20, size: 0x4, def value: None
+ ::UnityEngine::ProBuilder::EntityType  ___m_EntityType;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::ProBuilder::Entity, ___m_EntityType) == 0x20, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::Entity, 0x28>, "Size mismatch!");
 
-} // namespace UnityEngine::ProBuilder
+} // namespace end def UnityEngine::ProBuilder
 NEED_NO_BOX(::UnityEngine::ProBuilder::Entity);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::Entity*, "UnityEngine.ProBuilder", "Entity");

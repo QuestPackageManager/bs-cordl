@@ -49,124 +49,124 @@ namespace System::Linq::Expressions::Interpreter {
 // CS Name: System.Linq.Expressions.Interpreter.MulInstruction
 class CORDL_TYPE MulInstruction : public ::System::Linq::Expressions::Interpreter::Instruction {
 public:
-  // Declarations
-  using MulDouble = ::GlobalNamespace::MulInstruction_MulDouble;
+// Declarations
+using MulDouble = ::GlobalNamespace::MulInstruction_MulDouble;
 
-  using MulInt16 = ::GlobalNamespace::MulInstruction_MulInt16;
+using MulInt16 = ::GlobalNamespace::MulInstruction_MulInt16;
 
-  using MulInt32 = ::GlobalNamespace::MulInstruction_MulInt32;
+using MulInt32 = ::GlobalNamespace::MulInstruction_MulInt32;
 
-  using MulInt64 = ::GlobalNamespace::MulInstruction_MulInt64;
+using MulInt64 = ::GlobalNamespace::MulInstruction_MulInt64;
 
-  using MulSingle = ::GlobalNamespace::MulInstruction_MulSingle;
+using MulSingle = ::GlobalNamespace::MulInstruction_MulSingle;
 
-  using MulUInt16 = ::GlobalNamespace::MulInstruction_MulUInt16;
+using MulUInt16 = ::GlobalNamespace::MulInstruction_MulUInt16;
 
-  using MulUInt32 = ::GlobalNamespace::MulInstruction_MulUInt32;
+using MulUInt32 = ::GlobalNamespace::MulInstruction_MulUInt32;
 
-  using MulUInt64 = ::GlobalNamespace::MulInstruction_MulUInt64;
+using MulUInt64 = ::GlobalNamespace::MulInstruction_MulUInt64;
 
-  __declspec(property(get = get_ConsumedStack)) int32_t ConsumedStack;
+ __declspec(property(get=get_ConsumedStack)) int32_t  ConsumedStack;
 
-  __declspec(property(get = get_InstructionName)) ::StringW InstructionName;
+ __declspec(property(get=get_InstructionName)) ::StringW  InstructionName;
 
-  __declspec(property(get = get_ProducedStack)) int32_t ProducedStack;
+ __declspec(property(get=get_ProducedStack)) int32_t  ProducedStack;
 
-  /// @brief Field s_Double, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_s_Double, put = setStaticF_s_Double)) ::System::Linq::Expressions::Interpreter::Instruction* s_Double;
+/// @brief Field s_Double, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_s_Double, put=setStaticF_s_Double)) ::System::Linq::Expressions::Interpreter::Instruction*  s_Double;
 
-  /// @brief Field s_Int16, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_s_Int16, put = setStaticF_s_Int16)) ::System::Linq::Expressions::Interpreter::Instruction* s_Int16;
+/// @brief Field s_Int16, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_s_Int16, put=setStaticF_s_Int16)) ::System::Linq::Expressions::Interpreter::Instruction*  s_Int16;
 
-  /// @brief Field s_Int32, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_s_Int32, put = setStaticF_s_Int32)) ::System::Linq::Expressions::Interpreter::Instruction* s_Int32;
+/// @brief Field s_Int32, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_s_Int32, put=setStaticF_s_Int32)) ::System::Linq::Expressions::Interpreter::Instruction*  s_Int32;
 
-  /// @brief Field s_Int64, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_s_Int64, put = setStaticF_s_Int64)) ::System::Linq::Expressions::Interpreter::Instruction* s_Int64;
+/// @brief Field s_Int64, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_s_Int64, put=setStaticF_s_Int64)) ::System::Linq::Expressions::Interpreter::Instruction*  s_Int64;
 
-  /// @brief Field s_Single, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_s_Single, put = setStaticF_s_Single)) ::System::Linq::Expressions::Interpreter::Instruction* s_Single;
+/// @brief Field s_Single, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_s_Single, put=setStaticF_s_Single)) ::System::Linq::Expressions::Interpreter::Instruction*  s_Single;
 
-  /// @brief Field s_UInt16, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_s_UInt16, put = setStaticF_s_UInt16)) ::System::Linq::Expressions::Interpreter::Instruction* s_UInt16;
+/// @brief Field s_UInt16, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_s_UInt16, put=setStaticF_s_UInt16)) ::System::Linq::Expressions::Interpreter::Instruction*  s_UInt16;
 
-  /// @brief Field s_UInt32, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_s_UInt32, put = setStaticF_s_UInt32)) ::System::Linq::Expressions::Interpreter::Instruction* s_UInt32;
+/// @brief Field s_UInt32, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_s_UInt32, put=setStaticF_s_UInt32)) ::System::Linq::Expressions::Interpreter::Instruction*  s_UInt32;
 
-  /// @brief Field s_UInt64, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_s_UInt64, put = setStaticF_s_UInt64)) ::System::Linq::Expressions::Interpreter::Instruction* s_UInt64;
+/// @brief Field s_UInt64, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_s_UInt64, put=setStaticF_s_UInt64)) ::System::Linq::Expressions::Interpreter::Instruction*  s_UInt64;
 
-  /// @brief Method Create, addr 0x5e72be4, size 0x348, virtual false, abstract: false, final false
-  static inline ::System::Linq::Expressions::Interpreter::Instruction* Create(::System::Type* type);
+/// @brief Method Create, addr 0x5e7475c, size 0x348, virtual false, abstract: false, final false
+static inline ::System::Linq::Expressions::Interpreter::Instruction* Create(::System::Type*  type) ;
 
-  static inline ::System::Linq::Expressions::Interpreter::MulInstruction* New_ctor();
+static inline ::System::Linq::Expressions::Interpreter::MulInstruction* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x5e72be0, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5e74758, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  static inline ::System::Linq::Expressions::Interpreter::Instruction* getStaticF_s_Double();
+static inline ::System::Linq::Expressions::Interpreter::Instruction* getStaticF_s_Double() ;
 
-  static inline ::System::Linq::Expressions::Interpreter::Instruction* getStaticF_s_Int16();
+static inline ::System::Linq::Expressions::Interpreter::Instruction* getStaticF_s_Int16() ;
 
-  static inline ::System::Linq::Expressions::Interpreter::Instruction* getStaticF_s_Int32();
+static inline ::System::Linq::Expressions::Interpreter::Instruction* getStaticF_s_Int32() ;
 
-  static inline ::System::Linq::Expressions::Interpreter::Instruction* getStaticF_s_Int64();
+static inline ::System::Linq::Expressions::Interpreter::Instruction* getStaticF_s_Int64() ;
 
-  static inline ::System::Linq::Expressions::Interpreter::Instruction* getStaticF_s_Single();
+static inline ::System::Linq::Expressions::Interpreter::Instruction* getStaticF_s_Single() ;
 
-  static inline ::System::Linq::Expressions::Interpreter::Instruction* getStaticF_s_UInt16();
+static inline ::System::Linq::Expressions::Interpreter::Instruction* getStaticF_s_UInt16() ;
 
-  static inline ::System::Linq::Expressions::Interpreter::Instruction* getStaticF_s_UInt32();
+static inline ::System::Linq::Expressions::Interpreter::Instruction* getStaticF_s_UInt32() ;
 
-  static inline ::System::Linq::Expressions::Interpreter::Instruction* getStaticF_s_UInt64();
+static inline ::System::Linq::Expressions::Interpreter::Instruction* getStaticF_s_UInt64() ;
 
-  /// @brief Method get_ConsumedStack, addr 0x5e72b8c, size 0x8, virtual true, abstract: false, final false
-  inline int32_t get_ConsumedStack();
+/// @brief Method get_ConsumedStack, addr 0x5e74704, size 0x8, virtual true, abstract: false, final false
+inline int32_t get_ConsumedStack() ;
 
-  /// @brief Method get_InstructionName, addr 0x5e72b9c, size 0x44, virtual true, abstract: false, final false
-  inline ::StringW get_InstructionName();
+/// @brief Method get_InstructionName, addr 0x5e74714, size 0x44, virtual true, abstract: false, final false
+inline ::StringW get_InstructionName() ;
 
-  /// @brief Method get_ProducedStack, addr 0x5e72b94, size 0x8, virtual true, abstract: false, final false
-  inline int32_t get_ProducedStack();
+/// @brief Method get_ProducedStack, addr 0x5e7470c, size 0x8, virtual true, abstract: false, final false
+inline int32_t get_ProducedStack() ;
 
-  static inline void setStaticF_s_Double(::System::Linq::Expressions::Interpreter::Instruction* value);
+static inline void setStaticF_s_Double(::System::Linq::Expressions::Interpreter::Instruction*  value) ;
 
-  static inline void setStaticF_s_Int16(::System::Linq::Expressions::Interpreter::Instruction* value);
+static inline void setStaticF_s_Int16(::System::Linq::Expressions::Interpreter::Instruction*  value) ;
 
-  static inline void setStaticF_s_Int32(::System::Linq::Expressions::Interpreter::Instruction* value);
+static inline void setStaticF_s_Int32(::System::Linq::Expressions::Interpreter::Instruction*  value) ;
 
-  static inline void setStaticF_s_Int64(::System::Linq::Expressions::Interpreter::Instruction* value);
+static inline void setStaticF_s_Int64(::System::Linq::Expressions::Interpreter::Instruction*  value) ;
 
-  static inline void setStaticF_s_Single(::System::Linq::Expressions::Interpreter::Instruction* value);
+static inline void setStaticF_s_Single(::System::Linq::Expressions::Interpreter::Instruction*  value) ;
 
-  static inline void setStaticF_s_UInt16(::System::Linq::Expressions::Interpreter::Instruction* value);
+static inline void setStaticF_s_UInt16(::System::Linq::Expressions::Interpreter::Instruction*  value) ;
 
-  static inline void setStaticF_s_UInt32(::System::Linq::Expressions::Interpreter::Instruction* value);
+static inline void setStaticF_s_UInt32(::System::Linq::Expressions::Interpreter::Instruction*  value) ;
 
-  static inline void setStaticF_s_UInt64(::System::Linq::Expressions::Interpreter::Instruction* value);
+static inline void setStaticF_s_UInt64(::System::Linq::Expressions::Interpreter::Instruction*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MulInstruction();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr MulInstruction() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MulInstruction", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  MulInstruction(MulInstruction&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MulInstruction", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  MulInstruction(MulInstruction const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "MulInstruction", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+MulInstruction(MulInstruction && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16477 };
+// Ctor Parameters [CppParam { name: "", ty: "MulInstruction", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+MulInstruction(MulInstruction const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{16479};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Interpreter::MulInstruction, 0x10>, "Size mismatch!");
 
-} // namespace System::Linq::Expressions::Interpreter
+} // namespace end def System::Linq::Expressions::Interpreter
 NEED_NO_BOX(::System::Linq::Expressions::Interpreter::MulInstruction);
 DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Interpreter::MulInstruction*, "System.Linq.Expressions.Interpreter", "MulInstruction");

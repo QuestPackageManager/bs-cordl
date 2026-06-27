@@ -47,119 +47,116 @@ namespace Zenject {
 // CS Name: Zenject.ZenjectSettings/SignalSettings
 class CORDL_TYPE ZenjectSettings_SignalSettings : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field Default, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_Default, put = setStaticF_Default)) ::Zenject::ZenjectSettings_SignalSettings* Default;
+// Declarations
+/// @brief Field Default, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_Default, put=setStaticF_Default)) ::Zenject::ZenjectSettings_SignalSettings*  Default;
 
-  __declspec(property(get = get_DefaultAsyncTickPriority)) int32_t DefaultAsyncTickPriority;
+ __declspec(property(get=get_DefaultAsyncTickPriority)) int32_t  DefaultAsyncTickPriority;
 
-  __declspec(property(get = get_DefaultSyncMode)) ::Zenject::SignalDefaultSyncModes DefaultSyncMode;
+ __declspec(property(get=get_DefaultSyncMode)) ::Zenject::SignalDefaultSyncModes  DefaultSyncMode;
 
-  __declspec(property(get = get_MissingHandlerDefaultResponse)) ::Zenject::SignalMissingHandlerResponses MissingHandlerDefaultResponse;
+ __declspec(property(get=get_MissingHandlerDefaultResponse)) ::Zenject::SignalMissingHandlerResponses  MissingHandlerDefaultResponse;
 
-  __declspec(property(get = get_RequireStrictUnsubscribe)) bool RequireStrictUnsubscribe;
+ __declspec(property(get=get_RequireStrictUnsubscribe)) bool  RequireStrictUnsubscribe;
 
-  /// @brief Field _defaultAsyncTickPriority, offset 0x1c, size 0x4
-  __declspec(property(get = __cordl_internal_get__defaultAsyncTickPriority, put = __cordl_internal_set__defaultAsyncTickPriority)) int32_t _defaultAsyncTickPriority;
+/// @brief Field _defaultAsyncTickPriority, offset 0x1c, size 0x4 
+ __declspec(property(get=__cordl_internal_get__defaultAsyncTickPriority, put=__cordl_internal_set__defaultAsyncTickPriority)) int32_t  _defaultAsyncTickPriority;
 
-  /// @brief Field _defaultSyncMode, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get__defaultSyncMode, put = __cordl_internal_set__defaultSyncMode)) ::Zenject::SignalDefaultSyncModes _defaultSyncMode;
+/// @brief Field _defaultSyncMode, offset 0x10, size 0x4 
+ __declspec(property(get=__cordl_internal_get__defaultSyncMode, put=__cordl_internal_set__defaultSyncMode)) ::Zenject::SignalDefaultSyncModes  _defaultSyncMode;
 
-  /// @brief Field _missingHandlerDefaultResponse, offset 0x14, size 0x4
-  __declspec(property(get = __cordl_internal_get__missingHandlerDefaultResponse,
-                      put = __cordl_internal_set__missingHandlerDefaultResponse)) ::Zenject::SignalMissingHandlerResponses _missingHandlerDefaultResponse;
+/// @brief Field _missingHandlerDefaultResponse, offset 0x14, size 0x4 
+ __declspec(property(get=__cordl_internal_get__missingHandlerDefaultResponse, put=__cordl_internal_set__missingHandlerDefaultResponse)) ::Zenject::SignalMissingHandlerResponses  _missingHandlerDefaultResponse;
 
-  /// @brief Field _requireStrictUnsubscribe, offset 0x18, size 0x1
-  __declspec(property(get = __cordl_internal_get__requireStrictUnsubscribe, put = __cordl_internal_set__requireStrictUnsubscribe)) bool _requireStrictUnsubscribe;
+/// @brief Field _requireStrictUnsubscribe, offset 0x18, size 0x1 
+ __declspec(property(get=__cordl_internal_get__requireStrictUnsubscribe, put=__cordl_internal_set__requireStrictUnsubscribe)) bool  _requireStrictUnsubscribe;
 
-  static inline ::Zenject::ZenjectSettings_SignalSettings* New_ctor();
+static inline ::Zenject::ZenjectSettings_SignalSettings* New_ctor() ;
 
-  static inline ::Zenject::ZenjectSettings_SignalSettings* New_ctor(::Zenject::SignalDefaultSyncModes defaultSyncMode, ::Zenject::SignalMissingHandlerResponses missingHandlerDefaultResponse,
-                                                                    bool requireStrictUnsubscribe, int32_t defaultAsyncTickPriority);
+static inline ::Zenject::ZenjectSettings_SignalSettings* New_ctor(::Zenject::SignalDefaultSyncModes  defaultSyncMode, ::Zenject::SignalMissingHandlerResponses  missingHandlerDefaultResponse, bool  requireStrictUnsubscribe, int32_t  defaultAsyncTickPriority) ;
 
-  constexpr int32_t const& __cordl_internal_get__defaultAsyncTickPriority() const;
+constexpr int32_t const& __cordl_internal_get__defaultAsyncTickPriority() const;
 
-  constexpr int32_t& __cordl_internal_get__defaultAsyncTickPriority();
+constexpr int32_t& __cordl_internal_get__defaultAsyncTickPriority() ;
 
-  constexpr ::Zenject::SignalDefaultSyncModes const& __cordl_internal_get__defaultSyncMode() const;
+constexpr ::Zenject::SignalDefaultSyncModes const& __cordl_internal_get__defaultSyncMode() const;
 
-  constexpr ::Zenject::SignalDefaultSyncModes& __cordl_internal_get__defaultSyncMode();
+constexpr ::Zenject::SignalDefaultSyncModes& __cordl_internal_get__defaultSyncMode() ;
 
-  constexpr ::Zenject::SignalMissingHandlerResponses const& __cordl_internal_get__missingHandlerDefaultResponse() const;
+constexpr ::Zenject::SignalMissingHandlerResponses const& __cordl_internal_get__missingHandlerDefaultResponse() const;
 
-  constexpr ::Zenject::SignalMissingHandlerResponses& __cordl_internal_get__missingHandlerDefaultResponse();
+constexpr ::Zenject::SignalMissingHandlerResponses& __cordl_internal_get__missingHandlerDefaultResponse() ;
 
-  constexpr bool const& __cordl_internal_get__requireStrictUnsubscribe() const;
+constexpr bool const& __cordl_internal_get__requireStrictUnsubscribe() const;
 
-  constexpr bool& __cordl_internal_get__requireStrictUnsubscribe();
+constexpr bool& __cordl_internal_get__requireStrictUnsubscribe() ;
 
-  constexpr void __cordl_internal_set__defaultAsyncTickPriority(int32_t value);
+constexpr void __cordl_internal_set__defaultAsyncTickPriority(int32_t  value) ;
 
-  constexpr void __cordl_internal_set__defaultSyncMode(::Zenject::SignalDefaultSyncModes value);
+constexpr void __cordl_internal_set__defaultSyncMode(::Zenject::SignalDefaultSyncModes  value) ;
 
-  constexpr void __cordl_internal_set__missingHandlerDefaultResponse(::Zenject::SignalMissingHandlerResponses value);
+constexpr void __cordl_internal_set__missingHandlerDefaultResponse(::Zenject::SignalMissingHandlerResponses  value) ;
 
-  constexpr void __cordl_internal_set__requireStrictUnsubscribe(bool value);
+constexpr void __cordl_internal_set__requireStrictUnsubscribe(bool  value) ;
 
-  /// @brief Method __zenCreate, addr 0x6d2a160, size 0x60, virtual false, abstract: false, final false
-  static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
+/// @brief Method __zenCreate, addr 0x6d2bcd8, size 0x60, virtual false, abstract: false, final false
+static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*,::Array<::System::Object*>*>  P_0) ;
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x6d2a1c0, size 0x194, virtual false, abstract: false, final false
-  static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
+/// @brief Method __zenCreateInjectTypeInfo, addr 0x6d2bd38, size 0x194, virtual false, abstract: false, final false
+static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo() ;
 
-  /// @brief Method .ctor, addr 0x6d2a0b8, size 0x1c, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6d2bc30, size 0x1c, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method .ctor, addr 0x6d2a0a8, size 0x10, virtual false, abstract: false, final false
-  inline void _ctor(::Zenject::SignalDefaultSyncModes defaultSyncMode, ::Zenject::SignalMissingHandlerResponses missingHandlerDefaultResponse, bool requireStrictUnsubscribe,
-                    int32_t defaultAsyncTickPriority);
+/// @brief Method .ctor, addr 0x6d2bc20, size 0x10, virtual false, abstract: false, final false
+inline void _ctor(::Zenject::SignalDefaultSyncModes  defaultSyncMode, ::Zenject::SignalMissingHandlerResponses  missingHandlerDefaultResponse, bool  requireStrictUnsubscribe, int32_t  defaultAsyncTickPriority) ;
 
-  static inline ::Zenject::ZenjectSettings_SignalSettings* getStaticF_Default();
+static inline ::Zenject::ZenjectSettings_SignalSettings* getStaticF_Default() ;
 
-  /// @brief Method get_DefaultAsyncTickPriority, addr 0x6d2a0d4, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_DefaultAsyncTickPriority();
+/// @brief Method get_DefaultAsyncTickPriority, addr 0x6d2bc4c, size 0x8, virtual false, abstract: false, final false
+inline int32_t get_DefaultAsyncTickPriority() ;
 
-  /// @brief Method get_DefaultSyncMode, addr 0x6d2a0dc, size 0x8, virtual false, abstract: false, final false
-  inline ::Zenject::SignalDefaultSyncModes get_DefaultSyncMode();
+/// @brief Method get_DefaultSyncMode, addr 0x6d2bc54, size 0x8, virtual false, abstract: false, final false
+inline ::Zenject::SignalDefaultSyncModes get_DefaultSyncMode() ;
 
-  /// @brief Method get_MissingHandlerDefaultResponse, addr 0x6d2a0e4, size 0x8, virtual false, abstract: false, final false
-  inline ::Zenject::SignalMissingHandlerResponses get_MissingHandlerDefaultResponse();
+/// @brief Method get_MissingHandlerDefaultResponse, addr 0x6d2bc5c, size 0x8, virtual false, abstract: false, final false
+inline ::Zenject::SignalMissingHandlerResponses get_MissingHandlerDefaultResponse() ;
 
-  /// @brief Method get_RequireStrictUnsubscribe, addr 0x6d2a0ec, size 0x8, virtual false, abstract: false, final false
-  inline bool get_RequireStrictUnsubscribe();
+/// @brief Method get_RequireStrictUnsubscribe, addr 0x6d2bc64, size 0x8, virtual false, abstract: false, final false
+inline bool get_RequireStrictUnsubscribe() ;
 
-  static inline void setStaticF_Default(::Zenject::ZenjectSettings_SignalSettings* value);
+static inline void setStaticF_Default(::Zenject::ZenjectSettings_SignalSettings*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ZenjectSettings_SignalSettings();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ZenjectSettings_SignalSettings() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ZenjectSettings_SignalSettings", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ZenjectSettings_SignalSettings(ZenjectSettings_SignalSettings&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ZenjectSettings_SignalSettings", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ZenjectSettings_SignalSettings(ZenjectSettings_SignalSettings const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ZenjectSettings_SignalSettings", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ZenjectSettings_SignalSettings(ZenjectSettings_SignalSettings && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14511 };
+// Ctor Parameters [CppParam { name: "", ty: "ZenjectSettings_SignalSettings", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ZenjectSettings_SignalSettings(ZenjectSettings_SignalSettings const& ) = delete;
 
-  /// @brief Field _defaultSyncMode, offset: 0x10, size: 0x4, def value: None
-  ::Zenject::SignalDefaultSyncModes ____defaultSyncMode;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{14512};
 
-  /// @brief Field _missingHandlerDefaultResponse, offset: 0x14, size: 0x4, def value: None
-  ::Zenject::SignalMissingHandlerResponses ____missingHandlerDefaultResponse;
+/// @brief Field _defaultSyncMode, offset: 0x10, size: 0x4, def value: None
+ ::Zenject::SignalDefaultSyncModes  ____defaultSyncMode;
 
-  /// @brief Field _requireStrictUnsubscribe, offset: 0x18, size: 0x1, def value: None
-  bool ____requireStrictUnsubscribe;
+/// @brief Field _missingHandlerDefaultResponse, offset: 0x14, size: 0x4, def value: None
+ ::Zenject::SignalMissingHandlerResponses  ____missingHandlerDefaultResponse;
 
-  /// @brief Field _defaultAsyncTickPriority, offset: 0x1c, size: 0x4, def value: None
-  int32_t ____defaultAsyncTickPriority;
+/// @brief Field _requireStrictUnsubscribe, offset: 0x18, size: 0x1, def value: None
+ bool  ____requireStrictUnsubscribe;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _defaultAsyncTickPriority, offset: 0x1c, size: 0x4, def value: None
+ int32_t  ____defaultAsyncTickPriority;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Zenject::ZenjectSettings_SignalSettings, ____defaultSyncMode) == 0x10, "Offset mismatch!");
@@ -172,141 +169,136 @@ static_assert(offsetof(::Zenject::ZenjectSettings_SignalSettings, ____defaultAsy
 
 static_assert(::cordl_internals::size_check_v<::Zenject::ZenjectSettings_SignalSettings, 0x20>, "Size mismatch!");
 
-} // namespace Zenject
+} // namespace end def Zenject
 // Dependencies System.Object, Zenject.RootResolveMethods, Zenject.ValidationErrorResponses
 namespace Zenject {
 // Is value type: false
 // CS Name: Zenject.ZenjectSettings
 class CORDL_TYPE ZenjectSettings : public ::System::Object {
 public:
-  // Declarations
-  using SignalSettings = ::Zenject::ZenjectSettings_SignalSettings;
+// Declarations
+using SignalSettings = ::Zenject::ZenjectSettings_SignalSettings;
 
-  /// @brief Field Default, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_Default, put = setStaticF_Default)) ::Zenject::ZenjectSettings* Default;
+/// @brief Field Default, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_Default, put=setStaticF_Default)) ::Zenject::ZenjectSettings*  Default;
 
-  __declspec(property(get = get_DisplayWarningWhenResolvingDuringInstall)) bool DisplayWarningWhenResolvingDuringInstall;
+ __declspec(property(get=get_DisplayWarningWhenResolvingDuringInstall)) bool  DisplayWarningWhenResolvingDuringInstall;
 
-  __declspec(property(get = get_EnsureDeterministicDestructionOrderOnApplicationQuit)) bool EnsureDeterministicDestructionOrderOnApplicationQuit;
+ __declspec(property(get=get_EnsureDeterministicDestructionOrderOnApplicationQuit)) bool  EnsureDeterministicDestructionOrderOnApplicationQuit;
 
-  __declspec(property(get = get_Signals)) ::Zenject::ZenjectSettings_SignalSettings* Signals;
+ __declspec(property(get=get_Signals)) ::Zenject::ZenjectSettings_SignalSettings*  Signals;
 
-  __declspec(property(get = get_ValidationErrorResponse)) ::Zenject::ValidationErrorResponses ValidationErrorResponse;
+ __declspec(property(get=get_ValidationErrorResponse)) ::Zenject::ValidationErrorResponses  ValidationErrorResponse;
 
-  __declspec(property(get = get_ValidationRootResolveMethod)) ::Zenject::RootResolveMethods ValidationRootResolveMethod;
+ __declspec(property(get=get_ValidationRootResolveMethod)) ::Zenject::RootResolveMethods  ValidationRootResolveMethod;
 
-  /// @brief Field _displayWarningWhenResolvingDuringInstall, offset 0x11, size 0x1
-  __declspec(property(get = __cordl_internal_get__displayWarningWhenResolvingDuringInstall,
-                      put = __cordl_internal_set__displayWarningWhenResolvingDuringInstall)) bool _displayWarningWhenResolvingDuringInstall;
+/// @brief Field _displayWarningWhenResolvingDuringInstall, offset 0x11, size 0x1 
+ __declspec(property(get=__cordl_internal_get__displayWarningWhenResolvingDuringInstall, put=__cordl_internal_set__displayWarningWhenResolvingDuringInstall)) bool  _displayWarningWhenResolvingDuringInstall;
 
-  /// @brief Field _ensureDeterministicDestructionOrderOnApplicationQuit, offset 0x10, size 0x1
-  __declspec(property(get = __cordl_internal_get__ensureDeterministicDestructionOrderOnApplicationQuit,
-                      put = __cordl_internal_set__ensureDeterministicDestructionOrderOnApplicationQuit)) bool _ensureDeterministicDestructionOrderOnApplicationQuit;
+/// @brief Field _ensureDeterministicDestructionOrderOnApplicationQuit, offset 0x10, size 0x1 
+ __declspec(property(get=__cordl_internal_get__ensureDeterministicDestructionOrderOnApplicationQuit, put=__cordl_internal_set__ensureDeterministicDestructionOrderOnApplicationQuit)) bool  _ensureDeterministicDestructionOrderOnApplicationQuit;
 
-  /// @brief Field _signalSettings, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__signalSettings, put = __cordl_internal_set__signalSettings)) ::Zenject::ZenjectSettings_SignalSettings* _signalSettings;
+/// @brief Field _signalSettings, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get__signalSettings, put=__cordl_internal_set__signalSettings)) ::Zenject::ZenjectSettings_SignalSettings*  _signalSettings;
 
-  /// @brief Field _validationErrorResponse, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get__validationErrorResponse, put = __cordl_internal_set__validationErrorResponse)) ::Zenject::ValidationErrorResponses _validationErrorResponse;
+/// @brief Field _validationErrorResponse, offset 0x18, size 0x4 
+ __declspec(property(get=__cordl_internal_get__validationErrorResponse, put=__cordl_internal_set__validationErrorResponse)) ::Zenject::ValidationErrorResponses  _validationErrorResponse;
 
-  /// @brief Field _validationRootResolveMethod, offset 0x14, size 0x4
-  __declspec(property(get = __cordl_internal_get__validationRootResolveMethod, put = __cordl_internal_set__validationRootResolveMethod)) ::Zenject::RootResolveMethods _validationRootResolveMethod;
+/// @brief Field _validationRootResolveMethod, offset 0x14, size 0x4 
+ __declspec(property(get=__cordl_internal_get__validationRootResolveMethod, put=__cordl_internal_set__validationRootResolveMethod)) ::Zenject::RootResolveMethods  _validationRootResolveMethod;
 
-  static inline ::Zenject::ZenjectSettings* New_ctor();
+static inline ::Zenject::ZenjectSettings* New_ctor() ;
 
-  static inline ::Zenject::ZenjectSettings* New_ctor(::Zenject::ValidationErrorResponses validationErrorResponse, ::Zenject::RootResolveMethods validationRootResolveMethod,
-                                                     bool displayWarningWhenResolvingDuringInstall, bool ensureDeterministicDestructionOrderOnApplicationQuit,
-                                                     ::Zenject::ZenjectSettings_SignalSettings* signalSettings);
+static inline ::Zenject::ZenjectSettings* New_ctor(::Zenject::ValidationErrorResponses  validationErrorResponse, ::Zenject::RootResolveMethods  validationRootResolveMethod, bool  displayWarningWhenResolvingDuringInstall, bool  ensureDeterministicDestructionOrderOnApplicationQuit, ::Zenject::ZenjectSettings_SignalSettings*  signalSettings) ;
 
-  constexpr bool const& __cordl_internal_get__displayWarningWhenResolvingDuringInstall() const;
+constexpr bool const& __cordl_internal_get__displayWarningWhenResolvingDuringInstall() const;
 
-  constexpr bool& __cordl_internal_get__displayWarningWhenResolvingDuringInstall();
+constexpr bool& __cordl_internal_get__displayWarningWhenResolvingDuringInstall() ;
 
-  constexpr bool const& __cordl_internal_get__ensureDeterministicDestructionOrderOnApplicationQuit() const;
+constexpr bool const& __cordl_internal_get__ensureDeterministicDestructionOrderOnApplicationQuit() const;
 
-  constexpr bool& __cordl_internal_get__ensureDeterministicDestructionOrderOnApplicationQuit();
+constexpr bool& __cordl_internal_get__ensureDeterministicDestructionOrderOnApplicationQuit() ;
 
-  constexpr ::Zenject::ZenjectSettings_SignalSettings* const& __cordl_internal_get__signalSettings() const;
+constexpr ::Zenject::ZenjectSettings_SignalSettings* const& __cordl_internal_get__signalSettings() const;
 
-  constexpr ::Zenject::ZenjectSettings_SignalSettings*& __cordl_internal_get__signalSettings();
+constexpr ::Zenject::ZenjectSettings_SignalSettings*& __cordl_internal_get__signalSettings() ;
 
-  constexpr ::Zenject::ValidationErrorResponses const& __cordl_internal_get__validationErrorResponse() const;
+constexpr ::Zenject::ValidationErrorResponses const& __cordl_internal_get__validationErrorResponse() const;
 
-  constexpr ::Zenject::ValidationErrorResponses& __cordl_internal_get__validationErrorResponse();
+constexpr ::Zenject::ValidationErrorResponses& __cordl_internal_get__validationErrorResponse() ;
 
-  constexpr ::Zenject::RootResolveMethods const& __cordl_internal_get__validationRootResolveMethod() const;
+constexpr ::Zenject::RootResolveMethods const& __cordl_internal_get__validationRootResolveMethod() const;
 
-  constexpr ::Zenject::RootResolveMethods& __cordl_internal_get__validationRootResolveMethod();
+constexpr ::Zenject::RootResolveMethods& __cordl_internal_get__validationRootResolveMethod() ;
 
-  constexpr void __cordl_internal_set__displayWarningWhenResolvingDuringInstall(bool value);
+constexpr void __cordl_internal_set__displayWarningWhenResolvingDuringInstall(bool  value) ;
 
-  constexpr void __cordl_internal_set__ensureDeterministicDestructionOrderOnApplicationQuit(bool value);
+constexpr void __cordl_internal_set__ensureDeterministicDestructionOrderOnApplicationQuit(bool  value) ;
 
-  constexpr void __cordl_internal_set__signalSettings(::Zenject::ZenjectSettings_SignalSettings* value);
+constexpr void __cordl_internal_set__signalSettings(::Zenject::ZenjectSettings_SignalSettings*  value) ;
 
-  constexpr void __cordl_internal_set__validationErrorResponse(::Zenject::ValidationErrorResponses value);
+constexpr void __cordl_internal_set__validationErrorResponse(::Zenject::ValidationErrorResponses  value) ;
 
-  constexpr void __cordl_internal_set__validationRootResolveMethod(::Zenject::RootResolveMethods value);
+constexpr void __cordl_internal_set__validationRootResolveMethod(::Zenject::RootResolveMethods  value) ;
 
-  /// @brief Method .ctor, addr 0x6d29ff8, size 0x18, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6d2bb70, size 0x18, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method .ctor, addr 0x6d29f58, size 0xa0, virtual false, abstract: false, final false
-  inline void _ctor(::Zenject::ValidationErrorResponses validationErrorResponse, ::Zenject::RootResolveMethods validationRootResolveMethod, bool displayWarningWhenResolvingDuringInstall,
-                    bool ensureDeterministicDestructionOrderOnApplicationQuit, ::Zenject::ZenjectSettings_SignalSettings* signalSettings);
+/// @brief Method .ctor, addr 0x6d2bad0, size 0xa0, virtual false, abstract: false, final false
+inline void _ctor(::Zenject::ValidationErrorResponses  validationErrorResponse, ::Zenject::RootResolveMethods  validationRootResolveMethod, bool  displayWarningWhenResolvingDuringInstall, bool  ensureDeterministicDestructionOrderOnApplicationQuit, ::Zenject::ZenjectSettings_SignalSettings*  signalSettings) ;
 
-  static inline ::Zenject::ZenjectSettings* getStaticF_Default();
+static inline ::Zenject::ZenjectSettings* getStaticF_Default() ;
 
-  /// @brief Method get_DisplayWarningWhenResolvingDuringInstall, addr 0x6d2a028, size 0x8, virtual false, abstract: false, final false
-  inline bool get_DisplayWarningWhenResolvingDuringInstall();
+/// @brief Method get_DisplayWarningWhenResolvingDuringInstall, addr 0x6d2bba0, size 0x8, virtual false, abstract: false, final false
+inline bool get_DisplayWarningWhenResolvingDuringInstall() ;
 
-  /// @brief Method get_EnsureDeterministicDestructionOrderOnApplicationQuit, addr 0x6d2a030, size 0x8, virtual false, abstract: false, final false
-  inline bool get_EnsureDeterministicDestructionOrderOnApplicationQuit();
+/// @brief Method get_EnsureDeterministicDestructionOrderOnApplicationQuit, addr 0x6d2bba8, size 0x8, virtual false, abstract: false, final false
+inline bool get_EnsureDeterministicDestructionOrderOnApplicationQuit() ;
 
-  /// @brief Method get_Signals, addr 0x6d2a010, size 0x8, virtual false, abstract: false, final false
-  inline ::Zenject::ZenjectSettings_SignalSettings* get_Signals();
+/// @brief Method get_Signals, addr 0x6d2bb88, size 0x8, virtual false, abstract: false, final false
+inline ::Zenject::ZenjectSettings_SignalSettings* get_Signals() ;
 
-  /// @brief Method get_ValidationErrorResponse, addr 0x6d2a018, size 0x8, virtual false, abstract: false, final false
-  inline ::Zenject::ValidationErrorResponses get_ValidationErrorResponse();
+/// @brief Method get_ValidationErrorResponse, addr 0x6d2bb90, size 0x8, virtual false, abstract: false, final false
+inline ::Zenject::ValidationErrorResponses get_ValidationErrorResponse() ;
 
-  /// @brief Method get_ValidationRootResolveMethod, addr 0x6d2a020, size 0x8, virtual false, abstract: false, final false
-  inline ::Zenject::RootResolveMethods get_ValidationRootResolveMethod();
+/// @brief Method get_ValidationRootResolveMethod, addr 0x6d2bb98, size 0x8, virtual false, abstract: false, final false
+inline ::Zenject::RootResolveMethods get_ValidationRootResolveMethod() ;
 
-  static inline void setStaticF_Default(::Zenject::ZenjectSettings* value);
+static inline void setStaticF_Default(::Zenject::ZenjectSettings*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ZenjectSettings();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ZenjectSettings() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ZenjectSettings", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ZenjectSettings(ZenjectSettings&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ZenjectSettings", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ZenjectSettings(ZenjectSettings const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ZenjectSettings", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ZenjectSettings(ZenjectSettings && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14512 };
+// Ctor Parameters [CppParam { name: "", ty: "ZenjectSettings", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ZenjectSettings(ZenjectSettings const& ) = delete;
 
-  /// @brief Field _ensureDeterministicDestructionOrderOnApplicationQuit, offset: 0x10, size: 0x1, def value: None
-  bool ____ensureDeterministicDestructionOrderOnApplicationQuit;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{14513};
 
-  /// @brief Field _displayWarningWhenResolvingDuringInstall, offset: 0x11, size: 0x1, def value: None
-  bool ____displayWarningWhenResolvingDuringInstall;
+/// @brief Field _ensureDeterministicDestructionOrderOnApplicationQuit, offset: 0x10, size: 0x1, def value: None
+ bool  ____ensureDeterministicDestructionOrderOnApplicationQuit;
 
-  /// @brief Field _validationRootResolveMethod, offset: 0x14, size: 0x4, def value: None
-  ::Zenject::RootResolveMethods ____validationRootResolveMethod;
+/// @brief Field _displayWarningWhenResolvingDuringInstall, offset: 0x11, size: 0x1, def value: None
+ bool  ____displayWarningWhenResolvingDuringInstall;
 
-  /// @brief Field _validationErrorResponse, offset: 0x18, size: 0x4, def value: None
-  ::Zenject::ValidationErrorResponses ____validationErrorResponse;
+/// @brief Field _validationRootResolveMethod, offset: 0x14, size: 0x4, def value: None
+ ::Zenject::RootResolveMethods  ____validationRootResolveMethod;
 
-  /// @brief Field _signalSettings, offset: 0x20, size: 0x8, def value: None
-  ::Zenject::ZenjectSettings_SignalSettings* ____signalSettings;
+/// @brief Field _validationErrorResponse, offset: 0x18, size: 0x4, def value: None
+ ::Zenject::ValidationErrorResponses  ____validationErrorResponse;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _signalSettings, offset: 0x20, size: 0x8, def value: None
+ ::Zenject::ZenjectSettings_SignalSettings*  ____signalSettings;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Zenject::ZenjectSettings, ____ensureDeterministicDestructionOrderOnApplicationQuit) == 0x10, "Offset mismatch!");
@@ -321,7 +313,7 @@ static_assert(offsetof(::Zenject::ZenjectSettings, ____signalSettings) == 0x20, 
 
 static_assert(::cordl_internals::size_check_v<::Zenject::ZenjectSettings, 0x28>, "Size mismatch!");
 
-} // namespace Zenject
+} // namespace end def Zenject
 NEED_NO_BOX(::Zenject::ZenjectSettings);
 DEFINE_IL2CPP_ARG_TYPE(::Zenject::ZenjectSettings*, "Zenject", "ZenjectSettings");
 NEED_NO_BOX(::Zenject::ZenjectSettings_SignalSettings);

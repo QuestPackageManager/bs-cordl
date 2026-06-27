@@ -23,32 +23,32 @@ namespace UnityEngine::InputSystem::OnScreen {
 // CS Name: UnityEngine.InputSystem.OnScreen.UGUIOnScreenControlUtils
 class CORDL_TYPE UGUIOnScreenControlUtils : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method GetCanvasRectTransform, addr 0x64599e8, size 0xb8, virtual false, abstract: false, final false
-  static inline ::UnityW<::UnityEngine::RectTransform> GetCanvasRectTransform(::UnityEngine::Transform* transform);
+// Declarations
+/// @brief Method GetCanvasRectTransform, addr 0x645b560, size 0xb8, virtual false, abstract: false, final false
+static inline ::UnityW<::UnityEngine::RectTransform> GetCanvasRectTransform(::UnityEngine::Transform*  transform) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr UGUIOnScreenControlUtils();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr UGUIOnScreenControlUtils() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UGUIOnScreenControlUtils", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  UGUIOnScreenControlUtils(UGUIOnScreenControlUtils&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UGUIOnScreenControlUtils", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  UGUIOnScreenControlUtils(UGUIOnScreenControlUtils const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "UGUIOnScreenControlUtils", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+UGUIOnScreenControlUtils(UGUIOnScreenControlUtils && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8868 };
+// Ctor Parameters [CppParam { name: "", ty: "UGUIOnScreenControlUtils", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+UGUIOnScreenControlUtils(UGUIOnScreenControlUtils const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8869};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::OnScreen::UGUIOnScreenControlUtils, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::InputSystem::OnScreen
+} // namespace end def UnityEngine::InputSystem::OnScreen
 NEED_NO_BOX(::UnityEngine::InputSystem::OnScreen::UGUIOnScreenControlUtils);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::OnScreen::UGUIOnScreenControlUtils*, "UnityEngine.InputSystem.OnScreen", "UGUIOnScreenControlUtils");

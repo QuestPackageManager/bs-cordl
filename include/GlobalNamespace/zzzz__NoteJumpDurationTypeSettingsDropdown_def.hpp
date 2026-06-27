@@ -11,10 +11,12 @@ namespace GlobalNamespace {
 struct NoteJumpDurationTypeSettings;
 }
 namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
+template<typename T>
+class IReadOnlyList_1;
 }
 namespace System {
-template <typename T1, typename T2> class Tuple_2;
+template<typename T1,typename T2>
+class Tuple_2;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -28,37 +30,37 @@ namespace GlobalNamespace {
 // CS Name: NoteJumpDurationTypeSettingsDropdown
 class CORDL_TYPE NoteJumpDurationTypeSettingsDropdown : public ::GlobalNamespace::ValueDropdownController_1<::GlobalNamespace::NoteJumpDurationTypeSettings> {
 public:
-  // Declarations
-  /// @brief Method GetNamedValues, addr 0x58e3da8, size 0xf8, virtual true, abstract: false, final false
-  inline ::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<::GlobalNamespace::NoteJumpDurationTypeSettings, ::StringW>*>* GetNamedValues();
+// Declarations
+/// @brief Method GetNamedValues, addr 0x58e5778, size 0xf8, virtual true, abstract: false, final false
+inline ::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<::GlobalNamespace::NoteJumpDurationTypeSettings,::StringW>*>* GetNamedValues() ;
 
-  static inline ::GlobalNamespace::NoteJumpDurationTypeSettingsDropdown* New_ctor();
+static inline ::GlobalNamespace::NoteJumpDurationTypeSettingsDropdown* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x58e3ea0, size 0x44, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x58e5870, size 0x44, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NoteJumpDurationTypeSettingsDropdown();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr NoteJumpDurationTypeSettingsDropdown() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NoteJumpDurationTypeSettingsDropdown", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  NoteJumpDurationTypeSettingsDropdown(NoteJumpDurationTypeSettingsDropdown&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NoteJumpDurationTypeSettingsDropdown", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  NoteJumpDurationTypeSettingsDropdown(NoteJumpDurationTypeSettingsDropdown const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "NoteJumpDurationTypeSettingsDropdown", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+NoteJumpDurationTypeSettingsDropdown(NoteJumpDurationTypeSettingsDropdown && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6455 };
+// Ctor Parameters [CppParam { name: "", ty: "NoteJumpDurationTypeSettingsDropdown", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+NoteJumpDurationTypeSettingsDropdown(NoteJumpDurationTypeSettingsDropdown const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6455};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NoteJumpDurationTypeSettingsDropdown, 0x38>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::NoteJumpDurationTypeSettingsDropdown);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::NoteJumpDurationTypeSettingsDropdown*, "", "NoteJumpDurationTypeSettingsDropdown");

@@ -17,34 +17,34 @@ namespace UnityEngine {
 // CS Name: UnityEngine.ExcludeFromObjectFactoryAttribute
 class CORDL_TYPE ExcludeFromObjectFactoryAttribute : public ::System::Attribute {
 public:
-  // Declarations
-  static inline ::UnityEngine::ExcludeFromObjectFactoryAttribute* New_ctor();
+// Declarations
+static inline ::UnityEngine::ExcludeFromObjectFactoryAttribute* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x6988228, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6989da0, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ExcludeFromObjectFactoryAttribute();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ExcludeFromObjectFactoryAttribute() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ExcludeFromObjectFactoryAttribute", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ExcludeFromObjectFactoryAttribute(ExcludeFromObjectFactoryAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ExcludeFromObjectFactoryAttribute", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ExcludeFromObjectFactoryAttribute(ExcludeFromObjectFactoryAttribute const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ExcludeFromObjectFactoryAttribute", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ExcludeFromObjectFactoryAttribute(ExcludeFromObjectFactoryAttribute && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10333 };
+// Ctor Parameters [CppParam { name: "", ty: "ExcludeFromObjectFactoryAttribute", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ExcludeFromObjectFactoryAttribute(ExcludeFromObjectFactoryAttribute const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10334};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ExcludeFromObjectFactoryAttribute, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine
+} // namespace end def UnityEngine
 NEED_NO_BOX(::UnityEngine::ExcludeFromObjectFactoryAttribute);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ExcludeFromObjectFactoryAttribute*, "UnityEngine", "ExcludeFromObjectFactoryAttribute");

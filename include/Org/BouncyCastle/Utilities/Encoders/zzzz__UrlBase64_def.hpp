@@ -25,59 +25,59 @@ namespace Org::BouncyCastle::Utilities::Encoders {
 // CS Name: Org.BouncyCastle.Utilities.Encoders.UrlBase64
 class CORDL_TYPE UrlBase64 : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field encoder, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_encoder, put = setStaticF_encoder)) ::Org::BouncyCastle::Utilities::Encoders::IEncoder* encoder;
+// Declarations
+/// @brief Field encoder, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_encoder, put=setStaticF_encoder)) ::Org::BouncyCastle::Utilities::Encoders::IEncoder*  encoder;
 
-  /// @brief Method Decode, addr 0x356fa94, size 0x238, virtual false, abstract: false, final false
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Decode(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
+/// @brief Method Decode, addr 0x3570830, size 0x238, virtual false, abstract: false, final false
+static inline ::ArrayW<uint8_t,::Array<uint8_t>*> Decode(::ArrayW<uint8_t,::Array<uint8_t>*>  data) ;
 
-  /// @brief Method Decode, addr 0x356fdc8, size 0x218, virtual false, abstract: false, final false
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Decode(::StringW data);
+/// @brief Method Decode, addr 0x3570b64, size 0x218, virtual false, abstract: false, final false
+static inline ::ArrayW<uint8_t,::Array<uint8_t>*> Decode(::StringW  data) ;
 
-  /// @brief Method Decode, addr 0x356fccc, size 0xfc, virtual false, abstract: false, final false
-  static inline int32_t Decode(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ::System::IO::Stream* outStr);
+/// @brief Method Decode, addr 0x3570a68, size 0xfc, virtual false, abstract: false, final false
+static inline int32_t Decode(::ArrayW<uint8_t,::Array<uint8_t>*>  data, ::System::IO::Stream*  outStr) ;
 
-  /// @brief Method Decode, addr 0x356ffe0, size 0xec, virtual false, abstract: false, final false
-  static inline int32_t Decode(::StringW data, ::System::IO::Stream* outStr);
+/// @brief Method Decode, addr 0x3570d7c, size 0xec, virtual false, abstract: false, final false
+static inline int32_t Decode(::StringW  data, ::System::IO::Stream*  outStr) ;
 
-  /// @brief Method Encode, addr 0x356f768, size 0x234, virtual false, abstract: false, final false
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Encode(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
+/// @brief Method Encode, addr 0x3570504, size 0x234, virtual false, abstract: false, final false
+static inline ::ArrayW<uint8_t,::Array<uint8_t>*> Encode(::ArrayW<uint8_t,::Array<uint8_t>*>  data) ;
 
-  /// @brief Method Encode, addr 0x356f99c, size 0xf8, virtual false, abstract: false, final false
-  static inline int32_t Encode(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ::System::IO::Stream* outStr);
+/// @brief Method Encode, addr 0x3570738, size 0xf8, virtual false, abstract: false, final false
+static inline int32_t Encode(::ArrayW<uint8_t,::Array<uint8_t>*>  data, ::System::IO::Stream*  outStr) ;
 
-  static inline ::Org::BouncyCastle::Utilities::Encoders::UrlBase64* New_ctor();
+static inline ::Org::BouncyCastle::Utilities::Encoders::UrlBase64* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x35701ac, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x3570f48, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  static inline ::Org::BouncyCastle::Utilities::Encoders::IEncoder* getStaticF_encoder();
+static inline ::Org::BouncyCastle::Utilities::Encoders::IEncoder* getStaticF_encoder() ;
 
-  static inline void setStaticF_encoder(::Org::BouncyCastle::Utilities::Encoders::IEncoder* value);
+static inline void setStaticF_encoder(::Org::BouncyCastle::Utilities::Encoders::IEncoder*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr UrlBase64();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr UrlBase64() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UrlBase64", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  UrlBase64(UrlBase64&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UrlBase64", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  UrlBase64(UrlBase64 const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "UrlBase64", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+UrlBase64(UrlBase64 && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1802 };
+// Ctor Parameters [CppParam { name: "", ty: "UrlBase64", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+UrlBase64(UrlBase64 const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{1802};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Utilities::Encoders::UrlBase64, 0x10>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Utilities::Encoders
+} // namespace end def Org::BouncyCastle::Utilities::Encoders
 NEED_NO_BOX(::Org::BouncyCastle::Utilities::Encoders::UrlBase64);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Utilities::Encoders::UrlBase64*, "Org.BouncyCastle.Utilities.Encoders", "UrlBase64");

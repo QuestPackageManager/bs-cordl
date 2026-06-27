@@ -23,37 +23,37 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
 // CS Name: Org.BouncyCastle.Math.EC.Multiplier.MontgomeryLadderMultiplier
 class CORDL_TYPE MontgomeryLadderMultiplier : public ::Org::BouncyCastle::Math::EC::Multiplier::AbstractECMultiplier {
 public:
-  // Declarations
-  /// @brief Method MultiplyPositive, addr 0x344f29c, size 0x204, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Math::EC::ECPoint* MultiplyPositive(::Org::BouncyCastle::Math::EC::ECPoint* p, ::Org::BouncyCastle::Math::BigInteger* k);
+// Declarations
+/// @brief Method MultiplyPositive, addr 0x3450038, size 0x204, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Math::EC::ECPoint* MultiplyPositive(::Org::BouncyCastle::Math::EC::ECPoint*  p, ::Org::BouncyCastle::Math::BigInteger*  k) ;
 
-  static inline ::Org::BouncyCastle::Math::EC::Multiplier::MontgomeryLadderMultiplier* New_ctor();
+static inline ::Org::BouncyCastle::Math::EC::Multiplier::MontgomeryLadderMultiplier* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x344f4a0, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x345023c, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MontgomeryLadderMultiplier();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr MontgomeryLadderMultiplier() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MontgomeryLadderMultiplier", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  MontgomeryLadderMultiplier(MontgomeryLadderMultiplier&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MontgomeryLadderMultiplier", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  MontgomeryLadderMultiplier(MontgomeryLadderMultiplier const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "MontgomeryLadderMultiplier", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+MontgomeryLadderMultiplier(MontgomeryLadderMultiplier && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1535 };
+// Ctor Parameters [CppParam { name: "", ty: "MontgomeryLadderMultiplier", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+MontgomeryLadderMultiplier(MontgomeryLadderMultiplier const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{1535};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Math::EC::Multiplier::MontgomeryLadderMultiplier, 0x10>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Math::EC::Multiplier
+} // namespace end def Org::BouncyCastle::Math::EC::Multiplier
 NEED_NO_BOX(::Org::BouncyCastle::Math::EC::Multiplier::MontgomeryLadderMultiplier);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Math::EC::Multiplier::MontgomeryLadderMultiplier*, "Org.BouncyCastle.Math.EC.Multiplier", "MontgomeryLadderMultiplier");

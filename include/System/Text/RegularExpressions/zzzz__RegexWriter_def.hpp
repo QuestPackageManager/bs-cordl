@@ -9,10 +9,12 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(RegexWriter)
 namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+template<typename TKey,typename TValue>
+class Dictionary_2;
 }
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template<typename T>
+class List_1;
 }
 namespace System::Collections {
 class Hashtable;
@@ -27,7 +29,8 @@ namespace System::Text::RegularExpressions {
 class RegexTree;
 }
 namespace System {
-template <typename T> struct Span_1;
+template<typename T>
+struct Span_1;
 }
 // Forward declare root types
 namespace System::Text::RegularExpressions {
@@ -41,78 +44,72 @@ namespace System::Text::RegularExpressions {
 // CS Name: System.Text.RegularExpressions.RegexWriter
 struct CORDL_TYPE RegexWriter {
 public:
-  // Declarations
-  /// @brief Method Dispose, addr 0x625292c, size 0x58, virtual false, abstract: false, final false
-  inline void Dispose();
+// Declarations
+/// @brief Method Dispose, addr 0x62544a4, size 0x58, virtual false, abstract: false, final false
+inline void Dispose() ;
 
-  /// @brief Method Emit, addr 0x6253484, size 0xd4, virtual false, abstract: false, final false
-  inline void Emit(int32_t op);
+/// @brief Method Emit, addr 0x6254ffc, size 0xd4, virtual false, abstract: false, final false
+inline void Emit(int32_t  op) ;
 
-  /// @brief Method Emit, addr 0x6252984, size 0x144, virtual false, abstract: false, final false
-  inline void Emit(int32_t op, int32_t opd1);
+/// @brief Method Emit, addr 0x62544fc, size 0x144, virtual false, abstract: false, final false
+inline void Emit(int32_t  op, int32_t  opd1) ;
 
-  /// @brief Method Emit, addr 0x6253558, size 0x1ac, virtual false, abstract: false, final false
-  inline void Emit(int32_t op, int32_t opd1, int32_t opd2);
+/// @brief Method Emit, addr 0x62550d0, size 0x1ac, virtual false, abstract: false, final false
+inline void Emit(int32_t  op, int32_t  opd1, int32_t  opd2) ;
 
-  /// @brief Method EmitFragment, addr 0x6252ac8, size 0x950, virtual false, abstract: false, final false
-  inline void EmitFragment(int32_t nodetype, ::System::Text::RegularExpressions::RegexNode* node, int32_t curIndex);
+/// @brief Method EmitFragment, addr 0x6254640, size 0x950, virtual false, abstract: false, final false
+inline void EmitFragment(int32_t  nodetype, ::System::Text::RegularExpressions::RegexNode*  node, int32_t  curIndex) ;
 
-  /// @brief Method MapCapnum, addr 0x6253868, size 0x7c, virtual false, abstract: false, final false
-  inline int32_t MapCapnum(int32_t capnum);
+/// @brief Method MapCapnum, addr 0x62553e0, size 0x7c, virtual false, abstract: false, final false
+inline int32_t MapCapnum(int32_t  capnum) ;
 
-  /// @brief Method PatchJump, addr 0x6253418, size 0x6c, virtual false, abstract: false, final false
-  inline void PatchJump(int32_t offset, int32_t jumpDest);
+/// @brief Method PatchJump, addr 0x6254f90, size 0x6c, virtual false, abstract: false, final false
+inline void PatchJump(int32_t  offset, int32_t  jumpDest) ;
 
-  /// @brief Method RegexCodeFromRegexTree, addr 0x6252498, size 0x494, virtual false, abstract: false, final false
-  inline ::System::Text::RegularExpressions::RegexCode* RegexCodeFromRegexTree(::System::Text::RegularExpressions::RegexTree* tree);
+/// @brief Method RegexCodeFromRegexTree, addr 0x6254010, size 0x494, virtual false, abstract: false, final false
+inline ::System::Text::RegularExpressions::RegexCode* RegexCodeFromRegexTree(::System::Text::RegularExpressions::RegexTree*  tree) ;
 
-  /// @brief Method StringCode, addr 0x6253704, size 0x164, virtual false, abstract: false, final false
-  inline int32_t StringCode(::StringW str);
+/// @brief Method StringCode, addr 0x625527c, size 0x164, virtual false, abstract: false, final false
+inline int32_t StringCode(::StringW  str) ;
 
-  /// @brief Method Write, addr 0x62523ac, size 0xec, virtual false, abstract: false, final false
-  static inline ::System::Text::RegularExpressions::RegexCode* Write(::System::Text::RegularExpressions::RegexTree* tree);
+/// @brief Method Write, addr 0x6253f24, size 0xec, virtual false, abstract: false, final false
+static inline ::System::Text::RegularExpressions::RegexCode* Write(::System::Text::RegularExpressions::RegexTree*  tree) ;
 
-  /// @brief Method .ctor, addr 0x6252284, size 0x128, virtual false, abstract: false, final false
-  inline void _ctor(::System::Span_1<int32_t> emittedSpan, ::System::Span_1<int32_t> intStackSpan);
+/// @brief Method .ctor, addr 0x6253dfc, size 0x128, virtual false, abstract: false, final false
+inline void _ctor(::System::Span_1<int32_t>  emittedSpan, ::System::Span_1<int32_t>  intStackSpan) ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RegexWriter();
+// Ctor Parameters []
+// @brief default ctor
+constexpr RegexWriter() ;
 
-  // Ctor Parameters [CppParam { name: "_emitted", ty: "::System::Collections::Generic::ValueListBuilder_1<int32_t>", modifiers: "", def_value: None }, CppParam { name: "_intStack", ty:
-  // "::System::Collections::Generic::ValueListBuilder_1<int32_t>", modifiers: "", def_value: None }, CppParam { name: "_stringHash", ty:
-  // "::System::Collections::Generic::Dictionary_2<::StringW,int32_t>*", modifiers: "", def_value: None }, CppParam { name: "_stringTable", ty: "::System::Collections::Generic::List_1<::StringW>*",
-  // modifiers: "", def_value: None }, CppParam { name: "_caps", ty: "::System::Collections::Hashtable*", modifiers: "", def_value: None }, CppParam { name: "_trackCount", ty: "int32_t", modifiers:
-  // "", def_value: None }]
-  constexpr RegexWriter(::System::Collections::Generic::ValueListBuilder_1<int32_t> _emitted, ::System::Collections::Generic::ValueListBuilder_1<int32_t> _intStack,
-                        ::System::Collections::Generic::Dictionary_2<::StringW, int32_t>* _stringHash, ::System::Collections::Generic::List_1<::StringW>* _stringTable,
-                        ::System::Collections::Hashtable* _caps, int32_t _trackCount) noexcept;
+// Ctor Parameters [CppParam { name: "_emitted", ty: "::System::Collections::Generic::ValueListBuilder_1<int32_t>", modifiers: "", def_value: None }, CppParam { name: "_intStack", ty: "::System::Collections::Generic::ValueListBuilder_1<int32_t>", modifiers: "", def_value: None }, CppParam { name: "_stringHash", ty: "::System::Collections::Generic::Dictionary_2<::StringW,int32_t>*", modifiers: "", def_value: None }, CppParam { name: "_stringTable", ty: "::System::Collections::Generic::List_1<::StringW>*", modifiers: "", def_value: None }, CppParam { name: "_caps", ty: "::System::Collections::Hashtable*", modifiers: "", def_value: None }, CppParam { name: "_trackCount", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr RegexWriter(::System::Collections::Generic::ValueListBuilder_1<int32_t>  _emitted, ::System::Collections::Generic::ValueListBuilder_1<int32_t>  _intStack, ::System::Collections::Generic::Dictionary_2<::StringW,int32_t>*  _stringHash, ::System::Collections::Generic::List_1<::StringW>*  _stringTable, ::System::Collections::Hashtable*  _caps, int32_t  _trackCount) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11112 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11113};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x60 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x60};
 
-  /// @brief Field _emitted, offset: 0x0, size: 0x20, def value: None
-  ::System::Collections::Generic::ValueListBuilder_1<int32_t> _emitted;
+/// @brief Field _emitted, offset: 0x0, size: 0x20, def value: None
+ ::System::Collections::Generic::ValueListBuilder_1<int32_t>  _emitted;
 
-  /// @brief Field _intStack, offset: 0x20, size: 0x20, def value: None
-  ::System::Collections::Generic::ValueListBuilder_1<int32_t> _intStack;
+/// @brief Field _intStack, offset: 0x20, size: 0x20, def value: None
+ ::System::Collections::Generic::ValueListBuilder_1<int32_t>  _intStack;
 
-  /// @brief Field _stringHash, offset: 0x40, size: 0x8, def value: None
-  ::System::Collections::Generic::Dictionary_2<::StringW, int32_t>* _stringHash;
+/// @brief Field _stringHash, offset: 0x40, size: 0x8, def value: None
+ ::System::Collections::Generic::Dictionary_2<::StringW,int32_t>*  _stringHash;
 
-  /// @brief Field _stringTable, offset: 0x48, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::StringW>* _stringTable;
+/// @brief Field _stringTable, offset: 0x48, size: 0x8, def value: None
+ ::System::Collections::Generic::List_1<::StringW>*  _stringTable;
 
-  /// @brief Field _caps, offset: 0x50, size: 0x8, def value: None
-  ::System::Collections::Hashtable* _caps;
+/// @brief Field _caps, offset: 0x50, size: 0x8, def value: None
+ ::System::Collections::Hashtable*  _caps;
 
-  /// @brief Field _trackCount, offset: 0x58, size: 0x4, def value: None
-  int32_t _trackCount;
+/// @brief Field _trackCount, offset: 0x58, size: 0x4, def value: None
+ int32_t  _trackCount;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Text::RegularExpressions::RegexWriter, _emitted) == 0x0, "Offset mismatch!");
@@ -129,5 +126,5 @@ static_assert(offsetof(::System::Text::RegularExpressions::RegexWriter, _trackCo
 
 static_assert(::cordl_internals::size_check_v<::System::Text::RegularExpressions::RegexWriter, 0x60>, "Size mismatch!");
 
-} // namespace System::Text::RegularExpressions
+} // namespace end def System::Text::RegularExpressions
 DEFINE_IL2CPP_ARG_TYPE(::System::Text::RegularExpressions::RegexWriter, "System.Text.RegularExpressions", "RegexWriter");

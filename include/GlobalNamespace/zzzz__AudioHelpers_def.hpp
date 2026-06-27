@@ -18,35 +18,35 @@ namespace GlobalNamespace {
 // CS Name: AudioHelpers
 class CORDL_TYPE AudioHelpers : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method DBToNormalizedVolume, addr 0x3265c9c, size 0x18, virtual false, abstract: false, final false
-  static inline float_t DBToNormalizedVolume(float_t db);
+// Declarations
+/// @brief Method DBToNormalizedVolume, addr 0x3266a38, size 0x18, virtual false, abstract: false, final false
+static inline float_t DBToNormalizedVolume(float_t  db) ;
 
-  /// @brief Method NormalizedVolumeToDB, addr 0x3265c18, size 0x84, virtual false, abstract: false, final false
-  static inline float_t NormalizedVolumeToDB(float_t normalizedVolume);
+/// @brief Method NormalizedVolumeToDB, addr 0x32669b4, size 0x84, virtual false, abstract: false, final false
+static inline float_t NormalizedVolumeToDB(float_t  normalizedVolume) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AudioHelpers();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr AudioHelpers() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AudioHelpers", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  AudioHelpers(AudioHelpers&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AudioHelpers", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  AudioHelpers(AudioHelpers const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "AudioHelpers", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+AudioHelpers(AudioHelpers && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20685 };
+// Ctor Parameters [CppParam { name: "", ty: "AudioHelpers", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+AudioHelpers(AudioHelpers const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20688};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::AudioHelpers, 0x10>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::AudioHelpers);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::AudioHelpers*, "", "AudioHelpers");

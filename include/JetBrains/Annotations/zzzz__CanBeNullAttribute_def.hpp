@@ -17,34 +17,34 @@ namespace JetBrains::Annotations {
 // CS Name: JetBrains.Annotations.CanBeNullAttribute
 class CORDL_TYPE CanBeNullAttribute : public ::System::Attribute {
 public:
-  // Declarations
-  static inline ::JetBrains::Annotations::CanBeNullAttribute* New_ctor();
+// Declarations
+static inline ::JetBrains::Annotations::CanBeNullAttribute* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x6ce4a54, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x69080a0, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CanBeNullAttribute();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr CanBeNullAttribute() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CanBeNullAttribute", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  CanBeNullAttribute(CanBeNullAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CanBeNullAttribute", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  CanBeNullAttribute(CanBeNullAttribute const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "CanBeNullAttribute", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+CanBeNullAttribute(CanBeNullAttribute && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22325 };
+// Ctor Parameters [CppParam { name: "", ty: "CanBeNullAttribute", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+CanBeNullAttribute(CanBeNullAttribute const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10020};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::JetBrains::Annotations::CanBeNullAttribute, 0x10>, "Size mismatch!");
 
-} // namespace JetBrains::Annotations
+} // namespace end def JetBrains::Annotations
 NEED_NO_BOX(::JetBrains::Annotations::CanBeNullAttribute);
 DEFINE_IL2CPP_ARG_TYPE(::JetBrains::Annotations::CanBeNullAttribute*, "JetBrains.Annotations", "CanBeNullAttribute");

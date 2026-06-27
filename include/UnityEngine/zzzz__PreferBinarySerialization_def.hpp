@@ -17,34 +17,34 @@ namespace UnityEngine {
 // CS Name: UnityEngine.PreferBinarySerialization
 class CORDL_TYPE PreferBinarySerialization : public ::System::Attribute {
 public:
-  // Declarations
-  static inline ::UnityEngine::PreferBinarySerialization* New_ctor();
+// Declarations
+static inline ::UnityEngine::PreferBinarySerialization* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x69942f4, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6995e6c, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PreferBinarySerialization();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr PreferBinarySerialization() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PreferBinarySerialization", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  PreferBinarySerialization(PreferBinarySerialization&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PreferBinarySerialization", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  PreferBinarySerialization(PreferBinarySerialization const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "PreferBinarySerialization", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+PreferBinarySerialization(PreferBinarySerialization && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10382 };
+// Ctor Parameters [CppParam { name: "", ty: "PreferBinarySerialization", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+PreferBinarySerialization(PreferBinarySerialization const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10383};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::PreferBinarySerialization, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine
+} // namespace end def UnityEngine
 NEED_NO_BOX(::UnityEngine::PreferBinarySerialization);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PreferBinarySerialization*, "UnityEngine", "PreferBinarySerialization");

@@ -10,7 +10,8 @@ namespace Meta::XR::InputActions {
 class InputActionDefinition;
 }
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template<typename T>
+class List_1;
 }
 // Forward declare root types
 namespace Meta::XR::InputActions {
@@ -24,58 +25,57 @@ namespace Meta::XR::InputActions {
 // CS Name: Meta.XR.InputActions.UserInputActionSet
 class CORDL_TYPE UserInputActionSet : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field InputActionDefinitions, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_InputActionDefinitions,
-                      put = __cordl_internal_set_InputActionDefinitions)) ::System::Collections::Generic::List_1<::Meta::XR::InputActions::InputActionDefinition*>* InputActionDefinitions;
+// Declarations
+/// @brief Field InputActionDefinitions, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_InputActionDefinitions, put=__cordl_internal_set_InputActionDefinitions)) ::System::Collections::Generic::List_1<::Meta::XR::InputActions::InputActionDefinition*>*  InputActionDefinitions;
 
-  /// @brief Field InteractionProfile, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_InteractionProfile, put = __cordl_internal_set_InteractionProfile)) ::StringW InteractionProfile;
+/// @brief Field InteractionProfile, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_InteractionProfile, put=__cordl_internal_set_InteractionProfile)) ::StringW  InteractionProfile;
 
-  static inline ::Meta::XR::InputActions::UserInputActionSet* New_ctor();
+static inline ::Meta::XR::InputActions::UserInputActionSet* New_ctor() ;
 
-  /// @brief Method ToString, addr 0x5d15040, size 0x8, virtual true, abstract: false, final false
-  inline ::StringW ToString();
+/// @brief Method ToString, addr 0x5d16bb8, size 0x8, virtual true, abstract: false, final false
+inline ::StringW ToString() ;
 
-  constexpr ::System::Collections::Generic::List_1<::Meta::XR::InputActions::InputActionDefinition*>* const& __cordl_internal_get_InputActionDefinitions() const;
+constexpr ::System::Collections::Generic::List_1<::Meta::XR::InputActions::InputActionDefinition*>* const& __cordl_internal_get_InputActionDefinitions() const;
 
-  constexpr ::System::Collections::Generic::List_1<::Meta::XR::InputActions::InputActionDefinition*>*& __cordl_internal_get_InputActionDefinitions();
+constexpr ::System::Collections::Generic::List_1<::Meta::XR::InputActions::InputActionDefinition*>*& __cordl_internal_get_InputActionDefinitions() ;
 
-  constexpr ::StringW const& __cordl_internal_get_InteractionProfile() const;
+constexpr ::StringW const& __cordl_internal_get_InteractionProfile() const;
 
-  constexpr ::StringW& __cordl_internal_get_InteractionProfile();
+constexpr ::StringW& __cordl_internal_get_InteractionProfile() ;
 
-  constexpr void __cordl_internal_set_InputActionDefinitions(::System::Collections::Generic::List_1<::Meta::XR::InputActions::InputActionDefinition*>* value);
+constexpr void __cordl_internal_set_InputActionDefinitions(::System::Collections::Generic::List_1<::Meta::XR::InputActions::InputActionDefinition*>*  value) ;
 
-  constexpr void __cordl_internal_set_InteractionProfile(::StringW value);
+constexpr void __cordl_internal_set_InteractionProfile(::StringW  value) ;
 
-  /// @brief Method .ctor, addr 0x5d15048, size 0x74, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5d16bc0, size 0x74, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr UserInputActionSet();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr UserInputActionSet() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UserInputActionSet", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  UserInputActionSet(UserInputActionSet&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UserInputActionSet", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  UserInputActionSet(UserInputActionSet const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "UserInputActionSet", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+UserInputActionSet(UserInputActionSet && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8566 };
+// Ctor Parameters [CppParam { name: "", ty: "UserInputActionSet", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+UserInputActionSet(UserInputActionSet const& ) = delete;
 
-  /// @brief Field InteractionProfile, offset: 0x10, size: 0x8, def value: None
-  ::StringW ___InteractionProfile;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8567};
 
-  /// @brief Field InputActionDefinitions, offset: 0x18, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::Meta::XR::InputActions::InputActionDefinition*>* ___InputActionDefinitions;
+/// @brief Field InteractionProfile, offset: 0x10, size: 0x8, def value: None
+ ::StringW  ___InteractionProfile;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field InputActionDefinitions, offset: 0x18, size: 0x8, def value: None
+ ::System::Collections::Generic::List_1<::Meta::XR::InputActions::InputActionDefinition*>*  ___InputActionDefinitions;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Meta::XR::InputActions::UserInputActionSet, ___InteractionProfile) == 0x10, "Offset mismatch!");
@@ -84,6 +84,6 @@ static_assert(offsetof(::Meta::XR::InputActions::UserInputActionSet, ___InputAct
 
 static_assert(::cordl_internals::size_check_v<::Meta::XR::InputActions::UserInputActionSet, 0x20>, "Size mismatch!");
 
-} // namespace Meta::XR::InputActions
+} // namespace end def Meta::XR::InputActions
 NEED_NO_BOX(::Meta::XR::InputActions::UserInputActionSet);
 DEFINE_IL2CPP_ARG_TYPE(::Meta::XR::InputActions::UserInputActionSet*, "Meta.XR.InputActions", "UserInputActionSet");

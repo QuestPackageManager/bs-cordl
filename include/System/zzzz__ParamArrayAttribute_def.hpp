@@ -17,34 +17,34 @@ namespace System {
 // CS Name: System.ParamArrayAttribute
 class CORDL_TYPE ParamArrayAttribute : public ::System::Attribute {
 public:
-  // Declarations
-  static inline ::System::ParamArrayAttribute* New_ctor();
+// Declarations
+static inline ::System::ParamArrayAttribute* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x5b1a228, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5b1bda0, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ParamArrayAttribute();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ParamArrayAttribute() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ParamArrayAttribute", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ParamArrayAttribute(ParamArrayAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ParamArrayAttribute", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ParamArrayAttribute(ParamArrayAttribute const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ParamArrayAttribute", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ParamArrayAttribute(ParamArrayAttribute && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2461 };
+// Ctor Parameters [CppParam { name: "", ty: "ParamArrayAttribute", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ParamArrayAttribute(ParamArrayAttribute const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{2461};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::ParamArrayAttribute, 0x10>, "Size mismatch!");
 
-} // namespace System
+} // namespace end def System
 NEED_NO_BOX(::System::ParamArrayAttribute);
 DEFINE_IL2CPP_ARG_TYPE(::System::ParamArrayAttribute*, "System", "ParamArrayAttribute");

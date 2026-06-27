@@ -31,61 +31,61 @@ namespace System::Text {
 // CS Name: System.Text.EncodingProvider
 class CORDL_TYPE EncodingProvider : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field s_InternalSyncObject, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_s_InternalSyncObject, put = setStaticF_s_InternalSyncObject)) ::System::Object* s_InternalSyncObject;
+// Declarations
+/// @brief Field s_InternalSyncObject, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_s_InternalSyncObject, put=setStaticF_s_InternalSyncObject)) ::System::Object*  s_InternalSyncObject;
 
-  /// @brief Field s_providers, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_s_providers, put = setStaticF_s_providers)) ::ArrayW<::System::Text::EncodingProvider*, ::Array<::System::Text::EncodingProvider*>*> s_providers;
+/// @brief Field s_providers, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_s_providers, put=setStaticF_s_providers)) ::ArrayW<::System::Text::EncodingProvider*,::Array<::System::Text::EncodingProvider*>*>  s_providers;
 
-  /// @brief Method GetEncoding, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline ::System::Text::Encoding* GetEncoding(int32_t codepage);
+/// @brief Method GetEncoding, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline ::System::Text::Encoding* GetEncoding(int32_t  codepage) ;
 
-  /// @brief Method GetEncoding, addr 0x5998e48, size 0x108, virtual true, abstract: false, final false
-  inline ::System::Text::Encoding* GetEncoding(int32_t codepage, ::System::Text::EncoderFallback* encoderFallback, ::System::Text::DecoderFallback* decoderFallback);
+/// @brief Method GetEncoding, addr 0x599a9c0, size 0x108, virtual true, abstract: false, final false
+inline ::System::Text::Encoding* GetEncoding(int32_t  codepage, ::System::Text::EncoderFallback*  encoderFallback, ::System::Text::DecoderFallback*  decoderFallback) ;
 
-  /// @brief Method GetEncoding, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline ::System::Text::Encoding* GetEncoding(::StringW name);
+/// @brief Method GetEncoding, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline ::System::Text::Encoding* GetEncoding(::StringW  name) ;
 
-  /// @brief Method GetEncodingFromProvider, addr 0x5998f50, size 0xdc, virtual false, abstract: false, final false
-  static inline ::System::Text::Encoding* GetEncodingFromProvider(int32_t codepage);
+/// @brief Method GetEncodingFromProvider, addr 0x599aac8, size 0xdc, virtual false, abstract: false, final false
+static inline ::System::Text::Encoding* GetEncodingFromProvider(int32_t  codepage) ;
 
-  /// @brief Method GetEncodingFromProvider, addr 0x5999108, size 0xf4, virtual false, abstract: false, final false
-  static inline ::System::Text::Encoding* GetEncodingFromProvider(int32_t codepage, ::System::Text::EncoderFallback* enc, ::System::Text::DecoderFallback* dec);
+/// @brief Method GetEncodingFromProvider, addr 0x599ac80, size 0xf4, virtual false, abstract: false, final false
+static inline ::System::Text::Encoding* GetEncodingFromProvider(int32_t  codepage, ::System::Text::EncoderFallback*  enc, ::System::Text::DecoderFallback*  dec) ;
 
-  /// @brief Method GetEncodingFromProvider, addr 0x599902c, size 0xdc, virtual false, abstract: false, final false
-  static inline ::System::Text::Encoding* GetEncodingFromProvider(::StringW encodingName);
+/// @brief Method GetEncodingFromProvider, addr 0x599aba4, size 0xdc, virtual false, abstract: false, final false
+static inline ::System::Text::Encoding* GetEncodingFromProvider(::StringW  encodingName) ;
 
-  static inline ::System::Object* getStaticF_s_InternalSyncObject();
+static inline ::System::Object* getStaticF_s_InternalSyncObject() ;
 
-  static inline ::ArrayW<::System::Text::EncodingProvider*, ::Array<::System::Text::EncodingProvider*>*> getStaticF_s_providers();
+static inline ::ArrayW<::System::Text::EncodingProvider*,::Array<::System::Text::EncodingProvider*>*> getStaticF_s_providers() ;
 
-  static inline void setStaticF_s_InternalSyncObject(::System::Object* value);
+static inline void setStaticF_s_InternalSyncObject(::System::Object*  value) ;
 
-  static inline void setStaticF_s_providers(::ArrayW<::System::Text::EncodingProvider*, ::Array<::System::Text::EncodingProvider*>*> value);
+static inline void setStaticF_s_providers(::ArrayW<::System::Text::EncodingProvider*,::Array<::System::Text::EncodingProvider*>*>  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr EncodingProvider();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr EncodingProvider() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EncodingProvider", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  EncodingProvider(EncodingProvider&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EncodingProvider", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  EncodingProvider(EncodingProvider const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "EncodingProvider", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+EncodingProvider(EncodingProvider && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2869 };
+// Ctor Parameters [CppParam { name: "", ty: "EncodingProvider", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+EncodingProvider(EncodingProvider const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{2869};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Text::EncodingProvider, 0x10>, "Size mismatch!");
 
-} // namespace System::Text
+} // namespace end def System::Text
 NEED_NO_BOX(::System::Text::EncodingProvider);
 DEFINE_IL2CPP_ARG_TYPE(::System::Text::EncodingProvider*, "System.Text", "EncodingProvider");

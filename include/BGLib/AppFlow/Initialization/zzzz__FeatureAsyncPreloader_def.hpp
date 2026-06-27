@@ -22,7 +22,8 @@ namespace BGLib::AppFlow::Initialization {
 class FeatureAsyncPreloader___c;
 }
 namespace System::Collections::Generic {
-template <typename T> class IList_1;
+template<typename T>
+class IList_1;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
@@ -31,7 +32,8 @@ namespace System::Threading::Tasks {
 class Task;
 }
 namespace System {
-template <typename T, typename TResult> class Func_2;
+template<typename T,typename TResult>
+class Func_2;
 }
 // Forward declare root types
 namespace BGLib::AppFlow::Initialization {
@@ -53,103 +55,97 @@ namespace BGLib::AppFlow::Initialization {
 // CS Name: BGLib.AppFlow.Initialization.FeatureAsyncPreloader/<>c
 class CORDL_TYPE FeatureAsyncPreloader___c : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field <>9, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::BGLib::AppFlow::Initialization::FeatureAsyncPreloader___c* __9;
+// Declarations
+/// @brief Field <>9, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF___9, put=setStaticF___9)) ::BGLib::AppFlow::Initialization::FeatureAsyncPreloader___c*  __9;
 
-  /// @brief Field <>9__1_0, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9__1_0, put = setStaticF___9__1_0)) ::System::Func_2<::UnityW<::BGLib::AppFlow::Initialization::AsyncPreloader>, ::System::Threading::Tasks::Task*>* __9__1_0;
+/// @brief Field <>9__1_0, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF___9__1_0, put=setStaticF___9__1_0)) ::System::Func_2<::UnityW<::BGLib::AppFlow::Initialization::AsyncPreloader>,::System::Threading::Tasks::Task*>*  __9__1_0;
 
-  static inline ::BGLib::AppFlow::Initialization::FeatureAsyncPreloader___c* New_ctor();
+static inline ::BGLib::AppFlow::Initialization::FeatureAsyncPreloader___c* New_ctor() ;
 
-  /// @brief Method <PreloadAsync>b__1_0, addr 0x324f954, size 0x20, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task* _PreloadAsync_b__1_0(::BGLib::AppFlow::Initialization::AsyncPreloader* preloader);
+/// @brief Method <PreloadAsync>b__1_0, addr 0x32506f0, size 0x20, virtual false, abstract: false, final false
+inline ::System::Threading::Tasks::Task* _PreloadAsync_b__1_0(::BGLib::AppFlow::Initialization::AsyncPreloader*  preloader) ;
 
-  /// @brief Method .ctor, addr 0x324f950, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x32506ec, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  static inline ::BGLib::AppFlow::Initialization::FeatureAsyncPreloader___c* getStaticF___9();
+static inline ::BGLib::AppFlow::Initialization::FeatureAsyncPreloader___c* getStaticF___9() ;
 
-  static inline ::System::Func_2<::UnityW<::BGLib::AppFlow::Initialization::AsyncPreloader>, ::System::Threading::Tasks::Task*>* getStaticF___9__1_0();
+static inline ::System::Func_2<::UnityW<::BGLib::AppFlow::Initialization::AsyncPreloader>,::System::Threading::Tasks::Task*>* getStaticF___9__1_0() ;
 
-  static inline void setStaticF___9(::BGLib::AppFlow::Initialization::FeatureAsyncPreloader___c* value);
+static inline void setStaticF___9(::BGLib::AppFlow::Initialization::FeatureAsyncPreloader___c*  value) ;
 
-  static inline void setStaticF___9__1_0(::System::Func_2<::UnityW<::BGLib::AppFlow::Initialization::AsyncPreloader>, ::System::Threading::Tasks::Task*>* value);
+static inline void setStaticF___9__1_0(::System::Func_2<::UnityW<::BGLib::AppFlow::Initialization::AsyncPreloader>,::System::Threading::Tasks::Task*>*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr FeatureAsyncPreloader___c();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr FeatureAsyncPreloader___c() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FeatureAsyncPreloader___c", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  FeatureAsyncPreloader___c(FeatureAsyncPreloader___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FeatureAsyncPreloader___c", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  FeatureAsyncPreloader___c(FeatureAsyncPreloader___c const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "FeatureAsyncPreloader___c", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+FeatureAsyncPreloader___c(FeatureAsyncPreloader___c && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21404 };
+// Ctor Parameters [CppParam { name: "", ty: "FeatureAsyncPreloader___c", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+FeatureAsyncPreloader___c(FeatureAsyncPreloader___c const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{21407};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::BGLib::AppFlow::Initialization::FeatureAsyncPreloader___c, 0x10>, "Size mismatch!");
 
-} // namespace BGLib::AppFlow::Initialization
+} // namespace end def BGLib::AppFlow::Initialization
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace BGLib::AppFlow::Initialization {
 // Is value type: true
 // CS Name: BGLib.AppFlow.Initialization.FeatureAsyncPreloader/<PreloadAsync>d__1
 struct CORDL_TYPE FeatureAsyncPreloader__PreloadAsync_d__1 {
 public:
-  // Declarations
-  /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-  constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+// Declarations
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr operator  ::System::Runtime::CompilerServices::IAsyncStateMachine*() ;
 
-  /// @brief Method MoveNext, addr 0x324f974, size 0x90c, virtual true, abstract: false, final true
-  inline void MoveNext();
+/// @brief Method MoveNext, addr 0x3250710, size 0x90c, virtual true, abstract: false, final true
+inline void MoveNext() ;
 
-  /// @brief Method SetStateMachine, addr 0x3250280, size 0x6c, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+/// @brief Method SetStateMachine, addr 0x325101c, size 0x6c, virtual true, abstract: false, final true
+inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine*  stateMachine) ;
 
-  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
+/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine() ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr FeatureAsyncPreloader__PreloadAsync_d__1();
+// Ctor Parameters []
+// @brief default ctor
+constexpr FeatureAsyncPreloader__PreloadAsync_d__1() ;
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Collections::Generic::IList_1<::UnityW<::BGLib::AppFlow::Initialization::AsyncPreloader>>*>", modifiers: "", def_value: None },
-  // CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
-  constexpr FeatureAsyncPreloader__PreloadAsync_d__1(
-      int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
-      ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Collections::Generic::IList_1<::UnityW<::BGLib::AppFlow::Initialization::AsyncPreloader>>*> __u__1,
-      ::System::Runtime::CompilerServices::TaskAwaiter __u__2) noexcept;
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty: "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Collections::Generic::IList_1<::UnityW<::BGLib::AppFlow::Initialization::AsyncPreloader>>*>", modifiers: "", def_value: None }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
+constexpr FeatureAsyncPreloader__PreloadAsync_d__1(int32_t  __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder  __t__builder, ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Collections::Generic::IList_1<::UnityW<::BGLib::AppFlow::Initialization::AsyncPreloader>>*>  __u__1, ::System::Runtime::CompilerServices::TaskAwaiter  __u__2) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21405 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{21408};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x30};
 
-  /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
-  int32_t __1__state;
+/// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
+ int32_t  __1__state;
 
-  /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
-  ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder;
+/// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
+ ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder  __t__builder;
 
-  /// @brief Field <>u__1, offset: 0x20, size: 0x8, def value: None
-  ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Collections::Generic::IList_1<::UnityW<::BGLib::AppFlow::Initialization::AsyncPreloader>>*> __u__1;
+/// @brief Field <>u__1, offset: 0x20, size: 0x8, def value: None
+ ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Collections::Generic::IList_1<::UnityW<::BGLib::AppFlow::Initialization::AsyncPreloader>>*>  __u__1;
 
-  /// @brief Field <>u__2, offset: 0x28, size: 0x8, def value: None
-  ::System::Runtime::CompilerServices::TaskAwaiter __u__2;
+/// @brief Field <>u__2, offset: 0x28, size: 0x8, def value: None
+ ::System::Runtime::CompilerServices::TaskAwaiter  __u__2;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::BGLib::AppFlow::Initialization::FeatureAsyncPreloader__PreloadAsync_d__1, __1__state) == 0x0, "Offset mismatch!");
@@ -162,52 +158,52 @@ static_assert(offsetof(::BGLib::AppFlow::Initialization::FeatureAsyncPreloader__
 
 static_assert(::cordl_internals::size_check_v<::BGLib::AppFlow::Initialization::FeatureAsyncPreloader__PreloadAsync_d__1, 0x30>, "Size mismatch!");
 
-} // namespace BGLib::AppFlow::Initialization
+} // namespace end def BGLib::AppFlow::Initialization
 // Dependencies BGLib.AppFlow.Initialization.AsyncPreloader
 namespace BGLib::AppFlow::Initialization {
 // Is value type: false
 // CS Name: BGLib.AppFlow.Initialization.FeatureAsyncPreloader
 class CORDL_TYPE FeatureAsyncPreloader : public ::BGLib::AppFlow::Initialization::AsyncPreloader {
 public:
-  // Declarations
-  using _PreloadAsync_d__1 = ::BGLib::AppFlow::Initialization::FeatureAsyncPreloader__PreloadAsync_d__1;
+// Declarations
+using _PreloadAsync_d__1 = ::BGLib::AppFlow::Initialization::FeatureAsyncPreloader__PreloadAsync_d__1;
 
-  using __c = ::BGLib::AppFlow::Initialization::FeatureAsyncPreloader___c;
+using __c = ::BGLib::AppFlow::Initialization::FeatureAsyncPreloader___c;
 
-  static inline ::BGLib::AppFlow::Initialization::FeatureAsyncPreloader* New_ctor();
+static inline ::BGLib::AppFlow::Initialization::FeatureAsyncPreloader* New_ctor() ;
 
-  /// @brief Method PreloadAsync, addr 0x324f84c, size 0xac, virtual true, abstract: false, final false
-  inline ::System::Threading::Tasks::Task* PreloadAsync();
+/// @brief Method PreloadAsync, addr 0x32505e8, size 0xac, virtual true, abstract: false, final false
+inline ::System::Threading::Tasks::Task* PreloadAsync() ;
 
-  /// @brief Method .ctor, addr 0x324f8f8, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x3250694, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr FeatureAsyncPreloader();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr FeatureAsyncPreloader() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FeatureAsyncPreloader", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  FeatureAsyncPreloader(FeatureAsyncPreloader&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FeatureAsyncPreloader", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  FeatureAsyncPreloader(FeatureAsyncPreloader const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "FeatureAsyncPreloader", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+FeatureAsyncPreloader(FeatureAsyncPreloader && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21406 };
+// Ctor Parameters [CppParam { name: "", ty: "FeatureAsyncPreloader", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+FeatureAsyncPreloader(FeatureAsyncPreloader const& ) = delete;
 
-  /// @brief Field kFeatureAsyncPreloader offset 0xffffffff size 0x8
-  static constexpr ::ConstString kFeatureAsyncPreloader{ u"FeatureAsyncPreloader" };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{21409};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field kFeatureAsyncPreloader offset 0xffffffff size 0x8
+static constexpr ::ConstString  kFeatureAsyncPreloader{u"FeatureAsyncPreloader"};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::BGLib::AppFlow::Initialization::FeatureAsyncPreloader, 0x28>, "Size mismatch!");
 
-} // namespace BGLib::AppFlow::Initialization
+} // namespace end def BGLib::AppFlow::Initialization
 NEED_NO_BOX(::BGLib::AppFlow::Initialization::FeatureAsyncPreloader);
 DEFINE_IL2CPP_ARG_TYPE(::BGLib::AppFlow::Initialization::FeatureAsyncPreloader*, "BGLib.AppFlow.Initialization", "FeatureAsyncPreloader");
 NEED_NO_BOX(::BGLib::AppFlow::Initialization::FeatureAsyncPreloader___c);

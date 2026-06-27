@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "BGLib/UnityExtension/AddressablesExtensions.hpp"
 #include "BGLib/UnityExtension/AssetBundleExtensions.hpp"
@@ -23,5 +23,6 @@ module;
 #include "BGLib/UnityExtension/ShaderPropertyIDFromRendererAttribute.hpp"
 #include "BGLib/UnityExtension/UnityWebRequestExtensions.hpp"
 #ifdef __cpp_modules
-export module UnityExtension;
-#endif
+                    export module UnityExtension;
+                    #endif
+                

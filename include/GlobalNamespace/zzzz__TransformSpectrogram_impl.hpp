@@ -8,169 +8,194 @@
 #include "UnityEngine/zzzz__Transform_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::TransformSpectrogram.Awake
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TransformSpectrogram::*)()>(&::GlobalNamespace::TransformSpectrogram::Awake)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x5866dd0;
+  constexpr static std::size_t addrs = 0x586867c;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TransformSpectrogram*>::get(), "Awake",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TransformSpectrogram*>::get(),
+                        "Awake",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::TransformSpectrogram.Update
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TransformSpectrogram::*)()>(&::GlobalNamespace::TransformSpectrogram::Update)> {
   constexpr static std::size_t size = 0x270;
-  constexpr static std::size_t addrs = 0x5866f54;
+  constexpr static std::size_t addrs = 0x5868800;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TransformSpectrogram*>::get(), "Update",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TransformSpectrogram*>::get(),
+                        "Update",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::TransformSpectrogram._ctor
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TransformSpectrogram::*)()>(&::GlobalNamespace::TransformSpectrogram::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x58671c4;
+  constexpr static std::size_t addrs = 0x5868a70;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TransformSpectrogram*>::get(), ".ctor",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TransformSpectrogram*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
-constexpr ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*>& GlobalNamespace::TransformSpectrogram::__cordl_internal_get__transforms() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____transforms;
+constexpr ::ArrayW<::UnityW<::UnityEngine::Transform>,::Array<::UnityW<::UnityEngine::Transform>>*>& GlobalNamespace::TransformSpectrogram::__cordl_internal_get__transforms()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____transforms;
 }
-constexpr ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> const& GlobalNamespace::TransformSpectrogram::__cordl_internal_get__transforms() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____transforms;
+constexpr ::ArrayW<::UnityW<::UnityEngine::Transform>,::Array<::UnityW<::UnityEngine::Transform>>*> const& GlobalNamespace::TransformSpectrogram::__cordl_internal_get__transforms() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____transforms;
 }
-constexpr void GlobalNamespace::TransformSpectrogram::__cordl_internal_set__transforms(::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____transforms)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::TransformSpectrogram::__cordl_internal_set__transforms(::ArrayW<::UnityW<::UnityEngine::Transform>,::Array<::UnityW<::UnityEngine::Transform>>*>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____transforms)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::LightAxis& GlobalNamespace::TransformSpectrogram::__cordl_internal_get__axis() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____axis;
+constexpr ::GlobalNamespace::LightAxis& GlobalNamespace::TransformSpectrogram::__cordl_internal_get__axis()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____axis;
 }
 constexpr ::GlobalNamespace::LightAxis const& GlobalNamespace::TransformSpectrogram::__cordl_internal_get__axis() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____axis;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____axis;
 }
-constexpr void GlobalNamespace::TransformSpectrogram::__cordl_internal_set__axis(::GlobalNamespace::LightAxis value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____axis = value;
+constexpr void GlobalNamespace::TransformSpectrogram::__cordl_internal_set__axis(::GlobalNamespace::LightAxis  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____axis = value;
 }
-constexpr float_t& GlobalNamespace::TransformSpectrogram::__cordl_internal_get__minPosition() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____minPosition;
+constexpr float_t& GlobalNamespace::TransformSpectrogram::__cordl_internal_get__minPosition()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____minPosition;
 }
 constexpr float_t const& GlobalNamespace::TransformSpectrogram::__cordl_internal_get__minPosition() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____minPosition;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____minPosition;
 }
-constexpr void GlobalNamespace::TransformSpectrogram::__cordl_internal_set__minPosition(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____minPosition = value;
+constexpr void GlobalNamespace::TransformSpectrogram::__cordl_internal_set__minPosition(float_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____minPosition = value;
 }
-constexpr float_t& GlobalNamespace::TransformSpectrogram::__cordl_internal_get__maxPosition() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____maxPosition;
+constexpr float_t& GlobalNamespace::TransformSpectrogram::__cordl_internal_get__maxPosition()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____maxPosition;
 }
 constexpr float_t const& GlobalNamespace::TransformSpectrogram::__cordl_internal_get__maxPosition() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____maxPosition;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____maxPosition;
 }
-constexpr void GlobalNamespace::TransformSpectrogram::__cordl_internal_set__maxPosition(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____maxPosition = value;
+constexpr void GlobalNamespace::TransformSpectrogram::__cordl_internal_set__maxPosition(float_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____maxPosition = value;
 }
-constexpr bool& GlobalNamespace::TransformSpectrogram::__cordl_internal_get__scaleSamples() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____scaleSamples;
+constexpr bool& GlobalNamespace::TransformSpectrogram::__cordl_internal_get__scaleSamples()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____scaleSamples;
 }
 constexpr bool const& GlobalNamespace::TransformSpectrogram::__cordl_internal_get__scaleSamples() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____scaleSamples;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____scaleSamples;
 }
-constexpr void GlobalNamespace::TransformSpectrogram::__cordl_internal_set__scaleSamples(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____scaleSamples = value;
+constexpr void GlobalNamespace::TransformSpectrogram::__cordl_internal_set__scaleSamples(bool  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____scaleSamples = value;
 }
-constexpr float_t& GlobalNamespace::TransformSpectrogram::__cordl_internal_get__scale() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____scale;
+constexpr float_t& GlobalNamespace::TransformSpectrogram::__cordl_internal_get__scale()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____scale;
 }
 constexpr float_t const& GlobalNamespace::TransformSpectrogram::__cordl_internal_get__scale() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____scale;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____scale;
 }
-constexpr void GlobalNamespace::TransformSpectrogram::__cordl_internal_set__scale(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____scale = value;
+constexpr void GlobalNamespace::TransformSpectrogram::__cordl_internal_set__scale(float_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____scale = value;
 }
-constexpr ::UnityW<::GlobalNamespace::BasicSpectrogramData>& GlobalNamespace::TransformSpectrogram::__cordl_internal_get__spectrogramData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____spectrogramData;
+constexpr ::UnityW<::GlobalNamespace::BasicSpectrogramData>& GlobalNamespace::TransformSpectrogram::__cordl_internal_get__spectrogramData()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____spectrogramData;
 }
 constexpr ::UnityW<::GlobalNamespace::BasicSpectrogramData> const& GlobalNamespace::TransformSpectrogram::__cordl_internal_get__spectrogramData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____spectrogramData;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____spectrogramData;
 }
-constexpr void GlobalNamespace::TransformSpectrogram::__cordl_internal_set__spectrogramData(::UnityW<::GlobalNamespace::BasicSpectrogramData> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____spectrogramData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::TransformSpectrogram::__cordl_internal_set__spectrogramData(::UnityW<::GlobalNamespace::BasicSpectrogramData>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____spectrogramData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::Vector3& GlobalNamespace::TransformSpectrogram::__cordl_internal_get__direction() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____direction;
+constexpr ::UnityEngine::Vector3& GlobalNamespace::TransformSpectrogram::__cordl_internal_get__direction()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____direction;
 }
 constexpr ::UnityEngine::Vector3 const& GlobalNamespace::TransformSpectrogram::__cordl_internal_get__direction() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____direction;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____direction;
 }
-constexpr void GlobalNamespace::TransformSpectrogram::__cordl_internal_set__direction(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____direction = value;
+constexpr void GlobalNamespace::TransformSpectrogram::__cordl_internal_set__direction(::UnityEngine::Vector3  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____direction = value;
 }
-constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>& GlobalNamespace::TransformSpectrogram::__cordl_internal_get__defaultPositions() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____defaultPositions;
+constexpr ::ArrayW<::UnityEngine::Vector3,::Array<::UnityEngine::Vector3>*>& GlobalNamespace::TransformSpectrogram::__cordl_internal_get__defaultPositions()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____defaultPositions;
 }
-constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> const& GlobalNamespace::TransformSpectrogram::__cordl_internal_get__defaultPositions() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____defaultPositions;
+constexpr ::ArrayW<::UnityEngine::Vector3,::Array<::UnityEngine::Vector3>*> const& GlobalNamespace::TransformSpectrogram::__cordl_internal_get__defaultPositions() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____defaultPositions;
 }
-constexpr void GlobalNamespace::TransformSpectrogram::__cordl_internal_set__defaultPositions(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____defaultPositions)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::TransformSpectrogram::__cordl_internal_set__defaultPositions(::ArrayW<::UnityEngine::Vector3,::Array<::UnityEngine::Vector3>*>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____defaultPositions)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void GlobalNamespace::TransformSpectrogram::Awake() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TransformSpectrogram*>::get(), "Awake",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::TransformSpectrogram::Awake()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TransformSpectrogram*>::get(),
+                        "Awake",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::TransformSpectrogram::Update() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TransformSpectrogram*>::get(), "Update",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::TransformSpectrogram::Update()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TransformSpectrogram*>::get(),
+                        "Update",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::TransformSpectrogram::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TransformSpectrogram*>::get(), ".ctor",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::TransformSpectrogram::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TransformSpectrogram*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::TransformSpectrogram* GlobalNamespace::TransformSpectrogram::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::TransformSpectrogram*>());
+inline ::GlobalNamespace::TransformSpectrogram* GlobalNamespace::TransformSpectrogram::New_ctor()  {
+return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::TransformSpectrogram*>());
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::TransformSpectrogram::TransformSpectrogram() {}
+constexpr ::GlobalNamespace::TransformSpectrogram::TransformSpectrogram()   {
+}

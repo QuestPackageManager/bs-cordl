@@ -34,187 +34,187 @@ namespace GlobalNamespace {
 // CS Name: NetworkPlayerTableCell
 class CORDL_TYPE NetworkPlayerTableCell : public ::HMUI::TableCell {
 public:
-  // Declarations
-  /// @brief Field _bgImage, offset 0xa0, size 0x8
-  __declspec(property(get = __cordl_internal_get__bgImage, put = __cordl_internal_set__bgImage)) ::UnityW<::UnityEngine::UI::Image> _bgImage;
+// Declarations
+/// @brief Field _bgImage, offset 0xa0, size 0x8 
+ __declspec(property(get=__cordl_internal_get__bgImage, put=__cordl_internal_set__bgImage)) ::UnityW<::UnityEngine::UI::Image>  _bgImage;
 
-  /// @brief Field _highlightImage, offset 0xa8, size 0x8
-  __declspec(property(get = __cordl_internal_get__highlightImage, put = __cordl_internal_set__highlightImage)) ::UnityW<::UnityEngine::UI::Image> _highlightImage;
+/// @brief Field _highlightImage, offset 0xa8, size 0x8 
+ __declspec(property(get=__cordl_internal_get__highlightImage, put=__cordl_internal_set__highlightImage)) ::UnityW<::UnityEngine::UI::Image>  _highlightImage;
 
-  /// @brief Field _isMe, offset 0xe0, size 0x1
-  __declspec(property(get = __cordl_internal_get__isMe, put = __cordl_internal_set__isMe)) bool _isMe;
+/// @brief Field _isMe, offset 0xe0, size 0x1 
+ __declspec(property(get=__cordl_internal_get__isMe, put=__cordl_internal_set__isMe)) bool  _isMe;
 
-  /// @brief Field _partyLeaderIcon, offset 0x98, size 0x8
-  __declspec(property(get = __cordl_internal_get__partyLeaderIcon, put = __cordl_internal_set__partyLeaderIcon)) ::UnityW<::UnityEngine::UI::Image> _partyLeaderIcon;
+/// @brief Field _partyLeaderIcon, offset 0x98, size 0x8 
+ __declspec(property(get=__cordl_internal_get__partyLeaderIcon, put=__cordl_internal_set__partyLeaderIcon)) ::UnityW<::UnityEngine::UI::Image>  _partyLeaderIcon;
 
-  /// @brief Field _playerNameText, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get__playerNameText, put = __cordl_internal_set__playerNameText)) ::UnityW<::TMPro::TextMeshProUGUI> _playerNameText;
+/// @brief Field _playerNameText, offset 0x78, size 0x8 
+ __declspec(property(get=__cordl_internal_get__playerNameText, put=__cordl_internal_set__playerNameText)) ::UnityW<::TMPro::TextMeshProUGUI>  _playerNameText;
 
-  /// @brief Field _privateIcon, offset 0x88, size 0x8
-  __declspec(property(get = __cordl_internal_get__privateIcon, put = __cordl_internal_set__privateIcon)) ::UnityW<::UnityEngine::UI::Image> _privateIcon;
+/// @brief Field _privateIcon, offset 0x88, size 0x8 
+ __declspec(property(get=__cordl_internal_get__privateIcon, put=__cordl_internal_set__privateIcon)) ::UnityW<::UnityEngine::UI::Image>  _privateIcon;
 
-  /// @brief Field _separator, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get__separator, put = __cordl_internal_set__separator)) ::UnityW<::UnityEngine::GameObject> _separator;
+/// @brief Field _separator, offset 0x80, size 0x8 
+ __declspec(property(get=__cordl_internal_get__separator, put=__cordl_internal_set__separator)) ::UnityW<::UnityEngine::GameObject>  _separator;
 
-  /// @brief Field _spectateIcon, offset 0x90, size 0x8
-  __declspec(property(get = __cordl_internal_get__spectateIcon, put = __cordl_internal_set__spectateIcon)) ::UnityW<::UnityEngine::UI::Image> _spectateIcon;
+/// @brief Field _spectateIcon, offset 0x90, size 0x8 
+ __declspec(property(get=__cordl_internal_get__spectateIcon, put=__cordl_internal_set__spectateIcon)) ::UnityW<::UnityEngine::UI::Image>  _spectateIcon;
 
-  /// @brief Field _textColorMe, offset 0xc0, size 0x10
-  __declspec(property(get = __cordl_internal_get__textColorMe, put = __cordl_internal_set__textColorMe)) ::UnityEngine::Color _textColorMe;
+/// @brief Field _textColorMe, offset 0xc0, size 0x10 
+ __declspec(property(get=__cordl_internal_get__textColorMe, put=__cordl_internal_set__textColorMe)) ::UnityEngine::Color  _textColorMe;
 
-  /// @brief Field _textColorNormal, offset 0xb0, size 0x10
-  __declspec(property(get = __cordl_internal_get__textColorNormal, put = __cordl_internal_set__textColorNormal)) ::UnityEngine::Color _textColorNormal;
+/// @brief Field _textColorNormal, offset 0xb0, size 0x10 
+ __declspec(property(get=__cordl_internal_get__textColorNormal, put=__cordl_internal_set__textColorNormal)) ::UnityEngine::Color  _textColorNormal;
 
-  /// @brief Field _textColorSelected, offset 0xd0, size 0x10
-  __declspec(property(get = __cordl_internal_get__textColorSelected, put = __cordl_internal_set__textColorSelected)) ::UnityEngine::Color _textColorSelected;
+/// @brief Field _textColorSelected, offset 0xd0, size 0x10 
+ __declspec(property(get=__cordl_internal_get__textColorSelected, put=__cordl_internal_set__textColorSelected)) ::UnityEngine::Color  _textColorSelected;
 
-  __declspec(property(get = get_activeColor)) ::UnityEngine::Color activeColor;
+ __declspec(property(get=get_activeColor)) ::UnityEngine::Color  activeColor;
 
-  __declspec(property(get = get_showSeparator, put = set_showSeparator)) bool showSeparator;
+ __declspec(property(get=get_showSeparator, put=set_showSeparator)) bool  showSeparator;
 
-  /// @brief Method HighlightDidChange, addr 0x58e20e8, size 0x4, virtual true, abstract: false, final false
-  inline void HighlightDidChange(::HMUI::SelectableCell_TransitionType transitionType);
+/// @brief Method HighlightDidChange, addr 0x58e3ab8, size 0x4, virtual true, abstract: false, final false
+inline void HighlightDidChange(::HMUI::SelectableCell_TransitionType  transitionType) ;
 
-  static inline ::GlobalNamespace::NetworkPlayerTableCell* New_ctor();
+static inline ::GlobalNamespace::NetworkPlayerTableCell* New_ctor() ;
 
-  /// @brief Method RefreshVisuals, addr 0x58e1ed0, size 0x214, virtual false, abstract: false, final false
-  inline void RefreshVisuals();
+/// @brief Method RefreshVisuals, addr 0x58e38a0, size 0x214, virtual false, abstract: false, final false
+inline void RefreshVisuals() ;
 
-  /// @brief Method SelectionDidChange, addr 0x58e20e4, size 0x4, virtual true, abstract: false, final false
-  inline void SelectionDidChange(::HMUI::SelectableCell_TransitionType transitionType);
+/// @brief Method SelectionDidChange, addr 0x58e3ab4, size 0x4, virtual true, abstract: false, final false
+inline void SelectionDidChange(::HMUI::SelectableCell_TransitionType  transitionType) ;
 
-  /// @brief Method SetData, addr 0x58e1304, size 0xa0, virtual false, abstract: false, final false
-  inline void SetData(::StringW userName, bool isOpenParty, bool wantsToPlayNextLevel, bool isMyPartyOwner, bool isMe);
+/// @brief Method SetData, addr 0x58e2cd4, size 0xa0, virtual false, abstract: false, final false
+inline void SetData(::StringW  userName, bool  isOpenParty, bool  wantsToPlayNextLevel, bool  isMyPartyOwner, bool  isMe) ;
 
-  constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__bgImage() const;
+constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__bgImage() const;
 
-  constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get__bgImage();
+constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get__bgImage() ;
 
-  constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__highlightImage() const;
+constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__highlightImage() const;
 
-  constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get__highlightImage();
+constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get__highlightImage() ;
 
-  constexpr bool const& __cordl_internal_get__isMe() const;
+constexpr bool const& __cordl_internal_get__isMe() const;
 
-  constexpr bool& __cordl_internal_get__isMe();
+constexpr bool& __cordl_internal_get__isMe() ;
 
-  constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__partyLeaderIcon() const;
+constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__partyLeaderIcon() const;
 
-  constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get__partyLeaderIcon();
+constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get__partyLeaderIcon() ;
 
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__playerNameText() const;
+constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__playerNameText() const;
 
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__playerNameText();
+constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__playerNameText() ;
 
-  constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__privateIcon() const;
+constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__privateIcon() const;
 
-  constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get__privateIcon();
+constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get__privateIcon() ;
 
-  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__separator() const;
+constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__separator() const;
 
-  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__separator();
+constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__separator() ;
 
-  constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__spectateIcon() const;
+constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__spectateIcon() const;
 
-  constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get__spectateIcon();
+constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get__spectateIcon() ;
 
-  constexpr ::UnityEngine::Color const& __cordl_internal_get__textColorMe() const;
+constexpr ::UnityEngine::Color const& __cordl_internal_get__textColorMe() const;
 
-  constexpr ::UnityEngine::Color& __cordl_internal_get__textColorMe();
+constexpr ::UnityEngine::Color& __cordl_internal_get__textColorMe() ;
 
-  constexpr ::UnityEngine::Color const& __cordl_internal_get__textColorNormal() const;
+constexpr ::UnityEngine::Color const& __cordl_internal_get__textColorNormal() const;
 
-  constexpr ::UnityEngine::Color& __cordl_internal_get__textColorNormal();
+constexpr ::UnityEngine::Color& __cordl_internal_get__textColorNormal() ;
 
-  constexpr ::UnityEngine::Color const& __cordl_internal_get__textColorSelected() const;
+constexpr ::UnityEngine::Color const& __cordl_internal_get__textColorSelected() const;
 
-  constexpr ::UnityEngine::Color& __cordl_internal_get__textColorSelected();
+constexpr ::UnityEngine::Color& __cordl_internal_get__textColorSelected() ;
 
-  constexpr void __cordl_internal_set__bgImage(::UnityW<::UnityEngine::UI::Image> value);
+constexpr void __cordl_internal_set__bgImage(::UnityW<::UnityEngine::UI::Image>  value) ;
 
-  constexpr void __cordl_internal_set__highlightImage(::UnityW<::UnityEngine::UI::Image> value);
+constexpr void __cordl_internal_set__highlightImage(::UnityW<::UnityEngine::UI::Image>  value) ;
 
-  constexpr void __cordl_internal_set__isMe(bool value);
+constexpr void __cordl_internal_set__isMe(bool  value) ;
 
-  constexpr void __cordl_internal_set__partyLeaderIcon(::UnityW<::UnityEngine::UI::Image> value);
+constexpr void __cordl_internal_set__partyLeaderIcon(::UnityW<::UnityEngine::UI::Image>  value) ;
 
-  constexpr void __cordl_internal_set__playerNameText(::UnityW<::TMPro::TextMeshProUGUI> value);
+constexpr void __cordl_internal_set__playerNameText(::UnityW<::TMPro::TextMeshProUGUI>  value) ;
 
-  constexpr void __cordl_internal_set__privateIcon(::UnityW<::UnityEngine::UI::Image> value);
+constexpr void __cordl_internal_set__privateIcon(::UnityW<::UnityEngine::UI::Image>  value) ;
 
-  constexpr void __cordl_internal_set__separator(::UnityW<::UnityEngine::GameObject> value);
+constexpr void __cordl_internal_set__separator(::UnityW<::UnityEngine::GameObject>  value) ;
 
-  constexpr void __cordl_internal_set__spectateIcon(::UnityW<::UnityEngine::UI::Image> value);
+constexpr void __cordl_internal_set__spectateIcon(::UnityW<::UnityEngine::UI::Image>  value) ;
 
-  constexpr void __cordl_internal_set__textColorMe(::UnityEngine::Color value);
+constexpr void __cordl_internal_set__textColorMe(::UnityEngine::Color  value) ;
 
-  constexpr void __cordl_internal_set__textColorNormal(::UnityEngine::Color value);
+constexpr void __cordl_internal_set__textColorNormal(::UnityEngine::Color  value) ;
 
-  constexpr void __cordl_internal_set__textColorSelected(::UnityEngine::Color value);
+constexpr void __cordl_internal_set__textColorSelected(::UnityEngine::Color  value) ;
 
-  /// @brief Method .ctor, addr 0x58e2154, size 0x1c, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x58e3b24, size 0x1c, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_activeColor, addr 0x58e20ec, size 0x68, virtual false, abstract: false, final false
-  inline ::UnityEngine::Color get_activeColor();
+/// @brief Method get_activeColor, addr 0x58e3abc, size 0x68, virtual false, abstract: false, final false
+inline ::UnityEngine::Color get_activeColor() ;
 
-  /// @brief Method get_showSeparator, addr 0x58e1eb8, size 0x18, virtual false, abstract: false, final false
-  inline bool get_showSeparator();
+/// @brief Method get_showSeparator, addr 0x58e3888, size 0x18, virtual false, abstract: false, final false
+inline bool get_showSeparator() ;
 
-  /// @brief Method set_showSeparator, addr 0x58e13a4, size 0x2c, virtual false, abstract: false, final false
-  inline void set_showSeparator(bool value);
+/// @brief Method set_showSeparator, addr 0x58e2d74, size 0x2c, virtual false, abstract: false, final false
+inline void set_showSeparator(bool  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NetworkPlayerTableCell();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr NetworkPlayerTableCell() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NetworkPlayerTableCell", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  NetworkPlayerTableCell(NetworkPlayerTableCell&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NetworkPlayerTableCell", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  NetworkPlayerTableCell(NetworkPlayerTableCell const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "NetworkPlayerTableCell", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+NetworkPlayerTableCell(NetworkPlayerTableCell && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6440 };
+// Ctor Parameters [CppParam { name: "", ty: "NetworkPlayerTableCell", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+NetworkPlayerTableCell(NetworkPlayerTableCell const& ) = delete;
 
-  /// @brief Field _playerNameText, offset: 0x78, size: 0x8, def value: None
-  ::UnityW<::TMPro::TextMeshProUGUI> ____playerNameText;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6440};
 
-  /// @brief Field _separator, offset: 0x80, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::GameObject> ____separator;
+/// @brief Field _playerNameText, offset: 0x78, size: 0x8, def value: None
+ ::UnityW<::TMPro::TextMeshProUGUI>  ____playerNameText;
 
-  /// @brief Field _privateIcon, offset: 0x88, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::UI::Image> ____privateIcon;
+/// @brief Field _separator, offset: 0x80, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::GameObject>  ____separator;
 
-  /// @brief Field _spectateIcon, offset: 0x90, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::UI::Image> ____spectateIcon;
+/// @brief Field _privateIcon, offset: 0x88, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::UI::Image>  ____privateIcon;
 
-  /// @brief Field _partyLeaderIcon, offset: 0x98, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::UI::Image> ____partyLeaderIcon;
+/// @brief Field _spectateIcon, offset: 0x90, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::UI::Image>  ____spectateIcon;
 
-  /// @brief Field _bgImage, offset: 0xa0, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::UI::Image> ____bgImage;
+/// @brief Field _partyLeaderIcon, offset: 0x98, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::UI::Image>  ____partyLeaderIcon;
 
-  /// @brief Field _highlightImage, offset: 0xa8, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::UI::Image> ____highlightImage;
+/// @brief Field _bgImage, offset: 0xa0, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::UI::Image>  ____bgImage;
 
-  /// @brief Field _textColorNormal, offset: 0xb0, size: 0x10, def value: None
-  ::UnityEngine::Color ____textColorNormal;
+/// @brief Field _highlightImage, offset: 0xa8, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::UI::Image>  ____highlightImage;
 
-  /// @brief Field _textColorMe, offset: 0xc0, size: 0x10, def value: None
-  ::UnityEngine::Color ____textColorMe;
+/// @brief Field _textColorNormal, offset: 0xb0, size: 0x10, def value: None
+ ::UnityEngine::Color  ____textColorNormal;
 
-  /// @brief Field _textColorSelected, offset: 0xd0, size: 0x10, def value: None
-  ::UnityEngine::Color ____textColorSelected;
+/// @brief Field _textColorMe, offset: 0xc0, size: 0x10, def value: None
+ ::UnityEngine::Color  ____textColorMe;
 
-  /// @brief Field _isMe, offset: 0xe0, size: 0x1, def value: None
-  bool ____isMe;
+/// @brief Field _textColorSelected, offset: 0xd0, size: 0x10, def value: None
+ ::UnityEngine::Color  ____textColorSelected;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _isMe, offset: 0xe0, size: 0x1, def value: None
+ bool  ____isMe;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::NetworkPlayerTableCell, ____playerNameText) == 0x78, "Offset mismatch!");
@@ -241,6 +241,6 @@ static_assert(offsetof(::GlobalNamespace::NetworkPlayerTableCell, ____isMe) == 0
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NetworkPlayerTableCell, 0xe8>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::NetworkPlayerTableCell);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::NetworkPlayerTableCell*, "", "NetworkPlayerTableCell");

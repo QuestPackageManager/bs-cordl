@@ -21,79 +21,79 @@ namespace System::Runtime::Remoting::Metadata {
 // CS Name: System.Runtime.Remoting.Metadata.SoapAttribute
 class CORDL_TYPE SoapAttribute : public ::System::Attribute {
 public:
-  // Declarations
-  /// @brief Field ProtXmlNamespace, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_ProtXmlNamespace, put = __cordl_internal_set_ProtXmlNamespace)) ::StringW ProtXmlNamespace;
+// Declarations
+/// @brief Field ProtXmlNamespace, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_ProtXmlNamespace, put=__cordl_internal_set_ProtXmlNamespace)) ::StringW  ProtXmlNamespace;
 
-  /// @brief Field ReflectInfo, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_ReflectInfo, put = __cordl_internal_set_ReflectInfo)) ::System::Object* ReflectInfo;
+/// @brief Field ReflectInfo, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_ReflectInfo, put=__cordl_internal_set_ReflectInfo)) ::System::Object*  ReflectInfo;
 
-  __declspec(property(get = get_UseAttribute)) bool UseAttribute;
+ __declspec(property(get=get_UseAttribute)) bool  UseAttribute;
 
-  __declspec(property(get = get_XmlNamespace)) ::StringW XmlNamespace;
+ __declspec(property(get=get_XmlNamespace)) ::StringW  XmlNamespace;
 
-  /// @brief Field _useAttribute, offset 0x10, size 0x1
-  __declspec(property(get = __cordl_internal_get__useAttribute, put = __cordl_internal_set__useAttribute)) bool _useAttribute;
+/// @brief Field _useAttribute, offset 0x10, size 0x1 
+ __declspec(property(get=__cordl_internal_get__useAttribute, put=__cordl_internal_set__useAttribute)) bool  _useAttribute;
 
-  static inline ::System::Runtime::Remoting::Metadata::SoapAttribute* New_ctor();
+static inline ::System::Runtime::Remoting::Metadata::SoapAttribute* New_ctor() ;
 
-  /// @brief Method SetReflectionObject, addr 0x5a00710, size 0x8, virtual true, abstract: false, final false
-  inline void SetReflectionObject(::System::Object* reflectionObject);
+/// @brief Method SetReflectionObject, addr 0x5a02288, size 0x8, virtual true, abstract: false, final false
+inline void SetReflectionObject(::System::Object*  reflectionObject) ;
 
-  constexpr ::StringW const& __cordl_internal_get_ProtXmlNamespace() const;
+constexpr ::StringW const& __cordl_internal_get_ProtXmlNamespace() const;
 
-  constexpr ::StringW& __cordl_internal_get_ProtXmlNamespace();
+constexpr ::StringW& __cordl_internal_get_ProtXmlNamespace() ;
 
-  constexpr ::System::Object* const& __cordl_internal_get_ReflectInfo() const;
+constexpr ::System::Object* const& __cordl_internal_get_ReflectInfo() const;
 
-  constexpr ::System::Object*& __cordl_internal_get_ReflectInfo();
+constexpr ::System::Object*& __cordl_internal_get_ReflectInfo() ;
 
-  constexpr bool const& __cordl_internal_get__useAttribute() const;
+constexpr bool const& __cordl_internal_get__useAttribute() const;
 
-  constexpr bool& __cordl_internal_get__useAttribute();
+constexpr bool& __cordl_internal_get__useAttribute() ;
 
-  constexpr void __cordl_internal_set_ProtXmlNamespace(::StringW value);
+constexpr void __cordl_internal_set_ProtXmlNamespace(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_ReflectInfo(::System::Object* value);
+constexpr void __cordl_internal_set_ReflectInfo(::System::Object*  value) ;
 
-  constexpr void __cordl_internal_set__useAttribute(bool value);
+constexpr void __cordl_internal_set__useAttribute(bool  value) ;
 
-  /// @brief Method .ctor, addr 0x5a006fc, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5a02274, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_UseAttribute, addr 0x5a00700, size 0x8, virtual true, abstract: false, final false
-  inline bool get_UseAttribute();
+/// @brief Method get_UseAttribute, addr 0x5a02278, size 0x8, virtual true, abstract: false, final false
+inline bool get_UseAttribute() ;
 
-  /// @brief Method get_XmlNamespace, addr 0x5a00708, size 0x8, virtual true, abstract: false, final false
-  inline ::StringW get_XmlNamespace();
+/// @brief Method get_XmlNamespace, addr 0x5a02280, size 0x8, virtual true, abstract: false, final false
+inline ::StringW get_XmlNamespace() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SoapAttribute();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr SoapAttribute() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SoapAttribute", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  SoapAttribute(SoapAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SoapAttribute", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  SoapAttribute(SoapAttribute const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "SoapAttribute", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+SoapAttribute(SoapAttribute && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3154 };
+// Ctor Parameters [CppParam { name: "", ty: "SoapAttribute", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+SoapAttribute(SoapAttribute const& ) = delete;
 
-  /// @brief Field _useAttribute, offset: 0x10, size: 0x1, def value: None
-  bool ____useAttribute;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{3154};
 
-  /// @brief Field ProtXmlNamespace, offset: 0x18, size: 0x8, def value: None
-  ::StringW ___ProtXmlNamespace;
+/// @brief Field _useAttribute, offset: 0x10, size: 0x1, def value: None
+ bool  ____useAttribute;
 
-  /// @brief Field ReflectInfo, offset: 0x20, size: 0x8, def value: None
-  ::System::Object* ___ReflectInfo;
+/// @brief Field ProtXmlNamespace, offset: 0x18, size: 0x8, def value: None
+ ::StringW  ___ProtXmlNamespace;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field ReflectInfo, offset: 0x20, size: 0x8, def value: None
+ ::System::Object*  ___ReflectInfo;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Runtime::Remoting::Metadata::SoapAttribute, ____useAttribute) == 0x10, "Offset mismatch!");
@@ -104,6 +104,6 @@ static_assert(offsetof(::System::Runtime::Remoting::Metadata::SoapAttribute, ___
 
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Remoting::Metadata::SoapAttribute, 0x28>, "Size mismatch!");
 
-} // namespace System::Runtime::Remoting::Metadata
+} // namespace end def System::Runtime::Remoting::Metadata
 NEED_NO_BOX(::System::Runtime::Remoting::Metadata::SoapAttribute);
 DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::Metadata::SoapAttribute*, "System.Runtime.Remoting.Metadata", "SoapAttribute");

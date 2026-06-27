@@ -29,41 +29,41 @@ namespace Meta::XR::BuildingBlocks {
 // CS Name: Meta.XR.BuildingBlocks.Telemetry
 class CORDL_TYPE Telemetry : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method AddBlockInfo, addr 0x58f6518, size 0x18c, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::OVRTelemetryMarker AddBlockInfo(::GlobalNamespace::OVRTelemetryMarker marker, ::Meta::XR::BuildingBlocks::BuildingBlock* block);
+// Declarations
+/// @brief Method AddBlockInfo, addr 0x58f7ee8, size 0x18c, virtual false, abstract: false, final false
+static inline ::GlobalNamespace::OVRTelemetryMarker AddBlockInfo(::GlobalNamespace::OVRTelemetryMarker  marker, ::Meta::XR::BuildingBlocks::BuildingBlock*  block) ;
 
-  /// @brief Method AddBlockVariantInfo, addr 0x58feb70, size 0xc0, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::OVRTelemetryMarker AddBlockVariantInfo(::GlobalNamespace::OVRTelemetryMarker marker, ::Meta::XR::BuildingBlocks::BuildingBlock* block);
+/// @brief Method AddBlockVariantInfo, addr 0x5900540, size 0xc0, virtual false, abstract: false, final false
+static inline ::GlobalNamespace::OVRTelemetryMarker AddBlockVariantInfo(::GlobalNamespace::OVRTelemetryMarker  marker, ::Meta::XR::BuildingBlocks::BuildingBlock*  block) ;
 
-  /// @brief Method AddInstallationRoutineInfo, addr 0x58fec30, size 0x32c, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::OVRTelemetryMarker AddInstallationRoutineInfo(::GlobalNamespace::OVRTelemetryMarker marker, ::Meta::XR::BuildingBlocks::InstallationRoutineCheckpoint* checkpoint);
+/// @brief Method AddInstallationRoutineInfo, addr 0x5900600, size 0x32c, virtual false, abstract: false, final false
+static inline ::GlobalNamespace::OVRTelemetryMarker AddInstallationRoutineInfo(::GlobalNamespace::OVRTelemetryMarker  marker, ::Meta::XR::BuildingBlocks::InstallationRoutineCheckpoint*  checkpoint) ;
 
-  /// @brief Method AddSceneInfo, addr 0x58fef5c, size 0x10c, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::OVRTelemetryMarker AddSceneInfo(::GlobalNamespace::OVRTelemetryMarker marker, ::UnityEngine::SceneManagement::Scene scene);
+/// @brief Method AddSceneInfo, addr 0x590092c, size 0x10c, virtual false, abstract: false, final false
+static inline ::GlobalNamespace::OVRTelemetryMarker AddSceneInfo(::GlobalNamespace::OVRTelemetryMarker  marker, ::UnityEngine::SceneManagement::Scene  scene) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Telemetry();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr Telemetry() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Telemetry", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  Telemetry(Telemetry&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Telemetry", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  Telemetry(Telemetry const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "Telemetry", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Telemetry(Telemetry && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21202 };
+// Ctor Parameters [CppParam { name: "", ty: "Telemetry", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Telemetry(Telemetry const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{21205};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Meta::XR::BuildingBlocks::Telemetry, 0x10>, "Size mismatch!");
 
-} // namespace Meta::XR::BuildingBlocks
+} // namespace end def Meta::XR::BuildingBlocks
 NEED_NO_BOX(::Meta::XR::BuildingBlocks::Telemetry);
 DEFINE_IL2CPP_ARG_TYPE(::Meta::XR::BuildingBlocks::Telemetry*, "Meta.XR.BuildingBlocks", "Telemetry");

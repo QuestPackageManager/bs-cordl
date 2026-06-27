@@ -18,45 +18,45 @@ namespace Org::BouncyCastle::Bcpg::Sig {
 // CS Name: Org.BouncyCastle.Bcpg.Sig.PrimaryUserId
 class CORDL_TYPE PrimaryUserId : public ::Org::BouncyCastle::Bcpg::SignatureSubpacket {
 public:
-  // Declarations
-  /// @brief Method BooleanToByteArray, addr 0x35d5e64, size 0x70, virtual false, abstract: false, final false
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> BooleanToByteArray(bool val);
+// Declarations
+/// @brief Method BooleanToByteArray, addr 0x35d6c00, size 0x70, virtual false, abstract: false, final false
+static inline ::ArrayW<uint8_t,::Array<uint8_t>*> BooleanToByteArray(bool  val) ;
 
-  /// @brief Method IsPrimaryUserId, addr 0x35d5f24, size 0x30, virtual false, abstract: false, final false
-  inline bool IsPrimaryUserId();
+/// @brief Method IsPrimaryUserId, addr 0x35d6cc0, size 0x30, virtual false, abstract: false, final false
+inline bool IsPrimaryUserId() ;
 
-  static inline ::Org::BouncyCastle::Bcpg::Sig::PrimaryUserId* New_ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
+static inline ::Org::BouncyCastle::Bcpg::Sig::PrimaryUserId* New_ctor(bool  critical, bool  isLongLength, ::ArrayW<uint8_t,::Array<uint8_t>*>  data) ;
 
-  static inline ::Org::BouncyCastle::Bcpg::Sig::PrimaryUserId* New_ctor(bool critical, bool isPrimaryUserId);
+static inline ::Org::BouncyCastle::Bcpg::Sig::PrimaryUserId* New_ctor(bool  critical, bool  isPrimaryUserId) ;
 
-  /// @brief Method .ctor, addr 0x35d5ed4, size 0x18, virtual false, abstract: false, final false
-  inline void _ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
+/// @brief Method .ctor, addr 0x35d6c70, size 0x18, virtual false, abstract: false, final false
+inline void _ctor(bool  critical, bool  isLongLength, ::ArrayW<uint8_t,::Array<uint8_t>*>  data) ;
 
-  /// @brief Method .ctor, addr 0x35d5eec, size 0x38, virtual false, abstract: false, final false
-  inline void _ctor(bool critical, bool isPrimaryUserId);
+/// @brief Method .ctor, addr 0x35d6c88, size 0x38, virtual false, abstract: false, final false
+inline void _ctor(bool  critical, bool  isPrimaryUserId) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PrimaryUserId();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr PrimaryUserId() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PrimaryUserId", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  PrimaryUserId(PrimaryUserId&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PrimaryUserId", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  PrimaryUserId(PrimaryUserId const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "PrimaryUserId", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+PrimaryUserId(PrimaryUserId && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 540 };
+// Ctor Parameters [CppParam { name: "", ty: "PrimaryUserId", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+PrimaryUserId(PrimaryUserId const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{540};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Bcpg::Sig::PrimaryUserId, 0x20>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Bcpg::Sig
+} // namespace end def Org::BouncyCastle::Bcpg::Sig
 NEED_NO_BOX(::Org::BouncyCastle::Bcpg::Sig::PrimaryUserId);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Bcpg::Sig::PrimaryUserId*, "Org.BouncyCastle.Bcpg.Sig", "PrimaryUserId");

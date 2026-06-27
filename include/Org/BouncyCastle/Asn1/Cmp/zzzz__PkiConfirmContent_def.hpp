@@ -23,40 +23,40 @@ namespace Org::BouncyCastle::Asn1::Cmp {
 // CS Name: Org.BouncyCastle.Asn1.Cmp.PkiConfirmContent
 class CORDL_TYPE PkiConfirmContent : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
-  // Declarations
-  /// @brief Method GetInstance, addr 0x328d128, size 0x148, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::Cmp::PkiConfirmContent* GetInstance(::System::Object* obj);
+// Declarations
+/// @brief Method GetInstance, addr 0x328dec4, size 0x148, virtual false, abstract: false, final false
+static inline ::Org::BouncyCastle::Asn1::Cmp::PkiConfirmContent* GetInstance(::System::Object*  obj) ;
 
-  static inline ::Org::BouncyCastle::Asn1::Cmp::PkiConfirmContent* New_ctor();
+static inline ::Org::BouncyCastle::Asn1::Cmp::PkiConfirmContent* New_ctor() ;
 
-  /// @brief Method ToAsn1Object, addr 0x328d79c, size 0x5c, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
+/// @brief Method ToAsn1Object, addr 0x328e538, size 0x5c, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object() ;
 
-  /// @brief Method .ctor, addr 0x328d798, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x328e534, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PkiConfirmContent();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr PkiConfirmContent() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PkiConfirmContent", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  PkiConfirmContent(PkiConfirmContent&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PkiConfirmContent", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  PkiConfirmContent(PkiConfirmContent const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "PkiConfirmContent", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+PkiConfirmContent(PkiConfirmContent && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 30 };
+// Ctor Parameters [CppParam { name: "", ty: "PkiConfirmContent", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+PkiConfirmContent(PkiConfirmContent const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{30};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Cmp::PkiConfirmContent, 0x10>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Asn1::Cmp
+} // namespace end def Org::BouncyCastle::Asn1::Cmp
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Cmp::PkiConfirmContent);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::Cmp::PkiConfirmContent*, "Org.BouncyCastle.Asn1.Cmp", "PkiConfirmContent");

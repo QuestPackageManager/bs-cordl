@@ -36,370 +36,370 @@ namespace GlobalNamespace {
 // CS Name: MockPlayerSettings
 class CORDL_TYPE MockPlayerSettings : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field _aiCubeHitChance, offset 0x50, size 0x4
-  __declspec(property(get = __cordl_internal_get__aiCubeHitChance, put = __cordl_internal_set__aiCubeHitChance)) float_t _aiCubeHitChance;
+// Declarations
+/// @brief Field _aiCubeHitChance, offset 0x50, size 0x4 
+ __declspec(property(get=__cordl_internal_get__aiCubeHitChance, put=__cordl_internal_set__aiCubeHitChance)) float_t  _aiCubeHitChance;
 
-  /// @brief Field _autoConnect, offset 0x30, size 0x1
-  __declspec(property(get = __cordl_internal_get__autoConnect, put = __cordl_internal_set__autoConnect)) bool _autoConnect;
+/// @brief Field _autoConnect, offset 0x30, size 0x1 
+ __declspec(property(get=__cordl_internal_get__autoConnect, put=__cordl_internal_set__autoConnect)) bool  _autoConnect;
 
-  /// @brief Field _avatarType, offset 0x38, size 0x4
-  __declspec(property(get = __cordl_internal_get__avatarType, put = __cordl_internal_set__avatarType)) ::GlobalNamespace::MockPlayerAvatarType _avatarType;
+/// @brief Field _avatarType, offset 0x38, size 0x4 
+ __declspec(property(get=__cordl_internal_get__avatarType, put=__cordl_internal_set__avatarType)) ::GlobalNamespace::MockPlayerAvatarType  _avatarType;
 
-  /// @brief Field _beatmapDifficulty, offset 0x88, size 0x4
-  __declspec(property(get = __cordl_internal_get__beatmapDifficulty, put = __cordl_internal_set__beatmapDifficulty)) ::GlobalNamespace::BeatmapDifficulty _beatmapDifficulty;
+/// @brief Field _beatmapDifficulty, offset 0x88, size 0x4 
+ __declspec(property(get=__cordl_internal_get__beatmapDifficulty, put=__cordl_internal_set__beatmapDifficulty)) ::GlobalNamespace::BeatmapDifficulty  _beatmapDifficulty;
 
-  /// @brief Field _beatmapLevelId, offset 0x90, size 0x8
-  __declspec(property(get = __cordl_internal_get__beatmapLevelId, put = __cordl_internal_set__beatmapLevelId)) ::StringW _beatmapLevelId;
+/// @brief Field _beatmapLevelId, offset 0x90, size 0x8 
+ __declspec(property(get=__cordl_internal_get__beatmapLevelId, put=__cordl_internal_set__beatmapLevelId)) ::StringW  _beatmapLevelId;
 
-  /// @brief Field _inactiveByDefault, offset 0x31, size 0x1
-  __declspec(property(get = __cordl_internal_get__inactiveByDefault, put = __cordl_internal_set__inactiveByDefault)) bool _inactiveByDefault;
+/// @brief Field _inactiveByDefault, offset 0x31, size 0x1 
+ __declspec(property(get=__cordl_internal_get__inactiveByDefault, put=__cordl_internal_set__inactiveByDefault)) bool  _inactiveByDefault;
 
-  /// @brief Field _latency, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__latency, put = __cordl_internal_set__latency)) int64_t _latency;
+/// @brief Field _latency, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get__latency, put=__cordl_internal_set__latency)) int64_t  _latency;
 
-  /// @brief Field _leftHanded, offset 0x54, size 0x1
-  __declspec(property(get = __cordl_internal_get__leftHanded, put = __cordl_internal_set__leftHanded)) bool _leftHanded;
+/// @brief Field _leftHanded, offset 0x54, size 0x1 
+ __declspec(property(get=__cordl_internal_get__leftHanded, put=__cordl_internal_set__leftHanded)) bool  _leftHanded;
 
-  /// @brief Field _movementType, offset 0x34, size 0x4
-  __declspec(property(get = __cordl_internal_get__movementType, put = __cordl_internal_set__movementType)) ::GlobalNamespace::MockPlayerMovementType _movementType;
+/// @brief Field _movementType, offset 0x34, size 0x4 
+ __declspec(property(get=__cordl_internal_get__movementType, put=__cordl_internal_set__movementType)) ::GlobalNamespace::MockPlayerMovementType  _movementType;
 
-  /// @brief Field _obstaclesColor, offset 0x78, size 0x10
-  __declspec(property(get = __cordl_internal_get__obstaclesColor, put = __cordl_internal_set__obstaclesColor)) ::UnityEngine::Color _obstaclesColor;
+/// @brief Field _obstaclesColor, offset 0x78, size 0x10 
+ __declspec(property(get=__cordl_internal_get__obstaclesColor, put=__cordl_internal_set__obstaclesColor)) ::UnityEngine::Color  _obstaclesColor;
 
-  /// @brief Field _platformUserId, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__platformUserId, put = __cordl_internal_set__platformUserId)) uint64_t _platformUserId;
+/// @brief Field _platformUserId, offset 0x40, size 0x8 
+ __declspec(property(get=__cordl_internal_get__platformUserId, put=__cordl_internal_set__platformUserId)) uint64_t  _platformUserId;
 
-  /// @brief Field _recodingFile, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__recodingFile, put = __cordl_internal_set__recodingFile)) ::StringW _recodingFile;
+/// @brief Field _recodingFile, offset 0x48, size 0x8 
+ __declspec(property(get=__cordl_internal_get__recodingFile, put=__cordl_internal_set__recodingFile)) ::StringW  _recodingFile;
 
-  /// @brief Field _saberAColor, offset 0x58, size 0x10
-  __declspec(property(get = __cordl_internal_get__saberAColor, put = __cordl_internal_set__saberAColor)) ::UnityEngine::Color _saberAColor;
+/// @brief Field _saberAColor, offset 0x58, size 0x10 
+ __declspec(property(get=__cordl_internal_get__saberAColor, put=__cordl_internal_set__saberAColor)) ::UnityEngine::Color  _saberAColor;
 
-  /// @brief Field _saberBColor, offset 0x68, size 0x10
-  __declspec(property(get = __cordl_internal_get__saberBColor, put = __cordl_internal_set__saberBColor)) ::UnityEngine::Color _saberBColor;
+/// @brief Field _saberBColor, offset 0x68, size 0x10 
+ __declspec(property(get=__cordl_internal_get__saberBColor, put=__cordl_internal_set__saberBColor)) ::UnityEngine::Color  _saberBColor;
 
-  /// @brief Field _sortIndex, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get__sortIndex, put = __cordl_internal_set__sortIndex)) int32_t _sortIndex;
+/// @brief Field _sortIndex, offset 0x20, size 0x4 
+ __declspec(property(get=__cordl_internal_get__sortIndex, put=__cordl_internal_set__sortIndex)) int32_t  _sortIndex;
 
-  /// @brief Field _userId, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__userId, put = __cordl_internal_set__userId)) ::StringW _userId;
+/// @brief Field _userId, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get__userId, put=__cordl_internal_set__userId)) ::StringW  _userId;
 
-  /// @brief Field _userName, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__userName, put = __cordl_internal_set__userName)) ::StringW _userName;
+/// @brief Field _userName, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get__userName, put=__cordl_internal_set__userName)) ::StringW  _userName;
 
-  __declspec(property(get = get_aiCubeHitChance, put = set_aiCubeHitChance)) float_t aiCubeHitChance;
+ __declspec(property(get=get_aiCubeHitChance, put=set_aiCubeHitChance)) float_t  aiCubeHitChance;
 
-  __declspec(property(get = get_autoConnect, put = set_autoConnect)) bool autoConnect;
+ __declspec(property(get=get_autoConnect, put=set_autoConnect)) bool  autoConnect;
 
-  __declspec(property(get = get_avatarType, put = set_avatarType)) ::GlobalNamespace::MockPlayerAvatarType avatarType;
+ __declspec(property(get=get_avatarType, put=set_avatarType)) ::GlobalNamespace::MockPlayerAvatarType  avatarType;
 
-  __declspec(property(get = get_beatmapDifficulty, put = set_beatmapDifficulty)) ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty;
+ __declspec(property(get=get_beatmapDifficulty, put=set_beatmapDifficulty)) ::GlobalNamespace::BeatmapDifficulty  beatmapDifficulty;
 
-  __declspec(property(get = get_beatmapLevelId, put = set_beatmapLevelId)) ::StringW beatmapLevelId;
+ __declspec(property(get=get_beatmapLevelId, put=set_beatmapLevelId)) ::StringW  beatmapLevelId;
 
-  __declspec(property(get = get_inactiveByDefault, put = set_inactiveByDefault)) bool inactiveByDefault;
+ __declspec(property(get=get_inactiveByDefault, put=set_inactiveByDefault)) bool  inactiveByDefault;
 
-  __declspec(property(get = get_latency, put = set_latency)) int64_t latency;
+ __declspec(property(get=get_latency, put=set_latency)) int64_t  latency;
 
-  __declspec(property(get = get_leftHanded, put = set_leftHanded)) bool leftHanded;
+ __declspec(property(get=get_leftHanded, put=set_leftHanded)) bool  leftHanded;
 
-  __declspec(property(get = get_movementType, put = set_movementType)) ::GlobalNamespace::MockPlayerMovementType movementType;
+ __declspec(property(get=get_movementType, put=set_movementType)) ::GlobalNamespace::MockPlayerMovementType  movementType;
 
-  __declspec(property(get = get_obstaclesColor, put = set_obstaclesColor)) ::UnityEngine::Color obstaclesColor;
+ __declspec(property(get=get_obstaclesColor, put=set_obstaclesColor)) ::UnityEngine::Color  obstaclesColor;
 
-  __declspec(property(get = get_platformUserId, put = set_platformUserId)) uint64_t platformUserId;
+ __declspec(property(get=get_platformUserId, put=set_platformUserId)) uint64_t  platformUserId;
 
-  __declspec(property(get = get_recodingFile, put = set_recodingFile)) ::StringW recodingFile;
+ __declspec(property(get=get_recodingFile, put=set_recodingFile)) ::StringW  recodingFile;
 
-  __declspec(property(get = get_saberAColor, put = set_saberAColor)) ::UnityEngine::Color saberAColor;
+ __declspec(property(get=get_saberAColor, put=set_saberAColor)) ::UnityEngine::Color  saberAColor;
 
-  __declspec(property(get = get_saberBColor, put = set_saberBColor)) ::UnityEngine::Color saberBColor;
+ __declspec(property(get=get_saberBColor, put=set_saberBColor)) ::UnityEngine::Color  saberBColor;
 
-  __declspec(property(get = get_sortIndex, put = set_sortIndex)) int32_t sortIndex;
+ __declspec(property(get=get_sortIndex, put=set_sortIndex)) int32_t  sortIndex;
 
-  __declspec(property(get = get_userId, put = set_userId)) ::StringW userId;
+ __declspec(property(get=get_userId, put=set_userId)) ::StringW  userId;
 
-  __declspec(property(get = get_userName, put = set_userName)) ::StringW userName;
+ __declspec(property(get=get_userName, put=set_userName)) ::StringW  userName;
 
-  static inline ::GlobalNamespace::MockPlayerSettings* New_ctor();
+static inline ::GlobalNamespace::MockPlayerSettings* New_ctor() ;
 
-  constexpr float_t const& __cordl_internal_get__aiCubeHitChance() const;
+constexpr float_t const& __cordl_internal_get__aiCubeHitChance() const;
 
-  constexpr float_t& __cordl_internal_get__aiCubeHitChance();
+constexpr float_t& __cordl_internal_get__aiCubeHitChance() ;
 
-  constexpr bool const& __cordl_internal_get__autoConnect() const;
+constexpr bool const& __cordl_internal_get__autoConnect() const;
 
-  constexpr bool& __cordl_internal_get__autoConnect();
+constexpr bool& __cordl_internal_get__autoConnect() ;
 
-  constexpr ::GlobalNamespace::MockPlayerAvatarType const& __cordl_internal_get__avatarType() const;
+constexpr ::GlobalNamespace::MockPlayerAvatarType const& __cordl_internal_get__avatarType() const;
 
-  constexpr ::GlobalNamespace::MockPlayerAvatarType& __cordl_internal_get__avatarType();
+constexpr ::GlobalNamespace::MockPlayerAvatarType& __cordl_internal_get__avatarType() ;
 
-  constexpr ::GlobalNamespace::BeatmapDifficulty const& __cordl_internal_get__beatmapDifficulty() const;
+constexpr ::GlobalNamespace::BeatmapDifficulty const& __cordl_internal_get__beatmapDifficulty() const;
 
-  constexpr ::GlobalNamespace::BeatmapDifficulty& __cordl_internal_get__beatmapDifficulty();
+constexpr ::GlobalNamespace::BeatmapDifficulty& __cordl_internal_get__beatmapDifficulty() ;
 
-  constexpr ::StringW const& __cordl_internal_get__beatmapLevelId() const;
+constexpr ::StringW const& __cordl_internal_get__beatmapLevelId() const;
 
-  constexpr ::StringW& __cordl_internal_get__beatmapLevelId();
+constexpr ::StringW& __cordl_internal_get__beatmapLevelId() ;
 
-  constexpr bool const& __cordl_internal_get__inactiveByDefault() const;
+constexpr bool const& __cordl_internal_get__inactiveByDefault() const;
 
-  constexpr bool& __cordl_internal_get__inactiveByDefault();
+constexpr bool& __cordl_internal_get__inactiveByDefault() ;
 
-  constexpr int64_t const& __cordl_internal_get__latency() const;
+constexpr int64_t const& __cordl_internal_get__latency() const;
 
-  constexpr int64_t& __cordl_internal_get__latency();
+constexpr int64_t& __cordl_internal_get__latency() ;
 
-  constexpr bool const& __cordl_internal_get__leftHanded() const;
+constexpr bool const& __cordl_internal_get__leftHanded() const;
 
-  constexpr bool& __cordl_internal_get__leftHanded();
+constexpr bool& __cordl_internal_get__leftHanded() ;
 
-  constexpr ::GlobalNamespace::MockPlayerMovementType const& __cordl_internal_get__movementType() const;
+constexpr ::GlobalNamespace::MockPlayerMovementType const& __cordl_internal_get__movementType() const;
 
-  constexpr ::GlobalNamespace::MockPlayerMovementType& __cordl_internal_get__movementType();
+constexpr ::GlobalNamespace::MockPlayerMovementType& __cordl_internal_get__movementType() ;
 
-  constexpr ::UnityEngine::Color const& __cordl_internal_get__obstaclesColor() const;
+constexpr ::UnityEngine::Color const& __cordl_internal_get__obstaclesColor() const;
 
-  constexpr ::UnityEngine::Color& __cordl_internal_get__obstaclesColor();
+constexpr ::UnityEngine::Color& __cordl_internal_get__obstaclesColor() ;
 
-  constexpr uint64_t const& __cordl_internal_get__platformUserId() const;
+constexpr uint64_t const& __cordl_internal_get__platformUserId() const;
 
-  constexpr uint64_t& __cordl_internal_get__platformUserId();
+constexpr uint64_t& __cordl_internal_get__platformUserId() ;
 
-  constexpr ::StringW const& __cordl_internal_get__recodingFile() const;
+constexpr ::StringW const& __cordl_internal_get__recodingFile() const;
 
-  constexpr ::StringW& __cordl_internal_get__recodingFile();
+constexpr ::StringW& __cordl_internal_get__recodingFile() ;
 
-  constexpr ::UnityEngine::Color const& __cordl_internal_get__saberAColor() const;
+constexpr ::UnityEngine::Color const& __cordl_internal_get__saberAColor() const;
 
-  constexpr ::UnityEngine::Color& __cordl_internal_get__saberAColor();
+constexpr ::UnityEngine::Color& __cordl_internal_get__saberAColor() ;
 
-  constexpr ::UnityEngine::Color const& __cordl_internal_get__saberBColor() const;
+constexpr ::UnityEngine::Color const& __cordl_internal_get__saberBColor() const;
 
-  constexpr ::UnityEngine::Color& __cordl_internal_get__saberBColor();
+constexpr ::UnityEngine::Color& __cordl_internal_get__saberBColor() ;
 
-  constexpr int32_t const& __cordl_internal_get__sortIndex() const;
+constexpr int32_t const& __cordl_internal_get__sortIndex() const;
 
-  constexpr int32_t& __cordl_internal_get__sortIndex();
+constexpr int32_t& __cordl_internal_get__sortIndex() ;
 
-  constexpr ::StringW const& __cordl_internal_get__userId() const;
+constexpr ::StringW const& __cordl_internal_get__userId() const;
 
-  constexpr ::StringW& __cordl_internal_get__userId();
+constexpr ::StringW& __cordl_internal_get__userId() ;
 
-  constexpr ::StringW const& __cordl_internal_get__userName() const;
+constexpr ::StringW const& __cordl_internal_get__userName() const;
 
-  constexpr ::StringW& __cordl_internal_get__userName();
+constexpr ::StringW& __cordl_internal_get__userName() ;
 
-  constexpr void __cordl_internal_set__aiCubeHitChance(float_t value);
+constexpr void __cordl_internal_set__aiCubeHitChance(float_t  value) ;
 
-  constexpr void __cordl_internal_set__autoConnect(bool value);
+constexpr void __cordl_internal_set__autoConnect(bool  value) ;
 
-  constexpr void __cordl_internal_set__avatarType(::GlobalNamespace::MockPlayerAvatarType value);
+constexpr void __cordl_internal_set__avatarType(::GlobalNamespace::MockPlayerAvatarType  value) ;
 
-  constexpr void __cordl_internal_set__beatmapDifficulty(::GlobalNamespace::BeatmapDifficulty value);
+constexpr void __cordl_internal_set__beatmapDifficulty(::GlobalNamespace::BeatmapDifficulty  value) ;
 
-  constexpr void __cordl_internal_set__beatmapLevelId(::StringW value);
+constexpr void __cordl_internal_set__beatmapLevelId(::StringW  value) ;
 
-  constexpr void __cordl_internal_set__inactiveByDefault(bool value);
+constexpr void __cordl_internal_set__inactiveByDefault(bool  value) ;
 
-  constexpr void __cordl_internal_set__latency(int64_t value);
+constexpr void __cordl_internal_set__latency(int64_t  value) ;
 
-  constexpr void __cordl_internal_set__leftHanded(bool value);
+constexpr void __cordl_internal_set__leftHanded(bool  value) ;
 
-  constexpr void __cordl_internal_set__movementType(::GlobalNamespace::MockPlayerMovementType value);
+constexpr void __cordl_internal_set__movementType(::GlobalNamespace::MockPlayerMovementType  value) ;
 
-  constexpr void __cordl_internal_set__obstaclesColor(::UnityEngine::Color value);
+constexpr void __cordl_internal_set__obstaclesColor(::UnityEngine::Color  value) ;
 
-  constexpr void __cordl_internal_set__platformUserId(uint64_t value);
+constexpr void __cordl_internal_set__platformUserId(uint64_t  value) ;
 
-  constexpr void __cordl_internal_set__recodingFile(::StringW value);
+constexpr void __cordl_internal_set__recodingFile(::StringW  value) ;
 
-  constexpr void __cordl_internal_set__saberAColor(::UnityEngine::Color value);
+constexpr void __cordl_internal_set__saberAColor(::UnityEngine::Color  value) ;
 
-  constexpr void __cordl_internal_set__saberBColor(::UnityEngine::Color value);
+constexpr void __cordl_internal_set__saberBColor(::UnityEngine::Color  value) ;
 
-  constexpr void __cordl_internal_set__sortIndex(int32_t value);
+constexpr void __cordl_internal_set__sortIndex(int32_t  value) ;
 
-  constexpr void __cordl_internal_set__userId(::StringW value);
+constexpr void __cordl_internal_set__userId(::StringW  value) ;
 
-  constexpr void __cordl_internal_set__userName(::StringW value);
+constexpr void __cordl_internal_set__userName(::StringW  value) ;
 
-  /// @brief Method .ctor, addr 0x58967a0, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5898170, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_aiCubeHitChance, addr 0x5896718, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_aiCubeHitChance();
+/// @brief Method get_aiCubeHitChance, addr 0x58980e8, size 0x8, virtual false, abstract: false, final false
+inline float_t get_aiCubeHitChance() ;
 
-  /// @brief Method get_autoConnect, addr 0x58966b8, size 0x8, virtual false, abstract: false, final false
-  inline bool get_autoConnect();
+/// @brief Method get_autoConnect, addr 0x5898088, size 0x8, virtual false, abstract: false, final false
+inline bool get_autoConnect() ;
 
-  /// @brief Method get_avatarType, addr 0x58966e8, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::MockPlayerAvatarType get_avatarType();
+/// @brief Method get_avatarType, addr 0x58980b8, size 0x8, virtual false, abstract: false, final false
+inline ::GlobalNamespace::MockPlayerAvatarType get_avatarType() ;
 
-  /// @brief Method get_beatmapDifficulty, addr 0x5896780, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::BeatmapDifficulty get_beatmapDifficulty();
+/// @brief Method get_beatmapDifficulty, addr 0x5898150, size 0x8, virtual false, abstract: false, final false
+inline ::GlobalNamespace::BeatmapDifficulty get_beatmapDifficulty() ;
 
-  /// @brief Method get_beatmapLevelId, addr 0x5896790, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_beatmapLevelId();
+/// @brief Method get_beatmapLevelId, addr 0x5898160, size 0x8, virtual false, abstract: false, final false
+inline ::StringW get_beatmapLevelId() ;
 
-  /// @brief Method get_inactiveByDefault, addr 0x58966c8, size 0x8, virtual false, abstract: false, final false
-  inline bool get_inactiveByDefault();
+/// @brief Method get_inactiveByDefault, addr 0x5898098, size 0x8, virtual false, abstract: false, final false
+inline bool get_inactiveByDefault() ;
 
-  /// @brief Method get_latency, addr 0x58966a8, size 0x8, virtual false, abstract: false, final false
-  inline int64_t get_latency();
+/// @brief Method get_latency, addr 0x5898078, size 0x8, virtual false, abstract: false, final false
+inline int64_t get_latency() ;
 
-  /// @brief Method get_leftHanded, addr 0x5896728, size 0x8, virtual false, abstract: false, final false
-  inline bool get_leftHanded();
+/// @brief Method get_leftHanded, addr 0x58980f8, size 0x8, virtual false, abstract: false, final false
+inline bool get_leftHanded() ;
 
-  /// @brief Method get_movementType, addr 0x58966d8, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::MockPlayerMovementType get_movementType();
+/// @brief Method get_movementType, addr 0x58980a8, size 0x8, virtual false, abstract: false, final false
+inline ::GlobalNamespace::MockPlayerMovementType get_movementType() ;
 
-  /// @brief Method get_obstaclesColor, addr 0x5896768, size 0xc, virtual false, abstract: false, final false
-  inline ::UnityEngine::Color get_obstaclesColor();
+/// @brief Method get_obstaclesColor, addr 0x5898138, size 0xc, virtual false, abstract: false, final false
+inline ::UnityEngine::Color get_obstaclesColor() ;
 
-  /// @brief Method get_platformUserId, addr 0x58966f8, size 0x8, virtual false, abstract: false, final false
-  inline uint64_t get_platformUserId();
+/// @brief Method get_platformUserId, addr 0x58980c8, size 0x8, virtual false, abstract: false, final false
+inline uint64_t get_platformUserId() ;
 
-  /// @brief Method get_recodingFile, addr 0x5896708, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_recodingFile();
+/// @brief Method get_recodingFile, addr 0x58980d8, size 0x8, virtual false, abstract: false, final false
+inline ::StringW get_recodingFile() ;
 
-  /// @brief Method get_saberAColor, addr 0x5896738, size 0xc, virtual false, abstract: false, final false
-  inline ::UnityEngine::Color get_saberAColor();
+/// @brief Method get_saberAColor, addr 0x5898108, size 0xc, virtual false, abstract: false, final false
+inline ::UnityEngine::Color get_saberAColor() ;
 
-  /// @brief Method get_saberBColor, addr 0x5896750, size 0xc, virtual false, abstract: false, final false
-  inline ::UnityEngine::Color get_saberBColor();
+/// @brief Method get_saberBColor, addr 0x5898120, size 0xc, virtual false, abstract: false, final false
+inline ::UnityEngine::Color get_saberBColor() ;
 
-  /// @brief Method get_sortIndex, addr 0x5896698, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_sortIndex();
+/// @brief Method get_sortIndex, addr 0x5898068, size 0x8, virtual false, abstract: false, final false
+inline int32_t get_sortIndex() ;
 
-  /// @brief Method get_userId, addr 0x5896688, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_userId();
+/// @brief Method get_userId, addr 0x5898058, size 0x8, virtual false, abstract: false, final false
+inline ::StringW get_userId() ;
 
-  /// @brief Method get_userName, addr 0x5896678, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_userName();
+/// @brief Method get_userName, addr 0x5898048, size 0x8, virtual false, abstract: false, final false
+inline ::StringW get_userName() ;
 
-  /// @brief Method set_aiCubeHitChance, addr 0x5896720, size 0x8, virtual false, abstract: false, final false
-  inline void set_aiCubeHitChance(float_t value);
+/// @brief Method set_aiCubeHitChance, addr 0x58980f0, size 0x8, virtual false, abstract: false, final false
+inline void set_aiCubeHitChance(float_t  value) ;
 
-  /// @brief Method set_autoConnect, addr 0x58966c0, size 0x8, virtual false, abstract: false, final false
-  inline void set_autoConnect(bool value);
+/// @brief Method set_autoConnect, addr 0x5898090, size 0x8, virtual false, abstract: false, final false
+inline void set_autoConnect(bool  value) ;
 
-  /// @brief Method set_avatarType, addr 0x58966f0, size 0x8, virtual false, abstract: false, final false
-  inline void set_avatarType(::GlobalNamespace::MockPlayerAvatarType value);
+/// @brief Method set_avatarType, addr 0x58980c0, size 0x8, virtual false, abstract: false, final false
+inline void set_avatarType(::GlobalNamespace::MockPlayerAvatarType  value) ;
 
-  /// @brief Method set_beatmapDifficulty, addr 0x5896788, size 0x8, virtual false, abstract: false, final false
-  inline void set_beatmapDifficulty(::GlobalNamespace::BeatmapDifficulty value);
+/// @brief Method set_beatmapDifficulty, addr 0x5898158, size 0x8, virtual false, abstract: false, final false
+inline void set_beatmapDifficulty(::GlobalNamespace::BeatmapDifficulty  value) ;
 
-  /// @brief Method set_beatmapLevelId, addr 0x5896798, size 0x8, virtual false, abstract: false, final false
-  inline void set_beatmapLevelId(::StringW value);
+/// @brief Method set_beatmapLevelId, addr 0x5898168, size 0x8, virtual false, abstract: false, final false
+inline void set_beatmapLevelId(::StringW  value) ;
 
-  /// @brief Method set_inactiveByDefault, addr 0x58966d0, size 0x8, virtual false, abstract: false, final false
-  inline void set_inactiveByDefault(bool value);
+/// @brief Method set_inactiveByDefault, addr 0x58980a0, size 0x8, virtual false, abstract: false, final false
+inline void set_inactiveByDefault(bool  value) ;
 
-  /// @brief Method set_latency, addr 0x58966b0, size 0x8, virtual false, abstract: false, final false
-  inline void set_latency(int64_t value);
+/// @brief Method set_latency, addr 0x5898080, size 0x8, virtual false, abstract: false, final false
+inline void set_latency(int64_t  value) ;
 
-  /// @brief Method set_leftHanded, addr 0x5896730, size 0x8, virtual false, abstract: false, final false
-  inline void set_leftHanded(bool value);
+/// @brief Method set_leftHanded, addr 0x5898100, size 0x8, virtual false, abstract: false, final false
+inline void set_leftHanded(bool  value) ;
 
-  /// @brief Method set_movementType, addr 0x58966e0, size 0x8, virtual false, abstract: false, final false
-  inline void set_movementType(::GlobalNamespace::MockPlayerMovementType value);
+/// @brief Method set_movementType, addr 0x58980b0, size 0x8, virtual false, abstract: false, final false
+inline void set_movementType(::GlobalNamespace::MockPlayerMovementType  value) ;
 
-  /// @brief Method set_obstaclesColor, addr 0x5896774, size 0xc, virtual false, abstract: false, final false
-  inline void set_obstaclesColor(::UnityEngine::Color value);
+/// @brief Method set_obstaclesColor, addr 0x5898144, size 0xc, virtual false, abstract: false, final false
+inline void set_obstaclesColor(::UnityEngine::Color  value) ;
 
-  /// @brief Method set_platformUserId, addr 0x5896700, size 0x8, virtual false, abstract: false, final false
-  inline void set_platformUserId(uint64_t value);
+/// @brief Method set_platformUserId, addr 0x58980d0, size 0x8, virtual false, abstract: false, final false
+inline void set_platformUserId(uint64_t  value) ;
 
-  /// @brief Method set_recodingFile, addr 0x5896710, size 0x8, virtual false, abstract: false, final false
-  inline void set_recodingFile(::StringW value);
+/// @brief Method set_recodingFile, addr 0x58980e0, size 0x8, virtual false, abstract: false, final false
+inline void set_recodingFile(::StringW  value) ;
 
-  /// @brief Method set_saberAColor, addr 0x5896744, size 0xc, virtual false, abstract: false, final false
-  inline void set_saberAColor(::UnityEngine::Color value);
+/// @brief Method set_saberAColor, addr 0x5898114, size 0xc, virtual false, abstract: false, final false
+inline void set_saberAColor(::UnityEngine::Color  value) ;
 
-  /// @brief Method set_saberBColor, addr 0x589675c, size 0xc, virtual false, abstract: false, final false
-  inline void set_saberBColor(::UnityEngine::Color value);
+/// @brief Method set_saberBColor, addr 0x589812c, size 0xc, virtual false, abstract: false, final false
+inline void set_saberBColor(::UnityEngine::Color  value) ;
 
-  /// @brief Method set_sortIndex, addr 0x58966a0, size 0x8, virtual false, abstract: false, final false
-  inline void set_sortIndex(int32_t value);
+/// @brief Method set_sortIndex, addr 0x5898070, size 0x8, virtual false, abstract: false, final false
+inline void set_sortIndex(int32_t  value) ;
 
-  /// @brief Method set_userId, addr 0x5896690, size 0x8, virtual false, abstract: false, final false
-  inline void set_userId(::StringW value);
+/// @brief Method set_userId, addr 0x5898060, size 0x8, virtual false, abstract: false, final false
+inline void set_userId(::StringW  value) ;
 
-  /// @brief Method set_userName, addr 0x5896680, size 0x8, virtual false, abstract: false, final false
-  inline void set_userName(::StringW value);
+/// @brief Method set_userName, addr 0x5898050, size 0x8, virtual false, abstract: false, final false
+inline void set_userName(::StringW  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MockPlayerSettings();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr MockPlayerSettings() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MockPlayerSettings", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  MockPlayerSettings(MockPlayerSettings&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MockPlayerSettings", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  MockPlayerSettings(MockPlayerSettings const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "MockPlayerSettings", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+MockPlayerSettings(MockPlayerSettings && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6129 };
+// Ctor Parameters [CppParam { name: "", ty: "MockPlayerSettings", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+MockPlayerSettings(MockPlayerSettings const& ) = delete;
 
-  /// @brief Field _userName, offset: 0x10, size: 0x8, def value: None
-  ::StringW ____userName;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6129};
 
-  /// @brief Field _userId, offset: 0x18, size: 0x8, def value: None
-  ::StringW ____userId;
+/// @brief Field _userName, offset: 0x10, size: 0x8, def value: None
+ ::StringW  ____userName;
 
-  /// @brief Field _sortIndex, offset: 0x20, size: 0x4, def value: None
-  int32_t ____sortIndex;
+/// @brief Field _userId, offset: 0x18, size: 0x8, def value: None
+ ::StringW  ____userId;
 
-  /// @brief Field _latency, offset: 0x28, size: 0x8, def value: None
-  int64_t ____latency;
+/// @brief Field _sortIndex, offset: 0x20, size: 0x4, def value: None
+ int32_t  ____sortIndex;
 
-  /// @brief Field _autoConnect, offset: 0x30, size: 0x1, def value: None
-  bool ____autoConnect;
+/// @brief Field _latency, offset: 0x28, size: 0x8, def value: None
+ int64_t  ____latency;
 
-  /// @brief Field _inactiveByDefault, offset: 0x31, size: 0x1, def value: None
-  bool ____inactiveByDefault;
+/// @brief Field _autoConnect, offset: 0x30, size: 0x1, def value: None
+ bool  ____autoConnect;
 
-  /// @brief Field _movementType, offset: 0x34, size: 0x4, def value: None
-  ::GlobalNamespace::MockPlayerMovementType ____movementType;
+/// @brief Field _inactiveByDefault, offset: 0x31, size: 0x1, def value: None
+ bool  ____inactiveByDefault;
 
-  /// @brief Field _avatarType, offset: 0x38, size: 0x4, def value: None
-  ::GlobalNamespace::MockPlayerAvatarType ____avatarType;
+/// @brief Field _movementType, offset: 0x34, size: 0x4, def value: None
+ ::GlobalNamespace::MockPlayerMovementType  ____movementType;
 
-  /// @brief Field _platformUserId, offset: 0x40, size: 0x8, def value: None
-  uint64_t ____platformUserId;
+/// @brief Field _avatarType, offset: 0x38, size: 0x4, def value: None
+ ::GlobalNamespace::MockPlayerAvatarType  ____avatarType;
 
-  /// @brief Field _recodingFile, offset: 0x48, size: 0x8, def value: None
-  ::StringW ____recodingFile;
+/// @brief Field _platformUserId, offset: 0x40, size: 0x8, def value: None
+ uint64_t  ____platformUserId;
 
-  /// @brief Field _aiCubeHitChance, offset: 0x50, size: 0x4, def value: None
-  float_t ____aiCubeHitChance;
+/// @brief Field _recodingFile, offset: 0x48, size: 0x8, def value: None
+ ::StringW  ____recodingFile;
 
-  /// @brief Field _leftHanded, offset: 0x54, size: 0x1, def value: None
-  bool ____leftHanded;
+/// @brief Field _aiCubeHitChance, offset: 0x50, size: 0x4, def value: None
+ float_t  ____aiCubeHitChance;
 
-  /// @brief Field _saberAColor, offset: 0x58, size: 0x10, def value: None
-  ::UnityEngine::Color ____saberAColor;
+/// @brief Field _leftHanded, offset: 0x54, size: 0x1, def value: None
+ bool  ____leftHanded;
 
-  /// @brief Field _saberBColor, offset: 0x68, size: 0x10, def value: None
-  ::UnityEngine::Color ____saberBColor;
+/// @brief Field _saberAColor, offset: 0x58, size: 0x10, def value: None
+ ::UnityEngine::Color  ____saberAColor;
 
-  /// @brief Field _obstaclesColor, offset: 0x78, size: 0x10, def value: None
-  ::UnityEngine::Color ____obstaclesColor;
+/// @brief Field _saberBColor, offset: 0x68, size: 0x10, def value: None
+ ::UnityEngine::Color  ____saberBColor;
 
-  /// @brief Field _beatmapDifficulty, offset: 0x88, size: 0x4, def value: None
-  ::GlobalNamespace::BeatmapDifficulty ____beatmapDifficulty;
+/// @brief Field _obstaclesColor, offset: 0x78, size: 0x10, def value: None
+ ::UnityEngine::Color  ____obstaclesColor;
 
-  /// @brief Field _beatmapLevelId, offset: 0x90, size: 0x8, def value: None
-  ::StringW ____beatmapLevelId;
+/// @brief Field _beatmapDifficulty, offset: 0x88, size: 0x4, def value: None
+ ::GlobalNamespace::BeatmapDifficulty  ____beatmapDifficulty;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _beatmapLevelId, offset: 0x90, size: 0x8, def value: None
+ ::StringW  ____beatmapLevelId;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::MockPlayerSettings, ____userName) == 0x10, "Offset mismatch!");
@@ -438,6 +438,6 @@ static_assert(offsetof(::GlobalNamespace::MockPlayerSettings, ____beatmapLevelId
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MockPlayerSettings, 0x98>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MockPlayerSettings);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MockPlayerSettings*, "", "MockPlayerSettings");

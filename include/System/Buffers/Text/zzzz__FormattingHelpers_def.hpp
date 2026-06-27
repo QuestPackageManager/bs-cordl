@@ -18,38 +18,38 @@ namespace System::Buffers::Text {
 // CS Name: System.Buffers.Text.FormattingHelpers
 class CORDL_TYPE FormattingHelpers : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method CountDigits, addr 0x5ab65f8, size 0x68, virtual false, abstract: false, final false
-  static inline int32_t CountDigits(uint32_t value);
+// Declarations
+/// @brief Method CountDigits, addr 0x5ab8170, size 0x68, virtual false, abstract: false, final false
+static inline int32_t CountDigits(uint32_t  value) ;
 
-  /// @brief Method CountDigits, addr 0x5ab651c, size 0xdc, virtual false, abstract: false, final false
-  static inline int32_t CountDigits(uint64_t value);
+/// @brief Method CountDigits, addr 0x5ab8094, size 0xdc, virtual false, abstract: false, final false
+static inline int32_t CountDigits(uint64_t  value) ;
 
-  /// @brief Method CountHexDigits, addr 0x5ab6660, size 0x48, virtual false, abstract: false, final false
-  static inline int32_t CountHexDigits(uint64_t value);
+/// @brief Method CountHexDigits, addr 0x5ab81d8, size 0x48, virtual false, abstract: false, final false
+static inline int32_t CountHexDigits(uint64_t  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr FormattingHelpers();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr FormattingHelpers() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FormattingHelpers", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  FormattingHelpers(FormattingHelpers&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FormattingHelpers", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  FormattingHelpers(FormattingHelpers const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "FormattingHelpers", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+FormattingHelpers(FormattingHelpers && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3836 };
+// Ctor Parameters [CppParam { name: "", ty: "FormattingHelpers", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+FormattingHelpers(FormattingHelpers const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{3836};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Buffers::Text::FormattingHelpers, 0x10>, "Size mismatch!");
 
-} // namespace System::Buffers::Text
+} // namespace end def System::Buffers::Text
 NEED_NO_BOX(::System::Buffers::Text::FormattingHelpers);
 DEFINE_IL2CPP_ARG_TYPE(::System::Buffers::Text::FormattingHelpers*, "System.Buffers.Text", "FormattingHelpers");

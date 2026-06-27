@@ -40,99 +40,96 @@ namespace System::Net {
 // CS Name: System.Net.TlsStream
 class CORDL_TYPE TlsStream : public ::System::Net::Sockets::NetworkStream {
 public:
-  // Declarations
-  /// @brief Field _clientCertificates, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get__clientCertificates,
-                      put = __cordl_internal_set__clientCertificates)) ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* _clientCertificates;
+// Declarations
+/// @brief Field _clientCertificates, offset 0x58, size 0x8 
+ __declspec(property(get=__cordl_internal_get__clientCertificates, put=__cordl_internal_set__clientCertificates)) ::System::Security::Cryptography::X509Certificates::X509CertificateCollection*  _clientCertificates;
 
-  /// @brief Field _host, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get__host, put = __cordl_internal_set__host)) ::StringW _host;
+/// @brief Field _host, offset 0x50, size 0x8 
+ __declspec(property(get=__cordl_internal_get__host, put=__cordl_internal_set__host)) ::StringW  _host;
 
-  /// @brief Field _sslStream, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__sslStream, put = __cordl_internal_set__sslStream)) ::System::Net::Security::SslStream* _sslStream;
+/// @brief Field _sslStream, offset 0x48, size 0x8 
+ __declspec(property(get=__cordl_internal_get__sslStream, put=__cordl_internal_set__sslStream)) ::System::Net::Security::SslStream*  _sslStream;
 
-  /// @brief Method AuthenticateAsClient, addr 0x62b6534, size 0x124, virtual false, abstract: false, final false
-  inline void AuthenticateAsClient();
+/// @brief Method AuthenticateAsClient, addr 0x62b80ac, size 0x124, virtual false, abstract: false, final false
+inline void AuthenticateAsClient() ;
 
-  /// @brief Method BeginAuthenticateAsClient, addr 0x62b6658, size 0x13c, virtual false, abstract: false, final false
-  inline ::System::IAsyncResult* BeginAuthenticateAsClient(::System::AsyncCallback* asyncCallback, ::System::Object* state);
+/// @brief Method BeginAuthenticateAsClient, addr 0x62b81d0, size 0x13c, virtual false, abstract: false, final false
+inline ::System::IAsyncResult* BeginAuthenticateAsClient(::System::AsyncCallback*  asyncCallback, ::System::Object*  state) ;
 
-  /// @brief Method BeginRead, addr 0x62b6834, size 0x20, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginRead(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::AsyncCallback* callback, ::System::Object* state);
+/// @brief Method BeginRead, addr 0x62b83ac, size 0x20, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginRead(::ArrayW<uint8_t,::Array<uint8_t>*>  buffer, int32_t  offset, int32_t  count, ::System::AsyncCallback*  callback, ::System::Object*  state) ;
 
-  /// @brief Method BeginWrite, addr 0x62b67b4, size 0x20, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginWrite(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size, ::System::AsyncCallback* callback, ::System::Object* state);
+/// @brief Method BeginWrite, addr 0x62b832c, size 0x20, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginWrite(::ArrayW<uint8_t,::Array<uint8_t>*>  buffer, int32_t  offset, int32_t  size, ::System::AsyncCallback*  callback, ::System::Object*  state) ;
 
-  /// @brief Method Close, addr 0x62b6874, size 0x34, virtual true, abstract: false, final false
-  inline void Close();
+/// @brief Method Close, addr 0x62b83ec, size 0x34, virtual true, abstract: false, final false
+inline void Close() ;
 
-  /// @brief Method EndAuthenticateAsClient, addr 0x62b6794, size 0x20, virtual false, abstract: false, final false
-  inline void EndAuthenticateAsClient(::System::IAsyncResult* asyncResult);
+/// @brief Method EndAuthenticateAsClient, addr 0x62b830c, size 0x20, virtual false, abstract: false, final false
+inline void EndAuthenticateAsClient(::System::IAsyncResult*  asyncResult) ;
 
-  /// @brief Method EndRead, addr 0x62b6854, size 0x20, virtual true, abstract: false, final false
-  inline int32_t EndRead(::System::IAsyncResult* asyncResult);
+/// @brief Method EndRead, addr 0x62b83cc, size 0x20, virtual true, abstract: false, final false
+inline int32_t EndRead(::System::IAsyncResult*  asyncResult) ;
 
-  /// @brief Method EndWrite, addr 0x62b67d4, size 0x20, virtual true, abstract: false, final false
-  inline void EndWrite(::System::IAsyncResult* result);
+/// @brief Method EndWrite, addr 0x62b834c, size 0x20, virtual true, abstract: false, final false
+inline void EndWrite(::System::IAsyncResult*  result) ;
 
-  static inline ::System::Net::TlsStream* New_ctor(::System::Net::Sockets::NetworkStream* stream, ::System::Net::Sockets::Socket* socket, ::StringW host,
-                                                   ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* clientCertificates);
+static inline ::System::Net::TlsStream* New_ctor(::System::Net::Sockets::NetworkStream*  stream, ::System::Net::Sockets::Socket*  socket, ::StringW  host, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection*  clientCertificates) ;
 
-  /// @brief Method Read, addr 0x62b6814, size 0x20, virtual true, abstract: false, final false
-  inline int32_t Read(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size);
+/// @brief Method Read, addr 0x62b838c, size 0x20, virtual true, abstract: false, final false
+inline int32_t Read(::ArrayW<uint8_t,::Array<uint8_t>*>  buffer, int32_t  offset, int32_t  size) ;
 
-  /// @brief Method Write, addr 0x62b67f4, size 0x20, virtual true, abstract: false, final false
-  inline void Write(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size);
+/// @brief Method Write, addr 0x62b836c, size 0x20, virtual true, abstract: false, final false
+inline void Write(::ArrayW<uint8_t,::Array<uint8_t>*>  buffer, int32_t  offset, int32_t  size) ;
 
-  constexpr ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* const& __cordl_internal_get__clientCertificates() const;
+constexpr ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* const& __cordl_internal_get__clientCertificates() const;
 
-  constexpr ::System::Security::Cryptography::X509Certificates::X509CertificateCollection*& __cordl_internal_get__clientCertificates();
+constexpr ::System::Security::Cryptography::X509Certificates::X509CertificateCollection*& __cordl_internal_get__clientCertificates() ;
 
-  constexpr ::StringW const& __cordl_internal_get__host() const;
+constexpr ::StringW const& __cordl_internal_get__host() const;
 
-  constexpr ::StringW& __cordl_internal_get__host();
+constexpr ::StringW& __cordl_internal_get__host() ;
 
-  constexpr ::System::Net::Security::SslStream* const& __cordl_internal_get__sslStream() const;
+constexpr ::System::Net::Security::SslStream* const& __cordl_internal_get__sslStream() const;
 
-  constexpr ::System::Net::Security::SslStream*& __cordl_internal_get__sslStream();
+constexpr ::System::Net::Security::SslStream*& __cordl_internal_get__sslStream() ;
 
-  constexpr void __cordl_internal_set__clientCertificates(::System::Security::Cryptography::X509Certificates::X509CertificateCollection* value);
+constexpr void __cordl_internal_set__clientCertificates(::System::Security::Cryptography::X509Certificates::X509CertificateCollection*  value) ;
 
-  constexpr void __cordl_internal_set__host(::StringW value);
+constexpr void __cordl_internal_set__host(::StringW  value) ;
 
-  constexpr void __cordl_internal_set__sslStream(::System::Net::Security::SslStream* value);
+constexpr void __cordl_internal_set__sslStream(::System::Net::Security::SslStream*  value) ;
 
-  /// @brief Method .ctor, addr 0x62b645c, size 0xd8, virtual false, abstract: false, final false
-  inline void _ctor(::System::Net::Sockets::NetworkStream* stream, ::System::Net::Sockets::Socket* socket, ::StringW host,
-                    ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* clientCertificates);
+/// @brief Method .ctor, addr 0x62b7fd4, size 0xd8, virtual false, abstract: false, final false
+inline void _ctor(::System::Net::Sockets::NetworkStream*  stream, ::System::Net::Sockets::Socket*  socket, ::StringW  host, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection*  clientCertificates) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TlsStream();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr TlsStream() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TlsStream", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  TlsStream(TlsStream&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TlsStream", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  TlsStream(TlsStream const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "TlsStream", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+TlsStream(TlsStream && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11436 };
+// Ctor Parameters [CppParam { name: "", ty: "TlsStream", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+TlsStream(TlsStream const& ) = delete;
 
-  /// @brief Field _sslStream, offset: 0x48, size: 0x8, def value: None
-  ::System::Net::Security::SslStream* ____sslStream;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11437};
 
-  /// @brief Field _host, offset: 0x50, size: 0x8, def value: None
-  ::StringW ____host;
+/// @brief Field _sslStream, offset: 0x48, size: 0x8, def value: None
+ ::System::Net::Security::SslStream*  ____sslStream;
 
-  /// @brief Field _clientCertificates, offset: 0x58, size: 0x8, def value: None
-  ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* ____clientCertificates;
+/// @brief Field _host, offset: 0x50, size: 0x8, def value: None
+ ::StringW  ____host;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _clientCertificates, offset: 0x58, size: 0x8, def value: None
+ ::System::Security::Cryptography::X509Certificates::X509CertificateCollection*  ____clientCertificates;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Net::TlsStream, ____sslStream) == 0x48, "Offset mismatch!");
@@ -143,6 +140,6 @@ static_assert(offsetof(::System::Net::TlsStream, ____clientCertificates) == 0x58
 
 static_assert(::cordl_internals::size_check_v<::System::Net::TlsStream, 0x60>, "Size mismatch!");
 
-} // namespace System::Net
+} // namespace end def System::Net
 NEED_NO_BOX(::System::Net::TlsStream);
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::TlsStream*, "System.Net", "TlsStream");

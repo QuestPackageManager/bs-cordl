@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "System/Net/Configuration/BypassElement.hpp"
 #include "System/Net/Configuration/BypassElementCollection.hpp"
@@ -26,5 +26,6 @@ module;
 #include "System/Net/Configuration/WebRequestModuleElementCollection.hpp"
 #include "System/Net/Configuration/WebRequestModulesSection.hpp"
 #ifdef __cpp_modules
-export module Configuration;
-#endif
+                    export module Configuration;
+                    #endif
+                

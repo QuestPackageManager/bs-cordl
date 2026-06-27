@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "System/Security/Cryptography/Aes.hpp"
 #include "System/Security/Cryptography/AesCryptoServiceProvider.hpp"
@@ -90,5 +90,6 @@ module;
 #include "System/Security/Cryptography/TripleDESTransform.hpp"
 #include "System/Security/Cryptography/Utils.hpp"
 #ifdef __cpp_modules
-export module Cryptography;
-#endif
+                    export module Cryptography;
+                    #endif
+                

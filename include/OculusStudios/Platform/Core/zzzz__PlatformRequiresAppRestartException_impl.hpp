@@ -4,79 +4,92 @@
 #include "OculusStudios/Platform/Core/zzzz__PlatformRequiresAppRestartException_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
 //  Writing Method size for method: ::OculusStudios::Platform::Core::PlatformRequiresAppRestartException._ctor
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OculusStudios::Platform::Core::PlatformRequiresAppRestartException::*)()>(
-    &::OculusStudios::Platform::Core::PlatformRequiresAppRestartException::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OculusStudios::Platform::Core::PlatformRequiresAppRestartException::*)()>(&::OculusStudios::Platform::Core::PlatformRequiresAppRestartException::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x5df2848;
+  constexpr static std::size_t addrs = 0x5df43c0;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OculusStudios::Platform::Core::PlatformRequiresAppRestartException*>::get(), ".ctor",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::OculusStudios::Platform::Core::PlatformRequiresAppRestartException._ctor
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OculusStudios::Platform::Core::PlatformRequiresAppRestartException::*)(::StringW)>(
-    &::OculusStudios::Platform::Core::PlatformRequiresAppRestartException::_ctor)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5df28a0;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OculusStudios::Platform::Core::PlatformRequiresAppRestartException*>::get(), ".ctor",
-                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::OculusStudios::Platform::Core::PlatformRequiresAppRestartException._ctor
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OculusStudios::Platform::Core::PlatformRequiresAppRestartException::*)(::StringW, ::System::Exception*)>(
-    &::OculusStudios::Platform::Core::PlatformRequiresAppRestartException::_ctor)> {
-  constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x5df290c;
-
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OculusStudios::Platform::Core::PlatformRequiresAppRestartException*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Exception*>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OculusStudios::Platform::Core::PlatformRequiresAppRestartException*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
-inline void OculusStudios::Platform::Core::PlatformRequiresAppRestartException::_ctor() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OculusStudios::Platform::Core::PlatformRequiresAppRestartException*>::get(), ".ctor",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+//  Writing Method size for method: ::OculusStudios::Platform::Core::PlatformRequiresAppRestartException._ctor
+template<>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OculusStudios::Platform::Core::PlatformRequiresAppRestartException::*)(::StringW)>(&::OculusStudios::Platform::Core::PlatformRequiresAppRestartException::_ctor)> {
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x5df4418;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OculusStudios::Platform::Core::PlatformRequiresAppRestartException*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::OculusStudios::Platform::Core::PlatformRequiresAppRestartException._ctor
+template<>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OculusStudios::Platform::Core::PlatformRequiresAppRestartException::*)(::StringW, ::System::Exception*)>(&::OculusStudios::Platform::Core::PlatformRequiresAppRestartException::_ctor)> {
+  constexpr static std::size_t size = 0x74;
+  constexpr static std::size_t addrs = 0x5df4484;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OculusStudios::Platform::Core::PlatformRequiresAppRestartException*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Exception*>::get()}
+                    )));
+    return ___internal_method;
+  }
+};
+inline void OculusStudios::Platform::Core::PlatformRequiresAppRestartException::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OculusStudios::Platform::Core::PlatformRequiresAppRestartException*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void OculusStudios::Platform::Core::PlatformRequiresAppRestartException::_ctor(::StringW message) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OculusStudios::Platform::Core::PlatformRequiresAppRestartException*>::get(), ".ctor",
-                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, message);
+inline void OculusStudios::Platform::Core::PlatformRequiresAppRestartException::_ctor(::StringW  message)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OculusStudios::Platform::Core::PlatformRequiresAppRestartException*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, message);
 }
-inline void OculusStudios::Platform::Core::PlatformRequiresAppRestartException::_ctor(::StringW message, ::System::Exception* inner) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OculusStudios::Platform::Core::PlatformRequiresAppRestartException*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Exception*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, message, inner);
+inline void OculusStudios::Platform::Core::PlatformRequiresAppRestartException::_ctor(::StringW  message, ::System::Exception*  inner)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OculusStudios::Platform::Core::PlatformRequiresAppRestartException*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Exception*>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, message, inner);
 }
-inline ::OculusStudios::Platform::Core::PlatformRequiresAppRestartException* OculusStudios::Platform::Core::PlatformRequiresAppRestartException::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::OculusStudios::Platform::Core::PlatformRequiresAppRestartException*>());
+inline ::OculusStudios::Platform::Core::PlatformRequiresAppRestartException* OculusStudios::Platform::Core::PlatformRequiresAppRestartException::New_ctor()  {
+return THROW_UNLESS(::il2cpp_utils::NewSpecific<::OculusStudios::Platform::Core::PlatformRequiresAppRestartException*>());
 }
-inline ::OculusStudios::Platform::Core::PlatformRequiresAppRestartException* OculusStudios::Platform::Core::PlatformRequiresAppRestartException::New_ctor(::StringW message) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::OculusStudios::Platform::Core::PlatformRequiresAppRestartException*>(message));
+inline ::OculusStudios::Platform::Core::PlatformRequiresAppRestartException* OculusStudios::Platform::Core::PlatformRequiresAppRestartException::New_ctor(::StringW  message)  {
+return THROW_UNLESS(::il2cpp_utils::NewSpecific<::OculusStudios::Platform::Core::PlatformRequiresAppRestartException*>(message));
 }
-inline ::OculusStudios::Platform::Core::PlatformRequiresAppRestartException* OculusStudios::Platform::Core::PlatformRequiresAppRestartException::New_ctor(::StringW message,
-                                                                                                                                                          ::System::Exception* inner) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::OculusStudios::Platform::Core::PlatformRequiresAppRestartException*>(message, inner));
+inline ::OculusStudios::Platform::Core::PlatformRequiresAppRestartException* OculusStudios::Platform::Core::PlatformRequiresAppRestartException::New_ctor(::StringW  message, ::System::Exception*  inner)  {
+return THROW_UNLESS(::il2cpp_utils::NewSpecific<::OculusStudios::Platform::Core::PlatformRequiresAppRestartException*>(message, inner));
 }
 // Ctor Parameters []
-constexpr ::OculusStudios::Platform::Core::PlatformRequiresAppRestartException::PlatformRequiresAppRestartException() {}
+constexpr ::OculusStudios::Platform::Core::PlatformRequiresAppRestartException::PlatformRequiresAppRestartException()   {
+}

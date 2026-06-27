@@ -8,7 +8,8 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TextEditingUtilities)
 namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+template<typename TKey,typename TValue>
+class Dictionary_2;
 }
 namespace System {
 class Action;
@@ -40,277 +41,277 @@ namespace UnityEngine {
 // CS Name: UnityEngine.TextEditingUtilities
 class CORDL_TYPE TextEditingUtilities : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field OnTextChanged, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_OnTextChanged, put = __cordl_internal_set_OnTextChanged)) ::System::Action* OnTextChanged;
+// Declarations
+/// @brief Field OnTextChanged, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get_OnTextChanged, put=__cordl_internal_set_OnTextChanged)) ::System::Action*  OnTextChanged;
 
-  __declspec(property(get = get_cursorIndex, put = set_cursorIndex)) int32_t cursorIndex;
+ __declspec(property(get=get_cursorIndex, put=set_cursorIndex)) int32_t  cursorIndex;
 
-  __declspec(property(get = get_cursorIndexNoValidation, put = set_cursorIndexNoValidation)) int32_t cursorIndexNoValidation;
+ __declspec(property(get=get_cursorIndexNoValidation, put=set_cursorIndexNoValidation)) int32_t  cursorIndexNoValidation;
 
-  __declspec(property(get = get_hasSelection)) bool hasSelection;
+ __declspec(property(get=get_hasSelection)) bool  hasSelection;
 
-  /// @brief Field isCompositionActive, offset 0x24, size 0x1
-  __declspec(property(get = __cordl_internal_get_isCompositionActive, put = __cordl_internal_set_isCompositionActive)) bool isCompositionActive;
+/// @brief Field isCompositionActive, offset 0x24, size 0x1 
+ __declspec(property(get=__cordl_internal_get_isCompositionActive, put=__cordl_internal_set_isCompositionActive)) bool  isCompositionActive;
 
-  /// @brief Field m_CursorIndexSavedState, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_CursorIndexSavedState, put = __cordl_internal_set_m_CursorIndexSavedState)) int32_t m_CursorIndexSavedState;
+/// @brief Field m_CursorIndexSavedState, offset 0x20, size 0x4 
+ __declspec(property(get=__cordl_internal_get_m_CursorIndexSavedState, put=__cordl_internal_set_m_CursorIndexSavedState)) int32_t  m_CursorIndexSavedState;
 
-  /// @brief Field m_HighSurrogate, offset 0x40, size 0x2
-  __declspec(property(get = __cordl_internal_get_m_HighSurrogate, put = __cordl_internal_set_m_HighSurrogate)) char16_t m_HighSurrogate;
+/// @brief Field m_HighSurrogate, offset 0x40, size 0x2 
+ __declspec(property(get=__cordl_internal_get_m_HighSurrogate, put=__cordl_internal_set_m_HighSurrogate)) char16_t  m_HighSurrogate;
 
-  /// @brief Field m_Text, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Text, put = __cordl_internal_set_m_Text)) ::StringW m_Text;
+/// @brief Field m_Text, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_Text, put=__cordl_internal_set_m_Text)) ::StringW  m_Text;
 
-  /// @brief Field m_TextSelectingUtility, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_TextSelectingUtility, put = __cordl_internal_set_m_TextSelectingUtility)) ::UnityEngine::TextSelectingUtilities* m_TextSelectingUtility;
+/// @brief Field m_TextSelectingUtility, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_TextSelectingUtility, put=__cordl_internal_set_m_TextSelectingUtility)) ::UnityEngine::TextSelectingUtilities*  m_TextSelectingUtility;
 
-  /// @brief Field m_UpdateImeWindowPosition, offset 0x25, size 0x1
-  __declspec(property(get = __cordl_internal_get_m_UpdateImeWindowPosition, put = __cordl_internal_set_m_UpdateImeWindowPosition)) bool m_UpdateImeWindowPosition;
+/// @brief Field m_UpdateImeWindowPosition, offset 0x25, size 0x1 
+ __declspec(property(get=__cordl_internal_get_m_UpdateImeWindowPosition, put=__cordl_internal_set_m_UpdateImeWindowPosition)) bool  m_UpdateImeWindowPosition;
 
-  /// @brief Field multiline, offset 0x30, size 0x1
-  __declspec(property(get = __cordl_internal_get_multiline, put = __cordl_internal_set_multiline)) bool multiline;
+/// @brief Field multiline, offset 0x30, size 0x1 
+ __declspec(property(get=__cordl_internal_get_multiline, put=__cordl_internal_set_multiline)) bool  multiline;
 
-  __declspec(property(put = set_revealCursor)) bool revealCursor;
+ __declspec(property(put=set_revealCursor)) bool  revealCursor;
 
-  /// @brief Field s_KeyEditOps, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_s_KeyEditOps, put = setStaticF_s_KeyEditOps)) ::System::Collections::Generic::Dictionary_2<::UnityEngine::Event*, ::UnityEngine::TextEditOp>* s_KeyEditOps;
+/// @brief Field s_KeyEditOps, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_s_KeyEditOps, put=setStaticF_s_KeyEditOps)) ::System::Collections::Generic::Dictionary_2<::UnityEngine::Event*,::UnityEngine::TextEditOp>*  s_KeyEditOps;
 
-  __declspec(property(get = get_selectIndex, put = set_selectIndex)) int32_t selectIndex;
+ __declspec(property(get=get_selectIndex, put=set_selectIndex)) int32_t  selectIndex;
 
-  __declspec(property(put = set_selectIndexNoValidation)) int32_t selectIndexNoValidation;
+ __declspec(property(put=set_selectIndexNoValidation)) int32_t  selectIndexNoValidation;
 
-  __declspec(property(get = get_stringCursorIndex)) int32_t stringCursorIndex;
+ __declspec(property(get=get_stringCursorIndex)) int32_t  stringCursorIndex;
 
-  __declspec(property(get = get_stringSelectIndex)) int32_t stringSelectIndex;
+ __declspec(property(get=get_stringSelectIndex)) int32_t  stringSelectIndex;
 
-  __declspec(property(get = get_text, put = set_text)) ::StringW text;
+ __declspec(property(get=get_text, put=set_text)) ::StringW  text;
 
-  /// @brief Field textHandle, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_textHandle, put = __cordl_internal_set_textHandle)) ::UnityEngine::TextCore::Text::TextHandle* textHandle;
+/// @brief Field textHandle, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_textHandle, put=__cordl_internal_set_textHandle)) ::UnityEngine::TextCore::Text::TextHandle*  textHandle;
 
-  /// @brief Method Backspace, addr 0x69fb614, size 0x260, virtual false, abstract: false, final false
-  inline bool Backspace();
+/// @brief Method Backspace, addr 0x69fd18c, size 0x260, virtual false, abstract: false, final false
+inline bool Backspace() ;
 
-  /// @brief Method CanPaste, addr 0x69fc398, size 0x6c, virtual false, abstract: false, final false
-  inline bool CanPaste();
+/// @brief Method CanPaste, addr 0x69fdf10, size 0x6c, virtual false, abstract: false, final false
+inline bool CanPaste() ;
 
-  /// @brief Method Cut, addr 0x69fb874, size 0x24, virtual false, abstract: false, final false
-  inline bool Cut();
+/// @brief Method Cut, addr 0x69fd3ec, size 0x24, virtual false, abstract: false, final false
+inline bool Cut() ;
 
-  /// @brief Method Delete, addr 0x69fb4e4, size 0x130, virtual false, abstract: false, final false
-  inline bool Delete();
+/// @brief Method Delete, addr 0x69fd05c, size 0x130, virtual false, abstract: false, final false
+inline bool Delete() ;
 
-  /// @brief Method DeleteLineBack, addr 0x69fba34, size 0x168, virtual false, abstract: false, final false
-  inline bool DeleteLineBack();
+/// @brief Method DeleteLineBack, addr 0x69fd5ac, size 0x168, virtual false, abstract: false, final false
+inline bool DeleteLineBack() ;
 
-  /// @brief Method DeleteSelection, addr 0x69fbd28, size 0x1cc, virtual false, abstract: false, final false
-  inline bool DeleteSelection();
+/// @brief Method DeleteSelection, addr 0x69fd8a0, size 0x1cc, virtual false, abstract: false, final false
+inline bool DeleteSelection() ;
 
-  /// @brief Method DeleteWordBack, addr 0x69fb950, size 0xe4, virtual false, abstract: false, final false
-  inline bool DeleteWordBack();
+/// @brief Method DeleteWordBack, addr 0x69fd4c8, size 0xe4, virtual false, abstract: false, final false
+inline bool DeleteWordBack() ;
 
-  /// @brief Method DeleteWordForward, addr 0x69fbb9c, size 0xe4, virtual false, abstract: false, final false
-  inline bool DeleteWordForward();
+/// @brief Method DeleteWordForward, addr 0x69fd714, size 0xe4, virtual false, abstract: false, final false
+inline bool DeleteWordForward() ;
 
-  /// @brief Method EnableCursorPreviewState, addr 0x69f9830, size 0xa4, virtual false, abstract: false, final false
-  inline void EnableCursorPreviewState();
+/// @brief Method EnableCursorPreviewState, addr 0x69fb3a8, size 0xa4, virtual false, abstract: false, final false
+inline void EnableCursorPreviewState() ;
 
-  /// @brief Method GeneratePreviewString, addr 0x69f96e4, size 0x10c, virtual false, abstract: false, final false
-  inline ::StringW GeneratePreviewString(bool richText);
+/// @brief Method GeneratePreviewString, addr 0x69fb25c, size 0x10c, virtual false, abstract: false, final false
+inline ::StringW GeneratePreviewString(bool  richText) ;
 
-  /// @brief Method HandleKeyEvent, addr 0x69f98d4, size 0x130, virtual false, abstract: false, final false
-  inline bool HandleKeyEvent(::UnityEngine::Event* e);
+/// @brief Method HandleKeyEvent, addr 0x69fb44c, size 0x130, virtual false, abstract: false, final false
+inline bool HandleKeyEvent(::UnityEngine::Event*  e) ;
 
-  /// @brief Method InitKeyActions, addr 0x69f9a04, size 0x798, virtual false, abstract: false, final false
-  inline void InitKeyActions();
+/// @brief Method InitKeyActions, addr 0x69fb57c, size 0x798, virtual false, abstract: false, final false
+inline void InitKeyActions() ;
 
-  /// @brief Method Insert, addr 0x69fc278, size 0x120, virtual false, abstract: false, final false
-  inline bool Insert(char16_t c);
+/// @brief Method Insert, addr 0x69fddf0, size 0x120, virtual false, abstract: false, final false
+inline bool Insert(char16_t  c) ;
 
-  /// @brief Method MapKey, addr 0x69fbc80, size 0xa8, virtual false, abstract: false, final false
-  static inline void MapKey(::StringW key, ::UnityEngine::TextEditOp action);
+/// @brief Method MapKey, addr 0x69fd7f8, size 0xa8, virtual false, abstract: false, final false
+static inline void MapKey(::StringW  key, ::UnityEngine::TextEditOp  action) ;
 
-  static inline ::UnityEngine::TextEditingUtilities* New_ctor(::UnityEngine::TextSelectingUtilities* selectingUtilities, ::UnityEngine::TextCore::Text::TextHandle* textHandle, ::StringW text);
+static inline ::UnityEngine::TextEditingUtilities* New_ctor(::UnityEngine::TextSelectingUtilities*  selectingUtilities, ::UnityEngine::TextCore::Text::TextHandle*  textHandle, ::StringW  text) ;
 
-  /// @brief Method OnBlur, addr 0x69fc534, size 0x24, virtual false, abstract: false, final false
-  inline void OnBlur();
+/// @brief Method OnBlur, addr 0x69fe0ac, size 0x24, virtual false, abstract: false, final false
+inline void OnBlur() ;
 
-  /// @brief Method Paste, addr 0x69fb898, size 0xb8, virtual false, abstract: false, final false
-  inline bool Paste();
+/// @brief Method Paste, addr 0x69fd410, size 0xb8, virtual false, abstract: false, final false
+inline bool Paste() ;
 
-  /// @brief Method PerformOperation, addr 0x69fa19c, size 0x378, virtual false, abstract: false, final false
-  inline void PerformOperation(::UnityEngine::TextEditOp operation);
+/// @brief Method PerformOperation, addr 0x69fbd14, size 0x378, virtual false, abstract: false, final false
+inline void PerformOperation(::UnityEngine::TextEditOp  operation) ;
 
-  /// @brief Method ReplaceNewlinesWithSpaces, addr 0x69fc498, size 0x9c, virtual false, abstract: false, final false
-  static inline ::StringW ReplaceNewlinesWithSpaces(::StringW value);
+/// @brief Method ReplaceNewlinesWithSpaces, addr 0x69fe010, size 0x9c, virtual false, abstract: false, final false
+static inline ::StringW ReplaceNewlinesWithSpaces(::StringW  value) ;
 
-  /// @brief Method ReplaceSelection, addr 0x69f9514, size 0x118, virtual false, abstract: false, final false
-  inline void ReplaceSelection(::StringW replace);
+/// @brief Method ReplaceSelection, addr 0x69fb08c, size 0x118, virtual false, abstract: false, final false
+inline void ReplaceSelection(::StringW  replace) ;
 
-  /// @brief Method RestoreCursorState, addr 0x69f97f0, size 0x40, virtual false, abstract: false, final false
-  inline void RestoreCursorState();
+/// @brief Method RestoreCursorState, addr 0x69fb368, size 0x40, virtual false, abstract: false, final false
+inline void RestoreCursorState() ;
 
-  /// @brief Method SetImeWindowPosition, addr 0x69f9634, size 0xb0, virtual false, abstract: false, final false
-  inline void SetImeWindowPosition(::UnityEngine::Vector2 worldPosition);
+/// @brief Method SetImeWindowPosition, addr 0x69fb1ac, size 0xb0, virtual false, abstract: false, final false
+inline void SetImeWindowPosition(::UnityEngine::Vector2  worldPosition) ;
 
-  /// @brief Method SetTextWithoutNotify, addr 0x69f9448, size 0x8, virtual false, abstract: false, final false
-  inline void SetTextWithoutNotify(::StringW value);
+/// @brief Method SetTextWithoutNotify, addr 0x69fafc0, size 0x8, virtual false, abstract: false, final false
+inline void SetTextWithoutNotify(::StringW  value) ;
 
-  /// @brief Method ShouldUpdateImeWindowPosition, addr 0x69f962c, size 0x8, virtual false, abstract: false, final false
-  inline bool ShouldUpdateImeWindowPosition();
+/// @brief Method ShouldUpdateImeWindowPosition, addr 0x69fb1a4, size 0x8, virtual false, abstract: false, final false
+inline bool ShouldUpdateImeWindowPosition() ;
 
-  /// @brief Method TouchScreenKeyboardShouldBeUsed, addr 0x69fc5a0, size 0xa0, virtual false, abstract: false, final false
-  inline bool TouchScreenKeyboardShouldBeUsed();
+/// @brief Method TouchScreenKeyboardShouldBeUsed, addr 0x69fe118, size 0xa0, virtual false, abstract: false, final false
+inline bool TouchScreenKeyboardShouldBeUsed() ;
 
-  /// @brief Method UpdateImeState, addr 0x69f9468, size 0xac, virtual false, abstract: false, final false
-  inline bool UpdateImeState();
+/// @brief Method UpdateImeState, addr 0x69fafe0, size 0xac, virtual false, abstract: false, final false
+inline bool UpdateImeState() ;
 
-  constexpr ::System::Action* const& __cordl_internal_get_OnTextChanged() const;
+constexpr ::System::Action* const& __cordl_internal_get_OnTextChanged() const;
 
-  constexpr ::System::Action*& __cordl_internal_get_OnTextChanged();
+constexpr ::System::Action*& __cordl_internal_get_OnTextChanged() ;
 
-  constexpr bool const& __cordl_internal_get_isCompositionActive() const;
+constexpr bool const& __cordl_internal_get_isCompositionActive() const;
 
-  constexpr bool& __cordl_internal_get_isCompositionActive();
+constexpr bool& __cordl_internal_get_isCompositionActive() ;
 
-  constexpr int32_t const& __cordl_internal_get_m_CursorIndexSavedState() const;
+constexpr int32_t const& __cordl_internal_get_m_CursorIndexSavedState() const;
 
-  constexpr int32_t& __cordl_internal_get_m_CursorIndexSavedState();
+constexpr int32_t& __cordl_internal_get_m_CursorIndexSavedState() ;
 
-  constexpr char16_t const& __cordl_internal_get_m_HighSurrogate() const;
+constexpr char16_t const& __cordl_internal_get_m_HighSurrogate() const;
 
-  constexpr char16_t& __cordl_internal_get_m_HighSurrogate();
+constexpr char16_t& __cordl_internal_get_m_HighSurrogate() ;
 
-  constexpr ::StringW const& __cordl_internal_get_m_Text() const;
+constexpr ::StringW const& __cordl_internal_get_m_Text() const;
 
-  constexpr ::StringW& __cordl_internal_get_m_Text();
+constexpr ::StringW& __cordl_internal_get_m_Text() ;
 
-  constexpr ::UnityEngine::TextSelectingUtilities* const& __cordl_internal_get_m_TextSelectingUtility() const;
+constexpr ::UnityEngine::TextSelectingUtilities* const& __cordl_internal_get_m_TextSelectingUtility() const;
 
-  constexpr ::UnityEngine::TextSelectingUtilities*& __cordl_internal_get_m_TextSelectingUtility();
+constexpr ::UnityEngine::TextSelectingUtilities*& __cordl_internal_get_m_TextSelectingUtility() ;
 
-  constexpr bool const& __cordl_internal_get_m_UpdateImeWindowPosition() const;
+constexpr bool const& __cordl_internal_get_m_UpdateImeWindowPosition() const;
 
-  constexpr bool& __cordl_internal_get_m_UpdateImeWindowPosition();
+constexpr bool& __cordl_internal_get_m_UpdateImeWindowPosition() ;
 
-  constexpr bool const& __cordl_internal_get_multiline() const;
+constexpr bool const& __cordl_internal_get_multiline() const;
 
-  constexpr bool& __cordl_internal_get_multiline();
+constexpr bool& __cordl_internal_get_multiline() ;
 
-  constexpr ::UnityEngine::TextCore::Text::TextHandle* const& __cordl_internal_get_textHandle() const;
+constexpr ::UnityEngine::TextCore::Text::TextHandle* const& __cordl_internal_get_textHandle() const;
 
-  constexpr ::UnityEngine::TextCore::Text::TextHandle*& __cordl_internal_get_textHandle();
+constexpr ::UnityEngine::TextCore::Text::TextHandle*& __cordl_internal_get_textHandle() ;
 
-  constexpr void __cordl_internal_set_OnTextChanged(::System::Action* value);
+constexpr void __cordl_internal_set_OnTextChanged(::System::Action*  value) ;
 
-  constexpr void __cordl_internal_set_isCompositionActive(bool value);
+constexpr void __cordl_internal_set_isCompositionActive(bool  value) ;
 
-  constexpr void __cordl_internal_set_m_CursorIndexSavedState(int32_t value);
+constexpr void __cordl_internal_set_m_CursorIndexSavedState(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_m_HighSurrogate(char16_t value);
+constexpr void __cordl_internal_set_m_HighSurrogate(char16_t  value) ;
 
-  constexpr void __cordl_internal_set_m_Text(::StringW value);
+constexpr void __cordl_internal_set_m_Text(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_m_TextSelectingUtility(::UnityEngine::TextSelectingUtilities* value);
+constexpr void __cordl_internal_set_m_TextSelectingUtility(::UnityEngine::TextSelectingUtilities*  value) ;
 
-  constexpr void __cordl_internal_set_m_UpdateImeWindowPosition(bool value);
+constexpr void __cordl_internal_set_m_UpdateImeWindowPosition(bool  value) ;
 
-  constexpr void __cordl_internal_set_multiline(bool value);
+constexpr void __cordl_internal_set_multiline(bool  value) ;
 
-  constexpr void __cordl_internal_set_textHandle(::UnityEngine::TextCore::Text::TextHandle* value);
+constexpr void __cordl_internal_set_textHandle(::UnityEngine::TextCore::Text::TextHandle*  value) ;
 
-  /// @brief Method .ctor, addr 0x69f9450, size 0x18, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::TextSelectingUtilities* selectingUtilities, ::UnityEngine::TextCore::Text::TextHandle* textHandle, ::StringW text);
+/// @brief Method .ctor, addr 0x69fafc8, size 0x18, virtual false, abstract: false, final false
+inline void _ctor(::UnityEngine::TextSelectingUtilities*  selectingUtilities, ::UnityEngine::TextCore::Text::TextHandle*  textHandle, ::StringW  text) ;
 
-  static inline ::System::Collections::Generic::Dictionary_2<::UnityEngine::Event*, ::UnityEngine::TextEditOp>* getStaticF_s_KeyEditOps();
+static inline ::System::Collections::Generic::Dictionary_2<::UnityEngine::Event*,::UnityEngine::TextEditOp>* getStaticF_s_KeyEditOps() ;
 
-  /// @brief Method get_cursorIndex, addr 0x69f910c, size 0x14, virtual false, abstract: false, final false
-  inline int32_t get_cursorIndex();
+/// @brief Method get_cursorIndex, addr 0x69fac84, size 0x14, virtual false, abstract: false, final false
+inline int32_t get_cursorIndex() ;
 
-  /// @brief Method get_cursorIndexNoValidation, addr 0x69f91e0, size 0x18, virtual false, abstract: false, final false
-  inline int32_t get_cursorIndexNoValidation();
+/// @brief Method get_cursorIndexNoValidation, addr 0x69fad58, size 0x18, virtual false, abstract: false, final false
+inline int32_t get_cursorIndexNoValidation() ;
 
-  /// @brief Method get_hasSelection, addr 0x69f8ffc, size 0x3c, virtual false, abstract: false, final false
-  inline bool get_hasSelection();
+/// @brief Method get_hasSelection, addr 0x69fab74, size 0x3c, virtual false, abstract: false, final false
+inline bool get_hasSelection() ;
 
-  /// @brief Method get_selectIndex, addr 0x69f9304, size 0x14, virtual false, abstract: false, final false
-  inline int32_t get_selectIndex();
+/// @brief Method get_selectIndex, addr 0x69fae7c, size 0x14, virtual false, abstract: false, final false
+inline int32_t get_selectIndex() ;
 
-  /// @brief Method get_stringCursorIndex, addr 0x69f90d8, size 0x34, virtual false, abstract: false, final false
-  inline int32_t get_stringCursorIndex();
+/// @brief Method get_stringCursorIndex, addr 0x69fac50, size 0x34, virtual false, abstract: false, final false
+inline int32_t get_stringCursorIndex() ;
 
-  /// @brief Method get_stringSelectIndex, addr 0x69f92d0, size 0x34, virtual false, abstract: false, final false
-  inline int32_t get_stringSelectIndex();
+/// @brief Method get_stringSelectIndex, addr 0x69fae48, size 0x34, virtual false, abstract: false, final false
+inline int32_t get_stringSelectIndex() ;
 
-  /// @brief Method get_text, addr 0x69f93d8, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_text();
+/// @brief Method get_text, addr 0x69faf50, size 0x8, virtual false, abstract: false, final false
+inline ::StringW get_text() ;
 
-  static inline void setStaticF_s_KeyEditOps(::System::Collections::Generic::Dictionary_2<::UnityEngine::Event*, ::UnityEngine::TextEditOp>* value);
+static inline void setStaticF_s_KeyEditOps(::System::Collections::Generic::Dictionary_2<::UnityEngine::Event*,::UnityEngine::TextEditOp>*  value) ;
 
-  /// @brief Method set_cursorIndex, addr 0x69f9178, size 0x3c, virtual false, abstract: false, final false
-  inline void set_cursorIndex(int32_t value);
+/// @brief Method set_cursorIndex, addr 0x69facf0, size 0x3c, virtual false, abstract: false, final false
+inline void set_cursorIndex(int32_t  value) ;
 
-  /// @brief Method set_cursorIndexNoValidation, addr 0x69f9200, size 0x3c, virtual false, abstract: false, final false
-  inline void set_cursorIndexNoValidation(int32_t value);
+/// @brief Method set_cursorIndexNoValidation, addr 0x69fad78, size 0x3c, virtual false, abstract: false, final false
+inline void set_cursorIndexNoValidation(int32_t  value) ;
 
-  /// @brief Method set_revealCursor, addr 0x69f9068, size 0x40, virtual false, abstract: false, final false
-  inline void set_revealCursor(bool value);
+/// @brief Method set_revealCursor, addr 0x69fabe0, size 0x40, virtual false, abstract: false, final false
+inline void set_revealCursor(bool  value) ;
 
-  /// @brief Method set_selectIndex, addr 0x69f9370, size 0x3c, virtual false, abstract: false, final false
-  inline void set_selectIndex(int32_t value);
+/// @brief Method set_selectIndex, addr 0x69faee8, size 0x3c, virtual false, abstract: false, final false
+inline void set_selectIndex(int32_t  value) ;
 
-  /// @brief Method set_selectIndexNoValidation, addr 0x69f9268, size 0x3c, virtual false, abstract: false, final false
-  inline void set_selectIndexNoValidation(int32_t value);
+/// @brief Method set_selectIndexNoValidation, addr 0x69fade0, size 0x3c, virtual false, abstract: false, final false
+inline void set_selectIndexNoValidation(int32_t  value) ;
 
-  /// @brief Method set_text, addr 0x69f93e0, size 0x68, virtual false, abstract: false, final false
-  inline void set_text(::StringW value);
+/// @brief Method set_text, addr 0x69faf58, size 0x68, virtual false, abstract: false, final false
+inline void set_text(::StringW  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TextEditingUtilities();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr TextEditingUtilities() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TextEditingUtilities", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  TextEditingUtilities(TextEditingUtilities&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TextEditingUtilities", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  TextEditingUtilities(TextEditingUtilities const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "TextEditingUtilities", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+TextEditingUtilities(TextEditingUtilities && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19639 };
+// Ctor Parameters [CppParam { name: "", ty: "TextEditingUtilities", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+TextEditingUtilities(TextEditingUtilities const& ) = delete;
 
-  /// @brief Field m_TextSelectingUtility, offset: 0x10, size: 0x8, def value: None
-  ::UnityEngine::TextSelectingUtilities* ___m_TextSelectingUtility;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19642};
 
-  /// @brief Field textHandle, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::TextCore::Text::TextHandle* ___textHandle;
+/// @brief Field m_TextSelectingUtility, offset: 0x10, size: 0x8, def value: None
+ ::UnityEngine::TextSelectingUtilities*  ___m_TextSelectingUtility;
 
-  /// @brief Field m_CursorIndexSavedState, offset: 0x20, size: 0x4, def value: None
-  int32_t ___m_CursorIndexSavedState;
+/// @brief Field textHandle, offset: 0x18, size: 0x8, def value: None
+ ::UnityEngine::TextCore::Text::TextHandle*  ___textHandle;
 
-  /// @brief Field isCompositionActive, offset: 0x24, size: 0x1, def value: None
-  bool ___isCompositionActive;
+/// @brief Field m_CursorIndexSavedState, offset: 0x20, size: 0x4, def value: None
+ int32_t  ___m_CursorIndexSavedState;
 
-  /// @brief Field m_UpdateImeWindowPosition, offset: 0x25, size: 0x1, def value: None
-  bool ___m_UpdateImeWindowPosition;
+/// @brief Field isCompositionActive, offset: 0x24, size: 0x1, def value: None
+ bool  ___isCompositionActive;
 
-  /// @brief Field OnTextChanged, offset: 0x28, size: 0x8, def value: None
-  ::System::Action* ___OnTextChanged;
+/// @brief Field m_UpdateImeWindowPosition, offset: 0x25, size: 0x1, def value: None
+ bool  ___m_UpdateImeWindowPosition;
 
-  /// @brief Field multiline, offset: 0x30, size: 0x1, def value: None
-  bool ___multiline;
+/// @brief Field OnTextChanged, offset: 0x28, size: 0x8, def value: None
+ ::System::Action*  ___OnTextChanged;
 
-  /// @brief Field m_Text, offset: 0x38, size: 0x8, def value: None
-  ::StringW ___m_Text;
+/// @brief Field multiline, offset: 0x30, size: 0x1, def value: None
+ bool  ___multiline;
 
-  /// @brief Field m_HighSurrogate, offset: 0x40, size: 0x2, def value: None
-  char16_t ___m_HighSurrogate;
+/// @brief Field m_Text, offset: 0x38, size: 0x8, def value: None
+ ::StringW  ___m_Text;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field m_HighSurrogate, offset: 0x40, size: 0x2, def value: None
+ char16_t  ___m_HighSurrogate;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::TextEditingUtilities, ___m_TextSelectingUtility) == 0x10, "Offset mismatch!");
@@ -333,6 +334,6 @@ static_assert(offsetof(::UnityEngine::TextEditingUtilities, ___m_HighSurrogate) 
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::TextEditingUtilities, 0x48>, "Size mismatch!");
 
-} // namespace UnityEngine
+} // namespace end def UnityEngine
 NEED_NO_BOX(::UnityEngine::TextEditingUtilities);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextEditingUtilities*, "UnityEngine", "TextEditingUtilities");

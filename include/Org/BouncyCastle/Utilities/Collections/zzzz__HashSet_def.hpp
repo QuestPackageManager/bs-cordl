@@ -39,125 +39,125 @@ namespace Org::BouncyCastle::Utilities::Collections {
 // CS Name: Org.BouncyCastle.Utilities.Collections.HashSet
 class CORDL_TYPE HashSet : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = get_Count)) int32_t Count;
+// Declarations
+ __declspec(property(get=get_Count)) int32_t  Count;
 
-  __declspec(property(get = get_IsEmpty)) bool IsEmpty;
+ __declspec(property(get=get_IsEmpty)) bool  IsEmpty;
 
-  __declspec(property(get = get_IsFixedSize)) bool IsFixedSize;
+ __declspec(property(get=get_IsFixedSize)) bool  IsFixedSize;
 
-  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
+ __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
 
-  __declspec(property(get = get_IsSynchronized)) bool IsSynchronized;
+ __declspec(property(get=get_IsSynchronized)) bool  IsSynchronized;
 
-  __declspec(property(get = get_SyncRoot)) ::System::Object* SyncRoot;
+ __declspec(property(get=get_SyncRoot)) ::System::Object*  SyncRoot;
 
-  /// @brief Field impl, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_impl, put = __cordl_internal_set_impl)) ::System::Collections::IDictionary* impl;
+/// @brief Field impl, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_impl, put=__cordl_internal_set_impl)) ::System::Collections::IDictionary*  impl;
 
-  /// @brief Convert operator to "::Org::BouncyCastle::Utilities::Collections::ISet"
-  constexpr operator ::Org::BouncyCastle::Utilities::Collections::ISet*() noexcept;
+/// @brief Convert operator to "::Org::BouncyCastle::Utilities::Collections::ISet"
+constexpr operator  ::Org::BouncyCastle::Utilities::Collections::ISet*() noexcept;
 
-  /// @brief Convert operator to "::System::Collections::ICollection"
-  constexpr operator ::System::Collections::ICollection*() noexcept;
+/// @brief Convert operator to "::System::Collections::ICollection"
+constexpr operator  ::System::Collections::ICollection*() noexcept;
 
-  /// @brief Convert operator to "::System::Collections::IEnumerable"
-  constexpr operator ::System::Collections::IEnumerable*() noexcept;
+/// @brief Convert operator to "::System::Collections::IEnumerable"
+constexpr operator  ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method Add, addr 0x356856c, size 0xbc, virtual true, abstract: false, final false
-  inline void Add(::System::Object* o);
+/// @brief Method Add, addr 0x3569308, size 0xbc, virtual true, abstract: false, final false
+inline void Add(::System::Object*  o) ;
 
-  /// @brief Method AddAll, addr 0x3568628, size 0x2c4, virtual true, abstract: false, final false
-  inline void AddAll(::System::Collections::IEnumerable* e);
+/// @brief Method AddAll, addr 0x35693c4, size 0x2c4, virtual true, abstract: false, final false
+inline void AddAll(::System::Collections::IEnumerable*  e) ;
 
-  /// @brief Method Clear, addr 0x35688ec, size 0xa8, virtual true, abstract: false, final false
-  inline void Clear();
+/// @brief Method Clear, addr 0x3569688, size 0xa8, virtual true, abstract: false, final false
+inline void Clear() ;
 
-  /// @brief Method Contains, addr 0x3568994, size 0xb8, virtual true, abstract: false, final false
-  inline bool Contains(::System::Object* o);
+/// @brief Method Contains, addr 0x3569730, size 0xb8, virtual true, abstract: false, final false
+inline bool Contains(::System::Object*  o) ;
 
-  /// @brief Method CopyTo, addr 0x3568a4c, size 0x138, virtual true, abstract: false, final false
-  inline void CopyTo(::System::Array* array, int32_t index);
+/// @brief Method CopyTo, addr 0x35697e8, size 0x138, virtual true, abstract: false, final false
+inline void CopyTo(::System::Array*  array, int32_t  index) ;
 
-  /// @brief Method GetEnumerator, addr 0x3568c2c, size 0x120, virtual true, abstract: false, final false
-  inline ::System::Collections::IEnumerator* GetEnumerator();
+/// @brief Method GetEnumerator, addr 0x35699c8, size 0x120, virtual true, abstract: false, final false
+inline ::System::Collections::IEnumerator* GetEnumerator() ;
 
-  static inline ::Org::BouncyCastle::Utilities::Collections::HashSet* New_ctor();
+static inline ::Org::BouncyCastle::Utilities::Collections::HashSet* New_ctor() ;
 
-  static inline ::Org::BouncyCastle::Utilities::Collections::HashSet* New_ctor(::System::Collections::IEnumerable* s);
+static inline ::Org::BouncyCastle::Utilities::Collections::HashSet* New_ctor(::System::Collections::IEnumerable*  s) ;
 
-  /// @brief Method Remove, addr 0x3568ff8, size 0xb8, virtual true, abstract: false, final false
-  inline void Remove(::System::Object* o);
+/// @brief Method Remove, addr 0x3569d94, size 0xb8, virtual true, abstract: false, final false
+inline void Remove(::System::Object*  o) ;
 
-  /// @brief Method RemoveAll, addr 0x35690b0, size 0x2c4, virtual true, abstract: false, final false
-  inline void RemoveAll(::System::Collections::IEnumerable* e);
+/// @brief Method RemoveAll, addr 0x3569e4c, size 0x2c4, virtual true, abstract: false, final false
+inline void RemoveAll(::System::Collections::IEnumerable*  e) ;
 
-  constexpr ::System::Collections::IDictionary* const& __cordl_internal_get_impl() const;
+constexpr ::System::Collections::IDictionary* const& __cordl_internal_get_impl() const;
 
-  constexpr ::System::Collections::IDictionary*& __cordl_internal_get_impl();
+constexpr ::System::Collections::IDictionary*& __cordl_internal_get_impl() ;
 
-  constexpr void __cordl_internal_set_impl(::System::Collections::IDictionary* value);
+constexpr void __cordl_internal_set_impl(::System::Collections::IDictionary*  value) ;
 
-  /// @brief Method .ctor, addr 0x35667a4, size 0x60, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x3567540, size 0x60, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method .ctor, addr 0x3567460, size 0x2f8, virtual false, abstract: false, final false
-  inline void _ctor(::System::Collections::IEnumerable* s);
+/// @brief Method .ctor, addr 0x35681fc, size 0x2f8, virtual false, abstract: false, final false
+inline void _ctor(::System::Collections::IEnumerable*  s) ;
 
-  /// @brief Method get_Count, addr 0x3568b84, size 0xa8, virtual true, abstract: false, final false
-  inline int32_t get_Count();
+/// @brief Method get_Count, addr 0x3569920, size 0xa8, virtual true, abstract: false, final false
+inline int32_t get_Count() ;
 
-  /// @brief Method get_IsEmpty, addr 0x3568d4c, size 0xb4, virtual true, abstract: false, final false
-  inline bool get_IsEmpty();
+/// @brief Method get_IsEmpty, addr 0x3569ae8, size 0xb4, virtual true, abstract: false, final false
+inline bool get_IsEmpty() ;
 
-  /// @brief Method get_IsFixedSize, addr 0x3568e00, size 0xa8, virtual true, abstract: false, final false
-  inline bool get_IsFixedSize();
+/// @brief Method get_IsFixedSize, addr 0x3569b9c, size 0xa8, virtual true, abstract: false, final false
+inline bool get_IsFixedSize() ;
 
-  /// @brief Method get_IsReadOnly, addr 0x3568ea8, size 0xa8, virtual true, abstract: false, final false
-  inline bool get_IsReadOnly();
+/// @brief Method get_IsReadOnly, addr 0x3569c44, size 0xa8, virtual true, abstract: false, final false
+inline bool get_IsReadOnly() ;
 
-  /// @brief Method get_IsSynchronized, addr 0x3568f50, size 0xa8, virtual true, abstract: false, final false
-  inline bool get_IsSynchronized();
+/// @brief Method get_IsSynchronized, addr 0x3569cec, size 0xa8, virtual true, abstract: false, final false
+inline bool get_IsSynchronized() ;
 
-  /// @brief Method get_SyncRoot, addr 0x3569374, size 0xa8, virtual true, abstract: false, final false
-  inline ::System::Object* get_SyncRoot();
+/// @brief Method get_SyncRoot, addr 0x356a110, size 0xa8, virtual true, abstract: false, final false
+inline ::System::Object* get_SyncRoot() ;
 
-  /// @brief Convert to "::Org::BouncyCastle::Utilities::Collections::ISet"
-  constexpr ::Org::BouncyCastle::Utilities::Collections::ISet* i___Org__BouncyCastle__Utilities__Collections__ISet() noexcept;
+/// @brief Convert to "::Org::BouncyCastle::Utilities::Collections::ISet"
+constexpr ::Org::BouncyCastle::Utilities::Collections::ISet* i___Org__BouncyCastle__Utilities__Collections__ISet() noexcept;
 
-  /// @brief Convert to "::System::Collections::ICollection"
-  constexpr ::System::Collections::ICollection* i___System__Collections__ICollection() noexcept;
+/// @brief Convert to "::System::Collections::ICollection"
+constexpr ::System::Collections::ICollection* i___System__Collections__ICollection() noexcept;
 
-  /// @brief Convert to "::System::Collections::IEnumerable"
-  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
+/// @brief Convert to "::System::Collections::IEnumerable"
+constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HashSet();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr HashSet() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HashSet", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  HashSet(HashSet&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HashSet", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  HashSet(HashSet const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "HashSet", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+HashSet(HashSet && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1782 };
+// Ctor Parameters [CppParam { name: "", ty: "HashSet", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+HashSet(HashSet const& ) = delete;
 
-  /// @brief Field impl, offset: 0x10, size: 0x8, def value: None
-  ::System::Collections::IDictionary* ___impl;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{1782};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field impl, offset: 0x10, size: 0x8, def value: None
+ ::System::Collections::IDictionary*  ___impl;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Org::BouncyCastle::Utilities::Collections::HashSet, ___impl) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Utilities::Collections::HashSet, 0x18>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Utilities::Collections
+} // namespace end def Org::BouncyCastle::Utilities::Collections
 NEED_NO_BOX(::Org::BouncyCastle::Utilities::Collections::HashSet);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Utilities::Collections::HashSet*, "Org.BouncyCastle.Utilities.Collections", "HashSet");

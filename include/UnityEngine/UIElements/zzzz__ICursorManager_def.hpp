@@ -13,29 +13,29 @@ class ICursorManager;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::ICursorManager);
-// Dependencies
+// Dependencies 
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.ICursorManager
 class CORDL_TYPE ICursorManager {
 public:
-  // Declarations
-  /// @brief Method ResetCursor, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void ResetCursor();
+// Declarations
+/// @brief Method ResetCursor, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline void ResetCursor() ;
 
-  /// @brief Method SetCursor, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void SetCursor(::UnityEngine::UIElements::Cursor cursor);
+/// @brief Method SetCursor, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline void SetCursor(::UnityEngine::UIElements::Cursor  cursor) ;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ICursorManager", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ICursorManager(ICursorManager const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ICursorManager", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ICursorManager(ICursorManager const& ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4374 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4374};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-} // namespace UnityEngine::UIElements
+} // namespace end def UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::ICursorManager);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::ICursorManager*, "UnityEngine.UIElements", "ICursorManager");

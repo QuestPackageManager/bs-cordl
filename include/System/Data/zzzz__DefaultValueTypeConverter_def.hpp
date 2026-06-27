@@ -29,41 +29,40 @@ namespace System::Data {
 // CS Name: System.Data.DefaultValueTypeConverter
 class CORDL_TYPE DefaultValueTypeConverter : public ::System::ComponentModel::StringConverter {
 public:
-  // Declarations
-  /// @brief Method ConvertFrom, addr 0x5ef39f0, size 0x198, virtual true, abstract: false, final false
-  inline ::System::Object* ConvertFrom(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value);
+// Declarations
+/// @brief Method ConvertFrom, addr 0x5ef5568, size 0x198, virtual true, abstract: false, final false
+inline ::System::Object* ConvertFrom(::System::ComponentModel::ITypeDescriptorContext*  context, ::System::Globalization::CultureInfo*  culture, ::System::Object*  value) ;
 
-  /// @brief Method ConvertTo, addr 0x5ef386c, size 0x184, virtual true, abstract: false, final false
-  inline ::System::Object* ConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value,
-                                     ::System::Type* destinationType);
+/// @brief Method ConvertTo, addr 0x5ef53e4, size 0x184, virtual true, abstract: false, final false
+inline ::System::Object* ConvertTo(::System::ComponentModel::ITypeDescriptorContext*  context, ::System::Globalization::CultureInfo*  culture, ::System::Object*  value, ::System::Type*  destinationType) ;
 
-  static inline ::System::Data::DefaultValueTypeConverter* New_ctor();
+static inline ::System::Data::DefaultValueTypeConverter* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x5ef3868, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5ef53e0, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DefaultValueTypeConverter();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr DefaultValueTypeConverter() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DefaultValueTypeConverter", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  DefaultValueTypeConverter(DefaultValueTypeConverter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DefaultValueTypeConverter", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  DefaultValueTypeConverter(DefaultValueTypeConverter const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "DefaultValueTypeConverter", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+DefaultValueTypeConverter(DefaultValueTypeConverter && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13790 };
+// Ctor Parameters [CppParam { name: "", ty: "DefaultValueTypeConverter", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+DefaultValueTypeConverter(DefaultValueTypeConverter const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{13791};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Data::DefaultValueTypeConverter, 0x10>, "Size mismatch!");
 
-} // namespace System::Data
+} // namespace end def System::Data
 NEED_NO_BOX(::System::Data::DefaultValueTypeConverter);
 DEFINE_IL2CPP_ARG_TYPE(::System::Data::DefaultValueTypeConverter*, "System.Data", "DefaultValueTypeConverter");

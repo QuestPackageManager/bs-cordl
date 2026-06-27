@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "Meta/XR/ImmersiveDebugger/UserInterface/CategoryButton.hpp"
 #include "Meta/XR/ImmersiveDebugger/UserInterface/Console.hpp"
@@ -28,5 +28,6 @@ module;
 #include "Meta/XR/ImmersiveDebugger/UserInterface/Value.hpp"
 #include "Meta/XR/ImmersiveDebugger/UserInterface/Values.hpp"
 #ifdef __cpp_modules
-export module UserInterface;
-#endif
+                    export module UserInterface;
+                    #endif
+                

@@ -25,120 +25,120 @@ namespace System::Xml::Schema {
 // CS Name: System.Xml.Schema.KeySequence
 class CORDL_TYPE KeySequence : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = get_Item, put = set_Item)) ::System::Object* Item[];
+// Declarations
+ __declspec(property(get=get_Item, put=set_Item)) ::System::Object*  Item[];
 
-  __declspec(property(get = get_PosCol)) int32_t PosCol;
+ __declspec(property(get=get_PosCol)) int32_t  PosCol;
 
-  __declspec(property(get = get_PosLine)) int32_t PosLine;
+ __declspec(property(get=get_PosLine)) int32_t  PosLine;
 
-  /// @brief Field dim, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get_dim, put = __cordl_internal_set_dim)) int32_t dim;
+/// @brief Field dim, offset 0x18, size 0x4 
+ __declspec(property(get=__cordl_internal_get_dim, put=__cordl_internal_set_dim)) int32_t  dim;
 
-  /// @brief Field hashcode, offset 0x1c, size 0x4
-  __declspec(property(get = __cordl_internal_get_hashcode, put = __cordl_internal_set_hashcode)) int32_t hashcode;
+/// @brief Field hashcode, offset 0x1c, size 0x4 
+ __declspec(property(get=__cordl_internal_get_hashcode, put=__cordl_internal_set_hashcode)) int32_t  hashcode;
 
-  /// @brief Field ks, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_ks, put = __cordl_internal_set_ks)) ::ArrayW<::System::Xml::Schema::TypedObject*, ::Array<::System::Xml::Schema::TypedObject*>*> ks;
+/// @brief Field ks, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_ks, put=__cordl_internal_set_ks)) ::ArrayW<::System::Xml::Schema::TypedObject*,::Array<::System::Xml::Schema::TypedObject*>*>  ks;
 
-  /// @brief Field poscol, offset 0x24, size 0x4
-  __declspec(property(get = __cordl_internal_get_poscol, put = __cordl_internal_set_poscol)) int32_t poscol;
+/// @brief Field poscol, offset 0x24, size 0x4 
+ __declspec(property(get=__cordl_internal_get_poscol, put=__cordl_internal_set_poscol)) int32_t  poscol;
 
-  /// @brief Field posline, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get_posline, put = __cordl_internal_set_posline)) int32_t posline;
+/// @brief Field posline, offset 0x20, size 0x4 
+ __declspec(property(get=__cordl_internal_get_posline, put=__cordl_internal_set_posline)) int32_t  posline;
 
-  /// @brief Method Equals, addr 0x61dabdc, size 0xec, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* other);
+/// @brief Method Equals, addr 0x61dc754, size 0xec, virtual true, abstract: false, final false
+inline bool Equals(::System::Object*  other) ;
 
-  /// @brief Method GetHashCode, addr 0x61da870, size 0x36c, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
+/// @brief Method GetHashCode, addr 0x61dc3e8, size 0x36c, virtual true, abstract: false, final false
+inline int32_t GetHashCode() ;
 
-  /// @brief Method IsQualified, addr 0x61da804, size 0x6c, virtual false, abstract: false, final false
-  inline bool IsQualified();
+/// @brief Method IsQualified, addr 0x61dc37c, size 0x6c, virtual false, abstract: false, final false
+inline bool IsQualified() ;
 
-  static inline ::System::Xml::Schema::KeySequence* New_ctor(int32_t dim, int32_t line, int32_t col);
+static inline ::System::Xml::Schema::KeySequence* New_ctor(int32_t  dim, int32_t  line, int32_t  col) ;
 
-  /// @brief Method ToString, addr 0x61dacc8, size 0x134, virtual true, abstract: false, final false
-  inline ::StringW ToString();
+/// @brief Method ToString, addr 0x61dc840, size 0x134, virtual true, abstract: false, final false
+inline ::StringW ToString() ;
 
-  constexpr int32_t const& __cordl_internal_get_dim() const;
+constexpr int32_t const& __cordl_internal_get_dim() const;
 
-  constexpr int32_t& __cordl_internal_get_dim();
+constexpr int32_t& __cordl_internal_get_dim() ;
 
-  constexpr int32_t const& __cordl_internal_get_hashcode() const;
+constexpr int32_t const& __cordl_internal_get_hashcode() const;
 
-  constexpr int32_t& __cordl_internal_get_hashcode();
+constexpr int32_t& __cordl_internal_get_hashcode() ;
 
-  constexpr ::ArrayW<::System::Xml::Schema::TypedObject*, ::Array<::System::Xml::Schema::TypedObject*>*> const& __cordl_internal_get_ks() const;
+constexpr ::ArrayW<::System::Xml::Schema::TypedObject*,::Array<::System::Xml::Schema::TypedObject*>*> const& __cordl_internal_get_ks() const;
 
-  constexpr ::ArrayW<::System::Xml::Schema::TypedObject*, ::Array<::System::Xml::Schema::TypedObject*>*>& __cordl_internal_get_ks();
+constexpr ::ArrayW<::System::Xml::Schema::TypedObject*,::Array<::System::Xml::Schema::TypedObject*>*>& __cordl_internal_get_ks() ;
 
-  constexpr int32_t const& __cordl_internal_get_poscol() const;
+constexpr int32_t const& __cordl_internal_get_poscol() const;
 
-  constexpr int32_t& __cordl_internal_get_poscol();
+constexpr int32_t& __cordl_internal_get_poscol() ;
 
-  constexpr int32_t const& __cordl_internal_get_posline() const;
+constexpr int32_t const& __cordl_internal_get_posline() const;
 
-  constexpr int32_t& __cordl_internal_get_posline();
+constexpr int32_t& __cordl_internal_get_posline() ;
 
-  constexpr void __cordl_internal_set_dim(int32_t value);
+constexpr void __cordl_internal_set_dim(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_hashcode(int32_t value);
+constexpr void __cordl_internal_set_hashcode(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_ks(::ArrayW<::System::Xml::Schema::TypedObject*, ::Array<::System::Xml::Schema::TypedObject*>*> value);
+constexpr void __cordl_internal_set_ks(::ArrayW<::System::Xml::Schema::TypedObject*,::Array<::System::Xml::Schema::TypedObject*>*>  value) ;
 
-  constexpr void __cordl_internal_set_poscol(int32_t value);
+constexpr void __cordl_internal_set_poscol(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_posline(int32_t value);
+constexpr void __cordl_internal_set_posline(int32_t  value) ;
 
-  /// @brief Method .ctor, addr 0x61d9cf0, size 0x7c, virtual false, abstract: false, final false
-  inline void _ctor(int32_t dim, int32_t line, int32_t col);
+/// @brief Method .ctor, addr 0x61db868, size 0x7c, virtual false, abstract: false, final false
+inline void _ctor(int32_t  dim, int32_t  line, int32_t  col) ;
 
-  /// @brief Method get_Item, addr 0x61da6d8, size 0x30, virtual false, abstract: false, final false
-  inline ::System::Object* get_Item(int32_t index);
+/// @brief Method get_Item, addr 0x61dc250, size 0x30, virtual false, abstract: false, final false
+inline ::System::Object* get_Item(int32_t  index) ;
 
-  /// @brief Method get_PosCol, addr 0x61da6d0, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_PosCol();
+/// @brief Method get_PosCol, addr 0x61dc248, size 0x8, virtual false, abstract: false, final false
+inline int32_t get_PosCol() ;
 
-  /// @brief Method get_PosLine, addr 0x61da6c8, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_PosLine();
+/// @brief Method get_PosLine, addr 0x61dc240, size 0x8, virtual false, abstract: false, final false
+inline int32_t get_PosLine() ;
 
-  /// @brief Method set_Item, addr 0x61da708, size 0xfc, virtual false, abstract: false, final false
-  inline void set_Item(int32_t index, ::System::Object* value);
+/// @brief Method set_Item, addr 0x61dc280, size 0xfc, virtual false, abstract: false, final false
+inline void set_Item(int32_t  index, ::System::Object*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr KeySequence();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr KeySequence() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "KeySequence", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  KeySequence(KeySequence&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "KeySequence", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  KeySequence(KeySequence const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "KeySequence", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+KeySequence(KeySequence && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9572 };
+// Ctor Parameters [CppParam { name: "", ty: "KeySequence", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+KeySequence(KeySequence const& ) = delete;
 
-  /// @brief Field ks, offset: 0x10, size: 0x8, def value: None
-  ::ArrayW<::System::Xml::Schema::TypedObject*, ::Array<::System::Xml::Schema::TypedObject*>*> ___ks;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9573};
 
-  /// @brief Field dim, offset: 0x18, size: 0x4, def value: None
-  int32_t ___dim;
+/// @brief Field ks, offset: 0x10, size: 0x8, def value: None
+ ::ArrayW<::System::Xml::Schema::TypedObject*,::Array<::System::Xml::Schema::TypedObject*>*>  ___ks;
 
-  /// @brief Field hashcode, offset: 0x1c, size: 0x4, def value: None
-  int32_t ___hashcode;
+/// @brief Field dim, offset: 0x18, size: 0x4, def value: None
+ int32_t  ___dim;
 
-  /// @brief Field posline, offset: 0x20, size: 0x4, def value: None
-  int32_t ___posline;
+/// @brief Field hashcode, offset: 0x1c, size: 0x4, def value: None
+ int32_t  ___hashcode;
 
-  /// @brief Field poscol, offset: 0x24, size: 0x4, def value: None
-  int32_t ___poscol;
+/// @brief Field posline, offset: 0x20, size: 0x4, def value: None
+ int32_t  ___posline;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field poscol, offset: 0x24, size: 0x4, def value: None
+ int32_t  ___poscol;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Xml::Schema::KeySequence, ___ks) == 0x10, "Offset mismatch!");
@@ -153,6 +153,6 @@ static_assert(offsetof(::System::Xml::Schema::KeySequence, ___poscol) == 0x24, "
 
 static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::KeySequence, 0x28>, "Size mismatch!");
 
-} // namespace System::Xml::Schema
+} // namespace end def System::Xml::Schema
 NEED_NO_BOX(::System::Xml::Schema::KeySequence);
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::KeySequence*, "System.Xml.Schema", "KeySequence");

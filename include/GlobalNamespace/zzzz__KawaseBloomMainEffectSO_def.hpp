@@ -31,191 +31,191 @@ namespace GlobalNamespace {
 // CS Name: KawaseBloomMainEffectSO
 class CORDL_TYPE KawaseBloomMainEffectSO : public ::GlobalNamespace::MainEffectSO {
 public:
-  // Declarations
-  /// @brief Field _baseColorBoost, offset 0x3c, size 0x4
-  __declspec(property(get = __cordl_internal_get__baseColorBoost, put = __cordl_internal_set__baseColorBoost)) float_t _baseColorBoost;
+// Declarations
+/// @brief Field _baseColorBoost, offset 0x3c, size 0x4 
+ __declspec(property(get=__cordl_internal_get__baseColorBoost, put=__cordl_internal_set__baseColorBoost)) float_t  _baseColorBoost;
 
-  /// @brief Field _baseColorBoostThreshold, offset 0x40, size 0x4
-  __declspec(property(get = __cordl_internal_get__baseColorBoostThreshold, put = __cordl_internal_set__baseColorBoostThreshold)) float_t _baseColorBoostThreshold;
+/// @brief Field _baseColorBoostThreshold, offset 0x40, size 0x4 
+ __declspec(property(get=__cordl_internal_get__baseColorBoostThreshold, put=__cordl_internal_set__baseColorBoostThreshold)) float_t  _baseColorBoostThreshold;
 
-  /// @brief Field _bloomAlphaWeights, offset 0x34, size 0x4
-  __declspec(property(get = __cordl_internal_get__bloomAlphaWeights, put = __cordl_internal_set__bloomAlphaWeights)) float_t _bloomAlphaWeights;
+/// @brief Field _bloomAlphaWeights, offset 0x34, size 0x4 
+ __declspec(property(get=__cordl_internal_get__bloomAlphaWeights, put=__cordl_internal_set__bloomAlphaWeights)) float_t  _bloomAlphaWeights;
 
-  /// @brief Field _bloomBoost, offset 0x30, size 0x4
-  __declspec(property(get = __cordl_internal_get__bloomBoost, put = __cordl_internal_set__bloomBoost)) float_t _bloomBoost;
+/// @brief Field _bloomBoost, offset 0x30, size 0x4 
+ __declspec(property(get=__cordl_internal_get__bloomBoost, put=__cordl_internal_set__bloomBoost)) float_t  _bloomBoost;
 
-  /// @brief Field _bloomIntensity, offset 0x28, size 0x4
-  __declspec(property(get = __cordl_internal_get__bloomIntensity, put = __cordl_internal_set__bloomIntensity)) float_t _bloomIntensity;
+/// @brief Field _bloomIntensity, offset 0x28, size 0x4 
+ __declspec(property(get=__cordl_internal_get__bloomIntensity, put=__cordl_internal_set__bloomIntensity)) float_t  _bloomIntensity;
 
-  /// @brief Field _bloomIntensityID, offset 0xffffffff, size 0x4
-  __declspec(property(get = getStaticF__bloomIntensityID, put = setStaticF__bloomIntensityID)) int32_t _bloomIntensityID;
+/// @brief Field _bloomIntensityID, offset 0xffffffff, size 0x4 
+ __declspec(property(get=getStaticF__bloomIntensityID, put=setStaticF__bloomIntensityID)) int32_t  _bloomIntensityID;
 
-  /// @brief Field _bloomIterations, offset 0x2c, size 0x4
-  __declspec(property(get = __cordl_internal_get__bloomIterations, put = __cordl_internal_set__bloomIterations)) int32_t _bloomIterations;
+/// @brief Field _bloomIterations, offset 0x2c, size 0x4 
+ __declspec(property(get=__cordl_internal_get__bloomIterations, put=__cordl_internal_set__bloomIterations)) int32_t  _bloomIterations;
 
-  /// @brief Field _bloomTexID, offset 0xffffffff, size 0x4
-  __declspec(property(get = getStaticF__bloomTexID, put = setStaticF__bloomTexID)) int32_t _bloomTexID;
+/// @brief Field _bloomTexID, offset 0xffffffff, size 0x4 
+ __declspec(property(get=getStaticF__bloomTexID, put=setStaticF__bloomTexID)) int32_t  _bloomTexID;
 
-  /// @brief Field _bloomTextureWidth, offset 0x38, size 0x4
-  __declspec(property(get = __cordl_internal_get__bloomTextureWidth, put = __cordl_internal_set__bloomTextureWidth)) int32_t _bloomTextureWidth;
+/// @brief Field _bloomTextureWidth, offset 0x38, size 0x4 
+ __declspec(property(get=__cordl_internal_get__bloomTextureWidth, put=__cordl_internal_set__bloomTextureWidth)) int32_t  _bloomTextureWidth;
 
-  /// @brief Field _fadeID, offset 0xffffffff, size 0x4
-  __declspec(property(get = getStaticF__fadeID, put = setStaticF__fadeID)) int32_t _fadeID;
+/// @brief Field _fadeID, offset 0xffffffff, size 0x4 
+ __declspec(property(get=getStaticF__fadeID, put=setStaticF__fadeID)) int32_t  _fadeID;
 
-  /// @brief Field _kawaseBlurRenderer, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__kawaseBlurRenderer, put = __cordl_internal_set__kawaseBlurRenderer)) ::UnityW<::GlobalNamespace::KawaseBlurRendererSO> _kawaseBlurRenderer;
+/// @brief Field _kawaseBlurRenderer, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get__kawaseBlurRenderer, put=__cordl_internal_set__kawaseBlurRenderer)) ::UnityW<::GlobalNamespace::KawaseBlurRendererSO>  _kawaseBlurRenderer;
 
-  /// @brief Field _mainEffectMaterial, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__mainEffectMaterial, put = __cordl_internal_set__mainEffectMaterial)) ::UnityW<::UnityEngine::Material> _mainEffectMaterial;
+/// @brief Field _mainEffectMaterial, offset 0x48, size 0x8 
+ __declspec(property(get=__cordl_internal_get__mainEffectMaterial, put=__cordl_internal_set__mainEffectMaterial)) ::UnityW<::UnityEngine::Material>  _mainEffectMaterial;
 
-  /// @brief Field _mainEffectShader, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__mainEffectShader, put = __cordl_internal_set__mainEffectShader)) ::UnityW<::UnityEngine::Shader> _mainEffectShader;
+/// @brief Field _mainEffectShader, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get__mainEffectShader, put=__cordl_internal_set__mainEffectShader)) ::UnityW<::UnityEngine::Shader>  _mainEffectShader;
 
-  __declspec(property(get = get_hasPostProcessEffect)) bool hasPostProcessEffect;
+ __declspec(property(get=get_hasPostProcessEffect)) bool  hasPostProcessEffect;
 
-  /// @brief Method LazyInitializeMaterials, addr 0x5e06d9c, size 0xc4, virtual false, abstract: false, final false
-  inline void LazyInitializeMaterials();
+/// @brief Method LazyInitializeMaterials, addr 0x5e08914, size 0xc4, virtual false, abstract: false, final false
+inline void LazyInitializeMaterials() ;
 
-  static inline ::GlobalNamespace::KawaseBloomMainEffectSO* New_ctor();
+static inline ::GlobalNamespace::KawaseBloomMainEffectSO* New_ctor() ;
 
-  /// @brief Method OnDisable, addr 0x5e06e60, size 0x20, virtual false, abstract: false, final false
-  inline void OnDisable();
+/// @brief Method OnDisable, addr 0x5e089d8, size 0x20, virtual false, abstract: false, final false
+inline void OnDisable() ;
 
-  /// @brief Method OnEnable, addr 0x5e06d70, size 0x2c, virtual true, abstract: false, final false
-  inline void OnEnable();
+/// @brief Method OnEnable, addr 0x5e088e8, size 0x2c, virtual true, abstract: false, final false
+inline void OnEnable() ;
 
-  /// @brief Method PreRender, addr 0x5e06e80, size 0x68, virtual true, abstract: false, final false
-  inline void PreRender();
+/// @brief Method PreRender, addr 0x5e089f8, size 0x68, virtual true, abstract: false, final false
+inline void PreRender() ;
 
-  /// @brief Method Render, addr 0x5e06fb0, size 0x218, virtual true, abstract: false, final false
-  inline void Render(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dest, float_t fade);
+/// @brief Method Render, addr 0x5e08b28, size 0x218, virtual true, abstract: false, final false
+inline void Render(::UnityEngine::RenderTexture*  src, ::UnityEngine::RenderTexture*  dest, float_t  fade) ;
 
-  constexpr float_t const& __cordl_internal_get__baseColorBoost() const;
+constexpr float_t const& __cordl_internal_get__baseColorBoost() const;
 
-  constexpr float_t& __cordl_internal_get__baseColorBoost();
+constexpr float_t& __cordl_internal_get__baseColorBoost() ;
 
-  constexpr float_t const& __cordl_internal_get__baseColorBoostThreshold() const;
+constexpr float_t const& __cordl_internal_get__baseColorBoostThreshold() const;
 
-  constexpr float_t& __cordl_internal_get__baseColorBoostThreshold();
+constexpr float_t& __cordl_internal_get__baseColorBoostThreshold() ;
 
-  constexpr float_t const& __cordl_internal_get__bloomAlphaWeights() const;
+constexpr float_t const& __cordl_internal_get__bloomAlphaWeights() const;
 
-  constexpr float_t& __cordl_internal_get__bloomAlphaWeights();
+constexpr float_t& __cordl_internal_get__bloomAlphaWeights() ;
 
-  constexpr float_t const& __cordl_internal_get__bloomBoost() const;
+constexpr float_t const& __cordl_internal_get__bloomBoost() const;
 
-  constexpr float_t& __cordl_internal_get__bloomBoost();
+constexpr float_t& __cordl_internal_get__bloomBoost() ;
 
-  constexpr float_t const& __cordl_internal_get__bloomIntensity() const;
+constexpr float_t const& __cordl_internal_get__bloomIntensity() const;
 
-  constexpr float_t& __cordl_internal_get__bloomIntensity();
+constexpr float_t& __cordl_internal_get__bloomIntensity() ;
 
-  constexpr int32_t const& __cordl_internal_get__bloomIterations() const;
+constexpr int32_t const& __cordl_internal_get__bloomIterations() const;
 
-  constexpr int32_t& __cordl_internal_get__bloomIterations();
+constexpr int32_t& __cordl_internal_get__bloomIterations() ;
 
-  constexpr int32_t const& __cordl_internal_get__bloomTextureWidth() const;
+constexpr int32_t const& __cordl_internal_get__bloomTextureWidth() const;
 
-  constexpr int32_t& __cordl_internal_get__bloomTextureWidth();
+constexpr int32_t& __cordl_internal_get__bloomTextureWidth() ;
 
-  constexpr ::UnityW<::GlobalNamespace::KawaseBlurRendererSO> const& __cordl_internal_get__kawaseBlurRenderer() const;
+constexpr ::UnityW<::GlobalNamespace::KawaseBlurRendererSO> const& __cordl_internal_get__kawaseBlurRenderer() const;
 
-  constexpr ::UnityW<::GlobalNamespace::KawaseBlurRendererSO>& __cordl_internal_get__kawaseBlurRenderer();
+constexpr ::UnityW<::GlobalNamespace::KawaseBlurRendererSO>& __cordl_internal_get__kawaseBlurRenderer() ;
 
-  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__mainEffectMaterial() const;
+constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__mainEffectMaterial() const;
 
-  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get__mainEffectMaterial();
+constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get__mainEffectMaterial() ;
 
-  constexpr ::UnityW<::UnityEngine::Shader> const& __cordl_internal_get__mainEffectShader() const;
+constexpr ::UnityW<::UnityEngine::Shader> const& __cordl_internal_get__mainEffectShader() const;
 
-  constexpr ::UnityW<::UnityEngine::Shader>& __cordl_internal_get__mainEffectShader();
+constexpr ::UnityW<::UnityEngine::Shader>& __cordl_internal_get__mainEffectShader() ;
 
-  constexpr void __cordl_internal_set__baseColorBoost(float_t value);
+constexpr void __cordl_internal_set__baseColorBoost(float_t  value) ;
 
-  constexpr void __cordl_internal_set__baseColorBoostThreshold(float_t value);
+constexpr void __cordl_internal_set__baseColorBoostThreshold(float_t  value) ;
 
-  constexpr void __cordl_internal_set__bloomAlphaWeights(float_t value);
+constexpr void __cordl_internal_set__bloomAlphaWeights(float_t  value) ;
 
-  constexpr void __cordl_internal_set__bloomBoost(float_t value);
+constexpr void __cordl_internal_set__bloomBoost(float_t  value) ;
 
-  constexpr void __cordl_internal_set__bloomIntensity(float_t value);
+constexpr void __cordl_internal_set__bloomIntensity(float_t  value) ;
 
-  constexpr void __cordl_internal_set__bloomIterations(int32_t value);
+constexpr void __cordl_internal_set__bloomIterations(int32_t  value) ;
 
-  constexpr void __cordl_internal_set__bloomTextureWidth(int32_t value);
+constexpr void __cordl_internal_set__bloomTextureWidth(int32_t  value) ;
 
-  constexpr void __cordl_internal_set__kawaseBlurRenderer(::UnityW<::GlobalNamespace::KawaseBlurRendererSO> value);
+constexpr void __cordl_internal_set__kawaseBlurRenderer(::UnityW<::GlobalNamespace::KawaseBlurRendererSO>  value) ;
 
-  constexpr void __cordl_internal_set__mainEffectMaterial(::UnityW<::UnityEngine::Material> value);
+constexpr void __cordl_internal_set__mainEffectMaterial(::UnityW<::UnityEngine::Material>  value) ;
 
-  constexpr void __cordl_internal_set__mainEffectShader(::UnityW<::UnityEngine::Shader> value);
+constexpr void __cordl_internal_set__mainEffectShader(::UnityW<::UnityEngine::Shader>  value) ;
 
-  /// @brief Method .ctor, addr 0x5e071c8, size 0x28, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5e08d40, size 0x28, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  static inline int32_t getStaticF__bloomIntensityID();
+static inline int32_t getStaticF__bloomIntensityID() ;
 
-  static inline int32_t getStaticF__bloomTexID();
+static inline int32_t getStaticF__bloomTexID() ;
 
-  static inline int32_t getStaticF__fadeID();
+static inline int32_t getStaticF__fadeID() ;
 
-  /// @brief Method get_hasPostProcessEffect, addr 0x5e06d68, size 0x8, virtual true, abstract: false, final false
-  inline bool get_hasPostProcessEffect();
+/// @brief Method get_hasPostProcessEffect, addr 0x5e088e0, size 0x8, virtual true, abstract: false, final false
+inline bool get_hasPostProcessEffect() ;
 
-  static inline void setStaticF__bloomIntensityID(int32_t value);
+static inline void setStaticF__bloomIntensityID(int32_t  value) ;
 
-  static inline void setStaticF__bloomTexID(int32_t value);
+static inline void setStaticF__bloomTexID(int32_t  value) ;
 
-  static inline void setStaticF__fadeID(int32_t value);
+static inline void setStaticF__fadeID(int32_t  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr KawaseBloomMainEffectSO();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr KawaseBloomMainEffectSO() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "KawaseBloomMainEffectSO", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  KawaseBloomMainEffectSO(KawaseBloomMainEffectSO&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "KawaseBloomMainEffectSO", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  KawaseBloomMainEffectSO(KawaseBloomMainEffectSO const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "KawaseBloomMainEffectSO", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+KawaseBloomMainEffectSO(KawaseBloomMainEffectSO && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20799 };
+// Ctor Parameters [CppParam { name: "", ty: "KawaseBloomMainEffectSO", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+KawaseBloomMainEffectSO(KawaseBloomMainEffectSO const& ) = delete;
 
-  /// @brief Field _kawaseBlurRenderer, offset: 0x18, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::KawaseBlurRendererSO> ____kawaseBlurRenderer;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20802};
 
-  /// @brief Field _mainEffectShader, offset: 0x20, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::Shader> ____mainEffectShader;
+/// @brief Field _kawaseBlurRenderer, offset: 0x18, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::KawaseBlurRendererSO>  ____kawaseBlurRenderer;
 
-  /// @brief Field _bloomIntensity, offset: 0x28, size: 0x4, def value: None
-  float_t ____bloomIntensity;
+/// @brief Field _mainEffectShader, offset: 0x20, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::Shader>  ____mainEffectShader;
 
-  /// @brief Field _bloomIterations, offset: 0x2c, size: 0x4, def value: None
-  int32_t ____bloomIterations;
+/// @brief Field _bloomIntensity, offset: 0x28, size: 0x4, def value: None
+ float_t  ____bloomIntensity;
 
-  /// @brief Field _bloomBoost, offset: 0x30, size: 0x4, def value: None
-  float_t ____bloomBoost;
+/// @brief Field _bloomIterations, offset: 0x2c, size: 0x4, def value: None
+ int32_t  ____bloomIterations;
 
-  /// @brief Field _bloomAlphaWeights, offset: 0x34, size: 0x4, def value: None
-  float_t ____bloomAlphaWeights;
+/// @brief Field _bloomBoost, offset: 0x30, size: 0x4, def value: None
+ float_t  ____bloomBoost;
 
-  /// @brief Field _bloomTextureWidth, offset: 0x38, size: 0x4, def value: None
-  int32_t ____bloomTextureWidth;
+/// @brief Field _bloomAlphaWeights, offset: 0x34, size: 0x4, def value: None
+ float_t  ____bloomAlphaWeights;
 
-  /// @brief Field _baseColorBoost, offset: 0x3c, size: 0x4, def value: None
-  float_t ____baseColorBoost;
+/// @brief Field _bloomTextureWidth, offset: 0x38, size: 0x4, def value: None
+ int32_t  ____bloomTextureWidth;
 
-  /// @brief Field _baseColorBoostThreshold, offset: 0x40, size: 0x4, def value: None
-  float_t ____baseColorBoostThreshold;
+/// @brief Field _baseColorBoost, offset: 0x3c, size: 0x4, def value: None
+ float_t  ____baseColorBoost;
 
-  /// @brief Field _mainEffectMaterial, offset: 0x48, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::Material> ____mainEffectMaterial;
+/// @brief Field _baseColorBoostThreshold, offset: 0x40, size: 0x4, def value: None
+ float_t  ____baseColorBoostThreshold;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _mainEffectMaterial, offset: 0x48, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::Material>  ____mainEffectMaterial;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::KawaseBloomMainEffectSO, ____kawaseBlurRenderer) == 0x18, "Offset mismatch!");
@@ -240,6 +240,6 @@ static_assert(offsetof(::GlobalNamespace::KawaseBloomMainEffectSO, ____mainEffec
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::KawaseBloomMainEffectSO, 0x50>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::KawaseBloomMainEffectSO);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::KawaseBloomMainEffectSO*, "", "KawaseBloomMainEffectSO");

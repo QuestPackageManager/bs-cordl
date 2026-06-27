@@ -17,34 +17,34 @@ namespace System::Runtime::Serialization {
 // CS Name: System.Runtime.Serialization.TokenDataContract
 class CORDL_TYPE TokenDataContract : public ::System::Runtime::Serialization::StringDataContract {
 public:
-  // Declarations
-  static inline ::System::Runtime::Serialization::TokenDataContract* New_ctor();
+// Declarations
+static inline ::System::Runtime::Serialization::TokenDataContract* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x601b7b8, size 0x68, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x601d330, size 0x68, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TokenDataContract();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr TokenDataContract() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TokenDataContract", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  TokenDataContract(TokenDataContract&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TokenDataContract", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  TokenDataContract(TokenDataContract const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "TokenDataContract", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+TokenDataContract(TokenDataContract && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17072 };
+// Ctor Parameters [CppParam { name: "", ty: "TokenDataContract", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+TokenDataContract(TokenDataContract const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{17074};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::TokenDataContract, 0x30>, "Size mismatch!");
 
-} // namespace System::Runtime::Serialization
+} // namespace end def System::Runtime::Serialization
 NEED_NO_BOX(::System::Runtime::Serialization::TokenDataContract);
 DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::TokenDataContract*, "System.Runtime.Serialization", "TokenDataContract");

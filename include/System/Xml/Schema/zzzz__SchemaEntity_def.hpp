@@ -25,348 +25,348 @@ namespace System::Xml::Schema {
 // CS Name: System.Xml.Schema.SchemaEntity
 class CORDL_TYPE SchemaEntity : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = get_BaseURI, put = set_BaseURI)) ::StringW BaseURI;
+// Declarations
+ __declspec(property(get=get_BaseURI, put=set_BaseURI)) ::StringW  BaseURI;
 
-  __declspec(property(get = get_DeclaredInExternal, put = set_DeclaredInExternal)) bool DeclaredInExternal;
+ __declspec(property(get=get_DeclaredInExternal, put=set_DeclaredInExternal)) bool  DeclaredInExternal;
 
-  __declspec(property(get = get_DeclaredURI, put = set_DeclaredURI)) ::StringW DeclaredURI;
+ __declspec(property(get=get_DeclaredURI, put=set_DeclaredURI)) ::StringW  DeclaredURI;
 
-  __declspec(property(get = get_IsExternal, put = set_IsExternal)) bool IsExternal;
+ __declspec(property(get=get_IsExternal, put=set_IsExternal)) bool  IsExternal;
 
-  __declspec(property(get = get_Line, put = set_Line)) int32_t Line;
+ __declspec(property(get=get_Line, put=set_Line)) int32_t  Line;
 
-  __declspec(property(get = get_NData, put = set_NData)) ::System::Xml::XmlQualifiedName* NData;
+ __declspec(property(get=get_NData, put=set_NData)) ::System::Xml::XmlQualifiedName*  NData;
 
-  __declspec(property(get = get_Name)) ::System::Xml::XmlQualifiedName* Name;
+ __declspec(property(get=get_Name)) ::System::Xml::XmlQualifiedName*  Name;
 
-  __declspec(property(get = get_ParsingInProgress, put = set_ParsingInProgress)) bool ParsingInProgress;
+ __declspec(property(get=get_ParsingInProgress, put=set_ParsingInProgress)) bool  ParsingInProgress;
 
-  __declspec(property(get = get_Pos, put = set_Pos)) int32_t Pos;
+ __declspec(property(get=get_Pos, put=set_Pos)) int32_t  Pos;
 
-  __declspec(property(get = get_Pubid, put = set_Pubid)) ::StringW Pubid;
+ __declspec(property(get=get_Pubid, put=set_Pubid)) ::StringW  Pubid;
 
-  __declspec(property(get = System_Xml_IDtdEntityInfo_get_BaseUriString)) ::StringW System_Xml_IDtdEntityInfo_BaseUriString;
+ __declspec(property(get=System_Xml_IDtdEntityInfo_get_BaseUriString)) ::StringW  System_Xml_IDtdEntityInfo_BaseUriString;
 
-  __declspec(property(get = System_Xml_IDtdEntityInfo_get_DeclaredUriString)) ::StringW System_Xml_IDtdEntityInfo_DeclaredUriString;
+ __declspec(property(get=System_Xml_IDtdEntityInfo_get_DeclaredUriString)) ::StringW  System_Xml_IDtdEntityInfo_DeclaredUriString;
 
-  __declspec(property(get = System_Xml_IDtdEntityInfo_get_IsDeclaredInExternal)) bool System_Xml_IDtdEntityInfo_IsDeclaredInExternal;
+ __declspec(property(get=System_Xml_IDtdEntityInfo_get_IsDeclaredInExternal)) bool  System_Xml_IDtdEntityInfo_IsDeclaredInExternal;
 
-  __declspec(property(get = System_Xml_IDtdEntityInfo_get_IsExternal)) bool System_Xml_IDtdEntityInfo_IsExternal;
+ __declspec(property(get=System_Xml_IDtdEntityInfo_get_IsExternal)) bool  System_Xml_IDtdEntityInfo_IsExternal;
 
-  __declspec(property(get = System_Xml_IDtdEntityInfo_get_IsParameterEntity)) bool System_Xml_IDtdEntityInfo_IsParameterEntity;
+ __declspec(property(get=System_Xml_IDtdEntityInfo_get_IsParameterEntity)) bool  System_Xml_IDtdEntityInfo_IsParameterEntity;
 
-  __declspec(property(get = System_Xml_IDtdEntityInfo_get_IsUnparsedEntity)) bool System_Xml_IDtdEntityInfo_IsUnparsedEntity;
+ __declspec(property(get=System_Xml_IDtdEntityInfo_get_IsUnparsedEntity)) bool  System_Xml_IDtdEntityInfo_IsUnparsedEntity;
 
-  __declspec(property(get = System_Xml_IDtdEntityInfo_get_LineNumber)) int32_t System_Xml_IDtdEntityInfo_LineNumber;
+ __declspec(property(get=System_Xml_IDtdEntityInfo_get_LineNumber)) int32_t  System_Xml_IDtdEntityInfo_LineNumber;
 
-  __declspec(property(get = System_Xml_IDtdEntityInfo_get_LinePosition)) int32_t System_Xml_IDtdEntityInfo_LinePosition;
+ __declspec(property(get=System_Xml_IDtdEntityInfo_get_LinePosition)) int32_t  System_Xml_IDtdEntityInfo_LinePosition;
 
-  __declspec(property(get = System_Xml_IDtdEntityInfo_get_Name)) ::StringW System_Xml_IDtdEntityInfo_Name;
+ __declspec(property(get=System_Xml_IDtdEntityInfo_get_Name)) ::StringW  System_Xml_IDtdEntityInfo_Name;
 
-  __declspec(property(get = System_Xml_IDtdEntityInfo_get_PublicId)) ::StringW System_Xml_IDtdEntityInfo_PublicId;
+ __declspec(property(get=System_Xml_IDtdEntityInfo_get_PublicId)) ::StringW  System_Xml_IDtdEntityInfo_PublicId;
 
-  __declspec(property(get = System_Xml_IDtdEntityInfo_get_SystemId)) ::StringW System_Xml_IDtdEntityInfo_SystemId;
+ __declspec(property(get=System_Xml_IDtdEntityInfo_get_SystemId)) ::StringW  System_Xml_IDtdEntityInfo_SystemId;
 
-  __declspec(property(get = System_Xml_IDtdEntityInfo_get_Text)) ::StringW System_Xml_IDtdEntityInfo_Text;
+ __declspec(property(get=System_Xml_IDtdEntityInfo_get_Text)) ::StringW  System_Xml_IDtdEntityInfo_Text;
 
-  __declspec(property(get = get_Text, put = set_Text)) ::StringW Text;
+ __declspec(property(get=get_Text, put=set_Text)) ::StringW  Text;
 
-  __declspec(property(get = get_Url, put = set_Url)) ::StringW Url;
+ __declspec(property(get=get_Url, put=set_Url)) ::StringW  Url;
 
-  /// @brief Field baseURI, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_baseURI, put = __cordl_internal_set_baseURI)) ::StringW baseURI;
+/// @brief Field baseURI, offset 0x48, size 0x8 
+ __declspec(property(get=__cordl_internal_get_baseURI, put=__cordl_internal_set_baseURI)) ::StringW  baseURI;
 
-  /// @brief Field declaredURI, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_declaredURI, put = __cordl_internal_set_declaredURI)) ::StringW declaredURI;
+/// @brief Field declaredURI, offset 0x50, size 0x8 
+ __declspec(property(get=__cordl_internal_get_declaredURI, put=__cordl_internal_set_declaredURI)) ::StringW  declaredURI;
 
-  /// @brief Field isDeclaredInExternal, offset 0x43, size 0x1
-  __declspec(property(get = __cordl_internal_get_isDeclaredInExternal, put = __cordl_internal_set_isDeclaredInExternal)) bool isDeclaredInExternal;
+/// @brief Field isDeclaredInExternal, offset 0x43, size 0x1 
+ __declspec(property(get=__cordl_internal_get_isDeclaredInExternal, put=__cordl_internal_set_isDeclaredInExternal)) bool  isDeclaredInExternal;
 
-  /// @brief Field isExternal, offset 0x41, size 0x1
-  __declspec(property(get = __cordl_internal_get_isExternal, put = __cordl_internal_set_isExternal)) bool isExternal;
+/// @brief Field isExternal, offset 0x41, size 0x1 
+ __declspec(property(get=__cordl_internal_get_isExternal, put=__cordl_internal_set_isExternal)) bool  isExternal;
 
-  /// @brief Field isParameter, offset 0x40, size 0x1
-  __declspec(property(get = __cordl_internal_get_isParameter, put = __cordl_internal_set_isParameter)) bool isParameter;
+/// @brief Field isParameter, offset 0x40, size 0x1 
+ __declspec(property(get=__cordl_internal_get_isParameter, put=__cordl_internal_set_isParameter)) bool  isParameter;
 
-  /// @brief Field lineNumber, offset 0x38, size 0x4
-  __declspec(property(get = __cordl_internal_get_lineNumber, put = __cordl_internal_set_lineNumber)) int32_t lineNumber;
+/// @brief Field lineNumber, offset 0x38, size 0x4 
+ __declspec(property(get=__cordl_internal_get_lineNumber, put=__cordl_internal_set_lineNumber)) int32_t  lineNumber;
 
-  /// @brief Field linePosition, offset 0x3c, size 0x4
-  __declspec(property(get = __cordl_internal_get_linePosition, put = __cordl_internal_set_linePosition)) int32_t linePosition;
+/// @brief Field linePosition, offset 0x3c, size 0x4 
+ __declspec(property(get=__cordl_internal_get_linePosition, put=__cordl_internal_set_linePosition)) int32_t  linePosition;
 
-  /// @brief Field ndata, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_ndata, put = __cordl_internal_set_ndata)) ::System::Xml::XmlQualifiedName* ndata;
+/// @brief Field ndata, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get_ndata, put=__cordl_internal_set_ndata)) ::System::Xml::XmlQualifiedName*  ndata;
 
-  /// @brief Field parsingInProgress, offset 0x42, size 0x1
-  __declspec(property(get = __cordl_internal_get_parsingInProgress, put = __cordl_internal_set_parsingInProgress)) bool parsingInProgress;
+/// @brief Field parsingInProgress, offset 0x42, size 0x1 
+ __declspec(property(get=__cordl_internal_get_parsingInProgress, put=__cordl_internal_set_parsingInProgress)) bool  parsingInProgress;
 
-  /// @brief Field pubid, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_pubid, put = __cordl_internal_set_pubid)) ::StringW pubid;
+/// @brief Field pubid, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_pubid, put=__cordl_internal_set_pubid)) ::StringW  pubid;
 
-  /// @brief Field qname, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_qname, put = __cordl_internal_set_qname)) ::System::Xml::XmlQualifiedName* qname;
+/// @brief Field qname, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_qname, put=__cordl_internal_set_qname)) ::System::Xml::XmlQualifiedName*  qname;
 
-  /// @brief Field text, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_text, put = __cordl_internal_set_text)) ::StringW text;
+/// @brief Field text, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get_text, put=__cordl_internal_set_text)) ::StringW  text;
 
-  /// @brief Field url, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_url, put = __cordl_internal_set_url)) ::StringW url;
+/// @brief Field url, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_url, put=__cordl_internal_set_url)) ::StringW  url;
 
-  /// @brief Convert operator to "::System::Xml::IDtdEntityInfo"
-  constexpr operator ::System::Xml::IDtdEntityInfo*() noexcept;
+/// @brief Convert operator to "::System::Xml::IDtdEntityInfo"
+constexpr operator  ::System::Xml::IDtdEntityInfo*() noexcept;
 
-  /// @brief Method IsPredefinedEntity, addr 0x60c2aec, size 0xfc, virtual false, abstract: false, final false
-  static inline bool IsPredefinedEntity(::StringW n);
+/// @brief Method IsPredefinedEntity, addr 0x60c4664, size 0xfc, virtual false, abstract: false, final false
+static inline bool IsPredefinedEntity(::StringW  n) ;
 
-  static inline ::System::Xml::Schema::SchemaEntity* New_ctor(::System::Xml::XmlQualifiedName* qname, bool isParameter);
+static inline ::System::Xml::Schema::SchemaEntity* New_ctor(::System::Xml::XmlQualifiedName*  qname, bool  isParameter) ;
 
-  /// @brief Method System.Xml.IDtdEntityInfo.get_BaseUriString, addr 0x60c2a44, size 0x20, virtual true, abstract: false, final true
-  inline ::StringW System_Xml_IDtdEntityInfo_get_BaseUriString();
+/// @brief Method System.Xml.IDtdEntityInfo.get_BaseUriString, addr 0x60c45bc, size 0x20, virtual true, abstract: false, final true
+inline ::StringW System_Xml_IDtdEntityInfo_get_BaseUriString() ;
 
-  /// @brief Method System.Xml.IDtdEntityInfo.get_DeclaredUriString, addr 0x60c2a84, size 0x20, virtual true, abstract: false, final true
-  inline ::StringW System_Xml_IDtdEntityInfo_get_DeclaredUriString();
+/// @brief Method System.Xml.IDtdEntityInfo.get_DeclaredUriString, addr 0x60c45fc, size 0x20, virtual true, abstract: false, final true
+inline ::StringW System_Xml_IDtdEntityInfo_get_DeclaredUriString() ;
 
-  /// @brief Method System.Xml.IDtdEntityInfo.get_IsDeclaredInExternal, addr 0x60c2a0c, size 0x8, virtual true, abstract: false, final true
-  inline bool System_Xml_IDtdEntityInfo_get_IsDeclaredInExternal();
+/// @brief Method System.Xml.IDtdEntityInfo.get_IsDeclaredInExternal, addr 0x60c4584, size 0x8, virtual true, abstract: false, final true
+inline bool System_Xml_IDtdEntityInfo_get_IsDeclaredInExternal() ;
 
-  /// @brief Method System.Xml.IDtdEntityInfo.get_IsExternal, addr 0x60c2a04, size 0x8, virtual true, abstract: false, final true
-  inline bool System_Xml_IDtdEntityInfo_get_IsExternal();
+/// @brief Method System.Xml.IDtdEntityInfo.get_IsExternal, addr 0x60c457c, size 0x8, virtual true, abstract: false, final true
+inline bool System_Xml_IDtdEntityInfo_get_IsExternal() ;
 
-  /// @brief Method System.Xml.IDtdEntityInfo.get_IsParameterEntity, addr 0x60c2a3c, size 0x8, virtual true, abstract: false, final true
-  inline bool System_Xml_IDtdEntityInfo_get_IsParameterEntity();
+/// @brief Method System.Xml.IDtdEntityInfo.get_IsParameterEntity, addr 0x60c45b4, size 0x8, virtual true, abstract: false, final true
+inline bool System_Xml_IDtdEntityInfo_get_IsParameterEntity() ;
 
-  /// @brief Method System.Xml.IDtdEntityInfo.get_IsUnparsedEntity, addr 0x60c2a14, size 0x28, virtual true, abstract: false, final true
-  inline bool System_Xml_IDtdEntityInfo_get_IsUnparsedEntity();
+/// @brief Method System.Xml.IDtdEntityInfo.get_IsUnparsedEntity, addr 0x60c458c, size 0x28, virtual true, abstract: false, final true
+inline bool System_Xml_IDtdEntityInfo_get_IsUnparsedEntity() ;
 
-  /// @brief Method System.Xml.IDtdEntityInfo.get_LineNumber, addr 0x60c2adc, size 0x8, virtual true, abstract: false, final true
-  inline int32_t System_Xml_IDtdEntityInfo_get_LineNumber();
+/// @brief Method System.Xml.IDtdEntityInfo.get_LineNumber, addr 0x60c4654, size 0x8, virtual true, abstract: false, final true
+inline int32_t System_Xml_IDtdEntityInfo_get_LineNumber() ;
 
-  /// @brief Method System.Xml.IDtdEntityInfo.get_LinePosition, addr 0x60c2ae4, size 0x8, virtual true, abstract: false, final true
-  inline int32_t System_Xml_IDtdEntityInfo_get_LinePosition();
+/// @brief Method System.Xml.IDtdEntityInfo.get_LinePosition, addr 0x60c465c, size 0x8, virtual true, abstract: false, final true
+inline int32_t System_Xml_IDtdEntityInfo_get_LinePosition() ;
 
-  /// @brief Method System.Xml.IDtdEntityInfo.get_Name, addr 0x60c29ec, size 0x18, virtual true, abstract: false, final true
-  inline ::StringW System_Xml_IDtdEntityInfo_get_Name();
+/// @brief Method System.Xml.IDtdEntityInfo.get_Name, addr 0x60c4564, size 0x18, virtual true, abstract: false, final true
+inline ::StringW System_Xml_IDtdEntityInfo_get_Name() ;
 
-  /// @brief Method System.Xml.IDtdEntityInfo.get_PublicId, addr 0x60c2acc, size 0x8, virtual true, abstract: false, final true
-  inline ::StringW System_Xml_IDtdEntityInfo_get_PublicId();
+/// @brief Method System.Xml.IDtdEntityInfo.get_PublicId, addr 0x60c4644, size 0x8, virtual true, abstract: false, final true
+inline ::StringW System_Xml_IDtdEntityInfo_get_PublicId() ;
 
-  /// @brief Method System.Xml.IDtdEntityInfo.get_SystemId, addr 0x60c2ac4, size 0x8, virtual true, abstract: false, final true
-  inline ::StringW System_Xml_IDtdEntityInfo_get_SystemId();
+/// @brief Method System.Xml.IDtdEntityInfo.get_SystemId, addr 0x60c463c, size 0x8, virtual true, abstract: false, final true
+inline ::StringW System_Xml_IDtdEntityInfo_get_SystemId() ;
 
-  /// @brief Method System.Xml.IDtdEntityInfo.get_Text, addr 0x60c2ad4, size 0x8, virtual true, abstract: false, final true
-  inline ::StringW System_Xml_IDtdEntityInfo_get_Text();
+/// @brief Method System.Xml.IDtdEntityInfo.get_Text, addr 0x60c464c, size 0x8, virtual true, abstract: false, final true
+inline ::StringW System_Xml_IDtdEntityInfo_get_Text() ;
 
-  constexpr ::StringW const& __cordl_internal_get_baseURI() const;
+constexpr ::StringW const& __cordl_internal_get_baseURI() const;
 
-  constexpr ::StringW& __cordl_internal_get_baseURI();
+constexpr ::StringW& __cordl_internal_get_baseURI() ;
 
-  constexpr ::StringW const& __cordl_internal_get_declaredURI() const;
+constexpr ::StringW const& __cordl_internal_get_declaredURI() const;
 
-  constexpr ::StringW& __cordl_internal_get_declaredURI();
+constexpr ::StringW& __cordl_internal_get_declaredURI() ;
 
-  constexpr bool const& __cordl_internal_get_isDeclaredInExternal() const;
+constexpr bool const& __cordl_internal_get_isDeclaredInExternal() const;
 
-  constexpr bool& __cordl_internal_get_isDeclaredInExternal();
+constexpr bool& __cordl_internal_get_isDeclaredInExternal() ;
 
-  constexpr bool const& __cordl_internal_get_isExternal() const;
+constexpr bool const& __cordl_internal_get_isExternal() const;
 
-  constexpr bool& __cordl_internal_get_isExternal();
+constexpr bool& __cordl_internal_get_isExternal() ;
 
-  constexpr bool const& __cordl_internal_get_isParameter() const;
+constexpr bool const& __cordl_internal_get_isParameter() const;
 
-  constexpr bool& __cordl_internal_get_isParameter();
+constexpr bool& __cordl_internal_get_isParameter() ;
 
-  constexpr int32_t const& __cordl_internal_get_lineNumber() const;
+constexpr int32_t const& __cordl_internal_get_lineNumber() const;
 
-  constexpr int32_t& __cordl_internal_get_lineNumber();
+constexpr int32_t& __cordl_internal_get_lineNumber() ;
 
-  constexpr int32_t const& __cordl_internal_get_linePosition() const;
+constexpr int32_t const& __cordl_internal_get_linePosition() const;
 
-  constexpr int32_t& __cordl_internal_get_linePosition();
+constexpr int32_t& __cordl_internal_get_linePosition() ;
 
-  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_ndata() const;
+constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_ndata() const;
 
-  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_ndata();
+constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_ndata() ;
 
-  constexpr bool const& __cordl_internal_get_parsingInProgress() const;
+constexpr bool const& __cordl_internal_get_parsingInProgress() const;
 
-  constexpr bool& __cordl_internal_get_parsingInProgress();
+constexpr bool& __cordl_internal_get_parsingInProgress() ;
 
-  constexpr ::StringW const& __cordl_internal_get_pubid() const;
+constexpr ::StringW const& __cordl_internal_get_pubid() const;
 
-  constexpr ::StringW& __cordl_internal_get_pubid();
+constexpr ::StringW& __cordl_internal_get_pubid() ;
 
-  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_qname() const;
+constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_qname() const;
 
-  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_qname();
+constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_qname() ;
 
-  constexpr ::StringW const& __cordl_internal_get_text() const;
+constexpr ::StringW const& __cordl_internal_get_text() const;
 
-  constexpr ::StringW& __cordl_internal_get_text();
+constexpr ::StringW& __cordl_internal_get_text() ;
 
-  constexpr ::StringW const& __cordl_internal_get_url() const;
+constexpr ::StringW const& __cordl_internal_get_url() const;
 
-  constexpr ::StringW& __cordl_internal_get_url();
+constexpr ::StringW& __cordl_internal_get_url() ;
 
-  constexpr void __cordl_internal_set_baseURI(::StringW value);
+constexpr void __cordl_internal_set_baseURI(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_declaredURI(::StringW value);
+constexpr void __cordl_internal_set_declaredURI(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_isDeclaredInExternal(bool value);
+constexpr void __cordl_internal_set_isDeclaredInExternal(bool  value) ;
 
-  constexpr void __cordl_internal_set_isExternal(bool value);
+constexpr void __cordl_internal_set_isExternal(bool  value) ;
 
-  constexpr void __cordl_internal_set_isParameter(bool value);
+constexpr void __cordl_internal_set_isParameter(bool  value) ;
 
-  constexpr void __cordl_internal_set_lineNumber(int32_t value);
+constexpr void __cordl_internal_set_lineNumber(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_linePosition(int32_t value);
+constexpr void __cordl_internal_set_linePosition(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_ndata(::System::Xml::XmlQualifiedName* value);
+constexpr void __cordl_internal_set_ndata(::System::Xml::XmlQualifiedName*  value) ;
 
-  constexpr void __cordl_internal_set_parsingInProgress(bool value);
+constexpr void __cordl_internal_set_parsingInProgress(bool  value) ;
 
-  constexpr void __cordl_internal_set_pubid(::StringW value);
+constexpr void __cordl_internal_set_pubid(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_qname(::System::Xml::XmlQualifiedName* value);
+constexpr void __cordl_internal_set_qname(::System::Xml::XmlQualifiedName*  value) ;
 
-  constexpr void __cordl_internal_set_text(::StringW value);
+constexpr void __cordl_internal_set_text(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_url(::StringW value);
+constexpr void __cordl_internal_set_url(::StringW  value) ;
 
-  /// @brief Method .ctor, addr 0x60c296c, size 0x80, virtual false, abstract: false, final false
-  inline void _ctor(::System::Xml::XmlQualifiedName* qname, bool isParameter);
+/// @brief Method .ctor, addr 0x60c44e4, size 0x80, virtual false, abstract: false, final false
+inline void _ctor(::System::Xml::XmlQualifiedName*  qname, bool  isParameter) ;
 
-  /// @brief Method get_BaseURI, addr 0x60c2a64, size 0x20, virtual false, abstract: false, final false
-  inline ::StringW get_BaseURI();
+/// @brief Method get_BaseURI, addr 0x60c45dc, size 0x20, virtual false, abstract: false, final false
+inline ::StringW get_BaseURI() ;
 
-  /// @brief Method get_DeclaredInExternal, addr 0x60c2c28, size 0x8, virtual false, abstract: false, final false
-  inline bool get_DeclaredInExternal();
+/// @brief Method get_DeclaredInExternal, addr 0x60c47a0, size 0x8, virtual false, abstract: false, final false
+inline bool get_DeclaredInExternal() ;
 
-  /// @brief Method get_DeclaredURI, addr 0x60c2aa4, size 0x20, virtual false, abstract: false, final false
-  inline ::StringW get_DeclaredURI();
+/// @brief Method get_DeclaredURI, addr 0x60c461c, size 0x20, virtual false, abstract: false, final false
+inline ::StringW get_DeclaredURI() ;
 
-  /// @brief Method get_IsExternal, addr 0x60c2c18, size 0x8, virtual false, abstract: false, final false
-  inline bool get_IsExternal();
+/// @brief Method get_IsExternal, addr 0x60c4790, size 0x8, virtual false, abstract: false, final false
+inline bool get_IsExternal() ;
 
-  /// @brief Method get_Line, addr 0x60c2c5c, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_Line();
+/// @brief Method get_Line, addr 0x60c47d4, size 0x8, virtual false, abstract: false, final false
+inline int32_t get_Line() ;
 
-  /// @brief Method get_NData, addr 0x60c2c38, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Xml::XmlQualifiedName* get_NData();
+/// @brief Method get_NData, addr 0x60c47b0, size 0x8, virtual false, abstract: false, final false
+inline ::System::Xml::XmlQualifiedName* get_NData() ;
 
-  /// @brief Method get_Name, addr 0x60c2be8, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Xml::XmlQualifiedName* get_Name();
+/// @brief Method get_Name, addr 0x60c4760, size 0x8, virtual false, abstract: false, final false
+inline ::System::Xml::XmlQualifiedName* get_Name() ;
 
-  /// @brief Method get_ParsingInProgress, addr 0x60c2c84, size 0x8, virtual false, abstract: false, final false
-  inline bool get_ParsingInProgress();
+/// @brief Method get_ParsingInProgress, addr 0x60c47fc, size 0x8, virtual false, abstract: false, final false
+inline bool get_ParsingInProgress() ;
 
-  /// @brief Method get_Pos, addr 0x60c2c6c, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_Pos();
+/// @brief Method get_Pos, addr 0x60c47e4, size 0x8, virtual false, abstract: false, final false
+inline int32_t get_Pos() ;
 
-  /// @brief Method get_Pubid, addr 0x60c2c08, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_Pubid();
+/// @brief Method get_Pubid, addr 0x60c4780, size 0x8, virtual false, abstract: false, final false
+inline ::StringW get_Pubid() ;
 
-  /// @brief Method get_Text, addr 0x60c2c48, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_Text();
+/// @brief Method get_Text, addr 0x60c47c0, size 0x8, virtual false, abstract: false, final false
+inline ::StringW get_Text() ;
 
-  /// @brief Method get_Url, addr 0x60c2bf0, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_Url();
+/// @brief Method get_Url, addr 0x60c4768, size 0x8, virtual false, abstract: false, final false
+inline ::StringW get_Url() ;
 
-  /// @brief Convert to "::System::Xml::IDtdEntityInfo"
-  constexpr ::System::Xml::IDtdEntityInfo* i___System__Xml__IDtdEntityInfo() noexcept;
+/// @brief Convert to "::System::Xml::IDtdEntityInfo"
+constexpr ::System::Xml::IDtdEntityInfo* i___System__Xml__IDtdEntityInfo() noexcept;
 
-  /// @brief Method set_BaseURI, addr 0x60c2c7c, size 0x8, virtual false, abstract: false, final false
-  inline void set_BaseURI(::StringW value);
+/// @brief Method set_BaseURI, addr 0x60c47f4, size 0x8, virtual false, abstract: false, final false
+inline void set_BaseURI(::StringW  value) ;
 
-  /// @brief Method set_DeclaredInExternal, addr 0x60c2c30, size 0x8, virtual false, abstract: false, final false
-  inline void set_DeclaredInExternal(bool value);
+/// @brief Method set_DeclaredInExternal, addr 0x60c47a8, size 0x8, virtual false, abstract: false, final false
+inline void set_DeclaredInExternal(bool  value) ;
 
-  /// @brief Method set_DeclaredURI, addr 0x60c2c94, size 0x8, virtual false, abstract: false, final false
-  inline void set_DeclaredURI(::StringW value);
+/// @brief Method set_DeclaredURI, addr 0x60c480c, size 0x8, virtual false, abstract: false, final false
+inline void set_DeclaredURI(::StringW  value) ;
 
-  /// @brief Method set_IsExternal, addr 0x60c2c20, size 0x8, virtual false, abstract: false, final false
-  inline void set_IsExternal(bool value);
+/// @brief Method set_IsExternal, addr 0x60c4798, size 0x8, virtual false, abstract: false, final false
+inline void set_IsExternal(bool  value) ;
 
-  /// @brief Method set_Line, addr 0x60c2c64, size 0x8, virtual false, abstract: false, final false
-  inline void set_Line(int32_t value);
+/// @brief Method set_Line, addr 0x60c47dc, size 0x8, virtual false, abstract: false, final false
+inline void set_Line(int32_t  value) ;
 
-  /// @brief Method set_NData, addr 0x60c2c40, size 0x8, virtual false, abstract: false, final false
-  inline void set_NData(::System::Xml::XmlQualifiedName* value);
+/// @brief Method set_NData, addr 0x60c47b8, size 0x8, virtual false, abstract: false, final false
+inline void set_NData(::System::Xml::XmlQualifiedName*  value) ;
 
-  /// @brief Method set_ParsingInProgress, addr 0x60c2c8c, size 0x8, virtual false, abstract: false, final false
-  inline void set_ParsingInProgress(bool value);
+/// @brief Method set_ParsingInProgress, addr 0x60c4804, size 0x8, virtual false, abstract: false, final false
+inline void set_ParsingInProgress(bool  value) ;
 
-  /// @brief Method set_Pos, addr 0x60c2c74, size 0x8, virtual false, abstract: false, final false
-  inline void set_Pos(int32_t value);
+/// @brief Method set_Pos, addr 0x60c47ec, size 0x8, virtual false, abstract: false, final false
+inline void set_Pos(int32_t  value) ;
 
-  /// @brief Method set_Pubid, addr 0x60c2c10, size 0x8, virtual false, abstract: false, final false
-  inline void set_Pubid(::StringW value);
+/// @brief Method set_Pubid, addr 0x60c4788, size 0x8, virtual false, abstract: false, final false
+inline void set_Pubid(::StringW  value) ;
 
-  /// @brief Method set_Text, addr 0x60c2c50, size 0xc, virtual false, abstract: false, final false
-  inline void set_Text(::StringW value);
+/// @brief Method set_Text, addr 0x60c47c8, size 0xc, virtual false, abstract: false, final false
+inline void set_Text(::StringW  value) ;
 
-  /// @brief Method set_Url, addr 0x60c2bf8, size 0x10, virtual false, abstract: false, final false
-  inline void set_Url(::StringW value);
+/// @brief Method set_Url, addr 0x60c4770, size 0x10, virtual false, abstract: false, final false
+inline void set_Url(::StringW  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SchemaEntity();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr SchemaEntity() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SchemaEntity", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  SchemaEntity(SchemaEntity&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SchemaEntity", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  SchemaEntity(SchemaEntity const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "SchemaEntity", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+SchemaEntity(SchemaEntity && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9699 };
+// Ctor Parameters [CppParam { name: "", ty: "SchemaEntity", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+SchemaEntity(SchemaEntity const& ) = delete;
 
-  /// @brief Field qname, offset: 0x10, size: 0x8, def value: None
-  ::System::Xml::XmlQualifiedName* ___qname;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9700};
 
-  /// @brief Field url, offset: 0x18, size: 0x8, def value: None
-  ::StringW ___url;
+/// @brief Field qname, offset: 0x10, size: 0x8, def value: None
+ ::System::Xml::XmlQualifiedName*  ___qname;
 
-  /// @brief Field pubid, offset: 0x20, size: 0x8, def value: None
-  ::StringW ___pubid;
+/// @brief Field url, offset: 0x18, size: 0x8, def value: None
+ ::StringW  ___url;
 
-  /// @brief Field text, offset: 0x28, size: 0x8, def value: None
-  ::StringW ___text;
+/// @brief Field pubid, offset: 0x20, size: 0x8, def value: None
+ ::StringW  ___pubid;
 
-  /// @brief Field ndata, offset: 0x30, size: 0x8, def value: None
-  ::System::Xml::XmlQualifiedName* ___ndata;
+/// @brief Field text, offset: 0x28, size: 0x8, def value: None
+ ::StringW  ___text;
 
-  /// @brief Field lineNumber, offset: 0x38, size: 0x4, def value: None
-  int32_t ___lineNumber;
+/// @brief Field ndata, offset: 0x30, size: 0x8, def value: None
+ ::System::Xml::XmlQualifiedName*  ___ndata;
 
-  /// @brief Field linePosition, offset: 0x3c, size: 0x4, def value: None
-  int32_t ___linePosition;
+/// @brief Field lineNumber, offset: 0x38, size: 0x4, def value: None
+ int32_t  ___lineNumber;
 
-  /// @brief Field isParameter, offset: 0x40, size: 0x1, def value: None
-  bool ___isParameter;
+/// @brief Field linePosition, offset: 0x3c, size: 0x4, def value: None
+ int32_t  ___linePosition;
 
-  /// @brief Field isExternal, offset: 0x41, size: 0x1, def value: None
-  bool ___isExternal;
+/// @brief Field isParameter, offset: 0x40, size: 0x1, def value: None
+ bool  ___isParameter;
 
-  /// @brief Field parsingInProgress, offset: 0x42, size: 0x1, def value: None
-  bool ___parsingInProgress;
+/// @brief Field isExternal, offset: 0x41, size: 0x1, def value: None
+ bool  ___isExternal;
 
-  /// @brief Field isDeclaredInExternal, offset: 0x43, size: 0x1, def value: None
-  bool ___isDeclaredInExternal;
+/// @brief Field parsingInProgress, offset: 0x42, size: 0x1, def value: None
+ bool  ___parsingInProgress;
 
-  /// @brief Field baseURI, offset: 0x48, size: 0x8, def value: None
-  ::StringW ___baseURI;
+/// @brief Field isDeclaredInExternal, offset: 0x43, size: 0x1, def value: None
+ bool  ___isDeclaredInExternal;
 
-  /// @brief Field declaredURI, offset: 0x50, size: 0x8, def value: None
-  ::StringW ___declaredURI;
+/// @brief Field baseURI, offset: 0x48, size: 0x8, def value: None
+ ::StringW  ___baseURI;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field declaredURI, offset: 0x50, size: 0x8, def value: None
+ ::StringW  ___declaredURI;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Xml::Schema::SchemaEntity, ___qname) == 0x10, "Offset mismatch!");
@@ -397,6 +397,6 @@ static_assert(offsetof(::System::Xml::Schema::SchemaEntity, ___declaredURI) == 0
 
 static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::SchemaEntity, 0x58>, "Size mismatch!");
 
-} // namespace System::Xml::Schema
+} // namespace end def System::Xml::Schema
 NEED_NO_BOX(::System::Xml::Schema::SchemaEntity);
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::SchemaEntity*, "System.Xml.Schema", "SchemaEntity");

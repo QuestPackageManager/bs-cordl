@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "Org/BouncyCastle/Asn1/X9/DHDomainParameters.hpp"
 #include "Org/BouncyCastle/Asn1/X9/DHPublicKey.hpp"
@@ -20,5 +20,6 @@ module;
 #include "Org/BouncyCastle/Asn1/X9/X9IntegerConverter.hpp"
 #include "Org/BouncyCastle/Asn1/X9/X9ObjectIdentifiers.hpp"
 #ifdef __cpp_modules
-export module X9;
-#endif
+                    export module X9;
+                    #endif
+                

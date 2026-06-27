@@ -31,113 +31,113 @@ namespace Unity::Hierarchy {
 // CS Name: Unity.Hierarchy.HierarchyCommandList/BindingsMarshaller
 class CORDL_TYPE HierarchyCommandList_BindingsMarshaller : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method ConvertToNative, addr 0x69e0bcc, size 0x14, virtual false, abstract: false, final false
-  static inline ::System::IntPtr ConvertToNative(::Unity::Hierarchy::HierarchyCommandList* cmdList);
+// Declarations
+/// @brief Method ConvertToNative, addr 0x69e2744, size 0x14, virtual false, abstract: false, final false
+static inline ::System::IntPtr ConvertToNative(::Unity::Hierarchy::HierarchyCommandList*  cmdList) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HierarchyCommandList_BindingsMarshaller();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr HierarchyCommandList_BindingsMarshaller() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HierarchyCommandList_BindingsMarshaller", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  HierarchyCommandList_BindingsMarshaller(HierarchyCommandList_BindingsMarshaller&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HierarchyCommandList_BindingsMarshaller", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  HierarchyCommandList_BindingsMarshaller(HierarchyCommandList_BindingsMarshaller const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "HierarchyCommandList_BindingsMarshaller", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+HierarchyCommandList_BindingsMarshaller(HierarchyCommandList_BindingsMarshaller && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21765 };
+// Ctor Parameters [CppParam { name: "", ty: "HierarchyCommandList_BindingsMarshaller", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+HierarchyCommandList_BindingsMarshaller(HierarchyCommandList_BindingsMarshaller const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{21768};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Unity::Hierarchy::HierarchyCommandList_BindingsMarshaller, 0x10>, "Size mismatch!");
 
-} // namespace Unity::Hierarchy
+} // namespace end def Unity::Hierarchy
 // Dependencies System.IntPtr, System.Object
 namespace Unity::Hierarchy {
 // Is value type: false
 // CS Name: Unity.Hierarchy.HierarchyCommandList
 class CORDL_TYPE HierarchyCommandList : public ::System::Object {
 public:
-  // Declarations
-  using BindingsMarshaller = ::Unity::Hierarchy::HierarchyCommandList_BindingsMarshaller;
+// Declarations
+using BindingsMarshaller = ::Unity::Hierarchy::HierarchyCommandList_BindingsMarshaller;
 
-  /// @brief Field m_IsOwner, offset 0x18, size 0x1
-  __declspec(property(get = __cordl_internal_get_m_IsOwner, put = __cordl_internal_set_m_IsOwner)) bool m_IsOwner;
+/// @brief Field m_IsOwner, offset 0x18, size 0x1 
+ __declspec(property(get=__cordl_internal_get_m_IsOwner, put=__cordl_internal_set_m_IsOwner)) bool  m_IsOwner;
 
-  /// @brief Field m_Ptr, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Ptr, put = __cordl_internal_set_m_Ptr)) ::System::IntPtr m_Ptr;
+/// @brief Field m_Ptr, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_Ptr, put=__cordl_internal_set_m_Ptr)) ::System::IntPtr  m_Ptr;
 
-  /// @brief Convert operator to "::System::IDisposable"
-  constexpr operator ::System::IDisposable*() noexcept;
+/// @brief Convert operator to "::System::IDisposable"
+constexpr operator  ::System::IDisposable*() noexcept;
 
-  /// @brief Method CreateCommandList, addr 0x69e0b70, size 0x5c, virtual false, abstract: false, final false
-  static inline ::System::IntPtr CreateCommandList(::System::IntPtr nativePtr);
+/// @brief Method CreateCommandList, addr 0x69e26e8, size 0x5c, virtual false, abstract: false, final false
+static inline ::System::IntPtr CreateCommandList(::System::IntPtr  nativePtr) ;
 
-  /// @brief Method Destroy, addr 0x69e0aac, size 0x3c, virtual false, abstract: false, final false
-  static inline void Destroy(::System::IntPtr nativePtr);
+/// @brief Method Destroy, addr 0x69e2624, size 0x3c, virtual false, abstract: false, final false
+static inline void Destroy(::System::IntPtr  nativePtr) ;
 
-  /// @brief Method Dispose, addr 0x69e0a44, size 0x68, virtual true, abstract: false, final true
-  inline void Dispose();
+/// @brief Method Dispose, addr 0x69e25bc, size 0x68, virtual true, abstract: false, final true
+inline void Dispose() ;
 
-  /// @brief Method Dispose, addr 0x69e09f0, size 0x54, virtual false, abstract: false, final false
-  inline void Dispose(bool disposing);
+/// @brief Method Dispose, addr 0x69e2568, size 0x54, virtual false, abstract: false, final false
+inline void Dispose(bool  disposing) ;
 
-  /// @brief Method Finalize, addr 0x69e09a8, size 0x48, virtual true, abstract: false, final false
-  inline void Finalize();
+/// @brief Method Finalize, addr 0x69e2520, size 0x48, virtual true, abstract: false, final false
+inline void Finalize() ;
 
-  /// @brief Method FromIntPtr, addr 0x69e0ae8, size 0x88, virtual false, abstract: false, final false
-  static inline ::Unity::Hierarchy::HierarchyCommandList* FromIntPtr(::System::IntPtr handlePtr);
+/// @brief Method FromIntPtr, addr 0x69e2660, size 0x88, virtual false, abstract: false, final false
+static inline ::Unity::Hierarchy::HierarchyCommandList* FromIntPtr(::System::IntPtr  handlePtr) ;
 
-  static inline ::Unity::Hierarchy::HierarchyCommandList* New_ctor(::System::IntPtr nativePtr);
+static inline ::Unity::Hierarchy::HierarchyCommandList* New_ctor(::System::IntPtr  nativePtr) ;
 
-  constexpr bool const& __cordl_internal_get_m_IsOwner() const;
+constexpr bool const& __cordl_internal_get_m_IsOwner() const;
 
-  constexpr bool& __cordl_internal_get_m_IsOwner();
+constexpr bool& __cordl_internal_get_m_IsOwner() ;
 
-  constexpr ::System::IntPtr const& __cordl_internal_get_m_Ptr() const;
+constexpr ::System::IntPtr const& __cordl_internal_get_m_Ptr() const;
 
-  constexpr ::System::IntPtr& __cordl_internal_get_m_Ptr();
+constexpr ::System::IntPtr& __cordl_internal_get_m_Ptr() ;
 
-  constexpr void __cordl_internal_set_m_IsOwner(bool value);
+constexpr void __cordl_internal_set_m_IsOwner(bool  value) ;
 
-  constexpr void __cordl_internal_set_m_Ptr(::System::IntPtr value);
+constexpr void __cordl_internal_set_m_Ptr(::System::IntPtr  value) ;
 
-  /// @brief Method .ctor, addr 0x69e099c, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor(::System::IntPtr nativePtr);
+/// @brief Method .ctor, addr 0x69e2514, size 0xc, virtual false, abstract: false, final false
+inline void _ctor(::System::IntPtr  nativePtr) ;
 
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+/// @brief Convert to "::System::IDisposable"
+constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HierarchyCommandList();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr HierarchyCommandList() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HierarchyCommandList", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  HierarchyCommandList(HierarchyCommandList&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HierarchyCommandList", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  HierarchyCommandList(HierarchyCommandList const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "HierarchyCommandList", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+HierarchyCommandList(HierarchyCommandList && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21766 };
+// Ctor Parameters [CppParam { name: "", ty: "HierarchyCommandList", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+HierarchyCommandList(HierarchyCommandList const& ) = delete;
 
-  /// @brief Field m_Ptr, offset: 0x10, size: 0x8, def value: None
-  ::System::IntPtr ___m_Ptr;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{21769};
 
-  /// @brief Field m_IsOwner, offset: 0x18, size: 0x1, def value: None
-  bool ___m_IsOwner;
+/// @brief Field m_Ptr, offset: 0x10, size: 0x8, def value: None
+ ::System::IntPtr  ___m_Ptr;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field m_IsOwner, offset: 0x18, size: 0x1, def value: None
+ bool  ___m_IsOwner;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Unity::Hierarchy::HierarchyCommandList, ___m_Ptr) == 0x10, "Offset mismatch!");
@@ -146,7 +146,7 @@ static_assert(offsetof(::Unity::Hierarchy::HierarchyCommandList, ___m_IsOwner) =
 
 static_assert(::cordl_internals::size_check_v<::Unity::Hierarchy::HierarchyCommandList, 0x20>, "Size mismatch!");
 
-} // namespace Unity::Hierarchy
+} // namespace end def Unity::Hierarchy
 NEED_NO_BOX(::Unity::Hierarchy::HierarchyCommandList);
 DEFINE_IL2CPP_ARG_TYPE(::Unity::Hierarchy::HierarchyCommandList*, "Unity.Hierarchy", "HierarchyCommandList");
 NEED_NO_BOX(::Unity::Hierarchy::HierarchyCommandList_BindingsMarshaller);

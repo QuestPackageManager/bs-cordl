@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "Org/BouncyCastle/Pkix/CertStatus.hpp"
 #include "Org/BouncyCastle/Pkix/PkixAttrCertChecker.hpp"
@@ -27,5 +27,6 @@ module;
 #include "Org/BouncyCastle/Pkix/Rfc3281CertPathUtilities.hpp"
 #include "Org/BouncyCastle/Pkix/TrustAnchor.hpp"
 #ifdef __cpp_modules
-export module Pkix;
-#endif
+                    export module Pkix;
+                    #endif
+                

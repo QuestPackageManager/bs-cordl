@@ -23,57 +23,57 @@ namespace HMUI {
 // CS Name: HMUI.DropdownWithTitleView
 class CORDL_TYPE DropdownWithTitleView : public ::HMUI::SimpleTextDropdown {
 public:
-  // Declarations
-  /// @brief Field _rectTransform, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get__rectTransform, put = __cordl_internal_set__rectTransform)) ::UnityW<::UnityEngine::RectTransform> _rectTransform;
+// Declarations
+/// @brief Field _rectTransform, offset 0x80, size 0x8 
+ __declspec(property(get=__cordl_internal_get__rectTransform, put=__cordl_internal_set__rectTransform)) ::UnityW<::UnityEngine::RectTransform>  _rectTransform;
 
-  /// @brief Field _titleRectTransform, offset 0x88, size 0x8
-  __declspec(property(get = __cordl_internal_get__titleRectTransform, put = __cordl_internal_set__titleRectTransform)) ::UnityW<::UnityEngine::RectTransform> _titleRectTransform;
+/// @brief Field _titleRectTransform, offset 0x88, size 0x8 
+ __declspec(property(get=__cordl_internal_get__titleRectTransform, put=__cordl_internal_set__titleRectTransform)) ::UnityW<::UnityEngine::RectTransform>  _titleRectTransform;
 
-  static inline ::HMUI::DropdownWithTitleView* New_ctor();
+static inline ::HMUI::DropdownWithTitleView* New_ctor() ;
 
-  /// @brief Method RefreshSize, addr 0x573c464, size 0x60, virtual true, abstract: false, final false
-  inline void RefreshSize(::HMUI::TableView_IDataSource* dataSource);
+/// @brief Method RefreshSize, addr 0x573dccc, size 0x60, virtual true, abstract: false, final false
+inline void RefreshSize(::HMUI::TableView_IDataSource*  dataSource) ;
 
-  constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get__rectTransform() const;
+constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get__rectTransform() const;
 
-  constexpr ::UnityW<::UnityEngine::RectTransform>& __cordl_internal_get__rectTransform();
+constexpr ::UnityW<::UnityEngine::RectTransform>& __cordl_internal_get__rectTransform() ;
 
-  constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get__titleRectTransform() const;
+constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get__titleRectTransform() const;
 
-  constexpr ::UnityW<::UnityEngine::RectTransform>& __cordl_internal_get__titleRectTransform();
+constexpr ::UnityW<::UnityEngine::RectTransform>& __cordl_internal_get__titleRectTransform() ;
 
-  constexpr void __cordl_internal_set__rectTransform(::UnityW<::UnityEngine::RectTransform> value);
+constexpr void __cordl_internal_set__rectTransform(::UnityW<::UnityEngine::RectTransform>  value) ;
 
-  constexpr void __cordl_internal_set__titleRectTransform(::UnityW<::UnityEngine::RectTransform> value);
+constexpr void __cordl_internal_set__titleRectTransform(::UnityW<::UnityEngine::RectTransform>  value) ;
 
-  /// @brief Method .ctor, addr 0x573c4c4, size 0x1c, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x573dd2c, size 0x1c, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DropdownWithTitleView();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr DropdownWithTitleView() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DropdownWithTitleView", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  DropdownWithTitleView(DropdownWithTitleView&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DropdownWithTitleView", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  DropdownWithTitleView(DropdownWithTitleView const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "DropdownWithTitleView", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+DropdownWithTitleView(DropdownWithTitleView && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19189 };
+// Ctor Parameters [CppParam { name: "", ty: "DropdownWithTitleView", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+DropdownWithTitleView(DropdownWithTitleView const& ) = delete;
 
-  /// @brief Field _rectTransform, offset: 0x80, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::RectTransform> ____rectTransform;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19192};
 
-  /// @brief Field _titleRectTransform, offset: 0x88, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::RectTransform> ____titleRectTransform;
+/// @brief Field _rectTransform, offset: 0x80, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::RectTransform>  ____rectTransform;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _titleRectTransform, offset: 0x88, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::RectTransform>  ____titleRectTransform;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::HMUI::DropdownWithTitleView, ____rectTransform) == 0x80, "Offset mismatch!");
@@ -82,6 +82,6 @@ static_assert(offsetof(::HMUI::DropdownWithTitleView, ____titleRectTransform) ==
 
 static_assert(::cordl_internals::size_check_v<::HMUI::DropdownWithTitleView, 0x90>, "Size mismatch!");
 
-} // namespace HMUI
+} // namespace end def HMUI
 NEED_NO_BOX(::HMUI::DropdownWithTitleView);
 DEFINE_IL2CPP_ARG_TYPE(::HMUI::DropdownWithTitleView*, "HMUI", "DropdownWithTitleView");

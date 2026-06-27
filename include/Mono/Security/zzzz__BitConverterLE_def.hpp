@@ -19,53 +19,53 @@ namespace Mono::Security {
 // CS Name: Mono.Security.BitConverterLE
 class CORDL_TYPE BitConverterLE : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method GetBytes, addr 0x597d6a4, size 0x18, virtual false, abstract: false, final false
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetBytes(double_t value);
+// Declarations
+/// @brief Method GetBytes, addr 0x597f21c, size 0x18, virtual false, abstract: false, final false
+static inline ::ArrayW<uint8_t,::Array<uint8_t>*> GetBytes(double_t  value) ;
 
-  /// @brief Method GetBytes, addr 0x597d68c, size 0x18, virtual false, abstract: false, final false
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetBytes(float_t value);
+/// @brief Method GetBytes, addr 0x597f204, size 0x18, virtual false, abstract: false, final false
+static inline ::ArrayW<uint8_t,::Array<uint8_t>*> GetBytes(float_t  value) ;
 
-  /// @brief Method GetUIntBytes, addr 0x597d514, size 0x9c, virtual false, abstract: false, final false
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetUIntBytes(uint8_t* bytes);
+/// @brief Method GetUIntBytes, addr 0x597f08c, size 0x9c, virtual false, abstract: false, final false
+static inline ::ArrayW<uint8_t,::Array<uint8_t>*> GetUIntBytes(uint8_t*  bytes) ;
 
-  /// @brief Method GetULongBytes, addr 0x597d5b0, size 0xdc, virtual false, abstract: false, final false
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetULongBytes(uint8_t* bytes);
+/// @brief Method GetULongBytes, addr 0x597f128, size 0xdc, virtual false, abstract: false, final false
+static inline ::ArrayW<uint8_t,::Array<uint8_t>*> GetULongBytes(uint8_t*  bytes) ;
 
-  /// @brief Method ToDouble, addr 0x597d7b8, size 0x20, virtual false, abstract: false, final false
-  static inline double_t ToDouble(::ArrayW<uint8_t, ::Array<uint8_t>*> value, int32_t startIndex);
+/// @brief Method ToDouble, addr 0x597f330, size 0x20, virtual false, abstract: false, final false
+static inline double_t ToDouble(::ArrayW<uint8_t,::Array<uint8_t>*>  value, int32_t  startIndex) ;
 
-  /// @brief Method ToSingle, addr 0x597d794, size 0x24, virtual false, abstract: false, final false
-  static inline float_t ToSingle(::ArrayW<uint8_t, ::Array<uint8_t>*> value, int32_t startIndex);
+/// @brief Method ToSingle, addr 0x597f30c, size 0x24, virtual false, abstract: false, final false
+static inline float_t ToSingle(::ArrayW<uint8_t,::Array<uint8_t>*>  value, int32_t  startIndex) ;
 
-  /// @brief Method UIntFromBytes, addr 0x597d6bc, size 0x84, virtual false, abstract: false, final false
-  static inline void UIntFromBytes(uint8_t* dst, ::ArrayW<uint8_t, ::Array<uint8_t>*> src, int32_t startIndex);
+/// @brief Method UIntFromBytes, addr 0x597f234, size 0x84, virtual false, abstract: false, final false
+static inline void UIntFromBytes(uint8_t*  dst, ::ArrayW<uint8_t,::Array<uint8_t>*>  src, int32_t  startIndex) ;
 
-  /// @brief Method ULongFromBytes, addr 0x597d740, size 0x54, virtual false, abstract: false, final false
-  static inline void ULongFromBytes(uint8_t* dst, ::ArrayW<uint8_t, ::Array<uint8_t>*> src, int32_t startIndex);
+/// @brief Method ULongFromBytes, addr 0x597f2b8, size 0x54, virtual false, abstract: false, final false
+static inline void ULongFromBytes(uint8_t*  dst, ::ArrayW<uint8_t,::Array<uint8_t>*>  src, int32_t  startIndex) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BitConverterLE();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr BitConverterLE() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BitConverterLE", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  BitConverterLE(BitConverterLE&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BitConverterLE", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  BitConverterLE(BitConverterLE const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "BitConverterLE", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+BitConverterLE(BitConverterLE && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2274 };
+// Ctor Parameters [CppParam { name: "", ty: "BitConverterLE", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+BitConverterLE(BitConverterLE const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{2274};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Mono::Security::BitConverterLE, 0x10>, "Size mismatch!");
 
-} // namespace Mono::Security
+} // namespace end def Mono::Security
 NEED_NO_BOX(::Mono::Security::BitConverterLE);
 DEFINE_IL2CPP_ARG_TYPE(::Mono::Security::BitConverterLE*, "Mono.Security", "BitConverterLE");

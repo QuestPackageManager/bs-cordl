@@ -31,144 +31,144 @@ namespace System::Xml {
 // CS Name: System.Xml.XmlValidatingReader
 class CORDL_TYPE XmlValidatingReader : public ::System::Xml::XmlReader {
 public:
-  // Declarations
-  __declspec(property(get = get_AttributeCount)) int32_t AttributeCount;
+// Declarations
+ __declspec(property(get=get_AttributeCount)) int32_t  AttributeCount;
 
-  __declspec(property(get = get_BaseURI)) ::StringW BaseURI;
+ __declspec(property(get=get_BaseURI)) ::StringW  BaseURI;
 
-  __declspec(property(get = get_Depth)) int32_t Depth;
+ __declspec(property(get=get_Depth)) int32_t  Depth;
 
-  __declspec(property(get = get_IsEmptyElement)) bool IsEmptyElement;
+ __declspec(property(get=get_IsEmptyElement)) bool  IsEmptyElement;
 
-  __declspec(property(get = get_LocalName)) ::StringW LocalName;
+ __declspec(property(get=get_LocalName)) ::StringW  LocalName;
 
-  __declspec(property(get = get_NameTable)) ::System::Xml::XmlNameTable* NameTable;
+ __declspec(property(get=get_NameTable)) ::System::Xml::XmlNameTable*  NameTable;
 
-  __declspec(property(get = get_NamespaceURI)) ::StringW NamespaceURI;
+ __declspec(property(get=get_NamespaceURI)) ::StringW  NamespaceURI;
 
-  __declspec(property(get = get_Namespaces)) bool Namespaces;
+ __declspec(property(get=get_Namespaces)) bool  Namespaces;
 
-  __declspec(property(get = get_NodeType)) ::System::Xml::XmlNodeType NodeType;
+ __declspec(property(get=get_NodeType)) ::System::Xml::XmlNodeType  NodeType;
 
-  __declspec(property(get = get_Prefix)) ::StringW Prefix;
+ __declspec(property(get=get_Prefix)) ::StringW  Prefix;
 
-  __declspec(property(get = get_ReadState)) ::System::Xml::ReadState ReadState;
+ __declspec(property(get=get_ReadState)) ::System::Xml::ReadState  ReadState;
 
-  __declspec(property(get = get_Value)) ::StringW Value;
+ __declspec(property(get=get_Value)) ::StringW  Value;
 
-  __declspec(property(get = get_EOF)) bool _cordl_EOF;
+ __declspec(property(get=get_EOF)) bool  _cordl_EOF;
 
-  /// @brief Field impl, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_impl, put = __cordl_internal_set_impl)) ::System::Xml::XmlValidatingReaderImpl* impl;
+/// @brief Field impl, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_impl, put=__cordl_internal_set_impl)) ::System::Xml::XmlValidatingReaderImpl*  impl;
 
-  /// @brief Method GetAttribute, addr 0x615d778, size 0x20, virtual true, abstract: false, final false
-  inline ::StringW GetAttribute(int32_t i);
+/// @brief Method GetAttribute, addr 0x615f2f0, size 0x20, virtual true, abstract: false, final false
+inline ::StringW GetAttribute(int32_t  i) ;
 
-  /// @brief Method GetAttribute, addr 0x615d758, size 0x20, virtual true, abstract: false, final false
-  inline ::StringW GetAttribute(::StringW localName, ::StringW namespaceURI);
+/// @brief Method GetAttribute, addr 0x615f2d0, size 0x20, virtual true, abstract: false, final false
+inline ::StringW GetAttribute(::StringW  localName, ::StringW  namespaceURI) ;
 
-  /// @brief Method GetAttribute, addr 0x615d738, size 0x20, virtual true, abstract: false, final false
-  inline ::StringW GetAttribute(::StringW name);
+/// @brief Method GetAttribute, addr 0x615f2b0, size 0x20, virtual true, abstract: false, final false
+inline ::StringW GetAttribute(::StringW  name) ;
 
-  /// @brief Method LookupNamespace, addr 0x615d8d8, size 0x38, virtual true, abstract: false, final false
-  inline ::StringW LookupNamespace(::StringW prefix);
+/// @brief Method LookupNamespace, addr 0x615f450, size 0x38, virtual true, abstract: false, final false
+inline ::StringW LookupNamespace(::StringW  prefix) ;
 
-  /// @brief Method MoveToAttribute, addr 0x615d7b8, size 0x20, virtual true, abstract: false, final false
-  inline bool MoveToAttribute(::StringW localName, ::StringW namespaceURI);
+/// @brief Method MoveToAttribute, addr 0x615f330, size 0x20, virtual true, abstract: false, final false
+inline bool MoveToAttribute(::StringW  localName, ::StringW  namespaceURI) ;
 
-  /// @brief Method MoveToAttribute, addr 0x615d798, size 0x20, virtual true, abstract: false, final false
-  inline bool MoveToAttribute(::StringW name);
+/// @brief Method MoveToAttribute, addr 0x615f310, size 0x20, virtual true, abstract: false, final false
+inline bool MoveToAttribute(::StringW  name) ;
 
-  /// @brief Method MoveToElement, addr 0x615d818, size 0x20, virtual true, abstract: false, final false
-  inline bool MoveToElement();
+/// @brief Method MoveToElement, addr 0x615f390, size 0x20, virtual true, abstract: false, final false
+inline bool MoveToElement() ;
 
-  /// @brief Method MoveToFirstAttribute, addr 0x615d7d8, size 0x20, virtual true, abstract: false, final false
-  inline bool MoveToFirstAttribute();
+/// @brief Method MoveToFirstAttribute, addr 0x615f350, size 0x20, virtual true, abstract: false, final false
+inline bool MoveToFirstAttribute() ;
 
-  /// @brief Method MoveToNextAttribute, addr 0x615d7f8, size 0x20, virtual true, abstract: false, final false
-  inline bool MoveToNextAttribute();
+/// @brief Method MoveToNextAttribute, addr 0x615f370, size 0x20, virtual true, abstract: false, final false
+inline bool MoveToNextAttribute() ;
 
-  /// @brief Method Read, addr 0x615d858, size 0x20, virtual true, abstract: false, final false
-  inline bool Read();
+/// @brief Method Read, addr 0x615f3d0, size 0x20, virtual true, abstract: false, final false
+inline bool Read() ;
 
-  /// @brief Method ReadAttributeValue, addr 0x615d838, size 0x20, virtual true, abstract: false, final false
-  inline bool ReadAttributeValue();
+/// @brief Method ReadAttributeValue, addr 0x615f3b0, size 0x20, virtual true, abstract: false, final false
+inline bool ReadAttributeValue() ;
 
-  /// @brief Method ResolveEntity, addr 0x615d910, size 0x20, virtual true, abstract: false, final false
-  inline void ResolveEntity();
+/// @brief Method ResolveEntity, addr 0x615f488, size 0x20, virtual true, abstract: false, final false
+inline void ResolveEntity() ;
 
-  constexpr ::System::Xml::XmlValidatingReaderImpl* const& __cordl_internal_get_impl() const;
+constexpr ::System::Xml::XmlValidatingReaderImpl* const& __cordl_internal_get_impl() const;
 
-  constexpr ::System::Xml::XmlValidatingReaderImpl*& __cordl_internal_get_impl();
+constexpr ::System::Xml::XmlValidatingReaderImpl*& __cordl_internal_get_impl() ;
 
-  constexpr void __cordl_internal_set_impl(::System::Xml::XmlValidatingReaderImpl* value);
+constexpr void __cordl_internal_set_impl(::System::Xml::XmlValidatingReaderImpl*  value) ;
 
-  /// @brief Method get_AttributeCount, addr 0x615d718, size 0x20, virtual true, abstract: false, final false
-  inline int32_t get_AttributeCount();
+/// @brief Method get_AttributeCount, addr 0x615f290, size 0x20, virtual true, abstract: false, final false
+inline int32_t get_AttributeCount() ;
 
-  /// @brief Method get_BaseURI, addr 0x615d6d8, size 0x20, virtual true, abstract: false, final false
-  inline ::StringW get_BaseURI();
+/// @brief Method get_BaseURI, addr 0x615f250, size 0x20, virtual true, abstract: false, final false
+inline ::StringW get_BaseURI() ;
 
-  /// @brief Method get_Depth, addr 0x615d6bc, size 0x1c, virtual true, abstract: false, final false
-  inline int32_t get_Depth();
+/// @brief Method get_Depth, addr 0x615f234, size 0x1c, virtual true, abstract: false, final false
+inline int32_t get_Depth() ;
 
-  /// @brief Method get_EOF, addr 0x615d878, size 0x20, virtual true, abstract: false, final false
-  inline bool get_EOF();
+/// @brief Method get_EOF, addr 0x615f3f0, size 0x20, virtual true, abstract: false, final false
+inline bool get_EOF() ;
 
-  /// @brief Method get_IsEmptyElement, addr 0x615d6f8, size 0x20, virtual true, abstract: false, final false
-  inline bool get_IsEmptyElement();
+/// @brief Method get_IsEmptyElement, addr 0x615f270, size 0x20, virtual true, abstract: false, final false
+inline bool get_IsEmptyElement() ;
 
-  /// @brief Method get_LocalName, addr 0x615d64c, size 0x1c, virtual true, abstract: false, final false
-  inline ::StringW get_LocalName();
+/// @brief Method get_LocalName, addr 0x615f1c4, size 0x1c, virtual true, abstract: false, final false
+inline ::StringW get_LocalName() ;
 
-  /// @brief Method get_NameTable, addr 0x615d8b8, size 0x20, virtual true, abstract: false, final false
-  inline ::System::Xml::XmlNameTable* get_NameTable();
+/// @brief Method get_NameTable, addr 0x615f430, size 0x20, virtual true, abstract: false, final false
+inline ::System::Xml::XmlNameTable* get_NameTable() ;
 
-  /// @brief Method get_NamespaceURI, addr 0x615d668, size 0x1c, virtual true, abstract: false, final false
-  inline ::StringW get_NamespaceURI();
+/// @brief Method get_NamespaceURI, addr 0x615f1e0, size 0x1c, virtual true, abstract: false, final false
+inline ::StringW get_NamespaceURI() ;
 
-  /// @brief Method get_Namespaces, addr 0x61506e0, size 0x24, virtual false, abstract: false, final false
-  inline bool get_Namespaces();
+/// @brief Method get_Namespaces, addr 0x6152258, size 0x24, virtual false, abstract: false, final false
+inline bool get_Namespaces() ;
 
-  /// @brief Method get_NodeType, addr 0x615d630, size 0x1c, virtual true, abstract: false, final false
-  inline ::System::Xml::XmlNodeType get_NodeType();
+/// @brief Method get_NodeType, addr 0x615f1a8, size 0x1c, virtual true, abstract: false, final false
+inline ::System::Xml::XmlNodeType get_NodeType() ;
 
-  /// @brief Method get_Prefix, addr 0x615d684, size 0x1c, virtual true, abstract: false, final false
-  inline ::StringW get_Prefix();
+/// @brief Method get_Prefix, addr 0x615f1fc, size 0x1c, virtual true, abstract: false, final false
+inline ::StringW get_Prefix() ;
 
-  /// @brief Method get_ReadState, addr 0x615d898, size 0x20, virtual true, abstract: false, final false
-  inline ::System::Xml::ReadState get_ReadState();
+/// @brief Method get_ReadState, addr 0x615f410, size 0x20, virtual true, abstract: false, final false
+inline ::System::Xml::ReadState get_ReadState() ;
 
-  /// @brief Method get_Value, addr 0x615d6a0, size 0x1c, virtual true, abstract: false, final false
-  inline ::StringW get_Value();
+/// @brief Method get_Value, addr 0x615f218, size 0x1c, virtual true, abstract: false, final false
+inline ::StringW get_Value() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr XmlValidatingReader();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr XmlValidatingReader() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlValidatingReader", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  XmlValidatingReader(XmlValidatingReader&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlValidatingReader", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  XmlValidatingReader(XmlValidatingReader const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "XmlValidatingReader", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+XmlValidatingReader(XmlValidatingReader && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9334 };
+// Ctor Parameters [CppParam { name: "", ty: "XmlValidatingReader", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+XmlValidatingReader(XmlValidatingReader const& ) = delete;
 
-  /// @brief Field impl, offset: 0x10, size: 0x8, def value: None
-  ::System::Xml::XmlValidatingReaderImpl* ___impl;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9335};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field impl, offset: 0x10, size: 0x8, def value: None
+ ::System::Xml::XmlValidatingReaderImpl*  ___impl;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Xml::XmlValidatingReader, ___impl) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::System::Xml::XmlValidatingReader, 0x18>, "Size mismatch!");
 
-} // namespace System::Xml
+} // namespace end def System::Xml
 NEED_NO_BOX(::System::Xml::XmlValidatingReader);
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::XmlValidatingReader*, "System.Xml", "XmlValidatingReader");

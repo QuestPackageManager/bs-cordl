@@ -20,42 +20,42 @@ namespace System::Diagnostics {
 // CS Name: System.Diagnostics.CorrelationManager
 class CORDL_TYPE CorrelationManager : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = get_LogicalOperationStack)) ::System::Collections::Stack* LogicalOperationStack;
+// Declarations
+ __declspec(property(get=get_LogicalOperationStack)) ::System::Collections::Stack*  LogicalOperationStack;
 
-  /// @brief Method GetLogicalOperationStack, addr 0x6253ce4, size 0xbc, virtual false, abstract: false, final false
-  inline ::System::Collections::Stack* GetLogicalOperationStack();
+/// @brief Method GetLogicalOperationStack, addr 0x625585c, size 0xbc, virtual false, abstract: false, final false
+inline ::System::Collections::Stack* GetLogicalOperationStack() ;
 
-  static inline ::System::Diagnostics::CorrelationManager* New_ctor();
+static inline ::System::Diagnostics::CorrelationManager* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x6253cdc, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6255854, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_LogicalOperationStack, addr 0x6253ce0, size 0x4, virtual false, abstract: false, final false
-  inline ::System::Collections::Stack* get_LogicalOperationStack();
+/// @brief Method get_LogicalOperationStack, addr 0x6255858, size 0x4, virtual false, abstract: false, final false
+inline ::System::Collections::Stack* get_LogicalOperationStack() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CorrelationManager();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr CorrelationManager() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CorrelationManager", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  CorrelationManager(CorrelationManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CorrelationManager", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  CorrelationManager(CorrelationManager const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "CorrelationManager", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+CorrelationManager(CorrelationManager && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11115 };
+// Ctor Parameters [CppParam { name: "", ty: "CorrelationManager", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+CorrelationManager(CorrelationManager const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11116};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Diagnostics::CorrelationManager, 0x10>, "Size mismatch!");
 
-} // namespace System::Diagnostics
+} // namespace end def System::Diagnostics
 NEED_NO_BOX(::System::Diagnostics::CorrelationManager);
 DEFINE_IL2CPP_ARG_TYPE(::System::Diagnostics::CorrelationManager*, "System.Diagnostics", "CorrelationManager");

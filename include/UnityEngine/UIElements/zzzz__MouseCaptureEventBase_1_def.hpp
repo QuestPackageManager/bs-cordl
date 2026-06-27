@@ -7,43 +7,44 @@ CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(MouseCaptureEventBase_1)
 // Forward declare root types
 namespace UnityEngine::UIElements {
-template <typename T> class MouseCaptureEventBase_1;
+template<typename T>
+class MouseCaptureEventBase_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::UnityEngine::UIElements::MouseCaptureEventBase_1);
 // Dependencies UnityEngine.UIElements.PointerCaptureEventBase`1<T>
 namespace UnityEngine::UIElements {
 // cpp template
-template <typename T>
+template<typename T>
 // Is value type: false
 // CS Name: UnityEngine.UIElements.MouseCaptureEventBase`1<T>
 class CORDL_TYPE MouseCaptureEventBase_1 : public ::UnityEngine::UIElements::PointerCaptureEventBase_1<T> {
 public:
-  // Declarations
-  static inline ::UnityEngine::UIElements::MouseCaptureEventBase_1<T>* New_ctor();
+// Declarations
+static inline ::UnityEngine::UIElements::MouseCaptureEventBase_1<T>* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MouseCaptureEventBase_1();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr MouseCaptureEventBase_1() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MouseCaptureEventBase_1", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  MouseCaptureEventBase_1(MouseCaptureEventBase_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MouseCaptureEventBase_1", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  MouseCaptureEventBase_1(MouseCaptureEventBase_1 const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "MouseCaptureEventBase_1", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+MouseCaptureEventBase_1(MouseCaptureEventBase_1 && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4433 };
+// Ctor Parameters [CppParam { name: "", ty: "MouseCaptureEventBase_1", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+MouseCaptureEventBase_1(MouseCaptureEventBase_1 const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4433};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-} // namespace UnityEngine::UIElements
+} // namespace end def UnityEngine::UIElements
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::UIElements::MouseCaptureEventBase_1, "UnityEngine.UIElements", "MouseCaptureEventBase`1");

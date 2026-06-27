@@ -35,13 +35,15 @@ namespace System::Text {
 class UTF8Encoding;
 }
 namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
+template<typename TResult>
+class Task_1;
 }
 namespace System::Threading {
 struct CancellationToken;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1_ReadOnly;
+template<typename T>
+struct NativeArray_1_ReadOnly;
 }
 namespace UnityEngine::Networking {
 class UnityWebRequest;
@@ -77,219 +79,210 @@ namespace GlobalNamespace {
 // CS Name: BeatmapLevelDataUtils/<>c__DisplayClass7_0
 class CORDL_TYPE BeatmapLevelDataUtils___c__DisplayClass7_0 : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field path, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_path, put = __cordl_internal_set_path)) ::StringW path;
+// Declarations
+/// @brief Field path, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_path, put=__cordl_internal_set_path)) ::StringW  path;
 
-  static inline ::GlobalNamespace::BeatmapLevelDataUtils___c__DisplayClass7_0* New_ctor();
+static inline ::GlobalNamespace::BeatmapLevelDataUtils___c__DisplayClass7_0* New_ctor() ;
 
-  /// @brief Method <ReadAllTextFromPathAsync>b__0, addr 0x36620b0, size 0x5c, virtual false, abstract: false, final false
-  inline ::StringW _ReadAllTextFromPathAsync_b__0();
+/// @brief Method <ReadAllTextFromPathAsync>b__0, addr 0x3663444, size 0x5c, virtual false, abstract: false, final false
+inline ::StringW _ReadAllTextFromPathAsync_b__0() ;
 
-  constexpr ::StringW const& __cordl_internal_get_path() const;
+constexpr ::StringW const& __cordl_internal_get_path() const;
 
-  constexpr ::StringW& __cordl_internal_get_path();
+constexpr ::StringW& __cordl_internal_get_path() ;
 
-  constexpr void __cordl_internal_set_path(::StringW value);
+constexpr void __cordl_internal_set_path(::StringW  value) ;
 
-  /// @brief Method .ctor, addr 0x36615c0, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x3662954, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BeatmapLevelDataUtils___c__DisplayClass7_0();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr BeatmapLevelDataUtils___c__DisplayClass7_0() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelDataUtils___c__DisplayClass7_0", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  BeatmapLevelDataUtils___c__DisplayClass7_0(BeatmapLevelDataUtils___c__DisplayClass7_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelDataUtils___c__DisplayClass7_0", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapLevelDataUtils___c__DisplayClass7_0(BeatmapLevelDataUtils___c__DisplayClass7_0 const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelDataUtils___c__DisplayClass7_0", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+BeatmapLevelDataUtils___c__DisplayClass7_0(BeatmapLevelDataUtils___c__DisplayClass7_0 && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14947 };
+// Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelDataUtils___c__DisplayClass7_0", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+BeatmapLevelDataUtils___c__DisplayClass7_0(BeatmapLevelDataUtils___c__DisplayClass7_0 const& ) = delete;
 
-  /// @brief Field path, offset: 0x10, size: 0x8, def value: None
-  ::StringW ___path;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{14949};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field path, offset: 0x10, size: 0x8, def value: None
+ ::StringW  ___path;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::BeatmapLevelDataUtils___c__DisplayClass7_0, ___path) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatmapLevelDataUtils___c__DisplayClass7_0, 0x18>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: BeatmapLevelDataUtils/<>c__DisplayClass8_0
 class CORDL_TYPE BeatmapLevelDataUtils___c__DisplayClass8_0 : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field www, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_www, put = __cordl_internal_set_www)) ::UnityEngine::Networking::UnityWebRequest* www;
+// Declarations
+/// @brief Field www, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_www, put=__cordl_internal_set_www)) ::UnityEngine::Networking::UnityWebRequest*  www;
 
-  static inline ::GlobalNamespace::BeatmapLevelDataUtils___c__DisplayClass8_0* New_ctor();
+static inline ::GlobalNamespace::BeatmapLevelDataUtils___c__DisplayClass8_0* New_ctor() ;
 
-  /// @brief Method <ReadAllTextFromUrlAsync>b__0, addr 0x3662110, size 0x80, virtual false, abstract: false, final false
-  inline ::StringW _ReadAllTextFromUrlAsync_b__0();
+/// @brief Method <ReadAllTextFromUrlAsync>b__0, addr 0x36634a4, size 0x80, virtual false, abstract: false, final false
+inline ::StringW _ReadAllTextFromUrlAsync_b__0() ;
 
-  constexpr ::UnityEngine::Networking::UnityWebRequest* const& __cordl_internal_get_www() const;
+constexpr ::UnityEngine::Networking::UnityWebRequest* const& __cordl_internal_get_www() const;
 
-  constexpr ::UnityEngine::Networking::UnityWebRequest*& __cordl_internal_get_www();
+constexpr ::UnityEngine::Networking::UnityWebRequest*& __cordl_internal_get_www() ;
 
-  constexpr void __cordl_internal_set_www(::UnityEngine::Networking::UnityWebRequest* value);
+constexpr void __cordl_internal_set_www(::UnityEngine::Networking::UnityWebRequest*  value) ;
 
-  /// @brief Method .ctor, addr 0x366210c, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x36634a0, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BeatmapLevelDataUtils___c__DisplayClass8_0();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr BeatmapLevelDataUtils___c__DisplayClass8_0() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelDataUtils___c__DisplayClass8_0", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  BeatmapLevelDataUtils___c__DisplayClass8_0(BeatmapLevelDataUtils___c__DisplayClass8_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelDataUtils___c__DisplayClass8_0", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapLevelDataUtils___c__DisplayClass8_0(BeatmapLevelDataUtils___c__DisplayClass8_0 const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelDataUtils___c__DisplayClass8_0", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+BeatmapLevelDataUtils___c__DisplayClass8_0(BeatmapLevelDataUtils___c__DisplayClass8_0 && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14948 };
+// Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelDataUtils___c__DisplayClass8_0", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+BeatmapLevelDataUtils___c__DisplayClass8_0(BeatmapLevelDataUtils___c__DisplayClass8_0 const& ) = delete;
 
-  /// @brief Field www, offset: 0x10, size: 0x8, def value: None
-  ::UnityEngine::Networking::UnityWebRequest* ___www;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{14950};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field www, offset: 0x10, size: 0x8, def value: None
+ ::UnityEngine::Networking::UnityWebRequest*  ___www;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::BeatmapLevelDataUtils___c__DisplayClass8_0, ___www) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatmapLevelDataUtils___c__DisplayClass8_0, 0x18>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 // Dependencies System.Object, Unity.Collections.NativeArray`1::ReadOnly<T>
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: BeatmapLevelDataUtils/<>c__DisplayClass9_0
 class CORDL_TYPE BeatmapLevelDataUtils___c__DisplayClass9_0 : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field inputData, offset 0x10, size 0x10
-  __declspec(property(get = __cordl_internal_get_inputData, put = __cordl_internal_set_inputData)) ::Unity::Collections::NativeArray_1_ReadOnly<uint8_t> inputData;
+// Declarations
+/// @brief Field inputData, offset 0x10, size 0x10 
+ __declspec(property(get=__cordl_internal_get_inputData, put=__cordl_internal_set_inputData)) ::Unity::Collections::NativeArray_1_ReadOnly<uint8_t>  inputData;
 
-  static inline ::GlobalNamespace::BeatmapLevelDataUtils___c__DisplayClass9_0* New_ctor();
+static inline ::GlobalNamespace::BeatmapLevelDataUtils___c__DisplayClass9_0* New_ctor() ;
 
-  /// @brief Method <ReadAllTextFromDataAsync>b__0, addr 0x3662190, size 0x60, virtual false, abstract: false, final false
-  inline ::StringW _ReadAllTextFromDataAsync_b__0();
+/// @brief Method <ReadAllTextFromDataAsync>b__0, addr 0x3663524, size 0x60, virtual false, abstract: false, final false
+inline ::StringW _ReadAllTextFromDataAsync_b__0() ;
 
-  constexpr ::Unity::Collections::NativeArray_1_ReadOnly<uint8_t> const& __cordl_internal_get_inputData() const;
+constexpr ::Unity::Collections::NativeArray_1_ReadOnly<uint8_t> const& __cordl_internal_get_inputData() const;
 
-  constexpr ::Unity::Collections::NativeArray_1_ReadOnly<uint8_t>& __cordl_internal_get_inputData();
+constexpr ::Unity::Collections::NativeArray_1_ReadOnly<uint8_t>& __cordl_internal_get_inputData() ;
 
-  constexpr void __cordl_internal_set_inputData(::Unity::Collections::NativeArray_1_ReadOnly<uint8_t> value);
+constexpr void __cordl_internal_set_inputData(::Unity::Collections::NativeArray_1_ReadOnly<uint8_t>  value) ;
 
-  /// @brief Method .ctor, addr 0x36616b4, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x3662a48, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BeatmapLevelDataUtils___c__DisplayClass9_0();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr BeatmapLevelDataUtils___c__DisplayClass9_0() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelDataUtils___c__DisplayClass9_0", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  BeatmapLevelDataUtils___c__DisplayClass9_0(BeatmapLevelDataUtils___c__DisplayClass9_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelDataUtils___c__DisplayClass9_0", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapLevelDataUtils___c__DisplayClass9_0(BeatmapLevelDataUtils___c__DisplayClass9_0 const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelDataUtils___c__DisplayClass9_0", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+BeatmapLevelDataUtils___c__DisplayClass9_0(BeatmapLevelDataUtils___c__DisplayClass9_0 && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14949 };
+// Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelDataUtils___c__DisplayClass9_0", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+BeatmapLevelDataUtils___c__DisplayClass9_0(BeatmapLevelDataUtils___c__DisplayClass9_0 const& ) = delete;
 
-  /// @brief Field inputData, offset: 0x10, size: 0x10, def value: None
-  ::Unity::Collections::NativeArray_1_ReadOnly<uint8_t> ___inputData;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{14951};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field inputData, offset: 0x10, size: 0x10, def value: None
+ ::Unity::Collections::NativeArray_1_ReadOnly<uint8_t>  ___inputData;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::BeatmapLevelDataUtils___c__DisplayClass9_0, ___inputData) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatmapLevelDataUtils___c__DisplayClass9_0, 0x20>, "Size mismatch!");
 
-} // namespace GlobalNamespace
-// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>, System.Threading.CancellationToken,
-// UnityEngine.Networking.UnityWebRequest::Result
+} // namespace end def GlobalNamespace
+// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>, System.Threading.CancellationToken, UnityEngine.Networking.UnityWebRequest::Result
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: BeatmapLevelDataUtils/<ReadAllTextFromUrlAsync>d__8
 struct CORDL_TYPE BeatmapLevelDataUtils__ReadAllTextFromUrlAsync_d__8 {
 public:
-  // Declarations
-  /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-  constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+// Declarations
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr operator  ::System::Runtime::CompilerServices::IAsyncStateMachine*() ;
 
-  /// @brief Method MoveNext, addr 0x36621f0, size 0x4e4, virtual true, abstract: false, final true
-  inline void MoveNext();
+/// @brief Method MoveNext, addr 0x3663584, size 0x4e4, virtual true, abstract: false, final true
+inline void MoveNext() ;
 
-  /// @brief Method SetStateMachine, addr 0x36626d4, size 0x80, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+/// @brief Method SetStateMachine, addr 0x3663a68, size 0x80, virtual true, abstract: false, final true
+inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine*  stateMachine) ;
 
-  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
+/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine() ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BeatmapLevelDataUtils__ReadAllTextFromUrlAsync_d__8();
+// Ctor Parameters []
+// @brief default ctor
+constexpr BeatmapLevelDataUtils__ReadAllTextFromUrlAsync_d__8() ;
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::StringW>", modifiers: "", def_value: None }, CppParam { name: "path", ty: "::StringW", modifiers: "", def_value: None }, CppParam
-  // { name: "__8__1", ty: "::GlobalNamespace::BeatmapLevelDataUtils___c__DisplayClass8_0*", modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty:
-  // "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::Networking::UnityWebRequest_Result>", modifiers: "", def_value: None }, CppParam { name: "__u__2", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>", modifiers: "", def_value: None }]
-  constexpr BeatmapLevelDataUtils__ReadAllTextFromUrlAsync_d__8(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::StringW> __t__builder, ::StringW path,
-                                                                ::GlobalNamespace::BeatmapLevelDataUtils___c__DisplayClass8_0* __8__1, ::System::Threading::CancellationToken cancellationToken,
-                                                                ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::Networking::UnityWebRequest_Result> __u__1,
-                                                                ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW> __u__2) noexcept;
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty: "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::StringW>", modifiers: "", def_value: None }, CppParam { name: "path", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "__8__1", ty: "::GlobalNamespace::BeatmapLevelDataUtils___c__DisplayClass8_0*", modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::Networking::UnityWebRequest_Result>", modifiers: "", def_value: None }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>", modifiers: "", def_value: None }]
+constexpr BeatmapLevelDataUtils__ReadAllTextFromUrlAsync_d__8(int32_t  __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::StringW>  __t__builder, ::StringW  path, ::GlobalNamespace::BeatmapLevelDataUtils___c__DisplayClass8_0*  __8__1, ::System::Threading::CancellationToken  cancellationToken, ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::Networking::UnityWebRequest_Result>  __u__1, ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>  __u__2) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14950 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{14952};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x48};
 
-  /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
-  int32_t __1__state;
+/// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
+ int32_t  __1__state;
 
-  /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
-  ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::StringW> __t__builder;
+/// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
+ ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::StringW>  __t__builder;
 
-  /// @brief Field path, offset: 0x20, size: 0x8, def value: None
-  ::StringW path;
+/// @brief Field path, offset: 0x20, size: 0x8, def value: None
+ ::StringW  path;
 
-  /// @brief Field <>8__1, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::BeatmapLevelDataUtils___c__DisplayClass8_0* __8__1;
+/// @brief Field <>8__1, offset: 0x28, size: 0x8, def value: None
+ ::GlobalNamespace::BeatmapLevelDataUtils___c__DisplayClass8_0*  __8__1;
 
-  /// @brief Field cancellationToken, offset: 0x30, size: 0x8, def value: None
-  ::System::Threading::CancellationToken cancellationToken;
+/// @brief Field cancellationToken, offset: 0x30, size: 0x8, def value: None
+ ::System::Threading::CancellationToken  cancellationToken;
 
-  /// @brief Field <>u__1, offset: 0x38, size: 0x8, def value: None
-  ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::Networking::UnityWebRequest_Result> __u__1;
+/// @brief Field <>u__1, offset: 0x38, size: 0x8, def value: None
+ ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::Networking::UnityWebRequest_Result>  __u__1;
 
-  /// @brief Field <>u__2, offset: 0x40, size: 0x8, def value: None
-  ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW> __u__2;
+/// @brief Field <>u__2, offset: 0x40, size: 0x8, def value: None
+ ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>  __u__2;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::BeatmapLevelDataUtils__ReadAllTextFromUrlAsync_d__8, __1__state) == 0x0, "Offset mismatch!");
@@ -308,117 +301,117 @@ static_assert(offsetof(::GlobalNamespace::BeatmapLevelDataUtils__ReadAllTextFrom
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatmapLevelDataUtils__ReadAllTextFromUrlAsync_d__8, 0x48>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: BeatmapLevelDataUtils
 class CORDL_TYPE BeatmapLevelDataUtils : public ::System::Object {
 public:
-  // Declarations
-  using _ReadAllTextFromUrlAsync_d__8 = ::GlobalNamespace::BeatmapLevelDataUtils__ReadAllTextFromUrlAsync_d__8;
+// Declarations
+using _ReadAllTextFromUrlAsync_d__8 = ::GlobalNamespace::BeatmapLevelDataUtils__ReadAllTextFromUrlAsync_d__8;
 
-  using __c__DisplayClass7_0 = ::GlobalNamespace::BeatmapLevelDataUtils___c__DisplayClass7_0;
+using __c__DisplayClass7_0 = ::GlobalNamespace::BeatmapLevelDataUtils___c__DisplayClass7_0;
 
-  using __c__DisplayClass8_0 = ::GlobalNamespace::BeatmapLevelDataUtils___c__DisplayClass8_0;
+using __c__DisplayClass8_0 = ::GlobalNamespace::BeatmapLevelDataUtils___c__DisplayClass8_0;
 
-  using __c__DisplayClass9_0 = ::GlobalNamespace::BeatmapLevelDataUtils___c__DisplayClass9_0;
+using __c__DisplayClass9_0 = ::GlobalNamespace::BeatmapLevelDataUtils___c__DisplayClass9_0;
 
-  /// @brief Field kUtf8Bom, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_kUtf8Bom, put = setStaticF_kUtf8Bom)) ::ArrayW<uint8_t, ::Array<uint8_t>*> kUtf8Bom;
+/// @brief Field kUtf8Bom, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_kUtf8Bom, put=setStaticF_kUtf8Bom)) ::ArrayW<uint8_t,::Array<uint8_t>*>  kUtf8Bom;
 
-  /// @brief Field kUtf8Encoding, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_kUtf8Encoding, put = setStaticF_kUtf8Encoding)) ::System::Text::UTF8Encoding* kUtf8Encoding;
+/// @brief Field kUtf8Encoding, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_kUtf8Encoding, put=setStaticF_kUtf8Encoding)) ::System::Text::UTF8Encoding*  kUtf8Encoding;
 
-  /// @brief Field sha1, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_sha1, put = setStaticF_sha1)) ::System::Security::Cryptography::SHA1* sha1;
+/// @brief Field sha1, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_sha1, put=setStaticF_sha1)) ::System::Security::Cryptography::SHA1*  sha1;
 
-  /// @brief Method CalculateAudioContentHash, addr 0x36617e0, size 0x10c, virtual false, abstract: false, final false
-  static inline ::StringW CalculateAudioContentHash(::UnityEngine::AudioClip* audioClip);
+/// @brief Method CalculateAudioContentHash, addr 0x3662b74, size 0x10c, virtual false, abstract: false, final false
+static inline ::StringW CalculateAudioContentHash(::UnityEngine::AudioClip*  audioClip) ;
 
-  /// @brief Method CalculateBeatmapDataContentHash, addr 0x36616b8, size 0x7c, virtual false, abstract: false, final false
-  static inline ::StringW CalculateBeatmapDataContentHash(::StringW beatmapJson);
+/// @brief Method CalculateBeatmapDataContentHash, addr 0x3662a4c, size 0x7c, virtual false, abstract: false, final false
+static inline ::StringW CalculateBeatmapDataContentHash(::StringW  beatmapJson) ;
 
-  /// @brief Method CalculateHashFromData, addr 0x3661734, size 0xac, virtual false, abstract: false, final false
-  static inline ::StringW CalculateHashFromData(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
+/// @brief Method CalculateHashFromData, addr 0x3662ac8, size 0xac, virtual false, abstract: false, final false
+static inline ::StringW CalculateHashFromData(::ArrayW<uint8_t,::Array<uint8_t>*>  data) ;
 
-  /// @brief Method CalculateHashFromPath, addr 0x36618ec, size 0x1b4, virtual false, abstract: false, final false
-  static inline ::StringW CalculateHashFromPath(::StringW path);
+/// @brief Method CalculateHashFromPath, addr 0x3662c80, size 0x1b4, virtual false, abstract: false, final false
+static inline ::StringW CalculateHashFromPath(::StringW  path) ;
 
-  /// @brief Method Compress, addr 0x3661aa0, size 0x3ac, virtual false, abstract: false, final false
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Compress(::StringW data);
+/// @brief Method Compress, addr 0x3662e34, size 0x3ac, virtual false, abstract: false, final false
+static inline ::ArrayW<uint8_t,::Array<uint8_t>*> Compress(::StringW  data) ;
 
-  /// @brief Method Decompress, addr 0x3660fd4, size 0x37c, virtual false, abstract: false, final false
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Decompress(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
+/// @brief Method Decompress, addr 0x3662368, size 0x37c, virtual false, abstract: false, final false
+static inline ::ArrayW<uint8_t,::Array<uint8_t>*> Decompress(::ArrayW<uint8_t,::Array<uint8_t>*>  data) ;
 
-  /// @brief Method GetBytesFromUtf8String, addr 0x3661e4c, size 0x78, virtual false, abstract: false, final false
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetBytesFromUtf8String(::StringW data);
+/// @brief Method GetBytesFromUtf8String, addr 0x36631e0, size 0x78, virtual false, abstract: false, final false
+static inline ::ArrayW<uint8_t,::Array<uint8_t>*> GetBytesFromUtf8String(::StringW  data) ;
 
-  /// @brief Method GetUtf8String, addr 0x3661350, size 0xe4, virtual false, abstract: false, final false
-  static inline ::StringW GetUtf8String(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
+/// @brief Method GetUtf8String, addr 0x36626e4, size 0xe4, virtual false, abstract: false, final false
+static inline ::StringW GetUtf8String(::ArrayW<uint8_t,::Array<uint8_t>*>  data) ;
 
-  /// @brief Method IsCompressed, addr 0x3660f98, size 0x3c, virtual false, abstract: false, final false
-  static inline bool IsCompressed(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
+/// @brief Method IsCompressed, addr 0x366232c, size 0x3c, virtual false, abstract: false, final false
+static inline bool IsCompressed(::ArrayW<uint8_t,::Array<uint8_t>*>  data) ;
 
-  /// @brief Method ReadAllTextFromData, addr 0x36604b0, size 0x174, virtual false, abstract: false, final false
-  static inline ::StringW ReadAllTextFromData(::Unity::Collections::NativeArray_1_ReadOnly<uint8_t> inputData);
+/// @brief Method ReadAllTextFromData, addr 0x3661844, size 0x174, virtual false, abstract: false, final false
+static inline ::StringW ReadAllTextFromData(::Unity::Collections::NativeArray_1_ReadOnly<uint8_t>  inputData) ;
 
-  /// @brief Method ReadAllTextFromDataAsync, addr 0x365fde0, size 0x134, virtual false, abstract: false, final false
-  static inline ::System::Threading::Tasks::Task_1<::StringW>* ReadAllTextFromDataAsync(::Unity::Collections::NativeArray_1_ReadOnly<uint8_t> inputData);
+/// @brief Method ReadAllTextFromDataAsync, addr 0x3661174, size 0x134, virtual false, abstract: false, final false
+static inline ::System::Threading::Tasks::Task_1<::StringW>* ReadAllTextFromDataAsync(::Unity::Collections::NativeArray_1_ReadOnly<uint8_t>  inputData) ;
 
-  /// @brief Method ReadAllTextFromPath, addr 0x3660e44, size 0x154, virtual false, abstract: false, final false
-  static inline ::StringW ReadAllTextFromPath(::StringW path);
+/// @brief Method ReadAllTextFromPath, addr 0x36621d8, size 0x154, virtual false, abstract: false, final false
+static inline ::StringW ReadAllTextFromPath(::StringW  path) ;
 
-  /// @brief Method ReadAllTextFromPathAsync, addr 0x3661434, size 0x18c, virtual false, abstract: false, final false
-  static inline ::System::Threading::Tasks::Task_1<::StringW>* ReadAllTextFromPathAsync(::StringW path, ::System::Threading::CancellationToken cancellationToken);
+/// @brief Method ReadAllTextFromPathAsync, addr 0x36627c8, size 0x18c, virtual false, abstract: false, final false
+static inline ::System::Threading::Tasks::Task_1<::StringW>* ReadAllTextFromPathAsync(::StringW  path, ::System::Threading::CancellationToken  cancellationToken) ;
 
-  /// @brief Method ReadAllTextFromUrlAsync, addr 0x36615c4, size 0xf0, virtual false, abstract: false, final false
-  static inline ::System::Threading::Tasks::Task_1<::StringW>* ReadAllTextFromUrlAsync(::StringW path, ::System::Threading::CancellationToken cancellationToken);
+/// @brief Method ReadAllTextFromUrlAsync, addr 0x3662958, size 0xf0, virtual false, abstract: false, final false
+static inline ::System::Threading::Tasks::Task_1<::StringW>* ReadAllTextFromUrlAsync(::StringW  path, ::System::Threading::CancellationToken  cancellationToken) ;
 
-  /// @brief Method StartsWithBom, addr 0x3661ec4, size 0x120, virtual false, abstract: false, final false
-  static inline bool StartsWithBom(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
+/// @brief Method StartsWithBom, addr 0x3663258, size 0x120, virtual false, abstract: false, final false
+static inline bool StartsWithBom(::ArrayW<uint8_t,::Array<uint8_t>*>  data) ;
 
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_kUtf8Bom();
+static inline ::ArrayW<uint8_t,::Array<uint8_t>*> getStaticF_kUtf8Bom() ;
 
-  static inline ::System::Text::UTF8Encoding* getStaticF_kUtf8Encoding();
+static inline ::System::Text::UTF8Encoding* getStaticF_kUtf8Encoding() ;
 
-  static inline ::System::Security::Cryptography::SHA1* getStaticF_sha1();
+static inline ::System::Security::Cryptography::SHA1* getStaticF_sha1() ;
 
-  static inline void setStaticF_kUtf8Bom(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+static inline void setStaticF_kUtf8Bom(::ArrayW<uint8_t,::Array<uint8_t>*>  value) ;
 
-  static inline void setStaticF_kUtf8Encoding(::System::Text::UTF8Encoding* value);
+static inline void setStaticF_kUtf8Encoding(::System::Text::UTF8Encoding*  value) ;
 
-  static inline void setStaticF_sha1(::System::Security::Cryptography::SHA1* value);
+static inline void setStaticF_sha1(::System::Security::Cryptography::SHA1*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BeatmapLevelDataUtils();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr BeatmapLevelDataUtils() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelDataUtils", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  BeatmapLevelDataUtils(BeatmapLevelDataUtils&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelDataUtils", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapLevelDataUtils(BeatmapLevelDataUtils const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelDataUtils", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+BeatmapLevelDataUtils(BeatmapLevelDataUtils && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14951 };
+// Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelDataUtils", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+BeatmapLevelDataUtils(BeatmapLevelDataUtils const& ) = delete;
 
-  /// @brief Field gzipByte0 offset 0xffffffff size 0x1
-  static constexpr uint8_t gzipByte0{ static_cast<uint8_t>(0x1fu) };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{14953};
 
-  /// @brief Field gzipByte1 offset 0xffffffff size 0x1
-  static constexpr uint8_t gzipByte1{ static_cast<uint8_t>(0x8bu) };
+/// @brief Field gzipByte0 offset 0xffffffff size 0x1
+static constexpr uint8_t  gzipByte0{static_cast<uint8_t>(0x1fu)};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field gzipByte1 offset 0xffffffff size 0x1
+static constexpr uint8_t  gzipByte1{static_cast<uint8_t>(0x8bu)};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatmapLevelDataUtils, 0x10>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BeatmapLevelDataUtils);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BeatmapLevelDataUtils*, "", "BeatmapLevelDataUtils");
 NEED_NO_BOX(::GlobalNamespace::BeatmapLevelDataUtils___c__DisplayClass7_0);

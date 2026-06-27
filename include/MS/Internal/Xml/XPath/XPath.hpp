@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "MS/Internal/Xml/XPath/AstNode.hpp"
 #include "MS/Internal/Xml/XPath/Axis.hpp"
@@ -15,5 +15,6 @@ module;
 #include "MS/Internal/Xml/XPath/XPathParser.hpp"
 #include "MS/Internal/Xml/XPath/XPathScanner.hpp"
 #ifdef __cpp_modules
-export module XPath;
-#endif
+                    export module XPath;
+                    #endif
+                

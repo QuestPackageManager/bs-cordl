@@ -21,48 +21,48 @@ namespace System::Runtime::CompilerServices {
 // CS Name: System.Runtime.CompilerServices.DefaultDependencyAttribute
 class CORDL_TYPE DefaultDependencyAttribute : public ::System::Attribute {
 public:
-  // Declarations
-  /// @brief Field loadHint, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_loadHint, put = __cordl_internal_set_loadHint)) ::System::Runtime::CompilerServices::LoadHint loadHint;
+// Declarations
+/// @brief Field loadHint, offset 0x10, size 0x4 
+ __declspec(property(get=__cordl_internal_get_loadHint, put=__cordl_internal_set_loadHint)) ::System::Runtime::CompilerServices::LoadHint  loadHint;
 
-  static inline ::System::Runtime::CompilerServices::DefaultDependencyAttribute* New_ctor(::System::Runtime::CompilerServices::LoadHint loadHintArgument);
+static inline ::System::Runtime::CompilerServices::DefaultDependencyAttribute* New_ctor(::System::Runtime::CompilerServices::LoadHint  loadHintArgument) ;
 
-  constexpr ::System::Runtime::CompilerServices::LoadHint const& __cordl_internal_get_loadHint() const;
+constexpr ::System::Runtime::CompilerServices::LoadHint const& __cordl_internal_get_loadHint() const;
 
-  constexpr ::System::Runtime::CompilerServices::LoadHint& __cordl_internal_get_loadHint();
+constexpr ::System::Runtime::CompilerServices::LoadHint& __cordl_internal_get_loadHint() ;
 
-  constexpr void __cordl_internal_set_loadHint(::System::Runtime::CompilerServices::LoadHint value);
+constexpr void __cordl_internal_set_loadHint(::System::Runtime::CompilerServices::LoadHint  value) ;
 
-  /// @brief Method .ctor, addr 0x5a352d4, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::System::Runtime::CompilerServices::LoadHint loadHintArgument);
+/// @brief Method .ctor, addr 0x5a36e4c, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(::System::Runtime::CompilerServices::LoadHint  loadHintArgument) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DefaultDependencyAttribute();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr DefaultDependencyAttribute() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DefaultDependencyAttribute", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  DefaultDependencyAttribute(DefaultDependencyAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DefaultDependencyAttribute", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  DefaultDependencyAttribute(DefaultDependencyAttribute const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "DefaultDependencyAttribute", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+DefaultDependencyAttribute(DefaultDependencyAttribute && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3427 };
+// Ctor Parameters [CppParam { name: "", ty: "DefaultDependencyAttribute", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+DefaultDependencyAttribute(DefaultDependencyAttribute const& ) = delete;
 
-  /// @brief Field loadHint, offset: 0x10, size: 0x4, def value: None
-  ::System::Runtime::CompilerServices::LoadHint ___loadHint;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{3427};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field loadHint, offset: 0x10, size: 0x4, def value: None
+ ::System::Runtime::CompilerServices::LoadHint  ___loadHint;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Runtime::CompilerServices::DefaultDependencyAttribute, ___loadHint) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::System::Runtime::CompilerServices::DefaultDependencyAttribute, 0x18>, "Size mismatch!");
 
-} // namespace System::Runtime::CompilerServices
+} // namespace end def System::Runtime::CompilerServices
 NEED_NO_BOX(::System::Runtime::CompilerServices::DefaultDependencyAttribute);
 DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::CompilerServices::DefaultDependencyAttribute*, "System.Runtime.CompilerServices", "DefaultDependencyAttribute");

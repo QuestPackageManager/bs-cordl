@@ -21,7 +21,8 @@ namespace UnityEngine::UIElements {
 class KeyDownEvent;
 }
 namespace UnityEngine::UIElements {
-template <typename T> class NavigationEventBase_1;
+template<typename T>
+class NavigationEventBase_1;
 }
 namespace UnityEngine::UIElements {
 class TextElement;
@@ -47,78 +48,79 @@ namespace UnityEngine::UIElements {
 // CS Name: UnityEngine.UIElements.KeyboardTextEditorEventHandler
 class CORDL_TYPE KeyboardTextEditorEventHandler : public ::UnityEngine::UIElements::TextEditorEventHandler {
 public:
-  // Declarations
-  /// @brief Field m_Changed, offset 0x28, size 0x1
-  __declspec(property(get = __cordl_internal_get_m_Changed, put = __cordl_internal_set_m_Changed)) bool m_Changed;
+// Declarations
+/// @brief Field m_Changed, offset 0x28, size 0x1 
+ __declspec(property(get=__cordl_internal_get_m_Changed, put=__cordl_internal_set_m_Changed)) bool  m_Changed;
 
-  /// @brief Field m_ImguiEvent, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_ImguiEvent, put = __cordl_internal_set_m_ImguiEvent)) ::UnityEngine::Event* m_ImguiEvent;
+/// @brief Field m_ImguiEvent, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_ImguiEvent, put=__cordl_internal_set_m_ImguiEvent)) ::UnityEngine::Event*  m_ImguiEvent;
 
-  /// @brief Method HandleEventBubbleUp, addr 0x6bf1164, size 0x304, virtual true, abstract: false, final false
-  inline void HandleEventBubbleUp(::UnityEngine::UIElements::EventBase* evt);
+/// @brief Method HandleEventBubbleUp, addr 0x6bf2cdc, size 0x304, virtual true, abstract: false, final false
+inline void HandleEventBubbleUp(::UnityEngine::UIElements::EventBase*  evt) ;
 
-  static inline ::UnityEngine::UIElements::KeyboardTextEditorEventHandler* New_ctor(::UnityEngine::UIElements::TextElement* textElement, ::UnityEngine::TextEditingUtilities* editingUtilities);
+static inline ::UnityEngine::UIElements::KeyboardTextEditorEventHandler* New_ctor(::UnityEngine::UIElements::TextElement*  textElement, ::UnityEngine::TextEditingUtilities*  editingUtilities) ;
 
-  /// @brief Method OnBlur, addr 0x6bf21f8, size 0x74, virtual false, abstract: false, final false
-  inline void OnBlur(::UnityEngine::UIElements::BlurEvent* _);
+/// @brief Method OnBlur, addr 0x6bf3d70, size 0x74, virtual false, abstract: false, final false
+inline void OnBlur(::UnityEngine::UIElements::BlurEvent*  _) ;
 
-  /// @brief Method OnExecuteCommandEvent, addr 0x6bf1eb0, size 0x250, virtual false, abstract: false, final false
-  inline void OnExecuteCommandEvent(::UnityEngine::UIElements::ExecuteCommandEvent* evt);
+/// @brief Method OnExecuteCommandEvent, addr 0x6bf3a28, size 0x250, virtual false, abstract: false, final false
+inline void OnExecuteCommandEvent(::UnityEngine::UIElements::ExecuteCommandEvent*  evt) ;
 
-  /// @brief Method OnFocus, addr 0x6bf2100, size 0xf8, virtual false, abstract: false, final false
-  inline void OnFocus(::UnityEngine::UIElements::FocusEvent* _);
+/// @brief Method OnFocus, addr 0x6bf3c78, size 0xf8, virtual false, abstract: false, final false
+inline void OnFocus(::UnityEngine::UIElements::FocusEvent*  _) ;
 
-  /// @brief Method OnKeyDown, addr 0x6bf146c, size 0x838, virtual false, abstract: false, final false
-  inline void OnKeyDown(::UnityEngine::UIElements::KeyDownEvent* evt);
+/// @brief Method OnKeyDown, addr 0x6bf2fe4, size 0x838, virtual false, abstract: false, final false
+inline void OnKeyDown(::UnityEngine::UIElements::KeyDownEvent*  evt) ;
 
-  /// @brief Method OnNavigationEvent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TEvent> inline void OnNavigationEvent(::UnityEngine::UIElements::NavigationEventBase_1<TEvent>* evt);
+/// @brief Method OnNavigationEvent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+template<typename TEvent>
+inline void OnNavigationEvent(::UnityEngine::UIElements::NavigationEventBase_1<TEvent>*  evt) ;
 
-  /// @brief Method OnValidateCommandEvent, addr 0x6bf1ca4, size 0x20c, virtual false, abstract: false, final false
-  inline void OnValidateCommandEvent(::UnityEngine::UIElements::ValidateCommandEvent* evt);
+/// @brief Method OnValidateCommandEvent, addr 0x6bf381c, size 0x20c, virtual false, abstract: false, final false
+inline void OnValidateCommandEvent(::UnityEngine::UIElements::ValidateCommandEvent*  evt) ;
 
-  /// @brief Method UpdateLabel, addr 0x6bf226c, size 0x280, virtual false, abstract: false, final false
-  inline void UpdateLabel(bool generatePreview);
+/// @brief Method UpdateLabel, addr 0x6bf3de4, size 0x280, virtual false, abstract: false, final false
+inline void UpdateLabel(bool  generatePreview) ;
 
-  constexpr bool const& __cordl_internal_get_m_Changed() const;
+constexpr bool const& __cordl_internal_get_m_Changed() const;
 
-  constexpr bool& __cordl_internal_get_m_Changed();
+constexpr bool& __cordl_internal_get_m_Changed() ;
 
-  constexpr ::UnityEngine::Event* const& __cordl_internal_get_m_ImguiEvent() const;
+constexpr ::UnityEngine::Event* const& __cordl_internal_get_m_ImguiEvent() const;
 
-  constexpr ::UnityEngine::Event*& __cordl_internal_get_m_ImguiEvent();
+constexpr ::UnityEngine::Event*& __cordl_internal_get_m_ImguiEvent() ;
 
-  constexpr void __cordl_internal_set_m_Changed(bool value);
+constexpr void __cordl_internal_set_m_Changed(bool  value) ;
 
-  constexpr void __cordl_internal_set_m_ImguiEvent(::UnityEngine::Event* value);
+constexpr void __cordl_internal_set_m_ImguiEvent(::UnityEngine::Event*  value) ;
 
-  /// @brief Method .ctor, addr 0x6bf1044, size 0x118, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::UIElements::TextElement* textElement, ::UnityEngine::TextEditingUtilities* editingUtilities);
+/// @brief Method .ctor, addr 0x6bf2bbc, size 0x118, virtual false, abstract: false, final false
+inline void _ctor(::UnityEngine::UIElements::TextElement*  textElement, ::UnityEngine::TextEditingUtilities*  editingUtilities) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr KeyboardTextEditorEventHandler();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr KeyboardTextEditorEventHandler() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "KeyboardTextEditorEventHandler", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  KeyboardTextEditorEventHandler(KeyboardTextEditorEventHandler&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "KeyboardTextEditorEventHandler", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  KeyboardTextEditorEventHandler(KeyboardTextEditorEventHandler const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "KeyboardTextEditorEventHandler", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+KeyboardTextEditorEventHandler(KeyboardTextEditorEventHandler && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4222 };
+// Ctor Parameters [CppParam { name: "", ty: "KeyboardTextEditorEventHandler", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+KeyboardTextEditorEventHandler(KeyboardTextEditorEventHandler const& ) = delete;
 
-  /// @brief Field m_ImguiEvent, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::Event* ___m_ImguiEvent;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4222};
 
-  /// @brief Field m_Changed, offset: 0x28, size: 0x1, def value: None
-  bool ___m_Changed;
+/// @brief Field m_ImguiEvent, offset: 0x20, size: 0x8, def value: None
+ ::UnityEngine::Event*  ___m_ImguiEvent;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field m_Changed, offset: 0x28, size: 0x1, def value: None
+ bool  ___m_Changed;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::UIElements::KeyboardTextEditorEventHandler, ___m_ImguiEvent) == 0x20, "Offset mismatch!");
@@ -127,6 +129,6 @@ static_assert(offsetof(::UnityEngine::UIElements::KeyboardTextEditorEventHandler
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::KeyboardTextEditorEventHandler, 0x30>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements
+} // namespace end def UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::KeyboardTextEditorEventHandler);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::KeyboardTextEditorEventHandler*, "UnityEngine.UIElements", "KeyboardTextEditorEventHandler");

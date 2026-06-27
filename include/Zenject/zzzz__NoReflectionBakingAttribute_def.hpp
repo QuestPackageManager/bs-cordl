@@ -17,34 +17,34 @@ namespace Zenject {
 // CS Name: Zenject.NoReflectionBakingAttribute
 class CORDL_TYPE NoReflectionBakingAttribute : public ::System::Attribute {
 public:
-  // Declarations
-  static inline ::Zenject::NoReflectionBakingAttribute* New_ctor();
+// Declarations
+static inline ::Zenject::NoReflectionBakingAttribute* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x6ce4efc, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6ce6a74, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NoReflectionBakingAttribute();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr NoReflectionBakingAttribute() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NoReflectionBakingAttribute", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  NoReflectionBakingAttribute(NoReflectionBakingAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NoReflectionBakingAttribute", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  NoReflectionBakingAttribute(NoReflectionBakingAttribute const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "NoReflectionBakingAttribute", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+NoReflectionBakingAttribute(NoReflectionBakingAttribute && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22399 };
+// Ctor Parameters [CppParam { name: "", ty: "NoReflectionBakingAttribute", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+NoReflectionBakingAttribute(NoReflectionBakingAttribute const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22403};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Zenject::NoReflectionBakingAttribute, 0x10>, "Size mismatch!");
 
-} // namespace Zenject
+} // namespace end def Zenject
 NEED_NO_BOX(::Zenject::NoReflectionBakingAttribute);
 DEFINE_IL2CPP_ARG_TYPE(::Zenject::NoReflectionBakingAttribute*, "Zenject", "NoReflectionBakingAttribute");

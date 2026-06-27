@@ -34,117 +34,117 @@ namespace UnityEngine {
 // CS Name: UnityEngine.GUIStyleState/BindingsMarshaller
 class CORDL_TYPE GUIStyleState_BindingsMarshaller : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method ConvertToNative, addr 0x69f0a30, size 0x14, virtual false, abstract: false, final false
-  static inline ::System::IntPtr ConvertToNative(::UnityEngine::GUIStyleState* guiStyleState);
+// Declarations
+/// @brief Method ConvertToNative, addr 0x69f25a8, size 0x14, virtual false, abstract: false, final false
+static inline ::System::IntPtr ConvertToNative(::UnityEngine::GUIStyleState*  guiStyleState) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr GUIStyleState_BindingsMarshaller();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr GUIStyleState_BindingsMarshaller() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GUIStyleState_BindingsMarshaller", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  GUIStyleState_BindingsMarshaller(GUIStyleState_BindingsMarshaller&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GUIStyleState_BindingsMarshaller", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  GUIStyleState_BindingsMarshaller(GUIStyleState_BindingsMarshaller const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "GUIStyleState_BindingsMarshaller", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+GUIStyleState_BindingsMarshaller(GUIStyleState_BindingsMarshaller && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19617 };
+// Ctor Parameters [CppParam { name: "", ty: "GUIStyleState_BindingsMarshaller", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+GUIStyleState_BindingsMarshaller(GUIStyleState_BindingsMarshaller const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19620};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::GUIStyleState_BindingsMarshaller, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine
+} // namespace end def UnityEngine
 // Dependencies System.IntPtr, System.Object
 namespace UnityEngine {
 // Is value type: false
 // CS Name: UnityEngine.GUIStyleState
 class CORDL_TYPE GUIStyleState : public ::System::Object {
 public:
-  // Declarations
-  using BindingsMarshaller = ::UnityEngine::GUIStyleState_BindingsMarshaller;
+// Declarations
+using BindingsMarshaller = ::UnityEngine::GUIStyleState_BindingsMarshaller;
 
-  /// @brief Field m_Ptr, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Ptr, put = __cordl_internal_set_m_Ptr)) ::System::IntPtr m_Ptr;
+/// @brief Field m_Ptr, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_Ptr, put=__cordl_internal_set_m_Ptr)) ::System::IntPtr  m_Ptr;
 
-  /// @brief Field m_SourceStyle, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_SourceStyle, put = __cordl_internal_set_m_SourceStyle)) ::UnityEngine::GUIStyle* m_SourceStyle;
+/// @brief Field m_SourceStyle, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_SourceStyle, put=__cordl_internal_set_m_SourceStyle)) ::UnityEngine::GUIStyle*  m_SourceStyle;
 
-  __declspec(property(put = set_textColor)) ::UnityEngine::Color textColor;
+ __declspec(property(put=set_textColor)) ::UnityEngine::Color  textColor;
 
-  /// @brief Method Cleanup, addr 0x69f08ac, size 0x50, virtual false, abstract: false, final false
-  inline void Cleanup();
+/// @brief Method Cleanup, addr 0x69f2424, size 0x50, virtual false, abstract: false, final false
+inline void Cleanup() ;
 
-  /// @brief Method Cleanup_Injected, addr 0x69f08fc, size 0x3c, virtual false, abstract: false, final false
-  static inline void Cleanup_Injected(::System::IntPtr _unity_self);
+/// @brief Method Cleanup_Injected, addr 0x69f2474, size 0x3c, virtual false, abstract: false, final false
+static inline void Cleanup_Injected(::System::IntPtr  _unity_self) ;
 
-  /// @brief Method Finalize, addr 0x69f09dc, size 0x54, virtual true, abstract: false, final false
-  inline void Finalize();
+/// @brief Method Finalize, addr 0x69f2554, size 0x54, virtual true, abstract: false, final false
+inline void Finalize() ;
 
-  /// @brief Method GetGUIStyleState, addr 0x69f0980, size 0x5c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::GUIStyleState* GetGUIStyleState(::UnityEngine::GUIStyle* sourceStyle, ::System::IntPtr source);
+/// @brief Method GetGUIStyleState, addr 0x69f24f8, size 0x5c, virtual false, abstract: false, final false
+static inline ::UnityEngine::GUIStyleState* GetGUIStyleState(::UnityEngine::GUIStyle*  sourceStyle, ::System::IntPtr  source) ;
 
-  /// @brief Method Init, addr 0x69f0884, size 0x28, virtual false, abstract: false, final false
-  static inline ::System::IntPtr Init();
+/// @brief Method Init, addr 0x69f23fc, size 0x28, virtual false, abstract: false, final false
+static inline ::System::IntPtr Init() ;
 
-  static inline ::UnityEngine::GUIStyleState* New_ctor();
+static inline ::UnityEngine::GUIStyleState* New_ctor() ;
 
-  static inline ::UnityEngine::GUIStyleState* New_ctor(::UnityEngine::GUIStyle* sourceStyle, ::System::IntPtr source);
+static inline ::UnityEngine::GUIStyleState* New_ctor(::UnityEngine::GUIStyle*  sourceStyle, ::System::IntPtr  source) ;
 
-  constexpr ::System::IntPtr const& __cordl_internal_get_m_Ptr() const;
+constexpr ::System::IntPtr const& __cordl_internal_get_m_Ptr() const;
 
-  constexpr ::System::IntPtr& __cordl_internal_get_m_Ptr();
+constexpr ::System::IntPtr& __cordl_internal_get_m_Ptr() ;
 
-  constexpr ::UnityEngine::GUIStyle* const& __cordl_internal_get_m_SourceStyle() const;
+constexpr ::UnityEngine::GUIStyle* const& __cordl_internal_get_m_SourceStyle() const;
 
-  constexpr ::UnityEngine::GUIStyle*& __cordl_internal_get_m_SourceStyle();
+constexpr ::UnityEngine::GUIStyle*& __cordl_internal_get_m_SourceStyle() ;
 
-  constexpr void __cordl_internal_set_m_Ptr(::System::IntPtr value);
+constexpr void __cordl_internal_set_m_Ptr(::System::IntPtr  value) ;
 
-  constexpr void __cordl_internal_set_m_SourceStyle(::UnityEngine::GUIStyle* value);
+constexpr void __cordl_internal_set_m_SourceStyle(::UnityEngine::GUIStyle*  value) ;
 
-  /// @brief Method .ctor, addr 0x69f0938, size 0x40, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x69f24b0, size 0x40, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method .ctor, addr 0x69f0978, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::GUIStyle* sourceStyle, ::System::IntPtr source);
+/// @brief Method .ctor, addr 0x69f24f0, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(::UnityEngine::GUIStyle*  sourceStyle, ::System::IntPtr  source) ;
 
-  /// @brief Method set_textColor, addr 0x69f03fc, size 0x68, virtual false, abstract: false, final false
-  inline void set_textColor(::UnityEngine::Color value);
+/// @brief Method set_textColor, addr 0x69f1f74, size 0x68, virtual false, abstract: false, final false
+inline void set_textColor(::UnityEngine::Color  value) ;
 
-  /// @brief Method set_textColor_Injected, addr 0x69f0840, size 0x44, virtual false, abstract: false, final false
-  static inline void set_textColor_Injected(::System::IntPtr _unity_self, ::ByRef<::UnityEngine::Color> value);
+/// @brief Method set_textColor_Injected, addr 0x69f23b8, size 0x44, virtual false, abstract: false, final false
+static inline void set_textColor_Injected(::System::IntPtr  _unity_self, ::ByRef<::UnityEngine::Color>  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr GUIStyleState();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr GUIStyleState() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GUIStyleState", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  GUIStyleState(GUIStyleState&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GUIStyleState", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  GUIStyleState(GUIStyleState const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "GUIStyleState", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+GUIStyleState(GUIStyleState && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19618 };
+// Ctor Parameters [CppParam { name: "", ty: "GUIStyleState", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+GUIStyleState(GUIStyleState const& ) = delete;
 
-  /// @brief Field m_Ptr, offset: 0x10, size: 0x8, def value: None
-  ::System::IntPtr ___m_Ptr;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19621};
 
-  /// @brief Field m_SourceStyle, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::GUIStyle* ___m_SourceStyle;
+/// @brief Field m_Ptr, offset: 0x10, size: 0x8, def value: None
+ ::System::IntPtr  ___m_Ptr;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field m_SourceStyle, offset: 0x18, size: 0x8, def value: None
+ ::UnityEngine::GUIStyle*  ___m_SourceStyle;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::GUIStyleState, ___m_Ptr) == 0x10, "Offset mismatch!");
@@ -153,7 +153,7 @@ static_assert(offsetof(::UnityEngine::GUIStyleState, ___m_SourceStyle) == 0x18, 
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::GUIStyleState, 0x20>, "Size mismatch!");
 
-} // namespace UnityEngine
+} // namespace end def UnityEngine
 NEED_NO_BOX(::UnityEngine::GUIStyleState);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::GUIStyleState*, "UnityEngine", "GUIStyleState");
 NEED_NO_BOX(::UnityEngine::GUIStyleState_BindingsMarshaller);

@@ -28,72 +28,72 @@ namespace System::Net {
 // CS Name: System.Net.CaseInsensitiveAscii
 class CORDL_TYPE CaseInsensitiveAscii : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field AsciiToLower, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_AsciiToLower, put = setStaticF_AsciiToLower)) ::ArrayW<uint8_t, ::Array<uint8_t>*> AsciiToLower;
+// Declarations
+/// @brief Field AsciiToLower, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_AsciiToLower, put=setStaticF_AsciiToLower)) ::ArrayW<uint8_t,::Array<uint8_t>*>  AsciiToLower;
 
-  /// @brief Field StaticInstance, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_StaticInstance, put = setStaticF_StaticInstance)) ::System::Net::CaseInsensitiveAscii* StaticInstance;
+/// @brief Field StaticInstance, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_StaticInstance, put=setStaticF_StaticInstance)) ::System::Net::CaseInsensitiveAscii*  StaticInstance;
 
-  /// @brief Convert operator to "::System::Collections::IComparer"
-  constexpr operator ::System::Collections::IComparer*() noexcept;
+/// @brief Convert operator to "::System::Collections::IComparer"
+constexpr operator  ::System::Collections::IComparer*() noexcept;
 
-  /// @brief Convert operator to "::System::Collections::IEqualityComparer"
-  constexpr operator ::System::Collections::IEqualityComparer*() noexcept;
+/// @brief Convert operator to "::System::Collections::IEqualityComparer"
+constexpr operator  ::System::Collections::IEqualityComparer*() noexcept;
 
-  /// @brief Method Compare, addr 0x62cef18, size 0x17c, virtual true, abstract: false, final true
-  inline int32_t Compare(::System::Object* firstObject, ::System::Object* secondObject);
+/// @brief Method Compare, addr 0x62d0a90, size 0x17c, virtual true, abstract: false, final true
+inline int32_t Compare(::System::Object*  firstObject, ::System::Object*  secondObject) ;
 
-  /// @brief Method Equals, addr 0x62cf180, size 0x194, virtual true, abstract: false, final true
-  inline bool Equals(::System::Object* firstObject, ::System::Object* secondObject);
+/// @brief Method Equals, addr 0x62d0cf8, size 0x194, virtual true, abstract: false, final true
+inline bool Equals(::System::Object*  firstObject, ::System::Object*  secondObject) ;
 
-  /// @brief Method FastGetHashCode, addr 0x62cf094, size 0xec, virtual false, abstract: false, final false
-  inline int32_t FastGetHashCode(::StringW myString);
+/// @brief Method FastGetHashCode, addr 0x62d0c0c, size 0xec, virtual false, abstract: false, final false
+inline int32_t FastGetHashCode(::StringW  myString) ;
 
-  /// @brief Method GetHashCode, addr 0x62cee18, size 0x100, virtual true, abstract: false, final true
-  inline int32_t GetHashCode(::System::Object* myObject);
+/// @brief Method GetHashCode, addr 0x62d0990, size 0x100, virtual true, abstract: false, final true
+inline int32_t GetHashCode(::System::Object*  myObject) ;
 
-  static inline ::System::Net::CaseInsensitiveAscii* New_ctor();
+static inline ::System::Net::CaseInsensitiveAscii* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x62cf314, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x62d0e8c, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_AsciiToLower();
+static inline ::ArrayW<uint8_t,::Array<uint8_t>*> getStaticF_AsciiToLower() ;
 
-  static inline ::System::Net::CaseInsensitiveAscii* getStaticF_StaticInstance();
+static inline ::System::Net::CaseInsensitiveAscii* getStaticF_StaticInstance() ;
 
-  /// @brief Convert to "::System::Collections::IComparer"
-  constexpr ::System::Collections::IComparer* i___System__Collections__IComparer() noexcept;
+/// @brief Convert to "::System::Collections::IComparer"
+constexpr ::System::Collections::IComparer* i___System__Collections__IComparer() noexcept;
 
-  /// @brief Convert to "::System::Collections::IEqualityComparer"
-  constexpr ::System::Collections::IEqualityComparer* i___System__Collections__IEqualityComparer() noexcept;
+/// @brief Convert to "::System::Collections::IEqualityComparer"
+constexpr ::System::Collections::IEqualityComparer* i___System__Collections__IEqualityComparer() noexcept;
 
-  static inline void setStaticF_AsciiToLower(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+static inline void setStaticF_AsciiToLower(::ArrayW<uint8_t,::Array<uint8_t>*>  value) ;
 
-  static inline void setStaticF_StaticInstance(::System::Net::CaseInsensitiveAscii* value);
+static inline void setStaticF_StaticInstance(::System::Net::CaseInsensitiveAscii*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CaseInsensitiveAscii();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr CaseInsensitiveAscii() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CaseInsensitiveAscii", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  CaseInsensitiveAscii(CaseInsensitiveAscii&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CaseInsensitiveAscii", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  CaseInsensitiveAscii(CaseInsensitiveAscii const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "CaseInsensitiveAscii", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+CaseInsensitiveAscii(CaseInsensitiveAscii && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11502 };
+// Ctor Parameters [CppParam { name: "", ty: "CaseInsensitiveAscii", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+CaseInsensitiveAscii(CaseInsensitiveAscii const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11503};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::CaseInsensitiveAscii, 0x10>, "Size mismatch!");
 
-} // namespace System::Net
+} // namespace end def System::Net
 NEED_NO_BOX(::System::Net::CaseInsensitiveAscii);
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::CaseInsensitiveAscii*, "System.Net", "CaseInsensitiveAscii");

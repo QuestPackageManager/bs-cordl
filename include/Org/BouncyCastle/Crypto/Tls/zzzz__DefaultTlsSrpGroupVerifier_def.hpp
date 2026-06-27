@@ -29,75 +29,75 @@ namespace Org::BouncyCastle::Crypto::Tls {
 // CS Name: Org.BouncyCastle.Crypto.Tls.DefaultTlsSrpGroupVerifier
 class CORDL_TYPE DefaultTlsSrpGroupVerifier : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field DefaultGroups, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_DefaultGroups, put = setStaticF_DefaultGroups)) ::System::Collections::IList* DefaultGroups;
+// Declarations
+/// @brief Field DefaultGroups, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_DefaultGroups, put=setStaticF_DefaultGroups)) ::System::Collections::IList*  DefaultGroups;
 
-  /// @brief Field mGroups, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_mGroups, put = __cordl_internal_set_mGroups)) ::System::Collections::IList* mGroups;
+/// @brief Field mGroups, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_mGroups, put=__cordl_internal_set_mGroups)) ::System::Collections::IList*  mGroups;
 
-  /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::TlsSrpGroupVerifier"
-  constexpr operator ::Org::BouncyCastle::Crypto::Tls::TlsSrpGroupVerifier*() noexcept;
+/// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::TlsSrpGroupVerifier"
+constexpr operator  ::Org::BouncyCastle::Crypto::Tls::TlsSrpGroupVerifier*() noexcept;
 
-  /// @brief Method Accept, addr 0x3381bd0, size 0x320, virtual true, abstract: false, final false
-  inline bool Accept(::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters* group);
+/// @brief Method Accept, addr 0x338296c, size 0x320, virtual true, abstract: false, final false
+inline bool Accept(::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters*  group) ;
 
-  /// @brief Method AreGroupsEqual, addr 0x3381ef0, size 0x78, virtual true, abstract: false, final false
-  inline bool AreGroupsEqual(::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters* a, ::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters* b);
+/// @brief Method AreGroupsEqual, addr 0x3382c8c, size 0x78, virtual true, abstract: false, final false
+inline bool AreGroupsEqual(::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters*  a, ::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters*  b) ;
 
-  /// @brief Method AreParametersEqual, addr 0x3381f68, size 0x34, virtual true, abstract: false, final false
-  inline bool AreParametersEqual(::Org::BouncyCastle::Math::BigInteger* a, ::Org::BouncyCastle::Math::BigInteger* b);
+/// @brief Method AreParametersEqual, addr 0x3382d04, size 0x34, virtual true, abstract: false, final false
+inline bool AreParametersEqual(::Org::BouncyCastle::Math::BigInteger*  a, ::Org::BouncyCastle::Math::BigInteger*  b) ;
 
-  static inline ::Org::BouncyCastle::Crypto::Tls::DefaultTlsSrpGroupVerifier* New_ctor();
+static inline ::Org::BouncyCastle::Crypto::Tls::DefaultTlsSrpGroupVerifier* New_ctor() ;
 
-  static inline ::Org::BouncyCastle::Crypto::Tls::DefaultTlsSrpGroupVerifier* New_ctor(::System::Collections::IList* groups);
+static inline ::Org::BouncyCastle::Crypto::Tls::DefaultTlsSrpGroupVerifier* New_ctor(::System::Collections::IList*  groups) ;
 
-  constexpr ::System::Collections::IList* const& __cordl_internal_get_mGroups() const;
+constexpr ::System::Collections::IList* const& __cordl_internal_get_mGroups() const;
 
-  constexpr ::System::Collections::IList*& __cordl_internal_get_mGroups();
+constexpr ::System::Collections::IList*& __cordl_internal_get_mGroups() ;
 
-  constexpr void __cordl_internal_set_mGroups(::System::Collections::IList* value);
+constexpr void __cordl_internal_set_mGroups(::System::Collections::IList*  value) ;
 
-  /// @brief Method .ctor, addr 0x3381b64, size 0x64, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x3382900, size 0x64, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method .ctor, addr 0x3381bc8, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::System::Collections::IList* groups);
+/// @brief Method .ctor, addr 0x3382964, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(::System::Collections::IList*  groups) ;
 
-  static inline ::System::Collections::IList* getStaticF_DefaultGroups();
+static inline ::System::Collections::IList* getStaticF_DefaultGroups() ;
 
-  /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsSrpGroupVerifier"
-  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsSrpGroupVerifier* i___Org__BouncyCastle__Crypto__Tls__TlsSrpGroupVerifier() noexcept;
+/// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsSrpGroupVerifier"
+constexpr ::Org::BouncyCastle::Crypto::Tls::TlsSrpGroupVerifier* i___Org__BouncyCastle__Crypto__Tls__TlsSrpGroupVerifier() noexcept;
 
-  static inline void setStaticF_DefaultGroups(::System::Collections::IList* value);
+static inline void setStaticF_DefaultGroups(::System::Collections::IList*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DefaultTlsSrpGroupVerifier();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr DefaultTlsSrpGroupVerifier() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DefaultTlsSrpGroupVerifier", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  DefaultTlsSrpGroupVerifier(DefaultTlsSrpGroupVerifier&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DefaultTlsSrpGroupVerifier", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  DefaultTlsSrpGroupVerifier(DefaultTlsSrpGroupVerifier const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "DefaultTlsSrpGroupVerifier", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+DefaultTlsSrpGroupVerifier(DefaultTlsSrpGroupVerifier && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1217 };
+// Ctor Parameters [CppParam { name: "", ty: "DefaultTlsSrpGroupVerifier", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+DefaultTlsSrpGroupVerifier(DefaultTlsSrpGroupVerifier const& ) = delete;
 
-  /// @brief Field mGroups, offset: 0x10, size: 0x8, def value: None
-  ::System::Collections::IList* ___mGroups;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{1217};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field mGroups, offset: 0x10, size: 0x8, def value: None
+ ::System::Collections::IList*  ___mGroups;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::DefaultTlsSrpGroupVerifier, ___mGroups) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Tls::DefaultTlsSrpGroupVerifier, 0x18>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Crypto::Tls
+} // namespace end def Org::BouncyCastle::Crypto::Tls
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Tls::DefaultTlsSrpGroupVerifier);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Tls::DefaultTlsSrpGroupVerifier*, "Org.BouncyCastle.Crypto.Tls", "DefaultTlsSrpGroupVerifier");

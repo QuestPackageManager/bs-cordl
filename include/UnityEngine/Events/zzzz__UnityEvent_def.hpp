@@ -33,66 +33,66 @@ namespace UnityEngine::Events {
 // CS Name: UnityEngine.Events.UnityEvent
 class CORDL_TYPE UnityEvent : public ::UnityEngine::Events::UnityEventBase {
 public:
-  // Declarations
-  /// @brief Field m_InvokeArray, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_InvokeArray, put = __cordl_internal_set_m_InvokeArray)) ::ArrayW<::System::Object*, ::Array<::System::Object*>*> m_InvokeArray;
+// Declarations
+/// @brief Field m_InvokeArray, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_InvokeArray, put=__cordl_internal_set_m_InvokeArray)) ::ArrayW<::System::Object*,::Array<::System::Object*>*>  m_InvokeArray;
 
-  /// @brief Method AddListener, addr 0x69a63f4, size 0x2c, virtual false, abstract: false, final false
-  inline void AddListener(::UnityEngine::Events::UnityAction* call);
+/// @brief Method AddListener, addr 0x69a7f6c, size 0x2c, virtual false, abstract: false, final false
+inline void AddListener(::UnityEngine::Events::UnityAction*  call) ;
 
-  /// @brief Method FindMethod_Impl, addr 0x69a64c8, size 0x68, virtual true, abstract: false, final false
-  inline ::System::Reflection::MethodInfo* FindMethod_Impl(::StringW name, ::System::Type* targetObjType);
+/// @brief Method FindMethod_Impl, addr 0x69a8040, size 0x68, virtual true, abstract: false, final false
+inline ::System::Reflection::MethodInfo* FindMethod_Impl(::StringW  name, ::System::Type*  targetObjType) ;
 
-  /// @brief Method GetDelegate, addr 0x69a6420, size 0x5c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Events::BaseInvokableCall* GetDelegate(::UnityEngine::Events::UnityAction* action);
+/// @brief Method GetDelegate, addr 0x69a7f98, size 0x5c, virtual false, abstract: false, final false
+static inline ::UnityEngine::Events::BaseInvokableCall* GetDelegate(::UnityEngine::Events::UnityAction*  action) ;
 
-  /// @brief Method GetDelegate, addr 0x69a6530, size 0x6c, virtual true, abstract: false, final false
-  inline ::UnityEngine::Events::BaseInvokableCall* GetDelegate(::System::Object* target, ::System::Reflection::MethodInfo* theFunction);
+/// @brief Method GetDelegate, addr 0x69a80a8, size 0x6c, virtual true, abstract: false, final false
+inline ::UnityEngine::Events::BaseInvokableCall* GetDelegate(::System::Object*  target, ::System::Reflection::MethodInfo*  theFunction) ;
 
-  /// @brief Method Invoke, addr 0x69a659c, size 0x194, virtual false, abstract: false, final false
-  inline void Invoke();
+/// @brief Method Invoke, addr 0x69a8114, size 0x194, virtual false, abstract: false, final false
+inline void Invoke() ;
 
-  static inline ::UnityEngine::Events::UnityEvent* New_ctor();
+static inline ::UnityEngine::Events::UnityEvent* New_ctor() ;
 
-  /// @brief Method RemoveListener, addr 0x69a647c, size 0x4c, virtual false, abstract: false, final false
-  inline void RemoveListener(::UnityEngine::Events::UnityAction* call);
+/// @brief Method RemoveListener, addr 0x69a7ff4, size 0x4c, virtual false, abstract: false, final false
+inline void RemoveListener(::UnityEngine::Events::UnityAction*  call) ;
 
-  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*> const& __cordl_internal_get_m_InvokeArray() const;
+constexpr ::ArrayW<::System::Object*,::Array<::System::Object*>*> const& __cordl_internal_get_m_InvokeArray() const;
 
-  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*>& __cordl_internal_get_m_InvokeArray();
+constexpr ::ArrayW<::System::Object*,::Array<::System::Object*>*>& __cordl_internal_get_m_InvokeArray() ;
 
-  constexpr void __cordl_internal_set_m_InvokeArray(::ArrayW<::System::Object*, ::Array<::System::Object*>*> value);
+constexpr void __cordl_internal_set_m_InvokeArray(::ArrayW<::System::Object*,::Array<::System::Object*>*>  value) ;
 
-  /// @brief Method .ctor, addr 0x69a63ec, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x69a7f64, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr UnityEvent();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr UnityEvent() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UnityEvent", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  UnityEvent(UnityEvent&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UnityEvent", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  UnityEvent(UnityEvent const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEvent", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+UnityEvent(UnityEvent && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10443 };
+// Ctor Parameters [CppParam { name: "", ty: "UnityEvent", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+UnityEvent(UnityEvent const& ) = delete;
 
-  /// @brief Field m_InvokeArray, offset: 0x28, size: 0x8, def value: None
-  ::ArrayW<::System::Object*, ::Array<::System::Object*>*> ___m_InvokeArray;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10444};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field m_InvokeArray, offset: 0x28, size: 0x8, def value: None
+ ::ArrayW<::System::Object*,::Array<::System::Object*>*>  ___m_InvokeArray;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Events::UnityEvent, ___m_InvokeArray) == 0x28, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Events::UnityEvent, 0x30>, "Size mismatch!");
 
-} // namespace UnityEngine::Events
+} // namespace end def UnityEngine::Events
 NEED_NO_BOX(::UnityEngine::Events::UnityEvent);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Events::UnityEvent*, "UnityEngine.Events", "UnityEvent");

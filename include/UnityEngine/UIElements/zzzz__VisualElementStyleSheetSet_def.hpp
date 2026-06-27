@@ -7,7 +7,8 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(VisualElementStyleSheetSet)
 namespace System {
-template <typename T> class IEquatable_1;
+template<typename T>
+class IEquatable_1;
 }
 namespace System {
 class Object;
@@ -24,59 +25,59 @@ struct VisualElementStyleSheetSet;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::VisualElementStyleSheetSet);
-// Dependencies
+// Dependencies 
 namespace UnityEngine::UIElements {
 // Is value type: true
 // CS Name: UnityEngine.UIElements.VisualElementStyleSheetSet
 struct CORDL_TYPE VisualElementStyleSheetSet {
 public:
-  // Declarations
-  /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::VisualElementStyleSheetSet>"
-  constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::VisualElementStyleSheetSet>*();
+// Declarations
+/// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::VisualElementStyleSheetSet>"
+constexpr operator  ::System::IEquatable_1<::UnityEngine::UIElements::VisualElementStyleSheetSet>*() ;
 
-  /// @brief Method Add, addr 0x6b73b34, size 0x1ec, virtual false, abstract: false, final false
-  inline void Add(::UnityEngine::UIElements::StyleSheet* styleSheet);
+/// @brief Method Add, addr 0x6b756ac, size 0x1ec, virtual false, abstract: false, final false
+inline void Add(::UnityEngine::UIElements::StyleSheet*  styleSheet) ;
 
-  /// @brief Method Equals, addr 0x6b73ea0, size 0xa8, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* obj);
+/// @brief Method Equals, addr 0x6b75a18, size 0xa8, virtual true, abstract: false, final false
+inline bool Equals(::System::Object*  obj) ;
 
-  /// @brief Method Equals, addr 0x6b73e70, size 0x30, virtual true, abstract: false, final true
-  inline bool Equals(::UnityEngine::UIElements::VisualElementStyleSheetSet other);
+/// @brief Method Equals, addr 0x6b759e8, size 0x30, virtual true, abstract: false, final true
+inline bool Equals(::UnityEngine::UIElements::VisualElementStyleSheetSet  other) ;
 
-  /// @brief Method GetHashCode, addr 0x6b73f48, size 0x18, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
+/// @brief Method GetHashCode, addr 0x6b75ac0, size 0x18, virtual true, abstract: false, final false
+inline int32_t GetHashCode() ;
 
-  /// @brief Method Remove, addr 0x6b73d20, size 0x150, virtual false, abstract: false, final false
-  inline bool Remove(::UnityEngine::UIElements::StyleSheet* styleSheet);
+/// @brief Method Remove, addr 0x6b75898, size 0x150, virtual false, abstract: false, final false
+inline bool Remove(::UnityEngine::UIElements::StyleSheet*  styleSheet) ;
 
-  /// @brief Method .ctor, addr 0x6b73b2c, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::UIElements::VisualElement* element);
+/// @brief Method .ctor, addr 0x6b756a4, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(::UnityEngine::UIElements::VisualElement*  element) ;
 
-  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::VisualElementStyleSheetSet>"
-  constexpr ::System::IEquatable_1<::UnityEngine::UIElements::VisualElementStyleSheetSet>* i___System__IEquatable_1___UnityEngine__UIElements__VisualElementStyleSheetSet_();
+/// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::VisualElementStyleSheetSet>"
+constexpr ::System::IEquatable_1<::UnityEngine::UIElements::VisualElementStyleSheetSet>* i___System__IEquatable_1___UnityEngine__UIElements__VisualElementStyleSheetSet_() ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr VisualElementStyleSheetSet();
+// Ctor Parameters []
+// @brief default ctor
+constexpr VisualElementStyleSheetSet() ;
 
-  // Ctor Parameters [CppParam { name: "m_Element", ty: "::UnityEngine::UIElements::VisualElement*", modifiers: "", def_value: None }]
-  constexpr VisualElementStyleSheetSet(::UnityEngine::UIElements::VisualElement* m_Element) noexcept;
+// Ctor Parameters [CppParam { name: "m_Element", ty: "::UnityEngine::UIElements::VisualElement*", modifiers: "", def_value: None }]
+constexpr VisualElementStyleSheetSet(::UnityEngine::UIElements::VisualElement*  m_Element) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5248 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{5248};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x8};
 
-  /// @brief Field m_Element, offset: 0x0, size: 0x8, def value: None
-  ::UnityEngine::UIElements::VisualElement* m_Element;
+/// @brief Field m_Element, offset: 0x0, size: 0x8, def value: None
+ ::UnityEngine::UIElements::VisualElement*  m_Element;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::UIElements::VisualElementStyleSheetSet, m_Element) == 0x0, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::VisualElementStyleSheetSet, 0x8>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements
+} // namespace end def UnityEngine::UIElements
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::VisualElementStyleSheetSet, "UnityEngine.UIElements", "VisualElementStyleSheetSet");

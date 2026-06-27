@@ -17,34 +17,34 @@ namespace Unity::Jobs {
 // CS Name: Unity.Jobs.DOTSCompilerGeneratedAttribute
 class CORDL_TYPE DOTSCompilerGeneratedAttribute : public ::System::Attribute {
 public:
-  // Declarations
-  static inline ::Unity::Jobs::DOTSCompilerGeneratedAttribute* New_ctor();
+// Declarations
+static inline ::Unity::Jobs::DOTSCompilerGeneratedAttribute* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x6363b80, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x63656f8, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DOTSCompilerGeneratedAttribute();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr DOTSCompilerGeneratedAttribute() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DOTSCompilerGeneratedAttribute", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  DOTSCompilerGeneratedAttribute(DOTSCompilerGeneratedAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DOTSCompilerGeneratedAttribute", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  DOTSCompilerGeneratedAttribute(DOTSCompilerGeneratedAttribute const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "DOTSCompilerGeneratedAttribute", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+DOTSCompilerGeneratedAttribute(DOTSCompilerGeneratedAttribute && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15500 };
+// Ctor Parameters [CppParam { name: "", ty: "DOTSCompilerGeneratedAttribute", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+DOTSCompilerGeneratedAttribute(DOTSCompilerGeneratedAttribute const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{15502};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Unity::Jobs::DOTSCompilerGeneratedAttribute, 0x10>, "Size mismatch!");
 
-} // namespace Unity::Jobs
+} // namespace end def Unity::Jobs
 NEED_NO_BOX(::Unity::Jobs::DOTSCompilerGeneratedAttribute);
 DEFINE_IL2CPP_ARG_TYPE(::Unity::Jobs::DOTSCompilerGeneratedAttribute*, "Unity.Jobs", "DOTSCompilerGeneratedAttribute");

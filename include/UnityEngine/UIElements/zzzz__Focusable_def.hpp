@@ -25,184 +25,183 @@ namespace UnityEngine::UIElements {
 // CS Name: UnityEngine.UIElements.Focusable
 class CORDL_TYPE Focusable : public ::UnityEngine::UIElements::CallbackEventHandler {
 public:
-  // Declarations
-  /// @brief Field <isEligibleToReceiveFocusFromDisabledChild>k__BackingField, offset 0x2a, size 0x1
-  __declspec(property(get = __cordl_internal_get__isEligibleToReceiveFocusFromDisabledChild_k__BackingField,
-                      put = __cordl_internal_set__isEligibleToReceiveFocusFromDisabledChild_k__BackingField)) bool _isEligibleToReceiveFocusFromDisabledChild_k__BackingField;
+// Declarations
+/// @brief Field <isEligibleToReceiveFocusFromDisabledChild>k__BackingField, offset 0x2a, size 0x1 
+ __declspec(property(get=__cordl_internal_get__isEligibleToReceiveFocusFromDisabledChild_k__BackingField, put=__cordl_internal_set__isEligibleToReceiveFocusFromDisabledChild_k__BackingField)) bool  _isEligibleToReceiveFocusFromDisabledChild_k__BackingField;
 
-  __declspec(property(get = get_canGrabFocus)) bool canGrabFocus;
+ __declspec(property(get=get_canGrabFocus)) bool  canGrabFocus;
 
-  /// @brief Field canGrabFocusProperty, offset 0xffffffff, size 0x98
-  __declspec(property(get = getStaticF_canGrabFocusProperty, put = setStaticF_canGrabFocusProperty)) ::UnityEngine::UIElements::BindingId canGrabFocusProperty;
+/// @brief Field canGrabFocusProperty, offset 0xffffffff, size 0x98 
+ __declspec(property(get=getStaticF_canGrabFocusProperty, put=setStaticF_canGrabFocusProperty)) ::UnityEngine::UIElements::BindingId  canGrabFocusProperty;
 
-  __declspec(property(get = get_delegatesFocus, put = set_delegatesFocus)) bool delegatesFocus;
+ __declspec(property(get=get_delegatesFocus, put=set_delegatesFocus)) bool  delegatesFocus;
 
-  /// @brief Field delegatesFocusProperty, offset 0xffffffff, size 0x98
-  __declspec(property(get = getStaticF_delegatesFocusProperty, put = setStaticF_delegatesFocusProperty)) ::UnityEngine::UIElements::BindingId delegatesFocusProperty;
+/// @brief Field delegatesFocusProperty, offset 0xffffffff, size 0x98 
+ __declspec(property(get=getStaticF_delegatesFocusProperty, put=setStaticF_delegatesFocusProperty)) ::UnityEngine::UIElements::BindingId  delegatesFocusProperty;
 
-  __declspec(property(get = get_excludeFromFocusRing, put = set_excludeFromFocusRing)) bool excludeFromFocusRing;
+ __declspec(property(get=get_excludeFromFocusRing, put=set_excludeFromFocusRing)) bool  excludeFromFocusRing;
 
-  __declspec(property(get = get_focusController)) ::UnityEngine::UIElements::FocusController* focusController;
+ __declspec(property(get=get_focusController)) ::UnityEngine::UIElements::FocusController*  focusController;
 
-  __declspec(property(get = get_focusable, put = set_focusable)) bool focusable;
+ __declspec(property(get=get_focusable, put=set_focusable)) bool  focusable;
 
-  /// @brief Field focusableProperty, offset 0xffffffff, size 0x98
-  __declspec(property(get = getStaticF_focusableProperty, put = setStaticF_focusableProperty)) ::UnityEngine::UIElements::BindingId focusableProperty;
+/// @brief Field focusableProperty, offset 0xffffffff, size 0x98 
+ __declspec(property(get=getStaticF_focusableProperty, put=setStaticF_focusableProperty)) ::UnityEngine::UIElements::BindingId  focusableProperty;
 
-  __declspec(property(get = get_isEligibleToReceiveFocusFromDisabledChild, put = set_isEligibleToReceiveFocusFromDisabledChild)) bool isEligibleToReceiveFocusFromDisabledChild;
+ __declspec(property(get=get_isEligibleToReceiveFocusFromDisabledChild, put=set_isEligibleToReceiveFocusFromDisabledChild)) bool  isEligibleToReceiveFocusFromDisabledChild;
 
-  /// @brief Field m_DelegatesFocus, offset 0x28, size 0x1
-  __declspec(property(get = __cordl_internal_get_m_DelegatesFocus, put = __cordl_internal_set_m_DelegatesFocus)) bool m_DelegatesFocus;
+/// @brief Field m_DelegatesFocus, offset 0x28, size 0x1 
+ __declspec(property(get=__cordl_internal_get_m_DelegatesFocus, put=__cordl_internal_set_m_DelegatesFocus)) bool  m_DelegatesFocus;
 
-  /// @brief Field m_ExcludeFromFocusRing, offset 0x29, size 0x1
-  __declspec(property(get = __cordl_internal_get_m_ExcludeFromFocusRing, put = __cordl_internal_set_m_ExcludeFromFocusRing)) bool m_ExcludeFromFocusRing;
+/// @brief Field m_ExcludeFromFocusRing, offset 0x29, size 0x1 
+ __declspec(property(get=__cordl_internal_get_m_ExcludeFromFocusRing, put=__cordl_internal_set_m_ExcludeFromFocusRing)) bool  m_ExcludeFromFocusRing;
 
-  /// @brief Field m_Focusable, offset 0x20, size 0x1
-  __declspec(property(get = __cordl_internal_get_m_Focusable, put = __cordl_internal_set_m_Focusable)) bool m_Focusable;
+/// @brief Field m_Focusable, offset 0x20, size 0x1 
+ __declspec(property(get=__cordl_internal_get_m_Focusable, put=__cordl_internal_set_m_Focusable)) bool  m_Focusable;
 
-  /// @brief Field m_TabIndex, offset 0x24, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_TabIndex, put = __cordl_internal_set_m_TabIndex)) int32_t m_TabIndex;
+/// @brief Field m_TabIndex, offset 0x24, size 0x4 
+ __declspec(property(get=__cordl_internal_get_m_TabIndex, put=__cordl_internal_set_m_TabIndex)) int32_t  m_TabIndex;
 
-  __declspec(property(get = get_tabIndex, put = set_tabIndex)) int32_t tabIndex;
+ __declspec(property(get=get_tabIndex, put=set_tabIndex)) int32_t  tabIndex;
 
-  /// @brief Field tabIndexProperty, offset 0xffffffff, size 0x98
-  __declspec(property(get = getStaticF_tabIndexProperty, put = setStaticF_tabIndexProperty)) ::UnityEngine::UIElements::BindingId tabIndexProperty;
+/// @brief Field tabIndexProperty, offset 0xffffffff, size 0x98 
+ __declspec(property(get=getStaticF_tabIndexProperty, put=setStaticF_tabIndexProperty)) ::UnityEngine::UIElements::BindingId  tabIndexProperty;
 
-  /// @brief Method Blur, addr 0x6c4eaf0, size 0x38, virtual true, abstract: false, final false
-  inline void Blur();
+/// @brief Method Blur, addr 0x6c50668, size 0x38, virtual true, abstract: false, final false
+inline void Blur() ;
 
-  /// @brief Method BlurImmediately, addr 0x6c4eb80, size 0x38, virtual false, abstract: false, final false
-  inline void BlurImmediately();
+/// @brief Method BlurImmediately, addr 0x6c506f8, size 0x38, virtual false, abstract: false, final false
+inline void BlurImmediately() ;
 
-  /// @brief Method Focus, addr 0x6c4e8c4, size 0xac, virtual true, abstract: false, final false
-  inline void Focus();
+/// @brief Method Focus, addr 0x6c5043c, size 0xac, virtual true, abstract: false, final false
+inline void Focus() ;
 
-  /// @brief Method GetFirstFocusableChild, addr 0x6c4ebb8, size 0x138, virtual false, abstract: false, final false
-  static inline ::UnityEngine::UIElements::Focusable* GetFirstFocusableChild(::UnityEngine::UIElements::VisualElement* ve);
+/// @brief Method GetFirstFocusableChild, addr 0x6c50730, size 0x138, virtual false, abstract: false, final false
+static inline ::UnityEngine::UIElements::Focusable* GetFirstFocusableChild(::UnityEngine::UIElements::VisualElement*  ve) ;
 
-  /// @brief Method GetFocusDelegate, addr 0x6c4e970, size 0xbc, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::Focusable* GetFocusDelegate();
+/// @brief Method GetFocusDelegate, addr 0x6c504e8, size 0xbc, virtual false, abstract: false, final false
+inline ::UnityEngine::UIElements::Focusable* GetFocusDelegate() ;
 
-  static inline ::UnityEngine::UIElements::Focusable* New_ctor();
+static inline ::UnityEngine::UIElements::Focusable* New_ctor() ;
 
-  constexpr bool const& __cordl_internal_get__isEligibleToReceiveFocusFromDisabledChild_k__BackingField() const;
+constexpr bool const& __cordl_internal_get__isEligibleToReceiveFocusFromDisabledChild_k__BackingField() const;
 
-  constexpr bool& __cordl_internal_get__isEligibleToReceiveFocusFromDisabledChild_k__BackingField();
+constexpr bool& __cordl_internal_get__isEligibleToReceiveFocusFromDisabledChild_k__BackingField() ;
 
-  constexpr bool const& __cordl_internal_get_m_DelegatesFocus() const;
+constexpr bool const& __cordl_internal_get_m_DelegatesFocus() const;
 
-  constexpr bool& __cordl_internal_get_m_DelegatesFocus();
+constexpr bool& __cordl_internal_get_m_DelegatesFocus() ;
 
-  constexpr bool const& __cordl_internal_get_m_ExcludeFromFocusRing() const;
+constexpr bool const& __cordl_internal_get_m_ExcludeFromFocusRing() const;
 
-  constexpr bool& __cordl_internal_get_m_ExcludeFromFocusRing();
+constexpr bool& __cordl_internal_get_m_ExcludeFromFocusRing() ;
 
-  constexpr bool const& __cordl_internal_get_m_Focusable() const;
+constexpr bool const& __cordl_internal_get_m_Focusable() const;
 
-  constexpr bool& __cordl_internal_get_m_Focusable();
+constexpr bool& __cordl_internal_get_m_Focusable() ;
 
-  constexpr int32_t const& __cordl_internal_get_m_TabIndex() const;
+constexpr int32_t const& __cordl_internal_get_m_TabIndex() const;
 
-  constexpr int32_t& __cordl_internal_get_m_TabIndex();
+constexpr int32_t& __cordl_internal_get_m_TabIndex() ;
 
-  constexpr void __cordl_internal_set__isEligibleToReceiveFocusFromDisabledChild_k__BackingField(bool value);
+constexpr void __cordl_internal_set__isEligibleToReceiveFocusFromDisabledChild_k__BackingField(bool  value) ;
 
-  constexpr void __cordl_internal_set_m_DelegatesFocus(bool value);
+constexpr void __cordl_internal_set_m_DelegatesFocus(bool  value) ;
 
-  constexpr void __cordl_internal_set_m_ExcludeFromFocusRing(bool value);
+constexpr void __cordl_internal_set_m_ExcludeFromFocusRing(bool  value) ;
 
-  constexpr void __cordl_internal_set_m_Focusable(bool value);
+constexpr void __cordl_internal_set_m_Focusable(bool  value) ;
 
-  constexpr void __cordl_internal_set_m_TabIndex(int32_t value);
+constexpr void __cordl_internal_set_m_TabIndex(int32_t  value) ;
 
-  /// @brief Method .ctor, addr 0x6c4e590, size 0x64, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6c50108, size 0x64, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  static inline ::UnityEngine::UIElements::BindingId getStaticF_canGrabFocusProperty();
+static inline ::UnityEngine::UIElements::BindingId getStaticF_canGrabFocusProperty() ;
 
-  static inline ::UnityEngine::UIElements::BindingId getStaticF_delegatesFocusProperty();
+static inline ::UnityEngine::UIElements::BindingId getStaticF_delegatesFocusProperty() ;
 
-  static inline ::UnityEngine::UIElements::BindingId getStaticF_focusableProperty();
+static inline ::UnityEngine::UIElements::BindingId getStaticF_focusableProperty() ;
 
-  static inline ::UnityEngine::UIElements::BindingId getStaticF_tabIndexProperty();
+static inline ::UnityEngine::UIElements::BindingId getStaticF_tabIndexProperty() ;
 
-  /// @brief Method get_canGrabFocus, addr 0x6c4e8b4, size 0x10, virtual true, abstract: false, final false
-  inline bool get_canGrabFocus();
+/// @brief Method get_canGrabFocus, addr 0x6c5042c, size 0x10, virtual true, abstract: false, final false
+inline bool get_canGrabFocus() ;
 
-  /// @brief Method get_delegatesFocus, addr 0x6c4e720, size 0x8, virtual false, abstract: false, final false
-  inline bool get_delegatesFocus();
+/// @brief Method get_delegatesFocus, addr 0x6c50298, size 0x8, virtual false, abstract: false, final false
+inline bool get_delegatesFocus() ;
 
-  /// @brief Method get_excludeFromFocusRing, addr 0x6c4e7b8, size 0x8, virtual false, abstract: false, final false
-  inline bool get_excludeFromFocusRing();
+/// @brief Method get_excludeFromFocusRing, addr 0x6c50330, size 0x8, virtual false, abstract: false, final false
+inline bool get_excludeFromFocusRing() ;
 
-  /// @brief Method get_focusController, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline ::UnityEngine::UIElements::FocusController* get_focusController();
+/// @brief Method get_focusController, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline ::UnityEngine::UIElements::FocusController* get_focusController() ;
 
-  /// @brief Method get_focusable, addr 0x6c4e684, size 0x8, virtual true, abstract: false, final false
-  inline bool get_focusable();
+/// @brief Method get_focusable, addr 0x6c501fc, size 0x8, virtual true, abstract: false, final false
+inline bool get_focusable() ;
 
-  /// @brief Method get_isEligibleToReceiveFocusFromDisabledChild, addr 0x6c4e8a4, size 0x8, virtual false, abstract: false, final false
-  inline bool get_isEligibleToReceiveFocusFromDisabledChild();
+/// @brief Method get_isEligibleToReceiveFocusFromDisabledChild, addr 0x6c5041c, size 0x8, virtual false, abstract: false, final false
+inline bool get_isEligibleToReceiveFocusFromDisabledChild() ;
 
-  /// @brief Method get_tabIndex, addr 0x6c4e718, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_tabIndex();
+/// @brief Method get_tabIndex, addr 0x6c50290, size 0x8, virtual false, abstract: false, final false
+inline int32_t get_tabIndex() ;
 
-  static inline void setStaticF_canGrabFocusProperty(::UnityEngine::UIElements::BindingId value);
+static inline void setStaticF_canGrabFocusProperty(::UnityEngine::UIElements::BindingId  value) ;
 
-  static inline void setStaticF_delegatesFocusProperty(::UnityEngine::UIElements::BindingId value);
+static inline void setStaticF_delegatesFocusProperty(::UnityEngine::UIElements::BindingId  value) ;
 
-  static inline void setStaticF_focusableProperty(::UnityEngine::UIElements::BindingId value);
+static inline void setStaticF_focusableProperty(::UnityEngine::UIElements::BindingId  value) ;
 
-  static inline void setStaticF_tabIndexProperty(::UnityEngine::UIElements::BindingId value);
+static inline void setStaticF_tabIndexProperty(::UnityEngine::UIElements::BindingId  value) ;
 
-  /// @brief Method set_delegatesFocus, addr 0x6c4e728, size 0x90, virtual false, abstract: false, final false
-  inline void set_delegatesFocus(bool value);
+/// @brief Method set_delegatesFocus, addr 0x6c502a0, size 0x90, virtual false, abstract: false, final false
+inline void set_delegatesFocus(bool  value) ;
 
-  /// @brief Method set_excludeFromFocusRing, addr 0x6c4e7c0, size 0xe4, virtual false, abstract: false, final false
-  inline void set_excludeFromFocusRing(bool value);
+/// @brief Method set_excludeFromFocusRing, addr 0x6c50338, size 0xe4, virtual false, abstract: false, final false
+inline void set_excludeFromFocusRing(bool  value) ;
 
-  /// @brief Method set_focusable, addr 0x6c4e68c, size 0x8c, virtual true, abstract: false, final false
-  inline void set_focusable(bool value);
+/// @brief Method set_focusable, addr 0x6c50204, size 0x8c, virtual true, abstract: false, final false
+inline void set_focusable(bool  value) ;
 
-  /// @brief Method set_isEligibleToReceiveFocusFromDisabledChild, addr 0x6c4e8ac, size 0x8, virtual false, abstract: false, final false
-  inline void set_isEligibleToReceiveFocusFromDisabledChild(bool value);
+/// @brief Method set_isEligibleToReceiveFocusFromDisabledChild, addr 0x6c50424, size 0x8, virtual false, abstract: false, final false
+inline void set_isEligibleToReceiveFocusFromDisabledChild(bool  value) ;
 
-  /// @brief Method set_tabIndex, addr 0x6c4e5f4, size 0x90, virtual false, abstract: false, final false
-  inline void set_tabIndex(int32_t value);
+/// @brief Method set_tabIndex, addr 0x6c5016c, size 0x90, virtual false, abstract: false, final false
+inline void set_tabIndex(int32_t  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Focusable();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr Focusable() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Focusable", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  Focusable(Focusable&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Focusable", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  Focusable(Focusable const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "Focusable", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Focusable(Focusable && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4579 };
+// Ctor Parameters [CppParam { name: "", ty: "Focusable", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Focusable(Focusable const& ) = delete;
 
-  /// @brief Field m_Focusable, offset: 0x20, size: 0x1, def value: None
-  bool ___m_Focusable;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4579};
 
-  /// @brief Field m_TabIndex, offset: 0x24, size: 0x4, def value: None
-  int32_t ___m_TabIndex;
+/// @brief Field m_Focusable, offset: 0x20, size: 0x1, def value: None
+ bool  ___m_Focusable;
 
-  /// @brief Field m_DelegatesFocus, offset: 0x28, size: 0x1, def value: None
-  bool ___m_DelegatesFocus;
+/// @brief Field m_TabIndex, offset: 0x24, size: 0x4, def value: None
+ int32_t  ___m_TabIndex;
 
-  /// @brief Field m_ExcludeFromFocusRing, offset: 0x29, size: 0x1, def value: None
-  bool ___m_ExcludeFromFocusRing;
+/// @brief Field m_DelegatesFocus, offset: 0x28, size: 0x1, def value: None
+ bool  ___m_DelegatesFocus;
 
-  /// @brief Field <isEligibleToReceiveFocusFromDisabledChild>k__BackingField, offset: 0x2a, size: 0x1, def value: None
-  bool ____isEligibleToReceiveFocusFromDisabledChild_k__BackingField;
+/// @brief Field m_ExcludeFromFocusRing, offset: 0x29, size: 0x1, def value: None
+ bool  ___m_ExcludeFromFocusRing;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field <isEligibleToReceiveFocusFromDisabledChild>k__BackingField, offset: 0x2a, size: 0x1, def value: None
+ bool  ____isEligibleToReceiveFocusFromDisabledChild_k__BackingField;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::UIElements::Focusable, ___m_Focusable) == 0x20, "Offset mismatch!");
@@ -217,6 +216,6 @@ static_assert(offsetof(::UnityEngine::UIElements::Focusable, ____isEligibleToRec
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::Focusable, 0x30>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements
+} // namespace end def UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::Focusable);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::Focusable*, "UnityEngine.UIElements", "Focusable");

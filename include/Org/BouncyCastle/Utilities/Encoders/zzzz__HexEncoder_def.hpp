@@ -25,81 +25,81 @@ namespace Org::BouncyCastle::Utilities::Encoders {
 // CS Name: Org.BouncyCastle.Utilities.Encoders.HexEncoder
 class CORDL_TYPE HexEncoder : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field decodingTable, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_decodingTable, put = __cordl_internal_set_decodingTable)) ::ArrayW<uint8_t, ::Array<uint8_t>*> decodingTable;
+// Declarations
+/// @brief Field decodingTable, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_decodingTable, put=__cordl_internal_set_decodingTable)) ::ArrayW<uint8_t,::Array<uint8_t>*>  decodingTable;
 
-  /// @brief Field encodingTable, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_encodingTable, put = __cordl_internal_set_encodingTable)) ::ArrayW<uint8_t, ::Array<uint8_t>*> encodingTable;
+/// @brief Field encodingTable, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_encodingTable, put=__cordl_internal_set_encodingTable)) ::ArrayW<uint8_t,::Array<uint8_t>*>  encodingTable;
 
-  /// @brief Convert operator to "::Org::BouncyCastle::Utilities::Encoders::IEncoder"
-  constexpr operator ::Org::BouncyCastle::Utilities::Encoders::IEncoder*() noexcept;
+/// @brief Convert operator to "::Org::BouncyCastle::Utilities::Encoders::IEncoder"
+constexpr operator  ::Org::BouncyCastle::Utilities::Encoders::IEncoder*() noexcept;
 
-  /// @brief Method Decode, addr 0x356e6b8, size 0x318, virtual true, abstract: false, final true
-  inline int32_t Decode(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t off, int32_t length, ::System::IO::Stream* outStream);
+/// @brief Method Decode, addr 0x356f454, size 0x318, virtual true, abstract: false, final true
+inline int32_t Decode(::ArrayW<uint8_t,::Array<uint8_t>*>  data, int32_t  off, int32_t  length, ::System::IO::Stream*  outStream) ;
 
-  /// @brief Method DecodeStrict, addr 0x356ee88, size 0x230, virtual false, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> DecodeStrict(::StringW str, int32_t off, int32_t len);
+/// @brief Method DecodeStrict, addr 0x356fc24, size 0x230, virtual false, abstract: false, final false
+inline ::ArrayW<uint8_t,::Array<uint8_t>*> DecodeStrict(::StringW  str, int32_t  off, int32_t  len) ;
 
-  /// @brief Method DecodeString, addr 0x356eaa0, size 0x2f4, virtual true, abstract: false, final true
-  inline int32_t DecodeString(::StringW data, ::System::IO::Stream* outStream);
+/// @brief Method DecodeString, addr 0x356f83c, size 0x2f4, virtual true, abstract: false, final true
+inline int32_t DecodeString(::StringW  data, ::System::IO::Stream*  outStream) ;
 
-  /// @brief Method Encode, addr 0x356e3b4, size 0x110, virtual true, abstract: false, final true
-  inline int32_t Encode(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len, ::System::IO::Stream* outStream);
+/// @brief Method Encode, addr 0x356f150, size 0x110, virtual true, abstract: false, final true
+inline int32_t Encode(::ArrayW<uint8_t,::Array<uint8_t>*>  buf, int32_t  off, int32_t  len, ::System::IO::Stream*  outStream) ;
 
-  /// @brief Method Encode, addr 0x356f3a0, size 0xe0, virtual false, abstract: false, final false
-  inline int32_t Encode(::ArrayW<uint8_t, ::Array<uint8_t>*> inBuf, int32_t inOff, int32_t inLen, ::ArrayW<uint8_t, ::Array<uint8_t>*> outBuf, int32_t outOff);
+/// @brief Method Encode, addr 0x357013c, size 0xe0, virtual false, abstract: false, final false
+inline int32_t Encode(::ArrayW<uint8_t,::Array<uint8_t>*>  inBuf, int32_t  inOff, int32_t  inLen, ::ArrayW<uint8_t,::Array<uint8_t>*>  outBuf, int32_t  outOff) ;
 
-  /// @brief Method Ignore, addr 0x356f480, size 0x20, virtual false, abstract: false, final false
-  static inline bool Ignore(char16_t c);
+/// @brief Method Ignore, addr 0x357021c, size 0x20, virtual false, abstract: false, final false
+static inline bool Ignore(char16_t  c) ;
 
-  /// @brief Method InitialiseDecodingTable, addr 0x356f244, size 0x15c, virtual false, abstract: false, final false
-  inline void InitialiseDecodingTable();
+/// @brief Method InitialiseDecodingTable, addr 0x356ffe0, size 0x15c, virtual false, abstract: false, final false
+inline void InitialiseDecodingTable() ;
 
-  static inline ::Org::BouncyCastle::Utilities::Encoders::HexEncoder* New_ctor();
+static inline ::Org::BouncyCastle::Utilities::Encoders::HexEncoder* New_ctor() ;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_decodingTable() const;
+constexpr ::ArrayW<uint8_t,::Array<uint8_t>*> const& __cordl_internal_get_decodingTable() const;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_decodingTable();
+constexpr ::ArrayW<uint8_t,::Array<uint8_t>*>& __cordl_internal_get_decodingTable() ;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_encodingTable() const;
+constexpr ::ArrayW<uint8_t,::Array<uint8_t>*> const& __cordl_internal_get_encodingTable() const;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_encodingTable();
+constexpr ::ArrayW<uint8_t,::Array<uint8_t>*>& __cordl_internal_get_encodingTable() ;
 
-  constexpr void __cordl_internal_set_decodingTable(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+constexpr void __cordl_internal_set_decodingTable(::ArrayW<uint8_t,::Array<uint8_t>*>  value) ;
 
-  constexpr void __cordl_internal_set_encodingTable(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+constexpr void __cordl_internal_set_encodingTable(::ArrayW<uint8_t,::Array<uint8_t>*>  value) ;
 
-  /// @brief Method .ctor, addr 0x356f1b0, size 0x94, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x356ff4c, size 0x94, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Convert to "::Org::BouncyCastle::Utilities::Encoders::IEncoder"
-  constexpr ::Org::BouncyCastle::Utilities::Encoders::IEncoder* i___Org__BouncyCastle__Utilities__Encoders__IEncoder() noexcept;
+/// @brief Convert to "::Org::BouncyCastle::Utilities::Encoders::IEncoder"
+constexpr ::Org::BouncyCastle::Utilities::Encoders::IEncoder* i___Org__BouncyCastle__Utilities__Encoders__IEncoder() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HexEncoder();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr HexEncoder() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HexEncoder", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  HexEncoder(HexEncoder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HexEncoder", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  HexEncoder(HexEncoder const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "HexEncoder", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+HexEncoder(HexEncoder && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1799 };
+// Ctor Parameters [CppParam { name: "", ty: "HexEncoder", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+HexEncoder(HexEncoder const& ) = delete;
 
-  /// @brief Field encodingTable, offset: 0x10, size: 0x8, def value: None
-  ::ArrayW<uint8_t, ::Array<uint8_t>*> ___encodingTable;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{1799};
 
-  /// @brief Field decodingTable, offset: 0x18, size: 0x8, def value: None
-  ::ArrayW<uint8_t, ::Array<uint8_t>*> ___decodingTable;
+/// @brief Field encodingTable, offset: 0x10, size: 0x8, def value: None
+ ::ArrayW<uint8_t,::Array<uint8_t>*>  ___encodingTable;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field decodingTable, offset: 0x18, size: 0x8, def value: None
+ ::ArrayW<uint8_t,::Array<uint8_t>*>  ___decodingTable;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Org::BouncyCastle::Utilities::Encoders::HexEncoder, ___encodingTable) == 0x10, "Offset mismatch!");
@@ -108,6 +108,6 @@ static_assert(offsetof(::Org::BouncyCastle::Utilities::Encoders::HexEncoder, ___
 
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Utilities::Encoders::HexEncoder, 0x20>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Utilities::Encoders
+} // namespace end def Org::BouncyCastle::Utilities::Encoders
 NEED_NO_BOX(::Org::BouncyCastle::Utilities::Encoders::HexEncoder);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Utilities::Encoders::HexEncoder*, "Org.BouncyCastle.Utilities.Encoders", "HexEncoder");

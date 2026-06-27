@@ -13,7 +13,8 @@ namespace UnityEngine::UIElements {
 class Focusable;
 }
 namespace UnityEngine::UIElements {
-template <typename T> class ObjectPool_1;
+template<typename T>
+class ObjectPool_1;
 }
 namespace UnityEngine::UIElements {
 class VisualElementFocusChangeTarget___c;
@@ -34,120 +35,120 @@ namespace UnityEngine::UIElements {
 // CS Name: UnityEngine.UIElements.VisualElementFocusChangeTarget/<>c
 class CORDL_TYPE VisualElementFocusChangeTarget___c : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field <>9, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::UIElements::VisualElementFocusChangeTarget___c* __9;
+// Declarations
+/// @brief Field <>9, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF___9, put=setStaticF___9)) ::UnityEngine::UIElements::VisualElementFocusChangeTarget___c*  __9;
 
-  static inline ::UnityEngine::UIElements::VisualElementFocusChangeTarget___c* New_ctor();
+static inline ::UnityEngine::UIElements::VisualElementFocusChangeTarget___c* New_ctor() ;
 
-  /// @brief Method <.cctor>b__9_0, addr 0x6b72584, size 0x54, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::VisualElementFocusChangeTarget* __cctor_b__9_0();
+/// @brief Method <.cctor>b__9_0, addr 0x6b740fc, size 0x54, virtual false, abstract: false, final false
+inline ::UnityEngine::UIElements::VisualElementFocusChangeTarget* __cctor_b__9_0() ;
 
-  /// @brief Method .ctor, addr 0x6b72580, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6b740f8, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  static inline ::UnityEngine::UIElements::VisualElementFocusChangeTarget___c* getStaticF___9();
+static inline ::UnityEngine::UIElements::VisualElementFocusChangeTarget___c* getStaticF___9() ;
 
-  static inline void setStaticF___9(::UnityEngine::UIElements::VisualElementFocusChangeTarget___c* value);
+static inline void setStaticF___9(::UnityEngine::UIElements::VisualElementFocusChangeTarget___c*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr VisualElementFocusChangeTarget___c();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr VisualElementFocusChangeTarget___c() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VisualElementFocusChangeTarget___c", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  VisualElementFocusChangeTarget___c(VisualElementFocusChangeTarget___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VisualElementFocusChangeTarget___c", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  VisualElementFocusChangeTarget___c(VisualElementFocusChangeTarget___c const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "VisualElementFocusChangeTarget___c", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+VisualElementFocusChangeTarget___c(VisualElementFocusChangeTarget___c && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5241 };
+// Ctor Parameters [CppParam { name: "", ty: "VisualElementFocusChangeTarget___c", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+VisualElementFocusChangeTarget___c(VisualElementFocusChangeTarget___c const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{5241};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::VisualElementFocusChangeTarget___c, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements
+} // namespace end def UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.FocusChangeDirection
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.VisualElementFocusChangeTarget
 class CORDL_TYPE VisualElementFocusChangeTarget : public ::UnityEngine::UIElements::FocusChangeDirection {
 public:
-  // Declarations
-  using __c = ::UnityEngine::UIElements::VisualElementFocusChangeTarget___c;
+// Declarations
+using __c = ::UnityEngine::UIElements::VisualElementFocusChangeTarget___c;
 
-  /// @brief Field Pool, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_Pool, put = setStaticF_Pool)) ::UnityEngine::UIElements::ObjectPool_1<::UnityEngine::UIElements::VisualElementFocusChangeTarget*>* Pool;
+/// @brief Field Pool, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_Pool, put=setStaticF_Pool)) ::UnityEngine::UIElements::ObjectPool_1<::UnityEngine::UIElements::VisualElementFocusChangeTarget*>*  Pool;
 
-  /// @brief Field <target>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__target_k__BackingField, put = __cordl_internal_set__target_k__BackingField)) ::UnityEngine::UIElements::Focusable* _target_k__BackingField;
+/// @brief Field <target>k__BackingField, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get__target_k__BackingField, put=__cordl_internal_set__target_k__BackingField)) ::UnityEngine::UIElements::Focusable*  _target_k__BackingField;
 
-  __declspec(property(get = get_target, put = set_target)) ::UnityEngine::UIElements::Focusable* target;
+ __declspec(property(get=get_target, put=set_target)) ::UnityEngine::UIElements::Focusable*  target;
 
-  /// @brief Method ApplyTo, addr 0x6b7231c, size 0x3c, virtual true, abstract: false, final false
-  inline void ApplyTo(::UnityEngine::UIElements::FocusController* focusController, ::UnityEngine::UIElements::Focusable* f);
+/// @brief Method ApplyTo, addr 0x6b73e94, size 0x3c, virtual true, abstract: false, final false
+inline void ApplyTo(::UnityEngine::UIElements::FocusController*  focusController, ::UnityEngine::UIElements::Focusable*  f) ;
 
-  /// @brief Method Dispose, addr 0x6b72290, size 0x8c, virtual true, abstract: false, final false
-  inline void Dispose();
+/// @brief Method Dispose, addr 0x6b73e08, size 0x8c, virtual true, abstract: false, final false
+inline void Dispose() ;
 
-  /// @brief Method GetPooled, addr 0x6b72200, size 0x90, virtual false, abstract: false, final false
-  static inline ::UnityEngine::UIElements::VisualElementFocusChangeTarget* GetPooled(::UnityEngine::UIElements::Focusable* target);
+/// @brief Method GetPooled, addr 0x6b73d78, size 0x90, virtual false, abstract: false, final false
+static inline ::UnityEngine::UIElements::VisualElementFocusChangeTarget* GetPooled(::UnityEngine::UIElements::Focusable*  target) ;
 
-  static inline ::UnityEngine::UIElements::VisualElementFocusChangeTarget* New_ctor();
+static inline ::UnityEngine::UIElements::VisualElementFocusChangeTarget* New_ctor() ;
 
-  constexpr ::UnityEngine::UIElements::Focusable* const& __cordl_internal_get__target_k__BackingField() const;
+constexpr ::UnityEngine::UIElements::Focusable* const& __cordl_internal_get__target_k__BackingField() const;
 
-  constexpr ::UnityEngine::UIElements::Focusable*& __cordl_internal_get__target_k__BackingField();
+constexpr ::UnityEngine::UIElements::Focusable*& __cordl_internal_get__target_k__BackingField() ;
 
-  constexpr void __cordl_internal_set__target_k__BackingField(::UnityEngine::UIElements::Focusable* value);
+constexpr void __cordl_internal_set__target_k__BackingField(::UnityEngine::UIElements::Focusable*  value) ;
 
-  /// @brief Method .ctor, addr 0x6b72358, size 0xac, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6b73ed0, size 0xac, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  static inline ::UnityEngine::UIElements::ObjectPool_1<::UnityEngine::UIElements::VisualElementFocusChangeTarget*>* getStaticF_Pool();
+static inline ::UnityEngine::UIElements::ObjectPool_1<::UnityEngine::UIElements::VisualElementFocusChangeTarget*>* getStaticF_Pool() ;
 
-  /// @brief Method get_target, addr 0x6b72404, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::Focusable* get_target();
+/// @brief Method get_target, addr 0x6b73f7c, size 0x8, virtual false, abstract: false, final false
+inline ::UnityEngine::UIElements::Focusable* get_target() ;
 
-  static inline void setStaticF_Pool(::UnityEngine::UIElements::ObjectPool_1<::UnityEngine::UIElements::VisualElementFocusChangeTarget*>* value);
+static inline void setStaticF_Pool(::UnityEngine::UIElements::ObjectPool_1<::UnityEngine::UIElements::VisualElementFocusChangeTarget*>*  value) ;
 
-  /// @brief Method set_target, addr 0x6b7240c, size 0x8, virtual false, abstract: false, final false
-  inline void set_target(::UnityEngine::UIElements::Focusable* value);
+/// @brief Method set_target, addr 0x6b73f84, size 0x8, virtual false, abstract: false, final false
+inline void set_target(::UnityEngine::UIElements::Focusable*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr VisualElementFocusChangeTarget();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr VisualElementFocusChangeTarget() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VisualElementFocusChangeTarget", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  VisualElementFocusChangeTarget(VisualElementFocusChangeTarget&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VisualElementFocusChangeTarget", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  VisualElementFocusChangeTarget(VisualElementFocusChangeTarget const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "VisualElementFocusChangeTarget", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+VisualElementFocusChangeTarget(VisualElementFocusChangeTarget && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5242 };
+// Ctor Parameters [CppParam { name: "", ty: "VisualElementFocusChangeTarget", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+VisualElementFocusChangeTarget(VisualElementFocusChangeTarget const& ) = delete;
 
-  /// @brief Field <target>k__BackingField, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::UIElements::Focusable* ____target_k__BackingField;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{5242};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field <target>k__BackingField, offset: 0x18, size: 0x8, def value: None
+ ::UnityEngine::UIElements::Focusable*  ____target_k__BackingField;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::UIElements::VisualElementFocusChangeTarget, ____target_k__BackingField) == 0x18, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::VisualElementFocusChangeTarget, 0x20>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements
+} // namespace end def UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::VisualElementFocusChangeTarget);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::VisualElementFocusChangeTarget*, "UnityEngine.UIElements", "VisualElementFocusChangeTarget");
 NEED_NO_BOX(::UnityEngine::UIElements::VisualElementFocusChangeTarget___c);

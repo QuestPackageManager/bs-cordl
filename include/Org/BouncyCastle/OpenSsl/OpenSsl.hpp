@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "Org/BouncyCastle/OpenSsl/IPasswordFinder.hpp"
 #include "Org/BouncyCastle/OpenSsl/MiscPemGenerator.hpp"
@@ -11,5 +11,6 @@ module;
 #include "Org/BouncyCastle/OpenSsl/PemWriter.hpp"
 #include "Org/BouncyCastle/OpenSsl/Pkcs8Generator.hpp"
 #ifdef __cpp_modules
-export module OpenSsl;
-#endif
+                    export module OpenSsl;
+                    #endif
+                

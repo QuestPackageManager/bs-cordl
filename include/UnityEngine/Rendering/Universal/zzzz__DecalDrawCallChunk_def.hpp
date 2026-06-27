@@ -22,107 +22,107 @@ namespace UnityEngine::Rendering::Universal {
 // CS Name: UnityEngine.Rendering.Universal.DecalDrawCallChunk
 class CORDL_TYPE DecalDrawCallChunk : public ::UnityEngine::Rendering::Universal::DecalChunk {
 public:
-  // Declarations
-  /// @brief Field decalToWorlds, offset 0x28, size 0x10
-  __declspec(property(get = __cordl_internal_get_decalToWorlds, put = __cordl_internal_set_decalToWorlds)) ::Unity::Collections::NativeArray_1<::Unity::Mathematics::float4x4> decalToWorlds;
+// Declarations
+/// @brief Field decalToWorlds, offset 0x28, size 0x10 
+ __declspec(property(get=__cordl_internal_get_decalToWorlds, put=__cordl_internal_set_decalToWorlds)) ::Unity::Collections::NativeArray_1<::Unity::Mathematics::float4x4>  decalToWorlds;
 
-  /// @brief Field normalToDecals, offset 0x38, size 0x10
-  __declspec(property(get = __cordl_internal_get_normalToDecals, put = __cordl_internal_set_normalToDecals)) ::Unity::Collections::NativeArray_1<::Unity::Mathematics::float4x4> normalToDecals;
+/// @brief Field normalToDecals, offset 0x38, size 0x10 
+ __declspec(property(get=__cordl_internal_get_normalToDecals, put=__cordl_internal_set_normalToDecals)) ::Unity::Collections::NativeArray_1<::Unity::Mathematics::float4x4>  normalToDecals;
 
-  /// @brief Field renderingLayerMasks, offset 0x48, size 0x10
-  __declspec(property(get = __cordl_internal_get_renderingLayerMasks, put = __cordl_internal_set_renderingLayerMasks)) ::Unity::Collections::NativeArray_1<float_t> renderingLayerMasks;
+/// @brief Field renderingLayerMasks, offset 0x48, size 0x10 
+ __declspec(property(get=__cordl_internal_get_renderingLayerMasks, put=__cordl_internal_set_renderingLayerMasks)) ::Unity::Collections::NativeArray_1<float_t>  renderingLayerMasks;
 
-  __declspec(property(get = get_subCallCount, put = set_subCallCount)) int32_t subCallCount;
+ __declspec(property(get=get_subCallCount, put=set_subCallCount)) int32_t  subCallCount;
 
-  /// @brief Field subCallCounts, offset 0x68, size 0x10
-  __declspec(property(get = __cordl_internal_get_subCallCounts, put = __cordl_internal_set_subCallCounts)) ::Unity::Collections::NativeArray_1<int32_t> subCallCounts;
+/// @brief Field subCallCounts, offset 0x68, size 0x10 
+ __declspec(property(get=__cordl_internal_get_subCallCounts, put=__cordl_internal_set_subCallCounts)) ::Unity::Collections::NativeArray_1<int32_t>  subCallCounts;
 
-  /// @brief Field subCalls, offset 0x58, size 0x10
-  __declspec(property(get = __cordl_internal_get_subCalls, put = __cordl_internal_set_subCalls)) ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::Universal::DecalSubDrawCall> subCalls;
+/// @brief Field subCalls, offset 0x58, size 0x10 
+ __declspec(property(get=__cordl_internal_get_subCalls, put=__cordl_internal_set_subCalls)) ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::Universal::DecalSubDrawCall>  subCalls;
 
-  /// @brief Method Dispose, addr 0x671430c, size 0xd4, virtual true, abstract: false, final false
-  inline void Dispose();
+/// @brief Method Dispose, addr 0x6715e84, size 0xd4, virtual true, abstract: false, final false
+inline void Dispose() ;
 
-  static inline ::UnityEngine::Rendering::Universal::DecalDrawCallChunk* New_ctor();
+static inline ::UnityEngine::Rendering::Universal::DecalDrawCallChunk* New_ctor() ;
 
-  /// @brief Method RemoveAtSwapBack, addr 0x6714154, size 0xf4, virtual true, abstract: false, final false
-  inline void RemoveAtSwapBack(int32_t entityIndex);
+/// @brief Method RemoveAtSwapBack, addr 0x6715ccc, size 0xf4, virtual true, abstract: false, final false
+inline void RemoveAtSwapBack(int32_t  entityIndex) ;
 
-  /// @brief Method SetCapacity, addr 0x6714248, size 0xc4, virtual true, abstract: false, final false
-  inline void SetCapacity(int32_t newCapacity);
+/// @brief Method SetCapacity, addr 0x6715dc0, size 0xc4, virtual true, abstract: false, final false
+inline void SetCapacity(int32_t  newCapacity) ;
 
-  constexpr ::Unity::Collections::NativeArray_1<::Unity::Mathematics::float4x4> const& __cordl_internal_get_decalToWorlds() const;
+constexpr ::Unity::Collections::NativeArray_1<::Unity::Mathematics::float4x4> const& __cordl_internal_get_decalToWorlds() const;
 
-  constexpr ::Unity::Collections::NativeArray_1<::Unity::Mathematics::float4x4>& __cordl_internal_get_decalToWorlds();
+constexpr ::Unity::Collections::NativeArray_1<::Unity::Mathematics::float4x4>& __cordl_internal_get_decalToWorlds() ;
 
-  constexpr ::Unity::Collections::NativeArray_1<::Unity::Mathematics::float4x4> const& __cordl_internal_get_normalToDecals() const;
+constexpr ::Unity::Collections::NativeArray_1<::Unity::Mathematics::float4x4> const& __cordl_internal_get_normalToDecals() const;
 
-  constexpr ::Unity::Collections::NativeArray_1<::Unity::Mathematics::float4x4>& __cordl_internal_get_normalToDecals();
+constexpr ::Unity::Collections::NativeArray_1<::Unity::Mathematics::float4x4>& __cordl_internal_get_normalToDecals() ;
 
-  constexpr ::Unity::Collections::NativeArray_1<float_t> const& __cordl_internal_get_renderingLayerMasks() const;
+constexpr ::Unity::Collections::NativeArray_1<float_t> const& __cordl_internal_get_renderingLayerMasks() const;
 
-  constexpr ::Unity::Collections::NativeArray_1<float_t>& __cordl_internal_get_renderingLayerMasks();
+constexpr ::Unity::Collections::NativeArray_1<float_t>& __cordl_internal_get_renderingLayerMasks() ;
 
-  constexpr ::Unity::Collections::NativeArray_1<int32_t> const& __cordl_internal_get_subCallCounts() const;
+constexpr ::Unity::Collections::NativeArray_1<int32_t> const& __cordl_internal_get_subCallCounts() const;
 
-  constexpr ::Unity::Collections::NativeArray_1<int32_t>& __cordl_internal_get_subCallCounts();
+constexpr ::Unity::Collections::NativeArray_1<int32_t>& __cordl_internal_get_subCallCounts() ;
 
-  constexpr ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::Universal::DecalSubDrawCall> const& __cordl_internal_get_subCalls() const;
+constexpr ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::Universal::DecalSubDrawCall> const& __cordl_internal_get_subCalls() const;
 
-  constexpr ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::Universal::DecalSubDrawCall>& __cordl_internal_get_subCalls();
+constexpr ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::Universal::DecalSubDrawCall>& __cordl_internal_get_subCalls() ;
 
-  constexpr void __cordl_internal_set_decalToWorlds(::Unity::Collections::NativeArray_1<::Unity::Mathematics::float4x4> value);
+constexpr void __cordl_internal_set_decalToWorlds(::Unity::Collections::NativeArray_1<::Unity::Mathematics::float4x4>  value) ;
 
-  constexpr void __cordl_internal_set_normalToDecals(::Unity::Collections::NativeArray_1<::Unity::Mathematics::float4x4> value);
+constexpr void __cordl_internal_set_normalToDecals(::Unity::Collections::NativeArray_1<::Unity::Mathematics::float4x4>  value) ;
 
-  constexpr void __cordl_internal_set_renderingLayerMasks(::Unity::Collections::NativeArray_1<float_t> value);
+constexpr void __cordl_internal_set_renderingLayerMasks(::Unity::Collections::NativeArray_1<float_t>  value) ;
 
-  constexpr void __cordl_internal_set_subCallCounts(::Unity::Collections::NativeArray_1<int32_t> value);
+constexpr void __cordl_internal_set_subCallCounts(::Unity::Collections::NativeArray_1<int32_t>  value) ;
 
-  constexpr void __cordl_internal_set_subCalls(::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::Universal::DecalSubDrawCall> value);
+constexpr void __cordl_internal_set_subCalls(::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::Universal::DecalSubDrawCall>  value) ;
 
-  /// @brief Method .ctor, addr 0x67143e0, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6715f58, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_subCallCount, addr 0x6714148, size 0xc, virtual false, abstract: false, final false
-  inline int32_t get_subCallCount();
+/// @brief Method get_subCallCount, addr 0x6715cc0, size 0xc, virtual false, abstract: false, final false
+inline int32_t get_subCallCount() ;
 
-  /// @brief Method set_subCallCount, addr 0x671413c, size 0xc, virtual false, abstract: false, final false
-  inline void set_subCallCount(int32_t value);
+/// @brief Method set_subCallCount, addr 0x6715cb4, size 0xc, virtual false, abstract: false, final false
+inline void set_subCallCount(int32_t  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DecalDrawCallChunk();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr DecalDrawCallChunk() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DecalDrawCallChunk", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  DecalDrawCallChunk(DecalDrawCallChunk&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DecalDrawCallChunk", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  DecalDrawCallChunk(DecalDrawCallChunk const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "DecalDrawCallChunk", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+DecalDrawCallChunk(DecalDrawCallChunk && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12675 };
+// Ctor Parameters [CppParam { name: "", ty: "DecalDrawCallChunk", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+DecalDrawCallChunk(DecalDrawCallChunk const& ) = delete;
 
-  /// @brief Field decalToWorlds, offset: 0x28, size: 0x10, def value: None
-  ::Unity::Collections::NativeArray_1<::Unity::Mathematics::float4x4> ___decalToWorlds;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12676};
 
-  /// @brief Field normalToDecals, offset: 0x38, size: 0x10, def value: None
-  ::Unity::Collections::NativeArray_1<::Unity::Mathematics::float4x4> ___normalToDecals;
+/// @brief Field decalToWorlds, offset: 0x28, size: 0x10, def value: None
+ ::Unity::Collections::NativeArray_1<::Unity::Mathematics::float4x4>  ___decalToWorlds;
 
-  /// @brief Field renderingLayerMasks, offset: 0x48, size: 0x10, def value: None
-  ::Unity::Collections::NativeArray_1<float_t> ___renderingLayerMasks;
+/// @brief Field normalToDecals, offset: 0x38, size: 0x10, def value: None
+ ::Unity::Collections::NativeArray_1<::Unity::Mathematics::float4x4>  ___normalToDecals;
 
-  /// @brief Field subCalls, offset: 0x58, size: 0x10, def value: None
-  ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::Universal::DecalSubDrawCall> ___subCalls;
+/// @brief Field renderingLayerMasks, offset: 0x48, size: 0x10, def value: None
+ ::Unity::Collections::NativeArray_1<float_t>  ___renderingLayerMasks;
 
-  /// @brief Field subCallCounts, offset: 0x68, size: 0x10, def value: None
-  ::Unity::Collections::NativeArray_1<int32_t> ___subCallCounts;
+/// @brief Field subCalls, offset: 0x58, size: 0x10, def value: None
+ ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::Universal::DecalSubDrawCall>  ___subCalls;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field subCallCounts, offset: 0x68, size: 0x10, def value: None
+ ::Unity::Collections::NativeArray_1<int32_t>  ___subCallCounts;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Rendering::Universal::DecalDrawCallChunk, ___decalToWorlds) == 0x28, "Offset mismatch!");
@@ -137,6 +137,6 @@ static_assert(offsetof(::UnityEngine::Rendering::Universal::DecalDrawCallChunk, 
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::Universal::DecalDrawCallChunk, 0x78>, "Size mismatch!");
 
-} // namespace UnityEngine::Rendering::Universal
+} // namespace end def UnityEngine::Rendering::Universal
 NEED_NO_BOX(::UnityEngine::Rendering::Universal::DecalDrawCallChunk);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::Universal::DecalDrawCallChunk*, "UnityEngine.Rendering.Universal", "DecalDrawCallChunk");

@@ -27,38 +27,38 @@ namespace UnityEngine::UI {
 // CS Name: UnityEngine.UI.MultipleDisplayUtilities
 class CORDL_TYPE MultipleDisplayUtilities : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method GetRelativeMousePositionForDrag, addr 0x6ca899c, size 0x6c, virtual false, abstract: false, final false
-  static inline bool GetRelativeMousePositionForDrag(::UnityEngine::EventSystems::PointerEventData* eventData, ::ByRef<::UnityEngine::Vector2> position);
+// Declarations
+/// @brief Method GetRelativeMousePositionForDrag, addr 0x6caa514, size 0x6c, virtual false, abstract: false, final false
+static inline bool GetRelativeMousePositionForDrag(::UnityEngine::EventSystems::PointerEventData*  eventData, ::ByRef<::UnityEngine::Vector2>  position) ;
 
-  /// @brief Method GetRelativeMousePositionForRaycast, addr 0x6ca8eec, size 0xd8, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Vector3 GetRelativeMousePositionForRaycast(::UnityEngine::EventSystems::PointerEventData* eventData);
+/// @brief Method GetRelativeMousePositionForRaycast, addr 0x6caaa64, size 0xd8, virtual false, abstract: false, final false
+static inline ::UnityEngine::Vector3 GetRelativeMousePositionForRaycast(::UnityEngine::EventSystems::PointerEventData*  eventData) ;
 
-  /// @brief Method RelativeMouseAtScaled, addr 0x6ca8a08, size 0x4e4, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Vector3 RelativeMouseAtScaled(::UnityEngine::Vector2 position, int32_t displayIndex);
+/// @brief Method RelativeMouseAtScaled, addr 0x6caa580, size 0x4e4, virtual false, abstract: false, final false
+static inline ::UnityEngine::Vector3 RelativeMouseAtScaled(::UnityEngine::Vector2  position, int32_t  displayIndex) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MultipleDisplayUtilities();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr MultipleDisplayUtilities() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultipleDisplayUtilities", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  MultipleDisplayUtilities(MultipleDisplayUtilities&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultipleDisplayUtilities", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  MultipleDisplayUtilities(MultipleDisplayUtilities const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "MultipleDisplayUtilities", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+MultipleDisplayUtilities(MultipleDisplayUtilities && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17453 };
+// Ctor Parameters [CppParam { name: "", ty: "MultipleDisplayUtilities", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+MultipleDisplayUtilities(MultipleDisplayUtilities const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{17455};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UI::MultipleDisplayUtilities, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::UI
+} // namespace end def UnityEngine::UI
 NEED_NO_BOX(::UnityEngine::UI::MultipleDisplayUtilities);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UI::MultipleDisplayUtilities*, "UnityEngine.UI", "MultipleDisplayUtilities");

@@ -41,140 +41,140 @@ namespace System::Runtime::Serialization {
 // CS Name: System.Runtime.Serialization.DiagnosticUtility/DiagnosticTrace
 class CORDL_TYPE DiagnosticUtility_DiagnosticTrace : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method TraceEvent, addr 0x6039e0c, size 0x4, virtual false, abstract: false, final false
-  static inline void TraceEvent(::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
+// Declarations
+/// @brief Method TraceEvent, addr 0x603b984, size 0x4, virtual false, abstract: false, final false
+static inline void TraceEvent(::ArrayW<::System::Object*,::Array<::System::Object*>*>  args) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DiagnosticUtility_DiagnosticTrace();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr DiagnosticUtility_DiagnosticTrace() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DiagnosticUtility_DiagnosticTrace", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  DiagnosticUtility_DiagnosticTrace(DiagnosticUtility_DiagnosticTrace&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DiagnosticUtility_DiagnosticTrace", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  DiagnosticUtility_DiagnosticTrace(DiagnosticUtility_DiagnosticTrace const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "DiagnosticUtility_DiagnosticTrace", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+DiagnosticUtility_DiagnosticTrace(DiagnosticUtility_DiagnosticTrace && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17131 };
+// Ctor Parameters [CppParam { name: "", ty: "DiagnosticUtility_DiagnosticTrace", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+DiagnosticUtility_DiagnosticTrace(DiagnosticUtility_DiagnosticTrace const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{17133};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::DiagnosticUtility_DiagnosticTrace, 0x10>, "Size mismatch!");
 
-} // namespace System::Runtime::Serialization
+} // namespace end def System::Runtime::Serialization
 // Dependencies System.Object
 namespace System::Runtime::Serialization {
 // Is value type: false
 // CS Name: System.Runtime.Serialization.DiagnosticUtility/ExceptionUtility
 class CORDL_TYPE DiagnosticUtility_ExceptionUtility : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method ThrowHelper, addr 0x6039e10, size 0x4, virtual false, abstract: false, final false
-  static inline ::System::Exception* ThrowHelper(::System::Exception* e, ::System::Diagnostics::TraceEventType type);
+// Declarations
+/// @brief Method ThrowHelper, addr 0x603b988, size 0x4, virtual false, abstract: false, final false
+static inline ::System::Exception* ThrowHelper(::System::Exception*  e, ::System::Diagnostics::TraceEventType  type) ;
 
-  /// @brief Method ThrowHelperArgumentNull, addr 0x603623c, size 0x60, virtual false, abstract: false, final false
-  static inline ::System::Exception* ThrowHelperArgumentNull(::StringW arg);
+/// @brief Method ThrowHelperArgumentNull, addr 0x6037db4, size 0x60, virtual false, abstract: false, final false
+static inline ::System::Exception* ThrowHelperArgumentNull(::StringW  arg) ;
 
-  /// @brief Method ThrowHelperCallback, addr 0x6039e14, size 0x7c, virtual false, abstract: false, final false
-  static inline ::System::Exception* ThrowHelperCallback(::System::Exception* e);
+/// @brief Method ThrowHelperCallback, addr 0x603b98c, size 0x7c, virtual false, abstract: false, final false
+static inline ::System::Exception* ThrowHelperCallback(::System::Exception*  e) ;
 
-  /// @brief Method ThrowHelperError, addr 0x6030be0, size 0x4, virtual false, abstract: false, final false
-  static inline ::System::Exception* ThrowHelperError(::System::Exception* e);
+/// @brief Method ThrowHelperError, addr 0x6032758, size 0x4, virtual false, abstract: false, final false
+static inline ::System::Exception* ThrowHelperError(::System::Exception*  e) ;
 
-  /// @brief Method ThrowHelperFatal, addr 0x6039e90, size 0x70, virtual false, abstract: false, final false
-  static inline ::System::Exception* ThrowHelperFatal(::StringW msg, ::System::Exception* e);
+/// @brief Method ThrowHelperFatal, addr 0x603ba08, size 0x70, virtual false, abstract: false, final false
+static inline ::System::Exception* ThrowHelperFatal(::StringW  msg, ::System::Exception*  e) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DiagnosticUtility_ExceptionUtility();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr DiagnosticUtility_ExceptionUtility() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DiagnosticUtility_ExceptionUtility", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  DiagnosticUtility_ExceptionUtility(DiagnosticUtility_ExceptionUtility&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DiagnosticUtility_ExceptionUtility", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  DiagnosticUtility_ExceptionUtility(DiagnosticUtility_ExceptionUtility const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "DiagnosticUtility_ExceptionUtility", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+DiagnosticUtility_ExceptionUtility(DiagnosticUtility_ExceptionUtility && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17132 };
+// Ctor Parameters [CppParam { name: "", ty: "DiagnosticUtility_ExceptionUtility", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+DiagnosticUtility_ExceptionUtility(DiagnosticUtility_ExceptionUtility const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{17134};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::DiagnosticUtility_ExceptionUtility, 0x10>, "Size mismatch!");
 
-} // namespace System::Runtime::Serialization
+} // namespace end def System::Runtime::Serialization
 // Dependencies System.Object
 namespace System::Runtime::Serialization {
 // Is value type: false
 // CS Name: System.Runtime.Serialization.DiagnosticUtility
 class CORDL_TYPE DiagnosticUtility : public ::System::Object {
 public:
-  // Declarations
-  using DiagnosticTrace = ::System::Runtime::Serialization::DiagnosticUtility_DiagnosticTrace;
+// Declarations
+using DiagnosticTrace = ::System::Runtime::Serialization::DiagnosticUtility_DiagnosticTrace;
 
-  using ExceptionUtility = ::System::Runtime::Serialization::DiagnosticUtility_ExceptionUtility;
+using ExceptionUtility = ::System::Runtime::Serialization::DiagnosticUtility_ExceptionUtility;
 
-  /// @brief Field ShouldTraceError, offset 0xffffffff, size 0x1
-  __declspec(property(get = getStaticF_ShouldTraceError, put = setStaticF_ShouldTraceError)) bool ShouldTraceError;
+/// @brief Field ShouldTraceError, offset 0xffffffff, size 0x1 
+ __declspec(property(get=getStaticF_ShouldTraceError, put=setStaticF_ShouldTraceError)) bool  ShouldTraceError;
 
-  /// @brief Field ShouldTraceInformation, offset 0xffffffff, size 0x1
-  __declspec(property(get = getStaticF_ShouldTraceInformation, put = setStaticF_ShouldTraceInformation)) bool ShouldTraceInformation;
+/// @brief Field ShouldTraceInformation, offset 0xffffffff, size 0x1 
+ __declspec(property(get=getStaticF_ShouldTraceInformation, put=setStaticF_ShouldTraceInformation)) bool  ShouldTraceInformation;
 
-  /// @brief Field ShouldTraceVerbose, offset 0xffffffff, size 0x1
-  __declspec(property(get = getStaticF_ShouldTraceVerbose, put = setStaticF_ShouldTraceVerbose)) bool ShouldTraceVerbose;
+/// @brief Field ShouldTraceVerbose, offset 0xffffffff, size 0x1 
+ __declspec(property(get=getStaticF_ShouldTraceVerbose, put=setStaticF_ShouldTraceVerbose)) bool  ShouldTraceVerbose;
 
-  /// @brief Field ShouldTraceWarning, offset 0xffffffff, size 0x1
-  __declspec(property(get = getStaticF_ShouldTraceWarning, put = setStaticF_ShouldTraceWarning)) bool ShouldTraceWarning;
+/// @brief Field ShouldTraceWarning, offset 0xffffffff, size 0x1 
+ __declspec(property(get=getStaticF_ShouldTraceWarning, put=setStaticF_ShouldTraceWarning)) bool  ShouldTraceWarning;
 
-  static inline bool getStaticF_ShouldTraceError();
+static inline bool getStaticF_ShouldTraceError() ;
 
-  static inline bool getStaticF_ShouldTraceInformation();
+static inline bool getStaticF_ShouldTraceInformation() ;
 
-  static inline bool getStaticF_ShouldTraceVerbose();
+static inline bool getStaticF_ShouldTraceVerbose() ;
 
-  static inline bool getStaticF_ShouldTraceWarning();
+static inline bool getStaticF_ShouldTraceWarning() ;
 
-  static inline void setStaticF_ShouldTraceError(bool value);
+static inline void setStaticF_ShouldTraceError(bool  value) ;
 
-  static inline void setStaticF_ShouldTraceInformation(bool value);
+static inline void setStaticF_ShouldTraceInformation(bool  value) ;
 
-  static inline void setStaticF_ShouldTraceVerbose(bool value);
+static inline void setStaticF_ShouldTraceVerbose(bool  value) ;
 
-  static inline void setStaticF_ShouldTraceWarning(bool value);
+static inline void setStaticF_ShouldTraceWarning(bool  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DiagnosticUtility();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr DiagnosticUtility() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DiagnosticUtility", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  DiagnosticUtility(DiagnosticUtility&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DiagnosticUtility", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  DiagnosticUtility(DiagnosticUtility const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "DiagnosticUtility", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+DiagnosticUtility(DiagnosticUtility && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17133 };
+// Ctor Parameters [CppParam { name: "", ty: "DiagnosticUtility", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+DiagnosticUtility(DiagnosticUtility const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{17135};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::DiagnosticUtility, 0x10>, "Size mismatch!");
 
-} // namespace System::Runtime::Serialization
+} // namespace end def System::Runtime::Serialization
 NEED_NO_BOX(::System::Runtime::Serialization::DiagnosticUtility);
 DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::DiagnosticUtility*, "System.Runtime.Serialization", "DiagnosticUtility");
 NEED_NO_BOX(::System::Runtime::Serialization::DiagnosticUtility_DiagnosticTrace);

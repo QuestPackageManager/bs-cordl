@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "OVRSimpleJSON/JSON.hpp"
 #include "OVRSimpleJSON/JSONArray.hpp"
@@ -16,5 +16,6 @@ module;
 #include "OVRSimpleJSON/JSONString.hpp"
 #include "OVRSimpleJSON/JSONTextMode.hpp"
 #ifdef __cpp_modules
-export module OVRSimpleJSON;
-#endif
+                    export module OVRSimpleJSON;
+                    #endif
+                

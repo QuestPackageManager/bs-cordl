@@ -27,36 +27,35 @@ namespace Mono::Unity {
 // CS Name: Mono.Unity.Debug
 class CORDL_TYPE Debug : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method CheckAndThrow, addr 0x5e8eb2c, size 0x98, virtual false, abstract: false, final false
-  static inline void CheckAndThrow(::Mono::Unity::UnityTls_unitytls_errorstate errorState, ::StringW context, ::Mono::Security::Interface::AlertDescription defaultAlert);
+// Declarations
+/// @brief Method CheckAndThrow, addr 0x5e906a4, size 0x98, virtual false, abstract: false, final false
+static inline void CheckAndThrow(::Mono::Unity::UnityTls_unitytls_errorstate  errorState, ::StringW  context, ::Mono::Security::Interface::AlertDescription  defaultAlert) ;
 
-  /// @brief Method CheckAndThrow, addr 0x5e8ebc4, size 0xd0, virtual false, abstract: false, final false
-  static inline void CheckAndThrow(::Mono::Unity::UnityTls_unitytls_errorstate errorState, ::Mono::Unity::UnityTls_unitytls_x509verify_result verifyResult, ::StringW context,
-                                   ::Mono::Security::Interface::AlertDescription defaultAlert);
+/// @brief Method CheckAndThrow, addr 0x5e9073c, size 0xd0, virtual false, abstract: false, final false
+static inline void CheckAndThrow(::Mono::Unity::UnityTls_unitytls_errorstate  errorState, ::Mono::Unity::UnityTls_unitytls_x509verify_result  verifyResult, ::StringW  context, ::Mono::Security::Interface::AlertDescription  defaultAlert) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Debug();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr Debug() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Debug", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  Debug(Debug&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Debug", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  Debug(Debug const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "Debug", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Debug(Debug && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10933 };
+// Ctor Parameters [CppParam { name: "", ty: "Debug", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Debug(Debug const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10934};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Mono::Unity::Debug, 0x10>, "Size mismatch!");
 
-} // namespace Mono::Unity
+} // namespace end def Mono::Unity
 NEED_NO_BOX(::Mono::Unity::Debug);
 DEFINE_IL2CPP_ARG_TYPE(::Mono::Unity::Debug*, "Mono.Unity", "Debug");

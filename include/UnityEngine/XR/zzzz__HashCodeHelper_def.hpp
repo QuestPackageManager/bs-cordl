@@ -18,50 +18,50 @@ namespace UnityEngine::XR {
 // CS Name: UnityEngine.XR.HashCodeHelper
 class CORDL_TYPE HashCodeHelper : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method Combine, addr 0x6cdd850, size 0x10, virtual false, abstract: false, final false
-  static inline int32_t Combine(int32_t hash1, int32_t hash2);
+// Declarations
+/// @brief Method Combine, addr 0x6cdf3c8, size 0x10, virtual false, abstract: false, final false
+static inline int32_t Combine(int32_t  hash1, int32_t  hash2) ;
 
-  /// @brief Method Combine, addr 0x6cdd860, size 0x14, virtual false, abstract: false, final false
-  static inline int32_t Combine(int32_t hash1, int32_t hash2, int32_t hash3);
+/// @brief Method Combine, addr 0x6cdf3d8, size 0x14, virtual false, abstract: false, final false
+static inline int32_t Combine(int32_t  hash1, int32_t  hash2, int32_t  hash3) ;
 
-  /// @brief Method Combine, addr 0x6cdd874, size 0x18, virtual false, abstract: false, final false
-  static inline int32_t Combine(int32_t hash1, int32_t hash2, int32_t hash3, int32_t hash4);
+/// @brief Method Combine, addr 0x6cdf3ec, size 0x18, virtual false, abstract: false, final false
+static inline int32_t Combine(int32_t  hash1, int32_t  hash2, int32_t  hash3, int32_t  hash4) ;
 
-  /// @brief Method Combine, addr 0x6cdd88c, size 0x1c, virtual false, abstract: false, final false
-  static inline int32_t Combine(int32_t hash1, int32_t hash2, int32_t hash3, int32_t hash4, int32_t hash5);
+/// @brief Method Combine, addr 0x6cdf404, size 0x1c, virtual false, abstract: false, final false
+static inline int32_t Combine(int32_t  hash1, int32_t  hash2, int32_t  hash3, int32_t  hash4, int32_t  hash5) ;
 
-  /// @brief Method Combine, addr 0x6cdd8a8, size 0x20, virtual false, abstract: false, final false
-  static inline int32_t Combine(int32_t hash1, int32_t hash2, int32_t hash3, int32_t hash4, int32_t hash5, int32_t hash6);
+/// @brief Method Combine, addr 0x6cdf420, size 0x20, virtual false, abstract: false, final false
+static inline int32_t Combine(int32_t  hash1, int32_t  hash2, int32_t  hash3, int32_t  hash4, int32_t  hash5, int32_t  hash6) ;
 
-  /// @brief Method Combine, addr 0x6cdd8c8, size 0x24, virtual false, abstract: false, final false
-  static inline int32_t Combine(int32_t hash1, int32_t hash2, int32_t hash3, int32_t hash4, int32_t hash5, int32_t hash6, int32_t hash7);
+/// @brief Method Combine, addr 0x6cdf440, size 0x24, virtual false, abstract: false, final false
+static inline int32_t Combine(int32_t  hash1, int32_t  hash2, int32_t  hash3, int32_t  hash4, int32_t  hash5, int32_t  hash6, int32_t  hash7) ;
 
-  /// @brief Method Combine, addr 0x6cdd8ec, size 0x28, virtual false, abstract: false, final false
-  static inline int32_t Combine(int32_t hash1, int32_t hash2, int32_t hash3, int32_t hash4, int32_t hash5, int32_t hash6, int32_t hash7, int32_t hash8);
+/// @brief Method Combine, addr 0x6cdf464, size 0x28, virtual false, abstract: false, final false
+static inline int32_t Combine(int32_t  hash1, int32_t  hash2, int32_t  hash3, int32_t  hash4, int32_t  hash5, int32_t  hash6, int32_t  hash7, int32_t  hash8) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HashCodeHelper();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr HashCodeHelper() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HashCodeHelper", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  HashCodeHelper(HashCodeHelper&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HashCodeHelper", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  HashCodeHelper(HashCodeHelper const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "HashCodeHelper", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+HashCodeHelper(HashCodeHelper && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21979 };
+// Ctor Parameters [CppParam { name: "", ty: "HashCodeHelper", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+HashCodeHelper(HashCodeHelper const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{21982};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::XR::HashCodeHelper, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::XR
+} // namespace end def UnityEngine::XR
 NEED_NO_BOX(::UnityEngine::XR::HashCodeHelper);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::XR::HashCodeHelper*, "UnityEngine.XR", "HashCodeHelper");

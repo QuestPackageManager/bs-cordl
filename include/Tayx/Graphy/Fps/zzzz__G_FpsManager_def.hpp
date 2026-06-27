@@ -7,7 +7,8 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(G_FpsManager)
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template<typename T>
+class List_1;
 }
 namespace Tayx::Graphy::Fps {
 class G_FpsGraph;
@@ -54,204 +55,201 @@ namespace Tayx::Graphy::Fps {
 // CS Name: Tayx.Graphy.Fps.G_FpsManager
 class CORDL_TYPE G_FpsManager : public ::UnityEngine::MonoBehaviour {
 public:
-  // Declarations
-  /// @brief Field m_backgroundImages, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_backgroundImages,
-                      put = __cordl_internal_set_m_backgroundImages)) ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Image>>* m_backgroundImages;
+// Declarations
+/// @brief Field m_backgroundImages, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_backgroundImages, put=__cordl_internal_set_m_backgroundImages)) ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Image>>*  m_backgroundImages;
 
-  /// @brief Field m_childrenGameObjects, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_childrenGameObjects,
-                      put = __cordl_internal_set_m_childrenGameObjects)) ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* m_childrenGameObjects;
+/// @brief Field m_childrenGameObjects, offset 0x60, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_childrenGameObjects, put=__cordl_internal_set_m_childrenGameObjects)) ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>*  m_childrenGameObjects;
 
-  /// @brief Field m_currentModuleState, offset 0x6c, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_currentModuleState, put = __cordl_internal_set_m_currentModuleState)) ::Tayx::Graphy::GraphyManager_ModuleState m_currentModuleState;
+/// @brief Field m_currentModuleState, offset 0x6c, size 0x4 
+ __declspec(property(get=__cordl_internal_get_m_currentModuleState, put=__cordl_internal_set_m_currentModuleState)) ::Tayx::Graphy::GraphyManager_ModuleState  m_currentModuleState;
 
-  /// @brief Field m_fpsGraph, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_fpsGraph, put = __cordl_internal_set_m_fpsGraph)) ::UnityW<::Tayx::Graphy::Fps::G_FpsGraph> m_fpsGraph;
+/// @brief Field m_fpsGraph, offset 0x40, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_fpsGraph, put=__cordl_internal_set_m_fpsGraph)) ::UnityW<::Tayx::Graphy::Fps::G_FpsGraph>  m_fpsGraph;
 
-  /// @brief Field m_fpsGraphGameObject, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_fpsGraphGameObject, put = __cordl_internal_set_m_fpsGraphGameObject)) ::UnityW<::UnityEngine::GameObject> m_fpsGraphGameObject;
+/// @brief Field m_fpsGraphGameObject, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_fpsGraphGameObject, put=__cordl_internal_set_m_fpsGraphGameObject)) ::UnityW<::UnityEngine::GameObject>  m_fpsGraphGameObject;
 
-  /// @brief Field m_fpsMonitor, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_fpsMonitor, put = __cordl_internal_set_m_fpsMonitor)) ::UnityW<::Tayx::Graphy::Fps::G_FpsMonitor> m_fpsMonitor;
+/// @brief Field m_fpsMonitor, offset 0x48, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_fpsMonitor, put=__cordl_internal_set_m_fpsMonitor)) ::UnityW<::Tayx::Graphy::Fps::G_FpsMonitor>  m_fpsMonitor;
 
-  /// @brief Field m_fpsText, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_fpsText, put = __cordl_internal_set_m_fpsText)) ::UnityW<::Tayx::Graphy::Fps::G_FpsText> m_fpsText;
+/// @brief Field m_fpsText, offset 0x50, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_fpsText, put=__cordl_internal_set_m_fpsText)) ::UnityW<::Tayx::Graphy::Fps::G_FpsText>  m_fpsText;
 
-  /// @brief Field m_graphyManager, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_graphyManager, put = __cordl_internal_set_m_graphyManager)) ::UnityW<::Tayx::Graphy::GraphyManager> m_graphyManager;
+/// @brief Field m_graphyManager, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_graphyManager, put=__cordl_internal_set_m_graphyManager)) ::UnityW<::Tayx::Graphy::GraphyManager>  m_graphyManager;
 
-  /// @brief Field m_nonBasicTextGameObjects, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_nonBasicTextGameObjects,
-                      put = __cordl_internal_set_m_nonBasicTextGameObjects)) ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* m_nonBasicTextGameObjects;
+/// @brief Field m_nonBasicTextGameObjects, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_nonBasicTextGameObjects, put=__cordl_internal_set_m_nonBasicTextGameObjects)) ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>*  m_nonBasicTextGameObjects;
 
-  /// @brief Field m_previousModuleState, offset 0x68, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_previousModuleState, put = __cordl_internal_set_m_previousModuleState)) ::Tayx::Graphy::GraphyManager_ModuleState m_previousModuleState;
+/// @brief Field m_previousModuleState, offset 0x68, size 0x4 
+ __declspec(property(get=__cordl_internal_get_m_previousModuleState, put=__cordl_internal_set_m_previousModuleState)) ::Tayx::Graphy::GraphyManager_ModuleState  m_previousModuleState;
 
-  /// @brief Field m_rectTransform, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_rectTransform, put = __cordl_internal_set_m_rectTransform)) ::UnityW<::UnityEngine::RectTransform> m_rectTransform;
+/// @brief Field m_rectTransform, offset 0x58, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_rectTransform, put=__cordl_internal_set_m_rectTransform)) ::UnityW<::UnityEngine::RectTransform>  m_rectTransform;
 
-  /// @brief Convert operator to "::Tayx::Graphy::UI::IModifiableState"
-  constexpr operator ::Tayx::Graphy::UI::IModifiableState*() noexcept;
+/// @brief Convert operator to "::Tayx::Graphy::UI::IModifiableState"
+constexpr operator  ::Tayx::Graphy::UI::IModifiableState*() noexcept;
 
-  /// @brief Convert operator to "::Tayx::Graphy::UI::IMovable"
-  constexpr operator ::Tayx::Graphy::UI::IMovable*() noexcept;
+/// @brief Convert operator to "::Tayx::Graphy::UI::IMovable"
+constexpr operator  ::Tayx::Graphy::UI::IMovable*() noexcept;
 
-  /// @brief Method Awake, addr 0x62fcd80, size 0x4, virtual false, abstract: false, final false
-  inline void Awake();
+/// @brief Method Awake, addr 0x62fe8f8, size 0x4, virtual false, abstract: false, final false
+inline void Awake() ;
 
-  /// @brief Method Init, addr 0x62f7e90, size 0x4c4, virtual false, abstract: false, final false
-  inline void Init();
+/// @brief Method Init, addr 0x62f9a08, size 0x4c4, virtual false, abstract: false, final false
+inline void Init() ;
 
-  static inline ::Tayx::Graphy::Fps::G_FpsManager* New_ctor();
+static inline ::Tayx::Graphy::Fps::G_FpsManager* New_ctor() ;
 
-  /// @brief Method RefreshParameters, addr 0x62fa088, size 0x19c, virtual false, abstract: false, final false
-  inline void RefreshParameters();
+/// @brief Method RefreshParameters, addr 0x62fbc00, size 0x19c, virtual false, abstract: false, final false
+inline void RefreshParameters() ;
 
-  /// @brief Method RestorePreviousState, addr 0x62f7c34, size 0xc, virtual false, abstract: false, final false
-  inline void RestorePreviousState();
+/// @brief Method RestorePreviousState, addr 0x62f97ac, size 0xc, virtual false, abstract: false, final false
+inline void RestorePreviousState() ;
 
-  /// @brief Method SetGraphActive, addr 0x62fcd88, size 0x44, virtual false, abstract: false, final false
-  inline void SetGraphActive(bool active);
+/// @brief Method SetGraphActive, addr 0x62fe900, size 0x44, virtual false, abstract: false, final false
+inline void SetGraphActive(bool  active) ;
 
-  /// @brief Method SetPosition, addr 0x62f4e18, size 0x314, virtual true, abstract: false, final true
-  inline void SetPosition(::Tayx::Graphy::GraphyManager_ModulePosition newModulePosition);
+/// @brief Method SetPosition, addr 0x62f6990, size 0x314, virtual true, abstract: false, final true
+inline void SetPosition(::Tayx::Graphy::GraphyManager_ModulePosition  newModulePosition) ;
 
-  /// @brief Method SetState, addr 0x62f5794, size 0x1b8, virtual true, abstract: false, final true
-  inline void SetState(::Tayx::Graphy::GraphyManager_ModuleState state, bool silentUpdate);
+/// @brief Method SetState, addr 0x62f730c, size 0x1b8, virtual true, abstract: false, final true
+inline void SetState(::Tayx::Graphy::GraphyManager_ModuleState  state, bool  silentUpdate) ;
 
-  /// @brief Method Start, addr 0x62fcd84, size 0x4, virtual false, abstract: false, final false
-  inline void Start();
+/// @brief Method Start, addr 0x62fe8fc, size 0x4, virtual false, abstract: false, final false
+inline void Start() ;
 
-  /// @brief Method UpdateParameters, addr 0x62f5978, size 0x1a4, virtual false, abstract: false, final false
-  inline void UpdateParameters();
+/// @brief Method UpdateParameters, addr 0x62f74f0, size 0x1a4, virtual false, abstract: false, final false
+inline void UpdateParameters() ;
 
-  constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Image>>* const& __cordl_internal_get_m_backgroundImages() const;
+constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Image>>* const& __cordl_internal_get_m_backgroundImages() const;
 
-  constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Image>>*& __cordl_internal_get_m_backgroundImages();
+constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Image>>*& __cordl_internal_get_m_backgroundImages() ;
 
-  constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* const& __cordl_internal_get_m_childrenGameObjects() const;
+constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* const& __cordl_internal_get_m_childrenGameObjects() const;
 
-  constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>*& __cordl_internal_get_m_childrenGameObjects();
+constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>*& __cordl_internal_get_m_childrenGameObjects() ;
 
-  constexpr ::Tayx::Graphy::GraphyManager_ModuleState const& __cordl_internal_get_m_currentModuleState() const;
+constexpr ::Tayx::Graphy::GraphyManager_ModuleState const& __cordl_internal_get_m_currentModuleState() const;
 
-  constexpr ::Tayx::Graphy::GraphyManager_ModuleState& __cordl_internal_get_m_currentModuleState();
+constexpr ::Tayx::Graphy::GraphyManager_ModuleState& __cordl_internal_get_m_currentModuleState() ;
 
-  constexpr ::UnityW<::Tayx::Graphy::Fps::G_FpsGraph> const& __cordl_internal_get_m_fpsGraph() const;
+constexpr ::UnityW<::Tayx::Graphy::Fps::G_FpsGraph> const& __cordl_internal_get_m_fpsGraph() const;
 
-  constexpr ::UnityW<::Tayx::Graphy::Fps::G_FpsGraph>& __cordl_internal_get_m_fpsGraph();
+constexpr ::UnityW<::Tayx::Graphy::Fps::G_FpsGraph>& __cordl_internal_get_m_fpsGraph() ;
 
-  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_m_fpsGraphGameObject() const;
+constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_m_fpsGraphGameObject() const;
 
-  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get_m_fpsGraphGameObject();
+constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get_m_fpsGraphGameObject() ;
 
-  constexpr ::UnityW<::Tayx::Graphy::Fps::G_FpsMonitor> const& __cordl_internal_get_m_fpsMonitor() const;
+constexpr ::UnityW<::Tayx::Graphy::Fps::G_FpsMonitor> const& __cordl_internal_get_m_fpsMonitor() const;
 
-  constexpr ::UnityW<::Tayx::Graphy::Fps::G_FpsMonitor>& __cordl_internal_get_m_fpsMonitor();
+constexpr ::UnityW<::Tayx::Graphy::Fps::G_FpsMonitor>& __cordl_internal_get_m_fpsMonitor() ;
 
-  constexpr ::UnityW<::Tayx::Graphy::Fps::G_FpsText> const& __cordl_internal_get_m_fpsText() const;
+constexpr ::UnityW<::Tayx::Graphy::Fps::G_FpsText> const& __cordl_internal_get_m_fpsText() const;
 
-  constexpr ::UnityW<::Tayx::Graphy::Fps::G_FpsText>& __cordl_internal_get_m_fpsText();
+constexpr ::UnityW<::Tayx::Graphy::Fps::G_FpsText>& __cordl_internal_get_m_fpsText() ;
 
-  constexpr ::UnityW<::Tayx::Graphy::GraphyManager> const& __cordl_internal_get_m_graphyManager() const;
+constexpr ::UnityW<::Tayx::Graphy::GraphyManager> const& __cordl_internal_get_m_graphyManager() const;
 
-  constexpr ::UnityW<::Tayx::Graphy::GraphyManager>& __cordl_internal_get_m_graphyManager();
+constexpr ::UnityW<::Tayx::Graphy::GraphyManager>& __cordl_internal_get_m_graphyManager() ;
 
-  constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* const& __cordl_internal_get_m_nonBasicTextGameObjects() const;
+constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* const& __cordl_internal_get_m_nonBasicTextGameObjects() const;
 
-  constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>*& __cordl_internal_get_m_nonBasicTextGameObjects();
+constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>*& __cordl_internal_get_m_nonBasicTextGameObjects() ;
 
-  constexpr ::Tayx::Graphy::GraphyManager_ModuleState const& __cordl_internal_get_m_previousModuleState() const;
+constexpr ::Tayx::Graphy::GraphyManager_ModuleState const& __cordl_internal_get_m_previousModuleState() const;
 
-  constexpr ::Tayx::Graphy::GraphyManager_ModuleState& __cordl_internal_get_m_previousModuleState();
+constexpr ::Tayx::Graphy::GraphyManager_ModuleState& __cordl_internal_get_m_previousModuleState() ;
 
-  constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get_m_rectTransform() const;
+constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get_m_rectTransform() const;
 
-  constexpr ::UnityW<::UnityEngine::RectTransform>& __cordl_internal_get_m_rectTransform();
+constexpr ::UnityW<::UnityEngine::RectTransform>& __cordl_internal_get_m_rectTransform() ;
 
-  constexpr void __cordl_internal_set_m_backgroundImages(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Image>>* value);
+constexpr void __cordl_internal_set_m_backgroundImages(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Image>>*  value) ;
 
-  constexpr void __cordl_internal_set_m_childrenGameObjects(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* value);
+constexpr void __cordl_internal_set_m_childrenGameObjects(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>*  value) ;
 
-  constexpr void __cordl_internal_set_m_currentModuleState(::Tayx::Graphy::GraphyManager_ModuleState value);
+constexpr void __cordl_internal_set_m_currentModuleState(::Tayx::Graphy::GraphyManager_ModuleState  value) ;
 
-  constexpr void __cordl_internal_set_m_fpsGraph(::UnityW<::Tayx::Graphy::Fps::G_FpsGraph> value);
+constexpr void __cordl_internal_set_m_fpsGraph(::UnityW<::Tayx::Graphy::Fps::G_FpsGraph>  value) ;
 
-  constexpr void __cordl_internal_set_m_fpsGraphGameObject(::UnityW<::UnityEngine::GameObject> value);
+constexpr void __cordl_internal_set_m_fpsGraphGameObject(::UnityW<::UnityEngine::GameObject>  value) ;
 
-  constexpr void __cordl_internal_set_m_fpsMonitor(::UnityW<::Tayx::Graphy::Fps::G_FpsMonitor> value);
+constexpr void __cordl_internal_set_m_fpsMonitor(::UnityW<::Tayx::Graphy::Fps::G_FpsMonitor>  value) ;
 
-  constexpr void __cordl_internal_set_m_fpsText(::UnityW<::Tayx::Graphy::Fps::G_FpsText> value);
+constexpr void __cordl_internal_set_m_fpsText(::UnityW<::Tayx::Graphy::Fps::G_FpsText>  value) ;
 
-  constexpr void __cordl_internal_set_m_graphyManager(::UnityW<::Tayx::Graphy::GraphyManager> value);
+constexpr void __cordl_internal_set_m_graphyManager(::UnityW<::Tayx::Graphy::GraphyManager>  value) ;
 
-  constexpr void __cordl_internal_set_m_nonBasicTextGameObjects(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* value);
+constexpr void __cordl_internal_set_m_nonBasicTextGameObjects(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>*  value) ;
 
-  constexpr void __cordl_internal_set_m_previousModuleState(::Tayx::Graphy::GraphyManager_ModuleState value);
+constexpr void __cordl_internal_set_m_previousModuleState(::Tayx::Graphy::GraphyManager_ModuleState  value) ;
 
-  constexpr void __cordl_internal_set_m_rectTransform(::UnityW<::UnityEngine::RectTransform> value);
+constexpr void __cordl_internal_set_m_rectTransform(::UnityW<::UnityEngine::RectTransform>  value) ;
 
-  /// @brief Method .ctor, addr 0x62fcf7c, size 0xe0, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x62feaf4, size 0xe0, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Convert to "::Tayx::Graphy::UI::IModifiableState"
-  constexpr ::Tayx::Graphy::UI::IModifiableState* i___Tayx__Graphy__UI__IModifiableState() noexcept;
+/// @brief Convert to "::Tayx::Graphy::UI::IModifiableState"
+constexpr ::Tayx::Graphy::UI::IModifiableState* i___Tayx__Graphy__UI__IModifiableState() noexcept;
 
-  /// @brief Convert to "::Tayx::Graphy::UI::IMovable"
-  constexpr ::Tayx::Graphy::UI::IMovable* i___Tayx__Graphy__UI__IMovable() noexcept;
+/// @brief Convert to "::Tayx::Graphy::UI::IMovable"
+constexpr ::Tayx::Graphy::UI::IMovable* i___Tayx__Graphy__UI__IMovable() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr G_FpsManager();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr G_FpsManager() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "G_FpsManager", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  G_FpsManager(G_FpsManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "G_FpsManager", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  G_FpsManager(G_FpsManager const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "G_FpsManager", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+G_FpsManager(G_FpsManager && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21242 };
+// Ctor Parameters [CppParam { name: "", ty: "G_FpsManager", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+G_FpsManager(G_FpsManager const& ) = delete;
 
-  /// @brief Field m_fpsGraphGameObject, offset: 0x20, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::GameObject> ___m_fpsGraphGameObject;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{21245};
 
-  /// @brief Field m_nonBasicTextGameObjects, offset: 0x28, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* ___m_nonBasicTextGameObjects;
+/// @brief Field m_fpsGraphGameObject, offset: 0x20, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::GameObject>  ___m_fpsGraphGameObject;
 
-  /// @brief Field m_backgroundImages, offset: 0x30, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Image>>* ___m_backgroundImages;
+/// @brief Field m_nonBasicTextGameObjects, offset: 0x28, size: 0x8, def value: None
+ ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>*  ___m_nonBasicTextGameObjects;
 
-  /// @brief Field m_graphyManager, offset: 0x38, size: 0x8, def value: None
-  ::UnityW<::Tayx::Graphy::GraphyManager> ___m_graphyManager;
+/// @brief Field m_backgroundImages, offset: 0x30, size: 0x8, def value: None
+ ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Image>>*  ___m_backgroundImages;
 
-  /// @brief Field m_fpsGraph, offset: 0x40, size: 0x8, def value: None
-  ::UnityW<::Tayx::Graphy::Fps::G_FpsGraph> ___m_fpsGraph;
+/// @brief Field m_graphyManager, offset: 0x38, size: 0x8, def value: None
+ ::UnityW<::Tayx::Graphy::GraphyManager>  ___m_graphyManager;
 
-  /// @brief Field m_fpsMonitor, offset: 0x48, size: 0x8, def value: None
-  ::UnityW<::Tayx::Graphy::Fps::G_FpsMonitor> ___m_fpsMonitor;
+/// @brief Field m_fpsGraph, offset: 0x40, size: 0x8, def value: None
+ ::UnityW<::Tayx::Graphy::Fps::G_FpsGraph>  ___m_fpsGraph;
 
-  /// @brief Field m_fpsText, offset: 0x50, size: 0x8, def value: None
-  ::UnityW<::Tayx::Graphy::Fps::G_FpsText> ___m_fpsText;
+/// @brief Field m_fpsMonitor, offset: 0x48, size: 0x8, def value: None
+ ::UnityW<::Tayx::Graphy::Fps::G_FpsMonitor>  ___m_fpsMonitor;
 
-  /// @brief Field m_rectTransform, offset: 0x58, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::RectTransform> ___m_rectTransform;
+/// @brief Field m_fpsText, offset: 0x50, size: 0x8, def value: None
+ ::UnityW<::Tayx::Graphy::Fps::G_FpsText>  ___m_fpsText;
 
-  /// @brief Field m_childrenGameObjects, offset: 0x60, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* ___m_childrenGameObjects;
+/// @brief Field m_rectTransform, offset: 0x58, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::RectTransform>  ___m_rectTransform;
 
-  /// @brief Field m_previousModuleState, offset: 0x68, size: 0x4, def value: None
-  ::Tayx::Graphy::GraphyManager_ModuleState ___m_previousModuleState;
+/// @brief Field m_childrenGameObjects, offset: 0x60, size: 0x8, def value: None
+ ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>*  ___m_childrenGameObjects;
 
-  /// @brief Field m_currentModuleState, offset: 0x6c, size: 0x4, def value: None
-  ::Tayx::Graphy::GraphyManager_ModuleState ___m_currentModuleState;
+/// @brief Field m_previousModuleState, offset: 0x68, size: 0x4, def value: None
+ ::Tayx::Graphy::GraphyManager_ModuleState  ___m_previousModuleState;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field m_currentModuleState, offset: 0x6c, size: 0x4, def value: None
+ ::Tayx::Graphy::GraphyManager_ModuleState  ___m_currentModuleState;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Tayx::Graphy::Fps::G_FpsManager, ___m_fpsGraphGameObject) == 0x20, "Offset mismatch!");
@@ -278,6 +276,6 @@ static_assert(offsetof(::Tayx::Graphy::Fps::G_FpsManager, ___m_currentModuleStat
 
 static_assert(::cordl_internals::size_check_v<::Tayx::Graphy::Fps::G_FpsManager, 0x70>, "Size mismatch!");
 
-} // namespace Tayx::Graphy::Fps
+} // namespace end def Tayx::Graphy::Fps
 NEED_NO_BOX(::Tayx::Graphy::Fps::G_FpsManager);
 DEFINE_IL2CPP_ARG_TYPE(::Tayx::Graphy::Fps::G_FpsManager*, "Tayx.Graphy.Fps", "G_FpsManager");

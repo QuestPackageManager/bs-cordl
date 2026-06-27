@@ -25,45 +25,45 @@ namespace GlobalNamespace {
 // CS Name: ToneMappingExtensions
 class CORDL_TYPE ToneMappingExtensions : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field _acesToneMappingKeyword, offset 0xffffffff, size 0x10
-  __declspec(property(get = getStaticF__acesToneMappingKeyword, put = setStaticF__acesToneMappingKeyword)) ::UnityEngine::Rendering::GlobalKeyword _acesToneMappingKeyword;
+// Declarations
+/// @brief Field _acesToneMappingKeyword, offset 0xffffffff, size 0x10 
+ __declspec(property(get=getStaticF__acesToneMappingKeyword, put=setStaticF__acesToneMappingKeyword)) ::UnityEngine::Rendering::GlobalKeyword  _acesToneMappingKeyword;
 
-  /// @brief Method SetShaderKeyword, addr 0x571fd40, size 0x64, virtual false, abstract: false, final false
-  static inline void SetShaderKeyword(::GlobalNamespace::ToneMapping toneMapping);
+/// @brief Method SetShaderKeyword, addr 0x57215a8, size 0x64, virtual false, abstract: false, final false
+static inline void SetShaderKeyword(::GlobalNamespace::ToneMapping  toneMapping) ;
 
-  /// @brief Method SetShaderKeyword, addr 0x5721aa0, size 0xac, virtual false, abstract: false, final false
-  static inline void SetShaderKeyword(::GlobalNamespace::ToneMapping toneMapping, ::UnityEngine::Rendering::CommandBuffer* cmd);
+/// @brief Method SetShaderKeyword, addr 0x5723308, size 0xac, virtual false, abstract: false, final false
+static inline void SetShaderKeyword(::GlobalNamespace::ToneMapping  toneMapping, ::UnityEngine::Rendering::CommandBuffer*  cmd) ;
 
-  static inline ::UnityEngine::Rendering::GlobalKeyword getStaticF__acesToneMappingKeyword();
+static inline ::UnityEngine::Rendering::GlobalKeyword getStaticF__acesToneMappingKeyword() ;
 
-  static inline void setStaticF__acesToneMappingKeyword(::UnityEngine::Rendering::GlobalKeyword value);
+static inline void setStaticF__acesToneMappingKeyword(::UnityEngine::Rendering::GlobalKeyword  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ToneMappingExtensions();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ToneMappingExtensions() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ToneMappingExtensions", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ToneMappingExtensions(ToneMappingExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ToneMappingExtensions", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ToneMappingExtensions(ToneMappingExtensions const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ToneMappingExtensions", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ToneMappingExtensions(ToneMappingExtensions && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19693 };
+// Ctor Parameters [CppParam { name: "", ty: "ToneMappingExtensions", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ToneMappingExtensions(ToneMappingExtensions const& ) = delete;
 
-  /// @brief Field kAcesToneMappingEnabledKeyword offset 0xffffffff size 0x8
-  static constexpr ::ConstString kAcesToneMappingEnabledKeyword{ u"ACES_TONE_MAPPING" };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19696};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field kAcesToneMappingEnabledKeyword offset 0xffffffff size 0x8
+static constexpr ::ConstString  kAcesToneMappingEnabledKeyword{u"ACES_TONE_MAPPING"};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ToneMappingExtensions, 0x10>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ToneMappingExtensions);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ToneMappingExtensions*, "", "ToneMappingExtensions");

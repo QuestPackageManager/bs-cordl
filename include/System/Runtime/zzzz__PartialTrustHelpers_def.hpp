@@ -17,32 +17,32 @@ namespace System::Runtime {
 // CS Name: System.Runtime.PartialTrustHelpers
 class CORDL_TYPE PartialTrustHelpers : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method HasEtwPermissions, addr 0x604553c, size 0x8, virtual false, abstract: false, final false
-  static inline bool HasEtwPermissions();
+// Declarations
+/// @brief Method HasEtwPermissions, addr 0x60470b4, size 0x8, virtual false, abstract: false, final false
+static inline bool HasEtwPermissions() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PartialTrustHelpers();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr PartialTrustHelpers() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PartialTrustHelpers", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  PartialTrustHelpers(PartialTrustHelpers&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PartialTrustHelpers", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  PartialTrustHelpers(PartialTrustHelpers const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "PartialTrustHelpers", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+PartialTrustHelpers(PartialTrustHelpers && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21128 };
+// Ctor Parameters [CppParam { name: "", ty: "PartialTrustHelpers", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+PartialTrustHelpers(PartialTrustHelpers const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{21131};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::PartialTrustHelpers, 0x10>, "Size mismatch!");
 
-} // namespace System::Runtime
+} // namespace end def System::Runtime
 NEED_NO_BOX(::System::Runtime::PartialTrustHelpers);
 DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::PartialTrustHelpers*, "System.Runtime", "PartialTrustHelpers");

@@ -20,31 +20,30 @@ namespace UnityEngine::Rendering::Universal {
 // CS Name: UnityEngine.Rendering.Universal.URPLightShadowCullingInfos
 struct CORDL_TYPE URPLightShadowCullingInfos {
 public:
-  // Declarations
-  /// @brief Method IsSliceValid, addr 0x67753d8, size 0x10, virtual false, abstract: false, final false
-  inline bool IsSliceValid(int32_t i);
+// Declarations
+/// @brief Method IsSliceValid, addr 0x6776f50, size 0x10, virtual false, abstract: false, final false
+inline bool IsSliceValid(int32_t  i) ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr URPLightShadowCullingInfos();
+// Ctor Parameters []
+// @brief default ctor
+constexpr URPLightShadowCullingInfos() ;
 
-  // Ctor Parameters [CppParam { name: "slices", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::Universal::ShadowSliceData>", modifiers: "", def_value: None }, CppParam { name:
-  // "slicesValidMask", ty: "uint32_t", modifiers: "", def_value: None }]
-  constexpr URPLightShadowCullingInfos(::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::Universal::ShadowSliceData> slices, uint32_t slicesValidMask) noexcept;
+// Ctor Parameters [CppParam { name: "slices", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::Universal::ShadowSliceData>", modifiers: "", def_value: None }, CppParam { name: "slicesValidMask", ty: "uint32_t", modifiers: "", def_value: None }]
+constexpr URPLightShadowCullingInfos(::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::Universal::ShadowSliceData>  slices, uint32_t  slicesValidMask) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12944 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12945};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x18};
 
-  /// @brief Field slices, offset: 0x0, size: 0x10, def value: None
-  ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::Universal::ShadowSliceData> slices;
+/// @brief Field slices, offset: 0x0, size: 0x10, def value: None
+ ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::Universal::ShadowSliceData>  slices;
 
-  /// @brief Field slicesValidMask, offset: 0x10, size: 0x4, def value: None
-  uint32_t slicesValidMask;
+/// @brief Field slicesValidMask, offset: 0x10, size: 0x4, def value: None
+ uint32_t  slicesValidMask;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Rendering::Universal::URPLightShadowCullingInfos, slices) == 0x0, "Offset mismatch!");
@@ -53,5 +52,5 @@ static_assert(offsetof(::UnityEngine::Rendering::Universal::URPLightShadowCullin
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::Universal::URPLightShadowCullingInfos, 0x18>, "Size mismatch!");
 
-} // namespace UnityEngine::Rendering::Universal
+} // namespace end def UnityEngine::Rendering::Universal
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::Universal::URPLightShadowCullingInfos, "UnityEngine.Rendering.Universal", "URPLightShadowCullingInfos");

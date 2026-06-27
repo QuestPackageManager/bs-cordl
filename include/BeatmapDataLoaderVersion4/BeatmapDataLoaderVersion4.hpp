@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "BeatmapDataLoaderVersion4/ArcItemConverter.hpp"
 #include "BeatmapDataLoaderVersion4/BasicEventItemConverter.hpp"
@@ -26,5 +26,6 @@ module;
 #include "BeatmapDataLoaderVersion4/SpecialEventsFilter.hpp"
 #include "BeatmapDataLoaderVersion4/WaypointItemConverter.hpp"
 #ifdef __cpp_modules
-export module BeatmapDataLoaderVersion4;
-#endif
+                    export module BeatmapDataLoaderVersion4;
+                    #endif
+                

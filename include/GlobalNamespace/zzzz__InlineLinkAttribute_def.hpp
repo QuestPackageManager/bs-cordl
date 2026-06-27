@@ -18,48 +18,48 @@ namespace GlobalNamespace {
 // CS Name: InlineLinkAttribute
 class CORDL_TYPE InlineLinkAttribute : public ::UnityEngine::PropertyAttribute {
 public:
-  // Declarations
-  /// @brief Field DocumentationURL, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_DocumentationURL, put = __cordl_internal_set_DocumentationURL)) ::StringW DocumentationURL;
+// Declarations
+/// @brief Field DocumentationURL, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_DocumentationURL, put=__cordl_internal_set_DocumentationURL)) ::StringW  DocumentationURL;
 
-  static inline ::GlobalNamespace::InlineLinkAttribute* New_ctor(::StringW documentationURL);
+static inline ::GlobalNamespace::InlineLinkAttribute* New_ctor(::StringW  documentationURL) ;
 
-  constexpr ::StringW const& __cordl_internal_get_DocumentationURL() const;
+constexpr ::StringW const& __cordl_internal_get_DocumentationURL() const;
 
-  constexpr ::StringW& __cordl_internal_get_DocumentationURL();
+constexpr ::StringW& __cordl_internal_get_DocumentationURL() ;
 
-  constexpr void __cordl_internal_set_DocumentationURL(::StringW value);
+constexpr void __cordl_internal_set_DocumentationURL(::StringW  value) ;
 
-  /// @brief Method .ctor, addr 0x5cbb4f0, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor(::StringW documentationURL);
+/// @brief Method .ctor, addr 0x5cbd068, size 0xc, virtual false, abstract: false, final false
+inline void _ctor(::StringW  documentationURL) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr InlineLinkAttribute();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr InlineLinkAttribute() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InlineLinkAttribute", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  InlineLinkAttribute(InlineLinkAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InlineLinkAttribute", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  InlineLinkAttribute(InlineLinkAttribute const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "InlineLinkAttribute", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+InlineLinkAttribute(InlineLinkAttribute && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7039 };
+// Ctor Parameters [CppParam { name: "", ty: "InlineLinkAttribute", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+InlineLinkAttribute(InlineLinkAttribute const& ) = delete;
 
-  /// @brief Field DocumentationURL, offset: 0x18, size: 0x8, def value: None
-  ::StringW ___DocumentationURL;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{7040};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field DocumentationURL, offset: 0x18, size: 0x8, def value: None
+ ::StringW  ___DocumentationURL;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::InlineLinkAttribute, ___DocumentationURL) == 0x18, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::InlineLinkAttribute, 0x20>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::InlineLinkAttribute);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::InlineLinkAttribute*, "", "InlineLinkAttribute");

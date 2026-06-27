@@ -30,67 +30,67 @@ namespace System::Threading {
 // CS Name: System.Threading.AbandonedMutexException
 class CORDL_TYPE AbandonedMutexException : public ::System::SystemException {
 public:
-  // Declarations
-  /// @brief Field _mutex, offset 0x90, size 0x8
-  __declspec(property(get = __cordl_internal_get__mutex, put = __cordl_internal_set__mutex)) ::System::Threading::Mutex* _mutex;
+// Declarations
+/// @brief Field _mutex, offset 0x90, size 0x8 
+ __declspec(property(get=__cordl_internal_get__mutex, put=__cordl_internal_set__mutex)) ::System::Threading::Mutex*  _mutex;
 
-  /// @brief Field _mutexIndex, offset 0x8c, size 0x4
-  __declspec(property(get = __cordl_internal_get__mutexIndex, put = __cordl_internal_set__mutexIndex)) int32_t _mutexIndex;
+/// @brief Field _mutexIndex, offset 0x8c, size 0x4 
+ __declspec(property(get=__cordl_internal_get__mutexIndex, put=__cordl_internal_set__mutexIndex)) int32_t  _mutexIndex;
 
-  static inline ::System::Threading::AbandonedMutexException* New_ctor();
+static inline ::System::Threading::AbandonedMutexException* New_ctor() ;
 
-  static inline ::System::Threading::AbandonedMutexException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
+static inline ::System::Threading::AbandonedMutexException* New_ctor(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context) ;
 
-  static inline ::System::Threading::AbandonedMutexException* New_ctor(int32_t location, ::System::Threading::WaitHandle* handle);
+static inline ::System::Threading::AbandonedMutexException* New_ctor(int32_t  location, ::System::Threading::WaitHandle*  handle) ;
 
-  /// @brief Method SetupException, addr 0x5b6b0e8, size 0x70, virtual false, abstract: false, final false
-  inline void SetupException(int32_t location, ::System::Threading::WaitHandle* handle);
+/// @brief Method SetupException, addr 0x5b6cc60, size 0x70, virtual false, abstract: false, final false
+inline void SetupException(int32_t  location, ::System::Threading::WaitHandle*  handle) ;
 
-  constexpr ::System::Threading::Mutex* const& __cordl_internal_get__mutex() const;
+constexpr ::System::Threading::Mutex* const& __cordl_internal_get__mutex() const;
 
-  constexpr ::System::Threading::Mutex*& __cordl_internal_get__mutex();
+constexpr ::System::Threading::Mutex*& __cordl_internal_get__mutex() ;
 
-  constexpr int32_t const& __cordl_internal_get__mutexIndex() const;
+constexpr int32_t const& __cordl_internal_get__mutexIndex() const;
 
-  constexpr int32_t& __cordl_internal_get__mutexIndex();
+constexpr int32_t& __cordl_internal_get__mutexIndex() ;
 
-  constexpr void __cordl_internal_set__mutex(::System::Threading::Mutex* value);
+constexpr void __cordl_internal_set__mutex(::System::Threading::Mutex*  value) ;
 
-  constexpr void __cordl_internal_set__mutexIndex(int32_t value);
+constexpr void __cordl_internal_set__mutexIndex(int32_t  value) ;
 
-  /// @brief Method .ctor, addr 0x5b6afc0, size 0x68, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5b6cb38, size 0x68, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method .ctor, addr 0x5b6b158, size 0x10, virtual false, abstract: false, final false
-  inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
+/// @brief Method .ctor, addr 0x5b6ccd0, size 0x10, virtual false, abstract: false, final false
+inline void _ctor(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context) ;
 
-  /// @brief Method .ctor, addr 0x5b6b028, size 0xc0, virtual false, abstract: false, final false
-  inline void _ctor(int32_t location, ::System::Threading::WaitHandle* handle);
+/// @brief Method .ctor, addr 0x5b6cba0, size 0xc0, virtual false, abstract: false, final false
+inline void _ctor(int32_t  location, ::System::Threading::WaitHandle*  handle) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AbandonedMutexException();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr AbandonedMutexException() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AbandonedMutexException", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  AbandonedMutexException(AbandonedMutexException&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AbandonedMutexException", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  AbandonedMutexException(AbandonedMutexException const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "AbandonedMutexException", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+AbandonedMutexException(AbandonedMutexException && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2668 };
+// Ctor Parameters [CppParam { name: "", ty: "AbandonedMutexException", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+AbandonedMutexException(AbandonedMutexException const& ) = delete;
 
-  /// @brief Field _mutexIndex, offset: 0x8c, size: 0x4, def value: None
-  int32_t ____mutexIndex;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{2668};
 
-  /// @brief Field _mutex, offset: 0x90, size: 0x8, def value: None
-  ::System::Threading::Mutex* ____mutex;
+/// @brief Field _mutexIndex, offset: 0x8c, size: 0x4, def value: None
+ int32_t  ____mutexIndex;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _mutex, offset: 0x90, size: 0x8, def value: None
+ ::System::Threading::Mutex*  ____mutex;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Threading::AbandonedMutexException, ____mutexIndex) == 0x8c, "Offset mismatch!");
@@ -99,6 +99,6 @@ static_assert(offsetof(::System::Threading::AbandonedMutexException, ____mutex) 
 
 static_assert(::cordl_internals::size_check_v<::System::Threading::AbandonedMutexException, 0x98>, "Size mismatch!");
 
-} // namespace System::Threading
+} // namespace end def System::Threading
 NEED_NO_BOX(::System::Threading::AbandonedMutexException);
 DEFINE_IL2CPP_ARG_TYPE(::System::Threading::AbandonedMutexException*, "System.Threading", "AbandonedMutexException");

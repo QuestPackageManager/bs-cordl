@@ -17,34 +17,34 @@ namespace System::Net::Configuration {
 // CS Name: System.Net.Configuration.WebRequestModuleElementCollection
 class CORDL_TYPE WebRequestModuleElementCollection : public ::System::Configuration::ConfigurationElementCollection {
 public:
-  // Declarations
-  static inline ::System::Net::Configuration::WebRequestModuleElementCollection* New_ctor();
+// Declarations
+static inline ::System::Net::Configuration::WebRequestModuleElementCollection* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x622fcd8, size 0x3c, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6231850, size 0x3c, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr WebRequestModuleElementCollection();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr WebRequestModuleElementCollection() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "WebRequestModuleElementCollection", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  WebRequestModuleElementCollection(WebRequestModuleElementCollection&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "WebRequestModuleElementCollection", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  WebRequestModuleElementCollection(WebRequestModuleElementCollection const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "WebRequestModuleElementCollection", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+WebRequestModuleElementCollection(WebRequestModuleElementCollection && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11823 };
+// Ctor Parameters [CppParam { name: "", ty: "WebRequestModuleElementCollection", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+WebRequestModuleElementCollection(WebRequestModuleElementCollection const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11824};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::Configuration::WebRequestModuleElementCollection, 0x10>, "Size mismatch!");
 
-} // namespace System::Net::Configuration
+} // namespace end def System::Net::Configuration
 NEED_NO_BOX(::System::Net::Configuration::WebRequestModuleElementCollection);
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::Configuration::WebRequestModuleElementCollection*, "System.Net.Configuration", "WebRequestModuleElementCollection");

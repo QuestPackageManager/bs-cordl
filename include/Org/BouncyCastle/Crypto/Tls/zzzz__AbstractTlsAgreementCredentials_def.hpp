@@ -27,49 +27,49 @@ namespace Org::BouncyCastle::Crypto::Tls {
 // CS Name: Org.BouncyCastle.Crypto.Tls.AbstractTlsAgreementCredentials
 class CORDL_TYPE AbstractTlsAgreementCredentials : public ::Org::BouncyCastle::Crypto::Tls::AbstractTlsCredentials {
 public:
-  // Declarations
-  /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::TlsAgreementCredentials"
-  constexpr operator ::Org::BouncyCastle::Crypto::Tls::TlsAgreementCredentials*() noexcept;
+// Declarations
+/// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::TlsAgreementCredentials"
+constexpr operator  ::Org::BouncyCastle::Crypto::Tls::TlsAgreementCredentials*() noexcept;
 
-  /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::TlsCredentials"
-  constexpr operator ::Org::BouncyCastle::Crypto::Tls::TlsCredentials*() noexcept;
+/// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::TlsCredentials"
+constexpr operator  ::Org::BouncyCastle::Crypto::Tls::TlsCredentials*() noexcept;
 
-  /// @brief Method GenerateAgreement, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateAgreement(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* peerPublicKey);
+/// @brief Method GenerateAgreement, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline ::ArrayW<uint8_t,::Array<uint8_t>*> GenerateAgreement(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*  peerPublicKey) ;
 
-  static inline ::Org::BouncyCastle::Crypto::Tls::AbstractTlsAgreementCredentials* New_ctor();
+static inline ::Org::BouncyCastle::Crypto::Tls::AbstractTlsAgreementCredentials* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x3375c24, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x33769c0, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsAgreementCredentials"
-  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsAgreementCredentials* i___Org__BouncyCastle__Crypto__Tls__TlsAgreementCredentials() noexcept;
+/// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsAgreementCredentials"
+constexpr ::Org::BouncyCastle::Crypto::Tls::TlsAgreementCredentials* i___Org__BouncyCastle__Crypto__Tls__TlsAgreementCredentials() noexcept;
 
-  /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsCredentials"
-  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsCredentials* i___Org__BouncyCastle__Crypto__Tls__TlsCredentials() noexcept;
+/// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsCredentials"
+constexpr ::Org::BouncyCastle::Crypto::Tls::TlsCredentials* i___Org__BouncyCastle__Crypto__Tls__TlsCredentials() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AbstractTlsAgreementCredentials();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr AbstractTlsAgreementCredentials() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AbstractTlsAgreementCredentials", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  AbstractTlsAgreementCredentials(AbstractTlsAgreementCredentials&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AbstractTlsAgreementCredentials", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  AbstractTlsAgreementCredentials(AbstractTlsAgreementCredentials const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "AbstractTlsAgreementCredentials", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+AbstractTlsAgreementCredentials(AbstractTlsAgreementCredentials && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1159 };
+// Ctor Parameters [CppParam { name: "", ty: "AbstractTlsAgreementCredentials", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+AbstractTlsAgreementCredentials(AbstractTlsAgreementCredentials const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{1159};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Tls::AbstractTlsAgreementCredentials, 0x10>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Crypto::Tls
+} // namespace end def Org::BouncyCastle::Crypto::Tls
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Tls::AbstractTlsAgreementCredentials);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Tls::AbstractTlsAgreementCredentials*, "Org.BouncyCastle.Crypto.Tls", "AbstractTlsAgreementCredentials");

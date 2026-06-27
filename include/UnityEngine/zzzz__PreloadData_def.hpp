@@ -17,32 +17,32 @@ namespace UnityEngine {
 // CS Name: UnityEngine.PreloadData
 class CORDL_TYPE PreloadData : public ::UnityEngine::Object {
 public:
-  // Declarations
-  /// @brief Method PreloadDataDontStripMe, addr 0x6997edc, size 0x4, virtual false, abstract: false, final false
-  inline void PreloadDataDontStripMe();
+// Declarations
+/// @brief Method PreloadDataDontStripMe, addr 0x6999a54, size 0x4, virtual false, abstract: false, final false
+inline void PreloadDataDontStripMe() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PreloadData();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr PreloadData() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PreloadData", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  PreloadData(PreloadData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PreloadData", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  PreloadData(PreloadData const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "PreloadData", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+PreloadData(PreloadData && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10390 };
+// Ctor Parameters [CppParam { name: "", ty: "PreloadData", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+PreloadData(PreloadData const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10391};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::PreloadData, 0x18>, "Size mismatch!");
 
-} // namespace UnityEngine
+} // namespace end def UnityEngine
 NEED_NO_BOX(::UnityEngine::PreloadData);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PreloadData*, "UnityEngine", "PreloadData");

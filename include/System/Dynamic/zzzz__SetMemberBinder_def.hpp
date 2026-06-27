@@ -24,85 +24,83 @@ namespace System::Dynamic {
 // CS Name: System.Dynamic.SetMemberBinder
 class CORDL_TYPE SetMemberBinder : public ::System::Dynamic::DynamicMetaObjectBinder {
 public:
-  // Declarations
-  __declspec(property(get = get_IgnoreCase)) bool IgnoreCase;
+// Declarations
+ __declspec(property(get=get_IgnoreCase)) bool  IgnoreCase;
 
-  __declspec(property(get = get_IsStandardBinder)) bool IsStandardBinder;
+ __declspec(property(get=get_IsStandardBinder)) bool  IsStandardBinder;
 
-  __declspec(property(get = get_Name)) ::StringW Name;
+ __declspec(property(get=get_Name)) ::StringW  Name;
 
-  __declspec(property(get = get_ReturnType)) ::System::Type* ReturnType;
+ __declspec(property(get=get_ReturnType)) ::System::Type*  ReturnType;
 
-  /// @brief Field <IgnoreCase>k__BackingField, offset 0x20, size 0x1
-  __declspec(property(get = __cordl_internal_get__IgnoreCase_k__BackingField, put = __cordl_internal_set__IgnoreCase_k__BackingField)) bool _IgnoreCase_k__BackingField;
+/// @brief Field <IgnoreCase>k__BackingField, offset 0x20, size 0x1 
+ __declspec(property(get=__cordl_internal_get__IgnoreCase_k__BackingField, put=__cordl_internal_set__IgnoreCase_k__BackingField)) bool  _IgnoreCase_k__BackingField;
 
-  /// @brief Field <Name>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__Name_k__BackingField, put = __cordl_internal_set__Name_k__BackingField)) ::StringW _Name_k__BackingField;
+/// @brief Field <Name>k__BackingField, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get__Name_k__BackingField, put=__cordl_internal_set__Name_k__BackingField)) ::StringW  _Name_k__BackingField;
 
-  /// @brief Method Bind, addr 0x5e868d0, size 0xd4, virtual true, abstract: false, final true
-  inline ::System::Dynamic::DynamicMetaObject* Bind(::System::Dynamic::DynamicMetaObject* target,
-                                                    ::ArrayW<::System::Dynamic::DynamicMetaObject*, ::Array<::System::Dynamic::DynamicMetaObject*>*> args);
+/// @brief Method Bind, addr 0x5e88448, size 0xd4, virtual true, abstract: false, final true
+inline ::System::Dynamic::DynamicMetaObject* Bind(::System::Dynamic::DynamicMetaObject*  target, ::ArrayW<::System::Dynamic::DynamicMetaObject*,::Array<::System::Dynamic::DynamicMetaObject*>*>  args) ;
 
-  /// @brief Method FallbackSetMember, addr 0x5e869ac, size 0x10, virtual false, abstract: false, final false
-  inline ::System::Dynamic::DynamicMetaObject* FallbackSetMember(::System::Dynamic::DynamicMetaObject* target, ::System::Dynamic::DynamicMetaObject* value);
+/// @brief Method FallbackSetMember, addr 0x5e88524, size 0x10, virtual false, abstract: false, final false
+inline ::System::Dynamic::DynamicMetaObject* FallbackSetMember(::System::Dynamic::DynamicMetaObject*  target, ::System::Dynamic::DynamicMetaObject*  value) ;
 
-  /// @brief Method FallbackSetMember, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline ::System::Dynamic::DynamicMetaObject* FallbackSetMember(::System::Dynamic::DynamicMetaObject* target, ::System::Dynamic::DynamicMetaObject* value,
-                                                                 ::System::Dynamic::DynamicMetaObject* errorSuggestion);
+/// @brief Method FallbackSetMember, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline ::System::Dynamic::DynamicMetaObject* FallbackSetMember(::System::Dynamic::DynamicMetaObject*  target, ::System::Dynamic::DynamicMetaObject*  value, ::System::Dynamic::DynamicMetaObject*  errorSuggestion) ;
 
-  static inline ::System::Dynamic::SetMemberBinder* New_ctor(::StringW name, bool ignoreCase);
+static inline ::System::Dynamic::SetMemberBinder* New_ctor(::StringW  name, bool  ignoreCase) ;
 
-  constexpr bool const& __cordl_internal_get__IgnoreCase_k__BackingField() const;
+constexpr bool const& __cordl_internal_get__IgnoreCase_k__BackingField() const;
 
-  constexpr bool& __cordl_internal_get__IgnoreCase_k__BackingField();
+constexpr bool& __cordl_internal_get__IgnoreCase_k__BackingField() ;
 
-  constexpr ::StringW const& __cordl_internal_get__Name_k__BackingField() const;
+constexpr ::StringW const& __cordl_internal_get__Name_k__BackingField() const;
 
-  constexpr ::StringW& __cordl_internal_get__Name_k__BackingField();
+constexpr ::StringW& __cordl_internal_get__Name_k__BackingField() ;
 
-  constexpr void __cordl_internal_set__IgnoreCase_k__BackingField(bool value);
+constexpr void __cordl_internal_set__IgnoreCase_k__BackingField(bool  value) ;
 
-  constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
+constexpr void __cordl_internal_set__Name_k__BackingField(::StringW  value) ;
 
-  /// @brief Method .ctor, addr 0x5e86818, size 0x78, virtual false, abstract: false, final false
-  inline void _ctor(::StringW name, bool ignoreCase);
+/// @brief Method .ctor, addr 0x5e88390, size 0x78, virtual false, abstract: false, final false
+inline void _ctor(::StringW  name, bool  ignoreCase) ;
 
-  /// @brief Method get_IgnoreCase, addr 0x5e868c8, size 0x8, virtual false, abstract: false, final false
-  inline bool get_IgnoreCase();
+/// @brief Method get_IgnoreCase, addr 0x5e88440, size 0x8, virtual false, abstract: false, final false
+inline bool get_IgnoreCase() ;
 
-  /// @brief Method get_IsStandardBinder, addr 0x5e869a4, size 0x8, virtual true, abstract: false, final true
-  inline bool get_IsStandardBinder();
+/// @brief Method get_IsStandardBinder, addr 0x5e8851c, size 0x8, virtual true, abstract: false, final true
+inline bool get_IsStandardBinder() ;
 
-  /// @brief Method get_Name, addr 0x5e868c0, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_Name();
+/// @brief Method get_Name, addr 0x5e88438, size 0x8, virtual false, abstract: false, final false
+inline ::StringW get_Name() ;
 
-  /// @brief Method get_ReturnType, addr 0x5e86890, size 0x30, virtual true, abstract: false, final true
-  inline ::System::Type* get_ReturnType();
+/// @brief Method get_ReturnType, addr 0x5e88408, size 0x30, virtual true, abstract: false, final true
+inline ::System::Type* get_ReturnType() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SetMemberBinder();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr SetMemberBinder() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SetMemberBinder", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  SetMemberBinder(SetMemberBinder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SetMemberBinder", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  SetMemberBinder(SetMemberBinder const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "SetMemberBinder", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+SetMemberBinder(SetMemberBinder && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16652 };
+// Ctor Parameters [CppParam { name: "", ty: "SetMemberBinder", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+SetMemberBinder(SetMemberBinder const& ) = delete;
 
-  /// @brief Field <Name>k__BackingField, offset: 0x18, size: 0x8, def value: None
-  ::StringW ____Name_k__BackingField;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{16654};
 
-  /// @brief Field <IgnoreCase>k__BackingField, offset: 0x20, size: 0x1, def value: None
-  bool ____IgnoreCase_k__BackingField;
+/// @brief Field <Name>k__BackingField, offset: 0x18, size: 0x8, def value: None
+ ::StringW  ____Name_k__BackingField;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field <IgnoreCase>k__BackingField, offset: 0x20, size: 0x1, def value: None
+ bool  ____IgnoreCase_k__BackingField;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Dynamic::SetMemberBinder, ____Name_k__BackingField) == 0x18, "Offset mismatch!");
@@ -111,6 +109,6 @@ static_assert(offsetof(::System::Dynamic::SetMemberBinder, ____IgnoreCase_k__Bac
 
 static_assert(::cordl_internals::size_check_v<::System::Dynamic::SetMemberBinder, 0x28>, "Size mismatch!");
 
-} // namespace System::Dynamic
+} // namespace end def System::Dynamic
 NEED_NO_BOX(::System::Dynamic::SetMemberBinder);
 DEFINE_IL2CPP_ARG_TYPE(::System::Dynamic::SetMemberBinder*, "System.Dynamic", "SetMemberBinder");

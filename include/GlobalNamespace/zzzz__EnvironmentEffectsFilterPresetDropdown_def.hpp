@@ -11,10 +11,12 @@ namespace GlobalNamespace {
 struct EnvironmentEffectsFilterPreset;
 }
 namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
+template<typename T>
+class IReadOnlyList_1;
 }
 namespace System {
-template <typename T1, typename T2> class Tuple_2;
+template<typename T1,typename T2>
+class Tuple_2;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -28,37 +30,37 @@ namespace GlobalNamespace {
 // CS Name: EnvironmentEffectsFilterPresetDropdown
 class CORDL_TYPE EnvironmentEffectsFilterPresetDropdown : public ::GlobalNamespace::ValueDropdownController_1<::GlobalNamespace::EnvironmentEffectsFilterPreset> {
 public:
-  // Declarations
-  /// @brief Method GetNamedValues, addr 0x58e367c, size 0x130, virtual true, abstract: false, final false
-  inline ::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<::GlobalNamespace::EnvironmentEffectsFilterPreset, ::StringW>*>* GetNamedValues();
+// Declarations
+/// @brief Method GetNamedValues, addr 0x58e504c, size 0x130, virtual true, abstract: false, final false
+inline ::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<::GlobalNamespace::EnvironmentEffectsFilterPreset,::StringW>*>* GetNamedValues() ;
 
-  static inline ::GlobalNamespace::EnvironmentEffectsFilterPresetDropdown* New_ctor();
+static inline ::GlobalNamespace::EnvironmentEffectsFilterPresetDropdown* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x58e37ac, size 0x44, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x58e517c, size 0x44, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr EnvironmentEffectsFilterPresetDropdown();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr EnvironmentEffectsFilterPresetDropdown() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentEffectsFilterPresetDropdown", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  EnvironmentEffectsFilterPresetDropdown(EnvironmentEffectsFilterPresetDropdown&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentEffectsFilterPresetDropdown", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  EnvironmentEffectsFilterPresetDropdown(EnvironmentEffectsFilterPresetDropdown const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "EnvironmentEffectsFilterPresetDropdown", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+EnvironmentEffectsFilterPresetDropdown(EnvironmentEffectsFilterPresetDropdown && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6452 };
+// Ctor Parameters [CppParam { name: "", ty: "EnvironmentEffectsFilterPresetDropdown", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+EnvironmentEffectsFilterPresetDropdown(EnvironmentEffectsFilterPresetDropdown const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6452};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::EnvironmentEffectsFilterPresetDropdown, 0x38>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::EnvironmentEffectsFilterPresetDropdown);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::EnvironmentEffectsFilterPresetDropdown*, "", "EnvironmentEffectsFilterPresetDropdown");

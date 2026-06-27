@@ -21,61 +21,61 @@ namespace System::Runtime::Serialization {
 // CS Name: System.Runtime.Serialization.TypeHandleRef
 class CORDL_TYPE TypeHandleRef : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = get_Value, put = set_Value)) ::System::RuntimeTypeHandle Value;
+// Declarations
+ __declspec(property(get=get_Value, put=set_Value)) ::System::RuntimeTypeHandle  Value;
 
-  /// @brief Field value, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_value, put = __cordl_internal_set_value)) ::System::RuntimeTypeHandle value;
+/// @brief Field value, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_value, put=__cordl_internal_set_value)) ::System::RuntimeTypeHandle  value;
 
-  static inline ::System::Runtime::Serialization::TypeHandleRef* New_ctor();
+static inline ::System::Runtime::Serialization::TypeHandleRef* New_ctor() ;
 
-  static inline ::System::Runtime::Serialization::TypeHandleRef* New_ctor(::System::RuntimeTypeHandle value);
+static inline ::System::Runtime::Serialization::TypeHandleRef* New_ctor(::System::RuntimeTypeHandle  value) ;
 
-  constexpr ::System::RuntimeTypeHandle const& __cordl_internal_get_value() const;
+constexpr ::System::RuntimeTypeHandle const& __cordl_internal_get_value() const;
 
-  constexpr ::System::RuntimeTypeHandle& __cordl_internal_get_value();
+constexpr ::System::RuntimeTypeHandle& __cordl_internal_get_value() ;
 
-  constexpr void __cordl_internal_set_value(::System::RuntimeTypeHandle value);
+constexpr void __cordl_internal_set_value(::System::RuntimeTypeHandle  value) ;
 
-  /// @brief Method .ctor, addr 0x60058d4, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x600744c, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method .ctor, addr 0x60064fc, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::System::RuntimeTypeHandle value);
+/// @brief Method .ctor, addr 0x6008074, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(::System::RuntimeTypeHandle  value) ;
 
-  /// @brief Method get_Value, addr 0x6009084, size 0x8, virtual false, abstract: false, final false
-  inline ::System::RuntimeTypeHandle get_Value();
+/// @brief Method get_Value, addr 0x600abfc, size 0x8, virtual false, abstract: false, final false
+inline ::System::RuntimeTypeHandle get_Value() ;
 
-  /// @brief Method set_Value, addr 0x600908c, size 0x8, virtual false, abstract: false, final false
-  inline void set_Value(::System::RuntimeTypeHandle value);
+/// @brief Method set_Value, addr 0x600ac04, size 0x8, virtual false, abstract: false, final false
+inline void set_Value(::System::RuntimeTypeHandle  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TypeHandleRef();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr TypeHandleRef() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TypeHandleRef", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  TypeHandleRef(TypeHandleRef&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TypeHandleRef", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  TypeHandleRef(TypeHandleRef const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "TypeHandleRef", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+TypeHandleRef(TypeHandleRef && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17000 };
+// Ctor Parameters [CppParam { name: "", ty: "TypeHandleRef", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+TypeHandleRef(TypeHandleRef const& ) = delete;
 
-  /// @brief Field value, offset: 0x10, size: 0x8, def value: None
-  ::System::RuntimeTypeHandle ___value;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{17002};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field value, offset: 0x10, size: 0x8, def value: None
+ ::System::RuntimeTypeHandle  ___value;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Runtime::Serialization::TypeHandleRef, ___value) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::TypeHandleRef, 0x18>, "Size mismatch!");
 
-} // namespace System::Runtime::Serialization
+} // namespace end def System::Runtime::Serialization
 NEED_NO_BOX(::System::Runtime::Serialization::TypeHandleRef);
 DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::TypeHandleRef*, "System.Runtime.Serialization", "TypeHandleRef");

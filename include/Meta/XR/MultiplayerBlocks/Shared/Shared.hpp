@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "Meta/XR/MultiplayerBlocks/Shared/AvatarStreamLOD.hpp"
 #include "Meta/XR/MultiplayerBlocks/Shared/BBPlatformInitStatus.hpp"
@@ -26,5 +26,6 @@ module;
 #include "Meta/XR/MultiplayerBlocks/Shared/SerializationUtils.hpp"
 #include "Meta/XR/MultiplayerBlocks/Shared/TransferOwnershipOnSelect.hpp"
 #ifdef __cpp_modules
-export module Shared;
-#endif
+                    export module Shared;
+                    #endif
+                

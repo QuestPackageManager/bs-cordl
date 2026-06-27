@@ -44,250 +44,250 @@ namespace UnityEngine {
 // CS Name: UnityEngine.Light
 class CORDL_TYPE Light : public ::UnityEngine::Behaviour {
 public:
-  // Declarations
-  /// @brief Field <shape>k__BackingField, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get__shape_k__BackingField, put = __cordl_internal_set__shape_k__BackingField)) ::UnityEngine::LightShape _shape_k__BackingField;
+// Declarations
+/// @brief Field <shape>k__BackingField, offset 0x18, size 0x4 
+ __declspec(property(get=__cordl_internal_get__shape_k__BackingField, put=__cordl_internal_set__shape_k__BackingField)) ::UnityEngine::LightShape  _shape_k__BackingField;
 
-  __declspec(property(get = get_areaSize)) ::UnityEngine::Vector2 areaSize;
+ __declspec(property(get=get_areaSize)) ::UnityEngine::Vector2  areaSize;
 
-  __declspec(property(get = get_bakingOutput)) ::UnityEngine::LightBakingOutput bakingOutput;
+ __declspec(property(get=get_bakingOutput)) ::UnityEngine::LightBakingOutput  bakingOutput;
 
-  __declspec(property(get = get_bounceIntensity)) float_t bounceIntensity;
+ __declspec(property(get=get_bounceIntensity)) float_t  bounceIntensity;
 
-  __declspec(property(get = get_color, put = set_color)) ::UnityEngine::Color color;
+ __declspec(property(get=get_color, put=set_color)) ::UnityEngine::Color  color;
 
-  __declspec(property(get = get_colorTemperature)) float_t colorTemperature;
+ __declspec(property(get=get_colorTemperature)) float_t  colorTemperature;
 
-  __declspec(property(get = get_cookie)) ::UnityW<::UnityEngine::Texture> cookie;
+ __declspec(property(get=get_cookie)) ::UnityW<::UnityEngine::Texture>  cookie;
 
-  __declspec(property(get = get_cookieSize)) float_t cookieSize;
+ __declspec(property(get=get_cookieSize)) float_t  cookieSize;
 
-  __declspec(property(get = get_dilatedRange)) float_t dilatedRange;
+ __declspec(property(get=get_dilatedRange)) float_t  dilatedRange;
 
-  __declspec(property(get = get_enableSpotReflector)) bool enableSpotReflector;
+ __declspec(property(get=get_enableSpotReflector)) bool  enableSpotReflector;
 
-  __declspec(property(get = get_innerSpotAngle)) float_t innerSpotAngle;
+ __declspec(property(get=get_innerSpotAngle)) float_t  innerSpotAngle;
 
-  __declspec(property(get = get_intensity, put = set_intensity)) float_t intensity;
+ __declspec(property(get=get_intensity, put=set_intensity)) float_t  intensity;
 
-  __declspec(property(get = get_luxAtDistance)) float_t luxAtDistance;
+ __declspec(property(get=get_luxAtDistance)) float_t  luxAtDistance;
 
-  /// @brief Field m_BakedIndex, offset 0x1c, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_BakedIndex, put = __cordl_internal_set_m_BakedIndex)) int32_t m_BakedIndex;
+/// @brief Field m_BakedIndex, offset 0x1c, size 0x4 
+ __declspec(property(get=__cordl_internal_get_m_BakedIndex, put=__cordl_internal_set_m_BakedIndex)) int32_t  m_BakedIndex;
 
-  __declspec(property(get = get_range)) float_t range;
+ __declspec(property(get=get_range)) float_t  range;
 
-  __declspec(property(put = set_renderingLayerMask)) int32_t renderingLayerMask;
+ __declspec(property(put=set_renderingLayerMask)) int32_t  renderingLayerMask;
 
-  __declspec(property(get = get_shadowBias)) float_t shadowBias;
+ __declspec(property(get=get_shadowBias)) float_t  shadowBias;
 
-  __declspec(property(get = get_shadowNearPlane)) float_t shadowNearPlane;
+ __declspec(property(get=get_shadowNearPlane)) float_t  shadowNearPlane;
 
-  __declspec(property(get = get_shadowNormalBias)) float_t shadowNormalBias;
+ __declspec(property(get=get_shadowNormalBias)) float_t  shadowNormalBias;
 
-  __declspec(property(get = get_shadowResolution)) ::UnityEngine::Rendering::LightShadowResolution shadowResolution;
+ __declspec(property(get=get_shadowResolution)) ::UnityEngine::Rendering::LightShadowResolution  shadowResolution;
 
-  __declspec(property(get = get_shadowStrength)) float_t shadowStrength;
+ __declspec(property(get=get_shadowStrength)) float_t  shadowStrength;
 
-  __declspec(property(get = get_shadows)) ::UnityEngine::LightShadows shadows;
+ __declspec(property(get=get_shadows)) ::UnityEngine::LightShadows  shadows;
 
-  __declspec(property(get = get_spotAngle)) float_t spotAngle;
+ __declspec(property(get=get_spotAngle)) float_t  spotAngle;
 
-  __declspec(property(get = get_type)) ::UnityEngine::LightType type;
+ __declspec(property(get=get_type)) ::UnityEngine::LightType  type;
 
-  __declspec(property(get = get_useColorTemperature)) bool useColorTemperature;
+ __declspec(property(get=get_useColorTemperature)) bool  useColorTemperature;
 
-  static inline ::UnityEngine::Light* New_ctor();
+static inline ::UnityEngine::Light* New_ctor() ;
 
-  constexpr ::UnityEngine::LightShape const& __cordl_internal_get__shape_k__BackingField() const;
+constexpr ::UnityEngine::LightShape const& __cordl_internal_get__shape_k__BackingField() const;
 
-  constexpr ::UnityEngine::LightShape& __cordl_internal_get__shape_k__BackingField();
+constexpr ::UnityEngine::LightShape& __cordl_internal_get__shape_k__BackingField() ;
 
-  constexpr int32_t const& __cordl_internal_get_m_BakedIndex() const;
+constexpr int32_t const& __cordl_internal_get_m_BakedIndex() const;
 
-  constexpr int32_t& __cordl_internal_get_m_BakedIndex();
+constexpr int32_t& __cordl_internal_get_m_BakedIndex() ;
 
-  constexpr void __cordl_internal_set__shape_k__BackingField(::UnityEngine::LightShape value);
+constexpr void __cordl_internal_set__shape_k__BackingField(::UnityEngine::LightShape  value) ;
 
-  constexpr void __cordl_internal_set_m_BakedIndex(int32_t value);
+constexpr void __cordl_internal_set_m_BakedIndex(int32_t  value) ;
 
-  /// @brief Method .ctor, addr 0x694c72c, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x694e2a4, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_areaSize, addr 0x694c650, size 0x98, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector2 get_areaSize();
+/// @brief Method get_areaSize, addr 0x694e1c8, size 0x98, virtual false, abstract: false, final false
+inline ::UnityEngine::Vector2 get_areaSize() ;
 
-  /// @brief Method get_areaSize_Injected, addr 0x694c6e8, size 0x44, virtual false, abstract: false, final false
-  static inline void get_areaSize_Injected(::System::IntPtr _unity_self, ::ByRef<::UnityEngine::Vector2> ret);
+/// @brief Method get_areaSize_Injected, addr 0x694e260, size 0x44, virtual false, abstract: false, final false
+static inline void get_areaSize_Injected(::System::IntPtr  _unity_self, ::ByRef<::UnityEngine::Vector2>  ret) ;
 
-  /// @brief Method get_bakingOutput, addr 0x694c008, size 0xb4, virtual false, abstract: false, final false
-  inline ::UnityEngine::LightBakingOutput get_bakingOutput();
+/// @brief Method get_bakingOutput, addr 0x694db80, size 0xb4, virtual false, abstract: false, final false
+inline ::UnityEngine::LightBakingOutput get_bakingOutput() ;
 
-  /// @brief Method get_bakingOutput_Injected, addr 0x694c0bc, size 0x44, virtual false, abstract: false, final false
-  static inline void get_bakingOutput_Injected(::System::IntPtr _unity_self, ::ByRef<::UnityEngine::LightBakingOutput> ret);
+/// @brief Method get_bakingOutput_Injected, addr 0x694dc34, size 0x44, virtual false, abstract: false, final false
+static inline void get_bakingOutput_Injected(::System::IntPtr  _unity_self, ::ByRef<::UnityEngine::LightBakingOutput>  ret) ;
 
-  /// @brief Method get_bounceIntensity, addr 0x694ba28, size 0x80, virtual false, abstract: false, final false
-  inline float_t get_bounceIntensity();
+/// @brief Method get_bounceIntensity, addr 0x694d5a0, size 0x80, virtual false, abstract: false, final false
+inline float_t get_bounceIntensity() ;
 
-  /// @brief Method get_bounceIntensity_Injected, addr 0x694baa8, size 0x3c, virtual false, abstract: false, final false
-  static inline float_t get_bounceIntensity_Injected(::System::IntPtr _unity_self);
+/// @brief Method get_bounceIntensity_Injected, addr 0x694d620, size 0x3c, virtual false, abstract: false, final false
+static inline float_t get_bounceIntensity_Injected(::System::IntPtr  _unity_self) ;
 
-  /// @brief Method get_color, addr 0x694b55c, size 0x9c, virtual false, abstract: false, final false
-  inline ::UnityEngine::Color get_color();
+/// @brief Method get_color, addr 0x694d0d4, size 0x9c, virtual false, abstract: false, final false
+inline ::UnityEngine::Color get_color() ;
 
-  /// @brief Method get_colorTemperature, addr 0x694b718, size 0x80, virtual false, abstract: false, final false
-  inline float_t get_colorTemperature();
+/// @brief Method get_colorTemperature, addr 0x694d290, size 0x80, virtual false, abstract: false, final false
+inline float_t get_colorTemperature() ;
 
-  /// @brief Method get_colorTemperature_Injected, addr 0x694b798, size 0x3c, virtual false, abstract: false, final false
-  static inline float_t get_colorTemperature_Injected(::System::IntPtr _unity_self);
+/// @brief Method get_colorTemperature_Injected, addr 0x694d310, size 0x3c, virtual false, abstract: false, final false
+static inline float_t get_colorTemperature_Injected(::System::IntPtr  _unity_self) ;
 
-  /// @brief Method get_color_Injected, addr 0x694b5f8, size 0x44, virtual false, abstract: false, final false
-  static inline void get_color_Injected(::System::IntPtr _unity_self, ::ByRef<::UnityEngine::Color> ret);
+/// @brief Method get_color_Injected, addr 0x694d170, size 0x44, virtual false, abstract: false, final false
+static inline void get_color_Injected(::System::IntPtr  _unity_self, ::ByRef<::UnityEngine::Color>  ret) ;
 
-  /// @brief Method get_cookie, addr 0x694c4c4, size 0x150, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::Texture> get_cookie();
+/// @brief Method get_cookie, addr 0x694e03c, size 0x150, virtual false, abstract: false, final false
+inline ::UnityW<::UnityEngine::Texture> get_cookie() ;
 
-  /// @brief Method get_cookieSize, addr 0x694c408, size 0x80, virtual false, abstract: false, final false
-  inline float_t get_cookieSize();
+/// @brief Method get_cookieSize, addr 0x694df80, size 0x80, virtual false, abstract: false, final false
+inline float_t get_cookieSize() ;
 
-  /// @brief Method get_cookieSize_Injected, addr 0x694c488, size 0x3c, virtual false, abstract: false, final false
-  static inline float_t get_cookieSize_Injected(::System::IntPtr _unity_self);
+/// @brief Method get_cookieSize_Injected, addr 0x694e000, size 0x3c, virtual false, abstract: false, final false
+static inline float_t get_cookieSize_Injected(::System::IntPtr  _unity_self) ;
 
-  /// @brief Method get_cookie_Injected, addr 0x694c614, size 0x3c, virtual false, abstract: false, final false
-  static inline ::System::IntPtr get_cookie_Injected(::System::IntPtr _unity_self);
+/// @brief Method get_cookie_Injected, addr 0x694e18c, size 0x3c, virtual false, abstract: false, final false
+static inline ::System::IntPtr get_cookie_Injected(::System::IntPtr  _unity_self) ;
 
-  /// @brief Method get_dilatedRange, addr 0x694bf4c, size 0x80, virtual false, abstract: false, final false
-  inline float_t get_dilatedRange();
+/// @brief Method get_dilatedRange, addr 0x694dac4, size 0x80, virtual false, abstract: false, final false
+inline float_t get_dilatedRange() ;
 
-  /// @brief Method get_dilatedRange_Injected, addr 0x694bfcc, size 0x3c, virtual false, abstract: false, final false
-  static inline float_t get_dilatedRange_Injected(::System::IntPtr _unity_self);
+/// @brief Method get_dilatedRange_Injected, addr 0x694db44, size 0x3c, virtual false, abstract: false, final false
+static inline float_t get_dilatedRange_Injected(::System::IntPtr  _unity_self) ;
 
-  /// @brief Method get_enableSpotReflector, addr 0x694bba0, size 0x80, virtual false, abstract: false, final false
-  inline bool get_enableSpotReflector();
+/// @brief Method get_enableSpotReflector, addr 0x694d718, size 0x80, virtual false, abstract: false, final false
+inline bool get_enableSpotReflector() ;
 
-  /// @brief Method get_enableSpotReflector_Injected, addr 0x694bc20, size 0x3c, virtual false, abstract: false, final false
-  static inline bool get_enableSpotReflector_Injected(::System::IntPtr _unity_self);
+/// @brief Method get_enableSpotReflector_Injected, addr 0x694d798, size 0x3c, virtual false, abstract: false, final false
+static inline bool get_enableSpotReflector_Injected(::System::IntPtr  _unity_self) ;
 
-  /// @brief Method get_innerSpotAngle, addr 0x694b4a0, size 0x80, virtual false, abstract: false, final false
-  inline float_t get_innerSpotAngle();
+/// @brief Method get_innerSpotAngle, addr 0x694d018, size 0x80, virtual false, abstract: false, final false
+inline float_t get_innerSpotAngle() ;
 
-  /// @brief Method get_innerSpotAngle_Injected, addr 0x694b520, size 0x3c, virtual false, abstract: false, final false
-  static inline float_t get_innerSpotAngle_Injected(::System::IntPtr _unity_self);
+/// @brief Method get_innerSpotAngle_Injected, addr 0x694d098, size 0x3c, virtual false, abstract: false, final false
+static inline float_t get_innerSpotAngle_Injected(::System::IntPtr  _unity_self) ;
 
-  /// @brief Method get_intensity, addr 0x694b890, size 0x80, virtual false, abstract: false, final false
-  inline float_t get_intensity();
+/// @brief Method get_intensity, addr 0x694d408, size 0x80, virtual false, abstract: false, final false
+inline float_t get_intensity() ;
 
-  /// @brief Method get_intensity_Injected, addr 0x694b910, size 0x3c, virtual false, abstract: false, final false
-  static inline float_t get_intensity_Injected(::System::IntPtr _unity_self);
+/// @brief Method get_intensity_Injected, addr 0x694d488, size 0x3c, virtual false, abstract: false, final false
+static inline float_t get_intensity_Injected(::System::IntPtr  _unity_self) ;
 
-  /// @brief Method get_luxAtDistance, addr 0x694bae4, size 0x80, virtual false, abstract: false, final false
-  inline float_t get_luxAtDistance();
+/// @brief Method get_luxAtDistance, addr 0x694d65c, size 0x80, virtual false, abstract: false, final false
+inline float_t get_luxAtDistance() ;
 
-  /// @brief Method get_luxAtDistance_Injected, addr 0x694bb64, size 0x3c, virtual false, abstract: false, final false
-  static inline float_t get_luxAtDistance_Injected(::System::IntPtr _unity_self);
+/// @brief Method get_luxAtDistance_Injected, addr 0x694d6dc, size 0x3c, virtual false, abstract: false, final false
+static inline float_t get_luxAtDistance_Injected(::System::IntPtr  _unity_self) ;
 
-  /// @brief Method get_range, addr 0x694be90, size 0x80, virtual false, abstract: false, final false
-  inline float_t get_range();
+/// @brief Method get_range, addr 0x694da08, size 0x80, virtual false, abstract: false, final false
+inline float_t get_range() ;
 
-  /// @brief Method get_range_Injected, addr 0x694bf10, size 0x3c, virtual false, abstract: false, final false
-  static inline float_t get_range_Injected(::System::IntPtr _unity_self);
+/// @brief Method get_range_Injected, addr 0x694da88, size 0x3c, virtual false, abstract: false, final false
+static inline float_t get_range_Injected(::System::IntPtr  _unity_self) ;
 
-  /// @brief Method get_shadowBias, addr 0x694bc5c, size 0x80, virtual false, abstract: false, final false
-  inline float_t get_shadowBias();
+/// @brief Method get_shadowBias, addr 0x694d7d4, size 0x80, virtual false, abstract: false, final false
+inline float_t get_shadowBias() ;
 
-  /// @brief Method get_shadowBias_Injected, addr 0x694bcdc, size 0x3c, virtual false, abstract: false, final false
-  static inline float_t get_shadowBias_Injected(::System::IntPtr _unity_self);
+/// @brief Method get_shadowBias_Injected, addr 0x694d854, size 0x3c, virtual false, abstract: false, final false
+static inline float_t get_shadowBias_Injected(::System::IntPtr  _unity_self) ;
 
-  /// @brief Method get_shadowNearPlane, addr 0x694bdd4, size 0x80, virtual false, abstract: false, final false
-  inline float_t get_shadowNearPlane();
+/// @brief Method get_shadowNearPlane, addr 0x694d94c, size 0x80, virtual false, abstract: false, final false
+inline float_t get_shadowNearPlane() ;
 
-  /// @brief Method get_shadowNearPlane_Injected, addr 0x694be54, size 0x3c, virtual false, abstract: false, final false
-  static inline float_t get_shadowNearPlane_Injected(::System::IntPtr _unity_self);
+/// @brief Method get_shadowNearPlane_Injected, addr 0x694d9cc, size 0x3c, virtual false, abstract: false, final false
+static inline float_t get_shadowNearPlane_Injected(::System::IntPtr  _unity_self) ;
 
-  /// @brief Method get_shadowNormalBias, addr 0x694bd18, size 0x80, virtual false, abstract: false, final false
-  inline float_t get_shadowNormalBias();
+/// @brief Method get_shadowNormalBias, addr 0x694d890, size 0x80, virtual false, abstract: false, final false
+inline float_t get_shadowNormalBias() ;
 
-  /// @brief Method get_shadowNormalBias_Injected, addr 0x694bd98, size 0x3c, virtual false, abstract: false, final false
-  static inline float_t get_shadowNormalBias_Injected(::System::IntPtr _unity_self);
+/// @brief Method get_shadowNormalBias_Injected, addr 0x694d910, size 0x3c, virtual false, abstract: false, final false
+static inline float_t get_shadowNormalBias_Injected(::System::IntPtr  _unity_self) ;
 
-  /// @brief Method get_shadowResolution, addr 0x694c34c, size 0x80, virtual false, abstract: false, final false
-  inline ::UnityEngine::Rendering::LightShadowResolution get_shadowResolution();
+/// @brief Method get_shadowResolution, addr 0x694dec4, size 0x80, virtual false, abstract: false, final false
+inline ::UnityEngine::Rendering::LightShadowResolution get_shadowResolution() ;
 
-  /// @brief Method get_shadowResolution_Injected, addr 0x694c3cc, size 0x3c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Rendering::LightShadowResolution get_shadowResolution_Injected(::System::IntPtr _unity_self);
+/// @brief Method get_shadowResolution_Injected, addr 0x694df44, size 0x3c, virtual false, abstract: false, final false
+static inline ::UnityEngine::Rendering::LightShadowResolution get_shadowResolution_Injected(::System::IntPtr  _unity_self) ;
 
-  /// @brief Method get_shadowStrength, addr 0x694c290, size 0x80, virtual false, abstract: false, final false
-  inline float_t get_shadowStrength();
+/// @brief Method get_shadowStrength, addr 0x694de08, size 0x80, virtual false, abstract: false, final false
+inline float_t get_shadowStrength() ;
 
-  /// @brief Method get_shadowStrength_Injected, addr 0x694c310, size 0x3c, virtual false, abstract: false, final false
-  static inline float_t get_shadowStrength_Injected(::System::IntPtr _unity_self);
+/// @brief Method get_shadowStrength_Injected, addr 0x694de88, size 0x3c, virtual false, abstract: false, final false
+static inline float_t get_shadowStrength_Injected(::System::IntPtr  _unity_self) ;
 
-  /// @brief Method get_shadows, addr 0x694c1d4, size 0x80, virtual false, abstract: false, final false
-  inline ::UnityEngine::LightShadows get_shadows();
+/// @brief Method get_shadows, addr 0x694dd4c, size 0x80, virtual false, abstract: false, final false
+inline ::UnityEngine::LightShadows get_shadows() ;
 
-  /// @brief Method get_shadows_Injected, addr 0x694c254, size 0x3c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::LightShadows get_shadows_Injected(::System::IntPtr _unity_self);
+/// @brief Method get_shadows_Injected, addr 0x694ddcc, size 0x3c, virtual false, abstract: false, final false
+static inline ::UnityEngine::LightShadows get_shadows_Injected(::System::IntPtr  _unity_self) ;
 
-  /// @brief Method get_spotAngle, addr 0x694b3e4, size 0x80, virtual false, abstract: false, final false
-  inline float_t get_spotAngle();
+/// @brief Method get_spotAngle, addr 0x694cf5c, size 0x80, virtual false, abstract: false, final false
+inline float_t get_spotAngle() ;
 
-  /// @brief Method get_spotAngle_Injected, addr 0x694b464, size 0x3c, virtual false, abstract: false, final false
-  static inline float_t get_spotAngle_Injected(::System::IntPtr _unity_self);
+/// @brief Method get_spotAngle_Injected, addr 0x694cfdc, size 0x3c, virtual false, abstract: false, final false
+static inline float_t get_spotAngle_Injected(::System::IntPtr  _unity_self) ;
 
-  /// @brief Method get_type, addr 0x694b328, size 0x80, virtual false, abstract: false, final false
-  inline ::UnityEngine::LightType get_type();
+/// @brief Method get_type, addr 0x694cea0, size 0x80, virtual false, abstract: false, final false
+inline ::UnityEngine::LightType get_type() ;
 
-  /// @brief Method get_type_Injected, addr 0x694b3a8, size 0x3c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::LightType get_type_Injected(::System::IntPtr _unity_self);
+/// @brief Method get_type_Injected, addr 0x694cf20, size 0x3c, virtual false, abstract: false, final false
+static inline ::UnityEngine::LightType get_type_Injected(::System::IntPtr  _unity_self) ;
 
-  /// @brief Method get_useColorTemperature, addr 0x694b7d4, size 0x80, virtual false, abstract: false, final false
-  inline bool get_useColorTemperature();
+/// @brief Method get_useColorTemperature, addr 0x694d34c, size 0x80, virtual false, abstract: false, final false
+inline bool get_useColorTemperature() ;
 
-  /// @brief Method get_useColorTemperature_Injected, addr 0x694b854, size 0x3c, virtual false, abstract: false, final false
-  static inline bool get_useColorTemperature_Injected(::System::IntPtr _unity_self);
+/// @brief Method get_useColorTemperature_Injected, addr 0x694d3cc, size 0x3c, virtual false, abstract: false, final false
+static inline bool get_useColorTemperature_Injected(::System::IntPtr  _unity_self) ;
 
-  /// @brief Method set_color, addr 0x694b63c, size 0x98, virtual false, abstract: false, final false
-  inline void set_color(::UnityEngine::Color value);
+/// @brief Method set_color, addr 0x694d1b4, size 0x98, virtual false, abstract: false, final false
+inline void set_color(::UnityEngine::Color  value) ;
 
-  /// @brief Method set_color_Injected, addr 0x694b6d4, size 0x44, virtual false, abstract: false, final false
-  static inline void set_color_Injected(::System::IntPtr _unity_self, ::ByRef<::UnityEngine::Color> value);
+/// @brief Method set_color_Injected, addr 0x694d24c, size 0x44, virtual false, abstract: false, final false
+static inline void set_color_Injected(::System::IntPtr  _unity_self, ::ByRef<::UnityEngine::Color>  value) ;
 
-  /// @brief Method set_intensity, addr 0x694b94c, size 0x90, virtual false, abstract: false, final false
-  inline void set_intensity(float_t value);
+/// @brief Method set_intensity, addr 0x694d4c4, size 0x90, virtual false, abstract: false, final false
+inline void set_intensity(float_t  value) ;
 
-  /// @brief Method set_intensity_Injected, addr 0x694b9dc, size 0x4c, virtual false, abstract: false, final false
-  static inline void set_intensity_Injected(::System::IntPtr _unity_self, float_t value);
+/// @brief Method set_intensity_Injected, addr 0x694d554, size 0x4c, virtual false, abstract: false, final false
+static inline void set_intensity_Injected(::System::IntPtr  _unity_self, float_t  value) ;
 
-  /// @brief Method set_renderingLayerMask, addr 0x694c100, size 0x90, virtual false, abstract: false, final false
-  inline void set_renderingLayerMask(int32_t value);
+/// @brief Method set_renderingLayerMask, addr 0x694dc78, size 0x90, virtual false, abstract: false, final false
+inline void set_renderingLayerMask(int32_t  value) ;
 
-  /// @brief Method set_renderingLayerMask_Injected, addr 0x694c190, size 0x44, virtual false, abstract: false, final false
-  static inline void set_renderingLayerMask_Injected(::System::IntPtr _unity_self, int32_t value);
+/// @brief Method set_renderingLayerMask_Injected, addr 0x694dd08, size 0x44, virtual false, abstract: false, final false
+static inline void set_renderingLayerMask_Injected(::System::IntPtr  _unity_self, int32_t  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Light();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr Light() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Light", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  Light(Light&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Light", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  Light(Light const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "Light", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Light(Light && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10156 };
+// Ctor Parameters [CppParam { name: "", ty: "Light", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Light(Light const& ) = delete;
 
-  /// @brief Field <shape>k__BackingField, offset: 0x18, size: 0x4, def value: None
-  ::UnityEngine::LightShape ____shape_k__BackingField;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10157};
 
-  /// @brief Field m_BakedIndex, offset: 0x1c, size: 0x4, def value: None
-  int32_t ___m_BakedIndex;
+/// @brief Field <shape>k__BackingField, offset: 0x18, size: 0x4, def value: None
+ ::UnityEngine::LightShape  ____shape_k__BackingField;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field m_BakedIndex, offset: 0x1c, size: 0x4, def value: None
+ int32_t  ___m_BakedIndex;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Light, ____shape_k__BackingField) == 0x18, "Offset mismatch!");
@@ -296,6 +296,6 @@ static_assert(offsetof(::UnityEngine::Light, ___m_BakedIndex) == 0x1c, "Offset m
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Light, 0x20>, "Size mismatch!");
 
-} // namespace UnityEngine
+} // namespace end def UnityEngine
 NEED_NO_BOX(::UnityEngine::Light);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Light*, "UnityEngine", "Light");

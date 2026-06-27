@@ -12,278 +12,432 @@
 #include "System/zzzz__ArraySegment_1_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-template <typename T> inline void System::ArraySegment_1_Enumerator<T>::_ctor(::System::ArraySegment_1<T> arraySegment) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ArraySegment_1_Enumerator<T>>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::ArraySegment_1<T>>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, arraySegment);
+template<typename T>
+inline void System::ArraySegment_1_Enumerator<T>::_ctor(::System::ArraySegment_1<T>  arraySegment)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ArraySegment_1_Enumerator<T>>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::ArraySegment_1<T>>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, arraySegment);
 }
-template <typename T> inline bool System::ArraySegment_1_Enumerator<T>::MoveNext() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ArraySegment_1_Enumerator<T>>::get(), "MoveNext",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+template<typename T>
+inline bool System::ArraySegment_1_Enumerator<T>::MoveNext()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ArraySegment_1_Enumerator<T>>::get(),
+                        "MoveNext",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-template <typename T> inline T System::ArraySegment_1_Enumerator<T>::get_Current() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ArraySegment_1_Enumerator<T>>::get(), "get_Current",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<T, false>(this, ___internal_method);
+template<typename T>
+inline T System::ArraySegment_1_Enumerator<T>::get_Current()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ArraySegment_1_Enumerator<T>>::get(),
+                        "get_Current",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<T, false>(this, ___internal_method);
 }
-template <typename T> inline ::System::Object* System::ArraySegment_1_Enumerator<T>::System_Collections_IEnumerator_get_Current() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ArraySegment_1_Enumerator<T>>::get(), "System.Collections.IEnumerator.get_Current",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
+template<typename T>
+inline ::System::Object* System::ArraySegment_1_Enumerator<T>::System_Collections_IEnumerator_get_Current()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ArraySegment_1_Enumerator<T>>::get(),
+                        "System.Collections.IEnumerator.get_Current",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-template <typename T> inline void System::ArraySegment_1_Enumerator<T>::System_Collections_IEnumerator_Reset() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ArraySegment_1_Enumerator<T>>::get(), "System.Collections.IEnumerator.Reset",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+template<typename T>
+inline void System::ArraySegment_1_Enumerator<T>::System_Collections_IEnumerator_Reset()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ArraySegment_1_Enumerator<T>>::get(),
+                        "System.Collections.IEnumerator.Reset",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-template <typename T> inline void System::ArraySegment_1_Enumerator<T>::Dispose() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ArraySegment_1_Enumerator<T>>::get(), "Dispose",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+template<typename T>
+inline void System::ArraySegment_1_Enumerator<T>::Dispose()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ArraySegment_1_Enumerator<T>>::get(),
+                        "Dispose",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<T>"
-template <typename T> constexpr System::ArraySegment_1_Enumerator<T>::operator ::System::Collections::Generic::IEnumerator_1<T>*() {
-  return static_cast<::System::Collections::Generic::IEnumerator_1<T>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+template<typename T>
+constexpr  System::ArraySegment_1_Enumerator<T>::operator ::System::Collections::Generic::IEnumerator_1<T>*()  {
+return static_cast<::System::Collections::Generic::IEnumerator_1<T>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<T>"
-template <typename T> constexpr ::System::Collections::Generic::IEnumerator_1<T>* System::ArraySegment_1_Enumerator<T>::i___System__Collections__Generic__IEnumerator_1_T_() {
-  return static_cast<::System::Collections::Generic::IEnumerator_1<T>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+template<typename T>
+constexpr ::System::Collections::Generic::IEnumerator_1<T>* System::ArraySegment_1_Enumerator<T>::i___System__Collections__Generic__IEnumerator_1_T_()  {
+return static_cast<::System::Collections::Generic::IEnumerator_1<T>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert operator to "::System::IDisposable"
-template <typename T> constexpr System::ArraySegment_1_Enumerator<T>::operator ::System::IDisposable*() {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+template<typename T>
+constexpr  System::ArraySegment_1_Enumerator<T>::operator ::System::IDisposable*()  {
+return static_cast<::System::IDisposable*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::IDisposable"
-template <typename T> constexpr ::System::IDisposable* System::ArraySegment_1_Enumerator<T>::i___System__IDisposable() {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+template<typename T>
+constexpr ::System::IDisposable* System::ArraySegment_1_Enumerator<T>::i___System__IDisposable()  {
+return static_cast<::System::IDisposable*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerator"
-template <typename T> constexpr System::ArraySegment_1_Enumerator<T>::operator ::System::Collections::IEnumerator*() {
-  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+template<typename T>
+constexpr  System::ArraySegment_1_Enumerator<T>::operator ::System::Collections::IEnumerator*()  {
+return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Collections::IEnumerator"
-template <typename T> constexpr ::System::Collections::IEnumerator* System::ArraySegment_1_Enumerator<T>::i___System__Collections__IEnumerator() {
-  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+template<typename T>
+constexpr ::System::Collections::IEnumerator* System::ArraySegment_1_Enumerator<T>::i___System__Collections__IEnumerator()  {
+return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
-// Ctor Parameters [CppParam { name: "_array", ty: "::ArrayW<T,::Array<T>*>", modifiers: "", def_value: Some("{}") }, CppParam { name: "_start", ty: "int32_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "_end", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_current", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-template <typename T> constexpr ::System::ArraySegment_1_Enumerator<T>::ArraySegment_1_Enumerator(::ArrayW<T, ::Array<T>*> _array, int32_t _start, int32_t _end, int32_t _current) noexcept {
-  this->_array = _array;
-  this->_start = _start;
-  this->_end = _end;
-  this->_current = _current;
+// Ctor Parameters [CppParam { name: "_array", ty: "::ArrayW<T,::Array<T>*>", modifiers: "", def_value: Some("{}") }, CppParam { name: "_start", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_end", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_current", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+template<typename T>
+constexpr ::System::ArraySegment_1_Enumerator<T>::ArraySegment_1_Enumerator(::ArrayW<T,::Array<T>*>  _array, int32_t  _start, int32_t  _end, int32_t  _current) noexcept  {
+this->_array = _array;
+this->_start = _start;
+this->_end = _end;
+this->_current = _current;
 }
 // Ctor Parameters []
-template <typename T> constexpr ::System::ArraySegment_1_Enumerator<T>::ArraySegment_1_Enumerator() {}
-template <typename T> inline void System::ArraySegment_1<T>::setStaticF__Empty_k__BackingField(::System::ArraySegment_1<T> value) {
-  ::cordl_internals::setStaticField<::System::ArraySegment_1<T>, "<Empty>k__BackingField", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ArraySegment_1<T>>::get>(
-      std::forward<::System::ArraySegment_1<T>>(value));
+template<typename T>
+constexpr ::System::ArraySegment_1_Enumerator<T>::ArraySegment_1_Enumerator()   {
 }
-template <typename T> inline ::System::ArraySegment_1<T> System::ArraySegment_1<T>::getStaticF__Empty_k__BackingField() {
-  return ::cordl_internals::getStaticField<::System::ArraySegment_1<T>, "<Empty>k__BackingField", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ArraySegment_1<T>>::get>();
+template<typename T>
+inline void System::ArraySegment_1<T>::setStaticF__Empty_k__BackingField(::System::ArraySegment_1<T>  value)  {
+::cordl_internals::setStaticField<::System::ArraySegment_1<T>, "<Empty>k__BackingField", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ArraySegment_1<T>>::get>(std::forward<::System::ArraySegment_1<T>>(value));
 }
-template <typename T> inline ::System::ArraySegment_1<T> System::ArraySegment_1<T>::get_Empty() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ArraySegment_1<T>>::get(), "get_Empty",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::System::ArraySegment_1<T>, false>(nullptr, ___internal_method);
+template<typename T>
+inline ::System::ArraySegment_1<T> System::ArraySegment_1<T>::getStaticF__Empty_k__BackingField()  {
+return ::cordl_internals::getStaticField<::System::ArraySegment_1<T>, "<Empty>k__BackingField", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ArraySegment_1<T>>::get>();
 }
-template <typename T> inline void System::ArraySegment_1<T>::_ctor(::ArrayW<T, ::Array<T>*> array) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ArraySegment_1<T>>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<T, ::Array<T>*>>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, array);
+template<typename T>
+inline ::System::ArraySegment_1<T> System::ArraySegment_1<T>::get_Empty()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ArraySegment_1<T>>::get(),
+                        "get_Empty",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::ArraySegment_1<T>, false>(nullptr, ___internal_method);
 }
-template <typename T> inline void System::ArraySegment_1<T>::_ctor(::ArrayW<T, ::Array<T>*> array, int32_t offset, int32_t count) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ArraySegment_1<T>>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<T, ::Array<T>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, array, offset, count);
+template<typename T>
+inline void System::ArraySegment_1<T>::_ctor(::ArrayW<T,::Array<T>*>  array)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ArraySegment_1<T>>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<T,::Array<T>*>>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, array);
 }
-template <typename T> inline ::ArrayW<T, ::Array<T>*> System::ArraySegment_1<T>::get_Array() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ArraySegment_1<T>>::get(), "get_Array",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::ArrayW<T, ::Array<T>*>, false>(this, ___internal_method);
+template<typename T>
+inline void System::ArraySegment_1<T>::_ctor(::ArrayW<T,::Array<T>*>  array, int32_t  offset, int32_t  count)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ArraySegment_1<T>>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<T,::Array<T>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, array, offset, count);
 }
-template <typename T> inline int32_t System::ArraySegment_1<T>::get_Offset() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ArraySegment_1<T>>::get(), "get_Offset",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+template<typename T>
+inline ::ArrayW<T,::Array<T>*> System::ArraySegment_1<T>::get_Array()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ArraySegment_1<T>>::get(),
+                        "get_Array",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<::ArrayW<T,::Array<T>*>, false>(this, ___internal_method);
 }
-template <typename T> inline int32_t System::ArraySegment_1<T>::get_Count() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ArraySegment_1<T>>::get(), "get_Count",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+template<typename T>
+inline int32_t System::ArraySegment_1<T>::get_Offset()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ArraySegment_1<T>>::get(),
+                        "get_Offset",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
-template <typename T> inline ::System::ArraySegment_1_Enumerator<T> System::ArraySegment_1<T>::GetEnumerator() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ArraySegment_1<T>>::get(), "GetEnumerator",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::System::ArraySegment_1_Enumerator<T>, false>(this, ___internal_method);
+template<typename T>
+inline int32_t System::ArraySegment_1<T>::get_Count()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ArraySegment_1<T>>::get(),
+                        "get_Count",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
-template <typename T> inline int32_t System::ArraySegment_1<T>::GetHashCode() {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ArraySegment_1<T>>::get(), 2)));
-  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+template<typename T>
+inline ::System::ArraySegment_1_Enumerator<T> System::ArraySegment_1<T>::GetEnumerator()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ArraySegment_1<T>>::get(),
+                        "GetEnumerator",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::ArraySegment_1_Enumerator<T>, false>(this, ___internal_method);
 }
-template <typename T> inline void System::ArraySegment_1<T>::CopyTo(::ArrayW<T, ::Array<T>*> destination, int32_t destinationIndex) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ArraySegment_1<T>>::get(), "CopyTo", std::span<Il2CppClass const* const, 0>(),
-                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<T, ::Array<T>*>>::get(),
-                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, destination, destinationIndex);
+template<typename T>
+inline int32_t System::ArraySegment_1<T>::GetHashCode()  {
+auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ArraySegment_1<T>>::get(),
+                            2
+                        )));
+return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
-template <typename T> inline bool System::ArraySegment_1<T>::Equals(::System::Object* obj) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ArraySegment_1<T>>::get(), 0)));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, obj);
+template<typename T>
+inline void System::ArraySegment_1<T>::CopyTo(::ArrayW<T,::Array<T>*>  destination, int32_t  destinationIndex)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ArraySegment_1<T>>::get(),
+                        "CopyTo",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<T,::Array<T>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, destination, destinationIndex);
 }
-template <typename T> inline bool System::ArraySegment_1<T>::Equals(::System::ArraySegment_1<T> obj) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ArraySegment_1<T>>::get(), "Equals", std::span<Il2CppClass const* const, 0>(),
-                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::ArraySegment_1<T>>::get() })));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, obj);
+template<typename T>
+inline bool System::ArraySegment_1<T>::Equals(::System::Object*  obj)  {
+auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ArraySegment_1<T>>::get(),
+                            0
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, obj);
 }
-template <typename T> inline T System::ArraySegment_1<T>::System_Collections_Generic_IList_T__get_Item(int32_t index) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ArraySegment_1<T>>::get(), "System.Collections.Generic.IList<T>.get_Item",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<T, false>(this, ___internal_method, index);
+template<typename T>
+inline bool System::ArraySegment_1<T>::Equals(::System::ArraySegment_1<T>  obj)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ArraySegment_1<T>>::get(),
+                        "Equals",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::ArraySegment_1<T>>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, obj);
 }
-template <typename T> inline void System::ArraySegment_1<T>::System_Collections_Generic_IList_T__set_Item(int32_t index, T value) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ArraySegment_1<T>>::get(), "System.Collections.Generic.IList<T>.set_Item", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, index, value);
+template<typename T>
+inline T System::ArraySegment_1<T>::System_Collections_Generic_IList_T__get_Item(int32_t  index)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ArraySegment_1<T>>::get(),
+                        "System.Collections.Generic.IList<T>.get_Item",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<T, false>(this, ___internal_method, index);
 }
-template <typename T> inline int32_t System::ArraySegment_1<T>::System_Collections_Generic_IList_T__IndexOf(T item) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ArraySegment_1<T>>::get(), "System.Collections.Generic.IList<T>.IndexOf",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T>::get() })));
-  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, item);
+template<typename T>
+inline void System::ArraySegment_1<T>::System_Collections_Generic_IList_T__set_Item(int32_t  index, T  value)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ArraySegment_1<T>>::get(),
+                        "System.Collections.Generic.IList<T>.set_Item",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, index, value);
 }
-template <typename T> inline void System::ArraySegment_1<T>::System_Collections_Generic_IList_T__Insert(int32_t index, T item) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ArraySegment_1<T>>::get(), "System.Collections.Generic.IList<T>.Insert", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, index, item);
+template<typename T>
+inline int32_t System::ArraySegment_1<T>::System_Collections_Generic_IList_T__IndexOf(T  item)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ArraySegment_1<T>>::get(),
+                        "System.Collections.Generic.IList<T>.IndexOf",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, item);
 }
-template <typename T> inline void System::ArraySegment_1<T>::System_Collections_Generic_IList_T__RemoveAt(int32_t index) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ArraySegment_1<T>>::get(), "System.Collections.Generic.IList<T>.RemoveAt",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, index);
+template<typename T>
+inline void System::ArraySegment_1<T>::System_Collections_Generic_IList_T__Insert(int32_t  index, T  item)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ArraySegment_1<T>>::get(),
+                        "System.Collections.Generic.IList<T>.Insert",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, index, item);
 }
-template <typename T> inline T System::ArraySegment_1<T>::System_Collections_Generic_IReadOnlyList_T__get_Item(int32_t index) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ArraySegment_1<T>>::get(), "System.Collections.Generic.IReadOnlyList<T>.get_Item",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<T, false>(this, ___internal_method, index);
+template<typename T>
+inline void System::ArraySegment_1<T>::System_Collections_Generic_IList_T__RemoveAt(int32_t  index)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ArraySegment_1<T>>::get(),
+                        "System.Collections.Generic.IList<T>.RemoveAt",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, index);
 }
-template <typename T> inline bool System::ArraySegment_1<T>::System_Collections_Generic_ICollection_T__get_IsReadOnly() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ArraySegment_1<T>>::get(), "System.Collections.Generic.ICollection<T>.get_IsReadOnly",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+template<typename T>
+inline T System::ArraySegment_1<T>::System_Collections_Generic_IReadOnlyList_T__get_Item(int32_t  index)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ArraySegment_1<T>>::get(),
+                        "System.Collections.Generic.IReadOnlyList<T>.get_Item",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<T, false>(this, ___internal_method, index);
 }
-template <typename T> inline void System::ArraySegment_1<T>::System_Collections_Generic_ICollection_T__Add(T item) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ArraySegment_1<T>>::get(), "System.Collections.Generic.ICollection<T>.Add",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, item);
+template<typename T>
+inline bool System::ArraySegment_1<T>::System_Collections_Generic_ICollection_T__get_IsReadOnly()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ArraySegment_1<T>>::get(),
+                        "System.Collections.Generic.ICollection<T>.get_IsReadOnly",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-template <typename T> inline void System::ArraySegment_1<T>::System_Collections_Generic_ICollection_T__Clear() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ArraySegment_1<T>>::get(), "System.Collections.Generic.ICollection<T>.Clear",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+template<typename T>
+inline void System::ArraySegment_1<T>::System_Collections_Generic_ICollection_T__Add(T  item)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ArraySegment_1<T>>::get(),
+                        "System.Collections.Generic.ICollection<T>.Add",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, item);
 }
-template <typename T> inline bool System::ArraySegment_1<T>::System_Collections_Generic_ICollection_T__Contains(T item) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ArraySegment_1<T>>::get(), "System.Collections.Generic.ICollection<T>.Contains",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T>::get() })));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, item);
+template<typename T>
+inline void System::ArraySegment_1<T>::System_Collections_Generic_ICollection_T__Clear()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ArraySegment_1<T>>::get(),
+                        "System.Collections.Generic.ICollection<T>.Clear",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-template <typename T> inline bool System::ArraySegment_1<T>::System_Collections_Generic_ICollection_T__Remove(T item) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ArraySegment_1<T>>::get(), "System.Collections.Generic.ICollection<T>.Remove",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T>::get() })));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, item);
+template<typename T>
+inline bool System::ArraySegment_1<T>::System_Collections_Generic_ICollection_T__Contains(T  item)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ArraySegment_1<T>>::get(),
+                        "System.Collections.Generic.ICollection<T>.Contains",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, item);
 }
-template <typename T> inline ::System::Collections::Generic::IEnumerator_1<T>* System::ArraySegment_1<T>::System_Collections_Generic_IEnumerable_T__GetEnumerator() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ArraySegment_1<T>>::get(), "System.Collections.Generic.IEnumerable<T>.GetEnumerator",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerator_1<T>*, false>(this, ___internal_method);
+template<typename T>
+inline bool System::ArraySegment_1<T>::System_Collections_Generic_ICollection_T__Remove(T  item)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ArraySegment_1<T>>::get(),
+                        "System.Collections.Generic.ICollection<T>.Remove",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, item);
 }
-template <typename T> inline ::System::Collections::IEnumerator* System::ArraySegment_1<T>::System_Collections_IEnumerable_GetEnumerator() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ArraySegment_1<T>>::get(), "System.Collections.IEnumerable.GetEnumerator",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*, false>(this, ___internal_method);
+template<typename T>
+inline ::System::Collections::Generic::IEnumerator_1<T>* System::ArraySegment_1<T>::System_Collections_Generic_IEnumerable_T__GetEnumerator()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ArraySegment_1<T>>::get(),
+                        "System.Collections.Generic.IEnumerable<T>.GetEnumerator",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerator_1<T>*, false>(this, ___internal_method);
 }
-template <typename T> inline void System::ArraySegment_1<T>::ThrowInvalidOperationIfDefault() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ArraySegment_1<T>>::get(),
-                                                                             "ThrowInvalidOperationIfDefault", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+template<typename T>
+inline ::System::Collections::IEnumerator* System::ArraySegment_1<T>::System_Collections_IEnumerable_GetEnumerator()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ArraySegment_1<T>>::get(),
+                        "System.Collections.IEnumerable.GetEnumerator",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*, false>(this, ___internal_method);
+}
+template<typename T>
+inline void System::ArraySegment_1<T>::ThrowInvalidOperationIfDefault()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ArraySegment_1<T>>::get(),
+                        "ThrowInvalidOperationIfDefault",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 /// @brief Convert operator to "::System::Collections::Generic::IList_1<T>"
-template <typename T> constexpr System::ArraySegment_1<T>::operator ::System::Collections::Generic::IList_1<T>*() {
-  return static_cast<::System::Collections::Generic::IList_1<T>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+template<typename T>
+constexpr  System::ArraySegment_1<T>::operator ::System::Collections::Generic::IList_1<T>*()  {
+return static_cast<::System::Collections::Generic::IList_1<T>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Collections::Generic::IList_1<T>"
-template <typename T> constexpr ::System::Collections::Generic::IList_1<T>* System::ArraySegment_1<T>::i___System__Collections__Generic__IList_1_T_() {
-  return static_cast<::System::Collections::Generic::IList_1<T>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+template<typename T>
+constexpr ::System::Collections::Generic::IList_1<T>* System::ArraySegment_1<T>::i___System__Collections__Generic__IList_1_T_()  {
+return static_cast<::System::Collections::Generic::IList_1<T>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert operator to "::System::Collections::Generic::ICollection_1<T>"
-template <typename T> constexpr System::ArraySegment_1<T>::operator ::System::Collections::Generic::ICollection_1<T>*() {
-  return static_cast<::System::Collections::Generic::ICollection_1<T>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+template<typename T>
+constexpr  System::ArraySegment_1<T>::operator ::System::Collections::Generic::ICollection_1<T>*()  {
+return static_cast<::System::Collections::Generic::ICollection_1<T>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Collections::Generic::ICollection_1<T>"
-template <typename T> constexpr ::System::Collections::Generic::ICollection_1<T>* System::ArraySegment_1<T>::i___System__Collections__Generic__ICollection_1_T_() {
-  return static_cast<::System::Collections::Generic::ICollection_1<T>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+template<typename T>
+constexpr ::System::Collections::Generic::ICollection_1<T>* System::ArraySegment_1<T>::i___System__Collections__Generic__ICollection_1_T_()  {
+return static_cast<::System::Collections::Generic::ICollection_1<T>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<T>"
-template <typename T> constexpr System::ArraySegment_1<T>::operator ::System::Collections::Generic::IEnumerable_1<T>*() {
-  return static_cast<::System::Collections::Generic::IEnumerable_1<T>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+template<typename T>
+constexpr  System::ArraySegment_1<T>::operator ::System::Collections::Generic::IEnumerable_1<T>*()  {
+return static_cast<::System::Collections::Generic::IEnumerable_1<T>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<T>"
-template <typename T> constexpr ::System::Collections::Generic::IEnumerable_1<T>* System::ArraySegment_1<T>::i___System__Collections__Generic__IEnumerable_1_T_() {
-  return static_cast<::System::Collections::Generic::IEnumerable_1<T>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+template<typename T>
+constexpr ::System::Collections::Generic::IEnumerable_1<T>* System::ArraySegment_1<T>::i___System__Collections__Generic__IEnumerable_1_T_()  {
+return static_cast<::System::Collections::Generic::IEnumerable_1<T>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerable"
-template <typename T> constexpr System::ArraySegment_1<T>::operator ::System::Collections::IEnumerable*() {
-  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+template<typename T>
+constexpr  System::ArraySegment_1<T>::operator ::System::Collections::IEnumerable*()  {
+return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Collections::IEnumerable"
-template <typename T> constexpr ::System::Collections::IEnumerable* System::ArraySegment_1<T>::i___System__Collections__IEnumerable() {
-  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+template<typename T>
+constexpr ::System::Collections::IEnumerable* System::ArraySegment_1<T>::i___System__Collections__IEnumerable()  {
+return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert operator to "::System::Collections::Generic::IReadOnlyList_1<T>"
-template <typename T> constexpr System::ArraySegment_1<T>::operator ::System::Collections::Generic::IReadOnlyList_1<T>*() {
-  return static_cast<::System::Collections::Generic::IReadOnlyList_1<T>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+template<typename T>
+constexpr  System::ArraySegment_1<T>::operator ::System::Collections::Generic::IReadOnlyList_1<T>*()  {
+return static_cast<::System::Collections::Generic::IReadOnlyList_1<T>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Collections::Generic::IReadOnlyList_1<T>"
-template <typename T> constexpr ::System::Collections::Generic::IReadOnlyList_1<T>* System::ArraySegment_1<T>::i___System__Collections__Generic__IReadOnlyList_1_T_() {
-  return static_cast<::System::Collections::Generic::IReadOnlyList_1<T>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+template<typename T>
+constexpr ::System::Collections::Generic::IReadOnlyList_1<T>* System::ArraySegment_1<T>::i___System__Collections__Generic__IReadOnlyList_1_T_()  {
+return static_cast<::System::Collections::Generic::IReadOnlyList_1<T>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert operator to "::System::Collections::Generic::IReadOnlyCollection_1<T>"
-template <typename T> constexpr System::ArraySegment_1<T>::operator ::System::Collections::Generic::IReadOnlyCollection_1<T>*() {
-  return static_cast<::System::Collections::Generic::IReadOnlyCollection_1<T>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+template<typename T>
+constexpr  System::ArraySegment_1<T>::operator ::System::Collections::Generic::IReadOnlyCollection_1<T>*()  {
+return static_cast<::System::Collections::Generic::IReadOnlyCollection_1<T>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Collections::Generic::IReadOnlyCollection_1<T>"
-template <typename T> constexpr ::System::Collections::Generic::IReadOnlyCollection_1<T>* System::ArraySegment_1<T>::i___System__Collections__Generic__IReadOnlyCollection_1_T_() {
-  return static_cast<::System::Collections::Generic::IReadOnlyCollection_1<T>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+template<typename T>
+constexpr ::System::Collections::Generic::IReadOnlyCollection_1<T>* System::ArraySegment_1<T>::i___System__Collections__Generic__IReadOnlyCollection_1_T_()  {
+return static_cast<::System::Collections::Generic::IReadOnlyCollection_1<T>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
-// Ctor Parameters [CppParam { name: "_array", ty: "::ArrayW<T,::Array<T>*>", modifiers: "", def_value: Some("{}") }, CppParam { name: "_offset", ty: "int32_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "_count", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-template <typename T> constexpr ::System::ArraySegment_1<T>::ArraySegment_1(::ArrayW<T, ::Array<T>*> _array, int32_t _offset, int32_t _count) noexcept {
-  this->_array = _array;
-  this->_offset = _offset;
-  this->_count = _count;
+// Ctor Parameters [CppParam { name: "_array", ty: "::ArrayW<T,::Array<T>*>", modifiers: "", def_value: Some("{}") }, CppParam { name: "_offset", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_count", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+template<typename T>
+constexpr ::System::ArraySegment_1<T>::ArraySegment_1(::ArrayW<T,::Array<T>*>  _array, int32_t  _offset, int32_t  _count) noexcept  {
+this->_array = _array;
+this->_offset = _offset;
+this->_count = _count;
 }
 // Ctor Parameters []
-template <typename T> constexpr ::System::ArraySegment_1<T>::ArraySegment_1() {}
+template<typename T>
+constexpr ::System::ArraySegment_1<T>::ArraySegment_1()   {
+}

@@ -7,245 +7,304 @@
 #include "Oculus/Platform/zzzz__Message_def.hpp"
 #include "System/zzzz__Action_def.hpp"
 //  Writing Method size for method: ::Oculus::Platform::BuildingBlocks::EntitlementCheck.add_UserFailedEntitlementCheck
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::BuildingBlocks::EntitlementCheck::*)(::System::Action*)>(
-    &::Oculus::Platform::BuildingBlocks::EntitlementCheck::add_UserFailedEntitlementCheck)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::BuildingBlocks::EntitlementCheck::*)(::System::Action*)>(&::Oculus::Platform::BuildingBlocks::EntitlementCheck::add_UserFailedEntitlementCheck)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5cb6d8c;
+  constexpr static std::size_t addrs = 0x5cb8904;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::BuildingBlocks::EntitlementCheck*>::get(), "add_UserFailedEntitlementCheck",
-                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::BuildingBlocks::EntitlementCheck*>::get(),
+                        "add_UserFailedEntitlementCheck",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Oculus::Platform::BuildingBlocks::EntitlementCheck.remove_UserFailedEntitlementCheck
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::BuildingBlocks::EntitlementCheck::*)(::System::Action*)>(
-    &::Oculus::Platform::BuildingBlocks::EntitlementCheck::remove_UserFailedEntitlementCheck)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::BuildingBlocks::EntitlementCheck::*)(::System::Action*)>(&::Oculus::Platform::BuildingBlocks::EntitlementCheck::remove_UserFailedEntitlementCheck)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5cb6e38;
+  constexpr static std::size_t addrs = 0x5cb89b0;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::BuildingBlocks::EntitlementCheck*>::get(), "remove_UserFailedEntitlementCheck",
-                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::BuildingBlocks::EntitlementCheck*>::get(),
+                        "remove_UserFailedEntitlementCheck",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Oculus::Platform::BuildingBlocks::EntitlementCheck.add_UserPassedEntitlementCheck
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::BuildingBlocks::EntitlementCheck::*)(::System::Action*)>(
-    &::Oculus::Platform::BuildingBlocks::EntitlementCheck::add_UserPassedEntitlementCheck)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::BuildingBlocks::EntitlementCheck::*)(::System::Action*)>(&::Oculus::Platform::BuildingBlocks::EntitlementCheck::add_UserPassedEntitlementCheck)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5cb6ee4;
+  constexpr static std::size_t addrs = 0x5cb8a5c;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::BuildingBlocks::EntitlementCheck*>::get(), "add_UserPassedEntitlementCheck",
-                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::BuildingBlocks::EntitlementCheck*>::get(),
+                        "add_UserPassedEntitlementCheck",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Oculus::Platform::BuildingBlocks::EntitlementCheck.remove_UserPassedEntitlementCheck
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::BuildingBlocks::EntitlementCheck::*)(::System::Action*)>(
-    &::Oculus::Platform::BuildingBlocks::EntitlementCheck::remove_UserPassedEntitlementCheck)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::BuildingBlocks::EntitlementCheck::*)(::System::Action*)>(&::Oculus::Platform::BuildingBlocks::EntitlementCheck::remove_UserPassedEntitlementCheck)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5cb6f90;
+  constexpr static std::size_t addrs = 0x5cb8b08;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::BuildingBlocks::EntitlementCheck*>::get(), "remove_UserPassedEntitlementCheck",
-                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::BuildingBlocks::EntitlementCheck*>::get(),
+                        "remove_UserPassedEntitlementCheck",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Oculus::Platform::BuildingBlocks::EntitlementCheck.Start
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::BuildingBlocks::EntitlementCheck::*)()>(
-    &::Oculus::Platform::BuildingBlocks::EntitlementCheck::Start)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::BuildingBlocks::EntitlementCheck::*)()>(&::Oculus::Platform::BuildingBlocks::EntitlementCheck::Start)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x5cb703c;
+  constexpr static std::size_t addrs = 0x5cb8bb4;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::BuildingBlocks::EntitlementCheck*>::get(),
-                                                                               "Start", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::BuildingBlocks::EntitlementCheck*>::get(),
+                        "Start",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Oculus::Platform::BuildingBlocks::EntitlementCheck.PerformUserEntitlementCheck
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::BuildingBlocks::EntitlementCheck::*)()>(
-    &::Oculus::Platform::BuildingBlocks::EntitlementCheck::PerformUserEntitlementCheck)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::BuildingBlocks::EntitlementCheck::*)()>(&::Oculus::Platform::BuildingBlocks::EntitlementCheck::PerformUserEntitlementCheck)> {
   constexpr static std::size_t size = 0x22c;
-  constexpr static std::size_t addrs = 0x5cb7100;
+  constexpr static std::size_t addrs = 0x5cb8c78;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::BuildingBlocks::EntitlementCheck*>::get(),
-                                                                               "PerformUserEntitlementCheck", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::BuildingBlocks::EntitlementCheck*>::get(),
+                        "PerformUserEntitlementCheck",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Oculus::Platform::BuildingBlocks::EntitlementCheck.PlatformInitializeCallback
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::BuildingBlocks::EntitlementCheck::*)(
-    ::Oculus::Platform::Message_1<::Oculus::Platform::Models::PlatformInitialize*>*)>(&::Oculus::Platform::BuildingBlocks::EntitlementCheck::PlatformInitializeCallback)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::BuildingBlocks::EntitlementCheck::*)(::Oculus::Platform::Message_1<::Oculus::Platform::Models::PlatformInitialize*>*)>(&::Oculus::Platform::BuildingBlocks::EntitlementCheck::PlatformInitializeCallback)> {
   constexpr static std::size_t size = 0x2b0;
-  constexpr static std::size_t addrs = 0x5cb732c;
+  constexpr static std::size_t addrs = 0x5cb8ea4;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::BuildingBlocks::EntitlementCheck*>::get(), "PlatformInitializeCallback", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Oculus::Platform::Message_1<::Oculus::Platform::Models::PlatformInitialize*>*>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::BuildingBlocks::EntitlementCheck*>::get(),
+                        "PlatformInitializeCallback",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Oculus::Platform::Message_1<::Oculus::Platform::Models::PlatformInitialize*>*>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Oculus::Platform::BuildingBlocks::EntitlementCheck.EntitlementCheckCallback
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::BuildingBlocks::EntitlementCheck::*)(::Oculus::Platform::Message*)>(
-    &::Oculus::Platform::BuildingBlocks::EntitlementCheck::EntitlementCheckCallback)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::BuildingBlocks::EntitlementCheck::*)(::Oculus::Platform::Message*)>(&::Oculus::Platform::BuildingBlocks::EntitlementCheck::EntitlementCheckCallback)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x5cb75dc;
+  constexpr static std::size_t addrs = 0x5cb9154;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::BuildingBlocks::EntitlementCheck*>::get(), "EntitlementCheckCallback", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Oculus::Platform::Message*>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::BuildingBlocks::EntitlementCheck*>::get(),
+                        "EntitlementCheckCallback",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Oculus::Platform::Message*>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Oculus::Platform::BuildingBlocks::EntitlementCheck.QuitAppOnFailure
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::BuildingBlocks::EntitlementCheck::*)()>(
-    &::Oculus::Platform::BuildingBlocks::EntitlementCheck::QuitAppOnFailure)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::BuildingBlocks::EntitlementCheck::*)()>(&::Oculus::Platform::BuildingBlocks::EntitlementCheck::QuitAppOnFailure)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x5cb76c8;
+  constexpr static std::size_t addrs = 0x5cb9240;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::BuildingBlocks::EntitlementCheck*>::get(),
-                                                                               "QuitAppOnFailure", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::BuildingBlocks::EntitlementCheck*>::get(),
+                        "QuitAppOnFailure",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Oculus::Platform::BuildingBlocks::EntitlementCheck._ctor
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::BuildingBlocks::EntitlementCheck::*)()>(
-    &::Oculus::Platform::BuildingBlocks::EntitlementCheck::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::BuildingBlocks::EntitlementCheck::*)()>(&::Oculus::Platform::BuildingBlocks::EntitlementCheck::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5cb7768;
+  constexpr static std::size_t addrs = 0x5cb92e0;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::BuildingBlocks::EntitlementCheck*>::get(),
-                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::BuildingBlocks::EntitlementCheck*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
-constexpr bool& Oculus::Platform::BuildingBlocks::EntitlementCheck::__cordl_internal_get_quitAppOnNotEntitled() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___quitAppOnNotEntitled;
+constexpr bool& Oculus::Platform::BuildingBlocks::EntitlementCheck::__cordl_internal_get_quitAppOnNotEntitled()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___quitAppOnNotEntitled;
 }
 constexpr bool const& Oculus::Platform::BuildingBlocks::EntitlementCheck::__cordl_internal_get_quitAppOnNotEntitled() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___quitAppOnNotEntitled;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___quitAppOnNotEntitled;
 }
-constexpr void Oculus::Platform::BuildingBlocks::EntitlementCheck::__cordl_internal_set_quitAppOnNotEntitled(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___quitAppOnNotEntitled = value;
+constexpr void Oculus::Platform::BuildingBlocks::EntitlementCheck::__cordl_internal_set_quitAppOnNotEntitled(bool  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___quitAppOnNotEntitled = value;
 }
-constexpr ::System::Action*& Oculus::Platform::BuildingBlocks::EntitlementCheck::__cordl_internal_get_UserFailedEntitlementCheck() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___UserFailedEntitlementCheck;
+constexpr ::System::Action*& Oculus::Platform::BuildingBlocks::EntitlementCheck::__cordl_internal_get_UserFailedEntitlementCheck()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___UserFailedEntitlementCheck;
 }
 constexpr ::System::Action* const& Oculus::Platform::BuildingBlocks::EntitlementCheck::__cordl_internal_get_UserFailedEntitlementCheck() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___UserFailedEntitlementCheck;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___UserFailedEntitlementCheck;
 }
-constexpr void Oculus::Platform::BuildingBlocks::EntitlementCheck::__cordl_internal_set_UserFailedEntitlementCheck(::System::Action* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___UserFailedEntitlementCheck)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void Oculus::Platform::BuildingBlocks::EntitlementCheck::__cordl_internal_set_UserFailedEntitlementCheck(::System::Action*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___UserFailedEntitlementCheck)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Action*& Oculus::Platform::BuildingBlocks::EntitlementCheck::__cordl_internal_get_UserPassedEntitlementCheck() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___UserPassedEntitlementCheck;
+constexpr ::System::Action*& Oculus::Platform::BuildingBlocks::EntitlementCheck::__cordl_internal_get_UserPassedEntitlementCheck()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___UserPassedEntitlementCheck;
 }
 constexpr ::System::Action* const& Oculus::Platform::BuildingBlocks::EntitlementCheck::__cordl_internal_get_UserPassedEntitlementCheck() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___UserPassedEntitlementCheck;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___UserPassedEntitlementCheck;
 }
-constexpr void Oculus::Platform::BuildingBlocks::EntitlementCheck::__cordl_internal_set_UserPassedEntitlementCheck(::System::Action* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___UserPassedEntitlementCheck)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void Oculus::Platform::BuildingBlocks::EntitlementCheck::__cordl_internal_set_UserPassedEntitlementCheck(::System::Action*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___UserPassedEntitlementCheck)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void Oculus::Platform::BuildingBlocks::EntitlementCheck::add_UserFailedEntitlementCheck(::System::Action* value) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::BuildingBlocks::EntitlementCheck*>::get(), "add_UserFailedEntitlementCheck",
-                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void Oculus::Platform::BuildingBlocks::EntitlementCheck::add_UserFailedEntitlementCheck(::System::Action*  value)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::BuildingBlocks::EntitlementCheck*>::get(),
+                        "add_UserFailedEntitlementCheck",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void Oculus::Platform::BuildingBlocks::EntitlementCheck::remove_UserFailedEntitlementCheck(::System::Action* value) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::BuildingBlocks::EntitlementCheck*>::get(), "remove_UserFailedEntitlementCheck",
-                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void Oculus::Platform::BuildingBlocks::EntitlementCheck::remove_UserFailedEntitlementCheck(::System::Action*  value)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::BuildingBlocks::EntitlementCheck*>::get(),
+                        "remove_UserFailedEntitlementCheck",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void Oculus::Platform::BuildingBlocks::EntitlementCheck::add_UserPassedEntitlementCheck(::System::Action* value) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::BuildingBlocks::EntitlementCheck*>::get(), "add_UserPassedEntitlementCheck",
-                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void Oculus::Platform::BuildingBlocks::EntitlementCheck::add_UserPassedEntitlementCheck(::System::Action*  value)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::BuildingBlocks::EntitlementCheck*>::get(),
+                        "add_UserPassedEntitlementCheck",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void Oculus::Platform::BuildingBlocks::EntitlementCheck::remove_UserPassedEntitlementCheck(::System::Action* value) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::BuildingBlocks::EntitlementCheck*>::get(), "remove_UserPassedEntitlementCheck",
-                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void Oculus::Platform::BuildingBlocks::EntitlementCheck::remove_UserPassedEntitlementCheck(::System::Action*  value)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::BuildingBlocks::EntitlementCheck*>::get(),
+                        "remove_UserPassedEntitlementCheck",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void Oculus::Platform::BuildingBlocks::EntitlementCheck::Start() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::BuildingBlocks::EntitlementCheck*>::get(),
-                                                                             "Start", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void Oculus::Platform::BuildingBlocks::EntitlementCheck::Start()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::BuildingBlocks::EntitlementCheck*>::get(),
+                        "Start",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void Oculus::Platform::BuildingBlocks::EntitlementCheck::PerformUserEntitlementCheck() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::BuildingBlocks::EntitlementCheck*>::get(),
-                                                                             "PerformUserEntitlementCheck", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void Oculus::Platform::BuildingBlocks::EntitlementCheck::PerformUserEntitlementCheck()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::BuildingBlocks::EntitlementCheck*>::get(),
+                        "PerformUserEntitlementCheck",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void Oculus::Platform::BuildingBlocks::EntitlementCheck::PlatformInitializeCallback(::Oculus::Platform::Message_1<::Oculus::Platform::Models::PlatformInitialize*>* msg) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::BuildingBlocks::EntitlementCheck*>::get(), "PlatformInitializeCallback", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Oculus::Platform::Message_1<::Oculus::Platform::Models::PlatformInitialize*>*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, msg);
+inline void Oculus::Platform::BuildingBlocks::EntitlementCheck::PlatformInitializeCallback(::Oculus::Platform::Message_1<::Oculus::Platform::Models::PlatformInitialize*>*  msg)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::BuildingBlocks::EntitlementCheck*>::get(),
+                        "PlatformInitializeCallback",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Oculus::Platform::Message_1<::Oculus::Platform::Models::PlatformInitialize*>*>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, msg);
 }
-inline void Oculus::Platform::BuildingBlocks::EntitlementCheck::EntitlementCheckCallback(::Oculus::Platform::Message* msg) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::BuildingBlocks::EntitlementCheck*>::get(), "EntitlementCheckCallback", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Oculus::Platform::Message*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, msg);
+inline void Oculus::Platform::BuildingBlocks::EntitlementCheck::EntitlementCheckCallback(::Oculus::Platform::Message*  msg)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::BuildingBlocks::EntitlementCheck*>::get(),
+                        "EntitlementCheckCallback",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Oculus::Platform::Message*>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, msg);
 }
-inline void Oculus::Platform::BuildingBlocks::EntitlementCheck::QuitAppOnFailure() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::BuildingBlocks::EntitlementCheck*>::get(),
-                                                                             "QuitAppOnFailure", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void Oculus::Platform::BuildingBlocks::EntitlementCheck::QuitAppOnFailure()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::BuildingBlocks::EntitlementCheck*>::get(),
+                        "QuitAppOnFailure",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void Oculus::Platform::BuildingBlocks::EntitlementCheck::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::BuildingBlocks::EntitlementCheck*>::get(),
-                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void Oculus::Platform::BuildingBlocks::EntitlementCheck::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::BuildingBlocks::EntitlementCheck*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::Oculus::Platform::BuildingBlocks::EntitlementCheck* Oculus::Platform::BuildingBlocks::EntitlementCheck::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Oculus::Platform::BuildingBlocks::EntitlementCheck*>());
+inline ::Oculus::Platform::BuildingBlocks::EntitlementCheck* Oculus::Platform::BuildingBlocks::EntitlementCheck::New_ctor()  {
+return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Oculus::Platform::BuildingBlocks::EntitlementCheck*>());
 }
 // Ctor Parameters []
-constexpr ::Oculus::Platform::BuildingBlocks::EntitlementCheck::EntitlementCheck() {}
+constexpr ::Oculus::Platform::BuildingBlocks::EntitlementCheck::EntitlementCheck()   {
+}

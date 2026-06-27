@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "BGLib/MetaRemoteAssets/IRemoteCatalogLoader.hpp"
 #include "BGLib/MetaRemoteAssets/MetaRemoteAssetsCatalogUpdater.hpp"
@@ -10,5 +10,6 @@ module;
 #include "BGLib/MetaRemoteAssets/MetaRemoteAssetsRemoteCatalogLoader.hpp"
 #include "BGLib/MetaRemoteAssets/MockRemoteCatalogLoader.hpp"
 #ifdef __cpp_modules
-export module MetaRemoteAssets;
-#endif
+                    export module MetaRemoteAssets;
+                    #endif
+                

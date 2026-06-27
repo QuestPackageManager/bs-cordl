@@ -20,39 +20,39 @@ namespace BeatSaber::BeatAvatarSDK {
 // CS Name: BeatSaber.BeatAvatarSDK.AvatarSpritePartSO
 class CORDL_TYPE AvatarSpritePartSO : public ::BeatSaber::BeatAvatarSDK::AvatarPartSO_1<::UnityW<::UnityEngine::Sprite>> {
 public:
-  // Declarations
-  __declspec(property(get = get_sprite)) ::UnityW<::UnityEngine::Sprite> sprite;
+// Declarations
+ __declspec(property(get=get_sprite)) ::UnityW<::UnityEngine::Sprite>  sprite;
 
-  static inline ::BeatSaber::BeatAvatarSDK::AvatarSpritePartSO* New_ctor();
+static inline ::BeatSaber::BeatAvatarSDK::AvatarSpritePartSO* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x31e40b0, size 0x48, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x31e4dd0, size 0x48, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_sprite, addr 0x31e406c, size 0x44, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::Sprite> get_sprite();
+/// @brief Method get_sprite, addr 0x31e4d8c, size 0x44, virtual false, abstract: false, final false
+inline ::UnityW<::UnityEngine::Sprite> get_sprite() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AvatarSpritePartSO();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr AvatarSpritePartSO() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AvatarSpritePartSO", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  AvatarSpritePartSO(AvatarSpritePartSO&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AvatarSpritePartSO", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  AvatarSpritePartSO(AvatarSpritePartSO const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "AvatarSpritePartSO", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+AvatarSpritePartSO(AvatarSpritePartSO && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22133 };
+// Ctor Parameters [CppParam { name: "", ty: "AvatarSpritePartSO", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+AvatarSpritePartSO(AvatarSpritePartSO const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22137};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::BeatSaber::BeatAvatarSDK::AvatarSpritePartSO, 0x30>, "Size mismatch!");
 
-} // namespace BeatSaber::BeatAvatarSDK
+} // namespace end def BeatSaber::BeatAvatarSDK
 NEED_NO_BOX(::BeatSaber::BeatAvatarSDK::AvatarSpritePartSO);
 DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::BeatAvatarSDK::AvatarSpritePartSO*, "BeatSaber.BeatAvatarSDK", "AvatarSpritePartSO");

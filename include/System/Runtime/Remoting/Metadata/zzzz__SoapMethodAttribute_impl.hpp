@@ -4,165 +4,181 @@
 #include "System/Runtime/Remoting/Metadata/zzzz__SoapMethodAttribute_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Remoting::Metadata::SoapMethodAttribute._ctor
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Metadata::SoapMethodAttribute::*)()>(
-    &::System::Runtime::Remoting::Metadata::SoapMethodAttribute::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Metadata::SoapMethodAttribute::*)()>(&::System::Runtime::Remoting::Metadata::SoapMethodAttribute::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5a007dc;
+  constexpr static std::size_t addrs = 0x5a02354;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Metadata::SoapMethodAttribute*>::get(), ".ctor",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Metadata::SoapMethodAttribute*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Remoting::Metadata::SoapMethodAttribute.get_UseAttribute
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Remoting::Metadata::SoapMethodAttribute::*)()>(
-    &::System::Runtime::Remoting::Metadata::SoapMethodAttribute::get_UseAttribute)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Remoting::Metadata::SoapMethodAttribute::*)()>(&::System::Runtime::Remoting::Metadata::SoapMethodAttribute::get_UseAttribute)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a007e0;
+  constexpr static std::size_t addrs = 0x5a02358;
 
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Metadata::SoapMethodAttribute*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Metadata::SoapMethodAttribute*>::get(), 7));
+  inline static const ::MethodInfo* methodInfo() {
+    
+                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Metadata::SoapMethodAttribute*>::get(),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Metadata::SoapMethodAttribute*>::get(),
+                                  7
+                                ));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Remoting::Metadata::SoapMethodAttribute.get_XmlNamespace
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Runtime::Remoting::Metadata::SoapMethodAttribute::*)()>(
-    &::System::Runtime::Remoting::Metadata::SoapMethodAttribute::get_XmlNamespace)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Runtime::Remoting::Metadata::SoapMethodAttribute::*)()>(&::System::Runtime::Remoting::Metadata::SoapMethodAttribute::get_XmlNamespace)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a007e8;
+  constexpr static std::size_t addrs = 0x5a02360;
 
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Metadata::SoapMethodAttribute*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Metadata::SoapMethodAttribute*>::get(), 8));
+  inline static const ::MethodInfo* methodInfo() {
+    
+                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Metadata::SoapMethodAttribute*>::get(),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Metadata::SoapMethodAttribute*>::get(),
+                                  8
+                                ));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Remoting::Metadata::SoapMethodAttribute.SetReflectionObject
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Metadata::SoapMethodAttribute::*)(::System::Object*)>(
-    &::System::Runtime::Remoting::Metadata::SoapMethodAttribute::SetReflectionObject)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Metadata::SoapMethodAttribute::*)(::System::Object*)>(&::System::Runtime::Remoting::Metadata::SoapMethodAttribute::SetReflectionObject)> {
   constexpr static std::size_t size = 0x1cc;
-  constexpr static std::size_t addrs = 0x5a007f0;
+  constexpr static std::size_t addrs = 0x5a02368;
 
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Metadata::SoapMethodAttribute*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Metadata::SoapMethodAttribute*>::get(), 9));
+  inline static const ::MethodInfo* methodInfo() {
+    
+                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Metadata::SoapMethodAttribute*>::get(),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Metadata::SoapMethodAttribute*>::get(),
+                                  9
+                                ));
     return ___internal_method;
   }
 };
-constexpr ::StringW& System::Runtime::Remoting::Metadata::SoapMethodAttribute::__cordl_internal_get__responseElement() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____responseElement;
+constexpr ::StringW& System::Runtime::Remoting::Metadata::SoapMethodAttribute::__cordl_internal_get__responseElement()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____responseElement;
 }
 constexpr ::StringW const& System::Runtime::Remoting::Metadata::SoapMethodAttribute::__cordl_internal_get__responseElement() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____responseElement;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____responseElement;
 }
-constexpr void System::Runtime::Remoting::Metadata::SoapMethodAttribute::__cordl_internal_set__responseElement(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____responseElement)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Runtime::Remoting::Metadata::SoapMethodAttribute::__cordl_internal_set__responseElement(::StringW  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____responseElement)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::StringW& System::Runtime::Remoting::Metadata::SoapMethodAttribute::__cordl_internal_get__responseNamespace() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____responseNamespace;
+constexpr ::StringW& System::Runtime::Remoting::Metadata::SoapMethodAttribute::__cordl_internal_get__responseNamespace()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____responseNamespace;
 }
 constexpr ::StringW const& System::Runtime::Remoting::Metadata::SoapMethodAttribute::__cordl_internal_get__responseNamespace() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____responseNamespace;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____responseNamespace;
 }
-constexpr void System::Runtime::Remoting::Metadata::SoapMethodAttribute::__cordl_internal_set__responseNamespace(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____responseNamespace)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Runtime::Remoting::Metadata::SoapMethodAttribute::__cordl_internal_set__responseNamespace(::StringW  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____responseNamespace)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::StringW& System::Runtime::Remoting::Metadata::SoapMethodAttribute::__cordl_internal_get__returnElement() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____returnElement;
+constexpr ::StringW& System::Runtime::Remoting::Metadata::SoapMethodAttribute::__cordl_internal_get__returnElement()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____returnElement;
 }
 constexpr ::StringW const& System::Runtime::Remoting::Metadata::SoapMethodAttribute::__cordl_internal_get__returnElement() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____returnElement;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____returnElement;
 }
-constexpr void System::Runtime::Remoting::Metadata::SoapMethodAttribute::__cordl_internal_set__returnElement(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____returnElement)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Runtime::Remoting::Metadata::SoapMethodAttribute::__cordl_internal_set__returnElement(::StringW  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____returnElement)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::StringW& System::Runtime::Remoting::Metadata::SoapMethodAttribute::__cordl_internal_get__soapAction() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____soapAction;
+constexpr ::StringW& System::Runtime::Remoting::Metadata::SoapMethodAttribute::__cordl_internal_get__soapAction()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____soapAction;
 }
 constexpr ::StringW const& System::Runtime::Remoting::Metadata::SoapMethodAttribute::__cordl_internal_get__soapAction() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____soapAction;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____soapAction;
 }
-constexpr void System::Runtime::Remoting::Metadata::SoapMethodAttribute::__cordl_internal_set__soapAction(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____soapAction)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Runtime::Remoting::Metadata::SoapMethodAttribute::__cordl_internal_set__soapAction(::StringW  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____soapAction)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr bool& System::Runtime::Remoting::Metadata::SoapMethodAttribute::__cordl_internal_get__useAttribute() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____useAttribute;
+constexpr bool& System::Runtime::Remoting::Metadata::SoapMethodAttribute::__cordl_internal_get__useAttribute()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____useAttribute;
 }
 constexpr bool const& System::Runtime::Remoting::Metadata::SoapMethodAttribute::__cordl_internal_get__useAttribute() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____useAttribute;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____useAttribute;
 }
-constexpr void System::Runtime::Remoting::Metadata::SoapMethodAttribute::__cordl_internal_set__useAttribute(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____useAttribute = value;
+constexpr void System::Runtime::Remoting::Metadata::SoapMethodAttribute::__cordl_internal_set__useAttribute(bool  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____useAttribute = value;
 }
-constexpr ::StringW& System::Runtime::Remoting::Metadata::SoapMethodAttribute::__cordl_internal_get__namespace() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____namespace;
+constexpr ::StringW& System::Runtime::Remoting::Metadata::SoapMethodAttribute::__cordl_internal_get__namespace()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____namespace;
 }
 constexpr ::StringW const& System::Runtime::Remoting::Metadata::SoapMethodAttribute::__cordl_internal_get__namespace() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____namespace;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____namespace;
 }
-constexpr void System::Runtime::Remoting::Metadata::SoapMethodAttribute::__cordl_internal_set__namespace(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____namespace)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Runtime::Remoting::Metadata::SoapMethodAttribute::__cordl_internal_set__namespace(::StringW  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____namespace)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void System::Runtime::Remoting::Metadata::SoapMethodAttribute::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Metadata::SoapMethodAttribute*>::get(),
-                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void System::Runtime::Remoting::Metadata::SoapMethodAttribute::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Metadata::SoapMethodAttribute*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool System::Runtime::Remoting::Metadata::SoapMethodAttribute::get_UseAttribute() {
-  auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Metadata::SoapMethodAttribute*>::get(), 7)));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool System::Runtime::Remoting::Metadata::SoapMethodAttribute::get_UseAttribute()  {
+auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Metadata::SoapMethodAttribute*>::get(),
+                            7
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline ::StringW System::Runtime::Remoting::Metadata::SoapMethodAttribute::get_XmlNamespace() {
-  auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Metadata::SoapMethodAttribute*>::get(), 8)));
-  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+inline ::StringW System::Runtime::Remoting::Metadata::SoapMethodAttribute::get_XmlNamespace()  {
+auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Metadata::SoapMethodAttribute*>::get(),
+                            8
+                        )));
+return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-inline void System::Runtime::Remoting::Metadata::SoapMethodAttribute::SetReflectionObject(::System::Object* reflectionObject) {
-  auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Metadata::SoapMethodAttribute*>::get(), 9)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, reflectionObject);
+inline void System::Runtime::Remoting::Metadata::SoapMethodAttribute::SetReflectionObject(::System::Object*  reflectionObject)  {
+auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Metadata::SoapMethodAttribute*>::get(),
+                            9
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, reflectionObject);
 }
-inline ::System::Runtime::Remoting::Metadata::SoapMethodAttribute* System::Runtime::Remoting::Metadata::SoapMethodAttribute::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Remoting::Metadata::SoapMethodAttribute*>());
+inline ::System::Runtime::Remoting::Metadata::SoapMethodAttribute* System::Runtime::Remoting::Metadata::SoapMethodAttribute::New_ctor()  {
+return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Remoting::Metadata::SoapMethodAttribute*>());
 }
 // Ctor Parameters []
-constexpr ::System::Runtime::Remoting::Metadata::SoapMethodAttribute::SoapMethodAttribute() {}
+constexpr ::System::Runtime::Remoting::Metadata::SoapMethodAttribute::SoapMethodAttribute()   {
+}

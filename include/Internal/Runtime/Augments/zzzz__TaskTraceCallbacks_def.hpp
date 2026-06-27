@@ -18,46 +18,46 @@ namespace Internal::Runtime::Augments {
 // CS Name: Internal.Runtime.Augments.TaskTraceCallbacks
 class CORDL_TYPE TaskTraceCallbacks : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = get_Enabled)) bool Enabled;
+// Declarations
+ __declspec(property(get=get_Enabled)) bool  Enabled;
 
-  /// @brief Method TaskScheduled, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void TaskScheduled(int32_t OriginatingTaskSchedulerID, int32_t OriginatingTaskID, int32_t TaskID, int32_t CreatingTaskID, int32_t TaskCreationOptions);
+/// @brief Method TaskScheduled, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline void TaskScheduled(int32_t  OriginatingTaskSchedulerID, int32_t  OriginatingTaskID, int32_t  TaskID, int32_t  CreatingTaskID, int32_t  TaskCreationOptions) ;
 
-  /// @brief Method TaskWaitBegin_Asynchronous, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void TaskWaitBegin_Asynchronous(int32_t OriginatingTaskSchedulerID, int32_t OriginatingTaskID, int32_t TaskID);
+/// @brief Method TaskWaitBegin_Asynchronous, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline void TaskWaitBegin_Asynchronous(int32_t  OriginatingTaskSchedulerID, int32_t  OriginatingTaskID, int32_t  TaskID) ;
 
-  /// @brief Method TaskWaitBegin_Synchronous, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void TaskWaitBegin_Synchronous(int32_t OriginatingTaskSchedulerID, int32_t OriginatingTaskID, int32_t TaskID);
+/// @brief Method TaskWaitBegin_Synchronous, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline void TaskWaitBegin_Synchronous(int32_t  OriginatingTaskSchedulerID, int32_t  OriginatingTaskID, int32_t  TaskID) ;
 
-  /// @brief Method TaskWaitEnd, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void TaskWaitEnd(int32_t OriginatingTaskSchedulerID, int32_t OriginatingTaskID, int32_t TaskID);
+/// @brief Method TaskWaitEnd, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline void TaskWaitEnd(int32_t  OriginatingTaskSchedulerID, int32_t  OriginatingTaskID, int32_t  TaskID) ;
 
-  /// @brief Method get_Enabled, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline bool get_Enabled();
+/// @brief Method get_Enabled, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline bool get_Enabled() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TaskTraceCallbacks();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr TaskTraceCallbacks() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TaskTraceCallbacks", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  TaskTraceCallbacks(TaskTraceCallbacks&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TaskTraceCallbacks", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  TaskTraceCallbacks(TaskTraceCallbacks const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "TaskTraceCallbacks", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+TaskTraceCallbacks(TaskTraceCallbacks && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2305 };
+// Ctor Parameters [CppParam { name: "", ty: "TaskTraceCallbacks", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+TaskTraceCallbacks(TaskTraceCallbacks const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{2305};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Internal::Runtime::Augments::TaskTraceCallbacks, 0x10>, "Size mismatch!");
 
-} // namespace Internal::Runtime::Augments
+} // namespace end def Internal::Runtime::Augments
 NEED_NO_BOX(::Internal::Runtime::Augments::TaskTraceCallbacks);
 DEFINE_IL2CPP_ARG_TYPE(::Internal::Runtime::Augments::TaskTraceCallbacks*, "Internal.Runtime.Augments", "TaskTraceCallbacks");

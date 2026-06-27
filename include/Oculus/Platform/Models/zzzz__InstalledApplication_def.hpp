@@ -22,90 +22,90 @@ namespace Oculus::Platform::Models {
 // CS Name: Oculus.Platform.Models.InstalledApplication
 class CORDL_TYPE InstalledApplication : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field ApplicationId, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_ApplicationId, put = __cordl_internal_set_ApplicationId)) ::StringW ApplicationId;
+// Declarations
+/// @brief Field ApplicationId, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_ApplicationId, put=__cordl_internal_set_ApplicationId)) ::StringW  ApplicationId;
 
-  /// @brief Field PackageName, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_PackageName, put = __cordl_internal_set_PackageName)) ::StringW PackageName;
+/// @brief Field PackageName, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_PackageName, put=__cordl_internal_set_PackageName)) ::StringW  PackageName;
 
-  /// @brief Field Status, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_Status, put = __cordl_internal_set_Status)) ::StringW Status;
+/// @brief Field Status, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_Status, put=__cordl_internal_set_Status)) ::StringW  Status;
 
-  /// @brief Field VersionCode, offset 0x28, size 0x4
-  __declspec(property(get = __cordl_internal_get_VersionCode, put = __cordl_internal_set_VersionCode)) int32_t VersionCode;
+/// @brief Field VersionCode, offset 0x28, size 0x4 
+ __declspec(property(get=__cordl_internal_get_VersionCode, put=__cordl_internal_set_VersionCode)) int32_t  VersionCode;
 
-  /// @brief Field VersionName, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_VersionName, put = __cordl_internal_set_VersionName)) ::StringW VersionName;
+/// @brief Field VersionName, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get_VersionName, put=__cordl_internal_set_VersionName)) ::StringW  VersionName;
 
-  static inline ::Oculus::Platform::Models::InstalledApplication* New_ctor(::System::IntPtr o);
+static inline ::Oculus::Platform::Models::InstalledApplication* New_ctor(::System::IntPtr  o) ;
 
-  constexpr ::StringW const& __cordl_internal_get_ApplicationId() const;
+constexpr ::StringW const& __cordl_internal_get_ApplicationId() const;
 
-  constexpr ::StringW& __cordl_internal_get_ApplicationId();
+constexpr ::StringW& __cordl_internal_get_ApplicationId() ;
 
-  constexpr ::StringW const& __cordl_internal_get_PackageName() const;
+constexpr ::StringW const& __cordl_internal_get_PackageName() const;
 
-  constexpr ::StringW& __cordl_internal_get_PackageName();
+constexpr ::StringW& __cordl_internal_get_PackageName() ;
 
-  constexpr ::StringW const& __cordl_internal_get_Status() const;
+constexpr ::StringW const& __cordl_internal_get_Status() const;
 
-  constexpr ::StringW& __cordl_internal_get_Status();
+constexpr ::StringW& __cordl_internal_get_Status() ;
 
-  constexpr int32_t const& __cordl_internal_get_VersionCode() const;
+constexpr int32_t const& __cordl_internal_get_VersionCode() const;
 
-  constexpr int32_t& __cordl_internal_get_VersionCode();
+constexpr int32_t& __cordl_internal_get_VersionCode() ;
 
-  constexpr ::StringW const& __cordl_internal_get_VersionName() const;
+constexpr ::StringW const& __cordl_internal_get_VersionName() const;
 
-  constexpr ::StringW& __cordl_internal_get_VersionName();
+constexpr ::StringW& __cordl_internal_get_VersionName() ;
 
-  constexpr void __cordl_internal_set_ApplicationId(::StringW value);
+constexpr void __cordl_internal_set_ApplicationId(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_PackageName(::StringW value);
+constexpr void __cordl_internal_set_PackageName(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_Status(::StringW value);
+constexpr void __cordl_internal_set_Status(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_VersionCode(int32_t value);
+constexpr void __cordl_internal_set_VersionCode(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_VersionName(::StringW value);
+constexpr void __cordl_internal_set_VersionName(::StringW  value) ;
 
-  /// @brief Method .ctor, addr 0x5cb3b14, size 0xb0, virtual false, abstract: false, final false
-  inline void _ctor(::System::IntPtr o);
+/// @brief Method .ctor, addr 0x5cb568c, size 0xb0, virtual false, abstract: false, final false
+inline void _ctor(::System::IntPtr  o) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr InstalledApplication();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr InstalledApplication() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InstalledApplication", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  InstalledApplication(InstalledApplication&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InstalledApplication", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  InstalledApplication(InstalledApplication const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "InstalledApplication", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+InstalledApplication(InstalledApplication && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18026 };
+// Ctor Parameters [CppParam { name: "", ty: "InstalledApplication", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+InstalledApplication(InstalledApplication const& ) = delete;
 
-  /// @brief Field ApplicationId, offset: 0x10, size: 0x8, def value: None
-  ::StringW ___ApplicationId;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{18028};
 
-  /// @brief Field PackageName, offset: 0x18, size: 0x8, def value: None
-  ::StringW ___PackageName;
+/// @brief Field ApplicationId, offset: 0x10, size: 0x8, def value: None
+ ::StringW  ___ApplicationId;
 
-  /// @brief Field Status, offset: 0x20, size: 0x8, def value: None
-  ::StringW ___Status;
+/// @brief Field PackageName, offset: 0x18, size: 0x8, def value: None
+ ::StringW  ___PackageName;
 
-  /// @brief Field VersionCode, offset: 0x28, size: 0x4, def value: None
-  int32_t ___VersionCode;
+/// @brief Field Status, offset: 0x20, size: 0x8, def value: None
+ ::StringW  ___Status;
 
-  /// @brief Field VersionName, offset: 0x30, size: 0x8, def value: None
-  ::StringW ___VersionName;
+/// @brief Field VersionCode, offset: 0x28, size: 0x4, def value: None
+ int32_t  ___VersionCode;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field VersionName, offset: 0x30, size: 0x8, def value: None
+ ::StringW  ___VersionName;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Oculus::Platform::Models::InstalledApplication, ___ApplicationId) == 0x10, "Offset mismatch!");
@@ -120,6 +120,6 @@ static_assert(offsetof(::Oculus::Platform::Models::InstalledApplication, ___Vers
 
 static_assert(::cordl_internals::size_check_v<::Oculus::Platform::Models::InstalledApplication, 0x38>, "Size mismatch!");
 
-} // namespace Oculus::Platform::Models
+} // namespace end def Oculus::Platform::Models
 NEED_NO_BOX(::Oculus::Platform::Models::InstalledApplication);
 DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::InstalledApplication*, "Oculus.Platform.Models", "InstalledApplication");

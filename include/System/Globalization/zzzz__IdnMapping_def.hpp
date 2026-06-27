@@ -25,105 +25,105 @@ namespace System::Globalization {
 // CS Name: System.Globalization.IdnMapping
 class CORDL_TYPE IdnMapping : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field allow_unassigned, offset 0x10, size 0x1
-  __declspec(property(get = __cordl_internal_get_allow_unassigned, put = __cordl_internal_set_allow_unassigned)) bool allow_unassigned;
+// Declarations
+/// @brief Field allow_unassigned, offset 0x10, size 0x1 
+ __declspec(property(get=__cordl_internal_get_allow_unassigned, put=__cordl_internal_set_allow_unassigned)) bool  allow_unassigned;
 
-  /// @brief Field puny, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_puny, put = __cordl_internal_set_puny)) ::System::Globalization::Punycode* puny;
+/// @brief Field puny, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_puny, put=__cordl_internal_set_puny)) ::System::Globalization::Punycode*  puny;
 
-  /// @brief Field use_std3, offset 0x11, size 0x1
-  __declspec(property(get = __cordl_internal_get_use_std3, put = __cordl_internal_set_use_std3)) bool use_std3;
+/// @brief Field use_std3, offset 0x11, size 0x1 
+ __declspec(property(get=__cordl_internal_get_use_std3, put=__cordl_internal_set_use_std3)) bool  use_std3;
 
-  /// @brief Method Convert, addr 0x5aa1504, size 0x200, virtual false, abstract: false, final false
-  inline ::StringW Convert(::StringW input, int32_t index, int32_t count, bool toAscii);
+/// @brief Method Convert, addr 0x5aa307c, size 0x200, virtual false, abstract: false, final false
+inline ::StringW Convert(::StringW  input, int32_t  index, int32_t  count, bool  toAscii) ;
 
-  /// @brief Method Equals, addr 0x5aa1344, size 0x8c, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* obj);
+/// @brief Method Equals, addr 0x5aa2ebc, size 0x8c, virtual true, abstract: false, final false
+inline bool Equals(::System::Object*  obj) ;
 
-  /// @brief Method GetAscii, addr 0x5aa13e0, size 0x5c, virtual false, abstract: false, final false
-  inline ::StringW GetAscii(::StringW unicode);
+/// @brief Method GetAscii, addr 0x5aa2f58, size 0x5c, virtual false, abstract: false, final false
+inline ::StringW GetAscii(::StringW  unicode) ;
 
-  /// @brief Method GetAscii, addr 0x5aa143c, size 0xc8, virtual false, abstract: false, final false
-  inline ::StringW GetAscii(::StringW unicode, int32_t index, int32_t count);
+/// @brief Method GetAscii, addr 0x5aa2fb4, size 0xc8, virtual false, abstract: false, final false
+inline ::StringW GetAscii(::StringW  unicode, int32_t  index, int32_t  count) ;
 
-  /// @brief Method GetHashCode, addr 0x5aa13d0, size 0x10, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
+/// @brief Method GetHashCode, addr 0x5aa2f48, size 0x10, virtual true, abstract: false, final false
+inline int32_t GetHashCode() ;
 
-  /// @brief Method GetUnicode, addr 0x5aa22f8, size 0x5c, virtual false, abstract: false, final false
-  inline ::StringW GetUnicode(::StringW ascii);
+/// @brief Method GetUnicode, addr 0x5aa3e70, size 0x5c, virtual false, abstract: false, final false
+inline ::StringW GetUnicode(::StringW  ascii) ;
 
-  /// @brief Method GetUnicode, addr 0x5aa2354, size 0xc8, virtual false, abstract: false, final false
-  inline ::StringW GetUnicode(::StringW ascii, int32_t index, int32_t count);
+/// @brief Method GetUnicode, addr 0x5aa3ecc, size 0xc8, virtual false, abstract: false, final false
+inline ::StringW GetUnicode(::StringW  ascii, int32_t  index, int32_t  count) ;
 
-  /// @brief Method NamePrep, addr 0x5aa1ac0, size 0x118, virtual false, abstract: false, final false
-  inline ::StringW NamePrep(::StringW s, int32_t offset);
+/// @brief Method NamePrep, addr 0x5aa3638, size 0x118, virtual false, abstract: false, final false
+inline ::StringW NamePrep(::StringW  s, int32_t  offset) ;
 
-  static inline ::System::Globalization::IdnMapping* New_ctor();
+static inline ::System::Globalization::IdnMapping* New_ctor() ;
 
-  /// @brief Method ToAscii, addr 0x5aa1704, size 0x1e8, virtual false, abstract: false, final false
-  inline ::StringW ToAscii(::StringW s, int32_t offset);
+/// @brief Method ToAscii, addr 0x5aa327c, size 0x1e8, virtual false, abstract: false, final false
+inline ::StringW ToAscii(::StringW  s, int32_t  offset) ;
 
-  /// @brief Method ToUnicode, addr 0x5aa18ec, size 0x1d4, virtual false, abstract: false, final false
-  inline ::StringW ToUnicode(::StringW s, int32_t offset);
+/// @brief Method ToUnicode, addr 0x5aa3464, size 0x1d4, virtual false, abstract: false, final false
+inline ::StringW ToUnicode(::StringW  s, int32_t  offset) ;
 
-  /// @brief Method VerifyLength, addr 0x5aa203c, size 0xbc, virtual false, abstract: false, final false
-  inline void VerifyLength(::StringW s, int32_t offset);
+/// @brief Method VerifyLength, addr 0x5aa3bb4, size 0xbc, virtual false, abstract: false, final false
+inline void VerifyLength(::StringW  s, int32_t  offset) ;
 
-  /// @brief Method VerifyProhibitedCharacters, addr 0x5aa20f8, size 0x200, virtual false, abstract: false, final false
-  inline void VerifyProhibitedCharacters(::StringW s, int32_t offset);
+/// @brief Method VerifyProhibitedCharacters, addr 0x5aa3c70, size 0x200, virtual false, abstract: false, final false
+inline void VerifyProhibitedCharacters(::StringW  s, int32_t  offset) ;
 
-  /// @brief Method VerifyStd3AsciiRules, addr 0x5aa1bd8, size 0x160, virtual false, abstract: false, final false
-  inline void VerifyStd3AsciiRules(::StringW s, int32_t offset);
+/// @brief Method VerifyStd3AsciiRules, addr 0x5aa3750, size 0x160, virtual false, abstract: false, final false
+inline void VerifyStd3AsciiRules(::StringW  s, int32_t  offset) ;
 
-  constexpr bool const& __cordl_internal_get_allow_unassigned() const;
+constexpr bool const& __cordl_internal_get_allow_unassigned() const;
 
-  constexpr bool& __cordl_internal_get_allow_unassigned();
+constexpr bool& __cordl_internal_get_allow_unassigned() ;
 
-  constexpr ::System::Globalization::Punycode* const& __cordl_internal_get_puny() const;
+constexpr ::System::Globalization::Punycode* const& __cordl_internal_get_puny() const;
 
-  constexpr ::System::Globalization::Punycode*& __cordl_internal_get_puny();
+constexpr ::System::Globalization::Punycode*& __cordl_internal_get_puny() ;
 
-  constexpr bool const& __cordl_internal_get_use_std3() const;
+constexpr bool const& __cordl_internal_get_use_std3() const;
 
-  constexpr bool& __cordl_internal_get_use_std3();
+constexpr bool& __cordl_internal_get_use_std3() ;
 
-  constexpr void __cordl_internal_set_allow_unassigned(bool value);
+constexpr void __cordl_internal_set_allow_unassigned(bool  value) ;
 
-  constexpr void __cordl_internal_set_puny(::System::Globalization::Punycode* value);
+constexpr void __cordl_internal_set_puny(::System::Globalization::Punycode*  value) ;
 
-  constexpr void __cordl_internal_set_use_std3(bool value);
+constexpr void __cordl_internal_set_use_std3(bool  value) ;
 
-  /// @brief Method .ctor, addr 0x5aa12a0, size 0x78, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5aa2e18, size 0x78, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IdnMapping();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr IdnMapping() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IdnMapping", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IdnMapping(IdnMapping&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IdnMapping", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  IdnMapping(IdnMapping const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "IdnMapping", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+IdnMapping(IdnMapping && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3650 };
+// Ctor Parameters [CppParam { name: "", ty: "IdnMapping", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+IdnMapping(IdnMapping const& ) = delete;
 
-  /// @brief Field allow_unassigned, offset: 0x10, size: 0x1, def value: None
-  bool ___allow_unassigned;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{3650};
 
-  /// @brief Field use_std3, offset: 0x11, size: 0x1, def value: None
-  bool ___use_std3;
+/// @brief Field allow_unassigned, offset: 0x10, size: 0x1, def value: None
+ bool  ___allow_unassigned;
 
-  /// @brief Field puny, offset: 0x18, size: 0x8, def value: None
-  ::System::Globalization::Punycode* ___puny;
+/// @brief Field use_std3, offset: 0x11, size: 0x1, def value: None
+ bool  ___use_std3;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field puny, offset: 0x18, size: 0x8, def value: None
+ ::System::Globalization::Punycode*  ___puny;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Globalization::IdnMapping, ___allow_unassigned) == 0x10, "Offset mismatch!");
@@ -134,6 +134,6 @@ static_assert(offsetof(::System::Globalization::IdnMapping, ___puny) == 0x18, "O
 
 static_assert(::cordl_internals::size_check_v<::System::Globalization::IdnMapping, 0x20>, "Size mismatch!");
 
-} // namespace System::Globalization
+} // namespace end def System::Globalization
 NEED_NO_BOX(::System::Globalization::IdnMapping);
 DEFINE_IL2CPP_ARG_TYPE(::System::Globalization::IdnMapping*, "System.Globalization", "IdnMapping");

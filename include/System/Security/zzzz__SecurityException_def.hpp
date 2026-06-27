@@ -27,69 +27,69 @@ namespace System::Security {
 // CS Name: System.Security.SecurityException
 class CORDL_TYPE SecurityException : public ::System::SystemException {
 public:
-  // Declarations
-  /// @brief Field permissionState, offset 0x90, size 0x8
-  __declspec(property(get = __cordl_internal_get_permissionState, put = __cordl_internal_set_permissionState)) ::StringW permissionState;
+// Declarations
+/// @brief Field permissionState, offset 0x90, size 0x8 
+ __declspec(property(get=__cordl_internal_get_permissionState, put=__cordl_internal_set_permissionState)) ::StringW  permissionState;
 
-  /// @brief Method GetObjectData, addr 0x59b47b4, size 0x114, virtual true, abstract: false, final false
-  inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
+/// @brief Method GetObjectData, addr 0x59b632c, size 0x114, virtual true, abstract: false, final false
+inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context) ;
 
-  static inline ::System::Security::SecurityException* New_ctor();
+static inline ::System::Security::SecurityException* New_ctor() ;
 
-  static inline ::System::Security::SecurityException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
+static inline ::System::Security::SecurityException* New_ctor(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context) ;
 
-  static inline ::System::Security::SecurityException* New_ctor(::StringW message);
+static inline ::System::Security::SecurityException* New_ctor(::StringW  message) ;
 
-  static inline ::System::Security::SecurityException* New_ctor(::StringW message, ::System::Exception* inner);
+static inline ::System::Security::SecurityException* New_ctor(::StringW  message, ::System::Exception*  inner) ;
 
-  /// @brief Method ToString, addr 0x59b48c8, size 0xc, virtual true, abstract: false, final false
-  inline ::StringW ToString();
+/// @brief Method ToString, addr 0x59b6440, size 0xc, virtual true, abstract: false, final false
+inline ::StringW ToString() ;
 
-  constexpr ::StringW const& __cordl_internal_get_permissionState() const;
+constexpr ::StringW const& __cordl_internal_get_permissionState() const;
 
-  constexpr ::StringW& __cordl_internal_get_permissionState();
+constexpr ::StringW& __cordl_internal_get_permissionState() ;
 
-  constexpr void __cordl_internal_set_permissionState(::StringW value);
+constexpr void __cordl_internal_set_permissionState(::StringW  value) ;
 
-  /// @brief Method .ctor, addr 0x59b45f4, size 0x60, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x59b616c, size 0x60, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method .ctor, addr 0x59b4678, size 0x118, virtual false, abstract: false, final false
-  inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
+/// @brief Method .ctor, addr 0x59b61f0, size 0x118, virtual false, abstract: false, final false
+inline void _ctor(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context) ;
 
-  /// @brief Method .ctor, addr 0x59b4654, size 0x24, virtual false, abstract: false, final false
-  inline void _ctor(::StringW message);
+/// @brief Method .ctor, addr 0x59b61cc, size 0x24, virtual false, abstract: false, final false
+inline void _ctor(::StringW  message) ;
 
-  /// @brief Method .ctor, addr 0x59b4790, size 0x24, virtual false, abstract: false, final false
-  inline void _ctor(::StringW message, ::System::Exception* inner);
+/// @brief Method .ctor, addr 0x59b6308, size 0x24, virtual false, abstract: false, final false
+inline void _ctor(::StringW  message, ::System::Exception*  inner) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SecurityException();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr SecurityException() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SecurityException", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  SecurityException(SecurityException&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SecurityException", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  SecurityException(SecurityException const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "SecurityException", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+SecurityException(SecurityException && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2909 };
+// Ctor Parameters [CppParam { name: "", ty: "SecurityException", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+SecurityException(SecurityException const& ) = delete;
 
-  /// @brief Field permissionState, offset: 0x90, size: 0x8, def value: None
-  ::StringW ___permissionState;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{2909};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field permissionState, offset: 0x90, size: 0x8, def value: None
+ ::StringW  ___permissionState;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Security::SecurityException, ___permissionState) == 0x90, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::System::Security::SecurityException, 0x98>, "Size mismatch!");
 
-} // namespace System::Security
+} // namespace end def System::Security
 NEED_NO_BOX(::System::Security::SecurityException);
 DEFINE_IL2CPP_ARG_TYPE(::System::Security::SecurityException*, "System.Security", "SecurityException");

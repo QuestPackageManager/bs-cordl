@@ -16,112 +16,110 @@ struct Keyframe;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::Keyframe);
-// Dependencies
+// Dependencies 
 namespace UnityEngine {
 // Is value type: true
 // CS Name: UnityEngine.Keyframe
 struct CORDL_TYPE Keyframe {
 public:
-  // Declarations
-  __declspec(property(get = get_inTangent, put = set_inTangent)) float_t inTangent;
+// Declarations
+ __declspec(property(get=get_inTangent, put=set_inTangent)) float_t  inTangent;
 
-  __declspec(property(get = get_inWeight, put = set_inWeight)) float_t inWeight;
+ __declspec(property(get=get_inWeight, put=set_inWeight)) float_t  inWeight;
 
-  __declspec(property(get = get_outTangent, put = set_outTangent)) float_t outTangent;
+ __declspec(property(get=get_outTangent, put=set_outTangent)) float_t  outTangent;
 
-  __declspec(property(get = get_outWeight, put = set_outWeight)) float_t outWeight;
+ __declspec(property(get=get_outWeight, put=set_outWeight)) float_t  outWeight;
 
-  __declspec(property(get = get_time, put = set_time)) float_t time;
+ __declspec(property(get=get_time, put=set_time)) float_t  time;
 
-  __declspec(property(get = get_value, put = set_value)) float_t value;
+ __declspec(property(get=get_value, put=set_value)) float_t  value;
 
-  __declspec(property(get = get_weightedMode, put = set_weightedMode)) ::UnityEngine::WeightedMode weightedMode;
+ __declspec(property(get=get_weightedMode, put=set_weightedMode)) ::UnityEngine::WeightedMode  weightedMode;
 
-  /// @brief Method .ctor, addr 0x690b128, size 0x10, virtual false, abstract: false, final false
-  inline void _ctor(float_t time, float_t value);
+/// @brief Method .ctor, addr 0x690cca0, size 0x10, virtual false, abstract: false, final false
+inline void _ctor(float_t  time, float_t  value) ;
 
-  /// @brief Method .ctor, addr 0x690b138, size 0x14, virtual false, abstract: false, final false
-  inline void _ctor(float_t time, float_t value, float_t inTangent, float_t outTangent);
+/// @brief Method .ctor, addr 0x690ccb0, size 0x14, virtual false, abstract: false, final false
+inline void _ctor(float_t  time, float_t  value, float_t  inTangent, float_t  outTangent) ;
 
-  /// @brief Method get_inTangent, addr 0x690b16c, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_inTangent();
+/// @brief Method get_inTangent, addr 0x690cce4, size 0x8, virtual false, abstract: false, final false
+inline float_t get_inTangent() ;
 
-  /// @brief Method get_inWeight, addr 0x690b18c, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_inWeight();
+/// @brief Method get_inWeight, addr 0x690cd04, size 0x8, virtual false, abstract: false, final false
+inline float_t get_inWeight() ;
 
-  /// @brief Method get_outTangent, addr 0x690b17c, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_outTangent();
+/// @brief Method get_outTangent, addr 0x690ccf4, size 0x8, virtual false, abstract: false, final false
+inline float_t get_outTangent() ;
 
-  /// @brief Method get_outWeight, addr 0x690b19c, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_outWeight();
+/// @brief Method get_outWeight, addr 0x690cd14, size 0x8, virtual false, abstract: false, final false
+inline float_t get_outWeight() ;
 
-  /// @brief Method get_time, addr 0x690b14c, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_time();
+/// @brief Method get_time, addr 0x690ccc4, size 0x8, virtual false, abstract: false, final false
+inline float_t get_time() ;
 
-  /// @brief Method get_value, addr 0x690b15c, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_value();
+/// @brief Method get_value, addr 0x690ccd4, size 0x8, virtual false, abstract: false, final false
+inline float_t get_value() ;
 
-  /// @brief Method get_weightedMode, addr 0x690b1ac, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::WeightedMode get_weightedMode();
+/// @brief Method get_weightedMode, addr 0x690cd24, size 0x8, virtual false, abstract: false, final false
+inline ::UnityEngine::WeightedMode get_weightedMode() ;
 
-  /// @brief Method set_inTangent, addr 0x690b174, size 0x8, virtual false, abstract: false, final false
-  inline void set_inTangent(float_t value);
+/// @brief Method set_inTangent, addr 0x690ccec, size 0x8, virtual false, abstract: false, final false
+inline void set_inTangent(float_t  value) ;
 
-  /// @brief Method set_inWeight, addr 0x690b194, size 0x8, virtual false, abstract: false, final false
-  inline void set_inWeight(float_t value);
+/// @brief Method set_inWeight, addr 0x690cd0c, size 0x8, virtual false, abstract: false, final false
+inline void set_inWeight(float_t  value) ;
 
-  /// @brief Method set_outTangent, addr 0x690b184, size 0x8, virtual false, abstract: false, final false
-  inline void set_outTangent(float_t value);
+/// @brief Method set_outTangent, addr 0x690ccfc, size 0x8, virtual false, abstract: false, final false
+inline void set_outTangent(float_t  value) ;
 
-  /// @brief Method set_outWeight, addr 0x690b1a4, size 0x8, virtual false, abstract: false, final false
-  inline void set_outWeight(float_t value);
+/// @brief Method set_outWeight, addr 0x690cd1c, size 0x8, virtual false, abstract: false, final false
+inline void set_outWeight(float_t  value) ;
 
-  /// @brief Method set_time, addr 0x690b154, size 0x8, virtual false, abstract: false, final false
-  inline void set_time(float_t value);
+/// @brief Method set_time, addr 0x690cccc, size 0x8, virtual false, abstract: false, final false
+inline void set_time(float_t  value) ;
 
-  /// @brief Method set_value, addr 0x690b164, size 0x8, virtual false, abstract: false, final false
-  inline void set_value(float_t value);
+/// @brief Method set_value, addr 0x690ccdc, size 0x8, virtual false, abstract: false, final false
+inline void set_value(float_t  value) ;
 
-  /// @brief Method set_weightedMode, addr 0x690b1b4, size 0x8, virtual false, abstract: false, final false
-  inline void set_weightedMode(::UnityEngine::WeightedMode value);
+/// @brief Method set_weightedMode, addr 0x690cd2c, size 0x8, virtual false, abstract: false, final false
+inline void set_weightedMode(::UnityEngine::WeightedMode  value) ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Keyframe();
+// Ctor Parameters []
+// @brief default ctor
+constexpr Keyframe() ;
 
-  // Ctor Parameters [CppParam { name: "m_Time", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_Value", ty: "float_t", modifiers: "", def_value: None }, CppParam { name:
-  // "m_InTangent", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_OutTangent", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_WeightedMode", ty: "int32_t",
-  // modifiers: "", def_value: None }, CppParam { name: "m_InWeight", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_OutWeight", ty: "float_t", modifiers: "", def_value: None }]
-  constexpr Keyframe(float_t m_Time, float_t m_Value, float_t m_InTangent, float_t m_OutTangent, int32_t m_WeightedMode, float_t m_InWeight, float_t m_OutWeight) noexcept;
+// Ctor Parameters [CppParam { name: "m_Time", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_Value", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_InTangent", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_OutTangent", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_WeightedMode", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_InWeight", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_OutWeight", ty: "float_t", modifiers: "", def_value: None }]
+constexpr Keyframe(float_t  m_Time, float_t  m_Value, float_t  m_InTangent, float_t  m_OutTangent, int32_t  m_WeightedMode, float_t  m_InWeight, float_t  m_OutWeight) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10042 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10043};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1c };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1c};
 
-  /// @brief Field m_Time, offset: 0x0, size: 0x4, def value: None
-  float_t m_Time;
+/// @brief Field m_Time, offset: 0x0, size: 0x4, def value: None
+ float_t  m_Time;
 
-  /// @brief Field m_Value, offset: 0x4, size: 0x4, def value: None
-  float_t m_Value;
+/// @brief Field m_Value, offset: 0x4, size: 0x4, def value: None
+ float_t  m_Value;
 
-  /// @brief Field m_InTangent, offset: 0x8, size: 0x4, def value: None
-  float_t m_InTangent;
+/// @brief Field m_InTangent, offset: 0x8, size: 0x4, def value: None
+ float_t  m_InTangent;
 
-  /// @brief Field m_OutTangent, offset: 0xc, size: 0x4, def value: None
-  float_t m_OutTangent;
+/// @brief Field m_OutTangent, offset: 0xc, size: 0x4, def value: None
+ float_t  m_OutTangent;
 
-  /// @brief Field m_WeightedMode, offset: 0x10, size: 0x4, def value: None
-  int32_t m_WeightedMode;
+/// @brief Field m_WeightedMode, offset: 0x10, size: 0x4, def value: None
+ int32_t  m_WeightedMode;
 
-  /// @brief Field m_InWeight, offset: 0x14, size: 0x4, def value: None
-  float_t m_InWeight;
+/// @brief Field m_InWeight, offset: 0x14, size: 0x4, def value: None
+ float_t  m_InWeight;
 
-  /// @brief Field m_OutWeight, offset: 0x18, size: 0x4, def value: None
-  float_t m_OutWeight;
+/// @brief Field m_OutWeight, offset: 0x18, size: 0x4, def value: None
+ float_t  m_OutWeight;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Keyframe, m_Time) == 0x0, "Offset mismatch!");
@@ -140,5 +138,5 @@ static_assert(offsetof(::UnityEngine::Keyframe, m_OutWeight) == 0x18, "Offset mi
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Keyframe, 0x1c>, "Size mismatch!");
 
-} // namespace UnityEngine
+} // namespace end def UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Keyframe, "UnityEngine", "Keyframe");

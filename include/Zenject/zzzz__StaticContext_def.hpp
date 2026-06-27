@@ -20,45 +20,45 @@ namespace Zenject {
 // CS Name: Zenject.StaticContext
 class CORDL_TYPE StaticContext : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field _container, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF__container, put = setStaticF__container)) ::Zenject::DiContainer* _container;
+// Declarations
+/// @brief Field _container, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF__container, put=setStaticF__container)) ::Zenject::DiContainer*  _container;
 
-  /// @brief Method Clear, addr 0x6d1b8bc, size 0x4c, virtual false, abstract: false, final false
-  static inline void Clear();
+/// @brief Method Clear, addr 0x6d1d434, size 0x4c, virtual false, abstract: false, final false
+static inline void Clear() ;
 
-  static inline ::Zenject::DiContainer* getStaticF__container();
+static inline ::Zenject::DiContainer* getStaticF__container() ;
 
-  /// @brief Method get_Container, addr 0x6d174b0, size 0x90, virtual false, abstract: false, final false
-  static inline ::Zenject::DiContainer* get_Container();
+/// @brief Method get_Container, addr 0x6d19028, size 0x90, virtual false, abstract: false, final false
+static inline ::Zenject::DiContainer* get_Container() ;
 
-  /// @brief Method get_HasContainer, addr 0x6d1b908, size 0x54, virtual false, abstract: false, final false
-  static inline bool get_HasContainer();
+/// @brief Method get_HasContainer, addr 0x6d1d480, size 0x54, virtual false, abstract: false, final false
+static inline bool get_HasContainer() ;
 
-  static inline void setStaticF__container(::Zenject::DiContainer* value);
+static inline void setStaticF__container(::Zenject::DiContainer*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr StaticContext();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr StaticContext() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StaticContext", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  StaticContext(StaticContext&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StaticContext", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  StaticContext(StaticContext const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "StaticContext", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+StaticContext(StaticContext && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14466 };
+// Ctor Parameters [CppParam { name: "", ty: "StaticContext", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+StaticContext(StaticContext const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{14467};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Zenject::StaticContext, 0x10>, "Size mismatch!");
 
-} // namespace Zenject
+} // namespace end def Zenject
 NEED_NO_BOX(::Zenject::StaticContext);
 DEFINE_IL2CPP_ARG_TYPE(::Zenject::StaticContext*, "Zenject", "StaticContext");

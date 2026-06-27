@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "Unity/Burst/BurstAuthorizedExternalMethodAttribute.hpp"
 #include "Unity/Burst/BurstCompileAttribute.hpp"
@@ -27,5 +27,6 @@ module;
 #include "Unity/Burst/SharedStatic_1.hpp"
 #include "Unity/Burst/Unsafe.hpp"
 #ifdef __cpp_modules
-export module Burst;
-#endif
+                    export module Burst;
+                    #endif
+                

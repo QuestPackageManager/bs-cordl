@@ -21,69 +21,69 @@ namespace GlobalNamespace {
 // CS Name: ConditionalMove
 class CORDL_TYPE ConditionalMove : public ::UnityEngine::MonoBehaviour {
 public:
-  // Declarations
-  /// @brief Field _activateOnFalse, offset 0x38, size 0x1
-  __declspec(property(get = __cordl_internal_get__activateOnFalse, put = __cordl_internal_set__activateOnFalse)) bool _activateOnFalse;
+// Declarations
+/// @brief Field _activateOnFalse, offset 0x38, size 0x1 
+ __declspec(property(get=__cordl_internal_get__activateOnFalse, put=__cordl_internal_set__activateOnFalse)) bool  _activateOnFalse;
 
-  /// @brief Field _offset, offset 0x20, size 0xc
-  __declspec(property(get = __cordl_internal_get__offset, put = __cordl_internal_set__offset)) ::UnityEngine::Vector3 _offset;
+/// @brief Field _offset, offset 0x20, size 0xc 
+ __declspec(property(get=__cordl_internal_get__offset, put=__cordl_internal_set__offset)) ::UnityEngine::Vector3  _offset;
 
-  /// @brief Field _value, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__value, put = __cordl_internal_set__value)) ::UnityW<::GlobalNamespace::BoolSO> _value;
+/// @brief Field _value, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get__value, put=__cordl_internal_set__value)) ::UnityW<::GlobalNamespace::BoolSO>  _value;
 
-  /// @brief Method Awake, addr 0x57dd830, size 0xb8, virtual false, abstract: false, final false
-  inline void Awake();
+/// @brief Method Awake, addr 0x57df098, size 0xb8, virtual false, abstract: false, final false
+inline void Awake() ;
 
-  static inline ::GlobalNamespace::ConditionalMove* New_ctor();
+static inline ::GlobalNamespace::ConditionalMove* New_ctor() ;
 
-  constexpr bool const& __cordl_internal_get__activateOnFalse() const;
+constexpr bool const& __cordl_internal_get__activateOnFalse() const;
 
-  constexpr bool& __cordl_internal_get__activateOnFalse();
+constexpr bool& __cordl_internal_get__activateOnFalse() ;
 
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__offset() const;
+constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__offset() const;
 
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get__offset();
+constexpr ::UnityEngine::Vector3& __cordl_internal_get__offset() ;
 
-  constexpr ::UnityW<::GlobalNamespace::BoolSO> const& __cordl_internal_get__value() const;
+constexpr ::UnityW<::GlobalNamespace::BoolSO> const& __cordl_internal_get__value() const;
 
-  constexpr ::UnityW<::GlobalNamespace::BoolSO>& __cordl_internal_get__value();
+constexpr ::UnityW<::GlobalNamespace::BoolSO>& __cordl_internal_get__value() ;
 
-  constexpr void __cordl_internal_set__activateOnFalse(bool value);
+constexpr void __cordl_internal_set__activateOnFalse(bool  value) ;
 
-  constexpr void __cordl_internal_set__offset(::UnityEngine::Vector3 value);
+constexpr void __cordl_internal_set__offset(::UnityEngine::Vector3  value) ;
 
-  constexpr void __cordl_internal_set__value(::UnityW<::GlobalNamespace::BoolSO> value);
+constexpr void __cordl_internal_set__value(::UnityW<::GlobalNamespace::BoolSO>  value) ;
 
-  /// @brief Method .ctor, addr 0x57dd8e8, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x57df150, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ConditionalMove();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ConditionalMove() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ConditionalMove", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ConditionalMove(ConditionalMove&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ConditionalMove", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ConditionalMove(ConditionalMove const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ConditionalMove", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ConditionalMove(ConditionalMove && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6749 };
+// Ctor Parameters [CppParam { name: "", ty: "ConditionalMove", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ConditionalMove(ConditionalMove const& ) = delete;
 
-  /// @brief Field _offset, offset: 0x20, size: 0xc, def value: None
-  ::UnityEngine::Vector3 ____offset;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6749};
 
-  /// @brief Field _value, offset: 0x30, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::BoolSO> ____value;
+/// @brief Field _offset, offset: 0x20, size: 0xc, def value: None
+ ::UnityEngine::Vector3  ____offset;
 
-  /// @brief Field _activateOnFalse, offset: 0x38, size: 0x1, def value: None
-  bool ____activateOnFalse;
+/// @brief Field _value, offset: 0x30, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::BoolSO>  ____value;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _activateOnFalse, offset: 0x38, size: 0x1, def value: None
+ bool  ____activateOnFalse;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::ConditionalMove, ____offset) == 0x20, "Offset mismatch!");
@@ -94,6 +94,6 @@ static_assert(offsetof(::GlobalNamespace::ConditionalMove, ____activateOnFalse) 
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ConditionalMove, 0x40>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ConditionalMove);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ConditionalMove*, "", "ConditionalMove");

@@ -56,101 +56,101 @@ namespace System::Xml::Schema {
 // CS Name: System.Xml.Schema.Datatype_dateTimeBase
 class CORDL_TYPE Datatype_dateTimeBase : public ::System::Xml::Schema::Datatype_anySimpleType {
 public:
-  // Declarations
-  __declspec(property(get = get_BuiltInWhitespaceFacet)) ::System::Xml::Schema::XmlSchemaWhiteSpace BuiltInWhitespaceFacet;
+// Declarations
+ __declspec(property(get=get_BuiltInWhitespaceFacet)) ::System::Xml::Schema::XmlSchemaWhiteSpace  BuiltInWhitespaceFacet;
 
-  __declspec(property(get = get_FacetsChecker)) ::System::Xml::Schema::FacetsChecker* FacetsChecker;
+ __declspec(property(get=get_FacetsChecker)) ::System::Xml::Schema::FacetsChecker*  FacetsChecker;
 
-  __declspec(property(get = get_ListValueType)) ::System::Type* ListValueType;
+ __declspec(property(get=get_ListValueType)) ::System::Type*  ListValueType;
 
-  __declspec(property(get = get_TypeCode)) ::System::Xml::Schema::XmlTypeCode TypeCode;
+ __declspec(property(get=get_TypeCode)) ::System::Xml::Schema::XmlTypeCode  TypeCode;
 
-  __declspec(property(get = get_ValidRestrictionFlags)) ::System::Xml::Schema::RestrictionFlags ValidRestrictionFlags;
+ __declspec(property(get=get_ValidRestrictionFlags)) ::System::Xml::Schema::RestrictionFlags  ValidRestrictionFlags;
 
-  __declspec(property(get = get_ValueType)) ::System::Type* ValueType;
+ __declspec(property(get=get_ValueType)) ::System::Type*  ValueType;
 
-  /// @brief Field atomicValueType, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_atomicValueType, put = setStaticF_atomicValueType)) ::System::Type* atomicValueType;
+/// @brief Field atomicValueType, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_atomicValueType, put=setStaticF_atomicValueType)) ::System::Type*  atomicValueType;
 
-  /// @brief Field dateTimeFlags, offset 0x38, size 0x4
-  __declspec(property(get = __cordl_internal_get_dateTimeFlags, put = __cordl_internal_set_dateTimeFlags)) ::System::Xml::Schema::XsdDateTimeFlags dateTimeFlags;
+/// @brief Field dateTimeFlags, offset 0x38, size 0x4 
+ __declspec(property(get=__cordl_internal_get_dateTimeFlags, put=__cordl_internal_set_dateTimeFlags)) ::System::Xml::Schema::XsdDateTimeFlags  dateTimeFlags;
 
-  /// @brief Field listValueType, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_listValueType, put = setStaticF_listValueType)) ::System::Type* listValueType;
+/// @brief Field listValueType, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_listValueType, put=setStaticF_listValueType)) ::System::Type*  listValueType;
 
-  /// @brief Method Compare, addr 0x6083dac, size 0x140, virtual true, abstract: false, final false
-  inline int32_t Compare(::System::Object* value1, ::System::Object* value2);
+/// @brief Method Compare, addr 0x6085924, size 0x140, virtual true, abstract: false, final false
+inline int32_t Compare(::System::Object*  value1, ::System::Object*  value2) ;
 
-  /// @brief Method CreateValueConverter, addr 0x6083c0c, size 0xc, virtual true, abstract: false, final false
-  inline ::System::Xml::Schema::XmlValueConverter* CreateValueConverter(::System::Xml::Schema::XmlSchemaType* schemaType);
+/// @brief Method CreateValueConverter, addr 0x6085784, size 0xc, virtual true, abstract: false, final false
+inline ::System::Xml::Schema::XmlValueConverter* CreateValueConverter(::System::Xml::Schema::XmlSchemaType*  schemaType) ;
 
-  static inline ::System::Xml::Schema::Datatype_dateTimeBase* New_ctor(::System::Xml::Schema::XsdDateTimeFlags dateTimeFlags);
+static inline ::System::Xml::Schema::Datatype_dateTimeBase* New_ctor(::System::Xml::Schema::XsdDateTimeFlags  dateTimeFlags) ;
 
-  /// @brief Method TryParseValue, addr 0x6083eec, size 0x34c, virtual true, abstract: false, final false
-  inline ::System::Exception* TryParseValue(::StringW s, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::IXmlNamespaceResolver* nsmgr, ::ByRef<::System::Object*> typedValue);
+/// @brief Method TryParseValue, addr 0x6085a64, size 0x34c, virtual true, abstract: false, final false
+inline ::System::Exception* TryParseValue(::StringW  s, ::System::Xml::XmlNameTable*  nameTable, ::System::Xml::IXmlNamespaceResolver*  nsmgr, ::ByRef<::System::Object*>  typedValue) ;
 
-  constexpr ::System::Xml::Schema::XsdDateTimeFlags const& __cordl_internal_get_dateTimeFlags() const;
+constexpr ::System::Xml::Schema::XsdDateTimeFlags const& __cordl_internal_get_dateTimeFlags() const;
 
-  constexpr ::System::Xml::Schema::XsdDateTimeFlags& __cordl_internal_get_dateTimeFlags();
+constexpr ::System::Xml::Schema::XsdDateTimeFlags& __cordl_internal_get_dateTimeFlags() ;
 
-  constexpr void __cordl_internal_set_dateTimeFlags(::System::Xml::Schema::XsdDateTimeFlags value);
+constexpr void __cordl_internal_set_dateTimeFlags(::System::Xml::Schema::XsdDateTimeFlags  value) ;
 
-  /// @brief Method .ctor, addr 0x6083c7c, size 0x68, virtual false, abstract: false, final false
-  inline void _ctor(::System::Xml::Schema::XsdDateTimeFlags dateTimeFlags);
+/// @brief Method .ctor, addr 0x60857f4, size 0x68, virtual false, abstract: false, final false
+inline void _ctor(::System::Xml::Schema::XsdDateTimeFlags  dateTimeFlags) ;
 
-  static inline ::System::Type* getStaticF_atomicValueType();
+static inline ::System::Type* getStaticF_atomicValueType() ;
 
-  static inline ::System::Type* getStaticF_listValueType();
+static inline ::System::Type* getStaticF_listValueType() ;
 
-  /// @brief Method get_BuiltInWhitespaceFacet, addr 0x6083d9c, size 0x8, virtual true, abstract: false, final false
-  inline ::System::Xml::Schema::XmlSchemaWhiteSpace get_BuiltInWhitespaceFacet();
+/// @brief Method get_BuiltInWhitespaceFacet, addr 0x6085914, size 0x8, virtual true, abstract: false, final false
+inline ::System::Xml::Schema::XmlSchemaWhiteSpace get_BuiltInWhitespaceFacet() ;
 
-  /// @brief Method get_FacetsChecker, addr 0x6083c18, size 0x5c, virtual true, abstract: false, final false
-  inline ::System::Xml::Schema::FacetsChecker* get_FacetsChecker();
+/// @brief Method get_FacetsChecker, addr 0x6085790, size 0x5c, virtual true, abstract: false, final false
+inline ::System::Xml::Schema::FacetsChecker* get_FacetsChecker() ;
 
-  /// @brief Method get_ListValueType, addr 0x6083d40, size 0x5c, virtual true, abstract: false, final false
-  inline ::System::Type* get_ListValueType();
+/// @brief Method get_ListValueType, addr 0x60858b8, size 0x5c, virtual true, abstract: false, final false
+inline ::System::Type* get_ListValueType() ;
 
-  /// @brief Method get_TypeCode, addr 0x6083c74, size 0x8, virtual true, abstract: false, final false
-  inline ::System::Xml::Schema::XmlTypeCode get_TypeCode();
+/// @brief Method get_TypeCode, addr 0x60857ec, size 0x8, virtual true, abstract: false, final false
+inline ::System::Xml::Schema::XmlTypeCode get_TypeCode() ;
 
-  /// @brief Method get_ValidRestrictionFlags, addr 0x6083da4, size 0x8, virtual true, abstract: false, final false
-  inline ::System::Xml::Schema::RestrictionFlags get_ValidRestrictionFlags();
+/// @brief Method get_ValidRestrictionFlags, addr 0x608591c, size 0x8, virtual true, abstract: false, final false
+inline ::System::Xml::Schema::RestrictionFlags get_ValidRestrictionFlags() ;
 
-  /// @brief Method get_ValueType, addr 0x6083ce4, size 0x5c, virtual true, abstract: false, final false
-  inline ::System::Type* get_ValueType();
+/// @brief Method get_ValueType, addr 0x608585c, size 0x5c, virtual true, abstract: false, final false
+inline ::System::Type* get_ValueType() ;
 
-  static inline void setStaticF_atomicValueType(::System::Type* value);
+static inline void setStaticF_atomicValueType(::System::Type*  value) ;
 
-  static inline void setStaticF_listValueType(::System::Type* value);
+static inline void setStaticF_listValueType(::System::Type*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Datatype_dateTimeBase();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr Datatype_dateTimeBase() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Datatype_dateTimeBase", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  Datatype_dateTimeBase(Datatype_dateTimeBase&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Datatype_dateTimeBase", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  Datatype_dateTimeBase(Datatype_dateTimeBase const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "Datatype_dateTimeBase", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Datatype_dateTimeBase(Datatype_dateTimeBase && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9615 };
+// Ctor Parameters [CppParam { name: "", ty: "Datatype_dateTimeBase", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Datatype_dateTimeBase(Datatype_dateTimeBase const& ) = delete;
 
-  /// @brief Field dateTimeFlags, offset: 0x38, size: 0x4, def value: None
-  ::System::Xml::Schema::XsdDateTimeFlags ___dateTimeFlags;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9616};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field dateTimeFlags, offset: 0x38, size: 0x4, def value: None
+ ::System::Xml::Schema::XsdDateTimeFlags  ___dateTimeFlags;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Xml::Schema::Datatype_dateTimeBase, ___dateTimeFlags) == 0x38, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::Datatype_dateTimeBase, 0x40>, "Size mismatch!");
 
-} // namespace System::Xml::Schema
+} // namespace end def System::Xml::Schema
 NEED_NO_BOX(::System::Xml::Schema::Datatype_dateTimeBase);
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::Datatype_dateTimeBase*, "System.Xml.Schema", "Datatype_dateTimeBase");

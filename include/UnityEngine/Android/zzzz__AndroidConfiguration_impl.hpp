@@ -26,817 +26,1024 @@
 #include "UnityEngine/Android/zzzz__AndroidUIModeNight_def.hpp"
 #include "UnityEngine/Android/zzzz__AndroidUIModeType_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Android::AndroidConfiguration.get_colorMode
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Android::AndroidConfiguration::*)()>(
-    &::UnityEngine::Android::AndroidConfiguration::get_colorMode)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Android::AndroidConfiguration::*)()>(&::UnityEngine::Android::AndroidConfiguration::get_colorMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68d694c;
+  constexpr static std::size_t addrs = 0x68d84c4;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
-                                                                               "get_colorMode", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
+                        "get_colorMode",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Android::AndroidConfiguration.get_densityDpi
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Android::AndroidConfiguration::*)()>(
-    &::UnityEngine::Android::AndroidConfiguration::get_densityDpi)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Android::AndroidConfiguration::*)()>(&::UnityEngine::Android::AndroidConfiguration::get_densityDpi)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68d6954;
+  constexpr static std::size_t addrs = 0x68d84cc;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
-                                                                               "get_densityDpi", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
+                        "get_densityDpi",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Android::AndroidConfiguration.get_fontScale
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::Android::AndroidConfiguration::*)()>(
-    &::UnityEngine::Android::AndroidConfiguration::get_fontScale)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::Android::AndroidConfiguration::*)()>(&::UnityEngine::Android::AndroidConfiguration::get_fontScale)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68d695c;
+  constexpr static std::size_t addrs = 0x68d84d4;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
-                                                                               "get_fontScale", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
+                        "get_fontScale",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Android::AndroidConfiguration.get_fontWeightAdjustment
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Android::AndroidConfiguration::*)()>(
-    &::UnityEngine::Android::AndroidConfiguration::get_fontWeightAdjustment)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Android::AndroidConfiguration::*)()>(&::UnityEngine::Android::AndroidConfiguration::get_fontWeightAdjustment)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68d6964;
+  constexpr static std::size_t addrs = 0x68d84dc;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
-                                                                               "get_fontWeightAdjustment", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
+                        "get_fontWeightAdjustment",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Android::AndroidConfiguration.get_keyboard
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Android::AndroidKeyboard (::UnityEngine::Android::AndroidConfiguration::*)()>(
-    &::UnityEngine::Android::AndroidConfiguration::get_keyboard)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Android::AndroidKeyboard (::UnityEngine::Android::AndroidConfiguration::*)()>(&::UnityEngine::Android::AndroidConfiguration::get_keyboard)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68d696c;
+  constexpr static std::size_t addrs = 0x68d84e4;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
-                                                                               "get_keyboard", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
+                        "get_keyboard",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Android::AndroidConfiguration.get_hardKeyboardHidden
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Android::AndroidHardwareKeyboardHidden (::UnityEngine::Android::AndroidConfiguration::*)()>(
-    &::UnityEngine::Android::AndroidConfiguration::get_hardKeyboardHidden)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Android::AndroidHardwareKeyboardHidden (::UnityEngine::Android::AndroidConfiguration::*)()>(&::UnityEngine::Android::AndroidConfiguration::get_hardKeyboardHidden)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68d6974;
+  constexpr static std::size_t addrs = 0x68d84ec;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
-                                                                               "get_hardKeyboardHidden", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
+                        "get_hardKeyboardHidden",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Android::AndroidConfiguration.get_keyboardHidden
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Android::AndroidKeyboardHidden (::UnityEngine::Android::AndroidConfiguration::*)()>(
-    &::UnityEngine::Android::AndroidConfiguration::get_keyboardHidden)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Android::AndroidKeyboardHidden (::UnityEngine::Android::AndroidConfiguration::*)()>(&::UnityEngine::Android::AndroidConfiguration::get_keyboardHidden)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68d697c;
+  constexpr static std::size_t addrs = 0x68d84f4;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
-                                                                               "get_keyboardHidden", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
+                        "get_keyboardHidden",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Android::AndroidConfiguration.get_mobileCountryCode
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Android::AndroidConfiguration::*)()>(
-    &::UnityEngine::Android::AndroidConfiguration::get_mobileCountryCode)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Android::AndroidConfiguration::*)()>(&::UnityEngine::Android::AndroidConfiguration::get_mobileCountryCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68d6984;
+  constexpr static std::size_t addrs = 0x68d84fc;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
-                                                                               "get_mobileCountryCode", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
+                        "get_mobileCountryCode",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Android::AndroidConfiguration.get_mobileNetworkCode
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Android::AndroidConfiguration::*)()>(
-    &::UnityEngine::Android::AndroidConfiguration::get_mobileNetworkCode)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Android::AndroidConfiguration::*)()>(&::UnityEngine::Android::AndroidConfiguration::get_mobileNetworkCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68d698c;
+  constexpr static std::size_t addrs = 0x68d8504;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
-                                                                               "get_mobileNetworkCode", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
+                        "get_mobileNetworkCode",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Android::AndroidConfiguration.get_navigation
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Android::AndroidNavigation (::UnityEngine::Android::AndroidConfiguration::*)()>(
-    &::UnityEngine::Android::AndroidConfiguration::get_navigation)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Android::AndroidNavigation (::UnityEngine::Android::AndroidConfiguration::*)()>(&::UnityEngine::Android::AndroidConfiguration::get_navigation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68d6994;
+  constexpr static std::size_t addrs = 0x68d850c;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
-                                                                               "get_navigation", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
+                        "get_navigation",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Android::AndroidConfiguration.get_navigationHidden
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Android::AndroidNavigationHidden (::UnityEngine::Android::AndroidConfiguration::*)()>(
-    &::UnityEngine::Android::AndroidConfiguration::get_navigationHidden)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Android::AndroidNavigationHidden (::UnityEngine::Android::AndroidConfiguration::*)()>(&::UnityEngine::Android::AndroidConfiguration::get_navigationHidden)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68d699c;
+  constexpr static std::size_t addrs = 0x68d8514;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
-                                                                               "get_navigationHidden", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
+                        "get_navigationHidden",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Android::AndroidConfiguration.get_orientation
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Android::AndroidOrientation (::UnityEngine::Android::AndroidConfiguration::*)()>(
-    &::UnityEngine::Android::AndroidConfiguration::get_orientation)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Android::AndroidOrientation (::UnityEngine::Android::AndroidConfiguration::*)()>(&::UnityEngine::Android::AndroidConfiguration::get_orientation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68d69a4;
+  constexpr static std::size_t addrs = 0x68d851c;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
-                                                                               "get_orientation", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
+                        "get_orientation",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Android::AndroidConfiguration.get_screenHeightDp
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Android::AndroidConfiguration::*)()>(
-    &::UnityEngine::Android::AndroidConfiguration::get_screenHeightDp)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Android::AndroidConfiguration::*)()>(&::UnityEngine::Android::AndroidConfiguration::get_screenHeightDp)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68d69ac;
+  constexpr static std::size_t addrs = 0x68d8524;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
-                                                                               "get_screenHeightDp", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
+                        "get_screenHeightDp",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Android::AndroidConfiguration.get_screenWidthDp
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Android::AndroidConfiguration::*)()>(
-    &::UnityEngine::Android::AndroidConfiguration::get_screenWidthDp)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Android::AndroidConfiguration::*)()>(&::UnityEngine::Android::AndroidConfiguration::get_screenWidthDp)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68d69b4;
+  constexpr static std::size_t addrs = 0x68d852c;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
-                                                                               "get_screenWidthDp", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
+                        "get_screenWidthDp",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Android::AndroidConfiguration.get_smallestScreenWidthDp
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Android::AndroidConfiguration::*)()>(
-    &::UnityEngine::Android::AndroidConfiguration::get_smallestScreenWidthDp)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Android::AndroidConfiguration::*)()>(&::UnityEngine::Android::AndroidConfiguration::get_smallestScreenWidthDp)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68d69bc;
+  constexpr static std::size_t addrs = 0x68d8534;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
-                                                                               "get_smallestScreenWidthDp", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
+                        "get_smallestScreenWidthDp",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Android::AndroidConfiguration.get_screenLayout
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Android::AndroidConfiguration::*)()>(
-    &::UnityEngine::Android::AndroidConfiguration::get_screenLayout)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Android::AndroidConfiguration::*)()>(&::UnityEngine::Android::AndroidConfiguration::get_screenLayout)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68d69c4;
+  constexpr static std::size_t addrs = 0x68d853c;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
-                                                                               "get_screenLayout", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
+                        "get_screenLayout",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Android::AndroidConfiguration.get_touchScreen
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Android::AndroidTouchScreen (::UnityEngine::Android::AndroidConfiguration::*)()>(
-    &::UnityEngine::Android::AndroidConfiguration::get_touchScreen)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Android::AndroidTouchScreen (::UnityEngine::Android::AndroidConfiguration::*)()>(&::UnityEngine::Android::AndroidConfiguration::get_touchScreen)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68d69cc;
+  constexpr static std::size_t addrs = 0x68d8544;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
-                                                                               "get_touchScreen", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
+                        "get_touchScreen",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Android::AndroidConfiguration.get_uiMode
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Android::AndroidConfiguration::*)()>(
-    &::UnityEngine::Android::AndroidConfiguration::get_uiMode)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Android::AndroidConfiguration::*)()>(&::UnityEngine::Android::AndroidConfiguration::get_uiMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68d69d4;
+  constexpr static std::size_t addrs = 0x68d854c;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
-                                                                               "get_uiMode", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
+                        "get_uiMode",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Android::AndroidConfiguration.get_primaryLocaleCountry
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::Android::AndroidConfiguration::*)()>(
-    &::UnityEngine::Android::AndroidConfiguration::get_primaryLocaleCountry)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::Android::AndroidConfiguration::*)()>(&::UnityEngine::Android::AndroidConfiguration::get_primaryLocaleCountry)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68d69dc;
+  constexpr static std::size_t addrs = 0x68d8554;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
-                                                                               "get_primaryLocaleCountry", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
+                        "get_primaryLocaleCountry",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Android::AndroidConfiguration.get_primaryLocaleLanguage
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::Android::AndroidConfiguration::*)()>(
-    &::UnityEngine::Android::AndroidConfiguration::get_primaryLocaleLanguage)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::Android::AndroidConfiguration::*)()>(&::UnityEngine::Android::AndroidConfiguration::get_primaryLocaleLanguage)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68d69e4;
+  constexpr static std::size_t addrs = 0x68d855c;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
-                                                                               "get_primaryLocaleLanguage", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
+                        "get_primaryLocaleLanguage",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Android::AndroidConfiguration.get_locales
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::Android::AndroidLocale*, ::Array<::UnityEngine::Android::AndroidLocale*>*> (
-    ::UnityEngine::Android::AndroidConfiguration::*)()>(&::UnityEngine::Android::AndroidConfiguration::get_locales)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::Android::AndroidLocale*,::Array<::UnityEngine::Android::AndroidLocale*>*> (::UnityEngine::Android::AndroidConfiguration::*)()>(&::UnityEngine::Android::AndroidConfiguration::get_locales)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x68d69ec;
+  constexpr static std::size_t addrs = 0x68d8564;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
-                                                                               "get_locales", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
+                        "get_locales",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Android::AndroidConfiguration.get_colorModeHdr
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Android::AndroidColorModeHdr (::UnityEngine::Android::AndroidConfiguration::*)()>(
-    &::UnityEngine::Android::AndroidConfiguration::get_colorModeHdr)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Android::AndroidColorModeHdr (::UnityEngine::Android::AndroidConfiguration::*)()>(&::UnityEngine::Android::AndroidConfiguration::get_colorModeHdr)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x68d6ae4;
+  constexpr static std::size_t addrs = 0x68d865c;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
-                                                                               "get_colorModeHdr", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
+                        "get_colorModeHdr",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Android::AndroidConfiguration.get_colorModeWideColorGamut
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Android::AndroidColorModeWideColorGamut (::UnityEngine::Android::AndroidConfiguration::*)()>(
-    &::UnityEngine::Android::AndroidConfiguration::get_colorModeWideColorGamut)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Android::AndroidColorModeWideColorGamut (::UnityEngine::Android::AndroidConfiguration::*)()>(&::UnityEngine::Android::AndroidConfiguration::get_colorModeWideColorGamut)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x68d6af0;
+  constexpr static std::size_t addrs = 0x68d8668;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
-                                                                               "get_colorModeWideColorGamut", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
+                        "get_colorModeWideColorGamut",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Android::AndroidConfiguration.get_screenLayoutDirection
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Android::AndroidScreenLayoutDirection (::UnityEngine::Android::AndroidConfiguration::*)()>(
-    &::UnityEngine::Android::AndroidConfiguration::get_screenLayoutDirection)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Android::AndroidScreenLayoutDirection (::UnityEngine::Android::AndroidConfiguration::*)()>(&::UnityEngine::Android::AndroidConfiguration::get_screenLayoutDirection)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x68d6afc;
+  constexpr static std::size_t addrs = 0x68d8674;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
-                                                                               "get_screenLayoutDirection", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
+                        "get_screenLayoutDirection",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Android::AndroidConfiguration.get_screenLayoutLong
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Android::AndroidScreenLayoutLong (::UnityEngine::Android::AndroidConfiguration::*)()>(
-    &::UnityEngine::Android::AndroidConfiguration::get_screenLayoutLong)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Android::AndroidScreenLayoutLong (::UnityEngine::Android::AndroidConfiguration::*)()>(&::UnityEngine::Android::AndroidConfiguration::get_screenLayoutLong)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x68d6b08;
+  constexpr static std::size_t addrs = 0x68d8680;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
-                                                                               "get_screenLayoutLong", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
+                        "get_screenLayoutLong",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Android::AndroidConfiguration.get_screenLayoutRound
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Android::AndroidScreenLayoutRound (::UnityEngine::Android::AndroidConfiguration::*)()>(
-    &::UnityEngine::Android::AndroidConfiguration::get_screenLayoutRound)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Android::AndroidScreenLayoutRound (::UnityEngine::Android::AndroidConfiguration::*)()>(&::UnityEngine::Android::AndroidConfiguration::get_screenLayoutRound)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x68d6b14;
+  constexpr static std::size_t addrs = 0x68d868c;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
-                                                                               "get_screenLayoutRound", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
+                        "get_screenLayoutRound",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Android::AndroidConfiguration.get_screenLayoutSize
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Android::AndroidScreenLayoutSize (::UnityEngine::Android::AndroidConfiguration::*)()>(
-    &::UnityEngine::Android::AndroidConfiguration::get_screenLayoutSize)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Android::AndroidScreenLayoutSize (::UnityEngine::Android::AndroidConfiguration::*)()>(&::UnityEngine::Android::AndroidConfiguration::get_screenLayoutSize)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x68d6b20;
+  constexpr static std::size_t addrs = 0x68d8698;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
-                                                                               "get_screenLayoutSize", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
+                        "get_screenLayoutSize",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Android::AndroidConfiguration.get_uiModeNight
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Android::AndroidUIModeNight (::UnityEngine::Android::AndroidConfiguration::*)()>(
-    &::UnityEngine::Android::AndroidConfiguration::get_uiModeNight)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Android::AndroidUIModeNight (::UnityEngine::Android::AndroidConfiguration::*)()>(&::UnityEngine::Android::AndroidConfiguration::get_uiModeNight)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x68d6b2c;
+  constexpr static std::size_t addrs = 0x68d86a4;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
-                                                                               "get_uiModeNight", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
+                        "get_uiModeNight",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Android::AndroidConfiguration.get_uiModeType
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Android::AndroidUIModeType (::UnityEngine::Android::AndroidConfiguration::*)()>(
-    &::UnityEngine::Android::AndroidConfiguration::get_uiModeType)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Android::AndroidUIModeType (::UnityEngine::Android::AndroidConfiguration::*)()>(&::UnityEngine::Android::AndroidConfiguration::get_uiModeType)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x68d6b38;
+  constexpr static std::size_t addrs = 0x68d86b0;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
-                                                                               "get_uiModeType", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
+                        "get_uiModeType",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Android::AndroidConfiguration.ToString
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::Android::AndroidConfiguration::*)()>(
-    &::UnityEngine::Android::AndroidConfiguration::ToString)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::Android::AndroidConfiguration::*)()>(&::UnityEngine::Android::AndroidConfiguration::ToString)> {
   constexpr static std::size_t size = 0x11b0;
-  constexpr static std::size_t addrs = 0x68d6b44;
+  constexpr static std::size_t addrs = 0x68d86bc;
 
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(), 3));
+  inline static const ::MethodInfo* methodInfo() {
+    
+                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
+                                  3
+                                ));
     return ___internal_method;
   }
 };
-constexpr int32_t& UnityEngine::Android::AndroidConfiguration::__cordl_internal_get__colorMode_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____colorMode_k__BackingField;
+constexpr int32_t& UnityEngine::Android::AndroidConfiguration::__cordl_internal_get__colorMode_k__BackingField()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____colorMode_k__BackingField;
 }
 constexpr int32_t const& UnityEngine::Android::AndroidConfiguration::__cordl_internal_get__colorMode_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____colorMode_k__BackingField;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____colorMode_k__BackingField;
 }
-constexpr void UnityEngine::Android::AndroidConfiguration::__cordl_internal_set__colorMode_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____colorMode_k__BackingField = value;
+constexpr void UnityEngine::Android::AndroidConfiguration::__cordl_internal_set__colorMode_k__BackingField(int32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____colorMode_k__BackingField = value;
 }
-constexpr int32_t& UnityEngine::Android::AndroidConfiguration::__cordl_internal_get__densityDpi_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____densityDpi_k__BackingField;
+constexpr int32_t& UnityEngine::Android::AndroidConfiguration::__cordl_internal_get__densityDpi_k__BackingField()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____densityDpi_k__BackingField;
 }
 constexpr int32_t const& UnityEngine::Android::AndroidConfiguration::__cordl_internal_get__densityDpi_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____densityDpi_k__BackingField;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____densityDpi_k__BackingField;
 }
-constexpr void UnityEngine::Android::AndroidConfiguration::__cordl_internal_set__densityDpi_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____densityDpi_k__BackingField = value;
+constexpr void UnityEngine::Android::AndroidConfiguration::__cordl_internal_set__densityDpi_k__BackingField(int32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____densityDpi_k__BackingField = value;
 }
-constexpr float_t& UnityEngine::Android::AndroidConfiguration::__cordl_internal_get__fontScale_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____fontScale_k__BackingField;
+constexpr float_t& UnityEngine::Android::AndroidConfiguration::__cordl_internal_get__fontScale_k__BackingField()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____fontScale_k__BackingField;
 }
 constexpr float_t const& UnityEngine::Android::AndroidConfiguration::__cordl_internal_get__fontScale_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____fontScale_k__BackingField;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____fontScale_k__BackingField;
 }
-constexpr void UnityEngine::Android::AndroidConfiguration::__cordl_internal_set__fontScale_k__BackingField(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____fontScale_k__BackingField = value;
+constexpr void UnityEngine::Android::AndroidConfiguration::__cordl_internal_set__fontScale_k__BackingField(float_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____fontScale_k__BackingField = value;
 }
-constexpr int32_t& UnityEngine::Android::AndroidConfiguration::__cordl_internal_get__fontWeightAdjustment_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____fontWeightAdjustment_k__BackingField;
+constexpr int32_t& UnityEngine::Android::AndroidConfiguration::__cordl_internal_get__fontWeightAdjustment_k__BackingField()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____fontWeightAdjustment_k__BackingField;
 }
 constexpr int32_t const& UnityEngine::Android::AndroidConfiguration::__cordl_internal_get__fontWeightAdjustment_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____fontWeightAdjustment_k__BackingField;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____fontWeightAdjustment_k__BackingField;
 }
-constexpr void UnityEngine::Android::AndroidConfiguration::__cordl_internal_set__fontWeightAdjustment_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____fontWeightAdjustment_k__BackingField = value;
+constexpr void UnityEngine::Android::AndroidConfiguration::__cordl_internal_set__fontWeightAdjustment_k__BackingField(int32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____fontWeightAdjustment_k__BackingField = value;
 }
-constexpr ::UnityEngine::Android::AndroidKeyboard& UnityEngine::Android::AndroidConfiguration::__cordl_internal_get__keyboard_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____keyboard_k__BackingField;
+constexpr ::UnityEngine::Android::AndroidKeyboard& UnityEngine::Android::AndroidConfiguration::__cordl_internal_get__keyboard_k__BackingField()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____keyboard_k__BackingField;
 }
 constexpr ::UnityEngine::Android::AndroidKeyboard const& UnityEngine::Android::AndroidConfiguration::__cordl_internal_get__keyboard_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____keyboard_k__BackingField;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____keyboard_k__BackingField;
 }
-constexpr void UnityEngine::Android::AndroidConfiguration::__cordl_internal_set__keyboard_k__BackingField(::UnityEngine::Android::AndroidKeyboard value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____keyboard_k__BackingField = value;
+constexpr void UnityEngine::Android::AndroidConfiguration::__cordl_internal_set__keyboard_k__BackingField(::UnityEngine::Android::AndroidKeyboard  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____keyboard_k__BackingField = value;
 }
-constexpr ::UnityEngine::Android::AndroidHardwareKeyboardHidden& UnityEngine::Android::AndroidConfiguration::__cordl_internal_get__hardKeyboardHidden_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____hardKeyboardHidden_k__BackingField;
+constexpr ::UnityEngine::Android::AndroidHardwareKeyboardHidden& UnityEngine::Android::AndroidConfiguration::__cordl_internal_get__hardKeyboardHidden_k__BackingField()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____hardKeyboardHidden_k__BackingField;
 }
 constexpr ::UnityEngine::Android::AndroidHardwareKeyboardHidden const& UnityEngine::Android::AndroidConfiguration::__cordl_internal_get__hardKeyboardHidden_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____hardKeyboardHidden_k__BackingField;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____hardKeyboardHidden_k__BackingField;
 }
-constexpr void UnityEngine::Android::AndroidConfiguration::__cordl_internal_set__hardKeyboardHidden_k__BackingField(::UnityEngine::Android::AndroidHardwareKeyboardHidden value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____hardKeyboardHidden_k__BackingField = value;
+constexpr void UnityEngine::Android::AndroidConfiguration::__cordl_internal_set__hardKeyboardHidden_k__BackingField(::UnityEngine::Android::AndroidHardwareKeyboardHidden  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____hardKeyboardHidden_k__BackingField = value;
 }
-constexpr ::UnityEngine::Android::AndroidKeyboardHidden& UnityEngine::Android::AndroidConfiguration::__cordl_internal_get__keyboardHidden_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____keyboardHidden_k__BackingField;
+constexpr ::UnityEngine::Android::AndroidKeyboardHidden& UnityEngine::Android::AndroidConfiguration::__cordl_internal_get__keyboardHidden_k__BackingField()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____keyboardHidden_k__BackingField;
 }
 constexpr ::UnityEngine::Android::AndroidKeyboardHidden const& UnityEngine::Android::AndroidConfiguration::__cordl_internal_get__keyboardHidden_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____keyboardHidden_k__BackingField;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____keyboardHidden_k__BackingField;
 }
-constexpr void UnityEngine::Android::AndroidConfiguration::__cordl_internal_set__keyboardHidden_k__BackingField(::UnityEngine::Android::AndroidKeyboardHidden value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____keyboardHidden_k__BackingField = value;
+constexpr void UnityEngine::Android::AndroidConfiguration::__cordl_internal_set__keyboardHidden_k__BackingField(::UnityEngine::Android::AndroidKeyboardHidden  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____keyboardHidden_k__BackingField = value;
 }
-constexpr int32_t& UnityEngine::Android::AndroidConfiguration::__cordl_internal_get__mobileCountryCode_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____mobileCountryCode_k__BackingField;
+constexpr int32_t& UnityEngine::Android::AndroidConfiguration::__cordl_internal_get__mobileCountryCode_k__BackingField()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____mobileCountryCode_k__BackingField;
 }
 constexpr int32_t const& UnityEngine::Android::AndroidConfiguration::__cordl_internal_get__mobileCountryCode_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____mobileCountryCode_k__BackingField;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____mobileCountryCode_k__BackingField;
 }
-constexpr void UnityEngine::Android::AndroidConfiguration::__cordl_internal_set__mobileCountryCode_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____mobileCountryCode_k__BackingField = value;
+constexpr void UnityEngine::Android::AndroidConfiguration::__cordl_internal_set__mobileCountryCode_k__BackingField(int32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____mobileCountryCode_k__BackingField = value;
 }
-constexpr int32_t& UnityEngine::Android::AndroidConfiguration::__cordl_internal_get__mobileNetworkCode_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____mobileNetworkCode_k__BackingField;
+constexpr int32_t& UnityEngine::Android::AndroidConfiguration::__cordl_internal_get__mobileNetworkCode_k__BackingField()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____mobileNetworkCode_k__BackingField;
 }
 constexpr int32_t const& UnityEngine::Android::AndroidConfiguration::__cordl_internal_get__mobileNetworkCode_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____mobileNetworkCode_k__BackingField;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____mobileNetworkCode_k__BackingField;
 }
-constexpr void UnityEngine::Android::AndroidConfiguration::__cordl_internal_set__mobileNetworkCode_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____mobileNetworkCode_k__BackingField = value;
+constexpr void UnityEngine::Android::AndroidConfiguration::__cordl_internal_set__mobileNetworkCode_k__BackingField(int32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____mobileNetworkCode_k__BackingField = value;
 }
-constexpr ::UnityEngine::Android::AndroidNavigation& UnityEngine::Android::AndroidConfiguration::__cordl_internal_get__navigation_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____navigation_k__BackingField;
+constexpr ::UnityEngine::Android::AndroidNavigation& UnityEngine::Android::AndroidConfiguration::__cordl_internal_get__navigation_k__BackingField()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____navigation_k__BackingField;
 }
 constexpr ::UnityEngine::Android::AndroidNavigation const& UnityEngine::Android::AndroidConfiguration::__cordl_internal_get__navigation_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____navigation_k__BackingField;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____navigation_k__BackingField;
 }
-constexpr void UnityEngine::Android::AndroidConfiguration::__cordl_internal_set__navigation_k__BackingField(::UnityEngine::Android::AndroidNavigation value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____navigation_k__BackingField = value;
+constexpr void UnityEngine::Android::AndroidConfiguration::__cordl_internal_set__navigation_k__BackingField(::UnityEngine::Android::AndroidNavigation  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____navigation_k__BackingField = value;
 }
-constexpr ::UnityEngine::Android::AndroidNavigationHidden& UnityEngine::Android::AndroidConfiguration::__cordl_internal_get__navigationHidden_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____navigationHidden_k__BackingField;
+constexpr ::UnityEngine::Android::AndroidNavigationHidden& UnityEngine::Android::AndroidConfiguration::__cordl_internal_get__navigationHidden_k__BackingField()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____navigationHidden_k__BackingField;
 }
 constexpr ::UnityEngine::Android::AndroidNavigationHidden const& UnityEngine::Android::AndroidConfiguration::__cordl_internal_get__navigationHidden_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____navigationHidden_k__BackingField;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____navigationHidden_k__BackingField;
 }
-constexpr void UnityEngine::Android::AndroidConfiguration::__cordl_internal_set__navigationHidden_k__BackingField(::UnityEngine::Android::AndroidNavigationHidden value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____navigationHidden_k__BackingField = value;
+constexpr void UnityEngine::Android::AndroidConfiguration::__cordl_internal_set__navigationHidden_k__BackingField(::UnityEngine::Android::AndroidNavigationHidden  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____navigationHidden_k__BackingField = value;
 }
-constexpr ::UnityEngine::Android::AndroidOrientation& UnityEngine::Android::AndroidConfiguration::__cordl_internal_get__orientation_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____orientation_k__BackingField;
+constexpr ::UnityEngine::Android::AndroidOrientation& UnityEngine::Android::AndroidConfiguration::__cordl_internal_get__orientation_k__BackingField()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____orientation_k__BackingField;
 }
 constexpr ::UnityEngine::Android::AndroidOrientation const& UnityEngine::Android::AndroidConfiguration::__cordl_internal_get__orientation_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____orientation_k__BackingField;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____orientation_k__BackingField;
 }
-constexpr void UnityEngine::Android::AndroidConfiguration::__cordl_internal_set__orientation_k__BackingField(::UnityEngine::Android::AndroidOrientation value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____orientation_k__BackingField = value;
+constexpr void UnityEngine::Android::AndroidConfiguration::__cordl_internal_set__orientation_k__BackingField(::UnityEngine::Android::AndroidOrientation  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____orientation_k__BackingField = value;
 }
-constexpr int32_t& UnityEngine::Android::AndroidConfiguration::__cordl_internal_get__screenHeightDp_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____screenHeightDp_k__BackingField;
+constexpr int32_t& UnityEngine::Android::AndroidConfiguration::__cordl_internal_get__screenHeightDp_k__BackingField()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____screenHeightDp_k__BackingField;
 }
 constexpr int32_t const& UnityEngine::Android::AndroidConfiguration::__cordl_internal_get__screenHeightDp_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____screenHeightDp_k__BackingField;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____screenHeightDp_k__BackingField;
 }
-constexpr void UnityEngine::Android::AndroidConfiguration::__cordl_internal_set__screenHeightDp_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____screenHeightDp_k__BackingField = value;
+constexpr void UnityEngine::Android::AndroidConfiguration::__cordl_internal_set__screenHeightDp_k__BackingField(int32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____screenHeightDp_k__BackingField = value;
 }
-constexpr int32_t& UnityEngine::Android::AndroidConfiguration::__cordl_internal_get__screenWidthDp_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____screenWidthDp_k__BackingField;
+constexpr int32_t& UnityEngine::Android::AndroidConfiguration::__cordl_internal_get__screenWidthDp_k__BackingField()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____screenWidthDp_k__BackingField;
 }
 constexpr int32_t const& UnityEngine::Android::AndroidConfiguration::__cordl_internal_get__screenWidthDp_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____screenWidthDp_k__BackingField;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____screenWidthDp_k__BackingField;
 }
-constexpr void UnityEngine::Android::AndroidConfiguration::__cordl_internal_set__screenWidthDp_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____screenWidthDp_k__BackingField = value;
+constexpr void UnityEngine::Android::AndroidConfiguration::__cordl_internal_set__screenWidthDp_k__BackingField(int32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____screenWidthDp_k__BackingField = value;
 }
-constexpr int32_t& UnityEngine::Android::AndroidConfiguration::__cordl_internal_get__smallestScreenWidthDp_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____smallestScreenWidthDp_k__BackingField;
+constexpr int32_t& UnityEngine::Android::AndroidConfiguration::__cordl_internal_get__smallestScreenWidthDp_k__BackingField()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____smallestScreenWidthDp_k__BackingField;
 }
 constexpr int32_t const& UnityEngine::Android::AndroidConfiguration::__cordl_internal_get__smallestScreenWidthDp_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____smallestScreenWidthDp_k__BackingField;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____smallestScreenWidthDp_k__BackingField;
 }
-constexpr void UnityEngine::Android::AndroidConfiguration::__cordl_internal_set__smallestScreenWidthDp_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____smallestScreenWidthDp_k__BackingField = value;
+constexpr void UnityEngine::Android::AndroidConfiguration::__cordl_internal_set__smallestScreenWidthDp_k__BackingField(int32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____smallestScreenWidthDp_k__BackingField = value;
 }
-constexpr int32_t& UnityEngine::Android::AndroidConfiguration::__cordl_internal_get__screenLayout_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____screenLayout_k__BackingField;
+constexpr int32_t& UnityEngine::Android::AndroidConfiguration::__cordl_internal_get__screenLayout_k__BackingField()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____screenLayout_k__BackingField;
 }
 constexpr int32_t const& UnityEngine::Android::AndroidConfiguration::__cordl_internal_get__screenLayout_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____screenLayout_k__BackingField;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____screenLayout_k__BackingField;
 }
-constexpr void UnityEngine::Android::AndroidConfiguration::__cordl_internal_set__screenLayout_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____screenLayout_k__BackingField = value;
+constexpr void UnityEngine::Android::AndroidConfiguration::__cordl_internal_set__screenLayout_k__BackingField(int32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____screenLayout_k__BackingField = value;
 }
-constexpr ::UnityEngine::Android::AndroidTouchScreen& UnityEngine::Android::AndroidConfiguration::__cordl_internal_get__touchScreen_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____touchScreen_k__BackingField;
+constexpr ::UnityEngine::Android::AndroidTouchScreen& UnityEngine::Android::AndroidConfiguration::__cordl_internal_get__touchScreen_k__BackingField()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____touchScreen_k__BackingField;
 }
 constexpr ::UnityEngine::Android::AndroidTouchScreen const& UnityEngine::Android::AndroidConfiguration::__cordl_internal_get__touchScreen_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____touchScreen_k__BackingField;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____touchScreen_k__BackingField;
 }
-constexpr void UnityEngine::Android::AndroidConfiguration::__cordl_internal_set__touchScreen_k__BackingField(::UnityEngine::Android::AndroidTouchScreen value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____touchScreen_k__BackingField = value;
+constexpr void UnityEngine::Android::AndroidConfiguration::__cordl_internal_set__touchScreen_k__BackingField(::UnityEngine::Android::AndroidTouchScreen  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____touchScreen_k__BackingField = value;
 }
-constexpr int32_t& UnityEngine::Android::AndroidConfiguration::__cordl_internal_get__uiMode_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____uiMode_k__BackingField;
+constexpr int32_t& UnityEngine::Android::AndroidConfiguration::__cordl_internal_get__uiMode_k__BackingField()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____uiMode_k__BackingField;
 }
 constexpr int32_t const& UnityEngine::Android::AndroidConfiguration::__cordl_internal_get__uiMode_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____uiMode_k__BackingField;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____uiMode_k__BackingField;
 }
-constexpr void UnityEngine::Android::AndroidConfiguration::__cordl_internal_set__uiMode_k__BackingField(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____uiMode_k__BackingField = value;
+constexpr void UnityEngine::Android::AndroidConfiguration::__cordl_internal_set__uiMode_k__BackingField(int32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____uiMode_k__BackingField = value;
 }
-constexpr ::StringW& UnityEngine::Android::AndroidConfiguration::__cordl_internal_get__primaryLocaleCountry_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____primaryLocaleCountry_k__BackingField;
+constexpr ::StringW& UnityEngine::Android::AndroidConfiguration::__cordl_internal_get__primaryLocaleCountry_k__BackingField()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____primaryLocaleCountry_k__BackingField;
 }
 constexpr ::StringW const& UnityEngine::Android::AndroidConfiguration::__cordl_internal_get__primaryLocaleCountry_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____primaryLocaleCountry_k__BackingField;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____primaryLocaleCountry_k__BackingField;
 }
-constexpr void UnityEngine::Android::AndroidConfiguration::__cordl_internal_set__primaryLocaleCountry_k__BackingField(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____primaryLocaleCountry_k__BackingField)),
-                                          cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void UnityEngine::Android::AndroidConfiguration::__cordl_internal_set__primaryLocaleCountry_k__BackingField(::StringW  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____primaryLocaleCountry_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::StringW& UnityEngine::Android::AndroidConfiguration::__cordl_internal_get__primaryLocaleLanguage_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____primaryLocaleLanguage_k__BackingField;
+constexpr ::StringW& UnityEngine::Android::AndroidConfiguration::__cordl_internal_get__primaryLocaleLanguage_k__BackingField()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____primaryLocaleLanguage_k__BackingField;
 }
 constexpr ::StringW const& UnityEngine::Android::AndroidConfiguration::__cordl_internal_get__primaryLocaleLanguage_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____primaryLocaleLanguage_k__BackingField;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____primaryLocaleLanguage_k__BackingField;
 }
-constexpr void UnityEngine::Android::AndroidConfiguration::__cordl_internal_set__primaryLocaleLanguage_k__BackingField(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____primaryLocaleLanguage_k__BackingField)),
-                                          cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void UnityEngine::Android::AndroidConfiguration::__cordl_internal_set__primaryLocaleLanguage_k__BackingField(::StringW  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____primaryLocaleLanguage_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline int32_t UnityEngine::Android::AndroidConfiguration::get_colorMode() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
-                                                                             "get_colorMode", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+inline int32_t UnityEngine::Android::AndroidConfiguration::get_colorMode()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
+                        "get_colorMode",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
-inline int32_t UnityEngine::Android::AndroidConfiguration::get_densityDpi() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
-                                                                             "get_densityDpi", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+inline int32_t UnityEngine::Android::AndroidConfiguration::get_densityDpi()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
+                        "get_densityDpi",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
-inline float_t UnityEngine::Android::AndroidConfiguration::get_fontScale() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
-                                                                             "get_fontScale", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
+inline float_t UnityEngine::Android::AndroidConfiguration::get_fontScale()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
+                        "get_fontScale",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
 }
-inline int32_t UnityEngine::Android::AndroidConfiguration::get_fontWeightAdjustment() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
-                                                                             "get_fontWeightAdjustment", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+inline int32_t UnityEngine::Android::AndroidConfiguration::get_fontWeightAdjustment()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
+                        "get_fontWeightAdjustment",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
-inline ::UnityEngine::Android::AndroidKeyboard UnityEngine::Android::AndroidConfiguration::get_keyboard() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
-                                                                             "get_keyboard", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Android::AndroidKeyboard, false>(this, ___internal_method);
+inline ::UnityEngine::Android::AndroidKeyboard UnityEngine::Android::AndroidConfiguration::get_keyboard()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
+                        "get_keyboard",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::Android::AndroidKeyboard, false>(this, ___internal_method);
 }
-inline ::UnityEngine::Android::AndroidHardwareKeyboardHidden UnityEngine::Android::AndroidConfiguration::get_hardKeyboardHidden() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
-                                                                             "get_hardKeyboardHidden", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Android::AndroidHardwareKeyboardHidden, false>(this, ___internal_method);
+inline ::UnityEngine::Android::AndroidHardwareKeyboardHidden UnityEngine::Android::AndroidConfiguration::get_hardKeyboardHidden()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
+                        "get_hardKeyboardHidden",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::Android::AndroidHardwareKeyboardHidden, false>(this, ___internal_method);
 }
-inline ::UnityEngine::Android::AndroidKeyboardHidden UnityEngine::Android::AndroidConfiguration::get_keyboardHidden() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
-                                                                             "get_keyboardHidden", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Android::AndroidKeyboardHidden, false>(this, ___internal_method);
+inline ::UnityEngine::Android::AndroidKeyboardHidden UnityEngine::Android::AndroidConfiguration::get_keyboardHidden()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
+                        "get_keyboardHidden",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::Android::AndroidKeyboardHidden, false>(this, ___internal_method);
 }
-inline int32_t UnityEngine::Android::AndroidConfiguration::get_mobileCountryCode() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
-                                                                             "get_mobileCountryCode", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+inline int32_t UnityEngine::Android::AndroidConfiguration::get_mobileCountryCode()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
+                        "get_mobileCountryCode",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
-inline int32_t UnityEngine::Android::AndroidConfiguration::get_mobileNetworkCode() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
-                                                                             "get_mobileNetworkCode", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+inline int32_t UnityEngine::Android::AndroidConfiguration::get_mobileNetworkCode()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
+                        "get_mobileNetworkCode",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
-inline ::UnityEngine::Android::AndroidNavigation UnityEngine::Android::AndroidConfiguration::get_navigation() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
-                                                                             "get_navigation", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Android::AndroidNavigation, false>(this, ___internal_method);
+inline ::UnityEngine::Android::AndroidNavigation UnityEngine::Android::AndroidConfiguration::get_navigation()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
+                        "get_navigation",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::Android::AndroidNavigation, false>(this, ___internal_method);
 }
-inline ::UnityEngine::Android::AndroidNavigationHidden UnityEngine::Android::AndroidConfiguration::get_navigationHidden() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
-                                                                             "get_navigationHidden", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Android::AndroidNavigationHidden, false>(this, ___internal_method);
+inline ::UnityEngine::Android::AndroidNavigationHidden UnityEngine::Android::AndroidConfiguration::get_navigationHidden()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
+                        "get_navigationHidden",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::Android::AndroidNavigationHidden, false>(this, ___internal_method);
 }
-inline ::UnityEngine::Android::AndroidOrientation UnityEngine::Android::AndroidConfiguration::get_orientation() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
-                                                                             "get_orientation", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Android::AndroidOrientation, false>(this, ___internal_method);
+inline ::UnityEngine::Android::AndroidOrientation UnityEngine::Android::AndroidConfiguration::get_orientation()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
+                        "get_orientation",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::Android::AndroidOrientation, false>(this, ___internal_method);
 }
-inline int32_t UnityEngine::Android::AndroidConfiguration::get_screenHeightDp() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
-                                                                             "get_screenHeightDp", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+inline int32_t UnityEngine::Android::AndroidConfiguration::get_screenHeightDp()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
+                        "get_screenHeightDp",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
-inline int32_t UnityEngine::Android::AndroidConfiguration::get_screenWidthDp() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
-                                                                             "get_screenWidthDp", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+inline int32_t UnityEngine::Android::AndroidConfiguration::get_screenWidthDp()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
+                        "get_screenWidthDp",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
-inline int32_t UnityEngine::Android::AndroidConfiguration::get_smallestScreenWidthDp() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
-                                                                             "get_smallestScreenWidthDp", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+inline int32_t UnityEngine::Android::AndroidConfiguration::get_smallestScreenWidthDp()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
+                        "get_smallestScreenWidthDp",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
-inline int32_t UnityEngine::Android::AndroidConfiguration::get_screenLayout() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
-                                                                             "get_screenLayout", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+inline int32_t UnityEngine::Android::AndroidConfiguration::get_screenLayout()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
+                        "get_screenLayout",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
-inline ::UnityEngine::Android::AndroidTouchScreen UnityEngine::Android::AndroidConfiguration::get_touchScreen() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
-                                                                             "get_touchScreen", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Android::AndroidTouchScreen, false>(this, ___internal_method);
+inline ::UnityEngine::Android::AndroidTouchScreen UnityEngine::Android::AndroidConfiguration::get_touchScreen()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
+                        "get_touchScreen",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::Android::AndroidTouchScreen, false>(this, ___internal_method);
 }
-inline int32_t UnityEngine::Android::AndroidConfiguration::get_uiMode() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(), "get_uiMode",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+inline int32_t UnityEngine::Android::AndroidConfiguration::get_uiMode()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
+                        "get_uiMode",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
-inline ::StringW UnityEngine::Android::AndroidConfiguration::get_primaryLocaleCountry() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
-                                                                             "get_primaryLocaleCountry", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+inline ::StringW UnityEngine::Android::AndroidConfiguration::get_primaryLocaleCountry()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
+                        "get_primaryLocaleCountry",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-inline ::StringW UnityEngine::Android::AndroidConfiguration::get_primaryLocaleLanguage() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
-                                                                             "get_primaryLocaleLanguage", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+inline ::StringW UnityEngine::Android::AndroidConfiguration::get_primaryLocaleLanguage()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
+                        "get_primaryLocaleLanguage",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-inline ::ArrayW<::UnityEngine::Android::AndroidLocale*, ::Array<::UnityEngine::Android::AndroidLocale*>*> UnityEngine::Android::AndroidConfiguration::get_locales() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
-                                                                             "get_locales", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::ArrayW<::UnityEngine::Android::AndroidLocale*, ::Array<::UnityEngine::Android::AndroidLocale*>*>, false>(this, ___internal_method);
+inline ::ArrayW<::UnityEngine::Android::AndroidLocale*,::Array<::UnityEngine::Android::AndroidLocale*>*> UnityEngine::Android::AndroidConfiguration::get_locales()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
+                        "get_locales",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<::ArrayW<::UnityEngine::Android::AndroidLocale*,::Array<::UnityEngine::Android::AndroidLocale*>*>, false>(this, ___internal_method);
 }
-inline ::UnityEngine::Android::AndroidColorModeHdr UnityEngine::Android::AndroidConfiguration::get_colorModeHdr() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
-                                                                             "get_colorModeHdr", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Android::AndroidColorModeHdr, false>(this, ___internal_method);
+inline ::UnityEngine::Android::AndroidColorModeHdr UnityEngine::Android::AndroidConfiguration::get_colorModeHdr()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
+                        "get_colorModeHdr",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::Android::AndroidColorModeHdr, false>(this, ___internal_method);
 }
-inline ::UnityEngine::Android::AndroidColorModeWideColorGamut UnityEngine::Android::AndroidConfiguration::get_colorModeWideColorGamut() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
-                                                                             "get_colorModeWideColorGamut", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Android::AndroidColorModeWideColorGamut, false>(this, ___internal_method);
+inline ::UnityEngine::Android::AndroidColorModeWideColorGamut UnityEngine::Android::AndroidConfiguration::get_colorModeWideColorGamut()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
+                        "get_colorModeWideColorGamut",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::Android::AndroidColorModeWideColorGamut, false>(this, ___internal_method);
 }
-inline ::UnityEngine::Android::AndroidScreenLayoutDirection UnityEngine::Android::AndroidConfiguration::get_screenLayoutDirection() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
-                                                                             "get_screenLayoutDirection", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Android::AndroidScreenLayoutDirection, false>(this, ___internal_method);
+inline ::UnityEngine::Android::AndroidScreenLayoutDirection UnityEngine::Android::AndroidConfiguration::get_screenLayoutDirection()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
+                        "get_screenLayoutDirection",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::Android::AndroidScreenLayoutDirection, false>(this, ___internal_method);
 }
-inline ::UnityEngine::Android::AndroidScreenLayoutLong UnityEngine::Android::AndroidConfiguration::get_screenLayoutLong() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
-                                                                             "get_screenLayoutLong", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Android::AndroidScreenLayoutLong, false>(this, ___internal_method);
+inline ::UnityEngine::Android::AndroidScreenLayoutLong UnityEngine::Android::AndroidConfiguration::get_screenLayoutLong()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
+                        "get_screenLayoutLong",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::Android::AndroidScreenLayoutLong, false>(this, ___internal_method);
 }
-inline ::UnityEngine::Android::AndroidScreenLayoutRound UnityEngine::Android::AndroidConfiguration::get_screenLayoutRound() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
-                                                                             "get_screenLayoutRound", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Android::AndroidScreenLayoutRound, false>(this, ___internal_method);
+inline ::UnityEngine::Android::AndroidScreenLayoutRound UnityEngine::Android::AndroidConfiguration::get_screenLayoutRound()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
+                        "get_screenLayoutRound",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::Android::AndroidScreenLayoutRound, false>(this, ___internal_method);
 }
-inline ::UnityEngine::Android::AndroidScreenLayoutSize UnityEngine::Android::AndroidConfiguration::get_screenLayoutSize() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
-                                                                             "get_screenLayoutSize", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Android::AndroidScreenLayoutSize, false>(this, ___internal_method);
+inline ::UnityEngine::Android::AndroidScreenLayoutSize UnityEngine::Android::AndroidConfiguration::get_screenLayoutSize()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
+                        "get_screenLayoutSize",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::Android::AndroidScreenLayoutSize, false>(this, ___internal_method);
 }
-inline ::UnityEngine::Android::AndroidUIModeNight UnityEngine::Android::AndroidConfiguration::get_uiModeNight() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
-                                                                             "get_uiModeNight", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Android::AndroidUIModeNight, false>(this, ___internal_method);
+inline ::UnityEngine::Android::AndroidUIModeNight UnityEngine::Android::AndroidConfiguration::get_uiModeNight()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
+                        "get_uiModeNight",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::Android::AndroidUIModeNight, false>(this, ___internal_method);
 }
-inline ::UnityEngine::Android::AndroidUIModeType UnityEngine::Android::AndroidConfiguration::get_uiModeType() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
-                                                                             "get_uiModeType", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Android::AndroidUIModeType, false>(this, ___internal_method);
+inline ::UnityEngine::Android::AndroidUIModeType UnityEngine::Android::AndroidConfiguration::get_uiModeType()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
+                        "get_uiModeType",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::Android::AndroidUIModeType, false>(this, ___internal_method);
 }
-inline ::StringW UnityEngine::Android::AndroidConfiguration::ToString() {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(), 3)));
-  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+inline ::StringW UnityEngine::Android::AndroidConfiguration::ToString()  {
+auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidConfiguration*>::get(),
+                            3
+                        )));
+return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::Android::AndroidConfiguration::AndroidConfiguration() {}
+constexpr ::UnityEngine::Android::AndroidConfiguration::AndroidConfiguration()   {
+}

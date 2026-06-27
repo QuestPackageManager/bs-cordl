@@ -33,97 +33,97 @@ namespace Org::BouncyCastle::Utilities::Collections {
 // CS Name: Org.BouncyCastle.Utilities.Collections.LinkedDictionaryEnumerator
 class CORDL_TYPE LinkedDictionaryEnumerator : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = get_Current)) ::System::Object* Current;
+// Declarations
+ __declspec(property(get=get_Current)) ::System::Object*  Current;
 
-  __declspec(property(get = get_CurrentKey)) ::System::Object* CurrentKey;
+ __declspec(property(get=get_CurrentKey)) ::System::Object*  CurrentKey;
 
-  __declspec(property(get = get_Entry)) ::System::Collections::DictionaryEntry Entry;
+ __declspec(property(get=get_Entry)) ::System::Collections::DictionaryEntry  Entry;
 
-  __declspec(property(get = get_Key)) ::System::Object* Key;
+ __declspec(property(get=get_Key)) ::System::Object*  Key;
 
-  __declspec(property(get = get_Value)) ::System::Object* Value;
+ __declspec(property(get=get_Value)) ::System::Object*  Value;
 
-  /// @brief Field parent, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_parent, put = __cordl_internal_set_parent)) ::Org::BouncyCastle::Utilities::Collections::LinkedDictionary* parent;
+/// @brief Field parent, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_parent, put=__cordl_internal_set_parent)) ::Org::BouncyCastle::Utilities::Collections::LinkedDictionary*  parent;
 
-  /// @brief Field pos, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get_pos, put = __cordl_internal_set_pos)) int32_t pos;
+/// @brief Field pos, offset 0x18, size 0x4 
+ __declspec(property(get=__cordl_internal_get_pos, put=__cordl_internal_set_pos)) int32_t  pos;
 
-  /// @brief Convert operator to "::System::Collections::IDictionaryEnumerator"
-  constexpr operator ::System::Collections::IDictionaryEnumerator*() noexcept;
+/// @brief Convert operator to "::System::Collections::IDictionaryEnumerator"
+constexpr operator  ::System::Collections::IDictionaryEnumerator*() noexcept;
 
-  /// @brief Convert operator to "::System::Collections::IEnumerator"
-  constexpr operator ::System::Collections::IEnumerator*() noexcept;
+/// @brief Convert operator to "::System::Collections::IEnumerator"
+constexpr operator  ::System::Collections::IEnumerator*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x356a7a4, size 0x150, virtual true, abstract: false, final false
-  inline bool MoveNext();
+/// @brief Method MoveNext, addr 0x356b540, size 0x150, virtual true, abstract: false, final false
+inline bool MoveNext() ;
 
-  static inline ::Org::BouncyCastle::Utilities::Collections::LinkedDictionaryEnumerator* New_ctor(::Org::BouncyCastle::Utilities::Collections::LinkedDictionary* parent);
+static inline ::Org::BouncyCastle::Utilities::Collections::LinkedDictionaryEnumerator* New_ctor(::Org::BouncyCastle::Utilities::Collections::LinkedDictionary*  parent) ;
 
-  /// @brief Method Reset, addr 0x356a8f4, size 0xc, virtual true, abstract: false, final false
-  inline void Reset();
+/// @brief Method Reset, addr 0x356b690, size 0xc, virtual true, abstract: false, final false
+inline void Reset() ;
 
-  constexpr ::Org::BouncyCastle::Utilities::Collections::LinkedDictionary* const& __cordl_internal_get_parent() const;
+constexpr ::Org::BouncyCastle::Utilities::Collections::LinkedDictionary* const& __cordl_internal_get_parent() const;
 
-  constexpr ::Org::BouncyCastle::Utilities::Collections::LinkedDictionary*& __cordl_internal_get_parent();
+constexpr ::Org::BouncyCastle::Utilities::Collections::LinkedDictionary*& __cordl_internal_get_parent() ;
 
-  constexpr int32_t const& __cordl_internal_get_pos() const;
+constexpr int32_t const& __cordl_internal_get_pos() const;
 
-  constexpr int32_t& __cordl_internal_get_pos();
+constexpr int32_t& __cordl_internal_get_pos() ;
 
-  constexpr void __cordl_internal_set_parent(::Org::BouncyCastle::Utilities::Collections::LinkedDictionary* value);
+constexpr void __cordl_internal_set_parent(::Org::BouncyCastle::Utilities::Collections::LinkedDictionary*  value) ;
 
-  constexpr void __cordl_internal_set_pos(int32_t value);
+constexpr void __cordl_internal_set_pos(int32_t  value) ;
 
-  /// @brief Method .ctor, addr 0x3569c24, size 0x10, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Utilities::Collections::LinkedDictionary* parent);
+/// @brief Method .ctor, addr 0x356a9c0, size 0x10, virtual false, abstract: false, final false
+inline void _ctor(::Org::BouncyCastle::Utilities::Collections::LinkedDictionary*  parent) ;
 
-  /// @brief Method get_Current, addr 0x356a4ec, size 0x70, virtual true, abstract: false, final false
-  inline ::System::Object* get_Current();
+/// @brief Method get_Current, addr 0x356b288, size 0x70, virtual true, abstract: false, final false
+inline ::System::Object* get_Current() ;
 
-  /// @brief Method get_CurrentKey, addr 0x356a624, size 0x17c, virtual false, abstract: false, final false
-  inline ::System::Object* get_CurrentKey();
+/// @brief Method get_CurrentKey, addr 0x356b3c0, size 0x17c, virtual false, abstract: false, final false
+inline ::System::Object* get_CurrentKey() ;
 
-  /// @brief Method get_Entry, addr 0x356a55c, size 0xc8, virtual true, abstract: false, final false
-  inline ::System::Collections::DictionaryEntry get_Entry();
+/// @brief Method get_Entry, addr 0x356b2f8, size 0xc8, virtual true, abstract: false, final false
+inline ::System::Collections::DictionaryEntry get_Entry() ;
 
-  /// @brief Method get_Key, addr 0x356a7a0, size 0x4, virtual true, abstract: false, final false
-  inline ::System::Object* get_Key();
+/// @brief Method get_Key, addr 0x356b53c, size 0x4, virtual true, abstract: false, final false
+inline ::System::Object* get_Key() ;
 
-  /// @brief Method get_Value, addr 0x356a900, size 0xbc, virtual true, abstract: false, final false
-  inline ::System::Object* get_Value();
+/// @brief Method get_Value, addr 0x356b69c, size 0xbc, virtual true, abstract: false, final false
+inline ::System::Object* get_Value() ;
 
-  /// @brief Convert to "::System::Collections::IDictionaryEnumerator"
-  constexpr ::System::Collections::IDictionaryEnumerator* i___System__Collections__IDictionaryEnumerator() noexcept;
+/// @brief Convert to "::System::Collections::IDictionaryEnumerator"
+constexpr ::System::Collections::IDictionaryEnumerator* i___System__Collections__IDictionaryEnumerator() noexcept;
 
-  /// @brief Convert to "::System::Collections::IEnumerator"
-  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+/// @brief Convert to "::System::Collections::IEnumerator"
+constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LinkedDictionaryEnumerator();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr LinkedDictionaryEnumerator() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LinkedDictionaryEnumerator", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  LinkedDictionaryEnumerator(LinkedDictionaryEnumerator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LinkedDictionaryEnumerator", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  LinkedDictionaryEnumerator(LinkedDictionaryEnumerator const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "LinkedDictionaryEnumerator", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+LinkedDictionaryEnumerator(LinkedDictionaryEnumerator && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1784 };
+// Ctor Parameters [CppParam { name: "", ty: "LinkedDictionaryEnumerator", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+LinkedDictionaryEnumerator(LinkedDictionaryEnumerator const& ) = delete;
 
-  /// @brief Field parent, offset: 0x10, size: 0x8, def value: None
-  ::Org::BouncyCastle::Utilities::Collections::LinkedDictionary* ___parent;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{1784};
 
-  /// @brief Field pos, offset: 0x18, size: 0x4, def value: None
-  int32_t ___pos;
+/// @brief Field parent, offset: 0x10, size: 0x8, def value: None
+ ::Org::BouncyCastle::Utilities::Collections::LinkedDictionary*  ___parent;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field pos, offset: 0x18, size: 0x4, def value: None
+ int32_t  ___pos;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Org::BouncyCastle::Utilities::Collections::LinkedDictionaryEnumerator, ___parent) == 0x10, "Offset mismatch!");
@@ -132,6 +132,6 @@ static_assert(offsetof(::Org::BouncyCastle::Utilities::Collections::LinkedDictio
 
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Utilities::Collections::LinkedDictionaryEnumerator, 0x20>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Utilities::Collections
+} // namespace end def Org::BouncyCastle::Utilities::Collections
 NEED_NO_BOX(::Org::BouncyCastle::Utilities::Collections::LinkedDictionaryEnumerator);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Utilities::Collections::LinkedDictionaryEnumerator*, "Org.BouncyCastle.Utilities.Collections", "LinkedDictionaryEnumerator");

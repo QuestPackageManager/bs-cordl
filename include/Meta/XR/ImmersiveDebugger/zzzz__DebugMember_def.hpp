@@ -13,7 +13,8 @@ namespace Meta::XR::ImmersiveDebugger {
 struct DebugColor;
 }
 namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+template<typename TKey,typename TValue>
+class Dictionary_2;
 }
 namespace UnityEngine {
 struct Color;
@@ -30,154 +31,153 @@ namespace Meta::XR::ImmersiveDebugger {
 // CS Name: Meta.XR.ImmersiveDebugger.DebugMember
 class CORDL_TYPE DebugMember : public ::UnityEngine::Scripting::PreserveAttribute {
 public:
-  // Declarations
-  /// @brief Field Category, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_Category, put = __cordl_internal_set_Category)) ::StringW Category;
+// Declarations
+/// @brief Field Category, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get_Category, put=__cordl_internal_set_Category)) ::StringW  Category;
 
-  /// @brief Field Color, offset 0x18, size 0x10
-  __declspec(property(get = __cordl_internal_get_Color, put = __cordl_internal_set_Color)) ::UnityEngine::Color Color;
+/// @brief Field Color, offset 0x18, size 0x10 
+ __declspec(property(get=__cordl_internal_get_Color, put=__cordl_internal_set_Color)) ::UnityEngine::Color  Color;
 
-  /// @brief Field Description, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_Description, put = __cordl_internal_set_Description)) ::StringW Description;
+/// @brief Field Description, offset 0x40, size 0x8 
+ __declspec(property(get=__cordl_internal_get_Description, put=__cordl_internal_set_Description)) ::StringW  Description;
 
-  /// @brief Field DisplayName, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_DisplayName, put = __cordl_internal_set_DisplayName)) ::StringW DisplayName;
+/// @brief Field DisplayName, offset 0x48, size 0x8 
+ __declspec(property(get=__cordl_internal_get_DisplayName, put=__cordl_internal_set_DisplayName)) ::StringW  DisplayName;
 
-  /// @brief Field GizmoType, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_GizmoType, put = __cordl_internal_set_GizmoType)) ::Meta::XR::ImmersiveDebugger::DebugGizmoType GizmoType;
+/// @brief Field GizmoType, offset 0x10, size 0x4 
+ __declspec(property(get=__cordl_internal_get_GizmoType, put=__cordl_internal_set_GizmoType)) ::Meta::XR::ImmersiveDebugger::DebugGizmoType  GizmoType;
 
-  /// @brief Field Max, offset 0x30, size 0x4
-  __declspec(property(get = __cordl_internal_get_Max, put = __cordl_internal_set_Max)) float_t Max;
+/// @brief Field Max, offset 0x30, size 0x4 
+ __declspec(property(get=__cordl_internal_get_Max, put=__cordl_internal_set_Max)) float_t  Max;
 
-  /// @brief Field Min, offset 0x2c, size 0x4
-  __declspec(property(get = __cordl_internal_get_Min, put = __cordl_internal_set_Min)) float_t Min;
+/// @brief Field Min, offset 0x2c, size 0x4 
+ __declspec(property(get=__cordl_internal_get_Min, put=__cordl_internal_set_Min)) float_t  Min;
 
-  /// @brief Field ParsedColors, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_ParsedColors,
-                      put = setStaticF_ParsedColors)) ::System::Collections::Generic::Dictionary_2<::Meta::XR::ImmersiveDebugger::DebugColor, ::UnityEngine::Color>* ParsedColors;
+/// @brief Field ParsedColors, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_ParsedColors, put=setStaticF_ParsedColors)) ::System::Collections::Generic::Dictionary_2<::Meta::XR::ImmersiveDebugger::DebugColor,::UnityEngine::Color>*  ParsedColors;
 
-  /// @brief Field ShowGizmoByDefault, offset 0x14, size 0x1
-  __declspec(property(get = __cordl_internal_get_ShowGizmoByDefault, put = __cordl_internal_set_ShowGizmoByDefault)) bool ShowGizmoByDefault;
+/// @brief Field ShowGizmoByDefault, offset 0x14, size 0x1 
+ __declspec(property(get=__cordl_internal_get_ShowGizmoByDefault, put=__cordl_internal_set_ShowGizmoByDefault)) bool  ShowGizmoByDefault;
 
-  /// @brief Field Tweakable, offset 0x28, size 0x1
-  __declspec(property(get = __cordl_internal_get_Tweakable, put = __cordl_internal_set_Tweakable)) bool Tweakable;
+/// @brief Field Tweakable, offset 0x28, size 0x1 
+ __declspec(property(get=__cordl_internal_get_Tweakable, put=__cordl_internal_set_Tweakable)) bool  Tweakable;
 
-  static inline ::Meta::XR::ImmersiveDebugger::DebugMember* New_ctor(::Meta::XR::ImmersiveDebugger::DebugColor color);
+static inline ::Meta::XR::ImmersiveDebugger::DebugMember* New_ctor(::Meta::XR::ImmersiveDebugger::DebugColor  color) ;
 
-  static inline ::Meta::XR::ImmersiveDebugger::DebugMember* New_ctor(::StringW colorString);
+static inline ::Meta::XR::ImmersiveDebugger::DebugMember* New_ctor(::StringW  colorString) ;
 
-  constexpr ::StringW const& __cordl_internal_get_Category() const;
+constexpr ::StringW const& __cordl_internal_get_Category() const;
 
-  constexpr ::StringW& __cordl_internal_get_Category();
+constexpr ::StringW& __cordl_internal_get_Category() ;
 
-  constexpr ::UnityEngine::Color const& __cordl_internal_get_Color() const;
+constexpr ::UnityEngine::Color const& __cordl_internal_get_Color() const;
 
-  constexpr ::UnityEngine::Color& __cordl_internal_get_Color();
+constexpr ::UnityEngine::Color& __cordl_internal_get_Color() ;
 
-  constexpr ::StringW const& __cordl_internal_get_Description() const;
+constexpr ::StringW const& __cordl_internal_get_Description() const;
 
-  constexpr ::StringW& __cordl_internal_get_Description();
+constexpr ::StringW& __cordl_internal_get_Description() ;
 
-  constexpr ::StringW const& __cordl_internal_get_DisplayName() const;
+constexpr ::StringW const& __cordl_internal_get_DisplayName() const;
 
-  constexpr ::StringW& __cordl_internal_get_DisplayName();
+constexpr ::StringW& __cordl_internal_get_DisplayName() ;
 
-  constexpr ::Meta::XR::ImmersiveDebugger::DebugGizmoType const& __cordl_internal_get_GizmoType() const;
+constexpr ::Meta::XR::ImmersiveDebugger::DebugGizmoType const& __cordl_internal_get_GizmoType() const;
 
-  constexpr ::Meta::XR::ImmersiveDebugger::DebugGizmoType& __cordl_internal_get_GizmoType();
+constexpr ::Meta::XR::ImmersiveDebugger::DebugGizmoType& __cordl_internal_get_GizmoType() ;
 
-  constexpr float_t const& __cordl_internal_get_Max() const;
+constexpr float_t const& __cordl_internal_get_Max() const;
 
-  constexpr float_t& __cordl_internal_get_Max();
+constexpr float_t& __cordl_internal_get_Max() ;
 
-  constexpr float_t const& __cordl_internal_get_Min() const;
+constexpr float_t const& __cordl_internal_get_Min() const;
 
-  constexpr float_t& __cordl_internal_get_Min();
+constexpr float_t& __cordl_internal_get_Min() ;
 
-  constexpr bool const& __cordl_internal_get_ShowGizmoByDefault() const;
+constexpr bool const& __cordl_internal_get_ShowGizmoByDefault() const;
 
-  constexpr bool& __cordl_internal_get_ShowGizmoByDefault();
+constexpr bool& __cordl_internal_get_ShowGizmoByDefault() ;
 
-  constexpr bool const& __cordl_internal_get_Tweakable() const;
+constexpr bool const& __cordl_internal_get_Tweakable() const;
 
-  constexpr bool& __cordl_internal_get_Tweakable();
+constexpr bool& __cordl_internal_get_Tweakable() ;
 
-  constexpr void __cordl_internal_set_Category(::StringW value);
+constexpr void __cordl_internal_set_Category(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_Color(::UnityEngine::Color value);
+constexpr void __cordl_internal_set_Color(::UnityEngine::Color  value) ;
 
-  constexpr void __cordl_internal_set_Description(::StringW value);
+constexpr void __cordl_internal_set_Description(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_DisplayName(::StringW value);
+constexpr void __cordl_internal_set_DisplayName(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_GizmoType(::Meta::XR::ImmersiveDebugger::DebugGizmoType value);
+constexpr void __cordl_internal_set_GizmoType(::Meta::XR::ImmersiveDebugger::DebugGizmoType  value) ;
 
-  constexpr void __cordl_internal_set_Max(float_t value);
+constexpr void __cordl_internal_set_Max(float_t  value) ;
 
-  constexpr void __cordl_internal_set_Min(float_t value);
+constexpr void __cordl_internal_set_Min(float_t  value) ;
 
-  constexpr void __cordl_internal_set_ShowGizmoByDefault(bool value);
+constexpr void __cordl_internal_set_ShowGizmoByDefault(bool  value) ;
 
-  constexpr void __cordl_internal_set_Tweakable(bool value);
+constexpr void __cordl_internal_set_Tweakable(bool  value) ;
 
-  /// @brief Method .ctor, addr 0x591be3c, size 0xb4, virtual false, abstract: false, final false
-  inline void _ctor(::Meta::XR::ImmersiveDebugger::DebugColor color);
+/// @brief Method .ctor, addr 0x591d80c, size 0xb4, virtual false, abstract: false, final false
+inline void _ctor(::Meta::XR::ImmersiveDebugger::DebugColor  color) ;
 
-  /// @brief Method .ctor, addr 0x591bef0, size 0xa4, virtual false, abstract: false, final false
-  inline void _ctor(::StringW colorString);
+/// @brief Method .ctor, addr 0x591d8c0, size 0xa4, virtual false, abstract: false, final false
+inline void _ctor(::StringW  colorString) ;
 
-  static inline ::System::Collections::Generic::Dictionary_2<::Meta::XR::ImmersiveDebugger::DebugColor, ::UnityEngine::Color>* getStaticF_ParsedColors();
+static inline ::System::Collections::Generic::Dictionary_2<::Meta::XR::ImmersiveDebugger::DebugColor,::UnityEngine::Color>* getStaticF_ParsedColors() ;
 
-  static inline void setStaticF_ParsedColors(::System::Collections::Generic::Dictionary_2<::Meta::XR::ImmersiveDebugger::DebugColor, ::UnityEngine::Color>* value);
+static inline void setStaticF_ParsedColors(::System::Collections::Generic::Dictionary_2<::Meta::XR::ImmersiveDebugger::DebugColor,::UnityEngine::Color>*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DebugMember();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr DebugMember() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugMember", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  DebugMember(DebugMember&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugMember", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  DebugMember(DebugMember const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "DebugMember", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+DebugMember(DebugMember && ) = delete;
 
-  /// @brief Field DisplayNameTooltip offset 0xffffffff size 0x8
-  static constexpr ::ConstString DisplayNameTooltip{ u"Optional name override to be used in the Inspector Panel" };
+// Ctor Parameters [CppParam { name: "", ty: "DebugMember", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+DebugMember(DebugMember const& ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23339 };
+/// @brief Field DisplayNameTooltip offset 0xffffffff size 0x8
+static constexpr ::ConstString  DisplayNameTooltip{u"Optional name override to be used in the Inspector Panel"};
 
-  /// @brief Field GizmoType, offset: 0x10, size: 0x4, def value: None
-  ::Meta::XR::ImmersiveDebugger::DebugGizmoType ___GizmoType;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{23343};
 
-  /// @brief Field ShowGizmoByDefault, offset: 0x14, size: 0x1, def value: None
-  bool ___ShowGizmoByDefault;
+/// @brief Field GizmoType, offset: 0x10, size: 0x4, def value: None
+ ::Meta::XR::ImmersiveDebugger::DebugGizmoType  ___GizmoType;
 
-  /// @brief Field Color, offset: 0x18, size: 0x10, def value: None
-  ::UnityEngine::Color ___Color;
+/// @brief Field ShowGizmoByDefault, offset: 0x14, size: 0x1, def value: None
+ bool  ___ShowGizmoByDefault;
 
-  /// @brief Field Tweakable, offset: 0x28, size: 0x1, def value: None
-  bool ___Tweakable;
+/// @brief Field Color, offset: 0x18, size: 0x10, def value: None
+ ::UnityEngine::Color  ___Color;
 
-  /// @brief Field Min, offset: 0x2c, size: 0x4, def value: None
-  float_t ___Min;
+/// @brief Field Tweakable, offset: 0x28, size: 0x1, def value: None
+ bool  ___Tweakable;
 
-  /// @brief Field Max, offset: 0x30, size: 0x4, def value: None
-  float_t ___Max;
+/// @brief Field Min, offset: 0x2c, size: 0x4, def value: None
+ float_t  ___Min;
 
-  /// @brief Field Category, offset: 0x38, size: 0x8, def value: None
-  ::StringW ___Category;
+/// @brief Field Max, offset: 0x30, size: 0x4, def value: None
+ float_t  ___Max;
 
-  /// @brief Field Description, offset: 0x40, size: 0x8, def value: None
-  ::StringW ___Description;
+/// @brief Field Category, offset: 0x38, size: 0x8, def value: None
+ ::StringW  ___Category;
 
-  /// @brief Field DisplayName, offset: 0x48, size: 0x8, def value: None
-  ::StringW ___DisplayName;
+/// @brief Field Description, offset: 0x40, size: 0x8, def value: None
+ ::StringW  ___Description;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field DisplayName, offset: 0x48, size: 0x8, def value: None
+ ::StringW  ___DisplayName;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Meta::XR::ImmersiveDebugger::DebugMember, ___GizmoType) == 0x10, "Offset mismatch!");
@@ -200,6 +200,6 @@ static_assert(offsetof(::Meta::XR::ImmersiveDebugger::DebugMember, ___DisplayNam
 
 static_assert(::cordl_internals::size_check_v<::Meta::XR::ImmersiveDebugger::DebugMember, 0x50>, "Size mismatch!");
 
-} // namespace Meta::XR::ImmersiveDebugger
+} // namespace end def Meta::XR::ImmersiveDebugger
 NEED_NO_BOX(::Meta::XR::ImmersiveDebugger::DebugMember);
 DEFINE_IL2CPP_ARG_TYPE(::Meta::XR::ImmersiveDebugger::DebugMember*, "Meta.XR.ImmersiveDebugger", "DebugMember");

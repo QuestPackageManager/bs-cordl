@@ -52,10 +52,12 @@ namespace HMUI {
 class VerticalScrollIndicator;
 }
 namespace System {
-template <typename T> class Action_1;
+template<typename T>
+class Action_1;
 }
 namespace System {
-template <typename T, typename TResult> class Func_2;
+template<typename T,typename TResult>
+class Func_2;
 }
 namespace UnityEngine::EventSystems {
 class PointerEventData;
@@ -110,932 +112,931 @@ MARK_REF_PTR_T(::HMUI::ScrollView___c__DisplayClass60_0);
 MARK_REF_PTR_T(::HMUI::ScrollView___c__DisplayClass61_0);
 MARK_REF_PTR_T(::HMUI::ScrollView___c__DisplayClass66_0);
 MARK_REF_PTR_T(::HMUI::ScrollView___c__DisplayClass66_1);
-// Dependencies
+// Dependencies 
 namespace HMUI {
 // Is value type: true
 // CS Name: HMUI.ScrollView/ScrollType
 struct CORDL_TYPE ScrollView_ScrollType {
 public:
-  // Declarations
-  using __CORDL_BACKING_ENUM_TYPE = int32_t;
+// Declarations
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct __ScrollView_ScrollType_Unwrapped
-  enum struct __ScrollView_ScrollType_Unwrapped : int32_t {
-    __E_PageSize = static_cast<int32_t>(0x0),
-    __E_FixedCellSize = static_cast<int32_t>(0x1),
-    __E_FocusItems = static_cast<int32_t>(0x2),
-  };
+/// @brief Nested struct __ScrollView_ScrollType_Unwrapped
+enum struct __ScrollView_ScrollType_Unwrapped : int32_t {
+__E_PageSize = static_cast<int32_t>(0x0),
+__E_FixedCellSize = static_cast<int32_t>(0x1),
+__E_FocusItems = static_cast<int32_t>(0x2),
+};
 
-  /// @brief Conversion into unwrapped enum value
-  constexpr operator __ScrollView_ScrollType_Unwrapped() const noexcept {
-    return static_cast<__ScrollView_ScrollType_Unwrapped>(this->value__);
-  }
+/// @brief Conversion into unwrapped enum value
+constexpr operator __ScrollView_ScrollType_Unwrapped () const noexcept {
+return static_cast<__ScrollView_ScrollType_Unwrapped>(this->value__);
+}
 
-  /// @brief Conversion into unwrapped enum value
-  constexpr explicit operator int32_t() const noexcept {
-    return static_cast<int32_t>(this->value__);
-  }
+/// @brief Conversion into unwrapped enum value
+constexpr explicit operator int32_t () const noexcept {
+return static_cast<int32_t>(this->value__);
+}
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ScrollView_ScrollType();
+// Ctor Parameters []
+// @brief default ctor
+constexpr ScrollView_ScrollType() ;
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr ScrollView_ScrollType(int32_t value__) noexcept;
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr ScrollView_ScrollType(int32_t  value__) noexcept;
 
-  /// @brief Field FixedCellSize value: I32(1)
-  static ::HMUI::ScrollView_ScrollType const FixedCellSize;
+/// @brief Field FixedCellSize value: I32(1)
+static ::HMUI::ScrollView_ScrollType const FixedCellSize;
 
-  /// @brief Field FocusItems value: I32(2)
-  static ::HMUI::ScrollView_ScrollType const FocusItems;
+/// @brief Field FocusItems value: I32(2)
+static ::HMUI::ScrollView_ScrollType const FocusItems;
 
-  /// @brief Field PageSize value: I32(0)
-  static ::HMUI::ScrollView_ScrollType const PageSize;
+/// @brief Field PageSize value: I32(0)
+static ::HMUI::ScrollView_ScrollType const PageSize;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19204 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19207};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x4};
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+/// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+ int32_t  value__;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::HMUI::ScrollView_ScrollType, value__) == 0x0, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::HMUI::ScrollView_ScrollType, 0x4>, "Size mismatch!");
 
-} // namespace HMUI
-// Dependencies
+} // namespace end def HMUI
+// Dependencies 
 namespace HMUI {
 // Is value type: true
 // CS Name: HMUI.ScrollView/ScrollDirection
 struct CORDL_TYPE ScrollView_ScrollDirection {
 public:
-  // Declarations
-  using __CORDL_BACKING_ENUM_TYPE = int32_t;
+// Declarations
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct __ScrollView_ScrollDirection_Unwrapped
-  enum struct __ScrollView_ScrollDirection_Unwrapped : int32_t {
-    __E_None = static_cast<int32_t>(0x0),
-    __E_Up = static_cast<int32_t>(0x1),
-    __E_Down = static_cast<int32_t>(0x2),
-    __E_Left = static_cast<int32_t>(0x3),
-    __E_Right = static_cast<int32_t>(0x4),
-  };
+/// @brief Nested struct __ScrollView_ScrollDirection_Unwrapped
+enum struct __ScrollView_ScrollDirection_Unwrapped : int32_t {
+__E_None = static_cast<int32_t>(0x0),
+__E_Up = static_cast<int32_t>(0x1),
+__E_Down = static_cast<int32_t>(0x2),
+__E_Left = static_cast<int32_t>(0x3),
+__E_Right = static_cast<int32_t>(0x4),
+};
 
-  /// @brief Conversion into unwrapped enum value
-  constexpr operator __ScrollView_ScrollDirection_Unwrapped() const noexcept {
-    return static_cast<__ScrollView_ScrollDirection_Unwrapped>(this->value__);
-  }
+/// @brief Conversion into unwrapped enum value
+constexpr operator __ScrollView_ScrollDirection_Unwrapped () const noexcept {
+return static_cast<__ScrollView_ScrollDirection_Unwrapped>(this->value__);
+}
 
-  /// @brief Conversion into unwrapped enum value
-  constexpr explicit operator int32_t() const noexcept {
-    return static_cast<int32_t>(this->value__);
-  }
+/// @brief Conversion into unwrapped enum value
+constexpr explicit operator int32_t () const noexcept {
+return static_cast<int32_t>(this->value__);
+}
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ScrollView_ScrollDirection();
+// Ctor Parameters []
+// @brief default ctor
+constexpr ScrollView_ScrollDirection() ;
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr ScrollView_ScrollDirection(int32_t value__) noexcept;
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr ScrollView_ScrollDirection(int32_t  value__) noexcept;
 
-  /// @brief Field Down value: I32(2)
-  static ::HMUI::ScrollView_ScrollDirection const Down;
+/// @brief Field Down value: I32(2)
+static ::HMUI::ScrollView_ScrollDirection const Down;
 
-  /// @brief Field Left value: I32(3)
-  static ::HMUI::ScrollView_ScrollDirection const Left;
+/// @brief Field Left value: I32(3)
+static ::HMUI::ScrollView_ScrollDirection const Left;
 
-  /// @brief Field None value: I32(0)
-  static ::HMUI::ScrollView_ScrollDirection const None;
+/// @brief Field None value: I32(0)
+static ::HMUI::ScrollView_ScrollDirection const None;
 
-  /// @brief Field Right value: I32(4)
-  static ::HMUI::ScrollView_ScrollDirection const Right;
+/// @brief Field Right value: I32(4)
+static ::HMUI::ScrollView_ScrollDirection const Right;
 
-  /// @brief Field Up value: I32(1)
-  static ::HMUI::ScrollView_ScrollDirection const Up;
+/// @brief Field Up value: I32(1)
+static ::HMUI::ScrollView_ScrollDirection const Up;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19205 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19208};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x4};
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+/// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+ int32_t  value__;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::HMUI::ScrollView_ScrollDirection, value__) == 0x0, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::HMUI::ScrollView_ScrollDirection, 0x4>, "Size mismatch!");
 
-} // namespace HMUI
-// Dependencies
+} // namespace end def HMUI
+// Dependencies 
 namespace HMUI {
 // Is value type: true
 // CS Name: HMUI.ScrollView/ScrollViewDirection
 struct CORDL_TYPE ScrollView_ScrollViewDirection {
 public:
-  // Declarations
-  using __CORDL_BACKING_ENUM_TYPE = int32_t;
+// Declarations
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct __ScrollView_ScrollViewDirection_Unwrapped
-  enum struct __ScrollView_ScrollViewDirection_Unwrapped : int32_t {
-    __E_Vertical = static_cast<int32_t>(0x0),
-    __E_Horizontal = static_cast<int32_t>(0x1),
-  };
+/// @brief Nested struct __ScrollView_ScrollViewDirection_Unwrapped
+enum struct __ScrollView_ScrollViewDirection_Unwrapped : int32_t {
+__E_Vertical = static_cast<int32_t>(0x0),
+__E_Horizontal = static_cast<int32_t>(0x1),
+};
 
-  /// @brief Conversion into unwrapped enum value
-  constexpr operator __ScrollView_ScrollViewDirection_Unwrapped() const noexcept {
-    return static_cast<__ScrollView_ScrollViewDirection_Unwrapped>(this->value__);
-  }
+/// @brief Conversion into unwrapped enum value
+constexpr operator __ScrollView_ScrollViewDirection_Unwrapped () const noexcept {
+return static_cast<__ScrollView_ScrollViewDirection_Unwrapped>(this->value__);
+}
 
-  /// @brief Conversion into unwrapped enum value
-  constexpr explicit operator int32_t() const noexcept {
-    return static_cast<int32_t>(this->value__);
-  }
+/// @brief Conversion into unwrapped enum value
+constexpr explicit operator int32_t () const noexcept {
+return static_cast<int32_t>(this->value__);
+}
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ScrollView_ScrollViewDirection();
+// Ctor Parameters []
+// @brief default ctor
+constexpr ScrollView_ScrollViewDirection() ;
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr ScrollView_ScrollViewDirection(int32_t value__) noexcept;
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr ScrollView_ScrollViewDirection(int32_t  value__) noexcept;
 
-  /// @brief Field Horizontal value: I32(1)
-  static ::HMUI::ScrollView_ScrollViewDirection const Horizontal;
+/// @brief Field Horizontal value: I32(1)
+static ::HMUI::ScrollView_ScrollViewDirection const Horizontal;
 
-  /// @brief Field Vertical value: I32(0)
-  static ::HMUI::ScrollView_ScrollViewDirection const Vertical;
+/// @brief Field Vertical value: I32(0)
+static ::HMUI::ScrollView_ScrollViewDirection const Vertical;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19206 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19209};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x4};
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+/// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+ int32_t  value__;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::HMUI::ScrollView_ScrollViewDirection, value__) == 0x0, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::HMUI::ScrollView_ScrollViewDirection, 0x4>, "Size mismatch!");
 
-} // namespace HMUI
+} // namespace end def HMUI
 // Dependencies System.Object
 namespace HMUI {
 // Is value type: false
 // CS Name: HMUI.ScrollView/<>c
 class CORDL_TYPE ScrollView___c : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field <>9, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::HMUI::ScrollView___c* __9;
+// Declarations
+/// @brief Field <>9, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF___9, put=setStaticF___9)) ::HMUI::ScrollView___c*  __9;
 
-  /// @brief Field <>9__46_1, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9__46_1, put = setStaticF___9__46_1)) ::System::Func_2<float_t, float_t>* __9__46_1;
+/// @brief Field <>9__46_1, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF___9__46_1, put=setStaticF___9__46_1)) ::System::Func_2<float_t,float_t>*  __9__46_1;
 
-  /// @brief Field <>9__46_3, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9__46_3, put = setStaticF___9__46_3)) ::System::Func_2<float_t, float_t>* __9__46_3;
+/// @brief Field <>9__46_3, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF___9__46_3, put=setStaticF___9__46_3)) ::System::Func_2<float_t,float_t>*  __9__46_3;
 
-  static inline ::HMUI::ScrollView___c* New_ctor();
+static inline ::HMUI::ScrollView___c* New_ctor() ;
 
-  /// @brief Method <Awake>b__46_1, addr 0x574340c, size 0x4, virtual false, abstract: false, final false
-  inline float_t _Awake_b__46_1(float_t i);
+/// @brief Method <Awake>b__46_1, addr 0x5744c74, size 0x4, virtual false, abstract: false, final false
+inline float_t _Awake_b__46_1(float_t  i) ;
 
-  /// @brief Method <Awake>b__46_3, addr 0x5743410, size 0x4, virtual false, abstract: false, final false
-  inline float_t _Awake_b__46_3(float_t i);
+/// @brief Method <Awake>b__46_3, addr 0x5744c78, size 0x4, virtual false, abstract: false, final false
+inline float_t _Awake_b__46_3(float_t  i) ;
 
-  /// @brief Method .ctor, addr 0x5743408, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5744c70, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  static inline ::HMUI::ScrollView___c* getStaticF___9();
+static inline ::HMUI::ScrollView___c* getStaticF___9() ;
 
-  static inline ::System::Func_2<float_t, float_t>* getStaticF___9__46_1();
+static inline ::System::Func_2<float_t,float_t>* getStaticF___9__46_1() ;
 
-  static inline ::System::Func_2<float_t, float_t>* getStaticF___9__46_3();
+static inline ::System::Func_2<float_t,float_t>* getStaticF___9__46_3() ;
 
-  static inline void setStaticF___9(::HMUI::ScrollView___c* value);
+static inline void setStaticF___9(::HMUI::ScrollView___c*  value) ;
 
-  static inline void setStaticF___9__46_1(::System::Func_2<float_t, float_t>* value);
+static inline void setStaticF___9__46_1(::System::Func_2<float_t,float_t>*  value) ;
 
-  static inline void setStaticF___9__46_3(::System::Func_2<float_t, float_t>* value);
+static inline void setStaticF___9__46_3(::System::Func_2<float_t,float_t>*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ScrollView___c();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ScrollView___c() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ScrollView___c", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ScrollView___c(ScrollView___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ScrollView___c", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ScrollView___c(ScrollView___c const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ScrollView___c", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ScrollView___c(ScrollView___c && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19207 };
+// Ctor Parameters [CppParam { name: "", ty: "ScrollView___c", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ScrollView___c(ScrollView___c const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19210};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HMUI::ScrollView___c, 0x10>, "Size mismatch!");
 
-} // namespace HMUI
+} // namespace end def HMUI
 // Dependencies System.Object
 namespace HMUI {
 // Is value type: false
 // CS Name: HMUI.ScrollView/<>c__DisplayClass60_0
 class CORDL_TYPE ScrollView___c__DisplayClass60_0 : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field threshold, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_threshold, put = __cordl_internal_set_threshold)) float_t threshold;
+// Declarations
+/// @brief Field threshold, offset 0x10, size 0x4 
+ __declspec(property(get=__cordl_internal_get_threshold, put=__cordl_internal_set_threshold)) float_t  threshold;
 
-  static inline ::HMUI::ScrollView___c__DisplayClass60_0* New_ctor();
+static inline ::HMUI::ScrollView___c__DisplayClass60_0* New_ctor() ;
 
-  /// @brief Method <PageUpButtonPressed>b__0, addr 0x5743414, size 0x10, virtual false, abstract: false, final false
-  inline bool _PageUpButtonPressed_b__0(float_t pos);
+/// @brief Method <PageUpButtonPressed>b__0, addr 0x5744c7c, size 0x10, virtual false, abstract: false, final false
+inline bool _PageUpButtonPressed_b__0(float_t  pos) ;
 
-  constexpr float_t const& __cordl_internal_get_threshold() const;
+constexpr float_t const& __cordl_internal_get_threshold() const;
 
-  constexpr float_t& __cordl_internal_get_threshold();
+constexpr float_t& __cordl_internal_get_threshold() ;
 
-  constexpr void __cordl_internal_set_threshold(float_t value);
+constexpr void __cordl_internal_set_threshold(float_t  value) ;
 
-  /// @brief Method .ctor, addr 0x5742f48, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x57447b0, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ScrollView___c__DisplayClass60_0();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ScrollView___c__DisplayClass60_0() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ScrollView___c__DisplayClass60_0", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ScrollView___c__DisplayClass60_0(ScrollView___c__DisplayClass60_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ScrollView___c__DisplayClass60_0", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ScrollView___c__DisplayClass60_0(ScrollView___c__DisplayClass60_0 const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ScrollView___c__DisplayClass60_0", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ScrollView___c__DisplayClass60_0(ScrollView___c__DisplayClass60_0 && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19208 };
+// Ctor Parameters [CppParam { name: "", ty: "ScrollView___c__DisplayClass60_0", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ScrollView___c__DisplayClass60_0(ScrollView___c__DisplayClass60_0 const& ) = delete;
 
-  /// @brief Field threshold, offset: 0x10, size: 0x4, def value: None
-  float_t ___threshold;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19211};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field threshold, offset: 0x10, size: 0x4, def value: None
+ float_t  ___threshold;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::HMUI::ScrollView___c__DisplayClass60_0, ___threshold) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::HMUI::ScrollView___c__DisplayClass60_0, 0x18>, "Size mismatch!");
 
-} // namespace HMUI
+} // namespace end def HMUI
 // Dependencies System.Object
 namespace HMUI {
 // Is value type: false
 // CS Name: HMUI.ScrollView/<>c__DisplayClass61_0
 class CORDL_TYPE ScrollView___c__DisplayClass61_0 : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field threshold, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_threshold, put = __cordl_internal_set_threshold)) float_t threshold;
+// Declarations
+/// @brief Field threshold, offset 0x10, size 0x4 
+ __declspec(property(get=__cordl_internal_get_threshold, put=__cordl_internal_set_threshold)) float_t  threshold;
 
-  static inline ::HMUI::ScrollView___c__DisplayClass61_0* New_ctor();
+static inline ::HMUI::ScrollView___c__DisplayClass61_0* New_ctor() ;
 
-  /// @brief Method <PageDownButtonPressed>b__0, addr 0x5743424, size 0x10, virtual false, abstract: false, final false
-  inline bool _PageDownButtonPressed_b__0(float_t pos);
+/// @brief Method <PageDownButtonPressed>b__0, addr 0x5744c8c, size 0x10, virtual false, abstract: false, final false
+inline bool _PageDownButtonPressed_b__0(float_t  pos) ;
 
-  constexpr float_t const& __cordl_internal_get_threshold() const;
+constexpr float_t const& __cordl_internal_get_threshold() const;
 
-  constexpr float_t& __cordl_internal_get_threshold();
+constexpr float_t& __cordl_internal_get_threshold() ;
 
-  constexpr void __cordl_internal_set_threshold(float_t value);
+constexpr void __cordl_internal_set_threshold(float_t  value) ;
 
-  /// @brief Method .ctor, addr 0x57432a0, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5744b08, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ScrollView___c__DisplayClass61_0();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ScrollView___c__DisplayClass61_0() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ScrollView___c__DisplayClass61_0", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ScrollView___c__DisplayClass61_0(ScrollView___c__DisplayClass61_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ScrollView___c__DisplayClass61_0", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ScrollView___c__DisplayClass61_0(ScrollView___c__DisplayClass61_0 const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ScrollView___c__DisplayClass61_0", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ScrollView___c__DisplayClass61_0(ScrollView___c__DisplayClass61_0 && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19209 };
+// Ctor Parameters [CppParam { name: "", ty: "ScrollView___c__DisplayClass61_0", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ScrollView___c__DisplayClass61_0(ScrollView___c__DisplayClass61_0 const& ) = delete;
 
-  /// @brief Field threshold, offset: 0x10, size: 0x4, def value: None
-  float_t ___threshold;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19212};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field threshold, offset: 0x10, size: 0x4, def value: None
+ float_t  ___threshold;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::HMUI::ScrollView___c__DisplayClass61_0, ___threshold) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::HMUI::ScrollView___c__DisplayClass61_0, 0x18>, "Size mismatch!");
 
-} // namespace HMUI
+} // namespace end def HMUI
 // Dependencies System.Object
 namespace HMUI {
 // Is value type: false
 // CS Name: HMUI.ScrollView/<>c__DisplayClass66_0
 class CORDL_TYPE ScrollView___c__DisplayClass66_0 : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field threshold, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_threshold, put = __cordl_internal_set_threshold)) float_t threshold;
+// Declarations
+/// @brief Field threshold, offset 0x10, size 0x4 
+ __declspec(property(get=__cordl_internal_get_threshold, put=__cordl_internal_set_threshold)) float_t  threshold;
 
-  static inline ::HMUI::ScrollView___c__DisplayClass66_0* New_ctor();
+static inline ::HMUI::ScrollView___c__DisplayClass66_0* New_ctor() ;
 
-  /// @brief Method <HandleJoystickWasCenteredThisFrame>b__0, addr 0x5743434, size 0x10, virtual false, abstract: false, final false
-  inline bool _HandleJoystickWasCenteredThisFrame_b__0(float_t pos);
+/// @brief Method <HandleJoystickWasCenteredThisFrame>b__0, addr 0x5744c9c, size 0x10, virtual false, abstract: false, final false
+inline bool _HandleJoystickWasCenteredThisFrame_b__0(float_t  pos) ;
 
-  constexpr float_t const& __cordl_internal_get_threshold() const;
+constexpr float_t const& __cordl_internal_get_threshold() const;
 
-  constexpr float_t& __cordl_internal_get_threshold();
+constexpr float_t& __cordl_internal_get_threshold() ;
 
-  constexpr void __cordl_internal_set_threshold(float_t value);
+constexpr void __cordl_internal_set_threshold(float_t  value) ;
 
-  /// @brief Method .ctor, addr 0x5743310, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5744b78, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ScrollView___c__DisplayClass66_0();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ScrollView___c__DisplayClass66_0() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ScrollView___c__DisplayClass66_0", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ScrollView___c__DisplayClass66_0(ScrollView___c__DisplayClass66_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ScrollView___c__DisplayClass66_0", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ScrollView___c__DisplayClass66_0(ScrollView___c__DisplayClass66_0 const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ScrollView___c__DisplayClass66_0", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ScrollView___c__DisplayClass66_0(ScrollView___c__DisplayClass66_0 && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19210 };
+// Ctor Parameters [CppParam { name: "", ty: "ScrollView___c__DisplayClass66_0", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ScrollView___c__DisplayClass66_0(ScrollView___c__DisplayClass66_0 const& ) = delete;
 
-  /// @brief Field threshold, offset: 0x10, size: 0x4, def value: None
-  float_t ___threshold;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19213};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field threshold, offset: 0x10, size: 0x4, def value: None
+ float_t  ___threshold;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::HMUI::ScrollView___c__DisplayClass66_0, ___threshold) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::HMUI::ScrollView___c__DisplayClass66_0, 0x18>, "Size mismatch!");
 
-} // namespace HMUI
+} // namespace end def HMUI
 // Dependencies System.Object
 namespace HMUI {
 // Is value type: false
 // CS Name: HMUI.ScrollView/<>c__DisplayClass66_1
 class CORDL_TYPE ScrollView___c__DisplayClass66_1 : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field threshold, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_threshold, put = __cordl_internal_set_threshold)) float_t threshold;
+// Declarations
+/// @brief Field threshold, offset 0x10, size 0x4 
+ __declspec(property(get=__cordl_internal_get_threshold, put=__cordl_internal_set_threshold)) float_t  threshold;
 
-  static inline ::HMUI::ScrollView___c__DisplayClass66_1* New_ctor();
+static inline ::HMUI::ScrollView___c__DisplayClass66_1* New_ctor() ;
 
-  /// @brief Method <HandleJoystickWasCenteredThisFrame>b__1, addr 0x5743444, size 0x10, virtual false, abstract: false, final false
-  inline bool _HandleJoystickWasCenteredThisFrame_b__1(float_t pos);
+/// @brief Method <HandleJoystickWasCenteredThisFrame>b__1, addr 0x5744cac, size 0x10, virtual false, abstract: false, final false
+inline bool _HandleJoystickWasCenteredThisFrame_b__1(float_t  pos) ;
 
-  constexpr float_t const& __cordl_internal_get_threshold() const;
+constexpr float_t const& __cordl_internal_get_threshold() const;
 
-  constexpr float_t& __cordl_internal_get_threshold();
+constexpr float_t& __cordl_internal_get_threshold() ;
 
-  constexpr void __cordl_internal_set_threshold(float_t value);
+constexpr void __cordl_internal_set_threshold(float_t  value) ;
 
-  /// @brief Method .ctor, addr 0x5743314, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5744b7c, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ScrollView___c__DisplayClass66_1();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ScrollView___c__DisplayClass66_1() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ScrollView___c__DisplayClass66_1", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ScrollView___c__DisplayClass66_1(ScrollView___c__DisplayClass66_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ScrollView___c__DisplayClass66_1", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ScrollView___c__DisplayClass66_1(ScrollView___c__DisplayClass66_1 const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ScrollView___c__DisplayClass66_1", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ScrollView___c__DisplayClass66_1(ScrollView___c__DisplayClass66_1 && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19211 };
+// Ctor Parameters [CppParam { name: "", ty: "ScrollView___c__DisplayClass66_1", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ScrollView___c__DisplayClass66_1(ScrollView___c__DisplayClass66_1 const& ) = delete;
 
-  /// @brief Field threshold, offset: 0x10, size: 0x4, def value: None
-  float_t ___threshold;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19214};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field threshold, offset: 0x10, size: 0x4, def value: None
+ float_t  ___threshold;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::HMUI::ScrollView___c__DisplayClass66_1, ___threshold) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::HMUI::ScrollView___c__DisplayClass66_1, 0x18>, "Size mismatch!");
 
-} // namespace HMUI
+} // namespace end def HMUI
 // Dependencies HMUI.ScrollView::ScrollDirection, HMUI.ScrollView::ScrollType, HMUI.ScrollView::ScrollViewDirection, UnityEngine.MonoBehaviour
 namespace HMUI {
 // Is value type: false
 // CS Name: HMUI.ScrollView
 class CORDL_TYPE ScrollView : public ::UnityEngine::MonoBehaviour {
 public:
-  // Declarations
-  using ScrollDirection = ::HMUI::ScrollView_ScrollDirection;
+// Declarations
+using ScrollDirection = ::HMUI::ScrollView_ScrollDirection;
 
-  using ScrollType = ::HMUI::ScrollView_ScrollType;
+using ScrollType = ::HMUI::ScrollView_ScrollType;
 
-  using ScrollViewDirection = ::HMUI::ScrollView_ScrollViewDirection;
+using ScrollViewDirection = ::HMUI::ScrollView_ScrollViewDirection;
 
-  using __c = ::HMUI::ScrollView___c;
+using __c = ::HMUI::ScrollView___c;
 
-  using __c__DisplayClass60_0 = ::HMUI::ScrollView___c__DisplayClass60_0;
+using __c__DisplayClass60_0 = ::HMUI::ScrollView___c__DisplayClass60_0;
 
-  using __c__DisplayClass61_0 = ::HMUI::ScrollView___c__DisplayClass61_0;
+using __c__DisplayClass61_0 = ::HMUI::ScrollView___c__DisplayClass61_0;
 
-  using __c__DisplayClass66_0 = ::HMUI::ScrollView___c__DisplayClass66_0;
+using __c__DisplayClass66_0 = ::HMUI::ScrollView___c__DisplayClass66_0;
 
-  using __c__DisplayClass66_1 = ::HMUI::ScrollView___c__DisplayClass66_1;
+using __c__DisplayClass66_1 = ::HMUI::ScrollView___c__DisplayClass66_1;
 
-  /// @brief Field _buttonBinder, offset 0x88, size 0x8
-  __declspec(property(get = __cordl_internal_get__buttonBinder, put = __cordl_internal_set__buttonBinder)) ::HMUI::ButtonBinder* _buttonBinder;
+/// @brief Field _buttonBinder, offset 0x88, size 0x8 
+ __declspec(property(get=__cordl_internal_get__buttonBinder, put=__cordl_internal_set__buttonBinder)) ::HMUI::ButtonBinder*  _buttonBinder;
 
-  /// @brief Field _contentRectTransform, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__contentRectTransform, put = __cordl_internal_set__contentRectTransform)) ::UnityW<::UnityEngine::RectTransform> _contentRectTransform;
+/// @brief Field _contentRectTransform, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get__contentRectTransform, put=__cordl_internal_set__contentRectTransform)) ::UnityW<::UnityEngine::RectTransform>  _contentRectTransform;
 
-  /// @brief Field _destinationPos, offset 0x90, size 0x4
-  __declspec(property(get = __cordl_internal_get__destinationPos, put = __cordl_internal_set__destinationPos)) float_t _destinationPos;
+/// @brief Field _destinationPos, offset 0x90, size 0x4 
+ __declspec(property(get=__cordl_internal_get__destinationPos, put=__cordl_internal_set__destinationPos)) float_t  _destinationPos;
 
-  /// @brief Field _eventSystemListener, offset 0xa0, size 0x8
-  __declspec(property(get = __cordl_internal_get__eventSystemListener, put = __cordl_internal_set__eventSystemListener)) ::UnityW<::HMUI::EventSystemListener> _eventSystemListener;
+/// @brief Field _eventSystemListener, offset 0xa0, size 0x8 
+ __declspec(property(get=__cordl_internal_get__eventSystemListener, put=__cordl_internal_set__eventSystemListener)) ::UnityW<::HMUI::EventSystemListener>  _eventSystemListener;
 
-  /// @brief Field _fixedCellSize, offset 0x68, size 0x4
-  __declspec(property(get = __cordl_internal_get__fixedCellSize, put = __cordl_internal_set__fixedCellSize)) float_t _fixedCellSize;
+/// @brief Field _fixedCellSize, offset 0x68, size 0x4 
+ __declspec(property(get=__cordl_internal_get__fixedCellSize, put=__cordl_internal_set__fixedCellSize)) float_t  _fixedCellSize;
 
-  /// @brief Field _isHoveredByPointer, offset 0x76, size 0x1
-  __declspec(property(get = __cordl_internal_get__isHoveredByPointer, put = __cordl_internal_set__isHoveredByPointer)) bool _isHoveredByPointer;
+/// @brief Field _isHoveredByPointer, offset 0x76, size 0x1 
+ __declspec(property(get=__cordl_internal_get__isHoveredByPointer, put=__cordl_internal_set__isHoveredByPointer)) bool  _isHoveredByPointer;
 
-  /// @brief Field _joystickQuickSnapMaxTime, offset 0x60, size 0x4
-  __declspec(property(get = __cordl_internal_get__joystickQuickSnapMaxTime, put = __cordl_internal_set__joystickQuickSnapMaxTime)) float_t _joystickQuickSnapMaxTime;
+/// @brief Field _joystickQuickSnapMaxTime, offset 0x60, size 0x4 
+ __declspec(property(get=__cordl_internal_get__joystickQuickSnapMaxTime, put=__cordl_internal_set__joystickQuickSnapMaxTime)) float_t  _joystickQuickSnapMaxTime;
 
-  /// @brief Field _joystickScrollSpeed, offset 0x5c, size 0x4
-  __declspec(property(get = __cordl_internal_get__joystickScrollSpeed, put = __cordl_internal_set__joystickScrollSpeed)) float_t _joystickScrollSpeed;
+/// @brief Field _joystickScrollSpeed, offset 0x5c, size 0x4 
+ __declspec(property(get=__cordl_internal_get__joystickScrollSpeed, put=__cordl_internal_set__joystickScrollSpeed)) float_t  _joystickScrollSpeed;
 
-  /// @brief Field _joystickScrollStartTime, offset 0xac, size 0x4
-  __declspec(property(get = __cordl_internal_get__joystickScrollStartTime, put = __cordl_internal_set__joystickScrollStartTime)) float_t _joystickScrollStartTime;
+/// @brief Field _joystickScrollStartTime, offset 0xac, size 0x4 
+ __declspec(property(get=__cordl_internal_get__joystickScrollStartTime, put=__cordl_internal_set__joystickScrollStartTime)) float_t  _joystickScrollStartTime;
 
-  /// @brief Field _lastJoystickScrollDirection, offset 0xa8, size 0x4
-  __declspec(property(get = __cordl_internal_get__lastJoystickScrollDirection,
-                      put = __cordl_internal_set__lastJoystickScrollDirection)) ::HMUI::ScrollView_ScrollDirection _lastJoystickScrollDirection;
+/// @brief Field _lastJoystickScrollDirection, offset 0xa8, size 0x4 
+ __declspec(property(get=__cordl_internal_get__lastJoystickScrollDirection, put=__cordl_internal_set__lastJoystickScrollDirection)) ::HMUI::ScrollView_ScrollDirection  _lastJoystickScrollDirection;
 
-  /// @brief Field _needsScrolling, offset 0x74, size 0x1
-  __declspec(property(get = __cordl_internal_get__needsScrolling, put = __cordl_internal_set__needsScrolling)) bool _needsScrolling;
+/// @brief Field _needsScrolling, offset 0x74, size 0x1 
+ __declspec(property(get=__cordl_internal_get__needsScrolling, put=__cordl_internal_set__needsScrolling)) bool  _needsScrolling;
 
-  /// @brief Field _pageDownButton, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__pageDownButton, put = __cordl_internal_set__pageDownButton)) ::UnityW<::UnityEngine::UI::Button> _pageDownButton;
+/// @brief Field _pageDownButton, offset 0x40, size 0x8 
+ __declspec(property(get=__cordl_internal_get__pageDownButton, put=__cordl_internal_set__pageDownButton)) ::UnityW<::UnityEngine::UI::Button>  _pageDownButton;
 
-  /// @brief Field _pageStepNormalizedSize, offset 0x70, size 0x4
-  __declspec(property(get = __cordl_internal_get__pageStepNormalizedSize, put = __cordl_internal_set__pageStepNormalizedSize)) float_t _pageStepNormalizedSize;
+/// @brief Field _pageStepNormalizedSize, offset 0x70, size 0x4 
+ __declspec(property(get=__cordl_internal_get__pageStepNormalizedSize, put=__cordl_internal_set__pageStepNormalizedSize)) float_t  _pageStepNormalizedSize;
 
-  /// @brief Field _pageUpButton, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__pageUpButton, put = __cordl_internal_set__pageUpButton)) ::UnityW<::UnityEngine::UI::Button> _pageUpButton;
+/// @brief Field _pageUpButton, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get__pageUpButton, put=__cordl_internal_set__pageUpButton)) ::UnityW<::UnityEngine::UI::Button>  _pageUpButton;
 
-  /// @brief Field _platformHelper, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get__platformHelper, put = __cordl_internal_set__platformHelper)) ::GlobalNamespace::IVRPlatformHelper* _platformHelper;
+/// @brief Field _platformHelper, offset 0x78, size 0x8 
+ __declspec(property(get=__cordl_internal_get__platformHelper, put=__cordl_internal_set__platformHelper)) ::GlobalNamespace::IVRPlatformHelper*  _platformHelper;
 
-  /// @brief Field _scrollFocusPositions, offset 0x98, size 0x8
-  __declspec(property(get = __cordl_internal_get__scrollFocusPositions, put = __cordl_internal_set__scrollFocusPositions)) ::ArrayW<float_t, ::Array<float_t>*> _scrollFocusPositions;
+/// @brief Field _scrollFocusPositions, offset 0x98, size 0x8 
+ __declspec(property(get=__cordl_internal_get__scrollFocusPositions, put=__cordl_internal_set__scrollFocusPositions)) ::ArrayW<float_t,::Array<float_t>*>  _scrollFocusPositions;
 
-  /// @brief Field _scrollItemRelativeThresholdPosition, offset 0x6c, size 0x4
-  __declspec(property(get = __cordl_internal_get__scrollItemRelativeThresholdPosition, put = __cordl_internal_set__scrollItemRelativeThresholdPosition)) float_t _scrollItemRelativeThresholdPosition;
+/// @brief Field _scrollItemRelativeThresholdPosition, offset 0x6c, size 0x4 
+ __declspec(property(get=__cordl_internal_get__scrollItemRelativeThresholdPosition, put=__cordl_internal_set__scrollItemRelativeThresholdPosition)) float_t  _scrollItemRelativeThresholdPosition;
 
-  /// @brief Field _scrollType, offset 0x64, size 0x4
-  __declspec(property(get = __cordl_internal_get__scrollType, put = __cordl_internal_set__scrollType)) ::HMUI::ScrollView_ScrollType _scrollType;
+/// @brief Field _scrollType, offset 0x64, size 0x4 
+ __declspec(property(get=__cordl_internal_get__scrollType, put=__cordl_internal_set__scrollType)) ::HMUI::ScrollView_ScrollType  _scrollType;
 
-  /// @brief Field _scrollViewDirection, offset 0x30, size 0x4
-  __declspec(property(get = __cordl_internal_get__scrollViewDirection, put = __cordl_internal_set__scrollViewDirection)) ::HMUI::ScrollView_ScrollViewDirection _scrollViewDirection;
+/// @brief Field _scrollViewDirection, offset 0x30, size 0x4 
+ __declspec(property(get=__cordl_internal_get__scrollViewDirection, put=__cordl_internal_set__scrollViewDirection)) ::HMUI::ScrollView_ScrollViewDirection  _scrollViewDirection;
 
-  /// @brief Field _scrollingLastFrame, offset 0x75, size 0x1
-  __declspec(property(get = __cordl_internal_get__scrollingLastFrame, put = __cordl_internal_set__scrollingLastFrame)) bool _scrollingLastFrame;
+/// @brief Field _scrollingLastFrame, offset 0x75, size 0x1 
+ __declspec(property(get=__cordl_internal_get__scrollingLastFrame, put=__cordl_internal_set__scrollingLastFrame)) bool  _scrollingLastFrame;
 
-  /// @brief Field _shouldAnimate, offset 0x77, size 0x1
-  __declspec(property(get = __cordl_internal_get__shouldAnimate, put = __cordl_internal_set__shouldAnimate)) bool _shouldAnimate;
+/// @brief Field _shouldAnimate, offset 0x77, size 0x1 
+ __declspec(property(get=__cordl_internal_get__shouldAnimate, put=__cordl_internal_set__shouldAnimate)) bool  _shouldAnimate;
 
-  /// @brief Field _smooth, offset 0x58, size 0x4
-  __declspec(property(get = __cordl_internal_get__smooth, put = __cordl_internal_set__smooth)) float_t _smooth;
+/// @brief Field _smooth, offset 0x58, size 0x4 
+ __declspec(property(get=__cordl_internal_get__smooth, put=__cordl_internal_set__smooth)) float_t  _smooth;
 
-  /// @brief Field _verticalScrollController, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get__verticalScrollController, put = __cordl_internal_set__verticalScrollController)) ::UnityW<::HMUI::VerticalScrollController> _verticalScrollController;
+/// @brief Field _verticalScrollController, offset 0x50, size 0x8 
+ __declspec(property(get=__cordl_internal_get__verticalScrollController, put=__cordl_internal_set__verticalScrollController)) ::UnityW<::HMUI::VerticalScrollController>  _verticalScrollController;
 
-  /// @brief Field _verticalScrollIndicator, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__verticalScrollIndicator, put = __cordl_internal_set__verticalScrollIndicator)) ::UnityW<::HMUI::VerticalScrollIndicator> _verticalScrollIndicator;
+/// @brief Field _verticalScrollIndicator, offset 0x48, size 0x8 
+ __declspec(property(get=__cordl_internal_get__verticalScrollIndicator, put=__cordl_internal_set__verticalScrollIndicator)) ::UnityW<::HMUI::VerticalScrollIndicator>  _verticalScrollIndicator;
 
-  /// @brief Field _viewport, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__viewport, put = __cordl_internal_set__viewport)) ::UnityW<::UnityEngine::RectTransform> _viewport;
+/// @brief Field _viewport, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get__viewport, put=__cordl_internal_set__viewport)) ::UnityW<::UnityEngine::RectTransform>  _viewport;
 
-  __declspec(property(get = get_contentSize)) float_t contentSize;
+ __declspec(property(get=get_contentSize)) float_t  contentSize;
 
-  __declspec(property(get = get_contentTransform)) ::UnityW<::UnityEngine::RectTransform> contentTransform;
+ __declspec(property(get=get_contentTransform)) ::UnityW<::UnityEngine::RectTransform>  contentTransform;
 
-  __declspec(property(get = get_needsScrolling)) bool needsScrolling;
+ __declspec(property(get=get_needsScrolling)) bool  needsScrolling;
 
-  __declspec(property(get = get_position)) float_t position;
+ __declspec(property(get=get_position)) float_t  position;
 
-  __declspec(property(get = get_scrollPageSize)) float_t scrollPageSize;
+ __declspec(property(get=get_scrollPageSize)) float_t  scrollPageSize;
 
-  /// @brief Field scrollPositionChangedEvent, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get_scrollPositionChangedEvent, put = __cordl_internal_set_scrollPositionChangedEvent)) ::System::Action_1<float_t>* scrollPositionChangedEvent;
+/// @brief Field scrollPositionChangedEvent, offset 0x80, size 0x8 
+ __declspec(property(get=__cordl_internal_get_scrollPositionChangedEvent, put=__cordl_internal_set_scrollPositionChangedEvent)) ::System::Action_1<float_t>*  scrollPositionChangedEvent;
 
-  __declspec(property(get = get_scrollableSize)) float_t scrollableSize;
+ __declspec(property(get=get_scrollableSize)) float_t  scrollableSize;
 
-  __declspec(property(get = get_viewportTransform)) ::UnityW<::UnityEngine::RectTransform> viewportTransform;
+ __declspec(property(get=get_viewportTransform)) ::UnityW<::UnityEngine::RectTransform>  viewportTransform;
 
-  /// @brief Method Awake, addr 0x5741278, size 0x63c, virtual false, abstract: false, final false
-  inline void Awake();
+/// @brief Method Awake, addr 0x5742ae0, size 0x63c, virtual false, abstract: false, final false
+inline void Awake() ;
 
-  /// @brief Method CheckScrollInput, addr 0x5741db0, size 0x160, virtual false, abstract: false, final false
-  inline void CheckScrollInput();
+/// @brief Method CheckScrollInput, addr 0x5743618, size 0x160, virtual false, abstract: false, final false
+inline void CheckScrollInput() ;
 
-  /// @brief Method HandleJoystickWasCenteredThisFrame, addr 0x574204c, size 0x4dc, virtual false, abstract: false, final false
-  inline void HandleJoystickWasCenteredThisFrame();
+/// @brief Method HandleJoystickWasCenteredThisFrame, addr 0x57438b4, size 0x4dc, virtual false, abstract: false, final false
+inline void HandleJoystickWasCenteredThisFrame() ;
 
-  /// @brief Method HandleJoystickWasNotCenteredThisFrame, addr 0x5741f10, size 0x13c, virtual false, abstract: false, final false
-  inline void HandleJoystickWasNotCenteredThisFrame(::UnityEngine::Vector2 deltaPos);
+/// @brief Method HandleJoystickWasNotCenteredThisFrame, addr 0x5743778, size 0x13c, virtual false, abstract: false, final false
+inline void HandleJoystickWasNotCenteredThisFrame(::UnityEngine::Vector2  deltaPos) ;
 
-  /// @brief Method HandlePointerDidEnter, addr 0x57432a4, size 0x14, virtual false, abstract: false, final false
-  inline void HandlePointerDidEnter(::UnityEngine::EventSystems::PointerEventData* eventData);
+/// @brief Method HandlePointerDidEnter, addr 0x5744b0c, size 0x14, virtual false, abstract: false, final false
+inline void HandlePointerDidEnter(::UnityEngine::EventSystems::PointerEventData*  eventData) ;
 
-  /// @brief Method HandlePointerDidExit, addr 0x57432b8, size 0x8, virtual false, abstract: false, final false
-  inline void HandlePointerDidExit(::UnityEngine::EventSystems::PointerEventData* eventData);
+/// @brief Method HandlePointerDidExit, addr 0x5744b20, size 0x8, virtual false, abstract: false, final false
+inline void HandlePointerDidExit(::UnityEngine::EventSystems::PointerEventData*  eventData) ;
 
-  static inline ::HMUI::ScrollView* New_ctor();
+static inline ::HMUI::ScrollView* New_ctor() ;
 
-  /// @brief Method OnDestroy, addr 0x5741aec, size 0x204, virtual false, abstract: false, final false
-  inline void OnDestroy();
+/// @brief Method OnDestroy, addr 0x5743354, size 0x204, virtual false, abstract: false, final false
+inline void OnDestroy() ;
 
-  /// @brief Method PageDownButtonPressed, addr 0x5742f4c, size 0x354, virtual false, abstract: false, final false
-  inline void PageDownButtonPressed();
+/// @brief Method PageDownButtonPressed, addr 0x57447b4, size 0x354, virtual false, abstract: false, final false
+inline void PageDownButtonPressed() ;
 
-  /// @brief Method PageUpButtonPressed, addr 0x5742c28, size 0x320, virtual false, abstract: false, final false
-  inline void PageUpButtonPressed();
+/// @brief Method PageUpButtonPressed, addr 0x5744490, size 0x320, virtual false, abstract: false, final false
+inline void PageUpButtonPressed() ;
 
-  /// @brief Method RefreshButtons, addr 0x57419d8, size 0x114, virtual false, abstract: false, final false
-  inline void RefreshButtons();
+/// @brief Method RefreshButtons, addr 0x5743240, size 0x114, virtual false, abstract: false, final false
+inline void RefreshButtons() ;
 
-  /// @brief Method ResolveScrollDirection, addr 0x57432c0, size 0x50, virtual false, abstract: false, final false
-  inline ::HMUI::ScrollView_ScrollDirection ResolveScrollDirection(::UnityEngine::Vector2 deltaPos);
+/// @brief Method ResolveScrollDirection, addr 0x5744b28, size 0x50, virtual false, abstract: false, final false
+inline ::HMUI::ScrollView_ScrollDirection ResolveScrollDirection(::UnityEngine::Vector2  deltaPos) ;
 
-  /// @brief Method ScrollTo, addr 0x5740f34, size 0xb8, virtual false, abstract: false, final false
-  inline void ScrollTo(float_t destinationPos, bool animated);
+/// @brief Method ScrollTo, addr 0x574279c, size 0xb8, virtual false, abstract: false, final false
+inline void ScrollTo(float_t  destinationPos, bool  animated) ;
 
-  /// @brief Method ScrollToByPercentage, addr 0x5742b70, size 0x3c, virtual false, abstract: false, final false
-  inline void ScrollToByPercentage(float_t value);
+/// @brief Method ScrollToByPercentage, addr 0x57443d8, size 0x3c, virtual false, abstract: false, final false
+inline void ScrollToByPercentage(float_t  value) ;
 
-  /// @brief Method ScrollToEnd, addr 0x574298c, size 0x40, virtual false, abstract: false, final false
-  inline void ScrollToEnd(bool animated);
+/// @brief Method ScrollToEnd, addr 0x57441f4, size 0x40, virtual false, abstract: false, final false
+inline void ScrollToEnd(bool  animated) ;
 
-  /// @brief Method ScrollToWorldPosition, addr 0x57429cc, size 0x48, virtual false, abstract: false, final false
-  inline void ScrollToWorldPosition(::UnityEngine::Vector3 worldPosition, float_t pageRelativePosition, bool animated);
+/// @brief Method ScrollToWorldPosition, addr 0x5744234, size 0x48, virtual false, abstract: false, final false
+inline void ScrollToWorldPosition(::UnityEngine::Vector3  worldPosition, float_t  pageRelativePosition, bool  animated) ;
 
-  /// @brief Method ScrollToWorldPositionIfOutsideArea, addr 0x5742ac4, size 0xac, virtual false, abstract: false, final false
-  inline void ScrollToWorldPositionIfOutsideArea(::UnityEngine::Vector3 worldPosition, float_t pageRelativePosition, float_t relativeBoundaryStart, float_t relativeBoundaryEnd, bool animated);
+/// @brief Method ScrollToWorldPositionIfOutsideArea, addr 0x574432c, size 0xac, virtual false, abstract: false, final false
+inline void ScrollToWorldPositionIfOutsideArea(::UnityEngine::Vector3  worldPosition, float_t  pageRelativePosition, float_t  relativeBoundaryStart, float_t  relativeBoundaryEnd, bool  animated) ;
 
-  /// @brief Method SetContentSize, addr 0x5742750, size 0x20c, virtual false, abstract: false, final false
-  inline void SetContentSize(float_t contentSize);
+/// @brief Method SetContentSize, addr 0x5743fb8, size 0x20c, virtual false, abstract: false, final false
+inline void SetContentSize(float_t  contentSize) ;
 
-  /// @brief Method SetDestinationPos, addr 0x5742bac, size 0x4c, virtual false, abstract: false, final false
-  inline void SetDestinationPos(float_t value);
+/// @brief Method SetDestinationPos, addr 0x5744414, size 0x4c, virtual false, abstract: false, final false
+inline void SetDestinationPos(float_t  value) ;
 
-  /// @brief Method Update, addr 0x5742528, size 0x14c, virtual false, abstract: false, final false
-  inline void Update();
+/// @brief Method Update, addr 0x5743d90, size 0x14c, virtual false, abstract: false, final false
+inline void Update() ;
 
-  /// @brief Method UpdateContentSize, addr 0x5741974, size 0x64, virtual false, abstract: false, final false
-  inline void UpdateContentSize();
+/// @brief Method UpdateContentSize, addr 0x57431dc, size 0x64, virtual false, abstract: false, final false
+inline void UpdateContentSize() ;
 
-  /// @brief Method UpdateVerticalScrollIndicator, addr 0x5742674, size 0xdc, virtual false, abstract: false, final false
-  inline void UpdateVerticalScrollIndicator(float_t posY);
+/// @brief Method UpdateVerticalScrollIndicator, addr 0x5743edc, size 0xdc, virtual false, abstract: false, final false
+inline void UpdateVerticalScrollIndicator(float_t  posY) ;
 
-  /// @brief Method WorldPositionToScrollViewPosition, addr 0x5742a14, size 0xb0, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector2 WorldPositionToScrollViewPosition(::UnityEngine::Vector3 worldPosition);
+/// @brief Method WorldPositionToScrollViewPosition, addr 0x574427c, size 0xb0, virtual false, abstract: false, final false
+inline ::UnityEngine::Vector2 WorldPositionToScrollViewPosition(::UnityEngine::Vector3  worldPosition) ;
 
-  /// @brief Method <Awake>b__46_0, addr 0x5743344, size 0x3c, virtual false, abstract: false, final false
-  inline float_t _Awake_b__46_0(::HMUI::ItemForFocussedScrolling* item);
+/// @brief Method <Awake>b__46_0, addr 0x5744bac, size 0x3c, virtual false, abstract: false, final false
+inline float_t _Awake_b__46_0(::HMUI::ItemForFocussedScrolling*  item) ;
 
-  /// @brief Method <Awake>b__46_2, addr 0x5743380, size 0x34, virtual false, abstract: false, final false
-  inline float_t _Awake_b__46_2(::HMUI::ItemForFocussedScrolling* item);
+/// @brief Method <Awake>b__46_2, addr 0x5744be8, size 0x34, virtual false, abstract: false, final false
+inline float_t _Awake_b__46_2(::HMUI::ItemForFocussedScrolling*  item) ;
 
-  constexpr ::HMUI::ButtonBinder* const& __cordl_internal_get__buttonBinder() const;
+constexpr ::HMUI::ButtonBinder* const& __cordl_internal_get__buttonBinder() const;
 
-  constexpr ::HMUI::ButtonBinder*& __cordl_internal_get__buttonBinder();
+constexpr ::HMUI::ButtonBinder*& __cordl_internal_get__buttonBinder() ;
 
-  constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get__contentRectTransform() const;
+constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get__contentRectTransform() const;
 
-  constexpr ::UnityW<::UnityEngine::RectTransform>& __cordl_internal_get__contentRectTransform();
+constexpr ::UnityW<::UnityEngine::RectTransform>& __cordl_internal_get__contentRectTransform() ;
 
-  constexpr float_t const& __cordl_internal_get__destinationPos() const;
+constexpr float_t const& __cordl_internal_get__destinationPos() const;
 
-  constexpr float_t& __cordl_internal_get__destinationPos();
+constexpr float_t& __cordl_internal_get__destinationPos() ;
 
-  constexpr ::UnityW<::HMUI::EventSystemListener> const& __cordl_internal_get__eventSystemListener() const;
+constexpr ::UnityW<::HMUI::EventSystemListener> const& __cordl_internal_get__eventSystemListener() const;
 
-  constexpr ::UnityW<::HMUI::EventSystemListener>& __cordl_internal_get__eventSystemListener();
+constexpr ::UnityW<::HMUI::EventSystemListener>& __cordl_internal_get__eventSystemListener() ;
 
-  constexpr float_t const& __cordl_internal_get__fixedCellSize() const;
+constexpr float_t const& __cordl_internal_get__fixedCellSize() const;
 
-  constexpr float_t& __cordl_internal_get__fixedCellSize();
+constexpr float_t& __cordl_internal_get__fixedCellSize() ;
 
-  constexpr bool const& __cordl_internal_get__isHoveredByPointer() const;
+constexpr bool const& __cordl_internal_get__isHoveredByPointer() const;
 
-  constexpr bool& __cordl_internal_get__isHoveredByPointer();
+constexpr bool& __cordl_internal_get__isHoveredByPointer() ;
 
-  constexpr float_t const& __cordl_internal_get__joystickQuickSnapMaxTime() const;
+constexpr float_t const& __cordl_internal_get__joystickQuickSnapMaxTime() const;
 
-  constexpr float_t& __cordl_internal_get__joystickQuickSnapMaxTime();
+constexpr float_t& __cordl_internal_get__joystickQuickSnapMaxTime() ;
 
-  constexpr float_t const& __cordl_internal_get__joystickScrollSpeed() const;
+constexpr float_t const& __cordl_internal_get__joystickScrollSpeed() const;
 
-  constexpr float_t& __cordl_internal_get__joystickScrollSpeed();
+constexpr float_t& __cordl_internal_get__joystickScrollSpeed() ;
 
-  constexpr float_t const& __cordl_internal_get__joystickScrollStartTime() const;
+constexpr float_t const& __cordl_internal_get__joystickScrollStartTime() const;
 
-  constexpr float_t& __cordl_internal_get__joystickScrollStartTime();
+constexpr float_t& __cordl_internal_get__joystickScrollStartTime() ;
 
-  constexpr ::HMUI::ScrollView_ScrollDirection const& __cordl_internal_get__lastJoystickScrollDirection() const;
+constexpr ::HMUI::ScrollView_ScrollDirection const& __cordl_internal_get__lastJoystickScrollDirection() const;
 
-  constexpr ::HMUI::ScrollView_ScrollDirection& __cordl_internal_get__lastJoystickScrollDirection();
+constexpr ::HMUI::ScrollView_ScrollDirection& __cordl_internal_get__lastJoystickScrollDirection() ;
 
-  constexpr bool const& __cordl_internal_get__needsScrolling() const;
+constexpr bool const& __cordl_internal_get__needsScrolling() const;
 
-  constexpr bool& __cordl_internal_get__needsScrolling();
+constexpr bool& __cordl_internal_get__needsScrolling() ;
 
-  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__pageDownButton() const;
+constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__pageDownButton() const;
 
-  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__pageDownButton();
+constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__pageDownButton() ;
 
-  constexpr float_t const& __cordl_internal_get__pageStepNormalizedSize() const;
+constexpr float_t const& __cordl_internal_get__pageStepNormalizedSize() const;
 
-  constexpr float_t& __cordl_internal_get__pageStepNormalizedSize();
+constexpr float_t& __cordl_internal_get__pageStepNormalizedSize() ;
 
-  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__pageUpButton() const;
+constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__pageUpButton() const;
 
-  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__pageUpButton();
+constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__pageUpButton() ;
 
-  constexpr ::GlobalNamespace::IVRPlatformHelper* const& __cordl_internal_get__platformHelper() const;
+constexpr ::GlobalNamespace::IVRPlatformHelper* const& __cordl_internal_get__platformHelper() const;
 
-  constexpr ::GlobalNamespace::IVRPlatformHelper*& __cordl_internal_get__platformHelper();
+constexpr ::GlobalNamespace::IVRPlatformHelper*& __cordl_internal_get__platformHelper() ;
 
-  constexpr ::ArrayW<float_t, ::Array<float_t>*> const& __cordl_internal_get__scrollFocusPositions() const;
+constexpr ::ArrayW<float_t,::Array<float_t>*> const& __cordl_internal_get__scrollFocusPositions() const;
 
-  constexpr ::ArrayW<float_t, ::Array<float_t>*>& __cordl_internal_get__scrollFocusPositions();
+constexpr ::ArrayW<float_t,::Array<float_t>*>& __cordl_internal_get__scrollFocusPositions() ;
 
-  constexpr float_t const& __cordl_internal_get__scrollItemRelativeThresholdPosition() const;
+constexpr float_t const& __cordl_internal_get__scrollItemRelativeThresholdPosition() const;
 
-  constexpr float_t& __cordl_internal_get__scrollItemRelativeThresholdPosition();
+constexpr float_t& __cordl_internal_get__scrollItemRelativeThresholdPosition() ;
 
-  constexpr ::HMUI::ScrollView_ScrollType const& __cordl_internal_get__scrollType() const;
+constexpr ::HMUI::ScrollView_ScrollType const& __cordl_internal_get__scrollType() const;
 
-  constexpr ::HMUI::ScrollView_ScrollType& __cordl_internal_get__scrollType();
+constexpr ::HMUI::ScrollView_ScrollType& __cordl_internal_get__scrollType() ;
 
-  constexpr ::HMUI::ScrollView_ScrollViewDirection const& __cordl_internal_get__scrollViewDirection() const;
+constexpr ::HMUI::ScrollView_ScrollViewDirection const& __cordl_internal_get__scrollViewDirection() const;
 
-  constexpr ::HMUI::ScrollView_ScrollViewDirection& __cordl_internal_get__scrollViewDirection();
+constexpr ::HMUI::ScrollView_ScrollViewDirection& __cordl_internal_get__scrollViewDirection() ;
 
-  constexpr bool const& __cordl_internal_get__scrollingLastFrame() const;
+constexpr bool const& __cordl_internal_get__scrollingLastFrame() const;
 
-  constexpr bool& __cordl_internal_get__scrollingLastFrame();
+constexpr bool& __cordl_internal_get__scrollingLastFrame() ;
 
-  constexpr bool const& __cordl_internal_get__shouldAnimate() const;
+constexpr bool const& __cordl_internal_get__shouldAnimate() const;
 
-  constexpr bool& __cordl_internal_get__shouldAnimate();
+constexpr bool& __cordl_internal_get__shouldAnimate() ;
 
-  constexpr float_t const& __cordl_internal_get__smooth() const;
+constexpr float_t const& __cordl_internal_get__smooth() const;
 
-  constexpr float_t& __cordl_internal_get__smooth();
+constexpr float_t& __cordl_internal_get__smooth() ;
 
-  constexpr ::UnityW<::HMUI::VerticalScrollController> const& __cordl_internal_get__verticalScrollController() const;
+constexpr ::UnityW<::HMUI::VerticalScrollController> const& __cordl_internal_get__verticalScrollController() const;
 
-  constexpr ::UnityW<::HMUI::VerticalScrollController>& __cordl_internal_get__verticalScrollController();
+constexpr ::UnityW<::HMUI::VerticalScrollController>& __cordl_internal_get__verticalScrollController() ;
 
-  constexpr ::UnityW<::HMUI::VerticalScrollIndicator> const& __cordl_internal_get__verticalScrollIndicator() const;
+constexpr ::UnityW<::HMUI::VerticalScrollIndicator> const& __cordl_internal_get__verticalScrollIndicator() const;
 
-  constexpr ::UnityW<::HMUI::VerticalScrollIndicator>& __cordl_internal_get__verticalScrollIndicator();
+constexpr ::UnityW<::HMUI::VerticalScrollIndicator>& __cordl_internal_get__verticalScrollIndicator() ;
 
-  constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get__viewport() const;
+constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get__viewport() const;
 
-  constexpr ::UnityW<::UnityEngine::RectTransform>& __cordl_internal_get__viewport();
+constexpr ::UnityW<::UnityEngine::RectTransform>& __cordl_internal_get__viewport() ;
 
-  constexpr ::System::Action_1<float_t>* const& __cordl_internal_get_scrollPositionChangedEvent() const;
+constexpr ::System::Action_1<float_t>* const& __cordl_internal_get_scrollPositionChangedEvent() const;
 
-  constexpr ::System::Action_1<float_t>*& __cordl_internal_get_scrollPositionChangedEvent();
+constexpr ::System::Action_1<float_t>*& __cordl_internal_get_scrollPositionChangedEvent() ;
 
-  constexpr void __cordl_internal_set__buttonBinder(::HMUI::ButtonBinder* value);
+constexpr void __cordl_internal_set__buttonBinder(::HMUI::ButtonBinder*  value) ;
 
-  constexpr void __cordl_internal_set__contentRectTransform(::UnityW<::UnityEngine::RectTransform> value);
+constexpr void __cordl_internal_set__contentRectTransform(::UnityW<::UnityEngine::RectTransform>  value) ;
 
-  constexpr void __cordl_internal_set__destinationPos(float_t value);
+constexpr void __cordl_internal_set__destinationPos(float_t  value) ;
 
-  constexpr void __cordl_internal_set__eventSystemListener(::UnityW<::HMUI::EventSystemListener> value);
+constexpr void __cordl_internal_set__eventSystemListener(::UnityW<::HMUI::EventSystemListener>  value) ;
 
-  constexpr void __cordl_internal_set__fixedCellSize(float_t value);
+constexpr void __cordl_internal_set__fixedCellSize(float_t  value) ;
 
-  constexpr void __cordl_internal_set__isHoveredByPointer(bool value);
+constexpr void __cordl_internal_set__isHoveredByPointer(bool  value) ;
 
-  constexpr void __cordl_internal_set__joystickQuickSnapMaxTime(float_t value);
+constexpr void __cordl_internal_set__joystickQuickSnapMaxTime(float_t  value) ;
 
-  constexpr void __cordl_internal_set__joystickScrollSpeed(float_t value);
+constexpr void __cordl_internal_set__joystickScrollSpeed(float_t  value) ;
 
-  constexpr void __cordl_internal_set__joystickScrollStartTime(float_t value);
+constexpr void __cordl_internal_set__joystickScrollStartTime(float_t  value) ;
 
-  constexpr void __cordl_internal_set__lastJoystickScrollDirection(::HMUI::ScrollView_ScrollDirection value);
+constexpr void __cordl_internal_set__lastJoystickScrollDirection(::HMUI::ScrollView_ScrollDirection  value) ;
 
-  constexpr void __cordl_internal_set__needsScrolling(bool value);
+constexpr void __cordl_internal_set__needsScrolling(bool  value) ;
 
-  constexpr void __cordl_internal_set__pageDownButton(::UnityW<::UnityEngine::UI::Button> value);
+constexpr void __cordl_internal_set__pageDownButton(::UnityW<::UnityEngine::UI::Button>  value) ;
 
-  constexpr void __cordl_internal_set__pageStepNormalizedSize(float_t value);
+constexpr void __cordl_internal_set__pageStepNormalizedSize(float_t  value) ;
 
-  constexpr void __cordl_internal_set__pageUpButton(::UnityW<::UnityEngine::UI::Button> value);
+constexpr void __cordl_internal_set__pageUpButton(::UnityW<::UnityEngine::UI::Button>  value) ;
 
-  constexpr void __cordl_internal_set__platformHelper(::GlobalNamespace::IVRPlatformHelper* value);
+constexpr void __cordl_internal_set__platformHelper(::GlobalNamespace::IVRPlatformHelper*  value) ;
 
-  constexpr void __cordl_internal_set__scrollFocusPositions(::ArrayW<float_t, ::Array<float_t>*> value);
+constexpr void __cordl_internal_set__scrollFocusPositions(::ArrayW<float_t,::Array<float_t>*>  value) ;
 
-  constexpr void __cordl_internal_set__scrollItemRelativeThresholdPosition(float_t value);
+constexpr void __cordl_internal_set__scrollItemRelativeThresholdPosition(float_t  value) ;
 
-  constexpr void __cordl_internal_set__scrollType(::HMUI::ScrollView_ScrollType value);
+constexpr void __cordl_internal_set__scrollType(::HMUI::ScrollView_ScrollType  value) ;
 
-  constexpr void __cordl_internal_set__scrollViewDirection(::HMUI::ScrollView_ScrollViewDirection value);
+constexpr void __cordl_internal_set__scrollViewDirection(::HMUI::ScrollView_ScrollViewDirection  value) ;
 
-  constexpr void __cordl_internal_set__scrollingLastFrame(bool value);
+constexpr void __cordl_internal_set__scrollingLastFrame(bool  value) ;
 
-  constexpr void __cordl_internal_set__shouldAnimate(bool value);
+constexpr void __cordl_internal_set__shouldAnimate(bool  value) ;
 
-  constexpr void __cordl_internal_set__smooth(float_t value);
+constexpr void __cordl_internal_set__smooth(float_t  value) ;
 
-  constexpr void __cordl_internal_set__verticalScrollController(::UnityW<::HMUI::VerticalScrollController> value);
+constexpr void __cordl_internal_set__verticalScrollController(::UnityW<::HMUI::VerticalScrollController>  value) ;
 
-  constexpr void __cordl_internal_set__verticalScrollIndicator(::UnityW<::HMUI::VerticalScrollIndicator> value);
+constexpr void __cordl_internal_set__verticalScrollIndicator(::UnityW<::HMUI::VerticalScrollIndicator>  value) ;
 
-  constexpr void __cordl_internal_set__viewport(::UnityW<::UnityEngine::RectTransform> value);
+constexpr void __cordl_internal_set__viewport(::UnityW<::UnityEngine::RectTransform>  value) ;
 
-  constexpr void __cordl_internal_set_scrollPositionChangedEvent(::System::Action_1<float_t>* value);
+constexpr void __cordl_internal_set_scrollPositionChangedEvent(::System::Action_1<float_t>*  value) ;
 
-  /// @brief Method .ctor, addr 0x5743318, size 0x2c, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5744b80, size 0x2c, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method add_scrollPositionChangedEvent, addr 0x5740ff8, size 0xc0, virtual false, abstract: false, final false
-  inline void add_scrollPositionChangedEvent(::System::Action_1<float_t>* value);
+/// @brief Method add_scrollPositionChangedEvent, addr 0x5742860, size 0xc0, virtual false, abstract: false, final false
+inline void add_scrollPositionChangedEvent(::System::Action_1<float_t>*  value) ;
 
-  /// @brief Method get_contentSize, addr 0x57411f8, size 0x40, virtual false, abstract: false, final false
-  inline float_t get_contentSize();
+/// @brief Method get_contentSize, addr 0x5742a60, size 0x40, virtual false, abstract: false, final false
+inline float_t get_contentSize() ;
 
-  /// @brief Method get_contentTransform, addr 0x5741180, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::RectTransform> get_contentTransform();
+/// @brief Method get_contentTransform, addr 0x57429e8, size 0x8, virtual false, abstract: false, final false
+inline ::UnityW<::UnityEngine::RectTransform> get_contentTransform() ;
 
-  /// @brief Method get_needsScrolling, addr 0x5740ff0, size 0x8, virtual false, abstract: false, final false
-  inline bool get_needsScrolling();
+/// @brief Method get_needsScrolling, addr 0x5742858, size 0x8, virtual false, abstract: false, final false
+inline bool get_needsScrolling() ;
 
-  /// @brief Method get_position, addr 0x5741188, size 0x3c, virtual false, abstract: false, final false
-  inline float_t get_position();
+/// @brief Method get_position, addr 0x57429f0, size 0x3c, virtual false, abstract: false, final false
+inline float_t get_position() ;
 
-  /// @brief Method get_scrollPageSize, addr 0x5741238, size 0x40, virtual false, abstract: false, final false
-  inline float_t get_scrollPageSize();
+/// @brief Method get_scrollPageSize, addr 0x5742aa0, size 0x40, virtual false, abstract: false, final false
+inline float_t get_scrollPageSize() ;
 
-  /// @brief Method get_scrollableSize, addr 0x57411c4, size 0x34, virtual false, abstract: false, final false
-  inline float_t get_scrollableSize();
+/// @brief Method get_scrollableSize, addr 0x5742a2c, size 0x34, virtual false, abstract: false, final false
+inline float_t get_scrollableSize() ;
 
-  /// @brief Method get_viewportTransform, addr 0x5741178, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::RectTransform> get_viewportTransform();
+/// @brief Method get_viewportTransform, addr 0x57429e0, size 0x8, virtual false, abstract: false, final false
+inline ::UnityW<::UnityEngine::RectTransform> get_viewportTransform() ;
 
-  /// @brief Method remove_scrollPositionChangedEvent, addr 0x57410b8, size 0xc0, virtual false, abstract: false, final false
-  inline void remove_scrollPositionChangedEvent(::System::Action_1<float_t>* value);
+/// @brief Method remove_scrollPositionChangedEvent, addr 0x5742920, size 0xc0, virtual false, abstract: false, final false
+inline void remove_scrollPositionChangedEvent(::System::Action_1<float_t>*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ScrollView();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ScrollView() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ScrollView", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ScrollView(ScrollView&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ScrollView", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ScrollView(ScrollView const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ScrollView", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ScrollView(ScrollView && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19212 };
+// Ctor Parameters [CppParam { name: "", ty: "ScrollView", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ScrollView(ScrollView const& ) = delete;
 
-  /// @brief Field kThumbstickThreshold offset 0xffffffff size 0x4
-  static constexpr float_t kThumbstickThreshold{ static_cast<float_t>(0.01f) };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19215};
 
-  /// @brief Field _viewport, offset: 0x20, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::RectTransform> ____viewport;
+/// @brief Field kThumbstickThreshold offset 0xffffffff size 0x4
+static constexpr float_t  kThumbstickThreshold{static_cast<float_t>(0.01f)};
 
-  /// @brief Field _contentRectTransform, offset: 0x28, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::RectTransform> ____contentRectTransform;
+/// @brief Field _viewport, offset: 0x20, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::RectTransform>  ____viewport;
 
-  /// @brief Field _scrollViewDirection, offset: 0x30, size: 0x4, def value: None
-  ::HMUI::ScrollView_ScrollViewDirection ____scrollViewDirection;
+/// @brief Field _contentRectTransform, offset: 0x28, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::RectTransform>  ____contentRectTransform;
 
-  /// @brief Field _pageUpButton, offset: 0x38, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::UI::Button> ____pageUpButton;
+/// @brief Field _scrollViewDirection, offset: 0x30, size: 0x4, def value: None
+ ::HMUI::ScrollView_ScrollViewDirection  ____scrollViewDirection;
 
-  /// @brief Field _pageDownButton, offset: 0x40, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::UI::Button> ____pageDownButton;
+/// @brief Field _pageUpButton, offset: 0x38, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::UI::Button>  ____pageUpButton;
 
-  /// @brief Field _verticalScrollIndicator, offset: 0x48, size: 0x8, def value: None
-  ::UnityW<::HMUI::VerticalScrollIndicator> ____verticalScrollIndicator;
+/// @brief Field _pageDownButton, offset: 0x40, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::UI::Button>  ____pageDownButton;
 
-  /// @brief Field _verticalScrollController, offset: 0x50, size: 0x8, def value: None
-  ::UnityW<::HMUI::VerticalScrollController> ____verticalScrollController;
+/// @brief Field _verticalScrollIndicator, offset: 0x48, size: 0x8, def value: None
+ ::UnityW<::HMUI::VerticalScrollIndicator>  ____verticalScrollIndicator;
 
-  /// @brief Field _smooth, offset: 0x58, size: 0x4, def value: None
-  float_t ____smooth;
+/// @brief Field _verticalScrollController, offset: 0x50, size: 0x8, def value: None
+ ::UnityW<::HMUI::VerticalScrollController>  ____verticalScrollController;
 
-  /// @brief Field _joystickScrollSpeed, offset: 0x5c, size: 0x4, def value: None
-  float_t ____joystickScrollSpeed;
+/// @brief Field _smooth, offset: 0x58, size: 0x4, def value: None
+ float_t  ____smooth;
 
-  /// @brief Field _joystickQuickSnapMaxTime, offset: 0x60, size: 0x4, def value: None
-  float_t ____joystickQuickSnapMaxTime;
+/// @brief Field _joystickScrollSpeed, offset: 0x5c, size: 0x4, def value: None
+ float_t  ____joystickScrollSpeed;
 
-  /// @brief Field _scrollType, offset: 0x64, size: 0x4, def value: None
-  ::HMUI::ScrollView_ScrollType ____scrollType;
+/// @brief Field _joystickQuickSnapMaxTime, offset: 0x60, size: 0x4, def value: None
+ float_t  ____joystickQuickSnapMaxTime;
 
-  /// @brief Field _fixedCellSize, offset: 0x68, size: 0x4, def value: None
-  float_t ____fixedCellSize;
+/// @brief Field _scrollType, offset: 0x64, size: 0x4, def value: None
+ ::HMUI::ScrollView_ScrollType  ____scrollType;
 
-  /// @brief Field _scrollItemRelativeThresholdPosition, offset: 0x6c, size: 0x4, def value: None
-  float_t ____scrollItemRelativeThresholdPosition;
+/// @brief Field _fixedCellSize, offset: 0x68, size: 0x4, def value: None
+ float_t  ____fixedCellSize;
 
-  /// @brief Field _pageStepNormalizedSize, offset: 0x70, size: 0x4, def value: None
-  float_t ____pageStepNormalizedSize;
+/// @brief Field _scrollItemRelativeThresholdPosition, offset: 0x6c, size: 0x4, def value: None
+ float_t  ____scrollItemRelativeThresholdPosition;
 
-  /// @brief Field _needsScrolling, offset: 0x74, size: 0x1, def value: None
-  bool ____needsScrolling;
+/// @brief Field _pageStepNormalizedSize, offset: 0x70, size: 0x4, def value: None
+ float_t  ____pageStepNormalizedSize;
 
-  /// @brief Field _scrollingLastFrame, offset: 0x75, size: 0x1, def value: None
-  bool ____scrollingLastFrame;
+/// @brief Field _needsScrolling, offset: 0x74, size: 0x1, def value: None
+ bool  ____needsScrolling;
 
-  /// @brief Field _isHoveredByPointer, offset: 0x76, size: 0x1, def value: None
-  bool ____isHoveredByPointer;
+/// @brief Field _scrollingLastFrame, offset: 0x75, size: 0x1, def value: None
+ bool  ____scrollingLastFrame;
 
-  /// @brief Field _shouldAnimate, offset: 0x77, size: 0x1, def value: None
-  bool ____shouldAnimate;
+/// @brief Field _isHoveredByPointer, offset: 0x76, size: 0x1, def value: None
+ bool  ____isHoveredByPointer;
 
-  /// @brief Field _platformHelper, offset: 0x78, size: 0x8, def value: None
-  ::GlobalNamespace::IVRPlatformHelper* ____platformHelper;
+/// @brief Field _shouldAnimate, offset: 0x77, size: 0x1, def value: None
+ bool  ____shouldAnimate;
 
-  /// @brief Field scrollPositionChangedEvent, offset: 0x80, size: 0x8, def value: None
-  ::System::Action_1<float_t>* ___scrollPositionChangedEvent;
+/// @brief Field _platformHelper, offset: 0x78, size: 0x8, def value: None
+ ::GlobalNamespace::IVRPlatformHelper*  ____platformHelper;
 
-  /// @brief Field _buttonBinder, offset: 0x88, size: 0x8, def value: None
-  ::HMUI::ButtonBinder* ____buttonBinder;
+/// @brief Field scrollPositionChangedEvent, offset: 0x80, size: 0x8, def value: None
+ ::System::Action_1<float_t>*  ___scrollPositionChangedEvent;
 
-  /// @brief Field _destinationPos, offset: 0x90, size: 0x4, def value: None
-  float_t ____destinationPos;
+/// @brief Field _buttonBinder, offset: 0x88, size: 0x8, def value: None
+ ::HMUI::ButtonBinder*  ____buttonBinder;
 
-  /// @brief Field _scrollFocusPositions, offset: 0x98, size: 0x8, def value: None
-  ::ArrayW<float_t, ::Array<float_t>*> ____scrollFocusPositions;
+/// @brief Field _destinationPos, offset: 0x90, size: 0x4, def value: None
+ float_t  ____destinationPos;
 
-  /// @brief Field _eventSystemListener, offset: 0xa0, size: 0x8, def value: None
-  ::UnityW<::HMUI::EventSystemListener> ____eventSystemListener;
+/// @brief Field _scrollFocusPositions, offset: 0x98, size: 0x8, def value: None
+ ::ArrayW<float_t,::Array<float_t>*>  ____scrollFocusPositions;
 
-  /// @brief Field _lastJoystickScrollDirection, offset: 0xa8, size: 0x4, def value: None
-  ::HMUI::ScrollView_ScrollDirection ____lastJoystickScrollDirection;
+/// @brief Field _eventSystemListener, offset: 0xa0, size: 0x8, def value: None
+ ::UnityW<::HMUI::EventSystemListener>  ____eventSystemListener;
 
-  /// @brief Field _joystickScrollStartTime, offset: 0xac, size: 0x4, def value: None
-  float_t ____joystickScrollStartTime;
+/// @brief Field _lastJoystickScrollDirection, offset: 0xa8, size: 0x4, def value: None
+ ::HMUI::ScrollView_ScrollDirection  ____lastJoystickScrollDirection;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _joystickScrollStartTime, offset: 0xac, size: 0x4, def value: None
+ float_t  ____joystickScrollStartTime;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::HMUI::ScrollView, ____viewport) == 0x20, "Offset mismatch!");
@@ -1092,7 +1093,7 @@ static_assert(offsetof(::HMUI::ScrollView, ____joystickScrollStartTime) == 0xac,
 
 static_assert(::cordl_internals::size_check_v<::HMUI::ScrollView, 0xb0>, "Size mismatch!");
 
-} // namespace HMUI
+} // namespace end def HMUI
 DEFINE_IL2CPP_ARG_TYPE(::HMUI::ScrollView_ScrollDirection, "HMUI", "ScrollView/ScrollDirection");
 DEFINE_IL2CPP_ARG_TYPE(::HMUI::ScrollView_ScrollType, "HMUI", "ScrollView/ScrollType");
 DEFINE_IL2CPP_ARG_TYPE(::HMUI::ScrollView_ScrollViewDirection, "HMUI", "ScrollView/ScrollViewDirection");

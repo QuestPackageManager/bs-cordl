@@ -21,32 +21,32 @@ namespace UnityEngine::UIElements {
 // CS Name: UnityEngine.UIElements.ProjectionUtils
 class CORDL_TYPE ProjectionUtils : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method Ortho, addr 0x6c63abc, size 0x70, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Matrix4x4 Ortho(float_t left, float_t right, float_t bottom, float_t top, float_t near, float_t far);
+// Declarations
+/// @brief Method Ortho, addr 0x6c65634, size 0x70, virtual false, abstract: false, final false
+static inline ::UnityEngine::Matrix4x4 Ortho(float_t  left, float_t  right, float_t  bottom, float_t  top, float_t  near, float_t  far) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ProjectionUtils();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ProjectionUtils() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ProjectionUtils", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ProjectionUtils(ProjectionUtils&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ProjectionUtils", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ProjectionUtils(ProjectionUtils const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ProjectionUtils", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ProjectionUtils(ProjectionUtils && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4657 };
+// Ctor Parameters [CppParam { name: "", ty: "ProjectionUtils", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ProjectionUtils(ProjectionUtils const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4657};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::ProjectionUtils, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements
+} // namespace end def UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::ProjectionUtils);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::ProjectionUtils*, "UnityEngine.UIElements", "ProjectionUtils");

@@ -28,60 +28,60 @@ namespace System::Runtime::Serialization {
 // CS Name: System.Runtime.Serialization.MemberHolder
 class CORDL_TYPE MemberHolder : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field _context, offset 0x18, size 0x10
-  __declspec(property(get = __cordl_internal_get__context, put = __cordl_internal_set__context)) ::System::Runtime::Serialization::StreamingContext _context;
+// Declarations
+/// @brief Field _context, offset 0x18, size 0x10 
+ __declspec(property(get=__cordl_internal_get__context, put=__cordl_internal_set__context)) ::System::Runtime::Serialization::StreamingContext  _context;
 
-  /// @brief Field _memberType, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__memberType, put = __cordl_internal_set__memberType)) ::System::Type* _memberType;
+/// @brief Field _memberType, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get__memberType, put=__cordl_internal_set__memberType)) ::System::Type*  _memberType;
 
-  /// @brief Method Equals, addr 0x5a0ea4c, size 0x8c, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* obj);
+/// @brief Method Equals, addr 0x5a105c4, size 0x8c, virtual true, abstract: false, final false
+inline bool Equals(::System::Object*  obj) ;
 
-  /// @brief Method GetHashCode, addr 0x5a0ea30, size 0x1c, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
+/// @brief Method GetHashCode, addr 0x5a105a8, size 0x1c, virtual true, abstract: false, final false
+inline int32_t GetHashCode() ;
 
-  static inline ::System::Runtime::Serialization::MemberHolder* New_ctor(::System::Type* type, ::System::Runtime::Serialization::StreamingContext ctx);
+static inline ::System::Runtime::Serialization::MemberHolder* New_ctor(::System::Type*  type, ::System::Runtime::Serialization::StreamingContext  ctx) ;
 
-  constexpr ::System::Runtime::Serialization::StreamingContext const& __cordl_internal_get__context() const;
+constexpr ::System::Runtime::Serialization::StreamingContext const& __cordl_internal_get__context() const;
 
-  constexpr ::System::Runtime::Serialization::StreamingContext& __cordl_internal_get__context();
+constexpr ::System::Runtime::Serialization::StreamingContext& __cordl_internal_get__context() ;
 
-  constexpr ::System::Type* const& __cordl_internal_get__memberType() const;
+constexpr ::System::Type* const& __cordl_internal_get__memberType() const;
 
-  constexpr ::System::Type*& __cordl_internal_get__memberType();
+constexpr ::System::Type*& __cordl_internal_get__memberType() ;
 
-  constexpr void __cordl_internal_set__context(::System::Runtime::Serialization::StreamingContext value);
+constexpr void __cordl_internal_set__context(::System::Runtime::Serialization::StreamingContext  value) ;
 
-  constexpr void __cordl_internal_set__memberType(::System::Type* value);
+constexpr void __cordl_internal_set__memberType(::System::Type*  value) ;
 
-  /// @brief Method .ctor, addr 0x5a0ea24, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor(::System::Type* type, ::System::Runtime::Serialization::StreamingContext ctx);
+/// @brief Method .ctor, addr 0x5a1059c, size 0xc, virtual false, abstract: false, final false
+inline void _ctor(::System::Type*  type, ::System::Runtime::Serialization::StreamingContext  ctx) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MemberHolder();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr MemberHolder() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MemberHolder", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  MemberHolder(MemberHolder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MemberHolder", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  MemberHolder(MemberHolder const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "MemberHolder", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+MemberHolder(MemberHolder && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3222 };
+// Ctor Parameters [CppParam { name: "", ty: "MemberHolder", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+MemberHolder(MemberHolder const& ) = delete;
 
-  /// @brief Field _memberType, offset: 0x10, size: 0x8, def value: None
-  ::System::Type* ____memberType;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{3222};
 
-  /// @brief Field _context, offset: 0x18, size: 0x10, def value: None
-  ::System::Runtime::Serialization::StreamingContext ____context;
+/// @brief Field _memberType, offset: 0x10, size: 0x8, def value: None
+ ::System::Type*  ____memberType;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _context, offset: 0x18, size: 0x10, def value: None
+ ::System::Runtime::Serialization::StreamingContext  ____context;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Runtime::Serialization::MemberHolder, ____memberType) == 0x10, "Offset mismatch!");
@@ -90,6 +90,6 @@ static_assert(offsetof(::System::Runtime::Serialization::MemberHolder, ____conte
 
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::MemberHolder, 0x28>, "Size mismatch!");
 
-} // namespace System::Runtime::Serialization
+} // namespace end def System::Runtime::Serialization
 NEED_NO_BOX(::System::Runtime::Serialization::MemberHolder);
 DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::MemberHolder*, "System.Runtime.Serialization", "MemberHolder");

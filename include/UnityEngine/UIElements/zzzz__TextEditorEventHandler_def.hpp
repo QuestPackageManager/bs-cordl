@@ -29,63 +29,63 @@ namespace UnityEngine::UIElements {
 // CS Name: UnityEngine.UIElements.TextEditorEventHandler
 class CORDL_TYPE TextEditorEventHandler : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field editingUtilities, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_editingUtilities, put = __cordl_internal_set_editingUtilities)) ::UnityEngine::TextEditingUtilities* editingUtilities;
+// Declarations
+/// @brief Field editingUtilities, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_editingUtilities, put=__cordl_internal_set_editingUtilities)) ::UnityEngine::TextEditingUtilities*  editingUtilities;
 
-  /// @brief Field textElement, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_textElement, put = __cordl_internal_set_textElement)) ::UnityEngine::UIElements::TextElement* textElement;
+/// @brief Field textElement, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_textElement, put=__cordl_internal_set_textElement)) ::UnityEngine::UIElements::TextElement*  textElement;
 
-  /// @brief Method HandleEventBubbleUp, addr 0x6bf1468, size 0x4, virtual true, abstract: false, final false
-  inline void HandleEventBubbleUp(::UnityEngine::UIElements::EventBase* evt);
+/// @brief Method HandleEventBubbleUp, addr 0x6bf2fe0, size 0x4, virtual true, abstract: false, final false
+inline void HandleEventBubbleUp(::UnityEngine::UIElements::EventBase*  evt) ;
 
-  static inline ::UnityEngine::UIElements::TextEditorEventHandler* New_ctor(::UnityEngine::UIElements::TextElement* textElement, ::UnityEngine::TextEditingUtilities* editingUtilities);
+static inline ::UnityEngine::UIElements::TextEditorEventHandler* New_ctor(::UnityEngine::UIElements::TextElement*  textElement, ::UnityEngine::TextEditingUtilities*  editingUtilities) ;
 
-  /// @brief Method RegisterCallbacksOnTarget, addr 0x6bf24ec, size 0x4, virtual true, abstract: false, final false
-  inline void RegisterCallbacksOnTarget(::UnityEngine::UIElements::VisualElement* target);
+/// @brief Method RegisterCallbacksOnTarget, addr 0x6bf4064, size 0x4, virtual true, abstract: false, final false
+inline void RegisterCallbacksOnTarget(::UnityEngine::UIElements::VisualElement*  target) ;
 
-  /// @brief Method UnregisterCallbacksFromTarget, addr 0x6bf24f0, size 0x4, virtual true, abstract: false, final false
-  inline void UnregisterCallbacksFromTarget(::UnityEngine::UIElements::VisualElement* target);
+/// @brief Method UnregisterCallbacksFromTarget, addr 0x6bf4068, size 0x4, virtual true, abstract: false, final false
+inline void UnregisterCallbacksFromTarget(::UnityEngine::UIElements::VisualElement*  target) ;
 
-  constexpr ::UnityEngine::TextEditingUtilities* const& __cordl_internal_get_editingUtilities() const;
+constexpr ::UnityEngine::TextEditingUtilities* const& __cordl_internal_get_editingUtilities() const;
 
-  constexpr ::UnityEngine::TextEditingUtilities*& __cordl_internal_get_editingUtilities();
+constexpr ::UnityEngine::TextEditingUtilities*& __cordl_internal_get_editingUtilities() ;
 
-  constexpr ::UnityEngine::UIElements::TextElement* const& __cordl_internal_get_textElement() const;
+constexpr ::UnityEngine::UIElements::TextElement* const& __cordl_internal_get_textElement() const;
 
-  constexpr ::UnityEngine::UIElements::TextElement*& __cordl_internal_get_textElement();
+constexpr ::UnityEngine::UIElements::TextElement*& __cordl_internal_get_textElement() ;
 
-  constexpr void __cordl_internal_set_editingUtilities(::UnityEngine::TextEditingUtilities* value);
+constexpr void __cordl_internal_set_editingUtilities(::UnityEngine::TextEditingUtilities*  value) ;
 
-  constexpr void __cordl_internal_set_textElement(::UnityEngine::UIElements::TextElement* value);
+constexpr void __cordl_internal_set_textElement(::UnityEngine::UIElements::TextElement*  value) ;
 
-  /// @brief Method .ctor, addr 0x6bf115c, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::UIElements::TextElement* textElement, ::UnityEngine::TextEditingUtilities* editingUtilities);
+/// @brief Method .ctor, addr 0x6bf2cd4, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(::UnityEngine::UIElements::TextElement*  textElement, ::UnityEngine::TextEditingUtilities*  editingUtilities) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TextEditorEventHandler();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr TextEditorEventHandler() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TextEditorEventHandler", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  TextEditorEventHandler(TextEditorEventHandler&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TextEditorEventHandler", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  TextEditorEventHandler(TextEditorEventHandler const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "TextEditorEventHandler", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+TextEditorEventHandler(TextEditorEventHandler && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4223 };
+// Ctor Parameters [CppParam { name: "", ty: "TextEditorEventHandler", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+TextEditorEventHandler(TextEditorEventHandler const& ) = delete;
 
-  /// @brief Field textElement, offset: 0x10, size: 0x8, def value: None
-  ::UnityEngine::UIElements::TextElement* ___textElement;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4223};
 
-  /// @brief Field editingUtilities, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::TextEditingUtilities* ___editingUtilities;
+/// @brief Field textElement, offset: 0x10, size: 0x8, def value: None
+ ::UnityEngine::UIElements::TextElement*  ___textElement;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field editingUtilities, offset: 0x18, size: 0x8, def value: None
+ ::UnityEngine::TextEditingUtilities*  ___editingUtilities;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::UIElements::TextEditorEventHandler, ___textElement) == 0x10, "Offset mismatch!");
@@ -94,6 +94,6 @@ static_assert(offsetof(::UnityEngine::UIElements::TextEditorEventHandler, ___edi
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::TextEditorEventHandler, 0x20>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements
+} // namespace end def UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::TextEditorEventHandler);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::TextEditorEventHandler*, "UnityEngine.UIElements", "TextEditorEventHandler");

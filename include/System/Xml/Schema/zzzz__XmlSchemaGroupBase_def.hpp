@@ -20,42 +20,42 @@ namespace System::Xml::Schema {
 // CS Name: System.Xml.Schema.XmlSchemaGroupBase
 class CORDL_TYPE XmlSchemaGroupBase : public ::System::Xml::Schema::XmlSchemaParticle {
 public:
-  // Declarations
-  __declspec(property(get = get_Items)) ::System::Xml::Schema::XmlSchemaObjectCollection* Items;
+// Declarations
+ __declspec(property(get=get_Items)) ::System::Xml::Schema::XmlSchemaObjectCollection*  Items;
 
-  static inline ::System::Xml::Schema::XmlSchemaGroupBase* New_ctor();
+static inline ::System::Xml::Schema::XmlSchemaGroupBase* New_ctor() ;
 
-  /// @brief Method SetItems, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void SetItems(::System::Xml::Schema::XmlSchemaObjectCollection* newItems);
+/// @brief Method SetItems, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline void SetItems(::System::Xml::Schema::XmlSchemaObjectCollection*  newItems) ;
 
-  /// @brief Method .ctor, addr 0x60e9924, size 0x5c, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x60eb49c, size 0x5c, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_Items, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline ::System::Xml::Schema::XmlSchemaObjectCollection* get_Items();
+/// @brief Method get_Items, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline ::System::Xml::Schema::XmlSchemaObjectCollection* get_Items() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr XmlSchemaGroupBase();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr XmlSchemaGroupBase() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaGroupBase", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  XmlSchemaGroupBase(XmlSchemaGroupBase&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaGroupBase", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  XmlSchemaGroupBase(XmlSchemaGroupBase const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "XmlSchemaGroupBase", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+XmlSchemaGroupBase(XmlSchemaGroupBase && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9773 };
+// Ctor Parameters [CppParam { name: "", ty: "XmlSchemaGroupBase", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+XmlSchemaGroupBase(XmlSchemaGroupBase const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9774};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::XmlSchemaGroupBase, 0x78>, "Size mismatch!");
 
-} // namespace System::Xml::Schema
+} // namespace end def System::Xml::Schema
 NEED_NO_BOX(::System::Xml::Schema::XmlSchemaGroupBase);
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::XmlSchemaGroupBase*, "System.Xml.Schema", "XmlSchemaGroupBase");

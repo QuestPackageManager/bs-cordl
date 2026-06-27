@@ -23,57 +23,57 @@ namespace Org::BouncyCastle::Cms {
 // CS Name: Org.BouncyCastle.Cms.OriginatorInformation
 class CORDL_TYPE OriginatorInformation : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field originatorInfo, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_originatorInfo, put = __cordl_internal_set_originatorInfo)) ::Org::BouncyCastle::Asn1::Cms::OriginatorInfo* originatorInfo;
+// Declarations
+/// @brief Field originatorInfo, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_originatorInfo, put=__cordl_internal_set_originatorInfo)) ::Org::BouncyCastle::Asn1::Cms::OriginatorInfo*  originatorInfo;
 
-  /// @brief Method GetCertificates, addr 0x3612490, size 0x508, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::X509::Store::IX509Store* GetCertificates();
+/// @brief Method GetCertificates, addr 0x361322c, size 0x508, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::X509::Store::IX509Store* GetCertificates() ;
 
-  /// @brief Method GetCrls, addr 0x3612998, size 0x508, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::X509::Store::IX509Store* GetCrls();
+/// @brief Method GetCrls, addr 0x3613734, size 0x508, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::X509::Store::IX509Store* GetCrls() ;
 
-  static inline ::Org::BouncyCastle::Cms::OriginatorInformation* New_ctor(::Org::BouncyCastle::Asn1::Cms::OriginatorInfo* originatorInfo);
+static inline ::Org::BouncyCastle::Cms::OriginatorInformation* New_ctor(::Org::BouncyCastle::Asn1::Cms::OriginatorInfo*  originatorInfo) ;
 
-  /// @brief Method ToAsn1Structure, addr 0x3612ea0, size 0x8, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Cms::OriginatorInfo* ToAsn1Structure();
+/// @brief Method ToAsn1Structure, addr 0x3613c3c, size 0x8, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Asn1::Cms::OriginatorInfo* ToAsn1Structure() ;
 
-  constexpr ::Org::BouncyCastle::Asn1::Cms::OriginatorInfo* const& __cordl_internal_get_originatorInfo() const;
+constexpr ::Org::BouncyCastle::Asn1::Cms::OriginatorInfo* const& __cordl_internal_get_originatorInfo() const;
 
-  constexpr ::Org::BouncyCastle::Asn1::Cms::OriginatorInfo*& __cordl_internal_get_originatorInfo();
+constexpr ::Org::BouncyCastle::Asn1::Cms::OriginatorInfo*& __cordl_internal_get_originatorInfo() ;
 
-  constexpr void __cordl_internal_set_originatorInfo(::Org::BouncyCastle::Asn1::Cms::OriginatorInfo* value);
+constexpr void __cordl_internal_set_originatorInfo(::Org::BouncyCastle::Asn1::Cms::OriginatorInfo*  value) ;
 
-  /// @brief Method .ctor, addr 0x3612488, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Asn1::Cms::OriginatorInfo* originatorInfo);
+/// @brief Method .ctor, addr 0x3613224, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(::Org::BouncyCastle::Asn1::Cms::OriginatorInfo*  originatorInfo) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OriginatorInformation();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr OriginatorInformation() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OriginatorInformation", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  OriginatorInformation(OriginatorInformation&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OriginatorInformation", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  OriginatorInformation(OriginatorInformation const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "OriginatorInformation", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+OriginatorInformation(OriginatorInformation && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 681 };
+// Ctor Parameters [CppParam { name: "", ty: "OriginatorInformation", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+OriginatorInformation(OriginatorInformation const& ) = delete;
 
-  /// @brief Field originatorInfo, offset: 0x10, size: 0x8, def value: None
-  ::Org::BouncyCastle::Asn1::Cms::OriginatorInfo* ___originatorInfo;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{681};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field originatorInfo, offset: 0x10, size: 0x8, def value: None
+ ::Org::BouncyCastle::Asn1::Cms::OriginatorInfo*  ___originatorInfo;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Org::BouncyCastle::Cms::OriginatorInformation, ___originatorInfo) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Cms::OriginatorInformation, 0x18>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Cms
+} // namespace end def Org::BouncyCastle::Cms
 NEED_NO_BOX(::Org::BouncyCastle::Cms::OriginatorInformation);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Cms::OriginatorInformation*, "Org.BouncyCastle.Cms", "OriginatorInformation");

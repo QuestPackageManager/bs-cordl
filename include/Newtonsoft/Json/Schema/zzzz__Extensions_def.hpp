@@ -25,7 +25,8 @@ namespace Newtonsoft::Json::Schema {
 class ValidationEventHandler;
 }
 namespace System::Collections::Generic {
-template <typename T> class IList_1;
+template<typename T>
+class IList_1;
 }
 namespace System {
 class Object;
@@ -50,150 +51,150 @@ namespace Newtonsoft::Json::Schema {
 // CS Name: Newtonsoft.Json.Schema.Extensions/<>c__DisplayClass0_0
 class CORDL_TYPE Extensions___c__DisplayClass0_0 : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field valid, offset 0x10, size 0x1
-  __declspec(property(get = __cordl_internal_get_valid, put = __cordl_internal_set_valid)) bool valid;
+// Declarations
+/// @brief Field valid, offset 0x10, size 0x1 
+ __declspec(property(get=__cordl_internal_get_valid, put=__cordl_internal_set_valid)) bool  valid;
 
-  static inline ::Newtonsoft::Json::Schema::Extensions___c__DisplayClass0_0* New_ctor();
+static inline ::Newtonsoft::Json::Schema::Extensions___c__DisplayClass0_0* New_ctor() ;
 
-  /// @brief Method <IsValid>b__0, addr 0x5c213b4, size 0x8, virtual false, abstract: false, final false
-  inline void _IsValid_b__0(::System::Object* sender, ::Newtonsoft::Json::Schema::ValidationEventArgs* args);
+/// @brief Method <IsValid>b__0, addr 0x5c22f2c, size 0x8, virtual false, abstract: false, final false
+inline void _IsValid_b__0(::System::Object*  sender, ::Newtonsoft::Json::Schema::ValidationEventArgs*  args) ;
 
-  constexpr bool const& __cordl_internal_get_valid() const;
+constexpr bool const& __cordl_internal_get_valid() const;
 
-  constexpr bool& __cordl_internal_get_valid();
+constexpr bool& __cordl_internal_get_valid() ;
 
-  constexpr void __cordl_internal_set_valid(bool value);
+constexpr void __cordl_internal_set_valid(bool  value) ;
 
-  /// @brief Method .ctor, addr 0x5c20eb4, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5c22a2c, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Extensions___c__DisplayClass0_0();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr Extensions___c__DisplayClass0_0() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Extensions___c__DisplayClass0_0", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  Extensions___c__DisplayClass0_0(Extensions___c__DisplayClass0_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Extensions___c__DisplayClass0_0", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  Extensions___c__DisplayClass0_0(Extensions___c__DisplayClass0_0 const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "Extensions___c__DisplayClass0_0", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Extensions___c__DisplayClass0_0(Extensions___c__DisplayClass0_0 && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13523 };
+// Ctor Parameters [CppParam { name: "", ty: "Extensions___c__DisplayClass0_0", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Extensions___c__DisplayClass0_0(Extensions___c__DisplayClass0_0 const& ) = delete;
 
-  /// @brief Field valid, offset: 0x10, size: 0x1, def value: None
-  bool ___valid;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{13524};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field valid, offset: 0x10, size: 0x1, def value: None
+ bool  ___valid;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Newtonsoft::Json::Schema::Extensions___c__DisplayClass0_0, ___valid) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Schema::Extensions___c__DisplayClass0_0, 0x18>, "Size mismatch!");
 
-} // namespace Newtonsoft::Json::Schema
+} // namespace end def Newtonsoft::Json::Schema
 // Dependencies System.Object
 namespace Newtonsoft::Json::Schema {
 // Is value type: false
 // CS Name: Newtonsoft.Json.Schema.Extensions/<>c__DisplayClass1_0
 class CORDL_TYPE Extensions___c__DisplayClass1_0 : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field errors, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_errors, put = __cordl_internal_set_errors)) ::System::Collections::Generic::IList_1<::StringW>* errors;
+// Declarations
+/// @brief Field errors, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_errors, put=__cordl_internal_set_errors)) ::System::Collections::Generic::IList_1<::StringW>*  errors;
 
-  static inline ::Newtonsoft::Json::Schema::Extensions___c__DisplayClass1_0* New_ctor();
+static inline ::Newtonsoft::Json::Schema::Extensions___c__DisplayClass1_0* New_ctor() ;
 
-  /// @brief Method <IsValid>b__0, addr 0x5c213bc, size 0xd4, virtual false, abstract: false, final false
-  inline void _IsValid_b__0(::System::Object* sender, ::Newtonsoft::Json::Schema::ValidationEventArgs* args);
+/// @brief Method <IsValid>b__0, addr 0x5c22f34, size 0xd4, virtual false, abstract: false, final false
+inline void _IsValid_b__0(::System::Object*  sender, ::Newtonsoft::Json::Schema::ValidationEventArgs*  args) ;
 
-  constexpr ::System::Collections::Generic::IList_1<::StringW>* const& __cordl_internal_get_errors() const;
+constexpr ::System::Collections::Generic::IList_1<::StringW>* const& __cordl_internal_get_errors() const;
 
-  constexpr ::System::Collections::Generic::IList_1<::StringW>*& __cordl_internal_get_errors();
+constexpr ::System::Collections::Generic::IList_1<::StringW>*& __cordl_internal_get_errors() ;
 
-  constexpr void __cordl_internal_set_errors(::System::Collections::Generic::IList_1<::StringW>* value);
+constexpr void __cordl_internal_set_errors(::System::Collections::Generic::IList_1<::StringW>*  value) ;
 
-  /// @brief Method .ctor, addr 0x5c213a8, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5c22f20, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Extensions___c__DisplayClass1_0();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr Extensions___c__DisplayClass1_0() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Extensions___c__DisplayClass1_0", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  Extensions___c__DisplayClass1_0(Extensions___c__DisplayClass1_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Extensions___c__DisplayClass1_0", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  Extensions___c__DisplayClass1_0(Extensions___c__DisplayClass1_0 const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "Extensions___c__DisplayClass1_0", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Extensions___c__DisplayClass1_0(Extensions___c__DisplayClass1_0 && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13524 };
+// Ctor Parameters [CppParam { name: "", ty: "Extensions___c__DisplayClass1_0", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Extensions___c__DisplayClass1_0(Extensions___c__DisplayClass1_0 const& ) = delete;
 
-  /// @brief Field errors, offset: 0x10, size: 0x8, def value: None
-  ::System::Collections::Generic::IList_1<::StringW>* ___errors;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{13525};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field errors, offset: 0x10, size: 0x8, def value: None
+ ::System::Collections::Generic::IList_1<::StringW>*  ___errors;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Newtonsoft::Json::Schema::Extensions___c__DisplayClass1_0, ___errors) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Schema::Extensions___c__DisplayClass1_0, 0x18>, "Size mismatch!");
 
-} // namespace Newtonsoft::Json::Schema
+} // namespace end def Newtonsoft::Json::Schema
 // Dependencies System.Object
 namespace Newtonsoft::Json::Schema {
 // Is value type: false
 // CS Name: Newtonsoft.Json.Schema.Extensions
 class CORDL_TYPE Extensions : public ::System::Object {
 public:
-  // Declarations
-  using __c__DisplayClass0_0 = ::Newtonsoft::Json::Schema::Extensions___c__DisplayClass0_0;
+// Declarations
+using __c__DisplayClass0_0 = ::Newtonsoft::Json::Schema::Extensions___c__DisplayClass0_0;
 
-  using __c__DisplayClass1_0 = ::Newtonsoft::Json::Schema::Extensions___c__DisplayClass1_0;
+using __c__DisplayClass1_0 = ::Newtonsoft::Json::Schema::Extensions___c__DisplayClass1_0;
 
-  /// @brief Method IsValid, addr 0x5c20dec, size 0xc8, virtual false, abstract: false, final false
-  static inline bool IsValid(::Newtonsoft::Json::Linq::JToken* source, ::Newtonsoft::Json::Schema::JsonSchema* schema);
+/// @brief Method IsValid, addr 0x5c22964, size 0xc8, virtual false, abstract: false, final false
+static inline bool IsValid(::Newtonsoft::Json::Linq::JToken*  source, ::Newtonsoft::Json::Schema::JsonSchema*  schema) ;
 
-  /// @brief Method IsValid, addr 0x5c21218, size 0x190, virtual false, abstract: false, final false
-  static inline bool IsValid(::Newtonsoft::Json::Linq::JToken* source, ::Newtonsoft::Json::Schema::JsonSchema* schema, ::ByRef<::System::Collections::Generic::IList_1<::StringW>*> errorMessages);
+/// @brief Method IsValid, addr 0x5c22d90, size 0x190, virtual false, abstract: false, final false
+static inline bool IsValid(::Newtonsoft::Json::Linq::JToken*  source, ::Newtonsoft::Json::Schema::JsonSchema*  schema, ::ByRef<::System::Collections::Generic::IList_1<::StringW>*>  errorMessages) ;
 
-  /// @brief Method Validate, addr 0x5c213ac, size 0x8, virtual false, abstract: false, final false
-  static inline void Validate(::Newtonsoft::Json::Linq::JToken* source, ::Newtonsoft::Json::Schema::JsonSchema* schema);
+/// @brief Method Validate, addr 0x5c22f24, size 0x8, virtual false, abstract: false, final false
+static inline void Validate(::Newtonsoft::Json::Linq::JToken*  source, ::Newtonsoft::Json::Schema::JsonSchema*  schema) ;
 
-  /// @brief Method Validate, addr 0x5c21000, size 0x218, virtual false, abstract: false, final false
-  static inline void Validate(::Newtonsoft::Json::Linq::JToken* source, ::Newtonsoft::Json::Schema::JsonSchema* schema, ::Newtonsoft::Json::Schema::ValidationEventHandler* validationEventHandler);
+/// @brief Method Validate, addr 0x5c22b78, size 0x218, virtual false, abstract: false, final false
+static inline void Validate(::Newtonsoft::Json::Linq::JToken*  source, ::Newtonsoft::Json::Schema::JsonSchema*  schema, ::Newtonsoft::Json::Schema::ValidationEventHandler*  validationEventHandler) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Extensions();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr Extensions() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Extensions", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  Extensions(Extensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Extensions", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  Extensions(Extensions const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "Extensions", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Extensions(Extensions && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13525 };
+// Ctor Parameters [CppParam { name: "", ty: "Extensions", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Extensions(Extensions const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{13526};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Schema::Extensions, 0x10>, "Size mismatch!");
 
-} // namespace Newtonsoft::Json::Schema
+} // namespace end def Newtonsoft::Json::Schema
 NEED_NO_BOX(::Newtonsoft::Json::Schema::Extensions);
 DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Schema::Extensions*, "Newtonsoft.Json.Schema", "Extensions");
 NEED_NO_BOX(::Newtonsoft::Json::Schema::Extensions___c__DisplayClass0_0);

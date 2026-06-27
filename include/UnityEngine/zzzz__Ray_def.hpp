@@ -29,62 +29,61 @@ namespace UnityEngine {
 // CS Name: UnityEngine.Ray
 struct CORDL_TYPE Ray {
 public:
-  // Declarations
-  __declspec(property(get = get_direction, put = set_direction)) ::UnityEngine::Vector3 direction;
+// Declarations
+ __declspec(property(get=get_direction, put=set_direction)) ::UnityEngine::Vector3  direction;
 
-  __declspec(property(get = get_origin, put = set_origin)) ::UnityEngine::Vector3 origin;
+ __declspec(property(get=get_origin, put=set_origin)) ::UnityEngine::Vector3  origin;
 
-  /// @brief Convert operator to "::System::IFormattable"
-  constexpr operator ::System::IFormattable*();
+/// @brief Convert operator to "::System::IFormattable"
+constexpr operator  ::System::IFormattable*() ;
 
-  /// @brief Method GetPoint, addr 0x6926b0c, size 0x28, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector3 GetPoint(float_t distance);
+/// @brief Method GetPoint, addr 0x6928684, size 0x28, virtual false, abstract: false, final false
+inline ::UnityEngine::Vector3 GetPoint(float_t  distance) ;
 
-  /// @brief Method ToString, addr 0x6926b34, size 0x10, virtual true, abstract: false, final false
-  inline ::StringW ToString();
+/// @brief Method ToString, addr 0x69286ac, size 0x10, virtual true, abstract: false, final false
+inline ::StringW ToString() ;
 
-  /// @brief Method ToString, addr 0x6926b44, size 0x198, virtual true, abstract: false, final true
-  inline ::StringW ToString(::StringW format, ::System::IFormatProvider* formatProvider);
+/// @brief Method ToString, addr 0x69286bc, size 0x198, virtual true, abstract: false, final true
+inline ::StringW ToString(::StringW  format, ::System::IFormatProvider*  formatProvider) ;
 
-  /// @brief Method .ctor, addr 0x69268f0, size 0x100, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::Vector3 origin, ::UnityEngine::Vector3 direction);
+/// @brief Method .ctor, addr 0x6928468, size 0x100, virtual false, abstract: false, final false
+inline void _ctor(::UnityEngine::Vector3  origin, ::UnityEngine::Vector3  direction) ;
 
-  /// @brief Method get_direction, addr 0x6926a08, size 0xc, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector3 get_direction();
+/// @brief Method get_direction, addr 0x6928580, size 0xc, virtual false, abstract: false, final false
+inline ::UnityEngine::Vector3 get_direction() ;
 
-  /// @brief Method get_origin, addr 0x69269f0, size 0xc, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector3 get_origin();
+/// @brief Method get_origin, addr 0x6928568, size 0xc, virtual false, abstract: false, final false
+inline ::UnityEngine::Vector3 get_origin() ;
 
-  /// @brief Convert to "::System::IFormattable"
-  constexpr ::System::IFormattable* i___System__IFormattable();
+/// @brief Convert to "::System::IFormattable"
+constexpr ::System::IFormattable* i___System__IFormattable() ;
 
-  /// @brief Method set_direction, addr 0x6926a14, size 0xf8, virtual false, abstract: false, final false
-  inline void set_direction(::UnityEngine::Vector3 value);
+/// @brief Method set_direction, addr 0x692858c, size 0xf8, virtual false, abstract: false, final false
+inline void set_direction(::UnityEngine::Vector3  value) ;
 
-  /// @brief Method set_origin, addr 0x69269fc, size 0xc, virtual false, abstract: false, final false
-  inline void set_origin(::UnityEngine::Vector3 value);
+/// @brief Method set_origin, addr 0x6928574, size 0xc, virtual false, abstract: false, final false
+inline void set_origin(::UnityEngine::Vector3  value) ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Ray();
+// Ctor Parameters []
+// @brief default ctor
+constexpr Ray() ;
 
-  // Ctor Parameters [CppParam { name: "m_Origin", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "m_Direction", ty: "::UnityEngine::Vector3", modifiers: "",
-  // def_value: None }]
-  constexpr Ray(::UnityEngine::Vector3 m_Origin, ::UnityEngine::Vector3 m_Direction) noexcept;
+// Ctor Parameters [CppParam { name: "m_Origin", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "m_Direction", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }]
+constexpr Ray(::UnityEngine::Vector3  m_Origin, ::UnityEngine::Vector3  m_Direction) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10106 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10107};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x18};
 
-  /// @brief Field m_Origin, offset: 0x0, size: 0xc, def value: None
-  ::UnityEngine::Vector3 m_Origin;
+/// @brief Field m_Origin, offset: 0x0, size: 0xc, def value: None
+ ::UnityEngine::Vector3  m_Origin;
 
-  /// @brief Field m_Direction, offset: 0xc, size: 0xc, def value: None
-  ::UnityEngine::Vector3 m_Direction;
+/// @brief Field m_Direction, offset: 0xc, size: 0xc, def value: None
+ ::UnityEngine::Vector3  m_Direction;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Ray, m_Origin) == 0x0, "Offset mismatch!");
@@ -93,5 +92,5 @@ static_assert(offsetof(::UnityEngine::Ray, m_Direction) == 0xc, "Offset mismatch
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Ray, 0x18>, "Size mismatch!");
 
-} // namespace UnityEngine
+} // namespace end def UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Ray, "UnityEngine", "Ray");

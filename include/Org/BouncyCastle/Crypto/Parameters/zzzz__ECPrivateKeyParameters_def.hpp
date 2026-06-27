@@ -31,80 +31,77 @@ namespace Org::BouncyCastle::Crypto::Parameters {
 // CS Name: Org.BouncyCastle.Crypto.Parameters.ECPrivateKeyParameters
 class CORDL_TYPE ECPrivateKeyParameters : public ::Org::BouncyCastle::Crypto::Parameters::ECKeyParameters {
 public:
-  // Declarations
-  __declspec(property(get = get_D)) ::Org::BouncyCastle::Math::BigInteger* D;
+// Declarations
+ __declspec(property(get=get_D)) ::Org::BouncyCastle::Math::BigInteger*  D;
 
-  /// @brief Field d, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_d, put = __cordl_internal_set_d)) ::Org::BouncyCastle::Math::BigInteger* d;
+/// @brief Field d, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get_d, put=__cordl_internal_set_d)) ::Org::BouncyCastle::Math::BigInteger*  d;
 
-  /// @brief Method Equals, addr 0x33518a0, size 0xac, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* obj);
+/// @brief Method Equals, addr 0x335263c, size 0xac, virtual true, abstract: false, final false
+inline bool Equals(::System::Object*  obj) ;
 
-  /// @brief Method Equals, addr 0x335194c, size 0x58, virtual false, abstract: false, final false
-  inline bool Equals(::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* other);
+/// @brief Method Equals, addr 0x33526e8, size 0x58, virtual false, abstract: false, final false
+inline bool Equals(::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters*  other) ;
 
-  /// @brief Method GetHashCode, addr 0x33519a4, size 0x40, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
+/// @brief Method GetHashCode, addr 0x3352740, size 0x40, virtual true, abstract: false, final false
+inline int32_t GetHashCode() ;
 
-  static inline ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* New_ctor(::StringW algorithm, ::Org::BouncyCastle::Math::BigInteger* d,
-                                                                                          ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* parameters);
+static inline ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* New_ctor(::StringW  algorithm, ::Org::BouncyCastle::Math::BigInteger*  d, ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters*  parameters) ;
 
-  static inline ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* New_ctor(::StringW algorithm, ::Org::BouncyCastle::Math::BigInteger* d,
-                                                                                          ::Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet);
+static inline ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* New_ctor(::StringW  algorithm, ::Org::BouncyCastle::Math::BigInteger*  d, ::Org::BouncyCastle::Asn1::DerObjectIdentifier*  publicKeyParamSet) ;
 
-  static inline ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* New_ctor(::Org::BouncyCastle::Math::BigInteger* d,
-                                                                                          ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* parameters);
+static inline ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* New_ctor(::Org::BouncyCastle::Math::BigInteger*  d, ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters*  parameters) ;
 
-  static inline ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* New_ctor(::Org::BouncyCastle::Math::BigInteger* d, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet);
+static inline ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* New_ctor(::Org::BouncyCastle::Math::BigInteger*  d, ::Org::BouncyCastle::Asn1::DerObjectIdentifier*  publicKeyParamSet) ;
 
-  constexpr ::Org::BouncyCastle::Math::BigInteger* const& __cordl_internal_get_d() const;
+constexpr ::Org::BouncyCastle::Math::BigInteger* const& __cordl_internal_get_d() const;
 
-  constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_d();
+constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_d() ;
 
-  constexpr void __cordl_internal_set_d(::Org::BouncyCastle::Math::BigInteger* value);
+constexpr void __cordl_internal_set_d(::Org::BouncyCastle::Math::BigInteger*  value) ;
 
-  /// @brief Method .ctor, addr 0x33516b8, size 0x9c, virtual false, abstract: false, final false
-  inline void _ctor(::StringW algorithm, ::Org::BouncyCastle::Math::BigInteger* d, ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* parameters);
+/// @brief Method .ctor, addr 0x3352454, size 0x9c, virtual false, abstract: false, final false
+inline void _ctor(::StringW  algorithm, ::Org::BouncyCastle::Math::BigInteger*  d, ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters*  parameters) ;
 
-  /// @brief Method .ctor, addr 0x33517fc, size 0x9c, virtual false, abstract: false, final false
-  inline void _ctor(::StringW algorithm, ::Org::BouncyCastle::Math::BigInteger* d, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet);
+/// @brief Method .ctor, addr 0x3352598, size 0x9c, virtual false, abstract: false, final false
+inline void _ctor(::StringW  algorithm, ::Org::BouncyCastle::Math::BigInteger*  d, ::Org::BouncyCastle::Asn1::DerObjectIdentifier*  publicKeyParamSet) ;
 
-  /// @brief Method .ctor, addr 0x3351654, size 0x64, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Math::BigInteger* d, ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* parameters);
+/// @brief Method .ctor, addr 0x33523f0, size 0x64, virtual false, abstract: false, final false
+inline void _ctor(::Org::BouncyCastle::Math::BigInteger*  d, ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters*  parameters) ;
 
-  /// @brief Method .ctor, addr 0x3351754, size 0xa8, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Math::BigInteger* d, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet);
+/// @brief Method .ctor, addr 0x33524f0, size 0xa8, virtual false, abstract: false, final false
+inline void _ctor(::Org::BouncyCastle::Math::BigInteger*  d, ::Org::BouncyCastle::Asn1::DerObjectIdentifier*  publicKeyParamSet) ;
 
-  /// @brief Method get_D, addr 0x3351898, size 0x8, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Math::BigInteger* get_D();
+/// @brief Method get_D, addr 0x3352634, size 0x8, virtual false, abstract: false, final false
+inline ::Org::BouncyCastle::Math::BigInteger* get_D() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ECPrivateKeyParameters();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ECPrivateKeyParameters() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ECPrivateKeyParameters", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ECPrivateKeyParameters(ECPrivateKeyParameters&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ECPrivateKeyParameters", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ECPrivateKeyParameters(ECPrivateKeyParameters const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ECPrivateKeyParameters", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ECPrivateKeyParameters(ECPrivateKeyParameters && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1038 };
+// Ctor Parameters [CppParam { name: "", ty: "ECPrivateKeyParameters", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ECPrivateKeyParameters(ECPrivateKeyParameters const& ) = delete;
 
-  /// @brief Field d, offset: 0x30, size: 0x8, def value: None
-  ::Org::BouncyCastle::Math::BigInteger* ___d;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{1038};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field d, offset: 0x30, size: 0x8, def value: None
+ ::Org::BouncyCastle::Math::BigInteger*  ___d;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters, ___d) == 0x30, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters, 0x38>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Crypto::Parameters
+} // namespace end def Org::BouncyCastle::Crypto::Parameters
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters*, "Org.BouncyCastle.Crypto.Parameters", "ECPrivateKeyParameters");

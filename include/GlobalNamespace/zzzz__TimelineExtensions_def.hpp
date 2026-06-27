@@ -33,87 +33,87 @@ namespace GlobalNamespace {
 // CS Name: TimelineExtensions/<>c__DisplayClass0_0
 class CORDL_TYPE TimelineExtensions___c__DisplayClass0_0 : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field markerType, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_markerType, put = __cordl_internal_set_markerType)) ::System::Type* markerType;
+// Declarations
+/// @brief Field markerType, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_markerType, put=__cordl_internal_set_markerType)) ::System::Type*  markerType;
 
-  static inline ::GlobalNamespace::TimelineExtensions___c__DisplayClass0_0* New_ctor();
+static inline ::GlobalNamespace::TimelineExtensions___c__DisplayClass0_0* New_ctor() ;
 
-  /// @brief Method <JumpToTimelineMarker>b__0, addr 0x57e31c8, size 0x38, virtual false, abstract: false, final false
-  inline bool _JumpToTimelineMarker_b__0(::UnityEngine::Timeline::IMarker* marker);
+/// @brief Method <JumpToTimelineMarker>b__0, addr 0x57e4a30, size 0x38, virtual false, abstract: false, final false
+inline bool _JumpToTimelineMarker_b__0(::UnityEngine::Timeline::IMarker*  marker) ;
 
-  constexpr ::System::Type* const& __cordl_internal_get_markerType() const;
+constexpr ::System::Type* const& __cordl_internal_get_markerType() const;
 
-  constexpr ::System::Type*& __cordl_internal_get_markerType();
+constexpr ::System::Type*& __cordl_internal_get_markerType() ;
 
-  constexpr void __cordl_internal_set_markerType(::System::Type* value);
+constexpr void __cordl_internal_set_markerType(::System::Type*  value) ;
 
-  /// @brief Method .ctor, addr 0x57e31c4, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x57e4a2c, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TimelineExtensions___c__DisplayClass0_0();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr TimelineExtensions___c__DisplayClass0_0() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TimelineExtensions___c__DisplayClass0_0", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  TimelineExtensions___c__DisplayClass0_0(TimelineExtensions___c__DisplayClass0_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TimelineExtensions___c__DisplayClass0_0", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  TimelineExtensions___c__DisplayClass0_0(TimelineExtensions___c__DisplayClass0_0 const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "TimelineExtensions___c__DisplayClass0_0", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+TimelineExtensions___c__DisplayClass0_0(TimelineExtensions___c__DisplayClass0_0 && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6772 };
+// Ctor Parameters [CppParam { name: "", ty: "TimelineExtensions___c__DisplayClass0_0", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+TimelineExtensions___c__DisplayClass0_0(TimelineExtensions___c__DisplayClass0_0 const& ) = delete;
 
-  /// @brief Field markerType, offset: 0x10, size: 0x8, def value: None
-  ::System::Type* ___markerType;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6772};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field markerType, offset: 0x10, size: 0x8, def value: None
+ ::System::Type*  ___markerType;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::TimelineExtensions___c__DisplayClass0_0, ___markerType) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::TimelineExtensions___c__DisplayClass0_0, 0x18>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: TimelineExtensions
 class CORDL_TYPE TimelineExtensions : public ::System::Object {
 public:
-  // Declarations
-  using __c__DisplayClass0_0 = ::GlobalNamespace::TimelineExtensions___c__DisplayClass0_0;
+// Declarations
+using __c__DisplayClass0_0 = ::GlobalNamespace::TimelineExtensions___c__DisplayClass0_0;
 
-  /// @brief Method JumpToTimelineMarker, addr 0x57e2ff0, size 0x1d4, virtual false, abstract: false, final false
-  static inline void JumpToTimelineMarker(::UnityEngine::Playables::PlayableDirector* playableDirector, ::System::Type* markerType);
+/// @brief Method JumpToTimelineMarker, addr 0x57e4858, size 0x1d4, virtual false, abstract: false, final false
+static inline void JumpToTimelineMarker(::UnityEngine::Playables::PlayableDirector*  playableDirector, ::System::Type*  markerType) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TimelineExtensions();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr TimelineExtensions() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TimelineExtensions", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  TimelineExtensions(TimelineExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TimelineExtensions", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  TimelineExtensions(TimelineExtensions const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "TimelineExtensions", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+TimelineExtensions(TimelineExtensions && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6773 };
+// Ctor Parameters [CppParam { name: "", ty: "TimelineExtensions", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+TimelineExtensions(TimelineExtensions const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6773};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::TimelineExtensions, 0x10>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::TimelineExtensions);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::TimelineExtensions*, "", "TimelineExtensions");
 NEED_NO_BOX(::GlobalNamespace::TimelineExtensions___c__DisplayClass0_0);

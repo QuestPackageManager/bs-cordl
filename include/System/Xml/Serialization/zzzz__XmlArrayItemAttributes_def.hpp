@@ -24,45 +24,45 @@ namespace System::Xml::Serialization {
 // CS Name: System.Xml.Serialization.XmlArrayItemAttributes
 class CORDL_TYPE XmlArrayItemAttributes : public ::System::Collections::CollectionBase {
 public:
-  // Declarations
-  __declspec(property(get = get_Item)) ::System::Xml::Serialization::XmlArrayItemAttribute* Item[];
+// Declarations
+ __declspec(property(get=get_Item)) ::System::Xml::Serialization::XmlArrayItemAttribute*  Item[];
 
-  /// @brief Method Add, addr 0x61b07e8, size 0xb4, virtual false, abstract: false, final false
-  inline int32_t Add(::System::Xml::Serialization::XmlArrayItemAttribute* attribute);
+/// @brief Method Add, addr 0x61b2360, size 0xb4, virtual false, abstract: false, final false
+inline int32_t Add(::System::Xml::Serialization::XmlArrayItemAttribute*  attribute) ;
 
-  /// @brief Method AddKeyHash, addr 0x61b089c, size 0xe8, virtual false, abstract: false, final false
-  inline void AddKeyHash(::System::Text::StringBuilder* sb);
+/// @brief Method AddKeyHash, addr 0x61b2414, size 0xe8, virtual false, abstract: false, final false
+inline void AddKeyHash(::System::Text::StringBuilder*  sb) ;
 
-  static inline ::System::Xml::Serialization::XmlArrayItemAttributes* New_ctor();
+static inline ::System::Xml::Serialization::XmlArrayItemAttributes* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x61b0984, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x61b24fc, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_Item, addr 0x61b06e8, size 0x100, virtual false, abstract: false, final false
-  inline ::System::Xml::Serialization::XmlArrayItemAttribute* get_Item(int32_t index);
+/// @brief Method get_Item, addr 0x61b2260, size 0x100, virtual false, abstract: false, final false
+inline ::System::Xml::Serialization::XmlArrayItemAttribute* get_Item(int32_t  index) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr XmlArrayItemAttributes();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr XmlArrayItemAttributes() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlArrayItemAttributes", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  XmlArrayItemAttributes(XmlArrayItemAttributes&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlArrayItemAttributes", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  XmlArrayItemAttributes(XmlArrayItemAttributes const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "XmlArrayItemAttributes", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+XmlArrayItemAttributes(XmlArrayItemAttributes && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9489 };
+// Ctor Parameters [CppParam { name: "", ty: "XmlArrayItemAttributes", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+XmlArrayItemAttributes(XmlArrayItemAttributes const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9490};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::Serialization::XmlArrayItemAttributes, 0x18>, "Size mismatch!");
 
-} // namespace System::Xml::Serialization
+} // namespace end def System::Xml::Serialization
 NEED_NO_BOX(::System::Xml::Serialization::XmlArrayItemAttributes);
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Serialization::XmlArrayItemAttributes*, "System.Xml.Serialization", "XmlArrayItemAttributes");

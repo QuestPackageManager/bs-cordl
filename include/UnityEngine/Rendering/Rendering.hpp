@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "UnityEngine/Rendering/AABB.hpp"
 #include "UnityEngine/Rendering/AABBExtensions.hpp"
@@ -598,5 +598,6 @@ module;
 #include "UnityEngine/Rendering/XRGraphicsAutomatedTests.hpp"
 #include "UnityEngine/Rendering/XRSRPSettings.hpp"
 #ifdef __cpp_modules
-export module Rendering;
-#endif
+                    export module Rendering;
+                    #endif
+                

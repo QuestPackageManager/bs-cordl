@@ -18,78 +18,78 @@ namespace System::Linq::Expressions::Interpreter {
 // CS Name: System.Linq.Expressions.Interpreter.TryFaultHandler
 class CORDL_TYPE TryFaultHandler : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field FinallyEndIndex, offset 0x1c, size 0x4
-  __declspec(property(get = __cordl_internal_get_FinallyEndIndex, put = __cordl_internal_set_FinallyEndIndex)) int32_t FinallyEndIndex;
+// Declarations
+/// @brief Field FinallyEndIndex, offset 0x1c, size 0x4 
+ __declspec(property(get=__cordl_internal_get_FinallyEndIndex, put=__cordl_internal_set_FinallyEndIndex)) int32_t  FinallyEndIndex;
 
-  /// @brief Field FinallyStartIndex, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get_FinallyStartIndex, put = __cordl_internal_set_FinallyStartIndex)) int32_t FinallyStartIndex;
+/// @brief Field FinallyStartIndex, offset 0x18, size 0x4 
+ __declspec(property(get=__cordl_internal_get_FinallyStartIndex, put=__cordl_internal_set_FinallyStartIndex)) int32_t  FinallyStartIndex;
 
-  /// @brief Field TryEndIndex, offset 0x14, size 0x4
-  __declspec(property(get = __cordl_internal_get_TryEndIndex, put = __cordl_internal_set_TryEndIndex)) int32_t TryEndIndex;
+/// @brief Field TryEndIndex, offset 0x14, size 0x4 
+ __declspec(property(get=__cordl_internal_get_TryEndIndex, put=__cordl_internal_set_TryEndIndex)) int32_t  TryEndIndex;
 
-  /// @brief Field TryStartIndex, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_TryStartIndex, put = __cordl_internal_set_TryStartIndex)) int32_t TryStartIndex;
+/// @brief Field TryStartIndex, offset 0x10, size 0x4 
+ __declspec(property(get=__cordl_internal_get_TryStartIndex, put=__cordl_internal_set_TryStartIndex)) int32_t  TryStartIndex;
 
-  static inline ::System::Linq::Expressions::Interpreter::TryFaultHandler* New_ctor(int32_t tryStart, int32_t tryEnd, int32_t finallyStart, int32_t finallyEnd);
+static inline ::System::Linq::Expressions::Interpreter::TryFaultHandler* New_ctor(int32_t  tryStart, int32_t  tryEnd, int32_t  finallyStart, int32_t  finallyEnd) ;
 
-  constexpr int32_t const& __cordl_internal_get_FinallyEndIndex() const;
+constexpr int32_t const& __cordl_internal_get_FinallyEndIndex() const;
 
-  constexpr int32_t& __cordl_internal_get_FinallyEndIndex();
+constexpr int32_t& __cordl_internal_get_FinallyEndIndex() ;
 
-  constexpr int32_t const& __cordl_internal_get_FinallyStartIndex() const;
+constexpr int32_t const& __cordl_internal_get_FinallyStartIndex() const;
 
-  constexpr int32_t& __cordl_internal_get_FinallyStartIndex();
+constexpr int32_t& __cordl_internal_get_FinallyStartIndex() ;
 
-  constexpr int32_t const& __cordl_internal_get_TryEndIndex() const;
+constexpr int32_t const& __cordl_internal_get_TryEndIndex() const;
 
-  constexpr int32_t& __cordl_internal_get_TryEndIndex();
+constexpr int32_t& __cordl_internal_get_TryEndIndex() ;
 
-  constexpr int32_t const& __cordl_internal_get_TryStartIndex() const;
+constexpr int32_t const& __cordl_internal_get_TryStartIndex() const;
 
-  constexpr int32_t& __cordl_internal_get_TryStartIndex();
+constexpr int32_t& __cordl_internal_get_TryStartIndex() ;
 
-  constexpr void __cordl_internal_set_FinallyEndIndex(int32_t value);
+constexpr void __cordl_internal_set_FinallyEndIndex(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_FinallyStartIndex(int32_t value);
+constexpr void __cordl_internal_set_FinallyStartIndex(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_TryEndIndex(int32_t value);
+constexpr void __cordl_internal_set_TryEndIndex(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_TryStartIndex(int32_t value);
+constexpr void __cordl_internal_set_TryStartIndex(int32_t  value) ;
 
-  /// @brief Method .ctor, addr 0x5e5edb8, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor(int32_t tryStart, int32_t tryEnd, int32_t finallyStart, int32_t finallyEnd);
+/// @brief Method .ctor, addr 0x5e60930, size 0xc, virtual false, abstract: false, final false
+inline void _ctor(int32_t  tryStart, int32_t  tryEnd, int32_t  finallyStart, int32_t  finallyEnd) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TryFaultHandler();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr TryFaultHandler() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TryFaultHandler", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  TryFaultHandler(TryFaultHandler&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TryFaultHandler", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  TryFaultHandler(TryFaultHandler const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "TryFaultHandler", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+TryFaultHandler(TryFaultHandler && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16416 };
+// Ctor Parameters [CppParam { name: "", ty: "TryFaultHandler", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+TryFaultHandler(TryFaultHandler const& ) = delete;
 
-  /// @brief Field TryStartIndex, offset: 0x10, size: 0x4, def value: None
-  int32_t ___TryStartIndex;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{16418};
 
-  /// @brief Field TryEndIndex, offset: 0x14, size: 0x4, def value: None
-  int32_t ___TryEndIndex;
+/// @brief Field TryStartIndex, offset: 0x10, size: 0x4, def value: None
+ int32_t  ___TryStartIndex;
 
-  /// @brief Field FinallyStartIndex, offset: 0x18, size: 0x4, def value: None
-  int32_t ___FinallyStartIndex;
+/// @brief Field TryEndIndex, offset: 0x14, size: 0x4, def value: None
+ int32_t  ___TryEndIndex;
 
-  /// @brief Field FinallyEndIndex, offset: 0x1c, size: 0x4, def value: None
-  int32_t ___FinallyEndIndex;
+/// @brief Field FinallyStartIndex, offset: 0x18, size: 0x4, def value: None
+ int32_t  ___FinallyStartIndex;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field FinallyEndIndex, offset: 0x1c, size: 0x4, def value: None
+ int32_t  ___FinallyEndIndex;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Linq::Expressions::Interpreter::TryFaultHandler, ___TryStartIndex) == 0x10, "Offset mismatch!");
@@ -102,6 +102,6 @@ static_assert(offsetof(::System::Linq::Expressions::Interpreter::TryFaultHandler
 
 static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Interpreter::TryFaultHandler, 0x20>, "Size mismatch!");
 
-} // namespace System::Linq::Expressions::Interpreter
+} // namespace end def System::Linq::Expressions::Interpreter
 NEED_NO_BOX(::System::Linq::Expressions::Interpreter::TryFaultHandler);
 DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Interpreter::TryFaultHandler*, "System.Linq.Expressions.Interpreter", "TryFaultHandler");

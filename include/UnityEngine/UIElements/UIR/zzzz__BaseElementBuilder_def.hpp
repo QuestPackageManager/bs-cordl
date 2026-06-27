@@ -20,61 +20,61 @@ namespace UnityEngine::UIElements::UIR {
 // CS Name: UnityEngine.UIElements.UIR.BaseElementBuilder
 class CORDL_TYPE BaseElementBuilder : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method Build, addr 0x6b7cdec, size 0x6bc, virtual false, abstract: false, final false
-  inline void Build(Il2CppObject* mgc);
+// Declarations
+/// @brief Method Build, addr 0x6b7e964, size 0x6bc, virtual false, abstract: false, final false
+inline void Build(Il2CppObject*  mgc) ;
 
-  /// @brief Method DrawVisualElementBackground, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void DrawVisualElementBackground(Il2CppObject* mgc);
+/// @brief Method DrawVisualElementBackground, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline void DrawVisualElementBackground(Il2CppObject*  mgc) ;
 
-  /// @brief Method DrawVisualElementBorder, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void DrawVisualElementBorder(Il2CppObject* mgc);
+/// @brief Method DrawVisualElementBorder, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline void DrawVisualElementBorder(Il2CppObject*  mgc) ;
 
-  /// @brief Method DrawVisualElementStencilMask, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void DrawVisualElementStencilMask(Il2CppObject* mgc);
+/// @brief Method DrawVisualElementStencilMask, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline void DrawVisualElementStencilMask(Il2CppObject*  mgc) ;
 
-  /// @brief Method InvokeGenerateVisualContent, addr 0x6b7d6f8, size 0x104, virtual false, abstract: false, final false
-  static inline void InvokeGenerateVisualContent(Il2CppObject* mgc);
+/// @brief Method InvokeGenerateVisualContent, addr 0x6b7f270, size 0x104, virtual false, abstract: false, final false
+static inline void InvokeGenerateVisualContent(Il2CppObject*  mgc) ;
 
-  static inline ::UnityEngine::UIElements::UIR::BaseElementBuilder* New_ctor();
+static inline ::UnityEngine::UIElements::UIR::BaseElementBuilder* New_ctor() ;
 
-  /// @brief Method PopVisualElementClipping, addr 0x6b7d7fc, size 0x1a4, virtual false, abstract: false, final false
-  static inline void PopVisualElementClipping(Il2CppObject* mgc);
+/// @brief Method PopVisualElementClipping, addr 0x6b7f374, size 0x1a4, virtual false, abstract: false, final false
+static inline void PopVisualElementClipping(Il2CppObject*  mgc) ;
 
-  /// @brief Method PushVisualElementClipping, addr 0x6b7d4a8, size 0x250, virtual false, abstract: false, final false
-  inline void PushVisualElementClipping(Il2CppObject* mgc);
+/// @brief Method PushVisualElementClipping, addr 0x6b7f020, size 0x250, virtual false, abstract: false, final false
+inline void PushVisualElementClipping(Il2CppObject*  mgc) ;
 
-  /// @brief Method RequiresStencilMask, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline bool RequiresStencilMask(::UnityEngine::UIElements::VisualElement* ve);
+/// @brief Method RequiresStencilMask, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline bool RequiresStencilMask(::UnityEngine::UIElements::VisualElement*  ve) ;
 
-  /// @brief Method ScheduleMeshGenerationJobs, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void ScheduleMeshGenerationJobs(Il2CppObject* mgc);
+/// @brief Method ScheduleMeshGenerationJobs, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline void ScheduleMeshGenerationJobs(Il2CppObject*  mgc) ;
 
-  /// @brief Method .ctor, addr 0x6b7d9a0, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6b7f518, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BaseElementBuilder();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr BaseElementBuilder() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BaseElementBuilder", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  BaseElementBuilder(BaseElementBuilder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BaseElementBuilder", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  BaseElementBuilder(BaseElementBuilder const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "BaseElementBuilder", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+BaseElementBuilder(BaseElementBuilder && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5285 };
+// Ctor Parameters [CppParam { name: "", ty: "BaseElementBuilder", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+BaseElementBuilder(BaseElementBuilder const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{5285};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::BaseElementBuilder, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements::UIR
+} // namespace end def UnityEngine::UIElements::UIR
 NEED_NO_BOX(::UnityEngine::UIElements::UIR::BaseElementBuilder);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UIR::BaseElementBuilder*, "UnityEngine.UIElements.UIR", "BaseElementBuilder");

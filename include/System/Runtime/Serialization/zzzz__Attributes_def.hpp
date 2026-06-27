@@ -25,227 +25,224 @@ namespace System::Runtime::Serialization {
 // CS Name: System.Runtime.Serialization.Attributes
 class CORDL_TYPE Attributes : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field ArraySZSize, offset 0x50, size 0x4
-  __declspec(property(get = __cordl_internal_get_ArraySZSize, put = __cordl_internal_set_ArraySZSize)) int32_t ArraySZSize;
+// Declarations
+/// @brief Field ArraySZSize, offset 0x50, size 0x4 
+ __declspec(property(get=__cordl_internal_get_ArraySZSize, put=__cordl_internal_set_ArraySZSize)) int32_t  ArraySZSize;
 
-  /// @brief Field ClrAssembly, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_ClrAssembly, put = __cordl_internal_set_ClrAssembly)) ::StringW ClrAssembly;
+/// @brief Field ClrAssembly, offset 0x40, size 0x8 
+ __declspec(property(get=__cordl_internal_get_ClrAssembly, put=__cordl_internal_set_ClrAssembly)) ::StringW  ClrAssembly;
 
-  /// @brief Field ClrType, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_ClrType, put = __cordl_internal_set_ClrType)) ::StringW ClrType;
+/// @brief Field ClrType, offset 0x48, size 0x8 
+ __declspec(property(get=__cordl_internal_get_ClrType, put=__cordl_internal_set_ClrType)) ::StringW  ClrType;
 
-  /// @brief Field FactoryTypeName, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get_FactoryTypeName, put = __cordl_internal_set_FactoryTypeName)) ::StringW FactoryTypeName;
+/// @brief Field FactoryTypeName, offset 0x58, size 0x8 
+ __declspec(property(get=__cordl_internal_get_FactoryTypeName, put=__cordl_internal_set_FactoryTypeName)) ::StringW  FactoryTypeName;
 
-  /// @brief Field FactoryTypeNamespace, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get_FactoryTypeNamespace, put = __cordl_internal_set_FactoryTypeNamespace)) ::StringW FactoryTypeNamespace;
+/// @brief Field FactoryTypeNamespace, offset 0x60, size 0x8 
+ __declspec(property(get=__cordl_internal_get_FactoryTypeNamespace, put=__cordl_internal_set_FactoryTypeNamespace)) ::StringW  FactoryTypeNamespace;
 
-  /// @brief Field FactoryTypePrefix, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get_FactoryTypePrefix, put = __cordl_internal_set_FactoryTypePrefix)) ::StringW FactoryTypePrefix;
+/// @brief Field FactoryTypePrefix, offset 0x68, size 0x8 
+ __declspec(property(get=__cordl_internal_get_FactoryTypePrefix, put=__cordl_internal_set_FactoryTypePrefix)) ::StringW  FactoryTypePrefix;
 
-  /// @brief Field Id, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_Id, put = __cordl_internal_set_Id)) ::StringW Id;
+/// @brief Field Id, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_Id, put=__cordl_internal_set_Id)) ::StringW  Id;
 
-  /// @brief Field Ref, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_Ref, put = __cordl_internal_set_Ref)) ::StringW Ref;
+/// @brief Field Ref, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_Ref, put=__cordl_internal_set_Ref)) ::StringW  Ref;
 
-  /// @brief Field UnrecognizedAttributesFound, offset 0x70, size 0x1
-  __declspec(property(get = __cordl_internal_get_UnrecognizedAttributesFound, put = __cordl_internal_set_UnrecognizedAttributesFound)) bool UnrecognizedAttributesFound;
+/// @brief Field UnrecognizedAttributesFound, offset 0x70, size 0x1 
+ __declspec(property(get=__cordl_internal_get_UnrecognizedAttributesFound, put=__cordl_internal_set_UnrecognizedAttributesFound)) bool  UnrecognizedAttributesFound;
 
-  /// @brief Field XsiNil, offset 0x38, size 0x1
-  __declspec(property(get = __cordl_internal_get_XsiNil, put = __cordl_internal_set_XsiNil)) bool XsiNil;
+/// @brief Field XsiNil, offset 0x38, size 0x1 
+ __declspec(property(get=__cordl_internal_get_XsiNil, put=__cordl_internal_set_XsiNil)) bool  XsiNil;
 
-  /// @brief Field XsiTypeName, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_XsiTypeName, put = __cordl_internal_set_XsiTypeName)) ::StringW XsiTypeName;
+/// @brief Field XsiTypeName, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_XsiTypeName, put=__cordl_internal_set_XsiTypeName)) ::StringW  XsiTypeName;
 
-  /// @brief Field XsiTypeNamespace, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_XsiTypeNamespace, put = __cordl_internal_set_XsiTypeNamespace)) ::StringW XsiTypeNamespace;
+/// @brief Field XsiTypeNamespace, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get_XsiTypeNamespace, put=__cordl_internal_set_XsiTypeNamespace)) ::StringW  XsiTypeNamespace;
 
-  /// @brief Field XsiTypePrefix, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_XsiTypePrefix, put = __cordl_internal_set_XsiTypePrefix)) ::StringW XsiTypePrefix;
+/// @brief Field XsiTypePrefix, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get_XsiTypePrefix, put=__cordl_internal_set_XsiTypePrefix)) ::StringW  XsiTypePrefix;
 
-  /// @brief Field schemaInstanceLocalNames, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_schemaInstanceLocalNames,
-                      put = setStaticF_schemaInstanceLocalNames)) ::ArrayW<::System::Xml::XmlDictionaryString*, ::Array<::System::Xml::XmlDictionaryString*>*>
-      schemaInstanceLocalNames;
+/// @brief Field schemaInstanceLocalNames, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_schemaInstanceLocalNames, put=setStaticF_schemaInstanceLocalNames)) ::ArrayW<::System::Xml::XmlDictionaryString*,::Array<::System::Xml::XmlDictionaryString*>*>  schemaInstanceLocalNames;
 
-  /// @brief Field serializationLocalNames, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_serializationLocalNames, put = setStaticF_serializationLocalNames)) ::ArrayW<::System::Xml::XmlDictionaryString*, ::Array<::System::Xml::XmlDictionaryString*>*>
-      serializationLocalNames;
+/// @brief Field serializationLocalNames, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_serializationLocalNames, put=setStaticF_serializationLocalNames)) ::ArrayW<::System::Xml::XmlDictionaryString*,::Array<::System::Xml::XmlDictionaryString*>*>  serializationLocalNames;
 
-  static inline ::System::Runtime::Serialization::Attributes* New_ctor();
+static inline ::System::Runtime::Serialization::Attributes* New_ctor() ;
 
-  /// @brief Method Read, addr 0x5ff1474, size 0x254, virtual false, abstract: false, final false
-  inline void Read(::System::Runtime::Serialization::XmlReaderDelegator* reader);
+/// @brief Method Read, addr 0x5ff2fec, size 0x254, virtual false, abstract: false, final false
+inline void Read(::System::Runtime::Serialization::XmlReaderDelegator*  reader) ;
 
-  /// @brief Method ReadArraySize, addr 0x5ff1804, size 0xc8, virtual false, abstract: false, final false
-  inline void ReadArraySize(::System::Runtime::Serialization::XmlReaderDelegator* reader);
+/// @brief Method ReadArraySize, addr 0x5ff337c, size 0xc8, virtual false, abstract: false, final false
+inline void ReadArraySize(::System::Runtime::Serialization::XmlReaderDelegator*  reader) ;
 
-  /// @brief Method ReadFactoryType, addr 0x5ff1980, size 0x68, virtual false, abstract: false, final false
-  inline void ReadFactoryType(::System::Runtime::Serialization::XmlReaderDelegator* reader);
+/// @brief Method ReadFactoryType, addr 0x5ff34f8, size 0x68, virtual false, abstract: false, final false
+inline void ReadFactoryType(::System::Runtime::Serialization::XmlReaderDelegator*  reader) ;
 
-  /// @brief Method ReadId, addr 0x5ff1750, size 0xb4, virtual false, abstract: false, final false
-  inline void ReadId(::System::Runtime::Serialization::XmlReaderDelegator* reader);
+/// @brief Method ReadId, addr 0x5ff32c8, size 0xb4, virtual false, abstract: false, final false
+inline void ReadId(::System::Runtime::Serialization::XmlReaderDelegator*  reader) ;
 
-  /// @brief Method ReadRef, addr 0x5ff18cc, size 0xb4, virtual false, abstract: false, final false
-  inline void ReadRef(::System::Runtime::Serialization::XmlReaderDelegator* reader);
+/// @brief Method ReadRef, addr 0x5ff3444, size 0xb4, virtual false, abstract: false, final false
+inline void ReadRef(::System::Runtime::Serialization::XmlReaderDelegator*  reader) ;
 
-  /// @brief Method ReadXsiNil, addr 0x5ff19e8, size 0x2c, virtual false, abstract: false, final false
-  inline void ReadXsiNil(::System::Runtime::Serialization::XmlReaderDelegator* reader);
+/// @brief Method ReadXsiNil, addr 0x5ff3560, size 0x2c, virtual false, abstract: false, final false
+inline void ReadXsiNil(::System::Runtime::Serialization::XmlReaderDelegator*  reader) ;
 
-  /// @brief Method ReadXsiType, addr 0x5ff1a14, size 0x68, virtual false, abstract: false, final false
-  inline void ReadXsiType(::System::Runtime::Serialization::XmlReaderDelegator* reader);
+/// @brief Method ReadXsiType, addr 0x5ff358c, size 0x68, virtual false, abstract: false, final false
+inline void ReadXsiType(::System::Runtime::Serialization::XmlReaderDelegator*  reader) ;
 
-  /// @brief Method Reset, addr 0x5ff16c8, size 0x88, virtual false, abstract: false, final false
-  inline void Reset();
+/// @brief Method Reset, addr 0x5ff3240, size 0x88, virtual false, abstract: false, final false
+inline void Reset() ;
 
-  constexpr int32_t const& __cordl_internal_get_ArraySZSize() const;
+constexpr int32_t const& __cordl_internal_get_ArraySZSize() const;
 
-  constexpr int32_t& __cordl_internal_get_ArraySZSize();
+constexpr int32_t& __cordl_internal_get_ArraySZSize() ;
 
-  constexpr ::StringW const& __cordl_internal_get_ClrAssembly() const;
+constexpr ::StringW const& __cordl_internal_get_ClrAssembly() const;
 
-  constexpr ::StringW& __cordl_internal_get_ClrAssembly();
+constexpr ::StringW& __cordl_internal_get_ClrAssembly() ;
 
-  constexpr ::StringW const& __cordl_internal_get_ClrType() const;
+constexpr ::StringW const& __cordl_internal_get_ClrType() const;
 
-  constexpr ::StringW& __cordl_internal_get_ClrType();
+constexpr ::StringW& __cordl_internal_get_ClrType() ;
 
-  constexpr ::StringW const& __cordl_internal_get_FactoryTypeName() const;
+constexpr ::StringW const& __cordl_internal_get_FactoryTypeName() const;
 
-  constexpr ::StringW& __cordl_internal_get_FactoryTypeName();
+constexpr ::StringW& __cordl_internal_get_FactoryTypeName() ;
 
-  constexpr ::StringW const& __cordl_internal_get_FactoryTypeNamespace() const;
+constexpr ::StringW const& __cordl_internal_get_FactoryTypeNamespace() const;
 
-  constexpr ::StringW& __cordl_internal_get_FactoryTypeNamespace();
+constexpr ::StringW& __cordl_internal_get_FactoryTypeNamespace() ;
 
-  constexpr ::StringW const& __cordl_internal_get_FactoryTypePrefix() const;
+constexpr ::StringW const& __cordl_internal_get_FactoryTypePrefix() const;
 
-  constexpr ::StringW& __cordl_internal_get_FactoryTypePrefix();
+constexpr ::StringW& __cordl_internal_get_FactoryTypePrefix() ;
 
-  constexpr ::StringW const& __cordl_internal_get_Id() const;
+constexpr ::StringW const& __cordl_internal_get_Id() const;
 
-  constexpr ::StringW& __cordl_internal_get_Id();
+constexpr ::StringW& __cordl_internal_get_Id() ;
 
-  constexpr ::StringW const& __cordl_internal_get_Ref() const;
+constexpr ::StringW const& __cordl_internal_get_Ref() const;
 
-  constexpr ::StringW& __cordl_internal_get_Ref();
+constexpr ::StringW& __cordl_internal_get_Ref() ;
 
-  constexpr bool const& __cordl_internal_get_UnrecognizedAttributesFound() const;
+constexpr bool const& __cordl_internal_get_UnrecognizedAttributesFound() const;
 
-  constexpr bool& __cordl_internal_get_UnrecognizedAttributesFound();
+constexpr bool& __cordl_internal_get_UnrecognizedAttributesFound() ;
 
-  constexpr bool const& __cordl_internal_get_XsiNil() const;
+constexpr bool const& __cordl_internal_get_XsiNil() const;
 
-  constexpr bool& __cordl_internal_get_XsiNil();
+constexpr bool& __cordl_internal_get_XsiNil() ;
 
-  constexpr ::StringW const& __cordl_internal_get_XsiTypeName() const;
+constexpr ::StringW const& __cordl_internal_get_XsiTypeName() const;
 
-  constexpr ::StringW& __cordl_internal_get_XsiTypeName();
+constexpr ::StringW& __cordl_internal_get_XsiTypeName() ;
 
-  constexpr ::StringW const& __cordl_internal_get_XsiTypeNamespace() const;
+constexpr ::StringW const& __cordl_internal_get_XsiTypeNamespace() const;
 
-  constexpr ::StringW& __cordl_internal_get_XsiTypeNamespace();
+constexpr ::StringW& __cordl_internal_get_XsiTypeNamespace() ;
 
-  constexpr ::StringW const& __cordl_internal_get_XsiTypePrefix() const;
+constexpr ::StringW const& __cordl_internal_get_XsiTypePrefix() const;
 
-  constexpr ::StringW& __cordl_internal_get_XsiTypePrefix();
+constexpr ::StringW& __cordl_internal_get_XsiTypePrefix() ;
 
-  constexpr void __cordl_internal_set_ArraySZSize(int32_t value);
+constexpr void __cordl_internal_set_ArraySZSize(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_ClrAssembly(::StringW value);
+constexpr void __cordl_internal_set_ClrAssembly(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_ClrType(::StringW value);
+constexpr void __cordl_internal_set_ClrType(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_FactoryTypeName(::StringW value);
+constexpr void __cordl_internal_set_FactoryTypeName(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_FactoryTypeNamespace(::StringW value);
+constexpr void __cordl_internal_set_FactoryTypeNamespace(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_FactoryTypePrefix(::StringW value);
+constexpr void __cordl_internal_set_FactoryTypePrefix(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_Id(::StringW value);
+constexpr void __cordl_internal_set_Id(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_Ref(::StringW value);
+constexpr void __cordl_internal_set_Ref(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_UnrecognizedAttributesFound(bool value);
+constexpr void __cordl_internal_set_UnrecognizedAttributesFound(bool  value) ;
 
-  constexpr void __cordl_internal_set_XsiNil(bool value);
+constexpr void __cordl_internal_set_XsiNil(bool  value) ;
 
-  constexpr void __cordl_internal_set_XsiTypeName(::StringW value);
+constexpr void __cordl_internal_set_XsiTypeName(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_XsiTypeNamespace(::StringW value);
+constexpr void __cordl_internal_set_XsiTypeNamespace(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_XsiTypePrefix(::StringW value);
+constexpr void __cordl_internal_set_XsiTypePrefix(::StringW  value) ;
 
-  /// @brief Method .ctor, addr 0x5ff1a7c, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5ff35f4, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  static inline ::ArrayW<::System::Xml::XmlDictionaryString*, ::Array<::System::Xml::XmlDictionaryString*>*> getStaticF_schemaInstanceLocalNames();
+static inline ::ArrayW<::System::Xml::XmlDictionaryString*,::Array<::System::Xml::XmlDictionaryString*>*> getStaticF_schemaInstanceLocalNames() ;
 
-  static inline ::ArrayW<::System::Xml::XmlDictionaryString*, ::Array<::System::Xml::XmlDictionaryString*>*> getStaticF_serializationLocalNames();
+static inline ::ArrayW<::System::Xml::XmlDictionaryString*,::Array<::System::Xml::XmlDictionaryString*>*> getStaticF_serializationLocalNames() ;
 
-  static inline void setStaticF_schemaInstanceLocalNames(::ArrayW<::System::Xml::XmlDictionaryString*, ::Array<::System::Xml::XmlDictionaryString*>*> value);
+static inline void setStaticF_schemaInstanceLocalNames(::ArrayW<::System::Xml::XmlDictionaryString*,::Array<::System::Xml::XmlDictionaryString*>*>  value) ;
 
-  static inline void setStaticF_serializationLocalNames(::ArrayW<::System::Xml::XmlDictionaryString*, ::Array<::System::Xml::XmlDictionaryString*>*> value);
+static inline void setStaticF_serializationLocalNames(::ArrayW<::System::Xml::XmlDictionaryString*,::Array<::System::Xml::XmlDictionaryString*>*>  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Attributes();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr Attributes() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Attributes", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  Attributes(Attributes&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Attributes", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  Attributes(Attributes const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "Attributes", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Attributes(Attributes && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16980 };
+// Ctor Parameters [CppParam { name: "", ty: "Attributes", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Attributes(Attributes const& ) = delete;
 
-  /// @brief Field Id, offset: 0x10, size: 0x8, def value: None
-  ::StringW ___Id;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{16982};
 
-  /// @brief Field Ref, offset: 0x18, size: 0x8, def value: None
-  ::StringW ___Ref;
+/// @brief Field Id, offset: 0x10, size: 0x8, def value: None
+ ::StringW  ___Id;
 
-  /// @brief Field XsiTypeName, offset: 0x20, size: 0x8, def value: None
-  ::StringW ___XsiTypeName;
+/// @brief Field Ref, offset: 0x18, size: 0x8, def value: None
+ ::StringW  ___Ref;
 
-  /// @brief Field XsiTypeNamespace, offset: 0x28, size: 0x8, def value: None
-  ::StringW ___XsiTypeNamespace;
+/// @brief Field XsiTypeName, offset: 0x20, size: 0x8, def value: None
+ ::StringW  ___XsiTypeName;
 
-  /// @brief Field XsiTypePrefix, offset: 0x30, size: 0x8, def value: None
-  ::StringW ___XsiTypePrefix;
+/// @brief Field XsiTypeNamespace, offset: 0x28, size: 0x8, def value: None
+ ::StringW  ___XsiTypeNamespace;
 
-  /// @brief Field XsiNil, offset: 0x38, size: 0x1, def value: None
-  bool ___XsiNil;
+/// @brief Field XsiTypePrefix, offset: 0x30, size: 0x8, def value: None
+ ::StringW  ___XsiTypePrefix;
 
-  /// @brief Field ClrAssembly, offset: 0x40, size: 0x8, def value: None
-  ::StringW ___ClrAssembly;
+/// @brief Field XsiNil, offset: 0x38, size: 0x1, def value: None
+ bool  ___XsiNil;
 
-  /// @brief Field ClrType, offset: 0x48, size: 0x8, def value: None
-  ::StringW ___ClrType;
+/// @brief Field ClrAssembly, offset: 0x40, size: 0x8, def value: None
+ ::StringW  ___ClrAssembly;
 
-  /// @brief Field ArraySZSize, offset: 0x50, size: 0x4, def value: None
-  int32_t ___ArraySZSize;
+/// @brief Field ClrType, offset: 0x48, size: 0x8, def value: None
+ ::StringW  ___ClrType;
 
-  /// @brief Field FactoryTypeName, offset: 0x58, size: 0x8, def value: None
-  ::StringW ___FactoryTypeName;
+/// @brief Field ArraySZSize, offset: 0x50, size: 0x4, def value: None
+ int32_t  ___ArraySZSize;
 
-  /// @brief Field FactoryTypeNamespace, offset: 0x60, size: 0x8, def value: None
-  ::StringW ___FactoryTypeNamespace;
+/// @brief Field FactoryTypeName, offset: 0x58, size: 0x8, def value: None
+ ::StringW  ___FactoryTypeName;
 
-  /// @brief Field FactoryTypePrefix, offset: 0x68, size: 0x8, def value: None
-  ::StringW ___FactoryTypePrefix;
+/// @brief Field FactoryTypeNamespace, offset: 0x60, size: 0x8, def value: None
+ ::StringW  ___FactoryTypeNamespace;
 
-  /// @brief Field UnrecognizedAttributesFound, offset: 0x70, size: 0x1, def value: None
-  bool ___UnrecognizedAttributesFound;
+/// @brief Field FactoryTypePrefix, offset: 0x68, size: 0x8, def value: None
+ ::StringW  ___FactoryTypePrefix;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field UnrecognizedAttributesFound, offset: 0x70, size: 0x1, def value: None
+ bool  ___UnrecognizedAttributesFound;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Runtime::Serialization::Attributes, ___Id) == 0x10, "Offset mismatch!");
@@ -276,6 +273,6 @@ static_assert(offsetof(::System::Runtime::Serialization::Attributes, ___Unrecogn
 
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::Attributes, 0x78>, "Size mismatch!");
 
-} // namespace System::Runtime::Serialization
+} // namespace end def System::Runtime::Serialization
 NEED_NO_BOX(::System::Runtime::Serialization::Attributes);
 DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::Attributes*, "System.Runtime.Serialization", "Attributes");

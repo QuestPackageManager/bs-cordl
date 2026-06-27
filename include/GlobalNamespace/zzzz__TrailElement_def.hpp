@@ -22,102 +22,102 @@ namespace GlobalNamespace {
 // CS Name: TrailElement
 class CORDL_TYPE TrailElement : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field distance, offset 0x28, size 0x4
-  __declspec(property(get = __cordl_internal_get_distance, put = __cordl_internal_set_distance)) float_t distance;
+// Declarations
+/// @brief Field distance, offset 0x28, size 0x4 
+ __declspec(property(get=__cordl_internal_get_distance, put=__cordl_internal_set_distance)) float_t  distance;
 
-  /// @brief Field localDistance, offset 0x2c, size 0x4
-  __declspec(property(get = __cordl_internal_get_localDistance, put = __cordl_internal_set_localDistance)) float_t localDistance;
+/// @brief Field localDistance, offset 0x2c, size 0x4 
+ __declspec(property(get=__cordl_internal_get_localDistance, put=__cordl_internal_set_localDistance)) float_t  localDistance;
 
-  /// @brief Field normal, offset 0x1c, size 0xc
-  __declspec(property(get = __cordl_internal_get_normal, put = __cordl_internal_set_normal)) ::UnityEngine::Vector3 normal;
+/// @brief Field normal, offset 0x1c, size 0xc 
+ __declspec(property(get=__cordl_internal_get_normal, put=__cordl_internal_set_normal)) ::UnityEngine::Vector3  normal;
 
-  /// @brief Field position, offset 0x10, size 0xc
-  __declspec(property(get = __cordl_internal_get_position, put = __cordl_internal_set_position)) ::UnityEngine::Vector3 position;
+/// @brief Field position, offset 0x10, size 0xc 
+ __declspec(property(get=__cordl_internal_get_position, put=__cordl_internal_set_position)) ::UnityEngine::Vector3  position;
 
-  /// @brief Field time, offset 0x30, size 0x4
-  __declspec(property(get = __cordl_internal_get_time, put = __cordl_internal_set_time)) float_t time;
+/// @brief Field time, offset 0x30, size 0x4 
+ __declspec(property(get=__cordl_internal_get_time, put=__cordl_internal_set_time)) float_t  time;
 
-  /// @brief Method CopyFrom, addr 0x5e12c4c, size 0x3c, virtual false, abstract: false, final false
-  inline void CopyFrom(::GlobalNamespace::TrailElement* other);
+/// @brief Method CopyFrom, addr 0x5e147c4, size 0x3c, virtual false, abstract: false, final false
+inline void CopyFrom(::GlobalNamespace::TrailElement*  other) ;
 
-  static inline ::GlobalNamespace::TrailElement* New_ctor();
+static inline ::GlobalNamespace::TrailElement* New_ctor() ;
 
-  /// @brief Method SetData, addr 0x5e12c0c, size 0x40, virtual false, abstract: false, final false
-  inline void SetData(::UnityEngine::Vector3 start, ::UnityEngine::Vector3 end, float_t time);
+/// @brief Method SetData, addr 0x5e14784, size 0x40, virtual false, abstract: false, final false
+inline void SetData(::UnityEngine::Vector3  start, ::UnityEngine::Vector3  end, float_t  time) ;
 
-  /// @brief Method SetDistance, addr 0x5e12c88, size 0x8, virtual false, abstract: false, final false
-  inline void SetDistance(float_t value);
+/// @brief Method SetDistance, addr 0x5e14800, size 0x8, virtual false, abstract: false, final false
+inline void SetDistance(float_t  value) ;
 
-  /// @brief Method UpdateLocalDistance, addr 0x5e12c90, size 0x9c, virtual false, abstract: false, final false
-  inline void UpdateLocalDistance(::GlobalNamespace::TrailElement* prev);
+/// @brief Method UpdateLocalDistance, addr 0x5e14808, size 0x9c, virtual false, abstract: false, final false
+inline void UpdateLocalDistance(::GlobalNamespace::TrailElement*  prev) ;
 
-  constexpr float_t const& __cordl_internal_get_distance() const;
+constexpr float_t const& __cordl_internal_get_distance() const;
 
-  constexpr float_t& __cordl_internal_get_distance();
+constexpr float_t& __cordl_internal_get_distance() ;
 
-  constexpr float_t const& __cordl_internal_get_localDistance() const;
+constexpr float_t const& __cordl_internal_get_localDistance() const;
 
-  constexpr float_t& __cordl_internal_get_localDistance();
+constexpr float_t& __cordl_internal_get_localDistance() ;
 
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_normal() const;
+constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_normal() const;
 
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_normal();
+constexpr ::UnityEngine::Vector3& __cordl_internal_get_normal() ;
 
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_position() const;
+constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_position() const;
 
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_position();
+constexpr ::UnityEngine::Vector3& __cordl_internal_get_position() ;
 
-  constexpr float_t const& __cordl_internal_get_time() const;
+constexpr float_t const& __cordl_internal_get_time() const;
 
-  constexpr float_t& __cordl_internal_get_time();
+constexpr float_t& __cordl_internal_get_time() ;
 
-  constexpr void __cordl_internal_set_distance(float_t value);
+constexpr void __cordl_internal_set_distance(float_t  value) ;
 
-  constexpr void __cordl_internal_set_localDistance(float_t value);
+constexpr void __cordl_internal_set_localDistance(float_t  value) ;
 
-  constexpr void __cordl_internal_set_normal(::UnityEngine::Vector3 value);
+constexpr void __cordl_internal_set_normal(::UnityEngine::Vector3  value) ;
 
-  constexpr void __cordl_internal_set_position(::UnityEngine::Vector3 value);
+constexpr void __cordl_internal_set_position(::UnityEngine::Vector3  value) ;
 
-  constexpr void __cordl_internal_set_time(float_t value);
+constexpr void __cordl_internal_set_time(float_t  value) ;
 
-  /// @brief Method .ctor, addr 0x5e12d2c, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5e148a4, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TrailElement();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr TrailElement() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TrailElement", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  TrailElement(TrailElement&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TrailElement", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  TrailElement(TrailElement const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "TrailElement", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+TrailElement(TrailElement && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22926 };
+// Ctor Parameters [CppParam { name: "", ty: "TrailElement", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+TrailElement(TrailElement const& ) = delete;
 
-  /// @brief Field position, offset: 0x10, size: 0xc, def value: None
-  ::UnityEngine::Vector3 ___position;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22930};
 
-  /// @brief Field normal, offset: 0x1c, size: 0xc, def value: None
-  ::UnityEngine::Vector3 ___normal;
+/// @brief Field position, offset: 0x10, size: 0xc, def value: None
+ ::UnityEngine::Vector3  ___position;
 
-  /// @brief Field distance, offset: 0x28, size: 0x4, def value: None
-  float_t ___distance;
+/// @brief Field normal, offset: 0x1c, size: 0xc, def value: None
+ ::UnityEngine::Vector3  ___normal;
 
-  /// @brief Field localDistance, offset: 0x2c, size: 0x4, def value: None
-  float_t ___localDistance;
+/// @brief Field distance, offset: 0x28, size: 0x4, def value: None
+ float_t  ___distance;
 
-  /// @brief Field time, offset: 0x30, size: 0x4, def value: None
-  float_t ___time;
+/// @brief Field localDistance, offset: 0x2c, size: 0x4, def value: None
+ float_t  ___localDistance;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field time, offset: 0x30, size: 0x4, def value: None
+ float_t  ___time;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::TrailElement, ___position) == 0x10, "Offset mismatch!");
@@ -132,6 +132,6 @@ static_assert(offsetof(::GlobalNamespace::TrailElement, ___time) == 0x30, "Offse
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::TrailElement, 0x38>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::TrailElement);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::TrailElement*, "", "TrailElement");

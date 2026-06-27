@@ -33,41 +33,40 @@ namespace System::Runtime::Remoting {
 // CS Name: System.Runtime.Remoting.SingleCallIdentity
 class CORDL_TYPE SingleCallIdentity : public ::System::Runtime::Remoting::ServerIdentity {
 public:
-  // Declarations
-  /// @brief Method AsyncObjectProcessMessage, addr 0x59f1c40, size 0x1bc, virtual true, abstract: false, final false
-  inline ::System::Runtime::Remoting::Messaging::IMessageCtrl* AsyncObjectProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg,
-                                                                                         ::System::Runtime::Remoting::Messaging::IMessageSink* replySink);
+// Declarations
+/// @brief Method AsyncObjectProcessMessage, addr 0x59f37b8, size 0x1bc, virtual true, abstract: false, final false
+inline ::System::Runtime::Remoting::Messaging::IMessageCtrl* AsyncObjectProcessMessage(::System::Runtime::Remoting::Messaging::IMessage*  msg, ::System::Runtime::Remoting::Messaging::IMessageSink*  replySink) ;
 
-  static inline ::System::Runtime::Remoting::SingleCallIdentity* New_ctor(::StringW objectUri, ::System::Runtime::Remoting::Contexts::Context* context, ::System::Type* objectType);
+static inline ::System::Runtime::Remoting::SingleCallIdentity* New_ctor(::StringW  objectUri, ::System::Runtime::Remoting::Contexts::Context*  context, ::System::Type*  objectType) ;
 
-  /// @brief Method SyncObjectProcessMessage, addr 0x59f1b90, size 0xb0, virtual true, abstract: false, final false
-  inline ::System::Runtime::Remoting::Messaging::IMessage* SyncObjectProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg);
+/// @brief Method SyncObjectProcessMessage, addr 0x59f3708, size 0xb0, virtual true, abstract: false, final false
+inline ::System::Runtime::Remoting::Messaging::IMessage* SyncObjectProcessMessage(::System::Runtime::Remoting::Messaging::IMessage*  msg) ;
 
-  /// @brief Method .ctor, addr 0x59ef894, size 0x10, virtual false, abstract: false, final false
-  inline void _ctor(::StringW objectUri, ::System::Runtime::Remoting::Contexts::Context* context, ::System::Type* objectType);
+/// @brief Method .ctor, addr 0x59f140c, size 0x10, virtual false, abstract: false, final false
+inline void _ctor(::StringW  objectUri, ::System::Runtime::Remoting::Contexts::Context*  context, ::System::Type*  objectType) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SingleCallIdentity();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr SingleCallIdentity() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SingleCallIdentity", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  SingleCallIdentity(SingleCallIdentity&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SingleCallIdentity", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  SingleCallIdentity(SingleCallIdentity const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "SingleCallIdentity", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+SingleCallIdentity(SingleCallIdentity && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3091 };
+// Ctor Parameters [CppParam { name: "", ty: "SingleCallIdentity", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+SingleCallIdentity(SingleCallIdentity const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{3091};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Remoting::SingleCallIdentity, 0x70>, "Size mismatch!");
 
-} // namespace System::Runtime::Remoting
+} // namespace end def System::Runtime::Remoting
 NEED_NO_BOX(::System::Runtime::Remoting::SingleCallIdentity);
 DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::SingleCallIdentity*, "System.Runtime.Remoting", "SingleCallIdentity");

@@ -7,234 +7,242 @@
 #include "UnityEngine/zzzz__ParticleSystem_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::NoteCutParticlesEffect.Awake
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteCutParticlesEffect::*)()>(&::GlobalNamespace::NoteCutParticlesEffect::Awake)> {
   constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x5849a80;
+  constexpr static std::size_t addrs = 0x584b32c;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteCutParticlesEffect*>::get(), "Awake",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteCutParticlesEffect*>::get(),
+                        "Awake",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::NoteCutParticlesEffect.SpawnParticles
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteCutParticlesEffect::*)(
-    ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, float_t, ::UnityEngine::Vector3, ::UnityEngine::Color32, int32_t, int32_t, float_t)>(
-    &::GlobalNamespace::NoteCutParticlesEffect::SpawnParticles)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteCutParticlesEffect::*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, float_t, ::UnityEngine::Vector3, ::UnityEngine::Color32, int32_t, int32_t, float_t)>(&::GlobalNamespace::NoteCutParticlesEffect::SpawnParticles)> {
   constexpr static std::size_t size = 0x4a8;
-  constexpr static std::size_t addrs = 0x5849c48;
+  constexpr static std::size_t addrs = 0x584b4f4;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteCutParticlesEffect*>::get(), "SpawnParticles", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 9>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color32>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteCutParticlesEffect*>::get(),
+                        "SpawnParticles",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 9>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color32>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::NoteCutParticlesEffect._ctor
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteCutParticlesEffect::*)()>(&::GlobalNamespace::NoteCutParticlesEffect::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x584a0f0;
+  constexpr static std::size_t addrs = 0x584b99c;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteCutParticlesEffect*>::get(), ".ctor",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteCutParticlesEffect*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
-constexpr ::UnityW<::UnityEngine::ParticleSystem>& GlobalNamespace::NoteCutParticlesEffect::__cordl_internal_get__sparklesPS() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____sparklesPS;
+constexpr ::UnityW<::UnityEngine::ParticleSystem>& GlobalNamespace::NoteCutParticlesEffect::__cordl_internal_get__sparklesPS()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____sparklesPS;
 }
 constexpr ::UnityW<::UnityEngine::ParticleSystem> const& GlobalNamespace::NoteCutParticlesEffect::__cordl_internal_get__sparklesPS() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____sparklesPS;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____sparklesPS;
 }
-constexpr void GlobalNamespace::NoteCutParticlesEffect::__cordl_internal_set__sparklesPS(::UnityW<::UnityEngine::ParticleSystem> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____sparklesPS)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::NoteCutParticlesEffect::__cordl_internal_set__sparklesPS(::UnityW<::UnityEngine::ParticleSystem>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____sparklesPS)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::UnityEngine::ParticleSystem>& GlobalNamespace::NoteCutParticlesEffect::__cordl_internal_get__explosionPS() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____explosionPS;
+constexpr ::UnityW<::UnityEngine::ParticleSystem>& GlobalNamespace::NoteCutParticlesEffect::__cordl_internal_get__explosionPS()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____explosionPS;
 }
 constexpr ::UnityW<::UnityEngine::ParticleSystem> const& GlobalNamespace::NoteCutParticlesEffect::__cordl_internal_get__explosionPS() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____explosionPS;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____explosionPS;
 }
-constexpr void GlobalNamespace::NoteCutParticlesEffect::__cordl_internal_set__explosionPS(::UnityW<::UnityEngine::ParticleSystem> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____explosionPS)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::NoteCutParticlesEffect::__cordl_internal_set__explosionPS(::UnityW<::UnityEngine::ParticleSystem>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____explosionPS)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::UnityEngine::ParticleSystem>& GlobalNamespace::NoteCutParticlesEffect::__cordl_internal_get__explosionCorePS() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____explosionCorePS;
+constexpr ::UnityW<::UnityEngine::ParticleSystem>& GlobalNamespace::NoteCutParticlesEffect::__cordl_internal_get__explosionCorePS()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____explosionCorePS;
 }
 constexpr ::UnityW<::UnityEngine::ParticleSystem> const& GlobalNamespace::NoteCutParticlesEffect::__cordl_internal_get__explosionCorePS() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____explosionCorePS;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____explosionCorePS;
 }
-constexpr void GlobalNamespace::NoteCutParticlesEffect::__cordl_internal_set__explosionCorePS(::UnityW<::UnityEngine::ParticleSystem> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____explosionCorePS)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::NoteCutParticlesEffect::__cordl_internal_set__explosionCorePS(::UnityW<::UnityEngine::ParticleSystem>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____explosionCorePS)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::UnityEngine::ParticleSystem>& GlobalNamespace::NoteCutParticlesEffect::__cordl_internal_get__explosionPrePassBloomPS() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____explosionPrePassBloomPS;
+constexpr ::UnityW<::UnityEngine::ParticleSystem>& GlobalNamespace::NoteCutParticlesEffect::__cordl_internal_get__explosionPrePassBloomPS()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____explosionPrePassBloomPS;
 }
 constexpr ::UnityW<::UnityEngine::ParticleSystem> const& GlobalNamespace::NoteCutParticlesEffect::__cordl_internal_get__explosionPrePassBloomPS() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____explosionPrePassBloomPS;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____explosionPrePassBloomPS;
 }
-constexpr void GlobalNamespace::NoteCutParticlesEffect::__cordl_internal_set__explosionPrePassBloomPS(::UnityW<::UnityEngine::ParticleSystem> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____explosionPrePassBloomPS)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::NoteCutParticlesEffect::__cordl_internal_set__explosionPrePassBloomPS(::UnityW<::UnityEngine::ParticleSystem>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____explosionPrePassBloomPS)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::ParticleSystem_EmitParams& GlobalNamespace::NoteCutParticlesEffect::__cordl_internal_get__sparklesPSEmitParams() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____sparklesPSEmitParams;
+constexpr ::UnityEngine::ParticleSystem_EmitParams& GlobalNamespace::NoteCutParticlesEffect::__cordl_internal_get__sparklesPSEmitParams()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____sparklesPSEmitParams;
 }
 constexpr ::UnityEngine::ParticleSystem_EmitParams const& GlobalNamespace::NoteCutParticlesEffect::__cordl_internal_get__sparklesPSEmitParams() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____sparklesPSEmitParams;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____sparklesPSEmitParams;
 }
-constexpr void GlobalNamespace::NoteCutParticlesEffect::__cordl_internal_set__sparklesPSEmitParams(::UnityEngine::ParticleSystem_EmitParams value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____sparklesPSEmitParams = value;
+constexpr void GlobalNamespace::NoteCutParticlesEffect::__cordl_internal_set__sparklesPSEmitParams(::UnityEngine::ParticleSystem_EmitParams  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____sparklesPSEmitParams = value;
 }
-constexpr ::UnityEngine::ParticleSystem_MainModule& GlobalNamespace::NoteCutParticlesEffect::__cordl_internal_get__sparklesPSMainModule() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____sparklesPSMainModule;
+constexpr ::UnityEngine::ParticleSystem_MainModule& GlobalNamespace::NoteCutParticlesEffect::__cordl_internal_get__sparklesPSMainModule()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____sparklesPSMainModule;
 }
 constexpr ::UnityEngine::ParticleSystem_MainModule const& GlobalNamespace::NoteCutParticlesEffect::__cordl_internal_get__sparklesPSMainModule() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____sparklesPSMainModule;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____sparklesPSMainModule;
 }
-constexpr void GlobalNamespace::NoteCutParticlesEffect::__cordl_internal_set__sparklesPSMainModule(::UnityEngine::ParticleSystem_MainModule value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____sparklesPSMainModule = value;
+constexpr void GlobalNamespace::NoteCutParticlesEffect::__cordl_internal_set__sparklesPSMainModule(::UnityEngine::ParticleSystem_MainModule  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____sparklesPSMainModule = value;
 }
-constexpr ::UnityEngine::ParticleSystem_ShapeModule& GlobalNamespace::NoteCutParticlesEffect::__cordl_internal_get__sparklesPSShapeModule() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____sparklesPSShapeModule;
+constexpr ::UnityEngine::ParticleSystem_ShapeModule& GlobalNamespace::NoteCutParticlesEffect::__cordl_internal_get__sparklesPSShapeModule()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____sparklesPSShapeModule;
 }
 constexpr ::UnityEngine::ParticleSystem_ShapeModule const& GlobalNamespace::NoteCutParticlesEffect::__cordl_internal_get__sparklesPSShapeModule() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____sparklesPSShapeModule;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____sparklesPSShapeModule;
 }
-constexpr void GlobalNamespace::NoteCutParticlesEffect::__cordl_internal_set__sparklesPSShapeModule(::UnityEngine::ParticleSystem_ShapeModule value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____sparklesPSShapeModule = value;
+constexpr void GlobalNamespace::NoteCutParticlesEffect::__cordl_internal_set__sparklesPSShapeModule(::UnityEngine::ParticleSystem_ShapeModule  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____sparklesPSShapeModule = value;
 }
-constexpr ::UnityEngine::ParticleSystem_MinMaxCurve& GlobalNamespace::NoteCutParticlesEffect::__cordl_internal_get__sparklesLifetimeMinMaxCurve() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____sparklesLifetimeMinMaxCurve;
+constexpr ::UnityEngine::ParticleSystem_MinMaxCurve& GlobalNamespace::NoteCutParticlesEffect::__cordl_internal_get__sparklesLifetimeMinMaxCurve()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____sparklesLifetimeMinMaxCurve;
 }
 constexpr ::UnityEngine::ParticleSystem_MinMaxCurve const& GlobalNamespace::NoteCutParticlesEffect::__cordl_internal_get__sparklesLifetimeMinMaxCurve() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____sparklesLifetimeMinMaxCurve;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____sparklesLifetimeMinMaxCurve;
 }
-constexpr void GlobalNamespace::NoteCutParticlesEffect::__cordl_internal_set__sparklesLifetimeMinMaxCurve(::UnityEngine::ParticleSystem_MinMaxCurve value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____sparklesLifetimeMinMaxCurve = value;
+constexpr void GlobalNamespace::NoteCutParticlesEffect::__cordl_internal_set__sparklesLifetimeMinMaxCurve(::UnityEngine::ParticleSystem_MinMaxCurve  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____sparklesLifetimeMinMaxCurve = value;
 }
-constexpr ::UnityEngine::ParticleSystem_EmitParams& GlobalNamespace::NoteCutParticlesEffect::__cordl_internal_get__explosionPSEmitParams() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____explosionPSEmitParams;
+constexpr ::UnityEngine::ParticleSystem_EmitParams& GlobalNamespace::NoteCutParticlesEffect::__cordl_internal_get__explosionPSEmitParams()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____explosionPSEmitParams;
 }
 constexpr ::UnityEngine::ParticleSystem_EmitParams const& GlobalNamespace::NoteCutParticlesEffect::__cordl_internal_get__explosionPSEmitParams() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____explosionPSEmitParams;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____explosionPSEmitParams;
 }
-constexpr void GlobalNamespace::NoteCutParticlesEffect::__cordl_internal_set__explosionPSEmitParams(::UnityEngine::ParticleSystem_EmitParams value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____explosionPSEmitParams = value;
+constexpr void GlobalNamespace::NoteCutParticlesEffect::__cordl_internal_set__explosionPSEmitParams(::UnityEngine::ParticleSystem_EmitParams  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____explosionPSEmitParams = value;
 }
-constexpr ::UnityEngine::ParticleSystem_EmitParams& GlobalNamespace::NoteCutParticlesEffect::__cordl_internal_get__explosionCorePSEmitParams() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____explosionCorePSEmitParams;
+constexpr ::UnityEngine::ParticleSystem_EmitParams& GlobalNamespace::NoteCutParticlesEffect::__cordl_internal_get__explosionCorePSEmitParams()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____explosionCorePSEmitParams;
 }
 constexpr ::UnityEngine::ParticleSystem_EmitParams const& GlobalNamespace::NoteCutParticlesEffect::__cordl_internal_get__explosionCorePSEmitParams() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____explosionCorePSEmitParams;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____explosionCorePSEmitParams;
 }
-constexpr void GlobalNamespace::NoteCutParticlesEffect::__cordl_internal_set__explosionCorePSEmitParams(::UnityEngine::ParticleSystem_EmitParams value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____explosionCorePSEmitParams = value;
+constexpr void GlobalNamespace::NoteCutParticlesEffect::__cordl_internal_set__explosionCorePSEmitParams(::UnityEngine::ParticleSystem_EmitParams  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____explosionCorePSEmitParams = value;
 }
-constexpr ::UnityEngine::ParticleSystem_MainModule& GlobalNamespace::NoteCutParticlesEffect::__cordl_internal_get__explosionCorePSMainModule() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____explosionCorePSMainModule;
+constexpr ::UnityEngine::ParticleSystem_MainModule& GlobalNamespace::NoteCutParticlesEffect::__cordl_internal_get__explosionCorePSMainModule()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____explosionCorePSMainModule;
 }
 constexpr ::UnityEngine::ParticleSystem_MainModule const& GlobalNamespace::NoteCutParticlesEffect::__cordl_internal_get__explosionCorePSMainModule() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____explosionCorePSMainModule;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____explosionCorePSMainModule;
 }
-constexpr void GlobalNamespace::NoteCutParticlesEffect::__cordl_internal_set__explosionCorePSMainModule(::UnityEngine::ParticleSystem_MainModule value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____explosionCorePSMainModule = value;
+constexpr void GlobalNamespace::NoteCutParticlesEffect::__cordl_internal_set__explosionCorePSMainModule(::UnityEngine::ParticleSystem_MainModule  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____explosionCorePSMainModule = value;
 }
-constexpr ::UnityEngine::ParticleSystem_ShapeModule& GlobalNamespace::NoteCutParticlesEffect::__cordl_internal_get__explosionCorePSShapeModule() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____explosionCorePSShapeModule;
+constexpr ::UnityEngine::ParticleSystem_ShapeModule& GlobalNamespace::NoteCutParticlesEffect::__cordl_internal_get__explosionCorePSShapeModule()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____explosionCorePSShapeModule;
 }
 constexpr ::UnityEngine::ParticleSystem_ShapeModule const& GlobalNamespace::NoteCutParticlesEffect::__cordl_internal_get__explosionCorePSShapeModule() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____explosionCorePSShapeModule;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____explosionCorePSShapeModule;
 }
-constexpr void GlobalNamespace::NoteCutParticlesEffect::__cordl_internal_set__explosionCorePSShapeModule(::UnityEngine::ParticleSystem_ShapeModule value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____explosionCorePSShapeModule = value;
+constexpr void GlobalNamespace::NoteCutParticlesEffect::__cordl_internal_set__explosionCorePSShapeModule(::UnityEngine::ParticleSystem_ShapeModule  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____explosionCorePSShapeModule = value;
 }
-constexpr ::UnityEngine::ParticleSystem_ShapeModule& GlobalNamespace::NoteCutParticlesEffect::__cordl_internal_get__explosionPrePassBloomPSShapeModule() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____explosionPrePassBloomPSShapeModule;
+constexpr ::UnityEngine::ParticleSystem_ShapeModule& GlobalNamespace::NoteCutParticlesEffect::__cordl_internal_get__explosionPrePassBloomPSShapeModule()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____explosionPrePassBloomPSShapeModule;
 }
 constexpr ::UnityEngine::ParticleSystem_ShapeModule const& GlobalNamespace::NoteCutParticlesEffect::__cordl_internal_get__explosionPrePassBloomPSShapeModule() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____explosionPrePassBloomPSShapeModule;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____explosionPrePassBloomPSShapeModule;
 }
-constexpr void GlobalNamespace::NoteCutParticlesEffect::__cordl_internal_set__explosionPrePassBloomPSShapeModule(::UnityEngine::ParticleSystem_ShapeModule value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____explosionPrePassBloomPSShapeModule = value;
+constexpr void GlobalNamespace::NoteCutParticlesEffect::__cordl_internal_set__explosionPrePassBloomPSShapeModule(::UnityEngine::ParticleSystem_ShapeModule  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____explosionPrePassBloomPSShapeModule = value;
 }
-inline void GlobalNamespace::NoteCutParticlesEffect::Awake() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteCutParticlesEffect*>::get(), "Awake",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::NoteCutParticlesEffect::Awake()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteCutParticlesEffect*>::get(),
+                        "Awake",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::NoteCutParticlesEffect::SpawnParticles(::UnityEngine::Vector3 cutPoint, ::UnityEngine::Vector3 cutNormal, ::UnityEngine::Vector3 saberDir, float_t saberSpeed,
-                                                                    ::UnityEngine::Vector3 noteMovementVec, ::UnityEngine::Color32 color, int32_t sparkleParticlesCount,
-                                                                    int32_t explosionParticlesCount, float_t lifetimeMultiplier) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteCutParticlesEffect*>::get(), "SpawnParticles", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 9>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color32>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, cutPoint, cutNormal, saberDir, saberSpeed, noteMovementVec, color, sparkleParticlesCount, explosionParticlesCount,
-                                                          lifetimeMultiplier);
+inline void GlobalNamespace::NoteCutParticlesEffect::SpawnParticles(::UnityEngine::Vector3  cutPoint, ::UnityEngine::Vector3  cutNormal, ::UnityEngine::Vector3  saberDir, float_t  saberSpeed, ::UnityEngine::Vector3  noteMovementVec, ::UnityEngine::Color32  color, int32_t  sparkleParticlesCount, int32_t  explosionParticlesCount, float_t  lifetimeMultiplier)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteCutParticlesEffect*>::get(),
+                        "SpawnParticles",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 9>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color32>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, cutPoint, cutNormal, saberDir, saberSpeed, noteMovementVec, color, sparkleParticlesCount, explosionParticlesCount, lifetimeMultiplier);
 }
-inline void GlobalNamespace::NoteCutParticlesEffect::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteCutParticlesEffect*>::get(), ".ctor",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::NoteCutParticlesEffect::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteCutParticlesEffect*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::NoteCutParticlesEffect* GlobalNamespace::NoteCutParticlesEffect::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::NoteCutParticlesEffect*>());
+inline ::GlobalNamespace::NoteCutParticlesEffect* GlobalNamespace::NoteCutParticlesEffect::New_ctor()  {
+return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::NoteCutParticlesEffect*>());
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::NoteCutParticlesEffect::NoteCutParticlesEffect() {}
+constexpr ::GlobalNamespace::NoteCutParticlesEffect::NoteCutParticlesEffect()   {
+}

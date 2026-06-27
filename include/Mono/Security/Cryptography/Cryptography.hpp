@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "Mono/Security/Cryptography/ARC4Managed.hpp"
 #include "Mono/Security/Cryptography/CryptoConvert.hpp"
@@ -18,5 +18,6 @@ module;
 #include "Mono/Security/Cryptography/RSAManaged.hpp"
 #include "Mono/Security/Cryptography/SymmetricTransform.hpp"
 #ifdef __cpp_modules
-export module Cryptography;
-#endif
+                    export module Cryptography;
+                    #endif
+                

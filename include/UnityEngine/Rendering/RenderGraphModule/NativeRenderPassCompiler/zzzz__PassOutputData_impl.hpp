@@ -3,8 +3,9 @@
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__ResourceHandle_impl.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/NativeRenderPassCompiler/zzzz__PassOutputData_def.hpp"
 // Ctor Parameters [CppParam { name: "resource", ty: "::UnityEngine::Rendering::RenderGraphModule::ResourceHandle", modifiers: "", def_value: Some("{}") }]
-constexpr ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassOutputData::PassOutputData(::UnityEngine::Rendering::RenderGraphModule::ResourceHandle resource) noexcept {
-  this->resource = resource;
+constexpr ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassOutputData::PassOutputData(::UnityEngine::Rendering::RenderGraphModule::ResourceHandle  resource) noexcept  {
+this->resource = resource;
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassOutputData::PassOutputData() {}
+constexpr ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassOutputData::PassOutputData()   {
+}

@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "System/Collections/Specialized/BitVector32.hpp"
 #include "System/Collections/Specialized/CaseSensitiveStringDictionary.hpp"
@@ -18,5 +18,6 @@ module;
 #include "System/Collections/Specialized/StringCollection.hpp"
 #include "System/Collections/Specialized/StringDictionary.hpp"
 #ifdef __cpp_modules
-export module Specialized;
-#endif
+                    export module Specialized;
+                    #endif
+                

@@ -32,61 +32,57 @@ namespace BeatmapDataLoaderVersion4 {
 // CS Name: BeatmapDataLoaderVersion4.ArcItemConverter
 class CORDL_TYPE ArcItemConverter : public ::GlobalNamespace::BeatToTimeConverter {
 public:
-  // Declarations
-  /// @brief Field _arcs, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__arcs, put = __cordl_internal_set__arcs)) ::ArrayW<::BeatmapSaveDataVersion4::Arc, ::Array<::BeatmapSaveDataVersion4::Arc>*> _arcs;
+// Declarations
+/// @brief Field _arcs, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get__arcs, put=__cordl_internal_set__arcs)) ::ArrayW<::BeatmapSaveDataVersion4::Arc,::Array<::BeatmapSaveDataVersion4::Arc>*>  _arcs;
 
-  /// @brief Field _colorNotes, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__colorNotes, put = __cordl_internal_set__colorNotes)) ::ArrayW<::BeatmapSaveDataVersion4::ColorNote, ::Array<::BeatmapSaveDataVersion4::ColorNote>*>
-      _colorNotes;
+/// @brief Field _colorNotes, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get__colorNotes, put=__cordl_internal_set__colorNotes)) ::ArrayW<::BeatmapSaveDataVersion4::ColorNote,::Array<::BeatmapSaveDataVersion4::ColorNote>*>  _colorNotes;
 
-  /// @brief Method Convert, addr 0x36a1b98, size 0x1ac, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::BeatmapObjectData* Convert(::BeatmapSaveDataVersion4::ArcBeatIndex* index);
+/// @brief Method Convert, addr 0x36a2f2c, size 0x1ac, virtual false, abstract: false, final false
+inline ::GlobalNamespace::BeatmapObjectData* Convert(::BeatmapSaveDataVersion4::ArcBeatIndex*  index) ;
 
-  static inline ::BeatmapDataLoaderVersion4::ArcItemConverter* New_ctor(::ArrayW<::BeatmapSaveDataVersion4::ColorNote, ::Array<::BeatmapSaveDataVersion4::ColorNote>*> colorNotes,
-                                                                        ::ArrayW<::BeatmapSaveDataVersion4::Arc, ::Array<::BeatmapSaveDataVersion4::Arc>*> arcs,
-                                                                        ::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor);
+static inline ::BeatmapDataLoaderVersion4::ArcItemConverter* New_ctor(::ArrayW<::BeatmapSaveDataVersion4::ColorNote,::Array<::BeatmapSaveDataVersion4::ColorNote>*>  colorNotes, ::ArrayW<::BeatmapSaveDataVersion4::Arc,::Array<::BeatmapSaveDataVersion4::Arc>*>  arcs, ::GlobalNamespace::BpmTimeProcessor*  bpmTimeProcessor) ;
 
-  constexpr ::ArrayW<::BeatmapSaveDataVersion4::Arc, ::Array<::BeatmapSaveDataVersion4::Arc>*> const& __cordl_internal_get__arcs() const;
+constexpr ::ArrayW<::BeatmapSaveDataVersion4::Arc,::Array<::BeatmapSaveDataVersion4::Arc>*> const& __cordl_internal_get__arcs() const;
 
-  constexpr ::ArrayW<::BeatmapSaveDataVersion4::Arc, ::Array<::BeatmapSaveDataVersion4::Arc>*>& __cordl_internal_get__arcs();
+constexpr ::ArrayW<::BeatmapSaveDataVersion4::Arc,::Array<::BeatmapSaveDataVersion4::Arc>*>& __cordl_internal_get__arcs() ;
 
-  constexpr ::ArrayW<::BeatmapSaveDataVersion4::ColorNote, ::Array<::BeatmapSaveDataVersion4::ColorNote>*> const& __cordl_internal_get__colorNotes() const;
+constexpr ::ArrayW<::BeatmapSaveDataVersion4::ColorNote,::Array<::BeatmapSaveDataVersion4::ColorNote>*> const& __cordl_internal_get__colorNotes() const;
 
-  constexpr ::ArrayW<::BeatmapSaveDataVersion4::ColorNote, ::Array<::BeatmapSaveDataVersion4::ColorNote>*>& __cordl_internal_get__colorNotes();
+constexpr ::ArrayW<::BeatmapSaveDataVersion4::ColorNote,::Array<::BeatmapSaveDataVersion4::ColorNote>*>& __cordl_internal_get__colorNotes() ;
 
-  constexpr void __cordl_internal_set__arcs(::ArrayW<::BeatmapSaveDataVersion4::Arc, ::Array<::BeatmapSaveDataVersion4::Arc>*> value);
+constexpr void __cordl_internal_set__arcs(::ArrayW<::BeatmapSaveDataVersion4::Arc,::Array<::BeatmapSaveDataVersion4::Arc>*>  value) ;
 
-  constexpr void __cordl_internal_set__colorNotes(::ArrayW<::BeatmapSaveDataVersion4::ColorNote, ::Array<::BeatmapSaveDataVersion4::ColorNote>*> value);
+constexpr void __cordl_internal_set__colorNotes(::ArrayW<::BeatmapSaveDataVersion4::ColorNote,::Array<::BeatmapSaveDataVersion4::ColorNote>*>  value) ;
 
-  /// @brief Method .ctor, addr 0x36a17b8, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor(::ArrayW<::BeatmapSaveDataVersion4::ColorNote, ::Array<::BeatmapSaveDataVersion4::ColorNote>*> colorNotes,
-                    ::ArrayW<::BeatmapSaveDataVersion4::Arc, ::Array<::BeatmapSaveDataVersion4::Arc>*> arcs, ::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor);
+/// @brief Method .ctor, addr 0x36a2b4c, size 0xc, virtual false, abstract: false, final false
+inline void _ctor(::ArrayW<::BeatmapSaveDataVersion4::ColorNote,::Array<::BeatmapSaveDataVersion4::ColorNote>*>  colorNotes, ::ArrayW<::BeatmapSaveDataVersion4::Arc,::Array<::BeatmapSaveDataVersion4::Arc>*>  arcs, ::GlobalNamespace::BpmTimeProcessor*  bpmTimeProcessor) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ArcItemConverter();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ArcItemConverter() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ArcItemConverter", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ArcItemConverter(ArcItemConverter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ArcItemConverter", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ArcItemConverter(ArcItemConverter const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ArcItemConverter", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ArcItemConverter(ArcItemConverter && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15413 };
+// Ctor Parameters [CppParam { name: "", ty: "ArcItemConverter", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ArcItemConverter(ArcItemConverter const& ) = delete;
 
-  /// @brief Field _colorNotes, offset: 0x18, size: 0x8, def value: None
-  ::ArrayW<::BeatmapSaveDataVersion4::ColorNote, ::Array<::BeatmapSaveDataVersion4::ColorNote>*> ____colorNotes;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{15415};
 
-  /// @brief Field _arcs, offset: 0x20, size: 0x8, def value: None
-  ::ArrayW<::BeatmapSaveDataVersion4::Arc, ::Array<::BeatmapSaveDataVersion4::Arc>*> ____arcs;
+/// @brief Field _colorNotes, offset: 0x18, size: 0x8, def value: None
+ ::ArrayW<::BeatmapSaveDataVersion4::ColorNote,::Array<::BeatmapSaveDataVersion4::ColorNote>*>  ____colorNotes;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _arcs, offset: 0x20, size: 0x8, def value: None
+ ::ArrayW<::BeatmapSaveDataVersion4::Arc,::Array<::BeatmapSaveDataVersion4::Arc>*>  ____arcs;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::BeatmapDataLoaderVersion4::ArcItemConverter, ____colorNotes) == 0x18, "Offset mismatch!");
@@ -95,6 +91,6 @@ static_assert(offsetof(::BeatmapDataLoaderVersion4::ArcItemConverter, ____arcs) 
 
 static_assert(::cordl_internals::size_check_v<::BeatmapDataLoaderVersion4::ArcItemConverter, 0x28>, "Size mismatch!");
 
-} // namespace BeatmapDataLoaderVersion4
+} // namespace end def BeatmapDataLoaderVersion4
 NEED_NO_BOX(::BeatmapDataLoaderVersion4::ArcItemConverter);
 DEFINE_IL2CPP_ARG_TYPE(::BeatmapDataLoaderVersion4::ArcItemConverter*, "BeatmapDataLoaderVersion4", "ArcItemConverter");

@@ -33,78 +33,78 @@ namespace Org::BouncyCastle::Asn1::Ess {
 // CS Name: Org.BouncyCastle.Asn1.Ess.EssCertID
 class CORDL_TYPE EssCertID : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
-  // Declarations
-  __declspec(property(get = get_IssuerSerial)) ::Org::BouncyCastle::Asn1::X509::IssuerSerial* IssuerSerial;
+// Declarations
+ __declspec(property(get=get_IssuerSerial)) ::Org::BouncyCastle::Asn1::X509::IssuerSerial*  IssuerSerial;
 
-  /// @brief Field certHash, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_certHash, put = __cordl_internal_set_certHash)) ::Org::BouncyCastle::Asn1::Asn1OctetString* certHash;
+/// @brief Field certHash, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_certHash, put=__cordl_internal_set_certHash)) ::Org::BouncyCastle::Asn1::Asn1OctetString*  certHash;
 
-  /// @brief Field issuerSerial, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_issuerSerial, put = __cordl_internal_set_issuerSerial)) ::Org::BouncyCastle::Asn1::X509::IssuerSerial* issuerSerial;
+/// @brief Field issuerSerial, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_issuerSerial, put=__cordl_internal_set_issuerSerial)) ::Org::BouncyCastle::Asn1::X509::IssuerSerial*  issuerSerial;
 
-  /// @brief Method GetCertHash, addr 0x32bb3b0, size 0x1c, virtual false, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetCertHash();
+/// @brief Method GetCertHash, addr 0x32bc14c, size 0x1c, virtual false, abstract: false, final false
+inline ::ArrayW<uint8_t,::Array<uint8_t>*> GetCertHash() ;
 
-  /// @brief Method GetInstance, addr 0x32bb018, size 0x188, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::Ess::EssCertID* GetInstance(::System::Object* o);
+/// @brief Method GetInstance, addr 0x32bbdb4, size 0x188, virtual false, abstract: false, final false
+static inline ::Org::BouncyCastle::Asn1::Ess::EssCertID* GetInstance(::System::Object*  o) ;
 
-  static inline ::Org::BouncyCastle::Asn1::Ess::EssCertID* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> hash);
+static inline ::Org::BouncyCastle::Asn1::Ess::EssCertID* New_ctor(::ArrayW<uint8_t,::Array<uint8_t>*>  hash) ;
 
-  static inline ::Org::BouncyCastle::Asn1::Ess::EssCertID* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> hash, ::Org::BouncyCastle::Asn1::X509::IssuerSerial* issuerSerial);
+static inline ::Org::BouncyCastle::Asn1::Ess::EssCertID* New_ctor(::ArrayW<uint8_t,::Array<uint8_t>*>  hash, ::Org::BouncyCastle::Asn1::X509::IssuerSerial*  issuerSerial) ;
 
-  static inline ::Org::BouncyCastle::Asn1::Ess::EssCertID* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
+static inline ::Org::BouncyCastle::Asn1::Ess::EssCertID* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence*  seq) ;
 
-  /// @brief Method ToAsn1Object, addr 0x32bb3d4, size 0x154, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
+/// @brief Method ToAsn1Object, addr 0x32bc170, size 0x154, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object() ;
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString* const& __cordl_internal_get_certHash() const;
+constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString* const& __cordl_internal_get_certHash() const;
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString*& __cordl_internal_get_certHash();
+constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString*& __cordl_internal_get_certHash() ;
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::IssuerSerial* const& __cordl_internal_get_issuerSerial() const;
+constexpr ::Org::BouncyCastle::Asn1::X509::IssuerSerial* const& __cordl_internal_get_issuerSerial() const;
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::IssuerSerial*& __cordl_internal_get_issuerSerial();
+constexpr ::Org::BouncyCastle::Asn1::X509::IssuerSerial*& __cordl_internal_get_issuerSerial() ;
 
-  constexpr void __cordl_internal_set_certHash(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
+constexpr void __cordl_internal_set_certHash(::Org::BouncyCastle::Asn1::Asn1OctetString*  value) ;
 
-  constexpr void __cordl_internal_set_issuerSerial(::Org::BouncyCastle::Asn1::X509::IssuerSerial* value);
+constexpr void __cordl_internal_set_issuerSerial(::Org::BouncyCastle::Asn1::X509::IssuerSerial*  value) ;
 
-  /// @brief Method .ctor, addr 0x32bb2dc, size 0x68, virtual false, abstract: false, final false
-  inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> hash);
+/// @brief Method .ctor, addr 0x32bc078, size 0x68, virtual false, abstract: false, final false
+inline void _ctor(::ArrayW<uint8_t,::Array<uint8_t>*>  hash) ;
 
-  /// @brief Method .ctor, addr 0x32bb344, size 0x6c, virtual false, abstract: false, final false
-  inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> hash, ::Org::BouncyCastle::Asn1::X509::IssuerSerial* issuerSerial);
+/// @brief Method .ctor, addr 0x32bc0e0, size 0x6c, virtual false, abstract: false, final false
+inline void _ctor(::ArrayW<uint8_t,::Array<uint8_t>*>  hash, ::Org::BouncyCastle::Asn1::X509::IssuerSerial*  issuerSerial) ;
 
-  /// @brief Method .ctor, addr 0x32bb1a0, size 0x13c, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
+/// @brief Method .ctor, addr 0x32bbf3c, size 0x13c, virtual false, abstract: false, final false
+inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence*  seq) ;
 
-  /// @brief Method get_IssuerSerial, addr 0x32bb3cc, size 0x8, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::X509::IssuerSerial* get_IssuerSerial();
+/// @brief Method get_IssuerSerial, addr 0x32bc168, size 0x8, virtual false, abstract: false, final false
+inline ::Org::BouncyCastle::Asn1::X509::IssuerSerial* get_IssuerSerial() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr EssCertID();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr EssCertID() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EssCertID", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  EssCertID(EssCertID&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EssCertID", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  EssCertID(EssCertID const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "EssCertID", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+EssCertID(EssCertID && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 162 };
+// Ctor Parameters [CppParam { name: "", ty: "EssCertID", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+EssCertID(EssCertID const& ) = delete;
 
-  /// @brief Field certHash, offset: 0x10, size: 0x8, def value: None
-  ::Org::BouncyCastle::Asn1::Asn1OctetString* ___certHash;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{162};
 
-  /// @brief Field issuerSerial, offset: 0x18, size: 0x8, def value: None
-  ::Org::BouncyCastle::Asn1::X509::IssuerSerial* ___issuerSerial;
+/// @brief Field certHash, offset: 0x10, size: 0x8, def value: None
+ ::Org::BouncyCastle::Asn1::Asn1OctetString*  ___certHash;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field issuerSerial, offset: 0x18, size: 0x8, def value: None
+ ::Org::BouncyCastle::Asn1::X509::IssuerSerial*  ___issuerSerial;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Org::BouncyCastle::Asn1::Ess::EssCertID, ___certHash) == 0x10, "Offset mismatch!");
@@ -113,6 +113,6 @@ static_assert(offsetof(::Org::BouncyCastle::Asn1::Ess::EssCertID, ___issuerSeria
 
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Ess::EssCertID, 0x20>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Asn1::Ess
+} // namespace end def Org::BouncyCastle::Asn1::Ess
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Ess::EssCertID);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::Ess::EssCertID*, "Org.BouncyCastle.Asn1.Ess", "EssCertID");

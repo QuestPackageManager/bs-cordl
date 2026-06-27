@@ -25,44 +25,42 @@ namespace BGLib::UnityExtension::BezierCurves {
 // CS Name: BGLib.UnityExtension.BezierCurves.CurveData
 struct CORDL_TYPE CurveData {
 public:
-  // Declarations
-  /// @brief Method Evaluate, addr 0x326bf24, size 0xd0, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector3 Evaluate(float_t t);
+// Declarations
+/// @brief Method Evaluate, addr 0x326ccc0, size 0xd0, virtual false, abstract: false, final false
+inline ::UnityEngine::Vector3 Evaluate(float_t  t) ;
 
-  /// @brief Method RotatePointAroundPivot, addr 0x326c6cc, size 0x50, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Vector3 RotatePointAroundPivot(::UnityEngine::Vector3 point, ::UnityEngine::Vector3 pivot, ::UnityEngine::Quaternion rot);
+/// @brief Method RotatePointAroundPivot, addr 0x326d468, size 0x50, virtual false, abstract: false, final false
+static inline ::UnityEngine::Vector3 RotatePointAroundPivot(::UnityEngine::Vector3  point, ::UnityEngine::Vector3  pivot, ::UnityEngine::Quaternion  rot) ;
 
-  /// @brief Method RotatePointsAroundPivot, addr 0x326c548, size 0x184, virtual false, abstract: false, final false
-  inline ::BGLib::UnityExtension::BezierCurves::CurveData RotatePointsAroundPivot(::UnityEngine::Vector3 pivot, ::UnityEngine::Quaternion rot);
+/// @brief Method RotatePointsAroundPivot, addr 0x326d2e4, size 0x184, virtual false, abstract: false, final false
+inline ::BGLib::UnityExtension::BezierCurves::CurveData RotatePointsAroundPivot(::UnityEngine::Vector3  pivot, ::UnityEngine::Quaternion  rot) ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CurveData();
+// Ctor Parameters []
+// @brief default ctor
+constexpr CurveData() ;
 
-  // Ctor Parameters [CppParam { name: "startPoint", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "endPoint", ty: "::UnityEngine::Vector3", modifiers: "",
-  // def_value: None }, CppParam { name: "startControlPoint", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "endControlPoint", ty: "::UnityEngine::Vector3",
-  // modifiers: "", def_value: None }]
-  constexpr CurveData(::UnityEngine::Vector3 startPoint, ::UnityEngine::Vector3 endPoint, ::UnityEngine::Vector3 startControlPoint, ::UnityEngine::Vector3 endControlPoint) noexcept;
+// Ctor Parameters [CppParam { name: "startPoint", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "endPoint", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "startControlPoint", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "endControlPoint", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }]
+constexpr CurveData(::UnityEngine::Vector3  startPoint, ::UnityEngine::Vector3  endPoint, ::UnityEngine::Vector3  startControlPoint, ::UnityEngine::Vector3  endControlPoint) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20776 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20779};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x30};
 
-  /// @brief Field startPoint, offset: 0x0, size: 0xc, def value: None
-  ::UnityEngine::Vector3 startPoint;
+/// @brief Field startPoint, offset: 0x0, size: 0xc, def value: None
+ ::UnityEngine::Vector3  startPoint;
 
-  /// @brief Field endPoint, offset: 0xc, size: 0xc, def value: None
-  ::UnityEngine::Vector3 endPoint;
+/// @brief Field endPoint, offset: 0xc, size: 0xc, def value: None
+ ::UnityEngine::Vector3  endPoint;
 
-  /// @brief Field startControlPoint, offset: 0x18, size: 0xc, def value: None
-  ::UnityEngine::Vector3 startControlPoint;
+/// @brief Field startControlPoint, offset: 0x18, size: 0xc, def value: None
+ ::UnityEngine::Vector3  startControlPoint;
 
-  /// @brief Field endControlPoint, offset: 0x24, size: 0xc, def value: None
-  ::UnityEngine::Vector3 endControlPoint;
+/// @brief Field endControlPoint, offset: 0x24, size: 0xc, def value: None
+ ::UnityEngine::Vector3  endControlPoint;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::BGLib::UnityExtension::BezierCurves::CurveData, startPoint) == 0x0, "Offset mismatch!");
@@ -75,5 +73,5 @@ static_assert(offsetof(::BGLib::UnityExtension::BezierCurves::CurveData, endCont
 
 static_assert(::cordl_internals::size_check_v<::BGLib::UnityExtension::BezierCurves::CurveData, 0x30>, "Size mismatch!");
 
-} // namespace BGLib::UnityExtension::BezierCurves
+} // namespace end def BGLib::UnityExtension::BezierCurves
 DEFINE_IL2CPP_ARG_TYPE(::BGLib::UnityExtension::BezierCurves::CurveData, "BGLib.UnityExtension.BezierCurves", "CurveData");

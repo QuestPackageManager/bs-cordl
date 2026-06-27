@@ -6,7 +6,8 @@ CORDL_MODULE_INIT
 #include "System/Linq/Expressions/zzzz__Expression_def.hpp"
 CORDL_MODULE_EXPORT(ListInitExpression)
 namespace System::Collections::ObjectModel {
-template <typename T> class ReadOnlyCollection_1;
+template<typename T>
+class ReadOnlyCollection_1;
 }
 namespace System::Linq::Expressions {
 class ElementInit;
@@ -26,62 +27,59 @@ namespace System::Linq::Expressions {
 // CS Name: System.Linq.Expressions.ListInitExpression
 class CORDL_TYPE ListInitExpression : public ::System::Linq::Expressions::Expression {
 public:
-  // Declarations
-  __declspec(property(get = get_Initializers)) ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ElementInit*>* Initializers;
+// Declarations
+ __declspec(property(get=get_Initializers)) ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ElementInit*>*  Initializers;
 
-  __declspec(property(get = get_NewExpression)) ::System::Linq::Expressions::NewExpression* NewExpression;
+ __declspec(property(get=get_NewExpression)) ::System::Linq::Expressions::NewExpression*  NewExpression;
 
-  /// @brief Field <Initializers>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(
-      get = __cordl_internal_get__Initializers_k__BackingField,
-      put = __cordl_internal_set__Initializers_k__BackingField)) ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ElementInit*>* _Initializers_k__BackingField;
+/// @brief Field <Initializers>k__BackingField, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get__Initializers_k__BackingField, put=__cordl_internal_set__Initializers_k__BackingField)) ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ElementInit*>*  _Initializers_k__BackingField;
 
-  /// @brief Field <NewExpression>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__NewExpression_k__BackingField,
-                      put = __cordl_internal_set__NewExpression_k__BackingField)) ::System::Linq::Expressions::NewExpression* _NewExpression_k__BackingField;
+/// @brief Field <NewExpression>k__BackingField, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get__NewExpression_k__BackingField, put=__cordl_internal_set__NewExpression_k__BackingField)) ::System::Linq::Expressions::NewExpression*  _NewExpression_k__BackingField;
 
-  constexpr ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ElementInit*>* const& __cordl_internal_get__Initializers_k__BackingField() const;
+constexpr ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ElementInit*>* const& __cordl_internal_get__Initializers_k__BackingField() const;
 
-  constexpr ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ElementInit*>*& __cordl_internal_get__Initializers_k__BackingField();
+constexpr ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ElementInit*>*& __cordl_internal_get__Initializers_k__BackingField() ;
 
-  constexpr ::System::Linq::Expressions::NewExpression* const& __cordl_internal_get__NewExpression_k__BackingField() const;
+constexpr ::System::Linq::Expressions::NewExpression* const& __cordl_internal_get__NewExpression_k__BackingField() const;
 
-  constexpr ::System::Linq::Expressions::NewExpression*& __cordl_internal_get__NewExpression_k__BackingField();
+constexpr ::System::Linq::Expressions::NewExpression*& __cordl_internal_get__NewExpression_k__BackingField() ;
 
-  constexpr void __cordl_internal_set__Initializers_k__BackingField(::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ElementInit*>* value);
+constexpr void __cordl_internal_set__Initializers_k__BackingField(::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ElementInit*>*  value) ;
 
-  constexpr void __cordl_internal_set__NewExpression_k__BackingField(::System::Linq::Expressions::NewExpression* value);
+constexpr void __cordl_internal_set__NewExpression_k__BackingField(::System::Linq::Expressions::NewExpression*  value) ;
 
-  /// @brief Method get_Initializers, addr 0x5e4466c, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ElementInit*>* get_Initializers();
+/// @brief Method get_Initializers, addr 0x5e461e4, size 0x8, virtual false, abstract: false, final false
+inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ElementInit*>* get_Initializers() ;
 
-  /// @brief Method get_NewExpression, addr 0x5e44664, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Linq::Expressions::NewExpression* get_NewExpression();
+/// @brief Method get_NewExpression, addr 0x5e461dc, size 0x8, virtual false, abstract: false, final false
+inline ::System::Linq::Expressions::NewExpression* get_NewExpression() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ListInitExpression();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ListInitExpression() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ListInitExpression", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ListInitExpression(ListInitExpression&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ListInitExpression", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ListInitExpression(ListInitExpression const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ListInitExpression", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ListInitExpression(ListInitExpression && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16172 };
+// Ctor Parameters [CppParam { name: "", ty: "ListInitExpression", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ListInitExpression(ListInitExpression const& ) = delete;
 
-  /// @brief Field <NewExpression>k__BackingField, offset: 0x10, size: 0x8, def value: None
-  ::System::Linq::Expressions::NewExpression* ____NewExpression_k__BackingField;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{16174};
 
-  /// @brief Field <Initializers>k__BackingField, offset: 0x18, size: 0x8, def value: None
-  ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ElementInit*>* ____Initializers_k__BackingField;
+/// @brief Field <NewExpression>k__BackingField, offset: 0x10, size: 0x8, def value: None
+ ::System::Linq::Expressions::NewExpression*  ____NewExpression_k__BackingField;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field <Initializers>k__BackingField, offset: 0x18, size: 0x8, def value: None
+ ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ElementInit*>*  ____Initializers_k__BackingField;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Linq::Expressions::ListInitExpression, ____NewExpression_k__BackingField) == 0x10, "Offset mismatch!");
@@ -90,6 +88,6 @@ static_assert(offsetof(::System::Linq::Expressions::ListInitExpression, ____Init
 
 static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::ListInitExpression, 0x20>, "Size mismatch!");
 
-} // namespace System::Linq::Expressions
+} // namespace end def System::Linq::Expressions
 NEED_NO_BOX(::System::Linq::Expressions::ListInitExpression);
 DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::ListInitExpression*, "System.Linq.Expressions", "ListInitExpression");

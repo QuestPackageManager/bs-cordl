@@ -17,32 +17,32 @@ namespace UnityEngine::InputSystem::OnScreen {
 // CS Name: UnityEngine.InputSystem.OnScreen.OnScreenSupport
 class CORDL_TYPE OnScreenSupport : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method Initialize, addr 0x645b72c, size 0x4, virtual false, abstract: false, final false
-  static inline void Initialize();
+// Declarations
+/// @brief Method Initialize, addr 0x645d2a4, size 0x4, virtual false, abstract: false, final false
+static inline void Initialize() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OnScreenSupport();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr OnScreenSupport() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OnScreenSupport", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  OnScreenSupport(OnScreenSupport&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OnScreenSupport", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  OnScreenSupport(OnScreenSupport const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "OnScreenSupport", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+OnScreenSupport(OnScreenSupport && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8871 };
+// Ctor Parameters [CppParam { name: "", ty: "OnScreenSupport", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+OnScreenSupport(OnScreenSupport const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8872};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::OnScreen::OnScreenSupport, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::InputSystem::OnScreen
+} // namespace end def UnityEngine::InputSystem::OnScreen
 NEED_NO_BOX(::UnityEngine::InputSystem::OnScreen::OnScreenSupport);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::OnScreen::OnScreenSupport*, "UnityEngine.InputSystem.OnScreen", "OnScreenSupport");

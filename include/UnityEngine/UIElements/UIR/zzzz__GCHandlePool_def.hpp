@@ -7,7 +7,8 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(GCHandlePool)
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template<typename T>
+class List_1;
 }
 namespace System::Runtime::InteropServices {
 struct GCHandle;
@@ -33,107 +34,107 @@ namespace UnityEngine::UIElements::UIR {
 // CS Name: UnityEngine.UIElements.UIR.GCHandlePool
 class CORDL_TYPE GCHandlePool : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field <disposed>k__BackingField, offset 0x20, size 0x1
-  __declspec(property(get = __cordl_internal_get__disposed_k__BackingField, put = __cordl_internal_set__disposed_k__BackingField)) bool _disposed_k__BackingField;
+// Declarations
+/// @brief Field <disposed>k__BackingField, offset 0x20, size 0x1 
+ __declspec(property(get=__cordl_internal_get__disposed_k__BackingField, put=__cordl_internal_set__disposed_k__BackingField)) bool  _disposed_k__BackingField;
 
-  __declspec(property(get = get_disposed, put = set_disposed)) bool disposed;
+ __declspec(property(get=get_disposed, put=set_disposed)) bool  disposed;
 
-  /// @brief Field k_AllocBatchSize, offset 0x1c, size 0x4
-  __declspec(property(get = __cordl_internal_get_k_AllocBatchSize, put = __cordl_internal_set_k_AllocBatchSize)) int32_t k_AllocBatchSize;
+/// @brief Field k_AllocBatchSize, offset 0x1c, size 0x4 
+ __declspec(property(get=__cordl_internal_get_k_AllocBatchSize, put=__cordl_internal_set_k_AllocBatchSize)) int32_t  k_AllocBatchSize;
 
-  /// @brief Field m_Handles, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Handles, put = __cordl_internal_set_m_Handles)) ::System::Collections::Generic::List_1<::System::Runtime::InteropServices::GCHandle>* m_Handles;
+/// @brief Field m_Handles, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_Handles, put=__cordl_internal_set_m_Handles)) ::System::Collections::Generic::List_1<::System::Runtime::InteropServices::GCHandle>*  m_Handles;
 
-  /// @brief Field m_UsedHandlesCount, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_UsedHandlesCount, put = __cordl_internal_set_m_UsedHandlesCount)) int32_t m_UsedHandlesCount;
+/// @brief Field m_UsedHandlesCount, offset 0x18, size 0x4 
+ __declspec(property(get=__cordl_internal_get_m_UsedHandlesCount, put=__cordl_internal_set_m_UsedHandlesCount)) int32_t  m_UsedHandlesCount;
 
-  /// @brief Convert operator to "::System::IDisposable"
-  constexpr operator ::System::IDisposable*() noexcept;
+/// @brief Convert operator to "::System::IDisposable"
+constexpr operator  ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x6b79fcc, size 0x68, virtual true, abstract: false, final true
-  inline void Dispose();
+/// @brief Method Dispose, addr 0x6b7bb44, size 0x68, virtual true, abstract: false, final true
+inline void Dispose() ;
 
-  /// @brief Method Dispose, addr 0x6b7a034, size 0x130, virtual false, abstract: false, final false
-  inline void Dispose(bool disposing);
+/// @brief Method Dispose, addr 0x6b7bbac, size 0x130, virtual false, abstract: false, final false
+inline void Dispose(bool  disposing) ;
 
-  /// @brief Method Get, addr 0x6b79cf4, size 0x1e0, virtual false, abstract: false, final false
-  inline ::System::Runtime::InteropServices::GCHandle Get(::System::Object* target);
+/// @brief Method Get, addr 0x6b7b86c, size 0x1e0, virtual false, abstract: false, final false
+inline ::System::Runtime::InteropServices::GCHandle Get(::System::Object*  target) ;
 
-  /// @brief Method GetIntPtr, addr 0x6b79ed4, size 0x10, virtual false, abstract: false, final false
-  inline ::System::IntPtr GetIntPtr(::System::Object* target);
+/// @brief Method GetIntPtr, addr 0x6b7ba4c, size 0x10, virtual false, abstract: false, final false
+inline ::System::IntPtr GetIntPtr(::System::Object*  target) ;
 
-  static inline ::UnityEngine::UIElements::UIR::GCHandlePool* New_ctor(int32_t capacity, int32_t allocBatchSize);
+static inline ::UnityEngine::UIElements::UIR::GCHandlePool* New_ctor(int32_t  capacity, int32_t  allocBatchSize) ;
 
-  /// @brief Method ReturnAll, addr 0x6b79ee4, size 0xd8, virtual false, abstract: false, final false
-  inline void ReturnAll();
+/// @brief Method ReturnAll, addr 0x6b7ba5c, size 0xd8, virtual false, abstract: false, final false
+inline void ReturnAll() ;
 
-  constexpr bool const& __cordl_internal_get__disposed_k__BackingField() const;
+constexpr bool const& __cordl_internal_get__disposed_k__BackingField() const;
 
-  constexpr bool& __cordl_internal_get__disposed_k__BackingField();
+constexpr bool& __cordl_internal_get__disposed_k__BackingField() ;
 
-  constexpr int32_t const& __cordl_internal_get_k_AllocBatchSize() const;
+constexpr int32_t const& __cordl_internal_get_k_AllocBatchSize() const;
 
-  constexpr int32_t& __cordl_internal_get_k_AllocBatchSize();
+constexpr int32_t& __cordl_internal_get_k_AllocBatchSize() ;
 
-  constexpr ::System::Collections::Generic::List_1<::System::Runtime::InteropServices::GCHandle>* const& __cordl_internal_get_m_Handles() const;
+constexpr ::System::Collections::Generic::List_1<::System::Runtime::InteropServices::GCHandle>* const& __cordl_internal_get_m_Handles() const;
 
-  constexpr ::System::Collections::Generic::List_1<::System::Runtime::InteropServices::GCHandle>*& __cordl_internal_get_m_Handles();
+constexpr ::System::Collections::Generic::List_1<::System::Runtime::InteropServices::GCHandle>*& __cordl_internal_get_m_Handles() ;
 
-  constexpr int32_t const& __cordl_internal_get_m_UsedHandlesCount() const;
+constexpr int32_t const& __cordl_internal_get_m_UsedHandlesCount() const;
 
-  constexpr int32_t& __cordl_internal_get_m_UsedHandlesCount();
+constexpr int32_t& __cordl_internal_get_m_UsedHandlesCount() ;
 
-  constexpr void __cordl_internal_set__disposed_k__BackingField(bool value);
+constexpr void __cordl_internal_set__disposed_k__BackingField(bool  value) ;
 
-  constexpr void __cordl_internal_set_k_AllocBatchSize(int32_t value);
+constexpr void __cordl_internal_set_k_AllocBatchSize(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_m_Handles(::System::Collections::Generic::List_1<::System::Runtime::InteropServices::GCHandle>* value);
+constexpr void __cordl_internal_set_m_Handles(::System::Collections::Generic::List_1<::System::Runtime::InteropServices::GCHandle>*  value) ;
 
-  constexpr void __cordl_internal_set_m_UsedHandlesCount(int32_t value);
+constexpr void __cordl_internal_set_m_UsedHandlesCount(int32_t  value) ;
 
-  /// @brief Method .ctor, addr 0x6b79c68, size 0x8c, virtual false, abstract: false, final false
-  inline void _ctor(int32_t capacity, int32_t allocBatchSize);
+/// @brief Method .ctor, addr 0x6b7b7e0, size 0x8c, virtual false, abstract: false, final false
+inline void _ctor(int32_t  capacity, int32_t  allocBatchSize) ;
 
-  /// @brief Method get_disposed, addr 0x6b79fbc, size 0x8, virtual false, abstract: false, final false
-  inline bool get_disposed();
+/// @brief Method get_disposed, addr 0x6b7bb34, size 0x8, virtual false, abstract: false, final false
+inline bool get_disposed() ;
 
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+/// @brief Convert to "::System::IDisposable"
+constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method set_disposed, addr 0x6b79fc4, size 0x8, virtual false, abstract: false, final false
-  inline void set_disposed(bool value);
+/// @brief Method set_disposed, addr 0x6b7bb3c, size 0x8, virtual false, abstract: false, final false
+inline void set_disposed(bool  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr GCHandlePool();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr GCHandlePool() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GCHandlePool", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  GCHandlePool(GCHandlePool&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GCHandlePool", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  GCHandlePool(GCHandlePool const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "GCHandlePool", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+GCHandlePool(GCHandlePool && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5275 };
+// Ctor Parameters [CppParam { name: "", ty: "GCHandlePool", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+GCHandlePool(GCHandlePool const& ) = delete;
 
-  /// @brief Field m_Handles, offset: 0x10, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::System::Runtime::InteropServices::GCHandle>* ___m_Handles;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{5275};
 
-  /// @brief Field m_UsedHandlesCount, offset: 0x18, size: 0x4, def value: None
-  int32_t ___m_UsedHandlesCount;
+/// @brief Field m_Handles, offset: 0x10, size: 0x8, def value: None
+ ::System::Collections::Generic::List_1<::System::Runtime::InteropServices::GCHandle>*  ___m_Handles;
 
-  /// @brief Field k_AllocBatchSize, offset: 0x1c, size: 0x4, def value: None
-  int32_t ___k_AllocBatchSize;
+/// @brief Field m_UsedHandlesCount, offset: 0x18, size: 0x4, def value: None
+ int32_t  ___m_UsedHandlesCount;
 
-  /// @brief Field <disposed>k__BackingField, offset: 0x20, size: 0x1, def value: None
-  bool ____disposed_k__BackingField;
+/// @brief Field k_AllocBatchSize, offset: 0x1c, size: 0x4, def value: None
+ int32_t  ___k_AllocBatchSize;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field <disposed>k__BackingField, offset: 0x20, size: 0x1, def value: None
+ bool  ____disposed_k__BackingField;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::UIElements::UIR::GCHandlePool, ___m_Handles) == 0x10, "Offset mismatch!");
@@ -146,6 +147,6 @@ static_assert(offsetof(::UnityEngine::UIElements::UIR::GCHandlePool, ____dispose
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::GCHandlePool, 0x28>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements::UIR
+} // namespace end def UnityEngine::UIElements::UIR
 NEED_NO_BOX(::UnityEngine::UIElements::UIR::GCHandlePool);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UIR::GCHandlePool*, "UnityEngine.UIElements.UIR", "GCHandlePool");

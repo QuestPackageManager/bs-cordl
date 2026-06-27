@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "System/IO/BinaryReader.hpp"
 #include "System/IO/BinaryWriter.hpp"
@@ -65,5 +65,6 @@ module;
 #include "System/IO/UnexceptionalStreamWriter.hpp"
 #include "System/IO/UnmanagedMemoryStream.hpp"
 #ifdef __cpp_modules
-export module IO;
-#endif
+                    export module IO;
+                    #endif
+                

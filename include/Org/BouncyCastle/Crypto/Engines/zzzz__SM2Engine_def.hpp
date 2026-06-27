@@ -45,137 +45,137 @@ namespace Org::BouncyCastle::Crypto::Engines {
 // CS Name: Org.BouncyCastle.Crypto.Engines.SM2Engine
 class CORDL_TYPE SM2Engine : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field mCurveLength, offset 0x30, size 0x4
-  __declspec(property(get = __cordl_internal_get_mCurveLength, put = __cordl_internal_set_mCurveLength)) int32_t mCurveLength;
+// Declarations
+/// @brief Field mCurveLength, offset 0x30, size 0x4 
+ __declspec(property(get=__cordl_internal_get_mCurveLength, put=__cordl_internal_set_mCurveLength)) int32_t  mCurveLength;
 
-  /// @brief Field mDigest, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_mDigest, put = __cordl_internal_set_mDigest)) ::Org::BouncyCastle::Crypto::IDigest* mDigest;
+/// @brief Field mDigest, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_mDigest, put=__cordl_internal_set_mDigest)) ::Org::BouncyCastle::Crypto::IDigest*  mDigest;
 
-  /// @brief Field mECKey, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_mECKey, put = __cordl_internal_set_mECKey)) ::Org::BouncyCastle::Crypto::Parameters::ECKeyParameters* mECKey;
+/// @brief Field mECKey, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_mECKey, put=__cordl_internal_set_mECKey)) ::Org::BouncyCastle::Crypto::Parameters::ECKeyParameters*  mECKey;
 
-  /// @brief Field mECParams, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_mECParams, put = __cordl_internal_set_mECParams)) ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* mECParams;
+/// @brief Field mECParams, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get_mECParams, put=__cordl_internal_set_mECParams)) ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters*  mECParams;
 
-  /// @brief Field mForEncryption, offset 0x18, size 0x1
-  __declspec(property(get = __cordl_internal_get_mForEncryption, put = __cordl_internal_set_mForEncryption)) bool mForEncryption;
+/// @brief Field mForEncryption, offset 0x18, size 0x1 
+ __declspec(property(get=__cordl_internal_get_mForEncryption, put=__cordl_internal_set_mForEncryption)) bool  mForEncryption;
 
-  /// @brief Field mRandom, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_mRandom, put = __cordl_internal_set_mRandom)) ::Org::BouncyCastle::Security::SecureRandom* mRandom;
+/// @brief Field mRandom, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get_mRandom, put=__cordl_internal_set_mRandom)) ::Org::BouncyCastle::Security::SecureRandom*  mRandom;
 
-  /// @brief Method AddFieldElement, addr 0x3308924, size 0xe0, virtual false, abstract: false, final false
-  inline void AddFieldElement(::Org::BouncyCastle::Crypto::IDigest* digest, ::Org::BouncyCastle::Math::EC::ECFieldElement* v);
+/// @brief Method AddFieldElement, addr 0x33096c0, size 0xe0, virtual false, abstract: false, final false
+inline void AddFieldElement(::Org::BouncyCastle::Crypto::IDigest*  digest, ::Org::BouncyCastle::Math::EC::ECFieldElement*  v) ;
 
-  /// @brief Method CreateBasePointMultiplier, addr 0x33083bc, size 0x44, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier* CreateBasePointMultiplier();
+/// @brief Method CreateBasePointMultiplier, addr 0x3309158, size 0x44, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier* CreateBasePointMultiplier() ;
 
-  /// @brief Method Decrypt, addr 0x3307efc, size 0x4c0, virtual false, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Decrypt(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t inLen);
+/// @brief Method Decrypt, addr 0x3308c98, size 0x4c0, virtual false, abstract: false, final false
+inline ::ArrayW<uint8_t,::Array<uint8_t>*> Decrypt(::ArrayW<uint8_t,::Array<uint8_t>*>  input, int32_t  inOff, int32_t  inLen) ;
 
-  /// @brief Method Encrypt, addr 0x3307b44, size 0x3b8, virtual false, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Encrypt(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t inLen);
+/// @brief Method Encrypt, addr 0x33088e0, size 0x3b8, virtual false, abstract: false, final false
+inline ::ArrayW<uint8_t,::Array<uint8_t>*> Encrypt(::ArrayW<uint8_t,::Array<uint8_t>*>  input, int32_t  inOff, int32_t  inLen) ;
 
-  /// @brief Method Init, addr 0x33078ac, size 0x288, virtual true, abstract: false, final false
-  inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* param);
+/// @brief Method Init, addr 0x3308648, size 0x288, virtual true, abstract: false, final false
+inline void Init(bool  forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters*  param) ;
 
-  /// @brief Method Kdf, addr 0x33084c8, size 0x3ec, virtual false, abstract: false, final false
-  inline void Kdf(::Org::BouncyCastle::Crypto::IDigest* digest, ::Org::BouncyCastle::Math::EC::ECPoint* c1, ::ArrayW<uint8_t, ::Array<uint8_t>*> encData);
+/// @brief Method Kdf, addr 0x3309264, size 0x3ec, virtual false, abstract: false, final false
+inline void Kdf(::Org::BouncyCastle::Crypto::IDigest*  digest, ::Org::BouncyCastle::Math::EC::ECPoint*  c1, ::ArrayW<uint8_t,::Array<uint8_t>*>  encData) ;
 
-  static inline ::Org::BouncyCastle::Crypto::Engines::SM2Engine* New_ctor();
+static inline ::Org::BouncyCastle::Crypto::Engines::SM2Engine* New_ctor() ;
 
-  static inline ::Org::BouncyCastle::Crypto::Engines::SM2Engine* New_ctor(::Org::BouncyCastle::Crypto::IDigest* digest);
+static inline ::Org::BouncyCastle::Crypto::Engines::SM2Engine* New_ctor(::Org::BouncyCastle::Crypto::IDigest*  digest) ;
 
-  /// @brief Method NextK, addr 0x3308400, size 0xc8, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Math::BigInteger* NextK();
+/// @brief Method NextK, addr 0x330919c, size 0xc8, virtual false, abstract: false, final false
+inline ::Org::BouncyCastle::Math::BigInteger* NextK() ;
 
-  /// @brief Method NotEncrypted, addr 0x33088b4, size 0x70, virtual false, abstract: false, final false
-  inline bool NotEncrypted(::ArrayW<uint8_t, ::Array<uint8_t>*> encData, ::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff);
+/// @brief Method NotEncrypted, addr 0x3309650, size 0x70, virtual false, abstract: false, final false
+inline bool NotEncrypted(::ArrayW<uint8_t,::Array<uint8_t>*>  encData, ::ArrayW<uint8_t,::Array<uint8_t>*>  input, int32_t  inOff) ;
 
-  /// @brief Method ProcessBlock, addr 0x3307b34, size 0x10, virtual true, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ProcessBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t inLen);
+/// @brief Method ProcessBlock, addr 0x33088d0, size 0x10, virtual true, abstract: false, final false
+inline ::ArrayW<uint8_t,::Array<uint8_t>*> ProcessBlock(::ArrayW<uint8_t,::Array<uint8_t>*>  input, int32_t  inOff, int32_t  inLen) ;
 
-  /// @brief Method Xor, addr 0x3308a04, size 0x64, virtual false, abstract: false, final false
-  inline void Xor(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ::ArrayW<uint8_t, ::Array<uint8_t>*> kdfOut, int32_t dOff, int32_t dRemaining);
+/// @brief Method Xor, addr 0x33097a0, size 0x64, virtual false, abstract: false, final false
+inline void Xor(::ArrayW<uint8_t,::Array<uint8_t>*>  data, ::ArrayW<uint8_t,::Array<uint8_t>*>  kdfOut, int32_t  dOff, int32_t  dRemaining) ;
 
-  constexpr int32_t const& __cordl_internal_get_mCurveLength() const;
+constexpr int32_t const& __cordl_internal_get_mCurveLength() const;
 
-  constexpr int32_t& __cordl_internal_get_mCurveLength();
+constexpr int32_t& __cordl_internal_get_mCurveLength() ;
 
-  constexpr ::Org::BouncyCastle::Crypto::IDigest* const& __cordl_internal_get_mDigest() const;
+constexpr ::Org::BouncyCastle::Crypto::IDigest* const& __cordl_internal_get_mDigest() const;
 
-  constexpr ::Org::BouncyCastle::Crypto::IDigest*& __cordl_internal_get_mDigest();
+constexpr ::Org::BouncyCastle::Crypto::IDigest*& __cordl_internal_get_mDigest() ;
 
-  constexpr ::Org::BouncyCastle::Crypto::Parameters::ECKeyParameters* const& __cordl_internal_get_mECKey() const;
+constexpr ::Org::BouncyCastle::Crypto::Parameters::ECKeyParameters* const& __cordl_internal_get_mECKey() const;
 
-  constexpr ::Org::BouncyCastle::Crypto::Parameters::ECKeyParameters*& __cordl_internal_get_mECKey();
+constexpr ::Org::BouncyCastle::Crypto::Parameters::ECKeyParameters*& __cordl_internal_get_mECKey() ;
 
-  constexpr ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* const& __cordl_internal_get_mECParams() const;
+constexpr ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* const& __cordl_internal_get_mECParams() const;
 
-  constexpr ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters*& __cordl_internal_get_mECParams();
+constexpr ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters*& __cordl_internal_get_mECParams() ;
 
-  constexpr bool const& __cordl_internal_get_mForEncryption() const;
+constexpr bool const& __cordl_internal_get_mForEncryption() const;
 
-  constexpr bool& __cordl_internal_get_mForEncryption();
+constexpr bool& __cordl_internal_get_mForEncryption() ;
 
-  constexpr ::Org::BouncyCastle::Security::SecureRandom* const& __cordl_internal_get_mRandom() const;
+constexpr ::Org::BouncyCastle::Security::SecureRandom* const& __cordl_internal_get_mRandom() const;
 
-  constexpr ::Org::BouncyCastle::Security::SecureRandom*& __cordl_internal_get_mRandom();
+constexpr ::Org::BouncyCastle::Security::SecureRandom*& __cordl_internal_get_mRandom() ;
 
-  constexpr void __cordl_internal_set_mCurveLength(int32_t value);
+constexpr void __cordl_internal_set_mCurveLength(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_mDigest(::Org::BouncyCastle::Crypto::IDigest* value);
+constexpr void __cordl_internal_set_mDigest(::Org::BouncyCastle::Crypto::IDigest*  value) ;
 
-  constexpr void __cordl_internal_set_mECKey(::Org::BouncyCastle::Crypto::Parameters::ECKeyParameters* value);
+constexpr void __cordl_internal_set_mECKey(::Org::BouncyCastle::Crypto::Parameters::ECKeyParameters*  value) ;
 
-  constexpr void __cordl_internal_set_mECParams(::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* value);
+constexpr void __cordl_internal_set_mECParams(::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters*  value) ;
 
-  constexpr void __cordl_internal_set_mForEncryption(bool value);
+constexpr void __cordl_internal_set_mForEncryption(bool  value) ;
 
-  constexpr void __cordl_internal_set_mRandom(::Org::BouncyCastle::Security::SecureRandom* value);
+constexpr void __cordl_internal_set_mRandom(::Org::BouncyCastle::Security::SecureRandom*  value) ;
 
-  /// @brief Method .ctor, addr 0x3307848, size 0x5c, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x33085e4, size 0x5c, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method .ctor, addr 0x33078a4, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Crypto::IDigest* digest);
+/// @brief Method .ctor, addr 0x3308640, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(::Org::BouncyCastle::Crypto::IDigest*  digest) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SM2Engine();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr SM2Engine() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SM2Engine", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  SM2Engine(SM2Engine&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SM2Engine", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  SM2Engine(SM2Engine const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "SM2Engine", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+SM2Engine(SM2Engine && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 872 };
+// Ctor Parameters [CppParam { name: "", ty: "SM2Engine", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+SM2Engine(SM2Engine const& ) = delete;
 
-  /// @brief Field mDigest, offset: 0x10, size: 0x8, def value: None
-  ::Org::BouncyCastle::Crypto::IDigest* ___mDigest;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{872};
 
-  /// @brief Field mForEncryption, offset: 0x18, size: 0x1, def value: None
-  bool ___mForEncryption;
+/// @brief Field mDigest, offset: 0x10, size: 0x8, def value: None
+ ::Org::BouncyCastle::Crypto::IDigest*  ___mDigest;
 
-  /// @brief Field mECKey, offset: 0x20, size: 0x8, def value: None
-  ::Org::BouncyCastle::Crypto::Parameters::ECKeyParameters* ___mECKey;
+/// @brief Field mForEncryption, offset: 0x18, size: 0x1, def value: None
+ bool  ___mForEncryption;
 
-  /// @brief Field mECParams, offset: 0x28, size: 0x8, def value: None
-  ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* ___mECParams;
+/// @brief Field mECKey, offset: 0x20, size: 0x8, def value: None
+ ::Org::BouncyCastle::Crypto::Parameters::ECKeyParameters*  ___mECKey;
 
-  /// @brief Field mCurveLength, offset: 0x30, size: 0x4, def value: None
-  int32_t ___mCurveLength;
+/// @brief Field mECParams, offset: 0x28, size: 0x8, def value: None
+ ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters*  ___mECParams;
 
-  /// @brief Field mRandom, offset: 0x38, size: 0x8, def value: None
-  ::Org::BouncyCastle::Security::SecureRandom* ___mRandom;
+/// @brief Field mCurveLength, offset: 0x30, size: 0x4, def value: None
+ int32_t  ___mCurveLength;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field mRandom, offset: 0x38, size: 0x8, def value: None
+ ::Org::BouncyCastle::Security::SecureRandom*  ___mRandom;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::SM2Engine, ___mDigest) == 0x10, "Offset mismatch!");
@@ -192,6 +192,6 @@ static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::SM2Engine, ___mRand
 
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Engines::SM2Engine, 0x40>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Crypto::Engines
+} // namespace end def Org::BouncyCastle::Crypto::Engines
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Engines::SM2Engine);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Engines::SM2Engine*, "Org.BouncyCastle.Crypto.Engines", "SM2Engine");

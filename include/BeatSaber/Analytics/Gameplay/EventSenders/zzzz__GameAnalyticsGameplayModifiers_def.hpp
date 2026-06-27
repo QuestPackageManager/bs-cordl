@@ -17,234 +17,234 @@ namespace BeatSaber::Analytics::Gameplay::EventSenders {
 // CS Name: BeatSaber.Analytics.Gameplay.EventSenders.GameAnalyticsGameplayModifiers
 class CORDL_TYPE GameAnalyticsGameplayModifiers : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field batteryEnergy, offset 0x11, size 0x1
-  __declspec(property(get = __cordl_internal_get_batteryEnergy, put = __cordl_internal_set_batteryEnergy)) bool batteryEnergy;
+// Declarations
+/// @brief Field batteryEnergy, offset 0x11, size 0x1 
+ __declspec(property(get=__cordl_internal_get_batteryEnergy, put=__cordl_internal_set_batteryEnergy)) bool  batteryEnergy;
 
-  /// @brief Field disappearingArrows, offset 0x18, size 0x1
-  __declspec(property(get = __cordl_internal_get_disappearingArrows, put = __cordl_internal_set_disappearingArrows)) bool disappearingArrows;
+/// @brief Field disappearingArrows, offset 0x18, size 0x1 
+ __declspec(property(get=__cordl_internal_get_disappearingArrows, put=__cordl_internal_set_disappearingArrows)) bool  disappearingArrows;
 
-  /// @brief Field fastNotes, offset 0x16, size 0x1
-  __declspec(property(get = __cordl_internal_get_fastNotes, put = __cordl_internal_set_fastNotes)) bool fastNotes;
+/// @brief Field fastNotes, offset 0x16, size 0x1 
+ __declspec(property(get=__cordl_internal_get_fastNotes, put=__cordl_internal_set_fastNotes)) bool  fastNotes;
 
-  /// @brief Field fasterSong, offset 0x19, size 0x1
-  __declspec(property(get = __cordl_internal_get_fasterSong, put = __cordl_internal_set_fasterSong)) bool fasterSong;
+/// @brief Field fasterSong, offset 0x19, size 0x1 
+ __declspec(property(get=__cordl_internal_get_fasterSong, put=__cordl_internal_set_fasterSong)) bool  fasterSong;
 
-  /// @brief Field ghostNotes, offset 0x1c, size 0x1
-  __declspec(property(get = __cordl_internal_get_ghostNotes, put = __cordl_internal_set_ghostNotes)) bool ghostNotes;
+/// @brief Field ghostNotes, offset 0x1c, size 0x1 
+ __declspec(property(get=__cordl_internal_get_ghostNotes, put=__cordl_internal_set_ghostNotes)) bool  ghostNotes;
 
-  /// @brief Field instaFail, offset 0x13, size 0x1
-  __declspec(property(get = __cordl_internal_get_instaFail, put = __cordl_internal_set_instaFail)) bool instaFail;
+/// @brief Field instaFail, offset 0x13, size 0x1 
+ __declspec(property(get=__cordl_internal_get_instaFail, put=__cordl_internal_set_instaFail)) bool  instaFail;
 
-  /// @brief Field noArrows, offset 0x1b, size 0x1
-  __declspec(property(get = __cordl_internal_get_noArrows, put = __cordl_internal_set_noArrows)) bool noArrows;
+/// @brief Field noArrows, offset 0x1b, size 0x1 
+ __declspec(property(get=__cordl_internal_get_noArrows, put=__cordl_internal_set_noArrows)) bool  noArrows;
 
-  /// @brief Field noBombs, offset 0x15, size 0x1
-  __declspec(property(get = __cordl_internal_get_noBombs, put = __cordl_internal_set_noBombs)) bool noBombs;
+/// @brief Field noBombs, offset 0x15, size 0x1 
+ __declspec(property(get=__cordl_internal_get_noBombs, put=__cordl_internal_set_noBombs)) bool  noBombs;
 
-  /// @brief Field noFail, offset 0x12, size 0x1
-  __declspec(property(get = __cordl_internal_get_noFail, put = __cordl_internal_set_noFail)) bool noFail;
+/// @brief Field noFail, offset 0x12, size 0x1 
+ __declspec(property(get=__cordl_internal_get_noFail, put=__cordl_internal_set_noFail)) bool  noFail;
 
-  /// @brief Field noObstacles, offset 0x14, size 0x1
-  __declspec(property(get = __cordl_internal_get_noObstacles, put = __cordl_internal_set_noObstacles)) bool noObstacles;
+/// @brief Field noObstacles, offset 0x14, size 0x1 
+ __declspec(property(get=__cordl_internal_get_noObstacles, put=__cordl_internal_set_noObstacles)) bool  noObstacles;
 
-  /// @brief Field none, offset 0x10, size 0x1
-  __declspec(property(get = __cordl_internal_get_none, put = __cordl_internal_set_none)) bool none;
+/// @brief Field none, offset 0x10, size 0x1 
+ __declspec(property(get=__cordl_internal_get_none, put=__cordl_internal_set_none)) bool  none;
 
-  /// @brief Field proMode, offset 0x1e, size 0x1
-  __declspec(property(get = __cordl_internal_get_proMode, put = __cordl_internal_set_proMode)) bool proMode;
+/// @brief Field proMode, offset 0x1e, size 0x1 
+ __declspec(property(get=__cordl_internal_get_proMode, put=__cordl_internal_set_proMode)) bool  proMode;
 
-  /// @brief Field slowerSong, offset 0x1a, size 0x1
-  __declspec(property(get = __cordl_internal_get_slowerSong, put = __cordl_internal_set_slowerSong)) bool slowerSong;
+/// @brief Field slowerSong, offset 0x1a, size 0x1 
+ __declspec(property(get=__cordl_internal_get_slowerSong, put=__cordl_internal_set_slowerSong)) bool  slowerSong;
 
-  /// @brief Field smallCubes, offset 0x20, size 0x1
-  __declspec(property(get = __cordl_internal_get_smallCubes, put = __cordl_internal_set_smallCubes)) bool smallCubes;
+/// @brief Field smallCubes, offset 0x20, size 0x1 
+ __declspec(property(get=__cordl_internal_get_smallCubes, put=__cordl_internal_set_smallCubes)) bool  smallCubes;
 
-  /// @brief Field strictAngles, offset 0x17, size 0x1
-  __declspec(property(get = __cordl_internal_get_strictAngles, put = __cordl_internal_set_strictAngles)) bool strictAngles;
+/// @brief Field strictAngles, offset 0x17, size 0x1 
+ __declspec(property(get=__cordl_internal_get_strictAngles, put=__cordl_internal_set_strictAngles)) bool  strictAngles;
 
-  /// @brief Field superFastSong, offset 0x1d, size 0x1
-  __declspec(property(get = __cordl_internal_get_superFastSong, put = __cordl_internal_set_superFastSong)) bool superFastSong;
+/// @brief Field superFastSong, offset 0x1d, size 0x1 
+ __declspec(property(get=__cordl_internal_get_superFastSong, put=__cordl_internal_set_superFastSong)) bool  superFastSong;
 
-  /// @brief Field zenMode, offset 0x1f, size 0x1
-  __declspec(property(get = __cordl_internal_get_zenMode, put = __cordl_internal_set_zenMode)) bool zenMode;
+/// @brief Field zenMode, offset 0x1f, size 0x1 
+ __declspec(property(get=__cordl_internal_get_zenMode, put=__cordl_internal_set_zenMode)) bool  zenMode;
 
-  static inline ::BeatSaber::Analytics::Gameplay::EventSenders::GameAnalyticsGameplayModifiers* New_ctor();
+static inline ::BeatSaber::Analytics::Gameplay::EventSenders::GameAnalyticsGameplayModifiers* New_ctor() ;
 
-  constexpr bool const& __cordl_internal_get_batteryEnergy() const;
+constexpr bool const& __cordl_internal_get_batteryEnergy() const;
 
-  constexpr bool& __cordl_internal_get_batteryEnergy();
+constexpr bool& __cordl_internal_get_batteryEnergy() ;
 
-  constexpr bool const& __cordl_internal_get_disappearingArrows() const;
+constexpr bool const& __cordl_internal_get_disappearingArrows() const;
 
-  constexpr bool& __cordl_internal_get_disappearingArrows();
+constexpr bool& __cordl_internal_get_disappearingArrows() ;
 
-  constexpr bool const& __cordl_internal_get_fastNotes() const;
+constexpr bool const& __cordl_internal_get_fastNotes() const;
 
-  constexpr bool& __cordl_internal_get_fastNotes();
+constexpr bool& __cordl_internal_get_fastNotes() ;
 
-  constexpr bool const& __cordl_internal_get_fasterSong() const;
+constexpr bool const& __cordl_internal_get_fasterSong() const;
 
-  constexpr bool& __cordl_internal_get_fasterSong();
+constexpr bool& __cordl_internal_get_fasterSong() ;
 
-  constexpr bool const& __cordl_internal_get_ghostNotes() const;
+constexpr bool const& __cordl_internal_get_ghostNotes() const;
 
-  constexpr bool& __cordl_internal_get_ghostNotes();
+constexpr bool& __cordl_internal_get_ghostNotes() ;
 
-  constexpr bool const& __cordl_internal_get_instaFail() const;
+constexpr bool const& __cordl_internal_get_instaFail() const;
 
-  constexpr bool& __cordl_internal_get_instaFail();
+constexpr bool& __cordl_internal_get_instaFail() ;
 
-  constexpr bool const& __cordl_internal_get_noArrows() const;
+constexpr bool const& __cordl_internal_get_noArrows() const;
 
-  constexpr bool& __cordl_internal_get_noArrows();
+constexpr bool& __cordl_internal_get_noArrows() ;
 
-  constexpr bool const& __cordl_internal_get_noBombs() const;
+constexpr bool const& __cordl_internal_get_noBombs() const;
 
-  constexpr bool& __cordl_internal_get_noBombs();
+constexpr bool& __cordl_internal_get_noBombs() ;
 
-  constexpr bool const& __cordl_internal_get_noFail() const;
+constexpr bool const& __cordl_internal_get_noFail() const;
 
-  constexpr bool& __cordl_internal_get_noFail();
+constexpr bool& __cordl_internal_get_noFail() ;
 
-  constexpr bool const& __cordl_internal_get_noObstacles() const;
+constexpr bool const& __cordl_internal_get_noObstacles() const;
 
-  constexpr bool& __cordl_internal_get_noObstacles();
+constexpr bool& __cordl_internal_get_noObstacles() ;
 
-  constexpr bool const& __cordl_internal_get_none() const;
+constexpr bool const& __cordl_internal_get_none() const;
 
-  constexpr bool& __cordl_internal_get_none();
+constexpr bool& __cordl_internal_get_none() ;
 
-  constexpr bool const& __cordl_internal_get_proMode() const;
+constexpr bool const& __cordl_internal_get_proMode() const;
 
-  constexpr bool& __cordl_internal_get_proMode();
+constexpr bool& __cordl_internal_get_proMode() ;
 
-  constexpr bool const& __cordl_internal_get_slowerSong() const;
+constexpr bool const& __cordl_internal_get_slowerSong() const;
 
-  constexpr bool& __cordl_internal_get_slowerSong();
+constexpr bool& __cordl_internal_get_slowerSong() ;
 
-  constexpr bool const& __cordl_internal_get_smallCubes() const;
+constexpr bool const& __cordl_internal_get_smallCubes() const;
 
-  constexpr bool& __cordl_internal_get_smallCubes();
+constexpr bool& __cordl_internal_get_smallCubes() ;
 
-  constexpr bool const& __cordl_internal_get_strictAngles() const;
+constexpr bool const& __cordl_internal_get_strictAngles() const;
 
-  constexpr bool& __cordl_internal_get_strictAngles();
+constexpr bool& __cordl_internal_get_strictAngles() ;
 
-  constexpr bool const& __cordl_internal_get_superFastSong() const;
+constexpr bool const& __cordl_internal_get_superFastSong() const;
 
-  constexpr bool& __cordl_internal_get_superFastSong();
+constexpr bool& __cordl_internal_get_superFastSong() ;
 
-  constexpr bool const& __cordl_internal_get_zenMode() const;
+constexpr bool const& __cordl_internal_get_zenMode() const;
 
-  constexpr bool& __cordl_internal_get_zenMode();
+constexpr bool& __cordl_internal_get_zenMode() ;
 
-  constexpr void __cordl_internal_set_batteryEnergy(bool value);
+constexpr void __cordl_internal_set_batteryEnergy(bool  value) ;
 
-  constexpr void __cordl_internal_set_disappearingArrows(bool value);
+constexpr void __cordl_internal_set_disappearingArrows(bool  value) ;
 
-  constexpr void __cordl_internal_set_fastNotes(bool value);
+constexpr void __cordl_internal_set_fastNotes(bool  value) ;
 
-  constexpr void __cordl_internal_set_fasterSong(bool value);
+constexpr void __cordl_internal_set_fasterSong(bool  value) ;
 
-  constexpr void __cordl_internal_set_ghostNotes(bool value);
+constexpr void __cordl_internal_set_ghostNotes(bool  value) ;
 
-  constexpr void __cordl_internal_set_instaFail(bool value);
+constexpr void __cordl_internal_set_instaFail(bool  value) ;
 
-  constexpr void __cordl_internal_set_noArrows(bool value);
+constexpr void __cordl_internal_set_noArrows(bool  value) ;
 
-  constexpr void __cordl_internal_set_noBombs(bool value);
+constexpr void __cordl_internal_set_noBombs(bool  value) ;
 
-  constexpr void __cordl_internal_set_noFail(bool value);
+constexpr void __cordl_internal_set_noFail(bool  value) ;
 
-  constexpr void __cordl_internal_set_noObstacles(bool value);
+constexpr void __cordl_internal_set_noObstacles(bool  value) ;
 
-  constexpr void __cordl_internal_set_none(bool value);
+constexpr void __cordl_internal_set_none(bool  value) ;
 
-  constexpr void __cordl_internal_set_proMode(bool value);
+constexpr void __cordl_internal_set_proMode(bool  value) ;
 
-  constexpr void __cordl_internal_set_slowerSong(bool value);
+constexpr void __cordl_internal_set_slowerSong(bool  value) ;
 
-  constexpr void __cordl_internal_set_smallCubes(bool value);
+constexpr void __cordl_internal_set_smallCubes(bool  value) ;
 
-  constexpr void __cordl_internal_set_strictAngles(bool value);
+constexpr void __cordl_internal_set_strictAngles(bool  value) ;
 
-  constexpr void __cordl_internal_set_superFastSong(bool value);
+constexpr void __cordl_internal_set_superFastSong(bool  value) ;
 
-  constexpr void __cordl_internal_set_zenMode(bool value);
+constexpr void __cordl_internal_set_zenMode(bool  value) ;
 
-  /// @brief Method .ctor, addr 0x31cf864, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x31d0584, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr GameAnalyticsGameplayModifiers();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr GameAnalyticsGameplayModifiers() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GameAnalyticsGameplayModifiers", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  GameAnalyticsGameplayModifiers(GameAnalyticsGameplayModifiers&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GameAnalyticsGameplayModifiers", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  GameAnalyticsGameplayModifiers(GameAnalyticsGameplayModifiers const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "GameAnalyticsGameplayModifiers", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+GameAnalyticsGameplayModifiers(GameAnalyticsGameplayModifiers && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22091 };
+// Ctor Parameters [CppParam { name: "", ty: "GameAnalyticsGameplayModifiers", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+GameAnalyticsGameplayModifiers(GameAnalyticsGameplayModifiers const& ) = delete;
 
-  /// @brief Field none, offset: 0x10, size: 0x1, def value: None
-  bool ___none;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22095};
 
-  /// @brief Field batteryEnergy, offset: 0x11, size: 0x1, def value: None
-  bool ___batteryEnergy;
+/// @brief Field none, offset: 0x10, size: 0x1, def value: None
+ bool  ___none;
 
-  /// @brief Field noFail, offset: 0x12, size: 0x1, def value: None
-  bool ___noFail;
+/// @brief Field batteryEnergy, offset: 0x11, size: 0x1, def value: None
+ bool  ___batteryEnergy;
 
-  /// @brief Field instaFail, offset: 0x13, size: 0x1, def value: None
-  bool ___instaFail;
+/// @brief Field noFail, offset: 0x12, size: 0x1, def value: None
+ bool  ___noFail;
 
-  /// @brief Field noObstacles, offset: 0x14, size: 0x1, def value: None
-  bool ___noObstacles;
+/// @brief Field instaFail, offset: 0x13, size: 0x1, def value: None
+ bool  ___instaFail;
 
-  /// @brief Field noBombs, offset: 0x15, size: 0x1, def value: None
-  bool ___noBombs;
+/// @brief Field noObstacles, offset: 0x14, size: 0x1, def value: None
+ bool  ___noObstacles;
 
-  /// @brief Field fastNotes, offset: 0x16, size: 0x1, def value: None
-  bool ___fastNotes;
+/// @brief Field noBombs, offset: 0x15, size: 0x1, def value: None
+ bool  ___noBombs;
 
-  /// @brief Field strictAngles, offset: 0x17, size: 0x1, def value: None
-  bool ___strictAngles;
+/// @brief Field fastNotes, offset: 0x16, size: 0x1, def value: None
+ bool  ___fastNotes;
 
-  /// @brief Field disappearingArrows, offset: 0x18, size: 0x1, def value: None
-  bool ___disappearingArrows;
+/// @brief Field strictAngles, offset: 0x17, size: 0x1, def value: None
+ bool  ___strictAngles;
 
-  /// @brief Field fasterSong, offset: 0x19, size: 0x1, def value: None
-  bool ___fasterSong;
+/// @brief Field disappearingArrows, offset: 0x18, size: 0x1, def value: None
+ bool  ___disappearingArrows;
 
-  /// @brief Field slowerSong, offset: 0x1a, size: 0x1, def value: None
-  bool ___slowerSong;
+/// @brief Field fasterSong, offset: 0x19, size: 0x1, def value: None
+ bool  ___fasterSong;
 
-  /// @brief Field noArrows, offset: 0x1b, size: 0x1, def value: None
-  bool ___noArrows;
+/// @brief Field slowerSong, offset: 0x1a, size: 0x1, def value: None
+ bool  ___slowerSong;
 
-  /// @brief Field ghostNotes, offset: 0x1c, size: 0x1, def value: None
-  bool ___ghostNotes;
+/// @brief Field noArrows, offset: 0x1b, size: 0x1, def value: None
+ bool  ___noArrows;
 
-  /// @brief Field superFastSong, offset: 0x1d, size: 0x1, def value: None
-  bool ___superFastSong;
+/// @brief Field ghostNotes, offset: 0x1c, size: 0x1, def value: None
+ bool  ___ghostNotes;
 
-  /// @brief Field proMode, offset: 0x1e, size: 0x1, def value: None
-  bool ___proMode;
+/// @brief Field superFastSong, offset: 0x1d, size: 0x1, def value: None
+ bool  ___superFastSong;
 
-  /// @brief Field zenMode, offset: 0x1f, size: 0x1, def value: None
-  bool ___zenMode;
+/// @brief Field proMode, offset: 0x1e, size: 0x1, def value: None
+ bool  ___proMode;
 
-  /// @brief Field smallCubes, offset: 0x20, size: 0x1, def value: None
-  bool ___smallCubes;
+/// @brief Field zenMode, offset: 0x1f, size: 0x1, def value: None
+ bool  ___zenMode;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field smallCubes, offset: 0x20, size: 0x1, def value: None
+ bool  ___smallCubes;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::BeatSaber::Analytics::Gameplay::EventSenders::GameAnalyticsGameplayModifiers, ___none) == 0x10, "Offset mismatch!");
@@ -283,6 +283,6 @@ static_assert(offsetof(::BeatSaber::Analytics::Gameplay::EventSenders::GameAnaly
 
 static_assert(::cordl_internals::size_check_v<::BeatSaber::Analytics::Gameplay::EventSenders::GameAnalyticsGameplayModifiers, 0x28>, "Size mismatch!");
 
-} // namespace BeatSaber::Analytics::Gameplay::EventSenders
+} // namespace end def BeatSaber::Analytics::Gameplay::EventSenders
 NEED_NO_BOX(::BeatSaber::Analytics::Gameplay::EventSenders::GameAnalyticsGameplayModifiers);
 DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::Analytics::Gameplay::EventSenders::GameAnalyticsGameplayModifiers*, "BeatSaber.Analytics.Gameplay.EventSenders", "GameAnalyticsGameplayModifiers");

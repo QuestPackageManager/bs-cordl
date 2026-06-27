@@ -25,151 +25,151 @@ namespace Org::BouncyCastle::Crypto::Engines {
 // CS Name: Org.BouncyCastle.Crypto.Engines.TeaEngine
 class CORDL_TYPE TeaEngine : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = get_AlgorithmName)) ::StringW AlgorithmName;
+// Declarations
+ __declspec(property(get=get_AlgorithmName)) ::StringW  AlgorithmName;
 
-  __declspec(property(get = get_IsPartialBlockOkay)) bool IsPartialBlockOkay;
+ __declspec(property(get=get_IsPartialBlockOkay)) bool  IsPartialBlockOkay;
 
-  /// @brief Field _a, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get__a, put = __cordl_internal_set__a)) uint32_t _a;
+/// @brief Field _a, offset 0x10, size 0x4 
+ __declspec(property(get=__cordl_internal_get__a, put=__cordl_internal_set__a)) uint32_t  _a;
 
-  /// @brief Field _b, offset 0x14, size 0x4
-  __declspec(property(get = __cordl_internal_get__b, put = __cordl_internal_set__b)) uint32_t _b;
+/// @brief Field _b, offset 0x14, size 0x4 
+ __declspec(property(get=__cordl_internal_get__b, put=__cordl_internal_set__b)) uint32_t  _b;
 
-  /// @brief Field _c, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get__c, put = __cordl_internal_set__c)) uint32_t _c;
+/// @brief Field _c, offset 0x18, size 0x4 
+ __declspec(property(get=__cordl_internal_get__c, put=__cordl_internal_set__c)) uint32_t  _c;
 
-  /// @brief Field _d, offset 0x1c, size 0x4
-  __declspec(property(get = __cordl_internal_get__d, put = __cordl_internal_set__d)) uint32_t _d;
+/// @brief Field _d, offset 0x1c, size 0x4 
+ __declspec(property(get=__cordl_internal_get__d, put=__cordl_internal_set__d)) uint32_t  _d;
 
-  /// @brief Field _forEncryption, offset 0x21, size 0x1
-  __declspec(property(get = __cordl_internal_get__forEncryption, put = __cordl_internal_set__forEncryption)) bool _forEncryption;
+/// @brief Field _forEncryption, offset 0x21, size 0x1 
+ __declspec(property(get=__cordl_internal_get__forEncryption, put=__cordl_internal_set__forEncryption)) bool  _forEncryption;
 
-  /// @brief Field _initialised, offset 0x20, size 0x1
-  __declspec(property(get = __cordl_internal_get__initialised, put = __cordl_internal_set__initialised)) bool _initialised;
+/// @brief Field _initialised, offset 0x20, size 0x1 
+ __declspec(property(get=__cordl_internal_get__initialised, put=__cordl_internal_set__initialised)) bool  _initialised;
 
-  /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IBlockCipher"
-  constexpr operator ::Org::BouncyCastle::Crypto::IBlockCipher*() noexcept;
+/// @brief Convert operator to "::Org::BouncyCastle::Crypto::IBlockCipher"
+constexpr operator  ::Org::BouncyCastle::Crypto::IBlockCipher*() noexcept;
 
-  /// @brief Method GetBlockSize, addr 0x330982c, size 0x8, virtual true, abstract: false, final false
-  inline int32_t GetBlockSize();
+/// @brief Method GetBlockSize, addr 0x330a5c8, size 0x8, virtual true, abstract: false, final false
+inline int32_t GetBlockSize() ;
 
-  /// @brief Method Init, addr 0x3309834, size 0x148, virtual true, abstract: false, final false
-  inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
+/// @brief Method Init, addr 0x330a5d0, size 0x148, virtual true, abstract: false, final false
+inline void Init(bool  forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters*  parameters) ;
 
-  static inline ::Org::BouncyCastle::Crypto::Engines::TeaEngine* New_ctor();
+static inline ::Org::BouncyCastle::Crypto::Engines::TeaEngine* New_ctor() ;
 
-  /// @brief Method ProcessBlock, addr 0x33099e8, size 0x160, virtual true, abstract: false, final false
-  inline int32_t ProcessBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> inBytes, int32_t inOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> outBytes, int32_t outOff);
+/// @brief Method ProcessBlock, addr 0x330a784, size 0x160, virtual true, abstract: false, final false
+inline int32_t ProcessBlock(::ArrayW<uint8_t,::Array<uint8_t>*>  inBytes, int32_t  inOff, ::ArrayW<uint8_t,::Array<uint8_t>*>  outBytes, int32_t  outOff) ;
 
-  /// @brief Method Reset, addr 0x3309d10, size 0x4, virtual true, abstract: false, final false
-  inline void Reset();
+/// @brief Method Reset, addr 0x330aaac, size 0x4, virtual true, abstract: false, final false
+inline void Reset() ;
 
-  constexpr uint32_t const& __cordl_internal_get__a() const;
+constexpr uint32_t const& __cordl_internal_get__a() const;
 
-  constexpr uint32_t& __cordl_internal_get__a();
+constexpr uint32_t& __cordl_internal_get__a() ;
 
-  constexpr uint32_t const& __cordl_internal_get__b() const;
+constexpr uint32_t const& __cordl_internal_get__b() const;
 
-  constexpr uint32_t& __cordl_internal_get__b();
+constexpr uint32_t& __cordl_internal_get__b() ;
 
-  constexpr uint32_t const& __cordl_internal_get__c() const;
+constexpr uint32_t const& __cordl_internal_get__c() const;
 
-  constexpr uint32_t& __cordl_internal_get__c();
+constexpr uint32_t& __cordl_internal_get__c() ;
 
-  constexpr uint32_t const& __cordl_internal_get__d() const;
+constexpr uint32_t const& __cordl_internal_get__d() const;
 
-  constexpr uint32_t& __cordl_internal_get__d();
+constexpr uint32_t& __cordl_internal_get__d() ;
 
-  constexpr bool const& __cordl_internal_get__forEncryption() const;
+constexpr bool const& __cordl_internal_get__forEncryption() const;
 
-  constexpr bool& __cordl_internal_get__forEncryption();
+constexpr bool& __cordl_internal_get__forEncryption() ;
 
-  constexpr bool const& __cordl_internal_get__initialised() const;
+constexpr bool const& __cordl_internal_get__initialised() const;
 
-  constexpr bool& __cordl_internal_get__initialised();
+constexpr bool& __cordl_internal_get__initialised() ;
 
-  constexpr void __cordl_internal_set__a(uint32_t value);
+constexpr void __cordl_internal_set__a(uint32_t  value) ;
 
-  constexpr void __cordl_internal_set__b(uint32_t value);
+constexpr void __cordl_internal_set__b(uint32_t  value) ;
 
-  constexpr void __cordl_internal_set__c(uint32_t value);
+constexpr void __cordl_internal_set__c(uint32_t  value) ;
 
-  constexpr void __cordl_internal_set__d(uint32_t value);
+constexpr void __cordl_internal_set__d(uint32_t  value) ;
 
-  constexpr void __cordl_internal_set__forEncryption(bool value);
+constexpr void __cordl_internal_set__forEncryption(bool  value) ;
 
-  constexpr void __cordl_internal_set__initialised(bool value);
+constexpr void __cordl_internal_set__initialised(bool  value) ;
 
-  /// @brief Method .ctor, addr 0x33097d8, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x330a574, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method decryptBlock, addr 0x3309b48, size 0xe4, virtual false, abstract: false, final false
-  inline int32_t decryptBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> inBytes, int32_t inOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> outBytes, int32_t outOff);
+/// @brief Method decryptBlock, addr 0x330a8e4, size 0xe4, virtual false, abstract: false, final false
+inline int32_t decryptBlock(::ArrayW<uint8_t,::Array<uint8_t>*>  inBytes, int32_t  inOff, ::ArrayW<uint8_t,::Array<uint8_t>*>  outBytes, int32_t  outOff) ;
 
-  /// @brief Method encryptBlock, addr 0x3309c2c, size 0xe4, virtual false, abstract: false, final false
-  inline int32_t encryptBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> inBytes, int32_t inOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> outBytes, int32_t outOff);
+/// @brief Method encryptBlock, addr 0x330a9c8, size 0xe4, virtual false, abstract: false, final false
+inline int32_t encryptBlock(::ArrayW<uint8_t,::Array<uint8_t>*>  inBytes, int32_t  inOff, ::ArrayW<uint8_t,::Array<uint8_t>*>  outBytes, int32_t  outOff) ;
 
-  /// @brief Method get_AlgorithmName, addr 0x33097e0, size 0x44, virtual true, abstract: false, final false
-  inline ::StringW get_AlgorithmName();
+/// @brief Method get_AlgorithmName, addr 0x330a57c, size 0x44, virtual true, abstract: false, final false
+inline ::StringW get_AlgorithmName() ;
 
-  /// @brief Method get_IsPartialBlockOkay, addr 0x3309824, size 0x8, virtual true, abstract: false, final false
-  inline bool get_IsPartialBlockOkay();
+/// @brief Method get_IsPartialBlockOkay, addr 0x330a5c0, size 0x8, virtual true, abstract: false, final false
+inline bool get_IsPartialBlockOkay() ;
 
-  /// @brief Convert to "::Org::BouncyCastle::Crypto::IBlockCipher"
-  constexpr ::Org::BouncyCastle::Crypto::IBlockCipher* i___Org__BouncyCastle__Crypto__IBlockCipher() noexcept;
+/// @brief Convert to "::Org::BouncyCastle::Crypto::IBlockCipher"
+constexpr ::Org::BouncyCastle::Crypto::IBlockCipher* i___Org__BouncyCastle__Crypto__IBlockCipher() noexcept;
 
-  /// @brief Method setKey, addr 0x330997c, size 0x6c, virtual false, abstract: false, final false
-  inline void setKey(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
+/// @brief Method setKey, addr 0x330a718, size 0x6c, virtual false, abstract: false, final false
+inline void setKey(::ArrayW<uint8_t,::Array<uint8_t>*>  key) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TeaEngine();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr TeaEngine() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TeaEngine", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  TeaEngine(TeaEngine&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TeaEngine", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  TeaEngine(TeaEngine const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "TeaEngine", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+TeaEngine(TeaEngine && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 874 };
+// Ctor Parameters [CppParam { name: "", ty: "TeaEngine", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+TeaEngine(TeaEngine const& ) = delete;
 
-  /// @brief Field block_size offset 0xffffffff size 0x4
-  static constexpr int32_t block_size{ static_cast<int32_t>(0x8) };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{874};
 
-  /// @brief Field d_sum offset 0xffffffff size 0x4
-  static constexpr uint32_t d_sum{ static_cast<uint32_t>(0xc6ef3720u) };
+/// @brief Field block_size offset 0xffffffff size 0x4
+static constexpr int32_t  block_size{static_cast<int32_t>(0x8)};
 
-  /// @brief Field delta offset 0xffffffff size 0x4
-  static constexpr uint32_t delta{ static_cast<uint32_t>(0x9e3779b9u) };
+/// @brief Field d_sum offset 0xffffffff size 0x4
+static constexpr uint32_t  d_sum{static_cast<uint32_t>(0xc6ef3720u)};
 
-  /// @brief Field rounds offset 0xffffffff size 0x4
-  static constexpr int32_t rounds{ static_cast<int32_t>(0x20) };
+/// @brief Field delta offset 0xffffffff size 0x4
+static constexpr uint32_t  delta{static_cast<uint32_t>(0x9e3779b9u)};
 
-  /// @brief Field _a, offset: 0x10, size: 0x4, def value: None
-  uint32_t ____a;
+/// @brief Field rounds offset 0xffffffff size 0x4
+static constexpr int32_t  rounds{static_cast<int32_t>(0x20)};
 
-  /// @brief Field _b, offset: 0x14, size: 0x4, def value: None
-  uint32_t ____b;
+/// @brief Field _a, offset: 0x10, size: 0x4, def value: None
+ uint32_t  ____a;
 
-  /// @brief Field _c, offset: 0x18, size: 0x4, def value: None
-  uint32_t ____c;
+/// @brief Field _b, offset: 0x14, size: 0x4, def value: None
+ uint32_t  ____b;
 
-  /// @brief Field _d, offset: 0x1c, size: 0x4, def value: None
-  uint32_t ____d;
+/// @brief Field _c, offset: 0x18, size: 0x4, def value: None
+ uint32_t  ____c;
 
-  /// @brief Field _initialised, offset: 0x20, size: 0x1, def value: None
-  bool ____initialised;
+/// @brief Field _d, offset: 0x1c, size: 0x4, def value: None
+ uint32_t  ____d;
 
-  /// @brief Field _forEncryption, offset: 0x21, size: 0x1, def value: None
-  bool ____forEncryption;
+/// @brief Field _initialised, offset: 0x20, size: 0x1, def value: None
+ bool  ____initialised;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _forEncryption, offset: 0x21, size: 0x1, def value: None
+ bool  ____forEncryption;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::TeaEngine, ____a) == 0x10, "Offset mismatch!");
@@ -186,6 +186,6 @@ static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::TeaEngine, ____forE
 
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Engines::TeaEngine, 0x28>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Crypto::Engines
+} // namespace end def Org::BouncyCastle::Crypto::Engines
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Engines::TeaEngine);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Engines::TeaEngine*, "Org.BouncyCastle.Crypto.Engines", "TeaEngine");

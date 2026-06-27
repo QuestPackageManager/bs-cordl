@@ -30,81 +30,81 @@ namespace System::Xml::Serialization {
 // CS Name: System.Xml.Serialization.EnumMap/EnumMapMember
 class CORDL_TYPE EnumMap_EnumMapMember : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = get_EnumName)) ::StringW EnumName;
+// Declarations
+ __declspec(property(get=get_EnumName)) ::StringW  EnumName;
 
-  __declspec(property(get = get_Value)) int64_t Value;
+ __declspec(property(get=get_Value)) int64_t  Value;
 
-  __declspec(property(get = get_XmlName)) ::StringW XmlName;
+ __declspec(property(get=get_XmlName)) ::StringW  XmlName;
 
-  /// @brief Field _enumName, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__enumName, put = __cordl_internal_set__enumName)) ::StringW _enumName;
+/// @brief Field _enumName, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get__enumName, put=__cordl_internal_set__enumName)) ::StringW  _enumName;
 
-  /// @brief Field _value, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__value, put = __cordl_internal_set__value)) int64_t _value;
+/// @brief Field _value, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get__value, put=__cordl_internal_set__value)) int64_t  _value;
 
-  /// @brief Field _xmlName, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__xmlName, put = __cordl_internal_set__xmlName)) ::StringW _xmlName;
+/// @brief Field _xmlName, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get__xmlName, put=__cordl_internal_set__xmlName)) ::StringW  _xmlName;
 
-  static inline ::System::Xml::Serialization::EnumMap_EnumMapMember* New_ctor(::StringW xmlName, ::StringW enumName, int64_t value);
+static inline ::System::Xml::Serialization::EnumMap_EnumMapMember* New_ctor(::StringW  xmlName, ::StringW  enumName, int64_t  value) ;
 
-  constexpr ::StringW const& __cordl_internal_get__enumName() const;
+constexpr ::StringW const& __cordl_internal_get__enumName() const;
 
-  constexpr ::StringW& __cordl_internal_get__enumName();
+constexpr ::StringW& __cordl_internal_get__enumName() ;
 
-  constexpr int64_t const& __cordl_internal_get__value() const;
+constexpr int64_t const& __cordl_internal_get__value() const;
 
-  constexpr int64_t& __cordl_internal_get__value();
+constexpr int64_t& __cordl_internal_get__value() ;
 
-  constexpr ::StringW const& __cordl_internal_get__xmlName() const;
+constexpr ::StringW const& __cordl_internal_get__xmlName() const;
 
-  constexpr ::StringW& __cordl_internal_get__xmlName();
+constexpr ::StringW& __cordl_internal_get__xmlName() ;
 
-  constexpr void __cordl_internal_set__enumName(::StringW value);
+constexpr void __cordl_internal_set__enumName(::StringW  value) ;
 
-  constexpr void __cordl_internal_set__value(int64_t value);
+constexpr void __cordl_internal_set__value(int64_t  value) ;
 
-  constexpr void __cordl_internal_set__xmlName(::StringW value);
+constexpr void __cordl_internal_set__xmlName(::StringW  value) ;
 
-  /// @brief Method .ctor, addr 0x61d4268, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor(::StringW xmlName, ::StringW enumName, int64_t value);
+/// @brief Method .ctor, addr 0x61d5de0, size 0xc, virtual false, abstract: false, final false
+inline void _ctor(::StringW  xmlName, ::StringW  enumName, int64_t  value) ;
 
-  /// @brief Method get_EnumName, addr 0x61d427c, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_EnumName();
+/// @brief Method get_EnumName, addr 0x61d5df4, size 0x8, virtual false, abstract: false, final false
+inline ::StringW get_EnumName() ;
 
-  /// @brief Method get_Value, addr 0x61d4284, size 0x8, virtual false, abstract: false, final false
-  inline int64_t get_Value();
+/// @brief Method get_Value, addr 0x61d5dfc, size 0x8, virtual false, abstract: false, final false
+inline int64_t get_Value() ;
 
-  /// @brief Method get_XmlName, addr 0x61d4274, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_XmlName();
+/// @brief Method get_XmlName, addr 0x61d5dec, size 0x8, virtual false, abstract: false, final false
+inline ::StringW get_XmlName() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr EnumMap_EnumMapMember();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr EnumMap_EnumMapMember() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EnumMap_EnumMapMember", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  EnumMap_EnumMapMember(EnumMap_EnumMapMember&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EnumMap_EnumMapMember", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  EnumMap_EnumMapMember(EnumMap_EnumMapMember const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "EnumMap_EnumMapMember", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+EnumMap_EnumMapMember(EnumMap_EnumMapMember && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9549 };
+// Ctor Parameters [CppParam { name: "", ty: "EnumMap_EnumMapMember", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+EnumMap_EnumMapMember(EnumMap_EnumMapMember const& ) = delete;
 
-  /// @brief Field _xmlName, offset: 0x10, size: 0x8, def value: None
-  ::StringW ____xmlName;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9550};
 
-  /// @brief Field _enumName, offset: 0x18, size: 0x8, def value: None
-  ::StringW ____enumName;
+/// @brief Field _xmlName, offset: 0x10, size: 0x8, def value: None
+ ::StringW  ____xmlName;
 
-  /// @brief Field _value, offset: 0x20, size: 0x8, def value: None
-  int64_t ____value;
+/// @brief Field _enumName, offset: 0x18, size: 0x8, def value: None
+ ::StringW  ____enumName;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _value, offset: 0x20, size: 0x8, def value: None
+ int64_t  ____value;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Xml::Serialization::EnumMap_EnumMapMember, ____xmlName) == 0x10, "Offset mismatch!");
@@ -115,128 +115,125 @@ static_assert(offsetof(::System::Xml::Serialization::EnumMap_EnumMapMember, ____
 
 static_assert(::cordl_internals::size_check_v<::System::Xml::Serialization::EnumMap_EnumMapMember, 0x28>, "Size mismatch!");
 
-} // namespace System::Xml::Serialization
+} // namespace end def System::Xml::Serialization
 // Dependencies System.Xml.Serialization.ObjectMap
 namespace System::Xml::Serialization {
 // Is value type: false
 // CS Name: System.Xml.Serialization.EnumMap
 class CORDL_TYPE EnumMap : public ::System::Xml::Serialization::ObjectMap {
 public:
-  // Declarations
-  using EnumMapMember = ::System::Xml::Serialization::EnumMap_EnumMapMember;
+// Declarations
+using EnumMapMember = ::System::Xml::Serialization::EnumMap_EnumMapMember;
 
-  __declspec(property(get = get_EnumNames)) ::ArrayW<::StringW, ::Array<::StringW>*> EnumNames;
+ __declspec(property(get=get_EnumNames)) ::ArrayW<::StringW,::Array<::StringW>*>  EnumNames;
 
-  __declspec(property(get = get_IsFlags)) bool IsFlags;
+ __declspec(property(get=get_IsFlags)) bool  IsFlags;
 
-  __declspec(property(get = get_Values)) ::ArrayW<int64_t, ::Array<int64_t>*> Values;
+ __declspec(property(get=get_Values)) ::ArrayW<int64_t,::Array<int64_t>*>  Values;
 
-  __declspec(property(get = get_XmlNames)) ::ArrayW<::StringW, ::Array<::StringW>*> XmlNames;
+ __declspec(property(get=get_XmlNames)) ::ArrayW<::StringW,::Array<::StringW>*>  XmlNames;
 
-  /// @brief Field _enumNames, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__enumNames, put = __cordl_internal_set__enumNames)) ::ArrayW<::StringW, ::Array<::StringW>*> _enumNames;
+/// @brief Field _enumNames, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get__enumNames, put=__cordl_internal_set__enumNames)) ::ArrayW<::StringW,::Array<::StringW>*>  _enumNames;
 
-  /// @brief Field _isFlags, offset 0x18, size 0x1
-  __declspec(property(get = __cordl_internal_get__isFlags, put = __cordl_internal_set__isFlags)) bool _isFlags;
+/// @brief Field _isFlags, offset 0x18, size 0x1 
+ __declspec(property(get=__cordl_internal_get__isFlags, put=__cordl_internal_set__isFlags)) bool  _isFlags;
 
-  /// @brief Field _members, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__members,
-                      put = __cordl_internal_set__members)) ::ArrayW<::System::Xml::Serialization::EnumMap_EnumMapMember*, ::Array<::System::Xml::Serialization::EnumMap_EnumMapMember*>*>
-      _members;
+/// @brief Field _members, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get__members, put=__cordl_internal_set__members)) ::ArrayW<::System::Xml::Serialization::EnumMap_EnumMapMember*,::Array<::System::Xml::Serialization::EnumMap_EnumMapMember*>*>  _members;
 
-  /// @brief Field _values, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__values, put = __cordl_internal_set__values)) ::ArrayW<int64_t, ::Array<int64_t>*> _values;
+/// @brief Field _values, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get__values, put=__cordl_internal_set__values)) ::ArrayW<int64_t,::Array<int64_t>*>  _values;
 
-  /// @brief Field _xmlNames, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__xmlNames, put = __cordl_internal_set__xmlNames)) ::ArrayW<::StringW, ::Array<::StringW>*> _xmlNames;
+/// @brief Field _xmlNames, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get__xmlNames, put=__cordl_internal_set__xmlNames)) ::ArrayW<::StringW,::Array<::StringW>*>  _xmlNames;
 
-  /// @brief Method GetEnumName, addr 0x61d3fac, size 0x2bc, virtual false, abstract: false, final false
-  inline ::StringW GetEnumName(::StringW typeName, ::StringW xmlName);
+/// @brief Method GetEnumName, addr 0x61d5b24, size 0x2bc, virtual false, abstract: false, final false
+inline ::StringW GetEnumName(::StringW  typeName, ::StringW  xmlName) ;
 
-  /// @brief Method GetXmlName, addr 0x61ce3c0, size 0x36c, virtual false, abstract: false, final false
-  inline ::StringW GetXmlName(::StringW typeName, ::System::Object* enumValue);
+/// @brief Method GetXmlName, addr 0x61cff38, size 0x36c, virtual false, abstract: false, final false
+inline ::StringW GetXmlName(::StringW  typeName, ::System::Object*  enumValue) ;
 
-  static inline ::System::Xml::Serialization::EnumMap* New_ctor(::ArrayW<::System::Xml::Serialization::EnumMap_EnumMapMember*, ::Array<::System::Xml::Serialization::EnumMap_EnumMapMember*>*> members,
-                                                                bool isFlags);
+static inline ::System::Xml::Serialization::EnumMap* New_ctor(::ArrayW<::System::Xml::Serialization::EnumMap_EnumMapMember*,::Array<::System::Xml::Serialization::EnumMap_EnumMapMember*>*>  members, bool  isFlags) ;
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get__enumNames() const;
+constexpr ::ArrayW<::StringW,::Array<::StringW>*> const& __cordl_internal_get__enumNames() const;
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get__enumNames();
+constexpr ::ArrayW<::StringW,::Array<::StringW>*>& __cordl_internal_get__enumNames() ;
 
-  constexpr bool const& __cordl_internal_get__isFlags() const;
+constexpr bool const& __cordl_internal_get__isFlags() const;
 
-  constexpr bool& __cordl_internal_get__isFlags();
+constexpr bool& __cordl_internal_get__isFlags() ;
 
-  constexpr ::ArrayW<::System::Xml::Serialization::EnumMap_EnumMapMember*, ::Array<::System::Xml::Serialization::EnumMap_EnumMapMember*>*> const& __cordl_internal_get__members() const;
+constexpr ::ArrayW<::System::Xml::Serialization::EnumMap_EnumMapMember*,::Array<::System::Xml::Serialization::EnumMap_EnumMapMember*>*> const& __cordl_internal_get__members() const;
 
-  constexpr ::ArrayW<::System::Xml::Serialization::EnumMap_EnumMapMember*, ::Array<::System::Xml::Serialization::EnumMap_EnumMapMember*>*>& __cordl_internal_get__members();
+constexpr ::ArrayW<::System::Xml::Serialization::EnumMap_EnumMapMember*,::Array<::System::Xml::Serialization::EnumMap_EnumMapMember*>*>& __cordl_internal_get__members() ;
 
-  constexpr ::ArrayW<int64_t, ::Array<int64_t>*> const& __cordl_internal_get__values() const;
+constexpr ::ArrayW<int64_t,::Array<int64_t>*> const& __cordl_internal_get__values() const;
 
-  constexpr ::ArrayW<int64_t, ::Array<int64_t>*>& __cordl_internal_get__values();
+constexpr ::ArrayW<int64_t,::Array<int64_t>*>& __cordl_internal_get__values() ;
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get__xmlNames() const;
+constexpr ::ArrayW<::StringW,::Array<::StringW>*> const& __cordl_internal_get__xmlNames() const;
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get__xmlNames();
+constexpr ::ArrayW<::StringW,::Array<::StringW>*>& __cordl_internal_get__xmlNames() ;
 
-  constexpr void __cordl_internal_set__enumNames(::ArrayW<::StringW, ::Array<::StringW>*> value);
+constexpr void __cordl_internal_set__enumNames(::ArrayW<::StringW,::Array<::StringW>*>  value) ;
 
-  constexpr void __cordl_internal_set__isFlags(bool value);
+constexpr void __cordl_internal_set__isFlags(bool  value) ;
 
-  constexpr void __cordl_internal_set__members(::ArrayW<::System::Xml::Serialization::EnumMap_EnumMapMember*, ::Array<::System::Xml::Serialization::EnumMap_EnumMapMember*>*> value);
+constexpr void __cordl_internal_set__members(::ArrayW<::System::Xml::Serialization::EnumMap_EnumMapMember*,::Array<::System::Xml::Serialization::EnumMap_EnumMapMember*>*>  value) ;
 
-  constexpr void __cordl_internal_set__values(::ArrayW<int64_t, ::Array<int64_t>*> value);
+constexpr void __cordl_internal_set__values(::ArrayW<int64_t,::Array<int64_t>*>  value) ;
 
-  constexpr void __cordl_internal_set__xmlNames(::ArrayW<::StringW, ::Array<::StringW>*> value);
+constexpr void __cordl_internal_set__xmlNames(::ArrayW<::StringW,::Array<::StringW>*>  value) ;
 
-  /// @brief Method .ctor, addr 0x61d3e48, size 0x144, virtual false, abstract: false, final false
-  inline void _ctor(::ArrayW<::System::Xml::Serialization::EnumMap_EnumMapMember*, ::Array<::System::Xml::Serialization::EnumMap_EnumMapMember*>*> members, bool isFlags);
+/// @brief Method .ctor, addr 0x61d59c0, size 0x144, virtual false, abstract: false, final false
+inline void _ctor(::ArrayW<::System::Xml::Serialization::EnumMap_EnumMapMember*,::Array<::System::Xml::Serialization::EnumMap_EnumMapMember*>*>  members, bool  isFlags) ;
 
-  /// @brief Method get_EnumNames, addr 0x61d3f94, size 0x8, virtual false, abstract: false, final false
-  inline ::ArrayW<::StringW, ::Array<::StringW>*> get_EnumNames();
+/// @brief Method get_EnumNames, addr 0x61d5b0c, size 0x8, virtual false, abstract: false, final false
+inline ::ArrayW<::StringW,::Array<::StringW>*> get_EnumNames() ;
 
-  /// @brief Method get_IsFlags, addr 0x61d3f8c, size 0x8, virtual false, abstract: false, final false
-  inline bool get_IsFlags();
+/// @brief Method get_IsFlags, addr 0x61d5b04, size 0x8, virtual false, abstract: false, final false
+inline bool get_IsFlags() ;
 
-  /// @brief Method get_Values, addr 0x61d3fa4, size 0x8, virtual false, abstract: false, final false
-  inline ::ArrayW<int64_t, ::Array<int64_t>*> get_Values();
+/// @brief Method get_Values, addr 0x61d5b1c, size 0x8, virtual false, abstract: false, final false
+inline ::ArrayW<int64_t,::Array<int64_t>*> get_Values() ;
 
-  /// @brief Method get_XmlNames, addr 0x61d3f9c, size 0x8, virtual false, abstract: false, final false
-  inline ::ArrayW<::StringW, ::Array<::StringW>*> get_XmlNames();
+/// @brief Method get_XmlNames, addr 0x61d5b14, size 0x8, virtual false, abstract: false, final false
+inline ::ArrayW<::StringW,::Array<::StringW>*> get_XmlNames() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr EnumMap();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr EnumMap() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EnumMap", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  EnumMap(EnumMap&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EnumMap", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  EnumMap(EnumMap const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "EnumMap", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+EnumMap(EnumMap && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9550 };
+// Ctor Parameters [CppParam { name: "", ty: "EnumMap", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+EnumMap(EnumMap const& ) = delete;
 
-  /// @brief Field _members, offset: 0x10, size: 0x8, def value: None
-  ::ArrayW<::System::Xml::Serialization::EnumMap_EnumMapMember*, ::Array<::System::Xml::Serialization::EnumMap_EnumMapMember*>*> ____members;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9551};
 
-  /// @brief Field _isFlags, offset: 0x18, size: 0x1, def value: None
-  bool ____isFlags;
+/// @brief Field _members, offset: 0x10, size: 0x8, def value: None
+ ::ArrayW<::System::Xml::Serialization::EnumMap_EnumMapMember*,::Array<::System::Xml::Serialization::EnumMap_EnumMapMember*>*>  ____members;
 
-  /// @brief Field _enumNames, offset: 0x20, size: 0x8, def value: None
-  ::ArrayW<::StringW, ::Array<::StringW>*> ____enumNames;
+/// @brief Field _isFlags, offset: 0x18, size: 0x1, def value: None
+ bool  ____isFlags;
 
-  /// @brief Field _xmlNames, offset: 0x28, size: 0x8, def value: None
-  ::ArrayW<::StringW, ::Array<::StringW>*> ____xmlNames;
+/// @brief Field _enumNames, offset: 0x20, size: 0x8, def value: None
+ ::ArrayW<::StringW,::Array<::StringW>*>  ____enumNames;
 
-  /// @brief Field _values, offset: 0x30, size: 0x8, def value: None
-  ::ArrayW<int64_t, ::Array<int64_t>*> ____values;
+/// @brief Field _xmlNames, offset: 0x28, size: 0x8, def value: None
+ ::ArrayW<::StringW,::Array<::StringW>*>  ____xmlNames;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _values, offset: 0x30, size: 0x8, def value: None
+ ::ArrayW<int64_t,::Array<int64_t>*>  ____values;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Xml::Serialization::EnumMap, ____members) == 0x10, "Offset mismatch!");
@@ -251,7 +248,7 @@ static_assert(offsetof(::System::Xml::Serialization::EnumMap, ____values) == 0x3
 
 static_assert(::cordl_internals::size_check_v<::System::Xml::Serialization::EnumMap, 0x38>, "Size mismatch!");
 
-} // namespace System::Xml::Serialization
+} // namespace end def System::Xml::Serialization
 NEED_NO_BOX(::System::Xml::Serialization::EnumMap);
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Serialization::EnumMap*, "System.Xml.Serialization", "EnumMap");
 NEED_NO_BOX(::System::Xml::Serialization::EnumMap_EnumMapMember);

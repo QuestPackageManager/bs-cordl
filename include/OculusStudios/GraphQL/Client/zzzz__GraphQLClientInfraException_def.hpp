@@ -18,39 +18,39 @@ namespace OculusStudios::GraphQL::Client {
 // CS Name: OculusStudios.GraphQL.Client.GraphQLClientInfraException
 class CORDL_TYPE GraphQLClientInfraException : public ::OculusStudios::GraphQL::Client::GraphQLException {
 public:
-  // Declarations
-  static inline ::OculusStudios::GraphQL::Client::GraphQLClientInfraException* New_ctor();
+// Declarations
+static inline ::OculusStudios::GraphQL::Client::GraphQLClientInfraException* New_ctor() ;
 
-  static inline ::OculusStudios::GraphQL::Client::GraphQLClientInfraException* New_ctor(::StringW message);
+static inline ::OculusStudios::GraphQL::Client::GraphQLClientInfraException* New_ctor(::StringW  message) ;
 
-  /// @brief Method .ctor, addr 0x5de2cd8, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5de4850, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method .ctor, addr 0x5de2cdc, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor(::StringW message);
+/// @brief Method .ctor, addr 0x5de4854, size 0x4, virtual false, abstract: false, final false
+inline void _ctor(::StringW  message) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr GraphQLClientInfraException();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr GraphQLClientInfraException() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GraphQLClientInfraException", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  GraphQLClientInfraException(GraphQLClientInfraException&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GraphQLClientInfraException", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  GraphQLClientInfraException(GraphQLClientInfraException const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "GraphQLClientInfraException", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+GraphQLClientInfraException(GraphQLClientInfraException && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20143 };
+// Ctor Parameters [CppParam { name: "", ty: "GraphQLClientInfraException", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+GraphQLClientInfraException(GraphQLClientInfraException const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20146};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OculusStudios::GraphQL::Client::GraphQLClientInfraException, 0x90>, "Size mismatch!");
 
-} // namespace OculusStudios::GraphQL::Client
+} // namespace end def OculusStudios::GraphQL::Client
 NEED_NO_BOX(::OculusStudios::GraphQL::Client::GraphQLClientInfraException);
 DEFINE_IL2CPP_ARG_TYPE(::OculusStudios::GraphQL::Client::GraphQLClientInfraException*, "OculusStudios.GraphQL.Client", "GraphQLClientInfraException");

@@ -23,45 +23,45 @@ namespace System::Diagnostics {
 // CS Name: System.Diagnostics.Trace
 class CORDL_TYPE Trace : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field correlationManager, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_correlationManager, put = setStaticF_correlationManager)) ::System::Diagnostics::CorrelationManager* correlationManager;
+// Declarations
+/// @brief Field correlationManager, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_correlationManager, put=setStaticF_correlationManager)) ::System::Diagnostics::CorrelationManager*  correlationManager;
 
-  static inline ::System::Diagnostics::CorrelationManager* getStaticF_correlationManager();
+static inline ::System::Diagnostics::CorrelationManager* getStaticF_correlationManager() ;
 
-  /// @brief Method get_AutoFlush, addr 0x6254c24, size 0x50, virtual false, abstract: false, final false
-  static inline bool get_AutoFlush();
+/// @brief Method get_AutoFlush, addr 0x625679c, size 0x50, virtual false, abstract: false, final false
+static inline bool get_AutoFlush() ;
 
-  /// @brief Method get_CorrelationManager, addr 0x6254cd4, size 0x94, virtual false, abstract: false, final false
-  static inline ::System::Diagnostics::CorrelationManager* get_CorrelationManager();
+/// @brief Method get_CorrelationManager, addr 0x625684c, size 0x94, virtual false, abstract: false, final false
+static inline ::System::Diagnostics::CorrelationManager* get_CorrelationManager() ;
 
-  /// @brief Method get_Listeners, addr 0x6254934, size 0x50, virtual false, abstract: false, final false
-  static inline ::System::Diagnostics::TraceListenerCollection* get_Listeners();
+/// @brief Method get_Listeners, addr 0x62564ac, size 0x50, virtual false, abstract: false, final false
+static inline ::System::Diagnostics::TraceListenerCollection* get_Listeners() ;
 
-  static inline void setStaticF_correlationManager(::System::Diagnostics::CorrelationManager* value);
+static inline void setStaticF_correlationManager(::System::Diagnostics::CorrelationManager*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Trace();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr Trace() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Trace", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  Trace(Trace&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Trace", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  Trace(Trace const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "Trace", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Trace(Trace && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11120 };
+// Ctor Parameters [CppParam { name: "", ty: "Trace", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Trace(Trace const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11121};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Diagnostics::Trace, 0x10>, "Size mismatch!");
 
-} // namespace System::Diagnostics
+} // namespace end def System::Diagnostics
 NEED_NO_BOX(::System::Diagnostics::Trace);
 DEFINE_IL2CPP_ARG_TYPE(::System::Diagnostics::Trace*, "System.Diagnostics", "Trace");

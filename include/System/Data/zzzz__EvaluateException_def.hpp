@@ -24,44 +24,44 @@ namespace System::Data {
 // CS Name: System.Data.EvaluateException
 class CORDL_TYPE EvaluateException : public ::System::Data::InvalidExpressionException {
 public:
-  // Declarations
-  static inline ::System::Data::EvaluateException* New_ctor();
+// Declarations
+static inline ::System::Data::EvaluateException* New_ctor() ;
 
-  static inline ::System::Data::EvaluateException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
+static inline ::System::Data::EvaluateException* New_ctor(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context) ;
 
-  static inline ::System::Data::EvaluateException* New_ctor(::StringW s);
+static inline ::System::Data::EvaluateException* New_ctor(::StringW  s) ;
 
-  /// @brief Method .ctor, addr 0x5f0080c, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5f02384, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method .ctor, addr 0x5f00804, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
+/// @brief Method .ctor, addr 0x5f0237c, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context) ;
 
-  /// @brief Method .ctor, addr 0x5f00814, size 0x24, virtual false, abstract: false, final false
-  inline void _ctor(::StringW s);
+/// @brief Method .ctor, addr 0x5f0238c, size 0x24, virtual false, abstract: false, final false
+inline void _ctor(::StringW  s) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr EvaluateException();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr EvaluateException() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EvaluateException", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  EvaluateException(EvaluateException&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EvaluateException", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  EvaluateException(EvaluateException const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "EvaluateException", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+EvaluateException(EvaluateException && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13806 };
+// Ctor Parameters [CppParam { name: "", ty: "EvaluateException", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+EvaluateException(EvaluateException const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{13807};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Data::EvaluateException, 0x90>, "Size mismatch!");
 
-} // namespace System::Data
+} // namespace end def System::Data
 NEED_NO_BOX(::System::Data::EvaluateException);
 DEFINE_IL2CPP_ARG_TYPE(::System::Data::EvaluateException*, "System.Data", "EvaluateException");

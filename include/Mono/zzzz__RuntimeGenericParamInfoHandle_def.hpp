@@ -24,54 +24,54 @@ struct RuntimeGenericParamInfoHandle;
 }
 // Write type traits
 MARK_VAL_T(::Mono::RuntimeGenericParamInfoHandle);
-// Dependencies
+// Dependencies 
 namespace Mono {
 // Is value type: true
 // CS Name: Mono.RuntimeGenericParamInfoHandle
 struct CORDL_TYPE RuntimeGenericParamInfoHandle {
 public:
-  // Declarations
-  __declspec(property(get = get_Attributes)) ::System::Reflection::GenericParameterAttributes Attributes;
+// Declarations
+ __declspec(property(get=get_Attributes)) ::System::Reflection::GenericParameterAttributes  Attributes;
 
-  __declspec(property(get = get_Constraints)) ::ArrayW<::System::Type*, ::Array<::System::Type*>*> Constraints;
+ __declspec(property(get=get_Constraints)) ::ArrayW<::System::Type*,::Array<::System::Type*>*>  Constraints;
 
-  /// @brief Method GetConstraints, addr 0x59712e0, size 0x110, virtual false, abstract: false, final false
-  inline ::ArrayW<::System::Type*, ::Array<::System::Type*>*> GetConstraints();
+/// @brief Method GetConstraints, addr 0x5972e58, size 0x110, virtual false, abstract: false, final false
+inline ::ArrayW<::System::Type*,::Array<::System::Type*>*> GetConstraints() ;
 
-  /// @brief Method GetConstraintsCount, addr 0x5971408, size 0x40, virtual false, abstract: false, final false
-  inline int32_t GetConstraintsCount();
+/// @brief Method GetConstraintsCount, addr 0x5972f80, size 0x40, virtual false, abstract: false, final false
+inline int32_t GetConstraintsCount() ;
 
-  /// @brief Method .ctor, addr 0x59712d4, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::System::IntPtr ptr);
+/// @brief Method .ctor, addr 0x5972e4c, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(::System::IntPtr  ptr) ;
 
-  /// @brief Method get_Attributes, addr 0x59713f0, size 0x18, virtual false, abstract: false, final false
-  inline ::System::Reflection::GenericParameterAttributes get_Attributes();
+/// @brief Method get_Attributes, addr 0x5972f68, size 0x18, virtual false, abstract: false, final false
+inline ::System::Reflection::GenericParameterAttributes get_Attributes() ;
 
-  /// @brief Method get_Constraints, addr 0x59712dc, size 0x4, virtual false, abstract: false, final false
-  inline ::ArrayW<::System::Type*, ::Array<::System::Type*>*> get_Constraints();
+/// @brief Method get_Constraints, addr 0x5972e54, size 0x4, virtual false, abstract: false, final false
+inline ::ArrayW<::System::Type*,::Array<::System::Type*>*> get_Constraints() ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RuntimeGenericParamInfoHandle();
+// Ctor Parameters []
+// @brief default ctor
+constexpr RuntimeGenericParamInfoHandle() ;
 
-  // Ctor Parameters [CppParam { name: "value", ty: "::Mono::RuntimeStructs_GenericParamInfo*", modifiers: "", def_value: None }]
-  constexpr RuntimeGenericParamInfoHandle(::Mono::RuntimeStructs_GenericParamInfo* value) noexcept;
+// Ctor Parameters [CppParam { name: "value", ty: "::Mono::RuntimeStructs_GenericParamInfo*", modifiers: "", def_value: None }]
+constexpr RuntimeGenericParamInfoHandle(::Mono::RuntimeStructs_GenericParamInfo*  value) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2230 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{2230};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x8};
 
-  /// @brief Field value, offset: 0x0, size: 0x8, def value: None
-  ::Mono::RuntimeStructs_GenericParamInfo* value;
+/// @brief Field value, offset: 0x0, size: 0x8, def value: None
+ ::Mono::RuntimeStructs_GenericParamInfo*  value;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::Mono::RuntimeGenericParamInfoHandle, value) == 0x0, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::Mono::RuntimeGenericParamInfoHandle, 0x8>, "Size mismatch!");
 
-} // namespace Mono
+} // namespace end def Mono
 DEFINE_IL2CPP_ARG_TYPE(::Mono::RuntimeGenericParamInfoHandle, "Mono", "RuntimeGenericParamInfoHandle");

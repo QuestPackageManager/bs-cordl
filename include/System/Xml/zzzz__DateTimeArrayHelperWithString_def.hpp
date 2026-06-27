@@ -27,51 +27,49 @@ MARK_REF_PTR_T(::System::Xml::DateTimeArrayHelperWithString);
 namespace System::Xml {
 // Is value type: false
 // CS Name: System.Xml.DateTimeArrayHelperWithString
-class CORDL_TYPE DateTimeArrayHelperWithString : public ::System::Xml::ArrayHelper_2<::StringW, ::System::DateTime> {
+class CORDL_TYPE DateTimeArrayHelperWithString : public ::System::Xml::ArrayHelper_2<::StringW,::System::DateTime> {
 public:
-  // Declarations
-  /// @brief Field Instance, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance)) ::System::Xml::DateTimeArrayHelperWithString* Instance;
+// Declarations
+/// @brief Field Instance, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_Instance, put=setStaticF_Instance)) ::System::Xml::DateTimeArrayHelperWithString*  Instance;
 
-  static inline ::System::Xml::DateTimeArrayHelperWithString* New_ctor();
+static inline ::System::Xml::DateTimeArrayHelperWithString* New_ctor() ;
 
-  /// @brief Method ReadArray, addr 0x5fbccb0, size 0x38, virtual true, abstract: false, final false
-  inline int32_t ReadArray(::System::Xml::XmlDictionaryReader* reader, ::StringW localName, ::StringW namespaceUri, ::ArrayW<::System::DateTime, ::Array<::System::DateTime>*> array, int32_t offset,
-                           int32_t count);
+/// @brief Method ReadArray, addr 0x5fbe828, size 0x38, virtual true, abstract: false, final false
+inline int32_t ReadArray(::System::Xml::XmlDictionaryReader*  reader, ::StringW  localName, ::StringW  namespaceUri, ::ArrayW<::System::DateTime,::Array<::System::DateTime>*>  array, int32_t  offset, int32_t  count) ;
 
-  /// @brief Method WriteArray, addr 0x5fbcce8, size 0x3c, virtual true, abstract: false, final false
-  inline void WriteArray(::System::Xml::XmlDictionaryWriter* writer, ::StringW prefix, ::StringW localName, ::StringW namespaceUri, ::ArrayW<::System::DateTime, ::Array<::System::DateTime>*> array,
-                         int32_t offset, int32_t count);
+/// @brief Method WriteArray, addr 0x5fbe860, size 0x3c, virtual true, abstract: false, final false
+inline void WriteArray(::System::Xml::XmlDictionaryWriter*  writer, ::StringW  prefix, ::StringW  localName, ::StringW  namespaceUri, ::ArrayW<::System::DateTime,::Array<::System::DateTime>*>  array, int32_t  offset, int32_t  count) ;
 
-  /// @brief Method .ctor, addr 0x5fbcd24, size 0x3c, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5fbe89c, size 0x3c, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  static inline ::System::Xml::DateTimeArrayHelperWithString* getStaticF_Instance();
+static inline ::System::Xml::DateTimeArrayHelperWithString* getStaticF_Instance() ;
 
-  static inline void setStaticF_Instance(::System::Xml::DateTimeArrayHelperWithString* value);
+static inline void setStaticF_Instance(::System::Xml::DateTimeArrayHelperWithString*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DateTimeArrayHelperWithString();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr DateTimeArrayHelperWithString() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DateTimeArrayHelperWithString", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  DateTimeArrayHelperWithString(DateTimeArrayHelperWithString&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DateTimeArrayHelperWithString", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  DateTimeArrayHelperWithString(DateTimeArrayHelperWithString const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "DateTimeArrayHelperWithString", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+DateTimeArrayHelperWithString(DateTimeArrayHelperWithString && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16905 };
+// Ctor Parameters [CppParam { name: "", ty: "DateTimeArrayHelperWithString", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+DateTimeArrayHelperWithString(DateTimeArrayHelperWithString const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{16907};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::DateTimeArrayHelperWithString, 0x10>, "Size mismatch!");
 
-} // namespace System::Xml
+} // namespace end def System::Xml
 NEED_NO_BOX(::System::Xml::DateTimeArrayHelperWithString);
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::DateTimeArrayHelperWithString*, "System.Xml", "DateTimeArrayHelperWithString");

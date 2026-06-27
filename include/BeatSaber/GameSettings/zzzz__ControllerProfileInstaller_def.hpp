@@ -17,37 +17,37 @@ namespace BeatSaber::GameSettings {
 // CS Name: BeatSaber.GameSettings.ControllerProfileInstaller
 class CORDL_TYPE ControllerProfileInstaller : public ::Zenject::Installer_1<::BeatSaber::GameSettings::ControllerProfileInstaller*> {
 public:
-  // Declarations
-  /// @brief Method InstallBindings, addr 0x31fb378, size 0xbc, virtual true, abstract: false, final false
-  inline void InstallBindings();
+// Declarations
+/// @brief Method InstallBindings, addr 0x31fc098, size 0xbc, virtual true, abstract: false, final false
+inline void InstallBindings() ;
 
-  static inline ::BeatSaber::GameSettings::ControllerProfileInstaller* New_ctor();
+static inline ::BeatSaber::GameSettings::ControllerProfileInstaller* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x31fb434, size 0x3c, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x31fc154, size 0x3c, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ControllerProfileInstaller();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ControllerProfileInstaller() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ControllerProfileInstaller", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ControllerProfileInstaller(ControllerProfileInstaller&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ControllerProfileInstaller", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ControllerProfileInstaller(ControllerProfileInstaller const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ControllerProfileInstaller", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ControllerProfileInstaller(ControllerProfileInstaller && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21888 };
+// Ctor Parameters [CppParam { name: "", ty: "ControllerProfileInstaller", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ControllerProfileInstaller(ControllerProfileInstaller const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{21891};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::BeatSaber::GameSettings::ControllerProfileInstaller, 0x18>, "Size mismatch!");
 
-} // namespace BeatSaber::GameSettings
+} // namespace end def BeatSaber::GameSettings
 NEED_NO_BOX(::BeatSaber::GameSettings::ControllerProfileInstaller);
 DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::GameSettings::ControllerProfileInstaller*, "BeatSaber.GameSettings", "ControllerProfileInstaller");

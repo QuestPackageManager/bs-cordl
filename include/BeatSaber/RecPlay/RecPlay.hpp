@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "BeatSaber/RecPlay/FrameSample.hpp"
 #include "BeatSaber/RecPlay/PlayerPose.hpp"
@@ -16,5 +16,6 @@ module;
 #include "BeatSaber/RecPlay/PoseSampler.hpp"
 #include "BeatSaber/RecPlay/Poser.hpp"
 #ifdef __cpp_modules
-export module RecPlay;
-#endif
+                    export module RecPlay;
+                    #endif
+                

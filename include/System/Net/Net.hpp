@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "System/Net/AuthenticationManager.hpp"
 #include "System/Net/AuthenticationSchemeSelector.hpp"
@@ -145,5 +145,6 @@ module;
 #include "System/Net/WebResponseStream.hpp"
 #include "System/Net/WebUtility.hpp"
 #ifdef __cpp_modules
-export module Net;
-#endif
+                    export module Net;
+                    #endif
+                

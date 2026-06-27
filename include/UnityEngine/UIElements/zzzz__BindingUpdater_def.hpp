@@ -15,16 +15,19 @@ namespace System {
 class Object;
 }
 namespace System {
-template <typename T1, typename T2, typename T3> struct ValueTuple_3;
+template<typename T1,typename T2,typename T3>
+struct ValueTuple_3;
 }
 namespace System {
-template <typename T1, typename T2, typename T3, typename T4> struct ValueTuple_4;
+template<typename T1,typename T2,typename T3,typename T4>
+struct ValueTuple_4;
 }
 namespace Unity::Properties {
 struct PropertyPath;
 }
 namespace Unity::Properties {
-template <typename TContainer, typename TValue> class Property_2;
+template<typename TContainer,typename TValue>
+class Property_2;
 }
 namespace Unity::Properties {
 struct VisitReturnCode;
@@ -73,97 +76,97 @@ namespace UnityEngine::UIElements {
 // CS Name: UnityEngine.UIElements.BindingUpdater/CastDataSourceVisitor
 class CORDL_TYPE BindingUpdater_CastDataSourceVisitor : public ::Unity::Properties::ConcreteTypeVisitor {
 public:
-  // Declarations
-  __declspec(property(get = get_Binding, put = set_Binding)) ::UnityEngine::UIElements::DataBinding* Binding;
+// Declarations
+ __declspec(property(get=get_Binding, put=set_Binding)) ::UnityEngine::UIElements::DataBinding*  Binding;
 
-  /// @brief Field <Binding>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__Binding_k__BackingField, put = __cordl_internal_set__Binding_k__BackingField)) ::UnityEngine::UIElements::DataBinding* _Binding_k__BackingField;
+/// @brief Field <Binding>k__BackingField, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get__Binding_k__BackingField, put=__cordl_internal_set__Binding_k__BackingField)) ::UnityEngine::UIElements::DataBinding*  _Binding_k__BackingField;
 
-  /// @brief Field <bindingContext>k__BackingField, offset 0x18, size 0x138
-  __declspec(property(get = __cordl_internal_get__bindingContext_k__BackingField,
-                      put = __cordl_internal_set__bindingContext_k__BackingField)) ::UnityEngine::UIElements::BindingContext _bindingContext_k__BackingField;
+/// @brief Field <bindingContext>k__BackingField, offset 0x18, size 0x138 
+ __declspec(property(get=__cordl_internal_get__bindingContext_k__BackingField, put=__cordl_internal_set__bindingContext_k__BackingField)) ::UnityEngine::UIElements::BindingContext  _bindingContext_k__BackingField;
 
-  /// @brief Field <result>k__BackingField, offset 0x150, size 0x10
-  __declspec(property(get = __cordl_internal_get__result_k__BackingField, put = __cordl_internal_set__result_k__BackingField)) ::UnityEngine::UIElements::BindingResult _result_k__BackingField;
+/// @brief Field <result>k__BackingField, offset 0x150, size 0x10 
+ __declspec(property(get=__cordl_internal_get__result_k__BackingField, put=__cordl_internal_set__result_k__BackingField)) ::UnityEngine::UIElements::BindingResult  _result_k__BackingField;
 
-  __declspec(property(get = get_bindingContext, put = set_bindingContext)) ::UnityEngine::UIElements::BindingContext bindingContext;
+ __declspec(property(get=get_bindingContext, put=set_bindingContext)) ::UnityEngine::UIElements::BindingContext  bindingContext;
 
-  __declspec(property(get = get_result, put = set_result)) ::UnityEngine::UIElements::BindingResult result;
+ __declspec(property(get=get_result, put=set_result)) ::UnityEngine::UIElements::BindingResult  result;
 
-  static inline ::UnityEngine::UIElements::BindingUpdater_CastDataSourceVisitor* New_ctor();
+static inline ::UnityEngine::UIElements::BindingUpdater_CastDataSourceVisitor* New_ctor() ;
 
-  /// @brief Method Reset, addr 0x6ad95fc, size 0x10, virtual false, abstract: false, final false
-  inline void Reset();
+/// @brief Method Reset, addr 0x6adb174, size 0x10, virtual false, abstract: false, final false
+inline void Reset() ;
 
-  /// @brief Method VisitContainer, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  template <typename TContainer> inline void VisitContainer(::ByRef<TContainer> container);
+/// @brief Method VisitContainer, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+template<typename TContainer>
+inline void VisitContainer(::ByRef<TContainer>  container) ;
 
-  constexpr ::UnityEngine::UIElements::DataBinding* const& __cordl_internal_get__Binding_k__BackingField() const;
+constexpr ::UnityEngine::UIElements::DataBinding* const& __cordl_internal_get__Binding_k__BackingField() const;
 
-  constexpr ::UnityEngine::UIElements::DataBinding*& __cordl_internal_get__Binding_k__BackingField();
+constexpr ::UnityEngine::UIElements::DataBinding*& __cordl_internal_get__Binding_k__BackingField() ;
 
-  constexpr ::UnityEngine::UIElements::BindingContext const& __cordl_internal_get__bindingContext_k__BackingField() const;
+constexpr ::UnityEngine::UIElements::BindingContext const& __cordl_internal_get__bindingContext_k__BackingField() const;
 
-  constexpr ::UnityEngine::UIElements::BindingContext& __cordl_internal_get__bindingContext_k__BackingField();
+constexpr ::UnityEngine::UIElements::BindingContext& __cordl_internal_get__bindingContext_k__BackingField() ;
 
-  constexpr ::UnityEngine::UIElements::BindingResult const& __cordl_internal_get__result_k__BackingField() const;
+constexpr ::UnityEngine::UIElements::BindingResult const& __cordl_internal_get__result_k__BackingField() const;
 
-  constexpr ::UnityEngine::UIElements::BindingResult& __cordl_internal_get__result_k__BackingField();
+constexpr ::UnityEngine::UIElements::BindingResult& __cordl_internal_get__result_k__BackingField() ;
 
-  constexpr void __cordl_internal_set__Binding_k__BackingField(::UnityEngine::UIElements::DataBinding* value);
+constexpr void __cordl_internal_set__Binding_k__BackingField(::UnityEngine::UIElements::DataBinding*  value) ;
 
-  constexpr void __cordl_internal_set__bindingContext_k__BackingField(::UnityEngine::UIElements::BindingContext value);
+constexpr void __cordl_internal_set__bindingContext_k__BackingField(::UnityEngine::UIElements::BindingContext  value) ;
 
-  constexpr void __cordl_internal_set__result_k__BackingField(::UnityEngine::UIElements::BindingResult value);
+constexpr void __cordl_internal_set__result_k__BackingField(::UnityEngine::UIElements::BindingResult  value) ;
 
-  /// @brief Method .ctor, addr 0x6ad96a8, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6adb220, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_Binding, addr 0x6ad96b0, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::DataBinding* get_Binding();
+/// @brief Method get_Binding, addr 0x6adb228, size 0x8, virtual false, abstract: false, final false
+inline ::UnityEngine::UIElements::DataBinding* get_Binding() ;
 
-  /// @brief Method get_bindingContext, addr 0x6ad96c0, size 0x10, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::BindingContext get_bindingContext();
+/// @brief Method get_bindingContext, addr 0x6adb238, size 0x10, virtual false, abstract: false, final false
+inline ::UnityEngine::UIElements::BindingContext get_bindingContext() ;
 
-  /// @brief Method get_result, addr 0x6ad96dc, size 0xc, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::BindingResult get_result();
+/// @brief Method get_result, addr 0x6adb254, size 0xc, virtual false, abstract: false, final false
+inline ::UnityEngine::UIElements::BindingResult get_result() ;
 
-  /// @brief Method set_Binding, addr 0x6ad96b8, size 0x8, virtual false, abstract: false, final false
-  inline void set_Binding(::UnityEngine::UIElements::DataBinding* value);
+/// @brief Method set_Binding, addr 0x6adb230, size 0x8, virtual false, abstract: false, final false
+inline void set_Binding(::UnityEngine::UIElements::DataBinding*  value) ;
 
-  /// @brief Method set_bindingContext, addr 0x6ad96d0, size 0xc, virtual false, abstract: false, final false
-  inline void set_bindingContext(::UnityEngine::UIElements::BindingContext value);
+/// @brief Method set_bindingContext, addr 0x6adb248, size 0xc, virtual false, abstract: false, final false
+inline void set_bindingContext(::UnityEngine::UIElements::BindingContext  value) ;
 
-  /// @brief Method set_result, addr 0x6ad96e8, size 0x8, virtual false, abstract: false, final false
-  inline void set_result(::UnityEngine::UIElements::BindingResult value);
+/// @brief Method set_result, addr 0x6adb260, size 0x8, virtual false, abstract: false, final false
+inline void set_result(::UnityEngine::UIElements::BindingResult  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BindingUpdater_CastDataSourceVisitor();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr BindingUpdater_CastDataSourceVisitor() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BindingUpdater_CastDataSourceVisitor", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  BindingUpdater_CastDataSourceVisitor(BindingUpdater_CastDataSourceVisitor&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BindingUpdater_CastDataSourceVisitor", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  BindingUpdater_CastDataSourceVisitor(BindingUpdater_CastDataSourceVisitor const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "BindingUpdater_CastDataSourceVisitor", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+BindingUpdater_CastDataSourceVisitor(BindingUpdater_CastDataSourceVisitor && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4027 };
+// Ctor Parameters [CppParam { name: "", ty: "BindingUpdater_CastDataSourceVisitor", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+BindingUpdater_CastDataSourceVisitor(BindingUpdater_CastDataSourceVisitor const& ) = delete;
 
-  /// @brief Field <Binding>k__BackingField, offset: 0x10, size: 0x8, def value: None
-  ::UnityEngine::UIElements::DataBinding* ____Binding_k__BackingField;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4027};
 
-  /// @brief Field <bindingContext>k__BackingField, offset: 0x18, size: 0x138, def value: None
-  ::UnityEngine::UIElements::BindingContext ____bindingContext_k__BackingField;
+/// @brief Field <Binding>k__BackingField, offset: 0x10, size: 0x8, def value: None
+ ::UnityEngine::UIElements::DataBinding*  ____Binding_k__BackingField;
 
-  /// @brief Field <result>k__BackingField, offset: 0x150, size: 0x10, def value: None
-  ::UnityEngine::UIElements::BindingResult ____result_k__BackingField;
+/// @brief Field <bindingContext>k__BackingField, offset: 0x18, size: 0x138, def value: None
+ ::UnityEngine::UIElements::BindingContext  ____bindingContext_k__BackingField;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field <result>k__BackingField, offset: 0x150, size: 0x10, def value: None
+ ::UnityEngine::UIElements::BindingResult  ____result_k__BackingField;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::UIElements::BindingUpdater_CastDataSourceVisitor, ____Binding_k__BackingField) == 0x10, "Offset mismatch!");
@@ -174,125 +177,124 @@ static_assert(offsetof(::UnityEngine::UIElements::BindingUpdater_CastDataSourceV
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::BindingUpdater_CastDataSourceVisitor, 0x160>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements
+} // namespace end def UnityEngine::UIElements
 // Dependencies Unity.Properties.PathVisitor, UnityEngine.UIElements.BindingContext, UnityEngine.UIElements.BindingResult, UnityEngine.UIElements.BindingUpdateStage
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.BindingUpdater/UIPathVisitor
 class CORDL_TYPE BindingUpdater_UIPathVisitor : public ::Unity::Properties::PathVisitor {
 public:
-  // Declarations
-  /// @brief Field <bindingContext>k__BackingField, offset 0xc8, size 0x138
-  __declspec(property(get = __cordl_internal_get__bindingContext_k__BackingField,
-                      put = __cordl_internal_set__bindingContext_k__BackingField)) ::UnityEngine::UIElements::BindingContext _bindingContext_k__BackingField;
+// Declarations
+/// @brief Field <bindingContext>k__BackingField, offset 0xc8, size 0x138 
+ __declspec(property(get=__cordl_internal_get__bindingContext_k__BackingField, put=__cordl_internal_set__bindingContext_k__BackingField)) ::UnityEngine::UIElements::BindingContext  _bindingContext_k__BackingField;
 
-  /// @brief Field <binding>k__BackingField, offset 0xb8, size 0x8
-  __declspec(property(get = __cordl_internal_get__binding_k__BackingField, put = __cordl_internal_set__binding_k__BackingField)) ::UnityEngine::UIElements::DataBinding* _binding_k__BackingField;
+/// @brief Field <binding>k__BackingField, offset 0xb8, size 0x8 
+ __declspec(property(get=__cordl_internal_get__binding_k__BackingField, put=__cordl_internal_set__binding_k__BackingField)) ::UnityEngine::UIElements::DataBinding*  _binding_k__BackingField;
 
-  /// @brief Field <direction>k__BackingField, offset 0xc0, size 0x4
-  __declspec(property(get = __cordl_internal_get__direction_k__BackingField,
-                      put = __cordl_internal_set__direction_k__BackingField)) ::UnityEngine::UIElements::BindingUpdateStage _direction_k__BackingField;
+/// @brief Field <direction>k__BackingField, offset 0xc0, size 0x4 
+ __declspec(property(get=__cordl_internal_get__direction_k__BackingField, put=__cordl_internal_set__direction_k__BackingField)) ::UnityEngine::UIElements::BindingUpdateStage  _direction_k__BackingField;
 
-  /// @brief Field <result>k__BackingField, offset 0x200, size 0x10
-  __declspec(property(get = __cordl_internal_get__result_k__BackingField, put = __cordl_internal_set__result_k__BackingField)) ::UnityEngine::UIElements::BindingResult _result_k__BackingField;
+/// @brief Field <result>k__BackingField, offset 0x200, size 0x10 
+ __declspec(property(get=__cordl_internal_get__result_k__BackingField, put=__cordl_internal_set__result_k__BackingField)) ::UnityEngine::UIElements::BindingResult  _result_k__BackingField;
 
-  __declspec(property(get = get_binding, put = set_binding)) ::UnityEngine::UIElements::DataBinding* binding;
+ __declspec(property(get=get_binding, put=set_binding)) ::UnityEngine::UIElements::DataBinding*  binding;
 
-  __declspec(property(get = get_bindingContext, put = set_bindingContext)) ::UnityEngine::UIElements::BindingContext bindingContext;
+ __declspec(property(get=get_bindingContext, put=set_bindingContext)) ::UnityEngine::UIElements::BindingContext  bindingContext;
 
-  __declspec(property(get = get_direction, put = set_direction)) ::UnityEngine::UIElements::BindingUpdateStage direction;
+ __declspec(property(get=get_direction, put=set_direction)) ::UnityEngine::UIElements::BindingUpdateStage  direction;
 
-  __declspec(property(get = get_result, put = set_result)) ::UnityEngine::UIElements::BindingResult result;
+ __declspec(property(get=get_result, put=set_result)) ::UnityEngine::UIElements::BindingResult  result;
 
-  static inline ::UnityEngine::UIElements::BindingUpdater_UIPathVisitor* New_ctor();
+static inline ::UnityEngine::UIElements::BindingUpdater_UIPathVisitor* New_ctor() ;
 
-  /// @brief Method Reset, addr 0x6ad9748, size 0x44, virtual true, abstract: false, final false
-  inline void Reset();
+/// @brief Method Reset, addr 0x6adb2c0, size 0x44, virtual true, abstract: false, final false
+inline void Reset() ;
 
-  /// @brief Method VisitPath, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  template <typename TContainer, typename TValue> inline void VisitPath(::Unity::Properties::Property_2<TContainer, TValue>* property, ::ByRef<TContainer> container, ::ByRef<TValue> value);
+/// @brief Method VisitPath, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+template<typename TContainer,typename TValue>
+inline void VisitPath(::Unity::Properties::Property_2<TContainer,TValue>*  property, ::ByRef<TContainer>  container, ::ByRef<TValue>  value) ;
 
-  constexpr ::UnityEngine::UIElements::BindingContext const& __cordl_internal_get__bindingContext_k__BackingField() const;
+constexpr ::UnityEngine::UIElements::BindingContext const& __cordl_internal_get__bindingContext_k__BackingField() const;
 
-  constexpr ::UnityEngine::UIElements::BindingContext& __cordl_internal_get__bindingContext_k__BackingField();
+constexpr ::UnityEngine::UIElements::BindingContext& __cordl_internal_get__bindingContext_k__BackingField() ;
 
-  constexpr ::UnityEngine::UIElements::DataBinding* const& __cordl_internal_get__binding_k__BackingField() const;
+constexpr ::UnityEngine::UIElements::DataBinding* const& __cordl_internal_get__binding_k__BackingField() const;
 
-  constexpr ::UnityEngine::UIElements::DataBinding*& __cordl_internal_get__binding_k__BackingField();
+constexpr ::UnityEngine::UIElements::DataBinding*& __cordl_internal_get__binding_k__BackingField() ;
 
-  constexpr ::UnityEngine::UIElements::BindingUpdateStage const& __cordl_internal_get__direction_k__BackingField() const;
+constexpr ::UnityEngine::UIElements::BindingUpdateStage const& __cordl_internal_get__direction_k__BackingField() const;
 
-  constexpr ::UnityEngine::UIElements::BindingUpdateStage& __cordl_internal_get__direction_k__BackingField();
+constexpr ::UnityEngine::UIElements::BindingUpdateStage& __cordl_internal_get__direction_k__BackingField() ;
 
-  constexpr ::UnityEngine::UIElements::BindingResult const& __cordl_internal_get__result_k__BackingField() const;
+constexpr ::UnityEngine::UIElements::BindingResult const& __cordl_internal_get__result_k__BackingField() const;
 
-  constexpr ::UnityEngine::UIElements::BindingResult& __cordl_internal_get__result_k__BackingField();
+constexpr ::UnityEngine::UIElements::BindingResult& __cordl_internal_get__result_k__BackingField() ;
 
-  constexpr void __cordl_internal_set__bindingContext_k__BackingField(::UnityEngine::UIElements::BindingContext value);
+constexpr void __cordl_internal_set__bindingContext_k__BackingField(::UnityEngine::UIElements::BindingContext  value) ;
 
-  constexpr void __cordl_internal_set__binding_k__BackingField(::UnityEngine::UIElements::DataBinding* value);
+constexpr void __cordl_internal_set__binding_k__BackingField(::UnityEngine::UIElements::DataBinding*  value) ;
 
-  constexpr void __cordl_internal_set__direction_k__BackingField(::UnityEngine::UIElements::BindingUpdateStage value);
+constexpr void __cordl_internal_set__direction_k__BackingField(::UnityEngine::UIElements::BindingUpdateStage  value) ;
 
-  constexpr void __cordl_internal_set__result_k__BackingField(::UnityEngine::UIElements::BindingResult value);
+constexpr void __cordl_internal_set__result_k__BackingField(::UnityEngine::UIElements::BindingResult  value) ;
 
-  /// @brief Method .ctor, addr 0x6ad96ac, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6adb224, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_binding, addr 0x6ad96f0, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::DataBinding* get_binding();
+/// @brief Method get_binding, addr 0x6adb268, size 0x8, virtual false, abstract: false, final false
+inline ::UnityEngine::UIElements::DataBinding* get_binding() ;
 
-  /// @brief Method get_bindingContext, addr 0x6ad9710, size 0x10, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::BindingContext get_bindingContext();
+/// @brief Method get_bindingContext, addr 0x6adb288, size 0x10, virtual false, abstract: false, final false
+inline ::UnityEngine::UIElements::BindingContext get_bindingContext() ;
 
-  /// @brief Method get_direction, addr 0x6ad9700, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::BindingUpdateStage get_direction();
+/// @brief Method get_direction, addr 0x6adb278, size 0x8, virtual false, abstract: false, final false
+inline ::UnityEngine::UIElements::BindingUpdateStage get_direction() ;
 
-  /// @brief Method get_result, addr 0x6ad972c, size 0x10, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::BindingResult get_result();
+/// @brief Method get_result, addr 0x6adb2a4, size 0x10, virtual false, abstract: false, final false
+inline ::UnityEngine::UIElements::BindingResult get_result() ;
 
-  /// @brief Method set_binding, addr 0x6ad96f8, size 0x8, virtual false, abstract: false, final false
-  inline void set_binding(::UnityEngine::UIElements::DataBinding* value);
+/// @brief Method set_binding, addr 0x6adb270, size 0x8, virtual false, abstract: false, final false
+inline void set_binding(::UnityEngine::UIElements::DataBinding*  value) ;
 
-  /// @brief Method set_bindingContext, addr 0x6ad9720, size 0xc, virtual false, abstract: false, final false
-  inline void set_bindingContext(::UnityEngine::UIElements::BindingContext value);
+/// @brief Method set_bindingContext, addr 0x6adb298, size 0xc, virtual false, abstract: false, final false
+inline void set_bindingContext(::UnityEngine::UIElements::BindingContext  value) ;
 
-  /// @brief Method set_direction, addr 0x6ad9708, size 0x8, virtual false, abstract: false, final false
-  inline void set_direction(::UnityEngine::UIElements::BindingUpdateStage value);
+/// @brief Method set_direction, addr 0x6adb280, size 0x8, virtual false, abstract: false, final false
+inline void set_direction(::UnityEngine::UIElements::BindingUpdateStage  value) ;
 
-  /// @brief Method set_result, addr 0x6ad973c, size 0xc, virtual false, abstract: false, final false
-  inline void set_result(::UnityEngine::UIElements::BindingResult value);
+/// @brief Method set_result, addr 0x6adb2b4, size 0xc, virtual false, abstract: false, final false
+inline void set_result(::UnityEngine::UIElements::BindingResult  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BindingUpdater_UIPathVisitor();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr BindingUpdater_UIPathVisitor() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BindingUpdater_UIPathVisitor", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  BindingUpdater_UIPathVisitor(BindingUpdater_UIPathVisitor&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BindingUpdater_UIPathVisitor", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  BindingUpdater_UIPathVisitor(BindingUpdater_UIPathVisitor const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "BindingUpdater_UIPathVisitor", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+BindingUpdater_UIPathVisitor(BindingUpdater_UIPathVisitor && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4028 };
+// Ctor Parameters [CppParam { name: "", ty: "BindingUpdater_UIPathVisitor", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+BindingUpdater_UIPathVisitor(BindingUpdater_UIPathVisitor const& ) = delete;
 
-  /// @brief Field <binding>k__BackingField, offset: 0xb8, size: 0x8, def value: None
-  ::UnityEngine::UIElements::DataBinding* ____binding_k__BackingField;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4028};
 
-  /// @brief Field <direction>k__BackingField, offset: 0xc0, size: 0x4, def value: None
-  ::UnityEngine::UIElements::BindingUpdateStage ____direction_k__BackingField;
+/// @brief Field <binding>k__BackingField, offset: 0xb8, size: 0x8, def value: None
+ ::UnityEngine::UIElements::DataBinding*  ____binding_k__BackingField;
 
-  /// @brief Field <bindingContext>k__BackingField, offset: 0xc8, size: 0x138, def value: None
-  ::UnityEngine::UIElements::BindingContext ____bindingContext_k__BackingField;
+/// @brief Field <direction>k__BackingField, offset: 0xc0, size: 0x4, def value: None
+ ::UnityEngine::UIElements::BindingUpdateStage  ____direction_k__BackingField;
 
-  /// @brief Field <result>k__BackingField, offset: 0x200, size: 0x10, def value: None
-  ::UnityEngine::UIElements::BindingResult ____result_k__BackingField;
+/// @brief Field <bindingContext>k__BackingField, offset: 0xc8, size: 0x138, def value: None
+ ::UnityEngine::UIElements::BindingContext  ____bindingContext_k__BackingField;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field <result>k__BackingField, offset: 0x200, size: 0x10, def value: None
+ ::UnityEngine::UIElements::BindingResult  ____result_k__BackingField;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::UIElements::BindingUpdater_UIPathVisitor, ____binding_k__BackingField) == 0xb8, "Offset mismatch!");
@@ -305,112 +307,106 @@ static_assert(offsetof(::UnityEngine::UIElements::BindingUpdater_UIPathVisitor, 
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::BindingUpdater_UIPathVisitor, 0x210>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements
+} // namespace end def UnityEngine::UIElements
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.BindingUpdater
 class CORDL_TYPE BindingUpdater : public ::System::Object {
 public:
-  // Declarations
-  using CastDataSourceVisitor = ::UnityEngine::UIElements::BindingUpdater_CastDataSourceVisitor;
+// Declarations
+using CastDataSourceVisitor = ::UnityEngine::UIElements::BindingUpdater_CastDataSourceVisitor;
 
-  using UIPathVisitor = ::UnityEngine::UIElements::BindingUpdater_UIPathVisitor;
+using UIPathVisitor = ::UnityEngine::UIElements::BindingUpdater_UIPathVisitor;
 
-  /// @brief Field s_VisitDataSourceAsRootVisitor, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_s_VisitDataSourceAsRootVisitor,
-                      put = setStaticF_s_VisitDataSourceAsRootVisitor)) ::UnityEngine::UIElements::BindingUpdater_CastDataSourceVisitor* s_VisitDataSourceAsRootVisitor;
+/// @brief Field s_VisitDataSourceAsRootVisitor, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_s_VisitDataSourceAsRootVisitor, put=setStaticF_s_VisitDataSourceAsRootVisitor)) ::UnityEngine::UIElements::BindingUpdater_CastDataSourceVisitor*  s_VisitDataSourceAsRootVisitor;
 
-  /// @brief Field s_VisitDataSourceAtPathVisitor, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_s_VisitDataSourceAtPathVisitor,
-                      put = setStaticF_s_VisitDataSourceAtPathVisitor)) ::UnityEngine::UIElements::BindingUpdater_UIPathVisitor* s_VisitDataSourceAtPathVisitor;
+/// @brief Field s_VisitDataSourceAtPathVisitor, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_s_VisitDataSourceAtPathVisitor, put=setStaticF_s_VisitDataSourceAtPathVisitor)) ::UnityEngine::UIElements::BindingUpdater_UIPathVisitor*  s_VisitDataSourceAtPathVisitor;
 
-  /// @brief Method GetExtractValueErrorString, addr 0x6ad92e4, size 0x224, virtual false, abstract: false, final false
-  static inline ::StringW GetExtractValueErrorString(::Unity::Properties::VisitReturnCode returnCode, ::System::Object* target, ::ByRef<::Unity::Properties::PropertyPath> path);
+/// @brief Method GetExtractValueErrorString, addr 0x6adae5c, size 0x224, virtual false, abstract: false, final false
+static inline ::StringW GetExtractValueErrorString(::Unity::Properties::VisitReturnCode  returnCode, ::System::Object*  target, ::ByRef<::Unity::Properties::PropertyPath>  path) ;
 
-  /// @brief Method GetRootDataSourceError, addr 0x6ad9508, size 0x94, virtual false, abstract: false, final false
-  static inline ::StringW GetRootDataSourceError(::System::Object* target);
+/// @brief Method GetRootDataSourceError, addr 0x6adb080, size 0x94, virtual false, abstract: false, final false
+static inline ::StringW GetRootDataSourceError(::System::Object*  target) ;
 
-  /// @brief Method GetVisitationErrorString, addr 0x6ad90c4, size 0x220, virtual false, abstract: false, final false
-  static inline ::StringW GetVisitationErrorString(::Unity::Properties::VisitReturnCode returnCode, ::ByRef<::UnityEngine::UIElements::BindingContext> context);
+/// @brief Method GetVisitationErrorString, addr 0x6adac3c, size 0x220, virtual false, abstract: false, final false
+static inline ::StringW GetVisitationErrorString(::Unity::Properties::VisitReturnCode  returnCode, ::ByRef<::UnityEngine::UIElements::BindingContext>  context) ;
 
-  static inline ::UnityEngine::UIElements::BindingUpdater* New_ctor();
+static inline ::UnityEngine::UIElements::BindingUpdater* New_ctor() ;
 
-  /// @brief Method ShouldProcessBindingAtStage, addr 0x6ad7bcc, size 0x1cc, virtual false, abstract: false, final false
-  inline bool ShouldProcessBindingAtStage(::UnityEngine::UIElements::Binding* bindingObject, ::UnityEngine::UIElements::BindingUpdateStage stage, bool versionChanged, bool dirty);
+/// @brief Method ShouldProcessBindingAtStage, addr 0x6ad9744, size 0x1cc, virtual false, abstract: false, final false
+inline bool ShouldProcessBindingAtStage(::UnityEngine::UIElements::Binding*  bindingObject, ::UnityEngine::UIElements::BindingUpdateStage  stage, bool  versionChanged, bool  dirty) ;
 
-  /// @brief Method ShouldProcessBindingAtStage, addr 0x6ad7e80, size 0xc8, virtual false, abstract: false, final false
-  inline bool ShouldProcessBindingAtStage(::UnityEngine::UIElements::CustomBinding* customBinding, ::UnityEngine::UIElements::BindingUpdateStage stage, bool versionChanged, bool dirty);
+/// @brief Method ShouldProcessBindingAtStage, addr 0x6ad99f8, size 0xc8, virtual false, abstract: false, final false
+inline bool ShouldProcessBindingAtStage(::UnityEngine::UIElements::CustomBinding*  customBinding, ::UnityEngine::UIElements::BindingUpdateStage  stage, bool  versionChanged, bool  dirty) ;
 
-  /// @brief Method ShouldProcessBindingAtStage, addr 0x6ad7d98, size 0xe8, virtual false, abstract: false, final false
-  static inline bool ShouldProcessBindingAtStage(::UnityEngine::UIElements::DataBinding* dataBinding, ::UnityEngine::UIElements::BindingUpdateStage stage, bool versionChanged, bool dirty);
+/// @brief Method ShouldProcessBindingAtStage, addr 0x6ad9910, size 0xe8, virtual false, abstract: false, final false
+static inline bool ShouldProcessBindingAtStage(::UnityEngine::UIElements::DataBinding*  dataBinding, ::UnityEngine::UIElements::BindingUpdateStage  stage, bool  versionChanged, bool  dirty) ;
 
-  /// @brief Method TryUpdateUIWithNonContainer, addr 0x6ad876c, size 0x824, virtual false, abstract: false, final false
-  static inline ::UnityEngine::UIElements::BindingResult TryUpdateUIWithNonContainer(::ByRef<::UnityEngine::UIElements::BindingContext> context, ::UnityEngine::UIElements::DataBinding* binding,
-                                                                                     ::System::Object* value);
+/// @brief Method TryUpdateUIWithNonContainer, addr 0x6ada2e4, size 0x824, virtual false, abstract: false, final false
+static inline ::UnityEngine::UIElements::BindingResult TryUpdateUIWithNonContainer(::ByRef<::UnityEngine::UIElements::BindingContext>  context, ::UnityEngine::UIElements::DataBinding*  binding, ::System::Object*  value) ;
 
-  /// @brief Method UpdateDataSource, addr 0x6ad8760, size 0xc, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::BindingResult UpdateDataSource(::ByRef<::UnityEngine::UIElements::BindingContext> context, ::UnityEngine::UIElements::CustomBinding* customBinding);
+/// @brief Method UpdateDataSource, addr 0x6ada2d8, size 0xc, virtual false, abstract: false, final false
+inline ::UnityEngine::UIElements::BindingResult UpdateDataSource(::ByRef<::UnityEngine::UIElements::BindingContext>  context, ::UnityEngine::UIElements::CustomBinding*  customBinding) ;
 
-  /// @brief Method UpdateDataSource, addr 0x6ad84f0, size 0x270, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::BindingResult UpdateDataSource(::ByRef<::UnityEngine::UIElements::BindingContext> context, ::UnityEngine::UIElements::DataBinding* dataBinding);
+/// @brief Method UpdateDataSource, addr 0x6ada068, size 0x270, virtual false, abstract: false, final false
+inline ::UnityEngine::UIElements::BindingResult UpdateDataSource(::ByRef<::UnityEngine::UIElements::BindingContext>  context, ::UnityEngine::UIElements::DataBinding*  dataBinding) ;
 
-  /// @brief Method UpdateSource, addr 0x6ad8370, size 0x180, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::BindingResult UpdateSource(::ByRef<::UnityEngine::UIElements::BindingContext> context, ::UnityEngine::UIElements::Binding* bindingObject);
+/// @brief Method UpdateSource, addr 0x6ad9ee8, size 0x180, virtual false, abstract: false, final false
+inline ::UnityEngine::UIElements::BindingResult UpdateSource(::ByRef<::UnityEngine::UIElements::BindingContext>  context, ::UnityEngine::UIElements::Binding*  bindingObject) ;
 
-  /// @brief Method UpdateUI, addr 0x6ad7f48, size 0x184, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::BindingResult UpdateUI(::ByRef<::UnityEngine::UIElements::BindingContext> context, ::UnityEngine::UIElements::Binding* bindingObject);
+/// @brief Method UpdateUI, addr 0x6ad9ac0, size 0x184, virtual false, abstract: false, final false
+inline ::UnityEngine::UIElements::BindingResult UpdateUI(::ByRef<::UnityEngine::UIElements::BindingContext>  context, ::UnityEngine::UIElements::Binding*  bindingObject) ;
 
-  /// @brief Method UpdateUI, addr 0x6ad8350, size 0x20, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::BindingResult UpdateUI(::ByRef<::UnityEngine::UIElements::BindingContext> context, ::UnityEngine::UIElements::CustomBinding* customBinding);
+/// @brief Method UpdateUI, addr 0x6ad9ec8, size 0x20, virtual false, abstract: false, final false
+inline ::UnityEngine::UIElements::BindingResult UpdateUI(::ByRef<::UnityEngine::UIElements::BindingContext>  context, ::UnityEngine::UIElements::CustomBinding*  customBinding) ;
 
-  /// @brief Method UpdateUI, addr 0x6ad80cc, size 0x284, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::BindingResult UpdateUI(::ByRef<::UnityEngine::UIElements::BindingContext> context, ::UnityEngine::UIElements::DataBinding* dataBinding);
+/// @brief Method UpdateUI, addr 0x6ad9c44, size 0x284, virtual false, abstract: false, final false
+inline ::UnityEngine::UIElements::BindingResult UpdateUI(::ByRef<::UnityEngine::UIElements::BindingContext>  context, ::UnityEngine::UIElements::DataBinding*  dataBinding) ;
 
-  /// @brief Method VisitAtPath, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TContainer>
-  static inline ::System::ValueTuple_4<bool, ::Unity::Properties::VisitReturnCode, ::Unity::Properties::VisitReturnCode, ::UnityEngine::UIElements::BindingResult>
-  VisitAtPath(::UnityEngine::UIElements::DataBinding* dataBinding, ::UnityEngine::UIElements::BindingUpdateStage direction, ::ByRef<TContainer> container,
-              ::ByRef<::Unity::Properties::PropertyPath> path, ::ByRef<::UnityEngine::UIElements::BindingContext> context);
+/// @brief Method VisitAtPath, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+template<typename TContainer>
+static inline ::System::ValueTuple_4<bool,::Unity::Properties::VisitReturnCode,::Unity::Properties::VisitReturnCode,::UnityEngine::UIElements::BindingResult> VisitAtPath(::UnityEngine::UIElements::DataBinding*  dataBinding, ::UnityEngine::UIElements::BindingUpdateStage  direction, ::ByRef<TContainer>  container, ::ByRef<::Unity::Properties::PropertyPath>  path, ::ByRef<::UnityEngine::UIElements::BindingContext>  context) ;
 
-  /// @brief Method VisitRoot, addr 0x6ad8f90, size 0x134, virtual false, abstract: false, final false
-  static inline ::System::ValueTuple_3<bool, ::Unity::Properties::VisitReturnCode, ::UnityEngine::UIElements::BindingResult>
-  VisitRoot(::UnityEngine::UIElements::DataBinding* dataBinding, ::ByRef<::System::Object*> container, ::ByRef<::UnityEngine::UIElements::BindingContext> context);
+/// @brief Method VisitRoot, addr 0x6adab08, size 0x134, virtual false, abstract: false, final false
+static inline ::System::ValueTuple_3<bool,::Unity::Properties::VisitReturnCode,::UnityEngine::UIElements::BindingResult> VisitRoot(::UnityEngine::UIElements::DataBinding*  dataBinding, ::ByRef<::System::Object*>  container, ::ByRef<::UnityEngine::UIElements::BindingContext>  context) ;
 
-  /// @brief Method .ctor, addr 0x6ad960c, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6adb184, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  static inline ::UnityEngine::UIElements::BindingUpdater_CastDataSourceVisitor* getStaticF_s_VisitDataSourceAsRootVisitor();
+static inline ::UnityEngine::UIElements::BindingUpdater_CastDataSourceVisitor* getStaticF_s_VisitDataSourceAsRootVisitor() ;
 
-  static inline ::UnityEngine::UIElements::BindingUpdater_UIPathVisitor* getStaticF_s_VisitDataSourceAtPathVisitor();
+static inline ::UnityEngine::UIElements::BindingUpdater_UIPathVisitor* getStaticF_s_VisitDataSourceAtPathVisitor() ;
 
-  static inline void setStaticF_s_VisitDataSourceAsRootVisitor(::UnityEngine::UIElements::BindingUpdater_CastDataSourceVisitor* value);
+static inline void setStaticF_s_VisitDataSourceAsRootVisitor(::UnityEngine::UIElements::BindingUpdater_CastDataSourceVisitor*  value) ;
 
-  static inline void setStaticF_s_VisitDataSourceAtPathVisitor(::UnityEngine::UIElements::BindingUpdater_UIPathVisitor* value);
+static inline void setStaticF_s_VisitDataSourceAtPathVisitor(::UnityEngine::UIElements::BindingUpdater_UIPathVisitor*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BindingUpdater();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr BindingUpdater() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BindingUpdater", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  BindingUpdater(BindingUpdater&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BindingUpdater", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  BindingUpdater(BindingUpdater const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "BindingUpdater", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+BindingUpdater(BindingUpdater && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4029 };
+// Ctor Parameters [CppParam { name: "", ty: "BindingUpdater", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+BindingUpdater(BindingUpdater const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4029};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::BindingUpdater, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements
+} // namespace end def UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::BindingUpdater);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::BindingUpdater*, "UnityEngine.UIElements", "BindingUpdater");
 NEED_NO_BOX(::UnityEngine::UIElements::BindingUpdater_CastDataSourceVisitor);

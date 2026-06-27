@@ -22,56 +22,56 @@ namespace System::Xml {
 // CS Name: System.Xml.IncrementalReadDummyDecoder
 class CORDL_TYPE IncrementalReadDummyDecoder : public ::System::Xml::IncrementalReadDecoder {
 public:
-  // Declarations
-  __declspec(property(get = get_DecodedCount)) int32_t DecodedCount;
+// Declarations
+ __declspec(property(get=get_DecodedCount)) int32_t  DecodedCount;
 
-  __declspec(property(get = get_IsFull)) bool IsFull;
+ __declspec(property(get=get_IsFull)) bool  IsFull;
 
-  /// @brief Method Decode, addr 0x606f670, size 0x8, virtual true, abstract: false, final false
-  inline int32_t Decode(::ArrayW<char16_t, ::Array<char16_t>*> chars, int32_t startPos, int32_t len);
+/// @brief Method Decode, addr 0x60711e8, size 0x8, virtual true, abstract: false, final false
+inline int32_t Decode(::ArrayW<char16_t,::Array<char16_t>*>  chars, int32_t  startPos, int32_t  len) ;
 
-  /// @brief Method Decode, addr 0x606f678, size 0x8, virtual true, abstract: false, final false
-  inline int32_t Decode(::StringW str, int32_t startPos, int32_t len);
+/// @brief Method Decode, addr 0x60711f0, size 0x8, virtual true, abstract: false, final false
+inline int32_t Decode(::StringW  str, int32_t  startPos, int32_t  len) ;
 
-  static inline ::System::Xml::IncrementalReadDummyDecoder* New_ctor();
+static inline ::System::Xml::IncrementalReadDummyDecoder* New_ctor() ;
 
-  /// @brief Method Reset, addr 0x606f680, size 0x4, virtual true, abstract: false, final false
-  inline void Reset();
+/// @brief Method Reset, addr 0x60711f8, size 0x4, virtual true, abstract: false, final false
+inline void Reset() ;
 
-  /// @brief Method SetNextOutputBuffer, addr 0x606f66c, size 0x4, virtual true, abstract: false, final false
-  inline void SetNextOutputBuffer(::System::Array* array, int32_t offset, int32_t len);
+/// @brief Method SetNextOutputBuffer, addr 0x60711e4, size 0x4, virtual true, abstract: false, final false
+inline void SetNextOutputBuffer(::System::Array*  array, int32_t  offset, int32_t  len) ;
 
-  /// @brief Method .ctor, addr 0x606f684, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x60711fc, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_DecodedCount, addr 0x606f65c, size 0x8, virtual true, abstract: false, final false
-  inline int32_t get_DecodedCount();
+/// @brief Method get_DecodedCount, addr 0x60711d4, size 0x8, virtual true, abstract: false, final false
+inline int32_t get_DecodedCount() ;
 
-  /// @brief Method get_IsFull, addr 0x606f664, size 0x8, virtual true, abstract: false, final false
-  inline bool get_IsFull();
+/// @brief Method get_IsFull, addr 0x60711dc, size 0x8, virtual true, abstract: false, final false
+inline bool get_IsFull() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IncrementalReadDummyDecoder();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr IncrementalReadDummyDecoder() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IncrementalReadDummyDecoder", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IncrementalReadDummyDecoder(IncrementalReadDummyDecoder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IncrementalReadDummyDecoder", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  IncrementalReadDummyDecoder(IncrementalReadDummyDecoder const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "IncrementalReadDummyDecoder", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+IncrementalReadDummyDecoder(IncrementalReadDummyDecoder && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9273 };
+// Ctor Parameters [CppParam { name: "", ty: "IncrementalReadDummyDecoder", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+IncrementalReadDummyDecoder(IncrementalReadDummyDecoder const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9274};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::IncrementalReadDummyDecoder, 0x10>, "Size mismatch!");
 
-} // namespace System::Xml
+} // namespace end def System::Xml
 NEED_NO_BOX(::System::Xml::IncrementalReadDummyDecoder);
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::IncrementalReadDummyDecoder*, "System.Xml", "IncrementalReadDummyDecoder");

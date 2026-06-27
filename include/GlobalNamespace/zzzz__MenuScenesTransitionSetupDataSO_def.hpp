@@ -17,37 +17,37 @@ namespace GlobalNamespace {
 // CS Name: MenuScenesTransitionSetupDataSO
 class CORDL_TYPE MenuScenesTransitionSetupDataSO : public ::GlobalNamespace::ScenesTransitionSetupDataSO {
 public:
-  // Declarations
-  /// @brief Method Init, addr 0x57ee7bc, size 0xc0, virtual false, abstract: false, final false
-  inline void Init();
+// Declarations
+/// @brief Method Init, addr 0x57f0024, size 0xc0, virtual false, abstract: false, final false
+inline void Init() ;
 
-  static inline ::GlobalNamespace::MenuScenesTransitionSetupDataSO* New_ctor();
+static inline ::GlobalNamespace::MenuScenesTransitionSetupDataSO* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x57ee87c, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x57f00e4, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MenuScenesTransitionSetupDataSO();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr MenuScenesTransitionSetupDataSO() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MenuScenesTransitionSetupDataSO", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  MenuScenesTransitionSetupDataSO(MenuScenesTransitionSetupDataSO&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MenuScenesTransitionSetupDataSO", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  MenuScenesTransitionSetupDataSO(MenuScenesTransitionSetupDataSO const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "MenuScenesTransitionSetupDataSO", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+MenuScenesTransitionSetupDataSO(MenuScenesTransitionSetupDataSO && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6845 };
+// Ctor Parameters [CppParam { name: "", ty: "MenuScenesTransitionSetupDataSO", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+MenuScenesTransitionSetupDataSO(MenuScenesTransitionSetupDataSO const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6845};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MenuScenesTransitionSetupDataSO, 0x28>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MenuScenesTransitionSetupDataSO);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MenuScenesTransitionSetupDataSO*, "", "MenuScenesTransitionSetupDataSO");

@@ -26,35 +26,35 @@ namespace BGLib::DotnetExtension::Disposables {
 // CS Name: BGLib.DotnetExtension.Disposables.DisposableExtensions
 class CORDL_TYPE DisposableExtensions : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method AddTo, addr 0x3255954, size 0x1c, virtual false, abstract: false, final false
-  static inline void AddTo(::System::IDisposable* disposable, ::BGLib::DotnetExtension::Disposables::CompositeDisposable* compositeDisposable);
+// Declarations
+/// @brief Method AddTo, addr 0x32566f0, size 0x1c, virtual false, abstract: false, final false
+static inline void AddTo(::System::IDisposable*  disposable, ::BGLib::DotnetExtension::Disposables::CompositeDisposable*  compositeDisposable) ;
 
-  /// @brief Method AddTo, addr 0x3255970, size 0x1c, virtual false, abstract: false, final false
-  static inline void AddTo(::System::IDisposable* disposable, ::BGLib::DotnetExtension::Disposables::ConcurrentCompositeDisposable* compositeDisposable);
+/// @brief Method AddTo, addr 0x325670c, size 0x1c, virtual false, abstract: false, final false
+static inline void AddTo(::System::IDisposable*  disposable, ::BGLib::DotnetExtension::Disposables::ConcurrentCompositeDisposable*  compositeDisposable) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DisposableExtensions();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr DisposableExtensions() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DisposableExtensions", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  DisposableExtensions(DisposableExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DisposableExtensions", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  DisposableExtensions(DisposableExtensions const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "DisposableExtensions", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+DisposableExtensions(DisposableExtensions && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20558 };
+// Ctor Parameters [CppParam { name: "", ty: "DisposableExtensions", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+DisposableExtensions(DisposableExtensions const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20561};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::BGLib::DotnetExtension::Disposables::DisposableExtensions, 0x10>, "Size mismatch!");
 
-} // namespace BGLib::DotnetExtension::Disposables
+} // namespace end def BGLib::DotnetExtension::Disposables
 NEED_NO_BOX(::BGLib::DotnetExtension::Disposables::DisposableExtensions);
 DEFINE_IL2CPP_ARG_TYPE(::BGLib::DotnetExtension::Disposables::DisposableExtensions*, "BGLib.DotnetExtension.Disposables", "DisposableExtensions");

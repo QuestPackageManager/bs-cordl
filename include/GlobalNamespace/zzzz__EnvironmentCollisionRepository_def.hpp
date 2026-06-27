@@ -9,7 +9,8 @@ namespace GlobalNamespace {
 class ColliderEventEffect;
 }
 namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+template<typename TKey,typename TValue>
+class Dictionary_2;
 }
 namespace UnityEngine {
 class Collider;
@@ -26,56 +27,54 @@ namespace GlobalNamespace {
 // CS Name: EnvironmentCollisionRepository
 class CORDL_TYPE EnvironmentCollisionRepository : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field _colliders, offset 0x10, size 0x8
-  __declspec(property(
-      get = __cordl_internal_get__colliders,
-      put = __cordl_internal_set__colliders)) ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Collider>, ::UnityW<::GlobalNamespace::ColliderEventEffect>>* _colliders;
+// Declarations
+/// @brief Field _colliders, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get__colliders, put=__cordl_internal_set__colliders)) ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Collider>,::UnityW<::GlobalNamespace::ColliderEventEffect>>*  _colliders;
 
-  static inline ::GlobalNamespace::EnvironmentCollisionRepository* New_ctor();
+static inline ::GlobalNamespace::EnvironmentCollisionRepository* New_ctor() ;
 
-  /// @brief Method RegisterColliderEventEffect, addr 0x5860660, size 0x7c, virtual false, abstract: false, final false
-  inline void RegisterColliderEventEffect(::GlobalNamespace::ColliderEventEffect* colliderEventEffect);
+/// @brief Method RegisterColliderEventEffect, addr 0x5861f0c, size 0x7c, virtual false, abstract: false, final false
+inline void RegisterColliderEventEffect(::GlobalNamespace::ColliderEventEffect*  colliderEventEffect) ;
 
-  /// @brief Method TryGetColliderEventEffect, addr 0x58606f0, size 0xc0, virtual false, abstract: false, final false
-  inline bool TryGetColliderEventEffect(::UnityEngine::Collider* collider, ::ByRef<::GlobalNamespace::ColliderEventEffect*> colliderEventEffect);
+/// @brief Method TryGetColliderEventEffect, addr 0x5861f9c, size 0xc0, virtual false, abstract: false, final false
+inline bool TryGetColliderEventEffect(::UnityEngine::Collider*  collider, ::ByRef<::GlobalNamespace::ColliderEventEffect*>  colliderEventEffect) ;
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Collider>, ::UnityW<::GlobalNamespace::ColliderEventEffect>>* const& __cordl_internal_get__colliders() const;
+constexpr ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Collider>,::UnityW<::GlobalNamespace::ColliderEventEffect>>* const& __cordl_internal_get__colliders() const;
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Collider>, ::UnityW<::GlobalNamespace::ColliderEventEffect>>*& __cordl_internal_get__colliders();
+constexpr ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Collider>,::UnityW<::GlobalNamespace::ColliderEventEffect>>*& __cordl_internal_get__colliders() ;
 
-  constexpr void __cordl_internal_set__colliders(::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Collider>, ::UnityW<::GlobalNamespace::ColliderEventEffect>>* value);
+constexpr void __cordl_internal_set__colliders(::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Collider>,::UnityW<::GlobalNamespace::ColliderEventEffect>>*  value) ;
 
-  /// @brief Method .ctor, addr 0x58607b0, size 0x98, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x586205c, size 0x98, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr EnvironmentCollisionRepository();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr EnvironmentCollisionRepository() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentCollisionRepository", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  EnvironmentCollisionRepository(EnvironmentCollisionRepository&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentCollisionRepository", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  EnvironmentCollisionRepository(EnvironmentCollisionRepository const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "EnvironmentCollisionRepository", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+EnvironmentCollisionRepository(EnvironmentCollisionRepository && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5922 };
+// Ctor Parameters [CppParam { name: "", ty: "EnvironmentCollisionRepository", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+EnvironmentCollisionRepository(EnvironmentCollisionRepository const& ) = delete;
 
-  /// @brief Field _colliders, offset: 0x10, size: 0x8, def value: None
-  ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Collider>, ::UnityW<::GlobalNamespace::ColliderEventEffect>>* ____colliders;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{5922};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _colliders, offset: 0x10, size: 0x8, def value: None
+ ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Collider>,::UnityW<::GlobalNamespace::ColliderEventEffect>>*  ____colliders;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::EnvironmentCollisionRepository, ____colliders) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::EnvironmentCollisionRepository, 0x18>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::EnvironmentCollisionRepository);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::EnvironmentCollisionRepository*, "", "EnvironmentCollisionRepository");

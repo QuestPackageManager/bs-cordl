@@ -47,116 +47,102 @@ namespace UnityEngine::TextCore::Text {
 // CS Name: UnityEngine.TextCore.Text.MeshInfo
 struct CORDL_TYPE MeshInfo {
 public:
-  // Declarations
-  /// @brief Field k_DefaultColor, offset 0xffffffff, size 0x4
-  __declspec(property(get = getStaticF_k_DefaultColor, put = setStaticF_k_DefaultColor)) ::UnityEngine::Color32 k_DefaultColor;
+// Declarations
+/// @brief Field k_DefaultColor, offset 0xffffffff, size 0x4 
+ __declspec(property(get=getStaticF_k_DefaultColor, put=setStaticF_k_DefaultColor)) ::UnityEngine::Color32  k_DefaultColor;
 
-  /// @brief Field k_DefaultNormal, offset 0xffffffff, size 0xc
-  __declspec(property(get = getStaticF_k_DefaultNormal, put = setStaticF_k_DefaultNormal)) ::UnityEngine::Vector3 k_DefaultNormal;
+/// @brief Field k_DefaultNormal, offset 0xffffffff, size 0xc 
+ __declspec(property(get=getStaticF_k_DefaultNormal, put=setStaticF_k_DefaultNormal)) ::UnityEngine::Vector3  k_DefaultNormal;
 
-  /// @brief Field k_DefaultTangent, offset 0xffffffff, size 0x10
-  __declspec(property(get = getStaticF_k_DefaultTangent, put = setStaticF_k_DefaultTangent)) ::UnityEngine::Vector4 k_DefaultTangent;
+/// @brief Field k_DefaultTangent, offset 0xffffffff, size 0x10 
+ __declspec(property(get=getStaticF_k_DefaultTangent, put=setStaticF_k_DefaultTangent)) ::UnityEngine::Vector4  k_DefaultTangent;
 
-  /// @brief Method Clear, addr 0x6a70460, size 0x6c, virtual false, abstract: false, final false
-  inline void Clear(bool uploadChanges);
+/// @brief Method Clear, addr 0x6a71fd8, size 0x6c, virtual false, abstract: false, final false
+inline void Clear(bool  uploadChanges) ;
 
-  /// @brief Method ClearUnusedVertices, addr 0x6a704cc, size 0x84, virtual false, abstract: false, final false
-  inline void ClearUnusedVertices();
+/// @brief Method ClearUnusedVertices, addr 0x6a72044, size 0x84, virtual false, abstract: false, final false
+inline void ClearUnusedVertices() ;
 
-  /// @brief Method ResizeMeshInfo, addr 0x6a7021c, size 0x244, virtual false, abstract: false, final false
-  inline void ResizeMeshInfo(int32_t size, bool isIMGUI);
+/// @brief Method ResizeMeshInfo, addr 0x6a71d94, size 0x244, virtual false, abstract: false, final false
+inline void ResizeMeshInfo(int32_t  size, bool  isIMGUI) ;
 
-  /// @brief Method SortGeometry, addr 0x6a70550, size 0xb8, virtual false, abstract: false, final false
-  inline void SortGeometry(::UnityEngine::TextCore::Text::VertexSortingOrder order);
+/// @brief Method SortGeometry, addr 0x6a720c8, size 0xb8, virtual false, abstract: false, final false
+inline void SortGeometry(::UnityEngine::TextCore::Text::VertexSortingOrder  order) ;
 
-  /// @brief Method SwapVertexData, addr 0x6a70608, size 0x72c, virtual false, abstract: false, final false
-  inline void SwapVertexData(int32_t src, int32_t dst);
+/// @brief Method SwapVertexData, addr 0x6a72180, size 0x72c, virtual false, abstract: false, final false
+inline void SwapVertexData(int32_t  src, int32_t  dst) ;
 
-  /// @brief Method .ctor, addr 0x6a6fd70, size 0x4ac, virtual false, abstract: false, final false
-  inline void _ctor(int32_t size, ::UnityEngine::TextCore::Text::VertexDataLayout layout, bool isIMGUI);
+/// @brief Method .ctor, addr 0x6a718e8, size 0x4ac, virtual false, abstract: false, final false
+inline void _ctor(int32_t  size, ::UnityEngine::TextCore::Text::VertexDataLayout  layout, bool  isIMGUI) ;
 
-  static inline ::UnityEngine::Color32 getStaticF_k_DefaultColor();
+static inline ::UnityEngine::Color32 getStaticF_k_DefaultColor() ;
 
-  static inline ::UnityEngine::Vector3 getStaticF_k_DefaultNormal();
+static inline ::UnityEngine::Vector3 getStaticF_k_DefaultNormal() ;
 
-  static inline ::UnityEngine::Vector4 getStaticF_k_DefaultTangent();
+static inline ::UnityEngine::Vector4 getStaticF_k_DefaultTangent() ;
 
-  static inline void setStaticF_k_DefaultColor(::UnityEngine::Color32 value);
+static inline void setStaticF_k_DefaultColor(::UnityEngine::Color32  value) ;
 
-  static inline void setStaticF_k_DefaultNormal(::UnityEngine::Vector3 value);
+static inline void setStaticF_k_DefaultNormal(::UnityEngine::Vector3  value) ;
 
-  static inline void setStaticF_k_DefaultTangent(::UnityEngine::Vector4 value);
+static inline void setStaticF_k_DefaultTangent(::UnityEngine::Vector4  value) ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MeshInfo();
+// Ctor Parameters []
+// @brief default ctor
+constexpr MeshInfo() ;
 
-  // Ctor Parameters [CppParam { name: "vertexCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "vertexData", ty:
-  // "::ArrayW<::UnityEngine::TextCore::Text::TextCoreVertex,::Array<::UnityEngine::TextCore::Text::TextCoreVertex>*>", modifiers: "", def_value: None }, CppParam { name: "material", ty:
-  // "::UnityW<::UnityEngine::Material>", modifiers: "", def_value: None }, CppParam { name: "vertices", ty: "::ArrayW<::UnityEngine::Vector3,::Array<::UnityEngine::Vector3>*>", modifiers: "",
-  // def_value: None }, CppParam { name: "normals", ty: "::ArrayW<::UnityEngine::Vector3,::Array<::UnityEngine::Vector3>*>", modifiers: "", def_value: None }, CppParam { name: "tangents", ty:
-  // "::ArrayW<::UnityEngine::Vector4,::Array<::UnityEngine::Vector4>*>", modifiers: "", def_value: None }, CppParam { name: "vertexBufferSize", ty: "int32_t", modifiers: "", def_value: None },
-  // CppParam { name: "uvs0", ty: "::ArrayW<::UnityEngine::Vector4,::Array<::UnityEngine::Vector4>*>", modifiers: "", def_value: None }, CppParam { name: "uvs2", ty:
-  // "::ArrayW<::UnityEngine::Vector2,::Array<::UnityEngine::Vector2>*>", modifiers: "", def_value: None }, CppParam { name: "colors32", ty:
-  // "::ArrayW<::UnityEngine::Color32,::Array<::UnityEngine::Color32>*>", modifiers: "", def_value: None }, CppParam { name: "triangles", ty: "::ArrayW<int32_t,::Array<int32_t>*>", modifiers: "",
-  // def_value: None }, CppParam { name: "vertexDataLayout", ty: "::UnityEngine::TextCore::Text::VertexDataLayout", modifiers: "", def_value: None }, CppParam { name: "applySDF", ty: "bool",
-  // modifiers: "", def_value: None }, CppParam { name: "glyphRenderMode", ty: "::UnityEngine::TextCore::LowLevel::GlyphRenderMode", modifiers: "", def_value: None }]
-  constexpr MeshInfo(int32_t vertexCount, ::ArrayW<::UnityEngine::TextCore::Text::TextCoreVertex, ::Array<::UnityEngine::TextCore::Text::TextCoreVertex>*> vertexData,
-                     ::UnityW<::UnityEngine::Material> material, ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> vertices,
-                     ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> normals, ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> tangents, int32_t vertexBufferSize,
-                     ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> uvs0, ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> uvs2,
-                     ::ArrayW<::UnityEngine::Color32, ::Array<::UnityEngine::Color32>*> colors32, ::ArrayW<int32_t, ::Array<int32_t>*> triangles,
-                     ::UnityEngine::TextCore::Text::VertexDataLayout vertexDataLayout, bool applySDF, ::UnityEngine::TextCore::LowLevel::GlyphRenderMode glyphRenderMode) noexcept;
+// Ctor Parameters [CppParam { name: "vertexCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "vertexData", ty: "::ArrayW<::UnityEngine::TextCore::Text::TextCoreVertex,::Array<::UnityEngine::TextCore::Text::TextCoreVertex>*>", modifiers: "", def_value: None }, CppParam { name: "material", ty: "::UnityW<::UnityEngine::Material>", modifiers: "", def_value: None }, CppParam { name: "vertices", ty: "::ArrayW<::UnityEngine::Vector3,::Array<::UnityEngine::Vector3>*>", modifiers: "", def_value: None }, CppParam { name: "normals", ty: "::ArrayW<::UnityEngine::Vector3,::Array<::UnityEngine::Vector3>*>", modifiers: "", def_value: None }, CppParam { name: "tangents", ty: "::ArrayW<::UnityEngine::Vector4,::Array<::UnityEngine::Vector4>*>", modifiers: "", def_value: None }, CppParam { name: "vertexBufferSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "uvs0", ty: "::ArrayW<::UnityEngine::Vector4,::Array<::UnityEngine::Vector4>*>", modifiers: "", def_value: None }, CppParam { name: "uvs2", ty: "::ArrayW<::UnityEngine::Vector2,::Array<::UnityEngine::Vector2>*>", modifiers: "", def_value: None }, CppParam { name: "colors32", ty: "::ArrayW<::UnityEngine::Color32,::Array<::UnityEngine::Color32>*>", modifiers: "", def_value: None }, CppParam { name: "triangles", ty: "::ArrayW<int32_t,::Array<int32_t>*>", modifiers: "", def_value: None }, CppParam { name: "vertexDataLayout", ty: "::UnityEngine::TextCore::Text::VertexDataLayout", modifiers: "", def_value: None }, CppParam { name: "applySDF", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "glyphRenderMode", ty: "::UnityEngine::TextCore::LowLevel::GlyphRenderMode", modifiers: "", def_value: None }]
+constexpr MeshInfo(int32_t  vertexCount, ::ArrayW<::UnityEngine::TextCore::Text::TextCoreVertex,::Array<::UnityEngine::TextCore::Text::TextCoreVertex>*>  vertexData, ::UnityW<::UnityEngine::Material>  material, ::ArrayW<::UnityEngine::Vector3,::Array<::UnityEngine::Vector3>*>  vertices, ::ArrayW<::UnityEngine::Vector3,::Array<::UnityEngine::Vector3>*>  normals, ::ArrayW<::UnityEngine::Vector4,::Array<::UnityEngine::Vector4>*>  tangents, int32_t  vertexBufferSize, ::ArrayW<::UnityEngine::Vector4,::Array<::UnityEngine::Vector4>*>  uvs0, ::ArrayW<::UnityEngine::Vector2,::Array<::UnityEngine::Vector2>*>  uvs2, ::ArrayW<::UnityEngine::Color32,::Array<::UnityEngine::Color32>*>  colors32, ::ArrayW<int32_t,::Array<int32_t>*>  triangles, ::UnityEngine::TextCore::Text::VertexDataLayout  vertexDataLayout, bool  applySDF, ::UnityEngine::TextCore::LowLevel::GlyphRenderMode  glyphRenderMode) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17200 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{17202};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x68 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x68};
 
-  /// @brief Field vertexCount, offset: 0x0, size: 0x4, def value: None
-  int32_t vertexCount;
+/// @brief Field vertexCount, offset: 0x0, size: 0x4, def value: None
+ int32_t  vertexCount;
 
-  /// @brief Field vertexData, offset: 0x8, size: 0x8, def value: None
-  ::ArrayW<::UnityEngine::TextCore::Text::TextCoreVertex, ::Array<::UnityEngine::TextCore::Text::TextCoreVertex>*> vertexData;
+/// @brief Field vertexData, offset: 0x8, size: 0x8, def value: None
+ ::ArrayW<::UnityEngine::TextCore::Text::TextCoreVertex,::Array<::UnityEngine::TextCore::Text::TextCoreVertex>*>  vertexData;
 
-  /// @brief Field material, offset: 0x10, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::Material> material;
+/// @brief Field material, offset: 0x10, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::Material>  material;
 
-  /// @brief Field vertices, offset: 0x18, size: 0x8, def value: None
-  ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> vertices;
+/// @brief Field vertices, offset: 0x18, size: 0x8, def value: None
+ ::ArrayW<::UnityEngine::Vector3,::Array<::UnityEngine::Vector3>*>  vertices;
 
-  /// @brief Field normals, offset: 0x20, size: 0x8, def value: None
-  ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> normals;
+/// @brief Field normals, offset: 0x20, size: 0x8, def value: None
+ ::ArrayW<::UnityEngine::Vector3,::Array<::UnityEngine::Vector3>*>  normals;
 
-  /// @brief Field tangents, offset: 0x28, size: 0x8, def value: None
-  ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> tangents;
+/// @brief Field tangents, offset: 0x28, size: 0x8, def value: None
+ ::ArrayW<::UnityEngine::Vector4,::Array<::UnityEngine::Vector4>*>  tangents;
 
-  /// @brief Field vertexBufferSize, offset: 0x30, size: 0x4, def value: None
-  int32_t vertexBufferSize;
+/// @brief Field vertexBufferSize, offset: 0x30, size: 0x4, def value: None
+ int32_t  vertexBufferSize;
 
-  /// @brief Field uvs0, offset: 0x38, size: 0x8, def value: None
-  ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> uvs0;
+/// @brief Field uvs0, offset: 0x38, size: 0x8, def value: None
+ ::ArrayW<::UnityEngine::Vector4,::Array<::UnityEngine::Vector4>*>  uvs0;
 
-  /// @brief Field uvs2, offset: 0x40, size: 0x8, def value: None
-  ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> uvs2;
+/// @brief Field uvs2, offset: 0x40, size: 0x8, def value: None
+ ::ArrayW<::UnityEngine::Vector2,::Array<::UnityEngine::Vector2>*>  uvs2;
 
-  /// @brief Field colors32, offset: 0x48, size: 0x8, def value: None
-  ::ArrayW<::UnityEngine::Color32, ::Array<::UnityEngine::Color32>*> colors32;
+/// @brief Field colors32, offset: 0x48, size: 0x8, def value: None
+ ::ArrayW<::UnityEngine::Color32,::Array<::UnityEngine::Color32>*>  colors32;
 
-  /// @brief Field triangles, offset: 0x50, size: 0x8, def value: None
-  ::ArrayW<int32_t, ::Array<int32_t>*> triangles;
+/// @brief Field triangles, offset: 0x50, size: 0x8, def value: None
+ ::ArrayW<int32_t,::Array<int32_t>*>  triangles;
 
-  /// @brief Field vertexDataLayout, offset: 0x58, size: 0x4, def value: None
-  ::UnityEngine::TextCore::Text::VertexDataLayout vertexDataLayout;
+/// @brief Field vertexDataLayout, offset: 0x58, size: 0x4, def value: None
+ ::UnityEngine::TextCore::Text::VertexDataLayout  vertexDataLayout;
 
-  /// @brief Field applySDF, offset: 0x5c, size: 0x1, def value: None
-  bool applySDF;
+/// @brief Field applySDF, offset: 0x5c, size: 0x1, def value: None
+ bool  applySDF;
 
-  /// @brief Field glyphRenderMode, offset: 0x60, size: 0x4, def value: None
-  ::UnityEngine::TextCore::LowLevel::GlyphRenderMode glyphRenderMode;
+/// @brief Field glyphRenderMode, offset: 0x60, size: 0x4, def value: None
+ ::UnityEngine::TextCore::LowLevel::GlyphRenderMode  glyphRenderMode;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::TextCore::Text::MeshInfo, vertexCount) == 0x0, "Offset mismatch!");
@@ -189,5 +175,5 @@ static_assert(offsetof(::UnityEngine::TextCore::Text::MeshInfo, glyphRenderMode)
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::TextCore::Text::MeshInfo, 0x68>, "Size mismatch!");
 
-} // namespace UnityEngine::TextCore::Text
+} // namespace end def UnityEngine::TextCore::Text
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextCore::Text::MeshInfo, "UnityEngine.TextCore.Text", "MeshInfo");

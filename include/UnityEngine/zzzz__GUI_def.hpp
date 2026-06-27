@@ -63,258 +63,257 @@ namespace UnityEngine {
 // CS Name: UnityEngine.GUI/WindowFunction
 class CORDL_TYPE GUI_WindowFunction : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method Invoke, addr 0x69ead48, size 0x14, virtual true, abstract: false, final false
-  inline void Invoke(int32_t id);
+// Declarations
+/// @brief Method Invoke, addr 0x69ec8c0, size 0x14, virtual true, abstract: false, final false
+inline void Invoke(int32_t  id) ;
 
-  static inline ::UnityEngine::GUI_WindowFunction* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::UnityEngine::GUI_WindowFunction* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x69eacdc, size 0x6c, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x69ec854, size 0x6c, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr GUI_WindowFunction();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr GUI_WindowFunction() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GUI_WindowFunction", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  GUI_WindowFunction(GUI_WindowFunction&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GUI_WindowFunction", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  GUI_WindowFunction(GUI_WindowFunction const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "GUI_WindowFunction", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+GUI_WindowFunction(GUI_WindowFunction && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19602 };
+// Ctor Parameters [CppParam { name: "", ty: "GUI_WindowFunction", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+GUI_WindowFunction(GUI_WindowFunction const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19605};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::GUI_WindowFunction, 0x80>, "Size mismatch!");
 
-} // namespace UnityEngine
+} // namespace end def UnityEngine
 // Dependencies System.DateTime, System.Object, UnityEngine.Rect
 namespace UnityEngine {
 // Is value type: false
 // CS Name: UnityEngine.GUI
 class CORDL_TYPE GUI : public ::System::Object {
 public:
-  // Declarations
-  using WindowFunction = ::UnityEngine::GUI_WindowFunction;
+// Declarations
+using WindowFunction = ::UnityEngine::GUI_WindowFunction;
 
-  /// @brief Field <nextScrollStepTime>k__BackingField, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF__nextScrollStepTime_k__BackingField, put = setStaticF__nextScrollStepTime_k__BackingField)) ::System::DateTime _nextScrollStepTime_k__BackingField;
+/// @brief Field <nextScrollStepTime>k__BackingField, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF__nextScrollStepTime_k__BackingField, put=setStaticF__nextScrollStepTime_k__BackingField)) ::System::DateTime  _nextScrollStepTime_k__BackingField;
 
-  /// @brief Field <scrollViewStates>k__BackingField, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF__scrollViewStates_k__BackingField, put = setStaticF__scrollViewStates_k__BackingField)) ::UnityEngineInternal::GenericStack* _scrollViewStates_k__BackingField;
+/// @brief Field <scrollViewStates>k__BackingField, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF__scrollViewStates_k__BackingField, put=setStaticF__scrollViewStates_k__BackingField)) ::UnityEngineInternal::GenericStack*  _scrollViewStates_k__BackingField;
 
-  /// @brief Field s_BeginGroupHash, offset 0xffffffff, size 0x4
-  __declspec(property(get = getStaticF_s_BeginGroupHash, put = setStaticF_s_BeginGroupHash)) int32_t s_BeginGroupHash;
+/// @brief Field s_BeginGroupHash, offset 0xffffffff, size 0x4 
+ __declspec(property(get=getStaticF_s_BeginGroupHash, put=setStaticF_s_BeginGroupHash)) int32_t  s_BeginGroupHash;
 
-  /// @brief Field s_BoxHash, offset 0xffffffff, size 0x4
-  __declspec(property(get = getStaticF_s_BoxHash, put = setStaticF_s_BoxHash)) int32_t s_BoxHash;
+/// @brief Field s_BoxHash, offset 0xffffffff, size 0x4 
+ __declspec(property(get=getStaticF_s_BoxHash, put=setStaticF_s_BoxHash)) int32_t  s_BoxHash;
 
-  /// @brief Field s_ButonHash, offset 0xffffffff, size 0x4
-  __declspec(property(get = getStaticF_s_ButonHash, put = setStaticF_s_ButonHash)) int32_t s_ButonHash;
+/// @brief Field s_ButonHash, offset 0xffffffff, size 0x4 
+ __declspec(property(get=getStaticF_s_ButonHash, put=setStaticF_s_ButonHash)) int32_t  s_ButonHash;
 
-  /// @brief Field s_ButtonGridHash, offset 0xffffffff, size 0x4
-  __declspec(property(get = getStaticF_s_ButtonGridHash, put = setStaticF_s_ButtonGridHash)) int32_t s_ButtonGridHash;
+/// @brief Field s_ButtonGridHash, offset 0xffffffff, size 0x4 
+ __declspec(property(get=getStaticF_s_ButtonGridHash, put=setStaticF_s_ButtonGridHash)) int32_t  s_ButtonGridHash;
 
-  /// @brief Field s_HotTextField, offset 0xffffffff, size 0x4
-  __declspec(property(get = getStaticF_s_HotTextField, put = setStaticF_s_HotTextField)) int32_t s_HotTextField;
+/// @brief Field s_HotTextField, offset 0xffffffff, size 0x4 
+ __declspec(property(get=getStaticF_s_HotTextField, put=setStaticF_s_HotTextField)) int32_t  s_HotTextField;
 
-  /// @brief Field s_RepeatButtonHash, offset 0xffffffff, size 0x4
-  __declspec(property(get = getStaticF_s_RepeatButtonHash, put = setStaticF_s_RepeatButtonHash)) int32_t s_RepeatButtonHash;
+/// @brief Field s_RepeatButtonHash, offset 0xffffffff, size 0x4 
+ __declspec(property(get=getStaticF_s_RepeatButtonHash, put=setStaticF_s_RepeatButtonHash)) int32_t  s_RepeatButtonHash;
 
-  /// @brief Field s_ScrollviewHash, offset 0xffffffff, size 0x4
-  __declspec(property(get = getStaticF_s_ScrollviewHash, put = setStaticF_s_ScrollviewHash)) int32_t s_ScrollviewHash;
+/// @brief Field s_ScrollviewHash, offset 0xffffffff, size 0x4 
+ __declspec(property(get=getStaticF_s_ScrollviewHash, put=setStaticF_s_ScrollviewHash)) int32_t  s_ScrollviewHash;
 
-  /// @brief Field s_Skin, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_s_Skin, put = setStaticF_s_Skin)) ::UnityW<::UnityEngine::GUISkin> s_Skin;
+/// @brief Field s_Skin, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_s_Skin, put=setStaticF_s_Skin)) ::UnityW<::UnityEngine::GUISkin>  s_Skin;
 
-  /// @brief Field s_SliderHash, offset 0xffffffff, size 0x4
-  __declspec(property(get = getStaticF_s_SliderHash, put = setStaticF_s_SliderHash)) int32_t s_SliderHash;
+/// @brief Field s_SliderHash, offset 0xffffffff, size 0x4 
+ __declspec(property(get=getStaticF_s_SliderHash, put=setStaticF_s_SliderHash)) int32_t  s_SliderHash;
 
-  /// @brief Field s_ToggleHash, offset 0xffffffff, size 0x4
-  __declspec(property(get = getStaticF_s_ToggleHash, put = setStaticF_s_ToggleHash)) int32_t s_ToggleHash;
+/// @brief Field s_ToggleHash, offset 0xffffffff, size 0x4 
+ __declspec(property(get=getStaticF_s_ToggleHash, put=setStaticF_s_ToggleHash)) int32_t  s_ToggleHash;
 
-  /// @brief Field s_ToolTipRect, offset 0xffffffff, size 0x10
-  __declspec(property(get = getStaticF_s_ToolTipRect, put = setStaticF_s_ToolTipRect)) ::UnityEngine::Rect s_ToolTipRect;
+/// @brief Field s_ToolTipRect, offset 0xffffffff, size 0x10 
+ __declspec(property(get=getStaticF_s_ToolTipRect, put=setStaticF_s_ToolTipRect)) ::UnityEngine::Rect  s_ToolTipRect;
 
-  /// @brief Method BeginGroup, addr 0x69e9da4, size 0xe0, virtual false, abstract: false, final false
-  static inline void BeginGroup(::UnityEngine::Rect position, ::UnityEngine::GUIContent* content, ::UnityEngine::GUIStyle* style);
+/// @brief Method BeginGroup, addr 0x69eb91c, size 0xe0, virtual false, abstract: false, final false
+static inline void BeginGroup(::UnityEngine::Rect  position, ::UnityEngine::GUIContent*  content, ::UnityEngine::GUIStyle*  style) ;
 
-  /// @brief Method BeginGroup, addr 0x69e9e84, size 0x2c0, virtual false, abstract: false, final false
-  static inline void BeginGroup(::UnityEngine::Rect position, ::UnityEngine::GUIContent* content, ::UnityEngine::GUIStyle* style, ::UnityEngine::Vector2 scrollOffset);
+/// @brief Method BeginGroup, addr 0x69eb9fc, size 0x2c0, virtual false, abstract: false, final false
+static inline void BeginGroup(::UnityEngine::Rect  position, ::UnityEngine::GUIContent*  content, ::UnityEngine::GUIStyle*  style, ::UnityEngine::Vector2  scrollOffset) ;
 
-  /// @brief Method Box, addr 0x69e979c, size 0x1bc, virtual false, abstract: false, final false
-  static inline void Box(::UnityEngine::Rect position, ::UnityEngine::GUIContent* content, ::UnityEngine::GUIStyle* style);
+/// @brief Method Box, addr 0x69eb314, size 0x1bc, virtual false, abstract: false, final false
+static inline void Box(::UnityEngine::Rect  position, ::UnityEngine::GUIContent*  content, ::UnityEngine::GUIStyle*  style) ;
 
-  /// @brief Method Box, addr 0x69e96bc, size 0xd8, virtual false, abstract: false, final false
-  static inline void Box(::UnityEngine::Rect position, ::StringW text);
+/// @brief Method Box, addr 0x69eb234, size 0xd8, virtual false, abstract: false, final false
+static inline void Box(::UnityEngine::Rect  position, ::StringW  text) ;
 
-  /// @brief Method CallWindowDelegate, addr 0x69ea318, size 0x298, virtual false, abstract: false, final false
-  static inline void CallWindowDelegate(::UnityEngine::GUI_WindowFunction* func, int32_t id, int32_t instanceID, ::UnityEngine::GUISkin* _skin, int32_t forceRect, float_t width, float_t height,
-                                        ::UnityEngine::GUIStyle* style);
+/// @brief Method CallWindowDelegate, addr 0x69ebe90, size 0x298, virtual false, abstract: false, final false
+static inline void CallWindowDelegate(::UnityEngine::GUI_WindowFunction*  func, int32_t  id, int32_t  instanceID, ::UnityEngine::GUISkin*  _skin, int32_t  forceRect, float_t  width, float_t  height, ::UnityEngine::GUIStyle*  style) ;
 
-  /// @brief Method DoLabel, addr 0x69e9428, size 0x294, virtual false, abstract: false, final false
-  static inline void DoLabel(::UnityEngine::Rect position, ::UnityEngine::GUIContent* content, ::UnityEngine::GUIStyle* style);
+/// @brief Method DoLabel, addr 0x69eafa0, size 0x294, virtual false, abstract: false, final false
+static inline void DoLabel(::UnityEngine::Rect  position, ::UnityEngine::GUIContent*  content, ::UnityEngine::GUIStyle*  style) ;
 
-  /// @brief Method DoSetSkin, addr 0x69e8ddc, size 0xd4, virtual false, abstract: false, final false
-  static inline void DoSetSkin(::UnityEngine::GUISkin* newSkin);
+/// @brief Method DoSetSkin, addr 0x69ea954, size 0xd4, virtual false, abstract: false, final false
+static inline void DoSetSkin(::UnityEngine::GUISkin*  newSkin) ;
 
-  /// @brief Method EndGroup, addr 0x69ea224, size 0x70, virtual false, abstract: false, final false
-  static inline void EndGroup();
+/// @brief Method EndGroup, addr 0x69ebd9c, size 0x70, virtual false, abstract: false, final false
+static inline void EndGroup() ;
 
-  /// @brief Method Label, addr 0x69e9364, size 0xc4, virtual false, abstract: false, final false
-  static inline void Label(::UnityEngine::Rect position, ::UnityEngine::GUIContent* content, ::UnityEngine::GUIStyle* style);
+/// @brief Method Label, addr 0x69eaedc, size 0xc4, virtual false, abstract: false, final false
+static inline void Label(::UnityEngine::Rect  position, ::UnityEngine::GUIContent*  content, ::UnityEngine::GUIStyle*  style) ;
 
-  /// @brief Method Label, addr 0x69e91ec, size 0xd8, virtual false, abstract: false, final false
-  static inline void Label(::UnityEngine::Rect position, ::StringW text);
+/// @brief Method Label, addr 0x69ead64, size 0xd8, virtual false, abstract: false, final false
+static inline void Label(::UnityEngine::Rect  position, ::StringW  text) ;
 
-  static inline ::System::DateTime getStaticF__nextScrollStepTime_k__BackingField();
+static inline ::System::DateTime getStaticF__nextScrollStepTime_k__BackingField() ;
 
-  static inline ::UnityEngineInternal::GenericStack* getStaticF__scrollViewStates_k__BackingField();
+static inline ::UnityEngineInternal::GenericStack* getStaticF__scrollViewStates_k__BackingField() ;
 
-  static inline int32_t getStaticF_s_BeginGroupHash();
+static inline int32_t getStaticF_s_BeginGroupHash() ;
 
-  static inline int32_t getStaticF_s_BoxHash();
+static inline int32_t getStaticF_s_BoxHash() ;
 
-  static inline int32_t getStaticF_s_ButonHash();
+static inline int32_t getStaticF_s_ButonHash() ;
 
-  static inline int32_t getStaticF_s_ButtonGridHash();
+static inline int32_t getStaticF_s_ButtonGridHash() ;
 
-  static inline int32_t getStaticF_s_HotTextField();
+static inline int32_t getStaticF_s_HotTextField() ;
 
-  static inline int32_t getStaticF_s_RepeatButtonHash();
+static inline int32_t getStaticF_s_RepeatButtonHash() ;
 
-  static inline int32_t getStaticF_s_ScrollviewHash();
+static inline int32_t getStaticF_s_ScrollviewHash() ;
 
-  static inline ::UnityW<::UnityEngine::GUISkin> getStaticF_s_Skin();
+static inline ::UnityW<::UnityEngine::GUISkin> getStaticF_s_Skin() ;
 
-  static inline int32_t getStaticF_s_SliderHash();
+static inline int32_t getStaticF_s_SliderHash() ;
 
-  static inline int32_t getStaticF_s_ToggleHash();
+static inline int32_t getStaticF_s_ToggleHash() ;
 
-  static inline ::UnityEngine::Rect getStaticF_s_ToolTipRect();
+static inline ::UnityEngine::Rect getStaticF_s_ToolTipRect() ;
 
-  /// @brief Method get_backgroundColor, addr 0x69e856c, size 0x8c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Color get_backgroundColor();
+/// @brief Method get_backgroundColor, addr 0x69ea0e4, size 0x8c, virtual false, abstract: false, final false
+static inline ::UnityEngine::Color get_backgroundColor() ;
 
-  /// @brief Method get_backgroundColor_Injected, addr 0x69e85f8, size 0x3c, virtual false, abstract: false, final false
-  static inline void get_backgroundColor_Injected(::ByRef<::UnityEngine::Color> ret);
+/// @brief Method get_backgroundColor_Injected, addr 0x69ea170, size 0x3c, virtual false, abstract: false, final false
+static inline void get_backgroundColor_Injected(::ByRef<::UnityEngine::Color>  ret) ;
 
-  /// @brief Method get_changed, addr 0x69e8884, size 0x28, virtual false, abstract: false, final false
-  static inline bool get_changed();
+/// @brief Method get_changed, addr 0x69ea3fc, size 0x28, virtual false, abstract: false, final false
+static inline bool get_changed() ;
 
-  /// @brief Method get_color, addr 0x69e83e0, size 0x8c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Color get_color();
+/// @brief Method get_color, addr 0x69e9f58, size 0x8c, virtual false, abstract: false, final false
+static inline ::UnityEngine::Color get_color() ;
 
-  /// @brief Method get_color_Injected, addr 0x69e846c, size 0x3c, virtual false, abstract: false, final false
-  static inline void get_color_Injected(::ByRef<::UnityEngine::Color> ret);
+/// @brief Method get_color_Injected, addr 0x69e9fe4, size 0x3c, virtual false, abstract: false, final false
+static inline void get_color_Injected(::ByRef<::UnityEngine::Color>  ret) ;
 
-  /// @brief Method get_contentColor, addr 0x69e86f8, size 0x8c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Color get_contentColor();
+/// @brief Method get_contentColor, addr 0x69ea270, size 0x8c, virtual false, abstract: false, final false
+static inline ::UnityEngine::Color get_contentColor() ;
 
-  /// @brief Method get_contentColor_Injected, addr 0x69e8784, size 0x3c, virtual false, abstract: false, final false
-  static inline void get_contentColor_Injected(::ByRef<::UnityEngine::Color> ret);
+/// @brief Method get_contentColor_Injected, addr 0x69ea2fc, size 0x3c, virtual false, abstract: false, final false
+static inline void get_contentColor_Injected(::ByRef<::UnityEngine::Color>  ret) ;
 
-  /// @brief Method get_enabled, addr 0x69e88e8, size 0x28, virtual false, abstract: false, final false
-  static inline bool get_enabled();
+/// @brief Method get_enabled, addr 0x69ea460, size 0x28, virtual false, abstract: false, final false
+static inline bool get_enabled() ;
 
-  /// @brief Method get_matrix, addr 0x69e9094, size 0x6c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Matrix4x4 get_matrix();
+/// @brief Method get_matrix, addr 0x69eac0c, size 0x6c, virtual false, abstract: false, final false
+static inline ::UnityEngine::Matrix4x4 get_matrix() ;
 
-  /// @brief Method get_scrollViewStates, addr 0x69ea2bc, size 0x5c, virtual false, abstract: false, final false
-  static inline ::UnityEngineInternal::GenericStack* get_scrollViewStates();
+/// @brief Method get_scrollViewStates, addr 0x69ebe34, size 0x5c, virtual false, abstract: false, final false
+static inline ::UnityEngineInternal::GenericStack* get_scrollViewStates() ;
 
-  /// @brief Method get_skin, addr 0x69e8eb0, size 0x88, virtual false, abstract: false, final false
-  static inline ::UnityW<::UnityEngine::GUISkin> get_skin();
+/// @brief Method get_skin, addr 0x69eaa28, size 0x88, virtual false, abstract: false, final false
+static inline ::UnityW<::UnityEngine::GUISkin> get_skin() ;
 
-  static inline void setStaticF__nextScrollStepTime_k__BackingField(::System::DateTime value);
+static inline void setStaticF__nextScrollStepTime_k__BackingField(::System::DateTime  value) ;
 
-  static inline void setStaticF__scrollViewStates_k__BackingField(::UnityEngineInternal::GenericStack* value);
+static inline void setStaticF__scrollViewStates_k__BackingField(::UnityEngineInternal::GenericStack*  value) ;
 
-  static inline void setStaticF_s_BeginGroupHash(int32_t value);
+static inline void setStaticF_s_BeginGroupHash(int32_t  value) ;
 
-  static inline void setStaticF_s_BoxHash(int32_t value);
+static inline void setStaticF_s_BoxHash(int32_t  value) ;
 
-  static inline void setStaticF_s_ButonHash(int32_t value);
+static inline void setStaticF_s_ButonHash(int32_t  value) ;
 
-  static inline void setStaticF_s_ButtonGridHash(int32_t value);
+static inline void setStaticF_s_ButtonGridHash(int32_t  value) ;
 
-  static inline void setStaticF_s_HotTextField(int32_t value);
+static inline void setStaticF_s_HotTextField(int32_t  value) ;
 
-  static inline void setStaticF_s_RepeatButtonHash(int32_t value);
+static inline void setStaticF_s_RepeatButtonHash(int32_t  value) ;
 
-  static inline void setStaticF_s_ScrollviewHash(int32_t value);
+static inline void setStaticF_s_ScrollviewHash(int32_t  value) ;
 
-  static inline void setStaticF_s_Skin(::UnityW<::UnityEngine::GUISkin> value);
+static inline void setStaticF_s_Skin(::UnityW<::UnityEngine::GUISkin>  value) ;
 
-  static inline void setStaticF_s_SliderHash(int32_t value);
+static inline void setStaticF_s_SliderHash(int32_t  value) ;
 
-  static inline void setStaticF_s_ToggleHash(int32_t value);
+static inline void setStaticF_s_ToggleHash(int32_t  value) ;
 
-  static inline void setStaticF_s_ToolTipRect(::UnityEngine::Rect value);
+static inline void setStaticF_s_ToolTipRect(::UnityEngine::Rect  value) ;
 
-  /// @brief Method set_backgroundColor, addr 0x69e8634, size 0x88, virtual false, abstract: false, final false
-  static inline void set_backgroundColor(::UnityEngine::Color value);
+/// @brief Method set_backgroundColor, addr 0x69ea1ac, size 0x88, virtual false, abstract: false, final false
+static inline void set_backgroundColor(::UnityEngine::Color  value) ;
 
-  /// @brief Method set_backgroundColor_Injected, addr 0x69e86bc, size 0x3c, virtual false, abstract: false, final false
-  static inline void set_backgroundColor_Injected(::ByRef<::UnityEngine::Color> value);
+/// @brief Method set_backgroundColor_Injected, addr 0x69ea234, size 0x3c, virtual false, abstract: false, final false
+static inline void set_backgroundColor_Injected(::ByRef<::UnityEngine::Color>  value) ;
 
-  /// @brief Method set_changed, addr 0x69e88ac, size 0x3c, virtual false, abstract: false, final false
-  static inline void set_changed(bool value);
+/// @brief Method set_changed, addr 0x69ea424, size 0x3c, virtual false, abstract: false, final false
+static inline void set_changed(bool  value) ;
 
-  /// @brief Method set_color, addr 0x69e84a8, size 0x88, virtual false, abstract: false, final false
-  static inline void set_color(::UnityEngine::Color value);
+/// @brief Method set_color, addr 0x69ea020, size 0x88, virtual false, abstract: false, final false
+static inline void set_color(::UnityEngine::Color  value) ;
 
-  /// @brief Method set_color_Injected, addr 0x69e8530, size 0x3c, virtual false, abstract: false, final false
-  static inline void set_color_Injected(::ByRef<::UnityEngine::Color> value);
+/// @brief Method set_color_Injected, addr 0x69ea0a8, size 0x3c, virtual false, abstract: false, final false
+static inline void set_color_Injected(::ByRef<::UnityEngine::Color>  value) ;
 
-  /// @brief Method set_contentColor, addr 0x69e87c0, size 0x88, virtual false, abstract: false, final false
-  static inline void set_contentColor(::UnityEngine::Color value);
+/// @brief Method set_contentColor, addr 0x69ea338, size 0x88, virtual false, abstract: false, final false
+static inline void set_contentColor(::UnityEngine::Color  value) ;
 
-  /// @brief Method set_contentColor_Injected, addr 0x69e8848, size 0x3c, virtual false, abstract: false, final false
-  static inline void set_contentColor_Injected(::ByRef<::UnityEngine::Color> value);
+/// @brief Method set_contentColor_Injected, addr 0x69ea3c0, size 0x3c, virtual false, abstract: false, final false
+static inline void set_contentColor_Injected(::ByRef<::UnityEngine::Color>  value) ;
 
-  /// @brief Method set_enabled, addr 0x69e8910, size 0x3c, virtual false, abstract: false, final false
-  static inline void set_enabled(bool value);
+/// @brief Method set_enabled, addr 0x69ea488, size 0x3c, virtual false, abstract: false, final false
+static inline void set_enabled(bool  value) ;
 
-  /// @brief Method set_matrix, addr 0x69e9164, size 0x4c, virtual false, abstract: false, final false
-  static inline void set_matrix(::UnityEngine::Matrix4x4 value);
+/// @brief Method set_matrix, addr 0x69eacdc, size 0x4c, virtual false, abstract: false, final false
+static inline void set_matrix(::UnityEngine::Matrix4x4  value) ;
 
-  /// @brief Method set_nextScrollStepTime, addr 0x69e8c38, size 0x60, virtual false, abstract: false, final false
-  static inline void set_nextScrollStepTime(::System::DateTime value);
+/// @brief Method set_nextScrollStepTime, addr 0x69ea7b0, size 0x60, virtual false, abstract: false, final false
+static inline void set_nextScrollStepTime(::System::DateTime  value) ;
 
-  /// @brief Method set_skin, addr 0x69e8c98, size 0x84, virtual false, abstract: false, final false
-  static inline void set_skin(::UnityEngine::GUISkin* value);
+/// @brief Method set_skin, addr 0x69ea810, size 0x84, virtual false, abstract: false, final false
+static inline void set_skin(::UnityEngine::GUISkin*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr GUI();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr GUI() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GUI", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  GUI(GUI&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GUI", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  GUI(GUI const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "GUI", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+GUI(GUI && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19603 };
+// Ctor Parameters [CppParam { name: "", ty: "GUI", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+GUI(GUI const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19606};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::GUI, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine
+} // namespace end def UnityEngine
 NEED_NO_BOX(::UnityEngine::GUI);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::GUI*, "UnityEngine", "GUI");
 NEED_NO_BOX(::UnityEngine::GUI_WindowFunction);

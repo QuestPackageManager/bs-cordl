@@ -7,13 +7,15 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(StyleValueExtensions)
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template<typename T>
+class List_1;
 }
 namespace UnityEngine::UIElements::Layout {
 struct LayoutValue;
 }
 namespace UnityEngine::UIElements {
-template <typename T> class IStyleValue_1;
+template<typename T>
+class IStyleValue_1;
 }
 namespace UnityEngine::UIElements {
 struct Length;
@@ -45,53 +47,55 @@ namespace UnityEngine::UIElements {
 // CS Name: UnityEngine.UIElements.StyleValueExtensions
 class CORDL_TYPE StyleValueExtensions : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method CopyFrom, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline void CopyFrom(::System::Collections::Generic::List_1<T>* list, ::System::Collections::Generic::List_1<T>* other);
+// Declarations
+/// @brief Method CopyFrom, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+template<typename T>
+static inline void CopyFrom(::System::Collections::Generic::List_1<T>*  list, ::System::Collections::Generic::List_1<T>*  other) ;
 
-  /// @brief Method DebugString, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ::StringW DebugString(::UnityEngine::UIElements::IStyleValue_1<T>* styleValue);
+/// @brief Method DebugString, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+template<typename T>
+static inline ::StringW DebugString(::UnityEngine::UIElements::IStyleValue_1<T>*  styleValue) ;
 
-  /// @brief Method ToLayoutValue, addr 0x6b3bd38, size 0x164, virtual false, abstract: false, final false
-  static inline ::UnityEngine::UIElements::Layout::LayoutValue ToLayoutValue(::UnityEngine::UIElements::Length length);
+/// @brief Method ToLayoutValue, addr 0x6b3d8b0, size 0x164, virtual false, abstract: false, final false
+static inline ::UnityEngine::UIElements::Layout::LayoutValue ToLayoutValue(::UnityEngine::UIElements::Length  length) ;
 
-  /// @brief Method ToLength, addr 0x6b3be9c, size 0x110, virtual false, abstract: false, final false
-  static inline ::UnityEngine::UIElements::Length ToLength(::UnityEngine::UIElements::StyleKeyword keyword);
+/// @brief Method ToLength, addr 0x6b3da14, size 0x110, virtual false, abstract: false, final false
+static inline ::UnityEngine::UIElements::Length ToLength(::UnityEngine::UIElements::StyleKeyword  keyword) ;
 
-  /// @brief Method ToLength, addr 0x6b3c364, size 0x30, virtual false, abstract: false, final false
-  static inline ::UnityEngine::UIElements::Length ToLength(::UnityEngine::UIElements::StyleLength styleLength);
+/// @brief Method ToLength, addr 0x6b3dedc, size 0x30, virtual false, abstract: false, final false
+static inline ::UnityEngine::UIElements::Length ToLength(::UnityEngine::UIElements::StyleLength  styleLength) ;
 
-  /// @brief Method ToRotate, addr 0x6b3bfac, size 0x168, virtual false, abstract: false, final false
-  static inline ::UnityEngine::UIElements::Rotate ToRotate(::UnityEngine::UIElements::StyleKeyword keyword);
+/// @brief Method ToRotate, addr 0x6b3db24, size 0x168, virtual false, abstract: false, final false
+static inline ::UnityEngine::UIElements::Rotate ToRotate(::UnityEngine::UIElements::StyleKeyword  keyword) ;
 
-  /// @brief Method ToScale, addr 0x6b3c114, size 0x10c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::UIElements::Scale ToScale(::UnityEngine::UIElements::StyleKeyword keyword);
+/// @brief Method ToScale, addr 0x6b3dc8c, size 0x10c, virtual false, abstract: false, final false
+static inline ::UnityEngine::UIElements::Scale ToScale(::UnityEngine::UIElements::StyleKeyword  keyword) ;
 
-  /// @brief Method ToTranslate, addr 0x6b3c220, size 0x144, virtual false, abstract: false, final false
-  static inline ::UnityEngine::UIElements::Translate ToTranslate(::UnityEngine::UIElements::StyleKeyword keyword);
+/// @brief Method ToTranslate, addr 0x6b3dd98, size 0x144, virtual false, abstract: false, final false
+static inline ::UnityEngine::UIElements::Translate ToTranslate(::UnityEngine::UIElements::StyleKeyword  keyword) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr StyleValueExtensions();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr StyleValueExtensions() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StyleValueExtensions", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  StyleValueExtensions(StyleValueExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StyleValueExtensions", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  StyleValueExtensions(StyleValueExtensions const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "StyleValueExtensions", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+StyleValueExtensions(StyleValueExtensions && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4984 };
+// Ctor Parameters [CppParam { name: "", ty: "StyleValueExtensions", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+StyleValueExtensions(StyleValueExtensions const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4984};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::StyleValueExtensions, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements
+} // namespace end def UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::StyleValueExtensions);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::StyleValueExtensions*, "UnityEngine.UIElements", "StyleValueExtensions");

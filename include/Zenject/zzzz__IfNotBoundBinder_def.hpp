@@ -20,59 +20,59 @@ namespace Zenject {
 // CS Name: Zenject.IfNotBoundBinder
 class CORDL_TYPE IfNotBoundBinder : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = get_BindInfo, put = set_BindInfo)) ::Zenject::BindInfo* BindInfo;
+// Declarations
+ __declspec(property(get=get_BindInfo, put=set_BindInfo)) ::Zenject::BindInfo*  BindInfo;
 
-  /// @brief Field <BindInfo>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__BindInfo_k__BackingField, put = __cordl_internal_set__BindInfo_k__BackingField)) ::Zenject::BindInfo* _BindInfo_k__BackingField;
+/// @brief Field <BindInfo>k__BackingField, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get__BindInfo_k__BackingField, put=__cordl_internal_set__BindInfo_k__BackingField)) ::Zenject::BindInfo*  _BindInfo_k__BackingField;
 
-  /// @brief Method IfNotBound, addr 0x6d03524, size 0x1c, virtual false, abstract: false, final false
-  inline void IfNotBound();
+/// @brief Method IfNotBound, addr 0x6d0509c, size 0x1c, virtual false, abstract: false, final false
+inline void IfNotBound() ;
 
-  static inline ::Zenject::IfNotBoundBinder* New_ctor(::Zenject::BindInfo* bindInfo);
+static inline ::Zenject::IfNotBoundBinder* New_ctor(::Zenject::BindInfo*  bindInfo) ;
 
-  constexpr ::Zenject::BindInfo* const& __cordl_internal_get__BindInfo_k__BackingField() const;
+constexpr ::Zenject::BindInfo* const& __cordl_internal_get__BindInfo_k__BackingField() const;
 
-  constexpr ::Zenject::BindInfo*& __cordl_internal_get__BindInfo_k__BackingField();
+constexpr ::Zenject::BindInfo*& __cordl_internal_get__BindInfo_k__BackingField() ;
 
-  constexpr void __cordl_internal_set__BindInfo_k__BackingField(::Zenject::BindInfo* value);
+constexpr void __cordl_internal_set__BindInfo_k__BackingField(::Zenject::BindInfo*  value) ;
 
-  /// @brief Method .ctor, addr 0x6d0350c, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::Zenject::BindInfo* bindInfo);
+/// @brief Method .ctor, addr 0x6d05084, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(::Zenject::BindInfo*  bindInfo) ;
 
-  /// @brief Method get_BindInfo, addr 0x6d03514, size 0x8, virtual false, abstract: false, final false
-  inline ::Zenject::BindInfo* get_BindInfo();
+/// @brief Method get_BindInfo, addr 0x6d0508c, size 0x8, virtual false, abstract: false, final false
+inline ::Zenject::BindInfo* get_BindInfo() ;
 
-  /// @brief Method set_BindInfo, addr 0x6d0351c, size 0x8, virtual false, abstract: false, final false
-  inline void set_BindInfo(::Zenject::BindInfo* value);
+/// @brief Method set_BindInfo, addr 0x6d05094, size 0x8, virtual false, abstract: false, final false
+inline void set_BindInfo(::Zenject::BindInfo*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IfNotBoundBinder();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr IfNotBoundBinder() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IfNotBoundBinder", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IfNotBoundBinder(IfNotBoundBinder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IfNotBoundBinder", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  IfNotBoundBinder(IfNotBoundBinder const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "IfNotBoundBinder", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+IfNotBoundBinder(IfNotBoundBinder && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14260 };
+// Ctor Parameters [CppParam { name: "", ty: "IfNotBoundBinder", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+IfNotBoundBinder(IfNotBoundBinder const& ) = delete;
 
-  /// @brief Field <BindInfo>k__BackingField, offset: 0x10, size: 0x8, def value: None
-  ::Zenject::BindInfo* ____BindInfo_k__BackingField;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{14261};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field <BindInfo>k__BackingField, offset: 0x10, size: 0x8, def value: None
+ ::Zenject::BindInfo*  ____BindInfo_k__BackingField;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Zenject::IfNotBoundBinder, ____BindInfo_k__BackingField) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::Zenject::IfNotBoundBinder, 0x18>, "Size mismatch!");
 
-} // namespace Zenject
+} // namespace end def Zenject
 NEED_NO_BOX(::Zenject::IfNotBoundBinder);
 DEFINE_IL2CPP_ARG_TYPE(::Zenject::IfNotBoundBinder*, "Zenject", "IfNotBoundBinder");

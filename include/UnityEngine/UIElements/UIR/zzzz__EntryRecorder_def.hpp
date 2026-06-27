@@ -11,7 +11,8 @@ namespace System {
 class Action;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeSlice_1;
+template<typename T>
+struct NativeSlice_1;
 }
 namespace UnityEngine::UIElements::UIR {
 class EntryPool;
@@ -43,121 +44,117 @@ namespace UnityEngine::UIElements::UIR {
 // CS Name: UnityEngine.UIElements.UIR.EntryRecorder
 class CORDL_TYPE EntryRecorder : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field m_EntryPool, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_EntryPool, put = __cordl_internal_set_m_EntryPool)) ::UnityEngine::UIElements::UIR::EntryPool* m_EntryPool;
+// Declarations
+/// @brief Field m_EntryPool, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_EntryPool, put=__cordl_internal_set_m_EntryPool)) ::UnityEngine::UIElements::UIR::EntryPool*  m_EntryPool;
 
-  /// @brief Method Append, addr 0x6b83fac, size 0x98, virtual false, abstract: false, final false
-  static inline void Append(::UnityEngine::UIElements::UIR::Entry* parentEntry, ::UnityEngine::UIElements::UIR::Entry* entry);
+/// @brief Method Append, addr 0x6b85b24, size 0x98, virtual false, abstract: false, final false
+static inline void Append(::UnityEngine::UIElements::UIR::Entry*  parentEntry, ::UnityEngine::UIElements::UIR::Entry*  entry) ;
 
-  /// @brief Method AppendMeshEntry, addr 0x6b82ff0, size 0x270, virtual false, abstract: false, final false
-  static inline void AppendMeshEntry(::UnityEngine::UIElements::UIR::Entry* parentEntry, ::UnityEngine::UIElements::UIR::Entry* entry);
+/// @brief Method AppendMeshEntry, addr 0x6b84b68, size 0x270, virtual false, abstract: false, final false
+static inline void AppendMeshEntry(::UnityEngine::UIElements::UIR::Entry*  parentEntry, ::UnityEngine::UIElements::UIR::Entry*  entry) ;
 
-  /// @brief Method BeginStencilMask, addr 0x6b83550, size 0xb0, virtual false, abstract: false, final false
-  inline void BeginStencilMask(::UnityEngine::UIElements::UIR::Entry* parentEntry);
+/// @brief Method BeginStencilMask, addr 0x6b850c8, size 0xb0, virtual false, abstract: false, final false
+inline void BeginStencilMask(::UnityEngine::UIElements::UIR::Entry*  parentEntry) ;
 
-  /// @brief Method BlitAndPopRenderTexture, addr 0x6b83c30, size 0xb0, virtual false, abstract: false, final false
-  inline void BlitAndPopRenderTexture(::UnityEngine::UIElements::UIR::Entry* parentEntry);
+/// @brief Method BlitAndPopRenderTexture, addr 0x6b857a8, size 0xb0, virtual false, abstract: false, final false
+inline void BlitAndPopRenderTexture(::UnityEngine::UIElements::UIR::Entry*  parentEntry) ;
 
-  /// @brief Method CutRenderChain, addr 0x6b83e48, size 0xb0, virtual false, abstract: false, final false
-  inline void CutRenderChain(::UnityEngine::UIElements::UIR::Entry* parentEntry);
+/// @brief Method CutRenderChain, addr 0x6b859c0, size 0xb0, virtual false, abstract: false, final false
+inline void CutRenderChain(::UnityEngine::UIElements::UIR::Entry*  parentEntry) ;
 
-  /// @brief Method DrawChildren, addr 0x6b834a0, size 0xb0, virtual false, abstract: false, final false
-  inline void DrawChildren(::UnityEngine::UIElements::UIR::Entry* parentEntry);
+/// @brief Method DrawChildren, addr 0x6b85018, size 0xb0, virtual false, abstract: false, final false
+inline void DrawChildren(::UnityEngine::UIElements::UIR::Entry*  parentEntry) ;
 
-  /// @brief Method DrawGradients, addr 0x6b83370, size 0x6c, virtual false, abstract: false, final false
-  inline void DrawGradients(::UnityEngine::UIElements::UIR::Entry* parentEntry, ::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex> vertices,
-                            ::Unity::Collections::NativeSlice_1<uint16_t> indices, ::UnityEngine::UIElements::VectorImage* gradientsOwner);
+/// @brief Method DrawGradients, addr 0x6b84ee8, size 0x6c, virtual false, abstract: false, final false
+inline void DrawGradients(::UnityEngine::UIElements::UIR::Entry*  parentEntry, ::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex>  vertices, ::Unity::Collections::NativeSlice_1<uint16_t>  indices, ::UnityEngine::UIElements::VectorImage*  gradientsOwner) ;
 
-  /// @brief Method DrawImmediate, addr 0x6b833dc, size 0xc4, virtual false, abstract: false, final false
-  inline void DrawImmediate(::UnityEngine::UIElements::UIR::Entry* parentEntry, ::System::Action* callback, bool cullingEnabled);
+/// @brief Method DrawImmediate, addr 0x6b84f54, size 0xc4, virtual false, abstract: false, final false
+inline void DrawImmediate(::UnityEngine::UIElements::UIR::Entry*  parentEntry, ::System::Action*  callback, bool  cullingEnabled) ;
 
-  /// @brief Method DrawMesh, addr 0x6b82f70, size 0x80, virtual false, abstract: false, final false
-  inline void DrawMesh(::UnityEngine::UIElements::UIR::Entry* parentEntry, ::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex> vertices,
-                       ::Unity::Collections::NativeSlice_1<uint16_t> indices, ::UnityEngine::Texture* texture, bool skipAtlas);
+/// @brief Method DrawMesh, addr 0x6b84ae8, size 0x80, virtual false, abstract: false, final false
+inline void DrawMesh(::UnityEngine::UIElements::UIR::Entry*  parentEntry, ::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex>  vertices, ::Unity::Collections::NativeSlice_1<uint16_t>  indices, ::UnityEngine::Texture*  texture, bool  skipAtlas) ;
 
-  /// @brief Method DrawRasterText, addr 0x6b83260, size 0x88, virtual false, abstract: false, final false
-  inline void DrawRasterText(::UnityEngine::UIElements::UIR::Entry* parentEntry, ::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex> vertices,
-                             ::Unity::Collections::NativeSlice_1<uint16_t> indices, ::UnityEngine::Texture* texture, bool multiChannel);
+/// @brief Method DrawRasterText, addr 0x6b84dd8, size 0x88, virtual false, abstract: false, final false
+inline void DrawRasterText(::UnityEngine::UIElements::UIR::Entry*  parentEntry, ::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex>  vertices, ::Unity::Collections::NativeSlice_1<uint16_t>  indices, ::UnityEngine::Texture*  texture, bool  multiChannel) ;
 
-  /// @brief Method DrawSdfText, addr 0x6b832e8, size 0x88, virtual false, abstract: false, final false
-  inline void DrawSdfText(::UnityEngine::UIElements::UIR::Entry* parentEntry, ::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex> vertices,
-                          ::Unity::Collections::NativeSlice_1<uint16_t> indices, ::UnityEngine::Texture* texture, float_t scale, float_t sharpness);
+/// @brief Method DrawSdfText, addr 0x6b84e60, size 0x88, virtual false, abstract: false, final false
+inline void DrawSdfText(::UnityEngine::UIElements::UIR::Entry*  parentEntry, ::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex>  vertices, ::Unity::Collections::NativeSlice_1<uint16_t>  indices, ::UnityEngine::Texture*  texture, float_t  scale, float_t  sharpness) ;
 
-  /// @brief Method EndStencilMask, addr 0x6b83600, size 0xb0, virtual false, abstract: false, final false
-  inline void EndStencilMask(::UnityEngine::UIElements::UIR::Entry* parentEntry);
+/// @brief Method EndStencilMask, addr 0x6b85178, size 0xb0, virtual false, abstract: false, final false
+inline void EndStencilMask(::UnityEngine::UIElements::UIR::Entry*  parentEntry) ;
 
-  /// @brief Method InsertPlaceholder, addr 0x6b83ef8, size 0xb4, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::UIR::Entry* InsertPlaceholder(::UnityEngine::UIElements::UIR::Entry* parentEntry);
+/// @brief Method InsertPlaceholder, addr 0x6b85a70, size 0xb4, virtual false, abstract: false, final false
+inline ::UnityEngine::UIElements::UIR::Entry* InsertPlaceholder(::UnityEngine::UIElements::UIR::Entry*  parentEntry) ;
 
-  static inline ::UnityEngine::UIElements::UIR::EntryRecorder* New_ctor(::UnityEngine::UIElements::UIR::EntryPool* entryPool);
+static inline ::UnityEngine::UIElements::UIR::EntryRecorder* New_ctor(::UnityEngine::UIElements::UIR::EntryPool*  entryPool) ;
 
-  /// @brief Method PopClippingRect, addr 0x6b83810, size 0xb0, virtual false, abstract: false, final false
-  inline void PopClippingRect(::UnityEngine::UIElements::UIR::Entry* parentEntry);
+/// @brief Method PopClippingRect, addr 0x6b85388, size 0xb0, virtual false, abstract: false, final false
+inline void PopClippingRect(::UnityEngine::UIElements::UIR::Entry*  parentEntry) ;
 
-  /// @brief Method PopDefaultMaterial, addr 0x6b83d98, size 0xb0, virtual false, abstract: false, final false
-  inline void PopDefaultMaterial(::UnityEngine::UIElements::UIR::Entry* parentEntry);
+/// @brief Method PopDefaultMaterial, addr 0x6b85910, size 0xb0, virtual false, abstract: false, final false
+inline void PopDefaultMaterial(::UnityEngine::UIElements::UIR::Entry*  parentEntry) ;
 
-  /// @brief Method PopGroupMatrix, addr 0x6b83ad0, size 0xb0, virtual false, abstract: false, final false
-  inline void PopGroupMatrix(::UnityEngine::UIElements::UIR::Entry* parentEntry);
+/// @brief Method PopGroupMatrix, addr 0x6b85648, size 0xb0, virtual false, abstract: false, final false
+inline void PopGroupMatrix(::UnityEngine::UIElements::UIR::Entry*  parentEntry) ;
 
-  /// @brief Method PopScissors, addr 0x6b83970, size 0xb0, virtual false, abstract: false, final false
-  inline void PopScissors(::UnityEngine::UIElements::UIR::Entry* parentEntry);
+/// @brief Method PopScissors, addr 0x6b854e8, size 0xb0, virtual false, abstract: false, final false
+inline void PopScissors(::UnityEngine::UIElements::UIR::Entry*  parentEntry) ;
 
-  /// @brief Method PopStencilMask, addr 0x6b836b0, size 0xb0, virtual false, abstract: false, final false
-  inline void PopStencilMask(::UnityEngine::UIElements::UIR::Entry* parentEntry);
+/// @brief Method PopStencilMask, addr 0x6b85228, size 0xb0, virtual false, abstract: false, final false
+inline void PopStencilMask(::UnityEngine::UIElements::UIR::Entry*  parentEntry) ;
 
-  /// @brief Method PushClippingRect, addr 0x6b83760, size 0xb0, virtual false, abstract: false, final false
-  inline void PushClippingRect(::UnityEngine::UIElements::UIR::Entry* parentEntry);
+/// @brief Method PushClippingRect, addr 0x6b852d8, size 0xb0, virtual false, abstract: false, final false
+inline void PushClippingRect(::UnityEngine::UIElements::UIR::Entry*  parentEntry) ;
 
-  /// @brief Method PushDefaultMaterial, addr 0x6b83ce0, size 0xb8, virtual false, abstract: false, final false
-  inline void PushDefaultMaterial(::UnityEngine::UIElements::UIR::Entry* parentEntry, ::UnityEngine::Material* material);
+/// @brief Method PushDefaultMaterial, addr 0x6b85858, size 0xb8, virtual false, abstract: false, final false
+inline void PushDefaultMaterial(::UnityEngine::UIElements::UIR::Entry*  parentEntry, ::UnityEngine::Material*  material) ;
 
-  /// @brief Method PushGroupMatrix, addr 0x6b83a20, size 0xb0, virtual false, abstract: false, final false
-  inline void PushGroupMatrix(::UnityEngine::UIElements::UIR::Entry* parentEntry);
+/// @brief Method PushGroupMatrix, addr 0x6b85598, size 0xb0, virtual false, abstract: false, final false
+inline void PushGroupMatrix(::UnityEngine::UIElements::UIR::Entry*  parentEntry) ;
 
-  /// @brief Method PushRenderTexture, addr 0x6b83b80, size 0xb0, virtual false, abstract: false, final false
-  inline void PushRenderTexture(::UnityEngine::UIElements::UIR::Entry* parentEntry);
+/// @brief Method PushRenderTexture, addr 0x6b856f8, size 0xb0, virtual false, abstract: false, final false
+inline void PushRenderTexture(::UnityEngine::UIElements::UIR::Entry*  parentEntry) ;
 
-  /// @brief Method PushScissors, addr 0x6b838c0, size 0xb0, virtual false, abstract: false, final false
-  inline void PushScissors(::UnityEngine::UIElements::UIR::Entry* parentEntry);
+/// @brief Method PushScissors, addr 0x6b85438, size 0xb0, virtual false, abstract: false, final false
+inline void PushScissors(::UnityEngine::UIElements::UIR::Entry*  parentEntry) ;
 
-  constexpr ::UnityEngine::UIElements::UIR::EntryPool* const& __cordl_internal_get_m_EntryPool() const;
+constexpr ::UnityEngine::UIElements::UIR::EntryPool* const& __cordl_internal_get_m_EntryPool() const;
 
-  constexpr ::UnityEngine::UIElements::UIR::EntryPool*& __cordl_internal_get_m_EntryPool();
+constexpr ::UnityEngine::UIElements::UIR::EntryPool*& __cordl_internal_get_m_EntryPool() ;
 
-  constexpr void __cordl_internal_set_m_EntryPool(::UnityEngine::UIElements::UIR::EntryPool* value);
+constexpr void __cordl_internal_set_m_EntryPool(::UnityEngine::UIElements::UIR::EntryPool*  value) ;
 
-  /// @brief Method .ctor, addr 0x6b82efc, size 0x74, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::UIElements::UIR::EntryPool* entryPool);
+/// @brief Method .ctor, addr 0x6b84a74, size 0x74, virtual false, abstract: false, final false
+inline void _ctor(::UnityEngine::UIElements::UIR::EntryPool*  entryPool) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr EntryRecorder();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr EntryRecorder() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EntryRecorder", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  EntryRecorder(EntryRecorder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EntryRecorder", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  EntryRecorder(EntryRecorder const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "EntryRecorder", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+EntryRecorder(EntryRecorder && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5296 };
+// Ctor Parameters [CppParam { name: "", ty: "EntryRecorder", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+EntryRecorder(EntryRecorder const& ) = delete;
 
-  /// @brief Field m_EntryPool, offset: 0x10, size: 0x8, def value: None
-  ::UnityEngine::UIElements::UIR::EntryPool* ___m_EntryPool;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{5296};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field m_EntryPool, offset: 0x10, size: 0x8, def value: None
+ ::UnityEngine::UIElements::UIR::EntryPool*  ___m_EntryPool;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::UIElements::UIR::EntryRecorder, ___m_EntryPool) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::EntryRecorder, 0x18>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements::UIR
+} // namespace end def UnityEngine::UIElements::UIR
 NEED_NO_BOX(::UnityEngine::UIElements::UIR::EntryRecorder);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UIR::EntryRecorder*, "UnityEngine.UIElements.UIR", "EntryRecorder");

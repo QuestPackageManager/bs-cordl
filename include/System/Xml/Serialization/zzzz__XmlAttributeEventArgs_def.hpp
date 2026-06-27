@@ -25,90 +25,90 @@ namespace System::Xml::Serialization {
 // CS Name: System.Xml.Serialization.XmlAttributeEventArgs
 class CORDL_TYPE XmlAttributeEventArgs : public ::System::EventArgs {
 public:
-  // Declarations
-  /// @brief Field attr, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_attr, put = __cordl_internal_set_attr)) ::System::Xml::XmlAttribute* attr;
+// Declarations
+/// @brief Field attr, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_attr, put=__cordl_internal_set_attr)) ::System::Xml::XmlAttribute*  attr;
 
-  /// @brief Field lineNumber, offset 0x28, size 0x4
-  __declspec(property(get = __cordl_internal_get_lineNumber, put = __cordl_internal_set_lineNumber)) int32_t lineNumber;
+/// @brief Field lineNumber, offset 0x28, size 0x4 
+ __declspec(property(get=__cordl_internal_get_lineNumber, put=__cordl_internal_set_lineNumber)) int32_t  lineNumber;
 
-  /// @brief Field linePosition, offset 0x2c, size 0x4
-  __declspec(property(get = __cordl_internal_get_linePosition, put = __cordl_internal_set_linePosition)) int32_t linePosition;
+/// @brief Field linePosition, offset 0x2c, size 0x4 
+ __declspec(property(get=__cordl_internal_get_linePosition, put=__cordl_internal_set_linePosition)) int32_t  linePosition;
 
-  /// @brief Field o, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_o, put = __cordl_internal_set_o)) ::System::Object* o;
+/// @brief Field o, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_o, put=__cordl_internal_set_o)) ::System::Object*  o;
 
-  /// @brief Field qnames, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_qnames, put = __cordl_internal_set_qnames)) ::StringW qnames;
+/// @brief Field qnames, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_qnames, put=__cordl_internal_set_qnames)) ::StringW  qnames;
 
-  static inline ::System::Xml::Serialization::XmlAttributeEventArgs* New_ctor(::System::Xml::XmlAttribute* attr, int32_t lineNumber, int32_t linePosition, ::System::Object* o, ::StringW qnames);
+static inline ::System::Xml::Serialization::XmlAttributeEventArgs* New_ctor(::System::Xml::XmlAttribute*  attr, int32_t  lineNumber, int32_t  linePosition, ::System::Object*  o, ::StringW  qnames) ;
 
-  constexpr ::System::Xml::XmlAttribute* const& __cordl_internal_get_attr() const;
+constexpr ::System::Xml::XmlAttribute* const& __cordl_internal_get_attr() const;
 
-  constexpr ::System::Xml::XmlAttribute*& __cordl_internal_get_attr();
+constexpr ::System::Xml::XmlAttribute*& __cordl_internal_get_attr() ;
 
-  constexpr int32_t const& __cordl_internal_get_lineNumber() const;
+constexpr int32_t const& __cordl_internal_get_lineNumber() const;
 
-  constexpr int32_t& __cordl_internal_get_lineNumber();
+constexpr int32_t& __cordl_internal_get_lineNumber() ;
 
-  constexpr int32_t const& __cordl_internal_get_linePosition() const;
+constexpr int32_t const& __cordl_internal_get_linePosition() const;
 
-  constexpr int32_t& __cordl_internal_get_linePosition();
+constexpr int32_t& __cordl_internal_get_linePosition() ;
 
-  constexpr ::System::Object* const& __cordl_internal_get_o() const;
+constexpr ::System::Object* const& __cordl_internal_get_o() const;
 
-  constexpr ::System::Object*& __cordl_internal_get_o();
+constexpr ::System::Object*& __cordl_internal_get_o() ;
 
-  constexpr ::StringW const& __cordl_internal_get_qnames() const;
+constexpr ::StringW const& __cordl_internal_get_qnames() const;
 
-  constexpr ::StringW& __cordl_internal_get_qnames();
+constexpr ::StringW& __cordl_internal_get_qnames() ;
 
-  constexpr void __cordl_internal_set_attr(::System::Xml::XmlAttribute* value);
+constexpr void __cordl_internal_set_attr(::System::Xml::XmlAttribute*  value) ;
 
-  constexpr void __cordl_internal_set_lineNumber(int32_t value);
+constexpr void __cordl_internal_set_lineNumber(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_linePosition(int32_t value);
+constexpr void __cordl_internal_set_linePosition(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_o(::System::Object* value);
+constexpr void __cordl_internal_set_o(::System::Object*  value) ;
 
-  constexpr void __cordl_internal_set_qnames(::StringW value);
+constexpr void __cordl_internal_set_qnames(::StringW  value) ;
 
-  /// @brief Method .ctor, addr 0x61a9010, size 0x8c, virtual false, abstract: false, final false
-  inline void _ctor(::System::Xml::XmlAttribute* attr, int32_t lineNumber, int32_t linePosition, ::System::Object* o, ::StringW qnames);
+/// @brief Method .ctor, addr 0x61aab88, size 0x8c, virtual false, abstract: false, final false
+inline void _ctor(::System::Xml::XmlAttribute*  attr, int32_t  lineNumber, int32_t  linePosition, ::System::Object*  o, ::StringW  qnames) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr XmlAttributeEventArgs();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr XmlAttributeEventArgs() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlAttributeEventArgs", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  XmlAttributeEventArgs(XmlAttributeEventArgs&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlAttributeEventArgs", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  XmlAttributeEventArgs(XmlAttributeEventArgs const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "XmlAttributeEventArgs", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+XmlAttributeEventArgs(XmlAttributeEventArgs && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9466 };
+// Ctor Parameters [CppParam { name: "", ty: "XmlAttributeEventArgs", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+XmlAttributeEventArgs(XmlAttributeEventArgs const& ) = delete;
 
-  /// @brief Field o, offset: 0x10, size: 0x8, def value: None
-  ::System::Object* ___o;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9467};
 
-  /// @brief Field attr, offset: 0x18, size: 0x8, def value: None
-  ::System::Xml::XmlAttribute* ___attr;
+/// @brief Field o, offset: 0x10, size: 0x8, def value: None
+ ::System::Object*  ___o;
 
-  /// @brief Field qnames, offset: 0x20, size: 0x8, def value: None
-  ::StringW ___qnames;
+/// @brief Field attr, offset: 0x18, size: 0x8, def value: None
+ ::System::Xml::XmlAttribute*  ___attr;
 
-  /// @brief Field lineNumber, offset: 0x28, size: 0x4, def value: None
-  int32_t ___lineNumber;
+/// @brief Field qnames, offset: 0x20, size: 0x8, def value: None
+ ::StringW  ___qnames;
 
-  /// @brief Field linePosition, offset: 0x2c, size: 0x4, def value: None
-  int32_t ___linePosition;
+/// @brief Field lineNumber, offset: 0x28, size: 0x4, def value: None
+ int32_t  ___lineNumber;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field linePosition, offset: 0x2c, size: 0x4, def value: None
+ int32_t  ___linePosition;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Xml::Serialization::XmlAttributeEventArgs, ___o) == 0x10, "Offset mismatch!");
@@ -123,6 +123,6 @@ static_assert(offsetof(::System::Xml::Serialization::XmlAttributeEventArgs, ___l
 
 static_assert(::cordl_internals::size_check_v<::System::Xml::Serialization::XmlAttributeEventArgs, 0x30>, "Size mismatch!");
 
-} // namespace System::Xml::Serialization
+} // namespace end def System::Xml::Serialization
 NEED_NO_BOX(::System::Xml::Serialization::XmlAttributeEventArgs);
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Serialization::XmlAttributeEventArgs*, "System.Xml.Serialization", "XmlAttributeEventArgs");

@@ -21,37 +21,37 @@ namespace GlobalNamespace {
 // CS Name: System.Linq.Expressions.Interpreter.AddInstruction/AddDouble
 class CORDL_TYPE AddInstruction_AddDouble : public ::System::Linq::Expressions::Interpreter::AddInstruction {
 public:
-  // Declarations
-  static inline ::GlobalNamespace::AddInstruction_AddDouble* New_ctor();
+// Declarations
+static inline ::GlobalNamespace::AddInstruction_AddDouble* New_ctor() ;
 
-  /// @brief Method Run, addr 0x5e496d8, size 0x10c, virtual true, abstract: false, final false
-  inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
+/// @brief Method Run, addr 0x5e4b250, size 0x10c, virtual true, abstract: false, final false
+inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame*  frame) ;
 
-  /// @brief Method .ctor, addr 0x5e48f88, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5e4ab00, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AddInstruction_AddDouble();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr AddInstruction_AddDouble() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AddInstruction_AddDouble", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  AddInstruction_AddDouble(AddInstruction_AddDouble&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AddInstruction_AddDouble", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  AddInstruction_AddDouble(AddInstruction_AddDouble const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "AddInstruction_AddDouble", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+AddInstruction_AddDouble(AddInstruction_AddDouble && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16223 };
+// Ctor Parameters [CppParam { name: "", ty: "AddInstruction_AddDouble", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+AddInstruction_AddDouble(AddInstruction_AddDouble const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{16225};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::AddInstruction_AddDouble, 0x10>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::AddInstruction_AddDouble);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::AddInstruction_AddDouble*, "System.Linq.Expressions.Interpreter", "AddInstruction/AddDouble");

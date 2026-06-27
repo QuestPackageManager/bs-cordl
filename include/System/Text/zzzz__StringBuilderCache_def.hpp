@@ -22,45 +22,45 @@ namespace System::Text {
 // CS Name: System.Text.StringBuilderCache
 class CORDL_TYPE StringBuilderCache : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field t_cachedInstance, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_t_cachedInstance, put = setStaticF_t_cachedInstance)) ::System::Text::StringBuilder* t_cachedInstance;
+// Declarations
+/// @brief Field t_cachedInstance, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_t_cachedInstance, put=setStaticF_t_cachedInstance)) ::System::Text::StringBuilder*  t_cachedInstance;
 
-  /// @brief Method Acquire, addr 0x599de94, size 0x124, virtual false, abstract: false, final false
-  static inline ::System::Text::StringBuilder* Acquire(int32_t capacity);
+/// @brief Method Acquire, addr 0x60676a4, size 0x124, virtual false, abstract: false, final false
+static inline ::System::Text::StringBuilder* Acquire(int32_t  capacity) ;
 
-  /// @brief Method GetStringAndRelease, addr 0x599e070, size 0x3c, virtual false, abstract: false, final false
-  static inline ::StringW GetStringAndRelease(::System::Text::StringBuilder* sb);
+/// @brief Method GetStringAndRelease, addr 0x60677c8, size 0x3c, virtual false, abstract: false, final false
+static inline ::StringW GetStringAndRelease(::System::Text::StringBuilder*  sb) ;
 
-  /// @brief Method Release, addr 0x599dfb8, size 0xb8, virtual false, abstract: false, final false
-  static inline void Release(::System::Text::StringBuilder* sb);
+/// @brief Method Release, addr 0x606b64c, size 0xb8, virtual false, abstract: false, final false
+static inline void Release(::System::Text::StringBuilder*  sb) ;
 
-  static inline ::System::Text::StringBuilder* getStaticF_t_cachedInstance();
+static inline ::System::Text::StringBuilder* getStaticF_t_cachedInstance() ;
 
-  static inline void setStaticF_t_cachedInstance(::System::Text::StringBuilder* value);
+static inline void setStaticF_t_cachedInstance(::System::Text::StringBuilder*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr StringBuilderCache();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr StringBuilderCache() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StringBuilderCache", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  StringBuilderCache(StringBuilderCache&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StringBuilderCache", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  StringBuilderCache(StringBuilderCache const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "StringBuilderCache", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+StringBuilderCache(StringBuilderCache && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2873 };
+// Ctor Parameters [CppParam { name: "", ty: "StringBuilderCache", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+StringBuilderCache(StringBuilderCache const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{21825};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Text::StringBuilderCache, 0x10>, "Size mismatch!");
 
-} // namespace System::Text
+} // namespace end def System::Text
 NEED_NO_BOX(::System::Text::StringBuilderCache);
 DEFINE_IL2CPP_ARG_TYPE(::System::Text::StringBuilderCache*, "System.Text", "StringBuilderCache");

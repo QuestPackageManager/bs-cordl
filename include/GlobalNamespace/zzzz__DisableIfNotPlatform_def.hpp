@@ -20,53 +20,51 @@ namespace GlobalNamespace {
 // CS Name: DisableIfNotPlatform
 class CORDL_TYPE DisableIfNotPlatform : public ::UnityEngine::MonoBehaviour {
 public:
-  // Declarations
-  /// @brief Field _whitelistPlatforms, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__whitelistPlatforms,
-                      put = __cordl_internal_set__whitelistPlatforms)) ::ArrayW<::UnityEngine::RuntimePlatform, ::Array<::UnityEngine::RuntimePlatform>*>
-      _whitelistPlatforms;
+// Declarations
+/// @brief Field _whitelistPlatforms, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get__whitelistPlatforms, put=__cordl_internal_set__whitelistPlatforms)) ::ArrayW<::UnityEngine::RuntimePlatform,::Array<::UnityEngine::RuntimePlatform>*>  _whitelistPlatforms;
 
-  /// @brief Method Awake, addr 0x570a040, size 0x108, virtual false, abstract: false, final false
-  inline void Awake();
+/// @brief Method Awake, addr 0x570b8a8, size 0x108, virtual false, abstract: false, final false
+inline void Awake() ;
 
-  static inline ::GlobalNamespace::DisableIfNotPlatform* New_ctor();
+static inline ::GlobalNamespace::DisableIfNotPlatform* New_ctor() ;
 
-  constexpr ::ArrayW<::UnityEngine::RuntimePlatform, ::Array<::UnityEngine::RuntimePlatform>*> const& __cordl_internal_get__whitelistPlatforms() const;
+constexpr ::ArrayW<::UnityEngine::RuntimePlatform,::Array<::UnityEngine::RuntimePlatform>*> const& __cordl_internal_get__whitelistPlatforms() const;
 
-  constexpr ::ArrayW<::UnityEngine::RuntimePlatform, ::Array<::UnityEngine::RuntimePlatform>*>& __cordl_internal_get__whitelistPlatforms();
+constexpr ::ArrayW<::UnityEngine::RuntimePlatform,::Array<::UnityEngine::RuntimePlatform>*>& __cordl_internal_get__whitelistPlatforms() ;
 
-  constexpr void __cordl_internal_set__whitelistPlatforms(::ArrayW<::UnityEngine::RuntimePlatform, ::Array<::UnityEngine::RuntimePlatform>*> value);
+constexpr void __cordl_internal_set__whitelistPlatforms(::ArrayW<::UnityEngine::RuntimePlatform,::Array<::UnityEngine::RuntimePlatform>*>  value) ;
 
-  /// @brief Method .ctor, addr 0x570a148, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x570b9b0, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DisableIfNotPlatform();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr DisableIfNotPlatform() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DisableIfNotPlatform", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  DisableIfNotPlatform(DisableIfNotPlatform&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DisableIfNotPlatform", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  DisableIfNotPlatform(DisableIfNotPlatform const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "DisableIfNotPlatform", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+DisableIfNotPlatform(DisableIfNotPlatform && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22900 };
+// Ctor Parameters [CppParam { name: "", ty: "DisableIfNotPlatform", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+DisableIfNotPlatform(DisableIfNotPlatform const& ) = delete;
 
-  /// @brief Field _whitelistPlatforms, offset: 0x20, size: 0x8, def value: None
-  ::ArrayW<::UnityEngine::RuntimePlatform, ::Array<::UnityEngine::RuntimePlatform>*> ____whitelistPlatforms;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22904};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _whitelistPlatforms, offset: 0x20, size: 0x8, def value: None
+ ::ArrayW<::UnityEngine::RuntimePlatform,::Array<::UnityEngine::RuntimePlatform>*>  ____whitelistPlatforms;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::DisableIfNotPlatform, ____whitelistPlatforms) == 0x20, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::DisableIfNotPlatform, 0x28>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::DisableIfNotPlatform);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::DisableIfNotPlatform*, "", "DisableIfNotPlatform");
