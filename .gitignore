@@ -3,3 +3,4 @@ extern/
 ndkpath.txt
 *.cmake
 !cmake/*.cmake
+apk/
